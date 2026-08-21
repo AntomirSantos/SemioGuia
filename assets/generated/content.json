@@ -4,7 +4,7 @@
   {
    "id": "exame-fisico-geral",
    "titulo": "Exame físico geral",
-   "cor": "#0EA5A4",
+   "cor": "#4A90D9",
    "icone": "stethoscope",
    "ordem": 1,
    "capitulos": [
