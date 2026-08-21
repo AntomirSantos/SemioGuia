@@ -37,45 +37,88 @@ referencias:
 revisao: pendente
 ---
 
-::: conceito
-titulo: Dois sinais baratos e frequentemente mal medidos
-texto: |
-  **Temperatura.** O interior do corpo é mantido praticamente constante, com variação de no máximo cerca de 0,6 °C, pelo termostato hipotalâmico. A pele, ao contrário, acompanha o ambiente. Há variação circadiana previsível: os valores mais baixos ocorrem por volta das 6 h e os mais altos no fim da tarde. Também elevam a temperatura as refeições, o exercício intenso, estados emocionais, a gravidez e a ovulação — na mulher hígida a curva térmica basal sobe na ovulação e cai 24 a 36 h antes da menstruação.
-
-  Na febre, pirogênios liberados por bactérias ou por tecidos em degeneração deslocam para cima o ponto de ajuste do termostato hipotalâmico; os mecanismos de conservação e produção de calor são acionados até que a nova temperatura-alvo seja atingida — daí os calafrios. Hipertermia é diferente: a temperatura sobe por sobrecarga externa (insolação, roupa inadequada, esforço extenuante) sem deslocamento do ponto de ajuste.
-
-  **No adulto, considera-se febre a temperatura axilar acima de 37,8 °C.** A faixa de 37,3 a 37,7 °C é o **estado subfebril**, que pede repetição da medida e correlação clínica — lembrando que o fim da tarde naturalmente eleva a temperatura.
-
-  A febre raramente vem sozinha. A **síndrome febril** inclui astenia, inapetência, cefaleia, taquicardia, taquipneia, oligúria, mialgia, calafrios, sudorese, náuseas e, nos extremos de idade, delírio, confusão mental e convulsões.
-
-  Atenção ao paciente que "não faz febre": idosos, diabéticos, pacientes em choque ou em mau estado geral podem apresentar apenas febrícula — ou nenhuma elevação — diante de infecção grave. A ausência de febre nessa situação é sinal de mau prognóstico, não de tranquilidade.
-
-  **Frequência respiratória.** O padrão normal do adulto — eupneia — é uma sucessão regular de incursões de amplitude semelhante. A faixa normal é de **16 a 20 incursões por minuto (irpm)**: acima de 20, **taquipneia**; abaixo de 16, **bradipneia**.
-
-  Nota de aprofundamento: medições cuidadosas em adultos sem febre e sem doença cardiopulmonar (McGee) encontram média em torno de 20 irpm, com faixa de até 25 — na prática à beira do leito, uma FR persistentemente ≥ 25 irpm é um limiar que discrimina melhor doença real.
-
-  A FR é o único sinal vital sob controle voluntário: se o paciente perceber que está sendo contado, o número muda. Por isso a contagem é feita com discrição, tipicamente enquanto o examinador ainda segura o punho como se palpasse o pulso.
+::: secao
+titulo: Temperatura — o essencial
 :::
 
-::: manobra
-titulo: Medir a temperatura axilar e contar a frequência respiratória
-passos:
-  - "Limpe o termômetro com algodão embebido em álcool. Se for de coluna de mercúrio, confira que a coluna esteja em 35 °C ou abaixo e abaixe-a se necessário."
-  - "Seque a axila do paciente, se estiver úmida."
-  - "Posicione o bulbo exatamente no oco axilar e apoie o braço do paciente sobre o tórax."
-  - "Mantenha o termômetro de mercúrio por cerca de 5 minutos; o digital costuma bastar 1 minuto."
-  - "Enquanto aguarda, use o tempo para observar os outros sinais vitais."
-  - "Retire o termômetro pela extremidade oposta ao bulbo e faça a leitura."
-  - "Registre o valor, o local de aferição e o horário — a temperatura isolada vale pouco; a curva vale muito."
-  - "Para a frequência respiratória, mantenha os dedos sobre o punho do paciente como se ainda contasse o pulso."
-  - "Observe a elevação do tórax e conte as incursões por 60 segundos completos."
-  - "Anote também a amplitude e a regularidade das incursões, não apenas o número."
-observar: |
-  Locais de aferição alternativos e suas limitações: a via bucal não serve para inconscientes, pacientes graves, portadores de transtorno mental, crianças, idosos e pessoas com alterações orofaríngeas, nem logo após fumar ou ingerir alimentos quentes e gelados; a via retal exige termômetro próprio, de bulbo arredondado; a medida timpânica é a mais variável entre os métodos.
+::: conceito
+titulo: O que o termostato hipotalâmico faz
+texto: |
+  O interior do corpo é mantido quase constante, com variação de no máximo cerca de 0,6 °C. A pele, ao contrário, acompanha o ambiente.
 
-  Fatores que distorcem a temperatura bucal: mastigação prolongada eleva cerca de 0,3 °C por até 20 minutos, líquido quente eleva 0,6 a 0,9 °C, cigarro eleva cerca de 0,2 °C por 30 minutos e água gelada reduz 0,2 a 1,2 °C. A taquipneia reduz a leitura bucal em cerca de 0,5 °C a cada 10 irpm de aumento na frequência respiratória. Na hemiparesia, a temperatura axilar é cerca de 0,5 °C menor do lado fraco.
+  A variação circadiana é previsível: os valores mais baixos ocorrem por volta das 6 h e os mais altos no fim da tarde. Também elevam a temperatura as refeições, o exercício intenso, os estados emocionais, a gravidez e a ovulação. Na mulher hígida a curva térmica basal sobe na ovulação e cai 24 a 36 h antes da menstruação.
+:::
 
-  Em suspeita de abdome agudo ou de afecção pélvica inflamatória, uma diferença maior que 0,5 °C entre as temperaturas axilar e retal tem valor clínico.
+::: conceito
+titulo: Febre não é hipertermia
+texto: |
+  Na febre, pirogênios liberados por bactérias ou por tecidos em degeneração deslocam para cima o ponto de ajuste do termostato. Os mecanismos de conservação e produção de calor são acionados até que a nova temperatura-alvo seja atingida — daí os calafrios.
+
+  Na hipertermia o ponto de ajuste não se desloca. A temperatura sobe por sobrecarga externa: insolação, roupa inadequada, esforço extenuante.
+
+  **No adulto, considera-se febre a temperatura axilar acima de 37,8 °C.** A faixa de 37,3 a 37,7 °C é o **estado subfebril**, que pede repetição da medida e correlação clínica. Lembre que o fim da tarde naturalmente eleva a temperatura.
+:::
+
+::: secao
+titulo: Como medir a temperatura
+:::
+
+::: ilustracao
+svg: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- silhueta neutra: braco esquerdo elevado para expor a axila -->
+    <g stroke="currentColor" stroke-width="2" fill="none">
+      <ellipse cx="140" cy="42" rx="25" ry="27" />
+      <path d="M 116 38 C 107 38, 107 52, 116 50" stroke-width="1.5" />
+      <path d="M 164 38 C 173 38, 173 52, 164 50" stroke-width="1.5" />
+      <path d="M 128 66 L 126 80" />
+      <path d="M 152 66 L 154 80" />
+      <path d="M 126 80 C 114 82, 102 86, 90 86" />
+      <path d="M 90 86 C 76 78, 58 66, 44 56" />
+      <path d="M 44 56 C 33 50, 23 55, 25 64 C 27 73, 42 78, 54 72" />
+      <path d="M 54 72 C 68 84, 88 100, 102 110" />
+      <path d="M 102 110 C 96 124, 92 140, 94 158" />
+      <path d="M 154 80 C 172 84, 190 92, 196 108 C 204 126, 206 142, 206 158" />
+      <path d="M 173 102 C 176 120, 176 140, 177 158" />
+      <path d="M 184 158 C 184 132, 180 112, 173 102" />
+      <path d="M 184 158 L 206 158" />
+      <path d="M 94 158 L 177 158" />
+    </g>
+    <!-- seta para o local retal, fora da silhueta -->
+    <g stroke="currentColor" stroke-width="2" fill="none">
+      <path d="M 140 158 L 140 170" />
+      <path d="M 134 164 L 140 171 L 146 164" />
+    </g>
+    <!-- marcadores dos locais de afericao -->
+    <g stroke="currentColor" stroke-width="1.5" fill="currentColor" fill-opacity="0.12">
+      <circle cx="90" cy="116" r="8" />
+      <circle cx="140" cy="56" r="8" />
+      <circle cx="190" cy="44" r="8" />
+      <circle cx="140" cy="181" r="9" />
+    </g>
+    <g font-family="sans-serif" font-size="11" fill="currentColor" stroke="none" text-anchor="middle">
+      <text x="90" y="120">1</text>
+      <text x="140" y="60">2</text>
+      <text x="190" y="48">3</text>
+      <text x="140" y="185">4</text>
+    </g>
+    <!-- chamadas -->
+    <g stroke="currentColor" stroke-width="1.5" fill="none">
+      <path d="M 70 141 L 84 125" />
+      <path d="M 82 133 L 84 125 L 76 128" />
+      <path d="M 108 57 L 130 57" />
+      <path d="M 124 53 L 130 57 L 124 61" />
+      <path d="M 181 44 L 172 45" />
+      <path d="M 178 41 L 172 45 L 178 48" />
+    </g>
+    <g font-family="sans-serif" font-size="11" fill="currentColor" stroke="none">
+      <text x="34" y="146">axilar</text>
+      <text x="104" y="60" text-anchor="end">bucal</text>
+      <text x="202" y="48">timpânica</text>
+      <text x="154" y="185">retal</text>
+    </g>
+  </svg>
+legenda: "Os quatro locais de aferição: axilar, bucal, timpânica e retal."
 :::
 
 ::: tabela
@@ -88,14 +131,37 @@ linhas:
   - ["Timpânica / frontal (infravermelho)", "Próxima da retal", "Método rápido, porém o de maior variabilidade"]
 :::
 
+::: manobra
+titulo: Medida da temperatura axilar
+passos:
+  - "Limpe o termômetro com algodão embebido em álcool. Se for de coluna de mercúrio, confira que a coluna esteja em 35 °C ou abaixo e abaixe-a se necessário."
+  - "Seque a axila do paciente, se estiver úmida."
+  - "Posicione o bulbo exatamente no oco axilar e apoie o braço do paciente sobre o tórax."
+  - "Mantenha o termômetro de mercúrio por cerca de 5 minutos; o digital costuma bastar 1 minuto."
+  - "Enquanto aguarda, use o tempo para observar os outros sinais vitais."
+  - "Retire o termômetro pela extremidade oposta ao bulbo e faça a leitura."
+  - "Registre o valor, o local de aferição e o horário — a temperatura isolada vale pouco; a curva vale muito."
+:::
+
 ::: conceito
-titulo: Febre na criança — SBP 2025
+titulo: Outras vias e o que as distorce
+nivel: avancado
 texto: |
-  Na criança, o ponto de corte é diferente do adulto. O Documento Científico nº 206 da Sociedade Brasileira de Pediatria (maio de 2025) **reduziu o limiar de febre de 37,8 °C para ≥ 37,5 °C na temperatura axilar** (equivalente a ≥ 38 °C por via oral ou retal). Valores axilares de **37,3 a 37,5 °C** configuram **estado febril** (temperatura limítrofe), que pede observação.
+  A via bucal não serve para inconscientes, pacientes graves, portadores de transtorno mental, crianças, idosos e pessoas com alterações orofaríngeas. Também não serve logo após fumar ou ingerir alimentos quentes e gelados. A via retal exige termômetro próprio, de bulbo arredondado. A medida timpânica é a mais variável entre os métodos.
 
-  A via recomendada em todas as crianças é a **axilar com termômetro digital**. Evitam-se os termômetros de mercúrio (risco de quebra e toxicidade); a via retal, embora mais próxima da temperatura central, é desconfortável e invasiva — não deve ser rotina em menores de 5 anos — e a via oral também deve ser evitada.
+  Fatores que distorcem a temperatura bucal:
 
-  O documento reforça que o número isolado importa menos que a avaliação clínica integrada da criança: estado geral, hidratação, perfusão e comportamento pesam mais que décimos de grau.
+  - Mastigação prolongada: eleva cerca de 0,3 °C por até 20 minutos.
+  - Líquido quente: eleva 0,6 a 0,9 °C.
+  - Cigarro: eleva cerca de 0,2 °C por 30 minutos.
+  - Água gelada: reduz 0,2 a 1,2 °C.
+  - Taquipneia: reduz a leitura em cerca de 0,5 °C a cada 10 irpm de aumento na frequência respiratória.
+
+  Na hemiparesia, a temperatura axilar é cerca de 0,5 °C menor do lado fraco. Em suspeita de abdome agudo ou de afecção pélvica inflamatória, uma diferença maior que 0,5 °C entre as temperaturas axilar e retal tem valor clínico.
+:::
+
+::: secao
+titulo: Febre
 :::
 
 ::: tabela
@@ -108,6 +174,69 @@ linhas:
   - ["Hipotermia", "abaixo de 35,5 °C na axila (ou abaixo de 35 °C no reto)"]
 :::
 
+::: conceito
+titulo: Febre na criança — SBP 2025
+texto: |
+  Na criança, o ponto de corte é diferente do adulto. O Documento Científico nº 206 da Sociedade Brasileira de Pediatria (maio de 2025) baixou o limiar de febre. De 37,8 °C, ele passou a **≥ 37,5 °C na temperatura axilar** — equivalente a ≥ 38 °C por via oral ou retal.
+
+  Valores axilares de **37,3 a 37,5 °C** configuram **estado febril** (temperatura limítrofe), que pede observação.
+
+  A via recomendada em todas as crianças é a **axilar com termômetro digital**. Evite o termômetro de mercúrio, pelo risco de quebra e toxicidade. A via retal, embora mais próxima da temperatura central, é desconfortável e invasiva: não deve ser rotina em menores de 5 anos. A via oral também deve ser evitada.
+
+  O documento reforça que o número isolado importa menos que a avaliação clínica integrada da criança. Estado geral, hidratação, perfusão e comportamento pesam mais que décimos de grau.
+:::
+
+::: entendimento
+titulo: A febre que não aparece
+texto: |
+  A febre raramente vem sozinha. A **síndrome febril** inclui astenia, inapetência, cefaleia, taquicardia, taquipneia, oligúria, mialgia, calafrios, sudorese e náuseas. Nos extremos de idade somam-se delírio, confusão mental e convulsões.
+
+  Atenção ao paciente que "não faz febre". Idosos, diabéticos, pacientes em choque ou em mau estado geral podem apresentar apenas febrícula — ou nenhuma elevação — diante de infecção grave.
+
+  A ausência de febre nessa situação é sinal de mau prognóstico, não de tranquilidade.
+:::
+
+::: ilustracao
+svg: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- eixos das quatro miniaturas -->
+    <g stroke="currentColor" stroke-width="1.5" fill="none">
+      <path d="M 30 26 L 30 86 L 150 86" />
+      <path d="M 180 26 L 180 86 L 300 86" />
+      <path d="M 30 142 L 30 202 L 150 202" />
+      <path d="M 180 142 L 180 202 L 300 202" />
+    </g>
+    <!-- linha basal (temperatura normal) -->
+    <g stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4" fill="none">
+      <path d="M 30 74 L 150 74" />
+      <path d="M 180 74 L 300 74" />
+      <path d="M 30 190 L 150 190" />
+      <path d="M 180 190 L 300 190" />
+    </g>
+    <!-- curvas -->
+    <g stroke="currentColor" stroke-width="2" fill="none">
+      <path d="M 30 74 L 40 40 L 52 36 L 64 40 L 76 36 L 88 40 L 100 36 L 112 40 L 124 36 L 136 40 L 150 38" />
+      <path d="M 180 74 L 190 34 L 200 74 L 212 74 L 222 34 L 232 74 L 244 74 L 254 34 L 264 74 L 276 74 L 286 34 L 296 74 L 300 74" />
+      <path d="M 30 190 L 40 152 L 52 178 L 64 150 L 76 178 L 88 152 L 100 180 L 112 150 L 124 178 L 136 154 L 148 178" />
+      <path d="M 180 190 L 188 154 L 216 152 L 224 190 L 248 190 L 256 154 L 284 152 L 292 190 L 300 190" />
+    </g>
+    <!-- referencias de leitura, apenas na primeira miniatura -->
+    <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+      <text x="24" y="31" text-anchor="end">°C</text>
+      <text x="34" y="84">normal</text>
+      <text x="150" y="96" text-anchor="end">dias</text>
+    </g>
+    <!-- nomes dos padroes -->
+    <g font-family="sans-serif" font-size="11" fill="currentColor" stroke="none" text-anchor="middle">
+      <text x="90" y="106">Contínua</text>
+      <text x="240" y="106">Intermitente</text>
+      <text x="90" y="222">Remitente</text>
+      <text x="240" y="222">Recorrente</text>
+    </g>
+  </svg>
+legenda: "Quatro padrões de curva térmica, com a linha tracejada marcando a temperatura normal."
+:::
+
 ::: tabela
 titulo: Padrões de curva térmica
 colunas: ["Padrão", "Comportamento da temperatura", "Exemplos de causas"]
@@ -115,22 +244,15 @@ linhas:
   - ["Contínua", "Sempre acima do normal, com variação diária de até 1 °C", "Pneumonia, endocardite infecciosa, febre tifoide, erisipela"]
   - ["Remitente", "Elevação diária com variação maior que 1 °C, mas sem apirexia", "Septicemia, pneumonia, tuberculose, abscesso pulmonar ou hepático"]
   - ["Intermitente", "Períodos de febre alternados com períodos de apirexia", "Malária, infecções urinárias, septicemia, linfomas"]
-  - ["Irregular ou séptica", "Picos muito altos entremeados por temperaturas baixas ou apirexia", "Septicemia, abscessos, tuberculose, neoplasias, osteomielite"]
-  - ["Recorrente ou ondulante", "Dias de febre interrompidos por apirexia que dura dias ou semanas", "Brucelose, linfomas (febre de Pel-Ebstein)"]
 :::
 
 ::: tabela
-titulo: Alterações do ritmo e da frequência respiratórios
-colunas: ["Termo", "Definição", "Exemplos de contexto"]
+titulo: Padrões menos frequentes
+nivel: avancado
+colunas: ["Padrão", "Comportamento da temperatura", "Exemplos de causas"]
 linhas:
-  - ["Eupneia", "Movimentos regulares e de amplitude semelhante", "Padrão normal"]
-  - ["Taquipneia", "Frequência acima da faixa normal do adulto", "Febre, pneumonia, embolia pulmonar, acidose, ansiedade"]
-  - ["Bradipneia", "Frequência abaixo da faixa normal do adulto", "Intoxicação por opioides, depressão do centro respiratório"]
-  - ["Apneia", "Parada dos movimentos respiratórios", "Parada respiratória, apneia do sono"]
-  - ["Ortopneia", "Dificuldade de respirar deitado, obrigando o paciente a sentar-se", "Insuficiência ventricular esquerda"]
-  - ["Cheyne-Stokes", "Amplitude crescente até um máximo, depois decrescente, podendo chegar à apneia", "Disfunção ventricular esquerda, lesões do sistema nervoso central"]
-  - ["Kussmaul", "Inspirações amplas e rápidas separadas por curtos períodos de apneia", "Cetoacidose diabética e outras acidoses metabólicas"]
-  - ["Biot", "Movimentos de amplitudes e intervalos irregulares, sem padrão", "Lesões bulbares, meningite"]
+  - ["Irregular ou séptica", "Picos muito altos entremeados por temperaturas baixas ou apirexia", "Septicemia, abscessos, tuberculose, neoplasias, osteomielite"]
+  - ["Recorrente ou ondulante", "Dias de febre interrompidos por apirexia que dura dias ou semanas", "Brucelose, linfomas (febre de Pel-Ebstein)"]
 :::
 
 ::: fluxograma
@@ -160,11 +282,58 @@ etapas:
     formato: fim
 :::
 
+::: secao
+titulo: Frequência respiratória
+:::
+
+::: conceito
+titulo: A faixa normal e os desvios
+texto: |
+  O padrão normal do adulto — **eupneia** — é uma sucessão regular de incursões de amplitude semelhante. A faixa normal é de **16 a 20 incursões por minuto (irpm)**: acima de 20, **taquipneia**; abaixo de 16, **bradipneia**.
+
+  A FR é o único sinal vital sob controle voluntário. Se o paciente perceber que está sendo contado, o número muda. Por isso a contagem é feita com discrição, tipicamente enquanto o examinador ainda segura o punho como se palpasse o pulso.
+:::
+
+::: manobra
+titulo: Contagem da frequência respiratória
+passos:
+  - "Mantenha os dedos sobre o punho do paciente como se ainda contasse o pulso."
+  - "Observe a elevação do tórax e conte as incursões por 60 segundos completos."
+  - "Anote também a amplitude e a regularidade das incursões, não apenas o número."
+:::
+
+::: conceito
+titulo: Onde fica o limiar que discrimina doença
+nivel: avancado
+texto: |
+  Medições cuidadosas em adultos sem febre e sem doença cardiopulmonar (McGee) encontram média em torno de 20 irpm, com faixa de até 25.
+
+  Na prática à beira do leito, uma FR persistentemente ≥ 25 irpm é um limiar que discrimina melhor doença real.
+:::
+
+::: tabela
+titulo: Alterações do ritmo e da frequência respiratórios
+colunas: ["Termo", "Definição", "Exemplos de contexto"]
+linhas:
+  - ["Eupneia", "Movimentos regulares e de amplitude semelhante", "Padrão normal"]
+  - ["Taquipneia", "Frequência acima da faixa normal do adulto", "Febre, pneumonia, embolia pulmonar, acidose, ansiedade"]
+  - ["Bradipneia", "Frequência abaixo da faixa normal do adulto", "Intoxicação por opioides, depressão do centro respiratório"]
+  - ["Apneia", "Parada dos movimentos respiratórios", "Parada respiratória, apneia do sono"]
+  - ["Ortopneia", "Dificuldade de respirar deitado, obrigando o paciente a sentar-se", "Insuficiência ventricular esquerda"]
+  - ["Cheyne-Stokes", "Amplitude crescente até um máximo, depois decrescente, podendo chegar à apneia", "Disfunção ventricular esquerda, lesões do sistema nervoso central"]
+  - ["Kussmaul", "Inspirações amplas e rápidas separadas por curtos períodos de apneia", "Cetoacidose diabética e outras acidoses metabólicas"]
+  - ["Biot", "Movimentos de amplitudes e intervalos irregulares, sem padrão", "Lesões bulbares, meningite"]
+:::
+
 ::: perola
 texto: |
-  A frequência respiratória é o sinal vital mais anotado e menos medido. Quando se compara o que foi registrado no prontuário com a contagem real, os valores anotados se concentram entre 16 e 22 irpm na grande maioria das vezes, mesmo em pacientes cuja frequência verdadeira variava de 10 a mais de 30.
+  A frequência respiratória é o sinal vital mais anotado e menos medido. Comparando o prontuário com a contagem real, os valores anotados se concentram entre 16 e 22 irpm na grande maioria das vezes — mesmo em pacientes cuja frequência verdadeira variava de 10 a mais de 30.
 
-  A causa é quase sempre a mesma: contar 15 segundos e multiplicar por quatro. Nessa forma abreviada, apenas cerca de 23% dos pacientes taquipneicos são identificados; com 60 segundos de observação, praticamente todos são. O minuto inteiro ainda permite reconhecer padrões que a contagem curta jamais mostraria, como a respiração de Cheyne-Stokes.
+  A causa é quase sempre a mesma: contar 15 segundos e multiplicar por quatro. Nessa forma abreviada, apenas cerca de 23% dos pacientes taquipneicos são identificados; com 60 segundos de observação, praticamente todos são. O minuto inteiro ainda revela padrões que a contagem curta jamais mostraria, como a respiração de Cheyne-Stokes.
+:::
+
+::: secao
+titulo: Teste rápido
 :::
 
 ::: quiz

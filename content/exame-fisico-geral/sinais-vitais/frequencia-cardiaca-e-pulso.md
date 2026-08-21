@@ -34,22 +34,90 @@ referencias:
 revisao: pendente
 ---
 
-::: conceito
-titulo: O pulso conta mais do que a frequência
-texto: |
-  A tomada do pulso radial é o gesto mais simples do exame físico e, muitas vezes, o primeiro contato direto entre médico e paciente. Bem feito, ele entrega sete informações, e não apenas um número:
+::: secao
+titulo: O essencial
+:::
 
-  1. **Estado da parede arterial** — normalmente lisa e facilmente depressível. Parede endurecida e tortuosa ("traqueia de passarinho") sugere mediosclerose de Mönckeberg, causa clássica de pseudo-hipertensão no idoso.
-  2. **Frequência** — em adultos em repouso, 60 a 100 bpm. Acima de 100, taquisfigmia (taquicardia); abaixo de 60, bradisfigmia (bradicardia). Atletas bem treinados podem ter 50 a 60 bpm sem doença.
+::: conceito
+titulo: Sete informações, não um número
+texto: |
+  A tomada do pulso radial é o gesto mais simples do exame físico. Muitas vezes é o primeiro contato direto entre médico e paciente. Bem feito, ele entrega sete informações.
+
+  1. **Estado da parede arterial** — normalmente lisa e facilmente depressível.
+  2. **Frequência** — 60 a 100 bpm no adulto em repouso. Acima de 100, taquisfigmia (taquicardia); abaixo de 60, bradisfigmia (bradicardia). Atletas bem treinados podem ter 50 a 60 bpm sem doença.
   3. **Ritmo** — regular quando os intervalos são iguais; irregular quando variam.
   4. **Amplitude** — amplo, mediano ou pequeno.
   5. **Tensão ou dureza** — a força necessária para interromper as pulsações. Pulso duro acompanha hipertensão; pulso mole, hipotensão.
-  6. **Tipo de onda** — normal; célere (em martelo d'água, da insuficiência aórtica); parvus (ascensão lenta e pico prolongado, da estenose aórtica grave); filiforme (pequeno e mole, do colapso circulatório); **alternante** (uma onda ampla seguida de outra fraca, com os intervalos entre elas sempre **regulares** — sinal de insuficiência ventricular esquerda; não confundir com o **pulso bigeminado**, em que a onda fraca é uma extrassístole que chega precocemente e deixa o intervalo irregular); paradoxal; bisferiens.
-  7. **Comparação com o lado homólogo** — a desigualdade aponta para obstrução na crossa da aorta ou nos troncos que dela partem.
+  6. **Tipo de onda** — normal, célere, parvus, filiforme, alternante, paradoxal ou bisferiens.
+  7. **Comparação com o lado homólogo** — a desigualdade aponta obstrução na crossa da aorta ou nos troncos que dela partem.
+:::
 
-  Causas frequentes de **taquicardia**: exercício, emoção, dor, febre, gravidez, hipovolemia, hipertireoidismo, insuficiência cardíaca, miocardite, taquicardia paroxística e fibrilação atrial. Causas frequentes de **bradicardia**: treinamento físico intenso, bradicardia sinusal, bloqueio atrioventricular, hipertensão intracraniana, icterícia e algumas infecções.
+::: conceito
+titulo: Quando a frequência sai da faixa
+texto: |
+  **Taquicardia**: exercício, emoção, dor, febre, gravidez, hipovolemia, hipertireoidismo, insuficiência cardíaca, miocardite, taquicardia paroxística e fibrilação atrial.
 
-  Frequência cardíaca e frequência de pulso não são sinônimas: quando algumas contrações ventriculares são ineficazes, o batimento existe no precórdio mas não gera onda de pulso na radial.
+  **Bradicardia**: treinamento físico intenso, bradicardia sinusal, bloqueio atrioventricular, hipertensão intracraniana, icterícia e algumas infecções.
+:::
+
+::: conceito
+titulo: Tipos de onda, um a um
+nivel: avancado
+texto: |
+  - **Célere**, em martelo d'água: sobe e some depressa. É da insuficiência aórtica.
+  - **Parvus**: ascensão lenta e pico prolongado. É da estenose aórtica grave.
+  - **Filiforme**: pequeno e mole. É do colapso circulatório.
+  - **Alternante**: uma onda ampla seguida de outra fraca, com os intervalos entre elas sempre **regulares**. Sinal de insuficiência ventricular esquerda.
+  - **Bigeminado**: a onda fraca é uma extrassístole que chega precocemente e deixa o intervalo **irregular**. É o que o separa do alternante.
+:::
+
+::: conceito
+titulo: Parede arterial endurecida
+nivel: avancado
+texto: |
+  Parede endurecida e tortuosa — a "traqueia de passarinho" — sugere mediosclerose de Mönckeberg. É causa clássica de pseudo-hipertensão no idoso.
+:::
+
+::: secao
+titulo: Como palpar
+:::
+
+::: ilustracao
+svg: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- antebraco e mao do paciente, palma para cima -->
+    <g stroke="currentColor" stroke-width="2" fill="none">
+      <path d="M 0 126 C 60 128, 130 134, 172 138" />
+      <path d="M 0 174 C 60 174, 130 170, 172 168" />
+      <path d="M 172 138 C 194 132, 218 131, 232 136 A 15 15 0 0 1 228 164 C 210 169, 190 169, 172 168" />
+      <path d="M 220 133 C 228 120, 244 116, 251 124 C 258 132, 246 141, 234 143" />
+    </g>
+    <!-- arteria radial, sob as polpas digitais -->
+    <path d="M 30 136 C 90 142, 140 148, 172 151" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3" fill="none" />
+    <!-- mao do examinador: indicador e medio sobre a arteria, polegar afastado -->
+    <g stroke="currentColor" stroke-width="2" fill="none">
+      <path d="M 112 0 C 111 14, 110 28, 108 44" />
+      <path d="M 142 0 C 143 14, 144 28, 146 44" />
+      <path d="M 108 44 C 98 52, 94 68, 100 86 C 103 92, 108 95, 113 95" />
+      <path d="M 146 44 C 158 50, 166 66, 164 84 C 162 92, 156 94, 151 93" />
+      <path d="M 113 95 L 120 136 C 123 141, 132 140, 134 134 L 127 93" />
+      <path d="M 127 93 L 137 93" />
+      <path d="M 137 93 L 144 137 C 147 142, 156 141, 158 135 L 151 93" />
+      <path d="M 163 78 C 173 74, 183 66, 189 58 C 195 50, 185 42, 179 50 C 173 58, 165 66, 159 68" />
+    </g>
+    <!-- anotacoes -->
+    <g stroke="currentColor" stroke-width="1.5" fill="none">
+      <path d="M 208 48 L 192 48" />
+      <path d="M 199 44 L 192 48 L 199 52" />
+      <path d="M 86 103 L 106 142" />
+      <path d="M 98 136 L 106 142 L 106 132" />
+    </g>
+    <g font-family="sans-serif" font-size="11" fill="currentColor" stroke="none">
+      <text x="212" y="52">polegar afastado</text>
+      <text x="10" y="100">artéria radial</text>
+    </g>
+  </svg>
+legenda: "Polpas do indicador e do médio sobre a artéria radial, com o polegar afastado."
 :::
 
 ::: manobra
@@ -65,33 +133,33 @@ passos:
   - "Palpe as duas artérias radiais simultaneamente para comparar a amplitude entre os lados."
   - "Ausculte o precórdio contando os batimentos no mesmo minuto e compare com o número de pulsações."
 observar: |
-  Aproveite o minuto de palpação para observar a respiração sem avisar o paciente: a frequência respiratória é o único sinal vital sob controle voluntário e muda se a atenção for chamada para ela.
-
-  Para perceber melhor o pulso célere, eleve o braço do paciente acima da cabeça e receba a face anterior do punho na palma da mão, usando a superfície ventral de todos os dedos em vez de apenas as polpas digitais.
-
-  Duas ondas anormais escapam aos dedos e aparecem melhor com o manguito. Ao desinsuflar devagar, mantenha a atenção na intensidade dos primeiros batimentos, os da fase I de Korotkoff: a alternância regular de um som forte e um som fraco denuncia pulso alternante, e o sumiço dos sons a cada inspiração denuncia pulso paradoxal. Parando a deflação nesse nível, o mesmo padrão passa a ser sentido na radial.
-
-  Um pulso rápido, completamente irregular e de amplitude variável a cada batimento, especialmente com déficit de pulso, é fibrilação atrial até prova em contrário.
+  Aproveite o minuto de palpação para observar a respiração sem avisar o paciente. A frequência respiratória é o único sinal vital sob controle voluntário e muda se a atenção for chamada para ela.
 :::
 
-::: sinal
-nome: Pulso paradoxal (pulso paradoxal de Kussmaul)
-descricao: |
-  Queda exagerada da pressão arterial sistólica durante a inspiração, descrita por Kussmaul em 1873. Em pessoas normais a PAS já cai na inspiração, em média 6 mmHg (± 3); considera-se pulso paradoxal uma queda maior que 10 mmHg — alguns autores preferem o limiar de 12 mmHg, que corresponde ao limite superior do intervalo de confiança em indivíduos saudáveis.
+::: conceito
+titulo: Ondas que escapam aos dedos
+nivel: avancado
+texto: |
+  Para perceber melhor o pulso célere, eleve o braço do paciente acima da cabeça. Receba a face anterior do punho na palma da mão e use a superfície ventral de todos os dedos, não só as polpas digitais.
 
-  Só é palpável quando ultrapassa 15 a 20 mmHg; por isso a medida se faz com o esfigmomanômetro, que ainda permite quantificar o achado. Com o paciente respirando tranquila e regularmente (respirações forçadas produzem o fenômeno até em pessoas normais), desinsufle o manguito lentamente e identifique duas pressões: aquela em que os sons de Korotkoff aparecem apenas na expiração e aquela em que passam a ser ouvidos em todo o ciclo respiratório. A diferença entre as duas é a magnitude do pulso paradoxal.
-significado: |
-  Não há nada de paradoxal: é o exagero de um fenômeno fisiológico. Na inspiração, a queda da pressão intratorácica altera o enchimento das câmaras cardíacas e reduz o débito do ventrículo esquerdo, o que se traduz perifericamente por pulsação mais fraca.
+  Duas ondas anormais aparecem melhor com o manguito. Ao desinsuflar devagar, mantenha a atenção na intensidade dos primeiros batimentos, os da fase I de Korotkoff.
 
-  Tem grande peso no tamponamento cardíaco: queda maior que 10 mmHg ocorre em cerca de 98% desses pacientes, ao lado de turgência jugular e taquicardia. Em derrame pericárdico, uma queda maior que 12 mmHg discrimina bem quem tem tamponamento (razão de verossimilhança positiva próxima de 6 e negativa próxima de 0,03). Também é usado para graduar a gravidade da crise asmática. Sua ausência não afasta tamponamento em situações particulares, como insuficiência aórtica associada, comunicação interatrial, disfunção ventricular esquerda grave, tamponamento regional e hipotensão importante.
+  - Alternância regular de um som forte e um fraco: pulso alternante.
+  - Sumiço dos sons a cada inspiração: pulso paradoxal.
 
-  **Cuidado com o epônimo.** Kussmaul dá nome a três achados distintos, e eles não devem ser trocados entre si. Este aqui é o *pulso paradoxal de Kussmaul*. O *sinal de Kussmaul* é outra coisa: as jugulares aumentam de turgência na inspiração, quando o normal seria diminuírem — achado descrito na pericardite constritiva (embora presente na minoria desses pacientes), na cardiomiopatia restritiva, na estenose tricúspide, na insuficiência ventricular direita e na obstrução da veia cava superior. E a *respiração de Kussmaul* é um padrão ventilatório, com inspirações amplas e rápidas separadas por breves apneias, característico da acidose metabólica.
-causas:
-  - "Tamponamento cardíaco"
-  - "Derrame pericárdico volumoso"
-  - "Pericardite constritiva"
-  - "Crise asmática grave"
-  - "Doença pulmonar obstrutiva com hiperinsuflação / enfisema"
+  Parando a deflação nesse nível, o mesmo padrão passa a ser sentido na radial.
+:::
+
+::: secao
+titulo: Achados que mudam a conduta
+:::
+
+::: entendimento
+titulo: Frequência cardíaca não é frequência de pulso
+texto: |
+  As duas não são sinônimas. Quando algumas contrações ventriculares são ineficazes, o batimento existe no precórdio mas não gera onda de pulso na radial.
+
+  Por isso o exame não para no número. Um pulso rápido, completamente irregular e de amplitude variável a cada batimento, sobretudo com déficit de pulso, é fibrilação atrial até prova em contrário.
 :::
 
 ::: sinal
@@ -101,6 +169,52 @@ significado: Algumas contrações ventriculares ocorrem antes do enchimento adeq
 causas:
   - "Fibrilação atrial"
   - "Extrassistolia frequente"
+:::
+
+::: sinal
+nome: Pulso paradoxal (pulso paradoxal de Kussmaul)
+descricao: |
+  Queda exagerada da pressão arterial sistólica durante a inspiração, descrita por Kussmaul em 1873. Considera-se pulso paradoxal a queda maior que 10 mmHg.
+
+  Só é palpável quando ultrapassa 15 a 20 mmHg. Por isso a medida se faz com o esfigmomanômetro, que ainda permite quantificar o achado.
+significado: |
+  Não há nada de paradoxal: é o exagero de um fenômeno fisiológico. Na inspiração, a queda da pressão intratorácica altera o enchimento das câmaras cardíacas e reduz o débito do ventrículo esquerdo. Perifericamente, isso se traduz por pulsação mais fraca.
+
+  O achado tem grande peso no tamponamento cardíaco. Queda maior que 10 mmHg ocorre em cerca de 98% desses pacientes, ao lado de turgência jugular e taquicardia.
+causas:
+  - "Tamponamento cardíaco"
+  - "Derrame pericárdico volumoso"
+  - "Pericardite constritiva"
+  - "Crise asmática grave"
+  - "Doença pulmonar obstrutiva com hiperinsuflação / enfisema"
+:::
+
+::: conceito
+titulo: Pulso paradoxal — como medir e quanto vale
+nivel: avancado
+texto: |
+  Em pessoas normais a PAS já cai na inspiração, em média 6 mmHg (± 3). Alguns autores preferem o limiar de 12 mmHg, que corresponde ao limite superior do intervalo de confiança em indivíduos saudáveis.
+
+  Peça ao paciente que respire tranquila e regularmente: respirações forçadas produzem o fenômeno até em pessoas normais. Desinsufle o manguito lentamente e identifique duas pressões. A primeira é aquela em que os sons de Korotkoff aparecem apenas na expiração; a segunda, aquela em que passam a ser ouvidos em todo o ciclo respiratório. A diferença entre as duas é a magnitude do pulso paradoxal.
+
+  Em derrame pericárdico, queda maior que 12 mmHg discrimina bem quem tem tamponamento. A razão de verossimilhança positiva é próxima de 6 e a negativa, de 0,03. O achado também gradua a gravidade da crise asmática.
+
+  A ausência não afasta tamponamento em situações particulares: insuficiência aórtica associada, comunicação interatrial, disfunção ventricular esquerda grave, tamponamento regional e hipotensão importante.
+:::
+
+::: conceito
+titulo: Os três Kussmaul
+nivel: avancado
+texto: |
+  O epônimo nomeia três achados distintos, que não devem ser trocados entre si.
+
+  - **Pulso paradoxal de Kussmaul**: a queda inspiratória exagerada da PAS, descrita acima.
+  - **Sinal de Kussmaul**: as jugulares aumentam de turgência na inspiração, quando o normal seria diminuírem. Descrito na pericardite constritiva (embora presente na minoria desses pacientes), na cardiomiopatia restritiva, na estenose tricúspide, na insuficiência ventricular direita e na obstrução da veia cava superior.
+  - **Respiração de Kussmaul**: padrão ventilatório com inspirações amplas e rápidas separadas por breves apneias, característico da acidose metabólica.
+:::
+
+::: secao
+titulo: Resumo prático
 :::
 
 ::: checklist
@@ -116,6 +230,10 @@ itens:
   - "Comparação simultânea das duas radiais."
   - "Comparação com a ausculta cardíaca para pesquisar déficit de pulso."
   - "Registro do valor e do contexto (repouso, febre, dor, medicação em uso)."
+:::
+
+::: secao
+titulo: Teste rápido
 :::
 
 ::: quiz

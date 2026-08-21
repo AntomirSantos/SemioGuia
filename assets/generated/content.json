@@ -52,9 +52,27 @@
        "revisao": "pendente",
        "blocos": [
         {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
          "tipo": "conceito",
-         "titulo": "O que é e do que depende",
-         "texto": "Pressão arterial (PA) é a força que o sangue exerce contra a parede das artérias.\n\nDois valores são registrados a cada medida:\n\n- **Sistólica (PAS)**: o pico de pressão durante a ejeção ventricular.\n- **Diastólica (PAD)**: o menor valor, imediatamente antes da sístole seguinte.\n\nA diferença entre elas é a **pressão diferencial** (ou amplitude de pulso), habitualmente entre 30 e 60 mmHg. Amplitude reduzida (\"pressão convergente\") aparece em hipovolemia, estenose aórtica, tamponamento e insuficiência cardíaca grave. Amplitude aumentada (\"pressão divergente\") aparece em insuficiência aórtica, hipertireoidismo, fístula arteriovenosa e enrijecimento senil da aorta.\n\nOs determinantes da PA são o débito cardíaco e a resistência periférica, modulados pela elasticidade dos grandes vasos, pela volemia e pela viscosidade do sangue. Por isso a queda da PA na hemorragia e na desidratação, e a elevação da PAS isolada no idoso com aorta pouco complacente.\n\n**A PA não é um número fixo.** É uma variável fisiológica contínua, que muda ao longo do dia (ritmo circadiano, com queda de cerca de 10% durante o sono), com a postura, a emoção, a dor, o esforço e a refeição. A ideia popular de \"12 por 8\" como valor ideal não tem base científica: o que interessa é a curva pressórica, e ela só se aproxima do valor verdadeiro quando a aferição é repetida.\n\nO método indireto é impreciso por natureza: aceita-se margem de erro em torno de 8 mmHg, e a PAS obtida por ausculta é, em média, 3 a 4 mmHg menor que a intra-arterial. O papel do examinador é não acrescentar erro a esse erro.\n\nQuando PAS e PAD caem em faixas diferentes da tabela de classificação, vale sempre a categoria mais alta.\n"
+         "titulo": "O que a PA mede",
+         "texto": "Pressão arterial é a força do sangue contra a parede das artérias. Cada medida registra dois valores.\n\n- **Sistólica (PAS)**: o pico de pressão durante a ejeção ventricular.\n- **Diastólica (PAD)**: o menor valor, logo antes da sístole seguinte.\n\nA diferença entre elas é a **pressão diferencial**, ou amplitude de pulso. Ela fica habitualmente entre 30 e 60 mmHg.\n\n- **Convergente** (reduzida): hipovolemia, estenose aórtica, tamponamento, insuficiência cardíaca grave.\n- **Divergente** (aumentada): insuficiência aórtica, hipertireoidismo, fístula arteriovenosa, enrijecimento senil da aorta.\n\nDébito cardíaco e resistência periférica determinam a PA. Elasticidade dos grandes vasos, volemia e viscosidade do sangue modulam o resultado. Daí a queda na hemorragia e na desidratação, e a PAS isolada alta no idoso de aorta pouco complacente.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A PA não é um número fixo",
+         "texto": "É uma variável fisiológica contínua. Muda com a hora do dia, a postura, a emoção, a dor, o esforço e a refeição. O ritmo circadiano derruba a PA cerca de 10% durante o sono.\n\nO método indireto também erra por natureza. Aceita-se margem em torno de 8 mmHg, e a PAS auscultada fica em média 3 a 4 mmHg abaixo da intra-arterial. Seu papel é não somar erro ao erro do método.\n\nA ideia popular de \"12 por 8\" como valor ideal não tem base científica. O que interessa é a curva pressórica, e ela só se aproxima do valor verdadeiro com medidas repetidas.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como medir"
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <!-- chao -->\n  <path d=\"M 14 190 L 306 190\" stroke=\"currentColor\" stroke-width=\"1.5\" />\n  <!-- cadeira -->\n  <g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\">\n    <path d=\"M 50 154 L 124 154\" />\n    <path d=\"M 54 154 L 54 76\" />\n    <path d=\"M 56 154 L 56 190\" />\n  </g>\n  <!-- mesa de apoio -->\n  <g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\">\n    <path d=\"M 148 107 L 308 107\" />\n    <path d=\"M 148 112 L 308 112\" />\n    <path d=\"M 298 112 L 298 190\" />\n  </g>\n  <!-- paciente sentado, de perfil -->\n  <g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\">\n    <circle cx=\"72\" cy=\"40\" r=\"13\" />\n    <path d=\"M 67 51 L 66 62\" />\n    <path d=\"M 79 50 L 82 62\" />\n    <path d=\"M 82 62 C 89 64, 92 72, 92 88 C 93 108, 92 120, 92 132 C 106 129, 122 130, 134 133 C 139 137, 139 146, 134 150 L 74 152 C 64 152, 60 144, 62 134 C 60 104, 60 72, 66 62\" />\n    <path d=\"M 137 146 L 140 184\" />\n    <path d=\"M 128 152 L 131 184\" />\n    <path d=\"M 131 184 L 130 190 L 154 190 C 159 190, 159 183, 152 183 L 140 184\" />\n  </g>\n  <!-- coracao: referencia de altura -->\n  <path d=\"M 76 95 C 67 88, 67 81, 72 81 C 74.5 81, 76 83, 76 84.5 C 76 83, 77.5 81, 80 81 C 85 81, 85 88, 76 95 Z\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\" stroke-width=\"1.5\" />\n  <!-- braco apoiado na mesa, cotovelo levemente fletido; o contorno e interrompido sob o manguito -->\n  <g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\">\n    <path d=\"M 89 71 L 105 77\" />\n    <path d=\"M 130 88 L 137 91\" />\n    <path d=\"M 92 85 L 100 88\" />\n    <path d=\"M 125 98 L 143 105\" />\n    <path d=\"M 137 91 L 234 91\" />\n    <path d=\"M 143 105 L 234 105\" />\n    <path d=\"M 234 91 L 248 91 A 7 7 0 0 1 248 105 L 234 105\" />\n  </g>\n  <!-- manguito: faixa que envolve a circunferencia do braco -->\n  <g stroke=\"currentColor\" fill=\"none\">\n    <path d=\"M 108 74 L 130 83 Q 131 94 122 102 L 100 93 Q 99 82 108 74 Z\" stroke-width=\"2\" />\n    <path d=\"M 112 76 L 114 70 L 125 75 L 123 80\" stroke-width=\"1.5\" />\n    <path d=\"M 116 100 C 115 103, 113 106, 112 108\" stroke-width=\"2\" />\n    <path d=\"M 112 108 C 104 110, 99 117, 102 122 C 105 127, 114 126, 116 119 C 117 114, 116 109, 112 108 Z\" stroke-width=\"2\" />\n  </g>\n  <!-- estetoscopio na fossa cubital -->\n  <g stroke=\"currentColor\" fill=\"none\">\n    <circle cx=\"154\" cy=\"97\" r=\"7\" stroke-width=\"2\" />\n    <circle cx=\"154\" cy=\"97\" r=\"3\" stroke-width=\"1.5\" />\n    <path d=\"M 159 91 C 152 68, 166 36, 190 0\" stroke-width=\"2\" />\n  </g>\n  <!-- linha da altura do coracao -->\n  <path d=\"M 85 88 L 302 88\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" fill=\"none\" />\n  <text x=\"204\" y=\"81\" font-family=\"sans-serif\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">altura do coração</text>\n</svg>\n",
+         "legenda": "Paciente sentado, braço apoiado na altura do coração e estetoscópio na fossa cubital."
         },
         {
          "tipo": "manobra",
@@ -75,8 +93,28 @@
           "Faça pelo menos duas medidas com cerca de 1 minuto de intervalo. Se forem muito diferentes, repita e considere a média.",
           "Na primeira avaliação, meça nos dois braços e adote como referência o braço de maior valor.",
           "Registre os valores exatos, sem arredondar para 0 ou 5, anotando o braço e a posição do paciente."
-         ],
-         "observar": "Fases de Korotkoff: I (surgimento de som claro, em pancada), II (batimentos com murmúrio), III (murmúrio desaparece e os batimentos ficam mais nítidos), IV (abafamento súbito) e V (silêncio).\n\nSe os sons persistirem até zero — comum em gestantes, anemia grave e estados hipercinéticos —, use a fase IV como diastólica e registre os três números, por exemplo 150 × 70 × 0 mmHg.\n\nDurante a fase I, atente à intensidade dos batimentos: alternância de um som forte e um fraco sugere pulso alternante (disfunção ventricular esquerda); desaparecimento dos sons na inspiração sugere pulso paradoxal.\n\nNo idoso, meça em decúbito, sentado e em pé, pela frequência de hipotensão ortostática. A queda superior a 20 mmHg na PAS ou 10 mmHg na PAD após 3 minutos em pé caracteriza hipotensão postural. Se a artéria radial continuar palpável com o manguito insuflado acima da sistólica (sinal ou manobra de Osler), considere pseudo-hipertensão — lembrando que a sensibilidade e a especificidade dessa manobra são baixas.\n"
+         ]
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <!-- eixo de pressao, descendo -->\n  <g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\">\n    <path d=\"M 46 22 L 46 190\" />\n    <path d=\"M 39 181 L 46 190 L 53 181\" />\n  </g>\n  <text transform=\"rotate(-90 20 106)\" x=\"20\" y=\"106\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">pressão do manguito</text>\n  <text x=\"169\" y=\"17\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">sons de Korotkoff</text>\n  <!-- quadro das fases -->\n  <g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\">\n    <path d=\"M 68 24 L 246 24\" />\n    <path d=\"M 68 186 L 246 186\" />\n    <path d=\"M 68 24 L 68 186\" />\n    <path d=\"M 246 24 L 246 186\" />\n    <path d=\"M 68 74 L 246 74\" />\n    <path d=\"M 68 102 L 246 102\" />\n    <path d=\"M 68 130 L 246 130\" />\n  </g>\n  <!-- numerais das fases -->\n  <g font-family=\"sans-serif\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"84\" y=\"64\">I</text>\n    <text x=\"84\" y=\"92\">II</text>\n    <text x=\"84\" y=\"120\">III</text>\n    <text x=\"84\" y=\"148\">IV</text>\n    <text x=\"84\" y=\"176\">V</text>\n  </g>\n  <!-- traçado dos sons -->\n  <g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\">\n    <path d=\"M 100 35 L 238 35\" />\n    <path d=\"M 100 60 L 114 60 L 118 51 L 122 60 L 142 60 L 146 51 L 150 60 L 170 60 L 174 51 L 178 60 L 198 60 L 202 51 L 206 60 L 226 60 L 230 51 L 234 60 L 238 60\" />\n    <path d=\"M 100 88 L 112 88 L 116 80 L 120 88 l 4 -3 l 4 3 l 4 -3 l 4 3 L 144 88 L 148 80 L 152 88 l 4 -3 l 4 3 l 4 -3 l 4 3 L 176 88 L 180 80 L 184 88 l 4 -3 l 4 3 l 4 -3 l 4 3 L 208 88 L 212 80 L 216 88 l 4 -3 l 4 3 l 4 -3 l 4 3 L 238 88\" />\n    <path d=\"M 100 116 L 114 116 L 118 103 L 122 116 L 142 116 L 146 103 L 150 116 L 170 116 L 174 103 L 178 116 L 198 116 L 202 103 L 206 116 L 226 116 L 230 103 L 234 116 L 238 116\" />\n    <path d=\"M 100 144 L 112 144 Q 118 136 124 144 L 140 144 Q 146 136 152 144 L 168 144 Q 174 136 180 144 L 196 144 Q 202 136 208 144 L 224 144 Q 230 136 236 144 L 238 144\" />\n    <path d=\"M 100 172 L 238 172\" />\n  </g>\n  <!-- leituras -->\n  <g stroke=\"currentColor\" fill=\"none\">\n    <path d=\"M 46 46 L 286 46\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" />\n    <path d=\"M 46 158 L 286 158\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" />\n    <path d=\"M 40 46 L 52 46\" stroke-width=\"2\" />\n    <path d=\"M 40 158 L 52 158\" stroke-width=\"2\" />\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"290\" y=\"50\">PAS</text>\n    <text x=\"290\" y=\"162\">PAD</text>\n  </g>\n</svg>\n",
+         "legenda": "As cinco fases de Korotkoff. A PAS é lida na fase I e a PAD, na fase V."
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "As cinco fases, uma a uma",
+         "texto": "- **I**: surgimento de som claro, em pancada. É a PAS.\n- **II**: batimentos com murmúrio.\n- **III**: o murmúrio desaparece e os batimentos ficam mais nítidos.\n- **IV**: abafamento súbito.\n- **V**: silêncio. É a PAD.\n\nSe os sons persistirem até zero, use a fase IV como diastólica e registre os três números — por exemplo, 150 × 70 × 0 mmHg. Isso é comum em gestantes, anemia grave e estados hipercinéticos.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que a intensidade dos sons revela",
+         "texto": "Durante a fase I, atente também à intensidade dos batimentos.\n\n- Alternância de um som forte e um fraco: sugere pulso alternante, de disfunção ventricular esquerda.\n- Desaparecimento dos sons na inspiração: sugere pulso paradoxal.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Classificação"
         },
         {
          "tipo": "tabela",
@@ -122,8 +160,8 @@
         },
         {
          "tipo": "conceito",
-         "titulo": "O que mudou na classificação (DBHA 2025)",
-         "texto": "A Diretriz Brasileira de Hipertensão Arterial de 2025 **removeu a categoria \"PA ótima\"**: valores de PAS abaixo de 120 mmHg com PAD abaixo de 80 mmHg agora são simplesmente **PA normal**. A **pré-hipertensão ficou mais ampla** e passou a incluir a faixa antes chamada de \"normal\": PAS de 120 a 139 e/ou PAD de 80 a 89 mmHg — a intenção é identificar risco mais cedo e agir antes da progressão para hipertensão.\n\nA **hipertensão sistólica isolada** (PAS ≥ 140 mmHg com PAD < 90 mmHg) deixou de ser uma categoria à parte: ela é classificada em estágio 1, 2 ou 3 conforme o valor da PAS.\n\nPara validar o diagnóstico de hipertensão são necessárias medidas repetidas em duas ou mais visitas — ou MAPA/MRPA. Em pacientes com lesão de órgão-alvo ou doença cardiovascular estabelecida, esses achados bastam para confirmar o diagnóstico.\n"
+         "titulo": "Como ler a tabela",
+         "texto": "Quando PAS e PAD caem em faixas diferentes, vale sempre a categoria mais alta.\n\nA Diretriz Brasileira de Hipertensão Arterial de 2025 mudou três pontos:\n\n- **A categoria \"PA ótima\" saiu.** PAS abaixo de 120 mmHg com PAD abaixo de 80 mmHg agora é apenas **PA normal**.\n- **A pré-hipertensão ficou mais ampla.** Ela absorveu a faixa antes chamada de normal: PAS de 120 a 139 e/ou PAD de 80 a 89 mmHg. A intenção é identificar risco mais cedo e agir antes da progressão para hipertensão.\n- **A hipertensão sistólica isolada** (PAS ≥ 140 mmHg com PAD < 90 mmHg) deixou de ser categoria à parte. Ela é classificada em estágio 1, 2 ou 3 conforme o valor da PAS.\n"
         },
         {
          "tipo": "tabela",
@@ -168,8 +206,38 @@
          ]
         },
         {
+         "tipo": "entendimento",
+         "titulo": "Uma medida alta ainda não é hipertensão",
+         "texto": "Classificar não é diagnosticar. Para validar o diagnóstico são necessárias medidas repetidas em duas ou mais visitas — ou MAPA/MRPA.\n\nA exceção pesa na conduta: em pacientes com lesão de órgão-alvo ou doença cardiovascular estabelecida, esses achados bastam para confirmar o diagnóstico.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
          "tipo": "perola",
-         "texto": "Nunca pule o método palpatório. Até 20% dos idosos hipertensos têm **hiato auscultatório**: os sons somem no fim da fase I e reaparecem depois, num intervalo que pode chegar a 30 a 40 mmHg. Quem insufla só até \"parar de ouvir\" registra uma sistólica falsamente baixa (ou uma diastólica falsamente alta). Como o pulso distal persiste durante o hiato, estimar a sistólica pela palpação antes de auscultar resolve o problema em dez segundos.\n\nO outro erro campeão é o manguito estreito demais para o braço: ele transmite mal a pressão aos tecidos, exige pressões maiores para colabar a artéria e **superestima** a PA — transformando um obeso normotenso em \"hipertenso\".\n"
+         "texto": "Nunca pule o método palpatório. Quem insufla só até \"parar de ouvir\" pode cair dentro do **hiato auscultatório** e registrar uma sistólica falsamente baixa. Estimar a PAS pela palpação antes de auscultar resolve o problema em dez segundos.\n\nO outro erro campeão é o manguito estreito demais para o braço. Ele transmite mal a pressão aos tecidos, exige pressões maiores para colabar a artéria e **superestima** a PA — transformando um obeso normotenso em \"hipertenso\".\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Hiato auscultatório",
+         "texto": "Até 20% dos idosos hipertensos têm hiato auscultatório. Os sons somem no fim da fase I e reaparecem depois, num intervalo que pode chegar a 30 a 40 mmHg.\n\nQuem não o ultrapassa registra sistólica falsamente baixa ou diastólica falsamente alta. O pulso distal persiste durante o hiato — é isso que faz o método palpatório funcionar.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Hipotensão ortostática no idoso",
+         "texto": "No idoso, meça em decúbito, sentado e em pé, pela frequência de hipotensão ortostática. Queda maior que 20 mmHg na PAS ou 10 mmHg na PAD após 3 minutos em pé caracteriza hipotensão postural.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Sinal de Osler e pseudo-hipertensão",
+         "texto": "Insufle o manguito acima da sistólica e procure a radial. Se ela continuar palpável — sinal ou manobra de Osler —, considere pseudo-hipertensão.\n\nLembre que a sensibilidade e a especificidade dessa manobra são baixas.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
         },
         {
          "tipo": "quiz",
@@ -279,9 +347,39 @@
        "revisao": "pendente",
        "blocos": [
         {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
          "tipo": "conceito",
-         "titulo": "O pulso conta mais do que a frequência",
-         "texto": "A tomada do pulso radial é o gesto mais simples do exame físico e, muitas vezes, o primeiro contato direto entre médico e paciente. Bem feito, ele entrega sete informações, e não apenas um número:\n\n1. **Estado da parede arterial** — normalmente lisa e facilmente depressível. Parede endurecida e tortuosa (\"traqueia de passarinho\") sugere mediosclerose de Mönckeberg, causa clássica de pseudo-hipertensão no idoso.\n2. **Frequência** — em adultos em repouso, 60 a 100 bpm. Acima de 100, taquisfigmia (taquicardia); abaixo de 60, bradisfigmia (bradicardia). Atletas bem treinados podem ter 50 a 60 bpm sem doença.\n3. **Ritmo** — regular quando os intervalos são iguais; irregular quando variam.\n4. **Amplitude** — amplo, mediano ou pequeno.\n5. **Tensão ou dureza** — a força necessária para interromper as pulsações. Pulso duro acompanha hipertensão; pulso mole, hipotensão.\n6. **Tipo de onda** — normal; célere (em martelo d'água, da insuficiência aórtica); parvus (ascensão lenta e pico prolongado, da estenose aórtica grave); filiforme (pequeno e mole, do colapso circulatório); **alternante** (uma onda ampla seguida de outra fraca, com os intervalos entre elas sempre **regulares** — sinal de insuficiência ventricular esquerda; não confundir com o **pulso bigeminado**, em que a onda fraca é uma extrassístole que chega precocemente e deixa o intervalo irregular); paradoxal; bisferiens.\n7. **Comparação com o lado homólogo** — a desigualdade aponta para obstrução na crossa da aorta ou nos troncos que dela partem.\n\nCausas frequentes de **taquicardia**: exercício, emoção, dor, febre, gravidez, hipovolemia, hipertireoidismo, insuficiência cardíaca, miocardite, taquicardia paroxística e fibrilação atrial. Causas frequentes de **bradicardia**: treinamento físico intenso, bradicardia sinusal, bloqueio atrioventricular, hipertensão intracraniana, icterícia e algumas infecções.\n\nFrequência cardíaca e frequência de pulso não são sinônimas: quando algumas contrações ventriculares são ineficazes, o batimento existe no precórdio mas não gera onda de pulso na radial.\n"
+         "titulo": "Sete informações, não um número",
+         "texto": "A tomada do pulso radial é o gesto mais simples do exame físico. Muitas vezes é o primeiro contato direto entre médico e paciente. Bem feito, ele entrega sete informações.\n\n1. **Estado da parede arterial** — normalmente lisa e facilmente depressível.\n2. **Frequência** — 60 a 100 bpm no adulto em repouso. Acima de 100, taquisfigmia (taquicardia); abaixo de 60, bradisfigmia (bradicardia). Atletas bem treinados podem ter 50 a 60 bpm sem doença.\n3. **Ritmo** — regular quando os intervalos são iguais; irregular quando variam.\n4. **Amplitude** — amplo, mediano ou pequeno.\n5. **Tensão ou dureza** — a força necessária para interromper as pulsações. Pulso duro acompanha hipertensão; pulso mole, hipotensão.\n6. **Tipo de onda** — normal, célere, parvus, filiforme, alternante, paradoxal ou bisferiens.\n7. **Comparação com o lado homólogo** — a desigualdade aponta obstrução na crossa da aorta ou nos troncos que dela partem.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Quando a frequência sai da faixa",
+         "texto": "**Taquicardia**: exercício, emoção, dor, febre, gravidez, hipovolemia, hipertireoidismo, insuficiência cardíaca, miocardite, taquicardia paroxística e fibrilação atrial.\n\n**Bradicardia**: treinamento físico intenso, bradicardia sinusal, bloqueio atrioventricular, hipertensão intracraniana, icterícia e algumas infecções.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Tipos de onda, um a um",
+         "texto": "- **Célere**, em martelo d'água: sobe e some depressa. É da insuficiência aórtica.\n- **Parvus**: ascensão lenta e pico prolongado. É da estenose aórtica grave.\n- **Filiforme**: pequeno e mole. É do colapso circulatório.\n- **Alternante**: uma onda ampla seguida de outra fraca, com os intervalos entre elas sempre **regulares**. Sinal de insuficiência ventricular esquerda.\n- **Bigeminado**: a onda fraca é uma extrassístole que chega precocemente e deixa o intervalo **irregular**. É o que o separa do alternante.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Parede arterial endurecida",
+         "texto": "Parede endurecida e tortuosa — a \"traqueia de passarinho\" — sugere mediosclerose de Mönckeberg. É causa clássica de pseudo-hipertensão no idoso.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como palpar"
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <!-- antebraco e mao do paciente, palma para cima -->\n  <g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\">\n    <path d=\"M 0 126 C 60 128, 130 134, 172 138\" />\n    <path d=\"M 0 174 C 60 174, 130 170, 172 168\" />\n    <path d=\"M 172 138 C 194 132, 218 131, 232 136 A 15 15 0 0 1 228 164 C 210 169, 190 169, 172 168\" />\n    <path d=\"M 220 133 C 228 120, 244 116, 251 124 C 258 132, 246 141, 234 143\" />\n  </g>\n  <!-- arteria radial, sob as polpas digitais -->\n  <path d=\"M 30 136 C 90 142, 140 148, 172 151\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\" fill=\"none\" />\n  <!-- mao do examinador: indicador e medio sobre a arteria, polegar afastado -->\n  <g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\">\n    <path d=\"M 112 0 C 111 14, 110 28, 108 44\" />\n    <path d=\"M 142 0 C 143 14, 144 28, 146 44\" />\n    <path d=\"M 108 44 C 98 52, 94 68, 100 86 C 103 92, 108 95, 113 95\" />\n    <path d=\"M 146 44 C 158 50, 166 66, 164 84 C 162 92, 156 94, 151 93\" />\n    <path d=\"M 113 95 L 120 136 C 123 141, 132 140, 134 134 L 127 93\" />\n    <path d=\"M 127 93 L 137 93\" />\n    <path d=\"M 137 93 L 144 137 C 147 142, 156 141, 158 135 L 151 93\" />\n    <path d=\"M 163 78 C 173 74, 183 66, 189 58 C 195 50, 185 42, 179 50 C 173 58, 165 66, 159 68\" />\n  </g>\n  <!-- anotacoes -->\n  <g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\">\n    <path d=\"M 208 48 L 192 48\" />\n    <path d=\"M 199 44 L 192 48 L 199 52\" />\n    <path d=\"M 86 103 L 106 142\" />\n    <path d=\"M 98 136 L 106 142 L 106 132\" />\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"212\" y=\"52\">polegar afastado</text>\n    <text x=\"10\" y=\"100\">artéria radial</text>\n  </g>\n</svg>\n",
+         "legenda": "Polpas do indicador e do médio sobre a artéria radial, com o polegar afastado."
         },
         {
          "tipo": "manobra",
@@ -297,20 +395,22 @@
           "Palpe as duas artérias radiais simultaneamente para comparar a amplitude entre os lados.",
           "Ausculte o precórdio contando os batimentos no mesmo minuto e compare com o número de pulsações."
          ],
-         "observar": "Aproveite o minuto de palpação para observar a respiração sem avisar o paciente: a frequência respiratória é o único sinal vital sob controle voluntário e muda se a atenção for chamada para ela.\n\nPara perceber melhor o pulso célere, eleve o braço do paciente acima da cabeça e receba a face anterior do punho na palma da mão, usando a superfície ventral de todos os dedos em vez de apenas as polpas digitais.\n\nDuas ondas anormais escapam aos dedos e aparecem melhor com o manguito. Ao desinsuflar devagar, mantenha a atenção na intensidade dos primeiros batimentos, os da fase I de Korotkoff: a alternância regular de um som forte e um som fraco denuncia pulso alternante, e o sumiço dos sons a cada inspiração denuncia pulso paradoxal. Parando a deflação nesse nível, o mesmo padrão passa a ser sentido na radial.\n\nUm pulso rápido, completamente irregular e de amplitude variável a cada batimento, especialmente com déficit de pulso, é fibrilação atrial até prova em contrário.\n"
+         "observar": "Aproveite o minuto de palpação para observar a respiração sem avisar o paciente. A frequência respiratória é o único sinal vital sob controle voluntário e muda se a atenção for chamada para ela.\n"
         },
         {
-         "tipo": "sinal",
-         "nome": "Pulso paradoxal (pulso paradoxal de Kussmaul)",
-         "descricao": "Queda exagerada da pressão arterial sistólica durante a inspiração, descrita por Kussmaul em 1873. Em pessoas normais a PAS já cai na inspiração, em média 6 mmHg (± 3); considera-se pulso paradoxal uma queda maior que 10 mmHg — alguns autores preferem o limiar de 12 mmHg, que corresponde ao limite superior do intervalo de confiança em indivíduos saudáveis.\n\nSó é palpável quando ultrapassa 15 a 20 mmHg; por isso a medida se faz com o esfigmomanômetro, que ainda permite quantificar o achado. Com o paciente respirando tranquila e regularmente (respirações forçadas produzem o fenômeno até em pessoas normais), desinsufle o manguito lentamente e identifique duas pressões: aquela em que os sons de Korotkoff aparecem apenas na expiração e aquela em que passam a ser ouvidos em todo o ciclo respiratório. A diferença entre as duas é a magnitude do pulso paradoxal.\n",
-         "significado": "Não há nada de paradoxal: é o exagero de um fenômeno fisiológico. Na inspiração, a queda da pressão intratorácica altera o enchimento das câmaras cardíacas e reduz o débito do ventrículo esquerdo, o que se traduz perifericamente por pulsação mais fraca.\n\nTem grande peso no tamponamento cardíaco: queda maior que 10 mmHg ocorre em cerca de 98% desses pacientes, ao lado de turgência jugular e taquicardia. Em derrame pericárdico, uma queda maior que 12 mmHg discrimina bem quem tem tamponamento (razão de verossimilhança positiva próxima de 6 e negativa próxima de 0,03). Também é usado para graduar a gravidade da crise asmática. Sua ausência não afasta tamponamento em situações particulares, como insuficiência aórtica associada, comunicação interatrial, disfunção ventricular esquerda grave, tamponamento regional e hipotensão importante.\n\n**Cuidado com o epônimo.** Kussmaul dá nome a três achados distintos, e eles não devem ser trocados entre si. Este aqui é o *pulso paradoxal de Kussmaul*. O *sinal de Kussmaul* é outra coisa: as jugulares aumentam de turgência na inspiração, quando o normal seria diminuírem — achado descrito na pericardite constritiva (embora presente na minoria desses pacientes), na cardiomiopatia restritiva, na estenose tricúspide, na insuficiência ventricular direita e na obstrução da veia cava superior. E a *respiração de Kussmaul* é um padrão ventilatório, com inspirações amplas e rápidas separadas por breves apneias, característico da acidose metabólica.\n",
-         "causas": [
-          "Tamponamento cardíaco",
-          "Derrame pericárdico volumoso",
-          "Pericardite constritiva",
-          "Crise asmática grave",
-          "Doença pulmonar obstrutiva com hiperinsuflação / enfisema"
-         ]
+         "tipo": "conceito",
+         "titulo": "Ondas que escapam aos dedos",
+         "texto": "Para perceber melhor o pulso célere, eleve o braço do paciente acima da cabeça. Receba a face anterior do punho na palma da mão e use a superfície ventral de todos os dedos, não só as polpas digitais.\n\nDuas ondas anormais aparecem melhor com o manguito. Ao desinsuflar devagar, mantenha a atenção na intensidade dos primeiros batimentos, os da fase I de Korotkoff.\n\n- Alternância regular de um som forte e um fraco: pulso alternante.\n- Sumiço dos sons a cada inspiração: pulso paradoxal.\n\nParando a deflação nesse nível, o mesmo padrão passa a ser sentido na radial.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Achados que mudam a conduta"
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Frequência cardíaca não é frequência de pulso",
+         "texto": "As duas não são sinônimas. Quando algumas contrações ventriculares são ineficazes, o batimento existe no precórdio mas não gera onda de pulso na radial.\n\nPor isso o exame não para no número. Um pulso rápido, completamente irregular e de amplitude variável a cada batimento, sobretudo com déficit de pulso, é fibrilação atrial até prova em contrário.\n"
         },
         {
          "tipo": "sinal",
@@ -321,6 +421,35 @@
           "Fibrilação atrial",
           "Extrassistolia frequente"
          ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Pulso paradoxal (pulso paradoxal de Kussmaul)",
+         "descricao": "Queda exagerada da pressão arterial sistólica durante a inspiração, descrita por Kussmaul em 1873. Considera-se pulso paradoxal a queda maior que 10 mmHg.\n\nSó é palpável quando ultrapassa 15 a 20 mmHg. Por isso a medida se faz com o esfigmomanômetro, que ainda permite quantificar o achado.\n",
+         "significado": "Não há nada de paradoxal: é o exagero de um fenômeno fisiológico. Na inspiração, a queda da pressão intratorácica altera o enchimento das câmaras cardíacas e reduz o débito do ventrículo esquerdo. Perifericamente, isso se traduz por pulsação mais fraca.\n\nO achado tem grande peso no tamponamento cardíaco. Queda maior que 10 mmHg ocorre em cerca de 98% desses pacientes, ao lado de turgência jugular e taquicardia.\n",
+         "causas": [
+          "Tamponamento cardíaco",
+          "Derrame pericárdico volumoso",
+          "Pericardite constritiva",
+          "Crise asmática grave",
+          "Doença pulmonar obstrutiva com hiperinsuflação / enfisema"
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Pulso paradoxal — como medir e quanto vale",
+         "texto": "Em pessoas normais a PAS já cai na inspiração, em média 6 mmHg (± 3). Alguns autores preferem o limiar de 12 mmHg, que corresponde ao limite superior do intervalo de confiança em indivíduos saudáveis.\n\nPeça ao paciente que respire tranquila e regularmente: respirações forçadas produzem o fenômeno até em pessoas normais. Desinsufle o manguito lentamente e identifique duas pressões. A primeira é aquela em que os sons de Korotkoff aparecem apenas na expiração; a segunda, aquela em que passam a ser ouvidos em todo o ciclo respiratório. A diferença entre as duas é a magnitude do pulso paradoxal.\n\nEm derrame pericárdico, queda maior que 12 mmHg discrimina bem quem tem tamponamento. A razão de verossimilhança positiva é próxima de 6 e a negativa, de 0,03. O achado também gradua a gravidade da crise asmática.\n\nA ausência não afasta tamponamento em situações particulares: insuficiência aórtica associada, comunicação interatrial, disfunção ventricular esquerda grave, tamponamento regional e hipotensão importante.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Os três Kussmaul",
+         "texto": "O epônimo nomeia três achados distintos, que não devem ser trocados entre si.\n\n- **Pulso paradoxal de Kussmaul**: a queda inspiratória exagerada da PAS, descrita acima.\n- **Sinal de Kussmaul**: as jugulares aumentam de turgência na inspiração, quando o normal seria diminuírem. Descrito na pericardite constritiva (embora presente na minoria desses pacientes), na cardiomiopatia restritiva, na estenose tricúspide, na insuficiência ventricular direita e na obstrução da veia cava superior.\n- **Respiração de Kussmaul**: padrão ventilatório com inspirações amplas e rápidas separadas por breves apneias, característico da acidose metabólica.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Resumo prático"
         },
         {
          "tipo": "checklist",
@@ -337,6 +466,10 @@
           "Comparação com a ausculta cardíaca para pesquisar déficit de pulso.",
           "Registro do valor e do contexto (repouso, febre, dor, medicação em uso)."
          ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
         },
         {
          "tipo": "quiz",
@@ -449,26 +582,27 @@
        "revisao": "pendente",
        "blocos": [
         {
-         "tipo": "conceito",
-         "titulo": "Dois sinais baratos e frequentemente mal medidos",
-         "texto": "**Temperatura.** O interior do corpo é mantido praticamente constante, com variação de no máximo cerca de 0,6 °C, pelo termostato hipotalâmico. A pele, ao contrário, acompanha o ambiente. Há variação circadiana previsível: os valores mais baixos ocorrem por volta das 6 h e os mais altos no fim da tarde. Também elevam a temperatura as refeições, o exercício intenso, estados emocionais, a gravidez e a ovulação — na mulher hígida a curva térmica basal sobe na ovulação e cai 24 a 36 h antes da menstruação.\n\nNa febre, pirogênios liberados por bactérias ou por tecidos em degeneração deslocam para cima o ponto de ajuste do termostato hipotalâmico; os mecanismos de conservação e produção de calor são acionados até que a nova temperatura-alvo seja atingida — daí os calafrios. Hipertermia é diferente: a temperatura sobe por sobrecarga externa (insolação, roupa inadequada, esforço extenuante) sem deslocamento do ponto de ajuste.\n\n**No adulto, considera-se febre a temperatura axilar acima de 37,8 °C.** A faixa de 37,3 a 37,7 °C é o **estado subfebril**, que pede repetição da medida e correlação clínica — lembrando que o fim da tarde naturalmente eleva a temperatura.\n\nA febre raramente vem sozinha. A **síndrome febril** inclui astenia, inapetência, cefaleia, taquicardia, taquipneia, oligúria, mialgia, calafrios, sudorese, náuseas e, nos extremos de idade, delírio, confusão mental e convulsões.\n\nAtenção ao paciente que \"não faz febre\": idosos, diabéticos, pacientes em choque ou em mau estado geral podem apresentar apenas febrícula — ou nenhuma elevação — diante de infecção grave. A ausência de febre nessa situação é sinal de mau prognóstico, não de tranquilidade.\n\n**Frequência respiratória.** O padrão normal do adulto — eupneia — é uma sucessão regular de incursões de amplitude semelhante. A faixa normal é de **16 a 20 incursões por minuto (irpm)**: acima de 20, **taquipneia**; abaixo de 16, **bradipneia**.\n\nNota de aprofundamento: medições cuidadosas em adultos sem febre e sem doença cardiopulmonar (McGee) encontram média em torno de 20 irpm, com faixa de até 25 — na prática à beira do leito, uma FR persistentemente ≥ 25 irpm é um limiar que discrimina melhor doença real.\n\nA FR é o único sinal vital sob controle voluntário: se o paciente perceber que está sendo contado, o número muda. Por isso a contagem é feita com discrição, tipicamente enquanto o examinador ainda segura o punho como se palpasse o pulso.\n"
+         "tipo": "secao",
+         "titulo": "Temperatura — o essencial"
         },
         {
-         "tipo": "manobra",
-         "titulo": "Medir a temperatura axilar e contar a frequência respiratória",
-         "passos": [
-          "Limpe o termômetro com algodão embebido em álcool. Se for de coluna de mercúrio, confira que a coluna esteja em 35 °C ou abaixo e abaixe-a se necessário.",
-          "Seque a axila do paciente, se estiver úmida.",
-          "Posicione o bulbo exatamente no oco axilar e apoie o braço do paciente sobre o tórax.",
-          "Mantenha o termômetro de mercúrio por cerca de 5 minutos; o digital costuma bastar 1 minuto.",
-          "Enquanto aguarda, use o tempo para observar os outros sinais vitais.",
-          "Retire o termômetro pela extremidade oposta ao bulbo e faça a leitura.",
-          "Registre o valor, o local de aferição e o horário — a temperatura isolada vale pouco; a curva vale muito.",
-          "Para a frequência respiratória, mantenha os dedos sobre o punho do paciente como se ainda contasse o pulso.",
-          "Observe a elevação do tórax e conte as incursões por 60 segundos completos.",
-          "Anote também a amplitude e a regularidade das incursões, não apenas o número."
-         ],
-         "observar": "Locais de aferição alternativos e suas limitações: a via bucal não serve para inconscientes, pacientes graves, portadores de transtorno mental, crianças, idosos e pessoas com alterações orofaríngeas, nem logo após fumar ou ingerir alimentos quentes e gelados; a via retal exige termômetro próprio, de bulbo arredondado; a medida timpânica é a mais variável entre os métodos.\n\nFatores que distorcem a temperatura bucal: mastigação prolongada eleva cerca de 0,3 °C por até 20 minutos, líquido quente eleva 0,6 a 0,9 °C, cigarro eleva cerca de 0,2 °C por 30 minutos e água gelada reduz 0,2 a 1,2 °C. A taquipneia reduz a leitura bucal em cerca de 0,5 °C a cada 10 irpm de aumento na frequência respiratória. Na hemiparesia, a temperatura axilar é cerca de 0,5 °C menor do lado fraco.\n\nEm suspeita de abdome agudo ou de afecção pélvica inflamatória, uma diferença maior que 0,5 °C entre as temperaturas axilar e retal tem valor clínico.\n"
+         "tipo": "conceito",
+         "titulo": "O que o termostato hipotalâmico faz",
+         "texto": "O interior do corpo é mantido quase constante, com variação de no máximo cerca de 0,6 °C. A pele, ao contrário, acompanha o ambiente.\n\nA variação circadiana é previsível: os valores mais baixos ocorrem por volta das 6 h e os mais altos no fim da tarde. Também elevam a temperatura as refeições, o exercício intenso, os estados emocionais, a gravidez e a ovulação. Na mulher hígida a curva térmica basal sobe na ovulação e cai 24 a 36 h antes da menstruação.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Febre não é hipertermia",
+         "texto": "Na febre, pirogênios liberados por bactérias ou por tecidos em degeneração deslocam para cima o ponto de ajuste do termostato. Os mecanismos de conservação e produção de calor são acionados até que a nova temperatura-alvo seja atingida — daí os calafrios.\n\nNa hipertermia o ponto de ajuste não se desloca. A temperatura sobe por sobrecarga externa: insolação, roupa inadequada, esforço extenuante.\n\n**No adulto, considera-se febre a temperatura axilar acima de 37,8 °C.** A faixa de 37,3 a 37,7 °C é o **estado subfebril**, que pede repetição da medida e correlação clínica. Lembre que o fim da tarde naturalmente eleva a temperatura.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como medir a temperatura"
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <!-- silhueta neutra: braco esquerdo elevado para expor a axila -->\n  <g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\">\n    <ellipse cx=\"140\" cy=\"42\" rx=\"25\" ry=\"27\" />\n    <path d=\"M 116 38 C 107 38, 107 52, 116 50\" stroke-width=\"1.5\" />\n    <path d=\"M 164 38 C 173 38, 173 52, 164 50\" stroke-width=\"1.5\" />\n    <path d=\"M 128 66 L 126 80\" />\n    <path d=\"M 152 66 L 154 80\" />\n    <path d=\"M 126 80 C 114 82, 102 86, 90 86\" />\n    <path d=\"M 90 86 C 76 78, 58 66, 44 56\" />\n    <path d=\"M 44 56 C 33 50, 23 55, 25 64 C 27 73, 42 78, 54 72\" />\n    <path d=\"M 54 72 C 68 84, 88 100, 102 110\" />\n    <path d=\"M 102 110 C 96 124, 92 140, 94 158\" />\n    <path d=\"M 154 80 C 172 84, 190 92, 196 108 C 204 126, 206 142, 206 158\" />\n    <path d=\"M 173 102 C 176 120, 176 140, 177 158\" />\n    <path d=\"M 184 158 C 184 132, 180 112, 173 102\" />\n    <path d=\"M 184 158 L 206 158\" />\n    <path d=\"M 94 158 L 177 158\" />\n  </g>\n  <!-- seta para o local retal, fora da silhueta -->\n  <g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\">\n    <path d=\"M 140 158 L 140 170\" />\n    <path d=\"M 134 164 L 140 171 L 146 164\" />\n  </g>\n  <!-- marcadores dos locais de afericao -->\n  <g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"currentColor\" fill-opacity=\"0.12\">\n    <circle cx=\"90\" cy=\"116\" r=\"8\" />\n    <circle cx=\"140\" cy=\"56\" r=\"8\" />\n    <circle cx=\"190\" cy=\"44\" r=\"8\" />\n    <circle cx=\"140\" cy=\"181\" r=\"9\" />\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"90\" y=\"120\">1</text>\n    <text x=\"140\" y=\"60\">2</text>\n    <text x=\"190\" y=\"48\">3</text>\n    <text x=\"140\" y=\"185\">4</text>\n  </g>\n  <!-- chamadas -->\n  <g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\">\n    <path d=\"M 70 141 L 84 125\" />\n    <path d=\"M 82 133 L 84 125 L 76 128\" />\n    <path d=\"M 108 57 L 130 57\" />\n    <path d=\"M 124 53 L 130 57 L 124 61\" />\n    <path d=\"M 181 44 L 172 45\" />\n    <path d=\"M 178 41 L 172 45 L 178 48\" />\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"34\" y=\"146\">axilar</text>\n    <text x=\"104\" y=\"60\" text-anchor=\"end\">bucal</text>\n    <text x=\"202\" y=\"48\">timpânica</text>\n    <text x=\"154\" y=\"185\">retal</text>\n  </g>\n</svg>\n",
+         "legenda": "Os quatro locais de aferição: axilar, bucal, timpânica e retal."
         },
         {
          "tipo": "tabela",
@@ -502,9 +636,27 @@
          ]
         },
         {
+         "tipo": "manobra",
+         "titulo": "Medida da temperatura axilar",
+         "passos": [
+          "Limpe o termômetro com algodão embebido em álcool. Se for de coluna de mercúrio, confira que a coluna esteja em 35 °C ou abaixo e abaixe-a se necessário.",
+          "Seque a axila do paciente, se estiver úmida.",
+          "Posicione o bulbo exatamente no oco axilar e apoie o braço do paciente sobre o tórax.",
+          "Mantenha o termômetro de mercúrio por cerca de 5 minutos; o digital costuma bastar 1 minuto.",
+          "Enquanto aguarda, use o tempo para observar os outros sinais vitais.",
+          "Retire o termômetro pela extremidade oposta ao bulbo e faça a leitura.",
+          "Registre o valor, o local de aferição e o horário — a temperatura isolada vale pouco; a curva vale muito."
+         ]
+        },
+        {
          "tipo": "conceito",
-         "titulo": "Febre na criança — SBP 2025",
-         "texto": "Na criança, o ponto de corte é diferente do adulto. O Documento Científico nº 206 da Sociedade Brasileira de Pediatria (maio de 2025) **reduziu o limiar de febre de 37,8 °C para ≥ 37,5 °C na temperatura axilar** (equivalente a ≥ 38 °C por via oral ou retal). Valores axilares de **37,3 a 37,5 °C** configuram **estado febril** (temperatura limítrofe), que pede observação.\n\nA via recomendada em todas as crianças é a **axilar com termômetro digital**. Evitam-se os termômetros de mercúrio (risco de quebra e toxicidade); a via retal, embora mais próxima da temperatura central, é desconfortável e invasiva — não deve ser rotina em menores de 5 anos — e a via oral também deve ser evitada.\n\nO documento reforça que o número isolado importa menos que a avaliação clínica integrada da criança: estado geral, hidratação, perfusão e comportamento pesam mais que décimos de grau.\n"
+         "titulo": "Outras vias e o que as distorce",
+         "texto": "A via bucal não serve para inconscientes, pacientes graves, portadores de transtorno mental, crianças, idosos e pessoas com alterações orofaríngeas. Também não serve logo após fumar ou ingerir alimentos quentes e gelados. A via retal exige termômetro próprio, de bulbo arredondado. A medida timpânica é a mais variável entre os métodos.\n\nFatores que distorcem a temperatura bucal:\n\n- Mastigação prolongada: eleva cerca de 0,3 °C por até 20 minutos.\n- Líquido quente: eleva 0,6 a 0,9 °C.\n- Cigarro: eleva cerca de 0,2 °C por 30 minutos.\n- Água gelada: reduz 0,2 a 1,2 °C.\n- Taquipneia: reduz a leitura em cerca de 0,5 °C a cada 10 irpm de aumento na frequência respiratória.\n\nNa hemiparesia, a temperatura axilar é cerca de 0,5 °C menor do lado fraco. Em suspeita de abdome agudo ou de afecção pélvica inflamatória, uma diferença maior que 0,5 °C entre as temperaturas axilar e retal tem valor clínico.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Febre"
         },
         {
          "tipo": "tabela",
@@ -533,6 +685,21 @@
          ]
         },
         {
+         "tipo": "conceito",
+         "titulo": "Febre na criança — SBP 2025",
+         "texto": "Na criança, o ponto de corte é diferente do adulto. O Documento Científico nº 206 da Sociedade Brasileira de Pediatria (maio de 2025) baixou o limiar de febre. De 37,8 °C, ele passou a **≥ 37,5 °C na temperatura axilar** — equivalente a ≥ 38 °C por via oral ou retal.\n\nValores axilares de **37,3 a 37,5 °C** configuram **estado febril** (temperatura limítrofe), que pede observação.\n\nA via recomendada em todas as crianças é a **axilar com termômetro digital**. Evite o termômetro de mercúrio, pelo risco de quebra e toxicidade. A via retal, embora mais próxima da temperatura central, é desconfortável e invasiva: não deve ser rotina em menores de 5 anos. A via oral também deve ser evitada.\n\nO documento reforça que o número isolado importa menos que a avaliação clínica integrada da criança. Estado geral, hidratação, perfusão e comportamento pesam mais que décimos de grau.\n"
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "A febre que não aparece",
+         "texto": "A febre raramente vem sozinha. A **síndrome febril** inclui astenia, inapetência, cefaleia, taquicardia, taquipneia, oligúria, mialgia, calafrios, sudorese e náuseas. Nos extremos de idade somam-se delírio, confusão mental e convulsões.\n\nAtenção ao paciente que \"não faz febre\". Idosos, diabéticos, pacientes em choque ou em mau estado geral podem apresentar apenas febrícula — ou nenhuma elevação — diante de infecção grave.\n\nA ausência de febre nessa situação é sinal de mau prognóstico, não de tranquilidade.\n"
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <!-- eixos das quatro miniaturas -->\n  <g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\">\n    <path d=\"M 30 26 L 30 86 L 150 86\" />\n    <path d=\"M 180 26 L 180 86 L 300 86\" />\n    <path d=\"M 30 142 L 30 202 L 150 202\" />\n    <path d=\"M 180 142 L 180 202 L 300 202\" />\n  </g>\n  <!-- linha basal (temperatura normal) -->\n  <g stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 4\" fill=\"none\">\n    <path d=\"M 30 74 L 150 74\" />\n    <path d=\"M 180 74 L 300 74\" />\n    <path d=\"M 30 190 L 150 190\" />\n    <path d=\"M 180 190 L 300 190\" />\n  </g>\n  <!-- curvas -->\n  <g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\">\n    <path d=\"M 30 74 L 40 40 L 52 36 L 64 40 L 76 36 L 88 40 L 100 36 L 112 40 L 124 36 L 136 40 L 150 38\" />\n    <path d=\"M 180 74 L 190 34 L 200 74 L 212 74 L 222 34 L 232 74 L 244 74 L 254 34 L 264 74 L 276 74 L 286 34 L 296 74 L 300 74\" />\n    <path d=\"M 30 190 L 40 152 L 52 178 L 64 150 L 76 178 L 88 152 L 100 180 L 112 150 L 124 178 L 136 154 L 148 178\" />\n    <path d=\"M 180 190 L 188 154 L 216 152 L 224 190 L 248 190 L 256 154 L 284 152 L 292 190 L 300 190\" />\n  </g>\n  <!-- referencias de leitura, apenas na primeira miniatura -->\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"24\" y=\"31\" text-anchor=\"end\">°C</text>\n    <text x=\"34\" y=\"84\">normal</text>\n    <text x=\"150\" y=\"96\" text-anchor=\"end\">dias</text>\n  </g>\n  <!-- nomes dos padroes -->\n  <g font-family=\"sans-serif\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"90\" y=\"106\">Contínua</text>\n    <text x=\"240\" y=\"106\">Intermitente</text>\n    <text x=\"90\" y=\"222\">Remitente</text>\n    <text x=\"240\" y=\"222\">Recorrente</text>\n  </g>\n</svg>\n",
+         "legenda": "Quatro padrões de curva térmica, com a linha tracejada marcando a temperatura normal."
+        },
+        {
          "tipo": "tabela",
          "titulo": "Padrões de curva térmica",
          "colunas": [
@@ -555,7 +722,18 @@
            "Intermitente",
            "Períodos de febre alternados com períodos de apirexia",
            "Malária, infecções urinárias, septicemia, linfomas"
-          ],
+          ]
+         ]
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Padrões menos frequentes",
+         "colunas": [
+          "Padrão",
+          "Comportamento da temperatura",
+          "Exemplos de causas"
+         ],
+         "linhas": [
           [
            "Irregular ou séptica",
            "Picos muito altos entremeados por temperaturas baixas ou apirexia",
@@ -566,7 +744,82 @@
            "Dias de febre interrompidos por apirexia que dura dias ou semanas",
            "Brucelose, linfomas (febre de Pel-Ebstein)"
           ]
+         ],
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "fluxograma",
+         "titulo": "Abordagem inicial do paciente com febre",
+         "etapas": [
+          {
+           "texto": "Paciente refere febre ou apresenta temperatura axilar acima da faixa normal",
+           "formato": "inicio"
+          },
+          {
+           "texto": "Confirmar com termômetro, registrando local, valor e horário; abrir o quadro térmico",
+           "formato": "acao"
+          },
+          {
+           "texto": "Caracterizar a febre - início, intensidade, duração, modo de evolução e término - e procurar os demais elementos da síndrome febril",
+           "formato": "acao"
+          },
+          {
+           "texto": "Há sinais de gravidade? (hipotensão, taquipneia, rebaixamento de consciência, rigidez de nuca, petéquias, hipotermia paradoxal)",
+           "formato": "decisao"
+          },
+          {
+           "texto": "Se sim - tratar como emergência: estabilizar, coletar culturas e iniciar antimicrobiano precocemente",
+           "formato": "acao"
+          },
+          {
+           "texto": "Se não - há sinais focais na anamnese e no exame físico? (tosse, disúria, dor abdominal, sinais flogísticos na pele, artrite)",
+           "formato": "decisao"
+          },
+          {
+           "texto": "Se sim - investigar o foco identificado e tratar conforme o sítio",
+           "formato": "acao"
+          },
+          {
+           "texto": "Se não - a febre dura mais de 1 semana?",
+           "formato": "decisao"
+          },
+          {
+           "texto": "Se sim - conduzir como febre prolongada e investigar endocardite infecciosa, tuberculose, linfomas, colagenoses, septicemia, pielonefrite, malária, esquistossomose, brucelose e febre tifoide",
+           "formato": "acao"
+          },
+          {
+           "texto": "Se não - reavaliar em 24 a 72 h mantendo o registro da curva térmica",
+           "formato": "acao"
+          },
+          {
+           "texto": "Reler a curva térmica e a resposta ao tratamento antes de rever o diagnóstico",
+           "formato": "fim"
+          }
          ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Frequência respiratória"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A faixa normal e os desvios",
+         "texto": "O padrão normal do adulto — **eupneia** — é uma sucessão regular de incursões de amplitude semelhante. A faixa normal é de **16 a 20 incursões por minuto (irpm)**: acima de 20, **taquipneia**; abaixo de 16, **bradipneia**.\n\nA FR é o único sinal vital sob controle voluntário. Se o paciente perceber que está sendo contado, o número muda. Por isso a contagem é feita com discrição, tipicamente enquanto o examinador ainda segura o punho como se palpasse o pulso.\n"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Contagem da frequência respiratória",
+         "passos": [
+          "Mantenha os dedos sobre o punho do paciente como se ainda contasse o pulso.",
+          "Observe a elevação do tórax e conte as incursões por 60 segundos completos.",
+          "Anote também a amplitude e a regularidade das incursões, não apenas o número."
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde fica o limiar que discrimina doença",
+         "texto": "Medições cuidadosas em adultos sem febre e sem doença cardiopulmonar (McGee) encontram média em torno de 20 irpm, com faixa de até 25.\n\nNa prática à beira do leito, uma FR persistentemente ≥ 25 irpm é um limiar que discrimina melhor doença real.\n",
+         "nivel": "avancado"
         },
         {
          "tipo": "tabela",
@@ -620,58 +873,12 @@
          ]
         },
         {
-         "tipo": "fluxograma",
-         "titulo": "Abordagem inicial do paciente com febre",
-         "etapas": [
-          {
-           "texto": "Paciente refere febre ou apresenta temperatura axilar acima da faixa normal",
-           "formato": "inicio"
-          },
-          {
-           "texto": "Confirmar com termômetro, registrando local, valor e horário; abrir o quadro térmico",
-           "formato": "acao"
-          },
-          {
-           "texto": "Caracterizar a febre - início, intensidade, duração, modo de evolução e término - e procurar os demais elementos da síndrome febril",
-           "formato": "acao"
-          },
-          {
-           "texto": "Há sinais de gravidade? (hipotensão, taquipneia, rebaixamento de consciência, rigidez de nuca, petéquias, hipotermia paradoxal)",
-           "formato": "decisao"
-          },
-          {
-           "texto": "Se sim - tratar como emergência: estabilizar, coletar culturas e iniciar antimicrobiano precocemente",
-           "formato": "acao"
-          },
-          {
-           "texto": "Se não - há sinais focais na anamnese e no exame físico? (tosse, disúria, dor abdominal, sinais flogísticos na pele, artrite)",
-           "formato": "decisao"
-          },
-          {
-           "texto": "Se sim - investigar o foco identificado e tratar conforme o sítio",
-           "formato": "acao"
-          },
-          {
-           "texto": "Se não - a febre dura mais de 1 semana?",
-           "formato": "decisao"
-          },
-          {
-           "texto": "Se sim - conduzir como febre prolongada e investigar endocardite infecciosa, tuberculose, linfomas, colagenoses, septicemia, pielonefrite, malária, esquistossomose, brucelose e febre tifoide",
-           "formato": "acao"
-          },
-          {
-           "texto": "Se não - reavaliar em 24 a 72 h mantendo o registro da curva térmica",
-           "formato": "acao"
-          },
-          {
-           "texto": "Reler a curva térmica e a resposta ao tratamento antes de rever o diagnóstico",
-           "formato": "fim"
-          }
-         ]
+         "tipo": "perola",
+         "texto": "A frequência respiratória é o sinal vital mais anotado e menos medido. Comparando o prontuário com a contagem real, os valores anotados se concentram entre 16 e 22 irpm na grande maioria das vezes — mesmo em pacientes cuja frequência verdadeira variava de 10 a mais de 30.\n\nA causa é quase sempre a mesma: contar 15 segundos e multiplicar por quatro. Nessa forma abreviada, apenas cerca de 23% dos pacientes taquipneicos são identificados; com 60 segundos de observação, praticamente todos são. O minuto inteiro ainda revela padrões que a contagem curta jamais mostraria, como a respiração de Cheyne-Stokes.\n"
         },
         {
-         "tipo": "perola",
-         "texto": "A frequência respiratória é o sinal vital mais anotado e menos medido. Quando se compara o que foi registrado no prontuário com a contagem real, os valores anotados se concentram entre 16 e 22 irpm na grande maioria das vezes, mesmo em pacientes cuja frequência verdadeira variava de 10 a mais de 30.\n\nA causa é quase sempre a mesma: contar 15 segundos e multiplicar por quatro. Nessa forma abreviada, apenas cerca de 23% dos pacientes taquipneicos são identificados; com 60 segundos de observação, praticamente todos são. O minuto inteiro ainda permite reconhecer padrões que a contagem curta jamais mostraria, como a respiração de Cheyne-Stokes.\n"
+         "tipo": "secao",
+         "titulo": "Teste rápido"
         },
         {
          "tipo": "quiz",
