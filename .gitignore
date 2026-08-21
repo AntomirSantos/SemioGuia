@@ -8,6 +8,8 @@ node_modules/
 dist/
 web-build/
 expo-env.d.ts
+# expo-env.d.ts is checked in so a fresh clone typechecks without running Expo first
+!expo-env.d.ts
 
 # Native
 .kotlin/
