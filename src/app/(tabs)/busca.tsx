@@ -28,7 +28,7 @@ function RotuloSecao({ texto }: { texto: string }) {
 }
 
 function LinhaResultado({ titulo, sistemaTitulo, onPress }: { titulo: string; sistemaTitulo?: string; onPress: () => void }) {
-  const { paleta } = useTema();
+  const { paleta, escala } = useTema();
   return (
     <Pressable
       accessibilityRole="button"
@@ -59,7 +59,7 @@ function LinhaResultado({ titulo, sistemaTitulo, onPress }: { titulo: string; si
           {sistemaTitulo}
         </Text>
       ) : null}
-      <Text style={{ fontFamily: fonte.corpo, fontSize: tipo.corpo, color: paleta.tinta }}>{titulo}</Text>
+      <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta }}>{titulo}</Text>
     </Pressable>
   );
 }
@@ -92,7 +92,7 @@ export function TelaBusca() {
   const resultados: ResultadoBusca[] = mostraResultados ? buscar(indice, termo) : [];
 
   function abrirTopico(topicoId: string) {
-    router.push('/topico/' + topicoId);
+    router.push(`/topico/${topicoId}`);
   }
 
   function selecionarResultado(r: ResultadoBusca) {
@@ -149,7 +149,7 @@ export function TelaBusca() {
             />
           ))
         ) : (
-          <Text style={{ fontFamily: fonte.corpo, fontSize: tipo.corpo, color: paleta.tinta2, marginTop: espaco.m }}>
+          <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta2, marginTop: espaco.m }}>
             Nada com esse nome. Tente o epônimo ou uma sigla.
           </Text>
         )
