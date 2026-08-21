@@ -93,3 +93,62 @@ Ao relatar um problema, inclua:
   — isso ajuda a isolar se o problema é geral ou só de um tipo de dado.
 - Se o `npx expo start --tunnel` mostrou alguma mensagem de erro no
   terminal, copie e cole o texto.
+
+## Adendo 1C — paleta Vital, divulgação progressiva e ilustrações
+
+A Fase 1C trocou a aparência e a organização do conteúdo, mantendo intacta a
+arquitetura verificada acima (navegação, favoritos, estudado, busca, quiz,
+tema e persistência). O que mudou:
+
+- **Paleta "Vital"**: nova paleta clara/escura (fundo `#f3f6fb` / `#0f121c`,
+  acento indigo `#3655cd` / `#859ff6`), todos os 12 pares de contraste
+  auditados em `npm run checar:contraste` (mínimo WCAG AA, 4.5:1 texto e
+  3:1 UI) — os 3 tópicos existentes foram migrados para ela.
+- **Blocos novos**: `secao` (títulos de seção com friso lateral), `entendimento`
+  (caixa de destaque conceitual) e `ilustracao` (SVG de traço, herda a cor
+  de tinta do tema via `currentColor`). Cinco ilustrações novas: medida da PA,
+  fases de Korotkoff, palpação do pulso radial, locais de temperatura e
+  curvas térmicas.
+- **Divulgação progressiva** ("Aprofundar"): blocos com `nivel: avancado`
+  ficam recolhidos atrás de um cabeçalho "Aprofundar · <tipo>" e só montam o
+  conteúdo quando expandidos (exceção deliberada: uma `secao` com nível
+  avançado ainda renderiza como título normal, nunca escondida).
+- **Conteúdo reescrito**: os 3 tópicos de sinais vitais (pressão arterial,
+  frequência cardíaca e pulso, temperatura e frequência respiratória) foram
+  reescritos de forma mais concisa e seccionada, com o essencial visível e
+  o aprofundamento (taxonomias, achados raros, armadilhas) atrás do
+  "Aprofundar".
+
+### Verificação headless (build de deploy, caminho `/SemioGuia/`)
+
+Antes de regenerar a `gh-pages`, o build web (`npx expo export --platform web`
+com `experiments.baseUrl` = `/SemioGuia`) foi servido localmente com o mesmo
+prefixo de caminho e navegado com Playwright/Chromium headless (viewport
+390×844, o mesmo layout de celular usado na Fase 1B). Resultado:
+
+1. **Home com a paleta Vital**: fundo da tela em `#f3f6fb` e cor de acento
+   `#3655cd` confirmados por estilo computado (não bastou olhar a tela —
+   os valores exatos batem com `src/design/tokens.ts`).
+2. **Tópico "Pressão arterial"**: títulos de `secao` ("O essencial", "Como
+   medir") visíveis; bloco "Aprofundar · Conceito" presente e recolhido
+   por padrão (a taxonomia das cinco fases de Korotkoff não aparece no
+   texto da página antes do toque); ao tocar, o conteúdo monta e o texto
+   das fases I–V passa a aparecer.
+3. **Ilustração `medida-pa`**: renderiza na seção "Como medir", ocupando
+   quase a largura total do viewport (350 de 390px) e com a cor herdada do
+   tema (`rgb(24, 27, 45)` = `#181b2d`, a tinta clara), confirmando que o
+   `currentColor` do SVG segue o tema.
+4. **Tópico "Frequência cardíaca e pulso"**, sub-lista aninhada do item 6
+   básico (célere / parvus / filiforme) em viewport estreito (390px):
+   indentação com marcador "-" visível, sem sobreposição ou corte. As
+   linhas de continuação que voltam à margem esquerda (em vez de alinhar
+   sob o texto do marcador) são o único ponto de atenção — é um
+   comportamento aceitável para este único caso de lista aninhada no
+   corpus, não uma quebra de layout.
+5. **Tópico "Temperatura e frequência respiratória"**: ilustração
+   `curvas-termicas` renderiza em largura quase total (350px), com os
+   quatro padrões (contínua, intermitente, remitente, recorrente) legíveis
+   e a legenda abaixo.
+
+Nenhum erro de página (`pageerror`) ou requisição falha (`requestfailed`)
+foi registrado em nenhuma das quatro navegações.
