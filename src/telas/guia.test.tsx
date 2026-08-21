@@ -44,6 +44,19 @@ test('tópico inexistente mostra estado vazio amigável', async () => {
   expect(getByText('Voltar')).toBeTruthy();
 });
 
+test('reflete estado já persistido no store ao montar', async () => {
+  const store = new MemoryProgressStore();
+  await store.marcarEstudado(TOPICO_ID, true);
+  await store.favoritar(TOPICO_ID, true);
+
+  const { getByText } = await renderTopico(store);
+
+  await waitFor(() => {
+    expect(getByText('Estudado')).toBeTruthy();
+    expect(getByText('Favoritado')).toBeTruthy();
+  });
+});
+
 test('pressionar "marcar estudado" chama o store injetado', async () => {
   const store = new MemoryProgressStore();
   const spy = jest.spyOn(store, 'marcarEstudado');
