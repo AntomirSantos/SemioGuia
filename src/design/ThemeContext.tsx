@@ -1,4 +1,4 @@
-import { createContext, useContext, useMemo, useState, type ReactNode } from 'react';
+import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { useColorScheme } from 'react-native';
 import { paletaClara, paletaEscura, type Paleta } from './tokens';
 
@@ -31,6 +31,16 @@ export function ThemeProvider({
   const sistema = useColorScheme();
   const [preferencia, definirPreferencia] = useState<PreferenciaTema>(temaInicial);
   const [escalaFonte, definirEscalaFonte] = useState<EscalaFonte>(escalaInicial);
+
+  // Mantém o estado sincronizado quando o valor inicial chega depois da
+  // primeira renderização (ex.: preferência persistida carregada de forma
+  // assíncrona), sem forçar um remount do provider.
+  useEffect(() => {
+    definirPreferencia(temaInicial);
+  }, [temaInicial]);
+  useEffect(() => {
+    definirEscalaFonte(escalaInicial);
+  }, [escalaInicial]);
 
   const escuro = preferencia === 'sistema' ? sistema === 'dark' : preferencia === 'escuro';
   const escala = escalaFonte === 'grande' ? FATOR_ESCALA_GRANDE : 1;

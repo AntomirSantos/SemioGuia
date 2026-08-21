@@ -77,11 +77,11 @@ export class SqliteProgressStore implements ProgressStore {
   async listarRespostas(topicoId?: string): Promise<RespostaRegistrada[]> {
     const linhas = topicoId
       ? this.db.getAllSync<{ pergunta_id: string; topico_id: string; correta: number; respondida_em: number }>(
-          'SELECT pergunta_id, topico_id, correta, respondida_em FROM respostas WHERE topico_id = ?',
+          'SELECT pergunta_id, topico_id, correta, respondida_em FROM respostas WHERE topico_id = ? ORDER BY respondida_em',
           [topicoId],
         )
       : this.db.getAllSync<{ pergunta_id: string; topico_id: string; correta: number; respondida_em: number }>(
-          'SELECT pergunta_id, topico_id, correta, respondida_em FROM respostas',
+          'SELECT pergunta_id, topico_id, correta, respondida_em FROM respostas ORDER BY respondida_em',
         );
     return linhas.map((l) => ({
       perguntaId: l.pergunta_id,
