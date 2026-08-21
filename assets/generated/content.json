@@ -1,0 +1,20 @@
+{
+ "versao": "0.1.0",
+ "sistemas": [
+  {
+   "id": "exame-fisico-geral",
+   "titulo": "Exame físico geral",
+   "cor": "#0EA5A4",
+   "icone": "stethoscope",
+   "ordem": 1,
+   "capitulos": [
+    {
+     "id": "sinais-vitais",
+     "titulo": "Sinais vitais",
+     "ordem": 1,
+     "topicos": []
+    }
+   ]
+  }
+ ]
+}
