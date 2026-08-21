@@ -7,7 +7,16 @@ export interface TopicoParseado {
 }
 
 export function parseTopico(markdown: string, caminho: string): TopicoParseado {
-  const { data, content } = matter(markdown);
+  let data: Record<string, unknown>;
+  let content: string;
+  try {
+    const result = matter(markdown);
+    data = result.data;
+    content = result.content;
+  } catch (e) {
+    throw new Error(`${caminho}: YAML inválido no frontmatter: ${(e as Error).message}`);
+  }
+
   const linhas = content.split('\n');
   const blocos: unknown[] = [];
   let dentro: string | null = null;
@@ -25,7 +34,7 @@ export function parseTopico(markdown: string, caminho: string): TopicoParseado {
       } catch (e) {
         throw new Error(`${caminho}: YAML inválido no bloco "${dentro}": ${(e as Error).message}`);
       }
-      if (typeof dados !== 'object' || dados === null) {
+      if (typeof dados !== 'object' || dados === null || Array.isArray(dados)) {
         throw new Error(`${caminho}: bloco "${dentro}" não contém um mapa YAML`);
       }
       blocos.push({ tipo: dentro, ...(dados as Record<string, unknown>) });
