@@ -42,7 +42,9 @@ texto: |
 
   Atenção ao paciente que "não faz febre": idosos, diabéticos, pacientes em choque ou em mau estado geral podem apresentar apenas febrícula — ou nenhuma elevação — diante de infecção grave. A ausência de febre nessa situação é sinal de mau prognóstico, não de tranquilidade.
 
-  **Frequência respiratória.** O padrão normal do adulto — eupneia — é uma sucessão regular de incursões de amplitude semelhante. Porto adota como faixa normal 16 a 20 incursões por minuto (irpm), definindo taquipneia acima de 20 e bradipneia abaixo de 16. McGee, a partir de medidas cuidadosas em pessoas sem febre e sem doença cardíaca ou pulmonar, encontra média em torno de 20 irpm (faixa de 16 a 25) e propõe taquipneia a partir de 25 irpm e bradipneia abaixo de 8 a 12 irpm.
+  **Frequência respiratória.** O padrão normal do adulto — eupneia — é uma sucessão regular de incursões de amplitude semelhante. A faixa normal é de **16 a 20 incursões por minuto (irpm)**: acima de 20, **taquipneia**; abaixo de 16, **bradipneia**.
+
+  Nota de aprofundamento: medições cuidadosas em adultos sem febre e sem doença cardiopulmonar (McGee) encontram média em torno de 20 irpm, com faixa de até 25 — na prática à beira do leito, uma FR persistentemente ≥ 25 irpm é um limiar que discrimina melhor doença real.
 
   A FR é o único sinal vital sob controle voluntário: se o paciente perceber que está sendo contado, o número muda. Por isso a contagem é feita com discrição, tipicamente enquanto o examinador ainda segura o punho como se palpasse o pulso.
 :::
