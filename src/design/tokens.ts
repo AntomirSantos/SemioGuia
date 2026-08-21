@@ -56,6 +56,17 @@ export const espaco = { xs: 4, s: 8, m: 12, l: 16, xl: 20, xxl: 28 } as const;
 
 export const raio = { s: 8, m: 12, l: 16, pill: 999 } as const;
 
+// Sombra sutil dos cartões (Manobra, Sinal, Checklist, Fluxograma, QuizBloco),
+// espelhando o mockup. Único ponto do app com um hex de sombra fora da
+// paleta — cor de sombra não integra a Paleta (não varia por tema).
+export const sombra = {
+  shadowColor: '#000',
+  shadowOpacity: 0.04,
+  shadowRadius: 2,
+  shadowOffset: { width: 0, height: 1 },
+  elevation: 1,
+} as const;
+
 export const fonte = {
   display: 'BricolageGrotesque_700Bold',
   displaySemi: 'BricolageGrotesque_600SemiBold',

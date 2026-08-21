@@ -1,7 +1,7 @@
 import { Pressable, Text, View } from 'react-native';
 import type { Bloco, QuizPergunta } from '../content/schema';
 import { useTema } from '../design/ThemeContext';
-import { espaco, fonte, raio, tipo } from '../design/tokens';
+import { espaco, fonte, raio, sombra, tipo } from '../design/tokens';
 
 type QuizBlocoTipo = Extract<Bloco, { tipo: 'quiz' }>;
 
@@ -10,7 +10,7 @@ type QuizBlocoTipo = Extract<Bloco, { tipo: 'quiz' }>;
 export function QuizBloco({ bloco, onIniciar }: { bloco: QuizBlocoTipo; onIniciar?: (perguntas: QuizPergunta[]) => void }) {
   const { paleta, escala } = useTema();
   return (
-    <View style={{ backgroundColor: paleta.superficie, borderWidth: 1, borderColor: paleta.linha, borderRadius: raio.l, paddingVertical: espaco.xl, paddingHorizontal: espaco.xl + 2, marginVertical: espaco.m }}>
+    <View style={{ backgroundColor: paleta.superficie, borderWidth: 1, borderColor: paleta.linha, borderRadius: raio.l, paddingVertical: espaco.xl, paddingHorizontal: espaco.xl + 2, marginVertical: espaco.m, ...sombra }}>
       <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.tag, letterSpacing: 1.1, textTransform: 'uppercase', color: paleta.acentoTinta, marginBottom: espaco.xs + 2 }}>
         Quiz
       </Text>
