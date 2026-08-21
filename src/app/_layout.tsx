@@ -1,4 +1,5 @@
 import { useEffect, useState, type ReactNode } from 'react';
+import { Platform } from 'react-native';
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import {
@@ -74,13 +75,17 @@ export default function RootLayout() {
     AtkinsonHyperlegible_700Bold,
   });
 
+  // Na web as fontes chegam por CSS e uma falha no fetch das .ttf não deve
+  // segurar o app em tela branca; o gate de fontes vale só no nativo.
+  const pronto = ok || Platform.OS === 'web';
+
   useEffect(() => {
-    if (ok) {
+    if (pronto) {
       SplashScreen.hideAsync().catch(() => {});
     }
-  }, [ok]);
+  }, [pronto]);
 
-  if (!ok) return null;
+  if (!pronto) return null;
   return (
     <ProgressProvider>
       <TemaPersistido>

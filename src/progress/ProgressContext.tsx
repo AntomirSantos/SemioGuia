@@ -1,6 +1,6 @@
 import { createContext, useContext, useMemo, type ReactNode } from 'react';
 import type { ProgressStore } from './types';
-import { SqliteProgressStore } from './sqliteStore';
+import { criarStorePadrao } from './storePadrao';
 
 const Ctx = createContext<ProgressStore | null>(null);
 
@@ -11,7 +11,7 @@ export function ProgressProvider({
   children: ReactNode;
   store?: ProgressStore;
 }) {
-  const valor = useMemo(() => store ?? new SqliteProgressStore(), [store]);
+  const valor = useMemo(() => store ?? criarStorePadrao(), [store]);
   return <Ctx.Provider value={valor}>{children}</Ctx.Provider>;
 }
 
