@@ -26,5 +26,14 @@ export function BlocoView({ bloco, onIniciarQuiz }: { bloco: Bloco; onIniciarQui
       return <Perola bloco={bloco} />;
     case 'quiz':
       return <QuizBloco bloco={bloco} onIniciar={onIniciarQuiz} />;
+    case 'secao':
+      // Task 3 implementa
+      return null;
+    case 'entendimento':
+      // Task 3 implementa
+      return null;
+    case 'ilustracao':
+      // Task 3 implementa
+      return null;
   }
 }

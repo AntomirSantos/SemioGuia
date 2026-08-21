@@ -26,3 +26,47 @@ test('rejeita topico sem referencias', () => {
     }),
   ).toThrow();
 });
+
+// Task 2: Schema v2 tests
+test('aceita bloco secao válido', () => {
+  expect(blocoSchema.parse({ tipo: 'secao', titulo: 'Anatomia' }))
+    .toMatchObject({ tipo: 'secao', titulo: 'Anatomia' });
+});
+
+test('rejeita entendimento sem texto', () => {
+  expect(() => blocoSchema.parse({ tipo: 'entendimento', titulo: 'Por que' })).toThrow();
+});
+
+test('rejeita ilustracao com svg sem <svg>', () => {
+  expect(() =>
+    blocoSchema.parse({
+      tipo: 'ilustracao',
+      svg: 'circle cx="10" cy="10" r="5"',
+      legenda: 'Um ponto',
+    }),
+  ).toThrow();
+});
+
+test('aceita nivel avancado em conceito', () => {
+  expect(blocoSchema.parse({ tipo: 'conceito', texto: 'A pressão...', nivel: 'avancado' }))
+    .toMatchObject({ tipo: 'conceito', nivel: 'avancado' });
+});
+
+test('aceita nivel avancado em sinal', () => {
+  expect(
+    blocoSchema.parse({
+      tipo: 'sinal',
+      nome: 'Murmúrio',
+      descricao: 'Som cardiac...',
+      significado: 'Lesão valvular...',
+      causas: ['Estenose'],
+      nivel: 'avancado',
+    }),
+  ).toMatchObject({ tipo: 'sinal', nivel: 'avancado' });
+});
+
+test('rejeita nivel inválido', () => {
+  expect(() =>
+    blocoSchema.parse({ tipo: 'conceito', texto: 'A pressão...', nivel: 'x' }),
+  ).toThrow();
+});

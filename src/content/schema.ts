@@ -17,15 +17,26 @@ const etapaFluxo = z.object({
   formato: z.enum(['inicio', 'decisao', 'acao', 'fim']),
 });
 
+// Shared nivel field for all block types
+const nivelCommon = {
+  nivel: z.enum(['basico', 'avancado']).optional(),
+};
+
 export const blocoSchema = z.discriminatedUnion('tipo', [
-  z.object({ tipo: z.literal('conceito'), titulo: z.string().optional(), texto: z.string().min(1) }),
-  z.object({ tipo: z.literal('manobra'), titulo: z.string().min(1), passos: z.array(z.string().min(1)).min(1), observar: z.string().optional() }),
-  z.object({ tipo: z.literal('sinal'), nome: z.string().min(1), descricao: z.string().min(1), significado: z.string().min(1), causas: z.array(z.string().min(1)).min(1) }),
-  z.object({ tipo: z.literal('checklist'), titulo: z.string().min(1), itens: z.array(z.string().min(1)).min(1) }),
-  z.object({ tipo: z.literal('tabela'), titulo: z.string().optional(), colunas: z.array(z.string().min(1)).min(2), linhas: z.array(z.array(z.string())).min(1) }),
-  z.object({ tipo: z.literal('fluxograma'), titulo: z.string().optional(), etapas: z.array(etapaFluxo).min(2) }),
-  z.object({ tipo: z.literal('perola'), texto: z.string().min(1) }),
-  z.object({ tipo: z.literal('quiz'), perguntas: z.array(quizPerguntaSchema).min(1) }),
+  z.object({ tipo: z.literal('conceito'), titulo: z.string().optional(), texto: z.string().min(1), ...nivelCommon }),
+  z.object({ tipo: z.literal('manobra'), titulo: z.string().min(1), passos: z.array(z.string().min(1)).min(1), observar: z.string().optional(), ...nivelCommon }),
+  z.object({ tipo: z.literal('sinal'), nome: z.string().min(1), descricao: z.string().min(1), significado: z.string().min(1), causas: z.array(z.string().min(1)).min(1), ...nivelCommon }),
+  z.object({ tipo: z.literal('checklist'), titulo: z.string().min(1), itens: z.array(z.string().min(1)).min(1), ...nivelCommon }),
+  z.object({ tipo: z.literal('tabela'), titulo: z.string().optional(), colunas: z.array(z.string().min(1)).min(2), linhas: z.array(z.array(z.string())).min(1), ...nivelCommon }),
+  z.object({ tipo: z.literal('fluxograma'), titulo: z.string().optional(), etapas: z.array(etapaFluxo).min(2), ...nivelCommon }),
+  z.object({ tipo: z.literal('perola'), texto: z.string().min(1), ...nivelCommon }),
+  z.object({ tipo: z.literal('quiz'), perguntas: z.array(quizPerguntaSchema).min(1), ...nivelCommon }),
+  z.object({ tipo: z.literal('secao'), titulo: z.string().min(1), ...nivelCommon }),
+  z.object({ tipo: z.literal('entendimento'), titulo: z.string().optional(), texto: z.string().min(1), ...nivelCommon }),
+  z.object({ tipo: z.literal('ilustracao'), svg: z.string().min(20), legenda: z.string().min(1), ...nivelCommon }).refine((obj) => obj.svg.includes('<svg'), {
+    message: 'svg deve conter "<svg"',
+    path: ['svg'],
+  }),
 ]);
 
 export const topicoSchema = z.object({
