@@ -14,7 +14,10 @@ export function Secao({ bloco }: { bloco: SecaoBloco }) {
   return (
     <View style={{ flexDirection: 'row', alignItems: 'stretch', marginTop: espaco.xxl + espaco.m, marginBottom: espaco.s }}>
       <View style={{ width: 3, backgroundColor: paleta.acento, borderRadius: 2, marginRight: espaco.m }} />
-      <Text style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.h3 * escala), color: paleta.tinta, flex: 1 }}>
+      <Text
+        accessibilityRole="header"
+        style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.h3 * escala), color: paleta.tinta, flex: 1 }}
+      >
         {bloco.titulo}
       </Text>
     </View>

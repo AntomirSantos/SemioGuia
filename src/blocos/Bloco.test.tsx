@@ -106,7 +106,7 @@ test('secao renderiza o título', async () => {
 test('entendimento mostra a tag e o texto', async () => {
   const bloco: Bloco = { tipo: 'entendimento', titulo: 'Por que isso importa', texto: 'A fisiopatologia explica o achado.' };
   const { getByText } = await renderBloco(bloco);
-  expect(getByText('ENTENDIMENTO CLÍNICO')).toBeTruthy();
+  expect(getByText('Entendimento clínico')).toBeTruthy();
   expect(getByText(/fisiopatologia explica/)).toBeTruthy();
 });
 
@@ -122,14 +122,26 @@ test('ilustracao renderiza a legenda', async () => {
 
 test('bloco com nivel avancado fica fechado por padrão e abre ao toque em Aprofundar', async () => {
   const bloco: Bloco = { tipo: 'conceito', titulo: 'Detalhe avançado', texto: 'Conteúdo aprofundado do conceito.', nivel: 'avancado' };
-  const { queryByText, getByText } = await renderBloco(bloco);
+  const { queryByText, getByText, getByRole } = await renderBloco(bloco);
 
   expect(queryByText(/Conteúdo aprofundado/)).toBeNull();
   expect(getByText('Aprofundar · Conceito')).toBeTruthy();
 
+  const cabecalho = getByRole('button');
+  expect(cabecalho.props.accessibilityState.expanded).toBe(false);
+
   await fireEvent.press(getByText('Aprofundar · Conceito'));
 
   expect(getByText(/Conteúdo aprofundado/)).toBeTruthy();
+  expect(getByRole('button').props.accessibilityState.expanded).toBe(true);
+});
+
+test('secao com nivel avancado é exceção: título fica visível sem Aprofundar', async () => {
+  const bloco: Bloco = { tipo: 'secao', titulo: 'Detalhes técnicos', nivel: 'avancado' };
+  const { getByText, queryByText } = await renderBloco(bloco);
+
+  expect(getByText('Detalhes técnicos')).toBeTruthy();
+  expect(queryByText(/Aprofundar/)).toBeNull();
 });
 
 test('quiz mostra card-resumo e chama onIniciarQuiz ao praticar', async () => {

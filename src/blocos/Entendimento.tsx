@@ -34,7 +34,7 @@ export function Entendimento({ bloco }: { bloco: EntendimentoBloco }) {
           marginBottom: espaco.xs + 2,
         }}
       >
-        ENTENDIMENTO CLÍNICO
+        Entendimento clínico
       </Text>
       {bloco.titulo ? (
         <Text style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.h3 * escala), color: paleta.tinta, marginBottom: espaco.s }}>

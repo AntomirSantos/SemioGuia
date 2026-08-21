@@ -48,7 +48,7 @@ texto: |
   3. **Ritmo** — regular quando os intervalos são iguais; irregular quando variam.
   4. **Amplitude** — amplo, mediano ou pequeno.
   5. **Tensão ou dureza** — a força necessária para interromper as pulsações. Pulso duro acompanha hipertensão; pulso mole, hipotensão.
-  6. **Tipo de onda** — normal, alternante, paradoxal ou bisferiens; e mais três com descrição própria:
+  6. **Tipo de onda** — normal, **alternante** (sinal de insuficiência ventricular esquerda), paradoxal ou bisferiens; e ainda:
      - **célere**, em martelo d'água: insuficiência aórtica;
      - **parvus**, de ascensão lenta e pico prolongado: estenose aórtica grave;
      - **filiforme**, pequeno e mole: colapso circulatório.
