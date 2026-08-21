@@ -176,7 +176,7 @@ nome: Pulso paradoxal (pulso paradoxal de Kussmaul)
 descricao: |
   Queda exagerada da pressão arterial sistólica durante a inspiração, descrita por Kussmaul em 1873. Considera-se pulso paradoxal a queda maior que 10 mmHg.
 
-  Só é palpável quando ultrapassa 15 a 20 mmHg. Por isso a medida se faz com o esfigmomanômetro, que ainda permite quantificar o achado.
+  Só é palpável quando ultrapassa 15 a 20 mmHg. Por isso a aferição se faz com o esfigmomanômetro, que ainda permite quantificar o achado.
 significado: |
   Não há nada de paradoxal: é o exagero de um fenômeno fisiológico. Na inspiração, a queda da pressão intratorácica altera o enchimento das câmaras cardíacas e reduz o débito do ventrículo esquerdo. Perifericamente, isso se traduz por pulsação mais fraca.
 
@@ -190,7 +190,7 @@ causas:
 :::
 
 ::: conceito
-titulo: Pulso paradoxal — como medir e quanto vale
+titulo: Pulso paradoxal — como aferir e quanto vale
 nivel: avancado
 texto: |
   Em pessoas normais a PAS já cai na inspiração, em média 6 mmHg (± 3). Alguns autores preferem o limiar de 12 mmHg, que corresponde ao limite superior do intervalo de confiança em indivíduos saudáveis.

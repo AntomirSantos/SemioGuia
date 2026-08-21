@@ -426,7 +426,7 @@
         {
          "tipo": "sinal",
          "nome": "Pulso paradoxal (pulso paradoxal de Kussmaul)",
-         "descricao": "Queda exagerada da pressão arterial sistólica durante a inspiração, descrita por Kussmaul em 1873. Considera-se pulso paradoxal a queda maior que 10 mmHg.\n\nSó é palpável quando ultrapassa 15 a 20 mmHg. Por isso a medida se faz com o esfigmomanômetro, que ainda permite quantificar o achado.\n",
+         "descricao": "Queda exagerada da pressão arterial sistólica durante a inspiração, descrita por Kussmaul em 1873. Considera-se pulso paradoxal a queda maior que 10 mmHg.\n\nSó é palpável quando ultrapassa 15 a 20 mmHg. Por isso a aferição se faz com o esfigmomanômetro, que ainda permite quantificar o achado.\n",
          "significado": "Não há nada de paradoxal: é o exagero de um fenômeno fisiológico. Na inspiração, a queda da pressão intratorácica altera o enchimento das câmaras cardíacas e reduz o débito do ventrículo esquerdo. Perifericamente, isso se traduz por pulsação mais fraca.\n\nO achado tem grande peso no tamponamento cardíaco. Queda maior que 10 mmHg ocorre em cerca de 98% desses pacientes, ao lado de turgência jugular e taquicardia.\n",
          "causas": [
           "Tamponamento cardíaco",
@@ -438,7 +438,7 @@
         },
         {
          "tipo": "conceito",
-         "titulo": "Pulso paradoxal — como medir e quanto vale",
+         "titulo": "Pulso paradoxal — como aferir e quanto vale",
          "texto": "Em pessoas normais a PAS já cai na inspiração, em média 6 mmHg (± 3). Alguns autores preferem o limiar de 12 mmHg, que corresponde ao limite superior do intervalo de confiança em indivíduos saudáveis.\n\nPeça ao paciente que respire tranquila e regularmente: respirações forçadas produzem o fenômeno até em pessoas normais. Desinsufle o manguito lentamente e identifique duas pressões. A primeira é aquela em que os sons de Korotkoff aparecem apenas na expiração; a segunda, aquela em que passam a ser ouvidos em todo o ciclo respiratório. A diferença entre as duas é a magnitude do pulso paradoxal.\n\nEm derrame pericárdico, queda maior que 12 mmHg discrimina bem quem tem tamponamento. A razão de verossimilhança positiva é próxima de 6 e a negativa, de 0,03. O achado também gradua a gravidade da crise asmática.\n\nA ausência não afasta tamponamento em situações particulares: insuficiência aórtica associada, comunicação interatrial, disfunção ventricular esquerda grave, tamponamento regional e hipotensão importante.\n",
          "nivel": "avancado"
         },
@@ -594,11 +594,11 @@
         {
          "tipo": "conceito",
          "titulo": "Febre não é hipertermia",
-         "texto": "Na febre, pirogênios liberados por bactérias ou por tecidos em degeneração deslocam para cima o ponto de ajuste do termostato. Os mecanismos de conservação e produção de calor são acionados até que a nova temperatura-alvo seja atingida — daí os calafrios.\n\nNa hipertermia o ponto de ajuste não se desloca. A temperatura sobe por sobrecarga externa: insolação, roupa inadequada, esforço extenuante.\n\n**No adulto, considera-se febre a temperatura axilar acima de 37,8 °C.** A faixa de 37,3 a 37,7 °C é o **estado subfebril**, que pede repetição da medida e correlação clínica. Lembre que o fim da tarde naturalmente eleva a temperatura.\n"
+         "texto": "Na febre, pirogênios liberados por bactérias ou por tecidos em degeneração deslocam para cima o ponto de ajuste do termostato. Os mecanismos de conservação e produção de calor são acionados até que a nova temperatura-alvo seja atingida — daí os calafrios.\n\nNa hipertermia o ponto de ajuste não se desloca. A temperatura sobe por sobrecarga externa: insolação, roupa inadequada, esforço extenuante.\n\n**No adulto, considera-se febre a temperatura axilar acima de 37,8 °C.** A faixa de 37,3 a 37,7 °C é o **estado subfebril**, que pede repetição da aferição e correlação clínica. Lembre que o fim da tarde naturalmente eleva a temperatura.\n"
         },
         {
          "tipo": "secao",
-         "titulo": "Como medir a temperatura"
+         "titulo": "Como aferir a temperatura"
         },
         {
          "tipo": "ilustracao",
@@ -638,7 +638,7 @@
         },
         {
          "tipo": "manobra",
-         "titulo": "Medida da temperatura axilar",
+         "titulo": "Aferição da temperatura axilar",
          "passos": [
           "Limpe o termômetro com algodão embebido em álcool. Se for de coluna de mercúrio, confira que a coluna esteja em 35 °C ou abaixo e abaixe-a se necessário.",
           "Seque a axila do paciente, se estiver úmida.",
@@ -652,7 +652,7 @@
         {
          "tipo": "conceito",
          "titulo": "Outras vias e o que as distorce",
-         "texto": "A via bucal não serve para inconscientes, pacientes graves, portadores de transtorno mental, crianças, idosos e pessoas com alterações orofaríngeas. Também não serve logo após fumar ou ingerir alimentos quentes e gelados. A via retal exige termômetro próprio, de bulbo arredondado. A medida timpânica é a mais variável entre os métodos.\n\nFatores que distorcem a temperatura bucal:\n\n- Mastigação prolongada: eleva cerca de 0,3 °C por até 20 minutos.\n- Líquido quente: eleva 0,6 a 0,9 °C.\n- Cigarro: eleva cerca de 0,2 °C por 30 minutos.\n- Água gelada: reduz 0,2 a 1,2 °C.\n- Taquipneia: reduz a leitura em cerca de 0,5 °C a cada 10 irpm de aumento na frequência respiratória.\n\nNa hemiparesia, a temperatura axilar é cerca de 0,5 °C menor do lado fraco. Em suspeita de abdome agudo ou de afecção pélvica inflamatória, uma diferença maior que 0,5 °C entre as temperaturas axilar e retal tem valor clínico.\n",
+         "texto": "A via bucal não serve para inconscientes, pacientes graves, portadores de transtorno mental, crianças, idosos e pessoas com alterações orofaríngeas. Também não serve logo após fumar ou ingerir alimentos quentes e gelados. A via retal exige termômetro próprio, de bulbo arredondado. A aferição timpânica é a mais variável entre os métodos.\n\nFatores que distorcem a temperatura bucal:\n\n- Mastigação prolongada: eleva cerca de 0,3 °C por até 20 minutos.\n- Líquido quente: eleva 0,6 a 0,9 °C.\n- Cigarro: eleva cerca de 0,2 °C por 30 minutos.\n- Água gelada: reduz 0,2 a 1,2 °C.\n- Taquipneia: reduz a leitura em cerca de 0,5 °C a cada 10 irpm de aumento na frequência respiratória.\n\nNa hemiparesia, a temperatura axilar é cerca de 0,5 °C menor do lado fraco. Em suspeita de abdome agudo ou de afecção pélvica inflamatória, uma diferença maior que 0,5 °C entre as temperaturas axilar e retal tem valor clínico.\n",
          "nivel": "avancado"
         },
         {
@@ -819,7 +819,7 @@
         {
          "tipo": "conceito",
          "titulo": "Onde fica o limiar que discrimina doença",
-         "texto": "Medições cuidadosas em adultos sem febre e sem doença cardiopulmonar (McGee) encontram média em torno de 20 irpm, com faixa de até 25.\n\nNa prática à beira do leito, uma FR persistentemente ≥ 25 irpm é um limiar que discrimina melhor doença real.\n",
+         "texto": "Aferições cuidadosas em adultos sem febre e sem doença cardiopulmonar (McGee) encontram média em torno de 20 irpm, com faixa de até 25.\n\nNa prática à beira do leito, uma FR persistentemente ≥ 25 irpm é um limiar que discrimina melhor doença real.\n",
          "nivel": "avancado"
         },
         {
@@ -875,7 +875,7 @@
         },
         {
          "tipo": "perola",
-         "texto": "A frequência respiratória é o sinal vital mais anotado e menos medido. Comparando o prontuário com a contagem real, os valores anotados se concentram entre 16 e 22 irpm na grande maioria das vezes — mesmo em pacientes cuja frequência verdadeira variava de 10 a mais de 30.\n\nA causa é quase sempre a mesma: contar 15 segundos e multiplicar por quatro. Nessa forma abreviada, apenas cerca de 23% dos pacientes taquipneicos são identificados; com 60 segundos de observação, praticamente todos são. O minuto inteiro ainda revela padrões que a contagem curta jamais mostraria, como a respiração de Cheyne-Stokes.\n"
+         "texto": "A frequência respiratória é o sinal vital mais anotado e menos aferido. Comparando o prontuário com a contagem real, os valores anotados se concentram entre 16 e 22 irpm na grande maioria das vezes — mesmo em pacientes cuja frequência verdadeira variava de 10 a mais de 30.\n\nA causa é quase sempre a mesma: contar 15 segundos e multiplicar por quatro. Nessa forma abreviada, apenas cerca de 23% dos pacientes taquipneicos são identificados; com 60 segundos de observação, praticamente todos são. O minuto inteiro ainda revela padrões que a contagem curta jamais mostraria, como a respiração de Cheyne-Stokes.\n"
         },
         {
          "tipo": "secao",

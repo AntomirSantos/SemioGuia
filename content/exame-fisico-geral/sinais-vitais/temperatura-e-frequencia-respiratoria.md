@@ -56,11 +56,11 @@ texto: |
 
   Na hipertermia o ponto de ajuste não se desloca. A temperatura sobe por sobrecarga externa: insolação, roupa inadequada, esforço extenuante.
 
-  **No adulto, considera-se febre a temperatura axilar acima de 37,8 °C.** A faixa de 37,3 a 37,7 °C é o **estado subfebril**, que pede repetição da medida e correlação clínica. Lembre que o fim da tarde naturalmente eleva a temperatura.
+  **No adulto, considera-se febre a temperatura axilar acima de 37,8 °C.** A faixa de 37,3 a 37,7 °C é o **estado subfebril**, que pede repetição da aferição e correlação clínica. Lembre que o fim da tarde naturalmente eleva a temperatura.
 :::
 
 ::: secao
-titulo: Como medir a temperatura
+titulo: Como aferir a temperatura
 :::
 
 ::: ilustracao
@@ -132,7 +132,7 @@ linhas:
 :::
 
 ::: manobra
-titulo: Medida da temperatura axilar
+titulo: Aferição da temperatura axilar
 passos:
   - "Limpe o termômetro com algodão embebido em álcool. Se for de coluna de mercúrio, confira que a coluna esteja em 35 °C ou abaixo e abaixe-a se necessário."
   - "Seque a axila do paciente, se estiver úmida."
@@ -147,7 +147,7 @@ passos:
 titulo: Outras vias e o que as distorce
 nivel: avancado
 texto: |
-  A via bucal não serve para inconscientes, pacientes graves, portadores de transtorno mental, crianças, idosos e pessoas com alterações orofaríngeas. Também não serve logo após fumar ou ingerir alimentos quentes e gelados. A via retal exige termômetro próprio, de bulbo arredondado. A medida timpânica é a mais variável entre os métodos.
+  A via bucal não serve para inconscientes, pacientes graves, portadores de transtorno mental, crianças, idosos e pessoas com alterações orofaríngeas. Também não serve logo após fumar ou ingerir alimentos quentes e gelados. A via retal exige termômetro próprio, de bulbo arredondado. A aferição timpânica é a mais variável entre os métodos.
 
   Fatores que distorcem a temperatura bucal:
 
@@ -306,7 +306,7 @@ passos:
 titulo: Onde fica o limiar que discrimina doença
 nivel: avancado
 texto: |
-  Medições cuidadosas em adultos sem febre e sem doença cardiopulmonar (McGee) encontram média em torno de 20 irpm, com faixa de até 25.
+  Aferições cuidadosas em adultos sem febre e sem doença cardiopulmonar (McGee) encontram média em torno de 20 irpm, com faixa de até 25.
 
   Na prática à beira do leito, uma FR persistentemente ≥ 25 irpm é um limiar que discrimina melhor doença real.
 :::
@@ -327,7 +327,7 @@ linhas:
 
 ::: perola
 texto: |
-  A frequência respiratória é o sinal vital mais anotado e menos medido. Comparando o prontuário com a contagem real, os valores anotados se concentram entre 16 e 22 irpm na grande maioria das vezes — mesmo em pacientes cuja frequência verdadeira variava de 10 a mais de 30.
+  A frequência respiratória é o sinal vital mais anotado e menos aferido. Comparando o prontuário com a contagem real, os valores anotados se concentram entre 16 e 22 irpm na grande maioria das vezes — mesmo em pacientes cuja frequência verdadeira variava de 10 a mais de 30.
 
   A causa é quase sempre a mesma: contar 15 segundos e multiplicar por quatro. Nessa forma abreviada, apenas cerca de 23% dos pacientes taquipneicos são identificados; com 60 segundos de observação, praticamente todos são. O minuto inteiro ainda revela padrões que a contagem curta jamais mostraria, como a respiração de Cheyne-Stokes.
 :::
