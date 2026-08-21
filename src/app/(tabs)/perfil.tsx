@@ -60,7 +60,7 @@ function BarraProgresso({ estudados, total, titulo }: { estudados: number; total
           }}
         />
       </View>
-      <Text style={{ fontFamily: fonte.corpo, fontSize: tipo.small, color: paleta.tinta2 }}>
+      <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2 }}>
         {estudados} de {total} tópicos
       </Text>
     </View>
@@ -222,7 +222,12 @@ export function TelaPerfil() {
         {referencias.map((ref) => (
           <Text
             key={ref}
-            style={{ fontFamily: fonte.corpo, fontSize: tipo.small, color: paleta.tinta2, marginBottom: espaco.xs }}
+            style={{
+              fontFamily: fonte.corpo,
+              fontSize: Math.round(tipo.small * escala),
+              color: paleta.tinta2,
+              marginBottom: espaco.xs,
+            }}
           >
             {ref}
           </Text>
@@ -240,7 +245,9 @@ export function TelaPerfil() {
       >
         Versão do conteúdo: {conteudo.versao}
       </Text>
-      <Text style={{ fontFamily: fonte.corpo, fontSize: tipo.small, color: paleta.tinta2 }}>{AVISO_LEGAL}</Text>
+      <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2 }}>
+        {AVISO_LEGAL}
+      </Text>
     </Tela>
   );
 }
