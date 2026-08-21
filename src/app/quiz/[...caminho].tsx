@@ -145,7 +145,7 @@ function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: Qui
     return (
       <Tela>
         <Eyebrow texto="Resultado" />
-        <Text style={{ fontFamily: fonte.display, fontSize: Math.round(64 * escala), color: paleta.acento, marginBottom: espaco.s }}>
+        <Text style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.hero * escala), color: paleta.acento, marginBottom: espaco.s }}>
           {resultado.percentual}%
         </Text>
         <Text
