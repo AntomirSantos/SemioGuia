@@ -1,4 +1,4 @@
-import { useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import { router, usePathname } from 'expo-router';
 import { BookOpen, GraduationCap, Menu, Search, User, type LucideIcon } from 'lucide-react-native';
@@ -21,6 +21,18 @@ const ITENS: ItemNav[] = [
   { rota: '/perfil', titulo: 'Perfil', Icone: User },
 ];
 
+// react-native não tipa `.focus()` em View/Pressable (é uma capacidade só do
+// DOM, via react-native-web) — este tipo mínimo isola o cast necessário para
+// devolver/mover o foco de teclado ao abrir/fechar o menu, sem introduzir
+// `any` solto pelo componente.
+interface ElementoFocavel {
+  focus?: () => void;
+}
+
+function focar(ref: React.RefObject<unknown>) {
+  (ref.current as ElementoFocavel | null)?.focus?.();
+}
+
 /**
  * Navegação da versão web: substitui a barra de abas inferior (pensada para
  * toque nativo) por uma barra de topo com título + botão hambúrguer, que
@@ -37,6 +49,26 @@ export function NavegacaoHamburguer({ children }: { children?: ReactNode }) {
   const { paleta, escala } = useTema();
   const pathname = usePathname();
   const [aberto, setAberto] = useState(false);
+
+  const botaoMenuRef = useRef<View>(null);
+  const primeiroItemRef = useRef<View>(null);
+  const primeiraRenderizacao = useRef(true);
+
+  // Move o foco de teclado para dentro do menu ao abrir e devolve ao botão
+  // hambúrguer ao fechar — sem isso, Tab continuaria seguindo a ordem do
+  // documento (conteúdo por trás do overlay) em vez de entrar no menu.
+  // Ignorado na primeira renderização (menu começa fechado).
+  useEffect(() => {
+    if (primeiraRenderizacao.current) {
+      primeiraRenderizacao.current = false;
+      return;
+    }
+    if (aberto) {
+      focar(primeiroItemRef);
+    } else {
+      focar(botaoMenuRef);
+    }
+  }, [aberto]);
 
   function navegar(rota: ItemNav['rota']) {
     setAberto(false);
@@ -57,9 +89,12 @@ export function NavegacaoHamburguer({ children }: { children?: ReactNode }) {
         }}
       >
         <Pressable
+          ref={botaoMenuRef}
+          testID="botaoHamburguer"
           accessibilityRole="button"
-          accessibilityLabel="Abrir menu"
+          accessibilityLabel={aberto ? 'Fechar menu' : 'Abrir menu'}
           accessibilityState={{ expanded: aberto }}
+          aria-expanded={aberto}
           onPress={() => setAberto((v) => !v)}
           hitSlop={8}
           style={{
@@ -83,7 +118,20 @@ export function NavegacaoHamburguer({ children }: { children?: ReactNode }) {
         </Text>
       </View>
 
-      <View style={{ flex: 1 }}>{children}</View>
+      {/* `inert` não existe no tipo de View do react-native, mas o
+          react-native-web encaminha a prop para o elemento DOM: impede que o
+          conteúdo por trás do menu receba foco de teclado enquanto o overlay
+          está aberto (aria-hidden sozinho não garante isso). Sem efeito no
+          nativo — prop desconhecida, ignorada. */}
+      <View
+        testID="conteudoWeb"
+        style={{ flex: 1 }}
+        importantForAccessibility={aberto ? 'no-hide-descendants' : 'auto'}
+        aria-hidden={aberto}
+        {...({ inert: aberto || undefined } as { inert?: boolean })}
+      >
+        {children}
+      </View>
 
       {aberto && (
         <View
@@ -106,14 +154,16 @@ export function NavegacaoHamburguer({ children }: { children?: ReactNode }) {
               paddingTop: espaco.m,
             }}
           >
-            {ITENS.map(({ rota, titulo, Icone }) => {
+            {ITENS.map(({ rota, titulo, Icone }, indice) => {
               const ativo = pathname === rota;
               return (
                 <Pressable
                   key={rota}
+                  ref={indice === 0 ? primeiroItemRef : undefined}
                   accessibilityRole="button"
                   accessibilityLabel={titulo}
                   accessibilityState={{ selected: ativo }}
+                  aria-selected={ativo}
                   onPress={() => navegar(rota)}
                   style={{
                     flexDirection: 'row',
@@ -142,7 +192,7 @@ export function NavegacaoHamburguer({ children }: { children?: ReactNode }) {
           </View>
           <Pressable
             accessibilityRole="button"
-            accessibilityLabel="Fechar menu"
+            accessibilityLabel="Fechar sobreposição"
             onPress={() => setAberto(false)}
             style={{ flex: 1, backgroundColor: veu }}
           />
