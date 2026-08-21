@@ -417,6 +417,10 @@
         "temperatura axilar",
         "febre",
         "febrícula",
+        "estado subfebril",
+        "estado febril",
+        "febre na criança",
+        "SBP",
         "hipertermia",
         "hipotermia",
         "curva térmica",
@@ -438,14 +442,16 @@
         "Porto — Semiologia Médica, 8ª ed., cap. 8 (Exame físico geral), p. 187-191",
         "Porto — Exame Clínico, 8ª ed., cap. 21 (Sinais vitais), p. 952-955",
         "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 18 (Temperature)",
-        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 19 (Respiratory Rate and Abnormal Breathing Patterns)"
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 19 (Respiratory Rate and Abnormal Breathing Patterns)",
+        "Semiologia Clínica, 1ª ed. (definição de febre no adulto: axilar > 37,8 °C)",
+        "SBP — Documento Científico nº 206, 15/05/2025: Abordagem da Febre Aguda em Pediatria e Reflexões sobre a Febre nas Arboviroses"
        ],
        "revisao": "pendente",
        "blocos": [
         {
          "tipo": "conceito",
          "titulo": "Dois sinais baratos e frequentemente mal medidos",
-         "texto": "**Temperatura.** O interior do corpo é mantido praticamente constante, com variação de no máximo cerca de 0,6 °C, pelo termostato hipotalâmico. A pele, ao contrário, acompanha o ambiente. Há variação circadiana previsível: os valores mais baixos ocorrem por volta das 6 h e os mais altos no fim da tarde. Também elevam a temperatura as refeições, o exercício intenso, estados emocionais, a gravidez e a ovulação — na mulher hígida a curva térmica basal sobe na ovulação e cai 24 a 36 h antes da menstruação.\n\nNa febre, pirogênios liberados por bactérias ou por tecidos em degeneração deslocam para cima o ponto de ajuste do termostato hipotalâmico; os mecanismos de conservação e produção de calor são acionados até que a nova temperatura-alvo seja atingida — daí os calafrios. Hipertermia é diferente: a temperatura sobe por sobrecarga externa (insolação, roupa inadequada, esforço extenuante) sem deslocamento do ponto de ajuste.\n\nA febre raramente vem sozinha. A **síndrome febril** inclui astenia, inapetência, cefaleia, taquicardia, taquipneia, oligúria, mialgia, calafrios, sudorese, náuseas e, nos extremos de idade, delírio, confusão mental e convulsões.\n\nAtenção ao paciente que \"não faz febre\": idosos, diabéticos, pacientes em choque ou em mau estado geral podem apresentar apenas febrícula — ou nenhuma elevação — diante de infecção grave. A ausência de febre nessa situação é sinal de mau prognóstico, não de tranquilidade.\n\n**Frequência respiratória.** O padrão normal do adulto — eupneia — é uma sucessão regular de incursões de amplitude semelhante. A faixa normal é de **16 a 20 incursões por minuto (irpm)**: acima de 20, **taquipneia**; abaixo de 16, **bradipneia**.\n\nNota de aprofundamento: medições cuidadosas em adultos sem febre e sem doença cardiopulmonar (McGee) encontram média em torno de 20 irpm, com faixa de até 25 — na prática à beira do leito, uma FR persistentemente ≥ 25 irpm é um limiar que discrimina melhor doença real.\n\nA FR é o único sinal vital sob controle voluntário: se o paciente perceber que está sendo contado, o número muda. Por isso a contagem é feita com discrição, tipicamente enquanto o examinador ainda segura o punho como se palpasse o pulso.\n"
+         "texto": "**Temperatura.** O interior do corpo é mantido praticamente constante, com variação de no máximo cerca de 0,6 °C, pelo termostato hipotalâmico. A pele, ao contrário, acompanha o ambiente. Há variação circadiana previsível: os valores mais baixos ocorrem por volta das 6 h e os mais altos no fim da tarde. Também elevam a temperatura as refeições, o exercício intenso, estados emocionais, a gravidez e a ovulação — na mulher hígida a curva térmica basal sobe na ovulação e cai 24 a 36 h antes da menstruação.\n\nNa febre, pirogênios liberados por bactérias ou por tecidos em degeneração deslocam para cima o ponto de ajuste do termostato hipotalâmico; os mecanismos de conservação e produção de calor são acionados até que a nova temperatura-alvo seja atingida — daí os calafrios. Hipertermia é diferente: a temperatura sobe por sobrecarga externa (insolação, roupa inadequada, esforço extenuante) sem deslocamento do ponto de ajuste.\n\n**No adulto, considera-se febre a temperatura axilar acima de 37,8 °C.** A faixa de 37,3 a 37,7 °C é o **estado subfebril**, que pede repetição da medida e correlação clínica — lembrando que o fim da tarde naturalmente eleva a temperatura.\n\nA febre raramente vem sozinha. A **síndrome febril** inclui astenia, inapetência, cefaleia, taquicardia, taquipneia, oligúria, mialgia, calafrios, sudorese, náuseas e, nos extremos de idade, delírio, confusão mental e convulsões.\n\nAtenção ao paciente que \"não faz febre\": idosos, diabéticos, pacientes em choque ou em mau estado geral podem apresentar apenas febrícula — ou nenhuma elevação — diante de infecção grave. A ausência de febre nessa situação é sinal de mau prognóstico, não de tranquilidade.\n\n**Frequência respiratória.** O padrão normal do adulto — eupneia — é uma sucessão regular de incursões de amplitude semelhante. A faixa normal é de **16 a 20 incursões por minuto (irpm)**: acima de 20, **taquipneia**; abaixo de 16, **bradipneia**.\n\nNota de aprofundamento: medições cuidadosas em adultos sem febre e sem doença cardiopulmonar (McGee) encontram média em torno de 20 irpm, com faixa de até 25 — na prática à beira do leito, uma FR persistentemente ≥ 25 irpm é um limiar que discrimina melhor doença real.\n\nA FR é o único sinal vital sob controle voluntário: se o paciente perceber que está sendo contado, o número muda. Por isso a contagem é feita com discrição, tipicamente enquanto o examinador ainda segura o punho como se palpasse o pulso.\n"
         },
         {
          "tipo": "manobra",
@@ -494,6 +500,11 @@
            "Método rápido, porém o de maior variabilidade"
           ]
          ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Febre na criança — SBP 2025",
+         "texto": "Na criança, o ponto de corte é diferente do adulto. O Documento Científico nº 206 da Sociedade Brasileira de Pediatria (maio de 2025) **reduziu o limiar de febre de 37,8 °C para ≥ 37,5 °C na temperatura axilar** (equivalente a ≥ 38 °C por via oral ou retal). Valores axilares de **37,3 a 37,5 °C** configuram **estado febril** (temperatura limítrofe), que pede observação.\n\nA via recomendada em todas as crianças é a **axilar com termômetro digital**. Evitam-se os termômetros de mercúrio (risco de quebra e toxicidade); a via retal, embora mais próxima da temperatura central, é desconfortável e invasiva — não deve ser rotina em menores de 5 anos — e a via oral também deve ser evitada.\n\nO documento reforça que o número isolado importa menos que a avaliação clínica integrada da criança: estado geral, hidratação, perfusão e comportamento pesam mais que décimos de grau.\n"
         },
         {
          "tipo": "tabela",

@@ -7,6 +7,10 @@ tags:
   - temperatura axilar
   - febre
   - febrícula
+  - estado subfebril
+  - estado febril
+  - febre na criança
+  - SBP
   - hipertermia
   - hipotermia
   - curva térmica
@@ -28,6 +32,8 @@ referencias:
   - "Porto — Exame Clínico, 8ª ed., cap. 21 (Sinais vitais), p. 952-955"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 18 (Temperature)"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 19 (Respiratory Rate and Abnormal Breathing Patterns)"
+  - "Semiologia Clínica, 1ª ed. (definição de febre no adulto: axilar > 37,8 °C)"
+  - "SBP — Documento Científico nº 206, 15/05/2025: Abordagem da Febre Aguda em Pediatria e Reflexões sobre a Febre nas Arboviroses"
 revisao: pendente
 ---
 
@@ -37,6 +43,8 @@ texto: |
   **Temperatura.** O interior do corpo é mantido praticamente constante, com variação de no máximo cerca de 0,6 °C, pelo termostato hipotalâmico. A pele, ao contrário, acompanha o ambiente. Há variação circadiana previsível: os valores mais baixos ocorrem por volta das 6 h e os mais altos no fim da tarde. Também elevam a temperatura as refeições, o exercício intenso, estados emocionais, a gravidez e a ovulação — na mulher hígida a curva térmica basal sobe na ovulação e cai 24 a 36 h antes da menstruação.
 
   Na febre, pirogênios liberados por bactérias ou por tecidos em degeneração deslocam para cima o ponto de ajuste do termostato hipotalâmico; os mecanismos de conservação e produção de calor são acionados até que a nova temperatura-alvo seja atingida — daí os calafrios. Hipertermia é diferente: a temperatura sobe por sobrecarga externa (insolação, roupa inadequada, esforço extenuante) sem deslocamento do ponto de ajuste.
+
+  **No adulto, considera-se febre a temperatura axilar acima de 37,8 °C.** A faixa de 37,3 a 37,7 °C é o **estado subfebril**, que pede repetição da medida e correlação clínica — lembrando que o fim da tarde naturalmente eleva a temperatura.
 
   A febre raramente vem sozinha. A **síndrome febril** inclui astenia, inapetência, cefaleia, taquicardia, taquipneia, oligúria, mialgia, calafrios, sudorese, náuseas e, nos extremos de idade, delírio, confusão mental e convulsões.
 
@@ -78,6 +86,16 @@ linhas:
   - ["Bucal (sublingual)", "36 a 37,4 °C", "Sofre influência de mastigação, bebidas, cigarro e taquipneia"]
   - ["Retal", "36 a 37,5 °C", "Cerca de 0,5 °C acima da axilar; termômetro de bulbo arredondado"]
   - ["Timpânica / frontal (infravermelho)", "Próxima da retal", "Método rápido, porém o de maior variabilidade"]
+:::
+
+::: conceito
+titulo: Febre na criança — SBP 2025
+texto: |
+  Na criança, o ponto de corte é diferente do adulto. O Documento Científico nº 206 da Sociedade Brasileira de Pediatria (maio de 2025) **reduziu o limiar de febre de 37,8 °C para ≥ 37,5 °C na temperatura axilar** (equivalente a ≥ 38 °C por via oral ou retal). Valores axilares de **37,3 a 37,5 °C** configuram **estado febril** (temperatura limítrofe), que pede observação.
+
+  A via recomendada em todas as crianças é a **axilar com termômetro digital**. Evitam-se os termômetros de mercúrio (risco de quebra e toxicidade); a via retal, embora mais próxima da temperatura central, é desconfortável e invasiva — não deve ser rotina em menores de 5 anos — e a via oral também deve ser evitada.
+
+  O documento reforça que o número isolado importa menos que a avaliação clínica integrada da criança: estado geral, hidratação, perfusão e comportamento pesam mais que décimos de grau.
 :::
 
 ::: tabela
