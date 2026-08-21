@@ -26,13 +26,13 @@
   <g stroke="currentColor" stroke-width="1.5" fill="currentColor" fill-opacity="0.12">
     <circle cx="90" cy="116" r="8" />
     <circle cx="140" cy="56" r="8" />
-    <circle cx="184" cy="44" r="8" />
+    <circle cx="190" cy="44" r="8" />
     <circle cx="140" cy="181" r="9" />
   </g>
   <g font-family="sans-serif" font-size="11" fill="currentColor" stroke="none" text-anchor="middle">
     <text x="90" y="120">1</text>
     <text x="140" y="60">2</text>
-    <text x="184" y="48">3</text>
+    <text x="190" y="48">3</text>
     <text x="140" y="185">4</text>
   </g>
   <!-- chamadas -->
@@ -41,11 +41,13 @@
     <path d="M 82 133 L 84 125 L 76 128" />
     <path d="M 108 57 L 130 57" />
     <path d="M 124 53 L 130 57 L 124 61" />
+    <path d="M 181 44 L 172 45" />
+    <path d="M 178 41 L 172 45 L 178 48" />
   </g>
   <g font-family="sans-serif" font-size="11" fill="currentColor" stroke="none">
     <text x="34" y="146">axilar</text>
     <text x="104" y="60" text-anchor="end">bucal</text>
-    <text x="196" y="48">timpânica</text>
+    <text x="202" y="48">timpânica</text>
     <text x="154" y="185">retal</text>
   </g>
 </svg>

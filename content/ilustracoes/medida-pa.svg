@@ -25,18 +25,22 @@
   </g>
   <!-- coracao: referencia de altura -->
   <path d="M 76 95 C 67 88, 67 81, 72 81 C 74.5 81, 76 83, 76 84.5 C 76 83, 77.5 81, 80 81 C 85 81, 85 88, 76 95 Z" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.5" />
-  <!-- braco apoiado na mesa, cotovelo levemente fletido -->
+  <!-- braco apoiado na mesa, cotovelo levemente fletido; o contorno e interrompido sob o manguito -->
   <g stroke="currentColor" stroke-width="2" fill="none">
-    <path d="M 89 71 L 137 91" />
-    <path d="M 92 85 L 143 105" />
+    <path d="M 89 71 L 105 77" />
+    <path d="M 130 88 L 137 91" />
+    <path d="M 92 85 L 100 88" />
+    <path d="M 125 98 L 143 105" />
     <path d="M 137 91 L 234 91" />
     <path d="M 143 105 L 234 105" />
     <path d="M 234 91 L 248 91 A 7 7 0 0 1 248 105 L 234 105" />
   </g>
-  <!-- manguito sobre o braco -->
-  <g transform="rotate(23 116 88)">
-    <rect x="101" y="74" width="30" height="28" rx="4" fill="currentColor" fill-opacity="0.1" stroke="currentColor" stroke-width="2" />
-    <path d="M 116 74 L 116 102" stroke="currentColor" stroke-width="1.5" fill="none" />
+  <!-- manguito: faixa que envolve a circunferencia do braco -->
+  <g stroke="currentColor" fill="none">
+    <path d="M 108 74 L 130 83 Q 131 94 122 102 L 100 93 Q 99 82 108 74 Z" stroke-width="2" />
+    <path d="M 112 76 L 114 70 L 125 75 L 123 80" stroke-width="1.5" />
+    <path d="M 116 100 C 115 103, 113 106, 112 108" stroke-width="2" />
+    <path d="M 112 108 C 104 110, 99 117, 102 122 C 105 127, 114 126, 116 119 C 117 114, 116 109, 112 108 Z" stroke-width="2" />
   </g>
   <!-- estetoscopio na fossa cubital -->
   <g stroke="currentColor" fill="none">
