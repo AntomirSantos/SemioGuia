@@ -9,7 +9,7 @@ const LARGURA_COLUNA = 130;
 
 export function TabelaBloco({ bloco }: { bloco: TabelaBlocoTipo }) {
   const { paleta, escala } = useTema();
-  const corpo = Math.round(tipo.small * escala);
+  const corpo = Math.round(tipo.corpo * escala);
   return (
     <View style={{ marginVertical: espaco.m }}>
       {bloco.titulo ? (

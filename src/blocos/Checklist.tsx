@@ -4,6 +4,7 @@ import { Check } from 'lucide-react-native';
 import type { Bloco } from '../content/schema';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
+import { TextoRico } from './texto';
 
 type ChecklistBlocoTipo = Extract<Bloco, { tipo: 'checklist' }>;
 
@@ -55,17 +56,17 @@ export function ChecklistBloco({ bloco }: { bloco: ChecklistBlocoTipo }) {
             >
               {checked ? <Check size={14} color={paleta.superficie} strokeWidth={3} /> : null}
             </View>
-            <Text
-              style={{
-                flex: 1,
-                fontFamily: fonte.corpo,
-                fontSize: Math.round(tipo.corpo * escala),
-                color: checked ? paleta.tinta2 : paleta.tinta,
-                textDecorationLine: checked ? 'line-through' : 'none',
-              }}
-            >
-              {item}
-            </Text>
+            <View style={{ flex: 1 }}>
+              <TextoRico
+                style={{
+                  fontSize: Math.round(tipo.corpo * escala),
+                  color: checked ? paleta.tinta2 : paleta.tinta,
+                  textDecorationLine: checked ? 'line-through' : 'none',
+                }}
+              >
+                {item}
+              </TextoRico>
+            </View>
           </Pressable>
         );
       })}
