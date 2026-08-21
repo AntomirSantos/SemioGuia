@@ -43,6 +43,12 @@
       "skillPath": "skills/design-mobile-apps/SKILL.md",
       "computedHash": "08a0337719296003877cfbbf193d6f5c4700ccd6acfbbb069c70ebb8e80ef90d"
     },
+    "subagent-driven-development": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/subagent-driven-development/SKILL.md",
+      "computedHash": "367cc1d3216d6672b947c8c6583dbd6440ea407beb6da75a97d3a8ee1a23640a"
+    },
     "writing-plans": {
       "source": "obra/superpowers",
       "sourceType": "github",
