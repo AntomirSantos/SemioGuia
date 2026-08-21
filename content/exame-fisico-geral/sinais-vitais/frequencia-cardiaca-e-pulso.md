@@ -43,12 +43,15 @@ titulo: Sete informações, não um número
 texto: |
   A tomada do pulso radial é o gesto mais simples do exame físico. Muitas vezes é o primeiro contato direto entre médico e paciente. Bem feito, ele entrega sete informações.
 
-  1. **Estado da parede arterial** — normalmente lisa e facilmente depressível.
+  1. **Estado da parede arterial** — normalmente lisa e facilmente depressível. Parede endurecida e tortuosa é a "traqueia de passarinho".
   2. **Frequência** — 60 a 100 bpm no adulto em repouso. Acima de 100, taquisfigmia (taquicardia); abaixo de 60, bradisfigmia (bradicardia). Atletas bem treinados podem ter 50 a 60 bpm sem doença.
   3. **Ritmo** — regular quando os intervalos são iguais; irregular quando variam.
   4. **Amplitude** — amplo, mediano ou pequeno.
   5. **Tensão ou dureza** — a força necessária para interromper as pulsações. Pulso duro acompanha hipertensão; pulso mole, hipotensão.
-  6. **Tipo de onda** — normal, célere, parvus, filiforme, alternante, paradoxal ou bisferiens.
+  6. **Tipo de onda** — normal, alternante, paradoxal ou bisferiens; e mais três com descrição própria:
+     - **célere**, em martelo d'água: insuficiência aórtica;
+     - **parvus**, de ascensão lenta e pico prolongado: estenose aórtica grave;
+     - **filiforme**, pequeno e mole: colapso circulatório.
   7. **Comparação com o lado homólogo** — a desigualdade aponta obstrução na crossa da aorta ou nos troncos que dela partem.
 :::
 
@@ -61,12 +64,9 @@ texto: |
 :::
 
 ::: conceito
-titulo: Tipos de onda, um a um
+titulo: Alternante ou bigeminado?
 nivel: avancado
 texto: |
-  - **Célere**, em martelo d'água: sobe e some depressa. É da insuficiência aórtica.
-  - **Parvus**: ascensão lenta e pico prolongado. É da estenose aórtica grave.
-  - **Filiforme**: pequeno e mole. É do colapso circulatório.
   - **Alternante**: uma onda ampla seguida de outra fraca, com os intervalos entre elas sempre **regulares**. Sinal de insuficiência ventricular esquerda.
   - **Bigeminado**: a onda fraca é uma extrassístole que chega precocemente e deixa o intervalo **irregular**. É o que o separa do alternante.
 :::
@@ -75,7 +75,7 @@ texto: |
 titulo: Parede arterial endurecida
 nivel: avancado
 texto: |
-  Parede endurecida e tortuosa — a "traqueia de passarinho" — sugere mediosclerose de Mönckeberg. É causa clássica de pseudo-hipertensão no idoso.
+  A "traqueia de passarinho" sugere mediosclerose de Mönckeberg. É causa clássica de pseudo-hipertensão no idoso.
 :::
 
 ::: secao

@@ -234,7 +234,7 @@ svg: |
       <text x="240" y="222">Recorrente</text>
     </g>
   </svg>
-legenda: "Quatro padrões de curva térmica, com a linha tracejada marcando a temperatura normal."
+legenda: "Quatro padrões de curva térmica; a linha tracejada marca a temperatura normal. Irregular e recorrente estão em \"Aprofundar\"."
 :::
 
 ::: tabela

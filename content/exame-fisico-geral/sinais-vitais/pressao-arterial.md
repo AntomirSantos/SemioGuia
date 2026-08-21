@@ -39,7 +39,7 @@ titulo: O essencial
 ::: conceito
 titulo: O que a PA mede
 texto: |
-  Pressão arterial é a força do sangue contra a parede das artérias. Cada medida registra dois valores.
+  Pressão arterial (PA) é a força do sangue contra a parede das artérias. Cada medida registra dois valores.
 
   - **Sistólica (PAS)**: o pico de pressão durante a ejeção ventricular.
   - **Diastólica (PAD)**: o menor valor, logo antes da sístole seguinte.
@@ -143,6 +143,8 @@ passos:
   - "Faça pelo menos duas medidas com cerca de 1 minuto de intervalo. Se forem muito diferentes, repita e considere a média."
   - "Na primeira avaliação, meça nos dois braços e adote como referência o braço de maior valor."
   - "Registre os valores exatos, sem arredondar para 0 ou 5, anotando o braço e a posição do paciente."
+observar: |
+  Se os sons persistirem até zero, use a fase IV (abafamento) como diastólica e registre os três valores.
 :::
 
 ::: ilustracao
@@ -272,7 +274,7 @@ titulo: Armadilhas do exame
 
 ::: perola
 texto: |
-  Nunca pule o método palpatório. Quem insufla só até "parar de ouvir" pode cair dentro do **hiato auscultatório** e registrar uma sistólica falsamente baixa. Estimar a PAS pela palpação antes de auscultar resolve o problema em dez segundos.
+  Nunca pule o método palpatório. Quem insufla só até "parar de ouvir" pode cair dentro do **hiato auscultatório** e registrar uma sistólica falsamente baixa. O pulso distal persiste durante o hiato, e é por isso que estimar a PAS pela palpação antes de auscultar resolve o problema em dez segundos.
 
   O outro erro campeão é o manguito estreito demais para o braço. Ele transmite mal a pressão aos tecidos, exige pressões maiores para colabar a artéria e **superestima** a PA — transformando um obeso normotenso em "hipertenso".
 :::
@@ -283,7 +285,7 @@ nivel: avancado
 texto: |
   Até 20% dos idosos hipertensos têm hiato auscultatório. Os sons somem no fim da fase I e reaparecem depois, num intervalo que pode chegar a 30 a 40 mmHg.
 
-  Quem não o ultrapassa registra sistólica falsamente baixa ou diastólica falsamente alta. O pulso distal persiste durante o hiato — é isso que faz o método palpatório funcionar.
+  Quem não o ultrapassa registra sistólica falsamente baixa ou diastólica falsamente alta.
 :::
 
 ::: conceito
