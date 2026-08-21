@@ -39,7 +39,7 @@ titulo: O essencial
 ::: conceito
 titulo: O que a PA mede
 texto: |
-  Pressão arterial (PA) é a força do sangue contra a parede das artérias. Cada medida registra dois valores.
+  Pressão arterial (PA) é a força do sangue contra a parede das artérias. Cada aferição registra dois valores.
 
   - **Sistólica (PAS)**: o pico de pressão durante a ejeção ventricular.
   - **Diastólica (PAD)**: o menor valor, logo antes da sístole seguinte.
@@ -63,14 +63,14 @@ texto: |
 :::
 
 ::: secao
-titulo: Como medir
+titulo: Como aferir
 :::
 
 ::: ilustracao
 svg: |
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <!-- chao -->
-    <path d="M 14 190 L 306 190" stroke="currentColor" stroke-width="1.5" />
+    <path d="M 14 190 L 300 190" stroke="currentColor" stroke-width="1.5" />
     <!-- cadeira -->
     <g stroke="currentColor" stroke-width="1.5" fill="none">
       <path d="M 50 154 L 124 154" />
@@ -79,9 +79,9 @@ svg: |
     </g>
     <!-- mesa de apoio -->
     <g stroke="currentColor" stroke-width="1.5" fill="none">
-      <path d="M 148 107 L 308 107" />
-      <path d="M 148 112 L 308 112" />
-      <path d="M 298 112 L 298 190" />
+      <path d="M 140 104 L 296 104" />
+      <path d="M 140 109 L 296 109" />
+      <path d="M 284 109 L 284 190" />
     </g>
     <!-- paciente sentado, de perfil -->
     <g stroke="currentColor" stroke-width="2" fill="none">
@@ -97,39 +97,39 @@ svg: |
     <path d="M 76 95 C 67 88, 67 81, 72 81 C 74.5 81, 76 83, 76 84.5 C 76 83, 77.5 81, 80 81 C 85 81, 85 88, 76 95 Z" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.5" />
     <!-- braco apoiado na mesa, cotovelo levemente fletido; o contorno e interrompido sob o manguito -->
     <g stroke="currentColor" stroke-width="2" fill="none">
-      <path d="M 89 71 L 105 77" />
-      <path d="M 130 88 L 137 91" />
-      <path d="M 92 85 L 100 88" />
-      <path d="M 125 98 L 143 105" />
-      <path d="M 137 91 L 234 91" />
-      <path d="M 143 105 L 234 105" />
-      <path d="M 234 91 L 248 91 A 7 7 0 0 1 248 105 L 234 105" />
+      <path d="M 92 74 L 105 79" />
+      <path d="M 124 86 L 135 90" />
+      <path d="M 92 87 L 101 90" />
+      <path d="M 120 97 L 131 102" />
+      <path d="M 135 90 L 176 90" />
+      <path d="M 131 102 L 176 102" />
+      <path d="M 176 90 L 187 90 A 6 6 0 0 1 187 102 L 176 102" />
     </g>
     <!-- manguito: faixa que envolve a circunferencia do braco -->
     <g stroke="currentColor" fill="none">
-      <path d="M 108 74 L 130 83 Q 131 94 122 102 L 100 93 Q 99 82 108 74 Z" stroke-width="2" />
-      <path d="M 112 76 L 114 70 L 125 75 L 123 80" stroke-width="1.5" />
-      <path d="M 116 100 C 115 103, 113 106, 112 108" stroke-width="2" />
-      <path d="M 112 108 C 104 110, 99 117, 102 122 C 105 127, 114 126, 116 119 C 117 114, 116 109, 112 108 Z" stroke-width="2" />
+      <path d="M 107 76 L 124 83 Q 126 93 118 100 L 101 93 Q 99 83 107 76 Z" stroke-width="2" />
+      <path d="M 112 78 L 113 73 L 120 76 L 118 81" stroke-width="1.5" />
+      <path d="M 112 98 C 112 101, 111 104, 111 107" stroke-width="2" />
+      <path d="M 111 107 C 105 108, 101 113, 103 118 C 105 122, 112 122, 114 116 C 115 112, 114 108, 111 107 Z" stroke-width="2" />
     </g>
     <!-- estetoscopio na fossa cubital -->
     <g stroke="currentColor" fill="none">
-      <circle cx="154" cy="97" r="7" stroke-width="2" />
-      <circle cx="154" cy="97" r="3" stroke-width="1.5" />
-      <path d="M 159 91 C 152 68, 166 36, 190 0" stroke-width="2" />
+      <circle cx="146" cy="96" r="6" stroke-width="2" />
+      <circle cx="146" cy="96" r="2.5" stroke-width="1.5" />
+      <path d="M 150 92 C 146 72, 152 40, 168 0" stroke-width="1.5" />
     </g>
     <!-- linha da altura do coracao -->
-    <path d="M 85 88 L 302 88" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4" fill="none" />
-    <text x="204" y="81" font-family="sans-serif" font-size="11" fill="currentColor" stroke="none">altura do coração</text>
+    <path d="M 85 88 L 296 88" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4" fill="none" />
+    <text x="200" y="81" font-family="sans-serif" font-size="11" fill="currentColor" stroke="none">altura do coração</text>
   </svg>
 legenda: "Paciente sentado, braço apoiado na altura do coração e estetoscópio na fossa cubital."
 :::
 
 ::: manobra
-titulo: Medida da PA pelo método auscultatório
+titulo: Aferição da PA pelo método auscultatório
 passos:
   - "Preparo do paciente: repouso de 3 a 5 minutos, sentado, em ambiente tranquilo; bexiga vazia; sem café, tabaco, álcool ou exercício na última hora."
-  - "Exponha o braço. Nunca meça por cima da roupa e não deixe a manga arregaçada apertando o braço."
+  - "Exponha o braço. Nunca afira por cima da roupa e não deixe a manga arregaçada apertando o braço."
   - "Apoie o braço em superfície firme, palma para cima, cotovelo levemente fletido, com a artéria braquial na altura do coração (4º espaço intercostal)."
   - "Meça a circunferência do braço na metade da distância entre acrômio e olécrano e escolha o manguito por ela: a bolsa inflável deve ter largura de cerca de 40% da circunferência e comprimento de cerca de 80% dela."
   - "Posicione o manguito 2 a 3 cm acima da fossa cubital, sem folgas e sem dobras, com o centro da bolsa sobre a artéria braquial."
@@ -141,7 +141,7 @@ passos:
   - "PAS = primeiro som audível (fase I de Korotkoff). PAD = desaparecimento dos sons (fase V)."
   - "Siga auscultando por mais 20 a 30 mmHg depois do último batimento, para ter certeza de que os sons cessaram; então esvazie o manguito rapidamente."
   - "Faça pelo menos duas medidas com cerca de 1 minuto de intervalo. Se forem muito diferentes, repita e considere a média."
-  - "Na primeira avaliação, meça nos dois braços e adote como referência o braço de maior valor."
+  - "Na primeira avaliação, afira nos dois braços e adote como referência o braço de maior valor."
   - "Registre os valores exatos, sem arredondar para 0 ou 5, anotando o braço e a posição do paciente."
 observar: |
   Se os sons persistirem até zero, use a fase IV (abafamento) como diastólica e registre os três valores.
@@ -250,7 +250,7 @@ texto: |
 :::
 
 ::: tabela
-titulo: Definição de hipertensão conforme o método de medida — DBHA 2025
+titulo: Definição de hipertensão conforme o método de aferição — DBHA 2025
 colunas: ["Método", "PAS (mmHg)", "Relação", "PAD (mmHg)"]
 linhas:
   - ["Consultório", "≥ 140", "e/ou", "≥ 90"]
@@ -291,7 +291,7 @@ texto: |
 ::: conceito
 titulo: Hipotensão ortostática no idoso
 texto: |
-  No idoso, meça em decúbito, sentado e em pé, pela frequência de hipotensão ortostática. Queda maior que 20 mmHg na PAS ou 10 mmHg na PAD após 3 minutos em pé caracteriza hipotensão postural.
+  No idoso, afira em decúbito, sentado e em pé, pela frequência de hipotensão ortostática. Queda maior que 20 mmHg na PAS ou 10 mmHg na PAD após 3 minutos em pé caracteriza hipotensão postural.
 :::
 
 ::: conceito
