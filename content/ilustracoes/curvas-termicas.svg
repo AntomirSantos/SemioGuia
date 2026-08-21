@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- eixos das quatro miniaturas -->
+  <g stroke="currentColor" stroke-width="1.5" fill="none">
+    <path d="M 30 26 L 30 86 L 150 86" />
+    <path d="M 180 26 L 180 86 L 300 86" />
+    <path d="M 30 142 L 30 202 L 150 202" />
+    <path d="M 180 142 L 180 202 L 300 202" />
+  </g>
+  <!-- linha basal (temperatura normal) -->
+  <g stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4" fill="none">
+    <path d="M 30 74 L 150 74" />
+    <path d="M 180 74 L 300 74" />
+    <path d="M 30 190 L 150 190" />
+    <path d="M 180 190 L 300 190" />
+  </g>
+  <!-- curvas -->
+  <g stroke="currentColor" stroke-width="2" fill="none">
+    <path d="M 30 74 L 40 40 L 52 36 L 64 40 L 76 36 L 88 40 L 100 36 L 112 40 L 124 36 L 136 40 L 150 38" />
+    <path d="M 180 74 L 190 34 L 200 74 L 212 74 L 222 34 L 232 74 L 244 74 L 254 34 L 264 74 L 276 74 L 286 34 L 296 74 L 300 74" />
+    <path d="M 30 190 L 40 152 L 52 178 L 64 150 L 76 178 L 88 152 L 100 180 L 112 150 L 124 178 L 136 154 L 148 178" />
+    <path d="M 180 190 L 188 154 L 216 152 L 224 190 L 248 190 L 256 154 L 284 152 L 292 190 L 300 190" />
+  </g>
+  <!-- referencias de leitura, apenas na primeira miniatura -->
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="24" y="31" text-anchor="end">°C</text>
+    <text x="34" y="84">normal</text>
+    <text x="150" y="96" text-anchor="end">dias</text>
+  </g>
+  <!-- nomes dos padroes -->
+  <g font-family="sans-serif" font-size="11" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="90" y="106">Contínua</text>
+    <text x="240" y="106">Intermitente</text>
+    <text x="90" y="222">Remitente</text>
+    <text x="240" y="222">Recorrente</text>
+  </g>
+</svg>
