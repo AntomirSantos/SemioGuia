@@ -5,6 +5,10 @@ tags:
   - sinais vitais
   - pressão arterial
   - PA
+  - PAS
+  - PAD
+  - pré-hipertensão
+  - DBHA 2025
   - hipertensão arterial
   - HAS
   - hipotensão
@@ -19,6 +23,7 @@ tags:
   - sinal de Osler
   - pseudo-hipertensão
 referencias:
+  - "Diretriz Brasileira de Hipertensão Arterial — 2025 (SBC/SBH/SBN), Quadros 3.2 e 3.4"
   - "Porto — Semiologia Médica, 8ª ed., cap. 47 (Exame clínico do sistema cardiovascular), p. 574-584"
   - "Porto — Exame Clínico, 8ª ed., cap. 21 (Sinais vitais), p. 949-956"
   - "Porto — Exame Clínico, 8ª ed., cap. 14 (Exame da pressão arterial)"
@@ -77,26 +82,35 @@ observar: |
 :::
 
 ::: tabela
-titulo: Classificação da PA no consultório em adultos (a partir de 18 anos)
-colunas: ["Classificação", "PAS (mmHg)", "PAD (mmHg)"]
+titulo: Classificação da PA no consultório em adultos — DBHA 2025 (a partir de 18 anos)
+colunas: ["Classificação", "PAS (mmHg)", "Relação", "PAD (mmHg)"]
 linhas:
-  - ["Ótima", "≤ 120", "≤ 80"]
-  - ["Pré-hipertensão", "121 a 139", "81 a 89"]
-  - ["Hipertensão estágio 1", "140 a 159", "90 a 99"]
-  - ["Hipertensão estágio 2", "160 a 179", "100 a 109"]
-  - ["Hipertensão estágio 3", "≥ 180", "≥ 110"]
-  - ["Hipertensão sistólica isolada", "≥ 140", "< 90"]
+  - ["PA normal", "< 120", "e", "< 80"]
+  - ["Pré-hipertensão", "120 a 139", "e/ou", "80 a 89"]
+  - ["Hipertensão estágio 1", "140 a 159", "e/ou", "90 a 99"]
+  - ["Hipertensão estágio 2", "160 a 179", "e/ou", "100 a 109"]
+  - ["Hipertensão estágio 3", "≥ 180", "e/ou", "≥ 110"]
+:::
+
+::: conceito
+titulo: O que mudou na classificação (DBHA 2025)
+texto: |
+  A Diretriz Brasileira de Hipertensão Arterial de 2025 **removeu a categoria "PA ótima"**: valores de PAS abaixo de 120 mmHg com PAD abaixo de 80 mmHg agora são simplesmente **PA normal**. A **pré-hipertensão ficou mais ampla** e passou a incluir a faixa antes chamada de "normal": PAS de 120 a 139 e/ou PAD de 80 a 89 mmHg — a intenção é identificar risco mais cedo e agir antes da progressão para hipertensão.
+
+  A **hipertensão sistólica isolada** (PAS ≥ 140 mmHg com PAD < 90 mmHg) deixou de ser uma categoria à parte: ela é classificada em estágio 1, 2 ou 3 conforme o valor da PAS.
+
+  Para validar o diagnóstico de hipertensão são necessárias medidas repetidas em duas ou mais visitas — ou MAPA/MRPA. Em pacientes com lesão de órgão-alvo ou doença cardiovascular estabelecida, esses achados bastam para confirmar o diagnóstico.
 :::
 
 ::: tabela
-titulo: Limites que definem hipertensão conforme o método de medida
-colunas: ["Método", "PAS (mmHg)", "PAD (mmHg)"]
+titulo: Definição de hipertensão conforme o método de medida — DBHA 2025
+colunas: ["Método", "PAS (mmHg)", "Relação", "PAD (mmHg)"]
 linhas:
-  - ["Consultório (medida casual)", "≥ 140", "e/ou ≥ 90"]
-  - ["MAPA — vigília", "> 135", "e/ou > 85"]
-  - ["MAPA — sono", "> 120", "e/ou > 70"]
-  - ["MAPA — média de 24 h", "≥ 130", "e/ou > 80"]
-  - ["MRPA (monitoramento residencial)", "> 135", "e/ou > 85"]
+  - ["Consultório", "≥ 140", "e/ou", "≥ 90"]
+  - ["MAPA — média de 24 h", "≥ 130", "e/ou", "≥ 80"]
+  - ["MAPA — vigília", "≥ 135", "e/ou", "≥ 85"]
+  - ["MAPA — sono", "≥ 120", "e/ou", "≥ 70"]
+  - ["MRPA (monitoramento residencial)", "≥ 130", "e/ou", "≥ 80"]
 :::
 
 ::: perola
