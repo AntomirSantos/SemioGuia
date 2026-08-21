@@ -3,12 +3,12 @@ import { Tela } from '../../design/Tela';
 import { useTema } from '../../design/ThemeContext';
 import { fonte, tipo } from '../../design/tokens';
 
-export default function Guia() {
+export default function Estudar() {
   const { paleta } = useTema();
   return (
     <Tela>
       <Text style={{ fontFamily: fonte.display, fontSize: tipo.h1, color: paleta.tinta }}>
-        Guia
+        Estudar
       </Text>
     </Tela>
   );
