@@ -67,6 +67,13 @@ export const sombra = {
   elevation: 1,
 } as const;
 
+// Véu que escurece o conteúdo atrás do menu hambúrguer da navegação web
+// (overlay). Como a sombra acima, é um ponto fixo fora da paleta: o véu
+// precisa escurecer o conteúdo em ambos os temas, e `paleta.tinta` não serve
+// porque no tema escuro ela é clara (deixaria o fundo mais claro, não mais
+// escuro).
+export const veu = 'rgba(0,0,0,0.45)';
+
 export const fonte = {
   display: 'BricolageGrotesque_700Bold',
   displaySemi: 'BricolageGrotesque_600SemiBold',

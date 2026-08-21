@@ -1,23 +1,31 @@
+import { Platform } from 'react-native';
 import { Tabs } from 'expo-router';
 import { BookOpen, GraduationCap, Search, User } from 'lucide-react-native';
 import { useTema } from '../../design/ThemeContext';
 import { fonte, tipo } from '../../design/tokens';
+import { NavegacaoHamburguer } from '../../design/NavegacaoHamburguer';
 
 const TAMANHO_ICONE = 22;
+const NA_WEB = Platform.OS === 'web';
 
 export default function TabsLayout() {
   const { paleta } = useTema();
 
-  return (
+  const abas = (
     <Tabs
       screenOptions={{
         headerShown: false,
         tabBarActiveTintColor: paleta.acento,
         tabBarInactiveTintColor: paleta.tinta2,
-        tabBarStyle: {
-          backgroundColor: paleta.superficie,
-          borderTopColor: paleta.linha,
-        },
+        // Na web a navegação vira barra de topo + hambúrguer (ver
+        // NavegacaoHamburguer); a barra de abas nativa some sem afetar o
+        // roteamento, que continua o mesmo Tabs de sempre.
+        tabBarStyle: NA_WEB
+          ? { display: 'none' }
+          : {
+              backgroundColor: paleta.superficie,
+              borderTopColor: paleta.linha,
+            },
         tabBarLabelStyle: {
           fontFamily: fonte.corpoBold,
           fontSize: tipo.tag + 1,
@@ -54,4 +62,8 @@ export default function TabsLayout() {
       />
     </Tabs>
   );
+
+  if (!NA_WEB) return abas;
+
+  return <NavegacaoHamburguer>{abas}</NavegacaoHamburguer>;
 }
