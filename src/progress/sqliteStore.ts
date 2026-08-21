@@ -1,4 +1,5 @@
 import type { ProgressStore, RespostaRegistrada } from './types';
+import type { ItemRevisao } from '../revisao/sm2';
 
 // Tipagem mínima da API do expo-sqlite que usamos, para não depender do
 // pacote em tempo de compilação de tipos fora do runtime nativo.
@@ -18,7 +19,14 @@ CREATE TABLE IF NOT EXISTS preferencias (chave TEXT PRIMARY KEY, valor TEXT);
 CREATE TABLE IF NOT EXISTS meta (chave TEXT PRIMARY KEY, valor TEXT);
 `;
 
-const VERSAO_ESQUEMA = '1';
+const ESQUEMA_V2 = `
+CREATE TABLE IF NOT EXISTS itens_revisao (
+  id TEXT PRIMARY KEY, tipo TEXT, topico_id TEXT,
+  facilidade REAL, repeticoes INTEGER, intervalo_dias INTEGER,
+  proxima_revisao TEXT, atualizado_em TEXT
+);`;
+
+const VERSAO_ESQUEMA = '2';
 
 /**
  * Adaptador de ProgressStore sobre expo-sqlite (SQLite nativo).
@@ -37,7 +45,8 @@ export class SqliteProgressStore implements ProgressStore {
   }
 
   private migrar(): void {
-    this.db.execSync(ESQUEMA_V1);
+    this.db.execSync(ESQUEMA_V1); // idempotente (IF NOT EXISTS) — banco v1 abre e evolui sem perder dados
+    this.db.execSync(ESQUEMA_V2);
     this.db.runSync(
       'INSERT OR REPLACE INTO meta (chave, valor) VALUES (?, ?)',
       ['versao_esquema', VERSAO_ESQUEMA],
@@ -114,5 +123,46 @@ export class SqliteProgressStore implements ProgressStore {
   }
   async definirPreferencia(chave: string, valor: string): Promise<void> {
     this.db.runSync('INSERT OR REPLACE INTO preferencias (chave, valor) VALUES (?, ?)', [chave, valor]);
+  }
+
+  async salvarItemRevisao(item: ItemRevisao): Promise<void> {
+    this.db.runSync(
+      `INSERT OR REPLACE INTO itens_revisao
+        (id, tipo, topico_id, facilidade, repeticoes, intervalo_dias, proxima_revisao, atualizado_em)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+      [
+        item.id,
+        item.tipo,
+        item.topicoId,
+        item.facilidade,
+        item.repeticoes,
+        item.intervaloDias,
+        item.proximaRevisao,
+        item.atualizadoEm,
+      ],
+    );
+  }
+
+  async listarItensRevisao(): Promise<ItemRevisao[]> {
+    const linhas = this.db.getAllSync<{
+      id: string;
+      tipo: string;
+      topico_id: string;
+      facilidade: number;
+      repeticoes: number;
+      intervalo_dias: number;
+      proxima_revisao: string;
+      atualizado_em: string;
+    }>('SELECT id, tipo, topico_id, facilidade, repeticoes, intervalo_dias, proxima_revisao, atualizado_em FROM itens_revisao');
+    return linhas.map((l) => ({
+      id: l.id,
+      tipo: l.tipo as ItemRevisao['tipo'],
+      topicoId: l.topico_id,
+      facilidade: l.facilidade,
+      repeticoes: l.repeticoes,
+      intervaloDias: l.intervalo_dias,
+      proximaRevisao: l.proxima_revisao,
+      atualizadoEm: l.atualizado_em,
+    }));
   }
 }

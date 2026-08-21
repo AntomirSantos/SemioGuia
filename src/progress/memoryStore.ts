@@ -1,4 +1,5 @@
 import type { ProgressStore, RespostaRegistrada } from './types';
+import type { ItemRevisao } from '../revisao/sm2';
 
 export class MemoryProgressStore implements ProgressStore {
   private estudados = new Set<string>();
@@ -6,6 +7,7 @@ export class MemoryProgressStore implements ProgressStore {
   private respostas: RespostaRegistrada[] = [];
   private buscas: string[] = [];
   private preferencias = new Map<string, string>();
+  private itensRevisao = new Map<string, ItemRevisao>();
 
   async marcarEstudado(topicoId: string, estudado: boolean): Promise<void> {
     estudado ? this.estudados.add(topicoId) : this.estudados.delete(topicoId);
@@ -34,5 +36,12 @@ export class MemoryProgressStore implements ProgressStore {
   }
   async definirPreferencia(chave: string, valor: string): Promise<void> {
     this.preferencias.set(chave, valor);
+  }
+
+  async salvarItemRevisao(item: ItemRevisao): Promise<void> {
+    this.itensRevisao.set(item.id, item);
+  }
+  async listarItensRevisao(): Promise<ItemRevisao[]> {
+    return [...this.itensRevisao.values()];
   }
 }

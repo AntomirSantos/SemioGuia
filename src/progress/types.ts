@@ -1,3 +1,5 @@
+import type { ItemRevisao } from '../revisao/sm2';
+
 export interface RespostaRegistrada { perguntaId: string; topicoId: string; correta: boolean; respondidaEm: number }
 export interface ProgressStore {
   marcarEstudado(topicoId: string, estudado: boolean): Promise<void>;
@@ -10,4 +12,6 @@ export interface ProgressStore {
   listarBuscasRecentes(limite?: number): Promise<string[]>; // mais recente primeiro, sem duplicatas, default 10
   obterPreferencia(chave: string): Promise<string | null>;
   definirPreferencia(chave: string, valor: string): Promise<void>;
+  salvarItemRevisao(item: ItemRevisao): Promise<void>; // upsert por item.id
+  listarItensRevisao(): Promise<ItemRevisao[]>; // ordem livre; quem consome ordena
 }

@@ -1,4 +1,5 @@
 import type { ProgressStore, RespostaRegistrada } from './types';
+import type { ItemRevisao } from '../revisao/sm2';
 
 // Adaptador de ProgressStore para a versão web: persiste no localStorage do
 // navegador. Mesma semântica do MemoryProgressStore/SqliteProgressStore.
@@ -14,6 +15,7 @@ interface Estado {
 }
 
 const CHAVE = 'semioguia.progresso.v1';
+const CHAVE_ITENS = 'semioguia.itensRevisao';
 
 const vazio = (): Estado => ({
   estudados: [],
@@ -25,9 +27,11 @@ const vazio = (): Estado => ({
 
 export class LocalStorageProgressStore implements ProgressStore {
   private cache: Estado;
+  private cacheItens: Record<string, ItemRevisao>;
 
   constructor(private armazenamento?: Pick<Storage, 'getItem' | 'setItem'>) {
     this.cache = this.ler();
+    this.cacheItens = this.lerItens();
   }
 
   private obterStorage(): Pick<Storage, 'getItem' | 'setItem'> | undefined {
@@ -54,6 +58,25 @@ export class LocalStorageProgressStore implements ProgressStore {
   private gravar(): void {
     try {
       this.obterStorage()?.setItem(CHAVE, JSON.stringify(this.cache));
+    } catch {
+      // storage indisponível: segue só em memória
+    }
+  }
+
+  private lerItens(): Record<string, ItemRevisao> {
+    try {
+      const bruto = this.obterStorage()?.getItem(CHAVE_ITENS);
+      if (!bruto) return {};
+      const dado = JSON.parse(bruto) as Record<string, ItemRevisao>;
+      return { ...dado };
+    } catch {
+      return {};
+    }
+  }
+
+  private gravarItens(): void {
+    try {
+      this.obterStorage()?.setItem(CHAVE_ITENS, JSON.stringify(this.cacheItens));
     } catch {
       // storage indisponível: segue só em memória
     }
@@ -106,5 +129,14 @@ export class LocalStorageProgressStore implements ProgressStore {
   async definirPreferencia(chave: string, valor: string): Promise<void> {
     this.cache.preferencias[chave] = valor;
     this.gravar();
+  }
+
+  async salvarItemRevisao(item: ItemRevisao): Promise<void> {
+    this.cacheItens[item.id] = item;
+    this.gravarItens();
+  }
+
+  async listarItensRevisao(): Promise<ItemRevisao[]> {
+    return Object.values(this.cacheItens);
   }
 }

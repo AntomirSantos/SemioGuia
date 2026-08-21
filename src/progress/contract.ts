@@ -1,4 +1,5 @@
 import type { ProgressStore } from './types';
+import type { ItemRevisao } from '../revisao/sm2';
 
 /**
  * Suíte de contrato compartilhada: garante semântica idêntica entre
@@ -44,6 +45,18 @@ export function testarContratoProgressStore(nome: string, criar: () => Promise<P
       expect(await s.obterPreferencia('tema')).toBe('escuro');
       await s.definirPreferencia('tema', 'claro');
       expect(await s.obterPreferencia('tema')).toBe('claro');
+    });
+
+    test('salvarItemRevisao faz upsert por id e listarItensRevisao devolve todos', async () => {
+      const store = await criar();
+      const base: ItemRevisao = { id: 'pa-1', tipo: 'pergunta', topicoId: 'a/b/c', facilidade: 2.5, repeticoes: 0, intervaloDias: 0, proximaRevisao: '2026-08-22', atualizadoEm: '2026-08-21T12:00:00.000Z' };
+      await store.salvarItemRevisao(base);
+      await store.salvarItemRevisao({ ...base, id: 'a/b/c#checklist:Medida da PA', tipo: 'checklist' });
+      await store.salvarItemRevisao({ ...base, repeticoes: 3, intervaloDias: 15, proximaRevisao: '2026-09-06' }); // upsert do pa-1
+      const itens = await store.listarItensRevisao();
+      expect(itens).toHaveLength(2);
+      const pa1 = itens.find((i) => i.id === 'pa-1');
+      expect(pa1).toMatchObject({ repeticoes: 3, intervaloDias: 15, proximaRevisao: '2026-09-06', facilidade: 2.5 });
     });
   });
 }
