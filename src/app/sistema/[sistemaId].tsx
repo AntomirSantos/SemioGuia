@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useCallback } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { Tela } from '../../design/Tela';
@@ -7,10 +7,11 @@ import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useSistema } from '../../content/ContentContext';
 import { useProgresso } from '../../progress/ProgressContext';
+import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import type { Capitulo, Topico } from '../../content/schema';
 
 function LinhaTopico({ topico, estudado }: { topico: Topico; estudado: boolean }) {
-  const { paleta } = useTema();
+  const { paleta, escala } = useTema();
   return (
     <Pressable
       accessibilityRole="button"
@@ -25,7 +26,7 @@ function LinhaTopico({ topico, estudado }: { topico: Topico; estudado: boolean }
         minHeight: 44,
       }}
     >
-      <Text style={{ flex: 1, fontFamily: fonte.corpo, fontSize: tipo.corpo, color: paleta.tinta }}>
+      <Text style={{ flex: 1, fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta }}>
         {topico.titulo}
       </Text>
       {estudado ? (
@@ -67,17 +68,8 @@ export default function TelaSistema() {
   const { sistemaId } = useLocalSearchParams<{ sistemaId: string }>();
   const sistema = useSistema(sistemaId);
   const progresso = useProgresso();
-  const [estudados, setEstudados] = useState<Set<string>>(new Set());
-
-  useEffect(() => {
-    let cancelado = false;
-    progresso.listarEstudados().then((lista) => {
-      if (!cancelado) setEstudados(new Set(lista));
-    });
-    return () => {
-      cancelado = true;
-    };
-  }, [progresso]);
+  const carregarEstudados = useCallback(async () => new Set(await progresso.listarEstudados()), [progresso]);
+  const estudados = useDadosAoFocar(carregarEstudados) ?? new Set<string>();
 
   if (!sistema) {
     return (

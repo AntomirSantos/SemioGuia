@@ -48,7 +48,7 @@ function CartaoSistema({ sistema }: { sistema: Sistema }) {
       >
         {sistema.titulo}
       </Text>
-      <Text style={{ fontFamily: fonte.corpo, fontSize: tipo.small, color: paleta.tinta2 }}>
+      <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2 }}>
         {totalTopicos} {totalTopicos === 1 ? 'tópico' : 'tópicos'}
       </Text>
     </Pressable>

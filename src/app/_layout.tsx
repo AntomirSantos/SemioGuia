@@ -1,5 +1,6 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import { Stack } from 'expo-router';
+import * as SplashScreen from 'expo-splash-screen';
 import {
   useFonts,
   BricolageGrotesque_600SemiBold,
@@ -12,6 +13,8 @@ import {
 import { ThemeProvider, type EscalaFonte, type PreferenciaTema } from '../design/ThemeContext';
 import { ContentProvider } from '../content/ContentContext';
 import { ProgressProvider, useProgresso } from '../progress/ProgressContext';
+
+SplashScreen.preventAutoHideAsync().catch(() => {});
 
 const TEMAS_VALIDOS: PreferenciaTema[] = ['sistema', 'claro', 'escuro'];
 const ESCALAS_VALIDAS: EscalaFonte[] = ['normal', 'grande'];
@@ -70,6 +73,13 @@ export default function RootLayout() {
     AtkinsonHyperlegible_400Regular,
     AtkinsonHyperlegible_700Bold,
   });
+
+  useEffect(() => {
+    if (ok) {
+      SplashScreen.hideAsync().catch(() => {});
+    }
+  }, [ok]);
+
   if (!ok) return null;
   return (
     <ProgressProvider>

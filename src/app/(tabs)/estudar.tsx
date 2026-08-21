@@ -1,12 +1,14 @@
-import { useEffect, useState } from 'react';
+import { useCallback } from 'react';
 import { Pressable, Text } from 'react-native';
 import { router } from 'expo-router';
 import { Tela } from '../../design/Tela';
 import { useTema } from '../../design/ThemeContext';
+import { Rotulo } from '../../design/Rotulo';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useConteudo } from '../../content/ContentContext';
 import { listarTodosTopicos, obterSistema } from '../../content/store';
 import { useProgresso } from '../../progress/ProgressContext';
+import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import type { Bloco, Topico } from '../../content/schema';
 
 function encontrarQuiz(topico: Topico) {
@@ -42,22 +44,11 @@ function LinhaTopicoQuiz({
         marginBottom: espaco.s,
       }}
     >
-      <Text
-        style={{
-          fontFamily: fonte.corpoBold,
-          fontSize: tipo.tag,
-          letterSpacing: 0.6,
-          textTransform: 'uppercase',
-          color: paleta.acentoTinta,
-          marginBottom: 2,
-        }}
-      >
-        {sistemaTitulo}
-      </Text>
+      <Rotulo texto={sistemaTitulo} style={{ marginBottom: 2 }} />
       <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta, marginBottom: 2 }}>
         {topico.titulo}
       </Text>
-      <Text style={{ fontFamily: fonte.corpo, fontSize: tipo.small, color: paleta.tinta2 }}>
+      <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2 }}>
         {nPerguntas} pergunta{nPerguntas === 1 ? '' : 's'}
         {percentual !== null ? ` · última rodada ${percentual}%` : ''}
       </Text>
@@ -70,11 +61,9 @@ export function TelaEstudar() {
   const conteudo = useConteudo();
   const progresso = useProgresso();
   const topicos = listarTodosTopicos(conteudo).filter((t) => encontrarQuiz(t) !== undefined);
-  const [percentuais, setPercentuais] = useState<Record<string, number | null>>({});
 
-  useEffect(() => {
-    let cancelado = false;
-    Promise.all(
+  const carregarPercentuais = useCallback(async () => {
+    const pares = await Promise.all(
       topicos.map(async (t) => {
         const n = encontrarQuiz(t)?.perguntas.length ?? 0;
         const respostas = await progresso.listarRespostas(t.id);
@@ -83,15 +72,11 @@ export function TelaEstudar() {
           ultimasN.length > 0 ? Math.round((ultimasN.filter((r) => r.correta).length / ultimasN.length) * 100) : null;
         return [t.id, percentual] as const;
       }),
-    ).then((pares) => {
-      if (cancelado) return;
-      setPercentuais(Object.fromEntries(pares));
-    });
-    return () => {
-      cancelado = true;
-    };
+    );
+    return Object.fromEntries(pares) as Record<string, number | null>;
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [progresso, conteudo]);
+  const percentuais = useDadosAoFocar(carregarPercentuais) ?? {};
 
   return (
     <Tela>

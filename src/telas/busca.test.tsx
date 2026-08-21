@@ -6,9 +6,15 @@ import { MemoryProgressStore } from '../progress/memoryStore';
 import { TelaBusca } from '../app/(tabs)/busca';
 import { router } from 'expo-router';
 
-jest.mock('expo-router', () => ({
-  router: { push: jest.fn(), back: jest.fn() },
-}));
+jest.mock('expo-router', () => {
+  const { useEffect } = require('react');
+  return {
+    router: { push: jest.fn(), back: jest.fn() },
+    // useFocusEffect fora de um navegador lançaria; roda o efeito ao montar,
+    // como uma tela recém-focada.
+    useFocusEffect: (efeito: () => void | (() => void)) => useEffect(efeito, [efeito]),
+  };
+});
 
 jest.mock('react-native-safe-area-context', () => ({
   useSafeAreaInsets: () => ({ top: 0, bottom: 0, left: 0, right: 0 }),

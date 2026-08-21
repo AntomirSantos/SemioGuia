@@ -1,30 +1,18 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { Pressable, Text, TextInput, View } from 'react-native';
 import { router } from 'expo-router';
 import { Search } from 'lucide-react-native';
 import { Tela } from '../../design/Tela';
 import { useTema } from '../../design/ThemeContext';
+import { Rotulo } from '../../design/Rotulo';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useConteudo, useTopico } from '../../content/ContentContext';
 import { useProgresso } from '../../progress/ProgressContext';
+import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import { criarIndice, buscar, type ResultadoBusca } from '../../search';
 
 function RotuloSecao({ texto }: { texto: string }) {
-  const { paleta } = useTema();
-  return (
-    <Text
-      style={{
-        fontFamily: fonte.corpoBold,
-        fontSize: tipo.tag,
-        letterSpacing: 1.1,
-        textTransform: 'uppercase',
-        color: paleta.acentoTinta,
-        marginBottom: espaco.s,
-      }}
-    >
-      {texto}
-    </Text>
-  );
+  return <Rotulo texto={texto} style={{ marginBottom: espaco.s }} />;
 }
 
 function LinhaResultado({ titulo, sistemaTitulo, onPress }: { titulo: string; sistemaTitulo?: string; onPress: () => void }) {
@@ -45,20 +33,7 @@ function LinhaResultado({ titulo, sistemaTitulo, onPress }: { titulo: string; si
         marginBottom: espaco.s,
       }}
     >
-      {sistemaTitulo ? (
-        <Text
-          style={{
-            fontFamily: fonte.corpoBold,
-            fontSize: tipo.tag,
-            letterSpacing: 0.6,
-            textTransform: 'uppercase',
-            color: paleta.acentoTinta,
-            marginBottom: 2,
-          }}
-        >
-          {sistemaTitulo}
-        </Text>
-      ) : null}
+      {sistemaTitulo ? <Rotulo texto={sistemaTitulo} style={{ marginBottom: 2 }} /> : null}
       <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta }}>{titulo}</Text>
     </Pressable>
   );
@@ -71,23 +46,19 @@ export function TelaBusca() {
   const indice = useMemo(() => criarIndice(conteudo), [conteudo]);
 
   const [termo, setTermo] = useState('');
-  const [recentes, setRecentes] = useState<string[]>([]);
-  const [favoritos, setFavoritos] = useState<string[]>([]);
 
   const mostraResultados = termo.trim().length >= 2;
 
-  useEffect(() => {
-    if (mostraResultados) return;
-    let cancelado = false;
-    Promise.all([progresso.listarBuscasRecentes(), progresso.listarFavoritos()]).then(([r, f]) => {
-      if (cancelado) return;
-      setRecentes(r);
-      setFavoritos(f);
-    });
-    return () => {
-      cancelado = true;
-    };
-  }, [progresso, mostraResultados]);
+  const carregarRecentesFavoritos = useCallback(async () => {
+    const [recentes, favoritos] = await Promise.all([
+      progresso.listarBuscasRecentes(),
+      progresso.listarFavoritos(),
+    ]);
+    return { recentes, favoritos };
+  }, [progresso]);
+  const dados = useDadosAoFocar(carregarRecentesFavoritos);
+  const recentes = dados?.recentes ?? [];
+  const favoritos = dados?.favoritos ?? [];
 
   const resultados: ResultadoBusca[] = mostraResultados ? buscar(indice, termo) : [];
 
@@ -96,7 +67,7 @@ export function TelaBusca() {
   }
 
   function selecionarResultado(r: ResultadoBusca) {
-    progresso.registrarBusca(termo);
+    progresso.registrarBusca(termo.trim()).catch(() => {});
     abrirTopico(r.topicoId);
   }
 

@@ -1,30 +1,18 @@
-import { useEffect, useState } from 'react';
+import { useCallback } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import { Tela } from '../../design/Tela';
 import { useTema, type EscalaFonte, type PreferenciaTema } from '../../design/ThemeContext';
+import { Rotulo } from '../../design/Rotulo';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useConteudo } from '../../content/ContentContext';
 import { listarSistemas, listarTodosTopicos } from '../../content/store';
 import { useProgresso } from '../../progress/ProgressContext';
+import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 
 const AVISO_LEGAL = 'Material educacional. Não substitui o julgamento clínico.';
 
 function RotuloSecao({ children }: { children: string }) {
-  const { paleta } = useTema();
-  return (
-    <Text
-      style={{
-        fontFamily: fonte.corpoBold,
-        fontSize: tipo.tag,
-        letterSpacing: 0.6,
-        textTransform: 'uppercase',
-        color: paleta.acentoTinta,
-        marginBottom: espaco.s,
-      }}
-    >
-      {children}
-    </Text>
-  );
+  return <Rotulo texto={children} style={{ marginBottom: espaco.s }} />;
 }
 
 function BarraProgresso({ estudados, total, titulo }: { estudados: number; total: number; titulo: string }) {
@@ -155,17 +143,8 @@ export function TelaPerfil() {
   const { paleta, escala, preferencia, definirPreferencia, escalaFonte, definirEscalaFonte } = useTema();
   const conteudo = useConteudo();
   const progresso = useProgresso();
-  const [estudados, setEstudados] = useState<string[]>([]);
-
-  useEffect(() => {
-    let cancelado = false;
-    progresso.listarEstudados().then((lista) => {
-      if (!cancelado) setEstudados(lista);
-    });
-    return () => {
-      cancelado = true;
-    };
-  }, [progresso]);
+  const carregarEstudados = useCallback(() => progresso.listarEstudados(), [progresso]);
+  const estudados = useDadosAoFocar(carregarEstudados) ?? [];
 
   const sistemas = listarSistemas(conteudo);
   const estudadosSet = new Set(estudados);
@@ -176,12 +155,12 @@ export function TelaPerfil() {
 
   function selecionarTema(valor: PreferenciaTema) {
     definirPreferencia(valor);
-    progresso.definirPreferencia('tema', valor);
+    progresso.definirPreferencia('tema', valor).catch(() => {});
   }
 
   function selecionarFonte(valor: EscalaFonte) {
     definirEscalaFonte(valor);
-    progresso.definirPreferencia('fonte', valor);
+    progresso.definirPreferencia('fonte', valor).catch(() => {});
   }
 
   return (

@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { Tela } from '../../design/Tela';
+import { Cabecalho } from '../../design/Cabecalho';
+import { Rotulo } from '../../design/Rotulo';
 import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useTopico } from '../../content/ContentContext';
@@ -116,21 +118,7 @@ function BotaoSecundario({ rotulo, onPress }: { rotulo: string; onPress: () => v
 }
 
 function Eyebrow({ texto }: { texto: string }) {
-  const { paleta } = useTema();
-  return (
-    <Text
-      style={{
-        fontFamily: fonte.corpoBold,
-        fontSize: tipo.tag,
-        letterSpacing: 1.1,
-        textTransform: 'uppercase',
-        color: paleta.acentoTinta,
-        marginBottom: espaco.xs + 2,
-      }}
-    >
-      {texto}
-    </Text>
-  );
+  return <Rotulo texto={texto} style={{ marginBottom: espaco.xs + 2 }} />;
 }
 
 function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: QuizPergunta[] }) {
@@ -167,7 +155,7 @@ function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: Qui
             setMostrarResultado(false);
           }}
         />
-        <BotaoSecundario rotulo="Voltar ao tópico" onPress={() => router.back()} />
+        <BotaoSecundario rotulo="Voltar" onPress={() => router.back()} />
       </Tela>
     );
   }
@@ -178,9 +166,12 @@ function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: Qui
   function escolher(idx: number) {
     if (escolhida !== null) return;
     setEscolhida(idx);
+    // Espelha a fórmula interna de engine.responder (escolhidaIndex === pergunta.corretaIndex).
+    // Precisa ser calculada aqui, de forma síncrona, para compor o payload persistido
+    // abaixo — mantenha as duas em sincronia se a lógica de correção mudar.
     const correta = idx === pergunta.corretaIndex;
     responderAtual(idx);
-    progresso.registrarResposta({ perguntaId: pergunta.id, topicoId, correta, respondidaEm: Date.now() });
+    progresso.registrarResposta({ perguntaId: pergunta.id, topicoId, correta, respondidaEm: Date.now() }).catch(() => {});
   }
 
   function avancar() {
@@ -194,6 +185,7 @@ function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: Qui
 
   return (
     <Tela>
+      <Cabecalho titulo="" aoVoltar={() => router.back()} />
       <Eyebrow texto={`${indice + 1} de ${perguntas.length}`} />
       <Text
         style={{

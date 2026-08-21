@@ -3,6 +3,8 @@ import { Pressable, Text, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { Heart, CheckCircle2 } from 'lucide-react-native';
 import { Tela } from '../../design/Tela';
+import { Cabecalho } from '../../design/Cabecalho';
+import { Rotulo } from '../../design/Rotulo';
 import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useSistema, useTopico } from '../../content/ContentContext';
@@ -104,13 +106,13 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
   function alternarEstudado() {
     const novo = !estudado;
     setEstudado(novo);
-    progresso.marcarEstudado(topicoId, novo);
+    progresso.marcarEstudado(topicoId, novo).catch(() => {});
   }
 
   function alternarFavorito() {
     const novo = !favorito;
     setFavorito(novo);
-    progresso.favoritar(topicoId, novo);
+    progresso.favoritar(topicoId, novo).catch(() => {});
   }
 
   function iniciarQuiz(_perguntas: QuizPergunta[]) {
@@ -119,10 +121,11 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
 
   return (
     <Tela>
-      <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.tag, letterSpacing: 1.1, textTransform: 'uppercase', color: paleta.acentoTinta, marginBottom: espaco.xs + 2 }}>
-        {sistema?.titulo ?? ''}
-        {capitulo ? ` · ${capitulo.titulo}` : ''}
-      </Text>
+      <Cabecalho titulo="" cor={sistema?.cor} aoVoltar={() => router.back()} />
+      <Rotulo
+        texto={`${sistema?.titulo ?? ''}${capitulo ? ` · ${capitulo.titulo}` : ''}`}
+        style={{ marginBottom: espaco.xs + 2 }}
+      />
       <Text style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.h1 * escala), color: paleta.tinta, marginBottom: espaco.m }}>
         {topico.titulo}
       </Text>
@@ -174,11 +177,12 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
       ))}
 
       <View style={{ marginTop: espaco.xl, paddingTop: espaco.l, borderTopWidth: 1, borderTopColor: paleta.linha }}>
-        <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.tag, letterSpacing: 1.1, textTransform: 'uppercase', color: paleta.acentoTinta, marginBottom: espaco.xs }}>
-          Referências
-        </Text>
+        <Rotulo texto="Referências" style={{ marginBottom: espaco.xs }} />
         {topico.referencias.map((referencia, i) => (
-          <Text key={i} style={{ fontFamily: fonte.corpo, fontSize: tipo.small, color: paleta.tinta2, marginBottom: espaco.xs }}>
+          <Text
+            key={i}
+            style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2, marginBottom: espaco.xs }}
+          >
             {referencia}
           </Text>
         ))}
