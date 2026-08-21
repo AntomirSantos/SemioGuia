@@ -1,0 +1,14 @@
+versao: "0.1.0"
+sistemas:
+  - id: exame-fisico-geral
+    titulo: Exame físico geral
+    cor: "#0EA5A4"
+    icone: stethoscope
+    ordem: 1
+    capitulos:
+      - id: capitulo-b
+        titulo: Capítulo B
+        ordem: 2
+      - id: capitulo-a
+        titulo: Capítulo A
+        ordem: 1

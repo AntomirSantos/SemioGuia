@@ -17,6 +17,24 @@ export function compilarConteudo(contentDir: string): Conteudo {
     capitulos: s.capitulos.map((c) => ({ ...c, topicos: [] as Topico[] })),
   }));
 
+  const sistemaIdsVistos = new Set<string>();
+  for (const s of sistemas) {
+    if (sistemaIdsVistos.has(s.id)) {
+      erros.push(`sistemas.yaml: id de sistema duplicado "${s.id}"`);
+    }
+    sistemaIdsVistos.add(s.id);
+
+    const capituloIdsVistos = new Set<string>();
+    for (const c of s.capitulos) {
+      if (capituloIdsVistos.has(c.id)) {
+        erros.push(`sistemas.yaml: id de capítulo duplicado "${c.id}" no sistema "${s.id}"`);
+      }
+      capituloIdsVistos.add(c.id);
+    }
+  }
+
+  const perguntaIdOrigem = new Map<string, string>();
+
   for (const s of sistemas) {
     const dirSistema = path.join(contentDir, s.id);
     if (!fs.existsSync(dirSistema)) continue;
@@ -39,6 +57,20 @@ export function compilarConteudo(contentDir: string): Conteudo {
             tags: frontmatter.tags ?? [],
             blocos,
           });
+          for (const bloco of topico.blocos) {
+            if (bloco.tipo !== 'quiz') continue;
+            for (const pergunta of bloco.perguntas) {
+              const origem = perguntaIdOrigem.get(pergunta.id);
+              if (origem) {
+                erros.push(
+                  `id de pergunta de quiz duplicado "${pergunta.id}" em ${topico.id} (${caminho}) e ${origem}`
+                );
+              } else {
+                perguntaIdOrigem.set(pergunta.id, `${topico.id} (${caminho})`);
+              }
+            }
+          }
+
           cap.topicos.push(topico);
         } catch (e) {
           erros.push(`${caminho}: ${(e as Error).message}`);
@@ -46,7 +78,9 @@ export function compilarConteudo(contentDir: string): Conteudo {
       }
       cap.topicos.sort((a, b) => a.ordem - b.ordem);
     }
+    s.capitulos.sort((a, b) => a.ordem - b.ordem);
   }
+  sistemas.sort((a, b) => a.ordem - b.ordem);
 
   if (erros.length > 0) throw new Error(`Conteúdo inválido (${erros.length} erro(s)):\n` + erros.join('\n'));
   return conteudoSchema.parse({ versao: tax.versao, sistemas });
