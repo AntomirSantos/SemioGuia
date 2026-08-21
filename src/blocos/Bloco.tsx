@@ -7,8 +7,28 @@ import { TabelaBloco } from './Tabela';
 import { Fluxograma } from './Fluxograma';
 import { Perola } from './Perola';
 import { QuizBloco } from './QuizBloco';
+import { Secao } from './Secao';
+import { Entendimento } from './Entendimento';
+import { Ilustracao } from './Ilustracao';
+import { Avancado } from './Avancado';
 
-export function BlocoView({ bloco, onIniciarQuiz }: { bloco: Bloco; onIniciarQuiz?: (p: QuizPergunta[]) => void }) {
+// Rótulo pt-BR singular por tipo, usado no cabeçalho "Aprofundar · <rótulo>"
+// do wrapper colapsável.
+const ROTULOS: Record<Bloco['tipo'], string> = {
+  conceito: 'Conceito',
+  manobra: 'Manobra',
+  sinal: 'Sinal',
+  checklist: 'Checklist',
+  tabela: 'Tabela',
+  fluxograma: 'Fluxograma',
+  perola: 'Pérola',
+  quiz: 'Quiz',
+  secao: 'Seção',
+  entendimento: 'Entendimento',
+  ilustracao: 'Ilustração',
+};
+
+function renderConteudo(bloco: Bloco, onIniciarQuiz?: (p: QuizPergunta[]) => void) {
   switch (bloco.tipo) {
     case 'conceito':
       return <Conceito bloco={bloco} />;
@@ -27,13 +47,24 @@ export function BlocoView({ bloco, onIniciarQuiz }: { bloco: Bloco; onIniciarQui
     case 'quiz':
       return <QuizBloco bloco={bloco} onIniciar={onIniciarQuiz} />;
     case 'secao':
-      // Task 3 implementa
-      return null;
+      return <Secao bloco={bloco} />;
     case 'entendimento':
-      // Task 3 implementa
-      return null;
+      return <Entendimento bloco={bloco} />;
     case 'ilustracao':
-      // Task 3 implementa
-      return null;
+      return <Ilustracao bloco={bloco} />;
   }
+}
+
+export function BlocoView({ bloco, onIniciarQuiz }: { bloco: Bloco; onIniciarQuiz?: (p: QuizPergunta[]) => void }) {
+  const conteudo = renderConteudo(bloco, onIniciarQuiz);
+
+  // Exceção deliberada: uma 'secao' com nivel 'avancado' ainda renderiza como
+  // Secao simples. Seção é um cabeçalho divisório do tópico, não um conteúdo
+  // que faça sentido esconder atrás de um "Aprofundar" — o schema não proíbe
+  // a combinação, mas colapsar um título de compartimento confundiria mais
+  // do que ajudaria.
+  if (bloco.nivel === 'avancado' && bloco.tipo !== 'secao') {
+    return <Avancado rotulo={ROTULOS[bloco.tipo]}>{conteudo}</Avancado>;
+  }
+  return conteudo;
 }

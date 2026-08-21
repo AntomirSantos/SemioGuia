@@ -97,6 +97,41 @@ test('pérola mostra o texto em destaque', async () => {
   expect(getByText(/Kussmaul ocorre/)).toBeTruthy();
 });
 
+test('secao renderiza o título', async () => {
+  const bloco: Bloco = { tipo: 'secao', titulo: 'Ausculta cardíaca' };
+  const { getByText } = await renderBloco(bloco);
+  expect(getByText('Ausculta cardíaca')).toBeTruthy();
+});
+
+test('entendimento mostra a tag e o texto', async () => {
+  const bloco: Bloco = { tipo: 'entendimento', titulo: 'Por que isso importa', texto: 'A fisiopatologia explica o achado.' };
+  const { getByText } = await renderBloco(bloco);
+  expect(getByText('ENTENDIMENTO CLÍNICO')).toBeTruthy();
+  expect(getByText(/fisiopatologia explica/)).toBeTruthy();
+});
+
+test('ilustracao renderiza a legenda', async () => {
+  const bloco: Bloco = {
+    tipo: 'ilustracao',
+    svg: '<svg viewBox="0 0 100 50"><circle cx="50" cy="25" r="10" /></svg>',
+    legenda: 'Corte transversal do átrio direito',
+  };
+  const { getByText } = await renderBloco(bloco);
+  expect(getByText('Corte transversal do átrio direito')).toBeTruthy();
+});
+
+test('bloco com nivel avancado fica fechado por padrão e abre ao toque em Aprofundar', async () => {
+  const bloco: Bloco = { tipo: 'conceito', titulo: 'Detalhe avançado', texto: 'Conteúdo aprofundado do conceito.', nivel: 'avancado' };
+  const { queryByText, getByText } = await renderBloco(bloco);
+
+  expect(queryByText(/Conteúdo aprofundado/)).toBeNull();
+  expect(getByText('Aprofundar · Conceito')).toBeTruthy();
+
+  await fireEvent.press(getByText('Aprofundar · Conceito'));
+
+  expect(getByText(/Conteúdo aprofundado/)).toBeTruthy();
+});
+
 test('quiz mostra card-resumo e chama onIniciarQuiz ao praticar', async () => {
   const perguntas: QuizPergunta[] = Array.from({ length: 5 }, (_, i) => ({
     id: `p${i}`,
