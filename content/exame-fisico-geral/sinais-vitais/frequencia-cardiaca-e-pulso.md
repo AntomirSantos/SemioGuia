@@ -15,8 +15,10 @@ tags:
   - fibrilação atrial
   - déficit de pulso
   - pulso paradoxal
-  - sinal de Kussmaul
+  - pulso paradoxal de Kussmaul
   - pulso alternante
+  - pulso bigeminado
+  - bigeminismo extrassistólico
   - pulso célere
   - martelo d'água
   - pulso filiforme
@@ -27,6 +29,8 @@ referencias:
   - "Porto — Exame Clínico, 8ª ed., cap. 21 (Sinais vitais), p. 949-952"
   - "Porto — Semiologia Médica, 8ª ed., cap. 47 (Exame clínico do sistema cardiovascular), p. 570-571 e 582"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 15 (Pulse Rate and Contour)"
+  - "Porto — Exame Clínico, 8ª ed., cap. 15 (Exame de cabeça e pescoço), p. 639 — boxe sinal de Kussmaul"
+  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 36 (Inspection of the Neck Veins) — Kussmaul sign"
 revisao: pendente
 ---
 
@@ -40,7 +44,7 @@ texto: |
   3. **Ritmo** — regular quando os intervalos são iguais; irregular quando variam.
   4. **Amplitude** — amplo, mediano ou pequeno.
   5. **Tensão ou dureza** — a força necessária para interromper as pulsações. Pulso duro acompanha hipertensão; pulso mole, hipotensão.
-  6. **Tipo de onda** — normal, célere (em martelo d'água, da insuficiência aórtica), parvus (ascensão lenta e pico prolongado, da estenose aórtica grave), filiforme (pequeno e mole, do colapso circulatório), alternante, paradoxal, bisferiens.
+  6. **Tipo de onda** — normal; célere (em martelo d'água, da insuficiência aórtica); parvus (ascensão lenta e pico prolongado, da estenose aórtica grave); filiforme (pequeno e mole, do colapso circulatório); **alternante** (uma onda ampla seguida de outra fraca, com os intervalos entre elas sempre **regulares** — sinal de insuficiência ventricular esquerda; não confundir com o **pulso bigeminado**, em que a onda fraca é uma extrassístole que chega precocemente e deixa o intervalo irregular); paradoxal; bisferiens.
   7. **Comparação com o lado homólogo** — a desigualdade aponta para obstrução na crossa da aorta ou nos troncos que dela partem.
 
   Causas frequentes de **taquicardia**: exercício, emoção, dor, febre, gravidez, hipovolemia, hipertireoidismo, insuficiência cardíaca, miocardite, taquicardia paroxística e fibrilação atrial. Causas frequentes de **bradicardia**: treinamento físico intenso, bradicardia sinusal, bloqueio atrioventricular, hipertensão intracraniana, icterícia e algumas infecções.
@@ -65,11 +69,13 @@ observar: |
 
   Para perceber melhor o pulso célere, eleve o braço do paciente acima da cabeça e receba a face anterior do punho na palma da mão, usando a superfície ventral de todos os dedos em vez de apenas as polpas digitais.
 
+  Duas ondas anormais escapam aos dedos e aparecem melhor com o manguito. Ao desinsuflar devagar, mantenha a atenção na intensidade dos primeiros batimentos, os da fase I de Korotkoff: a alternância regular de um som forte e um som fraco denuncia pulso alternante, e o sumiço dos sons a cada inspiração denuncia pulso paradoxal. Parando a deflação nesse nível, o mesmo padrão passa a ser sentido na radial.
+
   Um pulso rápido, completamente irregular e de amplitude variável a cada batimento, especialmente com déficit de pulso, é fibrilação atrial até prova em contrário.
 :::
 
 ::: sinal
-nome: Pulso paradoxal (sinal de Kussmaul)
+nome: Pulso paradoxal (pulso paradoxal de Kussmaul)
 descricao: |
   Queda exagerada da pressão arterial sistólica durante a inspiração, descrita por Kussmaul em 1873. Em pessoas normais a PAS já cai na inspiração, em média 6 mmHg (± 3); considera-se pulso paradoxal uma queda maior que 10 mmHg — alguns autores preferem o limiar de 12 mmHg, que corresponde ao limite superior do intervalo de confiança em indivíduos saudáveis.
 
@@ -78,6 +84,8 @@ significado: |
   Não há nada de paradoxal: é o exagero de um fenômeno fisiológico. Na inspiração, a queda da pressão intratorácica altera o enchimento das câmaras cardíacas e reduz o débito do ventrículo esquerdo, o que se traduz perifericamente por pulsação mais fraca.
 
   Tem grande peso no tamponamento cardíaco: queda maior que 10 mmHg ocorre em cerca de 98% desses pacientes, ao lado de turgência jugular e taquicardia. Em derrame pericárdico, uma queda maior que 12 mmHg discrimina bem quem tem tamponamento (razão de verossimilhança positiva próxima de 6 e negativa próxima de 0,03). Também é usado para graduar a gravidade da crise asmática. Sua ausência não afasta tamponamento em situações particulares, como insuficiência aórtica associada, comunicação interatrial, disfunção ventricular esquerda grave, tamponamento regional e hipotensão importante.
+
+  **Cuidado com o epônimo.** Kussmaul dá nome a três achados distintos, e eles não devem ser trocados entre si. Este aqui é o *pulso paradoxal de Kussmaul*. O *sinal de Kussmaul* é outra coisa: as jugulares aumentam de turgência na inspiração, quando o normal seria diminuírem — achado descrito na pericardite constritiva (embora presente na minoria desses pacientes), na cardiomiopatia restritiva, na estenose tricúspide, na insuficiência ventricular direita e na obstrução da veia cava superior. E a *respiração de Kussmaul* é um padrão ventilatório, com inspirações amplas e rápidas separadas por breves apneias, característico da acidose metabólica.
 causas:
   - "Tamponamento cardíaco"
   - "Derrame pericárdico volumoso"
