@@ -9,6 +9,7 @@ import {
   AtkinsonHyperlegible_700Bold,
 } from '@expo-google-fonts/atkinson-hyperlegible';
 import { ThemeProvider } from '../design/ThemeContext';
+import { ContentProvider } from '../content/ContentContext';
 
 export default function RootLayout() {
   const [ok] = useFonts({
@@ -20,7 +21,9 @@ export default function RootLayout() {
   if (!ok) return null;
   return (
     <ThemeProvider>
-      <Stack screenOptions={{ headerShown: false }} />
+      <ContentProvider>
+        <Stack screenOptions={{ headerShown: false }} />
+      </ContentProvider>
     </ThemeProvider>
   );
 }
