@@ -72,7 +72,7 @@ titulo: O instrumento de maior rendimento diagnóstico
 texto: |
   Nenhum aparelho do hospital tem o rendimento diagnóstico de uma conversa bem conduzida. Os números variam conforme o cenário e a metodologia, mas todos apontam na mesma direção.
 
-  - Porto (cap. 2) sintetiza a literatura clássica dizendo que a **anamnese responde por 80 a 85% dos acertos diagnósticos** e o exame físico por 8 a 10%, cabendo aos exames complementares uma parcela pequena.
+  - Porto (cap. 2) sintetiza a literatura clássica dizendo que a **anamnese responde por 80 a 85% dos acertos diagnósticos** e o exame físico por 8 a 10%, cabendo aos exames complementares uma parcela pequena. A síntese apoia-se em vários estudos, e um deles é justamente Hampton e colaboradores (1975) — de modo que as cifras a seguir não são inteiramente independentes desta.
   - *Semiologia Clínica* (cap. 2) cita Hampton e colaboradores, em que a **anamnese contribuiu com 82%** dos diagnósticos, o exame clínico acrescentou 9% e os exames complementares, outros 9%; e o estudo brasileiro de Benseñor e colaboradores, em ambulatório de clínica médica, com **78,1% pela anamnese**, 11,9% pelo exame clínico e 10,0% pelos exames complementares.
   - A mesma obra (cap. 3) registra um resultado mais modesto: no estudo inglês de Sandler, o diagnóstico correto foi feito ao final da história em **56%** dos casos, subindo para 73% depois do exame clínico.
 
@@ -107,7 +107,7 @@ texto: |
   Alguns gestos custam segundos e mudam o tom do encontro inteiro.
 
   - Chamar a pessoa **pelo nome**, e pelo nome social quando for o caso, com o pronome correspondente.
-  - Tratar por senhor ou senhora até que ela mesma diga como prefere ser chamada. Porto acrescenta uma proibição explícita: nada de "vovô", "vovó", "vozinho" para pessoas idosas.
+  - Tratar por senhor ou senhora até que ela mesma diga como prefere ser chamada. Porto acrescenta uma proibição explícita, com os termos que ele mesmo lista: não usar "vovô", "vovó", "vozinho", "vozinha" para as pessoas idosas.
   - Levantar-se para receber, apresentar-se dizendo o próprio nome, e considerar a cultura do paciente antes de decidir por um aperto de mão ou um toque.
   - Perguntar se ele deseja a presença do acompanhante.
   - Arrumar a mesa, a maca e o material **antes** de chamar o paciente.
@@ -252,7 +252,7 @@ texto: |
 
   As **perguntas dirigidas** (ou fechadas) servem ao esclarecimento. Reduzem a quantidade de informação, mas obtêm o dado específico de que o raciocínio precisa: há quanto tempo o sintoma surgiu, em que região a dor se localiza.
 
-  Existe uma terceira categoria, e ela não tem lugar nenhum: a **pergunta indutora**. Porto dá os dois formatos e reprova ambos — "o senhor está com falta de ar, não é?" e "o senhor não está com falta de ar, não é mesmo?". A versão correta é a mais simples de todas: "o senhor sente falta de ar?". A mesma obra registra, no capítulo de exame psiquiátrico, o motivo de fundo: o erro mais comum na obtenção de uma história é a interferência inoportuna do examinador, que tenta encaixar a narrativa no seu roteiro.
+  Existe uma terceira categoria, e ela não tem lugar nenhum: a **pergunta indutora**. Porto dá os dois formatos e reprova ambos — "o senhor está com falta de ar, não é?" e "o senhor não está com falta de ar, não é mesmo?". A versão correta é a mais simples de todas: "o senhor sente falta de ar?". A mesma obra registra, no capítulo de exame psiquiátrico, o motivo de fundo: "o erro mais comum na obtenção de uma história psiquiátrica é a interferência inoportuna do médico no relato do paciente, tentando organizar a entrevista com um número excessivo de indagações, ou para seguir o roteiro clássico de anamnese". A observação é feita ali para a entrevista psiquiátrica; o mecanismo, porém, é o mesmo em qualquer entrevista clínica — e é assim que este guia o aplica.
 :::
 
 ::: tabela
@@ -278,13 +278,15 @@ titulo: As técnicas da entrevista
 texto: |
   As duas obras de Porto listam o repertório de intervenções do entrevistador, com pequenas diferenças de nomenclatura que vale conhecer.
 
-  Em *Exame Clínico* (cap. 3) são seis: **silêncio, esclarecimento, facilitação, confronto, apoio, reafirmação e compreensão**. Em *Semiologia Médica* (cap. 6), atribuindo a lista a Bickley e Szilagyi, aparecem **silêncio, apoio, facilitação, reflexão, esclarecimento, confrontação, respostas empáticas e interpretação**. São o mesmo conjunto visto de dois ângulos: "reflexão" e "reafirmação" nomeiam a mesma manobra de devolver ao paciente as palavras dele, e "interpretação" é descrita como um tipo de confrontação baseada numa conclusão do examinador.
+  Em *Exame Clínico* (cap. 3) a frase de abertura nomeia seis — **silêncio, facilitação, confronto, apoio, reafirmação e compreensão** —, mas o capítulo descreve sete, acrescentando o **esclarecimento** como item próprio. Em *Semiologia Médica* (cap. 6), atribuindo a lista a Bickley e Szilagyi, aparecem oito: **silêncio, apoio, facilitação, reflexão, esclarecimento, confrontação, respostas empáticas e interpretação**. São o mesmo conjunto visto de dois ângulos: "reflexão" e "reafirmação" nomeiam a mesma manobra de devolver ao paciente as palavras dele, e "interpretação" é descrita como um tipo de confrontação baseada numa conclusão do examinador.
+
+  O conjunto dessas manobras tem um nome. *Semiologia Clínica* (cap. 2) observa que comunicar-se bem não é só "bem falar", mas antes de tudo "bem ouvir" — e é a esse ouvir consciente e atento, que mostra ao outro que ele está sendo valorizado, que se dá o nome de **escuta ativa**.
 
   O que importa é saber **qual delas usar e quando** — e que nenhuma é gratuita. Confronto em excesso é lido como grosseria. Apoio prematuro sobre diagnóstico ou prognóstico, só para aliviar a ansiedade, é uma promessa que o examinador ainda não pode fazer. E o silêncio, tão útil com o paciente emocionado, é má técnica com o paciente loquaz, que aproveita a brecha para pular de assunto.
 :::
 
 ::: tabela
-titulo: Seis intervenções e o que cada uma faz
+titulo: As manobras da entrevista, uma a uma
 colunas:
   - "Técnica"
   - "Em que consiste"
@@ -329,7 +331,7 @@ texto: |
   2. **Abre espaço para o que ficou de fora.** É frequente que o motivo real da consulta apareça só aqui, quando a confiança já se estabeleceu. *Semiologia Clínica* chama esse conteúdo tardio de **agenda oculta**, e lista os temas que mais costumam vir nela: sexualidade, uso de drogas e dependência química, terminalidade, questões financeiras, violência doméstica, distúrbios alimentares e saúde mental.
   3. **Demonstra que houve escuta.** É diferente de dizer que se escutou.
 
-  Um detalhe de formulação, apontado por *Semiologia Clínica*, muda quem carrega o peso do entendimento. "O senhor entendeu?" põe a responsabilidade em quem recebe. "Será que eu fui suficientemente claro?" a devolve a quem explica.
+  Um detalhe de formulação, apontado por *Semiologia Clínica*, muda quem carrega o peso do entendimento. "O senhor entendeu?" põe a responsabilidade em quem recebe. "Será que fui suficientemente claro e facilitei o entendimento?" a devolve a quem explica.
 :::
 
 ::: secao
@@ -421,7 +423,7 @@ texto: |
   - **Omissão por medo do que virá.** O capítulo de exame psiquiátrico chama de **dissimulação** a omissão deliberada de sintomas — por receio do tratamento ou por desconfiança do examinador — e observa que ela é bem mais frequente que a simulação. Acrescenta que mesmo o paciente sincero pode omitir por mecanismos inconscientes de defesa, como negação e racionalização.
   - **Cronologia que não fecha.** Datas que se contradizem entre partes da história, ou uma sequência de fatos que não sobrevive a ser recontada. Porto ensina a ancorar as datas em eventos memoráveis quando a memória do paciente falha, mas incoerência repetida é dado, não ruído.
   - **Interpretação no lugar do fato.** O paciente que entrega conclusões ("foi da comida", "isso é do nervoso") em vez de descrições. Porto adverte que é preciso cuidado com as interpretações que os pacientes fazem dos seus sintomas e tratamentos.
-  - **Concordância suspeita.** *Semiologia Clínica*, citando o estudo clássico de Plaja e colaboradores, registra que muitos pacientes com problema de compreensão fingem entender perfeitamente o que lhes foi perguntado — e que o grau de incompreensão acompanha as diferenças sociais entre médico e paciente. Um "sim" educado pode ser apenas educação.
+  - **Concordância suspeita.** Porto (cap. 5), citando o estudo clássico de Plaja e colaboradores sobre os níveis de comunicação entre médico e paciente, registra que muitos doentes com problema de compreensão, por inibição ou acanhamento, fingiam entender perfeitamente o que lhes fora perguntado — e que a incompreensão crescia na mesma medida em que crescia a distância social entre médico e paciente. Um "sim" educado pode ser apenas educação.
   - **Barreira sensorial ou cognitiva não reconhecida.** Ver o tópico do paciente lacônico: parte das histórias "inconsistentes" é história mal ouvida.
 
   A conduta diante do alerta não é desqualificar o relato. É registrar a fonte e a confiabilidade, buscar dados em outras fontes disponíveis — Porto recomenda isso explicitamente na investigação do uso de drogas ilícitas — e reabrir o assunto em outro encontro. Porto lembra que o seguimento cria as condições ideais para esclarecer o que a primeira entrevista não alcançou.
@@ -493,7 +495,7 @@ perguntas:
       - "Registrar \"hipertensão arterial\", que é o termo clínico correspondente"
       - "Esclarecer qual sintoma está subentendido sob o rótulo e registrar esse sintoma"
       - "Registrar \"pressão alta\" entre aspas, sem qualquer esclarecimento"
-      - "Registrar a última medida de pressão arterial obtida"
+      - "Registrar a última aferição de pressão arterial obtida"
     corretaIndex: 1
     explicacao: "Porto recomenda não aceitar rótulos diagnósticos como queixa principal: se o paciente diz que seu problema é \"pressão alta\" ou \"menopausa\", procura-se esclarecer o sintoma que ficou subentendido sob outra denominação. Adotar o rótulo é o erro que a mesma obra ilustra com o caso do sangramento atribuído a hemorroidas e que escondia uma neoplasia retal. A exceção admitida é o paciente já diagnosticado ou encaminhado, situação em que se registra o motivo do encaminhamento."
   - id: entrevista-6

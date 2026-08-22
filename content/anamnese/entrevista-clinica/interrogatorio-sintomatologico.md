@@ -80,7 +80,7 @@ texto: |
 :::
 
 ::: perola
-texto: "O interrogatório sintomatológico é a única parte da anamnese em que o silêncio do paciente é um dado. Registrar o que ele nega vale quase tanto quanto registrar o que ele refere — e Porto recomenda explicitamente ao estudante que anote os sintomas presentes e os negados."
+texto: "No interrogatório sintomatológico, o que o paciente nega também vira registro: Porto recomenda explicitamente ao estudante que anote os sintomas presentes e os negados. É o que permite, meses depois, saber se uma queixa nova é mesmo nova."
 :::
 
 ::: secao
@@ -148,7 +148,7 @@ linhas:
   - - "Cabeça e pescoço"
     - "Dor no crânio, na face e no pescoço; tumorações cervicais; olhos (dor, prurido, lacrimejamento, diplopia, fotofobia, escotomas, perda visual); orelhas (dor, otorreia, zumbido, hipoacusia, vertigem); nariz (obstrução, corrimento, epistaxe, alterações do olfato); boca (apetite, halitose, dor dentária, ulcerações); faringe e laringe (dor de garganta, disfagia alta, pigarro, ronco, disfonia); tireoide (nódulo, bócio, rouquidão)"
   - - "Tórax"
-    - "Parede: dor e deformidade. Mamas: dor, nódulo, secreção mamilar. Vias respiratórias e pleura: tosse, expectoração, hemoptise, vômica, dispneia, chieira, cornagem, estridor, tiragem. Diafragma e mediastino: soluço, sintomas de compressão. Coração e grandes vasos: dor, palpitações, dispneia de esforço e de decúbito, síncope, cianose, edema, intolerância ao esforço"
+    - "Parede: dor e deformidade. Mamas: dor, nódulo, secreção mamilar. Vias respiratórias e pleura: tosse, expectoração, hemoptise, vômica, dispneia, chieira, cornagem, estridor, tiragem. Diafragma e mediastino: soluço, sintomas de compressão. Coração e grandes vasos: dor, palpitações, dispneia de esforço e de decúbito, síncope, cianose, edema, intolerância ao esforço. A tiragem está no tópico de inspeção do tórax; o estridor e os demais ruídos audíveis à distância, no tópico de ausculta pulmonar"
   - - "Abdome"
     - "Parede (dor, hérnias, tumorações); esôfago (disfagia, odinofagia, pirose, regurgitação); estômago (dor epigástrica, náuseas, vômitos, dispepsia); intestino delgado e cólon (diarreia, esteatorreia, obstipação, distensão, sangramento, tenesmo, hemorragia digestiva); fígado e vias biliares e pâncreas (dor, icterícia, cor da urina e das fezes, prurido)"
   - - "Sistemas urinário e genital"

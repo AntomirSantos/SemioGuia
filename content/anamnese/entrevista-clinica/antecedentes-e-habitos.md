@@ -70,7 +70,7 @@ titulo: O contexto em que a doença aconteceu
 texto: |
   A história da doença atual conta o que está acontecendo. Os antecedentes e os hábitos contam **com quem** está acontecendo — e é essa segunda informação que transforma uma lista de sintomas em probabilidades.
 
-  Porto define os antecedentes como a avaliação do estado de saúde do paciente, passado e presente, à luz dos fatores pessoais e familiares que pesam sobre o seu modo de adoecer. E abre a seção com um aviso que evita muito sofrimento: **a investigação dos antecedentes não pode ser esquematizada rigidamente**. O que se propõe é um roteiro e uma diretriz de trabalho, não um formulário.
+  Porto define os antecedentes como a avaliação do estado de saúde do paciente, passado e presente, à luz dos fatores pessoais e familiares que pesam sobre o seu modo de adoecer. E abre a seção com um aviso que evita muito sofrimento: "a investigação dos antecedentes não pode ser esquematizada rigidamente". O que se propõe, nas palavras da própria obra, é "uma sistematização que sirva como roteiro e diretriz de trabalho" — não um formulário.
 
   O território se divide em quatro:
 
@@ -78,6 +78,8 @@ texto: |
   - **antecedentes pessoais patológicos** — doenças, alergias, cirurgias, traumatismos, transfusões, história obstétrica, vacinas e medicamentos em uso;
   - **antecedentes familiares** — quem adoeceu de quê na família, e de que morreu;
   - **hábitos, história social e ocupacional** — o que a pessoa faz todos os dias, onde mora e onde trabalha.
+
+  Um termo técnico precisa estar claro desde já, porque o roteiro adiante o exige: **anos-maço** (também escrito maços/ano) é o número de maços fumados por dia multiplicado pelos anos de tabagismo — um maço diário durante 20 anos resulta em 20 anos-maço. As conversões, as duas nomenclaturas em uso e o que o número significa na prática estão no aprofundamento sobre carga tabágica, adiante.
 :::
 
 ::: perola
@@ -217,7 +219,7 @@ titulo: Hábitos e estilo de vida
 ::: conceito
 titulo: Alimentação e atividade física
 texto: |
-  **Alimentação.** Porto chama de anamnese alimentar o esforço de fazer o paciente discriminar a alimentação habitual, especificando tipo e quantidade dos alimentos ingeridos, e recomenda tomar como referência o que seria adequado àquela pessoa, considerando a idade, o sexo e o tipo de trabalho que ela faz. Questiona-se o consumo de carboidratos, proteínas, gorduras e fibras, e a ingestão de água e outros líquidos. Como o registro livre costuma sair confuso, a obra oferece fórmulas de síntese — alimentação quantitativa e qualitativamente adequada; reduzida ingesta de fibras; alimentação com alto teor de gorduras; baixa ingestão de líquidos; alimentação puramente vegetariana, entre outras.
+  **Alimentação.** Porto chama de anamnese alimentar o esforço de fazer o paciente discriminar a alimentação habitual, especificando tipo e quantidade dos alimentos ingeridos, e recomenda tomar como referência o que seria adequado àquela pessoa, considerando a idade, o sexo e o tipo de trabalho que ela faz. Questiona-se o consumo de carboidratos, proteínas, gorduras e fibras, e a ingestão de água e outros líquidos. Como o registro livre costuma sair confuso, a obra oferece fórmulas prontas de síntese, entre elas "alimentação quantitativa e qualitativamente adequada", "reduzida ingesta de fibras", "alimentação com alto teor de gorduras", "baixa ingestão de líquidos" e "alimentação puramente vegetariana".
 
   *Semiologia Clínica* acrescenta dois recortes atuais: a frequência diária de refeições e a proporção entre alimentos não processados e ultraprocessados.
 
@@ -240,10 +242,6 @@ linhas:
     - "Uso atual ou pregresso, contexto (academia, controle de peso), duração; Porto lembra que alguns sedativos também causam dependência química e devem ser investigados"
   - - "Drogas ilícitas"
     - "Tipo de substância, quantidade habitual, frequência, duração do hábito e abstinência; integração com informações de outras fontes disponíveis"
-  - - "Atividade física"
-    - "Tipo, frequência, duração e tempo de prática; tempo diário sentado no trabalho; classificação em sedentário, moderado, intenso e constante, ou ocasional"
-  - - "Alimentação"
-    - "Alimentação habitual em tipo e quantidade; consumo de carboidratos, proteínas, gorduras e fibras; ingestão de líquidos; frequência das refeições e peso dos ultraprocessados"
   - - "Outros riscos evitáveis"
     - "Exposição solar e uso de protetor; medidas de proteção contra acidentes; proteção nas relações sexuais; frequência de escovação e de visitas ao dentista"
 :::
@@ -284,7 +282,7 @@ texto: |
 
   **Padrão de consumo em ocasião única.** Porto define o *binge drinking* como beber **cinco doses ou mais numa mesma ocasião**, no caso dos homens, ou **quatro ou mais**, no caso das mulheres, com essa ocorrência **ao menos uma vez nas duas semanas anteriores** — padrão que expõe a danos físicos, sexo desprotegido, superdosagem, quedas, violência, acidentes de trânsito e comportamento antissocial. A obra não define o volume nem o teor da "dose"; ao registrar, descreva o que o paciente bebeu em termos concretos (o tipo de bebida e a quantidade) em vez de converter para uma unidade que a referência não fixa.
 
-  **Rastreamento com o CAGE.** Quatro perguntas de resposta sim ou não, na formulação que Porto reproduz:
+  **Rastreamento com o CAGE.** O instrumento é o questionário de Ewing (1984), e a sigla, em inglês, guarda os quatro pontos investigados: a necessidade de diminuir o consumo (*cut down*), o incômodo com as críticas à bebida (*annoyed*), a sensação de culpa ao beber (*guilty*) e a necessidade de beber logo de manhã para "abrir os olhos" (*eye-opener*). São quatro perguntas de resposta sim ou não, na formulação que Porto reproduz:
 
   1. "Você já sentiu a necessidade de diminuir a quantidade de bebida ou parar de beber?"
   2. "Você já se sentiu aborrecido ao ser criticado por beber?"
@@ -300,7 +298,7 @@ texto: |
 titulo: História ocupacional dirigida
 nivel: avancado
 texto: |
-  Na identificação registrou-se a profissão. Aqui vai-se mais longe, e Porto diz exatamente o que buscar: a **natureza do trabalho desempenhado, com que substâncias o paciente entra em contato, quais as características do ambiente e qual o grau de ajustamento ao trabalho** — para a ocupação atual **e** para as anteriores.
+  Na identificação registrou-se a profissão. Aqui vai-se mais longe, e Porto diz exatamente o que buscar: "a natureza do trabalho desempenhado, com que substâncias entra em contato, quais as características do meio ambiente e qual o grau de ajustamento ao trabalho" — para a ocupação atual **e** para as anteriores.
 
   Duas categorias jurídicas e clínicas se separam aqui, e Porto as distingue com exemplos:
 

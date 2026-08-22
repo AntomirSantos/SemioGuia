@@ -83,7 +83,7 @@ texto: |
 
   Quatro regras cobrem quase todas as situações.
 
-  1. **Nas palavras do paciente**, entre aspas quando se quer marcar que foram as palavras exatas.
+  1. **Nas palavras do paciente**, entre aspas quando se quer marcar que foram as palavras exatas. A regra não é absoluta: *Semiologia Clínica* admite que essa linha seja escrita tanto com o linguajar habitual quanto em termos médicos — o que ela proíbe é escrevê-la como diagnóstico. Por isso "dor de cabeça há um dia" e "cefaleia há um dia" servem igualmente, e "cefaleia occipital há 3 meses" continua sendo queixa principal, não hipótese.
   2. **Com a duração junto.** *Semiologia Clínica* trata queixa e duração como um par — "dor de cabeça há um dia" é queixa principal; "dor de cabeça" sozinha é meia queixa.
   3. **Sem rótulo diagnóstico.** A mesma obra é explícita: não se escreve "enxaqueca há um dia", escreve-se "dor de cabeça há um dia", porque a essa altura ainda não há diagnóstico preciso. Porto acrescenta a razão clínica: aceitar o rótulo do paciente pode custar o diagnóstico verdadeiro.
   4. **Uma queixa, não sete.** Quando a pessoa enumera vários motivos, Porto lembra que nem sempre o motivo que mais pesa é o primeiro a ser enunciado, e ensina como identificá-lo: perguntar o que a levou a procurar atendimento, ou o que mais a incomoda.
@@ -224,7 +224,7 @@ texto: |
   4. **Intensidade.** Ver adiante.
   5. **Duração.** Data de início; se contínua, o tempo decorrido; se cíclica, a data e a duração de cada episódio; se intermitente, a duração média das crises, quantas por dia e quantos dias por mês.
   6. **Evolução.** Instalação súbita ou insidiosa, e o que mudou desde então.
-  7. **Relação com funções orgânicas.** Avaliada conforme a localização e os órgãos daquela área: dor na coluna, com os movimentos; torácica, com a respiração, a tosse e o esforço; retroesternal, com a deglutição e a postura; epigástrica, com a alimentação; no baixo-ventre, com a micção, a evacuação e a menstruação; nos membros inferiores, com a deambulação.
+  7. **Relação com funções orgânicas.** Avaliada conforme a localização e os órgãos daquela área: dor na coluna, com os movimentos; torácica, com a respiração, a tosse e o esforço; retroesternal, com a deglutição e a postura; epigástrica, com a alimentação; no baixo-ventre, com a micção, a evacuação e a menstruação; nos membros inferiores, com a deambulação. O que a mão acrescenta a uma dor torácica — dor provocada à palpação e o que ela significa e não significa — está no tópico de palpação do tórax.
   8. **Fatores desencadeantes ou agravantes.** Devem ser procurados ativamente, porque afastá-los é parte do tratamento.
   9. **Fatores atenuantes.** O que o paciente descobriu que alivia — posição, repouso, alimento, compressa.
   10. **Manifestações concomitantes.** O que acompanha a dor, sobretudo o cortejo neurovegetativo da dor aguda intensa.
