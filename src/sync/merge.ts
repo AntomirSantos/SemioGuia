@@ -44,17 +44,23 @@ export function chaveConclusao(c: ConclusaoCaso): string {
 }
 
 // União por chave natural: cada lado recebe apenas o que lhe falta (delta, não
-// o estado completo). Duplicatas com a mesma chave não são repetidas.
+// o estado completo). Duplicatas com a mesma chave não são repetidas — nem as
+// que já vêm duplicadas dentro do mesmo lado, por isso cada lado é colapsado a
+// uma entrada por chave antes de diferenciar contra o outro lado.
 function mergeHistorico<T>(
   local: T[],
   remoto: T[],
   chave: (item: T) => string,
 ): { paraLocal: T[]; paraRemoto: T[] } {
-  const chavesLocal = new Set(local.map(chave));
-  const chavesRemoto = new Set(remoto.map(chave));
+  const localPorChave = new Map(local.map((item) => [chave(item), item]));
+  const remotoPorChave = new Map(remoto.map((item) => [chave(item), item]));
   return {
-    paraLocal: remoto.filter((item) => !chavesLocal.has(chave(item))),
-    paraRemoto: local.filter((item) => !chavesRemoto.has(chave(item))),
+    paraLocal: [...remotoPorChave.entries()]
+      .filter(([k]) => !localPorChave.has(k))
+      .map(([, item]) => item),
+    paraRemoto: [...localPorChave.entries()]
+      .filter(([k]) => !remotoPorChave.has(k))
+      .map(([, item]) => item),
   };
 }
 

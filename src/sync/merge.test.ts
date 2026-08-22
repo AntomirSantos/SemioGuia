@@ -128,6 +128,15 @@ test('históricos: item só no remoto vai para paraLocal', () => {
   expect(resultado.paraRemoto.conclusoesCasos).toEqual([]);
 });
 
+test('históricos: duplicata dentro do mesmo lado é colapsada antes do diff (não se multiplica no delta)', () => {
+  const r = resposta({ perguntaId: 'dup', respondidaEm: 42 });
+  const local: SnapshotSync = { ...snapshotVazio(), respostas: [r, { ...r }] };
+  const remoto = snapshotVazio();
+  const resultado = merge(local, remoto);
+  expect(resultado.paraRemoto.respostas).toEqual([r]);
+  expect(resultado.paraLocal.respostas).toEqual([]);
+});
+
 test('históricos: mescla itens distintos de ambos os lados sem perder nenhum', () => {
   const rLocal = resposta({ perguntaId: 'local-only', respondidaEm: 1 });
   const rComum = resposta({ perguntaId: 'comum', respondidaEm: 2 });
@@ -223,6 +232,16 @@ test('itensRevisao: local mais novo por Date.parse vai para paraRemoto', () => {
   const resultado = merge(local, remoto);
   expect(resultado.paraRemoto.itensRevisao).toEqual({ i1: itemLocal });
   expect(resultado.paraLocal.itensRevisao).toEqual({});
+});
+
+test('itensRevisao: empate exato de carimbo (mesmo Date.parse(atualizadoEm)), campos diferentes: vence o remoto, entra em paraLocal', () => {
+  const itemLocal = itemRevisao({ atualizadoEm: '2026-08-22T10:00:00.000Z', repeticoes: 1 });
+  const itemRemoto = itemRevisao({ atualizadoEm: '2026-08-22T10:00:00.000Z', repeticoes: 9 });
+  const local: SnapshotSync = { ...snapshotVazio(), itensRevisao: { i1: itemLocal } };
+  const remoto: SnapshotSync = { ...snapshotVazio(), itensRevisao: { i1: itemRemoto } };
+  const resultado = merge(local, remoto);
+  expect(resultado.paraLocal.itensRevisao).toEqual({ i1: itemRemoto });
+  expect(resultado.paraRemoto.itensRevisao).toEqual({});
 });
 
 test('itensRevisao: só no local vai para paraRemoto, só no remoto vai para paraLocal', () => {
