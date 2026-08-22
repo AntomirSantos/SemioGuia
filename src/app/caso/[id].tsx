@@ -8,6 +8,7 @@ import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo, type Paleta } from '../../design/tokens';
 import { useCaso } from '../../content/ContentContext';
 import { useProgresso } from '../../progress/ProgressContext';
+import { useSync } from '../../sync/orquestrador';
 import { BotaoPrincipal } from '../../quiz/PerguntaCard';
 import { avancar, decidir, desfechoAtual, iniciar, nota, noAtual, type EstadoCaso } from '../../casos/motor';
 import { CLASSE_LABEL, corDaClasse } from '../../casos/desfecho';
@@ -218,6 +219,7 @@ function TrilhaItem({ caso, passo }: { caso: Caso; passo: EstadoCaso['trilha'][n
 
 export function TelaCasoPlayer({ caso }: { caso: Caso }) {
   const progresso = useProgresso();
+  const { notificarEscrita } = useSync();
   const [estado, setEstado] = useState<EstadoCaso>(() => iniciar(caso));
   const registradoRef = useRef<EstadoCaso | null>(null);
 
@@ -241,7 +243,9 @@ export function TelaCasoPlayer({ caso }: { caso: Caso }) {
           erros: n.erros,
           concluidaEm: Date.now(),
         })
-        .catch(() => {});
+        .catch(() => {})
+        // Spec §3.2, 4º gatilho: notifica após a conclusão do caso, com debounce.
+        .finally(() => notificarEscrita());
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [estado]);

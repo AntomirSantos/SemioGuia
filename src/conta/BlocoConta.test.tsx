@@ -161,7 +161,7 @@ describe('com sessão', () => {
     expect(getByText('Não foi possível sincronizar agora.')).toBeTruthy();
     await fireEvent.press(getByText('Tentar de novo'));
 
-    await waitFor(() => expect(mockSincronizarAgora).toHaveBeenCalled());
+    await waitFor(() => expect(mockSincronizarAgora).toHaveBeenCalledWith({ forcar: true }));
   });
 
   test('tocar "Sair" chama sair()', async () => {
@@ -229,7 +229,7 @@ describe('com sessão', () => {
     mockUseConta.mockReturnValue(CONTA_LOGADA);
     await renderBloco();
 
-    await waitFor(() => expect(mockSincronizarAgora).toHaveBeenCalled());
+    await waitFor(() => expect(mockSincronizarAgora).toHaveBeenCalledWith());
   });
 });
 

@@ -201,6 +201,37 @@ test('troca de conta dentro da janela do debounce: reseta o estado e sincroniza 
   await waitFor(() => expect(result.current.ultimaSync).not.toBeNull());
 });
 
+test('notificarEscrita(): sem sessão não sincroniza (no-op barato)', async () => {
+  mockUseConta.mockReturnValue({ usuario: null });
+  const { result } = await renderHook(() => useSync(), { wrapper: criarWrapper(new MemoryProgressStore()) });
+
+  await act(async () => {
+    result.current.notificarEscrita();
+    await new Promise((r) => setTimeout(r, 0));
+  });
+
+  expect(mockLerSnapshotRemoto).not.toHaveBeenCalled();
+});
+
+test('notificarEscrita(): respeita o debounce de 30s (não força)', async () => {
+  mockUseConta.mockReturnValue({ usuario: USUARIO });
+  mockLerSnapshotRemoto.mockResolvedValue(snapshotVazio());
+  mockGravarDeltas.mockResolvedValue(undefined);
+
+  const { result } = await renderHook(() => useSync(), { wrapper: criarWrapper(new MemoryProgressStore()) });
+
+  // sincronização de login já consumiu a janela de 30s
+  await waitFor(() => expect(mockLerSnapshotRemoto).toHaveBeenCalledTimes(1));
+
+  await act(async () => {
+    result.current.notificarEscrita();
+    await new Promise((r) => setTimeout(r, 0));
+  });
+
+  // dentro da janela: notificarEscrita não força, o debounce ignora
+  expect(mockLerSnapshotRemoto).toHaveBeenCalledTimes(1);
+});
+
 test('depois que os 30s do debounce passam, uma nova chamada sincroniza de novo', async () => {
   let agora = 1_000_000;
   jest.spyOn(Date, 'now').mockImplementation(() => agora);

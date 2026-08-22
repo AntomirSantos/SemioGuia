@@ -36,15 +36,16 @@ const vazio = (): Estado => ({
 // Releases web já publicadas antes do v4 persistiam estudados/favoritos como
 // string[] (presença = true) e preferencias como Record<string,string>. Sem
 // esta migração, ler() perderia silenciosamente os dados desses usuários
-// (ver task-3-report.md). atualizadoEm=0 é proposital: LWW trata dados
-// migrados como os mais antigos possíveis.
+// (ver task-3-report.md). atualizadoEm=1 é proposital: LWW trata dados
+// migrados como os mais antigas possíveis (mas ainda > 0, como
+// firestore.rules' carimboMs exige — ver contract.test.ts).
 function migrarEstados(
   bruto: string[] | Record<string, EstadoCarimbado> | undefined,
 ): Record<string, EstadoCarimbado> {
   if (!bruto) return {};
   if (Array.isArray(bruto)) {
     const migrado: Record<string, EstadoCarimbado> = {};
-    for (const id of bruto) migrado[id] = { valor: true, atualizadoEm: 0 };
+    for (const id of bruto) migrado[id] = { valor: true, atualizadoEm: 1 };
     return migrado;
   }
   return bruto;
@@ -56,7 +57,7 @@ function migrarPreferencias(
   if (!bruto) return {};
   const migrado: Record<string, PrefCarimbada> = {};
   for (const [chave, valor] of Object.entries(bruto)) {
-    migrado[chave] = typeof valor === 'string' ? { valor, atualizadoEm: 0 } : valor;
+    migrado[chave] = typeof valor === 'string' ? { valor, atualizadoEm: 1 } : valor;
   }
   return migrado;
 }

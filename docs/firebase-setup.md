@@ -112,7 +112,12 @@ a do repositório — a data de publicação e o texto devem bater.
    ficaram sem documentos — o console ainda mostra o `users/{uid}` como
    documento fantasma (ele nunca existiu de verdade; subcoleção vive sob
    documento inexistente) — e que o usuário sumiu de **Authentication**.
-7. Só depois disso divulgue o app.
+7. Teste também **uma vez** em um navegador com `localStorage` de uma versão
+   web pré-4A (formato legado `estudados`/`favoritos` como `string[]`): crie
+   conta/entre nele e confirme que o primeiro sync migra e sobe os dados sem
+   falhar em lote (a migração carimba `atualizadoEm=1`, não `0`, para
+   satisfazer o piso `> 0` de `carimboMs` em `firestore.rules`).
+8. Só depois disso divulgue o app.
 
 ---
 
@@ -173,7 +178,7 @@ negado e todas as demais negações esperadas).
 | # | Item do checklist | Situação final |
 |---|---|---|
 | 1 | **The Update Bypass** (create × update) | `create` e `update` explícitos por coleção, usando o **mesmo** validador; `update` ainda soma imutabilidades (`perfil.criadoEm`, `itensRevisao.id`). Não existe caminho de update mais fraco. |
-| 2 | **Authority Source** | `uid` vem sempre do **caminho** comparado a `request.auth.uid`; nenhum campo `role`/`isAdmin`/`ownerId` existe; `perfil.email` é amarrado à claim `email` do token quando ela existe. |
+| 2 | **Authority Source** | `uid` vem sempre do **caminho** comparado a `request.auth.uid`; nenhum campo `role`/`isAdmin`/`ownerId` existe; `perfil.email` é amarrado à claim `email` do token. |
 | 3 | **Business Logic vs. Rules** | App de usuário único por conta: dono lê/escreve só a própria subárvore; nada de compartilhamento a suportar. Exclusão de conta (LGPD) exige `delete` em **todas** as 7 subcoleções — liberado ao dono. |
 | 4 | **Storage Abuse / DoS** | Limite em toda string (ids ≤ 200, e-mail ≤ 320, `prefs.valor` ≤ 100, ISO ≤ 40, data = 10) **e** no tamanho do id de documento (≤ 300/400). Inteiros com **tetos de sanidade** — deliberadamente folgados, não "plausíveis": um teto apertado nega escrita legítima do SM-2 e mata a sincronização (F1). O que contém custo/abuso aqui é o tamanho, não a magnitude do número. |
 | 5 | **Type Safety** | Todo campo tem `is bool` / `is int` / `is string` / `is number`, faixas numéricas, `in [...]` para enums e `matches()` para datas. |

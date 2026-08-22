@@ -14,6 +14,19 @@ jest.mock('react-native-safe-area-context', () => ({
   useSafeAreaInsets: () => ({ top: 0, bottom: 0, left: 0, right: 0 }),
 }));
 
+// TelaTopico chama useSync() (notificarEscrita ao marcar estudado). O teste
+// não monta SyncProvider (que exige AuthProvider), então mockamos como as
+// telas mockam providers em outros arquivos (ex.: BlocoConta.test.tsx).
+jest.mock('../sync/orquestrador', () => ({
+  useSync: () => ({
+    ultimaSync: null,
+    sincronizando: false,
+    erro: null,
+    sincronizarAgora: jest.fn(async () => {}),
+    notificarEscrita: jest.fn(),
+  }),
+}));
+
 const TOPICO_ID = 'exame-fisico-geral/sinais-vitais/pressao-arterial';
 
 function renderTopico(store: MemoryProgressStore, topicoId: string = TOPICO_ID) {

@@ -9,6 +9,7 @@ import { espaco, fonte, raio, tipo } from '../design/tokens';
 import { useConteudo } from '../content/ContentContext';
 import { obterTopico } from '../content/store';
 import { useProgresso } from '../progress/ProgressContext';
+import { useSync } from '../sync/orquestrador';
 import { montarFila, idDeChecklist, type FilaDeHoje } from '../revisao/fila';
 import { idsValidosDoConteudo } from '../revisao/idsValidos';
 import { amanha, avaliar, notaDeEstacao, notaDePergunta, type ItemRevisao, type NotaSm2 } from '../revisao/sm2';
@@ -139,6 +140,7 @@ function encontrarChecklist(conteudo: Conteudo, topicoId: string, checklistId: s
 export function TelaRevisao() {
   const conteudo = useConteudo();
   const progresso = useProgresso();
+  const { notificarEscrita } = useSync();
   const { paleta, escala } = useTema();
   const [fila, setFila] = useState<FilaDeHoje | null>(null);
   const [indice, setIndice] = useState(0);
@@ -239,6 +241,9 @@ export function TelaRevisao() {
       await progresso.salvarItemRevisao(atualizado);
     } catch {
       // Fire-and-forget: a sessão continua mesmo se a gravação falhar.
+    } finally {
+      // Spec §3.2, 4º gatilho: notifica após cada item salvo, com debounce.
+      notificarEscrita();
     }
     if (correta) setAcertos((a) => a + 1);
     else setErros((e) => e + 1);

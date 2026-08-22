@@ -9,6 +9,7 @@ import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useSistema, useTopico } from '../../content/ContentContext';
 import { useProgresso } from '../../progress/ProgressContext';
+import { useSync } from '../../sync/orquestrador';
 import { BlocoView } from '../../blocos/Bloco';
 import { semearTopico } from '../../revisao/fila';
 import { agoraIso, hojeLocal } from '../../revisao/hoje';
@@ -84,6 +85,7 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
   const topico = useTopico(topicoId);
   const sistema = useSistema(topico?.sistemaId ?? '');
   const progresso = useProgresso();
+  const { notificarEscrita } = useSync();
   const [estudado, setEstudado] = useState(false);
   const [favorito, setFavorito] = useState(false);
 
@@ -109,7 +111,8 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
   function alternarEstudado() {
     const novo = !estudado;
     setEstudado(novo);
-    progresso.marcarEstudado(topicoId, novo).catch(() => {});
+    // Spec §3.2, 4º gatilho: notifica após a escrita de progresso, com debounce.
+    progresso.marcarEstudado(topicoId, novo).catch(() => {}).finally(() => notificarEscrita());
     if (novo) {
       semearRevisao(topicoAtual);
     }

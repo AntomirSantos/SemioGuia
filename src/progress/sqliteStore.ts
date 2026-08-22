@@ -66,18 +66,20 @@ export class SqliteProgressStore implements ProgressStore {
     this.db.execSync(ESQUEMA_V3);
     // ESQUEMA_V4: carimbos de sincronização. ADD COLUMN não tem IF NOT EXISTS,
     // por isso checamos via PRAGMA antes de alterar — idempotente em bancos
-    // v1/v2/v3 que já rodaram esta migração.
+    // v1/v2/v3 que já rodaram esta migração. DEFAULT 1 (não 0): firestore.rules'
+    // carimboMs exige atualizadoEm > 0; 1 continua sendo "mais antigo possível"
+    // para o LWW frente a qualquer Date.now() real.
     for (const tabela of ['estudados', 'favoritos']) {
       if (!this.colunaExiste(tabela, 'valor')) {
         // presença de linha sempre significava valor=true nos esquemas anteriores
         this.db.execSync(`ALTER TABLE ${tabela} ADD COLUMN valor INTEGER DEFAULT 1`);
       }
       if (!this.colunaExiste(tabela, 'atualizado_em')) {
-        this.db.execSync(`ALTER TABLE ${tabela} ADD COLUMN atualizado_em INTEGER DEFAULT 0`);
+        this.db.execSync(`ALTER TABLE ${tabela} ADD COLUMN atualizado_em INTEGER DEFAULT 1`);
       }
     }
     if (!this.colunaExiste('preferencias', 'atualizado_em')) {
-      this.db.execSync('ALTER TABLE preferencias ADD COLUMN atualizado_em INTEGER DEFAULT 0');
+      this.db.execSync('ALTER TABLE preferencias ADD COLUMN atualizado_em INTEGER DEFAULT 1');
     }
     this.db.runSync(
       'INSERT OR REPLACE INTO meta (chave, valor) VALUES (?, ?)',

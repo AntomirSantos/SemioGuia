@@ -22,6 +22,19 @@ jest.mock('react-native-safe-area-context', () => ({
   useSafeAreaInsets: () => ({ top: 0, bottom: 0, left: 0, right: 0 }),
 }));
 
+// TelaCaso chama useSync() (notificarEscrita ao concluir o caso). O teste
+// não monta SyncProvider (que exige AuthProvider), então mockamos como as
+// telas mockam providers em outros arquivos (ex.: BlocoConta.test.tsx).
+jest.mock('../sync/orquestrador', () => ({
+  useSync: () => ({
+    ultimaSync: null,
+    sincronizando: false,
+    erro: null,
+    sincronizarAgora: jest.fn(async () => {}),
+    notificarEscrita: jest.fn(),
+  }),
+}));
+
 // Conteúdo real (Task 6 ainda não semeou casos): injetamos um caso próprio
 // via ContentProvider (prop `conteudo`), do mesmo jeito que ProgressProvider
 // aceita um `store` de teste.

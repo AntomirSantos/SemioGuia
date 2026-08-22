@@ -316,9 +316,9 @@ resto do app permanece intacto. O que entrou:
   e remoto por campo — listas por união, preferências e progresso de SM-2
   por carimbo de tempo mais recente (last-write-wins) — sem tocar rede ou
   storage; tipado sobre `SnapshotSync`/`EstadoCarimbado`/`PrefCarimbada`.
-- **`ProgressStore` v4** (`src/content/store.ts` e adaptadores memória/
+- **`ProgressStore` v4** (`src/progress/types.ts` e adaptadores memória/
   localStorage/SQLite): todo estado mutável ganha carimbo de tempo;
-  `exportarSnapshot`/`aplicarSnapshot` alimentam o merge; migração
+  `exportarParaSync`/`aplicarDoSync` alimentam o merge; migração
   automática da forma legada (v3 e anteriores) para v4 preserva os dados já
   no aparelho do usuário.
 - **Regras do Firestore** (`firestore.rules`) — 7 coleções sob

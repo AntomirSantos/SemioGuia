@@ -16,6 +16,20 @@ jest.mock('react-native-safe-area-context', () => ({
   useSafeAreaInsets: () => ({ top: 0, bottom: 0, left: 0, right: 0 }),
 }));
 
+// TelaRevisao chama useSync() (notificarEscrita após cada item salvo). O
+// teste não monta SyncProvider (que exige AuthProvider), então mockamos como
+// as telas mockam providers em outros arquivos (ex.: BlocoConta.test.tsx).
+const mockNotificarEscrita = jest.fn();
+jest.mock('../sync/orquestrador', () => ({
+  useSync: () => ({
+    ultimaSync: null,
+    sincronizando: false,
+    erro: null,
+    sincronizarAgora: jest.fn(async () => {}),
+    notificarEscrita: mockNotificarEscrita,
+  }),
+}));
+
 const PA_ID = 'exame-fisico-geral/sinais-vitais/pressao-arterial';
 const FC_ID = 'exame-fisico-geral/sinais-vitais/frequencia-cardiaca-e-pulso';
 const TITULO_CHECKLIST = 'Avaliação do pulso em 60 segundos';
@@ -49,6 +63,7 @@ function renderRevisao(store: MemoryProgressStore) {
 beforeEach(() => {
   (router.back as jest.Mock).mockClear();
   (router.push as jest.Mock).mockClear();
+  mockNotificarEscrita.mockClear();
 });
 
 test('fila vazia mostra "Nada para revisar hoje" e oferece "Abrir o Guia"', async () => {
@@ -99,6 +114,24 @@ test('sessão com 1 pergunta certa salva o item com repeticoes: 1 e mostra o res
 
   await fireEvent.press(getByText('Voltar'));
   expect(router.back).toHaveBeenCalled();
+});
+
+test('responder um item chama notificarEscrita() (spec §3.2, gatilho de escrita de progresso)', async () => {
+  const store = new MemoryProgressStore();
+  await store.salvarItemRevisao(item({ id: 'pa-1', tipo: 'pergunta', topicoId: PA_ID }));
+
+  const { getByText } = await renderRevisao(store);
+
+  await waitFor(() => {
+    expect(getByText('1 de 1')).toBeTruthy();
+  });
+  expect(mockNotificarEscrita).not.toHaveBeenCalled();
+
+  await fireEvent.press(getByText('2 a 3 mmHg por segundo'));
+
+  await waitFor(() => {
+    expect(mockNotificarEscrita).toHaveBeenCalled();
+  });
 });
 
 test('item de checklist usa EstacaoOsce e avalia ao concluir', async () => {

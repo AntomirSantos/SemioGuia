@@ -28,6 +28,16 @@ export interface EstadoSync {
   sincronizando: boolean;
   erro: string | null;
   sincronizarAgora(opcoes?: OpcoesSincronizar): Promise<void>;
+  /**
+   * Gatilho "após ações que gravam progresso, com debounce" (spec §3.2,
+   * 4º gatilho de sync). Chame sem `await` logo após uma escrita de
+   * progresso (resposta de quiz, item de revisão, conclusão de caso/estação,
+   * marcar-estudado) — dispara `sincronizarAgora()` SEM `forcar`, então o
+   * debounce de 30s de sempre decide se roda; sem sessão/config
+   * (`sincronizarAgora` no-opa sem `uid`) é barato o bastante para nunca
+   * precisar ser guardado por condicional na tela chamadora.
+   */
+  notificarEscrita(): void;
 }
 
 const Ctx = createContext<EstadoSync | null>(null);
@@ -123,9 +133,16 @@ function useOrquestrador(): EstadoSync {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [uid]);
 
+  // 4º gatilho da spec: fire-and-forget, sem `forcar` — reaproveita o mesmo
+  // debounce/no-op de `sincronizarAgora` (sem uid/config, ela mesma retorna
+  // cedo), então chamar daqui nunca precisa de guarda própria.
+  const notificarEscrita = useCallback(() => {
+    sincronizarAgora().catch(() => {});
+  }, [sincronizarAgora]);
+
   return useMemo(
-    () => ({ ultimaSync, sincronizando, erro, sincronizarAgora }),
-    [ultimaSync, sincronizando, erro, sincronizarAgora],
+    () => ({ ultimaSync, sincronizando, erro, sincronizarAgora, notificarEscrita }),
+    [ultimaSync, sincronizando, erro, sincronizarAgora, notificarEscrita],
   );
 }
 

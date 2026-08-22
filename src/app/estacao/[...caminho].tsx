@@ -6,6 +6,7 @@ import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useTopico } from '../../content/ContentContext';
 import { useProgresso } from '../../progress/ProgressContext';
+import { useSync } from '../../sync/orquestrador';
 import { EstacaoOsce, type ResultadoEstacao } from '../../revisao/EstacaoOsce';
 import { avaliar, criarItem, notaDeEstacao } from '../../revisao/sm2';
 import { idDeChecklist } from '../../revisao/fila';
@@ -43,6 +44,7 @@ function TelaVazia({ mensagem }: { mensagem: string }) {
 export function TelaEstacao({ topicoId, titulo }: { topicoId: string; titulo: string }) {
   const topico = useTopico(topicoId);
   const progresso = useProgresso();
+  const { notificarEscrita } = useSync();
 
   if (!topico) {
     return <TelaVazia mensagem="Tópico não encontrado" />;
@@ -64,6 +66,8 @@ export function TelaEstacao({ topicoId, titulo }: { topicoId: string; titulo: st
     const item = existente ?? criarItem(id, 'checklist', topicoId, hoje, agora);
     const atualizado = avaliar(item, notaDeEstacao(resultado.percentual), hoje, agora);
     await progresso.salvarItemRevisao(atualizado);
+    // Spec §3.2, 4º gatilho: notifica após a conclusão da estação, com debounce.
+    notificarEscrita();
   }
 
   return (

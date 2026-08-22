@@ -70,10 +70,42 @@ test('localStorage: migra formato legado (string[] / Record<string,string>) sem 
   expect(await s2.listarFavoritos()).toEqual(['t2']);
   expect(await s2.obterPreferencia('tema')).toBe('escuro');
 
-  // entradas migradas exportam com atualizadoEm=0 (LWW as trata como as mais antigas)
+  // entradas migradas exportam com atualizadoEm=1, não 0 (LWW as trata como
+  // as mais antigas possíveis, mas firestore.rules' carimboMs exige > 0)
   const snap = await s2.exportarParaSync();
-  expect(snap.estudados.t1).toEqual({ valor: true, atualizadoEm: 0 });
-  expect(snap.estudados.t2).toEqual({ valor: true, atualizadoEm: 0 });
-  expect(snap.favoritos.t2).toEqual({ valor: true, atualizadoEm: 0 });
-  expect(snap.prefs.tema).toEqual({ valor: 'escuro', atualizadoEm: 0 });
+  expect(snap.estudados.t1).toEqual({ valor: true, atualizadoEm: 1 });
+  expect(snap.estudados.t2).toEqual({ valor: true, atualizadoEm: 1 });
+  expect(snap.favoritos.t2).toEqual({ valor: true, atualizadoEm: 1 });
+  expect(snap.prefs.tema).toEqual({ valor: 'escuro', atualizadoEm: 1 });
+});
+
+test('localStorage: carimbos migrados satisfazem o piso de firestore.rules (carimboMs exige > 0)', async () => {
+  // Acoplamento com firestore.rules: `function carimboMs(v) { return v is int && v > 0 && ... }`
+  // Se a migração voltar a usar atualizadoEm=0, o primeiro sync de qualquer
+  // usuário pré-4A falha em lote (create/update rejeitados pela regra).
+  const storage = criarStorageFake();
+  storage.setItem(
+    'semioguia.progresso.v1',
+    JSON.stringify({
+      estudados: ['t1'],
+      favoritos: ['t1'],
+      respostas: [],
+      buscas: [],
+      preferencias: { tema: 'escuro' },
+    }),
+  );
+
+  const s = new LocalStorageProgressStore(storage);
+  const snap = await s.exportarParaSync();
+
+  const carimbos = [
+    ...Object.values(snap.estudados).map((e) => e.atualizadoEm),
+    ...Object.values(snap.favoritos).map((e) => e.atualizadoEm),
+    ...Object.values(snap.prefs).map((p) => p.atualizadoEm),
+  ];
+  expect(carimbos.length).toBeGreaterThan(0);
+  for (const c of carimbos) {
+    expect(Number.isInteger(c)).toBe(true);
+    expect(c).toBeGreaterThan(0);
+  }
 });

@@ -8,6 +8,7 @@ import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useTopico } from '../../content/ContentContext';
 import { useProgresso } from '../../progress/ProgressContext';
+import { useSync } from '../../sync/orquestrador';
 import { useSessao } from '../../quiz/useSessao';
 import { PerguntaCard, BotaoPrincipal } from '../../quiz/PerguntaCard';
 import { avaliar, criarItem, notaDePergunta } from '../../revisao/sm2';
@@ -66,6 +67,7 @@ function Eyebrow({ texto }: { texto: string }) {
 function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: QuizPergunta[] }) {
   const { paleta, escala } = useTema();
   const progresso = useProgresso();
+  const { notificarEscrita } = useSync();
   const { responderAtual, resultado, reiniciar } = useSessao(perguntas);
   const [indice, setIndice] = useState(0);
   const [mostrarResultado, setMostrarResultado] = useState(false);
@@ -120,6 +122,10 @@ function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: Qui
         await progresso.salvarItemRevisao(atualizado);
       } catch {
         // Fire-and-forget: não bloqueia a UI do quiz.
+      } finally {
+        // Spec §3.2, 4º gatilho: notifica após a escrita de progresso, com
+        // debounce (nunca aguardado aqui — notificarEscrita é fire-and-forget).
+        notificarEscrita();
       }
     })();
   }
