@@ -1,19 +1,31 @@
 versao: "0.1.0"
 sistemas:
+  - id: anamnese
+    titulo: Anamnese
+    cor: "#8E6BC8"
+    icone: clipboard-list
+    ordem: 1
+    capitulos:
+      - id: entrevista-clinica
+        titulo: A entrevista clínica
+        ordem: 1
   - id: exame-fisico-geral
     titulo: Exame físico geral
     cor: "#4A90D9"
     icone: stethoscope
-    ordem: 1
+    ordem: 2
     capitulos:
       - id: sinais-vitais
         titulo: Sinais vitais
         ordem: 1
+      - id: avaliacao-geral
+        titulo: Avaliação geral
+        ordem: 2
   - id: aparelho-cardiovascular
     titulo: Aparelho cardiovascular
     cor: "#D95757"
     icone: heart-pulse
-    ordem: 2
+    ordem: 3
     capitulos:
       - id: exame-cardiaco
         titulo: Exame do coração
@@ -22,7 +34,7 @@ sistemas:
     titulo: Aparelho respiratório
     cor: "#3BA48D"
     icone: wind
-    ordem: 3
+    ordem: 4
     capitulos:
       - id: exame-do-torax
         titulo: Exame do tórax

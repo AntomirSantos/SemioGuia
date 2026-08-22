@@ -10,7 +10,7 @@ function Sonda() {
 test('provider carrega o conteúdo real do bundle', async () => {
   render(<ContentProvider><Sonda /></ContentProvider>);
   await waitFor(() => {
-    expect(screen.getByText('Exame físico geral')).toBeTruthy();
+    expect(screen.getByText('Anamnese')).toBeTruthy();
   });
 });
 
