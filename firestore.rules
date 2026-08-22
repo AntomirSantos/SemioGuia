@@ -84,16 +84,18 @@ service cloud.firestore {
     }
 
     // ----------------------------------------------------------------
-    // users/{uid}/perfil/{doc} — { email: string, criadoEm: int }
+    // users/{uid}/perfil/dados — { email: string, criadoEm: int }
+    // Documento ÚNICO e de id fixo (`dados`): o perfil não é uma lista.
     // ----------------------------------------------------------------
-    match /users/{uid}/perfil/{doc} {
+    match /users/{uid}/perfil/dados {
 
-      // O e-mail é o único dado pessoal guardado: quando o token traz a
-      // claim, ele manda (autoridade = Auth, não o cliente).
+      // O e-mail é o único dado pessoal guardado: a autoridade é o token do
+      // Auth, nunca o cliente. Exige a claim `email` — o app só habilita
+      // e-mail/senha e Google, ambos com e-mail. NÃO ative "Login anônimo"
+      // no console: tokens sem a claim não gravam perfil (por desenho).
       function emailDaConta() {
-        return !('email' in request.auth.token)
-            || request.auth.token.email == null
-            || request.resource.data.email == request.auth.token.email;
+        return request.auth.token.email is string
+            && request.resource.data.email == request.auth.token.email;
       }
 
       function perfilValido() {
@@ -104,7 +106,7 @@ service cloud.firestore {
       }
 
       allow read: if dono(uid);
-      allow create: if dono(uid) && idDeDoc(doc, 300) && perfilValido();
+      allow create: if dono(uid) && perfilValido();
       // Mesma validação do create + `criadoEm` imutável.
       allow update: if dono(uid) && perfilValido()
                     && request.resource.data.criadoEm == resource.data.criadoEm;
@@ -150,12 +152,20 @@ service cloud.firestore {
             // é falsa).
             && request.resource.data.facilidade is number
             && request.resource.data.facilidade >= 1.3
-            && request.resource.data.facilidade <= 5.0
-            // Faixas plausíveis: o SM-2 exige espera real entre repetições,
-            // então nem 10000 repetições nem 100 anos de intervalo são
-            // alcançáveis por uso legítimo.
-            && inteiroEntre(request.resource.data.repeticoes, 0, 10000)
-            && inteiroEntre(request.resource.data.intervaloDias, 0, 36500)
+            && request.resource.data.facilidade <= 1000
+            // Tetos de SANIDADE, não de plausibilidade. `avaliar()` em
+            // src/revisao/sm2.ts não tem teto de facilidade nem clamp de
+            // intervalo, e quiz/estação reavaliam sem esperar o vencimento:
+            // acertando a mesma pergunta em sequência, o intervalo estoura
+            // 36500 já na 10ª (57.299 dias, medido) e chega a 2.900.240 na
+            // 13ª. Teto apertado aqui negaria escrita legítima, derrubaria o
+            // writeBatch inteiro e mataria a sincronização em silêncio.
+            // Estes tetos ficam no horizonte de boa-formação do próprio app:
+            // da 14ª em diante o `proximaRevisao` que o app gera já sai
+            // corrompido ('+032994-12'), então a negação passa a ser da data
+            // malformada, não destes limites. Ver auditoria (rodada 2, F1).
+            && inteiroEntre(request.resource.data.repeticoes, 0, 100000)
+            && inteiroEntre(request.resource.data.intervaloDias, 0, 3650000)
             && dataIso(request.resource.data.proximaRevisao)
             && carimboIso(request.resource.data.atualizadoEm);
       }

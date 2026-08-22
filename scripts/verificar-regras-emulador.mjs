@@ -5,10 +5,13 @@
 //
 //   npm install --no-save --no-package-lock firebase @firebase/rules-unit-testing firebase-tools
 //   npx firebase-tools emulators:exec --only firestore --project demo-semioguia \
-//     "node scripts/verificar-regras-emulador.mjs"
+//     "node --experimental-strip-types scripts/verificar-regras-emulador.mjs"
 //
-// (o emulador precisa estar na porta 8087 — ver `firebase.json` do guia, ou
-// exporte FIRESTORE_EMULATOR_PORT.)
+// (o `emulators:exec` já exporta FIRESTORE_EMULATOR_HOST; sem ele, cai na
+// porta 8087 do `firebase.json` do guia ou em FIRESTORE_EMULATOR_PORT.)
+//
+// O passo do SM-2 importa `src/revisao/sm2.ts` direto — daí o
+// `--experimental-strip-types` (Node 22.18+ faz type stripping).
 //
 // Guia e registro da auditoria: docs/firebase-setup.md
 import fs from 'node:fs';
@@ -19,9 +22,13 @@ import {
   assertFails,
   assertSucceeds,
 } from '@firebase/rules-unit-testing';
+// Importado direto do app: o fixture do SM-2 tem de exercitar o algoritmo
+// REAL, não uma cópia (foi a cópia mental que deixou passar o F1).
+import { criarItem, avaliar } from '../src/revisao/sm2.ts';
 import {
   doc,
   collection,
+  collectionGroup,
   setDoc,
   getDoc,
   getDocs,
@@ -32,11 +39,14 @@ import {
 
 const raiz = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const regras = fs.readFileSync(path.join(raiz, 'firestore.rules'), 'utf8');
-const porta = Number(process.env.FIRESTORE_EMULATOR_PORT ?? 8087);
+// `emulators:exec` exporta FIRESTORE_EMULATOR_HOST ("host:porta").
+const [hostEnv, portaEnv] = (process.env.FIRESTORE_EMULATOR_HOST ?? '').split(':');
+const host = hostEnv || '127.0.0.1';
+const porta = Number(portaEnv || process.env.FIRESTORE_EMULATOR_PORT || 8087);
 
 const env = await initializeTestEnvironment({
   projectId: 'demo-semioguia',
-  firestore: { host: '127.0.0.1', port: porta, rules: regras },
+  firestore: { host, port: porta, rules: regras },
 });
 
 const UID = 'user-a';
@@ -79,8 +89,10 @@ const CHAVE_TOPICO = encodeURIComponent('exame/sinais/pa');
 await t('perfil create', () => assertSucceeds(setDoc(p(dono, 'perfil', 'dados'), PERFIL)));
 await t('perfil read', () => assertSucceeds(getDoc(p(dono, 'perfil', 'dados'))));
 await t('perfil update com mesmo criadoEm', () => assertSucceeds(setDoc(p(dono, 'perfil', 'dados'), { ...PERFIL })));
-await t('perfil create com token sem claim email (fallback)', () =>
-  assertSucceeds(setDoc(p(semClaimEmail, 'perfil', 'sem-claim'), { email: 'x@y.com', criadoEm: 1 })));
+await t('perfil com token SEM claim email negado (não ative login anônimo)', () =>
+  assertFails(setDoc(p(semClaimEmail, 'perfil', 'dados'), { email: 'x@y.com', criadoEm: 1 })));
+await t('perfil com id diferente de "dados" negado', () =>
+  assertFails(setDoc(p(dono, 'perfil', 'outro'), PERFIL)));
 await t('estudados create (id codificado)', () => assertSucceeds(setDoc(p(dono, 'estudados', CHAVE_TOPICO), EST)));
 await t('estudados update', () =>
   assertSucceeds(setDoc(p(dono, 'estudados', CHAVE_TOPICO), { valor: false, atualizadoEm: 1755859300000 })));
@@ -98,13 +110,42 @@ await t('item de checklist com id codificado', () =>
       tipo: 'checklist',
     }),
   ));
-await t('limites do SM-2 aceitos', () =>
-  assertSucceeds(
-    setDoc(p(dono, 'itensRevisao', 'limite'), {
-      ...ITEM, id: 'limite', facilidade: 1.3, repeticoes: 10000,
-      intervaloDias: 36500, proximaRevisao: '2126-01-01',
-    }),
-  ));
+// REDE DE PROTEÇÃO DO F1: a saída REAL de avaliar() tem de passar pelas
+// regras a cada repetição. Foi um teto apertado (intervaloDias <= 36500) que
+// negaria a 10ª repetição e mataria a sincronização em silêncio.
+// `avaliar()` não tem teto de facilidade nem clamp de intervalo e quiz/estação
+// reavaliam sem esperar o vencimento, então a sequência abaixo é alcançável
+// por um usuário acertando a mesma pergunta várias vezes seguidas.
+{
+  let atual = criarItem('sm2-progressao', 'pergunta', 'exame/sinais/pa', '2026-08-22', '2026-08-22T00:00:00.000Z');
+  await t('SM-2 passo 0 (item recém-criado) grava', () =>
+    assertSucceeds(setDoc(p(dono, 'itensRevisao', 'sm2-progressao'), atual)));
+  // Até o passo 13 o app ainda gera `proximaRevisao` bem-formado
+  // (ano de 4 dígitos); daí em diante o próprio app corrompe a data.
+  for (let passo = 1; passo <= 13; passo++) {
+    atual = avaliar(atual, 5, '2026-08-22', '2026-08-22T00:00:00.000Z');
+    const estado = { ...atual };
+    await t(
+      `SM-2 passo ${passo} grava (ef=${estado.facilidade.toFixed(1)}, ` +
+        `rep=${estado.repeticoes}, dias=${estado.intervaloDias}, ${estado.proximaRevisao})`,
+      () => assertSucceeds(setDoc(p(dono, 'itensRevisao', 'sm2-progressao'), estado)),
+    );
+  }
+  // LIMITE CONHECIDO (bug de app, não das regras): no passo 14 `somarDias()`
+  // estoura o ano de 4 dígitos e `proximaRevisao` sai como '+032994-12' —
+  // dado corrompido, negado pela validação de data. O conserto é em
+  // src/revisao/sm2.ts (teto de facilidade / clamp de intervalo), não aqui.
+  const passo14 = avaliar(atual, 5, '2026-08-22', '2026-08-22T00:00:00.000Z');
+  await t('SM-2 passo 14: app gera data corrompida e a regra nega (limite conhecido)', () => {
+    if (/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/.test(passo14.proximaRevisao)) {
+      throw new Error(
+        `sm2.ts passou a gerar data bem-formada no passo 14 (${passo14.proximaRevisao}); ` +
+          'reveja os tetos das regras',
+      );
+    }
+    return assertFails(setDoc(p(dono, 'itensRevisao', 'sm2-p14'), { ...passo14, id: 'sm2-p14' }));
+  });
+}
 await t('respostas create', () => assertSucceeds(setDoc(p(dono, 'respostas', 'pa-1_1755859200000'), RESP)));
 await t('conclusoesCasos create', () =>
   assertSucceeds(setDoc(p(dono, 'conclusoesCasos', 'crise-hipertensiva_1755859200000'), CONC)));
@@ -127,6 +168,19 @@ await t('outro usuário não apaga', () => assertFails(deleteDoc(doc(outro, 'use
 await t('anônimo não lê', () => assertFails(getDoc(doc(anon, 'users', UID, 'perfil', 'dados'))));
 await t('anônimo não escreve', () => assertFails(setDoc(doc(anon, 'users', UID, 'prefs', 'tema'), PREF)));
 await t('documento pai users/{uid} negado', () => assertFails(setDoc(doc(dono, 'users', UID), { x: 1 })));
+// collectionGroup varre TODAS as contas: como não há `match` que case com um
+// grupo de coleção (só caminhos completos sob users/{uid}), é negado por
+// construção — para o atacante E para o próprio dono.
+await t('collectionGroup(respostas) negado ao atacante', () =>
+  assertFails(getDocs(collectionGroup(outro, 'respostas'))));
+await t('collectionGroup(estudados) negado ao atacante', () =>
+  assertFails(getDocs(collectionGroup(outro, 'estudados'))));
+await t('collectionGroup(respostas) negado ao dono', () =>
+  assertFails(getDocs(collectionGroup(dono, 'respostas'))));
+await t('collectionGroup(estudados) negado ao dono', () =>
+  assertFails(getDocs(collectionGroup(dono, 'estudados'))));
+await t('collectionGroup(perfil) negado ao anônimo', () =>
+  assertFails(getDocs(collectionGroup(anon, 'perfil'))));
 await t('coleção fora de users negada', () => assertFails(setDoc(doc(dono, 'publico', 'x'), { x: 1 })));
 await t('subcoleção desconhecida negada', () => assertFails(setDoc(doc(dono, 'users', UID, 'buscas', 'x'), EST)));
 
@@ -143,23 +197,29 @@ await t('prefs.valor > 100 negado', () =>
   assertFails(setDoc(p(dono, 'prefs', 'grande'), { valor: 'x'.repeat(101), atualizadoEm: 1 })));
 await t('id de documento gigante negado', () => assertFails(setDoc(p(dono, 'prefs', 'k'.repeat(301)), PREF)));
 await t('perfil com e-mail de outra pessoa negado', () =>
-  assertFails(setDoc(p(dono, 'perfil', 'outro'), { email: 'vitima@exemplo.com', criadoEm: 1 })));
+  assertFails(setDoc(p(dono, 'perfil', 'dados'), { email: 'vitima@exemplo.com', criadoEm: 1 })));
 await t('perfil e-mail > 320 negado', () =>
-  assertFails(setDoc(p(dono, 'perfil', 'grande'), { email: 'a'.repeat(321), criadoEm: 1 })));
+  assertFails(setDoc(p(dono, 'perfil', 'dados'), { email: 'a'.repeat(321), criadoEm: 1 })));
 await t('perfil criadoEm imutável', () => assertFails(updateDoc(p(dono, 'perfil', 'dados'), { criadoEm: 2 })));
 await t('campo role negado no perfil', () => assertFails(setDoc(p(dono, 'perfil', 'dados'), { ...PERFIL, role: 'admin' })));
 await t('facilidade abaixo do piso negada', () =>
   assertFails(setDoc(p(dono, 'itensRevisao', 'i1'), { ...ITEM, id: 'i1', facilidade: 1.2 })));
-await t('facilidade acima do teto negada', () =>
-  assertFails(setDoc(p(dono, 'itensRevisao', 'i2'), { ...ITEM, id: 'i2', facilidade: 5.1 })));
+await t('facilidade acima do teto de sanidade (1000) negada', () =>
+  assertFails(setDoc(p(dono, 'itensRevisao', 'i2'), { ...ITEM, id: 'i2', facilidade: 1000.5 })));
+await t('facilidade no teto (1000) aceita', () =>
+  assertSucceeds(setDoc(p(dono, 'itensRevisao', 'i2b'), { ...ITEM, id: 'i2b', facilidade: 1000 })));
 await t('facilidade NaN negada', () =>
   assertFails(setDoc(p(dono, 'itensRevisao', 'i3'), { ...ITEM, id: 'i3', facilidade: NaN })));
 await t('tipo fora do enum negado', () =>
   assertFails(setDoc(p(dono, 'itensRevisao', 'i4'), { ...ITEM, id: 'i4', tipo: 'outro' })));
 await t('repetições negativas negadas', () =>
   assertFails(setDoc(p(dono, 'itensRevisao', 'i5'), { ...ITEM, id: 'i5', repeticoes: -1 })));
-await t('intervaloDias absurdo negado', () =>
-  assertFails(setDoc(p(dono, 'itensRevisao', 'i6'), { ...ITEM, id: 'i6', intervaloDias: 40000 })));
+await t('repetições acima do teto de sanidade negadas', () =>
+  assertFails(setDoc(p(dono, 'itensRevisao', 'i5b'), { ...ITEM, id: 'i5b', repeticoes: 100001 })));
+await t('intervaloDias acima do teto de sanidade negado', () =>
+  assertFails(setDoc(p(dono, 'itensRevisao', 'i6'), { ...ITEM, id: 'i6', intervaloDias: 3650001 })));
+await t('intervaloDias no teto (3650000) aceito', () =>
+  assertSucceeds(setDoc(p(dono, 'itensRevisao', 'i6b'), { ...ITEM, id: 'i6b', intervaloDias: 3650000 })));
 await t('proximaRevisao fora do formato negada', () =>
   assertFails(setDoc(p(dono, 'itensRevisao', 'i7'), { ...ITEM, id: 'i7', proximaRevisao: '23/08/2026' })));
 await t('atualizadoEm ISO inválido negado', () =>
