@@ -7351,6 +7351,21 @@
      ]
     }
    ]
+  },
+  {
+   "id": "abdome",
+   "titulo": "Abdome",
+   "cor": "#D99A3B",
+   "icone": "grid-3x3",
+   "ordem": 5,
+   "capitulos": [
+    {
+     "id": "exame-do-abdome",
+     "titulo": "Exame do abdome",
+     "ordem": 1,
+     "topicos": []
+    }
+   ]
   }
  ],
  "casos": [
