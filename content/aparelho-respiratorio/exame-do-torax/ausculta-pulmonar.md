@@ -485,7 +485,7 @@ perguntas:
       - "Pneumotórax"
       - "Atelectasia obstrutiva"
     corretaIndex: 1
-    explicacao: "A percussão maciça indica menos ar naquele território; o frêmito aumentado indica que o parênquima denso está sendo alcançado por um brônquio pérvio — a definição da consolidação. Derrame pleural e atelectasia obstrutiva também dão macicez, mas com frêmito reduzido ou abolido; o pneumotórax dá hipersonoridade."
+    explicacao: "A percussão maciça indica menos ar naquele território; o frêmito aumentado indica que o parênquima denso está sendo alcançado por um brônquio pérvio — a definição da consolidação. Derrame pleural e atelectasia obstrutiva também dão macicez, mas com frêmito reduzido ou abolido; o pneumotórax dá som timpânico."
   - id: ausc-pulm-2
     enunciado: Dois pacientes têm macicez e frêmito abolido em um hemitórax. No primeiro, o hemitórax está retraído, com tiragem e traqueia desviada para o mesmo lado; no segundo, o hemitórax está abaulado. Qual é a interpretação?
     alternativas:

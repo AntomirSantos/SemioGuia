@@ -370,7 +370,7 @@ perguntas:
     corretaIndex: 0
     explicacao: "O frêmito é normalmente mais nítido à direita, sobretudo no ápice e na região interescapulovertebral direita, porque o brônquio principal direito é mais curto e as vibrações chegam mais facilmente à superfície. Também é normalmente mais forte nas bases. Só a assimetria fora desse padrão esperado é anormal."
   - id: palp-torax-2
-    enunciado: Em um paciente com atelectasia por oclusão de brônquio lobar, o frêmito toracovocal está diminuído sobre a área comprometida. Por quê?
+    enunciado: Em um paciente com atelectasia por oclusão de brônquio lobar, o frêmito toracovocal está diminuído sobre a área comprometida. Como interpretar esse achado?
     alternativas:
       - "Porque o parênquima atelectasiado contém mais ar do que o normal e o ar conduz mal o som"
       - "Porque, na prática, a oclusão do brônquio que serve aquele território se associa a frêmito reduzido, apesar de o parênquima estar denso"

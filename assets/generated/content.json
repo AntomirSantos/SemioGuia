@@ -3135,7 +3135,7 @@
           },
           {
            "id": "palp-torax-2",
-           "enunciado": "Em um paciente com atelectasia por oclusão de brônquio lobar, o frêmito toracovocal está diminuído sobre a área comprometida. Por quê?",
+           "enunciado": "Em um paciente com atelectasia por oclusão de brônquio lobar, o frêmito toracovocal está diminuído sobre a área comprometida. Como interpretar esse achado?",
            "alternativas": [
             "Porque o parênquima atelectasiado contém mais ar do que o normal e o ar conduz mal o som",
             "Porque, na prática, a oclusão do brônquio que serve aquele território se associa a frêmito reduzido, apesar de o parênquima estar denso",
@@ -3863,7 +3863,7 @@
             "Atelectasia obstrutiva"
            ],
            "corretaIndex": 1,
-           "explicacao": "A percussão maciça indica menos ar naquele território; o frêmito aumentado indica que o parênquima denso está sendo alcançado por um brônquio pérvio — a definição da consolidação. Derrame pleural e atelectasia obstrutiva também dão macicez, mas com frêmito reduzido ou abolido; o pneumotórax dá hipersonoridade."
+           "explicacao": "A percussão maciça indica menos ar naquele território; o frêmito aumentado indica que o parênquima denso está sendo alcançado por um brônquio pérvio — a definição da consolidação. Derrame pleural e atelectasia obstrutiva também dão macicez, mas com frêmito reduzido ou abolido; o pneumotórax dá som timpânico."
           },
           {
            "id": "ausc-pulm-2",
