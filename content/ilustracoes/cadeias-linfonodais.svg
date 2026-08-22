@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="86" y="14">cadeias acessíveis à palpação</text>
+  </g>
+  <!-- silhueta -->
+  <circle cx="86" cy="38" r="16" stroke-width="1.8" />
+  <path d="M 78 53 L 78 60" stroke-width="1.6" />
+  <path d="M 94 53 L 94 60" stroke-width="1.6" />
+  <path d="M 58 66 C 68 60, 104 60, 114 66" stroke-width="1.8" />
+  <path d="M 58 66 L 54 112" stroke-width="1.8" />
+  <path d="M 114 66 L 118 112" stroke-width="1.8" />
+  <path d="M 54 112 L 60 118 L 112 118 L 118 112" stroke-width="1.8" />
+  <!-- braços -->
+  <path d="M 58 68 C 46 78, 40 96, 38 116 C 37 128, 36 138, 36 146" stroke-width="1.6" />
+  <path d="M 114 68 C 126 78, 132 96, 134 116 C 135 128, 136 138, 136 146" stroke-width="1.6" />
+  <!-- pernas -->
+  <path d="M 72 118 L 70 152 L 68 186" stroke-width="1.6" />
+  <path d="M 100 118 L 102 152 L 104 186" stroke-width="1.6" />
+  <!-- marcadores -->
+  <g stroke-width="1.4">
+    <circle cx="86" cy="26" r="3.4" />
+    <circle cx="70" cy="34" r="3.4" />
+    <circle cx="86" cy="50" r="3.4" />
+    <circle cx="76" cy="58" r="3.4" />
+    <circle cx="66" cy="64" r="3.4" />
+    <circle cx="52" cy="76" r="3.4" />
+    <circle cx="39" cy="112" r="3.4" />
+    <circle cx="76" cy="124" r="3.4" />
+    <circle cx="70" cy="152" r="3.4" />
+  </g>
+  <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
+    <text x="94" y="24">1</text>
+    <text x="58" y="32">2</text>
+    <text x="94" y="49">3</text>
+    <text x="64" y="56">4</text>
+    <text x="52" y="62">5</text>
+    <text x="40" y="74">6</text>
+    <text x="26" y="112">7</text>
+    <text x="86" y="128">8</text>
+    <text x="58" y="152">9</text>
+  </g>
+  <!-- legenda -->
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="160" y="34">1 occipitais</text>
+    <text x="160" y="50">2 pré e retroauriculares</text>
+    <text x="160" y="66">3 submentonianos e submandibulares</text>
+    <text x="160" y="82">4 cervicais (profundos e posteriores)</text>
+    <text x="160" y="98">5 supraclaviculares</text>
+    <text x="160" y="114">6 axilares</text>
+    <text x="160" y="130">7 epitrocleanos</text>
+    <text x="160" y="146">8 inguinais</text>
+    <text x="160" y="162">9 poplíteos</text>
+    <text x="160" y="184">Compare sempre os dois lados.</text>
+  </g>
+</svg>

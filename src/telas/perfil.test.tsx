@@ -70,14 +70,14 @@ function renderPerfil(store: MemoryProgressStore) {
   );
 }
 
-test('mostra progresso "1 de 3 tópicos" para sistema com 1 tópico estudado', async () => {
+test('mostra progresso "1 de 7 tópicos" para sistema com 1 tópico estudado', async () => {
   const store = new MemoryProgressStore();
   await store.marcarEstudado(PA_ID, true);
 
   const { getByText } = await renderPerfil(store);
 
   await waitFor(() => {
-    expect(getByText('1 de 3 tópicos')).toBeTruthy();
+    expect(getByText('1 de 7 tópicos')).toBeTruthy();
   });
 });
 

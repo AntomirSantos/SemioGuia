@@ -2332,7 +2332,2030 @@
      "id": "avaliacao-geral",
      "titulo": "Avaliação geral",
      "ordem": 2,
-     "topicos": []
+     "topicos": [
+      {
+       "id": "exame-fisico-geral/avaliacao-geral/ectoscopia",
+       "titulo": "Ectoscopia",
+       "sistemaId": "exame-fisico-geral",
+       "capituloId": "avaliacao-geral",
+       "ordem": 1,
+       "tags": [
+        "ectoscopia",
+        "somatoscopia",
+        "exame físico geral",
+        "avaliação geral",
+        "inspeção geral",
+        "estado geral",
+        "bom estado geral",
+        "regular estado geral",
+        "mau estado geral",
+        "BEG",
+        "REG",
+        "MEG",
+        "nível de consciência",
+        "vigília",
+        "obnubilação",
+        "sonolência",
+        "confusão mental",
+        "torpor",
+        "estupor",
+        "coma",
+        "perceptividade",
+        "reatividade",
+        "escala de coma de Glasgow",
+        "fala e linguagem",
+        "disfonia",
+        "disartria",
+        "disfasia",
+        "dislalia",
+        "fácies",
+        "fácies atípica",
+        "fácies hipocrática",
+        "fácies renal",
+        "fácies nefrótica",
+        "fácies leonina",
+        "fácies adenoidiana",
+        "fácies parkinsoniana",
+        "fácies basedowiana",
+        "fácies mixedematosa",
+        "fácies acromegálica",
+        "fácies cushingoide",
+        "fácies de lua cheia",
+        "fácies de depressão",
+        "fácies esclerodérmica",
+        "fácies pseudobulbar",
+        "fácies miastênica",
+        "fácies de Hutchinson",
+        "paralisia facial periférica",
+        "atitude",
+        "decúbito preferido",
+        "atitude ortopneica",
+        "atitude genupeitoral",
+        "posição de cócoras",
+        "squatting",
+        "postura parkinsoniana",
+        "atitude passiva",
+        "ortótono",
+        "opistótono",
+        "emprostótono",
+        "pleurostótono",
+        "posição em gatilho",
+        "mão pêndula",
+        "postura",
+        "cifose",
+        "lordose",
+        "escoliose",
+        "cifoescoliose",
+        "biotipo",
+        "tipo morfológico",
+        "brevilíneo",
+        "mediolíneo",
+        "normolíneo",
+        "longilíneo",
+        "ângulo de Charpy",
+        "marcha",
+        "marcha de pequenos passos",
+        "marcha ceifante",
+        "marcha hemiplégica",
+        "marcha atáxica",
+        "marcha propulsiva",
+        "marcha tabética",
+        "marcha talonante",
+        "marcha espástica",
+        "marcha em tesoura",
+        "marcha anserina",
+        "marcha claudicante",
+        "marcha senil",
+        "movimentos involuntários",
+        "distúrbios do movimento",
+        "hipocinético",
+        "hipercinético",
+        "tiques",
+        "estação OSCE"
+       ],
+       "referencias": [
+        "Porto — Semiologia Médica, 8ª ed., Parte 3 (Método Clínico), cap. 8 (Exame Físico Geral) — Semiotécnica e sequência do exame físico geral; Estado geral; Nível de consciência (incluindo perceptividade e reatividade e o Quadro 8.1); Fala e linguagem; Fácies; Biotipo ou tipo morfológico (Figura 8.7); Postura ou atitude na posição de pé (Figura 8.9); Atitude e decúbito preferido no leito; Movimentos involuntários (Quadros 8.16 a 8.20); Marcha e boxe Marcha e envelhecimento",
+        "Porto — Semiologia Médica, 8ª ed., Parte 3 (Método Clínico), cap. 7 (Técnicas Básicas do Exame Físico) — inspeção como primeiro método do exame físico",
+        "Porto — Exame Clínico, 8ª ed., cap. 11 (Exame Físico Geral) — roteiro do exame físico geral",
+        "Semiologia Clínica, 1ª ed., cap. 21 (Padronização do exame clínico) — preparo do ambiente, iluminação tangencial, privacidade e sequência do exame no sentido craniocaudal (Tabela 1); exame clínico abrangente × focalizado (Tabela 2)",
+        "Semiologia Clínica, 1ª ed., cap. 8 (Semiologia de cabeça e pescoço) — Face: fácies sindrômicas, mímica, assimetrias; comparação com fotografia antiga e com familiares; descrição como fácies atípica",
+        "Semiologia Clínica, 1ª ed., cap. 23 (Alterações da consciência) — avaliação inicial do paciente com alteração da consciência e o que o exame clínico geral acrescenta",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 29-30, Tabela 5.1 — concordância entre observadores para achados de aparência geral, marcha e nível de consciência"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O exame que começa antes da primeira manobra",
+         "texto": "Terminada a anamnese, o exame físico se abre por uma etapa que não pertence a nenhum aparelho: o **exame físico geral**, também chamado somatoscopia ou **ectoscopia**. Ela responde a uma pergunta que nenhum estetoscópio responde — *como está esta pessoa, vista inteira?*\n\nA separação entre anamnese e ectoscopia é didática, não cronológica. O olhar começa a trabalhar no instante em que o paciente entra: como caminha, como se senta, que expressão traz, se termina as frases sem parar para respirar. Nada disso precisa esperar a hora do exame.\n\nA ectoscopia se faz com o paciente em várias posições — deitado, sentado, de pé e caminhando —, e a regra prática é começar sentado, com o examinador de pé à sua frente, deslocando-se para os dois lados. Se a condição clínica não permitir, a posição se adapta; o que não se adapta é a necessidade de olhar o corpo todo.\n\nNão existe sequência obrigatória, e em muitos pacientes é o próprio estado clínico que decide a ordem. Ter uma sequência, ainda assim, compensa: ela é o que impede que um item se perca.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Os blocos da ectoscopia",
+         "colunas": [
+          "Bloco",
+          "Itens"
+         ],
+         "linhas": [
+          [
+           "Impressão global",
+           "Estado geral; nível de consciência; fala e linguagem"
+          ],
+          [
+           "Forma e postura",
+           "Fácies; biotipo; postura de pé; atitude e decúbito preferido no leito"
+          ],
+          [
+           "Medidas",
+           "Peso, altura, índice de massa corporal, circunferências da cintura e da panturrilha; desenvolvimento físico"
+          ],
+          [
+           "Estados",
+           "Estado de nutrição; estado de hidratação; temperatura corporal"
+          ],
+          [
+           "Tegumento e estruturas superficiais",
+           "Pele, mucosas e fâneros; veias superficiais; enfisema subcutâneo; musculatura; linfonodos"
+          ],
+          [
+           "Movimento",
+           "Movimentos involuntários; marcha"
+          ]
+         ]
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Bom, regular ou mau estado geral",
+         "texto": "O **estado geral** é a síntese de tudo o que o examinador percebeu antes de decompor o paciente em partes. Registra-se com três adjetivos consagrados — bom, regular ou mau estado geral (BEG, REG, MEG).\n\nÉ um julgamento global e, por isso mesmo, o mais dependente de experiência de todo o exame. Ainda assim tem três usos práticos.\n\n1. **Dimensiona o quanto a doença atingiu o organismo como um todo**, e não apenas o órgão doente.\n2. **Serve de alerta** quando os sinais e sintomas são escassos: um estado geral deteriorado sem explicação obriga a aprofundar a investigação.\n3. **Tem valor prognóstico nos dois sentidos.** Manter bom estado geral diante de uma doença reconhecidamente grave indica boa capacidade de reação do organismo.\n\nA contrapartida honesta é a reprodutibilidade. Na tabulação de concordância entre observadores de McGee (cap. 5, Tabela 5.1), a impressão de \"paciente com aparência de doente\" alcança um coeficiente kappa de 0,52 a 0,64 — concordância moderada, não excelente. A conclusão não é abandonar o item: é **nunca deixá-lo sozinho**. Escreva \"mau estado geral\" e, ao lado, os achados que sustentam essa impressão — emagrecido, prostrado, sudoreico, não consegue sentar sem ajuda. O adjetivo comunica; a descrição é que se sustenta.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como examinar"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Ectoscopia sistematizada",
+         "passos": [
+          "Prepare o ambiente antes: boa iluminação, porta fechada, temperatura confortável, e lave as mãos à vista do paciente.",
+          "Observe o paciente desde a entrada — como caminha, senta, cumprimenta e fala — antes de começar o exame formal.",
+          "Com o paciente sentado e você de pé à sua frente, forme a impressão de estado geral e registre-a junto dos achados que a sustentam.",
+          "Estabeleça o nível de consciência: fale com o paciente e, se não houver resposta, aumente o estímulo progressivamente — voz alta, chamado pelo nome, toque e, por último, estímulo doloroso leve.",
+          "Ouça a fala enquanto conversa: timbre, articulação, ritmo e conteúdo — o exame da linguagem não exige manobra própria.",
+          "Examine a face de frente e de perfil: mímica, simetria, olhos e pálpebras, coloração, edema periorbitário, movimentos anormais.",
+          "Defina o biotipo pela relação entre tronco e membros, largura do tórax e comprimento do pescoço.",
+          "Observe a atitude: a posição que o paciente adota espontaneamente no leito ou na cadeira, e se ela alivia algum sintoma.",
+          "Peça que fique de pé e avalie a postura: alinhamento da cabeça, relevo do peito, saliência do abdome e curvaturas da coluna.",
+          "Peça que caminhe pelo menos 5 metros, indo e voltando, de preferência descalço, e observe base, comprimento do passo, oscilação dos braços e simetria.",
+          "Registre movimentos involuntários que tenham aparecido em qualquer momento, com o contexto em que surgiram."
+         ],
+         "observar": "A ectoscopia é a parte do exame em que o paciente mais se sente observado — e observar não é encarar. Narre o que está fazendo, exponha apenas a região que está examinando de cada vez e devolva a cabeceira e a roupa à posição original ao terminar. Em quem tem restrição de mobilidade, adapte a sequência sem abrir mão dos itens: vire o paciente de lado para ver o dorso em vez de deixar de vê-lo.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Ectoscopia em 10 passos",
+         "itens": [
+          "Ambiente preparado: iluminação adequada, privacidade e higienização das mãos.",
+          "Observação do paciente desde a chegada, antes do exame formal.",
+          "Estado geral declarado (bom, regular ou mau) e justificado pelos achados observados.",
+          "Nível de consciência estabelecido com estímulos de intensidade crescente.",
+          "Fala e linguagem avaliadas durante a conversa: timbre, articulação e compreensão.",
+          "Face examinada de frente e de perfil: mímica, simetria, olhos, pálpebras e coloração.",
+          "Biotipo definido pela relação entre tronco, membros, tórax e pescoço.",
+          "Atitude e decúbito preferido registrados, distinguindo o voluntário do involuntário.",
+          "Postura observada com o paciente de pé, incluindo as curvaturas da coluna.",
+          "Marcha observada em percurso de ida e volta de pelo menos 5 metros."
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Nível de consciência"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Uma escada entre a vigília e o coma",
+         "texto": "Estar consciente é perceber o mundo externo e a si mesmo — o estado de vigília, sustentado pelo sistema reticular ativador ascendente. Entre a vigília plena e o coma existe uma escada de degraus intermediários, e nomear o degrau certo vale mais do que dizer \"sonolento\" para tudo.\n\nA avaliação à beira do leito segue um princípio simples: **aumente o estímulo até obter resposta e descreva o menor estímulo que ainda funciona**. Comece falando normalmente; passe à voz alta e ao chamado pelo nome; depois ao toque e ao sacudir suave, como quem desperta alguém; só então recorra a estímulo doloroso leve.\n\nDuas vias complementares organizam o achado. A **perceptividade** se explora com tarefas: obedecer a uma ordem simples, dizer onde está e que dia é, fazer uma conta elementar, nomear objetos de uma categoria. A **reatividade** se explora com estímulos: reação de orientação a um ruído, piscamento à ameaça, resposta à dor.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Graus de comprometimento do nível de consciência",
+         "colunas": [
+          "Grau",
+          "Como se reconhece"
+         ],
+         "linhas": [
+          [
+           "Obnubilação",
+           "Comprometimento discreto: o paciente permanece alerta, porém com o alerta algo reduzido"
+          ],
+          [
+           "Sonolência",
+           "Desperta com facilidade, responde mais ou menos apropriadamente, mas volta a dormir logo em seguida"
+          ],
+          [
+           "Confusão mental",
+           "Perda de atenção, pensamento pouco claro, respostas lentas e percepção do tempo e do espaço alterada"
+          ],
+          [
+           "Torpor ou estupor",
+           "Só desperta com estímulos fortes, mas ainda apresenta movimentos espontâneos"
+          ],
+          [
+           "Coma",
+           "Não desperta nem com estímulos fortes e não apresenta movimentos espontâneos"
+          ]
+         ]
+        },
+        {
+         "tipo": "perola",
+         "texto": "A escala de coma de Glasgow — abertura ocular, resposta verbal e resposta motora — é o instrumento mais usado para graduar alterações do nível de consciência, e este guia a detalha no capítulo do sistema nervoso, ao lado do exame de pupilas, do padrão respiratório e dos sinais localizatórios. Na ectoscopia, o objetivo é outro e menor: chegar a uma conclusão sobre em que degrau da escada o paciente está, e registrar como se chegou a ela."
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A fala entra no exame sem manobra",
+         "texto": "A linguagem falada se examina durante a própria conversa, e as alterações se separam pelo lugar onde o mecanismo falhou.\n\n- **Disfonia ou afonia** — o problema está no órgão fonador, e o que muda é o timbre: voz rouca, fanhosa ou bitonal.\n- **Dislalia** — trocas e distorções de sons, comuns na criança; a disritmolalia, sua forma especial, abrange a gagueira e a fala acelerada.\n- **Disartria** — o problema está nos músculos da fonação ou no seu controle: voz arrastada e escandida na incoordenação cerebelar, voz baixa, monótona e lenta no parkinsonismo.\n- **Disfasia** — o órgão fonador e os músculos estão normais, e o distúrbio está na elaboração cortical. Pode ser de recepção (o paciente não entende), de expressão (entende e não consegue se expressar) ou mista, que é a mais frequente. Traduz lesão do hemisfério dominante, sem valor localizatório absoluto.\n\nQuando o paciente é surdo, a comunicação passa pela Língua Brasileira de Sinais, por escrita ou por intérprete — e vale lembrar que o intérprete quase sempre é um familiar, o que muda o que o paciente se sente à vontade para contar.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Fácies"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Quando o rosto adianta o diagnóstico",
+         "texto": "**Fácies** é o conjunto formado pelos traços anatômicos e pela expressão do rosto. Algumas doenças imprimem no rosto combinações tão características que o diagnóstico se levanta à distância, antes da primeira pergunta dirigida.\n\nDuas advertências evitam o uso errado do achado.\n\nA primeira: **o rosto normal tem enorme variação**, e a maioria dos pacientes não tem fácies nenhuma. Quando os traços não lembram nenhum padrão descrito, o registro correto é *fácies atípica* — e não uma fácies inventada para preencher a linha do roteiro.\n\nA segunda: **mudança lenta não é percebida por quem convive**. Diante da suspeita de uma fácies adquirida, pergunte se o paciente ou os acompanhantes notaram alteração no rosto nos últimos meses ou anos, peça para ver uma fotografia antiga de documento e, se possível, olhe pais, irmãos e filhos — um traço familiar não é achado de doença.\n"
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"160\" y=\"14\">quatro fácies em esquema</text>\n  </g>\n  <!-- A: atípica -->\n  <ellipse cx=\"46\" cy=\"72\" rx=\"27\" ry=\"35\" stroke-width=\"2\" />\n  <g stroke-width=\"1.4\">\n    <path d=\"M 30 63 C 34 59, 40 59, 44 63\" />\n    <path d=\"M 48 63 C 52 59, 58 59, 62 63\" />\n    <circle cx=\"37\" cy=\"65\" r=\"2.2\" />\n    <circle cx=\"55\" cy=\"65\" r=\"2.2\" />\n    <path d=\"M 46 70 L 44 84 L 49 84\" />\n    <path d=\"M 36 94 C 42 97, 50 97, 56 94\" />\n  </g>\n  <!-- B: hipocrática -->\n  <path d=\"M 126 38 C 143 38, 152 54, 150 76 C 148 96, 138 108, 126 108 C 114 108, 104 96, 102 76 C 100 54, 109 38, 126 38 Z\" stroke-width=\"2\" />\n  <g stroke-width=\"1.4\">\n    <path d=\"M 110 62 C 114 66, 120 67, 124 64\" />\n    <path d=\"M 128 64 C 132 67, 138 66, 142 62\" />\n    <circle cx=\"117\" cy=\"66\" r=\"1.6\" />\n    <circle cx=\"135\" cy=\"66\" r=\"1.6\" />\n    <path d=\"M 126 70 L 125 85 L 128 85\" />\n    <path d=\"M 117 95 L 135 95\" />\n  </g>\n  <!-- C: cushingoide -->\n  <circle cx=\"206\" cy=\"72\" r=\"35\" stroke-width=\"2\" />\n  <g stroke-width=\"1.4\">\n    <path d=\"M 188 63 C 192 60, 198 60, 202 63\" />\n    <path d=\"M 210 63 C 214 60, 220 60, 224 63\" />\n    <circle cx=\"195\" cy=\"66\" r=\"2.2\" />\n    <circle cx=\"217\" cy=\"66\" r=\"2.2\" />\n    <path d=\"M 206 71 L 204 83 L 209 83\" />\n    <path d=\"M 195 93 C 201 97, 211 97, 217 93\" />\n  </g>\n  <!-- D: basedowiana -->\n  <path d=\"M 286 38 C 302 38, 310 54, 308 76 C 306 96, 297 108, 286 108 C 275 108, 266 96, 264 76 C 262 54, 270 38, 286 38 Z\" stroke-width=\"2\" />\n  <g stroke-width=\"1.4\">\n    <circle cx=\"277\" cy=\"65\" r=\"5\" />\n    <circle cx=\"295\" cy=\"65\" r=\"5\" />\n    <circle cx=\"277\" cy=\"65\" r=\"2\" />\n    <circle cx=\"295\" cy=\"65\" r=\"2\" />\n    <path d=\"M 269 57 C 273 54, 281 54, 285 57\" />\n    <path d=\"M 287 57 C 291 54, 299 54, 303 57\" />\n    <path d=\"M 286 72 L 285 85 L 288 85\" />\n    <path d=\"M 277 95 C 282 98, 290 98, 295 95\" />\n  </g>\n  <!-- rótulos -->\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"46\" y=\"126\">A</text>\n    <text x=\"126\" y=\"126\">B</text>\n    <text x=\"206\" y=\"126\">C</text>\n    <text x=\"286\" y=\"126\">D</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"14\" y=\"146\">A atípica — nenhum padrão reconhecível</text>\n    <text x=\"14\" y=\"160\">B hipocrática — olhos fundos, nariz afilado, lábios finos</text>\n    <text x=\"14\" y=\"174\">C cushingoide — rosto arredondado, traços atenuados</text>\n    <text x=\"14\" y=\"188\">D basedowiana — olhos salientes, fenda palpebral aberta</text>\n  </g>\n</svg>\n",
+         "legenda": "Esquemas propositalmente simplificados: o que identifica cada fácies é a combinação dos traços, não um detalhe isolado. Diante de traços que não formam padrão, registre fácies atípica."
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Fácies típicas",
+         "colunas": [
+          "Fácies",
+          "O que se vê",
+          "Contextos habituais"
+         ],
+         "linhas": [
+          [
+           "Hipocrática",
+           "Olhos fundos, parados e inexpressivos; nariz afilado; lábios adelgaçados; batimento das asas do nariz",
+           "Doenças graves em fase avançada e estados agônicos"
+          ],
+          [
+           "Renal (nefrótica)",
+           "Edema que predomina ao redor dos olhos, somado a palidez cutânea; pior pela manhã e nunca desaparece por completo",
+           "Doenças renais, particularmente a síndrome nefrótica"
+          ],
+          [
+           "Leonina",
+           "Pele espessa com lesões nodulares, supercílios e cílios rarefeitos, nariz e regiões malares aumentados, fisionomia pouco expressiva",
+           "Hanseníase virchowiana"
+          ],
+          [
+           "Adenoidiana",
+           "Nariz pequeno e afilado, boca sempre entreaberta",
+           "Hipertrofia das adenoides, com respiração bucal"
+          ],
+          [
+           "Parkinsoniana",
+           "Cabeça inclinada para diante e imóvel, olhar fixo, supercílios elevados, fronte enrugada, perda precoce da mímica, voz baixa e pouco modulada",
+           "Doença de Parkinson e parkinsonismos"
+          ],
+          [
+           "Basedowiana",
+           "Olhos salientes e brilhantes com fenda palpebral aberta, em rosto magro; expressão de espanto",
+           "Hipertireoidismo, tipicamente na doença de Graves-Basedow"
+          ],
+          [
+           "Mixedematosa",
+           "Rosto arredondado, nariz e lábios grossos, pele seca e espessada, pálpebras infiltradas, aspecto apático",
+           "Hipotireoidismo"
+          ],
+          [
+           "Acromegálica",
+           "Arcadas supraorbitárias salientes, maçãs do rosto proeminentes, maxilar inferior desenvolvido, nariz e orelhas aumentados",
+           "Acromegalia; os pacientes se parecem mais entre si do que com os próprios familiares"
+          ],
+          [
+           "Cushingoide ou de lua cheia",
+           "Rosto arredondado com atenuação dos traços, rubor malar, por vezes hirsutismo",
+           "Hipercortisolismo endógeno ou uso prolongado de corticosteroide"
+          ],
+          [
+           "De depressão",
+           "Cabeça baixa, canto da boca rebaixado, olhar sem brilho e detido em um ponto distante",
+           "Transtornos depressivos"
+          ],
+          [
+           "Esclerodérmica",
+           "Imobilidade facial — a fácies de múmia: pele endurecida e aderente, lábios repuxados, nariz afinado, pálpebras imobilizadas",
+           "Esclerose sistêmica"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Fácies menos frequentes",
+         "texto": "Fora da lista de todo dia, algumas fácies aparecem pouco mas são inconfundíveis quando aparecem.\n\n- **Pseudobulbar** — crises súbitas e involuntárias de choro ou riso, das quais o paciente tem consciência e que tenta conter, o que dá à face um aspecto peculiar de esforço.\n- **Da paralisia facial periférica** — assimetria evidente: o paciente não consegue fechar a pálpebra do lado acometido, a boca é repuxada para o lado são e o sulco nasolabial se apaga do lado doente.\n- **Miastênica, ou de Hutchinson** — ptose palpebral bilateral que obriga a franzir a testa e levantar a cabeça para enxergar; aparece na miastenia grave e em outras miopatias que acometem a musculatura ocular extrínseca.\n- **Da síndrome de Down** — o epicanto torna a fenda palpebral oblíqua e afasta os olhos entre si; a literatura clássica a registra com um nome derivado de raça, e é preferível nomeá-la pela síndrome.\n- **Etílica** — olhos avermelhados, rubor facial, hálito característico, voz pastosa.\n\nVale uma nota de vocabulário. As descrições consagradas de fácies vêm de uma tradição textual longa e trazem nomes que a linguagem clínica atual já não usa, sobretudo os que rotulam pessoas por deficiência ou por origem. O achado permanece útil; o nome, quando ofende, se substitui pela descrição.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Atitude, decúbito e postura"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A posição que o paciente escolhe",
+         "texto": "**Atitude** é a posição que o paciente adota — no leito ou fora dele — por comodidade, por hábito ou para aliviar algum padecimento. **Decúbito preferido** é o mesmo conceito aplicado a quem está deitado.\n\nA primeira tarefa é separar **voluntário de involuntário**, porque só têm valor diagnóstico as atitudes involuntárias e aquelas que aliviam um sintoma. Se nenhuma das duas condições se aplica, o registro correto é que o paciente não tem atitude específica — atitude indiferente.\n\nA pergunta que resolve à beira do leito é direta: *o senhor fica assim porque é mais confortável, ou porque melhora alguma coisa?* Uma posição que alivia falta de ar, dor ou hipoxia conta uma história; uma posição de hábito não conta nenhuma.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Atitudes voluntárias e o que sugerem",
+         "colunas": [
+          "Atitude",
+          "Como o paciente se coloca",
+          "O que costuma haver por trás"
+         ],
+         "linhas": [
+          [
+           "Ortopneica",
+           "Sentado à beira do leito, pés no chão ou em banqueta, mãos apoiadas no colchão; nos casos graves, deitado com o tórax erguido por vários travesseiros",
+           "Insuficiência cardíaca, asma brônquica, ascite volumosa"
+          ],
+          [
+           "Genupeitoral (prece maometana)",
+           "De joelhos, tronco fletido sobre as coxas, face anterior do tórax em contato com o colchão e rosto apoiado nas mãos",
+           "Derrame pericárdico — a posição facilita o enchimento do coração"
+          ],
+          [
+           "De cócoras (squatting)",
+           "A criança se agacha espontaneamente durante o esforço",
+           "Cardiopatias congênitas cianóticas, como a tetralogia de Fallot; a posição reduz o retorno venoso e alivia a hipoxia"
+          ],
+          [
+           "Parkinsoniana",
+           "De pé, com semiflexão da cabeça, do tronco e dos membros inferiores",
+           "Doença de Parkinson; ao caminhar, o paciente parece perseguir o próprio centro de gravidade"
+          ],
+          [
+           "Decúbito lateral sobre o lado da dor",
+           "Deita-se sobre o hemitórax que dói",
+           "Dor pleurítica — o peso do corpo reduz o deslizamento dos folhetos pleurais daquele lado"
+          ],
+          [
+           "Decúbito dorsal com pernas fletidas",
+           "Deitado de costas, com as pernas fletidas sobre as coxas e as coxas sobre a bacia",
+           "Processos inflamatórios pelviperitoneais"
+          ],
+          [
+           "Decúbito ventral",
+           "De bruços, às vezes com travesseiro sob o ventre",
+           "Cólica intestinal"
+          ],
+          [
+           "Antálgica da coluna",
+           "Decúbitos com graus variados de flexão da coluna",
+           "Lombalgias"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Atitudes involuntárias",
+         "texto": "As atitudes involuntárias independem da vontade e, por isso, são as de maior peso diagnóstico. Os nomes vêm do grego e descrevem para onde o corpo se curva.\n\n- **Passiva** — o paciente permanece exatamente na posição em que foi colocado no leito. Achado de inconsciência ou coma.\n- **Ortótono** (*orthos*, reto) — tronco e membros rígidos, sem curvatura para nenhum lado.\n- **Opistótono** (*opisthen*, para trás) — contratura da musculatura lombar que arqueia o corpo para trás, apoiando-o na cabeça e nos calcanhares. Tétano e meningite.\n- **Emprostótono** (*emprosthen*, para diante) — o inverso: o corpo forma concavidade voltada para a frente. Tétano, meningite e raiva.\n- **Pleurostótono** (*pleurothen*, de lado) — o corpo se curva lateralmente. Raro, nas mesmas doenças.\n- **Posição em gatilho** — hiperextensão da cabeça, pernas fletidas sobre as coxas e tronco encurvado com concavidade anterior. Irritação meníngea, mais comum na criança.\n- **Torcicolo e mão pêndula da paralisia radial** — atitudes involuntárias restritas a um segmento.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Postura de pé e curvaturas da coluna",
+         "texto": "A postura se avalia com o paciente de pé, e a descrição clássica usa três graus: **boa postura** (cabeça ereta ou levemente inclinada para diante, peito erguido, abdome inferior achatado ou levemente retraído, curvaturas posteriores dentro do normal); **postura sofrível** (peito achatado, curvaturas posteriores exageradas e abdome discretamente protruso, que passa a ser o ponto mais saliente do corpo); e **má postura** (cabeça acentuadamente projetada para diante, peito deprimido, abdome saliente e relaxado).\n\nPostura defeituosa costuma ser hábito, e o vício postural está entre as causas mais comuns de dorsalgia e lombalgia. Mas ela também acompanha doença da coluna, e três desvios têm nome próprio: **cifose**, curvatura da coluna torácica com concavidade anterior — o vício de postura é a causa mais comum, seguido de mal de Pott, osteomielite, neoplasias e formas congênitas; **lordose**, encurvamento com concavidade posterior, cervical ou lombar; e **escoliose**, desvio lateral em qualquer segmento, mais frequente na região lombar ou lombodorsal. A combinação de desvio lateral com encurvamento posterior é a **cifoescoliose**.\n\nCom o envelhecimento, a cabeça se desloca para a frente e a lordose lombar normal diminui — alteração esperada, cuja época e velocidade variam tanto que nenhum idoso é igual a outro.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Biotipo"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Três formas de corpo, três anatomias",
+         "texto": "**Biotipo** ou tipo morfológico é o conjunto das características de forma do corpo. Não é sinônimo de altura: há correlação entre as duas coisas, mas são conceitos distintos, e um longilíneo baixo existe.\n\nA classificação prática separa três tipos, e Porto os apresenta com um par de personagens que ajuda a fixar: o brevilíneo é Sancho Pança; o longilíneo, Dom Quixote; o mediolíneo — também chamado normolíneo — é o intermediário.\n\nA utilidade do biotipo não é estética nem prognóstica: é **anatômica**. A forma externa do corpo guarda correspondência com o modo como as vísceras se acomodam dentro dele. O coração se verticaliza no longilíneo e se horizontaliza no brevilíneo, o que desloca o ictus cordis; a forma e a posição do estômago acompanham o mesmo padrão. Quem define o biotipo antes de procurar o ictus procura no lugar certo.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Os três biotipos",
+         "colunas": [
+          "Biotipo",
+          "Pescoço e tórax",
+          "Membros, musculatura e estatura"
+         ],
+         "linhas": [
+          [
+           "Brevilíneo",
+           "Pescoço grosso e curto; tórax volumoso e alargado",
+           "Tronco que predomina sobre membros curtos; musculatura desenvolvida, panículo adiposo espesso; tendência a baixa estatura"
+          ],
+          [
+           "Mediolíneo (normolíneo)",
+           "Proporções intermediárias entre os dois extremos",
+           "Equilíbrio entre membros e tronco; desenvolvimento harmônico da musculatura e do panículo adiposo"
+          ],
+          [
+           "Longilíneo",
+           "Pescoço delgado e longo; tórax chato e afilado",
+           "Membros alongados que predominam nitidamente sobre o tronco; musculatura delgada, panículo adiposo pouco desenvolvido; tendência a estatura elevada"
+          ]
+         ]
+        },
+        {
+         "tipo": "perola",
+         "texto": "O ângulo formado pelas rebordas costais sob o apêndice xifoide — o ângulo de Charpy — é a medida que objetiva o biotipo, e está no tópico de inspeção do tórax, junto das formas do tórax e do índice torácico. Aqui basta reconhecer o tipo; lá se explica como ele se mede e o que muda no exame respiratório."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Marcha"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A marcha como moldura",
+         "texto": "O modo de andar é um dado clínico e se examina com técnica: peça ao paciente que caminhe uma distância de pelo menos 5 metros, de preferência descalço e com as pernas visíveis, indo e voltando sob observação, primeiro com os olhos abertos e depois fechados.\n\nDuas advertências enquadram o achado. A primeira é que **cada pessoa tem seu jeito de andar**, e variações individuais são a regra. A segunda vem dos dados: a concordância entre observadores para o julgamento \"marcha anormal\" varia muito de estudo para estudo — kappa de 0,11 a 0,71 na tabulação de McGee (cap. 5, Tabela 5.1). Ou seja, examinadores diferentes discordam com frequência sobre se uma marcha é ou não anormal.\n\nA consequência prática é a mesma do estado geral: **descreva antes de rotular**. Base alargada ou estreita, comprimento do passo, altura em que o pé é levantado, oscilação dos braços, simetria entre os lados, desvio de trajetória, necessidade de apoio. A partir dessa descrição, o rótulo — quando couber — vem sozinho.\n\nO estudo detalhado das marchas, com as manobras de equilíbrio e coordenação que as explicam, pertence ao capítulo do sistema nervoso. Na ectoscopia, a marcha entra como moldura: o que ela sugere e a quem encaminha o raciocínio.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Marchas com nome",
+         "colunas": [
+          "Marcha",
+          "O que se vê",
+          "Causas habituais"
+         ],
+         "linhas": [
+          [
+           "De pequenos passos",
+           "Passada curta, corpo deslocado para diante, perda de potência no fim do apoio, tendência a quedas",
+           "Senilidade, doença de Alzheimer"
+          ],
+          [
+           "Ceifante ou hemiplégica",
+           "Dificuldade de elevar o pé; o membro afetado descreve um semicírculo — primeiro para fora, depois para frente; oscilação do braço comprometida",
+           "Acidente vascular encefálico"
+          ],
+          [
+           "Atáxica",
+           "Falta de equilíbrio, marcha cambaleante, base alargada, olhos fixos no chão; há formas sensorial, vestibular e cerebelar",
+           "Esclerose múltipla, ataxia de Friedreich, polineuropatia diabética ou alcoólica, lesões cerebelares"
+          ],
+          [
+           "Propulsiva",
+           "Postura rígida com cabeça e pescoço encurvados para diante, braços imóveis rentes ao corpo, passos curtos com aceleração involuntária",
+           "Doença de Parkinson, esclerose múltipla"
+          ],
+          [
+           "Tabética ou talonante",
+           "Base alargada e olhar fixo no chão; os pés são arremessados para diante e os calcanhares batem com força no solo",
+           "Neurossífilis (tabes dorsalis), polineuropatia periférica"
+          ],
+          [
+           "Espástica ou em tesoura",
+           "Membros inferiores enrijecidos e semifletidos; ao caminhar, os pés arrastam e uma perna cruza a frente da outra, no movimento que dá nome à marcha",
+           "Esclerose múltipla, encefalopatia crônica da infância"
+          ],
+          [
+           "Anserina",
+           "A cada passo, o quadril do lado oposto cai",
+           "Distrofia muscular, por fraqueza da cintura pélvica"
+          ],
+          [
+           "Claudicante",
+           "Uma perna se movimenta normalmente e a outra toca o chão com menos força, para aliviar o peso",
+           "Afecções articulares, musculares ou ósseas dolorosas"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Marcha senil — um rótulo que exige exclusão",
+         "texto": "Com a idade, a marcha muda mesmo sem doença: aumentam a flexão de cotovelos, cintura e quadris; diminuem o balanço dos braços, a altura em que os pés são levantados e o comprimento dos passos. O padrão pode chegar a se confundir com a marcha de pequenos passos.\n\nCostuma-se atribuí-las ao envelhecimento fisiológico, mas **elas não aparecem em todos os idosos**: há quem alcance idades muito avançadas sem nenhuma delas, e há quem as desenvolva cedo.\n\nDaí a regra: *marcha senil* é diagnóstico de exclusão. Antes de usar o rótulo, é preciso afastar as doenças neurológicas e osteomusculares capazes de produzir o mesmo quadro — e, no idoso, a lentificação da marcha tem ainda outra leitura, porque é a primeira etapa do rastreamento de sarcopenia, detalhado no tópico de antropometria e hidratação.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Movimentos involuntários",
+         "texto": "A inspeção de movimentos involuntários começa no momento em que o paciente aparece. Alguns são contínuos e saltam à vista; outros ocorrem em crises ou por períodos, e podem passar despercebidos em uma consulta inteira — motivo pelo qual a história vale tanto quanto o exame.\n\nA primeira decisão é se o movimento é **voluntário ou involuntário**, para afastar atos realizados de maneira consciente ou semiconsciente. Feita essa separação, os distúrbios do movimento se dividem em dois grupos: **hipocinéticos**, com pobreza e lentidão de movimentos — a doença de Parkinson e os parkinsonismos —, e **hipercinéticos**, com excesso de movimento sem fraqueza nem espasticidade.\n\nPara caracterizar um movimento involuntário à beira do leito, Porto propõe um conjunto de eixos que também funciona como roteiro de registro:\n\n- **ritmicidade** — rítmico ou arrítmico;\n- **manutenção** — mantido ou não mantido;\n- **duração** — paroxístico ou contínuo;\n- **atitude** — presente em repouso ou na ação;\n- **velocidade** — lento ou rápido;\n- **amplitude** — amplo ou curto;\n- **momento** — durante o sono ou em vigília;\n- **força** — intenso ou suave, fácil de superar;\n- **supressibilidade** — se o paciente consegue contê-lo.\n\nO último eixo é o que separa os **tiques** de quase tudo o mais: são supressíveis por algum tempo, ao custo de desconforto crescente, e podem ser motores ou vocais, simples (limpar a garganta, estalar a língua, piscar) ou complexos (palavras, frases curtas, gestos elaborados).\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde este tópico encontra os outros",
+         "texto": "A ectoscopia é o guarda-chuva do exame físico geral, e cada um dos seus itens se aprofunda em outro lugar do guia.\n\n- **Ângulo de Charpy, formas do tórax e índice torácico** estão no tópico de inspeção do tórax, que é onde o biotipo ganha medida.\n- **Peso, altura, índice de massa corporal, circunferências e estado de hidratação** estão no tópico de antropometria e hidratação, junto do rastreamento de sarcopenia que começa pela velocidade da marcha.\n- **Fácies com componente de coloração** — palidez, icterícia e cianose — dependem do exame do tegumento, no tópico de pele, mucosas e fâneros.\n- **Linfonodos**, item da sequência do exame geral, têm tópico próprio neste capítulo.\n- **Temperatura, frequência respiratória, frequência cardíaca e pressão arterial** estão no capítulo de sinais vitais.\n- **Escala de coma de Glasgow, exame das pupilas, sinais localizatórios e o detalhamento das marchas** ficam para o capítulo do sistema nervoso.\n- **A escuta que produz a impressão de estado geral** começa no capítulo da entrevista clínica, sobretudo no tópico de queixa principal e história da doença atual.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Cinco erros que esvaziam a ectoscopia",
+         "texto": "1. **Escrever o adjetivo sem a descrição.** \"Mau estado geral\" isolado não é transmissível: o próximo examinador não sabe o que você viu. Registre a impressão e os achados que a produziram.\n2. **Inventar uma fácies.** A maioria dos rostos não tem padrão sindrômico. *Fácies atípica* é um achado legítimo, e forçar um rótulo cria hipótese onde não havia.\n3. **Dar valor diagnóstico a uma atitude de hábito.** Só contam as atitudes involuntárias e as que aliviam sintoma. Pergunte por que o paciente ficou naquela posição.\n4. **Rotular a marcha sem descrevê-la.** A concordância entre examinadores para \"marcha anormal\" é modesta; a descrição sobrevive à discordância, o rótulo não.\n5. **Chamar de senil qualquer marcha lenta de idoso.** É diagnóstico de exclusão, e a lentificação da marcha é também a porta de entrada da avaliação de sarcopenia.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Boa parte da ectoscopia acontece enquanto você ainda está fazendo a anamnese — e é justamente por isso que ela se perde. Reserve dez segundos de silêncio, antes da primeira pergunta, só para olhar: postura, respiração, cor, expressão, o que o paciente faz com as mãos. Nenhum outro momento do encontro devolve tanto por tão pouco."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "ecto-1",
+           "enunciado": "Um paciente de 72 anos permanece na mesma posição em que a equipe o deixou no leito, sem se mover espontaneamente, e só abre os olhos após estímulo doloroso leve. Como se descrevem, respectivamente, a atitude e o nível de consciência?",
+           "alternativas": [
+            "Atitude ortopneica e obnubilação",
+            "Atitude passiva e torpor",
+            "Atitude indiferente e sonolência",
+            "Atitude antálgica e confusão mental"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Permanecer exatamente na posição em que foi colocado caracteriza a atitude passiva, própria de pacientes inconscientes ou comatosos. Despertar apenas com estímulos fortes, mantendo movimentos espontâneos ausentes ou reduzidos, corresponde ao torpor ou estupor. Na sonolência o paciente desperta com facilidade e volta a dormir; a obnubilação é o grau mais leve, com alerta apenas diminuído."
+          },
+          {
+           "id": "ecto-2",
+           "enunciado": "Você registra \"mau estado geral\" na evolução. Qual é a limitação desse registro isolado, segundo os dados de concordância entre observadores reunidos por McGee?",
+           "alternativas": [
+            "Nenhuma: a impressão de estado geral tem concordância quase perfeita entre examinadores",
+            "A impressão de aparência de doente tem concordância apenas moderada, o que exige registrar também os achados que a sustentam",
+            "O estado geral só é reprodutível quando acompanhado da escala de coma de Glasgow",
+            "O estado geral perdeu valor clínico e foi substituído pelo índice de massa corporal"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Na Tabela 5.1 de McGee, a impressão de paciente com aparência de doente alcança kappa de 0,52 a 0,64 — concordância moderada. O item continua útil: dimensiona o quanto a doença atingiu o organismo, alerta quando os sinais são escassos e tem valor prognóstico nos dois sentidos. O que o dado exige é que o adjetivo venha acompanhado da descrição que o justifica."
+          },
+          {
+           "id": "ecto-3",
+           "enunciado": "Uma criança com cardiopatia congênita cianótica se agacha espontaneamente durante o esforço. Como se classifica essa atitude e o que ela produz?",
+           "alternativas": [
+            "Atitude involuntária; resulta de contratura da musculatura paravertebral",
+            "Atitude voluntária de cócoras; reduz o retorno venoso ao coração e alivia a hipoxia",
+            "Atitude genupeitoral; facilita o enchimento do coração no derrame pericárdico",
+            "Postura parkinsoniana; decorre de rigidez muscular generalizada"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "A posição de cócoras (squatting) é uma atitude voluntária, descoberta instintivamente por crianças com cardiopatias congênitas cianóticas como a tetralogia de Fallot. A diminuição do retorno venoso alivia a hipoxia generalizada. A atitude genupeitoral é a da prece maometana, adotada no derrame pericárdico; a postura parkinsoniana decorre da rigidez, com semiflexão de cabeça, tronco e membros inferiores."
+          },
+          {
+           "id": "ecto-4",
+           "enunciado": "Qual é a principal utilidade clínica de definir o biotipo do paciente?",
+           "alternativas": [
+            "Estimar o risco cardiovascular, que é maior no longilíneo",
+            "Substituir o índice de massa corporal na avaliação nutricional",
+            "Antecipar variações anatômicas — a posição do coração e do ictus cordis e a forma do estômago acompanham o tipo morfológico",
+            "Graduar a intensidade da dispneia em pacientes com doença pulmonar"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "O biotipo interessa porque a forma externa do corpo guarda correspondência com a acomodação das vísceras: o coração se verticaliza no longilíneo e se horizontaliza no brevilíneo, o que desloca o ictus cordis, e a forma do estômago acompanha o mesmo padrão. O ângulo de Charpy, que objetiva o biotipo, é detalhado no tópico de inspeção do tórax."
+          },
+          {
+           "id": "ecto-5",
+           "enunciado": "Um homem de 80 anos anda com passos curtos, pouco balanço dos braços e discreta flexão de tronco e quadris. Qual é a conduta correta diante desse achado?",
+           "alternativas": [
+            "Registrar marcha senil, por se tratar de alteração fisiológica esperada nessa idade",
+            "Descrever a marcha e afastar doenças neurológicas e osteomusculares antes de usar o rótulo de marcha senil",
+            "Concluir doença de Parkinson, pela redução do balanço dos braços",
+            "Dispensar a avaliação da marcha, cuja concordância entre observadores é baixa demais para ser útil"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "As alterações descritas ocorrem no envelhecimento, mas não em todos os idosos, e podem ser produzidas por doenças neurológicas e osteomusculares. Marcha senil é, portanto, diagnóstico de exclusão. A concordância modesta entre observadores para o julgamento de marcha anormal reforça a necessidade de descrever base, passo, balanço dos braços e simetria em vez de aplicar um rótulo direto."
+          },
+          {
+           "id": "ecto-6",
+           "enunciado": "Ao suspeitar de uma fácies adquirida, como a cushingoide, qual recurso simples ajuda mais a confirmar que houve mudança do rosto?",
+           "alternativas": [
+            "Medir a distância intercantal com régua e comparar com tabelas populacionais",
+            "Pedir uma fotografia antiga de documento e, se possível, observar pais, irmãos e filhos",
+            "Repetir o exame sob luz fluorescente, que realça a atenuação dos traços faciais",
+            "Avaliar a fácies apenas com o paciente em decúbito dorsal, para eliminar o efeito da gravidade"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Mudanças lentas passam despercebidas por quem convive com o paciente. Comparar com uma fotografia antiga documenta a evolução, e observar familiares distingue traço familiar de achado de doença. Quando os traços não formam padrão reconhecível, o registro correto é fácies atípica."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "exame-fisico-geral/avaliacao-geral/antropometria-e-hidratacao",
+       "titulo": "Antropometria e hidratação",
+       "sistemaId": "exame-fisico-geral",
+       "capituloId": "avaliacao-geral",
+       "ordem": 2,
+       "tags": [
+        "antropometria",
+        "medidas antropométricas",
+        "peso",
+        "peso atual",
+        "peso habitual",
+        "peso ideal",
+        "peso seco",
+        "peso estimado",
+        "altura",
+        "estatura",
+        "estadiômetro",
+        "índice de massa corporal",
+        "IMC",
+        "baixo peso",
+        "eutrofia",
+        "sobrepeso",
+        "obesidade",
+        "obesidade grau I",
+        "obesidade grau II",
+        "obesidade grau III",
+        "circunferência da cintura",
+        "circunferência abdominal",
+        "obesidade abdominal",
+        "gordura visceral",
+        "relação cintura-estatura",
+        "circunferência da panturrilha",
+        "circunferência do braço",
+        "estado nutricional",
+        "avaliação nutricional",
+        "desnutrição",
+        "hiponutrição",
+        "magreza",
+        "caquexia",
+        "panículo adiposo",
+        "massa muscular",
+        "sarcopenia",
+        "preensão palmar",
+        "dinamômetro",
+        "velocidade da marcha",
+        "estado de hidratação",
+        "desidratação",
+        "hipovolemia",
+        "turgor",
+        "turgor cutâneo",
+        "elasticidade da pele",
+        "mucosas secas",
+        "enoftalmia",
+        "olhos encovados",
+        "fontanela deprimida",
+        "sulcos na língua",
+        "axila seca",
+        "oligúria",
+        "diurese",
+        "sede",
+        "desidratação isotônica",
+        "desidratação hipotônica",
+        "desidratação hipertônica",
+        "semiologia do idoso",
+        "estação OSCE"
+       ],
+       "referencias": [
+        "Porto — Semiologia Médica, 8ª ed., Parte 3 (Método Clínico), cap. 8 (Exame Físico Geral) — Medidas antropométricas: peso (semiotécnica, tipos de peso, Quadros 8.2 a 8.6), altura/estatura, índice de massa corporal (Quadros 8.13 e 8.14), circunferência da cintura e circunferência abdominal (Figura 8.18), circunferência da panturrilha (Figura 8.19); Avaliação do estado de nutrição; boxes Magreza e caquexia e Sarcopenia (fluxograma da Figura 8.41, segundo Cruz-Jentoft et al., 2010); Estado de hidratação (Figura 8.22)",
+        "Porto — Semiologia Médica, 8ª ed., Parte 12 (Nutrição e Metabolismo), cap. 129 (Obesidade) — Quadro 129.1, classificação do IMC e risco de doença (WHO, 2000); Quadro 129.2, risco de morbidade cardiovascular segundo a circunferência da cintura (WHO, 1998); distinção entre circunferência da cintura e circunferência abdominal; relação cintura-estatura; IMC na pessoa idosa segundo a Caderneta de Saúde da Pessoa Idosa",
+        "Porto — Semiologia Médica, 8ª ed., Parte 6 (Sistema Tegumentar), cap. 12 (Exame Clínico) — Elasticidade e mobilidade da pele; Turgor; Umidade das mucosas",
+        "Porto — Semiologia Médica, 8ª ed., Parte 20 (Semiologia em Diferentes Fases da Vida), cap. 181 (Semiologia do Idoso) — Hidratação: por que turgor, mucosas e conjuntivas são menos confiáveis no idoso; altura da pessoa idosa; diminuição da massa e da força muscular",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 11 (Hypovolemia), p. 77-79 — boxe EBM 11.1: olhos encovados, turgor cutâneo na região subclavicular, mucosas secas, axila seca, sulcos longitudinais na língua; definição de turgor anormal; enchimento capilar sem valor diagnóstico",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 12 (Protein-Energy Malnutrition and Weight Loss), p. 81-83 — circunferência muscular do braço, força de preensão palmar e peso baixo como preditores de complicações pós-operatórias (boxe EBM 12.1); emagrecimento involuntário e proporção de causas orgânicas",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 29, Tabela 5.1 — concordância entre observadores para impressão de desidratação, secura axilar e estado nutricional anormal",
+        "Semiologia Clínica, 1ª ed., cap. 21 (Padronização do exame clínico) — exame geral quantitativo e qualitativo na sequência do exame clínico"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Os números que o exame geral produz",
+         "texto": "Quase tudo no exame físico geral é descrição. A antropometria é a exceção: ela transforma a impressão em número, e número se compara — com a população, com valores de referência e, sobretudo, **com o próprio paciente semanas atrás**.\n\nCinco medidas cobrem a prática diária: **peso**, **altura**, **índice de massa corporal**, **circunferência da cintura** e **circunferência da panturrilha**. Nenhuma delas exige equipamento sofisticado, e todas exigem técnica — porque a variabilidade de uma medida mal feita é maior do que a diferença que se quer detectar.\n\nJunto delas vem uma avaliação que não produz número nenhum e decide conduta com frequência muito maior: o **estado de hidratação**. Ela se apoia em achados de pele, mucosas, olhos e diurese — e no único número realmente confiável desse terreno, que é a variação abrupta do peso.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Peso isolado informa pouco; peso comparado informa muito. Um paciente de 62 kg pode estar bem ou em desnutrição grave — a diferença está em saber quanto ele pesava há três meses. Perguntar o peso habitual é parte da anamnese, e está no tópico de antecedentes e hábitos; aferir o peso atual é parte do exame."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como aferir"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Peso, altura e circunferências",
+         "passos": [
+          "Peso: use balança calibrada; o paciente sobe descalço, no centro da plataforma, com o mínimo de roupa e os braços ao longo do corpo; faça a leitura de pé, à frente da balança.",
+          "Em quem não deambula, registre o método usado — cama-balança ou estimativa por fórmula — porque colchão, coxim, roupa de cama, hastes de soro e bolsas coletoras superestimam o valor.",
+          "Altura: com o paciente de pé, encoste no estadiômetro ou na parede cinco pontos — calcanhares, panturrilhas, glúteos, escápulas e ombros.",
+          "Mantenha joelhos esticados, pés juntos, braços ao longo do corpo, cabeça formando ângulo reto com o solo e olhar dirigido a um plano horizontal à frente.",
+          "Baixe o estadiômetro até tocar a cabeça com pressão suficiente apenas para comprimir o cabelo; retire tiaras e adornos antes.",
+          "Na criança pequena, meça o comprimento com o paciente deitado, em régua graduada apropriada.",
+          "Circunferência da cintura: com fita métrica inextensível e sem comprimir a pele, contorne o abdome no meio da distância entre a última costela e a crista ilíaca, mantendo a fita em plano horizontal.",
+          "Circunferência da panturrilha: paciente sentado, pés afastados cerca de 20 cm do corpo, joelho em ângulo reto; contorne a parte mais larga da panturrilha esquerda.",
+          "Calcule o índice de massa corporal dividindo o peso em quilogramas pelo quadrado da altura em metros.",
+          "Registre data, hora e método de cada medida, para que a próxima aferição seja comparável."
+         ],
+         "observar": "A antropometria expõe o paciente a um julgamento sobre o próprio corpo, e a balança é um dos poucos momentos do exame em que o número aparece antes da interpretação. Pergunte se ele quer saber o valor, evite comentários avaliativos e explique para que a medida serve. Em pessoas com transtorno alimentar, pesar de costas para o visor é uma cortesia com consequência clínica.\n"
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"80\" y=\"14\">altura: cinco pontos de contato</text>\n    <text x=\"238\" y=\"14\">cintura: onde passa a fita</text>\n  </g>\n  <!-- painel A: perfil contra a parede -->\n  <path d=\"M 34 22 L 34 168\" stroke-width=\"2\" />\n  <path d=\"M 34 168 L 78 168\" stroke-width=\"1.4\" />\n  <!-- estadiômetro -->\n  <path d=\"M 40 40 L 74 40\" stroke-width=\"1.4\" />\n  <path d=\"M 40 36 L 40 44\" stroke-width=\"1.4\" />\n  <!-- silhueta de perfil -->\n  <path d=\"M 56 44 C 68 44, 72 54, 68 62 C 66 66, 62 68, 58 68\" stroke-width=\"1.6\" />\n  <path d=\"M 58 68 C 54 70, 46 74, 44 84 C 42 96, 44 108, 46 118\" stroke-width=\"1.6\" />\n  <path d=\"M 66 66 C 74 72, 78 84, 76 98 C 74 110, 68 116, 60 120\" stroke-width=\"1.6\" />\n  <path d=\"M 46 118 C 44 128, 42 140, 40 152 L 38 166\" stroke-width=\"1.6\" />\n  <path d=\"M 60 120 C 60 132, 56 146, 50 158 L 46 166\" stroke-width=\"1.6\" />\n  <path d=\"M 38 166 L 62 166\" stroke-width=\"1.6\" />\n  <!-- marcadores dos cinco pontos -->\n  <g stroke-width=\"1.4\">\n    <circle cx=\"38\" cy=\"164\" r=\"3.2\" />\n    <circle cx=\"38\" cy=\"140\" r=\"3.2\" />\n    <circle cx=\"40\" cy=\"112\" r=\"3.2\" />\n    <circle cx=\"42\" cy=\"84\" r=\"3.2\" />\n    <circle cx=\"46\" cy=\"70\" r=\"3.2\" />\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"88\" y=\"168\">1 calcanhares</text>\n    <text x=\"88\" y=\"143\">2 panturrilhas</text>\n    <text x=\"88\" y=\"115\">3 glúteos</text>\n    <text x=\"88\" y=\"87\">4 escápulas</text>\n    <text x=\"88\" y=\"72\">5 ombros</text>\n  </g>\n  <!-- painel B: tronco de frente -->\n  <path d=\"M 208 30 C 202 60, 204 92, 210 124 C 214 146, 216 158, 216 166\" stroke-width=\"1.8\" />\n  <path d=\"M 268 30 C 274 60, 272 92, 266 124 C 262 146, 260 158, 260 166\" stroke-width=\"1.8\" />\n  <path d=\"M 208 30 L 268 30\" stroke-width=\"1.4\" />\n  <!-- última costela e crista ilíaca -->\n  <path d=\"M 206 74 C 216 82, 228 86, 238 86\" stroke-width=\"1.3\" />\n  <path d=\"M 270 74 C 260 82, 248 86, 238 86\" stroke-width=\"1.3\" />\n  <path d=\"M 210 122 C 220 116, 230 114, 238 114\" stroke-width=\"1.3\" />\n  <path d=\"M 266 122 C 256 116, 246 114, 238 114\" stroke-width=\"1.3\" />\n  <!-- linha média: fita -->\n  <path d=\"M 205 100 L 271 100\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\" />\n  <g stroke-width=\"1.2\">\n    <path d=\"M 194 86 L 194 114\" />\n    <path d=\"M 191 86 L 197 86\" />\n    <path d=\"M 191 114 L 197 114\" />\n    <path d=\"M 191 100 L 197 100\" />\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"280\" y=\"82\">1</text>\n    <text x=\"280\" y=\"104\">2</text>\n    <text x=\"280\" y=\"120\">3</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"14\" y=\"186\">1 última costela · 2 ponto médio, onde passa a fita · 3 crista ilíaca</text>\n  </g>\n</svg>\n",
+         "legenda": "À esquerda, os cinco pontos que devem tocar o estadiômetro ou a parede na aferição da altura. À direita, o reparo da circunferência da cintura: o meio da distância que separa a última costela da crista ilíaca — e não a cicatriz umbilical."
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Antropometria e hidratação em 10 passos",
+         "itens": [
+          "Peso aferido em balança calibrada, com o paciente descalço e no centro da plataforma.",
+          "Altura aferida com os cinco pontos de contato e a cabeça no plano horizontal.",
+          "Índice de massa corporal calculado e classificado com a referência apropriada à idade.",
+          "Circunferência da cintura aferida a meio caminho entre a última costela e a crista ilíaca, sem compressão.",
+          "Peso habitual e variação recente de peso perguntados ao paciente.",
+          "Musculatura e panículo adiposo inspecionados e palpados, com comparação entre os lados.",
+          "Umidade das mucosas oral e lingual inspecionada sob boa iluminação.",
+          "Turgor pesquisado com prega que inclua o tecido subcutâneo, em região confiável.",
+          "Olhos avaliados quanto a encovamento e, na criança, fontanela quanto a depressão.",
+          "Diurese referida e demais perdas (vômitos, diarreia, sudorese, febre) registradas."
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Índice de massa corporal"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que o IMC mede e o que não mede",
+         "texto": "O índice de massa corporal é o quociente entre o peso em quilogramas e o quadrado da altura em metros. Sua força é a simplicidade: obtém-se em segundos, com duas medidas que qualquer serviço tem condições de fazer, e permite comparação populacional.\n\nSua fraqueza está exatamente no que a fórmula ignora. O IMC **não distingue massa gorda de massa magra** — um paciente muito musculoso pode ser classificado com excesso de peso sem ter gordura em excesso. E **não diz onde a gordura está**, o que importa mais do que a quantidade para o risco cardiovascular.\n\nDuas consequências práticas. Primeira: o IMC classifica, mas não diagnostica; a classificação é o começo da avaliação nutricional, não o seu resultado. Segunda: ele precisa ser lido junto do biotipo, da história de evolução do peso e do exame da musculatura e do panículo adiposo.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Classificação do IMC no adulto (OMS, reproduzida em Porto, Quadro 129.1)",
+         "colunas": [
+          "Classificação",
+          "IMC (kg/m²)",
+          "Risco de doença"
+         ],
+         "linhas": [
+          [
+           "Baixo peso",
+           "< 18,5",
+           "Normal"
+          ],
+          [
+           "Eutrófico (normal)",
+           "18,5 a 24,9",
+           "Normal"
+          ],
+          [
+           "Sobrepeso (pré-obesidade)",
+           "25,0 a 29,9",
+           "Pouco elevado"
+          ],
+          [
+           "Obesidade grau I",
+           "30,0 a 34,9",
+           "Elevado"
+          ],
+          [
+           "Obesidade grau II",
+           "35,0 a 39,9",
+           "Muito elevado"
+          ],
+          [
+           "Obesidade grau III (obesidade grave)",
+           "≥ 40,0",
+           "Muitíssimo elevado"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Circunferência da cintura, não circunferência abdominal",
+         "texto": "Os dois termos circulam como sinônimos na prática, e não são a mesma coisa.\n\nA **circunferência da cintura** é aferida em um reparo anatômico definido — a meio caminho entre a última costela e a crista ilíaca — e tem pontos de corte validados. Ela reflete a gordura visceral, aquela aderida a intestinos, peritônio e fígado, que é a que se associa a dislipidemia, resistência insulínica, diabetes, hipertensão e doença arterial coronariana e cerebral.\n\nA **circunferência abdominal** é o maior diâmetro do abdome. **Não tem ponto de corte** e, portanto, não serve para diagnosticar obesidade abdominal. Ela tem um uso legítimo e restrito: em pacientes com obesidade de grau mais elevado, nos quais localizar a crista ilíaca e a última costela se torna impraticável, ela substitui a medida da cintura para acompanhar o mesmo paciente ao longo do tempo.\n\nUma ressalva vale para as duas: no abdome pendular ou em avental, boa parte da gordura está acumulada abaixo da cicatriz umbilical, e não sobre as vísceras — a fita, ali, não representa fielmente a adiposidade visceral.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Risco de morbidade cardiovascular segundo a circunferência da cintura (OMS 1998, reproduzida em Porto, Quadro 129.2)",
+         "colunas": [
+          "Faixa de risco",
+          "Homens",
+          "Mulheres"
+         ],
+         "linhas": [
+          [
+           "Risco aumentado",
+           "94 a 102 cm",
+           "80 a 88 cm"
+          ],
+          [
+           "Risco muito aumentado",
+           "acima de 102 cm",
+           "acima de 88 cm"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Limitações do IMC e as medidas que o complementam",
+         "texto": "A crítica ao IMC não é retórica: dependendo do grupo populacional avaliado, ele gera **falso-positivos** — pessoas magras e musculosas classificadas como obesas — e **falso-negativos** — pessoas com adiposidade elevada e massa magra reduzida classificadas como normais. O que o índice entrega é o número de quilogramas por metro quadrado; composição e distribuição corporal ficam de fora.\n\nTrês complementos corrigem parte do problema.\n\n**Circunferência da cintura.** Acrescenta a informação que falta ao IMC — onde está a gordura.\n\n**Relação cintura-estatura.** Divide-se a circunferência da cintura pela estatura, ambas na mesma unidade. Porto registra que ela prediz mortalidade e risco cardiovascular com mais sensibilidade do que o IMC, e adota **0,5** como ponto de corte, o mesmo para adultos e para idosos, homens e mulheres — na formulação prática, a cintura deve medir menos que metade da altura.\n\n**Circunferência da panturrilha.** Estima a massa muscular, que é justamente o compartimento que o IMC confunde com gordura.\n\nVale ainda uma ressalva sobre o **peso ideal**, calculado a partir de um IMC de referência. Porto o considera criticável quando aplicado a quem já está na faixa normal, pelo risco de estabelecer metas que empurram para exageros e transtornos alimentares. E adverte que **um IMC entre 17 e 19 não é, por si só, indicativo de desnutrição**: sem a história de evolução do peso e sem o exame da musculatura e do panículo adiposo, o número não decide nada.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Antropometria na pessoa idosa",
+         "texto": "No idoso, as mesmas medidas se leem com outra régua — e essa é uma divergência de referências, não de opinião.\n\n**Altura.** Ela diminui com os anos, pela redução dos corpos vertebrais e dos discos intervertebrais, somada ao aumento das curvaturas e à osteoporose. Por isso a altura referida pelo próprio paciente tende a ser maior que a atual, e a medida direta passa a ser obrigatória — ao contrário do adulto jovem, em quem a altura referida já foi validada em estudos, com precisão maior nos homens que fizeram a medida no alistamento militar.\n\n**IMC.** Porto reproduz, para a pessoa idosa, a classificação de **Lipschitz (1994)**: baixo peso abaixo de 22 kg/m², eutrofia entre 22 e 27, excesso de peso acima de 27. Os limites são, portanto, mais altos na base e mais baixos no topo do que os da OMS para adultos. A Caderneta de Saúde da Pessoa Idosa, editada pelo Ministério da Saúde, também caracteriza sobrepeso pelo IMC acima de 27 kg/m², e não traz classificação específica de obesidade como a que existe para adultos.\n\nA consequência prática é declarar a régua usada. Escrever \"IMC 26 kg/m², eutrófico pelo critério de Lipschitz para idosos\" é informação; escrever \"IMC 26, sobrepeso\" em uma pessoa de 80 anos é aplicar a tabela errada sem avisar.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Estado nutricional"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A avaliação nutricional é do paciente, não da balança",
+         "texto": "O estado de nutrição se avalia por seis parâmetros que se olham juntos: **peso**, **musculatura**, **panículo adiposo**, **desenvolvimento físico**, **estado geral** e **pele, pelos e olhos**. É um processo dinâmico — compara-se com padrões de referência e, principalmente, reavalia-se ao longo do tempo.\n\nNa **desnutrição** (ou hiponutrição), três dos parâmetros caem juntos: o peso fica aquém do mínimo esperado, a musculatura se apresenta hipotrófica e o panículo adiposo, escasso. O tegumento acompanha e denuncia:\n\n- a **pele** se torna seca e rugosa ao tato, com aspecto de lixa nos casos avançados;\n- os **cabelos e pelos** mudam de cor, ficam finos, secos e quebradiços; nas formas graves, tufos inteiros se destacam com pouca tração;\n- os **olhos** apresentam ressecamento da conjuntiva, redução ou ausência de lágrimas, fotofobia e dificuldade de acomodação em ambiente pouco iluminado — alterações da avitaminose A.\n\nDuas designações fecham o extremo da escala. **Magreza** significa apenas peso abaixo do mínimo normal, com IMC inferior a 18,5 kg/m² — não é diagnóstico, mas também não é dado a menosprezar, porque pode ser a face visível de um estado de desnutrição. **Caquexia** é a magreza extrema acompanhada de alterações metabólicas e de grave comprometimento do estado geral, observada nas doenças consumptivas — tuberculose avançada, desnutrição grave, fase final de neoplasias malignas, cirrose, insuficiência renal e síndrome da imunodeficiência adquirida.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Graduação da desnutrição pelo déficit de peso, e por que ela não basta",
+         "texto": "A classificação clássica gradua a desnutrição pelo **déficit de peso**, calculado contra o padrão esperado para a idade e para o sexo (escala de graus de Porto): déficit acima de 10% caracteriza a desnutrição de 1º grau; acima de 25%, a de 2º grau; acima de 40%, a de 3º grau.\n\nA própria obra que a apresenta lista os limites da escala, e vale repeti-los:\n\n- ela pressupõe conhecer padrões normais de crescimento físico, que nem sempre estão disponíveis;\n- **não leva em conta a altura**, de modo que crianças de baixa estatura ficam em desvantagem quando o peso é relacionado apenas à idade cronológica;\n- **não incorpora** o que o exame da musculatura e do panículo adiposo mostra.\n\nA escala permanece útil pela simplicidade, desde que usada como ela é: um ponto de partida que precisa ser completado por dados mais abrangentes.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que a evidência acrescenta à avaliação nutricional",
+         "texto": "As síndromes clássicas de desnutrição proteico-energética — o marasmo, com perda profunda de peso e depleção de músculo e gordura, e o kwashiorkor, com distensão abdominal, edema e cabelos hipopigmentados — são descritas em crianças de países em desenvolvimento. Em serviços de países industrializados, McGee registra que o quadro é menos dramático: os pacientes desnutridos se apresentam com peso baixo, atrofia de músculo e de gordura subcutânea, fraqueza e alterações laboratoriais.\n\nNesses serviços, dois achados foram estudados como preditores de complicações pós-operatórias significativas em cirurgias de grande porte:\n\n- **circunferência muscular do braço ou do antebraço reduzida** — razão de verossimilhança de 2,5 a 3,2;\n- **força de preensão palmar reduzida** — razão de verossimilhança 2,5, com a força normal reduzindo a probabilidade (razão de verossimilhança 0,4);\n- **peso corporal baixo** — razão de verossimilhança 2,0.\n\nUm resultado contraintuitivo merece atenção: a **presença de perda de peso recente teve pouco valor** para predizer complicações. A explicação proposta é que o achado mistura dois grupos opostos — quem emagreceu por desnutrição, com risco aumentado, e quem emagreceu voluntariamente antes da cirurgia, com risco reduzido.\n\nDuas notas completam o quadro. Em pacientes com **emagrecimento involuntário**, 65% têm uma doença orgânica responsável, e ela costuma aparecer já na história, no exame físico e nos exames laboratoriais iniciais. E a **reprodutibilidade** do julgamento global é modesta: na Tabela 5.1 de McGee, a impressão de \"estado nutricional anormal\" alcança kappa de 0,27 a 0,36 — mais um motivo para registrar medidas, e não adjetivos.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Sarcopenia",
+         "texto": "Sarcopenia é a perda progressiva e generalizada de **massa, força e função** muscular, com consequências que vão além do músculo: a atividade física se restringe, o deslocamento fica difícil, o equilíbrio se compromete, a capacidade funcional cai, instala-se fragilidade, e aumentam as fraturas e a mortalidade. Classifica-se em três estágios — pré-sarcopenia (só massa reduzida), sarcopenia (massa somada a força ou função reduzidas) e sarcopenia grave (os três parâmetros comprometidos).\n\nO ponto que surpreende quem espera começar pela balança: **o primeiro sinal clínico não é a massa, é a função**. O fluxograma de avaliação em pessoas idosas que Porto reproduz (segundo Cruz-Jentoft et al., 2010) começa pela velocidade habitual da marcha, passa à força de preensão palmar e só então avalia a massa muscular.\n\nOs parâmetros, com os pontos de corte que a obra registra:\n\n- **Velocidade habitual da marcha.** Percurso demarcado com 2 metros iniciais de aceleração, 4 metros cronometrados e 2 metros finais de desaceleração. Em condições normais, os 4 metros são percorridos em até 5 segundos, o que equivale a 0,8 m/s — valor que a obra adota como padrão, registrando que há divergências na literatura.\n- **Força de preensão palmar**, com dinamômetro isométrico, paciente sentado, ombros em abdução, cotovelo fletido em ângulo reto, antebraço em posição neutra: valores de referência de 30 kg em homens e 20 kg em mulheres, abaixo dos quais a força é considerada reduzida.\n- **Massa muscular**, estimada pela circunferência da panturrilha: pontos de corte de 34 cm em mulheres e 33 cm em homens. A caderneta editada pelo Ministério da Saúde trata a faixa de 31 a 34 cm como alerta e valores abaixo de 31 cm como indicação de seguir investigando, sobretudo em quem já tem a marcha lentificada.\n\nQuando o dinamômetro ou o percurso demarcado não estão disponíveis, Porto registra duas perguntas que servem de aproximação subjetiva: se o paciente se sentiu mais enfraquecido no último ano, e se acha que hoje caminha mais devagar do que há doze meses.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Estado de hidratação"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Seis parâmetros e um número",
+         "texto": "O estado de hidratação se avalia por um conjunto, nunca por um sinal isolado. Porto organiza a avaliação em seis parâmetros:\n\n1. **alteração abrupta do peso** — o único dado quantitativo confiável desse terreno;\n2. **pele** — umidade, elasticidade e turgor;\n3. **mucosas** — umidade, sobretudo a lingual e a bucal;\n4. **fontanelas**, na criança;\n5. **olhos**;\n6. **estado geral**.\n\nNa hidratação normal a pele tem boa elasticidade e leve grau de umidade, as mucosas estão úmidas e com discreto brilho, não há alteração ocular nem perda abrupta de peso; na criança, as fontanelas são planas e normotensas, o peso mantém curva ascendente e o comportamento é o de uma criança que sorri e interage.\n\nNa **desidratação** — perda de água e de eletrólitos totais — os mesmos parâmetros se invertem: aparece sede; o peso cai de forma abrupta; a pele fica seca, com turgor e elasticidade reduzidos; as mucosas perdem o brilho e ressecam; os globos oculares afundam (enoftalmia) e ficam hipotônicos; a fontanela se deprime no lactente; o estado geral se compromete, com excitação psíquica ou abatimento; e a diurese diminui.\n\nO contexto vale tanto quanto os sinais: a pergunta que abre a avaliação é se houve **perda extra sem reposição adequada** — diarreia, vômitos, febre, taquipneia, sudorese excessiva.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Sinais de hipovolemia e o que cada um acrescenta (McGee, cap. 11)",
+         "colunas": [
+          "Achado",
+          "Razão de verossimilhança quando presente",
+          "Razão de verossimilhança quando ausente"
+         ],
+         "linhas": [
+          [
+           "Olhos encovados",
+           "3,7",
+           "0,6"
+          ],
+          [
+           "Turgor cutâneo anormal (pesquisado na região subclavicular)",
+           "3,5",
+           "0,3"
+          ],
+          [
+           "Mucosas secas da boca e do nariz",
+           "3,1",
+           "0,4"
+          ],
+          [
+           "Axila seca",
+           "3,0",
+           "0,6"
+          ],
+          [
+           "Sulcos longitudinais na língua",
+           "sem significância",
+           "0,3"
+          ],
+          [
+           "Confusão, fraqueza ou fala arrastada",
+           "sem significância",
+           "sem significância"
+          ]
+         ]
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Turgor — onde, como e por que envelhece mal",
+         "texto": "Turgor se pesquisa pinçando entre dois dedos — polegar e indicador — uma prega que **inclua o tecido subcutâneo**. Com turgor normal, a sensação é de pele suculenta e a prega se desfaz de imediato; com turgor diminuído, a pele parece murcha e a prega se desfaz lentamente. É diferente da **elasticidade**, que se pesquisa pinçando apenas epiderme e derme e tracionando: a hipoelasticidade aparece no idoso, no desnutrido, no abdome de multíparas e, principalmente, na desidratação.\n\nTrês refinamentos vêm dos estudos reunidos por McGee.\n\n**A definição pode ser cronometrada.** Em um dos estudos, considerou-se turgor anormal a persistência da prega por 3 segundos ou mais, após 3 segundos de pinçamento.\n\n**O local importa mais do que se imagina.** Pesquisar o turgor sobre as coxas, o esterno ou a região subclavicular mostrou-se mais acurado do que pesquisá-lo nos antebraços — que é justamente onde a maioria dos examinadores o pesquisa.\n\n**A idade corrói a especificidade.** Quem devolve a pele à posição é a elastina, e experimentos mostram que seu tempo de recolhimento aumenta quarenta vezes com a perda de apenas 3,4% do peso úmido. Como a elastina também se deteriora com o envelhecimento, o mesmo achado significa menos em um paciente idoso — a prega demora a desfazer-se em quem está desidratado e também em quem simplesmente envelheceu.\n\nUma nota sobre o **enchimento capilar**: no estudo em que foi comparado com marcadores laboratoriais de hipovolemia, ele não mostrou valor diagnóstico. O guia mantém o mesmo tratamento que dá a ele no exame cardiovascular — achado de moldura, comparativo entre os lados, sem corte numérico e sem veredito isolado.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Graus e tipos de desidratação",
+         "texto": "A intensidade da desidratação se classifica pela **perda de peso** (escala de graus de Porto):\n\n- **1º grau (leve)** — perda de até 5% do peso;\n- **2º grau (moderada)** — perda entre 5% e 10%;\n- **3º grau (grave)** — perda superior a 10%.\n\nÉ outra razão para que a variação abrupta de peso seja o dado mais valioso do conjunto — ela é o que gradua.\n\nA classificação quanto à **osmolaridade** usa o sódio sérico como elemento-guia e pertence ao laboratório, mas o vocabulário aparece na beira do leito: **isotônica**, com sódio entre 130 e 150 mEq/L; **hipotônica**, com sódio abaixo de 130 mEq/L; **hipertônica**, com sódio acima de 150 mEq/L.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Hidratação na pessoa idosa",
+         "texto": "Todos os sinais em que a avaliação de hidratação se apoia sofrem interferência do envelhecimento — e sofrem na mesma direção, o que produz falso-positivos em série.\n\nPorto lista as três interferências no capítulo de semiologia do idoso: a **pele** perde turgor, elasticidade e espessura; a **mucosa oral e a língua** ficam menos umedecidas pela redução da produção de saliva; e as **conjuntivas** ressecam pela diminuição da secreção lacrimal. Ou seja, a pessoa idosa hidratada exibe, em grau variável, boa parte do quadro que se aprendeu a chamar de desidratação.\n\nSome-se a isso o dado experimental já citado — a deterioração da elastina com a idade reduz a especificidade do turgor — e a conclusão se impõe: **no idoso, o peso e o contexto de perdas pesam mais do que os sinais tegumentares**. A pergunta pela diurese, pelo aporte de líquidos dos últimos dias, por vômitos, diarreia e febre, e a comparação com o peso registrado na consulta anterior valem mais do que qualquer prega de pele.\n\nVale ainda lembrar que a impressão global também é pouco reprodutível: na Tabela 5.1 de McGee, o julgamento \"paciente com aparência de desidratado\" alcança kappa de 0,44 a 0,53, e a secura axilar, 0,50.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde este tópico encontra os outros",
+         "texto": "Antropometria e hidratação puxam fios que estão amarrados em outros pontos do guia.\n\n- **Edema** — técnica do cacifo, graduação em cruzes na escala de Porto, consistência, elasticidade e as etiologias que separam o edema cardíaco dos demais — está no tópico de pulso venoso jugular e turgência. É lá também que se explica por que a turgência jugular separa a causa cardíaca da hepática em um paciente edemaciado. Aqui, o edema entra apenas como fonte de erro do peso: o **peso seco** é o peso descontado de edema e de ascite.\n- **Perfusão periférica e enchimento capilar** estão no mesmo tópico venoso, com o mesmo tratamento: achado comparativo, sem corte numérico.\n- **Turgor, elasticidade, umidade e textura da pele**, com a semiotécnica completa, estão no tópico de pele, mucosas e fâneros deste capítulo.\n- **Biotipo**, que precisa ser lido junto do IMC, está no tópico de ectoscopia — e é lá também que a velocidade da marcha aparece como parte do exame do modo de andar.\n- **Febre, taquipneia e sudorese**, causas de perda extra de líquido, estão no capítulo de sinais vitais.\n- **Peso habitual, variação de peso, apetite e diurese referida** são itens de anamnese: pertencem à história da doença atual, ao interrogatório sintomatológico e aos antecedentes.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Seis erros que distorcem a medida",
+         "texto": "1. **Confundir circunferência abdominal com circunferência da cintura.** Só a segunda tem pontos de corte; a primeira serve para acompanhar o mesmo paciente quando os reparos ósseos da cintura são impossíveis de localizar.\n2. **Aplicar a tabela de IMC do adulto à pessoa idosa.** As faixas de referência são outras, e a régua usada precisa ser declarada no registro.\n3. **Diagnosticar desnutrição pelo IMC isolado.** Um valor entre 17 e 19 não decide nada sem a história de evolução do peso e sem o exame da musculatura e do panículo adiposo.\n4. **Pesquisar o turgor no antebraço.** É o local mais usado e um dos menos acurados; coxas, esterno e região subclavicular se saem melhor.\n5. **Concluir desidratação em um idoso a partir da pele.** Pele seca, mucosas pouco úmidas e conjuntivas ressecadas fazem parte do envelhecimento.\n6. **Aceitar o peso do prontuário sem saber como foi obtido.** Cama-balança com colchão, cobertores e bomba de infusão superestima; peso referido pelo paciente também.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Diante de um paciente com sinais duvidosos de desidratação, a pergunta mais produtiva raramente é sobre a pele. É: quanto o senhor pesava na última consulta, e quantas vezes urinou desde ontem? O peso gradua a perda; a diurese denuncia a resposta do rim."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "antrop-1",
+           "enunciado": "Um homem de 45 anos tem IMC de 27,4 kg/m² e circunferência da cintura de 106 cm. Como se classificam essas duas medidas?",
+           "alternativas": [
+            "Obesidade grau I e risco cardiovascular aumentado",
+            "Sobrepeso (pré-obesidade) e risco cardiovascular muito aumentado",
+            "Eutrofia e risco cardiovascular aumentado",
+            "Sobrepeso e circunferência dentro da faixa de referência"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "IMC entre 25,0 e 29,9 kg/m² corresponde a sobrepeso ou pré-obesidade na classificação da OMS reproduzida por Porto. Para a circunferência da cintura, os pontos de corte da OMS de 1998 para homens são 94 a 102 cm (risco aumentado) e acima de 102 cm (risco muito aumentado); 106 cm cai, portanto, na faixa de risco muito aumentado. O caso ilustra por que as duas medidas se complementam: o IMC sozinho subestimaria o risco."
+          },
+          {
+           "id": "antrop-2",
+           "enunciado": "Em uma idosa de 78 anos internada por vômitos há dois dias, quais achados aumentam mais a probabilidade de hipovolemia, segundo os dados reunidos por McGee?",
+           "alternativas": [
+            "Enchimento capilar lentificado e confusão mental",
+            "Olhos encovados e turgor cutâneo anormal pesquisado na região subclavicular",
+            "Sulcos longitudinais na língua e fraqueza",
+            "Fala arrastada e pele fria"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "No boxe EBM 11.1, olhos encovados (razão de verossimilhança 3,7), turgor anormal na região subclavicular (3,5), mucosas secas (3,1) e axila seca (3,0) aumentam a probabilidade de hipovolemia. Confusão, fraqueza e fala alterada não tiveram valor diagnóstico, e o enchimento capilar não mostrou valor no estudo em que foi avaliado. Os sulcos na língua informam pela ausência: não encontrá-los reduz a probabilidade (0,3)."
+          },
+          {
+           "id": "antrop-3",
+           "enunciado": "Por que a avaliação da hidratação pela pele é menos confiável no paciente idoso?",
+           "alternativas": [
+            "Porque o idoso tem menos tecido subcutâneo, o que impede pinçar a prega",
+            "Porque o envelhecimento reduz turgor, elasticidade e espessura da pele e resseca mucosas e conjuntivas, imitando desidratação; além disso, a elastina se deteriora com a idade e reduz a especificidade do sinal",
+            "Porque o turgor só pode ser pesquisado em pessoas com menos de 60 anos",
+            "Porque a desidratação no idoso é sempre hipotônica e não altera a pele"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Porto registra que a pele senil perde turgor, elasticidade e espessura, a mucosa oral e a língua ficam menos úmidas pela redução da saliva e as conjuntivas ressecam pela menor secreção lacrimal — de modo que a pessoa idosa hidratada já exibe parte do quadro de desidratação. McGee acrescenta que a elastina, responsável pelo recolhimento da pele, deteriora-se com a idade, reduzindo a especificidade do turgor. No idoso, peso e contexto de perdas informam mais do que a pele."
+          },
+          {
+           "id": "antrop-4",
+           "enunciado": "Na avaliação de sarcopenia em pessoas idosas proposta no fluxograma reproduzido por Porto, qual parâmetro é avaliado primeiro?",
+           "alternativas": [
+            "A massa muscular, pela circunferência da panturrilha",
+            "A força, pelo teste de preensão palmar",
+            "A velocidade habitual da marcha",
+            "A composição corporal por absorciometria de dupla energia"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "O primeiro sinal clínico de sarcopenia no idoso é a perda de função muscular, expressa no desempenho da velocidade habitual da marcha — primeira etapa do fluxograma (Cruz-Jentoft et al., 2010). Só depois vêm a força de preensão palmar e a massa muscular, esta última estimada na prática pela circunferência da panturrilha, com pontos de corte de 34 cm em mulheres e 33 cm em homens."
+          },
+          {
+           "id": "antrop-5",
+           "enunciado": "Qual é a diferença prática entre circunferência da cintura e circunferência abdominal?",
+           "alternativas": [
+            "São sinônimos; a escolha do termo depende apenas da região do país",
+            "A cintura é aferida a meio caminho entre a última costela e a crista ilíaca e tem pontos de corte; a circunferência abdominal é o maior diâmetro do abdome, não tem ponto de corte e serve para acompanhar o mesmo paciente",
+            "A circunferência abdominal é a medida validada para diagnosticar obesidade abdominal; a cintura é apenas estética",
+            "A cintura só pode ser aferida com o paciente deitado; a abdominal, apenas de pé"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Os termos são usados como equivalentes na prática, mas apenas a circunferência da cintura, aferida a meio caminho entre a última costela e a crista ilíaca, tem pontos de corte de classificação. A circunferência abdominal — o maior diâmetro do abdome — não tem ponto de corte e não diagnostica obesidade abdominal; sua indicação é acompanhar a evolução em pacientes nos quais a localização dos reparos ósseos é impraticável."
+          },
+          {
+           "id": "antrop-6",
+           "enunciado": "Sobre o valor prognóstico da perda de peso recente em pacientes submetidos a cirurgia de grande porte, o que os estudos reunidos por McGee mostraram?",
+           "alternativas": [
+            "A perda de peso recente foi o preditor mais forte de complicações, com razão de verossimilhança acima de 8",
+            "A perda de peso recente teve pouco valor preditivo, possivelmente por reunir tanto quem emagreceu por desnutrição quanto quem emagreceu voluntariamente antes da cirurgia",
+            "A perda de peso recente reduziu fortemente a probabilidade de complicações",
+            "A perda de peso recente só tem valor quando associada a IMC acima de 30 kg/m²"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Circunferência muscular do braço ou do antebraço reduzida (razão de verossimilhança 2,5 a 3,2), força de preensão palmar reduzida (2,5) e peso corporal baixo (2,0) aumentam modestamente a probabilidade de complicações; a força de preensão normal a reduz (0,4). A perda de peso recente, porém, teve pouco valor — a explicação proposta é que o achado mistura pacientes desnutridos, de maior risco, com pacientes com excesso de peso que emagreceram voluntariamente antes da cirurgia."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros",
+       "titulo": "Pele, mucosas e fâneros",
+       "sistemaId": "exame-fisico-geral",
+       "capituloId": "avaliacao-geral",
+       "ordem": 3,
+       "tags": [
+        "pele",
+        "exame da pele",
+        "mucosas",
+        "fâneros",
+        "tegumento",
+        "lesões elementares",
+        "mácula",
+        "mancha",
+        "mancha pigmentar",
+        "mancha vascular",
+        "mancha hemorrágica",
+        "telangiectasia",
+        "aranha vascular",
+        "eritema",
+        "pápula",
+        "tubérculo",
+        "nódulo",
+        "nodosidade",
+        "goma",
+        "vegetação",
+        "verrucosidade",
+        "vesícula",
+        "bolha",
+        "pústula",
+        "abscesso",
+        "hematoma",
+        "queratose",
+        "liquenificação",
+        "esclerose",
+        "atrofia",
+        "erosão",
+        "exulceração",
+        "ulceração",
+        "fissura",
+        "rágade",
+        "escara",
+        "cicatriz",
+        "queloide",
+        "digitopressão",
+        "vitropressão",
+        "puntipressão",
+        "palidez",
+        "mucosas descoradas",
+        "palidez conjuntival",
+        "rima conjuntival",
+        "palidez palmar",
+        "pregas palmares",
+        "anemia",
+        "icterícia",
+        "bilirrubina",
+        "esclera",
+        "conjuntiva",
+        "freio da língua",
+        "palato duro",
+        "carotenodermia",
+        "carotenemia",
+        "betacarotenemia",
+        "progressão craniocaudal",
+        "icterícia neonatal",
+        "cianose",
+        "petéquias",
+        "víbices",
+        "equimoses",
+        "púrpura",
+        "sufusão hemorrágica",
+        "unhas",
+        "ângulo de implantação da unha",
+        "baqueteamento digital",
+        "hipocratismo digital",
+        "coiloníquia",
+        "leuconíquia",
+        "linhas de Beau",
+        "faixas de Mees",
+        "unhas de Plummer",
+        "onicólise",
+        "paroníquia",
+        "onicofagia",
+        "alopecia",
+        "hirsutismo",
+        "hipertricose",
+        "discromia",
+        "vitiligo",
+        "melasma",
+        "efélides",
+        "fototipo",
+        "classificação de Fitzpatrick",
+        "turgor",
+        "elasticidade da pele",
+        "estação OSCE"
+       ],
+       "referencias": [
+        "Porto — Semiologia Médica, 8ª ed., Parte 6 (Sistema Tegumentar), cap. 12 (Exame Clínico) — Pele: coloração (palidez, vermelhidão, cianose, icterícia, albinismo, bronzeamento, dermatografismo, fenômeno de Raynaud), continuidade, umidade, textura, espessura, temperatura, elasticidade e mobilidade, turgor, sensibilidade; Lesões elementares e sua classificação em seis grupos; manchas vasculares e hemorrágicas — petéquias, víbices e equimoses (Figuras 12.10 e 12.11); Mucosas: coloração, descoramento em cruzes, umidade; Fâneros: cabelo, pelos e unhas (Figura 12.33 e Quadro 12.1)",
+        "Porto — Semiologia Médica, 8ª ed., Parte 3 (Método Clínico), cap. 8 (Exame Físico Geral) — pele, mucosas e fâneros na sequência do exame físico geral; alterações do tegumento na desnutrição",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 10 (Anemia), p. 73-75 — palidez da rima conjuntival (Figura 10.1) e demais sítios de palidez, boxe EBM 10.1",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 8 (Jaundice), p. 59-63 — onde a icterícia é notada primeiro e por que scleral icterus é designação imprópria; gordura subconjuntival e carotenemia como imitadores; sensibilidade do exame conforme o nível de bilirrubina",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 29, Tabela 5.1 — concordância entre observadores para palidez do leito ungueal, palidez conjuntival pelo método da rima, icterícia e cianose",
+        "Semiologia Clínica, 1ª ed., cap. 9 (O exame da pele e anexos) — condições do exame dermatológico, inspeção a distância e a curta distância, palpação, digitopressão e vitropressão, compressão; classificação das lesões elementares em seis grupos (Tabela 1); fototipo de Fitzpatrick; exame das unhas e regiões periungueais",
+        "Semiologia Clínica, 1ª ed., cap. 45 (Icterícia) — onde pesquisar icterícia, esclera e mucosa oral, fotoescurecimento da esclera, betacarotenemia; nível de bilirrubina a partir do qual a icterícia é detectada; graduação em cruzes e seus estudos de correlação e concordância; zonas dérmicas e progressão craniocaudal na icterícia neonatal"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O maior órgão do corpo, examinado em três perguntas",
+         "texto": "A pele responde por cerca de 15% do peso corporal e é o único órgão que se examina inteiro sem nenhum aparelho. Ela tem doenças próprias, mas o que a torna indispensável ao exame físico geral é outra coisa: **muita doença sistêmica aparece primeiro no tegumento**.\n\nO exame se organiza em três perguntas.\n\n1. **Que cor tem esta pele, e esta mucosa?** Palidez, vermelhidão, cianose, icterícia e discromias.\n2. **Que lesões existem, e de que tipo?** As lesões elementares, seu formato e sua distribuição.\n3. **O que dizem os anexos?** Cabelos, pelos e unhas.\n\nTrês condições básicas valem para tudo o que vem depois: **iluminação adequada**, de preferência natural; **desnudamento** da região examinada, uma de cada vez; e **comparação com o lado homólogo**, que é o que transforma uma impressão em achado.\n\nUma advertência abre o tópico porque atravessa todo ele: reconhecer alterações de coloração em pele escura é mais difícil, e alguns sítios deixam de servir. A saída não é abandonar o achado — é mudar de sítio, como se detalha adiante para a palidez e para a icterícia.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como examinar"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Exame da pele, das mucosas e dos fâneros",
+         "passos": [
+          "Registre, na identificação, a cor da pele do paciente — é a referência contra a qual toda alteração de coloração será lida.",
+          "Inspecione primeiro a 1 a 2 metros de distância, para captar a distribuição e a simetria das lesões, e só depois a 20 a 30 centímetros, para a morfologia de cada uma.",
+          "Use luz natural ou fluorescente incidindo por trás do examinador; recorra a lupa quando a lesão for pequena.",
+          "Palpe com as polpas digitais deslizando sobre a superfície: umidade, textura, espessura (pinçando só epiderme e derme) e consistência das lesões.",
+          "Avalie a temperatura com o dorso das mãos, comparando sempre regiões homólogas.",
+          "Pesquise elasticidade tracionando a prega cutânea e turgor pinçando uma prega que inclua o tecido subcutâneo.",
+          "Aplique a digitopressão ou a vitropressão sobre toda lesão avermelhada — é o gesto que separa eritema de mancha hemorrágica.",
+          "Examine as mucosas acessíveis: conjuntivas oculares, lábios, mucosa bucal, gengivas, língua, freio da língua e palato duro.",
+          "Procure palidez e icterícia nos sítios de maior rendimento, e cianose nos lábios, na língua, nas orelhas e nas extremidades.",
+          "Examine cabelos e pelos quanto a distribuição, quantidade, coloração, brilho e fragilidade, testando o destacamento à tração suave.",
+          "Examine as unhas das mãos e dos pés — forma, implantação, espessura, superfície, consistência, brilho e coloração — e as regiões periungueais."
+         ],
+         "observar": "Examinar a pele exige despir, e despir exige cuidado. Exponha uma região por vez, feche a porta, pergunte antes de descobrir áreas íntimas e explique o motivo — \"preciso olhar as pernas inteiras porque procuro pontos vermelhos que não somem quando aperto\" é uma frase que transforma constrangimento em colaboração. Lesões em áreas cobertas são justamente as que passam despercebidas quando o exame se limita ao que já está à mostra.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Pele, mucosas e fâneros em 10 passos",
+         "itens": [
+          "Iluminação adequada e exposição da região examinada, uma de cada vez.",
+          "Inspeção a distância seguida de inspeção a curta distância.",
+          "Coloração da pele avaliada em comparação com o registro inicial e entre regiões homólogas.",
+          "Palidez pesquisada nas conjuntivas, nas palmas e nas pregas palmares.",
+          "Icterícia pesquisada na esclera e conjuntiva, no freio da língua e no palato duro.",
+          "Cianose pesquisada em lábios, língua, mucosa oral e extremidades.",
+          "Digitopressão ou vitropressão aplicada a toda lesão avermelhada.",
+          "Lesões elementares descritas por tipo, tamanho, formato e distribuição.",
+          "Turgor, elasticidade, umidade, textura e temperatura da pele avaliados.",
+          "Cabelos, pelos, unhas e regiões periungueais examinados."
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Lesões elementares"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Um vocabulário de seis grupos",
+         "texto": "As agressões que a pele sofre são muitas; as respostas de que ela dispõe são poucas. Daí a possibilidade de um vocabulário fechado — as **lesões elementares** —, que descreve qualquer dermatose com um número pequeno de palavras.\n\nA classificação clássica usa seis grupos:\n\n1. alterações de cor (as manchas ou máculas);\n2. elevações edematosas;\n3. formações sólidas (da pápula à goma);\n4. coleções líquidas;\n5. alterações da espessura (queratose, esclerose, atrofia);\n6. perdas e reparações teciduais.\n\nDuas regras de uso poupam erro. A primeira: **mácula se confirma com o dedo, não com o olho**. É preciso deslizar as polpas de três dedos — o indicador, o médio e o anular — pela área alterada e por suas vizinhanças, porque só assim se percebem elevações discretas e mudanças de superfície que a inspeção não pega. A segunda: **o tamanho separa nomes**, e a fronteira quase sempre é 1 cm — pápula e vesícula abaixo, tubérculo e bolha acima.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Resumo operacional das lesões elementares",
+         "colunas": [
+          "Grupo",
+          "Lesão",
+          "Como reconhecer"
+         ],
+         "linhas": [
+          [
+           "Alterações de cor",
+           "Mancha ou mácula",
+           "Área circunscrita de cor diferente, no mesmo plano da pele e sem alteração de superfície; subdivide-se em pigmentar, vascular, hemorrágica e por depósito de pigmentos"
+          ],
+          [
+           "Elevações edematosas",
+           "Lesão urticada",
+           "Elevação de formato variável, em geral eritematosa e pruriginosa, por edema circunscrito da derme; a urticária é a causa mais comum"
+          ],
+          [
+           "Formações sólidas",
+           "Pápula",
+           "Elevação sólida, superficial, bem delimitada, até 1 cm; a borda é percebida ao deslizar a polpa digital"
+          ],
+          [
+           "Formações sólidas",
+           "Tubérculo",
+           "Elevação sólida e circunscrita, maior que 1 cm, situada na derme; costuma evoluir com cicatriz"
+          ],
+          [
+           "Formações sólidas",
+           "Nódulo, nodosidade e goma",
+           "Formações sólidas da hipoderme, mais perceptíveis à palpação do que à inspeção; a goma é a nodosidade que amolece e ulcera, eliminando substância semissólida"
+          ],
+          [
+           "Formações sólidas",
+           "Vegetação e verrucosidade",
+           "Lesões salientes, lobulares ou em couve-flor, de consistência mole; quando a camada córnea espessa, tornam-se endurecidas (verrucosidade)"
+          ],
+          [
+           "Coleções líquidas",
+           "Vesícula e bolha",
+           "Elevações com conteúdo líquido; até 1 cm são vesículas, acima disso, bolhas. A punção resolve a dúvida com a pápula"
+          ],
+          [
+           "Coleções líquidas",
+           "Pústula e abscesso",
+           "Pústula é a vesícula de conteúdo purulento; abscesso é a coleção purulenta mais profunda e flutuante, quente quando há sinais inflamatórios e fria quando não há"
+          ],
+          [
+           "Alterações da espessura",
+           "Queratose e liquenificação",
+           "Queratose é o espessamento da camada córnea, duro e inelástico — o calo é o exemplo; liquenificação é o espessamento com acentuação das estrias, em quadriculado, típico de áreas coçadas"
+          ],
+          [
+           "Alterações da espessura",
+           "Infiltração, esclerose e atrofia",
+           "Infiltração aumenta consistência e espessura mantendo a pele depressível; esclerose torna a pele firme, aderente aos planos profundos e difícil de pregueá-la entre os dedos; atrofia a adelgaça, deixando-a fina, lisa e translúcida"
+          ],
+          [
+           "Perdas e reparações",
+           "Escama e crosta",
+           "Escama é a lâmina epidérmica seca que se desprende — furfurácea quando em farelo, laminar quando em tiras; crosta é o ressecamento de secreção serosa, sanguínea ou purulenta sobre área previamente lesada"
+          ],
+          [
+           "Perdas e reparações",
+           "Erosão, ulceração e fissura",
+           "Erosão ou exulceração atinge apenas a epiderme e não deixa cicatriz; ulceração atinge a derme e deixa cicatriz; fissura ou rágade é a perda linear, comum no fundo de dobras e ao redor de orifícios naturais"
+          ],
+          [
+           "Perdas e reparações",
+           "Escara, cicatriz e queloide",
+           "Escara é a porção de tecido necrosado por pressão, isolada ou somada a fricção e cisalhamento, insensível, escurecida e separada do tecido sadio por um sulco; cicatriz é a reposição por tecido fibroso; queloide é a formação fibrosa saliente, firme, róseo-avermelhada, de bordas nítidas e ramificações curtas"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Digitopressão, vitropressão e puntipressão",
+         "texto": "Uma única manobra resolve a dúvida mais frequente do exame da pele: **a cor vem do sangue dentro do vaso ou do sangue fora dele?**\n\nComprima a lesão e observe o que acontece com a cor. A compressão pode ser feita com a polpa digital (**digitopressão**), com uma lâmina de vidro transparente, que permite ver enquanto se comprime (**vitropressão**), ou com um objeto pontiagudo em um ponto preciso (**puntipressão**).\n\n- **A mancha desaparece** — a cor vinha de sangue circulante em vasos dilatados. É mancha vascular: eritema, telangiectasia, aranha vascular.\n- **A mancha não desaparece** — o sangue já extravasou para o tecido, e comprimir não o desloca. É mancha hemorrágica.\n\nA puntipressão tem um uso elegante nas **aranhas vasculares**: comprimindo exatamente o ponto central, oclui-se a arteríola que alimenta os vasos radiados, e a lesão inteira empalidece de uma vez.\n\nA mesma manobra serve a outras perguntas: separa mancha hipocrômica de nevo anêmico, e revela nas lesões granulomatosas a coloração característica descrita como geleia de maçã.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Palidez"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Palidez: onde procurar",
+         "texto": "Palidez é a atenuação ou o desaparecimento da cor rósea que a rede capilar cutânea confere à pele. Duas distinções organizam o achado.\n\n**Generalizada ou localizada.** A palidez generalizada traduz redução das hemácias circulantes na microcirculação cutânea, e chega ali por dois caminhos diferentes: **vasoconstrição** — emoções fortes, dor excruciante, náusea intensa, lipotimia, feocromocitoma, choque — ou **redução real de hemácias e hemoglobina**, que é a anemia. A palidez localizada ou segmentar tem a isquemia como causa principal, e é por isso que a comparação entre regiões homólogas é obrigatória: a obstrução de uma femoral se manifesta pela palidez de um membro *comparado ao outro*.\n\n**Onde olhar.** A palidez deve ser pesquisada em toda a superfície cutânea, incluindo as regiões palmoplantares. Em pessoas pardas e negras, é nas palmas das mãos e nas plantas dos pés que ela se identifica — e nas mucosas, que independem da pigmentação da pele.\n\nNas mucosas, o achado se chama **descoramento**, e se gradua em cruzes: mucosas descoradas (+) indicam leve redução da cor normal e (++++), o desaparecimento completo do rosado, com as mucosas brancas como papel. É a escala de cruzes de Porto, a mesma tradição brasileira que gradua edema e sopros — e distinta da graduação de Levine, de 1 a 6, usada para sopros no capítulo do coração.\n\nUm limite honesto: mucosas descoradas indicam anemia, mas **os achados mucocutâneos não identificam de que anemia se trata**. Em todos os casos, o hemograma é indispensável.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "O que cada sítio de palidez acrescenta na suspeita de anemia (McGee, cap. 10)",
+         "colunas": [
+          "Sítio pesquisado",
+          "Razão de verossimilhança quando há palidez"
+         ],
+         "linhas": [
+          [
+           "Rima conjuntival (método da rima)",
+           "16,7"
+          ],
+          [
+           "Pregas palmares",
+           "7,9"
+          ],
+          [
+           "Palma da mão",
+           "5,6"
+          ],
+          [
+           "Conjuntiva, sem o método da rima",
+           "4,7"
+          ],
+          [
+           "Palidez em qualquer sítio",
+           "3,8"
+          ],
+          [
+           "Face (apenas em pessoas de pele clara)",
+           "3,8"
+          ],
+          [
+           "Língua",
+           "3,7"
+          ],
+          [
+           "Leito ungueal",
+           "sem significância"
+          ]
+         ]
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "O método da rima conjuntival",
+         "texto": "A maioria dos examinadores avalia palidez por comparação subjetiva — com a própria pele, ou com a lembrança de como é uma pele normal. Existe, porém, uma definição objetiva, e ela é a que melhor se sai nos estudos.\n\nPuxe delicadamente a pálpebra inferior e olhe a superfície interna. Em quem não tem anemia, aparecem **duas zonas de cor**: a borda anterior — a rima — é nitidamente avermelhada, pela rica vascularização, e contrasta com a porção mais próxima do globo, de cor mais pálida e carnosa, onde predomina o tecido linfoide. Diz-se que há **palidez da rima conjuntival** quando esse contraste desaparece e toda a superfície interna da pálpebra tem a mesma cor pálida.\n\nDois dados reforçam a preferência por esse sítio. A palidez da rima conjuntival é o achado que mais eleva a probabilidade de anemia, com razão de verossimilhança 16,7. E é também mais reprodutível: na Tabela 5.1 de McGee, a palidez conjuntival pelo método da rima alcança kappa de 0,54 a 0,75, enquanto a palidez do leito ungueal fica em 0,19 a 0,34 — coerente com o fato de o leito ungueal não ter mostrado valor diagnóstico.\n\nE um contrapeso que fecha o raciocínio: **nenhum sinal físico afasta anemia com convicção**. Nenhuma razão de verossimilhança negativa desceu abaixo de 0,4. Mucosas coradas tranquilizam pouco; o hemograma continua necessário.\n"
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"58\" y=\"14\">pálpebra inferior</text>\n    <text x=\"160\" y=\"14\">boca e língua</text>\n    <text x=\"264\" y=\"14\">mão</text>\n  </g>\n  <!-- A: olho com pálpebra tracionada -->\n  <path d=\"M 20 56 C 34 40, 82 40, 96 56 C 82 72, 34 72, 20 56 Z\" stroke-width=\"1.8\" />\n  <circle cx=\"58\" cy=\"56\" r=\"11\" stroke-width=\"1.6\" />\n  <circle cx=\"58\" cy=\"56\" r=\"4\" stroke-width=\"1.4\" />\n  <path d=\"M 24 66 C 36 84, 80 84, 92 66\" stroke-width=\"1.8\" />\n  <path d=\"M 27 71 C 38 82, 78 82, 89 71\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\" />\n  <path d=\"M 58 84 L 58 96\" stroke-width=\"1.2\" />\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"58\" y=\"106\">1 rima</text>\n    <text x=\"58\" y=\"117\">2 face interna</text>\n  </g>\n  <!-- B: boca aberta, língua elevada -->\n  <path d=\"M 124 46 C 142 34, 178 34, 196 46 C 180 78, 140 78, 124 46 Z\" stroke-width=\"1.8\" />\n  <path d=\"M 132 45 C 146 40, 174 40, 188 45\" stroke-width=\"1.2\" />\n  <path d=\"M 160 52 C 152 56, 150 66, 154 74\" stroke-width=\"1.4\" />\n  <path d=\"M 160 52 C 168 56, 170 66, 166 74\" stroke-width=\"1.4\" />\n  <path d=\"M 160 54 L 160 74\" stroke-width=\"1.2\" stroke-dasharray=\"3 3\" />\n  <path d=\"M 160 40 L 160 34\" stroke-width=\"1.2\" />\n  <path d=\"M 160 78 L 160 96\" stroke-width=\"1.2\" />\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"160\" y=\"28\">3 palato duro</text>\n    <text x=\"160\" y=\"106\">4 freio da língua</text>\n  </g>\n  <!-- C: mão, palma -->\n  <path d=\"M 240 96 C 236 78, 238 62, 244 56 C 248 52, 252 54, 252 60 L 252 74\" stroke-width=\"1.6\" />\n  <path d=\"M 252 74 L 252 44 C 252 39, 258 39, 258 44 L 258 74\" stroke-width=\"1.6\" />\n  <path d=\"M 258 74 L 258 42 C 258 37, 264 37, 264 42 L 264 74\" stroke-width=\"1.6\" />\n  <path d=\"M 264 74 L 264 46 C 264 41, 270 41, 270 46 L 270 76\" stroke-width=\"1.6\" />\n  <path d=\"M 270 76 L 274 54 C 275 49, 281 50, 280 56 L 278 82\" stroke-width=\"1.6\" />\n  <path d=\"M 240 96 C 246 108, 274 108, 278 82\" stroke-width=\"1.6\" />\n  <g stroke-width=\"1.2\">\n    <path d=\"M 246 82 C 254 76, 264 76, 272 80\" />\n    <path d=\"M 246 90 C 256 84, 266 84, 274 88\" />\n  </g>\n  <g stroke-width=\"1.2\">\n    <path d=\"M 252 44 C 254 42, 257 42, 258 44\" />\n    <path d=\"M 258 42 C 260 40, 263 40, 264 42\" />\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"262\" y=\"122\">5 pregas palmares</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"14\" y=\"150\">Palidez: 1 rima conjuntival (maior rendimento), 5 pregas palmares.</text>\n    <text x=\"14\" y=\"166\">Icterícia: 1 esclera e conjuntiva, 4 freio da língua, 3 palato duro.</text>\n    <text x=\"14\" y=\"182\">Em pele escura, palma e planta substituem a pele na busca de palidez.</text>\n  </g>\n</svg>\n",
+         "legenda": "Os mesmos três sítios servem a duas perguntas diferentes. A conjuntiva responde pelas duas — pela rima, na palidez; pela cor de fundo, na icterícia."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Icterícia"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Icterícia: onde procurar",
+         "texto": "Icterícia é a cor amarelada que o acúmulo de bilirrubina imprime à pele, às mucosas visíveis e à esclerótica. O pigmento se deposita preferencialmente onde há mais tecido conjuntivo e mais albumina — daí a ordem em que os sítios se tornam positivos.\n\nPesquisa-se icterícia, em ordem de rendimento, na **esclera e na conjuntiva**, no **freio da língua** e no **palato duro**; depois nos lábios, nas regiões ungueais, nas mãos e na pele. As icterícias mais leves só são perceptíveis nos primeiros sítios. À medida que a bilirrubina sobe, a face, as mucosas e por fim a pele inteira adquirem tonalidade amarela ou alaranjada, que pode ir do amarelo-claro ao amarelo-esverdeado.\n\n**A luz é parte do método**: examine, sempre que possível, sob iluminação natural.\n\nDois cuidados evitam o falso-positivo em pessoas negras. Porto registra que a esclerótica pode apresentar coloração amarelada por **depósito de gordura**, que não é icterícia. Semiologia Clínica acrescenta o **fotoescurecimento da esclera** e oferece a solução prática: avaliar a região da esclera **sob a pálpebra inferior**, que não fica exposta à luz solar.\n"
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Esclera ou conjuntiva? Duas leituras da mesma observação",
+         "texto": "O sítio é o mesmo; a explicação anatômica divide as fontes, e vale conhecer as duas.\n\n**Semiologia Clínica (cap. 45)** justifica a preferência pela esclera: é tecido rico em elastina, à qual a bilirrubina tem afinidade, e sua cor de base habitualmente branca faz dela o lugar onde a icterícia é mais facilmente percebida.\n\n**McGee (cap. 8)** afirma o contrário sobre o local do depósito: o termo tradicional *scleral icterus* seria impreciso, porque estudos anatomopatológicos revelam que a maior parte do pigmento se deposita na **conjuntiva**, e não na esclera, que é avascular.\n\nO guia registra as duas posições sem misturá-las, porque a divergência é sobre o mecanismo — e porque a conduta à beira do leito não muda: **olha-se o mesmo lugar**, a superfície ocular exposta ao afastar as pálpebras, de preferência sob luz natural.\n\nMcGee acrescenta ainda um imitador que mora exatamente ali: a **gordura subconjuntival** amarelada pode ser confundida com icterícia, mas costuma limitar-se às dobras da conjuntiva e poupa a área vizinha à córnea — ao contrário da icterícia, que a acomete.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A partir de que nível a icterícia se vê",
+         "texto": "Aqui as fontes divergem em ênfase, e o mais útil é registrá-las lado a lado.\n\n**Semiologia Clínica (cap. 45)** situa a bilirrubina sérica normal, em crianças e adultos, abaixo de 1 mg/dL, e afirma que a icterícia clínica geralmente só é detectada com aumentos da ordem de duas a três vezes o limite superior — acima de 2 a 3 mg/dL.\n\n**McGee (cap. 8)** parte do mesmo ensino clássico e o confronta com dados: embora muitos textos afirmem que a icterícia se torna evidente quando a bilirrubina ultrapassa 2,5 a 3 mg/dL, os estudos clínicos mostram que **apenas 70% a 80% dos observadores a detectam nesse limiar**. A sensibilidade do exame sobe para 83% quando a bilirrubina ultrapassa 10 mg/dL e para 96% acima de 15 mg/dL.\n\nA leitura conjunta é simples e prática: o limiar clássico de 2 a 3 mg/dL descreve **quando o pigmento começa a poder ser visto**, não quando ele *será* visto. Perto desse valor, a ausência de icterícia ao exame não afasta hiperbilirrubinemia — e a concordância entre observadores para o achado, embora razoável (kappa 0,65 na Tabela 5.1 de McGee), não é perfeita.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Graduação em cruzes e progressão craniocaudal",
+         "texto": "Duas tentativas clássicas de quantificar a icterícia à beira do leito merecem uma leitura crítica — e Semiologia Clínica, no capítulo de icterícia, faz essa leitura com dados brasileiros.\n\n**A graduação em cruzes.** O grau de icterícia costuma ser descrito qualitativamente (leve, moderada, grave), quantitativamente em uma escala de uma a quatro cruzes — em que + é leve alteração da coloração normal e ++++ é coloração intensa — ou de forma dicotômica, apenas como presente ou ausente. Um estudo conduzido em Santa Catarina mostrou que a graduação estratificada em cruzes tem baixa correlação com os níveis séricos de bilirrubina e baixa concordância entre observadores. Outro, na Universidade de São Paulo, concluiu que, embora rotineiramente ensinados, os níveis de intensidade não parecem determinar nem alterar a conduta inicial — o que muda a conduta é o sinal estar presente ou ausente.\n\n**A progressão craniocaudal.** No recém-nascido, a avaliação clínica da icterícia é decisiva, porque níveis muito elevados de bilirrubina não conjugada podem atravessar a barreira hematoencefálica e produzir kernicterus. Um dos métodos difundidos correlaciona zonas dérmicas com níveis séricos, apoiado na progressão tipicamente craniocaudal: cabeça em torno de 6 mg/dL, abdome e coxas em torno de 12 mg/dL, mãos e pés em torno de 16 mg/dL. A ressalva vem da mesma fonte: trabalhos mais recentes encontraram **correlação pobre entre a bilirrubina dosada e a progressão cefalocaudal usada de forma isolada**.\n\nA lição comum às duas escalas é a mesma que atravessa este guia: registre com precisão o que viu e onde viu; use a dosagem para quantificar.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Icterícia × carotenodermia e outras cores amarelas",
+         "texto": "Nem todo amarelo é bilirrubina, e a diferença se faz sem exame nenhum.\n\n**Carotenodermia (betacarotenemia).** A ingestão elevada de alimentos ricos em carotenos — cenoura, mamão, beterraba — ou de suplementos vitamínicos produz tonalidade amarelo-alaranjada da pele, mais evidente nas **palmas, nas plantas e no sulco nasolabial**. O achado que resolve a dúvida é a negativa: a carotenodermia **poupa a conjuntiva e a mucosa oral**. Olhar o olho e o freio da língua encerra a discussão.\n\n**Impregnação medicamentosa.** Substâncias que se depositam na pele, como a quinacrina, produzem coloração amarelada cutânea sem acometer as mucosas — mesma lógica.\n\n**Gordura subconjuntival.** Amarelada, limitada às dobras da conjuntiva e poupando a vizinhança da córnea.\n\n**Depósito de outros pigmentos.** O grupo das manchas por depósito abrange hemossiderina, bilirrubina, pigmento carotênico, corpos estranhos (tatuagem) e pigmentos metálicos como prata e bismuto.\n\nUm resumo operacional: **pele amarela com olho e boca poupados não é icterícia**.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Cianose e manchas hemorrágicas"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Cianose: onde olhar e um esquema prático",
+         "texto": "Cianose é a coloração azulada da pele e das mucosas. Este guia a trata em detalhe no tópico de inspeção do tórax: é lá que estão o limiar de desoxi-hemoglobina necessário para produzir a cor, a razão pela qual **o paciente anêmico pode estar gravemente hipoxêmico sem ficar cianótico**, e a distinção entre cianose central e periférica. Não repita aquele conteúdo — cite-o.\n\nO que cabe ao exame do tegumento é onde procurar e como classificar.\n\n**Onde procurar.** No rosto — sobretudo na região perioral —, na ponta do nariz, nos lóbulos das orelhas, nas mucosas e nas extremidades das mãos e dos pés, incluindo o leito ungueal e as polpas digitais. Nos casos intensos, todo o tegumento adquire tonalidade azulada ou arroxeada.\n\n**Generalizada ou segmentar.** A pergunta vem antes de qualquer outra, porque o raciocínio clínico é completamente diferente nos dois casos: a cianose segmentar significa obstrução de uma veia que drena aquela região.\n\nPorto oferece um esquema prático que complementa o que o tópico do tórax ensina:\n\n- toda cianose restrita a um segmento é, necessariamente, periférica;\n- quando universal, a origem pode estar no pulmão, no coração, na periferia ou no próprio pigmento alterado;\n- aquecer a área faz a cianose periférica atenuar-se ou desaparecer, e não muda a central;\n- a oxigenoterapia atua sobre a central, melhora a mista e nada faz pela periférica;\n- unha azulada em mão quente aponta para origem central.\n\nUma quarta categoria completa a lista das fontes: a **cianose por alteração da hemoglobina**, das metemoglobinemias e sulfemoglobinemias, em que a insaturação sobe porque o pigmento perdeu a capacidade de fixar oxigênio.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Manchas hemorrágicas (petéquias, víbices e equimoses)",
+         "descricao": "Também chamadas sufusões hemorrágicas. São manchas que **não desaparecem à compressão**, porque a cor vem de sangue extravasado para o tecido — e é exatamente esse comportamento que as separa das manchas eritematosas. A forma e o tamanho as subdividem em três:\n\n- **petéquias** — puntiformes, medindo até 1 cm;\n- **víbices** — dispostas em linha;\n- **equimoses** — em placa, acima de 1 cm.\n\nA coloração varia do vermelho-arroxeado ao amarelo conforme o tempo de evolução. Nas equimoses grandes e médias, Porto descreve a sequência: avermelhadas até 48 horas; arroxeadas entre 48 e 96 horas; azuladas do 5º ao 6º dia; amareladas do 6º ao 8º dia; e retorno à coloração normal depois do 9º dia. Nas pequenas, o ciclo é mais curto. Equimoses grandes e médias permanecem visíveis mesmo em pessoas negras.\n\nQuando o extravasamento é suficiente para elevar a pele, chama-se hematoma — e equimose e hematoma se associam com frequência.\n",
+         "significado": "A digitopressão é o gesto que muda a conduta. Um exantema que empalidece à compressão pertence a um grupo de doenças; um exantema que não empalidece pertence a outro, com muito mais urgência. Em criança febril, procurar petéquias exige despir por completo — e essa é a diferença entre encontrar e não encontrar.\n\nQuando as manchas hemorrágicas decorrem de alterações capilares ou de discrasias sanguíneas — e não de traumatismo —, o quadro recebe o nome de **púrpura**.\n",
+         "causas": [
+          "Traumatismos, inclusive os provocados por manobras que aumentam a pressão venosa",
+          "Alterações capilares — as púrpuras vasculares, incluindo a púrpura senil",
+          "Discrasias sanguíneas, com destaque para as plaquetopenias, como a púrpura trombocitopênica",
+          "Infecções graves com comprometimento vascular e de coagulação"
+         ]
+        },
+        {
+         "tipo": "perola",
+         "texto": "Diante de qualquer mancha avermelhada, o dedo vale mais do que o olho: comprima. Se some, é vaso dilatado; se não some, é sangue fora do vaso. É a manobra mais barata do exame físico e uma das que mais mudam a conduta — o caso de febre na criança deste guia gira em torno dela."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Fâneros"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Cabelos, pelos e unhas",
+         "texto": "Os fâneros compreendem cabelo, pelos e unhas, e cada um deles registra a história das últimas semanas ou meses do organismo.\n\n**Cabelos.** Avaliam-se tipo de implantação, distribuição, quantidade, coloração e o conjunto brilho–espessura–consistência. Áreas sem pelos configuram **alopecia**; a queda de cabelos é, por si, um dado de interesse. Cabelos que perdem o brilho e se tornam secos e quebradiços aparecem no mixedema e nos estados carenciais — e, na desnutrição proteica grave da criança, o cabelo pode mudar de cor. No exame do couro cabeludo, a **prova de tração suave** (manobra de Sabouraud) testa o destacamento dos fios.\n\n**Pelos.** Interessam distribuição, quantidade e caracteres do fio. **Hipertricose** é o aumento exagerado de pelos terminais; **hirsutismo**, o aumento de pelos de padrão masculino na mulher, que quando ligado a níveis elevados de testosterona vem com implantação masculina dos cabelos e calvície temporal. A **virilização** soma ao hirsutismo o aprofundamento da voz e o aumento do clitóris. Na direção oposta, a queda de pelos axilares e pubianos aponta desnutrição, hepatopatias crônicas, mixedema, colagenoses, quimioterapia e algumas dermatoses.\n\n**Unhas.** Analisam-se forma, tipo de implantação, espessura, superfície, consistência, brilho e coloração — nas mãos e nos pés —, sem esquecer as **regiões periungueais**, sede frequente de processos inflamatórios e de alterações capilares com valor sistêmico. A unha normal tem superfície lisa e brilhante, cor róseo-avermelhada, uma curvatura lateral nítida, espessura e consistência firmes.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Alterações das unhas com nome próprio",
+         "colunas": [
+          "Alteração",
+          "O que se vê",
+          "Contextos"
+         ],
+         "linhas": [
+          [
+           "Unhas em vidro de relógio",
+           "Unha convexa em todos os sentidos, com ângulo de implantação alargado; compõe o hipocratismo digital",
+           "Cardiopatias congênitas, bronquiectasias e as demais causas de baqueteamento"
+          ],
+          [
+           "Coiloníquia (unha em colher)",
+           "Placa ungueal fina, com depressão central",
+           "Anemia ferropriva grave; também por irritantes locais"
+          ],
+          [
+           "Leuconíquia",
+           "Manchas brancas na placa ungueal",
+           "Achado comum em pessoas sadias"
+          ],
+          [
+           "Linhas de Beau",
+           "Sulcos transversais à lúnula",
+           "Doenças renais e hepáticas, e outras doenças sistêmicas que interrompem o crescimento da unha"
+          ],
+          [
+           "Faixas de Mees",
+           "Faixas transversais brancas",
+           "Intoxicação por arsênico; doença sistêmica de instalação aguda"
+          ],
+          [
+           "Unhas de Plummer",
+           "Onicólise — a unha se descola parcialmente do leito",
+           "Hipertireoidismo"
+          ],
+          [
+           "Unhas distróficas",
+           "Espessadas, rugosas e de formato irregular",
+           "Traumatismos repetidos, onicomicose, isquemia crônica dos membros inferiores"
+          ],
+          [
+           "Paroníquia",
+           "Inflamação da região que circunda a unha",
+           "Frequente em quem mantém as mãos em contato constante com água; causa micótica comum"
+          ],
+          [
+           "Onicofagia",
+           "Sinais do hábito de roer as unhas",
+           "Indicativo de ansiedade"
+          ]
+         ]
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Dois ângulos diferentes na mesma unha",
+         "texto": "Este é um ponto em que dois vocabulários se cruzam e podem parecer contraditórios. Não são: **são duas medidas distintas, feitas em referências distintas**.\n\nO **ângulo de implantação** (ou ângulo de perfil) é o que Porto descreve no exame das unhas: forma-se entre a placa ungueal e a dobra ungueal proximal, vista de perfil. Na unha normal ele fica em torno de 160°, e no hipocratismo digital aproxima-se de 180° — a unha perde o degrau e a última falange fica \"em vidro de relógio\".\n\nO **ângulo hiponiquial** é outro: mede-se a partir do hiponíquio, na face inferior da falange, e o limite descrito por McGee para baqueteamento é 190°. É acurado, mas exige instrumentos e não se faz à beira do leito.\n\nOs números não se contradizem porque não medem a mesma coisa. Ao registrar, **diga qual ângulo você usou**.\n\nO detalhamento do baqueteamento digital — as três definições sustentadas por dados, o **sinal de Schamroth** e as razões de verossimilhança de cada uma, além da lista de doenças de base — está no tópico de inspeção do tórax, junto do restante da moldura da doença pulmonar crônica.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Discromias comuns",
+         "texto": "As manchas pigmentares decorrem de alteração do pigmento melânico e se dividem em três grupos, aos quais se soma o das pigmentações externas.\n\n**Hipocrômicas e acrômicas**, por redução ou ausência de melanina: vitiligo (acrômica), pitiríase alba, hanseníase, nevo acrômico, albinismo. A distinção prática entre mancha hipocrômica e nevo anêmico se faz pela vitropressão — no nevo anêmico a redução é do compartimento vascular, não do pigmento, e a mancha some junto com a pele comprimida ao redor.\n\n**Hipercrômicas**, por aumento de melanina: melasma ou cloasma, efélides (sardas), nevos pigmentados, melanose senil, pelagra, manchas que sucedem processos de cicatrização e a hiperpigmentação que acompanha a estase venosa crônica das pernas.\n\n**Pigmentação externa**, produzida por substâncias de uso tópico que deixam manchas em tons de cinza a preto — alcatrões, antralina, nitrato de prata, permanganato de potássio.\n\nDuas alterações de cor difusa completam a lista e apontam para doença sistêmica: o **bronzeamento natural** da pele, que ocorre na doença de Addison e na hemocromatose por alteração do metabolismo da melanina, e o **eritema palmar** das hepatopatias crônicas, sobretudo da cirrose.\n\nUma advertência transversal: a quantidade de melanina influencia como toda lesão elementar aparece, e sobretudo as alterações de cor e o eritema. O **fototipo** — classificação de Fitzpatrick, de I a VI — deve ser considerado no exame, tanto por isso quanto pelas diferenças de prevalência e de gravidade de várias dermatoses.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde este tópico encontra os outros",
+         "texto": "O tegumento é o lugar onde vários capítulos deste guia se cruzam.\n\n- **Cianose** — limiar de desoxi-hemoglobina, por que o anêmico não fica cianótico, e a distinção entre central e periférica — está no tópico de inspeção do tórax.\n- **Baqueteamento digital**, com o sinal de Schamroth, as definições acuradas e as doenças de base, está no mesmo tópico de inspeção do tórax.\n- **Edema**, com a técnica do cacifo, a graduação em cruzes e as alterações de pele que o acompanham — pele lisa e brilhante no edema recente, espessa nos antigos —, está no tópico de pulso venoso jugular e turgência.\n- **Turgor, elasticidade e umidade como sinais de hidratação**, com as razões de verossimilhança correspondentes, estão no tópico de antropometria e hidratação deste capítulo.\n- **Petéquias como sinal de gravidade em criança febril** aparecem no caso clínico de febre na criança e no tópico de temperatura e frequência respiratória.\n- **Palidez, icterícia, prurido e lesões de pele como sintomas relatados** pertencem ao interrogatório sintomatológico, no capítulo da entrevista clínica.\n- **Fácies e estado geral**, que dependem em parte da cor do tegumento, estão no tópico de ectoscopia.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Seis erros que custam achados",
+         "texto": "1. **Examinar só a lesão de que o paciente se queixa.** O exame dermatológico envolve toda a pele, os anexos e as mucosas — e é fora da área da queixa que costumam estar as lesões que mudam o diagnóstico.\n2. **Não comprimir.** Sem digitopressão ou vitropressão, eritema e púrpura são a mesma mancha vermelha.\n3. **Procurar palidez no leito ungueal.** É o sítio de menor rendimento e o de pior concordância entre examinadores; a rima conjuntival e as pregas palmares informam muito mais.\n4. **Excluir anemia porque as mucosas estão coradas.** Nenhum sinal físico afasta anemia de forma convincente.\n5. **Chamar de icterícia toda pele amarela.** Carotenodermia e impregnação medicamentosa poupam conjuntiva e mucosa oral; a gordura subconjuntival poupa a vizinhança da córnea.\n6. **Confiar na graduação em cruzes da icterícia.** A correlação com a bilirrubina sérica e a concordância entre observadores são baixas; o que muda a conduta inicial é o sinal estar presente ou ausente.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "pele-1",
+           "enunciado": "Você encontra manchas avermelhadas no tronco de um paciente febril. Ao comprimi-las com uma lâmina de vidro, as manchas não empalidecem. O que isso significa?",
+           "alternativas": [
+            "São manchas eritematosas por vasodilatação",
+            "São manchas hemorrágicas — o sangue já extravasou para o tecido",
+            "São telangiectasias, que exigem puntipressão central para empalidecer",
+            "São manchas hipocrômicas, e a manobra confirma redução de melanina"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "As manchas vasculares — eritema, telangiectasias, aranhas vasculares — desaparecem à digitopressão ou à vitropressão, porque a cor vem de sangue circulante em vasos dilatados. As manchas hemorrágicas não desaparecem, porque o sangue está fora do vaso. Pela forma e pelo tamanho, subdividem-se em petéquias (puntiformes, até 1 cm), víbices (dispostas em linha) e equimoses (em placa, acima de 1 cm)."
+          },
+          {
+           "id": "pele-2",
+           "enunciado": "Qual sítio de palidez mais eleva a probabilidade de anemia, e como se pesquisa?",
+           "alternativas": [
+            "O leito ungueal, comparando a cor com a do examinador",
+            "A rima conjuntival: puxa-se a pálpebra inferior e verifica-se se o contraste entre a borda avermelhada e a porção mais pálida próxima ao globo desapareceu",
+            "A face, em qualquer fototipo de pele",
+            "A mucosa gengival, graduada em cruzes de + a ++++"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "A palidez da rima conjuntival é o achado com maior razão de verossimilhança para anemia (16,7) e também um dos mais reprodutíveis (kappa 0,54 a 0,75). Normalmente há duas zonas de cor na face interna da pálpebra inferior: a rima avermelhada e a porção mais pálida próxima ao globo; na anemia, toda a superfície fica pálida. A palidez do leito ungueal não mostrou valor diagnóstico, e a palidez facial só foi avaliada em pessoas de pele clara."
+          },
+          {
+           "id": "pele-3",
+           "enunciado": "Um paciente refere que a pele das mãos ficou amarelada nas últimas semanas. Ao exame, as palmas e as plantas estão francamente amareladas, mas a conjuntiva e a mucosa oral estão normais. Qual a interpretação?",
+           "alternativas": [
+            "Icterícia leve, ainda restrita às extremidades",
+            "Carotenodermia — a betacarotenemia poupa conjuntiva e mucosa oral",
+            "Icterícia obstrutiva, que caracteristicamente começa pelas mãos",
+            "Cianose periférica em fase de resolução"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "A ingestão elevada de alimentos ricos em caroteno ou de suplementos produz tonalidade amarelo-alaranjada, mais evidente nas palmas, nas plantas e no sulco nasolabial, e poupa a conjuntiva e a mucosa oral. A icterícia, ao contrário, é notada primeiro justamente na superfície ocular e no freio da língua. Pele amarela com olho e boca poupados não é icterícia."
+          },
+          {
+           "id": "pele-4",
+           "enunciado": "Um adulto tem bilirrubina total de 2,8 mg/dL e você não identifica icterícia ao exame. Qual é a leitura correta?",
+           "alternativas": [
+            "Houve erro laboratorial, pois acima de 2,5 mg/dL a icterícia é sempre visível",
+            "Nesse nível a icterícia pode existir sem ser vista: os estudos mostram que apenas 70% a 80% dos observadores a detectam no limiar clássico de 2,5 a 3 mg/dL",
+            "A ausência de icterícia exclui hiperbilirrubinemia quando o exame é feito sob luz natural",
+            "Só há icterícia clínica acima de 15 mg/dL"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "McGee registra que, embora os textos clássicos situem o limiar de visibilidade entre 2,5 e 3 mg/dL, apenas 70% a 80% dos observadores detectam a icterícia nesse nível; a sensibilidade sobe para 83% acima de 10 mg/dL e 96% acima de 15 mg/dL. Semiologia Clínica indica o mesmo limiar clássico de 2 a 3 mg/dL para a detecção clínica. Perto desse valor, portanto, o exame negativo não afasta hiperbilirrubinemia."
+          },
+          {
+           "id": "pele-5",
+           "enunciado": "Sobre a graduação da icterícia em cruzes, o que os estudos citados em Semiologia Clínica mostraram?",
+           "alternativas": [
+            "Correlação forte com a bilirrubina sérica, o que justifica seu uso rotineiro",
+            "Baixa correlação com os níveis séricos e baixa concordância entre observadores; o que altera a conduta inicial é o sinal estar presente ou ausente",
+            "Concordância excelente entre observadores, mas correlação fraca com a bilirrubina",
+            "Utilidade restrita ao recém-nascido, em quem a correlação é perfeita"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Um estudo conduzido em Santa Catarina mostrou baixa correlação da graduação em cruzes com os níveis séricos de bilirrubina e baixa concordância entre observadores; outro, na Universidade de São Paulo, concluiu que os níveis de intensidade não determinam nem alteram a conduta inicial, ao contrário da simples presença ou ausência do sinal. No recém-nascido, a correlação da progressão cefalocaudal isolada com a bilirrubina dosada também se mostrou pobre em estudos recentes."
+          },
+          {
+           "id": "pele-6",
+           "enunciado": "Ao examinar as unhas, você mede o ângulo de implantação e encontra valor próximo de 180°. Como interpretar esse achado e como ele se relaciona com o ângulo hiponiquial de 190° citado no tópico de inspeção do tórax?",
+           "alternativas": [
+            "Há contradição entre as fontes: um dos dois valores está errado",
+            "São medidas diferentes, feitas em referências diferentes: o ângulo de implantação normal fica em torno de 160° e se aproxima de 180° no hipocratismo; o ângulo hiponiquial é medido a partir do hiponíquio e tem limite de 190°",
+            "O ângulo de implantação de 180° é normal e o hiponiquial de 190° é patológico apenas em fumantes",
+            "Os dois ângulos são sinônimos, e a diferença de 10° decorre de arredondamento"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "São duas medidas distintas. O ângulo de implantação, ou de perfil, forma-se entre a placa ungueal e a dobra ungueal proximal, fica em torno de 160° na unha normal e se aproxima de 180° no hipocratismo digital. O ângulo hiponiquial é medido a partir do hiponíquio, na face inferior da falange, e o limite descrito para baqueteamento é 190°; é acurado, mas exige instrumentos. Ao registrar, é preciso dizer qual ângulo foi usado."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "exame-fisico-geral/avaliacao-geral/linfonodos",
+       "titulo": "Linfonodos",
+       "sistemaId": "exame-fisico-geral",
+       "capituloId": "avaliacao-geral",
+       "ordem": 4,
+       "tags": [
+        "linfonodos",
+        "exame dos linfonodos",
+        "sistema linfático",
+        "cadeias linfonodais",
+        "linfadenomegalia",
+        "linfonodomegalia",
+        "adenomegalia",
+        "adenopatia",
+        "íngua",
+        "linfonodos cervicais",
+        "níveis cervicais",
+        "linfonodos submandibulares",
+        "linfonodos submentonianos",
+        "linfonodos occipitais",
+        "linfonodos pré-auriculares",
+        "linfonodos retroauriculares",
+        "linfonodos supraclaviculares",
+        "linfonodos infraclaviculares",
+        "linfonodos axilares",
+        "linfonodos retropeitorais",
+        "linfonodos epitrocleanos",
+        "linfonodos epitrocleares",
+        "linfonodos inguinais",
+        "linfonodos poplíteos",
+        "jugulodigástrico",
+        "jugulo-omo-hióideo",
+        "drenagem linfática",
+        "ducto torácico",
+        "coalescência",
+        "consistência do linfonodo",
+        "mobilidade do linfonodo",
+        "linfonodo aderido",
+        "linfonodo endurecido",
+        "sinais flogísticos",
+        "fístula ganglionar",
+        "linfangite",
+        "linfedema",
+        "sinal de Stemmer",
+        "nódulo de Virchow",
+        "linfonodo de Trosier",
+        "linfonodo sentinela",
+        "escore de linfonodo",
+        "Vassilakopoulos",
+        "linfadenomegalia localizada",
+        "linfadenomegalia generalizada",
+        "síndrome ulceroglandular",
+        "síndrome oculoglandular",
+        "síndrome de Parinaud",
+        "mononucleose infecciosa",
+        "linfoma",
+        "metástase linfonodal",
+        "manobra de Valsalva",
+        "estação OSCE"
+       ],
+       "referencias": [
+        "Porto — Exame Clínico, 8ª ed., cap. 12 (Exame dos Linfonodos) — grupos ganglionares da cabeça e do pescoço (níveis I a VI), membros superiores e inferiores; Quadro 12.1 com localização, áreas de drenagem e causas de linfadenopatia por grupo; semiotécnica por cadeia (Figuras 12.6 a 12.9); características semiológicas; boxes sobre diagnóstico diferencial com outras estruturas da cabeça e do pescoço, linfonodos palpáveis sem significado patológico e esplenomegalia associada a adenomegalias; roteiro pedagógico de registro",
+        "Porto — Semiologia Médica, 8ª ed., Parte 10 (Sistema Cardiovascular), Seção 4 (Linfáticos), cap. 59 (Exame Clínico) — anamnese dirigida, sinais e sintomas (edema, linfadenomegalia, linfangite), semiotécnica e características semiológicas dos linfonodos (Figuras 59.1 a 59.5)",
+        "Porto — Semiologia Médica, 8ª ed., Parte 10, Seção 4, cap. 61 (Doenças dos Linfáticos) — tamanho considerado normal dos linfonodos; linfedema e sinal de Stemmer; elefantíase",
+        "Porto — Semiologia Médica, 8ª ed., Parte 3 (Método Clínico), cap. 8 (Exame Físico Geral) — exame dos linfonodos na sequência do exame físico geral (Figura 8.42)",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 27 (Peripheral Lymphadenopathy), p. 227-238 — as sete regiões de drenagem linfática (Figura 27.1), nós epitrocleares e inguinais (Figura 27.2), linfonodos cervicais (Figura 27.3) e axilares (Figura 27.4); descrição da adenopatia; boxe EBM 27.1 e Tabela 27.1 (escore de linfonodo de Vassilakopoulos); adenopatia supraclavicular e epitroclear; síndromes ulceroglandular e oculoglandular; imitadores extranodais",
+        "Semiologia Clínica, 1ª ed., cap. 13 (O exame dos gânglios e o sistema linfático) — cadeias linfonodais e sua distribuição (Figuras 1 e 2); técnica de palpação e posicionamento por cadeia; itens obrigatórios da descrição; linfonodos normalmente palpáveis",
+        "Semiologia Clínica, 1ª ed., cap. 22 (Adenomegalias) — localização e regiões de drenagem (Tabela 1); causas de linfonodomegalia (Tabela 2); dados de anamnese e exame versus raciocínio diagnóstico (Tabela 3); características do linfonodo benigno e maligno (Tabela 4); imitadores de gânglios"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Um filtro que denuncia o território que drena",
+         "texto": "Os linfonodos são estruturas encapsuladas intercaladas no caminho da linfa, entre o interstício e o retorno ao sistema venoso. Neles a linfa é filtrada e as células do sistema imune encontram os antígenos — e é essa função que produz o achado clínico: diante de um estímulo, o tecido linfoide sofre hiperplasia e o linfonodo pode aumentar várias vezes o seu tamanho.\n\nDuas divisões organizam o exame.\n\n**Superficiais e profundos.** Os superficiais ficam no tecido celular subcutâneo, acompanham veias superficiais e, quando aumentados, chegam a ser visíveis. Os profundos ficam abaixo da fáscia muscular e dentro das cavidades, e só os exames de imagem os alcançam. Uma exceção instrutiva: os linfonodos cervicais profundos e os axilares acompanham vasos profundos e ainda assim são acessíveis à palpação.\n\n**Localizados e generalizados.** Um linfonodo aumentado num só território conta uma história local; vários grupos aumentados contam uma história sistêmica. Voltaremos a essa distinção — inclusive porque as fontes não a definem do mesmo jeito.\n\nA utilidade prática do exame vem de um fato anatômico: **cada cadeia drena um território conhecido**. Reconhecer qual linfonodo está alterado permite deduzir de onde vem o problema. A ressalva, também das fontes, é que a doença nem sempre respeita o mapa: infecções e neoplasias podem pular um grupo ou caminhar em sentido retrógrado, e uma adenomegalia isolada pode ser a primeira manifestação de uma doença generalizada.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Cadeias acessíveis e o que drenam",
+         "colunas": [
+          "Cadeia",
+          "Onde fica",
+          "Território drenado"
+         ],
+         "linhas": [
+          [
+           "Occipitais",
+           "Sobre os processos occipitais externos, na parte posterior do crânio",
+           "Parte posterior do couro cabeludo e do pescoço"
+          ],
+          [
+           "Pré-auriculares e parotídeos",
+           "À frente da orelha, junto às artérias temporal superficial e facial e nas glândulas parótidas",
+           "Porção superior da face, região temporal, parótidas, parte posterior das bochechas e parte do couro cabeludo"
+          ],
+          [
+           "Retroauriculares (mastóideos)",
+           "Atrás da orelha, próximo à inserção do esternocleidomastóideo",
+           "Metade posterolateral do couro cabeludo"
+          ],
+          [
+           "Submentonianos e submandibulares (nível I)",
+           "Entre a mandíbula, os músculos digástricos e o osso hioide",
+           "Cavidade oral, lábios, língua, glândulas submandibular e sublingual, seios paranasais, face"
+          ],
+          [
+           "Cervicais profundos (níveis II, III e IV)",
+           "Ao longo da bainha carotídea, em grande parte cobertos pelo esternocleidomastóideo",
+           "Couro cabeludo, nasofaringe, faringe, laringe, tireoide, esôfago, língua e, indiretamente, todas as estruturas da cabeça e do pescoço"
+          ],
+          [
+           "Cervicais posteriores (nível V)",
+           "No trígono cervical posterior, ao longo do nervo acessório",
+           "Couro cabeludo, parte superior do tórax, nasofaringe, faringe, esôfago, tireoide, pulmão e mamas"
+          ],
+          [
+           "Supraclaviculares (parte do nível IV)",
+           "Atrás da clavícula, sob ou por trás do esternocleidomastóideo",
+           "Cabeça, pescoço, órgãos intratorácicos e — sobretudo à esquerda, pelo ducto torácico — órgãos intra-abdominais e pélvicos"
+          ],
+          [
+           "Infraclaviculares",
+           "Abaixo da clavícula",
+           "Mamas e porção superior do braço"
+          ],
+          [
+           "Axilares",
+           "Nas paredes anterior, medial e posterior da fossa axilar e no seu ápice",
+           "Membro superior, mama e parede torácica do mesmo lado"
+          ],
+          [
+           "Epitrocleanos",
+           "Na face anteromedial do braço, 2 a 3 cm acima do epicôndilo medial, medialmente à veia basílica",
+           "Borda ulnar do antebraço e da mão — dedos mínimo e anular"
+          ],
+          [
+           "Inguinais (grupos horizontal e vertical)",
+           "O horizontal logo abaixo do ligamento inguinal; o vertical na terminação da veia safena magna",
+           "Horizontal: genitália externa, períneo e parede abdominal anterior inferior. Vertical: membro inferior"
+          ],
+          [
+           "Poplíteos",
+           "Na fossa poplítea",
+           "Perna e pé; raramente palpáveis"
+          ]
+         ]
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"86\" y=\"14\">cadeias acessíveis à palpação</text>\n  </g>\n  <!-- silhueta -->\n  <circle cx=\"86\" cy=\"38\" r=\"16\" stroke-width=\"1.8\" />\n  <path d=\"M 78 53 L 78 60\" stroke-width=\"1.6\" />\n  <path d=\"M 94 53 L 94 60\" stroke-width=\"1.6\" />\n  <path d=\"M 58 66 C 68 60, 104 60, 114 66\" stroke-width=\"1.8\" />\n  <path d=\"M 58 66 L 54 112\" stroke-width=\"1.8\" />\n  <path d=\"M 114 66 L 118 112\" stroke-width=\"1.8\" />\n  <path d=\"M 54 112 L 60 118 L 112 118 L 118 112\" stroke-width=\"1.8\" />\n  <!-- braços -->\n  <path d=\"M 58 68 C 46 78, 40 96, 38 116 C 37 128, 36 138, 36 146\" stroke-width=\"1.6\" />\n  <path d=\"M 114 68 C 126 78, 132 96, 134 116 C 135 128, 136 138, 136 146\" stroke-width=\"1.6\" />\n  <!-- pernas -->\n  <path d=\"M 72 118 L 70 152 L 68 186\" stroke-width=\"1.6\" />\n  <path d=\"M 100 118 L 102 152 L 104 186\" stroke-width=\"1.6\" />\n  <!-- marcadores -->\n  <g stroke-width=\"1.4\">\n    <circle cx=\"86\" cy=\"26\" r=\"3.4\" />\n    <circle cx=\"70\" cy=\"34\" r=\"3.4\" />\n    <circle cx=\"86\" cy=\"50\" r=\"3.4\" />\n    <circle cx=\"76\" cy=\"58\" r=\"3.4\" />\n    <circle cx=\"66\" cy=\"64\" r=\"3.4\" />\n    <circle cx=\"52\" cy=\"76\" r=\"3.4\" />\n    <circle cx=\"39\" cy=\"112\" r=\"3.4\" />\n    <circle cx=\"76\" cy=\"124\" r=\"3.4\" />\n    <circle cx=\"70\" cy=\"152\" r=\"3.4\" />\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"94\" y=\"24\">1</text>\n    <text x=\"58\" y=\"32\">2</text>\n    <text x=\"94\" y=\"49\">3</text>\n    <text x=\"64\" y=\"56\">4</text>\n    <text x=\"52\" y=\"62\">5</text>\n    <text x=\"40\" y=\"74\">6</text>\n    <text x=\"26\" y=\"112\">7</text>\n    <text x=\"86\" y=\"128\">8</text>\n    <text x=\"58\" y=\"152\">9</text>\n  </g>\n  <!-- legenda -->\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"160\" y=\"34\">1 occipitais</text>\n    <text x=\"160\" y=\"50\">2 pré e retroauriculares</text>\n    <text x=\"160\" y=\"66\">3 submentonianos e submandibulares</text>\n    <text x=\"160\" y=\"82\">4 cervicais (profundos e posteriores)</text>\n    <text x=\"160\" y=\"98\">5 supraclaviculares</text>\n    <text x=\"160\" y=\"114\">6 axilares</text>\n    <text x=\"160\" y=\"130\">7 epitrocleanos</text>\n    <text x=\"160\" y=\"146\">8 inguinais</text>\n    <text x=\"160\" y=\"162\">9 poplíteos</text>\n    <text x=\"160\" y=\"184\">Compare sempre os dois lados.</text>\n  </g>\n</svg>\n",
+         "legenda": "As nove regiões que a palpação alcança. As três de maior valor de alarme são a supraclavicular (5) e a epitrocleana (7), raramente palpáveis em pessoas saudáveis, e qualquer cadeia com linfonodo endurecido e aderido."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como examinar"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O princípio que rege toda a palpação",
+         "texto": "Palpar linfonodo é diferente de palpar músculo, glândula ou massa. O gesto que os torna perceptíveis é **deslizar os tecidos moles contra uma estrutura mais rígida subjacente** — e não apertar em pinça ao longo do trajeto, que é como se palpa músculo.\n\nNa prática, isso se traduz em referências concretas:\n\n- na **cadeia cervical superficial**, apoia-se o polegar no esternocleidomastóideo e movimentam-se os tecidos moles contra o músculo com os outros quatro dedos;\n- nas cadeias **submandibular e submentoniana**, deslocam-se os tecidos moles daquela região contra a borda inferior da mandíbula;\n- na **axila**, desliza-se a pele contra o gradil costal;\n- na **goteira epitrocleana**, comprime-se e desliza-se em pinça sobre o sulco.\n\nO restante é padronização: polpas digitais e face ventral dos dedos indicador, médio e anular, movimentos circulares curtos, **comparação sistemática com o lado contralateral**, e boa iluminação, porque a inspeção precede e complementa a palpação em toda região que possa estar aumentada.\n"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Palpação das cadeias linfonodais",
+         "passos": [
+          "Inspecione, com boa iluminação e a região despida, cada território antes de palpar; compare sempre com o lado oposto.",
+          "Cabeça e pescoço: paciente sentado, pescoço levemente fletido; posicione-se atrás dele e palpe as duas cadeias contralaterais ao mesmo tempo, com as polpas digitais em movimentos circulares.",
+          "Incline levemente a cabeça do paciente para o lado examinado, para relaxar a musculatura daquele lado.",
+          "Cadeia jugular: com uma das mãos, apreenda o esternocleidomastóideo entre o polegar de um lado e os dedos indicador e médio do outro.",
+          "Cadeias bucal, parotídea, pré-auricular, retroauricular e occipital: compressão bidigital com as polpas do indicador e do médio, em movimentos giratórios.",
+          "Fossas supraclaviculares: procure atrás da clavícula, sob ou por trás do esternocleidomastóideo; peça uma manobra de Valsalva, que empurra o ápice pleural para cima e torna os linfonodos mais salientes.",
+          "Axila: de frente para o paciente sentado ou de pé, sustente o membro superior dele ligeiramente fletido com a mão heteróloga e examine a fossa com a outra mão em garra, deslizando a pele contra o gradil costal nas paredes anterior, medial e posterior e no ápice.",
+          "Retropeitorais: com a mão em pinça, comprima e deslize por toda a face posterior acessível do músculo grande peitoral.",
+          "Epitrocleanos: mantenha o membro superior fletido, segure o antebraço com a mão heteróloga e, com a outra em pinça, deslize sobre a goteira epitrocleana, 2 a 3 cm acima do epicôndilo medial.",
+          "Inguinais: paciente deitado, região despida, coxa estendida e ligeiramente abduzida; palpe com os dedos estendidos em movimentos circulares ou lineares, cobrindo o grupo horizontal e o vertical.",
+          "Poplíteos: paciente em decúbito ventral com a perna semifletida, dedos estendidos ou em garra na fossa poplítea.",
+          "Complete examinando o trajeto dos linfáticos: finas estrias vermelhas na pele indicam linfangite."
+         ],
+         "observar": "O exame dos linfonodos leva as mãos ao pescoço, à axila e à virilha — três regiões que quase ninguém gosta de ter tocadas. Peça licença antes de cada uma, explique o que está procurando, exponha só o necessário e comente o que encontra. Em pacientes que já sabem estar investigando uma neoplasia, esse exame é vivido com apreensão: diga o que vai fazer e, ao terminar, diga o que encontrou.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Exame dos linfonodos em 10 passos",
+         "itens": [
+          "Região despida, boa iluminação e inspeção antes da palpação.",
+          "Cadeias da cabeça e do pescoço palpadas bilateralmente e comparadas entre os lados.",
+          "Cadeia jugular examinada apreendendo o esternocleidomastóideo entre polegar e dedos.",
+          "Fossas supraclaviculares palpadas atrás da clavícula, com manobra de Valsalva.",
+          "Cadeias axilares examinadas com o membro superior sustentado e a mão em garra.",
+          "Goteira epitrocleana palpada acima do epicôndilo medial.",
+          "Cadeias inguinais palpadas com o paciente deitado e a coxa ligeiramente abduzida.",
+          "Cada linfonodo encontrado descrito por localização, tamanho em centímetros, consistência, mobilidade, sensibilidade e coalescência.",
+          "Pele sobrejacente inspecionada quanto a sinais flogísticos e fistulização.",
+          "Registro de quais cadeias foram examinadas, inclusive as sem linfonodos palpáveis."
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como descrever um linfonodo"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Sete características e um linfonodo normal",
+         "texto": "Em condições normais, os linfonodos palpáveis são **individualizados, móveis, indolores e de consistência borrachosa**. Toda descrição parte desse padrão e anota o que se afasta dele.\n\n**Localização.** Não basta a cadeia: interessa também *qual* linfonodo dentro dela, porque é isso que permite deduzir o território drenado.\n\n**Tamanho.** Estima-se o diâmetro em centímetros — nunca em frutas ou grãos. Vale registrar as duas dimensões.\n\n**Consistência.** Pode estar endurecido ou amolecido, com ou sem flutuação. O endurecimento é próprio dos processos neoplásicos e dos inflamatórios com fibrose; a consistência mole ou francamente flutuante indica, em geral, processo inflamatório ou infeccioso com formação de pus.\n\n**Mobilidade.** Com palpação deslizante ou fixando o linfonodo entre polegar e indicador, tenta-se deslocá-lo. Ele pode estar móvel ou aderido aos planos profundos — e a aderência indica comprometimento da cápsula e das estruturas vizinhas.\n\n**Sensibilidade.** As adenites bacterianas agudas costumam doer, muitas vezes com outros sinais inflamatórios; os processos infecciosos crônicos doem pouco; as infecções virais e as parasitoses costumam ser indolores. Os linfonodos metastáticos são indolores, além de pétreos; os leucêmicos e linfomatosos, indolores ou levemente doloridos.\n\n**Coalescência.** É a junção de dois ou mais linfonodos em uma massa de limites imprecisos, produzida por comprometimento inflamatório ou neoplásico da cápsula. Ela informa **tempo**: indica doença com alguma duração de evolução.\n\n**Alterações da pele.** Edema, calor, rubor e dor sobre o linfonodo apontam processo inflamatório; a presença de **fístula** sugere micose profunda ou tuberculose, e a secreção que flui por ela deve ser descrita.\n"
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Tamanho — três referências que não coincidem",
+         "texto": "Este é um ponto em que as fontes divergem, e o guia registra a divergência em vez de escolher por conta própria.\n\n**Porto (Exame Clínico, cap. 12, e Semiologia Médica, cap. 59)** afirma que os linfonodos variam normalmente de **0,5 a 2,5 cm** de diâmetro, e que linfonodos palpáveis podem ser normais em adultos — nesses casos, bem individualizados, móveis e indolores.\n\n**Porto (Semiologia Médica, cap. 61)** registra outro parâmetro: o tamanho normal varia com a topografia, considerando-se normais os que têm **no máximo 10 mm** no eixo axial na maioria das cadeias.\n\n**Semiologia Clínica (cap. 13)** adota como normal o **diâmetro abaixo de 1 cm**, acrescentando que os linfonodos são maiores no adolescente do que no adulto; no capítulo dedicado às adenomegalias, registra que os pequenos linfonodos inguinais palpáveis em pessoas saudáveis costumam medir **0,5 a 2 cm** no maior eixo.\n\n**McGee (cap. 27)** trabalha com **área**, e não com diâmetro: sugere registrar o produto das duas maiores dimensões — um linfonodo de 2,5 × 3 cm é descrito como \"7,5 cm²\" — porque é nessa unidade que as razões de verossimilhança do capítulo estão calculadas.\n\nA conduta que sobrevive às quatro leituras é a mesma: **meça e registre em centímetros, com as duas dimensões**. Um número atravessa a divergência; um adjetivo, não. E quando for aplicar as razões de verossimilhança de McGee, converta para área antes.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Linfonodos palpáveis não são, por si, anormais. O tecido linfoide é hipertrófico na infância, e em crianças costuma ser normal palpar pequenos linfonodos nas cadeias cervical e submandibular. No adulto, é frequente palpar algum linfonodo inguinal, axilar, cervical ou submandibular de pequeno tamanho, secundário a processos inflamatórios ou infecções pregressas, sem significado patológico — os inguinais, sobretudo, drenam regiões sujeitas a traumas e infecções de repetição e podem permanecer aumentados a vida inteira."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Benignidade × alarme"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Antes dos sinais, a probabilidade pré-teste",
+         "texto": "A mesma adenomegalia significa coisas diferentes em lugares diferentes, e ignorar isso é o erro mais caro deste tópico.\n\nNas clínicas de atenção primária, McGee registra que a adenomegalia periférica é **benigna em 99% das vezes** — às vezes explicada por faringite, dermatite ou picada de inseto, mais frequentemente aparecendo e desaparecendo sem explicação. Já em ambulatórios especializados, que recebem pacientes referenciados por adenomegalia persistente e inexplicada, **18% a 24% acabam com diagnóstico de malignidade** — linfoma ou câncer metastático — e até 5% têm doença infecciosa ou granulomatosa tratável, como tuberculose, infecção pelo HIV ou sarcoidose.\n\nDuas consequências. A primeira: as razões de verossimilhança da tabela seguinte foram medidas em pacientes referenciados, e é sobre essa probabilidade pré-teste que elas operam. A segunda, mais prática: **tempo é informação**. A velocidade de crescimento separa os grupos — dias a semanas apontam causa infecciosa ou inflamatória; semanas a meses apontam causa neoplásica, granulomatosa ou inflamatória crônica.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "O que muda a probabilidade de doença grave em quem tem adenomegalia (McGee, cap. 27)",
+         "colunas": [
+          "Achado",
+          "Razão de verossimilhança quando presente"
+         ],
+         "linhas": [
+          [
+           "Linfonodos fixos, aderidos a estruturas adjacentes",
+           "10,9"
+          ],
+          [
+           "Tamanho ≥ 9 cm² (equivalente a 3 × 3 cm ou mais)",
+           "8,4"
+          ],
+          [
+           "Prurido generalizado",
+           "4,9"
+          ],
+          [
+           "Perda de peso",
+           "3,4"
+          ],
+          [
+           "Consistência endurecida",
+           "3,2"
+          ],
+          [
+           "Adenopatia supraclavicular",
+           "3,2"
+          ],
+          [
+           "Idade de 40 anos ou mais",
+           "2,4"
+          ],
+          [
+           "Idade abaixo de 40 anos",
+           "0,4"
+          ],
+          [
+           "Tamanho < 4 cm² (equivalente a 2 × 2 cm ou menos)",
+           "0,4"
+          ],
+          [
+           "Linfonodo doloroso à palpação",
+           "0,4"
+          ],
+          [
+           "Dor de garganta",
+           "0,2"
+          ],
+          [
+           "Exantema, febre, baço palpável, fígado palpável, adenopatia generalizada",
+           "sem significância"
+          ]
+         ]
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Características do linfonodo benigno e do maligno (Semiologia Clínica, cap. 22, Tabela 4)",
+         "colunas": [
+          "Característica",
+          "Benigno",
+          "Metástase de carcinoma",
+          "Linfoma"
+         ],
+         "linhas": [
+          [
+           "Localização",
+           "Qualquer cadeia",
+           "Qualquer cadeia, com destaque para a supraclavicular",
+           "Qualquer cadeia"
+          ],
+          [
+           "Tamanho",
+           "Área abaixo de 1 cm²",
+           "Área acima de 2,25 cm²",
+           "Variável"
+          ],
+          [
+           "Consistência",
+           "Fibroelástica",
+           "Endurecida, chegando a pétrea",
+           "Firme e elástica; pode haver coalescência"
+          ],
+          [
+           "Fixação",
+           "Móvel sobre os planos profundos",
+           "Fixo, invadindo os planos profundos",
+           "Habitualmente móvel em relação aos planos profundos"
+          ],
+          [
+           "Dor e sinais flogísticos",
+           "Pode doer e pode fistulizar",
+           "Habitualmente indolor",
+           "Indolor ou pouco dolorido"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Achados que não ajudam — e por quê",
+         "texto": "Tão útil quanto saber o que aumenta a probabilidade é saber o que não a move.\n\nNos estudos reunidos por McGee, **exantema, febre, baço palpável e fígado palpável** não discriminaram doença grave de doença benigna. A **distribuição regional** também não, com a única exceção da localização supraclavicular. E a **adenomegalia generalizada** não discriminou — nem quando definida como acometimento de dois ou mais grupos, nem quando definida como quatro ou mais. A explicação proposta é direta: o achado aparece com a mesma frequência em doenças benignas, como a mononucleose infecciosa, e em doenças graves, como o linfoma.\n\nUm achado surpreende pela direção. A **dor à palpação** reduz a probabilidade de doença grave, mas apenas modestamente (razão de verossimilhança 0,4) — menos do que o ensino tradicional sugere. A razão é que hemorragia ou necrose dentro de um linfonodo neoplásico também produz desconforto, imitando alteração inflamatória aguda.\n\nE a limitação mais importante para quem acompanha pacientes oncológicos: no **estadiamento de neoplasias conhecidas**, a ausência de adenomegalia ao exame físico não tem sensibilidade suficiente para excluir com segurança o comprometimento metastático dos linfonodos.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O escore de linfonodo de Vassilakopoulos",
+         "texto": "A combinação de achados se sai melhor do que qualquer achado isolado. A partir da avaliação de mais de 300 pacientes, Vassilakopoulos e colaboradores identificaram seis preditores independentes de doença grave e os reuniram em um escore calculável à beira do leito, reproduzido por McGee (cap. 27, Tabela 27.1).\n\n**Pontuação**\n\n- Idade acima de 40 anos: **+5**\n- Linfonodo doloroso à palpação: **−5**\n- Tamanho do linfonodo: menor que 1 cm², **0**; de 1 a 3,99 cm², **+4**; de 4 a 8,99 cm², **+8**; de 9 cm² ou mais, **+12**\n- Prurido generalizado: **+4**\n- Linfonodos supraclaviculares presentes: **+3**\n- Linfonodo endurecido: **+2**\n- **Fator de correção: −6**, incluído no escore de todo paciente\n\n**Interpretação** (razões de verossimilhança para doença grave)\n\n- escore de −3 ou menos: **0,04** — praticamente exclui doença grave;\n- escore de −2 ou −1: **0,1**;\n- escore de 0 a 4: sem significância diagnóstica;\n- escore de 5 ou 6: **5,1**;\n- escore de 7 ou mais: **21,9** — praticamente diagnóstico de doença grave.\n\nO exemplo que a própria tabela oferece ajuda a fixar o cálculo: um paciente de 55 anos, assintomático, com adenopatia supraclavicular indolor, endurecida, medindo 6 cm², soma 5 + 8 + 3 + 2 − 6 = **12**.\n\nO valor pedagógico do escore não está no número, e sim no que ele demonstra: o poder discriminante está concentrado em **idade, tamanho, consistência, localização supraclavicular e prurido** — exatamente os itens que a descrição semiológica cuidadosa já registra.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Supraclavicular — o nódulo de Virchow",
+         "texto": "Os linfonodos supraclaviculares pertencem, anatomicamente, ao grupo cervical profundo, mas são tratados à parte por causa da posição que ocupam: ficam na base do pescoço, junto ao ponto em que **toda a drenagem linfática do corpo retorna ao sistema venoso**, na confluência da jugular interna com a subclávia. Por isso podem denunciar doença de cavidades que o examinador não alcança — o tórax e o abdome.\n\nA anatomia prevê que a adenopatia supraclavicular **direita** se associe a doenças do tórax, do braço e do pescoço do mesmo lado, e a **esquerda**, além dessas, a doenças abdominais e pélvicas, que chegam pelo ducto torácico.\n\nNormalmente a linfa flui dos supraclaviculares *para baixo*, em direção à confluência. Para que uma doença abdominal ou torácica os acometa, o tumor precisa caminhar em **sentido retrógrado** — o que, ao contrário do que se imagina, ocorre com facilidade e **não implica obstrução do canal linfático**. Em uma investigação com linfangiografia de membros inferiores, o contraste apareceu nos linfonodos supraclaviculares em 48 horas em 55% dos pacientes.\n\nTrês dados temperam a associação clássica com o lado esquerdo, descrita por Virchow em 1848 e, independentemente, por Trosier em 1886 — donde os nomes nódulo de Virchow, de Trosier, sentinela ou sinal:\n\n- em média, **apenas três quartos** dos carcinomas infradiafragmáticos que metastatizam para supraclaviculares vão para a esquerda; um quarto aparece à direita (variação de 0% a 38% entre as séries);\n- em séries de pacientes submetidos a biópsia de linfonodo supraclavicular, **54% a 87% tinham neoplasia maligna**, em sua maioria carcinoma metastático;\n- cerca de **metade dos pacientes cuja biópsia revelou malignidade não sabia do diagnóstico antes dela** — o que resume o valor desse único linfonodo.\n\nDuas notas de técnica: a **manobra de Valsalva** empurra a superfície pleural apical para cima contra os linfonodos e os torna mais visíveis; e a região supraclavicular tem imitadores próprios — cistos sinoviais do ombro na artrite reumatoide, costelas cervicais e articulações anômalas da primeira costela já foram confundidos com linfonodos.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Localizada × generalizada — duas definições em uso",
+         "texto": "Depois de caracterizar os linfonodos, o segundo passo do raciocínio é decidir se o comprometimento é localizado ou generalizado. As fontes usam limiares diferentes, e é preciso saber qual se está aplicando.\n\n**McGee (cap. 27)** define adenomegalia generalizada como o aumento simultâneo de **dois ou mais** grupos regionais, e registra que a maioria dos pacientes afetados tem a combinação cervical mais inguinal ou cervical mais axilar.\n\n**Porto (Exame Clínico, cap. 12)** define o comprometimento como generalizado quando **três ou mais** grupos de linfonodos são palpáveis.\n\nO significado clínico, esse é comum às duas: a adenomegalia generalizada aponta um distúrbio sistêmico acometendo os linfonodos — linfomas e leucemias, infecções específicas como mononucleose infecciosa, infecção pelo HIV e sífilis, síndrome de hipersensibilidade a anticonvulsivantes, sarcoidose e doenças do tecido conjuntivo.\n\nDuas ressalvas fecham o tema. Porto adverte que, **nas fases precoces**, mesmo as doenças sistêmicas costumam se apresentar com um único linfonodo ou um único grupo comprometido — ou seja, \"localizada\" hoje não exclui doença sistêmica amanhã. E McGee lembra que a adenomegalia generalizada, por qualquer das definições, **não discrimina** doença grave de doença benigna: ela orienta a lista de hipóteses, não o grau de preocupação.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Síndromes com nome e imitadores de linfonodo",
+         "texto": "**Duas síndromes definidas por achados de exame.** O adjetivo *glandular*, nesse contexto, refere-se a linfonodos — *febre glandular* foi o nome original da mononucleose infecciosa.\n\n- **Síndrome ulceroglandular** — a tríade de febre, ulceração em porção distal de um membro (a porta de entrada do agente) e adenopatia regional.\n- **Síndrome oculoglandular**, ou síndrome de Parinaud — conjuntivite associada a adenopatia pré-auricular e submandibular do mesmo lado.\n\n**Epitrocleanos.** São raros em pessoas normais e, historicamente, associados a doenças que produzem adenomegalia generalizada, sobretudo quando aumentados dos dois lados. São palpáveis em 25% a 30% dos pacientes com sarcoidose, linfoma e leucemia linfocítica crônica, e em até 55% dos pacientes com mononucleose infecciosa. Em regiões de alta prevalência de HIV, o achado de linfonodo epitrocleano maior que 0,5 cm distinguiu pacientes soropositivos com sensibilidade de 84% e especificidade de 81% (razão de verossimilhança 4,5 quando presente e 0,2 quando ausente).\n\n**Nem tudo o que se palpa é linfonodo.** Até 15% dos pacientes encaminhados por \"adenomegalia\" inexplicada têm, na verdade, uma explicação extranodal para o nódulo subcutâneo. Os imitadores mais comuns em qualquer localização são nódulos de pele — lipomas e cistos epidermoides. Por região:\n\n- **pescoço** — glândulas salivares parótidas e submandibulares, cistos tireoglossos, cistos branquiais, seios carotídeos proeminentes;\n- **fossa supraclavicular** — cistos sinoviais, costelas cervicais, articulações anômalas da primeira costela;\n- **virilha** — hérnias inguinais e aneurismas vasculares.\n\nA regra de técnica que separa boa parte deles já foi dada: para o linfonodo, deslizam-se os tecidos contra uma estrutura rígida; já o músculo se palpa com a mão em garra percorrendo o ventre muscular, e com dois dedos na origem. Uma **fístula** com secreção, por sua vez, tira a lesão do terreno da dúvida e sugere micose profunda ou tuberculose.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde este tópico encontra os outros",
+         "texto": "O exame dos linfonodos amarra pontas espalhadas pelo guia.\n\n- **A fossa supraclavicular também pertence ao exame do pulmão**: o ápice pulmonar sobe acima da clavícula, e a tiragem supraclavicular é sinal de esforço respiratório — os dois estão no tópico de inspeção do tórax.\n- **Linfedema** — edema duro, inelástico, frio, que não regride com a elevação do membro, e o sinal de Stemmer, quando não se consegue pinçar a pele do segundo pododáctilo — se separa dos demais edemas pelas características descritas no tópico de pulso venoso jugular e turgência, onde está a semiotécnica do edema e a graduação em cruzes.\n- **Linfangite** — eritema, dor e edema no trajeto do coletor, com os cordões avermelhados da erisipela — pertence ao mesmo território e se confunde com flebite, porque os coletores acompanham as veias superficiais.\n- **Febre prolongada**, que é a companhia mais frequente da adenomegalia investigada, está no tópico de temperatura e frequência respiratória, com os tipos evolutivos de febre.\n- **Petéquias, lesões de pele e fístulas cutâneas** sobre os linfonodos se descrevem com o vocabulário do tópico de pele, mucosas e fâneros.\n- **Perda de peso**, item de peso no escore de linfonodo, se quantifica no tópico de antropometria e hidratação e se colhe no capítulo da entrevista clínica.\n- **Linfadenomegalias localizadas ou generalizadas como sintoma relatado** aparecem no interrogatório sintomatológico; a história ocupacional e epidemiológica que aponta paracoccidioidomicose, tuberculose, brucelose ou histoplasmose está no tópico de antecedentes e hábitos.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Seis erros que comprometem a conclusão",
+         "texto": "1. **Palpar como quem palpa músculo.** Sem deslizar os tecidos contra uma estrutura rígida, linfonodos pequenos não aparecem — e o ventre muscular vira \"gânglio\".\n2. **Descrever tamanho por comparação com alimentos.** \"Do tamanho de um caroço de azeitona\" não se compara com a medida da semana seguinte. Meça em centímetros, nas duas dimensões.\n3. **Tranquilizar-se porque o linfonodo dói.** A dor reduz pouco a probabilidade de doença grave: hemorragia ou necrose dentro de um linfonodo neoplásico também dói.\n4. **Aplicar as razões de verossimilhança fora do contexto em que foram medidas.** Na atenção primária, a adenomegalia periférica é benigna na quase totalidade dos casos.\n5. **Deixar a fossa supraclavicular de fora do exame.** É a cadeia de maior valor de alarme, a mais fácil de esquecer e a que pede uma manobra própria.\n6. **Registrar só o que se achou.** Anote também as cadeias examinadas sem linfonodos palpáveis: sem isso, o próximo examinador não sabe se você procurou.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Diante de uma adenomegalia, três perguntas resolvem a maior parte do caminho antes de qualquer exame: há quanto tempo está aí, o que ela drena, e como ela é ao toque. Tempo separa infeccioso de neoplásico; território indica onde procurar a causa; consistência, mobilidade e coalescência carregam quase todo o poder discriminante que o exame físico tem a oferecer."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "linfo-1",
+           "enunciado": "Homem de 58 anos com linfonodo supraclavicular esquerdo de 3 × 3 cm, endurecido e aderido a planos profundos, indolor. Quais desses achados mais elevam a probabilidade de doença grave, segundo os dados reunidos por McGee?",
+           "alternativas": [
+            "A ausência de dor, isoladamente, com razão de verossimilhança acima de 10",
+            "A fixação a planos profundos (10,9) e o tamanho de 9 cm² ou mais (8,4)",
+            "A localização cervical, que é a de maior razão de verossimilhança entre todas",
+            "A idade acima de 40 anos, que sozinha já é praticamente diagnóstica"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "No boxe EBM 27.1, os achados que mais elevam a probabilidade de doença grave são linfonodos fixos (razão de verossimilhança 10,9) e tamanho de 9 cm² ou mais, equivalente a 3 × 3 cm (8,4). Seguem-se prurido generalizado (4,9), perda de peso (3,4), consistência endurecida (3,2), adenopatia supraclavicular (3,2) e idade de 40 anos ou mais (2,4). A ausência de dor não é avaliada isoladamente: é a presença de dor que reduz modestamente a probabilidade (0,4)."
+          },
+          {
+           "id": "linfo-2",
+           "enunciado": "Qual é o princípio técnico que torna os linfonodos perceptíveis à palpação?",
+           "alternativas": [
+            "Comprimir em pinça ao longo do trajeto muscular, como se faz para palpar músculos",
+            "Deslizar os tecidos moles contra uma estrutura mais rígida subjacente — o esternocleidomastóideo, a base da mandíbula, o gradil costal",
+            "Percutir a região e procurar mudança de som",
+            "Palpar com o paciente em apneia inspiratória máxima, para tensionar a pele"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "A palpação de linfonodos difere da palpação muscular. Para as cadeias ganglionares, deslizam-se os tecidos moles contra uma estrutura rígida: na cadeia cervical superficial, apoia-se o polegar no esternocleidomastóideo e movimentam-se os tecidos com os outros dedos; nas cadeias submandibular e submentoniana, contra a borda inferior da mandíbula; na axila, contra o gradil costal. Já o músculo se palpa com a mão em garra percorrendo o ventre muscular, e com dois dedos na origem."
+          },
+          {
+           "id": "linfo-3",
+           "enunciado": "Você examina uma criança de 5 anos e encontra dois linfonodos cervicais de cerca de 0,8 cm, móveis, indolores e de consistência borrachosa, sem sinais flogísticos. Qual é a interpretação mais adequada?",
+           "alternativas": [
+            "Achado esperado: o tecido linfoide é hipertrófico na infância, e pequenos linfonodos nas cadeias cervical e submandibular são normais em crianças",
+            "Adenomegalia generalizada, que obriga a investigação hematológica imediata",
+            "Achado sempre patológico, pois nenhum linfonodo deveria ser palpável",
+            "Provável metástase, pela consistência borrachosa"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "Na infância o tecido linfático é hipertrófico, e palpar pequenos linfonodos nas cadeias cervical e submandibular de uma criança é achado esperado. O linfonodo normal é individualizado, móvel, indolor e de consistência borrachosa. Em adultos, também é frequente palpar pequenos linfonodos inguinais, axilares, cervicais ou submandibulares secundários a processos inflamatórios ou infecções pregressas, sem significado patológico."
+          },
+          {
+           "id": "linfo-4",
+           "enunciado": "Sobre a adenopatia supraclavicular esquerda associada a neoplasia abdominal — o nódulo de Virchow —, qual afirmação corresponde aos dados apresentados por McGee?",
+           "alternativas": [
+            "Todos os carcinomas infradiafragmáticos que metastatizam para supraclaviculares vão para o lado esquerdo",
+            "Em média, cerca de três quartos vão para a esquerda e um quarto aparece à direita; a disseminação retrógrada ocorre com facilidade e não implica obstrução linfática",
+            "O acometimento supraclavicular só ocorre quando há obstrução completa do ducto torácico",
+            "A biópsia de linfonodo supraclavicular revela neoplasia em menos de 10% dos casos"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Apesar do epônimo, apenas cerca de três quartos dos carcinomas infradiafragmáticos metastáticos para supraclaviculares vão para a esquerda; um quarto aparece à direita, com variação de 0% a 38% entre as séries. O fluxo normal é dos supraclaviculares em direção à confluência venosa, de modo que o acometimento exige disseminação retrógrada — que ocorre com facilidade e não implica obstrução. Em séries de biópsia dessa cadeia, 54% a 87% dos pacientes tinham neoplasia maligna, e cerca de metade desconhecia o diagnóstico antes do procedimento."
+          },
+          {
+           "id": "linfo-5",
+           "enunciado": "Como as fontes deste guia definem linfadenomegalia generalizada?",
+           "alternativas": [
+            "Há uma definição única e universal: quatro ou mais grupos acometidos",
+            "As definições divergem: McGee usa dois ou mais grupos regionais e Porto (Exame Clínico) usa três ou mais grupos palpáveis",
+            "Generalizada é sinônimo de acometimento simétrico bilateral de uma mesma cadeia",
+            "Só se considera generalizada quando há esplenomegalia associada"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "McGee define adenomegalia generalizada como aumento simultâneo de dois ou mais grupos regionais; Porto, no Exame Clínico, considera generalizado o comprometimento quando três ou mais grupos são palpáveis. O significado é comum às duas: aponta doença sistêmica — linfoma, leucemia, mononucleose, HIV, sífilis, sarcoidose, colagenoses, hipersensibilidade a anticonvulsivantes. Vale lembrar que o achado não discrimina doença grave de benigna, e que doenças sistêmicas podem começar com um único grupo acometido."
+          },
+          {
+           "id": "linfo-6",
+           "enunciado": "Uma paciente é encaminhada por \"gânglio inguinal\" que, ao exame, é redutível e aumenta com a manobra de Valsalva. O que esse caso ilustra?",
+           "alternativas": [
+            "Coalescência linfonodal, indicativa de doença de longa evolução",
+            "Imitador extranodal: até 15% dos pacientes encaminhados por adenomegalia têm explicação não ganglionar; na virilha, hérnias e aneurismas são clássicos",
+            "Linfonodo de consistência flutuante, sugestivo de processo purulento",
+            "Sinal de Stemmer positivo, patognomônico de linfedema"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Até 15% dos pacientes encaminhados por adenomegalia inexplicada têm explicação extranodal para o nódulo. Os imitadores mais comuns em qualquer local são lipomas e cistos epidermoides; no pescoço, glândulas salivares, cistos tireoglossos e branquiais e seios carotídeos proeminentes; na fossa supraclavicular, cistos sinoviais e costelas cervicais; na virilha, hérnias inguinais e aneurismas vasculares. O sinal de Stemmer é a impossibilidade de pinçar a pele do segundo pododáctilo, achado de linfedema."
+          }
+         ]
+        }
+       ]
+      }
+     ]
     }
    ]
   },
