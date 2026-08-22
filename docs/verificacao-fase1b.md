@@ -152,3 +152,87 @@ prefixo de caminho e navegado com Playwright/Chromium headless (viewport
 
 Nenhum erro de página (`pageerror`) ou requisição falha (`requestfailed`)
 foi registrado em nenhuma das quatro navegações.
+
+## Adendo Fase 2 — revisão espaçada e estação OSCE
+
+A Fase 2 adiciona um motor de revisão espaçada (SM-2) sobre a arquitetura
+verificada acima, sem alterar navegação, tema ou persistência de
+favoritos/estudados já existentes. O que entrou:
+
+- **Motor SM-2 automático** (`src/revisao/sm2.ts`): agenda cada item
+  (pergunta de quiz ou checklist) com fator de facilidade, repetições e
+  intervalo em dias; a nota (2/4/5) é derivada automaticamente do resultado
+  — acerto/erro no quiz, percentual na estação — sem botões manuais de
+  Difícil/Bom/Fácil (fora do escopo desta fase).
+- **Semeadura ao marcar "Estudado"**: ao marcar um tópico como estudado,
+  todas as perguntas de quiz e o checklist do tópico entram na fila de
+  revisão com `proximaRevisao` = amanhã, sem duplicar itens já semeados.
+- **Limite diário de itens novos** (20/dia): a fila do dia mistura itens
+  vencidos (de qualquer antiguidade) com no máximo 20 itens novos,
+  descartando da fila qualquer item cujo id não exista mais no conteúdo
+  atual (órfãos).
+- **Persistência**: itens de revisão são gravados em todos os adaptadores de
+  `ProgressStore` (memória, localStorage — chave `semioguia.itensRevisao` —,
+  SQLite com migração v2), na mesma linha dos demais dados de progresso.
+- **Card "Revisão de hoje"** no topo da aba Estudar: estado vazio quando não
+  há itens vencidos, ou contagem "N pergunta(s) · M estação(ões)" que abre a
+  sessão `/revisao` ao tocar.
+- **Sessão de revisão** (`/revisao`): percorre a fila do dia reaproveitando a
+  UI de pergunta do quiz e a estação OSCE; cada resposta é avaliada e salva
+  imediatamente (sobrevive a fechar a aba no meio), terminando num resumo de
+  acertos/erros.
+- **Estação OSCE** (`EstacaoOsce`): recordação ativa passo a passo de um
+  checklist ("Revelar passo" → "Lembrei"/"Esqueci"), acessível tanto avulsa
+  (botão "Praticar como estação" dentro de um bloco de checklist) quanto
+  embutida na sessão de revisão; termina num resumo percentual com a lista
+  de passos esquecidos.
+- **Contadores no Perfil** (fora do detalhamento deste adendo): refletem o
+  novo estado de revisão junto aos contadores já existentes.
+
+Fora do escopo (spec §7): cronômetro/modo treino da estação, botões
+manuais de nota (Difícil/Bom/Fácil), notificações e configuração do limite
+diário — todos deliberadamente adiados.
+
+### Verificação headless (build de deploy, caminho `/SemioGuia/`, 390×844)
+
+Mesmo procedimento da Fase 1C: export web com `experiments.baseUrl` =
+`/SemioGuia`, servido localmente sob o mesmo prefixo e navegado com
+Playwright/Chromium headless. Uma particularidade desta rodada: navegar
+direto (`page.goto`) para uma rota dinâmica de catch-all (`/topico/...`,
+`/estacao/...`) força o fallback de SPA (serve `index.html` com 404) e
+produz um erro de hidratação React (#418) inofensivo, mas evitável — a
+verificação passou a abrir tópicos por cliques dentro do app já carregado
+(Guia → sistema → tópico), como um usuário real faria; com isso, **zero**
+`pageerror`/`requestfailed` em toda a bateria, igual ao padrão da Fase 1C.
+
+1. **Card vazio**: com `localStorage` limpo, a aba Estudar mostra
+   "Revisão de hoje" / "Nada para revisar hoje" — sem navegação (elemento
+   não é tocável nesse estado).
+2. **Semeadura**: abrir o tópico "Pressão arterial" e marcar "Estudado"
+   grava 5 itens em `semioguia.itensRevisao` (as 5 perguntas do quiz — este
+   tópico não tem bloco `checklist`, só `manobra`), todos com
+   `proximaRevisao` = amanhã (confirmado por igualdade de string de data,
+   não só inspeção visual).
+3. **Revisão vencida → sessão → resposta**: reescrever no `localStorage` o
+   `proximaRevisao` de um item para ontem e recarregar a aba Estudar faz o
+   card passar a contar "1 pergunta · 0 estações"; tocar no card abre
+   `/revisao` com a pergunta correspondente, respondível; responder e
+   avançar leva ao resumo "Revisão concluída — 1/1"; o item no
+   `localStorage` foi atualizado (`repeticoes: 1`, `intervaloDias: 1`,
+   `proximaRevisao` avançada).
+4. **Estação OSCE via checklist**: no tópico "Frequência cardíaca e pulso",
+   o botão "Praticar como estação" no checklist "Avaliação do pulso em 60
+   segundos" abre `/estacao/...`; completados os 10 passos (alternando
+   Lembrei/Esqueci), o resumo mostra "50%" e a lista dos 5 passos
+   esquecidos.
+5. **Tema escuro**: com `prefers-color-scheme: dark`, tanto o card da aba
+   Estudar quanto a sessão de revisão renderizam com o fundo escuro correto
+   (`rgb(15, 18, 28)` = `#0f121c`, confirmado por estilo computado, não só
+   inspeção visual).
+
+Screenshots (390×844, salvos durante a verificação):
+`estudar-card-vazio.png`, `estudar-card-cheio.png`, `sessao-pergunta.png`,
+`estacao-osce.png` (em andamento, passo 3 de 10) e `resultado.png`
+(resumo da sessão de revisão) — mais `resultado-estacao.png`,
+`estudar-escuro.png` e `sessao-escuro.png` como evidência complementar do
+resumo da estação e do tema escuro.
