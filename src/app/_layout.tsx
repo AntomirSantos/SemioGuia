@@ -14,6 +14,7 @@ import {
 import { ThemeProvider, type EscalaFonte, type PreferenciaTema } from '../design/ThemeContext';
 import { ContentProvider } from '../content/ContentContext';
 import { ProgressProvider, useProgresso } from '../progress/ProgressContext';
+import { AuthProvider } from '../conta/AuthContext';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
 
@@ -88,11 +89,13 @@ export default function RootLayout() {
   if (!pronto) return null;
   return (
     <ProgressProvider>
-      <TemaPersistido>
-        <ContentProvider>
-          <Stack screenOptions={{ headerShown: false }} />
-        </ContentProvider>
-      </TemaPersistido>
+      <AuthProvider>
+        <TemaPersistido>
+          <ContentProvider>
+            <Stack screenOptions={{ headerShown: false }} />
+          </ContentProvider>
+        </TemaPersistido>
+      </AuthProvider>
     </ProgressProvider>
   );
 }
