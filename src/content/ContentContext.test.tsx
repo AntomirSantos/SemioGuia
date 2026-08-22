@@ -16,12 +16,14 @@ test('provider carrega o conteúdo real do bundle', async () => {
 
 function SondaCasos() {
   const casos = useCasos();
-  return <Text>casos: {casos.length}</Text>;
+  return <Text>casos: {casos.map((c) => c.id).join(', ')}</Text>;
 }
 
-test('useCasos lê os casos do bundle real (vazio até a Task 6)', async () => {
+test('useCasos lê os três casos piloto do bundle real', async () => {
   render(<ContentProvider><SondaCasos /></ContentProvider>);
   await waitFor(() => {
-    expect(screen.getByText('casos: 0')).toBeTruthy();
+    expect(
+      screen.getByText('casos: crise-hipertensiva, febre-na-crianca, sincope-pulso-irregular')
+    ).toBeTruthy();
   });
 });
