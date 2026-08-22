@@ -97,7 +97,8 @@ tags:
 referencias:
   - "Porto — Semiologia Médica, 8ª ed., Parte 3 (Método Clínico), cap. 8 (Exame Físico Geral) — Semiotécnica e sequência do exame físico geral; Estado geral; Nível de consciência (incluindo perceptividade e reatividade e o Quadro 8.1); Fala e linguagem; Fácies; Biotipo ou tipo morfológico (Figura 8.7); Postura ou atitude na posição de pé (Figura 8.9); Atitude e decúbito preferido no leito; Movimentos involuntários (Quadros 8.16 a 8.20); Marcha e boxe Marcha e envelhecimento"
   - "Porto — Semiologia Médica, 8ª ed., Parte 3 (Método Clínico), cap. 7 (Técnicas Básicas do Exame Físico) — inspeção como primeiro método do exame físico"
-  - "Porto — Exame Clínico, 8ª ed., cap. 11 (Exame Físico Geral) — roteiro do exame físico geral"
+  - "Porto — Exame Clínico, 8ª ed., cap. 11 (Exame Físico Geral) — roteiro do exame físico geral; Fácies renal e fácies leonina"
+  - "Porto — Exame Clínico, 8ª ed., cap. 10 (Sinais e Sintomas) — Edema renal: predomínio facial e subpalpebral, mais evidente no período matutino; Porto — Semiologia Médica, 8ª ed., cap. 8, boxe Edema generalizado — predomínio nos membros inferiores em pacientes que deambulam"
   - "Semiologia Clínica, 1ª ed., cap. 21 (Padronização do exame clínico) — preparo do ambiente, iluminação tangencial, privacidade e sequência do exame no sentido craniocaudal (Tabela 1); exame clínico abrangente × focalizado (Tabela 2)"
   - "Semiologia Clínica, 1ª ed., cap. 8 (Semiologia de cabeça e pescoço) — Face: fácies sindrômicas, mímica, assimetrias; comparação com fotografia antiga e com familiares; descrição como fácies atípica"
   - "Semiologia Clínica, 1ª ed., cap. 23 (Alterações da consciência) — avaliação inicial do paciente com alteração da consciência e o que o exame clínico geral acrescenta"
@@ -332,11 +333,11 @@ linhas:
   - - "Hipocrática"
     - "Olhos fundos, parados e inexpressivos; nariz afilado; lábios adelgaçados; batimento das asas do nariz"
     - "Doenças graves em fase avançada e estados agônicos"
-  - - "Renal (nefrótica)"
-    - "Edema que predomina ao redor dos olhos, somado a palidez cutânea; pior pela manhã e nunca desaparece por completo"
-    - "Doenças renais, particularmente a síndrome nefrótica"
+  - - "Renal"
+    - "Edema que predomina ao redor dos olhos, nas regiões subpalpebrais, somado a palidez cutânea; é mais evidente pela manhã — o paciente diz que amanhece com os olhos empapuçados — e, em quem deambula, o edema generalizado passa a predominar nos membros inferiores ao longo do dia"
+    - "Doenças renais, particularmente a síndrome nefrótica e a glomerulonefrite aguda"
   - - "Leonina"
-    - "Pele espessa com lesões nodulares, supercílios e cílios rarefeitos, nariz e regiões malares aumentados, fisionomia pouco expressiva"
+    - "Pele espessa, sede de lepromas confluentes e mais numerosos na fronte; queda dos supercílios; nariz espessado e alargado, lábios grossos e proeminentes, bochechas e mento deformados por nódulos, barba escassa"
     - "Hanseníase virchowiana"
   - - "Adenoidiana"
     - "Nariz pequeno e afilado, boca sempre entreaberta"
@@ -612,54 +613,54 @@ perguntas:
     enunciado: Um paciente de 72 anos permanece na mesma posição em que a equipe o deixou no leito, sem se mover espontaneamente, e só abre os olhos após estímulo doloroso leve. Como se descrevem, respectivamente, a atitude e o nível de consciência?
     alternativas:
       - "Atitude ortopneica e obnubilação"
-      - "Atitude passiva e torpor"
       - "Atitude indiferente e sonolência"
       - "Atitude antálgica e confusão mental"
-    corretaIndex: 1
+      - "Atitude passiva e torpor"
+    corretaIndex: 3
     explicacao: "Permanecer exatamente na posição em que foi colocado caracteriza a atitude passiva, própria de pacientes inconscientes ou comatosos. Despertar apenas com estímulos fortes, mantendo movimentos espontâneos ausentes ou reduzidos, corresponde ao torpor ou estupor. Na sonolência o paciente desperta com facilidade e volta a dormir; a obnubilação é o grau mais leve, com alerta apenas diminuído."
   - id: ecto-2
     enunciado: Você registra "mau estado geral" na evolução. Qual é a limitação desse registro isolado, segundo os dados de concordância entre observadores reunidos por McGee?
     alternativas:
-      - "Nenhuma: a impressão de estado geral tem concordância quase perfeita entre examinadores"
       - "A impressão de aparência de doente tem concordância apenas moderada, o que exige registrar também os achados que a sustentam"
       - "O estado geral só é reprodutível quando acompanhado da escala de coma de Glasgow"
-      - "O estado geral perdeu valor clínico e foi substituído pelo índice de massa corporal"
-    corretaIndex: 1
+      - "O achado é reprodutível, mas não tem valor prognóstico: manter bom estado geral em uma doença grave não acrescenta informação"
+      - "Nenhuma: a impressão de estado geral tem concordância quase perfeita entre examinadores"
+    corretaIndex: 0
     explicacao: "Na Tabela 5.1 de McGee, a impressão de paciente com aparência de doente alcança kappa de 0,52 a 0,64 — concordância moderada. O item continua útil: dimensiona o quanto a doença atingiu o organismo, alerta quando os sinais são escassos e tem valor prognóstico nos dois sentidos. O que o dado exige é que o adjetivo venha acompanhado da descrição que o justifica."
   - id: ecto-3
     enunciado: Uma criança com cardiopatia congênita cianótica se agacha espontaneamente durante o esforço. Como se classifica essa atitude e o que ela produz?
     alternativas:
       - "Atitude involuntária; resulta de contratura da musculatura paravertebral"
-      - "Atitude voluntária de cócoras; reduz o retorno venoso ao coração e alivia a hipoxia"
       - "Atitude genupeitoral; facilita o enchimento do coração no derrame pericárdico"
+      - "Atitude voluntária de cócoras; reduz o retorno venoso ao coração e alivia a hipoxia"
       - "Postura parkinsoniana; decorre de rigidez muscular generalizada"
-    corretaIndex: 1
+    corretaIndex: 2
     explicacao: "A posição de cócoras (squatting) é uma atitude voluntária, descoberta instintivamente por crianças com cardiopatias congênitas cianóticas como a tetralogia de Fallot. A diminuição do retorno venoso alivia a hipoxia generalizada. A atitude genupeitoral é a da prece maometana, adotada no derrame pericárdico; a postura parkinsoniana decorre da rigidez, com semiflexão de cabeça, tronco e membros inferiores."
   - id: ecto-4
     enunciado: Qual é a principal utilidade clínica de definir o biotipo do paciente?
     alternativas:
       - "Estimar o risco cardiovascular, que é maior no longilíneo"
-      - "Substituir o índice de massa corporal na avaliação nutricional"
       - "Antecipar variações anatômicas — a posição do coração e do ictus cordis e a forma do estômago acompanham o tipo morfológico"
+      - "Substituir o índice de massa corporal na avaliação nutricional"
       - "Graduar a intensidade da dispneia em pacientes com doença pulmonar"
-    corretaIndex: 2
+    corretaIndex: 1
     explicacao: "O biotipo interessa porque a forma externa do corpo guarda correspondência com a acomodação das vísceras: o coração se verticaliza no longilíneo e se horizontaliza no brevilíneo, o que desloca o ictus cordis, e a forma do estômago acompanha o mesmo padrão. O ângulo de Charpy, que objetiva o biotipo, é detalhado no tópico de inspeção do tórax."
   - id: ecto-5
     enunciado: Um homem de 80 anos anda com passos curtos, pouco balanço dos braços e discreta flexão de tronco e quadris. Qual é a conduta correta diante desse achado?
     alternativas:
       - "Registrar marcha senil, por se tratar de alteração fisiológica esperada nessa idade"
-      - "Descrever a marcha e afastar doenças neurológicas e osteomusculares antes de usar o rótulo de marcha senil"
       - "Concluir doença de Parkinson, pela redução do balanço dos braços"
       - "Dispensar a avaliação da marcha, cuja concordância entre observadores é baixa demais para ser útil"
-    corretaIndex: 1
+      - "Descrever a marcha e afastar doenças neurológicas e osteomusculares antes de usar o rótulo de marcha senil"
+    corretaIndex: 3
     explicacao: "As alterações descritas ocorrem no envelhecimento, mas não em todos os idosos, e podem ser produzidas por doenças neurológicas e osteomusculares. Marcha senil é, portanto, diagnóstico de exclusão. A concordância modesta entre observadores para o julgamento de marcha anormal reforça a necessidade de descrever base, passo, balanço dos braços e simetria em vez de aplicar um rótulo direto."
   - id: ecto-6
     enunciado: Ao suspeitar de uma fácies adquirida, como a cushingoide, qual recurso simples ajuda mais a confirmar que houve mudança do rosto?
     alternativas:
-      - "Medir a distância intercantal com régua e comparar com tabelas populacionais"
       - "Pedir uma fotografia antiga de documento e, se possível, observar pais, irmãos e filhos"
+      - "Medir a distância intercantal com régua e comparar com tabelas populacionais"
       - "Repetir o exame sob luz fluorescente, que realça a atenuação dos traços faciais"
       - "Avaliar a fácies apenas com o paciente em decúbito dorsal, para eliminar o efeito da gravidade"
-    corretaIndex: 1
+    corretaIndex: 0
     explicacao: "Mudanças lentas passam despercebidas por quem convive com o paciente. Comparar com uma fotografia antiga documenta a evolução, e observar familiares distingue traço familiar de achado de doença. Quando os traços não formam padrão reconhecível, o registro correto é fácies atípica."
 :::

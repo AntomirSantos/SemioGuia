@@ -94,6 +94,7 @@ tags:
 referencias:
   - "Porto — Semiologia Médica, 8ª ed., Parte 6 (Sistema Tegumentar), cap. 12 (Exame Clínico) — Pele: coloração (palidez, vermelhidão, cianose, icterícia, albinismo, bronzeamento, dermatografismo, fenômeno de Raynaud), continuidade, umidade, textura, espessura, temperatura, elasticidade e mobilidade, turgor, sensibilidade; Lesões elementares e sua classificação em seis grupos; manchas vasculares e hemorrágicas — petéquias, víbices e equimoses (Figuras 12.10 e 12.11); Mucosas: coloração, descoramento em cruzes, umidade; Fâneros: cabelo, pelos e unhas (Figura 12.33 e Quadro 12.1)"
   - "Porto — Semiologia Médica, 8ª ed., Parte 3 (Método Clínico), cap. 8 (Exame Físico Geral) — pele, mucosas e fâneros na sequência do exame físico geral; alterações do tegumento na desnutrição"
+  - "Porto — Exame Clínico, 8ª ed., cap. 11 (Exame da Pele, das Mucosas e dos Fâneros) — Mucosas: coloração, descoramento, icterícia e a coloração amarelada da esclerótica por deposição de gordura nas pessoas de pele pigmentada"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 10 (Anemia), p. 73-75 — palidez da rima conjuntival (Figura 10.1) e demais sítios de palidez, boxe EBM 10.1"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 8 (Jaundice), p. 59-63 — onde a icterícia é notada primeiro e por que scleral icterus é designação imprópria; gordura subconjuntival e carotenemia como imitadores; sensibilidade do exame conforme o nível de bilirrubina"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 29, Tabela 5.1 — concordância entre observadores para palidez do leito ungueal, palidez conjuntival pelo método da rima, icterícia e cianose"
@@ -305,16 +306,26 @@ svg: |
       <text x="160" y="14">boca e língua</text>
       <text x="264" y="14">mão</text>
     </g>
-    <!-- A: olho com pálpebra tracionada -->
-    <path d="M 20 56 C 34 40, 82 40, 96 56 C 82 72, 34 72, 20 56 Z" stroke-width="1.8" />
-    <circle cx="58" cy="56" r="11" stroke-width="1.6" />
-    <circle cx="58" cy="56" r="4" stroke-width="1.4" />
-    <path d="M 24 66 C 36 84, 80 84, 92 66" stroke-width="1.8" />
-    <path d="M 27 71 C 38 82, 78 82, 89 71" stroke-width="1.2" stroke-dasharray="4 3" />
-    <path d="M 58 84 L 58 96" stroke-width="1.2" />
+    <!-- A: globo ocular e pálpebra inferior tracionada -->
+    <path d="M 20 54 C 34 38, 82 38, 96 54 C 82 68, 34 68, 20 54 Z" stroke-width="1.8" />
+    <circle cx="58" cy="53" r="10" stroke-width="1.6" />
+    <circle cx="58" cy="53" r="3.6" stroke-width="1.4" />
+    <!-- banda da pálpebra evertida: superior (face interna) e inferior (rima) -->
+    <path d="M 26 64 C 38 78, 78 78, 90 64" stroke-width="1.6" />
+    <path d="M 24 65 C 37 86, 79 86, 92 65" stroke-width="1.2" stroke-dasharray="4 3" />
+    <path d="M 22 66 C 36 94, 80 94, 94 66" stroke-width="1.8" />
+    <!-- guias, uma para cada estrutura -->
+    <path d="M 34 50 L 24 40" stroke-width="1.1" />
+    <path d="M 62 79 L 100 73" stroke-width="1.1" />
+    <path d="M 62 89 L 100 97" stroke-width="1.1" />
+    <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
+      <text x="14" y="36">1</text>
+      <text x="102" y="72">3</text>
+      <text x="102" y="100">2</text>
+    </g>
     <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="middle">
-      <text x="58" y="106">1 rima</text>
-      <text x="58" y="117">2 face interna</text>
+      <text x="60" y="112">1 esclera e conjuntiva</text>
+      <text x="60" y="123">2 rima · 3 face interna</text>
     </g>
     <!-- B: boca aberta, língua elevada -->
     <path d="M 124 46 C 142 34, 178 34, 196 46 C 180 78, 140 78, 124 46 Z" stroke-width="1.8" />
@@ -325,8 +336,8 @@ svg: |
     <path d="M 160 40 L 160 34" stroke-width="1.2" />
     <path d="M 160 78 L 160 96" stroke-width="1.2" />
     <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="middle">
-      <text x="160" y="28">3 palato duro</text>
-      <text x="160" y="106">4 freio da língua</text>
+      <text x="160" y="28">4 palato duro</text>
+      <text x="160" y="106">5 freio da língua</text>
     </g>
     <!-- C: mão, palma -->
     <path d="M 240 96 C 236 78, 238 62, 244 56 C 248 52, 252 54, 252 60 L 252 74" stroke-width="1.6" />
@@ -344,15 +355,15 @@ svg: |
       <path d="M 258 42 C 260 40, 263 40, 264 42" />
     </g>
     <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="middle">
-      <text x="262" y="122">5 pregas palmares</text>
+      <text x="262" y="122">6 pregas palmares</text>
     </g>
     <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
-      <text x="14" y="150">Palidez: 1 rima conjuntival (maior rendimento), 5 pregas palmares.</text>
-      <text x="14" y="166">Icterícia: 1 esclera e conjuntiva, 4 freio da língua, 3 palato duro.</text>
+      <text x="14" y="150">Palidez: 2 rima conjuntival (maior rendimento), 6 pregas palmares.</text>
+      <text x="14" y="166">Icterícia: 1 esclera e conjuntiva, 5 freio da língua, 4 palato duro.</text>
       <text x="14" y="182">Em pele escura, palma e planta substituem a pele na busca de palidez.</text>
     </g>
   </svg>
-legenda: "Os mesmos três sítios servem a duas perguntas diferentes. A conjuntiva responde pelas duas — pela rima, na palidez; pela cor de fundo, na icterícia."
+legenda: "Os mesmos três sítios servem a duas perguntas diferentes, mas por estruturas distintas. No olho, a icterícia se procura na superfície do globo (1) e a palidez, na rima da pálpebra evertida (2), comparada com a face interna mais profunda (3)."
 :::
 
 ::: secao
@@ -368,7 +379,9 @@ texto: |
 
   **A luz é parte do método**: examine, sempre que possível, sob iluminação natural.
 
-  Dois cuidados evitam o falso-positivo em pessoas negras. Porto registra que a esclerótica pode apresentar coloração amarelada por **depósito de gordura**, que não é icterícia. Semiologia Clínica acrescenta o **fotoescurecimento da esclera** e oferece a solução prática: avaliar a região da esclera **sob a pálpebra inferior**, que não fica exposta à luz solar.
+  Dois cuidados evitam o falso-positivo em pessoas de pele pigmentada. As duas edições de Porto registram o mesmo achado, e vale citá-lo ao pé da letra: "Nas pessoas de pele pigmentada, a esclerótica costuma apresentar uma coloração amarelada, causada por deposição de gordura, que não deve ser confundida com icterícia" (Porto, *Exame Clínico*, 8ª ed., cap. 11; a *Semiologia Médica*, cap. 12, traz a mesma observação). Semiologia Clínica acrescenta o **fotoescurecimento da esclera** e oferece a solução prática: avaliar a região da esclera **sob a pálpebra inferior**, que não fica exposta à luz solar.
+
+  Vale separar esse achado de um imitador vizinho, mas distinto, descrito por McGee: a **gordura subconjuntival**, que se limita às dobras da conjuntiva e poupa a área próxima à córnea. São dois depósitos de gordura em planos diferentes — o escleral, descrito por Porto, e o subconjuntival, descrito por McGee — e ambos podem ser tomados por icterícia.
 :::
 
 ::: entendimento
@@ -601,29 +614,29 @@ perguntas:
   - id: pele-1
     enunciado: Você encontra manchas avermelhadas no tronco de um paciente febril. Ao comprimi-las com uma lâmina de vidro, as manchas não empalidecem. O que isso significa?
     alternativas:
-      - "São manchas eritematosas por vasodilatação"
       - "São manchas hemorrágicas — o sangue já extravasou para o tecido"
+      - "São manchas eritematosas por vasodilatação"
       - "São telangiectasias, que exigem puntipressão central para empalidecer"
       - "São manchas hipocrômicas, e a manobra confirma redução de melanina"
-    corretaIndex: 1
+    corretaIndex: 0
     explicacao: "As manchas vasculares — eritema, telangiectasias, aranhas vasculares — desaparecem à digitopressão ou à vitropressão, porque a cor vem de sangue circulante em vasos dilatados. As manchas hemorrágicas não desaparecem, porque o sangue está fora do vaso. Pela forma e pelo tamanho, subdividem-se em petéquias (puntiformes, até 1 cm), víbices (dispostas em linha) e equimoses (em placa, acima de 1 cm)."
   - id: pele-2
     enunciado: Qual sítio de palidez mais eleva a probabilidade de anemia, e como se pesquisa?
     alternativas:
       - "O leito ungueal, comparando a cor com a do examinador"
-      - "A rima conjuntival: puxa-se a pálpebra inferior e verifica-se se o contraste entre a borda avermelhada e a porção mais pálida próxima ao globo desapareceu"
       - "A face, em qualquer fototipo de pele"
+      - "A rima conjuntival: puxa-se a pálpebra inferior e verifica-se se o contraste entre a borda avermelhada e a porção mais pálida próxima ao globo desapareceu"
       - "A mucosa gengival, graduada em cruzes de + a ++++"
-    corretaIndex: 1
+    corretaIndex: 2
     explicacao: "A palidez da rima conjuntival é o achado com maior razão de verossimilhança para anemia (16,7) e também um dos mais reprodutíveis (kappa 0,54 a 0,75). Normalmente há duas zonas de cor na face interna da pálpebra inferior: a rima avermelhada e a porção mais pálida próxima ao globo; na anemia, toda a superfície fica pálida. A palidez do leito ungueal não mostrou valor diagnóstico, e a palidez facial só foi avaliada em pessoas de pele clara."
   - id: pele-3
     enunciado: Um paciente refere que a pele das mãos ficou amarelada nas últimas semanas. Ao exame, as palmas e as plantas estão francamente amareladas, mas a conjuntiva e a mucosa oral estão normais. Qual a interpretação?
     alternativas:
       - "Icterícia leve, ainda restrita às extremidades"
-      - "Carotenodermia — a betacarotenemia poupa conjuntiva e mucosa oral"
       - "Icterícia obstrutiva, que caracteristicamente começa pelas mãos"
       - "Cianose periférica em fase de resolução"
-    corretaIndex: 1
+      - "Carotenodermia — a betacarotenemia poupa conjuntiva e mucosa oral"
+    corretaIndex: 3
     explicacao: "A ingestão elevada de alimentos ricos em caroteno ou de suplementos produz tonalidade amarelo-alaranjada, mais evidente nas palmas, nas plantas e no sulco nasolabial, e poupa a conjuntiva e a mucosa oral. A icterícia, ao contrário, é notada primeiro justamente na superfície ocular e no freio da língua. Pele amarela com olho e boca poupados não é icterícia."
   - id: pele-4
     enunciado: Um adulto tem bilirrubina total de 2,8 mg/dL e você não identifica icterícia ao exame. Qual é a leitura correta?
@@ -637,19 +650,19 @@ perguntas:
   - id: pele-5
     enunciado: Sobre a graduação da icterícia em cruzes, o que os estudos citados em Semiologia Clínica mostraram?
     alternativas:
-      - "Correlação forte com a bilirrubina sérica, o que justifica seu uso rotineiro"
       - "Baixa correlação com os níveis séricos e baixa concordância entre observadores; o que altera a conduta inicial é o sinal estar presente ou ausente"
+      - "Correlação forte com a bilirrubina sérica, o que justifica seu uso rotineiro"
       - "Concordância excelente entre observadores, mas correlação fraca com a bilirrubina"
       - "Utilidade restrita ao recém-nascido, em quem a correlação é perfeita"
-    corretaIndex: 1
+    corretaIndex: 0
     explicacao: "Um estudo conduzido em Santa Catarina mostrou baixa correlação da graduação em cruzes com os níveis séricos de bilirrubina e baixa concordância entre observadores; outro, na Universidade de São Paulo, concluiu que os níveis de intensidade não determinam nem alteram a conduta inicial, ao contrário da simples presença ou ausência do sinal. No recém-nascido, a correlação da progressão cefalocaudal isolada com a bilirrubina dosada também se mostrou pobre em estudos recentes."
   - id: pele-6
     enunciado: Ao examinar as unhas, você mede o ângulo de implantação e encontra valor próximo de 180°. Como interpretar esse achado e como ele se relaciona com o ângulo hiponiquial de 190° citado no tópico de inspeção do tórax?
     alternativas:
       - "Há contradição entre as fontes: um dos dois valores está errado"
-      - "São medidas diferentes, feitas em referências diferentes: o ângulo de implantação normal fica em torno de 160° e se aproxima de 180° no hipocratismo; o ângulo hiponiquial é medido a partir do hiponíquio e tem limite de 190°"
       - "O ângulo de implantação de 180° é normal e o hiponiquial de 190° é patológico apenas em fumantes"
-      - "Os dois ângulos são sinônimos, e a diferença de 10° decorre de arredondamento"
-    corretaIndex: 1
+      - "São medidas diferentes, feitas em referências diferentes: o ângulo de implantação normal fica em torno de 160° e se aproxima de 180° no hipocratismo; o ângulo hiponiquial é medido a partir do hiponíquio e tem limite de 190°"
+      - "O ângulo de implantação substituiu o hiponiquial porque mede a mesma coisa com mais acurácia à beira do leito"
+    corretaIndex: 2
     explicacao: "São duas medidas distintas. O ângulo de implantação, ou de perfil, forma-se entre a placa ungueal e a dobra ungueal proximal, fica em torno de 160° na unha normal e se aproxima de 180° no hipocratismo digital. O ângulo hiponiquial é medido a partir do hiponíquio, na face inferior da falange, e o limite descrito para baqueteamento é 190°; é acurado, mas exige instrumentos. Ao registrar, é preciso dizer qual ângulo foi usado."
 :::

@@ -206,7 +206,7 @@ texto: |
 :::
 
 ::: tabela
-titulo: Classificação do IMC no adulto (OMS, reproduzida em Porto, Quadro 129.1)
+titulo: Classificação do IMC no adulto (OMS 2000, reproduzida em Porto, Quadro 129.1)
 colunas:
   - "Classificação"
   - "IMC (kg/m²)"
@@ -327,7 +327,7 @@ nivel: avancado
 texto: |
   As síndromes clássicas de desnutrição proteico-energética — o marasmo, com perda profunda de peso e depleção de músculo e gordura, e o kwashiorkor, com distensão abdominal, edema e cabelos hipopigmentados — são descritas em crianças de países em desenvolvimento. Em serviços de países industrializados, McGee registra que o quadro é menos dramático: os pacientes desnutridos se apresentam com peso baixo, atrofia de músculo e de gordura subcutânea, fraqueza e alterações laboratoriais.
 
-  Nesses serviços, dois achados foram estudados como preditores de complicações pós-operatórias significativas em cirurgias de grande porte:
+  Nesses serviços, três achados foram estudados como preditores de complicações pós-operatórias significativas em cirurgias de grande porte:
 
   - **circunferência muscular do braço ou do antebraço reduzida** — razão de verossimilhança de 2,5 a 3,2;
   - **força de preensão palmar reduzida** — razão de verossimilhança 2,5, com a força normal reduzindo a probabilidade (razão de verossimilhança 0,4);
@@ -400,7 +400,13 @@ linhas:
   - - "Sulcos longitudinais na língua"
     - "sem significância"
     - "0,3"
-  - - "Confusão, fraqueza ou fala arrastada"
+  - - "Confusão mental"
+    - "sem significância"
+    - "0,5"
+  - - "Fala arrastada ou desconexa"
+    - "sem significância"
+    - "0,5"
+  - - "Fraqueza"
     - "sem significância"
     - "sem significância"
 :::
@@ -490,42 +496,42 @@ perguntas:
     enunciado: Um homem de 45 anos tem IMC de 27,4 kg/m² e circunferência da cintura de 106 cm. Como se classificam essas duas medidas?
     alternativas:
       - "Obesidade grau I e risco cardiovascular aumentado"
-      - "Sobrepeso (pré-obesidade) e risco cardiovascular muito aumentado"
       - "Eutrofia e risco cardiovascular aumentado"
+      - "Sobrepeso (pré-obesidade) e risco cardiovascular muito aumentado"
       - "Sobrepeso e circunferência dentro da faixa de referência"
-    corretaIndex: 1
-    explicacao: "IMC entre 25,0 e 29,9 kg/m² corresponde a sobrepeso ou pré-obesidade na classificação da OMS reproduzida por Porto. Para a circunferência da cintura, os pontos de corte da OMS de 1998 para homens são 94 a 102 cm (risco aumentado) e acima de 102 cm (risco muito aumentado); 106 cm cai, portanto, na faixa de risco muito aumentado. O caso ilustra por que as duas medidas se complementam: o IMC sozinho subestimaria o risco."
+    corretaIndex: 2
+    explicacao: "IMC entre 25,0 e 29,9 kg/m² corresponde a sobrepeso ou pré-obesidade na classificação da OMS de 2000, reproduzida por Porto no Quadro 129.1. Para a circunferência da cintura, os pontos de corte da OMS de 1998 para homens são 94 a 102 cm (risco aumentado) e acima de 102 cm (risco muito aumentado); 106 cm cai, portanto, na faixa de risco muito aumentado. O caso ilustra por que as duas medidas se complementam: o IMC sozinho subestimaria o risco."
   - id: antrop-2
     enunciado: Em uma idosa de 78 anos internada por vômitos há dois dias, quais achados aumentam mais a probabilidade de hipovolemia, segundo os dados reunidos por McGee?
     alternativas:
       - "Enchimento capilar lentificado e confusão mental"
-      - "Olhos encovados e turgor cutâneo anormal pesquisado na região subclavicular"
       - "Sulcos longitudinais na língua e fraqueza"
       - "Fala arrastada e pele fria"
-    corretaIndex: 1
-    explicacao: "No boxe EBM 11.1, olhos encovados (razão de verossimilhança 3,7), turgor anormal na região subclavicular (3,5), mucosas secas (3,1) e axila seca (3,0) aumentam a probabilidade de hipovolemia. Confusão, fraqueza e fala alterada não tiveram valor diagnóstico, e o enchimento capilar não mostrou valor no estudo em que foi avaliado. Os sulcos na língua informam pela ausência: não encontrá-los reduz a probabilidade (0,3)."
+      - "Olhos encovados e turgor cutâneo anormal pesquisado na região subclavicular"
+    corretaIndex: 3
+    explicacao: "No boxe EBM 11.1, olhos encovados (razão de verossimilhança 3,7), turgor anormal na região subclavicular (3,5), mucosas secas (3,1) e axila seca (3,0) aumentam a probabilidade de hipovolemia. Confusão mental e fala arrastada nada acrescentam quando presentes, e sua ausência reduz apenas discretamente a probabilidade (0,5); a fraqueza não informa em nenhuma direção. O enchimento capilar não mostrou valor no estudo em que foi avaliado. Os sulcos na língua informam pela ausência: não encontrá-los reduz a probabilidade (0,3)."
   - id: antrop-3
     enunciado: Por que a avaliação da hidratação pela pele é menos confiável no paciente idoso?
     alternativas:
-      - "Porque o idoso tem menos tecido subcutâneo, o que impede pinçar a prega"
       - "Porque o envelhecimento reduz turgor, elasticidade e espessura da pele e resseca mucosas e conjuntivas, imitando desidratação; além disso, a elastina se deteriora com a idade e reduz a especificidade do sinal"
-      - "Porque o turgor só pode ser pesquisado em pessoas com menos de 60 anos"
+      - "Porque o idoso tem menos tecido subcutâneo, o que impede pinçar a prega"
+      - "Porque no idoso o turgor deve ser pesquisado no antebraço, região em que o envelhecimento não interfere no recolhimento da pele"
       - "Porque a desidratação no idoso é sempre hipotônica e não altera a pele"
-    corretaIndex: 1
+    corretaIndex: 0
     explicacao: "Porto registra que a pele senil perde turgor, elasticidade e espessura, a mucosa oral e a língua ficam menos úmidas pela redução da saliva e as conjuntivas ressecam pela menor secreção lacrimal — de modo que a pessoa idosa hidratada já exibe parte do quadro de desidratação. McGee acrescenta que a elastina, responsável pelo recolhimento da pele, deteriora-se com a idade, reduzindo a especificidade do turgor. No idoso, peso e contexto de perdas informam mais do que a pele."
   - id: antrop-4
     enunciado: Na avaliação de sarcopenia em pessoas idosas proposta no fluxograma reproduzido por Porto, qual parâmetro é avaliado primeiro?
     alternativas:
       - "A massa muscular, pela circunferência da panturrilha"
       - "A força, pelo teste de preensão palmar"
-      - "A velocidade habitual da marcha"
       - "A composição corporal por absorciometria de dupla energia"
-    corretaIndex: 2
+      - "A velocidade habitual da marcha"
+    corretaIndex: 3
     explicacao: "O primeiro sinal clínico de sarcopenia no idoso é a perda de função muscular, expressa no desempenho da velocidade habitual da marcha — primeira etapa do fluxograma (Cruz-Jentoft et al., 2010). Só depois vêm a força de preensão palmar e a massa muscular, esta última estimada na prática pela circunferência da panturrilha, com pontos de corte de 34 cm em mulheres e 33 cm em homens."
   - id: antrop-5
     enunciado: Qual é a diferença prática entre circunferência da cintura e circunferência abdominal?
     alternativas:
-      - "São sinônimos; a escolha do termo depende apenas da região do país"
+      - "As duas têm pontos de corte próprios, mas os da circunferência abdominal são mais altos"
       - "A cintura é aferida a meio caminho entre a última costela e a crista ilíaca e tem pontos de corte; a circunferência abdominal é o maior diâmetro do abdome, não tem ponto de corte e serve para acompanhar o mesmo paciente"
       - "A circunferência abdominal é a medida validada para diagnosticar obesidade abdominal; a cintura é apenas estética"
       - "A cintura só pode ser aferida com o paciente deitado; a abdominal, apenas de pé"
@@ -535,9 +541,9 @@ perguntas:
     enunciado: Sobre o valor prognóstico da perda de peso recente em pacientes submetidos a cirurgia de grande porte, o que os estudos reunidos por McGee mostraram?
     alternativas:
       - "A perda de peso recente foi o preditor mais forte de complicações, com razão de verossimilhança acima de 8"
-      - "A perda de peso recente teve pouco valor preditivo, possivelmente por reunir tanto quem emagreceu por desnutrição quanto quem emagreceu voluntariamente antes da cirurgia"
       - "A perda de peso recente reduziu fortemente a probabilidade de complicações"
+      - "A perda de peso recente teve pouco valor preditivo, possivelmente por reunir tanto quem emagreceu por desnutrição quanto quem emagreceu voluntariamente antes da cirurgia"
       - "A perda de peso recente só tem valor quando associada a IMC acima de 30 kg/m²"
-    corretaIndex: 1
+    corretaIndex: 2
     explicacao: "Circunferência muscular do braço ou do antebraço reduzida (razão de verossimilhança 2,5 a 3,2), força de preensão palmar reduzida (2,5) e peso corporal baixo (2,0) aumentam modestamente a probabilidade de complicações; a força de preensão normal a reduz (0,4). A perda de peso recente, porém, teve pouco valor — a explicação proposta é que o achado mistura pacientes desnutridos, de maior risco, com pacientes com excesso de peso que emagreceram voluntariamente antes da cirurgia."
 :::

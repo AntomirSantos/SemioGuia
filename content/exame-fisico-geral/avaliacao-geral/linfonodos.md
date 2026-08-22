@@ -151,7 +151,7 @@ svg: |
     <path d="M 100 118 L 102 152 L 104 186" stroke-width="1.6" />
     <!-- marcadores -->
     <g stroke-width="1.4">
-      <circle cx="86" cy="26" r="3.4" />
+      <circle cx="70" cy="46" r="3.4" />
       <circle cx="70" cy="34" r="3.4" />
       <circle cx="86" cy="50" r="3.4" />
       <circle cx="76" cy="58" r="3.4" />
@@ -162,7 +162,7 @@ svg: |
       <circle cx="70" cy="152" r="3.4" />
     </g>
     <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
-      <text x="94" y="24">1</text>
+      <text x="58" y="49">1</text>
       <text x="58" y="32">2</text>
       <text x="94" y="49">3</text>
       <text x="64" y="56">4</text>
@@ -174,7 +174,7 @@ svg: |
     </g>
     <!-- legenda -->
     <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
-      <text x="160" y="34">1 occipitais</text>
+      <text x="160" y="34">1 occipitais (cadeia posterior)</text>
       <text x="160" y="50">2 pré e retroauriculares</text>
       <text x="160" y="66">3 submentonianos e submandibulares</text>
       <text x="160" y="82">4 cervicais (profundos e posteriores)</text>
@@ -186,7 +186,7 @@ svg: |
       <text x="160" y="184">Compare sempre os dois lados.</text>
     </g>
   </svg>
-legenda: "As nove regiões que a palpação alcança. As três de maior valor de alarme são a supraclavicular (5) e a epitrocleana (7), raramente palpáveis em pessoas saudáveis, e qualquer cadeia com linfonodo endurecido e aderido."
+legenda: "As nove regiões que a palpação alcança. Duas delas raramente são palpáveis em pessoas saudáveis — a supraclavicular (5) e a epitrocleana (7). Em qualquer cadeia, o que soa alarme é o linfonodo endurecido e aderido aos planos profundos."
 :::
 
 ::: secao
@@ -267,7 +267,7 @@ texto: |
 :::
 
 ::: entendimento
-titulo: Tamanho — três referências que não coincidem
+titulo: Tamanho — quatro referências que não coincidem
 texto: |
   Este é um ponto em que as fontes divergem, e o guia registra a divergência em vez de escolher por conta própria.
 
@@ -358,8 +358,8 @@ linhas:
     - "Habitualmente móvel em relação aos planos profundos"
   - - "Dor e sinais flogísticos"
     - "Pode doer e pode fistulizar"
-    - "Habitualmente indolor"
-    - "Indolor ou pouco dolorido"
+    - "Geralmente indolor"
+    - "Indolor"
 :::
 
 ::: conceito
@@ -509,10 +509,10 @@ perguntas:
     enunciado: Qual é o princípio técnico que torna os linfonodos perceptíveis à palpação?
     alternativas:
       - "Comprimir em pinça ao longo do trajeto muscular, como se faz para palpar músculos"
-      - "Deslizar os tecidos moles contra uma estrutura mais rígida subjacente — o esternocleidomastóideo, a base da mandíbula, o gradil costal"
       - "Percutir a região e procurar mudança de som"
       - "Palpar com o paciente em apneia inspiratória máxima, para tensionar a pele"
-    corretaIndex: 1
+      - "Deslizar os tecidos moles contra uma estrutura mais rígida subjacente — o esternocleidomastóideo, a base da mandíbula, o gradil costal"
+    corretaIndex: 3
     explicacao: "A palpação de linfonodos difere da palpação muscular. Para as cadeias ganglionares, deslizam-se os tecidos moles contra uma estrutura rígida: na cadeia cervical superficial, apoia-se o polegar no esternocleidomastóideo e movimentam-se os tecidos com os outros dedos; nas cadeias submandibular e submentoniana, contra a borda inferior da mandíbula; na axila, contra o gradil costal. Já o músculo se palpa com a mão em garra percorrendo o ventre muscular, e com dois dedos na origem."
   - id: linfo-3
     enunciado: Você examina uma criança de 5 anos e encontra dois linfonodos cervicais de cerca de 0,8 cm, móveis, indolores e de consistência borrachosa, sem sinais flogísticos. Qual é a interpretação mais adequada?
@@ -527,10 +527,10 @@ perguntas:
     enunciado: Sobre a adenopatia supraclavicular esquerda associada a neoplasia abdominal — o nódulo de Virchow —, qual afirmação corresponde aos dados apresentados por McGee?
     alternativas:
       - "Todos os carcinomas infradiafragmáticos que metastatizam para supraclaviculares vão para o lado esquerdo"
-      - "Em média, cerca de três quartos vão para a esquerda e um quarto aparece à direita; a disseminação retrógrada ocorre com facilidade e não implica obstrução linfática"
       - "O acometimento supraclavicular só ocorre quando há obstrução completa do ducto torácico"
+      - "Em média, cerca de três quartos vão para a esquerda e um quarto aparece à direita; a disseminação retrógrada ocorre com facilidade e não implica obstrução linfática"
       - "A biópsia de linfonodo supraclavicular revela neoplasia em menos de 10% dos casos"
-    corretaIndex: 1
+    corretaIndex: 2
     explicacao: "Apesar do epônimo, apenas cerca de três quartos dos carcinomas infradiafragmáticos metastáticos para supraclaviculares vão para a esquerda; um quarto aparece à direita, com variação de 0% a 38% entre as séries. O fluxo normal é dos supraclaviculares em direção à confluência venosa, de modo que o acometimento exige disseminação retrógrada — que ocorre com facilidade e não implica obstrução. Em séries de biópsia dessa cadeia, 54% a 87% dos pacientes tinham neoplasia maligna, e cerca de metade desconhecia o diagnóstico antes do procedimento."
   - id: linfo-5
     enunciado: Como as fontes deste guia definem linfadenomegalia generalizada?
@@ -545,9 +545,9 @@ perguntas:
     enunciado: Uma paciente é encaminhada por "gânglio inguinal" que, ao exame, é redutível e aumenta com a manobra de Valsalva. O que esse caso ilustra?
     alternativas:
       - "Coalescência linfonodal, indicativa de doença de longa evolução"
-      - "Imitador extranodal: até 15% dos pacientes encaminhados por adenomegalia têm explicação não ganglionar; na virilha, hérnias e aneurismas são clássicos"
       - "Linfonodo de consistência flutuante, sugestivo de processo purulento"
       - "Sinal de Stemmer positivo, patognomônico de linfedema"
-    corretaIndex: 1
+      - "Imitador extranodal: até 15% dos pacientes encaminhados por adenomegalia têm explicação não ganglionar; na virilha, hérnias e aneurismas são clássicos"
+    corretaIndex: 3
     explicacao: "Até 15% dos pacientes encaminhados por adenomegalia inexplicada têm explicação extranodal para o nódulo. Os imitadores mais comuns em qualquer local são lipomas e cistos epidermoides; no pescoço, glândulas salivares, cistos tireoglossos e branquiais e seios carotídeos proeminentes; na fossa supraclavicular, cistos sinoviais e costelas cervicais; na virilha, hérnias inguinais e aneurismas vasculares. O sinal de Stemmer é a impossibilidade de pinçar a pele do segundo pododáctilo, achado de linfedema."
 :::

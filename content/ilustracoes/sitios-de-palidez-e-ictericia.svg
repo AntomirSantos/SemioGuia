@@ -4,16 +4,26 @@
     <text x="160" y="14">boca e língua</text>
     <text x="264" y="14">mão</text>
   </g>
-  <!-- A: olho com pálpebra tracionada -->
-  <path d="M 20 56 C 34 40, 82 40, 96 56 C 82 72, 34 72, 20 56 Z" stroke-width="1.8" />
-  <circle cx="58" cy="56" r="11" stroke-width="1.6" />
-  <circle cx="58" cy="56" r="4" stroke-width="1.4" />
-  <path d="M 24 66 C 36 84, 80 84, 92 66" stroke-width="1.8" />
-  <path d="M 27 71 C 38 82, 78 82, 89 71" stroke-width="1.2" stroke-dasharray="4 3" />
-  <path d="M 58 84 L 58 96" stroke-width="1.2" />
+  <!-- A: globo ocular e pálpebra inferior tracionada -->
+  <path d="M 20 54 C 34 38, 82 38, 96 54 C 82 68, 34 68, 20 54 Z" stroke-width="1.8" />
+  <circle cx="58" cy="53" r="10" stroke-width="1.6" />
+  <circle cx="58" cy="53" r="3.6" stroke-width="1.4" />
+  <!-- banda da pálpebra evertida: superior (face interna) e inferior (rima) -->
+  <path d="M 26 64 C 38 78, 78 78, 90 64" stroke-width="1.6" />
+  <path d="M 24 65 C 37 86, 79 86, 92 65" stroke-width="1.2" stroke-dasharray="4 3" />
+  <path d="M 22 66 C 36 94, 80 94, 94 66" stroke-width="1.8" />
+  <!-- guias, uma para cada estrutura -->
+  <path d="M 34 50 L 24 40" stroke-width="1.1" />
+  <path d="M 62 79 L 100 73" stroke-width="1.1" />
+  <path d="M 62 89 L 100 97" stroke-width="1.1" />
+  <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
+    <text x="14" y="36">1</text>
+    <text x="102" y="72">3</text>
+    <text x="102" y="100">2</text>
+  </g>
   <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="middle">
-    <text x="58" y="106">1 rima</text>
-    <text x="58" y="117">2 face interna</text>
+    <text x="60" y="112">1 esclera e conjuntiva</text>
+    <text x="60" y="123">2 rima · 3 face interna</text>
   </g>
   <!-- B: boca aberta, língua elevada -->
   <path d="M 124 46 C 142 34, 178 34, 196 46 C 180 78, 140 78, 124 46 Z" stroke-width="1.8" />
@@ -24,8 +34,8 @@
   <path d="M 160 40 L 160 34" stroke-width="1.2" />
   <path d="M 160 78 L 160 96" stroke-width="1.2" />
   <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="middle">
-    <text x="160" y="28">3 palato duro</text>
-    <text x="160" y="106">4 freio da língua</text>
+    <text x="160" y="28">4 palato duro</text>
+    <text x="160" y="106">5 freio da língua</text>
   </g>
   <!-- C: mão, palma -->
   <path d="M 240 96 C 236 78, 238 62, 244 56 C 248 52, 252 54, 252 60 L 252 74" stroke-width="1.6" />
@@ -43,11 +53,11 @@
     <path d="M 258 42 C 260 40, 263 40, 264 42" />
   </g>
   <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="middle">
-    <text x="262" y="122">5 pregas palmares</text>
+    <text x="262" y="122">6 pregas palmares</text>
   </g>
   <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
-    <text x="14" y="150">Palidez: 1 rima conjuntival (maior rendimento), 5 pregas palmares.</text>
-    <text x="14" y="166">Icterícia: 1 esclera e conjuntiva, 4 freio da língua, 3 palato duro.</text>
+    <text x="14" y="150">Palidez: 2 rima conjuntival (maior rendimento), 6 pregas palmares.</text>
+    <text x="14" y="166">Icterícia: 1 esclera e conjuntiva, 5 freio da língua, 4 palato duro.</text>
     <text x="14" y="182">Em pele escura, palma e planta substituem a pele na busca de palidez.</text>
   </g>
 </svg>

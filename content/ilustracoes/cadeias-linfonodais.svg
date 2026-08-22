@@ -18,7 +18,7 @@
   <path d="M 100 118 L 102 152 L 104 186" stroke-width="1.6" />
   <!-- marcadores -->
   <g stroke-width="1.4">
-    <circle cx="86" cy="26" r="3.4" />
+    <circle cx="70" cy="46" r="3.4" />
     <circle cx="70" cy="34" r="3.4" />
     <circle cx="86" cy="50" r="3.4" />
     <circle cx="76" cy="58" r="3.4" />
@@ -29,7 +29,7 @@
     <circle cx="70" cy="152" r="3.4" />
   </g>
   <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
-    <text x="94" y="24">1</text>
+    <text x="58" y="49">1</text>
     <text x="58" y="32">2</text>
     <text x="94" y="49">3</text>
     <text x="64" y="56">4</text>
@@ -41,7 +41,7 @@
   </g>
   <!-- legenda -->
   <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
-    <text x="160" y="34">1 occipitais</text>
+    <text x="160" y="34">1 occipitais (cadeia posterior)</text>
     <text x="160" y="50">2 pré e retroauriculares</text>
     <text x="160" y="66">3 submentonianos e submandibulares</text>
     <text x="160" y="82">4 cervicais (profundos e posteriores)</text>
