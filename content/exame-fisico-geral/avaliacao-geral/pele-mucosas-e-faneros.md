@@ -108,7 +108,7 @@ titulo: O essencial
 :::
 
 ::: conceito
-titulo: O maior órgão do corpo, examinado em três perguntas
+titulo: O órgão mais extenso do corpo, examinado em três perguntas
 texto: |
   A pele responde por cerca de 15% do peso corporal e é o único órgão que se examina inteiro sem nenhum aparelho. Ela tem doenças próprias, mas o que a torna indispensável ao exame físico geral é outra coisa: **muita doença sistêmica aparece primeiro no tegumento**.
 
@@ -381,7 +381,7 @@ texto: |
 
   Dois cuidados evitam o falso-positivo em pessoas de pele pigmentada. As duas edições de Porto registram o mesmo achado, e vale citá-lo ao pé da letra: "Nas pessoas de pele pigmentada, a esclerótica costuma apresentar uma coloração amarelada, causada por deposição de gordura, que não deve ser confundida com icterícia" (Porto, *Exame Clínico*, 8ª ed., cap. 11; a *Semiologia Médica*, cap. 12, traz a mesma observação). Semiologia Clínica acrescenta o **fotoescurecimento da esclera** e oferece a solução prática: avaliar a região da esclera **sob a pálpebra inferior**, que não fica exposta à luz solar.
 
-  Vale separar esse achado de um imitador vizinho, mas distinto, descrito por McGee: a **gordura subconjuntival**, que se limita às dobras da conjuntiva e poupa a área próxima à córnea. São dois depósitos de gordura em planos diferentes — o escleral, descrito por Porto, e o subconjuntival, descrito por McGee — e ambos podem ser tomados por icterícia.
+  Vale separar esse achado de um imitador vizinho, mas distinto, descrito por McGee: a **gordura subconjuntival**, que se limita às dobras da conjuntiva e poupa a área próxima à córnea. São, a rigor, dois relatos de depósito de gordura em planos diferentes — o escleral, descrito por Porto, e o subconjuntival, descrito por McGee — embora o capítulo hepatobiliar do próprio Porto localize essa gordura na conjuntiva, o que sugere que os dois relatos possam descrever o mesmo depósito. De um jeito ou de outro, o cuidado prático é o mesmo: gordura amarelada poupa a vizinhança da córnea e não acompanha as demais mucosas; a icterícia, não.
 :::
 
 ::: entendimento
