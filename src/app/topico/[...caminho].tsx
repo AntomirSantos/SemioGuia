@@ -135,7 +135,8 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
   function alternarFavorito() {
     const novo = !favorito;
     setFavorito(novo);
-    progresso.favoritar(topicoId, novo).catch(() => {});
+    // Spec §3.2, 4º gatilho: notifica após a escrita de progresso, com debounce.
+    progresso.favoritar(topicoId, novo).catch(() => {}).finally(() => notificarEscrita());
   }
 
   function iniciarQuiz(_perguntas: QuizPergunta[]) {

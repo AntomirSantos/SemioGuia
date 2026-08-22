@@ -7,6 +7,7 @@ import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useConteudo } from '../../content/ContentContext';
 import { listarSistemas, listarTodosTopicos } from '../../content/store';
 import { useProgresso } from '../../progress/ProgressContext';
+import { useSync } from '../../sync/orquestrador';
 import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import { montarFila } from '../../revisao/fila';
 import { idsValidosDoConteudo } from '../../revisao/idsValidos';
@@ -147,6 +148,7 @@ export function TelaPerfil() {
   const { paleta, escala, preferencia, definirPreferencia, escalaFonte, definirEscalaFonte } = useTema();
   const conteudo = useConteudo();
   const progresso = useProgresso();
+  const { notificarEscrita } = useSync();
   const carregarEstudados = useCallback(() => progresso.listarEstudados(), [progresso]);
   const estudados = useDadosAoFocar(carregarEstudados) ?? [];
 
@@ -171,12 +173,13 @@ export function TelaPerfil() {
 
   function selecionarTema(valor: PreferenciaTema) {
     definirPreferencia(valor);
-    progresso.definirPreferencia('tema', valor).catch(() => {});
+    // Spec §3.2, 4º gatilho: notifica após a escrita de progresso, com debounce.
+    progresso.definirPreferencia('tema', valor).catch(() => {}).finally(() => notificarEscrita());
   }
 
   function selecionarFonte(valor: EscalaFonte) {
     definirEscalaFonte(valor);
-    progresso.definirPreferencia('fonte', valor).catch(() => {});
+    progresso.definirPreferencia('fonte', valor).catch(() => {}).finally(() => notificarEscrita());
   }
 
   return (
