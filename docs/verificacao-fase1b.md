@@ -236,3 +236,63 @@ Screenshots (390×844, salvos durante a verificação):
 (resumo da sessão de revisão) — mais `resultado-estacao.png`,
 `estudar-escuro.png` e `sessao-escuro.png` como evidência complementar do
 resumo da estação e do tema escuro.
+
+## Adendo Fase 3 — casos clínicos ramificados
+
+A Fase 3 adiciona um motor de casos clínicos com decisões ramificadas
+(cena → decisão → cena/desfecho), sobre a mesma arquitetura de conteúdo e
+progresso já verificada nas fases anteriores. O que entrou:
+
+- **Formato de caso** (`content/casos/*.md`, `src/content/casoSchema.ts`):
+  grafo de nós tipados (`cena`, `decisao`, `desfecho`) validado no
+  `build:content`; cada opção de decisão traz avaliação (`otima` /
+  `aceitavel` / `erro`), feedback imediato e o próximo nó.
+- **Motor** (`src/casos/motor.ts`): `iniciar`/`avancar`/`decidir` navegam o
+  grafo mantendo uma trilha de decisões; o feedback de uma opção aparece
+  assim que ela é tocada, e o grafo só avança quando "Seguir" é
+  pressionado — nunca antes.
+- **Três casos** do capítulo de sinais vitais (crise hipertensiva, febre na
+  criança, síncope com pulso irregular), cada um com regras clínicas e
+  referências específicas.
+- **Lista "Casos clínicos"** na aba Estudar: um card por caso, mostrando
+  "Não iniciado" ou "Melhor resultado: <Classe>" (o melhor desfecho já
+  alcançado, entre todas as tentativas).
+- **Tela do caso** (`/caso/[id]`): cena com dados objetivos, decisão com
+  opções e feedback, e desfecho com a classe, "O que este caso ensina" e a
+  trilha de decisões — cada passo abaixo do ótimo mostra também "Melhor
+  conduta: …". "Refazer o caso" reinicia do primeiro nó.
+- **Histórico de conclusões**: cada chegada a um desfecho é registrada em
+  todos os adaptadores de `ProgressStore` (memória, localStorage, SQLite
+  com migração v3), alimentando o "Melhor resultado" da lista.
+
+Fora do escopo (spec §8): estado parcial persistido entre sessões, casos
+integrados ao SM-2, ilustrações na cena, casos de outros capítulos.
+
+### Verificação headless (build de deploy, caminho `/SemioGuia/`, 390×844)
+
+Mesmo procedimento das fases anteriores: export web com
+`experiments.baseUrl` = `/SemioGuia`, servido localmente sob o mesmo
+prefixo e navegado com Playwright/Chromium headless, por cliques dentro do
+app (sem `page.goto` direto em rota dinâmica, pelo mesmo motivo já registado
+no adendo da Fase 2). Zero `pageerror` em toda a bateria.
+
+1. **Lista**: a aba Estudar mostra a seção "Casos clínicos" com os 3 casos,
+   todos "Não iniciado".
+2. **Cena e decisão**: abrir "A pressão que chegou em 210 por 130" mostra a
+   cena com os dados objetivos (PA, FC, FR, temperatura, SpO2); "Continuar"
+   leva ao primeiro nó de decisão, com as três opções visíveis.
+3. **Feedback antes de avançar**: escolher a opção errada (nifedipina
+   sublingual) mostra o feedback correspondente sem sair do nó de decisão;
+   só ao tocar "Seguir" o grafo avança.
+4. **Desfecho**: seguindo por um caminho com um erro e depois um acerto, o
+   caso termina num desfecho "Aceitável", com "O que este caso ensina" e a
+   trilha mostrando, no passo errado, "Melhor conduta: …" com a opção ótima.
+5. **Refazer**: "Refazer o caso" volta à cena inicial.
+6. **Melhor resultado na lista**: voltando à aba Estudar, o card do caso
+   passa a mostrar "Melhor resultado: Aceitável".
+7. **Tema escuro**: lista e player do caso renderizam com fundo e cores
+   corretos no tema escuro (conferido visualmente nas capturas).
+
+Screenshots (390×844, salvos durante a verificação): `casos-lista.png`,
+`caso-cena.png`, `caso-decisao.png`, `caso-feedback.png`,
+`caso-desfecho.png`, `casos-lista-resultado.png` e `caso-escuro.png`.
