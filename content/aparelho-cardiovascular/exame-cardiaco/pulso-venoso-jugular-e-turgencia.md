@@ -58,7 +58,7 @@ titulo: O essencial
 ::: conceito
 titulo: Uma janela para o coração direito
 texto: |
-  Não há válvula entre o átrio direito, a veia cava superior e a jugular interna direita. Essa continuidade transforma o pescoço em um manômetro: a pressão de enchimento do átrio direito se transmite à coluna de sangue jugular, e o que se vê no pescoço é a pressão venosa central.
+  Do átrio direito até a jugular interna do lado direito, o sangue corre por um caminho reto e sem obstáculo. Isso faz do pescoço um manômetro improvisado: a pressão de enchimento da câmara direita empurra a coluna de sangue para cima, e a altura em que essa coluna para é a pressão venosa central.
 
   A jugular interna direita é a melhor via porque tem trajeto retificado e caminho direto para o coração. As veias do lado esquerdo alcançam o coração atravessando o mediastino, onde a aorta pode comprimi-las — e por isso a jugular esquerda pode estar ingurgitada com pressão venosa central normal.
 
@@ -85,8 +85,8 @@ svg: |
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <!-- linha de base do traçado -->
     <path d="M 24 116 L 306 116" stroke-width="1.5" stroke-dasharray="4 4" />
-    <!-- traçado do pulso venoso: ondas a, c, v e deflexões x e y -->
-    <path d="M 24 108 L 55 66 L 72 100 L 88 82 L 132 126 L 150 74 L 180 124 L 205 114 L 227 66 L 244 100 L 260 82 L 302 126" stroke-width="2" />
+    <!-- traçado do pulso venoso: ondas a, c, v e deflexões x' (profunda) e y (rasa) -->
+    <path d="M 24 106 L 55 66 L 72 100 L 88 82 L 132 128 L 150 74 L 180 106 L 205 100 L 227 66 L 244 100 L 260 82 L 302 128" stroke-width="2" />
     <!-- guias verticais das bulhas -->
     <g stroke-width="1.5" stroke-dasharray="3 4">
       <path d="M 78 92 L 78 156" />
@@ -106,8 +106,8 @@ svg: |
       <text x="94" y="74">c</text>
       <text x="152" y="66">v</text>
       <text x="227" y="58">a</text>
-      <text x="126" y="142">x</text>
-      <text x="180" y="142">y</text>
+      <text x="126" y="146">x′</text>
+      <text x="186" y="124">y</text>
     </g>
     <g font-family="sans-serif" font-size="10" fill="currentColor" stroke="none" text-anchor="middle">
       <text x="78" y="192">B1</text>
@@ -118,7 +118,7 @@ svg: |
       <text x="24" y="20">pulso venoso jugular</text>
     </g>
   </svg>
-legenda: "Três ondas positivas (a, c, v) e duas deflexões (x e y). O descenso x termina pouco antes de B2; o descenso y começa logo depois dela."
+legenda: "O que o pescoço mostra: as ondas a, c e v e os dois descensos visíveis. O x′ é o profundo e termina pouco antes de B2; o y é raso e começa logo depois dela."
 :::
 
 ::: secao
@@ -161,9 +161,9 @@ itens:
 ::: conceito
 titulo: Turgência jugular
 texto: |
-  Em condições normais as jugulares só ficam túrgidas com o paciente deitado. Na posição semissentada, e mais ainda sentado ou de pé, elas colabam e resta visível apenas o pulso venoso na raiz do pescoço.
+  Deitar enche as jugulares de qualquer pessoa saudável. Levantar a cabeceira esvazia-as: na posição semissentada sobra apenas a ondulação do pulso venoso na base do pescoço, e sentado ou de pé nem isso.
 
-  Se as jugulares **permanecem túrgidas na posição semissentada — cerca de 45° entre o dorso e o leito — ou sentado**, está caracterizada a turgência jugular. O achado traduz hipertensão venosa no território da veia cava superior.
+  A turgência jugular se define por essa expectativa frustrada. Se as veias **continuam cheias com o dorso a cerca de 45° do leito, ou com o paciente sentado**, há hipertensão venosa no território da cava superior.
 
   As causas se organizam em três grupos.
 
@@ -215,9 +215,12 @@ linhas:
   - - "Onda c"
     - "Início da sístole ventricular"
     - "Abaulamento da valva tricúspide fechada em direção ao átrio durante a contração isovolumétrica; parte da tradição a atribui à transmissão do pulso carotídeo contíguo"
-  - - "Deflexão x (colapso sistólico)"
+  - - "Deflexão x"
+    - "Entre a onda a e a onda c"
+    - "Relaxamento do átrio direito"
+  - - "Deflexão x′ (colapso sistólico)"
     - "Sístole ventricular, terminando pouco antes de B2"
-    - "Relaxamento atrial somado à descida do anel atrioventricular, que se afasta das jugulares enquanto o ventrículo se contrai"
+    - "Descida do anel atrioventricular, que se afasta das jugulares enquanto o ventrículo se contrai. À inspeção do pescoço funde-se com a deflexão x, e é esse conjunto que se chama x′"
   - - "Onda v"
     - "Fim da sístole"
     - "Enchimento do átrio direito com a tricúspide fechada"
@@ -230,14 +233,16 @@ linhas:
 titulo: O que o olho realmente vê
 nivel: avancado
 texto: |
-  O traçado tem três ondas positivas e três negativas, mas à beira do leito reconhecer todas é irreal. A onda c é pequena demais para ser vista, e o que o examinador percebe são **dois descensos por ciclo**: um mais marcante, o x, e outro menor, o y.
+  No papel, o traçado tem três ondas positivas (a, c, v) e três negativas (x, x′, y). No pescoço, essa contabilidade não se sustenta: a onda c é pequena demais para ser vista, e os dois primeiros descensos — x, do relaxamento atrial, e x′, da descida do anel atrioventricular — chegam ao olho fundidos em um só, que a literatura chama de **x′**.
+
+  O que o examinador de fato conta são, portanto, **dois descensos por ciclo**: o x′, mais marcante, e o y, menor.
 
   Cronometrá-los é o que dá sentido ao achado.
 
-  - **Pelas bulhas**: o descenso x termina imediatamente antes de B2, como uma ladeira que desce e vai dar em B2; o descenso y começa logo depois de B2.
-  - **Pela carótida**: o descenso x é sistólico e coincide com o toque da carótida; o descenso y vem depois, com atraso semelhante ao intervalo entre B1 e B2 daquele paciente.
+  - **Pelas bulhas**: o descenso x′ termina imediatamente antes de B2, como uma ladeira que desce e vai dar em B2; o descenso y começa logo depois de B2.
+  - **Pela carótida**: o descenso x′ é sistólico e coincide com o toque da carótida; o descenso y vem depois, com atraso semelhante ao intervalo entre B1 e B2 daquele paciente.
 
-  O padrão normal tem x proeminente e y pequeno ou ausente, sem qualquer movimento brusco para fora. Uma simplificação prática é procurar a sequência **onda a — colapso — onda v — colapso**, que dá ao pescoço o aspecto de uma onda positiva diastólica e uma onda negativa sistólica. Por isso o pulso venoso normal é chamado de negativo, sendo o colapso sistólico o acidente mais notável.
+  O padrão normal tem x′ proeminente e y pequeno ou ausente, sem qualquer movimento brusco para fora. Uma simplificação prática é procurar a sequência **onda a — colapso — onda v — colapso**, que dá ao pescoço o aspecto de uma onda positiva diastólica e uma onda negativa sistólica. A tradição batiza esse traçado de pulso venoso negativo, justamente porque o que salta aos olhos é uma queda, e não uma batida.
 :::
 
 ::: tabela
@@ -247,15 +252,15 @@ colunas:
   - "Significado"
 linhas:
   - - "Onda a gigante (movimento brusco pré-sistólico, antes de B1)"
-    - "Contração atrial vigorosa contra obstrução ao esvaziamento — estenose tricúspide, atresia tricúspide, estenose pulmonar, hipertensão pulmonar grave, bloqueio atrioventricular total. Exige ritmo sinusal"
+    - "Contração atrial vigorosa contra obstrução ao esvaziamento do átrio ou do ventrículo direito — estenose tricúspide, atresia tricúspide, estenose pulmonar, hipertensão pulmonar grave. Exige ritmo sinusal preservado"
   - - "Onda a em canhão intermitente, com pulso arterial regular"
     - "Dissociação atrioventricular — o átrio se contrai com a tricúspide fechada e joga sangue para o pescoço"
-  - - "Ausência da onda a e do descenso x"
-    - "Fibrilação atrial; sem contração atrial não há onda a, e o desaparecimento do descenso x mostra que ele nasce do relaxamento atrial"
+  - - "Onda a ausente e descenso x′ reduzido"
+    - "Fibrilação atrial; sem contração atrial não há onda a, e o encolhimento do descenso mostra o quanto ele depende do relaxamento atrial. O y passa a ser o descenso dominante"
   - - "Onda sistólica proeminente (onda cv), coincidente com a carótida"
     - "Insuficiência tricúspide de grau moderado a grave"
   - - "Descenso y profundo (colapso diastólico abrupto)"
-    - "Pressão venosa muito elevada com enchimento diastólico rápido — pericardite constritiva; também no derrame pericárdico com pressão muito alta"
+    - "Pressão venosa elevada com enchimento diastólico inicial rápido e abrupto — pericardite constritiva; também comunicação interatrial. Junto com o descenso x′, desenha o padrão em W ou M no pescoço"
   - - "Descenso y ausente com pressão venosa elevada"
     - "Restrição ao enchimento diastólico inicial — tamponamento cardíaco, estenose tricúspide"
 :::
@@ -269,7 +274,7 @@ nome: Refluxo hepatojugular (teste abdominojugular)
 descricao: |
   Comprima firme e continuamente o abdome do paciente com a palma da mão por cerca de 10 segundos, observando o pescoço. A compressão desloca sangue do território esplâncnico em direção ao coração.
 
-  A resposta normal é a coluna permanecer inalterada ou subir por um ou dois batimentos e voltar. O teste é positivo quando a coluna sobe e **permanece elevada durante todos os 10 segundos**, caindo mais de 3 a 4 cm no momento em que a compressão é liberada.
+  A resposta normal é a coluna permanecer inalterada ou subir por um ou dois batimentos e voltar. O teste é positivo quando a coluna sobe mais de **4 cm** e **permanece elevada durante todos os 10 segundos**; na prática, a maioria dos examinadores lê o resultado no instante em que solta o abdome, considerando positiva uma queda maior que 4 cm.
 significado: |
   Um teste positivo indica pressões de enchimento elevadas do coração esquerdo. Em quem se apresenta com dispneia, isso significa que pelo menos parte do quadro vem do lado esquerdo do coração. O teste negativo reduz essa probabilidade.
 
@@ -317,18 +322,18 @@ texto: |
 
   Descreva seis atributos.
 
-  - **Intensidade** — profundidade da fóvea, graduada em cruzes, de + a ++++.
+  - **Intensidade** — profundidade da fóvea, graduada em cruzes, de + a ++++ (escala de cruzes de Porto, a mesma usada para frêmitos e sopros na tradição brasileira; não confundir com a graduação de Levine, de 1 a 6, empregada para sopros no tópico correspondente).
   - **Consistência** — mole, facilmente depressível, indicando retenção hídrica recente; ou duro, com maior resistência, indicando proliferação fibroblástica de edemas antigos ou de repetidos surtos inflamatórios.
   - **Elasticidade** — elástico quando a pele volta imediatamente, típico do edema inflamatório; inelástico quando a depressão persiste.
   - **Temperatura da pele adjacente** — avaliada com o dorso dos dedos, comparando com a vizinhança e com o lado homólogo. Pele quente indica inflamação; pele fria, comprometimento da irrigação.
-  - **Sensibilidade** — o edema doloroso indica processo inflamatório.
+  - **Sensibilidade** — dor à digitopressão aponta inflamação.
   - **Outras alterações da pele** — palidez, cianose, vermelhidão; pele lisa e brilhante no edema recente e intenso, espessa nos de longa duração.
 
   Duas medidas complementam o exame e acompanham a evolução: pesar o paciente diariamente e medir o perímetro da região edemaciada, comparando com o lado oposto em dias sucessivos.
 :::
 
 ::: tabela
-titulo: Edema cardíaco × outras causas de edema generalizado
+titulo: Edema cardíaco × outras causas de edema generalizado (cruzes na escala de Porto)
 colunas:
   - "Origem"
   - "Distribuição e horário"
@@ -361,7 +366,7 @@ texto: |
 
   A gravidade faz o resto. Quem passa o dia de pé acumula líquido nas pernas ao longo das horas, e o edema atinge o máximo à tarde — daí a designação de edema vespertino. Deitado, o líquido redistribui-se, o que explica por que o edema diminui de manhã e por que o paciente acamado acumula na região pré-sacra.
 
-  É o mesmo raciocínio da pressão venosa: o denominador comum de todos os sinais de insuficiência ventricular direita é o aumento da pressão venosa.
+  No fundo, é a mesma história da coluna jugular. Falência do lado direito significa pressão represada a montante, e essa pressão é o fio que costura os achados: jugular cheia, fígado congesto, líquido nos tornozelos.
 :::
 
 ::: secao
@@ -374,11 +379,11 @@ nivel: avancado
 texto: |
   Ao fechar o exame do pescoço e do edema, olhe as extremidades. Temperatura, coloração e a rapidez com que a cor retorna depois de uma compressão da polpa digital ou do leito ungueal compõem uma impressão de perfusão que dá contexto a tudo o que veio antes.
 
-  Essa impressão é uma **moldura**, não uma medida. Perda de pelos, temperatura da pele e tempo de enchimento capilar não são achados confiáveis quando tomados isoladamente, porque muitos fatores alheios à circulação interferem — temperatura ambiente, idade, iluminação, pigmentação, pressão e duração da compressão aplicada pelo examinador.
+  Essa impressão é uma **moldura**, não uma medida. Tomados um a um, nenhum desses dados sustenta conclusão: nem a rarefação de pelos, nem a pele fria, nem a demora do retorno da cor. Fatores que nada têm a ver com a circulação interferem em todos eles — temperatura ambiente, idade, iluminação, pigmentação, pressão e duração da compressão aplicada pelo examinador.
 
   O que aumenta o rendimento do dado é a **comparação**: entre um membro e o homólogo, entre extremidade e tronco, e entre um exame e o seguinte no mesmo paciente. Assimetria é sugestiva; um número isolado, não.
 
-  Vale a mesma lógica registrada no tópico de febre na criança e nos tópicos de sinais vitais: o exame clínico integrado decide mais que qualquer valor tomado sozinho.
+  É a mesma lógica do caso clínico de febre na criança, onde o enchimento capilar entra como um item da avaliação de gravidade e não como veredito: o exame clínico integrado decide mais que qualquer valor tomado sozinho.
 :::
 
 ::: conceito
@@ -426,7 +431,7 @@ perguntas:
     alternativas:
       - "Jugulares túrgidas com o paciente em decúbito dorsal horizontal"
       - "Jugulares túrgidas em Trendelenburg"
-      - "Jugulares que permanecem túrgidas na posição semissentada, cerca de 45° entre o dorso e o leito, ou sentada"
+      - "Jugulares que continuam cheias com o dorso a cerca de 45° do leito, ou com o paciente sentado"
       - "Jugulares colabadas em decúbito lateral esquerdo"
     corretaIndex: 2
     explicacao: "Em condições normais as jugulares só ficam túrgidas em decúbito; na posição semissentada ou sentada elas colabam. A persistência da turgência nessas posições caracteriza o ingurgitamento jugular e traduz hipertensão venosa no território da cava superior."
@@ -443,11 +448,11 @@ perguntas:
     enunciado: Como se caracteriza um teste abdominojugular (refluxo hepatojugular) positivo?
     alternativas:
       - "A coluna venosa sobe por um ou dois batimentos e retorna ao nível anterior"
-      - "A coluna venosa se mantém elevada durante os 10 segundos de compressão e cai mais de 3 a 4 cm quando a pressão é liberada"
+      - "A coluna venosa sobe mais de 4 cm e se mantém elevada durante os 10 segundos de compressão, caindo mais de 4 cm quando a pressão é liberada"
       - "A coluna venosa desaparece durante a compressão abdominal"
       - "A pressão arterial sistólica cai mais de 10 mmHg durante a compressão"
     corretaIndex: 1
-    explicacao: "A resposta normal é a coluna não se alterar ou subir por um ou dois batimentos e voltar. O teste é positivo quando a elevação se mantém durante toda a compressão sustentada, com queda evidente ao liberá-la — indicando pressões de enchimento elevadas do coração esquerdo."
+    explicacao: "A resposta normal é a coluna não se alterar ou subir por um ou dois batimentos e voltar. O teste é positivo quando a elevação passa de 4 cm e se mantém durante toda a compressão sustentada de 10 segundos — e o mesmo limiar de 4 cm serve para a queda observada ao liberar o abdome, que é como a maioria dos examinadores lê o resultado. O achado indica pressões de enchimento elevadas do coração esquerdo."
   - id: jugular-5
     enunciado: O que caracteriza o sinal de Kussmaul e por que ele ocorre?
     alternativas:

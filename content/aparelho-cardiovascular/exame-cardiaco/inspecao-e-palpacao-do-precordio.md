@@ -171,7 +171,7 @@ texto: |
 ::: entendimento
 titulo: Por que o ventrículo direito não desloca o ictus
 texto: |
-  O ventrículo direito ocupa a maior parte da face anterior do coração, mas não participa da ponta. Por isso a hipertrofia direita quase não repercute sobre o ictus cordis — ela se manifesta de outro jeito, como levantamento em massa da região paraesternal e, às vezes, retração sistólica na ponta.
+  Quem encosta na parede torácica pela frente é, em sua maior parte, a câmara direita — mas quem forma a ponta é a esquerda. Como o ventrículo direito não chega ao ápice, engrossá-lo quase não muda o ictus cordis. A sobrecarga direita se anuncia por outro caminho: levantamento em massa da região paraesternal e, em alguns pacientes, retração sistólica na ponta.
 
   A consequência prática é direta: um ictus normal não afasta sobrecarga do coração direito. Quem procura ventrículo direito procura no esterno e no epigástrio, não na ponta.
 :::
@@ -185,7 +185,7 @@ texto: |
   - **Difuso**: a área do choque corresponde a três ou mais polpas digitais. Traduz sobretudo **dilatação**.
   - **Propulsivo**: a mão que palpa é levantada a cada contração. Traduz sobretudo **hipertrofia**.
 
-  De modo simplificado, as hipertrofias impulsionam as polpas digitais com mais vigor que as dilatações. Na prática, hipertrofia e dilatação costumam andar juntas, e o ictus reúne as duas características — amplo, forte e deslocado, o que a literatura chama de ictus globoso ou musculoso.
+  A regra de bolso é a força: parede espessada empurra a mão com mais energia do que câmara apenas alargada. Na clínica, porém, as duas alterações raramente vêm sozinhas, e o ictus acaba somando os dois adjetivos — amplo, forte e fora do lugar, o que a literatura chama de ictus globoso ou musculoso.
 
   Dois exemplos separam bem os padrões.
 
@@ -208,7 +208,7 @@ texto: |
 titulo: Deslocamento do ictus — quando não é o coração
 nivel: avancado
 texto: |
-  O deslocamento do ictus para baixo e para fora costuma indicar dilatação e/ou hipertrofia do ventrículo esquerdo — estenose aórtica, insuficiência aórtica, insuficiência mitral, hipertensão arterial, miocardiopatias e algumas cardiopatias congênitas.
+  Um ictus que desceu e saiu costuma denunciar câmara esquerda dilatada, hipertrofiada ou as duas coisas. A lista de responsáveis é curta e previsível: as duas lesões da valva aórtica, a insuficiência mitral, a hipertensão de longa data, as miocardiopatias e parte das cardiopatias congênitas.
 
   Antes de concluir isso, exclua as causas extracardíacas de deslocamento: escoliose, tórax infundibuliforme, derrame pleural e tudo o que eleva o diafragma, como ascite e obesidade. Nesses casos o coração mudou de endereço sem ter mudado de tamanho.
 
@@ -222,7 +222,7 @@ titulo: Além do ictus
 ::: sinal
 nome: Abaulamento precordial
 descricao: Elevação persistente da região precordial, mais evidente na inspeção tangencial. Diferencia-se dos abaulamentos por deformidade osteomuscular pela presença de impulsão sistólica nessa região.
-significado: A dilatação do ventrículo direito é a principal responsável, porque essa câmara forma a maior parte da face anterior do coração e se apoia diretamente na parede torácica. Na criança, cuja parede é flexível, o crescimento cardíaco deforma o precórdio com facilidade.
+significado: O responsável habitual é o ventrículo direito dilatado — a câmara que se apoia diretamente contra o gradil, logo atrás do esterno. Em crianças, cuja caixa torácica ainda cede, um coração que cresce deforma a parede com facilidade.
 causas:
   - "Cardiopatias congênitas"
   - "Lesões valvares reumáticas"
@@ -234,7 +234,8 @@ causas:
 
 ::: sinal
 nome: Levantamento em massa do precórdio (impulsão sistólica)
-descricao: Impulso sistólico que movimenta uma área relativamente grande da parede torácica nas proximidades do esterno, percebido com a região hipotenar apoiada na borda esternal esquerda baixa.
+descricao: |
+  Com a região hipotenar apoiada na borda esternal esquerda baixa, a mão é erguida em bloco a cada sístole. Não é um ponto que bate — é um trecho largo de parede, vizinho ao esterno, que sobe inteiro.
 significado: Indica hipertrofia e/ou dilatação do ventrículo direito. Frequentemente vem acompanhado de retração sistólica na ponta e de pulsação epigástrica, compondo o conjunto de sinais da sobrecarga direita.
 causas:
   - "Hipertrofia ventricular direita"
@@ -246,9 +247,9 @@ causas:
 ::: sinal
 nome: Frêmito cardiovascular
 descricao: |
-  Sensação tátil produzida por vibrações originadas no coração ou nos vasos, comparada ao ronronar de um gato — daí a denominação de frêmito catário.
+  Vibração que a mão sente sobre o precórdio ou sobre um vaso, nascida de turbulência no fluxo. A tradição semiológica a batiza de catária pela semelhança com o gato que ronrona sob os dedos.
 
-  Ao encontrá-lo, descreva sempre três características: localização (usando as áreas de ausculta como referência), situação no ciclo cardíaco (sistólico, diastólico ou sistodiastólico, definida pela coincidência ou não com o ictus ou com o pulso carotídeo) e intensidade.
+  Três perguntas fecham a descrição. **Onde?** — referencie pelas áreas de ausculta. **Quando?** — palpe o ictus ou a carótida ao mesmo tempo e veja se a vibração cai na sístole, na diástole ou nas duas. **Quanto?** — gradue a intensidade.
 significado: O frêmito é o equivalente palpável de um sopro e denuncia turbulência importante. Sua presença acompanha os sopros de maior intensidade e reforça a suspeita de lesão estrutural.
 causas:
   - "Estenose aórtica"
@@ -261,9 +262,12 @@ causas:
 ::: conceito
 titulo: Pulsações epigástricas e de fúrcula
 texto: |
-  **Epigástrio.** Pulsações epigástricas são vistas e palpadas em muitas pessoas normais e nada mais são que a transmissão das pulsações da aorta à parede abdominal. Podem, porém, denunciar hipertrofia ventricular direita: nesse caso são mais intensas no ângulo xifoesternal e chega-se a perceber a contração do ventrículo hipertrofiado, pressionando a palma da mão para cima contra a parte superior da região epigástrica. Uma terceira causa é o pulso hepático — pré-sistólico na estenose tricúspide, sistólico na insuficiência tricúspide.
+  **Epigástrio.** Ver e sentir o abdome alto pulsar é banal: na maioria das vezes é só a aorta batendo através da parede. Duas outras leituras, porém, merecem ser buscadas.
 
-  **Fúrcula esternal.** A pulsação supraesternal depende das pulsações da crossa da aorta e existe em pessoas normais, tornando-se visível também após exercício e emoções. Quando muito intensa, levanta suspeita de hipertensão arterial, esclerose senil da aorta, aneurisma da aorta ou de estados hipercinéticos — insuficiência aórtica, hipertireoidismo, anemia.
+  - **Ventrículo direito hipertrofiado.** Aqui a pulsação se concentra no ângulo xifoesternal. Para trazê-la à mão, encaixe a palma sob o apêndice xifoide e faça pressão para cima, contra a região epigástrica alta; a contração da câmara hipertrofiada passa a ser percebida.
+  - **Pulso hepático.** Chega pelo fígado, e o momento em que ocorre aponta a lesão: antes da sístole na estenose tricúspide, durante a sístole na insuficiência tricúspide.
+
+  **Fúrcula esternal.** O que pulsa ali é a crossa da aorta, e por isso a pulsação supraesternal existe em gente saudável, ficando mais visível depois de esforço ou emoção. Batida muito vigorosa muda o sentido do achado e pede investigação em duas direções: a **parede aórtica** — hipertensão, esclerose senil da aorta, aneurisma — ou um **estado hipercinético**, como insuficiência aórtica, hipertireoidismo e anemia.
 :::
 
 ::: conceito
@@ -352,5 +356,5 @@ perguntas:
       - "Porque a comparação com a radiografia e a ecocardiografia mostrou que seus resultados são imprecisos, exceto nas grandes cardiomegalias"
       - "Porque foi substituída pela ausculta do foco aórtico acessório"
     corretaIndex: 2
-    explicacao: "O uso rotineiro da radiografia e da ecocardiografia demonstrou a imprecisão da percussão precordial, que só identifica grandes cardiomegalias. Ela pode ser eliminada da exploração semiológica do coração sem prejuízo para a avaliação do paciente."
+    explicacao: "Confrontada com o que a radiografia e o ecocardiograma mostram, a percussão do precórdio erra com frequência — só as cardiomegalias grandes escapam desse erro. Deixar de percutir o coração não empobrece a avaliação, e o tempo rende mais em uma palpação bem-feita."
 :::

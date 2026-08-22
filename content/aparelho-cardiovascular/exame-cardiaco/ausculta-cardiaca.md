@@ -64,7 +64,7 @@ texto: |
 
   Quatro pistas resolvem quase sempre.
 
-  - **B1** coincide com o ictus cordis e com o pulso carotídeo. É mais grave e um pouco mais longa. Imita-se dizendo **TUM**.
+  - **B1** cai junto com o toque do ictus na mão e com a onda que a carótida entrega aos dedos. Soa mais grave e dura um pouco mais. Imita-se dizendo **TUM**.
   - **B2** vem depois do pequeno silêncio, é mais aguda, mais curta e mais seca. Imita-se dizendo **TA**.
   - O **pequeno silêncio** (sístole) é mais curto que o grande silêncio (diástole) — mas as durações se igualam quando a frequência passa de 120 bpm.
   - No 2º espaço intercostal esquerdo, B2 é a bulha mais forte e mais estalada. Quando o ritmo é rápido e a dúvida se instala na ponta, volte a esse ponto, identifique B2 e deslize o receptor de volta sem perdê-la de vista.
@@ -77,7 +77,7 @@ titulo: Como as bulhas se formam
 texto: |
   **B1** nasce sobretudo do fechamento das valvas atrioventriculares, o componente mitral precedendo o tricúspide. Em metade das pessoas normais os dois componentes são percebidos separadamente, sem relação com a respiração e sem significado patológico. É mais intensa no foco mitral, onde costuma superar B2.
 
-  **B2** é formada por quatro grupos de vibrações, mas só se ouvem as do fechamento das valvas aórtica e pulmonar. O componente aórtico se ouve em todo o precórdio; o pulmonar, apenas na área pulmonar e na borda esternal esquerda. Por isso, no foco aórtico e na ponta, B2 é sempre única. Em condições normais o componente aórtico precede o pulmonar. Nas crianças B2 é mais intensa no foco pulmonar; no adulto e no idoso, no foco aórtico.
+  **B2** reúne quatro grupos de vibrações, dos quais o ouvido só alcança os que vêm do fechamento das sigmoides. Os dois componentes têm alcances muito diferentes: o aórtico chega a todo o precórdio, enquanto o pulmonar fica confinado à sua própria área e à borda esternal esquerda. A consequência prática é útil — tanto no foco aórtico quanto na ponta, B2 será sempre um ruído único, porque ali só chega o componente aórtico. Quem fecha primeiro, normalmente, é a aorta. A intensidade relativa muda com a idade: mais forte no foco pulmonar na infância, mais forte no aórtico do adulto em diante.
 
   **B3** é um ruído protodiastólico de baixa frequência, gerado pelas vibrações da parede ventricular subitamente distendida durante o enchimento rápido. Soa como um **TU** curto.
 
@@ -87,7 +87,7 @@ texto: |
 ::: entendimento
 titulo: Onde cada bulha se avalia
 texto: |
-  A intensidade não se julga em qualquer ponto. Avalia-se **B1 nos focos mitral e tricúspide**, porque é o fechamento dessas valvas que a produz, e **B2 nos focos da base** — aórtico e pulmonar —, porque é ali que se originam suas vibrações principais.
+  Julgar intensidade no ponto errado é julgar outra coisa. Cada bulha tem seu tribunal: **B1 se julga na ponta e no xifoide**, onde nascem as vibrações do fechamento atrioventricular; **B2 se julga nos dois focos da base**, onde nascem as das sigmoides.
 
   O desdobramento de B2 se estuda **na área pulmonar**, único lugar onde os dois componentes são audíveis. Procurar desdobramento de B2 na ponta é procurar no lugar errado.
 :::
@@ -200,7 +200,7 @@ titulo: Diafragma ou campânula
 texto: |
   O **diafragma** capta melhor os ruídos de alta frequência — B1, B2, cliques, estalidos e a maioria dos sopros. É com ele que se faz a maior parte da ausculta.
 
-  A **campânula** capta melhor os ruídos de baixa frequência: B3, B4 e o ruflar da estenose mitral. Ela deve ser apoiada com a pressão mínima necessária para vedar o ar.
+  A **campânula** é a peça dos graves — B3, B4 e o ruflar da estenose mitral só aparecem por ela. Apoie-a com a força mínima necessária para vedar o ar, e nada além disso.
 
   Esse detalhe de pressão é uma ferramenta diagnóstica, não um capricho. Comprimir a campânula estica a pele, que passa a funcionar como membrana e a transforma em diafragma. Daí uma manobra útil: se um som some quando você aumenta a pressão da campânula, ele é de baixa frequência. É assim que se confirma uma B3 e que se separa a dupla B4-B1 de um desdobramento de B1 — a pressão firme funde a primeira e não altera a segunda.
 :::
@@ -241,18 +241,26 @@ nivel: avancado
 texto: |
   Na comunicação interatrial, o maior fluxo para o ventrículo direito prolonga o esvaziamento dessa câmara e atrasa o fechamento da valva pulmonar. Até aí, nada de diferente.
 
-  O que torna o desdobramento fixo é a compensação recíproca entre os dois tempos respiratórios. Na inspiração aumenta o retorno venoso ao coração direito, o que atrasa o componente pulmonar — mas diminui a passagem de sangue do átrio esquerdo para o direito. Na expiração o retorno venoso cai, porém o desvio interatrial aumenta e o componente pulmonar atrasa outra vez, pelo outro caminho. O resultado é uma distância entre os componentes que praticamente não varia com a respiração.
+  A fixidez vem de uma compensação cruzada entre os dois tempos respiratórios: o componente pulmonar acaba atrasado sempre, mas por motivos que se alternam.
+
+  - **Inspirando**, quem sobrecarrega a câmara direita é o retorno venoso sistêmico — e, na mesma medida, o desvio pelo defeito interatrial diminui.
+  - **Expirando**, o retorno venoso recua, porém o desvio entre os átrios cresce e devolve o mesmo excesso de volume ao lado direito.
+
+  Como a sobrecarga total pouco varia, a distância entre os dois componentes também não varia — e é isso que a respiração deixa de mexer.
 :::
 
 ::: conceito
 titulo: Por que o desdobramento paradoxal é ao contrário
 nivel: avancado
 texto: |
-  No bloqueio do ramo esquerdo o estímulo alcança o miocárdio ventricular esquerdo depois de já ter ativado o direito. A contração direita passa a preceder a esquerda e o componente aórtico se coloca **depois** do pulmonar — o inverso da situação normal.
+  Tudo começa com a ordem de ativação invertida. Bloqueado o ramo esquerdo, a despolarização chega tarde à parede esquerda, e o ventrículo direito passa a se contrair primeiro. Se o direito termina antes, a valva pulmonar fecha antes da aórtica — e a sequência sonora se inverte, com o componente aórtico ocupando o lugar que era do pulmonar.
 
-  A respiração então age ao contrário do habitual. Na inspiração profunda, o maior aporte ao ventrículo direito retarda sua sístole e aproxima o componente pulmonar do aórtico, tornando a bulha única. Na expiração, com menor retorno venoso, o componente pulmonar se adianta e o desdobramento reaparece.
+  Com a sequência trocada, o efeito da respiração também troca de sinal.
 
-  Estenose aórtica acentuada produz o mesmo padrão, mas por atraso mecânico no fechamento da valva aórtica.
+  - **Inspiração profunda**: o volume extra prolonga a sístole direita, o fechamento pulmonar se retarda, alcança o aórtico e os dois se fundem — B2 fica única.
+  - **Expiração**: com menos volume à direita, o fechamento pulmonar se antecipa outra vez e a bulha volta a soar dupla.
+
+  Há um segundo caminho para o mesmo achado: na estenose aórtica acentuada, a inversão não é elétrica, e sim mecânica — a valva aórtica doente demora a fechar.
 :::
 
 ::: secao
@@ -266,7 +274,7 @@ texto: |
 
   **B3 fisiológica.** Comum em crianças e adultos jovens. Do ponto de vista estetoacústico não há diferença entre a B3 fisiológica e a patológica; o que separa as duas é o resto do exame. Sem cardiopatia que a justifique, uma B3 é considerada fisiológica. Depois dos 40 anos ela deixa de ser esperada, porque o envelhecimento normal desloca o enchimento para mais tarde na diástole.
 
-  **Ritmo de galope.** É o ritmo tríplice por B3 patológica, cujo som lembra o galopar de cavalo — **PA-TA-TA**. Ouve-se melhor na ponta ou junto à borda esternal, com a campânula apoiada de leve e o paciente em decúbito lateral esquerdo; some quando se comprime demais o receptor. Às vezes é mais palpável que audível. É o "grito de socorro" do miocárdio em sofrimento.
+  **Ritmo de galope.** É o ritmo tríplice por B3 patológica, cujo som lembra o galopar de cavalo — **PA-TA-TA**. Ouve-se melhor na ponta ou junto à borda esternal, com a campânula apoiada de leve e o paciente em decúbito lateral esquerdo; some quando se comprime demais o receptor. Às vezes a mão o percebe antes do ouvido. Porto o descreve como o "grito de socorro" do miocárdio em sofrimento — a imagem é dele, e é boa: o achado sempre aponta comprometimento importante do músculo.
 
   **Galope atrial.** Corresponde ao ritmo tríplice por B4. Não é sinal de insuficiência descompensada, mas de insuficiência iminente: o ventrículo doente pede ajuda da contração atrial para melhorar o enchimento final. Aparece sobretudo na hipertensão arterial grave e na insuficiência coronária crônica.
 
@@ -323,9 +331,9 @@ titulo: Estalidos, cliques e atrito
 ::: sinal
 nome: Estalido de abertura mitral
 descricao: |
-  Ruído seco, agudo e de curta duração, protodiastólico, que precede o ruflar. Ouve-se melhor com o paciente em decúbito lateral esquerdo, na área mitral e na borda esternal esquerda, na altura do 3º e do 4º espaço intercostal — embora em muitos pacientes seja audível em todo o precórdio. Chega a ser palpável.
+  Estalo curto, agudo e seco, no começo da diástole, anunciando o ruflar que vem logo atrás. Procure-o com o paciente rolado para a esquerda, varrendo da ponta até a borda esternal esquerda entre o 3º e o 4º espaço — embora não seja raro ele soar por todo o precórdio. É intenso o bastante para, em alguns pacientes, ser sentido pela mão.
 significado: |
-  É o sinal mais indicativo de estenose mitral. Sua existência depende de a valva ainda ter alguma flexibilidade: desaparece quando há calcificação intensa ou hipertensão pulmonar muito grave.
+  Entre todos os achados da estenose mitral, é o que mais aponta para o diagnóstico. Mas ele depende de uma condição: a valva precisa conservar alguma mobilidade. Calcificação extensa imobiliza as cúspides e o estalo se cala; hipertensão pulmonar muito grave produz o mesmo silêncio.
 
   Não confundir com B2 desdobrada nem com B3. O desdobramento se nota na área pulmonar; o estalido, na área mitral e no 3º-4º espaço esquerdo junto ao esterno, com timbre mais agudo e mais seco. Já B3 é de tonalidade baixa, quase restrita à ponta, e está separada de B2 por um intervalo maior que o do estalido.
 causas:
@@ -338,16 +346,16 @@ nivel: avancado
 texto: |
   **Estalidos protossistólicos (ruídos de ejeção).** São de origem vascular, produzidos pelas vibrações da parede da aorta ou da artéria pulmonar diante da súbita ejeção de sangue. São ruídos agudos e intensos.
 
-  - O pulmonar ouve-se melhor na área pulmonar e na borda esternal esquerda e diferencia-se do desdobramento de B1 pelo timbre mais agudo. Aparece na estenose pulmonar moderada, na dilatação idiopática da artéria pulmonar, na comunicação interatrial e na hipertensão pulmonar grave.
-  - O aórtico ouve-se da vizinhança do 4º espaço intercostal esquerdo até a área mitral e aparece nas lesões valvares aórticas, na coarctação da aorta, no aneurisma e na dilatação aórtica.
+  - **Pulmonar.** Território de ausculta: sua própria área e a borda esternal esquerda. O que o separa de um B1 desdobrado é o timbre — bem mais agudo. Quatro cenários o produzem: obstrução pulmonar de grau moderado, artéria pulmonar dilatada sem causa aparente, defeito do septo interatrial e hipertensão pulmonar grave.
+  - **Aórtico.** Ouve-se em uma faixa que vai da vizinhança do 4º espaço esquerdo até a ponta. Acompanha a valva aórtica doente — estenosada ou insuficiente — e as aortas alteradas: coarctação, aneurisma, dilatação.
 
-  **Clique meso ou telessistólico.** Ruído de alta frequência, seco e agudo, no meio ou no fim da sístole, cuja intensidade varia nitidamente com a respiração e com as mudanças de posição. Ouve-se nas áreas mitral ou tricúspide. Hoje é considerado indicativo de prolapso da valva mitral ou tricúspide, mesmo na ausência de sopro.
+  **Clique meso ou telessistólico.** Um estalo agudo e seco que não vem no começo, e sim no miolo ou no fim da sístole. Sua marca registrada é a instabilidade: muda de intensidade conforme o paciente respira e conforme muda de posição. Ausculta-se na ponta ou no foco tricúspide, e hoje se lê como prolapso valvar — mitral ou tricúspide — ainda que nenhum sopro o acompanhe.
 :::
 
 ::: sinal
 nome: Atrito pericárdico
 descricao: |
-  Ruído áspero, comparado ao som de couro novo sendo friccionado ou de duas lixas esfregadas uma na outra. Ouve-se melhor entre a ponta do coração e a borda esternal esquerda, com o paciente sentado, inclinado para a frente e em apneia expiratória profunda.
+  Som raspado, de couro novo dobrando ou de duas lixas se esfregando. O melhor lugar para encontrá-lo é a faixa que liga o ápice à borda esternal esquerda, e a melhor condição é o paciente sentado, tronco inclinado à frente, segurando o ar depois de esvaziar o peito.
 
   Não guarda relação fixa com as bulhas: ocorre tanto na sístole quanto na diástole e frequentemente recobre B1 e parte do pequeno silêncio. Praticamente não se irradia, e sua intensidade e qualidade mudam de um dia para outro — às vezes em poucas horas. Cerca de um quarto dos atritos é palpável.
 significado: |
@@ -364,9 +372,11 @@ causas:
 titulo: Rumor venoso e ruído da pericardite constritiva
 nivel: avancado
 texto: |
-  **Rumor venoso.** Ruído contínuo, de tonalidade grave, ouvido na base do pescoço e na porção superior do tórax, com máxima intensidade acima da clavícula direita, na altura da inserção do esternocleidomastóideo. É mais audível sentado e chega a desaparecer deitado; some também com a compressão da jugular direita ou com a rotação do pescoço. Origina-se do turbilhonamento no encontro da jugular interna com o tronco braquiocefálico e não indica doença. Precisa ser distinguido do sopro da persistência do canal arterial, que também é contínuo e se irradia para essa região.
+  **Rumor venoso.** Zumbido grave e ininterrupto, ouvido na raiz do pescoço e no alto do tórax, com pico logo acima da clavícula direita, onde se insere o esternocleidomastóideo. Nasce da turbulência no ponto em que a jugular interna deságua no tronco braquiocefálico — ou seja, não é sinal de doença nenhuma.
 
-  **Ruído da pericardite constritiva.** Origina-se na distensão do pericárdio endurecido. É diastólico, no fim do enchimento ventricular rápido, um pouco mais precoce que B3, com timbre alto e caráter seco. O que o separa do estalido de abertura mitral é a localização: o estalido se ouve em todos os focos, enquanto o ruído da constrição fica restrito à área mitral, ao endoápex e à área tricúspide.
+  Três provas o desmascaram: sentar o paciente o intensifica e deitá-lo o apaga; uma leve compressão da jugular direita o interrompe; girar o pescoço também. Essa manobrabilidade é justamente o que o separa do sopro da persistência do canal arterial, igualmente contínuo e capaz de se irradiar para o mesmo ponto.
+
+  **Ruído da pericardite constritiva.** Um pericárdio endurecido, ao ser distendido, produz um som próprio: seco, de timbre alto, situado no final do enchimento rápido — portanto um pouco antes de onde cairia uma B3. A confusão possível é com o estalido de abertura mitral, e o critério que resolve é geográfico: o estalido percorre todos os focos, ao passo que este fica preso ao território da ponta, endoápex e xifoide.
 :::
 
 ::: secao
@@ -384,7 +394,7 @@ texto: |
 :::
 
 ::: perola
-texto: "Quando houver sopro, exclua-o mentalmente e concentre a atenção nas bulhas. Quem se deixa levar pelo som mais chamativo perde a bulha fraca, o desdobramento discreto e o estalido — que muitas vezes valem mais que o próprio sopro."
+texto: "Diante de um sopro, silencie-o na sua cabeça e vá atrás das bulhas. O ouvido corre para o som mais alto, e é assim que se perdem a bulha fraca, o desdobramento discreto e o estalido — achados que muitas vezes decidem mais que o próprio sopro."
 :::
 
 ::: secao
@@ -401,7 +411,7 @@ perguntas:
       - "Verificar que ela vem imediatamente após o grande silêncio"
       - "Auscultar apenas com a campânula, que capta seletivamente B1"
     corretaIndex: 1
-    explicacao: "B1 coincide com o ictus cordis e com o pulso carotídeo, além de ser mais grave e um pouco mais longa que B2. Auscultar palpando a carótida é o recurso clássico para situar o ciclo, especialmente quando a frequência é alta."
+    explicacao: "A primeira bulha cai no mesmo instante em que o ictus toca a mão e em que a carótida entrega sua onda aos dedos; além disso, soa mais grave e dura um pouco mais que B2. Auscultar com a outra mão na carótida é o recurso clássico para situar o ciclo, sobretudo quando a frequência é alta."
   - id: ausculta-2
     enunciado: Em qual foco se estuda o desdobramento da segunda bulha e por quê?
     alternativas:
@@ -419,7 +429,7 @@ perguntas:
       - "Desdobramento fisiológico; nenhuma doença associada"
       - "Desdobramento constante e variável; bloqueio do ramo direito"
     corretaIndex: 0
-    explicacao: "No bloqueio do ramo esquerdo o ventrículo direito se contrai antes do esquerdo e o componente aórtico passa a vir depois do pulmonar. Na inspiração a sístole direita se prolonga, os componentes se superpõem e a bulha fica única; na expiração o desdobramento reaparece. A estenose aórtica acentuada produz o mesmo padrão por atraso mecânico."
+    explicacao: "Com o ramo esquerdo bloqueado, a câmara direita termina sua sístole primeiro, a valva pulmonar fecha antes da aórtica e a sequência sonora se inverte. Inspirar prolonga a sístole direita, aproxima os dois fechamentos e funde a bulha; expirar devolve a separação. A estenose aórtica acentuada chega ao mesmo resultado por via mecânica."
   - id: ausculta-4
     enunciado: Você ausculta um ruído protodiastólico de baixa frequência na ponta, com a campânula apoiada de leve, em um paciente de 68 anos com dispneia. Ao comprimir firmemente a campânula, o ruído desaparece. Qual a interpretação?
     alternativas:
@@ -437,7 +447,7 @@ perguntas:
       - "Som semelhante a couro novo, ausência de relação fixa com as bulhas, área restrita de audibilidade e mutabilidade em poucas horas"
       - "Presença apenas na diástole, tonalidade grave e desaparecimento com a mudança de posição"
     corretaIndex: 2
-    explicacao: "O atrito é áspero, comparado ao ruído de couro novo friccionado, não mantém relação fixa com as bulhas, praticamente não se irradia e muda de intensidade e qualidade em curto período. Ouve-se melhor com o paciente sentado, inclinado para a frente, em apneia expiratória."
+    explicacao: "Quatro traços definem o atrito: a aspereza de couro novo, a independência em relação às bulhas, a área de audibilidade restrita e a instabilidade — o mesmo paciente soa diferente horas depois. Procure-o sentado, com o tronco inclinado à frente e o ar esvaziado."
   - id: ausculta-6
     enunciado: Que informação distinta B3 e B4 fornecem quando ambas são patológicas?
     alternativas:

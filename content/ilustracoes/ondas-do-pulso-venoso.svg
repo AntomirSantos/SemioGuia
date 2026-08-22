@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <!-- linha de base do traçado -->
   <path d="M 24 116 L 306 116" stroke-width="1.5" stroke-dasharray="4 4" />
-  <!-- traçado do pulso venoso: ondas a, c, v e deflexões x e y -->
-  <path d="M 24 108 L 55 66 L 72 100 L 88 82 L 132 126 L 150 74 L 180 124 L 205 114 L 227 66 L 244 100 L 260 82 L 302 126" stroke-width="2" />
+  <!-- traçado do pulso venoso: ondas a, c, v e deflexões x' (profunda) e y (rasa) -->
+  <path d="M 24 106 L 55 66 L 72 100 L 88 82 L 132 128 L 150 74 L 180 106 L 205 100 L 227 66 L 244 100 L 260 82 L 302 128" stroke-width="2" />
   <!-- guias verticais das bulhas -->
   <g stroke-width="1.5" stroke-dasharray="3 4">
     <path d="M 78 92 L 78 156" />
@@ -22,8 +22,8 @@
     <text x="94" y="74">c</text>
     <text x="152" y="66">v</text>
     <text x="227" y="58">a</text>
-    <text x="126" y="142">x</text>
-    <text x="180" y="142">y</text>
+    <text x="126" y="146">x′</text>
+    <text x="186" y="124">y</text>
   </g>
   <g font-family="sans-serif" font-size="10" fill="currentColor" stroke="none" text-anchor="middle">
     <text x="78" y="192">B1</text>

@@ -168,7 +168,7 @@ passos:
   - "Descreva o timbre e a configuração: em diamante, em platô ou em decrescendo; rude, suave, aspirativo ou em ruflar."
   - "Peça respiração regular e observe o comportamento do sopro na inspiração — manobra de Rivero-Carvallo."
   - "Repita a ausculta em decúbito lateral esquerdo e com o paciente sentado, inclinado para a frente e em apneia expiratória."
-  - "Aplique as manobras que mudam o retorno venoso (Valsalva, agachar e levantar, elevação passiva das pernas) quando o sopro for sistólico e a dúvida incluir cardiomiopatia hipertrófica."
+  - "Aplique as manobras que mudam o retorno venoso (Valsalva, de cócoras → de pé, elevação passiva das pernas) quando o sopro for sistólico e a dúvida incluir cardiomiopatia hipertrófica."
   - "Aplique a prensão palmar sustentada quando a dúvida for entre lesão de ejeção aórtica e lesão regurgitante esquerda."
 observar: |
   Antes de interpretar qualquer manobra respiratória, confira se o paciente está respirando de forma regular. Respiração irregular ou apneia involuntária tornam o teste ininterpretável. Um recurso simples é mover o braço lentamente para cima e para baixo pedindo que ele inspire quando o braço sobe e expire quando desce.
@@ -208,7 +208,9 @@ texto: |
 
   **Diastólicos das insuficiências sigmoides.** Começam imediatamente após B2, quando já existe gradiente entre o vaso da base e o ventrículo. São de alta frequência, em decrescendo e tonalidade aguda — o caráter **aspirativo**. Podem ficar restritos à protodiástole ou ocupar também meso e telediástole.
 
-  **Contínuos ou sistodiastólicos.** Ouvem-se durante toda a sístole e toda a diástole, sem interrupção, recobrindo B1 e B2. A parte sistólica é mais intensa e mais rude, o que rendeu o nome de sopro **em maquinaria**. Aparecem na persistência do canal arterial, nas fístulas arteriovenosas, nas anomalias dos septos aortopulmonares e no rumor venoso. Cuidado para não chamar de contínuo um sopro que apenas tem componentes sistólico e diastólico separados.
+  **Contínuos ou sistodiastólicos.** Atravessam o ciclo inteiro sem pausa, engolindo B1 e B2 pelo caminho. O trecho sistólico soa mais forte e mais rude, e é dessa cadência de motor que vem o apelido de sopro **em maquinaria**. Quatro situações o produzem: um canal arterial que não se fechou, uma comunicação anômala entre artéria e veia, um defeito entre os septos aortopulmonares e — sem doença nenhuma — o rumor venoso do pescoço.
+
+  O erro a evitar é confundi-lo com o sopro "de vai e vem": ali existem dois sopros distintos, um em cada fase, e as bulhas continuam separando-os.
 :::
 
 ::: entendimento
@@ -292,11 +294,11 @@ linhas:
     - "Expirar contra a glote fechada por cerca de 20 segundos; avaliar no fim do esforço"
     - "Reduz o retorno venoso"
     - "Sopro que aumenta sugere cardiomiopatia hipertrófica"
-  - - "Agachar e levantar"
+  - - "De cócoras → de pé"
     - "Agachar por pelo menos 30 segundos e levantar rapidamente; avaliar logo após levantar"
     - "Reduz o retorno venoso"
     - "Aumento sugere cardiomiopatia hipertrófica; também pode aumentar o sopro do prolapso mitral"
-  - - "Levantar e agachar"
+  - - "De pé → de cócoras"
     - "Agachar rapidamente a partir de pé, respirando normalmente"
     - "Aumenta o retorno venoso"
     - "Sopro que diminui sugere cardiomiopatia hipertrófica"
@@ -357,7 +359,7 @@ nivel: avancado
 texto: |
   A distinção clássica dizia que sopros orgânicos decorrem de alterações estruturais e funcionais apenas do aumento de velocidade ou da queda de viscosidade. A clareza é aparente.
 
-  O problema é que velocidade e viscosidade também intensificam sopros originados em lesões anatômicas. Só se pode afirmar com segurança que um sopro é orgânico quando ele é intenso (+++ a ++++), de alta frequência, com ampla irradiação e acompanhado de frêmito. Mas lesões estruturais graves produzem, com frequência, sopros fracos, sem irradiação e sem frêmito — que não poderiam ser chamados de orgânicos e seriam classificados como funcionais por engano.
+  O problema é que velocidade e viscosidade também intensificam sopros originados em lesões anatômicas. A certeza de que um sopro é orgânico só aparece no extremo superior da escala: som forte (+++ a ++++ na escala de cruzes de Porto), agudo, espalhando-se por uma área ampla e com frêmito sob a mão. Só que uma valva gravemente doente costuma soar fraca, curta e sem frêmito — esse sopro não preencheria os critérios de "orgânico" e acabaria arquivado como funcional, que é justamente o erro que a classificação deveria evitar.
 
   Uma classificação que só funciona nos extremos tem pouco valor prático. O conceito que sobreviveu foi o de sopro inocente, porque ele obriga a uma conclusão diagnóstica, e não a uma rotulação acústica.
 :::
@@ -393,6 +395,11 @@ linhas:
 :::
 
 ::: conceito
+texto: |
+  Os tipos de onda citados na tabela — o pulso **parvus et tardus** da estenose aórtica e o pulso **célere**, em martelo d'água, da insuficiência aórtica — têm técnica de palpação e diagnóstico diferencial próprios, tratados no tópico de frequência cardíaca e pulso, em Sinais vitais. Aqui eles entram apenas como achado que acompanha o sopro.
+:::
+
+::: conceito
 titulo: Sinais que graduam, não apenas identificam
 nivel: avancado
 texto: |
@@ -402,7 +409,7 @@ texto: |
 
   **Insuficiência aórtica.** A presença do sopro característico aumenta muito a probabilidade da lesão, e sua ausência é argumento forte contra regurgitação de grau moderado a grave. Entre os pacientes que têm o sopro, a pressão arterial ajuda a graduar: pressão diastólica ≤ 50 mmHg e pressão diferencial ≥ 80 mmHg aumentam a probabilidade de regurgitação moderada a grave; diastólica > 70 mmHg e diferencial < 60 mmHg a reduzem. Na forma aguda — endocardite, dissecção — o sopro é mais curto e vem com taquicardia, hipotensão e pressão diferencial estreita, sem o pulso amplo da forma crônica.
 
-  **Estenose mitral.** O ictus deveria ser normal ou reduzido, porque o enchimento ventricular esquerdo está prejudicado. Um ictus hipercinético denuncia lesão associada. O estalido de abertura mitral é o sinal mais indicativo da estenose, mas depende de a valva ainda ter flexibilidade.
+  **Estenose mitral.** Com o enchimento do ventrículo esquerdo represado, o esperado é um ictus normal ou até fraco — de modo que um ictus hipercinético, nesse contexto, denuncia uma segunda lesão. Entre os achados da doença, o que mais aponta para o diagnóstico é o estalido de abertura, desde que a valva conserve mobilidade suficiente para produzi-lo.
 
   **Insuficiência mitral.** O sopro característico aumenta a probabilidade da lesão, embora com peso menor que o dos sopros de tricúspide e do defeito septal ventricular, porque pode ser confundido com outros sopros sistólicos. A resposta às manobras é o que resolve: aumento com a prensão palmar sustentada aponta para insuficiência mitral ou comunicação interventricular.
 :::
