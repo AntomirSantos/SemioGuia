@@ -1,0 +1,233 @@
+rules_version = '2';
+
+// SemioGuia — regras de segurança do Firestore.
+//
+// Princípios (spec §4):
+//  - Negar por padrão: só existem `match` dentro de `users/{uid}/…`. O
+//    Firestore nega tudo que não casa com nenhuma regra, então não há
+//    curinga recursivo (`{document=**}`) nem regra no documento `users/{uid}`.
+//  - Todo acesso exige dono autenticado: `request.auth.uid == uid` (o `uid`
+//    vem do CAMINHO, nunca de campo enviado pelo cliente).
+//  - `create` e `update` são validados separadamente e com a MESMA força
+//    (nunca há caminho de update mais fraco que o de create).
+//  - `hasOnly` + `hasAll` = conjunto EXATO de campos (sem campos extras e
+//    sem campos faltando).
+//  - Históricos (`respostas`, `conclusoesCasos`) são imutáveis: `update`
+//    negado. `delete` é permitido ao dono porque "excluir conta" precisa
+//    apagar TODAS as subcoleções (spec §4, LGPD).
+//
+// Auditoria: docs/firebase-setup.md → "Auditoria de segurança"
+// (skill firebase-security-rules-auditor, 22/08/2026). Reauditar a cada
+// mudança neste arquivo, ANTES de publicar.
+//
+// Publicar: npx firebase-tools deploy --only firestore:rules (o AUTOR, na
+// máquina dele — nunca no CI).
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ----------------------------------------------------------------
+    // Helpers comuns
+    // ----------------------------------------------------------------
+
+    // Dono autenticado. `uid` é sempre o segmento do caminho.
+    function dono(uid) {
+      return request.auth != null && request.auth.uid == uid;
+    }
+
+    // Conjunto EXATO de campos: nem extras (hasOnly) nem faltando (hasAll).
+    function camposExatos(campos) {
+      return request.resource.data.keys().hasOnly(campos)
+          && request.resource.data.keys().hasAll(campos);
+    }
+
+    // Tamanho do id do documento (único outro dado de tamanho livre que o
+    // cliente controla). Folgado o bastante para chaves percent-encoded.
+    function idDeDoc(id, max) {
+      return id is string && id.size() > 0 && id.size() <= max;
+    }
+
+    function texto(v, max) {
+      return v is string && v.size() > 0 && v.size() <= max;
+    }
+
+    function textoOuVazio(v, max) {
+      return v is string && v.size() <= max;
+    }
+
+    // Carimbo epoch em ms: positivo e antes de 2100-01-01.
+    function carimboMs(v) {
+      return v is int && v > 0 && v <= 4102444800000;
+    }
+
+    function inteiroEntre(v, minimo, maximo) {
+      return v is int && v >= minimo && v <= maximo;
+    }
+
+    // 'YYYY-MM-DD' (proximaRevisao).
+    function dataIso(v) {
+      return v is string && v.size() == 10
+          && v.matches('^[0-9]{4}-[0-9]{2}-[0-9]{2}$');
+    }
+
+    // ISO 8601 completo (ItemRevisao.atualizadoEm, vindo de agoraIso()).
+    function carimboIso(v) {
+      return v is string && v.size() >= 10 && v.size() <= 40
+          && v.matches('^[0-9]{4}-[0-9]{2}-[0-9]{2}T.*');
+    }
+
+    // Estado carimbado (EstadoCarimbado em src/sync/merge.ts).
+    function estadoValido() {
+      return camposExatos(['valor', 'atualizadoEm'])
+          && request.resource.data.valor is bool
+          && carimboMs(request.resource.data.atualizadoEm);
+    }
+
+    // ----------------------------------------------------------------
+    // users/{uid}/perfil/{doc} — { email: string, criadoEm: int }
+    // ----------------------------------------------------------------
+    match /users/{uid}/perfil/{doc} {
+
+      // O e-mail é o único dado pessoal guardado: quando o token traz a
+      // claim, ele manda (autoridade = Auth, não o cliente).
+      function emailDaConta() {
+        return !('email' in request.auth.token)
+            || request.auth.token.email == null
+            || request.resource.data.email == request.auth.token.email;
+      }
+
+      function perfilValido() {
+        return camposExatos(['email', 'criadoEm'])
+            && texto(request.resource.data.email, 320)
+            && carimboMs(request.resource.data.criadoEm)
+            && emailDaConta();
+      }
+
+      allow read: if dono(uid);
+      allow create: if dono(uid) && idDeDoc(doc, 300) && perfilValido();
+      // Mesma validação do create + `criadoEm` imutável.
+      allow update: if dono(uid) && perfilValido()
+                    && request.resource.data.criadoEm == resource.data.criadoEm;
+      allow delete: if dono(uid);
+    }
+
+    // ----------------------------------------------------------------
+    // users/{uid}/estudados/{topicoId} — { valor: bool, atualizadoEm: int }
+    // O id do documento é a chave do tópico codificada pelo cliente
+    // (ids de tópico contêm '/', que não pode aparecer em id de documento).
+    // ----------------------------------------------------------------
+    match /users/{uid}/estudados/{topicoId} {
+      allow read: if dono(uid);
+      allow create: if dono(uid) && idDeDoc(topicoId, 300) && estadoValido();
+      allow update: if dono(uid) && estadoValido();
+      allow delete: if dono(uid);
+    }
+
+    // ----------------------------------------------------------------
+    // users/{uid}/favoritos/{topicoId} — idem estudados
+    // ----------------------------------------------------------------
+    match /users/{uid}/favoritos/{topicoId} {
+      allow read: if dono(uid);
+      allow create: if dono(uid) && idDeDoc(topicoId, 300) && estadoValido();
+      allow update: if dono(uid) && estadoValido();
+      allow delete: if dono(uid);
+    }
+
+    // ----------------------------------------------------------------
+    // users/{uid}/itensRevisao/{itemId} — espelho de ItemRevisao (SM-2)
+    // ----------------------------------------------------------------
+    match /users/{uid}/itensRevisao/{itemId} {
+
+      function itemValido() {
+        return camposExatos(['id', 'tipo', 'topicoId', 'facilidade',
+                             'repeticoes', 'intervaloDias', 'proximaRevisao',
+                             'atualizadoEm'])
+            && texto(request.resource.data.id, 200)
+            && request.resource.data.tipo in ['pergunta', 'checklist']
+            && texto(request.resource.data.topicoId, 200)
+            // `is number` (não `is float`): o SDK Web serializa 2.0 como
+            // inteiro. A faixa também rejeita NaN (toda comparação com NaN
+            // é falsa).
+            && request.resource.data.facilidade is number
+            && request.resource.data.facilidade >= 1.3
+            && request.resource.data.facilidade <= 5.0
+            // Faixas plausíveis: o SM-2 exige espera real entre repetições,
+            // então nem 10000 repetições nem 100 anos de intervalo são
+            // alcançáveis por uso legítimo.
+            && inteiroEntre(request.resource.data.repeticoes, 0, 10000)
+            && inteiroEntre(request.resource.data.intervaloDias, 0, 36500)
+            && dataIso(request.resource.data.proximaRevisao)
+            && carimboIso(request.resource.data.atualizadoEm);
+      }
+
+      allow read: if dono(uid);
+      allow create: if dono(uid) && idDeDoc(itemId, 400) && itemValido();
+      // Mesma validação do create + chave natural (`id`) imutável.
+      allow update: if dono(uid) && itemValido()
+                    && request.resource.data.id == resource.data.id;
+      allow delete: if dono(uid);
+    }
+
+    // ----------------------------------------------------------------
+    // users/{uid}/respostas/{chave} — histórico IMUTÁVEL
+    // (chave = perguntaId_respondidaEm, montada pelo cliente)
+    // ----------------------------------------------------------------
+    match /users/{uid}/respostas/{chave} {
+
+      function respostaValida() {
+        return camposExatos(['perguntaId', 'topicoId', 'correta', 'respondidaEm'])
+            && texto(request.resource.data.perguntaId, 200)
+            && texto(request.resource.data.topicoId, 200)
+            && request.resource.data.correta is bool
+            && carimboMs(request.resource.data.respondidaEm);
+      }
+
+      allow read: if dono(uid);
+      allow create: if dono(uid) && idDeDoc(chave, 400) && respostaValida();
+      // Histórico não se reescreve.
+      allow update: if false;
+      // Permitido só ao dono: "excluir conta" apaga todas as subcoleções.
+      allow delete: if dono(uid);
+    }
+
+    // ----------------------------------------------------------------
+    // users/{uid}/conclusoesCasos/{chave} — histórico IMUTÁVEL
+    // (chave = casoId_concluidaEm)
+    // ----------------------------------------------------------------
+    match /users/{uid}/conclusoesCasos/{chave} {
+
+      function conclusaoValida() {
+        return camposExatos(['casoId', 'classe', 'otimas', 'aceitaveis',
+                             'erros', 'concluidaEm'])
+            && texto(request.resource.data.casoId, 200)
+            && request.resource.data.classe in ['otimo', 'aceitavel', 'dano']
+            && inteiroEntre(request.resource.data.otimas, 0, 100)
+            && inteiroEntre(request.resource.data.aceitaveis, 0, 100)
+            && inteiroEntre(request.resource.data.erros, 0, 100)
+            && carimboMs(request.resource.data.concluidaEm);
+      }
+
+      allow read: if dono(uid);
+      allow create: if dono(uid) && idDeDoc(chave, 400) && conclusaoValida();
+      allow update: if false;
+      allow delete: if dono(uid);
+    }
+
+    // ----------------------------------------------------------------
+    // users/{uid}/prefs/{chave} — { valor: string <= 100, atualizadoEm: int }
+    // ----------------------------------------------------------------
+    match /users/{uid}/prefs/{chave} {
+
+      function prefValida() {
+        return camposExatos(['valor', 'atualizadoEm'])
+            && textoOuVazio(request.resource.data.valor, 100)
+            && carimboMs(request.resource.data.atualizadoEm);
+      }
+
+      allow read: if dono(uid);
+      allow create: if dono(uid) && idDeDoc(chave, 300) && prefValida();
+      allow update: if dono(uid) && prefValida();
+      allow delete: if dono(uid);
+    }
+  }
+}
