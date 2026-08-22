@@ -1,5 +1,12 @@
 import type { ConclusaoCaso, ProgressStore, RespostaRegistrada } from './types';
 import type { ItemRevisao } from '../revisao/sm2';
+import {
+  chaveConclusao,
+  chaveResposta,
+  type EstadoCarimbado,
+  type PrefCarimbada,
+  type SnapshotSync,
+} from '../sync/merge';
 
 // Adaptador de ProgressStore para a versão web: persiste no localStorage do
 // navegador. Mesma semântica do MemoryProgressStore/SqliteProgressStore.
@@ -7,11 +14,11 @@ import type { ItemRevisao } from '../revisao/sm2';
 // storage (aba privada, preview), o adaptador degrada para memória volátil.
 
 interface Estado {
-  estudados: string[];
-  favoritos: string[];
+  estudados: Record<string, EstadoCarimbado>;
+  favoritos: Record<string, EstadoCarimbado>;
   respostas: RespostaRegistrada[];
   buscas: string[]; // mais recente primeiro, sem duplicatas
-  preferencias: Record<string, string>;
+  preferencias: Record<string, PrefCarimbada>;
 }
 
 const CHAVE = 'semioguia.progresso.v1';
@@ -19,8 +26,8 @@ const CHAVE_ITENS = 'semioguia.itensRevisao';
 const CHAVE_CONCLUSOES_CASOS = 'semioguia.conclusoesCasos';
 
 const vazio = (): Estado => ({
-  estudados: [],
-  favoritos: [],
+  estudados: {},
+  favoritos: {},
   respostas: [],
   buscas: [],
   preferencias: {},
@@ -105,23 +112,25 @@ export class LocalStorageProgressStore implements ProgressStore {
   }
 
   async marcarEstudado(topicoId: string, estudado: boolean): Promise<void> {
-    const semEle = this.cache.estudados.filter((id) => id !== topicoId);
-    this.cache.estudados = estudado ? [...semEle, topicoId] : semEle;
+    this.cache.estudados[topicoId] = { valor: estudado, atualizadoEm: Date.now() };
     this.gravar();
   }
 
   async listarEstudados(): Promise<string[]> {
-    return [...this.cache.estudados];
+    return Object.entries(this.cache.estudados)
+      .filter(([, e]) => e.valor)
+      .map(([id]) => id);
   }
 
   async favoritar(topicoId: string, favorito: boolean): Promise<void> {
-    const semEle = this.cache.favoritos.filter((id) => id !== topicoId);
-    this.cache.favoritos = favorito ? [...semEle, topicoId] : semEle;
+    this.cache.favoritos[topicoId] = { valor: favorito, atualizadoEm: Date.now() };
     this.gravar();
   }
 
   async listarFavoritos(): Promise<string[]> {
-    return [...this.cache.favoritos];
+    return Object.entries(this.cache.favoritos)
+      .filter(([, e]) => e.valor)
+      .map(([id]) => id);
   }
 
   async registrarResposta(r: RespostaRegistrada): Promise<void> {
@@ -145,11 +154,11 @@ export class LocalStorageProgressStore implements ProgressStore {
   }
 
   async obterPreferencia(chave: string): Promise<string | null> {
-    return this.cache.preferencias[chave] ?? null;
+    return this.cache.preferencias[chave]?.valor ?? null;
   }
 
   async definirPreferencia(chave: string, valor: string): Promise<void> {
-    this.cache.preferencias[chave] = valor;
+    this.cache.preferencias[chave] = { valor, atualizadoEm: Date.now() };
     this.gravar();
   }
 
@@ -172,5 +181,45 @@ export class LocalStorageProgressStore implements ProgressStore {
       ? this.cacheConclusoesCasos.filter((c) => c.casoId === casoId)
       : [...this.cacheConclusoesCasos];
     return todas.sort((a, b) => a.concluidaEm - b.concluidaEm);
+  }
+
+  async exportarParaSync(): Promise<SnapshotSync> {
+    return {
+      estudados: { ...this.cache.estudados },
+      favoritos: { ...this.cache.favoritos },
+      itensRevisao: { ...this.cacheItens },
+      respostas: [...this.cache.respostas],
+      conclusoesCasos: [...this.cacheConclusoesCasos],
+      prefs: { ...this.cache.preferencias },
+    };
+  }
+
+  async aplicarDoSync(mudancas: SnapshotSync): Promise<void> {
+    Object.assign(this.cache.estudados, mudancas.estudados);
+    Object.assign(this.cache.favoritos, mudancas.favoritos);
+    Object.assign(this.cache.preferencias, mudancas.prefs);
+    Object.assign(this.cacheItens, mudancas.itensRevisao);
+
+    const chavesRespostas = new Set(this.cache.respostas.map(chaveResposta));
+    for (const r of mudancas.respostas) {
+      const chave = chaveResposta(r);
+      if (!chavesRespostas.has(chave)) {
+        this.cache.respostas.push(r);
+        chavesRespostas.add(chave);
+      }
+    }
+
+    const chavesConclusoes = new Set(this.cacheConclusoesCasos.map(chaveConclusao));
+    for (const c of mudancas.conclusoesCasos) {
+      const chave = chaveConclusao(c);
+      if (!chavesConclusoes.has(chave)) {
+        this.cacheConclusoesCasos.push(c);
+        chavesConclusoes.add(chave);
+      }
+    }
+
+    this.gravar();
+    this.gravarItens();
+    this.gravarConclusoesCasos();
   }
 }

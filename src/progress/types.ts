@@ -1,4 +1,5 @@
 import type { ItemRevisao } from '../revisao/sm2';
+import type { SnapshotSync } from '../sync/merge';
 
 export interface RespostaRegistrada { perguntaId: string; topicoId: string; correta: boolean; respondidaEm: number }
 export interface ConclusaoCaso { casoId: string; classe: 'otimo' | 'aceitavel' | 'dano'; otimas: number; aceitaveis: number; erros: number; concluidaEm: number }
@@ -17,4 +18,6 @@ export interface ProgressStore {
   listarItensRevisao(): Promise<ItemRevisao[]>; // ordem livre; quem consome ordena
   registrarConclusaoCaso(c: ConclusaoCaso): Promise<void>; // append (histórico), não upsert
   listarConclusoesCasos(casoId?: string): Promise<ConclusaoCaso[]>; // ordem por concluidaEm asc
+  exportarParaSync(): Promise<SnapshotSync>; // snapshot completo com carimbos, p/ sincronização
+  aplicarDoSync(mudancas: SnapshotSync): Promise<void>; // upsert de estados; append apenas de históricos ausentes
 }

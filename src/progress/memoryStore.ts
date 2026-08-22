@@ -1,24 +1,35 @@
 import type { ConclusaoCaso, ProgressStore, RespostaRegistrada } from './types';
 import type { ItemRevisao } from '../revisao/sm2';
+import {
+  chaveConclusao,
+  chaveResposta,
+  type EstadoCarimbado,
+  type PrefCarimbada,
+  type SnapshotSync,
+} from '../sync/merge';
 
 export class MemoryProgressStore implements ProgressStore {
-  private estudados = new Set<string>();
-  private favoritos = new Set<string>();
+  private estudados = new Map<string, EstadoCarimbado>();
+  private favoritos = new Map<string, EstadoCarimbado>();
   private respostas: RespostaRegistrada[] = [];
   private buscas: string[] = [];
-  private preferencias = new Map<string, string>();
+  private preferencias = new Map<string, PrefCarimbada>();
   private itensRevisao = new Map<string, ItemRevisao>();
   private conclusoesCasos: ConclusaoCaso[] = [];
 
   async marcarEstudado(topicoId: string, estudado: boolean): Promise<void> {
-    estudado ? this.estudados.add(topicoId) : this.estudados.delete(topicoId);
+    this.estudados.set(topicoId, { valor: estudado, atualizadoEm: Date.now() });
   }
-  async listarEstudados(): Promise<string[]> { return [...this.estudados]; }
+  async listarEstudados(): Promise<string[]> {
+    return [...this.estudados.entries()].filter(([, e]) => e.valor).map(([id]) => id);
+  }
 
   async favoritar(topicoId: string, favorito: boolean): Promise<void> {
-    favorito ? this.favoritos.add(topicoId) : this.favoritos.delete(topicoId);
+    this.favoritos.set(topicoId, { valor: favorito, atualizadoEm: Date.now() });
   }
-  async listarFavoritos(): Promise<string[]> { return [...this.favoritos]; }
+  async listarFavoritos(): Promise<string[]> {
+    return [...this.favoritos.entries()].filter(([, e]) => e.valor).map(([id]) => id);
+  }
 
   async registrarResposta(r: RespostaRegistrada): Promise<void> { this.respostas.push(r); }
   async listarRespostas(topicoId?: string): Promise<RespostaRegistrada[]> {
@@ -33,10 +44,10 @@ export class MemoryProgressStore implements ProgressStore {
   }
 
   async obterPreferencia(chave: string): Promise<string | null> {
-    return this.preferencias.get(chave) ?? null;
+    return this.preferencias.get(chave)?.valor ?? null;
   }
   async definirPreferencia(chave: string, valor: string): Promise<void> {
-    this.preferencias.set(chave, valor);
+    this.preferencias.set(chave, { valor, atualizadoEm: Date.now() });
   }
 
   async salvarItemRevisao(item: ItemRevisao): Promise<void> {
@@ -54,5 +65,41 @@ export class MemoryProgressStore implements ProgressStore {
       ? this.conclusoesCasos.filter((c) => c.casoId === casoId)
       : [...this.conclusoesCasos];
     return todas.sort((a, b) => a.concluidaEm - b.concluidaEm);
+  }
+
+  async exportarParaSync(): Promise<SnapshotSync> {
+    return {
+      estudados: Object.fromEntries(this.estudados),
+      favoritos: Object.fromEntries(this.favoritos),
+      itensRevisao: Object.fromEntries(this.itensRevisao),
+      respostas: [...this.respostas],
+      conclusoesCasos: [...this.conclusoesCasos],
+      prefs: Object.fromEntries(this.preferencias),
+    };
+  }
+
+  async aplicarDoSync(mudancas: SnapshotSync): Promise<void> {
+    for (const [chave, estado] of Object.entries(mudancas.estudados)) this.estudados.set(chave, estado);
+    for (const [chave, estado] of Object.entries(mudancas.favoritos)) this.favoritos.set(chave, estado);
+    for (const [chave, pref] of Object.entries(mudancas.prefs)) this.preferencias.set(chave, pref);
+    for (const [chave, item] of Object.entries(mudancas.itensRevisao)) this.itensRevisao.set(chave, item);
+
+    const chavesRespostas = new Set(this.respostas.map(chaveResposta));
+    for (const r of mudancas.respostas) {
+      const chave = chaveResposta(r);
+      if (!chavesRespostas.has(chave)) {
+        this.respostas.push(r);
+        chavesRespostas.add(chave);
+      }
+    }
+
+    const chavesConclusoes = new Set(this.conclusoesCasos.map(chaveConclusao));
+    for (const c of mudancas.conclusoesCasos) {
+      const chave = chaveConclusao(c);
+      if (!chavesConclusoes.has(chave)) {
+        this.conclusoesCasos.push(c);
+        chavesConclusoes.add(chave);
+      }
+    }
   }
 }

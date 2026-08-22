@@ -1,5 +1,12 @@
 import type { ConclusaoCaso, ProgressStore, RespostaRegistrada } from './types';
 import type { ItemRevisao } from '../revisao/sm2';
+import {
+  chaveConclusao,
+  chaveResposta,
+  type EstadoCarimbado,
+  type PrefCarimbada,
+  type SnapshotSync,
+} from '../sync/merge';
 
 // Tipagem mínima da API do expo-sqlite que usamos, para não depender do
 // pacote em tempo de compilação de tipos fora do runtime nativo.
@@ -31,7 +38,7 @@ CREATE TABLE IF NOT EXISTS conclusoes_casos (
   caso_id TEXT, classe TEXT, otimas INTEGER, aceitaveis INTEGER, erros INTEGER, concluida_em INTEGER
 );`;
 
-const VERSAO_ESQUEMA = '3';
+const VERSAO_ESQUEMA = '4';
 
 /**
  * Adaptador de ProgressStore sobre expo-sqlite (SQLite nativo).
@@ -49,10 +56,29 @@ export class SqliteProgressStore implements ProgressStore {
     this.migrar();
   }
 
+  private colunaExiste(tabela: string, coluna: string): boolean {
+    return this.db.getAllSync<{ name: string }>(`PRAGMA table_info(${tabela})`).some((c) => c.name === coluna);
+  }
+
   private migrar(): void {
     this.db.execSync(ESQUEMA_V1); // idempotente (IF NOT EXISTS) — banco v1 abre e evolui sem perder dados
     this.db.execSync(ESQUEMA_V2);
     this.db.execSync(ESQUEMA_V3);
+    // ESQUEMA_V4: carimbos de sincronização. ADD COLUMN não tem IF NOT EXISTS,
+    // por isso checamos via PRAGMA antes de alterar — idempotente em bancos
+    // v1/v2/v3 que já rodaram esta migração.
+    for (const tabela of ['estudados', 'favoritos']) {
+      if (!this.colunaExiste(tabela, 'valor')) {
+        // presença de linha sempre significava valor=true nos esquemas anteriores
+        this.db.execSync(`ALTER TABLE ${tabela} ADD COLUMN valor INTEGER DEFAULT 1`);
+      }
+      if (!this.colunaExiste(tabela, 'atualizado_em')) {
+        this.db.execSync(`ALTER TABLE ${tabela} ADD COLUMN atualizado_em INTEGER DEFAULT 0`);
+      }
+    }
+    if (!this.colunaExiste('preferencias', 'atualizado_em')) {
+      this.db.execSync('ALTER TABLE preferencias ADD COLUMN atualizado_em INTEGER DEFAULT 0');
+    }
     this.db.runSync(
       'INSERT OR REPLACE INTO meta (chave, valor) VALUES (?, ?)',
       ['versao_esquema', VERSAO_ESQUEMA],
@@ -60,26 +86,26 @@ export class SqliteProgressStore implements ProgressStore {
   }
 
   async marcarEstudado(topicoId: string, estudado: boolean): Promise<void> {
-    if (estudado) {
-      this.db.runSync('INSERT OR REPLACE INTO estudados (topico_id) VALUES (?)', [topicoId]);
-    } else {
-      this.db.runSync('DELETE FROM estudados WHERE topico_id = ?', [topicoId]);
-    }
+    // gravação (não DELETE) mesmo ao desmarcar, para o carimbo propagar a
+    // remoção via LWW entre aparelhos
+    this.db.runSync(
+      'INSERT OR REPLACE INTO estudados (topico_id, valor, atualizado_em) VALUES (?, ?, ?)',
+      [topicoId, estudado ? 1 : 0, Date.now()],
+    );
   }
   async listarEstudados(): Promise<string[]> {
-    const linhas = this.db.getAllSync<{ topico_id: string }>('SELECT topico_id FROM estudados');
+    const linhas = this.db.getAllSync<{ topico_id: string }>('SELECT topico_id FROM estudados WHERE valor = 1');
     return linhas.map((l) => l.topico_id);
   }
 
   async favoritar(topicoId: string, favorito: boolean): Promise<void> {
-    if (favorito) {
-      this.db.runSync('INSERT OR REPLACE INTO favoritos (topico_id) VALUES (?)', [topicoId]);
-    } else {
-      this.db.runSync('DELETE FROM favoritos WHERE topico_id = ?', [topicoId]);
-    }
+    this.db.runSync(
+      'INSERT OR REPLACE INTO favoritos (topico_id, valor, atualizado_em) VALUES (?, ?, ?)',
+      [topicoId, favorito ? 1 : 0, Date.now()],
+    );
   }
   async listarFavoritos(): Promise<string[]> {
-    const linhas = this.db.getAllSync<{ topico_id: string }>('SELECT topico_id FROM favoritos');
+    const linhas = this.db.getAllSync<{ topico_id: string }>('SELECT topico_id FROM favoritos WHERE valor = 1');
     return linhas.map((l) => l.topico_id);
   }
 
@@ -128,7 +154,10 @@ export class SqliteProgressStore implements ProgressStore {
     return linha ? linha.valor : null;
   }
   async definirPreferencia(chave: string, valor: string): Promise<void> {
-    this.db.runSync('INSERT OR REPLACE INTO preferencias (chave, valor) VALUES (?, ?)', [chave, valor]);
+    this.db.runSync(
+      'INSERT OR REPLACE INTO preferencias (chave, valor, atualizado_em) VALUES (?, ?, ?)',
+      [chave, valor, Date.now()],
+    );
   }
 
   async salvarItemRevisao(item: ItemRevisao): Promise<void> {
@@ -196,5 +225,82 @@ export class SqliteProgressStore implements ProgressStore {
       erros: l.erros,
       concluidaEm: l.concluida_em,
     }));
+  }
+
+  async exportarParaSync(): Promise<SnapshotSync> {
+    const estudados: Record<string, EstadoCarimbado> = {};
+    for (const l of this.db.getAllSync<{ topico_id: string; valor: number; atualizado_em: number }>(
+      'SELECT topico_id, valor, atualizado_em FROM estudados',
+    )) {
+      estudados[l.topico_id] = { valor: l.valor === 1, atualizadoEm: l.atualizado_em };
+    }
+
+    const favoritos: Record<string, EstadoCarimbado> = {};
+    for (const l of this.db.getAllSync<{ topico_id: string; valor: number; atualizado_em: number }>(
+      'SELECT topico_id, valor, atualizado_em FROM favoritos',
+    )) {
+      favoritos[l.topico_id] = { valor: l.valor === 1, atualizadoEm: l.atualizado_em };
+    }
+
+    const prefs: Record<string, PrefCarimbada> = {};
+    for (const l of this.db.getAllSync<{ chave: string; valor: string; atualizado_em: number }>(
+      'SELECT chave, valor, atualizado_em FROM preferencias',
+    )) {
+      prefs[l.chave] = { valor: l.valor, atualizadoEm: l.atualizado_em };
+    }
+
+    const itensRevisao: Record<string, ItemRevisao> = {};
+    for (const item of await this.listarItensRevisao()) itensRevisao[item.id] = item;
+
+    return {
+      estudados,
+      favoritos,
+      itensRevisao,
+      respostas: await this.listarRespostas(),
+      conclusoesCasos: await this.listarConclusoesCasos(),
+      prefs,
+    };
+  }
+
+  async aplicarDoSync(mudancas: SnapshotSync): Promise<void> {
+    for (const [topicoId, e] of Object.entries(mudancas.estudados)) {
+      this.db.runSync(
+        'INSERT OR REPLACE INTO estudados (topico_id, valor, atualizado_em) VALUES (?, ?, ?)',
+        [topicoId, e.valor ? 1 : 0, e.atualizadoEm],
+      );
+    }
+    for (const [topicoId, e] of Object.entries(mudancas.favoritos)) {
+      this.db.runSync(
+        'INSERT OR REPLACE INTO favoritos (topico_id, valor, atualizado_em) VALUES (?, ?, ?)',
+        [topicoId, e.valor ? 1 : 0, e.atualizadoEm],
+      );
+    }
+    for (const [chave, p] of Object.entries(mudancas.prefs)) {
+      this.db.runSync(
+        'INSERT OR REPLACE INTO preferencias (chave, valor, atualizado_em) VALUES (?, ?, ?)',
+        [chave, p.valor, p.atualizadoEm],
+      );
+    }
+    for (const item of Object.values(mudancas.itensRevisao)) {
+      await this.salvarItemRevisao(item);
+    }
+
+    const chavesRespostas = new Set((await this.listarRespostas()).map(chaveResposta));
+    for (const r of mudancas.respostas) {
+      const chave = chaveResposta(r);
+      if (!chavesRespostas.has(chave)) {
+        await this.registrarResposta(r);
+        chavesRespostas.add(chave);
+      }
+    }
+
+    const chavesConclusoes = new Set((await this.listarConclusoesCasos()).map(chaveConclusao));
+    for (const c of mudancas.conclusoesCasos) {
+      const chave = chaveConclusao(c);
+      if (!chavesConclusoes.has(chave)) {
+        await this.registrarConclusaoCaso(c);
+        chavesConclusoes.add(chave);
+      }
+    }
   }
 }
