@@ -126,23 +126,30 @@ export function validarGrafoCaso(caso: Caso): string[] {
     }
   }
 
-  // Cycle detection via DFS with a visiting stack, over existing-target edges only.
+  // Cycle detection via DFS with an explicit recursion stack, over existing-target edges only.
   const estado = new Map<string, 'visitando' | 'concluido'>();
   const nosEmCiclo = new Set<string>();
+  const pilha: string[] = [];
   function dfsCiclo(id: string): void {
     const atual = porId.get(id);
     if (!atual) return;
     estado.set(id, 'visitando');
+    pilha.push(id);
     for (const alvo of arestasDoNo(atual)) {
       if (!porId.has(alvo)) continue;
       const estadoAlvo = estado.get(alvo);
       if (estadoAlvo === 'visitando') {
-        nosEmCiclo.add(id);
-        nosEmCiclo.add(alvo);
+        // Back edge id -> alvo: every node on the stack from alvo to id
+        // (inclusive) is part of this cycle, not just its two endpoints.
+        const inicioCiclo = pilha.indexOf(alvo);
+        for (let i = inicioCiclo; i < pilha.length; i += 1) {
+          nosEmCiclo.add(pilha[i]);
+        }
       } else if (estadoAlvo === undefined) {
         dfsCiclo(alvo);
       }
     }
+    pilha.pop();
     estado.set(id, 'concluido');
   }
   for (const no of caso.nos) {

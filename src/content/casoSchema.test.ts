@@ -62,6 +62,30 @@ test('ciclo detectado', () => {
   expect(resultado).not.toEqual([]);
 });
 
+test('ciclo de 3+ nós nomeia todos os nós intermediários', () => {
+  const caso: Caso = {
+    ...clonar(base),
+    inicio: 'c1',
+    nos: [
+      { tipo: 'cena', id: 'c1', texto: 'Chega o paciente.', proximo: 'd1' },
+      {
+        tipo: 'decisao',
+        id: 'd1',
+        pergunta: 'O que fazer?',
+        opcoes: [
+          { texto: 'A', avaliacao: 'otima', feedback: 'B', proximo: 'c2' },
+          { texto: 'C', avaliacao: 'erro', feedback: 'D', proximo: 'c2' },
+        ],
+      },
+      { tipo: 'cena', id: 'c2', texto: 'Volta ao início.', proximo: 'c1' },
+    ],
+  };
+  const resultado = validarGrafoCaso(caso);
+  expect(resultado.some((m) => m.includes('"c1"'))).toBe(true);
+  expect(resultado.some((m) => m.includes('"d1"'))).toBe(true);
+  expect(resultado.some((m) => m.includes('"c2"'))).toBe(true);
+});
+
 test('decisao sem opção otima', () => {
   const caso = clonar(base);
   const decisao = caso.nos.find((n) => n.id === 'd1') as Extract<No, { tipo: 'decisao' }>;
