@@ -28,7 +28,7 @@ const ROTULOS: Record<Bloco['tipo'], string> = {
   ilustracao: 'Ilustração',
 };
 
-function renderConteudo(bloco: Bloco, onIniciarQuiz?: (p: QuizPergunta[]) => void) {
+function renderConteudo(bloco: Bloco, onIniciarQuiz?: (p: QuizPergunta[]) => void, topicoId?: string) {
   switch (bloco.tipo) {
     case 'conceito':
       return <Conceito bloco={bloco} />;
@@ -37,7 +37,7 @@ function renderConteudo(bloco: Bloco, onIniciarQuiz?: (p: QuizPergunta[]) => voi
     case 'sinal':
       return <Sinal bloco={bloco} />;
     case 'checklist':
-      return <ChecklistBloco bloco={bloco} />;
+      return <ChecklistBloco bloco={bloco} topicoId={topicoId} />;
     case 'tabela':
       return <TabelaBloco bloco={bloco} />;
     case 'fluxograma':
@@ -55,8 +55,16 @@ function renderConteudo(bloco: Bloco, onIniciarQuiz?: (p: QuizPergunta[]) => voi
   }
 }
 
-export function BlocoView({ bloco, onIniciarQuiz }: { bloco: Bloco; onIniciarQuiz?: (p: QuizPergunta[]) => void }) {
-  const conteudo = renderConteudo(bloco, onIniciarQuiz);
+export function BlocoView({
+  bloco,
+  onIniciarQuiz,
+  topicoId,
+}: {
+  bloco: Bloco;
+  onIniciarQuiz?: (p: QuizPergunta[]) => void;
+  topicoId?: string;
+}) {
+  const conteudo = renderConteudo(bloco, onIniciarQuiz, topicoId);
 
   // Exceção deliberada: uma 'secao' com nivel 'avancado' ainda renderiza como
   // Secao simples. Seção é um cabeçalho divisório do tópico, não um conteúdo

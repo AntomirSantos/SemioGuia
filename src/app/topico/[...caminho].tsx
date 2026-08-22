@@ -173,7 +173,7 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
       </View>
 
       {topico.blocos.map((bloco, i) => (
-        <BlocoView key={i} bloco={bloco} onIniciarQuiz={iniciarQuiz} />
+        <BlocoView key={i} bloco={bloco} onIniciarQuiz={iniciarQuiz} topicoId={topicoId} />
       ))}
 
       <View style={{ marginTop: espaco.xl, paddingTop: espaco.l, borderTopWidth: 1, borderTopColor: paleta.linha }}>

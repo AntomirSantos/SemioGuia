@@ -1,12 +1,15 @@
 import { fireEvent, render } from '@testing-library/react-native';
+import { router } from 'expo-router';
 import { ThemeProvider } from '../design/ThemeContext';
 import type { Bloco, QuizPergunta } from '../content/schema';
 import { BlocoView } from './Bloco';
 
-function renderBloco(bloco: Bloco, onIniciarQuiz?: (p: QuizPergunta[]) => void) {
+jest.mock('expo-router', () => ({ router: { push: jest.fn() } }));
+
+function renderBloco(bloco: Bloco, onIniciarQuiz?: (p: QuizPergunta[]) => void, topicoId?: string) {
   return render(
     <ThemeProvider>
-      <BlocoView bloco={bloco} onIniciarQuiz={onIniciarQuiz} />
+      <BlocoView bloco={bloco} onIniciarQuiz={onIniciarQuiz} topicoId={topicoId} />
     </ThemeProvider>,
   );
 }
@@ -60,6 +63,23 @@ test('checklist alterna item ao toque e risca o texto', async () => {
   const itemMarcado = getByText('Higienizar as mãos');
   const estilo = Array.isArray(itemMarcado.props.style) ? Object.assign({}, ...itemMarcado.props.style.flat(2)) : itemMarcado.props.style;
   expect(estilo.textDecorationLine).toBe('line-through');
+});
+
+test('checklist sem topicoId não mostra o botão de praticar como estação', async () => {
+  const bloco: Bloco = { tipo: 'checklist', titulo: 'Antes de examinar', itens: ['Higienizar as mãos'] };
+  const { queryByText } = await renderBloco(bloco);
+  expect(queryByText('Praticar como estação')).toBeNull();
+});
+
+test('checklist com topicoId mostra o botão e navega para a estação com o título codificado', async () => {
+  const bloco: Bloco = { tipo: 'checklist', titulo: 'Antes de examinar', itens: ['Higienizar as mãos'] };
+  const { getByText } = await renderBloco(bloco, undefined, 'exame-fisico-geral/sinais-vitais/pulso');
+
+  await fireEvent.press(getByText('Praticar como estação'));
+
+  expect(router.push).toHaveBeenCalledWith(
+    '/estacao/exame-fisico-geral/sinais-vitais/pulso?titulo=Antes%20de%20examinar',
+  );
 });
 
 test('tabela mostra cabeçalho e células', async () => {

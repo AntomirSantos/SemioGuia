@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
-import { Check } from 'lucide-react-native';
+import { Check, ClipboardCheck } from 'lucide-react-native';
+import { router } from 'expo-router';
 import type { Bloco } from '../content/schema';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, sombra, tipo } from '../design/tokens';
@@ -8,7 +9,7 @@ import { TextoRico } from './texto';
 
 type ChecklistBlocoTipo = Extract<Bloco, { tipo: 'checklist' }>;
 
-export function ChecklistBloco({ bloco }: { bloco: ChecklistBlocoTipo }) {
+export function ChecklistBloco({ bloco, topicoId }: { bloco: ChecklistBlocoTipo; topicoId?: string }) {
   const { paleta, escala } = useTema();
   const [marcados, setMarcados] = useState<boolean[]>(() => bloco.itens.map(() => false));
 
@@ -70,6 +71,27 @@ export function ChecklistBloco({ bloco }: { bloco: ChecklistBlocoTipo }) {
           </Pressable>
         );
       })}
+      {bloco.titulo && topicoId ? (
+        <Pressable
+          accessibilityRole="button"
+          onPress={() => router.push(`/estacao/${topicoId}?titulo=${encodeURIComponent(bloco.titulo)}`)}
+          style={{
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'center',
+            minHeight: 44,
+            marginTop: espaco.m,
+            borderTopWidth: 1,
+            borderTopColor: paleta.linha,
+            paddingTop: espaco.m,
+          }}
+        >
+          <ClipboardCheck size={16} color={paleta.acentoTinta} />
+          <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.small, color: paleta.acentoTinta, marginLeft: espaco.xs + 2 }}>
+            Praticar como estação
+          </Text>
+        </Pressable>
+      ) : null}
     </View>
   );
 }
