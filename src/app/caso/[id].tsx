@@ -10,26 +10,13 @@ import { useCaso } from '../../content/ContentContext';
 import { useProgresso } from '../../progress/ProgressContext';
 import { BotaoPrincipal } from '../../quiz/PerguntaCard';
 import { avancar, decidir, desfechoAtual, iniciar, nota, noAtual, type EstadoCaso } from '../../casos/motor';
-import type { Avaliacao, Caso, ClasseDesfecho, No } from '../../content/casoSchema';
+import { CLASSE_LABEL, corDaClasse } from '../../casos/desfecho';
+import type { Avaliacao, Caso, No } from '../../content/casoSchema';
 
 // Fonte dos dados objetivos da cena: usa um token monoespaçado se um dia
 // existir em `fonte` (ainda não existe), senão cai para o corpo — como pedido
 // pelo spec ("fonte mono se houver token, senão corpo").
 const FONTE_DADOS: string = (fonte as unknown as { mono?: string }).mono ?? fonte.corpo;
-
-const RANK_CLASSE: Record<ClasseDesfecho, number> = { dano: 1, aceitavel: 2, otimo: 3 };
-export const CLASSE_LABEL: Record<ClasseDesfecho, string> = { otimo: 'Ótimo', aceitavel: 'Aceitável', dano: 'Dano' };
-
-export function melhorClasse(classes: ClasseDesfecho[]): ClasseDesfecho | null {
-  if (classes.length === 0) return null;
-  return classes.reduce((melhor, atual) => (RANK_CLASSE[atual] > RANK_CLASSE[melhor] ? atual : melhor));
-}
-
-function corDaClasse(paleta: Paleta, classe: ClasseDesfecho): string {
-  if (classe === 'otimo') return paleta.ok;
-  if (classe === 'aceitavel') return paleta.perolaTexto;
-  return paleta.erro;
-}
 
 function corDaAvaliacao(paleta: Paleta, avaliacao: Avaliacao): { borda: string; fundo: string; texto: string } {
   if (avaliacao === 'otima') return { borda: paleta.ok, fundo: paleta.okFundo, texto: paleta.ok };

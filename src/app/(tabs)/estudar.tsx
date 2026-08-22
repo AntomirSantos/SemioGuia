@@ -4,7 +4,7 @@ import { router } from 'expo-router';
 import { Tela } from '../../design/Tela';
 import { useTema } from '../../design/ThemeContext';
 import { Rotulo } from '../../design/Rotulo';
-import { espaco, fonte, raio, tipo, type Paleta } from '../../design/tokens';
+import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useConteudo, useCasos } from '../../content/ContentContext';
 import { listarTodosTopicos, obterSistema } from '../../content/store';
 import { useProgresso } from '../../progress/ProgressContext';
@@ -12,7 +12,7 @@ import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import { montarFila, type FilaDeHoje } from '../../revisao/fila';
 import { idsValidosDoConteudo } from '../../revisao/idsValidos';
 import { hojeLocal } from '../../revisao/hoje';
-import { melhorClasse, CLASSE_LABEL } from '../caso/[id]';
+import { melhorClasse, CLASSE_LABEL, corDaClasse } from '../../casos/desfecho';
 import type { Bloco, Topico } from '../../content/schema';
 import type { Caso, ClasseDesfecho } from '../../content/casoSchema';
 
@@ -143,12 +143,6 @@ function LinhaTopicoQuiz({
   );
 }
 
-function corDoMelhorResultado(paleta: Paleta, classe: ClasseDesfecho): string {
-  if (classe === 'otimo') return paleta.ok;
-  if (classe === 'aceitavel') return paleta.perolaTexto;
-  return paleta.erro;
-}
-
 // Card de um caso clínico: título, contexto em 1 linha e o melhor desfecho já
 // alcançado ("Melhor resultado: <Classe>") ou "Não iniciado" quando o caso
 // nunca foi concluído.
@@ -185,7 +179,7 @@ function CardCaso({ caso, melhor, onPress }: { caso: Caso; melhor: ClasseDesfech
         style={{
           fontFamily: fonte.corpoBold,
           fontSize: Math.round(tipo.small * escala),
-          color: melhor ? corDoMelhorResultado(paleta, melhor) : paleta.tinta2,
+          color: melhor ? corDaClasse(paleta, melhor) : paleta.tinta2,
         }}
       >
         {melhor ? `Melhor resultado: ${CLASSE_LABEL[melhor]}` : 'Não iniciado'}
