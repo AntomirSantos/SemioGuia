@@ -1,4 +1,4 @@
-import type { ProgressStore, RespostaRegistrada } from './types';
+import type { ConclusaoCaso, ProgressStore, RespostaRegistrada } from './types';
 import type { ItemRevisao } from '../revisao/sm2';
 
 // Tipagem mínima da API do expo-sqlite que usamos, para não depender do
@@ -26,7 +26,12 @@ CREATE TABLE IF NOT EXISTS itens_revisao (
   proxima_revisao TEXT, atualizado_em TEXT
 );`;
 
-const VERSAO_ESQUEMA = '2';
+const ESQUEMA_V3 = `
+CREATE TABLE IF NOT EXISTS conclusoes_casos (
+  caso_id TEXT, classe TEXT, otimas INTEGER, aceitaveis INTEGER, erros INTEGER, concluida_em INTEGER
+);`;
+
+const VERSAO_ESQUEMA = '3';
 
 /**
  * Adaptador de ProgressStore sobre expo-sqlite (SQLite nativo).
@@ -47,6 +52,7 @@ export class SqliteProgressStore implements ProgressStore {
   private migrar(): void {
     this.db.execSync(ESQUEMA_V1); // idempotente (IF NOT EXISTS) — banco v1 abre e evolui sem perder dados
     this.db.execSync(ESQUEMA_V2);
+    this.db.execSync(ESQUEMA_V3);
     this.db.runSync(
       'INSERT OR REPLACE INTO meta (chave, valor) VALUES (?, ?)',
       ['versao_esquema', VERSAO_ESQUEMA],
@@ -163,6 +169,32 @@ export class SqliteProgressStore implements ProgressStore {
       intervaloDias: l.intervalo_dias,
       proximaRevisao: l.proxima_revisao,
       atualizadoEm: l.atualizado_em,
+    }));
+  }
+
+  async registrarConclusaoCaso(c: ConclusaoCaso): Promise<void> {
+    this.db.runSync(
+      'INSERT INTO conclusoes_casos (caso_id, classe, otimas, aceitaveis, erros, concluida_em) VALUES (?, ?, ?, ?, ?, ?)',
+      [c.casoId, c.classe, c.otimas, c.aceitaveis, c.erros, c.concluidaEm],
+    );
+  }
+
+  async listarConclusoesCasos(casoId?: string): Promise<ConclusaoCaso[]> {
+    const linhas = casoId
+      ? this.db.getAllSync<{ caso_id: string; classe: string; otimas: number; aceitaveis: number; erros: number; concluida_em: number }>(
+          'SELECT caso_id, classe, otimas, aceitaveis, erros, concluida_em FROM conclusoes_casos WHERE caso_id = ? ORDER BY concluida_em',
+          [casoId],
+        )
+      : this.db.getAllSync<{ caso_id: string; classe: string; otimas: number; aceitaveis: number; erros: number; concluida_em: number }>(
+          'SELECT caso_id, classe, otimas, aceitaveis, erros, concluida_em FROM conclusoes_casos ORDER BY concluida_em',
+        );
+    return linhas.map((l) => ({
+      casoId: l.caso_id,
+      classe: l.classe as ConclusaoCaso['classe'],
+      otimas: l.otimas,
+      aceitaveis: l.aceitaveis,
+      erros: l.erros,
+      concluidaEm: l.concluida_em,
     }));
   }
 }

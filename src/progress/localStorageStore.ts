@@ -1,4 +1,4 @@
-import type { ProgressStore, RespostaRegistrada } from './types';
+import type { ConclusaoCaso, ProgressStore, RespostaRegistrada } from './types';
 import type { ItemRevisao } from '../revisao/sm2';
 
 // Adaptador de ProgressStore para a versão web: persiste no localStorage do
@@ -16,6 +16,7 @@ interface Estado {
 
 const CHAVE = 'semioguia.progresso.v1';
 const CHAVE_ITENS = 'semioguia.itensRevisao';
+const CHAVE_CONCLUSOES_CASOS = 'semioguia.conclusoesCasos';
 
 const vazio = (): Estado => ({
   estudados: [],
@@ -28,10 +29,12 @@ const vazio = (): Estado => ({
 export class LocalStorageProgressStore implements ProgressStore {
   private cache: Estado;
   private cacheItens: Record<string, ItemRevisao>;
+  private cacheConclusoesCasos: ConclusaoCaso[];
 
   constructor(private armazenamento?: Pick<Storage, 'getItem' | 'setItem'>) {
     this.cache = this.ler();
     this.cacheItens = this.lerItens();
+    this.cacheConclusoesCasos = this.lerConclusoesCasos();
   }
 
   private obterStorage(): Pick<Storage, 'getItem' | 'setItem'> | undefined {
@@ -77,6 +80,25 @@ export class LocalStorageProgressStore implements ProgressStore {
   private gravarItens(): void {
     try {
       this.obterStorage()?.setItem(CHAVE_ITENS, JSON.stringify(this.cacheItens));
+    } catch {
+      // storage indisponível: segue só em memória
+    }
+  }
+
+  private lerConclusoesCasos(): ConclusaoCaso[] {
+    try {
+      const bruto = this.obterStorage()?.getItem(CHAVE_CONCLUSOES_CASOS);
+      if (!bruto) return [];
+      const dado = JSON.parse(bruto) as ConclusaoCaso[];
+      return Array.isArray(dado) ? dado : [];
+    } catch {
+      return [];
+    }
+  }
+
+  private gravarConclusoesCasos(): void {
+    try {
+      this.obterStorage()?.setItem(CHAVE_CONCLUSOES_CASOS, JSON.stringify(this.cacheConclusoesCasos));
     } catch {
       // storage indisponível: segue só em memória
     }
@@ -138,5 +160,17 @@ export class LocalStorageProgressStore implements ProgressStore {
 
   async listarItensRevisao(): Promise<ItemRevisao[]> {
     return Object.values(this.cacheItens);
+  }
+
+  async registrarConclusaoCaso(c: ConclusaoCaso): Promise<void> {
+    this.cacheConclusoesCasos.push(c);
+    this.gravarConclusoesCasos();
+  }
+
+  async listarConclusoesCasos(casoId?: string): Promise<ConclusaoCaso[]> {
+    const todas = casoId
+      ? this.cacheConclusoesCasos.filter((c) => c.casoId === casoId)
+      : [...this.cacheConclusoesCasos];
+    return todas.sort((a, b) => a.concluidaEm - b.concluidaEm);
   }
 }

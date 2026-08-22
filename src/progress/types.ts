@@ -1,6 +1,7 @@
 import type { ItemRevisao } from '../revisao/sm2';
 
 export interface RespostaRegistrada { perguntaId: string; topicoId: string; correta: boolean; respondidaEm: number }
+export interface ConclusaoCaso { casoId: string; classe: 'otimo' | 'aceitavel' | 'dano'; otimas: number; aceitaveis: number; erros: number; concluidaEm: number }
 export interface ProgressStore {
   marcarEstudado(topicoId: string, estudado: boolean): Promise<void>;
   listarEstudados(): Promise<string[]>;
@@ -14,4 +15,6 @@ export interface ProgressStore {
   definirPreferencia(chave: string, valor: string): Promise<void>;
   salvarItemRevisao(item: ItemRevisao): Promise<void>; // upsert por item.id
   listarItensRevisao(): Promise<ItemRevisao[]>; // ordem livre; quem consome ordena
+  registrarConclusaoCaso(c: ConclusaoCaso): Promise<void>; // append (histórico), não upsert
+  listarConclusoesCasos(casoId?: string): Promise<ConclusaoCaso[]>; // ordem por concluidaEm asc
 }

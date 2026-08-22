@@ -1,4 +1,4 @@
-import type { ProgressStore } from './types';
+import type { ConclusaoCaso, ProgressStore } from './types';
 import type { ItemRevisao } from '../revisao/sm2';
 
 /**
@@ -57,6 +57,25 @@ export function testarContratoProgressStore(nome: string, criar: () => Promise<P
       expect(itens).toHaveLength(2);
       const pa1 = itens.find((i) => i.id === 'pa-1');
       expect(pa1).toMatchObject({ repeticoes: 3, intervaloDias: 15, proximaRevisao: '2026-09-06', facilidade: 2.5 });
+    });
+
+    test('registrarConclusaoCaso é append (histórico) e listarConclusoesCasos ordena por concluidaEm e filtra por casoId', async () => {
+      const store = await criar();
+      const c1: ConclusaoCaso = { casoId: 'caso-1', classe: 'otimo', otimas: 3, aceitaveis: 0, erros: 0, concluidaEm: 300 };
+      const c2: ConclusaoCaso = { casoId: 'caso-2', classe: 'aceitavel', otimas: 1, aceitaveis: 2, erros: 0, concluidaEm: 100 };
+      const c3: ConclusaoCaso = { casoId: 'caso-1', classe: 'dano', otimas: 0, aceitaveis: 1, erros: 2, concluidaEm: 200 };
+      await store.registrarConclusaoCaso(c1);
+      await store.registrarConclusaoCaso(c2);
+      await store.registrarConclusaoCaso(c3);
+
+      const todas = await store.listarConclusoesCasos();
+      expect(todas).toHaveLength(3);
+      expect(todas.map((c) => c.concluidaEm)).toEqual([100, 200, 300]);
+
+      const doCaso1 = await store.listarConclusoesCasos('caso-1');
+      expect(doCaso1).toHaveLength(2);
+      expect(doCaso1.map((c) => c.concluidaEm)).toEqual([200, 300]);
+      expect(doCaso1.every((c) => c.casoId === 'caso-1')).toBe(true);
     });
   });
 }
