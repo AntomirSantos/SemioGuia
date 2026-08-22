@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Pressable, Text, View } from 'react-native';
+import { Pressable, Text } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { Tela } from '../../design/Tela';
 import { Cabecalho } from '../../design/Cabecalho';
@@ -9,9 +9,10 @@ import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useTopico } from '../../content/ContentContext';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useSessao } from '../../quiz/useSessao';
+import { PerguntaCard, BotaoPrincipal } from '../../quiz/PerguntaCard';
+import { avaliar, criarItem, notaDePergunta } from '../../revisao/sm2';
+import { agoraIso, hojeLocal } from '../../revisao/hoje';
 import type { Bloco, QuizPergunta } from '../../content/schema';
-
-type EstadoAlternativa = 'neutra' | 'correta' | 'errada' | 'dim';
 
 function TelaVazia({ mensagem }: { mensagem: string }) {
   const { paleta, escala } = useTema();
@@ -35,65 +36,6 @@ function TelaVazia({ mensagem }: { mensagem: string }) {
         <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.corpo, color: paleta.acentoTinta }}>Voltar</Text>
       </Pressable>
     </Tela>
-  );
-}
-
-function AlternativaCard({
-  texto,
-  estado,
-  onPress,
-}: {
-  texto: string;
-  estado: EstadoAlternativa;
-  onPress: () => void;
-}) {
-  const { paleta, escala } = useTema();
-  const cores: Record<EstadoAlternativa, { borda: string; fundo: string; texto: string }> = {
-    neutra: { borda: paleta.linha, fundo: paleta.superficie, texto: paleta.tinta },
-    correta: { borda: paleta.ok, fundo: paleta.okFundo, texto: paleta.ok },
-    errada: { borda: paleta.erro, fundo: paleta.erroFundo, texto: paleta.erro },
-    dim: { borda: paleta.linha, fundo: paleta.superficie, texto: paleta.tinta2 },
-  };
-  const cor = cores[estado];
-  return (
-    <Pressable
-      accessibilityRole="button"
-      onPress={onPress}
-      style={{
-        minHeight: 44,
-        justifyContent: 'center',
-        paddingVertical: espaco.m,
-        paddingHorizontal: espaco.l,
-        borderRadius: raio.m,
-        borderWidth: 1,
-        borderColor: cor.borda,
-        backgroundColor: cor.fundo,
-        marginBottom: espaco.s,
-      }}
-    >
-      <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: cor.texto }}>{texto}</Text>
-    </Pressable>
-  );
-}
-
-function BotaoPrincipal({ rotulo, onPress }: { rotulo: string; onPress: () => void }) {
-  const { paleta } = useTema();
-  return (
-    <Pressable
-      accessibilityRole="button"
-      onPress={onPress}
-      style={{
-        minHeight: 44,
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: paleta.acento,
-        borderRadius: raio.m,
-        paddingHorizontal: espaco.l,
-        marginBottom: espaco.s,
-      }}
-    >
-      <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.corpo, color: paleta.superficie }}>{rotulo}</Text>
-    </Pressable>
   );
 }
 
@@ -126,7 +68,6 @@ function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: Qui
   const progresso = useProgresso();
   const { responderAtual, resultado, reiniciar } = useSessao(perguntas);
   const [indice, setIndice] = useState(0);
-  const [escolhida, setEscolhida] = useState<number | null>(null);
   const [mostrarResultado, setMostrarResultado] = useState(false);
 
   if (mostrarResultado && resultado) {
@@ -151,7 +92,6 @@ function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: Qui
           onPress={() => {
             reiniciar();
             setIndice(0);
-            setEscolhida(null);
             setMostrarResultado(false);
           }}
         />
@@ -163,15 +103,25 @@ function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: Qui
   const pergunta = perguntas[indice];
   const ultima = indice === perguntas.length - 1;
 
-  function escolher(idx: number) {
-    if (escolhida !== null) return;
-    setEscolhida(idx);
-    // Espelha a fórmula interna de engine.responder (escolhidaIndex === pergunta.corretaIndex).
-    // Precisa ser calculada aqui, de forma síncrona, para compor o payload persistido
-    // abaixo — mantenha as duas em sincronia se a lógica de correção mudar.
-    const correta = idx === pergunta.corretaIndex;
+  function responder(idx: number, correta: boolean) {
     responderAtual(idx);
     progresso.registrarResposta({ perguntaId: pergunta.id, topicoId, correta, respondidaEm: Date.now() }).catch(() => {});
+    // Quiz avulso também alimenta o agendador SM-2 da pergunta (Task 5), do
+    // mesmo jeito que a estação avulsa já faz para checklists: cria o item se
+    // for a primeira vez, senão reavalia o existente.
+    (async () => {
+      try {
+        const hoje = hojeLocal();
+        const agora = agoraIso();
+        const itens = await progresso.listarItensRevisao();
+        const existente = itens.find((i) => i.id === pergunta.id);
+        const item = existente ?? criarItem(pergunta.id, 'pergunta', topicoId, hoje, agora);
+        const atualizado = avaliar(item, notaDePergunta(correta), hoje, agora);
+        await progresso.salvarItemRevisao(atualizado);
+      } catch {
+        // Fire-and-forget: não bloqueia a UI do quiz.
+      }
+    })();
   }
 
   function avancar() {
@@ -179,53 +129,20 @@ function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: Qui
       setMostrarResultado(true);
     } else {
       setIndice((i) => i + 1);
-      setEscolhida(null);
     }
   }
 
   return (
     <Tela>
       <Cabecalho titulo="" aoVoltar={() => router.back()} />
-      <Eyebrow texto={`${indice + 1} de ${perguntas.length}`} />
-      <Text
-        style={{
-          fontFamily: fonte.display,
-          fontSize: Math.round(tipo.h3 * escala),
-          color: paleta.tinta,
-          marginBottom: espaco.l,
-        }}
-      >
-        {pergunta.enunciado}
-      </Text>
-
-      {pergunta.alternativas.map((alt, idx) => {
-        let estado: EstadoAlternativa = 'neutra';
-        if (escolhida !== null) {
-          if (idx === pergunta.corretaIndex) estado = 'correta';
-          else if (idx === escolhida) estado = 'errada';
-          else estado = 'dim';
-        }
-        return <AlternativaCard key={idx} texto={alt} estado={estado} onPress={() => escolher(idx)} />;
-      })}
-
-      {escolhida !== null ? (
-        <>
-          <View
-            style={{
-              backgroundColor: paleta.superficie2,
-              borderRadius: raio.m,
-              padding: espaco.l,
-              marginTop: espaco.s,
-              marginBottom: espaco.l,
-            }}
-          >
-            <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2 }}>
-              {pergunta.explicacao}
-            </Text>
-          </View>
-          <BotaoPrincipal rotulo={ultima ? 'Ver resultado' : 'Próxima'} onPress={avancar} />
-        </>
-      ) : null}
+      <PerguntaCard
+        key={pergunta.id}
+        pergunta={pergunta}
+        rotuloProgresso={`${indice + 1} de ${perguntas.length}`}
+        rotuloAvancar={ultima ? 'Ver resultado' : 'Próxima'}
+        onResponder={responder}
+        onAvancar={avancar}
+      />
     </Tela>
   );
 }

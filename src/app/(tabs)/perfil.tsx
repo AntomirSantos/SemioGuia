@@ -8,6 +8,9 @@ import { useConteudo } from '../../content/ContentContext';
 import { listarSistemas, listarTodosTopicos } from '../../content/store';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
+import { montarFila } from '../../revisao/fila';
+import { idsValidosDoConteudo } from '../../revisao/idsValidos';
+import { hojeLocal } from '../../revisao/hoje';
 
 const AVISO_LEGAL = 'Material educacional. Não substitui o julgamento clínico.';
 
@@ -146,6 +149,18 @@ export function TelaPerfil() {
   const carregarEstudados = useCallback(() => progresso.listarEstudados(), [progresso]);
   const estudados = useDadosAoFocar(carregarEstudados) ?? [];
 
+  const carregarRevisao = useCallback(async () => {
+    const hoje = hojeLocal();
+    const idsValidos = idsValidosDoConteudo(conteudo);
+    const itens = await progresso.listarItensRevisao();
+    const validos = itens.filter((i) => idsValidos.has(i.id));
+    const paraRevisarHoje = montarFila(itens, idsValidos, hoje).itens.length;
+    const emDia = validos.filter((i) => i.proximaRevisao > hoje).length;
+    return { paraRevisarHoje, emDia };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [progresso, conteudo]);
+  const revisao = useDadosAoFocar(carregarRevisao) ?? { paraRevisarHoje: 0, emDia: 0 };
+
   const sistemas = listarSistemas(conteudo);
   const estudadosSet = new Set(estudados);
 
@@ -186,6 +201,12 @@ export function TelaPerfil() {
             <BarraProgresso key={s.id} titulo={s.titulo} estudados={estudadosCount} total={total} />
           );
         })}
+        <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta, marginBottom: espaco.xs }}>
+          Para revisar hoje: {revisao.paraRevisarHoje}
+        </Text>
+        <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta }}>
+          Itens em dia: {revisao.emDia}
+        </Text>
       </View>
 
       <RotuloSecao>Aparência</RotuloSecao>

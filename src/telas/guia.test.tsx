@@ -70,3 +70,42 @@ test('pressionar "marcar estudado" chama o store injetado', async () => {
 
   expect(spy).toHaveBeenCalledWith(TOPICO_ID, true);
 });
+
+test('marcar como estudado semeia a revisão espaçada com os itens do tópico', async () => {
+  const store = new MemoryProgressStore();
+  const { getByText } = await renderTopico(store);
+
+  await waitFor(() => {
+    expect(getByText('Pressão arterial')).toBeTruthy();
+  });
+
+  fireEvent.press(getByText('Marcar estudado'));
+
+  await waitFor(async () => {
+    const itens = await store.listarItensRevisao();
+    expect(itens.length).toBeGreaterThan(0);
+  });
+
+  const itens = await store.listarItensRevisao();
+  // Quiz de PA tem 5 perguntas e nenhum checklist.
+  expect(itens).toHaveLength(5);
+  expect(itens.every((i) => i.topicoId === TOPICO_ID && i.tipo === 'pergunta')).toBe(true);
+});
+
+test('desmarcar como estudado não semeia novos itens de revisão', async () => {
+  const store = new MemoryProgressStore();
+  await store.marcarEstudado(TOPICO_ID, true);
+  const { getByText } = await renderTopico(store);
+
+  await waitFor(() => {
+    expect(getByText('Estudado')).toBeTruthy();
+  });
+
+  fireEvent.press(getByText('Estudado'));
+
+  await waitFor(() => {
+    expect(getByText('Marcar estudado')).toBeTruthy();
+  });
+  const itens = await store.listarItensRevisao();
+  expect(itens).toHaveLength(0);
+});

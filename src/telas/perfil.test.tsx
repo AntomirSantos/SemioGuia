@@ -4,6 +4,7 @@ import { ContentProvider } from '../content/ContentContext';
 import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
 import { TelaPerfil } from '../app/(tabs)/perfil';
+import type { ItemRevisao } from '../revisao/sm2';
 
 jest.mock('expo-router', () => {
   const { useEffect } = require('react');
@@ -42,6 +43,39 @@ test('mostra progresso "1 de 3 tópicos" para sistema com 1 tópico estudado', a
   await waitFor(() => {
     expect(getByText('1 de 3 tópicos')).toBeTruthy();
   });
+});
+
+test('mostra "Para revisar hoje" e "Itens em dia" a partir dos itens de revisão', async () => {
+  const store = new MemoryProgressStore();
+  const vencido: ItemRevisao = {
+    id: 'pa-1',
+    tipo: 'pergunta',
+    topicoId: PA_ID,
+    facilidade: 2.5,
+    repeticoes: 0,
+    intervaloDias: 0,
+    proximaRevisao: '2000-01-01',
+    atualizadoEm: '2000-01-01T00:00:00.000Z',
+  };
+  const emDia: ItemRevisao = {
+    id: 'pa-2',
+    tipo: 'pergunta',
+    topicoId: PA_ID,
+    facilidade: 2.5,
+    repeticoes: 1,
+    intervaloDias: 6,
+    proximaRevisao: '2999-01-01',
+    atualizadoEm: '2000-01-01T00:00:00.000Z',
+  };
+  await store.salvarItemRevisao(vencido);
+  await store.salvarItemRevisao(emDia);
+
+  const { getByText } = await renderPerfil(store);
+
+  await waitFor(() => {
+    expect(getByText('Para revisar hoje: 1')).toBeTruthy();
+  });
+  expect(getByText('Itens em dia: 1')).toBeTruthy();
 });
 
 test('mostra o aviso legal exato', async () => {

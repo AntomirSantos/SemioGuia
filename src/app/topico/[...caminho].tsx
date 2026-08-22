@@ -10,7 +10,9 @@ import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useSistema, useTopico } from '../../content/ContentContext';
 import { useProgresso } from '../../progress/ProgressContext';
 import { BlocoView } from '../../blocos/Bloco';
-import type { QuizPergunta } from '../../content/schema';
+import { semearTopico } from '../../revisao/fila';
+import { agoraIso, hojeLocal } from '../../revisao/hoje';
+import type { QuizPergunta, Topico } from '../../content/schema';
 
 function TelaNaoEncontrada() {
   const { paleta, escala } = useTema();
@@ -100,13 +102,31 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
   if (!topico) {
     return <TelaNaoEncontrada />;
   }
+  const topicoAtual: Topico = topico;
 
-  const capitulo = sistema?.capitulos.find((c) => c.id === topico.capituloId);
+  const capitulo = sistema?.capitulos.find((c) => c.id === topicoAtual.capituloId);
 
   function alternarEstudado() {
     const novo = !estudado;
     setEstudado(novo);
     progresso.marcarEstudado(topicoId, novo).catch(() => {});
+    if (novo) {
+      semearRevisao(topicoAtual);
+    }
+  }
+
+  // Semeadura da revisão espaçada ao marcar o tópico como estudado:
+  // fire-and-forget (não bloqueia a UI) com falha silenciosa — se o store
+  // falhar, o pior caso é o tópico não ter itens na fila de revisão ainda,
+  // não uma tela quebrada.
+  async function semearRevisao(topicoAtual: Topico) {
+    try {
+      const existentes = await progresso.listarItensRevisao();
+      const novos = semearTopico(topicoAtual, existentes, hojeLocal(), agoraIso());
+      await Promise.all(novos.map((item) => progresso.salvarItemRevisao(item)));
+    } catch {
+      // silencioso, ver comentário acima.
+    }
   }
 
   function alternarFavorito() {
