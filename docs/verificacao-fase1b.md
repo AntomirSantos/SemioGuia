@@ -296,3 +296,77 @@ no adendo da Fase 2). Zero `pageerror` em toda a bateria.
 Screenshots (390×844, salvos durante a verificação): `casos-lista.png`,
 `caso-cena.png`, `caso-decisao.png`, `caso-feedback.png`,
 `caso-desfecho.png`, `casos-lista-resultado.png` e `caso-escuro.png`.
+
+## Adendo Fase 4A — conta opcional e base de sincronização
+
+A Fase 4A prepara o terreno para contas e sincronização entre aparelhos,
+mas **entrega isso desligado por padrão**: sem a config do Firebase (que só
+o autor cola em `src/conta/config.ts`, ver `docs/firebase-setup.md`), o
+bloco "Conta" no Perfil não mostra formulário nenhum — só um aviso. O
+resto do app permanece intacto. O que entrou:
+
+- **Conta opcional atrás de flag** (`src/conta/`): `firebaseApp.ts` inicializa
+  o Firebase só se `config.ts` tiver uma config real; `syncDisponivel()`
+  retorna `false` com config `null` (o estado committado hoje) e nenhum SDK
+  é tocado. `AuthContext` (`src/conta/AuthContext.tsx`) expõe
+  `entrar`/`criarConta`/`entrarComGoogle`/`sair`/`excluirConta` e o tipo
+  `UsuarioConta`; erros do SDK passam por `mapearErroAuth`
+  (`src/conta/errosAuth.ts`) antes de chegar à UI.
+- **Motor de merge puro** (`src/sync/merge.ts`): reconcilia snapshot local
+  e remoto por campo — listas por união, preferências e progresso de SM-2
+  por carimbo de tempo mais recente (last-write-wins) — sem tocar rede ou
+  storage; tipado sobre `SnapshotSync`/`EstadoCarimbado`/`PrefCarimbada`.
+- **`ProgressStore` v4** (`src/content/store.ts` e adaptadores memória/
+  localStorage/SQLite): todo estado mutável ganha carimbo de tempo;
+  `exportarSnapshot`/`aplicarSnapshot` alimentam o merge; migração
+  automática da forma legada (v3 e anteriores) para v4 preserva os dados já
+  no aparelho do usuário.
+- **Regras do Firestore** (`firestore.rules`) — 7 coleções sob
+  `users/{uid}/…`, deny-by-default fora desse caminho, `hasOnly`+`hasAll`
+  por coleção, faixas e tamanhos em todo campo, imutabilidade de
+  `perfil.criadoEm` e dos históricos (create-only, delete só pelo dono para
+  cumprir exclusão LGPD). Auditadas com a skill
+  `firebase-security-rules-auditor` em **2 rodadas** (achados corrigidos em
+  cada uma, nota final "Secure"); verificador de emulador local
+  (`scripts/verificar-regras-emulador.mjs`, fora do CI):
+  **87/87** contra a forma dos dados, mais **12/12** rodando o código real
+  de sincronização (`firestoreSync.ts`) contra o emulador — round-trip,
+  particionamento de `writeBatch`, exclusão idempotente e perfil adiado
+  quando o e-mail ainda não está disponível.
+- **Orquestrador de sync** (`src/sync/orquestrador.ts`, `SyncProvider`/
+  `useSync()`): liga login e "app aberto com sessão" ao ciclo
+  exportar → ler remoto → merge → aplicar local → gravar remoto; nunca
+  lança (falha vira `erro` no estado); debounce de 30s com retry manual
+  (`forcar: true`) e reset de estado/relógio por troca de conta.
+- **Bloco Conta no Perfil** (`src/conta/BlocoConta.tsx`, montado em
+  `(tabs)/perfil.tsx`): três estados — sem config (aviso "Sincronização
+  indisponível nesta versão."), sem sessão (formulário e-mail/senha +
+  "Entrar com Google" + aviso LGPD) e com sessão (status de sync, "Sair",
+  "Excluir conta" com confirmação em duas etapas).
+
+Fora do escopo desta fase (spec §9): 4B (assinatura/paywall/pagamentos),
+Sign in with Apple, fila offline persistente, tempo real, analytics.
+Ativação real do Firebase continua sendo um passo manual do autor,
+documentado em `docs/firebase-setup.md`.
+
+### Verificação headless (build de deploy, caminho `/SemioGuia/`, 390×844)
+
+Mesmo procedimento das fases anteriores: export web com
+`experiments.baseUrl` = `/SemioGuia`, servido localmente sob o mesmo
+prefixo e navegado com Playwright/Chromium headless, por cliques dentro do
+app. Config do Firebase committada é `null` (estado real de deploy desta
+fase). Zero `pageerror` em toda a bateria.
+
+1. **Perfil sem config**: o bloco "Conta" mostra só "Sincronização
+   indisponível nesta versão." — nenhum campo de e-mail/senha, nenhum botão
+   "Entrar"/"Criar conta"/"Entrar com Google" visível.
+2. **Resto do app intacto**: a Home carrega e lista os sistemas; abrir um
+   tópico (Exame físico geral → Pressão arterial) navega normalmente; a aba
+   Estudar mostra o card "Revisão de hoje" e a seção "Casos clínicos".
+3. **Tema escuro**: alternando para "Escuro" em Aparência, o bloco Conta
+   permanece visível com fundo e cores corretos (cartão e texto do aviso
+   legíveis, mesma paleta do resto da tela).
+
+Screenshots (390×844, salvos durante a verificação):
+`perfil-conta-indisponivel.png` (tema claro/sistema) e
+`perfil-conta-escuro.png` (tema escuro).
