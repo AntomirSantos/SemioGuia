@@ -3,7 +3,6 @@ import { ThemeProvider } from '../design/ThemeContext';
 import { ContentProvider } from '../content/ContentContext';
 import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
-import { TelaPerfil } from '../app/(tabs)/perfil';
 import type { ItemRevisao } from '../revisao/sm2';
 
 jest.mock('expo-router', () => {
@@ -20,6 +19,39 @@ jest.mock('react-native-safe-area-context', () => ({
   useSafeAreaInsets: () => ({ top: 0, bottom: 0, left: 0, right: 0 }),
 }));
 
+// TelaPerfil agora renderiza BlocoConta (Task 6), que passa por AuthContext e
+// pelo orquestrador de sync — ambos importam firebaseApp.ts, que importa a
+// SDK real do Firebase (firebase/app, firebase/auth, firebase/firestore).
+// Mockados aqui pelo mesmo motivo de AuthContext.test.tsx/firebaseApp.test.ts:
+// a config committada é `null` (ver src/conta/config.ts), então nada disso é
+// de fato chamado — só precisa resolver o import.
+jest.mock('firebase/app', () => ({
+  initializeApp: jest.fn(() => ({ name: '[DEFAULT]' })),
+}));
+jest.mock('firebase/firestore', () => ({
+  getFirestore: jest.fn(() => ({})),
+  collection: jest.fn(),
+  doc: jest.fn(),
+  getDoc: jest.fn(),
+  getDocs: jest.fn(),
+  writeBatch: jest.fn(),
+}));
+jest.mock('firebase/auth', () => ({
+  getAuth: jest.fn(() => ({})),
+  onAuthStateChanged: jest.fn(() => () => {}),
+  createUserWithEmailAndPassword: jest.fn(),
+  signInWithEmailAndPassword: jest.fn(),
+  signInWithPopup: jest.fn(),
+  signOut: jest.fn(),
+  deleteUser: jest.fn(),
+  sendEmailVerification: jest.fn(),
+  GoogleAuthProvider: jest.fn().mockImplementation(() => ({})),
+}));
+
+import { AuthProvider } from '../conta/AuthContext';
+import { SyncProvider } from '../sync/orquestrador';
+import { TelaPerfil } from '../app/(tabs)/perfil';
+
 const PA_ID = 'exame-fisico-geral/sinais-vitais/pressao-arterial';
 
 function renderPerfil(store: MemoryProgressStore) {
@@ -27,7 +59,11 @@ function renderPerfil(store: MemoryProgressStore) {
     <ThemeProvider>
       <ContentProvider>
         <ProgressProvider store={store}>
-          <TelaPerfil />
+          <AuthProvider>
+            <SyncProvider>
+              <TelaPerfil />
+            </SyncProvider>
+          </AuthProvider>
         </ProgressProvider>
       </ContentProvider>
     </ThemeProvider>,

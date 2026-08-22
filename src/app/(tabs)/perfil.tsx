@@ -11,6 +11,7 @@ import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import { montarFila } from '../../revisao/fila';
 import { idsValidosDoConteudo } from '../../revisao/idsValidos';
 import { hojeLocal } from '../../revisao/hoje';
+import { BlocoConta } from '../../conta/BlocoConta';
 
 const AVISO_LEGAL = 'Material educacional. Não substitui o julgamento clínico.';
 
@@ -208,6 +209,8 @@ export function TelaPerfil() {
           Itens em dia: {revisao.emDia}
         </Text>
       </View>
+
+      <BlocoConta />
 
       <RotuloSecao>Aparência</RotuloSecao>
       <View style={{ marginBottom: espaco.m }}>

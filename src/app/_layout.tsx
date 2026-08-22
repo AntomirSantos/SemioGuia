@@ -15,8 +15,19 @@ import { ThemeProvider, type EscalaFonte, type PreferenciaTema } from '../design
 import { ContentProvider } from '../content/ContentContext';
 import { ProgressProvider, useProgresso } from '../progress/ProgressContext';
 import { AuthProvider } from '../conta/AuthContext';
+import { obterDb } from '../conta/firebaseApp';
+import { apagarDadosDoUsuario } from '../sync/firestoreSync';
+import { SyncProvider } from '../sync/orquestrador';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
+
+// Apagador real (Task 6): injetado no AuthProvider, chamado ANTES de
+// deleteUser (contrato documentado em AuthContext.tsx). Referência estável de
+// módulo — não recriada a cada render — porque AuthProvider depende dela no
+// useCallback de `excluirConta`.
+function apagarDadosNoServidor(uid: string): Promise<void> {
+  return apagarDadosDoUsuario(obterDb(), uid);
+}
 
 const TEMAS_VALIDOS: PreferenciaTema[] = ['sistema', 'claro', 'escuro'];
 const ESCALAS_VALIDAS: EscalaFonte[] = ['normal', 'grande'];
@@ -89,12 +100,14 @@ export default function RootLayout() {
   if (!pronto) return null;
   return (
     <ProgressProvider>
-      <AuthProvider>
-        <TemaPersistido>
-          <ContentProvider>
-            <Stack screenOptions={{ headerShown: false }} />
-          </ContentProvider>
-        </TemaPersistido>
+      <AuthProvider apagarDados={apagarDadosNoServidor}>
+        <SyncProvider>
+          <TemaPersistido>
+            <ContentProvider>
+              <Stack screenOptions={{ headerShown: false }} />
+            </ContentProvider>
+          </TemaPersistido>
+        </SyncProvider>
       </AuthProvider>
     </ProgressProvider>
   );
