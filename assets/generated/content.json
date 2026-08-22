@@ -951,6 +951,36 @@
      ]
     }
    ]
+  },
+  {
+   "id": "aparelho-cardiovascular",
+   "titulo": "Aparelho cardiovascular",
+   "cor": "#D95757",
+   "icone": "heart-pulse",
+   "ordem": 2,
+   "capitulos": [
+    {
+     "id": "exame-cardiaco",
+     "titulo": "Exame do coração",
+     "ordem": 1,
+     "topicos": []
+    }
+   ]
+  },
+  {
+   "id": "aparelho-respiratorio",
+   "titulo": "Aparelho respiratório",
+   "cor": "#3BA48D",
+   "icone": "wind",
+   "ordem": 3,
+   "capitulos": [
+    {
+     "id": "exame-do-torax",
+     "titulo": "Exame do tórax",
+     "ordem": 1,
+     "topicos": []
+    }
+   ]
   }
  ],
  "casos": [
