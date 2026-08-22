@@ -1,4 +1,29 @@
-import { carregarConteudo, listarSistemas, obterTopico } from './store';
+import { carregarConteudo, listarCasos, listarSistemas, obterCaso, obterTopico } from './store';
+import type { Caso } from './casoSchema';
+
+const casoBase: Caso = {
+  id: 'caso-1',
+  titulo: 'Caso 1',
+  contexto: 'Você é o interno.',
+  tags: [],
+  topicosDeApoio: ['a/c1/t1'],
+  referencias: ['Ref'],
+  revisao: 'pendente',
+  inicio: 'c1',
+  nos: [
+    { tipo: 'cena', id: 'c1', texto: 'Chega o paciente.', proximo: 'd1' },
+    {
+      tipo: 'decisao',
+      id: 'd1',
+      pergunta: 'O que fazer?',
+      opcoes: [
+        { texto: 'A conduta certa', avaliacao: 'otima', feedback: 'Isso.', proximo: 'fim' },
+        { texto: 'A conduta errada', avaliacao: 'erro', feedback: 'Não.', proximo: 'fim' },
+      ],
+    },
+    { tipo: 'desfecho', id: 'fim', classe: 'otimo', texto: 'Melhora.', ensino: 'Lição.' },
+  ],
+};
 
 const dados = {
   versao: '0.1.0',
@@ -16,6 +41,7 @@ const dados = {
       }],
     },
   ],
+  casos: [casoBase],
 };
 
 test('valida e ordena sistemas', () => {
@@ -31,4 +57,17 @@ test('acha tópico por id; inexistente é undefined', () => {
 
 test('dados inválidos lançam', () => {
   expect(() => carregarConteudo({})).toThrow();
+});
+
+test('lista casos e acha por id; inexistente é undefined', () => {
+  const c = carregarConteudo(dados);
+  expect(listarCasos(c)).toHaveLength(1);
+  expect(obterCaso(c, 'caso-1')?.titulo).toBe('Caso 1');
+  expect(obterCaso(c, 'nao-existe')).toBeUndefined();
+});
+
+test('conteúdo sem casos usa default []', () => {
+  const { casos, ...semCasos } = dados;
+  const c = carregarConteudo(semCasos);
+  expect(listarCasos(c)).toEqual([]);
 });

@@ -2,7 +2,9 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { load } from 'js-yaml';
 import { parseTopico } from './parse-topico';
+import { parseCaso } from './parse-caso';
 import { conteudoSchema, topicoSchema, type Conteudo, type Topico } from '../src/content/schema';
+import { casoSchema, validarGrafoCaso, type Caso } from '../src/content/casoSchema';
 
 interface TaxCapitulo { id: string; titulo: string; ordem: number }
 interface TaxSistema { id: string; titulo: string; cor: string; icone: string; ordem: number; capitulos: TaxCapitulo[] }
@@ -82,8 +84,47 @@ export function compilarConteudo(contentDir: string): Conteudo {
   }
   sistemas.sort((a, b) => a.ordem - b.ordem);
 
+  const idsDeTopicos = new Set(
+    sistemas.flatMap((s) => s.capitulos.flatMap((c) => c.topicos.map((t) => t.id)))
+  );
+
+  const casos: Caso[] = [];
+  const dirCasos = path.join(contentDir, 'casos');
+  if (fs.existsSync(dirCasos)) {
+    const idsDeCasosVistos = new Map<string, string>();
+    for (const arq of fs.readdirSync(dirCasos).filter((f) => f.endsWith('.md')).sort()) {
+      const caminho = path.join(dirCasos, arq);
+      try {
+        const bruto = parseCaso(fs.readFileSync(caminho, 'utf8'), caminho);
+        const caso = casoSchema.parse(bruto);
+
+        const origem = idsDeCasosVistos.get(caso.id);
+        if (origem) {
+          erros.push(`${caminho}: id de caso duplicado "${caso.id}" (também em ${origem})`);
+        } else {
+          idsDeCasosVistos.set(caso.id, caminho);
+        }
+
+        for (const topicoId of caso.topicosDeApoio) {
+          if (!idsDeTopicos.has(topicoId)) {
+            erros.push(`${caminho}: topicosDeApoio referencia tópico inexistente "${topicoId}"`);
+          }
+        }
+
+        const violacoes = validarGrafoCaso(caso);
+        for (const v of violacoes) {
+          erros.push(`${caminho}: ${v}`);
+        }
+
+        casos.push(caso);
+      } catch (e) {
+        erros.push(`${caminho}: ${(e as Error).message}`);
+      }
+    }
+  }
+
   if (erros.length > 0) throw new Error(`Conteúdo inválido (${erros.length} erro(s)):\n` + erros.join('\n'));
-  return conteudoSchema.parse({ versao: tax.versao, sistemas });
+  return conteudoSchema.parse({ versao: tax.versao, sistemas, casos });
 }
 
 // CLI
@@ -95,5 +136,8 @@ if (require.main === module) {
   fs.writeFileSync(destino, JSON.stringify(c, null, 1));
   const topicos = c.sistemas.flatMap((s) => s.capitulos.flatMap((k) => k.topicos));
   const pendentes = topicos.filter((t) => t.revisao === 'pendente').length;
-  console.log(`OK: ${c.sistemas.length} sistemas, ${topicos.length} tópicos (${pendentes} com revisão pendente) → ${destino}`);
+  console.log(
+    `OK: ${c.sistemas.length} sistemas, ${topicos.length} tópicos (${pendentes} com revisão pendente), ` +
+      `${c.casos.length} casos → ${destino}`
+  );
 }

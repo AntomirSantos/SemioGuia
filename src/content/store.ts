@@ -1,4 +1,5 @@
 import { conteudoSchema, type Conteudo, type Sistema, type Topico } from './schema';
+import type { Caso } from './casoSchema';
 
 export function carregarConteudo(dados: unknown): Conteudo {
   return conteudoSchema.parse(dados);
@@ -18,4 +19,12 @@ export function listarTodosTopicos(c: Conteudo): Topico[] {
 
 export function obterTopico(c: Conteudo, topicoId: string): Topico | undefined {
   return listarTodosTopicos(c).find((t) => t.id === topicoId);
+}
+
+export function listarCasos(c: Conteudo): Caso[] {
+  return c.casos;
+}
+
+export function obterCaso(c: Conteudo, casoId: string): Caso | undefined {
+  return c.casos.find((caso) => caso.id === casoId);
 }

@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { casoSchema } from './casoSchema';
 
 export const quizPerguntaSchema = z
   .object({
@@ -62,7 +63,11 @@ export const sistemaSchema = z.object({
   ordem: z.number().int().positive(), capitulos: z.array(capituloSchema),
 });
 
-export const conteudoSchema = z.object({ versao: z.string().min(1), sistemas: z.array(sistemaSchema) });
+export const conteudoSchema = z.object({
+  versao: z.string().min(1),
+  sistemas: z.array(sistemaSchema),
+  casos: z.array(casoSchema).default([]),
+});
 
 export type QuizPergunta = z.infer<typeof quizPerguntaSchema>;
 export type Bloco = z.infer<typeof blocoSchema>;
