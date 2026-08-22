@@ -4,15 +4,17 @@ import { router } from 'expo-router';
 import { Tela } from '../../design/Tela';
 import { useTema } from '../../design/ThemeContext';
 import { Rotulo } from '../../design/Rotulo';
-import { espaco, fonte, raio, tipo } from '../../design/tokens';
-import { useConteudo } from '../../content/ContentContext';
+import { espaco, fonte, raio, tipo, type Paleta } from '../../design/tokens';
+import { useConteudo, useCasos } from '../../content/ContentContext';
 import { listarTodosTopicos, obterSistema } from '../../content/store';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import { montarFila, type FilaDeHoje } from '../../revisao/fila';
 import { idsValidosDoConteudo } from '../../revisao/idsValidos';
 import { hojeLocal } from '../../revisao/hoje';
+import { melhorClasse, CLASSE_LABEL } from '../caso/[id]';
 import type { Bloco, Topico } from '../../content/schema';
+import type { Caso, ClasseDesfecho } from '../../content/casoSchema';
 
 function encontrarQuiz(topico: Topico) {
   return topico.blocos.find((b): b is Extract<Bloco, { tipo: 'quiz' }> => b.tipo === 'quiz');
@@ -141,6 +143,57 @@ function LinhaTopicoQuiz({
   );
 }
 
+function corDoMelhorResultado(paleta: Paleta, classe: ClasseDesfecho): string {
+  if (classe === 'otimo') return paleta.ok;
+  if (classe === 'aceitavel') return paleta.perolaTexto;
+  return paleta.erro;
+}
+
+// Card de um caso clínico: título, contexto em 1 linha e o melhor desfecho já
+// alcançado ("Melhor resultado: <Classe>") ou "Não iniciado" quando o caso
+// nunca foi concluído.
+function CardCaso({ caso, melhor, onPress }: { caso: Caso; melhor: ClasseDesfecho | null; onPress: () => void }) {
+  const { paleta, escala } = useTema();
+  return (
+    <Pressable
+      accessibilityRole="button"
+      onPress={onPress}
+      style={{
+        minHeight: 44,
+        justifyContent: 'center',
+        paddingVertical: espaco.m,
+        paddingHorizontal: espaco.m,
+        borderRadius: raio.m,
+        backgroundColor: paleta.superficie,
+        borderWidth: 1,
+        borderColor: paleta.linha,
+        marginBottom: espaco.s,
+      }}
+    >
+      <Text
+        style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta, marginBottom: 2 }}
+      >
+        {caso.titulo}
+      </Text>
+      <Text
+        numberOfLines={1}
+        style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2, marginBottom: 2 }}
+      >
+        {caso.contexto}
+      </Text>
+      <Text
+        style={{
+          fontFamily: fonte.corpoBold,
+          fontSize: Math.round(tipo.small * escala),
+          color: melhor ? corDoMelhorResultado(paleta, melhor) : paleta.tinta2,
+        }}
+      >
+        {melhor ? `Melhor resultado: ${CLASSE_LABEL[melhor]}` : 'Não iniciado'}
+      </Text>
+    </Pressable>
+  );
+}
+
 export function TelaEstudar() {
   const { paleta, escala } = useTema();
   const conteudo = useConteudo();
@@ -171,6 +224,19 @@ export function TelaEstudar() {
   }, [progresso, conteudo]);
   const fila = useDadosAoFocar(carregarFila);
 
+  const casos = useCasos();
+  const carregarMelhoresDesfechos = useCallback(async () => {
+    const pares = await Promise.all(
+      casos.map(async (c) => {
+        const conclusoes = await progresso.listarConclusoesCasos(c.id);
+        return [c.id, melhorClasse(conclusoes.map((cc) => cc.classe))] as const;
+      }),
+    );
+    return Object.fromEntries(pares) as Record<string, ClasseDesfecho | null>;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [progresso, conteudo]);
+  const melhoresDesfechos = useDadosAoFocar(carregarMelhoresDesfechos) ?? {};
+
   return (
     <Tela>
       <Text style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.h1 * escala), color: paleta.tinta, marginBottom: espaco.l }}>
@@ -192,6 +258,19 @@ export function TelaEstudar() {
           />
         ))
       )}
+      {casos.length > 0 ? (
+        <View style={{ marginTop: espaco.l }}>
+          <Rotulo texto="Casos clínicos" style={{ marginBottom: espaco.xs + 2 }} />
+          {casos.map((c) => (
+            <CardCaso
+              key={c.id}
+              caso={c}
+              melhor={melhoresDesfechos[c.id] ?? null}
+              onPress={() => router.push(`/caso/${c.id}`)}
+            />
+          ))}
+        </View>
+      ) : null}
     </Tela>
   );
 }

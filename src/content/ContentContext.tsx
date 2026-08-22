@@ -5,9 +5,15 @@ import type { Caso } from './casoSchema';
 
 const Ctx = createContext<Conteudo | null>(null);
 
-export function ContentProvider({ children }: { children: ReactNode }) {
-  const conteudo = useMemo(() => carregarConteudo(require('../../assets/generated/content.json')), []);
-  return <Ctx.Provider value={conteudo}>{children}</Ctx.Provider>;
+export function ContentProvider({ children, conteudo }: { children: ReactNode; conteudo?: Conteudo }) {
+  // `conteudo` é opcional e existe para testes (ex.: casos clínicos — Task 5
+  // —, ainda ausentes do bundle real) injetarem conteúdo próprio, espelhando
+  // o `store` opcional do ProgressProvider.
+  const valor = useMemo(
+    () => conteudo ?? carregarConteudo(require('../../assets/generated/content.json')),
+    [conteudo],
+  );
+  return <Ctx.Provider value={valor}>{children}</Ctx.Provider>;
 }
 
 export function useConteudo(): Conteudo {
