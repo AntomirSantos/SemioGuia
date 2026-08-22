@@ -107,7 +107,7 @@ svg: |
       <text x="152" y="66">v</text>
       <text x="227" y="58">a</text>
       <text x="126" y="146">x′</text>
-      <text x="186" y="124">y</text>
+      <text x="192" y="134">y</text>
     </g>
     <g font-family="sans-serif" font-size="10" fill="currentColor" stroke="none" text-anchor="middle">
       <text x="78" y="192">B1</text>
@@ -443,7 +443,7 @@ perguntas:
       - "Fibrilação atrial"
       - "Estenose pulmonar"
     corretaIndex: 1
-    explicacao: "O descenso y profundo aparece quando a pressão venosa é muito elevada e o enchimento diastólico inicial é rápido, característico da pericardite constritiva. No tamponamento ocorre o oposto: o enchimento inicial está restrito e o descenso y está ausente."
+    explicacao: "O descenso y profundo aparece quando a pressão venosa é muito elevada e o enchimento diastólico inicial é rápido, característico da pericardite constritiva. No tamponamento ocorre o oposto — o enchimento inicial está restrito e o descenso y está ausente. Na fibrilação atrial o y domina por encolhimento do x′, não por colapso abrupto, e sem hipertensão venosa obrigatória."
   - id: jugular-4
     enunciado: Como se caracteriza um teste abdominojugular (refluxo hepatojugular) positivo?
     alternativas:

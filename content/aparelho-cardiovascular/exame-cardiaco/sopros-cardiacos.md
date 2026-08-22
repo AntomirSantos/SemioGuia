@@ -359,7 +359,7 @@ nivel: avancado
 texto: |
   A distinção clássica dizia que sopros orgânicos decorrem de alterações estruturais e funcionais apenas do aumento de velocidade ou da queda de viscosidade. A clareza é aparente.
 
-  O problema é que velocidade e viscosidade também intensificam sopros originados em lesões anatômicas. A certeza de que um sopro é orgânico só aparece no extremo superior da escala: som forte (+++ a ++++ na escala de cruzes de Porto), agudo, espalhando-se por uma área ampla e com frêmito sob a mão. Só que uma valva gravemente doente costuma soar fraca, curta e sem frêmito — esse sopro não preencheria os critérios de "orgânico" e acabaria arquivado como funcional, que é justamente o erro que a classificação deveria evitar.
+  O problema é que velocidade e viscosidade também intensificam sopros originados em lesões anatômicas. A certeza de que um sopro é orgânico só aparece no extremo superior da escala: som forte (+++ a ++++ na escala de cruzes de Porto), agudo, espalhando-se por uma área ampla e com frêmito sob a mão. Só que uma valva gravemente doente costuma soar fraca, sem irradiação e sem frêmito — esse sopro não preencheria os critérios de "orgânico" e acabaria arquivado como funcional, que é justamente o erro que a classificação deveria evitar.
 
   Uma classificação que só funciona nos extremos tem pouco valor prático. O conceito que sobreviveu foi o de sopro inocente, porque ele obriga a uma conclusão diagnóstica, e não a uma rotulação acústica.
 :::
