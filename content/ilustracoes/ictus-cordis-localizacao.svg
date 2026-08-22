@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- contorno da parede toracica anterior -->
+  <path d="M 38 26 C 34 70, 40 126, 54 184 L 168 184 C 182 126, 188 70, 184 26" stroke-width="2" />
+  <!-- clavículas -->
+  <path d="M 44 36 L 100 44" />
+  <path d="M 122 44 L 178 36" />
+  <!-- esterno e apêndice xifoide -->
+  <path d="M 102 42 L 102 134" stroke-width="1.5" />
+  <path d="M 120 42 L 120 134" stroke-width="1.5" />
+  <path d="M 102 134 L 111 150 L 120 134" stroke-width="1.5" />
+  <!-- arcos costais do lado esquerdo do paciente -->
+  <g stroke-width="1.5">
+    <path d="M 120 56 C 142 58, 160 68, 172 82" />
+    <path d="M 120 74 C 142 76, 162 88, 174 104" />
+    <path d="M 120 92 C 142 95, 162 108, 174 126" />
+    <path d="M 120 110 C 140 114, 158 128, 168 146" />
+    <path d="M 120 128 C 138 133, 154 147, 162 166" />
+  </g>
+  <!-- linha hemiclavicular esquerda -->
+  <path d="M 150 40 L 150 188" stroke-width="1.5" stroke-dasharray="5 4" />
+  <!-- ictus cordis normal -->
+  <circle cx="150" cy="122" r="6" fill="currentColor" stroke="none" />
+  <!-- ictus deslocado para baixo e para fora -->
+  <circle cx="166" cy="150" r="8" stroke-width="1.5" stroke-dasharray="4 3" />
+  <!-- legenda -->
+  <circle cx="204" cy="48" r="5" fill="currentColor" stroke="none" />
+  <circle cx="204" cy="100" r="6" stroke-width="1.5" stroke-dasharray="4 3" />
+  <g font-family="sans-serif" font-size="10" fill="currentColor" stroke="none">
+    <text x="216" y="46">ictus normal</text>
+    <text x="216" y="60">5º EIC, na LHC</text>
+    <text x="216" y="98">ictus deslocado</text>
+    <text x="216" y="112">dilatação do VE</text>
+    <text x="196" y="156">LHC = linha</text>
+    <text x="196" y="169">hemiclavicular</text>
+  </g>
+</svg>

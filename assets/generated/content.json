@@ -963,7 +963,1476 @@
      "id": "exame-cardiaco",
      "titulo": "Exame do coração",
      "ordem": 1,
-     "topicos": []
+     "topicos": [
+      {
+       "id": "aparelho-cardiovascular/exame-cardiaco/inspecao-e-palpacao-do-precordio",
+       "titulo": "Inspeção e palpação do precórdio",
+       "sistemaId": "aparelho-cardiovascular",
+       "capituloId": "exame-cardiaco",
+       "ordem": 1,
+       "tags": [
+        "precórdio",
+        "exame do coração",
+        "inspeção",
+        "palpação",
+        "ictus cordis",
+        "choque da ponta",
+        "localização do ictus",
+        "extensão do ictus",
+        "polpas digitais",
+        "decúbito lateral esquerdo",
+        "linha hemiclavicular",
+        "abaulamento precordial",
+        "retração sistólica",
+        "levantamento em massa",
+        "impulsão sistólica",
+        "frêmito",
+        "frêmito catário",
+        "pulsação epigástrica",
+        "pulsação de fúrcula",
+        "fúrcula esternal",
+        "hipertrofia ventricular esquerda",
+        "dilatação ventricular",
+        "ictus propulsivo",
+        "ictus difuso",
+        "ictus hipercinético",
+        "ictus sustentado",
+        "choque valvar",
+        "sínfise pericárdica",
+        "biotipo"
+       ],
+       "referencias": [
+        "Porto — Semiologia Médica, 8ª ed., Parte 10 (Sistema Cardiovascular), Seção 1, cap. 47 (Exame Clínico) — Exame físico: inspeção e palpação; boxe Características semiológicas das hipertrofias e dilatações ventriculares",
+        "Porto — Exame Clínico, 8ª ed., cap. 16 (Exame do Tórax) — Exame do coração: semiotécnica, inspeção e palpação; boxe Percussão versus radiografia ou ecocardiografia",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 38 (Palpation of the Heart), p. 317-326",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 37 (Percussion of the Heart), p. 315-316",
+        "Semiologia Clínica, 1ª ed., cap. Semiologia cardiovascular — Inspeção e palpação torácica (Tabela 1, alterações da inspeção)"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Duas mãos, um só gesto",
+         "texto": "Inspeção e palpação do precórdio não são etapas separadas. Elas se fazem juntas, porque cada achado só ganha sentido quando confirmado pelo outro sentido — o que se vê de raspão na parede torácica precisa ser sentido pela mão, e o que a mão sente precisa ser localizado pelo olho.\n\nQuatro perguntas organizam o exame.\n\n1. **Há abaulamento ou retração da região precordial?**\n2. **Onde está o ictus cordis, quanto ele ocupa e como ele empurra a mão?**\n3. **Há outros batimentos visíveis ou palpáveis** — levantamento paraesternal, retração sistólica, choque valvar, pulsação epigástrica, pulsação de fúrcula?\n4. **Há frêmito?**\n\nO paciente fica em decúbito dorsal, com o tórax descoberto, e o examinador do lado direito. Outras posições entram depois, quando uma pergunta específica exigir.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "A percussão da área cardíaca saiu da rotina. Comparada à radiografia e ao ecocardiograma, ela só acerta nas grandes cardiomegalias — e pode ser omitida sem prejuízo para o paciente. O tempo economizado vale mais aplicado a uma palpação caprichada."
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <!-- contorno da parede toracica anterior -->\n  <path d=\"M 38 26 C 34 70, 40 126, 54 184 L 168 184 C 182 126, 188 70, 184 26\" stroke-width=\"2\" />\n  <!-- clavículas -->\n  <path d=\"M 44 36 L 100 44\" />\n  <path d=\"M 122 44 L 178 36\" />\n  <!-- esterno e apêndice xifoide -->\n  <path d=\"M 102 42 L 102 134\" stroke-width=\"1.5\" />\n  <path d=\"M 120 42 L 120 134\" stroke-width=\"1.5\" />\n  <path d=\"M 102 134 L 111 150 L 120 134\" stroke-width=\"1.5\" />\n  <!-- arcos costais do lado esquerdo do paciente -->\n  <g stroke-width=\"1.5\">\n    <path d=\"M 120 56 C 142 58, 160 68, 172 82\" />\n    <path d=\"M 120 74 C 142 76, 162 88, 174 104\" />\n    <path d=\"M 120 92 C 142 95, 162 108, 174 126\" />\n    <path d=\"M 120 110 C 140 114, 158 128, 168 146\" />\n    <path d=\"M 120 128 C 138 133, 154 147, 162 166\" />\n  </g>\n  <!-- linha hemiclavicular esquerda -->\n  <path d=\"M 150 40 L 150 188\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" />\n  <!-- ictus cordis normal -->\n  <circle cx=\"150\" cy=\"122\" r=\"6\" fill=\"currentColor\" stroke=\"none\" />\n  <!-- ictus deslocado para baixo e para fora -->\n  <circle cx=\"166\" cy=\"150\" r=\"8\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\" />\n  <!-- legenda -->\n  <circle cx=\"204\" cy=\"48\" r=\"5\" fill=\"currentColor\" stroke=\"none\" />\n  <circle cx=\"204\" cy=\"100\" r=\"6\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\" />\n  <g font-family=\"sans-serif\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"216\" y=\"46\">ictus normal</text>\n    <text x=\"216\" y=\"60\">5º EIC, na LHC</text>\n    <text x=\"216\" y=\"98\">ictus deslocado</text>\n    <text x=\"216\" y=\"112\">dilatação do VE</text>\n    <text x=\"196\" y=\"156\">LHC = linha</text>\n    <text x=\"196\" y=\"169\">hemiclavicular</text>\n  </g>\n</svg>\n",
+         "legenda": "O ictus cordis normal cruza a linha hemiclavicular esquerda no 5º espaço intercostal. A dilatação do ventrículo esquerdo o empurra para baixo e para fora."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como examinar"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Inspeção e palpação do precórdio",
+         "passos": [
+          "Coloque o paciente em decúbito dorsal, com o tórax completamente descoberto, e fique de pé ou sentado do lado direito dele.",
+          "Inspecione a região precordial em duas incidências: tangencial, de pé ao lado direito, e frontal, junto aos pés do leito — o abaulamento só aparece contra a luz rasante.",
+          "Procure o ictus cordis com as superfícies palmares de vários dedos, varrendo a região da ponta em direção ao esterno.",
+          "Localize o ictus pelo espaço intercostal e pela relação com a linha hemiclavicular esquerda, marcada no ponto médio entre as articulações esternoclavicular e acromioclavicular.",
+          "Meça a extensão contando quantas polpas digitais são necessárias para recobri-lo.",
+          "Repouse a palma da mão sobre a área de batimentos para julgar a intensidade e o tipo de impulsão.",
+          "Se o ictus não for encontrado, peça ao paciente que role para o decúbito lateral esquerdo, expire por completo e fique alguns segundos sem respirar; em mulheres, pode ser necessário afastar a mama esquerda.",
+          "Ausculte as bulhas enquanto palpa, para saber se cada movimento da parede é sistólico ou diastólico.",
+          "Palpe a borda esternal esquerda baixa com a região hipotenar, o 2º espaço intercostal de cada lado, o epigástrio e a fúrcula esternal.",
+          "Pesquise frêmito com a face palmar dos dedos sobre as áreas de ausculta e determine, para cada frêmito, localização, situação no ciclo e intensidade."
+         ],
+         "observar": "Palpar o precórdio é tocar o corpo de alguém em um momento de fragilidade. Avise o que vai fazer, aqueça as mãos e descubra apenas o necessário. O gesto que para o examinador é rotina, para o paciente é a prova de que ele está sendo cuidado.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Inspeção e palpação do precórdio em 10 passos",
+         "itens": [
+          "Paciente em decúbito dorsal, tórax descoberto, examinador do lado direito.",
+          "Inspeção tangencial e frontal da região precordial em busca de abaulamento ou retração.",
+          "Localização do ictus cordis: espaço intercostal e relação com a linha hemiclavicular.",
+          "Extensão do ictus medida em polpas digitais.",
+          "Intensidade e tipo de impulsão avaliados com a palma da mão apoiada.",
+          "Decúbito lateral esquerdo em apneia expiratória quando o ictus não for palpável em decúbito dorsal.",
+          "Pesquisa de levantamento em massa do precórdio na borda esternal esquerda baixa.",
+          "Pesquisa de retração sistólica apical, com ausculta simultânea para cronometrar o movimento.",
+          "Pesquisa de pulsação epigástrica e de pulsação na fúrcula esternal.",
+          "Pesquisa de frêmito nas áreas de ausculta, com registro de localização, tempo no ciclo e intensidade."
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "O ictus cordis"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Localização",
+         "texto": "O ictus cordis, ou choque da ponta, corresponde ao contato da ponta do ventrículo esquerdo com o gradil costal. Na maioria das pessoas, ele cruza a linha hemiclavicular esquerda entre o 4º e o 5º espaço intercostal.\n\nO biotipo desloca esse ponto de referência.\n\n- **Mediolíneos**: linha hemiclavicular esquerda, no 5º espaço intercostal.\n- **Brevilíneos**: cerca de 2 cm para fora e para cima, no 4º espaço.\n- **Longilíneos**: 6º espaço, 1 a 2 cm para dentro da linha hemiclavicular.\n\nEm muita gente saudável o ictus simplesmente não é encontrado. Enfisema pulmonar, obesidade, musculatura peitoral desenvolvida e mamas volumosas o tornam invisível e impalpável. Em decúbito dorsal, o choque da ponta é palpável em cerca de 25 a 40% dos adultos; em decúbito lateral esquerdo, em 50 a 73%. Não achar o ictus, isoladamente, não é sinal de doença.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Extensão, intensidade e mobilidade",
+         "texto": "**Extensão.** Conte quantas polpas digitais recobrem o choque. Uma ou duas polpas — cerca de 2 a 3 cm — é o normal. Três ou mais sugerem hipertrofia; nas grandes dilatações, o ictus chega a ocupar toda a palma da mão. Medido em decúbito lateral esquerdo a 45°, um ictus com 4 cm ou mais aumenta a probabilidade de ventrículo esquerdo dilatado.\n\n**Intensidade.** Avalia-se melhor pela palpação do que pela inspeção, com a palma apoiada sobre a área de batimentos. Varia dentro do normal: é mais forte em pessoas magras, depois de exercício, na emoção e em qualquer estado que aumente a atividade cardíaca.\n\n**Mobilidade.** Marque o ponto do choque em decúbito dorsal e repita a marcação nos decúbitos laterais direito e esquerdo. O normal é deslocar 1 a 2 cm. Um ictus que não se move levanta a hipótese de sínfise pericárdica — dado clássico, de pouca aplicação prática hoje.\n"
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Por que o ventrículo direito não desloca o ictus",
+         "texto": "O ventrículo direito ocupa a maior parte da face anterior do coração, mas não participa da ponta. Por isso a hipertrofia direita quase não repercute sobre o ictus cordis — ela se manifesta de outro jeito, como levantamento em massa da região paraesternal e, às vezes, retração sistólica na ponta.\n\nA consequência prática é direta: um ictus normal não afasta sobrecarga do coração direito. Quem procura ventrículo direito procura no esterno e no epigástrio, não na ponta.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Propulsivo, difuso e globoso",
+         "texto": "A linguagem semiológica consagrou dois adjetivos que vale a pena usar com precisão.\n\n- **Difuso**: a área do choque corresponde a três ou mais polpas digitais. Traduz sobretudo **dilatação**.\n- **Propulsivo**: a mão que palpa é levantada a cada contração. Traduz sobretudo **hipertrofia**.\n\nDe modo simplificado, as hipertrofias impulsionam as polpas digitais com mais vigor que as dilatações. Na prática, hipertrofia e dilatação costumam andar juntas, e o ictus reúne as duas características — amplo, forte e deslocado, o que a literatura chama de ictus globoso ou musculoso.\n\nDois exemplos separam bem os padrões.\n\n- **Insuficiência aórtica** (sobrecarga de volume): hipertrofia associada à dilatação. Ictus vigoroso, propulsivo, difuso, deslocado para o 6º, 7º ou 8º espaço, podendo alcançar a linha axilar anterior.\n- **Hipertensão arterial e estenose aórtica** (sobrecarga de pressão, sem dilatação inicial): ictus recoberto por duas polpas, com deslocamento pequeno, raramente além do 6º espaço, mas nitidamente propulsivo e musculoso.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Hipercinético, sustentado e retrátil",
+         "texto": "Cronometrar o movimento contra as bulhas separa três padrões que a mão sozinha confunde. Ausculte enquanto palpa.\n\n- **Hipercinético**: mesmo tempo do normal — começa com B1 e termina no meio da sístole —, apenas com amplitude exagerada. É um achado de pouco valor isolado, porque aparece também em pessoas magras e em estados hipercinéticos. Ganha peso em um cenário específico: em quem tem sopro de estenose mitral, o ictus deveria ser normal ou reduzido; se for hipercinético, há outra lesão associada, como insuficiência mitral ou doença aórtica.\n- **Sustentado**: o movimento para fora começa com B1 e se prolonga até B2 ou além. É sempre anormal. Aumenta a probabilidade de hipertrofia ventricular esquerda e, em quem tem sopro de ejeção aórtico, de estenose aórtica importante.\n- **Retrátil**: a parede se deprime na sístole e volta para fora no início da diástole. Passa despercebido se o examinador não estiver auscultando ao mesmo tempo. Duas doenças o produzem — pericardite constritiva e insuficiência tricúspide grave.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Deslocamento do ictus — quando não é o coração",
+         "texto": "O deslocamento do ictus para baixo e para fora costuma indicar dilatação e/ou hipertrofia do ventrículo esquerdo — estenose aórtica, insuficiência aórtica, insuficiência mitral, hipertensão arterial, miocardiopatias e algumas cardiopatias congênitas.\n\nAntes de concluir isso, exclua as causas extracardíacas de deslocamento: escoliose, tórax infundibuliforme, derrame pleural e tudo o que eleva o diafragma, como ascite e obesidade. Nesses casos o coração mudou de endereço sem ter mudado de tamanho.\n\nVale ainda escolher bem o ponto de referência. Entre os três clássicos, a linha hemiclavicular é o melhor: um ictus lateral a ela, em decúbito dorsal, aumenta a probabilidade de coração aumentado na radiografia e de fração de ejeção reduzida. A distância de 10 cm da linha medioesternal não discrimina bem, e a linha mamilar é a pior de todas, por não guardar relação constante com o tamanho do tórax nem com a posição do ictus.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Além do ictus"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Abaulamento precordial",
+         "descricao": "Elevação persistente da região precordial, mais evidente na inspeção tangencial. Diferencia-se dos abaulamentos por deformidade osteomuscular pela presença de impulsão sistólica nessa região.",
+         "significado": "A dilatação do ventrículo direito é a principal responsável, porque essa câmara forma a maior parte da face anterior do coração e se apoia diretamente na parede torácica. Na criança, cuja parede é flexível, o crescimento cardíaco deforma o precórdio com facilidade.",
+         "causas": [
+          "Cardiopatias congênitas",
+          "Lesões valvares reumáticas",
+          "Cardiomegalia",
+          "Derrame pericárdico",
+          "Aneurisma da aorta",
+          "Alterações da própria caixa torácica"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Levantamento em massa do precórdio (impulsão sistólica)",
+         "descricao": "Impulso sistólico que movimenta uma área relativamente grande da parede torácica nas proximidades do esterno, percebido com a região hipotenar apoiada na borda esternal esquerda baixa.",
+         "significado": "Indica hipertrofia e/ou dilatação do ventrículo direito. Frequentemente vem acompanhado de retração sistólica na ponta e de pulsação epigástrica, compondo o conjunto de sinais da sobrecarga direita.",
+         "causas": [
+          "Hipertrofia ventricular direita",
+          "Hipertensão pulmonar",
+          "Estenose pulmonar",
+          "Cardiopatias congênitas com sobrecarga de câmaras direitas"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Frêmito cardiovascular",
+         "descricao": "Sensação tátil produzida por vibrações originadas no coração ou nos vasos, comparada ao ronronar de um gato — daí a denominação de frêmito catário.\n\nAo encontrá-lo, descreva sempre três características: localização (usando as áreas de ausculta como referência), situação no ciclo cardíaco (sistólico, diastólico ou sistodiastólico, definida pela coincidência ou não com o ictus ou com o pulso carotídeo) e intensidade.\n",
+         "significado": "O frêmito é o equivalente palpável de um sopro e denuncia turbulência importante. Sua presença acompanha os sopros de maior intensidade e reforça a suspeita de lesão estrutural.",
+         "causas": [
+          "Estenose aórtica",
+          "Estenose pulmonar",
+          "Insuficiência mitral importante",
+          "Comunicação interventricular",
+          "Persistência do canal arterial"
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Pulsações epigástricas e de fúrcula",
+         "texto": "**Epigástrio.** Pulsações epigástricas são vistas e palpadas em muitas pessoas normais e nada mais são que a transmissão das pulsações da aorta à parede abdominal. Podem, porém, denunciar hipertrofia ventricular direita: nesse caso são mais intensas no ângulo xifoesternal e chega-se a perceber a contração do ventrículo hipertrofiado, pressionando a palma da mão para cima contra a parte superior da região epigástrica. Uma terceira causa é o pulso hepático — pré-sistólico na estenose tricúspide, sistólico na insuficiência tricúspide.\n\n**Fúrcula esternal.** A pulsação supraesternal depende das pulsações da crossa da aorta e existe em pessoas normais, tornando-se visível também após exercício e emoções. Quando muito intensa, levanta suspeita de hipertensão arterial, esclerose senil da aorta, aneurisma da aorta ou de estados hipercinéticos — insuficiência aórtica, hipertireoidismo, anemia.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Choque valvar e ritmo de galope à palpação",
+         "texto": "Quando as bulhas se tornam muito hiperfonéticas, a mão as sente como um choque de curta duração — é o choque valvar. O mesmo acontece com cliques e estalidos intensos: o estalido de abertura mitral, por exemplo, pode ser palpável.\n\nVale o inverso também. O ritmo de galope, às vezes, é mais palpável do que audível, e a 3ª e a 4ª bulha podem ser sentidas como movimentos diastólicos extras na ponta, com o paciente em decúbito lateral esquerdo. Por isso a palpação não é só um preâmbulo da ausculta — ela às vezes chega primeiro ao diagnóstico.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Cinco erros que custam achados",
+         "texto": "1. **Palpar sem auscultar.** Sem as bulhas como referência não há como separar um ictus sustentado de um hipercinético, nem reconhecer uma retração sistólica.\n2. **Caracterizar a impulsão em decúbito lateral esquerdo.** Essa posição distorce o movimento sistólico: até metade das pessoas saudáveis parece ter movimento sustentado nela. O decúbito lateral serve para *encontrar* e *medir* o ictus, não para classificar a impulsão — isso se faz em decúbito dorsal.\n3. **Usar a linha mamilar como referência.** Ela não guarda relação constante com a posição do ictus nem com o tamanho do tórax, nem mesmo em homens.\n4. **Concluir cardiomegalia por um ictus deslocado sem olhar o tórax.** Escoliose, tórax infundibuliforme, derrame pleural e elevação do diafragma deslocam o coração sem aumentá-lo.\n5. **Chamar de normal o precórdio em que o ictus não foi encontrado.** Registre \"ictus não palpável\" e siga procurando os outros movimentos — o achado pode ser apenas anatômico, mas também pode acompanhar enfisema ou derrame pericárdico.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Antes de auscultar, localize o ictus. Ele não é apenas um sinal de tamanho ventricular — é o endereço da área mitral naquele paciente, que na cardiomegalia acentuada migra para a linha axilar anterior."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "precordio-1",
+           "enunciado": "Em um adulto mediolíneo, onde se espera encontrar o ictus cordis e qual extensão é considerada normal?",
+           "alternativas": [
+            "No 5º espaço intercostal esquerdo, na linha hemiclavicular, recoberto por uma ou duas polpas digitais",
+            "No 3º espaço intercostal esquerdo, junto ao esterno, recoberto por três polpas digitais",
+            "No 5º espaço intercostal direito, na linha hemiclavicular, recoberto por toda a palma da mão",
+            "Na base do apêndice xifoide, recoberto por quatro polpas digitais"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "No mediolíneo o choque da ponta cruza a linha hemiclavicular esquerda no 5º espaço intercostal e é recoberto por uma ou duas polpas digitais, cerca de 2 a 3 cm. Três polpas ou mais sugerem hipertrofia; nas grandes dilatações o ictus chega a ocupar toda a palma."
+          },
+          {
+           "id": "precordio-2",
+           "enunciado": "Você palpa o precórdio e sente um movimento sistólico amplo próximo à borda esternal esquerda baixa, com retração na ponta e pulsação epigástrica. O ictus está na posição habitual. Qual é a interpretação mais provável?",
+           "alternativas": [
+            "Hipertrofia e/ou dilatação do ventrículo direito",
+            "Hipertrofia ventricular esquerda por hipertensão arterial",
+            "Insuficiência aórtica com dilatação do ventrículo esquerdo",
+            "Derrame pericárdico volumoso"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "Levantamento em massa do precórdio, retração sistólica apical e pulsação epigástrica formam o conjunto da sobrecarga de câmaras direitas. O ictus permanece no lugar porque o ventrículo direito não participa da ponta do coração."
+          },
+          {
+           "id": "precordio-3",
+           "enunciado": "Por que a caracterização da impulsão apical (normal, hipercinética ou sustentada) deve ser feita com o paciente em decúbito dorsal?",
+           "alternativas": [
+            "Porque o decúbito lateral esquerdo distorce o movimento sistólico e faz até metade das pessoas saudáveis parecer ter movimento sustentado",
+            "Porque em decúbito lateral esquerdo o ictus se torna impalpável na maioria dos adultos",
+            "Porque só em decúbito dorsal é possível medir o diâmetro do ictus",
+            "Porque o decúbito lateral esquerdo desloca o ictus para dentro da linha hemiclavicular"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "O decúbito lateral esquerdo aproxima o coração da parede e é útil para encontrar o ictus e medir seu diâmetro, mas distorce o movimento sistólico — até metade dos indivíduos saudáveis apresenta movimento aparentemente sustentado nessa posição. A classificação da impulsão se faz em decúbito dorsal."
+          },
+          {
+           "id": "precordio-4",
+           "enunciado": "Um paciente com sopro compatível com estenose mitral apresenta ictus hipercinético. O que esse achado sugere?",
+           "alternativas": [
+            "Que a estenose mitral é grave e já produziu hipertrofia ventricular esquerda",
+            "Que existe outra lesão associada, como insuficiência mitral ou doença valvar aórtica",
+            "Que o achado é fisiológico e não modifica a interpretação do sopro",
+            "Que há sínfise pericárdica associada"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Na estenose mitral isolada o enchimento do ventrículo esquerdo está prejudicado e o ictus tende a ser normal ou reduzido. Um ictus hipercinético nesse contexto aponta para uma segunda lesão — tipicamente insuficiência mitral ou doença da valva aórtica."
+          },
+          {
+           "id": "precordio-5",
+           "enunciado": "Quais são as três características que devem ser descritas ao se encontrar um frêmito no precórdio?",
+           "alternativas": [
+            "Cor, temperatura e sensibilidade da pele suprajacente",
+            "Localização, situação no ciclo cardíaco e intensidade",
+            "Frequência, ritmo e amplitude",
+            "Mobilidade com o decúbito, resposta ao exercício e irradiação para o dorso"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "O frêmito é o equivalente palpável do sopro. Registram-se a localização (referida às áreas de ausculta), a situação no ciclo — sistólico, diastólico ou sistodiastólico, definida pela coincidência com o ictus ou com o pulso carotídeo — e a intensidade."
+          },
+          {
+           "id": "precordio-6",
+           "enunciado": "A percussão da área cardíaca foi abandonada da rotina do exame do coração. Por quê?",
+           "alternativas": [
+            "Porque provoca dor no precórdio inflamado e pode desencadear arritmias",
+            "Porque só é confiável em crianças e em pessoas muito magras",
+            "Porque a comparação com a radiografia e a ecocardiografia mostrou que seus resultados são imprecisos, exceto nas grandes cardiomegalias",
+            "Porque foi substituída pela ausculta do foco aórtico acessório"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "O uso rotineiro da radiografia e da ecocardiografia demonstrou a imprecisão da percussão precordial, que só identifica grandes cardiomegalias. Ela pode ser eliminada da exploração semiológica do coração sem prejuízo para a avaliação do paciente."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "aparelho-cardiovascular/exame-cardiaco/ausculta-cardiaca",
+       "titulo": "Ausculta cardíaca",
+       "sistemaId": "aparelho-cardiovascular",
+       "capituloId": "exame-cardiaco",
+       "ordem": 2,
+       "tags": [
+        "ausculta cardíaca",
+        "focos de ausculta",
+        "foco mitral",
+        "foco tricúspide",
+        "foco aórtico",
+        "foco pulmonar",
+        "foco aórtico acessório",
+        "endoápex",
+        "mesocárdio",
+        "borda esternal esquerda",
+        "estetoscópio",
+        "diafragma",
+        "campânula",
+        "decúbito lateral esquerdo",
+        "posição sentada",
+        "primeira bulha",
+        "B1",
+        "segunda bulha",
+        "B2",
+        "terceira bulha",
+        "B3",
+        "quarta bulha",
+        "B4",
+        "ritmo tríplice",
+        "ritmo de galope",
+        "desdobramento fisiológico",
+        "desdobramento fixo",
+        "desdobramento paradoxal",
+        "desdobramento invertido",
+        "hiperfonese",
+        "hipofonese",
+        "estalido de abertura mitral",
+        "clique sistólico",
+        "estalido protossistólico",
+        "atrito pericárdico",
+        "rumor venoso",
+        "protossístole",
+        "mesossístole",
+        "telessístole",
+        "protodiástole",
+        "bulha em canhão"
+       ],
+       "referencias": [
+        "Porto — Semiologia Médica, 8ª ed., Parte 10 (Sistema Cardiovascular), Seção 1, cap. 47 (Exame Clínico) — Ausculta: focos, semiotécnica, bulhas cardíacas, ritmos tríplices, alterações das bulhas, cliques e estalidos, atrito pericárdico, rumor venoso",
+        "Porto — Exame Clínico, 8ª ed., cap. 16 (Exame do Tórax) — Exame do coração: ausculta",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 39 (Auscultation of the Heart: General Principles), p. 327-332",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 41 (The Third and Fourth Heart Sounds), p. 345-354",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 47 (Disorders of the Pericardium), p. 405-406 — atrito pericárdico",
+        "Semiologia Clínica, 1ª ed., cap. Semiologia cardiovascular — Ausculta cardíaca (Tabelas 4 e 5, alterações de B1 e B2)"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A chave é reconhecer B1 e B2",
+         "texto": "Toda a ausculta cardíaca se apoia em uma única habilidade: separar a primeira da segunda bulha. Sem isso não há como situar um sopro, um estalido ou uma terceira bulha no ciclo — e um achado mal situado vira um diagnóstico errado.\n\nQuatro pistas resolvem quase sempre.\n\n- **B1** coincide com o ictus cordis e com o pulso carotídeo. É mais grave e um pouco mais longa. Imita-se dizendo **TUM**.\n- **B2** vem depois do pequeno silêncio, é mais aguda, mais curta e mais seca. Imita-se dizendo **TA**.\n- O **pequeno silêncio** (sístole) é mais curto que o grande silêncio (diástole) — mas as durações se igualam quando a frequência passa de 120 bpm.\n- No 2º espaço intercostal esquerdo, B2 é a bulha mais forte e mais estalada. Quando o ritmo é rápido e a dúvida se instala na ponta, volte a esse ponto, identifique B2 e deslize o receptor de volta sem perdê-la de vista.\n\nA cadência de referência é **TUM-TA — TUM-TA — TUM-TA**.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Como as bulhas se formam",
+         "texto": "**B1** nasce sobretudo do fechamento das valvas atrioventriculares, o componente mitral precedendo o tricúspide. Em metade das pessoas normais os dois componentes são percebidos separadamente, sem relação com a respiração e sem significado patológico. É mais intensa no foco mitral, onde costuma superar B2.\n\n**B2** é formada por quatro grupos de vibrações, mas só se ouvem as do fechamento das valvas aórtica e pulmonar. O componente aórtico se ouve em todo o precórdio; o pulmonar, apenas na área pulmonar e na borda esternal esquerda. Por isso, no foco aórtico e na ponta, B2 é sempre única. Em condições normais o componente aórtico precede o pulmonar. Nas crianças B2 é mais intensa no foco pulmonar; no adulto e no idoso, no foco aórtico.\n\n**B3** é um ruído protodiastólico de baixa frequência, gerado pelas vibrações da parede ventricular subitamente distendida durante o enchimento rápido. Soa como um **TU** curto.\n\n**B4** é um ruído débil, telediastólico ou pré-sistólico, atribuído à desaceleração brusca do sangue mobilizado pela contração atrial contra o volume já existente no ventrículo.\n"
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Onde cada bulha se avalia",
+         "texto": "A intensidade não se julga em qualquer ponto. Avalia-se **B1 nos focos mitral e tricúspide**, porque é o fechamento dessas valvas que a produz, e **B2 nos focos da base** — aórtico e pulmonar —, porque é ali que se originam suas vibrações principais.\n\nO desdobramento de B2 se estuda **na área pulmonar**, único lugar onde os dois componentes são audíveis. Procurar desdobramento de B2 na ponta é procurar no lugar errado.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como auscultar"
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <!-- contorno da parede toracica anterior -->\n  <path d=\"M 38 26 C 34 70, 40 126, 54 184 L 168 184 C 182 126, 188 70, 184 26\" stroke-width=\"2\" />\n  <!-- clavículas -->\n  <path d=\"M 44 36 L 100 44\" />\n  <path d=\"M 122 44 L 178 36\" />\n  <!-- esterno e apêndice xifoide -->\n  <path d=\"M 102 42 L 102 134\" stroke-width=\"1.5\" />\n  <path d=\"M 120 42 L 120 134\" stroke-width=\"1.5\" />\n  <path d=\"M 102 134 L 111 150 L 120 134\" stroke-width=\"1.5\" />\n  <!-- arcos costais do lado esquerdo do paciente -->\n  <g stroke-width=\"1.5\">\n    <path d=\"M 120 56 C 142 58, 160 68, 172 82\" />\n    <path d=\"M 120 74 C 142 76, 162 88, 174 104\" />\n    <path d=\"M 120 92 C 142 95, 162 108, 174 126\" />\n    <path d=\"M 120 110 C 140 114, 158 128, 168 146\" />\n  </g>\n  <!-- focos de ausculta -->\n  <g>\n    <circle cx=\"92\" cy=\"62\" r=\"8\" stroke-width=\"1.5\" />\n    <circle cx=\"130\" cy=\"62\" r=\"8\" stroke-width=\"1.5\" />\n    <circle cx=\"132\" cy=\"90\" r=\"8\" stroke-width=\"1.5\" />\n    <circle cx=\"130\" cy=\"146\" r=\"8\" stroke-width=\"1.5\" />\n    <circle cx=\"156\" cy=\"128\" r=\"8\" stroke-width=\"1.5\" />\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"92\" y=\"66\">1</text>\n    <text x=\"130\" y=\"66\">2</text>\n    <text x=\"132\" y=\"94\">3</text>\n    <text x=\"130\" y=\"150\">4</text>\n    <text x=\"156\" y=\"132\">5</text>\n  </g>\n  <!-- legenda -->\n  <g font-family=\"sans-serif\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"200\" y=\"42\">1 aórtico</text>\n    <text x=\"212\" y=\"55\">2º EIC direito</text>\n    <text x=\"200\" y=\"73\">2 pulmonar</text>\n    <text x=\"212\" y=\"86\">2º EIC esquerdo</text>\n    <text x=\"200\" y=\"104\">3 aórtico acessório</text>\n    <text x=\"212\" y=\"117\">3º–4º EIC esquerdo</text>\n    <text x=\"200\" y=\"135\">4 tricúspide</text>\n    <text x=\"212\" y=\"148\">base do xifoide</text>\n    <text x=\"200\" y=\"166\">5 mitral</text>\n    <text x=\"212\" y=\"179\">ponta, 5º EIC, LHC</text>\n  </g>\n</svg>\n",
+         "legenda": "Os focos clássicos são pontos de referência, não a projeção anatômica das valvas — esta se concentra na metade inferior do esterno."
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Os focos e as áreas vizinhas",
+         "texto": "Os focos não coincidem com a projeção das valvas: os anéis orovalvares se concentram na metade inferior do esterno. Eles marcam os lugares onde os fenômenos de cada valva são mais bem percebidos.\n\n- **Mitral**: 5º espaço intercostal esquerdo, na linha hemiclavicular — corresponde ao ictus. Na cardiomegalia acentuada migra para a linha axilar anterior, e por isso o ictus deve ser localizado antes de começar a ausculta.\n- **Pulmonar**: 2º espaço intercostal esquerdo, junto ao esterno. É onde se analisam os desdobramentos de B2, e os fenômenos da valva pulmonar praticamente não se irradiam para os outros focos.\n- **Aórtico**: 2º espaço intercostal direito, justaesternal.\n- **Aórtico acessório**: entre o 3º e o 4º espaço intercostal esquerdo, junto ao esterno. Com frequência é o melhor lugar para ouvir os fenômenos de origem aórtica — em especial o sopro da insuficiência aórtica.\n- **Tricúspide**: base do apêndice xifoide, ligeiramente para a esquerda.\n\nA rotina não para aí. Fazem parte do exame a borda esternal esquerda, a borda esternal direita, o endoápex (entre os focos tricúspide, mitral e aórtico acessório), as regiões infra e supraclaviculares, as regiões laterais do pescoço — obrigatórias para o sopro da estenose aórtica — e as regiões interescapulovertebrais, onde melhor se ouve o sopro da persistência do canal arterial.\n"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Ausculta cardíaca sistemática",
+         "passos": [
+          "Feche a porta, desligue aparelhos e peça silêncio — os ruídos cardíacos são de pequena intensidade e não competem com conversa.",
+          "Ajuste as olivas para a frente e confira se não há escape de ar; um vazamento mínimo já derruba a transmissão dos sons graves.",
+          "Aplique o receptor diretamente sobre a pele, nunca sobre a roupa.",
+          "Comece com o paciente em decúbito dorsal, cabeça em um travesseiro baixo, você do lado direito.",
+          "Localize o ictus cordis antes de auscultar — ele define onde fica a área mitral naquele paciente.",
+          "Percorra o precórdio com o diafragma, do 2º espaço intercostal direito à ponta (ou da ponta à base), sem pular a borda esternal esquerda.",
+          "Em cada ponto, faça as quatro perguntas em sequência: B1 está fraca ou forte? B2 está desdobrada e como? Há algo a mais na sístole? Há algo a mais na diástole?",
+          "Volte à ponta e à borda esternal esquerda baixa com a campânula apoiada de leve, para procurar B3, B4 e ruflar diastólico.",
+          "Vire o paciente para o decúbito lateral esquerdo, com a mão esquerda na cabeça, e ausculte a ponta com a campânula.",
+          "Sente o paciente e peça que se incline para a frente e esvazie o peito, mantendo a apneia expiratória — é a posição da base do coração.",
+          "Peça inspirações profundas e expirações forçadas quando precisar diferenciar fenômenos direitos de esquerdos.",
+          "Ausculte também as regiões laterais do pescoço, a axila esquerda e o dorso para determinar irradiações."
+         ],
+         "observar": "Dê ordens simples. Em vez de \"faça uma expiração forçada\", diga \"esvazie o peito, soprando todo o ar que conseguir\". Instrução clara é parte da técnica: respiração irregular ou apneia involuntária inutiliza qualquer manobra respiratória.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Ausculta cardíaca — roteiro de 10 pontos",
+         "itens": [
+          "Ambiente silencioso, receptor sobre a pele e olivas bem ajustadas.",
+          "Ictus cordis localizado antes de iniciar a ausculta.",
+          "Ausculta com o diafragma em todo o precórdio, incluindo a borda esternal esquerda em toda a sua extensão.",
+          "Ausculta com a campânula, apoiada levemente, na ponta e na borda esternal esquerda baixa.",
+          "B1 e B2 identificadas e sua intensidade avaliada nos focos apropriados.",
+          "Desdobramento de B2 pesquisado na área pulmonar, na inspiração e na expiração.",
+          "Pesquisa de B3 e B4 em decúbito lateral esquerdo com a campânula.",
+          "Ausculta em pelo menos três posições: decúbito dorsal, decúbito lateral esquerdo e sentado inclinado para a frente.",
+          "Manobras respiratórias empregadas para diferenciar fenômenos direitos e esquerdos.",
+          "Ausculta das regiões laterais do pescoço, axila esquerda e dorso para caracterizar irradiações."
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Diafragma ou campânula",
+         "texto": "O **diafragma** capta melhor os ruídos de alta frequência — B1, B2, cliques, estalidos e a maioria dos sopros. É com ele que se faz a maior parte da ausculta.\n\nA **campânula** capta melhor os ruídos de baixa frequência: B3, B4 e o ruflar da estenose mitral. Ela deve ser apoiada com a pressão mínima necessária para vedar o ar.\n\nEsse detalhe de pressão é uma ferramenta diagnóstica, não um capricho. Comprimir a campânula estica a pele, que passa a funcionar como membrana e a transforma em diafragma. Daí uma manobra útil: se um som some quando você aumenta a pressão da campânula, ele é de baixa frequência. É assim que se confirma uma B3 e que se separa a dupla B4-B1 de um desdobramento de B1 — a pressão firme funde a primeira e não altera a segunda.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Desdobramentos da segunda bulha"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O desdobramento fisiológico",
+         "texto": "Na expiração as duas sigmoides se fecham juntas e o ruído é único. Na inspiração, o maior afluxo de sangue ao coração direito prolonga a sístole do ventrículo direito, o componente pulmonar atrasa e os dois componentes são percebidos separadamente. É o desdobramento fisiológico, que se ouve na área pulmonar e se imita dizendo **TLA**.\n\nO grau varia de pessoa para pessoa e o achado está presente em quase todas as crianças. Regra prática: desdobramento que **aparece na inspiração e some na expiração** é fisiológico.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Desdobramentos patológicos de B2",
+         "colunas": [
+          "Tipo",
+          "Comportamento com a respiração",
+          "Causas típicas"
+         ],
+         "linhas": [
+          [
+           "Constante e variável",
+           "Presente nos dois tempos respiratórios, acentuando-se na inspiração profunda",
+           "Bloqueio do ramo direito"
+          ],
+          [
+           "Fixo",
+           "Distância entre os componentes praticamente igual na inspiração e na expiração",
+           "Comunicação interatrial; estenose pulmonar"
+          ],
+          [
+           "Invertido (paradoxal)",
+           "Aparece na expiração e desaparece na inspiração",
+           "Bloqueio do ramo esquerdo; estenose aórtica acentuada"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Por que o desdobramento fixo é fixo",
+         "texto": "Na comunicação interatrial, o maior fluxo para o ventrículo direito prolonga o esvaziamento dessa câmara e atrasa o fechamento da valva pulmonar. Até aí, nada de diferente.\n\nO que torna o desdobramento fixo é a compensação recíproca entre os dois tempos respiratórios. Na inspiração aumenta o retorno venoso ao coração direito, o que atrasa o componente pulmonar — mas diminui a passagem de sangue do átrio esquerdo para o direito. Na expiração o retorno venoso cai, porém o desvio interatrial aumenta e o componente pulmonar atrasa outra vez, pelo outro caminho. O resultado é uma distância entre os componentes que praticamente não varia com a respiração.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Por que o desdobramento paradoxal é ao contrário",
+         "texto": "No bloqueio do ramo esquerdo o estímulo alcança o miocárdio ventricular esquerdo depois de já ter ativado o direito. A contração direita passa a preceder a esquerda e o componente aórtico se coloca **depois** do pulmonar — o inverso da situação normal.\n\nA respiração então age ao contrário do habitual. Na inspiração profunda, o maior aporte ao ventrículo direito retarda sua sístole e aproxima o componente pulmonar do aórtico, tornando a bulha única. Na expiração, com menor retorno venoso, o componente pulmonar se adianta e o desdobramento reaparece.\n\nEstenose aórtica acentuada produz o mesmo padrão, mas por atraso mecânico no fechamento da valva aórtica.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Ritmos tríplices e alterações de intensidade"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Quando o ritmo passa a ter três tempos",
+         "texto": "Duas bulhas fazem o ritmo binário. O aparecimento de um terceiro ruído diastólico faz o ritmo tríplice, que se divide em protodiastólico (por B3) e pré-sistólico (por B4).\n\n**B3 fisiológica.** Comum em crianças e adultos jovens. Do ponto de vista estetoacústico não há diferença entre a B3 fisiológica e a patológica; o que separa as duas é o resto do exame. Sem cardiopatia que a justifique, uma B3 é considerada fisiológica. Depois dos 40 anos ela deixa de ser esperada, porque o envelhecimento normal desloca o enchimento para mais tarde na diástole.\n\n**Ritmo de galope.** É o ritmo tríplice por B3 patológica, cujo som lembra o galopar de cavalo — **PA-TA-TA**. Ouve-se melhor na ponta ou junto à borda esternal, com a campânula apoiada de leve e o paciente em decúbito lateral esquerdo; some quando se comprime demais o receptor. Às vezes é mais palpável que audível. É o \"grito de socorro\" do miocárdio em sofrimento.\n\n**Galope atrial.** Corresponde ao ritmo tríplice por B4. Não é sinal de insuficiência descompensada, mas de insuficiência iminente: o ventrículo doente pede ajuda da contração atrial para melhorar o enchimento final. Aparece sobretudo na hipertensão arterial grave e na insuficiência coronária crônica.\n\n**Galope de soma.** Na taquicardia, a diástole encurta e os fenômenos que geram B3 e B4 se fundem em um só ruído, às vezes mais intenso que B1 ou B2. Só se confirma observando o paciente depois que a frequência cai.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que B3 e B4 significam na prática",
+         "texto": "As duas nascem do enchimento diastólico rápido, mas dizem coisas diferentes.\n\n**B3** associa-se a ventrículo dilatado, disfunção sistólica e pressões de enchimento elevadas. Sua presença aumenta a probabilidade de fração de ejeção reduzida e de peptídeo natriurético elevado; a ausência de B3 argumenta contra fração de ejeção abaixo de 30%. É um achado que costuma desaparecer quando a congestão é tratada — vai e volta conforme o estado volêmico.\n\n**B4** associa-se a ventrículo rígido — cardiopatia hipertensiva, isquêmica ou hipertrófica e estenose aórtica. Exige ritmo sinusal e contração atrial vigorosa, e é um achado durável, que só se perde quando o paciente entra em fibrilação atrial. Diferentemente de B3, não prediz bem as pressões de enchimento nem a gravidade da estenose aórtica.\n\nUm detalhe de lateralidade fecha o raciocínio: galopes de ventrículo direito aparecem na borda esternal esquerda baixa e **aumentam** na inspiração; galopes de ventrículo esquerdo aparecem na ponta e diminuem na inspiração.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Intensidade das bulhas — o que altera",
+         "colunas": [
+          "Achado",
+          "Situações associadas"
+         ],
+         "linhas": [
+          [
+           "B1 hiperfonética",
+           "Tórax delgado; taquicardia; hipertireoidismo; extrassístoles; intervalo PR curto; estenose mitral com valva ainda flexível"
+          ],
+          [
+           "B1 hipofonética",
+           "Insuficiência cardíaca, miocardite e infarto (ascensão lenta da pressão intraventricular); intervalo PR longo; obesidade, enfisema, mamas volumosas, derrame pericárdico; estenose mitral muito calcificada"
+          ],
+          [
+           "B1 de intensidade variável",
+           "Fibrilação atrial (variação irregular); bloqueio atrioventricular total (variação regular, com bulha em canhão ocasional)"
+          ],
+          [
+           "B2 hiperfonética na área aórtica",
+           "Hipertensão arterial sistêmica"
+          ],
+          [
+           "B2 hiperfonética na área pulmonar",
+           "Hipertensão pulmonar; estados de débito aumentado, como persistência do canal arterial e comunicação interatrial"
+          ],
+          [
+           "B2 hipofonética",
+           "Estenose aórtica calcificada (componente aórtico praticamente inaudível); estenose pulmonar; miocardiopatias; obesidade e enfisema"
+          ]
+         ]
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Fibrilação atrial × bloqueio atrioventricular total",
+         "texto": "Nas duas situações a intensidade de B1 muda de batimento para batimento, mas a lógica é diferente.\n\nNa **fibrilação atrial**, a variação é completamente irregular, acompanhada de intervalos irregulares entre as bulhas — o antigo *delirium cordis*. A causa é o enchimento ventricular variável de uma diástole para outra.\n\nNo **bloqueio atrioventricular total**, o ritmo é lento e regular; a variação de B1 decorre do assincronismo entre as contrações atrial e ventricular. De vez em quando surge uma B1 muito intensa — a bulha em canhão —, produzida pelo fechamento súbito de valvas atrioventriculares amplamente separadas.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Estalidos, cliques e atrito"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Estalido de abertura mitral",
+         "descricao": "Ruído seco, agudo e de curta duração, protodiastólico, que precede o ruflar. Ouve-se melhor com o paciente em decúbito lateral esquerdo, na área mitral e na borda esternal esquerda, na altura do 3º e do 4º espaço intercostal — embora em muitos pacientes seja audível em todo o precórdio. Chega a ser palpável.\n",
+         "significado": "É o sinal mais indicativo de estenose mitral. Sua existência depende de a valva ainda ter alguma flexibilidade: desaparece quando há calcificação intensa ou hipertensão pulmonar muito grave.\n\nNão confundir com B2 desdobrada nem com B3. O desdobramento se nota na área pulmonar; o estalido, na área mitral e no 3º-4º espaço esquerdo junto ao esterno, com timbre mais agudo e mais seco. Já B3 é de tonalidade baixa, quase restrita à ponta, e está separada de B2 por um intervalo maior que o do estalido.\n",
+         "causas": [
+          "Estenose mitral"
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Estalidos e cliques sistólicos",
+         "texto": "**Estalidos protossistólicos (ruídos de ejeção).** São de origem vascular, produzidos pelas vibrações da parede da aorta ou da artéria pulmonar diante da súbita ejeção de sangue. São ruídos agudos e intensos.\n\n- O pulmonar ouve-se melhor na área pulmonar e na borda esternal esquerda e diferencia-se do desdobramento de B1 pelo timbre mais agudo. Aparece na estenose pulmonar moderada, na dilatação idiopática da artéria pulmonar, na comunicação interatrial e na hipertensão pulmonar grave.\n- O aórtico ouve-se da vizinhança do 4º espaço intercostal esquerdo até a área mitral e aparece nas lesões valvares aórticas, na coarctação da aorta, no aneurisma e na dilatação aórtica.\n\n**Clique meso ou telessistólico.** Ruído de alta frequência, seco e agudo, no meio ou no fim da sístole, cuja intensidade varia nitidamente com a respiração e com as mudanças de posição. Ouve-se nas áreas mitral ou tricúspide. Hoje é considerado indicativo de prolapso da valva mitral ou tricúspide, mesmo na ausência de sopro.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Atrito pericárdico",
+         "descricao": "Ruído áspero, comparado ao som de couro novo sendo friccionado ou de duas lixas esfregadas uma na outra. Ouve-se melhor entre a ponta do coração e a borda esternal esquerda, com o paciente sentado, inclinado para a frente e em apneia expiratória profunda.\n\nNão guarda relação fixa com as bulhas: ocorre tanto na sístole quanto na diástole e frequentemente recobre B1 e parte do pequeno silêncio. Praticamente não se irradia, e sua intensidade e qualidade mudam de um dia para outro — às vezes em poucas horas. Cerca de um quarto dos atritos é palpável.\n",
+         "significado": "É o sinal físico da pericardite. Em torno de metade dos pacientes apresenta três componentes por ciclo — um sistólico e dois diastólicos; um terço apresenta dois; o restante, apenas o componente sistólico ventricular.\n\nO atrito não afasta derrame pericárdico: ele persiste com frequência mesmo depois do acúmulo de líquido e chega a ser ouvido em até um quarto dos pacientes com tamponamento.\n",
+         "causas": [
+          "Pericardite de qualquer etiologia — infecciosa, urêmica, neoplásica, actínica, por doença do tecido conjuntivo",
+          "Infarto agudo do miocárdio (surge em geral entre o 1º e o 3º dia)",
+          "Trauma torácico"
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Rumor venoso e ruído da pericardite constritiva",
+         "texto": "**Rumor venoso.** Ruído contínuo, de tonalidade grave, ouvido na base do pescoço e na porção superior do tórax, com máxima intensidade acima da clavícula direita, na altura da inserção do esternocleidomastóideo. É mais audível sentado e chega a desaparecer deitado; some também com a compressão da jugular direita ou com a rotação do pescoço. Origina-se do turbilhonamento no encontro da jugular interna com o tronco braquiocefálico e não indica doença. Precisa ser distinguido do sopro da persistência do canal arterial, que também é contínuo e se irradia para essa região.\n\n**Ruído da pericardite constritiva.** Origina-se na distensão do pericárdio endurecido. É diastólico, no fim do enchimento ventricular rápido, um pouco mais precoce que B3, com timbre alto e caráter seco. O que o separa do estalido de abertura mitral é a localização: o estalido se ouve em todos os focos, enquanto o ruído da constrição fica restrito à área mitral, ao endoápex e à área tricúspide.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Cinco erros frequentes",
+         "texto": "1. **Auscultar sobre a roupa ou em ambiente ruidoso.** Os sons cardíacos são fracos; camisa, avental e conversa eliminam justamente os achados sutis. A causa mais comum de mau desempenho acústico, aliás, é o escape de ar por olivas mal ajustadas.\n2. **Comprimir a campânula.** A pele esticada vira membrana e a campânula vira diafragma — some exatamente o que se foi procurar: B3, B4 e o ruflar.\n3. **Auscultar só nos cinco focos.** Os focos são pontos de referência. Todo o precórdio, a axila esquerda, o pescoço e o dorso fazem parte do exame; um ruído fora dos limites imprecisos do precórdio continua sendo um ruído a explicar.\n4. **Procurar desdobramento de B2 na ponta.** Ali só existe o componente aórtico, e B2 é sempre única.\n5. **Auscultar em uma só posição.** Sem decúbito lateral esquerdo perde-se B3, B4 e o ruflar da estenose mitral; sem a posição sentada com o tórax inclinado perdem-se sopros da base, atrito pericárdico e as bulhas dos pacientes hipofonéticos.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Quando houver sopro, exclua-o mentalmente e concentre a atenção nas bulhas. Quem se deixa levar pelo som mais chamativo perde a bulha fraca, o desdobramento discreto e o estalido — que muitas vezes valem mais que o próprio sopro."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "ausculta-1",
+           "enunciado": "Qual é a maneira mais confiável de identificar a primeira bulha à beira do leito?",
+           "alternativas": [
+            "Reconhecer que ela é a bulha mais intensa no foco pulmonar",
+            "Palpar simultaneamente o pulso carotídeo ou o ictus, com os quais B1 coincide",
+            "Verificar que ela vem imediatamente após o grande silêncio",
+            "Auscultar apenas com a campânula, que capta seletivamente B1"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "B1 coincide com o ictus cordis e com o pulso carotídeo, além de ser mais grave e um pouco mais longa que B2. Auscultar palpando a carótida é o recurso clássico para situar o ciclo, especialmente quando a frequência é alta."
+          },
+          {
+           "id": "ausculta-2",
+           "enunciado": "Em qual foco se estuda o desdobramento da segunda bulha e por quê?",
+           "alternativas": [
+            "No foco aórtico, porque o componente aórtico é o mais intenso",
+            "No foco mitral, porque ali B2 se separa melhor de B1",
+            "No foco pulmonar, porque é a única área em que os componentes aórtico e pulmonar são ambos audíveis",
+            "No foco tricúspide, porque ali a inspiração tem maior efeito"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "O componente aórtico se ouve em todo o precórdio, mas o pulmonar é audível apenas na área pulmonar e na borda esternal esquerda. No foco aórtico e na ponta B2 é sempre única, por só existir ali o componente aórtico."
+          },
+          {
+           "id": "ausculta-3",
+           "enunciado": "Um paciente apresenta desdobramento de B2 que surge na expiração e desaparece na inspiração profunda. Como se chama esse achado e qual sua causa clássica?",
+           "alternativas": [
+            "Desdobramento invertido ou paradoxal; bloqueio do ramo esquerdo",
+            "Desdobramento fixo; comunicação interatrial",
+            "Desdobramento fisiológico; nenhuma doença associada",
+            "Desdobramento constante e variável; bloqueio do ramo direito"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "No bloqueio do ramo esquerdo o ventrículo direito se contrai antes do esquerdo e o componente aórtico passa a vir depois do pulmonar. Na inspiração a sístole direita se prolonga, os componentes se superpõem e a bulha fica única; na expiração o desdobramento reaparece. A estenose aórtica acentuada produz o mesmo padrão por atraso mecânico."
+          },
+          {
+           "id": "ausculta-4",
+           "enunciado": "Você ausculta um ruído protodiastólico de baixa frequência na ponta, com a campânula apoiada de leve, em um paciente de 68 anos com dispneia. Ao comprimir firmemente a campânula, o ruído desaparece. Qual a interpretação?",
+           "alternativas": [
+            "É um estalido de abertura mitral, ruído agudo abolido pela pressão",
+            "É uma terceira bulha; a pressão firme transforma a campânula em diafragma e elimina os sons de baixa frequência",
+            "É um desdobramento de B2 transmitido para a ponta",
+            "É um clique mesossistólico de prolapso mitral"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Som que some quando se comprime a campânula é som de baixa frequência — a pele esticada passa a funcionar como membrana. É a manobra usada para confirmar B3, que em paciente acima de 40 anos com dispneia sugere disfunção sistólica e pressões de enchimento elevadas."
+          },
+          {
+           "id": "ausculta-5",
+           "enunciado": "Qual conjunto de características distingue o atrito pericárdico de um sopro?",
+           "alternativas": [
+            "Timbre musical, irradiação ampla para a axila e intensidade constante ao longo dos dias",
+            "Localização exclusiva no foco aórtico, aumento na expiração forçada e relação fixa com B2",
+            "Som semelhante a couro novo, ausência de relação fixa com as bulhas, área restrita de audibilidade e mutabilidade em poucas horas",
+            "Presença apenas na diástole, tonalidade grave e desaparecimento com a mudança de posição"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "O atrito é áspero, comparado ao ruído de couro novo friccionado, não mantém relação fixa com as bulhas, praticamente não se irradia e muda de intensidade e qualidade em curto período. Ouve-se melhor com o paciente sentado, inclinado para a frente, em apneia expiratória."
+          },
+          {
+           "id": "ausculta-6",
+           "enunciado": "Que informação distinta B3 e B4 fornecem quando ambas são patológicas?",
+           "alternativas": [
+            "B3 indica ventrículo dilatado com disfunção sistólica e pressões de enchimento elevadas; B4 indica ventrículo rígido, com complacência reduzida",
+            "B3 indica valva mitral estenótica; B4 indica valva aórtica insuficiente",
+            "B3 ocorre apenas em crianças; B4 apenas em idosos",
+            "B3 é sempre de origem direita e B4 sempre de origem esquerda"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "B3 nasce do enchimento rápido de um ventrículo dilatado e acompanha disfunção sistólica e congestão, desaparecendo com o tratamento da congestão. B4 nasce da contração atrial contra um ventrículo pouco complacente — hipertensão, isquemia, hipertrofia, estenose aórtica — e é achado durável, que só se perde na fibrilação atrial."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "aparelho-cardiovascular/exame-cardiaco/sopros-cardiacos",
+       "titulo": "Sopros cardíacos",
+       "sistemaId": "aparelho-cardiovascular",
+       "capituloId": "exame-cardiaco",
+       "ordem": 3,
+       "tags": [
+        "sopro",
+        "sopros cardíacos",
+        "sopro sistólico",
+        "sopro diastólico",
+        "sopro contínuo",
+        "sopro em maquinaria",
+        "sopro de ejeção",
+        "sopro de regurgitação",
+        "sopro holossistólico",
+        "ruflar",
+        "sopro aspirativo",
+        "reforço pré-sistólico",
+        "fluxo laminar",
+        "turbilhonamento",
+        "intensidade do sopro",
+        "Levine",
+        "graduação de sopros",
+        "frêmito",
+        "irradiação",
+        "manobra de Rivero-Carvallo",
+        "sinal de Carvallo",
+        "Valsalva",
+        "handgrip",
+        "prensão palmar",
+        "agachamento",
+        "elevação passiva das pernas",
+        "manobra de Pachón",
+        "sopro inocente",
+        "sopro funcional",
+        "estenose aórtica",
+        "insuficiência aórtica",
+        "estenose mitral",
+        "insuficiência mitral",
+        "insuficiência tricúspide",
+        "cardiomiopatia hipertrófica",
+        "prolapso da valva mitral"
+       ],
+       "referencias": [
+        "Porto — Semiologia Médica, 8ª ed., Parte 10 (Sistema Cardiovascular), Seção 1, cap. 47 (Exame Clínico) — Sopros: mecanismos de formação, características semiológicas, manobras, boxes Sopros orgânicos e sopros funcionais e Sopros inocentes",
+        "Porto — Semiologia Médica, 8ª ed., Parte 10, Seção 1, cap. 49 (Doenças do Coração e da Aorta) — quadros clínicos das valvopatias aórticas e mitrais",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 43 (Heart Murmurs: General Principles), p. 361-378 — graduação de Levine, manobras e razões de verossimilhança",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 44 (Aortic Stenosis), p. 379-384",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 45 (Aortic Regurgitation), p. 385-392",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 46 (Miscellaneous Heart Murmurs), p. 393-404",
+        "Semiologia Clínica, 1ª ed., cap. Semiologia cardiovascular — Avaliação dos sopros cardíacos (graduação em 6 níveis; Tabela 6, manobras dinâmicas; Tabela 7, comparativo dos sopros)"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Sopro é fluxo que deixou de ser laminar",
+         "texto": "Em condições normais o sangue corre como uma corrente laminar, mais rápida no centro, como um rio sem obstáculos no leito. Quando surgem turbilhões, aparecem vibrações — e essas vibrações são os sopros.\n\nOs mecanismos que quebram o fluxo laminar são poucos e costumam se combinar.\n\n- **Aumento da velocidade do sangue** — exercício, febre, anemia, hipertireoidismo.\n- **Diminuição da viscosidade** — a viscosidade amortece a turbulência, e a anemia a reduz.\n- **Passagem por uma zona estreitada** — estenoses valvares, comunicação interventricular, persistência do canal arterial.\n- **Passagem para uma zona dilatada** — aneurismas, rumor venoso.\n- **Passagem sobre uma membrana de borda livre** — cúspides que não coaptam.\n\nA velocidade se soma a qualquer um dos outros, e disso se tira proveito: pedir um exercício ao paciente aumenta a velocidade e pode revelar um sopro que estava inaudível em repouso.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Sete características a descrever",
+         "texto": "Um sopro só está descrito quando o registro responde a sete perguntas.\n\n1. **Situação no ciclo cardíaco** — sistólico, diastólico ou contínuo; e dentro da fase, proto, meso, tele ou holo.\n2. **Localização** — onde ele é mais audível.\n3. **Irradiação** — para onde ele se propaga.\n4. **Intensidade** — graduada de 1 a 6.\n5. **Timbre e tonalidade** — suave, rude, granuloso, musical, aspirativo, em ruflar.\n6. **Configuração** — em crescendo-decrescendo (diamante), em platô, em decrescendo.\n7. **Modificações** — com a respiração, com a posição e com as manobras.\n\nA primeira é a mais importante e a que mais erra quem tem pressa. Palpe o pulso carotídeo enquanto ausculta: o que coincide com a onda carotídea é sistólico; o que vem depois é diastólico.\n"
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <!-- marcadores de B1 e B2 no topo -->\n  <g font-family=\"sans-serif\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"48\" y=\"14\">B1</text>\n    <text x=\"150\" y=\"14\">B2</text>\n    <text x=\"282\" y=\"14\">B1</text>\n  </g>\n  <!-- faixa 1: sistólico de ejeção -->\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"6\" y=\"30\">sistólico de ejeção</text>\n  </g>\n  <g stroke-width=\"1.5\">\n    <path d=\"M 40 46 L 292 46\" stroke-dasharray=\"3 3\" />\n    <path d=\"M 48 32 L 48 46\" stroke-width=\"2\" />\n    <path d=\"M 150 32 L 150 46\" stroke-width=\"2\" />\n    <path d=\"M 282 32 L 282 46\" stroke-width=\"2\" />\n  </g>\n  <path d=\"M 62 46 L 100 33 L 140 46\" stroke-width=\"2\" />\n  <!-- faixa 2: sistólico de regurgitação -->\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"6\" y=\"66\">sistólico de regurgitação</text>\n  </g>\n  <g stroke-width=\"1.5\">\n    <path d=\"M 40 82 L 292 82\" stroke-dasharray=\"3 3\" />\n    <path d=\"M 48 68 L 48 82\" stroke-width=\"2\" />\n    <path d=\"M 150 68 L 150 82\" stroke-width=\"2\" />\n    <path d=\"M 282 68 L 282 82\" stroke-width=\"2\" />\n  </g>\n  <path d=\"M 48 82 L 48 70 L 152 70 L 152 82\" stroke-width=\"2\" />\n  <!-- faixa 3: diastólico aspirativo -->\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"6\" y=\"102\">diastólico aspirativo</text>\n  </g>\n  <g stroke-width=\"1.5\">\n    <path d=\"M 40 118 L 292 118\" stroke-dasharray=\"3 3\" />\n    <path d=\"M 48 104 L 48 118\" stroke-width=\"2\" />\n    <path d=\"M 150 104 L 150 118\" stroke-width=\"2\" />\n    <path d=\"M 282 104 L 282 118\" stroke-width=\"2\" />\n  </g>\n  <path d=\"M 150 105 L 216 118\" stroke-width=\"2\" />\n  <!-- faixa 4: ruflar diastólico com reforço pré-sistólico -->\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"6\" y=\"138\">ruflar com reforço pré-sistólico</text>\n  </g>\n  <g stroke-width=\"1.5\">\n    <path d=\"M 40 154 L 292 154\" stroke-dasharray=\"3 3\" />\n    <path d=\"M 48 140 L 48 154\" stroke-width=\"2\" />\n    <path d=\"M 150 140 L 150 154\" stroke-width=\"2\" />\n    <path d=\"M 282 140 L 282 154\" stroke-width=\"2\" />\n  </g>\n  <path d=\"M 176 148 L 244 148 L 278 141 L 282 154\" stroke-width=\"2\" />\n  <!-- faixa 5: contínuo -->\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"6\" y=\"174\">contínuo (em maquinaria)</text>\n  </g>\n  <g stroke-width=\"1.5\">\n    <path d=\"M 40 190 L 292 190\" stroke-dasharray=\"3 3\" />\n    <path d=\"M 48 176 L 48 190\" stroke-width=\"2\" />\n    <path d=\"M 150 176 L 150 190\" stroke-width=\"2\" />\n    <path d=\"M 282 176 L 282 190\" stroke-width=\"2\" />\n  </g>\n  <path d=\"M 48 190 L 150 177 L 282 188\" stroke-width=\"2\" />\n</svg>\n",
+         "legenda": "Cada tipo de sopro ocupa um lugar próprio entre as bulhas — e é esse lugar, mais que a intensidade, que aponta o mecanismo."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como caracterizar um sopro"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Caracterização de um sopro à beira do leito",
+         "passos": [
+          "Situe o sopro no ciclo palpando o pulso carotídeo enquanto ausculta com a outra mão.",
+          "Determine se ele começa junto com B1 e a recobre (regurgitação) ou se começa um pouco depois dela e termina antes de B2 (ejeção).",
+          "Encontre o ponto de maior intensidade percorrendo o precórdio com o diafragma.",
+          "A partir desse ponto, desloque o receptor em várias direções — pescoço, axila, dorso, epigástrio — para mapear a irradiação.",
+          "Gradue a intensidade de 1 a 6, palpando a área para verificar se há frêmito.",
+          "Descreva o timbre e a configuração: em diamante, em platô ou em decrescendo; rude, suave, aspirativo ou em ruflar.",
+          "Peça respiração regular e observe o comportamento do sopro na inspiração — manobra de Rivero-Carvallo.",
+          "Repita a ausculta em decúbito lateral esquerdo e com o paciente sentado, inclinado para a frente e em apneia expiratória.",
+          "Aplique as manobras que mudam o retorno venoso (Valsalva, agachar e levantar, elevação passiva das pernas) quando o sopro for sistólico e a dúvida incluir cardiomiopatia hipertrófica.",
+          "Aplique a prensão palmar sustentada quando a dúvida for entre lesão de ejeção aórtica e lesão regurgitante esquerda."
+         ],
+         "observar": "Antes de interpretar qualquer manobra respiratória, confira se o paciente está respirando de forma regular. Respiração irregular ou apneia involuntária tornam o teste ininterpretável. Um recurso simples é mover o braço lentamente para cima e para baixo pedindo que ele inspire quando o braço sobe e expire quando desce.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Descrição completa de um sopro",
+         "itens": [
+          "Fase do ciclo determinada com a palpação simultânea do pulso carotídeo.",
+          "Momento dentro da fase: proto, meso, tele ou holo.",
+          "Mecanismo provável: ejeção (começa após B1, termina antes de B2) ou regurgitação (recobre B1 e ocupa toda a sístole).",
+          "Ponto de maior intensidade identificado no precórdio.",
+          "Irradiação pesquisada para pescoço, axila, dorso e epigástrio.",
+          "Intensidade graduada de 1 a 6, com pesquisa de frêmito.",
+          "Timbre, tonalidade e configuração descritos.",
+          "Comportamento na inspiração profunda (Rivero-Carvallo) registrado.",
+          "Ausculta repetida em decúbito lateral esquerdo e sentado inclinado para a frente.",
+          "Manobras dinâmicas aplicadas conforme a hipótese e a resposta anotada."
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Classificação"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Sistólicos - ejeção × regurgitação",
+         "texto": "**Sopro sistólico de ejeção.** Começa alguns centésimos de segundo depois de B1 — o intervalo da contração isovolumétrica, em que as sigmoides ainda estão fechadas. Quando a pressão intraventricular ultrapassa a da aorta ou da pulmonar, o sangue sai: devagar no início, no máximo na mesossístole, caindo na telessístole. Daí a configuração **em crescendo-decrescendo**, o desenho em diamante. Termina **antes de B2**, porque no fim da sístole as pressões praticamente se igualam. É o sopro das estenoses aórtica e pulmonar.\n\n**Sopro sistólico de regurgitação.** Existe gradiente desde o início da contração isovolumétrica, quando a pressão ventricular já supera a atrial. O sopro começa **com B1**, recobrindo-a e mascarando-a, ocupa toda a sístole com intensidade mais ou menos igual — configuração **em platô** — e termina imediatamente antes de B2 ou a recobre. É o sopro das insuficiências mitral e tricúspide e da comunicação interventricular.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Diastólicos e contínuos",
+         "texto": "**Diastólicos das estenoses atrioventriculares.** Ocupam a parte média da diástole, no enchimento rápido, e podem ganhar um reforço pré-sistólico dado pela contração atrial. Há um intervalo nítido entre B2 e o início do sopro, porque nesse momento as pressões atrial e ventricular são quase iguais. São de baixa frequência e tonalidade grave — o **ruflar**, mais bem ouvido com a campânula.\n\n**Diastólicos das insuficiências sigmoides.** Começam imediatamente após B2, quando já existe gradiente entre o vaso da base e o ventrículo. São de alta frequência, em decrescendo e tonalidade aguda — o caráter **aspirativo**. Podem ficar restritos à protodiástole ou ocupar também meso e telediástole.\n\n**Contínuos ou sistodiastólicos.** Ouvem-se durante toda a sístole e toda a diástole, sem interrupção, recobrindo B1 e B2. A parte sistólica é mais intensa e mais rude, o que rendeu o nome de sopro **em maquinaria**. Aparecem na persistência do canal arterial, nas fístulas arteriovenosas, nas anomalias dos septos aortopulmonares e no rumor venoso. Cuidado para não chamar de contínuo um sopro que apenas tem componentes sistólico e diastólico separados.\n"
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Duas regurgitações que não são a mesma coisa",
+         "texto": "A palavra \"regurgitação\" aparece nos dois lados do ciclo e confunde.\n\nNo **sopro sistólico de regurgitação** o sangue volta do ventrículo para o átrio — insuficiência mitral ou tricúspide.\n\nNos **sopros diastólicos** das valvas sigmoides o sangue volta do vaso da base para o ventrículo — insuficiência aórtica ou pulmonar.\n\nSão situações hemodinâmicas completamente diferentes. Para os sopros diastólicos, é preferível falar em **refluxo** de sangue, reservando \"regurgitação\" para o sopro sistólico.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Intensidade dos sopros — graduação de Levine (1 a 6)",
+         "colunas": [
+          "Grau",
+          "Descrição"
+         ],
+         "linhas": [
+          [
+           "1/6",
+           "Muito fraco; só é ouvido com esforço deliberado e em ambiente silencioso"
+          ],
+          [
+           "2/6",
+           "Fraco, porém reconhecido logo que o receptor é apoiado no tórax"
+          ],
+          [
+           "3/6",
+           "Alto, sem frêmito"
+          ],
+          [
+           "4/6",
+           "Alto, com frêmito palpável; exige contato completo do receptor com a pele"
+          ],
+          [
+           "5/6",
+           "Muito alto; ainda audível com apenas a borda do receptor tocando a pele"
+          ],
+          [
+           "6/6",
+           "Audível mesmo com o receptor afastado da parede torácica"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Sobre a graduação e as cruzes",
+         "texto": "A escala de 1 a 6 nasceu do trabalho de Freeman e Levine, depois modificado por Constant e Lippschutz, e é conhecida como sistema de graduação de Levine. Foi concebida para sopros sistólicos, mas na prática é aplicada a todos.\n\nA fronteira que importa está entre 3 e 4: **graus 1 a 3 não têm frêmito; graus 4 a 6 têm**. Isso torna a graduação parcialmente objetiva, apesar de toda a subjetividade da avaliação auditiva.\n\nParte da literatura brasileira ainda usa o sistema de cruzes, de + a ++++, com o mesmo espírito: + para sopros débeis, ++ para moderados, +++ para intensos e ++++ para os audíveis mesmo com o receptor afastado da parede. Ao registrar, deixe claro qual escala está usando — \"3/6\" e \"+++\" não são intercambiáveis.\n\nIntensidade não é gravidade. Comunicações interventriculares pequenas produzem fluxo veloz e sopro intenso; as amplas, fluxo lento e sopro discreto. Existem defeitos valvares graves com sopros fracos, e o contrário também.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Irradiação — a direção da corrente",
+         "texto": "Dois fatores determinam para onde um sopro se propaga. O primeiro é a intensidade — quanto mais forte, maior a área audível. O segundo, mais interessante, é a direção do fluxo sanguíneo.\n\n- O sopro da **estenose aórtica** segue o sangue ejetado e alcança os vasos do pescoço.\n- O sopro da **insuficiência mitral** vai para a axila, porque o átrio esquerdo fica acima e atrás do ventrículo esquerdo.\n- O sopro da **persistência do canal arterial** é mais bem ouvido na região interescapulovertebral esquerda.\n\nPor isso a localização isolada não basta: um sopro mais audível na área mitral não nasceu necessariamente na valva mitral. É a irradiação que aponta a origem.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Manobras dinâmicas"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "O que cada manobra faz e o que ela responde",
+         "colunas": [
+          "Manobra",
+          "Como fazer",
+          "Efeito hemodinâmico",
+          "Interpretação"
+         ],
+         "linhas": [
+          [
+           "Rivero-Carvallo (inspiração)",
+           "Receptor na área tricúspide; pedir inspiração profunda com respiração regular",
+           "Aumenta o retorno venoso ao coração direito",
+           "Sopro que aumenta é de origem direita (tricúspide ou pulmonar); se não muda ou diminui, é propagação de um sopro esquerdo"
+          ],
+          [
+           "Expiração forçada",
+           "Pedir que o paciente esvazie o peito e mantenha a apneia",
+           "Favorece o enchimento das câmaras esquerdas",
+           "Torna mais audíveis os sopros das lesões aórticas"
+          ],
+          [
+           "Valsalva",
+           "Expirar contra a glote fechada por cerca de 20 segundos; avaliar no fim do esforço",
+           "Reduz o retorno venoso",
+           "Sopro que aumenta sugere cardiomiopatia hipertrófica"
+          ],
+          [
+           "Agachar e levantar",
+           "Agachar por pelo menos 30 segundos e levantar rapidamente; avaliar logo após levantar",
+           "Reduz o retorno venoso",
+           "Aumento sugere cardiomiopatia hipertrófica; também pode aumentar o sopro do prolapso mitral"
+          ],
+          [
+           "Levantar e agachar",
+           "Agachar rapidamente a partir de pé, respirando normalmente",
+           "Aumenta o retorno venoso",
+           "Sopro que diminui sugere cardiomiopatia hipertrófica"
+          ],
+          [
+           "Elevação passiva das pernas",
+           "Elevar as pernas a 45° com o paciente deitado; avaliar 15 a 20 segundos depois",
+           "Aumenta o retorno venoso",
+           "Sopro que diminui sugere cardiomiopatia hipertrófica; é a manobra praticável no paciente frágil"
+          ],
+          [
+           "Prensão palmar sustentada (handgrip)",
+           "Apertar com força os dedos do examinador por um minuto",
+           "Aumenta a pós-carga",
+           "Sopro que aumenta sugere insuficiência mitral ou comunicação interventricular; sopro que diminui sugere cardiomiopatia hipertrófica"
+          ],
+          [
+           "Decúbito lateral esquerdo (Pachón)",
+           "Deitar sobre o lado esquerdo com a mão esquerda na cabeça",
+           "Aproxima a ponta da parede torácica",
+           "Acentua o ruflar da estenose mitral e as bulhas diastólicas da ponta"
+          ],
+          [
+           "Exercício físico",
+           "Sentar e deitar repetidamente ou exercício equivalente",
+           "Aumenta a velocidade do fluxo e o tônus adrenérgico",
+           "Intensifica sopros discretos, em especial o ruflar da estenose mitral"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O peso das manobras",
+         "texto": "As manobras não são simetricamente úteis. Vale conhecer o poder de cada uma.\n\n**Respiração.** Sopro que aumenta na inspiração é forte argumento a favor de origem direita; sopro que fica mais suave argumenta contra. É a manobra descrita por Rivero-Carvallo em 1946, por isso também chamada sinal de Carvallo.\n\n**Retorno venoso.** Todas as quatro manobras identificam bem a cardiomiopatia hipertrófica, cujo sopro se comporta ao contrário da maioria: aumenta quando o retorno diminui e diminui quando o retorno aumenta. A explicação é mecânica — a obstrução fica abaixo da valva aórtica, entre o folheto anterior da mitral e o septo hipertrofiado; menos volume aproxima as duas estruturas e agrava a obstrução. O aumento com o esforço de Valsalva é o achado que mais eleva a probabilidade; a ausência da resposta característica nas outras três manobras é o que mais a reduz.\n\n**Pós-carga.** Aumentar a resistência periférica faz o sangue preferir o caminho regurgitante: os sopros da insuficiência mitral e da comunicação interventricular ficam mais intensos com a prensão palmar sustentada. Antes de recorrer à pós-carga, porém, já se deve ter afastado sopro direito com a respiração e cardiomiopatia hipertrófica com as manobras de retorno venoso.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Sopro inocente"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Uma conclusão, não um tipo de sopro",
+         "texto": "\"Inocente\" não descreve um som — descreve um julgamento. Só se rotula assim o sopro de um paciente já adequadamente examinado, com a investigação complementar indicada concluída, no qual se pôde afirmar que não há alteração estrutural do coração.\n\nAs características que autorizam essa suspeita são consistentes: sopros **sistólicos**, de **baixa intensidade** (1 a 2 em 6), suaves, **sem irradiação**, mais audíveis na borda esternal esquerda e na região mesocardíaca, com nítida variação conforme a posição — diminuem quando o paciente fica de pé, senta ou faz o esforço de Valsalva. Não vêm acompanhados de alterações das bulhas nem de frêmito, e não há sinais de aumento das câmaras. Nunca são holossistólicos.\n\nSopros sistólicos são comuns: aparecem em 5 a 52% dos adultos jovens e em 29 a 60% das pessoas mais velhas. Mais de 90% dos adultos jovens e mais da metade dos idosos com sopro sistólico têm ecocardiograma normal. O achado de um sopro com todas as características funcionais aumenta a probabilidade de o ecocardiograma ser normal.\n\nAntes de fechar o rótulo, descarte febre e anemia, as duas causas mais frequentes desses sopros em crianças.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Ao explicar um sopro inocente aos pais de uma criança, não omita o achado — outro médico o encontrará depois, e o silêncio inicial vira desconfiança. Explique de forma clara e simples, sem criar ansiedade que acabe em restrições injustificadas ao esporte e à atividade física."
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Orgânico × funcional — uma divisão que envelheceu mal",
+         "texto": "A distinção clássica dizia que sopros orgânicos decorrem de alterações estruturais e funcionais apenas do aumento de velocidade ou da queda de viscosidade. A clareza é aparente.\n\nO problema é que velocidade e viscosidade também intensificam sopros originados em lesões anatômicas. Só se pode afirmar com segurança que um sopro é orgânico quando ele é intenso (+++ a ++++), de alta frequência, com ampla irradiação e acompanhado de frêmito. Mas lesões estruturais graves produzem, com frequência, sopros fracos, sem irradiação e sem frêmito — que não poderiam ser chamados de orgânicos e seriam classificados como funcionais por engano.\n\nUma classificação que só funciona nos extremos tem pouco valor prático. O conceito que sobreviveu foi o de sopro inocente, porque ele obriga a uma conclusão diagnóstica, e não a uma rotulação acústica.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Correlação com as quatro valvopatias principais"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Estenose aórtica, insuficiência aórtica, estenose mitral e insuficiência mitral",
+         "colunas": [
+          "Lesão",
+          "Sopro",
+          "Local e irradiação",
+          "Achados que acompanham"
+         ],
+         "linhas": [
+          [
+           "Estenose aórtica",
+           "Sistólico de ejeção, em crescendo-decrescendo, rude e granuloso",
+           "Foco aórtico e aórtico acessório, irradiando para os vasos do pescoço; em muitos pacientes é mais intenso na ponta",
+           "Pulso de pequena amplitude e ascensão lenta (parvus et tardus, anacrótico); componente aórtico de B2 diminuído; ictus propulsivo pouco deslocado; B4; frêmito sistólico"
+          ],
+          [
+           "Insuficiência aórtica",
+           "Diastólico aspirativo, de alta frequência, em decrescendo",
+           "Foco aórtico acessório, irradiando para a ponta; melhor com o paciente sentado, inclinado para a frente, em apneia expiratória, com o diafragma",
+           "Pulso célere em martelo d'água; pressão diferencial alargada; ictus deslocado, amplo e propulsivo; pulsações visíveis na fúrcula e nas carótidas"
+          ],
+          [
+           "Estenose mitral",
+           "Ruflar diastólico, de baixa frequência, com reforço pré-sistólico",
+           "Foco mitral, com pouca irradiação; melhor em decúbito lateral esquerdo, com a campânula",
+           "B1 hiperfonética de timbre metálico; estalido de abertura mitral; ictus normal ou reduzido; fibrilação atrial é complicação frequente"
+          ],
+          [
+           "Insuficiência mitral",
+           "Sistólico de regurgitação, holossistólico, em platô, suave",
+           "Foco mitral, irradiando para a axila e o dorso",
+           "B1 mascarada pelo sopro; B3; aumenta com a prensão palmar sustentada; ictus deslocado quando há dilatação ventricular"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Sinais que graduam, não apenas identificam",
+         "texto": "Reconhecer o sopro é o primeiro passo; estimar a gravidade é o segundo, e nem sempre é a intensidade que ajuda.\n\n**Estenose aórtica.** O sopro característico irradia amplamente, do ápice até a clavícula direita; sua ausência é argumento forte contra o diagnóstico. Quatro achados clássicos aumentam a probabilidade de que a lesão seja de moderada a grave, e não um simples sopro de hiperfluxo aórtico: ascensão carotídea retardada, B2 de menor intensidade, ictus sustentado e sopro de pico tardio. Ainda assim, separar estenose moderada de grave só pelo exame físico é difícil.\n\n**Insuficiência aórtica.** A presença do sopro característico aumenta muito a probabilidade da lesão, e sua ausência é argumento forte contra regurgitação de grau moderado a grave. Entre os pacientes que têm o sopro, a pressão arterial ajuda a graduar: pressão diastólica ≤ 50 mmHg e pressão diferencial ≥ 80 mmHg aumentam a probabilidade de regurgitação moderada a grave; diastólica > 70 mmHg e diferencial < 60 mmHg a reduzem. Na forma aguda — endocardite, dissecção — o sopro é mais curto e vem com taquicardia, hipotensão e pressão diferencial estreita, sem o pulso amplo da forma crônica.\n\n**Estenose mitral.** O ictus deveria ser normal ou reduzido, porque o enchimento ventricular esquerdo está prejudicado. Um ictus hipercinético denuncia lesão associada. O estalido de abertura mitral é o sinal mais indicativo da estenose, mas depende de a valva ainda ter flexibilidade.\n\n**Insuficiência mitral.** O sopro característico aumenta a probabilidade da lesão, embora com peso menor que o dos sopros de tricúspide e do defeito septal ventricular, porque pode ser confundido com outros sopros sistólicos. A resposta às manobras é o que resolve: aumento com a prensão palmar sustentada aponta para insuficiência mitral ou comunicação interventricular.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Cinco erros que mudam o diagnóstico",
+         "texto": "1. **Deduzir gravidade da intensidade.** Sopros intensos podem vir de defeitos pequenos e sopros discretos de lesões graves. A intensidade orienta, não decide.\n2. **Batizar o sopro pelo foco em que ele é mais alto.** O foco é referência, não origem. Muitos pacientes com estenose aórtica têm o sopro mais intenso na ponta. Quem define a origem é a irradiação e o comportamento nas manobras.\n3. **Interpretar manobra respiratória com paciente respirando mal.** Sem respiração regular, Rivero-Carvallo não significa nada.\n4. **Chamar de contínuo um sopro sistólico somado a um diastólico.** No sopro verdadeiramente contínuo a cadência não é interrompida pelas bulhas; nos sopros \"de vai e vem\" ouvem-se dois sopros distintos.\n5. **Rotular como inocente antes de completar a investigação.** \"Inocente\" é uma conclusão que vem depois do exame completo e dos complementares indicados — nunca uma primeira impressão acústica.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "sopros-1",
+           "enunciado": "Qual característica distingue, à ausculta, o sopro sistólico de ejeção do sopro sistólico de regurgitação?",
+           "alternativas": [
+            "O sopro de ejeção começa depois de B1 e termina antes de B2, com configuração em diamante; o de regurgitação recobre B1 e ocupa toda a sístole em platô",
+            "O sopro de ejeção é sempre mais intenso que o de regurgitação",
+            "O sopro de ejeção é de baixa frequência e o de regurgitação, de alta frequência",
+            "O sopro de ejeção aumenta na inspiração e o de regurgitação, na expiração"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "O sopro de ejeção só surge depois da contração isovolumétrica, cresce até a mesossístole e decresce antes de B2 — desenho em diamante. O de regurgitação existe desde o início da sístole, recobre B1, ocupa a sístole inteira com intensidade constante e termina junto de B2 ou a recobre."
+          },
+          {
+           "id": "sopros-2",
+           "enunciado": "Na graduação de Levine, qual é a fronteira objetiva entre os graus?",
+           "alternativas": [
+            "Entre 2 e 3, marcada pela presença de irradiação",
+            "Entre 3 e 4, marcada pela presença de frêmito palpável",
+            "Entre 4 e 5, marcada pela audibilidade com o receptor afastado do tórax",
+            "Entre 1 e 2, marcada pela necessidade de ambiente silencioso"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Sopros de graus 1 a 3 não têm frêmito; de 4 a 6, têm. O grau 5 ainda é audível com apenas a borda do receptor tocando a pele e o grau 6 é audível com o receptor afastado da parede torácica."
+          },
+          {
+           "id": "sopros-3",
+           "enunciado": "Você ausculta um sopro sistólico na área tricúspide e pede ao paciente uma inspiração profunda. O sopro aumenta nitidamente de intensidade. O que se conclui?",
+           "alternativas": [
+            "Que o sopro se origina no aparelho valvar tricúspide — manobra de Rivero-Carvallo positiva",
+            "Que o sopro é apenas a propagação de um sopro mitral",
+            "Que se trata de cardiomiopatia hipertrófica",
+            "Que o sopro é inocente, por variar com a respiração"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "A inspiração aumenta a negatividade intratorácica e o afluxo de sangue ao coração direito; se há refluxo tricúspide, o volume regurgitado aumenta e o sopro se intensifica. Se o sopro não muda ou diminui, ele é propagação de um sopro originado à esquerda."
+          },
+          {
+           "id": "sopros-4",
+           "enunciado": "Um sopro sistólico que aumenta durante o esforço de Valsalva e diminui com a elevação passiva das pernas sugere qual diagnóstico?",
+           "alternativas": [
+            "Insuficiência mitral",
+            "Estenose aórtica calcificada",
+            "Cardiomiopatia hipertrófica",
+            "Insuficiência tricúspide"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "A cardiomiopatia hipertrófica se comporta ao contrário da maioria dos sopros sistólicos: menos retorno venoso aproxima o folheto anterior da mitral do septo hipertrofiado e agrava a obstrução subaórtica, aumentando o sopro; mais retorno venoso afasta as estruturas e o alivia."
+          },
+          {
+           "id": "sopros-5",
+           "enunciado": "Quais características, em conjunto, caracterizam um sopro inocente?",
+           "alternativas": [
+            "Holossistólico, intenso, com frêmito e irradiação para a axila",
+            "Diastólico, aspirativo, mais audível com o paciente sentado inclinado para a frente",
+            "Sistólico, de baixa intensidade, suave, sem irradiação, mais audível na borda esternal esquerda e mesocárdio, variando com a posição, sem frêmito e sem alteração das bulhas",
+            "Contínuo, em maquinaria, mais audível na região interescapulovertebral esquerda"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "O sopro inocente nunca é holossistólico nem diastólico. É sistólico, de grau 1 a 2 em 6, suave, sem irradiação, localizado na borda esternal esquerda e no mesocárdio, com variação nítida conforme a posição, sem frêmito, sem alteração das bulhas e sem sinais de aumento de câmaras. E é uma conclusão diagnóstica, tomada após o exame completo."
+          },
+          {
+           "id": "sopros-6",
+           "enunciado": "Por que a irradiação de um sopro tem mais valor para localizar sua origem do que o foco em que ele é mais audível?",
+           "alternativas": [
+            "Porque a irradiação segue a direção da corrente sanguínea, enquanto o ponto de maior intensidade pode não corresponder à valva de origem",
+            "Porque a irradiação independe da intensidade do sopro",
+            "Porque os focos de ausculta correspondem exatamente à projeção anatômica das valvas",
+            "Porque a irradiação é o único parâmetro que não sofre influência subjetiva"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "Um sopro mais audível na área mitral não nasceu obrigatoriamente na valva mitral. A direção da corrente sanguínea define irradiações características — para os vasos do pescoço na estenose aórtica, para a axila na insuficiência mitral —, e é isso que aponta a origem."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "aparelho-cardiovascular/exame-cardiaco/pulso-venoso-jugular-e-turgencia",
+       "titulo": "Pulso venoso jugular e turgência",
+       "sistemaId": "aparelho-cardiovascular",
+       "capituloId": "exame-cardiaco",
+       "ordem": 4,
+       "tags": [
+        "pulso venoso",
+        "pulso venoso jugular",
+        "jugulares",
+        "veia jugular interna",
+        "veia jugular externa",
+        "turgência jugular",
+        "ingurgitamento jugular",
+        "estase jugular",
+        "pressão venosa central",
+        "PVC",
+        "método de Lewis",
+        "ângulo de Louis",
+        "ângulo esternal",
+        "45 graus",
+        "flebograma",
+        "onda a",
+        "onda c",
+        "onda v",
+        "deflexão x",
+        "deflexão y",
+        "onda a gigante",
+        "onda a em canhão",
+        "refluxo hepatojugular",
+        "teste abdominojugular",
+        "sinal de Kussmaul",
+        "pericardite constritiva",
+        "tamponamento cardíaco",
+        "insuficiência ventricular direita",
+        "insuficiência tricúspide",
+        "edema",
+        "cacifo",
+        "sinal de Godet",
+        "fóvea",
+        "edema cardíaco",
+        "edema vespertino",
+        "anasarca",
+        "perfusão periférica",
+        "enchimento capilar"
+       ],
+       "referencias": [
+        "Porto — Semiologia Médica, 8ª ed., Parte 10 (Sistema Cardiovascular), Seção 1, cap. 47 (Exame Clínico) — Ingurgitamento e pulsações das veias jugulares; Pulso venoso normal e flebograma; Alterações do pulso venoso",
+        "Porto — Semiologia Médica, 8ª ed., Parte 3 (Exame Físico Geral), cap. 8 — Edema: intensidade, consistência, elasticidade, temperatura e sensibilidade; edema cardíaco",
+        "Porto — Exame Clínico, 8ª ed., cap. 13 (Exame dos Pulsos Radial, Periféricos e Venoso) — Pulso venoso, turgência ou ingurgitamento jugular; boxe Pulso venoso e pulsações carotídeas",
+        "Porto — Semiologia Médica, 8ª ed., Parte 14 (Sistema Digestivo), cap. 91 (Exame Clínico) — pesquisa do refluxo hepatojugular durante a palpação hepática",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 36 (Inspection of the Neck Veins), p. 301-314",
+        "Semiologia Clínica, 1ª ed., cap. Semiologia cardiovascular — Avaliação do pulso venoso, estase jugular, método de Lewis, refluxo hepatojugular e sinal de Kussmaul (Tabelas 2 e 3)",
+        "Semiologia Clínica, 1ª ed., cap. Insuficiência arterial periférica — limitações do tempo de enchimento capilar, da temperatura e da perda de pelos como achados isolados"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Uma janela para o coração direito",
+         "texto": "Não há válvula entre o átrio direito, a veia cava superior e a jugular interna direita. Essa continuidade transforma o pescoço em um manômetro: a pressão de enchimento do átrio direito se transmite à coluna de sangue jugular, e o que se vê no pescoço é a pressão venosa central.\n\nA jugular interna direita é a melhor via porque tem trajeto retificado e caminho direto para o coração. As veias do lado esquerdo alcançam o coração atravessando o mediastino, onde a aorta pode comprimi-las — e por isso a jugular esquerda pode estar ingurgitada com pressão venosa central normal.\n\nDuas coisas diferentes se avaliam no mesmo lugar.\n\n- **Turgência (ou ingurgitamento) jugular** — a altura da coluna, isto é, *quanto* a pressão está.\n- **Pulso venoso** — o formato da onda, isto é, *como* o coração direito está trabalhando.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Veia ou carótida",
+         "texto": "Confundir pulsação venosa com pulsação carotídea inutiliza tudo o que vem depois. Cinco diferenças resolvem.\n\n1. **Formato.** O pulso venoso é ondulante, com várias ondas e depressões por ciclo; o movimento mais marcante é para dentro, o descenso. O pulso carotídeo tem uma onda única, e o movimento marcante é para fora.\n2. **Palpável ou visível.** O pulso venoso é mais visível que palpável — é uma onda de volume, com pressão baixa. O carotídeo é nitidamente palpável.\n3. **Posição.** O pulso venoso fica mais evidente na horizontal e desce no pescoço à medida que o paciente se senta. O carotídeo não muda com a posição.\n4. **Respiração.** O pulso venoso varia com a respiração; o carotídeo, não.\n5. **Compressão.** Uma compressão leve na base do pescoço, logo acima da extremidade esternal da clavícula, apaga o pulso venoso. Não há como suprimir o carotídeo assim.\n"
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <!-- linha de base do traçado -->\n  <path d=\"M 24 116 L 306 116\" stroke-width=\"1.5\" stroke-dasharray=\"4 4\" />\n  <!-- traçado do pulso venoso: ondas a, c, v e deflexões x e y -->\n  <path d=\"M 24 108 L 55 66 L 72 100 L 88 82 L 132 126 L 150 74 L 180 124 L 205 114 L 227 66 L 244 100 L 260 82 L 302 126\" stroke-width=\"2\" />\n  <!-- guias verticais das bulhas -->\n  <g stroke-width=\"1.5\" stroke-dasharray=\"3 4\">\n    <path d=\"M 78 92 L 78 156\" />\n    <path d=\"M 140 100 L 140 156\" />\n    <path d=\"M 250 92 L 250 156\" />\n  </g>\n  <!-- régua das bulhas cardíacas -->\n  <path d=\"M 24 168 L 306 168\" stroke-width=\"1.5\" />\n  <g stroke-width=\"2\">\n    <path d=\"M 78 158 L 78 178\" />\n    <path d=\"M 140 158 L 140 178\" />\n    <path d=\"M 250 158 L 250 178\" />\n  </g>\n  <!-- rótulos das ondas -->\n  <g font-family=\"sans-serif\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"55\" y=\"58\">a</text>\n    <text x=\"94\" y=\"74\">c</text>\n    <text x=\"152\" y=\"66\">v</text>\n    <text x=\"227\" y=\"58\">a</text>\n    <text x=\"126\" y=\"142\">x</text>\n    <text x=\"180\" y=\"142\">y</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"78\" y=\"192\">B1</text>\n    <text x=\"140\" y=\"192\">B2</text>\n    <text x=\"250\" y=\"192\">B1</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"24\" y=\"20\">pulso venoso jugular</text>\n  </g>\n</svg>\n",
+         "legenda": "Três ondas positivas (a, c, v) e duas deflexões (x e y). O descenso x termina pouco antes de B2; o descenso y começa logo depois dela."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como examinar"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Exame do pulso venoso e da turgência jugular",
+         "passos": [
+          "Deite o paciente e ajuste a cabeceira até que o topo da coluna venosa fique visível — quase horizontal quando a pressão é normal, em torno de 45° quando há hipertensão venosa.",
+          "Use dois travesseiros ou a manivela da cama; o objetivo é a coluna visível, não um ângulo fixo.",
+          "Examine o lado direito do pescoço, com a cabeça do paciente ligeiramente voltada para a esquerda.",
+          "Ilumine o pescoço de forma tangencial, para que as ondulações produzam sombra.",
+          "Identifique o topo da coluna: o ponto acima do qual a jugular externa deixa de ser visível, ou acima do qual as ondulações da jugular interna desaparecem.",
+          "Confirme que a pulsação é venosa — ondulante, mais visível que palpável, variável com a posição e com a respiração, abolida pela compressão leve na base do pescoço.",
+          "Meça a distância vertical entre o topo da coluna e o ângulo esternal (ângulo de Louis).",
+          "Procure as pulsações na parte mais baixa do pescoço, às vezes mais nítidas entre as duas inserções do esternocleidomastóideo.",
+          "Cronometre os descensos auscultando o coração ou palpando a carótida do lado oposto.",
+          "Pesquise o refluxo hepatojugular comprimindo firme e continuamente o abdome por cerca de 10 segundos, enquanto observa o pescoço.",
+          "Peça respirações tranquilas e observe se a coluna sobe na inspiração — sinal de Kussmaul."
+         ],
+         "observar": "A leitura é mais fiel na expiração. Na inspiração a coluna desce no pescoço e o examinador tende a subestimar a pressão. Não force o paciente a um ângulo padronizado só porque \"o exame é a 45°\": a posição correta é aquela em que o topo da coluna aparece.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Pescoço e sinais de congestão em 10 passos",
+         "itens": [
+          "Cabeceira ajustada até tornar visível o topo da coluna venosa.",
+          "Lado direito do pescoço examinado, cabeça levemente voltada para a esquerda, com luz tangencial.",
+          "Pulsação identificada como venosa pelos critérios que a separam da carotídea.",
+          "Topo da coluna localizado e distância vertical até o ângulo esternal estimada.",
+          "Turgência classificada como presente ou ausente na posição semissentada.",
+          "Descensos cronometrados com a ausculta das bulhas ou com o pulso carotídeo.",
+          "Refluxo hepatojugular pesquisado com compressão abdominal sustentada por 10 segundos.",
+          "Sinal de Kussmaul pesquisado durante respiração tranquila.",
+          "Edema pesquisado em membros inferiores, face e região pré-sacra, com intensidade, consistência, elasticidade, temperatura e sensibilidade descritas.",
+          "Perfusão periférica avaliada de forma comparativa entre os lados: temperatura, coloração e retorno da cor após compressão."
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Turgência jugular",
+         "texto": "Em condições normais as jugulares só ficam túrgidas com o paciente deitado. Na posição semissentada, e mais ainda sentado ou de pé, elas colabam e resta visível apenas o pulso venoso na raiz do pescoço.\n\nSe as jugulares **permanecem túrgidas na posição semissentada — cerca de 45° entre o dorso e o leito — ou sentado**, está caracterizada a turgência jugular. O achado traduz hipertensão venosa no território da veia cava superior.\n\nAs causas se organizam em três grupos.\n\n- **Falência do coração direito**, incluindo as causas que a produzem a partir do coração esquerdo ou do pulmão.\n- **Doença do pericárdio** — tamponamento e pericardite constritiva.\n- **Obstrução da veia cava superior**, por compressão extrínseca.\n\nEm quem tem edema ou ascite, a turgência é o dado que separa o coração do fígado: pressão venosa elevada aponta para causa cardíaca ou pulmonar; pressão venosa normal aponta para outra origem — na doença hepática crônica a pressão venosa central é normal, e o edema decorre da hipoalbuminemia e do peso da ascite comprimindo as veias das pernas.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Estimar a pressão pelo método de Lewis",
+         "texto": "A referência externa mais prática é o ângulo esternal, porque qualquer examinador o encontra com segurança. Thomas Lewis observou, em 1930, que o topo da coluna jugular de pessoas normais permanece a 1 ou 2 cm de distância vertical do ângulo esternal, esteja o paciente deitado, semissentado ou de pé.\n\nDo costume derivou o chamado método de Lewis: a pressão venosa central corresponde à distância vertical entre o topo da coluna e um ponto cerca de 5 cm abaixo do ângulo esternal — alguns autores usam 4,5 cm como distância até o átrio direito. Assim, uma coluna 2 cm acima do ângulo esternal corresponde a uma pressão de aproximadamente 7 cmH₂O.\n\nConsidera-se a pressão elevada quando o topo da coluna está mais de 3 cm acima do ângulo esternal, o que equivale a mais de 8 cmH₂O pelo método de Lewis. A estimativa de beira de leito fica dentro de 4 cmH₂O da medida por cateter em cerca de 85% das vezes.\n\nDuas ressalvas úteis.\n\n- **A jugular externa serve.** O ensino tradicional privilegia a interna por causa das válvulas da externa, mas a interna também tem válvulas, e as medidas nas duas são semelhantes. O que a interna oferece de melhor não é a pressão, e sim o formato das ondas.\n- **O examinador tende a subestimar.** A distância vertical entre o ângulo esternal e o átrio direito muda com a posição: é maior no decúbito dorsal e menor na posição semissentada. Como as pressões altas só são visíveis em posições mais verticalizadas, o método pode devolver um valor normal em pacientes com pressão discretamente elevada.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Por que 45° não é uma regra",
+         "texto": "O número 45 virou sinônimo de exame das jugulares, mas o que importa é enxergar o topo da coluna. Se a pressão é normal, ele só aparece com o paciente quase deitado; se a pressão é alta, ele só aparece com o paciente bem sentado.\n\nAjustar a cabeceira até encontrar o topo é o exame. Fixar o ângulo e concluir \"sem turgência\" quando a coluna estava acima da mandíbula, ou \"com turgência\" quando ela ainda estava colabada, é registrar o ângulo em vez do paciente.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "As ondas do pulso venoso"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Componentes do flebograma",
+         "colunas": [
+          "Componente",
+          "Momento",
+          "Origem"
+         ],
+         "linhas": [
+          [
+           "Onda a",
+           "Pré-sístole, precedendo B1",
+           "Contração do átrio direito, que dificulta o escoamento do sangue jugular"
+          ],
+          [
+           "Onda c",
+           "Início da sístole ventricular",
+           "Abaulamento da valva tricúspide fechada em direção ao átrio durante a contração isovolumétrica; parte da tradição a atribui à transmissão do pulso carotídeo contíguo"
+          ],
+          [
+           "Deflexão x (colapso sistólico)",
+           "Sístole ventricular, terminando pouco antes de B2",
+           "Relaxamento atrial somado à descida do anel atrioventricular, que se afasta das jugulares enquanto o ventrículo se contrai"
+          ],
+          [
+           "Onda v",
+           "Fim da sístole",
+           "Enchimento do átrio direito com a tricúspide fechada"
+          ],
+          [
+           "Deflexão y (colapso diastólico)",
+           "Início da diástole, logo após B2",
+           "Abertura da tricúspide e esvaziamento do átrio no ventrículo"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que o olho realmente vê",
+         "texto": "O traçado tem três ondas positivas e três negativas, mas à beira do leito reconhecer todas é irreal. A onda c é pequena demais para ser vista, e o que o examinador percebe são **dois descensos por ciclo**: um mais marcante, o x, e outro menor, o y.\n\nCronometrá-los é o que dá sentido ao achado.\n\n- **Pelas bulhas**: o descenso x termina imediatamente antes de B2, como uma ladeira que desce e vai dar em B2; o descenso y começa logo depois de B2.\n- **Pela carótida**: o descenso x é sistólico e coincide com o toque da carótida; o descenso y vem depois, com atraso semelhante ao intervalo entre B1 e B2 daquele paciente.\n\nO padrão normal tem x proeminente e y pequeno ou ausente, sem qualquer movimento brusco para fora. Uma simplificação prática é procurar a sequência **onda a — colapso — onda v — colapso**, que dá ao pescoço o aspecto de uma onda positiva diastólica e uma onda negativa sistólica. Por isso o pulso venoso normal é chamado de negativo, sendo o colapso sistólico o acidente mais notável.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Alterações do pulso venoso",
+         "colunas": [
+          "Achado",
+          "Significado"
+         ],
+         "linhas": [
+          [
+           "Onda a gigante (movimento brusco pré-sistólico, antes de B1)",
+           "Contração atrial vigorosa contra obstrução ao esvaziamento — estenose tricúspide, atresia tricúspide, estenose pulmonar, hipertensão pulmonar grave, bloqueio atrioventricular total. Exige ritmo sinusal"
+          ],
+          [
+           "Onda a em canhão intermitente, com pulso arterial regular",
+           "Dissociação atrioventricular — o átrio se contrai com a tricúspide fechada e joga sangue para o pescoço"
+          ],
+          [
+           "Ausência da onda a e do descenso x",
+           "Fibrilação atrial; sem contração atrial não há onda a, e o desaparecimento do descenso x mostra que ele nasce do relaxamento atrial"
+          ],
+          [
+           "Onda sistólica proeminente (onda cv), coincidente com a carótida",
+           "Insuficiência tricúspide de grau moderado a grave"
+          ],
+          [
+           "Descenso y profundo (colapso diastólico abrupto)",
+           "Pressão venosa muito elevada com enchimento diastólico rápido — pericardite constritiva; também no derrame pericárdico com pressão muito alta"
+          ],
+          [
+           "Descenso y ausente com pressão venosa elevada",
+           "Restrição ao enchimento diastólico inicial — tamponamento cardíaco, estenose tricúspide"
+          ]
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Manobras"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Refluxo hepatojugular (teste abdominojugular)",
+         "descricao": "Comprima firme e continuamente o abdome do paciente com a palma da mão por cerca de 10 segundos, observando o pescoço. A compressão desloca sangue do território esplâncnico em direção ao coração.\n\nA resposta normal é a coluna permanecer inalterada ou subir por um ou dois batimentos e voltar. O teste é positivo quando a coluna sobe e **permanece elevada durante todos os 10 segundos**, caindo mais de 3 a 4 cm no momento em que a compressão é liberada.\n",
+         "significado": "Um teste positivo indica pressões de enchimento elevadas do coração esquerdo. Em quem se apresenta com dispneia, isso significa que pelo menos parte do quadro vem do lado esquerdo do coração. O teste negativo reduz essa probabilidade.\n\nO sinal nasceu como refluxo hepatojugular, descrito por Pasteur em 1885 e considerado então patognomônico de insuficiência tricúspide. Descobriu-se depois que pacientes com tricúspide normal também o apresentam, e que a compressão de qualquer região do abdome — não apenas do fígado — o produz. Daí o nome moderno, teste abdominojugular.\n",
+         "causas": [
+          "Insuficiência cardíaca com pressões de enchimento elevadas",
+          "Insuficiência ventricular direita",
+          "Pericardite constritiva"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Sinal de Kussmaul",
+         "descricao": "Elevação paradoxal da coluna venosa jugular durante a inspiração. O normal é o oposto — a queda da pressão intratorácica reduz as pressões no coração direito e a coluna desce.",
+         "significado": "Traduz um ventrículo direito incapaz de acomodar o volume extra que a inspiração lhe traz — seja porque o pericárdio o restringe, seja porque ele já está dilatado dentro de um pericárdio normal. Costuma andar junto com um teste abdominojugular francamente positivo, e há quem o descreva como um teste abdominojugular inspiratório, produzido pela descida do diafragma sobre o abdome.\n\nÉ classicamente associado à pericardite constritiva, mas está presente apenas na minoria desses pacientes. Quando encontrado na insuficiência cardíaca grave, associa-se a pior prognóstico.\n\nNão confundir com os outros dois epônimos de Kussmaul, tratados no tópico de frequência cardíaca e pulso — o pulso paradoxal e a respiração de Kussmaul.\n",
+         "causas": [
+          "Pericardite constritiva",
+          "Cardiomiopatia restritiva",
+          "Estenose tricúspide",
+          "Insuficiência ventricular direita e insuficiência cardíaca grave",
+          "Infarto do ventrículo direito",
+          "Embolia pulmonar",
+          "Obstrução da veia cava superior"
+         ]
+        },
+        {
+         "tipo": "perola",
+         "texto": "Turgência jugular elevada está presente em praticamente todos os casos de tamponamento cardíaco e na quase totalidade das pericardites constritivas. Jugulares normais são, portanto, um argumento forte contra esses dois diagnósticos — e quando elas estão cheias, o passo seguinte é procurar pulso paradoxal e olhar o formato dos descensos."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Edema"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Como descrever um edema",
+         "texto": "Procure edema nos membros inferiores, na face — sobretudo nas regiões subpalpebrais — e na região pré-sacra, obrigatória em quem está acamado, em recém-nascidos e em lactentes.\n\nA técnica é uma só e responde a várias perguntas ao mesmo tempo: com a polpa do polegar ou do indicador, faça uma compressão firme e sustentada contra uma estrutura rígida subjacente — a tíbia, o sacro, os ossos da face. Ao retirar o dedo, a depressão que fica é a fóvea, o cacifo, também conhecida como sinal de Godet.\n\nDescreva seis atributos.\n\n- **Intensidade** — profundidade da fóvea, graduada em cruzes, de + a ++++.\n- **Consistência** — mole, facilmente depressível, indicando retenção hídrica recente; ou duro, com maior resistência, indicando proliferação fibroblástica de edemas antigos ou de repetidos surtos inflamatórios.\n- **Elasticidade** — elástico quando a pele volta imediatamente, típico do edema inflamatório; inelástico quando a depressão persiste.\n- **Temperatura da pele adjacente** — avaliada com o dorso dos dedos, comparando com a vizinhança e com o lado homólogo. Pele quente indica inflamação; pele fria, comprometimento da irrigação.\n- **Sensibilidade** — o edema doloroso indica processo inflamatório.\n- **Outras alterações da pele** — palidez, cianose, vermelhidão; pele lisa e brilhante no edema recente e intenso, espessa nos de longa duração.\n\nDuas medidas complementam o exame e acompanham a evolução: pesar o paciente diariamente e medir o perímetro da região edemaciada, comparando com o lado oposto em dias sucessivos.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Edema cardíaco × outras causas de edema generalizado",
+         "colunas": [
+          "Origem",
+          "Distribuição e horário",
+          "Características"
+         ],
+         "linhas": [
+          [
+           "Cardíaca",
+           "Predomina nos membros inferiores; vespertino, mais intenso à tarde após horas em pé; na região pré-sacra em quem está acamado",
+           "Intensidade variável (+ a ++++), mole, inelástico, indolor; pele lisa e brilhante; acompanha-se de turgência jugular, refluxo hepatojugular e hepatomegalia"
+          ],
+          [
+           "Renal",
+           "Generalizado com predomínio facial, sobretudo subpalpebral; mais evidente pela manhã",
+           "Mole, inelástico, indolor, pele de temperatura normal ou discretamente reduzida; intenso na síndrome nefrótica (+++ a ++++), discreto na síndrome nefrítica e na pielonefrite"
+          ],
+          [
+           "Hepática",
+           "Generalizado com predomínio nos membros inferiores, habitualmente com ascite",
+           "Quase sempre discreto (+ a ++), mole; pressão venosa central normal, o que o separa do edema cardíaco"
+          ],
+          [
+           "Venosa localizada",
+           "Assimétrico, em um membro; piora com a permanência em pé",
+           "No edema varicoso, pouco intenso e progressivamente mais duro, com escurecimento da pele; na trombose venosa, mole e podendo ser intenso, com pele pálida ou cianótica"
+          ],
+          [
+           "Inflamatória",
+           "Localizada",
+           "Leve a mediana, elástica, dolorosa, com pele lisa, brilhante, vermelha e quente"
+          ],
+          [
+           "Linfática",
+           "Localizada, geralmente em membro inferior",
+           "Duro, inelástico, indolor, com pele espessa e áspera; nos casos avançados configura elefantíase"
+          ]
+         ]
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Por que o edema cardíaco é vespertino",
+         "texto": "O mecanismo básico é o aumento da pressão hidrostática por insuficiência ventricular direita, somado à retenção de sódio e água pela ativação do sistema renina-angiotensina-aldosterona.\n\nA gravidade faz o resto. Quem passa o dia de pé acumula líquido nas pernas ao longo das horas, e o edema atinge o máximo à tarde — daí a designação de edema vespertino. Deitado, o líquido redistribui-se, o que explica por que o edema diminui de manhã e por que o paciente acamado acumula na região pré-sacra.\n\nÉ o mesmo raciocínio da pressão venosa: o denominador comum de todos os sinais de insuficiência ventricular direita é o aumento da pressão venosa.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Perfusão periférica"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Perfusão como moldura, não como número",
+         "texto": "Ao fechar o exame do pescoço e do edema, olhe as extremidades. Temperatura, coloração e a rapidez com que a cor retorna depois de uma compressão da polpa digital ou do leito ungueal compõem uma impressão de perfusão que dá contexto a tudo o que veio antes.\n\nEssa impressão é uma **moldura**, não uma medida. Perda de pelos, temperatura da pele e tempo de enchimento capilar não são achados confiáveis quando tomados isoladamente, porque muitos fatores alheios à circulação interferem — temperatura ambiente, idade, iluminação, pigmentação, pressão e duração da compressão aplicada pelo examinador.\n\nO que aumenta o rendimento do dado é a **comparação**: entre um membro e o homólogo, entre extremidade e tronco, e entre um exame e o seguinte no mesmo paciente. Assimetria é sugestiva; um número isolado, não.\n\nVale a mesma lógica registrada no tópico de febre na criança e nos tópicos de sinais vitais: o exame clínico integrado decide mais que qualquer valor tomado sozinho.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde este tópico encontra os outros",
+         "texto": "O pescoço não se examina isolado. Três achados vizinhos completam o raciocínio e estão detalhados em outros tópicos do guia.\n\n- **Pulso paradoxal.** Queda inspiratória exagerada da pressão sistólica, quantificada com o esfigmomanômetro. Ao lado da turgência jugular e da taquicardia, compõe o quadro do tamponamento cardíaco. Técnica e limiares estão no tópico de frequência cardíaca e pulso.\n- **Pulsos arteriais e pulso carotídeo.** Amplitude, tipo de onda e comparação entre os lados também estão no tópico de frequência cardíaca e pulso.\n- **Pressão arterial.** A técnica de aferir a PA e os valores de referência estão no tópico de pressão arterial. Na insuficiência aórtica, a pressão diastólica e a pressão diferencial ajudam a graduar a lesão, como discutido no tópico de sopros.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Seis erros que falseiam o pescoço",
+         "texto": "1. **Examinar o lado esquerdo.** A jugular esquerda cruza o mediastino e pode ser comprimida por uma aorta tortuosa; a distensão isolada à esquerda muitas vezes desaparece após uma inspiração profunda. O exame é do lado direito.\n2. **Fixar o ângulo em 45° e não procurar o topo da coluna.** Se o topo não é visível, o ângulo está errado, não o paciente.\n3. **Ler na inspiração.** A coluna desce no pescoço durante a inspiração e a leitura sai subestimada. Prefira a expiração.\n4. **Confundir com a carótida.** Sem checar os cinco critérios que separam veia de artéria, a \"turgência\" pode ser apenas uma carótida saliente em pessoa magra.\n5. **Descartar tamponamento ou constrição com edema presente e pescoço não examinado.** Pressão venosa elevada é achado cardinal dessas duas doenças; deixar de olhar o pescoço é deixar de fazer a pergunta.\n6. **Transformar o enchimento capilar em veredito.** Sozinho e sem comparação, ele não sustenta conclusão sobre perfusão.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "jugular-1",
+           "enunciado": "Quais características identificam uma pulsação como venosa, e não carotídea?",
+           "alternativas": [
+            "Onda única, nitidamente palpável, sem variação com a posição nem com a respiração",
+            "Aspecto ondulante, mais visível que palpável, variando com a posição e a respiração, e abolida pela compressão leve na base do pescoço",
+            "Movimento predominantemente ascendente, aumentando quando o paciente se senta",
+            "Pulsação que desaparece na expiração e reaparece na inspiração profunda"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "O pulso venoso é ondulante, com vários acidentes por ciclo e movimento mais marcante para dentro; é mais visível que palpável, torna-se mais evidente na horizontal, varia com a respiração e é abolido pela compressão leve na base do pescoço. O pulso carotídeo tem onda única, é palpável e não muda com essas manobras."
+          },
+          {
+           "id": "jugular-2",
+           "enunciado": "Em que posição se caracteriza a turgência jugular patológica?",
+           "alternativas": [
+            "Jugulares túrgidas com o paciente em decúbito dorsal horizontal",
+            "Jugulares túrgidas em Trendelenburg",
+            "Jugulares que permanecem túrgidas na posição semissentada, cerca de 45° entre o dorso e o leito, ou sentada",
+            "Jugulares colabadas em decúbito lateral esquerdo"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "Em condições normais as jugulares só ficam túrgidas em decúbito; na posição semissentada ou sentada elas colabam. A persistência da turgência nessas posições caracteriza o ingurgitamento jugular e traduz hipertensão venosa no território da cava superior."
+          },
+          {
+           "id": "jugular-3",
+           "enunciado": "Um paciente apresenta pulso venoso com colapso diastólico súbito e profundo, descenso y muito proeminente, com pressão venosa elevada. Qual diagnóstico esse padrão sugere?",
+           "alternativas": [
+            "Tamponamento cardíaco",
+            "Pericardite constritiva",
+            "Fibrilação atrial",
+            "Estenose pulmonar"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "O descenso y profundo aparece quando a pressão venosa é muito elevada e o enchimento diastólico inicial é rápido, característico da pericardite constritiva. No tamponamento ocorre o oposto: o enchimento inicial está restrito e o descenso y está ausente."
+          },
+          {
+           "id": "jugular-4",
+           "enunciado": "Como se caracteriza um teste abdominojugular (refluxo hepatojugular) positivo?",
+           "alternativas": [
+            "A coluna venosa sobe por um ou dois batimentos e retorna ao nível anterior",
+            "A coluna venosa se mantém elevada durante os 10 segundos de compressão e cai mais de 3 a 4 cm quando a pressão é liberada",
+            "A coluna venosa desaparece durante a compressão abdominal",
+            "A pressão arterial sistólica cai mais de 10 mmHg durante a compressão"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "A resposta normal é a coluna não se alterar ou subir por um ou dois batimentos e voltar. O teste é positivo quando a elevação se mantém durante toda a compressão sustentada, com queda evidente ao liberá-la — indicando pressões de enchimento elevadas do coração esquerdo."
+          },
+          {
+           "id": "jugular-5",
+           "enunciado": "O que caracteriza o sinal de Kussmaul e por que ele ocorre?",
+           "alternativas": [
+            "Queda exagerada da pressão sistólica na inspiração, por redução do débito do ventrículo esquerdo",
+            "Elevação paradoxal da coluna jugular na inspiração, por incapacidade do ventrículo direito de acomodar o aumento do retorno venoso",
+            "Inspirações amplas e rápidas separadas por apneias, na acidose metabólica",
+            "Ausência da onda a no pulso venoso, por perda da contração atrial"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "O sinal de Kussmaul é a elevação da pressão venosa durante a inspiração, quando o normal seria a queda. Ocorre quando o ventrículo direito não acomoda o volume extra da inspiração — por restrição pericárdica ou por já estar dilatado dentro de um pericárdio normal. As outras alternativas descrevem o pulso paradoxal e a respiração de Kussmaul."
+          },
+          {
+           "id": "jugular-6",
+           "enunciado": "Um paciente com edema de membros inferiores tem jugulares colabadas na posição semissentada. Que informação esse achado acrescenta?",
+           "alternativas": [
+            "Confirma insuficiência ventricular direita como causa do edema",
+            "Indica que a causa do edema provavelmente não é cardíaca nem pulmonar",
+            "Indica tamponamento cardíaco em fase inicial",
+            "Não acrescenta informação, porque as jugulares só se avaliam em decúbito horizontal"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Em paciente com edema ou ascite, a pressão venosa elevada aponta para coração ou circulação pulmonar; a pressão venosa normal aponta para outra causa. Na doença hepática crônica, por exemplo, a pressão venosa central é normal — o edema decorre da hipoalbuminemia e do peso da ascite sobre as veias dos membros inferiores."
+          }
+         ]
+        }
+       ]
+      }
+     ]
     }
    ]
   },

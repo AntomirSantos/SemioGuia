@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- marcadores de B1 e B2 no topo -->
+  <g font-family="sans-serif" font-size="10" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="48" y="14">B1</text>
+    <text x="150" y="14">B2</text>
+    <text x="282" y="14">B1</text>
+  </g>
+  <!-- faixa 1: sistólico de ejeção -->
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="6" y="30">sistólico de ejeção</text>
+  </g>
+  <g stroke-width="1.5">
+    <path d="M 40 46 L 292 46" stroke-dasharray="3 3" />
+    <path d="M 48 32 L 48 46" stroke-width="2" />
+    <path d="M 150 32 L 150 46" stroke-width="2" />
+    <path d="M 282 32 L 282 46" stroke-width="2" />
+  </g>
+  <path d="M 62 46 L 100 33 L 140 46" stroke-width="2" />
+  <!-- faixa 2: sistólico de regurgitação -->
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="6" y="66">sistólico de regurgitação</text>
+  </g>
+  <g stroke-width="1.5">
+    <path d="M 40 82 L 292 82" stroke-dasharray="3 3" />
+    <path d="M 48 68 L 48 82" stroke-width="2" />
+    <path d="M 150 68 L 150 82" stroke-width="2" />
+    <path d="M 282 68 L 282 82" stroke-width="2" />
+  </g>
+  <path d="M 48 82 L 48 70 L 152 70 L 152 82" stroke-width="2" />
+  <!-- faixa 3: diastólico aspirativo -->
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="6" y="102">diastólico aspirativo</text>
+  </g>
+  <g stroke-width="1.5">
+    <path d="M 40 118 L 292 118" stroke-dasharray="3 3" />
+    <path d="M 48 104 L 48 118" stroke-width="2" />
+    <path d="M 150 104 L 150 118" stroke-width="2" />
+    <path d="M 282 104 L 282 118" stroke-width="2" />
+  </g>
+  <path d="M 150 105 L 216 118" stroke-width="2" />
+  <!-- faixa 4: ruflar diastólico com reforço pré-sistólico -->
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="6" y="138">ruflar com reforço pré-sistólico</text>
+  </g>
+  <g stroke-width="1.5">
+    <path d="M 40 154 L 292 154" stroke-dasharray="3 3" />
+    <path d="M 48 140 L 48 154" stroke-width="2" />
+    <path d="M 150 140 L 150 154" stroke-width="2" />
+    <path d="M 282 140 L 282 154" stroke-width="2" />
+  </g>
+  <path d="M 176 148 L 244 148 L 278 141 L 282 154" stroke-width="2" />
+  <!-- faixa 5: contínuo -->
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="6" y="174">contínuo (em maquinaria)</text>
+  </g>
+  <g stroke-width="1.5">
+    <path d="M 40 190 L 292 190" stroke-dasharray="3 3" />
+    <path d="M 48 176 L 48 190" stroke-width="2" />
+    <path d="M 150 176 L 150 190" stroke-width="2" />
+    <path d="M 282 176 L 282 190" stroke-width="2" />
+  </g>
+  <path d="M 48 190 L 150 177 L 282 188" stroke-width="2" />
+</svg>

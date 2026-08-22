@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- contorno da parede toracica anterior -->
+  <path d="M 38 26 C 34 70, 40 126, 54 184 L 168 184 C 182 126, 188 70, 184 26" stroke-width="2" />
+  <!-- clavículas -->
+  <path d="M 44 36 L 100 44" />
+  <path d="M 122 44 L 178 36" />
+  <!-- esterno e apêndice xifoide -->
+  <path d="M 102 42 L 102 134" stroke-width="1.5" />
+  <path d="M 120 42 L 120 134" stroke-width="1.5" />
+  <path d="M 102 134 L 111 150 L 120 134" stroke-width="1.5" />
+  <!-- arcos costais do lado esquerdo do paciente -->
+  <g stroke-width="1.5">
+    <path d="M 120 56 C 142 58, 160 68, 172 82" />
+    <path d="M 120 74 C 142 76, 162 88, 174 104" />
+    <path d="M 120 92 C 142 95, 162 108, 174 126" />
+    <path d="M 120 110 C 140 114, 158 128, 168 146" />
+  </g>
+  <!-- focos de ausculta -->
+  <g>
+    <circle cx="92" cy="62" r="8" stroke-width="1.5" />
+    <circle cx="130" cy="62" r="8" stroke-width="1.5" />
+    <circle cx="132" cy="90" r="8" stroke-width="1.5" />
+    <circle cx="130" cy="146" r="8" stroke-width="1.5" />
+    <circle cx="156" cy="128" r="8" stroke-width="1.5" />
+  </g>
+  <g font-family="sans-serif" font-size="10" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="92" y="66">1</text>
+    <text x="130" y="66">2</text>
+    <text x="132" y="94">3</text>
+    <text x="130" y="150">4</text>
+    <text x="156" y="132">5</text>
+  </g>
+  <!-- legenda -->
+  <g font-family="sans-serif" font-size="10" fill="currentColor" stroke="none">
+    <text x="200" y="42">1 aórtico</text>
+    <text x="212" y="55">2º EIC direito</text>
+    <text x="200" y="73">2 pulmonar</text>
+    <text x="212" y="86">2º EIC esquerdo</text>
+    <text x="200" y="104">3 aórtico acessório</text>
+    <text x="212" y="117">3º–4º EIC esquerdo</text>
+    <text x="200" y="135">4 tricúspide</text>
+    <text x="212" y="148">base do xifoide</text>
+    <text x="200" y="166">5 mitral</text>
+    <text x="212" y="179">ponta, 5º EIC, LHC</text>
+  </g>
+</svg>
