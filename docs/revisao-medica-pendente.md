@@ -1,6 +1,6 @@
 # Pendências para a revisão médica do autor
 
-Atualizado em 22/08/2026, ao fim da Fase 3. Todo o conteúdo do app segue
+Atualizado em 22/08/2026, ao fim da Fase 4A. Todo o conteúdo do app segue
 `revisao: pendente` até o autor aprovar; esta lista concentra os pontos que
 as revisões editoriais sinalizaram como decisão médica ou curricular do
 autor — nenhum é defeito técnico.
@@ -52,3 +52,21 @@ autor — nenhum é defeito técnico.
    candidato a ajuste (ignorar re-graduação no mesmo dia) numa fase futura.
 10. Contadores do Perfil não mostram o backlog de itens novos represados pelo
     limite de 20/dia (aparecem nos dias seguintes).
+
+## Pendências técnicas da Fase 4A (contas e sync — não médicas)
+
+11. **`avaliar()` do SM-2 sem teto** (`src/revisao/sm2.ts`): a facilidade e o
+    intervalo crescem sem clamp; a partir de ~14 repetições corretas seguidas
+    a data de revisão estoura o ano de 4 dígitos. As regras do Firestore já
+    acomodam qualquer saída com ano de 4 dígitos (faixas provadas na
+    auditoria), então nada quebra hoje — mas vale limitar o intervalo (por
+    exemplo, teto de 10 anos) numa fase futura.
+12. **Persistência de sessão nativa ausente**: no React Native o `getAuth`
+    do Firebase guarda a sessão só em memória — o gatilho de sync "ao abrir
+    o app" funciona apenas na web hoje. Antes de qualquer distribuição
+    nativa (lojas), é obrigatório trocar para `initializeAuth` com
+    persistência em AsyncStorage. Não afeta o site publicado.
+13. **Passos do autor para ativar a sincronização**: criar o projeto no
+    console do Firebase e preencher `src/conta/config.ts` — roteiro completo
+    em `docs/firebase-setup.md` (inclui o deploy das regras auditadas, que é
+    passo de máquina do autor, nunca de CI).
