@@ -244,9 +244,9 @@ texto: |
 
   **Ar ou líquido na cavidade pleural.** O derrame e o pneumotórax afastam o pulmão da parede e interpõem um meio que atenua as frequências baixas. Resultado: frêmito reduzido ou abolido, proporcional ao volume acumulado.
 
-  **Brônquio obstruído.** Na atelectasia por oclusão brônquica, o parênquima está sem ar e denso — condição que, em tese, conduziria bem —, mas a fonte sonora não chega até ele. Sem coluna de ar vibrando, não há o que transmitir, e o frêmito cai.
+  **Brônquio obstruído.** Na atelectasia por oclusão brônquica, o parênquima está sem ar e denso — condição que, pela densidade, conduziria bem —, e ainda assim o frêmito cai. Por que exatamente isso acontece é ponto discutido: a explicação tradicional invoca a interrupção da coluna de ar, mas experimentos indicam que o som viaja pelo próprio parênquima poroso, e não pelo interior dos dutos aéreos (a discussão está no tópico de ausculta pulmonar). O que é firme é o achado, não o mecanismo.
 
-  Guarde a regra de leitura: **frêmito aumentado é sinal de parênquima denso com via aérea pérvia; frêmito reduzido é sinal de barreira** — seja ela pleural, aérea ou brônquica.
+  Guarde então a regra como **regularidade de leitura, não como causa**: na prática, frêmito aumentado acompanha parênquima denso com brônquio pérvio; frêmito reduzido acompanha uma barreira interposta — pleural, aérea — ou um brônquio ocluído.
 :::
 
 ::: tabela
@@ -331,7 +331,7 @@ titulo: O que mais a mão colhe na parede
 texto: |
   **Temperatura.** Compare os dois hemitórax com o dorso das mãos. Diferença para mais de um lado pode denunciar comprometimento pleuropulmonar subjacente. Sudorese em apenas um hemitórax integra a síndrome de Claude Bernard-Horner.
 
-  **Edema subcutâneo.** Nas fossas supraclaviculares, é sinal precoce de obstrução da veia cava superior — e se distingue do enfisema subcutâneo porque deixa cacifo em vez de crepitar.
+  **Edema subcutâneo.** Nas fossas supraclaviculares, aparece cedo quando a veia cava superior está obstruída — e se distingue do enfisema subcutâneo porque deixa cacifo em vez de crepitar.
 
   **Linfonodos.** Adenomegalias de consistência média, mais ou menos fixas, com tendência a se fundir e depois fistulizar, são mais comuns na tuberculose. Linfonodos axilares ou supraclaviculares duros, isolados e de aparecimento recente levantam suspeita de malignidade.
 :::
@@ -373,11 +373,11 @@ perguntas:
     enunciado: Em um paciente com atelectasia por oclusão de brônquio lobar, o frêmito toracovocal está diminuído sobre a área comprometida. Por quê?
     alternativas:
       - "Porque o parênquima atelectasiado contém mais ar do que o normal e o ar conduz mal o som"
-      - "Porque o brônquio obstruído impede que a vibração da voz alcance o território denso"
+      - "Porque, na prática, a oclusão do brônquio que serve aquele território se associa a frêmito reduzido, apesar de o parênquima estar denso"
       - "Porque a atelectasia sempre se acompanha de líquido na cavidade pleural"
       - "Porque a retração do hemitórax aproxima o pulmão da parede e satura a percepção tátil"
     corretaIndex: 1
-    explicacao: "Na atelectasia obstrutiva o parênquima está sem ar e denso — condição que conduziria bem —, mas a via aérea ocluída impede que a coluna de ar vibrante chegue até ele. Sem fonte sonora transmitida, o frêmito cai. A regra de leitura é: frêmito aumentado indica parênquima denso com brônquio pérvio; frêmito reduzido indica barreira, pleural, aérea ou brônquica."
+    explicacao: "Na atelectasia obstrutiva o parênquima está sem ar e denso — condição que, pela densidade, conduziria bem —, e mesmo assim o frêmito cai. A associação é constante e serve de regra de leitura: frêmito aumentado acompanha parênquima denso com brônquio pérvio; frêmito reduzido acompanha barreira interposta ou brônquio ocluído. O mecanismo íntimo é discutido — experimentos indicam que o som se conduz pelo parênquima poroso, e não pelo interior dos dutos aéreos."
   - id: palp-torax-3
     enunciado: Um paciente com tosse e febre apresenta expansão torácica visivelmente menor à direita. Qual é o peso desse achado?
     alternativas:

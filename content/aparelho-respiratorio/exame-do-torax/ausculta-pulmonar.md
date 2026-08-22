@@ -124,48 +124,49 @@ titulo: Sons respiratórios normais
 svg: |
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <!-- som traqueal -->
-    <path d="M 100 64 L 214 64" stroke-width="1.2" />
-    <path d="M 104 64 L 118 38 L 132 64" stroke-width="2" />
-    <path d="M 146 64 L 168 28 L 190 64" stroke-width="2" />
+    <path d="M 114 64 L 228 64" stroke-width="1.2" />
+    <path d="M 118 64 L 132 38 L 146 64" stroke-width="2" />
+    <path d="M 160 64 L 182 28 L 204 64" stroke-width="2" />
     <g stroke-width="1.2" stroke-dasharray="3 3">
-      <path d="M 132 64 L 132 78" />
       <path d="M 146 64 L 146 78" />
+      <path d="M 160 64 L 160 78" />
     </g>
     <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none" text-anchor="middle">
-      <text x="139" y="88">pausa</text>
-      <text x="118" y="76">i</text>
-      <text x="168" y="76">e</text>
+      <text x="153" y="88">pausa</text>
+      <text x="132" y="76">i</text>
+      <text x="182" y="76">e</text>
     </g>
     <!-- broncovesicular -->
-    <path d="M 100 120 L 214 120" stroke-width="1.2" />
-    <path d="M 104 120 L 120 100 L 136 120" stroke-width="2" />
-    <path d="M 136 120 L 152 100 L 168 120" stroke-width="2" />
+    <path d="M 114 120 L 228 120" stroke-width="1.2" />
+    <path d="M 118 120 L 134 100 L 150 120" stroke-width="2" />
+    <path d="M 150 120 L 166 100 L 182 120" stroke-width="2" />
     <!-- murmúrio vesicular -->
-    <path d="M 100 176 L 214 176" stroke-width="1.2" />
-    <path d="M 104 176 L 126 148 L 148 176" stroke-width="2" />
-    <path d="M 148 176 L 160 162 L 172 176" stroke-width="2" />
+    <path d="M 114 176 L 228 176" stroke-width="1.2" />
+    <path d="M 118 176 L 140 148 L 162 176" stroke-width="2" />
+    <path d="M 162 176 L 174 162 L 186 176" stroke-width="2" />
     <!-- rótulos -->
     <g font-family="sans-serif" font-size="9.5" fill="currentColor" stroke="none" text-anchor="end">
-      <text x="92" y="46">som traqueal</text>
-      <text x="92" y="102">broncovesicular</text>
-      <text x="92" y="158">murmúrio vesicular</text>
+      <text x="106" y="46">som traqueal</text>
+      <text x="106" y="102">broncovesicular</text>
+      <text x="106" y="158">murmúrio vesicular</text>
     </g>
-    <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="end">
-      <text x="92" y="58">traqueia e fúrcula</text>
-      <text x="92" y="114">esternal superior</text>
-      <text x="92" y="170">periferia dos pulmões</text>
+    <g font-family="sans-serif" font-size="8" fill="currentColor" stroke="none" text-anchor="end">
+      <text x="106" y="58">traqueia e fúrcula</text>
+      <text x="106" y="114">esternal superior e</text>
+      <text x="106" y="125">interescapulovertebral dir.</text>
+      <text x="106" y="170">periferia dos pulmões</text>
     </g>
     <!-- notas à direita -->
     <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
-      <text x="222" y="46">expiração mais</text>
-      <text x="222" y="57">longa e mais rude</text>
-      <text x="222" y="105">fases iguais,</text>
-      <text x="222" y="116">sem pausa</text>
-      <text x="222" y="161">inspiração longa,</text>
-      <text x="222" y="172">expiração breve</text>
+      <text x="236" y="46">expiração mais</text>
+      <text x="236" y="57">longa e rude</text>
+      <text x="236" y="105">fases iguais,</text>
+      <text x="236" y="116">sem pausa</text>
+      <text x="236" y="161">inspiração longa,</text>
+      <text x="236" y="172">expiração breve</text>
     </g>
   </svg>
-legenda: "A altura de cada triângulo representa a intensidade; a largura, a duração. O que separa o som traqueal dos demais é a pausa nítida entre inspiração e expiração."
+legenda: "A altura de cada triângulo representa a intensidade; a largura, a duração. O que separa o som traqueal dos demais é a pausa nítida entre inspiração e expiração. O esquema simplifica: o som brônquico, intermediário entre o traqueal e o broncovesicular e audível sobre os brônquios principais, não está representado — veja a tabela abaixo."
 :::
 
 ::: tabela
@@ -246,7 +247,7 @@ linhas:
     - "Todas as áreas do tórax"
   - - "Mecanismo"
     - "Abertura sequencial de vias respiratórias antes fechadas, pela pressão de líquido ou exsudato no parênquima ou por alteração do tecido de suporte das paredes brônquicas"
-    - "Abertura e fechamento de vias respiratórias com secreção viscosa e espessa, e afrouxamento da estrutura de suporte das paredes brônquicas"
+    - "Vias respiratórias carregadas de secreção espessa e viscosa, que se abrem e se fecham, somadas à perda de sustentação das paredes brônquicas"
   - - "Contextos habituais"
     - "Pneumonia, congestão da insuficiência ventricular esquerda, doenças intersticiais"
     - "Bronquite crônica, bronquiectasias"
@@ -288,7 +289,7 @@ texto: |
 
   - **Fibrose pulmonar**: 6 a 14 estertores por incursão, finos, teleinspiratórios — começam no meio da inspiração e persistem até quase o fim.
   - **Insuficiência cardíaca**: 4 a 9 por incursão, finos ou grossos, tele ou pan-inspiratórios.
-  - **Pneumonia**: 3 a 7 por incursão, grossos, pan-inspiratórios. Com o tratamento eles se tornam mais finos e migram para o fim da inspiração.
+  - **Pneumonia**: 3 a 7 por incursão, grossos ou finos, pan-inspiratórios. Com o tratamento eles se tornam mais finos e migram para o fim da inspiração.
   - **Obstrução crônica ao fluxo aéreo**: 1 a 4 por incursão, finos ou grossos, confinados à primeira metade da inspiração.
 
   Esse último padrão tem peso diagnóstico real. **Estertores protoinspiratórios** — que aparecem cedo e não passam do meio da inspiração — elevam muito a probabilidade de doença obstrutiva crônica: razão de verossimilhança 14,6. E, entre pacientes já sabidamente obstruídos, indicam doença grave, com razão de verossimilhança 20,8.
@@ -303,7 +304,7 @@ texto: |
   Três características descrevem um sibilo: duração, altura e intensidade. Apenas as duas primeiras variam com a gravidade da obstrução (McGee).
 
   - **Duração.** Quanto maior a proporção do ciclo respiratório ocupada pelo sibilo, pior a obstrução — a correlação com o volume expiratório forçado no primeiro segundo é forte e negativa, em torno de −0,89.
-  - **Altura.** Sibilos mais agudos indicam obstrução pior; o tratamento broncodilatador eficaz reduz a altura do sibilo.
+  - **Altura.** Sibilos mais agudos indicam obstrução pior; quando o tratamento da obstrução funciona, a altura do sibilo cai.
   - **Intensidade.** Não reflete a gravidade. Muitos pacientes gravemente obstruídos têm sibilos fracos ou nenhum sibilo.
 
   Daí o ditado que a evidência confirma: na asma, o **tórax silencioso não é boa notícia**. Pode significar um paciente exausto, incapaz de mover ar suficiente através das vias obstruídas para produzir som.
@@ -328,7 +329,7 @@ texto: |
 
   - **Broncofonia**: a voz chega mais forte que o normal, mas as sílabas continuam indistintas.
   - **Pectorilóquia fônica**: a voz falada é ouvida com nitidez, palavra por palavra.
-  - **Pectorilóquia afônica**: até a voz cochichada é ouvida com nitidez. É a expressão mais clara da facilitação da transmissão.
+  - **Pectorilóquia afônica**: até a voz cochichada é ouvida com nitidez. É o grau em que a facilitação da transmissão se mostra do modo mais evidente.
 
   A **egofonia** é uma forma particular de broncofonia: a voz adquire qualidade anasalada e metálica, comparada por Laennec ao balido de uma cabra. Muitos examinadores a pesquisam pedindo ao paciente que emita um "i" prolongado e escutando sua transformação em um "a" anasalado. O que caracteriza o achado não é apenas a mudança do som — todas as vogais são alteradas mesmo pelo pulmão sadio —, mas a **intensidade** da mudança e o fato de ela surgir de repente sobre uma área pequena de um dos lados. Antes de afirmar egofonia, confira que essa transformação não ocorre no ponto homólogo do outro hemitórax.
 
@@ -380,16 +381,16 @@ nivel: avancado
 texto: |
   Nenhum dos quatro métodos fecha diagnóstico sozinho. O que identifica uma síndrome é a **combinação**, e a combinação se lê em dois eixos.
 
-  **Primeiro eixo — a percussão.** Ela separa o tórax em dois mundos. *Menos ar* produz submacicez ou macicez: consolidação, atelectasia, derrame. *Mais ar* produz hipersonoridade ou timpanismo: pneumotórax, enfisema, crise de asma com hiperinsuflação.
+  **Primeiro eixo — a percussão.** Ela separa o tórax em dois mundos. *Menos ar* produz submacicez ou macicez: consolidação, atelectasia, derrame. *Mais ar* produz hipersonoridade quando o excesso está **nos alvéolos** — enfisema, crise de asma com hiperinsuflação — e som timpânico quando o ar está **aprisionado na cavidade pleural**: pneumotórax.
 
   **Segundo eixo — o frêmito.** Dentro do mundo maciço, ele decide quase tudo. Frêmito **aumentado** significa parênquima denso com brônquio pérvio: consolidação. Frêmito **diminuído ou abolido** significa barreira à transmissão: derrame pleural ou atelectasia obstrutiva.
 
   Restam então dois pares que a percussão e o frêmito não separam, e cada um tem seu desempate.
 
   - **Derrame × atelectasia obstrutiva.** Ambos dão macicez com frêmito reduzido — combinação que Porto descreve como indistinguível pelo exame físico na maior parte dos casos. A inspeção desempata: a atelectasia **retrai** o hemitórax e produz tiragem, com desvio da traqueia e do ictus para o lado comprometido; o grande derrame **abaúla** o hemitórax e os espaços intercostais. A percussão da coluna ajuda (sinal de Signorelli, no tópico de percussão), e a imagem resolve.
-  - **Pneumotórax × enfisema.** Ambos dão hipersonoridade com frêmito reduzido. A distribuição desempata: o pneumotórax é **unilateral e agudo**; o enfisema é **bilateral e crônico**, com tórax em tonel e expiração prolongada.
+  - **Pneumotórax × enfisema.** Ambos cursam com frêmito reduzido e com excesso de ar, mas o ar não está no mesmo lugar — e a percussão registra essa diferença. Ar **aprisionado na cavidade pleural** dá som **timpânico**, musical, de tonalidade identificável: é o pneumotórax. Ar **em excesso dentro dos alvéolos** dá **hipersonoridade**, a mesma nota do som claro pulmonar, apenas mais clara e mais intensa: é o enfisema. A distribuição confirma: o pneumotórax é **unilateral e agudo**; o enfisema é **bilateral e crônico**, com tórax em tonel e expiração prolongada.
 
-  Uma última cautela sobre a atelectasia. A tabela abaixo descreve a forma **obstrutiva**, em que o brônquio está ocluído — a mais comum, causada por neoplasias e corpos estranhos. Existe uma variante em que a via aérea permanece pérvia e o pulmão está retraído e denso, como na fibroatelectasia: ali o frêmito fica **aumentado**, e à ausculta surgem som brônquico e estertores. A regra que resolve as duas é sempre a mesma: **o que decide o frêmito não é a densidade do pulmão, é a permeabilidade do brônquio que chega até ele.**
+  Uma última cautela sobre a atelectasia. A tabela abaixo descreve a forma **obstrutiva**, em que o brônquio está ocluído — a mais comum, causada por neoplasias e corpos estranhos. Existe uma variante em que a via aérea permanece pérvia e o pulmão está retraído e denso, como na fibroatelectasia: ali o frêmito fica **aumentado**, e à ausculta surgem som brônquico e estertores. As duas se resolvem pela mesma regularidade — e é assim, como regularidade, que ela deve ser guardada: **na prática, o frêmito acompanha a permeabilidade do brônquio que serve aquele território, e não a densidade do pulmão.** Note que isso descreve o que melhor prediz o achado, não o seu mecanismo íntimo, que continua discutido — a correção de McGee registrada acima mostra que o som se conduz pelo parênquima poroso, e não pelo interior dos dutos aéreos.
 :::
 
 ::: tabela
@@ -415,7 +416,7 @@ linhas:
   - - "Pneumotórax"
     - "Pode não haver nada visível; nos grandes volumes, abaulamento do hemitórax e dos espaços intercostais"
     - "Expansibilidade diminuída; frêmito diminuído ou abolido; pode haver enfisema subcutâneo"
-    - "Hipersonoridade, ou som timpânico acima da macicez no hidropneumotórax"
+    - "Som timpânico — ou hipersonoridade (Porto, Semiologia Médica); no hidropneumotórax, timpanismo acima da área de macicez"
     - "Murmúrio vesicular muito reduzido ou ausente; ressonância vocal diminuída"
   - - "Atelectasia obstrutiva"
     - "Retração do hemitórax comprometido e tiragem; desvio da traqueia e do ictus para o lado comprometido"
@@ -499,10 +500,10 @@ perguntas:
     alternativas:
       - "Fibrose pulmonar, em que os estertores são numerosos e teleinspiratórios"
       - "Pneumonia, em que os estertores são pan-inspiratórios"
-      - "Doença obstrutiva crônica ao fluxo aéreo, provavelmente grave"
+      - "Doença obstrutiva crônica ao fluxo aéreo"
       - "Congestão pulmonar da insuficiência ventricular esquerda"
     corretaIndex: 2
-    explicacao: "Estertores protoinspiratórios — poucos por incursão e confinados à primeira metade da inspiração — elevam muito a probabilidade de doença obstrutiva crônica (razão de verossimilhança 14,6) e, entre pacientes já obstruídos, indicam doença grave (20,8). A fibrose produz 6 a 14 estertores finos teleinspiratórios; a pneumonia, 3 a 7 grossos pan-inspiratórios."
+    explicacao: "Estertores protoinspiratórios — poucos por incursão e confinados à primeira metade da inspiração — elevam muito a probabilidade de doença obstrutiva crônica (razão de verossimilhança 14,6). Entre pacientes em quem a obstrução já está estabelecida, esse mesmo padrão indica doença grave (razão de verossimilhança 20,8) — mas essa segunda leitura vale só nesse subgrupo, não como conclusão direta do achado isolado. A fibrose produz 6 a 14 estertores finos teleinspiratórios; a pneumonia, 3 a 7 grossos ou finos pan-inspiratórios."
   - id: ausc-pulm-4
     enunciado: Por que um paciente com derrame pleural pode apresentar frêmito toracovocal diminuído e, ao mesmo tempo, egofonia na faixa superior do derrame?
     alternativas:

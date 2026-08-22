@@ -374,7 +374,7 @@ texto: |
   - **Circulação colateral no tórax**: rede venosa superficial visível, que denuncia obstáculo junto ao ponto em que a veia ázigo desemboca na cava superior — situação típica das neoplasias de mediastino.
   - **Movimento paradoxal de um segmento do gradil** na inspiração: retalho costal instável por traumatismo torácico.
 
-  Dois pontos do exame geral pertencem a essa lista. O **desvio lateral da traqueia** acompanha fibrose pulmonar, atelectasia e grandes derrames. E a **distância medida da margem inferior da cricoide até a fúrcula**, normalmente acima de 5,5 cm, encurta na hiperinsuflação do enfisema avançado.
+  Dois pontos do exame geral pertencem a essa lista. O **desvio lateral da traqueia** acompanha fibrose pulmonar, atelectasia e grandes derrames. E a **distância medida da margem inferior da cricoide até a fúrcula**, normalmente acima de 5,5 cm (Porto, Semiologia Médica, cap. 36), encurta na hiperinsuflação do enfisema avançado.
 :::
 
 ::: secao
