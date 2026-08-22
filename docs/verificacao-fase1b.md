@@ -370,3 +370,30 @@ fase). Zero `pageerror` em toda a bateria.
 Screenshots (390×844, salvos durante a verificação):
 `perfil-conta-indisponivel.png` (tema claro/sistema) e
 `perfil-conta-escuro.png` (tema escuro).
+
+## Adendo Fase 5 — capítulos "Exame do coração" e "Exame do tórax"
+
+A Fase 5 acrescentou dois sistemas ao Guia (Aparelho cardiovascular e
+Aparelho respiratório), com 8 tópicos, 48 perguntas de quiz, 8 checklists
+(estações OSCE automáticas) e 8 ilustrações SVG inline. Fase 100% de
+conteúdo: o único código foi o registro dos ícones `heart-pulse` e `wind`
+em `src/design/icones.ts`.
+
+Gates verificados na árvore final: `npm run build:content` (3 sistemas,
+11 tópicos, `content.json` em sync), `npx jest` (37 suítes, 293 testes),
+`npx tsc --noEmit`, `npm run checar:contraste` (todos os pares AA).
+
+Cada capítulo passou por revisão médica editorial independente com
+re-revisão (achados e adjudicações registrados nas mensagens da fase e nas
+listas do autor: `docs/revisao-medica-pendente.md` e
+`docs/inconsistencias-para-revisao.md`). Todo o conteúdo novo permanece
+`revisao: pendente` até o aval do autor.
+
+Verificação headless pós-deploy: home com os 3 sistemas; um tópico de cada
+capítulo novo aberto por cliques (claro e escuro); uma estação OSCE nova; e
+busca por termo novo ("frêmito") retornando os tópicos certos com o sistema
+identificado no resultado.
+
+Nota de comportamento esperado: os 8 checklists e 48 perguntas entram na
+fila do SM-2 sob o teto de 20 itens novos/dia — nos primeiros dias após o
+deploy haverá backlog silencioso (ver item 10 da lista do autor).

@@ -74,6 +74,12 @@ editorial, do autor. Marque cada caixa ao revisar.
   original é por contexto clínico); percussão comparativa atribuída a
   Auenbrugger (a dígito-digital é posterior, de Piorry).
 
+- [ ] **B6 · Nivelamento de conteúdos da spec** — itens que a spec §3
+  atribui a "aprofundamento" foram publicados em nível base (tabela das 4
+  valvopatias, tabelas do flebograma, sinal de Kussmaul, atrito
+  pericárdico); cada tópico mantém 3–6 blocos avançados. Confirmar a
+  promoção como pedagogia intencional.
+
 ## C. Inconsistências antigas ainda abertas (Fases 1C–3)
 
 - [ ] **C1 · Faixa 37,6–37,8 °C** — "febrícula até 37,5 °C" convive com o
