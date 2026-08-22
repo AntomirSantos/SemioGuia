@@ -69,6 +69,17 @@ const Ctx = createContext<ContaContexto | null>(null);
  * regras do Firestore exigem usuário autenticado para apagar os próprios
  * documentos, então apagar a conta primeiro deixaria os dados órfãos e
  * inacessíveis (Task 6 injeta o apagador real).
+ *
+ * CONSEQUÊNCIA dessa ordem: se `apagarDados` tiver sucesso mas `deleteUser`
+ * falhar depois (o caso mais comum é `auth/requires-recent-login`, exigindo
+ * reautenticação), os dados de servidor do usuário já foram apagados
+ * enquanto a conta Auth continua existindo — `excluirConta()` rejeita, mas
+ * o estado local `usuario` permanece o mesmo (só `onAuthStateChanged` o
+ * altera), então a UI segue mostrando a pessoa "logada". Por isso o
+ * `apagarDados` injetado PRECISA ser idempotente: reentrar e chamar
+ * `excluirConta()` de novo (depois de reautenticar) tem que tolerar dados
+ * já ausentes sem lançar. Contrato obrigatório para a implementação da
+ * Task 6.
  */
 export function AuthProvider({
   children,
