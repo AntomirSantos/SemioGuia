@@ -33,6 +33,34 @@ const vazio = (): Estado => ({
   preferencias: {},
 });
 
+// Releases web já publicadas antes do v4 persistiam estudados/favoritos como
+// string[] (presença = true) e preferencias como Record<string,string>. Sem
+// esta migração, ler() perderia silenciosamente os dados desses usuários
+// (ver task-3-report.md). atualizadoEm=0 é proposital: LWW trata dados
+// migrados como os mais antigos possíveis.
+function migrarEstados(
+  bruto: string[] | Record<string, EstadoCarimbado> | undefined,
+): Record<string, EstadoCarimbado> {
+  if (!bruto) return {};
+  if (Array.isArray(bruto)) {
+    const migrado: Record<string, EstadoCarimbado> = {};
+    for (const id of bruto) migrado[id] = { valor: true, atualizadoEm: 0 };
+    return migrado;
+  }
+  return bruto;
+}
+
+function migrarPreferencias(
+  bruto: Record<string, string | PrefCarimbada> | undefined,
+): Record<string, PrefCarimbada> {
+  if (!bruto) return {};
+  const migrado: Record<string, PrefCarimbada> = {};
+  for (const [chave, valor] of Object.entries(bruto)) {
+    migrado[chave] = typeof valor === 'string' ? { valor, atualizadoEm: 0 } : valor;
+  }
+  return migrado;
+}
+
 export class LocalStorageProgressStore implements ProgressStore {
   private cache: Estado;
   private cacheItens: Record<string, ItemRevisao>;
@@ -58,8 +86,20 @@ export class LocalStorageProgressStore implements ProgressStore {
     try {
       const bruto = this.obterStorage()?.getItem(CHAVE);
       if (!bruto) return vazio();
-      const dado = JSON.parse(bruto) as Partial<Estado>;
-      return { ...vazio(), ...dado };
+      const dado = JSON.parse(bruto) as Partial<{
+        estudados: string[] | Record<string, EstadoCarimbado>;
+        favoritos: string[] | Record<string, EstadoCarimbado>;
+        respostas: RespostaRegistrada[];
+        buscas: string[];
+        preferencias: Record<string, string | PrefCarimbada>;
+      }>;
+      return {
+        ...vazio(),
+        ...dado,
+        estudados: migrarEstados(dado.estudados),
+        favoritos: migrarEstados(dado.favoritos),
+        preferencias: migrarPreferencias(dado.preferencias),
+      };
     } catch {
       return vazio();
     }
