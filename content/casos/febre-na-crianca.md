@@ -32,10 +32,6 @@ tipo: decisao
 id: d-medida
 pergunta: "Como você registra a temperatura de Helena agora?"
 opcoes:
-  - texto: "Termômetro digital na axila seca, bulbo no oco axilar e braço apoiado sobre o tórax; anotar valor, local e horário."
-    avaliacao: otima
-    feedback: "É a via recomendada para toda criança. Na criança, febre é temperatura axilar ≥ 37,5 °C, e o registro só serve à curva térmica se trouxer junto o local e o horário da aferição."
-    proximo: c-axilar
   - texto: "Repetir com o termômetro de infravermelho do serviço, que é rápido e não incomoda a criança."
     avaliacao: aceitavel
     feedback: "Serve para uma triagem rápida, mas é o método de maior variabilidade entre todos. Antes de tomar decisão sobre uma criança prostrada, confirme na axila com termômetro digital."
@@ -44,6 +40,10 @@ opcoes:
     avaliacao: erro
     feedback: "Você tratou o número e adiou o exame. Em criança febril, o que decide a conduta é o estado geral — e ele só aparece com a criança despida e examinada, não no visor do termômetro."
     proximo: c-antitermico
+  - texto: "Termômetro digital na axila seca, anotando valor, local e horário."
+    avaliacao: otima
+    feedback: "É a via recomendada para toda criança: bulbo no oco axilar, axila seca, braço apoiado sobre o tórax. Na criança, febre é temperatura axilar ≥ 37,5 °C, e o registro só serve à curva térmica se trouxer junto o local e o horário da aferição."
+    proximo: c-axilar
 :::
 
 ::: no
@@ -63,14 +63,14 @@ tipo: decisao
 id: d-avaliacao
 pergunta: "38,9 °C na axila. O que pesa mais na sua decisão neste momento?"
 opcoes:
-  - texto: "Despir a criança por completo e avaliar estado geral, nível de consciência, perfusão, hidratação e toda a pele, procurando sinais de gravidade."
-    avaliacao: otima
-    feedback: "Esse é o exame que muda a conduta. O número isolado não gradua gravidade: estado geral, hidratação, perfusão e comportamento pesam mais que décimos de grau — e petéquias só aparecem para quem despe a criança."
-    proximo: c-petequias
-  - texto: "A intensidade da febre: 38,9 °C é febre alta, então antitérmico agora e nova medida da temperatura em uma hora."
+  - texto: "A intensidade da febre: 38,9 °C é febre alta, então antitérmico agora e nova medida em uma hora."
     avaliacao: erro
     feedback: "Febre alta e febre grave não são a mesma coisa. Há criança com 40 °C brincando na sala de espera e criança com 38 °C em choque. O antitérmico trata o desconforto, não a doença, e a queda da temperatura não é prova de melhora."
     proximo: c-antitermico
+  - texto: "Despir a criança por completo e avaliar estado geral, consciência, perfusão, hidratação e pele."
+    avaliacao: otima
+    feedback: "Esse é o exame que muda a conduta. O número isolado não gradua gravidade: estado geral, hidratação, perfusão e comportamento pesam mais que décimos de grau — e petéquias só aparecem para quem despe a criança."
+    proximo: c-petequias
   - texto: "Colher hemograma, PCR, urina e hemocultura e aguardar os resultados para então decidir a conduta."
     avaliacao: erro
     feedback: "Diante de sinais de gravidade, a conduta corre junto com a investigação, nunca depois dela. Colher exames é correto; esperar por eles com a criança assim é o erro."
@@ -95,11 +95,11 @@ tipo: decisao
 id: d-conduta
 pergunta: "Criança febril com petéquias, taquipneia, pulso fino e rebaixamento do nível de consciência. Qual a conduta?"
 opcoes:
-  - texto: "Tratar como emergência: monitorização, acesso venoso, expansão volêmica, coleta de culturas e antimicrobiano precoce, sem esperar resultado de exame."
+  - texto: "Tratar como emergência: acesso venoso, volume, culturas e antimicrobiano precoce."
     avaliacao: otima
-    feedback: "Petéquias, taquipneia, má perfusão e sonolência são sinais de gravidade. Nessa situação estabiliza-se, colhem-se culturas e o antimicrobiano entra cedo — a hora do antibiótico é parte do prognóstico."
+    feedback: "Petéquias, taquipneia, má perfusão e sonolência são sinais de gravidade. Nessa situação monitoriza-se, estabiliza-se, colhem-se culturas e o antimicrobiano entra cedo, sem esperar resultado de exame — a hora do antibiótico é parte do prognóstico."
     proximo: fim-otimo
-  - texto: "Antitérmico e reavaliação em 24 a 72 horas, orientando a mãe sobre sinais de alarme e o registro da curva térmica."
+  - texto: "Antitérmico e reavaliação em 24 a 72 horas, orientando a mãe sobre os sinais de alarme."
     avaliacao: erro
     feedback: "Reavaliar em 24 a 72 h é a conduta da criança febril sem sinais de gravidade e sem foco aparente. Aqui os sinais de gravidade já estão na sua frente."
     proximo: fim-dano-atraso
@@ -139,9 +139,9 @@ tipo: decisao
 id: d-resgate
 pergunta: "O tempo passou e a criança está pior. O que você faz agora?"
 opcoes:
-  - texto: "Reconhecer os sinais de gravidade: monitorização, acesso venoso, expansão volêmica, culturas e antimicrobiano imediato."
+  - texto: "Sinais de gravidade: acesso venoso, volume, culturas e antimicrobiano imediato."
     avaliacao: otima
-    feedback: "Certo, e ainda dá tempo de fazer diferença. O que se perdeu foi tempo, e é justamente ele que não se recupera depois."
+    feedback: "Certo, e ainda dá tempo de fazer diferença. Monitorize, expanda, colha as culturas e não espere o resultado. O que se perdeu foi tempo, e é justamente ele que não se recupera depois."
     proximo: fim-aceitavel
   - texto: "Nova dose de antitérmico e mais uma hora de observação antes de decidir."
     avaliacao: erro

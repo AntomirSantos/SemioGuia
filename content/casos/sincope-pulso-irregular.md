@@ -23,7 +23,7 @@ dados:
   - "Mulher de 74 anos, hipertensa, em uso de hidroclorotiazida e furosemida"
   - "Perda de consciência de cerca de 30 segundos ao levantar-se, sem abalos e sem liberação esfincteriana"
   - "Sem dor torácica, sem palpitação percebida"
-  - "Frequência exibida no monitor do posto: 112 bpm"
+  - "Frequência exibida no monitor do posto: 138 bpm"
 proximo: d-exame
 :::
 
@@ -32,15 +32,15 @@ tipo: decisao
 id: d-exame
 pergunta: "Qual é o seu primeiro exame à beira do leito?"
 opcoes:
-  - texto: "Palpar a radial durante 60 segundos completos, avaliando frequência, ritmo, amplitude e as duas radiais em conjunto, e auscultar o precórdio no mesmo minuto para comparar os números."
-    avaliacao: otima
-    feedback: "O pulso entrega sete informações, e nenhuma delas cabe em um número no monitor. Auscultar o precórdio no mesmo minuto é o que revela o déficit de pulso."
-    proximo: c-pulso
-  - texto: "Contar o pulso por 15 segundos e multiplicar por quatro, para não perder tempo, e pedir o eletrocardiograma."
+  - texto: "Contar o pulso por 15 segundos e multiplicar por quatro, para não perder tempo."
     avaliacao: erro
     feedback: "Quinze segundos multiplicados por quatro amplificam o erro da contagem e, pior, perdem a irregularidade: é justamente o ritmo que este caso precisa que você descreva."
     proximo: c-pulso-perdido
-  - texto: "Aceitar os 112 bpm do monitor e seguir direto para o eletrocardiograma; a palpação não acrescentaria nada."
+  - texto: "Palpar a radial por 60 segundos completos, com o estetoscópio no precórdio no mesmo minuto."
+    avaliacao: otima
+    feedback: "O pulso entrega sete informações — parede, frequência, ritmo, amplitude, tensão, tipo de onda e comparação entre os lados —, e nenhuma delas cabe num número de monitor. Palpar e auscultar ao mesmo tempo, no mesmo minuto, é o que revela o déficit de pulso: contagens feitas em minutos diferentes não são comparáveis quando o ritmo é irregular."
+    proximo: c-pulso
+  - texto: "Anotar a frequência que o monitor do posto já mostra; a palpação não acrescentaria nada."
     avaliacao: erro
     feedback: "O monitor conta batimentos elétricos; a radial conta os que geraram onda de pulso. A diferença entre os dois é um achado, não um detalhe — e é ela que aponta a arritmia."
     proximo: c-pulso-perdido
@@ -49,7 +49,7 @@ opcoes:
 ::: no
 tipo: cena
 id: c-pulso
-texto: "Sob as suas polpas, a radial não guarda nenhum compasso: os intervalos mudam a cada batimento e a força das ondas também — algumas quase somem. Você conta o minuto inteiro, depois ausculta o precórdio contando outro minuto, e os dois números não batem."
+texto: "Sob as suas polpas, a radial não guarda compasso nenhum: os intervalos mudam a cada batimento e a força das ondas também — algumas quase somem. Você mantém os dedos no punho e encaixa o estetoscópio no precórdio ao mesmo tempo, contando no mesmo minuto o que ouve e o que sente. Os dois números não batem."
 dados:
   - "FC 116 bpm à palpação da radial, contada em 60 segundos"
   - "Ritmo completamente irregular, sem padrão; amplitude variável a cada onda"
@@ -64,10 +64,6 @@ tipo: decisao
 id: d-interpretacao
 pergunta: "Como você interpreta esse pulso?"
 opcoes:
-  - texto: "Pulso rápido, completamente irregular, de amplitude variável e com déficit de pulso: fibrilação atrial até prova em contrário. Pedir eletrocardiograma de 12 derivações para confirmar."
-    avaliacao: otima
-    feedback: "Essa é a leitura correta. Irregularidade sem padrão somada a amplitude variável e déficit de pulso é fibrilação atrial até que o eletrocardiograma diga o contrário."
-    proximo: c-ecg
   - texto: "Pulso alternante — uma onda forte seguida de outra fraca —, sinal de insuficiência ventricular esquerda."
     avaliacao: erro
     feedback: "No pulso alternante a alternância de amplitude é regular: os intervalos entre as ondas continuam iguais. Aqui os intervalos não se repetem, e é isso que separa um achado do outro."
@@ -76,6 +72,10 @@ opcoes:
     avaliacao: erro
     feedback: "Extrassístoles isoladas produzem pausas dentro de um ritmo de base regular. Irregularidade total, com déficit de pulso de 22 batimentos, é outra coisa."
     proximo: c-conduta-errada
+  - texto: "Fibrilação atrial até prova em contrário; pedir eletrocardiograma de 12 derivações."
+    avaliacao: otima
+    feedback: "Essa é a leitura correta. Pulso rápido, completamente irregular, de amplitude variável a cada batimento e com déficit de pulso é fibrilação atrial até que o eletrocardiograma diga o contrário."
+    proximo: c-ecg
 :::
 
 ::: no
@@ -95,15 +95,15 @@ tipo: decisao
 id: d-ortostase
 pergunta: "A fibrilação atrial está confirmada. Mas a síncope aconteceu no exato momento em que ela se levantou. O que ainda falta no seu exame?"
 opcoes:
-  - texto: "Aferir a PA e o pulso em decúbito, sentada e em pé, esperando 3 minutos em ortostase, à procura de hipotensão ortostática."
+  - texto: "Aferir a PA em decúbito, sentada e em pé, esperando 3 minutos completos na ortostase."
     avaliacao: otima
     feedback: "Idosa, dois diuréticos e síncope ao levantar-se: a ortostase precisa ser medida, não presumida. Queda maior que 20 mmHg na PAS ou 10 mmHg na PAD após 3 minutos em pé caracteriza hipotensão postural."
     proximo: c-ortostatica
-  - texto: "Nada mais: a fibrilação atrial de alta resposta explica a síncope. Encerrar a investigação e controlar a frequência."
+  - texto: "Nada mais: a fibrilação atrial de alta resposta explica a síncope. Controlar a frequência."
     avaliacao: erro
     feedback: "A arritmia explica parte da história, e parar nela é confortável demais. O gatilho postural, com dois diuréticos na prescrição, aponta uma segunda causa que se mede com o manguito em três posições."
     proximo: fim-dano-recorrencia
-  - texto: "Nada mais por ora: ela está lúcida e sem queixas. Liberar para ir ao banheiro acompanhada e reavaliar na visita de amanhã."
+  - texto: "Nada mais por ora: ela está lúcida. Liberar para ir ao banheiro acompanhada."
     avaliacao: erro
     feedback: "Quem desmaiou ao levantar-se uma vez desmaia de novo ao levantar-se. Antes de liberar a ortostase, é preciso saber o que a pressão faz quando ela fica de pé."
     proximo: fim-dano-recorrencia
@@ -125,7 +125,7 @@ proximo: fim-otimo
 ::: no
 tipo: cena
 id: c-pulso-perdido
-texto: "No prontuário fica escrito 'FC 108 bpm, ritmo regular'. A arritmia não aparece em lugar nenhum e ninguém pede o eletrocardiograma. No fim da tarde, a caminho do banheiro, ela cai outra vez — desta vez com laceração no supercílio."
+texto: "No prontuário fica escrito só um número, sem uma palavra sobre ritmo ou amplitude. A irregularidade não aparece em lugar nenhum e ninguém pede o eletrocardiograma. No fim da tarde, a caminho do banheiro, ela cai outra vez — desta vez com laceração no supercílio."
 dados:
   - "Segundo episódio de perda de consciência, agora com trauma de face"
   - "Laceração no supercílio direito, com necessidade de sutura"
@@ -151,14 +151,14 @@ tipo: decisao
 id: d-resgate
 pergunta: "Segundo episódio, agora com trauma. O que você faz?"
 opcoes:
-  - texto: "Voltar ao básico: pulso radial por 60 segundos com ausculta simultânea do precórdio, PA nas três posições com 3 minutos de ortostase, eletrocardiograma de 12 derivações e revisão dos diuréticos."
-    avaliacao: otima
-    feedback: "É o exame que deveria ter aberto o caso. Feito agora, ele ainda identifica as duas causas — a arritmia e a hipotensão postural — e evita o terceiro episódio."
-    proximo: fim-aceitavel
   - texto: "Prescrever repouso no leito com grades elevadas e reavaliar na visita de amanhã."
     avaliacao: erro
     feedback: "Grade elevada previne queda, não previne síncope, e não diagnostica nada. A causa continua na prescrição e no ritmo cardíaco."
     proximo: fim-dano-recorrencia
+  - texto: "Refazer o exame do zero: pulso e ausculta no mesmo minuto, PA nas três posições e ECG."
+    avaliacao: otima
+    feedback: "É o exame que deveria ter aberto o caso. Feito agora, ele ainda identifica as duas causas — a arritmia e a hipotensão postural — e evita o terceiro episódio. Reveja também os dois diuréticos."
+    proximo: fim-aceitavel
 :::
 
 ::: no

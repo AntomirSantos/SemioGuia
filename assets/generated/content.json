@@ -969,7 +969,7 @@
     "exame-fisico-geral/sinais-vitais/frequencia-cardiaca-e-pulso"
    ],
    "referencias": [
-    "Diretriz Brasileira de Hipertensão Arterial — 2025 (SBC/SBH/SBN), cap. 11 (Crise hipertensiva), Quadros 11.1 a 11.3",
+    "Diretriz Brasileira de Hipertensão Arterial — 2025 (SBC/SBH/SBN), cap. 11 (Crise hipertensiva), Figura 11.1 e Quadros 11.1 a 11.3",
     "Porto — Semiologia Médica, 8ª ed., cap. 47 (Exame clínico do sistema cardiovascular)",
     "Porto — Exame Clínico, 8ª ed., cap. 14 (Exame da pressão arterial) e cap. 21 (Sinais vitais)",
     "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 17 (Blood Pressure)"
@@ -996,19 +996,19 @@
      "pergunta": "Antes de qualquer conduta, o que você faz com esse número?",
      "opcoes": [
       {
-       "texto": "Reaferir você mesmo: paciente em repouso de 3 a 5 minutos, braço exposto e apoiado na altura do coração, manguito escolhido pela circunferência do braço, sistólica estimada pela palpação antes de auscultar e medida nos dois braços.",
-       "avaliacao": "otima",
-       "feedback": "Uma medida feita por cima da roupa, sem repouso e com manguito qualquer não sustenta diagnóstico nenhum. A estimativa palpatória evita cair no hiato auscultatório, e a medida nos dois braços procura a assimetria que levanta suspeita de dissecção de aorta.",
-       "proximo": "c-medida-confirmada"
-      },
-      {
        "texto": "Reaferir com cuidado, mas só no braço direito e sem o método palpatório, para não perder tempo.",
        "avaliacao": "aceitavel",
        "feedback": "Repetir a medida já é bem melhor do que aceitar a da triagem. Faltaram dois passos de dez segundos: a estimativa palpatória, que protege do hiato auscultatório, e o braço contralateral, cuja diferença pode ser a única pista de dissecção aguda de aorta.",
+       "proximo": "c-medida-um-braco"
+      },
+      {
+       "texto": "Reaferir você mesmo, com o paciente em repouso, manguito adequado ao braço e medida nos dois lados.",
+       "avaliacao": "otima",
+       "feedback": "Medida por cima da roupa, sem repouso e com manguito qualquer não sustenta diagnóstico nenhum. Repouso de 3 a 5 minutos, braço exposto e apoiado na altura do coração, manguito escolhido pela circunferência, sistólica estimada pela palpação antes de auscultar — e os dois braços, porque a diferença entre eles pode ser a única pista de dissecção de aorta.",
        "proximo": "c-medida-confirmada"
       },
       {
-       "texto": "O valor já é altíssimo: dar nifedipina sublingual de liberação rápida para derrubar a pressão enquanto você examina.",
+       "texto": "O valor já é altíssimo: nifedipina sublingual de liberação rápida agora, enquanto você examina.",
        "avaliacao": "erro",
        "feedback": "A nifedipina de liberação rápida é proscrita na crise hipertensiva. A queda é abrupta e não se interrompe — e o cérebro, o coração e o rim de um hipertenso crônico dependem de pressões mais altas para se perfundir.",
        "proximo": "c-queda-abrupta"
@@ -1018,7 +1018,7 @@
     {
      "tipo": "cena",
      "id": "c-medida-confirmada",
-     "texto": "Com repouso e manguito adequado, a elevação se confirma nos dois braços. Ele responde a tudo sem dificuldade, mas prefere ficar sentado e completa as frases com esforço.",
+     "texto": "Com repouso e manguito adequado, a elevação se confirma nos dois braços, sem diferença relevante entre eles. Ele responde a tudo sem dificuldade, mas prefere ficar sentado e completa as frases com esforço.",
      "dados": [
       "PA 196 x 124 mmHg (braço direito)",
       "PA 192 x 120 mmHg (braço esquerdo)",
@@ -1029,20 +1029,27 @@
      "proximo": "d-loa"
     },
     {
+     "tipo": "cena",
+     "id": "c-medida-um-braco",
+     "texto": "Com repouso e manguito adequado, a elevação se confirma no braço direito. O esquerdo ficou sem medida, e no prontuário existe um lado só. Ele responde a tudo sem dificuldade, mas prefere ficar sentado e completa as frases com esforço.",
+     "dados": [
+      "PA 196 x 124 mmHg (braço direito)",
+      "Braço esquerdo não aferido",
+      "FC 96 bpm, pulso regular e duro",
+      "FR 24 irpm",
+      "SpO2 93% em ar ambiente"
+     ],
+     "proximo": "d-loa"
+    },
+    {
      "tipo": "decisao",
      "id": "d-loa",
-     "pergunta": "PA 196 x 124 mmHg confirmada. O que decide se isso é uma emergência hipertensiva?",
+     "pergunta": "A elevação está confirmada. O que decide se isso é uma emergência hipertensiva?",
      "opcoes": [
       {
-       "texto": "Procurar lesão aguda de órgão-alvo: perguntar por dor torácica, dispneia, alteração visual e déficit neurológico, e examinar nível de consciência, ausculta cardíaca e pulmonar, turgência jugular e pulsos dos quatro membros.",
-       "avaliacao": "otima",
-       "feedback": "É a lesão aguda e progressiva de órgão-alvo, não o número, que separa a emergência hipertensiva da elevação importante da PA sem lesão. E é ela que define qual órgão tratar, com que droga e em que velocidade.",
-       "proximo": "c-edema-agudo"
-      },
-      {
-       "texto": "O próprio número: PAS ≥ 180 com PAD ≥ 110 mmHg fecha o diagnóstico de emergência hipertensiva. Prescrever anti-hipertensivo venoso e pedir vaga na UTI.",
+       "texto": "O próprio número: PAS ≥ 180 com PAD ≥ 110 mmHg fecha o diagnóstico de emergência hipertensiva. Pedir vaga na UTI.",
        "avaliacao": "erro",
-       "feedback": "Esses valores levantam a suspeita, mas não fecham nada — a maior parte dos pacientes nessa faixa não tem lesão aguda de órgão-alvo. Tratar sem saber qual órgão está sofrendo é escolher droga, via e alvo no escuro.",
+       "feedback": "Esses valores levantam a suspeita, mas não fecham nada — a maior parte dos pacientes nessa faixa não tem lesão aguda de órgão-alvo. E, se houver, é o órgão acometido que define o alvo de redução: sem saber qual é, você não sabe nem o que pedir para a UTI.",
        "proximo": "c-atraso"
       },
       {
@@ -1050,6 +1057,12 @@
        "avaliacao": "erro",
        "feedback": "A observação de 30 minutos em ambiente tranquilo é a primeira medida quando os sintomas NÃO têm relação com lesão aguda de órgão-alvo. Só que isso você ainda não sabe: sem o exame dirigido, observar é adiar.",
        "proximo": "c-atraso"
+      },
+      {
+       "texto": "Procurar lesão aguda de órgão-alvo: sintomas dirigidos e exame de consciência, tórax, jugulares e pulsos.",
+       "avaliacao": "otima",
+       "feedback": "É a lesão aguda e progressiva de órgão-alvo, não o número, que separa a emergência hipertensiva da elevação importante da PA sem lesão. Pergunte por dor torácica, dispneia, alteração visual e déficit neurológico, e examine consciência, ausculta cardíaca e pulmonar, turgência jugular e pulsos. O órgão acometido é que define droga, via e alvo.",
+       "proximo": "c-edema-agudo"
       }
      ]
     },
@@ -1069,24 +1082,24 @@
     {
      "tipo": "decisao",
      "id": "d-conduta",
-     "pergunta": "Emergência hipertensiva com edema agudo de pulmão. Qual a conduta?",
+     "pergunta": "Emergência hipertensiva com edema agudo de pulmão. Qual o alvo da primeira hora?",
      "opcoes": [
       {
-       "texto": "Sala de emergência: monitorização, oxigênio, acesso venoso e anti-hipertensivo parenteral titulável, com redução controlada — sem passar de 25 a 30% de queda nas primeiras 2 a 4 horas.",
-       "avaliacao": "otima",
-       "feedback": "Droga venosa titulável em ambiente monitorizado e alvo prudente. A autorregulação do hipertenso crônico está deslocada para cima: a queda excessiva troca congestão por isquemia.",
-       "proximo": "fim-otimo"
-      },
-      {
-       "texto": "Normalizar a PA o mais rápido possível, até 120 x 80 mmHg, já que o pulmão está congesto.",
+       "texto": "Levar a PA até 120 x 80 mmHg na primeira hora: se o alvo é baixar depressa, baixar até o normal.",
        "avaliacao": "erro",
-       "feedback": "Normalizar não é meta da primeira hora. Reduções rápidas e excessivas ultrapassam o limite inferior da autorregulação e produzem isquemia cerebral, coronariana e renal — o dano que você queria evitar.",
+       "feedback": "Depressa, sim; até o normal, não. O alvo desta primeira hora é PAS abaixo de 140 mmHg — valores normais são meta de 24 a 48 horas. No hipertenso crônico a autorregulação está deslocada para cima, e a queda excessiva troca congestão por isquemia.",
        "proximo": "fim-dano-queda"
       },
       {
-       "texto": "Nifedipina sublingual de liberação rápida, que age em minutos, enquanto a bomba de infusão é preparada.",
+       "texto": "Droga intravenosa titulável em paciente monitorizado, com alvo de PAS < 140 mmHg na primeira hora.",
+       "avaliacao": "otima",
+       "feedback": "Monitorização, oxigênio e acesso venoso, e o alvo correto: o edema agudo de pulmão está no ramo de exceção do fluxograma da diretriz, ao lado das crises catecolaminérgicas e da dissecção de aorta. Aqui a redução é mais rápida, com PAS abaixo de 140 mmHg já na primeira hora — e é a titulação da droga intravenosa que torna essa velocidade segura.",
+       "proximo": "fim-otimo"
+      },
+      {
+       "texto": "Nifedipina sublingual de liberação rápida, que age em minutos, enquanto a bomba é preparada.",
        "avaliacao": "erro",
-       "feedback": "É exatamente o que não se faz. A apresentação sublingual de liberação rápida é proscrita: a queda é veloz, imprevisível e não se interrompe se o paciente passar mal.",
+       "feedback": "É exatamente o que não se faz. O alvo é alcançado com droga titulável, que se interrompe quando o paciente passa mal. A apresentação sublingual de liberação rápida é proscrita justamente porque a queda é veloz, imprevisível e sem freio.",
        "proximo": "fim-dano-queda"
       }
      ]
@@ -1106,19 +1119,19 @@
     {
      "tipo": "decisao",
      "id": "d-resgate-queda",
-     "pergunta": "A pressão caiu demais e rápido demais, e agora há dor precordial. O que você faz?",
+     "pergunta": "A pressão caiu longe demais e sem controle, e agora há dor precordial. O que você faz?",
      "opcoes": [
-      {
-       "texto": "Suspender qualquer nova dose, monitorizar, oxigênio, acesso venoso, ECG imediato e fazer o exame dirigido que ficou para trás — inclusive o tórax.",
-       "avaliacao": "otima",
-       "feedback": "Boa recuperação. A prioridade agora é conter o estrago: nenhuma droga nova, monitor, ECG à procura de isquemia e o exame que deveria ter vindo primeiro.",
-       "proximo": "fim-aceitavel"
-      },
       {
        "texto": "A pressão baixou, o objetivo foi cumprido: liberar com receita e retorno ambulatorial.",
        "avaliacao": "erro",
        "feedback": "O número melhorou e o paciente piorou. Dor precordial nova depois de uma queda abrupta de pressão é isquemia até prova em contrário.",
        "proximo": "fim-dano-alta"
+      },
+      {
+       "texto": "Nenhuma droga nova: monitorizar, oxigênio, acesso venoso, ECG imediato e examinar o tórax.",
+       "avaliacao": "otima",
+       "feedback": "Boa recuperação. A prioridade agora é conter o estrago: nada de nova dose, monitor, ECG à procura de isquemia e o exame dirigido que deveria ter vindo primeiro — o tórax dele ainda não foi auscultado.",
+       "proximo": "fim-aceitavel"
       }
      ]
     },
@@ -1140,15 +1153,15 @@
      "pergunta": "O edema agudo de pulmão estava ali desde a chegada. E agora?",
      "opcoes": [
       {
-       "texto": "Assumir a emergência hipertensiva: monitorização, oxigênio, acesso venoso e anti-hipertensivo parenteral titulável, com redução controlada de no máximo 25 a 30% nas primeiras 2 a 4 horas.",
+       "texto": "Assumir a emergência: droga titulável, com alvo de PAS < 140 mmHg nesta primeira hora.",
        "avaliacao": "otima",
-       "feedback": "É a conduta certa, atrasada. Ele vai ser tratado, mas passou quarenta minutos congesto e hipoxêmico — e esse tempo cobra o preço em órgão.",
+       "feedback": "É a conduta certa, atrasada. Monitorização, oxigênio e droga intravenosa titulável, com o alvo correto para o edema agudo de pulmão — mas ele passou quarenta minutos congesto e hipoxêmico, e esse tempo cobra o preço em órgão.",
        "proximo": "fim-aceitavel"
       },
       {
-       "texto": "Correr atrás do tempo perdido: doses sucessivas até a pressão cair depressa para a faixa normal.",
+       "texto": "Correr atrás do tempo perdido: doses sucessivas até a pressão chegar a 120 x 80 mmHg.",
        "avaliacao": "erro",
-       "feedback": "Tempo perdido não se compensa com velocidade. A queda excessiva apenas soma isquemia à congestão que já existe.",
+       "feedback": "Tempo perdido não se compensa passando do alvo. Abaixo de 140 mmHg de PAS já resolve a primeira hora; empurrar até o normal soma isquemia à congestão que já existe.",
        "proximo": "fim-dano-queda"
       }
      ]
@@ -1157,22 +1170,22 @@
      "tipo": "desfecho",
      "id": "fim-otimo",
      "classe": "otimo",
-     "texto": "Na sala de emergência, com monitor e oxigênio, a pressão cede de forma controlada nas primeiras horas. A dispneia diminui, a saturação sobe e ele consegue deitar. No prontuário ficam registrados o valor de entrada, a técnica usada, os achados que caracterizaram a lesão de órgão-alvo e o alvo de redução pactuado.",
-     "ensino": "Crise hipertensiva não se diagnostica pelo número. O que separa a emergência hipertensiva da elevação importante da PA sem lesão é a lesão aguda e progressiva de órgão-alvo. Antes de tratar, confirme a medida com técnica correta e procure o órgão que está sofrendo: é ele que dita a droga, a via e a velocidade da redução."
+     "texto": "Na sala de emergência, com monitor e oxigênio, a PAS entra abaixo de 140 mmHg ainda na primeira hora, de forma titulada. A dispneia diminui, a saturação sobe e ele consegue deitar. No prontuário ficam registrados o valor de entrada, a técnica usada, os achados que caracterizaram a lesão de órgão-alvo e o alvo pactuado.",
+     "ensino": "Crise hipertensiva não se diagnostica pelo número. O que separa a emergência hipertensiva da elevação importante da PA sem lesão é a lesão aguda e progressiva de órgão-alvo. Antes de tratar, confirme a medida com técnica correta e procure o órgão que está sofrendo: é ele que dita a droga, a via e o alvo da redução."
     },
     {
      "tipo": "desfecho",
      "id": "fim-aceitavel",
      "classe": "aceitavel",
-     "texto": "O paciente recebe o tratamento certo, com atraso. Melhora, mas passou um tempo evitável congesto e hipoxêmico, e parte da conversa com a família acaba sendo sobre o que quase aconteceu.",
-     "ensino": "Errar a ordem custa tempo, e tempo é órgão. Reconhecer o próprio erro cedo e voltar ao exame dirigido ainda salva o desfecho; insistir na conduta errada, não."
+     "texto": "O paciente acaba recebendo o tratamento certo, depois de um susto evitável. Ele melhora, mas parte da conversa com a família passa a ser sobre o que quase aconteceu.",
+     "ensino": "Os dois caminhos que chegam aqui têm a mesma raiz: agir sobre o número antes de examinar o paciente. Tratar sem saber qual órgão está sofrendo expõe a uma queda sem alvo e sem freio; esperar sem examinar deixa a lesão progredir. Reconhecer o próprio erro e voltar ao exame dirigido ainda salva o desfecho — insistir na conduta errada, não."
     },
     {
      "tipo": "desfecho",
      "id": "fim-dano-queda",
      "classe": "dano",
-     "texto": "A pressão cai muito além do necessário. Ele fica sonolento, com sudorese fria e novo desconforto precordial; o ECG mostra alterações isquêmicas que não existiam na chegada. A congestão pulmonar foi trocada por isquemia.",
-     "ensino": "No hipertenso crônico a autorregulação está deslocada para cima: a pressão 'normal' pode ser isquêmica para ele. Fora de indicações específicas, não se reduz a PA mais de 25 a 30% nas primeiras 2 a 4 horas — e nunca com nifedipina sublingual de liberação rápida, proscrita justamente por produzir queda veloz e incontrolável."
+     "texto": "A pressão cai muito além do alvo. Ele fica sonolento, com sudorese fria e novo desconforto precordial; o ECG mostra alterações isquêmicas que não existiam na chegada. A congestão pulmonar foi trocada por isquemia.",
+     "ensino": "No hipertenso crônico a autorregulação está deslocada para cima: a pressão 'normal' pode ser isquêmica para ele. O alvo depende da emergência — edema agudo de pulmão e crise catecolaminérgica pedem PAS abaixo de 140 mmHg na primeira hora, e a dissecção aguda de aorta, abaixo de 120 mmHg; nas demais emergências hipertensivas, reduz-se cerca de 25% na primeira hora, chega-se a 160/100 a 110 mmHg em 2 a 6 horas e a valores normais só em 24 a 48 horas. Em nenhuma delas se usa nifedipina sublingual de liberação rápida, proscrita por produzir queda veloz e incontrolável."
     },
     {
      "tipo": "desfecho",
@@ -1225,12 +1238,6 @@
      "pergunta": "Como você registra a temperatura de Helena agora?",
      "opcoes": [
       {
-       "texto": "Termômetro digital na axila seca, bulbo no oco axilar e braço apoiado sobre o tórax; anotar valor, local e horário.",
-       "avaliacao": "otima",
-       "feedback": "É a via recomendada para toda criança. Na criança, febre é temperatura axilar ≥ 37,5 °C, e o registro só serve à curva térmica se trouxer junto o local e o horário da aferição.",
-       "proximo": "c-axilar"
-      },
-      {
        "texto": "Repetir com o termômetro de infravermelho do serviço, que é rápido e não incomoda a criança.",
        "avaliacao": "aceitavel",
        "feedback": "Serve para uma triagem rápida, mas é o método de maior variabilidade entre todos. Antes de tomar decisão sobre uma criança prostrada, confirme na axila com termômetro digital.",
@@ -1241,6 +1248,12 @@
        "avaliacao": "erro",
        "feedback": "Você tratou o número e adiou o exame. Em criança febril, o que decide a conduta é o estado geral — e ele só aparece com a criança despida e examinada, não no visor do termômetro.",
        "proximo": "c-antitermico"
+      },
+      {
+       "texto": "Termômetro digital na axila seca, anotando valor, local e horário.",
+       "avaliacao": "otima",
+       "feedback": "É a via recomendada para toda criança: bulbo no oco axilar, axila seca, braço apoiado sobre o tórax. Na criança, febre é temperatura axilar ≥ 37,5 °C, e o registro só serve à curva térmica se trouxer junto o local e o horário da aferição.",
+       "proximo": "c-axilar"
       }
      ]
     },
@@ -1262,16 +1275,16 @@
      "pergunta": "38,9 °C na axila. O que pesa mais na sua decisão neste momento?",
      "opcoes": [
       {
-       "texto": "Despir a criança por completo e avaliar estado geral, nível de consciência, perfusão, hidratação e toda a pele, procurando sinais de gravidade.",
-       "avaliacao": "otima",
-       "feedback": "Esse é o exame que muda a conduta. O número isolado não gradua gravidade: estado geral, hidratação, perfusão e comportamento pesam mais que décimos de grau — e petéquias só aparecem para quem despe a criança.",
-       "proximo": "c-petequias"
-      },
-      {
-       "texto": "A intensidade da febre: 38,9 °C é febre alta, então antitérmico agora e nova medida da temperatura em uma hora.",
+       "texto": "A intensidade da febre: 38,9 °C é febre alta, então antitérmico agora e nova medida em uma hora.",
        "avaliacao": "erro",
        "feedback": "Febre alta e febre grave não são a mesma coisa. Há criança com 40 °C brincando na sala de espera e criança com 38 °C em choque. O antitérmico trata o desconforto, não a doença, e a queda da temperatura não é prova de melhora.",
        "proximo": "c-antitermico"
+      },
+      {
+       "texto": "Despir a criança por completo e avaliar estado geral, consciência, perfusão, hidratação e pele.",
+       "avaliacao": "otima",
+       "feedback": "Esse é o exame que muda a conduta. O número isolado não gradua gravidade: estado geral, hidratação, perfusão e comportamento pesam mais que décimos de grau — e petéquias só aparecem para quem despe a criança.",
+       "proximo": "c-petequias"
       },
       {
        "texto": "Colher hemograma, PCR, urina e hemocultura e aguardar os resultados para então decidir a conduta.",
@@ -1300,13 +1313,13 @@
      "pergunta": "Criança febril com petéquias, taquipneia, pulso fino e rebaixamento do nível de consciência. Qual a conduta?",
      "opcoes": [
       {
-       "texto": "Tratar como emergência: monitorização, acesso venoso, expansão volêmica, coleta de culturas e antimicrobiano precoce, sem esperar resultado de exame.",
+       "texto": "Tratar como emergência: acesso venoso, volume, culturas e antimicrobiano precoce.",
        "avaliacao": "otima",
-       "feedback": "Petéquias, taquipneia, má perfusão e sonolência são sinais de gravidade. Nessa situação estabiliza-se, colhem-se culturas e o antimicrobiano entra cedo — a hora do antibiótico é parte do prognóstico.",
+       "feedback": "Petéquias, taquipneia, má perfusão e sonolência são sinais de gravidade. Nessa situação monitoriza-se, estabiliza-se, colhem-se culturas e o antimicrobiano entra cedo, sem esperar resultado de exame — a hora do antibiótico é parte do prognóstico.",
        "proximo": "fim-otimo"
       },
       {
-       "texto": "Antitérmico e reavaliação em 24 a 72 horas, orientando a mãe sobre sinais de alarme e o registro da curva térmica.",
+       "texto": "Antitérmico e reavaliação em 24 a 72 horas, orientando a mãe sobre os sinais de alarme.",
        "avaliacao": "erro",
        "feedback": "Reavaliar em 24 a 72 h é a conduta da criança febril sem sinais de gravidade e sem foco aparente. Aqui os sinais de gravidade já estão na sua frente.",
        "proximo": "fim-dano-atraso"
@@ -1350,9 +1363,9 @@
      "pergunta": "O tempo passou e a criança está pior. O que você faz agora?",
      "opcoes": [
       {
-       "texto": "Reconhecer os sinais de gravidade: monitorização, acesso venoso, expansão volêmica, culturas e antimicrobiano imediato.",
+       "texto": "Sinais de gravidade: acesso venoso, volume, culturas e antimicrobiano imediato.",
        "avaliacao": "otima",
-       "feedback": "Certo, e ainda dá tempo de fazer diferença. O que se perdeu foi tempo, e é justamente ele que não se recupera depois.",
+       "feedback": "Certo, e ainda dá tempo de fazer diferença. Monitorize, expanda, colha as culturas e não espere o resultado. O que se perdeu foi tempo, e é justamente ele que não se recupera depois.",
        "proximo": "fim-aceitavel"
       },
       {
@@ -1418,7 +1431,7 @@
       "Mulher de 74 anos, hipertensa, em uso de hidroclorotiazida e furosemida",
       "Perda de consciência de cerca de 30 segundos ao levantar-se, sem abalos e sem liberação esfincteriana",
       "Sem dor torácica, sem palpitação percebida",
-      "Frequência exibida no monitor do posto: 112 bpm"
+      "Frequência exibida no monitor do posto: 138 bpm"
      ],
      "proximo": "d-exame"
     },
@@ -1428,19 +1441,19 @@
      "pergunta": "Qual é o seu primeiro exame à beira do leito?",
      "opcoes": [
       {
-       "texto": "Palpar a radial durante 60 segundos completos, avaliando frequência, ritmo, amplitude e as duas radiais em conjunto, e auscultar o precórdio no mesmo minuto para comparar os números.",
-       "avaliacao": "otima",
-       "feedback": "O pulso entrega sete informações, e nenhuma delas cabe em um número no monitor. Auscultar o precórdio no mesmo minuto é o que revela o déficit de pulso.",
-       "proximo": "c-pulso"
-      },
-      {
-       "texto": "Contar o pulso por 15 segundos e multiplicar por quatro, para não perder tempo, e pedir o eletrocardiograma.",
+       "texto": "Contar o pulso por 15 segundos e multiplicar por quatro, para não perder tempo.",
        "avaliacao": "erro",
        "feedback": "Quinze segundos multiplicados por quatro amplificam o erro da contagem e, pior, perdem a irregularidade: é justamente o ritmo que este caso precisa que você descreva.",
        "proximo": "c-pulso-perdido"
       },
       {
-       "texto": "Aceitar os 112 bpm do monitor e seguir direto para o eletrocardiograma; a palpação não acrescentaria nada.",
+       "texto": "Palpar a radial por 60 segundos completos, com o estetoscópio no precórdio no mesmo minuto.",
+       "avaliacao": "otima",
+       "feedback": "O pulso entrega sete informações — parede, frequência, ritmo, amplitude, tensão, tipo de onda e comparação entre os lados —, e nenhuma delas cabe num número de monitor. Palpar e auscultar ao mesmo tempo, no mesmo minuto, é o que revela o déficit de pulso: contagens feitas em minutos diferentes não são comparáveis quando o ritmo é irregular.",
+       "proximo": "c-pulso"
+      },
+      {
+       "texto": "Anotar a frequência que o monitor do posto já mostra; a palpação não acrescentaria nada.",
        "avaliacao": "erro",
        "feedback": "O monitor conta batimentos elétricos; a radial conta os que geraram onda de pulso. A diferença entre os dois é um achado, não um detalhe — e é ela que aponta a arritmia.",
        "proximo": "c-pulso-perdido"
@@ -1450,7 +1463,7 @@
     {
      "tipo": "cena",
      "id": "c-pulso",
-     "texto": "Sob as suas polpas, a radial não guarda nenhum compasso: os intervalos mudam a cada batimento e a força das ondas também — algumas quase somem. Você conta o minuto inteiro, depois ausculta o precórdio contando outro minuto, e os dois números não batem.",
+     "texto": "Sob as suas polpas, a radial não guarda compasso nenhum: os intervalos mudam a cada batimento e a força das ondas também — algumas quase somem. Você mantém os dedos no punho e encaixa o estetoscópio no precórdio ao mesmo tempo, contando no mesmo minuto o que ouve e o que sente. Os dois números não batem.",
      "dados": [
       "FC 116 bpm à palpação da radial, contada em 60 segundos",
       "Ritmo completamente irregular, sem padrão; amplitude variável a cada onda",
@@ -1466,12 +1479,6 @@
      "pergunta": "Como você interpreta esse pulso?",
      "opcoes": [
       {
-       "texto": "Pulso rápido, completamente irregular, de amplitude variável e com déficit de pulso: fibrilação atrial até prova em contrário. Pedir eletrocardiograma de 12 derivações para confirmar.",
-       "avaliacao": "otima",
-       "feedback": "Essa é a leitura correta. Irregularidade sem padrão somada a amplitude variável e déficit de pulso é fibrilação atrial até que o eletrocardiograma diga o contrário.",
-       "proximo": "c-ecg"
-      },
-      {
        "texto": "Pulso alternante — uma onda forte seguida de outra fraca —, sinal de insuficiência ventricular esquerda.",
        "avaliacao": "erro",
        "feedback": "No pulso alternante a alternância de amplitude é regular: os intervalos entre as ondas continuam iguais. Aqui os intervalos não se repetem, e é isso que separa um achado do outro.",
@@ -1482,6 +1489,12 @@
        "avaliacao": "erro",
        "feedback": "Extrassístoles isoladas produzem pausas dentro de um ritmo de base regular. Irregularidade total, com déficit de pulso de 22 batimentos, é outra coisa.",
        "proximo": "c-conduta-errada"
+      },
+      {
+       "texto": "Fibrilação atrial até prova em contrário; pedir eletrocardiograma de 12 derivações.",
+       "avaliacao": "otima",
+       "feedback": "Essa é a leitura correta. Pulso rápido, completamente irregular, de amplitude variável a cada batimento e com déficit de pulso é fibrilação atrial até que o eletrocardiograma diga o contrário.",
+       "proximo": "c-ecg"
       }
      ]
     },
@@ -1503,19 +1516,19 @@
      "pergunta": "A fibrilação atrial está confirmada. Mas a síncope aconteceu no exato momento em que ela se levantou. O que ainda falta no seu exame?",
      "opcoes": [
       {
-       "texto": "Aferir a PA e o pulso em decúbito, sentada e em pé, esperando 3 minutos em ortostase, à procura de hipotensão ortostática.",
+       "texto": "Aferir a PA em decúbito, sentada e em pé, esperando 3 minutos completos na ortostase.",
        "avaliacao": "otima",
        "feedback": "Idosa, dois diuréticos e síncope ao levantar-se: a ortostase precisa ser medida, não presumida. Queda maior que 20 mmHg na PAS ou 10 mmHg na PAD após 3 minutos em pé caracteriza hipotensão postural.",
        "proximo": "c-ortostatica"
       },
       {
-       "texto": "Nada mais: a fibrilação atrial de alta resposta explica a síncope. Encerrar a investigação e controlar a frequência.",
+       "texto": "Nada mais: a fibrilação atrial de alta resposta explica a síncope. Controlar a frequência.",
        "avaliacao": "erro",
        "feedback": "A arritmia explica parte da história, e parar nela é confortável demais. O gatilho postural, com dois diuréticos na prescrição, aponta uma segunda causa que se mede com o manguito em três posições.",
        "proximo": "fim-dano-recorrencia"
       },
       {
-       "texto": "Nada mais por ora: ela está lúcida e sem queixas. Liberar para ir ao banheiro acompanhada e reavaliar na visita de amanhã.",
+       "texto": "Nada mais por ora: ela está lúcida. Liberar para ir ao banheiro acompanhada.",
        "avaliacao": "erro",
        "feedback": "Quem desmaiou ao levantar-se uma vez desmaia de novo ao levantar-se. Antes de liberar a ortostase, é preciso saber o que a pressão faz quando ela fica de pé.",
        "proximo": "fim-dano-recorrencia"
@@ -1538,7 +1551,7 @@
     {
      "tipo": "cena",
      "id": "c-pulso-perdido",
-     "texto": "No prontuário fica escrito 'FC 108 bpm, ritmo regular'. A arritmia não aparece em lugar nenhum e ninguém pede o eletrocardiograma. No fim da tarde, a caminho do banheiro, ela cai outra vez — desta vez com laceração no supercílio.",
+     "texto": "No prontuário fica escrito só um número, sem uma palavra sobre ritmo ou amplitude. A irregularidade não aparece em lugar nenhum e ninguém pede o eletrocardiograma. No fim da tarde, a caminho do banheiro, ela cai outra vez — desta vez com laceração no supercílio.",
      "dados": [
       "Segundo episódio de perda de consciência, agora com trauma de face",
       "Laceração no supercílio direito, com necessidade de sutura",
@@ -1565,16 +1578,16 @@
      "pergunta": "Segundo episódio, agora com trauma. O que você faz?",
      "opcoes": [
       {
-       "texto": "Voltar ao básico: pulso radial por 60 segundos com ausculta simultânea do precórdio, PA nas três posições com 3 minutos de ortostase, eletrocardiograma de 12 derivações e revisão dos diuréticos.",
-       "avaliacao": "otima",
-       "feedback": "É o exame que deveria ter aberto o caso. Feito agora, ele ainda identifica as duas causas — a arritmia e a hipotensão postural — e evita o terceiro episódio.",
-       "proximo": "fim-aceitavel"
-      },
-      {
        "texto": "Prescrever repouso no leito com grades elevadas e reavaliar na visita de amanhã.",
        "avaliacao": "erro",
        "feedback": "Grade elevada previne queda, não previne síncope, e não diagnostica nada. A causa continua na prescrição e no ritmo cardíaco.",
        "proximo": "fim-dano-recorrencia"
+      },
+      {
+       "texto": "Refazer o exame do zero: pulso e ausculta no mesmo minuto, PA nas três posições e ECG.",
+       "avaliacao": "otima",
+       "feedback": "É o exame que deveria ter aberto o caso. Feito agora, ele ainda identifica as duas causas — a arritmia e a hipotensão postural — e evita o terceiro episódio. Reveja também os dois diuréticos.",
+       "proximo": "fim-aceitavel"
       }
      ]
     },
