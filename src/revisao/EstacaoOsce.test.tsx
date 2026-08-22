@@ -57,4 +57,19 @@ describe('EstacaoOsce', () => {
     expect(getByText('Explicar o procedimento')).toBeTruthy();
     expect(queryByText('Revelar passo')).toBeNull();
   });
+
+  test('um segundo toque rápido em Lembrei/Esqueci no último passo não chama aoConcluir de novo', async () => {
+    const aoConcluir = jest.fn();
+    const passos = ['Higienizar as mãos'];
+    const { getByText } = await renderEstacao(passos, aoConcluir);
+
+    await fireEvent.press(getByText('Revelar passo'));
+    // Guarda a mesma referência do botão final e dispara dois toques nela —
+    // simula um duplo toque acidental no último Lembrei/Esqueci da estação.
+    const botaoLembrei = getByText('Lembrei');
+    await fireEvent.press(botaoLembrei);
+    await fireEvent.press(botaoLembrei);
+
+    expect(aoConcluir).toHaveBeenCalledTimes(1);
+  });
 });

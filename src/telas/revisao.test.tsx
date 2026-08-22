@@ -48,14 +48,18 @@ function renderRevisao(store: MemoryProgressStore) {
 
 beforeEach(() => {
   (router.back as jest.Mock).mockClear();
+  (router.push as jest.Mock).mockClear();
 });
 
-test('fila vazia mostra "Nada para revisar hoje"', async () => {
+test('fila vazia mostra "Nada para revisar hoje" e oferece "Abrir o Guia"', async () => {
   const { getByText } = await renderRevisao(new MemoryProgressStore());
   await waitFor(() => {
     expect(getByText('Nada para revisar hoje')).toBeTruthy();
   });
   expect(getByText('Estude um tópico no Guia para semear a revisão')).toBeTruthy();
+
+  await fireEvent.press(getByText('Abrir o Guia'));
+  expect(router.push).toHaveBeenCalledWith('/');
 });
 
 test('sessão com 1 pergunta certa salva o item com repeticoes: 1 e mostra o resultado', async () => {
@@ -86,6 +90,12 @@ test('sessão com 1 pergunta certa salva o item com repeticoes: 1 e mostra o res
     expect(getByText('Revisão concluída')).toBeTruthy();
   });
   expect(getByText('1 acerto · 0 erros')).toBeTruthy();
+
+  // pa-1 acabou de ser reagendado para amanhã (repeticoes: 1, intervaloDias:
+  // 1) — a "próxima leva" deve contá-lo.
+  await waitFor(() => {
+    expect(getByText('Próxima leva: 1 item amanhã')).toBeTruthy();
+  });
 
   await fireEvent.press(getByText('Voltar'));
   expect(router.back).toHaveBeenCalled();

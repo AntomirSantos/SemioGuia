@@ -11,13 +11,21 @@ import { obterTopico } from '../content/store';
 import { useProgresso } from '../progress/ProgressContext';
 import { montarFila, idDeChecklist, type FilaDeHoje } from '../revisao/fila';
 import { idsValidosDoConteudo } from '../revisao/idsValidos';
-import { avaliar, notaDeEstacao, notaDePergunta, type ItemRevisao, type NotaSm2 } from '../revisao/sm2';
+import { amanha, avaliar, notaDeEstacao, notaDePergunta, type ItemRevisao, type NotaSm2 } from '../revisao/sm2';
 import { hojeLocal, agoraIso } from '../revisao/hoje';
 import { EstacaoOsce, type ResultadoEstacao } from '../revisao/EstacaoOsce';
 import { PerguntaCard, BotaoPrincipal } from '../quiz/PerguntaCard';
 import type { Bloco, Conteudo, QuizPergunta } from '../content/schema';
 
-function TelaVazia({ mensagem, subtitulo }: { mensagem: string; subtitulo?: string }) {
+function TelaVazia({
+  mensagem,
+  subtitulo,
+  mostrarAbrirGuia,
+}: {
+  mensagem: string;
+  subtitulo?: string;
+  mostrarAbrirGuia?: boolean;
+}) {
   const { paleta, escala } = useTema();
   return (
     <Tela>
@@ -36,20 +44,38 @@ function TelaVazia({ mensagem, subtitulo }: { mensagem: string; subtitulo?: stri
           {subtitulo}
         </Text>
       ) : null}
-      <Pressable
-        accessibilityRole="button"
-        onPress={() => router.back()}
-        style={{
-          alignSelf: 'flex-start',
-          minHeight: 44,
-          justifyContent: 'center',
-          paddingHorizontal: espaco.l,
-          borderRadius: raio.m,
-          backgroundColor: paleta.superficie2,
-        }}
-      >
-        <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.corpo, color: paleta.acentoTinta }}>Voltar</Text>
-      </Pressable>
+      <View style={{ flexDirection: 'row', gap: espaco.s }}>
+        <Pressable
+          accessibilityRole="button"
+          onPress={() => router.back()}
+          style={{
+            alignSelf: 'flex-start',
+            minHeight: 44,
+            justifyContent: 'center',
+            paddingHorizontal: espaco.l,
+            borderRadius: raio.m,
+            backgroundColor: paleta.superficie2,
+          }}
+        >
+          <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.corpo, color: paleta.acentoTinta }}>Voltar</Text>
+        </Pressable>
+        {mostrarAbrirGuia ? (
+          <Pressable
+            accessibilityRole="button"
+            onPress={() => router.push('/')}
+            style={{
+              alignSelf: 'flex-start',
+              minHeight: 44,
+              justifyContent: 'center',
+              paddingHorizontal: espaco.l,
+              borderRadius: raio.m,
+              backgroundColor: paleta.acento,
+            }}
+          >
+            <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.corpo, color: paleta.superficie }}>Abrir o Guia</Text>
+          </Pressable>
+        ) : null}
+      </View>
     </Tela>
   );
 }
@@ -72,6 +98,15 @@ function BotaoSecundario({ rotulo, onPress }: { rotulo: string; onPress: () => v
       <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.corpo, color: paleta.acentoTinta }}>{rotulo}</Text>
     </Pressable>
   );
+}
+
+// Texto da "próxima leva" no resumo final: quantos itens (de todo o conjunto
+// válido, não só os desta sessão) já vencem amanhã — dá ao usuário uma ideia
+// do que vem a seguir sem precisar abrir a fila de novo.
+function textoProximaLeva(n: number): string {
+  if (n === 0) return 'Nada agendado para amanhã';
+  if (n === 1) return 'Próxima leva: 1 item amanhã';
+  return `Próxima leva: ${n} itens amanhã`;
 }
 
 function encontrarPergunta(conteudo: Conteudo, topicoId: string, perguntaId: string): QuizPergunta | undefined {
@@ -111,6 +146,7 @@ export function TelaRevisao() {
   const [erros, setErros] = useState(0);
   const [concluida, setConcluida] = useState(false);
   const [resultadoChecklist, setResultadoChecklist] = useState<ResultadoEstacao | null>(null);
+  const [proximaLeva, setProximaLeva] = useState<number | null>(null);
 
   useEffect(() => {
     let cancelado = false;
@@ -125,12 +161,35 @@ export function TelaRevisao() {
     };
   }, [conteudo, progresso]);
 
+  // Ao concluir a sessão, recarrega os itens (já refletindo as gravações
+  // desta sessão) para contar quantos vencem amanhã — a "próxima leva".
+  useEffect(() => {
+    if (!concluida) return;
+    let cancelado = false;
+    (async () => {
+      const idsValidos = idsValidosDoConteudo(conteudo);
+      const itens = await progresso.listarItensRevisao();
+      const limite = amanha(hojeLocal());
+      const n = itens.filter((i) => idsValidos.has(i.id) && i.proximaRevisao <= limite).length;
+      if (!cancelado) setProximaLeva(n);
+    })();
+    return () => {
+      cancelado = true;
+    };
+  }, [concluida, conteudo, progresso]);
+
   if (fila === null) {
     return null;
   }
 
   if (fila.itens.length === 0) {
-    return <TelaVazia mensagem="Nada para revisar hoje" subtitulo="Estude um tópico no Guia para semear a revisão" />;
+    return (
+      <TelaVazia
+        mensagem="Nada para revisar hoje"
+        subtitulo="Estude um tópico no Guia para semear a revisão"
+        mostrarAbrirGuia
+      />
+    );
   }
 
   if (concluida) {
@@ -147,11 +206,23 @@ export function TelaRevisao() {
             fontFamily: fonte.corpo,
             fontSize: Math.round(tipo.corpo * escala),
             color: paleta.tinta2,
-            marginBottom: espaco.xl,
+            marginBottom: espaco.s,
           }}
         >
           {acertos} acerto{acertos === 1 ? '' : 's'} · {erros} erro{erros === 1 ? '' : 's'}
         </Text>
+        {proximaLeva !== null ? (
+          <Text
+            style={{
+              fontFamily: fonte.corpo,
+              fontSize: Math.round(tipo.corpo * escala),
+              color: paleta.tinta2,
+              marginBottom: espaco.xl,
+            }}
+          >
+            {textoProximaLeva(proximaLeva)}
+          </Text>
+        ) : null}
         <BotaoSecundario rotulo="Voltar" onPress={() => router.back()} />
       </Tela>
     );

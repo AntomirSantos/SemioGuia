@@ -55,6 +55,26 @@ function CardRevisao({ fila }: { fila: FilaDeHoje | undefined }) {
           <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2 }}>
             Estude um tópico no Guia para semear a revisão
           </Text>
+          <Pressable
+            accessibilityRole="button"
+            onPress={() => router.push('/')}
+            style={{
+              alignSelf: 'flex-start',
+              minHeight: 44,
+              justifyContent: 'center',
+              marginTop: espaco.xs,
+            }}
+          >
+            <Text
+              style={{
+                fontFamily: fonte.corpoBold,
+                fontSize: Math.round(tipo.small * escala),
+                color: paleta.acento,
+              }}
+            >
+              Abrir o Guia
+            </Text>
+          </Pressable>
         </>
       ) : (
         <Text style={{ fontFamily: fonte.corpoBold, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta }}>

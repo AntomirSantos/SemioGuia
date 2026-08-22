@@ -65,6 +65,10 @@ export function EstacaoOsce({
   const [resultado, setResultado] = useState<ResultadoEstacao | null>(null);
 
   function responder(lembrou: boolean) {
+    // Guarda de conclusão: um segundo toque rápido em Lembrei/Esqueci (antes
+    // do re-render trocar a UI para o resumo) não deve chamar `aoConcluir`
+    // de novo.
+    if (resultado) return;
     const atualizadas = [...respostas, lembrou];
     if (indice === passos.length - 1) {
       const total = passos.length;

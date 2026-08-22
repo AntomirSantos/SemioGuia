@@ -157,7 +157,7 @@ test('card "Revisão de hoje" mostra a contagem de itens vencidos e navega para 
   expect(router.push).toHaveBeenCalledWith('/revisao');
 });
 
-test('card "Revisão de hoje" vazio mostra "Nada para revisar hoje" sem navegação', async () => {
+test('card "Revisão de hoje" vazio mostra "Nada para revisar hoje" sem navegação, mas oferece "Abrir o Guia"', async () => {
   const store = new MemoryProgressStore();
   const { getByText } = await renderEstudar(store);
 
@@ -166,6 +166,11 @@ test('card "Revisão de hoje" vazio mostra "Nada para revisar hoje" sem navegaç
   });
   expect(getByText('Estude um tópico no Guia para semear a revisão')).toBeTruthy();
 
+  // O corpo do card não navega ao ser tocado.
   fireEvent.press(getByText('Nada para revisar hoje'));
-  expect(router.push).not.toHaveBeenCalledWith('/revisao');
+  expect(router.push).not.toHaveBeenCalled();
+
+  // O atalho "Abrir o Guia" navega para a aba Guia.
+  fireEvent.press(getByText('Abrir o Guia'));
+  expect(router.push).toHaveBeenCalledWith('/');
 });

@@ -91,6 +91,7 @@ export function PerguntaCard({
   function escolher(idx: number) {
     if (escolhida !== null) return;
     setEscolhida(idx);
+    // Espelha o cálculo de engine.responder — manter em sincronia.
     onResponder(idx, idx === pergunta.corretaIndex);
   }
 
