@@ -281,10 +281,10 @@ perguntas:
     enunciado: Qual é a principal utilidade prática do interrogatório sintomatológico, segundo Porto?
     alternativas:
       - "Confirmar os sintomas já descritos na história da doença atual"
-      - "Permitir ao médico levantar possibilidades e reconhecer doenças que nada têm a ver com o quadro descrito na HDA"
       - "Substituir a história da doença atual quando o paciente é mau informante"
       - "Encurtar a anamnese em pacientes com queixa única"
-    corretaIndex: 1
+      - "Permitir ao médico levantar possibilidades e reconhecer doenças que nada têm a ver com o quadro descrito na HDA"
+    corretaIndex: 3
     explicacao: "Porto define assim a utilidade prática do interrogatório: permitir ao médico levantar possibilidades e reconhecer doenças que nada têm a ver com o quadro descrito na HDA. Os dois exemplos da obra ilustram: o edema de membros inferiores mencionado por um paciente cuja história apontava gastrite, e que levou ao encontro de uma cirrose; e a polidipsia, a poliúria e o emagrecimento revelados por um paciente que consultava por impotência sexual, e que levaram ao diagnóstico de diabetes melito. O interrogatório complementa a HDA, não a confirma nem a substitui."
   - id: isda-2
     enunciado: Você inicia a revisão do aparelho digestório. Qual formulação corresponde à técnica recomendada?
@@ -294,15 +294,15 @@ perguntas:
       - "\"O senhor tem azia, náusea, vômito, diarreia, obstipação, sangramento e icterícia?\""
       - "\"Seu intestino está preso, não é mesmo?\""
     corretaIndex: 1
-    explicacao: "Porto recomenda abrir cada sistema com perguntas gerais — \"como anda sua digestão?\", \"seu intestino funciona regularmente?\" — e só descer para perguntas específicas se a resposta abrir alguma porta. A primeira e a quarta alternativas são indutoras, formato que a mesma obra reprova nas duas direções, tanto o que afirma quanto o que nega o sintoma. A terceira é a lista recitada, que não dá tempo de resposta e leva o paciente a negar tudo em bloco."
+    explicacao: "Porto recomenda abrir cada sistema com perguntas gerais — \"como anda sua digestão?\", \"seu intestino funciona regularmente?\" — e só descer para perguntas específicas se a resposta abrir alguma porta. As formulações que já trazem a resposta embutida — \"o senhor não tem nada de intestino, né?\", \"seu intestino está preso, não é mesmo?\" — são indutoras, formato que a mesma obra reprova nas duas direções, tanto o que afirma quanto o que nega o sintoma. E a lista de sintomas recitada de uma vez não dá tempo de resposta, levando o paciente a negar tudo em bloco."
   - id: isda-3
     enunciado: Por que Porto recomenda registrar também os sintomas negados pelo paciente?
     alternativas:
-      - "Porque sintomas negados têm o mesmo peso diagnóstico dos sintomas presentes"
       - "Porque o registro do estado atual de todos os sistemas cria um parâmetro contra o qual queixas futuras serão comparadas"
+      - "Porque sintomas negados têm o mesmo peso diagnóstico dos sintomas presentes"
       - "Porque a ausência de sintomas exclui doença naquele sistema"
       - "Porque é exigência legal do prontuário"
-    corretaIndex: 1
+    corretaIndex: 0
     explicacao: "Porto argumenta que, pensando no paciente como um ser mutável, é necessário registrar o estado atual de todo o organismo para ter parâmetro no caso de futuras queixas — e dá o exemplo do paciente que nada referia do aparelho respiratório e retorna dois meses depois com tosse com escarros amarelados e dispneia, permitindo ao médico reconhecer que aquilo é novo. A obra recomenda ao estudante registrar os sintomas presentes e os negados. Ausência de sintoma não exclui doença, e o registro não se justifica por exigência formal."
   - id: isda-4
     enunciado: Sobre a extensão do interrogatório sintomatológico, o que as referências deste guia efetivamente sustentam?
@@ -316,19 +316,19 @@ perguntas:
   - id: isda-5
     enunciado: Segundo o estudo citado em Semiologia Clínica sobre geração de hipóteses diagnósticas, qual conjunto de resultados está correto?
     alternativas:
-      - "Primeira hipótese por volta de 28 segundos depois de enunciada a queixa principal, hipótese correta em torno de 6 minutos, 75% de acerto e cerca de três hipóteses principais mantidas ao longo do atendimento"
       - "Primeira hipótese apenas ao final da anamnese, com 95% de acerto"
+      - "Primeira hipótese por volta de 28 segundos depois de enunciada a queixa principal, hipótese correta em torno de 6 minutos, 75% de acerto e cerca de três hipóteses principais mantidas ao longo do atendimento"
       - "Primeira hipótese em cerca de 6 segundos e hipótese correta em cerca de 28 minutos"
       - "Nenhuma hipótese é formulada antes do exame físico em médicos experientes"
-    corretaIndex: 0
+    corretaIndex: 1
     explicacao: "No estudo relatado em Semiologia Clínica (cap. 3), médicos de família e internistas filmados atendendo pacientes com diagnósticos conhecidos geraram a primeira hipótese por volta de 28 segundos depois que a queixa principal foi enunciada, e a hipótese correta em torno de 6 minutos, com índice de acerto de 75% e cerca de 5,5 hipóteses por paciente, sustentando aproximadamente três hipóteses principais em qualquer ponto do atendimento. Quando o experimento foi repetido com estudantes, a estratégia foi a mesma, com diferenças quantitativas e não qualitativas."
   - id: isda-6
     enunciado: Durante o interrogatório, o paciente refere "tontura". Qual conduta é a correta antes de registrar o achado?
     alternativas:
       - "Registrar \"refere tontura\" e prosseguir para o próximo sistema"
-      - "Esclarecer a qual sensação o termo se refere e caracterizar o sintoma pelo mesmo esquema usado na HDA"
       - "Registrar como vertigem, que é o termo clínico correspondente"
       - "Ignorar, por se tratar de queixa inespecífica sem valor semiológico"
-    corretaIndex: 1
+      - "Esclarecer a qual sensação o termo se refere e caracterizar o sintoma pelo mesmo esquema usado na HDA"
+    corretaIndex: 3
     explicacao: "Porto observa que a simples citação de uma queixa tem algum valor, mas muito mais útil é o registro de suas características semiológicas fundamentais — todo sintoma positivo do interrogatório deve ser investigado pelo mesmo esquema de análise usado na história da doença atual. Além disso, \"tontura\" é o exemplo que a própria obra usa para a técnica de esclarecimento, porque o termo tem vários significados; traduzi-lo automaticamente como vertigem é assumir um sentido que o paciente pode não ter dado."
 :::

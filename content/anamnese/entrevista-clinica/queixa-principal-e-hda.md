@@ -379,54 +379,54 @@ perguntas:
     enunciado: Um paciente procura o serviço dizendo "estou com uma dor de cabeça horrível desde ontem". Qual é o registro correto da queixa principal?
     alternativas:
       - "Enxaqueca há 1 dia"
-      - "Cefaleia intensa de provável origem tensional"
       - "Dor de cabeça há 1 dia"
+      - "Cefaleia intensa de provável origem tensional"
       - "Cefaleia crônica agudizada"
-    corretaIndex: 2
+    corretaIndex: 1
     explicacao: "A queixa principal registra o motivo da consulta nas palavras do paciente, acompanhado da duração, e não deve ser escrita como diagnóstico — a essa altura ainda não existe diagnóstico preciso. Semiologia Clínica usa exatamente este exemplo, recomendando \"dor de cabeça (ou cefaleia) há um dia\" em vez de \"enxaqueca há um dia\". As demais alternativas antecipam conclusões que a história ainda não sustenta."
   - id: hda-2
     enunciado: Qual das afirmações abaixo sobre o sintoma-guia corresponde ao que Porto ensina?
     alternativas:
       - "É sempre o sintoma mais antigo relatado pelo paciente"
       - "É sempre o sintoma que o paciente mais realça"
-      - "Cada doença tem um sintoma-guia único e constante"
       - "Não há regra fixa; como orientação, o estudante pode eleger a queixa que dura há mais tempo, aquela que o paciente mais destaca ou a própria queixa principal"
-    corretaIndex: 3
+      - "Cada doença tem um sintoma-guia único e constante"
+    corretaIndex: 2
     explicacao: "Porto examina e recusa cada critério isolado: o sintoma-guia não é necessariamente o mais antigo, não é obrigatoriamente a primeira queixa relatada e não é sistematicamente o mais realçado pelo paciente. Também não existe um sintoma-guia único e constante por enfermidade. A orientação oferecida ao iniciante é eleger a queixa que dura há mais tempo, aquela que o paciente mais destaca ou simplesmente a própria queixa principal."
   - id: hda-3
     enunciado: Um paciente refere dor no ombro direito e dor no joelho esquerdo, sem relação aparente. Como proceder na HDA?
     alternativas:
-      - "Registrar uma única descrição, somando as duas localizações"
       - "Caracterizar cada dor separadamente, registrando ambas as localizações"
+      - "Registrar uma única descrição, somando as duas localizações"
       - "Investigar apenas a mais intensa, deixando a outra para o interrogatório sintomatológico"
       - "Concluir por dor psicogênica, já que dores em locais distantes não costumam ter causa orgânica única"
-    corretaIndex: 1
+    corretaIndex: 0
     explicacao: "Porto (Exame Clínico, cap. 6) determina que cada localização seja registrada e caracterizada por conta própria, salvo na dor irradiada e na dor referida, avaliadas junto com a dor de origem. Só depois, com as duas caracterizações completas, é possível decidir entre doença única (como nas afecções reumáticas poliarticulares), processos independentes ou dor psicogênica — a conclusão não antecede a caracterização."
   - id: hda-4
     enunciado: Sobre a escala analógica visual de intensidade da dor, qual descrição está correta?
     alternativas:
-      - "Linha reta de 10 cm com \"sem dor\" e \"pior dor possível\" nos extremos, cujo resultado se registra de zero a dez"
       - "Sequência de expressões faciais preferida em adultos alfabetizados"
       - "Escala de seis expressões verbais, de \"sem dor\" a \"pior dor possível\", registrada em cruzes"
       - "Régua graduada de 0 a 100 aplicada exclusivamente na dor crônica"
-    corretaIndex: 0
+      - "Linha reta de 10 cm com \"sem dor\" e \"pior dor possível\" nos extremos, cujo resultado se registra de zero a dez"
+    corretaIndex: 3
     explicacao: "Porto (cap. 9) descreve a escala analógica como uma linha reta de 10 centímetros, com as designações \"sem dor\" e \"pior dor possível\" nos extremos; o paciente indica um ponto e o resultado é registrado como um valor de zero a dez. É a preferida em adultos. As escalas de expressões verbais e as escalas gráficas sem número, entre elas a de expressões faciais, existem e têm indicação própria — esta última para crianças, idosos e adultos de baixa escolaridade —, mas são outras escalas."
   - id: hda-5
     enunciado: Paciente com dor epigástrica em queimação há três anos passa, hoje, a sentir dor aguda e intensa na mesma região, que em poucas horas se espalha por todo o abdome. Qual é a leitura correta desse dado na HDA?
     alternativas:
       - "Trata-se da mesma dor crônica, apenas mais intensa; basta registrar a piora"
-      - "A mudança de padrão é um evento e deve ser datada e caracterizada como quadro novo articulado à dor prévia"
       - "Como a localização não mudou, o achado não altera a interpretação"
+      - "A mudança de padrão é um evento e deve ser datada e caracterizada como quadro novo articulado à dor prévia"
       - "A cronologia perde importância quando o sintoma é antigo"
-    corretaIndex: 1
+    corretaIndex: 2
     explicacao: "Porto (cap. 9) usa exatamente este exemplo: o paciente com úlcera péptica e dor crônica em queimação no epigástrio que passa subitamente a apresentar dor aguda e intensa, espalhando-se horas depois por todo o abdome, caracterizando úlcera perfurada. No paciente crônico agudizado a HDA precisa de duas cronologias — a linha de base e a data do que mudou —, e a mudança de caráter da dor é o dado central, não um detalhe de intensidade."
   - id: hda-6
     enunciado: De acordo com Porto, qual é a relação habitual entre a dor e a atividade funcional do órgão que a origina, e qual é a exceção clássica?
     alternativas:
-      - "A dor costuma aliviar com a atividade do órgão; a exceção é a angina, que piora com o esforço"
       - "A dor costuma piorar quando o órgão de onde ela vem entra em funcionamento; a exceção clássica é a úlcera péptica duodenal, cuja dor cede quando o paciente come"
+      - "A dor costuma aliviar com a atividade do órgão; a exceção é a angina, que piora com o esforço"
       - "Não há relação previsível entre dor e função do órgão de origem"
       - "A relação só se aplica à dor neuropática"
-    corretaIndex: 1
+    corretaIndex: 0
     explicacao: "Porto (cap. 9) formula a regra ao tratar da relação da dor com as funções orgânicas: em quase todos os casos a dor piora quando o órgão de onde ela vem entra em funcionamento — a dor mesentérica aumenta depois de comer, a da colecistite é desencadeada por alimentos gordurosos, a articular pela movimentação. A exceção que a mesma obra destaca é a úlcera péptica duodenal, cuja dor cede com a chegada do alimento, porque ela decorre da hipercloridria e não da atividade do duodeno."
 :::

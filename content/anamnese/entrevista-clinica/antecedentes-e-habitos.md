@@ -382,28 +382,28 @@ perguntas:
     enunciado: Um paciente fuma 30 cigarros industrializados por dia há 20 anos. Qual é a carga tabágica e como as referências deste guia a nomeiam?
     alternativas:
       - "15 — Porto chama de anos/maço e Semiologia Clínica de maços/ano"
-      - "30 — Porto chama de anos/maço e Semiologia Clínica de maços/ano"
       - "600 — as duas obras chamam de anos-maço"
+      - "30 — Porto chama de anos/maço e Semiologia Clínica de maços/ano"
       - "20 — o número de anos de tabagismo é a própria carga tabágica"
-    corretaIndex: 1
+    corretaIndex: 2
     explicacao: "Porto (cap. 36) manda multiplicar o número de cigarros por dia pelo tempo de tabagismo em anos e dividir por 20: 30 × 20 ÷ 20 = 30. Semiologia Clínica chega ao mesmo resultado multiplicando maços por dia pelos anos de uso (1,5 maço/dia × 20 anos = 30). A aritmética é idêntica porque vinte cigarros formam um maço; o que muda é o nome da unidade — anos/maço em Porto, maços/ano ou anos-maço em Semiologia Clínica."
   - id: antec-2
     enunciado: Segundo Porto, qual é a definição de binge drinking e o desempenho do questionário CAGE?
     alternativas:
-      - "Binge é o consumo diário de qualquer quantidade; o CAGE tem sensibilidade de 95%"
       - "Binge é o consumo de cinco ou mais doses em uma ocasião por homens ou quatro ou mais por mulheres, ao menos uma vez nas últimas 2 semanas; duas respostas positivas no CAGE identificam 75% dos etilistas, com especificidade de 95%"
+      - "Binge é o consumo diário de qualquer quantidade; o CAGE tem sensibilidade de 95%"
       - "Binge é qualquer consumo antes do meio-dia; uma resposta positiva no CAGE fecha o diagnóstico de etilismo"
       - "Binge é o consumo de dez ou mais doses por semana; o CAGE substitui a quantificação por tipo e frequência"
-    corretaIndex: 1
+    corretaIndex: 0
     explicacao: "Porto define o binge drinking como beber cinco doses ou mais numa mesma ocasião, no caso dos homens, ou quatro ou mais, no caso das mulheres, com essa ocorrência ao menos uma vez nas duas semanas anteriores. Sobre o CAGE, registra que duas respostas positivas identificam 75% dos etilistas com especificidade de 95% — desempenho de rastreamento, que não fecha diagnóstico nem dispensa a quantificação por tipo, quantidade e frequência."
   - id: antec-3
     enunciado: Como o item "medicamentos em uso" deve ser tratado na anamnese?
     alternativas:
       - "Como oportunidade de revisar e ajustar as prescrições em curso"
-      - "Como registro do que o paciente usa, para quê, desde quando, quem indicou e se ele está de fato tomando, incluindo os de uso comum não prescritos e produtos não medicamentosos"
       - "Apenas os medicamentos prescritos por médico devem ser registrados"
       - "É item dispensável quando o paciente traz receitas anteriores"
-    corretaIndex: 1
+      - "Como registro do que o paciente usa, para quê, desde quando, quem indicou e se ele está de fato tomando, incluindo os de uso comum não prescritos e produtos não medicamentosos"
+    corretaIndex: 3
     explicacao: "Porto coloca os medicamentos em uso entre os antecedentes patológicos e manda registrar o que o paciente usa, por qual motivo e quem prescreveu. Semiologia Clínica detalha o que costuma escapar justamente porque o paciente não considera remédio: analgésicos, anti-inflamatórios, antialérgicos, descongestionantes, antiespasmódicos e anticoncepcionais orais de uso comum, além de chás, preparados naturais e florais, e a adesão aos tratamentos de doenças crônicas. É um item de registro anamnésico — a diferença entre o prescrito e o efetivamente tomado é, ela própria, um dado clínico."
   - id: antec-4
     enunciado: "Um motorista de caminhão apresenta doença pulmonar intersticial. Por que registrar apenas \"profissão — motorista\" pode ser insuficiente?"
@@ -417,19 +417,19 @@ perguntas:
   - id: antec-5
     enunciado: Segundo os marcos de referência que Porto fornece nos antecedentes fisiológicos, quando ocorre normalmente o controle dos esfíncteres?
     alternativas:
+      - "Entre 2 e 4 anos"
       - "Entre 6 meses e 1 ano"
       - "Entre 1 e 2 anos"
-      - "Entre 2 e 4 anos"
       - "Entre 4 e 6 anos"
-    corretaIndex: 2
+    corretaIndex: 0
     explicacao: "Porto fornece os marcos de referência para avaliar se cada aquisição foi precoce, tardia ou normal: o primeiro dente e o engatinhar a partir dos 6 meses, a marcha por volta de 1 ano, a fala entre 1 e 3 anos e o controle dos esfíncteres entre 2 e 4 anos. Esses dados são registrados nos antecedentes pessoais fisiológicos, no item de desenvolvimento psicomotor e neural."
   - id: antec-6
     enunciado: Um paciente responde "não bebo" sem qualquer detalhamento. Qual é a leitura correta desse dado?
     alternativas:
       - "A negativa encerra o assunto e deve ser registrada como abstinência"
-      - "Uma negativa sem explicações não significa necessariamente a verdade; registra-se como veio, buscam-se outras fontes e o tema pode ser reaberto no seguimento"
       - "O paciente deve ser confrontado imediatamente com a suspeita de omissão"
+      - "Uma negativa sem explicações não significa necessariamente a verdade; registra-se como veio, buscam-se outras fontes e o tema pode ser reaberto no seguimento"
       - "O item deve ser deixado em branco até que exames laboratoriais esclareçam"
-    corretaIndex: 1
+    corretaIndex: 2
     explicacao: "Porto abre a seção de hábitos advertindo que alguns deles são ocultados pelo paciente e até pelos familiares, e que uma afirmativa ou uma negativa sem explicações não significa necessariamente a verdade. A conduta indicada é registrar a resposta como ela veio, integrar informações de outras fontes disponíveis — recomendação explícita da obra na investigação de substâncias — e reabrir o assunto no seguimento, que Porto descreve como o momento ideal para esclarecer o que a entrevista inicial não alcançou. Confronto imediato e suspensão do registro não são condutas recomendadas."
 :::

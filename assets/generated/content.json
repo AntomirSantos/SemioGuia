@@ -322,12 +322,12 @@
            "id": "entrevista-1",
            "enunciado": "Um paciente relata \"tontura\". Qual é a técnica de entrevista indicada e por quê?",
            "alternativas": [
-            "Confronto, porque o termo sugere que o paciente esconde outra queixa",
             "Esclarecimento, porque o termo tem vários significados e é preciso definir a qual deles o paciente se refere",
+            "Confronto, porque o termo sugere que o paciente esconde outra queixa",
             "Reafirmação, repetindo a palavra do paciente para que ele desenvolva",
             "Silêncio, porque o paciente chegará sozinho à descrição correta"
            ],
-           "corretaIndex": 1,
+           "corretaIndex": 0,
            "explicacao": "O esclarecimento é a técnica que pede ao paciente que defina melhor o que disse. Porto usa exatamente \"tontura\" como exemplo: o médico, por saber que o termo tem vários significados, procura estabelecer se se trata de vertigem, de sensação desagradável na cabeça ou de outra coisa. Só depois é possível traduzir a queixa no termo clínico correspondente. A reafirmação devolve as palavras do paciente sem esclarecê-las, e o confronto se destina a discrepâncias entre o que é dito e o que o comportamento mostra."
           },
           {
@@ -336,22 +336,22 @@
            "alternativas": [
             "\"O senhor está com falta de ar, não é?\"",
             "\"O senhor não está com falta de ar, não é mesmo?\"",
-            "\"O senhor sente falta de ar?\"",
-            "\"Como está sua falta de ar hoje?\""
+            "\"Como está sua falta de ar hoje?\"",
+            "\"O senhor sente falta de ar?\""
            ],
-           "corretaIndex": 2,
-           "explicacao": "As duas primeiras são perguntas indutoras — Porto reprova ambos os formatos, o que afirma e o que nega o sintoma, porque cada um sugere ao paciente a resposta esperada. A quarta pressupõe que o sintoma existe, que é a mesma falha em outro disfarce. A formulação correta é a mais simples: pergunta-se pelo sintoma sem antecipar a resposta."
+           "corretaIndex": 3,
+           "explicacao": "As formulações rematadas por \"não é?\" ou \"não é mesmo?\" são perguntas indutoras — Porto reprova ambos os formatos, o que afirma e o que nega o sintoma, porque cada um sugere ao paciente a resposta esperada. Perguntar como está a falta de ar pressupõe que o sintoma existe, que é a mesma falha em outro disfarce. A formulação correta é a mais simples: pergunta-se pelo sintoma sem antecipar a resposta."
           },
           {
            "id": "entrevista-3",
            "enunciado": "Durante a narrativa, um paciente loquaz salta de assunto em assunto e a entrevista perde objetividade. Qual conduta é a mais adequada?",
            "alternativas": [
             "Ampliar o uso do silêncio, para que ele mesmo perceba a digressão e se organize",
-            "Passar a perguntas dirigidas, resumir o que já se entendeu e explicitar os pontos que ainda faltam cobrir",
             "Interromper e pedir que ele responda apenas o que for perguntado",
+            "Passar a perguntas dirigidas, resumir o que já se entendeu e explicitar os pontos que ainda faltam cobrir",
             "Encerrar a anamnese e completar os dados no exame físico"
            ],
-           "corretaIndex": 1,
+           "corretaIndex": 2,
            "explicacao": "Porto observa que o silêncio não é boa técnica com o paciente loquaz, justamente porque esse tipo de pessoa passa de um tema a outro com facilidade e a entrevista perde objetividade. O manejo é intervir — com perguntas dirigidas, resumos parciais e uma agenda explícita —, evitando repetições e pormenores que comprometem a obtenção do essencial, mas sem hostilidade nem corte abrupto."
           },
           {
@@ -359,11 +359,11 @@
            "enunciado": "Um paciente idoso vem acompanhado da filha, que responde a todas as perguntas. Qual é a conduta correta?",
            "alternativas": [
             "Aceitar a filha como informante principal, já que a idade compromete a confiabilidade do relato do paciente",
-            "Pedir que a filha aguarde do lado de fora durante toda a consulta",
             "Dirigir as perguntas ao paciente, ouvir a filha em seguida e na presença dele, e registrar a fonte e a confiabilidade das informações",
+            "Pedir que a filha aguarde do lado de fora durante toda a consulta",
             "Registrar as duas versões como equivalentes, sem indicar de quem veio cada informação"
            ],
-           "corretaIndex": 2,
+           "corretaIndex": 1,
            "explicacao": "Porto (cap. 181) estabelece que as perguntas devem ser sempre dirigidas ao paciente, salvo quando isso for impossível, e que a participação do acompanhante se individualiza buscando equilíbrio entre autonomia e dependência. O capítulo de exame psiquiátrico recomenda ouvir primeiro o paciente e depois o acompanhante, sempre na presença dele. Semiologia Clínica acrescenta o registro explícito da fonte da história e de sua confiabilidade. Excluir o acompanhante por completo é desnecessário, e presumir incapacidade pela idade é a armadilha que as duas obras alertam."
           },
           {
@@ -371,23 +371,23 @@
            "enunciado": "O paciente afirma que seu problema é \"pressão alta\". Como registrar a queixa principal?",
            "alternativas": [
             "Registrar \"hipertensão arterial\", que é o termo clínico correspondente",
-            "Esclarecer qual sintoma está subentendido sob o rótulo e registrar esse sintoma",
             "Registrar \"pressão alta\" entre aspas, sem qualquer esclarecimento",
-            "Registrar a última aferição de pressão arterial obtida"
+            "Registrar a última aferição de pressão arterial obtida",
+            "Esclarecer qual sintoma está subentendido sob o rótulo e registrar esse sintoma"
            ],
-           "corretaIndex": 1,
+           "corretaIndex": 3,
            "explicacao": "Porto recomenda não aceitar rótulos diagnósticos como queixa principal: se o paciente diz que seu problema é \"pressão alta\" ou \"menopausa\", procura-se esclarecer o sintoma que ficou subentendido sob outra denominação. Adotar o rótulo é o erro que a mesma obra ilustra com o caso do sangramento atribuído a hemorroidas e que escondia uma neoplasia retal. A exceção admitida é o paciente já diagnosticado ou encaminhado, situação em que se registra o motivo do encaminhamento."
           },
           {
            "id": "entrevista-6",
            "enunciado": "Qual afirmação sobre o rendimento diagnóstico da anamnese corresponde ao que as referências deste guia registram?",
            "alternativas": [
-            "Todas as fontes convergem para a cifra de 90% dos diagnósticos obtidos apenas pela história",
             "As estimativas variam — Porto sintetiza 80 a 85% dos acertos pela anamnese, Semiologia Clínica cita 82% em Hampton e 78,1% em Benseñor, e o estudo de Sandler encontrou 56% ao final da história",
+            "Todas as fontes convergem para a cifra de 90% dos diagnósticos obtidos apenas pela história",
             "Os estudos disponíveis mostram que o exame físico contribui mais para o diagnóstico do que a anamnese",
             "O rendimento da anamnese é irrelevante desde a difusão dos exames de imagem"
            ],
-           "corretaIndex": 1,
+           "corretaIndex": 0,
            "explicacao": "As cifras não coincidem porque mudam a população, o serviço e o critério de diagnóstico correto. Porto (cap. 2) fala em 80 a 85% dos acertos pela anamnese e 8 a 10% pelo exame físico; Semiologia Clínica (cap. 2) cita Hampton, com 82% pela anamnese, mais 9% pelo exame clínico e 9% pelos complementares, e Benseñor, com 78,1%, 11,9% e 10,0%; a mesma obra (cap. 3) traz o estudo de Sandler, com 56% ao final da história e 73% após o exame clínico. Nenhuma delas coloca o exame físico acima da anamnese."
           }
          ]
@@ -672,11 +672,11 @@
            "enunciado": "Um paciente procura o serviço dizendo \"estou com uma dor de cabeça horrível desde ontem\". Qual é o registro correto da queixa principal?",
            "alternativas": [
             "Enxaqueca há 1 dia",
-            "Cefaleia intensa de provável origem tensional",
             "Dor de cabeça há 1 dia",
+            "Cefaleia intensa de provável origem tensional",
             "Cefaleia crônica agudizada"
            ],
-           "corretaIndex": 2,
+           "corretaIndex": 1,
            "explicacao": "A queixa principal registra o motivo da consulta nas palavras do paciente, acompanhado da duração, e não deve ser escrita como diagnóstico — a essa altura ainda não existe diagnóstico preciso. Semiologia Clínica usa exatamente este exemplo, recomendando \"dor de cabeça (ou cefaleia) há um dia\" em vez de \"enxaqueca há um dia\". As demais alternativas antecipam conclusões que a história ainda não sustenta."
           },
           {
@@ -685,34 +685,34 @@
            "alternativas": [
             "É sempre o sintoma mais antigo relatado pelo paciente",
             "É sempre o sintoma que o paciente mais realça",
-            "Cada doença tem um sintoma-guia único e constante",
-            "Não há regra fixa; como orientação, o estudante pode eleger a queixa que dura há mais tempo, aquela que o paciente mais destaca ou a própria queixa principal"
+            "Não há regra fixa; como orientação, o estudante pode eleger a queixa que dura há mais tempo, aquela que o paciente mais destaca ou a própria queixa principal",
+            "Cada doença tem um sintoma-guia único e constante"
            ],
-           "corretaIndex": 3,
+           "corretaIndex": 2,
            "explicacao": "Porto examina e recusa cada critério isolado: o sintoma-guia não é necessariamente o mais antigo, não é obrigatoriamente a primeira queixa relatada e não é sistematicamente o mais realçado pelo paciente. Também não existe um sintoma-guia único e constante por enfermidade. A orientação oferecida ao iniciante é eleger a queixa que dura há mais tempo, aquela que o paciente mais destaca ou simplesmente a própria queixa principal."
           },
           {
            "id": "hda-3",
            "enunciado": "Um paciente refere dor no ombro direito e dor no joelho esquerdo, sem relação aparente. Como proceder na HDA?",
            "alternativas": [
-            "Registrar uma única descrição, somando as duas localizações",
             "Caracterizar cada dor separadamente, registrando ambas as localizações",
+            "Registrar uma única descrição, somando as duas localizações",
             "Investigar apenas a mais intensa, deixando a outra para o interrogatório sintomatológico",
             "Concluir por dor psicogênica, já que dores em locais distantes não costumam ter causa orgânica única"
            ],
-           "corretaIndex": 1,
+           "corretaIndex": 0,
            "explicacao": "Porto (Exame Clínico, cap. 6) determina que cada localização seja registrada e caracterizada por conta própria, salvo na dor irradiada e na dor referida, avaliadas junto com a dor de origem. Só depois, com as duas caracterizações completas, é possível decidir entre doença única (como nas afecções reumáticas poliarticulares), processos independentes ou dor psicogênica — a conclusão não antecede a caracterização."
           },
           {
            "id": "hda-4",
            "enunciado": "Sobre a escala analógica visual de intensidade da dor, qual descrição está correta?",
            "alternativas": [
-            "Linha reta de 10 cm com \"sem dor\" e \"pior dor possível\" nos extremos, cujo resultado se registra de zero a dez",
             "Sequência de expressões faciais preferida em adultos alfabetizados",
             "Escala de seis expressões verbais, de \"sem dor\" a \"pior dor possível\", registrada em cruzes",
-            "Régua graduada de 0 a 100 aplicada exclusivamente na dor crônica"
+            "Régua graduada de 0 a 100 aplicada exclusivamente na dor crônica",
+            "Linha reta de 10 cm com \"sem dor\" e \"pior dor possível\" nos extremos, cujo resultado se registra de zero a dez"
            ],
-           "corretaIndex": 0,
+           "corretaIndex": 3,
            "explicacao": "Porto (cap. 9) descreve a escala analógica como uma linha reta de 10 centímetros, com as designações \"sem dor\" e \"pior dor possível\" nos extremos; o paciente indica um ponto e o resultado é registrado como um valor de zero a dez. É a preferida em adultos. As escalas de expressões verbais e as escalas gráficas sem número, entre elas a de expressões faciais, existem e têm indicação própria — esta última para crianças, idosos e adultos de baixa escolaridade —, mas são outras escalas."
           },
           {
@@ -720,23 +720,23 @@
            "enunciado": "Paciente com dor epigástrica em queimação há três anos passa, hoje, a sentir dor aguda e intensa na mesma região, que em poucas horas se espalha por todo o abdome. Qual é a leitura correta desse dado na HDA?",
            "alternativas": [
             "Trata-se da mesma dor crônica, apenas mais intensa; basta registrar a piora",
-            "A mudança de padrão é um evento e deve ser datada e caracterizada como quadro novo articulado à dor prévia",
             "Como a localização não mudou, o achado não altera a interpretação",
+            "A mudança de padrão é um evento e deve ser datada e caracterizada como quadro novo articulado à dor prévia",
             "A cronologia perde importância quando o sintoma é antigo"
            ],
-           "corretaIndex": 1,
+           "corretaIndex": 2,
            "explicacao": "Porto (cap. 9) usa exatamente este exemplo: o paciente com úlcera péptica e dor crônica em queimação no epigástrio que passa subitamente a apresentar dor aguda e intensa, espalhando-se horas depois por todo o abdome, caracterizando úlcera perfurada. No paciente crônico agudizado a HDA precisa de duas cronologias — a linha de base e a data do que mudou —, e a mudança de caráter da dor é o dado central, não um detalhe de intensidade."
           },
           {
            "id": "hda-6",
            "enunciado": "De acordo com Porto, qual é a relação habitual entre a dor e a atividade funcional do órgão que a origina, e qual é a exceção clássica?",
            "alternativas": [
-            "A dor costuma aliviar com a atividade do órgão; a exceção é a angina, que piora com o esforço",
             "A dor costuma piorar quando o órgão de onde ela vem entra em funcionamento; a exceção clássica é a úlcera péptica duodenal, cuja dor cede quando o paciente come",
+            "A dor costuma aliviar com a atividade do órgão; a exceção é a angina, que piora com o esforço",
             "Não há relação previsível entre dor e função do órgão de origem",
             "A relação só se aplica à dor neuropática"
            ],
-           "corretaIndex": 1,
+           "corretaIndex": 0,
            "explicacao": "Porto (cap. 9) formula a regra ao tratar da relação da dor com as funções orgânicas: em quase todos os casos a dor piora quando o órgão de onde ela vem entra em funcionamento — a dor mesentérica aumenta depois de comer, a da colecistite é desencadeada por alimentos gordurosos, a articular pela movimentação. A exceção que a mesma obra destaca é a úlcera péptica duodenal, cuja dor cede com a chegada do alimento, porque ela decorre da hipercloridria e não da atividade do duodeno."
           }
          ]
@@ -976,11 +976,11 @@
            "enunciado": "Qual é a principal utilidade prática do interrogatório sintomatológico, segundo Porto?",
            "alternativas": [
             "Confirmar os sintomas já descritos na história da doença atual",
-            "Permitir ao médico levantar possibilidades e reconhecer doenças que nada têm a ver com o quadro descrito na HDA",
             "Substituir a história da doença atual quando o paciente é mau informante",
-            "Encurtar a anamnese em pacientes com queixa única"
+            "Encurtar a anamnese em pacientes com queixa única",
+            "Permitir ao médico levantar possibilidades e reconhecer doenças que nada têm a ver com o quadro descrito na HDA"
            ],
-           "corretaIndex": 1,
+           "corretaIndex": 3,
            "explicacao": "Porto define assim a utilidade prática do interrogatório: permitir ao médico levantar possibilidades e reconhecer doenças que nada têm a ver com o quadro descrito na HDA. Os dois exemplos da obra ilustram: o edema de membros inferiores mencionado por um paciente cuja história apontava gastrite, e que levou ao encontro de uma cirrose; e a polidipsia, a poliúria e o emagrecimento revelados por um paciente que consultava por impotência sexual, e que levaram ao diagnóstico de diabetes melito. O interrogatório complementa a HDA, não a confirma nem a substitui."
           },
           {
@@ -993,18 +993,18 @@
             "\"Seu intestino está preso, não é mesmo?\""
            ],
            "corretaIndex": 1,
-           "explicacao": "Porto recomenda abrir cada sistema com perguntas gerais — \"como anda sua digestão?\", \"seu intestino funciona regularmente?\" — e só descer para perguntas específicas se a resposta abrir alguma porta. A primeira e a quarta alternativas são indutoras, formato que a mesma obra reprova nas duas direções, tanto o que afirma quanto o que nega o sintoma. A terceira é a lista recitada, que não dá tempo de resposta e leva o paciente a negar tudo em bloco."
+           "explicacao": "Porto recomenda abrir cada sistema com perguntas gerais — \"como anda sua digestão?\", \"seu intestino funciona regularmente?\" — e só descer para perguntas específicas se a resposta abrir alguma porta. As formulações que já trazem a resposta embutida — \"o senhor não tem nada de intestino, né?\", \"seu intestino está preso, não é mesmo?\" — são indutoras, formato que a mesma obra reprova nas duas direções, tanto o que afirma quanto o que nega o sintoma. E a lista de sintomas recitada de uma vez não dá tempo de resposta, levando o paciente a negar tudo em bloco."
           },
           {
            "id": "isda-3",
            "enunciado": "Por que Porto recomenda registrar também os sintomas negados pelo paciente?",
            "alternativas": [
-            "Porque sintomas negados têm o mesmo peso diagnóstico dos sintomas presentes",
             "Porque o registro do estado atual de todos os sistemas cria um parâmetro contra o qual queixas futuras serão comparadas",
+            "Porque sintomas negados têm o mesmo peso diagnóstico dos sintomas presentes",
             "Porque a ausência de sintomas exclui doença naquele sistema",
             "Porque é exigência legal do prontuário"
            ],
-           "corretaIndex": 1,
+           "corretaIndex": 0,
            "explicacao": "Porto argumenta que, pensando no paciente como um ser mutável, é necessário registrar o estado atual de todo o organismo para ter parâmetro no caso de futuras queixas — e dá o exemplo do paciente que nada referia do aparelho respiratório e retorna dois meses depois com tosse com escarros amarelados e dispneia, permitindo ao médico reconhecer que aquilo é novo. A obra recomenda ao estudante registrar os sintomas presentes e os negados. Ausência de sintoma não exclui doença, e o registro não se justifica por exigência formal."
           },
           {
@@ -1023,12 +1023,12 @@
            "id": "isda-5",
            "enunciado": "Segundo o estudo citado em Semiologia Clínica sobre geração de hipóteses diagnósticas, qual conjunto de resultados está correto?",
            "alternativas": [
-            "Primeira hipótese por volta de 28 segundos depois de enunciada a queixa principal, hipótese correta em torno de 6 minutos, 75% de acerto e cerca de três hipóteses principais mantidas ao longo do atendimento",
             "Primeira hipótese apenas ao final da anamnese, com 95% de acerto",
+            "Primeira hipótese por volta de 28 segundos depois de enunciada a queixa principal, hipótese correta em torno de 6 minutos, 75% de acerto e cerca de três hipóteses principais mantidas ao longo do atendimento",
             "Primeira hipótese em cerca de 6 segundos e hipótese correta em cerca de 28 minutos",
             "Nenhuma hipótese é formulada antes do exame físico em médicos experientes"
            ],
-           "corretaIndex": 0,
+           "corretaIndex": 1,
            "explicacao": "No estudo relatado em Semiologia Clínica (cap. 3), médicos de família e internistas filmados atendendo pacientes com diagnósticos conhecidos geraram a primeira hipótese por volta de 28 segundos depois que a queixa principal foi enunciada, e a hipótese correta em torno de 6 minutos, com índice de acerto de 75% e cerca de 5,5 hipóteses por paciente, sustentando aproximadamente três hipóteses principais em qualquer ponto do atendimento. Quando o experimento foi repetido com estudantes, a estratégia foi a mesma, com diferenças quantitativas e não qualitativas."
           },
           {
@@ -1036,11 +1036,11 @@
            "enunciado": "Durante o interrogatório, o paciente refere \"tontura\". Qual conduta é a correta antes de registrar o achado?",
            "alternativas": [
             "Registrar \"refere tontura\" e prosseguir para o próximo sistema",
-            "Esclarecer a qual sensação o termo se refere e caracterizar o sintoma pelo mesmo esquema usado na HDA",
             "Registrar como vertigem, que é o termo clínico correspondente",
-            "Ignorar, por se tratar de queixa inespecífica sem valor semiológico"
+            "Ignorar, por se tratar de queixa inespecífica sem valor semiológico",
+            "Esclarecer a qual sensação o termo se refere e caracterizar o sintoma pelo mesmo esquema usado na HDA"
            ],
-           "corretaIndex": 1,
+           "corretaIndex": 3,
            "explicacao": "Porto observa que a simples citação de uma queixa tem algum valor, mas muito mais útil é o registro de suas características semiológicas fundamentais — todo sintoma positivo do interrogatório deve ser investigado pelo mesmo esquema de análise usado na história da doença atual. Além disso, \"tontura\" é o exemplo que a própria obra usa para a técnica de esclarecimento, porque o termo tem vários significados; traduzi-lo automaticamente como vertigem é assumir um sentido que o paciente pode não ter dado."
           }
          ]
@@ -1304,23 +1304,23 @@
            "enunciado": "Um paciente fuma 30 cigarros industrializados por dia há 20 anos. Qual é a carga tabágica e como as referências deste guia a nomeiam?",
            "alternativas": [
             "15 — Porto chama de anos/maço e Semiologia Clínica de maços/ano",
-            "30 — Porto chama de anos/maço e Semiologia Clínica de maços/ano",
             "600 — as duas obras chamam de anos-maço",
+            "30 — Porto chama de anos/maço e Semiologia Clínica de maços/ano",
             "20 — o número de anos de tabagismo é a própria carga tabágica"
            ],
-           "corretaIndex": 1,
+           "corretaIndex": 2,
            "explicacao": "Porto (cap. 36) manda multiplicar o número de cigarros por dia pelo tempo de tabagismo em anos e dividir por 20: 30 × 20 ÷ 20 = 30. Semiologia Clínica chega ao mesmo resultado multiplicando maços por dia pelos anos de uso (1,5 maço/dia × 20 anos = 30). A aritmética é idêntica porque vinte cigarros formam um maço; o que muda é o nome da unidade — anos/maço em Porto, maços/ano ou anos-maço em Semiologia Clínica."
           },
           {
            "id": "antec-2",
            "enunciado": "Segundo Porto, qual é a definição de binge drinking e o desempenho do questionário CAGE?",
            "alternativas": [
-            "Binge é o consumo diário de qualquer quantidade; o CAGE tem sensibilidade de 95%",
             "Binge é o consumo de cinco ou mais doses em uma ocasião por homens ou quatro ou mais por mulheres, ao menos uma vez nas últimas 2 semanas; duas respostas positivas no CAGE identificam 75% dos etilistas, com especificidade de 95%",
+            "Binge é o consumo diário de qualquer quantidade; o CAGE tem sensibilidade de 95%",
             "Binge é qualquer consumo antes do meio-dia; uma resposta positiva no CAGE fecha o diagnóstico de etilismo",
             "Binge é o consumo de dez ou mais doses por semana; o CAGE substitui a quantificação por tipo e frequência"
            ],
-           "corretaIndex": 1,
+           "corretaIndex": 0,
            "explicacao": "Porto define o binge drinking como beber cinco doses ou mais numa mesma ocasião, no caso dos homens, ou quatro ou mais, no caso das mulheres, com essa ocorrência ao menos uma vez nas duas semanas anteriores. Sobre o CAGE, registra que duas respostas positivas identificam 75% dos etilistas com especificidade de 95% — desempenho de rastreamento, que não fecha diagnóstico nem dispensa a quantificação por tipo, quantidade e frequência."
           },
           {
@@ -1328,11 +1328,11 @@
            "enunciado": "Como o item \"medicamentos em uso\" deve ser tratado na anamnese?",
            "alternativas": [
             "Como oportunidade de revisar e ajustar as prescrições em curso",
-            "Como registro do que o paciente usa, para quê, desde quando, quem indicou e se ele está de fato tomando, incluindo os de uso comum não prescritos e produtos não medicamentosos",
             "Apenas os medicamentos prescritos por médico devem ser registrados",
-            "É item dispensável quando o paciente traz receitas anteriores"
+            "É item dispensável quando o paciente traz receitas anteriores",
+            "Como registro do que o paciente usa, para quê, desde quando, quem indicou e se ele está de fato tomando, incluindo os de uso comum não prescritos e produtos não medicamentosos"
            ],
-           "corretaIndex": 1,
+           "corretaIndex": 3,
            "explicacao": "Porto coloca os medicamentos em uso entre os antecedentes patológicos e manda registrar o que o paciente usa, por qual motivo e quem prescreveu. Semiologia Clínica detalha o que costuma escapar justamente porque o paciente não considera remédio: analgésicos, anti-inflamatórios, antialérgicos, descongestionantes, antiespasmódicos e anticoncepcionais orais de uso comum, além de chás, preparados naturais e florais, e a adesão aos tratamentos de doenças crônicas. É um item de registro anamnésico — a diferença entre o prescrito e o efetivamente tomado é, ela própria, um dado clínico."
           },
           {
@@ -1351,12 +1351,12 @@
            "id": "antec-5",
            "enunciado": "Segundo os marcos de referência que Porto fornece nos antecedentes fisiológicos, quando ocorre normalmente o controle dos esfíncteres?",
            "alternativas": [
+            "Entre 2 e 4 anos",
             "Entre 6 meses e 1 ano",
             "Entre 1 e 2 anos",
-            "Entre 2 e 4 anos",
             "Entre 4 e 6 anos"
            ],
-           "corretaIndex": 2,
+           "corretaIndex": 0,
            "explicacao": "Porto fornece os marcos de referência para avaliar se cada aquisição foi precoce, tardia ou normal: o primeiro dente e o engatinhar a partir dos 6 meses, a marcha por volta de 1 ano, a fala entre 1 e 3 anos e o controle dos esfíncteres entre 2 e 4 anos. Esses dados são registrados nos antecedentes pessoais fisiológicos, no item de desenvolvimento psicomotor e neural."
           },
           {
@@ -1364,11 +1364,11 @@
            "enunciado": "Um paciente responde \"não bebo\" sem qualquer detalhamento. Qual é a leitura correta desse dado?",
            "alternativas": [
             "A negativa encerra o assunto e deve ser registrada como abstinência",
-            "Uma negativa sem explicações não significa necessariamente a verdade; registra-se como veio, buscam-se outras fontes e o tema pode ser reaberto no seguimento",
             "O paciente deve ser confrontado imediatamente com a suspeita de omissão",
+            "Uma negativa sem explicações não significa necessariamente a verdade; registra-se como veio, buscam-se outras fontes e o tema pode ser reaberto no seguimento",
             "O item deve ser deixado em branco até que exames laboratoriais esclareçam"
            ],
-           "corretaIndex": 1,
+           "corretaIndex": 2,
            "explicacao": "Porto abre a seção de hábitos advertindo que alguns deles são ocultados pelo paciente e até pelos familiares, e que uma afirmativa ou uma negativa sem explicações não significa necessariamente a verdade. A conduta indicada é registrar a resposta como ela veio, integrar informações de outras fontes disponíveis — recomendação explícita da obra na investigação de substâncias — e reabrir o assunto no seguimento, que Porto descreve como o momento ideal para esclarecer o que a entrevista inicial não alcançou. Confronto imediato e suspensão do registro não são condutas recomendadas."
           }
          ]
@@ -2874,7 +2874,7 @@
          "perguntas": [
           {
            "id": "ecto-1",
-           "enunciado": "Um paciente de 72 anos permanece na mesma posição em que a equipe o deixou no leito, sem se mover espontaneamente, e só abre os olhos após estímulo doloroso leve. Como se descrevem, respectivamente, a atitude e o nível de consciência?",
+           "enunciado": "Um paciente de 72 anos permanece exatamente na posição em que a equipe o deixou no leito e só abre os olhos após estímulo doloroso leve, apresentando então movimentos espontâneos. Como se descrevem, respectivamente, a atitude e o nível de consciência?",
            "alternativas": [
             "Atitude ortopneica e obnubilação",
             "Atitude indiferente e sonolência",
@@ -2882,7 +2882,7 @@
             "Atitude passiva e torpor"
            ],
            "corretaIndex": 3,
-           "explicacao": "Permanecer exatamente na posição em que foi colocado caracteriza a atitude passiva, própria de pacientes inconscientes ou comatosos. Despertar apenas com estímulos fortes, mantendo movimentos espontâneos ausentes ou reduzidos, corresponde ao torpor ou estupor. Na sonolência o paciente desperta com facilidade e volta a dormir; a obnubilação é o grau mais leve, com alerta apenas diminuído."
+           "explicacao": "Permanecer exatamente na posição em que foi colocado caracteriza a atitude passiva. Despertar somente com estímulos fortes, mas ainda apresentar movimentos espontâneos, corresponde ao torpor ou estupor — e é justamente a presença desses movimentos que o separa do coma, em que o paciente não desperta nem se move espontaneamente. Na sonolência o paciente desperta com facilidade e logo volta a dormir; a obnubilação é o grau mais leve, com o alerta apenas diminuído."
           },
           {
            "id": "ecto-2",
@@ -3038,7 +3038,7 @@
         },
         {
          "tipo": "perola",
-         "texto": "Peso isolado informa pouco; peso comparado informa muito. Um paciente de 62 kg pode estar bem ou em desnutrição grave — a diferença está em saber quanto ele pesava há três meses. Perguntar o peso habitual é parte da anamnese, e está no tópico de antecedentes e hábitos; aferir o peso atual é parte do exame."
+         "texto": "Peso isolado informa pouco; peso comparado informa muito. Um paciente de 62 kg pode estar bem ou em desnutrição grave — a diferença está em saber quanto ele pesava há três meses. Perguntar o peso habitual é parte da anamnese: entra na história da doença atual e no interrogatório sintomatológico, cujo item de sintomas gerais inclui as alterações do peso. Aferir o peso atual é parte do exame."
         },
         {
          "tipo": "secao",

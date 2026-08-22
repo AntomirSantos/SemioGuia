@@ -88,7 +88,7 @@ texto: |
 :::
 
 ::: perola
-texto: "Peso isolado informa pouco; peso comparado informa muito. Um paciente de 62 kg pode estar bem ou em desnutrição grave — a diferença está em saber quanto ele pesava há três meses. Perguntar o peso habitual é parte da anamnese, e está no tópico de antecedentes e hábitos; aferir o peso atual é parte do exame."
+texto: "Peso isolado informa pouco; peso comparado informa muito. Um paciente de 62 kg pode estar bem ou em desnutrição grave — a diferença está em saber quanto ele pesava há três meses. Perguntar o peso habitual é parte da anamnese: entra na história da doença atual e no interrogatório sintomatológico, cujo item de sintomas gerais inclui as alterações do peso. Aferir o peso atual é parte do exame."
 :::
 
 ::: secao

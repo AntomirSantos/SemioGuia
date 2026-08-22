@@ -456,55 +456,55 @@ perguntas:
   - id: entrevista-1
     enunciado: Um paciente relata "tontura". Qual é a técnica de entrevista indicada e por quê?
     alternativas:
-      - "Confronto, porque o termo sugere que o paciente esconde outra queixa"
       - "Esclarecimento, porque o termo tem vários significados e é preciso definir a qual deles o paciente se refere"
+      - "Confronto, porque o termo sugere que o paciente esconde outra queixa"
       - "Reafirmação, repetindo a palavra do paciente para que ele desenvolva"
       - "Silêncio, porque o paciente chegará sozinho à descrição correta"
-    corretaIndex: 1
+    corretaIndex: 0
     explicacao: "O esclarecimento é a técnica que pede ao paciente que defina melhor o que disse. Porto usa exatamente \"tontura\" como exemplo: o médico, por saber que o termo tem vários significados, procura estabelecer se se trata de vertigem, de sensação desagradável na cabeça ou de outra coisa. Só depois é possível traduzir a queixa no termo clínico correspondente. A reafirmação devolve as palavras do paciente sem esclarecê-las, e o confronto se destina a discrepâncias entre o que é dito e o que o comportamento mostra."
   - id: entrevista-2
     enunciado: Qual das formulações abaixo é aceitável na entrevista clínica?
     alternativas:
       - "\"O senhor está com falta de ar, não é?\""
       - "\"O senhor não está com falta de ar, não é mesmo?\""
-      - "\"O senhor sente falta de ar?\""
       - "\"Como está sua falta de ar hoje?\""
-    corretaIndex: 2
-    explicacao: "As duas primeiras são perguntas indutoras — Porto reprova ambos os formatos, o que afirma e o que nega o sintoma, porque cada um sugere ao paciente a resposta esperada. A quarta pressupõe que o sintoma existe, que é a mesma falha em outro disfarce. A formulação correta é a mais simples: pergunta-se pelo sintoma sem antecipar a resposta."
+      - "\"O senhor sente falta de ar?\""
+    corretaIndex: 3
+    explicacao: "As formulações rematadas por \"não é?\" ou \"não é mesmo?\" são perguntas indutoras — Porto reprova ambos os formatos, o que afirma e o que nega o sintoma, porque cada um sugere ao paciente a resposta esperada. Perguntar como está a falta de ar pressupõe que o sintoma existe, que é a mesma falha em outro disfarce. A formulação correta é a mais simples: pergunta-se pelo sintoma sem antecipar a resposta."
   - id: entrevista-3
     enunciado: Durante a narrativa, um paciente loquaz salta de assunto em assunto e a entrevista perde objetividade. Qual conduta é a mais adequada?
     alternativas:
       - "Ampliar o uso do silêncio, para que ele mesmo perceba a digressão e se organize"
-      - "Passar a perguntas dirigidas, resumir o que já se entendeu e explicitar os pontos que ainda faltam cobrir"
       - "Interromper e pedir que ele responda apenas o que for perguntado"
+      - "Passar a perguntas dirigidas, resumir o que já se entendeu e explicitar os pontos que ainda faltam cobrir"
       - "Encerrar a anamnese e completar os dados no exame físico"
-    corretaIndex: 1
+    corretaIndex: 2
     explicacao: "Porto observa que o silêncio não é boa técnica com o paciente loquaz, justamente porque esse tipo de pessoa passa de um tema a outro com facilidade e a entrevista perde objetividade. O manejo é intervir — com perguntas dirigidas, resumos parciais e uma agenda explícita —, evitando repetições e pormenores que comprometem a obtenção do essencial, mas sem hostilidade nem corte abrupto."
   - id: entrevista-4
     enunciado: Um paciente idoso vem acompanhado da filha, que responde a todas as perguntas. Qual é a conduta correta?
     alternativas:
       - "Aceitar a filha como informante principal, já que a idade compromete a confiabilidade do relato do paciente"
-      - "Pedir que a filha aguarde do lado de fora durante toda a consulta"
       - "Dirigir as perguntas ao paciente, ouvir a filha em seguida e na presença dele, e registrar a fonte e a confiabilidade das informações"
+      - "Pedir que a filha aguarde do lado de fora durante toda a consulta"
       - "Registrar as duas versões como equivalentes, sem indicar de quem veio cada informação"
-    corretaIndex: 2
+    corretaIndex: 1
     explicacao: "Porto (cap. 181) estabelece que as perguntas devem ser sempre dirigidas ao paciente, salvo quando isso for impossível, e que a participação do acompanhante se individualiza buscando equilíbrio entre autonomia e dependência. O capítulo de exame psiquiátrico recomenda ouvir primeiro o paciente e depois o acompanhante, sempre na presença dele. Semiologia Clínica acrescenta o registro explícito da fonte da história e de sua confiabilidade. Excluir o acompanhante por completo é desnecessário, e presumir incapacidade pela idade é a armadilha que as duas obras alertam."
   - id: entrevista-5
     enunciado: O paciente afirma que seu problema é "pressão alta". Como registrar a queixa principal?
     alternativas:
       - "Registrar \"hipertensão arterial\", que é o termo clínico correspondente"
-      - "Esclarecer qual sintoma está subentendido sob o rótulo e registrar esse sintoma"
       - "Registrar \"pressão alta\" entre aspas, sem qualquer esclarecimento"
       - "Registrar a última aferição de pressão arterial obtida"
-    corretaIndex: 1
+      - "Esclarecer qual sintoma está subentendido sob o rótulo e registrar esse sintoma"
+    corretaIndex: 3
     explicacao: "Porto recomenda não aceitar rótulos diagnósticos como queixa principal: se o paciente diz que seu problema é \"pressão alta\" ou \"menopausa\", procura-se esclarecer o sintoma que ficou subentendido sob outra denominação. Adotar o rótulo é o erro que a mesma obra ilustra com o caso do sangramento atribuído a hemorroidas e que escondia uma neoplasia retal. A exceção admitida é o paciente já diagnosticado ou encaminhado, situação em que se registra o motivo do encaminhamento."
   - id: entrevista-6
     enunciado: Qual afirmação sobre o rendimento diagnóstico da anamnese corresponde ao que as referências deste guia registram?
     alternativas:
-      - "Todas as fontes convergem para a cifra de 90% dos diagnósticos obtidos apenas pela história"
       - "As estimativas variam — Porto sintetiza 80 a 85% dos acertos pela anamnese, Semiologia Clínica cita 82% em Hampton e 78,1% em Benseñor, e o estudo de Sandler encontrou 56% ao final da história"
+      - "Todas as fontes convergem para a cifra de 90% dos diagnósticos obtidos apenas pela história"
       - "Os estudos disponíveis mostram que o exame físico contribui mais para o diagnóstico do que a anamnese"
       - "O rendimento da anamnese é irrelevante desde a difusão dos exames de imagem"
-    corretaIndex: 1
+    corretaIndex: 0
     explicacao: "As cifras não coincidem porque mudam a população, o serviço e o critério de diagnóstico correto. Porto (cap. 2) fala em 80 a 85% dos acertos pela anamnese e 8 a 10% pelo exame físico; Semiologia Clínica (cap. 2) cita Hampton, com 82% pela anamnese, mais 9% pelo exame clínico e 9% pelos complementares, e Benseñor, com 78,1%, 11,9% e 10,0%; a mesma obra (cap. 3) traz o estudo de Sandler, com 56% ao final da história e 73% após o exame clínico. Nenhuma delas coloca o exame físico acima da anamnese."
 :::

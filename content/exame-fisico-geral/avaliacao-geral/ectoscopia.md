@@ -610,14 +610,14 @@ titulo: Teste rápido
 ::: quiz
 perguntas:
   - id: ecto-1
-    enunciado: Um paciente de 72 anos permanece na mesma posição em que a equipe o deixou no leito, sem se mover espontaneamente, e só abre os olhos após estímulo doloroso leve. Como se descrevem, respectivamente, a atitude e o nível de consciência?
+    enunciado: Um paciente de 72 anos permanece exatamente na posição em que a equipe o deixou no leito e só abre os olhos após estímulo doloroso leve, apresentando então movimentos espontâneos. Como se descrevem, respectivamente, a atitude e o nível de consciência?
     alternativas:
       - "Atitude ortopneica e obnubilação"
       - "Atitude indiferente e sonolência"
       - "Atitude antálgica e confusão mental"
       - "Atitude passiva e torpor"
     corretaIndex: 3
-    explicacao: "Permanecer exatamente na posição em que foi colocado caracteriza a atitude passiva, própria de pacientes inconscientes ou comatosos. Despertar apenas com estímulos fortes, mantendo movimentos espontâneos ausentes ou reduzidos, corresponde ao torpor ou estupor. Na sonolência o paciente desperta com facilidade e volta a dormir; a obnubilação é o grau mais leve, com alerta apenas diminuído."
+    explicacao: "Permanecer exatamente na posição em que foi colocado caracteriza a atitude passiva. Despertar somente com estímulos fortes, mas ainda apresentar movimentos espontâneos, corresponde ao torpor ou estupor — e é justamente a presença desses movimentos que o separa do coma, em que o paciente não desperta nem se move espontaneamente. Na sonolência o paciente desperta com facilidade e logo volta a dormir; a obnubilação é o grau mais leve, com o alerta apenas diminuído."
   - id: ecto-2
     enunciado: Você registra "mau estado geral" na evolução. Qual é a limitação desse registro isolado, segundo os dados de concordância entre observadores reunidos por McGee?
     alternativas:
