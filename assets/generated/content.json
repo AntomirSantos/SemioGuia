@@ -2456,7 +2456,1480 @@
      "id": "exame-do-torax",
      "titulo": "Exame do tórax",
      "ordem": 1,
-     "topicos": []
+     "topicos": [
+      {
+       "id": "aparelho-respiratorio/exame-do-torax/inspecao-do-torax",
+       "titulo": "Inspeção do tórax",
+       "sistemaId": "aparelho-respiratorio",
+       "capituloId": "exame-do-torax",
+       "ordem": 1,
+       "tags": [
+        "inspeção do tórax",
+        "exame do tórax",
+        "aparelho respiratório",
+        "linhas torácicas",
+        "linha medioesternal",
+        "linha esternal lateral",
+        "linha paraesternal",
+        "linha hemiclavicular",
+        "linha axilar anterior",
+        "linha axilar média",
+        "linha axilar posterior",
+        "linha vertebral",
+        "linha escapular",
+        "regiões torácicas",
+        "região infraclavicular",
+        "região interescapulovertebral",
+        "região infraescapular",
+        "região infra-axilar",
+        "ângulo de Louis",
+        "ângulo esternal",
+        "projeção dos pulmões",
+        "forma do tórax",
+        "tórax em tonel",
+        "tórax globoso",
+        "tórax chato",
+        "tórax infundibuliforme",
+        "pectus excavatum",
+        "tórax cariniforme",
+        "pectus carinatum",
+        "tórax cifoescoliótico",
+        "tórax em sino",
+        "índice torácico",
+        "ângulo de Charpy",
+        "inspeção estática",
+        "inspeção dinâmica",
+        "tipo respiratório",
+        "respiração costal",
+        "respiração diafragmática",
+        "tiragem",
+        "tiragem intercostal",
+        "tiragem supraclavicular",
+        "musculatura acessória",
+        "escalenos",
+        "esternocleidomastóideo",
+        "lábios semicerrados",
+        "respiração paradoxal",
+        "movimento abdominal paradoxal",
+        "respiração assíncrona",
+        "sinal de Hoover",
+        "paradoxo costal",
+        "cianose",
+        "cianose central",
+        "cianose periférica",
+        "baqueteamento digital",
+        "hipocratismo digital",
+        "sinal de Schamroth",
+        "ângulo hiponiquial",
+        "sinal de Lemos Torres",
+        "sinal de Ramond",
+        "abaulamento torácico",
+        "retração do hemitórax",
+        "circulação colateral"
+       ],
+       "referencias": [
+        "Porto — Semiologia Médica, 8ª ed., Parte 9 (Sistema Respiratório), Seção 1, cap. 35 (Fundamentos de Anatomia e Fisiologia) — Linhas e regiões torácicas; Projeção dos pulmões na parede torácica",
+        "Porto — Semiologia Médica, 8ª ed., Parte 9, Seção 1, cap. 36 (Exame Clínico) — Exame físico geral e Inspeção: tipos de tórax (Figura 36.3), tipo respiratório, tiragem, sinais de Lemos Torres e de Ramond",
+        "Porto — Exame Clínico, 8ª ed., cap. 16 (Exame do Tórax) — Inspeção: tiragem, inspeção do pescoço e musculatura acessória",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 28 (Inspection of the Chest), p. 239-247 — baqueteamento (boxe EBM 28.1), tórax em tonel, respiração com lábios semicerrados e musculatura acessória (boxe EBM 28.2)",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 9 (Cyanosis), p. 69-71 — limiar de desoxi-hemoglobina e Tabela 9.1",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 19 (Respiratory Rate and Abnormal Breathing Patterns), p. 151-153 — movimentos abdominais respiratórios (Figura 19.2)",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 33 (Chronic Obstructive Lung Disease), p. 286-288 — paradoxo costal (sinal de Hoover), boxe EBM 33.1",
+        "Semiologia Clínica, 1ª ed., cap. 10 (O exame do tórax e do sistema respiratório) — Revisão de anatomia: pontos, linhas e regiões torácicas; Inspeção estática e dinâmica (Tabelas 1 e 2)"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Quatro perguntas antes de encostar a mão",
+         "texto": "A inspeção do tórax é o único momento do exame respiratório em que o examinador ainda não interferiu em nada — o paciente respira como respirava antes de você chegar. Aproveitar esse minuto rende mais do que qualquer manobra posterior.\n\nQuatro perguntas organizam o que se olha.\n\n1. **Que forma tem esta caixa torácica?** Simetria, curvatura da coluna, relação entre os diâmetros, deformidades do esterno.\n2. **Como esta pessoa está respirando?** Que parte do corpo se move, com que amplitude, e se os dois lados se movem igual.\n3. **Quanto está custando respirar?** Tiragem, musculatura acessória, lábios semicerrados, batimento de asa do nariz.\n4. **O corpo denuncia doença pulmonar crônica?** Cianose, baqueteamento digital, circulação colateral no tórax.\n\nO paciente deve estar sentado sempre que possível, despido até a cintura, e o examinador circula ao redor dele. Uma parte da inspeção se faz de pé, junto ao paciente; outra, à distância, olhando o tórax de frente e de perfil contra a luz.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "A frequência respiratória, os ritmos anormais — Cheyne-Stokes, Kussmaul, Biot — e a ortopneia pertencem aos sinais vitais e estão detalhados naquele tópico. Aqui a pergunta é outra: não *quantas* vezes o paciente respira, mas *como* e *com que esforço*."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "O mapa da parede torácica"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Linhas verticais e regiões",
+         "texto": "Descrever um achado torácico sem endereço é desperdiçá-lo. O vocabulário de referência é curto e vale memorizar.\n\n**Na face anterior**, quatro linhas verticais desenhadas a partir do meio: a **medioesternal**, que divide os dois hemitórax; a **esternal lateral**, rente à margem do esterno; a **hemiclavicular**, que desce do ponto médio da clavícula; e a **paraesternal**, a meio caminho entre as duas últimas.\n\n**Na face lateral**, três: a **axilar anterior**, que desce da prega formada pela borda inferior do peitoral maior; a **axilar posterior**, que desce da prega do grande dorsal; e a **axilar média**, equidistante das outras duas, descendo do ápice da axila.\n\n**Na face posterior**, duas: a **vertebral**, sobre os processos espinhosos, e a **escapular**, que passa pelo ângulo inferior da escápula.\n\nAs linhas horizontais completam a grade: as claviculares, a da 3ª e a da 6ª articulação esternocondral à frente, e as escapulares superior e inferior atrás. Do cruzamento dessas linhas nascem as regiões que dão nome ao achado — infraclavicular, mamária, inframamária, axilar, infra-axilar, supraescapular, interescapulovertebral, infraescapular.\n"
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <!-- títulos dos dois painéis -->\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"85\" y=\"16\">face anterior</text>\n    <text x=\"240\" y=\"16\">face posterior</text>\n  </g>\n  <!-- painel A: parede torácica anterior -->\n  <path d=\"M 45 26 C 41 62, 47 112, 58 158 L 112 158 C 123 112, 129 62, 125 26\" stroke-width=\"2\" />\n  <path d=\"M 50 34 L 80 41\" stroke-width=\"1.5\" />\n  <path d=\"M 90 41 L 120 34\" stroke-width=\"1.5\" />\n  <path d=\"M 80.5 43 L 89.5 43 L 89.5 108 L 85 120 L 80.5 108 Z\" stroke-width=\"1.2\" />\n  <g stroke-width=\"1.2\">\n    <path d=\"M 90 54 C 104 56, 114 62, 121 72\" />\n    <path d=\"M 90 70 C 104 72, 115 80, 122 92\" />\n    <path d=\"M 90 86 C 104 89, 115 98, 121 112\" />\n    <path d=\"M 90 102 C 103 106, 112 116, 117 130\" />\n  </g>\n  <!-- linhas verticais anteriores -->\n  <g stroke-width=\"1.5\" stroke-dasharray=\"5 4\">\n    <path d=\"M 85 24 L 85 162\" />\n    <path d=\"M 105 36 L 105 160\" />\n    <path d=\"M 119 44 L 119 152\" />\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"9.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"85\" y=\"172\">1</text>\n    <text x=\"105\" y=\"172\">2</text>\n    <text x=\"121\" y=\"172\">3</text>\n  </g>\n  <!-- painel B: parede torácica posterior -->\n  <path d=\"M 200 26 C 196 62, 202 112, 213 158 L 267 158 C 278 112, 284 62, 280 26\" stroke-width=\"2\" />\n  <!-- escápulas -->\n  <g stroke-width=\"1.2\">\n    <path d=\"M 212 46 L 234 50 L 226 88 Z\" />\n    <path d=\"M 268 46 L 246 50 L 254 88 Z\" />\n  </g>\n  <!-- processos espinhosos -->\n  <g stroke-width=\"1.2\">\n    <path d=\"M 236 36 L 244 36\" />\n    <path d=\"M 236 54 L 244 54\" />\n    <path d=\"M 236 72 L 244 72\" />\n    <path d=\"M 236 90 L 244 90\" />\n    <path d=\"M 236 108 L 244 108\" />\n    <path d=\"M 236 126 L 244 126\" />\n  </g>\n  <!-- linhas verticais posteriores -->\n  <g stroke-width=\"1.5\" stroke-dasharray=\"5 4\">\n    <path d=\"M 240 24 L 240 162\" />\n    <path d=\"M 254 42 L 254 160\" />\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"9.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"240\" y=\"172\">4</text>\n    <text x=\"256\" y=\"172\">5</text>\n  </g>\n  <!-- legenda -->\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"16\" y=\"188\">1 medioesternal</text>\n    <text x=\"102\" y=\"188\">2 hemiclavicular</text>\n    <text x=\"196\" y=\"188\">3 axilar anterior</text>\n    <text x=\"16\" y=\"198\">4 vertebral</text>\n    <text x=\"102\" y=\"198\">5 escapular</text>\n  </g>\n</svg>\n",
+         "legenda": "As linhas verticais de referência. Na face anterior ficam ainda a esternal lateral e a paraesternal, entre 1 e 2; na face lateral, as axilares média e posterior, atrás de 3."
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Onde os pulmões realmente estão",
+         "texto": "Duas noções de superfície evitam erros grosseiros de localização.\n\nO **ápice pulmonar sobe acima da clavícula** — cerca de 3 cm — e por isso a região supraclavicular faz parte do exame do pulmão, não do pescoço.\n\nA **base desce muito mais atrás do que na frente**. Em expiração, a borda inferior do pulmão cruza a linha hemiclavicular na altura da 6ª costela, a linha axilar média na 8ª e alcança, junto à coluna, o nível do processo espinhoso da 10ª vértebra torácica. Durante a inspiração esses limites descem pelo menos dois espaços intercostais.\n\nA consequência prática é direta: quem ausculta o dorso parando na ponta da escápula deixa de examinar boa parte dos lobos inferiores. O ângulo inferior da escápula é o começo do território das bases, não o fim.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como examinar"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Inspeção estática e dinâmica do tórax",
+         "passos": [
+          "Peça ao paciente que se sente, com o tórax descoberto, os braços relaxados ao lado do corpo, e explique que você vai apenas olhar.",
+          "Olhe o tórax de frente, de perfil e por trás, primeiro à distância de um passo — a assimetria aparece melhor de longe.",
+          "Na inspeção estática, compare os dois hemitórax quanto a volume, simetria e forma; observe a curvatura da coluna e o relevo do esterno.",
+          "Registre cicatrizes, abaulamentos, retrações localizadas, atrofias musculares, lesões de pele e circulação venosa superficial.",
+          "Na inspeção dinâmica, observe que parte do corpo se move a cada incursão — tórax, abdome ou os dois — para definir o tipo respiratório.",
+          "Compare a amplitude dos dois hemitórax durante várias incursões; um lado que se move menos indica lesão daquele lado.",
+          "Procure tiragem nos espaços intercostais, nas fossas supraclaviculares, na fúrcula e no epigástrio, sempre durante a inspiração.",
+          "Olhe o pescoço: contração dos escalenos e dos esternocleidomastóideos durante a inspiração é uso de musculatura acessória.",
+          "Observe se o paciente expira com os lábios semicerrados e se há batimento das asas do nariz.",
+          "Com o paciente em decúbito dorsal, verifique se o abdome sobe na inspiração; se ele afunda, há movimento paradoxal.",
+          "Complete a moldura: cor dos lábios, da língua e da mucosa oral, e inspeção das unhas em busca de baqueteamento."
+         ],
+         "observar": "Descobrir o tórax é um pedido grande, sobretudo para mulheres e adolescentes. Peça licença, exponha só o necessário e por pouco tempo, e vá narrando o que faz. A inspeção é o momento em que o paciente mais se sente olhado — e olhar com método é diferente de encarar.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Inspeção do tórax em 10 passos",
+         "itens": [
+          "Paciente sentado, tórax descoberto, examinador circulando ao redor.",
+          "Inspeção estática: simetria dos hemitórax, forma do tórax e curvatura da coluna.",
+          "Registro de cicatrizes, abaulamentos, retrações localizadas e lesões de pele.",
+          "Tipo respiratório definido pela região que mais se move (costal ou diafragmático).",
+          "Comparação da amplitude dos movimentos entre os dois hemitórax.",
+          "Pesquisa de tiragem intercostal, supraclavicular, supraesternal e epigástrica.",
+          "Inspeção do pescoço para uso de escalenos e esternocleidomastóideos na inspiração.",
+          "Pesquisa de respiração com lábios semicerrados e de batimento das asas do nariz.",
+          "Pesquisa de movimento abdominal paradoxal com o paciente em decúbito dorsal.",
+          "Pesquisa de cianose em lábios, língua e mucosa oral, e de baqueteamento digital."
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "A forma do tórax"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O tórax normal e seus desvios",
+         "texto": "No adulto, o diâmetro laterolateral supera o anteroposterior, e o tórax lembra um cilindro achatado de frente para trás. O ângulo formado pelas rebordas costais sob o apêndice xifoide — o ângulo de Charpy — fica em torno de um ângulo reto no normolíneo, mais fechado no longilíneo e mais aberto no brevilíneo.\n\nA partir dessa referência, as deformidades se descrevem com nomes consagrados. Quase todas são achados de moldura: dizem algo sobre o passado do paciente ou sobre a mecânica da respiração, e raramente fecham um diagnóstico sozinhas.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Formas do tórax e o que sugerem",
+         "colunas": [
+          "Forma",
+          "O que se vê",
+          "Contextos habituais"
+         ],
+         "linhas": [
+          [
+           "Chato ou plano",
+           "Parede anterior perde a convexidade e o diâmetro anteroposterior diminui; costelas mais oblíquas, espaços intercostais estreitos, escápulas salientes",
+           "Longilíneos; alguns pacientes com doença pulmonar crônica"
+          ],
+          [
+           "Em tonel ou globoso",
+           "Diâmetro anteroposterior cresce até quase igualar o transversal; arcos costais horizontalizados e dorso curvado, o que encurta o tórax",
+           "Enfisema pulmonar; esboça-se também no envelhecimento normal, sem prejuízo funcional"
+          ],
+          [
+           "Infundibuliforme (pectus excavatum)",
+           "Depressão do terço inferior do esterno e da região epigástrica",
+           "Em geral congênito; borra o contorno do átrio direito na radiografia e pode simular lesão do lobo médio"
+          ],
+          [
+           "Cariniforme (pectus carinatum)",
+           "Esterno proeminente e costelas horizontalizadas, no formato do peito de uma ave",
+           "Congênito ou sequela de raquitismo; não compromete a função pulmonar"
+          ],
+          [
+           "Em sino ou cônico",
+           "Alargamento exagerado da porção inferior do tórax",
+           "Hepatoesplenomegalias e ascite volumosa"
+          ],
+          [
+           "Cifótico",
+           "Curvatura posterior da coluna torácica, formando gibosidade",
+           "Postura, mal de Pott, osteomielite, neoplasias"
+          ],
+          [
+           "Cifoescoliótico",
+           "Cifose somada a desvio lateral da coluna",
+           "Formas leves são comuns e sem significado; formas acentuadas restringem a expansão torácica"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Tórax em tonel — o que a evidência sustenta",
+         "texto": "O tórax em tonel é o exemplo perfeito de sinal que a tradição promoveu além do que os dados permitem.\n\nA medida objetiva é o **índice torácico**, a razão entre o diâmetro anteroposterior e o transversal. Nos adultos ele fica em torno de 0,70 a 0,75 e cresce com a idade; o limite superior do normal gira em torno de 0,9. O ensino clássico é que os pacientes obstruídos ultrapassam esse limite.\n\nConfrontada com a espirometria (McGee), a impressão global de tórax em tonel eleva pouquíssimo a probabilidade de doença obstrutiva — razão de verossimilhança em torno de 1,5 — e a razão anteroposterior/transversal ≥ 0,9 chega a 2,0. Dois estudos encontraram correlação com a gravidade da obstrução e outros dois não encontraram nenhuma. Além disso o tórax em tonel também aparece em idosos sem doença pulmonar.\n\nHá ainda uma armadilha de percepção: em parte dos pacientes o diâmetro anteroposterior é normal e apenas *parece* aumentado, porque contrasta com um abdome muito magro e com a cifose dorsal. O olho compara, e se engana.\n\nConclusão prática: registre o achado, mas não o transforme em diagnóstico. Ele vale como peça de um conjunto, ao lado da hipersonoridade, dos estertores protoinspiratórios e da redução do murmúrio vesicular.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "A dinâmica da respiração"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Tipo respiratório",
+         "texto": "Tipo respiratório é a resposta a uma pergunta simples: **que parte do corpo se move mais a cada incursão?**\n\nEm pessoas sadias, de pé ou sentadas, predomina a respiração **torácica ou costal** — o que se movimenta é a caixa. No decúbito dorsal, em homens e mulheres igualmente, passa a predominar a respiração **diafragmática**: movem-se sobretudo a metade inferior da caixa e a porção alta do abdome. Não há \"tipo masculino\" e \"tipo feminino\": há posição.\n\nO valor do achado está na fadiga e na paralisia do diafragma. Nessas situações a parede abdominal tende a se retrair durante a inspiração — exatamente o contrário do normal — e o paciente passa a alternar períodos de respiração predominantemente torácica com períodos de respiração abdominal, recrutando os músculos da caixa para compensar o diafragma.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Tiragem",
+         "descricao": "Depressão dos espaços intercostais, das fossas supraclaviculares, da fúrcula esternal ou do epigástrio durante a inspiração. Existe uma versão fisiológica, discreta, visível nas faces laterais do tórax de pessoas magras e longilíneas: a pressão intratorácica cai na inspiração e a atmosfera empurra os espaços intercostais para dentro enquanto os músculos ainda estão relaxados.\n",
+         "significado": "Torna-se patológica quando um obstáculo impede o ar de chegar a determinado território pulmonar. O parênquima correspondente não se expande, a pressão negativa se acentua e a parede cede para dentro. A tiragem marca, portanto, a região que não está sendo ventilada — e a altura da obstrução decide sua extensão.\n",
+         "causas": [
+          "Tiragem de um hemitórax: oclusão de brônquio principal por tampão mucoso espesso, neoplasia ou corpo estranho",
+          "Tiragem bilateral por obstáculo acima da bifurcação traqueal: crupe diftérico, laringite estridulosa, corpo estranho, compressão por tumor de mediastino",
+          "Tiragem bilateral por estreitamento difuso dos pequenos brônquios: crise de asma, enfisema",
+          "Tiragem localizada: atelectasia do território subjacente"
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Musculatura acessória e lábios semicerrados",
+         "texto": "Na respiração tranquila, o único músculo que trabalha é o diafragma, e a expiração é passiva, movida pela retração elástica do pulmão. Chama-se **musculatura acessória** qualquer outro músculo recrutado na inspiração — tipicamente escalenos e esternocleidomastóideos — ou qualquer músculo contraído na expiração, sobretudo os oblíquos do abdome.\n\nOs escalenos e o esternocleidomastóideo elevam a clavícula e as primeiras costelas, ajudando a expandir um tórax cujo diafragma, achatado pela hiperinsuflação, gera pouco movimento. O sinal se lê no pescoço, não no tórax: a contração desses músculos e a retração das fossas supraclaviculares durante a inspiração são das manifestações mais precoces de obstrução das vias respiratórias.\n\nMuitos pacientes com obstrução crônica descobrem sozinhos que **expirar com os lábios semicerrados** alivia a dispneia. A manobra reduz a frequência respiratória, aumenta o volume corrente e cria uma pequena pressão positiva expiratória contra o colapso das vias aéreas. Outro alívio instintivo é **inclinar-se para a frente apoiando os braços**, o que comprime o conteúdo abdominal e empurra o diafragma de volta à forma de cúpula, mais eficiente para inspirar.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que o esforço respiratório prediz",
+         "texto": "Em pacientes encaminhados para prova de função pulmonar, três sinais de inspeção mudam a probabilidade de doença obstrutiva crônica (McGee):\n\n- **contração de escalenos e esternocleidomastóideos na inspiração** — razão de verossimilhança 3,3, com especificidade de 88% e sensibilidade de apenas 39%;\n- **expiração com lábios semicerrados** — razão de verossimilhança 2,7;\n- **paradoxo costal (sinal de Hoover)** — razão de verossimilhança 4,2.\n\nO padrão se repete: são sinais específicos e pouco sensíveis. Encontrá-los reforça a hipótese; não encontrá-los quase nada afasta, porque a maioria dos pacientes com doença leve ou moderada não os apresenta.\n\nHá uma exceção instrutiva. Em pacientes com esclerose lateral amiotrófica examinados **em decúbito dorsal**, a *ausência* de contração dos escalenos e do esternocleidomastóideo reduz a probabilidade de fraqueza neuromuscular respiratória — razão de verossimilhança 0,2. Aqui o sinal negativo é que informa.\n\nJá na avaliação da dispneia aguda o uso de musculatura acessória perde valor: em pacientes com suspeita de embolia pulmonar, ele apareceu com a mesma frequência em quem tinha e em quem não tinha a doença.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Paradoxo costal, respiração assíncrona e movimento abdominal paradoxal",
+         "texto": "Três padrões parecidos e frequentemente confundidos. O que os separa é *o que* se move ao contrário e *quando*.\n\n**Paradoxo costal (sinal de Hoover).** Apoie as mãos sobre cada reborda costal e observe como elas se afastam ou se aproximam. Na pessoa normal, a inspiração abre o ângulo costal e as mãos se separam. No tórax hiperinsuflado que já não pode se expandir mais, o diafragma achatado puxa as rebordas para dentro e as mãos se aproximam na inspiração.\n\n**Respiração assíncrona.** A anormalidade está na *expiração*: em vez do recolhimento suave do abdome, aparece um movimento abrupto para dentro seguido de outro para fora. Traduz a ação vigorosa dos músculos da parede torácica na expiração, que empurra o diafragma achatado para baixo. Em pacientes obstruídos que descompensam, esse padrão prediz morte hospitalar ou necessidade de ventilação artificial com sensibilidade de 64%, especificidade de 80% e razão de verossimilhança 3,2 (McGee).\n\n**Movimento abdominal paradoxal.** Aqui abdome e tórax estão completamente fora de fase, na inspiração *e* na expiração: o abdome afunda enquanto o tórax se expande. É sinal de fraqueza diafragmática bilateral, quase sempre acompanhado de ortopneia intensa. Detectou fraqueza do diafragma com sensibilidade de 95%, especificidade de 70% e razão de verossimilhança 3,2 (McGee). O exame precisa ser feito **em decúbito dorsal** — de pé o achado costuma desaparecer.\n\nUm imitador merece atenção: no paciente tetraplégico a respiração depende inteiramente do diafragma, e a parede torácica paralisada pode ser puxada para dentro na inspiração. Tórax e abdome também ficam fora de fase, mas o abdome se move **para fora** na inspiração, não para dentro — o oposto da fraqueza diafragmática.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Assimetrias localizadas",
+         "texto": "A inspeção detecta desigualdade antes de a radiografia mudar. No início de muitas pleuropneumopatias, os movimentos respiratórios perdem a simetria: um hemitórax se move menos, ou fica imóvel, e essa imobilidade aponta a lesão subjacente. Quando os dois hemitórax estão parados, pense em espondilite anquilosante.\n\nAlguns achados localizados têm nome próprio e valem o olhar.\n\n- **Sinal de Lemos Torres**: abaulamento dos espaços intercostais durante a expiração, indicativo de derrame pleural.\n- **Sinal de Ramond**: contratura da musculatura paravertebral torácica de um lado, denunciando comprometimento inflamatório da pleura homolateral.\n- **Retração de um hemitórax**: sequela de lesão tuberculosa mesmo tratada, que reduz o volume daquele lado, ou atelectasia crônica.\n- **Abaulamento localizado**: neoplasia, aneurisma, fratura de arcos costais, e — na criança, cujo gradil ainda cede — hipertrofia do ventrículo direito.\n- **Circulação colateral no tórax**: rede venosa superficial visível, que denuncia obstáculo junto ao ponto em que a veia ázigo desemboca na cava superior — situação típica das neoplasias de mediastino.\n- **Movimento paradoxal de um segmento do gradil** na inspiração: retalho costal instável por traumatismo torácico.\n\nDois pontos do exame geral pertencem a essa lista. O **desvio lateral da traqueia** acompanha fibrose pulmonar, atelectasia e grandes derrames. E a **distância medida da margem inferior da cricoide até a fúrcula**, normalmente acima de 5,5 cm, encurta na hiperinsuflação do enfisema avançado.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Sinais de moldura"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Cianose",
+         "texto": "Cianose é a cor azulada da pele e das mucosas produzida por sangue azul circulando nos capilares e vênulas superficiais. Quase sempre o pigmento responsável é a desoxi-hemoglobina.\n\nA distinção que muda a conduta é feita à beira do leito. Na **cianose central**, o sangue já sai azul do coração, e a cor aparece nos lábios, na língua e na mucosa oral, além das extremidades. Na **cianose periférica**, o sangue sai vermelho e azula no caminho, por extração aumentada de oxigênio nos tecidos; as mucosas centrais permanecem róseas.\n\nProcure a cianose onde a epiderme é fina e os vasos subepidérmicos são abundantes: lábios, nariz, bochechas, orelhas, mãos, pés e mucosa oral. A luz importa — a cianose é mais fácil de reconhecer sob luz fluorescente do que sob luz incandescente ou luz do dia.\n"
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Por que o paciente anêmico não fica cianótico",
+         "texto": "A cor azul depende da **quantidade absoluta** de desoxi-hemoglobina, não da porcentagem. Medidas cuidadosas (McGee) situam o limiar em torno de **2,38 g/dL de desoxi-hemoglobina arterial** — o mínimo capaz de produzir a cor visível através da epiderme.\n\nDaí decorre a consequência clínica que mais engana. Para acumular 2,38 g/dL de hemoglobina reduzida, um paciente policitêmico com hemoglobina de 20 g/dL precisa de pouca hipoxemia: a cianose aparece já com saturação em torno de 88%. Um paciente anêmico com hemoglobina de 8 g/dL só reúne essa quantidade quando a saturação cai a cerca de 70%.\n\nOu seja: **a ausência de cianose não afasta hipoxemia grave**, sobretudo no anêmico — e a presença de cianose no policitêmico não implica hipoxemia grave. A cor é um indicador de massa de pigmento, não de oxigenação.\n\nA pseudocianose separa-se das demais por um teste simples: ela não empalidece à pressão, porque a cor não vem do sangue, e sim de pigmento depositado na pele.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Baqueteamento digital (hipocratismo digital)",
+         "descricao": "Alargamento indolor do tecido conjuntivo das falanges terminais, em geral simétrico e mais evidente nas mãos do que nos pés. Três definições se sustentam em dados.\n\n- **Razão de profundidade interfalangiana maior que 1**: compara-se a espessura do dedo na junção entre a unha e a pele com a espessura na articulação interfalangiana distal. Em pessoas normais essa razão gira em torno de 0,9.\n- **Ângulo hiponiquial maior que 190°**: acurado, mas difícil de medir à beira do leito, pois exige instrumentos.\n- **Sinal de Schamroth**: encostam-se dorso contra dorso as falanges terminais de dois dedos homólogos, de preferência os anelares. Normalmente aparece entre eles uma pequena janela em forma de losango; no baqueteamento, a janela desaparece.\n",
+         "significado": "O sinal de Schamroth é o único dos três aplicável em qualquer consultório, e se sai bem: sensibilidade de 77% a 87%, especificidade de 90%, razão de verossimilhança 8 quando presente e 0,2 quando ausente (McGee). Encontrado o baqueteamento, a causa costuma aparecer na radiografia de tórax — em uma série de 350 pacientes, 80% tinham doença respiratória de base.\n",
+         "causas": [
+          "Neoplasia pulmonar",
+          "Bronquiectasias, abscesso pulmonar e empiema",
+          "Fibrose intersticial",
+          "Fibrose cística — nesses pacientes, o baqueteamento aumenta a probabilidade de hipoxemia (razão de verossimilhança 3,2; sua ausência, 0,1)",
+          "Endocardite infecciosa — em pacientes investigados por endocardite, razão de verossimilhança 5,1",
+          "Cirrose hepática, pela síndrome hepatopulmonar — razão de verossimilhança 4,0",
+          "Baqueteamento hereditário, sem doença de base"
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde este tópico encontra os outros",
+         "texto": "A inspeção do tórax abre um exame que se completa em outros lugares do guia.\n\n- **Frequência respiratória, eupneia, taquipneia, bradipneia e os ritmos anormais** — Cheyne-Stokes, Kussmaul, Biot, respiração suspirosa, ortopneia — estão no tópico de temperatura e frequência respiratória, com a técnica de contagem e os valores de referência. Não os repita aqui: cite-os.\n- **Expansibilidade**, apenas estimada pelo olho, é medida pelas mãos no tópico de palpação do tórax.\n- **Turgência jugular, edema e perfusão periférica**, que muitas vezes acompanham a doença pulmonar crônica, estão no tópico de pulso venoso jugular e turgência.\n- **Abaulamento precordial e levantamento paraesternal**, achados de inspeção que pertencem ao coração, estão no tópico de inspeção e palpação do precórdio.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Cinco erros que custam achados",
+         "texto": "1. **Inspecionar apenas de frente.** A face posterior é onde os pulmões têm mais território e onde a assimetria de movimentos aparece melhor. Se o paciente pode sentar, olhe o dorso.\n2. **Olhar só a forma e esquecer a dinâmica.** A forma do tórax é um dado de moldura; o esforço respiratório é um dado de gravidade. Um tórax perfeitamente normal com tiragem e escalenos contraídos é muito mais grave do que um tórax em tonel tranquilo.\n3. **Concluir doença obstrutiva a partir do tórax em tonel.** O achado é pouco discriminante, aparece em idosos saudáveis e pode ser ilusão de contraste com um abdome magro.\n4. **Procurar movimento abdominal paradoxal com o paciente sentado.** O sinal depende do peso das vísceras e costuma sumir na posição ereta. Examine em decúbito dorsal.\n5. **Tranquilizar-se com a ausência de cianose.** No anêmico, a cianose só surge com hipoxemia profunda. Pele rosada não é sinônimo de oxigenação adequada.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Antes de auscultar, decida de que lado está a doença. Um hemitórax que se move menos já entrega essa resposta — e transforma a ausculta de uma varredura em uma pergunta dirigida."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "insp-torax-1",
+           "enunciado": "Um paciente é examinado em decúbito dorsal e, a cada inspiração, o tórax se expande enquanto a parede abdominal afunda. Qual é a interpretação?",
+           "alternativas": [
+            "Movimento abdominal paradoxal, sinal de fraqueza diafragmática bilateral",
+            "Respiração assíncrona, sinal de expiração ativa na obstrução crônica",
+            "Tipo respiratório diafragmático normal para o decúbito dorsal",
+            "Paradoxo costal, indicando hiperinsuflação com diafragma achatado"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "No decúbito dorsal a respiração normal é diafragmática e o abdome sobe na inspiração. Abdome que afunda enquanto o tórax se expande caracteriza movimento abdominal paradoxal, sinal de fraqueza diafragmática bilateral, geralmente acompanhado de ortopneia intensa. A respiração assíncrona altera apenas a expiração, e o paradoxo costal se avalia com as mãos sobre as rebordas costais."
+          },
+          {
+           "id": "insp-torax-2",
+           "enunciado": "Por que a ausência de cianose não afasta hipoxemia grave em um paciente anêmico?",
+           "alternativas": [
+            "Porque a anemia desloca a curva de dissociação da hemoglobina e impede a dessaturação",
+            "Porque a cianose depende da quantidade absoluta de desoxi-hemoglobina, e o anêmico só a acumula quando a saturação já caiu muito",
+            "Porque no anêmico a cianose é sempre periférica e não aparece nas mucosas",
+            "Porque a palidez da anemia impede que qualquer alteração de cor seja percebida na mucosa oral"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "A cor azul exige uma quantidade absoluta mínima de desoxi-hemoglobina — cerca de 2,38 g/dL no sangue arterial. Com hemoglobina total de 8 g/dL, essa massa só se acumula quando a saturação cai a cerca de 70%; com hemoglobina de 20 g/dL, já aparece com saturação em torno de 88%. Cianose mede pigmento, não oxigenação."
+          },
+          {
+           "id": "insp-torax-3",
+           "enunciado": "Você encontra tiragem visível em todo um hemitórax direito, sem tiragem à esquerda. O que esse achado localiza?",
+           "alternativas": [
+            "Obstáculo acima da bifurcação traqueal",
+            "Estreitamento difuso dos pequenos brônquios dos dois pulmões",
+            "Oclusão do brônquio principal direito",
+            "Derrame pleural direito de grande volume"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "A extensão da tiragem denuncia a altura da obstrução. Tiragem em todo um hemitórax indica oclusão do brônquio principal daquele lado — por tampão mucoso espesso, neoplasia ou corpo estranho. Obstáculos acima da bifurcação traqueal produzem tiragem bilateral, assim como o estreitamento difuso dos pequenos brônquios da asma e do enfisema."
+          },
+          {
+           "id": "insp-torax-4",
+           "enunciado": "Em relação ao tórax em tonel como sinal de doença pulmonar obstrutiva crônica, qual afirmação está correta?",
+           "alternativas": [
+            "É um sinal de alta sensibilidade, presente na maioria dos pacientes obstruídos, e por isso sua ausência afasta a doença",
+            "Eleva pouco a probabilidade de obstrução, ocorre também em idosos sem doença pulmonar e pode ser ilusão de contraste com um abdome magro",
+            "Só tem valor quando a razão anteroposterior/transversal é inferior a 0,7",
+            "Substitui a espirometria quando associado a cifose dorsal"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "A impressão global de tórax em tonel eleva pouco a probabilidade de obstrução (razão de verossimilhança em torno de 1,5) e a razão anteroposterior/transversal ≥ 0,9 chega a 2,0. O índice torácico normal do adulto fica entre 0,70 e 0,75, com limite superior próximo de 0,9. O achado também aparece no envelhecimento e, em parte dos pacientes, é apenas o contraste entre um tórax de dimensão normal e um abdome emagrecido."
+          },
+          {
+           "id": "insp-torax-5",
+           "enunciado": "Qual é a maneira mais prática de reconhecer baqueteamento digital à beira do leito, e qual seu desempenho?",
+           "alternativas": [
+            "Medir o ângulo hiponiquial com transferidor; sensibilidade próxima de 100%",
+            "Observar a coloração do leito ungueal em luz fluorescente; especificidade próxima de 100%",
+            "Sinal de Schamroth — desaparecimento da janela em losango entre dois dedos homólogos opostos dorso a dorso; razão de verossimilhança 8 quando presente e 0,2 quando ausente",
+            "Comparar a temperatura das polpas digitais com a do dorso da mão; razão de verossimilhança 8"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "Das três definições sustentadas por dados — razão de profundidade interfalangiana maior que 1, ângulo hiponiquial maior que 190° e sinal de Schamroth —, só a última dispensa instrumentos. Ela tem sensibilidade de 77% a 87%, especificidade de 90%, razão de verossimilhança 8 quando presente e 0,2 quando ausente."
+          },
+          {
+           "id": "insp-torax-6",
+           "enunciado": "Ao auscultar o dorso, até onde é preciso descer para não perder território dos lobos inferiores?",
+           "alternativas": [
+            "Até a ponta da escápula, que marca o limite inferior dos pulmões",
+            "Bem abaixo do ângulo inferior da escápula — em expiração a borda inferior do pulmão alcança, junto à coluna, o nível do processo espinhoso da 10ª vértebra torácica",
+            "Até a linha escapular superior, pois abaixo dela só há diafragma",
+            "Até o 4º espaço intercostal posterior, limite da projeção pulmonar"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "A borda inferior do pulmão cruza a linha hemiclavicular na 6ª costela, a linha axilar média na 8ª e, junto à coluna, alcança o nível do processo espinhoso da 10ª vértebra torácica em expiração — descendo pelo menos mais dois espaços intercostais na inspiração. O ângulo inferior da escápula marca o começo do território das bases, não o fim."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "aparelho-respiratorio/exame-do-torax/palpacao-do-torax",
+       "titulo": "Palpação do tórax",
+       "sistemaId": "aparelho-respiratorio",
+       "capituloId": "exame-do-torax",
+       "ordem": 2,
+       "tags": [
+        "palpação do tórax",
+        "exame do tórax",
+        "aparelho respiratório",
+        "expansibilidade",
+        "expansibilidade dos ápices",
+        "expansibilidade das bases",
+        "mobilidade torácica",
+        "frêmito toracovocal",
+        "FTV",
+        "trinta e três",
+        "ressonância vocal",
+        "vibração vocal",
+        "frêmito brônquico",
+        "frêmito pleural",
+        "enfisema subcutâneo",
+        "crepitação subcutânea",
+        "dor torácica parietal",
+        "dor à palpação do tórax",
+        "costocondrite",
+        "sensibilidade da parede torácica",
+        "temperatura cutânea",
+        "linfonodos supraclaviculares",
+        "vértebra proeminente",
+        "linhas paravertebrais",
+        "consolidação pulmonar",
+        "derrame pleural",
+        "pneumotórax",
+        "atelectasia",
+        "enfisema pulmonar",
+        "espessamento pleural",
+        "brônquio direito",
+        "sequência comparativa",
+        "regiões homólogas"
+       ],
+       "referencias": [
+        "Porto — Semiologia Médica, 8ª ed., Parte 9 (Sistema Respiratório), Seção 1, cap. 36 (Exame Clínico) — Palpação, Expansibilidade (Figura 36.5), Frêmito toracovocal (Figura 36.6), Frêmito brônquico e frêmito pleural",
+        "Porto — Exame Clínico, 8ª ed., cap. 16 (Exame do Tórax) — Palpação: estrutura da parede torácica, expansibilidade ou mobilidade, frêmito toracovocal e boxe Alterações do frêmito toracovocal",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 29 (Palpation and Percussion of the Chest), p. 249-252 — frêmito tátil, expansibilidade e dor da parede torácica (boxe EBM 29.1)",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 30 (Auscultation of the Lungs), p. 266-267 — patogenia da ressonância vocal e transmissão de frequências (Figura 30.2)",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 35 (Pleural Effusion), p. 297-299 — boxe EBM 35.1",
+        "Semiologia Clínica, 1ª ed., cap. 10 (O exame do tórax e do sistema respiratório) — Palpação: expansibilidade torácica e frêmito toracovocal (Figuras 4 e 5); Tabela 8 (síndromes pleuropulmonares)"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Três perguntas para as mãos",
+         "texto": "A palpação do tórax tem um limite honesto: o gradil costal esconde quase tudo o que acontece no pulmão. Ela não substitui a ausculta nem a imagem — mas responde três perguntas que nenhum outro método responde tão bem à beira do leito.\n\n1. **Como está a parede?** Dor provocada, massas, enfisema subcutâneo, temperatura, linfonodos.\n2. **Os dois lados se expandem igualmente?** A expansibilidade dos ápices e das bases, avaliada separadamente.\n3. **Como a voz chega à parede?** O frêmito toracovocal, comparado entre regiões homólogas.\n\nAs três respostas se constroem por **comparação**. Um frêmito \"diminuído\" só existe em relação ao ponto simétrico do outro hemitórax; uma expansibilidade \"reduzida\" só existe contra o lado que se move mais. Sem comparação, a palpação do tórax não produz informação.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "A palpação do tórax quase não faz diagnósticos sozinha, mas faz uma coisa muito bem: diz de que lado está a doença. Achado assimétrico é achado — e a assimetria pertence sempre ao lado que se move menos ou vibra menos."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como examinar"
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <!-- parede torácica posterior -->\n  <path d=\"M 62 24 C 56 66, 64 124, 78 176 L 162 176 C 176 124, 184 66, 178 24\" stroke-width=\"2\" />\n  <!-- coluna vertebral -->\n  <path d=\"M 120 26 L 120 174\" stroke-width=\"1.2\" stroke-dasharray=\"3 4\" />\n  <!-- escápulas -->\n  <g stroke-width=\"1.2\">\n    <path d=\"M 74 46 L 92 52 L 84 92 Z\" />\n    <path d=\"M 166 46 L 148 52 L 156 92 Z\" />\n  </g>\n  <!-- caminho da comparação: trechos entre os pontos homólogos -->\n  <g stroke-width=\"1.2\" stroke-dasharray=\"4 3\">\n    <path d=\"M 110 50 L 130 50\" />\n    <path d=\"M 132 58 L 108 72\" />\n    <path d=\"M 110 80 L 130 80\" />\n    <path d=\"M 132 88 L 108 102\" />\n    <path d=\"M 110 110 L 130 110\" />\n    <path d=\"M 132 118 L 108 132\" />\n    <path d=\"M 110 140 L 130 140\" />\n  </g>\n  <!-- pontos homólogos -->\n  <g stroke-width=\"1.5\">\n    <circle cx=\"102\" cy=\"50\" r=\"8\" />\n    <circle cx=\"138\" cy=\"50\" r=\"8\" />\n    <circle cx=\"102\" cy=\"80\" r=\"8\" />\n    <circle cx=\"138\" cy=\"80\" r=\"8\" />\n    <circle cx=\"102\" cy=\"110\" r=\"8\" />\n    <circle cx=\"138\" cy=\"110\" r=\"8\" />\n    <circle cx=\"102\" cy=\"140\" r=\"8\" />\n    <circle cx=\"138\" cy=\"140\" r=\"8\" />\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"102\" y=\"53\">1</text>\n    <text x=\"138\" y=\"53\">2</text>\n    <text x=\"102\" y=\"83\">3</text>\n    <text x=\"138\" y=\"83\">4</text>\n    <text x=\"102\" y=\"113\">5</text>\n    <text x=\"138\" y=\"113\">6</text>\n    <text x=\"102\" y=\"143\">7</text>\n    <text x=\"138\" y=\"143\">8</text>\n  </g>\n  <!-- nota -->\n  <g font-family=\"sans-serif\" font-size=\"9.5\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"198\" y=\"58\">Compare regiões</text>\n    <text x=\"198\" y=\"72\">homólogas, alternando</text>\n    <text x=\"198\" y=\"86\">os lados, do ápice</text>\n    <text x=\"198\" y=\"100\">para as bases.</text>\n    <text x=\"198\" y=\"126\">A mesma escada serve</text>\n    <text x=\"198\" y=\"140\">à palpação, à percussão</text>\n    <text x=\"198\" y=\"154\">e à ausculta.</text>\n  </g>\n</svg>\n",
+         "legenda": "A escada comparativa da face posterior. O mesmo trajeto se repete nas faces laterais e anterior, e serve igualmente para o frêmito, para a percussão e para a ausculta."
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Palpação do tórax — parede, expansibilidade e frêmito",
+         "passos": [
+          "Com o paciente sentado e o tórax descoberto, aqueça as mãos e avise o que vai fazer.",
+          "Percorra a parede torácica com as polpas dos dedos procurando massas, pontos dolorosos e áreas de crepitação; deixe as regiões que o paciente aponta como dolorosas para o fim.",
+          "Com o dorso das mãos, compare a temperatura da pele entre os dois hemitórax.",
+          "Palpe as cadeias linfonodais cervicais, as fossas supra e infraclaviculares e as axilas.",
+          "Expansibilidade dos ápices: de pé atrás do paciente, apoie as mãos sobre as regiões dos ápices pulmonares, com os polegares quase se tocando em ângulo reto na altura da vértebra proeminente e os demais dedos justapostos e semifletidos sobre as fossas supraclaviculares, exercendo leve pressão.",
+          "Peça uma inspiração profunda e pausada e observe se as suas mãos se afastam com a mesma amplitude dos dois lados.",
+          "Expansibilidade das bases: mantenha-se atrás do paciente, aproxime os polegares na altura dos processos espinhosos da 9ª ou 10ª vértebra torácica e abrace com as palmas e a face ventral dos dedos a maior área possível das bases; os dedos devem ficar aderidos à parede, de modo que ela leve a mão consigo.",
+          "Avalie as bases durante a respiração tranquila e, em seguida, após algumas incursões profundas.",
+          "Frêmito toracovocal: apoie a mão espalmada sobre o tórax e peça ao paciente que repita, em voz alta e no mesmo tom, as palavras trinta e três.",
+          "Desloque a mão comparando sempre regiões homólogas, do ápice para as bases, na face posterior, nas laterais e na anterior — use sempre a mesma mão para não introduzir diferenças de percepção.",
+          "Descreva cada achado pela região torácica em que foi encontrado e pela comparação com o lado oposto."
+         ],
+         "observar": "A palpação do tórax é feita quase toda por trás, fora do campo de visão do paciente, e isso incomoda mais do que se imagina. Fale enquanto examina, avise antes de cada mudança de posição das mãos e volte à frente do paciente para conversar. Quem examina de costas precisa compensar com a voz.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Palpação do tórax em 10 passos",
+         "itens": [
+          "Paciente sentado, tórax descoberto, mãos do examinador aquecidas.",
+          "Palpação da parede em busca de massas, pontos dolorosos e crepitação subcutânea, deixando as áreas dolorosas por último.",
+          "Comparação da temperatura cutânea entre os hemitórax com o dorso das mãos.",
+          "Palpação de linfonodos cervicais, supraclaviculares, infraclaviculares e axilares.",
+          "Expansibilidade dos ápices com polegares na altura da vértebra proeminente e dedos nas fossas supraclaviculares.",
+          "Expansibilidade das bases com polegares na altura da 9ª ou 10ª vértebra torácica e dedos aderidos aos últimos arcos costais.",
+          "Comparação da amplitude do deslocamento das mãos entre os dois lados, em respiração profunda.",
+          "Pesquisa do frêmito toracovocal com o paciente repetindo trinta e três.",
+          "Comparação do frêmito em regiões homólogas, do ápice para as bases, nas faces posterior, laterais e anterior.",
+          "Registro do achado pela região torácica e pela comparação com o lado oposto."
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Expansibilidade"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que a manobra mede",
+         "texto": "A expansibilidade traduz o volume de ar que aquele segmento do pulmão consegue mobilizar. O examinador não mede centímetros: mede **diferença entre os dois lados**, e por isso ápices e bases se avaliam separadamente, com manobras próprias.\n\nA mão precisa estar aderida à parede, e não apenas pousada. Se os dedos escorregam sobre a pele, o deslocamento se perde e a manobra não mostra nada. A posição dos polegares junto à linha média serve de régua: quando o paciente inspira, os polegares se afastam da coluna, e a comparação entre as duas distâncias é o resultado do teste.\n\nVale avaliar as bases duas vezes — primeiro na respiração tranquila, depois após algumas incursões profundas. Reduções discretas só se revelam na respiração ampla.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Redução da expansibilidade — onde e o que sugere",
+         "colunas": [
+          "Distribuição",
+          "Localização",
+          "Contextos habituais"
+         ],
+         "linhas": [
+          [
+           "Unilateral",
+           "Apical",
+           "Processo infeccioso ou cicatricial do ápice pulmonar"
+          ],
+          [
+           "Unilateral",
+           "Basal",
+           "Derrame pleural, hepatomegalia, esplenomegalia"
+          ],
+          [
+           "Unilateral",
+           "Difusa",
+           "Pneumotórax, hidrotórax, atelectasia, pleurodinia, traumatismo torácico"
+          ],
+          [
+           "Bilateral",
+           "Apical",
+           "Processo infeccioso ou cicatricial dos ápices"
+          ],
+          [
+           "Bilateral",
+           "Basal",
+           "Gestação, ascite, obesidade grave, derrame pleural bilateral"
+          ],
+          [
+           "Bilateral",
+           "Difusa",
+           "Enfisema pulmonar, esclerodermia, senilidade"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que a expansibilidade assimétrica prediz",
+         "texto": "Este é um dos poucos sinais do exame do tórax cuja presença muda muito a probabilidade da doença.\n\nEm pacientes com tosse e febre, encontrar expansão assimétrica eleva fortemente a probabilidade de pneumonia do lado que se move menos — razão de verossimilhança 44,1 (McGee). O preço é a raridade: a sensibilidade foi de apenas 5%. Praticamente ninguém com pneumonia tem o sinal, mas quem tem, tem pneumonia.\n\nEm pacientes internados por queixas respiratórias, a expansão assimétrica eleva a probabilidade de derrame pleural (razão de verossimilhança 8,1), e agora com sensibilidade alta, de 74%. Nesse cenário o sinal negativo também informa: expansão simétrica reduz a probabilidade de derrame (razão de verossimilhança 0,3).\n\nHá ainda uma aplicação fora da pneumologia. Depois de uma intubação, movimentos torácicos assimétricos elevam muito a probabilidade de o tubo ter descido para o brônquio principal direito (razão de verossimilhança 15,8) — mas movimentos simétricos **não** afastam essa complicação, e o exame físico nunca deve ser o único método de confirmar a posição do tubo.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Frêmito toracovocal"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A técnica e o que a altera fisiologicamente",
+         "texto": "O frêmito toracovocal é a vibração que a mão sente quando o paciente fala. Nasce nas cordas vocais, atravessa a árvore brônquica e o parênquima e chega à parede.\n\nA palavra consagrada entre nós é **trinta e três**, escolhida por ser rica em consoantes. Uma alternativa útil é pedir uma vogal sustentada por alguns segundos: a vibração fica constante e mais fácil de comparar, enquanto em \"trinta e três\" a intensidade sobe e desce conforme as sílabas.\n\nAlguns fatores mudam o frêmito sem que exista doença, e ignorá-los produz falsos achados.\n\n- **Timbre da voz.** Vozes graves vibram melhor; o frêmito é mais nítido nos homens e pode ser quase imperceptível em mulheres, crianças e pessoas de voz débil.\n- **Espessura da parede.** Musculatura desenvolvida e panículo adiposo abundante isolam a mão da vibração.\n- **Assimetria fisiológica.** O frêmito é normalmente mais nítido **à direita**, sobretudo no ápice e na região interescapulovertebral direita, porque o brônquio principal direito é mais curto e as vibrações chegam mais facilmente à superfície. Também é mais forte nas bases.\n\nPor isso a única alteração que conta como anormal é a **assimetria** entre regiões homólogas — e o exame se faz sempre com a mesma mão, para que a diferença esteja no paciente e não na sensibilidade das duas palmas.\n"
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Por que a pleura apaga o frêmito e a consolidação o reforça",
+         "texto": "Existe um princípio único por trás de todas as alterações do frêmito, e ele vem da acústica.\n\nO pulmão normal se comporta como um **filtro passa-baixa**: transmite bem as frequências baixas, de 100 a 200 Hz, e retém as altas, acima de 300 Hz (McGee). O frêmito toracovocal é justamente feito de vibrações de baixa frequência — daí ser um achado normal, e daí ser mais forte em quem tem voz grave.\n\n**Consolidação.** Quando os alvéolos se enchem de exsudato e o brônquio permanece pérvio, o tecido sólido conduz melhor: a transmissão aumenta tanto nas frequências baixas quanto nas altas. Resultado: frêmito aumentado — e, na ausculta, som brônquico e alterações da ressonância vocal no mesmo lugar.\n\n**Ar ou líquido na cavidade pleural.** O derrame e o pneumotórax afastam o pulmão da parede e interpõem um meio que atenua as frequências baixas. Resultado: frêmito reduzido ou abolido, proporcional ao volume acumulado.\n\n**Brônquio obstruído.** Na atelectasia por oclusão brônquica, o parênquima está sem ar e denso — condição que, em tese, conduziria bem —, mas a fonte sonora não chega até ele. Sem coluna de ar vibrando, não há o que transmitir, e o frêmito cai.\n\nGuarde a regra de leitura: **frêmito aumentado é sinal de parênquima denso com via aérea pérvia; frêmito reduzido é sinal de barreira** — seja ela pleural, aérea ou brônquica.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Frêmito toracovocal por mecanismo",
+         "colunas": [
+          "Situação",
+          "Frêmito",
+          "Mecanismo"
+         ],
+         "linhas": [
+          [
+           "Consolidação com brônquio pérvio (pneumonia, infarto pulmonar)",
+           "Aumentado",
+           "Parênquima sólido conduz melhor as vibrações até a parede"
+          ],
+          [
+           "Atelectasia por oclusão brônquica",
+           "Diminuído ou abolido",
+           "A via aérea obstruída impede a vibração de alcançar o território denso"
+          ],
+          [
+           "Derrame pleural",
+           "Reduzido ou abolido na área do derrame",
+           "Líquido interposto afasta o pulmão da parede e atenua as frequências baixas"
+          ],
+          [
+           "Pneumotórax",
+           "Diminuído ou abolido",
+           "Ar interposto na cavidade pleural, mesmo mecanismo do derrame"
+          ],
+          [
+           "Espessamento pleural",
+           "Reduzido",
+           "Barreira sólida entre o pulmão e a parede"
+          ],
+          [
+           "Enfisema pulmonar",
+           "Diminuído",
+           "Excesso de ar e destruição do parênquima pioram a condução"
+          ]
+         ],
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que o frêmito diminuído prediz",
+         "texto": "Em uma casuística de 278 pacientes internados por queixas respiratórias, o frêmito toracovocal assimetricamente diminuído elevou a probabilidade de derrame pleural com razão de verossimilhança 5,7, e o frêmito simétrico reduziu essa probabilidade com razão de verossimilhança 0,2 (McGee). Sensibilidade de 82% e especificidade de 86% — desempenho respeitável para um sinal que custa dez segundos.\n\nRepare no que esses números *não* dizem. Eles se referem a derrame pleural, a condição em que o frêmito foi mais estudado, e não à consolidação. Para pneumonia, o sinal que carrega a evidência forte é outro: a expansão assimétrica.\n\nVale ainda registrar um detalhe de técnica que a literatura de língua inglesa esclarece: a escolha da frase é irrelevante. Os primeiros semiologistas alemães usavam tanto \"noventa e nove\" quanto \"um, dois, três\", e alguns pediam ao paciente que cantasse. O que importa é produzir vibração grave e sustentada, não a fonética da palavra.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Frêmito brônquico e frêmito pleural",
+         "texto": "Nem todo frêmito vem da voz. Dois outros aparecem sob a mão e são fáceis de reconhecer quando se sabe o que procurar.\n\nO **frêmito brônquico** é o equivalente tátil dos estertores: a vibração inspiratória sentida em pacientes com secreção nas vias aéreas. Muda com a tosse, como os estertores grossos que o originam.\n\nO **frêmito pleural** é a sensação tátil do atrito entre dois folhetos pleurais rugosos. Pode preceder o derrame e desaparece quando o líquido se instala e separa os folhetos. É a assinatura palpável do atrito pleural — e a sua palpabilidade é, aliás, o que mais facilmente distingue o atrito dos estertores na ausculta.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "A parede torácica"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Dor provocada — o que ela significa e o que não significa",
+         "texto": "Processos inflamatórios pleuropulmonares criam uma faixa de sensibilidade aumentada na área torácica que lhes corresponde, e lesões extensas do ápice chegam a provocar contratura muscular da região, imitando a defesa da peritonite.\n\nA leitura tradicional, porém, é outra: dor reproduzida pela palpação da parede sugeriria causa benigna, do tipo costocondrite. Essa conclusão só se sustenta em um cenário específico. Em pacientes com **dor torácica aguda não traumática**, a dor à palpação reduz a probabilidade de infarto do miocárdio (razão de verossimilhança 0,3; McGee).\n\nFora dele, o sinal não ajuda. Em estudos de pneumonia, de embolia pulmonar e de doença coronariana crônica, a dor à palpação apareceu com a mesma frequência em quem tinha e em quem não tinha a doença. Reproduzir a dor apertando o tórax **não** é permissão para parar de investigar.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Enfisema subcutâneo",
+         "descricao": "Sensação de crepitação fina sob os dedos, como se houvesse bolhas de ar no tecido celular subcutâneo. Procura-se sobretudo nas fossas supraclaviculares e nos espaços intercostais, onde o tecido é frouxo e o ar se acumula primeiro.\n",
+         "significado": "Indica ar dissecando os planos do subcutâneo — na prática, comunicação entre o espaço aéreo e o tecido, e portanto pneumotórax até prova em contrário. O achado é fácil de reconhecer e difícil de confundir com qualquer outro.\n",
+         "causas": [
+          "Pneumotórax",
+          "Traumatismo torácico com lesão pulmonar ou de vias aéreas",
+          "Procedimentos sobre a cavidade pleural",
+          "Ruptura de bolha subpleural"
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que mais a mão colhe na parede",
+         "texto": "**Temperatura.** Compare os dois hemitórax com o dorso das mãos. Diferença para mais de um lado pode denunciar comprometimento pleuropulmonar subjacente. Sudorese em apenas um hemitórax integra a síndrome de Claude Bernard-Horner.\n\n**Edema subcutâneo.** Nas fossas supraclaviculares, é sinal precoce de obstrução da veia cava superior — e se distingue do enfisema subcutâneo porque deixa cacifo em vez de crepitar.\n\n**Linfonodos.** Adenomegalias de consistência média, mais ou menos fixas, com tendência a se fundir e depois fistulizar, são mais comuns na tuberculose. Linfonodos axilares ou supraclaviculares duros, isolados e de aparecimento recente levantam suspeita de malignidade.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Cinco erros que falseiam a palpação",
+         "texto": "1. **Trocar de mão no meio do exame.** A sensibilidade das duas palmas não é igual. O frêmito se pesquisa sempre com a mesma mão, percorrendo os dois lados.\n2. **Chamar de reduzido um frêmito que nunca foi forte.** Voz aguda, voz fraca e parede espessa produzem frêmito débil em todo o tórax. Só a assimetria entre pontos homólogos é anormal.\n3. **Estranhar o frêmito mais forte à direita.** É o normal — o brônquio principal direito é mais curto. Registrá-lo como aumento patológico à direita é inventar doença.\n4. **Pousar a mão em vez de aderir.** Na expansibilidade, dedos que escorregam sobre a pele não registram o deslocamento da parede; na palpação da parede, mão pousada demais amortece a crepitação do enfisema subcutâneo.\n5. **Encerrar a investigação porque a palpação reproduziu a dor.** Só na dor torácica aguda não traumática esse achado reduz a probabilidade de infarto; em pneumonia e embolia pulmonar ele não discrimina nada.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Frêmito e ressonância vocal medem a mesma coisa por sentidos diferentes: um pela mão, outro pela orelha. Por isso costumam andar juntos — e por isso a ausculta da voz acrescenta pouco onde o frêmito já respondeu. A exceção conhecida é o derrame pleural: sobre a área do líquido o frêmito cai e a voz também se apaga, mas na estreita faixa de transição, no limite superior do derrame, a voz pode reaparecer com timbre anasalado."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "palp-torax-1",
+           "enunciado": "Ao palpar o frêmito toracovocal de um adulto saudável, você percebe vibração nitidamente mais forte no ápice direito e na região interescapulovertebral direita. Como interpretar?",
+           "alternativas": [
+            "Achado normal, explicado pelo menor comprimento do brônquio principal direito",
+            "Consolidação do ápice direito, que deve ser confirmada por radiografia",
+            "Derrame pleural à esquerda, reduzindo o frêmito daquele lado",
+            "Erro de técnica, pois o frêmito normal é simétrico em todo o tórax"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "O frêmito é normalmente mais nítido à direita, sobretudo no ápice e na região interescapulovertebral direita, porque o brônquio principal direito é mais curto e as vibrações chegam mais facilmente à superfície. Também é normalmente mais forte nas bases. Só a assimetria fora desse padrão esperado é anormal."
+          },
+          {
+           "id": "palp-torax-2",
+           "enunciado": "Em um paciente com atelectasia por oclusão de brônquio lobar, o frêmito toracovocal está diminuído sobre a área comprometida. Por quê?",
+           "alternativas": [
+            "Porque o parênquima atelectasiado contém mais ar do que o normal e o ar conduz mal o som",
+            "Porque o brônquio obstruído impede que a vibração da voz alcance o território denso",
+            "Porque a atelectasia sempre se acompanha de líquido na cavidade pleural",
+            "Porque a retração do hemitórax aproxima o pulmão da parede e satura a percepção tátil"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Na atelectasia obstrutiva o parênquima está sem ar e denso — condição que conduziria bem —, mas a via aérea ocluída impede que a coluna de ar vibrante chegue até ele. Sem fonte sonora transmitida, o frêmito cai. A regra de leitura é: frêmito aumentado indica parênquima denso com brônquio pérvio; frêmito reduzido indica barreira, pleural, aérea ou brônquica."
+          },
+          {
+           "id": "palp-torax-3",
+           "enunciado": "Um paciente com tosse e febre apresenta expansão torácica visivelmente menor à direita. Qual é o peso desse achado?",
+           "alternativas": [
+            "Pequeno, porque a expansão assimétrica é frequente em pessoas saudáveis",
+            "Grande para pneumonia do lado que se move menos, com razão de verossimilhança em torno de 44, embora o sinal seja raro (sensibilidade cerca de 5%)",
+            "Grande apenas se o frêmito estiver simultaneamente abolido",
+            "Nenhum, pois a expansibilidade só tem valor quando avaliada com fita métrica"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Em pacientes com tosse e febre, a expansão assimétrica eleva fortemente a probabilidade de pneumonia do lado que se move menos (razão de verossimilhança 44,1), mas com sensibilidade de apenas 5% — quase ninguém com pneumonia tem o sinal, e quem tem, tem a doença. Em pacientes internados por queixas respiratórias o mesmo sinal aponta derrame pleural (razão de verossimilhança 8,1), aí com sensibilidade alta."
+          },
+          {
+           "id": "palp-torax-4",
+           "enunciado": "Ao palpar as fossas supraclaviculares de um paciente com dor torácica súbita, você sente uma crepitação fina sob os dedos. O que esse achado indica?",
+           "alternativas": [
+            "Edema subcutâneo por obstrução da veia cava superior",
+            "Frêmito brônquico por secreção nas vias aéreas",
+            "Enfisema subcutâneo, que aponta pneumotórax até prova em contrário",
+            "Frêmito pleural por pleurite seca"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "A crepitação sob os dedos é enfisema subcutâneo — ar dissecando o tecido celular subcutâneo, mais facilmente identificado nas fossas supraclaviculares e nos espaços intercostais. Indica comunicação entre o espaço aéreo e o subcutâneo, e portanto pneumotórax. O edema subcutâneo deixa cacifo em vez de crepitar; o frêmito brônquico é vibração inspiratória que muda com a tosse; o frêmito pleural é a sensação de atrito entre os folhetos."
+          },
+          {
+           "id": "palp-torax-5",
+           "enunciado": "Em qual situação a dor reproduzida pela palpação da parede torácica realmente reduz a probabilidade da doença investigada?",
+           "alternativas": [
+            "Na suspeita de pneumonia em paciente com tosse aguda",
+            "Na suspeita de embolia pulmonar em paciente com dor pleurítica",
+            "Na suspeita de doença coronariana crônica em paciente ambulatorial",
+            "Na suspeita de infarto do miocárdio em paciente com dor torácica aguda não traumática"
+           ],
+           "corretaIndex": 3,
+           "explicacao": "Somente na dor torácica aguda não traumática a dor à palpação reduz a probabilidade de infarto do miocárdio (razão de verossimilhança 0,3). Em estudos de pneumonia, embolia pulmonar e doença coronariana crônica o achado ocorreu com a mesma frequência em quem tinha e em quem não tinha a doença, sem valor diagnóstico."
+          },
+          {
+           "id": "palp-torax-6",
+           "enunciado": "Ao avaliar a expansibilidade das bases pulmonares, onde devem ficar os polegares do examinador e por que os demais dedos precisam estar aderidos à parede?",
+           "alternativas": [
+            "Nas fossas supraclaviculares; os dedos aderidos evitam que o paciente sinta frio",
+            "Na altura dos processos espinhosos da 9ª ou 10ª vértebra torácica; a aderência faz a parede levar a mão consigo, tornando visível o deslocamento",
+            "Sobre as linhas hemiclaviculares anteriores; a aderência aumenta a pressão intratorácica",
+            "Na altura da vértebra proeminente; a aderência impede a contração da musculatura acessória"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Para as bases, os polegares se aproximam na altura dos processos espinhosos da 9ª ou 10ª vértebra torácica, enquanto as palmas e a face ventral dos dedos abarcam o máximo da área correspondente. Os dedos precisam estar bem aderidos para que o movimento da parede leve a mão consigo — se escorregam sobre a pele, o deslocamento se perde. A vértebra proeminente é a referência da manobra dos ápices."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "aparelho-respiratorio/exame-do-torax/percussao-do-torax",
+       "titulo": "Percussão do tórax",
+       "sistemaId": "aparelho-respiratorio",
+       "capituloId": "exame-do-torax",
+       "ordem": 3,
+       "tags": [
+        "percussão do tórax",
+        "exame do tórax",
+        "aparelho respiratório",
+        "percussão dígito-digital",
+        "percussão digitodigital",
+        "plexor",
+        "plexímetro",
+        "percussão comparativa",
+        "percussão topográfica",
+        "som claro pulmonar",
+        "sonoridade pulmonar",
+        "som claro atimpânico",
+        "hipersonoridade",
+        "submacicez",
+        "macicez",
+        "som timpânico",
+        "timpanismo",
+        "macicez hepática",
+        "submacicez precordial",
+        "espaço de Traube",
+        "zona de Traube",
+        "macicez esplênica",
+        "mobilidade das bases",
+        "excursão diafragmática",
+        "limites do diafragma",
+        "ressonância skódica",
+        "sinal de Signorelli",
+        "triângulo de Grocco",
+        "istmo de Krönig",
+        "som de pote rachado",
+        "derrame pleural",
+        "pneumotórax",
+        "hidropneumotórax",
+        "enfisema pulmonar",
+        "consolidação pulmonar",
+        "esplenomegalia",
+        "Auenbrugger"
+       ],
+       "referencias": [
+        "Porto — Semiologia Médica, 8ª ed., Parte 9 (Sistema Respiratório), Seção 1, cap. 36 (Exame Clínico) — Percussão: técnica, tonalidades de som (Figura 36.7), limites e mobilidade do diafragma, boxe Derrame pleural e hidropneumotórax",
+        "Porto — Exame Clínico, 8ª ed., cap. 5 (Técnicas Básicas do Exame Físico) — Percussão: semiotécnica da percussão digitodigital (Figuras 5.15 a 5.17)",
+        "Porto — Exame Clínico, 8ª ed., cap. 16 (Exame do Tórax) — Percussão: sons normais (Figura 16.12), alterações (hipersonoridade, submacicez, macicez, som timpânico) e boxe Ressonância skódica",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 29 (Palpation and Percussion of the Chest), p. 252-259 — técnica, sons percutórios (Figura 29.1), glossário de epônimos, teoria da ressonância da caixa torácica e boxe EBM 29.2",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 51 (Palpation and Percussion of the Abdomen), p. 435 e 439 — macicez do espaço de Traube (boxe EBM 51.1)",
+        "Semiologia Clínica, 1ª ed., cap. 10 (O exame do tórax e do sistema respiratório) — Percussão (Tabela 6, sons definidos pela percussão torácica; Figura 6, técnica); sinal de Signorelli e ressonância skódica"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que a percussão pergunta",
+         "texto": "Percutir é bater na parede e escutar o que ela devolve. A pergunta é sempre a mesma: **este território contém mais ar ou menos ar do que o território simétrico do outro lado?**\n\nA técnica que sobreviveu na prática é a **percussão comparativa** — bater em um ponto, bater no ponto homólogo do outro hemitórax, comparar. Foi assim que Auenbrugger a descreveu em 1761, e é assim que ela continua a ser útil. Existe uma segunda modalidade, a **percussão topográfica**, que pretende desenhar os limites dos órgãos e medir seus tamanhos; dela sobrou pouco, e o que sobrou está no aprofundamento deste tópico.\n\nTambém se escuta com a mão. Todos os grandes mestres da percussão insistiram nisso: o dedo apoiado na parede informa tanto quanto a orelha. Áreas maciças oferecem **mais resistência** e se movem menos — o que rendeu ao derrame pleural o adjetivo de macicez pétrea. Acelerômetros colados ao dedo plexímetro confirmaram que áreas maciças realmente se deslocam menos que as sonoras.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "A percussão é um método de baixo rendimento com uma exceção brilhante. Confrontada com a radiografia, ela detectou 100% dos grandes derrames pleurais, mas apenas 0% a 15% das consolidações e nenhum nódulo intraparenquimatoso. Se você vai percutir por um motivo só, percuta pelo derrame."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como examinar"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Percussão dígito-digital do tórax",
+         "passos": [
+          "Comece pela face posterior, de cima para baixo, com o paciente sentado e o examinador atrás e à esquerda dele.",
+          "Apoie na parede apenas o dedo plexímetro — indicador ou médio da mão esquerda; os demais dedos e a palma ficam suspensos rentes à pele, porque a mão pousada amortece as vibrações e abafa o som.",
+          "Golpeie com a borda ungueal do dedo plexor — indicador ou médio da mão direita — sobre o dorso da segunda falange do plexímetro, deixando o dedo cair em leve obliquidade para que a unha não atinja o dorso do outro dedo.",
+          "Movimente apenas o punho: o cotovelo permanece fixo, fletido em ângulo reto, e o ombro não participa.",
+          "Dê dois golpes seguidos, secos e de mesma intensidade, e levante o plexor imediatamente após o segundo.",
+          "Calibre a força: suave em crianças e em pessoas magras, mais firme em paredes torácicas espessas — procurando sempre o som mais nítido com a menor força possível.",
+          "Percuta cada hemitórax de cima para baixo e, em seguida, volte comparando regiões simétricas, com golpes de intensidade idêntica dos dois lados.",
+          "Percuta também as faces laterais, com o paciente de braços erguidos ou com as mãos na cabeça, e a face anterior.",
+          "Registre, além do som, a resistência que a parede oferece ao dedo plexímetro."
+         ],
+         "observar": "A percussão é barulhenta e estranha para quem nunca a viu — muita gente se assusta com a batida no próprio dorso. Explique antes que não vai doer, comece com golpes leves e observe a reação do paciente. Se alguma região estiver dolorida, ela se percute por último, e com a força mínima necessária.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Percussão do tórax em 10 passos",
+         "itens": [
+          "Paciente sentado, tórax descoberto, examinador atrás e à esquerda.",
+          "Apenas o dedo plexímetro em contato com a parede; restante da mão suspenso.",
+          "Golpe com a borda ungueal do plexor sobre a segunda falange do plexímetro.",
+          "Movimento restrito ao punho, com cotovelo fixo em ângulo reto.",
+          "Dois golpes secos de mesma intensidade, com retirada imediata do plexor.",
+          "Força calibrada à espessura da parede, buscando o som nítido com o mínimo de força.",
+          "Percussão da face posterior de cima para baixo, hemitórax por hemitórax.",
+          "Percussão comparativa de regiões simétricas com golpes de igual intensidade.",
+          "Percussão das faces laterais e anterior, incluindo a delimitação da macicez hepática e do espaço de Traube.",
+          "Registro do som obtido e da resistência percebida pelo dedo plexímetro."
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Os sons e o mapa normal"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Os cinco sons da percussão torácica",
+         "colunas": [
+          "Som",
+          "O que significa",
+          "Onde se encontra"
+         ],
+         "linhas": [
+          [
+           "Som claro pulmonar (sonoridade pulmonar, som claro atimpânico)",
+           "Pulmão normalmente aerado",
+           "Campos pulmonares, fora das áreas de projeção do coração, fígado, baço e fundo gástrico"
+          ],
+          [
+           "Hipersonoridade",
+           "Nota mais clara e mais intensa que o normal, por aumento de ar nos alvéolos",
+           "Enfisema pulmonar, crise de asma com hiperinsuflação, hemitórax distendido nas grandes cifoescolioses"
+          ],
+          [
+           "Som timpânico",
+           "Ar aprisionado em cavidade — musical, com tonalidade identificável",
+           "Espaço de Traube (normal), pneumotórax, grandes cavernas superficiais, hérnia diafragmática com alça no tórax"
+          ],
+          [
+           "Submacicez",
+           "Redução da sonoridade por menos ar no interior dos alvéolos",
+           "Região precordial (normal), consolidações, derrames de pequeno volume"
+          ],
+          [
+           "Macicez",
+           "Desaparecimento da sonoridade, com aumento da resistência ao dedo plexímetro",
+           "Projeção do fígado (normal), derrame pleural, espessamento pleural, consolidações extensas, atelectasia"
+          ]
+         ]
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <!-- parede torácica anterior -->\n  <path d=\"M 44 26 C 40 68, 46 124, 58 178 L 162 178 C 174 124, 180 68, 176 26\" stroke-width=\"2\" />\n  <!-- clavículas -->\n  <path d=\"M 50 34 L 104 42\" stroke-width=\"1.5\" />\n  <path d=\"M 116 42 L 170 34\" stroke-width=\"1.5\" />\n  <!-- esterno e apêndice xifoide -->\n  <path d=\"M 104 42 L 116 42 L 116 128 L 110 142 L 104 128 Z\" stroke-width=\"1.2\" />\n  <!-- rebordos costais -->\n  <path d=\"M 110 142 C 98 149, 86 158, 76 170\" stroke-width=\"1.2\" />\n  <path d=\"M 110 142 C 122 149, 134 158, 144 170\" stroke-width=\"1.2\" />\n  <!-- 2 submacicez precordial -->\n  <path d=\"M 118 94 C 134 90, 150 100, 147 114 C 144 128, 126 132, 119 124 Z\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\" />\n  <!-- 3 macicez hepática -->\n  <path d=\"M 60 124 L 106 140 L 70 172 Z\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\" />\n  <!-- 4 timpanismo do espaço de Traube -->\n  <path d=\"M 146 134 L 114 142 L 134 162 Z\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\" />\n  <!-- números -->\n  <g font-family=\"sans-serif\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"76\" y=\"74\">1</text>\n    <text x=\"146\" y=\"74\">1</text>\n    <text x=\"133\" y=\"114\">2</text>\n    <text x=\"80\" y=\"146\">3</text>\n    <text x=\"131\" y=\"149\">4</text>\n  </g>\n  <!-- legenda -->\n  <g font-family=\"sans-serif\" font-size=\"9.5\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"192\" y=\"60\">1 som claro pulmonar</text>\n    <text x=\"192\" y=\"82\">2 submacicez precordial</text>\n    <text x=\"192\" y=\"104\">3 macicez hepática</text>\n    <text x=\"192\" y=\"126\">4 timpanismo</text>\n    <text x=\"202\" y=\"139\">espaço de Traube</text>\n  </g>\n  <!-- lado do paciente -->\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"72\" y=\"194\">direita do paciente</text>\n    <text x=\"148\" y=\"194\">esquerda</text>\n  </g>\n</svg>\n",
+         "legenda": "O mapa normal da percussão na face anterior. Reconhecer essas quatro zonas evita chamar de doença o que é anatomia."
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O mapa normal",
+         "texto": "Antes de procurar doença, é preciso saber onde o tórax normal já não soa claro.\n\n- **Acima e sobre as clavículas.** Som claro pulmonar já se obtém percutindo a própria clavícula, e ainda na faixa de 2,5 a 3 cm acima dela — o ápice sobe até ali.\n- **À direita.** Sonoridade pulmonar em toda a face anterior até a altura da 6ª ou 7ª costela (Porto, Semiologia Médica); abaixo desse nível não há mais pulmão entre o fígado e a parede, e o som se torna maciço. Descendo pela linha hemiclavicular, a transição não é abrupta: primeiro a nota fica submaciça, depois francamente maciça.\n- **À esquerda.** O mesmo som claro até a região precordial, onde surge uma área de submacicez variável com o biotipo, de cerca de 5 cm, que ocupa a região mamária ao lado esquerdo do esterno, entre a 4ª e a 6ª costela. A submacicez é máxima no centro dessa área e vai se dissipando na periferia até voltar ao som claro.\n- **Abaixo e à esquerda.** A submacicez precordial dá lugar ao timpanismo do espaço de Traube, projeção do fundo do estômago.\n- **A coluna vertebral**, percutida, dá som claro atimpânico.\n\nA nota também não é uniforme entre as faces: as faces anterior e laterais soam mais que a posterior; o ápice direito soa um pouco mais claro que o esquerdo; e nas bases o som é menos intenso que no restante do tórax. Comparar regiões não homólogas é uma boa maneira de inventar achados.\n\nDuas condições da parede reduzem a nitidez de todos os sons e prejudicam o método antes que ele comece: obesidade e musculatura muito desenvolvida, além do edema de parede.\n"
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Por que o mesmo pulmão pode soar diferente",
+         "texto": "O resultado da percussão não depende só do que existe sob o dedo — depende de como você bate.\n\nGolpes leves produzem sons mais surdos que golpes fortes. Levantar minimamente o dedo plexímetro é suficiente para transformar uma nota sonora em maciça. Entre examinadores diferentes, a força e a velocidade do golpe variam em até três vezes, o que explica por que a concordância entre observadores na percussão topográfica é das piores de todo o exame físico (McGee).\n\nDaí as duas regras que fazem a percussão comparativa funcionar. Primeira: **mesma força dos dois lados** — a comparação só é válida se a única variável for o paciente. Segunda: **mesma orientação e mesma pressão do plexímetro** nos dois pontos.\n\nExiste uma variação de técnica que aproveita a física a favor do examinador, a **percussão de limiar**: bater tão levemente que as áreas maciças não produzam som nenhum. Movendo o golpe com força rigorosamente constante, a nota surge de repente ao encontrar a área sonora. É mais fácil distinguir \"algo de nada\" do que \"mais de menos\".\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Aprofundamento"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que a percussão prediz",
+         "texto": "Os números de McGee delimitam com precisão o alcance do método.\n\n**Macicez assimétrica.** Eleva moderadamente a probabilidade de pneumonia em pacientes com febre e tosse (razão de verossimilhança 3,0), de qualquer anormalidade na radiografia de tórax (3,0) e de derrame pleural em pacientes internados por queixas respiratórias (4,8). A sensibilidade para pneumonia é baixíssima — de 4% a 26%.\n\n**Ausência de macicez.** Aqui está o valor real: sonoridade normal reduz muito a probabilidade de derrame pleural (razão de verossimilhança 0,1). Não muda, porém, a probabilidade de outras doenças pulmonares.\n\n**Hipersonoridade.** Em fumantes crônicos, é um dos achados mais úteis do exame do tórax: eleva a probabilidade de obstrução crônica ao fluxo aéreo com razão de verossimilhança 7,3, com especificidade de 94% a 98%.\n\nResumindo em uma frase: a percussão do tórax é um bom teste para **excluir derrame pleural** e para **reforçar a suspeita de obstrução crônica**; é um teste fraco para consolidações e inútil para lesões pequenas ou profundas.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Espaço de Traube",
+         "texto": "O espaço de Traube é a área triangular, normalmente timpânica, que ocupa o baixo da face anterior do hemitórax esquerdo e corresponde ao fundo do estômago. Seus limites são três: **acima**, a submacicez cardíaca, em geral na altura da 6ª costela; **para baixo e para dentro**, a margem costal; **para fora**, a linha axilar anterior.\n\nServe para duas coisas.\n\n**Aprender o som timpânico.** É o único lugar do tórax normal onde ele existe. Percutir Traube repetidas vezes é o melhor treino para reconhecer timpanismo quando ele aparecer onde não deveria — no pneumotórax ou sobre uma grande caverna.\n\n**Detectar esplenomegalia.** A perda do timpanismo é uma das primeiras manifestações do aumento do baço; nos grandes aumentos, a macicez alcança as regiões inframamária e axilar inferior. O desempenho é modesto: macicez do espaço de Traube eleva a probabilidade de esplenomegalia com razão de verossimilhança 2,1, e sua ausência quase não a reduz (0,8; McGee). É um sinal que sugere, não que decide.\n\nUm cuidado de interpretação: a percussão da área cardíaca vizinha não tem valor prático para avaliar o volume do coração — isso ficou para a radiografia e a ecocardiografia, como discutido no tópico de inspeção e palpação do precórdio.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Limites e mobilidade das bases",
+         "texto": "A percussão topográfica sobrevive em uma aplicação: acompanhar a posição e a excursão do diafragma. A técnica clássica (Porto) percute as duas regiões infraescapulares em vários níveis, marcando onde está cada hemicúpula antes e depois de uma inspiração e de uma expiração forçadas. À direita, a referência é a macicez hepática, que na inspiração profunda desce cerca de 5 cm.\n\nA leitura tradicional é coerente com a fisiologia. No **enfisema**, a cúpula se retifica e se abaixa: os limites da macicez hepática ficam mais baixos tanto na inspiração quanto na expiração. Nas **hepatomegalias**, ocorre o contrário — o órgão dificulta a própria descida inspiratória e o limite superior permanece alto.\n\nAqui as fontes divergem, e vale saber disso. McGee mostra que, em pacientes com doença pulmonar, o examinador **superestima** o movimento real do diafragma, errando de 1 a 3 cm em relação à radiografia, e que a correlação entre a excursão percutida e a real é fraca — coeficientes de 0,14 a 0,42, não significativos em metade das medidas. Uma excursão percutida menor que 2 cm mostrou-se sinal raro e pouco confiável de doença obstrutiva crônica.\n\nA resolução prática: use a percussão das bases para **comparar os dois lados** — uma base que não desce enquanto a outra desce localiza a lesão — e não para produzir um número em centímetros. A excursão medida à percussão não deve ser transcrita no prontuário como se fosse uma medida.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Até onde chega o golpe",
+         "texto": "Quanto do pulmão a percussão realmente enxerga? A tradição semiológica responde com um número: as vibrações captam estruturas situadas no máximo a **cerca de 5 cm** do ponto de impacto (Porto), e só lesões dentro dessa profundidade — e grandes o bastante para mudar a densidade da região — modificam o som.\n\nEsse é o enunciado da **teoria da percussão topográfica**, segundo a qual apenas os tecidos imediatamente sob o golpe determinam a nota, e a parede seria um mero transmissor. Ela ganhou o século XIX pela força de seus professores. McGee mostra que a evidência que a sustentava era escassa: a \"regra dos vários centímetros\" foi proposta por Weil em 1880 a partir de poucos experimentos em cadáveres.\n\nA teoria concorrente — a da **ressonância da caixa torácica** — sustenta que o som reflete a facilidade com que a parede inteira vibra, e reúne mais evidências a seu favor.\n\n- O som contém mais frequências do que a área percutida sozinha poderia gerar: regiões distantes da parede também vibram.\n- Pressão externa sobre o tórax — um travesseiro, a maca, a mão do examinador apoiada perto do ponto — amortece a nota.\n- Pacientes mais pesados têm áreas de macicez hepática maiores, não porque o fígado seja maior, mas porque a gordura subcutânea amortece as vibrações.\n- O golpe forte produz áreas maciças **menores** que o golpe leve. Se a teoria topográfica estivesse certa, seria o contrário, pois golpes fortes penetrariam mais fundo.\n- O **triângulo de Grocco** — área triangular de macicez na face posterior do hemitórax **oposto** a um grande derrame — mostra que pressão aplicada em um ponto produz macicez à distância. Ele pode ser reproduzido em pessoas sem derrame, apenas comprimindo um lado do dorso.\n\nA consequência prática não é abandonar a percussão, e sim usá-la como ela funciona: como **método comparativo**, não como régua.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Epônimos que ainda circulam",
+         "texto": "Quatro nomes aparecem em prova e em enfermaria, e um quinto vale conhecer pela história.\n\n- **Ressonância skódica.** Hipersonoridade percebida ao redor de uma condensação ou logo acima de um derrame pleural. Descrita por Skoda em meados do século XIX; a causa continua desconhecida.\n- **Sinal de Signorelli.** Macicez à percussão da coluna dorsal na presença de derrame pleural. Ganha sentido quando lido com a manobra clássica: se o paciente se inclina para a frente ou assume o decúbito ventral, a macicez da coluna desaparece nos derrames livres de volume médio, mas **permanece** quando a causa é uma condensação. É um jeito de separar derrame de consolidação sem imagem.\n- **Triângulo de Grocco.** Triângulo retângulo de macicez na face posterior, do lado oposto a um grande derrame. Descrito por Koranyi em 1897, depois por Grocco em 1902 e por Rauchfuss em 1903.\n- **Istmo de Krönig.** Faixa estreita de sonoridade sobre cada ápice pulmonar, entre a macicez do pescoço e a da musculatura do ombro. Doenças do ápice, como a tuberculose, estreitariam a faixa. Descrito por Krönig em 1889.\n- **Som de pote rachado.** Nota obtida sobre cavernas tuberculosas superficiais, imitada batendo o dorso de uma mão contra o joelho com as palmas unidas; o examinador escuta perto da boca aberta do paciente. Atribuía-se o som à saída súbita de ar por um brônquio comunicante — mas o único estudo anatomopatológico publicado não encontrou essa comunicação em 11 pacientes com o achado.\n\nHá ainda o **hidropneumotórax**: quando há líquido e ar na cavidade pleural, encontra-se timpanismo acima da área de macicez. E, no derrame livre com o paciente sentado, mesmo pequenos volumes podem ser reconhecidos pela macicez na região infraescapular, onde se projetam os seios diafragmáticos posteriores.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Cinco erros que estragam a percussão",
+         "texto": "1. **Pousar a mão inteira na parede.** Só o dedo plexímetro toca o paciente. Palma apoiada amortece as vibrações e transforma qualquer região em submaciça.\n2. **Bater com força diferente nos dois lados.** É o erro que mais gera falsa macicez. Regiões simétricas exigem golpes de intensidade idêntica; regiões não homólogas, ao contrário, exigem forças diferentes — e por isso não devem ser comparadas entre si.\n3. **Percutir com o cotovelo ou o ombro.** O movimento é de flexão e extensão do punho. Percussão com punho rígido não produz nota nítida em parede alguma.\n4. **Confundir hipersonoridade com timpanismo.** Hipersonoridade é a mesma nota do som claro, mais clara e mais intensa; timpanismo é musical e tem tonalidade identificável. O treino é percutir o espaço de Traube.\n5. **Transformar a excursão diafragmática percutida em número.** O examinador superestima o movimento real, com erro de 1 a 3 cm. Compare os lados; não meça.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Percussão nítida exige unhas curtas. É impossível golpear com a borda ungueal, em obliquidade, sem machucar o dedo plexímetro quando a unha é longa — e o estudante que descobre isso na frente do paciente já perdeu o achado."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "perc-torax-1",
+           "enunciado": "Qual é a posição correta da mão que apoia na parede durante a percussão dígito-digital, e por quê?",
+           "alternativas": [
+            "Palma inteira apoiada, para estabilizar a parede e concentrar as vibrações",
+            "Somente o dedo plexímetro em contato, com os demais dedos e a palma suspensos, porque a mão apoiada amortece as vibrações e abafa o som",
+            "Dedos entrelaçados sobre a região a percutir, para aumentar a resistência ao golpe",
+            "Punho fechado apoiado sobre o gradil, técnica reservada ao tórax do adulto"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Apenas o dedo plexímetro — indicador ou médio da mão que não golpeia — toca a região examinada; os outros dedos e a palma ficam suspensos rentes à superfície. Mão pousada amortece as vibrações e o som sai abafado. O punho-percussão é técnica de outro uso, aplicada às regiões lombares."
+          },
+          {
+           "id": "perc-torax-2",
+           "enunciado": "Quais são os limites do espaço de Traube e qual som normal se obtém nele?",
+           "alternativas": [
+            "Limitado acima pela clavícula, abaixo pela 4ª costela e lateralmente pela linha esternal; som maciço",
+            "Limitado acima pela submacicez cardíaca (em geral a 6ª costela), para baixo e para dentro pela margem costal e para fora pela linha axilar anterior; som timpânico",
+            "Limitado pelas linhas axilares anterior e posterior e pela 9ª costela; som claro pulmonar",
+            "Limitado acima pelo ângulo de Louis e abaixo pelo apêndice xifoide; submacicez"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "O espaço de Traube é a área triangular que ocupa o baixo da face anterior do hemitórax esquerdo, projeção do fundo do estômago. Acima, a submacicez cardíaca, em geral na altura da 6ª costela; abaixo e medialmente, a margem costal; lateralmente, a linha axilar anterior. Nele se obtém som timpânico — o único do tórax normal."
+          },
+          {
+           "id": "perc-torax-3",
+           "enunciado": "Em um paciente internado com queixas respiratórias, a percussão do tórax revela sonoridade normal e simétrica. O que essa informação permite concluir?",
+           "alternativas": [
+            "Reduz muito a probabilidade de derrame pleural, mas não altera a probabilidade de outras doenças pulmonares",
+            "Exclui pneumonia, pois a consolidação sempre produz macicez",
+            "Exclui doença pulmonar obstrutiva crônica, que sempre produz hipersonoridade",
+            "Não permite conclusão alguma, pois a percussão não tem valor negativo"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "A ausência de macicez reduz significativamente a probabilidade de derrame pleural (razão de verossimilhança 0,1) — a percussão detectou todos os grandes derrames nos estudos. Não muda, porém, a probabilidade de outras doenças: a sensibilidade para consolidação foi de apenas 0% a 15%, e nódulos e granulomas não são detectados."
+          },
+          {
+           "id": "perc-torax-4",
+           "enunciado": "Um estudante percute a base direita com golpes leves e a base esquerda com golpes vigorosos, e conclui que há macicez à direita. Qual é o problema?",
+           "alternativas": [
+            "Nenhum: a força do golpe não influencia a nota obtida",
+            "Golpes leves produzem sons mais surdos que golpes fortes, de modo que a assimetria criada é do examinador, não do paciente",
+            "Golpes leves penetram mais profundamente e detectam lesões que os fortes não alcançam",
+            "O erro está apenas na ordem, pois a face posterior deve ser percutida antes da anterior"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "A força e a orientação do golpe governam o som produzido: golpes mais leves produzem notas mais surdas que golpes fortes. A percussão comparativa exige força idêntica nos dois lados, para que a única variável seja o paciente. Golpes fortes, ao contrário do que ensinava a teoria topográfica, produzem áreas de macicez menores, não maiores."
+          },
+          {
+           "id": "perc-torax-5",
+           "enunciado": "Um paciente tem grande derrame pleural à direita. Ao percutir a face posterior do hemitórax esquerdo, você encontra uma área triangular de macicez. Como se chama esse achado e o que ele demonstra?",
+           "alternativas": [
+            "Istmo de Krönig; demonstra doença do ápice pulmonar esquerdo",
+            "Ressonância skódica; demonstra hiperinsuflação compensatória do pulmão esquerdo",
+            "Triângulo de Grocco; demonstra que pressão aplicada em um ponto do tórax produz macicez à distância",
+            "Sinal de Signorelli; demonstra derrame pleural bilateral"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "O triângulo de Grocco é um triângulo retângulo de macicez na face posterior do hemitórax oposto a um grande derrame. Ele sustenta a teoria da ressonância da caixa torácica: a pressão do líquido em um lado amortece a vibração da parede do outro. Pode até ser reproduzido em pessoas sem derrame, comprimindo um lado do dorso com a mão."
+          },
+          {
+           "id": "perc-torax-6",
+           "enunciado": "Que diferença separa hipersonoridade de som timpânico à percussão do tórax?",
+           "alternativas": [
+            "A hipersonoridade é musical e tem tonalidade identificável; o timpanismo é um ruído sem altura definida",
+            "A hipersonoridade é a mesma nota do som claro pulmonar, apenas mais clara e mais intensa; o timpanismo é musical, com uma frequência dominante identificável",
+            "São sinônimos, e a escolha do termo depende apenas da escola semiológica",
+            "A hipersonoridade só ocorre no pneumotórax e o timpanismo só ocorre no enfisema"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Hipersonoridade é a nota do som claro pulmonar tornada mais clara e mais intensa, por aumento de ar nos alvéolos — o enfisema é a causa mais comum. O som timpânico contém uma frequência dominante e por isso tem tonalidade musical identificável; indica ar aprisionado, como no pneumotórax, em grandes cavernas superficiais e, normalmente, no espaço de Traube."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "aparelho-respiratorio/exame-do-torax/ausculta-pulmonar",
+       "titulo": "Ausculta pulmonar",
+       "sistemaId": "aparelho-respiratorio",
+       "capituloId": "exame-do-torax",
+       "ordem": 4,
+       "tags": [
+        "ausculta pulmonar",
+        "exame do tórax",
+        "aparelho respiratório",
+        "sons pleuropulmonares",
+        "som traqueal",
+        "som brônquico",
+        "respiração brônquica",
+        "som broncovesicular",
+        "murmúrio vesicular",
+        "expiração prolongada",
+        "sons adventícios",
+        "ruídos adventícios",
+        "estertores",
+        "estertores finos",
+        "crepitações",
+        "estertores grossos",
+        "estertores bolhosos",
+        "estertores protoinspiratórios",
+        "estertores teleinspiratórios",
+        "roncos",
+        "sibilos",
+        "estridor",
+        "cornagem",
+        "grasnido",
+        "atrito pleural",
+        "sopro tubário",
+        "sopro cavitário",
+        "sopro anfórico",
+        "ressonância vocal",
+        "broncofonia",
+        "egofonia",
+        "pectorilóquia fônica",
+        "pectorilóquia afônica",
+        "síndromes pleuropulmonares",
+        "síndrome brônquica",
+        "consolidação pulmonar",
+        "atelectasia",
+        "atelectasia obstrutiva",
+        "fibroatelectasia",
+        "derrame pleural",
+        "pneumotórax",
+        "enfisema pulmonar",
+        "congestão pulmonar",
+        "caverna pulmonar",
+        "asma",
+        "DPOC",
+        "Laennec"
+       ],
+       "referencias": [
+        "Porto — Semiologia Médica, 8ª ed., Parte 9 (Sistema Respiratório), Seção 1, cap. 36 (Exame Clínico) — Ausculta: classificação dos sons pleuropulmonares, Quadro 36.6 (sons respiratórios normais), Quadro 36.7 (estertores), sopros, atrito pleural, sons vocais e Síndromes broncopulmonares e pleurais",
+        "Porto — Exame Clínico, 8ª ed., cap. 16 (Exame do Tórax) — Ausculta: semiotécnica, Quadros 16.2, 16.3 e 16.4, ausculta da voz",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 30 (Auscultation of the Lungs), p. 261-274 — sons respiratórios (Figura 30.1), ressonância vocal e transmissão sonora (Figura 30.2), sons adventícios (Tabelas 30.1 e 30.2), boxes EBM 30.1 e 30.2",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 35 (Pleural Effusion), p. 297-299 — boxe EBM 35.1",
+        "Semiologia Clínica, 1ª ed., cap. 10 (O exame do tórax e do sistema respiratório) — Ausculta (Tabela 7, sons pleuropulmonares) e Síndromes pleuropulmonares (Tabela 8)"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Três coisas se escutam no pulmão",
+         "texto": "A ausculta é o método mais informativo do exame do tórax porque é o único funcional: ela acompanha o ar entrando e saindo. Praticamente tudo o que se ouve foi descrito por Laennec em 1819, no tratado que inaugurou a estetoscopia.\n\nOrganize o que se escuta em três categorias, sempre nessa ordem.\n\n1. **Sons respiratórios** — o ruído da própria respiração. Pergunte: que tipo de som é este, e ele está aqui no lugar certo? Está mais fraco ou mais forte que no lado oposto?\n2. **Sons adventícios** — tudo o que se superpõe à respiração: estertores, roncos, sibilos, estridor, atrito pleural.\n3. **Sons vocais** — a voz do paciente ouvida através da parede, pesquisada quando as duas primeiras categorias levantaram uma suspeita.\n\nTodo achado se descreve por **onde**, **quando no ciclo respiratório**, **se muda com a tosse** e **se muda com a posição**. Um estertor sem essas quatro coordenadas é quase inútil.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Auscultar por cima da roupa é como pedir uma radiografia de tórax em paciente vestido com avental de chumbo. O receptor toca a pele, sempre — e a fricção do tecido produz ruídos que imitam com perfeição estertores e atrito pleural."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como auscultar"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Ausculta pulmonar",
+         "passos": [
+          "Peça silêncio no ambiente e acomode o paciente sentado, com o tórax descoberto, sem forçar a cabeça nem curvar demais o tronco.",
+          "Ensine a respiração do exame: incursões pausadas e um pouco mais profundas que o habitual, com a boca entreaberta, sem produzir ruído.",
+          "Use o diafragma do estetoscópio, apoiado diretamente sobre a pele — nunca sobre a roupa; em crianças, prefira o receptor de menor diâmetro.",
+          "Comece pela face posterior, comparando regiões homólogas, do ápice para as bases, e desça bem abaixo do ângulo inferior da escápula.",
+          "Passe às faces laterais, com o paciente de braços erguidos, e depois à face anterior.",
+          "Em cada ponto, ouça pelo menos um ciclo inspiratório e expiratório completo antes de mudar o receptor de lugar.",
+          "Se o paciente não puder sentar-se, faça o exame nos decúbitos dorsal e laterais, lembrando que a posição altera a distribuição dos estertores de congestão.",
+          "Diante de qualquer alteração, peça uma tosse e ausculte de novo o mesmo ponto — estertores grossos mudam ou desaparecem, estertores finos não.",
+          "Se houver suspeita de consolidação ou de derrame, pesquise a ressonância vocal: peça ao paciente que repita trinta e três em voz normal e, depois, cochichada, percorrendo os mesmos pontos.",
+          "Registre cada achado por região torácica, fase do ciclo, resposta à tosse e comparação com o lado oposto."
+         ],
+         "observar": "Respirar fundo e repetidamente cansa e provoca tontura, sobretudo em quem já está dispneico. Avise que o exame é rápido, deixe o paciente respirar normalmente entre os campos e interrompa se ele referir mal-estar. Um exame que deixa o paciente hiperventilado não fica mais completo — fica menos confiável.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Ausculta pulmonar em 10 passos",
+         "itens": [
+          "Ambiente silencioso, paciente sentado e tórax descoberto.",
+          "Instrução da respiração: pausada, um pouco profunda, com a boca entreaberta e sem ruído.",
+          "Uso do diafragma do estetoscópio em contato direto com a pele.",
+          "Ausculta comparativa da face posterior, do ápice para as bases, em regiões homólogas.",
+          "Ausculta das faces laterais com os braços erguidos e da face anterior.",
+          "Ciclo respiratório completo ouvido em cada ponto.",
+          "Identificação do som respiratório presente e comparação de sua intensidade entre os lados.",
+          "Caracterização dos sons adventícios por fase do ciclo respiratório.",
+          "Reausculta após tosse nos pontos alterados.",
+          "Pesquisa da ressonância vocal com voz falada e cochichada quando houver suspeita de consolidação ou derrame."
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Sons respiratórios normais"
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <!-- som traqueal -->\n  <path d=\"M 100 64 L 214 64\" stroke-width=\"1.2\" />\n  <path d=\"M 104 64 L 118 38 L 132 64\" stroke-width=\"2\" />\n  <path d=\"M 146 64 L 168 28 L 190 64\" stroke-width=\"2\" />\n  <g stroke-width=\"1.2\" stroke-dasharray=\"3 3\">\n    <path d=\"M 132 64 L 132 78\" />\n    <path d=\"M 146 64 L 146 78\" />\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"139\" y=\"88\">pausa</text>\n    <text x=\"118\" y=\"76\">i</text>\n    <text x=\"168\" y=\"76\">e</text>\n  </g>\n  <!-- broncovesicular -->\n  <path d=\"M 100 120 L 214 120\" stroke-width=\"1.2\" />\n  <path d=\"M 104 120 L 120 100 L 136 120\" stroke-width=\"2\" />\n  <path d=\"M 136 120 L 152 100 L 168 120\" stroke-width=\"2\" />\n  <!-- murmúrio vesicular -->\n  <path d=\"M 100 176 L 214 176\" stroke-width=\"1.2\" />\n  <path d=\"M 104 176 L 126 148 L 148 176\" stroke-width=\"2\" />\n  <path d=\"M 148 176 L 160 162 L 172 176\" stroke-width=\"2\" />\n  <!-- rótulos -->\n  <g font-family=\"sans-serif\" font-size=\"9.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">\n    <text x=\"92\" y=\"46\">som traqueal</text>\n    <text x=\"92\" y=\"102\">broncovesicular</text>\n    <text x=\"92\" y=\"158\">murmúrio vesicular</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">\n    <text x=\"92\" y=\"58\">traqueia e fúrcula</text>\n    <text x=\"92\" y=\"114\">esternal superior</text>\n    <text x=\"92\" y=\"170\">periferia dos pulmões</text>\n  </g>\n  <!-- notas à direita -->\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"222\" y=\"46\">expiração mais</text>\n    <text x=\"222\" y=\"57\">longa e mais rude</text>\n    <text x=\"222\" y=\"105\">fases iguais,</text>\n    <text x=\"222\" y=\"116\">sem pausa</text>\n    <text x=\"222\" y=\"161\">inspiração longa,</text>\n    <text x=\"222\" y=\"172\">expiração breve</text>\n  </g>\n</svg>\n",
+         "legenda": "A altura de cada triângulo representa a intensidade; a largura, a duração. O que separa o som traqueal dos demais é a pausa nítida entre inspiração e expiração."
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Sons respiratórios normais",
+         "colunas": [
+          "Som",
+          "Onde é normal",
+          "Inspiração",
+          "Expiração"
+         ],
+         "linhas": [
+          [
+           "Som traqueal",
+           "Áreas de projeção da traqueia — pescoço e fúrcula esternal",
+           "Forte",
+           "Mais forte e mais longa, separada da inspiração por pausa nítida"
+          ],
+          [
+           "Som brônquico (respiração brônquica)",
+           "Áreas de projeção dos brônquios principais, junto ao esterno",
+           "Forte",
+           "Forte, um pouco menos intensa que no som traqueal"
+          ],
+          [
+           "Som broncovesicular",
+           "Região esternal superior e região interescapulovertebral direita, na altura das 3ª e 4ª vértebras torácicas",
+           "Moderada",
+           "Moderada, de igual duração e intensidade que a inspiração, sem pausa entre elas"
+          ],
+          [
+           "Murmúrio vesicular",
+           "Periferia dos pulmões — quase todo o tórax",
+           "Forte e longa",
+           "Mais fraca e mais curta que a inspiração, sem pausa entre elas"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Murmúrio vesicular — intensidade e a expiração prolongada",
+         "texto": "A intensidade do murmúrio vesicular não é uniforme. Ela atinge o máximo na porção anterossuperior do tórax, nas axilas e abaixo das escápulas, e cai em quem tem musculatura desenvolvida ou panículo adiposo espesso, porque a parede amortece o som. Fica mais intenso quando o paciente respira amplamente com a boca aberta, depois de esforço, em crianças e em pessoas emagrecidas. Nas doenças pulmonares unilaterais, ele pode aumentar no lado sadio por mecanismo vicariante.\n\nDuas alterações importam.\n\n**Diminuição.** Reúne mecanismos bem diferentes, e vale separá-los porque a conduta muda. Algo interposto entre o pulmão e a parede: ar, no pneumotórax; líquido, no hidrotórax; tecido fibroso, no espessamento pleural. Excesso de ar com destruição alveolar: o enfisema. Movimento limitado: qualquer dor torácica que reduza a amplitude das incursões. Fluxo reduzido na entrada: obstáculo nas vias superiores, como espasmo ou edema de glote. E, por fim, a oclusão de brônquios ou bronquíolos, parcial ou completa.\n\n**Prolongamento da fase expiratória.** Em condições normais a expiração é mais curta e mais suave que a inspiração. Quando ela se alonga, há dificuldade objetiva de saída do ar — o achado da asma em crise, da bronquite com broncoespasmo e da DPOC avançada. É um dos poucos sinais em que se mede o tempo, não a intensidade.\n"
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Som brônquico fora do lugar",
+         "texto": "Som vesicular e som brônquico não diferem só de nome: diferem de frequência. O murmúrio vesicular é grave, em torno de 100 Hz, suave, com inspiração mais longa que a expiração e sem intervalo entre elas. O som brônquico é agudo, entre 300 e 400 Hz, rude, com expiração mais longa que a inspiração e um intervalo audível entre as duas fases (McGee).\n\nO pulmão normal funciona como um filtro que deixa passar as frequências baixas e retém as altas. Por isso, na periferia do tórax, só chega o murmúrio vesicular: o som brônquico, agudo, é filtrado no caminho.\n\nSegue daí a regra mais importante da ausculta: **som brônquico ouvido na face posterior ou lateral do tórax, sobretudo nas partes baixas, é sempre anormal**. Ele só aparece ali quando existe pulmão sólido, colapsado ou consolidado encostando na parede e se estendendo alguma distância em direção ao hilo — condição que transforma o filtro passa-baixa em um bom condutor de frequências altas. As causas habituais são a pneumonia e o derrame pleural.\n\nQuando esse som brônquico deslocado é muito intenso, a semiologia de língua portuguesa o chama de **sopro**: **tubário** nas pneumonias com hepatização, **cavitário** nas grandes cavernas com brônquio de drenagem pérvio, **anfórico** no pneumotórax hipertensivo. Um sopro brando e mais longo na expiração, ouvido sobre a 7ª vértebra cervical, sobre a traqueia ou na região interescapular, é apenas o som brônquico normal daquelas áreas.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Sons adventícios"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Estertores finos e grossos",
+         "colunas": [
+          "Característica",
+          "Estertores finos (crepitantes)",
+          "Estertores grossos (bolhosos)"
+         ],
+         "linhas": [
+          [
+           "Som",
+           "Agudos, suaves, de curta duração e em maior número por incursão",
+           "Graves, mais intensos, de duração maior e em menor número"
+          ],
+          [
+           "Fase do ciclo",
+           "Do meio para o fim da inspiração",
+           "Início da inspiração e por toda a expiração"
+          ],
+          [
+           "Efeito da tosse",
+           "Não se alteram",
+           "Podem desaparecer"
+          ],
+          [
+           "Efeito da posição",
+           "Podem aumentar ou reduzir quando secundários a congestão pulmonar; não se modificam quando de causa inflamatória",
+           "Não se modificam"
+          ],
+          [
+           "Onde predominam",
+           "Nas bases, quando originados por congestão; conforme a doença, quando inflamatórios — bases na fibrose pulmonar, lobos superiores na tuberculose",
+           "Todas as áreas do tórax"
+          ],
+          [
+           "Mecanismo",
+           "Abertura sequencial de vias respiratórias antes fechadas, pela pressão de líquido ou exsudato no parênquima ou por alteração do tecido de suporte das paredes brônquicas",
+           "Abertura e fechamento de vias respiratórias com secreção viscosa e espessa, e afrouxamento da estrutura de suporte das paredes brônquicas"
+          ],
+          [
+           "Contextos habituais",
+           "Pneumonia, congestão da insuficiência ventricular esquerda, doenças intersticiais",
+           "Bronquite crônica, bronquiectasias"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Contínuos — roncos, sibilos e estridor",
+         "texto": "Os sons contínuos nascem da vibração das paredes brônquicas e do ar que passa por um duto estreitado — por espasmo, por edema da parede ou por secreção aderida a ela.\n\n**Roncos** são graves, de baixa frequência. **Sibilos** são agudos, de alta frequência. Ambos ocorrem na inspiração e na expiração, com predomínio expiratório, e são fugazes: surgem e desaparecem em curto período. Quando difusos por todo o tórax, traduzem doença de toda a árvore brônquica, como asma e bronquite. Quando bem localizados em uma região, apontam obstrução parcial por neoplasia ou corpo estranho — e essa distinção entre difuso e localizado é a informação clínica mais importante que eles carregam.\n\n**Estridor** é um ruído musical de altura constante, em torno de 400 Hz, produzido pela obstrução parcial da laringe ou da traqueia. Acusticamente é idêntico ao sibilo, e duas características o separam dele: o estridor é **inspiratório**, enquanto o sibilo é apenas expiratório ou expiratório e inspiratório; e o estridor é **sempre mais audível sobre o pescoço**, enquanto o sibilo é sempre mais audível sobre o tórax. Na respiração calma sua intensidade é pequena; na respiração forçada, o aumento do fluxo o intensifica muito — e em alguns pacientes ele só aparece quando se pede respiração rápida de boca aberta.\n\nUm adventício menos citado merece registro: o **grasnido**, som inspiratório agudo comparado ao pio de uma gaivota, audível no fim da inspiração nas doenças intersticiais e na bronquiolite.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Atrito pleural",
+         "descricao": "Ruído irregular e descontínuo, mais intenso na inspiração, de tonalidade grave e duração longa, comparado ao ranger de couro. Para aprender a reconhecê-lo, encoste uma das mãos na própria orelha e atrite-a com a outra, fazendo forte pressão. Aumentar a pressão do receptor do estetoscópio contra a parede torna o atrito mais intenso.\n",
+         "significado": "Traduz o deslizamento de dois folhetos pleurais recobertos de exsudato — a assinatura da pleurite seca. Distingue-se dos estertores com facilidade: é mais grave, mais longo e produz vibração palpável, o frêmito pleural. A instalação de derrame pleural o faz desaparecer, porque o líquido separa os folhetos.\n",
+         "causas": [
+          "Pleurite seca de qualquer etiologia",
+          "Tuberculose",
+          "Pneumonias com comprometimento pleural",
+          "Doença reumática e outras colagenoses",
+          "Neoplasias da pleura e do pulmão"
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A cronologia dos estertores diz mais que a presença deles",
+         "texto": "Encontrar estertores é pouco específico — quase toda doença pulmonar os produz. Em pacientes com tosse e febre, a simples presença de estertores eleva a probabilidade de pneumonia com razão de verossimilhança 2,3; em pacientes com cardiopatia conhecida, aponta pressão atrial esquerda elevada com razão de verossimilhança 2,1 (McGee). São números modestos.\n\nO que discrimina é **quando** eles ocorrem dentro da inspiração, e **quantos** são.\n\n- **Fibrose pulmonar**: 6 a 14 estertores por incursão, finos, teleinspiratórios — começam no meio da inspiração e persistem até quase o fim.\n- **Insuficiência cardíaca**: 4 a 9 por incursão, finos ou grossos, tele ou pan-inspiratórios.\n- **Pneumonia**: 3 a 7 por incursão, grossos, pan-inspiratórios. Com o tratamento eles se tornam mais finos e migram para o fim da inspiração.\n- **Obstrução crônica ao fluxo aéreo**: 1 a 4 por incursão, finos ou grossos, confinados à primeira metade da inspiração.\n\nEsse último padrão tem peso diagnóstico real. **Estertores protoinspiratórios** — que aparecem cedo e não passam do meio da inspiração — elevam muito a probabilidade de doença obstrutiva crônica: razão de verossimilhança 14,6. E, entre pacientes já sabidamente obstruídos, indicam doença grave, com razão de verossimilhança 20,8.\n\nDois usos específicos valem a pena. Em trabalhadores expostos ao asbesto, a presença de estertores aponta fibrose intersticial com razão de verossimilhança 5,9. E em pessoas saudáveis, estertores finos podem aparecer em até 60% dos casos — sobretudo na face anterior — se a pessoa expira ao máximo e inspira a partir do volume residual. A respiração do exame precisa ser profunda, mas não forçada até o fim.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A intensidade do sibilo não mede a gravidade",
+         "texto": "Três características descrevem um sibilo: duração, altura e intensidade. Apenas as duas primeiras variam com a gravidade da obstrução (McGee).\n\n- **Duração.** Quanto maior a proporção do ciclo respiratório ocupada pelo sibilo, pior a obstrução — a correlação com o volume expiratório forçado no primeiro segundo é forte e negativa, em torno de −0,89.\n- **Altura.** Sibilos mais agudos indicam obstrução pior; o tratamento broncodilatador eficaz reduz a altura do sibilo.\n- **Intensidade.** Não reflete a gravidade. Muitos pacientes gravemente obstruídos têm sibilos fracos ou nenhum sibilo.\n\nDaí o ditado que a evidência confirma: na asma, o **tórax silencioso não é boa notícia**. Pode significar um paciente exausto, incapaz de mover ar suficiente através das vias obstruídas para produzir som.\n\nVale ainda separar sibilo espontâneo de sibilo provocado. O **sibilo não forçado** eleva discretamente a probabilidade de doença obstrutiva crônica (razão de verossimilhança 2,6) e reduz a de embolia pulmonar (0,4). Já o **sibilo forçado** — obtido pedindo expiração vigorosa — não tem valor diagnóstico, porque a maioria das pessoas saudáveis o produz se soprar com força suficiente.\n\nSobre o estridor, um dado de gravidade: em pacientes com estenose de traqueia após traqueostomia, ele é achado tardio, surge depois da dispneia e da tosse irritativa, e indica diâmetro de via aérea menor que 5 mm.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Ressonância vocal"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Broncofonia, pectorilóquia e egofonia",
+         "texto": "Ressonância vocal é o som da voz do paciente ouvido através da parede torácica. Pesquisa-se com o paciente repetindo **trinta e três**, primeiro em voz normal e depois cochichada, enquanto o examinador percorre os mesmos pontos comparativos usados para o frêmito.\n\nNo pulmão normal a voz chega abafada e ininteligível: o parênquima absorve boa parte dos componentes sonoros. A ressonância é naturalmente mais intensa nas regiões esternal superior e interescapulovertebral, exatamente onde se ausculta o som broncovesicular, e mais intensa nos homens que nas mulheres e nas crianças, por causa do timbre.\n\nQuando a transmissão é facilitada, aparecem três graus, em ordem crescente de facilitação.\n\n- **Broncofonia**: a voz chega mais forte que o normal, mas as sílabas continuam indistintas.\n- **Pectorilóquia fônica**: a voz falada é ouvida com nitidez, palavra por palavra.\n- **Pectorilóquia afônica**: até a voz cochichada é ouvida com nitidez. É a expressão mais clara da facilitação da transmissão.\n\nA **egofonia** é uma forma particular de broncofonia: a voz adquire qualidade anasalada e metálica, comparada por Laennec ao balido de uma cabra. Muitos examinadores a pesquisam pedindo ao paciente que emita um \"i\" prolongado e escutando sua transformação em um \"a\" anasalado. O que caracteriza o achado não é apenas a mudança do som — todas as vogais são alteradas mesmo pelo pulmão sadio —, mas a **intensidade** da mudança e o fato de ela surgir de repente sobre uma área pequena de um dos lados. Antes de afirmar egofonia, confira que essa transformação não ocorre no ponto homólogo do outro hemitórax.\n\nEgofonia aparece na parte superior dos derrames pleurais e também na condensação pulmonar.\n"
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Por que o pulmão é um filtro e o que isso explica",
+         "texto": "Um único experimento acústico explica quase toda a semiologia da transmissão sonora no tórax (McGee). Colocou-se na boca de pacientes um alto-falante emitindo tons puros de várias frequências e mediu-se, com microfones na parede torácica, quanto de cada frequência chegava até lá.\n\n**Pulmão normal.** Transmite bem as frequências baixas, de 100 a 200 Hz, e filtra as altas, acima de 300 Hz. Como o frêmito toracovocal é feito de vibrações baixas, ele é um achado normal; como as palavras precisam de frequências altas para serem compreendidas, a voz chega ininteligível. A voz cochichada, que exige acima de 400 Hz, some por completo.\n\n**Consolidação.** O parênquima preenchido conduz melhor tanto as frequências baixas quanto as altas. Daí a combinação clássica: frêmito aumentado *e* ressonância vocal aumentada *e* som brônquico, tudo no mesmo território.\n\n**Derrame pleural.** Aqui está a sutileza que confunde estudantes. O líquido **reduz** a transmissão das frequências abaixo de 200 a 300 Hz, mas pode **aumentar** a das frequências acima de 400 Hz em comparação com o pulmão normal. Por isso um mesmo paciente pode ter, do lado do derrame, frêmito diminuído — que depende das frequências baixas — e, na faixa estreita de transição no limite superior do líquido, egofonia — que depende das altas. Não é contradição: é a curva de transmissão do líquido.\n\nSobre a área do derrame propriamente dita, porém, o que se encontra na maioria dos pacientes é o oposto da egofonia: voz apagada ou inaudível. A egofonia no derrame é achado inconstante, e os derrames que a produzem são os de maior pressão intrapleural.\n\nUma correção a um ensino antigo: dizia-se que brônquio obstruído sempre reduz a ressonância vocal. Provavelmente não é verdade — há pacientes com egofonia e pneumonia cujo brônquio está obstruído por tumor, e experimentos mostram que o som se conduz pelo próprio parênquima poroso, e não pelo interior dos dutos aéreos.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que a ausculta prediz",
+         "texto": "Os achados de ausculta estão entre os mais bem estudados do exame do tórax (McGee).\n\n**Murmúrio vesicular diminuído.** Bilateral e simétrico, eleva a probabilidade de doença obstrutiva crônica (razão de verossimilhança 3,5). Unilateral, aponta derrame pleural (5,2) e, em paciente com tosse e febre, pneumonia (2,2). O achado negativo é forte: intensidade normal do murmúrio reduz muito a probabilidade de derrame (0,1).\n\n**Som brônquico.** Em paciente com tosse e febre, eleva a probabilidade de pneumonia com razão de verossimilhança 3,3 — mas está presente em apenas 14% dos casos.\n\n**Egofonia.** Em paciente com tosse e febre, razão de verossimilhança 4,1 para pneumonia; também infrequente, com sensibilidade de 4% a 16%.\n\n**Ressonância vocal diminuída.** Em pacientes internados por queixas respiratórias, eleva a probabilidade de derrame pleural com razão de verossimilhança 6,5, e sua normalidade a reduz (0,3).\n\n**Atrito pleural.** Não altera a probabilidade nem de embolia pulmonar nem de derrame pleural. Ele diz que há pleura inflamada, não qual é a doença.\n\nO padrão que emerge é constante em todo o exame do tórax: os sinais são **específicos e pouco sensíveis**. Achá-los vale muito; não achá-los quase nunca afasta a doença — com as exceções do murmúrio vesicular e da sonoridade normais, que efetivamente afastam derrame pleural.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "As síndromes pleuropulmonares"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Como ler a tabela integradora",
+         "texto": "Nenhum dos quatro métodos fecha diagnóstico sozinho. O que identifica uma síndrome é a **combinação**, e a combinação se lê em dois eixos.\n\n**Primeiro eixo — a percussão.** Ela separa o tórax em dois mundos. *Menos ar* produz submacicez ou macicez: consolidação, atelectasia, derrame. *Mais ar* produz hipersonoridade ou timpanismo: pneumotórax, enfisema, crise de asma com hiperinsuflação.\n\n**Segundo eixo — o frêmito.** Dentro do mundo maciço, ele decide quase tudo. Frêmito **aumentado** significa parênquima denso com brônquio pérvio: consolidação. Frêmito **diminuído ou abolido** significa barreira à transmissão: derrame pleural ou atelectasia obstrutiva.\n\nRestam então dois pares que a percussão e o frêmito não separam, e cada um tem seu desempate.\n\n- **Derrame × atelectasia obstrutiva.** Ambos dão macicez com frêmito reduzido — combinação que Porto descreve como indistinguível pelo exame físico na maior parte dos casos. A inspeção desempata: a atelectasia **retrai** o hemitórax e produz tiragem, com desvio da traqueia e do ictus para o lado comprometido; o grande derrame **abaúla** o hemitórax e os espaços intercostais. A percussão da coluna ajuda (sinal de Signorelli, no tópico de percussão), e a imagem resolve.\n- **Pneumotórax × enfisema.** Ambos dão hipersonoridade com frêmito reduzido. A distribuição desempata: o pneumotórax é **unilateral e agudo**; o enfisema é **bilateral e crônico**, com tórax em tonel e expiração prolongada.\n\nUma última cautela sobre a atelectasia. A tabela abaixo descreve a forma **obstrutiva**, em que o brônquio está ocluído — a mais comum, causada por neoplasias e corpos estranhos. Existe uma variante em que a via aérea permanece pérvia e o pulmão está retraído e denso, como na fibroatelectasia: ali o frêmito fica **aumentado**, e à ausculta surgem som brônquico e estertores. A regra que resolve as duas é sempre a mesma: **o que decide o frêmito não é a densidade do pulmão, é a permeabilidade do brônquio que chega até ele.**\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Síndromes pleuropulmonares — inspeção, palpação, percussão e ausculta",
+         "colunas": [
+          "Síndrome",
+          "Inspeção",
+          "Palpação",
+          "Percussão",
+          "Ausculta"
+         ],
+         "linhas": [
+          [
+           "Consolidação (pneumonia, infarto pulmonar, tuberculose)",
+           "Taquipneia; expansibilidade reduzida do lado acometido; tórax simétrico",
+           "Expansibilidade diminuída; frêmito toracovocal aumentado",
+           "Submacicez ou macicez",
+           "Estertores finos; som brônquico ou broncovesicular no lugar do murmúrio vesicular, podendo chegar a sopro tubário; broncofonia, egofonia ou pectorilóquia"
+          ],
+          [
+           "Derrame pleural",
+           "Expansibilidade diminuída; hemitórax abaulado e sinal de Lemos Torres nos grandes volumes",
+           "Expansibilidade diminuída; frêmito reduzido ou abolido na área do derrame",
+           "Macicez, com ressonância skódica acima do nível do líquido e sinal de Signorelli",
+           "Murmúrio vesicular apagado ou ausente sobre o líquido; ressonância vocal diminuída, com egofonia possível na estreita faixa de transição, no limite superior do derrame"
+          ],
+          [
+           "Pneumotórax",
+           "Pode não haver nada visível; nos grandes volumes, abaulamento do hemitórax e dos espaços intercostais",
+           "Expansibilidade diminuída; frêmito diminuído ou abolido; pode haver enfisema subcutâneo",
+           "Hipersonoridade, ou som timpânico acima da macicez no hidropneumotórax",
+           "Murmúrio vesicular muito reduzido ou ausente; ressonância vocal diminuída"
+          ],
+          [
+           "Atelectasia obstrutiva",
+           "Retração do hemitórax comprometido e tiragem; desvio da traqueia e do ictus para o lado comprometido",
+           "Expansibilidade diminuída; frêmito diminuído ou abolido",
+           "Submacicez ou macicez",
+           "Murmúrio vesicular reduzido ou abolido; ressonância vocal diminuída"
+          ],
+          [
+           "Síndrome brônquica (asma, bronquite, bronquiectasia)",
+           "Taquipneia, redução da expansibilidade e tiragem; expiração ativa e prolongada",
+           "Expansibilidade reduzida; frêmito normal ou diminuído",
+           "Som claro pulmonar ou hipersonoridade",
+           "Murmúrio vesicular diminuído com expiração prolongada; sibilos predominantemente expiratórios nos dois campos; roncos e estertores grossos"
+          ],
+          [
+           "Enfisema pulmonar",
+           "Tórax em tonel nos casos avançados; expansibilidade diminuída; musculatura acessória",
+           "Expansibilidade diminuída; frêmito diminuído",
+           "Som claro pulmonar no início; hipersonoridade à medida que a doença avança",
+           "Murmúrio vesicular diminuído; fase expiratória prolongada; ressonância vocal diminuída"
+          ],
+          [
+           "Congestão passiva dos pulmões",
+           "Expansibilidade normal ou diminuída; tórax simétrico",
+           "Expansibilidade e frêmito normais",
+           "Som claro pulmonar ou submacicez nas bases",
+           "Estertores finos nas bases; ressonância vocal normal"
+          ]
+         ],
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde este tópico encontra os outros",
+         "texto": "A ausculta pulmonar termina o exame do tórax, mas raramente termina o raciocínio.\n\n- **Frequência respiratória e ritmos respiratórios** — a taquipneia que aparece na primeira coluna da tabela acima — estão no tópico de temperatura e frequência respiratória, com técnica de contagem e valores de referência.\n- **Tiragem, tórax em tonel, musculatura acessória e assimetria de movimentos** estão no tópico de inspeção do tórax.\n- **Frêmito toracovocal e expansibilidade**, as duas colunas de palpação, estão no tópico de palpação do tórax, com o mecanismo acústico que explica cada alteração.\n- **Macicez, hipersonoridade, ressonância skódica e sinal de Signorelli** estão no tópico de percussão do tórax.\n- **Estertores finos nas bases da congestão passiva** convivem com achados cardíacos que estão nos tópicos de ausculta cardíaca e de pulso venoso jugular e turgência — a terceira bulha, a turgência jugular e o edema. Pulmão congesto sem exame do pescoço é meio exame.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Seis erros que enganam a orelha",
+         "texto": "1. **Auscultar por cima da roupa.** O tecido cria ruídos que imitam estertores e atrito com fidelidade suficiente para enganar qualquer examinador.\n2. **Parar na ponta da escápula.** A borda inferior do pulmão desce muito mais atrás; encerrar ali é deixar os lobos inferiores sem exame — exatamente onde se acumulam derrame e congestão.\n3. **Pedir expiração forçada e comemorar o sibilo.** Quase toda pessoa saudável sibila se soprar com força. O sibilo que informa é o espontâneo.\n4. **Tranquilizar-se com o tórax silencioso na asma.** A intensidade do sibilo não acompanha a gravidade; o silêncio pode significar fluxo insuficiente para produzir som.\n5. **Não pedir tosse.** É a manobra que separa estertores grossos de finos em dois segundos, e quase ninguém a faz.\n6. **Auscultar a voz onde o frêmito já respondeu.** As duas informações são a mesma, colhidas por sentidos diferentes; a ausculta da voz rende quando dirigida a uma suspeita — consolidação ou derrame —, não como varredura de rotina.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Diante de qualquer achado, faça sempre as mesmas quatro perguntas: onde, em que fase do ciclo, muda com a tosse, muda com a posição. Elas transformam 'estertores em bases' — que não significa nada — em 'estertores finos teleinspiratórios, bilaterais, que se modificam com o decúbito', que já sugere congestão."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "ausc-pulm-1",
+           "enunciado": "Você encontra, na base direita, macicez à percussão e frêmito toracovocal aumentado. Qual síndrome essa combinação identifica?",
+           "alternativas": [
+            "Derrame pleural",
+            "Consolidação pulmonar",
+            "Pneumotórax",
+            "Atelectasia obstrutiva"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "A percussão maciça indica menos ar naquele território; o frêmito aumentado indica que o parênquima denso está sendo alcançado por um brônquio pérvio — a definição da consolidação. Derrame pleural e atelectasia obstrutiva também dão macicez, mas com frêmito reduzido ou abolido; o pneumotórax dá hipersonoridade."
+          },
+          {
+           "id": "ausc-pulm-2",
+           "enunciado": "Dois pacientes têm macicez e frêmito abolido em um hemitórax. No primeiro, o hemitórax está retraído, com tiragem e traqueia desviada para o mesmo lado; no segundo, o hemitórax está abaulado. Qual é a interpretação?",
+           "alternativas": [
+            "O primeiro tem atelectasia obstrutiva e o segundo, derrame pleural",
+            "O primeiro tem derrame pleural e o segundo, atelectasia obstrutiva",
+            "Ambos têm pneumotórax, e a diferença é apenas o volume de ar",
+            "Ambos têm consolidação, e a diferença é apenas o tempo de evolução"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "Macicez com frêmito reduzido é combinação comum a derrame e atelectasia obstrutiva, e o exame físico dificilmente as separa. A inspeção desempata: a atelectasia retrai o hemitórax, produz tiragem e desvia traqueia e ictus para o lado comprometido; o grande derrame abaúla o hemitórax e os espaços intercostais."
+          },
+          {
+           "id": "ausc-pulm-3",
+           "enunciado": "Um paciente com tosse crônica apresenta poucos estertores, grossos ou finos, confinados à primeira metade da inspiração. O que esse padrão sugere?",
+           "alternativas": [
+            "Fibrose pulmonar, em que os estertores são numerosos e teleinspiratórios",
+            "Pneumonia, em que os estertores são pan-inspiratórios",
+            "Doença obstrutiva crônica ao fluxo aéreo, provavelmente grave",
+            "Congestão pulmonar da insuficiência ventricular esquerda"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "Estertores protoinspiratórios — poucos por incursão e confinados à primeira metade da inspiração — elevam muito a probabilidade de doença obstrutiva crônica (razão de verossimilhança 14,6) e, entre pacientes já obstruídos, indicam doença grave (20,8). A fibrose produz 6 a 14 estertores finos teleinspiratórios; a pneumonia, 3 a 7 grossos pan-inspiratórios."
+          },
+          {
+           "id": "ausc-pulm-4",
+           "enunciado": "Por que um paciente com derrame pleural pode apresentar frêmito toracovocal diminuído e, ao mesmo tempo, egofonia na faixa superior do derrame?",
+           "alternativas": [
+            "Porque o frêmito e a ressonância vocal medem fenômenos físicos independentes entre si",
+            "Porque o líquido reduz a transmissão das frequências baixas, das quais depende o frêmito, e pode aumentar a das frequências acima de 400 Hz, das quais depende a alteração da voz",
+            "Porque o frêmito só é palpável em homens e a egofonia só é audível em mulheres",
+            "Porque a egofonia no derrame indica sempre que há consolidação associada"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "O pulmão normal transmite bem as frequências de 100 a 200 Hz e filtra as acima de 300 Hz. O derrame moderado ou grande reduz a transmissão abaixo de 200 a 300 Hz — e o frêmito é feito dessas frequências baixas — mas pode aumentar a transmissão acima de 400 Hz, faixa de que depende a transformação da voz. Sobre a área do líquido, porém, o achado mais comum é voz apagada; a egofonia no derrame é inconstante."
+          },
+          {
+           "id": "ausc-pulm-5",
+           "enunciado": "Ao auscultar um paciente com asma em crise, você percebe que os sibilos, antes intensos, ficaram muito fracos. Como interpretar?",
+           "alternativas": [
+            "Como melhora, pois a intensidade do sibilo acompanha diretamente a gravidade da obstrução",
+            "Como sinal potencialmente grave, pois a intensidade não reflete a obstrução e o tórax silencioso pode indicar fluxo insuficiente para gerar som",
+            "Como erro de técnica, pois sibilos não variam de intensidade ao longo de uma crise",
+            "Como sinal de que a obstrução passou a ser das vias aéreas superiores"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Das três características do sibilo — duração, altura e intensidade —, apenas as duas primeiras acompanham a gravidade. Sibilo mais longo e mais agudo indica pior obstrução. A intensidade não reflete a gravidade, porque muitos pacientes gravemente obstruídos sibilam pouco ou nada: o tórax silencioso pode ser um paciente exausto, incapaz de mover ar suficiente."
+          },
+          {
+           "id": "ausc-pulm-6",
+           "enunciado": "Como distinguir estridor de sibilo à beira do leito?",
+           "alternativas": [
+            "O estridor é grave e o sibilo é agudo",
+            "O estridor é expiratório e mais audível sobre o tórax; o sibilo é inspiratório e mais audível sobre o pescoço",
+            "O estridor é inspiratório e sempre mais audível sobre o pescoço; o sibilo é expiratório ou expiratório e inspiratório, e sempre mais audível sobre o tórax",
+            "Só a espirometria permite separá-los, pois são acusticamente idênticos e igualmente distribuídos"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "Estridor e sibilo são acusticamente quase idênticos — sons musicais de alta frequência — e se separam por duas características: o estridor se confina à inspiração, enquanto o sibilo é apenas expiratório ou ocorre nas duas fases; e o estridor é sempre mais audível sobre o pescoço, enquanto o sibilo é sempre mais audível sobre o tórax. O estridor indica obstrução de laringe ou traqueia."
+          }
+         ]
+        }
+       ]
+      }
+     ]
     }
    ]
   }
