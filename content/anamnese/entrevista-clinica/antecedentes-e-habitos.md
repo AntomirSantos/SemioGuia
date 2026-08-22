@@ -58,6 +58,7 @@ referencias:
   - "Porto — Semiologia Médica, 8ª ed., Parte 9, Seção 1, cap. 36 (Exame Clínico) — Anamnese: tabagismo, cálculo da carga tabágica em anos/maço, equivalência do cigarro artesanal, ocupação atual e anteriores"
   - "Porto — Exame Clínico, 8ª ed., cap. 4 (Anamnese) — Elementos componentes da anamnese (Quadro 4.1): antecedentes pessoais e familiares, hábitos de vida, condições socioeconômicas e culturais; profissão, ocupação atual e local de trabalho na identificação"
   - "Semiologia Clínica, 1ª ed., cap. 3 (História clínica) — Antecedentes pessoais; Antecedentes familiares; Hábitos e vícios: tabagismo atual, pregresso e passivo, consumo de álcool, substâncias psicoativas, atividade física, alimentação, exposição solar, risco de acidentes; Histórico sexual; Histórico social e familiar (Tabela 1)"
+  - "Ewing JA — Detecting alcoholism: the CAGE questionnaire. JAMA, 1984 (instrumento original; formulação em português conforme Porto, cap. 6)"
 revisao: pendente
 ---
 
