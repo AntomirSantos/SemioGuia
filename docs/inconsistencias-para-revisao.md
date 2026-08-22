@@ -80,6 +80,31 @@ editorial, do autor. Marque cada caixa ao revisar.
   pericárdico); cada tópico mantém 3–6 blocos avançados. Confirmar a
   promoção como pedagogia intencional.
 
+## E. Itens da Fase 6 (anamnese e avaliação geral)
+
+- [ ] **E1 · Vocabulário datado das fácies** — o app omitiu a "fácies do
+  deficiente mental" de Porto e renomeou "fácies mongoloide" para "da
+  síndrome de Down", com nota editorial. Revisores confirmaram a decisão
+  como sólida; falta o aval do autor por ser desvio deliberado da fonte.
+- [ ] **E2 · Explicação e plano (Calgary-Cambridge)** — a etapa final do
+  guia de Calgary (explicar diagnóstico e plano) ficou fora do capítulo
+  de anamnese (coerente com adiar "más notícias"). Decidir em que
+  capítulo futuro entra.
+- [ ] **E3 · Viés "resposta mais longa é a correta"** — 78–79% em TODO o
+  banco de questões (inclusive capítulos antigos). O viés posicional já
+  foi corrigido nos capítulos novos ([6,5,6,7] e [7,5,6,6]); os antigos
+  seguem carregados na alternativa B. Vale uma passada editorial de fase.
+- [ ] **E4 · Menores registrados pelas revisões** — ordem das seções nos
+  2 primeiros tópicos de anamnese (abertura antes da técnica); exemplo
+  "falta de ar" repetido 7× no capítulo; referências cruzadas duplicadas
+  inline + mapa nos tópicos densos; cushingoide "por vezes hirsutismo"
+  (clínico corrente, sem âncora); direção "coração se verticaliza no
+  longilíneo" (ensino clássico, âncora virá do capítulo cardio); Porto
+  se contradiz no ângulo ungueal (~160° na legenda × <160° no texto) e
+  na gordura escleral × conjuntival entre capítulos — o app expõe ambas;
+  Stemmer "patognomônico" (Porto) × "achado" (app); subir o PDF de
+  Ewing 1984 (CAGE) à biblioteca de referências (opcional).
+
 ## C. Inconsistências antigas ainda abertas (Fases 1C–3)
 
 - [ ] **C1 · Faixa 37,6–37,8 °C** — "febrícula até 37,5 °C" convive com o

@@ -397,3 +397,28 @@ identificado no resultado.
 Nota de comportamento esperado: os 8 checklists e 48 perguntas entram na
 fila do SM-2 sob o teto de 20 itens novos/dia — nos primeiros dias após o
 deploy haverá backlog silencioso (ver item 10 da lista do autor).
+
+## Adendo Fase 6 — sistema "Anamnese" e capítulo "Avaliação geral"
+
+A Fase 6 acrescentou o sistema Anamnese (primeiro do guia: A entrevista
+clínica, Queixa principal e HDA, Interrogatório sintomatológico,
+Antecedentes e hábitos) e completou o Exame físico geral com o capítulo
+Avaliação geral (Ectoscopia, Antropometria e hidratação, Pele/mucosas/
+fâneros, Linfonodos). 8 tópicos, 48 perguntas, 8 checklists (estações
+OSCE), 6 ilustrações. Código: só o ícone clipboard-list, a reordenação
+dos 4 sistemas e 2 ajustes de testes que fixavam contagens.
+
+Gates na árvore final: build:content (4 sistemas, 19 tópicos, content.json
+em sync), jest (37 suítes, 293 testes), tsc, contraste (todos AA).
+
+Processo: cada capítulo com revisão médica independente + re-revisão +
+micro-rounds; revisão final de fase com auditoria da spec item a item,
+costuras entre capítulos e verificação de ~35 fatos. Gabaritos dos
+capítulos novos redistribuídos posicionalmente ([6,5,6,7] e [7,5,6,6]).
+Todo o conteúdo novo permanece `revisao: pendente`.
+
+Verificação headless pós-deploy: home com 4 sistemas na ordem nova;
+1 tópico de cada capítulo novo; busca por termo novo.
+
+Nota: os 56 itens novos (48 perguntas + 8 checklists) entram na fila do
+SM-2 sob o teto de 20/dia (backlog silencioso nos primeiros dias).
