@@ -76,10 +76,15 @@ export async function gravarDeltas(db: Firestore, uid: string, deltas: SnapshotS
   const acoes: Array<(lote: WriteBatch) => void> = [];
 
   // Perfil: só na primeira sincronização (doc ausente) — ver contrato acima.
+  // Sem e-mail vivo (auth.currentUser.email ausente) NÃO gravamos o perfil
+  // agora: as regras exigem texto(email, ...) > 0 caracteres, então um
+  // e-mail vazio derrubaria o writeBatch INTEIRO (achado do round de
+  // revisão — reproduzido: 0 docs gravados). Adiar para uma sync futura é
+  // seguro, é só um `create` que ainda não aconteceu.
   const perfilRef = doc(db, 'users', uid, 'perfil', 'dados');
   const perfilSnap = await getDoc(perfilRef);
-  if (!perfilSnap.exists()) {
-    const email = obterAuth().currentUser?.email ?? '';
+  const email = obterAuth().currentUser?.email;
+  if (!perfilSnap.exists() && email) {
     const criadoEm = Date.now();
     acoes.push((lote) => lote.set(perfilRef, { email, criadoEm }));
   }

@@ -248,7 +248,7 @@ function BlocoComSessao({ email }: { email: string | null }) {
         {erroSync ? (
           <Pressable
             accessibilityRole="button"
-            onPress={() => sincronizarAgora()}
+            onPress={() => sincronizarAgora({ forcar: true })}
             style={{ minHeight: 44, justifyContent: 'center' }}
           >
             <Text

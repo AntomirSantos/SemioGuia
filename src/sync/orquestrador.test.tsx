@@ -146,6 +146,61 @@ test('debounce: uma segunda chamada a sincronizarAgora() dentro de 30s é ignora
   expect(mockLerSnapshotRemoto).toHaveBeenCalledTimes(1);
 });
 
+test('retry manual (forcar: true) ignora o debounce mesmo logo após uma falha', async () => {
+  mockUseConta.mockReturnValue({ usuario: USUARIO });
+  mockLerSnapshotRemoto.mockRejectedValueOnce(new Error('falha de rede'));
+  mockGravarDeltas.mockResolvedValue(undefined);
+
+  const { result } = await renderHook(() => useSync(), { wrapper: criarWrapper(new MemoryProgressStore()) });
+
+  await waitFor(() => expect(result.current.erro).toBe(ERRO_SYNC_GENERICO));
+  expect(mockLerSnapshotRemoto).toHaveBeenCalledTimes(1);
+
+  // Sem forcar, a mesma janela de 30s ainda vale e o toque é ignorado.
+  await act(async () => {
+    await result.current.sincronizarAgora();
+  });
+  expect(mockLerSnapshotRemoto).toHaveBeenCalledTimes(1);
+
+  mockLerSnapshotRemoto.mockResolvedValueOnce(snapshotVazio());
+  await act(async () => {
+    await result.current.sincronizarAgora({ forcar: true });
+  });
+
+  expect(mockLerSnapshotRemoto).toHaveBeenCalledTimes(2);
+  expect(result.current.erro).toBeNull();
+  expect(result.current.ultimaSync).not.toBeNull();
+});
+
+test('troca de conta dentro da janela do debounce: reseta o estado e sincroniza a nova conta imediatamente', async () => {
+  const USUARIO_A = { uid: 'uid-A', email: 'a@a.com' };
+  const USUARIO_B = { uid: 'uid-B', email: 'b@b.com' };
+  mockUseConta.mockReturnValue({ usuario: USUARIO_A });
+  mockLerSnapshotRemoto.mockResolvedValue(snapshotVazio());
+  mockGravarDeltas.mockResolvedValue(undefined);
+
+  const { result, rerender } = await renderHook(() => useSync(), {
+    wrapper: criarWrapper(new MemoryProgressStore()),
+  });
+
+  await waitFor(() => expect(result.current.ultimaSync).not.toBeNull());
+  expect(mockLerSnapshotRemoto).toHaveBeenLastCalledWith(DB_FALSO, 'uid-A');
+
+  // Logout: uid vira null — estado não pode vazar para a próxima sessão.
+  mockUseConta.mockReturnValue({ usuario: null });
+  await rerender(undefined);
+  expect(result.current.ultimaSync).toBeNull();
+  expect(result.current.erro).toBeNull();
+
+  // Login de outra conta dentro da janela de 30s da sync de A: não pode ser
+  // debounced pelo relógio da conta anterior.
+  mockUseConta.mockReturnValue({ usuario: USUARIO_B });
+  await rerender(undefined);
+
+  await waitFor(() => expect(mockLerSnapshotRemoto).toHaveBeenLastCalledWith(DB_FALSO, 'uid-B'));
+  await waitFor(() => expect(result.current.ultimaSync).not.toBeNull());
+});
+
 test('depois que os 30s do debounce passam, uma nova chamada sincroniza de novo', async () => {
   let agora = 1_000_000;
   jest.spyOn(Date, 'now').mockImplementation(() => agora);

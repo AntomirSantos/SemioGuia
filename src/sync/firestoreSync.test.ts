@@ -166,6 +166,30 @@ describe('gravarDeltas', () => {
     expect(mockWriteBatch).not.toHaveBeenCalled();
   });
 
+  test('sem e-mail vivo (auth.currentUser.email ausente): adia o perfil em vez de derrubar o lote inteiro', async () => {
+    mockGetDoc.mockResolvedValue({ exists: () => false });
+    mockAuthObj.currentUser = null; // sem usuário/e-mail resolvido ainda
+
+    const deltas: SnapshotSync = {
+      ...snapshotVazio(),
+      estudados: { 'sistema/topico-a': { valor: true, atualizadoEm: 1 } },
+    };
+
+    await gravarDeltas(DB_FALSO, 'uid-1', deltas);
+
+    expect(lotesCriados).toHaveLength(1);
+    const lote = lotesCriados[0];
+    // Nenhuma operação de perfil (um e-mail vazio derrubaria o lote inteiro
+    // nas regras — texto(email, ...) exige size() > 0); os deltas de dados
+    // são gravados normalmente.
+    expect(lote.set).toHaveBeenCalledTimes(1);
+    expect(lote.set).toHaveBeenCalledWith(
+      { path: `users/uid-1/estudados/${encodeURIComponent('sistema/topico-a')}` },
+      { valor: true, atualizadoEm: 1 },
+    );
+    expect(lote.set).not.toHaveBeenCalledWith({ path: 'users/uid-1/perfil/dados' }, expect.anything());
+  });
+
   test('grava estudados/favoritos/itensRevisao com a chave percent-encoded', async () => {
     mockGetDoc.mockResolvedValue({ exists: () => true });
     const deltas: SnapshotSync = {
