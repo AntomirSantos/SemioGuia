@@ -10520,6 +10520,21 @@
      ]
     }
    ]
+  },
+  {
+   "id": "sistema-nervoso",
+   "titulo": "Sistema nervoso",
+   "cor": "#5B6ABF",
+   "icone": "brain",
+   "ordem": 7,
+   "capitulos": [
+    {
+     "id": "exame-neurologico",
+     "titulo": "Exame neurológico",
+     "ordem": 1,
+     "topicos": []
+    }
+   ]
   }
  ],
  "casos": [

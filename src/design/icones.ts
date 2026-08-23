@@ -1,4 +1,5 @@
 import {
+  Brain,
   ClipboardList,
   Grid3x3,
   HeartPulse,
@@ -17,6 +18,7 @@ const mapaIcones: Record<string, LucideIcon> = {
   'clipboard-list': ClipboardList,
   'grid-3x3': Grid3x3,
   'scan-face': ScanFace,
+  brain: Brain,
 };
 
 export function obterIcone(chave: string): LucideIcon {

@@ -57,3 +57,12 @@ sistemas:
       - id: exame-do-abdome
         titulo: Exame do abdome
         ordem: 1
+  - id: sistema-nervoso
+    titulo: Sistema nervoso
+    cor: "#5B6ABF"
+    icone: brain
+    ordem: 7
+    capitulos:
+      - id: exame-neurologico
+        titulo: Exame neurológico
+        ordem: 1
