@@ -21,7 +21,6 @@ tags:
   - projeção das vísceras
   - linha bicostal
   - linha bi-ilíaca
-  - ângulo de Charpy
   - abdome globoso
   - abdome escavado
   - abdome em avental
@@ -295,6 +294,25 @@ observar: |
   A mesma manobra tem um segundo uso, que reaparece no tópico de palpação: dor da parede aumenta quando os músculos se contraem, e dor da cavidade diminui. Levantar a cabeça é, ao mesmo tempo, um teste de continuidade da parede e um teste de origem da dor.
 :::
 
+::: conceito
+titulo: Abaulamentos e retrações
+texto: |
+  O abdome normal é regular e simétrico, com uma leve proeminência na parte média e inferior que não indica anormalidade (Porto). Um **abaulamento** ou uma **retração** em determinada região quebram essa simetria — e o dado semiológico fundamental é sempre a **localização**, lida contra a projeção das vísceras.
+
+  A inspeção só levanta a hipótese; quem a fecha é a palpação, com forma, tamanho, mobilidade e pulsatilidade. Mas o endereço já estreita bastante a lista de Porto:
+
+  - **Hipocôndrio direito e epigástrio** — hepatomegalia, tumores pancreáticos.
+  - **Hipocôndrio esquerdo e flanco esquerdo** — esplenomegalia.
+  - **Flancos** — tumores renais.
+  - **Mesogástrio e difuso** — linfomas, megacólon chagásico com fecaloma volumoso, aneurisma da aorta abdominal (raro).
+  - **Hipogástrio** — útero grávido, tumores do útero e do ovário, retenção urinária, que Semiologia Clínica registra pelo nome de enfermaria **bexigoma**.
+  - **Sobre soluções de continuidade da parede** — hérnias umbilical, inguinal, femoral, escrotal, ventrolateral e **incisional**, além da diástase dos retos.
+
+  As **retrações** são mais raras e quase sempre tardias: consequências de intervenções cirúrgicas ou de traumas abdominais. Localizadas, entram na descrição pelo mesmo roteiro do abaulamento.
+
+  Um cuidado antes de nomear qualquer coisa: o abaulamento assimétrico de um flanco pode ser visceromegalia, mas as grandes esplenomegalias se reconhecem à inspeção sobretudo pela **mobilidade durante os movimentos respiratórios** — e essa é uma distinção que só a inspeção dinâmica oferece.
+:::
+
 ::: secao
 titulo: Os movimentos
 :::
@@ -322,7 +340,7 @@ titulo: A ausculta
 ::: conceito
 titulo: Ruídos hidroaéreos
 texto: |
-  Os ruídos hidroaéreos nascem do deslocamento de líquidos e gases no lúmen intestinal. Porto descreve a cadência normal como ruídos de timbre agudo que ocorrem mais ou menos a cada 5 a 10 segundos, de localização variável e aparecimento imprevisível; Semiologia Clínica recomenda auscultar no mínimo 15 a 20 segundos por quadrante.
+  Os ruídos hidroaéreos — abreviados **RHA** nos registros (Semiologia Clínica) — nascem do deslocamento de líquidos e gases no lúmen intestinal. Porto descreve a cadência normal como ruídos de timbre agudo que ocorrem mais ou menos a cada 5 a 10 segundos, de localização variável e aparecimento imprevisível; Semiologia Clínica recomenda auscultar no mínimo 15 a 20 segundos por quadrante.
 
   O que se registra é uma escala de quatro degraus: **presentes e normais, aumentados, diminuídos ou ausentes.**
 
@@ -361,10 +379,10 @@ nivel: avancado
 texto: |
   Circulação colateral é a rede venosa vicariante que se abre quando um tronco venoso principal está obstruído. Ela se analisa por três atributos (Porto): **localização**, **direção do fluxo** e **presença de frêmito ou sopro**.
 
-  A direção do fluxo é determinada por uma manobra de esvaziamento. Comprima um segmento venoso com as polpas dos dois indicadores justapostos; afaste os dedos lentamente, mantendo a pressão, até deixar 5 a 10 cm de veia exangue; retire um dos dedos e observe. Se a veia se enche de imediato, o sangue vem do lado que continua comprimido. Repita duas ou três vezes, invertendo o dedo que se retira, antes de concluir.
+  A direção do fluxo é determinada por uma manobra de esvaziamento. Comprima um segmento venoso com as polpas dos dois indicadores justapostos; afaste os dedos lentamente, mantendo a pressão, até deixar 5 a 10 cm de veia exangue; retire um dos dedos e observe. Se a veia se enche de imediato, o sangue vem do lado que foi liberado — ou seja, corre no sentido do dedo que permanece comprimindo. Se o segmento continua colapsado, repita descomprimindo a outra extremidade. Duas ou três repetições antes de concluir.
 
   - **Tipo porta.** O obstáculo está nas veias supra-hepáticas (Budd-Chiari), no fígado (cirrose) ou na veia porta. A rede ocupa as regiões periumbilical e epigástrica e a face anterior do tórax, com fluxo ascendente: o sangue sobe do abdome rumo ao tórax, buscando a cava superior. Quando a rede se concentra ao redor do umbigo e irradia dele como raios de uma roda, chama-se **cabeça de medusa**.
-  - **Tipo cava inferior.** O obstáculo está na cava inferior, quase sempre por trombose ou compressão tumoral. A rede ocupa a parte inferior do abdome, a região umbilical, os flancos e a face anterior do tórax, com fluxo abdome-tórax.
+  - **Tipo cava inferior.** O obstáculo está na cava inferior. As fontes discordam sobre a causa mais frequente: Porto aponta a compressão extrínseca por neoplasias intra-abdominais; Semiologia Clínica aponta a trombose, com aderências e compressão tumoral em seguida. A rede ocupa a parte inferior do abdome, a região umbilical, os flancos e a face anterior do tórax, com fluxo abdome-tórax.
   - **Tipo cava superior.** A rede se distribui pela porção superior da face anterior do tórax e, por vezes, também pelo dorso, pelos braços e pelo pescoço, com fluxo toracoabdominal. Acompanha-se de estase jugular bilateral não pulsátil, cianose e edema da porção superior do tronco, do pescoço e da face.
   - **Tipo misto.** Semiologia Clínica descreve a associação dos tipos porta e cava inferior, com ampla rede e sentido ascendente.
 
@@ -394,7 +412,7 @@ texto: |
 
   Há uma exceção que vale conhecer porque desmonta a explicação única: na gravidez ectópica, a equimose costuma ficar **abaixo** do umbigo, e o ligamento falciforme se insere na parede **acima** dele. Propôs-se que planos fasciais entre o ligamento largo e a parede inferior expliquem esses casos, hipótese que ainda não dá conta das rupturas livres na cavidade, fora do ligamento largo.
 
-  Um terceiro achado de inspeção merece o nome: o **nódulo de Sister Mary Joseph**, carcinoma metastático do umbigo, em geral adenocarcinoma de estômago, cólon, ovário ou pâncreas. Apresenta-se como nódulo dérmico ou subcutâneo endurecido e, em cerca de 20% dos pacientes, é a primeira manifestação da neoplasia; a sobrevida média após a descoberta é de 10 a 11 meses (McGee). Seu imitador é o onfálito de queratina e sebo acumulados por higiene insuficiente — que o exame cuidadoso remove.
+  Um terceiro achado de inspeção merece o nome: o **nódulo de Sister Mary Joseph**, carcinoma metastático do umbigo, em geral adenocarcinoma de estômago, cólon, ovário ou pâncreas. Apresenta-se como nódulo dérmico ou subcutâneo endurecido e, em cerca de 20% dos pacientes, é a primeira manifestação da neoplasia; a sobrevida média após a descoberta é de 10 a 11 meses (McGee). Seu imitador é a concreção umbilical de queratina e sebo acumulados por higiene insuficiente (o *omphalith* de McGee) — que o exame cuidadoso remove.
 :::
 
 ::: conceito
@@ -464,7 +482,7 @@ texto: |
   A inspeção do abdome puxa fios que já foram fiados em outras partes do guia.
 
   - **A caracterização da dor abdominal** — localização, irradiação, tipo, intensidade, duração, periodicidade, ritmicidade (incluindo o ciclo dói–come–passa da úlcera duodenal), fatores de melhora e piora e manifestações concomitantes — pertence ao tópico de queixa principal e história da doença atual. Aqui se examina o abdome; lá se colhe a dor.
-  - **A circulação colateral e as estrias** se descrevem com o vocabulário do tópico de pele, mucosas e fâneros, e a manobra de determinação do sentido do fluxo venoso vem do exame físico geral.
+  - **A circulação colateral e as estrias** se descrevem com o vocabulário do tópico de pele, mucosas e fâneros; a manobra de determinação do sentido do fluxo venoso vem do capítulo de exame físico geral de Porto (Exame Clínico, cap. 10) e é ensinada aqui, no aprofundamento deste tópico.
   - **Turgência jugular, cianose e edema da metade superior do corpo**, que acompanham a colateral tipo cava superior, estão no tópico de pulso venoso jugular e turgência.
   - **O nódulo supraclavicular de Virchow**, achado extra-abdominal que muda o raciocínio diante de uma neoplasia digestiva, está no tópico de linfonodos, junto com a técnica da fossa supraclavicular.
   - **A ascite** — que o abdome globoso levanta e a inspeção não resolve — se confirma pela percussão, no tópico seguinte.
@@ -498,7 +516,7 @@ perguntas:
   - id: insp-abd-1
     enunciado: Por que, no exame do abdome, a ausculta é feita antes da percussão e da palpação?
     alternativas:
-      - "Porque o contato do estetoscópio esfria a parede abdominal, o que reduz a contração voluntária da musculatura"
+      - "Porque a ausculta feita depois da palpação capta ruídos gerados pela própria mão do examinador, e não pelo intestino"
       - "Porque a ausculta é o método mais sensível para detectar visceromegalias"
       - "Porque percutir e palpar estimulam o peristaltismo e podem encobrir ruídos diminuídos"
       - "Porque a percussão desloca gás para os flancos e cria falsos sopros"
@@ -536,7 +554,7 @@ perguntas:
     alternativas:
       - "Pedir que o paciente levante a cabeça: na diástase surge proeminência longitudinal na linha média, sem saco herniário nem anel"
       - "Percutir a proeminência: a diástase é timpânica e a hérnia é maciça"
-      - "Comprimir a proeminência com o paciente de pé: a hérnia é redutível e reaparece ao esforço, enquanto a diástase permanece inalterada em qualquer posição"
+      - "Comprimir a proeminência com o paciente de pé: só a diástase é redutível, porque não tem conteúdo visceral, ao passo que a hérnia permanece exteriorizada"
       - "Auscultar a proeminência: na hérnia ouvem-se ruídos hidroaéreos e na diástase não"
     corretaIndex: 0
     explicacao: "Com o paciente em decúbito dorsal, pede-se que levante a cabeça sem mover o tórax ou que eleve os membros inferiores estendidos: a contração da parede faz surgir, na diástase, uma proeminência longitudinal entre os retos, acima ou abaixo do umbigo. A diferença de fundo é anatômica — a diástase é o afastamento dos músculos, sem saco herniário nem anel por onde as alças se insinuem. Para hérnias inguinais e crurais, acrescenta-se a tosse ou o esforço expiratório contra a mão."

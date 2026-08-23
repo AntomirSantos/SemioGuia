@@ -13,17 +13,17 @@
   <path d="M 60 142 L 100 100" stroke-width="1.1" stroke-dasharray="4 3" />
   <circle cx="73" cy="128" r="4" stroke-width="1.6" />
   <!-- ponto cístico: ângulo do rebordo costal com a borda do reto -->
-  <circle cx="80" cy="70" r="4" stroke-width="1.6" />
+  <circle cx="79" cy="52" r="4" stroke-width="1.6" />
   <!-- Rovsing: pressão na fossa ilíaca esquerda, dor na direita -->
   <circle cx="128" cy="127" r="4" stroke-width="1.6" />
-  <path d="M 121 127 L 81 127" stroke-width="1.2" />
-  <path d="M 88 123 L 80 127 L 88 131" stroke-width="1.2" />
+  <path d="M 121 127 L 92 127" stroke-width="1.2" />
+  <path d="M 99 123 L 91 127 L 99 131" stroke-width="1.2" />
   <!-- números -->
   <g font-family="sans-serif" font-size="10" fill="currentColor" stroke="none" text-anchor="middle">
-    <text x="66" y="62">1</text>
+    <text x="91" y="49">1</text>
     <text x="62" y="118">2</text>
     <text x="140" y="118">3</text>
-    <text x="60" y="160">4</text>
+    <text x="72" y="150">4</text>
   </g>
   <!-- legenda -->
   <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">

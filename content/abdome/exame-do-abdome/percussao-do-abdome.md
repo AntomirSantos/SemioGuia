@@ -12,6 +12,7 @@ tags:
   - macicez circunscrita
   - hepatimetria
   - macicez hepática
+  - ângulo de Charpy
   - limite superior do fígado
   - borda inferior do fígado
   - linha hemiclavicular
@@ -136,13 +137,13 @@ svg: |
     <path d="M 78 79 L 82 73 L 86 79" stroke-width="1.4" />
     <path d="M 78 119 L 82 125 L 86 119" stroke-width="1.4" />
     <!-- espaço de Traube: triângulo timpânico sobre o fundo gástrico -->
-    <path d="M 124 92 L 166 102 L 142 116 Z" stroke-width="1.5" stroke-dasharray="4 3" />
+    <path d="M 124 92 L 166 102 L 142 108 Z" stroke-width="1.5" stroke-dasharray="4 3" />
     <!-- marcadores -->
     <g font-family="sans-serif" font-size="10" fill="currentColor" stroke="none" text-anchor="middle">
       <text x="58" y="66">1</text>
       <text x="60" y="142">2</text>
       <text x="95" y="88">3</text>
-      <text x="144" y="106">4</text>
+      <text x="144" y="103">4</text>
     </g>
     <!-- legenda -->
     <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
@@ -171,7 +172,7 @@ texto: |
 
   O ponto em que o som claro pulmonar cede à submacicez marca o limite superior. Em condições normais, **Porto (Exame Clínico) o situa no 5º ou 6º espaço intercostal direito**.
 
-  Vale reconciliar esse número com o que foi ensinado no tópico de percussão do tórax, onde a sonoridade pulmonar na face anterior direita vai **até a altura da 6ª ou 7ª costela (Porto, Semiologia Médica)**. Os dois enunciados descrevem o mesmo nível. Cada espaço intercostal fica entre a costela de mesmo número e a seguinte — o 5º espaço, entre a 5ª e a 6ª costela —, de modo que uma transição encontrada no 5º espaço se dá na altura da 6ª costela, e uma transição no 6º espaço, na altura da 7ª. Não são limites diferentes; são duas maneiras de nomear a mesma linha.
+  Vale reconciliar esse número com o que foi ensinado no tópico de percussão do tórax, onde a sonoridade pulmonar na face anterior direita vai **até a altura da 6ª ou 7ª costela (Porto, Semiologia Médica)**. Os dois enunciados descrevem o mesmo nível com um degrau de diferença: o 5º–6º espaço intercostal marca a **submacicez** que abre a área hepática; a **macicez franca** começa abaixo da 6ª–7ª costela. Uma zona de transição, dois pontos de referência — e é a mesma gradação que o tópico do tórax já descreve, quando ensina que, descendo pela linha hemiclavicular, a nota fica primeiro submaciça e depois francamente maciça.
 
   Um limite superior **abaixo** do 5º ou 6º espaço intercostal não significa fígado grande: significa ptose hepática ou redução do volume do órgão (Porto). É por isso que a percussão do limite superior é insubstituível nas cirroses, em que o fígado pode estar pequeno e ainda assim palpável.
 :::
@@ -369,7 +370,7 @@ texto: |
   A percussão do abdome é o ponto em que o tórax e o abdome se sobrepõem, e por isso é a que mais depende dos outros tópicos.
 
   - **A técnica do golpe dígito-digital**, a física da nota e a razão pela qual golpes de forças diferentes produzem sons diferentes estão no tópico de percussão do tórax. Não se repete aqui: aplica-se, com golpe mais leve.
-  - **O limite superior da macicez hepática** é o mesmo nível já ensinado no tópico de percussão do tórax — lá pela altura da 6ª ou 7ª costela (Porto, Semiologia Médica), aqui pelo 5º ou 6º espaço intercostal (Porto, Exame Clínico). É uma só fronteira, nomeada de duas maneiras.
+  - **O limite superior da macicez hepática** é a mesma zona de transição já ensinada no tópico de percussão do tórax, tomada um degrau adiante: lá, a macicez franca abaixo da 6ª ou 7ª costela (Porto, Semiologia Médica); aqui, a submacicez que a antecede, no 5º ou 6º espaço intercostal (Porto, Exame Clínico).
   - **Os limites do espaço de Traube e seu uso como treino do som timpânico** estão no tópico de percussão do tórax; aqui ele entra apenas na leitura esplênica.
   - **O edema**, que a tabela da ascite mostra ser um dos achados mais informativos, tem semiotécnica e graduação em cruzes no tópico de pulso venoso jugular e turgência.
   - **A palpação do fígado e do baço**, que fecha o que a percussão apenas situou, é o tópico seguinte.
@@ -388,7 +389,7 @@ texto: |
   3. **Palpar o fígado no epigástrio e concluir hepatomegalia.** Ali a borda normalmente se afasta do rebordo, distando 3 a 5 cm do ângulo de Charpy.
   4. **Percutir imediatamente após virar o paciente.** A macicez móvel precisa de alguns segundos para se mover. Pressa produz falso-negativo.
   5. **Fazer o piparote sem a mão intermediária.** Sem ela, a onda pode viajar pelo subcutâneo da parede e gerar resposta falsamente positiva.
-  6. **Esquecer a bexiga.** Macicez suprapúbica em paciente que não urina há horas costuma ser retenção urinária, não massa — e a percussão repetida após a micção resolve a dúvida sem custo.
+  6. **Esquecer a bexiga.** Macicez suprapúbica em paciente que não urina há horas costuma ser retenção urinária — o **bexigoma** da linguagem de enfermaria (Semiologia Clínica) —, não massa; e a percussão repetida após a micção resolve a dúvida sem custo.
 :::
 
 ::: perola
@@ -404,12 +405,12 @@ perguntas:
   - id: perc-abd-1
     enunciado: Ao percutir o hemitórax direito pela linha hemiclavicular, você encontra a transição do som claro pulmonar para a submacicez no 6º espaço intercostal. Como esse achado se relaciona com o limite ensinado na percussão do tórax?
     alternativas:
-      - "Contradiz aquele limite, que situa a transição na 4ª costela"
-      - "É o mesmo nível, nomeado de outra forma: o 6º espaço corresponde à altura da 7ª costela"
-      - "Indica ptose hepática, pois o limite normal está sempre no 3º espaço"
-      - "Indica hepatomegalia, pois em condições normais o limite superior do fígado se situa abaixo do 8º espaço intercostal direito"
+      - "Contradiz aquele limite, que se refere à macicez do baço e não à do fígado"
+      - "É a mesma zona de transição, um degrau antes: aqui a submacicez que abre a área hepática, lá a macicez franca que começa logo abaixo"
+      - "Indica ptose hepática, pois a submacicez encontrada abaixo do 5º espaço já significa fígado rebaixado, qualquer que seja o espaço"
+      - "Indica hepatomegalia, porque o limite superior sobe quando o fígado aumenta, e o 6º espaço já está acima da faixa normal"
     corretaIndex: 1
-    explicacao: "Porto (Exame Clínico) situa o limite superior do fígado no 5º ou 6º espaço intercostal direito; o tópico de percussão do tórax descreve a mesma fronteira como a altura da 6ª ou 7ª costela (Porto, Semiologia Médica). Cada espaço intercostal fica entre a costela de mesmo número e a seguinte, de modo que os dois enunciados apontam para a mesma linha. Um limite encontrado abaixo dessa faixa sugere ptose hepática ou redução do volume do fígado, não aumento."
+    explicacao: "Porto (Exame Clínico) situa no 5º ou 6º espaço intercostal direito o ponto em que a sonoridade pulmonar cede à submacicez; o tópico de percussão do tórax descreve a macicez franca começando abaixo da 6ª ou 7ª costela (Porto, Semiologia Médica). São dois pontos de referência sobre uma única zona de transição — a mesma gradação que o tópico do tórax ensina, com a nota ficando primeiro submaciça e depois maciça. Um limite encontrado abaixo dessa faixa sugere ptose hepática ou redução do volume do fígado, não aumento."
   - id: perc-abd-2
     enunciado: Um paciente com aumento do volume abdominal tem timpanismo nos flancos à percussão. Qual é o peso dessa informação para o diagnóstico de ascite?
     alternativas:

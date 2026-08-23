@@ -18,13 +18,13 @@
   <path d="M 78 79 L 82 73 L 86 79" stroke-width="1.4" />
   <path d="M 78 119 L 82 125 L 86 119" stroke-width="1.4" />
   <!-- espaço de Traube: triângulo timpânico sobre o fundo gástrico -->
-  <path d="M 124 92 L 166 102 L 142 116 Z" stroke-width="1.5" stroke-dasharray="4 3" />
+  <path d="M 124 92 L 166 102 L 142 108 Z" stroke-width="1.5" stroke-dasharray="4 3" />
   <!-- marcadores -->
   <g font-family="sans-serif" font-size="10" fill="currentColor" stroke="none" text-anchor="middle">
     <text x="58" y="66">1</text>
     <text x="60" y="142">2</text>
     <text x="95" y="88">3</text>
-    <text x="144" y="106">4</text>
+    <text x="144" y="103">4</text>
   </g>
   <!-- legenda -->
   <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">

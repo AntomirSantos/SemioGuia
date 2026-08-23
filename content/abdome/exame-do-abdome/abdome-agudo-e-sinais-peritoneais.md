@@ -39,6 +39,7 @@ tags:
   - íleo paralítico
   - obstrução intestinal
   - sinal de Jobert
+  - sinal de Gersuny
   - pneumoperitônio
   - perfuração de víscera oca
   - úlcera péptica perfurada
@@ -53,7 +54,7 @@ referencias:
   - "Porto — Exame Clínico, 8ª ed., cap. 5 (Técnicas Básicas do Exame Físico) — punho-percussão e percussão com a borda da mão (Figuras 5.18 e 5.19), usadas no exame das regiões lombares"
   - "Porto — Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 8 (Parede e Cavidade Abdominais), cap. 95 (Exame Clínico) — boxes Defesa abdominal e Pontos dolorosos na parede abdominal (ponto epigástrico, cístico, apendicular e ureterais; sinal de Blumberg); ausculta e silêncio abdominal"
   - "Porto — Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 7 (Fígado e Vias Biliares), cap. 91 (Exame Clínico) — sinal de Murphy: semiotécnica e localização do ponto cístico (Figura 91.3)"
-  - "Porto — Semiologia Médica, 8ª ed., Parte 2, cap. 7 (Técnicas Básicas do Exame Físico) — punho-percussão e percussão com a borda da mão nas regiões lombares; sinal de Giordano"
+  - "Porto — Semiologia Médica, 8ª ed., Parte 3 (Método Clínico), cap. 7 (Técnicas Básicas do Exame Físico) — punho-percussão e percussão com a borda da mão nas regiões lombares (Figuras 7.18 e 7.19); sinal de Giordano; percussão por piparote"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 52 (Abdominal Pain and Tenderness), p. 445-455 — diagnósticos mais frequentes na dor abdominal aguda; achados da peritonite (guarding, rigidity, descompressão dolorosa, percussão dolorosa, teste da tosse, teste da parede abdominal de Carnett); ponto de McBurney na descrição original de 1889, sinais de Rovsing, do psoas e do obturador; sinal de Murphy na descrição de 1903; boxes EBM 52.1 a 52.5 e Tabela 52.1 (escore de Alvarado / MANTRELS); diverticulite, cólica renal e acurácia dos sinais no idoso"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 53 (Auscultation of the Abdomen), p. 459-460 — ruídos intestinais na obstrução e na peritonite"
   - "Semiologia Clínica, 1ª ed., cap. 14 (Exame físico de abdome e sistema digestório) — sinal de Giordano e técnica da punho-percussão lombar (Figura 10); defesa da parede abdominal e abdome em tábua"
@@ -136,17 +137,17 @@ svg: |
     <path d="M 60 142 L 100 100" stroke-width="1.1" stroke-dasharray="4 3" />
     <circle cx="73" cy="128" r="4" stroke-width="1.6" />
     <!-- ponto cístico: ângulo do rebordo costal com a borda do reto -->
-    <circle cx="80" cy="70" r="4" stroke-width="1.6" />
+    <circle cx="79" cy="52" r="4" stroke-width="1.6" />
     <!-- Rovsing: pressão na fossa ilíaca esquerda, dor na direita -->
     <circle cx="128" cy="127" r="4" stroke-width="1.6" />
-    <path d="M 121 127 L 81 127" stroke-width="1.2" />
-    <path d="M 88 123 L 80 127 L 88 131" stroke-width="1.2" />
+    <path d="M 121 127 L 92 127" stroke-width="1.2" />
+    <path d="M 99 123 L 91 127 L 99 131" stroke-width="1.2" />
     <!-- números -->
     <g font-family="sans-serif" font-size="10" fill="currentColor" stroke="none" text-anchor="middle">
-      <text x="66" y="62">1</text>
+      <text x="91" y="49">1</text>
       <text x="62" y="118">2</text>
       <text x="140" y="118">3</text>
-      <text x="60" y="160">4</text>
+      <text x="72" y="150">4</text>
     </g>
     <!-- legenda -->
     <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
@@ -182,7 +183,7 @@ texto: |
 
   Adotando os termos de Porto, a defesa pode ser **localizada** ou **generalizada**.
 
-  A **localizada** aparece nas inflamações viscerais que alcançam o peritônio parietal vizinho, e se instala sobre a projeção do órgão doente: fossa ilíaca direita na apendicite, fossa ilíaca esquerda na peridiverticulite, hipocôndrio direito na colecistite aguda. Reconhece-se melhor pela palpação bimanual comparativa das regiões homólogas.
+  A **localizada** aparece nas inflamações viscerais que alcançam o peritônio parietal vizinho, e se instala sobre a projeção do órgão doente: fossa ilíaca direita na apendicite, fossa ilíaca esquerda na peridiverticulite e hipocôndrio direito na colecistite aguda — este último Porto registra como flanco direito; o guia adota hipocôndrio, que é onde a vesícula se projeta. Reconhece-se melhor pela palpação bimanual comparativa das regiões homólogas.
 
   A **generalizada** é o **abdome em tábua**, encontrado nas perfurações de víscera oca — sobretudo na úlcera péptica que se abre no peritônio livre — e nas peritonites difusas agudas.
 
@@ -266,7 +267,7 @@ passos:
   - "Psoas — posicione o paciente em decúbito lateral esquerdo, com o membro inferior direito por cima."
   - "Estabilize a pelve com uma das mãos e hiperestenda passivamente o quadril direito com a outra."
   - "A resposta é positiva quando a extensão do quadril desperta dor no quadrante inferior direito."
-  - "Uma alternativa descrita por Porto é a flexão ativa do membro inferior direito contra resistência."
+  - "Uma alternativa descrita por Porto é a flexão ativa do membro inferior direito, no lugar da hiperextensão passiva."
   - "Obturador — com o paciente em decúbito dorsal, flita o quadril e o joelho direitos."
   - "Segurando o tornozelo e o joelho, faça a rotação interna do quadril direito."
   - "A resposta é positiva quando a manobra desperta dor no quadrante inferior direito."
@@ -291,9 +292,9 @@ causas:
 ::: conceito
 titulo: Como Murphy descreveu, e o que os dados acrescentaram
 texto: |
-  Em 1903, o cirurgião americano Charles Murphy afirmou que a vesícula hipersensível da colecistite impede o paciente de completar uma inspiração profunda quando os dedos do examinador estão em gancho sob o arco costal direito, abaixo da margem hepática: o diafragma empurra o fígado para baixo até que a vesícula sensível alcance os dedos que examinam, e a inspiração cessa de repente, como se tivesse sido desligada (McGee).
+  Em 1903, o cirurgião americano Murphy afirmou que a vesícula hipersensível da colecistite impede o paciente de completar uma inspiração profunda quando os dedos do examinador estão em gancho sob o arco costal direito, abaixo da margem hepática: o diafragma empurra o fígado para baixo até que a vesícula sensível alcance os dedos que examinam, e a inspiração cessa de repente, como se tivesse sido desligada (McGee).
 
-  A semiotécnica de Porto traduz isso em gestos: o examinador, à direita do paciente em decúbito dorsal, insinua o polegar sob o rebordo costal direito na altura da borda externa do músculo reto, com a palma apoiada no flanco, e — sem afrouxar a pressão — pede uma inspiração profunda. O ponto cístico fica no ângulo formado pelo rebordo costal direito com a borda externa do reto abdominal; em pessoas obesas, Porto oferece uma segunda referência: a interseção do arco costal com a linha que une a crista ilíaca ao arco costal passando pelo umbigo.
+  A semiotécnica de Porto traduz isso em gestos: o examinador, à direita do paciente em decúbito dorsal, insinua o polegar sob o rebordo costal direito na altura da borda externa do músculo reto, com a palma apoiada no flanco, e — sem afrouxar a pressão — pede uma inspiração profunda. O ponto cístico fica no ângulo formado pelo rebordo costal direito com a borda externa do reto abdominal; em pessoas obesas, Porto oferece uma segunda referência: o ponto em que o arco costal é cruzado por uma linha traçada do umbigo até a crista ilíaca anterossuperior **esquerda** (Figura 91.3).
 
   Duas informações que os dados acrescentaram à descrição original:
 
@@ -312,7 +313,7 @@ passos:
   - "Repita do outro lado e compare: a assimetria da resposta vale mais que a resposta isolada."
   - "Considere positivo quando o golpe desperta dor intensa — o sinal de Giordano."
 observar: |
-  O sinal é muito sensível e pouco específico: além da pielonefrite aguda, pode ser positivo na litíase renal com cólica nefrética e mesmo em contratura muscular (Semiologia Clínica). Em um estudo com 1.333 pacientes que chegaram com dor abdominal aguda, McGee registra dois achados úteis para ureterolitíase — dor no flanco, com razão de verossimilhança 27,7, e dor à palpação renal, com 3,6 quando presente e 0,2 quando ausente —, ainda que ambos fiquem atrás da hematúria microscópica.
+  O sinal é muito sensível e pouco específico: além da pielonefrite aguda, pode ser positivo na litíase renal com cólica nefrética e mesmo em contratura muscular (Semiologia Clínica). Em um estudo com 1.333 pacientes que chegaram com dor abdominal aguda, McGee registra dois achados úteis para ureterolitíase, ambos provocados pelo examinador — dor à palpação do flanco e da região lombar, com razão de verossimilhança 27,7, e dor à palpação renal, com 3,6 quando presente e 0,2 quando ausente —, ainda que ambos fiquem atrás da hematúria microscópica.
 :::
 
 ::: secao
@@ -361,7 +362,10 @@ linhas:
   - - "Teste da parede abdominal positivo (Carnett)"
     - "0,1"
     - "não significativa"
-  - - "Febre, ruídos anormais, dor ao toque retal"
+  - - "Febre"
+    - "1,4"
+    - "0,7"
+  - - "Ruídos anormais, dor ao toque retal"
     - "não significativa"
     - "não significativa"
 :::
@@ -376,7 +380,7 @@ texto: |
 
   **A segunda: o único achado que move a probabilidade para baixo com força é o teste da parede abdominal positivo**, com razão de verossimilhança 0,1. Ele não diz que existe peritonite; diz que a dor é da parede. É a manobra de elevação da cabeça descrita no tópico de palpação do abdome, e vale a pena tê-la no roteiro justamente porque nenhum dos outros sinais afasta o diagnóstico com essa força. Na dor abdominal **crônica**, o mesmo teste reduz fortemente a probabilidade de causa visceral (também 0,1) e, quando positivo, prediz que a dor responderá à infiltração do ponto doloroso e que nenhuma doença grave aparecerá em três ou mais meses de seguimento (7,0).
 
-  **A terceira: a febre não discrimina.** Nem a febre, nem os ruídos intestinais, nem a dor ao toque retal alteram a probabilidade de peritonite nesses estudos.
+  **A terceira: a febre quase não move a agulha.** Ela não é estatisticamente nula — 1,4 quando presente e 0,7 quando ausente —, mas desloca tão pouco a probabilidade que não decide nada sozinha. Já os ruídos intestinais e a dor ao toque retal não alteram a probabilidade de peritonite nesses estudos.
 
   Há ainda um achado que a evidência derrubou e que vale registrar porque contraria um ensinamento antigo: **a analgesia oferecida ao paciente com dor abdominal aguda não reduz a acurácia dos sinais individuais nem a acurácia diagnóstica global do examinador** (McGee). Deixar o paciente com dor para "não mascarar o exame" não se sustenta nos dados.
 :::
@@ -466,7 +470,7 @@ texto: |
   1. **Fazer a descompressão brusca como item de rotina.** Ela dói, acrescenta pouco ao que a palpação suave já mostrou e é superada por rigidez, percussão dolorosa e defesa. Reserve-a para quando o resultado ainda puder mudar a conduta.
   2. **Examinar uma vez só.** A distinção entre contração voluntária e contratura verdadeira depende da distração e da repetição do exame ao longo do tempo. Um abdome agudo se examina mais de uma vez.
   3. **Tranquilizar-se com ruídos hidroaéreos presentes.** Eles não alteram a probabilidade de peritonite. Servem para obstrução, não para irritação peritoneal.
-  4. **Tranquilizar-se com a ausência de febre.** A febre não discrimina peritonite nos estudos disponíveis.
+  4. **Tranquilizar-se com a ausência de febre.** Ela move a probabilidade de peritonite muito pouco (0,7 quando ausente) e não afasta o diagnóstico.
   5. **Aplicar os mesmos limiares ao idoso.** Até um quarto dos pacientes acima de 60 anos com colecistite não tem nenhuma dor à palpação, e a parede responde menos à irritação peritoneal.
   6. **Esquecer de perguntar se a dor é da parede.** O teste da parede abdominal positivo é o achado de maior poder para afastar causa intracavitária, e não é feito por quem não se lembra dele.
 :::
@@ -534,5 +538,5 @@ perguntas:
       - "A ausculta abdominal não tem utilidade alguma e pode ser omitida na dor aguda"
       - "Ruídos hiperativos elevam igualmente a probabilidade de peritonite e de obstrução, por refletirem a mesma resposta reflexa do intestino à inflamação"
     corretaIndex: 1
-    explicacao: "Nos estudos de dor abdominal aguda, os ruídos anormais tiveram razão de verossimilhança não significativa para peritonite — assim como a febre e a dor ao toque retal. Para obstrução, porém, eles informam: ruídos hiperativos têm 5,0, o conjunto dos ruídos anormais 3,2, e ruídos normais reduzem modestamente a probabilidade (0,4). Entre pacientes com obstrução do delgado, cerca de 40% têm ruídos hiperativos e cerca de 25% os têm diminuídos ou ausentes."
+    explicacao: "Nos estudos de dor abdominal aguda, os ruídos anormais tiveram razão de verossimilhança não significativa para peritonite, o mesmo valendo para a dor ao toque retal (a febre não é nula, mas move pouquíssimo: 1,4 e 0,7). Para obstrução, porém, eles informam: ruídos hiperativos têm 5,0, o conjunto dos ruídos anormais 3,2, e ruídos normais reduzem modestamente a probabilidade (0,4). Entre pacientes com obstrução do delgado, cerca de 40% têm ruídos hiperativos e cerca de 25% os têm diminuídos ou ausentes."
 :::

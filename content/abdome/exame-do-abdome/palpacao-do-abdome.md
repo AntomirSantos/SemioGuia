@@ -52,7 +52,6 @@ tags:
   - tumor fantasma
   - bexigoma
   - vascolejo
-  - sinal de Gersuny
   - fecaloma
   - estação OSCE
 referencias:
@@ -134,13 +133,13 @@ texto: |
 
   O aumento patológico da tensão pode ter duas origens completamente distintas.
 
-  **Defesa abdominal.** É a contração tônica dos músculos da parede produzida por um **reflexo visceromotor**, cujo estímulo nasce no peritônio inflamado. É involuntária. Pode ser **localizada**, situando-se sobre a projeção do órgão doente — fossa ilíaca direita na apendicite, fossa ilíaca esquerda na peridiverticulite, hipocôndrio direito na colecistite aguda —, ou **generalizada**, o clássico **abdome em tábua** das perfurações de víscera oca e das peritonites agudas difusas.
+  **Defesa abdominal.** É a contração tônica dos músculos da parede produzida por um **reflexo visceromotor**, cujo estímulo nasce no peritônio inflamado. É involuntária. Pode ser **localizada**, situando-se sobre a projeção do órgão doente — fossa ilíaca direita na apendicite, fossa ilíaca esquerda na peridiverticulite e hipocôndrio direito na colecistite aguda (Porto registra este último como flanco direito; o guia adota hipocôndrio, que é onde a vesícula se projeta) —, ou **generalizada**, o clássico **abdome em tábua** das perfurações de víscera oca e das peritonites agudas difusas.
 
   **Contração psicomotora.** É voluntária, comum em quem fica tenso com medo da dor. Desaparece quando se tranquiliza ou se distrai o paciente.
 
   Há ainda um terceiro mecanismo, que não tem nada a ver com tônus muscular: o aumento da **pressão intra-abdominal** — ascite, distensão gasosa, grandes massas — também endurece a parede.
 
-  A leitura da defesa e a sua diferenciação da contratura verdadeira são o coração do tópico de abdome agudo, e é lá que estão os números.
+  A leitura da defesa e a sua diferenciação da contração voluntária são o coração do tópico de abdome agudo, e é lá que estão os números.
 :::
 
 ::: manobra
@@ -189,6 +188,8 @@ passos:
   - "Comprima a superfície com firmeza e por pouco tempo, perguntando ao paciente se há dor, e avalie ao mesmo tempo a consistência."
 observar: |
   Nem toda borda palpável é hepatomegalia. Toda hepatomegalia é palpável, mas o fígado pode ser palpado a um centímetro do rebordo, em inspiração profunda, em pessoas magras, e também nos visceroptóticos, sem qualquer aumento de volume (Porto). É por isso que a borda palpável se interpreta junto com o limite superior percutido.
+
+  Guarde uma ressalva sobre a metade da frase que mais tranquiliza. A máxima "toda hepatomegalia é palpável" é de Porto; os dados de McGee a contestam — cerca de metade dos fígados que descem abaixo do rebordo não são palpáveis, e a borda palpável tem razão de verossimilhança de apenas 1,9 para hepatomegalia. Os números e a explicação estão no aprofundamento deste tópico. Na prática: **não ter palpado o fígado não autoriza a concluir que ele não está aumentado.**
 :::
 
 ::: tabela
@@ -262,7 +263,9 @@ texto: |
 
   **Massas.** Diante de qualquer massa, sete atributos precisam constar do registro: localização, forma, volume, sensibilidade, consistência, mobilidade e pulsatilidade. A mobilidade com a respiração indica origem intraperitoneal — as retroperitoneais são fixas —, e a pulsatilidade exige distinguir pulsação própria de pulsação transmitida por vizinhança com a aorta.
 
-  **Tumores-fantasmas.** Porto reúne sob esse nome as estruturas normais tomadas por neoplasia: rim direito ptótico em grandes multíparas, rim ectópico, promontório em pacientes com lordose lombar acentuada, sigmoide com fezes endurecidas e bexiga em retenção urinária simulando cisto de ovário. Percutir a massa e reexaminar o paciente após a micção resolve boa parte desses enganos.
+  **Duas manobras especiais.** No abdome globoso por ascite volumosa, a palpação profunda comum é impossível pela resistência da parede distendida; recorre-se então à **manobra do rechaço**: comprime-se a parede com a palma e imprime-se um impulso rápido com as polpas, sem afrouxar a compressão. Há rechaço quando, logo após a impulsão, a mão recebe um choque de volta — sinal de órgão ou tumor sólido flutuando em meio líquido. Já a pesquisa do **vascolejo** é feita no epigástrio, com movimentos compressivos rápidos das polpas sobre a mão apoiada: ouvir líquido sacolejando denuncia conteúdo líquido no estômago, achado que pode ser normal logo após a ingestão, mas que levanta estase em estômago atônico ou estenose pilórica (Porto).
+
+  **Tumores-fantasmas.** Porto reúne sob esse nome as estruturas normais tomadas por neoplasia: rim direito ptótico em grandes multíparas, rim ectópico, promontório em pacientes com lordose lombar acentuada, sigmoide com fezes endurecidas e bexiga em retenção urinária — o **bexigoma** da linguagem de enfermaria (Semiologia Clínica) — simulando cisto de ovário. Percutir a massa e reexaminar o paciente após a micção resolve boa parte desses enganos.
 :::
 
 ::: secao
@@ -419,8 +422,8 @@ perguntas:
   - id: palp-abd-3
     enunciado: Em que consiste a posição de Schuster e para que serve?
     alternativas:
-      - "Decúbito ventral com o braço esquerdo estendido, para facilitar a percussão do espaço de Traube"
-      - "Decúbito lateral direito, com a perna direita estendida, a coxa esquerda fletida em ângulo de 90° sobre o abdome e o ombro esquerdo elevado com o braço sobre a cabeça, usada para palpar o baço quando as manobras em decúbito dorsal falham"
+      - "Decúbito ventral com o braço esquerdo estendido ao longo do corpo, usada para facilitar a percussão do espaço de Traube e da área esplênica"
+      - "Decúbito lateral direito, com a coxa esquerda fletida a 90° e o ombro esquerdo elevado, para palpar o baço quando o decúbito dorsal falha"
       - "Posição sentada com o tronco fletido para a frente, usada para palpar a borda hepática em obesos"
       - "Decúbito dorsal com as pernas fletidas e o punho esquerdo do paciente sob o dorso, usada para palpar os rins"
     corretaIndex: 1
