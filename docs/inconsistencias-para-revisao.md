@@ -155,6 +155,26 @@ editorial, do autor. Marque cada caixa ao revisar.
   regra da casa (cor de sistema nunca como texto, só tint/ícone/fundo)
   é garantida por inspeção manual e foi conferida na revisão da F9-T1.
   Candidato a melhoria de tooling: gate que varra usos de `sistema.cor`.
+- [ ] **H2 · Exoftalmometria além da moldura** — a spec da Fase 9 pedia a
+  medida da exoftalmia "como moldura"; o tópico `olhos` ensina a técnica
+  (Hertel/régua) em bloco avançado, declarando a contradição interna do
+  Porto (cap. 16: Hertel 12–15 mm, régua <20 mm × cap. 103: "até
+  23 mm") e recomendando não comparar técnicas diferentes. A revisão
+  médica validou o conteúdo; decidir se mantém o ensino ou reduz à
+  moldura (só assimetria >2 mm + crescente de esclerótica).
+- [ ] **H3 · Questões que dependem de blocos avançados** — 5 das 24
+  questões da Fase 9 (olh-2, olh-3, olh-5, tir-1, tir-5) exigem conteúdo
+  de aprofundamento, seguindo o padrão já aprovado nas Fases 5–7 (o quiz
+  cobre básico + avançado). Decidir se a regra deve ser endurecida
+  (quiz só do nível básico) ou mantida; se endurecer, vale retrofit nos
+  capítulos anteriores (abdome, cardio, respiratório têm o mesmo padrão).
+- [ ] **H4 · Divergências de fonte da Fase 9** — nove atribuídas lado a
+  lado nos tópicos (anisocoria 5/25/35/38%, cortes pupilares,
+  exoftalmometria [ver H2], dedos na palpação da tireoide, tireoide
+  normal palpável?, Rinne intensidade × limiar, voz sussurrada,
+  dimensões do istmo, enoftalmia no Horner — mecanismo) + três menores
+  (diapasão 256/512 Hz, "sinal de Bell" no Porto EC × SM, istmo também
+  na SC). Endossar a apresentação lado a lado ou eleger um lado por item.
 
 ## C. Inconsistências antigas ainda abertas (Fases 1C–3)
 
