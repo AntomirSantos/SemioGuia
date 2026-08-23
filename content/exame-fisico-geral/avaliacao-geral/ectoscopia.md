@@ -226,7 +226,7 @@ linhas:
 :::
 
 ::: perola
-texto: "A escala de coma de Glasgow — abertura ocular, resposta verbal e resposta motora — é o instrumento mais usado para graduar alterações do nível de consciência, e este guia a detalha no capítulo do sistema nervoso, ao lado do exame de pupilas, do padrão respiratório e dos sinais localizatórios. Na ectoscopia, o objetivo é outro e menor: chegar a uma conclusão sobre em que degrau da escada o paciente está, e registrar como se chegou a ela."
+texto: "A escala de coma de Glasgow — abertura ocular, resposta verbal e resposta motora — é o instrumento mais usado para graduar alterações do nível de consciência, e este guia a detalha no capítulo do sistema nervoso, ao lado do exame neurológico das pupilas, do padrão respiratório e dos sinais localizatórios. Na ectoscopia, o objetivo é outro e menor: chegar a uma conclusão sobre em que degrau da escada o paciente está, e registrar como se chegou a ela."
 :::
 
 ::: conceito
