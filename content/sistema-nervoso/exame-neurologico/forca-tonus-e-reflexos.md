@@ -298,7 +298,7 @@ svg: |
     <g font-family="sans-serif" font-size="8" fill="currentColor" stroke="none">
       <text x="12" y="166">A · o membro parético prona e cai em relação ao outro</text>
       <text x="12" y="178">B · quadris e joelhos a 90°: o membro fraco cai antes do outro</text>
-      <text x="12" y="190">Observação: 2 minutos (Porto) · 45 segundos (McGee)</text>
+      <text x="12" y="190">Observação: 2 minutos (Semiologia Clínica) · 45 segundos (McGee)</text>
     </g>
   </svg>
 legenda: "As manobras deficitárias existem porque a força testada contra a mão do examinador tem um teto: um déficit discreto some quando o paciente empurra por dois segundos. Pedir que ele sustente a posição contra a gravidade transforma o tempo em instrumento de medida — e o lado fraco se denuncia sozinho, caindo ou pronando antes do outro."
@@ -333,7 +333,7 @@ texto: |
 :::
 
 ::: tabela
-titulo: Inervação segmentar dos músculos (McGee)
+titulo: Inervação segmentar dos músculos (McGee — quase todo músculo recebe fibras de mais de uma raiz; ver texto)
 colunas:
   - "Nível"
   - "Movimento a testar"

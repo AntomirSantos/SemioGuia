@@ -121,17 +121,15 @@ passos:
   - "Quando houver indicação, teste a temperatura alternando os dois tubos, ou compare a haste fria do diapasão com o seu próprio dedo aquecido."
   - "Aplique o diapasão de 128 Hz vibrando sobre saliências ósseas e pergunte quando a vibração some, comparando os dois lados."
   - "Teste a posição segmentar segurando as laterais do hálux ou do polegar e deslocando-o devagar para cima e para baixo, pedindo que o paciente informe o movimento e a direção."
-  - "Delimite qualquer área alterada e desenhe-a no esquema corporal, indo da região alterada para a normal."
+  - "Delimite a área alterada e registre-a em esquema corporal (Porto)."
   - "Coordenação dos membros superiores: prova índex-nariz, repetida algumas vezes, primeiro de olhos abertos e depois fechados."
   - "Coordenação dos membros inferiores: prova calcanhar-joelho, com deslizamento pela crista tibial nos casos duvidosos."
   - "Movimentos alternados rápidos: pronação e supinação sucessivas do antebraço, ou abrir e fechar a mão, comparando os dois lados."
-  - "Equilíbrio estático: paciente de pé, descalço, pés juntos e paralelos, olhos abertos por alguns segundos e depois fechados, com você ao lado para amparar."
+  - "Equilíbrio estático: paciente de pé, descalço, pés juntos e paralelos, olhos abertos por alguns segundos e depois fechados por até 60 segundos, com você ao lado para amparar."
 observar: |
   **Nunca sugira a resposta.** Porto dá o exemplo do que não fazer: perguntar ao paciente se ele está sentindo o algodão no pé direito **enquanto** se toca o pé direito. A pergunta certa é aberta — está sentindo alguma coisa? o quê? onde? — e a comparação vem depois.
 
   **O tempo é inimigo.** Porto adverte que o exame não deve se prolongar, sob pena de desatenção e impaciência. Um exame sensitivo de vinte minutos produz dados piores que um de cinco, porque o paciente cansa antes do examinador.
-
-  **Vá do alterado para o normal.** Quando existe uma área de perda, delimitá-la partindo do centro alterado em direção à pele normal produz limites mais nítidos: o paciente reconhece com facilidade o momento em que a sensação **volta**.
 
   **A coordenação exige força.** McGee é categórico: testar sinais cerebelares só é possível quando a força está preservada, porque a função do cerebelo é administrar o movimento — sem movimento, não há o que administrar. Na prática, provas de coordenação em um membro com força abaixo do grau 4 não são interpretáveis.
 :::
@@ -148,7 +146,7 @@ itens:
   - "Áreas alteradas delimitadas e registradas em esquema corporal."
   - "Prova índex-nariz e prova calcanhar-joelho aplicadas dos dois lados, de olhos abertos e fechados."
   - "Movimentos alternados rápidos testados nos dois membros superiores."
-  - "Prova de Romberg realizada com o examinador ao lado do paciente, e o resultado registrado com a direção e a latência da queda."
+  - "Prova de Romberg sustentada por até 60 segundos, com o examinador ao lado do paciente, e resultado registrado com a direção e a latência da queda."
 :::
 
 ::: secao
