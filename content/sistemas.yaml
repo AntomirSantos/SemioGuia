@@ -57,11 +57,20 @@ sistemas:
       - id: exame-do-abdome
         titulo: Exame do abdome
         ordem: 1
+  - id: sistema-vascular-periferico
+    titulo: Sistema vascular periférico
+    cor: "#66A04F"
+    icone: git-fork
+    ordem: 7
+    capitulos:
+      - id: exame-vascular-periferico
+        titulo: Exame vascular periférico
+        ordem: 1
   - id: sistema-nervoso
     titulo: Sistema nervoso
     cor: "#5B6ABF"
     icone: brain
-    ordem: 7
+    ordem: 8
     capitulos:
       - id: exame-neurologico
         titulo: Exame neurológico
