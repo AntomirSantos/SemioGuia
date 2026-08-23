@@ -460,3 +460,33 @@ build:content sem drift. Processo: 2 tasks com revisão independente +
 revisão final de fase em 3 rodadas com medições empíricas (scroll,
 opacity sampling, contraste calculado); 1 P1 (scroll não voltava ao topo)
 e 1 regressão de animação encontrados pelas revisões e corrigidos.
+
+## Adendo Fase 9 — sistema "Cabeça e pescoço"
+
+Sistema novo na ordem crânio-caudal (posição 3; cardio→4, resp→5,
+abdome→6) com o capítulo "Exame de cabeça e pescoço": crânio e face,
+olhos, boca-nariz-e-ouvidos, tireoide e pescoço. 24 questões (gabarito
+5/7/7/5; resposta-mais-longa 6/24), 4 checklists de 10 itens (viram
+estações OSCE), 4 ilustrações novas (pontos sinusais/ATM, reflexos
+pupilares, orelha externa, reparos da tireoide), aprofundamentos com os
+LRs de McGee (pupilas, olho vermelho, audição, tireoide — caps. 21/23/
+24/25) e um bloco de concordância interobservador (Tabela 5.1, p. 30).
+Fronteiras do neuro nomeadas em voz alta (pares cranianos, motricidade
+ocular detalhada, fundo de olho, otoscopia, rigidez de nuca). Doze
+divergências de fonte apresentadas lado a lado (checklist H4); duas
+linhas de `ectoscopia.md` alinhadas ("exame neurológico das pupilas")
+para casar com o novo tópico de olhos. Conteúdo `revisao: pendente`.
+
+Gates finais: build 6 sistemas/27 tópicos/3 casos, jest 321 testes (sem
+ajuste), tsc, contraste AA, varredura n-grama limpa (3 citações curtas
+entre aspas e atribuídas como únicas corridas). Processo: revisão
+estrutural da T1, revisão médica independente (0 Critical/0 Major/9
+Minor, todos aplicados ou registrados como decisão do autor H2-H3),
+re-revisão escopada com reconstrução do alinhamento κ↔achado, revisão
+final de fase com caminhada visual medida (scroll-reset 1087→0; SVGs nos
+dois temas; busca "tireoide"/"pupila"; console limpo).
+
+Verificação pós-deploy: árvore do gh-pages bit-idêntica ao dist revisado
+na caminhada visual (48 arquivos; fontes do Expo como único conteúdo sob
+assets/node_modules/); deep links pelo servidor estático de revisão
+disparam React #418 (artefato de infra, navegação por cliques limpa).
