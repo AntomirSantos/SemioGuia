@@ -503,7 +503,7 @@ texto: |
 
   O resultado normal, e também o da perda neurossensorial, é a via aérea prevalecer — o que a tradição registra, de forma confusa, como "Rinne positivo". Na perda condutiva, a via óssea prevalece: "Rinne negativo". McGee recomenda registrar de modo explícito — **via óssea maior que via aérea** — em vez de usar a convenção de sinal.
 
-  **Dois detalhes de material**, ambos de McGee: a maioria das autoridades recomenda o diapasão de **512 Hz**, porque frequências acima disso detectam pior a perda condutiva e frequências de 128 Hz ou menores geram tantas vibrações que até pacientes sem audição as percebem; e o diapasão deve ser percutido contra uma **superfície macia**, porque a superfície dura gera harmônicos que confundem a interpretação do paciente.
+  **Dois detalhes de material.** O primeiro é a frequência, e aqui as fontes não pedem a mesma coisa: **Semiologia Clínica** admite o diapasão de **256 ou de 512 Hz**, enquanto **McGee** registra que a maioria das autoridades recomenda o de **512 Hz** e prefere explicitamente esse ao de 256 Hz, que produziu mais resultados falso-positivos em alguns estudos; a justificativa de McGee para a faixa é que frequências acima de 512 Hz detectam pior a perda condutiva e que frequências de 128 Hz ou menores geram tantas vibrações que até pacientes sem audição as percebem. O segundo detalhe é de McGee: o diapasão deve ser percutido contra uma **superfície macia**, porque a superfície dura gera harmônicos que confundem a interpretação do paciente.
 
   **O desempenho:**
 

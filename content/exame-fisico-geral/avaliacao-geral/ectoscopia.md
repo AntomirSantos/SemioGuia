@@ -581,7 +581,7 @@ texto: |
   - **Fácies com componente de coloração** — palidez, icterícia e cianose — dependem do exame do tegumento, no tópico de pele, mucosas e fâneros.
   - **Linfonodos**, item da sequência do exame geral, têm tópico próprio neste capítulo.
   - **Temperatura, frequência respiratória, frequência cardíaca e pressão arterial** estão no capítulo de sinais vitais.
-  - **Escala de coma de Glasgow, exame das pupilas, sinais localizatórios e o detalhamento das marchas** ficam para o capítulo do sistema nervoso.
+  - **Escala de coma de Glasgow, exame neurológico das pupilas, sinais localizatórios e o detalhamento das marchas** ficam para o capítulo do sistema nervoso.
   - **A escuta que produz a impressão de estado geral** começa no capítulo da entrevista clínica, sobretudo no tópico de queixa principal e história da doença atual.
 :::
 

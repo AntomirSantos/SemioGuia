@@ -61,7 +61,7 @@ referencias:
   - "Porto — Semiologia Médica, 8ª ed., Parte 8 (Orelhas, Nariz, Seios Paranasais, Faringe e Laringe), Seção 2, cap. 23 (Fundamentos de Anatomia e Fisiologia) — seios paranasais e seu desenvolvimento após o nascimento; cap. 24 (Exame Clínico) — inspeção da pirâmide nasal e fácies do respirador bucal"
   - "Porto — Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 1 (Região Bucomaxilofacial), cap. 67 (Exame Clínico) — limitação da abertura bucal (trismo) e suas causas; disfunção temporomandibular: dor articular × dor muscular, ruídos articulares e pontos-gatilho"
   - "Semiologia Clínica, 1ª ed., cap. 8 (Semiologia de cabeça e pescoço) — Crânio e couro cabeludo: regiões do segmento cefálico (Figura 1), inspeção e palpação, Tabela 2 (alterações na inspeção da cabeça); Face: mímica, assimetrias, parótidas, pele da face e a linha trago-narina; conjuntos faciais (cefaleia em salvas, lúpus, celulite, herpes-zóster — Figuras 2 e 3); Nariz e seios paranasais: palpação e percussão dos seios frontais e maxilares, transiluminação"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 29, Tabela 5.1 — concordância entre observadores para achados de cabeça e pescoço"
+  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 30, Tabela 5.1, seção Head and Neck — concordância entre observadores para achados de cabeça e pescoço: pupilas, audição, tireoide e meninges"
 revisao: pendente
 ---
 
@@ -192,7 +192,9 @@ texto: |
 
   Ao movimentar o lado são, a assimetria se acentua (Porto). Esse é o ponto prático: peça o movimento máximo, não o movimento educado.
 
-  Na paralisia unilateral do nervo facial, o conjunto é característico (Porto): **lagoftalmia** — o olho não fecha —, ausência do piscar, lacrimejamento, desvio da boca para o lado normal, sobretudo ao mostrar os dentes ou abrir amplamente a boca, e incapacidade de assobiar, de manter a boca inflada e de contrair o platisma. Quando o paciente tenta fechar os olhos, o globo gira para cima e deixa a esclerótica à mostra: é o **sinal de Bell**.
+  Na paralisia unilateral do nervo facial, o conjunto é característico (Porto): **lagoftalmia** — o olho não fecha —, ausência do piscar, lacrimejamento, desvio da boca para o lado normal, sobretudo ao mostrar os dentes ou abrir amplamente a boca, e incapacidade de assobiar, de manter a boca inflada e de contrair o platisma. Quando o paciente tenta fechar os olhos, o globo gira para cima e deixa a esclerótica à mostra: é o **sinal de Bell** (Porto, *Semiologia Médica*).
+
+  Uma nota de vocabulário, porque as duas edições de Porto usam o mesmo epônimo com amplitudes diferentes. **Porto (*Semiologia Médica*)** reserva o nome para a **rotação do globo para cima com exposição da esclerótica** — é essa a definição que este tópico ensina. **Porto (*Exame Clínico*)** usa o termo de forma mais frouxa, aplicando-o ao próprio **não fechamento das pálpebras por paralisia do orbicular**, isto é, ao lagoftalmo. Ao registrar em prontuário, descreva o que viu em vez de confiar só no epônimo.
 
   Duas palavras de vocabulário, porque aparecem em prontuário: a paralisia da face chama-se **prosopoplegia**, e quando bilateral, **diplegia facial** (Porto).
 :::
@@ -401,6 +403,32 @@ linhas:
 :::
 
 ::: conceito
+titulo: Quanto dois examinadores concordam neste capítulo
+nivel: avancado
+texto: |
+  Vale abrir o capítulo com uma medida de humildade. A Tabela 5.1 de McGee (p. 30, seção *Head and Neck*) reúne a concordância entre observadores — o coeficiente kappa — de vários achados que os quatro tópicos deste capítulo ensinam. Os números não medem se o achado é útil; medem se **dois examinadores encontram a mesma coisa no mesmo paciente**.
+
+  A leitura, do mais reprodutível para o menos:
+
+  - **teste do atrito dos dedos**, alternativa ao sussurro descrita por McGee — 0,83;
+  - **manobra que compara a resposta luminosa entre os dois olhos** — 0,63;
+  - **bócio** — 0,38 a 0,77;
+  - **textura da tireoide**, isto é, glândula difusa, multinodular ou com nódulo único — 0,25 a 0,70;
+  - **rigidez de nuca** — 0,24 a 0,76;
+  - **teste da voz sussurrada** — 0,16 a 1,0.
+
+  Três lições saem daí.
+
+  A primeira: os intervalos largos são o dado. Um achado que vai de 0,16 a 1,0 entre estudos não é um achado instável por natureza — é um achado cuja reprodutibilidade **depende inteiramente de padronizar a técnica**, e é por isso que o tópico de boca, nariz e ouvidos insiste nos três detalhes do teste do sussurro, entre eles friccionar o trago em vez de apenas ocluí-lo.
+
+  A segunda: **descrever a textura da tireoide é menos reprodutível do que dizer se há bócio**. Isso conversa com a evidência do próprio exame tireoidiano, em que o achado que decide é o par palpável-e-visível, e não a impressão fina da superfície.
+
+  A terceira: a **rigidez de nuca**, que este capítulo nomeia e adia ao capítulo do sistema nervoso, é dos achados menos concordantes da lista — mais uma razão para que ela seja ensinada com técnica explícita, e não de passagem.
+
+  Nenhum desses números aparece nos outros três tópicos; eles ficam aqui, como pano de fundo do capítulo inteiro.
+:::
+
+::: conceito
 titulo: A linha do trago à narina
 nivel: avancado
 texto: |
@@ -502,7 +530,7 @@ perguntas:
   - id: cf-6
     enunciado: Um paciente relata dor na região frontal e refere que ela piora ao abaixar a cabeça. À compressão da parte óssea das sobrancelhas, há dor. Que informação adicional pesa mais para sustentar a hipótese de sinusite?
     alternativas:
-      - "A cor dos olhos do paciente, já que pessoas de olhos claros referem mais fotofobia"
+      - "A ausência de outras causas de cefaleia na história, o que tornaria a sinusite o diagnóstico de exclusão"
       - "A ausência de iluminação do seio frontal à transiluminação, achado que confirma o diagnóstico por demonstrar o seio preenchido por secreção"
       - "A presença de tosse, expectoração ou gotejamento pós-nasal, especialmente após infecção viral de vias aéreas"
       - "A intensidade da dor à percussão, que é proporcional ao volume de secreção acumulada"

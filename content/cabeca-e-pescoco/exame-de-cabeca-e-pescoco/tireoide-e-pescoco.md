@@ -247,7 +247,7 @@ legenda: "A cricoide é o reparo que resolve o exame: o istmo fica logo abaixo d
 ::: conceito
 titulo: Onde ela está, e por que às vezes não se acha
 texto: |
-  A tireoide tem formato de borboleta: **dois lobos unidos por um istmo estreito**, na base do pescoço, envolvendo a traqueia pela frente e pelos lados (Semiologia Clínica). Cada lobo mede cerca de **4 a 5 cm** de altura — número em que Semiologia Clínica e McGee concordam —, e se estende desde o meio da cartilagem tireoide até o quinto ou sexto anel traqueal (McGee). O istmo cobre, segundo McGee, do **segundo ao quarto anéis traqueais**. As dimensões atribuídas ao istmo diferem entre os textos, provavelmente porque medem eixos diferentes; o que interessa à mão é a posição, e nela há acordo: **logo abaixo da cricoide**.
+  A tireoide tem formato de borboleta: **dois lobos unidos por um istmo estreito**, na base do pescoço, envolvendo a traqueia pela frente e pelos lados (Semiologia Clínica). Cada lobo mede cerca de **4 a 5 cm** de altura — número em que Semiologia Clínica e McGee concordam —, e se estende desde o meio da cartilagem tireoide até o quinto ou sexto anel traqueal (McGee). O istmo cobre, segundo McGee e a Semiologia Clínica, do **segundo ao quarto anéis traqueais**. As dimensões atribuídas ao istmo diferem entre os textos, provavelmente porque medem eixos diferentes; o que interessa à mão é a posição, e nela há acordo: **logo abaixo da cricoide**.
 
   Um detalhe anatômico que aparece na palpação: o **lobo piramidal**, presente em até 50% das dissecções anatômicas, em geral do lado esquerdo, palpável em cerca de 10% dos bócios não tóxicos e raramente em glândulas de tamanho normal (McGee).
 
@@ -449,7 +449,7 @@ texto: |
 
   Duas definições de bócio circulam para o dia a dia, ambas registradas por McGee. A **regra do polegar**: um lobo lateral está aumentado se for maior que a falange distal do polegar do próprio paciente. E a **estimativa de volume pela palpação**: multiplicando largura, profundidade e comprimento de cada lobo e somando os dois, valores acima de **20 mL** classificam-se como bócio, já que cada lobo lateral tem normalmente menos de 10 mL.
 
-  Existe ainda uma graduação epidemiológica, desenhada para clínicos que examinam grandes populações em áreas de bócio endêmico — alguns chegam a examinar 150 a 200 pessoas por hora. A definição revista da **Organização Mundial da Saúde** tem três graus: **grau 0**, sem bócio palpável ou visível; **grau 1**, bócio palpável mas não visível com a cabeça em posição normal; **grau 2**, bócio claramente visível com o pescoço em posição normal. Repare que a fronteira entre os graus 1 e 2 é exatamente a que os dados mostram ser decisiva.
+  Existe ainda uma graduação epidemiológica, desenhada para clínicos que examinam grandes populações em áreas de bócio endêmico — alguns chegam a examinar 150 a 200 pessoas por hora. A definição da **Organização Mundial da Saúde** reproduzida por McGee — uma revisão cujo ano ele não informa — tem três graus: **grau 0**, sem bócio palpável ou visível; **grau 1**, bócio palpável mas não visível com a cabeça em posição normal; **grau 2**, bócio claramente visível com o pescoço em posição normal. Repare que a fronteira entre os graus 1 e 2 é exatamente a que os dados mostram ser decisiva.
 
   ---
 

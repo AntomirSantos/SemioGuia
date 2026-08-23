@@ -90,8 +90,9 @@ texto: |
   **O que fica como moldura, nomeada e não ensinada:**
 
   - o **fundo de olho**, ou oftalmoscopia, que abre a retina ao exame e informa sobre hipertensão, diabetes melito e infecções sistêmicas (Semiologia Clínica) — e que este guia deixa para o capítulo do sistema nervoso;
-  - a **motricidade ocular extrínseca** em detalhe: pede-se ao paciente que acompanhe o dedo para os lados, para cima e para baixo, e registra-se limitação, desvio ou nistagmo; a análise músculo a músculo e nervo a nervo pertence ao exame neurológico;
   - os instrumentos do oftalmologista — **lâmpada de fenda, tonômetro, retinoscópio** —, com os quais se examinam em detalhe córnea, câmara anterior, íris e cristalino, e se mede a pressão intraocular (Semiologia Clínica).
+
+  A **motricidade ocular extrínseca** fica no meio do caminho, e vale dizer exatamente onde a linha passa: o **rastreio** é ensinado aqui — pede-se ao paciente que acompanhe o dedo para os lados, para cima e para baixo, e registra-se limitação, desvio ou nistagmo. O que fica para o exame neurológico é a análise músculo a músculo, a atribuição de cada déficit ao seu nervo craniano e a nomenclatura das paralisias.
 
   Uma fronteira a mais, e desta vez com o próprio guia: **palidez e icterícia não se pesquisam aqui**. A rima conjuntival, o método da pálpebra evertida e os sítios de icterícia estão no tópico de pele, mucosas e fâneros, com os números que os sustentam. Aqui interessa a semiotécnica ocular — como expor a conjuntiva, o que a esclera normal parece, que padrões de vermelhidão existem.
 :::
@@ -531,7 +532,7 @@ perguntas:
   - id: olh-5
     enunciado: Em um paciente com suspeita de doença tireoidiana, você observa que, ao olhar para baixo, aparece uma faixa de esclera branca entre a margem da pálpebra superior e o limbo. Qual é o nome e o valor desse achado?
     alternativas:
-      - "Sinal de Romaña, com razão de verossimilhança acima de 30 para doença de Chagas aguda"
+      - "Sinal de Romaña, o edema palpebral unilateral que aparece na doença de Chagas aguda"
       - "Enoftalmia, achado bilateral que aponta para desidratação e caquexia"
       - "Lid lag, ou sinal de von Graefe, com razão de verossimilhança 18,6 para hipertireoidismo"
       - "Ptose palpebral por paralisia do músculo tarsal de Müller, componente da síndrome de Horner"
