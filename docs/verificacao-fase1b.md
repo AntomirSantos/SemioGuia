@@ -487,6 +487,7 @@ final de fase com caminhada visual medida (scroll-reset 1087→0; SVGs nos
 dois temas; busca "tireoide"/"pupila"; console limpo).
 
 Verificação pós-deploy: árvore do gh-pages bit-idêntica ao dist revisado
-na caminhada visual (48 arquivos; fontes do Expo como único conteúdo sob
+na caminhada visual (50 arquivos com .nojekyll e 404.html — repostos em hotfix
+após o Jekyll do Pages descartar o _expo/; fontes do Expo como único conteúdo sob
 assets/node_modules/); deep links pelo servidor estático de revisão
 disparam React #418 (artefato de infra, navegação por cliques limpa).
