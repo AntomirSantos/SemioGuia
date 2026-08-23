@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="14" y="14">A · reparos da linha média</text>
+    <text x="196" y="14">B · contorno de perfil</text>
+  </g>
+  <!-- A: contorno do pescoco de frente -->
+  <path d="M 46 26 C 52 48, 54 62, 52 76 C 48 96, 40 108, 34 118" stroke-width="1.5" />
+  <path d="M 126 26 C 120 48, 118 62, 120 76 C 124 96, 132 108, 138 118" stroke-width="1.5" />
+  <!-- clavículas e fúrcula -->
+  <path d="M 34 118 C 52 128, 72 132, 86 132 C 100 132, 120 128, 138 118" stroke-width="1.4" />
+  <path d="M 76 130 C 82 136, 90 136, 96 130" stroke-width="1.3" />
+  <!-- hioide -->
+  <path d="M 68 36 C 78 32, 94 32, 104 36" stroke-width="1.6" />
+  <!-- cartilagem tireoide com chanfradura -->
+  <path d="M 70 46 L 80 42 L 86 50 L 92 42 L 102 46 L 100 66 L 72 66 Z" stroke-width="1.6" />
+  <!-- cricoide -->
+  <path d="M 74 72 L 98 72 L 98 82 L 74 82 Z" stroke-width="1.5" />
+  <!-- aneis traqueais -->
+  <path d="M 76 88 L 96 88" stroke-width="1.3" />
+  <path d="M 76 96 L 96 96" stroke-width="1.3" />
+  <path d="M 76 104 L 96 104" stroke-width="1.3" />
+  <path d="M 76 112 L 96 112" stroke-width="1.3" />
+  <!-- istmo -->
+  <path d="M 74 90 L 98 90 L 98 106 L 74 106 Z" stroke-width="1.5" stroke-dasharray="3 2" />
+  <!-- lobos laterais -->
+  <path d="M 74 88 C 62 88, 56 96, 58 106 C 60 116, 68 120, 74 112 Z" stroke-width="1.6" />
+  <path d="M 98 88 C 110 88, 116 96, 114 106 C 112 116, 104 120, 98 112 Z" stroke-width="1.6" />
+  <!-- marcadores A -->
+  <g font-family="sans-serif" font-size="10" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="60" y="36">1</text>
+    <text x="60" y="56">2</text>
+    <text x="64" y="80">3</text>
+    <text x="86" y="101">4</text>
+    <text x="108" y="104">5</text>
+    <text x="86" y="146">6</text>
+  </g>
+  <!-- B: perfil do pescoco -->
+  <path d="M 214 24 C 222 40, 226 54, 224 66" stroke-width="1.5" />
+  <!-- linha reta normal, da cricoide a furcula -->
+  <path d="M 224 74 L 226 128" stroke-width="1.6" />
+  <circle cx="224" cy="70" r="3" stroke-width="1.4" />
+  <circle cx="226" cy="130" r="3" stroke-width="1.4" />
+  <!-- perfil com bocio -->
+  <path d="M 278 24 C 286 40, 290 54, 288 66" stroke-width="1.5" />
+  <path d="M 288 74 C 302 84, 302 112, 290 128" stroke-width="1.6" />
+  <circle cx="288" cy="70" r="3" stroke-width="1.4" />
+  <circle cx="290" cy="130" r="3" stroke-width="1.4" />
+  <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="226" y="146">normal: reta</text>
+    <text x="290" y="146">bócio: arqueada</text>
+  </g>
+  <!-- legenda A -->
+  <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
+    <text x="14" y="166">1 osso hioide   2 cartilagem tireoide   3 cartilagem cricoide</text>
+    <text x="14" y="178">4 istmo, logo abaixo da cricoide   5 lobo lateral   6 fúrcula esternal</text>
+    <text x="14" y="190">de perfil, a linha da cricoide à fúrcula é reta quando a tireoide é normal</text>
+  </g>
+</svg>

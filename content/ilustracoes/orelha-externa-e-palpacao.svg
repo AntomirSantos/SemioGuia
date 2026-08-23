@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="14" y="16">orelha externa e pontos de palpação</text>
+  </g>
+  <!-- helix -->
+  <path d="M 108 34 C 146 38, 160 70, 154 100 C 148 132, 130 154, 106 158" stroke-width="1.8" />
+  <!-- borda de insercao -->
+  <path d="M 108 34 C 98 60, 96 116, 106 158" stroke-width="1.4" />
+  <!-- anti-helix -->
+  <path d="M 112 58 C 136 64, 142 88, 136 108 C 132 124, 124 138, 112 142" stroke-width="1.4" />
+  <!-- concha e meato -->
+  <circle cx="118" cy="102" r="7" stroke-width="1.5" />
+  <!-- trago -->
+  <path d="M 112 86 C 102 86, 98 96, 100 108 C 101 114, 105 116, 109 114" stroke-width="1.6" />
+  <!-- lobulo -->
+  <path d="M 106 158 C 118 158, 126 148, 126 138" stroke-width="1.4" />
+  <!-- mastoide -->
+  <circle cx="176" cy="140" r="13" stroke-width="1.4" stroke-dasharray="4 3" />
+  <!-- seta 1: tracao do pavilhao para cima e para tras -->
+  <path d="M 150 46 L 176 32" stroke-width="1.4" />
+  <path d="M 169 30 L 177 31 L 174 38" stroke-width="1.4" />
+  <!-- seta 2: compressao do trago -->
+  <path d="M 74 100 L 94 100" stroke-width="1.4" />
+  <path d="M 88 96 L 95 100 L 88 104" stroke-width="1.4" />
+  <!-- seta 3: palpacao da mastoide -->
+  <path d="M 204 168 L 186 150" stroke-width="1.4" />
+  <path d="M 190 150 L 185 148 L 187 155" stroke-width="1.4" />
+  <!-- marcadores -->
+  <g font-family="sans-serif" font-size="10" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="146" y="60">A</text>
+    <text x="120" y="76">B</text>
+    <text x="130" y="152">C</text>
+    <text x="126" y="100">D</text>
+  </g>
+  <!-- legenda -->
+  <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
+    <text x="212" y="46">A hélice   B anti-hélice</text>
+    <text x="212" y="60">C lóbulo   D meato acústico</text>
+    <text x="212" y="82">1 tração do pavilhão</text>
+    <text x="212" y="94">2 compressão do trago</text>
+    <text x="212" y="106">3 palpação da mastoide</text>
+  </g>
+  <g font-family="sans-serif" font-size="10" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="184" y="24">1</text>
+    <text x="66" y="104">2</text>
+    <text x="218" y="162">3</text>
+  </g>
+  <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
+    <text x="14" y="182">a dor à tração e à compressão do trago aponta para a orelha externa;</text>
+    <text x="14" y="194">a dor sobre a mastoide levanta a hipótese de mastoidite</text>
+  </g>
+</svg>
