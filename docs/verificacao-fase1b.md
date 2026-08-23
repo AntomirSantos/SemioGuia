@@ -443,3 +443,20 @@ Conteúdo `revisao: pendente`.
 
 Verificação headless pós-deploy: home com 5 sistemas; tópicos do abdome
 com ilustrações; busca por "ascite"/"Blumberg".
+
+## Adendo Fase 8 — redesign de navegação e leitura
+
+Leitura por seções nos tópicos (sumário de chips com papel de tabs,
+navegação Anterior/Próxima com retorno ao topo, indicador "Seção X de Y"
+com barra de progresso na cor do sistema), identidade visual por tipo de
+bloco (ícone + rótulo, cards, zebra nas tabelas, respiro), home com
+progresso por sistema e card "Continuar de onde parou" (pref `ultimoTopico`
+sincronizável, valor ≤100 chars garantido), tela de sistema com checkmarks,
+movimento de 200 ms com resolução síncrona de prefers-reduced-motion,
+itálico no TextoRico. Zero dependências novas; content/ intocado.
+
+Gates finais: jest 321 testes (28 novos na fase), tsc, contraste AA,
+build:content sem drift. Processo: 2 tasks com revisão independente +
+revisão final de fase em 3 rodadas com medições empíricas (scroll,
+opacity sampling, contraste calculado); 1 P1 (scroll não voltava ao topo)
+e 1 regressão de animação encontrados pelas revisões e corrigidos.

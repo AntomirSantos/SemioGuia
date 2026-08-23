@@ -131,6 +131,22 @@ editorial, do autor. Marque cada caixa ao revisar.
   geral (ectoscopia/pele), onde tórax e abdome poderiam referenciá-la.
   Hoje ela vive no capítulo do abdome, atribuída ao cap. 10 de Porto.
 
+## G. Itens da Fase 8 (redesign)
+
+- [ ] **G1 · Limitação da RNTL 14 nos papéis de a11y** — getByRole não
+  reconhece 'progressbar'/'tablist' e Views precisam de accessible={true}
+  para expor papel/valor; padrão documentado nos testes. Registro para
+  futuros testes de a11y (usar getByRole após accessible, ou label).
+- [ ] **G2 · Duração do scroll suave na troca de seção (~800 ms em seções
+  longas)** — governada pela física nativa do navegador, não é constante
+  ajustável; instantâneo sob movimento reduzido. Avaliar no uso real se
+  quer algo mais seco.
+- [ ] **G3 · Menores estéticos registrados** — altura de linha das tabelas
+  largas segue a célula mais alta mesmo fora da tela (pré-existente,
+  melhorou com 170px); aninhamento *itálico dentro de **negrito*** fora de
+  escopo do TextoRico (corpus não usa); par ok/okFundo segue fora do gate
+  de contraste (uso decorativo).
+
 ## C. Inconsistências antigas ainda abertas (Fases 1C–3)
 
 - [ ] **C1 · Faixa 37,6–37,8 °C** — "febrícula até 37,5 °C" convive com o
