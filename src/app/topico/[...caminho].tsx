@@ -161,6 +161,19 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
     };
   }, [progresso, topicoId]);
 
+  // "Continuar de onde parou" (spec §3.3): grava o último tópico aberto numa
+  // preferência genérica — mesmo mecanismo de `tema`/`fonte` no Perfil, sem
+  // migração de store nem de firestore.rules (chave e valor já cabem no
+  // formato existente de `prefs`). Só grava quando o tópico existe de fato.
+  useEffect(() => {
+    if (!topico) return;
+    progresso
+      .definirPreferencia('ultimoTopico', topicoId)
+      .catch(() => {})
+      .finally(() => notificarEscrita());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [topicoId, topico]);
+
   if (!topico) {
     return <TelaNaoEncontrada />;
   }

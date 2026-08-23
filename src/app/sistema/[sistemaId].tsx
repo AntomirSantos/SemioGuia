@@ -1,4 +1,5 @@
 import { useCallback } from 'react';
+import { Check } from 'lucide-react-native';
 import { Pressable, Text, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { Tela } from '../../design/Tela';
@@ -10,11 +11,38 @@ import { useProgresso } from '../../progress/ProgressContext';
 import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import type { Capitulo, Topico } from '../../content/schema';
 
+// Indicador de estudado por tópico (spec Fase 8 §3.3): checkmark visual, não
+// só texto — reaproveita o par `ok`/`okFundo` já usado em quiz/estação/caso
+// para "correto"/"lembrei", mesmo significado semântico aqui ("estudado").
+// Puramente decorativo (o estado real está no `accessibilityLabel` do
+// próprio botão da linha), então não precisa de role próprio.
+function IndicadorEstudado({ estudado }: { estudado: boolean }) {
+  const { paleta } = useTema();
+  return (
+    <View
+      style={{
+        width: 22,
+        height: 22,
+        borderRadius: 11,
+        borderWidth: 1.5,
+        borderColor: estudado ? paleta.ok : paleta.linha,
+        backgroundColor: estudado ? paleta.okFundo : 'transparent',
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginLeft: espaco.s,
+      }}
+    >
+      {estudado ? <Check size={13} color={paleta.ok} strokeWidth={3} /> : null}
+    </View>
+  );
+}
+
 function LinhaTopico({ topico, estudado }: { topico: Topico; estudado: boolean }) {
   const { paleta, escala } = useTema();
   return (
     <Pressable
       accessibilityRole="button"
+      accessibilityLabel={`${topico.titulo}${estudado ? ', estudado' : ''}`}
       onPress={() => router.push(`/topico/${topico.id}`)}
       style={{
         flexDirection: 'row',
@@ -29,22 +57,7 @@ function LinhaTopico({ topico, estudado }: { topico: Topico; estudado: boolean }
       <Text style={{ flex: 1, fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta }}>
         {topico.titulo}
       </Text>
-      {estudado ? (
-        <View
-          style={{
-            borderWidth: 1,
-            borderColor: paleta.linha,
-            borderRadius: raio.pill,
-            paddingHorizontal: espaco.s + 2,
-            paddingVertical: 3,
-            marginLeft: espaco.s,
-          }}
-        >
-          <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.tag, color: paleta.acentoTinta, textTransform: 'uppercase', letterSpacing: 0.6 }}>
-            Estudado
-          </Text>
-        </View>
-      ) : null}
+      <IndicadorEstudado estudado={estudado} />
     </Pressable>
   );
 }
@@ -52,11 +65,18 @@ function LinhaTopico({ topico, estudado }: { topico: Topico; estudado: boolean }
 function SecaoCapitulo({ capitulo, estudados }: { capitulo: Capitulo; estudados: Set<string> }) {
   const { paleta, escala } = useTema();
   const topicos = [...capitulo.topicos].sort((a, b) => a.ordem - b.ordem);
+  const total = topicos.length;
+  const estudadosCount = topicos.filter((t) => estudados.has(t.id)).length;
   return (
     <View style={{ marginBottom: espaco.xl }}>
-      <Text style={{ fontFamily: fonte.displaySemi, fontSize: Math.round(tipo.h3 * escala), color: paleta.tinta, marginBottom: espaco.xs }}>
-        {capitulo.titulo}
-      </Text>
+      <View style={{ flexDirection: 'row', alignItems: 'baseline', justifyContent: 'space-between', marginBottom: espaco.xs }}>
+        <Text style={{ fontFamily: fonte.displaySemi, fontSize: Math.round(tipo.h3 * escala), color: paleta.tinta }}>
+          {capitulo.titulo}
+        </Text>
+        <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2 }}>
+          {estudadosCount} de {total} estudados
+        </Text>
+      </View>
       {topicos.map((topico) => (
         <LinhaTopico key={topico.id} topico={topico} estudado={estudados.has(topico.id)} />
       ))}
