@@ -57,14 +57,14 @@ test('barra de progresso do sistema expõe accessibilityRole e valor', async () 
   const store = new MemoryProgressStore();
   await store.marcarEstudado(PA_ID, true);
 
-  const { getByLabelText } = await renderHome(store);
+  const { getByRole } = await renderHome(store);
 
-  // Busca pelo `accessibilityLabel` (não por `getByRole`): a barra vive
-  // dentro do cartão-botão do sistema, e getByRole exclui roles aninhados
-  // num ancestral interativo da árvore de acessibilidade computada — o
-  // rótulo, por outro lado, casa direto com o elemento certo.
-  const barra = await waitFor(() => getByLabelText('1 de 7 tópicos estudados'));
-  expect(barra.props.accessibilityRole).toBe('progressbar');
+  // `getByRole('progressbar')` só encontra o elemento porque a View leva
+  // `accessible` — sem isso, RNTL (e o leitor de tela real) nunca expõe o
+  // role/valor como um controle distinto, mesmo com accessibilityRole
+  // presente. Filtra pelo `name` (accessibilityLabel) porque há uma barra
+  // por sistema (5 no total).
+  const barra = await waitFor(() => getByRole('progressbar', { name: '1 de 7 tópicos estudados' }));
   expect(barra.props.accessibilityValue).toEqual({ min: 0, max: 7, now: 1 });
 });
 

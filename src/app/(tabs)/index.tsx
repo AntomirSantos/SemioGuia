@@ -26,6 +26,7 @@ function BarraProgressoSistema({ estudados, total, cor }: { estudados: number; t
   const percentual = total > 0 ? estudados / total : 0;
   return (
     <View
+      accessible
       accessibilityRole="progressbar"
       accessibilityLabel={`${estudados} de ${total} ${total === 1 ? 'tópico estudado' : 'tópicos estudados'}`}
       accessibilityValue={{ min: 0, max: total, now: estudados }}
@@ -52,6 +53,7 @@ function CartaoSistema({ sistema, estudados }: { sistema: Sistema; estudados: nu
       onPress={() => router.push(`/sistema/${sistema.id}`)}
       style={{
         width: '48%',
+        alignItems: 'stretch',
         backgroundColor: `${sistema.cor}24`,
         borderRadius: raio.l,
         padding: espaco.l,
@@ -72,8 +74,20 @@ function CartaoSistema({ sistema, estudados }: { sistema: Sistema; estudados: nu
       >
         <Icone size={22} color={sistema.cor} />
       </View>
+      {/* `alignSelf: 'stretch'` + `flexShrink: 1` explícitos (polish Fase 8):
+          sem eles, títulos de sistema com uma palavra longa ("cardiovascular")
+          podiam truncar em 1 linha em vez de quebrar nas 2 de `numberOfLines`
+          — o texto se dimensionava pelo próprio conteúdo em vez de esticar
+          para a largura do cartão. */}
       <Text
-        style={{ fontFamily: fonte.displaySemi, fontSize: Math.round(tipo.h3 * escala), color: paleta.tinta, marginBottom: espaco.xs }}
+        style={{
+          fontFamily: fonte.displaySemi,
+          fontSize: Math.round(tipo.h3 * escala),
+          color: paleta.tinta,
+          marginBottom: espaco.xs,
+          alignSelf: 'stretch',
+          flexShrink: 1,
+        }}
         numberOfLines={2}
       >
         {sistema.titulo}

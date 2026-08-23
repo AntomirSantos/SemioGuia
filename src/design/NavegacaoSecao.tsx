@@ -17,7 +17,9 @@ export function IndicadorSecao({ indice, total, cor }: { indice: number; total: 
     <View style={{ marginBottom: espaco.l }}>
       <Rotulo texto={`Seção ${indice + 1} de ${total}`} style={{ marginBottom: espaco.xs + 2 }} />
       <View
+        accessible
         accessibilityRole="progressbar"
+        accessibilityLabel={`Seção ${indice + 1} de ${total}`}
         accessibilityValue={{ min: 1, max: total, now: indice + 1 }}
         style={{ height: 3, borderRadius: 2, backgroundColor: paleta.linha, overflow: 'hidden' }}
       >
