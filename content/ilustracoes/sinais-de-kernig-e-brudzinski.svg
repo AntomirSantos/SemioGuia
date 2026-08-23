@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="14" y="16">A · Kernig</text>
+    <text x="180" y="16">B · Brudzinski</text>
+  </g>
+  <path d="M 162 24 L 162 148" stroke-width="1" stroke-dasharray="3 3" />
+  <!-- A -->
+  <path d="M 14 134 L 152 134" stroke-width="1.5" />
+  <circle cx="28" cy="118" r="10" stroke-width="1.5" />
+  <path d="M 38 110 L 84 110" stroke-width="1.5" />
+  <path d="M 38 128 L 84 128" stroke-width="1.5" />
+  <path d="M 84 120 L 80 84" stroke-width="1.6" />
+  <circle cx="80" cy="79" r="5" stroke-width="1.4" />
+  <path d="M 83 76 L 116 88" stroke-width="1.6" />
+  <path d="M 116 88 L 142 98" stroke-width="1" stroke-dasharray="3 3" />
+  <path d="M 122 82 L 132 96 M 132 82 L 122 96" stroke-width="1.3" />
+  <path d="M 110 82 Q 116 78, 122 82" stroke-width="1.2" />
+  <!-- B -->
+  <path d="M 172 134 L 310 134" stroke-width="1.5" />
+  <circle cx="192" cy="102" r="10" stroke-width="1.5" />
+  <path d="M 199 109 L 208 118" stroke-width="1.5" />
+  <path d="M 180 94 Q 187 88, 195 91" stroke-width="1.2" />
+  <path d="M 204 88 Q 197 81, 188 84" stroke-width="1.2" />
+  <path d="M 193 80 L 188 84 L 192 89" stroke-width="1.2" />
+  <path d="M 208 118 L 250 118" stroke-width="1.5" />
+  <path d="M 206 128 L 250 128" stroke-width="1.5" />
+  <path d="M 250 122 L 230 90" stroke-width="1.6" />
+  <circle cx="228" cy="86" r="5" stroke-width="1.4" />
+  <path d="M 232 85 L 262 95" stroke-width="1.6" />
+  <path d="M 252 130 L 247 110" stroke-width="1.6" />
+  <circle cx="246" cy="106" r="4.5" stroke-width="1.4" />
+  <path d="M 250 105 L 280 116" stroke-width="1.6" />
+  <path d="M 252 126 L 302 126" stroke-width="1" stroke-dasharray="3 3" />
+  <path d="M 288 122 Q 272 116, 258 106" stroke-width="1.2" />
+  <path d="M 264 106 L 257 105 L 259 112" stroke-width="1.2" />
+  <!-- legenda -->
+  <g font-family="sans-serif" font-size="8" fill="currentColor" stroke="none">
+    <text x="12" y="164">A · com o quadril fletido, o joelho resiste à extensão</text>
+    <text x="12" y="176">B · fletir a nuca faz o paciente fletir quadris e joelhos</text>
+    <text x="12" y="188">Os dois nascem da mesma recusa: o movimento estira raízes irritadas</text>
+  </g>
+</svg>

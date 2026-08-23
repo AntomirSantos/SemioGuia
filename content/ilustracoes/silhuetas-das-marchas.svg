@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="44" y="16">1</text>
+    <text x="122" y="16">2</text>
+    <text x="200" y="16">3</text>
+    <text x="278" y="16">4</text>
+  </g>
+  <path d="M 12 152 L 308 152" stroke-width="1" stroke-dasharray="4 3" />
+  <!-- 1 · ceifante -->
+  <circle cx="44" cy="38" r="9" stroke-width="1.5" />
+  <path d="M 44 47 L 44 94" stroke-width="1.6" />
+  <path d="M 44 56 L 33 68 L 43 76" stroke-width="1.5" />
+  <path d="M 44 58 L 55 82" stroke-width="1.5" />
+  <path d="M 44 94 L 37 146" stroke-width="1.6" />
+  <path d="M 37 146 L 29 150" stroke-width="1.3" />
+  <path d="M 44 94 L 61 144" stroke-width="1.6" />
+  <path d="M 61 144 L 70 149" stroke-width="1.3" />
+  <path d="M 34 156 Q 56 166, 68 152" stroke-width="1.1" stroke-dasharray="3 3" />
+  <!-- 2 · parkinsoniana -->
+  <circle cx="128" cy="40" r="9" stroke-width="1.5" />
+  <path d="M 125 48 C 121 64, 117 80, 117 94" stroke-width="1.6" />
+  <path d="M 122 58 L 115 74 L 122 82" stroke-width="1.5" />
+  <path d="M 125 59 L 132 74 L 126 82" stroke-width="1.5" />
+  <path d="M 117 94 L 111 148" stroke-width="1.6" />
+  <path d="M 111 148 L 104 151" stroke-width="1.3" />
+  <path d="M 117 94 L 126 148" stroke-width="1.6" />
+  <path d="M 126 148 L 133 151" stroke-width="1.3" />
+  <!-- 3 · escarvante -->
+  <circle cx="200" cy="38" r="9" stroke-width="1.5" />
+  <path d="M 200 47 L 200 94" stroke-width="1.6" />
+  <path d="M 200 56 L 189 80" stroke-width="1.5" />
+  <path d="M 200 56 L 211 78" stroke-width="1.5" />
+  <path d="M 200 94 L 193 148" stroke-width="1.6" />
+  <path d="M 193 148 L 185 151" stroke-width="1.3" />
+  <path d="M 200 94 L 218 114 L 212 138" stroke-width="1.6" />
+  <path d="M 212 138 L 216 150" stroke-width="1.3" />
+  <path d="M 226 112 L 226 100" stroke-width="1.2" />
+  <path d="M 222 105 L 226 99 L 230 105" stroke-width="1.2" />
+  <!-- 4 · anserina -->
+  <circle cx="276" cy="38" r="9" stroke-width="1.5" />
+  <path d="M 277 47 L 282 90" stroke-width="1.6" />
+  <path d="M 278 57 L 266 78" stroke-width="1.5" />
+  <path d="M 279 58 L 292 76" stroke-width="1.5" />
+  <path d="M 268 90 L 296 100" stroke-width="1.5" />
+  <path d="M 270 92 L 263 148" stroke-width="1.6" />
+  <path d="M 263 148 L 256 151" stroke-width="1.3" />
+  <path d="M 295 100 L 300 148" stroke-width="1.6" />
+  <path d="M 300 148 L 307 151" stroke-width="1.3" />
+  <path d="M 304 92 L 304 104" stroke-width="1.2" />
+  <path d="M 300 99 L 304 105 L 308 99" stroke-width="1.2" />
+  <!-- legenda -->
+  <g font-family="sans-serif" font-size="8" fill="currentColor" stroke="none">
+    <text x="12" y="168">1 ceifante · 2 parkinsoniana · 3 escarvante · 4 anserina</text>
+    <text x="12" y="180">1 o pé descreve um semicírculo · 2 em bloco, sem balanço dos braços</text>
+    <text x="12" y="192">3 o pé cai e o joelho sobe · 4 o quadril oposto cai a cada passo</text>
+  </g>
+</svg>
