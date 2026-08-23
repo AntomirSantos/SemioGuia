@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- contorno da parede abdominal -->
+  <path d="M 100 26 C 89 38, 71 56, 45 68 L 47 130 C 49 148, 57 166, 79 176 L 121 176 C 143 166, 151 148, 153 130 L 155 68 C 129 56, 111 38, 100 26 Z" />
+  <!-- bordas externas dos músculos retos -->
+  <path d="M 80 40 L 84 168" stroke-width="1" stroke-dasharray="4 4" />
+  <path d="M 120 40 L 116 168" stroke-width="1" stroke-dasharray="4 4" />
+  <!-- cicatriz umbilical -->
+  <circle cx="100" cy="100" r="3.5" stroke-width="1.4" />
+  <!-- espinhas ilíacas anterossuperiores -->
+  <circle cx="60" cy="142" r="2.5" stroke-width="1.4" />
+  <circle cx="140" cy="142" r="2.5" stroke-width="1.4" />
+  <!-- linha espinha ilíaca direita - umbigo, com o ponto de McBurney no terço externo -->
+  <path d="M 60 142 L 100 100" stroke-width="1.1" stroke-dasharray="4 3" />
+  <circle cx="73" cy="128" r="4" stroke-width="1.6" />
+  <!-- ponto cístico: ângulo do rebordo costal com a borda do reto -->
+  <circle cx="80" cy="70" r="4" stroke-width="1.6" />
+  <!-- Rovsing: pressão na fossa ilíaca esquerda, dor na direita -->
+  <circle cx="128" cy="127" r="4" stroke-width="1.6" />
+  <path d="M 121 127 L 81 127" stroke-width="1.2" />
+  <path d="M 88 123 L 80 127 L 88 131" stroke-width="1.2" />
+  <!-- números -->
+  <g font-family="sans-serif" font-size="10" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="66" y="62">1</text>
+    <text x="62" y="118">2</text>
+    <text x="140" y="118">3</text>
+    <text x="60" y="160">4</text>
+  </g>
+  <!-- legenda -->
+  <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
+    <text x="176" y="46">1 ponto cístico</text>
+    <text x="184" y="59">sinal de Murphy</text>
+    <text x="176" y="80">2 ponto de McBurney</text>
+    <text x="184" y="93">terço externo da linha</text>
+    <text x="176" y="114">3 fossa ilíaca esquerda</text>
+    <text x="184" y="127">sinal de Rovsing</text>
+    <text x="176" y="148">4 espinha ilíaca</text>
+    <text x="184" y="161">anterossuperior</text>
+  </g>
+  <!-- lado do paciente -->
+  <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="62" y="192">direita do paciente</text>
+    <text x="140" y="192">esquerda</text>
+  </g>
+</svg>

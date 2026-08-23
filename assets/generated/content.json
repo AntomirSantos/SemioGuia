@@ -7363,7 +7363,1662 @@
      "id": "exame-do-abdome",
      "titulo": "Exame do abdome",
      "ordem": 1,
-     "topicos": []
+     "topicos": [
+      {
+       "id": "abdome/exame-do-abdome/inspecao-e-ausculta-do-abdome",
+       "titulo": "Inspeção e ausculta do abdome",
+       "sistemaId": "abdome",
+       "capituloId": "exame-do-abdome",
+       "ordem": 1,
+       "tags": [
+        "inspeção do abdome",
+        "ausculta do abdome",
+        "exame do abdome",
+        "abdome",
+        "nove regiões do abdome",
+        "quadrantes do abdome",
+        "hipocôndrio direito",
+        "hipocôndrio esquerdo",
+        "epigástrio",
+        "flanco direito",
+        "flanco esquerdo",
+        "mesogástrio",
+        "região umbilical",
+        "hipogástrio",
+        "fossa ilíaca direita",
+        "fossa ilíaca esquerda",
+        "projeção das vísceras",
+        "linha bicostal",
+        "linha bi-ilíaca",
+        "ângulo de Charpy",
+        "abdome globoso",
+        "abdome escavado",
+        "abdome em avental",
+        "abdome pendular",
+        "ventre de batráquio",
+        "cicatriz umbilical",
+        "cicatrizes cirúrgicas",
+        "estrias",
+        "circulação colateral",
+        "cabeça de medusa",
+        "tipo porta",
+        "tipo cava inferior",
+        "tipo cava superior",
+        "hérnia umbilical",
+        "hérnia inguinal",
+        "hérnia incisional",
+        "diástase dos retos abdominais",
+        "manobra de esforço",
+        "abaulamento abdominal",
+        "peristaltismo visível",
+        "ondas peristálticas",
+        "estenose pilórica",
+        "ruídos hidroaéreos",
+        "RHA",
+        "borborigmo",
+        "patinhação",
+        "ruído metálico",
+        "silêncio abdominal",
+        "íleo paralítico",
+        "obstrução intestinal",
+        "sopro abdominal",
+        "sopro sistodiastólico",
+        "hipertensão renovascular",
+        "aneurisma de aorta abdominal",
+        "atrito hepático",
+        "sinal de Cullen",
+        "sinal de Grey-Turner",
+        "nódulo de Sister Mary Joseph",
+        "pancreatite aguda",
+        "estação OSCE"
+       ],
+       "referencias": [
+        "Porto — Exame Clínico, 8ª ed., cap. 17 (Exame do Abdome) — Pontos de referência anatômicos, Regiões do abdome (Figuras 17.1 e 17.2), projeção dos órgãos; Inspeção: forma e volume (Figuras 17.5 a 17.8), cicatriz umbilical e boxe Sinais de Cullen e de Gray-Turner, abaulamentos, cicatrizes da parede, movimentos respiratórios, pulsações e ondas peristálticas (Figura 17.10); Ausculta: boxe sobre auscultar antes de percutir e palpar, ruídos hidroaéreos, boxe do silêncio abdominal e sopros; Roteiro pedagógico para exame do abdome",
+        "Porto — Exame Clínico, 8ª ed., cap. 10 (Exame Físico Geral) — Circulação colateral: distinção entre desenho venoso e circulação colateral, análise (localização, direção do fluxo, frêmito e sopro), manobra de esvaziamento venoso (Figura 10.47) e boxe Tipos fundamentais de circulação colateral",
+        "Porto — Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 8 (Parede e Cavidade Abdominais), cap. 94 (Fundamentos de Anatomia e Fisiologia) — divisão topográfica e projeção das vísceras (Figura 94.1); cap. 95 (Exame Clínico) — inspeção, peristaltismo visível, ausculta e silêncio abdominal",
+        "Porto — Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 4 (Intestino Delgado), cap. 79 (Exame Clínico) — Exame do abdome: peristaltismo visível, localização e sentido das ondas na oclusão pilórica, do delgado e dos cólons",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 50 (Inspection of the Abdomen), p. 429-431 — equimose da parede abdominal (sinais de Cullen e de Grey Turner), frequência e patogenia; nódulo de Sister Mary Joseph",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 53 (Auscultation of the Abdomen), p. 457-460 — sopros abdominais em pessoas saudáveis e na hipertensão renovascular (boxe EBM 53.1), atrito hepático, variabilidade e propagação dos ruídos intestinais",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 52 (Abdominal Pain and Tenderness), p. 452-454 — boxe EBM 52.4, sinais de obstrução intestinal (peristaltismo visível, distensão abdominal, ruídos hiperativos)",
+        "Semiologia Clínica, 1ª ed., cap. 14 (Exame físico de abdome e sistema digestório) — divisões do abdome (Figura 1), posicionamento (Figura 2), Tabela 1 (roteiro do exame abdominal), Tabela 2 e Figura 3 (tipos de abdome), tipos de circulação colateral (Figura 4), ausculta (patinhação, borborigmo, ruído metálico) e pontos de referência dos sopros vasculares (Figura 5)"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O abdome inverte a ordem",
+         "texto": "Em todo o resto do exame físico, a sequência é inspeção, palpação, percussão e ausculta. No abdome, a ausculta sobe para o segundo lugar: **inspeciona-se, ausculta-se, e só então se percute e se palpa.**\n\nA razão é mecânica. Percutir e palpar estimulam o peristaltismo. Se a mão vier antes do estetoscópio, o examinador pode acordar um intestino calado e perder exatamente o achado que procurava — a hipoatividade dos ruídos. A regra vale sobretudo para o caso em que ela mais importa: o paciente que talvez esteja em íleo.\n\nHá um segundo motivo, este de conforto. A ausculta é indolor. Começar por ela dá ao paciente alguns minutos de contato manso antes das manobras que podem doer, e ao examinador alguns minutos para observar respiração, expressão facial e tensão da parede antes de tocar em qualquer área suspeita.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "A inspeção do abdome não se faz de relance, e quase nunca de pé ao lado da cama. Abaixe os olhos até a altura do plano da parede: assim se veem abaulamentos, retrações e ondas peristálticas que desaparecem quando se olha de cima para baixo."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como examinar"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Inspeção e ausculta do abdome",
+         "passos": [
+          "Peça ao paciente que esvazie a bexiga antes do exame, sempre que for possível.",
+          "Coloque-o em decúbito dorsal, com a cabeceira baixa até onde a dispneia permitir, braços ao longo do corpo e pernas estendidas e relaxadas.",
+          "Exponha o abdome inteiro, do apêndice xifoide ao púbis, mantendo a genitália coberta; peça o consentimento antes de descobrir.",
+          "Posicione-se à direita do paciente, com as mãos e o estetoscópio aquecidos.",
+          "Inspecione primeiro de frente e depois com o olhar rasante ao plano da parede, buscando forma, simetria, abaulamentos e retrações.",
+          "Percorra a pele: cicatrizes, estrias, lesões, equimoses, ostomias e fístulas; examine a cicatriz umbilical e o padrão venoso da parede.",
+          "Observe a dinâmica por 15 a 20 segundos sem tocar: movimentos respiratórios da parede, pulsações e ondas peristálticas.",
+          "Peça ao paciente que levante a cabeça do travesseiro sem mover o tórax, ou que tussa, para evidenciar diástases e hérnias.",
+          "Ausculte com o diafragma antes de qualquer percussão ou palpação, apoiando o receptor com pressão leve.",
+          "Escute por tempo suficiente para concluir por presença ou ausência de ruídos — alguns segundos não bastam quando se pretende afirmar que não há nenhum.",
+          "Procure sopros sobre o trajeto da aorta, sobre as artérias renais na altura do umbigo e sobre as ilíacas logo abaixo dele."
+         ],
+         "observar": "A parede abdominal precisa estar relaxada para que a inspeção sirva de alguma coisa, e o relaxamento depende mais do examinador do que do paciente. Converse, aqueça as mãos, avise antes de cada etapa. Um abdome contraído por medo esconde tanto quanto um abdome coberto.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Inspeção e ausculta do abdome em 10 passos",
+         "itens": [
+          "Bexiga esvaziada quando possível e consentimento obtido antes da exposição.",
+          "Decúbito dorsal com cabeceira baixa, membros relaxados, abdome exposto do xifoide ao púbis e genitália coberta.",
+          "Examinador à direita do paciente, mãos e estetoscópio aquecidos.",
+          "Inspeção estática: forma, volume, simetria, abaulamentos e retrações, com olhar também rasante ao plano da parede.",
+          "Inspeção da pele: cicatrizes, estrias, equimoses, ostomias, fístulas e cicatriz umbilical.",
+          "Inspeção do padrão venoso, com distinção entre o desenho venoso normal e a circulação colateral.",
+          "Inspeção dinâmica: movimentos respiratórios, pulsações e ondas peristálticas.",
+          "Manobra de esforço (elevar a cabeça ou tossir) para diástase dos retos e hérnias.",
+          "Ausculta feita antes da percussão e da palpação, com registro de ruídos hidroaéreos presentes, aumentados, diminuídos ou ausentes.",
+          "Pesquisa de sopros sobre a aorta, as artérias renais e as ilíacas."
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "O mapa do abdome"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Nove regiões, quatro quadrantes",
+         "texto": "Toda descrição abdominal precisa de um endereço. Existem duas maneiras de dar esse endereço, e ambas são usadas.\n\n**Quatro quadrantes.** Duas linhas imaginárias, uma vertical e outra horizontal, cruzam-se na cicatriz umbilical e dividem o abdome em quadrante superior direito, superior esquerdo, inferior direito e inferior esquerdo. É a divisão rápida, boa para a emergência e para a comunicação com quem não está na beira do leito.\n\n**Nove regiões.** É a divisão preferida em semiologia porque cada região tem, sob si, um conjunto pequeno de vísceras. Duas linhas horizontais e duas verticais a delimitam (Porto): a **linha bicostal**, que une os dois pontos em que as linhas hemiclaviculares cruzam os rebordos costais; a **linha bi-ilíaca**, que une os pontos mais altos das cristas ilíacas; e duas linhas ligeiramente oblíquas que descem do cruzamento da hemiclavicular com o rebordo costal até o tubérculo do púbis.\n\nFicam então três andares. No superior, hipocôndrio direito, epigástrio e hipocôndrio esquerdo. No médio, flanco direito, mesogástrio (ou região umbilical) e flanco esquerdo. No inferior, fossa ilíaca direita, hipogástrio e fossa ilíaca esquerda.\n\nO rebordo costal separa o hipocôndrio do flanco de cada lado — o que significa que **o hipocôndrio está inteiramente coberto pelo gradil costal**, como o próprio nome diz. Quem procura o fígado ou o baço abaixo das costelas está procurando fora da loja normal do órgão.\n"
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <!-- contorno da parede abdominal: rebordos costais, flancos, pregas inguinais -->\n  <path d=\"M 103 28 C 92 40, 74 58, 48 70 L 50 130 C 52 148, 60 166, 82 176 L 124 176 C 146 166, 154 148, 156 130 L 158 70 C 132 58, 114 40, 103 28 Z\" />\n  <!-- linhas horizontais: bicostal e bi-ilíaca -->\n  <path d=\"M 49 76 L 157 76\" stroke-width=\"1.2\" stroke-dasharray=\"5 3\" />\n  <path d=\"M 51 130 L 155 130\" stroke-width=\"1.2\" stroke-dasharray=\"5 3\" />\n  <!-- linhas verticais ligeiramente oblíquas, até os tubérculos púbicos -->\n  <path d=\"M 76 44 L 88 176\" stroke-width=\"1.2\" stroke-dasharray=\"5 3\" />\n  <path d=\"M 130 44 L 118 176\" stroke-width=\"1.2\" stroke-dasharray=\"5 3\" />\n  <!-- cicatriz umbilical -->\n  <circle cx=\"103\" cy=\"103\" r=\"3.5\" stroke-width=\"1.4\" />\n  <!-- números das regiões -->\n  <g font-family=\"sans-serif\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"64\" y=\"71\">1</text>\n    <text x=\"103\" y=\"58\">2</text>\n    <text x=\"142\" y=\"71\">3</text>\n    <text x=\"64\" y=\"107\">4</text>\n    <text x=\"103\" y=\"122\">5</text>\n    <text x=\"142\" y=\"107\">6</text>\n    <text x=\"72\" y=\"154\">7</text>\n    <text x=\"103\" y=\"154\">8</text>\n    <text x=\"134\" y=\"154\">9</text>\n  </g>\n  <!-- legenda -->\n  <g font-family=\"sans-serif\" font-size=\"8\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"170\" y=\"36\">1 hipocôndrio D · fígado</text>\n    <text x=\"170\" y=\"52\">2 epigástrio · estômago</text>\n    <text x=\"170\" y=\"68\">3 hipocôndrio E · baço</text>\n    <text x=\"170\" y=\"84\">4 flanco D · cólon ascendente</text>\n    <text x=\"170\" y=\"100\">5 mesogástrio · delgado</text>\n    <text x=\"170\" y=\"116\">6 flanco E · cólon descendente</text>\n    <text x=\"170\" y=\"132\">7 fossa ilíaca D · ceco</text>\n    <text x=\"170\" y=\"148\">8 hipogástrio · bexiga</text>\n    <text x=\"170\" y=\"164\">9 fossa ilíaca E · sigmoide</text>\n  </g>\n  <!-- lado do paciente -->\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"64\" y=\"192\">direita do paciente</text>\n    <text x=\"142\" y=\"192\">esquerda</text>\n  </g>\n</svg>\n",
+         "legenda": "As nove regiões e a víscera que cada uma anuncia primeiro. O endereço do achado é metade do raciocínio: dor que muda de região ao longo de horas conta uma história diferente da dor que fica onde nasceu."
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "O que se projeta em cada região",
+         "colunas": [
+          "Região",
+          "Principais vísceras projetadas"
+         ],
+         "linhas": [
+          [
+           "Hipocôndrio direito",
+           "Fígado (lobo direito), vesícula biliar, ângulo hepático do cólon"
+          ],
+          [
+           "Epigástrio",
+           "Estômago, duodeno, pâncreas, lobo esquerdo do fígado, aorta abdominal"
+          ],
+          [
+           "Hipocôndrio esquerdo",
+           "Baço, fundo gástrico, cauda do pâncreas, ângulo esplênico do cólon"
+          ],
+          [
+           "Flanco direito",
+           "Cólon ascendente, rim direito"
+          ],
+          [
+           "Mesogástrio (região umbilical)",
+           "Alças do intestino delgado, cólon transverso, aorta e sua bifurcação"
+          ],
+          [
+           "Flanco esquerdo",
+           "Cólon descendente, rim esquerdo"
+          ],
+          [
+           "Fossa ilíaca direita",
+           "Ceco e apêndice, íleo terminal, ureter e anexo direitos"
+          ],
+          [
+           "Hipogástrio",
+           "Bexiga, útero, alças do delgado"
+          ],
+          [
+           "Fossa ilíaca esquerda",
+           "Cólon sigmoide, ureter e anexo esquerdos"
+          ]
+         ]
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Por que a projeção varia tanto",
+         "texto": "As figuras de projeção visceral são uma média, não um gabarito. Porto adverte que essas projeções mudam com a idade, o biotipo, o estado nutricional e a própria posição do paciente — e as vísceras abdominais, exceto as retroperitoneais, deslocam-se com a respiração, com a mudança de postura e com a mão que as palpa.\n\nA pressão intra-abdominal é praticamente igual à atmosférica, e o conteúdo do abdome se comporta como uma massa de densidade próxima à da água: cada órgão fica submetido a uma pressão que quase equilibra o seu peso. É isso que mantém fígado e baço na loja durante o ortostatismo — e é a perda dessa contenção, nas soluções de continuidade da parede, que faz as vísceras aflorarem sob a pele nas hérnias e eventrações.\n\nA consequência prática é modesta e importante: use as nove regiões para **descrever** onde está o achado, e não para **deduzir** de qual órgão ele vem. A dedução exige o achado somado ao restante do exame e à história.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "A forma do abdome"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Tipos de abdome",
+         "colunas": [
+          "Tipo",
+          "O que se vê",
+          "Quando aparece"
+         ],
+         "linhas": [
+          [
+           "Atípico ou plano",
+           "Simétrico e levemente abaulado — a grande faixa do normal",
+           "Pessoa saudável, com amplas variações individuais"
+          ],
+          [
+           "Globoso ou protuberante",
+           "Aumento global, com predomínio do diâmetro anteroposterior",
+           "Obesidade, gravidez avançada, ascite, distensão gasosa, obstrução intestinal, grandes visceromegalias e tumores"
+          ],
+          [
+           "Em ventre de batráquio",
+           "Com o paciente deitado, o diâmetro transversal predomina sobre o anteroposterior",
+           "Ascite em regressão, quando o líquido escorre para os flancos e o centro se aplana"
+          ],
+          [
+           "Pendular ou ptótico",
+           "De pé, as vísceras empurram a parte inferior da parede e formam uma protrusão",
+           "Flacidez de parede no puerpério, pessoas emaciadas"
+          ],
+          [
+           "Em avental",
+           "A parede pende sobre as coxas, mais evidente com o paciente de pé",
+           "Obesidade de grau elevado, por acúmulo de tecido adiposo na parede"
+          ],
+          [
+           "Escavado (escafoide)",
+           "Parede nitidamente retraída",
+           "Emagrecimento acentuado e doenças consuntivas"
+          ]
+         ]
+        },
+        {
+         "tipo": "perola",
+         "texto": "Abdome globoso não é diagnóstico, é pergunta. Ar, líquido, gordura, feto, fezes ou massa: seis respostas possíveis para o mesmo formato — e a percussão, no tópico seguinte, é quem começa a separá-las."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "A pele e a parede"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que ler na superfície",
+         "texto": "**Cicatrizes.** Localização, extensão e forma contam a história cirúrgica que o paciente às vezes não conta. Porto associa: flanco direito à colecistectomia, flanco esquerdo à colectomia, fossa ilíaca direita à apendicectomia ou herniorrafia, fossa ilíaca esquerda à herniorrafia, hipogástrio à histerectomia, linha média à laparotomia, região lombar à nefrectomia. Uma cicatriz abdominal em paciente com dor em cólica e parada de eliminação de gases levanta imediatamente a hipótese de bridas.\n\n**Estrias.** As nacaradas, esbranquiçadas, são antigas; as róseas ou violáceas, recentes.\n\n**Cicatriz umbilical.** Normalmente plana ou levemente retraída. A retificação progressiva acompanha a distensão e a ascite moderada; a protrusão indica hérnia ou grande acúmulo de líquido. Em crianças, a onfalite pode cursar com secreção serosa ou seropurulenta.\n\n**Ostomias e fístulas** entram na descrição pelo nome e pela localização — gastrostomia, ileostomia, colostomia —, com o aspecto do conteúdo e da pele ao redor.\n\n**Padrão venoso.** A pele clara e fina de crianças, idosos e emagrecidos deixa ver uma rede venosa que **não** é circulação colateral. Porto ensina a distinguir: o simples desenho venoso está na topografia normal, é simétrico, discreto, e as veias não são sinuosas. Circulação colateral é outra coisa — vem adiante, no aprofundamento.\n"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Manobra de esforço para diástase e hérnias",
+         "passos": [
+          "Com o paciente em decúbito dorsal, peça que levante a cabeça do travesseiro sem mover o tórax, ou que eleve os dois membros inferiores estendidos.",
+          "Observe a linha média: uma proeminência longitudinal entre os músculos retos, acima ou abaixo do umbigo, é a diástase.",
+          "Deslize a mão por toda a parede procurando áreas de menor resistência e tente insinuar as polpas digitais nesses pontos.",
+          "Diferencie diástase de hérnia: na diástase não há saco herniário nem anel palpável por onde as alças se insinuem.",
+          "Para as hérnias inguinais e crurais, peça que o paciente tussa; se necessário, peça que sopre com força contra a própria mão tapando a boca, o que aumenta a pressão intra-abdominal.",
+          "Inspecione e palpe as regiões umbilical, inguinal e femoral durante o esforço, dos dois lados."
+         ],
+         "observar": "A mesma manobra tem um segundo uso, que reaparece no tópico de palpação: dor da parede aumenta quando os músculos se contraem, e dor da cavidade diminui. Levantar a cabeça é, ao mesmo tempo, um teste de continuidade da parede e um teste de origem da dor.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Os movimentos"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Respiração, pulsações e ondas",
+         "texto": "**Movimentos respiratórios.** No homem, a respiração normalmente é toracoabdominal e o andar superior do abdome acompanha a inspiração. Esses movimentos **cessam** nos processos inflamatórios do peritônio, com a parede rígida; e nas afecções dolorosas do andar superior a respiração se torna puramente torácica. Um abdome imóvel que respira só com o tórax é um achado de inspeção com peso de alarme.\n\n**Pulsações.** Em pessoas magras, pulsações epigástricas costumam ser apenas a aorta abdominal transmitida à parede. Podem também vir de um ventrículo direito hipertrofiado, caso em que a sensação lembra a do ictus. Para levantar a hipótese de aneurisma não basta ver a pulsação: é preciso o que se palpa — massa e alteração da forma do vaso (Porto). A discriminação fina dessa pulsação está no tópico de palpação.\n\n**Peristaltismo visível.** Em pessoas muito magras ou desnutridas, com parede hipotrofiada, ondas peristálticas podem ser vistas sem que haja doença. Ganham valor quando são bem visíveis independentemente da parede, ocorrem com periodicidade constante e vêm acompanhadas de dor em cólica e ruídos hidroaéreos — a tríade que levanta oclusão ou suboclusão.\n\nDois dados orientam a topografia do obstáculo (Porto): **onde** as ondas aparecem e **para onde** vão.\n\n- **Estenose pilórica** — ondas no epigástrio e no mesogástrio, que descem cruzando da esquerda para a direita, com frequência praticamente fixa de três contrações por minuto.\n- **Delgado** — ondas próximas ao umbigo, sem direção preferencial, podendo aparecer mais de uma ao mesmo tempo.\n- **Cólon** — mais bem vistas no transverso quando a obstrução está no ângulo esplênico ou abaixo dele, deslocando-se da direita para a esquerda.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "A ausculta"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Ruídos hidroaéreos",
+         "texto": "Os ruídos hidroaéreos nascem do deslocamento de líquidos e gases no lúmen intestinal. Porto descreve a cadência normal como ruídos de timbre agudo que ocorrem mais ou menos a cada 5 a 10 segundos, de localização variável e aparecimento imprevisível; Semiologia Clínica recomenda auscultar no mínimo 15 a 20 segundos por quadrante.\n\nO que se registra é uma escala de quatro degraus: **presentes e normais, aumentados, diminuídos ou ausentes.**\n\nTrês variantes têm nome próprio (Semiologia Clínica):\n\n- **Borborigmo** — o \"ronco da barriga\", comum em pessoas normais em jejum, pela grande proporção de gás sobre líquido.\n- **Patinhação** — som de palmada em superfície líquida, que sugere estase num estômago sem esvaziamento adequado, como acontece diante de obstáculo no antro ou no piloro.\n- **Ruído metálico** — timbre agudo e ressoante, descrito como um pingar de torneira, que aparece na obstrução incompleta, quando o peristaltismo tenta vencer o obstáculo.\n\nNos extremos: na diarreia e na oclusão mecânica os ruídos se intensificam; no íleo paralítico eles desaparecem, e a esse achado se dá o nome de **silêncio abdominal**. A ausculta é particularmente útil no pós-operatório de cirurgia intraperitoneal, quando o peristaltismo cessa por um período que costuma variar entre 24 e 72 horas — mais prolongado se houver infecção peritoneal ou distúrbio hidreletrolítico.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Afirmar que não há ruídos hidroaéreos é uma afirmação forte, e exige tempo de escuta proporcional. Se você declara silêncio abdominal depois de dez segundos de estetoscópio, o silêncio pode ser seu, não do paciente."
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Sopros abdominais",
+         "texto": "Sopros abdominais são sopros ouvidos sobre o abdome. Como qualquer sopro gerado fora das câmaras cardíacas, podem atravessar os limites das bulhas e se estender da sístole à diástole — e é justamente aí que a informação muda de qualidade.\n\nOnde procurar (Semiologia Clínica): sobre o trajeto da **aorta abdominal**, sobre as **artérias renais** na altura do umbigo, e sobre as **ilíacas comuns** cerca de 1 cm abaixo da cicatriz umbilical.\n\nO ponto que separa o achado banal do achado útil é este: **sopros abdominais existem em pessoas saudáveis.** McGee registra que ocorrem em 4% a 20% das pessoas sadias, mais frequentemente abaixo dos 40 anos. O sopro do indivíduo saudável é sistólico, de tonalidade média a baixa, audível entre o apêndice xifoide e o umbigo, e só raramente se espalha para os lados; a fonte mais comum, em arteriografias, é a artéria celíaca. Os sopros anormais tendem a ser mais intensos longe do epigástrio ou a se estender pela diástole.\n\nAlém dos sopros, Porto lembra que a ausculta abdominal alcança, do quinto mês de gestação em diante, os batimentos cardíacos fetais e, ocasionalmente, um sopro placentário.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Aprofundamento"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Tipos de circulação colateral",
+         "texto": "Circulação colateral é a rede venosa vicariante que se abre quando um tronco venoso principal está obstruído. Ela se analisa por três atributos (Porto): **localização**, **direção do fluxo** e **presença de frêmito ou sopro**.\n\nA direção do fluxo é determinada por uma manobra de esvaziamento. Comprima um segmento venoso com as polpas dos dois indicadores justapostos; afaste os dedos lentamente, mantendo a pressão, até deixar 5 a 10 cm de veia exangue; retire um dos dedos e observe. Se a veia se enche de imediato, o sangue vem do lado que continua comprimido. Repita duas ou três vezes, invertendo o dedo que se retira, antes de concluir.\n\n- **Tipo porta.** O obstáculo está nas veias supra-hepáticas (Budd-Chiari), no fígado (cirrose) ou na veia porta. A rede ocupa as regiões periumbilical e epigástrica e a face anterior do tórax, com fluxo ascendente: o sangue sobe do abdome rumo ao tórax, buscando a cava superior. Quando a rede se concentra ao redor do umbigo e irradia dele como raios de uma roda, chama-se **cabeça de medusa**.\n- **Tipo cava inferior.** O obstáculo está na cava inferior, quase sempre por trombose ou compressão tumoral. A rede ocupa a parte inferior do abdome, a região umbilical, os flancos e a face anterior do tórax, com fluxo abdome-tórax.\n- **Tipo cava superior.** A rede se distribui pela porção superior da face anterior do tórax e, por vezes, também pelo dorso, pelos braços e pelo pescoço, com fluxo toracoabdominal. Acompanha-se de estase jugular bilateral não pulsátil, cianose e edema da porção superior do tronco, do pescoço e da face.\n- **Tipo misto.** Semiologia Clínica descreve a associação dos tipos porta e cava inferior, com ampla rede e sentido ascendente.\n\nUm detalhe que fecha o raciocínio: o único quadro em que se costuma perceber **frêmito ou sopro** sobre a colateral é a recanalização da veia umbilical, na síndrome de Cruveilhier-Baumgarten.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Sinais de Cullen e de Grey-Turner",
+         "descricao": "Equimose da parede abdominal. No sinal de Cullen, ela é periumbilical; no de Grey-Turner, ocupa os flancos.",
+         "significado": "Ambos indicam hemorragia retroperitoneal ou intraperitoneal. São sinais raros: McGee registra frequência inferior a 1% na gravidez ectópica rota e inferior a 3% na pancreatite. Presentes, pesam; ausentes, não excluem nada.",
+         "causas": [
+          "Pancreatite aguda necro-hemorrágica — descrição original de Grey Turner, em 1920, em um paciente com pancreatite hemorrágica",
+          "Gravidez ectópica rota — quadro em que Cullen descreveu o sinal, em 1918",
+          "Ruptura esplênica, hematoma da bainha do reto, úlcera duodenal perfurada",
+          "Hemorragia intra-hepática por tumor, abscesso hepático amebiano, isquemia intestinal",
+          "Ruptura de aneurisma da aorta abdominal e complicações de procedimentos (biopsia hepática percutânea, coronariografia)"
+         ],
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Por onde o sangue chega à pele",
+         "texto": "A coloração dessas equimoses vem do sangue coletado nos planos fasciais subcutâneos, e não da dispersão de hemácias pelos linfáticos, como já se supôs (McGee).\n\nNa pancreatite, a tomografia mostra coleções de sangue retroperitoneal dentro dos planos fasciais atrás do rim, que alcançam o subcutâneo da parede lateral pela borda lateral do músculo quadrado lombar. No sinal de Cullen, o caminho habitual é o **ligamento falciforme**, que se conecta ao retroperitônio pelo omento menor e pelo mesocólon transverso.\n\nHá uma exceção que vale conhecer porque desmonta a explicação única: na gravidez ectópica, a equimose costuma ficar **abaixo** do umbigo, e o ligamento falciforme se insere na parede **acima** dele. Propôs-se que planos fasciais entre o ligamento largo e a parede inferior expliquem esses casos, hipótese que ainda não dá conta das rupturas livres na cavidade, fora do ligamento largo.\n\nUm terceiro achado de inspeção merece o nome: o **nódulo de Sister Mary Joseph**, carcinoma metastático do umbigo, em geral adenocarcinoma de estômago, cólon, ovário ou pâncreas. Apresenta-se como nódulo dérmico ou subcutâneo endurecido e, em cerca de 20% dos pacientes, é a primeira manifestação da neoplasia; a sobrevida média após a descoberta é de 10 a 11 meses (McGee). Seu imitador é o onfálito de queratina e sebo acumulados por higiene insuficiente — que o exame cuidadoso remove.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O ceticismo sobre os ruídos hidroaéreos",
+         "texto": "A ausculta abdominal é ensinada com mais confiança do que os dados sustentam, e McGee explica por quê com dois argumentos.\n\n**Primeiro: a variação normal é enorme.** Uma pessoa saudável pode passar até quatro minutos sem nenhum ruído e, examinada mais tarde, apresentar mais de trinta ruídos por minuto. A atividade normal cicla com períodos de pico a pico que chegam a 50 a 60 minutos — de modo que qualquer conclusão baseada em alguns minutos de escuta analisa uma fatia pequena demais do fenômeno.\n\n**Segundo: o som viaja.** Os ruídos gerados em um ponto do tubo digestivo se propagam por toda a parede abdominal. O que se escuta na fossa ilíaca direita pode ter nascido no estômago — que, aliás, é o maior gerador de ruídos, seguido pelo intestino grosso e depois pelo delgado. Isso torna a prática de auscultar os quatro quadrantes separadamente menos informativa do que parece: um quadrante mais silencioso pode significar apenas que o abdome inteiro está mais quieto naquele instante.\n\nA conclusão não é abandonar a ausculta, e sim calibrar a pergunta. O estetoscópio no abdome responde bem a \"há atividade suficiente para dizer que este intestino não está parado?\" e responde mal a \"onde está a lesão?\".\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Íleo × obstrução mecânica na beira do leito",
+         "colunas": [
+          "Elemento",
+          "Íleo paralítico",
+          "Obstrução mecânica"
+         ],
+         "linhas": [
+          [
+           "Dor",
+           "Contínua, de intensidade variável, sem o caráter em cólica intermitente",
+           "Em cólica, intermitente, acompanhando as contrações de luta"
+          ],
+          [
+           "Ausculta",
+           "Ruídos escassos ou ausentes — silêncio abdominal",
+           "Ruídos intensos e agudos nas fases iniciais, podendo ganhar timbre metálico"
+          ],
+          [
+           "Inspeção",
+           "Distensão, sem ondas de luta",
+           "Relevo de alças e peristaltismo visível nos magros"
+          ],
+          [
+           "Contexto",
+           "Pós-operatório além de 72 h, peritonite, hipopotassemia, isquemia, causas extra-abdominais",
+           "Bridas, hérnias, vólvulo, tumores, fecaloma, intussuscepção"
+          ]
+         ],
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que os números dizem da ausculta e da inspeção",
+         "texto": "As razões de verossimilhança de McGee separam bem o que vale e o que não vale nesses dois tempos do exame.\n\n**Para obstrução intestinal**, em pacientes com dor abdominal aguda:\n\n- **Peristaltismo visível** — razão de verossimilhança 18,8. É o achado mais poderoso de todo o exame do abdome agudo, com a ressalva de que é raro: aparece em apenas 6% dos pacientes com obstrução.\n- **Abdome distendido** — 9,6 quando presente; 0,4 quando ausente. De 30% a 40% dos pacientes com obstrução não têm distensão, sobretudo cedo ou quando o obstáculo é alto.\n- **Ruídos hiperativos** — 5,0.\n- **Ruídos anormais** (hiperativos, diminuídos ou ausentes, tomados em conjunto) — 3,2; ruídos normais reduzem modestamente a probabilidade de obstrução (0,4).\n- **Defesa, rigidez e descompressão dolorosa** — não alteram a probabilidade de obstrução.\n\n**Para hipertensão renovascular**, em pacientes investigados por hipertensão grave e de controle difícil:\n\n- **Sopro sistodiastólico (contínuo)** — razão de verossimilhança 38,9. É praticamente diagnóstico.\n- **Qualquer sopro abdominal**, sem exigir extensão à diástole — 5,6, bem menos convincente, justamente porque sopros sistólicos também ocorrem em quem não tem doença.\n\nUm cuidado de interpretação: o sopro da hipertensão renovascular nem sempre nasce na artéria renal. Em pacientes operados, a ausculta intraoperatória localizou o sopro exclusivamente nas renais em cerca de metade dos casos.\n\n**Para aneurisma da aorta abdominal**, o sopro abdominal não teve valor diagnóstico no estudo disponível. O achado que serve é palpatório, e está no tópico de palpação.\n\nVale ainda registrar o **atrito hepático**: fora do contexto de biopsia recente, associa-se repetidamente a neoplasia intra-hepática, primária ou metastática; em uma série de tumores metastáticos para o fígado, 10% dos pacientes o apresentavam.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde este tópico encontra os outros",
+         "texto": "A inspeção do abdome puxa fios que já foram fiados em outras partes do guia.\n\n- **A caracterização da dor abdominal** — localização, irradiação, tipo, intensidade, duração, periodicidade, ritmicidade (incluindo o ciclo dói–come–passa da úlcera duodenal), fatores de melhora e piora e manifestações concomitantes — pertence ao tópico de queixa principal e história da doença atual. Aqui se examina o abdome; lá se colhe a dor.\n- **A circulação colateral e as estrias** se descrevem com o vocabulário do tópico de pele, mucosas e fâneros, e a manobra de determinação do sentido do fluxo venoso vem do exame físico geral.\n- **Turgência jugular, cianose e edema da metade superior do corpo**, que acompanham a colateral tipo cava superior, estão no tópico de pulso venoso jugular e turgência.\n- **O nódulo supraclavicular de Virchow**, achado extra-abdominal que muda o raciocínio diante de uma neoplasia digestiva, está no tópico de linfonodos, junto com a técnica da fossa supraclavicular.\n- **A ascite** — que o abdome globoso levanta e a inspeção não resolve — se confirma pela percussão, no tópico seguinte.\n- **A respiração puramente torácica**, achado de inspeção abdominal, é a mesma dinâmica descrita no tópico de inspeção do tórax; e a frequência respiratória se conta no tópico de temperatura e frequência respiratória.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Cinco erros que custam achados",
+         "texto": "1. **Palpar antes de auscultar.** A palpação e a percussão estimulam o peristaltismo e podem mascarar a hipoatividade dos ruídos. No abdome, o estetoscópio vem antes das mãos.\n2. **Examinar o abdome parcialmente descoberto.** Cicatriz umbilical, cicatrizes cirúrgicas antigas, hérnias inguinais e o padrão venoso dos flancos ficam justamente nas bordas que o lençol costuma cobrir. Exponha do xifoide ao púbis, com a genitália coberta.\n3. **Chamar de circulação colateral qualquer veia visível.** Em pele clara e fina, o desenho venoso normal é simétrico, discreto, na topografia habitual, com veias não sinuosas. Colateral tem localização anômala, sentido de fluxo alterado e veias tortuosas.\n4. **Concluir doença a partir de um sopro sistólico epigástrico isolado.** Ele ocorre em até um quinto das pessoas saudáveis, sobretudo abaixo dos 40 anos, e costuma vir da artéria celíaca. O que muda o raciocínio é o sopro contínuo ou o sopro longe da linha média.\n5. **Registrar \"ruídos hidroaéreos presentes\" como fórmula.** Registre o degrau observado — presentes, aumentados, diminuídos ou ausentes — e escute tempo suficiente para sustentar o que escreveu.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Um abdome que não se move com a respiração e um paciente que respira só com o tórax dizem, antes de qualquer manobra, que a parede está defendendo alguma coisa. Esse achado se colhe com os olhos, de graça, e vale mais do que a maioria dos sinais que exigem mãos."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "insp-abd-1",
+           "enunciado": "Por que, no exame do abdome, a ausculta é feita antes da percussão e da palpação?",
+           "alternativas": [
+            "Porque o contato do estetoscópio esfria a parede abdominal, o que reduz a contração voluntária da musculatura",
+            "Porque a ausculta é o método mais sensível para detectar visceromegalias",
+            "Porque percutir e palpar estimulam o peristaltismo e podem encobrir ruídos diminuídos",
+            "Porque a percussão desloca gás para os flancos e cria falsos sopros"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "A percussão e a palpação estimulam o peristaltismo. Auscultar depois delas pode transformar um intestino hipoativo em um intestino aparentemente normal — perdendo justamente o achado que interessa em quem se suspeita de íleo. Há ainda a vantagem de começar por um método indolor, o que ajuda no relaxamento da parede."
+          },
+          {
+           "id": "insp-abd-2",
+           "enunciado": "Um homem de 62 anos com dor abdominal em cólica e vômitos tem, à inspeção, ondas peristálticas nitidamente visíveis. Como esse achado se comporta como teste diagnóstico para obstrução intestinal?",
+           "alternativas": [
+            "Eleva muito a probabilidade de obstrução (razão de verossimilhança 18,8), mas é raro — só cerca de 6% dos pacientes com obstrução o apresentam",
+            "É um achado sensível e pouco específico, útil para excluir obstrução quando ausente",
+            "Não altera a probabilidade de obstrução, por ocorrer com a mesma frequência em pessoas saudáveis magras",
+            "Indica especificamente obstrução do intestino grosso, pois o delgado não produz ondas visíveis"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "Peristaltismo visível é o achado de maior poder no exame do abdome agudo, com razão de verossimilhança 18,8 para obstrução intestinal, mas com sensibilidade de apenas 6%: sua ausência não tranquiliza. Ondas visíveis podem aparecer em pessoas muito magras sem doença, e ganham valor quando são constantes e vêm com dor em cólica e ruídos aumentados. A localização e o sentido das ondas ajudam a situar o obstáculo, mas nenhum segmento tem exclusividade sobre o achado."
+          },
+          {
+           "id": "insp-abd-3",
+           "enunciado": "Uma paciente com cirrose apresenta rede venosa periumbilical intensa, com veias sinuosas irradiando do umbigo, e fluxo dirigido de baixo para cima. Que tipo de circulação colateral é esse e o que ele indica?",
+           "alternativas": [
+            "Tipo cava superior, por obstáculo mediastinal, em que a rede ocupa a metade superior do tórax e o fluxo é toracoabdominal",
+            "Tipo braquicefálico, por compressão do tronco venoso braquicefálico",
+            "Apenas desenho venoso, achado comum em pessoas de pele clara e fina",
+            "Tipo porta, no padrão em cabeça de medusa, por obstáculo no fígado, na porta ou nas supra-hepáticas"
+           ],
+           "corretaIndex": 3,
+           "explicacao": "A colateral tipo porta ocupa as regiões periumbilical e epigástrica e a face anterior do tórax, com fluxo do abdome para o tórax, em busca da cava superior; quando a rede irradia do umbigo como raios de uma roda, chama-se cabeça de medusa. O obstáculo está nas supra-hepáticas, no fígado ou na porta. O desenho venoso normal é simétrico, discreto, na topografia habitual e com veias não sinuosas — o oposto do descrito. Na colateral tipo cava superior, a rede fica na metade superior do tórax, com fluxo toracoabdominal."
+          },
+          {
+           "id": "insp-abd-4",
+           "enunciado": "Ao auscultar o epigástrio de um universitário de 22 anos assintomático, você ouve um sopro sistólico de tonalidade média, que não se irradia para os lados. Qual é a interpretação correta?",
+           "alternativas": [
+            "Achado que exige investigação imediata de aneurisma da aorta abdominal",
+            "Achado que ocorre em pessoas saudáveis, sobretudo abaixo dos 40 anos, e costuma vir da artéria celíaca",
+            "Achado que praticamente firma o diagnóstico de hipertensão renovascular",
+            "Achado sempre patológico, pois o abdome normal não gera sopros audíveis entre o apêndice xifoide e a cicatriz umbilical"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Sopros abdominais ocorrem em 4% a 20% das pessoas saudáveis, com predomínio abaixo dos 40 anos. O sopro do indivíduo sadio é sistólico, de tonalidade média a baixa, audível entre o apêndice xifoide e o umbigo, e raramente se espalha para os lados; em arteriografias, a fonte mais comum é a artéria celíaca. O achado que praticamente firma hipertensão renovascular é o sopro que se estende à diástole, e o sopro abdominal não se mostrou útil para aneurisma da aorta."
+          },
+          {
+           "id": "insp-abd-5",
+           "enunciado": "Que manobra de inspeção separa uma diástase dos músculos retos abdominais de uma hérnia da parede, e em que se baseia essa separação?",
+           "alternativas": [
+            "Pedir que o paciente levante a cabeça: na diástase surge proeminência longitudinal na linha média, sem saco herniário nem anel",
+            "Percutir a proeminência: a diástase é timpânica e a hérnia é maciça",
+            "Comprimir a proeminência com o paciente de pé: a hérnia é redutível e reaparece ao esforço, enquanto a diástase permanece inalterada em qualquer posição",
+            "Auscultar a proeminência: na hérnia ouvem-se ruídos hidroaéreos e na diástase não"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "Com o paciente em decúbito dorsal, pede-se que levante a cabeça sem mover o tórax ou que eleve os membros inferiores estendidos: a contração da parede faz surgir, na diástase, uma proeminência longitudinal entre os retos, acima ou abaixo do umbigo. A diferença de fundo é anatômica — a diástase é o afastamento dos músculos, sem saco herniário nem anel por onde as alças se insinuem. Para hérnias inguinais e crurais, acrescenta-se a tosse ou o esforço expiratório contra a mão."
+          },
+          {
+           "id": "insp-abd-6",
+           "enunciado": "Um paciente no quinto dia de pós-operatório de laparotomia mantém distensão abdominal, dor contínua e ausência de ruídos hidroaéreos. Como se chama esse achado da ausculta e o que ele sugere neste contexto?",
+           "alternativas": [
+            "Ruído metálico, sugerindo obstrução incompleta por bridas precoces, que costumam aparecer já nos primeiros dias após a laparotomia",
+            "Patinhação, sugerindo estase gástrica por obstrução do antro",
+            "Borborigmo, achado fisiológico do jejum prolongado",
+            "Silêncio abdominal, sugerindo íleo paralítico além do período fisiológico de 24 a 72 horas"
+           ],
+           "corretaIndex": 3,
+           "explicacao": "O desaparecimento dos ruídos hidroaéreos é o silêncio abdominal, característico do íleo paralítico. Após cirurgia abdominal há inibição fisiológica do peristaltismo por um período que costuma variar entre 24 e 72 horas; persistindo além disso, deve-se investigar íleo patológico — infecção peritoneal, distúrbio hidreletrolítico, isquemia. O ruído metálico aparece na obstrução incompleta, a patinhação denuncia líquido em estômago que se esvazia mal, e o borborigmo é o ronco comum do jejum."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "abdome/exame-do-abdome/percussao-do-abdome",
+       "titulo": "Percussão do abdome",
+       "sistemaId": "abdome",
+       "capituloId": "exame-do-abdome",
+       "ordem": 2,
+       "tags": [
+        "percussão do abdome",
+        "exame do abdome",
+        "abdome",
+        "timpanismo abdominal",
+        "hipertimpanismo",
+        "macicez abdominal",
+        "submacicez",
+        "macicez circunscrita",
+        "hepatimetria",
+        "macicez hepática",
+        "limite superior do fígado",
+        "borda inferior do fígado",
+        "linha hemiclavicular",
+        "linha esternal média",
+        "ptose hepática",
+        "espaço de Traube",
+        "Traube livre",
+        "Traube ocupado",
+        "percussão esplênica",
+        "sinal da percussão esplênica",
+        "Castell",
+        "método de Nixon",
+        "esplenomegalia",
+        "ascite",
+        "macicez móvel",
+        "macicez de decúbito",
+        "semicírculo de Skoda",
+        "sinal do piparote",
+        "onda líquida",
+        "manobra da onda líquida",
+        "flancos abaulados",
+        "cisto de ovário",
+        "pseudoascite",
+        "sinal de Jobert",
+        "pneumoperitônio",
+        "interposição do cólon",
+        "bexigoma",
+        "razão de verossimilhança",
+        "estação OSCE"
+       ],
+       "referencias": [
+        "Porto — Exame Clínico, 8ª ed., cap. 17 (Exame do Abdome) — Percussão: tipos de som no abdome; determinação do limite superior do fígado e da área de macicez hepática; boxe Sinal de Jobert; pesquisa de ascite de grande, médio e pequeno volume (Figuras 17.17 a 17.20), boxe dos semicírculos de Skoda; avaliação da sonoridade do abdome; Roteiro pedagógico para exame do abdome",
+        "Porto — Exame Clínico, 8ª ed., cap. 5 (Técnicas Básicas do Exame Físico) — percussão por piparote (Figura 5.20) e percussão digitodigital",
+        "Porto — Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 8 (Parede e Cavidade Abdominais), cap. 95 (Exame Clínico) — percussão do abdome, limites do fígado, macicez circunscrita e comportamento da percussão na ascite e nos cistos de ovário",
+        "Porto — Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 7 (Fígado e Vias Biliares), cap. 91 (Exame Clínico) — percussão hepática: limite superior, borda inferior e determinação do tamanho do fígado; cap. 93 (Doenças do Fígado e das Vias Biliares) — Ascite: volumes grande, médio e pequeno, percussão por piparote (Figura 93.5), pesquisa de macicez móvel (Figura 93.6), ascites septadas e diferenciação com neoplasia de ovário",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 51 (Palpation and Percussion of the Abdomen), p. 433-444 — hepatimetria percutida e suas fontes de erro; boxe EBM 51.1 (detecção de fígado e baço aumentados); sinais percutórios do baço (sinal da percussão esplênica de Castell, método de Nixon, macicez do espaço de Traube); ascite: achados, patogenia (experimentos de Müller), volume necessário e boxe EBM 51.4; percussão suprapúbica e volume vesical",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 29 (Palpation and Percussion of the Chest), p. 252-259 — influência da força do golpe sobre a nota percutida",
+        "Semiologia Clínica, 1ª ed., cap. 14 (Exame físico de abdome e sistema digestório) — Percussão: pontos de referência (Figura 6), hepatimetria normal (Figura 7), percussão esplênica (Figura 8), espaço de Traube (Figura 9), pesquisa de ascite (macicez móvel, semicírculo de Skoda e sinal do piparote, Figura 11) e causas mais frequentes de ascite"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Dois sons e uma pergunta",
+         "texto": "O abdome tem apenas dois sons de trabalho, e a percussão pergunta o tempo todo qual deles está onde não deveria.\n\n**Timpanismo** é o som do ar dentro de víscera oca. É o som da maior parte do abdome normal, e fica mais nítido sobre a projeção do fundo gástrico. Quando a quantidade de gás aumenta — meteorismo, obstrução, pneumoperitônio, dilatação gástrica —, fala-se em **hipertimpanismo**.\n\n**Macicez** é o som da ausência de ar: a projeção do fígado, a do baço, o útero gravídico, e também líquido ou massa sólida onde antes havia alça cheia de gás. Entre os dois extremos, a **submacicez** aparece quando há menos ar ou quando uma víscera maciça se sobrepõe a uma alça.\n\nA partir daí, três tarefas concretas (Porto): delimitar o **limite superior do fígado e a área de macicez hepática**, **pesquisar ascite** e **avaliar a sonoridade geral** do abdome, comparando áreas homólogas.\n\nA técnica do golpe é a mesma da percussão dígito-digital descrita no tópico de percussão do tórax, com uma diferença de dose: no abdome o golpe é mais leve, porque a parede é mais complacente e as vísceras estão mais próximas.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Macicez circunscrita é um achado que muda a conduta: onde havia alça com gás, agora há algo. Massa inflamatória, tumor, bexiga cheia, útero — a percussão não diz qual, mas diz que existe, e diz onde."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como examinar"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Percussão sistemática do abdome",
+         "passos": [
+          "Paciente em decúbito dorsal, abdome exposto, examinador à direita; percuta depois de já ter auscultado.",
+          "Use o golpe dígito-digital, mais leve do que no tórax: dois golpes secos por ponto, com o plexor retirado logo após o segundo.",
+          "Percorra as nove regiões em ordem fixa, comparando sempre áreas homólogas dos dois lados.",
+          "Delimite o limite superior do fígado percutindo o hemitórax direito de cima para baixo, pela linha hemiclavicular, até que a sonoridade pulmonar ceda à submacicez.",
+          "Desvie a percussão para fora ao chegar às últimas cartilagens costais: sobre o plastrão não é possível contar espaços intercostais.",
+          "Contorne daí a área de macicez hepática, percutindo para dentro, para baixo e para fora.",
+          "Percuta o rebordo costal esquerdo pela linha axilar anterior para avaliar o espaço de Traube e a área esplênica.",
+          "Se o abdome estiver globoso ou houver relato de aumento de volume, pesquise ascite pelas três manobras — macicez móvel, semicírculo de Skoda e piparote.",
+          "Percuta o hipogástrio antes de concluir por massa: bexiga cheia produz macicez suprapúbica e desaparece após a micção.",
+          "Deixe por último qualquer região referida como dolorosa e use nela a força mínima necessária."
+         ],
+         "observar": "A percussão do abdome é barulhenta e inesperada para quem nunca foi examinado. Avise antes, comece leve e observe a face do paciente: dor à percussão leve é, por si só, um sinal — e reaparece com nome próprio no tópico de abdome agudo.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Percussão do abdome em 10 passos",
+         "itens": [
+          "Paciente em decúbito dorsal, abdome exposto, percussão feita após a ausculta.",
+          "Golpe dígito-digital leve, com dois golpes por ponto e retirada imediata do plexor.",
+          "Percussão das nove regiões em ordem fixa, com comparação de áreas homólogas.",
+          "Limite superior do fígado delimitado pela linha hemiclavicular direita, do som claro pulmonar até a submacicez.",
+          "Área de macicez hepática contornada e hepatimetria registrada em centímetros.",
+          "Percussão do epigástrio e da linha esternal média, pela possibilidade de aumento do lobo esquerdo.",
+          "Espaço de Traube percutido pela linha axilar anterior esquerda e registrado como livre ou ocupado.",
+          "Pesquisa de ascite quando houver abdome globoso: macicez móvel, semicírculo de Skoda e piparote.",
+          "Percussão do hipogástrio, com atenção à bexiga cheia como causa de macicez.",
+          "Regiões dolorosas percutidas por último, com a força mínima necessária."
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Hepatimetria"
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <!-- tronco: gradil costal inferior e andar superior do abdome -->\n  <path d=\"M 44 24 C 40 60, 42 96, 52 132 L 52 172\" stroke-width=\"2\" />\n  <path d=\"M 176 24 C 180 60, 178 96, 168 132 L 168 172\" stroke-width=\"2\" />\n  <!-- esterno e apêndice xifoide -->\n  <path d=\"M 104 30 L 116 30 L 116 84 L 110 96 L 104 84 Z\" stroke-width=\"1.2\" />\n  <!-- rebordos costais -->\n  <path d=\"M 110 96 C 94 106, 72 116, 50 122\" stroke-width=\"1.4\" />\n  <path d=\"M 110 96 C 126 106, 148 116, 170 122\" stroke-width=\"1.4\" />\n  <!-- linha hemiclavicular direita -->\n  <path d=\"M 74 26 L 74 166\" stroke-width=\"1.1\" stroke-dasharray=\"4 4\" />\n  <!-- limite superior da macicez hepática -->\n  <path d=\"M 60 70 L 92 70\" stroke-width=\"1.6\" />\n  <!-- borda inferior do fígado -->\n  <path d=\"M 60 128 L 92 128\" stroke-width=\"1.6\" />\n  <!-- seta dupla da hepatimetria -->\n  <path d=\"M 82 74 L 82 124\" stroke-width=\"1.4\" />\n  <path d=\"M 78 79 L 82 73 L 86 79\" stroke-width=\"1.4\" />\n  <path d=\"M 78 119 L 82 125 L 86 119\" stroke-width=\"1.4\" />\n  <!-- espaço de Traube: triângulo timpânico sobre o fundo gástrico -->\n  <path d=\"M 124 92 L 166 102 L 142 116 Z\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\" />\n  <!-- marcadores -->\n  <g font-family=\"sans-serif\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"58\" y=\"66\">1</text>\n    <text x=\"60\" y=\"142\">2</text>\n    <text x=\"95\" y=\"88\">3</text>\n    <text x=\"144\" y=\"106\">4</text>\n  </g>\n  <!-- legenda -->\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"192\" y=\"52\">1 limite superior</text>\n    <text x=\"200\" y=\"65\">5º–6º espaço intercostal</text>\n    <text x=\"192\" y=\"86\">2 borda inferior</text>\n    <text x=\"200\" y=\"99\">palpação, junto ao rebordo</text>\n    <text x=\"192\" y=\"120\">3 hepatimetria</text>\n    <text x=\"200\" y=\"133\">medida na hemiclavicular</text>\n    <text x=\"192\" y=\"154\">4 espaço de Traube</text>\n    <text x=\"200\" y=\"167\">timpânico quando livre</text>\n  </g>\n  <!-- lado do paciente -->\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"70\" y=\"190\">direita do paciente</text>\n    <text x=\"148\" y=\"190\">esquerda</text>\n  </g>\n</svg>\n",
+         "legenda": "A hepatimetria é a distância entre dois pontos: o limite superior, achado pela percussão sobre o tórax, e a borda inferior, alcançada pela palpação. Nenhum dos dois é encontrado no abdome propriamente dito — por isso o exame do fígado começa acima do rebordo costal."
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O limite superior",
+         "texto": "O limite superior do fígado é percutido, não palpado, e é encontrado **sobre o tórax**. Percute-se o hemitórax direito pela linha hemiclavicular, de cima para baixo, a partir da clavícula. Ao chegar às últimas cartilagens costais, desvia-se a percussão para fora, porque sobre o plastrão condrocostal não se contam espaços intercostais (Porto).\n\nO ponto em que o som claro pulmonar cede à submacicez marca o limite superior. Em condições normais, **Porto (Exame Clínico) o situa no 5º ou 6º espaço intercostal direito**.\n\nVale reconciliar esse número com o que foi ensinado no tópico de percussão do tórax, onde a sonoridade pulmonar na face anterior direita vai **até a altura da 6ª ou 7ª costela (Porto, Semiologia Médica)**. Os dois enunciados descrevem o mesmo nível. Cada espaço intercostal fica entre a costela de mesmo número e a seguinte — o 5º espaço, entre a 5ª e a 6ª costela —, de modo que uma transição encontrada no 5º espaço se dá na altura da 6ª costela, e uma transição no 6º espaço, na altura da 7ª. Não são limites diferentes; são duas maneiras de nomear a mesma linha.\n\nUm limite superior **abaixo** do 5º ou 6º espaço intercostal não significa fígado grande: significa ptose hepática ou redução do volume do órgão (Porto). É por isso que a percussão do limite superior é insubstituível nas cirroses, em que o fígado pode estar pequeno e ainda assim palpável.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A borda inferior e a medida",
+         "texto": "A borda inferior é determinada pela palpação — e, quando a palpação falha, pela percussão suave de baixo para cima, do abdome em direção ao rebordo, até encontrar a macicez.\n\nOnde ela normalmente está, as fontes divergem, e a diferença é pequena mas real:\n\n- **Porto (Exame Clínico)**: em adultos, a borda inferior não deve ultrapassar **1 cm** do rebordo costal na linha hemiclavicular direita; em crianças, pode estar 2 a 3 cm abaixo.\n- **Semiologia Clínica** dá outro número para o mesmo limite: \"o fígado não costuma ultrapassar 2 cm do rebordo costal direito\".\n\nHá uma armadilha anatômica que as duas fontes evitam do mesmo jeito: **no epigástrio a borda se afasta do rebordo** e chega a ficar 3 a 5 cm abaixo do vértice do ângulo de Charpy, até alcançar o rebordo costal esquerdo (Porto). Palpar o fígado a três dedos do apêndice xifoide e chamar isso de hepatomegalia é um erro clássico.\n\nA medida propriamente dita — a **hepatimetria** — é a distância entre o limite superior e a borda inferior, tomada na linha hemiclavicular direita e registrada em centímetros. Semiologia Clínica dá a faixa normal de **6 a 12 cm na linha hemiclavicular e de 4 a 8 cm na linha esternal média**, e recomenda percutir também a partir do apêndice xifoide, porque o lobo esquerdo pode crescer isoladamente, como na forma hepatoesplênica da esquistossomose.\n\nDuas convenções de registro fecham a técnica. A primeira: meça em centímetros, com fita, e não em dedos transversos, porque a largura dos dedos varia de examinador para examinador (Porto). A segunda: descreva o achado com os dois pontos de referência, e não apenas com um número solto.\n"
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Por que a hepatimetria é um índice, e não uma medida",
+         "texto": "Desde que Piorry introduziu a percussão topográfica, em 1828, mede-se o fígado percutindo. Depois da radiografia ficou claro que a estimativa quase nunca coincide com o tamanho real, e a maioria dos clínicos passou a tratar a hepatimetria percutida como **índice de tamanho**, não como medida (McGee).\n\nOs dados explicam a mudança de estatuto.\n\n- O examinador tende a **subestimar** o tamanho: coloca o limite superior baixo demais (2 a 5 cm) e a borda inferior alta demais (mais de 2 cm em cerca de metade dos pacientes).\n- A correlação com o tamanho medido por ultrassonografia ou cintilografia é apenas modesta, com coeficientes de 0,6 a 0,7 — e é melhor em fígados doentes do que em fígados saudáveis.\n- A medida depende fortemente da técnica: **quanto mais forte o golpe, menor a hepatimetria obtida** e maior o erro. Isso explica por que as estimativas publicadas de \"hepatimetria normal\" variam de 6 a 15 cm, e por que examinadores experientes que avaliam o mesmo paciente diferem, em média, em 8 cm.\n- Confrontada com a imagem, a percussão padronizada **não** conseguiu detectar hepatomegalia de forma acurada: a hepatimetria de 10 cm ou mais na linha hemiclavicular teve razão de verossimilhança não significativa.\n\nComo referência externa, McGee registra que o limite normal superior da dimensão craniocaudal do fígado à ultrassonografia, da borda inferior na hemiclavicular até a margem com o pulmão, é de 13 cm.\n\nA leitura prática: a percussão hepática continua indispensável para **situar** o órgão — antes da palpação, antes de uma punção-biopsia, e para reconhecer o fígado pequeno da cirrose. Ela não é, porém, uma régua. Registre a hepatimetria como estimativa e não construa diagnóstico de hepatomegalia sobre ela sozinha.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "O espaço de Traube e o baço"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Traube livre, Traube ocupado",
+         "texto": "O espaço de Traube é a área normalmente timpânica sobre o fundo do estômago, na base da face anterior do hemitórax esquerdo. **Seus limites e seu papel no exame do tórax já foram descritos no tópico de percussão do tórax**; aqui interessa a leitura abdominal.\n\nSemiologia Clínica descreve a zona como semilunar, com cerca de 12 cm de largura por 9 cm de altura, projetada da 6ª à 9ª ou 10ª costela. A expressão de enfermaria \"**Traube livre**\" significa que a percussão obteve o timpanismo esperado, isto é, que o espaço não está ocupado. \"**Traube ocupado**\" é a macicez ou submacicez ali onde deveria haver timpanismo.\n\nO que ocupa Traube? Em primeiro lugar o baço, que se expande no sentido descendente e da esquerda para a direita e, ao aumentar, começa por invadir esse espaço — daí a regra de Porto de que **todo baço aumentado é percutível, mas nem todo baço aumentado é palpável**, e de que não se deve confiar apenas na palpação. Mas a lista não para no baço: Semiologia Clínica inclui as cardiomegalias, o aumento do lobo esquerdo do fígado e os derrames pleurais entre as causas de macicez do espaço.\n\nE há dois fatores banais que estragam o achado: a macicez do Traube perde acurácia em pessoas com sobrepeso e em quem acabou de comer (McGee). Um estômago cheio é um Traube maciço sem doença nenhuma.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Ascite"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que a percussão procura na ascite",
+         "texto": "Toda a pesquisa de ascite pela percussão repousa em um único fato físico: com o paciente em decúbito dorsal, o líquido peritoneal escorre para as partes mais baixas — os flancos e as goteiras parietocólicas — enquanto as alças cheias de ar **flutuam** e ocupam a região periumbilical.\n\nDaí o padrão que se procura: **macicez nos flancos, timpanismo no centro**. E daí a manobra que confirma: mudar o paciente de posição e ver a fronteira entre os dois sons **mudar de lugar**.\n\nA escolha da manobra depende do volume estimado (Porto):\n\n- **Grande volume** (em geral acima de 1.500 mℓ) — abdome globoso que não se modifica com as posições, cicatriz umbilical plana ou protrusa, e sinal do piparote positivo.\n- **Médio volume** — o piparote é negativo com o paciente deitado, porque o líquido se acumula nos flancos; a manobra é a pesquisa de macicez móvel. De pé, o piparote pode reaparecer no baixo ventre.\n- **Pequeno volume** (menos de 500 mℓ) — o reconhecimento é difícil; a técnica é percutir e fazer o piparote no baixo ventre com o paciente de pé e a bexiga vazia. Porto e Semiologia Clínica concordam que, aqui, o método que resolve é a ultrassonografia.\n\nUm alerta que evita erro grosseiro: quando há **cisto de ovário**, a área de macicez permanece a mesma em todos os decúbitos, o continente tem limites precisos, e o abdome pode ser bastante volumoso. E nas **ascites septadas ou multiloculadas** — a tuberculosa é o exemplo típico — o líquido está represado em lojas e não se desloca, de modo que o piparote pode ser duvidoso ou ausente.\n"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Pesquisa de macicez móvel",
+         "passos": [
+          "Com o paciente em decúbito dorsal, percuta todo o abdome a partir do ponto mais alto da parede em direção aos flancos.",
+          "Registre o padrão inicial: macicez nos flancos e timpanismo na região central levantam a suspeita.",
+          "Coloque o paciente em decúbito lateral direito, aguarde alguns segundos para o líquido se acomodar e percuta novamente todo o abdome.",
+          "Na ascite, a percussão inverte: timpanismo no flanco esquerdo, que ficou por cima, e macicez no lado que ficou por baixo.",
+          "Repita no decúbito lateral esquerdo e confirme que o resultado se inverte outra vez.",
+          "Exija que a fronteira entre timpanismo e macicez se mantenha horizontal em cada posição."
+         ],
+         "observar": "A manobra depende de dar tempo ao líquido. Percutir imediatamente após virar o paciente é a causa mais comum de macicez móvel falsamente negativa. Espere; o líquido não é rápido.\n"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Sinal do piparote e semicírculo de Skoda",
+         "passos": [
+          "Piparote — com o paciente em decúbito dorsal, peça a ele ou a um auxiliar que apoie a borda cubital de uma das mãos sobre a linha média do abdome, com pressão leve.",
+          "Essa mão intermediária é o que impede que o impulso seja transmitido pelo tecido subcutâneo da parede, o que geraria resposta falsamente positiva.",
+          "Posicione-se à direita e apoie a mão esquerda espalmada sobre o flanco esquerdo do paciente.",
+          "Com a mão direita, golpeie com o dedo médio ou o indicador a face lateral do hemiabdome direito.",
+          "O sinal é positivo quando a mão apoiada capta o choque das ondas líquidas atravessando a cavidade.",
+          "Skoda — com o paciente em decúbito dorsal, percuta a partir do ponto mais alto do abdome, radialmente, em direção aos flancos e à sínfise púbica.",
+          "Marque, em cada raio, o ponto em que o som passa de timpânico a submaciço e depois a maciço.",
+          "Una os pontos de transição: na ascite eles desenham uma linha semicircular com a concavidade voltada para cima, para o epigástrio."
+         ],
+         "observar": "O semicírculo de Skoda é também um teste de diagnóstico diferencial: na ascite a concavidade olha para cima; no cisto gigante de ovário, a concavidade se volta para o púbis (Semiologia Clínica). Duas curvas opostas, dois raciocínios opostos.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "No piparote, a mão do auxiliar não é detalhe de etiqueta: sem ela, a onda que você sente pode ter viajado pela gordura da parede, e não pelo líquido da cavidade. Piparote sem mão intermediária é uma manobra que responde sim com facilidade demais."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Aprofundamento"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "O que cada achado vale na ascite (McGee)",
+         "colunas": [
+          "Achado",
+          "Razão de verossimilhança se presente",
+          "Razão de verossimilhança se ausente"
+         ],
+         "linhas": [
+          [
+           "Sinal do piparote (onda líquida)",
+           "5,0",
+           "0,5"
+          ],
+          [
+           "Edema",
+           "3,8",
+           "0,2"
+          ],
+          [
+           "Macicez móvel",
+           "2,3",
+           "0,4"
+          ],
+          [
+           "Flancos abaulados",
+           "1,9",
+           "0,4"
+          ],
+          [
+           "Macicez de flancos",
+           "não significativa",
+           "0,3"
+          ]
+         ],
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Lendo a tabela da ascite",
+         "texto": "Os números de McGee foram obtidos em pacientes com aumento do volume abdominal, tendo o líquido peritoneal à ultrassonografia como padrão. Eles reorganizam a hierarquia das manobras de um jeito que a tradição não anteciparia.\n\n**Para confirmar**, dois achados se destacam: o **piparote positivo** (razão de verossimilhança 5,0) e a **presença de edema** (3,8). A macicez móvel eleva a probabilidade apenas modestamente (2,3).\n\n**Para afastar**, os melhores achados são a **ausência de edema** (0,2) e o **timpanismo dos flancos**, isto é, a ausência de macicez de flancos (0,3). A ausência de macicez móvel reduz pouco (0,4), e o piparote negativo reduz ainda menos (0,5).\n\nPouco úteis: a macicez de flancos quando presente, os flancos abaulados quando presentes e o piparote quando negativo. O umbigo plano ou evertido também não ajudou em um dos estudos. Já a percussão auscultatória do paciente em pronação — o chamado sinal da poça — foi formalmente testada e mostrou-se sem utilidade diagnóstica.\n\nUm achado surpreende os estudantes e merece registro: **o edema periférico é dos elementos mais informativos da lista**, nos dois sentidos. A maioria dos pacientes com ascite tem edema, seja pela hipoalbuminemia, seja pelo peso do líquido peritoneal comprimindo as veias que drenam as pernas. A semiotécnica do edema e sua graduação em cruzes estão no tópico de pulso venoso jugular e turgência.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Quanto líquido é preciso para que a percussão perceba",
+         "texto": "Há um século, Müller injetou líquido na cavidade peritoneal de cadáveres para descobrir o limiar do exame físico. O resultado, citado por McGee: **1.000 mℓ passaram despercebidos** à macicez de flancos e à macicez móvel; **1.500 mℓ** produziram alguma macicez de flancos; e **2.000 mℓ** foi o menor volume capaz de gerar macicez móvel.\n\nA parede abdominal viva é mais elástica que a do cadáver, e é provável que o examinador cuidadoso detecte volumes menores — mas um pequeno estudo em voluntários saudáveis ainda exigiu **500 a 1.100 mℓ** para que a macicez móvel aparecesse. Semiologia Clínica situa o sinal do piparote como próprio das grandes ascites, em geral positivo a partir de cerca de 3 ℓ, e por isso o considera o mais específico dos três.\n\nHá também um falso-positivo com nome antigo: acúmulo de líquido **dentro** das alças colônicas produz macicez de flancos e macicez móvel sem que haja líquido livre. Antes da imagem, chamava-se isso de **pseudoascite**, e ocorria tipicamente em pacientes com quadros diarreicos.\n\nDuas consequências práticas. Primeira: um exame físico negativo não exclui ascite de pequeno volume — em caso de dúvida, escreva \"ascite questionável\" e peça a ultrassonografia, como recomenda Porto. Segunda: no acompanhamento diário do paciente ascítico, o que se registra não é a manobra, e sim a **medida da circunferência abdominal na altura do umbigo, o peso na mesma balança e o volume urinário de 24 horas**, sempre no mesmo horário.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Percussão do baço, e até onde ela chega",
+         "texto": "Três sinais percutórios do baço circulam na literatura, e McGee os descreve lado a lado.\n\n- **Sinal da percussão esplênica**, descrito por Castell em 1967 em pacientes com mononucleose infecciosa. Percute-se o último espaço intercostal esquerdo na linha axilar anterior, em geral o oitavo ou o nono. O sinal é positivo quando a nota, habitualmente sonora, torna-se maciça na inspiração profunda. Investigadores posteriores passaram a considerar positiva qualquer macicez nesse ponto, tanto na inspiração quanto na expiração.\n- **Método de Nixon**, descrito em 1954. Paciente em decúbito lateral direito; percute-se do limite inferior da sonoridade pulmonar na linha axilar posterior, obliquamente para baixo, até o rebordo costal anterior. É positivo quando a fronteira de macicez ao longo dessa linha fica a mais de 8 cm do rebordo costal.\n- **Macicez do espaço de Traube.** Traube propôs a macicez desse espaço como sinal de derrame pleural; foi Parrino, em 1987, quem sugeriu lê-la como sinal de aumento do baço.\n\nE o desempenho? Os três são **claramente inferiores à palpação**: razões de verossimilhança positivas de 1,7 (Castell), 2,0 (Nixon) e 2,1 (Traube), contra 8,5 do baço palpável. São sinais que sugerem, não que decidem.\n\nIsso não os torna inúteis. A percussão do Traube é o que sobra quando a palpação é impossível — abdome muito tenso, parede espessa, paciente que não tolera a manobra — e é o que sustenta a advertência de Porto de que nem todo baço aumentado é palpável. Mas o achado que muda o raciocínio continua sendo o baço que a mão encontra, e ele está no tópico seguinte.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Timpanismo onde deveria haver macicez",
+         "texto": "O desaparecimento da macicez hepática, com timpanismo no hipocôndrio direito, tem três explicações possíveis (Porto):\n\n- **Pneumoperitônio**, cuja causa frequente é a perfuração do tubo digestivo. Esse é o **sinal de Jobert** — a macicez hepática cede lugar ao timpanismo porque há uma camada de ar entre o fígado e o diafragma. É um achado de peritonite por perfuração, e reaparece no tópico de abdome agudo, ao lado do abdome em tábua.\n- **Interposição de alça** entre o fígado e a parede costal, achado sem gravidade que também aparece nas grandes distensões abdominais e na impactação fecal.\n- **Atrofia hepática acentuada.**\n\nA percussão também é usada há mais de um século para estimar o volume vesical, e aqui o veredito é desfavorável. McGee resume: a bexiga precisa conter cerca de **400 a 600 mℓ** para que a macicez apareça de forma confiável; embora a extensão da macicez acima da sínfise se correlacione com o volume, o sinal é pouco confiável porque os resultados variam enormemente entre pacientes e porque muitos têm macicez inexplicada no abdome inferior, mesmo sem distensão vesical.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde este tópico encontra os outros",
+         "texto": "A percussão do abdome é o ponto em que o tórax e o abdome se sobrepõem, e por isso é a que mais depende dos outros tópicos.\n\n- **A técnica do golpe dígito-digital**, a física da nota e a razão pela qual golpes de forças diferentes produzem sons diferentes estão no tópico de percussão do tórax. Não se repete aqui: aplica-se, com golpe mais leve.\n- **O limite superior da macicez hepática** é o mesmo nível já ensinado no tópico de percussão do tórax — lá pela altura da 6ª ou 7ª costela (Porto, Semiologia Médica), aqui pelo 5º ou 6º espaço intercostal (Porto, Exame Clínico). É uma só fronteira, nomeada de duas maneiras.\n- **Os limites do espaço de Traube e seu uso como treino do som timpânico** estão no tópico de percussão do tórax; aqui ele entra apenas na leitura esplênica.\n- **O edema**, que a tabela da ascite mostra ser um dos achados mais informativos, tem semiotécnica e graduação em cruzes no tópico de pulso venoso jugular e turgência.\n- **A palpação do fígado e do baço**, que fecha o que a percussão apenas situou, é o tópico seguinte.\n- **A dor à percussão leve** — achado diferente de tudo que se discutiu aqui — pertence ao tópico de abdome agudo e sinais peritoneais.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Seis erros que estragam a percussão do abdome",
+         "texto": "1. **Percutir o abdome com a força do tórax.** A parede abdominal é mais complacente e as vísceras estão mais próximas: golpe forte demais reduz a hepatimetria obtida e aumenta o erro.\n2. **Transformar a hepatimetria em diagnóstico.** Examinadores experientes divergem, em média, em 8 cm no mesmo paciente, e a percussão padronizada não detectou hepatomegalia com acurácia. A hepatimetria é índice, não medida.\n3. **Palpar o fígado no epigástrio e concluir hepatomegalia.** Ali a borda normalmente se afasta do rebordo, distando 3 a 5 cm do ângulo de Charpy.\n4. **Percutir imediatamente após virar o paciente.** A macicez móvel precisa de alguns segundos para se mover. Pressa produz falso-negativo.\n5. **Fazer o piparote sem a mão intermediária.** Sem ela, a onda pode viajar pelo subcutâneo da parede e gerar resposta falsamente positiva.\n6. **Esquecer a bexiga.** Macicez suprapúbica em paciente que não urina há horas costuma ser retenção urinária, não massa — e a percussão repetida após a micção resolve a dúvida sem custo.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Antes de anunciar ascite, pergunte-se por três coisas que imitam líquido livre: bexiga cheia, alças cheias de líquido e cisto de ovário. As duas primeiras somem quando o paciente esvazia; a terceira não muda com o decúbito. A percussão distingue as três — desde que você lembre de procurá-las."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "perc-abd-1",
+           "enunciado": "Ao percutir o hemitórax direito pela linha hemiclavicular, você encontra a transição do som claro pulmonar para a submacicez no 6º espaço intercostal. Como esse achado se relaciona com o limite ensinado na percussão do tórax?",
+           "alternativas": [
+            "Contradiz aquele limite, que situa a transição na 4ª costela",
+            "É o mesmo nível, nomeado de outra forma: o 6º espaço corresponde à altura da 7ª costela",
+            "Indica ptose hepática, pois o limite normal está sempre no 3º espaço",
+            "Indica hepatomegalia, pois em condições normais o limite superior do fígado se situa abaixo do 8º espaço intercostal direito"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Porto (Exame Clínico) situa o limite superior do fígado no 5º ou 6º espaço intercostal direito; o tópico de percussão do tórax descreve a mesma fronteira como a altura da 6ª ou 7ª costela (Porto, Semiologia Médica). Cada espaço intercostal fica entre a costela de mesmo número e a seguinte, de modo que os dois enunciados apontam para a mesma linha. Um limite encontrado abaixo dessa faixa sugere ptose hepática ou redução do volume do fígado, não aumento."
+          },
+          {
+           "id": "perc-abd-2",
+           "enunciado": "Um paciente com aumento do volume abdominal tem timpanismo nos flancos à percussão. Qual é o peso dessa informação para o diagnóstico de ascite?",
+           "alternativas": [
+            "Nenhum: a percussão dos flancos não foi estudada nesse contexto",
+            "Eleva a probabilidade de ascite, pois na ascite o gás intestinal migra para os flancos e o líquido livre se acumula no centro",
+            "Confirma ascite septada, em que o líquido não se desloca",
+            "Reduz a probabilidade de ascite: a ausência de macicez de flancos é dos melhores achados negativos (0,3)"
+           ],
+           "corretaIndex": 3,
+           "explicacao": "A macicez de flancos, quando presente, tem razão de verossimilhança não significativa — não ajuda a confirmar. Sua ausência, porém, reduz a probabilidade de ascite (0,3) e é um dos melhores achados negativos, ao lado da ausência de edema (0,2). Para confirmar, os achados de maior peso são o piparote positivo (5,0) e a presença de edema (3,8)."
+          },
+          {
+           "id": "perc-abd-3",
+           "enunciado": "Por que se pede ao paciente ou a um auxiliar que apoie a borda cubital da mão na linha média do abdome durante a pesquisa do sinal do piparote?",
+           "alternativas": [
+            "Para impedir que o impulso seja transmitido pelo subcutâneo da parede, o que daria falso-positivo",
+            "Para deslocar as alças intestinais para os flancos e concentrar o líquido ascítico na região central do abdome",
+            "Para reduzir a dor da manobra em pacientes com ascite tensa",
+            "Para permitir a contagem das ondas líquidas transmitidas por minuto"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "A mão apoiada na linha média bloqueia a transmissão do impulso pelo tecido subcutâneo, de modo que o choque captado pela mão do examinador tenha atravessado a cavidade e não a parede. Sem esse cuidado, uma parede espessa pode gerar resposta positiva na ausência de líquido livre. Em ascites muito tensas, Porto observa que a mão do auxiliar pode ser dispensada."
+          },
+          {
+           "id": "perc-abd-4",
+           "enunciado": "Uma mulher de 46 anos apresenta abdome volumoso. À percussão, a área de macicez não se modifica com as mudanças de decúbito e a linha de transição do semicírculo tem concavidade voltada para o púbis. Qual é a interpretação mais provável?",
+           "alternativas": [
+            "Ascite de grande volume, em que a macicez ocupa todo o abdome e o semicírculo de Skoda deixa de ser demarcável",
+            "Ascite de pequeno volume, detectável apenas na posição ortostática",
+            "Massa líquida de continente próprio, como um cisto gigante de ovário, e não líquido livre",
+            "Íleo paralítico com alças repletas de líquido"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "Líquido livre se move com a gravidade: nas ascites, os limites entre macicez e timpanismo mudam com o decúbito, e o semicírculo de Skoda tem a concavidade voltada para cima. Nas neoplasias e cistos de ovário, a massa líquida tem continente próprio e limites precisos, a macicez não é móvel e a concavidade da linha de transição se volta para o púbis. As ascites septadas também não se deslocam, mas produzem lojas múltiplas e não uma única massa de limites bem definidos."
+          },
+          {
+           "id": "perc-abd-5",
+           "enunciado": "Que conclusão a evidência reunida por McGee sustenta a respeito da hepatimetria obtida por percussão?",
+           "alternativas": [
+            "É uma medida precisa do tamanho do fígado, desde que o golpe seja forte, padronizado e sempre aplicado ao longo da mesma linha hemiclavicular direita, de cima para baixo",
+            "É um índice de tamanho, não uma medida: o examinador subestima o órgão e examinadores experientes divergem em média em 8 cm no mesmo paciente",
+            "Não tem qualquer utilidade e deve ser abandonada, já que a percussão não localiza o fígado",
+            "Só serve em fígados saudáveis, pois a correlação com a imagem piora nos fígados doentes"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "A estimativa percutida correlaciona-se apenas modestamente com o tamanho real (coeficientes de 0,6 a 0,7), e essa correlação é melhor — não pior — em fígados doentes. O examinador coloca o limite superior baixo demais e a borda inferior alta demais; golpes mais fortes reduzem a hepatimetria obtida. A percussão continua indispensável para situar o órgão antes da palpação e para reconhecer o fígado pequeno da cirrose, mas não funciona como régua."
+          },
+          {
+           "id": "perc-abd-6",
+           "enunciado": "Como se comparam os sinais percutórios do baço com a palpação para a detecção de esplenomegalia?",
+           "alternativas": [
+            "Os sinais percutórios superam a palpação, com razões de verossimilhança acima de 8",
+            "São equivalentes, e a escolha depende apenas da preferência do examinador",
+            "São claramente inferiores à palpação: razões de verossimilhança de 1,7 a 2,1, contra 8,5 do baço palpável",
+            "Não têm valor algum, e por isso a percussão do hipocôndrio esquerdo foi abandonada"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "O sinal da percussão esplênica de Castell (1,7), o método de Nixon (2,0) e a macicez do espaço de Traube (2,1) sugerem aumento do baço, mas ficam bem abaixo da palpação, cujo achado positivo tem razão de verossimilhança 8,5. Ainda assim a percussão não é dispensável: todo baço aumentado é percutível, mas nem todo baço aumentado é palpável (Porto), e a macicez do Traube perde acurácia em pessoas com sobrepeso ou que acabaram de comer."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "abdome/exame-do-abdome/palpacao-do-abdome",
+       "titulo": "Palpação do abdome",
+       "sistemaId": "abdome",
+       "capituloId": "exame-do-abdome",
+       "ordem": 3,
+       "tags": [
+        "palpação do abdome",
+        "exame do abdome",
+        "abdome",
+        "palpação superficial",
+        "palpação profunda",
+        "palpação bimanual",
+        "tensão da parede abdominal",
+        "defesa abdominal",
+        "contratura voluntária",
+        "contratura involuntária",
+        "manobra de Galambos",
+        "manobra de elevação da cabeça",
+        "teste da parede abdominal",
+        "hiperestesia cutânea",
+        "diástase dos retos",
+        "hérnia",
+        "palpação do fígado",
+        "técnica de Lemos-Torres",
+        "técnica de Mathieu",
+        "manobra em garra",
+        "borda hepática",
+        "hepatimetria",
+        "hepatomegalia",
+        "consistência do fígado",
+        "borda fina",
+        "borda romba",
+        "superfície nodular",
+        "cápsula de Glisson",
+        "palpação do baço",
+        "posição de Schuster",
+        "chanfradura esplênica",
+        "esplenomegalia",
+        "hiperesplenismo",
+        "palpação dos rins",
+        "loja renal",
+        "captura do rim",
+        "choque lomboabdominal",
+        "rechaço",
+        "palpação da aorta abdominal",
+        "massa pulsátil expansiva",
+        "aneurisma da aorta abdominal",
+        "palpação do ceco",
+        "palpação do sigmoide",
+        "vesícula biliar palpável",
+        "sinal de Courvoisier",
+        "regra de Courvoisier",
+        "vesícula hidrópica",
+        "tumor fantasma",
+        "bexigoma",
+        "vascolejo",
+        "sinal de Gersuny",
+        "fecaloma",
+        "estação OSCE"
+       ],
+       "referencias": [
+        "Porto — Exame Clínico, 8ª ed., cap. 17 (Exame do Abdome) — Palpação: objetivos, palpação superficial (sensibilidade, pontos dolorosos, resistência da parede, boxe Defesa da parede abdominal, continuidade, diástase e hérnias, pulsações), palpação profunda (características das massas palpáveis), palpação do fígado e boxe Relaxamento da parede abdominal, Quadro 17.1 (características do fígado nas hepatomegalias), palpação da vesícula biliar e boxe Regra de Courvoisier, palpação do baço na posição de Schuster, palpação do ceco, do cólon transverso, do sigmoide e dos rins, boxe Manobras especiais (palpação bimanual comparativa, rechaço, vascolejo, sinal de Gersuny)",
+        "Porto — Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 7 (Fígado e Vias Biliares), cap. 91 (Exame Clínico) — palpação da borda hepática, manobra em garra (Figura 91.1), Quadro 91.1 (elementos de análise à palpação do fígado), registro esquemático (Figura 91.2), sinais de Courvoisier e de Murphy, ponto cístico (Figura 91.3), exame do baço e posição de Schuster, chanfradura esplênica",
+        "Porto — Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 8 (Parede e Cavidade Abdominais), cap. 95 (Exame Clínico) — palpação: avaliação da tensão da parede, boxe Defesa abdominal, contração psicomotora e manobra de Galambos, palpação superficial e profunda, órgãos palpáveis em condições normais, tumores-fantasmas",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 51 (Palpation and Percussion of the Abdomen), p. 433-444 — comentários introdutórios sobre técnica; borda hepática palpável e boxe EBM 51.1; boxe EBM 51.2 (fígado e baço palpáveis em diferentes doenças); percussão auscultatória do fígado; baço palpável, posições de exame e etiologia da esplenomegalia; sinal de Courvoisier e boxe EBM 51.3; palpação da bexiga; aneurisma da aorta abdominal e pulsação expansiva",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 52 (Abdominal Pain and Tenderness), p. 445-447 e 454 — teste da parede abdominal de Carnett e sua leitura na dor abdominal aguda e crônica",
+        "Semiologia Clínica, 1ª ed., cap. 14 (Exame físico de abdome e sistema digestório) — Palpação superficial e profunda; palpação do fígado pelas técnicas de Mathieu (Figura 12) e de Lemos-Torres (Figura 13); palpação do baço em decúbito dorsal (Figura 14) e na posição de Schuster (Figura 15); palpação de massas abdominais e Tabela 3 (localização e causas); palpação das lojas renais (Figura 16); Tabela 4 (regras de bom senso)"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A mão pergunta duas coisas",
+         "texto": "A palpação do abdome responde a duas perguntas em sequência, e confundi-las é a origem de boa parte dos erros.\n\nA primeira é **da parede**: qual é a tensão da musculatura, há dor à compressão leve, há hiperestesia da pele, há solução de continuidade — diástase, hérnia? É a **palpação superficial**, que alcança os primeiros centímetros e explora a parede e as vísceras que a tocam.\n\nA segunda é **da cavidade**: que órgãos e massas existem lá dentro, com que tamanho, consistência, superfície, mobilidade e sensibilidade? É a **palpação profunda**, feita com uma ou com as duas mãos sobrepostas e com pressão maior.\n\nEntre uma e outra há uma regra de ouro que Porto repete e que a experiência confirma: **o relaxamento da parede depende mais da maneira de examinar do que da vontade do paciente.** Mão fria, começo abrupto ou pressão desnecessária provocam contração instintiva, e a partir daí nenhuma técnica salva o exame.\n\nO que se palpa no abdome normal é pouco: em pessoas magras com parede relaxada, reconhecem-se o fígado, os rins, a aorta, o ceco, o cólon transverso e o sigmoide. Não se distinguem o estômago, o duodeno, o delgado, o pâncreas, as vias biliares nem o peritônio (Porto).\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Deixe a área dolorida para o fim. Palpá-la primeiro contrai a parede inteira e transforma o resto do exame em uma sucessão de achados falsos — e o paciente, que já não confiava na manobra, deixa de confiar no examinador."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como examinar"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Palpação superficial e profunda do abdome",
+         "passos": [
+          "Paciente em decúbito dorsal, cabeça em travesseiro baixo, braços e pernas estendidos, musculatura relaxada; examinador à direita, com as mãos aquecidas.",
+          "Pergunte onde dói antes de tocar e planeje a ordem: a região dolorosa fica por último.",
+          "Comece pela palpação superficial com a mão espalmada e os dedos em leve flexão, percorrendo todas as regiões em ordem fixa.",
+          "Avalie a tensão da parede produzindo dois a três abalos leves com as pontas dos dedos em cada ponto.",
+          "Pesquise hiperestesia cutânea deslizando suavemente as polpas digitais ou um objeto pontiagudo sobre a pele.",
+          "Percorra toda a parede procurando áreas de menor resistência e tente insinuar as polpas nesses pontos, para reconhecer diástases e hérnias.",
+          "Passe à palpação profunda aproveitando a expiração, quando a tensão da parede diminui; aprofunde a mão progressivamente, sem movimentos bruscos.",
+          "Use as duas mãos sobrepostas quando precisar de mais pressão, e a palpação bimanual comparativa quando suspeitar de defesa localizada, alternando a compressão entre a área suspeita e a homóloga.",
+          "Palpe o fígado, o baço e os rins com as técnicas próprias e, ao encontrar massa, descreva localização, forma, volume, sensibilidade, consistência, mobilidade e pulsatilidade.",
+          "Registre em centímetros, com fita métrica, e não em dedos transversos."
+         ],
+         "observar": "Se a parede permanecer contraída apesar da boa técnica, tente desviar a atenção do paciente: converse sobre outro assunto, peça que respire fundo, peça que flexione as pernas. Porto descreve ainda a manobra de Galambos — comprimir outra região do abdome enquanto se palpa a região desejada. A contração que cede a esses artifícios é voluntária; a que não cede pede outra leitura.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Palpação do abdome em 10 passos",
+         "itens": [
+          "Paciente em decúbito dorsal com a musculatura relaxada; examinador à direita, com as mãos aquecidas.",
+          "Pergunta sobre a localização da dor antes do primeiro toque, com a área dolorosa deixada por último.",
+          "Palpação superficial de todas as regiões, com avaliação da tensão da parede por abalos leves.",
+          "Pesquisa de hiperestesia cutânea e de pontos dolorosos.",
+          "Diferenciação entre contratura voluntária e involuntária, com uso de artifícios de distração.",
+          "Avaliação da continuidade da parede, com pesquisa de diástase e de hérnias.",
+          "Palpação profunda aproveitando a expiração, com uma ou duas mãos.",
+          "Palpação do fígado, com descrição de borda, superfície, consistência e sensibilidade.",
+          "Palpação do baço em decúbito dorsal e, se necessário, na posição de Schuster.",
+          "Palpação das lojas renais e da aorta abdominal, com registro das medidas em centímetros."
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "A parede: tensão, defesa e continuidade"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Tensão normal e defesa",
+         "texto": "A tensão da parede é o primeiro dado da palpação, e tem um padrão normal que convém conhecer antes de chamar qualquer coisa de anormal (Porto): a tensão é **ligeiramente maior no centro do que nos flancos**, por conta dos músculos retos, e maior no andar inferior do que no epigástrio; aumenta na inspiração e diminui na expiração; é maior em jovens atletas e em obesos, e menor em crianças, idosos, multíparas e desnutridos.\n\nO aumento patológico da tensão pode ter duas origens completamente distintas.\n\n**Defesa abdominal.** É a contração tônica dos músculos da parede produzida por um **reflexo visceromotor**, cujo estímulo nasce no peritônio inflamado. É involuntária. Pode ser **localizada**, situando-se sobre a projeção do órgão doente — fossa ilíaca direita na apendicite, fossa ilíaca esquerda na peridiverticulite, hipocôndrio direito na colecistite aguda —, ou **generalizada**, o clássico **abdome em tábua** das perfurações de víscera oca e das peritonites agudas difusas.\n\n**Contração psicomotora.** É voluntária, comum em quem fica tenso com medo da dor. Desaparece quando se tranquiliza ou se distrai o paciente.\n\nHá ainda um terceiro mecanismo, que não tem nada a ver com tônus muscular: o aumento da **pressão intra-abdominal** — ascite, distensão gasosa, grandes massas — também endurece a parede.\n\nA leitura da defesa e a sua diferenciação da contratura verdadeira são o coração do tópico de abdome agudo, e é lá que estão os números.\n"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Manobra de elevação da cabeça (teste da parede abdominal)",
+         "passos": [
+          "Localize, pela palpação suave, a área de maior dor.",
+          "Aplique pressão suficiente para provocar dor de intensidade moderada e mantenha a mão exatamente nesse ponto.",
+          "Peça ao paciente que cruze os braços sobre o tórax e levante a cabeça e os ombros, como se iniciasse um abdominal.",
+          "Mantendo a mesma pressão, pergunte se a dor aumentou, diminuiu ou ficou igual.",
+          "A prova é positiva quando a dor aumenta com a contração — sinal de que a origem está na própria parede.",
+          "A prova é negativa quando a dor diminui: os músculos contraídos protegem o conteúdo da cavidade da mão do examinador."
+         ],
+         "observar": "O teste foi introduzido por Carnett em 1926 justamente para reconhecer lesões da parede que imitam doença intracavitária. Uma causa clássica de dor aguda da parede é a neuropatia toracoabdominal do diabetes (raízes T7 a T11), que costuma vir com hipersensibilidade cutânea de dermátomos contíguos e fraqueza da musculatura, com abaulamento ipsilateral que lembra uma hérnia (McGee).\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Palpação do fígado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Duas técnicas e o que descrever",
+         "texto": "A palpação hepática começa onde a percussão terminou: no ponto em que se encontrou a borda inferior. Se houver dúvida, começa-se mais baixo, no quadrante inferior direito, e se sobe 1 a 2 cm por vez, a cada respiração, até que a borda venha ao encontro dos dedos na inspiração.\n\nAs duas técnicas de manual têm nome e lógica próprias.\n\n**Técnica bimanual, ou de Lemos-Torres** (Semiologia Clínica). A mão esquerda do examinador passa por baixo do paciente, na topografia da loja renal direita, e empurra as estruturas para cima; a mão direita, espalmada sobre o hipocôndrio, procura a borda com as pontas dos dedos. Pede-se então uma inspiração profunda e lenta. A palpação passa a contar com dois deslocamentos do fígado: **para diante**, pela mão de baixo, e **para baixo**, pela descida do diafragma (Porto).\n\n**Técnica das mãos em garra, ou de Mathieu** (Semiologia Clínica; Porto a descreve como **manobra em garra**). O examinador se coloca à altura do ombro direito do paciente, em pé ou sentado, voltado para os pés. As polpas dos dedos mínimo, anular e médio das duas mãos ficam alinhadas, formando uma superfície contínua ampla. Pede-se ao paciente que expire, aprofundam-se os dedos e mantêm-se ali; na inspiração seguinte, a borda vem contra as polpas. É especialmente útil em pessoas obesas.\n\nUma advertência de vocabulário: o nome **Lemos Torres** designa, na semiologia do tórax, um sinal completamente diferente — o abaulamento dos espaços intercostais durante a expiração, indicativo de derrame pleural, descrito no tópico de inspeção do tórax. Mesmo epônimo, dois achados sem qualquer relação.\n"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Palpação da borda hepática",
+         "passos": [
+          "Localize antes, pela percussão, o limite superior e a provável borda inferior; palpe a partir dali.",
+          "Se houver dúvida, comece no quadrante inferior direito e suba 1 a 2 cm a cada ciclo respiratório.",
+          "Durante a expiração, ajuste a mão à parede sem comprimir e sem movimentá-la.",
+          "Durante a inspiração, comprima e desloque a mão para cima, ao encontro da borda que desce.",
+          "Facilite a manobra colocando a mão esquerda sob a loja renal direita e forçando-a para cima (técnica bimanual).",
+          "Como alternativa, use as mãos em garra, à altura do ombro direito do paciente.",
+          "Percorra toda a extensão da borda, incluindo o lobo esquerdo, no epigástrio.",
+          "Meça em centímetros a distância entre o rebordo costal e a borda, na linha hemiclavicular direita, e repita na linha esternal média.",
+          "Deslize as polpas pela superfície hepática procurando irregularidades e nódulos.",
+          "Comprima a superfície com firmeza e por pouco tempo, perguntando ao paciente se há dor, e avalie ao mesmo tempo a consistência."
+         ],
+         "observar": "Nem toda borda palpável é hepatomegalia. Toda hepatomegalia é palpável, mas o fígado pode ser palpado a um centímetro do rebordo, em inspiração profunda, em pessoas magras, e também nos visceroptóticos, sem qualquer aumento de volume (Porto). É por isso que a borda palpável se interpreta junto com o limite superior percutido.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "O que descrever da borda e da superfície",
+         "colunas": [
+          "Elemento",
+          "Possibilidades",
+          "Exemplos do que sugerem"
+         ],
+         "linhas": [
+          [
+           "Distância do rebordo costal",
+           "Medida em centímetros na linha hemiclavicular e na esternal média",
+           "Pequena hepatomegalia até cerca de dois dedos transversos; média em torno de quatro; grande acima disso, podendo alcançar a cicatriz umbilical"
+          ],
+          [
+           "Espessura da borda",
+           "Fina e cortante (normal) ou romba",
+           "Borda romba na congestão e nas hepatopatias crônicas"
+          ],
+          [
+           "Superfície",
+           "Lisa, granulosa ou nodular",
+           "Nódulos difusos nas cirroses; esparsos nas metástases; nódulo único no câncer primitivo"
+          ],
+          [
+           "Consistência",
+           "Diminuída, normal (elástica) ou aumentada",
+           "Firme na cirrose, pela fibrose; diminuída na esteatose aguda da gravidez"
+          ],
+          [
+           "Sensibilidade",
+           "Indolor ou dolorosa",
+           "Dolorosa quando a cápsula de Glisson é distendida rapidamente — insuficiência cardíaca, hepatite aguda, metástases de crescimento rápido; indolor nas hepatomegalias crônicas, em que a cápsula se adapta"
+          ]
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Palpação do baço"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Por que só o baço aumentado é palpável",
+         "texto": "O baço normal mede cerca de 13 × 8 × 3,5 cm, com peso entre 180 e 200 g. Ocupa a loja esplênica, sob o diafragma e a parede costal esquerda, **na altura da 9ª à 11ª costela**, e sua extremidade inferior fica cerca de 5 cm acima do rebordo costal (Porto).\n\nA conta é simples: para que a ponta do baço apareça abaixo do rebordo, o órgão precisa **dobrar de tamanho**. Daí a regra prática — excluída a ptose esplênica, palpar o baço significa que há esplenomegalia.\n\nA recíproca não vale, e é aí que a percussão do tópico anterior encontra a palpação deste: **todo baço aumentado é percutível, mas nem sempre é palpável.** Baços muito grandes, porém, quase não escapam: McGee registra que praticamente todos os aumentos maciços — peso acima de 1 kg ou extensão cintilográfica acima de 22 cm — são detectáveis à palpação.\n\nDois detalhes de reconhecimento fecham o exame. O primeiro é a **chanfradura esplênica**, a reentrância semicircular correspondente à direção do hilo, que confirma que a massa palpada é o baço e não, por exemplo, o rim esquerdo (Porto). O segundo é o engano mais comum entre iniciantes: confundir a última costela, que é flutuante, com a ponta do baço.\n"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Palpação do baço e posição de Schuster",
+         "passos": [
+          "Comece em decúbito dorsal, examinando o quadrante superior esquerdo com a mesma coordenação respiratória usada para o fígado.",
+          "Coloque a mão esquerda sobre o gradil costal esquerdo, pressionando-o para cima e para diante, enquanto a mão direita palpa apontando para o rebordo.",
+          "Comprima ao final da expiração e peça uma inspiração profunda, procurando a borda inferior no auge da inspiração.",
+          "Se nada for encontrado, passe à posição de Schuster: decúbito lateral direito, perna direita estendida, coxa esquerda fletida sobre o abdome em ângulo de 90°.",
+          "Eleve o ombro esquerdo do paciente, colocando o braço correspondente sobre a cabeça.",
+          "Posicione-se diante do paciente e apoie a mão esquerda, com alguma pressão, sobre a projeção do baço, empurrando-a no sentido caudal.",
+          "Palpe com a mão direita, coordenando com a respiração e avançando em direção ao rebordo costal durante a inspiração.",
+          "Meça em centímetros a distância entre o rebordo costal e a extremidade inferior do baço, na linha hemiclavicular esquerda.",
+          "Procure a chanfradura esplênica e avalie a sensibilidade — a periesplenite torna a palpação dolorosa."
+         ],
+         "observar": "Não existe uma posição superior às outras. Um estudo que comparou o decúbito dorsal, o decúbito dorsal com o punho esquerdo do paciente sob o dorso e o decúbito lateral direito encontrou desempenho equivalente nas três, de modo que a escolha depende sobretudo da preferência do examinador (McGee). O que não varia é a exigência de coordenar a manobra com a inspiração.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Rins, aorta e o resto da cavidade"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "As outras estruturas ao alcance da mão",
+         "texto": "**Rins.** Dos órgãos retroperitoneais, apenas o polo inferior do rim direito costuma ser alcançável, sobretudo em mulheres magras com parede flácida — e não deve ser confundido com tumor. A técnica é **bimanual**, com o paciente em decúbito dorsal: uma das mãos transversalmente na região lombar, a outra longitudinalmente sobre o flanco, sempre a mão homônima ao lado que se palpa. Pede-se respiração tranquila e profunda e procura-se sentir a descida do rim a cada inspiração; a mão posterior projeta o órgão para frente. No fim da inspiração, já entrando na expiração, aumenta-se a pressão das duas mãos e percebe-se o deslocamento ascendente súbito — é a chamada **captura do rim**. Uma variante é o **choque lomboabdominal**: impulsões rápidas e sucessivas com as pontas dos dedos no ângulo costovertebral, em direção à mão que palpa, que recebe a sensação de choque (Porto). A punho-percussão lombar, que é outra manobra e outro raciocínio, está no tópico de abdome agudo.\n\n**Aorta.** Em pessoas magras, a aorta e a coluna são facilmente percebidas. Coloca-se uma mão de cada lado do vaso e estima-se o diâmetro, descontando a espessura de duas camadas de pele e subcutâneo (McGee). Em idosos, a aorta costuma ser endurecida e tortuosa (Porto).\n\n**Cólon.** O sigmoide é o segmento mais fácil de perceber, no quadrante inferior esquerdo, como uma corda firme e pouco móvel; o ceco reconhece-se na fossa ilíaca direita, deslizando a mão ao longo da linha que une o umbigo à espinha ilíaca anterossuperior, e ao deslizar produzem-se os borborigmos; o transverso aparece no mesogástrio como uma corda transversal que rola sob os dedos.\n\n**Massas.** Diante de qualquer massa, sete atributos precisam constar do registro: localização, forma, volume, sensibilidade, consistência, mobilidade e pulsatilidade. A mobilidade com a respiração indica origem intraperitoneal — as retroperitoneais são fixas —, e a pulsatilidade exige distinguir pulsação própria de pulsação transmitida por vizinhança com a aorta.\n\n**Tumores-fantasmas.** Porto reúne sob esse nome as estruturas normais tomadas por neoplasia: rim direito ptótico em grandes multíparas, rim ectópico, promontório em pacientes com lordose lombar acentuada, sigmoide com fezes endurecidas e bexiga em retenção urinária simulando cisto de ovário. Percutir a massa e reexaminar o paciente após a micção resolve boa parte desses enganos.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Aprofundamento"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que o fígado palpável realmente informa",
+         "texto": "Os números de McGee separam duas perguntas que a beira do leito costuma confundir: **\"isto que eu palpo é o fígado?\"** e **\"este fígado está aumentado?\"**.\n\nPara a primeira, o exame é excelente. Quando o examinador acredita ter palpado a borda hepática abaixo do rebordo costal, ele quase sempre está certo — razão de verossimilhança **233,7**.\n\nPara a segunda, o exame é fraco. A distância entre a borda e o rebordo se correlaciona mal com o tamanho global do órgão, e a borda palpável é um sinal pouco confiável de hepatomegalia: razão de verossimilhança de apenas **1,9**. Aproximadamente **metade dos fígados que se estendem abaixo do rebordo não são palpáveis**.\n\nA explicação dessa metade que escapa é o achado mais interessante do capítulo: **a palpabilidade depende mais da consistência do que do tamanho.** Fígados mais firmes são mais fáceis de palpar. Em pacientes com cirrose, cujos fígados são menores e mais firmes que o normal, a borda é palpável em 95% das vezes.\n\nDaí a utilidade real da consistência em quem já tem doença hepática crônica conhecida:\n\n- **Borda hepática firme à palpação** — razão de verossimilhança 3,3 para cirrose.\n- **Fígado palpável no epigástrio** — 2,7.\n- **Fígado aumentado e palpável** — 2,3.\n- **Baço palpável** — 2,5.\n\nUm dado que fecha a lógica: a avaliação da firmeza do fígado pela mão do examinador correlaciona-se muito bem com medidas não invasivas de fibrose hepática, como a elastografia por ultrassom. A mão treinada mede rigidez melhor do que mede volume.\n\nEm contraste, em pacientes **ictéricos** o fígado palpável e a dor hepática não distinguem icterícia hepatocelular de obstrutiva, e em pacientes com **adenomegalia** o fígado palpável não separa doença grave de quadro benigno autolimitado.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O baço palpável em cinco contextos",
+         "texto": "O baço palpável é um dos poucos achados abdominais com razão de verossimilhança alta para o que se propõe a detectar: **8,5** para esplenomegalia (McGee). A sensibilidade, porém, é ampla e baixa — de 18% a 78% —, de modo que a ausência do achado reduz pouco a probabilidade.\n\nEncontrado o baço, a pergunta seguinte é a causa. As grandes categorias são a doença hepática com hipertensão portal, os distúrbios hematológicos, as doenças infecciosas e as afecções primárias do baço. Alguns achados associados ajudam a escolher:\n\n- **Dor e sensibilidade no quadrante superior esquerdo** aumentam a probabilidade de afecção primária do baço ou de doença hematológica.\n- **Adenomegalia associada** praticamente exclui a causa hepática (razão de verossimilhança 0,04) e aponta para as demais.\n- **Fígado palpável** aumenta a probabilidade de causa hepática (2,7).\n- **Esplenomegalia maciça**, com o baço alcançando o umbigo, aumenta a probabilidade de doença hematológica (2,1).\n\nE o baço palpável muda o raciocínio em cenários clínicos específicos:\n\n- **Viajante que retorna de área tropical com febre** — razão de verossimilhança 6,5 para malária.\n- **Paciente ictérico** — 2,9 para doença hepatocelular, isto é, icterícia não obstrutiva.\n- **Doença hepática crônica** — 2,5 para cirrose.\n- **Febre de origem indeterminada**, com mais de três semanas de duração — 2,9 de que o exame da medula óssea será diagnóstico.\n- **Adenomegalia periférica** — sem valor: o baço palpável aparece com a mesma frequência nas doenças graves e nos quadros benignos.\n\nPorto acrescenta o desfecho hematológico que costuma acompanhar o achado: qualquer que seja a etiologia, o baço aumentado pode causar anemia, leucopenia e trombocitopenia — o **hiperesplenismo**, seletivo quando atinge uma só série, global quando há pancitopenia.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Sinal de Courvoisier",
+         "descricao": "Vesícula biliar palpável e indolor em paciente ictérico.",
+         "significado": "Indica obstrução extra-hepática das vias biliares. A leitura tradicional, que o toma como sinal de malignidade, é mais forte do que os dados sustentam: em pacientes com icterícia, o achado tem razão de verossimilhança 26 para obstrução das vias biliares, mas apenas 2,6 para que essa obstrução seja maligna (McGee). Se há uma lei, ela é sobre obstrução, não sobre câncer.",
+         "causas": [
+          "Neoplasia periampular, sobretudo da cabeça do pâncreas — a associação clássica descrita por Porto",
+          "Obstrução coledociana benigna, incluindo cálculo, que responde por parte dos casos",
+          "Vesícula hidrópica por obstrução do ducto cístico, calculosa ou inflamatória",
+          "Câncer da própria vesícula, por alteração da consistência de suas paredes"
+         ],
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A história e a fisiologia por trás de Courvoisier",
+         "texto": "Courvoisier, cirurgião suíço, apresentou a observação em 1890 em uma monografia sobre vias biliares — e a apresentou como observação interessante, não como lei. Entre 187 pacientes com icterícia e obstrução do ducto comum, encontrou vesícula dilatada em apenas 20% dos que tinham cálculos, contra 92% dos que tinham outras causas, em sua maioria neoplásicas (McGee).\n\nA hipótese original de Courvoisier — a de que a vesícula da coledocolitíase não dilata porque suas paredes estão fibrosadas pela colecistite crônica — provavelmente está errada: experimentos mostram rigidez de parede semelhante em vesículas dilatadas e não dilatadas de pacientes ictéricos. O que de fato distingue os dois grupos são **pressões intraductais operatórias mais altas** e **icterícia de maior duração**.\n\nEssa segunda variável explica por que os números de hoje diferem dos de Courvoisier: restringindo a análise aos pacientes com obstrução extra-hepática, a sensibilidade da vesícula dilatada na obstrução maligna caiu para 25% a 55%, contra os 92% de Courvoisier, ainda que a especificidade permaneça em 80% a 90%. O paciente com obstrução maligna de hoje é diagnosticado por imagem bem antes que a pressão suba o bastante para distender a vesícula.\n\nUm dado final sobre o alcance da mão: em uma série de 86 pacientes internados com vesícula distendida documentada por tomografia ou laparotomia, apenas 46 — 53% — eram palpáveis à beira do leito. Desses, 83% tinham causa maligna e 17% causa benigna.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A aorta sob os dedos",
+         "texto": "O aneurisma da aorta abdominal é uma dilatação focal da aorta infrarrenal, tradicionalmente definida por diâmetro acima de 3 a 4 cm. Afeta 1% a 2% das pessoas acima dos 50 anos e cresce lentamente, mas algumas rupturas são catastróficas, com mortalidade que chega a 90% (McGee).\n\nComo a aorta normal se bifurca na altura do umbigo, os aneurismas palpáveis costumam estar no epigástrio ou no quadrante superior esquerdo. O achado que importa não é a pulsação, e sim a **pulsação expansiva**: o aneurisma **afasta as duas mãos** do examinador, uma de cada lado do vaso. Pulsações epigástricas proeminentes ocorrem em pessoas de abdome fino ou quando uma massa epigástrica se sobrepõe à aorta normal — e, se não forem expansivas, não indicam aneurisma.\n\nOs números: massa epigástrica pulsátil e expansiva tem razão de verossimilhança **8,0** para aneurisma; a ausência do achado é bem menos útil (0,6), porque a sensibilidade pode ser tão baixa quanto 22%.\n\nDuas variáveis governam a palpabilidade: **o tamanho do aneurisma e a circunferência abdominal do paciente**. Aneurismas entre 3 e 5 cm são difíceis de detectar; se o critério passa a ser dilatação focal acima de 5 cm — o diâmetro que costuma indicar reparo cirúrgico —, a sensibilidade sobe acima de 80% em quase todas as séries. Restringindo a análise a pacientes com circunferência abdominal inferior a 100 cm medida no umbigo, ou àqueles em que o examinador consegue palpar a aorta, a sensibilidade ultrapassa 88% em todos os estudos. Nesses pacientes, portanto, o exame negativo tem valor real.\n\nA causa mais comum de falso-positivo é a aorta anormalmente tortuosa; causas raras incluem rim em ferradura, tumor intra-abdominal e adenopatia paraórtica.\n\nSobre a bexiga, um dado prático: a ausência de bexiga palpável na região suprapúbica reduz a probabilidade de haver 400 mℓ ou mais de urina retida (razão de verossimilhança 0,3).\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde este tópico encontra os outros",
+         "texto": "A palpação é o tempo do exame que mais empresta e mais devolve aos outros tópicos.\n\n- **A percussão vem antes e situa o alvo**: o limite superior do fígado, a borda inferior provável e o estado do espaço de Traube estão no tópico de percussão do abdome, e é de lá que se parte para palpar.\n- **A defesa da parede, a descompressão brusca, os pontos dolorosos e o sinal de Murphy** pertencem ao tópico de abdome agudo e sinais peritoneais; aqui se avalia a tensão, lá se lê o que ela significa.\n- **O refluxo hepatojugular** é pesquisado comprimindo o abdome, mas é lido no pescoço: a manobra, o tempo de compressão e o significado estão no tópico de pulso venoso jugular e turgência.\n- **O epônimo Lemos Torres** aparece duas vezes no guia com sentidos distintos: aqui, a técnica bimanual de palpação hepática; no tópico de inspeção do tórax, o abaulamento expiratório dos espaços intercostais do derrame pleural.\n- **A punho-percussão lombar (sinal de Giordano)**, que completa o exame renal, está no tópico de abdome agudo e sinais peritoneais.\n- **O linfonodo supraclavicular endurecido e aderido**, que muda inteiramente o raciocínio diante de uma massa abdominal, está no tópico de linfonodos.\n- **A caracterização da dor que motivou a palpação** — localização, irradiação, ritmicidade, fatores de melhora — pertence ao tópico de queixa principal e história da doença atual.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Seis erros que comprometem a palpação",
+         "texto": "1. **Começar pela região dolorosa.** Contrai a parede inteira e inviabiliza o resto do exame. Pergunte onde dói e deixe esse ponto para o fim.\n2. **Chamar de hepatomegalia toda borda palpável.** Em pessoas magras e em visceroptóticos, o fígado é palpável sem estar aumentado; e no epigástrio a borda normalmente se afasta do rebordo. A borda palpável isolada tem razão de verossimilhança de apenas 1,9 para hepatomegalia.\n3. **Confundir a última costela com a ponta do baço.** Ela é flutuante e engana com frequência os examinadores iniciantes.\n4. **Registrar em dedos transversos.** A largura dos dedos varia de pessoa para pessoa. Meça em centímetros, com fita.\n5. **Tratar a contratura como um achado único.** Contração voluntária cede à distração e ao artifício; defesa por reflexo visceromotor não cede. São coisas diferentes, com consequências diferentes.\n6. **Concluir massa sem percutir e sem esvaziar a bexiga.** Bexiga em retenção, fecaloma no sigmoide, promontório e rim ptótico compõem a lista dos tumores-fantasmas — todos desfeitos por uma percussão e um reexame.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "A pergunta útil diante de um fígado palpável não é quantos centímetros ele ultrapassa o rebordo, e sim como ele é ao toque. A distância se correlaciona mal com o volume real; a consistência firme, essa sim, eleva a probabilidade de cirrose — e acompanha bem as medidas modernas de fibrose."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "palp-abd-1",
+           "enunciado": "Durante a palpação, um paciente com dor abdominal contrai fortemente a musculatura. Como se diferencia a contração voluntária da defesa por reflexo visceromotor?",
+           "alternativas": [
+            "A contração voluntária cede à distração, à respiração profunda e à flexão das pernas; a defesa por reflexo visceromotor não cede",
+            "A contração voluntária é sempre generalizada e a defesa é sempre localizada",
+            "A contração voluntária desaparece na inspiração e a defesa desaparece na expiração",
+            "A contração voluntária provoca dor à descompressão brusca e a defesa por reflexo visceromotor não provoca, por depender apenas do tônus muscular"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "A contração psicomotora é voluntária e cede quando o paciente é tranquilizado ou distraído — conversando, respirando fundo, flexionando as pernas, ou pela manobra de Galambos, que comprime outra região enquanto se palpa a desejada. A defesa abdominal obedece a um reflexo visceromotor desencadeado pelo peritônio inflamado e não cede. Tanto a defesa quanto a contração voluntária podem ser localizadas ou generalizadas, e a tensão da parede também aumenta na inspiração em condições normais."
+          },
+          {
+           "id": "palp-abd-2",
+           "enunciado": "Você localiza o ponto de maior dor, mantém a pressão e pede ao paciente que cruze os braços e levante a cabeça e os ombros. A dor aumenta. O que esse resultado indica?",
+           "alternativas": [
+            "Peritonite localizada, pois a contração aproxima o peritônio inflamado da mão",
+            "Nada de útil, pois a manobra apenas mede a força da musculatura abdominal",
+            "Que a dor tem origem na parede abdominal, e não na cavidade — o teste positivo reduz a probabilidade de causa intra-abdominal",
+            "Obstrução intestinal, pois a contração comprime as alças distendidas"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "É o teste da parede abdominal, introduzido por Carnett em 1926. Quando a dor aumenta com a contração, a origem está na própria parede; quando diminui, os músculos contraídos protegem o conteúdo da cavidade da mão do examinador. O teste positivo reduz fortemente a probabilidade de peritonite na dor aguda e de causa visceral na dor crônica. Uma causa clássica de dor de parede é a neuropatia toracoabdominal do diabetes."
+          },
+          {
+           "id": "palp-abd-3",
+           "enunciado": "Em que consiste a posição de Schuster e para que serve?",
+           "alternativas": [
+            "Decúbito ventral com o braço esquerdo estendido, para facilitar a percussão do espaço de Traube",
+            "Decúbito lateral direito, com a perna direita estendida, a coxa esquerda fletida em ângulo de 90° sobre o abdome e o ombro esquerdo elevado com o braço sobre a cabeça, usada para palpar o baço quando as manobras em decúbito dorsal falham",
+            "Posição sentada com o tronco fletido para a frente, usada para palpar a borda hepática em obesos",
+            "Decúbito dorsal com as pernas fletidas e o punho esquerdo do paciente sob o dorso, usada para palpar os rins"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "A posição de Schuster é o decúbito lateral direito com a perna direita estendida, a coxa esquerda fletida sobre o abdome em ângulo de 90° e o ombro esquerdo elevado, com o braço correspondente sobre a cabeça. O examinador apoia a mão esquerda, com alguma pressão, sobre a projeção do baço, empurrando-a no sentido caudal, e palpa com a direita coordenando a manobra com a inspiração. Um estudo comparativo não encontrou superioridade entre as posições habituais de exame do baço."
+          },
+          {
+           "id": "palp-abd-4",
+           "enunciado": "Um paciente com doença hepática crônica tem borda hepática palpável e nitidamente firme. Como esse achado se compara, em valor diagnóstico para cirrose, com o simples fato de o fígado ser palpável?",
+           "alternativas": [
+            "Ambos são equivalentes, com razão de verossimilhança em torno de 1",
+            "A borda palpável é mais informativa, pois a consistência do fígado não pode ser avaliada de maneira reprodutível pela mão do examinador à beira do leito",
+            "Nenhum dos dois altera a probabilidade de cirrose, que só se estabelece por biopsia",
+            "A borda firme é mais informativa (3,3) que o fígado aumentado e palpável (2,3): a palpabilidade depende mais da consistência que do tamanho"
+           ],
+           "corretaIndex": 3,
+           "explicacao": "Em pacientes com doença hepática crônica, a borda firme tem razão de verossimilhança 3,3 para cirrose, o fígado palpável no epigástrio 2,7 e o fígado aumentado e palpável 2,3. A explicação está na física da manobra: fígados mais firmes são mais fáceis de palpar, e na cirrose — em que o órgão costuma ser menor e mais firme — a borda é palpável em 95% das vezes. A avaliação da firmeza pela mão correlaciona-se bem com medidas não invasivas de fibrose."
+          },
+          {
+           "id": "palp-abd-5",
+           "enunciado": "Que achado à palpação da aorta caracteriza um aneurisma e o distingue de uma pulsação epigástrica proeminente sem aneurisma?",
+           "alternativas": [
+            "A intensidade da pulsação, que no aneurisma é sempre maior",
+            "A presença de sopro abdominal sobre a pulsação",
+            "A pulsação expansiva, que afasta as duas mãos colocadas uma de cada lado do vaso",
+            "A localização abaixo da cicatriz umbilical, pois a aorta normal se bifurca acima dela"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "O aneurisma empurra as duas mãos para os lados — é a pulsação expansiva. Pulsações epigástricas proeminentes ocorrem em pessoas de abdome fino ou quando uma massa se sobrepõe à aorta normal e, se não forem expansivas, não indicam aneurisma. A massa pulsátil expansiva tem razão de verossimilhança 8,0. Como a aorta normal se bifurca na altura do umbigo, os aneurismas palpáveis ficam no epigástrio ou no quadrante superior esquerdo; e o sopro abdominal não se mostrou útil para esse diagnóstico."
+          },
+          {
+           "id": "palp-abd-6",
+           "enunciado": "Um paciente ictérico tem vesícula biliar palpável e indolor. Qual é a leitura correta desse achado à luz dos dados disponíveis?",
+           "alternativas": [
+            "Indica obstrução extra-hepática das vias biliares (26), mas eleva só modestamente a probabilidade de causa maligna (2,6)",
+            "É praticamente patognomônico de neoplasia da cabeça do pâncreas",
+            "Exclui coledocolitíase, já que a vesícula fibrosada pelo cálculo nunca se distende",
+            "Não tem valor diagnóstico, já que pouco mais da metade das vesículas distendidas chega a ser palpável à beira do leito, mesmo quando documentadas por imagem"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "O sinal de Courvoisier é praticamente diagnóstico de obstrução extra-hepática (razão de verossimilhança 26), mas apenas modestamente favorável a causa maligna sobre cálculo (2,6). Courvoisier apresentou a observação em 1890 como observação, não como lei; sua hipótese de que a vesícula da coledocolitíase não dilata por fibrose provavelmente está errada — o que distingue os grupos são pressões intraductais mais altas e icterícia de maior duração. É verdade que boa parte das vesículas distendidas não é palpável (53% o eram em uma série), o que reduz a sensibilidade, mas não anula o valor do achado positivo."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "abdome/exame-do-abdome/abdome-agudo-e-sinais-peritoneais",
+       "titulo": "Abdome agudo e sinais peritoneais",
+       "sistemaId": "abdome",
+       "capituloId": "exame-do-abdome",
+       "ordem": 4,
+       "tags": [
+        "abdome agudo",
+        "sinais peritoneais",
+        "irritação peritoneal",
+        "peritonite",
+        "peritonite difusa",
+        "sinal de Blumberg",
+        "descompressão brusca",
+        "descompressão súbita",
+        "dor à descompressão",
+        "defesa abdominal",
+        "contratura involuntária",
+        "contratura voluntária",
+        "abdome em tábua",
+        "rigidez da parede",
+        "percussão dolorosa",
+        "teste da tosse",
+        "ponto de McBurney",
+        "ponto apendicular",
+        "sinal de Rovsing",
+        "sinal do psoas",
+        "sinal do obturador",
+        "apendicite aguda",
+        "escore de Alvarado",
+        "MANTRELS",
+        "sinal de Murphy",
+        "ponto cístico",
+        "colecistite aguda",
+        "sinal de Murphy ultrassonográfico",
+        "sinal de Giordano",
+        "punho-percussão lombar",
+        "pielonefrite",
+        "cólica nefrética",
+        "ureterolitíase",
+        "silêncio abdominal",
+        "íleo paralítico",
+        "obstrução intestinal",
+        "sinal de Jobert",
+        "pneumoperitônio",
+        "perfuração de víscera oca",
+        "úlcera péptica perfurada",
+        "diverticulite",
+        "isquemia mesentérica",
+        "abdome agudo no idoso",
+        "pontos ureterais",
+        "razão de verossimilhança",
+        "estação OSCE"
+       ],
+       "referencias": [
+        "Porto — Exame Clínico, 8ª ed., cap. 17 (Exame do Abdome) — pontos dolorosos (Figura 17.12) e boxes Sinal de Murphy, Sinal de Rovsing, Sinal de Blumberg, Análise da dor abdominal, Defesa da parede abdominal, Manobras especiais (manobra da descompressão súbita) e testes do psoas e do obturador; Principais síndromes abdominais: perfuração de víscera oca em peritônio livre e boxe Sinal de Jobert, úlcera péptica perfurada, peritonite aguda, oclusão intestinal, íleo paralítico e boxe Íleo",
+        "Porto — Exame Clínico, 8ª ed., cap. 5 (Técnicas Básicas do Exame Físico) — punho-percussão e percussão com a borda da mão (Figuras 5.18 e 5.19), usadas no exame das regiões lombares",
+        "Porto — Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 8 (Parede e Cavidade Abdominais), cap. 95 (Exame Clínico) — boxes Defesa abdominal e Pontos dolorosos na parede abdominal (ponto epigástrico, cístico, apendicular e ureterais; sinal de Blumberg); ausculta e silêncio abdominal",
+        "Porto — Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 7 (Fígado e Vias Biliares), cap. 91 (Exame Clínico) — sinal de Murphy: semiotécnica e localização do ponto cístico (Figura 91.3)",
+        "Porto — Semiologia Médica, 8ª ed., Parte 2, cap. 7 (Técnicas Básicas do Exame Físico) — punho-percussão e percussão com a borda da mão nas regiões lombares; sinal de Giordano",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 52 (Abdominal Pain and Tenderness), p. 445-455 — diagnósticos mais frequentes na dor abdominal aguda; achados da peritonite (guarding, rigidity, descompressão dolorosa, percussão dolorosa, teste da tosse, teste da parede abdominal de Carnett); ponto de McBurney na descrição original de 1889, sinais de Rovsing, do psoas e do obturador; sinal de Murphy na descrição de 1903; boxes EBM 52.1 a 52.5 e Tabela 52.1 (escore de Alvarado / MANTRELS); diverticulite, cólica renal e acurácia dos sinais no idoso",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 53 (Auscultation of the Abdomen), p. 459-460 — ruídos intestinais na obstrução e na peritonite",
+        "Semiologia Clínica, 1ª ed., cap. 14 (Exame físico de abdome e sistema digestório) — sinal de Giordano e técnica da punho-percussão lombar (Figura 10); defesa da parede abdominal e abdome em tábua",
+        "Semiologia Clínica, 1ª ed., cap. Dor abdominal — dor no andar inferior do abdome: quadro clínico da apendicite aguda e sinais de McBurney, Rovsing e do psoas; diverticulite; peritonite generalizada; isquemia mesentérica"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A pergunta do abdome agudo",
+         "texto": "Chama-se **abdome agudo** o conjunto de condições que causam dor e sensibilidade abdominais de instalação abrupta e exigem diagnóstico urgente — apendicite, obstrução, perfuração de víscera. Duas grandes causas respondem pela maioria: a **peritonite**, por inflamação ou perfuração, e a **obstrução intestinal**. As duas provocam dor à palpação; o que as separa está no resto do exame.\n\nMcGee registra a distribuição dos diagnósticos entre pacientes que chegam com dor abdominal de menos de sete dias: dor abdominal inespecífica em 43%, apendicite aguda em 4% a 20%, colecistite aguda em 3% a 9%, obstrução do delgado em 4% e ureterolitíase em 4%.\n\nAinda que muitos pacientes façam tomografia, o exame à beira do leito continua a ser instrumento diagnóstico fundamental — e não porque substitua a imagem. Ele decide **quem vai para onde**: alguns pacientes podem ir para casa sem imagem porque a probabilidade de peritonite é baixíssima; outros vão direto para o centro cirúrgico porque ela é altíssima; e são justamente os achados equívocos, ou que sugerem abscesso, que mais se beneficiam de imagem.\n\nÉ esse o valor do que vem a seguir. Nenhum dos sinais deste tópico faz diagnóstico sozinho. Todos eles movem probabilidade — alguns muito, a maioria pouco, e um deles move para baixo.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Antes de qualquer manobra especial, faça a pergunta mais simples do exame: peça ao paciente que tussa. Quem tem peritônio inflamado se encolhe, faz careta ou leva a mão ao abdome — e essa informação chegou sem que você encostasse a mão nele."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como examinar"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Exame do abdome com suspeita de irritação peritoneal",
+         "passos": [
+          "Observe antes de tocar: expressão facial, atitude no leito, se a parede acompanha a respiração e se o paciente evita qualquer movimento.",
+          "Peça ao paciente que tussa e observe a reação — careta, encolhimento ou mão levada ao abdome contam como resposta.",
+          "Ausculte antes de percutir e palpar, registrando ruídos presentes, aumentados, diminuídos ou ausentes.",
+          "Percuta suavemente todas as regiões, atento não ao som mas à dor que a percussão leve desperta.",
+          "Palpe superficialmente todas as regiões, começando o mais longe possível do ponto que o paciente aponta como doloroso.",
+          "Avalie a tensão da parede e determine se a contratura cede à distração, à respiração profunda e à flexão das pernas.",
+          "Compare regiões homólogas com a palpação bimanual alternada, para confirmar defesa localizada.",
+          "Pesquise os pontos dolorosos pertinentes à hipótese: cístico à direita, apendicular na fossa ilíaca direita, ureterais nas bordas dos retos.",
+          "Aplique os sinais dirigidos que a hipótese pedir — Murphy, Rovsing, psoas, obturador.",
+          "Reserve a descompressão brusca para o fim e só quando ela ainda puder mudar a conduta.",
+          "Complete com a punho-percussão lombar, dos dois lados, com força crescente e a partir de golpes leves.",
+          "Reexamine depois de algum tempo: a evolução do exame é um dado tão importante quanto o exame inicial."
+         ],
+         "observar": "Repetir o exame ao longo de horas é a manobra mais subestimada do abdome agudo. Cirurgiões experientes separam contração voluntária de contratura verdadeira de duas maneiras: distraindo o paciente durante o exame — conversando, ou usando o próprio estetoscópio para comprimir suavemente a parede — e examinando o mesmo paciente repetidamente ao longo do tempo. A contração voluntária diminui com a distração e oscila ou desaparece; a contratura involuntária, não (McGee).\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Abdome agudo em 10 passos",
+         "itens": [
+          "Inspeção antes do toque: fácies, atitude, imobilidade e participação da parede na respiração.",
+          "Teste da tosse, observando sinais de dor ou redução deliberada da intensidade da tosse.",
+          "Ausculta feita antes da percussão e da palpação, com registro do grau de atividade dos ruídos.",
+          "Percussão suave de todas as regiões, procurando dor à percussão.",
+          "Palpação superficial iniciada longe da área dolorosa, com esta deixada por último.",
+          "Avaliação da tensão da parede e diferenciação entre contração que cede à distração e contratura que não cede.",
+          "Palpação bimanual comparativa de regiões homólogas para confirmar defesa localizada.",
+          "Pesquisa dos pontos dolorosos e dos sinais dirigidos pela hipótese (Murphy, McBurney, Rovsing, psoas, obturador).",
+          "Descompressão brusca reservada para o final e apenas quando puder mudar a conduta.",
+          "Punho-percussão lombar bilateral, com golpes leves antes dos firmes, e reexame do paciente após algumas horas."
+         ]
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <!-- contorno da parede abdominal -->\n  <path d=\"M 100 26 C 89 38, 71 56, 45 68 L 47 130 C 49 148, 57 166, 79 176 L 121 176 C 143 166, 151 148, 153 130 L 155 68 C 129 56, 111 38, 100 26 Z\" />\n  <!-- bordas externas dos músculos retos -->\n  <path d=\"M 80 40 L 84 168\" stroke-width=\"1\" stroke-dasharray=\"4 4\" />\n  <path d=\"M 120 40 L 116 168\" stroke-width=\"1\" stroke-dasharray=\"4 4\" />\n  <!-- cicatriz umbilical -->\n  <circle cx=\"100\" cy=\"100\" r=\"3.5\" stroke-width=\"1.4\" />\n  <!-- espinhas ilíacas anterossuperiores -->\n  <circle cx=\"60\" cy=\"142\" r=\"2.5\" stroke-width=\"1.4\" />\n  <circle cx=\"140\" cy=\"142\" r=\"2.5\" stroke-width=\"1.4\" />\n  <!-- linha espinha ilíaca direita - umbigo, com o ponto de McBurney no terço externo -->\n  <path d=\"M 60 142 L 100 100\" stroke-width=\"1.1\" stroke-dasharray=\"4 3\" />\n  <circle cx=\"73\" cy=\"128\" r=\"4\" stroke-width=\"1.6\" />\n  <!-- ponto cístico: ângulo do rebordo costal com a borda do reto -->\n  <circle cx=\"80\" cy=\"70\" r=\"4\" stroke-width=\"1.6\" />\n  <!-- Rovsing: pressão na fossa ilíaca esquerda, dor na direita -->\n  <circle cx=\"128\" cy=\"127\" r=\"4\" stroke-width=\"1.6\" />\n  <path d=\"M 121 127 L 81 127\" stroke-width=\"1.2\" />\n  <path d=\"M 88 123 L 80 127 L 88 131\" stroke-width=\"1.2\" />\n  <!-- números -->\n  <g font-family=\"sans-serif\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"66\" y=\"62\">1</text>\n    <text x=\"62\" y=\"118\">2</text>\n    <text x=\"140\" y=\"118\">3</text>\n    <text x=\"60\" y=\"160\">4</text>\n  </g>\n  <!-- legenda -->\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"176\" y=\"46\">1 ponto cístico</text>\n    <text x=\"184\" y=\"59\">sinal de Murphy</text>\n    <text x=\"176\" y=\"80\">2 ponto de McBurney</text>\n    <text x=\"184\" y=\"93\">terço externo da linha</text>\n    <text x=\"176\" y=\"114\">3 fossa ilíaca esquerda</text>\n    <text x=\"184\" y=\"127\">sinal de Rovsing</text>\n    <text x=\"176\" y=\"148\">4 espinha ilíaca</text>\n    <text x=\"184\" y=\"161\">anterossuperior</text>\n  </g>\n  <!-- lado do paciente -->\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"62\" y=\"192\">direita do paciente</text>\n    <text x=\"140\" y=\"192\">esquerda</text>\n  </g>\n</svg>\n",
+         "legenda": "Os endereços dos sinais dirigidos. A seta indica o raciocínio do sinal de Rovsing: comprime-se de um lado e pergunta-se pela dor do outro."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Defesa e contratura"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Duas contrações, duas tradições de nomes",
+         "texto": "A parede abdominal endurecida pode ser contração **voluntária**, produzida por medo, ansiedade ou mãos frias, ou contratura **involuntária**, reflexo que o paciente não controla e que nasce do peritônio inflamado. A distinção clínica é a mesma nas duas grandes referências; a nomenclatura, não. Vale conhecer as duas para não se perder na leitura.\n\n- **Porto** chama **defesa abdominal** a contratura involuntária do reflexo visceromotor, e **contração psicomotora** a voluntária, que desaparece quando se tranquiliza ou se distrai o paciente.\n- **McGee** distingue *guarding*, a contração voluntária, de *rigidity*, a contração involuntária, e é essa a definição usada nos números que aparecem no aprofundamento deste tópico.\n\nAdotando os termos de Porto, a defesa pode ser **localizada** ou **generalizada**.\n\nA **localizada** aparece nas inflamações viscerais que alcançam o peritônio parietal vizinho, e se instala sobre a projeção do órgão doente: fossa ilíaca direita na apendicite, fossa ilíaca esquerda na peridiverticulite, hipocôndrio direito na colecistite aguda. Reconhece-se melhor pela palpação bimanual comparativa das regiões homólogas.\n\nA **generalizada** é o **abdome em tábua**, encontrado nas perfurações de víscera oca — sobretudo na úlcera péptica que se abre no peritônio livre — e nas peritonites difusas agudas.\n\nO primeiro autor a descrever com clareza a rigidez foi Celso, médico romano, por volta do ano 30 da nossa era (McGee). É um dos sinais mais antigos da medicina que ainda mudam conduta hoje.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O quadro clássico da perfuração",
+         "texto": "Vale conhecer o roteiro completo, porque nele os sinais se encaixam uns nos outros (Porto).\n\nO paciente, muitas vezes com antecedentes de doença ulcerosa, relata **dor em punhalada** de início súbito, excruciante, no epigástrio, que se irradia para os ombros e piora ao menor movimento — e que o imobiliza, deitado de costas ou com o tronco fletido. A respiração fica curta e dói. Passadas algumas horas, a dor toma todo o abdome ou escoa para a fossa ilíaca direita, para onde correm os sucos digestivos extravasados. Vômitos são raros.\n\nAo exame, o abdome em tábua, com contratura intensa sobretudo no epigástrio. Havendo gás suficiente na cavidade, a macicez hepática desaparece à percussão do hipocôndrio direito — o **sinal de Jobert**. Achados menores completam o quadro: redução do espaço de Traube, hiperestesia cutânea epigástrica e ruídos anormais à ausculta.\n\nO diagnóstico diferencial que Porto destaca é instrutivo por incluir uma doença que não é abdominal: **infarto agudo do miocárdio**, ao lado de apendicite aguda, pancreatite aguda e cólica biliar.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Descompressão brusca e as alternativas gentis"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Sinal de Blumberg",
+         "descricao": "Dor que aparece ou se exacerba no momento em que a mão do examinador é retirada abruptamente, após compressão lenta e progressiva da parede abdominal.",
+         "significado": "Sinal de irritação peritoneal. Porto observa que a manobra pode ser aplicada em qualquer região e que seu significado é sempre o mesmo — peritonite; na peritonite generalizada, o sinal aparece em qualquer área pesquisada. Vale saber que o uso corrente ampliou a descrição original: McGee registra que J. Moritz Blumberg (1873–1955), cirurgião e ginecologista alemão, descreveu a dor no baixo ventre após a retirada abrupta da mão do quadrante inferior esquerdo, e a tomava por sinal de apendicite. Os dados de McGee mostram ainda que o achado move a probabilidade pouco: razão de verossimilhança 2,0 quando presente e 0,4 quando ausente, menos do que rigidez, percussão dolorosa e defesa.",
+         "causas": [
+          "Apendicite aguda — a causa mais frequente de peritonite nas séries estudadas",
+          "Perfuração de víscera oca (úlcera péptica, divertículo, apêndice)",
+          "Colecistite aguda e diverticulite com comprometimento do peritônio parietal",
+          "Peritonite bacteriana espontânea e peritonites de outras origens"
+         ]
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Manobra da descompressão súbita",
+         "passos": [
+          "Escolha um local que se mostrou doloroso durante a palpação geral — ou, na suspeita de apendicite, o ponto apendicular.",
+          "Comprima vagarosa e progressivamente, observando a face do paciente e perguntando sobre a dor à medida que aprofunda.",
+          "Pare no ponto de compressão que o paciente tolera; não force além disso.",
+          "Avise que vai retirar a mão de repente e peça que ele diga o que acontece com a dor nesse momento.",
+          "Retire a mão abruptamente e observe a expressão facial ao mesmo tempo em que escuta a resposta.",
+          "Considere positivo apenas quando houver nítida exacerbação da dor no momento da descompressão."
+         ],
+         "observar": "Muitos cirurgiões experientes desencorajam essa manobra, qualificando-a de desnecessária, cruel, ou como uma maneira popular e pouco gentil de enfatizar o que a palpação suave já deixou óbvio (McGee). O sentido dessa crítica está nos números: a descompressão dolorosa acrescenta pouco ao que a palpação cuidadosa já informou. Use-a quando o resultado ainda puder mudar a conduta, e não como item automático de roteiro.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Percussão dolorosa e teste da tosse",
+         "texto": "Existem duas maneiras de fazer a mesma pergunta da descompressão brusca sem infligir a mesma dor. As duas se baseiam no mesmo princípio: **movimentos súbitos da parede provocam dor em quem tem peritônio inflamado.**\n\n**Percussão dolorosa.** No paciente com peritonite, os movimentos bruscos da parede — como os produzidos durante a percussão — causam dor. A percussão dolorosa está presente quando a **percussão leve** desperta dor. O achado tem razão de verossimilhança **2,4** para peritonite quando presente e **0,5** quando ausente — números melhores que os da descompressão brusca, e obtidos com uma manobra que o paciente tolera muito mais.\n\n**Teste da tosse.** O paciente é solicitado a tossir. O teste é positivo quando ele demonstra dor durante a tosse — encolhe-se, faz careta, leva as mãos ao abdome — ou quando reduz nitidamente a intensidade da tosse para evitar a dor. Razão de verossimilhança **1,9** quando presente e **0,5** quando ausente.\n\nA leitura combinada é simples e muda a prática: comece pela tosse e pela percussão suave. Se elas já responderam, a descompressão brusca não precisa ser feita.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Os sinais dirigidos à apendicite"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "McBurney, Rovsing, psoas e obturador",
+         "texto": "**Ponto de McBurney.** Em trabalho lido perante a Sociedade de Cirurgia de Nova York em 1889, defendendo a operação precoce na apendicite, Charles McBurney afirmou que todos os pacientes com apendicite têm dor e sensibilidade máximas em um ponto situado, segundo suas palavras, \"entre uma polegada e meia e duas polegadas\" da espinha ilíaca anterossuperior, sobre uma linha reta traçada dessa espinha até o umbigo (McGee) — o equivalente a cerca de 3,8 a 5 cm. É a mesma localização que Porto descreve como a união do terço externo com os dois terços internos dessa linha, e que Semiologia Clínica situa a um terço da distância entre a espinha e o umbigo. Três formulações, um só ponto.\n\n**Sinal de Rovsing** (Niels T. Rovsing, cirurgião dinamarquês, 1862–1927). É positivo quando a pressão sobre o quadrante inferior **esquerdo** provoca dor no quadrante inferior **direito** — daí ser chamado de dor indireta. Rovsing supunha que a pressão firme no abdome esquerdo empurrasse gás retrogradamente até o ceco, e que a distensão adicional doesse se o apêndice estivesse inflamado.\n\n**Sinal do psoas.** O apêndice inflamado pode repousar sobre o músculo psoas direito, o que leva o paciente a encurtá-lo fletindo o joelho. Para pesquisar o sinal, o paciente deita-se sobre o lado esquerdo e o examinador hiperestende o quadril direito. A extensão dolorosa do quadril é a resposta positiva.\n\n**Sinal do obturador.** Baseia-se no mesmo princípio: estirar um músculo pélvico irritado pelo apêndice inflamado provoca dor. Para estirar o obturador interno direito, flete-se o quadril e o joelho direitos e faz-se a rotação interna do quadril.\n\n**Toque retal.** Nos casos em que a inflamação se confina à pelve, o toque pode revelar sensibilidade, sobretudo à direita; e alguns pacientes com perfuração apresentam massa retal, correspondente a abscesso pélvico. Nos estudos, a sensibilidade ao toque retal não se mostrou útil para o diagnóstico — mas o exame continua indicado justamente para detectar o paciente raro, 2% ou menos, com abscesso pélvico e massa (McGee). A técnica do toque retal pertence a um capítulo próprio e não é descrita aqui.\n"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Sinais do psoas e do obturador",
+         "passos": [
+          "Explique cada movimento antes de executá-lo e pergunte pela dor durante e não apenas depois.",
+          "Psoas — posicione o paciente em decúbito lateral esquerdo, com o membro inferior direito por cima.",
+          "Estabilize a pelve com uma das mãos e hiperestenda passivamente o quadril direito com a outra.",
+          "A resposta é positiva quando a extensão do quadril desperta dor no quadrante inferior direito.",
+          "Uma alternativa descrita por Porto é a flexão ativa do membro inferior direito contra resistência.",
+          "Obturador — com o paciente em decúbito dorsal, flita o quadril e o joelho direitos.",
+          "Segurando o tornozelo e o joelho, faça a rotação interna do quadril direito.",
+          "A resposta é positiva quando a manobra desperta dor no quadrante inferior direito."
+         ],
+         "observar": "Os dois sinais têm desempenhos diferentes, e isso importa na hora de escolher o que pesquisar. O sinal do psoas eleva modestamente a probabilidade de apendicite (razão de verossimilhança 2,0), enquanto o sinal do obturador, nos estudos disponíveis, não se mostrou útil (McGee). Ausentes, nenhum dos dois reduz a probabilidade.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Vesícula e loja renal"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Sinal de Murphy",
+         "descricao": "Interrupção súbita da inspiração profunda pela dor, quando os dedos do examinador estão comprimindo o ponto cístico, sob o rebordo costal direito.",
+         "significado": "Sugere colecistite aguda. Razão de verossimilhança 3,2 quando presente e 0,6 quando ausente — o achado de maior peso no exame do quadrante superior direito, à frente da própria dor à palpação da região (2,7).",
+         "causas": [
+          "Colecistite aguda, com ou sem cálculo",
+          "Colelitíase e colecistite crônica, em que Porto descreve o sinal com frequência ainda que a vesícula não seja palpável",
+          "Abscesso hepático piogênico — em que a presença do sinal aumenta a probabilidade de sepse associada às vias biliares"
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Como Murphy descreveu, e o que os dados acrescentaram",
+         "texto": "Em 1903, o cirurgião americano Charles Murphy afirmou que a vesícula hipersensível da colecistite impede o paciente de completar uma inspiração profunda quando os dedos do examinador estão em gancho sob o arco costal direito, abaixo da margem hepática: o diafragma empurra o fígado para baixo até que a vesícula sensível alcance os dedos que examinam, e a inspiração cessa de repente, como se tivesse sido desligada (McGee).\n\nA semiotécnica de Porto traduz isso em gestos: o examinador, à direita do paciente em decúbito dorsal, insinua o polegar sob o rebordo costal direito na altura da borda externa do músculo reto, com a palma apoiada no flanco, e — sem afrouxar a pressão — pede uma inspiração profunda. O ponto cístico fica no ângulo formado pelo rebordo costal direito com a borda externa do reto abdominal; em pessoas obesas, Porto oferece uma segunda referência: a interseção do arco costal com a linha que une a crista ilíaca ao arco costal passando pelo umbigo.\n\nDuas informações que os dados acrescentaram à descrição original:\n\n- Existe um **sinal de Murphy ultrassonográfico**, que é simplesmente a sensibilidade máxima localizada sobre a vesícula durante o exame de imagem. Seu desempenho é muito superior ao da palpação convencional — sensibilidade 63%, especificidade 94%, razão de verossimilhança 9,9 quando presente e 0,4 quando ausente. Como esse sinal também depende de comprimir a parede, a diferença sugere que o ponto fraco da palpação convencional é **localizar com precisão a vesícula**, e não a manobra em si.\n- A **massa palpável no quadrante superior direito** não ajuda no diagnóstico de colecistite: vesícula palpável e dolorosa é incomum nessa doença (sensibilidade abaixo de 25%), e a sensação de massa pode vir de hepatopatia ou de rigidez localizada da parede por outras causas.\n"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Punho-percussão lombar (sinal de Giordano)",
+         "passos": [
+          "Com o paciente sentado ou em decúbito lateral, exponha as regiões lombares.",
+          "Localize o ângulo costovertebral de cada lado, sobre a área de projeção renal.",
+          "Apoie a palma de uma das mãos sobre o ângulo costovertebral, se preferir amortecer o golpe.",
+          "Golpeie com a borda cubital da mão fechada, ou com a borda ulnar da mão de dedos estendidos e unidos.",
+          "Comece com golpes leves e aumente a intensidade apenas se não houver resposta.",
+          "Repita do outro lado e compare: a assimetria da resposta vale mais que a resposta isolada.",
+          "Considere positivo quando o golpe desperta dor intensa — o sinal de Giordano."
+         ],
+         "observar": "O sinal é muito sensível e pouco específico: além da pielonefrite aguda, pode ser positivo na litíase renal com cólica nefrética e mesmo em contratura muscular (Semiologia Clínica). Em um estudo com 1.333 pacientes que chegaram com dor abdominal aguda, McGee registra dois achados úteis para ureterolitíase — dor no flanco, com razão de verossimilhança 27,7, e dor à palpação renal, com 3,6 quando presente e 0,2 quando ausente —, ainda que ambos fiquem atrás da hematúria microscópica.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "A ausculta no abdome agudo"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O que o silêncio diz e o que não diz",
+         "texto": "Ensina-se tradicionalmente que a peritonite cursa com ruídos diminuídos ou ausentes. A ausculta abdominal continua obrigatória no abdome agudo, mas por outra razão, e com outra expectativa.\n\n**Para peritonite, os ruídos não ajudam.** Nos estudos de pacientes com dor abdominal aguda, os ruídos anormais — hiperativos, diminuídos ou ausentes — tiveram razão de verossimilhança não significativa para peritonite (McGee). O mesmo vale para a febre e para a sensibilidade ao toque retal.\n\n**Para obstrução, ajudam.** Ruídos hiperativos têm razão de verossimilhança 5,0; o conjunto dos ruídos anormais, 3,2; e ruídos normais reduzem modestamente a probabilidade de obstrução (0,4). Em animais com obstrução experimental completa, os ruídos ficam hiperativos por cerca de trinta minutos antes de diminuir ou desaparecer — o que explica por que, entre pacientes com obstrução do delgado, cerca de 40% têm ruídos hiperativos e cerca de 25% os têm diminuídos ou ausentes.\n\nO **silêncio abdominal** — desaparecimento completo dos ruídos — é o achado do íleo paralítico, e sua leitura depende inteiramente do contexto: pós-operatório além de 72 horas, irritação peritoneal, distúrbio hidreletrolítico com hipopotassemia, anoxia isquêmica da parede intestinal (Porto). A caracterização dos ruídos, os motivos do ceticismo sobre eles e a distinção entre íleo e obstrução mecânica estão no tópico de inspeção e ausculta do abdome.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Aprofundamento"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Sinais de peritonite na dor abdominal aguda (McGee)",
+         "colunas": [
+          "Achado",
+          "Razão de verossimilhança se presente",
+          "Razão de verossimilhança se ausente"
+         ],
+         "linhas": [
+          [
+           "Rigidez (contratura involuntária)",
+           "3,6",
+           "0,8"
+          ],
+          [
+           "Percussão dolorosa",
+           "2,4",
+           "0,5"
+          ],
+          [
+           "Contração da parede (guarding, na definição de McGee)",
+           "2,3",
+           "0,6"
+          ],
+          [
+           "Dor à descompressão brusca",
+           "2,0",
+           "0,4"
+          ],
+          [
+           "Teste da tosse positivo",
+           "1,9",
+           "0,5"
+          ],
+          [
+           "Teste da parede abdominal positivo (Carnett)",
+           "0,1",
+           "não significativa"
+          ],
+          [
+           "Febre, ruídos anormais, dor ao toque retal",
+           "não significativa",
+           "não significativa"
+          ]
+         ],
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Lendo a tabela da peritonite",
+         "texto": "Três conclusões saem dessa tabela, e todas contrariam algum hábito de enfermaria.\n\n**A primeira: a descompressão brusca não é o melhor sinal de peritonite.** Rigidez, percussão dolorosa e contração da parede são mais acurados que ela. Isso confirma a opinião antiga de cirurgiões experientes de que a descompressão dolorosa acrescenta pouco ao que a palpação suave já revelou.\n\n**A segunda: o único achado que move a probabilidade para baixo com força é o teste da parede abdominal positivo**, com razão de verossimilhança 0,1. Ele não diz que existe peritonite; diz que a dor é da parede. É a manobra de elevação da cabeça descrita no tópico de palpação do abdome, e vale a pena tê-la no roteiro justamente porque nenhum dos outros sinais afasta o diagnóstico com essa força. Na dor abdominal **crônica**, o mesmo teste reduz fortemente a probabilidade de causa visceral (também 0,1) e, quando positivo, prediz que a dor responderá à infiltração do ponto doloroso e que nenhuma doença grave aparecerá em três ou mais meses de seguimento (7,0).\n\n**A terceira: a febre não discrimina.** Nem a febre, nem os ruídos intestinais, nem a dor ao toque retal alteram a probabilidade de peritonite nesses estudos.\n\nHá ainda um achado que a evidência derrubou e que vale registrar porque contraria um ensinamento antigo: **a analgesia oferecida ao paciente com dor abdominal aguda não reduz a acurácia dos sinais individuais nem a acurácia diagnóstica global do examinador** (McGee). Deixar o paciente com dor para \"não mascarar o exame\" não se sustenta nos dados.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Achados de apendicite na dor abdominal aguda (McGee)",
+         "colunas": [
+          "Achado",
+          "Razão de verossimilhança se presente",
+          "Razão de verossimilhança se ausente"
+         ],
+         "linhas": [
+          [
+           "Dor no ponto de McBurney",
+           "3,4",
+           "0,4"
+          ],
+          [
+           "Sinal de Rovsing",
+           "2,3",
+           "0,8"
+          ],
+          [
+           "Sinal do psoas",
+           "2,0",
+           "não significativa"
+          ],
+          [
+           "Dor no quadrante inferior direito",
+           "1,9",
+           "0,3"
+          ],
+          [
+           "Sinal do obturador",
+           "não significativa",
+           "não significativa"
+          ],
+          [
+           "Escore de Alvarado de 7 ou mais",
+           "3,1",
+           "—"
+          ],
+          [
+           "Escore de Alvarado de 4 ou menos",
+           "0,1",
+           "—"
+          ]
+         ],
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O escore de Alvarado e o ponto que não está no ponto",
+         "texto": "O **escore de Alvarado**, também chamado **MANTRELS** pelas iniciais de seus itens em inglês, é um dos mais antigos e mais usados instrumentos de decisão na suspeita de apendicite. Reunindo 19 estudos com mais de 4.700 pacientes com dor abdominal aguda, McGee mostra que um escore de **7 ou mais** eleva a probabilidade de apendicite (razão de verossimilhança 3,1) e um escore de **4 ou menos** a reduz substancialmente (0,1).\n\nOs itens e seus pontos, na tabela original: migração da dor (1), anorexia (1), náuseas e vômitos (1), dor no quadrante inferior direito (2), dor à descompressão (1), elevação da temperatura (1), leucocitose acima de 10.000/μL (2) e desvio à esquerda acima de 75% de neutrófilos (1) — total de 10 pontos. A definição de migração é a clássica: dor que se desloca da região periumbilical ou epigástrica para o quadrante inferior direito. A elevação da temperatura é definida como temperatura oral de 37,3 °C ou mais.\n\nRepare que o escore mistura exame físico e laboratório, e que os itens de maior peso são um de cada tipo — a dor localizada e a leucocitose.\n\nSobre o próprio ponto de McBurney, um estudo elegante mostra onde está a perda. A investigação radiológica revela que o apêndice normal às vezes fica a alguma distância do ponto clássico. Em pacientes com dor abdominal aguda, examinadores localizaram primeiro o apêndice de cada paciente com um aparelho portátil de ultrassom e depois pesquisaram a dor máxima **sobre aquele ponto individual**. O desempenho desse \"ponto de McBurney ultrassonográfico\" foi nitidamente superior: sensibilidade 87%, especificidade 90%, razão de verossimilhança 8,4 quando presente e 0,1 quando ausente. O sinal clássico perde acurácia não por ser um mau raciocínio, mas por usar uma referência de superfície onde a anatomia individual varia.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Colecistite, diverticulite e o que muda no idoso",
+         "texto": "**Colecistite.** Em pacientes com dor no quadrante superior direito e suspeita de colecistite, o sinal de Murphy tem razão de verossimilhança 3,2 e a dor à palpação da região, 2,7; a ausência de dor à palpação do quadrante superior direito reduz a probabilidade (0,4). Febre e massa no quadrante superior direito não ajudam.\n\n**Diverticulite.** Aqui as fontes divergem, e a divergência é instrutiva. Em um estudo mais antigo, com 600 pacientes com dor abdominal aguda e achados operatórios como padrão, a dor no quadrante inferior esquerdo foi muito específica (98%) e pouco sensível (22%), com razão de verossimilhança 13,8 quando presente e 0,8 quando ausente; a sensibilidade foi baixa porque a maioria dos pacientes com diverticulite tinha dor mais difusa. Em um estudo posterior, com 163 pacientes com dor abdominal baixa e tomografia como padrão, o mesmo achado foi mais sensível (76%) e menos específico (65%), com razão de verossimilhança 2,2 quando presente e 0,4 quando ausente — a especificidade caiu porque muito mais doenças imitadoras entraram na amostra, como enterite, câncer de cólon, alterações ginecológicas e colite isquêmica (McGee). Os dois números estão certos; o que muda é a população e o padrão de referência.\n\n**O idoso.** É onde o exame mais falha, e por dois motivos que se somam.\n\n- **A dor pode simplesmente não estar lá.** Até 25% dos pacientes com mais de 60 anos e colecistite não têm nenhuma dor à palpação abdominal, e o sinal de Murphy é menos acurado nessa faixa. Alguns desses pacientes também não relatam dor espontânea, por alteração do estado mental (McGee).\n- **A parede responde menos.** A tensão da parede abdominal é reduzida em idosos, assim como em crianças, multíparas e desnutridos (Porto) — de modo que a contratura, o sinal mais acurado de peritonite, pode faltar mesmo diante de peritônio inflamado.\n\nSome-se a isso a advertência de Porto sobre o exame do idoso: é importante palpar e auscultar o trajeto da aorta abdominal, porque dilatações aneurismáticas e estenoses de seus ramos são mais comuns em idades avançadas.\n\nUma última armadilha, apontada por Semiologia Clínica e que não é exclusiva do idoso, mas nele é frequente: na **isquemia mesentérica**, a suspeita nasce justamente da **desproporção** — dor muito mais intensa que os achados do exame físico —, sobretudo em vasculopatas, idosos e portadores de fibrilação atrial crônica ou trombofilias.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde este tópico encontra os outros",
+         "texto": "Este é o tópico em que o capítulo inteiro é cobrado de uma vez.\n\n- **A caracterização da dor que trouxe o paciente** — modo de instalação, localização, irradiação, tipo, intensidade, duração, periodicidade, ritmicidade, fatores desencadeantes e de alívio, manifestações concomitantes — está no tópico de queixa principal e história da doença atual. Nenhum sinal peritoneal se interpreta sem ela.\n- **A ordem invertida do exame do abdome, a caracterização dos ruídos e o ceticismo sobre eles** estão no tópico de inspeção e ausculta do abdome, junto com o peristaltismo visível e a distinção entre íleo e obstrução mecânica.\n- **O sinal de Jobert** — desaparecimento da macicez hepática — é um achado de percussão, e a técnica e as demais causas de timpanismo no hipocôndrio direito estão no tópico de percussão do abdome.\n- **A manobra de elevação da cabeça (teste da parede abdominal)**, que é o único achado desta tabela capaz de reduzir fortemente a probabilidade de peritonite, tem semiotécnica no tópico de palpação do abdome, ao lado da avaliação da tensão da parede.\n- **A palpação da aorta e a pulsação expansiva**, que o idoso com dor abdominal obriga a procurar, estão no tópico de palpação do abdome.\n- **A frequência cardíaca, a frequência respiratória e a temperatura**, que compõem a gravidade do quadro e entram no escore de Alvarado, têm técnica e valores de referência nos tópicos de sinais vitais.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Seis erros no abdome agudo",
+         "texto": "1. **Fazer a descompressão brusca como item de rotina.** Ela dói, acrescenta pouco ao que a palpação suave já mostrou e é superada por rigidez, percussão dolorosa e defesa. Reserve-a para quando o resultado ainda puder mudar a conduta.\n2. **Examinar uma vez só.** A distinção entre contração voluntária e contratura verdadeira depende da distração e da repetição do exame ao longo do tempo. Um abdome agudo se examina mais de uma vez.\n3. **Tranquilizar-se com ruídos hidroaéreos presentes.** Eles não alteram a probabilidade de peritonite. Servem para obstrução, não para irritação peritoneal.\n4. **Tranquilizar-se com a ausência de febre.** A febre não discrimina peritonite nos estudos disponíveis.\n5. **Aplicar os mesmos limiares ao idoso.** Até um quarto dos pacientes acima de 60 anos com colecistite não tem nenhuma dor à palpação, e a parede responde menos à irritação peritoneal.\n6. **Esquecer de perguntar se a dor é da parede.** O teste da parede abdominal positivo é o achado de maior poder para afastar causa intracavitária, e não é feito por quem não se lembra dele.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Quando o exame do abdome é francamente doloroso e ainda assim ambíguo, a informação que falta raramente vem de uma manobra a mais. Vem do relógio: reexamine o mesmo paciente daqui a algumas horas, com a mesma técnica, e compare. A evolução do exame é um dado, e costuma ser o dado decisivo."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "abd-agudo-1",
+           "enunciado": "Entre os sinais pesquisados na suspeita de peritonite, qual conclusão os dados de McGee sustentam sobre a dor à descompressão brusca?",
+           "alternativas": [
+            "É o sinal mais acurado de peritonite, com razão de verossimilhança acima de 10",
+            "Sua ausência praticamente exclui peritonite, com razão de verossimilhança 0,05",
+            "Não altera a probabilidade de peritonite, sendo achado sem valor diagnóstico na dor abdominal aguda de qualquer origem",
+            "Move a probabilidade pouco (2,0 se presente, 0,4 se ausente) e é superada pela rigidez e pela percussão dolorosa"
+           ],
+           "corretaIndex": 3,
+           "explicacao": "Os achados que mais elevam a probabilidade de peritonite são a rigidez (3,6), a percussão dolorosa (2,4) e a contração da parede (2,3); a descompressão dolorosa fica atrás dos três, com 2,0 quando presente e 0,4 quando ausente. Isso confirma a opinião de cirurgiões experientes de que a manobra acrescenta pouco ao que a palpação suave já informou. Não é um achado sem valor — apenas um achado que a tradição superestimou."
+          },
+          {
+           "id": "abd-agudo-2",
+           "enunciado": "Um paciente com dor abdominal aguda tem teste da parede abdominal positivo: mantida a pressão sobre o ponto doloroso, a dor aumenta quando ele levanta a cabeça e os ombros. Qual é o efeito desse achado sobre a probabilidade de peritonite?",
+           "alternativas": [
+            "Aumenta muito, pois a contração aproxima o peritônio inflamado da mão do examinador",
+            "Reduz fortemente a probabilidade de peritonite (razão de verossimilhança 0,1), porque aponta a parede como origem da dor",
+            "Não altera a probabilidade, pois o teste avalia apenas a força da musculatura",
+            "Aumenta moderadamente, com razão de verossimilhança em torno de 2,3"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "O teste da parede abdominal positivo tem razão de verossimilhança 0,1 para peritonite — é o único achado da lista que reduz a probabilidade com força. A lógica é a da manobra: se a dor aumenta com a contração, ela vem da parede; se diminui, os músculos contraídos estão protegendo o conteúdo da cavidade da mão do examinador. Na dor abdominal crônica, o mesmo teste reduz fortemente a probabilidade de causa visceral."
+          },
+          {
+           "id": "abd-agudo-3",
+           "enunciado": "Em que consiste o sinal de Rovsing e qual é o raciocínio que o originou?",
+           "alternativas": [
+            "Dor no quadrante inferior direito à hiperextensão passiva do quadril direito, por irritação do músculo psoas",
+            "Interrupção súbita da inspiração à compressão do ponto cístico, por hipersensibilidade da vesícula",
+            "Dor no quadrante inferior direito provocada pela pressão sobre o quadrante inferior esquerdo, atribuída ao gás empurrado até o ceco",
+            "Dor à descompressão brusca do quadrante inferior direito, considerada positiva apenas quando vem acompanhada de contratura da parede na mesma região"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "O sinal de Rovsing é a dor indireta: comprime-se o quadrante inferior esquerdo e pergunta-se pela dor no direito. Rovsing acreditava que a pressão firme no abdome esquerdo forçasse gás em sentido retrógrado, pelo ângulo esplênico e pelo transverso, até o ceco. Tem razão de verossimilhança 2,3 para apendicite. A hiperextensão do quadril é o sinal do psoas, e a interrupção da inspiração pela compressão do ponto cístico é o sinal de Murphy."
+          },
+          {
+           "id": "abd-agudo-4",
+           "enunciado": "Uma mulher de 78 anos chega com mal-estar e febre baixa. O abdome é depressível e ela não refere dor à palpação do hipocôndrio direito. Que cuidado o exame do idoso impõe nesse cenário?",
+           "alternativas": [
+            "Lembrar que até 25% dos pacientes acima de 60 anos com colecistite não têm dor à palpação abdominal",
+            "Considerar a ausência de dor à palpação suficiente para afastar doença intra-abdominal grave nessa faixa etária, desde que o abdome esteja depressível",
+            "Substituir o exame físico pela descompressão brusca, que é o sinal mais confiável no idoso",
+            "Concluir que a dor é da parede abdominal, já que o abdome está depressível"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "Até um quarto dos pacientes acima de 60 anos com colecistite não tem nenhuma dor à palpação abdominal, e alguns nem relatam dor espontânea, por alteração do estado mental; o sinal de Murphy também é menos acurado nessa faixa. Some-se a isso que a tensão da parede é reduzida em idosos, o que faz faltar justamente a rigidez, o sinal mais acurado de peritonite. A descompressão brusca não é o sinal mais confiável em nenhuma faixa etária, e concluir dor de parede exigiria o teste da parede abdominal."
+          },
+          {
+           "id": "abd-agudo-5",
+           "enunciado": "Um paciente com antecedentes de doença ulcerosa apresenta dor epigástrica súbita e excruciante, abdome em tábua, e a percussão do hipocôndrio direito revela timpanismo onde deveria haver macicez hepática. Como se chama esse achado da percussão e o que ele indica?",
+           "alternativas": [
+            "Sinal de Gersuny, indicando fecaloma no sigmoide com ar interposto",
+            "Sinal de Blumberg, indicando irritação peritoneal localizada",
+            "Semicírculo de Skoda, indicando líquido livre na cavidade",
+            "Sinal de Jobert, indicando pneumoperitônio por perfuração de víscera oca"
+           ],
+           "corretaIndex": 3,
+           "explicacao": "O desaparecimento da macicez hepática, substituída por timpanismo, é o sinal de Jobert, e no contexto descrito indica pneumoperitônio por perfuração. Vale lembrar que o mesmo achado percutório pode resultar de interposição de alça entre o fígado e a parede ou de atrofia hepática acentuada, o que reforça a necessidade de lê-lo dentro do quadro. O sinal de Gersuny é a crepitação percebida à palpação de um fecaloma, e o semicírculo de Skoda pertence à pesquisa de ascite."
+          },
+          {
+           "id": "abd-agudo-6",
+           "enunciado": "Que valor a ausculta abdominal tem no paciente com dor abdominal aguda, segundo os dados reunidos por McGee?",
+           "alternativas": [
+            "Ruídos ausentes confirmam peritonite, com razão de verossimilhança acima de 5",
+            "Não alteram a probabilidade de peritonite, mas ajudam na obstrução: hiperativos 5,0 e ruídos normais 0,4",
+            "A ausculta abdominal não tem utilidade alguma e pode ser omitida na dor aguda",
+            "Ruídos hiperativos elevam igualmente a probabilidade de peritonite e de obstrução, por refletirem a mesma resposta reflexa do intestino à inflamação"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Nos estudos de dor abdominal aguda, os ruídos anormais tiveram razão de verossimilhança não significativa para peritonite — assim como a febre e a dor ao toque retal. Para obstrução, porém, eles informam: ruídos hiperativos têm 5,0, o conjunto dos ruídos anormais 3,2, e ruídos normais reduzem modestamente a probabilidade (0,4). Entre pacientes com obstrução do delgado, cerca de 40% têm ruídos hiperativos e cerca de 25% os têm diminuídos ou ausentes."
+          }
+         ]
+        }
+       ]
+      }
+     ]
     }
    ]
   }
