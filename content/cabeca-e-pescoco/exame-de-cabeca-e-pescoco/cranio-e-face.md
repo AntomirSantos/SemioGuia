@@ -406,9 +406,9 @@ linhas:
 titulo: Quanto dois examinadores concordam neste capítulo
 nivel: avancado
 texto: |
-  Vale abrir o capítulo com uma medida de humildade. A Tabela 5.1 de McGee (p. 30, seção *Head and Neck*) reúne a concordância entre observadores — o coeficiente kappa — de vários achados que os quatro tópicos deste capítulo ensinam. Os números não medem se o achado é útil; medem se **dois examinadores encontram a mesma coisa no mesmo paciente**.
+  Vale abrir o capítulo com uma medida de humildade. A Tabela 5.1 de McGee (p. 30, seção *Head and Neck*) reúne a concordância entre observadores — o coeficiente kappa — de vários achados que este capítulo ensina ou nomeia. Os números não medem se o achado é útil; medem se **dois examinadores encontram a mesma coisa no mesmo paciente**.
 
-  A leitura, do mais reprodutível para o menos:
+  A leitura, do mais reprodutível para o menos (ordenados pelo limite inferior de cada intervalo):
 
   - **teste do atrito dos dedos**, alternativa ao sussurro descrita por McGee — 0,83;
   - **manobra que compara a resposta luminosa entre os dois olhos** — 0,63;

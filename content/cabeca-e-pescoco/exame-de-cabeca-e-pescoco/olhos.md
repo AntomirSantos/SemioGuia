@@ -177,7 +177,7 @@ texto: |
 
   Na exoftalmia, o que se perde é justamente a relação normal entre o limbo e as pálpebras: aparece um crescente de esclerótica visível acima e abaixo, e o achado fica mais evidente quando se olha o paciente de perfil (Porto, *Semiologia Médica*).
 
-  Duas alterações da posição e do movimento do globo entram aqui apenas como **moldura nomeada**: os **desvios**, observados nos estrabismos, e o **nistagmo**, com seus abalos e oscilações rápidas em um dos vários planos. Porto os descreve na mesma página e remete ao exame neurológico — e é para lá que este guia também os manda.
+  Duas alterações da posição e do movimento do globo têm a sua **caracterização** aqui apenas como **moldura nomeada**: os **desvios**, observados nos estrabismos, e o **nistagmo**, com seus abalos e oscilações rápidas em um dos vários planos. Porto os descreve na mesma página e remete ao exame neurológico — e é para lá que este guia também os manda.
 :::
 
 ::: secao
