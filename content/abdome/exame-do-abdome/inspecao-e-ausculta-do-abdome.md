@@ -308,7 +308,7 @@ texto: |
   - **Hipogástrio** — útero grávido, tumores do útero e do ovário, retenção urinária, que Semiologia Clínica registra pelo nome de enfermaria **bexigoma**.
   - **Sobre soluções de continuidade da parede** — hérnias umbilical, inguinal, femoral, escrotal, ventrolateral e **incisional**, além da diástase dos retos.
 
-  As **retrações** são mais raras e quase sempre tardias: consequências de intervenções cirúrgicas ou de traumas abdominais. Localizadas, entram na descrição pelo mesmo roteiro do abaulamento.
+  As **retrações** são mais raras — habitualmente decorrência de cicatrizes (Semiologia Clínica). Localizadas, entram na descrição pelo mesmo roteiro do abaulamento.
 
   Um cuidado antes de nomear qualquer coisa: o abaulamento assimétrico de um flanco pode ser visceromegalia, mas as grandes esplenomegalias se reconhecem à inspeção sobretudo pela **mobilidade durante os movimentos respiratórios** — e essa é uma distinção que só a inspeção dinâmica oferece.
 :::

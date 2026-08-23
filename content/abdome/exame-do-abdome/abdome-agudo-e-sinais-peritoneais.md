@@ -294,7 +294,7 @@ titulo: Como Murphy descreveu, e o que os dados acrescentaram
 texto: |
   Em 1903, o cirurgião americano Murphy afirmou que a vesícula hipersensível da colecistite impede o paciente de completar uma inspiração profunda quando os dedos do examinador estão em gancho sob o arco costal direito, abaixo da margem hepática: o diafragma empurra o fígado para baixo até que a vesícula sensível alcance os dedos que examinam, e a inspiração cessa de repente, como se tivesse sido desligada (McGee).
 
-  A semiotécnica de Porto traduz isso em gestos: o examinador, à direita do paciente em decúbito dorsal, insinua o polegar sob o rebordo costal direito na altura da borda externa do músculo reto, com a palma apoiada no flanco, e — sem afrouxar a pressão — pede uma inspiração profunda. O ponto cístico fica no ângulo formado pelo rebordo costal direito com a borda externa do reto abdominal; em pessoas obesas, Porto oferece uma segunda referência: o ponto em que o arco costal é cruzado por uma linha traçada do umbigo até a crista ilíaca anterossuperior **esquerda** (Figura 91.3).
+  A semiotécnica de Porto traduz isso em gestos: o examinador, à direita do paciente em decúbito dorsal, insinua o polegar sob o rebordo costal direito na altura da borda externa do músculo reto, com a palma apoiada no flanco, e — sem afrouxar a pressão — pede uma inspiração profunda. O ponto cístico fica no ângulo formado pelo rebordo costal direito com a borda externa do reto abdominal; em pessoas obesas, Porto oferece uma segunda referência (Figura 91.3): a interseção do arco costal direito com "a linha que une a crista ilíaca anterossuperior **esquerda** ao arco costal, passando pelo umbigo".
 
   Duas informações que os dados acrescentaram à descrição original:
 
