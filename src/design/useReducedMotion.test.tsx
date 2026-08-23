@@ -1,6 +1,6 @@
 import { act, renderHook } from '@testing-library/react-native';
 import { AccessibilityInfo } from 'react-native';
-import { useReducedMotion } from './useReducedMotion';
+import { _resetReducedMotionCacheParaTeste, useReducedMotion } from './useReducedMotion';
 
 // `jest.spyOn` sobre os métodos, não `jest.mock('react-native', ...)`: re-
 // implementar o módulo inteiro reexecuta a inicialização nativa fora da
@@ -22,6 +22,7 @@ describe('useReducedMotion', () => {
 
   beforeEach(() => {
     remove.mockClear();
+    _resetReducedMotionCacheParaTeste();
     isReduceMotionEnabled = jest.spyOn(AccessibilityInfo, 'isReduceMotionEnabled');
     addEventListener = jest.spyOn(AccessibilityInfo, 'addEventListener').mockReturnValue({ remove } as never);
   });
@@ -41,9 +42,9 @@ describe('useReducedMotion', () => {
   // Fase 8, revisão de fase (A7): antes da promise de isReduceMotionEnabled
   // resolver, o hook devolvia `false` "otimista" — EntradaAnimada podia
   // animar antes de saber se o usuário pediu movimento reduzido de verdade.
-  // Agora começa `null` (preferência desconhecida) e só os consumidores
-  // decidem tratar `null` como "reduzir" (padrão seguro).
-  test('valor inicial é null até isReduceMotionEnabled resolver', async () => {
+  // Na PRIMEIRA montagem nativa do app começa `null` (preferência
+  // desconhecida) e os consumidores tratam como "reduzir" (padrão seguro).
+  test('valor inicial é null até isReduceMotionEnabled resolver (primeira montagem)', async () => {
     let resolver: (valor: boolean) => void = () => {};
     isReduceMotionEnabled.mockReturnValue(
       new Promise<boolean>((resolve) => {
@@ -87,6 +88,32 @@ describe('useReducedMotion', () => {
       callback?.(false);
     });
     expect(result.current).toBe(false);
+  });
+
+  // Fase 8, re-revisão de fase: inicializar sempre em `null` matava a
+  // animação de entrada — os Animated.Values nasciam no estado "sem
+  // animação" e a resolução posterior animava 1→1 (no-op). O valor
+  // resolvido fica num cache de módulo: montagens seguintes já iniciam
+  // resolvidas e a animação toca de verdade.
+  test('montagens seguintes iniciam com o valor do cache, sem passar por null', async () => {
+    isReduceMotionEnabled.mockResolvedValue(false);
+    const primeira = await renderHook(() => useReducedMotion());
+    expect(primeira.result.current).toBe(false);
+    await act(async () => {
+      primeira.unmount();
+    });
+
+    let resolver: (valor: boolean) => void = () => {};
+    isReduceMotionEnabled.mockReturnValue(
+      new Promise<boolean>((resolve) => {
+        resolver = resolve;
+      }),
+    );
+    const segunda = await renderHook(() => useReducedMotion());
+    expect(segunda.result.current).toBe(false);
+    await act(async () => {
+      resolver(false);
+    });
   });
 
   test('remove o listener de acessibilidade ao desmontar', async () => {

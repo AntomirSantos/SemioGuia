@@ -11,11 +11,11 @@ const DESLOCAMENTO_PX = 8;
 // chamador força uma nova animação passando um `key` diferente. Com
 // movimento reduzido (spec §3.4), o conteúdo aparece direto, sem animação.
 //
-// `useReducedMotion()` retorna `null` até resolver no nativo — tratamos
-// `null` como "reduzir" (padrão mais seguro: revisão de fase pegou a
-// animação disparando otimista com `false` nesse intervalo, antes de saber
-// se o usuário pediu movimento reduzido de verdade). Só anima quando a
-// preferência já foi confirmada como `false`.
+// `useReducedMotion()` resolve síncrono na web e via cache de módulo no
+// nativo (ver o hook) — só é `null` na primeiríssima montagem nativa do
+// app, quando tratamos como "reduzir" (nunca animar antes de saber). Como
+// os Animated.Values nascem do valor já resolvido, a animação de entrada
+// toca de verdade em toda montagem com movimento reduzido desligado.
 export function EntradaAnimada({ children, eixo = 'y' }: { children: ReactNode; eixo?: 'x' | 'y' }) {
   const reduzido = useReducedMotion();
   const semAnimacao = reduzido !== false;
