@@ -72,6 +72,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 60 (Miscellaneous Cranial Nerves), p. 541-550 — nervo facial: distinção entre fraqueza central e periférica pela distribuição e pelos movimentos afetados, etiologia das paralisias periféricas isoladas, achados associados e complicações da paralisia de Bell, diagnóstico topográfico e seus limites; nervos glossofaríngeo e vago: sensibilidade faríngea, movimento velar e reflexo do vômito, paralisia pseudobulbar e boxe EBM 60.1 (aspiração após acidente vascular cerebral); nervo acessório e nervo hipoglosso, com as síndromes bulbar lateral, bulbar medial e do forame jugular"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 68 (Acute Vertigo and Imbalance), p. 631-637 — reflexo vestíbulo-ocular e teste do impulso cefálico (Figura 68.2), desvio oblíquo, perseguição sacádica, nistagmo que muda de direção (Figura 68.3) e boxe EBM 68.1"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 24 (Hearing), p. 195-201 — testes de audição à beira do leito e provas com diapasão de Weber e de Rinne (Tabela 24.1) e boxe EBM 24.1"
+  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 65 (Coordination and Cerebellar Testing), p. 613-618 — vocabulário do nistagmo e o comportamento do nistagmo durante a fixação retiniana"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 33, Tabela 5.1, seção Neurologic Examination — concordância entre observadores para sensibilidade faríngea, paralisia facial, disartria, força da língua, teste de deglutição de água e teste de dessaturação"
 revisao: pendente
 ---
@@ -119,7 +120,8 @@ passos:
   - "Vestibular: com o paciente de pé, pés juntos e braços estendidos à frente, observe desvios com os olhos abertos e depois fechados."
   - "Procure nistagmo espontâneo com o paciente olhando para a frente e depois para cada lado, sem chegar ao olhar lateral extremo."
   - "Palato: com a boca aberta e a língua deprimida, peça que o paciente diga \"a\" de forma prolongada e observe se o véu palatino sobe simetricamente e se a úvula permanece centrada."
-  - "Toque a parede posterior da faringe de cada lado com um cotonete, testando a sensibilidade faríngea, e observe o reflexo do vômito."
+  - "Sensibilidade faríngea: toque a parede posterior da faringe de cada lado com um cotonete e verifique se o paciente percebe o toque."
+  - "Só depois pesquise o reflexo do vômito, estimulando a parede posterior da faringe, o palato mole ou a porção posterior da língua."
   - "Ouça a voz e pergunte sobre engasgos: disfonia e disfagia completam o exame do IX e do X."
   - "Peça que o paciente eleve os ombros contra a resistência das suas mãos e gire a cabeça para cada lado contra a sua mão apoiada no queixo."
   - "Língua: inspecione-a em repouso dentro da boca, procurando atrofia e fasciculações, e depois peça a protrusão, observando para que lado a ponta desvia."
@@ -175,6 +177,7 @@ svg: |
       <text x="34" y="48">1</text>
       <text x="34" y="88">2</text>
       <text x="34" y="120">3</text>
+      <text x="296" y="119">3</text>
     </g>
     <!-- FACE B -->
     <path d="M 195 82 C 195 53, 213 30, 235 30 C 257 30, 275 53, 275 82 C 275 111, 257 134, 235 134 C 213 134, 195 111, 195 82 Z" stroke-width="1.5" />
@@ -221,11 +224,9 @@ texto: |
 ::: conceito
 titulo: Central × periférica — o que este tópico acrescenta
 texto: |
-  A distinção está ensinada no tópico de crânio e face, com a regra da testa e as causas de cada tipo. Ela não se repete aqui. O que este tópico acrescenta são **dois critérios a mais**, ambos de McGee, que fazem a distinção mesmo quando o exame do andar superior é duvidoso.
+  A distinção está ensinada no tópico de crânio e face — a regra da testa, o mecanismo que a sustenta e as causas de cada tipo. Ela não se repete aqui. O que este tópico acrescenta é **um segundo critério**, de McGee, que decide mesmo quando o exame do andar superior fica duvidoso.
 
-  **Primeiro critério — a distribuição.** É o já conhecido: lesões periféricas comprometem os músculos faciais superiores **e** inferiores; lesões centrais comprometem predominantemente os inferiores. O enrugamento da testa é relativamente poupado nas lesões centrais porque os núcleos faciais que inervam esses músculos recebem inervação cortical **dos dois lados**.
-
-  **Segundo critério — os movimentos afetados.** Este é novo, e é elegante: lesões **periféricas** paralisam **todos** os movimentos faciais daquele lado; lesões **centrais** comprometem os movimentos **voluntários** e poupam os **emocionais**. O paciente com fraqueza central pode ser incapaz de erguer voluntariamente um canto da boca e, no entanto, movê-lo com vivacidade ao rir ou chorar. A explicação é que o comando emocional não chega aos núcleos faciais pelo córtex motor.
+  **O critério dos movimentos afetados.** É elegante: lesões **periféricas** paralisam **todos** os movimentos faciais daquele lado; lesões **centrais** comprometem os movimentos **voluntários** e poupam os **emocionais**. O paciente com fraqueza central pode ser incapaz de erguer voluntariamente um canto da boca e, no entanto, movê-lo com vivacidade ao rir ou chorar. A explicação é que o comando emocional não chega aos núcleos faciais pelo córtex motor.
 
   A consequência prática é uma manobra que ninguém executa e que custa nada: **observe o rosto do paciente enquanto ele ri de alguma coisa**, e compare com o que ele consegue fazer sob comando. Uma assimetria que desaparece no riso espontâneo é central.
 
@@ -251,9 +252,9 @@ texto: |
 ::: conceito
 titulo: O que acompanha o VII, e por que a gustação fica de fora
 texto: |
-  O nervo facial não é só mímica. Porto descreve o **nervo intermédio**, ou nervo intermediário de Wrisberg, que faz curto trajeto junto ao facial e, por um de seus ramos principais — a **corda do tímpano** —, conduz a informação gustativa vinda dos **dois terços anteriores da língua**. McGee acrescenta o resto da lista: o VII responde ainda pelo **lacrimejamento** (glândula lacrimal), pela **audição** através do músculo estapédio, e é a **via eferente** do reflexo córneo-palpebral e do reflexo glabelar.
+  O nervo facial não é só mímica. Porto descreve o **nervo intermédio**, também chamado nervo intermediário de Wrisberg, que faz curto trajeto junto ao facial e, por um de seus ramos principais — a **corda do tímpano** —, conduz a informação gustativa vinda dos **dois terços anteriores da língua**. McGee acrescenta o resto da lista: o VII responde ainda pelo **lacrimejamento** (glândula lacrimal), pela **audição** através do músculo estapédio, e é a **via eferente** do reflexo córneo-palpebral e do reflexo glabelar.
 
-  Porto (*Semiologia Médica*, cap. 174) transforma essa anatomia em raciocínio clínico: na paralisia facial periférica pode haver **hiperacusia** para sons agudos, **lacrimejamento** e **hipogeusia**, conforme a lesão fique acima ou abaixo do ponto em que se destacam o ramo do músculo estapédio, o ramo da glândula lacrimal e a corda do tímpano. Ele registra ainda um distúrbio sensitivo limitado — hipoestesia ou anestesia parcial no conduto auditivo externo ou na região vizinha da orelha —, e que **dor retroauricular pode preceder** o aparecimento da paralisia.
+  Porto (*Semiologia Médica*, cap. 174) transforma essa anatomia em raciocínio clínico: na paralisia facial periférica podem surgir **hipogeusia**, **lacrimejamento** e **hiperacusia** para sons agudos, conforme a lesão fique acima ou abaixo do ponto em que se destacam o ramo do músculo estapédio, o ramo da glândula lacrimal e a corda do tímpano. Ele registra ainda um distúrbio sensitivo limitado — hipoestesia ou anestesia parcial no conduto auditivo externo ou na região vizinha da orelha —, e que **dor retroauricular pode preceder** o aparecimento da paralisia.
 
   **E aqui está a razão pela qual este guia trata a gustação como moldura.** McGee explica que os ramos do facial se separam do tronco principal em ordem previsível — do mais proximal ao mais distal: glândula lacrimal, músculo estapédio, língua (gustação) e músculos da face. Em tese, testar o lacrimejamento, a função do estapédio e a gustação localizaria a lesão. Na prática, isso **só é confiável quando o nervo está completamente seccionado**. Nas lesões parcelares — a paralisia de Bell, as lesões parciais —, o diagnóstico topográfico produz combinações sem sentido (lacrimejamento reduzido com gustação e estapédio preservados) e tem **valor clínico mínimo**.
 
@@ -285,7 +286,7 @@ texto: |
 
   **A divisão que o exame produz** é topográfica, e é isso que interessa ao neurológico. Semiologia Clínica separa dois tipos de hipoacusia periférica:
 
-  - **de condução**, em que há obstrução na condução do som até a cóclea — perfuração do tímpano, rolha de cera, otosclerose;
+  - **de condução**, em que o som encontra obstáculo no caminho até a cóclea — perfuração do tímpano, rolha de cera, otosclerose;
   - **neurossensorial**, em que a cóclea recebe o som, mas ele não chega ao córtex auditivo pelo nervo acústico — traumatismo do nervo, neurinoma do acústico, meningiomas do ângulo pontocerebelar.
 
   E daí sai a observação que transforma um achado otológico em achado neurológico: **a via auditiva é complexa e termina no giro temporal transverso do lado oposto; por isso, é raro que uma lesão cortical produza hipoacusia de um lado só** — de modo que hipoacusia de um lado só sugere lesão periférica (Semiologia Clínica). É o oposto do que acontece com a visão, em que lesões corticais produzem defeitos de campo bem lateralizados.
@@ -304,13 +305,13 @@ texto: |
 
   **1. Nistagmo.** O vocabulário está no tópico de pares cranianos de I a VI: movimentos ritmados com um componente lento e um rápido, nomeados pela direção do componente rápido, nos planos horizontal, vertical, rotatório ou misto, espontâneos ou provocados. Aqui vale a advertência que evita falso-positivo: **um pequeno abalo no olhar lateral extremo existe em muita gente normal** — procure o nistagmo antes de chegar ao extremo do olhar.
 
-  **2. Desvio postural.** Porto descreve a manobra: paciente de pé ou sentado, olhos fechados, braços estendidos à frente e elevados até formarem ângulo reto com o tronco. Havendo lesão vestibular, **os braços se desviam para o lado do labirinto lesado**, e o corpo tende a pender para o mesmo lado. Semiologia Clínica descreve a mesma manobra dentro do exame do equilíbrio estático e acrescenta o contraste que a torna útil: na **lesão vestibular** desviam-se **os dois membros superiores** para o lado lesado; na **lesão cerebelar**, o desvio é apenas do membro **do mesmo lado** da lesão.
+  **2. Desvio postural.** Porto descreve a manobra: paciente de pé ou sentado, olhos fechados, braços estendidos à frente e elevados até formarem ângulo reto com o tronco. Havendo lesão vestibular, **os braços se desviam para o lado do labirinto comprometido**, e o tronco pende na mesma direção. Semiologia Clínica descreve a mesma manobra dentro do exame do equilíbrio estático e acrescenta o contraste que a torna útil: na **lesão vestibular** desviam-se **os dois membros superiores** para o lado lesado; na **lesão cerebelar**, o desvio é apenas do membro **do mesmo lado** da lesão.
 
   **3. Equilíbrio estático.** O paciente de pé, descalço, com os pés juntos e paralelos, primeiro de olhos abertos e depois fechados. O detalhamento da prova de Romberg — o que ela testa e o que ela não testa — pertence ao tópico de sensibilidade e coordenação, neste mesmo capítulo. O que interessa aqui é a característica do desvio vestibular, que Porto registra: **sempre para o mesmo lado, depois de um pequeno período de latência** — ao contrário do desvio por perda proprioceptiva, que ocorre para qualquer lado e imediatamente.
 
   **4. Marcha e desvio lateral.** Porto descreve a lateropulsão para o lado da lesão e a marcha em estrela; Semiologia Clínica descreve a **manobra de Fukuda**, marchar sem sair do lugar, que evidencia o desvio para o lado lesado nas vestibulopatias. As marchas com nome, incluindo esta, são o tópico de marcha e sinais meníngeos.
 
-  **O reflexo oculovestibular sem aparelho.** Semiologia Clínica descreve a **manobra de Halmagyi**: gira-se rapidamente a cabeça do paciente cerca de 20 a 30 graus, pedindo que ele mantenha o olhar em um ponto fixo. Havendo déficit vestibular, **o olho acompanha o movimento da cabeça e depois volta ao ponto fixo** — a correção que denuncia o reflexo insuficiente. Ela é ensinada aqui porque não exige equipamento; McGee a examina em detalhe, com números, no bloco de aprofundamento.
+  **O reflexo oculovestibular sem aparelho.** Semiologia Clínica descreve a **manobra de Halmagyi**: gira-se rapidamente a cabeça do paciente cerca de 20 a 30 graus, pedindo que ele mantenha o olhar em um ponto fixo. Havendo déficit vestibular, **o olho é arrastado junto com a cabeça e só depois retorna ao alvo** — a correção que denuncia o reflexo insuficiente. Ela é ensinada aqui porque não exige equipamento; McGee a examina em detalhe, com números, no bloco de aprofundamento.
 
   **A moldura.** As **provas calórica e rotatória** — estimular os labirintos com água quente e fria, ou usar cadeira giratória — são realizadas em gabinete de neuro-otologia porque requerem equipamento especializado (Porto), e ficam fora deste guia, assim como as manobras posicionais.
 :::
@@ -356,7 +357,7 @@ texto: |
   - lesões de um hemisfério cerebral afetam os dois músculos de forma diferente: enfraquecem o **trapézio contralateral** e o **esternocleidomastóideo ipsilateral**. Em um acidente vascular hemisférico, portanto, o paciente pode ter dificuldade para **virar a cabeça na direção do lado hemiparético**;
   - lesões do nervo periférico ocorrem por trauma do trígono posterior do pescoço — cirurgia de linfonodos, trauma contuso — e podem **poupar o esternocleidomastóideo**, porque seus ramos se separam proximalmente do tronco do nervo.
 
-  **XII — o nervo hipoglosso.** Exclusivamente motor, origina-se no bulbo e comanda os músculos da língua. Porto descreve o exame: inspeção da língua dentro da boca e exteriorizada, movimentando-a para todos os lados, forçando-a contra a bochecha e, por fim, palpando-a para avaliar a consistência.
+  **XII — o nervo hipoglosso.** Exclusivamente motor, origina-se no bulbo e comanda os músculos da língua. Porto descreve o exame: inspecione a língua dentro da boca e depois exteriorizada; peça que ela se movimente em todas as direções; force-a contra a bochecha; e, ao final, palpe-a para avaliar a consistência.
 
   **A interpretação do desvio** — que o tópico de boca, nariz e ouvidos registrou como achado e reservou a este capítulo — é a seguinte.
 

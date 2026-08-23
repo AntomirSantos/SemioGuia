@@ -119,7 +119,7 @@ passos:
   - "Procure assimetrias — face, membros, campo visual, atenção a um dos lados — e registre-as ao lado da pontuação."
   - "Repita a avaliação em intervalos definidos: a comparação ao longo do tempo vale mais que qualquer número isolado."
 observar: |
-  Porto (*Semiologia Médica*, cap. 172) faz uma ressalva de técnica que muda o resultado: prefira o estímulo doloroso aplicado ao leito ungueal, porque o estímulo supraorbital pode provocar o fechamento dos olhos — e é justamente a abertura ocular que se está tentando medir.
+  Porto (*Semiologia Médica*, cap. 172) faz uma ressalva de técnica que muda o resultado: prefira o estímulo doloroso aplicado ao leito ungueal, porque o estímulo supraorbital é capaz de fazer o paciente fechar as pálpebras — e é justamente a abertura ocular que se está tentando medir.
 
   Há uma dificuldade que nenhuma escala resolve e que a beira do leito exige: parte do que se precisa saber não está no paciente. Semiologia Clínica insiste que a anamnese, nesses casos, se faz com quem trouxe o doente, e que o prontuário deve registrar **quem** informou e que relação essa pessoa tem com ele.
 :::
@@ -238,6 +238,9 @@ svg: |
       <text x="12" y="14">A · flexão anormal</text>
       <text x="176" y="14">B · extensão</text>
     </g>
+    <!-- A: leito visto de cima, com a linha do travesseiro -->
+    <path d="M 40 20 L 126 20 L 126 174 L 40 174 Z" stroke-width="1.2" />
+    <path d="M 40 50 L 126 50" stroke-width="1" stroke-dasharray="4 3" />
     <!-- A: cabeca e tronco -->
     <circle cx="82" cy="36" r="9" stroke-width="1.5" />
     <path d="M 82 45 L 82 52" stroke-width="1.4" />
@@ -252,8 +255,9 @@ svg: |
     <path d="M 93 104 L 95 134 L 96 158" stroke-width="1.6" />
     <path d="M 68 158 L 60 163" stroke-width="1.4" />
     <path d="M 96 158 L 104 163" stroke-width="1.4" />
-    <!-- A: plano do leito -->
-    <path d="M 36 172 L 132 172" stroke-width="1" stroke-dasharray="4 3" />
+    <!-- B: leito visto de cima -->
+    <path d="M 196 20 L 284 20 L 284 174 L 196 174 Z" stroke-width="1.2" />
+    <path d="M 196 50 L 284 50" stroke-width="1" stroke-dasharray="4 3" />
     <!-- B: cabeca e tronco -->
     <circle cx="240" cy="36" r="9" stroke-width="1.5" />
     <path d="M 240 45 L 240 52" stroke-width="1.4" />
@@ -271,16 +275,19 @@ svg: |
     <path d="M 251 104 L 253 134 L 254 158" stroke-width="1.6" />
     <path d="M 226 158 L 222 168" stroke-width="1.4" />
     <path d="M 254 158 L 258 168" stroke-width="1.4" />
-    <path d="M 194 172 L 290 172" stroke-width="1" stroke-dasharray="4 3" />
     <!-- legendas -->
     <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="middle">
-      <text x="82" y="186">antebraços fletidos sobre o tronco</text>
-      <text x="82" y="196">resposta motora = 3</text>
+      <text x="83" y="186">antebraços fletidos sobre o tronco</text>
+      <text x="83" y="196">resposta motora = 3</text>
       <text x="240" y="186">quatro membros em extensão</text>
       <text x="240" y="196">resposta motora = 2</text>
     </g>
+    <g font-family="sans-serif" font-size="8" fill="currentColor" stroke="none">
+      <text x="44" y="46">leito</text>
+      <text x="200" y="46">leito</text>
+    </g>
   </svg>
-legenda: "As duas posturas anormais do componente motor não são detalhes de nomenclatura: elas separam dois pontos na escala e, segundo Porto, apontam para níveis diferentes de sofrimento encefálico. O que se anota é o que se viu — antebraços que se fecham sobre o tronco, ou quatro membros que se enrijecem em extensão."
+legenda: "Paciente em decúbito dorsal, visto de cima. As duas posturas anormais do componente motor não são detalhes de nomenclatura: elas separam dois pontos na escala e, segundo Porto, apontam para níveis diferentes de sofrimento encefálico. O que se anota é o que se viu — antebraços que se fecham sobre o tronco, ou quatro membros que se enrijecem em extensão."
 :::
 
 ::: entendimento
@@ -288,13 +295,13 @@ titulo: Por que o total sozinho engana
 texto: |
   Somar três números que medem coisas diferentes produz um resultado que qualquer combinação pode alcançar. Dois pacientes com **9 pontos** podem ser clinicamente opostos.
 
-  Um deles abre os olhos ao chamado (3), fala palavras desconexas (3) e obedece parcialmente com retirada ao estímulo (3, se a resposta for flexão anormal): rebaixamento difuso, sem assimetria.
+  Um deles abre os olhos ao chamado (3), fala palavras desconexas (3) e responde ao estímulo doloroso com **flexão anormal (3)**: rebaixamento difuso, sem assimetria.
 
-  O outro não abre os olhos (1), emite sons incompreensíveis (2) e **obedece a ordem verbal com o membro que ainda funciona** (6): um quadro em que a via motora está bem mais preservada do que o total sugere.
+  O outro não abre os olhos (1), emite sons incompreensíveis (2) e **obedece a ordem verbal com o membro que ainda funciona** (6): um quadro em que a via motora está bem mais preservada do que o total sugere. Essa segunda combinação é construída para o argumento — ela é incomum fora de situações como edema ou ptose bilateral, e serve aqui para mostrar até onde a soma pode enganar.
 
   Daí a insistência de todo este tópico no **registro por componente**. O total serve para uma coisa — comparar o mesmo paciente ao longo do tempo, que é justamente o uso que Semiologia Clínica atribui às escalas: permitir comparações evolutivas de melhora ou de piora. Para tudo o mais, o que informa são os três números separados, e o que se fez para obtê-los.
 
-  Existe ainda uma situação que as quatro obras deste guia **não tratam** e que a enfermaria produz todos os dias: o paciente em quem a resposta verbal não pode ser avaliada — porque tem via aérea artificial, porque é afásico, porque não fala o idioma do examinador. Nenhuma das fontes descreve uma convenção de registro para esse caso, e este guia não vai inventar uma. O que decorre logicamente do que elas dizem é o suficiente para a prática: se um dos três parâmetros não pôde ser obtido, **o total perde sentido e só os componentes avaliados devem ser anotados**, dizendo por que o terceiro faltou. As convenções formais de registro nesse cenário pertencem ao contexto de terapia intensiva, fora do alcance das obras em que este guia se apoia.
+  Existe ainda uma situação que as quatro obras deste guia **não tratam** e que a enfermaria produz todos os dias: o paciente em quem a resposta verbal não pode ser avaliada — porque tem via aérea artificial, porque é afásico, porque não fala o idioma do examinador. Nenhuma das fontes descreve uma convenção de registro para esse caso, e este guia não vai inventar uma. O que decorre logicamente do que elas dizem é o suficiente para a prática: se um dos três parâmetros não pôde ser obtido, **o total perde sentido e só os componentes avaliados devem ser anotados**, dizendo por que o terceiro faltou. As convenções formais de registro nesse cenário — entre elas a anotação do componente verbal com a letra "T" — pertencem ao contexto de terapia intensiva, fora do alcance das obras em que este guia se apoia.
 :::
 
 ::: secao
@@ -359,7 +366,7 @@ titulo: A triagem que cabe em três minutos
 texto: |
   Com o paciente responsivo, a avaliação do conteúdo da consciência não exige instrumento. Semiologia Clínica lista o que se procura: se a **atenção** está preservada, isto é, a capacidade de focar e se concentrar; se há alteração de **memória recente** — minutos, horas, dias — ou **remota**; se o paciente está **orientado no tempo e no espaço**; e se percebe os objetos e acontecimentos ao redor. Afeto, humor e linguagem completam o quadro.
 
-  Porto (*Semiologia Médica*, cap. 174) oferece um conjunto de tarefas simples, extraído da escala de consciência vígil de Jouvet e Dechaume, que serve bem como roteiro de triagem: executar uma ordem escrita, dizer onde está e que dia é, fazer um cálculo mental simples, nomear seis flores, executar uma ordem verbal simples e piscar diante da ameaça. Ele registra ainda uma observação clínica curiosa e útil: nos quadros de dissolução progressiva da consciência, os pacientes costumam citar **apenas uma flor**, quase sempre a rosa.
+  Porto (*Semiologia Médica*, cap. 174) oferece um conjunto de tarefas simples, extraído da escala de consciência vígil de Jouvet e Dechaume, que serve bem como roteiro de triagem: executar uma ordem escrita, dizer onde está e que dia é, fazer um cálculo mental simples, nomear seis flores, executar uma ordem verbal simples e piscar diante da ameaça. Ele registra ainda uma observação clínica curiosa e útil: à medida que a consciência se desorganiza, os pacientes costumam citar **apenas uma flor**, quase sempre a rosa.
 
   Um alerta de método vale mais que qualquer lista: **a atenção é a função de base**. Semiologia Clínica afirma que o prejuízo da atenção — comum no delirium — pode comprometer o exame de todos os demais domínios cognitivos. Um paciente que não consegue sustentar atenção vai errar testes de memória, de cálculo e de linguagem sem que nenhuma dessas funções esteja de fato lesada. Teste a atenção primeiro; interprete o resto à luz dela.
 
@@ -384,7 +391,7 @@ titulo: Aprofundamento
 titulo: Rebaixamento não é delirium — e os dois convivem
 nivel: avancado
 texto: |
-  O erro mais caro deste tópico é tratar todo paciente alterado como paciente rebaixado. Semiologia Clínica define **delirium** como um distúrbio caracterizado por confusão mental com diminuição da atenção, de etiologia orgânica, frequentemente acompanhado de ideias delirantes e alucinações — e o classifica em **hipoativo, hiperativo ou misto**, conforme haja ou não agitação psicomotora. Porto (*Semiologia Médica*, cap. 174) descreve o mesmo quadro como **estado confusional agudo**, descrito por quatro traços: a vigilância perturbada, a distraibilidade, o pensamento sem coerência e a perda da capacidade de executar movimentos com finalidade. Ele reconhece dois tipos clínicos: um com agitação, outro com apatia e prostração.
+  O erro mais caro deste tópico é tratar todo paciente alterado como paciente rebaixado. Semiologia Clínica define **delirium** como um quadro de confusão mental de causa orgânica, com a atenção diminuída, muitas vezes acompanhado de ideias delirantes e de alucinações — e o classifica em **hipoativo, hiperativo ou misto**, conforme haja ou não agitação psicomotora. Porto (*Semiologia Médica*, cap. 174) descreve o mesmo quadro como **estado confusional agudo**, descrito por quatro traços: a vigilância perturbada, a distraibilidade, o pensamento sem coerência e a perda da capacidade de executar movimentos com finalidade. Ele reconhece dois tipos clínicos: um com agitação, outro com apatia e prostração.
 
   Note onde está a armadilha: o **delirium hipoativo** se apresenta como um paciente quieto, lentificado, sonolento — exatamente o retrato que se costuma anotar como "rebaixado" e deixar quieto. Semiologia Clínica registra que idosos e pessoas com quadros demenciais são mais propensos ao delirium e evoluem pior, e que as causas mais comuns são banais e tratáveis: infecções do trato urinário e pneumonias, além de doenças pulmonares e cardíacas descompensadas, alterações da glicemia, medicamentos e pós-operatórios.
 
@@ -415,7 +422,7 @@ texto: |
 :::
 
 ::: tabela
-titulo: Dois achados que separam lesão estrutural de causa metabólica (McGee)
+titulo: Três achados que separam lesão estrutural de causa metabólica (McGee)
 nivel: avancado
 colunas:
   - "Situação e achado"
@@ -521,7 +528,7 @@ perguntas:
       - "Demência de instalação recente, já que a incoerência do discurso e a lentificação são seus achados definidores"
       - "Afasia sensitiva, em que o paciente compreende mal e parece confuso, mas a atenção está preservada"
     corretaIndex: 1
-    explicacao: "Semiologia Clínica define delirium como confusão mental com diminuição da atenção e etiologia orgânica, classificando-o em hipoativo, hiperativo ou misto conforme haja agitação psicomotora; Porto descreve o mesmo quadro como estado confusional agudo, com distúrbio da vigilância, distraibilidade e incoerência de pensamento. A forma hipoativa é a mais silenciosa e a mais confundida com rebaixamento. Infecções — pneumonia entre elas — estão entre as causas mais comuns, e idosos são os mais propensos. Na afasia sensitiva a atenção está íntegra; a demência tem outra cronologia."
+    explicacao: "Semiologia Clínica define delirium como um quadro de confusão mental de causa orgânica, com a atenção diminuída, classificando-o em hipoativo, hiperativo ou misto conforme haja agitação psicomotora; Porto descreve o mesmo quadro como estado confusional agudo, com distúrbio da vigilância, distraibilidade e incoerência de pensamento. A forma hipoativa é a mais silenciosa e a mais confundida com rebaixamento. Infecções — pneumonia entre elas — estão entre as causas mais comuns, e idosos são os mais propensos. Na afasia sensitiva a atenção está íntegra; a demência tem outra cronologia."
   - id: neu-con-3
     enunciado: Você é chamado para avaliar um paciente com consciência comprometida, sem história de trauma craniano. A pressão arterial é 178 x 96 mmHg. Que peso esse dado tem?
     alternativas:
@@ -539,7 +546,7 @@ perguntas:
       - "O estímulo pode provocar fechamento dos olhos, justamente a resposta que se está tentando medir; Porto prefere a compressão do leito ungueal"
       - "O estímulo é excessivamente doloroso e falseia a resposta motora para cima, superestimando a pontuação total e mascarando a assimetria entre os dois hemicorpos"
     corretaIndex: 2
-    explicacao: "Porto (Semiologia Médica, cap. 172) recomenda de preferência estímulos dolorosos produzidos por lápis ou caneta comprimindo o leito ungueal, e adverte que o estímulo doloroso supraorbital pode provocar fechamento dos olhos — o que inviabiliza a leitura da abertura ocular. É uma escolha de técnica com consequência direta na pontuação, e um dos motivos, segundo Semiologia Clínica, de a confiabilidade da escala depender do tipo de estímulo doloroso empregado e do treinamento de quem a aplica."
+    explicacao: "Porto (Semiologia Médica, cap. 172) recomenda de preferência estímulos dolorosos produzidos por lápis ou caneta comprimindo o leito ungueal, e adverte que o estímulo supraorbital é capaz de fazer o paciente fechar as pálpebras — o que inviabiliza a leitura da abertura ocular. É uma escolha de técnica com consequência direta na pontuação, e um dos motivos, segundo Semiologia Clínica, de a confiabilidade da escala depender do tipo de estímulo doloroso empregado e do treinamento de quem a aplica."
   - id: neu-con-5
     enunciado: Um paciente internado apresenta respiração de Cheyne-Stokes. Você o examina duas vezes com dez minutos de intervalo e encontra, na primeira, pupilas dilatadas e reflexos vivos e, na segunda, pupilas contraídas e reflexos hipoativos. Qual é a explicação mais provável?
     alternativas:

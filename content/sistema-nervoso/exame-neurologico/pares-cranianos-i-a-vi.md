@@ -76,7 +76,9 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 21 (The Pupils), p. 161-180 — defeito pupilar aferente relativo e a manobra da luz alternante (Figura 21.2), pupilas de Argyll Robertson e diagnóstico diferencial da dissociação luz-perto, paralisia completa do terceiro nervo, síndrome de Horner e a cadeia simpática de três neurônios (Figura 21.7), boxes EBM 21.1 e 21.2"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 60 (Miscellaneous Cranial Nerves), p. 541-550 — Tabela 60.1 (os doze nervos cranianos e o que se examina em cada um), nervo olfatório e causas de anosmia, síndrome de Foster Kennedy, nervo trigêmeo (fraqueza motora, perda sensitiva e reflexo córneo) e sinal de Hutchinson"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 65 (Coordination and Cerebellar Testing), p. 613-618 — definição e vocabulário do nistagmo: conjugado e dissociado, pendular e rítmico, direção do componente rápido"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 33, Tabela 5.1, seção Neurologic Examination — concordância entre observadores para campos visuais por confrontação"
+  - "Semiologia Clínica, 1ª ed., cap. 8 (Semiologia de cabeça e pescoço) — Oftalmoscopia: indicações do exame de fundo de olho, técnica com o oftalmoscópio, papiledema, cruzamentos arteriovenosos patológicos (sinal de Gunn) e arteríolas em fios de cobre, manchas e hemorragias retinianas, exsudatos duros e algodonosos e microaneurismas da retinopatia diabética"
+  - "Porto — Semiologia Médica, 8ª ed., Parte 18 (Sistema Nervoso), cap. 174 (Doenças do Sistema Nervoso), Estado de coma — exame ocular do paciente comatoso: motricidade extrínseca e intrínseca, reflexo corneano e os achados de fundo de olho com valor etiológico"
+  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 30 e p. 33, Tabela 5.1 — concordância entre observadores para os achados de retinopatia diabética (seção Head and Neck) e para os campos visuais por confrontação (seção Neurologic Examination)"
 revisao: pendente
 ---
 
@@ -219,9 +221,9 @@ titulo: II — a via visual
 ::: conceito
 titulo: Acuidade à beira do leito
 texto: |
-  Não é preciso equipamento para saber se um olho enxerga menos que o outro. Porto descreve a versão mínima: peça ao paciente que diga o que vê na sala — na parede, na mesa — ou que leia alguma coisa, **examinando um olho de cada vez**. Semiologia Clínica descreve a versão padronizada, com a tabela de Snellen, dotada de letras e números de tamanhos diferentes, colocada a distâncias variadas, também testando um olho por vez.
+  Não é preciso equipamento para saber se um olho enxerga menos que o outro. Porto descreve a versão mínima: peça que o paciente descreva o que enxerga na sala — na parede, na mesa — ou leia alguma coisa, **examinando um olho de cada vez**. Semiologia Clínica descreve a versão padronizada, com a tabela de Snellen, dotada de letras e números de tamanhos diferentes, colocada a distâncias variadas, também testando um olho por vez.
 
-  O vocabulário é de Porto: a redução da acuidade chama-se **ambliopia**; a perda total, **amaurose**. Uma e outra podem ser uni ou bilaterais, e as causas que ele associa são neurite óptica, neoplasias e hipertensão intracraniana. Porto (*Exame Clínico*) acrescenta uma nota de idade que evita erro de atribuição: no idoso, acuidade e sensibilidade ao contraste de cores diminuem em parte por opacificação do cristalino e do humor vítreo, e o cristalino mais rígido reduz a acomodação — fatores pré-retinianos que, somados a alterações da própria retina, produzem a presbiopia.
+  O vocabulário é de Porto: a redução da acuidade chama-se **ambliopia**; a perda total, **amaurose**. Uma e outra podem ser uni ou bilaterais, e as causas que ele associa são neurite retrobulbar, neoplasias e hipertensão intracraniana. Porto (*Exame Clínico*) acrescenta uma nota de idade que evita erro de atribuição: no idoso, acuidade e sensibilidade ao contraste de cores diminuem em parte por opacificação do cristalino e do humor vítreo, e o cristalino mais rígido reduz a acomodação — fatores pré-retinianos que, somados a alterações da própria retina, produzem a presbiopia.
 
   A acuidade tem, além do valor próprio, um papel de **triagem topográfica** que McGee explora e que organiza toda a seção seguinte: defeitos de campo **anteriores** — retina e nervo óptico — comprometem a acuidade e as pupilas; defeitos **posteriores** — do quiasma para trás — poupam as duas. Em mais de 90% dos casos de defeito pós-quiasmático a acuidade é normal; quando não é, é porque a doença é bilateral, e então os dois olhos enxergam igualmente mal.
 
@@ -239,11 +241,13 @@ svg: |
     <circle cx="38" cy="62" r="16" stroke-width="1.5" />
     <path d="M 54 57 L 61 62 L 54 67" stroke-width="1.4" />
     <circle cx="46" cy="57" r="2.2" stroke-width="1.3" />
+    <!-- A: examinador oclui o proprio olho oposto -->
+    <path d="M 31 50 L 21 50 L 21 70 L 31 70 Z" stroke-width="1.3" />
     <!-- A: paciente -->
     <circle cx="126" cy="62" r="16" stroke-width="1.5" />
     <path d="M 110 57 L 103 62 L 110 67" stroke-width="1.4" />
     <circle cx="118" cy="57" r="2.2" stroke-width="1.3" />
-    <!-- A: mao ocluindo o outro olho -->
+    <!-- A: paciente oclui um olho -->
     <path d="M 133 50 L 143 50 L 143 70 L 133 70 Z" stroke-width="1.3" />
     <!-- A: eixo de fixacao -->
     <path d="M 50 57 L 114 57" stroke-width="1" stroke-dasharray="4 3" />
@@ -277,7 +281,7 @@ svg: |
     </g>
     <!-- legenda -->
     <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
-      <text x="12" y="132">A · o paciente cobre um olho e fixa o olho do examinador</text>
+      <text x="12" y="132">A · cada um cobre um olho e fixa o olho do outro</text>
       <text x="12" y="146">o alvo entra pela periferia de cada quadrante até ser percebido</text>
       <text x="12" y="164">B · defeito que respeita a linha vertical nos dois olhos:</text>
       <text x="12" y="178">do quiasma para trás; se atravessa a linha, é anterior</text>
@@ -291,7 +295,7 @@ titulo: Campos por confrontação — a técnica e a fronteira que decide
 texto: |
   A campimetria por confrontação é uma das poucas manobras em que o examinador usa o **próprio corpo como padrão de referência**, e é isso que dita a técnica.
 
-  **Como se faz.** Semiologia Clínica descreve o princípio: o paciente olha para os olhos do examinador, o examinador olha para os do paciente, e assim os dois campos visuais se sobrepõem; o alvo é colocado a cerca de 60 cm do paciente e todo o campo é percorrido, do lado nasal ao temporal, com a mesma pergunta repetida a cada posição: o alvo ainda está visível? A referência é sempre o campo do próprio examinador. Porto descreve o mesmo com as mãos: o paciente fixa um ponto na face do examinador; o examinador coloca as mãos na periferia do próprio campo e as move, perguntando se o paciente vê o movimento; e o procedimento se faz **em cada olho separadamente** e depois com os dois abertos.
+  **Como se faz.** Semiologia Clínica descreve o princípio: o paciente olha para os olhos do examinador, o examinador olha para os do paciente, e assim os dois campos visuais se sobrepõem; o alvo é colocado a cerca de 60 cm do paciente e todo o campo é percorrido, do lado nasal ao temporal, com a mesma pergunta repetida a cada posição: o alvo ainda está visível? A referência é sempre o campo do próprio examinador. Porto descreve o mesmo com as mãos: pede-se ao paciente que mantenha o olhar preso a um ponto do rosto do examinador, enquanto este leva as mãos até a borda do próprio campo e as movimenta, perguntando a cada vez se o movimento foi percebido; tudo isso **um olho de cada vez** e, ao final, com os dois abertos.
 
   McGee especifica o que as descrições clínicas deixam em aberto — o paciente senta a **70 a 100 cm** do examinador e fixa o olho dele, com um olho ocluído por cartão ou pela própria mão — e separa duas técnicas:
 
@@ -305,7 +309,7 @@ texto: |
   - Defeitos que **atravessam** a linha vertical são **anteriores** — retina ou nervo óptico. A razão é anatômica: as fibras da retina temporal fazem uma curva por cima e por baixo da linha vertical para alcançar o disco óptico, que fica do lado nasal. Lesar essas fibras produz defeitos em arco, altitudinais, escotomas centrais ou campos concentricamente reduzidos.
   - Defeitos que **respeitam** a linha vertical são do **quiasma ou de trás dele**. Se forem **bitemporais**, a lesão é quiasmática — Porto e McGee convergem na causa habitual, o tumor de hipófise logo abaixo do quiasma. Se forem **homônimos**, isto é, do mesmo lado nos dois olhos, a lesão é pós-quiasmática, e McGee registra que mais de 95% dessas lesões estão nos lobos temporal, parietal e occipital, sendo raras as do trato óptico.
 
-  Vale fixar a regra de nomenclatura, que Porto enuncia com clareza: **as alterações se anotam em relação ao campo visual, e não à retina**. Hemianopsia homônima direita significa perda da metade direita do campo dos dois olhos.
+  Vale fixar a regra de nomenclatura, que Porto enuncia com clareza: **o defeito se descreve pelo campo visual, nunca pela retina**. Dizer hemianopsia homônima direita é dizer, portanto, que os dois olhos deixaram de enxergar o hemicampo do lado direito.
 
   E vale fixar as três características que McGee dá aos defeitos posteriores, porque juntas formam um retrato reconhecível: **os dois olhos afetados, acuidade normal, pupilas normais**. Quando um paciente tem defeito de campo com pupilas normais e visão preservada, não adianta procurar a lesão no olho.
 :::
@@ -321,13 +325,25 @@ texto: |
 
   **Três achados organizam a leitura** (Porto, *Exame Clínico* e *Semiologia Médica*):
 
-  - **palidez da papila**, que significa atrofia do nervo óptico;
+  - **palidez da papila**, sinal de atrofia do nervo óptico;
   - **edema da papila**, ou papiledema, que traduz hipertensão intracraniana — e, na leitura de Porto (*Semiologia Médica*), também inflamação do próprio nervo. Semiologia Clínica descreve como reconhecê-lo: **borramento do contorno da papila**;
   - **modificações das arteríolas**, que aparecem na hipertensão arterial.
 
   **Por que o papiledema é alarme.** Porto o coloca entre os sinais da síndrome de hipertensão intracraniana e faz três ressalvas que mudam a conduta. Ele é frequente, mas **não obrigatório**, sobretudo nas fases iniciais. É excepcionalmente unilateral, embora possa ser assimétrico. E — este é o ponto — pode alcançar grande intensidade **sem prejuízo inicial da acuidade visual**, ainda que sua evolução leve à atrofia do nervo óptico e à amaurose definitiva. Um paciente que enxerga bem não está protegido.
 
   Porto descreve ainda a sequência completa de eventos que a hipertensão intracraniana produz no fundo de olho, ao impedir o fluxo normal nas veias da retina: o pulso venoso desaparece, as veias ficam túrgidas, instala-se a estase da papila, surgem focos hemorrágicos e, ao cabo, a papila atrofia.
+
+  **O que mais se procura, além do papiledema.** A promessa que o tópico de olhos deixou aqui apontava para três destinos — hipertensão, diabetes melito e infecções sistêmicas —, e Semiologia Clínica (cap. 8) os organiza pelas indicações do exame: fundo de olho é rotina em **diabéticos e hipertensos**, é avaliação complementar importante em pacientes com **HIV, sífilis e colagenoses**, entra na investigação de quem se queixa de **perda visual** e, no pronto atendimento, **faz parte do exame neurológico**.
+
+  Os achados que sustentam cada uma dessas indicações, ainda no nível de "o que se procura" (Semiologia Clínica):
+
+  - **retinopatia hipertensiva** — o cruzamento arteriovenoso patológico, ou **sinal de Gunn**, em que a artéria espessada comprime a veia: no começo a veia apenas se estreita; adiante, parece interrompida e ingurgitada. Junto vem o brilho arterial acentuado, as chamadas **arteríolas em fios de cobre**;
+  - **retinopatia diabética** — **microaneurismas**, que aparecem como pontos vermelhos diminutos, redondos ou irregulares; lesões avermelhadas arredondadas e irregulares vizinhas aos vasos; e os **exsudatos**, duros ou algodonosos, que correspondem a isquemia e a depósito de lipídios;
+  - **hemorragias retinianas superficiais**, avermelhadas e estriadas, que a hipertensão arterial grave, o papiledema e a trombose da veia central da retina podem produzir.
+
+  Porto (*Semiologia Médica*, cap. 174) faz a mesma leitura no paciente comatoso, e ela serve de resumo do que o exame rende ali: retinopatia hipertensiva, retinopatia diabética, hemorragias da retina, hemorragias sub-hialóideas e papiledema apontam, cada um, para uma etiologia diferente do coma.
+
+  Uma nota de reprodutibilidade fecha o assunto — e justifica a fronteira que este tópico traçou. Na Tabela 5.1 de McGee, os achados da retinopatia diabética concordam entre observadores de forma muito desigual: **hemorragias intrarretinianas, 0,89**; exsudatos duros, 0,66 a 0,74; microaneurismas, 0,58 a 0,66; manchas algodonosas, 0,56 a 0,67; e, no outro extremo, **neovascularização junto ao disco, 0,21 a 0,48**, e **edema macular, 0,21 a 0,67** — com grau global de 0,65. Mesmo entre examinadores treinados, parte do que se vê no fundo de olho é pouco reprodutível: mais um argumento para que a técnica e a graduação fina fiquem com quem as pratica todo dia.
 
   Há uma ressalva de segurança que atravessa este tópico e o de marcha e sinais meníngeos: a suspeita de hipertensão intracraniana muda a ordem do exame e a urgência da investigação. Nenhum achado de fundo de olho isolado autoriza ou proíbe conduta — mas encontrar papiledema em um paciente com cefaleia que mudou de caráter é um achado que não espera.
 :::
@@ -355,46 +371,41 @@ texto: |
 ::: ilustracao
 svg: |
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <!-- olho estimulado -->
-    <path d="M 20 52 C 32 40, 56 40, 68 52 C 56 64, 32 64, 20 52 Z" stroke-width="1.6" />
-    <circle cx="44" cy="52" r="9" stroke-width="1.3" />
-    <circle cx="44" cy="52" r="4.5" stroke-width="1.6" />
+    <!-- olho iluminado, pupila antes da resposta -->
+    <path d="M 20 96 C 32 84, 56 84, 68 96 C 56 108, 32 108, 20 96 Z" stroke-width="1.6" />
+    <circle cx="44" cy="96" r="10" stroke-width="1.3" />
+    <circle cx="44" cy="96" r="5.5" stroke-width="1.6" />
     <!-- feixe de luz -->
-    <path d="M 6 30 L 30 44" stroke-width="1.4" />
-    <path d="M 23 42 L 31 45 L 26 51" stroke-width="1.4" />
-    <path d="M 8 40 L 20 47" stroke-width="1" />
-    <!-- olho oposto -->
-    <path d="M 20 140 C 32 128, 56 128, 68 140 C 56 152, 32 152, 20 140 Z" stroke-width="1.6" />
-    <circle cx="44" cy="140" r="9" stroke-width="1.3" />
-    <circle cx="44" cy="140" r="4.5" stroke-width="1.6" />
+    <path d="M 6 72 L 30 88" stroke-width="1.4" />
+    <path d="M 23 86 L 31 89 L 26 95" stroke-width="1.4" />
+    <path d="M 8 82 L 20 90" stroke-width="1" />
     <!-- mesencefalo -->
     <path d="M 124 76 L 200 76 L 200 116 L 124 116 Z" stroke-width="1.5" />
-    <!-- vias aferentes -->
-    <path d="M 70 54 C 96 62, 108 74, 122 86" stroke-width="1.4" />
-    <path d="M 115 81 L 123 87 L 114 90" stroke-width="1.3" />
-    <path d="M 70 140 C 96 130, 108 118, 122 106" stroke-width="1.4" />
-    <path d="M 114 102 L 123 105 L 115 111" stroke-width="1.3" />
-    <!-- vias eferentes -->
+    <!-- via aferente, unica: so o olho iluminado envia sinal -->
+    <path d="M 70 96 L 114 96" stroke-width="1.4" />
+    <path d="M 108 92 L 117 96 L 108 100" stroke-width="1.3" />
+    <!-- vias eferentes, para as duas iris -->
     <path d="M 202 86 C 218 74, 232 62, 246 54" stroke-width="1.4" />
     <path d="M 239 51 L 247 53 L 243 60" stroke-width="1.3" />
     <path d="M 202 106 C 218 118, 232 130, 246 140" stroke-width="1.4" />
     <path d="M 239 134 L 247 139 L 242 144" stroke-width="1.3" />
-    <!-- pupilas de saida -->
+    <!-- pupilas depois da resposta -->
     <path d="M 248 52 C 260 40, 284 40, 296 52 C 284 64, 260 64, 248 52 Z" stroke-width="1.6" />
-    <circle cx="272" cy="52" r="9" stroke-width="1.3" />
-    <circle cx="272" cy="52" r="3" stroke-width="1.6" />
+    <circle cx="272" cy="52" r="10" stroke-width="1.3" />
+    <circle cx="272" cy="52" r="2.5" stroke-width="1.6" />
     <path d="M 248 140 C 260 128, 284 128, 296 140 C 284 152, 260 152, 248 140 Z" stroke-width="1.6" />
-    <circle cx="272" cy="140" r="9" stroke-width="1.3" />
-    <circle cx="272" cy="140" r="3" stroke-width="1.6" />
+    <circle cx="272" cy="140" r="10" stroke-width="1.3" />
+    <circle cx="272" cy="140" r="2.5" stroke-width="1.6" />
     <!-- rotulos -->
     <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
-      <text x="16" y="24">luz</text>
-      <text x="16" y="80">olho estimulado</text>
-      <text x="16" y="168">olho oposto</text>
-      <text x="96" y="32">II · via aferente</text>
-      <text x="190" y="32">III · via eferente</text>
-      <text x="248" y="80">contrai</text>
-      <text x="248" y="168">contrai</text>
+      <text x="12" y="60">luz</text>
+      <text x="12" y="128">olho iluminado</text>
+      <text x="68" y="88">II · aferente</text>
+      <text x="206" y="100">III · eferente</text>
+      <text x="224" y="34">pupila do mesmo olho</text>
+      <text x="258" y="80">contrai</text>
+      <text x="258" y="124">contrai</text>
+      <text x="222" y="168">pupila do olho oposto</text>
     </g>
     <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none" text-anchor="middle">
       <text x="162" y="100">mesencéfalo</text>
@@ -459,7 +470,7 @@ titulo: Horner — da tríade ao endereço
 texto: |
   O tópico de olhos ensinou a **reconhecer** a síndrome de Claude Bernard-Horner e a regra de alarme que a acompanha, e deixou registrado que a anatomia da cadeia simpática e o raciocínio localizatório pertenciam ao capítulo neurológico. É aqui.
 
-  **A tríade, revista em uma frase.** Denervação simpática do olho, com miose por paralisia do dilatador, ptose por paralisia do músculo tarsal superior e anidrose da face, tudo do mesmo lado. Porto acrescenta a leitura clássica, com enoftalmia e redução da fenda palpebral, e as causas que ele associa: traumatismo, neoplasia do ápice pulmonar e pós-operatório cervical.
+  **A tríade, revista em uma frase.** Denervação simpática do olho, com miose por paralisia do dilatador, ptose por paralisia do músculo tarsal superior e anidrose da face, tudo do mesmo lado. Porto acrescenta a leitura clássica, com enoftalmia e redução da fenda palpebral, e as causas que ele associa: traumatismo, neoplasia do ápice pulmonar e pós-operatório cervical — lembrando que o tópico de olhos já discutiu a ressalva de McGee sobre esse ponto, para quem a aparência de enoftalmia é criada pela pálpebra inferior elevada, sem que o globo esteja de fato retraído.
 
   **A anatomia que transforma a tríade em endereço.** McGee descreve a inervação simpática do olho como **três neurônios em série**:
 
@@ -491,7 +502,7 @@ texto: |
 
   A distribuição é simples e vale saber de cor, porque é ela que converte um achado em topografia (Porto e Semiologia Clínica dão a mesma lista):
 
-  - o **III par, oculomotor**, inerva o reto medial, o reto superior, o reto inferior e o oblíquo inferior — e, além deles, o músculo elevador da pálpebra superior;
+  - o **III par, oculomotor**, inerva quatro deles — os retos medial, superior e inferior e o oblíquo inferior — e ainda o músculo elevador da pálpebra superior;
   - o **IV par, troclear**, inerva um só músculo: o oblíquo superior;
   - o **VI par, abducente**, inerva um só músculo: o reto lateral.
 
@@ -539,7 +550,7 @@ linhas:
 ::: conceito
 titulo: Diplopia — as perguntas que vêm antes do nervo
 texto: |
-  Aqui está o erro mais comum de toda a semiologia ocular, e McGee o enuncia sem rodeios: diante de visão dupla, **concluir cedo demais que existe uma neuropatia craniana**. Menos da metade dos pacientes com diplopia tem, de fato, lesão do III, do IV ou do VI.
+  Aqui está o erro mais comum de toda a semiologia ocular, e McGee o enuncia sem rodeios: diante de visão dupla, **concluir cedo demais que existe uma neuropatia craniana**. Entre os pacientes com diplopia binocular, o diagnóstico final é neuropatia do III, do IV ou do VI em **39% a 67%** dos casos; o restante se reparte entre doença muscular ocular — oftalmopatia tireoidiana e miastenia gravis — em 13%, trauma em 12%, causas supranucleares em 5%, outras causas em 4% a 16% e causa desconhecida em 4% a 11%.
 
   **A primeira pergunta separa dois mundos**, e se responde tapando um olho:
 
@@ -665,7 +676,7 @@ nivel: avancado
 texto: |
   **De onde vêm.** A Tabela 59.1 de McGee reúne a distribuição das paralisias isoladas do III, do IV e do VI, e o resultado contraria a intuição de quem estuda o III em primeiro lugar: o mais acometido é o **abducente (VI), com 45%** dos casos, seguido do **oculomotor (III), com 31%**, das combinações de mais de um nervo (13%) e do **troclear (IV), com 11%**.
 
-  As etiologias diferem por nervo, e vale conhecer os contrastes. O **traumatismo craniano** responde por 34% das paralisias do IV — de longe sua maior causa —, contra 13% das do III e 11% das do VI. A **neoplasia** é mais frequente no VI (19%) e nas combinações (29%). A **isquemia** é relativamente uniforme, entre 20% e 25% para os três nervos isolados. E o **aneurisma** concentra-se no III (17%), sendo raro no IV (1%) e no VI (3%). Uma fração grande permanece **idiopática** em todos: de 20% a 30%.
+  As etiologias diferem por nervo, e vale conhecer os contrastes. O **traumatismo craniano** responde por 34% das paralisias do IV — de longe sua maior causa —, contra 13% das do III e 11% das do VI. A **neoplasia** é mais frequente no VI (19%) e nas combinações (29%). A **isquemia** é relativamente uniforme, entre 20% e 25% para os três nervos isolados. E o **aneurisma** concentra-se no III (17%), sendo raro no IV (1%) e no VI (3%). Uma fração grande permanece **idiopática**: de 20% a 30% nos três nervos isolados, e 16% nas combinações.
 
   **A paralisia completa do III.** McGee descreve o quadro: ptose que esconde a posição do olho; erguida a pálpebra, o olho aparece desviado **para fora e ligeiramente para baixo**, pela ação sem oposição do reto lateral e do oblíquo superior; o olho abduz normalmente, mas não passa da linha média ao aduzir, nem sobe, nem desce. A pupila pode ou não estar dilatada — e é justamente disso que trata a regra seguinte.
 
@@ -688,7 +699,7 @@ nivel: avancado
 texto: |
   A síndrome de Horner é o exemplo mais claro deste tópico de um achado pequeno com consequência grande, e três números de McGee dizem por quê.
 
-  **O primeiro é o que mais surpreende.** Em pacientes internados por acidente vascular cerebral, encontrar síndrome de Horner é um argumento contundente a favor de acidente da **circulação posterior**, vertebrobasilar, e contra a circulação anterior: razão de verossimilhança **72**. É um dos valores mais altos de toda a semiologia — sustentado por especificidade de 100% em um estudo pequeno, com sensibilidade de apenas 4%. Leia-se, portanto, com a cautela que a sensibilidade impõe: **quando está, decide; quando falta, não diz nada**.
+  **O primeiro é o que mais surpreende.** Em pacientes internados por acidente vascular cerebral, encontrar síndrome de Horner é um argumento contundente a favor de acidente da **circulação posterior**, vertebrobasilar, e contra a circulação anterior: razão de verossimilhança **72**. É um dos valores mais altos de toda a semiologia — sustentado por especificidade de 100% e sensibilidade de apenas 4%. Leia-se, portanto, com a cautela que a sensibilidade impõe: **quando está, decide; quando falta, não diz nada**.
 
   **O segundo e o terceiro são epidemiológicos, e mudam a busca conforme o cenário.** McGee registra que a distribuição das causas depende da especialidade de quem examina:
 
@@ -728,7 +739,7 @@ texto: |
   1. **Testar olfato com substância irritante.** Amônia e afins estimulam terminações do trigêmeo, e o paciente anósmico "passa" no teste (McGee). Use odores conhecidos e não irritantes, uma narina de cada vez.
   2. **Concluir que o campo visual é normal porque a confrontação não achou nada.** Para defeitos anteriores, a razão de verossimilhança do exame negativo é 0,7 — praticamente não reduz probabilidade nenhuma.
   3. **Demorar mais no olho suspeito durante a luz alternante.** A iluminação desigual branqueia uma retina e **produz** o defeito que se procurava (McGee). Conte em ritmo fixo e troque.
-  4. **Chamar de neuropatia craniana toda visão dupla.** Menos da metade das diplopias tem lesão do III, IV ou VI. Tape um olho primeiro; depois faça as cinco perguntas; só então procure o músculo.
+  4. **Chamar de neuropatia craniana toda visão dupla.** Na diplopia binocular, a neuropatia do III, do IV ou do VI é o diagnóstico final em 39% a 67% dos casos; o resto é doença muscular ocular, trauma, causa supranuclear, outra causa ou causa desconhecida (McGee). Tape um olho primeiro; depois faça as cinco perguntas; só então procure o músculo.
   5. **Usar a regra da pupila poupada para dispensar imagem.** Ela vale só para paralisia completa do III com poupança completa da pupila, fora da faixa de 20 a 50 anos e sem nenhum outro achado — e, hoje, a recomendação é investigar por imagem não invasiva todos os casos de início recente.
   6. **Tratar reflexo córneo-palpebral ausente como sinal confiável.** Ele falta de um lado em 8% de idosos saudáveis, e sua sensibilidade para neuroma do acústico é de apenas 33% (McGee).
 :::
