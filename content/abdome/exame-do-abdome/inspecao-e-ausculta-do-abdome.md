@@ -320,7 +320,7 @@ titulo: Os movimentos
 ::: conceito
 titulo: Respiração, pulsações e ondas
 texto: |
-  **Movimentos respiratórios.** No homem, a respiração normalmente é toracoabdominal e o andar superior do abdome acompanha a inspiração. Esses movimentos **cessam** nos processos inflamatórios do peritônio, com a parede rígida; e nas afecções dolorosas do andar superior a respiração se torna puramente torácica. Um abdome imóvel que respira só com o tórax é um achado de inspeção com peso de alarme.
+  **Movimentos respiratórios.** Com o paciente em decúbito dorsal — a posição do exame do abdome —, o andar superior da parede normalmente acompanha a inspiração. Esses movimentos **cessam** nos processos inflamatórios do peritônio, com a parede rígida; e nas afecções dolorosas do andar superior a respiração se torna puramente torácica. Um abdome imóvel que respira só com o tórax é um achado de inspeção com peso de alarme.
 
   **Pulsações.** Em pessoas magras, pulsações epigástricas costumam ser apenas a aorta abdominal transmitida à parede. Podem também vir de um ventrículo direito hipertrofiado, caso em que a sensação lembra a do ictus. Para levantar a hipótese de aneurisma não basta ver a pulsação: é preciso o que se palpa — massa e alteração da forma do vaso (Porto). A discriminação fina dessa pulsação está no tópico de palpação.
 
@@ -482,8 +482,8 @@ texto: |
   A inspeção do abdome puxa fios que já foram fiados em outras partes do guia.
 
   - **A caracterização da dor abdominal** — localização, irradiação, tipo, intensidade, duração, periodicidade, ritmicidade (incluindo o ciclo dói–come–passa da úlcera duodenal), fatores de melhora e piora e manifestações concomitantes — pertence ao tópico de queixa principal e história da doença atual. Aqui se examina o abdome; lá se colhe a dor.
-  - **A circulação colateral e as estrias** se descrevem com o vocabulário do tópico de pele, mucosas e fâneros; a manobra de determinação do sentido do fluxo venoso vem do capítulo de exame físico geral de Porto (Exame Clínico, cap. 10) e é ensinada aqui, no aprofundamento deste tópico.
-  - **Turgência jugular, cianose e edema da metade superior do corpo**, que acompanham a colateral tipo cava superior, estão no tópico de pulso venoso jugular e turgência.
+  - **As lesões elementares da pele da parede** se descrevem com o vocabulário do tópico de pele, mucosas e fâneros. Já a **circulação colateral** — a distinção em relação ao desenho venoso normal, os tipos e a manobra de determinação do sentido do fluxo — é ensinada aqui mesmo, no aprofundamento deste tópico; a fonte é o capítulo de exame físico geral de Porto (Exame Clínico, cap. 10).
+  - **Turgência jugular e edema da metade superior do corpo**, que acompanham a colateral tipo cava superior, estão no tópico de pulso venoso jugular e turgência; a **cianose** que os acompanha tem o esquema prático de onde procurá-la no tópico de pele, mucosas e fâneros.
   - **O nódulo supraclavicular de Virchow**, achado extra-abdominal que muda o raciocínio diante de uma neoplasia digestiva, está no tópico de linfonodos, junto com a técnica da fossa supraclavicular.
   - **A ascite** — que o abdome globoso levanta e a inspeção não resolve — se confirma pela percussão, no tópico seguinte.
   - **A respiração puramente torácica**, achado de inspeção abdominal, é a mesma dinâmica descrita no tópico de inspeção do tórax; e a frequência respiratória se conta no tópico de temperatura e frequência respiratória.

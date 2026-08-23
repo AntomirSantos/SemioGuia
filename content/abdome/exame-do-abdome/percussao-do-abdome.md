@@ -273,6 +273,8 @@ passos:
   - "Una os pontos de transição: na ascite eles desenham uma linha semicircular com a concavidade voltada para cima, para o epigástrio."
 observar: |
   O semicírculo de Skoda é também um teste de diagnóstico diferencial: na ascite a concavidade olha para cima; no cisto gigante de ovário, a concavidade se volta para o púbis (Semiologia Clínica). Duas curvas opostas, dois raciocínios opostos.
+
+  Um cuidado de vocabulário: o nome de Skoda aparece duas vezes no guia, em achados percutórios diferentes. Aqui, o **semicírculo de Skoda**, linha de transição entre timpanismo e macicez na ascite; no tópico de percussão do tórax, a **ressonância skódica**, hipersonoridade ao redor de uma condensação ou logo acima de um derrame pleural. Mesmo epônimo, dois sinais sem relação entre si.
 :::
 
 ::: perola
