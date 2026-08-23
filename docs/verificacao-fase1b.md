@@ -422,3 +422,24 @@ Verificação headless pós-deploy: home com 4 sistemas na ordem nova;
 
 Nota: os 56 itens novos (48 perguntas + 8 checklists) entram na fila do
 SM-2 sob o teto de 20/dia (backlog silencioso nos primeiros dias).
+
+## Adendo Fase 7 — sistema "Abdome"
+
+A Fase 7 acrescentou o sistema Abdome (5º do guia) com o capítulo "Exame
+do abdome": Inspeção e ausculta · Percussão · Palpação · Abdome agudo e
+sinais peritoneais. 131 blocos, 24 perguntas (gabarito [6,6,6,6];
+resposta-mais-longa em 25%, nível do acaso), 4 checklists-estação, 21
+aprofundamentos, 3 ilustrações. Código: só o ícone grid-3x3 e o sistema
+no yaml.
+
+Gates na árvore final: build:content (5 sistemas, 23 tópicos, json em
+sync), jest (37 suítes, 293 testes), tsc, contraste (todos AA).
+
+Processo: revisão médica independente (1 Critical — sentido do fluxo
+venoso invertido — + 3 Important + 16 Minor, todos corrigidos e
+re-verificados), micro-rodada e revisão final de fase (costuras
+hepatimetria/Traube/refluxo/edema/Virchow verificadas nas duas pontas).
+Conteúdo `revisao: pendente`.
+
+Verificação headless pós-deploy: home com 5 sistemas; tópicos do abdome
+com ilustrações; busca por "ascite"/"Blumberg".

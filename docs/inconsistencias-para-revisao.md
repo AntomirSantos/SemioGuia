@@ -105,6 +105,32 @@ editorial, do autor. Marque cada caixa ao revisar.
   Stemmer "patognomônico" (Porto) × "achado" (app); subir o PDF de
   Ewing 1984 (CAGE) à biblioteca de referências (opcional).
 
+## F. Itens da Fase 7 (abdome)
+
+- [ ] **F1 · Cor do sistema Abdome (#D99A3B)** — a menor razão de
+  contraste entre as cinco cores de sistema no tema claro (2,03:1 sobre
+  superfície). Dentro da regra atual (cor decorativa), mas a primeira a
+  revisitar se o corte de 3:1 para objetos gráficos for adotado; vale
+  também cobrir cores de sistema no checar-contraste.
+- [ ] **F2 · Formato do espaço de Traube** — triangular (Porto, no
+  capítulo do tórax) × semilunar 12×9 cm (Semiologia Clínica, no
+  capítulo do abdome). Cada um atribuído no seu lugar; quem segue a
+  referência cruzada encontra dois formatos sem nota. Uma oração resolve.
+- [ ] **F3 · Epônimo "Guyon" omitido deliberadamente** — a spec pedia
+  "rins (Guyon)", mas o epônimo não existe em nenhuma das 4 referências
+  (só "canal de Guyon", no punho). A técnica é ensinada pelos nomes que
+  Porto usa (captura do rim, choque lomboabdominal). Aceitar a omissão ou
+  indicar outra fonte que ancore o nome.
+- [ ] **F4 · Armadilhas internas de Porto (registro p/ capítulos futuros
+  de digestório)** — cap. 90 "5º EIC direito" × cap. 91 "5º EIC esquerdo"
+  (limite hepático); "borda interna" × "borda externa" do reto no ponto
+  cístico; flanco direito × hipocôndrio na colecistite. Todas resolvidas
+  para o lado correto nesta fase, com as divergências anotadas no texto.
+- [ ] **F5 · Migração da manobra do fluxo venoso** — recomendação do
+  revisor: mover a manobra (e a circulação colateral) para o exame físico
+  geral (ectoscopia/pele), onde tórax e abdome poderiam referenciá-la.
+  Hoje ela vive no capítulo do abdome, atribuída ao cap. 10 de Porto.
+
 ## C. Inconsistências antigas ainda abertas (Fases 1C–3)
 
 - [ ] **C1 · Faixa 37,6–37,8 °C** — "febrícula até 37,5 °C" convive com o
