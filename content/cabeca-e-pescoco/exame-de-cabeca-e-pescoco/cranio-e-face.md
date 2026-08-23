@@ -80,7 +80,7 @@ texto: |
 
   A primeira: **a fácies não se reensina aqui**. O reconhecimento das fácies típicas, a regra de que a maioria dos rostos não tem fácies nenhuma e o recurso da fotografia antiga pertencem ao tópico de ectoscopia. Neste tópico o rosto é examinado por outra pergunta: ele é **simétrico** e ele se **move** simetricamente?
 
-  A segunda: **o exame dos pares cranianos não cabe neste capítulo**. A paralisia facial aparece aqui como achado de assimetria — e com a distinção que muda a conduta —, mas a exploração sistemática do V, do VII e dos demais nervos cranianos, junto com a motricidade ocular e a pesquisa de rigidez de nuca, pertence ao capítulo do sistema nervoso, ainda não escrito neste guia. Onde este tópico chegar à borda do exame neurológico, ele vai dizer isso em voz alta em vez de fingir que o assunto acabou.
+  A segunda: **o exame dos pares cranianos não cabe neste capítulo**. A paralisia facial aparece aqui como achado de assimetria — e com a distinção que muda a conduta —, mas a exploração sistemática do V, do VII e dos demais nervos cranianos, junto com a motricidade ocular e a pesquisa de rigidez de nuca, pertence ao capítulo do sistema nervoso. Onde este tópico chegar à borda do exame neurológico, ele vai dizer isso em voz alta em vez de fingir que o assunto acabou.
 :::
 
 ::: perola
@@ -211,7 +211,7 @@ texto: |
 
   Uma consequência de enfermaria vale ser dita: paciente que não fecha o olho não protege a córnea. A lagoftalmia é, por si, um problema de superfície ocular, e Semiologia Clínica lembra que o piscar é o que reparte o filme lacrimal sobre a conjuntiva e a córnea.
 
-  Onde este raciocínio continua: **a graduação da paralisia facial, o restante do exame do VII par e o exame sistemático dos demais nervos cranianos pertencem ao capítulo do sistema nervoso**, ainda não escrito neste guia. O que se aprende aqui é reconhecer a assimetria e saber para onde ela aponta.
+  Onde este raciocínio continua: **a graduação da paralisia facial, o restante do exame do VII par e o exame sistemático dos demais nervos cranianos pertencem ao capítulo do sistema nervoso**. O que se aprende aqui é reconhecer a assimetria e saber para onde ela aponta.
 :::
 
 ::: secao
@@ -454,7 +454,7 @@ texto: |
   - **Os linfonodos pré-auriculares, occipitais e submandibulares**, que drenam o couro cabeludo e a face, estão no tópico de linfonodos, com as áreas de drenagem de cada cadeia.
   - **Os movimentos involuntários** — tiques, tremores, movimentos coreicos — foram descritos no tópico de ectoscopia; aqui apenas se registra que existem.
   - **Olhos** são o tópico seguinte; **boca, nariz e ouvidos**, o terceiro; **pescoço, tireoide e posição da cabeça**, o quarto.
-  - **O exame dos pares cranianos, a motricidade ocular detalhada, o fundo de olho e a pesquisa de rigidez de nuca** ficam para o capítulo do sistema nervoso, ainda não escrito.
+  - **O exame dos pares cranianos, a motricidade ocular detalhada, o fundo de olho e a pesquisa de rigidez de nuca** ficam para o capítulo do sistema nervoso.
 :::
 
 ::: secao

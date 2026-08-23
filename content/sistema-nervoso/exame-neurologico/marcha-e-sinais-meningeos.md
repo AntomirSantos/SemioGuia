@@ -4,6 +4,8 @@ ordem: 6
 tags:
   - exame neurológico
   - sistema nervoso
+  - reflexo palmomentual
+  - reflexos primitivos
   - marcha
   - disbasia
   - equilíbrio dinâmico

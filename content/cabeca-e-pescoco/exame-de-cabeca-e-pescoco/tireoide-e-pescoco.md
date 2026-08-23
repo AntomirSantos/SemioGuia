@@ -84,7 +84,7 @@ texto: |
 
   - **Jugulares e carótidas.** A turgência jugular, o pulso venoso e os cinco critérios que separam veia de artéria estão no capítulo do coração, no tópico de pulso venoso jugular e turgência. Aqui elas aparecem apenas como estruturas a localizar e como fonte possível de sopro.
   - **Linfonodos cervicais.** As cadeias, os níveis I a VI, as áreas de drenagem de cada uma, a técnica de palpação e os critérios de alarme estão no tópico de linfonodos. Aqui interessa apenas onde eles ficam em relação à tireoide e à traqueia — e o que diferencia um linfonodo de tudo o mais que se palpa no pescoço.
-  - **Rigidez de nuca.** Porto a registra como sinal importante de irritação meníngea, e remete a outro capítulo. Este guia faz o mesmo: a pesquisa e a interpretação da rigidez de nuca pertencem ao capítulo do sistema nervoso, ainda não escrito.
+  - **Rigidez de nuca.** Porto a registra como sinal importante de irritação meníngea, e remete a outro capítulo. Este guia faz o mesmo: a pesquisa e a interpretação da rigidez de nuca pertencem ao capítulo do sistema nervoso.
 
   O pescoço normal (Porto) tem formato quase cilíndrico e contorno regular. Na face anterior notam-se duas leves saliências oblíquas dirigidas para cima, que correspondem aos **esternocleidomastóideos**, e uma proeminência central, a **cartilagem tireoide** — o pomo de Adão, mais saliente nos homens. O esternocleidomastóideo separa o trígono anterior do trígono posterior. E o formato varia com o biotipo: curto e grosso nos brevilíneos, alongado e fino nos longilíneos — o que muda muito a dificuldade do exame.
 :::
@@ -594,7 +594,7 @@ texto: |
   - **Rouquidão, disfagia, macroglossia e o divertículo de Zenker** encontram sua contraparte no tópico de boca, nariz e ouvidos.
   - **O desvio da traqueia** aparece também no tópico de ausculta pulmonar, no diagnóstico diferencial entre atelectasia e derrame.
   - **Os sopros do pescoço** podem representar irradiação de sopros nascidos no coração ou nos vasos da base — o que se ensina no tópico de sopros cardíacos.
-  - **A rigidez de nuca**, o **reflexo aquileu** e a interpretação neurológica ficam para o capítulo do sistema nervoso, ainda não escrito.
+  - **A rigidez de nuca**, o **reflexo aquileu** e a interpretação neurológica ficam para o capítulo do sistema nervoso.
 :::
 
 ::: secao

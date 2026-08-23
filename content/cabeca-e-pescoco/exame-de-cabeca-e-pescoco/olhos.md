@@ -369,7 +369,7 @@ texto: |
 
   Porto (*Semiologia Médica*) registra ainda o quadro oposto, menos citado: a contração espasmódica do músculo de Müller integra a **síndrome de irritação simpática cervical**, que associa midríase, alargamento da fenda palpebral e algum grau de exoftalmia.
 
-  **A ressalva que este tópico faz questão de manter:** a anatomia da cadeia simpática — os três neurônios em série que ligam o hipotálamo posterior à medula cervicotorácica, passam sobre o ápice do pulmão e sobem pelo trajeto carotídeo — e o raciocínio localizatório que ela permite pertencem ao capítulo do sistema nervoso, ainda não escrito neste guia. O que interessa ao exame de cabeça e pescoço é reconhecer a tríade e entender por que ela obriga a olhar para fora da cabeça.
+  **A ressalva que este tópico faz questão de manter:** a anatomia da cadeia simpática — os três neurônios em série que ligam o hipotálamo posterior à medula cervicotorácica, passam sobre o ápice do pulmão e sobem pelo trajeto carotídeo — e o raciocínio localizatório que ela permite pertencem ao capítulo do sistema nervoso. O que interessa ao exame de cabeça e pescoço é reconhecer a tríade e entender por que ela obriga a olhar para fora da cabeça.
 
   Um achado vizinho já aparece em outro tópico do guia: no exame do tórax, a **sudorese em apenas um hemitórax** é descrita como parte da síndrome de Claude Bernard-Horner, no tópico de palpação do tórax. É o mesmo simpático, examinado por outra mão.
 :::
@@ -465,7 +465,7 @@ texto: |
   - **A sudorese assimétrica de um hemitórax** como componente da síndrome de Claude Bernard-Horner está no tópico de palpação do tórax.
   - **Os achados oculares do hipertireoidismo** encontram sua contraparte cervical no tópico de tireoide e pescoço, com as razões de verossimilhança do bócio e do nódulo.
   - **Os linfonodos pré-auriculares**, que a conjuntivite viral e a síndrome oculoglandular aumentam, estão no tópico de linfonodos.
-  - **O fundo de olho, a motricidade ocular detalhada, a interpretação neurológica das pupilas e a manobra que compara a resposta luminosa entre os dois olhos** ficam para o capítulo do sistema nervoso, ainda não escrito.
+  - **O fundo de olho, a motricidade ocular detalhada, a interpretação neurológica das pupilas e a manobra que compara a resposta luminosa entre os dois olhos** ficam para o capítulo do sistema nervoso.
 :::
 
 ::: secao
