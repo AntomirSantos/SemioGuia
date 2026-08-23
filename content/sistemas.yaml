@@ -21,11 +21,20 @@ sistemas:
       - id: avaliacao-geral
         titulo: Avaliação geral
         ordem: 2
+  - id: cabeca-e-pescoco
+    titulo: Cabeça e pescoço
+    cor: "#C46B8F"
+    icone: scan-face
+    ordem: 3
+    capitulos:
+      - id: exame-de-cabeca-e-pescoco
+        titulo: Exame de cabeça e pescoço
+        ordem: 1
   - id: aparelho-cardiovascular
     titulo: Aparelho cardiovascular
     cor: "#D95757"
     icone: heart-pulse
-    ordem: 3
+    ordem: 4
     capitulos:
       - id: exame-cardiaco
         titulo: Exame do coração
@@ -34,7 +43,7 @@ sistemas:
     titulo: Aparelho respiratório
     cor: "#3BA48D"
     icone: wind
-    ordem: 4
+    ordem: 5
     capitulos:
       - id: exame-do-torax
         titulo: Exame do tórax
@@ -43,7 +52,7 @@ sistemas:
     titulo: Abdome
     cor: "#D99A3B"
     icone: grid-3x3
-    ordem: 5
+    ordem: 6
     capitulos:
       - id: exame-do-abdome
         titulo: Exame do abdome
