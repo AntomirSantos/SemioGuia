@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="10" y="14">A · a técnica</text>
+    <text x="182" y="14">B · o achado</text>
+  </g>
+  <!-- A: examinador -->
+  <circle cx="38" cy="62" r="16" stroke-width="1.5" />
+  <path d="M 54 57 L 61 62 L 54 67" stroke-width="1.4" />
+  <circle cx="46" cy="57" r="2.2" stroke-width="1.3" />
+  <!-- A: paciente -->
+  <circle cx="126" cy="62" r="16" stroke-width="1.5" />
+  <path d="M 110 57 L 103 62 L 110 67" stroke-width="1.4" />
+  <circle cx="118" cy="57" r="2.2" stroke-width="1.3" />
+  <!-- A: mao ocluindo o outro olho -->
+  <path d="M 133 50 L 143 50 L 143 70 L 133 70 Z" stroke-width="1.3" />
+  <!-- A: eixo de fixacao -->
+  <path d="M 50 57 L 114 57" stroke-width="1" stroke-dasharray="4 3" />
+  <!-- A: alvo entrando pela periferia -->
+  <circle cx="82" cy="24" r="4" stroke-width="1.4" />
+  <path d="M 82 30 L 82 46" stroke-width="1.4" />
+  <path d="M 78 41 L 82 47 L 86 41" stroke-width="1.4" />
+  <!-- A: distancia -->
+  <path d="M 56 90 L 108 90" stroke-width="1.2" />
+  <path d="M 61 86 L 55 90 L 61 94" stroke-width="1.2" />
+  <path d="M 103 86 L 109 90 L 103 94" stroke-width="1.2" />
+  <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="82" y="104">70 a 100 cm</text>
+  </g>
+  <!-- B: campos visuais -->
+  <circle cx="210" cy="60" r="26" stroke-width="1.5" />
+  <circle cx="278" cy="60" r="26" stroke-width="1.5" />
+  <path d="M 210 34 L 210 86" stroke-width="1.2" stroke-dasharray="3 2" />
+  <path d="M 278 34 L 278 86" stroke-width="1.2" stroke-dasharray="3 2" />
+  <!-- hachura do hemicampo esquerdo, olho direito -->
+  <path d="M 190 53 L 190 67" stroke-width="1" />
+  <path d="M 196 46 L 196 74" stroke-width="1" />
+  <path d="M 202 40 L 202 80" stroke-width="1" />
+  <!-- hachura do hemicampo esquerdo, olho esquerdo -->
+  <path d="M 258 53 L 258 67" stroke-width="1" />
+  <path d="M 264 46 L 264 74" stroke-width="1" />
+  <path d="M 270 40 L 270 80" stroke-width="1" />
+  <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="210" y="100">olho direito</text>
+    <text x="278" y="100">olho esquerdo</text>
+  </g>
+  <!-- legenda -->
+  <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
+    <text x="12" y="132">A · o paciente cobre um olho e fixa o olho do examinador</text>
+    <text x="12" y="146">o alvo entra pela periferia de cada quadrante até ser percebido</text>
+    <text x="12" y="164">B · defeito que respeita a linha vertical nos dois olhos:</text>
+    <text x="12" y="178">do quiasma para trás; se atravessa a linha, é anterior</text>
+  </g>
+</svg>

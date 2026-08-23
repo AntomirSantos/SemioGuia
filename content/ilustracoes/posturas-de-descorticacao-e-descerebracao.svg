@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="12" y="14">A · flexão anormal</text>
+    <text x="176" y="14">B · extensão</text>
+  </g>
+  <!-- A: cabeca e tronco -->
+  <circle cx="82" cy="36" r="9" stroke-width="1.5" />
+  <path d="M 82 45 L 82 52" stroke-width="1.4" />
+  <path d="M 64 54 L 100 54 L 97 104 L 67 104 Z" stroke-width="1.5" />
+  <!-- A: bracos fletidos sobre o torax -->
+  <path d="M 65 60 L 50 80 L 74 88" stroke-width="1.6" />
+  <path d="M 99 60 L 114 80 L 90 92" stroke-width="1.6" />
+  <circle cx="74" cy="88" r="3" stroke-width="1.3" />
+  <circle cx="90" cy="92" r="3" stroke-width="1.3" />
+  <!-- A: pernas estendidas -->
+  <path d="M 71 104 L 69 134 L 68 158" stroke-width="1.6" />
+  <path d="M 93 104 L 95 134 L 96 158" stroke-width="1.6" />
+  <path d="M 68 158 L 60 163" stroke-width="1.4" />
+  <path d="M 96 158 L 104 163" stroke-width="1.4" />
+  <!-- A: plano do leito -->
+  <path d="M 36 172 L 132 172" stroke-width="1" stroke-dasharray="4 3" />
+  <!-- B: cabeca e tronco -->
+  <circle cx="240" cy="36" r="9" stroke-width="1.5" />
+  <path d="M 240 45 L 240 52" stroke-width="1.4" />
+  <path d="M 222 54 L 258 54 L 255 104 L 225 104 Z" stroke-width="1.5" />
+  <!-- B: bracos estendidos e aduzidos -->
+  <path d="M 223 60 L 216 84 L 213 110" stroke-width="1.6" />
+  <path d="M 257 60 L 264 84 L 267 110" stroke-width="1.6" />
+  <circle cx="213" cy="112" r="3" stroke-width="1.3" />
+  <circle cx="267" cy="112" r="3" stroke-width="1.3" />
+  <!-- B: marca de hiperpronacao -->
+  <path d="M 205 96 A 8 8 0 0 1 213 90" stroke-width="1.2" />
+  <path d="M 275 96 A 8 8 0 0 0 267 90" stroke-width="1.2" />
+  <!-- B: pernas estendidas, pes em flexao plantar -->
+  <path d="M 229 104 L 227 134 L 226 158" stroke-width="1.6" />
+  <path d="M 251 104 L 253 134 L 254 158" stroke-width="1.6" />
+  <path d="M 226 158 L 222 168" stroke-width="1.4" />
+  <path d="M 254 158 L 258 168" stroke-width="1.4" />
+  <path d="M 194 172 L 290 172" stroke-width="1" stroke-dasharray="4 3" />
+  <!-- legendas -->
+  <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="82" y="186">antebraços fletidos sobre o tronco</text>
+    <text x="82" y="196">resposta motora = 3</text>
+    <text x="240" y="186">quatro membros em extensão</text>
+    <text x="240" y="196">resposta motora = 2</text>
+  </g>
+</svg>
