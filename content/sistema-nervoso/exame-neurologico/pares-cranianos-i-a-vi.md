@@ -502,7 +502,7 @@ texto: |
 
   A distribuição é simples e vale saber de cor, porque é ela que converte um achado em topografia (Porto e Semiologia Clínica dão a mesma lista):
 
-  - o **III par, oculomotor**, inerva quatro deles — os retos medial, superior e inferior e o oblíquo inferior — e ainda o músculo elevador da pálpebra superior;
+  - o **III par, oculomotor**, inerva quatro dos seis músculos — os retos medial, superior e inferior e o oblíquo inferior — e ainda o músculo elevador da pálpebra superior;
   - o **IV par, troclear**, inerva um só músculo: o oblíquo superior;
   - o **VI par, abducente**, inerva um só músculo: o reto lateral.
 
