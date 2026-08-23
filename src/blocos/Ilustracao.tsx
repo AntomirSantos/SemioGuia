@@ -26,7 +26,7 @@ export function Ilustracao({ bloco }: { bloco: IlustracaoBloco }) {
   const aspectRatio = useMemo(() => razaoDoViewBox(bloco.svg), [bloco.svg]);
 
   return (
-    <View style={{ marginVertical: espaco.m }} accessible accessibilityLabel={bloco.legenda}>
+    <View style={{ marginVertical: espaco.xl }} accessible accessibilityLabel={bloco.legenda}>
       <SvgXml xml={bloco.svg} width="100%" style={{ aspectRatio }} color={paleta.tinta} />
       <Text
         style={{

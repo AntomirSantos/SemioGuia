@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
-import { Check, ClipboardCheck } from 'lucide-react-native';
+import { Check, ClipboardCheck, ListChecks } from 'lucide-react-native';
 import { router } from 'expo-router';
 import type { Bloco } from '../content/schema';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, sombra, tipo } from '../design/tokens';
+import { IdentidadeBloco } from './identidade';
 import { TextoRico } from './texto';
 
 type ChecklistBlocoTipo = Extract<Bloco, { tipo: 'checklist' }>;
@@ -18,10 +19,8 @@ export function ChecklistBloco({ bloco, topicoId }: { bloco: ChecklistBlocoTipo;
   };
 
   return (
-    <View style={{ backgroundColor: paleta.superficie, borderWidth: 1, borderColor: paleta.linha, borderRadius: raio.l, paddingVertical: espaco.xl, paddingHorizontal: espaco.xl + 2, marginVertical: espaco.m, ...sombra }}>
-      <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.tag, letterSpacing: 1.1, textTransform: 'uppercase', color: paleta.acentoTinta, marginBottom: espaco.xs + 2 }}>
-        Checklist
-      </Text>
+    <View style={{ backgroundColor: paleta.superficie, borderWidth: 1, borderColor: paleta.linha, borderRadius: raio.l, paddingVertical: espaco.xl, paddingHorizontal: espaco.xl + 2, marginVertical: espaco.xl, ...sombra }}>
+      <IdentidadeBloco Icone={ListChecks} rotulo="Checklist" />
       <Text style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.h3 * escala), color: paleta.tinta, marginBottom: espaco.s }}>
         {bloco.titulo}
       </Text>

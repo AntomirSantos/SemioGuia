@@ -46,6 +46,13 @@ test('renderiza o título do tópico e um bloco', async () => {
   await waitFor(() => {
     expect(getByText('Pressão arterial')).toBeTruthy();
   });
+  // Leitura por seções (Fase 8 §3.1): a tela abre só na 1ª seção
+  // ("O essencial"), que não tem bloco de manobra — ele está na 2ª seção
+  // ("Como aferir"). Navega antes de asserir, como orientado para testes
+  // que dependiam de conteúdo fora da seção inicial. `await` no press: a
+  // troca de seção dispara a transição de entrada (Animated), cujo efeito
+  // só assenta na árvore depois de resolvido.
+  await fireEvent.press(getByText('Próxima seção'));
   expect(getByText('Manobra')).toBeTruthy();
 });
 
@@ -121,4 +128,76 @@ test('desmarcar como estudado não semeia novos itens de revisão', async () => 
   });
   const itens = await store.listarItensRevisao();
   expect(itens).toHaveLength(0);
+});
+
+// Leitura por seções — spec Fase 8 §3.1/§3.2.
+describe('leitura por seções', () => {
+  test('abre na 1ª seção, com a chip correspondente marcada como selecionada', async () => {
+    const { getByText, getAllByRole } = await renderTopico(new MemoryProgressStore());
+
+    await waitFor(() => {
+      expect(getByText('Pressão arterial')).toBeTruthy();
+    });
+
+    const abas = getAllByRole('tab');
+    expect(abas[0].props.accessibilityState?.selected).toBe(true);
+    expect(abas.slice(1).every((aba) => aba.props.accessibilityState?.selected === false)).toBe(true);
+    expect(getByText('Seção 1 de 5')).toBeTruthy();
+
+    // Conteúdo da 2ª seção ("Como aferir") não está no DOM ainda.
+    expect(() => getByText('Manobra')).toThrow();
+  });
+
+  test('tocar numa chip do sumário navega para a seção e atualiza a seleção e o indicador', async () => {
+    const { getByText, getAllByRole } = await renderTopico(new MemoryProgressStore());
+
+    await waitFor(() => {
+      expect(getByText('Pressão arterial')).toBeTruthy();
+    });
+
+    // `await`: a troca de seção dispara EntradaAnimada (fade + deslize via
+    // Animated), cujo efeito de montagem só assenta na árvore depois de
+    // resolvido — sem isso a asserção seguinte roda contra a árvore antiga.
+    await fireEvent.press(getByText('Classificação'));
+
+    expect(getByText('Seção 3 de 5')).toBeTruthy();
+    expect(getByText('Como ler a tabela')).toBeTruthy();
+
+    const abas = getAllByRole('tab');
+    expect(abas[2].props.accessibilityState?.selected).toBe(true);
+    expect(abas[0].props.accessibilityState?.selected).toBe(false);
+  });
+
+  test('"Próxima seção" e "Seção anterior" avançam e recuam uma seção por vez', async () => {
+    const { getByText, queryByText } = await renderTopico(new MemoryProgressStore());
+
+    await waitFor(() => {
+      expect(getByText('Pressão arterial')).toBeTruthy();
+    });
+    expect(queryByText('Seção anterior')).toBeNull();
+
+    await fireEvent.press(getByText('Próxima seção'));
+    expect(getByText('Seção 2 de 5')).toBeTruthy();
+
+    await fireEvent.press(getByText('Seção anterior'));
+    expect(getByText('Seção 1 de 5')).toBeTruthy();
+    expect(queryByText('Seção anterior')).toBeNull();
+  });
+
+  test('bloco nível avançado dentro de uma seção continua atrás do "Aprofundar"', async () => {
+    const { getAllByText, getByText, queryByText } = await renderTopico(new MemoryProgressStore());
+
+    await waitFor(() => {
+      expect(getByText('Pressão arterial')).toBeTruthy();
+    });
+    await fireEvent.press(getByText('Próxima seção')); // "Como aferir", tem 2 conceitos nível avançado
+
+    const gatilhos = getAllByText('Aprofundar · Conceito');
+    expect(gatilhos.length).toBe(2);
+    expect(queryByText('As cinco fases, uma a uma')).toBeNull();
+
+    await fireEvent.press(gatilhos[0]);
+
+    expect(getByText('As cinco fases, uma a uma')).toBeTruthy();
+  });
 });

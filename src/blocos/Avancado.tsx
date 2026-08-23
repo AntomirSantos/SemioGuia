@@ -3,11 +3,14 @@ import { Pressable, Text, View } from 'react-native';
 import { ChevronDown, ChevronUp } from 'lucide-react-native';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
+import { EntradaAnimada } from '../design/EntradaAnimada';
 
 // Revelação progressiva: o bloco fica fechado por padrão (só o cabeçalho
 // "Aprofundar · <rótulo>" aparece) e o conteúdo só é montado quando aberto —
 // sem custo de render nem de a11y (leitor de tela) para quem não pediu para
-// aprofundar. Sem animação obrigatória; mount/unmount simples.
+// aprofundar. Ao abrir, o conteúdo entra com a mesma transição curta
+// (fade + deslize, spec Fase 8 §3.4) usada na troca de seção — respeita
+// movimento reduzido automaticamente via EntradaAnimada.
 export function Avancado({ rotulo, children }: { rotulo: string; children: ReactNode }) {
   const { paleta } = useTema();
   const [aberto, setAberto] = useState(false);
@@ -19,7 +22,7 @@ export function Avancado({ rotulo, children }: { rotulo: string; children: React
         borderWidth: 1,
         borderColor: paleta.linha,
         borderRadius: raio.m,
-        marginVertical: espaco.m,
+        marginVertical: espaco.xl,
         overflow: 'hidden',
       }}
     >
@@ -49,7 +52,11 @@ export function Avancado({ rotulo, children }: { rotulo: string; children: React
         </Text>
         {aberto ? <ChevronUp size={18} color={paleta.acentoTinta} /> : <ChevronDown size={18} color={paleta.acentoTinta} />}
       </Pressable>
-      {aberto ? <View style={{ paddingHorizontal: espaco.l, paddingBottom: espaco.l }}>{children}</View> : null}
+      {aberto ? (
+        <EntradaAnimada>
+          <View style={{ paddingHorizontal: espaco.l, paddingBottom: espaco.l }}>{children}</View>
+        </EntradaAnimada>
+      ) : null}
     </View>
   );
 }

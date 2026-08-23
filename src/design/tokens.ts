@@ -81,4 +81,4 @@ export const fonte = {
   corpoBold: 'AtkinsonHyperlegible_700Bold',
 } as const;
 
-export const tipo = { h1: 30, h2: 24, h3: 19, corpo: 16, small: 14, tag: 11.5, hero: 64 } as const;
+export const tipo = { h1: 30, h2: 24, h3: 19, corpo: 16, small: 14, tag: 11.5, hero: 64, secao: 22 } as const;

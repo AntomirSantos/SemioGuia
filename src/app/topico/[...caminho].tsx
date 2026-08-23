@@ -1,10 +1,13 @@
-import { useEffect, useState } from 'react';
-import { Pressable, Text, View } from 'react-native';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { AccessibilityInfo, Pressable, Text, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { Heart, CheckCircle2 } from 'lucide-react-native';
 import { Tela } from '../../design/Tela';
 import { Cabecalho } from '../../design/Cabecalho';
 import { Rotulo } from '../../design/Rotulo';
+import { SumarioSecoes } from '../../design/SumarioSecoes';
+import { IndicadorSecao, NavegacaoSecao } from '../../design/NavegacaoSecao';
+import { EntradaAnimada } from '../../design/EntradaAnimada';
 import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useSistema, useTopico } from '../../content/ContentContext';
@@ -13,7 +16,7 @@ import { useSync } from '../../sync/orquestrador';
 import { BlocoView } from '../../blocos/Bloco';
 import { semearTopico } from '../../revisao/fila';
 import { agoraIso, hojeLocal } from '../../revisao/hoje';
-import type { QuizPergunta, Topico } from '../../content/schema';
+import type { Bloco, QuizPergunta, Topico } from '../../content/schema';
 
 function TelaNaoEncontrada() {
   const { paleta, escala } = useTema();
@@ -80,6 +83,35 @@ function BotaoAcao({
   );
 }
 
+interface SecaoTopico {
+  titulo: string;
+  blocos: Bloco[];
+}
+
+// Leitura por seções (spec Fase 8 §3.1): particiona os blocos do tópico nos
+// pontos marcados por `tipo: 'secao'`, cada um virando o título da seção
+// seguinte. Verificado contra assets/generated/content.json: os 23 tópicos
+// reais sempre começam com uma `secao` — mas se algum vier sem isso, blocos
+// soltos antes da 1ª seção ganham uma seção implícita "Início" em vez de
+// desaparecer.
+function particionarSecoes(blocos: Bloco[]): SecaoTopico[] {
+  const secoes: SecaoTopico[] = [];
+  let atual: SecaoTopico | null = null;
+  for (const bloco of blocos) {
+    if (bloco.tipo === 'secao') {
+      atual = { titulo: bloco.titulo, blocos: [] };
+      secoes.push(atual);
+      continue;
+    }
+    if (!atual) {
+      atual = { titulo: 'Início', blocos: [] };
+      secoes.push(atual);
+    }
+    atual.blocos.push(bloco);
+  }
+  return secoes;
+}
+
 export function TelaTopico({ topicoId }: { topicoId: string }) {
   const { paleta, escala } = useTema();
   const topico = useTopico(topicoId);
@@ -88,6 +120,34 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
   const { notificarEscrita } = useSync();
   const [estudado, setEstudado] = useState(false);
   const [favorito, setFavorito] = useState(false);
+  const [secaoAtiva, setSecaoAtiva] = useState(0);
+
+  const secoes = useMemo(() => particionarSecoes(topico?.blocos ?? []), [topico]);
+  const totalSecoes = secoes.length;
+  const acentoSistema = sistema?.cor;
+
+  // Deep-link ou troca de tópico sempre abre na 1ª seção (spec §3.1) — o
+  // estado da seção ativa é local, não persiste entre visitas.
+  useEffect(() => {
+    setSecaoAtiva(0);
+  }, [topicoId]);
+
+  // Anúncio de troca de seção para leitor de tela (spec §3.1), sem disparar
+  // na primeira montagem (aí quem anuncia é o próprio título da tela).
+  const primeiraRenderizacao = useRef(true);
+  useEffect(() => {
+    if (primeiraRenderizacao.current) {
+      primeiraRenderizacao.current = false;
+      return;
+    }
+    const secao = secoes[secaoAtiva];
+    if (secao) {
+      AccessibilityInfo.announceForAccessibility?.(`Seção ${secaoAtiva + 1} de ${totalSecoes}: ${secao.titulo}`);
+    }
+    // Só reage à troca de seção em si; `secoes`/`totalSecoes` variam junto
+    // com `topicoId`, já tratado pelo efeito de reset acima.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [secaoAtiva]);
 
   useEffect(() => {
     let cancelado = false;
@@ -143,6 +203,9 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
     router.push(`/quiz/${topicoId}`);
   }
 
+  const secaoCorrente = secoes[secaoAtiva];
+  const naUltimaSecao = secaoAtiva === totalSecoes - 1;
+
   return (
     <Tela>
       <Cabecalho titulo="" cor={sistema?.cor} aoVoltar={() => router.back()} />
@@ -196,21 +259,48 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
         <BotaoAcao ativo={estudado} rotulo="Marcar estudado" rotuloAtivo="Estudado" Icone={CheckCircle2} onPress={alternarEstudado} />
       </View>
 
-      {topico.blocos.map((bloco, i) => (
-        <BlocoView key={i} bloco={bloco} onIniciarQuiz={iniciarQuiz} topicoId={topicoId} />
-      ))}
+      {totalSecoes > 0 ? (
+        <>
+          <SumarioSecoes secoes={secoes} ativa={secaoAtiva} cor={acentoSistema} onSelecionar={setSecaoAtiva} />
+          <IndicadorSecao indice={secaoAtiva} total={totalSecoes} cor={acentoSistema} />
 
-      <View style={{ marginTop: espaco.xl, paddingTop: espaco.l, borderTopWidth: 1, borderTopColor: paleta.linha }}>
-        <Rotulo texto="Referências" style={{ marginBottom: espaco.xs }} />
-        {topico.referencias.map((referencia, i) => (
-          <Text
-            key={i}
-            style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2, marginBottom: espaco.xs }}
-          >
-            {referencia}
-          </Text>
-        ))}
-      </View>
+          {secaoCorrente ? (
+            <EntradaAnimada key={secaoAtiva}>
+              <Text
+                accessibilityRole="header"
+                style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.secao * escala), color: paleta.tinta, marginBottom: espaco.s }}
+              >
+                {secaoCorrente.titulo}
+              </Text>
+              {secaoCorrente.blocos.map((bloco, i) => (
+                <BlocoView key={i} bloco={bloco} onIniciarQuiz={iniciarQuiz} topicoId={topicoId} />
+              ))}
+            </EntradaAnimada>
+          ) : null}
+
+          <NavegacaoSecao
+            temAnterior={secaoAtiva > 0}
+            temProxima={!naUltimaSecao}
+            cor={acentoSistema}
+            aoIrAnterior={() => setSecaoAtiva((s) => Math.max(0, s - 1))}
+            aoIrProxima={() => setSecaoAtiva((s) => Math.min(totalSecoes - 1, s + 1))}
+          />
+
+          {naUltimaSecao ? (
+            <View style={{ marginTop: espaco.xl, paddingTop: espaco.l, borderTopWidth: 1, borderTopColor: paleta.linha }}>
+              <Rotulo texto="Referências" style={{ marginBottom: espaco.xs }} />
+              {topico.referencias.map((referencia, i) => (
+                <Text
+                  key={i}
+                  style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2, marginBottom: espaco.xs }}
+                >
+                  {referencia}
+                </Text>
+              ))}
+            </View>
+          ) : null}
+        </>
+      ) : null}
     </Tela>
   );
 }

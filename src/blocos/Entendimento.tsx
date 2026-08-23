@@ -1,7 +1,9 @@
 import { Text, View } from 'react-native';
+import { Lightbulb } from 'lucide-react-native';
 import type { Bloco } from '../content/schema';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
+import { IdentidadeBloco } from './identidade';
 import { TextoRico } from './texto';
 
 type EntendimentoBloco = Extract<Bloco, { tipo: 'entendimento' }>;
@@ -21,21 +23,10 @@ export function Entendimento({ bloco }: { bloco: EntendimentoBloco }) {
         borderRadius: raio.l,
         paddingVertical: espaco.xl,
         paddingHorizontal: espaco.xl + 2,
-        marginVertical: espaco.m,
+        marginVertical: espaco.xl,
       }}
     >
-      <Text
-        style={{
-          fontFamily: fonte.corpoBold,
-          fontSize: tipo.tag,
-          letterSpacing: 1.1,
-          textTransform: 'uppercase',
-          color: paleta.acentoTinta,
-          marginBottom: espaco.xs + 2,
-        }}
-      >
-        Entendimento clínico
-      </Text>
+      <IdentidadeBloco Icone={Lightbulb} rotulo="Entendimento clínico" />
       {bloco.titulo ? (
         <Text style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.h3 * escala), color: paleta.tinta, marginBottom: espaco.s }}>
           {bloco.titulo}

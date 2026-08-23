@@ -1,11 +1,16 @@
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
+import { Gem } from 'lucide-react-native';
 import type { Bloco } from '../content/schema';
 import { useTema } from '../design/ThemeContext';
-import { espaco, fonte, raio, tipo } from '../design/tokens';
+import { espaco, raio, sombra, tipo } from '../design/tokens';
+import { IdentidadeBloco } from './identidade';
 import { TextoRico } from './texto';
 
 type PerolaBloco = Extract<Bloco, { tipo: 'perola' }>;
 
+// Card destacado (spec §3.2): além do fundo `perola` já existente, ganha
+// sombra dos tokens — igual aos demais cartões — para se destacar como
+// conteúdo de maior densidade de valor, não só de cor diferente.
 export function Perola({ bloco }: { bloco: PerolaBloco }) {
   const { paleta, escala } = useTema();
   return (
@@ -17,12 +22,11 @@ export function Perola({ bloco }: { bloco: PerolaBloco }) {
         borderRadius: raio.l,
         paddingVertical: espaco.l + 2,
         paddingHorizontal: espaco.xl + 2,
-        marginVertical: espaco.m,
+        marginVertical: espaco.xl,
+        ...sombra,
       }}
     >
-      <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.tag, letterSpacing: 1.1, textTransform: 'uppercase', color: paleta.perolaTexto, marginBottom: espaco.xs + 2 }}>
-        Pérola clínica
-      </Text>
+      <IdentidadeBloco Icone={Gem} rotulo="Pérola clínica" cor={paleta.perolaTexto} />
       <TextoRico style={{ fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta }}>{bloco.texto}</TextoRico>
     </View>
   );

@@ -1,7 +1,9 @@
 import { Text, View } from 'react-native';
+import { Hand } from 'lucide-react-native';
 import type { Bloco } from '../content/schema';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, sombra, tipo } from '../design/tokens';
+import { IdentidadeBloco } from './identidade';
 import { TextoRico } from './texto';
 
 type ManobraBloco = Extract<Bloco, { tipo: 'manobra' }>;
@@ -10,10 +12,8 @@ export function Manobra({ bloco }: { bloco: ManobraBloco }) {
   const { paleta, escala } = useTema();
   const corpo = Math.round(tipo.corpo * escala);
   return (
-    <View style={{ backgroundColor: paleta.superficie, borderWidth: 1, borderColor: paleta.linha, borderRadius: raio.l, paddingVertical: espaco.xl, paddingHorizontal: espaco.xl + 2, marginVertical: espaco.m, ...sombra }}>
-      <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.tag, letterSpacing: 1.1, textTransform: 'uppercase', color: paleta.acentoTinta, marginBottom: espaco.xs + 2 }}>
-        Manobra
-      </Text>
+    <View style={{ backgroundColor: paleta.superficie, borderWidth: 1, borderColor: paleta.linha, borderRadius: raio.l, paddingVertical: espaco.xl, paddingHorizontal: espaco.xl + 2, marginVertical: espaco.xl, ...sombra }}>
+      <IdentidadeBloco Icone={Hand} rotulo="Manobra" />
       <Text style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.h3 * escala), color: paleta.tinta, marginBottom: espaco.s }}>
         {bloco.titulo}
       </Text>
