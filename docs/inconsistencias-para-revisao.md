@@ -147,6 +147,15 @@ editorial, do autor. Marque cada caixa ao revisar.
   escopo do TextoRico (corpus não usa); par ok/okFundo segue fora do gate
   de contraste (uso decorativo).
 
+## H. Itens da Fase 9 (cabeça e pescoço)
+
+- [ ] **H1 · Script de contraste não cobre cores de sistema** — o
+  checar:contraste só testa os tokens fixos do tema; nenhuma `cor` de
+  sistema (incluindo a nova #C46B8F) passa pelo gate automatizado. A
+  regra da casa (cor de sistema nunca como texto, só tint/ícone/fundo)
+  é garantida por inspeção manual e foi conferida na revisão da F9-T1.
+  Candidato a melhoria de tooling: gate que varra usos de `sistema.cor`.
+
 ## C. Inconsistências antigas ainda abertas (Fases 1C–3)
 
 - [ ] **C1 · Faixa 37,6–37,8 °C** — "febrícula até 37,5 °C" convive com o
