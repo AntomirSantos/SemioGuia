@@ -10,13 +10,20 @@ const DESLOCAMENTO_PX = 8;
 // vez, ao abrir). Cada instância anima uma única vez, do próprio mount — o
 // chamador força uma nova animação passando um `key` diferente. Com
 // movimento reduzido (spec §3.4), o conteúdo aparece direto, sem animação.
+//
+// `useReducedMotion()` retorna `null` até resolver no nativo — tratamos
+// `null` como "reduzir" (padrão mais seguro: revisão de fase pegou a
+// animação disparando otimista com `false` nesse intervalo, antes de saber
+// se o usuário pediu movimento reduzido de verdade). Só anima quando a
+// preferência já foi confirmada como `false`.
 export function EntradaAnimada({ children, eixo = 'y' }: { children: ReactNode; eixo?: 'x' | 'y' }) {
   const reduzido = useReducedMotion();
-  const opacidade = useRef(new Animated.Value(reduzido ? 1 : 0)).current;
-  const deslocamento = useRef(new Animated.Value(reduzido ? 0 : DESLOCAMENTO_PX)).current;
+  const semAnimacao = reduzido !== false;
+  const opacidade = useRef(new Animated.Value(semAnimacao ? 1 : 0)).current;
+  const deslocamento = useRef(new Animated.Value(semAnimacao ? 0 : DESLOCAMENTO_PX)).current;
 
   useEffect(() => {
-    if (reduzido) {
+    if (semAnimacao) {
       opacidade.setValue(1);
       deslocamento.setValue(0);
       return;
@@ -28,7 +35,7 @@ export function EntradaAnimada({ children, eixo = 'y' }: { children: ReactNode; 
     // Roda uma vez por montagem desta instância; o chamador troca o `key`
     // para disparar uma nova animação em vez de reanimar em cada render.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [reduzido]);
+  }, [semAnimacao]);
 
   const transform = eixo === 'x' ? [{ translateX: deslocamento }] : [{ translateY: deslocamento }];
   return <Animated.View style={{ opacity: opacidade, transform }}>{children}</Animated.View>;

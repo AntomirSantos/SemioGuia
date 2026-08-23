@@ -4,6 +4,7 @@ import { ChevronDown, ChevronUp } from 'lucide-react-native';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
 import { EntradaAnimada } from '../design/EntradaAnimada';
+import { ProvedorAprofundar } from './identidade';
 
 // Revelação progressiva: o bloco fica fechado por padrão (só o cabeçalho
 // "Aprofundar · <rótulo>" aparece) e o conteúdo só é montado quando aberto —
@@ -54,7 +55,9 @@ export function Avancado({ rotulo, children }: { rotulo: string; children: React
       </Pressable>
       {aberto ? (
         <EntradaAnimada>
-          <View style={{ paddingHorizontal: espaco.l, paddingBottom: espaco.l }}>{children}</View>
+          <ProvedorAprofundar>
+            <View style={{ paddingHorizontal: espaco.l, paddingBottom: espaco.l }}>{children}</View>
+          </ProvedorAprofundar>
         </EntradaAnimada>
       ) : null}
     </View>

@@ -52,7 +52,10 @@ export function SumarioSecoes({
     const jaVisivel = layout.x >= inicioVisivel + MARGEM_VISIVEL && layout.x + layout.width <= fimVisivel - MARGEM_VISIVEL;
     if (jaVisivel) return;
     const alvo = Math.max(0, layout.x - larguraVisivel / 2 + layout.width / 2);
-    scrollRef.current?.scrollTo({ x: alvo, animated: !reduzido });
+    // `reduzido` é `boolean | null` (spec A7): só anima quando já sabemos
+    // que NÃO foi pedido movimento reduzido — `null` (ainda resolvendo) e
+    // `true` caem no mesmo lado seguro, instantâneo.
+    scrollRef.current?.scrollTo({ x: alvo, animated: reduzido === false });
   }, [ativa, larguraVisivel, reduzido]);
 
   return (

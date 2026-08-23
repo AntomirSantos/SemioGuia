@@ -38,6 +38,28 @@ describe('useReducedMotion', () => {
     expect(result.current).toBe(true);
   });
 
+  // Fase 8, revisão de fase (A7): antes da promise de isReduceMotionEnabled
+  // resolver, o hook devolvia `false` "otimista" — EntradaAnimada podia
+  // animar antes de saber se o usuário pediu movimento reduzido de verdade.
+  // Agora começa `null` (preferência desconhecida) e só os consumidores
+  // decidem tratar `null` como "reduzir" (padrão seguro).
+  test('valor inicial é null até isReduceMotionEnabled resolver', async () => {
+    let resolver: (valor: boolean) => void = () => {};
+    isReduceMotionEnabled.mockReturnValue(
+      new Promise<boolean>((resolve) => {
+        resolver = resolve;
+      }),
+    );
+
+    const { result } = await renderHook(() => useReducedMotion());
+    expect(result.current).toBeNull();
+
+    await act(async () => {
+      resolver(true);
+    });
+    expect(result.current).toBe(true);
+  });
+
   test('reflete false quando isReduceMotionEnabled resolve false', async () => {
     isReduceMotionEnabled.mockResolvedValue(false);
     const { result } = await renderHook(() => useReducedMotion());

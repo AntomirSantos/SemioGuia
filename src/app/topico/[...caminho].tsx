@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { AccessibilityInfo, Pressable, Text, View } from 'react-native';
+import { AccessibilityInfo, Pressable, ScrollView, Text, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { Heart, CheckCircle2 } from 'lucide-react-native';
 import { Tela } from '../../design/Tela';
@@ -8,6 +8,7 @@ import { Rotulo } from '../../design/Rotulo';
 import { SumarioSecoes } from '../../design/SumarioSecoes';
 import { IndicadorSecao, NavegacaoSecao } from '../../design/NavegacaoSecao';
 import { EntradaAnimada } from '../../design/EntradaAnimada';
+import { useReducedMotion } from '../../design/useReducedMotion';
 import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useSistema, useTopico } from '../../content/ContentContext';
@@ -121,6 +122,8 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
   const [estudado, setEstudado] = useState(false);
   const [favorito, setFavorito] = useState(false);
   const [secaoAtiva, setSecaoAtiva] = useState(0);
+  const scrollRef = useRef<ScrollView>(null);
+  const reduzidoMovimento = useReducedMotion();
 
   const secoes = useMemo(() => particionarSecoes(topico?.blocos ?? []), [topico]);
   const totalSecoes = secoes.length;
@@ -131,6 +134,20 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
   useEffect(() => {
     setSecaoAtiva(0);
   }, [topicoId]);
+
+  // Revisão de fase P1 (central): volta o scroll ao topo a cada troca de
+  // seção — sem isso, quem lia até o fim de uma seção longa e tocava
+  // "Próxima seção" caía no FIM da seção seguinte (quiz/checklist antes do
+  // título), medido empiricamente pelo revisor (scrollTop 2453 → 2458 num
+  // tap). Instantâneo com movimento reduzido — `null` (ainda não resolvido)
+  // conta como reduzido, mesma regra de EntradaAnimada/SumarioSecoes.
+  useEffect(() => {
+    scrollRef.current?.scrollTo({ y: 0, animated: reduzidoMovimento === false });
+    // Só reage à troca de seção; ler `reduzidoMovimento` no momento do
+    // disparo (sem listá-lo) evita um scroll extra caso a preferência
+    // resolva sozinha, sem o usuário ter trocado de seção.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [secaoAtiva]);
 
   // Anúncio de troca de seção para leitor de tela (spec §3.1), sem disparar
   // na primeira montagem (aí quem anuncia é o próprio título da tela).
@@ -167,6 +184,12 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
   // formato existente de `prefs`). Só grava quando o tópico existe de fato.
   useEffect(() => {
     if (!topico) return;
+    // Blindagem (revisão de fase A6): `prefs.valor` tem teto de 100
+    // caracteres no firestore.rules; o `topicoId` mais longo hoje tem 71,
+    // mas gravar algo acima do teto faria o Firestore rejeitar o
+    // documento (e potencialmente o lote inteiro de sync) — pula a
+    // gravação em vez de arriscar isso por um id futuro grande demais.
+    if (topicoId.length > 100) return;
     progresso
       .definirPreferencia('ultimoTopico', topicoId)
       .catch(() => {})
@@ -220,7 +243,7 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
   const naUltimaSecao = secaoAtiva === totalSecoes - 1;
 
   return (
-    <Tela>
+    <Tela ref={scrollRef}>
       <Cabecalho titulo="" cor={sistema?.cor} aoVoltar={() => router.back()} />
       <Rotulo
         texto={`${sistema?.titulo ?? ''}${capitulo ? ` · ${capitulo.titulo}` : ''}`}
@@ -298,21 +321,26 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
             aoIrAnterior={() => setSecaoAtiva((s) => Math.max(0, s - 1))}
             aoIrProxima={() => setSecaoAtiva((s) => Math.min(totalSecoes - 1, s + 1))}
           />
-
-          {naUltimaSecao ? (
-            <View style={{ marginTop: espaco.xl, paddingTop: espaco.l, borderTopWidth: 1, borderTopColor: paleta.linha }}>
-              <Rotulo texto="Referências" style={{ marginBottom: espaco.xs }} />
-              {topico.referencias.map((referencia, i) => (
-                <Text
-                  key={i}
-                  style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2, marginBottom: espaco.xs }}
-                >
-                  {referencia}
-                </Text>
-              ))}
-            </View>
-          ) : null}
         </>
+      ) : null}
+
+      {/* Referências ficam fora do bloco de seções (revisão de fase P5):
+          um tópico hipotético sem nenhuma `secao` continua mostrando-as em
+          vez de sumirem por estarem presas à condição `totalSecoes > 0`.
+          Com seções normais, o gate `naUltimaSecao || totalSecoes === 0`
+          preserva o comportamento original — só na última seção. */}
+      {naUltimaSecao || totalSecoes === 0 ? (
+        <View style={{ marginTop: espaco.xl, paddingTop: espaco.l, borderTopWidth: 1, borderTopColor: paleta.linha }}>
+          <Rotulo texto="Referências" style={{ marginBottom: espaco.xs }} />
+          {topico.referencias.map((referencia, i) => (
+            <Text
+              key={i}
+              style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2, marginBottom: espaco.xs }}
+            >
+              {referencia}
+            </Text>
+          ))}
+        </View>
       ) : null}
     </Tela>
   );

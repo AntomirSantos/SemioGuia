@@ -7,7 +7,14 @@ import { IdentidadeBloco } from './identidade';
 
 type TabelaBlocoTipo = Extract<Bloco, { tipo: 'tabela' }>;
 
-const LARGURA_COLUNA = 130;
+// Revisão de fase P3a: 130 (valor original, pré-Fase 8) já não bastava para
+// a palavra isolada mais longa que aparece de verdade em cabeçalhos de
+// coluna no conteúdo — medido no font real (AtkinsonHyperlegible_700Bold,
+// 14px, uppercase, letterSpacing 0.5): "Classificação" precisa de ~119px,
+// "verossimilhança" de ~142px, "Características" de ~138px. 170 (menos os
+// 16px de padding = 154px úteis) cobre o pior caso real com folga, sem
+// reverter o padding das células (que já é igual ao das linhas de dado).
+const LARGURA_COLUNA = 170;
 
 export function TabelaBloco({ bloco }: { bloco: TabelaBlocoTipo }) {
   const { paleta, escala } = useTema();
@@ -24,9 +31,12 @@ export function TabelaBloco({ bloco }: { bloco: TabelaBlocoTipo }) {
         <View>
           <View style={{ flexDirection: 'row', backgroundColor: paleta.superficie2 }}>
             {bloco.colunas.map((col, i) => (
+              // Padding igual ao das células de dados (`espaco.s`, sem o
+              // `+2` que uma rodada anterior chegou a testar) — ver
+              // LARGURA_COLUNA acima para a conta completa do fix P3a.
               <Text
                 key={i}
-                style={{ width: LARGURA_COLUNA, padding: espaco.s + 2, fontFamily: fonte.corpoBold, fontSize: tipo.small, textTransform: 'uppercase', letterSpacing: 0.5, color: paleta.acentoTinta }}
+                style={{ width: LARGURA_COLUNA, padding: espaco.s, fontFamily: fonte.corpoBold, fontSize: tipo.small, textTransform: 'uppercase', letterSpacing: 0.5, color: paleta.acentoTinta }}
               >
                 {col}
               </Text>

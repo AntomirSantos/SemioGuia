@@ -74,21 +74,26 @@ function CartaoSistema({ sistema, estudados }: { sistema: Sistema; estudados: nu
       >
         <Icone size={22} color={sistema.cor} />
       </View>
-      {/* `alignSelf: 'stretch'` + `flexShrink: 1` explícitos (polish Fase 8):
-          sem eles, títulos de sistema com uma palavra longa ("cardiovascular")
-          podiam truncar em 1 linha em vez de quebrar nas 2 de `numberOfLines`
-          — o texto se dimensionava pelo próprio conteúdo em vez de esticar
-          para a largura do cartão. */}
+      {/* Revisão de fase P2: `alignSelf`/`flexShrink` (rodada anterior) não
+          bastavam — a palavra "cardiovascular" sozinha, em `tipo.h3` (19px),
+          já é mais larga que a coluna útil do cartão (48% de 350px menos
+          padding, ~136px), então ela nunca chegava a "quebrar": truncava na
+          1ª linha antes de tentar a 2ª. `adjustsFontSizeToFit` não existe no
+          react-native-web (fica sem efeito no build web, inverificável por
+          Chromium), então o fix real é reduzir o tamanho de base do título
+          nos cartões (`tipo.corpo`, 16px, ainda claramente um título via
+          peso/família) + `numberOfLines={3}` como margem para nomes futuros
+          maiores. Verificado a 390px, claro e escuro. */}
       <Text
         style={{
           fontFamily: fonte.displaySemi,
-          fontSize: Math.round(tipo.h3 * escala),
+          fontSize: Math.round(tipo.corpo * escala),
           color: paleta.tinta,
           marginBottom: espaco.xs,
           alignSelf: 'stretch',
           flexShrink: 1,
         }}
-        numberOfLines={2}
+        numberOfLines={3}
       >
         {sistema.titulo}
       </Text>

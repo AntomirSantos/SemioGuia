@@ -199,5 +199,8 @@ describe('leitura por seções', () => {
     await fireEvent.press(gatilhos[0]);
 
     expect(getByText('As cinco fases, uma a uma')).toBeTruthy();
+    // Revisão de fase P3b: o Conceito revelado não duplica a identidade —
+    // "Aprofundar · Conceito" já basta, sem um "Conceito" solto dentro.
+    expect(queryByText('Conceito')).toBeNull();
   });
 });
