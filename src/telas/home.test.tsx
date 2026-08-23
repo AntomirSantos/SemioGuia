@@ -63,7 +63,7 @@ test('barra de progresso do sistema expõe accessibilityRole e valor', async () 
   // `accessible` — sem isso, RNTL (e o leitor de tela real) nunca expõe o
   // role/valor como um controle distinto, mesmo com accessibilityRole
   // presente. Filtra pelo `name` (accessibilityLabel) porque há uma barra
-  // por sistema (5 no total).
+  // por sistema (uma para cada sistema do guia).
   const barra = await waitFor(() => getByRole('progressbar', { name: '1 de 7 tópicos estudados' }));
   expect(barra.props.accessibilityValue).toEqual({ min: 0, max: 7, now: 1 });
 });
