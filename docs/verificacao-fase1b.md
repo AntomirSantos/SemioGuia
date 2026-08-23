@@ -491,3 +491,29 @@ na caminhada visual (50 arquivos com .nojekyll e 404.html — repostos em hotfix
 após o Jekyll do Pages descartar o _expo/; fontes do Expo como único conteúdo sob
 assets/node_modules/); deep links pelo servidor estático de revisão
 disparam React #418 (artefato de infra, navegação por cliques limpa).
+
+## Adendo Fase 10 — sistema "Sistema nervoso"
+
+Sistema novo no fim da sequência do exame (ordem 7, sem reordenação) com
+o capítulo "Exame neurológico" em 6 tópicos: consciência e estado mental
+(Glasgow por inteiro), pares cranianos I–VI e VII–XII, força/tônus/
+reflexos, sensibilidade e coordenação, marcha e sinais meníngeos. A fase
+paga TODAS as molduras que as fases anteriores adiaram ao "capítulo
+neurológico" (auditoria de promessas com mapa arquivo:linha; zero
+órfãs) e atualiza as frases "ainda não escrito" nos tópicos de cabeça e
+pescoço. 36 questões (9/9/9/9; mais-longa 9/36), 6 checklists→estações
+com passo de segurança (rigidez de nuca), 8 ilustrações, aprofundamentos
+com os LRs de McGee (caps. 5, 7, 17, 19, 21, 26, 55, 58–65, 68). Lacunas
+das fontes declaradas em vez de inventadas: escala numérica do VII,
+registro "T" da Glasgow, jolt accentuation (só título de bibliografia).
+Conteúdo `revisao: pendente`.
+
+Gates finais: build 7 sistemas/33 tópicos/3 casos, jest 321 (sem
+ajuste), tsc, contraste AA, n-grama zerado nos 6 tópicos (N=10; N=7 sem
+corridas ≥9 palavras). Processo: T1 estrutural revisada; T2 e T3 cada
+uma com revisão médica independente (0 erros clínicos em ~270 números e
+96 lateralidades conferidos um a um) + rounds + re-revisões escopadas;
+revisão final de fase com auditoria de grafo completo e caminhada visual
+medida (scroll-reset 1452→0; tabelas EBM com scroll interno; busca
+"Glasgow"/"Babinski"/"palmomentual"; estação OSCE nova). Checklist do
+autor: itens I1–I4.

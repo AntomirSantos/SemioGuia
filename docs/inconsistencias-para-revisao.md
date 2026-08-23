@@ -176,6 +176,33 @@ editorial, do autor. Marque cada caixa ao revisar.
   (diapasão 256/512 Hz, "sinal de Bell" no Porto EC × SM, istmo também
   na SC). Endossar a apresentação lado a lado ou eleger um lado por item.
 
+## I. Itens da Fase 10 (sistema nervoso)
+
+- [ ] **I1 · Sensibilidade e coordenação sem ilustração** — único tópico
+  do capítulo com 0 ilustrações (o capítulo tem 8, mínimo cumprido).
+  Sugestão das revisões: um painel dos padrões de perda sensitiva
+  (bota-e-luva / nível sensitivo / hemi-hipoestesia), lição que é mais
+  desenho de lateralidade do que texto.
+- [ ] **I2 · Extensão do H3 à Fase 10** — 8 das 36 questões novas
+  (neu-con-3, neu-pc2-1, neu-pc2-3, neu-mot-3, neu-sen-6, neu-mar-1,
+  neu-mar-3, neu-mar-6) apoiam-se em blocos de aprofundamento (LRs),
+  mesmo padrão das Fases 5–9. Decidir junto com o H3.
+- [ ] **I3 · Divergências de fonte da Fase 10** — atribuídas lado a lado
+  nos tópicos: redação e faixas da Glasgow entre os quadros de Porto/SC;
+  diâmetro pupilar (Porto 3–5 mm no cap. de olhos × 2–4 mm nos de
+  neuro); três escalas de reflexos incompatíveis ("+" normal para Porto,
+  diminuído para a SC); borda lateral × medial do cutâneo-plantar;
+  níveis medulares (aquileu S1 × L5-S1); 2 min × 45 s nas provas
+  deficitárias; marcha de pequenos passos (Porto cap. 8: senilidade ×
+  cap. 172: pseudobulbar); rigidez de nuca 84% × 20–52% (explicada).
+  Lacunas declaradas das fontes: escala numérica do VII e registro "T"
+  da Glasgow em intubado (nenhuma das 4 obras). Endossar.
+- [ ] **I4 · Wash de fundo Anamnese × Sistema nervoso** — no claro, os
+  fundos a 14% de alpha do roxo #8E6BC8 e do índigo #5B6ABF diferem
+  pouco (~7 pontos de RGB); a distinção vem do ícone e do tint pleno.
+  Se quiser mais separação, escurecer/saturar o índigo. Guarda-chuva do
+  H1 (cores de sistema fora do gate automatizado).
+
 ## C. Inconsistências antigas ainda abertas (Fases 1C–3)
 
 - [ ] **C1 · Faixa 37,6–37,8 °C** — "febrícula até 37,5 °C" convive com o
