@@ -203,6 +203,62 @@ editorial, do autor. Marque cada caixa ao revisar.
   Se quiser mais separação, escurecer/saturar o índigo. Guarda-chuva do
   H1 (cores de sistema fora do gate automatizado).
 
+## J. Itens da Fase 11 (vascular periférico)
+
+- [ ] **J1 · §3.4 da spec superada** — a spec destinava os números de
+  McGee do aneurisma de aorta e o efeito do perímetro abdominal ao
+  aprofundamento deste capítulo; `palpacao-do-abdome.md:349-360` já os
+  possuía por inteiro. A revisão decidiu citar o dono: a regra "citar,
+  nunca duplicar" prevalece sobre a alocação temática. O aprofundamento
+  recebeu material novo (κ 0,53; RV 80,8 e 13,8 dos sinais
+  pós-punção femoral; as três definições incompatíveis de aneurisma).
+  Endossar.
+- [ ] **J2 · §3.3 da spec com premissa invertida** — a spec supunha que
+  as razões de verossimilhança da trombose venosa só existiriam dentro
+  da suspeita de embolia pulmonar e mandava declarar a lacuna. O McGee
+  tem capítulo dedicado (cap. 56, com o boxe EBM 56.1 de onze sinais).
+  Nenhuma lacuna foi declarada; os números foram ensinados com os
+  limites do próprio McGee. Endossar.
+- [ ] **J3 · Divergências de fonte da Fase 11** — atribuídas lado a lado
+  nos tópicos: (i) **escalas de amplitude do pulso** — a divergência não
+  está nos três primeiros degraus (Porto e SC concordam em ausente,
+  diminuído e normal), está em onde a escala termina: Porto gradua
+  0/+/++ com ++ no teto e **sem degrau para pulso aumentado**, o que
+  torna o pulso hipercinético irregistrável na sua notação, enquanto a
+  SC põe 2+ no meio e ainda oferece 3+; (ii) cortes do índice
+  tornozelo-braço nas três obras; (iii) tempo de enchimento venoso com
+  protocolos incompatíveis (McGee 45° por 1 min, corte de 20 s, único
+  com desempenho medido × Porto ~90°, sem duração, normal ~10 s);
+  (iv) duas inconsistências internas do Porto — flegmasia ("alba
+  cerulea" × "cerulea dolens", mesma descrição) e livedo (contorna pele
+  normal × contorna palidez). Endossar a apresentação lado a lado ou
+  eleger um lado por item.
+- [ ] **J4 · Ressalva do teste de Buerger** — as três versões do teste
+  (por ângulo, a investigada de 2+2 min e a de Porto por tempo) só
+  ficam plenamente distinguíveis para quem chega ao bloco avançado. A
+  figura deliberadamente não traz relógio e a manobra ancora os 5 a 12
+  segundos no retorno à horizontal. Decidir se a ressalva sobe para o
+  nível básico.
+- [ ] **J5 · Decisão de ensino de Brodie-Trendelenburg e Perthes** —
+  ancoradas (Porto SM cap. 57; SC cap. 65, estudo de 70 membros em 44
+  pacientes) e ensinadas em bloco avançado **com o fracasso medido**
+  (sensibilidade 0,91 e 0,97 contra especificidade 0,15 e 0,20: testes
+  que praticamente não conseguem ser negativos), deliberadamente fora
+  da manobra e do checklist, com a sentença de desuso do próprio Porto.
+  Endossar a decisão de nomear-e-medir em vez de omitir.
+- [ ] **J6 · Tópico sem ilustração e o verde sob daltonismo** —
+  `isquemia-aguda-e-aneurismas` é o único dos quatro sem ilustração (o
+  capítulo cumpre o mínimo com 4); candidato natural é um painel dos
+  achados que separam membro ameaçado de membro inviável. E o par
+  vascular × abdome converge sob deuteranopia e protanopia (ΔE 2,81 no
+  claro), embora fique melhor que o par anamnese × nervoso já
+  registrado no I4. Guarda-chuva do H1/I4.
+- [ ] **J7 · Ponteiro na linha vascular do interrogatório** — a linha
+  "Artérias, veias, linfáticos e microcirculação" de
+  `interrogatorio-sintomatologico.md:165` não aponta destino, enquanto a
+  linha "Tórax" traz ponteiros embutidos. Agora existe um capítulo que
+  ensina nove dos nove itens. Melhoria opcional de simetria.
+
 ## C. Inconsistências antigas ainda abertas (Fases 1C–3)
 
 - [ ] **C1 · Faixa 37,6–37,8 °C** — "febrícula até 37,5 °C" convive com o

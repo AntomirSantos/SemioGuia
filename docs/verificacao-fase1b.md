@@ -517,3 +517,45 @@ revisão final de fase com auditoria de grafo completo e caminhada visual
 medida (scroll-reset 1452→0; tabelas EBM com scroll interno; busca
 "Glasgow"/"Babinski"/"palmomentual"; estação OSCE nova). Checklist do
 autor: itens I1–I4.
+
+## Adendo Fase 11 — sistema "Sistema vascular periférico"
+
+Sistema novo na ordem 7, entre abdome e nervoso (único deslocamento: o
+nervoso 7→8), com o capítulo "Exame vascular periférico" em 4 tópicos:
+pulsos arteriais periféricos, insuficiência arterial crônica, doença
+venosa crônica e trombose, isquemia aguda e aneurismas. 24 questões
+(gabarito 6/6/6/6; mais-longa 6/24), 4 checklists→estações, 4
+ilustrações, aprofundamentos com os LRs de McGee (caps. 5, 17, 51, 54,
+56). O capítulo paga a promessa mais antiga em aberto do guia — os nove
+sintomas vasculares do interrogatório sintomatológico — e ensina
+Raynaud, acrocianose e livedo reticular, que nenhum tópico cobria.
+Conteúdo `revisao: pendente`.
+
+Duas decisões da fase ficam registradas como superação da spec (itens
+J1 e J2 do checklist): os números do aneurisma de aorta **não** foram
+duplicados aqui porque a palpação do abdome já os possuía — a regra
+"citar, nunca duplicar" prevalece sobre a alocação temática —, e a
+premissa de que faltariam razões de verossimilhança para a trombose
+venosa era falsa, de modo que nenhuma lacuna precisou ser declarada.
+Duas suposições de pré-voo da orquestração foram derrubadas pelo
+implementador com evidência (McGee tem capítulo dedicado à TVP;
+Brodie-Trendelenburg e Perthès têm âncora) — as manobras venosas
+acabaram ensinadas em bloco avançado com o fracasso medido, fora da
+manobra e do checklist.
+
+Gates finais: build 8 sistemas/37 tópicos/3 casos, jest 321 (sem
+ajuste de asserção; um comentário de teste atualizado), tsc, contraste
+AA, n-grama zerado em N=10 e N=9 nos quatro tópicos. Processo: T1
+estrutural revisada; T2 com revisão médica independente (≈235
+asserções numéricas e ≈95 de lateralidade conferidas uma a uma; 3
+Majores, entre eles uma divergência de escala enunciada ao contrário
+dentro de uma alternativa correta) + micro-round + re-revisão escopada;
+revisão final de fase com auditoria de grafo e caminhada visual medida
+(scroll-reset 1601→0; tabelas EBM com scroll interno; busca
+"claudicação"/"varizes"/"Homans"; estação OSCE nova). A classe de
+defeito que a Fase 10 deixou — adiamentos que envelhecem — foi varrida
+e **não produziu nenhuma ocorrência** nesta fase.
+
+Nota de processo: o limite mensal de gasto do modelo usado nos portões
+finais foi atingido durante a fase; a revisão final foi re-despachada
+em outro modelo, com o mesmo escopo e sem redução de rigor.
