@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="8" y="13">Pontos de palpação dos pulsos</text>
+  </g>
+  <!-- silhueta -->
+  <circle cx="120" cy="34" r="13" stroke-width="1.5" />
+  <path d="M 120 47 L 120 60" stroke-width="1.4" />
+  <path d="M 99 62 L 141 62" stroke-width="1.5" />
+  <path d="M 103 62 L 100 116" stroke-width="1.5" />
+  <path d="M 137 62 L 140 116" stroke-width="1.5" />
+  <path d="M 100 116 L 140 116" stroke-width="1.5" />
+  <path d="M 101 68 L 84 104" stroke-width="1.5" />
+  <path d="M 84 104 L 80 134" stroke-width="1.5" />
+  <path d="M 139 68 L 156 104" stroke-width="1.5" />
+  <path d="M 156 104 L 160 134" stroke-width="1.5" />
+  <path d="M 106 116 L 100 178" stroke-width="1.5" />
+  <path d="M 134 116 L 140 178" stroke-width="1.5" />
+  <path d="M 100 178 L 92 184" stroke-width="1.3" />
+  <path d="M 140 178 L 148 184" stroke-width="1.3" />
+  <!-- pontos -->
+  <g stroke-width="1.6">
+    <circle cx="110" cy="30" r="3.2" />
+    <circle cx="112" cy="52" r="3.2" />
+    <circle cx="104" cy="60" r="3.2" />
+    <circle cx="92" cy="86" r="3.2" />
+    <circle cx="81" cy="126" r="3.2" />
+    <circle cx="79" cy="133" r="3.2" />
+    <circle cx="120" cy="88" r="3.2" />
+    <circle cx="120" cy="104" r="3.2" />
+    <circle cx="110" cy="118" r="3.2" />
+    <circle cx="104" cy="150" r="3.2" />
+    <circle cx="103" cy="172" r="3.2" />
+    <circle cx="98" cy="180" r="3.2" />
+  </g>
+  <!-- rotulos esquerda -->
+  <g font-family="sans-serif" font-size="8" fill="currentColor" stroke="none" text-anchor="end">
+    <text x="74" y="32">temporal superficial</text>
+    <text x="74" y="54">carotídeo</text>
+    <text x="74" y="66">subclávio</text>
+    <text x="74" y="89">braquial</text>
+    <text x="74" y="129">radial</text>
+    <text x="74" y="139">ulnar</text>
+  </g>
+  <g stroke-width="0.9">
+    <path d="M 76 29 L 107 30" />
+    <path d="M 76 51 L 109 52" />
+    <path d="M 76 63 L 101 60" />
+    <path d="M 76 86 L 89 86" />
+    <path d="M 76 126 L 78 126" />
+  </g>
+  <!-- rotulos direita -->
+  <g font-family="sans-serif" font-size="8" fill="currentColor" stroke="none">
+    <text x="170" y="90">aórtico abdominal</text>
+    <text x="170" y="106">ilíaco</text>
+    <text x="170" y="120">femoral</text>
+    <text x="170" y="152">poplíteo (atrás)</text>
+    <text x="170" y="174">tibial posterior</text>
+    <text x="170" y="184">pedioso</text>
+  </g>
+  <g stroke-width="0.9">
+    <path d="M 123 88 L 168 88" />
+    <path d="M 123 104 L 168 104" />
+    <path d="M 113 118 L 168 118" />
+    <path d="M 107 150 L 168 150" />
+    <path d="M 106 172 L 168 172" />
+    <path d="M 101 181 L 168 181" />
+  </g>
+  <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
+    <text x="8" y="196">Cada ponto existe dos dois lados; os nomes foram separados só para caber na figura.</text>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="14" y="14">A · úlcera arterial</text>
+    <text x="186" y="14">B · úlcera venosa</text>
+  </g>
+  <path d="M 168 20 L 168 170" stroke-width="1" stroke-dasharray="3 3" />
+  <!-- A perna e pe -->
+  <path d="M 60 24 L 54 100" stroke-width="1.5" />
+  <path d="M 96 24 L 100 100" stroke-width="1.5" />
+  <path d="M 54 100 Q 52 118, 60 128" stroke-width="1.5" />
+  <path d="M 100 100 Q 104 116, 100 126" stroke-width="1.5" />
+  <path d="M 60 128 L 120 136" stroke-width="1.5" />
+  <path d="M 120 136 L 122 146" stroke-width="1.4" />
+  <path d="M 122 146 L 58 146" stroke-width="1.5" />
+  <path d="M 58 146 Q 50 140, 54 128" stroke-width="1.5" />
+  <path d="M 54 128 L 60 128" stroke-width="1.2" />
+  <g stroke-width="1.4">
+    <circle cx="116" cy="140" r="4" />
+    <circle cx="105" cy="143" r="3.4" />
+    <circle cx="63" cy="142" r="4.2" />
+    <circle cx="57" cy="112" r="3.6" />
+    <circle cx="101" cy="110" r="3.6" />
+  </g>
+  <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
+    <text x="14" y="164">bordas do pé, calcanhar,</text>
+    <text x="14" y="174">maléolos, polpas e unhas</text>
+    <text x="14" y="188">fundo necrótico · dói muito</text>
+    <text x="14" y="198">pior deitado e à noite</text>
+  </g>
+  <!-- B perna e pe -->
+  <path d="M 224 24 L 218 100" stroke-width="1.5" />
+  <path d="M 260 24 L 264 100" stroke-width="1.5" />
+  <path d="M 218 100 Q 216 118, 224 128" stroke-width="1.5" />
+  <path d="M 264 100 Q 268 116, 264 126" stroke-width="1.5" />
+  <path d="M 224 128 L 284 136" stroke-width="1.5" />
+  <path d="M 284 136 L 286 146" stroke-width="1.4" />
+  <path d="M 286 146 L 222 146" stroke-width="1.5" />
+  <path d="M 222 146 Q 214 140, 218 128" stroke-width="1.5" />
+  <path d="M 218 128 L 224 128" stroke-width="1.2" />
+  <ellipse cx="266" cy="112" rx="9" ry="7" stroke-width="1.4" />
+  <path d="M 254 96 L 278 96" stroke-width="1" stroke-dasharray="2 2" />
+  <path d="M 254 126 L 278 126" stroke-width="1" stroke-dasharray="2 2" />
+  <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
+    <text x="186" y="164">região perimaleolar interna,</text>
+    <text x="186" y="174">entre as linhas — a polaina</text>
+    <text x="186" y="188">rasa · secreção serosa · dói menos</text>
+    <text x="186" y="198">pior com a perna pendente</text>
+  </g>
+</svg>
