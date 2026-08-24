@@ -163,7 +163,7 @@ texto: |
 
   **A localização principal é a região perimaleolar interna**, e Porto explica por quê: é ali que passam as **perfurantes de Cockett**, justamente as que mais costumam tornar-se insuficientes. Nos casos avançados, ela dá a volta completa na parte baixa da perna. Semiologia Clínica dá ao território o nome que a literatura usa: a **área da polaina**.
 
-  **A regra de exclusão topográfica**, já citada no tópico anterior e que vale repetir aqui pelo peso que tem: a ferida que aparece **acima da metade da perna** raramente é venosa — em geral tem outra causa.
+  **A regra de exclusão topográfica**, já citada no tópico anterior e que vale repetir aqui pelo peso que tem: a ferida que aparece **acima do terço médio da perna** raramente é venosa — em geral tem outra causa.
 
   As características da úlcera venosa e sua comparação com a arterial — fundo, bordas, dor, efeito da posição, pulsos — estão na tabela e na ilustração do tópico de insuficiência arterial crônica, e não se repetem aqui.
 
@@ -447,7 +447,7 @@ linhas:
     - "0,59"
     - "0,67"
   - - "Percussão venosa"
-    - "Uma mão na junção safenofemoral e a outra sobre a variz; percute-se em cima e procura-se o impulso embaixo"
+    - "A mão distal apoia-se sobre a variz e a mão proximal percute a junção safenofemoral; o impulso é procurado na mão distal"
     - "0,18"
     - "0,92"
   - - "Brodie-Trendelenburg"
@@ -511,7 +511,7 @@ texto: |
   - **A semiotécnica do edema** — fóvea, sinal de Godet, graduação em cruzes, os seis atributos e a tabela das causas de edema generalizado — está no tópico de pulso venoso jugular e turgência, que também traz o **edema varicoso** entre as causas venosas localizadas e a **avaliação da pressão venosa pelas jugulares**, achado que decide o edema bilateral.
   - **O linfedema e o sinal de Stemmer** estão no tópico de linfonodos, junto com a **linfangite**, que imita a flebite porque os coletores acompanham as veias superficiais.
   - **O desenho venoso da parede abdominal, a circulação colateral, sua análise e a manobra de esvaziamento venoso** pertencem ao tópico de inspeção e ausculta do abdome e não são reproduzidos aqui.
-  - **A úlcera arterial, a tabela comparativa das duas úlceras e a ilustração das localizações** estão no tópico de insuficiência arterial crônica, que também traz a regra de que a ferida surgida acima da metade da perna raramente é venosa.
+  - **A úlcera arterial, a tabela comparativa das duas úlceras e a ilustração das localizações** estão no tópico de insuficiência arterial crônica, que também traz a regra de que a ferida surgida acima do terço médio da perna raramente é venosa.
   - **A palpação dos pulsos**, obrigatória em todo paciente com varizes, está no primeiro tópico deste capítulo.
   - **As lesões elementares da pele**, o vocabulário do eczema, das púrpuras e das petéquias, está no tópico de pele, mucosas e fâneros.
   - **A embolia pulmonar** — a complicação que dá urgência a tudo neste tópico — pertence ao capítulo do aparelho respiratório e não é examinada aqui; os estudos que produziram os números desta página, aliás, excluíram em sua maioria pacientes com sintomas que a sugerissem.
@@ -546,8 +546,8 @@ perguntas:
   - id: vasc-dvc-1
     enunciado: Um paciente chega com dor e aumento de volume na panturrilha direita há dois dias. A dorsiflexão forçada do pé não provoca dor. Como esse resultado deve entrar no raciocínio?
     alternativas:
-      - "Reduz substancialmente a probabilidade de trombose, com razão de verossimilhança negativa de 0,3"
-      - "Reduz a probabilidade apenas quando a manobra é executada com o joelho em extensão completa, que era a condição exigida na descrição original do sinal e a única em que ele foi validado"
+      - "Reduz substancialmente a probabilidade de trombose, porque a ausência do sinal é o mais forte dos achados negativos da série"
+      - "Reduz a probabilidade somente quando os demais sinais de trombose também estiverem ausentes, situação em que o conjunto negativo passa a ter peso decisivo e dispensa qualquer investigação adicional do membro doloroso"
       - "Torna obrigatório o diagnóstico alternativo de cisto de Baker, único quadro em que a dorsiflexão é indolor"
       - "Praticamente não altera a probabilidade: na tabulação de McGee, o sinal de Homans não tem valor diagnóstico nem quando presente nem quando ausente"
     corretaIndex: 3

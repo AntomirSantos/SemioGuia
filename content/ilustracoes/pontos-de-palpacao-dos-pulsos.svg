@@ -38,15 +38,16 @@
     <text x="74" y="54">carotídeo</text>
     <text x="74" y="66">subclávio</text>
     <text x="74" y="89">braquial</text>
-    <text x="74" y="129">radial</text>
-    <text x="74" y="139">ulnar</text>
+    <text x="62" y="127">radial</text>
+    <text x="62" y="139">ulnar</text>
   </g>
   <g stroke-width="0.9">
     <path d="M 76 29 L 107 30" />
     <path d="M 76 51 L 109 52" />
     <path d="M 76 63 L 101 60" />
     <path d="M 76 86 L 89 86" />
-    <path d="M 76 126 L 78 126" />
+    <path d="M 64 124 L 78 126" />
+    <path d="M 64 136 L 76 133" />
   </g>
   <!-- rotulos direita -->
   <g font-family="sans-serif" font-size="8" fill="currentColor" stroke="none">

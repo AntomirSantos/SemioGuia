@@ -72,7 +72,7 @@ texto: |
   - **O diagnóstico é clínico.** Ainda em Semiologia Clínica, na conclusão do caso que fecha o capítulo: o índice tornozelo-braquial **corrobora** a hipótese já estabelecida pelo quadro clínico.
   - **O exame não serve só para dizer se há doença: serve para dizer onde.** McGee abre o capítulo com isso — pela análise dos sintomas, pelo exame dos pulsos e pelo conhecimento da anatomia, o clínico consegue diagnosticar com precisão a distribuição e a gravidade da doença.
 
-  **O que este tópico paga.** O interrogatório sintomatológico, no capítulo da entrevista clínica, promete uma revisão vascular inteira: claudicação intermitente e dor de repouso, alterações tróficas e ulcerações, mudanças de cor e de temperatura da pele, edema, fenômeno de Raynaud, acrocianose, livedo reticular e parestesias. Este tópico ensina os sete primeiros grupos; o **edema** tem dono no tópico de pulso venoso jugular e turgência e reaparece no tópico seguinte; as **parestesias** e a sensibilidade do pé estão no capítulo neurológico.
+  **O que este tópico paga.** O interrogatório sintomatológico, no capítulo da entrevista clínica, promete uma revisão vascular inteira: claudicação intermitente e dor de repouso, alterações tróficas e ulcerações, mudanças de cor e de temperatura da pele, edema, fenômeno de Raynaud, acrocianose, livedo reticular e parestesias. São nove itens. Este tópico ensina sete deles; o **edema**, que é o quinto da lista, tem dono no tópico de pulso venoso jugular e turgência e reaparece no tópico seguinte; as **parestesias** e a sensibilidade do pé estão no capítulo neurológico.
 
   **O que fica como moldura, nomeada e não ensinada:**
 
@@ -103,12 +103,14 @@ passos:
   - "Se o resultado for duvidoso, peça flexão e extensão dos pés na frequência de 30 movimentos por minuto durante 3 minutos e reavalie."
   - "Terceiro tempo: devolva os membros à posição horizontal e conte o tempo até a cor voltar ao normal."
   - "Para o tempo de enchimento venoso, sente o paciente com as pernas pendentes e escolha uma veia proeminente no dorso do pé."
-  - "Deite o paciente, eleve o membro a 45 graus por 1 minuto e esvazie a veia; sente-o de novo com o pé pendente e conte quantos segundos a veia leva para voltar a aparecer acima da pele."
+  - "Deite o paciente, eleve o membro a 45 graus por 1 minuto e esvazie a veia; sente-o de novo com o pé pendente e conte quantos segundos a veia leva para voltar a aparecer acima da pele (versão de McGee; a de Porto difere, e a diferença está adiante)."
   - "Registre, ao final, a comparação entre os dois membros em cada item, e não apenas a impressão sobre o membro sintomático."
 observar: |
-  **A palidez aparece antes da cor voltar.** Na isquemia provocada, o achado do segundo tempo é a **palidez plantar** do membro comprometido, tanto mais intensa quanto pior a irrigação. No terceiro tempo, o que se mede é o tempo: em pessoas normais a coloração volta em **5 a 12 segundos** (Porto). Havendo isquemia, o tempo se alonga — e o pé pode nem recuperar a cor normal, adquirindo em vez disso um tom vermelho-arroxeado ou vermelho vivo, a **hiperemia reativa**. Na isquemia muito acentuada, a hiperemia deixa de ser uniforme e vem entremeada de manchas pálidas; nesses pacientes, erguer o membro já dói.
+  **A palidez aparece antes da cor voltar.** Na isquemia provocada, o achado do segundo tempo é a **palidez plantar** do membro comprometido, tanto mais intensa quanto pior a irrigação. No terceiro tempo, o que se mede é o tempo, e ele corre a partir da volta do membro à **posição horizontal**: em pessoas normais a coloração retorna em **5 a 12 segundos** (Porto). O número é de Porto e vale para essa posição — não para o membro pendente, em que a gravidade acelera o reenchimento e faria um membro isquêmico passar por normal. Havendo isquemia, o tempo se alonga — e o pé pode nem recuperar a cor normal, adquirindo em vez disso um tom vermelho-arroxeado ou vermelho vivo, a **hiperemia reativa**. Na isquemia muito acentuada, a hiperemia deixa de ser uniforme e vem entremeada de manchas pálidas; nesses pacientes, erguer o membro já dói.
 
   **Um detalhe de ambiente.** Porto pede que a temperatura da pele seja avaliada em ambiente de temperatura amena e estável, porque frio ou calor intensos mascaram alterações — e lembra que a variação térmica é mais bem captada pelo **dorso** dos dedos ou da mão do que pela palma.
+
+  **Duas versões do tempo de enchimento venoso, e elas não coincidem.** Os passos acima seguem a versão de **McGee**, que é a única com desempenho medido: eleva-se o membro a **45 graus** por **1 minuto**, senta-se o paciente com o pé pendente e considera-se anormal um enchimento acima de **20 segundos** — o corte que rende razão de verossimilhança 3,6 na tabela de aprofundamento. **Porto** descreve a mesma ideia com outros parâmetros: eleva a cerca de **90 graus**, sem estipular duração, esvazia as veias deslizando a mão pelo trajeto delas, em direção à coxa, e dá como normal um enchimento de **cerca de 10 segundos**. Quem executar a versão de Porto e aplicar o corte de McGee estará somando duas medidas diferentes; nomeie a versão usada ao registrar.
 
   **O que anula o tempo de enchimento venoso.** Porto adverte que a manobra do enchimento venoso **não tem valor** em portadores de varizes, em pacientes submetidos a simpatectomia lombar, nem quando realizada em ambiente muito frio, pelo espasmo arteriolar e venoso que o frio provoca. É uma limitação grande: varizes e insuficiência arterial convivem no mesmo paciente com frequência.
 :::
@@ -169,11 +171,12 @@ svg: |
     </g>
     <path d="M 268 166 Q 276 172, 286 166" stroke-width="1.1" stroke-dasharray="2 2" />
     <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
-      <text x="10" y="180">Normal: sem alteração da cor na elevação; cor volta em 5 a 12 s ao baixar o membro.</text>
-      <text x="10" y="192">Isquemia: palidez plantar na elevação e hiperemia reativa demorada, em placas, ao baixar.</text>
+      <text x="10" y="172">Normal: a elevação altera pouco ou nada a cor das plantas (Porto).</text>
+      <text x="10" y="182">Isquemia: palidez plantar à elevação (Porto) e rubor escuro na posição</text>
+      <text x="10" y="192">pendente (Semiologia Clínica, McGee), descrito sem tempo definido.</text>
     </g>
   </svg>
-legenda: "As duas metades da mesma manobra. À esquerda, a elevação drena o pouco sangue que o membro isquêmico consegue reter e revela a palidez plantar que o decúbito escondia. À direita, a posição pendente devolve a gravidade e o leito capilar dilatado se enche de uma vez, produzindo o rubor. O que se mede no terceiro tempo é o relógio: em pessoas normais a cor volta em 5 a 12 segundos."
+legenda: "As duas posições que revelam a isquemia. À esquerda, a elevação drena o pouco sangue que o membro isquêmico consegue reter e revela a palidez plantar que o decúbito escondia — é o segundo tempo da manobra de Porto. À direita, a posição pendente devolve a gravidade e o leito capilar dilatado se enche de uma vez, produzindo o rubor escuro que Semiologia Clínica e McGee descrevem, e que nenhum dos dois cronometra. Repare no que a figura deliberadamente não traz: o relógio. Os 5 a 12 segundos de Porto medem o retorno da cor quando o membro volta à posição HORIZONTAL, no terceiro tempo, e não valem para o membro pendente — nessa posição a gravidade acelera o reenchimento e um membro isquêmico passaria por normal."
 :::
 
 ::: secao
@@ -274,7 +277,7 @@ texto: |
 
   **Acrocianose.** Cianose **persistente** da porção distal dos membros, que não sobe além dos punhos nem dos tornozelos, com hipotermia e suor excessivo nos dedos e nas mãos; nariz e orelhas raramente participam. É mais frequente entre mulheres jovens e na meia-idade, tem curso benigno e pode sumir na vida adulta. O que a separa do Raynaud, e Porto insiste nisso, é a **natureza constante**: não há crise nem sequência de cores. E há um dado de exame que fecha o raciocínio no leito — **todos os pulsos periféricos são palpáveis e normais**.
 
-  **Livedo reticular.** Manchas vermelhas ou cianóticas circundando áreas de pele normal, em malhas de rede, que dão à pele aspecto de mármore — daí o nome **cutis marmorata** da forma leve. Localiza-se nas extremidades e no tronco, e resulta de espasmo arteriolar seguido de dilatação de capilares e vênulas. Porto descreve duas formas: uma leve, que só aparece com a exposição ao frio, desaparece nas épocas quentes e não produz alterações tróficas; e outra mais intensa, que compromete o tronco, não desaparece no calor e pode evoluir com dor, parestesias, gangrenas cutâneas e úlceras. O livedo pode ser **secundário** e acompanhar outra doença — autoimune, tromboangiite obliterante, policitemia, crioglobulinemia — ou uma intoxicação — o que faz dele um achado que obriga a procurar outra doença.
+  **Livedo reticular.** Manchas vermelhas ou cianóticas circundando áreas de pele normal, em malhas de rede, que dão à pele aspecto de mármore — daí o nome **cutis marmorata** da forma leve. Localiza-se nas extremidades e no tronco, e resulta de espasmo arteriolar seguido de dilatação de capilares e vênulas. Uma divergência interna a Porto merece registro: no capítulo de doenças da microcirculação, as manchas circundam **áreas de pele normal**; no capítulo de exame clínico das artérias e no *Exame Clínico*, circundam **áreas de palidez**. O desenho em rede e o aspecto de mármore são os mesmos nas três passagens; o que a rede contorna, não. Porto descreve duas formas: uma leve, que só aparece com a exposição ao frio, desaparece nas épocas quentes e não produz alterações tróficas; e outra mais intensa, que compromete o tronco, não desaparece no calor e pode evoluir com dor, parestesias, gangrenas cutâneas e úlceras. O livedo pode ser **secundário** e acompanhar outra doença — autoimune, tromboangiite obliterante, policitemia, crioglobulinemia — ou uma intoxicação — o que faz dele um achado que obriga a procurar outra doença.
 
   As três respondem fortemente à temperatura ambiente: pioram no frio e cedem no calor. Um quarto quadro do mesmo grupo, a **eritromelalgia**, faz o inverso: crises de vermelhidão, hipertermia e dor em queimação desencadeadas pelo **calor**, que melhoram com a elevação dos membros e com água fria. Fica nomeada aqui.
 
@@ -311,10 +314,10 @@ svg: |
       <circle cx="101" cy="110" r="3.6" />
     </g>
     <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
-      <text x="14" y="164">bordas do pé, calcanhar,</text>
-      <text x="14" y="174">maléolos, polpas e unhas</text>
-      <text x="14" y="188">fundo necrótico · dói muito</text>
-      <text x="14" y="198">pior deitado e à noite</text>
+      <text x="14" y="162">bordas do pé, calcanhar,</text>
+      <text x="14" y="172">maléolos, polpas e unhas</text>
+      <text x="14" y="184">fundo necrótico · dói muito</text>
+      <text x="14" y="194">pior deitado e à noite</text>
     </g>
     <!-- B perna e pe -->
     <path d="M 224 24 L 218 100" stroke-width="1.5" />
@@ -327,13 +330,17 @@ svg: |
     <path d="M 222 146 Q 214 140, 218 128" stroke-width="1.5" />
     <path d="M 218 128 L 224 128" stroke-width="1.2" />
     <ellipse cx="266" cy="112" rx="9" ry="7" stroke-width="1.4" />
+    <path d="M 276 112 L 288 112" stroke-width="0.9" />
+    <g font-family="sans-serif" font-size="8" fill="currentColor" stroke="none">
+      <text x="290" y="115">medial</text>
+    </g>
     <path d="M 254 96 L 278 96" stroke-width="1" stroke-dasharray="2 2" />
     <path d="M 254 126 L 278 126" stroke-width="1" stroke-dasharray="2 2" />
     <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
-      <text x="186" y="164">região perimaleolar interna,</text>
-      <text x="186" y="174">entre as linhas — a polaina</text>
-      <text x="186" y="188">rasa · secreção serosa · dói menos</text>
-      <text x="186" y="198">pior com a perna pendente</text>
+      <text x="186" y="162">região perimaleolar interna,</text>
+      <text x="186" y="172">entre as linhas — a polaina</text>
+      <text x="186" y="184">rasa · secreção serosa · dói menos</text>
+      <text x="186" y="194">pior com a perna pendente</text>
     </g>
   </svg>
 legenda: "A localização já separa as duas úlceras na maioria das vezes. A arterial procura os pontos mais distais e os pontos de apoio, onde a pressão de perfusão é menor; a venosa fica presa à região perimaleolar interna, vizinha das perfurantes que se tornam insuficientes. O segundo separador é a posição: a arterial dói mais deitado, a venosa dói mais com a perna pendente — e cada uma alivia exatamente com o que piora a outra."
@@ -350,7 +357,7 @@ linhas:
     - "Bordas do pé, calcanhar, região dos maléolos, polpas dos dedos e contorno das unhas"
     - "Principalmente a região perimaleolar interna; em casos avançados, circunda o terço inferior da perna"
   - - "Fundo e bordas"
-    - "Fundo com material necrótico, bordas nítidas; cicatrização difícil"
+    - "Fundo com material necrótico e cicatrização difícil; nenhuma das quatro obras descreve as bordas da úlcera isquêmica"
     - "Rasa, bordas nítidas, com secreção serosa ou seropurulenta"
   - - "Dor"
     - "Muito dolorosa"
@@ -375,7 +382,7 @@ texto: |
 
   **Úlcera da hipertensão arterial de longa duração**, que Porto também associa à anemia falciforme no *Exame Clínico*. Fica de preferência no **terço inferior da perna, pela face lateral**; é superficial, com contorno regular e fundo necrótico, e **dói muito**. A causa está nas arteríolas da pele obstruídas: arterioloesclerose e microembolias.
 
-  Vale ainda a regra topográfica que Porto dá para as úlceras venosas e que serve de alarme: **a ferida que aparece acima da metade da perna raramente é venosa** — em geral tem outra causa.
+  Vale ainda a regra topográfica que Porto dá para as úlceras venosas e que serve de alarme: **a ferida que aparece acima do terço médio da perna raramente é venosa** — em geral tem outra causa.
 
   As lesões elementares da pele e o vocabulário para descrever qualquer ferida — bordas, fundo, secreção, halo — estão no tópico de pele, mucosas e fâneros.
 :::
@@ -497,11 +504,11 @@ linhas:
 titulo: Lendo a tabela — os cinco que rendem e os quatro que não
 nivel: avancado
 texto: |
-  O padrão diagnóstico desta tabela é o índice tornozelo-braço, com corte entre 0,8 e 0,97 na maioria dos estudos. Duas linhas — pele atrófica, ausência de pelos, enchimento capilar e enchimento venoso — vêm de um estudo que recrutou **apenas pacientes diabéticos** e definiu doença como ITB abaixo de **0,5**, isto é, doença já avançada. Vale ter isso em mente ao ler os números baixos.
+  O padrão diagnóstico desta tabela é o índice tornozelo-braço, com corte entre 0,8 e 0,97 na maioria dos estudos. Quatro linhas — pele atrófica, ausência de pelos, enchimento capilar e enchimento venoso — vêm de um estudo que recrutou **apenas pacientes diabéticos** e definiu doença como ITB abaixo de **0,5**, isto é, doença já avançada. Vale ter isso em mente ao ler os números baixos.
 
-  **Os cinco achados que aumentam a probabilidade** quando presentes na perna sintomática são: **ausência dos dois pulsos do pé** (8,8), **feridas ou úlceras no pé** (7,0), **ausência do pulso femoral** (6,1), **pé assimetricamente mais frio** (6,1) e **sopro em qualquer ponto do membro** (5,6). São todos achados de altíssima especificidade e baixa sensibilidade — presentes, decidem; ausentes, quase nada dizem.
+  **Os cinco achados que aumentam a probabilidade** quando presentes na perna sintomática são: **ausência dos dois pulsos do pé** (8,8), **feridas ou úlceras no pé** (7,0), **ausência do pulso femoral** (6,1), **pé assimetricamente mais frio** (6,1) e **sopro em qualquer ponto do membro** (5,6). São todos achados de especificidade muito alta, e quase todos de sensibilidade baixa — a exceção é a ausência dos dois pulsos do pé, que chega a 63% a 73%. Presentes, decidem; ausentes, em regra dizem pouco.
 
-  **O único achado que diminui a probabilidade** é a **presença de pelo menos um pulso do pé** (0,3). E até esse tem ressalva: até um em cada três pacientes com doença tem um pulso palpável, e nesses pacientes o pulso frequentemente some com o exercício.
+  **O único achado que diminui a probabilidade de forma útil** é a **presença de pelo menos um pulso do pé** (0,3) — os demais valores negativos da tabela, de 0,7 a 0,9, ficam todos acima do limiar a partir do qual um achado negativo muda alguma coisa. E até esse tem ressalva: até um em cada três pacientes com doença tem um pulso palpável, e nesses pacientes o pulso frequentemente some com o exercício.
 
   **Os achados sem valor diagnóstico**, e é aqui que a tabela contraria o ensino clássico: **pele atrófica**, **membro sem pelos** e **tempo de enchimento capilar prolongado**.
 
@@ -568,7 +575,7 @@ texto: |
   1. **Afastar doença arterial porque há pulso no pé.** Até um em cada três pacientes com doença tem um ou os dois pulsos do pé palpáveis, e neles o pulso costuma desaparecer com o exercício (McGee).
   2. **Confiar em pele atrófica e ausência de pelos.** Os dois têm razão de verossimilhança 1,7, isto é, praticamente não movem a probabilidade — e Semiologia Clínica os chama de achados não confiáveis. O que rende é a **assimetria**.
   3. **Registrar extremidades frias sem comparar os lados.** O pé mais frio que a própria panturrilha é o normal. O achado que vale 6,1 é o pé assimetricamente mais frio que o outro pé.
-  4. **Tratar toda úlcera de perna como arterial ou venosa.** O mal perfurante plantar é indolor e fica nos pontos de apoio; a úlcera da hipertensão de longa duração fica na face lateral do terço inferior da perna e é muito dolorosa; e a ferida que aparece acima da metade da perna raramente é venosa.
+  4. **Tratar toda úlcera de perna como arterial ou venosa.** O mal perfurante plantar é indolor e fica nos pontos de apoio; a úlcera da hipertensão de longa duração fica na face lateral do terço inferior da perna e é muito dolorosa; e a ferida que aparece acima do terço médio da perna raramente é venosa.
   5. **Usar o tempo de enchimento venoso em quem tem varizes.** Porto anula a manobra em portadores de varizes, em quem fez simpatectomia lombar e em ambiente muito frio.
   6. **Ler um ITB alto como tranquilizador.** Acima de 1,2 ou 1,3, conforme a obra, o número indica artéria não compressível por calcificação — comum justamente em diabéticos e renais crônicos, que são os pacientes de maior risco.
 :::

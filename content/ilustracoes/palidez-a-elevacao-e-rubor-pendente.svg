@@ -37,7 +37,8 @@
   </g>
   <path d="M 268 166 Q 276 172, 286 166" stroke-width="1.1" stroke-dasharray="2 2" />
   <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
-    <text x="10" y="180">Normal: sem alteração da cor na elevação; cor volta em 5 a 12 s ao baixar o membro.</text>
-    <text x="10" y="192">Isquemia: palidez plantar na elevação e hiperemia reativa demorada, em placas, ao baixar.</text>
+    <text x="10" y="172">Normal: a elevação altera pouco ou nada a cor das plantas (Porto).</text>
+    <text x="10" y="182">Isquemia: palidez plantar à elevação (Porto) e rubor escuro na posição</text>
+    <text x="10" y="192">pendente (Semiologia Clínica, McGee), descrito sem tempo definido.</text>
   </g>
 </svg>

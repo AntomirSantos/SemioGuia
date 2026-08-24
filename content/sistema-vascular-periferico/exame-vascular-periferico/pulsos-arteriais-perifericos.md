@@ -170,15 +170,16 @@ svg: |
       <text x="74" y="54">carotídeo</text>
       <text x="74" y="66">subclávio</text>
       <text x="74" y="89">braquial</text>
-      <text x="74" y="129">radial</text>
-      <text x="74" y="139">ulnar</text>
+      <text x="62" y="127">radial</text>
+      <text x="62" y="139">ulnar</text>
     </g>
     <g stroke-width="0.9">
       <path d="M 76 29 L 107 30" />
       <path d="M 76 51 L 109 52" />
       <path d="M 76 63 L 101 60" />
       <path d="M 76 86 L 89 86" />
-      <path d="M 76 126 L 78 126" />
+      <path d="M 64 124 L 78 126" />
+      <path d="M 64 136 L 76 133" />
     </g>
     <!-- rotulos direita -->
     <g font-family="sans-serif" font-size="8" fill="currentColor" stroke="none">
@@ -229,7 +230,7 @@ linhas:
     - "Braço em leve abdução, sustentado pela mão homolateral do examinador"
   - - "Braquial"
     - "Face anterior do braço, no sulco entre os músculos"
-    - "Porto localiza-a no sulco bicipital, mais acessível no terço distal; Semiologia Clínica indica o terço médio, entre bíceps e tríceps"
+    - "Porto está dividido: a Semiologia Médica aponta o sulco bicipital, mais acessível no terço distal, e o Exame Clínico abarca a parte média do braço, logo abaixo do deltoide; Semiologia Clínica indica o terço médio, entre bíceps e tríceps"
   - - "Radial"
     - "Face anterior do punho, lateralmente ao tendão do flexor radial do carpo"
     - "Técnica completa no tópico de frequência cardíaca e pulso"
@@ -298,7 +299,9 @@ texto: |
   - **Semiologia Clínica, cap. 12**, gradua de **0 a 3+**: 0 ausente, 1+ reduzido, 2+ normal, 3+ aumentado. Quatro degraus, com o normal no meio da escala.
   - **Porto, *Exame Clínico*, cap. 13**, não propõe escala numérica para os pulsos periféricos: pede a comparação da amplitude entre homólogos e a descrição do achado.
 
-  Repare no ponto em que as duas escalas numéricas se cruzam de forma perigosa: **++ é normal em Porto e reduzido em Semiologia Clínica**. Um prontuário que traz apenas pedioso 2+ é ambíguo até que se saiba quem escreveu.
+  Repare que as duas escalas numéricas **concordam** nos três primeiros degraus — ausente, diminuído, normal — e que a armadilha não está aí: está em **onde cada uma termina**. Em Porto, ++ é o **teto** da escala; em Semiologia Clínica, 2+ é o **meio** dela, com 3+ ainda disponível acima.
+
+  Duas consequências. A primeira: **um pulso hipercinético é irregistrável na notação de Porto**, que não tem degrau para ele — e o exame dos pulsos periféricos encontra hiperpulsatilidade, que o próprio Porto manda procurar ao descrever o que a palpação sistematizada detecta. A segunda: quem lê **++** em um prontuário não sabe se o autor considerou o pulso normal ou se apenas não tinha como escrever aumentado.
 
   A saída é a mesma que o guia usa para o edema e para os sopros: **nomeie a escala ou descreva o achado**. Pedioso direito de amplitude nitidamente menor que o esquerdo é uma frase que sobrevive à troca de plantão; pedioso 2+, sozinho, não.
 
@@ -423,7 +426,7 @@ texto: |
 
   - **Manobra de Adson** — investiga a compressão da subclávia e do plexo braquial por quatro estruturas possíveis: o escaleno anterior, uma costela cervical, um processo transverso alongado da sétima vértebra cervical ou bridas fibróticas. Com o paciente sentado e as mãos nos joelhos, palpa-se a radial e ausculta-se a fossa supraclavicular; pede-se inspiração profunda mantida, com extensão da cabeça girada para o lado examinado. Positiva quando o pulso radial diminui ou desaparece e surge sopro supraclavicular. Porto acrescenta duas notas: em alguns casos ela se torna positiva com a cabeça girada para o lado oposto, e **só tem valor diagnóstico quando repetida várias vezes com resultados semelhantes**.
   - **Manobra costoclavicular** — investiga a compressão no espaço entre a clavícula e a primeira costela. Pede-se inspiração profunda com os ombros jogados para trás, na posição de sentido exagerada dos militares. Positiva pelos mesmos sinais, com o sopro na região supra ou infraclavicular. Porto descreve ainda uma variante passiva, com o braço abduzido e o antebraço fletido a 90 graus, rodado lateralmente e levado para trás pelo examinador.
-  - **Manobra de hiperabdução** — investiga a compressão da artéria axilar pelo tendão do músculo peitoral menor. O paciente eleva o braço e coloca a mão acima da cabeça enquanto o examinador palpa a radial e ausculta a axila.
+  - **Manobra de hiperabdução** — investiga a compressão pelo tendão do músculo peitoral menor. O paciente eleva o braço e coloca a mão acima da cabeça enquanto o examinador palpa a radial e ausculta a axila. Há aqui uma inconsistência interna em Porto que vale registrar: ao recapitular a anatomia, ele descreve a **artéria axilar** passando sob o tendão do peitoral menor, perto da inserção no processo coracoide, e é esse o ponto que a hiperabdução fecha; ao nomear a manobra, porém, tanto na *Semiologia Médica* quanto no *Exame Clínico*, escreve compressão da **artéria subclávia**. O gesto e o achado são os mesmos nas duas passagens; o vaso nomeado, não.
   - **Manobra de Allen** — não investiga compressão, e sim a **patência das duas artérias do antebraço**. Em quatro tempos: paciente sentado, com os membros superiores estendidos à frente e as palmas para cima; o médico comprime a artéria radial; pede ao paciente que feche a mão com força, esvaziando-a de sangue, o que produz palidez; e, mantendo a radial comprimida, pede que abra a mão. **Normalmente a cor volta rápida e uniformemente.** Se a ulnar estiver estenosada ou ocluída, a cor demora a voltar e volta de forma irregular, em placas. Para investigar a artéria radial, repete-se tudo comprimindo a ulnar.
 
   Duas ressalvas fecham o bloco. **Nenhuma das quatro obras deste guia atribui razões de verossimilhança a essas manobras** — elas são descritas pela técnica e pelo raciocínio, não pelo desempenho medido. E a síndrome do desfiladeiro torácico, cujo diagnóstico diferencial completo envolve exame neurológico e imagem, fica fora deste guia: aqui entram apenas as manobras que se apoiam no pulso.
@@ -455,7 +458,7 @@ texto: |
   2. **Comprimir as duas carótidas ao mesmo tempo.** Porto proíbe a manobra pelo risco de isquemia cerebral em quem tem uma delas ocluída, e adverte que comprimir o seio carotídeo pode desencadear bradicardia, parada cardíaca ou o desprendimento de trombos presos a uma placa. Semiologia Clínica acrescenta que, no idoso, é mais prudente auscultar antes de palpar.
   3. **Escrever pedioso ausente sem procurar em todo o dorso do pé.** A artéria pediosa varia de localização, e a extensão completa do joelho pode diminuir os pulsos podais por compressão da poplítea.
   4. **Ler um pulso do pé ausente como doença.** O pedioso falta em 3% a 14% das pessoas saudáveis e o tibial posterior em até 10%; o que quase não acontece por acaso é faltarem os dois (0% a 2%).
-  5. **Registrar amplitude em cruzes sem dizer qual escala.** ++ significa normal em Porto e reduzido em Semiologia Clínica.
+  5. **Registrar amplitude em cruzes sem dizer qual escala.** As duas concordam até o normal e se separam no topo: ++ é o teto em Porto, que não tem degrau para pulso aumentado, enquanto 2+ é o meio da escala de Semiologia Clínica, que ainda oferece 3+.
   6. **Auscultar apertando o receptor sobre a artéria.** A compressão cria o sopro; e, na femoral, a compressão digital excessiva cria um frêmito falso.
 :::
 
@@ -482,11 +485,11 @@ perguntas:
     enunciado: Um interno registra no prontuário apenas pedioso 2+ bilateral. Por que essa anotação é insuficiente?
     alternativas:
       - "Porque a amplitude do pulso deixou de ser graduada em cruzes na semiologia vascular contemporânea, que passou a registrar apenas a razão entre a pressão do tornozelo e a do braço em cada membro examinado"
-      - "Porque as escalas de amplitude divergem entre as obras: ++ corresponde a normal na escala de Porto, de 0 a ++, e a reduzido na escala de Semiologia Clínica, de 0 a 3+"
+      - "Porque as escalas divergem no topo: ++ é o degrau máximo em Porto, enquanto em Semiologia Clínica 2+ é o normal e ainda existe 3+ para o pulso aumentado"
       - "Porque o pulso pedioso não deve ser graduado, e sim descrito apenas como presente ou ausente"
       - "Porque falta o registro do ritmo e da frequência, obrigatórios em todos os pulsos periféricos"
     corretaIndex: 1
-    explicacao: "Porto, na Semiologia Médica, gradua a amplitude de 0 a ++, com ++ correspondendo ao pulso normal e sem degrau para pulso aumentado. Semiologia Clínica gradua de 0 a 3+, com 2+ normal e 3+ aumentado — de modo que ++ ou 2+ significa coisas diferentes conforme quem escreveu. Porto, no Exame Clínico, sequer propõe escala numérica: pede a comparação da amplitude entre artérias homólogas. A saída é nomear a escala ou, melhor, descrever a comparação entre os lados. O ritmo e a frequência pertencem ao exame do pulso radial, no capítulo de sinais vitais, e não se avaliam nos pulsos do pé."
+    explicacao: "Porto, na Semiologia Médica, gradua de 0 a ++: 0 ausente, + diminuído, ++ normal — três degraus, nenhum deles para o pulso aumentado. Semiologia Clínica gradua de 0 a 3+: 0 ausente, 1+ reduzido, 2+ normal, 3+ aumentado. As duas concordam nos três primeiros degraus, e é no topo que se separam: ++ é o teto de uma escala e 2+ é o meio da outra. Daí as duas consequências: o pulso hipercinético é irregistrável na notação de Porto, e quem lê ++ não sabe se o autor o considerou normal ou se apenas não dispunha do degrau seguinte. Porto, no Exame Clínico, sequer propõe escala numérica: pede a comparação da amplitude entre artérias homólogas. A saída é nomear a escala ou, melhor, descrever a comparação entre os lados. O ritmo e a frequência pertencem ao exame do pulso radial, no capítulo de sinais vitais, e não se avaliam nos pulsos do pé."
   - id: vasc-pul-3
     enunciado: Você ausculta um sopro contínuo, sistodiastólico, sobre o trajeto da artéria femoral de um paciente que fez cateterismo cardíaco por punção femoral há duas semanas. O que esse caráter contínuo sugere?
     alternativas:

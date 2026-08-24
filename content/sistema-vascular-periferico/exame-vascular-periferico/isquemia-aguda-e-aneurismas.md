@@ -139,7 +139,7 @@ texto: |
   - **Perda das sensibilidades** térmica, tátil e dolorosa e, depois, **dos movimentos**, com o comprometimento do sistema nervoso periférico.
   - **Dor muscular intensa** à palpação e à mobilização, porque o músculo é o segundo tecido a sofrer com a hipóxia.
   - **Contratura isquêmica de Volkmann**, a contratura muscular intensa da isquemia grave.
-  - **Bolhas ou flictenas**, que surgem na isquemia grave, em geral sobre as áreas cianóticas.
+  - **Bolhas ou flictenas**, que surgem na isquemia grave, em geral sobre as áreas cianóticas. Porto, na *Semiologia Médica*, carrega o achado: as lesões bolhosas assemelham-se às produzidas por queimaduras e indicam grau avançado de isquemia, com irreversibilidade do processo — e, junto com a trombose capilar que a digitocompressão revela, pesam fortemente sobre os critérios de indicação de amputação. Ainda assim, o que gradua a viabilidade do membro na tabela adiante são a sensibilidade e a motricidade, não a bolha.
 
   **A ordem tem uma explicação, e ela vale mais que a lista.** Porto registra a sequência de tolerância dos tecidos à isquemia: quem sofre primeiro é o **nervo periférico**; depois vêm o **músculo** e a **artéria**, esta com necrose da camada média; em seguida a **pele** e a **cartilagem**; e o **osso** resiste por último.
 
@@ -373,11 +373,11 @@ perguntas:
       - "Não, mas apenas porque a dor pode ser subestimada em idosos, e o mesmo vale para qualquer sintoma nessa faixa etária"
       - "Não: Porto registra que, em artéria já doente antes do episódio, com colaterais formadas, a dor vem fraca ou nem vem"
     corretaIndex: 3
-    explicacao: "Porto registra, nas duas obras, que a dor da oclusão arterial aguda vem fraca ou nem vem quando a artéria já estava doente antes do episódio, com colaterais formadas. Anos de estenose progressiva abriram a rede colateral, e a queda de fluxo ao fechar o tronco é menor que num leito íntegro — o mesmo motivo pelo qual, nas obstruções crônicas, a queda de temperatura da pele é menos acentuada. A consequência é desagradável: o paciente com doença crônica é o que mais ocluí e o que menos alarme produz. Nele, o exame dos pulsos, da sensibilidade e da motricidade vale mais que a intensidade da queixa."
+    explicacao: "Porto registra, nas duas obras, que a dor da oclusão arterial aguda vem fraca ou nem vem quando a artéria já estava doente antes do episódio, com colaterais formadas. Anos de estenose progressiva abriram a rede colateral, e a queda de fluxo ao fechar o tronco é menor que num leito íntegro — o mesmo motivo pelo qual, nas obstruções crônicas, a queda de temperatura da pele é menos acentuada. A consequência é desagradável: o paciente com doença crônica é o que mais oclui e o que menos alarme produz. Nele, o exame dos pulsos, da sensibilidade e da motricidade vale mais que a intensidade da queixa."
   - id: vasc-isq-2
     enunciado: Em um membro agudamente isquêmico, qual achado marca a passagem de membro sob ameaça imediata para membro inviável?
     alternativas:
-      - "O surgimento de flictenas sobre as áreas cianóticas, achado que traduz comprometimento da pele e marca, por si só, a perda definitiva da viabilidade do membro"
+      - "O surgimento de flictenas sobre as áreas cianóticas, achado que precede a perda de sensibilidade e é, por isso, o primeiro sinal de gravidade a aparecer no membro isquêmico"
       - "A sensibilidade abolida com paralisia da musculatura acima do pé, acompanhada de cianose fixa e de enchimento capilar ausente"
       - "A ausência de pulsos distais à oclusão, que define por si a inviabilidade do segmento"
       - "A perda de sensibilidade restrita aos dedos, com dor intermitente"

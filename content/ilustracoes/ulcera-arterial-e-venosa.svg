@@ -22,10 +22,10 @@
     <circle cx="101" cy="110" r="3.6" />
   </g>
   <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
-    <text x="14" y="164">bordas do pé, calcanhar,</text>
-    <text x="14" y="174">maléolos, polpas e unhas</text>
-    <text x="14" y="188">fundo necrótico · dói muito</text>
-    <text x="14" y="198">pior deitado e à noite</text>
+    <text x="14" y="162">bordas do pé, calcanhar,</text>
+    <text x="14" y="172">maléolos, polpas e unhas</text>
+    <text x="14" y="184">fundo necrótico · dói muito</text>
+    <text x="14" y="194">pior deitado e à noite</text>
   </g>
   <!-- B perna e pe -->
   <path d="M 224 24 L 218 100" stroke-width="1.5" />
@@ -38,12 +38,16 @@
   <path d="M 222 146 Q 214 140, 218 128" stroke-width="1.5" />
   <path d="M 218 128 L 224 128" stroke-width="1.2" />
   <ellipse cx="266" cy="112" rx="9" ry="7" stroke-width="1.4" />
+  <path d="M 276 112 L 288 112" stroke-width="0.9" />
+  <g font-family="sans-serif" font-size="8" fill="currentColor" stroke="none">
+    <text x="290" y="115">medial</text>
+  </g>
   <path d="M 254 96 L 278 96" stroke-width="1" stroke-dasharray="2 2" />
   <path d="M 254 126 L 278 126" stroke-width="1" stroke-dasharray="2 2" />
   <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
-    <text x="186" y="164">região perimaleolar interna,</text>
-    <text x="186" y="174">entre as linhas — a polaina</text>
-    <text x="186" y="188">rasa · secreção serosa · dói menos</text>
-    <text x="186" y="198">pior com a perna pendente</text>
+    <text x="186" y="162">região perimaleolar interna,</text>
+    <text x="186" y="172">entre as linhas — a polaina</text>
+    <text x="186" y="184">rasa · secreção serosa · dói menos</text>
+    <text x="186" y="194">pior com a perna pendente</text>
   </g>
 </svg>
