@@ -127,7 +127,7 @@ itens:
   - "Todos os pulsos dos membros inferiores palpados e comparados, com pesquisa de sopro nos trajetos."
   - "Manobra da isquemia provocada executada nos três tempos, com registro da palidez plantar e do tempo de retorno da cor."
   - "Tempo de enchimento venoso medido, ou sua não realização justificada pela presença de varizes."
-  - "Sensibilidade do pé e reflexo aquileu solicitados em todo paciente diabético, pelo risco de pé em risco."
+  - "Sensibilidade do pé e reflexo aquileu solicitados em todo paciente diabético, porque é o paciente do pé em risco."
 :::
 
 ::: ilustracao
