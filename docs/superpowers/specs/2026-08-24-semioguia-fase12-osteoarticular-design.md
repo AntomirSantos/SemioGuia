@@ -88,10 +88,13 @@ O consolidado (Fases 5–11), com **uma correção registrada em pleno voo**:
 
 > **ERRATA (24/08/2026).** Esta spec afirmava que o McGee não tem
 > capítulo musculoesquelético. **É falso.** O McGee 4ª ed. tem o
-> **cap. 57, "Examination of the Musculoskeletal System" (p. 481-510)**,
-> com os boxes EBM 57.1 e 57.2 e as Tabelas 57.1 (amplitudes normais),
-> 57.2 (achado → diagnóstico) e 57.3 (síndromes do ombro), além das
-> linhas de ombro, quadril, joelho e tornozelo na Tabela 5.1. O erro veio
+> **cap. 57, "Examination of the Musculoskeletal System" (p. 481-513)**,
+> com os boxes **EBM 57.1 a 57.8** e as Tabelas **57.1 a 57.4** — entre
+> elas a 57.3 (síndromes do ombro), a EBM 57.3 (osteoartrite de quadril,
+> com rotação interna passiva < 15° rendendo RV 9,9) e a Tabela 57.4
+> (regra de Ottawa do joelho) —, além das linhas de ombro, quadril,
+> joelho e tornozelo na Tabela 5.1. A primeira errata subcontou o
+> capítulo; a contagem correta é esta, medida pela revisão da T2. O erro veio
 > do método de varredura da orquestração, que filtrou a linha
 > "C H A P T E R nn" em busca do título — mas o título está na linha
 > seguinte. O implementador da T2 detectou a falha, recusou-se a escrever
