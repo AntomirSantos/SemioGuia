@@ -224,10 +224,12 @@ texto: |
   Uma secreção que sai do mamilo se descreve em **quatro eixos** — espontânea ou provocada; unilateral ou bilateral; por um ducto (uniorificial) ou por vários; e o aspecto, do lácteo ao sanguinolento. Com os quatro eixos, a *Semiologia Médica* monta **três perfis**, e a classificação vale ser sabida de cor:
 
   - **Galactorreia** — secreção **láctea, bilateral, multiductal**, fora do ciclo gravídico-puerperal. A causa mora fora da mama: prolactina elevada, por tumor hipofisário ou medicamentos — o *Exame Clínico* chama o quadro de galactorreia não puerperal e lembra que pode ocorrer no homem.
-  - **Derrame fisiológico** — **multiductal, bilateral**, em geral **provocado** pela manipulação, de cor amarela, esverdeada ou escura; a ectasia ductal é causa comum. É o achado da paciente que espreme para verificar — e que deve ser orientada a não espremer.
+  - **Derrame fisiológico** — **multiductal, bilateral**, em geral **provocado** pela manipulação, de cor amarela, esverdeada ou escura; a ectasia ductal é causa comum. É o achado da paciente que espreme para verificar — e orientá-la a não manipular é a consequência que o guia tira da própria definição da obra, que atribui esse derrame à manipulação mamilar.
   - **Derrame patológico** — **unilateral, uniductal, espontâneo e persistente**, de aspecto **cristalino (a água de rocha), seroso ou sanguinolento**. As causas habituais: **papiloma ductal ou carcinoma**.
 
-  **Os dois aspectos que soam alarme** atravessam as três fontes: a secreção **sanguinolenta** — que o *Exame Clínico* associa, com a esverdeada, a papilomas e carcinomas intraductais — e a **água de rocha**, o líquido cristalino como água, que a *Semiologia Médica* põe ao lado da hemática entre os derrames que levantam suspeita de neoplasia e pedem investigação. Semiologia Clínica repete o trio de exemplos no seu roteiro de inspeção: lácteo, sangue, água de rocha.
+  **Os dois aspectos que soam alarme** atravessam as três fontes: a secreção **sanguinolenta** — que o *Exame Clínico* associa a papilomas e carcinomas intraductais — e a **água de rocha**, o líquido cristalino como água, que a *Semiologia Médica* põe ao lado da hemática entre os derrames que levantam suspeita de neoplasia e pedem investigação. Semiologia Clínica repete o trio de exemplos no seu roteiro de inspeção: lácteo, sangue, água de rocha.
+
+  **E uma divergência real, declarada em vez de fundida:** a secreção **esverdeada** muda de lado conforme a obra. O *Exame Clínico* a coloca, junto da sanguinolenta, entre as que costumam indicar doença ductal — papiloma ou carcinoma intraductal; a *Semiologia Médica* a lista no perfil **fisiológico**, ao lado da amarela e da escura. Diante de uma secreção esverdeada, quem desempata são os outros eixos: **multiductal, bilateral e provocada**, ela repousa no perfil fisiológico; **uniductal, unilateral e espontânea**, investiga-se como qualquer derrame patológico.
 
   **O gesto que localiza** vem do tópico anterior: a **pesquisa do ponto de gatilho**, a digitopressão em círculo pelos pontos cardinais da aréola, identifica o ducto responsável — dado que orienta a cirurgia. E uma moldura declarada: a **citologia do derrame** é desaconselhada pela *Semiologia Médica*, pelas baixas sensibilidade e especificidade; o líquido não substitui a investigação do ducto.
 :::
@@ -243,8 +245,8 @@ significado: "A Semiologia Médica é direta: papila que se retraiu há pouco te
 causas:
   - "Carcinoma de mama, quando a retração é recente e unilateral"
   - "Mamilo invertido congênito, por sistema ductal hipoplásico"
-  - "Mastite da ectasia ductal, com fibrose periductal, derrame papilar e tumor retroareolar"
-  - "Cicatriz de cirurgia ou de processo inflamatório prévio"
+  - "Mastite da ectasia ductal — extensão clínica declarada: a Semiologia Médica descreve fibrose periductal, derrame e tumor retroareolar, sem citar retração da papila"
+  - "Cicatriz de cirurgia ou de inflamação prévia — convenção clínica, sem âncora nas obras adotadas"
 :::
 
 ::: sinal
@@ -397,8 +399,8 @@ perguntas:
     alternativas:
       - "Derrame fisiológico, porque o aspecto aquoso e claro afasta doença ductal"
       - "Galactorreia, que se investiga com dosagem de prolactina antes de qualquer outro passo"
-      - "Derrame provocado multiductal, que se resolve orientando a paciente a não manipular o mamilo"
-      - "Derrame patológico — unilateral, uniductal, espontâneo e em água de rocha —, perfil que a Semiologia Médica associa a papiloma ou carcinoma e que exige investigação"
+      - "Derrame provocado multiductal, comum na ectasia ductal, que se resolve orientando a paciente a não manipular o mamilo e reavaliando após o ciclo menstrual seguinte"
+      - "Derrame patológico — unilateral, uniductal, espontâneo, em água de rocha —, associado pela Semiologia Médica a papiloma ou carcinoma"
     corretaIndex: 3
     explicacao: "A Semiologia Médica classifica o derrame papilar em três perfis: galactorreia (láctea, bilateral, multiductal, por hiperprolactinemia), fisiológico (multiductal, bilateral, provocado, amarelo, esverdeado ou escuro) e patológico (unilateral, uniductal, espontâneo, persistente, em água de rocha, seroso ou hemático, geralmente por papiloma ductal ou carcinoma). A água de rocha e a secreção sanguinolenta são os dois aspectos de alarme; a pesquisa do ponto de gatilho identifica o ducto e a citologia do derrame é desaconselhada pelas baixas sensibilidade e especificidade."
   - id: mamas-nodulo-2
@@ -431,7 +433,7 @@ perguntas:
   - id: mamas-nodulo-5
     enunciado: Mulher de 44 anos acorda com um nódulo que não existia na véspera; ao exame, é arredondado, de contornos regulares, móvel, amolecido e doloroso. Qual padrão do Quadro 146.1 esse conjunto desenha?
     alternativas:
-      - "Cisto — involução lobular cística da faixa dos 35 aos 55 anos, de aparecimento súbito, móvel, doloroso e amolecido"
+      - "Cisto — involução lobular cística da faixa dos 35 aos 55 anos, de aparecimento súbito, móvel, doloroso e amolecido, que costuma regredir depois da menopausa e cuja punção aspirativa é diagnóstica e terapêutica"
       - "Fibroadenoma, o tumor sólido mais frequente da mama feminina"
       - "Câncer de mama, pela idade acima de 40 anos"
       - "Esteatonecrose, porque o surgimento abrupto de um nódulo doloroso é a sua marca clássica, mesmo sem qualquer história de trauma, cirurgia ou radioterapia sobre a mama"

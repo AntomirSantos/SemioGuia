@@ -56,6 +56,7 @@ referencias:
   - "Porto — Semiologia Médica, 8ª ed., Parte 14, Seção 3, cap. 139 (Exame Clínico) — a tensão emocional da paciente diante do exame; avental e lençol em vez de desnudamento completo; desnudamento progressivo conforme a região examinada; a recomendação de iniciar o exame ginecológico pelas mamas em respeito ao pudor"
   - "Porto — Semiologia Médica, 8ª ed., Parte 12, Seção 5, cap. 119 (Ovários | Exame Clínico) — na adolescente, exame físico acompanhado por uma assistente do médico ou pela acompanhante, com a decisão sobre a presença dos pais cabendo à paciente"
   - "Semiologia Clínica, 1ª ed., cap. 18 (Semiologia ginecológica e mamária), seções Exame clínico e Exame das mamas — orientação da paciente, explicação das etapas e consentimento prévio à realização do exame; cuidado inclusivo a pacientes transgênero e não binários; inspeção em pé ou sentada com braços laterais e mãos apoiadas nos ilíacos ou elevados com as mãos na nuca; inclinação anterior do tronco em mamas grandes ou pêndulas; roteiro de inspeção de corpos mamários, pele, mamilos e regiões axilares; palpação em posição supina com a porção palmar dos dedos, comprimindo o parênquima contra a parede torácica em movimentos circunferenciais ou radiais, incluída a extensão axilar; expressão da região subareolar com caracterização uniorificial ou multiorificial; avaliação de implantes mamários e o alerta do líquido periprotético; palpação das axilas e da região supraclavicular"
+  - "Semiologia Clínica, 1ª ed., cap. 2 (Comunicação clínica), seção sobre o acolhimento — entre os cuidados ao receber qualquer paciente, perguntar se deseja a presença do acompanhante"
   - "Semiologia Clínica, 1ª ed., cap. 40 (Edema), seção Insuficiência hepática — ginecomastia como proliferação glandular benigna, sua diferenciação da adipomastia e o valor diagnóstico para cirrose, com razão de verossimilhança positiva de 6 a 35"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 8 (Jaundice), p. 60 — definição operacional de ginecomastia: botão discreto e palpável de tecido mamário firme subareolar com 2 cm ou mais de diâmetro"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 27 (Peripheral Lymphadenopathy), p. 237 — no estadiamento do carcinoma de mama conhecido, adenopatia axilar palpável com sensibilidade de 31% a 35%, especificidade de 94% a 98% e razão de verossimilhança 9,3 quando presente e 0,7 quando ausente; 18% a 33% das pacientes com axila negativa ao exame têm metástase linfonodal descoberta na cirurgia"
@@ -79,7 +80,7 @@ texto: |
   - **Quem mais está na sala.** No exame da adolescente, Porto determina que uma **assistente do médico, ou a acompanhante,** esteja presente durante o exame físico — e que caiba **à paciente** decidir se os pais assistem.
   - **Para quem é este exame.** Semiologia Clínica é explícita: os procedimentos valem para toda a população, incluindo pessoas **transgênero e não binárias**, e o examinador deve estar preparado para um cuidado inclusivo. A mama masculina também pertence ao exame, como se verá adiante.
 
-  **Onde as obras calam — e o que a prática consolidou.** Nenhuma das quatro obras adotadas sistematiza, para a **paciente adulta**, a oferta de acompanhante durante o exame das mamas, nem o registro do consentimento em prontuário. A prática consolidada — e o guia a registra como **convenção, não como citação** — é oferecer a presença de acompanhante a qualquer paciente, documentar o consentimento verbal e interromper o exame se a paciente o pedir, em qualquer etapa. É a extensão natural do que Porto exige para a adolescente e do que Semiologia Clínica exige como consentimento.
+  **Onde as obras calam — e o que a prática consolidou.** Há uma âncora parcial: Semiologia Clínica, entre os cuidados do **acolhimento** de qualquer consulta, inclui **perguntar se a pessoa deseja a presença de acompanhante** — regra da consulta em geral, não específica do exame íntimo. Nenhuma das quatro obras adotadas sistematiza, para a **paciente adulta**, a oferta de acompanhante durante o exame das mamas em si, nem o registro do consentimento em prontuário. A prática consolidada — e o guia a registra como **convenção, não como citação** — é oferecer a presença de acompanhante a qualquer paciente, documentar o consentimento verbal e interromper o exame se a paciente o pedir, em qualquer etapa. É a extensão natural daquele acolhimento, do que Porto exige para a adolescente e do consentimento que abre o capítulo ginecológico de Semiologia Clínica.
 :::
 
 ::: conceito
@@ -89,7 +90,7 @@ texto: |
 
   McGee — a fonte quantificada deste guia — **não tem capítulo de mamas**. O que existe são menções incidentais espalhadas por outros capítulos, e o guia as usa quando servem. As obras brasileiras ensinam o exame mamário como **técnica e padrão**: descrevem o gesto, nomeiam o achado e dizem o que ele sugere, sem medir o desempenho de cada manobra. A regra editorial é a mesma do exame osteoarticular: **onde as fontes adotadas não medem, o guia ensina a técnica com atribuição e diz que não há número** — em vez de importar um de fora.
 
-  O único desempenho medido que este capítulo carrega vem de um desses achados incidentais de McGee, e está no bloco dos linfonodos: o valor — e o limite — da **axila palpável** na paciente que já tem o diagnóstico de câncer de mama.
+  O único desempenho medido vindo de McGee que este capítulo carrega é um desses achados incidentais, e está no bloco dos linfonodos: o valor — e o limite — da **axila palpável** na paciente que já tem o diagnóstico de câncer de mama. O outro número do capítulo vem de Semiologia Clínica e mora na mama masculina: o peso da ginecomastia na suspeita de cirrose, no bloco próprio.
 
   E há uma segunda moldura, nomeada e não ensinada: **mamografia, ultrassonografia, punção e biópsia**. Porto dedica um capítulo inteiro a elas, e este guia as cita apenas como o destino da investigação — o exame clínico descreve; quem classifica imagem é a imagem.
 :::
@@ -128,7 +129,7 @@ observar: |
 
   **A pressão tem dois tempos.** Porto, na *Semiologia Médica*, pede a palpação **primeiro leve**, para os nódulos superficiais, **depois vigorosa**, para os profundos. Começar forte esmaga o plano superficial e o exame perde uma camada.
 
-  **A consistência normal varia — e o calendário importa.** A proporção entre tecido glandular e adiposo muda a textura de mama para mama, e a mesma obra registra o efeito do ciclo: no período **pré-menstrual** as mamas aumentam, ficam hipersensíveis e mais nodulares. Um exame duvidoso nessa fase merece ser repetido em outro momento do ciclo, antes de virar rótulo.
+  **A consistência normal varia — e o calendário importa.** A proporção entre tecido glandular e adiposo muda a textura de mama para mama, e a mesma obra registra o efeito do ciclo: no período **pré-menstrual** as mamas aumentam, ficam hipersensíveis e mais nodulares. Repetir um exame duvidoso em outro momento do ciclo é a consequência prática que o guia tira desse dado — a obra registra a variação, não a conduta.
 :::
 
 ::: checklist
@@ -210,7 +211,7 @@ texto: |
 :::
 
 ::: conceito
-titulo: Os linfonodos na rotina — e o único número do capítulo
+titulo: Os linfonodos na rotina — e o número da axila
 texto: |
   A rede linfática da mama drena majoritariamente para a **axila**, e por isso os linfonodos pertencem à rotina do exame mamário — mas as cadeias, os níveis e a semiotécnica de cada fossa têm dono neste guia: o tópico **Linfonodos**, no exame físico geral, incluída a manobra de Valsalva que salienta os supraclaviculares. Aqui entra apenas a integração.
 
@@ -220,7 +221,7 @@ texto: |
 
   **O que significa o que se acha.** A *Semiologia Médica* dá as duas frases que orientam: linfonodos palpáveis **móveis e fibroelásticos** não são, por si, suspeitos; os **endurecidos, fixos, aumentados e coalescentes** na axila indicam metástase — de carcinoma de mama, linfoma ou outra neoplasia.
 
-  **E o único número do capítulo, com seu limite.** McGee, no capítulo de linfadenopatia periférica, traz o desempenho da axila **na paciente que já tem câncer de mama**: adenopatia axilar palpável tem especificidade de 94% a 98% e razão de verossimilhança **9,3** — quando a axila é palpável nesse contexto, o comprometimento metastático é quase certo. Mas a sensibilidade é de 31% a 35%, a razão de verossimilhança da axila negativa é **0,7**, e **18% a 33% das pacientes com axila normal ao exame têm metástase linfonodal descoberta na cirurgia**. A mão confirma; a mão **não exclui** — e é por isso que o estadiamento axilar não termina no exame físico.
+  **E o número medido da axila, com seu limite.** McGee, no capítulo de linfadenopatia periférica, traz o desempenho da axila **na paciente que já tem câncer de mama**: adenopatia axilar palpável tem especificidade de 94% a 98% e razão de verossimilhança **9,3** — quando a axila é palpável nesse contexto, o comprometimento metastático é quase certo. Mas a sensibilidade é de 31% a 35%, a razão de verossimilhança da axila negativa é **0,7**, e **18% a 33% das pacientes com axila normal ao exame têm metástase linfonodal descoberta na cirurgia**. A mão confirma; a mão **não exclui** — e é por isso que o estadiamento axilar não termina no exame físico.
 :::
 
 ::: sinal
@@ -290,7 +291,7 @@ texto: |
 
   A divergência é interna a Porto e não muda a conduta — nas duas versões, a axila é o destino dominante e as demais cadeias existem e merecem exame. Muda, porém, o que se memoriza: quem decorar um dos números deve saber que a outra obra traz outro.
 
-  Dois nomes anatômicos completam o bloco. O **prolongamento axilar** — a cauda de Spence — é a razão pela qual a palpação da mama termina dentro da axila: é mama, não linfonodo, e nódulo ali é nódulo mamário. E os **ligamentos de Cooper**, os septos que prendem a glândula à pele e à fáscia peitoral, são a estrutura que explica dois achados deste capítulo: a retração da pele — o tumor que traciona o septo — e a lógica da inspeção dinâmica, que tensiona os septos de propósito. A divisão da axila em níveis e o mapa completo das cadeias seguem sendo assunto do tópico Linfonodos.
+  Dois nomes anatômicos completam o bloco. O **prolongamento axilar** — a cauda de Spence — é a razão pela qual a palpação da mama termina dentro da axila: é mama, não linfonodo, e nódulo ali é nódulo mamário. E os **ligamentos de Cooper**, os septos que prendem a glândula à pele e à fáscia peitoral, são a estrutura que explica dois achados deste capítulo: a retração da pele — o tumor que traciona o septo — e a lógica da inspeção dinâmica, que tensiona os septos de propósito. O mapa completo das cadeias segue sendo assunto do tópico Linfonodos; já a divisão da axila nos **níveis de Berg**, que a *Semiologia Médica* apresenta no capítulo de fundamentos, fica aqui como moldura nomeada e não ensinada — é vocabulário do estadiamento cirúrgico, e nenhum tópico deste guia a ensina.
 :::
 
 ::: conceito
