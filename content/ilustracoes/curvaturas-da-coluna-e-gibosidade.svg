@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="10" y="14">Curvaturas no perfil e a inclinação anterior vista por trás</text>
+  </g>
+  <path d="M 104 28 L 104 166" stroke-width="1" stroke-dasharray="3 3" />
+  <path d="M 110 30 Q 95 48, 108 68 Q 128 94, 110 120 Q 97 142, 108 164" stroke-width="2" />
+  <path d="M 78 44 L 98 48" stroke-width="1" />
+  <path d="M 78 92 L 120 95" stroke-width="1" />
+  <path d="M 78 138 L 100 136" stroke-width="1" />
+  <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none" text-anchor="end">
+    <text x="74" y="42">lordose cervical</text>
+    <text x="74" y="90">cifose torácica</text>
+    <text x="74" y="136">lordose lombar</text>
+  </g>
+  <path d="M 186 128 Q 206 112, 226 109 Q 240 82, 259 106 Q 281 110, 298 128" stroke-width="1.8" />
+  <path d="M 242 96 L 242 132" stroke-width="1" stroke-dasharray="3 3" />
+  <circle cx="242" cy="150" r="10" stroke-width="1.5" />
+  <path d="M 192 130 L 187 166" stroke-width="1.5" />
+  <path d="M 292 130 L 297 166" stroke-width="1.5" />
+  <path d="M 259 88 L 259 98" stroke-width="1" />
+  <path d="M 255 94 L 259 98 L 263 94" stroke-width="1" />
+  <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="259" y="82">gibosidade</text>
+  </g>
+  <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="100" y="182">perfil, com fio de prumo</text>
+    <text x="242" y="182">inclinação anterior</text>
+  </g>
+  <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
+    <text x="10" y="196">A gibosidade fica na convexidade e só aparece com o tronco fletido (Porto).</text>
+  </g>
+</svg>

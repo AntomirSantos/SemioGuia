@@ -12177,7 +12177,1167 @@
      "id": "exame-osteoarticular",
      "titulo": "Exame osteoarticular",
      "ordem": 1,
-     "topicos": []
+     "topicos": [
+      {
+       "id": "sistema-osteoarticular/exame-osteoarticular/principios-do-exame-osteoarticular",
+       "titulo": "Princípios do exame osteoarticular",
+       "sistemaId": "sistema-osteoarticular",
+       "capituloId": "exame-osteoarticular",
+       "ordem": 1,
+       "tags": [
+        "exame osteoarticular",
+        "sistema osteoarticular",
+        "sistema locomotor",
+        "aparelho locomotor",
+        "artralgia",
+        "artrite",
+        "sinovite",
+        "monoartrite",
+        "oligoartrite",
+        "poliartrite",
+        "padrão aditivo",
+        "padrão migratório",
+        "acometimento simétrico",
+        "acometimento axial",
+        "acometimento periférico",
+        "dor inflamatória",
+        "dor mecânica",
+        "rigidez matinal",
+        "rigidez pós-repouso",
+        "sinais flogísticos",
+        "derrame articular",
+        "proliferação sinovial",
+        "lesão periarticular",
+        "crepitação articular",
+        "crepitação óssea",
+        "estalido articular",
+        "amplitude de movimento",
+        "movimento ativo",
+        "movimento passivo",
+        "goniômetro",
+        "posição neutra",
+        "deformidade",
+        "deformidade redutível",
+        "contratura fixa",
+        "luxação",
+        "subluxação",
+        "varo",
+        "valgo",
+        "recurvatum",
+        "atrofia muscular periarticular",
+        "nódulos justarticulares",
+        "tofo gotoso",
+        "inspeção estática",
+        "inspeção dinâmica",
+        "manobras especiais",
+        "paciente que não colabora",
+        "registro do exame",
+        "estação OSCE"
+       ],
+       "referencias": [
+        "Porto — Exame Clínico, 8ª ed., cap. 19 (Exame dos Ossos, da Coluna Vertebral, das Articulações e Extremidades), seções Anamnese, Semiotécnica, Ossos, Articulações e Doenças musculoesqueléticas mais frequentes — dados da identificação que orientam a hipótese; duração, modo de início, sinais inflamatórios e rigidez pós-repouso; inspeção comparativa de articulações homólogas e inspeção da postura em ortostase; palpação da temperatura com o dorso da mão e das crepitações finas e grossas; boxe Artralgia versus artrite; itens do exame articular (forma e volume, posição das estruturas, massas musculares, sinais inflamatórios, estruturas circunjacentes, crepitação e estalido, movimentação); boxe Princípios para estudo dos movimentos articulares e a medida em graus a partir da posição neutra; boxe Aumento de volume ou deformidades; nódulos justarticulares e tofos; amplitudes normais de cada articulação",
+        "Porto — Semiologia Médica, 8ª ed., Parte 17 (Sistema Locomotor), Seção 2 (Articulações, Bursas e Tendões), cap. 160 (Exame Clínico) — sinais e sintomas das enfermidades articulares; boxe Artralgia e artrite; boxe Espasmo ou atrofia da musculatura; rigidez pós-repouso e sua duração nos processos inflamatórios e degenerativos; crepitação articular e crepitação óssea; boxe Exame das articulações com os sete parâmetros; causas de aumento de volume articular; boxe Exame dos movimentos articulares e a graduação da limitação quando não é possível medir em graus",
+        "Porto — Semiologia Médica, 8ª ed., Parte 17, Seção 2, cap. 159 (Fundamentos de Anatomia e Fisiologia) — tipos de articulação e os componentes da articulação sinovial; líquido sinovial e sua função de nutrir e lubrificar",
+        "Porto — Exame Clínico, 8ª ed., cap. 6 (Sinais e Sintomas), seção Articulações — causas de dor articular; horário da dor na tendinite, na osteoartrose e na artrite reumatoide; influência dos movimentos sobre a dor; boxe Artralgia e artrite com a sinovite como base anatomopatológica; rigidez pós-repouso; crepitação e estalido articular; manifestações sistêmicas",
+        "Semiologia Clínica, 1ª ed., cap. 16 (Exame osteoarticular), seções Introdução e Anamnese — o que se procura no exame do sistema locomotor; itens obrigatórios da anamnese, incluindo lado dominante, ritmo contínuo ou intermitente e rigidez matinal; objetivos do exame; a sequência padronizada em cinco etapas (inspeção estática e dinâmica, palpação, manobras especiais, exame neurológico e exame das áreas de irradiação); crepitação e estalos; causas de limitação de movimento e a postura de menor pressão intra-articular; distinção entre aumento de volume articular e periarticular à palpação; categorias diagnósticas da prática reumatológica",
+        "Semiologia Clínica, 1ª ed., cap. 28 (Artrites e artralgias) — definição de artrite e artralgia e o primeiro passo do raciocínio; Tabela 1 (características inflamatórias e mecânicas); corte de 6 semanas; descrição do padrão de acometimento (mono, oligo até quatro articulações, poliarticular; simetria; aditivo ou migratório; predomínio de pequenas ou grandes articulações; queixas axiais); sinais clínicos de sinovite; etapas do exame geral ortopédico; etiologias das monoartrites; deformidades inicialmente redutíveis que evoluem para contratura fixa; Tabela 2 (diferenças clínicas entre osteoartrite e artrite reumatoide)",
+        "Semiologia Clínica, 1ª ed., cap. 15 (O exame do sistema locomotor) — sistematização do exame em inspeção estática, inspeção dinâmica, palpação de partes moles, palpação óssea e estruturas neurovasculares; avaliação de deformidade rígida ou flexível; Tabela 5 (graduação da força muscular de 0 a 5 e da sensibilidade de 0 a 2)",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 57 (Examination of the Musculoskeletal System), p. 481-485 — componentes do exame musculoesquelético e a amplitude de movimento como indicador mais sensível de doença articular; Tabela 57.1 (amplitudes normais); distinção entre doença articular e extra-articular pelo padrão de tumefação, hipersensibilidade e limitação dos movimentos ativos e passivos; definições de luxação, subluxação, valgo, varo e recurvatum; Tabela 57.2 (achados articulares anormais e diagnóstico implicado); a advertência de que, para muitos diagnósticos musculoesqueléticos, o próprio achado de beira de leito é o padrão diagnóstico, o que impede calcular razões de verossimilhança"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O vocabulário vem antes do gesto",
+         "texto": "Quase todo paciente com queixa do aparelho locomotor chega dizendo a mesma coisa: **dói**. Semiologia Clínica abre o capítulo do exame osteoarticular exatamente assim — as principais queixas do sistema locomotor correspondem a dor nos diversos segmentos —, e acrescenta a consequência: é a anamnese somada ao exame clínico que constitui a parte mais importante da avaliação, porque nessa área alguns exames laboratoriais e de imagem confundem mais do que ajudam.\n\nO problema é que \"dói\" não separa nada. O que separa são **palavras**, e este tópico existe para ensiná-las antes de qualquer manobra:\n\n- **artralgia ou artrite** — há ou não há inflamação na junta;\n- **quantas articulações** — uma, poucas ou muitas;\n- **em que ordem** — as novas se somam às antigas ou a dor troca de lugar;\n- **onde** — pequenas ou grandes, simétricas ou não, esqueleto axial ou membros;\n- **com que ritmo** — a dor piora com o uso ou com o repouso;\n- **dentro ou fora da junta** — articular ou periarticular.\n\nNenhuma dessas perguntas exige aparelho, e todas mudam a lista de hipóteses antes de o examinador encostar no paciente.\n\n**O que este tópico não faz.** Ele não percorre região por região: ombro e cotovelo, punho e mão, quadril e joelho, tornozelo e pé têm tópicos próprios neste capítulo, e a coluna vertebral tem o seu. Aqui ficam os princípios que valem para todas as juntas — e que os tópicos regionais aplicam sem repetir.\n\n**O que fica como moldura, nomeado e não ensinado:** a **punção articular e a análise do líquido sinovial**, que Semiologia Clínica cita como regra acadêmica diante de toda monoartrite; as **provas de atividade inflamatória**, os **autoanticorpos** e o **fator reumatoide**; a **densitometria óssea**; e os **critérios classificatórios** de sociedades médicas. São instrumentos, não exame físico.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Uma advertência sobre a textura deste capítulo",
+         "texto": "Quem chega aqui vindo dos capítulos anteriores deste guia está acostumado a ver quase todo achado seguido de uma razão de verossimilhança. **Neste capítulo isso muda**, e é melhor saber por quê antes de estranhar.\n\nAs duas obras brasileiras adotadas ensinam o exame osteoarticular sobretudo como **técnica e padrão**: descrevem o gesto, nomeiam o achado e dizem o que ele sugere, sem medir o desempenho de cada manobra. McGee mede — mas de forma **desigual**: o capítulo dele sobre o sistema musculoesquelético concentra os números em **ombro, quadril, joelho e tornozelo**, e apresenta o restante do exame articular como uma tabela de achado e diagnóstico implicado, sem razão de verossimilhança nenhuma. Ele próprio explica o motivo, e o motivo é interessante: em boa parte das doenças musculoesqueléticas **o achado de beira de leito é o próprio padrão diagnóstico** — quando o desvio ulnar e os dedos em pescoço de cisne definem a doença, não há contra o que medi-los. Para a coluna, os números que existem estão no capítulo de raízes nervosas, e este guia já os cita no tópico de marcha e sinais meníngeos.\n\nO resultado prático é uma regra editorial: **onde as fontes adotadas não trazem desempenho medido, o guia ensina a técnica com a atribuição e diz que não há número** — em vez de importar um de fora. Os blocos de aprofundamento deste capítulo se apoiam em padrão, armadilha e raciocínio; onde a acurácia existe, ela aparece com o mesmo rigor de sempre.\n\nIsso não rebaixa o exame osteoarticular. Rebaixa apenas a expectativa de que ele venha embalado em tabelas.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Antes de perguntar onde dói, conte. O número de articulações acometidas, a ordem em que elas entraram e a simetria entre os dois lados reduzem a lista de hipóteses mais depressa do que qualquer manobra especial."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como examinar"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "A sequência do exame articular",
+         "passos": [
+          "Comece a inspeção antes da maca: observe como o paciente entra, senta, levanta, tira o casaco e oferece a mão.",
+          "Descubra suficientemente a região a ser examinada, com boa iluminação, e posicione o paciente de pé, sentado ou deitado conforme a junta.",
+          "Faça a inspeção estática comparando sempre as articulações homólogas: aumento de volume, rubor, atrofia, desalinhamento, deformidades, nódulos e cicatrizes.",
+          "Com o paciente em pé, olhe a postura de conjunto: joelho varo ou valgo, pé plano ou cavo, cifose e escoliose.",
+          "Palpe primeiro as partes moles e depois as estruturas ósseas, procurando pontos dolorosos na interlinha articular e fora dela.",
+          "Avalie a temperatura com o dorso da mão, começando por uma área vizinha e comparando com a articulação homóloga.",
+          "Defina se o aumento de volume respeita as margens da junta ou se ultrapassa para as partes moles.",
+          "Peça o movimento ativo de cada articulação de interesse, e só depois execute o movimento passivo, com máxima delicadeza.",
+          "Durante a movimentação, procure dor, crepitação e estalido, e observe a reação do paciente tanto quanto a amplitude.",
+          "Meça a amplitude em graus a partir da posição neutra sempre que possível; quando não for, registre limitação total ou parcial.",
+          "Aplique as manobras especiais dirigidas à queixa, sempre comparando com o lado oposto.",
+          "Complete com o exame neurológico do segmento e com o exame das áreas para onde a dor se irradia."
+         ],
+         "observar": "**A ordem não é decorativa.** Semiologia Clínica organiza o exame articular em etapas fixas — inspeção estática e dinâmica, palpação, manobras especiais, exame neurológico e exame das áreas associadas à irradiação da dor —, e a razão de a inspeção vir primeiro é que ela **já começou**: ela ocorre durante todo o tempo em que o médico está com o paciente, desde a chegada ao consultório. Marcha, postura, a habilidade de despir-se e vestir-se, de sentar-se e levantar-se são dados de exame físico obtidos de graça.\n\n**Ativo antes de passivo, e nunca só um dos dois.** Porto é explícito: os dois precisam ser pesquisados, sempre comparando articulações homólogas. A ordem importa porque o movimento ativo é o que o paciente tolera; entrar direto no passivo é machucar e perder informação. E o par ativo-passivo é o que separa doença de dentro da junta de doença de fora dela — o assunto do bloco de aprofundamento.\n\n**O dorso da mão, e começando de longe.** Porto pede que a avaliação da temperatura comece por uma região próxima à articulação, e que se use o dorso dos dedos, sempre comparando com a junta homóloga. O dorso é mais sensível a diferenças pequenas que a palma; começar de longe dá ao examinador uma referência do próprio paciente.\n\n**Compare, porque a variação entre pessoas é grande.** Semiologia Clínica insiste que as amplitudes ativa e passiva sejam verificadas em todas as articulações de interesse **em comparação com o lado contralateral**, justamente porque há grande variabilidade entre indivíduos. O lado sadio do próprio paciente é a melhor tabela de normalidade que existe.\n\n**Delicadeza é técnica, não gentileza.** Porto abre os princípios do estudo dos movimentos articulares exigindo que a movimentação seja feita com a máxima delicadeza e que o examinador fique atento ao que o paciente demonstra, sobretudo à dor. Um exame brusco produz defesa muscular, e a defesa muscular imita limitação.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Exame osteoarticular em 10 passos",
+         "itens": [
+          "Marcha, postura e habilidade para vestir-se e levantar-se observadas desde a chegada do paciente.",
+          "Região exposta de modo suficiente, com boa iluminação e comparação sistemática com o lado oposto.",
+          "Inspeção estática registrada: volume, rubor, atrofia, desalinhamento, deformidades, nódulos e lesões de pele.",
+          "Postura em ortostase avaliada quanto a varo, valgo, pé plano ou cavo, cifose e escoliose.",
+          "Palpação de partes moles seguida da palpação óssea, com os pontos dolorosos localizados por nome anatômico.",
+          "Temperatura comparada com o dorso da mão entre articulações homólogas.",
+          "Aumento de volume classificado em articular ou periarticular pelos seus limites.",
+          "Amplitude ativa e depois passiva de cada articulação de interesse, com registro de dor e crepitação.",
+          "Amplitude registrada em graus a partir da posição neutra, ou como limitação total ou parcial.",
+          "Padrão de acometimento descrito: número de articulações, simetria, ordem de instalação e ritmo inflamatório ou mecânico."
+         ]
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"10\" y=\"14\">Aumento de volume articular e periarticular</text>\n  </g>\n  <rect x=\"70\" y=\"26\" width=\"26\" height=\"52\" rx=\"7\" stroke-width=\"1.5\" />\n  <rect x=\"70\" y=\"100\" width=\"26\" height=\"52\" rx=\"7\" stroke-width=\"1.5\" />\n  <path d=\"M 60 89 L 106 89\" stroke-width=\"1\" stroke-dasharray=\"3 3\" />\n  <ellipse cx=\"83\" cy=\"89\" rx=\"29\" ry=\"22\" stroke-width=\"1.7\" />\n  <rect x=\"215\" y=\"26\" width=\"26\" height=\"52\" rx=\"7\" stroke-width=\"1.5\" />\n  <rect x=\"215\" y=\"100\" width=\"26\" height=\"52\" rx=\"7\" stroke-width=\"1.5\" />\n  <path d=\"M 205 89 L 251 89\" stroke-width=\"1\" stroke-dasharray=\"3 3\" />\n  <path d=\"M 244 58 Q 276 74, 275 104 Q 274 134, 250 144 Q 239 148, 239 134 L 239 70 Q 239 58 244 58 Z\" stroke-width=\"1.7\" />\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"83\" y=\"166\">articular</text>\n    <text x=\"228\" y=\"166\">periarticular</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"7.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"83\" y=\"177\">contorna a junta inteira,</text>\n    <text x=\"83\" y=\"187\">de limites bem definidos</text>\n    <text x=\"228\" y=\"177\">ultrapassa as margens</text>\n    <text x=\"228\" y=\"187\">e some nas partes moles</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"7.5\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"10\" y=\"198\">A lesão fora da junta limita mais o movimento ativo que o passivo (McGee).</text>\n  </g>\n</svg>\n",
+         "legenda": "A pergunta que a palpação responde antes de qualquer manobra especial. Semiologia Clínica dá o critério de limites: quando o aumento vem de derrame ou de proliferação sinovial, ele é localizado e tem contorno bem definido; quando a lesão é periarticular, o volume estende-se além das margens da junta e se perde nas partes moles. Reconhecer isso muda o que se procura em seguida — e muda também a lista de doenças."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Artralgia, artrite e o padrão do acometimento"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A primeira pergunta — há artrite?",
+         "texto": "Porto e Semiologia Clínica dizem a mesma coisa com palavras próprias, e vale guardar as duas versões.\n\n**Porto:** artralgia significa apenas dor na articulação; **artrite** denuncia a presença de sinais flogísticos: dor, edema, calor, rubor — e, quase sempre, movimentos limitados. E acrescenta a hierarquia que decide o valor do achado: **encontrar artrite pesa mais, no diagnóstico, do que registrar artralgia**.\n\n**Semiologia Clínica** define a artrite pela inflamação em território articular e a artralgia pela dor em território articular, e diz que o primeiro passo do raciocínio é justamente definir, pela história e pelo exame, se há ou não artrite. No exame, isso significa procurar **sinovite**, e ela lista os sinais que a caracterizam: edema de partes moles, calor local, dor, edema ou derrame articular e limitação da amplitude de movimento.\n\nTrês detalhes de execução, todos de Porto, evitam erro nessa primeira decisão:\n\n- **O rubor é o sinal menos frequente** de inflamação articular. Contar com ele para diagnosticar artrite é perder a maioria dos casos.\n- **O calor se avalia com o dorso dos dedos**, comparando com a articulação homóloga. Para Porto, calor local é sinal confiável de inflamação.\n- **Trauma também provoca hipersensibilidade da articulação.** Dor à palpação, sozinha, não é artrite.\n\nE um detalhe de origem, do *Exame Clínico*: a base anatomopatológica da artrite é uma **sinovite** — inflamação da membrana sinovial —, que se traduz clinicamente pelos quatro sinais. É por isso que procurar sinovite e procurar artrite são a mesma tarefa.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Dor de padrão inflamatório e de padrão mecânico (Semiologia Clínica, Tabela 1)",
+         "colunas": [
+          "Aspecto",
+          "Padrão inflamatório",
+          "Padrão mecânico"
+         ],
+         "linhas": [
+          [
+           "Efeito do repouso e do esforço",
+           "Piora com o repouso e melhora com o esforço",
+           "Piora com o movimento e a carga, melhora com o repouso"
+          ],
+          [
+           "Pior momento do dia",
+           "Início do dia",
+           "Final do dia"
+          ],
+          [
+           "Rigidez matinal",
+           "Prolongada",
+           "Menos de 30 minutos"
+          ],
+          [
+           "Despertar noturno pela dor",
+           "Presente",
+           "—"
+          ],
+          [
+           "Sintomas constitucionais",
+           "Presentes",
+           "Ausentes"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Contar, ordenar e localizar — o padrão de acometimento",
+         "texto": "Definida a existência de artrite, Semiologia Clínica pede a descrição do **padrão**, e cada eixo dessa descrição elimina doenças.\n\n- **Número.** **Mono**, **oligo** — e aqui a obra dá o corte, **até quatro articulações** — ou **poliarticular**. Porto acrescenta a ressalva que impede o erro de contagem: as poliartrites quase sempre **começam como monoartrite**: por um tempo, só uma junta dói.\n- **Ordem de instalação.** Padrão **aditivo**, em que as novas articulações se somam às que já doíam, ou **migratório**, em que a dor troca de lugar. Porto dá o exemplo clássico da segunda: na febre reumática a artrite muda de junta **sem deixar sequela**, e resume o comportamento na frase de Bouillaud — a doença lambe as articulações e morde o coração.\n- **Ritmo no tempo.** Semiologia Clínica pede que se registre se a queixa é **contínua ou intermitente**. O exemplo mais nítido do intermitente é a gota: crises recorrentes com **período intercrítico assintomático**, que só depois de anos dá lugar a artrite crônica.\n- **Simetria.** Simétrico ou assimétrico. Na artrite reumatoide o acometimento típico de mãos é simétrico; na osteoartrite predominam as articulações de carga e o **lado dominante**, porque o uso acelera o processo.\n- **Tamanho das juntas.** Semiologia Clínica define os grupos: **grandes** são ombros, cotovelos, coxofemorais, joelhos e tornozelos; **pequenas**, as das mãos e dos pés.\n- **Axial ou periférico.** A concomitância de **queixas axiais** — coluna e sacroilíacas — muda a família de doenças em que se pensa; é o traço que reúne o grupo das espondiloartrites, cujas características comuns Semiologia Clínica lista como lombalgia de padrão inflamatório, sacroileíte, artrite periférica com predomínio de membros inferiores e entesite.\n\n**E o tempo de evolução, que é um eixo à parte.** Semiologia Clínica adota **6 semanas** como ponto de corte habitual. Porto chega ao mesmo tipo de raciocínio por outro caminho, pela duração típica de cada doença: menos de um mês na febre reumática, anos na artrite reumatoide.\n\nDuas frases fecham o raciocínio, e são de Semiologia Clínica: **a ausência de sintomas sistêmicos favorece as causas osteoarticulares de dor**, como a osteoartrite; e **dor difusa em território extra-articular** aponta para outro terreno, o da fibromialgia.\n"
+        },
+        {
+         "tipo": "entendimento",
+         "titulo": "Por que a rigidez tem relógio",
+         "texto": "A rigidez pós-repouso — que o paciente descreve como travamento, e que Porto também chama de rigidez matinal — é um dos poucos sintomas do aparelho locomotor que vem com uma medida embutida: **a duração**.\n\nPorto explica a origem: ela vem do **acúmulo, nos locais acometidos, de substâncias que a inflamação produz**, e sua duração é proporcional à intensidade da doença. Daí a assimetria que interessa ao consultório: nos reumatismos inflamatórios ela **persiste durante horas** — nas interfalangianas proximais da artrite reumatoide costuma passar de uma hora —, enquanto nos processos degenerativos o paciente levanta enrijecido, mas a sensação é **fugaz** e logo desaparece.\n\nSemiologia Clínica dá o corte operacional: rigidez prolongada, definida por duração **superior a 30 a 60 minutos**, é mais característica de doenças inflamatórias.\n\nDuas consequências práticas:\n\n**A pergunta certa não é se há rigidez, é quanto tempo ela dura.** E vale pedir ao paciente que traduza a palavra: Semiologia Clínica recomenda elucidar o que ele chama de rigidez antes de aceitar o termo.\n\n**O movimento é o teste.** No padrão inflamatório a rigidez **melhora com a movimentação** e a manhã é o pior período; no mecânico, o uso é o que piora, e o fim do dia é o pior momento. O mesmo relógio que mede a rigidez separa os dois padrões de dor.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "O que a palpação e a mobilidade entregam"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Derrame, crepitação e estalido",
+         "texto": "**De onde vem o volume.** Porto lista as causas de aumento do volume de uma articulação, e a lista é útil porque cada item leva a uma doença diferente: excesso de líquido sinovial; espessamento da sinovial e da cápsula; edema nas partes moles; crescimento ósseo localizado — osteófitos, exostoses, periostite; e depósitos de urato ou de cálcio.\n\n**Como saber se o volume é da junta.** Semiologia Clínica dá o critério, e é o critério mais útil da palpação articular: quando o aumento decorre de **derrame ou de proliferação sinovial**, ele é localizado e apresenta **limites bem definidos**; quando a lesão é **periarticular**, o volume **passa das margens da junta** e se espalha pelas partes moles. É a distinção que a ilustração deste tópico representa.\n\n**Crepitação não é uma coisa só, e a diferença é grande.**\n\n- **Crepitação articular** — Porto: sinal característico de comprometimento da **cartilagem** articular, presente sempre que esse elemento degenera, como nas artroses. Semiologia Clínica descreve a sensação e o mecanismo: uma vibração nascida do **atrito entre superfícies que perderam a regularidade**, colhida pela mão e por vezes audível — sinal de que a cartilagem, outrora lisa e deslizante, ficou áspera pelo uso.\n- **Crepitação óssea** — Porto é lapidar: crepitação de um osso significa **fratura**. Em outro ponto ele modera a afirmação: a crepitação sugere fratura, embora possa também ocorrer na osteoartrose. As duas frases convivem se lidas com cuidado: o que muda tudo é **onde** se sente a crepitação.\n- **Estalido** — Semiologia Clínica separa dos anteriores os estalos que nascem do **deslizar de tendões e ligamentos sobre o osso**, e diz que eles **não têm significado patológico**.\n\nE a ressalva que impede o excesso de zelo, também de Porto: a crepitação **pode ocorrer em articulações normais**, e só se torna significativa quando associada a outros sinais e sintomas, como dor e limitação de movimentos.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Amplitude de movimento e como registrá-la",
+         "texto": "McGee dá a este item a promoção que ele merece: entre inspeção, palpação e mobilidade, **a amplitude de movimento é o indicador mais sensível de doença articular**.\n\n**Como medir**, com os princípios de Porto:\n\n- **Em graus, sempre que possível**, partindo de uma **posição neutra**, que é o ponto zero.\n- **Quando não for possível medir em graus**, o registro tem escala própria: **limitação total**, quando a junta não executa nem um esboço de movimento, ou **limitação parcial**, subdividida em mínima, moderada ou intensa — a última beirando a total.\n- **Para as juntas pequenas**, Porto acrescenta a medida da **circunferência** com fita métrica ou goniômetro, útil nas interfalangianas proximais e distais.\n- **Alguns segmentos têm régua própria**: na flexão cervical mede-se com fita métrica a **separação entre o mento e a fúrcula esternal**; na flexão lombar, a **distância das polpas digitais ao solo**. As duas medidas pertencem ao tópico da coluna vertebral, que as detalha.\n\n**O que limita o movimento.** Semiologia Clínica enumera quatro causas — **derrame, dor, contratura ou deformidade** — e explica a segunda: a dor vem da **distensão da cápsula articular**, e é por isso que a retirada de líquido sinovial alivia só pelo alívio da pressão. Daí a postura que o paciente adota sozinho: uma **flexão parcial** — a posição em que a cavidade comporta mais volume com menos pressão. Reconhecer essa flexão espontânea é reconhecer que existe conteúdo dentro da articulação.\n\n**Um cuidado de leitura.** O guia registra que as amplitudes normais **não coincidem entre as obras adotadas** — a abdução do ombro e a flexão do cotovelo são os exemplos mais visíveis, e estão detalhados no tópico de ombro e cotovelo. Essa divergência é mais um argumento para o mesmo hábito: **a referência mais confiável é o lado contralateral do próprio paciente**.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Deformidade — a que se corrige e a que se fixou",
+         "texto": "Uma nota de vocabulário, feita em voz alta porque o leitor encontrará outra em outros textos. Alguns autores opõem *deformidade* a *deformação*; **nenhuma das quatro obras adotadas por este guia faz essa distinção**, e por isso ela não é ensinada aqui. O que essas obras separam é outra coisa, e essa outra coisa é operacional: **a deformidade que ainda se corrige e a que já se fixou.**\n\n- **Rígida ou flexível.** Semiologia Clínica, ao ensinar a inspeção dinâmica, manda avaliar, diante de qualquer deformidade, se ela é **rígida ou flexível**.\n- **Redutível ou em contratura fixa.** A mesma obra registra que os dedos em pescoço de cisne e em botoeira são **inicialmente redutíveis** e passam à contratura fixa com o tempo. Duas mãos com a mesma deformidade podem estar em estágios muito diferentes.\n- **Estruturada ou não estruturada.** Nas curvaturas da coluna, Porto usa a mesma lógica com outro nome: a escoliose **postural se corrige** pela flexão do tronco, enquanto a estruturada aparece justamente nessa manobra. O tópico da coluna vertebral desenvolve o ponto.\n\n**Três palavras que McGee define com precisão**, e que valem para qualquer junta:\n\n- **Luxação** — perda **completa** de contato entre as duas superfícies articulares.\n- **Subluxação** — permanece contato residual, mas o alinhamento é anormal.\n- **Varo, valgo e recurvatum** — na deformidade em **valgo**, a porção distal do membro aponta **para longe** da linha média do corpo (o joelho valgo, o hálux valgo do joanete); na deformidade em **varo**, ela aponta **para** a linha média (o joelho varo das pernas arqueadas); e **recurvatum** descreve a hiperextensão anormal de uma junta, como o joelho recurvado.\n\n**E a companhia inseparável da deformidade.** Porto registra que a **atrofia muscular** acompanha os processos articulares em que há bloqueio prolongado, e que ela escolhe sobretudo os **interósseos da mão e do pé** e o **quadríceps** — este acompanhando o comprometimento dos joelhos e das coxofemorais. Semiologia Clínica dá a mesma ideia em versão de fisiopatologia: por arcos reflexos, a dor articular pode determinar espasmo da musculatura vizinha ou atrofia. **Medir a coxa dos dois lados custa trinta segundos e data a doença.**\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Nódulos, tofos e o que a pele conta",
+         "texto": "Porto trata os **nódulos justarticulares** como achado de grande importância diagnóstica, e a razão é que cada um tem endereço:\n\n- **Nódulos subcutâneos na face posterior dos cotovelos** — únicos ou múltiplos, **indolores**: artrite reumatoide, e também lúpus eritematoso sistêmico e febre reumática. Os da febre reumática, no nível do olécrano, têm nome próprio: **nódulos de Meynet**.\n- **Nódulos eritematocianóticos e hipersensíveis na face anterior das pernas** — eritema nodoso.\n- **Tofos da gota** — depósitos de uratos, encontrados na face posterior dos cotovelos, nos **tendões calcâneos** e no **pavilhão auricular**.\n- **Calcificações de partes moles** — esclerodermia e dermatomiosite, por vezes formando fístulas.\n\n**A pele entra no exame articular por direito próprio.** Porto lista o que procurar quando se suspeita de doença difusa do tecido conjuntivo: pele dura e inelástica com desaparecimento do pregueamento normal, na esclerodermia; lesões eritematoescamosas atróficas da face, no lúpus; **heliótropo** — eritema e edema periorbitário — na dermatomiosite; **fenômeno de Raynaud**, com palidez seguida de rubor e cianose; e eritema palmar. A **psoríase, quando exibe sua lesão típica**, identifica a artropatia psoriásica, com predomínio nas pequenas juntas terminais das mãos, e Semiologia Clínica insiste que a psoríase, **inclusive a ungueal**, seja perguntada ativamente.\n\n**As unhas também falam**: lesões ungueais típicas apontam a artrite psoriásica; unhas quebradiças e em dedal, o lúpus; e o eritema periungueal aparece tanto no lúpus quanto na dermatomiosite. O vocabulário completo das lesões elementares e o **baqueteamento digital** estão no tópico de pele, mucosas e fâneros.\n\n**E há a pele que o tratamento estraga.** Porto lembra as dermatoses iatrogênicas dos medicamentos antirreumáticos, como o eritema facial dos corticoides. Diante de uma lesão nova em paciente reumatológico, a pergunta sobre o que ele está tomando vem antes da lista de doenças.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Aprofundamento"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Dentro ou fora da junta — a regra que o par ativo-passivo resolve",
+         "texto": "Esta é a distinção mais rentável de todo o exame osteoarticular, e McGee a formula de modo que cabe em três linhas de raciocínio.\n\nA dor articular pode originar-se **na própria junta** ou em estruturas extra-articulares — tendões, ligamentos, bursas, nervos. E os dois grupos se comportam de maneira diferente em três aspectos ao mesmo tempo:\n\n- **Onde estão a tumefação e a dor à palpação.** Na doença articular, em torno de **toda a junta**; na extra-articular, **localizadas** em regiões particulares dela.\n- **Que amplitudes são limitadas.** Na doença articular, **todo o repertório** de movimentos; na extra-articular, **algumas**, poupando outras.\n- **Ativo comparado ao passivo.** A doença articular limita **os dois**; a extra-articular limita **mais o ativo** que o passivo.\n\nO terceiro item é a que se usa à beira do leito, porque não depende de saber anatomia fina: **peça o movimento ativo, repita-o passivamente e compare**. Se o paciente não consegue elevar o braço mas o examinador o eleva sem grande resistência nem dor, a lesão tende a estar **fora** da junta. Se a mesma amplitude está limitada nas duas condições, a junta está doente.\n\nDuas confirmações independentes nas obras brasileiras:\n\n- **Semiologia Clínica** chama a distinção de **desafio** da palpação e dá o critério de limites já citado: derrame e proliferação sinovial produzem aumento localizado e de contorno nítido; a lesão periarticular ultrapassa as margens.\n- **McGee**, ao tratar do quadril, aplica a mesma regra a uma região: ao contrário das causas extra-articulares, como a bursite trocantérica, a **doença do quadril afeta todo o repertório** de movimentos — flexão, extensão, abdução, adução e as duas rotações.\n\n**Onde a regra tem limite.** Ela separa terrenos, não doenças. Um ombro pode ter, ao mesmo tempo, tendinite do manguito e artrite glenoumeral, e a coexistência é comum o bastante para que McGee registre que a maioria dos pacientes com inflamação do tendão do bíceps também tem doença do manguito rotador. A regra diz por onde começar a procurar, não onde parar.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O exame articular no paciente que não pode colaborar",
+         "texto": "Toda a sequência ensinada acima supõe um paciente que entende o pedido, executa o movimento ativo e relata onde dói. Nada disso existe no paciente sedado, com rebaixamento de consciência, afásico, com demência avançada ou no lactente. E o exame osteoarticular continua sendo necessário — muitas vezes é justamente ele que explica a agitação, a recusa em andar ou a febre sem foco.\n\nNenhuma das quatro obras adotadas dedica uma seção a essa situação. O que se segue não é, portanto, um protocolo com âncora: é o **rearranjo dos elementos que essas obras ensinam**, feito de modo explícito para que o leitor saiba exatamente o que está lendo.\n\n**1. A inspeção ganha o peso que a história perdeu.** Semiologia Clínica lembra que a inspeção acontece durante todo o tempo do encontro. No paciente que não fala, ela é a maior parte do exame: assimetrias, aumento de volume, eritema, deformidade, e sobretudo a **postura espontânea** de cada membro. Porto explica por que essa postura informa: diante de conteúdo intra-articular, o paciente adota **flexão parcial**, a posição de maior volume e menor pressão. Um membro mantido espontaneamente semifletido não está descansando; está protegendo uma junta com pressão aumentada.\n\n**2. O calor e o volume não pedem colaboração.** O dorso da mão comparando juntas homólogas, a busca de derrame com limites nítidos e a medida da circunferência com fita métrica funcionam igualmente bem em quem não responde. São os achados que sobram — e são justamente os que Porto considera confiáveis: **calor local significa inflamação**.\n\n**3. O movimento ativo é substituído, não abandonado.** O ativo pode ser observado indiretamente: qual membro o paciente usa para se ajeitar, qual ele não mexe, se retira o membro quando tocado. O passivo é executado pelo examinador com a delicadeza que Porto exige, e a **reação** — careta, gemido, retirada, aumento da frequência cardíaca — substitui o relato verbal. Porto já pede atenção ao que o paciente demonstra; aqui isso deixa de ser complemento e passa a ser o dado.\n\n**4. A comparação passa a ser tudo.** Sem queixa que localize, o único mapa é a simetria. Examinar as juntas aos pares, na mesma ordem e com a mesma força, é o que transforma impressão em achado.\n\n**5. O registro muda de escala.** Porto oferece exatamente a saída de que este paciente precisa: quando não é possível medir em graus, registra-se **limitação total ou parcial**, esta em mínima, moderada ou intensa. É uma escala grosseira, e é honesta.\n\n**A armadilha específica.** Nesse paciente, a **ausência de queixa não é ausência de doença**, e a artrite séptica é o exemplo que não perdoa: Semiologia Clínica registra que a regra acadêmica manda puncionar toda monoartrite justamente pela possibilidade de quadro infeccioso com mau prognóstico local. Uma única junta quente e aumentada em quem não pode reclamar é achado de urgência, não de acompanhamento.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Padrões de acometimento como pista diagnóstica",
+         "texto": "Reunidos os eixos do padrão, alguns arranjos são tão característicos que McGee os chama de **achados que definem a síndrome** — e observa que, para eles, calcular razão de verossimilhança é impossível, porque o achado **é** o padrão diagnóstico. O exemplo que ele dá: em um paciente com artrite simétrica de punhos e mãos, desvio ulnar das metacarpofalangianas e dedos em pescoço de cisne, o diagnóstico de artrite reumatoide é quase certo, com ou sem fator reumatoide no soro — se ele for negativo, o paciente tem artrite reumatoide soronegativa.\n\nVale percorrer os arranjos que as obras adotadas descrevem, lendo cada um como uma combinação de eixos.\n\n**Simétrico, pequenas juntas das mãos, poupando as distais, rigidez acima de uma hora.** Artrite reumatoide, segundo Semiologia Clínica: acometimento simétrico de punhos, metacarpofalangianas e interfalangianas proximais, dor inflamatória, sintomas constitucionais, duração tipicamente maior que 6 semanas. Porto acrescenta o comportamento no tempo: poliartrite **evolutiva, crônica e não migratória**, que deforma.\n\n**Assimétrico, juntas de carga, lado dominante, rigidez curta.** Osteoartrite. Semiologia Clínica é precisa sobre a mão: interfalangianas proximais e distais, **poupando as metacarpofalangianas** — exatamente o inverso da artrite reumatoide, que poupa as distais. É a mesma mão contando duas histórias opostas.\n\n**Interfalangianas distais acometidas.** Semiologia Clínica registra que essa distribuição levanta duas possibilidades ao mesmo tempo: **osteoartrite e artrite psoriásica**. É um bom exemplo de padrão que estreita sem fechar.\n\n**Monoartrite aguda de primeira metatarsofalangiana, em crises, com intervalo assintomático.** Gota — a crise chamada **podagra**. Porto acrescenta os outros endereços: joelhos (gonagra) e, mais raramente, punhos (quiragra), e nas mãos a interfalangiana do dedo mínimo.\n\n**Migratório, sem sequela, em criança ou adolescente.** Febre reumática. O caráter migratório é o eixo decisivo.\n\n**Axial, sacroilíacas, com dor que melhora ao movimento e piora à noite.** Espondiloartrites. Porto registra o traço que as reúne, a **lombalgia inflamatória crônica**, e Semiologia Clínica acrescenta a entesite e o acometimento extra-articular. O tópico da coluna vertebral desenvolve o quadro.\n\n**Poliartralgia migratória com tenossinovite e lesões cutâneas transitórias, poucas semanas após infecção geniturinária.** Artrite gonocócica, descrita por Semiologia Clínica com esse conjunto — e é um lembrete de que o padrão articular às vezes só faz sentido junto com a história de exposição.\n\n**A cautela final, e ela é forte.** Semiologia Clínica adverte contra pedir fator antinúcleo, fator reumatoide e outros autoanticorpos **sem suspeita clínica definida**, porque há positividade relevante na população saudável: fator reumatoide em cerca de **4%** dos jovens e até **25%** dos idosos, e fator antinúcleo em cerca de **5%** da população normal. Em outras palavras: **o padrão vem primeiro, e o exame depois** — invertida, a ordem produz doença onde não há.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde este tópico encontra os outros",
+         "texto": "- **As articulações região por região** — ombro e cotovelo, punho e mão, quadril e joelho, tornozelo e pé — têm tópicos próprios neste capítulo, e é neles que estão as amplitudes específicas, os reparos anatômicos e as manobras dirigidas.\n- **A coluna vertebral**, com as curvaturas, a mobilidade nos três planos, os testes de estiramento radicular e as bandeiras vermelhas da dor lombar, é o tópico seguinte.\n- **A graduação da força de 0 a 5**, o tônus, os reflexos profundos e a correspondência entre raiz, músculo-chave e reflexo estão no tópico de força, tônus e reflexos. Este capítulo pede o exame neurológico como etapa do exame articular, mas não o reensina.\n- **As marchas** — antálgica, claudicante e as demais — estão no tópico de marcha e sinais meníngeos, que também traz o **sinal de Trendelenburg** da fraqueza dos abdutores do quadril.\n- **A atitude, o decúbito preferido, a postura de pé em três graus e as definições de cifose, lordose e escoliose** estão na ectoscopia.\n- **O baqueteamento digital, as alterações ungueais e as lesões elementares da pele** estão em pele, mucosas e fâneros.\n- **O edema articular localizado e o edema sistêmico** se separam no tópico de pulso venoso jugular e turgência, que traz a semiotécnica do edema, a fóvea e a comparação entre as causas de edema generalizado.\n- **O cisto de Baker**, achado poplíteo que este capítulo encontra no joelho, já é ensinado como diagnóstico diferencial da trombose venosa profunda no tópico de doença venosa crônica e trombose.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Seis erros no exame articular",
+         "texto": "1. **Aceitar \"artrite\" só porque dói.** Artralgia é dor; artrite exige sinais flogísticos, e Porto lembra que o trauma também provoca hipersensibilidade da junta. A artrite tem mais valor diagnóstico que a artralgia justamente porque é mais difícil de encontrar.\n2. **Esperar rubor para chamar de inflamação.** Porto registra que o rubor da pele sobre a articulação é o **sinal menos frequente** de inflamação articular. O calor, procurado com o dorso dos dedos e comparado com a junta homóloga, é o sinal seguro.\n3. **Examinar só o lado que dói.** A variabilidade de amplitude entre pessoas é grande, e Semiologia Clínica pede comparação sistemática com o lado contralateral. Sem o lado sadio, não há régua.\n4. **Pular o movimento ativo.** É ele que o paciente controla, e é a comparação entre ativo e passivo que separa a doença de dentro da junta da doença de fora dela. Começar pelo passivo produz dor, defesa muscular e um exame que não se pode repetir.\n5. **Registrar \"limitação de movimento\" sem número nem escala.** Porto oferece as duas saídas — graus a partir da posição neutra, ou limitação total e parcial em três graus. A frase sem escala não é interpretável pelo próximo examinador.\n6. **Perguntar se há rigidez matinal sem perguntar quanto ela dura.** É a duração que separa o inflamatório do degenerativo: horas contra minutos, com o corte de 30 a 60 minutos registrado por Semiologia Clínica.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "O exame osteoarticular tem duas perguntas que quase nunca são feitas e quase sempre decidem: quantas juntas, e em que ordem elas entraram. Um paciente com quatro juntas doloridas que se somaram ao longo de meses e um paciente com quatro juntas que doeram uma de cada vez e passaram têm o mesmo exame de hoje e doenças diferentes."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "osteo-principios-1",
+           "enunciado": "Um homem de 58 anos tem dor no ombro direito. Ele não consegue elevar o braço ativamente além de 80 graus, mas o examinador eleva o membro passivamente até quase 180 graus, com pouca dor. O que essa dissociação sugere?",
+           "alternativas": [
+            "Artrite glenoumeral, porque a doença da própria junta limita antes o movimento ativo, que exige contração muscular",
+            "Nada de útil, porque a comparação entre movimento ativo e passivo depende da colaboração e não tem valor discriminatório em ombro doloroso",
+            "Derrame articular volumoso, cuja única expressão semiológica é a perda do movimento ativo com preservação do passivo",
+            "Lesão extra-articular, porque a doença de fora da junta limita mais o movimento ativo que o passivo e poupa parte das amplitudes"
+           ],
+           "corretaIndex": 3,
+           "explicacao": "McGee formula a regra: a doença articular causa tumefação e dor em torno de toda a junta e limita todo o repertório de movimentos, tanto ativos quanto passivos; a doença extra-articular produz tumefação e dor localizadas, afeta apenas parte das amplitudes e tende a limitar mais os movimentos ativos que os passivos. Semiologia Clínica chega ao mesmo lugar pela palpação: o aumento de volume articular é localizado e de limites bem definidos, enquanto o periarticular ultrapassa as margens da junta. Um derrame volumoso distende a cápsula e limita também o movimento passivo."
+          },
+          {
+           "id": "osteo-principios-2",
+           "enunciado": "Uma paciente relata que as mãos ficam travadas ao acordar e que a sensação melhora quando ela começa a trabalhar, por volta do meio da manhã. Como esse dado entra no raciocínio?",
+           "alternativas": [
+            "É rigidez de padrão inflamatório: piora no repouso, é pior ao acordar e cede ao movimento",
+            "É rigidez de padrão mecânico, porque toda rigidez que cede com o uso indica desgaste da cartilagem articular",
+            "É achado inespecífico, já que a rigidez matinal ocorre com a mesma duração na artrite reumatoide e na osteoartrose, e apenas a radiografia consegue separar uma da outra",
+            "É sinal de fraqueza muscular, e a conduta é graduar a força na escala de 0 a 5 antes de qualquer outra caracterização"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "Semiologia Clínica separa os dois padrões: no inflamatório a dor piora com o repouso e melhora com o esforço, o pior momento é o início do dia, a rigidez matinal é prolongada e há sintomas constitucionais; no mecânico a piora vem com o movimento e a carga, o pior momento é o fim do dia e a rigidez dura menos de 30 minutos. Porto explica a origem da rigidez pós-repouso pelo acúmulo de substâncias produzidas pela inflamação, e registra que ela persiste horas nos reumatismos inflamatórios e é fugaz nos degenerativos. O corte operacional citado por Semiologia Clínica é de 30 a 60 minutos."
+          },
+          {
+           "id": "osteo-principios-3",
+           "enunciado": "Ao examinar o joelho de um paciente com dor, o examinador percebe uma sensação vibratória durante a flexão. Que leitura Porto e Semiologia Clínica autorizam?",
+           "alternativas": [
+            "Crepitação óssea, que nesse contexto indica fratura por estresse do planalto tibial",
+            "Estalido por deslizamento de tendões, achado sem significado patológico em qualquer situação",
+            "Crepitação articular, sinal de dano à cartilagem, mais significativa por vir com dor",
+            "Achado normal que deve ser desconsiderado, porque a crepitação também ocorre em articulações sadias e, portanto, nunca acrescenta informação ao exame do joelho doloroso"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "Porto define a crepitação articular como sinal característico de dano à cartilagem, presente sempre que esse elemento degenera, e acrescenta que ela pode ocorrer em articulações normais, tornando-se mais significativa quando associada a dor e limitação de movimentos. Semiologia Clínica descreve a sensação vibratória produzida pelo atrito de superfícies que perderam o deslizamento, e separa dela os estalos por deslizamento de tendões e ligamentos sobre superfícies ósseas, que não têm significado patológico. Crepitação de osso, para Porto, significa fratura."
+          },
+          {
+           "id": "osteo-principios-4",
+           "enunciado": "Que descrição de padrão articular corresponde ao quadro que Semiologia Clínica associa à osteoartrite das mãos?",
+           "alternativas": [
+            "Poliartrite simétrica de metacarpofalangianas e interfalangianas proximais, poupando as distais, com rigidez matinal acima de uma hora",
+            "Acometimento assimétrico de interfalangianas proximais e distais, poupando as metacarpofalangianas, com rigidez matinal inferior a 30 minutos",
+            "Monoartrite aguda da primeira metatarsofalangiana, com crises recorrentes separadas por períodos assintomáticos",
+            "Poliartrite migratória que muda de articulação sem deixar sequela, acompanhada de sintomas constitucionais"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Na Tabela 2 de Semiologia Clínica, a osteoartrite acomete interfalangianas proximais e distais poupando as metacarpofalangianas, é assimétrica, predomina nas articulações de carga e no lado dominante, dá dor mecânica e rigidez matinal inferior a 30 minutos; a artrite reumatoide acomete metacarpofalangianas e interfalangianas proximais poupando as distais, é simétrica, dá dor inflamatória e rigidez acima de uma hora. A monoartrite da primeira metatarsofalangiana em crises é a podagra da gota, e a artrite migratória sem sequela é a da febre reumática."
+          },
+          {
+           "id": "osteo-principios-5",
+           "enunciado": "Um paciente com demência avançada, que não fala nem localiza a dor, fica agitado ao ser mobilizado. Que conduta o exame articular admite nessa situação?",
+           "alternativas": [
+            "Comparar juntas homólogas quanto a volume, calor e postura espontânea, mobilizar passivamente com delicadeza e registrar a limitação como total ou parcial",
+            "Adiar o exame articular até que a colaboração seja possível, porque a amplitude de movimento só é interpretável quando medida ativamente",
+            "Substituir o exame pela punção articular de todas as grandes juntas, procedimento que dispensa colaboração e fecha o diagnóstico",
+            "Registrar apenas que o exame osteoarticular foi prejudicado, evitando descrições que não possam ser confirmadas pelo paciente"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "Os elementos que sobram no paciente que não colabora são justamente os que as fontes consideram mais seguros: Porto registra que calor local significa inflamação e que a temperatura se colhe com o dorso dos dedos, entre juntas homólogas; a postura espontânea em flexão parcial é, ainda segundo Porto, a posição de maior volume e menor pressão intra-articular, ou seja, um indício de conteúdo dentro da junta; a movimentação passiva deve ser feita com máxima delicadeza, observando as reações do paciente; e, quando não é possível medir em graus, Porto oferece o registro em limitação total ou parcial. A punção é reservada à monoartrite, e é procedimento, não exame físico."
+          },
+          {
+           "id": "osteo-principios-6",
+           "enunciado": "Por que este capítulo traz menos razões de verossimilhança que os demais capítulos deste guia?",
+           "alternativas": [
+            "Porque as manobras osteoarticulares foram medidas e reprovadas, e o guia optou por omitir números desfavoráveis",
+            "Porque o exame osteoarticular é dispensável diante dos exames de imagem, que substituíram a propedêutica clássica",
+            "Porque as razões de verossimilhança do exame osteoarticular existem, mas pertencem a obras que este guia não adota, e a regra editorial proíbe importar números de fora das quatro fontes",
+            "Porque as obras brasileiras adotadas ensinam a técnica sem medir desempenho, e McGee mede de forma desigual"
+           ],
+           "corretaIndex": 3,
+           "explicacao": "As obras brasileiras adotadas descrevem o gesto, nomeiam o achado e dizem o que ele sugere, sem medir o desempenho das manobras. McGee mede, mas concentra os números em ombro, quadril, joelho e tornozelo, e apresenta o restante do exame articular como tabela de achado e diagnóstico implicado. Ele mesmo dá a razão de fundo: em muitas doenças musculoesqueléticas o próprio achado de beira de leito é o padrão diagnóstico, o que impede calcular razões de verossimilhança. Os números da elevação da perna estendida estão no capítulo de raízes nervosas e são citados no tópico de marcha e sinais meníngeos."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "sistema-osteoarticular/exame-osteoarticular/coluna-vertebral",
+       "titulo": "Coluna vertebral",
+       "sistemaId": "sistema-osteoarticular",
+       "capituloId": "exame-osteoarticular",
+       "ordem": 2,
+       "tags": [
+        "exame osteoarticular",
+        "sistema osteoarticular",
+        "coluna vertebral",
+        "coluna cervical",
+        "coluna torácica",
+        "coluna lombossacra",
+        "cifose",
+        "lordose",
+        "escoliose",
+        "cifoescoliose",
+        "escoliose estruturada",
+        "escoliose postural",
+        "teste de inclinação anterior",
+        "gibosidade",
+        "fio de prumo",
+        "atitude antálgica",
+        "retificação da lordose",
+        "processos espinhosos",
+        "musculatura paravertebral",
+        "goteira vertebral",
+        "mobilidade da coluna",
+        "teste de Schober",
+        "distância polpas digitais-solo",
+        "prova de Lasègue",
+        "elevação da perna estendida",
+        "sinal de Bragard",
+        "manobra de Valsalva",
+        "sinal da campainha",
+        "sinal das pontas",
+        "teste de Patrick",
+        "manobra de FABERE",
+        "manobra de Gaenslen",
+        "sacroileíte",
+        "articulação sacroilíaca",
+        "lombalgia",
+        "lombociatalgia",
+        "cervicalgia",
+        "dorsalgia",
+        "hérnia de disco",
+        "espondiloartrose",
+        "espondilite anquilosante",
+        "posição de esquiador",
+        "estenose do canal lombar",
+        "bandeiras vermelhas",
+        "síndrome da cauda equina",
+        "mal de Pott",
+        "espondilolistese",
+        "concordância entre observadores",
+        "estação OSCE"
+       ],
+       "referencias": [
+        "Porto — Semiologia Médica, 8ª ed., Parte 17 (Sistema Locomotor), Seção 3 (Coluna Vertebral), cap. 164 (Exame Clínico) — dados da identificação por faixa etária; caracterização da dor e da rigidez e o comportamento de cada uma nas doenças inflamatórias, compressivas e degenerativas; dor referida na coluna; vestuário adequado ao exame; abordagem em três planos, frontal anterior e posterior e sagital, com simetria das cinturas escapular e pélvica, ângulo toracolombar, alinhamento dos membros e uso do fio de prumo; atitude antálgica e posição de esquiador; perda da lordose fisiológica; palpação das massas da goteira vertebral, das apófises espinhosas e dos espaços intervertebrais; movimentos de cada segmento; reflexos e as raízes correspondentes; testes de compressão — manobra de Valsalva, sinal de Lasègue com os ângulos de 60 e de 30 graus, sinal de Bragard, elevação do membro sadio, alteração sensorimotora e pressão sobre as superfícies articulares; a exigência de completar o exame da coluna com o exame da bacia",
+        "Porto — Semiologia Médica, 8ª ed., Parte 17, Seção 3, cap. 166 (Doenças da Coluna Vertebral) — espondiloartrose e o comportamento da dor; hérnia de disco intervertebral, níveis mais frequentes, dor exacerbada por tosse, espirro e movimentação, contratura muscular com posição antálgica e perda da lordose fisiológica; deformidades da coluna, escolioses de curvas não estruturadas e estruturadas, escoliose postural que se corrige pela flexão do tronco, escoliose de compensação, gibosidade na convexidade; cifose do adolescente; lordose lombar aumentada e o círculo vicioso da instabilidade lombossacra; osteoporose vertebral; mal de Pott e a giba pótica; espondilite anquilosante e a diminuição da dor à medida que a coluna se torna rígida; espondilólise e espondilolistese; cervicalgia, dorsalgia, lombalgia e lombociatalgia, com a lombalgia comum e a lombociatalgia; boxe Sinal da campainha (Putti); lombociatalgia por hérnia discal segundo a raiz comprometida; síndrome da cauda equina",
+        "Porto — Exame Clínico, 8ª ed., cap. 19 (Exame dos Ossos, da Coluna Vertebral, das Articulações e Extremidades), seção Coluna vertebral e Roteiro pedagógico para exame físico da coluna vertebral — observação do perfil da coluna em ortostase; manobra de inclinação anterior com os joelhos estendidos para reconhecer escoliose e cifose; complementação com flexão, extensão, rotação e lateralidade; escoliose na criança e no adolescente; cifoescoliose; amplitudes dos três segmentos, com a flexão cervical medida em fita métrica entre mento e fúrcula esternal e a flexão lombar medida como distância polpas digitais-solo; roteiro de registro por segmento",
+        "Porto — Exame Clínico, 8ª ed., cap. 6 (Sinais e Sintomas), seção Coluna vertebral — localização e irradiação da dor por segmento; comportamento da dor nas afecções inflamatórias, na hérnia discal, na espondiloartrose e na osteoporose; boxe Dor referida; fatores desencadeantes, com os movimentos que estiram a raiz nervosa e o aumento da pressão intrarraquidiana pela tosse e pelo espirro, e com a deambulação na estenose do canal lombar e na insuficiência arterial dos membros inferiores",
+        "Semiologia Clínica, 1ª ed., cap. 15 (O exame do sistema locomotor), seção Eixo — divisão do eixo em coluna cervical, torácica e lombar; inspeção estática e dinâmica de cada segmento; amplitudes cervicais de flexoextensão, rotação e inclinação lateral e amplitudes torácicas; avaliação de deformidade rígida ou flexível; palpação de partes moles e óssea em cada segmento; Tabela 1 (níveis neurológicos cervicais) e Tabela 2 (raízes do plexo lombossacral)",
+        "Semiologia Clínica, 1ª ed., cap. 46 (Lombalgia e cervicalgia) — definição da lombalgia pelos seus limites anatômicos e classificação em aguda, recorrente e crônica; Tabela 1 (dor nociceptiva, neuropática e mista); exame clínico da coluna lombar com inspeção estática em ortostase e inspeção dinâmica; palpação e pontos-gatilho; teste de Lasègue, sinal de Bragard, teste de Patrick/Fabere e sinal das pontas; exame clínico da coluna cervical, com amplitudes e critérios de normalidade, palpação anterior e posterior, teste de distração de Apley, manobra de Spurling, sinal de Lhermitte e teste de Adson; Tabela 2 (níveis motores e sensitivos); Tabela 3 (bandeiras vermelhas da lombalgia); Tabela 4 (diagnósticos diferenciais da dor lombar); Tabela 5 (causas mecânicas e degenerativas de cervicalgia)",
+        "Semiologia Clínica, 1ª ed., cap. 16 (Exame osteoarticular), seção Quadril e pelve — composição da cintura pélvica; palpação das cristas ilíacas, do trocanter maior, da tuberosidade isquiática, da sínfise púbica e das espinhas ilíacas; sacroileítes nas espondiloartrites e sua demonstração por palpação direta ou pelas manobras de Gaenslen e de Patrick; descrição do teste de Patrick/Faber e a distinção entre dor posterior contralateral e dor ipsilateral",
+        "Semiologia Clínica, 1ª ed., cap. 28 (Artrites e artralgias), seção Espondiloartrites — características comuns do grupo, com lombalgia de padrão inflamatório, sacroileíte, artrite periférica de predomínio em membros inferiores, entesite e acometimento extra-articular",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 7 (Stance and Gait), p. 53 — postura fletida da estenose de canal, que reduz a tensão sobre os nervos lombossacros, e a observação de que esses pacientes se queixam de dor mas têm marcha por outro lado normal",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 30, Tabela 5.1, seção Lungs — concordância entre observadores para cifose"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A coluna se examina em pé, de perfil e em movimento",
+         "texto": "A coluna vertebral é o único segmento do aparelho locomotor que sustenta o corpo inteiro, e é por isso que seu exame começa longe da maca: **com o paciente de pé, visto de frente, de costas e de perfil**.\n\nPorto abre o exame clínico da coluna com uma exigência que se cumpre antes de qualquer manobra — o paciente precisa estar com roupa adequada, que deixe o dorso descoberto — e com uma organização que vale memorizar: **a abordagem se faz em três planos**, o frontal anterior, o frontal posterior e o sagital. Cada plano responde a uma pergunta diferente, e nenhum deles substitui os outros.\n\nAs síndromes dolorosas da coluna — **cervicalgia, dorsalgia, lombalgia e lombociatalgia** — estão entre os problemas mais frequentes da prática médica. Semiologia Clínica dimensiona: cerca de **80%** dos adultos terão lombalgia em algum momento, com maior incidência na terceira década e prevalência maior entre **60 e 65 anos**; e a cervicalgia alcançaria, ao longo da vida, até **55%** dos brasileiros, com prevalência de **12%** entre as mulheres e **9%** entre os homens. A lombalgia lidera as causas de afastamento temporário do trabalho.\n\n**A primeira tarefa, e Porto a coloca antes de todas: excluir a dor referida.** A dor pode ser percebida na coluna sem nascer nela. Os exemplos que ele dá são de leitura obrigatória — a pancreatite aguda percebida na topografia toracolombar, a úlcera duodenal na coluna torácica, a dor renal na coluna lombar e as afecções ginecológicas na lombossacra. A segunda tarefa é excluir que a dor venha de outra estrutura do aparelho locomotor: articulações, tendinites, bursites, miosites.\n\n**O que este tópico não reensina.**\n\n- As **definições de cifose, lordose e escoliose**, a classificação da postura em três graus e a alteração postural do envelhecimento estão no tópico de ectoscopia. Aqui elas são pressupostas, e o que se acrescenta é o que a **manobra** revela.\n- A **prova de Lasègue com o desempenho medido** — as razões de verossimilhança da elevação da perna estendida e da prova cruzada — está no tópico de marcha e sinais meníngeos, que a ensina junto com os sinais meníngeos porque a manobra atravessa as duas fronteiras. Este tópico a executa e cita os números de lá, sem repeti-los.\n- A **graduação da força de 0 a 5**, os reflexos profundos e a correspondência entre raiz, músculo-chave e reflexo estão no tópico de força, tônus e reflexos.\n- A **rigidez de nuca e os sinais meníngeos** pertencem ao capítulo neurológico. Pescoço rígido não é sinônimo de coluna cervical doente.\n\n**O que fica como moldura, nomeado e não ensinado:** a **radiografia simples, a tomografia, a ressonância, a cintilografia e a densitometria óssea**; a **eletroneuromiografia**; e as classificações radiológicas das deformidades.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Deitado, a coluna mente. As curvaturas se apagam, a atitude antálgica desaparece e a assimetria das cinturas some. O exame da coluna que não começa com o paciente em pé, e que não pede a inclinação anterior, já perdeu a maior parte do que tinha para achar."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como examinar"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Exame da coluna vertebral",
+         "passos": [
+          "Com o dorso descoberto e o paciente de pé, observe primeiro a atitude espontânea: inclinação do tronco ou do pescoço adotada para aliviar a dor.",
+          "No plano frontal posterior, compare a altura dos ombros e das escápulas, o ângulo toracolombar dos dois lados e o nível das cristas ilíacas.",
+          "Ainda por trás, veja como os membros inferiores se alinham, para onde as patelas apontam e como se apoiam calcâneos e arcos plantares.",
+          "No plano sagital, avalie a lordose cervical, a cifose torácica e a lordose lombar, usando o fio de prumo como linha de gravidade.",
+          "Peça ao paciente que se incline para a frente, fletindo o tronco ao máximo com os joelhos estendidos, e olhe o dorso tangencialmente à procura de gibosidade.",
+          "Palpe as massas musculares das goteiras vertebrais dos dois lados, procurando contratura e pontos dolorosos.",
+          "Palpe as apófises espinhosas uma a uma e os espaços intervertebrais, com delicadeza, e localize o nível em que a dor aparece.",
+          "Palpe as cristas ilíacas, as espinhas ilíacas posterossuperiores e a região das sacroilíacas.",
+          "Avalie a mobilidade cervical: flexão, extensão, rotação para os dois lados e inclinação lateral, com o paciente sentado para as rotações.",
+          "Avalie a mobilidade toracolombar: flexão, extensão, rotação e lateralidade, registrando onde a dor aparece e o que ela impede.",
+          "Meça o que é mensurável: a separação entre o mento e a fúrcula esternal na flexão cervical, e a distância das polpas digitais ao solo na flexão lombar.",
+          "Com o paciente deitado, faça a elevação da perna estendida de cada lado e, se houver dor, a dorsiflexão do pé na altura em que ela apareceu.",
+          "Complete com o exame neurológico dos membros — força, sensibilidade e reflexos — e com o exame da bacia."
+         ],
+         "observar": "**Por que os três planos, e o que cada um mostra.** Porto separa as perguntas. No **frontal**, procura-se assimetria: o desnivelamento das escápulas sugere desvio de lateralidade, isto é, escoliose; o desnivelamento da cintura pélvica sugere **discrepância no comprimento dos membros inferiores**; patelas que olham para dentro sugerem alteração na anteversão do colo femoral. No **sagital**, avaliam-se o grau das lordoses e da cifose e onde a pelve se situa diante dessa linha — projetada para diante ou para trás. E os **movimentos** também se observam nos três planos.\n\n**A inclinação anterior é a manobra central da inspeção.** Porto, no *Exame Clínico*, é direto: a posição e o gesto tornam fácil o reconhecimento de uma escoliose ou de uma cifose. E, na *Semiologia Médica*, dá a razão: é com o tronco fletido que a **rotação dos corpos vertebrais e do gradeado costal** se torna visível, levantando no dorso a **gibosidade** — sempre do lado convexo. Sem essa manobra, uma escoliose estruturada e uma escoliose postural parecem a mesma coisa.\n\n**Palpação delicada, e por um motivo específico.** Porto adverte que palpar a coluna pode provocar dor forte — na hérnia discal, sobretudo. Palpar uma a uma as apófises espinhosas e os espaços entre elas é fundamental nas afecções inflamatórias e compressivas justamente porque **isso dói** — o que significa que o examinador deve começar longe do ponto suspeito e avançar até ele, não o contrário.\n\n**Sentado para as rotações.** Porto pede que a rotação cervical e as rotações do tronco sejam avaliadas com o paciente **sentado**. A razão é mecânica: sentado, a pelve fica fixa, e o que gira é a coluna, não o quadril.\n\n**O exame da coluna não termina na coluna.** Porto encerra o capítulo com a exigência: complete com o exame da bacia — sacroilíacas e coxofemorais —, porque doença dessas juntas produz um quadro muito parecido com o das afecções da própria coluna.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Exame da coluna em 10 passos",
+         "itens": [
+          "Dorso descoberto, paciente em pé e exame conduzido nos planos frontal e sagital.",
+          "Atitude espontânea registrada, com descrição da inclinação antálgica quando presente.",
+          "Simetria de ombros, escápulas, ângulo toracolombar e cristas ilíacas comparada por trás.",
+          "Curvaturas avaliadas de perfil, com registro de cifose, lordoses e sua eventual retificação.",
+          "Inclinação anterior executada com joelhos estendidos e dorso olhado tangencialmente à procura de gibosidade.",
+          "Musculatura paravertebral palpada dos dois lados, com registro de contratura e pontos dolorosos.",
+          "Apófises espinhosas e espaços intervertebrais palpados um a um, com o nível doloroso nomeado.",
+          "Mobilidade cervical e toracolombar testada em flexão, extensão, rotação e lateralidade.",
+          "Medidas registradas: separação mento-fúrcula na flexão cervical e distância polpas digitais-solo na flexão lombar.",
+          "Elevação da perna estendida de cada lado, com o ângulo em que a dor aparece e o território para onde ela desce."
+         ]
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"10\" y=\"14\">Curvaturas no perfil e a inclinação anterior vista por trás</text>\n  </g>\n  <path d=\"M 104 28 L 104 166\" stroke-width=\"1\" stroke-dasharray=\"3 3\" />\n  <path d=\"M 110 30 Q 95 48, 108 68 Q 128 94, 110 120 Q 97 142, 108 164\" stroke-width=\"2\" />\n  <path d=\"M 78 44 L 98 48\" stroke-width=\"1\" />\n  <path d=\"M 78 92 L 120 95\" stroke-width=\"1\" />\n  <path d=\"M 78 138 L 100 136\" stroke-width=\"1\" />\n  <g font-family=\"sans-serif\" font-size=\"7.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">\n    <text x=\"74\" y=\"42\">lordose cervical</text>\n    <text x=\"74\" y=\"90\">cifose torácica</text>\n    <text x=\"74\" y=\"136\">lordose lombar</text>\n  </g>\n  <path d=\"M 186 128 Q 206 112, 226 109 Q 240 82, 259 106 Q 281 110, 298 128\" stroke-width=\"1.8\" />\n  <path d=\"M 242 96 L 242 132\" stroke-width=\"1\" stroke-dasharray=\"3 3\" />\n  <circle cx=\"242\" cy=\"150\" r=\"10\" stroke-width=\"1.5\" />\n  <path d=\"M 192 130 L 187 166\" stroke-width=\"1.5\" />\n  <path d=\"M 292 130 L 297 166\" stroke-width=\"1.5\" />\n  <path d=\"M 259 88 L 259 98\" stroke-width=\"1\" />\n  <path d=\"M 255 94 L 259 98 L 263 94\" stroke-width=\"1\" />\n  <g font-family=\"sans-serif\" font-size=\"7.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"259\" y=\"82\">gibosidade</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"100\" y=\"182\">perfil, com fio de prumo</text>\n    <text x=\"242\" y=\"182\">inclinação anterior</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"7.5\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"10\" y=\"196\">A gibosidade fica na convexidade e só aparece com o tronco fletido (Porto).</text>\n  </g>\n</svg>\n",
+         "legenda": "Duas vistas que respondem a perguntas diferentes. No perfil, com o fio de prumo como linha de gravidade, avaliam-se as três curvaturas e a posição da pelve. Na inclinação anterior, vista por trás e tangencialmente, aparece a rotação dos corpos vertebrais e das costelas — a gibosidade, sempre do lado da convexidade. É essa manobra que separa a escoliose estruturada, que a flexão revela, da escoliose postural, que a flexão corrige."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Inspeção — as curvaturas e o que a flexão revela"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Escoliose estruturada e escoliose que se corrige",
+         "texto": "As definições de cifose, lordose e escoliose estão na ectoscopia. O que interessa aqui é a divisão que muda a conduta, e Porto a organiza em dois grandes grupos: escolioses de **curvas não estruturadas** e de **curvas estruturadas**.\n\n**As não estruturadas** reúnem cinco tipos: postural, compensatória, antálgica, inflamatória e histérica. Duas delas se explicam sozinhas:\n\n- A **escoliose postural** **desaparece** quando o tronco flete em pé, no decúbito ou sob tração. Nela não há rotação nem dos corpos vertebrais nem dos processos espinhosos.\n- A **escoliose de compensação** aparece quando há discrepância de comprimento dos membros inferiores — ou, mais raramente, contratura do quadril em adução ou abdução — e **desaparece quando o membro mais curto é compensado**. É a razão de o exame conferir o nível das cristas ilíacas antes de concluir por doença da coluna.\n\n**A estruturada** só se deixa reconhecer **com o tronco fletido**: nessa posição, corpos e costelas aparecem rodados e o dorso levanta a **gibosidade**, sempre do lado **convexo**. No raio X a rotação tem direção fixa: o corpo vertebral gira para a convexidade; o processo espinhoso, para a concavidade.\n\n**Um dado epidemiológico que orienta o olhar.** Porto registra que a escoliose incide sobretudo em crianças e adolescentes, com predomínio feminino; a escoliose idiopática, a mais comum, tem três picos de aparecimento — no recém-nascido, entre os 5 e os 6 anos e dos 11 anos até o fim do crescimento, este último o prevalente. E dá a regra de prognóstico: **quanto mais alta a curva, pior**, e quanto mais jovem o paciente, mais grave.\n\n**A cifose também tem sua leitura.** A causa mais comum de aumento da cifose torácica é o **vício de postura**. Mas Porto lista as que não são: mal de Pott, osteomielite, neoplasias, formas congênitas, e a **cifose do adolescente** ou dorso curvo — a osteocondrite de Scheuermann —, mais frequente na puberdade, em que as vértebras torácicas inferiores se achatam e é comum existir também uma pequena curva lateral. A **cifoescoliose** combina as duas deformidades.\n\n**E a lordose lombar entra em um círculo vicioso.** Porto descreve: a lordose lombar pode aumentar nos processos degenerativos dos discos inferiores, quando a pelve perde equilíbrio por fraqueza de abdominais e de glúteos, ou quando iliopsoas e isquiossurais encurtam. O aumento da lordose **projeta o centro de gravidade para a frente**, o que agrava a instabilidade lombossacra — que, por sua vez, piora as condições que a produziram.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A atitude antálgica e a lordose que sumiu",
+         "texto": "Porto diz que **o primeiro item a investigar é a atitude que o paciente adota** — e dá o exemplo que mais aparece: na hérnia discal é frequente que o paciente assuma uma **posição antálgica** para conseguir algum alívio.\n\nO mecanismo está descrito no capítulo de doenças da coluna: a hérnia produz **contratura muscular**, e a contratura determina a posição antálgica, caracterizada pela **inclinação lateral do tronco** — ou do pescoço, quando o segmento é cervical. A mesma contratura se manifesta como rigidez da musculatura e como **apagamento da lordose fisiológica**, cervical ou lombar.\n\nPorto dá peso a esse achado: o **apagamento da lordose fisiológica, com retificação cervical ou lombar**, pesa muito no diagnóstico das doenças da coluna. À radiografia, a coluna fica quase vertical.\n\nHá uma segunda atitude que o exame da coluna precisa reconhecer de longe, e ela pertence à espondilite anquilosante: a **posição de esquiador**, que o paciente assume gradativamente em estágio avançado, caracterizada por aumento da lordose cervical, cifose dorsal, lordose lombossacra e flexão dos joelhos.\n\n**Como registrar.** Atitude antálgica é uma observação, não um diagnóstico. A frase útil descreve o que se vê — \"tronco inclinado para a esquerda, que o paciente não corrige espontaneamente, com retificação da lordose lombar\" — e não apenas que a atitude é antálgica. A atitude do paciente com dor lombar aguda muda de um dia para o outro; a descrição permite comparar.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Palpação — músculo, osso e o nível",
+         "texto": "A palpação da coluna responde a duas perguntas, e Semiologia Clínica as separa com clareza: **de onde vem a dor** e **em que altura**.\n\n**Partes moles primeiro.** Porto manda palpar as massas musculares, sobretudo as que preenchem a **goteira vertebral**, à procura de hipertrofia e de retificação. Semiologia Clínica acrescenta o mapa dos pontos dolorosos mais frequentes na lombalgia — quadrado lombar, piriforme, iliopsoas e os três glúteos, mínimo, médio e máximo — e recomenda estender a palpação ao tensor da fáscia lata. O achado que interessa é aquele em que a palpação **reproduz a dor que o paciente sente**, e não apenas produz dor nova.\n\n**Osso depois.** Palpam-se as **apófises espinhosas** uma a uma e os **espaços intervertebrais**. Semiologia Clínica dá o critério de leitura: para diferenciar dor muscular de dor óssea, é preciso palpar a própria coluna; **quando há dor à palpação da coluna vertebral**, pensa-se em pequenos traumas, calcificações e fraturas, entre outras causas. Na hérnia discal, Porto registra que palpar as linhas espondileia e paraespondileia desperta dor perto do disco herniado — e, por vezes, de modo difuso em todo o segmento.\n\n**Por segmento, o que se palpa** (Semiologia Clínica, capítulo do exame do sistema locomotor):\n\n- **Cervical** — partes moles anteriores e posteriores, tireoide e pulso carotídeo; no osso, o occipício e os processos espinhosos, procurando dor e crepitação. Os processos de **C2 e C7** são os mais fáceis de encontrar, por serem mais superficiais.\n- **Torácica** — trapézio, grande dorsal e romboides, que são superficiais; no osso, as apófises vertebrais, o gradeado costal e a escápula.\n- **Lombar** — musculatura paravertebral, abdominal e glútea; no osso, o sacro, as apófises, a crista ilíaca e as espinhas ilíacas anterossuperiores e posterossuperiores.\n\n**E o sinal que a palpação lombar pode disparar.** Porto registra, em boxe, o **sinal da campainha** (Putti): a compressão da região lombar desperta dor pelo trajeto do nervo ciático. É a palpação que se transforma em teste de irritação radicular sem que o examinador mude de posição.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Mobilidade nos três planos — e o que se pode medir",
+         "texto": "A coluna se move em flexão, extensão, rotação e lateralidade, mas os segmentos não contribuem igualmente. Porto explica por quê: a coluna torácica tem **mobilidade reduzida**, e isso, somado ao modo como a musculatura do tronco se prende entre costelas e pelve, faz com que os movimentos torácicos e os lombossacros **andem juntos** — o que se examina, na prática, é o conjunto toracolombar.\n\n**As amplitudes que as obras registram** — e vale ler cada linha como pertencente à obra que a publica, porque elas não coincidem em tudo:\n\n- **Cervical (Porto).** Flexão: o mento deve alcançar a fúrcula esternal, e **o que sobrar entre os dois se mede em fita métrica**. Extensão: o queixo deve se distanciar cerca de **18 cm** desse mesmo ponto. Rotação para cada lado, **60°**. Lateralidade para cada lado, **30°**.\n- **Cervical (Semiologia Clínica).** Flexoextensão **130°**, rotação **80°**, inclinação lateral **45°** para cada lado. E critérios sem goniômetro, que valem no consultório: a flexão é normal se o queixo encosta no tórax; a extensão, quando a fronte e o nariz se alinham no plano horizontal; a rotação, quando o queixo se alinha com o ombro; e a inclinação lateral, quando alcança um ângulo igual ou maior que **45°**.\n- **Torácica (Porto).** Rotação **75°** para cada lado, mais flexão, extensão e lateralidade. **Semiologia Clínica** dá para esse segmento flexão **45°**, extensão **45°** e inclinação lateral **45°** para cada lado.\n- **Lombar (Porto).** Flexão: **meça a distância entre as polpas digitais e o solo**. Extensão **30°**. Rotação **90°** para cada lado. Lateralidade **35°** para cada lado.\n\n**As duas medidas que valem ouro** são justamente as que dispensam goniômetro: **mento-fúrcula** na flexão cervical e **polpas digitais-solo** na flexão lombar. As duas produzem um número em centímetros, reprodutível pelo próximo examinador e comparável na consulta seguinte — que é exatamente o que uma anotação de \"flexão limitada\" não oferece.\n\n**E o registro tem formulário.** O roteiro pedagógico de Porto para o exame da coluna pede, para cada segmento, os seis movimentos — flexão, extensão, rotação direita e esquerda, lateralidade direita e esquerda — mais uma linha para as curvaturas. É um bom modelo de prontuário.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O teste de Schober — o que este guia faz com ele",
+         "texto": "O leitor encontrará, em textos de reumatologia e de ortopedia, o **teste de Schober**, uma medida de flexão lombar em que se marca a pele e se mede o quanto a distância entre as marcas aumenta com o tronco fletido. Ele é citado com frequência na avaliação das espondiloartrites.\n\n**Nenhuma das quatro obras adotadas por este guia descreve esse teste.** Não é omissão de leitura: a busca foi feita nas quatro, e ele não aparece em nenhuma — nem na descrição da técnica, nem entre as manobras da coluna, nem no capítulo de espondilite anquilosante.\n\nA regra editorial deste guia é a mesma de sempre, e ela vale mais do que a conveniência de completar uma lista: **não se ensina técnica cuja âncora não existe nas fontes adotadas**, e não se importa de fora a descrição de um gesto para preencher lacuna. Por isso o teste é **nomeado aqui e não ensinado**.\n\nO que as fontes adotadas oferecem no lugar, para a mesma pergunta — quanto a coluna lombar flete —, é a **distância entre as polpas digitais e o solo**, que Porto manda medir, e a inspeção dinâmica de Semiologia Clínica, que pede ao paciente alcançar os pés com as mãos mantendo os joelhos retos, registrando onde a dor aparece e o que ela limita. São medidas mais grosseiras que a de Schober, e são as que este guia pode sustentar.\n\nA mesma decisão vale para as manobras sacroilíacas: **Gaenslen** é **nomeada** por Semiologia Clínica como manobra capaz de demonstrar sacroileíte, mas **não é descrita** — e por isso este guia a nomeia sem ensinar a técnica. **Patrick/FABERE**, que a mesma obra descreve passo a passo, é ensinada adiante.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Testes que estiram e testes que comprimem"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Três mecanismos, e a manobra que corresponde a cada um",
+         "texto": "Porto organiza os testes da coluna por **mecanismo**, o que é mais útil do que uma lista de epônimos. A dor pode ser agravada basicamente de três maneiras:\n\n**1. Estreitando o forame de conjugação.**\n\n- **Manobra de Valsalva** — pede-se ao paciente que segure o ar e faça força abdominal, como para evacuar. O gesto eleva a pressão intratecal; havendo afecção expansiva ou compressiva, como neoplasia ou hérnia discal, o paciente relata dor. É o mesmo mecanismo pelo qual, na hérnia discal, a dor piora ao **tossir, espirrar, evacuar e urinar**.\n- **Sinal de Lasègue** — descrito no bloco seguinte.\n- **Sinal de Bragard** — Porto o descreve como manobra de confirmação: com o membro elevado, faz-se a **dorsiflexão do pé**, o que exacerba a dor. Semiologia Clínica descreve uma variante mais refinada: **depois** de baixar o membro até a posição em que os sintomas desapareceram, faz-se a dorsiflexão passiva do tornozelo — o que permite separar irritação radicular de encurtamento dos isquiotibiais.\n- **Elevação do membro sadio** — a dor que aparece no membro **oposto**, o afetado, sugere compressão mais central. É a prova cruzada, cujo desempenho está no tópico de marcha e sinais meníngeos.\n\n**2. Alterando a função sensorimotora.** As afecções da coluna repercutem nos membros com alterações de sensibilidade, de força e de reflexos, e a topografia dessas alterações **localiza o nível** da compressão. Porto dá dois exemplos diretos: um bíceps fraco pode significar compressão de **C5**; a queda de potência nos dorsiflexores dos dedos e do pé aponta **L5 e S1**. A técnica de graduar a força e pesquisar os reflexos está no tópico de força, tônus e reflexos, com a correspondência completa entre raiz, músculo-chave e reflexo.\n\nSemiologia Clínica acrescenta uma manobra de consultório que testa esses dois níveis sem martelo nem escala: o **sinal das pontas**. Pede-se ao paciente que caminhe na ponta dos pés e depois sobre os calcanhares. Dificuldade no primeiro movimento aponta comprometimento de **L4/L5**; dificuldade no segundo, de **S1**.\n\n**3. Comprimindo as superfícies articulares.** Porto descreve: pressiona-se **para baixo a cabeça** do paciente, de preferência sentado. É o mesmo princípio da **manobra de Spurling** descrita por Semiologia Clínica, em que a flexão lateral da cabeça é somada à pressão sobre o vértice, sendo o teste positivo quando os sintomas radiculares aumentam.\n\nE há o teste que faz o contrário, também de Semiologia Clínica: o **teste de distração de Apley**, em que a tração da região cervical **alarga** os forames intervertebrais e **alivia** a dor — alívio que se explica pela redução da compressão radicular. Compressão que dói e tração que alivia respondem à mesma pergunta por caminhos opostos.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Sinal de Lasègue e elevação da perna estendida",
+         "descricao": "Com o paciente em decúbito dorsal e as pernas estendidas, o examinador eleva um dos membros inferiores sobre a bacia sem deixar que o joelho dobre, manobra que estira o nervo ciático. Porto considera o sinal positivo quando a dor surge até 60 graus, ângulo formado entre o membro elevado e a mesa de exame, e registra que bloqueio e dor até 30 graus sugerem hérnia discal. Semiologia Clínica descreve a versão em duas etapas: primeiro a flexão do quadril com o joelho fletido a 90 graus, que tensiona a coxofemoral, e depois a extensão do joelho, que tensiona o nervo.",
+         "significado": "A manobra separa duas coisas que doem no mesmo movimento, e Porto dá o critério: cabe decidir se a dor despertada pela elevação vem de compressão verdadeira do ciático ou de contratura dos isquiotibiais — esta fica confinada atrás da coxa, ao passo que a ciática costuma percorrer o membro todo. O desempenho medido da elevação da perna estendida e da prova cruzada, com as razões de verossimilhança de McGee e a concordância entre observadores, está no tópico de marcha e sinais meníngeos e não se repete aqui. A confirmação se faz com o sinal de Bragard, e a elevação do membro sadio que dói no lado afetado sugere compressão mais central.",
+         "causas": [
+          "Hérnia de disco lombossacra, com compressão radicular",
+          "Outras causas de compressão da raiz, como neoplasia e espondilolistese",
+          "Irritação meníngea, situação em que a mesma manobra corresponde ao sinal de Kernig",
+          "Contratura dos músculos posteriores da coxa, que produz dor limitada à face posterior e não é radicular"
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "As sacroilíacas e o teste de Patrick",
+         "texto": "Semiologia Clínica dá à sacroileíte um lugar de destaque: ela é característica das **espondiloartrites** — grupo diante do qual a suspeição precisa ser alta, porque as sequelas se instalam. E oferece três caminhos para demonstrá-la — **palpação direta** e as manobras de **Gaenslen** e de **Patrick**.\n\n**A cintura pélvica reúne três articulações**: a sacroilíaca, a coxofemoral e a sínfise púbica. A palpação, iniciada com o paciente de pé, percorre as espinhas ilíacas anterossuperior e posterior, a crista ilíaca, o trocanter maior, a tuberosidade isquiática e a sínfise púbica.\n\n**Teste de Patrick, também chamado FABERE** — o acrônimo descreve o próprio movimento: *flexion, abduction, external rotation*. Com o paciente em decúbito dorsal, fletem-se o quadril e o joelho a **90 graus** e apoia-se o tornozelo no joelho contrário; em seguida a coxa é abduzida e rodada para fora, rumo à mesa. Para avaliar a sacroilíaca, uma das mãos do examinador fixa a **crista ilíaca do lado que se investiga** e a outra empurra o **joelho oposto** em direção à mesa.\n\n**E a leitura é topográfica, o que a torna especialmente útil:** dor que aparece **atrás** e do lado **contrário** ao joelho empurrado aponta as **sacroilíacas**; se ela for **do mesmo lado** do movimento, o problema tende a ser **coxofemoral**. Semiologia Clínica, no capítulo de lombalgia, diz o mesmo de outro modo: o teste importa para diferenciar o comprometimento da articulação do quadril, com dor anterior, da sacroileíte, com dor posterior.\n\nA aplicação do mesmo teste ao **quadril** — e o repertório completo das amplitudes coxofemorais — pertence ao tópico de quadril e joelho deste capítulo.\n\n**Uma nota de vocabulário que evita confusão.** Espondiloartrite e espondiloartrose são palavras vizinhas com significados opostos: a primeira nomeia um grupo de doenças **inflamatórias** com sacroileíte e lombalgia que melhora com o movimento; a segunda, descrita por Porto, é a **artrose** da coluna, degeneração do disco, das facetas e dos ligamentos, com dor que melhora com o repouso.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Aprofundamento"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "As bandeiras vermelhas da dor lombar",
+         "texto": "A lombalgia é, na maioria das vezes, benigna e autolimitada — Semiologia Clínica define a forma **aguda** como autolimitada em cerca de **8 semanas**, com tendência à cura espontânea, e reserva **recorrente** para a recidiva em menos de 3 meses e **crônica** para a duração superior a 3 meses. O trabalho do exame clínico, portanto, não é confirmar a lombalgia comum: é **procurar ativamente as exceções**.\n\nSemiologia Clínica reúne essas exceções em uma lista de sinais de alarme que exigem avaliação imediata:\n\n1. Trauma em quem já passou dos **50 anos**; ou qualquer paciente acima dos **70**.\n2. **Câncer prévio**, ou suspeita de neoplasia em curso.\n3. **Emagrecimento** que não se explica.\n4. Estado de **imunossupressão**.\n5. Dor que **piora à noite**.\n6. **Corticoide** em uso prolongado.\n7. **Droga injetável**, ou abuso de substância psicoativa.\n8. Dor que o **repouso não alivia** — ou que piora com ele.\n9. **Anestesia em sela**; ciática dos dois lados; fraqueza nas pernas; retenção ou incontinência de urina ou de fezes.\n10. **Febre, calafrios, lesão cutânea**, ou infecção urinária recente.\n11. **Trauma** de intensidade moderada ou grave.\n12. **Osteoporose** conhecida, ou vértebra frágil por outra causa.\n13. **Amplitude de movimento da coluna reduzida**.\n14. Alteração neurológica com mais de **um mês**; ou déficit motor ou sensitivo que **avança**.\n15. **Seis semanas** ou mais de tratamento sem resposta.\n\n**O item 9 merece leitura separada**, porque ele é a síndrome da cauda equina, e Porto a descreve com o mesmo conteúdo: na compressão grave aparecem **anestesia em sela** no períneo, perda do controle dos esfíncteres vesical e anal e déficit sensitivo e motor nas pernas. É a única linha desta lista que muda a conduta na mesma hora, e é a única cuja pesquisa — perguntar sobre esfíncteres e testar a sensibilidade perineal — o examinador costuma esquecer.\n\n**E há a lista que a lombalgia esconde.** Semiologia Clínica separa quatro diagnósticos diferenciais que se apresentam como dor lombar e não pertencem à coluna: **nefrolitíase**, com dor em flanco súbita e intensa, irradiada para a virilha, e sinal de Giordano positivo; **pancreatite**, com dor abdominal superior em faixa, náusea e vômito; **pielonefrite**, com ardência, aumento da frequência e da urgência urinária e febre; e **aneurisma de aorta abdominal**, cuja pesquisa é a palpação de massa pulsátil no abdome. Porto acrescenta os órgãos que produzem dor referida na coluna, entre eles o pâncreas, o duodeno, o rim e os genitais internos.\n\n**A conclusão prática.** Diante de dor lombar, o exame que importa não é só o da coluna: é a coluna **mais** a busca dirigida das bandeiras vermelhas, **mais** a palpação do abdome e a punho-percussão lombar. Um exame que ignora as três últimas linhas não é um exame de coluna incompleto — é um exame que pode perder um aneurisma.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Estenose do canal e hérnia de disco — separar pela história e pelo exame",
+         "texto": "Duas doenças degenerativas da coluna lombar produzem dor que desce para a perna, e o exame clínico as separa antes de qualquer imagem — desde que se pergunte as coisas certas.\n\n**O que desencadeia a dor.** Este é o eixo mais forte, e Porto o registra ao listar os fatores desencadeantes da dor: na **hérnia discal lombossacra**, dói **tudo que estire a raiz nervosa** — elevar a perna estendida, fletir o tronco — ou que eleve a pressão dentro do canal raquidiano, como tossir e espirrar. Na **estenose do canal lombar**, o desencadeante é outro: **a deambulação**. E Porto coloca, na mesma linha, a insuficiência arterial dos membros inferiores, porque as duas partilham esse gatilho.\n\n**A postura que o paciente adota.** McGee descreve, no capítulo de postura e marcha, o achado que assina a estenose: esses pacientes assumem uma **postura fletida**, que **reduz a tensão sobre os nervos lombossacros**. Ele acrescenta a observação que evita o erro de leitura mais provável: à primeira vista essa postura fletida lembra a da doença de Parkinson, mas os pacientes com estenose **se queixam de dor** e têm, no mais, **marcha normal**.\n\nRepare no contraste que se forma: a estenose melhora com a coluna fletida e piora andando; a hérnia piora justamente com a flexão do tronco e com tudo que estira a raiz. **É o mesmo movimento com o sinal trocado.**\n\n**A dor em repouso.** Porto separa também aqui. Na **hérnia discal**, a dor é **contínua, mesmo em repouso**, e piora muito aos movimentos. Na **espondiloartrose**, ela cede ao repouso, aperta nos primeiros movimentos e depois **afrouxa conforme eles continuam** — o padrão que o paciente descreve como \"preciso me soltar\".\n\n**O que o exame acrescenta.** Na hérnia, Porto descreve o conjunto: contratura muscular com posição antálgica, retificação da lordose, dor à palpação próxima ao disco herniado, áreas de hipo ou hiperestesia por dermátomo e reflexos diminuídos ou ausentes conforme a raiz. Os níveis mais frequentes são **L4/L5 e L5/S1** na região lombar e **C4/C5 e C5/C6** na cervical — os pontos de maior mobilidade e, por isso, de desgaste mais precoce.\n\n**Uma advertência que fecha o raciocínio**, e é de Porto: **radiografia de coluna normal não exclui hérnia de disco.** O exame clínico não está pedindo licença ao raio X.\n\n**E o que não se pode fazer aqui.** Nenhuma das obras adotadas mede o desempenho de qualquer achado para separar estenose de hérnia. O que existe é o conjunto acima — desencadeante, postura, comportamento em repouso e topografia neurológica —, e ele é um bom conjunto. Não é uma razão de verossimilhança, e este guia não vai fingir que é.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Dor e parestesia por raiz na lombociatalgia por hérnia discal (Porto)",
+         "colunas": [
+          "Raiz e disco herniado",
+          "Território da dor",
+          "Parestesias",
+          "Déficit motor e reflexo"
+         ],
+         "linhas": [
+          [
+           "L4 — entre L3 e L4",
+           "Região lombar, atrás da coxa e face medial da perna",
+           "Região medial do joelho ou medial do pé",
+           "Inversão do pé; reflexo patelar diminuído ou abolido"
+          ],
+          [
+           "L5 — entre L4 e L5",
+           "Região lombar, atrás da coxa, lateral da perna e maléolo externo",
+           "Dorso do pé e hálux",
+           "Flexão dorsal do pé; reflexos tendinosos normais"
+          ],
+          [
+           "S1 — entre L5 e S1",
+           "Região lombar, atrás da coxa, atrás da perna e no calcanhar",
+           "Borda lateral do pé e dois últimos pododáctilos",
+           "Flexão plantar do pé; reflexo aquileu diminuído ou abolido"
+          ]
+         ],
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Lendo a tabela — e a linha que quase ninguém percebe",
+         "texto": "A tabela acima é do capítulo de doenças da coluna de Porto, e vale por três razões.\n\n**Primeira: a dor não localiza sozinha.** Os três territórios de dor começam iguais — região lombar e face posterior da coxa — e só divergem **abaixo do joelho**. É por isso que perguntar \"até onde desce\" vale mais que perguntar \"onde dói\": a perna lateral aponta L5, a perna posterior e o calcanhar apontam S1, a perna medial aponta L4.\n\n**Segunda: a linha de L5 é a que mais engana.** Nela, os **reflexos tendinosos são normais**. Um paciente com ciatalgia intensa, dorsiflexão fraca e reflexos patelar e aquileu preservados não tem exame neurológico normal — tem exatamente o exame que a compressão de L5 produz. Quem procura assimetria de reflexo como prova de radiculopatia perde essa raiz.\n\n**Terceira: os músculos-chave desta tabela já foram ensinados.** A correspondência entre raiz, músculo e reflexo está no tópico de força, tônus e reflexos, com a mesma L4 na dorsiflexão do tornozelo, L5 na extensão do hálux e S1 na flexão plantar. E os achados que mais elevam a probabilidade de radiculopatia lombossacra em pacientes com ciática — a atrofia da panturrilha, a fraqueza da dorsiflexão do tornozelo, a prova cruzada e o reflexo aquileu alterado — estão no tópico de marcha e sinais meníngeos, com os números de McGee.\n\n**Uma divergência interna que o leitor deve conhecer.** Porto, no capítulo de exame clínico da coluna, atribui a integridade de **L4 ao reflexo patelar** e a de **L5 e S1 ao patelar e ao aquileu**; na tabela das lombociatalgias, do capítulo seguinte, é o patelar que cai em L4, os reflexos ficam normais em L5 e o aquileu cai em S1. A segunda versão é a que coincide com Semiologia Clínica e com a tabela já publicada no tópico de força, tônus e reflexos, e é a que este guia adota. A primeira fica registrada porque quem consultar a obra vai encontrá-la.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Lombalgia inflamatória — o que a coluna rígida esconde",
+         "texto": "Há um padrão de dor lombar que inverte todas as expectativas do senso comum, e reconhecê-lo é a diferença entre diagnosticar uma espondiloartrite aos 25 anos ou aos 45.\n\n**O padrão.** Porto: a história de dor vertebral — sobretudo dorsal e lombossacra — que **piora quando o paciente descansa e cede quando ele se mexe** é sugestiva de espondilite anquilosante, em especial em homem entre 20 e 40 anos. Ele acrescenta que a dor que cede ao movimento e **recrudesce à noite** é o retrato clássico das afecções inflamatórias, e que a doença começa nas **sacroilíacas** com tendência a comprometer toda a coluna.\n\nSemiologia Clínica descreve o mesmo padrão de forma genérica na Tabela 1 do capítulo de artrites — piora com repouso, pior momento no início do dia, rigidez matinal prolongada, despertar noturno, sintomas constitucionais — e lista as características que reúnem o grupo das espondiloartrites: lombalgia de características inflamatórias, sacroileíte, artrite periférica com predomínio em membros inferiores, entesite, acometimento extra-articular ocular, cutâneo, intestinal e geniturinário, agregação familiar e boa resposta a anti-inflamatórios.\n\n**A armadilha, e ela é cruel.** Porto registra, sobre a espondilite anquilosante: **conforme a coluna enrijece, a dor recua.** A incapacidade passa a vir da fixação dos corpos vertebrais, não da dor. Ou seja: um paciente que melhorou da dor lombar e perdeu mobilidade não está melhor — está mais avançado. É a razão de a **limitação da amplitude de movimento** figurar entre as bandeiras vermelhas de Semiologia Clínica.\n\n**O que o exame procura, então.** Não a dor, que pode ter ido embora, mas o que sobrou dela: a **posição de esquiador** — lordose cervical aumentada, cifose dorsal, lordose lombossacra e joelhos fletidos —, a limitação nos três planos e a dor sacroilíaca à palpação direta ou ao teste de Patrick. Porto acrescenta as manifestações extra-articulares que confirmam o terreno: insuficiência aórtica, uveíte ou irite e fibrose pulmonar.\n\n**Um contraste de vocabulário que fecha o bloco.** A dor que melhora com o repouso e piora ao movimento é mecânica: espondiloartrose, hérnia, sobrecarga. A dor que piora com o repouso e melhora ao movimento é inflamatória. **A mesma pergunta — \"e quando o senhor descansa?\" — separa as duas famílias inteiras**, e ela leva cinco segundos.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Cifose e a modéstia necessária da inspeção",
+         "texto": "Um número solitário, e desconfortável, para calibrar a confiança em tudo que a inspeção da coluna produz.\n\nNa Tabela 5.1 de McGee, que reúne a concordância entre observadores para os achados do exame físico, a **cifose** aparece com kappa de **0,37**. Para efeito de comparação dentro da mesma tabela, o baqueteamento digital avaliado pela **impressão geral** rende 0,33 a 0,45, enquanto o mesmo baqueteamento medido pela **razão de profundidade interfalangiana** chega a 0,98.\n\nA leitura é a mesma que este guia já fez para a rigidez de nuca no tópico de marcha e sinais meníngeos: **o que separa 0,37 de 0,98 não é o achado, é a definição operacional.** Quando cada examinador decide por impressão o que é \"cifose aumentada\", eles concordam pouco. Quando existe uma medida, eles concordam muito.\n\nTrês consequências para o exame da coluna:\n\n**1. Prefira o que se mede ao que se impressiona.** A distância polpas digitais-solo, a separação mento-fúrcula, o nível das cristas ilíacas e a presença ou ausência de gibosidade à inclinação anterior são achados operacionais. \"Hipercifose torácica\" é uma impressão.\n\n**2. Descreva antes de rotular.** \"Cifose torácica acentuada, com o paciente incapaz de encostar o occipital na parede\" é uma frase que o próximo examinador pode reproduzir. \"Cifose\" não é.\n\n**3. A gibosidade é o achado mais confiável da inspeção da coluna**, e não porque alguém a mediu — nenhuma das quatro obras traz concordância para ela —, mas porque ela é **binária e provocada**: ou aparece na flexão do tronco, ou não aparece. Achados provocados por uma manobra padronizada tendem a ser mais reprodutíveis que impressões colhidas em repouso, e essa é a lição que a Tabela 5.1 repete em cada uma de suas linhas.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde este tópico encontra os outros",
+         "texto": "- **A prova de Lasègue com desempenho medido** — razão de verossimilhança 1,5 quando positiva, 0,4 quando negativa, 3,4 para a prova cruzada, e a concordância entre observadores das duas — está no tópico de **marcha e sinais meníngeos**, que também traz a origem do epônimo e o critério de McGee de que a dor precisa descer pela perna para o teste ser positivo. Ali também estão os achados que mais elevam a probabilidade de radiculopatia lombossacra.\n- **A graduação da força de 0 a 5, os reflexos profundos e a correspondência entre raiz, músculo-chave e reflexo** estão no tópico de **força, tônus e reflexos**, que traz a tabela dos níveis motores de C5 a S1.\n- **Os dermátomos e a técnica de pesquisa da sensibilidade** estão no tópico de **sensibilidade e coordenação**.\n- **As marchas** — antálgica, claudicante e as demais — estão em **marcha e sinais meníngeos**. Porto registra que a marcha claudicante ocorre na estenose do canal vertebral lombar, além da insuficiência arterial periférica e das lesões do aparelho locomotor.\n- **As definições de cifose, lordose e escoliose, a postura em três graus e a atitude** estão na **ectoscopia**.\n- **A dor da insuficiência arterial dos membros inferiores**, que compartilha com a estenose de canal o gatilho da deambulação, está no tópico de **insuficiência arterial crônica**.\n- **As deformidades do tórax que acompanham as da coluna** estão no tópico de **inspeção do tórax**.\n- **O quadril e as sacroilíacas** têm seu tópico próprio neste capítulo, onde o teste de Patrick reaparece a serviço da coxofemoral.\n- **Os princípios gerais** — artralgia e artrite, padrão de acometimento, como registrar amplitudes — estão no tópico anterior deste capítulo.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Seis erros no exame da coluna",
+         "texto": "1. **Examinar a coluna com o paciente deitado.** As curvaturas, a assimetria das cinturas e a atitude antálgica só existem em pé. Porto organiza o exame em três planos com o paciente em ortostase, e a inclinação anterior não tem equivalente no decúbito.\n2. **Pular a inclinação anterior.** É a manobra que separa a escoliose estruturada da postural, porque só ela revela a rotação vertebral e a gibosidade. Sem ela, as duas parecem iguais — e têm prognósticos diferentes.\n3. **Concluir por doença da coluna diante de um desnivelamento de cintura pélvica.** Porto ensina que esse achado sugere **discrepância de comprimento dos membros inferiores**, e a escoliose de compensação desaparece quando o membro mais curto é compensado.\n4. **Chamar de negativo o Lasègue que dói na coxa.** Porto exige a distinção: dor limitada à face posterior da coxa é contratura dos isquiotibiais; a ciatalgia acomete todo o membro. O sinal de Bragard existe para desfazer essa dúvida.\n5. **Interpretar melhora da dor lombar como melhora da doença.** Na espondilite anquilosante, a dor diminui à medida que a coluna se torna rígida — e a incapacidade vem da fixação. Melhorar da dor e perder mobilidade é progressão, não resposta.\n6. **Não perguntar sobre esfíncteres e sensibilidade perineal.** Anestesia em sela, ciatalgia bilateral, fraqueza dos membros inferiores e disfunção urinária ou fecal formam a única bandeira vermelha que muda a conduta na mesma hora, e é a que o exame de rotina não procura sozinha.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Duas perguntas separam quase toda dor lombar que desce para a perna: o que a piora e o que a alivia. Se piora ao tossir, ao espirrar e ao inclinar o tronco, pense em raiz estirada. Se piora ao andar e alivia com o tronco curvado, pense em canal estreito — e lembre que a insuficiência arterial também dói ao andar."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "osteo-coluna-1",
+           "enunciado": "Uma adolescente de 13 anos é levada à consulta por assimetria dos ombros. De pé, a coluna parece desviada. Que manobra decide o passo seguinte e o que ela mostra?",
+           "alternativas": [
+            "A extensão máxima do tronco, que acentua a curva quando ela é postural e a corrige quando é estruturada",
+            "A palpação das apófises espinhosas, que localiza a rotação vertebral por meio da assimetria entre os processos e as costelas correspondentes",
+            "A inclinação anterior com os joelhos estendidos: a escoliose estruturada faz aparecer a gibosidade, na convexidade da curva, e a postural se corrige",
+            "A medida da distância entre as polpas digitais e o solo, cujo aumento indica curva estruturada"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "Porto, no Exame Clínico, pede que o paciente se incline para a frente fletindo o tronco ao máximo com os joelhos estendidos, e diz que essa posição permite reconhecer com facilidade a escoliose e a cifose. Na Semiologia Médica, ele explica o que a manobra revela: a escoliose estruturada só se deixa reconhecer com o tronco fletido, posição em que corpos vertebrais e costelas aparecem rodados e o dorso levanta a gibosidade — sempre do lado convexo. A escoliose postural, ao contrário, corrige-se pela flexão do tronco, pelo decúbito ou pela tração, e não cursa com rotação vertebral. A distância polpas digitais-solo mede a flexão lombar, não a rotação."
+          },
+          {
+           "id": "osteo-coluna-2",
+           "enunciado": "Um homem de 68 anos refere dor lombar e nas coxas que aparece ao caminhar e o obriga a parar; ele nota que fica melhor quando se inclina para a frente sobre o carrinho do supermercado. Que hipótese esse conjunto sustenta?",
+           "alternativas": [
+            "Hérnia de disco lombossacra, porque a dor desencadeada pelo esforço físico é o traço que a distingue das demais causas de lombalgia",
+            "Espondilite anquilosante, cuja dor melhora com o movimento e piora à noite",
+            "Lombalgia mecânica comum, agravada pela sobrecarga da musculatura paravertebral durante a marcha",
+            "Estenose do canal lombar, em que a deambulação é o desencadeante e a postura fletida reduz a tensão sobre os nervos lombossacros"
+           ],
+           "corretaIndex": 3,
+           "explicacao": "Porto lista a deambulação como fator desencadeante da dor na estenose do canal lombar, ao lado da insuficiência arterial dos membros inferiores. McGee descreve, no capítulo de postura e marcha, que os pacientes com estenose adotam uma postura fletida que reduz a tensão sobre os nervos lombossacros, e acrescenta que eles se queixam de dor mas têm, no mais, marcha normal — o que os separa do parkinsoniano, que também tem postura fletida. Na hérnia discal o desencadeante é o oposto: qualquer movimento que estire a raiz, como a flexão do tronco e a elevação da perna estendida, ou que aumente a pressão intrarraquidiana, como tossir e espirrar."
+          },
+          {
+           "id": "osteo-coluna-3",
+           "enunciado": "Ao elevar a perna estendida de um paciente com lombalgia, aparece dor que ele localiza apenas na face posterior da coxa e que não desce além do joelho. Como interpretar?",
+           "alternativas": [
+            "Provável contratura dos isquiotibiais, e não compressão radicular, porque a ciática percorre todo o membro",
+            "Sinal de Lasègue positivo, uma vez que a dor apareceu durante a manobra de estiramento do ciático",
+            "Sinal da campainha, que se caracteriza por dor limitada à face posterior da coxa durante a elevação do membro e que, por definição, dispensa qualquer investigação radicular adicional",
+            "Comprometimento da raiz de S1, cujo território de dor corresponde à face posterior da coxa"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "Porto é explícito ao ensinar os testes de compressão: cabe ao examinador decidir se a dor que a elevação despertou nasce de compressão verdadeira do ciático ou de contratura dos isquiotibiais — esta última fica confinada atrás da coxa, ao passo que a ciática costuma percorrer o membro inteiro. O sinal de Bragard, com a dorsiflexão do pé, serve justamente para desfazer essa dúvida. O sinal da campainha, descrito por Porto em boxe, é a dor pelo trajeto do ciático despertada pela compressão da região lombar. O território de S1 inclui a face posterior da coxa, mas também a face posterior da perna e o calcanhar."
+          },
+          {
+           "id": "osteo-coluna-4",
+           "enunciado": "Uma mulher de 34 anos com lombalgia de dois anos conta que a dor piora quando ela fica parada, é pior ao acordar, melhora depois que ela se movimenta e chega a acordá-la de madrugada. Que leitura o padrão autoriza?",
+           "alternativas": [
+            "É lombalgia mecânica comum, já que o repouso prolongado sobrecarrega a musculatura paravertebral e produz dor matinal",
+            "É dor de padrão inflamatório, que em paciente jovem obriga a procurar sacroileíte e as demais características das espondiloartrites",
+            "É dor referida de origem visceral, cuja marca é a ausência de relação com a movimentação da coluna",
+            "É dor neuropática, definida pela piora ao repouso e pela melhora ao movimento"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Semiologia Clínica caracteriza a dor inflamatória por piora com o repouso e melhora com o esforço, pior momento no início do dia, rigidez matinal prolongada, despertar noturno e sintomas constitucionais. Porto registra que a história de dor vertebral que piora no descanso e cede com o movimento é sugestiva de espondilite anquilosante, sobretudo em adulto jovem, e registra como clássico, nas afecções inflamatórias, o par melhora ao movimento e piora noturna. As características comuns do grupo das espondiloartrites, segundo Semiologia Clínica, incluem lombalgia inflamatória, sacroileíte, artrite periférica de predomínio em membros inferiores e entesite."
+          },
+          {
+           "id": "osteo-coluna-5",
+           "enunciado": "Ao realizar o teste de Patrick em um paciente com dor lombar baixa, com a mão sobre a crista ilíaca de um lado e a outra pressionando o joelho contralateral em direção à mesa, o paciente refere dor posterior do lado contrário ao joelho pressionado. O que isso sugere?",
+           "alternativas": [
+            "Doença coxofemoral do lado em que se pressionou o joelho, porque a manobra impõe rotação externa forçada àquele quadril",
+            "Contratura do músculo piriforme, cuja compressão sobre o nervo isquiático piora com a abdução e a rotação medial do membro",
+            "Resultado sem valor localizatório, porque o teste de Patrick avalia simultaneamente sacroilíaca, coxofemoral e sínfise púbica e não permite distinguir a origem da dor",
+            "Acometimento da articulação sacroilíaca"
+           ],
+           "corretaIndex": 3,
+           "explicacao": "Semiologia Clínica descreve o teste de Patrick, também chamado Faber, e dá a leitura topográfica: dor que aparece atrás e do lado contrário ao joelho empurrado aponta as sacroilíacas; se ela for do mesmo lado do movimento, o problema tende a ser coxofemoral. No capítulo de lombalgia, a mesma obra resume a finalidade do teste como diferenciar o comprometimento da articulação do quadril, com dor anterior, da sacroileíte, com dor posterior. A sacroileíte é característica das espondiloartrites e pode também ser demonstrada por palpação direta ou pela manobra de Gaenslen, que a obra nomeia mas não descreve."
+          },
+          {
+           "id": "osteo-coluna-6",
+           "enunciado": "Por que este guia nomeia o teste de Schober mas não ensina sua técnica?",
+           "alternativas": [
+            "Porque nenhuma das quatro obras adotadas o descreve, e o guia não importa de fora a descrição de uma manobra para preencher lacuna",
+            "Porque seu desempenho medido foi considerado insuficiente pelas fontes adotadas, que recomendam substituí-lo pela distância polpas digitais-solo",
+            "Porque ele avalia a coluna torácica, segmento cuja mobilidade reduzida torna a medida pouco informativa na prática clínica",
+            "Porque a manobra exige goniômetro e marcação da pele, recursos indisponíveis no exame de rotina à beira do leito"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "A busca nas quatro obras adotadas não encontra o teste de Schober em nenhuma delas — nem na descrição da técnica, nem entre as manobras da coluna, nem no capítulo de espondilite anquilosante. A regra editorial do guia é não ensinar técnica sem âncora nas fontes adotadas, e por isso o teste é nomeado e não ensinado. No lugar dele, para a mesma pergunta sobre a flexão lombar, as fontes oferecem a medida da distância entre as polpas digitais e o solo, que Porto prescreve, e a inspeção dinâmica de Semiologia Clínica. A mesma decisão vale para a manobra de Gaenslen, nomeada mas não descrita por Semiologia Clínica."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "sistema-osteoarticular/exame-osteoarticular/ombro-e-cotovelo",
+       "titulo": "Ombro e cotovelo",
+       "sistemaId": "sistema-osteoarticular",
+       "capituloId": "exame-osteoarticular",
+       "ordem": 3,
+       "tags": [
+        "exame osteoarticular",
+        "sistema osteoarticular",
+        "ombro",
+        "cotovelo",
+        "articulação glenoumeral",
+        "articulação acromioclavicular",
+        "articulação esternoclavicular",
+        "manguito rotador",
+        "supraespinal",
+        "infraespinal",
+        "subescapular",
+        "redondo menor",
+        "arco doloroso",
+        "síndrome do impacto",
+        "teste de Neer",
+        "teste de Hawkins-Kennedy",
+        "teste de Yokum",
+        "teste de Jobe",
+        "teste da lata vazia",
+        "teste de Patte",
+        "teste da cancela",
+        "teste de Gerber",
+        "lift off test",
+        "teste de Speed",
+        "sinal de Yergason",
+        "teste do braço caído",
+        "adução cruzada",
+        "ruptura do manguito rotador",
+        "tendinite do manguito rotador",
+        "bursite subacromial",
+        "ombro congelado",
+        "capsulite adesiva",
+        "escápula alada",
+        "ritmo escapuloumeral",
+        "epicondilite lateral",
+        "epicondilite medial",
+        "epitrocleíte",
+        "cotovelo de tenista",
+        "cotovelo de golfista",
+        "teste de Cozen",
+        "bursite olecraniana",
+        "nódulos reumatoides",
+        "tofo gotoso",
+        "entesopatia",
+        "dor referida no ombro",
+        "amplitude de movimento",
+        "razão de verossimilhança",
+        "concordância entre observadores",
+        "estação OSCE"
+       ],
+       "referencias": [
+        "Semiologia Clínica, 1ª ed., cap. 16 (Exame osteoarticular), seções Ombro e Cotovelo — anamnese do ombro e as causas de dor referida, com doença arterial coronariana, tumor de Pancoast e afecções do andar superior do abdome pela inervação compartilhada C4 e C5; inspeção nos aspectos anterior, posterior e lateral, com o abaulamento anterior da ruptura do tendão da cabeça longa do bíceps, atrofias musculares e escápula alada pesquisada com o paciente empurrando a parede; amplitudes ativa e passiva em abdução, flexão e rotação externa, com o braço ao lado do corpo e a 90 graus de abdução; arco doloroso e registro do ponto em que a dor aparece; ritmos escapuloumeral e escapulotorácico; palpação separada das articulações esternoclavicular, acromioclavicular e glenoumeral; fisiopatologia da síndrome do impacto e as três manobras de Neer, Hawkins-Kennedy e Yokum; os quatro músculos do manguito rotador e sua inserção na tuberosidade maior; testes de Jobe para o supraespinal, do infraespinal e de Patte, teste da rotação lateral não mantida ou da cancela para infraespinal e redondo menor, e teste de Gerber para o subescapular; testes de Speed e de Yergason para a cabeça longa do bíceps; avaliação da instabilidade pela apreensão; três articulações do cotovelo; inspeção do cotovelo como articulação superficial, com nódulos, tofos e deformidades; bursite olecraniana e sua avaliação; palpação dos epicôndilos e do olécrano; epicondilites lateral e medial, teste de Cozen e teste da epicondilite medial",
+        "Semiologia Clínica, 1ª ed., cap. 15 (O exame do sistema locomotor), seção Membros superiores — divisão do membro superior em seis segmentos; Tabela 3 (movimentos a avaliar por articulação, com o ombro em flexão, extensão, elevação, rotação interna, rotação externa e circundução, e o cotovelo em flexão e extensão e o antebraço em pronação e supinação); Tabela 4 (palpação das estruturas principais por segmento, com as regiões supraespinal, infraespinal e deltóidea, o complexo ligamentar do cotovelo, os epicôndilos, o olécrano, a cabeça do rádio, o pulso braquial e o nervo ulnar)",
+        "Porto — Semiologia Médica, 8ª ed., Parte 17 (Sistema Locomotor), Seção 2 (Articulações, Bursas e Tendões), cap. 160 (Exame Clínico) — amplitudes do ombro e do cotovelo; a informação que a influência dos movimentos dá sobre a dor, com a abdução e a rotação interna do braço agravando a dor no ombro na bursite e na tendinite; boxe Espasmo ou atrofia da musculatura e a distrofia reflexo-simpática ou síndrome ombro-mão",
+        "Porto — Semiologia Médica, 8ª ed., Parte 17, Seção 2, cap. 162 (Doenças das Articulações, das Bursas e dos Tendões) — bursas mais acometidas; bursite subacromial como a mais frequente, com o tendão do supraespinhoso inflamando-se na passagem pela bursa, o quadro agudo e o crônico e os movimentos mais comprometidos; bursite do olécrano; tendinites do ombro, com a tendinite do bíceps e o sinal de Yergason; entesopatias do cotovelo, com a epicondilite ou tennis elbow e a epitrocleíte ou mal dos golfistas, e a manobra de oposição à dorsiflexão do punho",
+        "Porto — Exame Clínico, 8ª ed., cap. 19 (Exame dos Ossos, da Coluna Vertebral, das Articulações e Extremidades) — amplitudes do ombro e do cotovelo; nódulos justarticulares na face posterior dos cotovelos na doença reumatoide, na febre reumática e no lúpus; nódulos de Meynet no nível do olécrano; tofos gotosos no cotovelo, no pavilhão auricular e no tendão calcâneo; ocupações associadas à tendinite do ombro e à epicondilite; roteiro pedagógico de registro das amplitudes do membro superior",
+        "Porto — Exame Clínico, 8ª ed., cap. 6 (Sinais e Sintomas), seção Articulações — horário da dor na tendinite; agravamento da dor no ombro pela abdução e rotação interna do braço como indício de bursite ou tendinite escapuloumeral; distrofia reflexo-simpática",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 57 (Examination of the Musculoskeletal System), p. 481-495 — Tabela 57.1 (amplitudes normais das articulações); Tabela 57.2 (achados articulares anormais e diagnóstico implicado, com as linhas do ombro e do cotovelo); o ombro como único local do corpo em que tendões passam entre ossos móveis; classificação de Cyriax das síndromes do ombro e sua frequência relativa, com as quatro críticas à sua utilidade; Tabela 57.3 (síndromes do ombro por localização da dor, amplitude passiva, força do manguito e arco doloroso), com a nota de rodapé sobre o teste de inclinar-se para tocar os pés; sinais de impacto de Neer e de Hawkins e o propósito cirúrgico original de cada um; sinal de Yergason e teste de Speed e sua relação com a doença do manguito; atrofia do supraespinal e do infraespinal; testes de força do supraespinal (lata vazia ou Jobe) e do infraespinal; teste do braço caído e sua explicação mecânica; palpação da ruptura do manguito; teste de adução cruzada; boxe EBM 57.1 (achados isolados na dor no ombro); boxe EBM 57.2 (achados combinados de Murrell e de Park)",
+        "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 32-33, Tabela 5.1, seção Musculoskeletal System—Shoulder — concordância entre observadores para dor à palpação do ombro, arco doloroso, rotação externa menor que 45 graus, teste do supraespinal, teste do infraespinal, sinal de impacto de Hawkins-Kennedy e teste do braço caído"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Por que o ombro dói tanto",
+         "texto": "McGee dá ao ombro uma explicação anatômica de uma frase, e ela organiza todo o resto: o ombro é **o único lugar do corpo humano em que tendões passam entre ossos que se movem** — os tendões do manguito rotador, entre o acrômio e o úmero. Essa arquitetura dá ao ombro uma flexibilidade que nenhuma outra junta tem, e cobra o preço: os tendões e a bursa vizinha ficam expostos a inflamação, degeneração e ruptura.\n\nEm números de McGee, a dor no ombro é a **terceira queixa musculoesquelética mais comum**, atrás da dor lombar e da dor no joelho.\n\n**Quatro músculos formam o manguito rotador** — supraespinal, infraespinal, subescapular e redondo menor —, e Semiologia Clínica descreve o que eles fazem e onde se inserem: todos se inserem na **tuberosidade maior do úmero**, e cabe a eles **manter a cabeça umeral encaixada na glenoide**. Guardar essa função explica quase todos os testes deste tópico.\n\n**A síndrome do impacto** é o processo que costuma iniciar a cadeia. Semiologia Clínica a descreve como uma sequência: a borda anterior do acrômio bate contra o tendão do supraespinal, produz resposta inflamatória e tendinite; o processo se estende à bursa subacromial e aos demais tendões do manguito, evolui para degeneração e alterações ósseas locais e pode terminar em rotura tendínea. Porto chega ao mesmo lugar pelo lado da bursa: a **bursite subacromial** é a mais frequente de todas, e nela o tendão do supraespinhoso se inflama justamente na sua passagem pela bursa.\n\n**O cotovelo é o oposto do ombro em quase tudo.** Semiologia Clínica sublinha a diferença que muda o exame: o cotovelo é uma **articulação superficial**, e por isso as alterações de volume — periarticulares ou ósseas — podem ser vistas com facilidade. No ombro se testa; no cotovelo se olha.\n\n**O que este tópico não reensina.** Os princípios gerais — artralgia e artrite, padrão de acometimento, articular contra periarticular, como registrar amplitudes — estão no primeiro tópico deste capítulo. A **coluna cervical**, origem frequente de dor referida no ombro, está no tópico anterior. O **punho e a mão**, incluindo a tenossinovite de De Quervain e a síndrome do túnel do carpo, têm tópico próprio.\n\n**O que fica como moldura, nomeada e não ensinada:** a **artroscopia**, a **artrografia**, a **ressonância** e a **ultrassonografia** do ombro, que são os padrões contra os quais os testes deste tópico foram medidos; e a **infiltração com lidocaína**, que McGee registra como padrão diagnóstico de alguns estudos e que aqui é apenas o critério de referência, não conduta.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "O ombro tem tantos testes que a própria quantidade é um sintoma. McGee registra que um único sítio na internet lista 129 manobras para o ombro, e sugere o que isso significa: a compreensão da dor no ombro ainda é incompleta. Aprender seis testes ancorados e saber o que cada um separa vale mais do que colecionar epônimos."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como examinar"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Exame do ombro e do cotovelo",
+         "passos": [
+          "Com o tronco descoberto e o paciente sentado ou de pé, inspecione o ombro pelos aspectos anterior, posterior e lateral, comparando com o lado oposto.",
+          "Procure na inspeção estática aumento de volume, deformidade, assimetria muscular, eritema e escoriações, e registre a posição do pescoço.",
+          "Compare o relevo da espinha da escápula dos dois lados: sua proeminência aumentada indica atrofia do supraespinal ou do infraespinal.",
+          "Peça movimentos funcionais — tirar e vestir a roupa, pentear-se, levar a mão às costas — como inspeção dinâmica.",
+          "Peça ao paciente que empurre a parede com as duas mãos e observe se uma escápula se descola do gradeado costal.",
+          "Avalie as amplitudes ativa e passiva dos dois lados em abdução, flexão e rotação externa, com o braço junto ao corpo e depois a 90 graus de abdução.",
+          "Durante a elevação do braço, procure o arco doloroso e anote em que ângulo a dor aparece e em que ângulo ela cessa.",
+          "Palpe separadamente as articulações esternoclavicular, acromioclavicular e glenoumeral, procurando pontos dolorosos, crepitação e aumento de volume.",
+          "Teste a força do supraespinal e do infraespinal contra resistência, sempre comparando os dois lados.",
+          "No cotovelo, inspecione a face extensora à procura de tumefação sobre o olécrano, nódulos e tofos, e compare os sulcos ao lado do olécrano.",
+          "Palpe o epicôndilo lateral, o epicôndilo medial, o olécrano e a cabeça do rádio, e localize o ponto exato da dor.",
+          "Avalie flexão e extensão do cotovelo e pronação e supinação do antebraço, com atenção à crepitação."
+         ],
+         "observar": "**Três aspectos, porque o ombro esconde coisas diferentes de cada ângulo.** Semiologia Clínica pede a inspeção pelos aspectos anterior, posterior e lateral. De frente aparece o **abaulamento anterior na porção proximal do braço** que denuncia a ruptura do tendão da cabeça longa do bíceps; por trás aparecem as atrofias do supraespinal e do infraespinal, que McGee ensina a procurar pela **proeminência aumentada da espinha da escápula** comparada com o lado contralateral — e que, segundo ele, podem surgir já **2 a 3 semanas** depois de uma ruptura do manguito.\n\n**Inspeção dinâmica é vestir a roupa.** Semiologia Clínica recomenda que a inspeção dinâmica se faça com gestos funcionais e dirigidos — vestir e tirar a roupa, por exemplo. É o teste mais honesto de amplitude que existe, porque não depende de o paciente entender o comando.\n\n**Ativo e passivo, e é aqui que a distinção rende mais.** McGee organiza as síndromes do ombro justamente pela **amplitude passiva**: quando ela está limitada em todas as direções — sobretudo rotação externa e abdução —, trata-se de uma **síndrome capsular**; quando está normal, o problema é subacromial ou acromioclavicular. E oferece um atalho de consultório para testar a amplitude passiva sem tocar no paciente: peça que ele **se incline para a frente e tente tocar os pés** — em quem tem amplitude passiva normal, os braços pendem em direção ao chão.\n\n**O arco doloroso se registra com números.** Semiologia Clínica é explícita: deve-se atentar ao arco doloroso e **anotar em que ponto a dor surge** durante a elevação do braço. McGee dá a faixa e a razão dela: dor entre **70 e 100 graus** de elevação, ângulos em que a compressão dos tecidos subacromiais é maior.\n\n**A escápula alada tem manobra própria.** Semiologia Clínica: pede-se ao paciente que **empurre a parede**, e a escápula que se descola denuncia paralisia do nervo torácico longo.\n\n**No cotovelo, os sulcos importam.** McGee registra, na tabela de achados articulares, uma distinção que a inspeção resolve: **tumefação cística localizada sobre o olécrano** é bursite olecraniana; **tumefação que apaga os sulcos ao lado do olécrano** é sinovite do cotovelo. Uma está fora da junta, a outra dentro — e é a mesma pergunta que o primeiro tópico deste capítulo ensinou a fazer.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Exame do ombro e do cotovelo em 10 passos",
+         "itens": [
+          "Ombro e cotovelo descobertos, com inspeção comparativa dos dois lados.",
+          "Inspeção do ombro pelos aspectos anterior, posterior e lateral, com registro de abaulamentos, atrofias e assimetrias.",
+          "Relevo da espinha da escápula comparado entre os lados à procura de atrofia do supraespinal e do infraespinal.",
+          "Escápula alada pesquisada com o paciente empurrando a parede.",
+          "Amplitudes ativa e passiva do ombro em abdução, flexão e rotação externa, comparadas com o lado oposto.",
+          "Arco doloroso pesquisado com registro do ângulo em que a dor aparece e do ângulo em que cessa.",
+          "Articulações esternoclavicular, acromioclavicular e glenoumeral palpadas separadamente.",
+          "Força do supraespinal e do infraespinal testada contra resistência nos dois lados.",
+          "Cotovelo inspecionado na face extensora quanto a tumefação sobre o olécrano, sulcos para-olecranianos, nódulos e tofos.",
+          "Epicôndilo lateral, epicôndilo medial, olécrano e cabeça do rádio palpados, com o ponto doloroso nomeado."
+         ]
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"10\" y=\"14\">O arco doloroso do ombro</text>\n  </g>\n  <circle cx=\"96\" cy=\"58\" r=\"11\" stroke-width=\"1.5\" />\n  <path d=\"M 96 69 L 96 146\" stroke-width=\"1.6\" />\n  <path d=\"M 78 84 L 114 84\" stroke-width=\"1.5\" />\n  <path d=\"M 78 84 L 71 130\" stroke-width=\"1.5\" />\n  <path d=\"M 96 146 L 84 180\" stroke-width=\"1.5\" />\n  <path d=\"M 96 146 L 108 180\" stroke-width=\"1.5\" />\n  <path d=\"M 96 136 A 52 52 0 0 1 96 32\" stroke-width=\"1\" stroke-dasharray=\"4 3\" />\n  <path d=\"M 144.9 101.8 A 52 52 0 0 1 147.2 75\" stroke-width=\"5\" />\n  <path d=\"M 96 84 L 136 117\" stroke-width=\"1.8\" />\n  <path d=\"M 136 117 L 144 122\" stroke-width=\"1.4\" />\n  <g font-family=\"sans-serif\" font-size=\"7.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">\n    <text x=\"80\" y=\"35\">180°</text>\n    <text x=\"80\" y=\"140\">0°</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"7.5\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"152\" y=\"110\">70°</text>\n    <text x=\"152\" y=\"70\">100°</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"8\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"178\" y=\"44\">Dor que aparece entre 70°</text>\n    <text x=\"178\" y=\"56\">e 100° de elevação e cede</text>\n    <text x=\"178\" y=\"68\">acima disso — a faixa em</text>\n    <text x=\"178\" y=\"80\">que a compressão</text>\n    <text x=\"178\" y=\"92\">subacromial é maior.</text>\n    <text x=\"178\" y=\"114\">Presente: RV 2,9 para</text>\n    <text x=\"178\" y=\"126\">tendinite do manguito</text>\n    <text x=\"178\" y=\"138\">rotador (McGee).</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"7.5\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"10\" y=\"196\">Registre em que ângulo a dor começa e em que ângulo ela cessa.</text>\n  </g>\n</svg>\n",
+         "legenda": "O achado com melhor desempenho isolado na dor no ombro, e o único deste tópico que produz um número sem instrumento. A faixa entre 70 e 100 graus não é convenção: é o intervalo em que a compressão dos tecidos subacromiais é maior, segundo McGee. Repare que o valor está em a dor aparecer e depois ceder — dor que começa e não passa mais até o alto do arco é outra coisa."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "O ombro"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Amplitudes — e por que os números normais não coincidem",
+         "texto": "Semiologia Clínica define quais movimentos avaliar e em que condições: as amplitudes **passiva e ativa dos dois lados** precisam ser medidas em três planos — **abdução, flexão e rotação externa** —, primeiro com o braço junto ao corpo e depois a **90 graus de abdução**. O repertório completo do ombro inclui ainda extensão, rotação interna e circundução.\n\nOs valores normais, porém, **não são os mesmos nas três obras**, e vale ver a discrepância de perto:\n\n- **Abdução** — McGee: **180°**. Porto, no *Exame Clínico*: **120°**. Porto, na *Semiologia Médica*: **110° a 120°**.\n- **Flexão ou elevação anterior** — as três concordam: **180°**.\n- **Extensão** — Porto, nas duas obras: **60°**. McGee não a tabula separadamente.\n- **Rotação externa** — Porto, nas duas obras: **90°**. McGee: **90°**.\n- **Rotação interna posterior** — Porto, no *Exame Clínico*: **90°**. Porto, na *Semiologia Médica*: **180°**. McGee tabula rotação interna de **90°**.\n- **Adução cruzando o corpo** — McGee: **45°**. Porto não a tabula.\n\nA divergência da abdução é grande e tem explicação plausível: **180 graus é a elevação do braço acima da cabeça**, que exige a participação da escápula; **110 a 120 graus** é aproximadamente o que a glenoumeral entrega sozinha. As obras não dizem isso, e este guia não vai afirmar por elas — o que se registra é que **os números divergem e que a divergência precisa ser conhecida por quem for consultá-las**.\n\n**A consequência prática é sempre a mesma**, e é a regra geral deste capítulo: a referência confiável é **o lado contralateral do próprio paciente**, e o que se anota é o valor medido dos dois lados, não a diferença para um padrão de tabela.\n\n**Uma observação de Porto que vale como triagem inteira.** Ao tratar da influência dos movimentos sobre a dor, ele registra: quando **abdução e rotação interna** do braço pioram a dor no ombro, pensa-se primeiro em **bursite ou tendinite**. É um par de movimentos que leva cinco segundos e já orienta o exame.\n\n**E o ritmo, que se vê e não se mede.** Semiologia Clínica pede que os **ritmos escapuloumeral e escapulotorácico** sejam observados, comparando um lado com o outro. Um ombro que só eleva o braço encolhendo o ombro inteiro está compensando com a escápula o que a glenoumeral não faz.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Arco doloroso",
+         "descricao": "Durante a elevação ativa do braço, a dor aparece em uma faixa intermediária do movimento e cede acima dela. McGee define a faixa e a razão dela: dor durante a elevação do braço entre os ângulos de 70 e 100 graus, que são os ângulos em que a compressão dos tecidos subacromiais é maior. Semiologia Clínica pede que se registre o ponto em que a dor aparece.",
+         "significado": "É o achado isolado de melhor desempenho na dor no ombro segundo McGee: presente, tem razão de verossimilhança 2,9 para tendinite do manguito rotador. Sua ausência não ajuda — a razão de verossimilhança negativa não alcança significância. Para a ruptura do manguito, o arco doloroso isolado não tem valor quando presente, mas sua ausência reduz modestamente a probabilidade, com razão de verossimilhança 0,5. É também um dos três achados da combinação de Park, que multiplica o desempenho do exame.",
+         "causas": [
+          "Tendinite do manguito rotador e síndrome do impacto",
+          "Bursite subacromial",
+          "Ruptura do manguito rotador, em que o arco doloroso costuma acompanhar a fraqueza",
+          "Qualquer causa de dor subacromial que seja reproduzida pela compressão entre o acrômio e o úmero"
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "As manobras que reproduzem o impacto",
+         "texto": "Semiologia Clínica é categórica quanto ao uso: são **três manobras principais** relacionadas à avaliação da síndrome do impacto, e **todas devem ser pesquisadas**, a fim de elevar a sensibilidade do exame clínico.\n\n- **Teste de impacto de Neer** — o examinador eleva rapidamente o braço, de forma passiva, **no plano da escápula**, o que projeta o tubérculo maior contra a face anteroinferior do acrômio. McGee acrescenta a técnica: o examinador **impede o movimento da escápula** com uma das mãos e eleva o braço em flexão anterior com a outra.\n- **Teste de impacto de Hawkins-Kennedy** — eleva-se o braço a **90 graus**, em rotação neutra, com o **cotovelo dobrado em ângulo reto**; em seguida o examinador lhe imprime uma rotação anterior rápida e passiva. McGee explica o alvo: essa posição pressiona a tuberosidade maior contra o **ligamento coracoacromial**, o teto anterior do manguito.\n- **Teste de impacto de Yokum** — o paciente apoia cada mão no ombro do lado contrário e **eleva o cotovelo ativamente**.\n\n**A origem cirúrgica dos dois primeiros explica o que eles são.** McGee registra que as duas manobras nasceram para **selecionar pacientes para procedimentos específicos**: Neer propunha ressecar o acrômio anterior nos pacientes com dor persistente; Hawkins acreditava que o ligamento coracoacromial devesse ser ressecado. Elas não foram criadas como testes diagnósticos — foram criadas como testes de indicação cirúrgica, e é por isso que se comportam como se comportam nos estudos.\n\n**E o próprio Neer já sabia da limitação.** McGee registra que ele considerava seu sinal **inespecífico** — dores no ombro de todos os tipos pioram com a manobra —, mas ensinava que a dor subacromial era a única síndrome cujo sinal de impacto **desaparecia após a injeção de lidocaína** no espaço subacromial. Os estudos que mediram o teste não repetiram a manobra após a injeção, o que talvez explique parte da especificidade baixa.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Testar cada músculo do manguito",
+         "texto": "Semiologia Clínica descreve as manobras específicas músculo a músculo, e McGee acrescenta a hierarquia de importância: os mais importantes a testar quando se suspeita de ruptura são o **supraespinal**, envolvido na maioria das rupturas, e o **infraespinal**, envolvido em **11% a 45%** delas.\n\n- **Supraespinal.** Semiologia Clínica: eleva-se ativamente o braço **em rotação medial, vencendo resistência**, com os polegares apontando para baixo — o **teste de Jobe**. McGee detalha o posicionamento: os braços a **90 graus no plano da escápula**, rodados internamente com os polegares para baixo, como quem **esvazia uma lata**, e o paciente é instruído a manter a posição contra a tentativa de baixá-los. E registra a variante da **lata cheia**, com os polegares para cima, proposta por causar menos dor: nos estudos clínicos, as duas versões têm **acurácia diagnóstica semelhante**.\n- **Infraespinal.** Semiologia Clínica: cotovelo dobrado em ângulo reto e braço encostado no tórax, o paciente **roda o antebraço para fora vencendo resistência**. McGee descreve o mesmo gesto pelo lado do examinador: braços ao lado do corpo, cotovelos fletidos a 90 graus, polegares para cima, e o paciente afasta os antebraços contra a pressão do examinador. O **teste de Patte** é a variante com o membro em abdução de 90 graus e o cotovelo fletido a 90 graus, rodado lateralmente contra resistência.\n- **Infraespinal e redondo menor juntos.** O **teste da rotação lateral não mantida**, apelidado **teste da cancela**: partindo do posicionamento do teste do infraespinal, o examinador roda o membro passivamente e pede ao paciente que **mantenha** a posição. Se um dos dois músculos falha, a posição se perde e o braço retorna ao tórax, no gesto que dá nome à manobra — uma cancela fechando. Semiologia Clínica registra que **não há teste que avalie o redondo menor isoladamente**.\n- **Subescapular.** Por ser **não palpável**, testa-se por **rotação interna resistida**, geralmente combinada com extensão ao levar o braço para trás das costas — o **teste de Gerber**, ou *lift off test*. A obra dá a referência de altura que costuma ser alcançada: **L5**.\n- **Cabeça longa do bíceps.** Avaliada em conjunto com o manguito, porque função e sintomas são semelhantes: **teste de Speed** — resistência à flexão do ombro com o cotovelo estendido e a palma para cima; e **sinal de Yergason** — resiste-se à supinação com o cotovelo dobrado em ângulo reto. McGee explica por que o bíceps entra na conversa do manguito: o impacto subacromial progressivo desgasta o tendão do supraespinal e a cápsula subjacente, **expondo o tendão da cabeça longa do bíceps** às mesmas forças; a maioria das rupturas do tendão bicipital se associa a doença avançada do manguito.\n- **Teste do braço caído.** McGee: o examinador abduz o braço o máximo possível, solta-o e pede ao paciente que o baixe lentamente. No teste positivo, o movimento é suave até cerca de **100 graus** e a partir daí torna-se irregular, podendo o braço **cair de repente**. E dá a explicação mecânica, que não é a intuitiva: isso não acontece porque o supraespinal seja o abdutor mais potente nesse ângulo, e sim porque **o manguito precisa estar íntegro para puxar a cabeça umeral contra a glenoide**, criando o fulcro que permite ao deltoide baixar o braço suavemente. Em nota, McGee registra que o supraespinal responde apenas pelos **30 graus iniciais** da abdução, e o deltoide, pelo restante.\n- **Adução cruzada, ou teste do cachecol.** McGee: aduz-se ao máximo o braço do lado sintomático **cruzando o tórax**, o que comprime a articulação acromioclavicular ipsilateral. Dor nessa articulação é a resposta positiva.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Ombro congelado e as síndromes capsulares",
+         "texto": "Há um grupo de doenças do ombro que o exame separa de todos os demais com **uma única observação**, e por isso ele merece bloco próprio.\n\nMcGee classifica as síndromes do ombro segundo o trabalho do cirurgião ortopédico britânico James Cyriax, e o eixo dessa classificação é a **amplitude passiva**:\n\n- **Síndromes capsulares** — a **capsulite adesiva**, que é o ombro congelado, e a **artrite glenoumeral**. Dor no braço, e **amplitude passiva limitada em todas as direções**, especialmente rotação externa e abdução.\n- **Bursite aguda** — dor no braço com amplitude passiva também limitada, sobretudo a abdução. McGee explica a diferença com o grupo seguinte: bursite aguda e as demais desordens subacromiais afetam o mesmo espaço, mas a bursite produz inflamação e tumefação **mais agudas e intensas**, e é isso que limita o movimento.\n- **Dor acromioclavicular** — dor **na ponta do ombro**, amplitude passiva **normal**, dor à palpação da articulação acromioclavicular e piora à adução do braço através do corpo.\n- **Síndromes subacromiais** — tendinite e ruptura do manguito. Dor no braço, amplitude passiva **normal**, **arco doloroso** presente, e a força do manguito **normal na tendinite** e **fraca na ruptura**.\n\n**A frequência relativa**, nos estudos que McGee reúne: síndromes capsulares **5% a 12%**, bursite aguda **17%**, síndromes acromioclaviculares **5% a 11%**, síndromes subacromiais **47% a 65%** e **dor referida** ao ombro **5% a 10%**.\n\n**E o guia registra também a crítica**, porque ela é do próprio McGee e é honesta. Quatro razões levantadas contra a utilidade dessa classificação: a maioria das síndromes do ombro é tratada de modo semelhante, com anti-inflamatórios, infiltrações e fisioterapia, seja qual for o diagnóstico; do ponto de vista do paciente as síndromes são indistinguíveis, produzindo dor e incapacidade semelhantes ao longo do tempo; ao reexaminar o paciente, o diagnóstico específico **frequentemente muda**; e a quantidade de testes propostos — um sítio lista **129** — sugere que a compreensão do problema ainda é incompleta.\n\n**O que sobra, e é bastante.** McGee conclui que o exame continua importante em duas tarefas: **distinguir as síndromes intrínsecas do ombro daquelas que causam dor referida**, e **identificar a ruptura do manguito**, condição que às vezes exige reparo cirúrgico. São essas duas tarefas que os blocos de aprofundamento medem.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "O cotovelo"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Três articulações, uma inspeção que entrega muito",
+         "texto": "Semiologia Clínica descreve o cotovelo como um conjunto de **três articulações**, das quais a **úmero-ulnar é a principal**, encarregada do movimento em dobradiça; a rotação do antebraço, segundo a obra, cabe às articulações umerorradial e umeroulnar.\n\n**A amplitude a avaliar** é flexão, extensão e rotação — o antebraço em pronação e supinação. Os valores normais divergem, como no ombro:\n\n- **Flexão** — McGee: **150°** na úmero-ulnar. Porto, no *Exame Clínico*: **50° a 130°**. Porto, na *Semiologia Médica*: **45° ou 150° a 160°**.\n- **Extensão** — Porto, nas duas obras: **0° ou 180°**.\n- **Pronação e supinação** — Porto: **90°** cada. McGee tabula a rotação radioumeral em **180°**, que é a soma dos dois.\n\nDe novo, a leitura é a mesma: **compare com o outro cotovelo**.\n\n**A inspeção do cotovelo é privilegiada**, e Semiologia Clínica explica por quê: por ser articulação superficial, alterações de volume periarticulares ou ósseas se veem com facilidade. Na inspeção dinâmica, observa-se a amplitude e a **crepitação**. Na palpação, procuram-se o **epicôndilo lateral**, o **epicôndilo medial** e o **olécrano**; Semiologia Clínica acrescenta, na tabela de palpação do membro superior, a **cabeça do rádio**, o complexo ligamentar medial e lateral, os tendões do bíceps e do tríceps, o **pulso braquial** e o **nervo ulnar**.\n\n**E há um grupo de achados que o cotovelo exibe melhor que qualquer outra junta**: os **nódulos**. Porto registra que nódulos subcutâneos no **dorso dos cotovelos** são achado frequente na artrite reumatoide — únicos ou múltiplos e **indolores** — e aparecem também na febre reumática, onde recebem o nome de **nódulos de Meynet**, e no lúpus. Os **tofos gotosos** também escolhem o cotovelo, ao lado do pavilhão auricular e do tendão calcâneo. McGee reúne os dois na mesma linha de sua tabela: **nódulos sobre a face extensora da ulna** implicam tofos gotosos ou nódulos reumatoides.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Epicondilites e bursite olecraniana",
+         "texto": "**As epicondilites são entesopatias** — Porto usa o termo com precisão: o cotovelo abriga alterações das inserções tendíneas no epicôndilo e na epitróclea, e a isquemia é o denominador comum dos fatores causais. As duas têm apelido esportivo e ocupação associada.\n\n**Epicondilite lateral, o cotovelo do tenista.** Porto registra que é comum, e que atinge também dentistas, operadores de máquinas pneumáticas e arremessadores. O sintoma principal é **dor de forte intensidade**, e o diagnóstico se estabelece **pela palpação do local**. A manobra que confirma:\n\n- **Porto:** a dor aumenta quando o examinador **resiste à extensão do punho**, estando o cotovelo semifletido e o antebraço pronado.\n- **Semiologia Clínica**, com o nome próprio — **teste de Cozen**: cotovelo dobrado a **90 graus**, antebraço **pronado**, e o paciente **estende o punho ativamente vencendo a resistência** do examinador; positiva-se com dor sobre o epicôndilo lateral.\n\nAs duas descrições são o mesmo gesto: **estender o punho contra resistência dói no epicôndilo lateral**.\n\n**Epicondilite medial, o cotovelo do golfista.** Porto a chama de **epitrocleíte** — a epitróclea é o nome que ele usa para o epicôndilo medial — e a atribui à tração frequente dos flexores, que têm inserção comum ali; registra que ela se manifesta por dor nesse ponto. Semiologia Clínica registra o dado epidemiológico que muda a probabilidade a priori: **a forma medial é muito menos comum que a lateral**. O teste, segundo Semiologia Clínica: com o cotovelo dobrado, o antebraço supinado e o punho estendido, **estende-se o cotovelo devagar**, o que desperta dor sobre o epicôndilo medial; a alternativa é **fletir o punho contra resistência**.\n\n**Uma divergência de anatomia que este guia registra sem resolver.** Ao descrever as duas epicondilites, Semiologia Clínica nomeia o **epicôndilo lateral nas duas** — como inserção dos extensores comuns e como inserção do pronador redondo e dos flexores do antebraço —, o que é incompatível com a própria distinção entre epicondilite lateral e medial que o texto faz na frase anterior. Porto, por sua vez, dá ao **epicôndilo a inserção comum dos tendões pronadores**, e atribui à epitróclea a inserção comum dos flexores. As descrições anatômicas não coincidem; **as manobras coincidem**, e são elas que o guia ensina: extensão resistida do punho dói lateralmente, flexão resistida do punho dói medialmente.\n\n**Bursite olecraniana.** A bursa fica na face extensora do cotovelo, em posição muito superficial e com pouco coxim de apoio — daí, segundo Semiologia Clínica, sua vulnerabilidade a traumatismos e infecções. O ponto semiológico decisivo: **o aumento de volume se dá fora da articulação**. É bursite, não artrite, e a distinção entre articular e periarticular ensinada no primeiro tópico deste capítulo se aplica aqui de forma quase didática.\n\nAs causas, reunindo as duas obras: trauma — inclusive microtraumatismos repetidos ocupacionais, e Semiologia Clínica dá o exemplo dos mecânicos de automóveis —, artrite reumatoide, gota e infecções bacterianas; em muitos casos **a causa não se identifica**. Ao exame, avaliam-se tamanho, calor, eritema e turgor da bolsa.\n\n**E aqui há uma divergência que o leitor precisa conhecer**: Semiologia Clínica descreve a bursite olecraniana como **quadro doloroso** que pode complicar com infecção secundária; Porto a descreve como geralmente unilateral, com **dor leve ou ausente**, com derrame e **sem limitação dos movimentos** do cotovelo, acrescentando que gota, doença reumatoide e infecções acentuam as manifestações. As duas descrições convivem se lidas como estágios: a bursa distendida e não infectada dói pouco; a inflamada ou infectada dói muito. **Diante de uma bursa olecraniana quente, vermelha e muito dolorosa, a pergunta é infecção**, e Semiologia Clínica registra que se deve considerar a aspiração do conteúdo quando se suspeita de infecção, cristais ou etiologia inflamatória.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Aprofundamento"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Achados isolados na dor no ombro (McGee, boxe EBM 57.1)",
+         "colunas": [
+          "Achado",
+          "Sensibilidade",
+          "Especificidade",
+          "RV se presente",
+          "RV se ausente"
+         ],
+         "linhas": [
+          [
+           "Adução cruzada, para dor acromioclavicular",
+           "77%",
+           "79%",
+           "3,7",
+           "0,3"
+          ],
+          [
+           "Dor à palpação da acromioclavicular, para dor acromioclavicular",
+           "96%",
+           "10%",
+           "não significativa",
+           "não significativa"
+          ],
+          [
+           "Arco doloroso, para tendinite do manguito",
+           "32% a 74%",
+           "80% a 82%",
+           "2,9",
+           "não significativa"
+          ],
+          [
+           "Sinal de Yergason, para tendinite do manguito",
+           "37%",
+           "87%",
+           "2,8",
+           "0,7"
+          ],
+          [
+           "Teste de Speed, para tendinite do manguito",
+           "38% a 69%",
+           "55% a 83%",
+           "1,9",
+           "0,7"
+          ],
+          [
+           "Sinal de Hawkins, para tendinite do manguito",
+           "72% a 93%",
+           "26% a 66%",
+           "1,7",
+           "0,3"
+          ],
+          [
+           "Sinal de Neer, para tendinite do manguito",
+           "68% a 89%",
+           "32% a 69%",
+           "1,6",
+           "0,5"
+          ],
+          [
+           "Hawkins ou Neer, para tendinite do manguito",
+           "96%",
+           "41%",
+           "1,6",
+           "0,1"
+          ],
+          [
+           "Ruptura palpável do manguito, para ruptura",
+           "91% a 96%",
+           "75% a 97%",
+           "10,2",
+           "0,1"
+          ],
+          [
+           "Idade de 60 anos ou mais, para ruptura",
+           "62%",
+           "81%",
+           "3,2",
+           "—"
+          ],
+          [
+           "Teste do braço caído, para ruptura",
+           "6% a 35%",
+           "87% a 98%",
+           "2,9",
+           "não significativa"
+          ],
+          [
+           "Fraqueza do infraespinal, para ruptura",
+           "16% a 76%",
+           "57% a 84%",
+           "2,6",
+           "0,6"
+          ],
+          [
+           "Fraqueza do supraespinal, para ruptura",
+           "32% a 84%",
+           "51% a 89%",
+           "2,0",
+           "0,6"
+          ],
+          [
+           "Atrofia do supraespinal, para ruptura",
+           "55%",
+           "73%",
+           "2,0",
+           "0,6"
+          ],
+          [
+           "Atrofia do infraespinal, para ruptura",
+           "55%",
+           "73%",
+           "2,0",
+           "0,6"
+          ],
+          [
+           "Dor ao teste do supraespinal, para ruptura",
+           "63% a 85%",
+           "52% a 60%",
+           "1,7",
+           "0,4"
+          ],
+          [
+           "Arco doloroso, para ruptura",
+           "39% a 97%",
+           "10% a 84%",
+           "não significativa",
+           "0,5"
+          ],
+          [
+           "Idade de 39 anos ou menos, para ruptura",
+           "5%",
+           "58%",
+           "0,1",
+           "—"
+          ]
+         ],
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Lendo a tabela — o que cada teste ancorado separa",
+         "texto": "Antes dos números, os limites. O padrão diagnóstico varia conforme a pergunta: para **dor acromioclavicular**, a redução da dor após injeção de lidocaína na articulação; para **tendinite do manguito**, a redução da dor após injeção no espaço subacromial ou o achado de bursite subacromial à artroscopia; para **ruptura**, artrografia, ressonância, ultrassonografia ou cirurgia. São perguntas diferentes, medidas contra padrões diferentes — e por isso o mesmo teste pode aparecer duas vezes com desempenhos distintos.\n\n**Três leituras que a tabela permite.**\n\n**1. Para a dor acromioclavicular, um teste funciona e outro não.** A **adução cruzada** rende **3,7** quando positiva e **0,3** quando negativa — dos poucos testes deste capítulo que servem nas duas direções. Já a **dor à palpação da acromioclavicular**, que parece o gesto mais óbvio, tem sensibilidade de **96%** e especificidade de **10%**: quase todo mundo com dor no ombro dói ali. É o exemplo perfeito de achado sensível e inútil.\n\n**2. Para a tendinite, o arco doloroso ganha dos testes de impacto.** O arco doloroso rende **2,9**; Yergason, **2,8**; Speed, **1,9**. Os sinais de Neer e de Hawkins, que são os mais lembrados, rendem apenas **1,6 e 1,7** quando presentes — e McGee dá a razão: **dor no ombro de qualquer tipo piora com essas manobras**, ou seja, a especificidade é baixa e os falso-positivos são muitos.\n\nMas a mesma tabela mostra onde as manobras de impacto valem: **na ausência**. A ausência do sinal de Hawkins rende **0,3**, e **a ausência dos dois juntos rende 0,1** — o melhor número negativo de todo o exame do ombro. Isso as transforma no que de fato são: **testes de triagem**. Um ombro que não dói em nenhuma das duas manobras dificilmente tem doença subacromial.\n\nE há a coincidência que explica os testes do bíceps: **Yergason e Speed, criados para a tendinite bicipital, funcionam para doença do manguito** — o que McGee lê como confirmação da associação anatômica entre as duas.\n\n**3. Para a ruptura, os achados se dividem em quem confirma e quem exclui.** O melhor achado positivo é a **ruptura palpável**, com **10,2** — e McGee coloca a ressalva na mesma página: esses números vêm de exames feitos por **cirurgiões ortopédicos** com conhecimento anatômico e experiência consideráveis, e não se sabe se outros examinadores reproduzem essa acurácia. Depois dela vêm a **idade de 60 anos ou mais** (3,2), o **teste do braço caído** (2,9) e a **fraqueza do infraespinal** (2,6). Para o teste do supraespinal, a acurácia é semelhante quer o examinador considere positiva a **fraqueza** (2,0) quer a **dor** (1,7).\n\nDo lado negativo, o achado mais forte é demográfico e não custa nada: **idade de 39 anos ou menos**, com razão de verossimilhança **0,1**.\n\n**Uma inversão que merece atenção.** O **arco doloroso** é o melhor achado positivo para **tendinite** (2,9) e **não tem valor positivo** para **ruptura** — mas sua **ausência** reduz a probabilidade de ruptura (0,5). O mesmo gesto, duas perguntas, dois comportamentos opostos. É a razão pela qual \"arco doloroso presente\" não é um diagnóstico: é uma informação que só significa alguma coisa depois que se decide o que se está procurando.\n\n**O que a tabela não contém.** Nenhum dos testes musculares específicos das obras brasileiras — Patte, cancela, Gerber, Yokum — tem desempenho medido nas quatro obras deste guia. Eles são ensinados aqui com atribuição a Semiologia Clínica, como técnica padronizada de examinar cada músculo, e **sem número**. Isso não os desqualifica; apenas os coloca no lugar certo.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Achados combinados na ruptura do manguito rotador (McGee, boxe EBM 57.2)",
+         "colunas": [
+          "Número de achados presentes",
+          "Série de Murrell: sinais de impacto, fraqueza do supraespinal, fraqueza do infraespinal",
+          "Série de Park: sinal de Hawkins, arco doloroso, fraqueza do infraespinal"
+         ],
+         "linhas": [
+          [
+           "Os três achados",
+           "RV 48,0",
+           "RV 15,9"
+          ],
+          [
+           "Dois achados",
+           "RV 4,9",
+           "RV 3,6"
+          ],
+          [
+           "Um achado",
+           "não significativa",
+           "não significativa"
+          ],
+          [
+           "Nenhum achado",
+           "RV 0,02",
+           "RV 0,2"
+          ]
+         ],
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Por que o conjunto vale tanto mais que a soma",
+         "texto": "Esta é a tabela mais impressionante do capítulo, e ela merece ser lida devagar.\n\nIsolados, os melhores achados para ruptura do manguito chegam a **2,6 e 2,9**. Combinados três a três, chegam a **48** na série de Murrell e a **15,9** na de Park. E, na direção contrária, a ausência dos três rende **0,02** e **0,2** — números que nenhum achado isolado deste capítulo alcança.\n\n**Como cada série foi montada.** Murrell combinou **sinais de impacto**, **fraqueza do supraespinal** e **fraqueza do infraespinal**; Park combinou **sinal de Hawkins**, **arco doloroso** e **fraqueza do infraespinal**. As duas séries usaram a **artroscopia** como padrão. Repare que a fraqueza do infraespinal está nas duas — é o achado que mais trabalha.\n\n**Por que o salto é tão grande.** Os três achados de cada série interrogam coisas diferentes: um deles reproduz a dor por compressão, os outros dois medem **função muscular**. Achados que se apoiam no mesmo mecanismo tendem a errar juntos; achados que se apoiam em mecanismos distintos erram em direções distintas, e é isso que a combinação aproveita. É a mesma lição que este guia já registrou a propósito do escore de Wells no tópico de doença venosa crônica e trombose: **o valor está no conjunto, não no achado**.\n\n**E o corolário prático, que é onde este bloco quer chegar.** A **contagem intermediária não decide**: com um só achado presente, a razão de verossimilhança não alcança significância em nenhuma das duas séries. Ou seja, o exame do ombro só entrega o que promete quando as três manobras são feitas **sempre**, e não apenas até a primeira dar positiva. Semiologia Clínica chega à mesma conclusão por outro caminho quando pede que as três manobras de impacto sejam todas pesquisadas para elevar a sensibilidade do exame clínico.\n\n**Um limite honesto.** Nenhuma das duas séries foi transformada por McGee em regra de decisão, e este guia também não a transforma. O que se ensina é a lógica: **exame completo do manguito, contagem de achados, e a certeza de que zero achados vale tanto quanto três.**\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A concordância entre observadores no exame do ombro",
+         "texto": "A Tabela 5.1 de McGee reúne a concordância entre observadores para os achados do ombro, e o retrato que ela produz é útil justamente porque não é lisonjeiro:\n\n- **rotação externa menor que 45 graus**: **0,68**;\n- **teste do infraespinal**, rotação externa resistida: **0,49 a 0,67**;\n- **arco doloroso**: **0,45 a 0,64**;\n- **teste do supraespinal**, lata vazia: **0,44 a 0,94**;\n- **dor à palpação do ombro**: **0,32**;\n- **teste do braço caído**: **0,28 a 0,35**;\n- **sinal de impacto de Hawkins-Kennedy**: **0,29 a 1,0**.\n\n**Três leituras.**\n\n**1. O achado mais reprodutível é o que tem um número embutido.** Rotação externa menor que 45 graus alcança 0,68 porque é uma medida com corte definido, não uma impressão. É a mesma lição que a cifose ensina no tópico da coluna, com kappa de 0,37, e a rigidez de nuca no tópico de marcha e sinais meníngeos.\n\n**2. Os intervalos larguíssimos dizem mais que os extremos.** O sinal de Hawkins-Kennedy vai de 0,29 a 1,0 e o teste do supraespinal de 0,44 a 0,94. Um intervalo assim não descreve o achado — descreve a variação entre estudos, e por trás dela está a diferença de definição operacional: onde a manobra e o critério de positividade estavam escritos com precisão, os examinadores concordaram; onde cada um decidia por impressão, não.\n\n**3. O contraste mais instrutivo é entre o arco doloroso e a dor à palpação.** O arco doloroso, que é o melhor achado isolado para tendinite (razão de verossimilhança 2,9), tem concordância de 0,45 a 0,64. A dor à palpação do ombro, cuja versão acromioclavicular não tem valor diagnóstico algum, tem concordância de 0,32. **O achado que vale mais é também o mais reprodutível dos dois** — e não por acaso: ele exige que o examinador registre um ângulo.\n\n**A conclusão que atravessa o guia inteiro, aplicada ao ombro:** escreva o que foi feito e o que aconteceu. \"Dor à elevação do braço que aparece por volta de 80 graus e desaparece acima de 110, à direita\" é uma frase que o próximo examinador pode conferir. \"Arco doloroso presente\" não é.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Quando o ombro não é o ombro",
+         "texto": "McGee registra que **5% a 10%** dos pacientes com dor no ombro têm **dor referida**, e que uma das duas grandes tarefas do exame é separar as síndromes intrínsecas daquelas que produzem dor referida. Semiologia Clínica dá a lista das origens que devem ser lembradas:\n\n- **Doença arterial coronariana** e outras doenças torácicas.\n- **Tumor de Pancoast**, no ápice pulmonar.\n- **Doenças do andar superior do abdome.** A explicação anatômica está na própria obra: **diafragma e ombro dividem a inervação de C4 e C5**, e por isso a irritação diafragmática é sentida no ombro.\n- **Doenças cervicais**, cuja radiculopatia projeta dor no ombro e no braço. McGee inclui a doença discal cervical e a dor miofascial entre as causas de dor referida ao ombro.\n\n**O que o exame usa para separar.** A amplitude passiva é o primeiro filtro: dor referida tende a **não limitar** o movimento passivo do ombro e a **não ser reproduzida** pelas manobras de impacto. O segundo filtro é a manobra que reproduz a dor **em outro lugar**: a manobra de Spurling e o teste de distração de Apley, ensinados no tópico da coluna vertebral, interrogam a raiz cervical; a palpação do abdome superior interroga a víscera.\n\n**Um lembrete que não é do ombro e vale ouro.** Porto registra a **distrofia reflexo-simpática**, que ele também chama de **síndrome ombro-mão**: dor urente acompanhada de intumescimento da mão, entidade neurovascular que nasce de estímulo persistente do sistema autônomo. Semiologia Clínica a descreve com o mesmo nome e acrescenta os componentes: dor que toma ombro e mão, edema, movimentos limitados e fenômenos vasomotores nas extremidades. **É uma síndrome que ocupa os dois extremos do membro ao mesmo tempo** — e por isso escapa de quem examina só a junta que dói.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde este tópico encontra os outros",
+         "texto": "- **Os princípios gerais** — artralgia e artrite, padrão de acometimento, distinção entre articular e periarticular, como registrar amplitudes, deformidade rígida e flexível — estão no primeiro tópico deste capítulo.\n- **A coluna cervical**, origem frequente de dor referida no ombro, e as manobras que interrogam a raiz cervical — Spurling, distração de Apley, sinal de Lhermitte — estão no tópico de coluna vertebral.\n- **O punho e a mão**, incluindo a tenossinovite de De Quervain com o teste de Finkelstein, a síndrome do túnel do carpo com Tinel e Phalen e o dedo em gatilho, têm tópico próprio neste capítulo.\n- **A graduação da força de 0 a 5** — usada aqui sempre que se fala em fraqueza do supraespinal ou do infraespinal — e os reflexos bicipital, braquiorradial e tricipital estão no tópico de força, tônus e reflexos.\n- **Os nódulos e tofos do cotovelo** aparecem também no primeiro tópico deste capítulo, entre os nódulos justarticulares, e o vocabulário das lesões de pele está em pele, mucosas e fâneros.\n- **A dor torácica da doença arterial coronariana**, um dos diagnósticos de dor referida ao ombro, pertence ao capítulo do coração.\n- **A combinação de achados como forma de superar o desempenho de cada um** é a mesma lição que o escore de Wells oferece no tópico de doença venosa crônica e trombose.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Seis erros no exame do ombro e do cotovelo",
+         "texto": "1. **Concluir por doença acromioclavicular porque a articulação dói à palpação.** Sensibilidade de 96% e especificidade de 10%: quase todo ombro doloroso dói ali. O teste que separa é a **adução cruzada**, com razão de verossimilhança 3,7 quando positiva e 0,3 quando negativa.\n2. **Tratar Neer e Hawkins como testes confirmatórios.** Eles rendem apenas 1,6 e 1,7 quando positivos, porque dor no ombro de qualquer tipo piora com essas manobras. O valor deles está na **ausência**: sem nenhum dos dois, a razão de verossimilhança cai a 0,1.\n3. **Parar as manobras na primeira positiva.** Com um achado presente, a razão de verossimilhança para ruptura do manguito não alcança significância em nenhuma das duas séries combinadas. Com três, chega a 48. O exame só entrega quando é completo.\n4. **Anotar \"arco doloroso presente\" sem os ângulos.** A faixa entre 70 e 100 graus é a que interessa, e a concordância entre observadores para o achado é de 0,45 a 0,64 — melhora exatamente quando o registro é numérico.\n5. **Examinar o ombro sem testar a amplitude passiva.** É ela que separa as síndromes capsulares, em que todas as direções estão limitadas, das subacromiais, em que a amplitude passiva é normal. Sem esse dado, o ombro congelado é confundido com tendinite.\n6. **Ler uma bursa olecraniana quente e muito dolorosa como bursite comum.** A bursa é superficial, com pouco coxim, e por isso vulnerável a trauma e infecção; Semiologia Clínica orienta considerar a aspiração diante de suspeita de infecção, cristais ou etiologia inflamatória.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "No ombro, o exame vale pelo que exclui. A ausência dos dois sinais de impacto praticamente afasta a doença subacromial, e a ausência dos três achados combinados praticamente afasta a ruptura do manguito. Nenhum teste isolado deste tópico confirma coisa alguma com a mesma força com que o conjunto negativo descarta."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "osteo-ombro-1",
+           "enunciado": "Um paciente de 55 anos com dor no ombro direito não apresenta dor nem ao sinal de Neer nem ao de Hawkins. Como esse resultado duplamente negativo entra no raciocínio?",
+           "alternativas": [
+            "Não altera a probabilidade, porque as duas manobras só têm valor quando positivas",
+            "Reduz de forma importante a probabilidade de doença subacromial: a ausência dos dois sinais tem razão de verossimilhança 0,1",
+            "Confirma síndrome capsular, uma vez que a capsulite adesiva é a única condição em que as manobras de impacto são indolores",
+            "Obriga a repetir as manobras após infiltração de lidocaína no espaço subacromial, único modo de interpretar um resultado negativo segundo os estudos que mediram os dois sinais"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "No boxe EBM 57.1, o sinal de Neer tem razão de verossimilhança 1,6 quando presente e 0,5 quando ausente; o de Hawkins, 1,7 e 0,3; e a combinação Hawkins ou Neer rende 1,6 quando presente e 0,1 quando ausente. McGee explica a especificidade baixa: dor no ombro de todos os tipos piora com essas manobras. O valor delas, portanto, está na triagem negativa. A infiltração de lidocaína foi a proposta original de Neer para melhorar a especificidade do teste positivo, e os estudos não a repetiram."
+          },
+          {
+           "id": "osteo-ombro-2",
+           "enunciado": "Uma mulher de 58 anos tem dor no ombro esquerdo e, ao exame, limitação de todas as amplitudes passivas, com a rotação externa e a abdução especialmente comprometidas. Que grupo de síndromes esse padrão indica?",
+           "alternativas": [
+            "Síndromes subacromiais, em que a amplitude passiva está limitada por dor e a força do manguito se mantém normal",
+            "Dor acromioclavicular, cuja marca é a limitação da adução do braço através do corpo",
+            "Síndromes capsulares, isto é, capsulite adesiva ou artrite glenoumeral",
+            "Ruptura do manguito rotador, situação em que a perda de amplitude passiva acompanha a fraqueza dos rotadores"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "Na Tabela 57.3 de McGee, as síndromes capsulares — capsulite adesiva, que é o ombro congelado, e artrite glenoumeral — caracterizam-se por dor no braço e amplitude passiva limitada em todas as direções, especialmente rotação externa e abdução. Nas síndromes subacromiais, que reúnem tendinite e ruptura do manguito, a amplitude passiva é normal, o arco doloroso está presente e a força do manguito é normal na tendinite e fraca na ruptura. Na dor acromioclavicular, a amplitude passiva também é normal, com dor à palpação da articulação e piora à adução do braço através do corpo."
+          },
+          {
+           "id": "osteo-ombro-3",
+           "enunciado": "Em um paciente de 64 anos com dor no ombro, estão presentes o sinal de Hawkins, o arco doloroso e a fraqueza do infraespinal. Que peso essa combinação tem para ruptura do manguito rotador?",
+           "alternativas": [
+            "Grande: com os três achados da série de Park presentes, a razão de verossimilhança é 15,9",
+            "Pequeno: nenhum dos três achados alcança razão de verossimilhança 3,0 isoladamente, e a soma de achados fracos não produz achado forte",
+            "Nulo, porque o arco doloroso não tem valor diagnóstico positivo para ruptura do manguito rotador",
+            "Indeterminado, já que a série de Park foi validada apenas para tendinite do manguito, e não para ruptura"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "No boxe EBM 57.2, a série de Park combina sinal de Hawkins, arco doloroso e fraqueza do infraespinal, tendo a artroscopia como padrão: os três achados presentes rendem razão de verossimilhança 15,9; dois achados, 3,6; um achado não alcança significância; e nenhum achado rende 0,2. A série de Murrell, com sinais de impacto, fraqueza do supraespinal e fraqueza do infraespinal, chega a 48,0 com os três presentes e a 0,02 com nenhum. É verdade que o arco doloroso isolado não tem valor positivo para ruptura, e é exatamente isso que torna o salto da combinação interessante."
+          },
+          {
+           "id": "osteo-ombro-4",
+           "enunciado": "Um homem de 42 anos, pedreiro, tem dor no cotovelo direito que piora ao segurar peso. À palpação, o ponto doloroso é o epicôndilo lateral. Que manobra confirma a hipótese e como ela é feita?",
+           "alternativas": [
+            "Extensão lenta do cotovelo, partindo de antebraço supinado e punho estendido, que reproduz a dor no epicôndilo lateral",
+            "Adução máxima do braço através do tórax, que comprime as estruturas laterais do cotovelo e reproduz a dor",
+            "Palpação do olécrano e dos sulcos para-olecranianos, cujo apagamento define a epicondilite lateral",
+            "Extensão do punho contra resistência, com o cotovelo a 90 graus e o antebraço pronado — o teste de Cozen"
+           ],
+           "corretaIndex": 3,
+           "explicacao": "Semiologia Clínica descreve o teste de Cozen para a epicondilite lateral: cotovelo dobrado a 90 graus, antebraço pronado, e o punho estendido ativamente contra a resistência do examinador; positiva-se com dor sobre o epicôndilo lateral. Porto descreve o mesmo gesto de outro modo: a dor aumenta quando se resiste à extensão do punho, com o cotovelo semifletido e o antebraço pronado; e registra que o diagnóstico se estabelece pela palpação do local. A extensão lenta do cotovelo com antebraço supinado e punho estendido é o teste da epicondilite medial. A adução cruzada avalia a articulação acromioclavicular."
+          },
+          {
+           "id": "osteo-ombro-5",
+           "enunciado": "Ao inspecionar por trás o ombro de um paciente com dor de três meses, o examinador nota que a espinha da escápula está mais proeminente do que do lado oposto. O que isso significa?",
+           "alternativas": [
+            "Escápula alada por paralisia do nervo torácico longo, que deve ser confirmada pedindo ao paciente que empurre a parede",
+            "Atrofia do supraespinal ou do infraespinal, que pode surgir 2 a 3 semanas após uma ruptura do manguito rotador",
+            "Ruptura do tendão da cabeça longa do bíceps, cuja retração produz assimetria do relevo escapular",
+            "Achado sem significado, porque a proeminência da espinha da escápula varia amplamente entre indivíduos e não é comparável entre os lados"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "McGee ensina que o examinador detecta a atrofia do supraespinal ou do infraespinal inspecionando a escápula do lado sintomático por trás e notando o aumento da proeminência da espinha da escápula em comparação com o lado contralateral, e registra que essa atrofia pode aparecer já 2 a 3 semanas após uma ruptura do manguito. No boxe EBM 57.1 a atrofia rende razão de verossimilhança 2,0 para ruptura. A escápula alada é o descolamento da escápula do gradeado costal, pesquisado com o paciente empurrando a parede, e indica paralisia do nervo torácico longo. A ruptura do tendão da cabeça longa do bíceps produz abaulamento anterior na porção proximal do braço."
+          },
+          {
+           "id": "osteo-ombro-6",
+           "enunciado": "Um paciente com dor no ombro direito há duas semanas relata que a dor piorou depois de uma cólica biliar. O exame do ombro mostra amplitudes passivas normais e nenhuma manobra de impacto positiva. Que raciocínio esse conjunto sustenta?",
+           "alternativas": [
+            "Tendinite do manguito rotador em fase inicial, quando as manobras de impacto ainda são negativas e a amplitude está preservada",
+            "Capsulite adesiva incipiente, em que a limitação começa pela amplitude ativa e só depois atinge a passiva",
+            "Dor referida, possivelmente diafragmática: o diafragma compartilha inervação C4 e C5 com os ombros",
+            "Instabilidade glenoumeral, que se manifesta por dor sem limitação de amplitude e sem positividade das manobras de impacto"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "Semiologia Clínica alerta para origens distantes de dor projetada no ombro: a doença arterial coronariana, outras afecções torácicas como o tumor de Pancoast, e as doenças do andar superior do abdome — estas porque irritam o diafragma, que divide com o ombro a inervação de C4 e C5. McGee registra que 5% a 10% dos pacientes com dor no ombro têm dor referida e coloca a separação entre síndromes intrínsecas e dor referida como uma das duas grandes tarefas do exame. Amplitude passiva normal e manobras de impacto negativas afastam tanto as síndromes capsulares quanto as subacromiais."
+          }
+         ]
+        }
+       ]
+      }
+     ]
     }
    ]
   },

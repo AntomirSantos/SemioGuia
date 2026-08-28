@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="10" y="14">O arco doloroso do ombro</text>
+  </g>
+  <circle cx="96" cy="58" r="11" stroke-width="1.5" />
+  <path d="M 96 69 L 96 146" stroke-width="1.6" />
+  <path d="M 78 84 L 114 84" stroke-width="1.5" />
+  <path d="M 78 84 L 71 130" stroke-width="1.5" />
+  <path d="M 96 146 L 84 180" stroke-width="1.5" />
+  <path d="M 96 146 L 108 180" stroke-width="1.5" />
+  <path d="M 96 136 A 52 52 0 0 1 96 32" stroke-width="1" stroke-dasharray="4 3" />
+  <path d="M 144.9 101.8 A 52 52 0 0 1 147.2 75" stroke-width="5" />
+  <path d="M 96 84 L 136 117" stroke-width="1.8" />
+  <path d="M 136 117 L 144 122" stroke-width="1.4" />
+  <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none" text-anchor="end">
+    <text x="80" y="35">180°</text>
+    <text x="80" y="140">0°</text>
+  </g>
+  <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
+    <text x="152" y="110">70°</text>
+    <text x="152" y="70">100°</text>
+  </g>
+  <g font-family="sans-serif" font-size="8" fill="currentColor" stroke="none">
+    <text x="178" y="44">Dor que aparece entre 70°</text>
+    <text x="178" y="56">e 100° de elevação e cede</text>
+    <text x="178" y="68">acima disso — a faixa em</text>
+    <text x="178" y="80">que a compressão</text>
+    <text x="178" y="92">subacromial é maior.</text>
+    <text x="178" y="114">Presente: RV 2,9 para</text>
+    <text x="178" y="126">tendinite do manguito</text>
+    <text x="178" y="138">rotador (McGee).</text>
+  </g>
+  <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
+    <text x="10" y="196">Registre em que ângulo a dor começa e em que ângulo ela cessa.</text>
+  </g>
+</svg>
