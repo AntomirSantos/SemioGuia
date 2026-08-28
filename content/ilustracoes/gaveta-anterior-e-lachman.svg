@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="10" y="16">O mesmo estresse em dois ângulos de flexão</text>
+  </g>
+  <path d="M 12 132 L 308 132" stroke-width="1" stroke-dasharray="4 3" />
+  <path d="M 22 132 L 74 87" stroke-width="2.4" />
+  <path d="M 74 87 L 112 132" stroke-width="2.4" />
+  <circle cx="74" cy="87" r="5" stroke-width="1.5" />
+  <path d="M 96 100 L 120 86" stroke-width="1.6" />
+  <path d="M 120 86 L 113 87 M 120 86 L 116 92" stroke-width="1.6" />
+  <path d="M 186 132 L 244 132" stroke-width="2.4" />
+  <path d="M 244 132 L 296 113" stroke-width="2.4" />
+  <circle cx="244" cy="132" r="5" stroke-width="1.5" />
+  <path d="M 268 124 L 264 102" stroke-width="1.6" />
+  <path d="M 264 102 L 262 109 M 264 102 L 268 108" stroke-width="1.6" />
+  <g font-family="sans-serif" font-size="7" fill="currentColor" stroke="none">
+    <text x="126" y="84">tíbia puxada para a frente</text>
+  </g>
+  <g font-family="sans-serif" font-size="7" fill="currentColor" stroke="none" text-anchor="end">
+    <text x="258" y="98">tíbia puxada para a frente</text>
+  </g>
+  <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="67" y="156">gaveta anterior</text>
+    <text x="241" y="156">Lachman</text>
+  </g>
+  <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="67" y="169">joelho a 90°, quadril fletido</text>
+    <text x="67" y="180">RV 13,6 · ausente 0,4</text>
+    <text x="241" y="169">joelho a 20°, quadril estendido</text>
+    <text x="241" y="180">RV 19,5 · ausente 0,2</text>
+  </g>
+  <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
+    <text x="10" y="196">A linha tracejada é a maca; a força aplicada é a mesma nos dois.</text>
+  </g>
+</svg>

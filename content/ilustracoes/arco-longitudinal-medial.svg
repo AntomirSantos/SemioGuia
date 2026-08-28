@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="10" y="14">O arco longitudinal medial, visto em carga</text>
+  </g>
+  <path d="M 10 130 L 312 130" stroke-width="1" stroke-dasharray="4 3" />
+  <path d="M 22 66 L 17 111 Q 15 127, 24 130 Q 51 108, 78 130 L 95 127 Q 68 110, 41 92 L 38 66" stroke-width="1.9" />
+  <path d="M 125 66 L 120 111 Q 118 127, 127 130 Q 154 126, 181 130 L 198 127 Q 171 110, 144 92 L 141 66" stroke-width="1.9" />
+  <path d="M 228 66 L 223 111 Q 221 127, 230 130 Q 257 86, 284 130 L 301 127 Q 274 110, 247 92 L 244 66" stroke-width="1.9" />
+  <path d="M 51 119 L 51 130" stroke-width="1.2" />
+  <path d="M 154 128 L 154 130" stroke-width="1.2" />
+  <path d="M 257 108 L 257 130" stroke-width="1.2" />
+  <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="55" y="150">normal</text>
+    <text x="158" y="150">pé plano</text>
+    <text x="261" y="150">pé cavo</text>
+  </g>
+  <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none" text-anchor="middle">
+    <text x="55" y="163">arco de referência</text>
+    <text x="158" y="163">arco quase encostado</text>
+    <text x="158" y="173">no chão</text>
+    <text x="261" y="163">arco cerca de duas vezes</text>
+    <text x="261" y="173">mais alto que o normal</text>
+  </g>
+  <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
+    <text x="10" y="193">O traço vertical mede a altura do arco sobre a linha de apoio.</text>
+  </g>
+</svg>
