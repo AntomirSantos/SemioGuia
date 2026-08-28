@@ -84,19 +84,29 @@ Fase 11 demonstrou.
 
 ## 4. Padrão editorial
 
-O consolidado (Fases 5–11), com **uma adaptação obrigatória desta
-fase**: o McGee **não tem capítulo musculoesquelético** (verificado por
-varredura dos títulos). Portanto:
+O consolidado (Fases 5–11), com **uma correção registrada em pleno voo**:
 
-- **Não forçar razões de verossimilhança.** Onde as obras brasileiras
-  ensinam a técnica sem dado de acurácia, ensina-se a técnica com a
-  atribuição e diz-se, quando couber, que as fontes adotadas não trazem
-  desempenho medido para aquela manobra. A única exceção conhecida é a
-  elevação da perna estendida / Lasègue, que o McGee cobre no capítulo
-  de raízes nervosas.
-- Os blocos avançados deste capítulo se apoiam em **padrões, armadilhas
-  e raciocínio**, não em números — e isso deve ser dito no primeiro
-  tópico, para o leitor não estranhar a mudança de textura.
+> **ERRATA (24/08/2026).** Esta spec afirmava que o McGee não tem
+> capítulo musculoesquelético. **É falso.** O McGee 4ª ed. tem o
+> **cap. 57, "Examination of the Musculoskeletal System" (p. 481-510)**,
+> com os boxes EBM 57.1 e 57.2 e as Tabelas 57.1 (amplitudes normais),
+> 57.2 (achado → diagnóstico) e 57.3 (síndromes do ombro), além das
+> linhas de ombro, quadril, joelho e tornozelo na Tabela 5.1. O erro veio
+> do método de varredura da orquestração, que filtrou a linha
+> "C H A P T E R nn" em busca do título — mas o título está na linha
+> seguinte. O implementador da T2 detectou a falha, recusou-se a escrever
+> a passagem falsa que a spec mandava escrever, e produziu a versão
+> honesta. **A T3 deve minerar o cap. 57.**
+
+A textura deste capítulo muda mesmo em relação aos anteriores, mas de
+forma **desigual, não para zero**: o McGee concentra os números em
+ombro, quadril, joelho e tornozelo, e apresenta o resto do exame
+articular como tabela de achado e diagnóstico implicado, sem razão de
+verossimilhança — porque em boa parte das doenças musculoesqueléticas o
+achado de beira de leito **é** o padrão diagnóstico, e não há contra o
+que medi-lo. Onde as fontes adotadas não trazem desempenho medido, o
+guia ensina a técnica com atribuição e **diz que não há número**, em vez
+de importar um de fora.
 
 Demais regras inalteradas: seções "O essencial" → "Como examinar" com
 `manobra`+`checklist` → temáticas → "Onde este tópico encontra os
