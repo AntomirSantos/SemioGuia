@@ -559,3 +559,39 @@ e **não produziu nenhuma ocorrência** nesta fase.
 Nota de processo: o limite mensal de gasto do modelo usado nos portões
 finais foi atingido durante a fase; a revisão final foi re-despachada
 em outro modelo, com o mesmo escopo e sem redução de rigor.
+
+## Adendo Fase 12 — sistema "Sistema osteoarticular"
+
+Sistema novo na ordem 8 (nervoso 8→9) com o capítulo "Exame
+osteoarticular" em 6 tópicos: princípios, coluna vertebral, ombro e
+cotovelo, punho e mão, quadril e joelho, tornozelo/pé e padrões
+articulares. 36 questões (9/9/9/9; mais-longa 9/36), 6 checklists→
+estações, 6 ilustrações com geometria verificada analiticamente (a
+gibosidade foi corrigida por prova de Bézier e confirmada visualmente
+na revisão final), aprofundamentos com os LRs do McGee cap. 57 e cap.
+64 (túnel do carpo, seguindo a remissão do próprio autor), regras de
+Ottawa, e a desambiguação do epônimo Trendelenburg nos quatro sentidos
+que o guia agora carrega. Conteúdo `revisao: pendente`.
+
+Registro de processo da fase: a premissa da spec ("McGee não tem
+capítulo musculoesquelético") era FALSA — detectada pelo implementador
+da T2, que se recusou a escrever a passagem falsa; duas erratas na spec
+documentam a correção e o inventário real (p. 481–513, EBM 57.1–57.8).
+A cor passou por dois ajustes medidos (ΔE2000 validado contra o dataset
+de Sharma; otimização em dois regimes, visão normal e daltonismo). Três
+erros de orquestração foram pegos por implementadores com evidência; o
+alinhamento posicional de tabelas foi substituído por extração com
+preservação de colunas e mapa de páginas por capítulo.
+
+Gates finais: build 9 sistemas/43 tópicos/3 casos, jest 321, tsc,
+contraste AA, n-grama zerado em N=10 E N=9 nos seis tópicos. Processo:
+T1 com medição de cor independente; T2 e T3 com revisão médica
+independente (~245 e ~330 asserções conferidas célula a célula, zero
+erros numéricos) + micro-rounds + re-revisões; revisão final com
+auditoria de grafo (zero deferrals envelhecidos), caminhada visual
+medida (scroll 1751→0; tabela EBM 850×314 com scroll interno; busca
+"Lachman"/"Schober"/"túnel do carpo") e capturas nos dois temas.
+Checklist do autor: itens K1–K7. Nota de modelo: os limites de gasto
+do fable (F11) e do opus (F12) foram atingidos; a fase fechou com
+sonnet nas verificações mecânicas e fable no portão final, sem redução
+de escopo declarada — o que cada modelo verificou está no ledger.

@@ -259,6 +259,45 @@ editorial, do autor. Marque cada caixa ao revisar.
   linha "Tórax" traz ponteiros embutidos. Agora existe um capítulo que
   ensina nove dos nove itens. Melhoria opcional de simetria.
 
+## K. Itens da Fase 12 (osteoarticular)
+
+- [ ] **K1 · Método de mineração do McGee** — a varredura por título de
+  capítulo falhou (o título vem na linha seguinte a "C H A P T E R nn")
+  e o offset PDF↔impresso é variável por capítulo (129 no cap. 57, 146
+  no cap. 63). Método adotado daqui em diante: `pdftotext -layout` +
+  mapa de páginas por capítulo. Endossar como padrão.
+- [ ] **K2 · Capítulo 64 do McGee como fonte estrutural da mão** — os
+  números do túnel do carpo (EBM 64.3) vêm do capítulo de nervos,
+  seguindo a remissão explícita do próprio McGee (p. 482, "hand pain —
+  see Chapter 64"). Endossar o padrão de seguir remissões do autor.
+- [ ] **K3 · Razões de verossimilhança altas de estudo único** — rotação
+  interna do quadril <15° = 9,9 (598 pacientes) e aumento ósseo do
+  joelho = 11,8 (237 pacientes, padrão = consenso de especialistas).
+  Ensinadas com o contexto declarado; endossar.
+- [ ] **K4 · Provável erro tipográfico na fonte** — flexão do joelho
+  "30°" na Semiologia Médica (cap. 160) contra 0–120° do Exame Clínico
+  do mesmo autor e 130° do McGee. O guia publica a discrepância sem
+  escolher. Validar no exemplar impresso.
+- [ ] **K5 · Cor #A83399 e a capacidade da paleta** — otimizada em dois
+  regimes (folga normal 4,22; daltonismo 1,36) contra baseline dos
+  piores pares antigos (3,10 e 0,22–0,58). A paleta atingiu a
+  capacidade prática para cores categóricas: cor nunca é canal único
+  (ícone + nome + posição), e sistemas novos devem assumir isso.
+  Guarda-chuva de H1/I4/J6.
+- [ ] **K6 · Lição da preensão palmar** — alegações de "omissão honesta"
+  ("nenhuma obra mede X") devem ser verificadas também contra o
+  PRÓPRIO GUIA publicado, não só contra as fontes: o achado mais grave
+  da fase nasceu de o guia já ensinar em antropometria o que o tópico
+  da mão dizia não existir. Institucionalizar o grep interno.
+- [ ] **K7 · Menores da revisão final** — (a) "gibosidade" tem dois
+  sentidos ancorados (tórax cifótico em inspeção do tórax × rotação
+  costal da escoliose na coluna) sem desambiguação; (b) três ponteiros
+  recíprocos opcionais: marcha→quadril (RV 3,2 do glúteo médio),
+  antropometria→punho (preensão "medida para outra pergunta"),
+  ectoscopia→coluna (inclinação anterior); (c) endossar a distinção
+  implícita entre escores clínicos (Wells, fora) e regras de achados
+  físicos (Ottawa, dentro), nunca enunciada.
+
 ## C. Inconsistências antigas ainda abertas (Fases 1C–3)
 
 - [ ] **C1 · Faixa 37,6–37,8 °C** — "febrícula até 37,5 °C" convive com o

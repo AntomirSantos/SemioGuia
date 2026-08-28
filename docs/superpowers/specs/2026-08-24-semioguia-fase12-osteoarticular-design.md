@@ -145,6 +145,14 @@ arterial crônica; baqueteamento e unhas → pele, mucosas e fâneros;
 fácies e atitude → ectoscopia; edema articular × edema sistêmico →
 pulso venoso jugular e turgência.
 
+> **ERRATA 2 (24/08/2026, revisão final).** Esta spec afirmava que os
+> números da elevação da perna estendida/Lasègue moram no tópico
+> vascular. **É falso** — moram em `marcha-e-sinais-meningeos.md`
+> (RV 1,5 / 0,4; cruzada 3,4), e o conteúdo publicado cruzou no lugar
+> certo desde a primeira versão. O erro era do briefing da orquestração,
+> detectado pelo implementador da T2 e registrado no ledger; esta errata
+> fecha o registro na spec.
+
 ## 5. Código (mínimo)
 
 `sistemas.yaml` (+ sistema na ordem 8, sistema-nervoso 8→9),
