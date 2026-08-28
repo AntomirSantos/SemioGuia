@@ -66,11 +66,20 @@ sistemas:
       - id: exame-vascular-periferico
         titulo: Exame vascular periférico
         ordem: 1
+  - id: sistema-osteoarticular
+    titulo: Sistema osteoarticular
+    cor: "#A8559B"
+    icone: bone
+    ordem: 8
+    capitulos:
+      - id: exame-osteoarticular
+        titulo: Exame osteoarticular
+        ordem: 1
   - id: sistema-nervoso
     titulo: Sistema nervoso
     cor: "#5B6ABF"
     icone: brain
-    ordem: 8
+    ordem: 9
     capitulos:
       - id: exame-neurologico
         titulo: Exame neurológico

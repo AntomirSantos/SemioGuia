@@ -1,4 +1,5 @@
 import {
+  Bone,
   Brain,
   ClipboardList,
   GitFork,
@@ -13,6 +14,7 @@ import {
 // Mapa "chave do YAML (campo `icone`)" → componente lucide. Adicionar aqui
 // conforme novos sistemas entrarem no conteúdo.
 const mapaIcones: Record<string, LucideIcon> = {
+  bone: Bone,
   stethoscope: Stethoscope,
   'heart-pulse': HeartPulse,
   wind: Wind,
