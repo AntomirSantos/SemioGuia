@@ -20,7 +20,7 @@ ausente. Sem casos novos. Primeira das quatro fases do roteiro em
 ### `sistemas.yaml` (inserção na ordem 8; só o nervoso se desloca)
 
 ```yaml
-- id: sistema-osteoarticular    # NOVO — ordem 8, cor "#BE42B0", icone bone
+- id: sistema-osteoarticular    # NOVO — ordem 8, cor "#A83399", icone bone
   titulo: Sistema osteoarticular
   capitulos:
     - id: exame-osteoarticular  # "Exame osteoarticular", ordem 1
@@ -28,7 +28,7 @@ ausente. Sem casos novos. Primeira das quatro fases do roteiro em
 ```
 
 **Nota de paleta.** Com oito cores em uso (0°, 36°, 103°, 168°, 211°,
-231°, 262°, 340°), o espaço de matiz está saturando. O #BE42B0 ocupa o
+231°, 262°, 340°), o espaço de matiz está saturando. O #A83399 ocupa o
 maior vão restante (~305°), mas a T1 deve medir **ΔE2000 contra as oito
 existentes** nos dois temas e a revisão de fase deve conferir sob
 simulação de deuteranopia e protanopia — a partir daqui a distinção
