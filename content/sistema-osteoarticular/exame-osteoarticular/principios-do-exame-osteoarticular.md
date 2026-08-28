@@ -273,7 +273,7 @@ texto: |
   **Crepitação não é uma coisa só, e a diferença é grande.**
 
   - **Crepitação articular** — Porto: sinal característico de comprometimento da **cartilagem** articular, presente sempre que esse elemento degenera, como nas artroses. Semiologia Clínica descreve a sensação e o mecanismo: uma vibração nascida do **atrito entre superfícies que perderam a regularidade**, colhida pela mão e por vezes audível — sinal de que a cartilagem, outrora lisa e deslizante, ficou áspera pelo uso.
-  - **Crepitação óssea** — Porto é lapidar: crepitação de um osso significa **fratura**. Em outro ponto ele modera a afirmação: a crepitação sugere fratura, embora possa também ocorrer na osteoartrose. As duas frases convivem se lidas com cuidado: o que muda tudo é **onde** se sente a crepitação.
+  - **Crepitação óssea** — e aqui há uma divergência interna a Porto que este guia deixa **aberta**. Na *Semiologia Médica*, ao tratar do exame das articulações, ele é categórico: crepitação de um osso significa **fratura**. No *Exame Clínico*, no boxe sobre aumento de volume e deformidades **ósseas** — portanto no mesmo terreno, o do osso —, ele modera: a crepitação **sugere** fratura, mas pode também ser sinal de osteoartrose. Não é divergência de topografia; é de **força da afirmação**. Este guia adota a versão moderada, que é a que admite o erro possível, e registra a categórica porque ela existe.
   - **Estalido** — Semiologia Clínica separa dos anteriores os estalos que nascem do **deslizar de tendões e ligamentos sobre o osso**, e diz que eles **não têm significado patológico**.
 
   E a ressalva que impede o excesso de zelo, também de Porto: a crepitação **pode ocorrer em articulações normais**, e só se torna significativa quando associada a outros sinais e sintomas, como dor e limitação de movimentos.
@@ -311,7 +311,7 @@ texto: |
   - **Subluxação** — permanece contato residual, mas o alinhamento é anormal.
   - **Varo, valgo e recurvatum** — na deformidade em **valgo**, a porção distal do membro aponta **para longe** da linha média do corpo (o joelho valgo, o hálux valgo do joanete); na deformidade em **varo**, ela aponta **para** a linha média (o joelho varo das pernas arqueadas); e **recurvatum** descreve a hiperextensão anormal de uma junta, como o joelho recurvado.
 
-  **E a companhia inseparável da deformidade.** Porto registra que a **atrofia muscular** acompanha os processos articulares em que há bloqueio prolongado, e que ela escolhe sobretudo os **interósseos da mão e do pé** e o **quadríceps** — este acompanhando o comprometimento dos joelhos e das coxofemorais. Semiologia Clínica dá a mesma ideia em versão de fisiopatologia: por arcos reflexos, a dor articular pode determinar espasmo da musculatura vizinha ou atrofia. **Medir a coxa dos dois lados custa trinta segundos e data a doença.**
+  **E a companhia inseparável da deformidade.** Porto registra que a **atrofia muscular** acompanha os processos articulares em que há bloqueio prolongado, e que ela escolhe sobretudo os **interósseos da mão e do pé** e o **quadríceps** — este acompanhando o comprometimento dos joelhos e das coxofemorais. Em boxe próprio, o mesmo autor dá o mecanismo: por via de **arcos reflexos visceromotores**, a dor de uma junta é capaz de gerar espasmo ou atrofia na musculatura ao redor. Semiologia Clínica não propõe mecanismo; o que ela faz é colocar o achado na rotina, ao dizer que o exame da musculatura avalia força, dor, espasmos e atrofias. **Medir a coxa dos dois lados custa trinta segundos e data a doença.**
 :::
 
 ::: conceito

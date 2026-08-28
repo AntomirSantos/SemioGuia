@@ -175,7 +175,7 @@ svg: |
       <text x="10" y="196">Registre em que ângulo a dor começa e em que ângulo ela cessa.</text>
     </g>
   </svg>
-legenda: "O achado com melhor desempenho isolado na dor no ombro, e o único deste tópico que produz um número sem instrumento. A faixa entre 70 e 100 graus não é convenção: é o intervalo em que a compressão dos tecidos subacromiais é maior, segundo McGee. Repare que o valor está em a dor aparecer e depois ceder — dor que começa e não passa mais até o alto do arco é outra coisa."
+legenda: "O melhor achado isolado para tendinite do manguito rotador, e o único deste tópico que produz um número sem instrumento. A faixa entre 70 e 100 graus não é convenção: é o intervalo em que a compressão dos tecidos subacromiais é maior, segundo McGee. Repare que o valor está em a dor aparecer e depois ceder — dor que começa e não passa mais até o alto do arco é outra coisa."
 :::
 
 ::: secao
@@ -208,7 +208,7 @@ texto: |
 ::: sinal
 nome: Arco doloroso
 descricao: "Durante a elevação ativa do braço, a dor aparece em uma faixa intermediária do movimento e cede acima dela. McGee define a faixa e a razão dela: dor durante a elevação do braço entre os ângulos de 70 e 100 graus, que são os ângulos em que a compressão dos tecidos subacromiais é maior. Semiologia Clínica pede que se registre o ponto em que a dor aparece."
-significado: "É o achado isolado de melhor desempenho na dor no ombro segundo McGee: presente, tem razão de verossimilhança 2,9 para tendinite do manguito rotador. Sua ausência não ajuda — a razão de verossimilhança negativa não alcança significância. Para a ruptura do manguito, o arco doloroso isolado não tem valor quando presente, mas sua ausência reduz modestamente a probabilidade, com razão de verossimilhança 0,5. É também um dos três achados da combinação de Park, que multiplica o desempenho do exame."
+significado: "É o achado isolado de melhor desempenho para a tendinite do manguito rotador segundo McGee: presente, rende razão de verossimilhança 2,9. Sua ausência não ajuda — a razão de verossimilhança negativa não alcança significância. Para a ruptura do manguito, o arco doloroso isolado não tem valor quando presente, mas sua ausência reduz modestamente a probabilidade, com razão de verossimilhança 0,5. É também um dos três achados da combinação de Park, que multiplica o desempenho do exame."
 causas:
   - "Tendinite do manguito rotador e síndrome do impacto"
   - "Bursite subacromial"
@@ -239,7 +239,8 @@ texto: |
   - **Infraespinal.** Semiologia Clínica: cotovelo dobrado em ângulo reto e braço encostado no tórax, o paciente **roda o antebraço para fora vencendo resistência**. McGee descreve o mesmo gesto pelo lado do examinador: braços ao lado do corpo, cotovelos fletidos a 90 graus, polegares para cima, e o paciente afasta os antebraços contra a pressão do examinador. O **teste de Patte** é a variante com o membro em abdução de 90 graus e o cotovelo fletido a 90 graus, rodado lateralmente contra resistência.
   - **Infraespinal e redondo menor juntos.** O **teste da rotação lateral não mantida**, apelidado **teste da cancela**: partindo do posicionamento do teste do infraespinal, o examinador roda o membro passivamente e pede ao paciente que **mantenha** a posição. Se um dos dois músculos falha, a posição se perde e o braço retorna ao tórax, no gesto que dá nome à manobra — uma cancela fechando. Semiologia Clínica registra que **não há teste que avalie o redondo menor isoladamente**.
   - **Subescapular.** Por ser **não palpável**, testa-se por **rotação interna resistida**, geralmente combinada com extensão ao levar o braço para trás das costas — o **teste de Gerber**, ou *lift off test*. A obra dá a referência de altura que costuma ser alcançada: **L5**.
-  - **Cabeça longa do bíceps.** Avaliada em conjunto com o manguito, porque função e sintomas são semelhantes: **teste de Speed** — resistência à flexão do ombro com o cotovelo estendido e a palma para cima; e **sinal de Yergason** — resiste-se à supinação com o cotovelo dobrado em ângulo reto. McGee explica por que o bíceps entra na conversa do manguito: o impacto subacromial progressivo desgasta o tendão do supraespinal e a cápsula subjacente, **expondo o tendão da cabeça longa do bíceps** às mesmas forças; a maioria das rupturas do tendão bicipital se associa a doença avançada do manguito.
+  - **Cabeça longa do bíceps.** Avaliada em conjunto com o manguito, porque função e sintomas são semelhantes. **Teste de Speed** — resiste-se à flexão do ombro, com o cotovelo estendido e a palma voltada para cima; e vale registrar que Porto descreve esse mesmo gesto sem lhe dar nome, como segunda manobra indicadora de inflamação do tendão bicipital, com o cotovelo estendido e o antebraço supinado. É corroboração direta, vinda de outra obra, para o teste que McGee mede. McGee explica por que o bíceps entra na conversa do manguito: o impacto subacromial progressivo desgasta o tendão do supraespinal e a cápsula subjacente, **expondo o tendão da cabeça longa do bíceps** às mesmas forças; a maioria das rupturas do tendão bicipital se associa a doença avançada do manguito.
+  - **Sinal de Yergason — e as fontes descrevem gestos diferentes.** Este guia registra a divergência em vez de escolher em silêncio. **Semiologia Clínica e McGee**: resiste-se à **supinação** do antebraço, com o cotovelo dobrado em ângulo reto — e McGee dá a razão anatômica, o bíceps sendo o principal supinador do antebraço. **Porto**, na *Semiologia Médica*: a dor aparece ao se resistir à **flexão do antebraço** do lado doente, mantido em supinação, com o cotovelo a 90 graus. Resistir a dobrar o cotovelo não é o mesmo gesto que resistir a girar a palma para cima, e os dois movimentos recrutam músculos diferentes — embora o bíceps participe dos dois. **Os números de McGee — razão de verossimilhança 2,8 — saíram da versão da supinação**, e é ela que este guia ensina; a versão de Porto fica registrada porque quem consultar a obra vai encontrá-la.
   - **Teste do braço caído.** McGee: o examinador abduz o braço o máximo possível, solta-o e pede ao paciente que o baixe lentamente. No teste positivo, o movimento é suave até cerca de **100 graus** e a partir daí torna-se irregular, podendo o braço **cair de repente**. E dá a explicação mecânica, que não é a intuitiva: isso não acontece porque o supraespinal seja o abdutor mais potente nesse ângulo, e sim porque **o manguito precisa estar íntegro para puxar a cabeça umeral contra a glenoide**, criando o fulcro que permite ao deltoide baixar o braço suavemente. Em nota, McGee registra que o supraespinal responde apenas pelos **30 graus iniciais** da abdução, e o deltoide, pelo restante.
   - **Adução cruzada, ou teste do cachecol.** McGee: aduz-se ao máximo o braço do lado sintomático **cruzando o tórax**, o que comprime a articulação acromioclavicular ipsilateral. Dor nessa articulação é a resposta positiva.
 :::
@@ -313,7 +314,7 @@ titulo: Aprofundamento
 :::
 
 ::: tabela
-titulo: Achados isolados na dor no ombro (McGee, boxe EBM 57.1)
+titulo: Achados isolados na dor no ombro — o boxe EBM 57.1 de McGee, na íntegra
 nivel: avancado
 colunas:
   - "Achado"
@@ -330,6 +331,11 @@ linhas:
   - - "Dor à palpação da acromioclavicular, para dor acromioclavicular"
     - "96%"
     - "10%"
+    - "não significativa"
+    - "não significativa"
+  - - "Dor à compressão da acromioclavicular, para dor acromioclavicular"
+    - "79%"
+    - "50%"
     - "não significativa"
     - "não significativa"
   - - "Arco doloroso, para tendinite do manguito"
@@ -372,6 +378,11 @@ linhas:
     - "81%"
     - "3,2"
     - "—"
+  - - "Idade entre 40 e 59 anos, para ruptura"
+    - "34%"
+    - "—"
+    - "não significativa"
+    - "—"
   - - "Teste do braço caído, para ruptura"
     - "6% a 35%"
     - "87% a 98%"
@@ -402,6 +413,16 @@ linhas:
     - "52% a 60%"
     - "1,7"
     - "0,4"
+  - - "Sinal de Neer, para ruptura"
+    - "59% a 88%"
+    - "43% a 82%"
+    - "1,7"
+    - "não significativa"
+  - - "Sinal de Hawkins, para ruptura"
+    - "53% a 83%"
+    - "48% a 77%"
+    - "1,6"
+    - "0,6"
   - - "Arco doloroso, para ruptura"
     - "39% a 97%"
     - "10% a 84%"
@@ -426,7 +447,9 @@ texto: |
 
   **2. Para a tendinite, o arco doloroso ganha dos testes de impacto.** O arco doloroso rende **2,9**; Yergason, **2,8**; Speed, **1,9**. Os sinais de Neer e de Hawkins, que são os mais lembrados, rendem apenas **1,6 e 1,7** quando presentes — e McGee dá a razão: **dor no ombro de qualquer tipo piora com essas manobras**, ou seja, a especificidade é baixa e os falso-positivos são muitos.
 
-  Mas a mesma tabela mostra onde as manobras de impacto valem: **na ausência**. A ausência do sinal de Hawkins rende **0,3**, e **a ausência dos dois juntos rende 0,1** — o melhor número negativo de todo o exame do ombro. Isso as transforma no que de fato são: **testes de triagem**. Um ombro que não dói em nenhuma das duas manobras dificilmente tem doença subacromial.
+  Mas a mesma tabela mostra onde as manobras de impacto valem: **na ausência**. A ausência do sinal de Hawkins rende **0,3**, e **a ausência dos dois juntos rende 0,1** — um dos melhores números negativos do exame isolado do ombro. Isso as transforma no que de fato são: **testes de triagem**. Um ombro que não dói em nenhuma das duas manobras dificilmente tem doença subacromial.
+
+  **Mas atenção à pergunta**: esses dois números valem para **tendinite**. Para **ruptura**, os mesmos sinais rendem muito menos quando ausentes — a ausência de Hawkins fica em **0,6** e a de Neer **não alcança significância**. É o terceiro exemplo, nesta mesma tabela, de um gesto que muda de valor conforme o que se procura.
 
   E há a coincidência que explica os testes do bíceps: **Yergason e Speed, criados para a tendinite bicipital, funcionam para doença do manguito** — o que McGee lê como confirmação da associação anatômica entre as duas.
 
@@ -539,7 +562,7 @@ titulo: Armadilhas do exame
 titulo: Seis erros no exame do ombro e do cotovelo
 texto: |
   1. **Concluir por doença acromioclavicular porque a articulação dói à palpação.** Sensibilidade de 96% e especificidade de 10%: quase todo ombro doloroso dói ali. O teste que separa é a **adução cruzada**, com razão de verossimilhança 3,7 quando positiva e 0,3 quando negativa.
-  2. **Tratar Neer e Hawkins como testes confirmatórios.** Eles rendem apenas 1,6 e 1,7 quando positivos, porque dor no ombro de qualquer tipo piora com essas manobras. O valor deles está na **ausência**: sem nenhum dos dois, a razão de verossimilhança cai a 0,1.
+  2. **Tratar Neer e Hawkins como testes confirmatórios.** Eles rendem apenas 1,6 e 1,7 quando positivos, porque dor no ombro de qualquer tipo piora com essas manobras. O valor deles está na **ausência**: sem nenhum dos dois, a razão de verossimilhança para **tendinite** cai a 0,1 — enquanto, para **ruptura**, a ausência rende bem menos.
   3. **Parar as manobras na primeira positiva.** Com um achado presente, a razão de verossimilhança para ruptura do manguito não alcança significância em nenhuma das duas séries combinadas. Com três, chega a 48. O exame só entrega quando é completo.
   4. **Anotar "arco doloroso presente" sem os ângulos.** A faixa entre 70 e 100 graus é a que interessa, e a concordância entre observadores para o achado é de 0,45 a 0,64 — melhora exatamente quando o registro é numérico.
   5. **Examinar o ombro sem testar a amplitude passiva.** É ela que separa as síndromes capsulares, em que todas as direções estão limitadas, das subacromiais, em que a amplitude passiva é normal. Sem esse dado, o ombro congelado é confundido com tendinite.

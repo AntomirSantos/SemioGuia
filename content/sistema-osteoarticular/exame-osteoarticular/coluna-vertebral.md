@@ -47,15 +47,15 @@ tags:
   - estenose do canal lombar
   - bandeiras vermelhas
   - síndrome da cauda equina
-  - mal de Pott
   - espondilolistese
   - concordância entre observadores
   - estação OSCE
 referencias:
   - "Porto — Semiologia Médica, 8ª ed., Parte 17 (Sistema Locomotor), Seção 3 (Coluna Vertebral), cap. 164 (Exame Clínico) — dados da identificação por faixa etária; caracterização da dor e da rigidez e o comportamento de cada uma nas doenças inflamatórias, compressivas e degenerativas; dor referida na coluna; vestuário adequado ao exame; abordagem em três planos, frontal anterior e posterior e sagital, com simetria das cinturas escapular e pélvica, ângulo toracolombar, alinhamento dos membros e uso do fio de prumo; atitude antálgica e posição de esquiador; perda da lordose fisiológica; palpação das massas da goteira vertebral, das apófises espinhosas e dos espaços intervertebrais; movimentos de cada segmento; reflexos e as raízes correspondentes; testes de compressão — manobra de Valsalva, sinal de Lasègue com os ângulos de 60 e de 30 graus, sinal de Bragard, elevação do membro sadio, alteração sensorimotora e pressão sobre as superfícies articulares; a exigência de completar o exame da coluna com o exame da bacia"
-  - "Porto — Semiologia Médica, 8ª ed., Parte 17, Seção 3, cap. 166 (Doenças da Coluna Vertebral) — espondiloartrose e o comportamento da dor; hérnia de disco intervertebral, níveis mais frequentes, dor exacerbada por tosse, espirro e movimentação, contratura muscular com posição antálgica e perda da lordose fisiológica; deformidades da coluna, escolioses de curvas não estruturadas e estruturadas, escoliose postural que se corrige pela flexão do tronco, escoliose de compensação, gibosidade na convexidade; cifose do adolescente; lordose lombar aumentada e o círculo vicioso da instabilidade lombossacra; osteoporose vertebral; mal de Pott e a giba pótica; espondilite anquilosante e a diminuição da dor à medida que a coluna se torna rígida; espondilólise e espondilolistese; cervicalgia, dorsalgia, lombalgia e lombociatalgia, com a lombalgia comum e a lombociatalgia; boxe Sinal da campainha (Putti); lombociatalgia por hérnia discal segundo a raiz comprometida; síndrome da cauda equina"
+  - "Porto — Semiologia Médica, 8ª ed., Parte 17, Seção 3, cap. 166 (Doenças da Coluna Vertebral) — espondiloartrose e o comportamento da dor; hérnia de disco intervertebral, níveis mais frequentes, dor exacerbada por tosse, espirro e movimentação, contratura muscular com posição antálgica e perda da lordose fisiológica; deformidades da coluna, escolioses de curvas não estruturadas e estruturadas, escoliose postural que se corrige pela flexão do tronco, escoliose de compensação, gibosidade na convexidade; cifose do adolescente; lordose lombar aumentada e o círculo vicioso da instabilidade lombossacra; espondilite anquilosante e a diminuição da dor à medida que a coluna se torna rígida; espondilólise e espondilolistese; cervicalgia, dorsalgia, lombalgia e lombociatalgia, com a lombalgia comum e a lombociatalgia; boxe Sinal da campainha (Putti); lombociatalgia por hérnia discal segundo a raiz comprometida; síndrome da cauda equina"
   - "Porto — Exame Clínico, 8ª ed., cap. 19 (Exame dos Ossos, da Coluna Vertebral, das Articulações e Extremidades), seção Coluna vertebral e Roteiro pedagógico para exame físico da coluna vertebral — observação do perfil da coluna em ortostase; manobra de inclinação anterior com os joelhos estendidos para reconhecer escoliose e cifose; complementação com flexão, extensão, rotação e lateralidade; escoliose na criança e no adolescente; cifoescoliose; amplitudes dos três segmentos, com a flexão cervical medida em fita métrica entre mento e fúrcula esternal e a flexão lombar medida como distância polpas digitais-solo; roteiro de registro por segmento"
-  - "Porto — Exame Clínico, 8ª ed., cap. 6 (Sinais e Sintomas), seção Coluna vertebral — localização e irradiação da dor por segmento; comportamento da dor nas afecções inflamatórias, na hérnia discal, na espondiloartrose e na osteoporose; boxe Dor referida; fatores desencadeantes, com os movimentos que estiram a raiz nervosa e o aumento da pressão intrarraquidiana pela tosse e pelo espirro, e com a deambulação na estenose do canal lombar e na insuficiência arterial dos membros inferiores"
+  - "Porto — Exame Clínico, 8ª ed., cap. 6 (Sinais e Sintomas), seção Coluna vertebral — localização e irradiação da dor por segmento; comportamento da dor nas afecções inflamatórias, na hérnia discal, na espondiloartrose e na osteoporose; boxe Dor referida"
+  - "Porto — Exame Clínico, 8ª ed., cap. 6 (Sinais e Sintomas), seção Dor, subseção Fatores desencadeantes ou agravantes — qualquer movimento que estire a raiz nervosa, com a elevação do membro inferior estendido e a flexão do tronco, e o aumento da pressão intrarraquidiana pela tosse e pelo espirro, na hérnia discal lombossacra; a deambulação como desencadeante na estenose do canal lombar e na insuficiência arterial dos membros inferiores; na subseção Relação com funções orgânicas, o Quadro 6.4, que associa a dor cervical, dorsal e lombar aos movimentos da coluna vertebral"
   - "Semiologia Clínica, 1ª ed., cap. 15 (O exame do sistema locomotor), seção Eixo — divisão do eixo em coluna cervical, torácica e lombar; inspeção estática e dinâmica de cada segmento; amplitudes cervicais de flexoextensão, rotação e inclinação lateral e amplitudes torácicas; avaliação de deformidade rígida ou flexível; palpação de partes moles e óssea em cada segmento; Tabela 1 (níveis neurológicos cervicais) e Tabela 2 (raízes do plexo lombossacral)"
   - "Semiologia Clínica, 1ª ed., cap. 46 (Lombalgia e cervicalgia) — definição da lombalgia pelos seus limites anatômicos e classificação em aguda, recorrente e crônica; Tabela 1 (dor nociceptiva, neuropática e mista); exame clínico da coluna lombar com inspeção estática em ortostase e inspeção dinâmica; palpação e pontos-gatilho; teste de Lasègue, sinal de Bragard, teste de Patrick/Fabere e sinal das pontas; exame clínico da coluna cervical, com amplitudes e critérios de normalidade, palpação anterior e posterior, teste de distração de Apley, manobra de Spurling, sinal de Lhermitte e teste de Adson; Tabela 2 (níveis motores e sensitivos); Tabela 3 (bandeiras vermelhas da lombalgia); Tabela 4 (diagnósticos diferenciais da dor lombar); Tabela 5 (causas mecânicas e degenerativas de cervicalgia)"
   - "Semiologia Clínica, 1ª ed., cap. 16 (Exame osteoarticular), seção Quadril e pelve — composição da cintura pélvica; palpação das cristas ilíacas, do trocanter maior, da tuberosidade isquiática, da sínfise púbica e das espinhas ilíacas; sacroileítes nas espondiloartrites e sua demonstração por palpação direta ou pelas manobras de Gaenslen e de Patrick; descrição do teste de Patrick/Faber e a distinção entre dor posterior contralateral e dor ipsilateral"
@@ -83,7 +83,7 @@ texto: |
   **O que este tópico não reensina.**
 
   - As **definições de cifose, lordose e escoliose**, a classificação da postura em três graus e a alteração postural do envelhecimento estão no tópico de ectoscopia. Aqui elas são pressupostas, e o que se acrescenta é o que a **manobra** revela.
-  - A **prova de Lasègue com o desempenho medido** — as razões de verossimilhança da elevação da perna estendida e da prova cruzada — está no tópico de marcha e sinais meníngeos, que a ensina junto com os sinais meníngeos porque a manobra atravessa as duas fronteiras. Este tópico a executa e cita os números de lá, sem repeti-los.
+  - A **prova de Lasègue com o desempenho medido** — as razões de verossimilhança da elevação da perna estendida e da prova cruzada — está no tópico de marcha e sinais meníngeos, que a ensina junto com os sinais meníngeos porque a manobra atravessa as duas fronteiras. Este tópico executa a manobra e remete àquele para os números, sem repeti-los.
   - A **graduação da força de 0 a 5**, os reflexos profundos e a correspondência entre raiz, músculo-chave e reflexo estão no tópico de força, tônus e reflexos.
   - A **rigidez de nuca e os sinais meníngeos** pertencem ao capítulo neurológico. Pescoço rígido não é sinônimo de coluna cervical doente.
 
@@ -157,15 +157,17 @@ svg: |
       <text x="74" y="90">cifose torácica</text>
       <text x="74" y="136">lordose lombar</text>
     </g>
-    <path d="M 186 128 Q 206 112, 226 109 Q 240 82, 259 106 Q 281 110, 298 128" stroke-width="1.8" />
-    <path d="M 242 96 L 242 132" stroke-width="1" stroke-dasharray="3 3" />
-    <circle cx="242" cy="150" r="10" stroke-width="1.5" />
-    <path d="M 192 130 L 187 166" stroke-width="1.5" />
-    <path d="M 292 130 L 297 166" stroke-width="1.5" />
-    <path d="M 259 88 L 259 98" stroke-width="1" />
-    <path d="M 255 94 L 259 98 L 263 94" stroke-width="1" />
+    <path d="M 212 95 L 262 95" stroke-width="0.9" stroke-dasharray="2 3" />
+    <path d="M 186 134 Q 212 126, 244 122 Q 256 120, 264 100 Q 270 90, 278 100 Q 288 112, 298 134" stroke-width="1.8" />
+    <path d="M 242 100 L 242 140" stroke-width="1" stroke-dasharray="3 3" />
+    <circle cx="242" cy="154" r="10" stroke-width="1.5" />
+    <path d="M 192 136 L 187 168" stroke-width="1.5" />
+    <path d="M 292 136 L 297 168" stroke-width="1.5" />
+    <path d="M 270 78 L 270 90" stroke-width="1" />
+    <path d="M 266 86 L 270 90 L 274 86" stroke-width="1" />
     <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none" text-anchor="middle">
-      <text x="259" y="82">gibosidade</text>
+      <text x="270" y="72">gibosidade</text>
+      <text x="214" y="112">lado côncavo</text>
     </g>
     <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none" text-anchor="middle">
       <text x="100" y="182">perfil, com fio de prumo</text>
@@ -196,7 +198,7 @@ texto: |
 
   **Um dado epidemiológico que orienta o olhar.** Porto registra que a escoliose incide sobretudo em crianças e adolescentes, com predomínio feminino; a escoliose idiopática, a mais comum, tem três picos de aparecimento — no recém-nascido, entre os 5 e os 6 anos e dos 11 anos até o fim do crescimento, este último o prevalente. E dá a regra de prognóstico: **quanto mais alta a curva, pior**, e quanto mais jovem o paciente, mais grave.
 
-  **A cifose também tem sua leitura.** A causa mais comum de aumento da cifose torácica é o **vício de postura**. Mas Porto lista as que não são: mal de Pott, osteomielite, neoplasias, formas congênitas, e a **cifose do adolescente** ou dorso curvo — a osteocondrite de Scheuermann —, mais frequente na puberdade, em que as vértebras torácicas inferiores se achatam e é comum existir também uma pequena curva lateral. A **cifoescoliose** combina as duas deformidades.
+  **A cifose também tem sua leitura, e a maior parte dela já foi dada:** as causas do aumento da cifose torácica estão no tópico de **ectoscopia** e não se repetem aqui. O que pertence a este tópico é a **cifose do adolescente**, ou dorso curvo — a osteocondrite de Scheuermann —, mais frequente na puberdade, em que as vértebras torácicas inferiores se achatam e é comum existir também uma pequena curva lateral. A **cifoescoliose** combina as duas deformidades.
 
   **E a lordose lombar entra em um círculo vicioso.** Porto descreve: a lordose lombar pode aumentar nos processos degenerativos dos discos inferiores, quando a pelve perde equilíbrio por fraqueza de abdominais e de glúteos, ou quando iliopsoas e isquiossurais encurtam. O aumento da lordose **projeta o centro de gravidade para a frente**, o que agrava a instabilidade lombossacra — que, por sua vez, piora as condições que a produziram.
 :::
@@ -449,7 +451,7 @@ texto: |
 ::: conceito
 titulo: Onde este tópico encontra os outros
 texto: |
-  - **A prova de Lasègue com desempenho medido** — razão de verossimilhança 1,5 quando positiva, 0,4 quando negativa, 3,4 para a prova cruzada, e a concordância entre observadores das duas — está no tópico de **marcha e sinais meníngeos**, que também traz a origem do epônimo e o critério de McGee de que a dor precisa descer pela perna para o teste ser positivo. Ali também estão os achados que mais elevam a probabilidade de radiculopatia lombossacra.
+  - **A prova de Lasègue com desempenho medido** — as razões de verossimilhança da prova convencional e da prova cruzada, e a concordância entre observadores das duas — está no tópico de **marcha e sinais meníngeos**, que também traz a origem do epônimo e o critério de McGee de que a dor precisa descer pela perna para o teste ser positivo. Ali também estão os achados que mais elevam a probabilidade de radiculopatia lombossacra.
   - **A graduação da força de 0 a 5, os reflexos profundos e a correspondência entre raiz, músculo-chave e reflexo** estão no tópico de **força, tônus e reflexos**, que traz a tabela dos níveis motores de C5 a S1.
   - **Os dermátomos e a técnica de pesquisa da sensibilidade** estão no tópico de **sensibilidade e coordenação**.
   - **As marchas** — antálgica, claudicante e as demais — estão em **marcha e sinais meníngeos**. Porto registra que a marcha claudicante ocorre na estenose do canal vertebral lombar, além da insuficiência arterial periférica e das lesões do aparelho locomotor.
