@@ -67,8 +67,8 @@ referencias:
   - "Porto — Exame Clínico, 8ª ed., cap. 5 (Exame Físico Geral — técnicas básicas), seção Palpação — pesquisa de flutuação com o indicador de uma das mãos recebendo o impulso transmitido pelas compressões da outra"
   - "Porto — Semiologia Médica, 8ª ed., Parte 17 (Sistema Locomotor), Seção 2, cap. 160 (Exame Clínico) — amplitudes do quadril e do joelho"
   - "Porto — Semiologia Médica, 8ª ed., Parte 17, Seção 2, cap. 162 (Doenças das Articulações, das Bursas e dos Tendões) — bursas mais acometidas do membro inferior; bursite trocanteriana, com tumefação e dor no grande trocanter, agravamento pela abdução contra resistência e pela rotação, irradiação até próximo ao joelho e a confusão possível com tendinite do glúteo; bursite iliopectínea, com dor no terço médio do ligamento inguinal lateral ao pulso femoral, piora à extensão e melhora à flexão do quadril; bursite isquiática ou nádega de tecelão; bursite pré-patelar ocupacional; bursite anserina e a dificuldade para subir e descer escadas; artrose das articulações que suportam peso"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 57 (Examination of the Musculoskeletal System), p. 481-507 — Tabela 57.1 (amplitudes normais do quadril e do joelho); Tabela 57.2 (achados do quadril e do joelho e diagnóstico implicado, com rotação externa e interna no trauma, inclinação pélvica, bursites trocantérica, iliopsoas e isquioglútea, bursite pré-patelar, cisto de Baker, bursite anserina e teste de apreensão patelar); a posição profunda do quadril e a dor referida à coxa, ao joelho e à nádega; a regra de que a doença do quadril compromete todo o repertório de movimentos, ao contrário das causas extra-articulares; boxe EBM 57.3 (osteoartrite de quadril) e os achados de dor localizada na nádega e na virilha; Tabela 57.4 (regra de Ottawa do joelho); descrição dos testes de gaveta anterior, de Lachman e do pivot shift, com as três razões pelas quais Lachman é mais sensível que a gaveta; teste da gaveta posterior; estresse em varo e valgo com o joelho estendido e a 20 graus, e a distinção entre ponto final firme e ponto final mole; teste de McMurray e a nota sobre os estresses em varo e valgo que os textos acrescentam e o estudo original não usou; boxes EBM 57.4 (osteoartrite de joelho), 57.5 (fratura clinicamente significativa do joelho) e 57.6 (lesões ligamentares e meniscais); as variáveis que afetam a sensibilidade dos sinais ligamentares; a predição da necessidade de cirurgia"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 7 (Stance and Gait), p. 48-50 — marcha de Trendelenburg e sinal de Trendelenburg: definição, etiologia, a descrição original de 1895, a técnica do apoio em uma perna com o quadril contralateral fletido a 90 graus, a regra de que o lado testado é o que suporta o peso, o falso-positivo por deformidade do membro, e o desempenho do sinal somado à marcha na detecção de rotura do tendão do glúteo médio em pacientes rotulados como bursite trocantérica; comparação entre marcha coxálgica e marcha de Trendelenburg"
+  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 57 (Examination of the Musculoskeletal System), p. 481-508 — Tabela 57.1 (amplitudes normais do quadril e do joelho); Tabela 57.2 (achados do quadril e do joelho e diagnóstico implicado, com rotação externa e interna no trauma, inclinação pélvica, bursites trocantérica, iliopsoas e isquioglútea, bursite pré-patelar, cisto de Baker, bursite anserina e teste de apreensão patelar); a posição profunda do quadril e a dor referida à coxa, ao joelho e à nádega; a regra de que a doença do quadril compromete todo o repertório de movimentos, ao contrário das causas extra-articulares; boxe EBM 57.3 (osteoartrite de quadril) e os achados de dor localizada na nádega e na virilha; Tabela 57.4 (regra de Ottawa do joelho); descrição dos testes de gaveta anterior, de Lachman e do pivot shift, com as três razões pelas quais Lachman é mais sensível que a gaveta; teste da gaveta posterior; estresse em varo e valgo com o joelho estendido e a 20 graus, e a distinção entre ponto final firme e ponto final mole; teste de McMurray e a nota sobre os estresses em varo e valgo que os textos acrescentam e o estudo original não usou; boxes EBM 57.4 (osteoartrite de joelho), 57.5 (fratura clinicamente significativa do joelho) e 57.6 (lesões ligamentares e meniscais); as variáveis que afetam a sensibilidade dos sinais ligamentares; a predição da necessidade de cirurgia"
+  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 7 (Stance and Gait), p. 47-49 — marcha de Trendelenburg e sinal de Trendelenburg: definição, etiologia, a descrição original de 1895, a técnica do apoio em uma perna com o quadril contralateral fletido a 90 graus, a regra de que o lado testado é o que suporta o peso, o falso-positivo por deformidade do membro, e o desempenho do sinal somado à marcha na detecção de rotura do tendão do glúteo médio em pacientes rotulados como bursite trocantérica; comparação entre marcha coxálgica e marcha de Trendelenburg"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 32-33, Tabela 5.1, seções Musculoskeletal System—Hip e Musculoskeletal System—Knee — concordância entre observadores para o teste de Patrick, a rotação interna passiva do quadril, as regras de Ottawa do joelho, o derrame visível, a flexão abaixo de 90 graus, a dor à palpação da patela e da cabeça da fíbula, a incapacidade de sustentar peso, o aumento de volume ósseo, a dor na interlinha articular, a crepitação patelofemoral, a instabilidade mediolateral e o sinal de McMurray"
 revisao: pendente
 ---
@@ -93,7 +93,7 @@ texto: |
   - Os **princípios gerais** e a distinção entre doença articular e extra-articular estão no primeiro tópico deste capítulo.
   - As **marchas** — antálgica, coxálgica, de Trendelenburg, anserina — estão em marcha e sinais meníngeos, e é lá que o **sinal de Trendelenburg** é ensinado com sua técnica. Este tópico o retoma pelo lado do quadril, e faz a desambiguação obrigatória do epônimo.
   - O **cisto de Baker** é ensinado como diagnóstico diferencial da trombose venosa profunda no tópico de doença venosa crônica e trombose, junto do escore de Wells e da equimose em crescente que denuncia a rotura.
-  - A **coluna lombar e as sacroilíacas**, com o teste de Patrick aplicado à sacroilíaca, a manobra de Gaenslen e a elevação da perna estendida, estão no tópico de coluna vertebral.
+  - A **coluna lombar e as sacroilíacas** — a manobra de Gaenslen, a elevação da perna estendida e a técnica completa do teste de Patrick aplicada à **sacroilíaca** — estão no tópico de coluna vertebral. Este tópico aplica o mesmo teste de Patrick à **coxofemoral**, que é a leitura que aquele tópico prometeu e não desenvolveu.
 
   **O que fica como moldura, nomeado e não ensinado:** a **radiografia**, a **ressonância**, a **artroscopia** e a **cirurgia**, que são os padrões contra os quais os testes deste tópico foram medidos; a **punção articular**; e as classificações radiológicas da osteoartrite.
 :::
@@ -116,7 +116,8 @@ passos:
   - "Com o paciente em pé, palpe a crista ilíaca, as espinhas ilíacas anterossuperior e posterossuperior, o trocanter maior, a tuberosidade isquiática e a sínfise púbica."
   - "Examine a região inguinal à procura de adenomegalias e hérnias, e palpe os pulsos femoral, poplíteo e distais."
   - "Com o paciente deitado, avalie o quadril em flexão, extensão, abdução, adução e rotações interna e externa, comparando os dois lados."
-  - "Registre separadamente a rotação interna passiva do quadril, que é o movimento que mais cedo se perde."
+  - "Registre separadamente a rotação interna passiva do quadril, em graus e com a posição de medida anotada."
+  - "Faça o teste de Patrick: tornozelo apoiado sobre o joelho oposto, coxa abduzida e rodada para fora em direção à maca, e pergunte onde dói."
   - "Com o joelho sem carga, inspecione a pele, procure equimoses e atrofias e compare o contorno dos dois joelhos."
   - "Pesquise derrame: empurre a patela contra o sulco troclear com a perna estendida e observe se ela retorna à posição."
   - "Palpe patela, tendão do quadríceps, tendão patelar, a interlinha articular medial e lateral, a tuberosidade anterior da tíbia, a cabeça da fíbula e a pata de ganso."
@@ -128,7 +129,7 @@ observar: |
 
   **A inclinação da pelve é um sinal com três causas.** McGee registra que uma linha imaginária traçada entre as espinhas ilíacas anteriores que **não fica horizontal** implica escoliose, **dismetria anatômica** dos membros ou **doença do quadril**. Três diagnósticos muito diferentes com o mesmo achado — motivo pelo qual medir o comprimento dos membros, como Semiologia Clínica recomenda, vale o minuto que custa.
 
-  **A rotação interna do quadril merece linha própria no prontuário.** É o movimento que a osteoartrite compromete primeiro, e é o único achado do quadril, em todo este capítulo, com número forte. Meça-a e escreva o valor.
+  **A rotação interna do quadril merece linha própria no prontuário.** É o único achado do quadril, em todo este capítulo, com número forte — e, como esse número depende de um ponto de corte em graus, o adjetivo não serve. Meça-a e escreva o valor. Nenhuma das quatro obras adotadas afirma que ela seja o primeiro movimento a se perder na osteoartrite, e este guia não afirma por elas; o que as fontes sustentam é o desempenho do achado, não a sua precedência cronológica.
 
   **O joelho se examina duas vezes: com carga e sem.** Semiologia Clínica separa as duas etapas e diz o que cada uma entrega. **Com carga**, veem-se o alinhamento e seus desvios — o joelho varo, "para fora", e o valgo, "para dentro", que dá a impressão de um X —, o trofismo e os sinais flogísticos. **Sem carga**, com o paciente deitado, veem-se a integridade da pele, equimoses e atrofias musculares — e só então se procura o derrame.
 
@@ -143,10 +144,10 @@ observar: |
 titulo: Exame do quadril e do joelho em 10 passos
 itens:
   - "Marcha observada e descrita, com atenção a desvio do tronco, queda da hemipelve oposta e passo encurtado."
-  - "Nível das cristas ilíacas conferido em ortostase e comprimento dos membros medido quando há assimetria."
-  - "Eixo dos joelhos classificado em normal, varo ou valgo, com carga."
+  - "Nível das cristas ilíacas e eixo dos joelhos — normal, varo ou valgo — conferidos em ortostase, com o comprimento dos membros medido quando há assimetria."
   - "Trocanter maior, tuberosidade isquiática, espinhas ilíacas e sínfise púbica palpados um a um."
   - "Quadril mobilizado em todas as seis direções, com a rotação interna passiva medida e registrada em graus."
+  - "Teste de Patrick aplicado nos dois lados, com o lado da dor registrado como ipsilateral ou contralateral ao joelho movido."
   - "Derrame do joelho pesquisado com a perna estendida, empurrando a patela contra o sulco troclear."
   - "Interlinha articular medial e lateral, patela, tuberosidade anterior da tíbia, cabeça da fíbula e pata de ganso palpadas."
   - "Flexão e extensão do joelho medidas, com registro de crepitação e de hiperextensão acima de 10 graus."
@@ -216,9 +217,28 @@ texto: |
 :::
 
 ::: conceito
-titulo: Trendelenburg — três manobras, um só nome
+titulo: O teste de Patrick a serviço do quadril
 texto: |
-  Este é o epônimo mais perigoso do guia, porque aparece em **três lugares diferentes**, com significados que não se comunicam, e porque nas três a palavra vem sozinha. Um leitor que encontre "Trendelenburg" em um prontuário sem mais contexto **não sabe do que se está falando**. Este bloco existe para desarmar isso.
+  Esta é a manobra que o tópico de coluna vertebral prometeu que reapareceria aqui, e ela merece a promessa: **é o mesmo gesto respondendo a duas perguntas diferentes**, e o que decide qual das duas foi respondida é **onde o paciente diz que doeu**.
+
+  **O gesto, em uma linha.** Com o paciente deitado, flete-se quadril e joelho a 90 graus e apoia-se o **tornozelo sobre o joelho do lado oposto**; em seguida a coxa é **abduzida e rodada para fora**, em direção à mesa de exame. O acrônimo que a obra registra descreve exatamente isso: **FABERE**, de flexão, abdução e rotação externa. A técnica completa, com a mão do examinador sobre a crista ilíaca e a outra pressionando o joelho contralateral em direção à maca, está no tópico de coluna vertebral, que a ensina a serviço da sacroilíaca; aqui interessa a leitura.
+
+  **A leitura, que é topográfica e está na fonte com todas as letras.** Semiologia Clínica separa os dois resultados pelo lado em que a dor aparece:
+
+  - dor na **região posterior e do lado contrário** ao joelho que foi movido sugere acometimento das **sacroilíacas**;
+  - **dor ipsilateral à movimentação sugere doença coxofemoral**.
+
+  A mesma obra, no capítulo de lombalgia, diz o mesmo por outro eixo: o teste serve para diferenciar o comprometimento da articulação do quadril, com **dor anterior**, da sacroileíte, com **dor posterior**.
+
+  **Por que isso importa neste tópico e não só no da coluna.** O primeiro bloco deste tópico já registrou que a coxofemoral é profunda demais para localizar a própria dor, e a projeta na virilha, na coxa e no joelho. Patrick é uma das poucas manobras que devolve a informação que o paciente não consegue dar: ele **provoca a junta** e pede que a dor se declare de um lado. Somado à rotação interna medida em graus, ele compõe o par que o exame do quadril entrega antes de qualquer imagem.
+
+  **E o limite, que é de reprodutibilidade.** Na Tabela 5.1 de McGee, o teste de Patrick tem concordância entre observadores de **0,47** — apenas moderada, e mais baixa que a da rotação interna passiva, que fica em 0,51. Nenhuma das quatro obras adotadas mede a **acurácia** do teste, nem para a sacroilíaca nem para o quadril: ele é ensinado aqui como técnica, com atribuição, e **sem razão de verossimilhança**. O que se registra é o gesto e o lado da dor — não o rótulo "Patrick positivo", que não diz qual das duas perguntas foi respondida.
+:::
+
+::: conceito
+titulo: Trendelenburg — três coisas, um só nome
+texto: |
+  Este é o epônimo mais perigoso do guia, porque aparece em **três lugares diferentes**, com significados que não se comunicam, e porque nos três a palavra vem sozinha. E note que não são três manobras: a primeira é uma **marcha**, e só as outras duas são manobras. Um leitor que encontre "Trendelenburg" em um prontuário sem mais contexto **não sabe do que se está falando**. Este bloco existe para desarmar isso.
 
   **1. Marcha de Trendelenburg** — ensinada no tópico de marcha e sinais meníngeos. É um **modo de andar**. Os glúteos médio e mínimo abduzem o quadril, ação que sustenta a hemipelve oposta durante o apoio em um pé só; quando eles falham, a pelve **do lado oposto cai demais** a cada passo. Quando o problema é bilateral, a pelve ginga dos dois lados — a marcha comparada à do pato. McGee a separa da **marcha coxálgica**, da dor no quadril: nas duas o tronco pode inclinar-se sobre a perna doente, mas na coxálgica a inclinação é muito mais dramática e a pelve oposta **não** cai em excesso.
 
@@ -227,6 +247,8 @@ texto: |
   **3. Manobra, ou sinal, de Trendelenburg do quadril** — é a que interessa a este tópico. É a **versão estática** da primeira: em vez de observar o paciente andando, pede-se que ele **fique de pé sobre uma perna, com o outro quadril fletido a 90 graus**. Com abdutores competentes, a nádega do lado que está no ar **sobe**; com abdutores fracos, ela **cai**. McGee registra a origem: Friedrich Trendelenburg a inventou em **1895**, antes da radiologia, para provar que a marcha gingada da luxação congênita do quadril vinha de falha dos abdutores, e não do deslocamento do fêmur durante o apoio, como se acreditava.
 
   **A armadilha de execução, e ela é a fonte de erro mais comum:** **o lado testado é o que suporta o peso**, não o que está suspenso. Quem lê a queda da nádega como sinal do lado que caiu inverte o diagnóstico. E há um falso-positivo a conhecer: deformidades importantes do membro, como um **genu varum grave**, podem produzir queda sem que os abdutores estejam fracos.
+
+  **E ainda há um quarto sentido, que não é sinal nem manobra:** a **posição de Trendelenburg** — o decúbito com a cabeceira abaixada —, que o guia menciona no tópico de pulso venoso jugular e turgência, como distrator de uma pergunta sobre em que posição se caracteriza a turgência patológica. Quatro empregos do mesmo sobrenome, e nenhum deles se deduz dos outros.
 
   **A técnica completa está no tópico de marcha e sinais meníngeos**, e este tópico não a repete. O que ele acrescenta é o número — e o número está no próximo bloco.
 :::
@@ -259,7 +281,7 @@ texto: |
 
   **As outras bursas do quadril, para completar o diferencial.** Porto e McGee coincidem na topografia, e cada ponto tem endereço próprio:
 
-  - **Bursite iliopectínea**, ou do iliopsoas — tumefação e dor na metade do ligamento inguinal, por fora do ponto em que se palpa o pulso femoral; **estender** o quadril piora e **fletir** alivia.
+  - **Bursite iliopectínea**, ou do iliopsoas — tumefação e dor sobre o **terço médio** do ligamento inguinal, por fora do ponto em que se palpa o pulso femoral; **estender** o quadril piora e **fletir** alivia.
   - **Bursite isquiática ou isquioglútea** — dor e às vezes tumefação sobre a **tuberosidade isquiática**. Porto dá o apelido e a origem: **nádega de tecelão**, por permanência prolongada sentado em superfície dura.
 
   **E os três diagnósticos de dor no quadril que não são da junta nem da bursa**, todos de Semiologia Clínica: a **síndrome do piriforme**, com compressão do isquiático sob o músculo em contratura e piora à abdução e rotação medial; a **disfunção do trato iliotibial**, com dor na região distal da coxa à deambulação; e a **meralgia parestésica**, dor e parestesia na face anterolateral da coxa por compressão do nervo cutâneo femoral lateral junto à espinha ilíaca anterossuperior — cintos apertados são a causa que ela cita.
@@ -276,7 +298,7 @@ texto: |
 
   **Uma declaração necessária.** Muitos textos separam duas manobras de derrame — uma para o derrame volumoso, outra para o pequeno, com o líquido ordenhado do recesso suprapatelar. **Nenhuma das quatro obras adotadas por este guia descreve a segunda**, e por isso ela não é ensinada aqui. O que se ensina é o sinal da tecla, com a ressalva da própria fonte de que ele serve aos derrames volumosos.
 
-  **O derrame tem número — mas para outra pergunta.** No boxe EBM 57.5, o **derrame articular** em pacientes com trauma de joelho rende razão de verossimilhança **2,5** para fratura clinicamente significativa, e **0,5** quando ausente. É um número modesto, e diz respeito ao osso, não à sinovial. E a concordância entre observadores para **derrame visível** fica entre **0,28 e 0,59** — a mais baixa entre os achados do joelho na Tabela 5.1. Derrame é mais difícil de ver do que se supõe.
+  **O derrame tem número — mas para outra pergunta.** No boxe EBM 57.5, o **derrame articular** em pacientes com trauma de joelho rende razão de verossimilhança **2,5** para fratura clinicamente significativa, e **0,5** quando ausente. É um número modesto, e diz respeito ao osso, não à sinovial. E a concordância entre observadores para **derrame visível** fica entre **0,28 e 0,59** — está entre as mais baixas do joelho na Tabela 5.1, ao lado da dor na interlinha, do sinal de McMurray, da instabilidade mediolateral e da crepitação patelofemoral. Derrame é mais difícil de ver do que se supõe.
 
   **O alinhamento.** Porto descreve os dois desvios pela forma que eles desenham: no **joelho varo** (*genu varum*), fêmures e tíbias se arqueiam e os joelhos se afastam, lembrando a letra **O**; no **joelho valgo** (*genu valgum*), eles se aproximam de maneira anormal e a silhueta lembra a letra **X**. Semiologia Clínica usa as mesmas imagens. As causas que Porto lista: o varo é quase sempre congênito, mais raramente por raquitismo, acondroplasia ou doença de Paget; o valgo pode ser congênito ou consequência de raquitismo. **E o varo tem número**, no boxe EBM 57.4: razão de verossimilhança **3,4** para osteoartrite do joelho — enquanto o **valgo não alcança significância**, ocorrendo com a mesma frequência em quem tem e em quem não tem a doença.
 
@@ -286,7 +308,7 @@ texto: |
   - **Na face medial da tíbia proximal**, na inserção comum de sartório, grácil e semitendíneo — **bursite anserina**, ou da pata de ganso. Porto dá o sintoma que a identifica: **descer ou subir escadas fica extremamente difícil**.
   - **Sobre a tuberosidade anterior da tíbia**, em menino de 10 a 14 anos, com edema doloroso da proeminência e piora com saltos — **doença de Osgood-Schlatter**, apofisite de tração da tuberosidade tibial (Semiologia Clínica).
   - **Na interlinha articular**, medial ou lateral — sugere lesão meniscal, sobretudo nas rupturas anteriores; mas o número desse achado é fraco, e o bloco dos meniscos explica por quê.
-  - **No oco poplíteo**, com aumento de volume generalizado — **cisto de Baker**, que McGee define como a bursa gastrocnêmio-semimembranosa distendida, comunicante com a articulação. Semiologia Clínica o registra entre os achados da artrite reumatoide e alerta para os sintomas compressivos e para a rotura, cujo diferencial é a trombose venosa profunda. **O tópico de doença venosa crônica e trombose ensina esse diferencial**, com a equimose em crescente perto dos maléolos que denuncia a rotura, e não é repetido aqui.
+  - **No oco poplíteo**, com aumento de volume generalizado — **cisto de Baker**, que a Tabela 57.2 define como a **bursa semimembranosa** aumentada, comunicante com a articulação do joelho — no capítulo venoso, ao tratá-lo como imitador da trombose, o mesmo autor a chama de bursa gastrocnêmio-semimembranosa. Semiologia Clínica o registra entre os achados da artrite reumatoide e alerta para os sintomas compressivos e para a rotura, cujo diferencial é a trombose venosa profunda. **O tópico de doença venosa crônica e trombose ensina esse diferencial**, com a equimose em crescente perto dos maléolos que denuncia a rotura, e não é repetido aqui.
   - **Apreensão ao deslocar a patela lateralmente** — McGee: **luxação recorrente da patela**.
 
   **E as amplitudes, que também divergem.** Porto, no *Exame Clínico*: flexão **0° a 120°**, extensão **0° ou 180°**. Porto, na *Semiologia Médica*: flexão **30°** — valor que não se compatibiliza com o da outra obra do mesmo autor, e o guia registra a discrepância sem escolher. McGee: **130°**. Semiologia Clínica não tabula graus e oferece o limite da hiperextensão, **10 graus**. Duas cifras de flexão vão reaparecer com significado próprio: **120 graus** e **90 graus**.
@@ -552,7 +574,7 @@ texto: |
 :::
 
 ::: perola
-texto: "No joelho, o exame físico alcança números que quase nenhum outro segmento do corpo alcança: 97,8 para a gaveta posterior, 19,5 para Lachman, 16,2 para o estresse em varo. E, na mesma articulação, a dor na interlinha rende 1,8 e a concordância do McMurray fica em 0,16. A diferença entre um exame excelente e um exame inútil, aqui, cabe inteira na técnica."
+texto: "No joelho, o exame físico alcança números que quase nenhum outro segmento do corpo alcança: 97,8 para a gaveta posterior, 19,5 para Lachman, 16,2 para o estresse em varo. E, na mesma articulação, a dor na interlinha rende 1,8 e a concordância do McMurray vai de 0,16 a 0,35. A diferença entre um exame excelente e um exame inútil, aqui, cabe inteira na técnica."
 :::
 
 ::: secao
@@ -594,7 +616,7 @@ perguntas:
       - "A regra é inaplicável, porque a idade acima de 55 anos já constitui um dos cinco preditores"
       - "A regra sugere radiografia, uma vez que a ausência de dor óssea localizada não exclui fratura de planalto tibial"
       - "A regra é indiferente: positiva ou negativa, ela rende razão de verossimilhança em torno de 1,7 e não altera a decisão de radiografar"
-      - "A regra é negativa apenas se a idade também for considerada, e aos 57 anos o critério etário está preenchido, o que a torna positiva e indica radiografia"
+      - "A idade de 57 anos preenche sozinha um dos cinco preditores, e basta um deles: a regra é positiva e a radiografia está indicada, apesar dos demais itens negativos"
     corretaIndex: 3
     explicacao: "Os cinco preditores da Tabela 57.4 são idade de 55 anos ou mais, dor à palpação da cabeça da fíbula, dor isolada da patela, incapacidade de fletir a 90 graus e incapacidade de sustentar peso imediatamente e no pronto-socorro, definida como não transferir o peso duas vezes para cada membro. Basta um para indicar radiografia, e aos 57 anos o critério etário está preenchido. No boxe EBM 57.5, a idade de 55 anos ou mais rende razão de verossimilhança 3,0 isoladamente; a regra positiva rende 1,7 e a negativa, 0,1 — ela foi construída para dispensar radiografia com segurança, não para confirmar fratura."
   - id: osteo-quadril-5

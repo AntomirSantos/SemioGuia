@@ -99,7 +99,7 @@ texto: |
 
   **A primeira é regional**: examinar o tornozelo e o pé, que é onde estão dois dos melhores conjuntos de números de todo o exame osteoarticular — as **regras de Ottawa** do tornozelo e do médio-pé e os **três testes da rotura do tendão calcâneo**, este último com razões de verossimilhança que quase nenhum outro segmento alcança.
 
-  **A segunda é de síntese**: reunir, em um quadro final, os **padrões articulares** que o exame permite separar — osteoartrite, artrite reumatoide, gota e espondiloartrites — **pelo que se vê e se palpa**. Não por critério laboratorial, não por critério classificatório de sociedade e não por imagem. O capítulo inteiro converge para esse quadro, e o pé é o lugar certo para ele: é aqui que a gota se anuncia, é aqui que a artrite reumatoide acomete as metatarsofalangianas junto com as mãos, é aqui que a entesite das espondiloartrites escolhe morar, e é aqui que o desgaste mecânico deixa suas marcas.
+  **A segunda é de síntese**: reunir, em um quadro final, os **padrões articulares** que o exame permite separar — osteoartrite, artrite reumatoide, gota e espondiloartrites — **pelo que se vê e se palpa**. Não por critério laboratorial, não por critério classificatório de sociedade e não por imagem. O capítulo inteiro converge para esse quadro, e o pé é o lugar certo para ele: é aqui que a gota se anuncia, é aqui que a artrite reumatoide acomete as metatarsofalangianas junto com as mãos, é aqui que o desgaste mecânico deixa suas marcas — e é o segmento em que a entesite das espondiloartrites costuma ser procurada, embora as obras adotadas nomeiem a entesite como traço do grupo sem especificar os sítios.
 
   Vale relembrar a advertência editorial do primeiro tópico, porque este quadro depende dela: em boa parte das doenças musculoesqueléticas, **o achado de beira de leito é o próprio padrão diagnóstico**. O quadro-síntese não traz razão de verossimilhança porque não pode trazer — e é justamente isso que o torna clinicamente decisivo.
 :::
@@ -262,17 +262,18 @@ texto: |
 :::
 
 ::: conceito
-titulo: Amplitudes do tornozelo — a maior divergência do capítulo
+titulo: Amplitudes do tornozelo — a divergência que atinge mais movimentos
 texto: |
-  Semiologia Clínica lista os movimentos a avaliar: **dorsiflexão, flexão plantar, eversão, inversão, abdução e adução**, ativa e passivamente, com o joelho fletido. Os valores normais, porém, produzem aqui a maior discordância numérica de todo o capítulo — e ela é **interna a Porto** antes de ser entre obras.
+  Semiologia Clínica lista os movimentos a avaliar: **dorsiflexão, flexão plantar, eversão, inversão, abdução e adução**, ativa e passivamente, com o joelho fletido. Os valores normais, porém, produzem aqui **a discordância que atinge mais movimentos de uma só junta** — quatro dos cinco tabulados —, e ela é **interna a Porto** antes de ser entre obras. Não é a maior em magnitude: essa marca é do **joelho**, cuja flexão o *Exame Clínico* dá como 0° a 120° e a *Semiologia Médica* como 30°, uma razão de quatro vezes contra as duas vezes e um quarto do tornozelo; e não é a mais grave em natureza, porque a **rotação do quadril em extensão** é uma contradição de sentido, e não de grandeza. As três estão registradas no tópico anterior e neste.
 
   - **Dorsiflexão** — Porto, no *Exame Clínico*: **0° a 45°**. Porto, na *Semiologia Médica*: **20°**. McGee: **20°**. Uma obra dá mais que o dobro da outra, e o valor menor é o que McGee confirma.
   - **Flexão plantar** — Porto, no *Exame Clínico*: **0° a 45°**. Porto, na *Semiologia Médica*: **50°**. McGee: **45°**.
-  - **Inversão** — Porto, no *Exame Clínico*: **0° a 20°**. McGee: **30°**. Na *Semiologia Médica*, Porto lista o movimento **sem atribuir valor**.
+  - **Inversão** — Porto, no *Exame Clínico*: **0° a 20°**. McGee: **30°**.
   - **Eversão** — Porto, no *Exame Clínico*: **0° a 40°**. McGee: **20°**. Aqui a razão se inverte: Porto dá o dobro.
+  - E, para **os dois**, a *Semiologia Médica* de Porto **lista o movimento sem lhe atribuir valor** — silêncio que vale registrar, porque quem consultar aquela obra encontrará o nome do movimento e nenhum número.
   - **Metatarsofalangianas** — Porto, no *Exame Clínico*: flexão **0° a 45°** e extensão **0° a 45°**. McGee não as tabula separadamente.
 
-  Note o desenho da discordância: para a **dorsiflexão**, o *Exame Clínico* dá o dobro do que dão as outras duas fontes; para a **eversão**, dá o dobro do que dá McGee; e para a **inversão**, dá a metade. **Não há como conciliar as tabelas**, e este guia não tenta.
+  Note o desenho da discordância: para a **dorsiflexão**, o *Exame Clínico* dá o dobro do que dão as outras duas fontes; para a **eversão**, dá o dobro do que dá McGee; e para a **inversão**, dá **dois terços** do valor de McGee. **Não há como conciliar as tabelas**, e este guia não tenta.
 
   **A consequência prática é a regra que atravessa o capítulo inteiro, e aqui ela deixa de ser conselho e passa a ser necessidade:** a única régua utilizável é **o tornozelo contralateral do mesmo paciente**, medido na mesma posição de joelho. Registrar "dorsiflexão de 15 graus" contra uma tabela é registrar contra qual tabela? Registrar "dorsiflexão de 15 graus à direita e 25 à esquerda, com os joelhos fletidos" é um dado.
 :::
@@ -336,7 +337,7 @@ linhas:
     - "Crise com sinais flogísticos intensos, dor desproporcional e a junta muito sensível ao toque; nos anos seguintes, tofos — depósitos de urato no pavilhão auricular, no tendão calcâneo, no cotovelo e no primeiro artelho"
     - "Crises agudas recorrentes, frequentemente noturnas, separadas por período intercrítico assintomático; com o tempo os intervalos encurtam e instala-se artrite crônica com agudizações"
   - - "Espondiloartrites"
-    - "Esqueleto axial e sacroilíacas; artrite periférica assimétrica com predomínio nos membros inferiores; ênteses — tendão calcâneo, fáscia plantar"
+    - "Esqueleto axial e sacroilíacas; artrite periférica assimétrica com predomínio nos membros inferiores; ênteses, que Semiologia Clínica nomeia como grupo sem especificar os sítios"
     - "Sacroileíte, demonstrável pela palpação direta e pelas manobras de Patrick e de Gaenslen; limitação da mobilidade da coluna; entesite; achados extra-articulares: olho, pele, intestino e trato geniturinário, com a psoríase, inclusive a ungueal, perguntada ativamente"
     - "Lombalgia de padrão inflamatório, com dor que melhora ao movimento e piora à noite; conforme a coluna enrijece, a dor cede e a incapacidade cresce"
 :::
@@ -497,7 +498,7 @@ texto: |
 
   **O que essa tabela tem de excepcional.** McGee resume o conjunto em uma frase: os **três** sinais aumentam a probabilidade de rotura quando presentes, com razões de verossimilhança de **6,2 a 13,5**, e **os três a reduzem quando ausentes**, com razões de **0,05 a 0,3**. Isso é raro. Na maior parte deste capítulo — e do guia — os achados servem em uma direção só: o pivot shift confirma e não exclui; a frouxidão ao estresse em varo confirma e não exclui; as regras de Ottawa excluem e não confirmam. **Aqui os três testes fazem as duas coisas.**
 
-  **O melhor deles é o teste do aperto da panturrilha**, com **13,5** positivo e **0,05** negativo. Esse **0,05** é o número negativo mais forte de todo o capítulo — supera o 0,1 das regras de Ottawa e o 0,1 da gaveta posterior — e vem acompanhado de sensibilidade de **96%** e especificidade de **93%**, uma combinação que quase nenhum sinal físico consegue.
+  **O melhor deles é o teste do aperto da panturrilha**, com **13,5** positivo e **0,05** negativo. Esse **0,05** é o número negativo mais forte do capítulo **entre achados isolados** — supera o 0,1 das regras de Ottawa e o 0,1 da gaveta posterior — e vem acompanhado de sensibilidade de **96%** e especificidade de **93%**, uma combinação que quase nenhum sinal físico consegue. Só um resultado do capítulo vai além dele, e não é isolado: no ombro, a **ausência simultânea dos três achados da série de Murrell** rende **0,02**, no boxe EBM 57.2.
 
   **Por que três testes, se um é tão bom.** Porque cada um pode falhar por um motivo diferente, e os motivos não coincidem. A **falha palpável** desaparece quando o hematoma preenche o intervalo — e ela é a que tem a pior sensibilidade das três, **73%**. O **aperto da panturrilha** depende de o examinador comprimir o **terço médio**, no ponto certo e com força suficiente. O **teste de flexão do joelho** depende apenas de o paciente fletir os joelhos e de o examinador **olhar** — não exige palpação nenhuma —, e é por isso que ele sobrevive ao tornozelo muito doloroso. Fazer os três leva menos de um minuto e cobre as três falhas.
 

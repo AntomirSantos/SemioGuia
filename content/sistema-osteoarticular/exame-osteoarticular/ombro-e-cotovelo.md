@@ -490,7 +490,7 @@ nivel: avancado
 texto: |
   Esta é a tabela mais impressionante do capítulo, e ela merece ser lida devagar.
 
-  Isolados, e deixando de fora a ruptura palpável — que rende **10,2**, mas é achado que exige uma mão treinada e um ombro que permita palpar —, os achados que compõem essas séries chegam a **2,6 e 2,9**. Combinados três a três, chegam a **48** na série de Murrell e a **15,9** na de Park. E, na direção contrária, a ausência dos três rende **0,02** e **0,2** — e o **0,02** é um número que nenhum achado isolado deste capítulo alcança, já que o melhor negativo isolado para em 0,1.
+  Isolados, e deixando de fora a ruptura palpável — que rende **10,2**, mas é achado que exige uma mão treinada e um ombro que permita palpar —, os achados que compõem essas séries chegam a **2,6 e 2,9**. Combinados três a três, chegam a **48** na série de Murrell e a **15,9** na de Park. E, na direção contrária, a ausência dos três rende **0,02** e **0,2** — e o **0,02** é um número que nenhum achado isolado deste capítulo alcança, já que o melhor negativo isolado para em **0,05**, no teste do aperto da panturrilha do tópico de tornozelo e pé.
 
   **Como cada série foi montada.** Murrell combinou **sinais de impacto**, **fraqueza do supraespinal** e **fraqueza do infraespinal**; Park combinou **sinal de Hawkins**, **arco doloroso** e **fraqueza do infraespinal**. As duas séries usaram a **artroscopia** como padrão. Repare que a fraqueza do infraespinal está nas duas — é o achado que mais trabalha.
 

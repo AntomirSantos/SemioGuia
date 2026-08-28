@@ -49,6 +49,8 @@ tags:
   - abdução do polegar
   - oponência do polegar
   - força de preensão
+  - dinamômetro
+  - teste da subida da cadeira
   - artrite reumatoide
   - osteoartrite das mãos
   - razão de verossimilhança
@@ -63,6 +65,8 @@ referencias:
   - "Porto — Semiologia Médica, 8ª ed., Parte 17, Seção 2, cap. 162 (Doenças das Articulações, das Bursas e dos Tendões) — tendinites do punho e da mão, com a tenossinovite de De Quervain, os tendões do longo abdutor e do curto extensor do polegar, a compressão entre a apófise estiloide e o ligamento anular, a extensão da dor por 2 a 3 cm e a manobra de Finkelstein; tenossinovite estenosante, o ressalto à extensão do dedo e o dedo em gatilho, espontâneo ou associado à doença reumatoide; deformidades da mão reumatoide"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 57 (Examination of the Musculoskeletal System), p. 481-485 — Tabela 57.1 (amplitudes normais do punho, das articulações do carpo e dos dedos); Tabela 57.2 (achados articulares anormais e diagnóstico implicado, com as linhas de punho e carpo e as linhas dos dedos, incluindo cisto sinovial, contratura de Dupuytren, subluxação da ulna distal, osteoartropatia hipertrófica, dedo em gatilho, teste de Finkelstein, perda das pregas dos nós dos dedos, perda do relevo das cabeças dos metacarpos, desvio ulnar, pescoço de cisne, botoeira, dedo em martelo, nódulos de Heberden e de Bouchard e mão em luneta); a explicação de por que essas linhas não trazem razão de verossimilhança e o exemplo da artrite reumatoide diagnosticada pelo próprio achado de beira de leito"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 64 (Disorders of the Nerve Roots, Plexuses, and Peripheral Nerves), p. 599-604 — a síndrome do túnel do carpo como a neuropatia periférica mais comum do braço; definição operacional do sinal de Tinel (percussão da prega distal do punho sobre o mediano), do sinal de Phalen (flexão máxima do punho por 60 segundos), do teste de provocação por pressão (pressão firme dos polegares do examinador sobre a face palmar da prega distal por 60 segundos), do índice do punho quadrado e do sinal do sacudir a mão; diagrama da mão de Katz e os padrões clássico, provável e improvável, com a explicação anatômica de por que a palma fica de fora do padrão clássico; boxe EBM 64.3 (diagnóstico da síndrome do túnel do carpo, tendo a eletroneuromiografia como padrão)"
+  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 12 (Protein-Energy Malnutrition and Weight Loss), p. 82-83 — técnica da força de preensão palmar com dinamômetro de mola, três tentativas com 10 segundos de intervalo e registro do maior valor; a exclusão explícita dos pacientes com artrite, acidente vascular ou outra causa evidente de fraqueza; a improvisação histórica com manguito aneroide enrolado e insuflado a 20 mmHg; boxe EBM 12.1, em que a preensão reduzida rende razão de verossimilhança 2,5 e a preensão normal 0,4, tendo como desfecho a complicação pós-operatória maior"
+  - "Porto — Semiologia Médica, 8ª ed., cap. 8 (Exame Físico Geral), seção Sarcopenia, e Parte 20, cap. 181 (Semiologia do Idoso) — avaliação da força pela preensão palmar com dinamômetro isométrico, posicionamento do paciente sentado com ombros em abdução, cotovelo a 90 graus, antebraço neutro e punho entre 0 e 30 graus de dorsiflexão, com média de medidas repetidas; valores de referência abaixo de 30 kg em homens e de 20 kg em mulheres; a alternativa subjetiva do aperto de mão; e o teste da subida da cadeira, com corte de 15 segundos para cinco subidas, indicado quando a preensão é impossível por artrite ou sequela de acidente vascular"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 34, Tabela 5.1, seção Peripheral Nerve — concordância entre observadores para o diagrama da mão de Katz, o sinal do sacudir a mão, a hipoalgesia do indicador, o sinal de Tinel e o sinal de Phalen"
 revisao: pendente
 ---
@@ -127,7 +131,7 @@ passos:
   - "Teste o polegar em flexão, extensão, abdução e oponência: ele deve alcançar a base do quinto dedo e tocar a ponta de todos os outros."
   - "Complete com os pulsos radial e ulnar, o tempo de enchimento capilar e a palpação do nervo ulnar no cotovelo."
 observar: |
-  **A técnica dos quatro pontos, e por que ela existe.** Semiologia Clínica descreve o modo correto de palpar uma pequena junta: **polegares e indicadores das duas mãos**, sentindo o lado dorsal e o palmar da articulação e também as suas laterais. O que se procura é a **proliferação sinovial** — e a obra dá a textura, que é a parte difícil de aprender em texto: **consistência de borracha**. Uma junta com sinovite pode não estar quente nem vermelha; o que ela tem é essa espessura elástica que a palpação em pinça encontra e a palpação com um dedo só não encontra.
+  **A técnica dos quatro pontos, e por que ela existe.** Semiologia Clínica descreve o modo correto de palpar uma pequena junta: **polegares e indicadores das duas mãos**, sentindo os dois lados da articulação e também as suas laterais. Uma nota de vocabulário, feita em voz alta porque o guia declara suas escolhas: a obra escreve *volar e palmar*, dois termos que designam a mesma face; este guia lê o par como **dorsal e palmar**, que é o que a técnica exige, e registra a normalização em vez de fazê-la em silêncio. O que se procura é a **proliferação sinovial** — e a obra dá a textura, que é a parte difícil de aprender em texto: **consistência de borracha**. Uma junta com sinovite pode não estar quente nem vermelha; o que ela tem é essa espessura elástica que a palpação em pinça encontra e a palpação com um dedo só não encontra.
 
   **Fusiforme ou difuso — a pergunta que a palpação responde.** Semiologia Clínica dá o critério e ele é visual: quando o líquido está **dentro** da sinovial, o aumento é **simétrico** e o dedo toma o aspecto de **fuso**; quando a origem é **extrassinovial**, o aumento é **assimétrico e difuso**. É a distinção entre articular e periarticular do primeiro tópico deste capítulo, aplicada ao dedo.
 
@@ -160,6 +164,14 @@ svg: |
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
       <text x="10" y="16">Pescoço de cisne e botoeira — duas deformidades invertidas</text>
+    </g>
+    <path d="M 12 40 L 12 56" stroke-width="1" />
+    <path d="M 12 40 L 9 45 M 12 40 L 15 45" stroke-width="1" />
+    <path d="M 12 140 L 12 156" stroke-width="1" />
+    <path d="M 12 156 L 9 151 M 12 156 L 15 151" stroke-width="1" />
+    <g font-family="sans-serif" font-size="7" fill="currentColor" stroke="none">
+      <text x="19" y="38">dorso</text>
+      <text x="19" y="162">palma</text>
     </g>
     <path d="M 22 96 L 75 96" stroke-width="1.4" />
     <path d="M 75 96 L 105 114 L 140 88 L 160 108" stroke-width="2.2" />
@@ -340,7 +352,13 @@ texto: |
   - **Dois achados medidos, mas para outra pergunta.** No boxe EBM 64.3, a **fraqueza da abdução do polegar** rende razão de verossimilhança **1,8** e a **atrofia tenar**, **1,7**, ambas para síndrome do túnel do carpo. São números modestos, e valem para a compressão do mediano — não para "fraqueza da mão" em geral.
   - **Uma tradução funcional.** Porto, ao correlacionar queixa e topografia da fraqueza, associa a **dificuldade para manipular objetos, abrir garrafas e abotoar roupas** à fraqueza braquial distal. É uma pergunta de anamnese que vale por um teste.
 
-  **O que não existe nas obras adotadas.** Nenhuma delas fornece **valores de referência de dinamômetro**, ponto de corte de força de preensão em quilogramas-força, ou desempenho medido da preensão como sinal diagnóstico. Este guia, portanto, **não ensina um número de preensão** — ensina a graduar, a testar a oponência e a perguntar pelas tarefas que a mão deixou de fazer.
+  - **A preensão palmar, medida — mas para outra pergunta.** Ela **tem** instrumento, técnica e ponto de corte nas obras adotadas, e tem até razão de verossimilhança. O que ela não tem é validação como sinal de doença da mão.
+
+    **McGee**, no capítulo de desnutrição proteico-energética, descreve a técnica: o paciente aperta um dinamômetro de mola **três vezes, com 10 segundos de descanso** entre as tentativas, e se registra o maior valor; e guarda a improvisação histórica, para quem não tem o aparelho — enrolar um manguito aneroide de pressão em um cilindro de cerca de duas polegadas, insuflá-lo a **20 mmHg** e pedir que o paciente o aperte, lendo o resultado em milímetros de mercúrio. No boxe EBM 12.1, a **preensão reduzida** rende razão de verossimilhança **2,5**, e a preensão **normal**, **0,4** — mas o desfecho medido é **complicação pós-operatória maior**, não doença articular. E há a exclusão que decide o assunto: os estudos **excluíram justamente os pacientes com artrite**, acidente vascular ou outra causa evidente de fraqueza.
+
+    **Porto** dá o número brasileiro, no terreno da **sarcopenia**: dinamômetro isométrico com o paciente sentado, ombros em abdução, cotovelo fletido em ângulo reto, antebraço em posição neutra e punho entre 0 e 30 graus de dorsiflexão, com a média de medidas repetidas; os valores de referência são **abaixo de 30 kg em homens e de 20 kg em mulheres**. E oferece a saída para quem não consegue executar a preensão — em situação que ele nomeia, e que é a deste tópico: **artrite**. Nesse caso, mede-se o **teste da subida da cadeira**, o tempo para levantar-se cinco vezes da posição sentada, com corte de **15 segundos**.
+
+  **A leitura, portanto, é a mesma dos dois achados anteriores: medido, mas para outra pergunta.** A preensão prevê complicação cirúrgica e rastreia sarcopenia; **nenhuma das quatro obras a mede como sinal diagnóstico de doença da mão** — e a fonte que mais a mede exclui, do seu próprio denominador, o paciente com artrite. **O instrumento, a técnica e os cortes de 30 e 20 kg são ensinados no tópico de antropometria e hidratação**, e não são reensinados aqui. O que este tópico faz com a preensão é o que a fonte autoriza: registrar que ela caiu, e não confundir a queda com diagnóstico.
 
   **E a armadilha que fecha o assunto.** Força reduzida na mão pode vir da junta, do tendão, do músculo ou do nervo, e as quatro se examinam de modos diferentes. Uma mão que não fecha porque **dói** não é uma mão fraca; e o par movimento ativo contra movimento passivo, ensinado no primeiro tópico deste capítulo, é o que separa as duas coisas antes de qualquer teste especial.
 :::
@@ -363,7 +381,9 @@ texto: |
   - **Manobra de Phalen invertida** — Semiologia Clínica: essencialmente a mesma, com os punhos em **extensão máxima**.
   - **Teste de provocação por pressão** — McGee: os **polegares do examinador comprimem firmemente a face palmar da prega distal do punho por 60 segundos**. Mesmo desfecho positivo, estímulo diferente.
 
-  **Um detalhe que muda o interrogatório.** McGee registra por que o **padrão clássico** do diagrama de sintomas **exclui a palma**: o **ramo cutâneo palmar do mediano não passa dentro do túnel do carpo**. Formigamento que toma a palma inteira, portanto, fala contra a compressão nesse ponto — e essa é uma pergunta de história que não custa nada e que o exame não substitui.
+  **Um detalhe que muda o interrogatório — e que é fácil levar longe demais.** McGee registra por que o **padrão clássico** do diagrama de sintomas **exclui a palma**: o **ramo cutâneo palmar do mediano não passa dentro do túnel do carpo**. Mas o boxe não autoriza concluir que sintomas na palma afastem o diagnóstico: o padrão **provável** é definido como igual ao clássico **admitindo sintomas palmares**, e os dois entram na **mesma linha**, com a mesma razão de verossimilhança **2,4**. Sintomas na palma, portanto, movem o desenho de clássico para provável **dentro do mesmo grupo**, e não para fora dele.
+
+  **O que de fato argumenta contra é o padrão improvável**, definido pela ausência de sintomas nos **dedos 1, 2 e 3** — e é ele que rende **0,2**. A pergunta que vale, portanto, não é "dói na palma?", e sim "**o polegar, o indicador ou o médio estão dentro da queixa?**".
 :::
 
 ::: sinal
@@ -470,7 +490,7 @@ texto: |
 
   **Terceiro incômodo: os dois melhores achados nem sequer são manobras.** O **índice do punho quadrado** (**2,7**) é uma **medida antropométrica** — a razão entre o diâmetro anteroposterior e o mediolateral do punho, tomada com paquímetro na prega distal, considerada alterada a partir de **0,7**. E o **diagrama da mão de Katz** (**2,4** para o padrão clássico ou provável; **0,2** para o improvável) é **preenchido pelo próprio paciente**. O melhor achado negativo de toda a tabela, portanto, não é do médico: é o desenho que o paciente faz da própria mão quando os sintomas não tomam polegar, indicador nem médio.
 
-  **Quarto incômodo: os testes sensitivos instrumentais falham todos.** Discriminação de dois pontos, sensibilidade vibratória e **monofilamento** — os três **não alcançam significância** aqui. Vale reter o contraste com o pé diabético, em que o monofilamento é justamente o instrumento que funciona, como o tópico de sensibilidade e coordenação demonstra. **O mesmo instrumento, doenças diferentes, desempenhos opostos.**
+  **Quarto incômodo: os testes sensitivos instrumentais falham todos.** Discriminação de dois pontos, sensibilidade vibratória e **monofilamento** — os três **não alcançam significância** aqui. Vale reter o contraste com o pé diabético, em que o mesmo monofilamento **rende alguma coisa** — o tópico de sensibilidade e coordenação o descreve como preditor **modesto** de ulceração, com razão de verossimilhança 2,6, e melhor ainda pelo lado negativo, com 0,3 para amputação. **O mesmo instrumento, perguntas diferentes:** lá ele prevê a evolução de uma neuropatia estabelecida; aqui ele tenta separar uma compressão focal de outras causas de disestesia, e não consegue.
 
   **O que sobra, e é uma rotina inteira.** Perguntar onde formiga e pedir que o paciente aponte ou desenhe; comparar a dor do indicador com a do mínimo; olhar a eminência tenar dos dois lados; testar a abdução do polegar. Tinel e Phalen podem continuar sendo feitos — são inofensivos e fazem parte da linguagem comum —, desde que ninguém decide nada com eles.
 :::
@@ -537,7 +557,8 @@ texto: |
   - **Os dermátomos, o monofilamento de Semmes-Weinstein e a comparação com o diapasão de 128 Hz** estão em sensibilidade e coordenação — e é lá que se vê o mesmo monofilamento funcionando bem em outra doença.
   - **A graduação da força de 0 a 5**, o tônus e os reflexos bicipital, braquiorradial e tricipital estão em força, tônus e reflexos.
   - **As unhas, o ângulo de implantação e as lesões elementares da pele** estão em pele, mucosas e fâneros; o **baqueteamento digital** com o desempenho medido está na inspeção do tórax. A osteoartropatia hipertrófica, que a Tabela 57.2 associa à tumefação do punho com baqueteamento, atravessa os dois tópicos.
-  - **Os pulsos radial e ulnar e o tempo de enchimento capilar**, que a Tabela 4 de Semiologia Clínica inclui no exame da mão, estão no tópico de pulsos arteriais periféricos.
+  - **Os pulsos radial e ulnar e o tempo de enchimento capilar**, que a Tabela 4 de Semiologia Clínica inclui no exame do punho e da mão, estão no tópico de pulsos arteriais periféricos. O **nervo ulnar** aparece na mesma tabela, mas na linha do **cotovelo** — é lá que ele é acessível à palpação, e é assim que a fonte o organiza; este tópico o inclui no fecho do exame por continuidade do membro, e não por topografia.
+  - **A força de preensão palmar** — o dinamômetro, a técnica, os cortes de 20 kg em mulheres e de 30 kg em homens e a razão de verossimilhança 2,5 para complicação pós-operatória — está em antropometria e hidratação, junto do restante da avaliação de massa e função musculares. Este tópico apenas registra que a preensão caiu.
 :::
 
 ::: secao
@@ -616,7 +637,7 @@ perguntas:
       - "Que o sinal do sacudir a mão deve substituir o de Tinel na triagem, por ser quase perfeitamente reprodutível"
       - "Que a concordância alta do primeiro decorre de sua definição operacional imprecisa, ao contrário do que ocorre com o de Tinel"
       - "Nenhuma sobre acurácia: apesar da concordância quase perfeita, o sinal do sacudir a mão não alcança significância no boxe EBM 64.3"
-      - "Que ambos são inúteis, já que concordância abaixo de 0,60 e acima de 0,85 indicam, respectivamente, achado subjetivo e achado trivial"
+      - "Que o de Tinel tem concordância apenas moderada e o do sacudir a mão, quase perfeita, e que essa diferença de faixa já ordena o valor diagnóstico dos dois"
     corretaIndex: 2
-    explicacao: "Reprodutibilidade e acurácia são propriedades distintas. Na Tabela 5.1, o sinal do sacudir a mão alcança 0,90 e o diagrama da mão de Katz, 0,86; Phalen fica em 0,79, a hipoalgesia do indicador em 0,50 e Tinel em 0,47. No boxe EBM 64.3, porém, o sinal do sacudir a mão não alcança significância em nenhuma direção, enquanto a hipoalgesia, menos reprodutível, rende 3,1. Dois examinadores podem concordar quase sempre sobre um comportamento que ocorre com a mesma frequência em quem tem e em quem não tem a doença."
+    explicacao: "Reprodutibilidade e acurácia são propriedades distintas. Na Tabela 5.1, o sinal do sacudir a mão alcança 0,90 e o diagrama da mão de Katz, 0,86 — concordância quase perfeita pela escala do rodapé da própria tabela, que vai de 0 a 0,2 como leve, 0,2 a 0,4 como razoável, 0,4 a 0,6 como moderada, 0,6 a 0,8 como substancial e 0,8 a 1,0 como quase perfeita; Phalen fica em 0,79, a hipoalgesia do indicador em 0,50 e Tinel em 0,47. No boxe EBM 64.3, porém, o sinal do sacudir a mão não alcança significância em nenhuma direção, enquanto a hipoalgesia, menos reprodutível, rende 3,1. Dois examinadores podem concordar quase sempre sobre um comportamento que ocorre com a mesma frequência em quem tem e em quem não tem a doença."
 :::

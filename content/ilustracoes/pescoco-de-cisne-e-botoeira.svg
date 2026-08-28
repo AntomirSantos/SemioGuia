@@ -2,6 +2,14 @@
   <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
     <text x="10" y="16">Pescoço de cisne e botoeira — duas deformidades invertidas</text>
   </g>
+  <path d="M 12 40 L 12 56" stroke-width="1" />
+  <path d="M 12 40 L 9 45 M 12 40 L 15 45" stroke-width="1" />
+  <path d="M 12 140 L 12 156" stroke-width="1" />
+  <path d="M 12 156 L 9 151 M 12 156 L 15 151" stroke-width="1" />
+  <g font-family="sans-serif" font-size="7" fill="currentColor" stroke="none">
+    <text x="19" y="38">dorso</text>
+    <text x="19" y="162">palma</text>
+  </g>
   <path d="M 22 96 L 75 96" stroke-width="1.4" />
   <path d="M 75 96 L 105 114 L 140 88 L 160 108" stroke-width="2.2" />
   <circle cx="75" cy="96" r="4" stroke-width="1.4" />
