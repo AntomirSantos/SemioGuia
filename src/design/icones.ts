@@ -5,6 +5,7 @@ import {
   GitFork,
   Grid3x3,
   HeartPulse,
+  Ribbon,
   ScanFace,
   Stethoscope,
   Wind,
@@ -23,6 +24,7 @@ const mapaIcones: Record<string, LucideIcon> = {
   'scan-face': ScanFace,
   brain: Brain,
   'git-fork': GitFork,
+  ribbon: Ribbon,
 };
 
 export function obterIcone(chave: string): LucideIcon {

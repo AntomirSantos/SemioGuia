@@ -14842,11 +14842,32 @@
    ]
   },
   {
+   "id": "mamas-e-geniturinario",
+   "titulo": "Mamas e geniturinário",
+   "cor": "#2929D6",
+   "icone": "ribbon",
+   "ordem": 9,
+   "capitulos": [
+    {
+     "id": "exame-das-mamas",
+     "titulo": "Exame das mamas",
+     "ordem": 1,
+     "topicos": []
+    },
+    {
+     "id": "exame-geniturinario-e-retal",
+     "titulo": "Exame geniturinário e retal",
+     "ordem": 2,
+     "topicos": []
+    }
+   ]
+  },
+  {
    "id": "sistema-nervoso",
    "titulo": "Sistema nervoso",
    "cor": "#5B6ABF",
    "icone": "brain",
-   "ordem": 9,
+   "ordem": 10,
    "capitulos": [
     {
      "id": "exame-neurologico",
