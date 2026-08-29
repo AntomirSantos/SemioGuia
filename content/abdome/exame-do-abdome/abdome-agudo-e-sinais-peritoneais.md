@@ -257,7 +257,7 @@ texto: |
 
   **Sinal do obturador.** Baseia-se no mesmo princípio: estirar um músculo pélvico irritado pelo apêndice inflamado provoca dor. Para estirar o obturador interno direito, flete-se o quadril e o joelho direitos e faz-se a rotação interna do quadril.
 
-  **Toque retal.** Nos casos em que a inflamação se confina à pelve, o toque pode revelar sensibilidade, sobretudo à direita; e alguns pacientes com perfuração apresentam massa retal, correspondente a abscesso pélvico. Nos estudos, a sensibilidade ao toque retal não se mostrou útil para o diagnóstico — mas o exame continua indicado justamente para detectar o paciente raro, 2% ou menos, com abscesso pélvico e massa (McGee). A técnica do toque retal pertence a um capítulo próprio e não é descrita aqui.
+  **Toque retal.** Nos casos em que a inflamação se confina à pelve, o toque pode revelar sensibilidade, sobretudo à direita; e alguns pacientes com perfuração apresentam massa retal, correspondente a abscesso pélvico. Nos estudos, a sensibilidade ao toque retal não se mostrou útil para o diagnóstico — mas o exame continua indicado justamente para detectar o paciente raro, 2% ou menos, com abscesso pélvico e massa (McGee). A técnica completa do toque — posições, entrada, canal, ampola e próstata — é ensinada no tópico Toque retal, do sistema Mamas e geniturinário; os números do abdome agudo moram aqui.
 :::
 
 ::: manobra
