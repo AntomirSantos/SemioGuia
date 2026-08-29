@@ -595,3 +595,50 @@ Checklist do autor: itens K1–K7. Nota de modelo: os limites de gasto
 do fable (F11) e do opus (F12) foram atingidos; a fase fechou com
 sonnet nas verificações mecânicas e fable no portão final, sem redução
 de escopo declarada — o que cada modelo verificou está no ledger.
+
+## Adendo — Fase 13 (mamas e geniturinário)
+
+A fase criou o décimo sistema, "Mamas e geniturinário" (ordem 9, ícone
+ribbon, cor #2929D6 por busca em dois regimes — mínimos 4,80 visão
+normal / 3,93 daltonismo, os melhores da paleta), com dois capítulos e
+cinco tópicos: exame das mamas, nódulo mamário e descarga papilar,
+genitália masculina e hérnias, exame ginecológico e toque retal. Três
+ilustrações novas (quadrantes e raios da mama, canal inguinal e
+trajetos das hérnias, posições e ângulo do toque retal), 30 questões,
+5 checklists de 10 itens. A dívida nomeada do abdome agudo (l.260,
+"pertence a um capítulo próprio") foi paga nos dois sentidos: a técnica
+mora no tópico novo, os números seguem no abdome, e a frase aponta o
+destino real. Conteúdo `revisao: pendente`.
+
+Decisões editoriais da fase: profissionalismo dos exames íntimos como
+conteúdo de abertura ancorado (com os silêncios das obras declarados);
+a contingência do espéculo decidiu ENSINAR com atribuição (as três
+obras brasileiras trazem a técnica em nível de exame clínico geral;
+McGee não cobre o assunto); a célula "Dolorosa" da próstata normal no
+Quadro 18.1 de Porto foi reproduzida fiel e sinalizada ao leitor em
+vez de corrigida em silêncio (reconferida no PDF por implementadora e
+revisor); massagem prostática, raio horário, acompanhante da adulta e
+divisor epigástrico entraram como convenções declaradas.
+
+Registro de processo: T1 com re-medição de cor independente (duas
+implementações CIEDE2000 distintas, validadas contra Sharma e
+colour-science; a busca achou também uma colisão CVD pré-existente da
+paleta, item L2). T2 e T3 com revisão médica independente + micro-round
++ re-revisão escopada; a revisão derrubou autorreferências falsas do
+guia ("único número"), uma lateralidade invertida no título de SVG e
+uma atribuição a mais no aval da indistinguibilidade da torção; a
+implementação, por sua vez, derrubou uma atribuição de capítulo do
+próprio revisor (bacteriemia: cap. 133, provado pelos cabeçalhos e
+ratificado na re-revisão) — a revisão seguiu bidirecional. Revisão
+final com auditoria de costuras reversas (43 tópicos + 3 casos, zero
+deferrals órfãos), caminhada visual medida nos dois temas e busca
+validada ("próstata", "hérnia", "nódulo de mama").
+
+Gates finais: build 10 sistemas/48 tópicos/3 casos, jest 41/321, tsc,
+contraste AA, n-grama zerado em N=10 E N=9 nos cinco tópicos novos.
+Nota de modelo: dois abortos por limite de gasto (um micro-round e a
+primeira tentativa da revisão final), ambos retomados no mesmo modelo
+sem perda de estado e sem redução de escopo; estrutura e revisão
+estrutural no modelo mecânico, conteúdo e revisões médicas no portão
+principal — o detalhe de quem verificou o quê está no ledger da fase.
+Checklist do autor: itens L1–L8.

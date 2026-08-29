@@ -298,6 +298,52 @@ editorial, do autor. Marque cada caixa ao revisar.
   implícita entre escores clínicos (Wells, fora) e regras de achados
   físicos (Ottawa, dentro), nunca enunciada.
 
+## L. Itens da Fase 13 (mamas e geniturinário)
+
+- [ ] **L1 · Semântica da cor #2929D6** — azul puro escolhido por
+  otimização de separação em dois regimes (mínimos 4,80 visão normal /
+  3,93 daltonismo, os melhores da paleta), sem associação convencional
+  com mamas/GU; a semântica fica com o ícone ribbon. Override manual é
+  possível, ao custo medido de separação.
+- [ ] **L2 · Colisão CVD pré-existente da paleta** — cabeça-e-pescoço
+  (#C46B8F) × respiratório (#3BA48D) ficam com washes idênticos
+  (ΔE2000 = 0,00) sob deuteranopia no tema escuro, por arredondamento
+  8-bit do wash de 14% sobre o fundo #0f121c. Anterior à F13 e fora do
+  seu escopo; pendência global de paleta (cor nunca é canal único —
+  ícone+nome+posição seguram a distinção).
+- [ ] **L3 · Célula "Dolorosa" do Quadro 18.1 (Porto EC)** — a obra
+  imprime "Dolorosa" como sensibilidade da próstata NORMAL (reconferido
+  no PDF por dois revisores). O guia reproduz fiel e sinaliza a célula
+  em bloco de entendimento (gradiente: desconforto normal × dor extrema
+  da prostatite). Confirmar o tratamento ou decidir omitir a linha.
+- [ ] **L4 · Convenções declaradas sem âncora** — contraindicação da
+  massagem prostática na prostatite aguda (construída sobre dados de
+  Porto SM, nenhuma obra a formula); acompanhante para a paciente adulta
+  (âncora parcial: SC cap. 2, acolhimento; Porto SM só sistematiza para
+  a adolescente); raio horário da mama (notação de laudos, nenhuma obra
+  ensina); divisor dos vasos epigástricos no SVG do canal inguinal
+  (anatomia consolidada além das obras). Todas declaradas no texto;
+  endossar.
+- [ ] **L5 · Divergências carregadas lado a lado** — secreção esverdeada
+  (EC alarme ductal × SM perfil fisiológico; desempate pelos outros
+  eixos); paciente virgem (SM proíbe espéculo/toque × SC admite hímen
+  perfurado); drenagem axilar 75% (EC) × 97% (SM); Montgomery ×
+  Morgagni; ordem dos linfonodos no exame da mama; posição da palpação
+  mamária; toque retal (SM genupeitoral × SC três posições); testículo
+  direito anterior (SC) × esquerdo mais baixo (SM). Escolher lados ou
+  manter.
+- [ ] **L6 · Runs herdados da Fase 7 no abdome agudo** — 1 citação de
+  14 palavras entre aspas e atribuída (Figura 91.3 de Porto — sancionada,
+  mas longa) + 3 paráfrases de 9 palavras atribuídas (l.181, 252, 297),
+  anteriores à barra atual de N≥9. Nada introduzido pela F13. Reescrever
+  ou endossar como citações.
+- [ ] **L7 · Recall da busca "próstata"** — retorna só o tópico Toque
+  retal (correto por desenho: a próstata é ensinada lá). Tag opcional
+  em genitália masculina ampliaria o recall.
+- [ ] **L8 · Periodicidades datadas** — mamografia anual ≥40 (alto
+  risco ≥30) e Papanicolaou 25–60 (anual→trienal) entraram como
+  recomendações da 8ª ed. de Porto, datadas; envelhecem com diretrizes.
+
 ## C. Inconsistências antigas ainda abertas (Fases 1C–3)
 
 - [ ] **C1 · Faixa 37,6–37,8 °C** — "febrícula até 37,5 °C" convive com o
