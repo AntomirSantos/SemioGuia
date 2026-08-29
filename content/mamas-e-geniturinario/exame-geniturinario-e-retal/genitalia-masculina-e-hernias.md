@@ -142,7 +142,7 @@ itens:
 svg: |
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
-      <text x="10" y="16">Região inguinal esquerda, vista de frente</text>
+      <text x="10" y="16">Região inguinal direita, vista de frente</text>
     </g>
     <path d="M 36 58 L 196 138" stroke-width="2.2" />
     <path d="M 30 44 L 36 58" stroke-width="1.4" />
@@ -186,7 +186,7 @@ svg: |
       <text x="228" y="135">ligamento inguinal</text>
     </g>
   </svg>
-legenda: "Esquema do canal inguinal e dos trajetos das hérnias, na região inguinal esquerda vista de frente. O ligamento inguinal corre da espinha ilíaca anterossuperior ao púbis; acima dele ficam os dois anéis — o profundo, a meio caminho, e o superficial, junto ao púbis — ligados pelo canal (tracejado fino). A seta grossa é o trajeto da hérnia indireta: entra pelo anel profundo, lateral aos vasos epigástricos inferiores, percorre o canal, sai pelo anel superficial e pode descer até o escroto — é a hérnia inguinoescrotal de Porto. A seta curta é a hérnia direta, que abaúla a parede medialmente aos vasos, sem percorrer o canal. O círculo pontilhado marca a femoral (crural), abaixo do ligamento — a que mais encarcera, segundo a Semiologia Médica. O esforço (tosse ou Valsalva) é o que torna qualquer delas visível; a distinção entre direta e indireta pelo exame físico é aproximada, e as obras adotadas descrevem os tipos sem prometer separá-los com o dedo."
+legenda: "Esquema do canal inguinal e dos trajetos das hérnias, na região inguinal direita, vista de frente. O ligamento inguinal corre da espinha ilíaca anterossuperior ao púbis; acima dele ficam os dois anéis — o profundo, a meio caminho, e o superficial, junto ao púbis — ligados pelo canal (tracejado fino). A seta grossa é o trajeto da hérnia indireta: entra pelo anel profundo, lateral aos vasos epigástricos inferiores, percorre o canal, sai pelo anel superficial e pode descer até o escroto — é a hérnia inguinoescrotal de Porto. A seta curta é a hérnia direta, que abaúla a parede medialmente aos vasos, sem percorrer o canal. O círculo pontilhado marca a femoral (crural), abaixo do ligamento — a que mais encarcera, segundo a Semiologia Médica. O esforço (tosse ou Valsalva) é o que torna qualquer delas visível. O divisor desenhado — os vasos epigástricos inferiores separando a direta da indireta — é anatomia consolidada, além das obras adotadas: o Exame Clínico nomeia os tipos em seu roteiro, a Semiologia Médica descreve a indireta, e nenhuma promete separá-los com o dedo ao exame físico."
 :::
 
 ::: secao
@@ -214,7 +214,7 @@ titulo: Testículos e epidídimos — a palpação que compara
 texto: |
   A palpação é, na frase da *Semiologia Médica*, o método de maior valor no exame dos testículos — e tem três qualidades obrigatórias: **delicada** (dói na inflamação aguda; há risco descrito de disseminação nas neoplasias), **comparativa** (um testículo contra o outro, como a mama contra a outra mama) e **completa** (testículo, epidídimo, deferente, cordão — nessa ordem, até o anel inguinal externo).
 
-  **O testículo normal**: superfície lisa, formato ovoide, consistência elástica — a comparação clássica é com o globo ocular —, em torno de 25 mℓ no adulto. Semiologia Clínica registra as dimensões aproximadas e lembra que o lado direito costuma ficar mais alto; a *Semiologia Médica* prefere o dado espelhado — o esquerdo mais baixo — e ambas dizem o mesmo. **Testículos pequenos** apontam hipogonadismo ou síndromes genéticas como a de Klinefelter.
+  **O testículo normal**: superfície lisa, formato ovoide, consistência elástica — a comparação clássica é com o globo ocular —, em torno de 25 mℓ no adulto. Semiologia Clínica registra as dimensões aproximadas e nota o testículo direito geralmente anterior ao esquerdo; a *Semiologia Médica* dá a contraparte — o esquerdo situa-se mais baixo. **Testículos pequenos** apontam hipogonadismo ou síndromes genéticas como a de Klinefelter.
 
   **O epidídimo** fica acima e atrás do testículo, e a manobra que o individualiza tem nome: **Chevassu** — fazê-lo deslizar entre o indicador e o polegar, reconhecendo cabeça, corpo e cauda. Aumento **regular e difuso** com dor intensa é a epididimite aguda; aumento **irregular, multinodular**, endurecido e de evolução lenta sugere o processo tuberculoso. Massas epididimárias — espermatocele, cistos — são, em regra, benignas: a espermatocele é cística, indolor, móvel, **acima do testículo**, e transilumina.
 
@@ -267,6 +267,9 @@ linhas:
   - - "Torção do cordão"
     - "Dor espontânea e à palpação, edema, pele avermelhada; urgência pela isquemia"
     - "Não"
+  - - "Cistos epidermoides"
+    - "Lesões císticas indolores na pele da bolsa, de consistência firme, sem sinais inflamatórios"
+    - "Sim"
   - - "Epididimite tuberculosa"
     - "Aumento à custa do epidídimo, evolução lenta, pode doer"
     - "Não"
@@ -290,7 +293,7 @@ linhas:
 ::: entendimento
 titulo: As cinco perguntas que ordenam a bolsa escrotal
 texto: |
-  A *Semiologia Médica* condensa o raciocínio das massas escrotais em cinco perguntas, e vale decorá-las porque cada uma corta a lista ao meio: **é agudo ou crônico? dói ou não dói? está confinado ao escroto ou vem de cima? transilumina ou não? reduz ou não reduz?** Torção, orquite e epididimite aguda são agudas e dolorosas; tumor, hidrocele, espermatocele e hérnia são crônicos e indolores; só hidrocele, espermatocele e cisto do cordão transiluminam; só a hérnia costuma reduzir; e só a hérnia e a hidrocele do cordão vêm de cima — o que os dedos, tentando passar acima da massa, respondem. Cinco perguntas, respondidas com lanterna, dedos e decúbito, resolvem o essencial antes de qualquer exame de imagem.
+  A *Semiologia Médica* condensa o raciocínio das massas escrotais em cinco perguntas, e vale decorá-las porque cada uma corta a lista ao meio: **é agudo ou crônico? dói ou não dói? está confinado ao escroto ou vem de cima? transilumina ou não? reduz ou não reduz?** Torção, orquite e epididimite aguda são agudas e dolorosas; tumor, espermatocele e hérnia, crônicos e indolores — e a hidrocele figura nas duas listas da obra: em geral lenta e indolor, mas com formas agudas, traumáticas ou neoplásicas (a hidrocele que se instala depressa do boxe do escroto agudo). Só hidrocele, espermatocele e cisto do cordão transiluminam; redutíveis, no roteiro, apenas a hérnia inguinoescrotal e a varicocele; e as tumefações que não se confinam ao escroto são duas — a hérnia inguinal e a hidrocele comunicante (infantil) —, o que os dedos, tentando passar acima da massa, respondem. A hidrocele do cordão, encistada, não se comunica com a cavidade acima — e é dela o caso-limite do anel em que nem a lanterna decide. Cinco perguntas, respondidas com lanterna, dedos e decúbito, resolvem o essencial antes de qualquer exame de imagem.
 :::
 
 ::: conceito
@@ -349,7 +352,7 @@ texto: |
 
   **A torção pelos achados.** Idade típica em torno da **puberdade** (a intravaginal, entre 10 e 15 anos; rara acima dos 35 — a extravaginal é da primeira infância). Dor lancinante, súbita, às vezes precedida de crises que passaram sozinhas (torção intermitente) ou irradiada da virilha. Ao exame: testículo tumefato, extremamente doloroso, **elevado** — o encurtamento do cordão e o espasmo cremastérico, que a *Semiologia Médica* e Semiologia Clínica nomeiam **sinal de Brunzel** — e **horizontalizado** (sinal de Angell); o epidídimo não é palpável na posição habitual; muito precocemente pode haver a umbilicação da pele escrotal inferior (sinal de Ger). O **reflexo cremastérico está geralmente abolido** na torção — e presente na orquiepididimite e na torção do apêndice testicular, cuja marca própria é o nódulo doloroso no polo superior com a **mancha azul** visível.
 
-  **O sinal de Prehn**, com sua âncora declarada: Semiologia Clínica o define — a dor que **alivia quando o examinador eleva mecanicamente o testículo**, o que só acontece na orquiepididimite — e o oferece como auxiliar do diferencial com a torção. A *Semiologia Médica* traz o mesmo fato sem o epônimo: na orquite aguda, a elevação manual do testículo reduz a dor. O guia ensina o sinal com o nome que Semiologia Clínica lhe dá e com a ressalva que as próprias fontes impõem: as duas obras de Porto admitem que a torção pode ser **indistinguível** da epididimite e da orquite ao exame físico, e a hiperestesia da torção muitas vezes impede a palpação que os sinais exigem.
+  **O sinal de Prehn**, com sua âncora declarada: Semiologia Clínica o define — a dor que **alivia quando o examinador eleva mecanicamente o testículo**, o que só acontece na orquiepididimite — e o oferece como auxiliar do diferencial com a torção. A *Semiologia Médica* traz o mesmo fato sem o epônimo: na orquite aguda, a elevação manual do testículo reduz a dor. O guia ensina o sinal com o nome que Semiologia Clínica lhe dá e com a ressalva que as próprias fontes impõem: a *Semiologia Médica* admite — por duas vezes — que a torção pode ser **indistinguível** da epididimite e da orquite ao exame físico, e a hiperestesia da torção muitas vezes impede a palpação que os sinais exigem.
 
   **O desempate não é clínico.** Porto encerra o boxe com a frase que decide a conduta: a **ultrassonografia é fundamental** para a comprovação — com Doppler avaliando o fluxo, acrescenta a *Semiologia Médica*. Nenhum sinal isolado autoriza esperar.
 :::
@@ -447,7 +450,7 @@ perguntas:
       - "Solicitar exame de urina e aguardar o resultado para diferenciar torção de orquiepididimite antes de qualquer outra medida"
       - "Tratar como torção testicular — emergência com prazo — e obter ultrassonografia imediata para comprovação, sem que nenhum sinal isolado autorize esperar"
     corretaIndex: 3
-    explicacao: "O quadro reúne os achados típicos da torção: idade puberal, dor súbita e intensa, testículo elevado — o sinal de Brunzel — e deitado na horizontal, o sinal de Angell, reflexo cremastérico abolido. Semiologia Clínica a rotula de emergência médica — o atraso custa o testículo — e Porto encerra o boxe do escroto agudo dizendo que a ultrassonografia é fundamental para a comprovação. O sinal de Prehn alivia a dor apenas na orquiepididimite, mas as duas obras de Porto admitem que torção e epididimite podem ser indistinguíveis ao exame físico; nenhum sinal isolado, urina ou prova de elevação autoriza observação."
+    explicacao: "O quadro reúne os achados típicos da torção: idade puberal, dor súbita e intensa, testículo elevado — o sinal de Brunzel — e deitado na horizontal, o sinal de Angell, reflexo cremastérico abolido. Semiologia Clínica a rotula de emergência médica — o atraso custa o testículo — e Porto encerra o boxe do escroto agudo dizendo que a ultrassonografia é fundamental para a comprovação. O sinal de Prehn alivia a dor apenas na orquiepididimite, mas a Semiologia Médica admite que torção e epididimite podem ser indistinguíveis ao exame físico; nenhum sinal isolado, urina ou prova de elevação autoriza observação."
   - id: gu-genitalia-4
     enunciado: Homem de 52 anos desenvolve, em poucas semanas, varicocele volumosa à direita, que não desaparece quando ele deita. O que esse conjunto exige?
     alternativas:
