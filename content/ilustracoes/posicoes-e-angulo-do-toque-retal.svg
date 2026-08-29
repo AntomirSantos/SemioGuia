@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="10" y="16">Toque retal — duas posições e o alvo anterior</text>
+  </g>
+  <path d="M 12 128 L 100 128" stroke-width="1.2" />
+  <circle cx="26" cy="106" r="7" stroke-width="1.6" />
+  <path d="M 33 110 L 62 116" stroke-width="1.8" />
+  <path d="M 62 116 L 76 104 L 86 116" stroke-width="1.8" />
+  <path d="M 62 116 L 74 110 L 86 122" stroke-width="1.4" />
+  <path d="M 40 114 L 50 124" stroke-width="1.4" />
+  <g font-family="sans-serif" font-size="7" fill="currentColor" stroke="none">
+    <text x="14" y="142">Sims: decúbito lateral</text>
+    <text x="14" y="151">esquerdo, coxas fletidas</text>
+  </g>
+  <path d="M 116 128 L 204 128" stroke-width="1.2" />
+  <path d="M 138 128 L 148 128" stroke-width="1.8" />
+  <path d="M 148 128 L 150 96" stroke-width="1.8" />
+  <path d="M 150 96 L 180 116" stroke-width="1.8" />
+  <path d="M 174 112 L 184 126" stroke-width="1.4" />
+  <circle cx="190" cy="118" r="7" stroke-width="1.6" />
+  <g font-family="sans-serif" font-size="7" fill="currentColor" stroke="none">
+    <text x="120" y="142">genupeitoral: joelhos e</text>
+    <text x="120" y="151">tórax apoiados na mesa</text>
+  </g>
+  <path d="M 258 178 Q 252 140 246 118 Q 243 106 246 92" stroke-width="1.6" />
+  <path d="M 274 178 Q 270 146 264 122 Q 261 108 262 92" stroke-width="1.6" />
+  <circle cx="238" cy="138" r="9" stroke-width="1.8" />
+  <path d="M 284 196 L 266 178 L 256 150" stroke-width="2.2" />
+  <path d="M 253 156 L 256 150 L 261 153" stroke-width="1.4" />
+  <path d="M 296 130 L 296 108" stroke-width="1.2" />
+  <path d="M 293 112 L 296 108 L 299 112" stroke-width="1" />
+  <path d="M 232 170 L 214 170" stroke-width="1.2" />
+  <path d="M 218 167 L 214 170 L 218 173" stroke-width="1" />
+  <path d="M 226 137 L 229 138" stroke-width="0.8" />
+  <g font-family="sans-serif" font-size="7" fill="currentColor" stroke="none">
+    <text x="252" y="192">margem anal</text>
+    <text x="200" y="128">próstata, na</text>
+    <text x="200" y="137">parede anterior,</text>
+    <text x="200" y="146">a 3–4 cm</text>
+    <text x="288" y="102">cranial</text>
+    <text x="196" y="180">anterior</text>
+    <text x="238" y="86">alcance ~10 cm</text>
+  </g>
+</svg>
