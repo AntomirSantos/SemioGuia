@@ -20911,7 +20911,568 @@
      "id": "exame-da-crianca",
      "titulo": "O exame da criança",
      "ordem": 1,
-     "topicos": []
+     "topicos": [
+      {
+       "id": "semiologia-da-crianca/exame-da-crianca/abordagem-e-anamnese-da-crianca",
+       "titulo": "Abordagem e anamnese da criança",
+       "sistemaId": "semiologia-da-crianca",
+       "capituloId": "exame-da-crianca",
+       "ordem": 1,
+       "tags": [
+        "semiologia da criança",
+        "pediatria",
+        "consulta pediátrica",
+        "anamnese pediátrica",
+        "anamnese por interposta pessoa",
+        "informante",
+        "acompanhante",
+        "relação médico-família",
+        "recém-nascido",
+        "lactente",
+        "pré-escolar",
+        "escolar",
+        "adolescente",
+        "etapas da infância",
+        "antecedentes gestacionais",
+        "parto e período neonatal",
+        "Caderneta de Saúde da Criança",
+        "índice de Apgar",
+        "aleitamento materno",
+        "vacinação",
+        "desenvolvimento neuropsicomotor",
+        "dislalia fisiológica",
+        "choro",
+        "exame oportunista",
+        "contenção",
+        "consentimento do responsável",
+        "assentimento da criança",
+        "privacidade do adolescente",
+        "confidencialidade",
+        "sigilo médico",
+        "quebra de sigilo",
+        "Estatuto da Criança e do Adolescente",
+        "exame psíquico da criança",
+        "entrevista com os pais",
+        "estação OSCE"
+       ],
+       "referencias": [
+        "Porto — Semiologia Médica, 8ª ed., Parte 20, cap. 179 (Semiologia da Infância) — Introdução (etapas da infância e da adolescência); Consulta pediátrica (Pedro de Alcântara e a assistência global; a adesão dependente da relação médico-família); Relação médico-paciente em pediatria; Anamnese e exame físico (o tradutor que mal compreende a linguagem da criança; o choro e a reordenação da sequência clássica; a ausculta pulmonar facilitada pelo choro); Recém-nascido — anamnese (a queixa informada pelo responsável e o exemplo da 'dor' que era fome; interrogatório por sistemas; antecedentes da gestação, do parto e da família; vacinação pela Caderneta de Saúde da Criança; alimentação; desenvolvimento neuropsicomotor); Lactente, pré-escolar e escolar — anamnese (cotidiano, prevenção de acidentes, laços afetivos, ansiedade de separação, o diálogo com a criança a partir dos 3 a 4 anos, a inteligibilidade da fala aos 2 e aos 4 anos) e exame físico (procedimentos temidos deixados para o fim e previamente informados; exame por decúbitos no lactente; boxe Avaliação inicial da criança, com a revisão sistemática de Van den Bruel et al., 2010); boxe Não interrompa o relato da história clínica (Groopman, 2008)",
+        "Porto — Semiologia Médica, 8ª ed., Parte 3, cap. 6 (Anamnese) — Anamnese em pediatria: a informação obtida por intermédio da mãe ou de outro convivente, a tendência de pais e avós a interpretar em vez de relatar, a anamnese totalmente dirigida e o relacionamento com a mãe como parte integrante do exame clínico da criança; Antecedentes pessoais fisiológicos (gestação e nascimento, desenvolvimento psicomotor e neural)",
+        "Porto — Semiologia Médica, 8ª ed., Parte 2, cap. 4 (Ensino/Aprendizagem da Relação Médico-Paciente) — a relação com a criança como relação com toda a família; o medo do médico e dos aparelhos e as ameaças culturais; as dicas de segurança do Conselho Federal de Medicina sobre o acompanhante; Parte 3, cap. 5 (Fundamentos do Método Clínico) — a recomendação de Marcondes sobre o exame da criança",
+        "Porto — Semiologia Médica, 8ª ed., Parte 20, cap. 180 (Semiologia da Adolescência) — Consulta médica do adolescente: o direito ao atendimento sem os pais, a confidencialidade como direito (art. 74 do Código de Ética Médica, CFM 2010), as situações de quebra de sigilo e o dever de informar o adolescente antes; Etapas da consulta (os três tempos); Exame físico — recomendações (pudor, privacidade, outro profissional de saúde na sala, esclarecimento prévio do exame genital e respeito à recusa)",
+        "Porto — Semiologia Médica, 8ª ed., Parte 19, cap. 176 (Exame Clínico) — Exame psíquico da criança: o aviso 1 a 2 dias antes da consulta, os jogos, desenhos e brinquedos, o caráter confidencial da entrevista com crianças maiores e adolescentes, a expressão espontânea até os 5 ou 6 anos e a repressão na criança maior; Roteiro para entrevista com os pais de uma criança na consulta psiquiátrica",
+        "Porto — Exame Clínico, 8ª ed., cap. 4 (Anamnese) — Anamnese em pediatria; cap. 6 (Sinais e Sintomas), Exame dos sons — dislalia fisiológica na criança até os 4 anos de idade",
+        "Semiologia Clínica, 1ª ed., cap. 66 (Semiologia do adolescente) — Introdução (a adolescência da OMS, 10 a 19 anos, ao lado da definição do ECA, 12 a 18); Particularidades e aspectos éticos da consulta do adolescente: privacidade, confidencialidade e sigilo (ECA, art. 7º; Código de Ética Médica, arts. 74 e 78), as situações que justificam a quebra de sigilo e o dever de informar primeiro o adolescente, e as três etapas da consulta no Instituto da Criança e do Adolescente do HC-FMUSP"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Um encontro clínico com três cadeiras",
+         "texto": "Este capítulo não é um curso de pediatria — é o mapa das **particularidades do exame** quando o paciente é uma criança. E a primeira particularidade muda tudo: na maior parte das consultas pediátricas, quem descreve a doença não é quem a sente. Porto formula sem rodeios: o paciente precisa de um **tradutor** — e esse tradutor, com frequência, compreende mal a linguagem que traduz. Colher dados fidedignos sobre uma criança pequena, diz a *Semiologia Médica*, exige mais arte do que técnica.\n\nA segunda particularidade é o estatuto do acompanhante. No adulto, o acompanhante é fonte complementar; aqui, a obra eleva a mãe a outra categoria: **relacionar-se com ela já é examinar a criança** — o capítulo de anamnese manda observar, durante toda a entrevista, o comportamento materno e os traços psicológicos que ele revela, e trata essa observação como parte do próprio exame clínico, não como cortesia. E a relação nunca é com uma pessoa só: relacionar-se com criança, ensina Porto, é relacionar-se com a família inteira, porque a criança não procura o médico sozinha — e é dessa relação com a família, diz o capítulo 179, que a adesão ao tratamento depende por completo.\n\nA terceira é a postura. O capítulo 179 pede delicadeza e gentileza como condição técnica — dar segurança à criança e respeitar sua vulnerabilidade afetiva —, e a obra resume tudo registrando a recomendação de Marcondes: examinar uma criança é fruto de **\"muita paciência, doçura e carinho\"**. As etapas que organizam este capítulo são as do próprio Porto: **recém-nascido** (0 a 28 dias), **lactente** (29 dias a 2 anos), **pré-escolar** (2 a 7 anos), **escolar** (7 a 10 anos) e **adolescente** (10 a 19 anos).\n\n**O que este tópico ensina:** a anamnese feita por interposta pessoa e suas armadilhas; os segmentos que só a anamnese pediátrica tem; o exame físico oportunista — a ordem que se curva ao choro —; e o profissionalismo como conteúdo: quem consente, quem assente, e o que muda quando o paciente é adolescente. O crescimento, os sinais vitais e a hidratação são o tópico seguinte; o exame por fases etárias — do recém-nascido aos estágios de Tanner — fecha o capítulo.\n\n**Onde estão os números deste capítulo.** McGee não tem capítulo nem seção sistemática de semiologia pediátrica — a auditoria das obras confirmou o silêncio, e este capítulo o declara em vez de disfarçá-lo, como o guia já fez com o exame ginecológico e o psíquico. O que há de quantificado vem das obras brasileiras: as faixas etárias, as frequências por idade (no próximo tópico) e uns poucos marcos com idade definida, sempre atribuídos.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A anamnese por interposta pessoa — e suas armadilhas",
+         "texto": "A *Semiologia Médica* dedica à anamnese pediátrica uma seção do capítulo geral de anamnese, e as armadilhas que lista valem decorar:\n\n- **Interpretar não é relatar.** Pais — e avós, principalmente — tendem a entregar conclusões em vez de observações. O recém-nascido chora mais que o habitual e a família já traduz: \"está com dor de ouvido\", a partir de indícios frágeis ou de pura suposição. O capítulo 179 dá o exemplo clássico na direção oposta: a mãe relata que o bebê está \"com dor\"; posto ao seio, ele mama, sacia-se e dorme — a queixa era fome. O examinador recebe a interpretação, agradece — e volta ao dado bruto: o que exatamente a criança fez, quando, por quanto tempo.\n- **A anamnese é totalmente dirigida.** Não existe relato espontâneo da criança pequena; cada informação precisa ser perguntada. Isso cobra método: o interrogatório por sistemas do recém-nascido, no capítulo 179, pergunta ativamente pelo sono (o recém-nascido dorme cerca de 16,5 horas por dia na primeira semana, 15,5 ao fim do primeiro mês), pela amamentação, pelas características das fezes e dos vômitos, pelo número de micções no dia — e, no menino, pela força do jato urinário: jato fraco e curto levanta a possibilidade de válvula de uretra posterior.\n- **Não interrompa.** O boxe do capítulo 179 cita a observação de Groopman (2008): o tempo médio entre o médico perguntar aos pais o que está acontecendo e atropelá-los com a pergunta seguinte é de **18 segundos** — e informações importantes viriam depois, se o relato pudesse continuar.\n- **A criança também fala.** A partir dos **3 a 4 anos de idade**, o capítulo 179 manda estabelecer diálogo com a própria criança durante a consulta. Ela deixa progressivamente de ser só o assunto da conversa. Um marco ajuda a calibrar a expectativa: aos 2 anos, cerca de metade da fala da criança deve ser inteligível; aos 4, quase toda — e o *Exame Clínico* lembra que a **dislalia fisiológica**, a troca ou supressão de sílabas e letras (\"potão\" por portão), é normal até os 4 anos.\n\nEnquanto o informante fala, o exame já começou: o comportamento da mãe, os vínculos que a cena revela entre ela e a criança, a linguagem gestual dos dois — tudo, diz Porto, deve ser motivo da atenção do médico.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Os segmentos que só a anamnese pediátrica tem",
+         "texto": "A estrutura geral — queixa, HDA, interrogatório, antecedentes — é a mesma que o sistema Anamnese deste guia já ensinou, incluindo os antecedentes fisiológicos de gestação e nascimento e os marcos gerais do desenvolvimento. O que o capítulo 179 acrescenta é profundidade proporcional à idade: quanto mais nova a criança, mais a história começa **antes dela**.\n\n- **Gestação:** duração (pré ou pós-termo), intercorrências como diabetes gestacional e infecção urinária próxima ao parto, via de parto, os exames da gestante — toxoplasmose, hepatites B e C, HIV, HTLV, citomegalovírus, sífilis, rubéola —, alterações fetais à ultrassonografia e o tipo sanguíneo materno ABO-Rh.\n- **Parto e período neonatal:** intercorrências (aspiração de mecônio, trabalho de parto prolongado), o **índice de Apgar registrado na Caderneta de Saúde da Criança**, choro ao nascer, necessidade de reanimação ou oxigênio, passagem por terapia intensiva (peça o relatório), icterícia, peso, estatura e idade gestacional ao nascimento.\n- **Alimentação:** se está em aleitamento materno exclusivo — que Porto registra como a melhor opção até o sexto mês de vida —; se desmamou, o motivo; se usa outro leite, qual, como é diluído, preparado e oferecido. As condutas de puericultura ficam fora deste guia; a pergunta, não.\n- **Vacinação:** verifica-se **na Caderneta de Saúde da Criança**, contra o Calendário Nacional de Imunizações — que o capítulo 179 reproduz e este guia trata como **moldura nomeada**: o calendário muda com os anos (a própria obra registra mudanças recentes de esquema), e decorá-lo aqui envelheceria o tópico sem ensinar semiologia. O gesto clínico é abrir a caderneta em toda consulta.\n- **Desenvolvimento neuropsicomotor:** a abordagem do capítulo 179 começa com uma pergunta aberta — *\"o que ele está fazendo atualmente?\"* — e compara a resposta com uma escala de padrões; a obra cita a tabela do Ministério da Saúde (2002) para essa avaliação, outra moldura nomeada. Na criança maior, o desempenho escolar vira o termômetro do desenvolvimento. Os marcos com idade que Porto fornece na anamnese geral já moram no tópico de antecedentes do sistema Anamnese e não se repetem aqui.\n\nA anamnese do **lactente** acrescenta o cotidiano: sono, alimentação, funções fisiológicas, prevenção de acidentes domésticos, e — com o mesmo peso — os **laços afetivos**: o que os pais sentem em relação ao filho, como leem o temperamento dele, como reagem ao choro. Nos lactentes maiores, a obra manda procurar a ansiedade de separação e a insegurança diante de estranhos — e explicá-las aos pais, porque são esperadas. No **pré-escolar e escolar** entram o treinamento esfincteriano, o despertar noturno, as triagens sensoriais que verificam as condições para a aprendizagem, a adaptação à escola, os colegas, as notas e o absenteísmo.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Porto observa que, muitas vezes, quem mais precisa de amparo e de compreensão na consulta pediátrica são os pais — não o paciente —, sem que a criança perca o lugar de centro da relação. A observação resolve na prática um dilema comum do consultório: acolher a angústia de quem traz a criança não é desviar-se do exame; é parte dele."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Como examinar"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O choro como dado — e a ordem que se curva a ele",
+         "texto": "O capítulo 179 trata o choro como uma variável de exame, não como um contratempo. Três consequências práticas:\n\n1. **Não se intimidar.** Criança amedrontada, irritada, em choro franco ou agitada é condição habitual da prática — e o exame físico deve ser realizado por inteiro mesmo assim.\n2. **Reordenar a sequência.** Para garantir o exame de todos os sistemas no melhor momento, pode ser necessário abandonar a ordem clássica da semiologia. Se a criança ainda não chora, examinam-se primeiro **os itens que o choro estraga**: a ausculta do coração (um sopro dificilmente se caracteriza numa criança chorando), as frequências respiratória e cardíaca, a tensão do abdome, as fontanelas e a pressão arterial.\n3. **Usar o choro a favor.** A ausculta pulmonar do lactente pode até melhorar com ele: quem chora faz inspirações profundas que a criança pequena não faria sob comando — o médico espera com paciência e ausculta nas pausas.\n\nAs obras não prescrevem um roteiro fixo de \"o que fica por último\" além do princípio geral — os **procedimentos mais temidos ou dolorosos ficam para o fim da consulta** —, e este guia não inventa um. O princípio vem com duas cláusulas que são profissionalismo puro: o procedimento deve ser **informado previamente ao paciente**, e **não pode ser suprimido por vontade dos pais nem da criança** — adiar o desconforto é técnica; pular etapa do exame para evitar o choro, não.\n\nA postura durante o exame também é conteúdo do capítulo: paciência e gentileza **desde o tom de voz** até os momentos e as formas adequadas de **manipular ou conter** o paciente — a contenção existe na semiologia pediátrica, mas como gesto medido, anunciado e breve, nunca como disputa. No **lactente**, o exame se organiza por **decúbitos**: tudo o que é possível examinar em decúbito dorsal — inclusive a ausculta da face anterior do tórax — antes de virar a criança; a criança maior, capaz de sentar e entender ordens simples, já se examina como o adulto, por segmentos.\n"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "A consulta pediátrica na prática",
+         "passos": [
+          "Comece observando da porta: estado geral, atividade ou prostração, desconforto ao respirar, fácies, irritabilidade e choro — o exame físico começa quando o paciente é recebido.",
+          "Acolha o informante e deixe o relato correr: a primeira pergunta aberta merece mais do que 18 segundos de silêncio do examinador.",
+          "Separe observação de interpretação: quando a família traduzir ('é dor de ouvido'), volte ao fato observado — o que a criança fez, quando e por quanto tempo.",
+          "Dirija ativamente o interrogatório por sistemas, incluindo sono, alimentação, diureses e características das fezes — nada virá espontaneamente.",
+          "Abra a Caderneta de Saúde da Criança: Apgar e dados do nascimento, curvas e situação vacinal, conferida contra o calendário vigente.",
+          "A partir dos 3 a 4 anos, converse também com a criança — e observe a relação dela com quem a acompanha.",
+          "Se a criança está calma, examine primeiro o que o choro estraga: ausculta cardíaca, frequências respiratória e cardíaca, tensão do abdome, fontanelas e pressão arterial.",
+          "Se chora, use as pausas e as inspirações profundas do choro para a ausculta pulmonar — e espere, sem pressa e sem desistir de nenhum sistema.",
+          "No lactente, examine por decúbitos: esgote o decúbito dorsal antes de virar; na criança maior, proceda por segmentos, como no adulto.",
+          "Deixe o desagradável para o fim, anuncie antes o que vai fazer e conclua o exame completo — sem suprimir etapa por vontade dos pais ou da criança."
+         ],
+         "observar": "O boxe de avaliação inicial do capítulo 179 dá respaldo de literatura ao \"olho clínico\" da porta: na revisão sistemática de Van den Bruel et al. (2010), a impressão inicial do estado geral — o instinto clínico sobre a gravidade — foi um dos alertas vermelhos mais importantes para prever evolução grave em crianças. A observação do primeiro minuto não é preâmbulo do exame; é exame.\n"
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Abordagem da criança em 10 passos",
+         "itens": [
+          "Observação inicial registrada desde a recepção: estado geral, atividade, fácies, respiração e choro.",
+          "Relato do informante ouvido sem interrupção precoce, com interpretações da família convertidas em observações.",
+          "Comportamento do acompanhante e vínculo com a criança observados como parte do exame.",
+          "Interrogatório dirigido por sistemas completado, com sono, alimentação, diureses e fezes.",
+          "Antecedentes gestacionais, de parto e neonatais colhidos, com a Caderneta de Saúde da Criança em mãos.",
+          "Situação vacinal conferida na caderneta contra o calendário vigente, sem decorar esquemas.",
+          "Desenvolvimento abordado por pergunta aberta e comparado a escala nomeada; escola incluída na criança maior.",
+          "Diálogo direto com a criança estabelecido a partir dos 3 a 4 anos.",
+          "Sequência do exame adaptada ao choro: o que o choro estraga vem primeiro, o temido por último e anunciado.",
+          "Exame físico completo concluído, com contenção mínima, respeitosa e explicada quando necessária."
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Profissionalismo — quem consente, quem assente"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O responsável, a criança e as decisões",
+         "texto": "No adulto, o contrato do exame se firma com o próprio paciente. Na criança, ele tem dois lados — e as obras dão a substância de cada um, ainda que sem usar o par de termos consagrado *consentimento/assentimento*, que este guia registra como vocabulário de documentos éticos, não das fontes:\n\n- **O lado do responsável.** O *Exame Clínico* dá a regra no ponto em que a formula — a autorização da presença de um acompanhante na consulta cabe ao paciente capaz de decidir e, quando ele não o é, ao seu **responsável legal** —, e a lógica é a que rege toda decisão da consulta pediátrica: quem responde pela criança é quem a lei designa. E a *Semiologia Médica* acrescenta uma camada que surpreende quem nunca a leu: as **dicas de segurança** que o Conselho Federal de Medicina divulgou diante do número de crianças desaparecidas — pedir a documentação do acompanhante quando não for pai, mãe ou parente próximo, desconfiar de informações desencontradas ou de quem não responde perguntas básicas sobre a criança, e observar se ela demonstra medo, choro ou aparência assustada diante de quem a traz. A semiotécnica, diz a obra, também é instrumento de direitos humanos.\n- **O lado da criança.** Ela não assina nada, mas as fontes lhe dão voz em três pontos: o diálogo direto a partir dos 3 a 4 anos; a **informação prévia** de todo procedimento desagradável; e o limite simétrico — nem os pais nem a criança podem suprimir etapas do exame. Respeito não é negociar o exame; é explicá-lo, adiá-lo para o melhor momento e executá-lo com o mínimo de desconforto.\n\nUm caso particular do capítulo 179 mostra o peso clínico dessa prudência: diante de **genitália de aspecto dúbio** no recém-nascido, não se declara o sexo até a avaliação completa — em alguns casos, só o cariótipo responde. A frase dita no afogadilho da sala de parto pode custar caro; o silêncio técnico, aqui, é a conduta.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O adolescente — privacidade como regra, não como concessão",
+         "texto": "O capítulo 180 transforma a consulta do adolescente em matéria de direito: ele **pode ser atendido sem os pais ou responsáveis no ambiente da consulta**, com privacidade e confidencialidade garantidas — e a confidencialidade gera a obrigação do **sigilo médico**, que a obra ancora no art. 74 do Código de Ética Médica. Semiologia Clínica soma os arts. 7º do ECA e 78 do mesmo Código — o sigilo obriga a equipe inteira, não só o médico — e registra, lado a lado, as duas definições de adolescência que não coincidem: **10 a 19 anos para a OMS, 12 a 18 para o ECA**.\n\nO desenho prático é o mesmo nas duas obras: a consulta em **tempos** — um com a família presente, um **a sós com o adolescente**, e um final com a família de volta para as conclusões; Semiologia Clínica descreve a variante em três etapas praticada no Instituto da Criança e do Adolescente, no HC-FMUSP — acolhimento conjunto que explica a todos as regras do jogo (inclusive quando o sigilo poderá ser quebrado), um momento privado com os pais e a consulta com o jovem. Na etapa a sós, a queixa é recontada **pela perspectiva do adolescente** — que pode coincidir com a da família, complementá-la ou contradizê-la, e cada uma dessas três situações informa.\n\nO sigilo tem exceções nomeadas — e um rito. Quebra-se nas **situações de risco** que as obras listam: gravidez e aborto, uso abusivo de drogas, doença grave, tratamento recomendado que o jovem não segue, risco de vida para si (a intenção suicida, por exemplo) ou para terceiros, e procedimentos de maior complexidade. Mas quebra-se **avisando o adolescente primeiro**, com os motivos explicados — e, sempre que possível, comunicando o responsável na presença dele. Só no risco de vida a quebra dispensa o consentimento do jovem.\n\nNo exame físico, o capítulo 180 é prescritivo: respeitar o pudor e explicar cada procedimento; garantir que a porta está fechada e que ninguém entrará; **manter outro profissional de saúde na sala** durante o exame; e, no exame genital, esclarecer antes a necessidade e **respeitar a recusa** — adiando para outra consulta, se preciso. Este guia já carrega a mesma regra pelo capítulo 119 da *Semiologia Médica* nos tópicos de exame das mamas e exame ginecológico — na adolescente, o exame acompanhado por uma assistente, com a presença dos pais decidida pela paciente —; o que o capítulo 180 acrescenta é a generalização: vale para todo adolescente, em todo exame.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Na consulta em tempos, o que sustenta a confiança não é o momento a sós — é o que acontece depois dele. A Semiologia Médica manda que, dali em diante, toda conversa do médico com os pais ocorra diante do adolescente: ele precisa ver o que se diz sobre ele para acreditar no que o médico prometeu não dizer."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Aprofundamento"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O exame psíquico da criança — o adiamento pago",
+         "texto": "O tópico de fundamentos do exame psíquico adiou nominalmente para esta fase o exame psíquico da criança e do adolescente, com a entrevista com os pais. A auditoria do capítulo 176 da *Semiologia Médica* decidiu a contingência: a obra traz seção própria, escrita em nível de exame clínico geral — não de especialista —, e por isso o guia **ensina o resumo aqui e remete o roteiro das funções ao sistema Exame psíquico**, em vez de reduzir o tema a moldura. Este bloco paga o adiamento.\n\n**O que é específico da criança é o cenário, não o roteiro.** A seção \"Exame psíquico da criança\" da obra ensina, em nível acessível a todo médico: avisar a criança **1 a 2 dias antes** da consulta, com explicações simples e adequadas à idade — os pais devem dizer que é uma consulta diferente, de um médico interessado em conhecê-la para ajudá-la; oferecer no consultório **jogos, material de desenho e brinquedos**, deixando que ela escolha entre brincar e conversar; e, com crianças maiores e adolescentes, **declarar o caráter confidencial** da entrevista — cabe ao paciente decidir se conta aos pais o que disse. A obra dá ainda a régua do que esperar: até os **5 ou 6 anos**, a criança fala de sua vida, de seus amigos e de suas fantasias com naturalidade; na criança maior, a repressão já opera, e a vida de fantasia se expressa menos. As **funções psíquicas** examinadas — consciência, atenção, orientação, pensamento, memória, afetividade e as demais — são as mesmas do roteiro adulto, e continuam morando no sistema **Exame psíquico** deste guia; nada disso se reensina aqui.\n\n**A entrevista com os pais tem roteiro próprio** — a obra o apresenta na consulta psiquiátrica, e ele funciona como um aprofundamento da anamnese deste tópico: quem pediu a consulta e de quem partiu o encaminhamento (dos pais? da escola? da própria criança?); se a gravidez foi desejada e como foram as condições de nascimento; a depressão materna no período neonatal; o sono e seus rituais, medos e parassonias; o desenvolvimento psicomotor e o controle esfincteriano; a linguagem; as **atitudes educacionais** — castigos, divergências entre os pais, reação da criança à disciplina —; a curiosidade sexual e a reação dos pais a ela; a entrada na escola e a socialização. O espírito é o da entrevista **semidirigida** que o guia já registrou nos fundamentos do psíquico: deixar o relato correr, sem interrogatório rígido e sem antecipar conselhos.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A relação médico-família — quando o médico não pode se retirar",
+         "texto": "Três teses do capítulo 179 e do capítulo 4 completam o quadro da relação:\n\n- **A assistência é global por definição.** Porto invoca Pedro de Alcântara: a saúde da criança abrange o orgânico e o psíquico, o preventivo e o curativo, em suas mútuas dependências — à luz das particularidades da criança, da condição socioeconômica e cultural da família e do ambiente. O ambiente emocional, físico e social interfere na constituição orgânica e psíquica da criança, com repercussões para a vida toda.\n- **O medo tem história.** Crianças temem o médico e os aparelhos porque temem o desconhecido — e porque, em muitas culturas, foram ameaçadas com ele: *\"se não ficar quieto, vai tomar injeção\"*. A resposta que Porto prescreve é a bondade operacionalizada: atenção, manuseio delicado, respeito pela insegurança natural. Conquistar a confiança de uma criança, escreve a obra, é mais que um ato profissional.\n- **A relação não se delega.** Mesmo quando a criança e a família são atendidas por equipe multiprofissional — o que a obra considera desejável, sobretudo no adolescente —, o médico **nunca deve delegar nem se subtrair** à construção da relação médico-paciente, nem na urgência, nem na interconsulta. E a família mudou de desenho: pode caber ao profissional orientar mãe, pai e seus novos cônjuges, todos envolvidos no cuidado — o conceito ampliado de família é dado de trabalho, não obstáculo.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O adolescente que consulta por conflito",
+         "texto": "O capítulo 180 descreve um motivo de consulta que não aparece nos formulários: o conflito entre pais e filho, traduzido em queixas vagas — nervosismo, agressividade, \"fechamento\". Nesses casos há quase sempre uma pressão, declarada ou velada, para que o médico **tome partido** — e a obra proíbe as alianças: o papel do profissional é compreender o conflito e facilitar que as duas partes o compreendam.\n\nA postura tem calibragem fina. O adolescente contesta o mundo adulto — e ora vê o médico como parte dele, ora como emissário da família —, mas, ao mesmo tempo, precisa que esse mundo reconheça suas ansiedades e ofereça **limites e segurança**. É por isso que a obra manda o médico **manter a postura de adulto** — não imitar o adolescente —, acolher sem autoritarismo, sem preconceito e sem julgamento, com linguagem clara e simples. E registra um desfecho conhecido de quem atende jovens: estados de ansiedade que se desfazem depois de uma consulta em que o médico não fez nada de excepcional — apenas ouviu e dialogou.\n\nDuas armadilhas específicas fecham o bloco: a consulta motivada **mais pela preocupação da família** do que pelo adolescente, e a queixa somática que **disfarça** um problema emocional — nas duas, a perspicácia pedida pela obra é a mesma: procurar o verdadeiro motivo da consulta, sem se prender ao declarado. E o envolvimento afetivo com uma queixa grave não pode estreitar o olhar: descuidar da investigação global da vida do adolescente, adverte o capítulo, é desastroso.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde este tópico encontra os outros",
+         "texto": "- **A entrevista clínica** e **Antecedentes e hábitos**, no sistema Anamnese, carregam as técnicas de entrevista, o manejo do acompanhante que responde pelo paciente e os antecedentes fisiológicos com os marcos gerais do desenvolvimento — aqui entra só o que é próprio da criança.\n- **Fundamentos do exame psíquico** adiou para cá o exame psíquico da criança e do adolescente com a entrevista com os pais — o bloco avançado deste tópico paga esse adiamento, e devolve as funções psíquicas ao sistema que as ensina.\n- **Exame das mamas** e **Exame ginecológico** já carregam, pelo capítulo 119 da *Semiologia Médica*, o exame da adolescente com acompanhante-assistente; este tópico generaliza a regra pelo capítulo 180.\n- **Crescimento, sinais vitais e hidratação**, o próximo tópico, recebe a antropometria da criança e as faixas de frequência cardíaca e respiratória por idade — inclusive as fontanelas e a pressão arterial que a sequência oportunista manda examinar antes do choro.\n- **Do recém-nascido ao adolescente**, o último tópico do capítulo, recebe o exame físico por fases etárias: o recém-nascido e seus reflexos, o quadril, a puberdade e os estágios de Tanner.\n- O caso clínico **Febre em uma criança de 3 anos**, no modo de casos do guia, exercita exatamente a lição deste tópico: o estado geral decide mais que o número do termômetro.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Seis erros na abordagem da criança",
+         "texto": "1. **Tratar o relato da família como dado bruto.** \"Está com dor\" é uma hipótese do informante, não um sintoma colhido. A pergunta que salva é a que pede a observação por trás da conclusão.\n2. **Interromper cedo demais.** Os 18 segundos de Groopman valem dobrado quando quem fala está assustado com a doença do filho. O que os pais diriam a seguir costuma valer a espera.\n3. **Seguir a ordem clássica do exame por lealdade ao roteiro.** Auscultar o coração de uma criança já em choro franco é perder o sopro; a sequência existe para servir ao exame, não o contrário.\n4. **Desistir de etapas para evitar o choro — ou permitir que os pais as vetem.** O exame é completo em toda consulta; o desagradável se adia, se anuncia e se faz.\n5. **Examinar o adolescente com a família na sala, por inércia.** O momento a sós é direito do paciente e método do exame — e o sigilo prometido obriga a equipe inteira.\n6. **Prometer segredo absoluto ao adolescente.** O sigilo tem exceções nomeadas; escondê-las na abertura da consulta cobra juros quando a quebra se torna necessária. As regras do jogo se explicam antes do jogo.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "A Semiologia Médica ensina que, na dúvida sobre a genitália do recém-nascido, não se declara o sexo até a avaliação completa. É talvez o exemplo mais nítido de uma habilidade que atravessa toda a semiologia pediátrica: saber quando a resposta correta da consulta é ainda não responder."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "cri-abord-1",
+           "enunciado": "Durante a anamnese de um lactente, a avó afirma que ele \"está com dor de ouvido porque chora muito\". Como as obras de Porto orientam o manejo dessa informação?",
+           "alternativas": [
+            "Reconhecê-la como interpretação do informante — pais e avós tendem a traduzir as manifestações da criança em vez de relatá-las — e retornar às observações objetivas: o que a criança fez, quando e em que circunstâncias",
+            "Aceitá-la como queixa principal e registrá-la textualmente no prontuário, pois o informante adulto é a fonte legal e definitiva da anamnese pediátrica, e questionar o relato da família comprometeria a relação médico-família de que depende a adesão ao tratamento",
+            "Descartá-la, porque somente informações fornecidas pela mãe têm valor na anamnese da criança pequena",
+            "Encaminhar de imediato ao otorrinolaringologista, já que choro persistente em lactente indica otite até prova em contrário"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "A Semiologia Médica descreve a armadilha no capítulo de anamnese: pais — e sobretudo avós — preferem 'interpretar' o que a criança manifesta a relatá-lo com objetividade, e deduzem a dor de ouvido de indícios muito frágeis. O capítulo 179 dá o exemplo espelhado: a 'dor' relatada pela mãe do recém-nascido que era fome — posto ao seio, o bebê saciou-se e dormiu. A conduta não é descartar o informante (a anamnese é feita por interposta pessoa, e qualquer convivente pode informar), e sim converter interpretações em observações."
+          },
+          {
+           "id": "cri-abord-2",
+           "enunciado": "Você vai examinar um lactente tranquilo, ainda sem chorar, trazido para consulta de rotina. Qual sequência o capítulo 179 recomenda?",
+           "alternativas": [
+            "A sequência clássica craniocaudal, que não deve ser alterada para não perder sistemas",
+            "Começar pela orofaringe e pela otoscopia, eliminando logo os procedimentos desagradáveis",
+            "Aguardar o choro, que facilita todo o exame por produzir inspirações profundas",
+            "Antecipar o que o choro compromete — ausculta cardíaca, frequências respiratória e cardíaca, tensão do abdome, fontanelas e pressão arterial — e deixar os procedimentos temidos ou dolorosos para o fim, previamente informados"
+           ],
+           "corretaIndex": 3,
+           "explicacao": "Porto autoriza modificar a sequência clássica da semiologia para garantir o exame de cada sistema no melhor momento: se a criança ainda não chora, avaliam-se primeiro os itens que o choro estraga — ausculta cardíaca (sopro não se caracteriza bem no choro), FC, FR, tensão do abdome, fontanelas e PA. O choro ajuda apenas a ausculta pulmonar do lactente, pelas inspirações profundas — não o restante. Os procedimentos temidos ficam para o fim, informados antes — e nem os pais nem a criança podem suprimi-los."
+          },
+          {
+           "id": "cri-abord-3",
+           "enunciado": "Os pais de um menino de 4 anos estranham que ele ainda troque letras ao falar (\"potão\" por portão), embora o discurso seja compreensível. O que as fontes dizem sobre esse achado?",
+           "alternativas": [
+            "É indicativo de atraso global do desenvolvimento e exige avaliação neurológica imediata, pois a partir dos 2 anos de idade toda a fala da criança já deve ser perfeitamente inteligível, sem trocas nem supressões de sílabas ou de letras",
+            "A dislalia fisiológica — troca ou supressão de sílabas e letras — é normal na criança até os 4 anos de idade; aos 4 anos, espera-se que quase toda a fala seja compreensível",
+            "Trocas de letras só são normais até os 2 anos, idade em que toda a fala deve ser inteligível",
+            "É um distúrbio da fluência, do mesmo grupo da gagueira, e deve ser tratado como tal"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "O Exame Clínico define a dislalia fisiológica — troca ou supressão de sílabas ou letras, como 'potão' por portão — como achado normal até os 4 anos. O capítulo 179 dá os marcos de inteligibilidade: aos 2 anos, cerca de metade da fala deve ser compreensível; aos 4, quase toda. O menino descrito está no limite da normalidade, não em atraso global — e dislalia é distúrbio de articulação, não de fluência."
+          },
+          {
+           "id": "cri-abord-4",
+           "enunciado": "Uma adolescente de 15 anos revela, no momento a sós da consulta, ideação suicida estruturada, e pede segredo absoluto. Qual é a conduta, segundo o capítulo 180 e Semiologia Clínica?",
+           "alternativas": [
+            "Manter o sigilo integral, pois a confidencialidade do adolescente é direito garantido pelo Código de Ética Médica",
+            "Comunicar imediatamente os responsáveis em separado, sem informar a adolescente da conversa, porque avisá-la antes poderia agravar o risco, precipitar o ato e comprometer a vigilância da família sobre os meios disponíveis em casa",
+            "Quebrar o sigilo por se tratar de risco de vida, informando a adolescente da quebra e de seus motivos — e, sempre que possível, comunicando os responsáveis na presença dela",
+            "Condicionar a quebra do sigilo à autorização por escrito da adolescente"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "A confidencialidade é a regra (art. 74 do Código de Ética Médica; ECA, art. 7º), mas as duas obras listam as exceções: risco de vida para si — a intenção suicida é o exemplo nomeado — ou para terceiros, gravidez, aborto, drogadição, não adesão e doenças graves. Nesses casos o sigilo se quebra mesmo sem o consentimento do adolescente, mas com rito: informá-lo primeiro, justificar os motivos e, se possível, comunicar o responsável na presença dele. Sigilo absoluto e comunicação às escondidas erram nos dois sentidos."
+          },
+          {
+           "id": "cri-abord-5",
+           "enunciado": "Em consulta psiquiátrica de uma criança de 5 anos, que preparo prévio a Semiologia Médica recomenda à família?",
+           "alternativas": [
+            "Não avisar a criança sobre a consulta, para que a observação do comportamento espontâneo no consultório não seja contaminada pela expectativa criada em casa nem pelos ensaios de resposta que os pais poderiam induzir nos dias anteriores ao exame",
+            "Avisá-la apenas no caminho do consultório, evitando ansiedade antecipatória prolongada",
+            "Dizer que se trata de um passeio, revelando o destino somente na chegada",
+            "Avisá-la 1 a 2 dias antes, com explicações simples e adequadas à idade, dizendo que é uma consulta diferente, com um médico cujo interesse é conhecê-la e ajudá-la nas dificuldades que houver"
+           ],
+           "corretaIndex": 3,
+           "explicacao": "A seção de exame psíquico da criança do capítulo 176 recomenda o aviso com 1 a 2 dias de antecedência, com explicações simples e claras conforme a idade — e que os pais apresentem a consulta como um encontro diferente, com um médico interessado essencialmente em conhecê-la. No consultório, o médico oferece jogos, desenho e brinquedos, deixando a criança escolher entre brincar e conversar. Esconder o destino ou avisar em cima da hora mina a confiança que o exame precisa construir — e até os 5 ou 6 anos a criança avisada costuma falar de sua vida com naturalidade."
+          },
+          {
+           "id": "cri-abord-6",
+           "enunciado": "Uma mulher que se apresenta como vizinha traz uma criança de 2 anos, sem os pais, para atendimento não urgente. Além de colher a anamnese, o que a Semiologia Médica orienta verificar?",
+           "alternativas": [
+            "Nada além da anamnese: qualquer adulto que conviva com a criança é informante válido e suficiente",
+            "A documentação e a autorização do acompanhante que não é parente próximo, a coerência das informações que ele fornece sobre a criança e o comportamento dela diante dele — medo, choro ou aparência assustada",
+            "Apenas o cartão vacinal, que comprova o vínculo do acompanhante com a criança",
+            "A recusa do atendimento até a chegada dos pais e o acionamento do serviço social, pois o exame clínico de qualquer criança sem a presença física do pai, da mãe ou do responsável legal é vedado em todas as circunstâncias, inclusive nas consultas não urgentes"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "A Semiologia Médica reproduz as dicas de segurança do CFM diante do número de crianças desaparecidas: criança acompanhada por quem não é pai, mãe ou parente próximo pede documentação e autorização por escrito; informações desencontradas ou o desconhecimento de dados básicos da criança levantam suspeita; e o comportamento da criança com o acompanhante — medo, choro, aparência assustada — é dado de exame. O vizinho pode de fato informar a anamnese (a obra o cita como informante possível), mas isso não dispensa as verificações — e recusar sumariamente o atendimento não é a orientação."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "semiologia-da-crianca/exame-da-crianca/crescimento-sinais-vitais-e-hidratacao",
+       "titulo": "Crescimento, sinais vitais e hidratação",
+       "sistemaId": "semiologia-da-crianca",
+       "capituloId": "exame-da-crianca",
+       "ordem": 2,
+       "tags": [
+        "semiologia da criança",
+        "pediatria",
+        "crescimento",
+        "antropometria da criança",
+        "peso",
+        "comprimento",
+        "estatura",
+        "comprimento deitado",
+        "perímetro cefálico",
+        "microcefalia",
+        "macrocefalia",
+        "curva de crescimento",
+        "curvas da OMS",
+        "escore Z",
+        "percentil",
+        "Caderneta de Saúde da Criança",
+        "estado nutricional",
+        "desnutrição infantil",
+        "sobrepeso",
+        "obesidade infantil",
+        "frequência cardíaca na criança",
+        "taquicardia",
+        "arritmia sinusal",
+        "frequência respiratória na criança",
+        "taquipneia",
+        "pressão arterial na criança",
+        "manguito pediátrico",
+        "febre na criança",
+        "desidratação",
+        "fontanela",
+        "baixa estatura",
+        "alta estatura",
+        "velocidade de crescimento",
+        "estatura-alvo",
+        "puberdade",
+        "estirão",
+        "estação OSCE"
+       ],
+       "referencias": [
+        "Porto — Semiologia Médica, 8ª ed., Parte 20, cap. 179 (Semiologia da Infância) — Exame físico do recém-nascido (medidas corporais: comprimento, peso, perímetros cefálico e torácico; Quadro 179.4, frequência cardíaca por faixa etária, com média e espectro; a arritmia sinusal ou respiratória como achado normal da infância; Quadro 179.6, frequência respiratória máxima esperada por faixa etária, contada em 1 minuto); Exame físico do lactente ao escolar (curvas de crescimento — Marcondes, OMS, CDC —, as curvas da OMS de 2006, percentis e escores Z, Figuras 179.4 a 179.15; Quadros 179.7 e 179.8, classificação do estado nutricional por índice antropométrico abaixo e acima dos 5 anos; a remissão da pressão arterial ao cap. 47); bibliografia do capítulo (a diretriz de pressão arterial em crianças e adolescentes de Flynn et al., Pediatrics, 2017)",
+        "Porto — Semiologia Médica, 8ª ed., Parte 3, cap. 8 (Exame Físico Geral), Medidas antropométricas — o peso que dobra entre o 4º e o 5º mês, triplica com 1 ano e quadruplica aos 2 anos; o ganho de 2 a 5,5 kg/ano do 2º ano até a puberdade; as balanças próprias para recém-nascidos; a medida da altura na posição deitada na criança",
+        "Porto — Semiologia Médica, 8ª ed., Parte 10, cap. 47 (Exame clínico do sistema cardiovascular) — Verificação da pressão arterial em crianças: manguito adequado ao braço e os três tamanhos pediátricos, a distração da criança, o choro que eleva a pressão em até 50 mmHg, o método palpatório nas crianças muito pequenas (5 a 10 mmHg abaixo do auscultatório) e a fase IV de Korotkoff como diastólica",
+        "Porto — Semiologia Médica, 8ª ed., Parte 12, Seção 1, cap. 99 (Hipotálamo e Hipófise | Exame Clínico), Baixa estatura — altura deitada até os 2 anos e em pé depois; as três medidas no mesmo dia com variação menor que 0,3 cm; a estatura-alvo calculada pelas alturas aferidas dos pais; o canal de crescimento; as indicações de investigação (estatura abaixo do percentil 3, abaixo do potencial familiar ou baixa velocidade de crescimento); baixa estatura proporcionada e desproporcionada; o retardo constitucional como causa mais comum; cap. 101 (Doenças do Complexo Hipotálamo-Hipófise) — a investigação endocrinológica da estatura acima de 3 DP da média ou 2 DP acima da curva-alvo familiar",
+        "Porto — Semiologia Médica, 8ª ed., Parte 13, cap. 128 (Desnutrição), Desnutrição na criança — peso para estatura como marca da desnutrição aguda e estatura para idade como marca da crônica; a análise conjunta dos indicadores; a triagem nutricional Strong Kids indicada pela Associação Brasileira de Nutrição; Parte 20, cap. 180 (Semiologia da Adolescência) — Maturação sexual (as janelas normais de início da puberdade) e Estirão (o vínculo com os estágios de Tanner, não com a idade cronológica)",
+        "Porto — Exame Clínico, 8ª ed., cap. 10 (Exame Físico Geral) — comprimento deitado em régua antropométrica até os 2 anos e estatura em pé depois; a plotagem na curva da caderneta de saúde da criança; Perímetro cefálico: medida realizada logo após o nascimento, acompanhamento até os 2 anos (até os 5 em crianças com déficit) e o critério de microcefalia com perímetro inferior a 33 cm na criança a termo; cap. 6 (Sinais e Sintomas), Alterações do crescimento e do desenvolvimento — o tipo da curva de crescimento na diferenciação do nanismo: desvio permanente desde o nascimento (congênito), desvio após período normal (adquirido) e curva paralela ao padrão (funcional); cap. 16 (Exame do Tórax), Quadro 16.1 — valores normais da frequência respiratória por idade, idênticos aos da Tabela 4 de Semiologia Clínica",
+        "Semiologia Clínica, 1ª ed., cap. 8 (Semiologia de cabeça e pescoço) — o perímetro cefálico medido com fita métrica na primeira infância, avaliando a velocidade do crescimento craniano, e as fontanelas como fonte de informação sobre desidratação, pressão intracraniana e fechamento precoce; cap. 10 (O exame do tórax e do sistema respiratório), Tabela 4 — valores normais da frequência respiratória por faixa etária"
+       ],
+       "revisao": "pendente",
+       "blocos": [
+        {
+         "tipo": "secao",
+         "titulo": "O essencial"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "O sinal vital que só a criança tem",
+         "texto": "O adulto tem quatro sinais vitais clássicos; a criança tem um a mais: **o crescimento**. Nenhum número isolado da consulta pediátrica informa tanto quanto a comparação do peso e da estatura de hoje com os de todas as consultas anteriores — e é por isso que o capítulo 179 chama a avaliação do crescimento e do desenvolvimento de ação básica de saúde em pediatria.\n\nA régua de fundo é vertiginosa e vale memorizar: pela *Semiologia Médica*, o peso de nascimento está **dobrado por volta do 4º ao 5º mês, é o triplo ao completar 1 ano e o quádruplo aos 2**; do segundo ano até a puberdade, o ganho esperado cai para **2 a 5,5 kg por ano**. Quem cresce assim não pode ser avaliado contra uma tabela fixa — precisa de **curvas**. O capítulo 179 nomeia as disponíveis — a curva de Marcondes, as do CDC e as da **OMS**, estas propostas em 2006 a partir de um estudo mundial iniciado em 1996, com países das seis grandes regiões do globo — e ensina o gesto: plotar o peso ou a estatura na curva correspondente à idade e ao sexo, a cada consulta, e ler o resultado em **percentis ou escores Z** (quantos desvios padrão separam a medida da média). O *Exame Clínico* lembra onde essas curvas já estão impressas: na **Caderneta de Saúde da Criança**, a mesma que carrega o Apgar e as vacinas do tópico anterior.\n\n**O que este tópico ensina:** o que muda na antropometria quando o paciente é uma criança — peso, comprimento deitado, estatura e perímetro cefálico —; a leitura das curvas e do estado nutricional pelos quadros do capítulo 179; as **faixas de frequência cardíaca e respiratória por idade**, com sua atribuição exata; e o que muda na medida da pressão arterial. A febre da criança e a avaliação da hidratação já têm donos neste guia — este tópico remete e costura, sem duplicar.\n\n**Onde estão os números deste capítulo.** Todos brasileiros: os quadros do capítulo 179 e a tabela pediátrica de frequência respiratória que o *Exame Clínico* e Semiologia Clínica compartilham — apresentados lado a lado com os tetos de Porto, porque divergem. McGee, fonte dos números de desempenho do guia, não tem seção sistemática de semiologia pediátrica, e o capítulo declara o silêncio: para as faixas desta página não há razões de verossimilhança, só valores de referência atribuídos.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Peso, comprimento, estatura e o perímetro que faltava",
+         "texto": "A técnica antropométrica geral — balança calibrada, estadiômetro, os cinco pontos de contato — mora no tópico de antropometria e hidratação do exame físico geral, que já avisa: **na criança pequena, mede-se o comprimento com o paciente deitado, em régua graduada**. O que este tópico acrescenta são os cortes e os instrumentos próprios da idade:\n\n- **Peso:** recém-nascidos têm **balanças próprias** (Porto, cap. 8) — o prato substitui a plataforma. O restante da semiotécnica é o da antropometria geral.\n- **Comprimento × estatura:** o *Exame Clínico* dá o corte etário que o tópico geral não precisou dar: **até os 2 anos**, mede-se o **comprimento deitado**, em régua antropométrica com base fixa no zero e cursor móvel; **depois dos 2 anos**, a **estatura em pé**, comparada às curvas para idade e sexo. O capítulo 99 da *Semiologia Médica* acrescenta o rigor de quem investiga crescimento: medir **3 vezes no mesmo dia**, pelo mesmo avaliador, aceitando variação **menor que 0,3 cm** entre as medidas, e anotar a média.\n- **Perímetro cefálico:** medido **logo após o nascimento** e acompanhado **até os 2 anos de idade** — até os 5, em crianças com algum déficit —, com fita métrica; Semiologia Clínica frisa que o que se avalia é a **velocidade** do crescimento craniano, não um número solto. É a medida que não pode faltar no exame físico da criança, diz o *Exame Clínico*, porque diagnostica **microcefalia** — na criança **a termo**, perímetro cefálico **inferior a 33 cm** — e macrocefalia. A palpação das fontanelas e das suturas que acompanha essa medida é matéria do tópico de crânio e face (a fontanela hipertensa) e do de antropometria e hidratação (a fontanela deprimida); o recém-nascido e suas fontanelas voltam no próximo tópico.\n\nA leitura de tudo isso é a curva. O resultado da plotagem se expressa em escore Z, e os **Quadros 179.7 e 179.8** transformam o escore em diagnóstico nutricional. Abaixo de **−2** ficam o baixo peso, a magreza e a baixa estatura para a idade; abaixo de **−3**, as formas acentuadas (\"muito baixo peso\", \"magreza acentuada\", \"muito baixa estatura\"). Para cima, a escada muda com a idade: **antes dos 5 anos** (Quadro 179.7), o IMC para a idade acima de **+1** marca o risco de sobrepeso, acima de **+2** o sobrepeso e acima de **+3** a obesidade; **dos 5 aos 10 anos** (Quadro 179.8), os mesmos degraus sobem um rótulo — acima de +1 já é sobrepeso, acima de +2 obesidade, e acima de **+3** entra a categoria que só essa faixa tem, a **obesidade grave**. A faixa da eutrofia — de −2 a +1 — é larga de propósito: dentro dela, o que importa é a trajetória, não a posição.\n"
+        },
+        {
+         "tipo": "manobra",
+         "titulo": "Medir e plotar — a antropometria da consulta pediátrica",
+         "passos": [
+          "Pese o recém-nascido e o lactente pequeno despidos, em balança pediátrica própria; a criança maior, na plataforma, como no adulto.",
+          "Até os 2 anos, meça o comprimento deitado em régua antropométrica: base fixa tocando o vértice da cabeça, cursor deslizado até as plantas dos pés, joelhos estendidos.",
+          "Depois dos 2 anos, meça a estatura em pé, com a técnica dos cinco pontos do tópico de antropometria.",
+          "Em dúvida sobre o crescimento, repita a medida 3 vezes no mesmo dia, aceite variação menor que 0,3 cm e registre a média.",
+          "Meça o perímetro cefálico com fita métrica inextensível em toda consulta até os 2 anos — até os 5, se houver déficit a acompanhar.",
+          "Plote peso, comprimento ou estatura e perímetro cefálico nas curvas da Caderneta de Saúde da Criança, na idade exata da consulta.",
+          "Leia o escore Z de cada medida e classifique o estado nutricional pelos quadros do capítulo 179.",
+          "Compare com as plotagens anteriores: interessa o canal em que a criança vinha e se ela o abandonou.",
+          "Diante de queda de canal, meça também a velocidade: quanto cresceu, em quanto tempo, e como isso se compara ao esperado para a fase.",
+          "Registre valores, data e instrumento — a próxima consulta depende de poder confiar na sua medida."
+         ],
+         "observar": "A balança e a régua produzem os únicos números da consulta que atravessam anos sem perder valor. O capítulo 179 mostra o custo do registro malfeito: a classificação nutricional inteira — dos quadros de desnutrição à obesidade — depende de plotagens comparáveis entre si.\n"
+        },
+        {
+         "tipo": "ilustracao",
+         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"10\" y=\"13\">Curva de crescimento — o trajeto vale mais que o ponto</text>\n  </g>\n  <path d=\"M 36.0 24.0 L 36.0 168.0 L 308 168.0\" stroke-width=\"1.4\" />\n  <path d=\"M 302 164 L 308 168 L 302 172\" stroke-width=\"1.2\" />\n  <g font-family=\"sans-serif\" font-size=\"7\" fill=\"currentColor\" stroke=\"none\">\n    <text transform=\"rotate(-90 14 96)\" x=\"14\" y=\"96\" text-anchor=\"middle\">peso ou estatura</text>\n    <text x=\"286\" y=\"179\" text-anchor=\"end\">idade</text>\n  </g>\n  <path d=\"M 40.0 115.1 L 50.8 109.3 L 61.7 104.1 L 72.5 99.4 L 83.3 95.1 L 94.2 91.0 L 105.0 87.2 L 115.8 83.6 L 126.7 80.1 L 137.5 76.8 L 148.3 73.7 L 159.2 70.6 L 170.0 67.7 L 180.8 64.9 L 191.7 62.1 L 202.5 59.4 L 213.3 56.8 L 224.2 54.3 L 235.0 51.8 L 245.8 49.4 L 256.7 47.0 L 267.5 44.7 L 278.3 42.4 L 289.2 40.2 L 300.0 38.0\" stroke-width=\"1.1\" stroke-dasharray=\"4 3\" />\n  <path d=\"M 40.0 129.1 L 50.8 123.3 L 61.7 118.1 L 72.5 113.4 L 83.3 109.1 L 94.2 105.0 L 105.0 101.2 L 115.8 97.6 L 126.7 94.1 L 137.5 90.8 L 148.3 87.7 L 159.2 84.6 L 170.0 81.7 L 180.8 78.9 L 191.7 76.1 L 202.5 73.4 L 213.3 70.8 L 224.2 68.3 L 235.0 65.8 L 245.8 63.4 L 256.7 61.0 L 267.5 58.7 L 278.3 56.4 L 289.2 54.2 L 300.0 52.0\" stroke-width=\"1.1\" />\n  <path d=\"M 40.0 143.1 L 50.8 137.3 L 61.7 132.1 L 72.5 127.4 L 83.3 123.1 L 94.2 119.0 L 105.0 115.2 L 115.8 111.6 L 126.7 108.1 L 137.5 104.8 L 148.3 101.7 L 159.2 98.6 L 170.0 95.7 L 180.8 92.9 L 191.7 90.1 L 202.5 87.4 L 213.3 84.8 L 224.2 82.3 L 235.0 79.8 L 245.8 77.4 L 256.7 75.0 L 267.5 72.7 L 278.3 70.4 L 289.2 68.2 L 300.0 66.0\" stroke-width=\"1.1\" stroke-dasharray=\"4 3\" />\n  <path d=\"M 40.0 156.1 L 50.8 150.3 L 61.7 145.1 L 72.5 140.4 L 83.3 136.1 L 94.2 132.0 L 105.0 128.2 L 115.8 124.6 L 126.7 121.1 L 137.5 117.8 L 148.3 114.7 L 159.2 111.6 L 170.0 108.7 L 180.8 105.9 L 191.7 103.1 L 202.5 100.4 L 213.3 97.8 L 224.2 95.3 L 235.0 92.8 L 245.8 90.4 L 256.7 88.0 L 267.5 85.7 L 278.3 83.4 L 289.2 81.2 L 300.0 79.0\" stroke-width=\"2\" stroke-dasharray=\"1.5 3.5\" />\n  <path d=\"M 40.0 129.1 L 50.8 123.3 L 61.7 118.1 L 72.5 113.4 L 83.3 109.1 L 94.2 105.0 L 105.0 101.2 L 115.8 97.6 L 126.7 94.1 L 137.5 90.8 L 148.3 88.9 L 159.2 88.7 L 170.0 88.6 L 180.8 88.5 L 191.7 88.3 L 202.5 88.2 L 213.3 88.1 L 224.2 87.9 L 235.0 87.8 L 245.8 87.7 L 256.7 87.5 L 267.5 87.4 L 278.3 87.3 L 289.2 87.1 L 300.0 87.0\" stroke-width=\"2\" />\n  <g font-family=\"sans-serif\" font-size=\"7\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"303\" y=\"40.5\">+2</text>\n    <text x=\"303\" y=\"54.5\">0</text>\n    <text x=\"303\" y=\"68.5\">−2</text>\n    <text x=\"303\" y=\"81.5\">b</text>\n    <text x=\"303\" y=\"89.5\">a</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"7\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"10\" y=\"188.5\">a · desvio adquirido: seguia o canal, depois cruza escores para baixo</text>\n    <text x=\"10\" y=\"197.5\">b · curva paralela ao padrão, abaixo dele: velocidade de crescimento normal</text>\n  </g>\n</svg>\n",
+         "legenda": "Esquema conceitual da curva de crescimento — sem escala, com os canais de escore Z (+2, 0, −2) das curvas de referência que o capítulo 179 nomeia (OMS 2006, na Caderneta de Saúde da Criança). A criança 'a' seguia seu canal e passou a cruzar escores para baixo: pelo Exame Clínico, é o padrão do desvio adquirido — a curva era normal e depois se desviou. A criança 'b' corre paralela ao padrão, abaixo dele, com velocidade de crescimento preservada: o padrão das variantes funcionais. O terceiro tipo, congênito, desvia desde o nascimento. É por isso que o ponto isolado classifica, mas só o trajeto diagnostica."
+        },
+        {
+         "tipo": "checklist",
+         "titulo": "Crescimento e sinais vitais da criança em 10 passos",
+         "itens": [
+          "Peso aferido em balança adequada à idade, com o recém-nascido em balança própria.",
+          "Comprimento medido deitado até os 2 anos; estatura em pé depois, com técnica completa.",
+          "Perímetro cefálico medido com fita em toda consulta até os 2 anos — até os 5 se houver déficit.",
+          "Todas as medidas plotadas nas curvas da caderneta, na idade e no sexo corretos.",
+          "Escore Z lido e estado nutricional classificado pelos quadros do capítulo 179.",
+          "Trajetória comparada às consultas anteriores: canal mantido ou cruzamento de escores identificado.",
+          "Frequência cardíaca contada em 1 minuto, antes do choro, e interpretada pela faixa etária.",
+          "Frequência respiratória contada em 1 minuto e comparada ao teto da idade.",
+          "Pressão arterial medida com manguito proporcional ao braço, com a criança calma e distraída.",
+          "Febre e hidratação avaliadas pelos tópicos donos: temperatura axilar e o conjunto de sinais da desidratação."
+         ]
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Sinais vitais — as faixas da idade"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Frequência cardíaca — a taquicardia que é fisiologia",
+         "texto": "A frequência cardíaca da criança desce degrau a degrau ao longo da infância — e ignorar isso transforma fisiologia em alarme falso, ou gravidade em \"normal\". O **Quadro 179.4** da *Semiologia Médica* é a âncora das faixas, com média e espectro por idade; a tabela abaixo traz todos os seus valores. Duas leituras práticas:\n\n- um lactente com 150 bpm está **dentro do espectro** da sua idade — a mesma frequência que, no adulto, seria taquicardia franca;\n- uma criança de 2 a 4 anos com frequência acima de **150 bpm** já ultrapassou o teto do espectro da sua faixa — número que passa a exigir explicação: febre, dor, choro, hipovolemia, doença.\n\nA contagem é a do tópico de frequência cardíaca e pulso: **1 minuto inteiro**, aproveitando — na criança — o momento anterior ao choro, como manda a sequência oportunista do tópico de abordagem. E o capítulo 179 desarma um falso alarme frequente do ritmo infantil: a **arritmia sinusal (ou respiratória)** — a frequência que acelera quando a criança inspira e desacelera quando expira — **é normal na infância**. Ritmo que acompanha a respiração não é doença; é criança.\n"
+        },
+        {
+         "tipo": "tabela",
+         "titulo": "Frequência cardíaca por faixa etária (Porto, Quadro 179.4)",
+         "colunas": [
+          "Faixa etária",
+          "Espectro",
+          "FC média"
+         ],
+         "linhas": [
+          [
+           "Recém-nascido",
+           "90–180 bpm",
+           "145 bpm"
+          ],
+          [
+           "6 meses",
+           "105–185 bpm",
+           "145 bpm"
+          ],
+          [
+           "1 ano",
+           "105–170 bpm",
+           "132 bpm"
+          ],
+          [
+           "2 anos",
+           "90–150 bpm",
+           "120 bpm"
+          ],
+          [
+           "4 anos",
+           "72–135 bpm",
+           "108 bpm"
+          ],
+          [
+           "6 anos",
+           "65–135 bpm",
+           "100 bpm"
+          ],
+          [
+           "10 anos",
+           "65–130 bpm",
+           "90 bpm"
+          ]
+         ]
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Frequência respiratória — duas réguas que não coincidem",
+         "texto": "Para a respiração, as obras adotadas dão **duas réguas diferentes** — e o guia as apresenta lado a lado, como faz sempre que as fontes divergem.\n\nO **Quadro 179.6** da *Semiologia Médica* fornece **tetos** — a frequência respiratória máxima esperada, contada em 1 minuto:\n\n- até 2 meses: **até 60 irpm**;\n- de 2 a 12 meses: **até 50 irpm**;\n- acima de 12 meses: **até 40 irpm**.\n\nA segunda régua aparece, com valores idênticos, em duas obras: o *Exame Clínico* (Quadro 16.1 do capítulo de exame do tórax) e Semiologia Clínica (Tabela 4 do capítulo correspondente) fornecem **faixas normais** por etapa — recém-nascidos, **40–45 irpm**; lactentes, **25–35**; pré-escolares, **20–35**; escolares, **18–35**; adultos, 16–20. As réguas contam histórias compatíveis — a respiração desacelera com a idade — mas discordam nos números: pelo teto do Quadro 179.6, um recém-nascido com 50 irpm é normal; pela faixa das outras duas, já passou do limite superior. O guia não arbitra a divergência: registra as duas com atribuição e observa que o **teto** é a régua mais generosa — o que estiver acima dele está alterado por qualquer das obras.\n\nA consequência clínica das faixas é direta: **uma criança de 3 anos com 44 a 48 irpm está taquipneica pelas duas réguas** — acima do teto de 40 do Quadro 179.6 e da faixa de 20–35 do pré-escolar —, e uma FC de 168 a 174 bpm nessa idade ultrapassa o espectro tanto dos 2 anos (90–150) quanto dos 4 (72–135). São exatamente os números do caso de febre do modo de casos deste guia, que agora têm sua âncora. A contagem respiratória na criança segue as regras do tópico dono: 1 minuto inteiro, sem avisar — e, no lactente, antes do choro ou nas pausas dele.\n"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Pressão arterial — a técnica que muda, os valores que são moldura",
+         "texto": "A semiotécnica completa da pressão arterial — Korotkoff, velocidade de desinsuflação, hiato auscultatório — mora no tópico de pressão arterial dos sinais vitais. O capítulo 47 da *Semiologia Médica* lista o que muda na criança:\n\n- **manguito proporcional ao braço**, como no adulto — mas há **três tamanhos pediátricos** para os diferentes tamanhos de criança; manguito de adulto em braço de criança falseia a medida;\n- **criança quieta é pré-requisito**: a técnica manda diminuir os movimentos distraindo a criança — e **evitar medir durante o choro**, que pode elevar a pressão em **até 50 mmHg**. É por isso que a PA está na lista do que se examina antes de a criança chorar;\n- nas **crianças muito pequenas**, usa-se com frequência o **método palpatório** para a sistólica — sabendo que ele subestima o valor auscultatório em 5 a 10 mmHg;\n- como os sons são difíceis de ouvir, a diastólica é muitas vezes tomada na **fase IV de Korotkoff** — o abafamento, não o desaparecimento.\n\nE os valores normais? As obras adotadas **não trazem tabela de normalidade pediátrica**: o capítulo 179 remete a determinação da pressão ao capítulo 47, e a bibliografia do próprio capítulo 179 registra a diretriz de rastreamento e manejo da hipertensão em crianças e adolescentes de **Flynn et al. (Pediatrics, 2017)** — diretriz em que a classificação depende de percentis por idade, sexo e estatura. O guia registra a moldura nomeada e datada em vez de importar a tabela: o que é semiologia — a técnica — está aqui; o que é diretriz fica com a diretriz.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "O choro pode somar até 50 mmHg à pressão arterial de uma criança — mais do que muitos anti-hipertensivos subtraem de um adulto. Metade da semiotécnica pediátrica dos sinais vitais se resume a uma habilidade que não aparece nos quadros: conseguir números de uma criança calma."
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Onde este tópico encontra os outros",
+         "texto": "- **Temperatura e frequência respiratória**, nos sinais vitais, é o dono da febre na criança — o corte axilar da SBP (documento de 2025), o estado febril e a primazia da avaliação clínica sobre o número. Nada disso se repete aqui: criança febril se estuda lá.\n- **Antropometria e hidratação** é a dona da avaliação do estado de hidratação — os seis parâmetros de Porto, incluindo **as fontanelas planas e normotensas da criança hidratada e a fontanela deprimida do lactente desidratado** — e da técnica antropométrica geral. Este tópico acrescentou os cortes pediátricos; a desidratação continua morando lá.\n- **Crânio e face**, em cabeça e pescoço, carrega a fontanela hipertensa e a leitura do crânio — micro e macrocefalia como achados de inspeção; a medida do perímetro cefálico que dá nome a esses achados, com seu corte e seu calendário, ganha morada aqui.\n- **Frequência cardíaca e pulso** e **Pressão arterial** ensinam a semiotécnica geral que as particularidades desta página pressupõem.\n- **Abordagem e anamnese da criança**, o tópico anterior, explica por que estes números se colhem antes do choro — e o que fazer quando a criança chora assim mesmo.\n- **Do recém-nascido ao adolescente**, o próximo tópico, recebe o exame por fases: as fontanelas do recém-nascido, o quadril, a puberdade e os estágios de Tanner.\n- O caso **Febre em uma criança de 3 anos** usa FC e FR que as faixas deste tópico ancoram — a taquicardia e a taquipneia de lá se medem com as réguas daqui.\n"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Aprofundamento"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Baixa estatura — quando a curva pede investigação",
+         "texto": "O capítulo 99 da *Semiologia Médica* transforma a curva de estatura em critério de encaminhamento. Investigam-se três situações: estatura **abaixo do percentil 3**; estatura **abaixo do potencial familiar** — 2 escores Z abaixo do percentil da estatura-alvo —; e **baixa velocidade de crescimento**, mesmo com estatura ainda \"normal\".\n\nA estatura-alvo se calcula a partir das alturas dos pais — **aferidas, de preferência, e não referidas** —, e a pergunta da consulta passa a ser se a criança está no **canal de crescimento** que leva ao alvo familiar. Confirmada a baixa estatura, o primeiro corte do raciocínio é **proporcionada × desproporcionada** — membros desproporcionalmente curtos em relação à coluna, como na acondroplasia, mudam o diagnóstico de partida —, medindo perímetro cefálico, envergadura, altura sentada e os segmentos superior e inferior.\n\nDuas âncoras protegem contra os dois erros opostos. Contra o alarme excessivo: o que mais frequentemente explica uma baixa estatura **não é deficiência hormonal** — o retardo constitucional do crescimento e desenvolvimento é variante do normal, e sua marca é a velocidade de crescimento próxima do normal nas curvas anteriores. Contra a falsa tranquilidade: **queda brusca da velocidade de crescimento** costuma denunciar uma agressão relevante à saúde da criança, física ou emocional — e o diferencial que a obra lista vai de desnutrição e doenças sistêmicas (renais, cardíacas, intestinais) a síndromes como Turner e Down, hipotireoidismo e síndrome de Cushing. É a ilustração deste tópico em ato: a criança que cruza escores para baixo investiga-se; a que corre paralela ao padrão, com velocidade normal, observa-se.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Alta estatura e a puberdade como relógio do estirão",
+         "texto": "O extremo oposto da curva também tem critério: pelo capítulo 101, a estatura que passa de **3 desvios padrão acima da média etária** — ou de **2 desvios padrão acima da curva-alvo familiar** — pede, na criança e no adolescente, investigação endocrinológica: é a janela do gigantismo, quando o excesso de hormônio do crescimento age antes do fechamento das cartilagens.\n\nE há um relógio que a curva de estatura do adolescente obedece — e que não é o calendário. Pelo capítulo 180, o **estirão** — a fase de maior crescimento depois do primeiro ano de vida — está vinculado aos **estágios de maturação sexual, não à idade cronológica**: na menina, começa nas fases iniciais da puberdade e tem pico antes da menarca, que chega já na desaceleração; no menino, começa e culmina mais tarde. A consequência semiológica: **a curva de estatura do adolescente só se interpreta junto com o estadiamento puberal** — um menino de 13 anos \"parado\" na curva pode ser simplesmente um menino que ainda não entrou no estirão.\n\nAs janelas normais de início da puberdade, pelo mesmo capítulo, funcionam como alarmes nas duas direções: o broto mamário surge dos **8 aos 13 anos** nas meninas; o aumento dos testículos, dos **9 aos 14 anos** nos meninos. Início antes ou depois dessas janelas é a puberdade precoce ou atrasada — cuja semiologia, com os estágios de Tanner, é matéria do próximo tópico.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "A curva como triagem nutricional",
+         "texto": "O capítulo de desnutrição da *Semiologia Médica* dá à curva pediátrica uma gramática temporal: **peso para estatura** baixo indica, em geral, **desnutrição aguda** — o peso cai antes; **estatura para idade** baixa reflete **desnutrição crônica** — o crescimento comprometido é a cicatriz do tempo. E manda ler os indicadores **em conjunto**: um parâmetro isolado apontando problema pede atenção redobrada às curvas de peso para estatura e de estatura para idade antes de qualquer rótulo.\n\nNa criança hospitalizada, a obra converte a triagem em rotina: risco de desnutrição avaliado em **até 48 horas da admissão** e reavaliado ao menos **a cada 7 dias** — porque a desnutrição, aguda ou crônica, se associa a complicações, pior prognóstico e internação mais longa, qualquer que seja o motivo da admissão. O instrumento que a obra registra, indicado pela Associação Brasileira de Nutrição, é o **Strong Kids** — triagem para 1 mês a 18 anos que combina estado nutricional, perda ou não ganho de peso, ingestão, sintomas gastrintestinais e gravidade da doença. Este guia o nomeia como moldura: a ferramenta aplica-se pelo formulário próprio, não por memória.\n",
+         "nivel": "avancado"
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Armadilhas do exame"
+        },
+        {
+         "tipo": "conceito",
+         "titulo": "Seis erros no crescimento e nos sinais vitais da criança",
+         "texto": "1. **Julgar o sinal vital da criança com a régua do adulto.** Os 150 bpm do lactente e as 40 irpm do recém-nascido são fisiologia; os 100 bpm \"normais\" podem ser bradicardia relativa num recém-nascido séptico. A faixa etária vem antes do número.\n2. **Classificar sem plotar.** Peso e estatura soltos não dizem quase nada; o diagnóstico nutricional dos quadros de Porto exige o escore Z da curva certa — idade e sexo conferidos.\n3. **Olhar o ponto e ignorar o trajeto.** A criança no percentil 3 que sempre correu paralela ao padrão preocupa menos que a criança do percentil 50 que vinha do 90. Cruzar escores para baixo é o achado.\n4. **Medir a pressão da criança chorando** — ou com manguito de adulto. Um erro soma até 50 mmHg; o outro falseia a medida por desproporção. Os dois fabricam hipertensos.\n5. **Diagnosticar arritmia na frequência que respira.** A arritmia sinusal da criança é achado normal; suspeitar de doença a cada variação inspiratória é não conhecer o capítulo 179.\n6. **Esquecer o perímetro cefálico depois da maternidade.** A medida acompanha até os 2 anos — e microcefalia e macrocefalia se diagnosticam pela fita e pela curva, não pelo olhar.\n"
+        },
+        {
+         "tipo": "perola",
+         "texto": "Porto lembra que, para condições especiais como o recém-nascido, existe balança própria — e a frase vale como síntese do tópico inteiro: na criança, quase nenhum instrumento novo é inventado; quase todos são recalibrados. O que muda de verdade é a régua de leitura, que agora tem idade."
+        },
+        {
+         "tipo": "secao",
+         "titulo": "Teste rápido"
+        },
+        {
+         "tipo": "quiz",
+         "perguntas": [
+          {
+           "id": "cri-cresc-1",
+           "enunciado": "Um lactente de 6 meses, calmo e afebril, apresenta FC de 150 bpm em contagem de 1 minuto. Como interpretar, pelo Quadro 179.4 de Porto?",
+           "alternativas": [
+            "Taquicardia importante: acima de 100 bpm há taquicardia em qualquer idade",
+            "Bradicardia relativa, pois a média da faixa etária é bem mais alta que o valor encontrado, o que exige eletrocardiograma imediato e monitoramento contínuo até o esclarecimento da causa",
+            "Frequência dentro do espectro esperado para a idade — aos 6 meses, o quadro registra média de 145 bpm e espectro de 105 a 185 bpm",
+            "Valor não interpretável sem a frequência respiratória simultânea"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "O Quadro 179.4 dá, para os 6 meses, média de 145 bpm e espectro de 105 a 185 bpm: 150 bpm é um valor central para a idade. A régua do adulto (60 a 100 bpm) não se aplica à criança — a frequência desce degrau a degrau até se aproximar dos valores adultos por volta dos 10 anos (90 bpm de média, 65 a 130 de espectro). E não é bradicardia: 150 está acima, não abaixo, da média etária."
+          },
+          {
+           "id": "cri-cresc-2",
+           "enunciado": "Durante a ausculta de uma criança de 5 anos, você nota que a frequência cardíaca aumenta na inspiração e diminui na expiração, de forma repetida e previsível. Qual é o significado?",
+           "alternativas": [
+            "Arritmia sinusal (ou respiratória) — achado normal na infância, segundo o capítulo 179",
+            "Fibrilação atrial, que deve ser confirmada por eletrocardiograma antes de qualquer conduta",
+            "Sinal precoce de miocardite, dado o vínculo do ritmo com o ciclo respiratório",
+            "Artefato de técnica: a ausculta deve ser repetida em apneia voluntária"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "O capítulo 179 é explícito: a arritmia sinusal ou respiratória é normal na infância — o coração acelera a cada inspiração e desacelera a cada expiração. É ritmo acoplado à respiração, previsível, e não exige investigação. A fibrilação atrial produz irregularidade sem padrão; e pedir apneia voluntária a uma criança de 5 anos para 'corrigir' um achado fisiológico é resolver um problema que não existe."
+          },
+          {
+           "id": "cri-cresc-3",
+           "enunciado": "Em um recém-nascido a termo, qual valor de perímetro cefálico define microcefalia, e até quando a medida deve ser acompanhada em toda criança, segundo o Exame Clínico?",
+           "alternativas": [
+            "Menos de 30 cm, com acompanhamento até o primeiro ano de vida",
+            "Menos de 35 cm, com acompanhamento até os 5 anos em todas as crianças",
+            "Qualquer valor abaixo do percentil 50 da curva da OMS na primeira medida, com acompanhamento mensal obrigatório até a puberdade e investigação genética sempre que a curva não retornar à mediana em duas consultas consecutivas",
+            "Menos de 33 cm na criança a termo, com medida logo após o nascimento e acompanhamento até os 2 anos — estendido até os 5 anos nas crianças com algum déficit"
+           ],
+           "corretaIndex": 3,
+           "explicacao": "O Exame Clínico define microcefalia, na criança a termo, como perímetro cefálico inferior a 33 cm, e manda medir logo após o nascimento e acompanhar até os 2 anos de idade — até os 5 anos quando há déficit. Semiologia Clínica acrescenta o espírito da medida: com a fita métrica avalia-se a velocidade do crescimento craniano, não um número isolado. Percentil abaixo do 50 é metade das crianças normais — não é critério de nada."
+          },
+          {
+           "id": "cri-cresc-4",
+           "enunciado": "Uma criança de 3 anos com febre apresenta FR de 46 irpm e FC de 170 bpm. Como as duas obras que fornecem faixas pediátricas classificam esses valores?",
+           "alternativas": [
+            "Normais para a idade, pois criança pequena respira e bate o coração naturalmente rápido, e a febre explica qualquer aceleração adicional sem valor semiológico",
+            "Taquipneia e taquicardia: a FR ultrapassa o teto de 40 irpm de Porto para maiores de 12 meses e a faixa de 20–35 irpm que o Exame Clínico e Semiologia Clínica dão ao pré-escolar, e a FC excede o espectro tanto dos 2 anos (90–150 bpm) quanto dos 4 anos (72–135 bpm)",
+            "Taquipneia isolada com FC normal, já que 170 bpm está dentro do espectro dos 6 meses",
+            "Valores inclassificáveis, pois nenhuma das obras adotadas fornece faixas pediátricas"
+           ],
+           "corretaIndex": 1,
+           "explicacao": "Aos 3 anos, as duas réguas convergem: pelo Quadro 179.6 de Porto, acima de 12 meses a FR máxima esperada é 40 irpm; pela tabela comum ao Exame Clínico e a Semiologia Clínica, o pré-escolar respira de 20 a 35 irpm — 46 irpm é taquipneia pelas duas. Para a FC, o Quadro 179.4 enquadra os 3 anos entre as linhas dos 2 anos (90–150) e dos 4 anos (72–135): 170 bpm ultrapassa ambas. O espectro dos 6 meses não serve de consolo — a faixa é a da idade da criança. Febre acelera coração e respiração, mas isso não anula o achado: explica-o, e ele continua sendo dado de gravidade a integrar ao estado geral."
+          },
+          {
+           "id": "cri-cresc-5",
+           "enunciado": "Ao medir a pressão arterial de um lactente que chora vigorosamente, o valor obtido vem bem acima do esperado. O que diz a técnica do capítulo 47?",
+           "alternativas": [
+            "O choro pode elevar a pressão em até 50 mmHg; a medida deve ser evitada durante o choro, com a criança distraída e o manguito adequado ao braço",
+            "O choro reduz a pressão por vasodilatação periférica, de modo que o valor real é ainda maior",
+            "O valor é confiável desde que obtido pelo método auscultatório com estetoscópio pediátrico, técnica que não sofre influência do estado emocional da criança nem exige colaboração para fornecer números fidedignos",
+            "Deve-se sedar levemente a criança para obter uma medida fidedigna"
+           ],
+           "corretaIndex": 0,
+           "explicacao": "O capítulo 47 lista os cuidados pediátricos: manguito ajustado às dimensões do braço — comprimento e largura, em três tamanhos —, distração para diminuir os movimentos — e evitar a medida com a criança chorando, porque o choro pode elevar a pressão em até 50 mmHg. Nas crianças muito pequenas usa-se com frequência o método palpatório para a sistólica (5 a 10 mmHg abaixo do auscultatório) e a fase IV de Korotkoff como diastólica. Sedar para medir pressão não é conduta de semiologia."
+          },
+          {
+           "id": "cri-cresc-6",
+           "enunciado": "Duas crianças de 4 anos têm estatura no percentil 3. A primeira sempre correu paralela ao padrão, com velocidade de crescimento normal; a segunda estava no percentil 50 aos 2 anos. Como as fontes orientam a leitura?",
+           "alternativas": [
+            "As duas exigem investigação endocrinológica imediata, pois percentil 3 é o corte absoluto de doença",
+            "Nenhuma exige atenção, pois ambas permanecem dentro dos limites estatísticos da curva",
+            "A segunda preocupa mais: a queda da velocidade com cruzamento de escores para baixo sugere agressão à saúde ou doença adquirida, enquanto a curva paralela com velocidade normal é o padrão das variantes do crescimento, como o retardo constitucional",
+            "A primeira preocupa mais, porque a baixa estatura presente desde sempre indica necessariamente causa congênita grave"
+           ],
+           "corretaIndex": 2,
+           "explicacao": "O Exame Clínico diferencia os padrões pela curva: a alteração funcional cresce em velocidade normal, com curva paralela ao padrão; a afecção adquirida segue curva normal por um tempo e depois se desvia. O capítulo 99 fecha o raciocínio: queda brusca da velocidade de crescimento costuma denunciar agressão relevante à saúde da criança — física ou emocional —, enquanto as variantes do normal — como o retardo constitucional, causa mais comum de baixa estatura — mantêm velocidade próxima do normal. O percentil 3 é um dos critérios de investigação, mas o trajeto decide a urgência e a direção — e curva baixa desde sempre pede avaliação, não pânico: pode ser padrão familiar."
+          }
+         ]
+        }
+       ]
+      }
+     ]
     }
    ]
   }

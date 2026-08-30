@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
+    <text x="10" y="13">Curva de crescimento — o trajeto vale mais que o ponto</text>
+  </g>
+  <path d="M 36.0 24.0 L 36.0 168.0 L 308 168.0" stroke-width="1.4" />
+  <path d="M 302 164 L 308 168 L 302 172" stroke-width="1.2" />
+  <g font-family="sans-serif" font-size="7" fill="currentColor" stroke="none">
+    <text transform="rotate(-90 14 96)" x="14" y="96" text-anchor="middle">peso ou estatura</text>
+    <text x="286" y="179" text-anchor="end">idade</text>
+  </g>
+  <path d="M 40.0 115.1 L 50.8 109.3 L 61.7 104.1 L 72.5 99.4 L 83.3 95.1 L 94.2 91.0 L 105.0 87.2 L 115.8 83.6 L 126.7 80.1 L 137.5 76.8 L 148.3 73.7 L 159.2 70.6 L 170.0 67.7 L 180.8 64.9 L 191.7 62.1 L 202.5 59.4 L 213.3 56.8 L 224.2 54.3 L 235.0 51.8 L 245.8 49.4 L 256.7 47.0 L 267.5 44.7 L 278.3 42.4 L 289.2 40.2 L 300.0 38.0" stroke-width="1.1" stroke-dasharray="4 3" />
+  <path d="M 40.0 129.1 L 50.8 123.3 L 61.7 118.1 L 72.5 113.4 L 83.3 109.1 L 94.2 105.0 L 105.0 101.2 L 115.8 97.6 L 126.7 94.1 L 137.5 90.8 L 148.3 87.7 L 159.2 84.6 L 170.0 81.7 L 180.8 78.9 L 191.7 76.1 L 202.5 73.4 L 213.3 70.8 L 224.2 68.3 L 235.0 65.8 L 245.8 63.4 L 256.7 61.0 L 267.5 58.7 L 278.3 56.4 L 289.2 54.2 L 300.0 52.0" stroke-width="1.1" />
+  <path d="M 40.0 143.1 L 50.8 137.3 L 61.7 132.1 L 72.5 127.4 L 83.3 123.1 L 94.2 119.0 L 105.0 115.2 L 115.8 111.6 L 126.7 108.1 L 137.5 104.8 L 148.3 101.7 L 159.2 98.6 L 170.0 95.7 L 180.8 92.9 L 191.7 90.1 L 202.5 87.4 L 213.3 84.8 L 224.2 82.3 L 235.0 79.8 L 245.8 77.4 L 256.7 75.0 L 267.5 72.7 L 278.3 70.4 L 289.2 68.2 L 300.0 66.0" stroke-width="1.1" stroke-dasharray="4 3" />
+  <path d="M 40.0 156.1 L 50.8 150.3 L 61.7 145.1 L 72.5 140.4 L 83.3 136.1 L 94.2 132.0 L 105.0 128.2 L 115.8 124.6 L 126.7 121.1 L 137.5 117.8 L 148.3 114.7 L 159.2 111.6 L 170.0 108.7 L 180.8 105.9 L 191.7 103.1 L 202.5 100.4 L 213.3 97.8 L 224.2 95.3 L 235.0 92.8 L 245.8 90.4 L 256.7 88.0 L 267.5 85.7 L 278.3 83.4 L 289.2 81.2 L 300.0 79.0" stroke-width="2" stroke-dasharray="1.5 3.5" />
+  <path d="M 40.0 129.1 L 50.8 123.3 L 61.7 118.1 L 72.5 113.4 L 83.3 109.1 L 94.2 105.0 L 105.0 101.2 L 115.8 97.6 L 126.7 94.1 L 137.5 90.8 L 148.3 88.9 L 159.2 88.7 L 170.0 88.6 L 180.8 88.5 L 191.7 88.3 L 202.5 88.2 L 213.3 88.1 L 224.2 87.9 L 235.0 87.8 L 245.8 87.7 L 256.7 87.5 L 267.5 87.4 L 278.3 87.3 L 289.2 87.1 L 300.0 87.0" stroke-width="2" />
+  <g font-family="sans-serif" font-size="7" fill="currentColor" stroke="none">
+    <text x="303" y="40.5">+2</text>
+    <text x="303" y="54.5">0</text>
+    <text x="303" y="68.5">−2</text>
+    <text x="303" y="81.5">b</text>
+    <text x="303" y="89.5">a</text>
+  </g>
+  <g font-family="sans-serif" font-size="7" fill="currentColor" stroke="none">
+    <text x="10" y="188.5">a · desvio adquirido: seguia o canal, depois cruza escores para baixo</text>
+    <text x="10" y="197.5">b · curva paralela ao padrão, abaixo dele: velocidade de crescimento normal</text>
+  </g>
+</svg>
