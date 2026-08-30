@@ -105,3 +105,12 @@ sistemas:
       - id: exame-psiquico
         titulo: Exame psíquico
         ordem: 1
+  - id: semiologia-da-crianca
+    titulo: Semiologia da criança
+    cor: "#C1012E"
+    icone: baby
+    ordem: 12
+    capitulos:
+      - id: exame-da-crianca
+        titulo: O exame da criança
+        ordem: 1

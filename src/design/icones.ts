@@ -1,4 +1,5 @@
 import {
+  Baby,
   Bone,
   Brain,
   ClipboardList,
@@ -27,6 +28,7 @@ const mapaIcones: Record<string, LucideIcon> = {
   'git-fork': GitFork,
   ribbon: Ribbon,
   'message-circle': MessageCircle,
+  baby: Baby,
 };
 
 export function obterIcone(chave: string): LucideIcon {
