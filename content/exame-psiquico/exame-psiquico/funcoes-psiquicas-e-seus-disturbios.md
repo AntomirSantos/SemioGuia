@@ -246,7 +246,7 @@ texto: |
   **O curso e a forma.** O pensamento normal é o **realista**: parte de diretrizes que guiam ideias associadas por vínculos de significado. Contrapõe-se a ele o **fantástico** — "construir castelos no ar" —, normal em crianças e tímidos, patológico quando a fantasia é vivida como realidade. Sobre esse fundo, os padrões:
 
   - **acelerado (maníaco):** ritmo veloz, diretriz que muda sem motivo, expressão verbal abundante e incoercível; no extremo, as associações se fazem pela sonoridade das palavras e o sentido se perde — a **fuga de ideias**. Semiologia Clínica descreve o correlato observável: a **pressão de discurso**, fala alta, rápida e difícil de interromper;
-  - **inibido (depressivo):** alentecimento, pouco material associativo, adesão pertinaz a um mesmo tema, poucas palavras ditas devagar — e, no discurso, a **latência de resposta** e o empobrecimento que Semiologia Clínica registra;
+  - **inibido (depressivo):** alentecimento, pouca associação de ideias, uma fidelidade teimosa ao mesmo tema, poucas palavras ditas devagar — e, no discurso, a **latência de resposta** e o empobrecimento que Semiologia Clínica registra;
   - **o conjunto dos quadros psicóticos:** a **desagregação** — ideias associadas sem vínculo de sentido, com aparência de ilogicidade —; o **bloqueio** ou interceptação — interrupção súbita do curso —, que vira **descarrilamento** quando o paciente não retorna ao tema; a **perseveração** — repetição incessante das mesmas ideias ou palavras —; a **ambivalência** — dois pensamentos contraditórios coexistindo; e as vivências de influência — pensamentos feitos, subtraídos, sonorizados, difundidos —, que a *Semiologia Médica* considera, sem causa orgânica, sugestivas de esquizofrenia;
   - **dois padrões com dono:** o **prolixo** — excesso de acessórios por incapacidade de sintetizar, frequente nos quadros iniciais de demência e na epilepsia — e a distinção fina de Porto entre **incoerência** e **desagregação**: a mesma associação sem lógica se chama pensamento incoerente quando a consciência está diminuída ou confusa, e desagregação quando há lucidez. O nome do distúrbio depende do exame da consciência — mais uma razão para a ordem do roteiro.
 
@@ -262,7 +262,7 @@ causas:
   - "Depressão grave com sintomas psicóticos — ideias delirantes secundárias de culpa e ruína"
   - "Estados maníacos — convicções de grandeza no polo oposto do humor"
   - "Delirium e quadros orgânicos confusionais, em que se mistura a alucinações e ilusões"
-  - "Transtornos delirantes crônicos, a investigar pelo especialista"
+  - "Outros quadros psicóticos — cuja investigação detalhada, Porto adverte, exige conhecimento especializado"
 :::
 
 ::: conceito
@@ -441,7 +441,7 @@ perguntas:
       - "O oposto: o riso na depressão configura incontinência afetiva e indica agravamento orgânico"
       - "O registro deveria ser incongruência afetiva, sugestiva de esquizofrenia"
     corretaIndex: 1
-    explicacao: "A distinção é de Semiologia Clínica: humor é o tônus afetivo, a tonalidade de fundo; afetos são as reações de cada momento — e um paciente depressivo pode rir de um comentário sem que o humor deixe de estar deprimido. A incontinência afetiva seria o riso ou choro prolongado e sem controle diante de estímulo mínimo, sugerindo lesão orgânica; a incongruência seria a resposta inadequada ao contexto — rir narrando uma tragédia própria —, o que não é o caso de rir de uma piada. O humor se julga pelo conjunto da conversa, não por um instante dela."
+    explicacao: "A distinção é de Semiologia Clínica: humor é o tônus afetivo, a tonalidade de fundo; afetos são as reações de cada momento — e o riso arrancado por um comentário não retira do humor o seu estado deprimido. A incontinência afetiva seria o riso ou choro prolongado e sem controle diante de estímulo mínimo, sugerindo lesão orgânica; a incongruência seria a resposta inadequada ao contexto — rir narrando uma tragédia própria —, o que não é o caso de rir de uma piada. O humor se julga pelo conjunto da conversa, não por um instante dela."
   - id: psi-func-4
     enunciado: Um paciente afirma com absoluta certeza que vizinhos o vigiam por aparelhos, e nenhum argumento o demove. A família informa que a crença não é partilhada por ninguém do seu meio. Que características fazem dessa ideia um delírio, segundo as fontes?
     alternativas:

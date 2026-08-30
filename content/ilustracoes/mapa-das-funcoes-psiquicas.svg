@@ -3,45 +3,49 @@
     <text x="10" y="13">Roteiro do exame psíquico — as funções sucessivas</text>
   </g>
   <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
-    <text x="10" y="30">1º · funções de base — alteradas, pedem causa orgânica*</text>
+    <text x="10" y="28">1º · funções de base — alteradas, indicam disfunção</text>
+    <text x="10" y="38">neurológica ou comprometem o resto do exame</text>
   </g>
-  <path d="M 10 36 L 82 36 L 82 60 L 10 60 Z" stroke-width="1.2" />
-  <path d="M 88 36 L 160 36 L 160 60 L 88 60 Z" stroke-width="1.2" />
-  <path d="M 166 36 L 238 36 L 238 60 L 166 60 Z" stroke-width="1.2" />
-  <path d="M 244 36 L 316 36 L 316 60 L 244 60 Z" stroke-width="1.2" />
+  <path d="M 10 42 L 82 42 L 82 66 L 10 66 Z" stroke-width="1.2" />
+  <path d="M 88 42 L 160 42 L 160 66 L 88 66 Z" stroke-width="1.2" />
+  <path d="M 166 42 L 238 42 L 238 66 L 166 66 Z" stroke-width="1.2" />
+  <path d="M 244 42 L 316 42 L 316 66 L 244 66 Z" stroke-width="1.2" />
   <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none" text-anchor="middle">
-    <text x="46" y="46">impressão</text>
-    <text x="46" y="55">geral</text>
-    <text x="124" y="51">consciência*</text>
-    <text x="202" y="51">atenção*</text>
-    <text x="280" y="51">orientação</text>
+    <text x="46" y="52">impressão</text>
+    <text x="46" y="61">geral</text>
+    <text x="124" y="57">consciência*</text>
+    <text x="202" y="57">atenção</text>
+    <text x="280" y="57">orientação</text>
   </g>
   <g font-family="sans-serif" font-size="7" fill="currentColor" stroke="none">
-    <text x="10" y="72">* nível de consciência e Glasgow: tópico Consciência e estado mental</text>
+    <text x="10" y="76">* nível de consciência e Glasgow: tópico Consciência e estado mental</text>
+    <text x="10" y="86">Semiologia Clínica inclui a memória neste primeiro grupo</text>
   </g>
   <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
-    <text x="10" y="88">2º · funções elaboradas — o estado mental propriamente</text>
+    <text x="10" y="97">2º · funções elaboradas — caixas divididas como os tópicos do guia</text>
   </g>
-  <path d="M 10 94 L 106 94 L 106 118 L 10 118 Z" stroke-width="1.2" />
-  <path d="M 112 94 L 208 94 L 208 118 L 112 118 Z" stroke-width="1.2" />
-  <path d="M 214 94 L 310 94 L 310 118 L 214 118 Z" stroke-width="1.2" />
-  <path d="M 10 124 L 106 124 L 106 148 L 10 148 Z" stroke-width="1.2" />
-  <path d="M 112 124 L 208 124 L 208 148 L 112 148 Z" stroke-width="1.2" />
-  <path d="M 214 124 L 310 124 L 310 148 L 214 148 Z" stroke-width="1.2" />
+  <path d="M 10 102 L 106 102 L 106 126 L 10 126 Z" stroke-width="1.2" />
+  <path d="M 112 102 L 208 102 L 208 126 L 112 126 Z" stroke-width="1.2" />
+  <path d="M 214 102 L 310 102 L 310 126 L 214 126 Z" stroke-width="1.2" />
+  <path d="M 10 132 L 81 132 L 81 156 L 10 156 Z" stroke-width="1.2" />
+  <path d="M 87 132 L 158 132 L 158 156 L 87 156 Z" stroke-width="1.2" />
+  <path d="M 164 132 L 235 132 L 235 156 L 164 156 Z" stroke-width="1.2" />
+  <path d="M 241 132 L 312 132 L 312 156 L 241 156 Z" stroke-width="1.2" />
   <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none" text-anchor="middle">
-    <text x="58" y="109">memória</text>
-    <text x="160" y="109">sensopercepção</text>
-    <text x="262" y="104">pensamento</text>
-    <text x="262" y="113">e linguagem</text>
-    <text x="58" y="139">humor e afeto</text>
-    <text x="160" y="139">juízo e crítica</text>
-    <text x="262" y="134">psicomotricidade</text>
-    <text x="262" y="143">e vontade</text>
+    <text x="58" y="117">memória</text>
+    <text x="160" y="117">sensopercepção</text>
+    <text x="262" y="112">pensamento</text>
+    <text x="262" y="121">e linguagem</text>
+    <text x="45" y="147">humor e afeto</text>
+    <text x="122" y="147">juízo e crítica</text>
+    <text x="199" y="147">inteligência</text>
+    <text x="276" y="142">psicomotricidade</text>
+    <text x="276" y="151">e vontade</text>
   </g>
-  <path d="M 14 168 L 296 168" stroke-width="1.6" />
-  <path d="M 290 164 L 296 168 L 290 172" stroke-width="1.4" />
+  <path d="M 14 170 L 296 170" stroke-width="1.6" />
+  <path d="M 290 166 L 296 170 L 290 174" stroke-width="1.4" />
   <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
-    <text x="14" y="184">a entrevista — o exame acontece enquanto ela corre,</text>
-    <text x="14" y="194">não como interrogatório à parte</text>
+    <text x="14" y="183">a entrevista — o exame acontece enquanto ela corre,</text>
+    <text x="14" y="193">não como interrogatório à parte</text>
   </g>
 </svg>

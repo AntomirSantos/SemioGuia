@@ -46,7 +46,7 @@ tags:
   - estação OSCE
 referencias:
   - "Porto — Exame Clínico, 8ª ed., cap. 7 (Exame Psíquico e Avaliação das Condições Emocionais) — Introdução: o exame psíquico e a avaliação das condições emocionais como etapas fundamentais do exame clínico, a parcela de pacientes com problemas emocionais somatizados, a analogia com a medida da pressão arterial e o começo da avaliação tão logo começa a anamnese; Sistematização: impressão geral, consciência (ciclo vigília-sono, obnubilação e torpor, boxe sobre estados crepusculares e confusão mental), atenção (a comparação da consciência com a luz sobre um palco, o comportamento na entrevista e o teste dos meses e dias em ordem inversa), orientação (autopsíquica e temporoespacial, a ordem habitual de comprometimento, a advertência contra perguntas diretas, dupla orientação, despersonalização, desrealização e imagem corporal); Roteiro pedagógico para o exame psíquico e avaliação das condições emocionais; boxe Exame psíquico do paciente idoso"
-  - "Porto — Exame Clínico, 8ª ed., cap. 20 (Exame Neurológico), Avaliação do estado mental — a avaliação das funções psíquicas como parte do exame neurológico, com a adaptação do miniexame do estado mental restrita a orientação, memória e linguagem"
+  - "Porto — Exame Clínico, 8ª ed., cap. 6 (Sinais e Sintomas), Avaliação do estado mental — a avaliação das funções psíquicas como parte do exame neurológico, com a adaptação do miniexame do estado mental restrita a orientação, memória e linguagem (Quadro 6.47); e cap. 20 (Exame Neurológico), Miniexame do Estado Mental — a mesma avaliação, que não é exame psiquiátrico e analisa os elementos que mais se correlacionam com as doenças neurológicas, abrangendo orientação temporoespacial, memória, linguagem e função visuoespacial"
   - "Porto — Semiologia Médica, 8ª ed., Parte 18, cap. 172 (Exame Clínico), Avaliação do estado mental — a avaliação do estado mental como parte do exame neurológico, que não é exame psiquiátrico e abrange apenas orientação temporoespacial, memória e linguagem"
   - "Porto — Semiologia Médica, 8ª ed., Parte 19 (Exame Psiquiátrico), cap. 176 (Exame Clínico) — a entrevista psiquiátrica e sua função terapêutica; os temores do paciente diante do rótulo de 'louco' e a vergonha de expor sofrimentos íntimos; a postura de compreender sem julgar; aliança terapêutica e rapport; o peso dos primeiros momentos da entrevista; simulação rara e difícil de sustentar contra dissimulação frequente; a ordem de escuta do paciente e do acompanhante; a privacidade do ambiente; o exame psíquico como avaliação do estado mental no momento da entrevista, o boxe das quatro pessoas presentes na sala e a flutuação da sintomatologia; esquema de investigação das funções psíquicas: avaliação geral, relação com o entrevistador (incluindo os sentimentos que o paciente desperta no examinador), consciência, atenção (com os testes de subtração de 7 a partir de 100 e do alfabeto), orientação e distúrbios da orientação do eu"
   - "Semiologia Clínica, 1ª ed., cap. 20 (A avaliação da saúde mental) — princípios gerais: acolhimento, ambiente com privacidade, gerenciamento do tempo da consulta e empatia; a avaliação ao longo da anamnese e do interrogatório, e não como bloco final; o exame psíquico como anamnese estruturada que acontece ao longo de toda a entrevista, útil a todos os médicos como roteiro e triagem; a ordem das funções — primeiro as que indicam disfunção neurológica ou comprometem as demais, depois as que revelam o estado mental de forma mais elaborada; apresentação e comportamento; nível de consciência; orientação quanto a tempo, espaço e pessoa; atenção voluntária e espontânea; relação médico-paciente e os sentimentos do médico gerados pela relação; a avaliação do risco de suicídio nem no início nem no final da consulta; investigação da saúde mental no idoso; indicadores de encaminhamento para avaliação psiquiátrica"
@@ -91,7 +91,7 @@ titulo: O contrato de respeito — ambiente, postura e a palavra que rotula
 texto: |
   No exame das mamas, o contrato de profissionalismo abre o capítulo porque o exame é físico e íntimo. Aqui ele abre o capítulo porque o exame é **invisível e íntimo**: o paciente expõe pensamentos, medos e fracassos, não a pele. As fontes tratam essa exposição como matéria técnica, com prescrições:
 
-  - **O medo do rótulo.** A *Semiologia Médica* registra o quanto perturba, para muitas pessoas, a ideia de procurar avaliação psiquiátrica: temem a rejeição, o desprezo e o rótulo de "louco" — palavra de peso pejorativo —, e sentem vergonha de abrir a um desconhecido o que há de mais íntimo no próprio sofrimento — e no da família. A mesma obra lembra que os pacientes psicóticos foram por muito tempo estigmatizados. A resposta prescrita não é um gesto de bondade, é técnica: **compreender sem julgar** — nenhuma atitude de aprovação ou reprovação, nem dar nem tirar razão, aceitar o paciente com a escala de valores dele.
+  - **O medo do rótulo.** A *Semiologia Médica* registra o quanto perturba, para muitas pessoas, a ideia de procurar avaliação psiquiátrica: temem a rejeição, o desprezo e o rótulo de "louco" — palavra de peso pejorativo —, e sentem vergonha de abrir a um desconhecido o que há de mais íntimo no próprio sofrimento — e no da família. A mesma obra registra o longo histórico de estigma que pesou sobre quem vive com psicose — e que o conceito de doença mental precisou mudar para que esses pacientes fossem mais bem compreendidos. A resposta prescrita não é um gesto de bondade, é técnica: **compreender sem julgar** — nenhuma atitude de aprovação ou reprovação, nem dar nem tirar razão, aceitar o paciente com a escala de valores dele.
   - **Os primeiros momentos decidem muito.** A *Semiologia Médica* adverte que a primeira impressão que o profissional produz costuma ficar gravada de modo permanente, e que um primeiro contato traumático — sentir-se desrespeitado ou rejeitado — pode nunca ser inteiramente desfeito. O objetivo declarado é a **aliança terapêutica**, o *rapport*: relação de apreço e respeito mútuo, construída com sensibilidade e empatia.
   - **Ambiente e tempo.** Semiologia Clínica exige local apropriado e **privacidade** — o paciente restringe o que conta se percebe que pode ser ouvido por outro paciente, um familiar ou a própria equipe —, e a *Semiologia Médica* repete: ninguém revela aspectos íntimos onde a privacidade não está assegurada. Sobre o tempo, Semiologia Clínica dá uma regra fina: a avaliação da saúde mental **não deve ficar para o final da consulta** — o paciente, sentindo que não haverá tempo para ouvi-lo, tende a negar seus problemas; e a pergunta sobre risco de suicídio não cabe nem no início nem no fim.
   - **Quem fala primeiro.** Quando há acompanhante, a *Semiologia Médica* manda ouvir **o paciente primeiro** e o acompanhante depois, **sempre na presença dele** — tolerando a presença desde o início apenas se o paciente ansioso ou desconfiado a pedir. A mesma regra já apareceu na entrevista clínica geral, e aqui ela protege algo a mais: a versão do paciente sobre a própria vida mental.
@@ -180,7 +180,7 @@ texto: |
 
   A atenção diminui de três maneiras: o paciente voltado para a vida interior, que mal atende aos estímulos de fora; o que desvia o foco de um ponto a outro sem se fixar; e o que se concentra, mas por poucos minutos. E as duas polaridades clínicas ajudam a reconhecer padrões: no **maníaco**, tudo desperta a atenção, mas a capacidade de concentração está muito reduzida; no **deprimido**, os estímulos externos não despertam interesse — ele está voltado para as próprias ideias depressivas. Semiologia Clínica dá nome aos dois eixos: **atenção voluntária** (sustentar o foco no que se escolheu — a pergunta do examinador, um cálculo) e **atenção espontânea** (o alerta que um estímulo captura — a porta que bate), e mostra que variam de forma independente: o maníaco tem a voluntária arruinada e a espontânea exacerbada; o paciente persecutório repara em cada gesto do examinador; o deprimido pode ter a espontânea apagada, alheio ao que acontece ao redor.
 
-  Avalia-se a atenção, antes de tudo, **pela própria entrevista** — Porto insiste que as perguntas habituais da anamnese bastam. Na dúvida, os testes: dizer de trás para a frente os **meses do ano ou os dias da semana**; a *Semiologia Médica* acrescenta, conforme a instrução do paciente, recitar o alfabeto ou **subtrair 7 sucessivamente a partir de 100**. E a regra de precedência já ensinada no capítulo neurológico vale aqui com força dobrada: a atenção é a função de base — quem não a tem falha em tudo o mais sem que nada mais esteja lesado.
+  Avalia-se a atenção, antes de tudo, **pela própria entrevista** — Porto insiste que as perguntas habituais da anamnese bastam. Na dúvida, os testes: dizer de trás para a frente os **meses do ano ou os dias da semana**; a *Semiologia Médica* acrescenta, conforme a instrução do paciente, recitar o alfabeto ou **subtrair 7 sucessivamente a partir de 100**.
 
   **Orientação.** Porto a divide em **autopsíquica** — saber quem se é — e **temporoespacial** — localizar-se no tempo e no espaço. Semiologia Clínica descreve o mesmo território com outro corte: tempo, espaço e **pessoa**. As duas obras convergem na ordem do adoecimento: a orientação **temporal** costuma ser a primeira a se perder; a **autopsíquica**, a última — quando o paciente já não informa nem o próprio nome, e Porto lembra que isso pode ser transitório, no traumatismo craniano, no estado crepuscular epiléptico e em quadros funcionais agudos.
 
@@ -200,49 +200,53 @@ svg: |
       <text x="10" y="13">Roteiro do exame psíquico — as funções sucessivas</text>
     </g>
     <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
-      <text x="10" y="30">1º · funções de base — alteradas, pedem causa orgânica*</text>
+      <text x="10" y="28">1º · funções de base — alteradas, indicam disfunção</text>
+      <text x="10" y="38">neurológica ou comprometem o resto do exame</text>
     </g>
-    <path d="M 10 36 L 82 36 L 82 60 L 10 60 Z" stroke-width="1.2" />
-    <path d="M 88 36 L 160 36 L 160 60 L 88 60 Z" stroke-width="1.2" />
-    <path d="M 166 36 L 238 36 L 238 60 L 166 60 Z" stroke-width="1.2" />
-    <path d="M 244 36 L 316 36 L 316 60 L 244 60 Z" stroke-width="1.2" />
+    <path d="M 10 42 L 82 42 L 82 66 L 10 66 Z" stroke-width="1.2" />
+    <path d="M 88 42 L 160 42 L 160 66 L 88 66 Z" stroke-width="1.2" />
+    <path d="M 166 42 L 238 42 L 238 66 L 166 66 Z" stroke-width="1.2" />
+    <path d="M 244 42 L 316 42 L 316 66 L 244 66 Z" stroke-width="1.2" />
     <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none" text-anchor="middle">
-      <text x="46" y="46">impressão</text>
-      <text x="46" y="55">geral</text>
-      <text x="124" y="51">consciência*</text>
-      <text x="202" y="51">atenção*</text>
-      <text x="280" y="51">orientação</text>
+      <text x="46" y="52">impressão</text>
+      <text x="46" y="61">geral</text>
+      <text x="124" y="57">consciência*</text>
+      <text x="202" y="57">atenção</text>
+      <text x="280" y="57">orientação</text>
     </g>
     <g font-family="sans-serif" font-size="7" fill="currentColor" stroke="none">
-      <text x="10" y="72">* nível de consciência e Glasgow: tópico Consciência e estado mental</text>
+      <text x="10" y="76">* nível de consciência e Glasgow: tópico Consciência e estado mental</text>
+      <text x="10" y="86">Semiologia Clínica inclui a memória neste primeiro grupo</text>
     </g>
     <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
-      <text x="10" y="88">2º · funções elaboradas — o estado mental propriamente</text>
+      <text x="10" y="97">2º · funções elaboradas — caixas divididas como os tópicos do guia</text>
     </g>
-    <path d="M 10 94 L 106 94 L 106 118 L 10 118 Z" stroke-width="1.2" />
-    <path d="M 112 94 L 208 94 L 208 118 L 112 118 Z" stroke-width="1.2" />
-    <path d="M 214 94 L 310 94 L 310 118 L 214 118 Z" stroke-width="1.2" />
-    <path d="M 10 124 L 106 124 L 106 148 L 10 148 Z" stroke-width="1.2" />
-    <path d="M 112 124 L 208 124 L 208 148 L 112 148 Z" stroke-width="1.2" />
-    <path d="M 214 124 L 310 124 L 310 148 L 214 148 Z" stroke-width="1.2" />
+    <path d="M 10 102 L 106 102 L 106 126 L 10 126 Z" stroke-width="1.2" />
+    <path d="M 112 102 L 208 102 L 208 126 L 112 126 Z" stroke-width="1.2" />
+    <path d="M 214 102 L 310 102 L 310 126 L 214 126 Z" stroke-width="1.2" />
+    <path d="M 10 132 L 81 132 L 81 156 L 10 156 Z" stroke-width="1.2" />
+    <path d="M 87 132 L 158 132 L 158 156 L 87 156 Z" stroke-width="1.2" />
+    <path d="M 164 132 L 235 132 L 235 156 L 164 156 Z" stroke-width="1.2" />
+    <path d="M 241 132 L 312 132 L 312 156 L 241 156 Z" stroke-width="1.2" />
     <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none" text-anchor="middle">
-      <text x="58" y="109">memória</text>
-      <text x="160" y="109">sensopercepção</text>
-      <text x="262" y="104">pensamento</text>
-      <text x="262" y="113">e linguagem</text>
-      <text x="58" y="139">humor e afeto</text>
-      <text x="160" y="139">juízo e crítica</text>
-      <text x="262" y="134">psicomotricidade</text>
-      <text x="262" y="143">e vontade</text>
+      <text x="58" y="117">memória</text>
+      <text x="160" y="117">sensopercepção</text>
+      <text x="262" y="112">pensamento</text>
+      <text x="262" y="121">e linguagem</text>
+      <text x="45" y="147">humor e afeto</text>
+      <text x="122" y="147">juízo e crítica</text>
+      <text x="199" y="147">inteligência</text>
+      <text x="276" y="142">psicomotricidade</text>
+      <text x="276" y="151">e vontade</text>
     </g>
-    <path d="M 14 168 L 296 168" stroke-width="1.6" />
-    <path d="M 290 164 L 296 168 L 290 172" stroke-width="1.4" />
+    <path d="M 14 170 L 296 170" stroke-width="1.6" />
+    <path d="M 290 166 L 296 170 L 290 174" stroke-width="1.4" />
     <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
-      <text x="14" y="184">a entrevista — o exame acontece enquanto ela corre,</text>
-      <text x="14" y="194">não como interrogatório à parte</text>
+      <text x="14" y="183">a entrevista — o exame acontece enquanto ela corre,</text>
+      <text x="14" y="193">não como interrogatório à parte</text>
     </g>
   </svg>
-legenda: "O mapa das funções do roteiro, na ordem que Semiologia Clínica justifica: primeiro as funções cuja alteração indica disfunção orgânica ou compromete a avaliação de todas as outras; depois as que revelam o estado mental de forma elaborada. A linha de baixo é o método: nada disso é um questionário aplicado ao final — é observação que corre junto com a entrevista, do primeiro aperto de mão ao registro. Este tópico cobre a primeira fileira; o seguinte, as demais."
+legenda: "O mapa das funções do roteiro. O princípio da ordem é de Semiologia Clínica: primeiro as funções que, alteradas, indicam disfunção neurológica ou comprometem a avaliação das seguintes; depois as que revelam o estado mental de forma mais elaborada — e a obra inclui a memória nesse primeiro grupo. A partição das caixas, porém, segue a divisão dos tópicos deste guia: a primeira fileira é deste tópico; as demais funções, memória incluída, ficam no seguinte. A linha de baixo é o método: nada disso é um questionário aplicado ao final — é observação que corre junto com a entrevista, do primeiro aperto de mão ao registro."
 :::
 
 ::: secao
@@ -258,7 +262,7 @@ texto: |
   Duas consequências práticas:
 
   - **a ansiedade inicial é dos dois lados.** O paciente chega com prejulgamentos sobre o médico, moldados por experiências anteriores; o médico chega com a incerteza de saber diagnosticar — e a *Semiologia Médica* descreve a defesa ruim que isso engendra: o rótulo diagnóstico precoce, construído por percepção seletiva desde as primeiras frases, valorizando só o que confirma. O estudante, além disso, teme importunar; a obra manda declarar a condição de estudante com franqueza — a aceitação tranquila dos receios do paciente fortalece a confiança;
-  - **o tempo tem gestão própria.** Semiologia Clínica lembra que a avaliação completa da saúde mental **dificilmente cabe em uma primeira consulta**: cabe ao médico priorizar o essencial e combinar com o paciente quando o resto será conversado. Entre a entrevista inteiramente livre e a dirigida, a *Semiologia Médica* recomenda a **semidirigida** — deixar o relato se desenvolver sem interrompê-lo, sem ficar preso a interrogatório sistemático e sem se antecipar com explicações e conselhos.
+  - **o tempo tem gestão própria.** Semiologia Clínica lembra que a avaliação completa da saúde mental **dificilmente cabe em uma primeira consulta**, e que cabe ao médico definir as prioridades de cada encontro — **se o tempo não bastar** para completá-la, avalia-se o essencial e combina-se com o paciente quando o restante será conversado. E a *Semiologia Médica* descreve, na entrevista com os pais de crianças e adolescentes, o meio-termo entre a entrevista livre e a dirigida — a **semidirigida**, que deixa o relato correr sem interrupções, sem prender-se a interrogatório sistemático e sem antecipar explicações e conselhos; a formulação é daquele contexto, mas o espírito é o mesmo que a obra pede na entrevista do adulto, em que o roteiro orienta sem transformar o médico em interrogador.
 
   A fronteira com o interrogatório sintomatológico também já foi paga: o segmento "exame psíquico e condições emocionais" da revisão de sistemas, com suas perguntas de rastreio, mora no tópico de interrogatório sintomatológico. Aqui, as perguntas viram exame.
 :::
