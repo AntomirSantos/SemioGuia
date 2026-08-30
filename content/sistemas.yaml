@@ -96,3 +96,12 @@ sistemas:
       - id: exame-neurologico
         titulo: Exame neurológico
         ordem: 1
+  - id: exame-psiquico
+    titulo: Exame psíquico
+    cor: "#D6D629"
+    icone: message-circle
+    ordem: 11
+    capitulos:
+      - id: exame-psiquico
+        titulo: Exame psíquico
+        ordem: 1
