@@ -344,6 +344,48 @@ editorial, do autor. Marque cada caixa ao revisar.
   risco ≥30) e Papanicolaou 25–60 (anual→trienal) entraram como
   recomendações da 8ª ed. de Porto, datadas; envelhecem com diretrizes.
 
+## N. Itens da Fase 14 (exame psíquico)
+
+- [ ] **N1 · Cor #BDBD05 e contraste do glifo** — oliva-chartreuse escolhido
+  por otimização com piso de legibilidade (separação 6,46 normal / 3,57
+  CVD, as melhores da paleta; glifo 2,01:1 no tema claro, chevron do
+  cabeçalho 1,68:1 — legível, mas é o teto de tolerância; S=95 fica
+  fora da banda de família da spec, desvio justificado por dados).
+  Endossar ou trocar com re-medição.
+- [ ] **N2 · Divergência interna de Porto no MEEM** — analfabetos: 14
+  pontos no Quadro 20.4 do Exame Clínico × 20 pontos em Brucki
+  (Quadro 181.9 da Semiologia Médica). Exibida como "a divergência é o
+  dado", com instrução de registrar a tabela usada. Validar.
+- [ ] **N3 · Seis versões de corte do MEEM** em tabela com dono por linha
+  (Quadro 20.4; Brucki; cap. 172; cap. 9 do idoso; Almeida/Caramelli
+  da SC; as 3 faixas de McGee). Conferir se todas ficam.
+- [ ] **N4 · Pseudodemência depressiva** — SC nomeia ativamente × Porto SM
+  registra que a denominação "vem sendo abandonada"; lado a lado, com
+  quiz cobrando a divergência; "prova terapêutica com antidepressivos"
+  citada como destino do impasse, sem classe além da nomeada pela
+  fonte, sem dose. Endossar.
+- [ ] **N5 · Molduras nomeadas-não-ensinadas** — Ramsay e RASS (SC só as
+  nomeia; itens não importados), CAM-ICU (nome vem das referências
+  45–46 do próprio cap. 6 do McGee), PRIME-MD/PHQ/GAD (SC),
+  GDS-15/Yesavage (SM, com CID-10/DSM-5 invocados pela fonte),
+  critérios de depressão da SM ("cinco... 2 semanas") deliberadamente
+  NÃO reproduzidos (matriz DSM). Endossar as abstenções.
+- [ ] **N6 · Convenções e leituras declaradas** — "insight" como sinônimo
+  de tradução de "crítica"; a pérola do Mini-Cog (relógio interposto
+  entre registro e cobrança) como leitura do guia; partição do mapa
+  das funções (princípio da SC + divisão dos tópicos do guia, fusão
+  declarada); linhas de instalação da tabela diferencial como síntese
+  declarada. Endossar.
+- [ ] **N7 · Triagem de suicídio** — o guia registra o risco como primeiro
+  critério de encaminhamento e remete a pergunta de triagem à
+  anamnese da fonte, sem ensinar roteiro próprio ("exame que detecta
+  não termina em anotação, termina em conduta"). Validar o
+  enquadramento.
+- [ ] **N8 · Independência de escolaridade do teste do relógio** —
+  alegação de McGee, contestada por Porto SM (limitação <4 anos) e SC;
+  as três posições lado a lado, e a recomendação prática qualificada
+  "na leitura de McGee". Escolher lado ou manter.
+
 ## C. Inconsistências antigas ainda abertas (Fases 1C–3)
 
 - [ ] **C1 · Faixa 37,6–37,8 °C** — "febrícula até 37,5 °C" convive com o

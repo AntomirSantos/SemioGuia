@@ -642,3 +642,43 @@ sem perda de estado e sem redução de escopo; estrutura e revisão
 estrutural no modelo mecânico, conteúdo e revisões médicas no portão
 principal — o detalhe de quem verificou o quê está no ledger da fase.
 Checklist do autor: itens L1–L8.
+
+## Adendo — Fase 14 (exame psíquico)
+
+A fase criou o décimo primeiro sistema, "Exame psíquico" (ordem 11,
+ícone message-circle, cor #BDBD05 — a primeira escolhida com piso de
+legibilidade do glifo além da otimização de separação: 6,46 normal /
+3,57 daltonismo, 2,01:1 no tema claro), com um capítulo e quatro
+tópicos: fundamentos, funções psíquicas e seus distúrbios, escalas
+cognitivas à beira do leito, e delirium, demência e depressão. Três
+ilustrações (mapa das funções, ilusão–alucinação–alucinose, teste do
+relógio normal × anormal com prova trigonométrica), 24 questões,
+4 checklists. As dívidas nomeadas do capítulo neurológico foram pagas
+nos dois sentidos — miniexame com os pontos de corte por escolaridade
+exatamente como Porto os dá (preservando a divergência interna da
+própria obra: 14 × 20 para analfabetos), escalas de sedação nomeadas
+com silêncio declarado, reflexos primitivos com a interpretação
+cognitiva de McGee (preensão RV+ 19,1) — e sete frases desatualizadas
+em três tópicos do neurológico foram costuradas para apontar os
+destinos reais. Conteúdo `revisao: pendente`.
+
+Este é o capítulo mais numérico das fases finais: o EBM Box 6.1 do
+McGee entrou célula a célula (relógio RV 5,3; Mini-Cog 4,5/0,1; MEEM
+7,7/0,2 e três faixas até 14,4; CAM 12,7/0,2), com pmap por cabeçalho
+corrente re-derivado por dois revisores independentes.
+
+Registro de processo: as revisões derrubaram, nas três tasks de
+conteúdo, a mesma classe de erro — atribuição às fontes de sínteses do
+guia (mapa das funções, precipitantes "nominalmente no quadro", tabela
+que jurava não inventar linhas) — todas corrigidas com fusão declarada;
+em sentido contrário, implementadoras derrubaram dois achados de
+revisor com evidência literal ("dificilmente" da SC; posição do
+cap. 133), ambos retirados com crédito. A revisão estrutural da T1
+recusou a cor do método puro por ilegibilidade do glifo (1,55:1) e
+achou por Pareto a cor que domina em todas as métricas. A revisão
+final pegou a frase de costura que a lista da T3 não incluía. Dois
+abortos por limite de gasto, ambos retomados sem perda de estado.
+
+Gates finais: build 11 sistemas/52 tópicos/3 casos, jest 41/321, tsc,
+contraste AA, n-grama zerado em N=10 E N=9 nos quatro tópicos novos e
+nos três arquivos costurados. Checklist do autor: itens N1–N8.
