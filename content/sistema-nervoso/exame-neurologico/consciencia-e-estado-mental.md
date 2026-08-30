@@ -91,8 +91,8 @@ texto: |
 
   **O que fica como moldura, nomeada e não ensinada:**
 
-  - as **escalas cognitivas estruturadas** — o miniexame do estado mental, que Porto reproduz com seus pontos de corte por escolaridade, e as escalas de sedação que Semiologia Clínica indica para pacientes sedados. Elas existem, têm uso próprio e ficam fora deste guia por enquanto;
-  - o **exame psíquico formal**, que Porto distingue explicitamente da avaliação do estado mental feita dentro do exame neurológico: um analisa afeto, humor e pensamento como objeto; o outro busca os elementos que se correlacionam com doença neurológica.
+  - as **escalas cognitivas estruturadas** — o miniexame do estado mental, que Porto reproduz com seus pontos de corte por escolaridade, e as escalas de sedação que Semiologia Clínica indica para pacientes sedados. Elas existem, têm uso próprio e são ensinadas no tópico Escalas cognitivas à beira do leito, do sistema Exame psíquico;
+  - o **exame psíquico formal**, que Porto distingue explicitamente da avaliação do estado mental feita dentro do exame neurológico: um analisa afeto, humor e pensamento como objeto; o outro busca os elementos que se correlacionam com doença neurológica. O exame psíquico formal tem agora capítulo próprio — o sistema Exame psíquico deste guia.
 :::
 
 ::: perola
@@ -483,7 +483,7 @@ texto: |
   - **A paralisia facial** como achado de assimetria, com a regra da testa, está no tópico de crânio e face; o exame completo do VII par está no tópico de pares cranianos de VII a XII.
   - **A hemiparesia**, sua graduação e os reflexos que a acompanham são o tópico de força, tônus e reflexos; **as marchas típicas** e os **sinais meníngeos**, o tópico de marcha e sinais meníngeos.
   - **A hipoacusia**, causa frequente de paciente rotulado como confuso, tem semiotécnica e razões de verossimilhança no tópico de boca, nariz e ouvidos.
-  - **O miniexame do estado mental, as escalas de sedação e o exame psíquico formal** são nomeados aqui e ficam fora deste guia por enquanto.
+  - **O miniexame do estado mental, as escalas de sedação e o exame psíquico formal** têm agora morada própria no sistema Exame psíquico — as escalas, no tópico Escalas cognitivas à beira do leito.
 :::
 
 ::: secao
