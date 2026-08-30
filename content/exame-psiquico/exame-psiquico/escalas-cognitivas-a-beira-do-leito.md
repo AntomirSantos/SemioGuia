@@ -347,9 +347,9 @@ texto: |
   Nenhuma variável atravessa este tópico como a escolaridade. Vale juntar o que cada fonte diz e olhar o conjunto:
 
   - o *Exame Clínico* afirma que o miniexame **perde o valor** abaixo de 8 anos de estudo — o idoso pouco escolarizado pontua baixo por não ter os conhecimentos, não por deteriorar — e oferece, para esses casos, o **Questionário resumido do estado mental** de Pfeiffer (1974): dez perguntas de orientação, memória biográfica e cálculo simples, pontuando os erros de 0 a 10, de estado mental intacto (0 a 2) a dano grave (8 a 10) — com a advertência de que **até ele** sofre influência da escolaridade;
-  - a *Semiologia Médica* traz a resposta brasileira: a validação com correção dos itens conforme o grau de instrução, os cortes de Brucki, e a **fluência verbal** com mínimos por escolaridade — ao menos 9 animais em 1 minuto para quem estudou menos de 8 anos, 13 para os demais; e restringe o relógio abaixo de 4 anos de estudo;
-  - Semiologia Clínica registra os cortes distintos que estudos nacionais deram ao analfabeto — 20 ou 18, conforme o autor — e a queda de desempenho da fluência verbal nos analfabetos;
-  - McGee fecha o raciocínio pelo desenho dos testes: o relógio de Wolf-Klein não sofre efeito da escolaridade, e o Mini-Cog nasceu para populações multilíngues.
+  - a *Semiologia Médica* traz a resposta brasileira: a validação com correção dos itens conforme o grau de instrução, os cortes de Brucki, e a **fluência verbal** com mínimos por escolaridade — ao menos 9 itens da categoria escolhida (animais é o exemplo da obra) em 1 minuto para quem estudou menos de 8 anos, 13 para os demais; e restringe o relógio abaixo de 4 anos de estudo;
+  - Semiologia Clínica registra os cortes distintos que estudos nacionais deram ao analfabeto — 20 ou 18, conforme o autor — e a queda de desempenho da fluência verbal, que em sua versão pede animais, nos analfabetos;
+  - McGee fecha o raciocínio pelo desenho dos testes: na leitura dele, o relógio de Wolf-Klein não sofre efeito da escolaridade — o ponto em que as obras brasileiras divergem, como visto —, e o Mini-Cog nasceu para populações multilíngues.
 
   A síntese é uma hierarquia prática: quanto menor a instrução do paciente, menos o miniexame informa e mais valem o relógio simples, o Mini-Cog, a fluência verbal com o corte adequado — e, acima de todos, a **biografia funcional**: o declínio em relação ao que a pessoa sempre fez, que o tópico de funções psíquicas ensinou como o divisor entre oligofrenia e demência, não depende de alfabetização nenhuma.
 :::
@@ -374,7 +374,7 @@ texto: |
 
   - **"Este paciente confuso está em delirium?"** — CAM, e nenhum teste de demência antes de respondê-la. RV 12,7 a favor quando positivo, 0,2 contra quando negativo: é o instrumento mais decisivo do boxe nos dois sentidos.
   - **"Quero afastar demência neste idoso da comunidade."** — Mini-Cog 3 ou mais, ou MEEM 26 ou mais: ambos com RV 0,1, praticamente encerram a questão do rastreio — lembrando o limite das fases iniciais, acima.
-  - **"Quero fortalecer a suspeita antes de encaminhar."** — MEEM 20 ou menos (RV 14,4) é o achado mais potente; o relógio anormal (RV 5,3) vem atrás, com a vantagem da independência da escolaridade.
+  - **"Quero fortalecer a suspeita antes de encaminhar."** — MEEM 20 ou menos (RV 14,4) é o achado mais potente; o relógio anormal (RV 5,3) vem atrás, com a vantagem — na leitura de McGee, que as obras brasileiras contestam — da independência da escolaridade.
   - **"Preciso acompanhar a evolução."** — MEEM seriado, sempre na mesma versão e de preferência pelo mesmo examinador, lembrando que só 4 pontos ou mais de mudança significam algo — e que o *Exame Clínico* define o acompanhamento evolutivo como a vocação da escala.
   - **"O tempo é curto."** — Mini-Cog, os três minutos mais bem investidos da consulta do idoso; e as duas perguntas do PHQ-2 fazem o mesmo papel na depressão.
 
@@ -389,7 +389,7 @@ texto: |
   - **Fundamentos do exame psíquico** e **Funções psíquicas e seus distúrbios** carregam o exame que as escalas resumem — e a regra de que a subtração seriada e os meses invertidos avaliam atenção, não orientação.
   - **Delirium, demência e depressão**, o próximo tópico, recebe o CAM como ferramenta e devolve a advertência: teste de demência não vale durante o delirium.
   - **A entrevista clínica** e o **interrogatório sintomatológico** carregam as perguntas de rastreio da saúde mental na anamnese; aqui elas ganham os instrumentos com siglas e desempenho.
-  - **Boca, nariz e ouvidos** lembra a hipoacusia como falsa desatenção — corrigi-la antes de pontuar qualquer escala é parte da técnica.
+  - **Boca, nariz e ouvidos** ensina a medir a audição à beira do leito; a armadilha da hipoacusia rotulada como desatenção ou confusão está registrada no tópico de consciência do capítulo neurológico — conferi-la antes de pontuar qualquer escala é parte da técnica.
 :::
 
 ::: secao
@@ -408,7 +408,7 @@ texto: |
 :::
 
 ::: perola
-texto: "O Mini-Cog esconde uma esperteza de construção: o relógio, entre o registro e a evocação das três palavras, não é só um teste — é o distrator que impede o ensaio mental. O paciente que evoca as três palavras depois de desenhar o relógio evocou de verdade. É o mesmo papel que a subtração seriada cumpre dentro do miniexame."
+texto: "Uma leitura deste guia sobre o desenho do Mini-Cog — não uma frase das fontes: o relógio, entre o registro e a evocação das três palavras, não é só um teste — funciona como distrator que impede o ensaio mental, e o paciente que evoca as três palavras depois de desenhá-lo evocou de verdade. O miniexame tem a mesma arquitetura: a subtração seriada separa a retenção da evocação."
 :::
 
 ::: secao
@@ -434,7 +434,7 @@ perguntas:
       - "Nada, porque o Mini-Cog exige no mínimo oito palavras para ter validade estatística, e a versão de três palavras é apenas um aquecimento para o miniexame completo, sem valor diagnóstico próprio nas fontes"
       - "Confirma demência, já que qualquer escore abaixo de 5 é patológico no Mini-Cog"
     corretaIndex: 0
-    explicacao: "No boxe EBM 6.1 de McGee, o Mini-Cog de 2 pontos ou menos eleva a probabilidade de demência com razão de verossimilhança 4,5 (sensibilidade 75 a 99%, especificidade 59 a 93%); 3 ou mais a derruba para 0,1. O teste soma 1 ponto por palavra evocada após o distrator do relógio e 2 pontos pelo relógio normal. Como toda triagem, o resultado positivo dispara a investigação — inclusive a exclusão de delirium — e não fecha diagnóstico."
+    explicacao: "No boxe EBM 6.1 de McGee, o Mini-Cog de 2 pontos ou menos eleva a probabilidade de demência com razão de verossimilhança 4,5 (sensibilidade 75 a 99%, especificidade 59 a 93%); 3 ou mais a derruba para 0,1. O teste soma 1 ponto por palavra evocada depois do desenho do relógio — interposto entre o registro e a cobrança — e 2 pontos pelo relógio normal. Como toda triagem, o resultado positivo dispara a investigação — inclusive a exclusão de delirium — e não fecha diagnóstico."
   - id: psi-esc-3
     enunciado: Na enfermaria, um paciente internado por pneumonia está desatento, flutuando ao longo do dia, e pontua 15 no miniexame. A equipe cogita registrar "demência avançada". Qual é o erro, segundo McGee?
     alternativas:
