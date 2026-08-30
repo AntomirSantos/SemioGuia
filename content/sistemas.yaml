@@ -98,7 +98,7 @@ sistemas:
         ordem: 1
   - id: exame-psiquico
     titulo: Exame psíquico
-    cor: "#D6D629"
+    cor: "#BDBD05"
     icone: message-circle
     ordem: 11
     capitulos:
