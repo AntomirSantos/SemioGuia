@@ -725,7 +725,7 @@ os tópicos novos e costurados. Checklist do autor: itens O1–O8.
 
 Com o fechamento desta fase, o roteiro de conteúdo (Fases 5–15) está
 integralmente executado: 12 sistemas, 55 tópicos, 3 casos clínicos,
-329 questões, 55 checklists OSCE, ~40 ilustrações — todos os tópicos
+327 questões, 53 checklists OSCE, 52 ilustrações — todos os tópicos
 em `revisao: pendente`, aguardando a passada única de revisão médica
 do autor, como combinado. Os itens A–O deste checklist e o documento
 de inconsistências são o mapa dessa revisão.
