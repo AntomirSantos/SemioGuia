@@ -186,7 +186,7 @@ texto: |
 
   A segunda régua aparece, com valores idênticos, em duas obras: o *Exame Clínico* (Quadro 16.1 do capítulo de exame do tórax) e Semiologia Clínica (Tabela 4 do capítulo correspondente) fornecem **faixas normais** por etapa — recém-nascidos, **40–45 irpm**; lactentes, **25–35**; pré-escolares, **20–35**; escolares, **18–35**; adultos, 16–20. As réguas contam histórias compatíveis — a respiração desacelera com a idade — mas discordam nos números: pelo teto do Quadro 179.6, um recém-nascido com 50 irpm é normal; pela faixa das outras duas, já passou do limite superior. O guia não arbitra a divergência: registra as duas com atribuição e observa que o **teto** é a régua mais generosa — o que estiver acima dele está alterado por qualquer das obras.
 
-  A consequência clínica das faixas é direta: **uma criança de 3 anos com 44 a 48 irpm está taquipneica pelas duas réguas** — acima do teto de 40 do Quadro 179.6 e da faixa de 20–35 do pré-escolar —, e uma FC de 168 a 174 bpm nessa idade ultrapassa o espectro tanto dos 2 anos (90–150) quanto dos 4 (72–135). São exatamente os números do caso de febre do modo de casos deste guia, que agora têm sua âncora. A contagem respiratória na criança segue as regras do tópico dono: 1 minuto inteiro, sem avisar — e, no lactente, antes do choro ou nas pausas dele.
+  A consequência clínica das faixas é direta: **uma criança de 3 anos com 46 irpm está taquipneica pelas duas réguas** — acima do teto de 40 do Quadro 179.6 e da faixa de 20–35 do pré-escolar —, e uma FC de 170 bpm nessa idade ultrapassa o espectro tanto dos 2 anos (90–150) quanto dos 4 (72–135). A contagem respiratória na criança segue as regras do tópico dono: 1 minuto inteiro, sem avisar — e, no lactente, antes do choro ou nas pausas dele.
 :::
 
 ::: conceito
@@ -199,7 +199,7 @@ texto: |
   - nas **crianças muito pequenas**, usa-se com frequência o **método palpatório** para a sistólica — sabendo que ele subestima o valor auscultatório em 5 a 10 mmHg;
   - como os sons são difíceis de ouvir, a diastólica é muitas vezes tomada na **fase IV de Korotkoff** — o abafamento, não o desaparecimento.
 
-  E os valores normais? As obras adotadas **não trazem tabela de normalidade pediátrica**: o capítulo 179 remete a determinação da pressão ao capítulo 47, e a bibliografia do próprio capítulo 179 registra a diretriz de rastreamento e manejo da hipertensão em crianças e adolescentes de **Flynn et al. (Pediatrics, 2017)** — diretriz em que a classificação depende de percentis por idade, sexo e estatura. O guia registra a moldura nomeada e datada em vez de importar a tabela: o que é semiologia — a técnica — está aqui; o que é diretriz fica com a diretriz.
+  E os valores normais? O *Exame Clínico* traz uma classificação da hipertensão da criança por grupo etário — o **Quadro 14.5**, com percentis de pressão sistólica e diastólica em oito faixas, dos 7 dias aos 16–18 anos, adaptado de uma força-tarefa de **1987** — e o próprio texto manda adotar tabelas apropriadas à idade. O guia nomeia essa tabela e **não a importa**, pela idade da fonte primária: o capítulo 179 da *Semiologia Médica* remete a determinação da pressão ao capítulo 47, e a bibliografia do próprio 179 registra a referência atual — a diretriz de rastreamento e manejo da hipertensão em crianças e adolescentes de **Flynn et al. (Pediatrics, 2017)**, em que a classificação depende de percentis por idade, sexo e estatura. Ficam as duas molduras, nomeadas e datadas: o que é semiologia — a técnica — está aqui; a tabela vigente fica com a diretriz.
 :::
 
 ::: perola
