@@ -682,3 +682,50 @@ abortos por limite de gasto, ambos retomados sem perda de estado.
 Gates finais: build 11 sistemas/52 tópicos/3 casos, jest 41/321, tsc,
 contraste AA, n-grama zerado em N=10 E N=9 nos quatro tópicos novos e
 nos três arquivos costurados. Checklist do autor: itens N1–N8.
+
+## Adendo — Fase 15 (semiologia da criança) e o fechamento do conteúdo
+
+A fase criou o décimo segundo e último sistema, "Semiologia da criança"
+(ordem 12, ícone baby, cor #C1012E por Pareto com piso de legibilidade),
+com um capítulo e três tópicos: abordagem e anamnese, crescimento/sinais
+vitais/hidratação, e do recém-nascido ao adolescente. Duas ilustrações
+(curva de crescimento esquemática; linha do tempo da puberdade), 18
+questões, 3 checklists. O escopo foi deliberadamente honesto —
+particularidades do exame, não puericultura — e o coração da fase foi a
+AUDITORIA DE ADIAMENTOS: os oito adiamentos nominais que as fases
+anteriores apontaram para "a fase da criança" foram formalmente
+auditados (seis pagos, dois re-escopados com motivo declarado — as
+quatro obras não descrevem o exame motor neonatal especializado nem a
+marcha da criança pequena) e DOZE costuras reversas atualizaram as
+frases de origem em nove arquivos. O item C4 do checklist foi pago por
+referência: as frequências pediátricas do caso de febre ganharam âncora
+dupla sem que o caso fosse tocado. Tanner entrou como sistema de
+notação com âncoras textuais (as obras só dão pranchas — dito ao
+leitor); Ortolani/Barlow como obrigação com técnica em moldura.
+Conteúdo `revisao: pendente`.
+
+Registro de processo: a primeira execução da T2 foi interrompida antes
+da rodada de originalidade e o rascunho reprovou (14 runs literais);
+a re-execução tratou o rascunho como matéria-prima não confiável e,
+re-verificando alegação a alegação, corrigiu cinco — e a revisão ainda
+achou a sexta (o Quadro 14.5 de PA pediátrica que a alegação de
+omissão ignorava). Na T1, a revisora contestou os números da cor,
+recebeu o vetor de teste da linhagem (os pixels da colisão 0,000),
+encontrou o bug no próprio pipeline (float sem quantização 8-bit) e
+retratou os achados — cinco implementações independentes convergem no
+método da casa. A revisão final varreu TODAS as promessas remanescentes
+do guia completo, com veredito individual: restam apenas fronteiras
+legítimas com motivo e dois itens cosméticos (checklist O).
+
+Gates finais do guia completo: build 12 sistemas/55 tópicos/3 casos,
+jest 41/321, tsc, contraste AA, n-grama zerado em N=10 E N=9 em todos
+os tópicos novos e costurados. Checklist do autor: itens O1–O8.
+
+### O conteúdo está completo
+
+Com o fechamento desta fase, o roteiro de conteúdo (Fases 5–15) está
+integralmente executado: 12 sistemas, 55 tópicos, 3 casos clínicos,
+329 questões, 55 checklists OSCE, ~40 ilustrações — todos os tópicos
+em `revisao: pendente`, aguardando a passada única de revisão médica
+do autor, como combinado. Os itens A–O deste checklist e o documento
+de inconsistências são o mapa dessa revisão.

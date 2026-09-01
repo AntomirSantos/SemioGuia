@@ -386,6 +386,46 @@ editorial, do autor. Marque cada caixa ao revisar.
   as três posições lado a lado, e a recomendação prática qualificada
   "na leitura de McGee". Escolher lado ou manter.
 
+## O. Itens da Fase 15 (semiologia da criança) — e do fechamento do guia
+
+- [ ] **O1 · Matiz carmesim × cardiovascular** — #C1012E é o segundo
+  vermelho da home de 12 (matematicamente distinto: ≥2,74 em todos os
+  regimes, incl. daltonismo; o melhor candidato não-vermelho, #4000FF,
+  perde em separação e seria o 4º azul). Decisão estética a arbitrar.
+- [ ] **O2 · Tanner sem pranchas** — as 3 obras brasileiras dão os 5
+  estágios só em figuras; o guia ensina o SISTEMA (notação G2P3,
+  âncoras textuais, orquidômetros Takihara × Prader, limiar 2,5 mℓ/
+  4 cm³ × 4 mℓ lado a lado) e declara que se estadia com a prancha ao
+  lado. Endossar a decisão.
+- [ ] **O3 · Ortolani/Barlow como moldura** — rastreio registrado como
+  obrigação (única ocorrência nas obras, sem descrição de execução);
+  o guia não inventou passos. Validar, ou importar técnica de fonte
+  externa na revisão.
+- [ ] **O4 · Divergências da fase, lado a lado** — janela testicular
+  9–14 × 9,5–13,5; pelos faciais 14,5 (SM 180) × 12,9 (SC — valor
+  que o 180 dá aos axilares); telarca × velocidade de crescimento
+  como 1º sinal feminino; FR: tetos (Quadro 179.6) × faixas
+  (EC 16.1/SC); PA: Quadro 14.5 do EC (Second Task Force 1987, não
+  importado) × Flynn 2017 (moldura datada). Escolher lados ou manter.
+- [ ] **O5 · C4 pago** — as frequências do caso "Febre em uma criança
+  de 3 anos" (FC 168–174, FR 44–48) agora têm âncora dupla no tópico
+  de crescimento; o caso não foi editado. Dar baixa no C4.
+- [ ] **O6 · Fronteiras declaradas do guia completo** — fora com
+  motivo: marcha da criança pequena e exame motor neonatal
+  especializado (ausentes das 4 obras); puericultura/calendário
+  vacinal/percentis (por desenho); obstetrícia (sem obra no acervo —
+  reavaliar se Rezende/Zugaib entrarem); **exame físico do idoso** —
+  o único adiamento nominal sem destino restante (fundamentos do
+  psíquico e delirium o nomeiam): aceitar como fronteira ou planejar
+  fase futura.
+- [ ] **O7 · Vocabulário residual "fora desta fase"** — 5 pontos
+  instrumentais (boca-nariz:529; pares I–VI:102/322; pares
+  VII–XII:99/241) envelheceram com o fim das fases; reformulação
+  cosmética opcional.
+- [ ] **O8 · Runs herdados em cranio-e-face** — 8 paráfrases de 9
+  palavras da era da Fase 9 (pré-barra N≥9); zero introduzido pelas
+  costuras. Reescrever ou endossar.
+
 ## C. Inconsistências antigas ainda abertas (Fases 1C–3)
 
 - [ ] **C1 · Faixa 37,6–37,8 °C** — "febrícula até 37,5 °C" convive com o
