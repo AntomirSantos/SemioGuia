@@ -369,7 +369,7 @@ texto: |
 
   Dois dados completam o raciocínio: a maioria dos testículos fora de posição **migra espontaneamente nos dois primeiros anos de vida**; e o que não desce carrega risco de **câncer testicular quatro a sete vezes maior** — a ponte com o alarme deste tópico — além do risco de infertilidade. À inspeção, a bolsa do lado vazio é hipotrófica, com pregas apagadas.
 
-  **O que fica adiado, por nome:** o exame da genitália na infância, o desenvolvimento puberal e os estágios de Tanner pertencem à semiologia da criança e do adolescente, em fase futura deste guia — como já ficou adiado no capítulo de mamas.
+  **O que mora em outro tópico:** o exame da genitália na infância, o desenvolvimento puberal e os estágios de Tanner são ensinados no tópico Do recém-nascido ao adolescente, do sistema Semiologia da criança — o mesmo destino que o capítulo de mamas aponta.
 :::
 
 ::: conceito
@@ -396,7 +396,7 @@ texto: |
   - **Pele, mucosas e fâneros** fornece as lesões elementares com que se descrevem úlceras, vesículas e vegetações genitais.
   - **Sopros cardíacos** e **Coluna vertebral** usam a mesma manobra de Valsalva com outras finalidades; aqui ela enche veias e empurra hérnias — o mecanismo é sempre o aumento da pressão intra-abdominal.
   - **Toque retal**, adiante neste capítulo, completa o exame genital masculino: próstata e vesículas seminais são os genitais internos, e Porto manda examiná-los pelo toque.
-  - **A semiologia da criança e do adolescente**, em fase futura, receberá nominalmente a genitália infantil, a criptorquidia do lactente, a puberdade e os estágios de Tanner.
+  - **Do recém-nascido ao adolescente**, no sistema Semiologia da criança, recebeu a genitália infantil, o calendário da criptorquidia do lactente, a puberdade e os estágios de Tanner.
 :::
 
 ::: secao

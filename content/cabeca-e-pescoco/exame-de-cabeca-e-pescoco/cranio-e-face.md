@@ -131,7 +131,7 @@ titulo: O crânio
 ::: conceito
 titulo: Tamanho, forma e o que eles denunciam
 texto: |
-  Na criança, tamanho não se estima: mede-se. O **perímetro cefálico** é parâmetro de desenvolvimento do segmento cefálico, e a técnica com fita métrica está no tópico de antropometria e hidratação. Ao nascer, a cabeça predomina sobre o tronco; conforme a criança se desenvolve, a proporção se inverte (Porto).
+  Na criança, tamanho não se estima: mede-se. O **perímetro cefálico** é parâmetro de desenvolvimento do segmento cefálico, e a técnica com fita métrica está no tópico Crescimento, sinais vitais e hidratação, do sistema Semiologia da criança. Ao nascer, a cabeça predomina sobre o tronco; conforme a criança se desenvolve, a proporção se inverte (Porto).
 
   **Quanto ao tamanho**, duas alterações organizam a leitura:
 
@@ -449,7 +449,7 @@ texto: |
 
   - **As fácies típicas**, a regra da *fácies atípica* e o recurso da fotografia antiga estão no tópico de ectoscopia. Aqui a face responde a outra pergunta: simetria e movimento.
   - **Cabelos, pelos e as alterações de coloração da pele** — palidez, icterícia, cianose — pertencem ao tópico de pele, mucosas e fâneros, que também ensina onde procurar cada uma.
-  - **O perímetro cefálico** e a **fontanela deprimida** como sinal de desidratação estão no tópico de antropometria e hidratação. A fontanela abaulada, sinal de hipertensão intracraniana, é a leitura oposta do mesmo ponto.
+  - **O perímetro cefálico** está no tópico Crescimento, sinais vitais e hidratação, do sistema Semiologia da criança; a **fontanela deprimida** como sinal de desidratação, no tópico de antropometria e hidratação. A fontanela abaulada, sinal de hipertensão intracraniana, é a leitura oposta do mesmo ponto.
   - **O edema palpebral e facial** tem semiotécnica e graduação em cruzes no capítulo do coração, no tópico de pulso venoso jugular e turgência.
   - **Os linfonodos pré-auriculares, occipitais e submandibulares**, que drenam o couro cabeludo e a face, estão no tópico de linfonodos, com as áreas de drenagem de cada cadeia.
   - **Os movimentos involuntários** — tiques, tremores, movimentos coreicos — foram descritos no tópico de ectoscopia; aqui apenas se registra que existem.

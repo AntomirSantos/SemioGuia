@@ -315,7 +315,7 @@ texto: |
   - **Escalas cognitivas à beira do leito**, adiante, é o endereço do miniexame do estado mental, do teste do relógio, do Mini-Cog, do CAM e das escalas de sedação — nomeados aqui, ensinados lá.
   - **Delirium, demência e depressão**, o último tópico do capítulo, recebe a confusão mental que este tópico apenas definiu.
   - **O exame físico geral do idoso** que este guia ainda não tem capítulo próprio: a semiologia específica da pessoa idosa segue adiada nominalmente, e o boxe de Porto fica registrado aqui como sua âncora.
-  - **O exame psíquico da criança e do adolescente** — incluindo a entrevista com os pais que a *Semiologia Médica* descreve — fica adiado nominalmente à fase da semiologia da criança.
+  - **O exame psíquico da criança e do adolescente** — incluindo a entrevista com os pais que a *Semiologia Médica* descreve — é ensinado no tópico Abordagem e anamnese da criança, do sistema Semiologia da criança.
 :::
 
 ::: secao

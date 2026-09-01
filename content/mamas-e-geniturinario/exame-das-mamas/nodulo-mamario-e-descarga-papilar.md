@@ -366,7 +366,7 @@ texto: |
   - **Linfonodos**, no exame físico geral, completa o raciocínio do nódulo suspeito: a axila endurecida, fixa e coalescente é o achado que muda o estágio, e o valor medido — e o limite — da axila palpável no câncer conhecido está registrado no tópico anterior, com as cadeias e a técnica no tópico dono.
   - **Pele, mucosas e fâneros** dá o vocabulário das lesões da aréola — erosão, crosta, descamação, vesícula — com que se descrevem o eczema, o herpes e a suspeita de Paget.
   - **Interrogatório sintomatológico** carrega as perguntas do segmento mamas — dor, nódulo, secreção — que este tópico transforma em caracterização completa.
-  - **A semiologia da criança e do adolescente**, em fase futura, receberá o desenvolvimento mamário e seus nódulos próprios; aqui fica só o registro de que o fibroadenoma é o padrão da paciente jovem.
+  - **Do recém-nascido ao adolescente**, no sistema Semiologia da criança, recebeu o desenvolvimento mamário e o broto como nódulo fisiológico retroareolar; aqui fica só o registro de que o fibroadenoma é o padrão da paciente jovem.
 :::
 
 ::: secao

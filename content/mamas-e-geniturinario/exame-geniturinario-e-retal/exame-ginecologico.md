@@ -262,7 +262,7 @@ texto: |
   - **Inspeção e ausculta do abdome** e **Palpação do abdome** carregam a parede e as massas abdominais; o exame ginecológico de Porto inclui o abdome como segunda etapa, entre as mamas e a genitália.
   - **Pele, mucosas e fâneros** fornece as lesões elementares para descrever úlceras, vegetações e distrofias vulvares.
   - **Interrogatório sintomatológico** carrega a revisão dos sistemas genital feminino e urinário — corrimento, sangramento, dispareunia, prurido — que decide metade das hipóteses antes do exame.
-  - **A semiologia da criança e do adolescente**, em fase futura, receberá nominalmente o exame ginecológico da criança, a puberdade e os estágios de Tanner que Porto cita na maturação genital.
+  - **Do recém-nascido ao adolescente**, no sistema Semiologia da criança, recebeu a genitália feminina do recém-nascido, o exame da adolescente com suas indicações de encaminhamento, a puberdade e os estágios de Tanner que Porto cita na maturação genital.
 :::
 
 ::: secao

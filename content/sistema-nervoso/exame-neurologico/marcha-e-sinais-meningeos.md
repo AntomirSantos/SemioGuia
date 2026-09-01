@@ -631,7 +631,7 @@ texto: |
   - **A ressalva de segurança da hipertensão intracraniana** e o papiledema estão no tópico de pares cranianos de I a VI; aqui ela reaparece como contraindicação formal à pesquisa da rigidez de nuca.
   - **O nível de consciência**, que compõe a tríade da meningite ao lado da rigidez de nuca e da febre, está no tópico de consciência e estado mental; a **febre e as curvas térmicas**, no capítulo de sinais vitais; o **exantema petequial**, no tópico de pele, mucosas e fâneros.
   - **O caso de febre na criança** registra "rigidez de nuca ausente" entre os achados; a manobra que produz essa frase é a deste tópico.
-  - **A análise observacional da marcha feita por fisiatras, o exame da marcha da criança pequena e a acentuação da cefaleia pela rotação da cabeça** são nomeados aqui e ficam fora deste guia por enquanto.
+  - **A análise observacional da marcha feita por fisiatras, o exame da marcha da criança pequena e a acentuação da cefaleia pela rotação da cabeça** são nomeados aqui e ficam fora deste guia por enquanto — a marcha da criança porque as obras adotadas não a descrevem, fronteira declarada no tópico Do recém-nascido ao adolescente, do sistema Semiologia da criança.
 :::
 
 ::: secao

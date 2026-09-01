@@ -92,7 +92,7 @@ texto: |
   **O que fica como moldura, nomeada e não ensinada:**
 
   - a **eletroneuromiografia** e os demais exames eletrodiagnósticos, que são o padrão de referência de vários números citados adiante e não fazem parte do exame à beira do leito;
-  - o **exame motor do recém-nascido e da criança pequena**, com seus reflexos próprios, que tem semiotécnica distinta e fica fora deste guia;
+  - o **exame motor especializado do recém-nascido e da criança pequena**, que tem semiotécnica distinta e fica fora deste guia; os **reflexos próprios do RN** — Moro, preensão, passada, tônus cervical — são ensinados no tópico Do recém-nascido ao adolescente, do sistema Semiologia da criança;
   - os **reflexos primitivos ou de liberação** — palmomentual, glabelar, de preensão — que McGee descreve entre os reflexos deste capítulo. Eles aparecem adiante apenas em um dado de risco de queda; sua interpretação em doença frontal e em demências é ensinada no tópico Escalas cognitivas à beira do leito, do sistema Exame psíquico.
 :::
 
@@ -785,7 +785,7 @@ texto: |
   - **A espasticidade e a rigidez** aqui descritas reaparecem como marchas no tópico de marcha e sinais meníngeos: a espasticidade produz a marcha ceifante e a marcha em tesoura; a rigidez produz a marcha parkinsoniana.
   - **A hipotonia cerebelar** e o reflexo patelar pendular voltam no tópico de sensibilidade e coordenação, ao lado dos demais sinais cerebelares.
   - **Os movimentos involuntários** — tremores, tiques, movimentos coreicos — foram descritos no tópico de ectoscopia, que também ensina a marcha como moldura.
-  - **A eletroneuromiografia, os exames eletrodiagnósticos e o exame motor da criança pequena** são nomeados aqui e ficam fora deste guia por enquanto. **Os reflexos primitivos como marcadores de doença frontal e de demência** são ensinados no tópico Escalas cognitivas à beira do leito, do sistema Exame psíquico.
+  - **A eletroneuromiografia, os exames eletrodiagnósticos e o exame motor especializado da criança pequena** são nomeados aqui e ficam fora deste guia por enquanto. **Os reflexos primitivos como marcadores de doença frontal e de demência** são ensinados no tópico Escalas cognitivas à beira do leito, do sistema Exame psíquico; **os reflexos próprios do RN**, no tópico Do recém-nascido ao adolescente, do sistema Semiologia da criança.
 :::
 
 ::: secao

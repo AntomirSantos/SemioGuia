@@ -264,7 +264,7 @@ texto: |
   - **Politelia** — mamilos supranumerários. A *Semiologia Médica* a registra como a anomalia mamária **mais frequente**, localizada sobretudo no **sulco inframamário**, mas possível em qualquer ponto da linha; o *Exame Clínico* descreve o trajeto típico dos mamilos extranumerários **da mama à axila**. São em geral assintomáticos, e parecem pequenos nevos ou verrugas — a pista é a posição sobre a linha láctea e, quando presente, a miniatura de aréola. A *Semiologia Médica* registra associação possível com outras alterações congênitas, que nomeia sem que este guia as reensine aqui.
   - **Polimastia** — glândulas mamárias acessórias, mais comuns **nas axilas**. Duas consequências práticas: uma massa axilar pode ser **mama, e não linfonodo** — e a mama acessória tem comportamento de mama: a *Semiologia Médica* registra que **aumenta de volume e dói na gravidez e na lactação**, quando costuma ser notada pela primeira vez. Tecido acessório também adoece como mama, e entra no mesmo exame.
 
-  **O que fica adiado, por nome.** O desenvolvimento mamário normal — a **telarca**, os estágios puberais e a telarca prematura antes dos 8 anos, que a *Semiologia Médica* define — pertence à semiologia da criança e do adolescente, que este guia tratará na fase própria. Aqui fica só o registro de que assimetria puberal costuma ser fisiológica e se resolve com o tempo.
+  **O que mora em outro tópico.** O desenvolvimento mamário normal — a **telarca**, os estágios puberais, a telarca prematura antes dos 8 anos e a assimetria puberal da adolescente — é ensinado no tópico Do recém-nascido ao adolescente, do sistema Semiologia da criança. Aqui fica só o registro de que a assimetria puberal costuma ser fisiológica e se resolve com o tempo.
 :::
 
 ::: conceito
@@ -303,7 +303,7 @@ texto: |
   - **Interrogatório sintomatológico** carrega o segmento mamas da revisão de sistemas — dor, nódulo e secreção — e o item de promoção da saúde com o autoexame e a data da última mamografia.
   - **Nódulo mamário e descarga papilar**, o próximo tópico, recebe tudo o que este produz: o vocabulário para descrever o nódulo que a palpação encontrou, a leitura das secreções que a expressão obteve e os alarmes do mamilo e da pele.
   - **O exame ginecológico**, no capítulo seguinte deste sistema, retoma o contrato de profissionalismo deste tópico — Porto manda, aliás, começar aquele exame por este.
-  - **A semiologia da criança e do adolescente**, em fase futura deste guia, receberá nominalmente a telarca, os estágios do desenvolvimento puberal e a puberdade precoce.
+  - **Do recém-nascido ao adolescente**, no sistema Semiologia da criança, recebeu a telarca, os estágios do desenvolvimento puberal e a puberdade precoce.
 :::
 
 ::: secao
