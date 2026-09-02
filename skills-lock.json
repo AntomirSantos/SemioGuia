@@ -55,6 +55,12 @@
       "skillPath": "skills/subagent-driven-development/SKILL.md",
       "computedHash": "367cc1d3216d6672b947c8c6583dbd6440ea407beb6da75a97d3a8ee1a23640a"
     },
+    "ui-ux-pro-max": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "computedHash": "cf5f99f7bcb0c03d8a51fe715cff5635a2b2fac59598be6220b59e572d5bd492"
+    },
     "writing-plans": {
       "source": "obra/superpowers",
       "sourceType": "github",
