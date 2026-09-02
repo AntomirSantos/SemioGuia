@@ -20,11 +20,15 @@ export default function TabsLayout() {
         // Na web a navegação vira barra de topo + hambúrguer (ver
         // NavegacaoHamburguer); a barra de abas nativa some sem afetar o
         // roteamento, que continua o mesmo Tabs de sempre.
+        // Editorial R2: a tab bar é papel com uma REGRA de 2.5px em tinta no
+        // topo (não hairline nem sombra); o item ativo usa o acento vinho.
+        // Troca de aba é ação frequente: nenhuma animação de ícone.
         tabBarStyle: NA_WEB
           ? { display: 'none' }
           : {
               backgroundColor: paleta.superficie,
-              borderTopColor: paleta.linha,
+              borderTopWidth: 2.5,
+              borderTopColor: paleta.tinta,
             },
         tabBarLabelStyle: {
           fontFamily: fonte.corpoBold,

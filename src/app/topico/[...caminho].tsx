@@ -70,7 +70,7 @@ function BotaoAcao({
         alignItems: 'center',
         minHeight: 44,
         paddingHorizontal: espaco.m,
-        borderRadius: raio.pill,
+        borderRadius: raio.m,
         borderWidth: 1,
         borderColor: ativo ? paleta.acento : paleta.linha,
         marginRight: espaco.s,
@@ -204,6 +204,16 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
 
   const capitulo = sistema?.capitulos.find((c) => c.id === topicoAtual.capituloId);
 
+  // Byline editorial: nome curto da obra de cada referência ("Porto — Exame
+  // Clínico, …" → "Porto"), deduplicado e limitado a 3 fontes — é uma
+  // assinatura, não a bibliografia (as referências completas continuam na
+  // seção "Referências" ao fim).
+  const byline = Array.from(
+    new Set(topicoAtual.referencias.map((r) => r.split(' — ')[0].split(',')[0].trim()).filter(Boolean)),
+  )
+    .slice(0, 3)
+    .join(' · ');
+
   function alternarEstudado() {
     const novo = !estudado;
     setEstudado(novo);
@@ -247,11 +257,32 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
       <Cabecalho titulo="" cor={sistema?.cor} aoVoltar={() => router.back()} />
       <Rotulo
         texto={`${sistema?.titulo ?? ''}${capitulo ? ` · ${capitulo.titulo}` : ''}`}
+        cor={paleta.tinta2}
         style={{ marginBottom: espaco.xs + 2 }}
       />
-      <Text style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.h1 * escala), color: paleta.tinta, marginBottom: espaco.m }}>
+      <Text style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.h2 * escala), lineHeight: Math.round(tipo.h2 * escala * 1.2), color: paleta.tinta, marginBottom: espaco.xs + 2 }}>
         {topico.titulo}
       </Text>
+      {/* Byline editorial: as fontes bibliográficas do tópico em maiúsculas
+          suaves, fechada por uma regra de 2.5px em tinta (identidade R2). */}
+      {byline ? (
+        <View style={{ marginBottom: espaco.m }}>
+          <Text
+            style={{
+              fontFamily: fonte.corpo,
+              fontSize: 11.5,
+              letterSpacing: 1.2,
+              textTransform: 'uppercase',
+              color: paleta.tinta2,
+              marginBottom: espaco.s + 2,
+            }}
+            numberOfLines={2}
+          >
+            {byline}
+          </Text>
+          <View style={{ height: 2.5, backgroundColor: paleta.tinta }} />
+        </View>
+      ) : null}
 
       <View style={{ flexDirection: 'row', flexWrap: 'wrap', marginBottom: espaco.l }}>
         {topico.revisao === 'pendente' ? (
@@ -260,7 +291,7 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
               borderWidth: 1,
               borderColor: paleta.perolaBorda,
               backgroundColor: paleta.perolaFundo,
-              borderRadius: raio.pill,
+              borderRadius: raio.s,
               paddingHorizontal: espaco.s + 2,
               paddingVertical: 3,
               marginRight: espaco.xs,
@@ -278,7 +309,7 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
             style={{
               borderWidth: 1,
               borderColor: paleta.linha,
-              borderRadius: raio.pill,
+              borderRadius: raio.s,
               paddingHorizontal: espaco.s + 2,
               paddingVertical: 3,
               marginRight: espaco.xs,

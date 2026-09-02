@@ -1,10 +1,11 @@
 import { useCallback, useMemo, useState } from 'react';
-import { Pressable, Text, TextInput, View } from 'react-native';
+import { Text, TextInput, View } from 'react-native';
 import { router } from 'expo-router';
 import { Search } from 'lucide-react-native';
 import { Tela } from '../../design/Tela';
+import { Pressionavel } from '../../design/movimento';
 import { useTema } from '../../design/ThemeContext';
-import { Rotulo } from '../../design/Rotulo';
+import { Rotulo, RotuloDeSecao } from '../../design/Rotulo';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useConteudo, useTopico } from '../../content/ContentContext';
 import { useProgresso } from '../../progress/ProgressContext';
@@ -12,30 +13,26 @@ import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import { criarIndice, buscar, type ResultadoBusca } from '../../search';
 
 function RotuloSecao({ texto }: { texto: string }) {
-  return <Rotulo texto={texto} style={{ marginBottom: espaco.s }} />;
+  return <RotuloDeSecao texto={texto} />;
 }
 
 function LinhaResultado({ titulo, sistemaTitulo, onPress }: { titulo: string; sistemaTitulo?: string; onPress: () => void }) {
   const { paleta, escala } = useTema();
   return (
-    <Pressable
+    <Pressionavel
       accessibilityRole="button"
       onPress={onPress}
       style={{
         minHeight: 44,
         justifyContent: 'center',
-        paddingVertical: espaco.s,
-        paddingHorizontal: espaco.m,
-        borderRadius: raio.m,
-        backgroundColor: paleta.superficie,
-        borderWidth: 1,
-        borderColor: paleta.linha,
-        marginBottom: espaco.s,
+        paddingVertical: espaco.m,
+        borderBottomWidth: 1,
+        borderBottomColor: paleta.linha,
       }}
     >
-      {sistemaTitulo ? <Rotulo texto={sistemaTitulo} style={{ marginBottom: 2 }} /> : null}
+      {sistemaTitulo ? <Rotulo texto={sistemaTitulo} cor={paleta.tinta2} style={{ marginBottom: 2 }} /> : null}
       <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta }}>{titulo}</Text>
-    </Pressable>
+    </Pressionavel>
   );
 }
 
@@ -82,10 +79,8 @@ export function TelaBusca() {
           flexDirection: 'row',
           alignItems: 'center',
           minHeight: 44,
-          borderRadius: raio.m,
-          borderWidth: 1,
-          borderColor: paleta.linha,
-          backgroundColor: paleta.superficie,
+          borderRadius: raio.l,
+          backgroundColor: paleta.superficie2,
           paddingHorizontal: espaco.m,
           marginBottom: espaco.l,
         }}

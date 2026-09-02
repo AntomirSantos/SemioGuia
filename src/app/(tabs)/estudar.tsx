@@ -1,9 +1,10 @@
 import { useCallback } from 'react';
-import { Pressable, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import { router } from 'expo-router';
 import { Tela } from '../../design/Tela';
+import { Pressionavel } from '../../design/movimento';
 import { useTema } from '../../design/ThemeContext';
-import { Rotulo } from '../../design/Rotulo';
+import { Rotulo, RotuloDeSecao } from '../../design/Rotulo';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useConteudo, useCasos } from '../../content/ContentContext';
 import { listarTodosTopicos, obterSistema } from '../../content/store';
@@ -57,7 +58,7 @@ function CardRevisao({ fila }: { fila: FilaDeHoje | undefined }) {
           <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2 }}>
             Estude um tópico no Guia para semear a revisão
           </Text>
-          <Pressable
+          <Pressionavel
             accessibilityRole="button"
             onPress={() => router.push('/')}
             style={{
@@ -76,7 +77,7 @@ function CardRevisao({ fila }: { fila: FilaDeHoje | undefined }) {
             >
               Abrir o Guia
             </Text>
-          </Pressable>
+          </Pressionavel>
         </>
       ) : (
         <Text style={{ fontFamily: fonte.corpoBold, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta }}>
@@ -92,13 +93,13 @@ function CardRevisao({ fila }: { fila: FilaDeHoje | undefined }) {
   }
 
   return (
-    <Pressable
+    <Pressionavel
       accessibilityRole="button"
       onPress={() => router.push('/revisao')}
       style={{ ...estiloCartao, minHeight: 44 }}
     >
       {conteudoCartao}
-    </Pressable>
+    </Pressionavel>
   );
 }
 
@@ -116,7 +117,7 @@ function LinhaTopicoQuiz({
   const { paleta, escala } = useTema();
   const nPerguntas = encontrarQuiz(topico)?.perguntas.length ?? 0;
   return (
-    <Pressable
+    <Pressionavel
       accessibilityRole="button"
       onPress={onPress}
       style={{
@@ -139,7 +140,7 @@ function LinhaTopicoQuiz({
         {nPerguntas} pergunta{nPerguntas === 1 ? '' : 's'}
         {percentual !== null ? ` · última rodada ${percentual}%` : ''}
       </Text>
-    </Pressable>
+    </Pressionavel>
   );
 }
 
@@ -149,7 +150,7 @@ function LinhaTopicoQuiz({
 function CardCaso({ caso, melhor, onPress }: { caso: Caso; melhor: ClasseDesfecho | null; onPress: () => void }) {
   const { paleta, escala } = useTema();
   return (
-    <Pressable
+    <Pressionavel
       accessibilityRole="button"
       onPress={onPress}
       style={{
@@ -184,7 +185,7 @@ function CardCaso({ caso, melhor, onPress }: { caso: Caso; melhor: ClasseDesfech
       >
         {melhor ? `Melhor resultado: ${CLASSE_LABEL[melhor]}` : 'Não iniciado'}
       </Text>
-    </Pressable>
+    </Pressionavel>
   );
 }
 
@@ -254,7 +255,7 @@ export function TelaEstudar() {
       )}
       {casos.length > 0 ? (
         <View style={{ marginTop: espaco.l }}>
-          <Rotulo texto="Casos clínicos" style={{ marginBottom: espaco.xs + 2 }} />
+          <RotuloDeSecao texto="Casos clínicos" />
           {casos.map((c) => (
             <CardCaso
               key={c.id}

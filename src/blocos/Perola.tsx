@@ -1,33 +1,37 @@
 import { View } from 'react-native';
-import { Gem } from 'lucide-react-native';
 import type { Bloco } from '../content/schema';
 import { useTema } from '../design/ThemeContext';
-import { espaco, raio, sombra, tipo } from '../design/tokens';
-import { IdentidadeBloco } from './identidade';
+import { espaco, fonte, tipo } from '../design/tokens';
 import { TextoRico } from './texto';
 
 type PerolaBloco = Extract<Bloco, { tipo: 'perola' }>;
 
-// Card destacado (spec §3.2): além do fundo `perola` já existente, ganha
-// sombra dos tokens — igual aos demais cartões — para se destacar como
-// conteúdo de maior densidade de valor, não só de cor diferente.
+// Pull-quote editorial (identidade R2): a pérola clínica é a citação em
+// destaque da página — barra vinho de 3px à esquerda + Libre Bodoni itálico,
+// direto no papel (sem cartão, sem sombra, sem fundo). `perolaBorda` é a
+// barra (vinho), `perolaTexto` a tinta.
 export function Perola({ bloco }: { bloco: PerolaBloco }) {
   const { paleta, escala } = useTema();
   return (
     <View
       style={{
-        backgroundColor: paleta.perolaFundo,
-        borderWidth: 1,
-        borderColor: paleta.perolaBorda,
-        borderRadius: raio.l,
-        paddingVertical: espaco.l + 2,
-        paddingHorizontal: espaco.xl + 2,
-        marginVertical: espaco.xl,
-        ...sombra,
+        borderLeftWidth: 3,
+        borderLeftColor: paleta.perolaBorda,
+        paddingVertical: 3,
+        paddingLeft: espaco.m,
+        marginVertical: espaco.l,
       }}
     >
-      <IdentidadeBloco Icone={Gem} rotulo="Pérola clínica" cor={paleta.perolaTexto} />
-      <TextoRico style={{ fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta }}>{bloco.texto}</TextoRico>
+      <TextoRico
+        style={{
+          fontFamily: fonte.displayItalico,
+          fontSize: Math.round(tipo.corpo * escala),
+          lineHeight: Math.round(tipo.corpo * escala * 1.45),
+          color: paleta.perolaTexto,
+        }}
+      >
+        {bloco.texto}
+      </TextoRico>
     </View>
   );
 }

@@ -84,8 +84,10 @@ export function NavegacaoHamburguer({ children }: { children?: ReactNode }) {
           height: 56,
           paddingHorizontal: espaco.l,
           backgroundColor: paleta.superficie,
-          borderBottomWidth: 1,
-          borderBottomColor: paleta.linha,
+          // Regra editorial de 2.5px em tinta sob a barra de navegação
+          // (identidade R2) — mesma linguagem da tab bar nativa.
+          borderBottomWidth: 2.5,
+          borderBottomColor: paleta.tinta,
         }}
       >
         <Pressable

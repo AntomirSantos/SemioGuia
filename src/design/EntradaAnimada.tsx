@@ -1,8 +1,9 @@
 import { useEffect, useRef, type ReactNode } from 'react';
 import { Animated } from 'react-native';
 import { useReducedMotion } from './useReducedMotion';
+import { EASE_OUT_FORTE } from './movimento';
 
-const DURACAO_MS = 200; // dentro da janela 180–220ms da spec Fase 8 §3.4
+const DURACAO_MS = 250; // entrada de conteúdo (DECISAO.md: 250ms ease-out)
 const DESLOCAMENTO_PX = 8;
 
 // Fade + leve deslize na entrada de conteúdo que troca: seção ativa (chave
@@ -29,8 +30,8 @@ export function EntradaAnimada({ children, eixo = 'y' }: { children: ReactNode; 
       return;
     }
     Animated.parallel([
-      Animated.timing(opacidade, { toValue: 1, duration: DURACAO_MS, useNativeDriver: true }),
-      Animated.timing(deslocamento, { toValue: 0, duration: DURACAO_MS, useNativeDriver: true }),
+      Animated.timing(opacidade, { toValue: 1, duration: DURACAO_MS, easing: EASE_OUT_FORTE, useNativeDriver: true }),
+      Animated.timing(deslocamento, { toValue: 0, duration: DURACAO_MS, easing: EASE_OUT_FORTE, useNativeDriver: true }),
     ]).start();
     // Roda uma vez por montagem desta instância; o chamador troca o `key`
     // para disparar uma nova animação em vez de reanimar em cada render.

@@ -2,7 +2,7 @@ import { useCallback } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import { Tela } from '../../design/Tela';
 import { useTema, type EscalaFonte, type PreferenciaTema } from '../../design/ThemeContext';
-import { Rotulo } from '../../design/Rotulo';
+import { Rotulo, RotuloDeSecao } from '../../design/Rotulo';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useConteudo } from '../../content/ContentContext';
 import { listarSistemas, listarTodosTopicos } from '../../content/store';
@@ -17,7 +17,7 @@ import { BlocoConta } from '../../conta/BlocoConta';
 const AVISO_LEGAL = 'Material educacional. Não substitui o julgamento clínico.';
 
 function RotuloSecao({ children }: { children: string }) {
-  return <Rotulo texto={children} style={{ marginBottom: espaco.s }} />;
+  return <RotuloDeSecao texto={children} />;
 }
 
 function BarraProgresso({ estudados, total, titulo }: { estudados: number; total: number; titulo: string }) {

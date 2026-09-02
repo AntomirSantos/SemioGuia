@@ -15,14 +15,13 @@ const MARGEM_VISIVEL = espaco.s;
 // Sumário horizontal fixo sob o título do tópico (spec Fase 8 §3.1): uma
 // chip por seção, papel de aba (`tab`) com `selected` no estado ativo —
 // leitores de tela anunciam "aba, selecionada" ao focar a seção corrente.
-// A cor do sistema tinge fundo/borda da chip ativa; o texto permanece em
-// `paleta.tinta` (já verificado no gate de contraste) em vez da cor do
-// sistema, que é arbitrária por conteúdo e não tem contraste garantido em
-// todos os tons — mesma escolha já usada nos cartões de sistema da home.
+// Identidade editorial R2: a chip ativa é um bloco de TINTA sólida com
+// texto de papel (a linguagem dos chips editoriais); a cor do sistema não
+// tinge texto nem fundo de chip — ela vive só na barra de cor e em
+// elementos decorativos (contraste garantido pelo par tinta/fundo do gate).
 export function SumarioSecoes({
   secoes,
   ativa,
-  cor,
   onSelecionar,
 }: {
   secoes: ResumoSecao[];
@@ -32,7 +31,6 @@ export function SumarioSecoes({
 }) {
   const { paleta } = useTema();
   const reduzido = useReducedMotion();
-  const acento = cor ?? paleta.acento;
 
   const scrollRef = useRef<ScrollView>(null);
   const layoutsRef = useRef<Array<{ x: number; width: number } | undefined>>([]);
@@ -89,10 +87,10 @@ export function SumarioSecoes({
               justifyContent: 'center',
               paddingHorizontal: espaco.l,
               marginRight: espaco.s,
-              borderRadius: raio.pill,
+              borderRadius: raio.m,
               borderWidth: 1.5,
-              borderColor: selecionada ? acento : paleta.linha,
-              backgroundColor: selecionada ? `${acento}1f` : paleta.superficie2,
+              borderColor: selecionada ? paleta.tinta : paleta.linha,
+              backgroundColor: selecionada ? paleta.tinta : paleta.superficie2,
             }}
           >
             <Text
@@ -100,7 +98,7 @@ export function SumarioSecoes({
               style={{
                 fontFamily: fonte.corpoBold,
                 fontSize: tipo.small,
-                color: selecionada ? paleta.tinta : paleta.tinta2,
+                color: selecionada ? paleta.fundo : paleta.tinta2,
               }}
             >
               {secao.titulo}

@@ -1,9 +1,10 @@
-import { Pressable, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import { HelpCircle } from 'lucide-react-native';
 import type { Bloco, QuizPergunta } from '../content/schema';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, sombra, tipo } from '../design/tokens';
 import { IdentidadeBloco } from './identidade';
+import { Pressionavel } from '../design/movimento';
 
 type QuizBlocoTipo = Extract<Bloco, { tipo: 'quiz' }>;
 
@@ -17,7 +18,7 @@ export function QuizBloco({ bloco, onIniciar }: { bloco: QuizBlocoTipo; onInicia
       <Text style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.h3 * escala), color: paleta.tinta, marginBottom: espaco.m }}>
         {bloco.perguntas.length} perguntas
       </Text>
-      <Pressable
+      <Pressionavel
         accessibilityRole="button"
         onPress={() => onIniciar?.(bloco.perguntas)}
         style={{
@@ -30,7 +31,7 @@ export function QuizBloco({ bloco, onIniciar }: { bloco: QuizBlocoTipo; onInicia
         }}
       >
         <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.corpo, color: paleta.superficie }}>Praticar</Text>
-      </Pressable>
+      </Pressionavel>
     </View>
   );
 }

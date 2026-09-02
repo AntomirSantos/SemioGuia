@@ -14,7 +14,7 @@ test('texto plano sem marcadores renderiza sem alteração', async () => {
 test('**negrito** continua em negrito (comportamento existente preservado)', async () => {
   const { getByText } = await renderTexto('Isto é **negrito** puro.');
   const trecho = getByText('negrito');
-  expect(trecho.props.style.fontFamily).toBe(fonte.corpoBold);
+  expect(trecho.props.style.fontFamily).toBe(fonte.leituraSemi);
 });
 
 test('*itálico* aplica fontStyle italic ao trecho marcado (bônus Fase 8)', async () => {
@@ -27,7 +27,7 @@ test('negrito e itálico lado a lado no mesmo parágrafo (misto)', async () => {
   const { getByText } = await renderTexto('Isto é **importante** e isto é *sutil*.');
   const negrito = getByText('importante');
   const italico = getByText('sutil');
-  expect(negrito.props.style.fontFamily).toBe(fonte.corpoBold);
+  expect(negrito.props.style.fontFamily).toBe(fonte.leituraSemi);
   expect(italico.props.style.fontStyle).toBe('italic');
 });
 
@@ -54,5 +54,5 @@ test('marcadores aninhados não quebram o render', async () => {
 test('parágrafos separados por linha em branco continuam funcionando com formatação', async () => {
   const { getByText } = await renderTexto('Primeiro parágrafo com *itálico*.\n\nSegundo parágrafo com **negrito**.');
   expect(getByText('itálico').props.style.fontStyle).toBe('italic');
-  expect(getByText('negrito').props.style.fontFamily).toBe(fonte.corpoBold);
+  expect(getByText('negrito').props.style.fontFamily).toBe(fonte.leituraSemi);
 });

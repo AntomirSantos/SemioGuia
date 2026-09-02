@@ -1,7 +1,8 @@
-import { Pressable, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import { ChevronLeft, ChevronRight } from 'lucide-react-native';
 import { useTema } from './ThemeContext';
 import { Rotulo } from './Rotulo';
+import { Pressionavel } from './movimento';
 import { espaco, fonte, raio, tipo } from './tokens';
 
 // "Seção X de Y" + barra fina de progresso na cor do sistema (spec Fase 8
@@ -29,17 +30,15 @@ export function IndicadorSecao({ indice, total, cor }: { indice: number; total: 
   );
 }
 
-// Botão de navegação sequencial ao fim da seção. Nunca aplicamos a cor do
-// sistema como fundo sólido atrás de texto: `cor` vem do conteúdo (uma por
-// sistema) e não tem contraste garantido contra `paleta.superficie`/`tinta`
-// em todos os tons (verificado manualmente — alguns tons falham AA nesse
-// uso). Em vez disso, a cor tinge fundo/borda/ícone — texto sempre em
-// `paleta.tinta`/`tinta2`, os únicos pares que o gate de contraste cobre.
+// Botão de navegação sequencial ao fim da seção. Identidade editorial R2:
+// o botão de destaque ("Próxima seção") é um bloco de TINTA sólida com
+// texto de papel; o secundário é wash de papel com texto em tinta. Nunca
+// aplicamos a cor do sistema atrás de texto — ela é arbitrária por conteúdo
+// e não tem contraste garantido (o par tinta/fundo é o que o gate cobre).
 function BotaoSecao({
   rotulo,
   direcao,
   destaque,
-  cor,
   onPress,
 }: {
   rotulo: string;
@@ -49,11 +48,11 @@ function BotaoSecao({
   onPress: () => void;
 }) {
   const { paleta } = useTema();
-  const acento = cor ?? paleta.acento;
   const Icone = direcao === 'anterior' ? ChevronLeft : ChevronRight;
+  const corTexto = destaque ? paleta.fundo : paleta.tinta;
 
   return (
-    <Pressable
+    <Pressionavel
       accessibilityRole="button"
       accessibilityLabel={rotulo}
       onPress={onPress}
@@ -63,24 +62,22 @@ function BotaoSecao({
         minHeight: 44,
         paddingHorizontal: espaco.l,
         borderRadius: raio.m,
-        borderWidth: destaque ? 1.5 : 1,
-        borderColor: destaque ? acento : paleta.linha,
-        backgroundColor: destaque ? `${acento}14` : 'transparent',
+        backgroundColor: destaque ? paleta.tinta : paleta.superficie2,
       }}
     >
-      {direcao === 'anterior' ? <Icone size={18} color={destaque ? acento : paleta.tinta2} /> : null}
+      {direcao === 'anterior' ? <Icone size={18} color={corTexto} /> : null}
       <Text
         style={{
           fontFamily: fonte.corpoBold,
           fontSize: tipo.corpo,
-          color: paleta.tinta,
+          color: corTexto,
           marginHorizontal: espaco.xs + 2,
         }}
       >
         {rotulo}
       </Text>
-      {direcao === 'proxima' ? <Icone size={18} color={destaque ? acento : paleta.tinta2} /> : null}
-    </Pressable>
+      {direcao === 'proxima' ? <Icone size={18} color={corTexto} /> : null}
+    </Pressionavel>
   );
 }
 

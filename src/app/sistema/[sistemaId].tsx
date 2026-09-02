@@ -1,9 +1,10 @@
 import { useCallback } from 'react';
 import { Check } from 'lucide-react-native';
-import { Pressable, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { Tela } from '../../design/Tela';
 import { Cabecalho } from '../../design/Cabecalho';
+import { Pressionavel } from '../../design/movimento';
 import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useSistema } from '../../content/ContentContext';
@@ -40,7 +41,7 @@ function IndicadorEstudado({ estudado }: { estudado: boolean }) {
 function LinhaTopico({ topico, estudado }: { topico: Topico; estudado: boolean }) {
   const { paleta, escala } = useTema();
   return (
-    <Pressable
+    <Pressionavel
       accessibilityRole="button"
       accessibilityLabel={`${topico.titulo}${estudado ? ', estudado' : ''}`}
       onPress={() => router.push(`/topico/${topico.id}`)}
@@ -58,7 +59,7 @@ function LinhaTopico({ topico, estudado }: { topico: Topico; estudado: boolean }
         {topico.titulo}
       </Text>
       <IndicadorEstudado estudado={estudado} />
-    </Pressable>
+    </Pressionavel>
   );
 }
 

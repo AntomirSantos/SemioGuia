@@ -5,18 +5,17 @@ import { espaco, fonte, tipo } from '../design/tokens';
 
 type SecaoBloco = Extract<Bloco, { tipo: 'secao' }>;
 
-// Cabeçalho de seção: divide compartimentos dentro de um tópico. Não é um
-// cartão — só um filete de acento à esquerda e uma margem generosa acima,
-// para marcar visualmente onde um bloco de conteúdo termina e o próximo
-// começa.
+// Cabeçalho de seção: divide compartimentos dentro de um tópico. Identidade
+// editorial R2: uma REGRA de 2.5px em tinta acima do título em Bodoni — a
+// mesma linguagem de regras tipográficas dos rótulos de seção da home.
 export function Secao({ bloco }: { bloco: SecaoBloco }) {
   const { paleta, escala } = useTema();
   return (
-    <View style={{ flexDirection: 'row', alignItems: 'stretch', marginTop: espaco.xxl + espaco.m, marginBottom: espaco.s }}>
-      <View style={{ width: 3, backgroundColor: paleta.acento, borderRadius: 2, marginRight: espaco.m }} />
+    <View style={{ marginTop: espaco.xxl + espaco.m, marginBottom: espaco.s }}>
+      <View style={{ height: 2.5, backgroundColor: paleta.tinta, marginBottom: espaco.s }} />
       <Text
         accessibilityRole="header"
-        style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.h3 * escala), color: paleta.tinta, flex: 1 }}
+        style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.secao * escala), color: paleta.tinta }}
       >
         {bloco.titulo}
       </Text>

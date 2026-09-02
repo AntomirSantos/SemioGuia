@@ -4,13 +4,19 @@ import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import {
   useFonts,
-  BricolageGrotesque_600SemiBold,
-  BricolageGrotesque_700Bold,
-} from '@expo-google-fonts/bricolage-grotesque';
+  LibreBodoni_700Bold,
+  LibreBodoni_700Bold_Italic,
+} from '@expo-google-fonts/libre-bodoni';
 import {
-  AtkinsonHyperlegible_400Regular,
-  AtkinsonHyperlegible_700Bold,
-} from '@expo-google-fonts/atkinson-hyperlegible';
+  SourceSerif4_400Regular,
+  SourceSerif4_600SemiBold,
+} from '@expo-google-fonts/source-serif-4';
+import {
+  PublicSans_400Regular,
+  PublicSans_600SemiBold,
+  PublicSans_700Bold,
+  PublicSans_800ExtraBold,
+} from '@expo-google-fonts/public-sans';
 import { ThemeProvider, type EscalaFonte, type PreferenciaTema } from '../design/ThemeContext';
 import { ContentProvider } from '../content/ContentContext';
 import { ProgressProvider, useProgresso } from '../progress/ProgressContext';
@@ -80,11 +86,17 @@ function TemaPersistido({ children }: { children: ReactNode }) {
 }
 
 export default function RootLayout() {
+  // Identidade Editorial R2: Libre Bodoni (títulos), Source Serif 4 (corpo
+  // de leitura) e Public Sans (UI) — ver src/design/tokens.ts (`fonte`).
   const [ok] = useFonts({
-    BricolageGrotesque_600SemiBold,
-    BricolageGrotesque_700Bold,
-    AtkinsonHyperlegible_400Regular,
-    AtkinsonHyperlegible_700Bold,
+    LibreBodoni_700Bold,
+    LibreBodoni_700Bold_Italic,
+    SourceSerif4_400Regular,
+    SourceSerif4_600SemiBold,
+    PublicSans_400Regular,
+    PublicSans_600SemiBold,
+    PublicSans_700Bold,
+    PublicSans_800ExtraBold,
   });
 
   // Na web as fontes chegam por CSS e uma falha no fetch das .ttf não deve

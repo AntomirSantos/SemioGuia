@@ -32,7 +32,7 @@ function renderizarInline(texto: string, chavePrefixo: string): ReactNode[] {
     const chave = `${chavePrefixo}-${j}`;
     if (seg.length > 4 && seg.startsWith('**') && seg.endsWith('**')) {
       return (
-        <Text key={chave} style={{ fontFamily: fonte.corpoBold }}>
+        <Text key={chave} style={{ fontFamily: fonte.leituraSemi }}>
           {renderizarItalico(seg.slice(2, -2), chave)}
         </Text>
       );
@@ -44,18 +44,21 @@ function renderizarInline(texto: string, chavePrefixo: string): ReactNode[] {
 // converte "a **b** c" / "a *b* c" em segmentos com negrito/itálico;
 // parágrafos separados por \n\n.
 //
-// Line-height de leitura confortável (spec Fase 8 §3.2): quando `style` traz
-// um `fontSize` numérico e não define seu próprio `lineHeight`, aplicamos
-// 1.5× por padrão — sem exigir que cada bloco repita a conta. Um `lineHeight`
-// explícito em `style` continua vencendo (é o último item do array).
+// Voz de LEITURA da identidade editorial: Source Serif 4 (400 no corpo, 600
+// no negrito) — a UI usa Public Sans, mas a prosa dos tópicos é serifada.
+// Line-height de leitura confortável (DECISAO.md: 1.6–1.65): quando `style`
+// traz um `fontSize` numérico e não define seu próprio `lineHeight`,
+// aplicamos 1.62× por padrão — sem exigir que cada bloco repita a conta. Um
+// `lineHeight` explícito em `style` continua vencendo (é o último item do
+// array).
 export function TextoRico({ children, style }: { children: string; style?: TextStyle }) {
   const paragrafos = children.trim().split(/\n{2,}/);
   const tamanho = typeof style?.fontSize === 'number' ? style.fontSize : undefined;
-  const lineHeightPadrao = tamanho && style?.lineHeight === undefined ? Math.round(tamanho * 1.5) : undefined;
+  const lineHeightPadrao = tamanho && style?.lineHeight === undefined ? Math.round(tamanho * 1.62) : undefined;
   return (
     <>
       {paragrafos.map((p, i) => (
-        <Text key={i} style={[{ fontFamily: fonte.corpo, marginTop: i ? 8 : 0, lineHeight: lineHeightPadrao }, style]}>
+        <Text key={i} style={[{ fontFamily: fonte.leitura, marginTop: i ? 8 : 0, lineHeight: lineHeightPadrao }, style]}>
           {renderizarInline(p, `${i}`)}
         </Text>
       ))}

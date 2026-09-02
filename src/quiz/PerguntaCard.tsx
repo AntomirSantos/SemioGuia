@@ -1,7 +1,9 @@
 import { useState } from 'react';
-import { Pressable, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import { useTema } from '../design/ThemeContext';
 import { Rotulo } from '../design/Rotulo';
+import { EntradaAnimada } from '../design/EntradaAnimada';
+import { Pressionavel } from '../design/movimento';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
 import type { QuizPergunta } from '../content/schema';
 
@@ -25,7 +27,7 @@ function AlternativaCard({
   };
   const cor = cores[estado];
   return (
-    <Pressable
+    <Pressionavel
       accessibilityRole="button"
       onPress={onPress}
       style={{
@@ -34,21 +36,21 @@ function AlternativaCard({
         paddingVertical: espaco.m,
         paddingHorizontal: espaco.l,
         borderRadius: raio.m,
-        borderWidth: 1,
+        borderWidth: 1.5,
         borderColor: cor.borda,
         backgroundColor: cor.fundo,
         marginBottom: espaco.s,
       }}
     >
-      <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: cor.texto }}>{texto}</Text>
-    </Pressable>
+      <Text style={{ fontFamily: fonte.corpoMedio, fontSize: Math.round(tipo.corpo * escala), color: cor.texto }}>{texto}</Text>
+    </Pressionavel>
   );
 }
 
 export function BotaoPrincipal({ rotulo, onPress }: { rotulo: string; onPress: () => void }) {
   const { paleta } = useTema();
   return (
-    <Pressable
+    <Pressionavel
       accessibilityRole="button"
       onPress={onPress}
       style={{
@@ -62,7 +64,7 @@ export function BotaoPrincipal({ rotulo, onPress }: { rotulo: string; onPress: (
       }}
     >
       <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.corpo, color: paleta.superficie }}>{rotulo}</Text>
-    </Pressable>
+    </Pressionavel>
   );
 }
 
@@ -120,7 +122,10 @@ export function PerguntaCard({
       })}
 
       {escolhida !== null ? (
-        <>
+        // Feedback do quiz (DECISAO.md): delight contido, ≤300ms — a
+        // explicação entra com o fade+deslize curto de EntradaAnimada
+        // (200ms), sem confete nem animação de estado nas alternativas.
+        <EntradaAnimada>
           <View
             style={{
               backgroundColor: paleta.superficie2,
@@ -135,7 +140,7 @@ export function PerguntaCard({
             </Text>
           </View>
           <BotaoPrincipal rotulo={rotuloAvancar} onPress={onAvancar} />
-        </>
+        </EntradaAnimada>
       ) : null}
     </>
   );

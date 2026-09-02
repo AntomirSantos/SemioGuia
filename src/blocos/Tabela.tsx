@@ -9,7 +9,7 @@ type TabelaBlocoTipo = Extract<Bloco, { tipo: 'tabela' }>;
 
 // Revisão de fase P3a: 130 (valor original, pré-Fase 8) já não bastava para
 // a palavra isolada mais longa que aparece de verdade em cabeçalhos de
-// coluna no conteúdo — medido no font real (AtkinsonHyperlegible_700Bold,
+// coluna no conteúdo — medido na época no font então vigente (bold de UI,
 // 14px, uppercase, letterSpacing 0.5): "Classificação" precisa de ~119px,
 // "verossimilhança" de ~142px, "Características" de ~138px. 170 (menos os
 // 16px de padding = 154px úteis) cobre o pior caso real com folga, sem

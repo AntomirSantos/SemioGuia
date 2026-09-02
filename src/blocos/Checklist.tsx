@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
+import { Pressionavel } from '../design/movimento';
 import { Check, ClipboardCheck, ListChecks } from 'lucide-react-native';
 import { router } from 'expo-router';
 import type { Bloco } from '../content/schema';
@@ -71,7 +72,7 @@ export function ChecklistBloco({ bloco, topicoId }: { bloco: ChecklistBlocoTipo;
         );
       })}
       {bloco.titulo && topicoId ? (
-        <Pressable
+        <Pressionavel
           accessibilityRole="button"
           onPress={() => router.push(`/estacao/${topicoId}?titulo=${encodeURIComponent(bloco.titulo)}`)}
           style={{
@@ -89,7 +90,7 @@ export function ChecklistBloco({ bloco, topicoId }: { bloco: ChecklistBlocoTipo;
           <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.small, color: paleta.acentoTinta, marginLeft: espaco.xs + 2 }}>
             Praticar como estação
           </Text>
-        </Pressable>
+        </Pressionavel>
       ) : null}
     </View>
   );

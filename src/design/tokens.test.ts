@@ -12,5 +12,5 @@ test('todas as cores são hex válidos', () => {
 
 test('tokens de layout existem', () => {
   expect(espaco.l).toBe(16);
-  expect(fonte.display).toContain('Bricolage');
+  expect(fonte.display).toContain('LibreBodoni');
 });
