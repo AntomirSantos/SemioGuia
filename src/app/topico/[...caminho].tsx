@@ -19,6 +19,8 @@ import { semearTopico } from '../../revisao/fila';
 import { agoraIso, hojeLocal } from '../../revisao/hoje';
 import { track } from '../../analytics/analytics';
 import { FolhaFeedback } from '../../feedback/FolhaFeedback';
+import { topicoBloqueado } from '../../entitlements/entitlements';
+import { BloqueioPremium } from '../../entitlements/BloqueioPremium';
 import type { Bloco, QuizPergunta, Topico } from '../../content/schema';
 
 function TelaNaoEncontrada() {
@@ -206,6 +208,12 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
     return <TelaNaoEncontrada />;
   }
   const topicoAtual: Topico = topico;
+
+  // Freemium (beta §9.10): com PAYWALL_ATIVO desligado, topicoBloqueado é
+  // sempre false e nada muda; ligado, sistemas premium mostram o bloqueio.
+  if (topicoBloqueado(topicoAtual.sistemaId)) {
+    return <BloqueioPremium sistemaTitulo={sistema?.titulo ?? topicoAtual.sistemaId} />;
+  }
 
   const capitulo = sistema?.capitulos.find((c) => c.id === topicoAtual.capituloId);
 
