@@ -37,10 +37,11 @@ export function diasAteProva(dataProvaIso: string, hojeIso: string): number {
   return Math.round((Date.parse(dataProvaIso) - Date.parse(hojeIso)) / DIA_MS);
 }
 
-export function textoDiasAteProva(dias: number): string {
+export function textoDiasAteProva(dias: number, sistemaTitulo?: string): string {
+  const deSistema = sistemaTitulo ? ` de ${sistemaTitulo}` : '';
   if (dias < 0) return 'A prova já passou — atualize a data no Perfil';
-  if (dias === 0) return 'A prova é hoje';
-  return dias === 1 ? 'Falta 1 dia para a prova' : `Faltam ${dias} dias para a prova`;
+  if (dias === 0) return `A prova${deSistema} é hoje`;
+  return dias === 1 ? `Falta 1 dia para a prova${deSistema}` : `Faltam ${dias} dias para a prova${deSistema}`;
 }
 
 export interface PlanoDoDia {

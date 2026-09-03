@@ -76,6 +76,7 @@ function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: Qui
   // Instrumentação do beta (§4): um evento por sessão de quiz concluída —
   // a ref evita duplicar em re-renders; "Repetir" zera e permite novo evento.
   const quizRegistradoRef = useRef(false);
+  const inicioQuizRef = useRef(Date.now());
   useEffect(() => {
     if (mostrarResultado && resultado && !quizRegistradoRef.current) {
       quizRegistradoRef.current = true;
@@ -84,6 +85,7 @@ function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: Qui
         acertos: resultado.acertos,
         total: resultado.total,
         percentual: resultado.percentual,
+        duracaoSegundos: Math.round((Date.now() - inicioQuizRef.current) / 1000),
       });
     }
     if (!mostrarResultado) quizRegistradoRef.current = false;
@@ -112,6 +114,7 @@ function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: Qui
             reiniciar();
             setIndice(0);
             setMostrarResultado(false);
+            inicioQuizRef.current = Date.now();
           }}
         />
         <BotaoSecundario rotulo="Voltar" onPress={() => router.back()} />

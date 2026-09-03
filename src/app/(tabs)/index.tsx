@@ -144,15 +144,19 @@ function CartaoContinuar({ topico, sistema }: { topico: Topico; sistema: Sistema
 
 // Cartão do plano até a prova (beta §9.2): aparece quando há `dataProva`
 // gravada. Mesma anatomia editorial das outras linhas; toca → revisão do dia.
-function CartaoPlano({ dataProva, paraRevisarHoje, topicosRestantes }: {
+function CartaoPlano({ dataProva, paraRevisarHoje, topicosRestantes, sistemaProvaTitulo }: {
   dataProva: string;
   paraRevisarHoje: number;
   topicosRestantes: number;
+  sistemaProvaTitulo: string | null;
 }) {
   const { paleta, escala } = useTema();
   const plano = montarPlanoDoDia({ dataProvaIso: dataProva, hojeIso: hojeLocal(), paraRevisarHoje, topicosRestantes });
+  const treinoDoSistema = sistemaProvaTitulo
+    ? `estação OSCE e quiz de ${sistemaProvaTitulo}`
+    : '1 tópico novo · quiz do tópico';
   const linhas = [
-    `Hoje (~15 min): revisão do dia (${plano.paraRevisarHoje} ${plano.paraRevisarHoje === 1 ? 'item' : 'itens'}) · 1 tópico novo · quiz do tópico`,
+    `Hoje (~15 min): revisão do dia (${plano.paraRevisarHoje} ${plano.paraRevisarHoje === 1 ? 'item' : 'itens'}) · ${treinoDoSistema}`,
     plano.topicosPorDia !== null
       ? `Ritmo para ver tudo: ${plano.topicosPorDia} ${plano.topicosPorDia === 1 ? 'tópico novo' : 'tópicos novos'} por dia (faltam ${plano.topicosRestantes})`
       : null,
@@ -173,7 +177,7 @@ function CartaoPlano({ dataProva, paraRevisarHoje, topicosRestantes }: {
             color: paleta.tinta,
           }}
         >
-          {textoDiasAteProva(plano.diasRestantes)}
+          {textoDiasAteProva(plano.diasRestantes, sistemaProvaTitulo ?? undefined)}
         </Text>
         {plano.diasRestantes >= 0
           ? linhas.map((linha) => (
@@ -226,9 +230,11 @@ export default function Guia() {
   const carregarPlano = useCallback(async () => {
     const dataProva = await progresso.obterPreferencia('dataProva');
     if (!dataProva) return null;
+    const sistemaProvaId = await progresso.obterPreferencia('sistemaProva');
+    const sistemaProva = sistemaProvaId ? obterSistema(conteudo, sistemaProvaId) : undefined;
     const itens = await progresso.listarItensRevisao();
     const paraRevisarHoje = montarFila(itens, idsValidosDoConteudo(conteudo), hojeLocal()).itens.length;
-    return { dataProva, paraRevisarHoje };
+    return { dataProva, paraRevisarHoje, sistemaProvaTitulo: sistemaProva?.titulo ?? null };
   }, [progresso, conteudo]);
   const plano = useDadosAoFocar(carregarPlano);
 
@@ -254,6 +260,7 @@ export default function Guia() {
           dataProva={plano.dataProva}
           paraRevisarHoje={plano.paraRevisarHoje}
           topicosRestantes={totalTopicos - estudados.size}
+          sistemaProvaTitulo={plano.sistemaProvaTitulo}
         />
       ) : null}
       {ultimo ? <CartaoContinuar topico={ultimo.topico} sistema={ultimo.sistema} /> : null}

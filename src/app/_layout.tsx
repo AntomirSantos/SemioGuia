@@ -105,9 +105,13 @@ export default function RootLayout() {
   const pronto = ok || Platform.OS === 'web';
 
   // Instrumentação do beta (§4): uma abertura por montagem do layout raiz —
-  // no PWA, cada visita à página conta como uma abertura.
+  // no PWA, cada visita à página conta como uma abertura. `origem` distingue
+  // a home de um deep link (só a web tem URL de entrada).
   useEffect(() => {
-    track('app_aberto');
+    const caminho = (globalThis as { location?: { pathname?: string } }).location?.pathname ?? '';
+    const semBase = caminho.replace(/^\/SemioGuia/, '');
+    const origem = Platform.OS !== 'web' || semBase === '' || semBase === '/' ? 'home' : 'deep-link';
+    track('app_aberto', { origem });
   }, []);
 
   useEffect(() => {

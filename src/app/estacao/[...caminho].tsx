@@ -68,7 +68,12 @@ export function TelaEstacao({ topicoId, titulo }: { topicoId: string; titulo: st
     const atualizado = avaliar(item, notaDeEstacao(resultado.percentual), hoje, agora);
     // Instrumentação do beta (§4): estação avulsa concluída (a estação dentro
     // da fila de revisão conta no `revisao_concluida`, não aqui).
-    track('osce_concluida', { topicoId, checklist: checklist!.titulo, percentual: resultado.percentual });
+    track('osce_concluida', {
+      topicoId,
+      checklist: checklist!.titulo,
+      percentual: resultado.percentual,
+      duracaoSegundos: resultado.duracaoSegundos ?? 0,
+    });
     await progresso.salvarItemRevisao(atualizado);
     // Spec §3.2, 4º gatilho: notifica após a conclusão da estação, com debounce.
     notificarEscrita();

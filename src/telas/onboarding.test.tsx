@@ -57,24 +57,35 @@ test('percorre os 3 passos e "Começar" com data válida grava preferências e e
   const { getByText, getByLabelText } = await renderOnboarding(store);
 
   expect(getByText('Passo 1 de 3')).toBeTruthy();
+  await fireEvent.changeText(getByLabelText('Período do curso'), '4º período');
   await fireEvent.press(getByText('Próxima'));
   await waitFor(() => expect(getByText('Passo 2 de 3')).toBeTruthy());
+  await fireEvent.changeText(getByLabelText('Faculdade'), 'UFPB');
   await fireEvent.press(getByText('Próxima'));
   await waitFor(() => expect(getByText('Passo 3 de 3')).toBeTruthy());
 
   await fireEvent.changeText(getByLabelText('Data da prova'), '07/10/2026');
+  await fireEvent.press(getByText('Aparelho cardiovascular'));
   await fireEvent.press(getByText('Começar'));
 
   await waitFor(() => {
     expect(router.replace).toHaveBeenCalledWith('/');
   });
   expect(await store.obterPreferencia('onboarding')).toBe('concluido');
+  expect(await store.obterPreferencia('periodo')).toBe('4º período');
+  expect(await store.obterPreferencia('faculdade')).toBe('UFPB');
   expect(await store.obterPreferencia('dataProva')).toBe('2026-10-07');
+  expect(await store.obterPreferencia('sistemaProva')).toBe('aparelho-cardiovascular');
 
   await aguardarAnalytics();
   const registrados = await eventos.listar();
   expect(registrados.map((e) => e.evento)).toEqual(['onboarding_concluido']);
-  expect(registrados[0].propriedades).toEqual({ dataProva: '2026-10-07' });
+  expect(registrados[0].propriedades).toEqual({
+    periodo: '4º período',
+    faculdade: 'UFPB',
+    dataProva: '2026-10-07',
+    sistemaProva: 'aparelho-cardiovascular',
+  });
 });
 
 test('data inválida mostra erro e não conclui', async () => {
@@ -110,5 +121,10 @@ test('"Deixar para depois" conclui sem data', async () => {
   expect(await store.obterPreferencia('dataProva')).toBeNull();
 
   await aguardarAnalytics();
-  expect((await eventos.listar())[0].propriedades).toEqual({ dataProva: '' });
+  expect((await eventos.listar())[0].propriedades).toEqual({
+    periodo: '',
+    faculdade: '',
+    dataProva: '',
+    sistemaProva: '',
+  });
 });

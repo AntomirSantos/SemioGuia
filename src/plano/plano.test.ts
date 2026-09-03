@@ -40,6 +40,13 @@ describe('diasAteProva e textoDiasAteProva', () => {
     expect(textoDiasAteProva(0)).toBe('A prova é hoje');
     expect(textoDiasAteProva(-2)).toBe('A prova já passou — atualize a data no Perfil');
   });
+
+  test('com o sistema da prova, o texto o nomeia', () => {
+    expect(textoDiasAteProva(10, 'Aparelho cardiovascular')).toBe(
+      'Faltam 10 dias para a prova de Aparelho cardiovascular',
+    );
+    expect(textoDiasAteProva(0, 'Abdome')).toBe('A prova de Abdome é hoje');
+  });
 });
 
 describe('montarPlanoDoDia', () => {

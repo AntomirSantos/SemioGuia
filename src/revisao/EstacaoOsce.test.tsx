@@ -55,7 +55,7 @@ describe('EstacaoOsce', () => {
     await fireEvent.press(getByText('Lembrei'));
 
     expect(aoConcluir).toHaveBeenCalledTimes(1);
-    expect(aoConcluir).toHaveBeenCalledWith({ lembrados: 2, total: 3, percentual: 67 });
+    expect(aoConcluir).toHaveBeenCalledWith({ lembrados: 2, total: 3, percentual: 67, duracaoSegundos: expect.any(Number) });
     expect(getByText('67%')).toBeTruthy();
     expect(getByText('Explicar o procedimento')).toBeTruthy();
     expect(queryByText('Revelar passo')).toBeNull();

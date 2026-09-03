@@ -6,16 +6,17 @@ import { Rotulo } from '../design/Rotulo';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
 import { useConteudo } from '../content/ContentContext';
-import { listarSistemas, listarTodosTopicos } from '../content/store';
+import { listarSistemas } from '../content/store';
 import { useProgresso } from '../progress/ProgressContext';
 import { useSync } from '../sync/orquestrador';
 import { analisarDataProva } from '../plano/plano';
 import { track } from '../analytics/analytics';
 
-// Onboarding do beta (§9.2): três passos curtos — o que é o guia, como
-// estudar em ≤15 min/dia e a data da prova (opcional, editável no Perfil).
-// A conclusão grava a preferência `onboarding` = 'concluido'; a home só
-// abre esta tela enquanto ela não existe.
+// Onboarding do beta (§9.2): três telas no primeiro acesso — período do
+// curso, faculdade e a data da próxima prova prática com o sistema
+// correspondente. Tudo opcional (dá para "Deixar para depois"); a data é
+// editável no Perfil. A conclusão grava `onboarding` = 'concluido'; a home
+// só abre esta tela enquanto essa preferência não existe.
 
 function Paragrafo({ children }: { children: string }) {
   const { paleta, escala } = useTema();
@@ -31,6 +32,39 @@ function Paragrafo({ children }: { children: string }) {
     >
       {children}
     </Text>
+  );
+}
+
+function Campo({
+  valor,
+  aoMudar,
+  rotulo,
+  placeholder,
+}: {
+  valor: string;
+  aoMudar: (t: string) => void;
+  rotulo: string;
+  placeholder: string;
+}) {
+  const { paleta, escala } = useTema();
+  return (
+    <TextInput
+      value={valor}
+      onChangeText={aoMudar}
+      placeholder={placeholder}
+      placeholderTextColor={paleta.tinta2}
+      accessibilityLabel={rotulo}
+      style={{
+        minHeight: 48,
+        borderRadius: raio.m,
+        backgroundColor: paleta.superficie2,
+        paddingHorizontal: espaco.m,
+        fontFamily: fonte.corpo,
+        fontSize: Math.round(tipo.corpo * escala),
+        color: paleta.tinta,
+        marginBottom: espaco.xs,
+      }}
+    />
   );
 }
 
@@ -62,23 +96,34 @@ export function TelaOnboarding() {
   const progresso = useProgresso();
   const { notificarEscrita } = useSync();
   const [passo, setPasso] = useState(0);
+  const [periodo, setPeriodo] = useState('');
+  const [faculdade, setFaculdade] = useState('');
   const [entradaData, setEntradaData] = useState('');
+  const [sistemaProva, setSistemaProva] = useState<string | null>(null);
   const [erroData, setErroData] = useState(false);
 
-  const totalSistemas = listarSistemas(conteudo).length;
-  const totalTopicos = listarTodosTopicos(conteudo).length;
+  const sistemas = listarSistemas(conteudo);
 
   async function concluir(dataIso: string | null) {
     try {
       await progresso.definirPreferencia('onboarding', 'concluido');
+      if (periodo.trim()) await progresso.definirPreferencia('periodo', periodo.trim());
+      if (faculdade.trim()) await progresso.definirPreferencia('faculdade', faculdade.trim());
       if (dataIso) await progresso.definirPreferencia('dataProva', dataIso);
+      if (dataIso && sistemaProva) await progresso.definirPreferencia('sistemaProva', sistemaProva);
     } catch {
       // sem persistência, o onboarding reaparece na próxima abertura — melhor
       // que travar o primeiro uso.
     } finally {
       notificarEscrita();
     }
-    track('onboarding_concluido', dataIso ? { dataProva: dataIso } : { dataProva: '' });
+    // §4: onboarding_concluido carrega período, faculdade e data da prova.
+    track('onboarding_concluido', {
+      periodo: periodo.trim(),
+      faculdade: faculdade.trim(),
+      dataProva: dataIso ?? '',
+      sistemaProva: (dataIso && sistemaProva) || '',
+    });
     router.replace('/');
   }
 
@@ -98,68 +143,75 @@ export function TelaOnboarding() {
 
   const passos = [
     {
-      titulo: 'Semiologia no bolso',
+      titulo: 'Em que período você está?',
       corpo: (
         <>
           <Paragrafo>
-            {`O SemioGuia cobre o exame clínico inteiro — ${totalSistemas} sistemas e ${totalTopicos} tópicos, da anamnese à semiologia da criança — em prosa própria, ancorada nas obras de referência e funcionando offline.`}
+            O SemioGuia é um guia de semiologia de bolso — offline, com revisão espaçada, estações
+            OSCE e quiz. Três perguntas rápidas ajustam o plano de estudo a você.
           </Paragrafo>
-          <Paragrafo>
-            Cada tópico traz o essencial, a técnica passo a passo, as evidências (razões de
-            verossimilhança) e as divergências entre os livros, lado a lado.
-          </Paragrafo>
+          <Campo valor={periodo} aoMudar={setPeriodo} rotulo="Período do curso" placeholder="Ex.: 4º período" />
         </>
       ),
     },
     {
-      titulo: '15 minutos por dia',
+      titulo: 'De qual faculdade?',
       corpo: (
-        <>
-          <Paragrafo>
-            O plano de estudo cabe no intervalo do estágio: a revisão espaçada do dia, um tópico
-            novo e o quiz dele.
-          </Paragrafo>
-          <Paragrafo>
-            Marcar um tópico como estudado semeia a fila de revisão; as estações OSCE treinam a
-            técnica com os mesmos checklists da prova prática.
-          </Paragrafo>
-        </>
+        <Campo valor={faculdade} aoMudar={setFaculdade} rotulo="Faculdade" placeholder="Ex.: UFPB" />
       ),
     },
     {
-      titulo: 'Quando é a sua prova?',
+      titulo: 'Quando é a próxima prova prática?',
       corpo: (
         <>
           <Paragrafo>
-            Com a data, a home mostra quantos dias faltam e o ritmo de tópicos por dia para chegar
-            lá. Dá para mudar (ou definir) depois, no Perfil.
+            Com a data (e o sistema da prova), a home mostra os dias restantes e o treino do dia.
+            Dá para mudar depois, no Perfil.
           </Paragrafo>
-          <TextInput
-            value={entradaData}
-            onChangeText={(t) => {
+          <Campo
+            valor={entradaData}
+            aoMudar={(t) => {
               setEntradaData(t);
               setErroData(false);
             }}
+            rotulo="Data da prova"
             placeholder="DD/MM/AAAA"
-            placeholderTextColor={paleta.tinta2}
-            keyboardType="numbers-and-punctuation"
-            accessibilityLabel="Data da prova"
-            style={{
-              minHeight: 48,
-              borderRadius: raio.m,
-              backgroundColor: paleta.superficie2,
-              paddingHorizontal: espaco.m,
-              fontFamily: fonte.corpo,
-              fontSize: Math.round(tipo.corpo * escala),
-              color: paleta.tinta,
-              marginBottom: espaco.xs,
-            }}
           />
           {erroData ? (
-            <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.acentoTinta }}>
+            <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.acentoTinta, marginBottom: espaco.xs }}>
               Data inválida — use o formato DD/MM/AAAA.
             </Text>
           ) : null}
+          <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: espaco.xs, marginTop: espaco.s }}>
+            {sistemas.map((s) => {
+              const ativo = sistemaProva === s.id;
+              return (
+                <Pressable
+                  key={s.id}
+                  accessibilityRole="button"
+                  accessibilityState={{ selected: ativo }}
+                  onPress={() => setSistemaProva(ativo ? null : s.id)}
+                  style={{
+                    minHeight: 36,
+                    justifyContent: 'center',
+                    paddingHorizontal: espaco.m,
+                    borderRadius: raio.pill,
+                    backgroundColor: ativo ? paleta.acento : paleta.superficie2,
+                  }}
+                >
+                  <Text
+                    style={{
+                      fontFamily: ativo ? fonte.corpoBold : fonte.corpo,
+                      fontSize: Math.round(tipo.small * escala),
+                      color: ativo ? paleta.superficie : paleta.tinta,
+                    }}
+                  >
+                    {s.titulo}
+                  </Text>
+                </Pressable>
+              );
+            })}
+          </View>
         </>
       ),
     },

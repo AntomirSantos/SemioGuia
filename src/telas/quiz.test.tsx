@@ -147,7 +147,7 @@ test('concluir o quiz emite um único evento quiz_concluido com o placar', async
   const registrados = await eventos.listar();
   const concluidos = registrados.filter((e) => e.evento === 'quiz_concluido');
   expect(concluidos).toHaveLength(1);
-  expect(concluidos[0].propriedades).toEqual({ topicoId: PA_ID, acertos: 3, total: 5, percentual: 60 });
+  expect(concluidos[0].propriedades).toEqual({ topicoId: PA_ID, acertos: 3, total: 5, percentual: 60, duracaoSegundos: expect.any(Number) });
 
   reiniciarAnalytics();
 });

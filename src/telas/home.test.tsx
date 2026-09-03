@@ -124,16 +124,17 @@ test('com dataProva salva, mostra o cartão "Plano até a prova" com os dias res
   const DIA = 24 * 60 * 60 * 1000;
   const dataProva = new Date(Date.parse(hojeLocal()) + 10 * DIA).toISOString().slice(0, 10);
   await store.definirPreferencia('dataProva', dataProva);
+  await store.definirPreferencia('sistemaProva', 'aparelho-cardiovascular');
 
   const { getByText } = await renderHome(store);
 
   await waitFor(() => {
     expect(getByText('Plano até a prova')).toBeTruthy();
   });
-  expect(getByText('Faltam 10 dias para a prova')).toBeTruthy();
-  expect(getByText(/Hoje \(~15 min\): revisão do dia/)).toBeTruthy();
+  expect(getByText('Faltam 10 dias para a prova de Aparelho cardiovascular')).toBeTruthy();
+  expect(getByText(/Hoje \(~15 min\): revisão do dia .* estação OSCE e quiz de Aparelho cardiovascular/)).toBeTruthy();
 
-  fireEvent.press(getByText('Faltam 10 dias para a prova'));
+  fireEvent.press(getByText('Faltam 10 dias para a prova de Aparelho cardiovascular'));
   expect(router.push).toHaveBeenCalledWith('/revisao');
 });
 

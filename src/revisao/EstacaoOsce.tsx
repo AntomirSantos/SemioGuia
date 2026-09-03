@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, sombra, tipo } from '../design/tokens';
@@ -9,6 +9,8 @@ export interface ResultadoEstacao {
   lembrados: number;
   total: number;
   percentual: number;
+  /** Segundos entre o início da estação e a conclusão (beta §4). */
+  duracaoSegundos?: number;
 }
 
 type VarianteBotao = 'principal' | 'ok' | 'erro';
@@ -65,6 +67,18 @@ export function EstacaoOsce({
   const [revelado, setRevelado] = useState(false);
   const [respostas, setRespostas] = useState<boolean[]>([]);
   const [resultado, setResultado] = useState<ResultadoEstacao | null>(null);
+  const inicioRef = useRef(Date.now());
+
+  // "Refazer estação" (beta §9.3): zera a sessão; concluir de novo chama
+  // `aoConcluir` outra vez — para o SM-2 isso é uma nova avaliação, o
+  // comportamento desejado.
+  function refazer() {
+    setIndice(0);
+    setRevelado(false);
+    setRespostas([]);
+    setResultado(null);
+    inicioRef.current = Date.now();
+  }
 
   function responder(lembrou: boolean) {
     // Guarda de conclusão: um segundo toque rápido em Lembrei/Esqueci (antes
@@ -76,9 +90,11 @@ export function EstacaoOsce({
       const total = passos.length;
       const lembrados = atualizadas.filter(Boolean).length;
       const percentual = Math.round((lembrados / total) * 100);
+      const duracaoSegundos = Math.round((Date.now() - inicioRef.current) / 1000);
+      const r = { lembrados, total, percentual, duracaoSegundos };
       setRespostas(atualizadas);
-      setResultado({ lembrados, total, percentual });
-      aoConcluir({ lembrados, total, percentual });
+      setResultado(r);
+      aoConcluir(r);
     } else {
       setRespostas(atualizadas);
       setIndice((i) => i + 1);
@@ -191,6 +207,23 @@ export function EstacaoOsce({
         >
           <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.corpo, color: paleta.acentoTinta }}>
             Compartilhar resultado
+          </Text>
+        </Pressable>
+        <Pressable
+          accessibilityRole="button"
+          onPress={refazer}
+          style={{
+            minHeight: 44,
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: paleta.superficie2,
+            borderRadius: raio.m,
+            paddingHorizontal: espaco.l,
+            marginTop: espaco.s,
+          }}
+        >
+          <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.corpo, color: paleta.acentoTinta }}>
+            Refazer estação
           </Text>
         </Pressable>
       </View>
