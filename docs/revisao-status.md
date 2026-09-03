@@ -5,7 +5,7 @@ Gerado por `npm run revisao:status` em 2026-09-03. Não edite à mão.
 ## Resumo
 
 - Tópicos: **55** · aprovados: **0** · pendentes: **55**
-- Itens do checklist: **81 abertos** de 81
+- Itens do checklist: **86 abertos** de 86
 
 ## Pendências de reescrita (plano de beta, semana 1)
 
@@ -55,6 +55,8 @@ Itens do checklist abertos desta fase: **H1**, **H2**, **H3**, **H4**
 - [ ] Palpação do tórax (`aparelho-respiratorio/exame-do-torax/palpacao-do-torax`)
 - [ ] Percussão do tórax (`aparelho-respiratorio/exame-do-torax/percussao-do-torax`)
 - [ ] Ausculta pulmonar (`aparelho-respiratorio/exame-do-torax/ausculta-pulmonar`)
+
+Itens do checklist abertos desta fase: **P1**, **P2**, **P3**, **P4**, **P5**
 
 ### Abdome — 0/4 aprovados
 

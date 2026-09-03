@@ -451,3 +451,28 @@ editorial, do autor. Marque cada caixa ao revisar.
   as fases anteriores; ver `docs/revisao-medica-pendente.md`).
 - [ ] Adição opcional: manobra de **oclusão arterial transitória** na
   tabela de sopros (McGee, LR 48,7; sem fármaco).
+
+## P. Triagem de literatura aberta — beta, cardio + respiratório (2026-09-03)
+
+Origem: `docs/triagem-literatura-cardio-resp.md` (método, limites e fontes lá).
+Nenhuma afirmação do guia contradisse a literatura em direção; os itens abaixo
+são valores que variam conforme a fonte agregadora — decidir se o guia mantém
+McGee (consistência interna) ou anota a variante.
+
+- [ ] **P1 · Diâmetro do ictus em DLE** — o guia adota ≥ 4 cm (McGee) para
+  provável VE dilatado; Eilen 1983 (Ann Intern Med) usou > 3 cm, com
+  sens 92%/esp 91%. Manter 4 cm, trocar, ou citar a faixa 3–4 cm?
+- [ ] **P2 · RVs da pneumonia à ausculta** — egofonia: 4,1 (McGee) ×
+  6,8 (meta-análise, n=3.245); MV diminuído: 2,2 × 2,5. Mesma direção;
+  decidir se o guia registra "≈4–7" ou mantém os valores de McGee.
+- [ ] **P3 · RVs da percussão** — macicez p/ derrame: 4,8 (McGee) ×
+  5,7–8,7 (JAMA RCE 2009); hipersonoridade p/ DPOC: 7,3 × 9,5. Mesma
+  decisão do P2.
+- [ ] **P4 · Refluxo hepatojugular sem RV numérica** — o guia hoje não cita
+  número, e as fontes divergem muito entre si (0,08–0,92 de RV−; 3,0–8,0 de
+  RV+). Endossar a omissão como decisão editorial permanente.
+- [ ] **P5 · Ictus lateral à LHC e jugular externa** — dois achados em que
+  estudos clássicos e modernos divergem de ênfase: ictus lateral à LHC é
+  sensível mas inespecífico p/ volume diastólico aumentado (padrão-ouro
+  muda a leitura); jugular externa é confiável na maioria dos estudos
+  modernos, com um discordante antigo (1974). Decidir se valem nota.
