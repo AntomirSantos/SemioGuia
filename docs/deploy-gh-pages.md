@@ -15,11 +15,18 @@ Passos (endurecidos nas Fases 5 e 9):
      some e o app abre sem interatividade nenhuma (incidente da Fase 9:
      "não consigo clicar nos tópicos").
    - `404.html` = cópia do `index.html` — deep links e refresh em rotas
-     internas reiniciam o app em vez de caírem no 404 do GitHub.
-4. Verificar ANTES do push: `git ls-tree -r HEAD | wc -l` = **50**
-   (48 do dist + os 2 acima; o único "node_modules" legítimo são as
-   fontes do Expo sob `assets/node_modules/@expo-google-fonts/`);
-   `.nojekyll` e `404.html` presentes; zero `src/`/`package.json`.
+     internas reiniciam o app em vez de caírem no 404 do GitHub. Desde a
+     correção do React #418 (beta §9.6), `web.output` é `"single"`: o
+     `index.html` é um shell SEM markup prerenderizado (o React renderiza
+     do zero, não hidrata), então essa cópia deixou de causar mismatch de
+     hidratação nos deep links.
+4. Verificar ANTES do push: `git ls-tree -r HEAD | wc -l` bate com a
+   contagem nominal do export corrente + os 2 acima (em `"single"`, o
+   dist tem um único `index.html`; conferir `find dist -type f | wc -l`
+   logo após o export e usar esse número). O único "node_modules"
+   legítimo são as fontes do Expo sob
+   `assets/node_modules/@expo-google-fonts/`; `.nojekyll` e `404.html`
+   presentes; zero `src/`/`package.json`.
 5. `git push -f origin gh-pages` — força SÓ neste branch (autorizado
    pelo autor para gh-pages exclusivamente).
 6. Remover o worktree e o branch local.

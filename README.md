@@ -81,9 +81,6 @@ do autor.
 
 ## Problemas conhecidos
 
-- **Aviso React #418 (hydration)** ao abrir *deep links* do export
-  estático web; não afeta a navegação normal a partir da home
-  (pré-existente ao redesign).
 - **Colisão de cor sob daltonismo** no tema escuro: os washes de
   Cabeça e pescoço × Aparelho respiratório coincidem sob deuteranopia
   (herança da paleta; a cor nunca é canal único — nome e posição
