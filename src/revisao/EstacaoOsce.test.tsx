@@ -1,6 +1,9 @@
-import { fireEvent, render } from '@testing-library/react-native';
+import { fireEvent, render, waitFor } from '@testing-library/react-native';
+import { Share } from 'react-native';
 import { ThemeProvider } from '../design/ThemeContext';
 import { EstacaoOsce, type ResultadoEstacao } from './EstacaoOsce';
+import { aguardarAnalytics, configurarAnalytics, reiniciarAnalytics } from '../analytics/analytics';
+import { MemoryEventosStore } from '../analytics/memoryEventos';
 
 function renderEstacao(passos: string[], aoConcluir: (r: ResultadoEstacao) => void) {
   return render(
@@ -71,5 +74,52 @@ describe('EstacaoOsce', () => {
     await fireEvent.press(botaoLembrei);
 
     expect(aoConcluir).toHaveBeenCalledTimes(1);
+  });
+
+  test('"Compartilhar resultado" abre a folha do sistema e registra resultado_compartilhado', async () => {
+    const spy = jest.spyOn(Share, 'share').mockResolvedValue({ action: 'sharedAction' } as never);
+    const eventos = new MemoryEventosStore();
+    configurarAnalytics({ store: eventos });
+
+    const { getByText } = await renderEstacao(['Higienizar as mãos'], jest.fn());
+    await fireEvent.press(getByText('Revelar passo'));
+    await fireEvent.press(getByText('Lembrei'));
+    await fireEvent.press(getByText('Compartilhar resultado'));
+
+    await waitFor(() => {
+      expect(spy).toHaveBeenCalledTimes(1);
+    });
+    await aguardarAnalytics();
+    const registrados = await eventos.listar();
+    expect(registrados.map((e) => e.evento)).toEqual(['resultado_compartilhado']);
+    expect(registrados[0].propriedades).toEqual({
+      contexto: 'osce',
+      checklist: 'Exame abdominal',
+      percentual: 100,
+      meio: 'texto',
+    });
+
+    spy.mockRestore();
+    reiniciarAnalytics();
+  });
+
+  test('cancelar a folha de compartilhamento não registra evento', async () => {
+    const spy = jest.spyOn(Share, 'share').mockRejectedValue(new Error('cancelado'));
+    const eventos = new MemoryEventosStore();
+    configurarAnalytics({ store: eventos });
+
+    const { getByText } = await renderEstacao(['Higienizar as mãos'], jest.fn());
+    await fireEvent.press(getByText('Revelar passo'));
+    await fireEvent.press(getByText('Lembrei'));
+    await fireEvent.press(getByText('Compartilhar resultado'));
+
+    await waitFor(() => {
+      expect(spy).toHaveBeenCalledTimes(1);
+    });
+    await aguardarAnalytics();
+    expect(await eventos.listar()).toEqual([]);
+
+    spy.mockRestore();
+    reiniciarAnalytics();
   });
 });

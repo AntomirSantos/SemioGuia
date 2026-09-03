@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, sombra, tipo } from '../design/tokens';
+import { compartilharResultadoOsce } from './compartilharResultado';
+import { track } from '../analytics/analytics';
 
 export interface ResultadoEstacao {
   lembrados: number;
@@ -84,6 +86,24 @@ export function EstacaoOsce({
     }
   }
 
+  // Compartilhar o resultado (beta §9.3): imagem editorial na web, texto no
+  // nativo. Só conta o evento quando a folha não foi cancelada.
+  async function compartilhar(r: ResultadoEstacao) {
+    try {
+      const meio = await compartilharResultadoOsce({ titulo, ...r });
+      if (meio !== 'nenhum') {
+        track('resultado_compartilhado', {
+          contexto: 'osce',
+          checklist: titulo,
+          percentual: r.percentual,
+          meio,
+        });
+      }
+    } catch {
+      // folha cancelada ou share indisponível: silencioso
+    }
+  }
+
   if (resultado) {
     const esquecidos = passos.filter((_, i) => respostas[i] === false);
     return (
@@ -156,6 +176,23 @@ export function EstacaoOsce({
             ))}
           </View>
         ) : null}
+        <Pressable
+          accessibilityRole="button"
+          onPress={() => compartilhar(resultado)}
+          style={{
+            minHeight: 44,
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: paleta.superficie2,
+            borderRadius: raio.m,
+            paddingHorizontal: espaco.l,
+            marginTop: espaco.l,
+          }}
+        >
+          <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.corpo, color: paleta.acentoTinta }}>
+            Compartilhar resultado
+          </Text>
+        </Pressable>
       </View>
     );
   }
