@@ -13,6 +13,8 @@ import { montarFila } from '../../revisao/fila';
 import { idsValidosDoConteudo } from '../../revisao/idsValidos';
 import { hojeLocal } from '../../revisao/hoje';
 import { BlocoConta } from '../../conta/BlocoConta';
+import { exportarEventos } from '../../analytics/analytics';
+import { compartilharJson } from '../../analytics/compartilhar';
 
 const AVISO_LEGAL = 'Material educacional. Não substitui o julgamento clínico.';
 
@@ -182,6 +184,19 @@ export function TelaPerfil() {
     progresso.definirPreferencia('fonte', valor).catch(() => {}).finally(() => notificarEscrita());
   }
 
+  // Beta §4: os eventos de uso ficam no aparelho; este botão gera o JSON e
+  // abre a folha de compartilhamento (ou baixa o arquivo, na web sem
+  // Web Share API). Falhas — incluindo o cancelamento da folha — são
+  // silenciosas: nada aqui pode quebrar o Perfil.
+  async function exportarDadosDeUso() {
+    try {
+      const json = await exportarEventos();
+      await compartilharJson(json);
+    } catch {
+      // silencioso, ver comentário acima
+    }
+  }
+
   return (
     <Tela>
       <Text
@@ -221,6 +236,31 @@ export function TelaPerfil() {
       </View>
       <View style={{ marginBottom: espaco.l }}>
         <SeletorSegmentado opcoes={OPCOES_FONTE} valorAtual={escalaFonte} onSelecionar={selecionarFonte} />
+      </View>
+
+      <RotuloSecao>Dados</RotuloSecao>
+      <View style={{ marginBottom: espaco.l }}>
+        <Pressable
+          accessibilityRole="button"
+          onPress={exportarDadosDeUso}
+          style={{
+            minHeight: 44,
+            alignSelf: 'flex-start',
+            justifyContent: 'center',
+            paddingHorizontal: espaco.l,
+            borderRadius: raio.m,
+            backgroundColor: paleta.superficie2,
+            marginBottom: espaco.xs,
+          }}
+        >
+          <Text style={{ fontFamily: fonte.corpoBold, fontSize: Math.round(tipo.corpo * escala), color: paleta.acentoTinta }}>
+            Exportar dados de uso
+          </Text>
+        </Pressable>
+        <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2 }}>
+          Gera um arquivo JSON com os eventos de uso anônimos deste aparelho. Nada é enviado
+          automaticamente.
+        </Text>
       </View>
 
       <RotuloSecao>Bibliografia</RotuloSecao>

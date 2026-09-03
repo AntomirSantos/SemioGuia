@@ -24,6 +24,7 @@ import { AuthProvider } from '../conta/AuthContext';
 import { obterDb } from '../conta/firebaseApp';
 import { apagarDadosDoUsuario } from '../sync/firestoreSync';
 import { SyncProvider } from '../sync/orquestrador';
+import { track } from '../analytics/analytics';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
 
@@ -102,6 +103,12 @@ export default function RootLayout() {
   // Na web as fontes chegam por CSS e uma falha no fetch das .ttf não deve
   // segurar o app em tela branca; o gate de fontes vale só no nativo.
   const pronto = ok || Platform.OS === 'web';
+
+  // Instrumentação do beta (§4): uma abertura por montagem do layout raiz —
+  // no PWA, cada visita à página conta como uma abertura.
+  useEffect(() => {
+    track('app_aberto');
+  }, []);
 
   useEffect(() => {
     if (pronto) {

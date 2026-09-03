@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Pressable, Text } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { Tela } from '../../design/Tela';
@@ -13,6 +13,7 @@ import { useSessao } from '../../quiz/useSessao';
 import { PerguntaCard, BotaoPrincipal } from '../../quiz/PerguntaCard';
 import { avaliar, criarItem, notaDePergunta } from '../../revisao/sm2';
 import { agoraIso, hojeLocal } from '../../revisao/hoje';
+import { track } from '../../analytics/analytics';
 import type { Bloco, QuizPergunta } from '../../content/schema';
 
 function TelaVazia({ mensagem }: { mensagem: string }) {
@@ -71,6 +72,22 @@ function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: Qui
   const { responderAtual, resultado, reiniciar } = useSessao(perguntas);
   const [indice, setIndice] = useState(0);
   const [mostrarResultado, setMostrarResultado] = useState(false);
+
+  // Instrumentação do beta (§4): um evento por sessão de quiz concluída —
+  // a ref evita duplicar em re-renders; "Repetir" zera e permite novo evento.
+  const quizRegistradoRef = useRef(false);
+  useEffect(() => {
+    if (mostrarResultado && resultado && !quizRegistradoRef.current) {
+      quizRegistradoRef.current = true;
+      track('quiz_concluido', {
+        topicoId,
+        acertos: resultado.acertos,
+        total: resultado.total,
+        percentual: resultado.percentual,
+      });
+    }
+    if (!mostrarResultado) quizRegistradoRef.current = false;
+  }, [mostrarResultado, resultado, topicoId]);
 
   if (mostrarResultado && resultado) {
     return (

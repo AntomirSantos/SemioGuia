@@ -11,6 +11,7 @@ import { useConteudo, useTopico } from '../../content/ContentContext';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import { criarIndice, buscar, type ResultadoBusca } from '../../search';
+import { track } from '../../analytics/analytics';
 
 function RotuloSecao({ texto }: { texto: string }) {
   return <RotuloDeSecao texto={texto} />;
@@ -65,6 +66,10 @@ export function TelaBusca() {
 
   function selecionarResultado(r: ResultadoBusca) {
     progresso.registrarBusca(termo.trim()).catch(() => {});
+    // Instrumentação do beta (§4): registra a busca no momento em que ela
+    // rende um clique (mesma semântica do histórico de buscas recentes),
+    // não a cada tecla digitada.
+    track('busca_realizada', { termo: termo.trim(), resultados: resultados.length, topicoId: r.topicoId });
     abrirTopico(r.topicoId);
   }
 

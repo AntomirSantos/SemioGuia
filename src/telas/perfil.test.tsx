@@ -48,9 +48,12 @@ jest.mock('firebase/auth', () => ({
   GoogleAuthProvider: jest.fn().mockImplementation(() => ({})),
 }));
 
+import { Share } from 'react-native';
 import { AuthProvider } from '../conta/AuthContext';
 import { SyncProvider } from '../sync/orquestrador';
 import { TelaPerfil } from '../app/(tabs)/perfil';
+import { aguardarAnalytics, configurarAnalytics, reiniciarAnalytics, track } from '../analytics/analytics';
+import { MemoryEventosStore } from '../analytics/memoryEventos';
 
 const PA_ID = 'exame-fisico-geral/sinais-vitais/pressao-arterial';
 
@@ -133,6 +136,30 @@ test('tocar "Escuro" grava a preferência de tema no store', async () => {
   fireEvent.press(getByText('Escuro'));
 
   expect(spy).toHaveBeenCalledWith('tema', 'escuro');
+});
+
+test('tocar "Exportar dados de uso" compartilha o JSON com os eventos do aparelho', async () => {
+  configurarAnalytics({ store: new MemoryEventosStore() });
+  track('app_aberto');
+  await aguardarAnalytics();
+  const spy = jest.spyOn(Share, 'share').mockResolvedValue({ action: 'sharedAction' } as never);
+
+  const { getByText } = await renderPerfil(new MemoryProgressStore());
+  await waitFor(() => {
+    expect(getByText('Exportar dados de uso')).toBeTruthy();
+  });
+  fireEvent.press(getByText('Exportar dados de uso'));
+
+  await waitFor(() => {
+    expect(spy).toHaveBeenCalledTimes(1);
+  });
+  const { message } = spy.mock.calls[0][0] as { message: string };
+  const dado = JSON.parse(message) as { app: string; eventos: { evento: string }[] };
+  expect(dado.app).toBe('semioguia');
+  expect(dado.eventos.map((e) => e.evento)).toEqual(['app_aberto']);
+
+  spy.mockRestore();
+  reiniciarAnalytics();
 });
 
 test('tocar "Grande" grava a preferência de fonte no store', async () => {

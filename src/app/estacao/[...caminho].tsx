@@ -11,6 +11,7 @@ import { EstacaoOsce, type ResultadoEstacao } from '../../revisao/EstacaoOsce';
 import { avaliar, criarItem, notaDeEstacao } from '../../revisao/sm2';
 import { idDeChecklist } from '../../revisao/fila';
 import { agoraIso, hojeLocal } from '../../revisao/hoje';
+import { track } from '../../analytics/analytics';
 import type { Bloco } from '../../content/schema';
 
 function TelaVazia({ mensagem }: { mensagem: string }) {
@@ -65,6 +66,9 @@ export function TelaEstacao({ topicoId, titulo }: { topicoId: string; titulo: st
     const existente = itens.find((i) => i.id === id);
     const item = existente ?? criarItem(id, 'checklist', topicoId, hoje, agora);
     const atualizado = avaliar(item, notaDeEstacao(resultado.percentual), hoje, agora);
+    // Instrumentação do beta (§4): estação avulsa concluída (a estação dentro
+    // da fila de revisão conta no `revisao_concluida`, não aqui).
+    track('osce_concluida', { topicoId, checklist: checklist!.titulo, percentual: resultado.percentual });
     await progresso.salvarItemRevisao(atualizado);
     // Spec §3.2, 4º gatilho: notifica após a conclusão da estação, com debounce.
     notificarEscrita();

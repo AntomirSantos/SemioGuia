@@ -12,6 +12,7 @@ import { useSync } from '../../sync/orquestrador';
 import { BotaoPrincipal } from '../../quiz/PerguntaCard';
 import { avancar, decidir, desfechoAtual, iniciar, nota, noAtual, type EstadoCaso } from '../../casos/motor';
 import { CLASSE_LABEL, corDaClasse } from '../../casos/desfecho';
+import { track } from '../../analytics/analytics';
 import type { Avaliacao, Caso, No } from '../../content/casoSchema';
 
 // Fonte dos dados objetivos da cena: usa um token monoespaçado se um dia
@@ -234,6 +235,14 @@ export function TelaCasoPlayer({ caso }: { caso: Caso }) {
     if (desfecho && registradoRef.current !== estado) {
       registradoRef.current = estado;
       const n = nota(estado);
+      // Instrumentação do beta (§4): um evento por chegada a um desfecho.
+      track('caso_concluido', {
+        casoId: caso.id,
+        classe: desfecho.classe,
+        otimas: n.otimas,
+        aceitaveis: n.aceitaveis,
+        erros: n.erros,
+      });
       progresso
         .registrarConclusaoCaso({
           casoId: caso.id,

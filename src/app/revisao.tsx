@@ -16,6 +16,7 @@ import { amanha, avaliar, notaDeEstacao, notaDePergunta, type ItemRevisao, type 
 import { hojeLocal, agoraIso } from '../revisao/hoje';
 import { EstacaoOsce, type ResultadoEstacao } from '../revisao/EstacaoOsce';
 import { PerguntaCard, BotaoPrincipal } from '../quiz/PerguntaCard';
+import { track } from '../analytics/analytics';
 import type { Bloco, Conteudo, QuizPergunta } from '../content/schema';
 
 function TelaVazia({
@@ -179,6 +180,15 @@ export function TelaRevisao() {
       cancelado = true;
     };
   }, [concluida, conteudo, progresso]);
+
+  // Instrumentação do beta (§4): um evento por sessão de revisão concluída.
+  // `acertos`/`erros` são gravados no mesmo lote de estado que `concluida`,
+  // então aqui já carregam o resultado do último item.
+  useEffect(() => {
+    if (!concluida || !fila) return;
+    track('revisao_concluida', { itens: fila.itens.length, acertos, erros });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [concluida]);
 
   if (fila === null) {
     return null;

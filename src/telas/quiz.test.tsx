@@ -6,6 +6,8 @@ import { MemoryProgressStore } from '../progress/memoryStore';
 import { TelaQuiz } from '../app/quiz/[...caminho]';
 import { TelaEstudar } from '../app/(tabs)/estudar';
 import { router } from 'expo-router';
+import { aguardarAnalytics, configurarAnalytics, reiniciarAnalytics } from '../analytics/analytics';
+import { MemoryEventosStore } from '../analytics/memoryEventos';
 import type { ItemRevisao } from '../revisao/sm2';
 
 jest.mock('expo-router', () => {
@@ -119,6 +121,35 @@ test('responder as 5 perguntas do quiz de PA leva ao resultado e persiste as res
   expect(pa1?.tipo).toBe('pergunta');
   expect(pa1?.topicoId).toBe(PA_ID);
   expect(pa1?.repeticoes).toBe(1);
+});
+
+test('concluir o quiz emite um único evento quiz_concluido com o placar', async () => {
+  const eventos = new MemoryEventosStore();
+  configurarAnalytics({ store: eventos });
+  const { getByText } = await renderQuiz(new MemoryProgressStore());
+
+  await waitFor(() => {
+    expect(getByText('1 de 5')).toBeTruthy();
+  });
+  for (let i = 0; i < PRIMEIRAS_ALTERNATIVAS.length; i++) {
+    const ultima = i === PRIMEIRAS_ALTERNATIVAS.length - 1;
+    await fireEvent.press(getByText(PRIMEIRAS_ALTERNATIVAS[i]));
+    await waitFor(() => {
+      expect(getByText(ultima ? 'Ver resultado' : 'Próxima')).toBeTruthy();
+    });
+    await fireEvent.press(getByText(ultima ? 'Ver resultado' : 'Próxima'));
+  }
+  await waitFor(() => {
+    expect(getByText('Resultado')).toBeTruthy();
+  });
+  await aguardarAnalytics();
+
+  const registrados = await eventos.listar();
+  const concluidos = registrados.filter((e) => e.evento === 'quiz_concluido');
+  expect(concluidos).toHaveLength(1);
+  expect(concluidos[0].propriedades).toEqual({ topicoId: PA_ID, acertos: 3, total: 5, percentual: 60 });
+
+  reiniciarAnalytics();
 });
 
 test('tópico inexistente mostra estado vazio amigável', async () => {

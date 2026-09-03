@@ -17,6 +17,7 @@ import { useSync } from '../../sync/orquestrador';
 import { BlocoView } from '../../blocos/Bloco';
 import { semearTopico } from '../../revisao/fila';
 import { agoraIso, hojeLocal } from '../../revisao/hoje';
+import { track } from '../../analytics/analytics';
 import type { Bloco, QuizPergunta, Topico } from '../../content/schema';
 
 function TelaNaoEncontrada() {
@@ -184,6 +185,8 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
   // formato existente de `prefs`). Só grava quando o tópico existe de fato.
   useEffect(() => {
     if (!topico) return;
+    // Instrumentação do beta (§4): um evento por abertura de tópico.
+    track('topico_aberto', { topicoId });
     // Blindagem (revisão de fase A6): `prefs.valor` tem teto de 100
     // caracteres no firestore.rules; o `topicoId` mais longo hoje tem 71,
     // mas gravar algo acima do teto faria o Firestore rejeitar o
