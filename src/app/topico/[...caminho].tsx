@@ -18,6 +18,7 @@ import { BlocoView } from '../../blocos/Bloco';
 import { semearTopico } from '../../revisao/fila';
 import { agoraIso, hojeLocal } from '../../revisao/hoje';
 import { track } from '../../analytics/analytics';
+import { FolhaFeedback } from '../../feedback/FolhaFeedback';
 import type { Bloco, QuizPergunta, Topico } from '../../content/schema';
 
 function TelaNaoEncontrada() {
@@ -123,6 +124,7 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
   const [estudado, setEstudado] = useState(false);
   const [favorito, setFavorito] = useState(false);
   const [secaoAtiva, setSecaoAtiva] = useState(0);
+  const [feedbackAberto, setFeedbackAberto] = useState(false);
   const scrollRef = useRef<ScrollView>(null);
   const reduzidoMovimento = useReducedMotion();
 
@@ -374,8 +376,27 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
               {referencia}
             </Text>
           ))}
+          {/* Feedback in-app (beta §9.5): a folha inclui o tópico atual. */}
+          <Pressable
+            accessibilityRole="button"
+            onPress={() => setFeedbackAberto(true)}
+            style={{
+              minHeight: 44,
+              alignSelf: 'flex-start',
+              justifyContent: 'center',
+              paddingHorizontal: espaco.l,
+              borderRadius: raio.m,
+              backgroundColor: paleta.superficie2,
+              marginTop: espaco.m,
+            }}
+          >
+            <Text style={{ fontFamily: fonte.corpoBold, fontSize: Math.round(tipo.corpo * escala), color: paleta.acentoTinta }}>
+              Dar feedback
+            </Text>
+          </Pressable>
         </View>
       ) : null}
+      <FolhaFeedback visivel={feedbackAberto} aoFechar={() => setFeedbackAberto(false)} topicoId={topicoId} />
     </Tela>
   );
 }

@@ -16,6 +16,7 @@ import { BlocoConta } from '../../conta/BlocoConta';
 import { exportarEventos } from '../../analytics/analytics';
 import { compartilharJson } from '../../analytics/compartilhar';
 import { analisarDataProva, formatarDataProva } from '../../plano/plano';
+import { FolhaFeedback } from '../../feedback/FolhaFeedback';
 
 const AVISO_LEGAL = 'Material educacional. Não substitui o julgamento clínico.';
 
@@ -194,6 +195,7 @@ export function TelaPerfil() {
   const [editouProva, setEditouProva] = useState(false);
   const [erroProva, setErroProva] = useState(false);
   const [provaSalva, setProvaSalva] = useState(false);
+  const [feedbackAberto, setFeedbackAberto] = useState(false);
   useEffect(() => {
     if (!editouProva && typeof dataProvaGravada === 'string' && dataProvaGravada) {
       setEntradaProva(formatarDataProva(dataProvaGravada));
@@ -346,11 +348,28 @@ export function TelaPerfil() {
             Exportar dados de uso
           </Text>
         </Pressable>
-        <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2 }}>
+        <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2, marginBottom: espaco.m }}>
           Gera um arquivo JSON com os eventos de uso anônimos deste aparelho. Nada é enviado
           automaticamente.
         </Text>
+        <Pressable
+          accessibilityRole="button"
+          onPress={() => setFeedbackAberto(true)}
+          style={{
+            minHeight: 44,
+            alignSelf: 'flex-start',
+            justifyContent: 'center',
+            paddingHorizontal: espaco.l,
+            borderRadius: raio.m,
+            backgroundColor: paleta.superficie2,
+          }}
+        >
+          <Text style={{ fontFamily: fonte.corpoBold, fontSize: Math.round(tipo.corpo * escala), color: paleta.acentoTinta }}>
+            Dar feedback
+          </Text>
+        </Pressable>
       </View>
+      <FolhaFeedback visivel={feedbackAberto} aoFechar={() => setFeedbackAberto(false)} />
 
       <RotuloSecao>Bibliografia</RotuloSecao>
       <View style={{ marginBottom: espaco.l }}>
