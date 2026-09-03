@@ -302,7 +302,7 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
             }}
           >
             <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.tag, color: paleta.perolaTexto }}>
-              revisão pendente
+              Em revisão pelo autor
             </Text>
           </View>
         ) : null}

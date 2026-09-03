@@ -1,4 +1,4 @@
-import { carregarConteudo, listarCasos, listarSistemas, obterCaso, obterTopico } from './store';
+import { carregarConteudo, listarCasos, listarSistemas, obterCaso, obterTopico, sistemaRevisado } from './store';
 import type { Caso } from './casoSchema';
 
 const casoBase: Caso = {
@@ -70,4 +70,28 @@ test('conteúdo sem casos usa default []', () => {
   const { casos, ...semCasos } = dados;
   const c = carregarConteudo(semCasos);
   expect(listarCasos(c)).toEqual([]);
+});
+
+test('sistemaRevisado: true só quando todos os tópicos estão aprovados (e há tópicos)', () => {
+  const c = carregarConteudo(dados);
+  const sistemaA = c.sistemas.find((s) => s.id === 'a')!;
+  const sistemaB = c.sistemas.find((s) => s.id === 'b')!;
+  expect(sistemaRevisado(sistemaA)).toBe(false); // t1 pendente
+  expect(sistemaRevisado(sistemaB)).toBe(false); // sem tópicos ainda não conta
+
+  const aprovado = carregarConteudo({
+    ...dados,
+    sistemas: dados.sistemas.map((s) =>
+      s.id === 'a'
+        ? {
+            ...s,
+            capitulos: s.capitulos.map((k) => ({
+              ...k,
+              topicos: k.topicos.map((t) => ({ ...t, revisao: 'ok' })), // atalho do autor
+            })),
+          }
+        : s,
+    ),
+  });
+  expect(sistemaRevisado(aprovado.sistemas.find((s) => s.id === 'a')!)).toBe(true);
 });

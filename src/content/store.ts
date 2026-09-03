@@ -28,3 +28,14 @@ export function listarCasos(c: Conteudo): Caso[] {
 export function obterCaso(c: Conteudo, casoId: string): Caso | undefined {
   return c.casos.find((caso) => caso.id === casoId);
 }
+
+/**
+ * Um sistema conta como revisado quando TODOS os seus tópicos passaram pela
+ * revisão do autor (`revisao: 'aprovada'`; 'ok' no frontmatter é normalizado
+ * para 'aprovada' pelo schema). Beta §9.4: a home ordena revisados primeiro
+ * com o marcador "Revisado".
+ */
+export function sistemaRevisado(s: Sistema): boolean {
+  const topicos = s.capitulos.flatMap((k) => k.topicos);
+  return topicos.length > 0 && topicos.every((t) => t.revisao === 'aprovada');
+}

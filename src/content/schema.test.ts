@@ -17,6 +17,15 @@ test('rejeita quiz com corretaIndex fora do intervalo', () => {
   ).toThrow();
 });
 
+test("normaliza `revisao: 'ok'` (atalho do autor no frontmatter) para 'aprovada'", () => {
+  const topico = topicoSchema.parse({
+    id: 's/c/t', titulo: 'T', sistemaId: 's', capituloId: 'c', ordem: 1,
+    tags: [], referencias: ['Obra X — cap. 1'], revisao: 'ok',
+    blocos: [{ tipo: 'conceito', texto: 'x' }],
+  });
+  expect(topico.revisao).toBe('aprovada');
+});
+
 test('rejeita topico sem referencias', () => {
   expect(() =>
     topicoSchema.parse({

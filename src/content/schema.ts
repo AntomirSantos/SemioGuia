@@ -48,7 +48,10 @@ export const topicoSchema = z.object({
   ordem: z.number().int().positive(),
   tags: z.array(z.string()),
   referencias: z.array(z.string().min(1)).min(1),
-  revisao: z.enum(['pendente', 'aprovada']),
+  // 'ok' é o atalho que o autor usa no frontmatter durante a revisão do beta
+  // (checklist §10 do plano) — normalizado para 'aprovada' na compilação,
+  // então o app só conhece dois estados.
+  revisao: z.preprocess((v) => (v === 'ok' ? 'aprovada' : v), z.enum(['pendente', 'aprovada'])),
   blocos: z.array(blocoSchema).min(1),
 });
 

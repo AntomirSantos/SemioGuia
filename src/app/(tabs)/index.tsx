@@ -8,7 +8,7 @@ import { EntradaEmLista, Pressionavel } from '../../design/movimento';
 import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, tipo } from '../../design/tokens';
 import { useConteudo } from '../../content/ContentContext';
-import { listarSistemas, listarTodosTopicos, obterSistema, obterTopico } from '../../content/store';
+import { listarSistemas, listarTodosTopicos, obterSistema, obterTopico, sistemaRevisado } from '../../content/store';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import { montarFila } from '../../revisao/fila';
@@ -50,7 +50,7 @@ function BarraProgressoSistema({ estudados, total, cor }: { estudados: number; t
 // Linha editorial de sistema (identidade R2): barra de cor 8×34 como único
 // canal da cor do sistema + nome em Bodoni + meta em Public Sans + chevron,
 // separadas por hairline — sem ícone-badge, sem wash de fundo, sem sombra.
-function LinhaSistema({ sistema, estudados }: { sistema: Sistema; estudados: number }) {
+function LinhaSistema({ sistema, estudados, revisado }: { sistema: Sistema; estudados: number; revisado: boolean }) {
   const { paleta, escala } = useTema();
   const totalTopicos = contarTopicos(sistema);
   return (
@@ -78,16 +78,32 @@ function LinhaSistema({ sistema, estudados }: { sistema: Sistema; estudados: num
         >
           {sistema.titulo}
         </Text>
-        <Text
-          style={{
-            fontFamily: fonte.corpo,
-            fontSize: Math.round(12 * escala),
-            color: paleta.tinta2,
-            marginTop: 2,
-          }}
-        >
-          {estudados} de {totalTopicos} {totalTopicos === 1 ? 'tópico' : 'tópicos'}
-        </Text>
+        <View style={{ flexDirection: 'row', alignItems: 'baseline', marginTop: 2 }}>
+          <Text
+            style={{
+              fontFamily: fonte.corpo,
+              fontSize: Math.round(12 * escala),
+              color: paleta.tinta2,
+            }}
+          >
+            {estudados} de {totalTopicos} {totalTopicos === 1 ? 'tópico' : 'tópicos'}
+          </Text>
+          {/* Beta §9.4: marcador dos sistemas já revisados pelo autor. */}
+          {revisado ? (
+            <Text
+              style={{
+                fontFamily: fonte.corpoBold,
+                fontSize: Math.round(11 * escala),
+                letterSpacing: 0.8,
+                textTransform: 'uppercase',
+                color: paleta.acentoTinta,
+                marginLeft: espaco.s,
+              }}
+            >
+              Revisado
+            </Text>
+          ) : null}
+        </View>
         <BarraProgressoSistema estudados={estudados} total={totalTopicos} cor={sistema.cor} />
       </View>
       <ChevronRight size={18} color={paleta.tinta2} style={{ marginLeft: espaco.s }} />
@@ -211,7 +227,11 @@ function useUltimoTopico(conteudo: Conteudo): { topico: Topico; sistema: Sistema
 export default function Guia() {
   const { paleta, escala } = useTema();
   const conteudo = useConteudo();
-  const sistemas = listarSistemas(conteudo);
+  // Beta §9.4: sistemas já revisados pelo autor vêm primeiro (sort estável
+  // preserva a ordem craniocaudal dentro de cada grupo).
+  const sistemas = [...listarSistemas(conteudo)].sort(
+    (a, b) => Number(sistemaRevisado(b)) - Number(sistemaRevisado(a)),
+  );
   const progresso = useProgresso();
 
   const carregarEstudados = useCallback(async () => new Set(await progresso.listarEstudados()), [progresso]);
@@ -271,7 +291,7 @@ export default function Guia() {
           const estudadosCount = topicosDoSistema.filter((t) => estudados.has(t.id)).length;
           return (
             <EntradaEmLista key={sistema.id} indice={indice}>
-              <LinhaSistema sistema={sistema} estudados={estudadosCount} />
+              <LinhaSistema sistema={sistema} estudados={estudadosCount} revisado={sistemaRevisado(sistema)} />
             </EntradaEmLista>
           );
         })}
