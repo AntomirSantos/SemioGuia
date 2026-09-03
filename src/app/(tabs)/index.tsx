@@ -16,6 +16,7 @@ import { idsValidosDoConteudo } from '../../revisao/idsValidos';
 import { hojeLocal } from '../../revisao/hoje';
 import { montarPlanoDoDia, textoDiasAteProva } from '../../plano/plano';
 import { AvisoInstalarPwa } from '../../pwa/AvisoInstalarPwa';
+import { CartaoOQueMudou } from '../../versao/CartaoOQueMudou';
 import type { Conteudo, Sistema, Topico } from '../../content/schema';
 
 function contarTopicos(sistema: Sistema): number {
@@ -277,6 +278,7 @@ export default function Guia() {
       </Text>
       <Rotulo texto={kicker} cor={paleta.tinta2} style={{ letterSpacing: 1.6, fontSize: 10.5, marginTop: 3, marginBottom: espaco.xl }} />
       <AvisoInstalarPwa />
+      <CartaoOQueMudou />
       {plano ? (
         <CartaoPlano
           dataProva={plano.dataProva}

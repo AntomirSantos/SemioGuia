@@ -62,7 +62,8 @@
     "typecheck": "tsc --noEmit",
     "build:content": "tsx scripts/build-content.ts",
     "checar:contraste": "tsx scripts/checar-contraste.ts",
-    "relatorio:beta": "tsx scripts/relatorio-beta.ts"
+    "relatorio:beta": "tsx scripts/relatorio-beta.ts",
+    "changelog": "tsx scripts/gerar-changelog.ts"
   },
   "private": true
 }

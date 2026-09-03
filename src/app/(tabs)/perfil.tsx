@@ -17,6 +17,7 @@ import { exportarEventos } from '../../analytics/analytics';
 import { compartilharJson } from '../../analytics/compartilhar';
 import { analisarDataProva, formatarDataProva } from '../../plano/plano';
 import { FolhaFeedback } from '../../feedback/FolhaFeedback';
+import { VERSAO_APP } from '../../config/versao';
 
 const AVISO_LEGAL = 'Material educacional. Não substitui o julgamento clínico.';
 
@@ -389,6 +390,16 @@ export function TelaPerfil() {
       </View>
 
       <RotuloSecao>Sobre</RotuloSecao>
+      <Text
+        style={{
+          fontFamily: fonte.corpo,
+          fontSize: Math.round(tipo.corpo * escala),
+          color: paleta.tinta,
+          marginBottom: espaco.xs,
+        }}
+      >
+        Versão do app: {VERSAO_APP}
+      </Text>
       <Text
         style={{
           fontFamily: fonte.corpo,
