@@ -1,4 +1,4 @@
-import { useCallback } from 'react';
+import { useCallback, useEffect } from 'react';
 import { ChevronRight } from 'lucide-react-native';
 import { Text, View } from 'react-native';
 import { router } from 'expo-router';
@@ -11,6 +11,10 @@ import { useConteudo } from '../../content/ContentContext';
 import { listarSistemas, listarTodosTopicos, obterSistema, obterTopico } from '../../content/store';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
+import { montarFila } from '../../revisao/fila';
+import { idsValidosDoConteudo } from '../../revisao/idsValidos';
+import { hojeLocal } from '../../revisao/hoje';
+import { montarPlanoDoDia, textoDiasAteProva } from '../../plano/plano';
 import type { Conteudo, Sistema, Topico } from '../../content/schema';
 
 function contarTopicos(sistema: Sistema): number {
@@ -138,6 +142,54 @@ function CartaoContinuar({ topico, sistema }: { topico: Topico; sistema: Sistema
   );
 }
 
+// Cartão do plano até a prova (beta §9.2): aparece quando há `dataProva`
+// gravada. Mesma anatomia editorial das outras linhas; toca → revisão do dia.
+function CartaoPlano({ dataProva, paraRevisarHoje, topicosRestantes }: {
+  dataProva: string;
+  paraRevisarHoje: number;
+  topicosRestantes: number;
+}) {
+  const { paleta, escala } = useTema();
+  const plano = montarPlanoDoDia({ dataProvaIso: dataProva, hojeIso: hojeLocal(), paraRevisarHoje, topicosRestantes });
+  const linhas = [
+    `Hoje (~15 min): revisão do dia (${plano.paraRevisarHoje} ${plano.paraRevisarHoje === 1 ? 'item' : 'itens'}) · 1 tópico novo · quiz do tópico`,
+    plano.topicosPorDia !== null
+      ? `Ritmo para ver tudo: ${plano.topicosPorDia} ${plano.topicosPorDia === 1 ? 'tópico novo' : 'tópicos novos'} por dia (faltam ${plano.topicosRestantes})`
+      : null,
+  ].filter((l): l is string => l !== null);
+  return (
+    <View style={{ marginBottom: espaco.xl }}>
+      <RotuloDeSecao texto="Plano até a prova" />
+      <Pressionavel
+        accessibilityRole="button"
+        onPress={() => router.push('/revisao')}
+        style={{ paddingVertical: espaco.s, borderBottomWidth: 1, borderBottomColor: paleta.linha, minHeight: 44 }}
+      >
+        <Text
+          style={{
+            fontFamily: fonte.display,
+            fontSize: Math.round(tipo.h3 * escala),
+            lineHeight: Math.round(tipo.h3 * escala * 1.25),
+            color: paleta.tinta,
+          }}
+        >
+          {textoDiasAteProva(plano.diasRestantes)}
+        </Text>
+        {plano.diasRestantes >= 0
+          ? linhas.map((linha) => (
+              <Text
+                key={linha}
+                style={{ fontFamily: fonte.corpo, fontSize: Math.round(12 * escala), color: paleta.tinta2, marginTop: 2 }}
+              >
+                {linha}
+              </Text>
+            ))
+          : null}
+      </Pressionavel>
+    </View>
+  );
+}
+
 function useUltimoTopico(conteudo: Conteudo): { topico: Topico; sistema: Sistema } | null | undefined {
   const progresso = useProgresso();
   const carregar = useCallback(async () => {
@@ -162,6 +214,24 @@ export default function Guia() {
   const estudados = useDadosAoFocar(carregarEstudados) ?? new Set<string>();
   const ultimo = useUltimoTopico(conteudo);
 
+  // Gate de onboarding (beta §9.2): enquanto a preferência não existe (null),
+  // o primeiro uso vai para /onboarding. `undefined` = ainda carregando.
+  const carregarOnboarding = useCallback(() => progresso.obterPreferencia('onboarding'), [progresso]);
+  const onboarding = useDadosAoFocar(carregarOnboarding);
+  useEffect(() => {
+    if (onboarding === null) router.replace('/onboarding');
+  }, [onboarding]);
+
+  // Plano até a prova: dataProva + fila de revisão vencida hoje.
+  const carregarPlano = useCallback(async () => {
+    const dataProva = await progresso.obterPreferencia('dataProva');
+    if (!dataProva) return null;
+    const itens = await progresso.listarItensRevisao();
+    const paraRevisarHoje = montarFila(itens, idsValidosDoConteudo(conteudo), hojeLocal()).itens.length;
+    return { dataProva, paraRevisarHoje };
+  }, [progresso, conteudo]);
+  const plano = useDadosAoFocar(carregarPlano);
+
   // Kicker do masthead derivado do conteúdo real — nunca hardcode.
   const totalTopicos = listarTodosTopicos(conteudo).length;
   const kicker = `${sistemas.length} sistemas · ${totalTopicos} tópicos`;
@@ -179,6 +249,13 @@ export default function Guia() {
         SemioGuia
       </Text>
       <Rotulo texto={kicker} cor={paleta.tinta2} style={{ letterSpacing: 1.6, fontSize: 10.5, marginTop: 3, marginBottom: espaco.xl }} />
+      {plano ? (
+        <CartaoPlano
+          dataProva={plano.dataProva}
+          paraRevisarHoje={plano.paraRevisarHoje}
+          topicosRestantes={totalTopicos - estudados.size}
+        />
+      ) : null}
       {ultimo ? <CartaoContinuar topico={ultimo.topico} sistema={ultimo.sistema} /> : null}
       <RotuloDeSecao texto="Sistemas" />
       <View>

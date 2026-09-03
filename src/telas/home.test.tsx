@@ -5,11 +5,12 @@ import { ContentProvider } from '../content/ContentContext';
 import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
 import Guia from '../app/(tabs)/index';
+import { hojeLocal } from '../revisao/hoje';
 
 jest.mock('expo-router', () => {
   const { useEffect } = require('react');
   return {
-    router: { push: jest.fn(), back: jest.fn() },
+    router: { push: jest.fn(), back: jest.fn(), replace: jest.fn() },
     // useFocusEffect fora de um navegador lançaria; roda o efeito ao montar,
     // como uma tela recém-focada (mesmo mock de perfil.test.tsx).
     useFocusEffect: (efeito: () => void | (() => void)) => useEffect(efeito, [efeito]),
@@ -95,6 +96,55 @@ test('com "ultimoTopico" salvo, mostra o cartão e navega para o tópico ao toca
   fireEvent.press(getByText('Pressão arterial'));
 
   expect(router.push).toHaveBeenCalledWith(`/topico/${PA_ID}`);
+});
+
+test('sem a preferência de onboarding, redireciona para /onboarding', async () => {
+  (router.replace as jest.Mock).mockClear();
+  await renderHome(new MemoryProgressStore());
+  await waitFor(() => {
+    expect(router.replace).toHaveBeenCalledWith('/onboarding');
+  });
+});
+
+test('com onboarding concluído, não redireciona', async () => {
+  (router.replace as jest.Mock).mockClear();
+  const store = new MemoryProgressStore();
+  await store.definirPreferencia('onboarding', 'concluido');
+  const { getByText } = await renderHome(store);
+  await waitFor(() => {
+    expect(getByText('SemioGuia')).toBeTruthy();
+  });
+  expect(router.replace).not.toHaveBeenCalled();
+});
+
+test('com dataProva salva, mostra o cartão "Plano até a prova" com os dias restantes', async () => {
+  const store = new MemoryProgressStore();
+  await store.definirPreferencia('onboarding', 'concluido');
+  // 10 dias no futuro, no mesmo formato ISO local de hojeLocal().
+  const DIA = 24 * 60 * 60 * 1000;
+  const dataProva = new Date(Date.parse(hojeLocal()) + 10 * DIA).toISOString().slice(0, 10);
+  await store.definirPreferencia('dataProva', dataProva);
+
+  const { getByText } = await renderHome(store);
+
+  await waitFor(() => {
+    expect(getByText('Plano até a prova')).toBeTruthy();
+  });
+  expect(getByText('Faltam 10 dias para a prova')).toBeTruthy();
+  expect(getByText(/Hoje \(~15 min\): revisão do dia/)).toBeTruthy();
+
+  fireEvent.press(getByText('Faltam 10 dias para a prova'));
+  expect(router.push).toHaveBeenCalledWith('/revisao');
+});
+
+test('sem dataProva, não mostra o cartão do plano', async () => {
+  const store = new MemoryProgressStore();
+  await store.definirPreferencia('onboarding', 'concluido');
+  const { queryByText, getByText } = await renderHome(store);
+  await waitFor(() => {
+    expect(getByText('SemioGuia')).toBeTruthy();
+  });
+  expect(queryByText('Plano até a prova')).toBeNull();
 });
 
 test('"ultimoTopico" apontando para um id inexistente não quebra a tela nem mostra o cartão', async () => {

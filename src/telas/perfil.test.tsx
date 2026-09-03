@@ -138,6 +138,29 @@ test('tocar "Escuro" grava a preferência de tema no store', async () => {
   expect(spy).toHaveBeenCalledWith('tema', 'escuro');
 });
 
+test('salvar uma data de prova válida grava a preferência em ISO; inválida mostra erro', async () => {
+  const store = new MemoryProgressStore();
+  const { getByLabelText, getByText } = await renderPerfil(store);
+
+  await waitFor(() => {
+    expect(getByLabelText('Data da prova')).toBeTruthy();
+  });
+  await fireEvent.changeText(getByLabelText('Data da prova'), '07/10/2026');
+  await fireEvent.press(getByText('Salvar'));
+
+  await waitFor(() => {
+    expect(getByText('Data da prova salva.')).toBeTruthy();
+  });
+  expect(await store.obterPreferencia('dataProva')).toBe('2026-10-07');
+
+  await fireEvent.changeText(getByLabelText('Data da prova'), '99/99/9999');
+  await fireEvent.press(getByText('Salvar'));
+  await waitFor(() => {
+    expect(getByText('Data inválida — use o formato DD/MM/AAAA.')).toBeTruthy();
+  });
+  expect(await store.obterPreferencia('dataProva')).toBe('2026-10-07');
+});
+
 test('tocar "Exportar dados de uso" compartilha o JSON com os eventos do aparelho', async () => {
   configurarAnalytics({ store: new MemoryEventosStore() });
   track('app_aberto');

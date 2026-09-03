@@ -1,5 +1,5 @@
-import { useCallback } from 'react';
-import { Pressable, Text, View } from 'react-native';
+import { useCallback, useEffect, useState } from 'react';
+import { Pressable, Text, TextInput, View } from 'react-native';
 import { Tela } from '../../design/Tela';
 import { useTema, type EscalaFonte, type PreferenciaTema } from '../../design/ThemeContext';
 import { Rotulo, RotuloDeSecao } from '../../design/Rotulo';
@@ -15,6 +15,7 @@ import { hojeLocal } from '../../revisao/hoje';
 import { BlocoConta } from '../../conta/BlocoConta';
 import { exportarEventos } from '../../analytics/analytics';
 import { compartilharJson } from '../../analytics/compartilhar';
+import { analisarDataProva, formatarDataProva } from '../../plano/plano';
 
 const AVISO_LEGAL = 'Material educacional. Não substitui o julgamento clínico.';
 
@@ -184,6 +185,37 @@ export function TelaPerfil() {
     progresso.definirPreferencia('fonte', valor).catch(() => {}).finally(() => notificarEscrita());
   }
 
+  // Data da prova (beta §9.2): mesma preferência gravada pelo onboarding;
+  // aqui ela é editável a qualquer momento. Entrada em DD/MM/AAAA; salvar
+  // vazio limpa a data (o cartão do plano some da home).
+  const carregarDataProva = useCallback(() => progresso.obterPreferencia('dataProva'), [progresso]);
+  const dataProvaGravada = useDadosAoFocar(carregarDataProva);
+  const [entradaProva, setEntradaProva] = useState('');
+  const [editouProva, setEditouProva] = useState(false);
+  const [erroProva, setErroProva] = useState(false);
+  const [provaSalva, setProvaSalva] = useState(false);
+  useEffect(() => {
+    if (!editouProva && typeof dataProvaGravada === 'string' && dataProvaGravada) {
+      setEntradaProva(formatarDataProva(dataProvaGravada));
+    }
+  }, [dataProvaGravada, editouProva]);
+
+  function salvarDataProva() {
+    const bruto = entradaProva.trim();
+    const iso = bruto ? analisarDataProva(bruto) : '';
+    if (iso === null) {
+      setErroProva(true);
+      setProvaSalva(false);
+      return;
+    }
+    setErroProva(false);
+    progresso
+      .definirPreferencia('dataProva', iso)
+      .then(() => setProvaSalva(true))
+      .catch(() => {})
+      .finally(() => notificarEscrita());
+  }
+
   // Beta §4: os eventos de uso ficam no aparelho; este botão gera o JSON e
   // abre a folha de compartilhamento (ou baixa o arquivo, na web sem
   // Web Share API). Falhas — incluindo o cancelamento da folha — são
@@ -226,6 +258,63 @@ export function TelaPerfil() {
         <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta }}>
           Itens em dia: {revisao.emDia}
         </Text>
+      </View>
+
+      <RotuloSecao>Prova</RotuloSecao>
+      <View style={{ marginBottom: espaco.l }}>
+        <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2, marginBottom: espaco.xs }}>
+          Com a data da prova, a home mostra os dias restantes e o ritmo de estudo. Deixe vazio
+          para remover.
+        </Text>
+        <View style={{ flexDirection: 'row', gap: espaco.s }}>
+          <TextInput
+            value={entradaProva}
+            onChangeText={(t) => {
+              setEntradaProva(t);
+              setEditouProva(true);
+              setErroProva(false);
+              setProvaSalva(false);
+            }}
+            placeholder="DD/MM/AAAA"
+            placeholderTextColor={paleta.tinta2}
+            accessibilityLabel="Data da prova"
+            style={{
+              flex: 1,
+              minHeight: 44,
+              borderRadius: raio.m,
+              backgroundColor: paleta.superficie2,
+              paddingHorizontal: espaco.m,
+              fontFamily: fonte.corpo,
+              fontSize: Math.round(tipo.corpo * escala),
+              color: paleta.tinta,
+            }}
+          />
+          <Pressable
+            accessibilityRole="button"
+            onPress={salvarDataProva}
+            style={{
+              minHeight: 44,
+              justifyContent: 'center',
+              paddingHorizontal: espaco.l,
+              borderRadius: raio.m,
+              backgroundColor: paleta.superficie2,
+            }}
+          >
+            <Text style={{ fontFamily: fonte.corpoBold, fontSize: Math.round(tipo.corpo * escala), color: paleta.acentoTinta }}>
+              Salvar
+            </Text>
+          </Pressable>
+        </View>
+        {erroProva ? (
+          <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.acentoTinta, marginTop: espaco.xs }}>
+            Data inválida — use o formato DD/MM/AAAA.
+          </Text>
+        ) : null}
+        {provaSalva ? (
+          <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2, marginTop: espaco.xs }}>
+            Data da prova salva.
+          </Text>
+        ) : null}
       </View>
 
       <BlocoConta />
