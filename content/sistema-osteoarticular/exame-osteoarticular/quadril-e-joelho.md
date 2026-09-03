@@ -311,7 +311,7 @@ texto: |
   - **No oco poplíteo**, com aumento de volume generalizado — **cisto de Baker**, que a Tabela 57.2 define como a **bursa semimembranosa** aumentada, comunicante com a articulação do joelho — no capítulo venoso, ao tratá-lo como imitador da trombose, o mesmo autor a chama de bursa gastrocnêmio-semimembranosa. Semiologia Clínica o registra entre os achados da artrite reumatoide e alerta para os sintomas compressivos e para a rotura, cujo diferencial é a trombose venosa profunda. **O tópico de doença venosa crônica e trombose ensina esse diferencial**, com a equimose em crescente perto dos maléolos que denuncia a rotura, e não é repetido aqui.
   - **Apreensão ao deslocar a patela lateralmente** — McGee: **luxação recorrente da patela**.
 
-  **E as amplitudes, que também divergem.** Porto, no *Exame Clínico*: flexão **0° a 120°**, extensão **0° ou 180°**. Porto, na *Semiologia Médica*: flexão **30°** — valor que não se compatibiliza com o da outra obra do mesmo autor, e o guia registra a discrepância sem escolher. McGee: **130°**. Semiologia Clínica não tabula graus e oferece o limite da hiperextensão, **10 graus**. Duas cifras de flexão vão reaparecer com significado próprio: **120 graus** e **90 graus**.
+  **E as amplitudes, que também divergem.** O guia adota a flexão normal de **130°**, o valor de McGee. Porto, no *Exame Clínico*, traz **0° a 120°** (extensão **0° ou 180°**); na *Semiologia Médica*, o mesmo autor imprime **30°** — valor incompatível com a própria obra irmã, registrado aqui como provável erro tipográfico da fonte. Semiologia Clínica não tabula graus e oferece o limite da hiperextensão, **10 graus**. Duas cifras de flexão vão reaparecer com significado próprio: **120 graus** e **90 graus**.
 :::
 
 ::: conceito

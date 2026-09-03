@@ -5,7 +5,7 @@ Gerado por `npm run revisao:status` em 2026-09-03. Não edite à mão.
 ## Resumo
 
 - Tópicos: **55** · aprovados: **8** · pendentes: **47**
-- Itens do checklist: **81 abertos** de 86
+- Itens do checklist: **71 abertos** de 86
 
 ## Pendências de reescrita (plano de beta, semana 1)
 
@@ -83,7 +83,7 @@ Itens do checklist abertos desta fase: **J1**, **J2**, **J3**, **J4**, **J5**, *
 - [ ] Quadril e joelho (`sistema-osteoarticular/exame-osteoarticular/quadril-e-joelho`)
 - [ ] Tornozelo, pé e padrões articulares (`sistema-osteoarticular/exame-osteoarticular/tornozelo-pe-e-padroes-articulares`)
 
-Itens do checklist abertos desta fase: **K1**, **K2**, **K3**, **K4**, **K5**, **K6**, **K7**
+Itens do checklist abertos desta fase: **K1**, **K2**, **K3**, **K5**, **K6**, **K7**
 
 ### Mamas e geniturinário — 0/5 aprovados
 
@@ -113,7 +113,7 @@ Itens do checklist abertos desta fase: **I1**, **I2**, **I3**, **I4**
 - [ ] Escalas cognitivas à beira do leito (`exame-psiquico/exame-psiquico/escalas-cognitivas-a-beira-do-leito`)
 - [ ] Delirium, demência e depressão (`exame-psiquico/exame-psiquico/delirium-demencia-e-depressao`)
 
-Itens do checklist abertos desta fase: **N1**, **N2**, **N3**, **N4**, **N5**, **N6**, **N7**, **N8**
+Itens do checklist abertos desta fase: **N1**, **N2**, **N3**, **N4**, **N5**, **N6**, **N7**
 
 ### Semiologia da criança — 0/3 aprovados
 
@@ -126,21 +126,13 @@ Itens do checklist abertos desta fase: **O1**, **O2**, **O3**, **O4**, **O5**, *
 ## Itens globais abertos (divergências e convenções sem sistema único)
 
 - **A1** · Ictus do longilíneo _(A. Divergências entre as referências (o app escolheu um lado))_
-- **A2** · Palpabilidade do ictus _(A. Divergências entre as referências (o app escolheu um lado))_
-- **A3** · Método de Lewis _(A. Divergências entre as referências (o app escolheu um lado))_
-- **A4** · Descenso y no derrame pericárdico _(A. Divergências entre as referências (o app escolheu um lado))_
 - **A5** · Foco aórtico acessório _(A. Divergências entre as referências (o app escolheu um lado))_
 - **A6** · Som broncovesicular _(A. Divergências entre as referências (o app escolheu um lado))_
 - **A7** · Percussão do pneumotórax _(A. Divergências entre as referências (o app escolheu um lado))_
-- **A8** · Mobilidade diafragmática à percussão _(A. Divergências entre as referências (o app escolheu um lado))_
-- **A9** · Profundidade alcançada pelo golpe de percussão _(A. Divergências entre as referências (o app escolheu um lado))_
 - **A10** · Limite superior da macicez hepática _(A. Divergências entre as referências (o app escolheu um lado))_
 - **A11** · Estertores finos e mudança de posição _(A. Divergências entre as referências (o app escolheu um lado))_
-- **A12** · Limiar de cianose _(A. Divergências entre as referências (o app escolheu um lado))_
 - **A13** · Frêmito na congestão passiva _(A. Divergências entre as referências (o app escolheu um lado))_
-- **A14** · Mecanismo da transmissão do frêmito/ressonância vocal _(A. Divergências entre as referências (o app escolheu um lado))_
 - **B1** · Duas escalas de intensidade de sopro _(B. Convenções internas do app (escolhas a confirmar))_
-- **B2** · Taxonomia da impulsão apical _(B. Convenções internas do app (escolhas a confirmar))_
 - **B3** · Ângulo de Charpy qualitativo _(B. Convenções internas do app (escolhas a confirmar))_
 - **B4** · Política geral para divergências _(B. Convenções internas do app (escolhas a confirmar))_
 - **B5** · Atribuições menores do capítulo respiratório _(B. Convenções internas do app (escolhas a confirmar))_

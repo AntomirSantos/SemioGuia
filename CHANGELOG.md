@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog` — edite lá.
 
+## 1.1.2 — 2026-09-03
+
+- Regra editorial do autor: em conflito direto entre fontes, prevalece McGee
+- Joelho passa a adotar flexão normal de 130°; relógio de Wolf-Klein sem ajuste por escolaridade
+- Dez divergências do checklist fechadas com a posição contrária mantida e atribuída
+
 ## 1.1.1 — 2026-09-03
 
 - Cardiovascular e respiratório revisados: selo "Em revisão" removido e marcador "Revisado" na home

@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.1.2',
+    data: '2026-09-03',
+    linhas: [
+      'Regra editorial do autor: em conflito direto entre fontes, prevalece McGee',
+      'Joelho passa a adotar flexão normal de 130°; relógio de Wolf-Klein sem ajuste por escolaridade',
+      'Dez divergências do checklist fechadas com a posição contrária mantida e atribuída',
+    ],
+  },
+  {
     versao: '1.1.1',
     data: '2026-09-03',
     linhas: [

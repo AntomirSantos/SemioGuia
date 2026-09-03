@@ -6,16 +6,24 @@ defeito técnico: as revisões independentes verificaram que a escolha atual
 está sempre ancorada — a decisão final de qual fonte prevalece é médica e
 editorial, do autor. Marque cada caixa ao revisar.
 
+**Regra editorial do autor (2026-09-03):** quando uma referência bate de
+frente com McGee, o guia escolhe McGee e a divergência conta como revisada —
+mantendo a posição contrária atribuída no texto. Aplicada aos itens A2, A3,
+A4, A8, A9, A12, A14, B2, K4 e N8 (marcados abaixo) e ao subitem (iii) do
+J3 (tempo de enchimento venoso: protocolo de McGee já era o executado).
+Conflitos Porto×Porto ou Porto×Semiologia Clínica NÃO são cobertos pela
+regra e seguem abertos.
+
 ## A. Divergências entre as referências (o app escolheu um lado)
 
 - [ ] **A1 · Ictus do longilíneo** — Porto Semiologia Médica: 6º EIC;
   Porto Exame Clínico: 5º EIC. O app adota o 6º.
-- [ ] **A2 · Palpabilidade do ictus** — Porto Exame Clínico: ~70% palpável
+- [x] **A2 · Palpabilidade do ictus** — Porto Exame Clínico: ~70% palpável
   (30% não detectado); McGee: 25–40% em decúbito dorsal, 50–73% em DLE.
   O app usa McGee e não menciona o número de Porto.
-- [ ] **A3 · Método de Lewis** — 5 cm (McGee) × 4,5 cm (Semiologia
+- [x] **A3 · Método de Lewis** — 5 cm (McGee) × 4,5 cm (Semiologia
   Clínica). O app apresenta os dois, atribuídos.
-- [ ] **A4 · Descenso y no derrame pericárdico** — Porto inclui o derrame
+- [x] **A4 · Descenso y no derrame pericárdico** — Porto inclui o derrame
   entre as causas de y profundo; McGee separa (tamponamento = y ausente).
   O app segue McGee (Tabela 36.2).
 - [ ] **A5 · Foco aórtico acessório** — 3º-4º EIC esquerdo (Porto Sem.
@@ -28,11 +36,11 @@ editorial, do autor. Marque cada caixa ao revisar.
   Semiologia Clínica) × "hipersonoridade ou timpânico" (Porto Sem. Méd.).
   O app padronizou **timpânico** (ar pleural) reservando hipersonoridade
   ao ar alveolar (enfisema), com a variante de Porto atribuída na tabela.
-- [ ] **A8 · Mobilidade diafragmática à percussão** — Porto ensina medir a
+- [x] **A8 · Mobilidade diafragmática à percussão** — Porto ensina medir a
   excursão; McGee mostra erro de 1–3 cm e correlação fraca (r 0,14–0,42).
   O app apresenta os dois e orienta "compare os lados, não registre
   número".
-- [ ] **A9 · Profundidade alcançada pelo golpe de percussão** — ~5 cm
+- [x] **A9 · Profundidade alcançada pelo golpe de percussão** — ~5 cm
   (Porto) × ceticismo de McGee (regra de Weil, 1880, evidência escassa).
   Ambos atribuídos em bloco avançado.
 - [ ] **A10 · Limite superior da macicez hepática** — 6ª–7ª costela (Porto
@@ -41,13 +49,13 @@ editorial, do autor. Marque cada caixa ao revisar.
 - [ ] **A11 · Estertores finos e mudança de posição** — "modificam-se só os
   de congestão" (Porto Sem. Méd., Quadro 36.7) × "modificam-se ou são
   abolidos" (Porto Ex. Clín., Quadro 16.4). O app adota o Quadro 36.7.
-- [ ] **A12 · Limiar de cianose** — clássico 5 g/dL (Porto; o "5%" do
+- [x] **A12 · Limiar de cianose** — clássico 5 g/dL (Porto; o "5%" do
   cap. 36 é typo comprovado pela própria obra) × 2,38 g/dL medidos
   (McGee, Tabela 9.1). O app ensina só o 2,38; considerar restaurar o
   clássico como nota rotulada, pois é o número das provas.
 - [ ] **A13 · Frêmito na congestão passiva** — normal (Semiologia Clínica,
   seguida pelo app) × normal ou aumentado (Porto).
-- [ ] **A14 · Mecanismo da transmissão do frêmito/ressonância vocal** —
+- [x] **A14 · Mecanismo da transmissão do frêmito/ressonância vocal** —
   ensino tradicional (coluna aérea do brônquio) × experimentos citados por
   McGee (condução pelo parênquima poroso). O app afirma o **achado** com
   firmeza (brônquio obstruído → frêmito reduzido) e registra o mecanismo
@@ -58,7 +66,7 @@ editorial, do autor. Marque cada caixa ao revisar.
 - [ ] **B1 · Duas escalas de intensidade de sopro** — Levine 1–6 e cruzes
   + a ++++ convivem, sempre rotuladas, com aviso de não-intercambialidade.
   Padronizar ou manter as duas?
-- [ ] **B2 · Taxonomia da impulsão apical** — spec pedia "hipercinético ×
+- [x] **B2 · Taxonomia da impulsão apical** — spec pedia "hipercinético ×
   hipocinético"; o tópico adotou normal/hipercinético/sustentado/retrátil
   (McGee). Confirmar a troca.
 - [ ] **B3 · Ângulo de Charpy qualitativo** — Porto traz os cortes (≈90°
@@ -274,7 +282,7 @@ editorial, do autor. Marque cada caixa ao revisar.
   interna do quadril <15° = 9,9 (598 pacientes) e aumento ósseo do
   joelho = 11,8 (237 pacientes, padrão = consenso de especialistas).
   Ensinadas com o contexto declarado; endossar.
-- [ ] **K4 · Provável erro tipográfico na fonte** — flexão do joelho
+- [x] **K4 · Provável erro tipográfico na fonte** — flexão do joelho
   "30°" na Semiologia Médica (cap. 160) contra 0–120° do Exame Clínico
   do mesmo autor e 130° do McGee. O guia publica a discrepância sem
   escolher. Validar no exemplar impresso.
@@ -381,7 +389,7 @@ editorial, do autor. Marque cada caixa ao revisar.
   anamnese da fonte, sem ensinar roteiro próprio ("exame que detecta
   não termina em anotação, termina em conduta"). Validar o
   enquadramento.
-- [ ] **N8 · Independência de escolaridade do teste do relógio** —
+- [x] **N8 · Independência de escolaridade do teste do relógio** —
   alegação de McGee, contestada por Porto SM (limitação <4 anos) e SC;
   as três posições lado a lado, e a recomendação prática qualificada
   "na leitura de McGee". Escolher lado ou manter.
