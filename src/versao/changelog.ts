@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.1.1',
+    data: '2026-09-03',
+    linhas: [
+      'Cardiovascular e respiratório revisados: selo "Em revisão" removido e marcador "Revisado" na home',
+      'Valores de evidência conferidos com a literatura; divergências entre fontes citadas ao lado dos números',
+      'Nada mudou de direção — os achados do guia foram confirmados',
+    ],
+  },
+  {
     versao: '1.1.0',
     data: '2026-09-03',
     linhas: [

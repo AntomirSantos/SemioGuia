@@ -46,7 +46,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 29 (Palpation and Percussion of the Chest), p. 252-259 — técnica, sons percutórios (Figura 29.1), glossário de epônimos, teoria da ressonância da caixa torácica e boxe EBM 29.2"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 51 (Palpation and Percussion of the Abdomen), p. 435 e 439 — macicez do espaço de Traube (boxe EBM 51.1)"
   - "Semiologia Clínica, 1ª ed., cap. 10 (O exame do tórax e do sistema respiratório) — Percussão (Tabela 6, sons definidos pela percussão torácica; Figura 6, técnica); sinal de Signorelli e ressonância skódica"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
@@ -219,6 +219,8 @@ texto: |
   **Hipersonoridade.** Em fumantes crônicos, é um dos achados mais úteis do exame do tórax: eleva a probabilidade de obstrução crônica ao fluxo aéreo com razão de verossimilhança 7,3, com especificidade de 94% a 98%.
 
   Resumindo em uma frase: a percussão do tórax é um bom teste para **excluir derrame pleural** e para **reforçar a suspeita de obstrução crônica**; é um teste fraco para consolidações e inútil para lesões pequenas ou profundas.
+
+  Como em toda a semiologia do tórax, os valores exatos dependem da análise que os agrega: para a macicez no derrame há estimativas de até 8,7, e para a hipersonoridade na obstrução crônica, de até 9,5 — variação de fonte, não de direção. Os números de McGee ficam como referência do guia.
 :::
 
 ::: conceito

@@ -14,18 +14,22 @@ do que as obras não cobrem declaradas ao leitor.
 
 ## Estado atual (set/2026)
 
-**O conteúdo está completo** e aguarda a passada única de revisão médica
-do autor.
+**O conteúdo está completo** e o app está em **beta de validação**
+(v1.1.x): onboarding com data da prova e plano diário, analytics local
+exportável, feedback in-app, compartilhamento de resultado OSCE e
+changelog visível. A passada única de revisão médica do autor está em
+andamento (triagem de literatura aberta de cardio + respiratório
+concluída — `docs/triagem-literatura-cardio-resp.md`).
 
 | | |
 |---|---|
 | Sistemas | **12** (Anamnese → Semiologia da criança, ordem craniocaudal) |
-| Tópicos | **55** — todos `revisao: pendente` |
+| Tópicos | **55** — 8 revisados (cardiovascular e respiratório), 47 `revisao: pendente` |
 | Casos clínicos interativos | **3** |
 | Questões de quiz | **327** (balanceadas por índice e comprimento) |
 | Checklists OSCE | **53** (viram estações de prática) |
 | Ilustrações SVG | **52** (temáveis via `currentColor`, geometria verificada) |
-| Testes | **41 suítes / 321 testes** verdes |
+| Testes | **53 suítes / 405 testes** verdes |
 
 ## Stack
 
@@ -58,14 +62,16 @@ do autor.
 - **Busca** — offline, por sinal, manobra, epônimo ou tópico
 - **Estudar** — quiz por sistema, revisão espaçada do dia (SM-2),
   estações OSCE geradas dos checklists e os 3 casos clínicos ramificados
-- **Perfil** — progresso, preferências, tema claro/escuro, conta
-  (atrás da flag de sync)
+- **Perfil** — progresso, data da prova, preferências, tema claro/escuro,
+  exportação dos dados de uso, feedback, versão do app e conta (atrás da
+  flag de sync)
 
 ## O que falta
 
-1. **Revisão médica do autor** — os 55 tópicos estão `revisao: pendente`;
-   o roteiro da revisão é `docs/inconsistencias-para-revisao.md`
-   (seções A–O: divergências entre as obras, convenções declaradas e
+1. **Revisão médica do autor** — 47 tópicos seguem `revisao: pendente`
+   (cardiovascular e respiratório já revisados, com selo "Em revisão"
+   removido no app); o roteiro da revisão é `docs/inconsistencias-para-revisao.md`
+   (seções A–P: divergências entre as obras, convenções declaradas e
    decisões editoriais a endossar) + os adendos por fase em
    `docs/verificacao-fase1b.md`.
 2. **Ativação do Firebase** — flag mestre desligada; passos em
@@ -98,7 +104,7 @@ npm install
 npm run build:content   # compila o conteúdo (YAML/MD → JSON)
 npx expo start          # i = iOS, a = Android, w = web
 
-npm test                # 41 suítes / 321 testes
+npm test                # 53 suítes / 405 testes
 npm run checar:contraste
 npx tsc --noEmit
 ```
@@ -110,7 +116,7 @@ content/            # o conteúdo (YAML de sistemas + MD por tópico + SVGs)
 src/app/            # rotas (expo-router)
 src/design/         # tokens, tipografia, movimento, componentes de bloco
 src/content/        # schema Zod + provider
-scripts/            # build de conteúdo, gate de contraste
+scripts/            # build de conteúdo, contraste, relatório do beta, revisão
 docs/               # deploy, Firebase, checklist de revisão, adendos por fase
 ```
 

@@ -4,8 +4,8 @@ Gerado por `npm run revisao:status` em 2026-09-03. Não edite à mão.
 
 ## Resumo
 
-- Tópicos: **55** · aprovados: **0** · pendentes: **55**
-- Itens do checklist: **86 abertos** de 86
+- Tópicos: **55** · aprovados: **8** · pendentes: **47**
+- Itens do checklist: **81 abertos** de 86
 
 ## Pendências de reescrita (plano de beta, semana 1)
 
@@ -42,21 +42,19 @@ Itens do checklist abertos desta fase: **E1**, **E2**, **E3**, **E4**
 
 Itens do checklist abertos desta fase: **H1**, **H2**, **H3**, **H4**
 
-### Aparelho cardiovascular — 0/4 aprovados
+### Aparelho cardiovascular — 4/4 aprovados
 
-- [ ] Inspeção e palpação do precórdio (`aparelho-cardiovascular/exame-cardiaco/inspecao-e-palpacao-do-precordio`)
-- [ ] Ausculta cardíaca (`aparelho-cardiovascular/exame-cardiaco/ausculta-cardiaca`)
-- [ ] Sopros cardíacos (`aparelho-cardiovascular/exame-cardiaco/sopros-cardiacos`)
-- [ ] Pulso venoso jugular e turgência (`aparelho-cardiovascular/exame-cardiaco/pulso-venoso-jugular-e-turgencia`)
+- [x] Inspeção e palpação do precórdio (`aparelho-cardiovascular/exame-cardiaco/inspecao-e-palpacao-do-precordio`)
+- [x] Ausculta cardíaca (`aparelho-cardiovascular/exame-cardiaco/ausculta-cardiaca`)
+- [x] Sopros cardíacos (`aparelho-cardiovascular/exame-cardiaco/sopros-cardiacos`)
+- [x] Pulso venoso jugular e turgência (`aparelho-cardiovascular/exame-cardiaco/pulso-venoso-jugular-e-turgencia`)
 
-### Aparelho respiratório — 0/4 aprovados
+### Aparelho respiratório — 4/4 aprovados
 
-- [ ] Inspeção do tórax (`aparelho-respiratorio/exame-do-torax/inspecao-do-torax`)
-- [ ] Palpação do tórax (`aparelho-respiratorio/exame-do-torax/palpacao-do-torax`)
-- [ ] Percussão do tórax (`aparelho-respiratorio/exame-do-torax/percussao-do-torax`)
-- [ ] Ausculta pulmonar (`aparelho-respiratorio/exame-do-torax/ausculta-pulmonar`)
-
-Itens do checklist abertos desta fase: **P1**, **P2**, **P3**, **P4**, **P5**
+- [x] Inspeção do tórax (`aparelho-respiratorio/exame-do-torax/inspecao-do-torax`)
+- [x] Palpação do tórax (`aparelho-respiratorio/exame-do-torax/palpacao-do-torax`)
+- [x] Percussão do tórax (`aparelho-respiratorio/exame-do-torax/percussao-do-torax`)
+- [x] Ausculta pulmonar (`aparelho-respiratorio/exame-do-torax/ausculta-pulmonar`)
 
 ### Abdome — 0/4 aprovados
 

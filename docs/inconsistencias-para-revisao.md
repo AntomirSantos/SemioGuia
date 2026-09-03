@@ -459,19 +459,31 @@ Nenhuma afirmação do guia contradisse a literatura em direção; os itens abai
 são valores que variam conforme a fonte agregadora — decidir se o guia mantém
 McGee (consistência interna) ou anota a variante.
 
-- [ ] **P1 · Diâmetro do ictus em DLE** — o guia adota ≥ 4 cm (McGee) para
+**Resolvidos em 2026-09-03 por ordem do autor ("Atualize tudo")**: P1, P2, P3
+e P5 viraram divergências atribuídas no próprio texto (variante citada ao lado
+do valor de McGee, sem trocar a referência do guia); P4 = omissão endossada,
+nenhuma mudança. Edições no commit correspondente.
+
+Na sequência, por ordem do autor ("sinalize como Em revisão os tópicos que
+ainda tiverem dúvida"), os 8 tópicos de cardiovascular e respiratório foram
+marcados `revisao: ok` — o selo sai do app e a home os mostra como
+"Revisado". As divergências entre as obras já documentadas nesses textos
+(seção A) permanecem listadas como endossos formais a colher, sem pendência
+de mudança.
+
+- [x] **P1 · Diâmetro do ictus em DLE** — o guia adota ≥ 4 cm (McGee) para
   provável VE dilatado; Eilen 1983 (Ann Intern Med) usou > 3 cm, com
   sens 92%/esp 91%. Manter 4 cm, trocar, ou citar a faixa 3–4 cm?
-- [ ] **P2 · RVs da pneumonia à ausculta** — egofonia: 4,1 (McGee) ×
+- [x] **P2 · RVs da pneumonia à ausculta** — egofonia: 4,1 (McGee) ×
   6,8 (meta-análise, n=3.245); MV diminuído: 2,2 × 2,5. Mesma direção;
   decidir se o guia registra "≈4–7" ou mantém os valores de McGee.
-- [ ] **P3 · RVs da percussão** — macicez p/ derrame: 4,8 (McGee) ×
+- [x] **P3 · RVs da percussão** — macicez p/ derrame: 4,8 (McGee) ×
   5,7–8,7 (JAMA RCE 2009); hipersonoridade p/ DPOC: 7,3 × 9,5. Mesma
   decisão do P2.
-- [ ] **P4 · Refluxo hepatojugular sem RV numérica** — o guia hoje não cita
+- [x] **P4 · Refluxo hepatojugular sem RV numérica** — o guia hoje não cita
   número, e as fontes divergem muito entre si (0,08–0,92 de RV−; 3,0–8,0 de
   RV+). Endossar a omissão como decisão editorial permanente.
-- [ ] **P5 · Ictus lateral à LHC e jugular externa** — dois achados em que
+- [x] **P5 · Ictus lateral à LHC e jugular externa** — dois achados em que
   estudos clássicos e modernos divergem de ênfase: ictus lateral à LHC é
   sensível mas inespecífico p/ volume diastólico aumentado (padrão-ouro
   muda a leitura); jugular externa é confiável na maioria dos estudos

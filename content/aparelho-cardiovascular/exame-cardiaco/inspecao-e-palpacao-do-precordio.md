@@ -37,7 +37,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 38 (Palpation of the Heart), p. 317-326"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 37 (Percussion of the Heart), p. 315-316"
   - "Semiologia Clínica, 1ª ed., cap. Semiologia cardiovascular — Inspeção e palpação torácica (Tabela 1, alterações da inspeção)"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
@@ -161,7 +161,7 @@ texto: |
 ::: conceito
 titulo: Extensão, intensidade e mobilidade
 texto: |
-  **Extensão.** Conte quantas polpas digitais recobrem o choque. Uma ou duas polpas — cerca de 2 a 3 cm — é o normal. Três ou mais sugerem hipertrofia; nas grandes dilatações, o ictus chega a ocupar toda a palma da mão. Medido em decúbito lateral esquerdo a 45°, um ictus com 4 cm ou mais aumenta a probabilidade de ventrículo esquerdo dilatado.
+  **Extensão.** Conte quantas polpas digitais recobrem o choque. Uma ou duas polpas — cerca de 2 a 3 cm — é o normal. Três ou mais sugerem hipertrofia; nas grandes dilatações, o ictus chega a ocupar toda a palma da mão. Medido em decúbito lateral esquerdo a 45°, um ictus com 4 cm ou mais aumenta a probabilidade de ventrículo esquerdo dilatado (McGee); um estudo clássico obteve bom desempenho já com o limiar de 3 cm (Eilen, 1983) — a fronteira exata varia com a fonte, a direção não.
 
   **Intensidade.** Avalia-se melhor pela palpação do que pela inspeção, com a palma apoiada sobre a área de batimentos. Varia dentro do normal: é mais forte em pessoas magras, depois de exercício, na emoção e em qualquer estado que aumente a atividade cardíaca.
 
@@ -212,7 +212,7 @@ texto: |
 
   Antes de concluir isso, exclua as causas extracardíacas de deslocamento: escoliose, tórax infundibuliforme, derrame pleural e tudo o que eleva o diafragma, como ascite e obesidade. Nesses casos o coração mudou de endereço sem ter mudado de tamanho.
 
-  Vale ainda escolher bem o ponto de referência. Entre os três clássicos, a linha hemiclavicular é o melhor: um ictus lateral a ela, em decúbito dorsal, aumenta a probabilidade de coração aumentado na radiografia e de fração de ejeção reduzida. A distância de 10 cm da linha medioesternal não discrimina bem, e a linha mamilar é a pior de todas, por não guardar relação constante com o tamanho do tórax nem com a posição do ictus.
+  Vale ainda escolher bem o ponto de referência. Entre os três clássicos, a linha hemiclavicular é o melhor: um ictus lateral a ela, em decúbito dorsal, aumenta a probabilidade de coração aumentado na radiografia e de fração de ejeção reduzida. Uma ressalva de padrão-ouro: quando o alvo é o volume diastólico medido, o mesmo achado se mostra sensível porém pouco específico — o diâmetro do ictus discrimina melhor que a posição. A distância de 10 cm da linha medioesternal não discrimina bem, e a linha mamilar é a pior de todas, por não guardar relação constante com o tamanho do tórax nem com a posição do ictus.
 :::
 
 ::: secao

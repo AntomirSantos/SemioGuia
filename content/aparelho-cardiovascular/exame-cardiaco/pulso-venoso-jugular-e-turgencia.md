@@ -48,7 +48,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 36 (Inspection of the Neck Veins), p. 301-314"
   - "Semiologia Clínica, 1ª ed., cap. Semiologia cardiovascular — Avaliação do pulso venoso, estase jugular, método de Lewis, refluxo hepatojugular e sinal de Kussmaul (Tabelas 2 e 3)"
   - "Semiologia Clínica, 1ª ed., cap. Insuficiência arterial periférica — limitações do tempo de enchimento capilar, da temperatura e da perda de pelos como achados isolados"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
@@ -186,7 +186,7 @@ texto: |
 
   Duas ressalvas úteis.
 
-  - **A jugular externa serve.** O ensino tradicional privilegia a interna por causa das válvulas da externa, mas a interna também tem válvulas, e as medidas nas duas são semelhantes. O que a interna oferece de melhor não é a pressão, e sim o formato das ondas.
+  - **A jugular externa serve.** O ensino tradicional privilegia a interna por causa das válvulas da externa, mas a interna também tem válvulas, e as medidas nas duas são semelhantes — é o que a maioria dos estudos modernos encontra, contra um único estudo antigo discordante. O que a interna oferece de melhor não é a pressão, e sim o formato das ondas.
   - **O examinador tende a subestimar.** A distância vertical entre o ângulo esternal e o átrio direito muda com a posição: é maior no decúbito dorsal e menor na posição semissentada. Como as pressões altas só são visíveis em posições mais verticalizadas, o método pode devolver um valor normal em pacientes com pressão discretamente elevada.
 :::
 

@@ -55,7 +55,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 30 (Auscultation of the Lungs), p. 261-274 — sons respiratórios (Figura 30.1), ressonância vocal e transmissão sonora (Figura 30.2), sons adventícios (Tabelas 30.1 e 30.2), boxes EBM 30.1 e 30.2"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 35 (Pleural Effusion), p. 297-299 — boxe EBM 35.1"
   - "Semiologia Clínica, 1ª ed., cap. 10 (O exame do tórax e do sistema respiratório) — Ausculta (Tabela 7, sons pleuropulmonares) e Síndromes pleuropulmonares (Tabela 8)"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
@@ -369,6 +369,8 @@ texto: |
   **Atrito pleural.** Não altera a probabilidade nem de embolia pulmonar nem de derrame pleural. Ele diz que há pleura inflamada, não qual é a doença.
 
   O padrão que emerge é constante em todo o exame do tórax: os sinais são **específicos e pouco sensíveis**. Achá-los vale muito; não achá-los quase nunca afasta a doença — com as exceções do murmúrio vesicular e da sonoridade normais, que efetivamente afastam derrame pleural.
+
+  Os valores exatos variam conforme a meta-análise que os agrega — a egofonia, por exemplo, aparece com razão de verossimilhança de 4 a 7 para pneumonia, e o murmúrio diminuído com 2,2 a 2,5 —, mas a direção e a ordem de grandeza são estáveis entre as fontes. Este guia mantém os números de McGee por consistência interna.
 :::
 
 ::: secao

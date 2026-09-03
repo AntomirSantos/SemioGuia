@@ -73,7 +73,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 19 (Respiratory Rate and Abnormal Breathing Patterns), p. 151-153 — movimentos abdominais respiratórios (Figura 19.2)"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 33 (Chronic Obstructive Lung Disease), p. 286-288 — paradoxo costal (sinal de Hoover), boxe EBM 33.1"
   - "Semiologia Clínica, 1ª ed., cap. 10 (O exame do tórax e do sistema respiratório) — Revisão de anatomia: pontos, linhas e regiões torácicas; Inspeção estática e dinâmica (Tabelas 1 e 2)"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

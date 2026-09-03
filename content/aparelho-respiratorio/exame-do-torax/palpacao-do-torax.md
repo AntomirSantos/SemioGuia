@@ -42,7 +42,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 30 (Auscultation of the Lungs), p. 266-267 — patogenia da ressonância vocal e transmissão de frequências (Figura 30.2)"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 35 (Pleural Effusion), p. 297-299 — boxe EBM 35.1"
   - "Semiologia Clínica, 1ª ed., cap. 10 (O exame do tórax e do sistema respiratório) — Palpação: expansibilidade torácica e frêmito toracovocal (Figuras 4 e 5); Tabela 8 (síndromes pleuropulmonares)"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

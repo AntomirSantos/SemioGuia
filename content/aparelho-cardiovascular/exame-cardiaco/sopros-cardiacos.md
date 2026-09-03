@@ -46,7 +46,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 45 (Aortic Regurgitation), p. 385-392"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 46 (Miscellaneous Heart Murmurs), p. 393-404"
   - "Semiologia Clínica, 1ª ed., cap. Semiologia cardiovascular — Avaliação dos sopros cardíacos (graduação em 6 níveis; Tabela 6, manobras dinâmicas; Tabela 7, comparativo dos sopros)"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

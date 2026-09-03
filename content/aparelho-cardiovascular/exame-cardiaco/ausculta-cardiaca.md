@@ -50,7 +50,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 41 (The Third and Fourth Heart Sounds), p. 345-354"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 47 (Disorders of the Pericardium), p. 405-406 — atrito pericárdico"
   - "Semiologia Clínica, 1ª ed., cap. Semiologia cardiovascular — Ausculta cardíaca (Tabelas 4 e 5, alterações de B1 e B2)"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
