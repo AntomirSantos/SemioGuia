@@ -303,7 +303,7 @@ texto: |
 
   Duas consequências. A primeira: **um pulso hipercinético é irregistrável na notação de Porto**, que não tem degrau para ele — e o exame dos pulsos periféricos encontra hiperpulsatilidade, que o próprio Porto manda procurar ao descrever o que a palpação sistematizada detecta. A segunda: quem lê **++** em um prontuário não sabe se o autor considerou o pulso normal ou se apenas não tinha como escrever aumentado.
 
-  A saída é a mesma que o guia usa para o edema e para os sopros: **nomeie a escala ou descreva o achado**. Pedioso direito de amplitude nitidamente menor que o esquerdo é uma frase que sobrevive à troca de plantão; pedioso 2+, sozinho, não.
+  Quando for usar número, **o guia adota a escala de 0 a 3+ da Semiologia Clínica** — é a única com degrau para o pulso aumentado; a notação de Porto fica registrada acima, atribuída. E a saída de sempre continua valendo, como no edema e nos sopros: **nomeie a escala ou descreva o achado**. Pedioso direito de amplitude nitidamente menor que o esquerdo é uma frase que sobrevive à troca de plantão; pedioso 2+, sozinho, não.
 
   Uma nota sobre o vocabulário: os tipos de onda de pulso — célere ou em martelo d'água, parvus, alternante, bigeminado, paradoxal, dicrótico, anacrótico, bisferiens — pertencem ao pulso radial e ao exame do coração, e estão no tópico de frequência cardíaca e pulso. Não se avaliam nos pulsos do pé.
 :::

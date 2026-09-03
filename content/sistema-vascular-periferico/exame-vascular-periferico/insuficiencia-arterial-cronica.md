@@ -429,7 +429,7 @@ texto: |
   - **Semiologia Clínica** usa **menor que 0,9** como anormal e indicativo de doença arterial periférica, **menor que 0,4** como indicativo de isquemia crítica, e **maior que 1,2** como associado a calcificação arterial, que ocorre em diabéticos e renais crônicos. Define ainda a artéria **não compressível** — aquela em que o fluxo distal não desaparece nem com 200 mmHg no manguito.
   - **Porto** apresenta uma escala de graus de isquemia, com cinco faixas: de **0,9 a 1,3**, o normal; de **0,7 a 0,89**, a faixa que ele associa à claudicação intermitente; de **0,4 a 0,69**, a da dor em repouso; **abaixo de 0,4**, a da lesão trófica já instalada; e **acima de 1,3**, a artéria que não se deixa comprimir. Nomeia também o que limita o índice: parede calcificada, edema e ulceração ao redor dos maléolos.
 
-  As três concordam no essencial e discordam nas bordas. O que sobrevive à divergência é a leitura clínica: **um índice baixo confirma e gradua o que o exame já sugeriu; um índice alto demais não tranquiliza, denuncia artéria rígida.**
+  As três concordam no essencial e discordam nas bordas. Como referência única, **o guia adota os cortes de McGee** — anormal abaixo de 0,9; claudicação tipicamente entre 0,5 e 0,8; isquemia ameaçadora abaixo de 0,5 —, com as demais faixas atribuídas acima. O que sobrevive a qualquer divergência é a leitura clínica: **um índice baixo confirma e gradua o que o exame já sugeriu; um índice alto demais não tranquiliza, denuncia artéria rígida.**
 
   E há o uso que o exame físico não alcança: Semiologia Clínica registra que **ITB abaixo de 0,9 sem qualquer manifestação clínica define a doença arterial periférica assintomática** — que é, afinal, metade dos casos.
 :::

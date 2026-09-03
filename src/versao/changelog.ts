@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.1.3',
+    data: '2026-09-03',
+    linhas: [
+      'Hierarquia editorial completa: McGee primeiro, Semiologia Clínica como desempate',
+      'Guia adota: Traube semilunar, escala de pulso 0–3+, reflexos 0–++++, faixas de FR da criança',
+      'Também: espéculo na paciente com hímen perfurado (SC), posições do toque retal e ITB de McGee',
+    ],
+  },
+  {
     versao: '1.1.2',
     data: '2026-09-03',
     linhas: [

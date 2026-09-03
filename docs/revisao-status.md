@@ -5,7 +5,7 @@ Gerado por `npm run revisao:status` em 2026-09-03. Não edite à mão.
 ## Resumo
 
 - Tópicos: **55** · aprovados: **8** · pendentes: **47**
-- Itens do checklist: **71 abertos** de 86
+- Itens do checklist: **66 abertos** de 86
 
 ## Pendências de reescrita (plano de beta, semana 1)
 
@@ -63,7 +63,7 @@ Itens do checklist abertos desta fase: **H1**, **H2**, **H3**, **H4**
 - [ ] Palpação do abdome (`abdome/exame-do-abdome/palpacao-do-abdome`)
 - [ ] Abdome agudo e sinais peritoneais (`abdome/exame-do-abdome/abdome-agudo-e-sinais-peritoneais`)
 
-Itens do checklist abertos desta fase: **F1**, **F2**, **F3**, **F5**
+Itens do checklist abertos desta fase: **F1**, **F3**, **F5**
 
 ### Sistema vascular periférico — 0/4 aprovados
 
@@ -113,7 +113,7 @@ Itens do checklist abertos desta fase: **I1**, **I2**, **I3**, **I4**
 - [ ] Escalas cognitivas à beira do leito (`exame-psiquico/exame-psiquico/escalas-cognitivas-a-beira-do-leito`)
 - [ ] Delirium, demência e depressão (`exame-psiquico/exame-psiquico/delirium-demencia-e-depressao`)
 
-Itens do checklist abertos desta fase: **N1**, **N2**, **N3**, **N4**, **N5**, **N6**, **N7**
+Itens do checklist abertos desta fase: **N1**, **N2**, **N3**, **N5**, **N6**, **N7**
 
 ### Semiologia da criança — 0/3 aprovados
 
@@ -127,11 +127,8 @@ Itens do checklist abertos desta fase: **O1**, **O2**, **O3**, **O4**, **O5**, *
 
 - **A1** · Ictus do longilíneo _(A. Divergências entre as referências (o app escolheu um lado))_
 - **A5** · Foco aórtico acessório _(A. Divergências entre as referências (o app escolheu um lado))_
-- **A6** · Som broncovesicular _(A. Divergências entre as referências (o app escolheu um lado))_
-- **A7** · Percussão do pneumotórax _(A. Divergências entre as referências (o app escolheu um lado))_
 - **A10** · Limite superior da macicez hepática _(A. Divergências entre as referências (o app escolheu um lado))_
 - **A11** · Estertores finos e mudança de posição _(A. Divergências entre as referências (o app escolheu um lado))_
-- **A13** · Frêmito na congestão passiva _(A. Divergências entre as referências (o app escolheu um lado))_
 - **B1** · Duas escalas de intensidade de sopro _(B. Convenções internas do app (escolhas a confirmar))_
 - **B3** · Ângulo de Charpy qualitativo _(B. Convenções internas do app (escolhas a confirmar))_
 - **B4** · Política geral para divergências _(B. Convenções internas do app (escolhas a confirmar))_

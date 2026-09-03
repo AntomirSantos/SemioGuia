@@ -6,13 +6,21 @@ defeito técnico: as revisões independentes verificaram que a escolha atual
 está sempre ancorada — a decisão final de qual fonte prevalece é médica e
 editorial, do autor. Marque cada caixa ao revisar.
 
-**Regra editorial do autor (2026-09-03):** quando uma referência bate de
-frente com McGee, o guia escolhe McGee e a divergência conta como revisada —
-mantendo a posição contrária atribuída no texto. Aplicada aos itens A2, A3,
-A4, A8, A9, A12, A14, B2, K4 e N8 (marcados abaixo) e ao subitem (iii) do
-J3 (tempo de enchimento venoso: protocolo de McGee já era o executado).
-Conflitos Porto×Porto ou Porto×Semiologia Clínica NÃO são cobertos pela
-regra e seguem abertos.
+**Regra editorial do autor (2026-09-03, em duas ordens):** em conflito
+direto entre fontes, a hierarquia é **1º McGee, 2º Semiologia Clínica** —
+o guia escolhe o lado mais alto da hierarquia, a divergência conta como
+revisada e a posição contrária permanece atribuída no texto. Conflitos
+**Porto×Porto** (internos) não têm desempate na regra e seguem abertos.
+
+Aplicações: pela ordem "McGee prevalece" — A2, A3, A4, A8, A9, A12, A14,
+B2, K4, N8 e os subitens (ii) ITB e (iii) enchimento venoso do J3. Pela
+ordem "Semiologia Clínica prevalece" — A6, A7, A13, F2 (Traube semilunar),
+N4 (pseudodemência nomeada), o subitem (i) do J3 (escala de pulso 0–3+),
+os subitens paciente virgem e posições do toque retal do L5, o subitem
+escala de reflexos do I3 e os subitens pelos faciais (12,9 anos) e faixas
+de FR do O4. Subitens sem lado SC/McGee (Porto interno: J3-iv, Glasgow do
+I3, janela testicular e PA do O4, e as divergências Porto×Porto do L5)
+seguem abertos dentro dos seus itens.
 
 ## A. Divergências entre as referências (o app escolheu um lado)
 
@@ -28,11 +36,11 @@ regra e seguem abertos.
   O app segue McGee (Tabela 36.2).
 - [ ] **A5 · Foco aórtico acessório** — 3º-4º EIC esquerdo (Porto Sem.
   Méd.) × 3º EIC (Porto Ex. Clín.). O app segue Semiologia Médica.
-- [ ] **A6 · Som broncovesicular** — interescapulovertebral **direita**
+- [x] **A6 · Som broncovesicular** — interescapulovertebral **direita**
   (Porto Ex. Clín. + Semiologia Clínica) × "superior" genérico (Porto
   Sem. Méd.). O app adota a versão à direita (2 fontes, coerente com o
   brônquio direito mais curto).
-- [ ] **A7 · Percussão do pneumotórax** — timpânico (Porto Ex. Clín. +
+- [x] **A7 · Percussão do pneumotórax** — timpânico (Porto Ex. Clín. +
   Semiologia Clínica) × "hipersonoridade ou timpânico" (Porto Sem. Méd.).
   O app padronizou **timpânico** (ar pleural) reservando hipersonoridade
   ao ar alveolar (enfisema), com a variante de Porto atribuída na tabela.
@@ -53,7 +61,7 @@ regra e seguem abertos.
   cap. 36 é typo comprovado pela própria obra) × 2,38 g/dL medidos
   (McGee, Tabela 9.1). O app ensina só o 2,38; considerar restaurar o
   clássico como nota rotulada, pois é o número das provas.
-- [ ] **A13 · Frêmito na congestão passiva** — normal (Semiologia Clínica,
+- [x] **A13 · Frêmito na congestão passiva** — normal (Semiologia Clínica,
   seguida pelo app) × normal ou aumentado (Porto).
 - [x] **A14 · Mecanismo da transmissão do frêmito/ressonância vocal** —
   ensino tradicional (coluna aérea do brônquio) × experimentos citados por
@@ -120,7 +128,7 @@ regra e seguem abertos.
   superfície). Dentro da regra atual (cor decorativa), mas a primeira a
   revisitar se o corte de 3:1 para objetos gráficos for adotado; vale
   também cobrir cores de sistema no checar-contraste.
-- [ ] **F2 · Formato do espaço de Traube** — triangular (Porto, no
+- [x] **F2 · Formato do espaço de Traube** — triangular (Porto, no
   capítulo do tórax) × semilunar 12×9 cm (Semiologia Clínica, no
   capítulo do abdome). Cada um atribuído no seu lugar; quem segue a
   referência cruzada encontra dois formatos sem nota. Uma oração resolve.
@@ -367,7 +375,7 @@ regra e seguem abertos.
 - [ ] **N3 · Seis versões de corte do MEEM** em tabela com dono por linha
   (Quadro 20.4; Brucki; cap. 172; cap. 9 do idoso; Almeida/Caramelli
   da SC; as 3 faixas de McGee). Conferir se todas ficam.
-- [ ] **N4 · Pseudodemência depressiva** — SC nomeia ativamente × Porto SM
+- [x] **N4 · Pseudodemência depressiva** — SC nomeia ativamente × Porto SM
   registra que a denominação "vem sendo abandonada"; lado a lado, com
   quiz cobrando a divergência; "prova terapêutica com antidepressivos"
   citada como destino do impasse, sem classe além da nomeada pela

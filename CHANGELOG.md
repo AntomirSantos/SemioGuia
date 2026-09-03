@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog` — edite lá.
 
+## 1.1.3 — 2026-09-03
+
+- Hierarquia editorial completa: McGee primeiro, Semiologia Clínica como desempate
+- Guia adota: Traube semilunar, escala de pulso 0–3+, reflexos 0–++++, faixas de FR da criança
+- Também: espéculo na paciente com hímen perfurado (SC), posições do toque retal e ITB de McGee
+
 ## 1.1.2 — 2026-09-03
 
 - Regra editorial do autor: em conflito direto entre fontes, prevalece McGee

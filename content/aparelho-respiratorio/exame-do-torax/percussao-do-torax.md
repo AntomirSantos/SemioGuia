@@ -227,7 +227,7 @@ texto: |
 titulo: Espaço de Traube
 nivel: avancado
 texto: |
-  O espaço de Traube é a área triangular, normalmente timpânica, que ocupa o baixo da face anterior do hemitórax esquerdo e corresponde ao fundo do estômago. Seus limites são três: **acima**, a submacicez cardíaca, em geral na altura da 6ª costela; **para baixo e para dentro**, a margem costal; **para fora**, a linha axilar anterior.
+  O espaço de Traube é a área normalmente timpânica que ocupa o baixo da face anterior do hemitórax esquerdo e corresponde ao fundo do estômago. A forma que o guia adota é a da Semiologia Clínica — **semilunar, de cerca de 12 × 9 cm**; Porto o desenha como um triângulo, e os marcos são os mesmos nas duas descrições: **acima**, a submacicez cardíaca, em geral na altura da 6ª costela; **para baixo e para dentro**, a margem costal; **para fora**, a linha axilar anterior.
 
   Serve para duas coisas.
 

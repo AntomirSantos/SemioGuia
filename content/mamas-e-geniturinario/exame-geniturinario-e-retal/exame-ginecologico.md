@@ -182,7 +182,7 @@ texto: |
 
   **Retirar vendo.** A *Semiologia Médica* dá o detalhe que separa o exame completo do incompleto: a retirada **lenta**, fechando gradualmente as lâminas, é o único momento em que se veem as paredes que o espéculo recobria.
 
-  **A paciente virgem é um limite, com divergência declarada.** A *Semiologia Médica* proíbe: nem toque vaginal nem espéculo em paciente com hímen íntegro — o chamado espéculo de virgem traumatiza; as informações vêm do **toque retal**, e a visualização, do **colpovirgoscópio**, que o guia nomeia sem ensinar. Semiologia Clínica é mais permissiva: espéculos menores permitem examinar meninas com hímen **íntegro, desde que perfurado**. As duas posições ficam lado a lado; o que nenhuma obra autoriza é o exame contra a vontade ou sem necessidade clara.
+  **A paciente virgem é um limite, com divergência declarada.** O guia adota a posição da Semiologia Clínica: espéculos menores permitem examinar pacientes com hímen **íntegro, desde que perfurado** — quando houver indicação clara e consentimento. A posição contrária fica atribuída: a *Semiologia Médica* proíbe toque vaginal e espéculo com hímen íntegro — o chamado espéculo de virgem traumatiza — e remete as informações ao **toque retal** e a visualização ao **colpovirgoscópio**, que o guia nomeia sem ensinar. O que nenhuma obra autoriza é o exame contra a vontade ou sem necessidade clara.
 :::
 
 ::: secao
