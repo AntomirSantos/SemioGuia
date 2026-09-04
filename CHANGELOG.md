@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog` — edite lá.
 
+## 1.2.2 — 2026-09-04
+
+- Cabeça e pescoço com lados eleitos pela hierarquia: anisocoria e enoftalmia por McGee, Rinne por intensidade, palpação da tireoide pelo movimento
+- Manobra de oclusão arterial transitória entra nas manobras dinâmicas dos sopros
+- Casos clínicos e periodicidades de rastreamento endossados pelo autor
+
 ## 1.2.1 — 2026-09-04
 
 - Triagem de literatura concluída nos 12 sistemas: todos os 55 tópicos agora "Revisado"

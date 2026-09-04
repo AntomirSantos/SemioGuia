@@ -310,6 +310,10 @@ linhas:
     - "Apertar com força os dedos do examinador por um minuto"
     - "Aumenta a pós-carga"
     - "Sopro que aumenta sugere insuficiência mitral ou comunicação interventricular; sopro que diminui sugere cardiomiopatia hipertrófica"
+  - - "Oclusão arterial transitória"
+    - "Insuflar manguitos de pressão nos dois braços acima da pressão sistólica do paciente; avaliar o sopro 20 segundos após a insuflação"
+    - "Aumenta a pós-carga"
+    - "Sopro sistólico que aumenta sugere fortemente insuficiência mitral ou comunicação interventricular — é a versão mais poderosa da manobra de pós-carga, sem fármaco (McGee)"
   - - "Decúbito lateral esquerdo (Pachón)"
     - "Deitar sobre o lado esquerdo com a mão esquerda na cabeça"
     - "Aproxima a ponta da parede torácica"
@@ -330,7 +334,7 @@ texto: |
 
   **Retorno venoso.** Todas as quatro manobras identificam bem a cardiomiopatia hipertrófica, cujo sopro se comporta ao contrário da maioria: aumenta quando o retorno diminui e diminui quando o retorno aumenta. A explicação é mecânica — a obstrução fica abaixo da valva aórtica, entre o folheto anterior da mitral e o septo hipertrofiado; menos volume aproxima as duas estruturas e agrava a obstrução. O aumento com o esforço de Valsalva é o achado que mais eleva a probabilidade; a ausência da resposta característica nas outras três manobras é o que mais a reduz.
 
-  **Pós-carga.** Aumentar a resistência periférica faz o sangue preferir o caminho regurgitante: os sopros da insuficiência mitral e da comunicação interventricular ficam mais intensos com a prensão palmar sustentada. Antes de recorrer à pós-carga, porém, já se deve ter afastado sopro direito com a respiração e cardiomiopatia hipertrófica com as manobras de retorno venoso.
+  **Pós-carga.** Aumentar a resistência periférica faz o sangue preferir o caminho regurgitante: os sopros da insuficiência mitral e da comunicação interventricular ficam mais intensos com a prensão palmar sustentada (razão de verossimilhança 5,8) e, com muito mais força, com a **oclusão arterial transitória** — sopro sistólico que se intensifica 20 segundos após insuflar os manguitos nos dois braços acima da sistólica rende razão de verossimilhança **48,7**, com sensibilidade de 79% e especificidade de 98%, e a ausência de resposta reduz a probabilidade (0,2; McGee). É o maior número das manobras dinâmicas, obtido sem fármaco. Antes de recorrer à pós-carga, porém, já se deve ter afastado sopro direito com a respiração e cardiomiopatia hipertrófica com as manobras de retorno venoso.
 :::
 
 ::: secao

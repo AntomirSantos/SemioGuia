@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.2',
+    data: '2026-09-04',
+    linhas: [
+      'Cabeça e pescoço com lados eleitos pela hierarquia: anisocoria e enoftalmia por McGee, Rinne por intensidade, palpação da tireoide pelo movimento',
+      'Manobra de oclusão arterial transitória entra nas manobras dinâmicas dos sopros',
+      'Casos clínicos e periodicidades de rastreamento endossados pelo autor',
+    ],
+  },
+  {
     versao: '1.2.1',
     data: '2026-09-04',
     linhas: [

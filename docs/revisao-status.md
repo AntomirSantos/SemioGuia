@@ -5,7 +5,7 @@ Gerado por `npm run revisao:status` em 2026-09-04. Não edite à mão.
 ## Resumo
 
 - Tópicos: **55** · aprovados: **55** · pendentes: **0**
-- Itens do checklist: **7 abertos** de 86
+- Itens do checklist: **4 abertos** de 86
 
 ## Pendências de reescrita (plano de beta, semana 1)
 
@@ -39,8 +39,6 @@ Itens do checklist abertos desta fase: **E4**
 - [x] Olhos (`cabeca-e-pescoco/exame-de-cabeca-e-pescoco/olhos`)
 - [x] Boca, nariz e ouvidos (`cabeca-e-pescoco/exame-de-cabeca-e-pescoco/boca-nariz-e-ouvidos`)
 - [x] Tireoide e pescoço (`cabeca-e-pescoco/exame-de-cabeca-e-pescoco/tireoide-e-pescoco`)
-
-Itens do checklist abertos desta fase: **H4**
 
 ### Aparelho cardiovascular — 4/4 aprovados
 
@@ -89,8 +87,6 @@ Itens do checklist abertos desta fase: **J3**
 - [x] Exame ginecológico (`mamas-e-geniturinario/exame-geniturinario-e-retal/exame-ginecologico`)
 - [x] Toque retal (`mamas-e-geniturinario/exame-geniturinario-e-retal/toque-retal`)
 
-Itens do checklist abertos desta fase: **L8**
-
 ### Sistema nervoso — 6/6 aprovados
 
 - [x] Consciência e estado mental (`sistema-nervoso/exame-neurologico/consciencia-e-estado-mental`)
@@ -117,4 +113,3 @@ Itens do checklist abertos desta fase: **L8**
 
 - **G1** · Limitação da RNTL 14 nos papéis de a11y _(G. Itens da Fase 8 (redesign))_
 - **G3** · Menores estéticos registrados _(G. Itens da Fase 8 (redesign))_
-- **C3** · SBP 2025 (DC nº 206) _(C. Inconsistências antigas ainda abertas (Fases 1C–3))_

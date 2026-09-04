@@ -279,7 +279,7 @@ texto: |
   - **Semiologia Clínica** trabalha com outra faixa: acima de **5 mm**, midríase; abaixo de **3 mm**, miose — e sublinha que o número depende da luz do ambiente e do contexto clínico.
   - **McGee** não fixa corte e explica por quê: o diâmetro pupilar médio **cai com a idade** — cerca de 7 mm aos 10 anos, 6 mm aos 30 e 4 mm aos 80. Uma mesma medida significa coisas diferentes em pacientes de idades diferentes.
 
-  A leitura prática que sobrevive às três: registre o diâmetro estimado, registre a luz do ambiente e compare **os dois lados**, que é a comparação que não depende de tabela. Semiologia Clínica sugere ainda medir com pupilômetro — a régua milimetrada estampada em lanternas de bolso — colocado logo abaixo do olho.
+  **O guia adota a posição de McGee**: sem corte fixo — registre o diâmetro estimado, registre a luz do ambiente e compare **os dois lados**, que é a comparação que não depende de tabela. Para quem precisa de um número de referência, valem os cortes da Semiologia Clínica (miose abaixo de 3 mm, midríase acima de 5 mm), com a faixa da *Semiologia Médica* registrada ao lado. Semiologia Clínica sugere ainda medir com pupilômetro — a régua milimetrada estampada em lanternas de bolso — colocado logo abaixo do olho.
 
   **Reflexos.** São três (Porto):
 
@@ -318,7 +318,7 @@ texto: |
   - **Semiologia Clínica** fala em cerca de **35%** da população mundial com pupilas desiguais sem doença.
   - **McGee** define a **anisocoria simples** como diferença de diâmetro de **0,4 mm ou mais** que não se explique por nenhuma das pupilas patológicas, por medicamentos intraoculares, por lesão ou por inflamação do olho — e nesses termos ela afeta até **38%** das pessoas saudáveis, das quais apenas metade a apresenta em um dado momento; é achado constante em **3%**. A diferença raramente ultrapassa **1 mm**, e é em geral o mesmo olho que exibe a pupila maior.
 
-  A dispersão tem uma explicação provável e vale registrá-la como hipótese, não como fato: os números baixos correspondem à anisocoria que salta aos olhos, e os altos, à anisocoria medida. Nenhuma das fontes explicita o critério ao dar seu percentual, com a exceção de McGee.
+  Pela hierarquia editorial da casa, **o guia adota a definição e os números de McGee** — anisocoria simples como diferença de 0,4 mm ou mais, presente em até 38% das pessoas saudáveis e constante em 3% —, por ser a única formulação com critério explícito; os demais percentuais ficam registrados como leituras sem critério declarado. A dispersão tem uma explicação provável, que vale como hipótese: os números baixos correspondem à anisocoria que salta aos olhos, e os altos, à anisocoria medida.
 
   O que fazer com isso à beira do leito é, felizmente, consensual. Semiologia Clínica dá a regra prática: **teste a reatividade dos dois lados**; se ela for normal em ambos, considere alteração constitucional e benigna — e **registre o achado em prontuário**, mesmo sendo constitucional, para que em um atendimento de urgência futuro ele não seja lido como alteração recente.
 
@@ -365,7 +365,7 @@ texto: |
   - **ptose**, pela paralisia do músculo tarsal superior;
   - **anidrose da face**, por lesão das fibras sudomotoras.
 
-  A pálpebra inferior elevada pode criar a **aparência** de enoftalmia, embora o globo não esteja de fato retraído (McGee). É uma nota de precisão que convive com as duas edições de Porto, que listam a enoftalmia entre os componentes da síndrome: Porto (*Semiologia Médica*, cap. 16) descreve a paralisia do músculo de Müller com blefaroptose parcial integrando a síndrome de paralisia do simpático cervical, constituída por **enoftalmia, miose e transtornos vasomotores**; Porto (*Exame Clínico*) inclui a síndrome entre as causas de enoftalmia unilateral e de ptose. As duas leituras descrevem a mesma aparência; discordam sobre se o globo realmente se afunda.
+  Sobre a enoftalmia, **o guia adota a leitura de McGee**: a pálpebra inferior elevada cria a **aparência** de enoftalmia, sem que o globo esteja de fato retraído. As duas edições de Porto listam a enoftalmia entre os componentes da síndrome, e ficam registradas: Porto (*Semiologia Médica*, cap. 16) descreve a paralisia do músculo de Müller com blefaroptose parcial integrando a síndrome de paralisia do simpático cervical, constituída por **enoftalmia, miose e transtornos vasomotores**; Porto (*Exame Clínico*) inclui a síndrome entre as causas de enoftalmia unilateral e de ptose. As leituras descrevem a mesma aparência; o guia fica com a de McGee — o globo não se afunda.
 
   Porto (*Semiologia Médica*) registra ainda o quadro oposto, menos citado: a contração espasmódica do músculo de Müller integra a **síndrome de irritação simpática cervical**, que associa midríase, alargamento da fenda palpebral e algum grau de exoftalmia.
 

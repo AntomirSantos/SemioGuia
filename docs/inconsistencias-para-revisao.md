@@ -207,13 +207,19 @@ da oclusão arterial transitória não recebeu resposta e segue aberto.
   da mesma regra a osteoarticular e vascular (5 reescritas). Verificador
   automatizado: nenhuma alternativa correta cita mais valores que só
   existem em blocos avançados.
-- [ ] **H4 · Divergências de fonte da Fase 9** — nove atribuídas lado a
-  lado nos tópicos (anisocoria 5/25/35/38%, cortes pupilares,
-  exoftalmometria [ver H2], dedos na palpação da tireoide, tireoide
-  normal palpável?, Rinne intensidade × limiar, voz sussurrada,
-  dimensões do istmo, enoftalmia no Horner — mecanismo) + três menores
-  (diapasão 256/512 Hz, "sinal de Bell" no Porto EC × SM, istmo também
-  na SC). Endossar a apresentação lado a lado ou eleger um lado por item.
+- [x] **H4 · Divergências de fonte da Fase 9** — autor (2026-09-04):
+  eleger lados pela hierarquia. Aplicado: anisocoria → definição e
+  números de McGee (0,4 mm; até 38%, constante em 3%); cortes pupilares
+  → posição de McGee (sem corte fixo), com os números da SC como
+  referência; dedos da palpação da tireoide → descrição pelo movimento
+  da SC; tireoide normal palpável → SC (em regra, não), apoiada pelos
+  dados de McGee; Rinne → comparação de intensidade (SC + estudos de
+  McGee), limiar de Porto atribuído; voz sussurrada → técnica de McGee,
+  parâmetros da SC atribuídos; diapasão → 512 Hz (McGee); enoftalmia no
+  Horner → aparente, não real (McGee), Porto atribuído. Sem mudança:
+  exoftalmometria (H2), sinal de Bell (SM já adotada em crânio e face)
+  e dimensões do istmo (eixos diferentes — leitura conciliada, sem
+  conflito direto). As posições contrárias seguem atribuídas no texto.
 
 ## I. Itens da Fase 10 (sistema nervoso)
 
@@ -371,9 +377,9 @@ da oclusão arterial transitória não recebeu resposta e segue aberto.
 - [x] **L7 · Recall da busca "próstata"** — autor (2026-09-03): feito.
   Tag "próstata" adicionada ao tópico de genitália masculina; o Toque
   retal segue sendo o dono do ensino.
-- [ ] **L8 · Periodicidades datadas** — mamografia anual ≥40 (alto
-  risco ≥30) e Papanicolaou 25–60 (anual→trienal) entraram como
-  recomendações da 8ª ed. de Porto, datadas; envelhecem com diretrizes.
+- [x] **L8 · Periodicidades datadas** — autor (2026-09-04): endossadas
+  como recomendações datadas da 8ª ed. de Porto; revisitar quando novas
+  diretrizes entrarem no acervo.
 
 ## N. Itens da Fase 14 (exame psíquico)
 
@@ -465,8 +471,9 @@ da oclusão arterial transitória não recebeu resposta e segue aberto.
   posição de Porto atribuída ao lado.
 - [x] **C2 · Fluxograma de febre** — síntese didática própria; endossar
   cada etapa.
-- [ ] **C3 · SBP 2025 (DC nº 206)** — valores de fontes secundárias
-  concordantes; subir o PDF primário ao repositório de referências.
+- [x] **C3 · SBP 2025 (DC nº 206)** — autor (2026-09-04): decidiu não
+  subir o PDF primário. Os valores ficam ancorados nas fontes
+  secundárias concordantes, com a citação do documento mantida.
 - [x] **C4 · Valores pediátricos dos casos** — resolvido pela Fase 15: as
   frequências do caso têm âncora dupla no tópico de crescimento da
   criança (ver O5). Baixa em 2026-09-03.
@@ -479,11 +486,13 @@ da oclusão arterial transitória não recebeu resposta e segue aberto.
 - [x] Os 8 tópicos da Fase 5: revisados na triagem de literatura de
   2026-09-03 (cardio + respiratório), hoje `revisao: ok` e marcados
   "Revisado" no app.
-- [ ] Os 3 casos clínicos (aguardando endosso; os 3 tópicos de sinais
-  vitais foram revisados na triagem craniocaudal de 2026-09-04 — ver
-  `docs/revisao-medica-pendente.md` para o histórico).
-- [ ] Adição opcional: manobra de **oclusão arterial transitória** na
-  tabela de sopros (McGee, LR 48,7; sem fármaco).
+- [x] Os 3 casos clínicos — endossados pelo autor (2026-09-04); os 3
+  tópicos de sinais vitais já haviam sido revisados na triagem
+  craniocaudal (histórico em `docs/revisao-medica-pendente.md`).
+- [x] Adição opcional: manobra de **oclusão arterial transitória** —
+  aprovada pelo autor (2026-09-04) e adicionada à tabela de manobras
+  dinâmicas de sopros, com os números (48,7/0,2; sens 79%, esp 98%) no
+  bloco avançado "O peso das manobras".
 
 ## P. Triagem de literatura aberta — beta, cardio + respiratório (2026-09-03)
 

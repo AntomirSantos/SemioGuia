@@ -415,7 +415,7 @@ texto: |
 
   A técnica de McGee: o examinador sussurra uma combinação de três letras ou números, posicionado a um comprimento de braço **atrás** do paciente, e pede que ele repita a sequência. Se a resposta estiver correta, a audição é considerada normal e o teste termina. Se qualquer um dos três itens estiver errado, repetem-se mais um ou dois trios diferentes; o teste é anormal quando **metade ou mais** dos itens dos dois ou três trios estiverem incorretos.
 
-  Semiologia Clínica descreve a mesma manobra com parâmetros ligeiramente diferentes: cerca de **60 cm** de distância, atrás do paciente, sussurrando uma combinação de **três letras e três números**; acertar pelo menos três é normal, e errar quatro ou mais indica complementar com audiometria.
+  **O guia adota a técnica de McGee**, que é a dos estudos de validação; a Semiologia Clínica descreve a mesma manobra com parâmetros ligeiramente diferentes, que ficam registrados: cerca de **60 cm** de distância, atrás do paciente, sussurrando uma combinação de **três letras e três números** — acertar pelo menos três é normal, e errar quatro ou mais indica complementar com audiometria.
 
   Três detalhes decidem a validade do teste, e os dois textos concordam neles:
 
@@ -501,9 +501,11 @@ texto: |
   - **Comparação de intensidade** — o diapasão fica cerca de dois segundos em cada posição e o paciente diz qual soa mais forte. É a técnica descrita por Semiologia Clínica e a que McGee identifica como a usada nos estudos que geraram os números abaixo.
   - **Limiar** — mede-se com cronômetro quanto tempo o paciente ouve em cada via. Porto (*Semiologia Médica*) descreve uma variante desta: o diapasão é apoiado na mastoide **até desaparecer a percepção sonora** e então colocado à frente do trago, sem tocá-lo.
 
+  **O guia adota a comparação de intensidade** — é a técnica da Semiologia Clínica e a que McGee identifica como a usada nos estudos que geraram os números adiante; a técnica de limiar de Porto fica registrada como variante.
+
   O resultado normal, e também o da perda neurossensorial, é a via aérea prevalecer — o que a tradição registra, de forma confusa, como "Rinne positivo". Na perda condutiva, a via óssea prevalece: "Rinne negativo". McGee recomenda registrar de modo explícito — **via óssea maior que via aérea** — em vez de usar a convenção de sinal.
 
-  **Dois detalhes de material.** O primeiro é a frequência, e aqui as fontes não pedem a mesma coisa: **Semiologia Clínica** admite o diapasão de **256 ou de 512 Hz**, enquanto **McGee** registra que a maioria das autoridades recomenda o de **512 Hz** e prefere explicitamente esse ao de 256 Hz, que produziu mais resultados falso-positivos em alguns estudos; a justificativa de McGee para a faixa é que frequências acima de 512 Hz detectam pior a perda condutiva e que frequências de 128 Hz ou menores geram tantas vibrações que até pacientes sem audição as percebem. O segundo detalhe é de McGee: o diapasão deve ser percutido contra uma **superfície macia**, porque a superfície dura gera harmônicos que confundem a interpretação do paciente.
+  **Dois detalhes de material.** O primeiro é a frequência, e aqui **o guia adota o diapasão de 512 Hz, com McGee**: a maioria das autoridades o recomenda, e o de 256 Hz — que a Semiologia Clínica também admite — produziu mais resultados falso-positivos em alguns estudos; a justificativa de McGee para a faixa é que frequências acima de 512 Hz detectam pior a perda condutiva e que frequências de 128 Hz ou menores geram tantas vibrações que até pacientes sem audição as percebem. O segundo detalhe é de McGee: o diapasão deve ser percutido contra uma **superfície macia**, porque a superfície dura gera harmônicos que confundem a interpretação do paciente.
 
   **O desempenho:**
 

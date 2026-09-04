@@ -297,7 +297,7 @@ texto: |
   - **Porto (*Semiologia Médica*, cap. 103)** — na abordagem posterior, quem palpa o lobo direito é a **mão esquerda**, cabendo à mão oposta **afastar o esternocleidomastóideo**. Na abordagem anterior, são os **polegares** que palpam, enquanto os demais dedos se apoiam nas regiões supraclaviculares. O texto descreve ainda uma terceira manobra, com uma única mão percorrendo toda a área da glândula.
   - **Semiologia Clínica** — descreve o gesto pelo movimento, e não pelos dedos: uma das mãos **empurra delicadamente a traqueia para o lado oposto** ao que vai ser palpado, e a outra explora a região, primeiro lateralmente ao esternocleidomastóideo, depois medialmente a ele e por fim contra a traqueia. Na abordagem anterior, o mesmo empurrão é feito com o polegar de uma das mãos, e o polegar da outra procura o lobo.
 
-  O denominador comum das três descrições, e o que de fato importa: **uma mão desloca a traqueia ou o músculo, a outra procura o lobo do lado que ficou exposto**. Faça isso e a nomenclatura dos dedos deixa de ser um problema.
+  **O guia adota a descrição da Semiologia Clínica — pelo movimento, não pelos dedos** —, que é também o denominador comum das três: **uma mão desloca a traqueia ou o músculo, a outra procura o lobo do lado que ficou exposto**. Faça isso e a nomenclatura dos dedos, em que as duas obras de Porto divergem entre si, deixa de ser um problema.
 
   Semiologia Clínica acrescenta uma orientação de método que evita frustração: comece pela localização das cartilagens, tente delimitar o istmo e só então procure os lobos — e lembre que, **na maior parte dos exames, não achar a tireoide é o resultado esperado**.
 :::
@@ -323,7 +323,7 @@ texto: |
   - **Porto (*Semiologia Médica*)** — em muitas pessoas sem doença a glândula **se palpa**, e o lobo direito costuma ser discretamente maior do que o esquerdo.
   - **Semiologia Clínica** — a glândula normal **não deveria ser vista nem sentida**; em pessoas magras e de pescoço fino é possível encontrá-la sem que exista alteração, mas em geral **só se torna palpável a partir do dobro do tamanho**.
 
-  Não há como reconciliar as três em uma frase, e a divergência provavelmente reflete populações e limiares diferentes. A saída prática vem dos dados: como se verá adiante, **palpar uma glândula sem enxergá-la não distingue bócio de tireoide normal**. Registre o que sentiu, mas não construa diagnóstico de bócio sobre uma palpação isolada.
+  **O guia adota a posição da Semiologia Clínica** — a glândula normal, em regra, não deveria ser vista nem sentida, com a exceção das pessoas magras de pescoço fino —, e as duas posições de Porto ficam registradas; a divergência provavelmente reflete populações e limiares diferentes. Os dados de McGee apoiam a escolha: como se verá adiante, **palpar uma glândula sem enxergá-la não distingue bócio de tireoide normal**. Registre o que sentiu, mas não construa diagnóstico de bócio sobre uma palpação isolada.
 
   Duas advertências de Semiologia Clínica fecham a técnica. Primeira: confunde-se com frequência o crescimento da tireoide com um pescoço largo por outro motivo — constituição ou obesidade —, e nesses casos **a palpação não consegue delimitar a glândula**. Segunda: **dor à palpação sugere infecção ou inflamação agudas**, e um sangramento recente dentro de um nódulo também pode doer, pela distensão da cápsula.
 
