@@ -38,11 +38,13 @@ export function Ilustracao({ bloco }: { bloco: IlustracaoBloco }) {
         <SvgXml xml={bloco.svg} width="100%" style={{ aspectRatio }} color={paleta.tinta} />
       )}
       <Text
+        android_hyphenationFrequency="full"
         style={{
           fontFamily: fonte.corpo,
           fontSize: Math.round(tipo.small * escala),
+          lineHeight: Math.round(tipo.small * escala * 1.5),
           color: paleta.tinta2,
-          textAlign: 'center',
+          textAlign: 'justify',
           marginTop: espaco.s,
         }}
       >

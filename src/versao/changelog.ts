@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.16',
+    data: '2026-09-04',
+    linhas: [
+      'A rota da palpação hepática foi redesenhada: rótulos fora do desenho, margem livre à esquerda, nada mais se sobrepõe',
+      'As legendas das ilustrações agora são justificadas, como o restante da prosa de leitura',
+      'Retoque na seta da cauda de Spence na ilustração do exame das mamas',
+    ],
+  },
+  {
     versao: '1.2.15',
     data: '2026-09-04',
     linhas: [

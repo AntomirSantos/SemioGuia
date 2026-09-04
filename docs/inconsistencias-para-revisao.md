@@ -684,3 +684,11 @@ texto original pré-conversão, conferidos um a um contra o git. Vale conferir
 na leitura: dermátomos (Sensibilidade e coordenação), prolapso por
 compartimento (Exame ginecológico), quadro da próstata (Toque retal) e o
 eixo dos 3 Ds.
+
+**Complemento (v1.2.16):** ajustes pedidos pelo autor após ver a v1.2.15: a
+ilustração da rota da palpação hepática foi redesenhada do zero (o tronco
+deslocado para a direita abre margem livre para os rótulos; o rótulo "desce
+na inspiração" saiu do desenho porque a legenda já o diz; nada mais se
+sobrepõe); as legendas das ilustrações passaram a ser justificadas como o
+restante da prosa; e a seta da cauda de Spence foi retocada. Nenhum
+conteúdo mudou, só o desenho e a tipografia.

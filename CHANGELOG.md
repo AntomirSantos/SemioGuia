@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.16 (2026-09-04)
+
+- A rota da palpação hepática foi redesenhada: rótulos fora do desenho, margem livre à esquerda, nada mais se sobrepõe
+- As legendas das ilustrações agora são justificadas, como o restante da prosa de leitura
+- Retoque na seta da cauda de Spence na ilustração do exame das mamas
+
 ## 1.2.15 (2026-09-04)
 
 - Modo plantão: "achei um sinal no exame, e agora?", busca instantânea do achado ao significado, às causas e ao tópico

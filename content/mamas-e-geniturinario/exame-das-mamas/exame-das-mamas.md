@@ -242,7 +242,7 @@ svg: |
       <path d="M 76 152 L 122 128" />
       <path d="M 113 128 L 122 128 L 117 135" />
       <path d="M 236 90 L 221 83" />
-      <path d="M 228 79 L 220 83 L 226 90" />
+      <path d="M 230 82 L 221 83 L 226 90" />
     </g>
   </svg>
 legenda: "Os territórios que a palpação não deixa de fora: os quatro quadrantes traçados pelas linhas vertical e horizontal do mamilo, a região subareolar e o prolongamento axilar (cauda de Spence), que termina dentro da axila."
