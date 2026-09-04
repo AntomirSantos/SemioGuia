@@ -90,7 +90,7 @@ referencias:
   - "Porto — Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 1 (Região Bucomaxilofacial), cap. 67 (Exame Clínico) — halitose e suas causas locais e gerais; xerostomia; síndrome da ardência bucal"
   - "Semiologia Clínica, 1ª ed., cap. 8 (Semiologia de cabeça e pescoço) — Nariz e seios paranasais: técnicas de exame do nariz e das narinas, sinal da vela; Orelhas: anatomia da orelha externa (Figura 14), fases condutiva e neurossensorial da audição, queixas relacionadas, inspeção, palpação do trago e da mastoide, otoscopia, teste da voz sussurrada e testes com diapasão (Figura 15); Boca, faringe e laringe: fatores de risco e mudança epidemiológica do carcinoma espinocelular de cabeça e pescoço"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 24 (Hearing), p. 195-201 — epidemiologia da perda auditiva, técnica do teste da voz sussurrada, teste do atrito dos dedos e do relógio, testes com diapasão de Weber e de Rinne (Tabela 24.1) e boxe EBM 24.1"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

@@ -61,7 +61,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 51 (Palpation and Percussion of the Abdomen), p. 433-444 — comentários introdutórios sobre técnica; borda hepática palpável e boxe EBM 51.1; boxe EBM 51.2 (fígado e baço palpáveis em diferentes doenças); percussão auscultatória do fígado; baço palpável, posições de exame e etiologia da esplenomegalia; sinal de Courvoisier e boxe EBM 51.3; palpação da bexiga; aneurisma da aorta abdominal e pulsação expansiva"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 52 (Abdominal Pain and Tenderness), p. 445-447 e 454 — teste da parede abdominal de Carnett e sua leitura na dor abdominal aguda e crônica"
   - "Semiologia Clínica, 1ª ed., cap. 14 (Exame físico de abdome e sistema digestório) — Palpação superficial e profunda; palpação do fígado pelas técnicas de Mathieu (Figura 12) e de Lemos-Torres (Figura 13); palpação do baço em decúbito dorsal (Figura 14) e na posição de Schuster (Figura 15); palpação de massas abdominais e Tabela 3 (localização e causas); palpação das lojas renais (Figura 16); Tabela 4 (regras de bom senso)"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

@@ -60,7 +60,7 @@ referencias:
   - "Semiologia Clínica, 1ª ed., cap. 40 (Edema), seção Insuficiência hepática — ginecomastia como proliferação glandular benigna, sua diferenciação da adipomastia e o valor diagnóstico para cirrose, com razão de verossimilhança positiva de 6 a 35"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 8 (Jaundice), p. 60 — definição operacional de ginecomastia: botão discreto e palpável de tecido mamário firme subareolar com 2 cm ou mais de diâmetro"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 27 (Peripheral Lymphadenopathy), p. 237 — no estadiamento do carcinoma de mama conhecido, adenopatia axilar palpável com sensibilidade de 31% a 35%, especificidade de 94% a 98% e razão de verossimilhança 9,3 quando presente e 0,7 quando ausente; 18% a 33% das pacientes com axila negativa ao exame têm metástase linfonodal descoberta na cirurgia"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

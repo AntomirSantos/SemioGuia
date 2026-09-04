@@ -68,7 +68,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 12 (Protein-Energy Malnutrition and Weight Loss), p. 82-83 — técnica da força de preensão palmar com dinamômetro de mola, três tentativas com 10 segundos de intervalo e registro do maior valor; a exclusão explícita dos pacientes com artrite, acidente vascular ou outra causa evidente de fraqueza; a improvisação histórica com manguito aneroide enrolado e insuflado a 20 mmHg; boxe EBM 12.1, em que a preensão reduzida rende razão de verossimilhança 2,5 e a preensão normal 0,4, tendo como desfecho a complicação pós-operatória maior"
   - "Porto — Semiologia Médica, 8ª ed., cap. 8 (Exame Físico Geral), seção Sarcopenia, e Parte 20, cap. 181 (Semiologia do Idoso) — avaliação da força pela preensão palmar com dinamômetro isométrico, posicionamento do paciente sentado com ombros em abdução, cotovelo a 90 graus, antebraço neutro e punho entre 0 e 30 graus de dorsiflexão, com média de medidas repetidas; valores de referência abaixo de 30 kg em homens e de 20 kg em mulheres; a alternativa subjetiva do aperto de mão; e o teste da subida da cadeira, com corte de 15 segundos para cinco subidas, indicado quando a preensão é impossível por artrite ou sequela de acidente vascular"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 34, Tabela 5.1, seção Peripheral Nerve — concordância entre observadores para o diagrama da mão de Katz, o sinal do sacudir a mão, a hipoalgesia do indicador, o sinal de Tinel e o sinal de Phalen"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

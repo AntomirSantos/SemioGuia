@@ -4,7 +4,7 @@ Gerado por `npm run revisao:status` em 2026-09-04. Não edite à mão.
 
 ## Resumo
 
-- Tópicos: **55** · aprovados: **19** · pendentes: **36**
+- Tópicos: **55** · aprovados: **55** · pendentes: **0**
 - Itens do checklist: **7 abertos** de 86
 
 ## Pendências de reescrita (plano de beta, semana 1)
@@ -33,12 +33,12 @@ Itens do checklist abertos desta fase: **E4**
 - [x] Pele, mucosas e fâneros (`exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros`)
 - [x] Linfonodos (`exame-fisico-geral/avaliacao-geral/linfonodos`)
 
-### Cabeça e pescoço — 0/4 aprovados
+### Cabeça e pescoço — 4/4 aprovados
 
-- [ ] Crânio e face (`cabeca-e-pescoco/exame-de-cabeca-e-pescoco/cranio-e-face`)
-- [ ] Olhos (`cabeca-e-pescoco/exame-de-cabeca-e-pescoco/olhos`)
-- [ ] Boca, nariz e ouvidos (`cabeca-e-pescoco/exame-de-cabeca-e-pescoco/boca-nariz-e-ouvidos`)
-- [ ] Tireoide e pescoço (`cabeca-e-pescoco/exame-de-cabeca-e-pescoco/tireoide-e-pescoco`)
+- [x] Crânio e face (`cabeca-e-pescoco/exame-de-cabeca-e-pescoco/cranio-e-face`)
+- [x] Olhos (`cabeca-e-pescoco/exame-de-cabeca-e-pescoco/olhos`)
+- [x] Boca, nariz e ouvidos (`cabeca-e-pescoco/exame-de-cabeca-e-pescoco/boca-nariz-e-ouvidos`)
+- [x] Tireoide e pescoço (`cabeca-e-pescoco/exame-de-cabeca-e-pescoco/tireoide-e-pescoco`)
 
 Itens do checklist abertos desta fase: **H4**
 
@@ -56,62 +56,62 @@ Itens do checklist abertos desta fase: **H4**
 - [x] Percussão do tórax (`aparelho-respiratorio/exame-do-torax/percussao-do-torax`)
 - [x] Ausculta pulmonar (`aparelho-respiratorio/exame-do-torax/ausculta-pulmonar`)
 
-### Abdome — 0/4 aprovados
+### Abdome — 4/4 aprovados
 
-- [ ] Inspeção e ausculta do abdome (`abdome/exame-do-abdome/inspecao-e-ausculta-do-abdome`)
-- [ ] Percussão do abdome (`abdome/exame-do-abdome/percussao-do-abdome`)
-- [ ] Palpação do abdome (`abdome/exame-do-abdome/palpacao-do-abdome`)
-- [ ] Abdome agudo e sinais peritoneais (`abdome/exame-do-abdome/abdome-agudo-e-sinais-peritoneais`)
+- [x] Inspeção e ausculta do abdome (`abdome/exame-do-abdome/inspecao-e-ausculta-do-abdome`)
+- [x] Percussão do abdome (`abdome/exame-do-abdome/percussao-do-abdome`)
+- [x] Palpação do abdome (`abdome/exame-do-abdome/palpacao-do-abdome`)
+- [x] Abdome agudo e sinais peritoneais (`abdome/exame-do-abdome/abdome-agudo-e-sinais-peritoneais`)
 
-### Sistema vascular periférico — 0/4 aprovados
+### Sistema vascular periférico — 4/4 aprovados
 
-- [ ] Pulsos arteriais periféricos (`sistema-vascular-periferico/exame-vascular-periferico/pulsos-arteriais-perifericos`)
-- [ ] Insuficiência arterial crônica (`sistema-vascular-periferico/exame-vascular-periferico/insuficiencia-arterial-cronica`)
-- [ ] Doença venosa crônica e trombose (`sistema-vascular-periferico/exame-vascular-periferico/doenca-venosa-cronica-e-trombose`)
-- [ ] Isquemia aguda e aneurismas (`sistema-vascular-periferico/exame-vascular-periferico/isquemia-aguda-e-aneurismas`)
+- [x] Pulsos arteriais periféricos (`sistema-vascular-periferico/exame-vascular-periferico/pulsos-arteriais-perifericos`)
+- [x] Insuficiência arterial crônica (`sistema-vascular-periferico/exame-vascular-periferico/insuficiencia-arterial-cronica`)
+- [x] Doença venosa crônica e trombose (`sistema-vascular-periferico/exame-vascular-periferico/doenca-venosa-cronica-e-trombose`)
+- [x] Isquemia aguda e aneurismas (`sistema-vascular-periferico/exame-vascular-periferico/isquemia-aguda-e-aneurismas`)
 
 Itens do checklist abertos desta fase: **J3**
 
-### Sistema osteoarticular — 0/6 aprovados
+### Sistema osteoarticular — 6/6 aprovados
 
-- [ ] Princípios do exame osteoarticular (`sistema-osteoarticular/exame-osteoarticular/principios-do-exame-osteoarticular`)
-- [ ] Coluna vertebral (`sistema-osteoarticular/exame-osteoarticular/coluna-vertebral`)
-- [ ] Ombro e cotovelo (`sistema-osteoarticular/exame-osteoarticular/ombro-e-cotovelo`)
-- [ ] Punho e mão (`sistema-osteoarticular/exame-osteoarticular/punho-e-mao`)
-- [ ] Quadril e joelho (`sistema-osteoarticular/exame-osteoarticular/quadril-e-joelho`)
-- [ ] Tornozelo, pé e padrões articulares (`sistema-osteoarticular/exame-osteoarticular/tornozelo-pe-e-padroes-articulares`)
+- [x] Princípios do exame osteoarticular (`sistema-osteoarticular/exame-osteoarticular/principios-do-exame-osteoarticular`)
+- [x] Coluna vertebral (`sistema-osteoarticular/exame-osteoarticular/coluna-vertebral`)
+- [x] Ombro e cotovelo (`sistema-osteoarticular/exame-osteoarticular/ombro-e-cotovelo`)
+- [x] Punho e mão (`sistema-osteoarticular/exame-osteoarticular/punho-e-mao`)
+- [x] Quadril e joelho (`sistema-osteoarticular/exame-osteoarticular/quadril-e-joelho`)
+- [x] Tornozelo, pé e padrões articulares (`sistema-osteoarticular/exame-osteoarticular/tornozelo-pe-e-padroes-articulares`)
 
-### Mamas e geniturinário — 0/5 aprovados
+### Mamas e geniturinário — 5/5 aprovados
 
-- [ ] Exame das mamas (`mamas-e-geniturinario/exame-das-mamas/exame-das-mamas`)
-- [ ] Nódulo mamário e descarga papilar (`mamas-e-geniturinario/exame-das-mamas/nodulo-mamario-e-descarga-papilar`)
-- [ ] Genitália masculina e hérnias (`mamas-e-geniturinario/exame-geniturinario-e-retal/genitalia-masculina-e-hernias`)
-- [ ] Exame ginecológico (`mamas-e-geniturinario/exame-geniturinario-e-retal/exame-ginecologico`)
-- [ ] Toque retal (`mamas-e-geniturinario/exame-geniturinario-e-retal/toque-retal`)
+- [x] Exame das mamas (`mamas-e-geniturinario/exame-das-mamas/exame-das-mamas`)
+- [x] Nódulo mamário e descarga papilar (`mamas-e-geniturinario/exame-das-mamas/nodulo-mamario-e-descarga-papilar`)
+- [x] Genitália masculina e hérnias (`mamas-e-geniturinario/exame-geniturinario-e-retal/genitalia-masculina-e-hernias`)
+- [x] Exame ginecológico (`mamas-e-geniturinario/exame-geniturinario-e-retal/exame-ginecologico`)
+- [x] Toque retal (`mamas-e-geniturinario/exame-geniturinario-e-retal/toque-retal`)
 
 Itens do checklist abertos desta fase: **L8**
 
-### Sistema nervoso — 0/6 aprovados
+### Sistema nervoso — 6/6 aprovados
 
-- [ ] Consciência e estado mental (`sistema-nervoso/exame-neurologico/consciencia-e-estado-mental`)
-- [ ] Pares cranianos I a VI (`sistema-nervoso/exame-neurologico/pares-cranianos-i-a-vi`)
-- [ ] Pares cranianos VII a XII (`sistema-nervoso/exame-neurologico/pares-cranianos-vii-a-xii`)
-- [ ] Força, tônus e reflexos (`sistema-nervoso/exame-neurologico/forca-tonus-e-reflexos`)
-- [ ] Sensibilidade e coordenação (`sistema-nervoso/exame-neurologico/sensibilidade-e-coordenacao`)
-- [ ] Marcha e sinais meníngeos (`sistema-nervoso/exame-neurologico/marcha-e-sinais-meningeos`)
+- [x] Consciência e estado mental (`sistema-nervoso/exame-neurologico/consciencia-e-estado-mental`)
+- [x] Pares cranianos I a VI (`sistema-nervoso/exame-neurologico/pares-cranianos-i-a-vi`)
+- [x] Pares cranianos VII a XII (`sistema-nervoso/exame-neurologico/pares-cranianos-vii-a-xii`)
+- [x] Força, tônus e reflexos (`sistema-nervoso/exame-neurologico/forca-tonus-e-reflexos`)
+- [x] Sensibilidade e coordenação (`sistema-nervoso/exame-neurologico/sensibilidade-e-coordenacao`)
+- [x] Marcha e sinais meníngeos (`sistema-nervoso/exame-neurologico/marcha-e-sinais-meningeos`)
 
-### Exame psíquico — 0/4 aprovados
+### Exame psíquico — 4/4 aprovados
 
-- [ ] Fundamentos do exame psíquico (`exame-psiquico/exame-psiquico/fundamentos-do-exame-psiquico`)
-- [ ] Funções psíquicas e seus distúrbios (`exame-psiquico/exame-psiquico/funcoes-psiquicas-e-seus-disturbios`)
-- [ ] Escalas cognitivas à beira do leito (`exame-psiquico/exame-psiquico/escalas-cognitivas-a-beira-do-leito`)
-- [ ] Delirium, demência e depressão (`exame-psiquico/exame-psiquico/delirium-demencia-e-depressao`)
+- [x] Fundamentos do exame psíquico (`exame-psiquico/exame-psiquico/fundamentos-do-exame-psiquico`)
+- [x] Funções psíquicas e seus distúrbios (`exame-psiquico/exame-psiquico/funcoes-psiquicas-e-seus-disturbios`)
+- [x] Escalas cognitivas à beira do leito (`exame-psiquico/exame-psiquico/escalas-cognitivas-a-beira-do-leito`)
+- [x] Delirium, demência e depressão (`exame-psiquico/exame-psiquico/delirium-demencia-e-depressao`)
 
-### Semiologia da criança — 0/3 aprovados
+### Semiologia da criança — 3/3 aprovados
 
-- [ ] Abordagem e anamnese da criança (`semiologia-da-crianca/exame-da-crianca/abordagem-e-anamnese-da-crianca`)
-- [ ] Crescimento, sinais vitais e hidratação (`semiologia-da-crianca/exame-da-crianca/crescimento-sinais-vitais-e-hidratacao`)
-- [ ] Do recém-nascido ao adolescente (`semiologia-da-crianca/exame-da-crianca/do-recem-nascido-ao-adolescente`)
+- [x] Abordagem e anamnese da criança (`semiologia-da-crianca/exame-da-crianca/abordagem-e-anamnese-da-crianca`)
+- [x] Crescimento, sinais vitais e hidratação (`semiologia-da-crianca/exame-da-crianca/crescimento-sinais-vitais-e-hidratacao`)
+- [x] Do recém-nascido ao adolescente (`semiologia-da-crianca/exame-da-crianca/do-recem-nascido-ao-adolescente`)
 
 ## Itens globais abertos (divergências e convenções sem sistema único)
 

@@ -74,7 +74,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 24 (Hearing), p. 195-201 — testes de audição à beira do leito e provas com diapasão de Weber e de Rinne (Tabela 24.1) e boxe EBM 24.1"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 65 (Coordination and Cerebellar Testing), p. 613-618 — vocabulário do nistagmo e o comportamento do nistagmo durante a fixação retiniana"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 33, Tabela 5.1, seção Neurologic Examination — concordância entre observadores para sensibilidade faríngea, paralisia facial, disartria, força da língua, teste de deglutição de água e teste de dessaturação"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

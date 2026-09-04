@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.1',
+    data: '2026-09-04',
+    linhas: [
+      'Triagem de literatura concluída nos 12 sistemas: todos os 55 tópicos agora "Revisado"',
+      'Selo "Em revisão pelo autor" sai do app inteiro',
+      'Valores conferidos na literatura aberta e nas obras de referência, com divergências atribuídas',
+    ],
+  },
+  {
     versao: '1.2.0',
     data: '2026-09-04',
     linhas: [

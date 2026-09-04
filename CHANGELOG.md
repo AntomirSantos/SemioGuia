@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog` — edite lá.
 
+## 1.2.1 — 2026-09-04
+
+- Triagem de literatura concluída nos 12 sistemas: todos os 55 tópicos agora "Revisado"
+- Selo "Em revisão pelo autor" sai do app inteiro
+- Valores conferidos na literatura aberta e nas obras de referência, com divergências atribuídas
+
 ## 1.2.0 — 2026-09-04
 
 - Anamnese e exame físico geral revisados pela literatura: 19 tópicos agora "Revisado" na home

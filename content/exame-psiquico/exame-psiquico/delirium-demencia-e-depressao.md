@@ -47,7 +47,7 @@ referencias:
   - "Semiologia Clínica, 1ª ed., cap. 20 (A avaliação da saúde mental) — a pseudodemência depressiva nomeada no exame da memória: falhas comuns em quadros ansiosos e depressivos, com queixas de perda de memória, dificuldade de planejamento e a sensação de tarefas simples insuportavelmente complexas; a avaliação da saúde mental do idoso com acompanhante ou informante, cognição, sintomas depressivos e ansiosos e revisão das medicações; e a suspeita de doença neurológica no distúrbio comportamental atípico"
   - "Semiologia Clínica, 1ª ed., cap. 23 (Alterações da consciência) — delirium como confusão mental de causa orgânica com diminuição da atenção, hipoativo, hiperativo ou misto; as causas mais comuns (infecções urinárias e pneumonias, doenças pulmonares e cardíacas descompensadas, alterações da glicemia, medicamentos, pós-operatórios); os idosos e as pessoas com demência como os mais propensos e de pior evolução; e o caso clínico do delirium hipoativo por infecção urinária e distúrbio metabólico"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 6 (Mental Status Examination), p. 39-43 — demência como síndrome clínica de deterioração da cognição, do comportamento e da autonomia, afetando 9 a 13% dos maiores de 65 anos na comunidade; a exclusão do delirium antes do diagnóstico de demência (p. 39); delirium como estado confusional agudo e reversível de até 20% dos idosos hospitalizados por doença clínica aguda (p. 42); e a advertência de que, em qualquer paciente com delirium, os testes de demência à beira do leito são imprecisos pela alta taxa de falso-positivos (p. 43)"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

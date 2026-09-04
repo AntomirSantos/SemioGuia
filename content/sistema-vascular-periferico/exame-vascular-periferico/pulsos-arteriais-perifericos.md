@@ -51,7 +51,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 54 (Peripheral Vascular Disease), p. 461-465 — frequência da ausência dos pulsos pediosos em pessoas saudáveis e a compensação recíproca entre a pediosa e a tibial posterior; a ausência dos dois pulsos pediosos como melhor teste de rastreamento; sopros do membro (ilíaco, femoral e poplíteo) e o desaparecimento do sopro na oclusão completa; comportamento dos pulsos com o exercício"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 17 (Blood Pressure), p. 131 — diferenças de pressão entre braços e pernas; coarctação da aorta: hipertensão nos braços, pulsos femorais ausentes ou diminuídos e retardados, pulsações carotídeas aumentadas, sopros e artérias colaterais visíveis; a palpação simultânea de femoral e radial na pessoa saudável e o retardo na coarctação; desempenho do exame de beira do leito em 1.206 crianças"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 32, Tabela 5.1, seção Peripheral Vascular Disease — concordância entre observadores para pulso periférico presente versus ausente e para pulso normal versus diminuído"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

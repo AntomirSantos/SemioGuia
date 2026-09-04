@@ -479,8 +479,9 @@ da oclusão arterial transitória não recebeu resposta e segue aberto.
 - [x] Os 8 tópicos da Fase 5: revisados na triagem de literatura de
   2026-09-03 (cardio + respiratório), hoje `revisao: ok` e marcados
   "Revisado" no app.
-- [ ] Os 3 tópicos de sinais vitais e os 3 casos clínicos (pendentes desde
-  as fases anteriores; ver `docs/revisao-medica-pendente.md`).
+- [ ] Os 3 casos clínicos (aguardando endosso; os 3 tópicos de sinais
+  vitais foram revisados na triagem craniocaudal de 2026-09-04 — ver
+  `docs/revisao-medica-pendente.md` para o histórico).
 - [ ] Adição opcional: manobra de **oclusão arterial transitória** na
   tabela de sopros (McGee, LR 48,7; sem fármaco).
 

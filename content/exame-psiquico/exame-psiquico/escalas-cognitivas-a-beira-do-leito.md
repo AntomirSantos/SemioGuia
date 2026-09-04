@@ -55,7 +55,7 @@ referencias:
   - "Semiologia Clínica, 1ª ed., cap. 20 (A avaliação da saúde mental), Instrumentos para avaliação da saúde mental — a regra de que o instrumento auxilia e nunca substitui a avaliação; PRIME-MD e PRIME-MD PHQ; instrumentos de depressão com sensibilidade de 84% e especificidade de 72%, considerados longos para a rotina; PHQ-9 e o episódio depressivo maior segundo o DSM-5; GAD-7 com corte de 10 e as duas questões do GAD-2; PHQ-2 como triagem rápida da depressão; miniexame com cerca de 75% de sensibilidade e 70% de especificidade em 10 minutos; teste do desenho do relógio sem padronização de escore, mas útil pela simplicidade e pela gama de funções avaliadas"
   - "Semiologia Clínica, 1ª ed., cap. 23 (Alterações da consciência) — para pessoas sedadas, as escalas de Ramsay e de Richmond Agitation-Sedation Scale (RASS) como as mais adequadas à avaliação do nível de consciência"
   - "Semiologia Clínica, 1ª ed., cap. 67 (Semiologia do idoso), avaliação cognitiva — o miniexame como rastreio que pede confirmação por outro instrumento; os cortes de 20 para analfabetos e 24 para escolarizados de Almeida et al. (especificidade de 70,9% e sensibilidade de 80%) e o corte de 18 em analfabetos de Caramelli et al.; o teste de recordação tardia de 10 objetos; o teste do desenho do relógio com sensibilidade de 90% e especificidade de 83,3% e a fluência verbal, ambos influenciados pela escolaridade"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

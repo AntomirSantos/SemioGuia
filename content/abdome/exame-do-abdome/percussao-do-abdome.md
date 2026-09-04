@@ -50,7 +50,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 51 (Palpation and Percussion of the Abdomen), p. 433-444 — hepatimetria percutida e suas fontes de erro; boxe EBM 51.1 (detecção de fígado e baço aumentados); sinais percutórios do baço (sinal da percussão esplênica de Castell, método de Nixon, macicez do espaço de Traube); ascite: achados, patogenia (experimentos de Müller), volume necessário e boxe EBM 51.4; percussão suprapúbica e volume vesical"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 29 (Palpation and Percussion of the Chest), p. 252-259 — influência da força do golpe sobre a nota percutida"
   - "Semiologia Clínica, 1ª ed., cap. 14 (Exame físico de abdome e sistema digestório) — Percussão: pontos de referência (Figura 6), hepatimetria normal (Figura 7), percussão esplênica (Figura 8), espaço de Traube (Figura 9), pesquisa de ascite (macicez móvel, semicírculo de Skoda e sinal do piparote, Figura 11) e causas mais frequentes de ascite"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

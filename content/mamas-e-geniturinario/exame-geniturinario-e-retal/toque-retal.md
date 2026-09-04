@@ -63,7 +63,7 @@ referencias:
   - "Semiologia Clínica, 1ª ed., cap. 17 (Exame das vias urinárias e sistema reprodutor masculino) — o toque retal como parte do exame urológico em homens com mais de 40 anos e, em qualquer idade, na suspeita de problemas prostáticos ou orificiais; realização ao final do exame clínico; posições supina com coxas fletidas, ortostática curvada sobre a maca e decúbito lateral; inspeção do ânus antes do toque; luva com lubrificação; próstata na parede anterior, com o ápice a 3 ou 4 cm da borda anal; consistência fibroelástica e tamanho de castanha portuguesa; avaliação de tamanho, nódulos, áreas endurecidas, dor e flutuação (abscesso); dor e calor sugerindo prostatite aguda; palpação bimanual da pelve com toque retal ou vaginal na avaliação de massas; sensibilidade perineal e tônus esfincteriano na suspeita neurológica"
   - "Semiologia Clínica, 1ª ed., cap. 31 (Constipação intestinal) — o exame retal com inspeção estática, dinâmica e toque como etapa útil que a maioria dos médicos não realiza; toque revelando estenose, espasmo, retocele, prolapso, impactação fecal e neoplasias"
   - "Semiologia Clínica, 1ª ed., cap. 42 (Manifestações hemorrágicas do trato digestório) — toque retal necessário na hemorragia digestiva para verificar fezes com melena ou hematoquezia no dedo de luva"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

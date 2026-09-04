@@ -69,7 +69,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 17 (Blood Pressure), p. 133-134 — pressão arterial e consciência comprometida; boxe EBM 17.3 (pressão sistólica de 160 mmHg ou mais e lesão estrutural)"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 19 (Respiratory Rate and Abnormal Breathing Patterns), p. 148-150 — respiração de Cheyne-Stokes: descrição do ciclo, fases de hiperpneia e de apneia e os achados que as acompanham"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 21 (The Pupils), p. 161-180 — boxe EBM 21.1: anisocoria acima de 1 mm e reação fotomotora preservada no paciente em coma"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

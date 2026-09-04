@@ -58,7 +58,7 @@ referencias:
   - "Semiologia Clínica, 1ª ed., cap. 51 (Sangramento e trombose) — Tabela 4 (sinais da trombose venosa profunda com sensibilidade e especificidade); definição do sinal de Homans e o cisto de Baker como principal diagnóstico diferencial; sinal da bandeira; a proporção de pacientes assintomáticos; diagnósticos diferenciais da trombose venosa profunda"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 56 (Edema and Deep Vein Thrombosis), p. 473-478 — causas de edema unilateral e bilateral; descrição do linfedema e do lipedema; divisão da trombose em proximal e distal; assimetria de panturrilha acima de 1,5 cm como anormal; crítica da base anatômica dos sinais tradicionais; história do sinal de Homans e as redefinições sucessivas; pseudotromboflebite e o cisto de Baker, com a equimose em crescente perto dos maléolos; boxe EBM 56.1 (acurácia dos sinais físicos); fatores de risco e a Tabela 56.1 com o escore de Wells; boxe EBM 56.2"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 32, Tabela 5.1, seção Edema and Deep Venous Thrombosis — concordância entre observadores para edema postural e para a probabilidade pré-teste de trombose venosa profunda"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

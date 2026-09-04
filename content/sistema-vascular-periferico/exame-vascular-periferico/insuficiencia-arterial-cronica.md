@@ -54,7 +54,7 @@ referencias:
   - "Semiologia Clínica, 1ª ed., cap. 60 (Insuficiência arterial periférica) — definição, fatores de risco e a proporção de portadores assintomáticos; sintomas nos membros inferiores; exame clínico e estigmas a procurar; a advertência de que perda de pelos, temperatura e tempo de enchimento capilar não são achados confiáveis e o valor da assimetria; índice tornozelo-braquial, técnica com o Doppler, pontos de corte e artéria não compressível"
   - "Semiologia Clínica, 1ª ed., cap. 12 (Exame do sistema vascular periférico) — inspeção da insuficiência arterial e da insuficiência venosa; Tabela 1 (reconhecimento de síndromes clínicas pelos achados de exame), com a manobra de elevação do membro e o rubor reacional"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 54 (Peripheral Vascular Disease), p. 461-466 — os três segmentos anatômicos e a Tabela 54.1 (localização da claudicação e padrão dos pulsos); o índice tornozelo-braço como padrão diagnóstico e suas faixas; sinais prodrômicos descritos por Buerger em 1924; tempo de enchimento venoso e tempo de enchimento capilar, com as técnicas e os pontos de corte; teste de Buerger; boxe EBM 54.1 (razões de verossimilhança dos achados na doença vascular periférica); achados sem valor diagnóstico; ITB por palpação e por oximetria de pulso; distribuição da doença e o valor do pulso femoral ausente"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

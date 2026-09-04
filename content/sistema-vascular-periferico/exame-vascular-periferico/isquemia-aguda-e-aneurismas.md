@@ -48,7 +48,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 51 (Palpation and Percussion of the Abdomen), p. 444 — aneurisma da aorta abdominal: definição, prevalência acima dos 50 anos e mortalidade da ruptura; técnica de medida entre as duas mãos; pulsação expansiva; boxe EBM 51.3; efeito do tamanho do aneurisma e do perímetro abdominal sobre a sensibilidade do exame; aorta tortuosa como causa mais comum de falso-positivo"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 32, Tabela 5.1 — concordância entre observadores para aneurisma da aorta abdominal presente versus ausente"
   - "Semiologia Clínica, 1ª ed., cap. 12 (Exame do sistema vascular periférico) — pulsos assimétricos por obstrução embólica ou trombótica; ausculta dos trajetos arteriais; Tabela 1 (reconhecimento de síndromes clínicas pelos achados de exame), com a linha de insuficiência arterial"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

@@ -62,7 +62,7 @@ referencias:
   - "Porto — Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 1 (Região Bucomaxilofacial), cap. 67 (Exame Clínico) — limitação da abertura bucal (trismo) e suas causas; disfunção temporomandibular: dor articular × dor muscular, ruídos articulares e pontos-gatilho"
   - "Semiologia Clínica, 1ª ed., cap. 8 (Semiologia de cabeça e pescoço) — Crânio e couro cabeludo: regiões do segmento cefálico (Figura 1), inspeção e palpação, Tabela 2 (alterações na inspeção da cabeça); Face: mímica, assimetrias, parótidas, pele da face e a linha trago-narina; conjuntos faciais (cefaleia em salvas, lúpus, celulite, herpes-zóster — Figuras 2 e 3); Nariz e seios paranasais: palpação e percussão dos seios frontais e maxilares, transiluminação"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 30, Tabela 5.1, seção Head and Neck — concordância entre observadores para achados de cabeça e pescoço: pupilas, audição, tireoide e meninges"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

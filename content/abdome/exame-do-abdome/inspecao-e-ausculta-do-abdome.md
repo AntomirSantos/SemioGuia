@@ -70,7 +70,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 53 (Auscultation of the Abdomen), p. 457-460 — sopros abdominais em pessoas saudáveis e na hipertensão renovascular (boxe EBM 53.1), atrito hepático, variabilidade e propagação dos ruídos intestinais"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 52 (Abdominal Pain and Tenderness), p. 452-454 — boxe EBM 52.4, sinais de obstrução intestinal (peristaltismo visível, distensão abdominal, ruídos hiperativos)"
   - "Semiologia Clínica, 1ª ed., cap. 14 (Exame físico de abdome e sistema digestório) — divisões do abdome (Figura 1), posicionamento (Figura 2), Tabela 1 (roteiro do exame abdominal), Tabela 2 e Figura 3 (tipos de abdome), tipos de circulação colateral (Figura 4), ausculta (patinhação, borborigmo, ruído metálico) e pontos de referência dos sopros vasculares (Figura 5)"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

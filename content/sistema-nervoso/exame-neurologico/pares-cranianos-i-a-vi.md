@@ -79,7 +79,7 @@ referencias:
   - "Semiologia Clínica, 1ª ed., cap. 8 (Semiologia de cabeça e pescoço) — Oftalmoscopia: indicações do exame de fundo de olho, técnica com o oftalmoscópio, papiledema, cruzamentos arteriovenosos patológicos (sinal de Gunn) e arteríolas em fios de cobre, manchas e hemorragias retinianas, exsudatos duros e algodonosos e microaneurismas da retinopatia diabética"
   - "Porto — Semiologia Médica, 8ª ed., Parte 18 (Sistema Nervoso), cap. 174 (Doenças do Sistema Nervoso), Estado de coma — exame ocular do paciente comatoso: motricidade extrínseca e intrínseca, reflexo corneano e os achados de fundo de olho com valor etiológico"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 30 e p. 33, Tabela 5.1 — concordância entre observadores para os achados de retinopatia diabética (seção Head and Neck) e para os campos visuais por confrontação (seção Neurologic Examination)"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

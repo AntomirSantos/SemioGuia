@@ -71,7 +71,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 21 (The Pupils), p. 161-180 — tamanho da pupila normal e sua variação com a idade, hippus, anisocoria simples, anatomia do reflexo fotomotor e por que a doença aferente não produz anisocoria, abordagem da anisocoria (Figura 21.3), síndrome de Horner e boxe EBM 21.2"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 23 (The Red Eye), p. 187-194 — distinção entre doença ocular grave e benigna, testes de constrição pupilar e boxe EBM 23.1"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 25 (Thyroid and Its Disorders), p. 203-220 — retração palpebral (sinal de Dalrymple) e lid lag (sinal de von Graefe): definição, mecanismo e boxe EBM 25.4"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

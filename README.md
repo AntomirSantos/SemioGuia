@@ -18,14 +18,14 @@ do que as obras não cobrem declaradas ao leitor.
 (v1.2.x): onboarding com data da prova e plano diário, analytics local
 exportável, feedback in-app, compartilhamento de resultado OSCE e
 changelog visível. A passada única de revisão médica do autor está em
-andamento, em ordem craniocaudal — cardio, respiratório, anamnese e
-exame físico geral concluídos (método em
-`docs/triagem-literatura-cardio-resp.md`).
+concluída na triagem craniocaudal dos 12 sistemas (método em
+`docs/triagem-literatura-cardio-resp.md`); todos os tópicos aparecem
+como "Revisado" no app.
 
 | | |
 |---|---|
 | Sistemas | **12** (Anamnese → Semiologia da criança, ordem craniocaudal) |
-| Tópicos | **55** — 19 revisados (cardio, respiratório, anamnese, exame físico geral), 36 `revisao: pendente` |
+| Tópicos | **55** — todos revisados (triagem de literatura craniocaudal concluída) |
 | Casos clínicos interativos | **3** |
 | Questões de quiz | **327** (balanceadas por índice e comprimento) |
 | Checklists OSCE | **53** (viram estações de prática) |
@@ -69,12 +69,11 @@ exame físico geral concluídos (método em
 
 ## O que falta
 
-1. **Revisão médica do autor** — 36 tópicos seguem `revisao: pendente`
-   (cardiovascular, respiratório, anamnese e exame físico geral já
-   revisados, com selo "Em revisão" removido no app); a triagem de
-   literatura segue em ordem craniocaudal pelos sistemas restantes; o roteiro da revisão é `docs/inconsistencias-para-revisao.md`
-   (seções A–P: divergências entre as obras, convenções declaradas e
-   decisões editoriais a endossar) + os adendos por fase em
+1. **Fechamento da revisão** — a triagem de literatura craniocaudal
+   cobriu os 12 sistemas e todos os 55 tópicos estão `revisao: ok`
+   ("Revisado" no app). Restam poucos itens de checklist para o autor
+   (endossos H4/J3-iv, registros e os 3 casos clínicos) — roteiro em
+   `docs/inconsistencias-para-revisao.md` + adendos em
    `docs/verificacao-fase1b.md`.
 2. **Ativação do Firebase** — flag mestre desligada; passos em
    `docs/firebase-setup.md` (executar na máquina do autor).

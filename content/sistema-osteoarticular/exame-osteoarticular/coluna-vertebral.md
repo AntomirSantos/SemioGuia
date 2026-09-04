@@ -62,7 +62,7 @@ referencias:
   - "Semiologia Clínica, 1ª ed., cap. 28 (Artrites e artralgias), seção Espondiloartrites — características comuns do grupo, com lombalgia de padrão inflamatório, sacroileíte, artrite periférica de predomínio em membros inferiores, entesite e acometimento extra-articular"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 7 (Stance and Gait), p. 53 — postura fletida da estenose de canal, que reduz a tensão sobre os nervos lombossacros, e a observação de que esses pacientes se queixam de dor mas têm marcha por outro lado normal"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 30, Tabela 5.1, seção Lungs — concordância entre observadores para cifose"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

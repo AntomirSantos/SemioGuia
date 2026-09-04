@@ -63,7 +63,7 @@ referencias:
   - "Porto — Semiologia Médica, 8ª ed., Parte 12, Seção 5, cap. 117 (Doenças dos Testículos) — criptorquidia como a mais comum das anormalidades do desenvolvimento sexual; distribuição aproximada de 50% no anel inguinal externo ou na parte superior da bolsa, 20% no canal inguinal, 10% intra-abdominais e 20% verdadeiramente ectópicos; migração espontânea da maioria nos dois primeiros anos de vida; risco de câncer testicular quatro a sete vezes maior; distinção do testículo retrátil, reconduzível à bolsa"
   - "Semiologia Clínica, 1ª ed., cap. 17 (Exame das vias urinárias e sistema reprodutor masculino) — inspeção do pênis com retração do prepúcio como passo indispensável; inspeção do meato entre o indicador e o polegar; palpação delicada dos testículos entre as pontas dos dedos das duas mãos; áreas endurecidas como suspeita de neoplasia; escroto agudo com torção, orquiepididimite, infarto e trauma como diferenciais; sinais de Brunzel, Angell e Ger, mancha azul da torção do apêndice testicular, sinal de Prehn presente apenas na orquiepididimite e reflexo cremastérico geralmente abolido na torção; exame das hérnias inguinais iniciado em posição ortostática, com observação em repouso e durante a manobra de Valsalva; cordão espermático avaliado de pé; transiluminação das massas císticas"
   - "Semiologia Clínica, 1ª ed., cap. 2 (Comunicação clínica), seção sobre o acolhimento — entre os cuidados ao receber qualquer paciente, perguntar se deseja a presença do acompanhante"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

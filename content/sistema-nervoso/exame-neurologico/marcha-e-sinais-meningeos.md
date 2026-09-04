@@ -64,7 +64,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 64 (Disorders of Nerve Roots, Plexuses, and Peripheral Nerves), p. 606-611 — prova de elevação da perna estendida e sua variante cruzada, a origem do nome de Lasègue, o teste de estiramento do nervo femoral; boxes EBM 64.4 e 64.5 (diagnóstico e localização da radiculopatia lombossacra); fraqueza do abdutor do quadril no pé caído"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 63 (Examination of the Reflexes), p. 592-594 — reflexos primitivos: técnica do reflexo palmomentual, ausência de correlação entre o lado do reflexo e o lado da lesão, e frequência do achado em pessoas sem doença neurológica"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 29-34, Tabela 5.1 — concordância entre observadores para marcha anormal (p. 29), rigidez de nuca (p. 30), prova de elevação da perna estendida e prova cruzada (p. 34)"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

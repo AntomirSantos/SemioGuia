@@ -59,7 +59,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 53 (Auscultation of the Abdomen), p. 459-460 — ruídos intestinais na obstrução e na peritonite"
   - "Semiologia Clínica, 1ª ed., cap. 14 (Exame físico de abdome e sistema digestório) — sinal de Giordano e técnica da punho-percussão lombar (Figura 10); defesa da parede abdominal e abdome em tábua"
   - "Semiologia Clínica, 1ª ed., cap. Dor abdominal — dor no andar inferior do abdome: quadro clínico da apendicite aguda e sinais de McBurney, Rovsing e do psoas; diverticulite; peritonite generalizada; isquemia mesentérica"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

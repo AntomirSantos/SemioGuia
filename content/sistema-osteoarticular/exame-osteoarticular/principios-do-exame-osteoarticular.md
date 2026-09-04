@@ -59,7 +59,7 @@ referencias:
   - "Semiologia Clínica, 1ª ed., cap. 28 (Artrites e artralgias) — definição de artrite e artralgia e o primeiro passo do raciocínio; Tabela 1 (características inflamatórias e mecânicas); corte de 6 semanas; descrição do padrão de acometimento (mono, oligo até quatro articulações, poliarticular; simetria; aditivo ou migratório; predomínio de pequenas ou grandes articulações; queixas axiais); sinais clínicos de sinovite; etapas do exame geral ortopédico; etiologias das monoartrites; deformidades inicialmente redutíveis que evoluem para contratura fixa; Tabela 2 (diferenças clínicas entre osteoartrite e artrite reumatoide)"
   - "Semiologia Clínica, 1ª ed., cap. 15 (O exame do sistema locomotor) — sistematização do exame em inspeção estática, inspeção dinâmica, palpação de partes moles, palpação óssea e estruturas neurovasculares; avaliação de deformidade rígida ou flexível; Tabela 5 (graduação da força muscular de 0 a 5 e da sensibilidade de 0 a 2)"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 57 (Examination of the Musculoskeletal System), p. 481-485 — componentes do exame musculoesquelético e a amplitude de movimento como indicador mais sensível de doença articular; Tabela 57.1 (amplitudes normais); distinção entre doença articular e extra-articular pelo padrão de tumefação, hipersensibilidade e limitação dos movimentos ativos e passivos; definições de luxação, subluxação, valgo, varo e recurvatum; Tabela 57.2 (achados articulares anormais e diagnóstico implicado); a advertência de que, para muitos diagnósticos musculoesqueléticos, o próprio achado de beira de leito é o padrão diagnóstico, o que impede calcular razões de verossimilhança"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

@@ -45,7 +45,7 @@ referencias:
   - "Porto — Semiologia Médica, 8ª ed., Parte 19, cap. 176 (Exame Clínico) — Exame psíquico da criança: o aviso 1 a 2 dias antes da consulta, os jogos, desenhos e brinquedos, o caráter confidencial da entrevista com crianças maiores e adolescentes, a expressão espontânea até os 5 ou 6 anos e a repressão na criança maior; Roteiro para entrevista com os pais de uma criança na consulta psiquiátrica"
   - "Porto — Exame Clínico, 8ª ed., cap. 4 (Anamnese) — Anamnese em pediatria; cap. 6 (Sinais e Sintomas), Exame dos sons — dislalia fisiológica na criança até os 4 anos de idade"
   - "Semiologia Clínica, 1ª ed., cap. 66 (Semiologia do adolescente) — Introdução (a adolescência da OMS, 10 a 19 anos, ao lado da definição do ECA, 12 a 18); Particularidades e aspectos éticos da consulta do adolescente: privacidade, confidencialidade e sigilo (ECA, art. 7º; Código de Ética Médica, arts. 74 e 78), as situações que justificam a quebra de sigilo e o dever de informar primeiro o adolescente, e as três etapas da consulta no Instituto da Criança e do Adolescente do HC-FMUSP"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

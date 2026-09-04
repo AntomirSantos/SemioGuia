@@ -72,7 +72,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 7 (Stance and Gait), p. 45-58 — ataxia sensitiva e ataxia cerebelar; sinal de Romberg: a descrição original, o problema das definições, a melhor definição operacional e o desempenho nos três grupos de pacientes; sinal de Romberg sensibilizado"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 55 (The Diabetic Foot), p. 469-472 — monofilamento de Semmes-Weinstein: origem, calibração, técnica de aplicação e sítios de teste; boxe EBM 55.1 e a comparação com o diapasão de 128 Hz"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 32-34, Tabela 5.1, seções Sensory Examination, Coordination e Diabetic Foot — concordância entre observadores para tato, dor, sensibilidade vibratória, prova de Romberg, prova dedo-nariz, prova calcanhar-tíbia e sensação ao monofilamento"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao

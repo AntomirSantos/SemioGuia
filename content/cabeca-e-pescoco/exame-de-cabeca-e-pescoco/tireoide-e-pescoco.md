@@ -68,7 +68,7 @@ referencias:
   - "Porto — Semiologia Médica, 8ª ed., Parte 12 (Sistema Endócrino), Seção 2 (Tireoide), cap. 103 (Exame Clínico) — sintomas e sinais de hiper e hipofunção tireoidiana; Exame físico da tireoide: inspeção, três manobras de palpação (Figura 103.1), deglutição a seco e dados obtidos; nódulos e bócio; oftalmopatia tireotóxica (Quadro 103.1) e mixedema pré-tibial"
   - "Semiologia Clínica, 1ª ed., cap. 8 (Semiologia de cabeça e pescoço) — Pescoço: inspeção e palpação estáticas e dinâmicas, reparos da linha média no sentido craniocaudal, trígonos anterior e posterior e divisão por níveis (Figura 19), massas cervicais congênitas e adquiridas, Tabela 4 (sinais de alerta nos nódulos cervicais); Tireoide: anatomia, fisiopatologia do bócio, Tabela 5 (hipertireoidismo versus hipotireoidismo), técnicas de exame por acesso posterior e anterior (Figuras 21 e 22) e sinal de Pemberton"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 25 (Thyroid and Its Disorders), p. 203-220 — reparos da tireoide normal e tireoides alta e baixa (Figura 25.1); exame para bócio: extensão do pescoço e contorno cervical (Figura 25.2); observação da deglutição; definições de bócio e graduação da Organização Mundial da Saúde; bócios subesternais e sinal de Pemberton (Figura 25.3); cisto tireoglosso; pseudobócio; nódulo de Delfos (Figura 25.4); boxes EBM 25.1 (bócio), 25.2 (achados que predizem carcinoma), 25.3 (hipotireoidismo) e 25.4 (hipertireoidismo); nódulos ocultos"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
