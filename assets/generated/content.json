@@ -15568,6 +15568,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "A paciente segura a beirada do avental sem saber se despe agora, depois, quanto. Nada foi explicado. O exame das mamas se ganha ou se perde nesse minuto: as etapas ditas antes, o consentimento pedido de verdade, a exposição mínima. Nos exames íntimos, a conduta profissional não é cortesia — é a primeira metade da técnica.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -15639,6 +15643,11 @@
          "tipo": "conceito",
          "titulo": "Inspeção dinâmica — três manobras e o que elas revelam",
          "texto": "A inspeção dinâmica existe porque a mama é uma glândula suspensa: os **ligamentos de Cooper** a prendem à pele e à fáscia do peitoral. Um tumor que infiltra essa trama não se move com ela — e é o movimento que o denuncia.\n\n- **Elevação dos braços acima da cabeça.** Porto explica o mecanismo: aumenta a **tensão dos ligamentos suspensores**. A pele presa por um processo infiltrativo forma retração ou depressão que a posição de repouso escondia.\n- **Contração dos músculos peitorais.** O *Exame Clínico* a nomeia como a segunda manobra; a *Semiologia Médica* ensina o modo prático de obtê-la — as mãos **comprimindo a cintura**, sobre as asas dos ilíacos — e acrescenta um segundo propósito: avaliar se a neoplasia compromete o plano muscular.\n- **Inclinação anterior do tronco.** Vem de Semiologia Clínica, com indicação precisa: mamas **grandes ou pêndulas**, cuja face inferior e sulco inframamário a posição ereta esconde. A mama pendendo desdobra o que estava encostado.\n\nO que as três procuram é o mesmo: **revelar ou acentuar retrações, abaulamentos e alterações da papila e da aréola**. Porto acrescenta a leitura de probabilidade: essas alterações dinâmicas ocorrem sobretudo nos tumores malignos **avançados** — a inspeção dinâmica negativa não tranquiliza; a positiva preocupa.\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Por que a inspeção das mamas se faz em mais de uma posição — braços ao lado, elevados, mãos na cintura?\n",
+         "resposta": "Porque a contração do peitoral e a mudança de posição tensionam os ligamentos e evidenciam retrações e abaulamentos que a posição neutra esconde. A retração que só aparece com o braço elevado ainda é retração — e é justamente a que se perderia num exame de posição única.\n"
         },
         {
          "tipo": "secao",
@@ -15719,6 +15728,14 @@
         {
          "tipo": "perola",
          "texto": "A régua do exame das mamas é a outra mama da mesma paciente. Porto manda começar pela mama sem queixa exatamente por isso: ela calibra a mão para o parênquima daquela pessoa, naquela fase do ciclo — e transforma a pergunta impossível 'isto é normal?' na pergunta respondível 'isto é igual ao outro lado?'."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "O contrato vem antes da técnica: etapas explicadas, consentimento prévio, exposição mínima e progressiva.",
+          "Inspeção em várias posições — a retração que só aparece com o braço elevado é a que o exame de posição única perde.",
+          "A palpação cobre a mama inteira, o prolongamento axilar e os linfonodos — axilares e supraclaviculares fazem parte do exame."
+         ]
         },
         {
          "tipo": "secao",
@@ -15860,6 +15877,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "\"Achei um caroço no banho.\" A frase chega carregada do medo que a paciente não diz. Antes de tocar, interrogue o nódulo — quando apareceu, quantos, cresce, muda com o ciclo — e depois descreva-o por inteiro: a sua descrição de hoje é a régua com que o próximo examinador saberá se a doença andou. Todo nódulo é suspeito até prova em contrário; nem todo nódulo é o que ela teme.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -15957,6 +15978,11 @@
          "tipo": "entendimento",
          "titulo": "Como ler a tabela sem ser traído por ela",
          "texto": "A tabela vem dos boxes e descrições de Porto — os limites, a consistência, a mobilidade, o diâmetro e a fixação como as características que orientam o raciocínio **mesmo quando há métodos complementares sofisticados**. Mas ela pede três antídotos.\n\n**A coluna da esquerda não é um alvará.** Porto avisa que o câncer inicial, com menos de meio centímetro, é **indistinguível** das afecções benignas — o perfil tranquilizador descreve a maioria dos nódulos benignos, e também o câncer pequeno demais para ter adquirido o perfil da direita. Por isso todo nódulo segue para investigação.\n\n**A dor é a linha mais traiçoeira.** O câncer de mama tipicamente **não dói** — a *Semiologia Médica* registra o nódulo indolor como a manifestação mais comum. A paciente que se tranquiliza porque \"não dói\" tem a lógica exatamente invertida; e a que se apavora com a mastalgia cíclica bilateral carrega a queixa com menor relação com câncer de todo o capítulo.\n\n**O perfil da direita é tardio.** Fixação, ulceração e casca de laranja são a biografia de um tumor que teve tempo. O objetivo do exame — e da descrição meticulosa — é encontrar o nódulo **antes** de ele preencher essa coluna.\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "A mastalgia — dor mamária — aumenta a suspeita de câncer de mama?\n",
+         "resposta": "Não: a mastalgia responde por metade das queixas em mastologia e não tem relação com o câncer — mas produz muita ansiedade. Classifique-a (cíclica, acíclica ou extramamária) e devolva-a ao seu lugar; quem acusa é o conjunto do exame, não a dor.\n"
         },
         {
          "tipo": "secao",
@@ -16100,6 +16126,14 @@
         {
          "tipo": "perola",
          "texto": "O derrame papilar tem uma aritmética que cabe num bolso: quanto mais ductos, mais lados e mais provocação, mais benigno; quanto mais único, mais espontâneo e mais claro ou mais vermelho o líquido, mais atenção. Bilateral, multiductal e provocado tranquiliza; unilateral, uniductal, espontâneo — sanguinolento ou em água de rocha — investiga-se sempre."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "O nódulo se interroga antes de se tocar — quando, quantos, velocidade, ciclo — e se descreve por inteiro: a descrição é a régua da próxima consulta.",
+          "Mastalgia não tem relação com câncer; a descarga que preocupa é a espontânea, unilateral, uniductal e sanguinolenta.",
+          "Todo nódulo é suspeito até prova em contrário — o exame clínico descreve, os métodos complementares concluem."
+         ]
         },
         {
          "tipo": "secao",
@@ -16263,6 +16297,10 @@
        ],
        "revisao": "aprovada",
        "blocos": [
+        {
+         "tipo": "cena",
+         "texto": "O rapaz de 22 anos demorou três meses para contar do \"caroço no testículo\" — vergonha. As neoplasias testiculares acometem sobretudo homens entre 20 e 40 anos, e o exame que as encontra leva dois minutos: luvas, explicação antes de cada etapa e uma palpação de extrema delicadeza, que aqui não é cortesia — tem justificativa oncológica.\n"
+        },
         {
          "tipo": "secao",
          "titulo": "O essencial"
@@ -16432,6 +16470,11 @@
          "texto": "Varicocele é a dilatação tortuosa das veias do **plexo pampiniforme**, no cordão espermático. A sensação palpatória tem a comparação mais famosa da urologia — um **saco cheio de vermes** —, acima e atrás do testículo.\n\nTrês regras práticas, todas ancoradas:\n\n1. **De pé, sempre.** As veias se enchem com o ortostatismo e podem esvaziar por completo no decúbito — a varicocele examinada só na maca é a varicocele não diagnosticada. Semiologia Clínica manda avaliar o cordão em posição ortostática, e a **manobra de Valsalva** — a mesma que o guia usa nas hérnias, nos sopros e nos linfonodos supraclaviculares, sempre pelo mesmo mecanismo de aumento da pressão intra-abdominal e do enchimento venoso — evidencia as pequenas. A *Semiologia Médica* gradua por ela: tipo I visível à inspeção (acima de 2 cm ao esforço), tipo II visível com menos facilidade (1 a 2 cm), tipo III só palpável durante a manobra (abaixo de 1 cm).\n2. **Esquerda é a regra, direita é o alerta.** O predomínio esquerdo é maciço — a veia espermática esquerda desemboca na veia renal, sem válvulas, enquanto a direita vai à cava. Porto transforma a anatomia em conduta: **varicocele direita obriga a procurar tumor retroperitoneal**. E a *Semiologia Médica* soma o critério do comportamento: a varicocele **secundária** aparece de repente, depois dos 40, e **não esvazia no decúbito**.\n3. **Olhe o testículo do lado afetado**: mais baixo e, nas varicoceles grandes, menor e menos consistente que o oposto — o dado que liga o achado à queixa de infertilidade.\n"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Um aumento da bolsa escrotal pode ser hérnia, hidrocele ou massa testicular. Que dois gestos simples começam a separá-los?\n",
+         "resposta": "A transiluminação — o conteúdo líquido da hidrocele deixa a luz passar, a massa sólida não — e a manobra de esforço com a palpação do canal inguinal: a hérnia se insinua com a tosse e pode ser redutível. O que não transilumina nem reduz pede investigação.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Hérnias inguinais e inguinoescrotais"
         },
@@ -16491,6 +16534,14 @@
         {
          "tipo": "perola",
          "texto": "Três instrumentos resolvem a bolsa escrotal: a lanterna, os dedos acima da massa e o decúbito. O que transilumina é líquido; o que não deixa os dedos passarem por cima vem do canal inguinal; o que some deitado é hérnia ou varicocele. Quando os três falham ao mesmo tempo — a hidrocele irredutível no anel, que Porto admite indistinguível da hérnia estrangulada —, a resposta é a ultrassonografia, com pressa."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Luvas sempre, etapa anunciada antes de executada, e palpação testicular de extrema delicadeza — a gentileza aqui tem justificativa oncológica.",
+          "No aumento escrotal, transiluminação e manobra de esforço começam a separar hidrocele, hérnia e massa — e a massa sólida do jovem tem pressa.",
+          "As hérnias se examinam de pé e com esforço; a que não reduz e dói é urgência."
+         ]
         },
         {
          "tipo": "secao",
@@ -16643,6 +16694,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "Para muitas mulheres, este exame inaugura o contato com um profissional de saúde — e a memória desse primeiro encontro decide os próximos vinte anos de rastreamento. Etapas explicadas antes, consentimento verdadeiro, avental e lençol, desnudamento progressivo: nenhum exame do guia depende tanto do contrato quanto este.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -16727,6 +16782,11 @@
          "texto": "O espéculo é um instrumento de **duas lâminas articuladas** de limites rombos — o modelo mais citado é o de **Collins** — e existe em tamanhos diferentes: a escolha certa é parte da técnica, de meninas com hímen perfurado a mulheres idosas com atrofia.\n\n**Introduzir.** As obras descrevem o gesto com ênfases distintas, e o guia as põe lado a lado: o *Exame Clínico* manda introduzir com **angulação de 45°** para desviar do meato uretral; Semiologia Clínica detalha — lâminas **fechadas**, entrando em plano **oblíquo ou transverso** em relação ao introito, com o **vetor de força para a parede posterior**, mais distensível, progredindo cerca de dois terços e rodando as lâminas ao plano transverso no terço final. A outra mão afasta os pequenos lábios. Lubrificante? Semiologia Clínica o recomenda expressamente — facilita em jovens, na pós-menopausa e na inflamação —; as obras de Porto não tratam do ponto, e o guia registra a recomendação como sendo daquela fonte.\n\n**Ver.** Abertura suave, o colo posicionado **entre as lâminas** — uma leve tração com o espéculo entreaberto ajuda a encontrá-lo quando está muito anterior ou posterior. Descrevem-se: **paredes vaginais** (trofismo), **secreções** (a fisiológica é clara, límpida, de pH inferior a 4,5; volume, cor, consistência e odor quando anormal), **colo** (localização, morfologia, tamanho, orifício externo, lacerações, pólipos) e **fundos de saco** — cujo **abaulamento** pode denunciar tumoração pélvica ou coleção intra-abdominal, sangue ou pus: é o mesmo fundo de saco que o toque e o tópico do abdome agudo interrogam por outras vias.\n\n**Retirar vendo.** A *Semiologia Médica* dá o detalhe que separa o exame completo do incompleto: a retirada **lenta**, fechando gradualmente as lâminas, é o único momento em que se veem as paredes que o espéculo recobria.\n\n**A paciente virgem é um limite, com divergência declarada.** O guia adota a posição da Semiologia Clínica: espéculos menores permitem examinar pacientes com hímen **íntegro, desde que perfurado** — quando houver indicação clara e consentimento. A posição contrária fica atribuída: a *Semiologia Médica* proíbe toque vaginal e espéculo com hímen íntegro — o chamado espéculo de virgem traumatiza — e remete as informações ao **toque retal** e a visualização ao **colpovirgoscópio**, que o guia nomeia sem ensinar. O que nenhuma obra autoriza é o exame contra a vontade ou sem necessidade clara.\n"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Qual é o momento do exame especular que separa o exame completo do incompleto?\n",
+         "resposta": "A retirada — lenta, fechando gradualmente as lâminas e olhando: é o único momento em que se veem as paredes vaginais que o espéculo recobria. Quem retira o espéculo de uma vez examinou o colo e deixou as paredes sem ver.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Toque bimanual"
         },
@@ -16786,6 +16846,14 @@
         {
          "tipo": "perola",
          "texto": "Porto exige que o exame ginecológico não se restrinja a um simples toque vaginal — e a frase corta nos dois sentidos: o exame sem toque é incompleto, e o toque sem o resto é quase cego. A sequência inteira — inspeção em repouso, esforço, espéculo, toque — é um funil em que cada etapa diz onde a seguinte deve olhar."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "O contrato rege o exame: etapas explicadas, consentimento, desnudamento progressivo — e a ordem do menos ao mais íntimo.",
+          "No espéculo, o vetor de força vai para a parede posterior, e a retirada lenta vendo as paredes é o que completa o exame.",
+          "O toque bimanual define posição, volume, consistência, mobilidade e dor do útero e dos anexos — e a dor à mobilização do colo é sinal de alarme."
+         ]
         },
         {
          "tipo": "secao",
@@ -16943,6 +17011,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "Sangue nas fezes há duas semanas, e o paciente já veio com o diagnóstico pronto: \"é hemorroida, doutor\". O tópico da entrevista clínica contou o que Porto chama de imperdoável — o médico que assume esse rótulo sem o exame anorretal e perde a neoplasia curável. O exame evitado por vergonha, dos dois lados da maca, é o que decide este caso.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -17026,6 +17098,11 @@
          "tipo": "conceito",
          "titulo": "O dedo de luva — o exame dentro do exame",
          "texto": "A retirada do dedo não encerra o toque: **o material aderido à luva é achado**. Porto manda examiná-lo sempre — **pus, sangue ou fezes** —, e cada um tem leitura própria:\n\n- **Sangue vivo** — lesão baixa: canal anal, reto; a *Semiologia Médica* observa que o sangramento originado no canal aparece na luva com facilidade.\n- **Melena no dedo** — fezes enegrecidas confirmam, ali mesmo, a hemorragia digestiva que a anamnese suspeitou: Semiologia Clínica torna o toque **necessário** na avaliação do sangramento digestivo, justamente para documentar melena ou hematoquezia sem esperar a próxima evacuação.\n- **Pus e muco** — processos inflamatórios e supurativos do canal e do reto.\n- **Cor e consistência das fezes** — informação gratuita que ninguém mais colherá.\n\nA pesquisa de **sangue oculto** e as etapas armadas — anuscopia, retossigmoidoscopia, colonoscopia — ficam nomeadas como o destino da investigação; o exame clínico entrega a elas um paciente já examinado, com a fonte provável apontada.\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Ao terminar o toque retal, o exame ainda não acabou. O que falta olhar?\n",
+         "resposta": "O dedo de luva: fezes e sua cor, sangue vivo ou escurecido, muco, pus. O que saiu com o dedo é achado — e às vezes é o único do exame.\n"
         },
         {
          "tipo": "secao",
@@ -17126,6 +17203,14 @@
         {
          "tipo": "perola",
          "texto": "A Semiologia Médica resume este tópico em uma sentença que vale por um capítulo: sem toque retal, nenhum exame físico merece o adjetivo completo. A sentença não promete que o toque acha tudo — o câncer inicial da próstata escapa, os números da peritonite são modestos —; promete que quem nunca toca nunca acha."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Explicar desfaz a barreira, narrar cada gesto durante o exame a mantém desfeita — e a privacidade material (avental, campos) é prescrição, não luxo.",
+          "O roteiro é inteiro: inspeção anal e perianal, canal, ampola, próstata — e o dedo de luva ao final, que às vezes traz o único achado.",
+          "Sangramento anal com rótulo de hemorroida é a armadilha clássica: o toque é o que separa o rótulo da neoplasia."
+         ]
         },
         {
          "tipo": "secao",
@@ -20374,6 +20459,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "Terceira consulta pela mesma \"dor no estômago\", endoscopia normal, e a paciente chora quando você pergunta como andam as coisas em casa. O exame que faltava não pedia aparelho nenhum — vinha acontecendo desde o primeiro \"bom dia\", na atenção, na memória, no tom da voz. Avaliar o psiquismo não faz do exame um exame psiquiátrico, assim como aferir a pressão não faz dele um exame cardiológico.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -20434,6 +20523,11 @@
           "Acompanhante ouvido depois do paciente e na presença dele.",
           "Registro final por função, com o horário do exame e as palavras do paciente quando importarem."
          ]
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "O exame psíquico se aplica ao final da consulta, como um interrogatório à parte?\n",
+         "resposta": "Não — ele é uma anamnese estruturada que acontece ao longo de toda a entrevista: atenção, memória, comportamento e expressão vão sendo avaliados desde o início. Quando a conversa termina, o exame — se foi bem feito — já terminou junto.\n"
         },
         {
          "tipo": "secao",
@@ -20504,6 +20598,14 @@
         {
          "tipo": "perola",
          "texto": "Porto manda evitar as perguntas diretas de orientação e pedir, em vez disso, que o paciente conte de onde veio e como chegou ao exame. A pergunta indireta testa três funções de uma vez — orientação, memória e organização do relato — e não humilha ninguém: quem está orientado responde sem notar que foi testado."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Avaliar o psiquismo é tarefa de todo médico — sofrimento emocional somatizado é rotina do consultório, não exceção do psiquiatra.",
+          "O exame é uma anamnese estruturada que corre junto com a entrevista inteira, e serve como roteiro e como triagem para encaminhamento.",
+          "A primeira metade do roteiro: impressão geral, consciência, atenção e orientação — as funções elaboradas vêm no tópico seguinte."
+         ]
         },
         {
          "tipo": "secao",
@@ -20677,6 +20779,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "\"Minha mãe anda esquecida\" — mas na consulta a senhora conversa bem, lembra dos netos, faz conta de cabeça. Esquecida de quê, desde quando, do que é recente ou do que é antigo? As funções psíquicas se examinam uma a uma para efeito de registro, mas o aviso das fontes vale desde já: a fragmentação é um recurso artificial — o paciente é inteiro.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -20746,6 +20852,11 @@
          "tipo": "ilustracao",
          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"10\" y=\"13\">Ilusão · alucinação · alucinose</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"8\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"60\" y=\"32\">ilusão</text>\n    <text x=\"160\" y=\"32\">alucinação</text>\n    <text x=\"260\" y=\"32\">alucinose</text>\n  </g>\n  <!-- coluna 1: objeto real presente -->\n  <path d=\"M 52 44 L 56 82 L 64 82 L 68 44 Z\" stroke-width=\"1.5\" />\n  <path d=\"M 44 44 L 76 44\" stroke-width=\"1.5\" />\n  <!-- coluna 2 e 3: ausência de objeto (tracejado) -->\n  <path d=\"M 146 44 L 174 44 L 174 82 L 146 82 Z\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\" />\n  <path d=\"M 246 44 L 274 44 L 274 82 L 246 82 Z\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\" />\n  <g font-family=\"sans-serif\" font-size=\"7\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"60\" y=\"94\">objeto existe</text>\n    <text x=\"160\" y=\"94\">sem objeto</text>\n    <text x=\"260\" y=\"94\">sem objeto</text>\n  </g>\n  <!-- setas da percepção -->\n  <path d=\"M 60 100 L 60 116\" stroke-width=\"1.4\" />\n  <path d=\"M 56 111 L 60 116 L 64 111\" stroke-width=\"1.2\" />\n  <path d=\"M 160 100 L 160 116\" stroke-width=\"1.4\" />\n  <path d=\"M 156 111 L 160 116 L 164 111\" stroke-width=\"1.2\" />\n  <path d=\"M 260 100 L 260 116\" stroke-width=\"1.4\" />\n  <path d=\"M 256 111 L 260 116 L 264 111\" stroke-width=\"1.2\" />\n  <!-- o que o paciente vive -->\n  <path d=\"M 24 122 L 96 122 L 96 152 L 24 152 Z\" stroke-width=\"1.2\" />\n  <path d=\"M 124 122 L 196 122 L 196 152 L 124 152 Z\" stroke-width=\"1.2\" />\n  <path d=\"M 224 122 L 296 122 L 296 152 L 224 152 Z\" stroke-width=\"1.2\" />\n  <g font-family=\"sans-serif\" font-size=\"7\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"60\" y=\"134\">percepção</text>\n    <text x=\"60\" y=\"143\">deformada</text>\n    <text x=\"160\" y=\"134\">percebida e</text>\n    <text x=\"160\" y=\"143\">vivida como real</text>\n    <text x=\"260\" y=\"134\">percebida, mas</text>\n    <text x=\"260\" y=\"143\">com crítica</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"7\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"60\" y=\"168\">pouco valor</text>\n    <text x=\"60\" y=\"177\">diagnóstico</text>\n    <text x=\"160\" y=\"168\">sem crítica:</text>\n    <text x=\"160\" y=\"177\">quadro psicótico ou orgânico</text>\n    <text x=\"260\" y=\"168\">pensar causa</text>\n    <text x=\"260\" y=\"177\">orgânica</text>\n  </g>\n</svg>\n",
          "legenda": "Os três fenômenos da sensopercepção, separados pelas duas perguntas do exame: havia objeto? e o paciente critica o que percebeu? Na ilusão, o objeto existe e é deformado — Porto lembra que é comum em situações normais e tem pouco valor diagnóstico. Na alucinação, não há objeto e a vivência é indistinguível de uma percepção real. Na alucinose, o paciente relata o fenômeno reconhecendo-o como estranho — e Semiologia Clínica manda pensar em causa orgânica."
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Da sensopercepção em diante, as funções psíquicas têm uma particularidade de método que muda o exame. Qual?\n",
+         "resposta": "Elas dependem exclusivamente do relato subjetivo do paciente — não há manobra que as objetive. Examiná-las exige a disposição de compreender os sintomas do modo como o paciente os vive; o contrato de respeito é pré-requisito técnico, não gentileza.\n"
         },
         {
          "tipo": "secao",
@@ -20863,6 +20974,14 @@
         {
          "tipo": "perola",
          "texto": "No estupor, a Semiologia Médica ensina a ler a causa no rosto: sonolência e torpor apontam o paciente orgânico; a tristeza, o deprimido; o alheamento, o esquizofrênico. É o mesmo gesto imóvel com três fisionomias — e o exame que não olha a face perde o único dado que o paciente ainda está dando."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "A segunda metade do roteiro: memória, sensopercepção, pensamento e linguagem, humor e afeto, juízo e crítica, vontade e psicomotricidade.",
+          "A fragmentação em funções é artifício de registro — as alterações se superpõem, e o paciente é um todo indivisível.",
+          "As fontes não usam os mesmos nomes nem os mesmos cortes; o guia as apresenta lado a lado, com dono declarado."
+         ]
         },
         {
          "tipo": "secao",
@@ -21012,6 +21131,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "O filho quer saber \"se é Alzheimer\", e você tem dez minutos de consulta. Existe instrumento para isso — breve, validado, aplicável ali mesmo: um relógio desenhado, três palavras lembradas, um miniexame pontuado pela escolaridade. Mas antes de qualquer escala de demência vem uma pergunta obrigatória: este paciente está em delirium? Porque, se estiver, todos os testes vão positivar falsamente.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -21110,6 +21233,11 @@
          "tipo": "conceito",
          "titulo": "Lendo a tabela — a divergência é o dado",
          "texto": "A tabela acima paga a dívida nomeada do capítulo neurológico — e paga do único jeito honesto: mostrando que **os cortes não coincidem nem dentro da obra do mesmo autor**. O Quadro 20.4 do *Exame Clínico* aceita 14 pontos como mínimo normal do analfabeto; o Quadro 181.9 da *Semiologia Médica*, citando a validação de Brucki et al. (2003) — a versão que a própria obra diz ser a mais utilizada em nosso meio e cuja adoção sugere —, exige 20 do mesmo analfabeto e 29 de quem passou dos 11 anos de estudo. Entre um e outro, o mesmo paciente com o mesmo escore muda de lado da linha.\n\nTrês consequências práticas, todas ancoradas:\n\n- **registrar o corte é parte do registro.** Um \"MEEM 22\" solto não informa; \"MEEM 22, analfabeta, acima do corte do Quadro 20.4 e acima do corte de Brucki\" informa — e sobrevive à divergência;\n- **a escolaridade não é ajuste fino, é o eixo.** A *Semiologia Médica* manda adaptar o teste em analfabetos e pessoas de nível cultural muito baixo; o *Exame Clínico*, no capítulo do idoso, chega a afirmar que o teste só tem valor a partir de **pelo menos 8 anos de estudo** — e reconhece o quanto isso limita num meio, como o nosso, em que analfabetismo e baixa escolaridade seguem sendo muito comuns. McGee converge do outro lado do idioma: a escolaridade afeta o escore **independentemente de haver demência**, e há quem sugira rebaixar um pouco o limiar nos menos instruídos;\n- **limiar único tem preço.** McGee explica por que alguns preferem as três faixas ao corte tradicional de 23: aplicado a populações de **baixa prevalência** de demência — idosos vivendo de forma independente —, o limiar único produz falso-positivos em quantidade preocupante. As três faixas confinam a dúvida ao meio (21 a 25, RV 2,1, que apenas pede investigação) e reservam a força diagnóstica aos extremos: 20 ou menos multiplica a probabilidade (RV 14,4); 26 ou mais praticamente a desfaz (RV 0,1).\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Por que o miniexame do estado mental não tem um ponto de corte único?\n",
+         "resposta": "Porque o desempenho depende da escolaridade — os quadros de Porto trazem cortes diferentes por faixa de estudo (e as duas obras não coincidem entre si). Aplicar o corte de quem estudou a quem não estudou fabrica demência onde há apenas pouca escola.\n"
         },
         {
          "tipo": "secao",
@@ -21253,6 +21381,14 @@
          "texto": "Uma leitura deste guia sobre o desenho do Mini-Cog — não uma frase das fontes: o relógio, entre o registro e a evocação das três palavras, não é só um teste — funciona como distrator que impede o ensaio mental, e o paciente que evoca as três palavras depois de desenhá-lo evocou de verdade. O miniexame tem a mesma arquitetura: a subtração seriada separa a retenção da evocação."
         },
         {
+         "tipo": "resumo",
+         "linhas": [
+          "Relógio, Mini-Cog e miniexame diagnosticam demência; o CAM diagnostica delirium — testes breves, validados e de beira de leito.",
+          "Antes de qualquer teste de demência, exclua o delirium: nele, as escalas positivam falsamente.",
+          "O miniexame se lê pela escolaridade, com os cortes atribuídos a cada quadro — que não coincidem entre as obras."
+         ]
+        },
+        {
          "tipo": "secao",
          "titulo": "Teste rápido"
         },
@@ -21392,6 +21528,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "\"Ele ficou confuso de ontem para hoje\", diz a filha do senhor de 82 anos. Confuso é a palavra que as três grandes síndromes do estado mental disputam: demência, delirium e depressão podem se apresentar como o mesmo idoso \"confuso\", \"esquecido\", \"parado\" — e as três exigem condutas diferentes, com urgências diferentes. O \"de ontem para hoje\" da filha já começou a separar.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -21451,6 +21591,11 @@
          "tipo": "conceito",
          "titulo": "A síndrome confusional pelos achados",
          "texto": "A definição e a fisionomia do delirium já entraram neste guia duas vezes — a confusão mental do primeiro tópico deste capítulo e o quadro agudo do tópico de consciência —, e o que este bloco acrescenta é o retrato sistematizado e a epidemiologia que muda o grau de suspeita.\n\nO retrato, na síndrome confusional do capítulo de síndromes psiquiátricas da *Semiologia Médica*: paciente **desorientado**, de **atenção reduzida** e concentração difícil; **memória comprometida — a fixação antes de tudo**; pensamento **alentecido e incoerente**; humor **lábil**; psicomotricidade **exaltada** — inquietação, agitação — **ou diminuída**, com alentecimento; e sensopercepção comprometida, com **alucinações geralmente visuais** e ilusões. Cada item desse retrato foi ensinado como função nos tópicos anteriores; o delirium é o exame psíquico inteiro alterado de uma vez, com a atenção no centro.\n\nOs números que calibram a suspeita, na *Semiologia Médica*: o delirium acomete **10 a 20% dos idosos hospitalizados** por problemas clínicos — McGee dá o mesmo teto de 20% — e chega a **50% no pós-operatório de fratura do colo do fêmur**. É, ao mesmo tempo, **frequentemente não diagnosticado**: a obra abre a seção dizendo exatamente isso. A conta não fecha por acaso — o subtipo que domina a estatística do esquecimento é o hipoativo, dono de um bloco adiante.\n\nDuas fisionomias, um diagnóstico: a *Semiologia Médica* descreve os dois tipos clínicos — **com agitação** e **com apatia e prostração** — que Semiologia Clínica nomeia hiperativo, hipoativo e misto, classificação que o capítulo neurológico já carrega. O diagnóstico instrumental é o **CAM**, remetido ao tópico de escalas: início agudo e flutuante, desatenção, e pensamento desorganizado ou nível de consciência alterado.\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Dos três Ds — delirium, demência e depressão — qual é a urgência, e o que na instalação o denuncia?\n",
+         "resposta": "O delirium: instala-se em horas a dias (agudo ou subagudo), flutua, e quase sempre anuncia uma causa orgânica tratável por trás. A demência leva meses a anos; a depressão, semanas. \"Ficou confuso de ontem para hoje\" é delirium até prova em contrário.\n"
         },
         {
          "tipo": "secao",
@@ -21565,6 +21710,14 @@
         {
          "tipo": "perola",
          "texto": "Diante do idoso que 'ficou confuso', a pergunta mais rentável do exame não é feita ao paciente: é o 'desde quando ele não é o mesmo?' dirigido a quem convive com ele. Horas pedem CAM e foco infeccioso; anos pedem biografia funcional e domínios cognitivos; 'desde que a esposa faleceu' pede humor e anedonia. A linha do tempo é o primeiro diferencial."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Três síndromes disputam o idoso \"confuso\": delirium (horas a dias, urgência), demência (meses a anos) e depressão (semanas, muitas vezes após perdas).",
+          "A instalação é o primeiro eixo de separação; atenção, consciência e humor completam o mapa.",
+          "A depressão é a imitadora tratável — a pseudodemência que melhora quando o humor é tratado justifica procurá-la sempre."
+         ]
         },
         {
          "tipo": "secao",
@@ -21720,6 +21873,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "A criança de 3 anos chora antes de você chegar perto; a mãe responde por ela; o pai discorda da mãe. São três cadeiras num encontro clínico só — e o paciente é o único que não fala. Colher dados fidedignos aqui exige mais arte que técnica, e a primeira manobra do exame é uma que não toca em ninguém: observar como a mãe e a criança se relacionam.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -21785,6 +21942,11 @@
          ]
         },
         {
+         "tipo": "pense",
+         "pergunta": "Na consulta pediátrica, que estatuto a mãe (ou o cuidador principal) tem no exame — fonte de informação ou algo mais?\n",
+         "resposta": "Algo mais: relacionar-se com ela já é examinar a criança. Porto manda observar durante toda a entrevista o comportamento materno e o que ele revela — isso é parte do próprio exame clínico, não cortesia. E a relação é sempre com a família inteira, da qual depende a adesão ao tratamento.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Profissionalismo — quem consente, quem assente"
         },
@@ -21841,6 +22003,14 @@
         {
          "tipo": "perola",
          "texto": "A Semiologia Médica ensina que, na dúvida sobre a genitália do recém-nascido, não se declara o sexo até a avaliação completa. É talvez o exemplo mais nítido de uma habilidade que atravessa toda a semiologia pediátrica: saber quando a resposta correta da consulta é ainda não responder."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "O paciente não fala: a história chega por um tradutor que às vezes traduz mal — e observar a relação mãe-criança já é exame.",
+          "As etapas de Porto organizam o capítulo: recém-nascido, lactente, pré-escolar, escolar e adolescente — cada uma com sua abordagem.",
+          "Quem consente é o responsável; quem assente, na medida da idade, é a criança — e a doçura aqui é condição técnica."
+         ]
         },
         {
          "tipo": "secao",
@@ -21982,6 +22152,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "\"Ele está comendo bem, doutora?\" A resposta não está na consulta de hoje — está na caderneta que a mãe trouxe na bolsa. Você plota o peso de hoje na curva, olha os pontos anteriores, e a linha responde o que nenhuma balança isolada responde. O crescimento é o sinal vital que só a criança tem, e ele se lê em curva, nunca em número solto.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -22032,6 +22206,11 @@
           "Pressão arterial medida com manguito proporcional ao braço, com a criança calma e distraída.",
           "Febre e hidratação avaliadas pelos tópicos donos: temperatura axilar e o conjunto de sinais da desidratação."
          ]
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Quando o peso de nascimento dobra, triplica e quadruplica?\n",
+         "resposta": "Dobra por volta do 4º ao 5º mês, triplica ao completar 1 ano e quadruplica aos 2 — depois o ganho cai para 2 a 5,5 kg por ano até a puberdade. É essa velocidade que torna as curvas (percentis ou escores Z) obrigatórias: nenhuma tabela fixa acompanha.\n"
         },
         {
          "tipo": "secao",
@@ -22141,6 +22320,14 @@
         {
          "tipo": "perola",
          "texto": "Porto lembra que, para condições especiais como o recém-nascido, existe balança própria — e a frase vale como síntese do tópico inteiro: na criança, quase nenhum instrumento novo é inventado; quase todos são recalibrados. O que muda de verdade é a régua de leitura, que agora tem idade."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "O crescimento é o quinto sinal vital da criança: plote peso e estatura na curva a cada consulta e leia em percentil ou escore Z — a linha vale mais que o ponto.",
+          "Frequências cardíaca e respiratória têm faixas por idade — o normal do lactente seria taquicardia no escolar.",
+          "Febre e hidratação da criança têm donos em outros tópicos; aqui se costura, sem duplicar."
+         ]
         },
         {
          "tipo": "secao",
@@ -22292,6 +22479,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "Na mesma manhã de ambulatório: um recém-nascido de nove dias, uma menina de sete anos e um adolescente de quatorze. Três exames que não se parecem — a triagem de malformações e os reflexos que só o primeiro tem, a rotina quase adulta da segunda, o estadiamento puberal que o terceiro reintroduz. O exame muda de forma com a idade, e este tópico é o mapa dessas formas.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -22389,6 +22580,11 @@
          "texto": "Aqui o capítulo 179 surpreende pela economia: passada a fase neonatal, a propedêutica — a geral, a cardiorrespiratória, a abdominal — **segue sem diferenças de peso** do lactente ao escolar. As grandes mudanças já têm dono neste guia — a ordem do exame e o manejo do choro no tópico de abordagem (com o lactente examinado por decúbitos e a criança maior por segmentos), as curvas e as frequências no tópico de crescimento. O que este tópico acrescenta é o **calendário** do que se fecha, desce e migra:\n\n- **As fontanelas se fecham** — e o capítulo de anomalias genéticas dá as datas: a **posterior por volta do 2º mês**; a **anterior aos 18 meses**, sem ultrapassar **4 a 5 cm** em condições normais. Até lá, a fontanela patente é janela de exame — hipertensa e abaulada ou deprimida, com as leituras que os tópicos de crânio e de hidratação já ensinaram — e depois deixa de existir como ponto de exame.\n- **O ictus migra** — do 3º espaço lateral à hemiclavicular no recém-nascido ao 5º espaço medial a ela no escolar, pela rota da tabela deste tópico. O precórdio \"desviado\" de um lactente pode ser apenas o precórdio da idade.\n- **O testículo desce** — a maioria dos que estão fora da bolsa completa a migração espontânea nos dois primeiros anos; cada consulta do lactente reavalia, e a persistência além dessa janela é o dado que muda a conversa (a semiotécnica, no tópico de genitália masculina).\n- **A 2ª bulha troca de foco** — mais intensa na área pulmonar durante a infância, equilibra-se na adolescência.\n\nO restante do exame da criança que anda e fala é o exame que este guia inteiro ensina — com as réguas etárias do tópico anterior e a paciência do primeiro.\n"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Do lactente ao escolar, quanto muda a propedêutica geral, cardiorrespiratória e abdominal em relação ao adulto?\n",
+         "resposta": "Menos do que se espera: o próprio capítulo de Porto desarma a expectativa — ela não muda de modo importante. O que muda são detalhes de posição e de calendário. Os exames realmente próprios ficam nas pontas: o recém-nascido e o adolescente.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O adolescente — puberdade e estágios de Tanner"
         },
@@ -22455,6 +22651,14 @@
         {
          "tipo": "perola",
          "texto": "O exame da criança termina onde começou o do guia inteiro: na ideia de que a normalidade tem calendário. A fontanela que se fecha, o ictus que migra, o testículo que desce, a segunda bulha que troca de foco, o broto que vira mama — quase nada no exame pediátrico é um ponto fixo; quase tudo é uma trajetória com hora certa. Examinar uma criança é conferir se o corpo está no horário."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "O recém-nascido tem exame quase próprio: triagem de malformações, quadril testado e reflexos que só ele tem.",
+          "Do lactente ao escolar a propedêutica pouco muda — mudam posição e calendário; nas pontas é que o exame se transforma.",
+          "No adolescente, o estadiamento puberal (Tanner) entra no exame físico completo — com as idades e janelas atribuídas fonte a fonte."
+         ]
         },
         {
          "tipo": "secao",

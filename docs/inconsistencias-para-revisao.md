@@ -540,3 +540,28 @@ de mudança.
   sensível mas inespecífico p/ volume diastólico aumentado (padrão-ouro
   muda a leitura); jugular externa é confiável na maioria dos estudos
   modernos, com um discordante antigo (1974). Decidir se valem nota.
+
+---
+
+## Adendo 2026-09-04 — camada didática (v1.2.5), para endosso do autor
+
+Depois do fechamento dos 86 itens, o app ganhou uma **camada didática** em
+todos os 55 tópicos, com três blocos novos por tópico:
+
+- **`cena`** — vinheta clínica de 2–4 linhas abrindo o tópico ("À beira do
+  leito"), para ancorar a leitura numa situação concreta;
+- **`pense`** — uma pergunta no meio da leitura com resposta recolhida
+  ("Pense antes de seguir"), de recuperação ativa;
+- **`resumo`** — fecho "Em três linhas" com as três frases de saída.
+
+**Regra de composição adotada:** os 165 textos foram derivados
+exclusivamente do texto já revisado de cada tópico — nenhuma afirmação
+médica nova, nenhum número que não esteja no corpo do tópico ou em suas
+fontes citadas. As cenas usam situações clínicas genéricas de enfermaria e
+ambulatório, sem valores próprios além dos que o tópico já ensina.
+
+**O que se pede ao autor:** uma passada de leitura nos blocos novos (eles
+aparecem no início, no meio e no fim de cada tópico), com atenção especial
+às cenas — que são o único texto de tom narrativo do app — e às respostas
+dos `pense`. Este adendo NÃO reabre os 86 itens fechados; correções pedidas
+aqui serão tratadas como itens novos.

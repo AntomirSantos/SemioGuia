@@ -60,6 +60,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  Na mesma manhã de ambulatório: um recém-nascido de nove dias, uma menina de sete anos e um adolescente de quatorze. Três exames que não se parecem — a triagem de malformações e os reflexos que só o primeiro tem, a rotina quase adulta da segunda, o estadiamento puberal que o terceiro reintroduz. O exame muda de forma com a idade, e este tópico é o mapa dessas formas.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -181,6 +186,13 @@ texto: |
   - **A 2ª bulha troca de foco** — mais intensa na área pulmonar durante a infância, equilibra-se na adolescência.
 
   O restante do exame da criança que anda e fala é o exame que este guia inteiro ensina — com as réguas etárias do tópico anterior e a paciência do primeiro.
+:::
+
+::: pense
+pergunta: |
+  Do lactente ao escolar, quanto muda a propedêutica geral, cardiorrespiratória e abdominal em relação ao adulto?
+resposta: |
+  Menos do que se espera: o próprio capítulo de Porto desarma a expectativa — ela não muda de modo importante. O que muda são detalhes de posição e de calendário. Os exames realmente próprios ficam nas pontas: o recém-nascido e o adolescente.
 :::
 
 ::: secao
@@ -349,6 +361,13 @@ texto: |
 
 ::: perola
 texto: "O exame da criança termina onde começou o do guia inteiro: na ideia de que a normalidade tem calendário. A fontanela que se fecha, o ictus que migra, o testículo que desce, a segunda bulha que troca de foco, o broto que vira mama — quase nada no exame pediátrico é um ponto fixo; quase tudo é uma trajetória com hora certa. Examinar uma criança é conferir se o corpo está no horário."
+:::
+
+::: resumo
+linhas:
+  - "O recém-nascido tem exame quase próprio: triagem de malformações, quadril testado e reflexos que só ele tem."
+  - "Do lactente ao escolar a propedêutica pouco muda — mudam posição e calendário; nas pontas é que o exame se transforma."
+  - "No adolescente, o estadiamento puberal (Tanner) entra no exame físico completo — com as idades e janelas atribuídas fonte a fonte."
 :::
 
 ::: secao

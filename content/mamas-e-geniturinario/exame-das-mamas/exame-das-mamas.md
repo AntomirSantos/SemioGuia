@@ -63,6 +63,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  A paciente segura a beirada do avental sem saber se despe agora, depois, quanto. Nada foi explicado. O exame das mamas se ganha ou se perde nesse minuto: as etapas ditas antes, o consentimento pedido de verdade, a exposição mínima. Nos exames íntimos, a conduta profissional não é cortesia — é a primeira metade da técnica.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -180,6 +185,13 @@ texto: |
   - **Inclinação anterior do tronco.** Vem de Semiologia Clínica, com indicação precisa: mamas **grandes ou pêndulas**, cuja face inferior e sulco inframamário a posição ereta esconde. A mama pendendo desdobra o que estava encostado.
 
   O que as três procuram é o mesmo: **revelar ou acentuar retrações, abaulamentos e alterações da papila e da aréola**. Porto acrescenta a leitura de probabilidade: essas alterações dinâmicas ocorrem sobretudo nos tumores malignos **avançados** — a inspeção dinâmica negativa não tranquiliza; a positiva preocupa.
+:::
+
+::: pense
+pergunta: |
+  Por que a inspeção das mamas se faz em mais de uma posição — braços ao lado, elevados, mãos na cintura?
+resposta: |
+  Porque a contração do peitoral e a mudança de posição tensionam os ligamentos e evidenciam retrações e abaulamentos que a posição neutra esconde. A retração que só aparece com o braço elevado ainda é retração — e é justamente a que se perderia num exame de posição única.
 :::
 
 ::: secao
@@ -323,6 +335,13 @@ texto: |
 
 ::: perola
 texto: "A régua do exame das mamas é a outra mama da mesma paciente. Porto manda começar pela mama sem queixa exatamente por isso: ela calibra a mão para o parênquima daquela pessoa, naquela fase do ciclo — e transforma a pergunta impossível 'isto é normal?' na pergunta respondível 'isto é igual ao outro lado?'."
+:::
+
+::: resumo
+linhas:
+  - "O contrato vem antes da técnica: etapas explicadas, consentimento prévio, exposição mínima e progressiva."
+  - "Inspeção em várias posições — a retração que só aparece com o braço elevado é a que o exame de posição única perde."
+  - "A palpação cobre a mama inteira, o prolongamento axilar e os linfonodos — axilares e supraclaviculares fazem parte do exame."
 :::
 
 ::: secao

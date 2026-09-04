@@ -61,6 +61,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  Para muitas mulheres, este exame inaugura o contato com um profissional de saúde — e a memória desse primeiro encontro decide os próximos vinte anos de rastreamento. Etapas explicadas antes, consentimento verdadeiro, avental e lençol, desnudamento progressivo: nenhum exame do guia depende tanto do contrato quanto este.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -185,6 +190,13 @@ texto: |
   **A paciente virgem é um limite, com divergência declarada.** O guia adota a posição da Semiologia Clínica: espéculos menores permitem examinar pacientes com hímen **íntegro, desde que perfurado** — quando houver indicação clara e consentimento. A posição contrária fica atribuída: a *Semiologia Médica* proíbe toque vaginal e espéculo com hímen íntegro — o chamado espéculo de virgem traumatiza — e remete as informações ao **toque retal** e a visualização ao **colpovirgoscópio**, que o guia nomeia sem ensinar. O que nenhuma obra autoriza é o exame contra a vontade ou sem necessidade clara.
 :::
 
+::: pense
+pergunta: |
+  Qual é o momento do exame especular que separa o exame completo do incompleto?
+resposta: |
+  A retirada — lenta, fechando gradualmente as lâminas e olhando: é o único momento em que se veem as paredes vaginais que o espéculo recobria. Quem retira o espéculo de uma vez examinou o colo e deixou as paredes sem ver.
+:::
+
 ::: secao
 titulo: Toque bimanual
 :::
@@ -282,6 +294,13 @@ texto: |
 
 ::: perola
 texto: "Porto exige que o exame ginecológico não se restrinja a um simples toque vaginal — e a frase corta nos dois sentidos: o exame sem toque é incompleto, e o toque sem o resto é quase cego. A sequência inteira — inspeção em repouso, esforço, espéculo, toque — é um funil em que cada etapa diz onde a seguinte deve olhar."
+:::
+
+::: resumo
+linhas:
+  - "O contrato rege o exame: etapas explicadas, consentimento, desnudamento progressivo — e a ordem do menos ao mais íntimo."
+  - "No espéculo, o vetor de força vai para a parede posterior, e a retirada lenta vendo as paredes é o que completa o exame."
+  - "O toque bimanual define posição, volume, consistência, mobilidade e dor do útero e dos anexos — e a dor à mobilização do colo é sinal de alarme."
 :::
 
 ::: secao

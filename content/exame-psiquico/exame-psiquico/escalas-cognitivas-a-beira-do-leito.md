@@ -58,6 +58,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  O filho quer saber "se é Alzheimer", e você tem dez minutos de consulta. Existe instrumento para isso — breve, validado, aplicável ali mesmo: um relógio desenhado, três palavras lembradas, um miniexame pontuado pela escolaridade. Mas antes de qualquer escala de demência vem uma pergunta obrigatória: este paciente está em delirium? Porque, se estiver, todos os testes vão positivar falsamente.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -171,6 +176,13 @@ texto: |
   - **registrar o corte é parte do registro.** Um "MEEM 22" solto não informa; "MEEM 22, analfabeta, acima do corte do Quadro 20.4 e acima do corte de Brucki" informa — e sobrevive à divergência;
   - **a escolaridade não é ajuste fino, é o eixo.** A *Semiologia Médica* manda adaptar o teste em analfabetos e pessoas de nível cultural muito baixo; o *Exame Clínico*, no capítulo do idoso, chega a afirmar que o teste só tem valor a partir de **pelo menos 8 anos de estudo** — e reconhece o quanto isso limita num meio, como o nosso, em que analfabetismo e baixa escolaridade seguem sendo muito comuns. McGee converge do outro lado do idioma: a escolaridade afeta o escore **independentemente de haver demência**, e há quem sugira rebaixar um pouco o limiar nos menos instruídos;
   - **limiar único tem preço.** McGee explica por que alguns preferem as três faixas ao corte tradicional de 23: aplicado a populações de **baixa prevalência** de demência — idosos vivendo de forma independente —, o limiar único produz falso-positivos em quantidade preocupante. As três faixas confinam a dúvida ao meio (21 a 25, RV 2,1, que apenas pede investigação) e reservam a força diagnóstica aos extremos: 20 ou menos multiplica a probabilidade (RV 14,4); 26 ou mais praticamente a desfaz (RV 0,1).
+:::
+
+::: pense
+pergunta: |
+  Por que o miniexame do estado mental não tem um ponto de corte único?
+resposta: |
+  Porque o desempenho depende da escolaridade — os quadros de Porto trazem cortes diferentes por faixa de estudo (e as duas obras não coincidem entre si). Aplicar o corte de quem estudou a quem não estudou fabrica demência onde há apenas pouca escola.
 :::
 
 ::: secao
@@ -409,6 +421,13 @@ texto: |
 
 ::: perola
 texto: "Uma leitura deste guia sobre o desenho do Mini-Cog — não uma frase das fontes: o relógio, entre o registro e a evocação das três palavras, não é só um teste — funciona como distrator que impede o ensaio mental, e o paciente que evoca as três palavras depois de desenhá-lo evocou de verdade. O miniexame tem a mesma arquitetura: a subtração seriada separa a retenção da evocação."
+:::
+
+::: resumo
+linhas:
+  - "Relógio, Mini-Cog e miniexame diagnosticam demência; o CAM diagnostica delirium — testes breves, validados e de beira de leito."
+  - "Antes de qualquer teste de demência, exclua o delirium: nele, as escalas positivam falsamente."
+  - "O miniexame se lê pela escolaridade, com os cortes atribuídos a cada quadro — que não coincidem entre as obras."
 :::
 
 ::: secao

@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.5',
+    data: '2026-09-04',
+    linhas: [
+      'Todos os 55 tópicos ganham uma cena clínica de abertura, uma pergunta "Pense antes de seguir" e o fecho "Em três linhas"',
+      'A pergunta do meio da leitura esconde a resposta até você tentar de cabeça — recuperação ativa dentro do texto',
+      'Nada mudou no conteúdo revisado: os blocos novos derivam do texto já fechado pelo autor',
+    ],
+  },
+  {
     versao: '1.2.4',
     data: '2026-09-04',
     linhas: [

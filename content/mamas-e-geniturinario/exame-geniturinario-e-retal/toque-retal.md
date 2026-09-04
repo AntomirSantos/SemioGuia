@@ -66,6 +66,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  Sangue nas fezes há duas semanas, e o paciente já veio com o diagnóstico pronto: "é hemorroida, doutor". O tópico da entrevista clínica contou o que Porto chama de imperdoável — o médico que assume esse rótulo sem o exame anorretal e perde a neoplasia curável. O exame evitado por vergonha, dos dois lados da maca, é o que decide este caso.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -239,6 +244,13 @@ texto: |
   A pesquisa de **sangue oculto** e as etapas armadas — anuscopia, retossigmoidoscopia, colonoscopia — ficam nomeadas como o destino da investigação; o exame clínico entrega a elas um paciente já examinado, com a fonte provável apontada.
 :::
 
+::: pense
+pergunta: |
+  Ao terminar o toque retal, o exame ainda não acabou. O que falta olhar?
+resposta: |
+  O dedo de luva: fezes e sua cor, sangue vivo ou escurecido, muco, pus. O que saiu com o dedo é achado — e às vezes é o único do exame.
+:::
+
 ::: secao
 titulo: A próstata
 :::
@@ -378,6 +390,13 @@ texto: |
 
 ::: perola
 texto: "A Semiologia Médica resume este tópico em uma sentença que vale por um capítulo: sem toque retal, nenhum exame físico merece o adjetivo completo. A sentença não promete que o toque acha tudo — o câncer inicial da próstata escapa, os números da peritonite são modestos —; promete que quem nunca toca nunca acha."
+:::
+
+::: resumo
+linhas:
+  - "Explicar desfaz a barreira, narrar cada gesto durante o exame a mantém desfeita — e a privacidade material (avental, campos) é prescrição, não luxo."
+  - "O roteiro é inteiro: inspeção anal e perianal, canal, ampola, próstata — e o dedo de luva ao final, que às vezes traz o único achado."
+  - "Sangramento anal com rótulo de hemorroida é a armadilha clássica: o toque é o que separa o rótulo da neoplasia."
 :::
 
 ::: secao

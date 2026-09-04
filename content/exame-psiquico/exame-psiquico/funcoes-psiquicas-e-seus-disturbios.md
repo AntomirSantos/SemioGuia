@@ -82,6 +82,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "Minha mãe anda esquecida" — mas na consulta a senhora conversa bem, lembra dos netos, faz conta de cabeça. Esquecida de quê, desde quando, do que é recente ou do que é antigo? As funções psíquicas se examinam uma a uma para efeito de registro, mas o aviso das fontes vale desde já: a fragmentação é um recurso artificial — o paciente é inteiro.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -232,6 +237,13 @@ svg: |
     </g>
   </svg>
 legenda: "Os três fenômenos da sensopercepção, separados pelas duas perguntas do exame: havia objeto? e o paciente critica o que percebeu? Na ilusão, o objeto existe e é deformado — Porto lembra que é comum em situações normais e tem pouco valor diagnóstico. Na alucinação, não há objeto e a vivência é indistinguível de uma percepção real. Na alucinose, o paciente relata o fenômeno reconhecendo-o como estranho — e Semiologia Clínica manda pensar em causa orgânica."
+:::
+
+::: pense
+pergunta: |
+  Da sensopercepção em diante, as funções psíquicas têm uma particularidade de método que muda o exame. Qual?
+resposta: |
+  Elas dependem exclusivamente do relato subjetivo do paciente — não há manobra que as objetive. Examiná-las exige a disposição de compreender os sintomas do modo como o paciente os vive; o contrato de respeito é pré-requisito técnico, não gentileza.
 :::
 
 ::: secao
@@ -407,6 +419,13 @@ texto: |
 
 ::: perola
 texto: "No estupor, a Semiologia Médica ensina a ler a causa no rosto: sonolência e torpor apontam o paciente orgânico; a tristeza, o deprimido; o alheamento, o esquizofrênico. É o mesmo gesto imóvel com três fisionomias — e o exame que não olha a face perde o único dado que o paciente ainda está dando."
+:::
+
+::: resumo
+linhas:
+  - "A segunda metade do roteiro: memória, sensopercepção, pensamento e linguagem, humor e afeto, juízo e crítica, vontade e psicomotricidade."
+  - "A fragmentação em funções é artifício de registro — as alterações se superpõem, e o paciente é um todo indivisível."
+  - "As fontes não usam os mesmos nomes nem os mesmos cortes; o guia as apresenta lado a lado, com dono declarado."
 :::
 
 ::: secao

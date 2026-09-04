@@ -95,24 +95,30 @@ interface SecaoTopico {
 
 // Leitura por seções (spec Fase 8 §3.1): particiona os blocos do tópico nos
 // pontos marcados por `tipo: 'secao'`, cada um virando o título da seção
-// seguinte. Verificado contra assets/generated/content.json: os 23 tópicos
-// reais sempre começam com uma `secao` — mas se algum vier sem isso, blocos
-// soltos antes da 1ª seção ganham uma seção implícita "Início" em vez de
-// desaparecer.
+// seguinte. Blocos soltos antes da 1ª seção — caso da vinheta `cena`, que
+// abre todo tópico desde a camada didática de 2026-09 — pertencem
+// editorialmente à primeira seção e são prefixados nela, preservando a
+// contagem de seções; um tópico sem nenhuma `secao` ainda ganha a seção
+// implícita "Início" em vez de perder blocos.
 function particionarSecoes(blocos: Bloco[]): SecaoTopico[] {
   const secoes: SecaoTopico[] = [];
   let atual: SecaoTopico | null = null;
+  let pendentes: Bloco[] = [];
   for (const bloco of blocos) {
     if (bloco.tipo === 'secao') {
-      atual = { titulo: bloco.titulo, blocos: [] };
+      atual = { titulo: bloco.titulo, blocos: pendentes };
+      pendentes = [];
       secoes.push(atual);
       continue;
     }
     if (!atual) {
-      atual = { titulo: 'Início', blocos: [] };
-      secoes.push(atual);
+      pendentes.push(bloco);
+      continue;
     }
     atual.blocos.push(bloco);
+  }
+  if (secoes.length === 0 && pendentes.length > 0) {
+    secoes.push({ titulo: 'Início', blocos: pendentes });
   }
   return secoes;
 }

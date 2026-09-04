@@ -50,6 +50,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "Ele ficou confuso de ontem para hoje", diz a filha do senhor de 82 anos. Confuso é a palavra que as três grandes síndromes do estado mental disputam: demência, delirium e depressão podem se apresentar como o mesmo idoso "confuso", "esquecido", "parado" — e as três exigem condutas diferentes, com urgências diferentes. O "de ontem para hoje" da filha já começou a separar.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -128,6 +133,13 @@ texto: |
   Os números que calibram a suspeita, na *Semiologia Médica*: o delirium acomete **10 a 20% dos idosos hospitalizados** por problemas clínicos — McGee dá o mesmo teto de 20% — e chega a **50% no pós-operatório de fratura do colo do fêmur**. É, ao mesmo tempo, **frequentemente não diagnosticado**: a obra abre a seção dizendo exatamente isso. A conta não fecha por acaso — o subtipo que domina a estatística do esquecimento é o hipoativo, dono de um bloco adiante.
 
   Duas fisionomias, um diagnóstico: a *Semiologia Médica* descreve os dois tipos clínicos — **com agitação** e **com apatia e prostração** — que Semiologia Clínica nomeia hiperativo, hipoativo e misto, classificação que o capítulo neurológico já carrega. O diagnóstico instrumental é o **CAM**, remetido ao tópico de escalas: início agudo e flutuante, desatenção, e pensamento desorganizado ou nível de consciência alterado.
+:::
+
+::: pense
+pergunta: |
+  Dos três Ds — delirium, demência e depressão — qual é a urgência, e o que na instalação o denuncia?
+resposta: |
+  O delirium: instala-se em horas a dias (agudo ou subagudo), flutua, e quase sempre anuncia uma causa orgânica tratável por trás. A demência leva meses a anos; a depressão, semanas. "Ficou confuso de ontem para hoje" é delirium até prova em contrário.
 :::
 
 ::: secao
@@ -292,6 +304,13 @@ texto: |
 
 ::: perola
 texto: "Diante do idoso que 'ficou confuso', a pergunta mais rentável do exame não é feita ao paciente: é o 'desde quando ele não é o mesmo?' dirigido a quem convive com ele. Horas pedem CAM e foco infeccioso; anos pedem biografia funcional e domínios cognitivos; 'desde que a esposa faleceu' pede humor e anedonia. A linha do tempo é o primeiro diferencial."
+:::
+
+::: resumo
+linhas:
+  - "Três síndromes disputam o idoso \"confuso\": delirium (horas a dias, urgência), demência (meses a anos) e depressão (semanas, muitas vezes após perdas)."
+  - "A instalação é o primeiro eixo de separação; atenção, consciência e humor completam o mapa."
+  - "A depressão é a imitadora tratável — a pseudodemência que melhora quando o humor é tratado justifica procurá-la sempre."
 :::
 
 ::: secao

@@ -50,6 +50,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "Ele está comendo bem, doutora?" A resposta não está na consulta de hoje — está na caderneta que a mãe trouxe na bolsa. Você plota o peso de hoje na curva, olha os pontos anteriores, e a linha responde o que nenhuma balança isolada responde. O crescimento é o sinal vital que só a criança tem, e ele se lê em curva, nunca em número solto.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -140,6 +145,13 @@ itens:
   - "Frequência respiratória contada em 1 minuto e comparada ao teto da idade."
   - "Pressão arterial medida com manguito proporcional ao braço, com a criança calma e distraída."
   - "Febre e hidratação avaliadas pelos tópicos donos: temperatura axilar e o conjunto de sinais da desidratação."
+:::
+
+::: pense
+pergunta: |
+  Quando o peso de nascimento dobra, triplica e quadruplica?
+resposta: |
+  Dobra por volta do 4º ao 5º mês, triplica ao completar 1 ano e quadruplica aos 2 — depois o ganho cai para 2 a 5,5 kg por ano até a puberdade. É essa velocidade que torna as curvas (percentis ou escores Z) obrigatórias: nenhuma tabela fixa acompanha.
 :::
 
 ::: secao
@@ -270,6 +282,13 @@ texto: |
 
 ::: perola
 texto: "Porto lembra que, para condições especiais como o recém-nascido, existe balança própria — e a frase vale como síntese do tópico inteiro: na criança, quase nenhum instrumento novo é inventado; quase todos são recalibrados. O que muda de verdade é a régua de leitura, que agora tem idade."
+:::
+
+::: resumo
+linhas:
+  - "O crescimento é o quinto sinal vital da criança: plote peso e estatura na curva a cada consulta e leia em percentil ou escore Z — a linha vale mais que o ponto."
+  - "Frequências cardíaca e respiratória têm faixas por idade — o normal do lactente seria taquicardia no escolar."
+  - "Febre e hidratação da criança têm donos em outros tópicos; aqui se costura, sem duplicar."
 :::
 
 ::: secao

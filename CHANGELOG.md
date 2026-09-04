@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog` — edite lá.
 
+## 1.2.5 — 2026-09-04
+
+- Todos os 55 tópicos ganham uma cena clínica de abertura, uma pergunta "Pense antes de seguir" e o fecho "Em três linhas"
+- A pergunta do meio da leitura esconde a resposta até você tentar de cabeça — recuperação ativa dentro do texto
+- Nada mudou no conteúdo revisado: os blocos novos derivam do texto já fechado pelo autor
+
 ## 1.2.4 — 2026-09-04
 
 - Ícone definitivo do app: "S" serifado em papel sobre vinho, como capa de livro

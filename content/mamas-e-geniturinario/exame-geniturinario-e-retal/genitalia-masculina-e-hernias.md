@@ -66,6 +66,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  O rapaz de 22 anos demorou três meses para contar do "caroço no testículo" — vergonha. As neoplasias testiculares acometem sobretudo homens entre 20 e 40 anos, e o exame que as encontra leva dois minutos: luvas, explicação antes de cada etapa e uma palpação de extrema delicadeza, que aqui não é cortesia — tem justificativa oncológica.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -309,6 +314,13 @@ texto: |
   3. **Olhe o testículo do lado afetado**: mais baixo e, nas varicoceles grandes, menor e menos consistente que o oposto — o dado que liga o achado à queixa de infertilidade.
 :::
 
+::: pense
+pergunta: |
+  Um aumento da bolsa escrotal pode ser hérnia, hidrocele ou massa testicular. Que dois gestos simples começam a separá-los?
+resposta: |
+  A transiluminação — o conteúdo líquido da hidrocele deixa a luz passar, a massa sólida não — e a manobra de esforço com a palpação do canal inguinal: a hérnia se insinua com a tosse e pode ser redutível. O que não transilumina nem reduz pede investigação.
+:::
+
 ::: secao
 titulo: Hérnias inguinais e inguinoescrotais
 :::
@@ -417,6 +429,13 @@ texto: |
 
 ::: perola
 texto: "Três instrumentos resolvem a bolsa escrotal: a lanterna, os dedos acima da massa e o decúbito. O que transilumina é líquido; o que não deixa os dedos passarem por cima vem do canal inguinal; o que some deitado é hérnia ou varicocele. Quando os três falham ao mesmo tempo — a hidrocele irredutível no anel, que Porto admite indistinguível da hérnia estrangulada —, a resposta é a ultrassonografia, com pressa."
+:::
+
+::: resumo
+linhas:
+  - "Luvas sempre, etapa anunciada antes de executada, e palpação testicular de extrema delicadeza — a gentileza aqui tem justificativa oncológica."
+  - "No aumento escrotal, transiluminação e manobra de esforço começam a separar hidrocele, hérnia e massa — e a massa sólida do jovem tem pressa."
+  - "As hérnias se examinam de pé e com esforço; a que não reduz e dói é urgência."
 :::
 
 ::: secao

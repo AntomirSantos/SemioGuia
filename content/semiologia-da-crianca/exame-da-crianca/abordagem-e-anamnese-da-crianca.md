@@ -48,6 +48,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  A criança de 3 anos chora antes de você chegar perto; a mãe responde por ela; o pai discorda da mãe. São três cadeiras num encontro clínico só — e o paciente é o único que não fala. Colher dados fidedignos aqui exige mais arte que técnica, e a primeira manobra do exame é uma que não toca em ninguém: observar como a mãe e a criança se relacionam.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -147,6 +152,13 @@ itens:
   - "Exame físico completo concluído, com contenção mínima, respeitosa e explicada quando necessária."
 :::
 
+::: pense
+pergunta: |
+  Na consulta pediátrica, que estatuto a mãe (ou o cuidador principal) tem no exame — fonte de informação ou algo mais?
+resposta: |
+  Algo mais: relacionar-se com ela já é examinar a criança. Porto manda observar durante toda a entrevista o comportamento materno e o que ele revela — isso é parte do próprio exame clínico, não cortesia. E a relação é sempre com a família inteira, da qual depende a adesão ao tratamento.
+:::
+
 ::: secao
 titulo: Profissionalismo — quem consente, quem assente
 :::
@@ -243,6 +255,13 @@ texto: |
 
 ::: perola
 texto: "A Semiologia Médica ensina que, na dúvida sobre a genitália do recém-nascido, não se declara o sexo até a avaliação completa. É talvez o exemplo mais nítido de uma habilidade que atravessa toda a semiologia pediátrica: saber quando a resposta correta da consulta é ainda não responder."
+:::
+
+::: resumo
+linhas:
+  - "O paciente não fala: a história chega por um tradutor que às vezes traduz mal — e observar a relação mãe-criança já é exame."
+  - "As etapas de Porto organizam o capítulo: recém-nascido, lactente, pré-escolar, escolar e adolescente — cada uma com sua abordagem."
+  - "Quem consente é o responsável; quem assente, na medida da idade, é a criança — e a doçura aqui é condição técnica."
 :::
 
 ::: secao

@@ -53,6 +53,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  Terceira consulta pela mesma "dor no estômago", endoscopia normal, e a paciente chora quando você pergunta como andam as coisas em casa. O exame que faltava não pedia aparelho nenhum — vinha acontecendo desde o primeiro "bom dia", na atenção, na memória, no tom da voz. Avaliar o psiquismo não faz do exame um exame psiquiátrico, assim como aferir a pressão não faz dele um exame cardiológico.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -142,6 +147,13 @@ itens:
   - "Orientação temporal, espacial e autopsíquica distinguidas no registro."
   - "Acompanhante ouvido depois do paciente e na presença dele."
   - "Registro final por função, com o horário do exame e as palavras do paciente quando importarem."
+:::
+
+::: pense
+pergunta: |
+  O exame psíquico se aplica ao final da consulta, como um interrogatório à parte?
+resposta: |
+  Não — ele é uma anamnese estruturada que acontece ao longo de toda a entrevista: atenção, memória, comportamento e expressão vão sendo avaliados desde o início. Quando a conversa termina, o exame — se foi bem feito — já terminou junto.
 :::
 
 ::: secao
@@ -335,6 +347,13 @@ texto: |
 
 ::: perola
 texto: "Porto manda evitar as perguntas diretas de orientação e pedir, em vez disso, que o paciente conte de onde veio e como chegou ao exame. A pergunta indireta testa três funções de uma vez — orientação, memória e organização do relato — e não humilha ninguém: quem está orientado responde sem notar que foi testado."
+:::
+
+::: resumo
+linhas:
+  - "Avaliar o psiquismo é tarefa de todo médico — sofrimento emocional somatizado é rotina do consultório, não exceção do psiquiatra."
+  - "O exame é uma anamnese estruturada que corre junto com a entrevista inteira, e serve como roteiro e como triagem para encaminhamento."
+  - "A primeira metade do roteiro: impressão geral, consciência, atenção e orientação — as funções elaboradas vêm no tópico seguinte."
 :::
 
 ::: secao

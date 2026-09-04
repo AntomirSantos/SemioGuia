@@ -50,6 +50,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "Achei um caroço no banho." A frase chega carregada do medo que a paciente não diz. Antes de tocar, interrogue o nódulo — quando apareceu, quantos, cresce, muda com o ciclo — e depois descreva-o por inteiro: a sua descrição de hoje é a régua com que o próximo examinador saberá se a doença andou. Todo nódulo é suspeito até prova em contrário; nem todo nódulo é o que ela teme.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -212,6 +217,13 @@ texto: |
   **A dor é a linha mais traiçoeira.** O câncer de mama tipicamente **não dói** — a *Semiologia Médica* registra o nódulo indolor como a manifestação mais comum. A paciente que se tranquiliza porque "não dói" tem a lógica exatamente invertida; e a que se apavora com a mastalgia cíclica bilateral carrega a queixa com menor relação com câncer de todo o capítulo.
 
   **O perfil da direita é tardio.** Fixação, ulceração e casca de laranja são a biografia de um tumor que teve tempo. O objetivo do exame — e da descrição meticulosa — é encontrar o nódulo **antes** de ele preencher essa coluna.
+:::
+
+::: pense
+pergunta: |
+  A mastalgia — dor mamária — aumenta a suspeita de câncer de mama?
+resposta: |
+  Não: a mastalgia responde por metade das queixas em mastologia e não tem relação com o câncer — mas produz muita ansiedade. Classifique-a (cíclica, acíclica ou extramamária) e devolva-a ao seu lugar; quem acusa é o conjunto do exame, não a dor.
 :::
 
 ::: secao
@@ -386,6 +398,13 @@ texto: |
 
 ::: perola
 texto: "O derrame papilar tem uma aritmética que cabe num bolso: quanto mais ductos, mais lados e mais provocação, mais benigno; quanto mais único, mais espontâneo e mais claro ou mais vermelho o líquido, mais atenção. Bilateral, multiductal e provocado tranquiliza; unilateral, uniductal, espontâneo — sanguinolento ou em água de rocha — investiga-se sempre."
+:::
+
+::: resumo
+linhas:
+  - "O nódulo se interroga antes de se tocar — quando, quantos, velocidade, ciclo — e se descreve por inteiro: a descrição é a régua da próxima consulta."
+  - "Mastalgia não tem relação com câncer; a descarga que preocupa é a espontânea, unilateral, uniductal e sanguinolenta."
+  - "Todo nódulo é suspeito até prova em contrário — o exame clínico descreve, os métodos complementares concluem."
 :::
 
 ::: secao
