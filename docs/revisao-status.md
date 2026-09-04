@@ -5,7 +5,7 @@ Gerado por `npm run revisao:status` em 2026-09-04. Não edite à mão.
 ## Resumo
 
 - Tópicos: **55** · aprovados: **55** · pendentes: **0**
-- Itens do checklist: **4 abertos** de 86
+- Itens do checklist: **0 abertos** de 86
 
 ## Pendências de reescrita (plano de beta, semana 1)
 
@@ -20,8 +20,6 @@ Gerado por `npm run revisao:status` em 2026-09-04. Não edite à mão.
 - [x] Queixa principal e HDA (`anamnese/entrevista-clinica/queixa-principal-e-hda`)
 - [x] Interrogatório sintomatológico (`anamnese/entrevista-clinica/interrogatorio-sintomatologico`)
 - [x] Antecedentes e hábitos (`anamnese/entrevista-clinica/antecedentes-e-habitos`)
-
-Itens do checklist abertos desta fase: **E4**
 
 ### Exame físico geral — 7/7 aprovados
 
@@ -68,8 +66,6 @@ Itens do checklist abertos desta fase: **E4**
 - [x] Doença venosa crônica e trombose (`sistema-vascular-periferico/exame-vascular-periferico/doenca-venosa-cronica-e-trombose`)
 - [x] Isquemia aguda e aneurismas (`sistema-vascular-periferico/exame-vascular-periferico/isquemia-aguda-e-aneurismas`)
 
-Itens do checklist abertos desta fase: **J3**
-
 ### Sistema osteoarticular — 6/6 aprovados
 
 - [x] Princípios do exame osteoarticular (`sistema-osteoarticular/exame-osteoarticular/principios-do-exame-osteoarticular`)
@@ -111,5 +107,4 @@ Itens do checklist abertos desta fase: **J3**
 
 ## Itens globais abertos (divergências e convenções sem sistema único)
 
-- **G1** · Limitação da RNTL 14 nos papéis de a11y _(G. Itens da Fase 8 (redesign))_
-- **G3** · Menores estéticos registrados _(G. Itens da Fase 8 (redesign))_
+Nenhum.

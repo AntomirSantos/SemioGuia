@@ -133,7 +133,7 @@ da oclusão arterial transitória não recebeu resposta e segue aberto.
   Correta estritamente mais longa caiu de ~80% para ≤2 por arquivo
   (na maioria, 0), e o carregamento posicional em B foi redistribuído
   ([1,2,1,2]/[2,1,1,2] por arquivo, com D recebendo corretas).
-- [ ] **E4 · Menores registrados pelas revisões** — ordem das seções nos
+- [x] **E4 · Menores registrados pelas revisões** — ordem das seções nos
   2 primeiros tópicos de anamnese (abertura antes da técnica); exemplo
   "falta de ar" repetido 7× no capítulo; referências cruzadas duplicadas
   inline + mapa nos tópicos densos; cushingoide "por vezes hirsutismo"
@@ -171,15 +171,19 @@ da oclusão arterial transitória não recebeu resposta e segue aberto.
 
 ## G. Itens da Fase 8 (redesign)
 
-- [ ] **G1 · Limitação da RNTL 14 nos papéis de a11y** — getByRole não
+Os itens G1–G3 (e o E4, acima) são registros técnicos permanentes —
+lições e limitações documentadas, sem decisão pendente. Fechados como
+registros com o "ok registros" do autor (2026-09-04).
+
+- [x] **G1 · Limitação da RNTL 14 nos papéis de a11y** — getByRole não
   reconhece 'progressbar'/'tablist' e Views precisam de accessible={true}
   para expor papel/valor; padrão documentado nos testes. Registro para
   futuros testes de a11y (usar getByRole após accessible, ou label).
-- [ ] **G2 · Duração do scroll suave na troca de seção (~800 ms em seções
+- [x] **G2 · Duração do scroll suave na troca de seção (~800 ms em seções
   longas)** — governada pela física nativa do navegador, não é constante
   ajustável; instantâneo sob movimento reduzido. Avaliar no uso real se
   quer algo mais seco.
-- [ ] **G3 · Menores estéticos registrados** — altura de linha das tabelas
+- [x] **G3 · Menores estéticos registrados** — altura de linha das tabelas
   largas segue a célula mais alta mesmo fora da tela (pré-existente,
   melhorou com 170px); aninhamento *itálico dentro de **negrito*** fora de
   escopo do TextoRico (corpus não usa); par ok/okFundo segue fora do gate
@@ -263,7 +267,7 @@ da oclusão arterial transitória não recebeu resposta e segue aberto.
   tem capítulo dedicado (cap. 56, com o boxe EBM 56.1 de onze sinais).
   Nenhuma lacuna foi declarada; os números foram ensinados com os
   limites do próprio McGee. Endossar.
-- [ ] **J3 · Divergências de fonte da Fase 11** — atribuídas lado a lado
+- [x] **J3 · Divergências de fonte da Fase 11** — atribuídas lado a lado
   nos tópicos: (i) **escalas de amplitude do pulso** — a divergência não
   está nos três primeiros degraus (Porto e SC concordam em ausente,
   diminuído e normal), está em onde a escala termina: Porto gradua
@@ -273,10 +277,16 @@ da oclusão arterial transitória não recebeu resposta e segue aberto.
   tornozelo-braço nas três obras; (iii) tempo de enchimento venoso com
   protocolos incompatíveis (McGee 45° por 1 min, corte de 20 s, único
   com desempenho medido × Porto ~90°, sem duração, normal ~10 s);
-  (iv) duas inconsistências internas do Porto — flegmasia ("alba
-  cerulea" × "cerulea dolens", mesma descrição) e livedo (contorna pele
-  normal × contorna palidez). Endossar a apresentação lado a lado ou
-  eleger um lado por item.
+  (iv) duas inconsistências internas do Porto — flegmasia e livedo.
+  RESOLVIDO por partes: (i) escala 0–3+ da SC adotada (regra da
+  hierarquia); (ii) cortes do ITB de McGee adotados; (iii) protocolo de
+  enchimento venoso de McGee adotado; (iv) por pesquisa externa a
+  pedido do autor (2026-09-04) — flegmasia: só phlegmasia alba dolens e
+  phlegmasia cerulea dolens existem na literatura, "alba cerulea"
+  tratado como lapso tipográfico; livedo: as descrições dermatológicas
+  de referência dão a malha cianótica em torno de **centros pálidos**,
+  e o guia adota a versão do Exame Clínico, com a do capítulo de
+  microcirculação atribuída.
 - [x] **J4 · Ressalva do teste de Buerger** — as três versões do teste
   (por ângulo, a investigada de 2+2 min e a de Porto por tempo) só
   ficam plenamente distinguíveis para quem chega ao bloco avançado. A

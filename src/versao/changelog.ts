@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.3',
+    data: '2026-09-04',
+    linhas: [
+      'Revisão do autor encerrada: os 86 itens do checklist estão fechados',
+      'Livedo reticular corrigido pela literatura: a malha cianótica circunda centros pálidos',
+      'Flegmasias com as formas consagradas (alba dolens e cerulea dolens)',
+    ],
+  },
+  {
     versao: '1.2.2',
     data: '2026-09-04',
     linhas: [

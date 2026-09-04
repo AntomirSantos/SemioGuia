@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog` — edite lá.
 
+## 1.2.3 — 2026-09-04
+
+- Revisão do autor encerrada: os 86 itens do checklist estão fechados
+- Livedo reticular corrigido pela literatura: a malha cianótica circunda centros pálidos
+- Flegmasias com as formas consagradas (alba dolens e cerulea dolens)
+
 ## 1.2.2 — 2026-09-04
 
 - Cabeça e pescoço com lados eleitos pela hierarquia: anisocoria e enoftalmia por McGee, Rinne por intensidade, palpação da tireoide pelo movimento

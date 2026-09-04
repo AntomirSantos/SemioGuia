@@ -69,12 +69,11 @@ como "Revisado" no app.
 
 ## O que falta
 
-1. **Fechamento da revisão** — a triagem de literatura craniocaudal
-   cobriu os 12 sistemas e todos os 55 tópicos estão `revisao: ok`
-   ("Revisado" no app). Restam poucos itens de checklist para o autor
-   (endossos H4/J3-iv, registros e os 3 casos clínicos) — roteiro em
-   `docs/inconsistencias-para-revisao.md` + adendos em
-   `docs/verificacao-fase1b.md`.
+1. **Revisão encerrada** — a triagem de literatura craniocaudal cobriu
+   os 12 sistemas, todos os 55 tópicos estão `revisao: ok` ("Revisado"
+   no app) e os **86 itens do checklist do autor estão fechados**
+   (histórico completo em `docs/inconsistencias-para-revisao.md` +
+   adendos em `docs/verificacao-fase1b.md`).
 2. **Ativação do Firebase** — flag mestre desligada; passos em
    `docs/firebase-setup.md` (executar na máquina do autor).
 3. **Publicação nas lojas** — build EAS, ícones/splash definitivos,
