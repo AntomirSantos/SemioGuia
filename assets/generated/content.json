@@ -6791,6 +6791,12 @@
          "texto": "Na expiração as duas sigmoides se fecham juntas e o ruído é único. Na inspiração, o maior afluxo de sangue ao coração direito prolonga a sístole do ventrículo direito, o componente pulmonar atrasa e os dois componentes são percebidos separadamente. É o desdobramento fisiológico, que se ouve na área pulmonar e se imita dizendo **TLA**.\n\nO grau varia de pessoa para pessoa e o achado está presente em quase todas as crianças. Regra prática: desdobramento que **aparece na inspiração e some na expiração** é fisiológico.\n"
         },
         {
+         "tipo": "som",
+         "titulo": "Desdobramento fisiológico de B2 — TLA",
+         "arquivo": "desdobramento-b2",
+         "descricao": "A respiração ao fundo marca as fases: na inspiração, B2 se divide em dois componentes — o TLA —; na expiração, volta a ser única. É o comportamento que define o desdobramento fisiológico, ouvido na área pulmonar.\n"
+        },
+        {
          "tipo": "tabela",
          "titulo": "Desdobramentos patológicos de B2",
          "colunas": [
@@ -6842,6 +6848,12 @@
          "titulo": "Ritmo de galope por B3 — PA-TA-TA",
          "arquivo": "galope-b3",
          "descricao": "O terceiro tempo grave logo depois de B2 dá a cadência de galope. É o som que a campânula apoiada de leve encontra na ponta, em decúbito lateral esquerdo — e que some se você comprimir demais o receptor.\n"
+        },
+        {
+         "tipo": "som",
+         "titulo": "Galope atrial por B4 — TA-TUM-TA",
+         "arquivo": "galope-b4",
+         "descricao": "O quarto som, grave e apagado, cai logo ANTES de B1 — a contração atrial ajudando o enchimento final. Compare com o galope por B3, em que o som extra vem depois de B2.\n"
         },
         {
          "tipo": "conceito",
@@ -6917,6 +6929,12 @@
           "Infarto agudo do miocárdio (surge em geral entre o 1º e o 3º dia)",
           "Trauma torácico"
          ]
+        },
+        {
+         "tipo": "som",
+         "titulo": "Atrito pericárdico",
+         "arquivo": "atrito-pericardico",
+         "descricao": "O som raspado, de couro novo dobrando, aqui com três componentes por ciclo — um sistólico e dois diastólicos — recobrindo parcialmente as bulhas. Procure-o com o paciente sentado, inclinado à frente, em apneia expiratória.\n"
         },
         {
          "tipo": "conceito",
@@ -7126,9 +7144,27 @@
         },
         {
          "tipo": "som",
+         "titulo": "Sopro sistólico de regurgitação",
+         "arquivo": "sopro-regurgitacao",
+         "descricao": "A barra da segunda faixa da figura: o sopro começa junto com B1, recobrindo-a, e mantém a intensidade até alcançar B2. Compare com o de ejeção, que nasce depois de B1 e morre antes de B2.\n"
+        },
+        {
+         "tipo": "som",
          "titulo": "Sopro diastólico aspirativo",
          "arquivo": "sopro-diastolico",
          "descricao": "O sopro nasce logo depois de B2 e vai decrescendo pela diástole, como na terceira faixa da figura. Compare com o sistólico: o lugar entre as bulhas é o que aponta o mecanismo.\n"
+        },
+        {
+         "tipo": "som",
+         "titulo": "Ruflar diastólico com reforço pré-sistólico",
+         "arquivo": "ruflar-pre-sistolico",
+         "descricao": "O rumor grave do meio da diástole que cresce até a próxima B1 — a quarta faixa da figura. É som de baixa frequência: a campânula apoiada de leve o encontra; a pressão firme o apaga.\n"
+        },
+        {
+         "tipo": "som",
+         "titulo": "Sopro contínuo — em maquinaria",
+         "arquivo": "sopro-continuo",
+         "descricao": "O sopro que atravessa a sístole e a diástole sem silêncio, com o máximo em torno de B2 — a última faixa da figura. Nenhuma pausa: é o que o nome \"em maquinaria\" descreve.\n"
         },
         {
          "tipo": "secao",
@@ -9319,6 +9355,18 @@
          "texto": "Os sons contínuos nascem da vibração das paredes brônquicas e do ar que passa por um duto estreitado — por espasmo, por edema da parede ou por secreção aderida a ela.\n\n**Roncos** são graves, de baixa frequência. **Sibilos** são agudos, de alta frequência. Ambos ocorrem na inspiração e na expiração, com predomínio expiratório, e são fugazes: surgem e desaparecem em curto período. Quando difusos por todo o tórax, traduzem doença de toda a árvore brônquica, como asma e bronquite. Quando bem localizados em uma região, apontam obstrução parcial por neoplasia ou corpo estranho — e essa distinção entre difuso e localizado é a informação clínica mais importante que eles carregam.\n\n**Estridor** é um ruído musical de altura constante, em torno de 400 Hz, produzido pela obstrução parcial da laringe ou da traqueia. Acusticamente é idêntico ao sibilo, e duas características o separam dele: o estridor é **inspiratório**, enquanto o sibilo é apenas expiratório ou expiratório e inspiratório; e o estridor é **sempre mais audível sobre o pescoço**, enquanto o sibilo é sempre mais audível sobre o tórax. Na respiração calma sua intensidade é pequena; na respiração forçada, o aumento do fluxo o intensifica muito — e em alguns pacientes ele só aparece quando se pede respiração rápida de boca aberta.\n\nUm adventício menos citado merece registro: o **grasnido**, som inspiratório agudo comparado ao pio de uma gaivota, audível no fim da inspiração nas doenças intersticiais e na bronquiolite.\n"
         },
         {
+         "tipo": "som",
+         "titulo": "Roncos",
+         "arquivo": "roncos",
+         "descricao": "Contínuos graves, nas duas fases com predomínio expiratório — e fugazes: repare como mudam de um ciclo para o outro. Compare com os sibilos: mesma família, outra frequência.\n"
+        },
+        {
+         "tipo": "som",
+         "titulo": "Estridor",
+         "arquivo": "estridor",
+         "descricao": "O tom musical de altura constante, em torno de 400 Hz, na INSPIRAÇÃO. Acusticamente idêntico ao sibilo — o que os separa é a fase do ciclo e o lugar onde soam mais alto: pescoço, não tórax.\n"
+        },
+        {
          "tipo": "sinal",
          "nome": "Atrito pleural",
          "descricao": "Ruído irregular e descontínuo, mais intenso na inspiração, de tonalidade grave e duração longa, comparado ao ranger de couro. Para aprender a reconhecê-lo, encoste uma das mãos na própria orelha e atrite-a com a outra, fazendo forte pressão. Aumentar a pressão do receptor do estetoscópio contra a parede torna o atrito mais intenso.\n",
@@ -9330,6 +9378,12 @@
           "Doença reumática e outras colagenoses",
           "Neoplasias da pleura e do pulmão"
          ]
+        },
+        {
+         "tipo": "som",
+         "titulo": "Atrito pleural",
+         "arquivo": "atrito-pleural",
+         "descricao": "Ruído irregular e descontínuo, grave e longo, mais intenso na inspiração — o ranger de couro dos folhetos inflamados deslizando um sobre o outro.\n"
         },
         {
          "tipo": "som",

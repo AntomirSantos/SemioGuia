@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.9',
+    data: '2026-09-04',
+    linhas: [
+      'Segunda leva de ausculta: 9 sons novos — 17 no total, cobrindo todos os fenômenos sonoros que o texto descreve',
+      'No coração: galope por B4, desdobramento de B2 com a respiração marcando as fases, regurgitação, ruflar, sopro contínuo e atrito pericárdico',
+      'No pulmão: roncos, estridor (o espelho inspiratório do sibilo) e atrito pleural',
+    ],
+  },
+  {
     versao: '1.2.8',
     data: '2026-09-04',
     linhas: [

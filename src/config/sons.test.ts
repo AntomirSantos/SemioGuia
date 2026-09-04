@@ -37,5 +37,5 @@ test('todos os blocos som do conteúdo apontam para sons do registro', () => {
       }
     }
   }
-  expect(blocos).toBe(8);
+  expect(blocos).toBe(17);
 });

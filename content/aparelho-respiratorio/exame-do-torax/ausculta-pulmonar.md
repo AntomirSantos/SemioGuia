@@ -291,6 +291,20 @@ texto: |
   Um adventício menos citado merece registro: o **grasnido**, som inspiratório agudo comparado ao pio de uma gaivota, audível no fim da inspiração nas doenças intersticiais e na bronquiolite.
 :::
 
+::: som
+titulo: Roncos
+arquivo: roncos
+descricao: |
+  Contínuos graves, nas duas fases com predomínio expiratório — e fugazes: repare como mudam de um ciclo para o outro. Compare com os sibilos: mesma família, outra frequência.
+:::
+
+::: som
+titulo: Estridor
+arquivo: estridor
+descricao: |
+  O tom musical de altura constante, em torno de 400 Hz, na INSPIRAÇÃO. Acusticamente idêntico ao sibilo — o que os separa é a fase do ciclo e o lugar onde soam mais alto: pescoço, não tórax.
+:::
+
 ::: sinal
 nome: Atrito pleural
 descricao: |
@@ -303,6 +317,13 @@ causas:
   - "Pneumonias com comprometimento pleural"
   - "Doença reumática e outras colagenoses"
   - "Neoplasias da pleura e do pulmão"
+:::
+
+::: som
+titulo: Atrito pleural
+arquivo: atrito-pleural
+descricao: |
+  Ruído irregular e descontínuo, grave e longo, mais intenso na inspiração — o ranger de couro dos folhetos inflamados deslizando um sobre o outro.
 :::
 
 ::: som

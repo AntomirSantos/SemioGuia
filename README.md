@@ -30,7 +30,7 @@ como "Revisado" no app.
 | Questões de quiz | **327** (balanceadas por índice e comprimento) |
 | Checklists OSCE | **53** (viram estações de prática) |
 | Ilustrações SVG | **52** (temáveis via `currentColor`, geometria verificada) |
-| Sons de ausculta | **8** (sintetizados por script — livres de direitos) |
+| Sons de ausculta | **17** (sintetizados por script — livres de direitos) |
 | Testes | **57 suítes / 433 testes** verdes |
 
 ## Stack
@@ -44,7 +44,7 @@ como "Revisado" no app.
   textos derivados do conteúdo já revisado
 - **Semiologia em movimento e som** (set/2026): ilustrações temporais que
   se desenham (`id="anima-N"` + stroke-dashoffset — sopros no ciclo, ondas
-  do pulso venoso, curvas térmicas, ritmos respiratórios), 8 sons de
+  do pulso venoso, curvas térmicas, ritmos respiratórios), 17 sons de
   ausculta sintetizados por `scripts/gerar-sons.py` (bloco `som`, player
   expo-audio) e micro-recompensas sóbrias no quiz (check que se desenha,
   shake curto, expo-haptics) — tudo respeitando `prefers-reduced-motion`

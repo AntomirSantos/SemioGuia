@@ -607,3 +607,18 @@ temporais existentes (sopros, ondas do pulso venoso, curvas térmicas) agora
 se desenham em loop — com `prefers-reduced-motion`, ficam estáticos como
 sempre foram — e o quiz ganhou check desenhado, shake curto no erro e
 háptica no celular.
+
+**Complemento (v1.2.9):** segunda leva de sons — agora TODOS os fenômenos
+sonoros que o texto descreve têm som tocável (17 no total, sempre pelo
+mesmo `scripts/gerar-sons.py`, sintetizados e livres de direitos). Novos no
+coração: galope atrial por B4 (TA-TUM-TA), desdobramento fisiológico de B2
+(a respiração de fundo marca as fases: TLA na inspiração, B2 única na
+expiração), sopro sistólico de regurgitação (em barra, recobrindo B1),
+ruflar diastólico com reforço pré-sistólico, sopro contínuo "em maquinaria"
+e atrito pericárdico (raspado, três componentes por ciclo). Novos no
+pulmão: roncos (graves, fugazes, predomínio expiratório), estridor (tom de
+~400 Hz na inspiração — o par didático do sibilo) e atrito pleural (ranger
+de couro, mais intenso na inspiração). Os cinco sons de sopro espelham
+agora, um a um, as cinco faixas da figura dos formatos. Vale a mesma escuta
+de endosso pedida no complemento anterior — em especial o atrito
+pericárdico, o timbre mais difícil de sintetizar.

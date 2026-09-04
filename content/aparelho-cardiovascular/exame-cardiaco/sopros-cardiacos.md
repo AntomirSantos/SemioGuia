@@ -166,10 +166,31 @@ descricao: |
 :::
 
 ::: som
+titulo: Sopro sistólico de regurgitação
+arquivo: sopro-regurgitacao
+descricao: |
+  A barra da segunda faixa da figura: o sopro começa junto com B1, recobrindo-a, e mantém a intensidade até alcançar B2. Compare com o de ejeção, que nasce depois de B1 e morre antes de B2.
+:::
+
+::: som
 titulo: Sopro diastólico aspirativo
 arquivo: sopro-diastolico
 descricao: |
   O sopro nasce logo depois de B2 e vai decrescendo pela diástole, como na terceira faixa da figura. Compare com o sistólico: o lugar entre as bulhas é o que aponta o mecanismo.
+:::
+
+::: som
+titulo: Ruflar diastólico com reforço pré-sistólico
+arquivo: ruflar-pre-sistolico
+descricao: |
+  O rumor grave do meio da diástole que cresce até a próxima B1 — a quarta faixa da figura. É som de baixa frequência: a campânula apoiada de leve o encontra; a pressão firme o apaga.
+:::
+
+::: som
+titulo: Sopro contínuo — em maquinaria
+arquivo: sopro-continuo
+descricao: |
+  O sopro que atravessa a sístole e a diástole sem silêncio, com o máximo em torno de B2 — a última faixa da figura. Nenhuma pausa: é o que o nome "em maquinaria" descreve.
 :::
 
 ::: secao

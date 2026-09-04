@@ -249,15 +249,205 @@ def som_estertores_grossos():
     return normalizar(y)
 
 
+# ------------------------------------------------- segunda leva: coração
+
+
+def som_galope_b4():
+    # Galope atrial: B4 grave e apagada logo ANTES de B1 (TA-TUM-TA).
+    ciclo = 0.66
+    n_ciclos = 10
+
+    def montar():
+        y = np.zeros(int(n_ciclos * ciclo * SR))
+        for k in range(n_ciclos):
+            t0 = k * ciclo
+            colocar(y, bulha1(), t0)
+            colocar(y, bulha2(), t0 + 0.26)
+            # B4 do PRÓXIMO ciclo, 100 ms antes da próxima B1.
+            if k < n_ciclos - 1:
+                b4 = 0.55 * damped_sine(36, 0.12, 0.040) + 0.2 * damped_sine(70, 0.12, 0.030)
+                colocar(y, b4, t0 + ciclo - 0.10)
+        return y
+
+    return normalizar(montar())
+
+
+def som_desdobramento_b2():
+    # Desdobramento fisiológico de B2: na inspiração os dois componentes se
+    # separam (TLA); na expiração B2 volta a ser única. A respiração ao
+    # fundo, discreta, marca as fases para o ouvido.
+    n_resp = 2
+    dur = n_resp * RESP
+    y = respiracao_base(n_resp, insp=1.5, exp_audivel=0.7, ganho_exp=0.4, semente=71) * 0.28
+    n_batimentos = int(dur / CICLO)
+    for k in range(n_batimentos):
+        t0 = k * CICLO
+        colocar(y, bulha1(), t0, ganho=0.9)
+        fase = t0 % RESP
+        inspirando = fase < 1.6
+        if inspirando:
+            # A2 e P2 separados por ~70 ms — o "TLA".
+            colocar(y, bulha2(), t0 + SISTOLE, ganho=0.8)
+            colocar(y, bulha2(), t0 + SISTOLE + 0.07, ganho=0.6)
+        else:
+            colocar(y, bulha2(), t0 + SISTOLE, ganho=0.85)
+    return normalizar(y)
+
+
+def som_sopro_regurgitacao():
+    # Holossistólico "em barra": começa JUNTO com B1, recobrindo-a, e mantém
+    # a intensidade até alcançar B2.
+    dur_sopro = SISTOLE + 0.04
+
+    def sopro(y, t0):
+        n = int(dur_sopro * SR)
+        ruido = ruido_banda(dur_sopro, 150, 550, semente=int(t0 * 1000) + 17)
+        env = np.ones(n)
+        borda = int(0.02 * SR)
+        env[:borda] = np.linspace(0.4, 1, borda)
+        env[-borda:] = np.linspace(1, 0.3, borda)
+        colocar(y, ruido * env, t0, ganho=0.5)
+
+    return normalizar(ciclos_cardiacos(8, com=sopro))
+
+
+def som_ruflar_pre_sistolico():
+    # Ruflar diastólico grave com reforço pré-sistólico: o rumor de baixa
+    # frequência do meio da diástole que cresce até a próxima B1.
+    inicio = SISTOLE + 0.12
+    dur_ruflar = CICLO - inicio
+
+    def sopro(y, t0):
+        n = int(dur_ruflar * SR)
+        ruido = ruido_banda(dur_ruflar, 35, 120, semente=int(t0 * 1000) + 23)
+        x = np.linspace(0, 1, n)
+        env = 0.45 + 0.0 * x
+        env[x > 0.7] = 0.45 + 0.55 * ((x[x > 0.7] - 0.7) / 0.3) ** 1.3  # reforço
+        colocar(y, ruido * env, t0 + inicio, ganho=0.75)
+
+    return normalizar(ciclos_cardiacos(8, com=sopro))
+
+
+def som_sopro_continuo():
+    # Contínuo "em maquinaria": atravessa sístole e diástole sem silêncio,
+    # com o máximo em torno de B2.
+    def sopro(y, t0):
+        n = int(CICLO * SR)
+        ruido = ruido_banda(CICLO, 180, 700, semente=int(t0 * 1000) + 29)
+        x = np.linspace(0, 1, n)
+        pico = SISTOLE / CICLO
+        env = np.where(x < pico, 0.4 + 0.6 * (x / pico), 1.0 - 0.6 * ((x - pico) / (1 - pico)))
+        colocar(y, ruido * env, t0, ganho=0.45)
+
+    return normalizar(ciclos_cardiacos(8, com=sopro))
+
+
+def _raspado(dur, semente):
+    """Ruído raspado de couro/lixa: banda média modulada por rugosidade."""
+    n = int(dur * SR)
+    ruido = ruido_banda(dur, 250, 1400, semente=semente)
+    rugosidade = np.abs(ruido_banda(dur, 8, 45, semente=semente + 1))
+    rugosidade = rugosidade / (np.max(rugosidade) + 1e-9)
+    env = np.sin(np.linspace(0, np.pi, n)) ** 0.7
+    return ruido * (0.35 + 0.65 * rugosidade) * env
+
+
+def som_atrito_pericardico():
+    # Atrito pericárdico com três componentes por ciclo — um sistólico e
+    # dois diastólicos —, recobrindo parcialmente as bulhas.
+    n_ciclos = 8
+
+    def montar():
+        y = np.zeros(int(n_ciclos * CICLO * SR))
+        for k in range(n_ciclos):
+            t0 = k * CICLO
+            colocar(y, bulha1(), t0, ganho=0.55)
+            colocar(y, bulha2(), t0 + SISTOLE, ganho=0.55)
+            base = int(t0 * 1000)
+            colocar(y, _raspado(0.20, base + 31), t0 + 0.04, ganho=0.85)   # sistólico
+            colocar(y, _raspado(0.14, base + 37), t0 + 0.42, ganho=0.6)    # diastólico precoce
+            colocar(y, _raspado(0.13, base + 41), t0 + 0.65, ganho=0.65)   # pré-sistólico
+        return y
+
+    return normalizar(montar())
+
+
+# -------------------------------------------------- segunda leva: pulmão
+
+
+def som_roncos():
+    # Roncos: contínuos graves, nas duas fases com predomínio expiratório,
+    # fugazes — presentes num ciclo, mais apagados no seguinte.
+    n_ciclos = 3
+    y = respiracao_base(n_ciclos, insp=1.3, exp_audivel=1.8, ganho_exp=0.35, semente=81) * 0.6
+    ganhos_por_ciclo = [1.0, 0.5, 0.9]
+    for k in range(n_ciclos):
+        t0 = k * RESP
+        for inicio, dur, g_fase in ((0.15, 1.0, 0.5), (1.4, 1.7, 1.0)):
+            t = t_axis(dur)
+            rugoso = 0.7 + 0.3 * np.sin(2 * np.pi * 22 * t)
+            tom = (np.sin(2 * np.pi * 140 * t) + 0.4 * np.sin(2 * np.pi * 280 * t)) * rugoso
+            env = np.sin(np.linspace(0, np.pi, len(t))) ** 0.9
+            colocar(y, tom * env, t0 + inicio, ganho=0.3 * g_fase * ganhos_por_ciclo[k])
+    return normalizar(y)
+
+
+def som_estridor():
+    # Estridor: tom musical de altura constante (~400 Hz) na INSPIRAÇÃO —
+    # o espelho do sibilo, que predomina na expiração.
+    n_ciclos = 3
+    y = respiracao_base(n_ciclos, insp=1.5, exp_audivel=0.8, ganho_exp=0.35, semente=91) * 0.6
+    for k in range(n_ciclos):
+        t0 = k * RESP + 0.1
+        dur = 1.3
+        t = t_axis(dur)
+        env = np.sin(np.linspace(0, np.pi, len(t))) ** 0.7
+        tom = np.sin(2 * np.pi * 400 * t) + 0.25 * np.sin(2 * np.pi * 800 * t)
+        colocar(y, tom * env, t0, ganho=0.4)
+    return normalizar(y)
+
+
+def som_atrito_pleural():
+    # Atrito pleural: ruído irregular e descontínuo, grave, mais intenso na
+    # inspiração — o ranger de couro.
+    n_ciclos = 3
+    y = respiracao_base(n_ciclos, semente=101) * 0.55
+    rng = np.random.default_rng(107)
+    for k in range(n_ciclos):
+        t0 = k * RESP
+        for _ in range(7):  # rajadas inspiratórias
+            atraso = float(rng.uniform(0.1, 1.3))
+            dur = float(rng.uniform(0.04, 0.09))
+            n = int(dur * SR)
+            rajada = ruido_banda(dur, 120, 700, semente=int(rng.integers(1, 9999)))
+            colocar(y, rajada * np.sin(np.linspace(0, np.pi, n)), t0 + atraso, ganho=0.55 * float(rng.uniform(0.6, 1.0)))
+        for _ in range(3):  # mais discreto na expiração
+            atraso = float(rng.uniform(1.6, 2.1))
+            dur = float(rng.uniform(0.04, 0.08))
+            n = int(dur * SR)
+            rajada = ruido_banda(dur, 120, 700, semente=int(rng.integers(1, 9999)))
+            colocar(y, rajada * np.sin(np.linspace(0, np.pi, n)), t0 + atraso, ganho=0.3)
+    return normalizar(y)
+
+
 SONS = {
     'bulhas-normais.wav': som_bulhas_normais,
     'galope-b3.wav': som_galope_b3,
+    'galope-b4.wav': som_galope_b4,
+    'desdobramento-b2.wav': som_desdobramento_b2,
     'sopro-sistolico.wav': som_sopro_sistolico,
+    'sopro-regurgitacao.wav': som_sopro_regurgitacao,
     'sopro-diastolico.wav': som_sopro_diastolico,
+    'ruflar-pre-sistolico.wav': som_ruflar_pre_sistolico,
+    'sopro-continuo.wav': som_sopro_continuo,
+    'atrito-pericardico.wav': som_atrito_pericardico,
     'murmurio-vesicular.wav': som_murmurio_vesicular,
     'sibilos.wav': som_sibilos,
+    'roncos.wav': som_roncos,
+    'estridor.wav': som_estridor,
     'estertores-finos.wav': som_estertores_finos,
     'estertores-grossos.wav': som_estertores_grossos,
+    'atrito-pleural.wav': som_atrito_pleural,
 }
 
 if __name__ == '__main__':

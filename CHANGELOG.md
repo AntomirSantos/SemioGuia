@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog` — edite lá.
 
+## 1.2.9 — 2026-09-04
+
+- Segunda leva de ausculta: 9 sons novos — 17 no total, cobrindo todos os fenômenos sonoros que o texto descreve
+- No coração: galope por B4, desdobramento de B2 com a respiração marcando as fases, regurgitação, ruflar, sopro contínuo e atrito pericárdico
+- No pulmão: roncos, estridor (o espelho inspiratório do sibilo) e atrito pleural
+
 ## 1.2.8 — 2026-09-04
 
 - Ausculta dentro do tópico: 8 sons sintetizados tocáveis — bulhas, galope, sopros sistólico e diastólico, murmúrio, sibilos e estertores

@@ -7,12 +7,21 @@
 export const FONTES_DE_SOM = {
   'bulhas-normais': require('../../assets/sons/bulhas-normais.wav'),
   'galope-b3': require('../../assets/sons/galope-b3.wav'),
+  'galope-b4': require('../../assets/sons/galope-b4.wav'),
+  'desdobramento-b2': require('../../assets/sons/desdobramento-b2.wav'),
   'sopro-sistolico': require('../../assets/sons/sopro-sistolico.wav'),
+  'sopro-regurgitacao': require('../../assets/sons/sopro-regurgitacao.wav'),
   'sopro-diastolico': require('../../assets/sons/sopro-diastolico.wav'),
+  'ruflar-pre-sistolico': require('../../assets/sons/ruflar-pre-sistolico.wav'),
+  'sopro-continuo': require('../../assets/sons/sopro-continuo.wav'),
+  'atrito-pericardico': require('../../assets/sons/atrito-pericardico.wav'),
   'murmurio-vesicular': require('../../assets/sons/murmurio-vesicular.wav'),
   sibilos: require('../../assets/sons/sibilos.wav'),
+  roncos: require('../../assets/sons/roncos.wav'),
+  estridor: require('../../assets/sons/estridor.wav'),
   'estertores-finos': require('../../assets/sons/estertores-finos.wav'),
   'estertores-grossos': require('../../assets/sons/estertores-grossos.wav'),
+  'atrito-pleural': require('../../assets/sons/atrito-pleural.wav'),
 } as const;
 
 export type ChaveDeSom = keyof typeof FONTES_DE_SOM;

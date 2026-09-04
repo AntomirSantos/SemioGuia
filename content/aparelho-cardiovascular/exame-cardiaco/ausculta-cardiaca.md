@@ -236,6 +236,13 @@ texto: |
   O grau varia de pessoa para pessoa e o achado está presente em quase todas as crianças. Regra prática: desdobramento que **aparece na inspiração e some na expiração** é fisiológico.
 :::
 
+::: som
+titulo: Desdobramento fisiológico de B2 — TLA
+arquivo: desdobramento-b2
+descricao: |
+  A respiração ao fundo marca as fases: na inspiração, B2 se divide em dois componentes — o TLA —; na expiração, volta a ser única. É o comportamento que define o desdobramento fisiológico, ouvido na área pulmonar.
+:::
+
 ::: tabela
 titulo: Desdobramentos patológicos de B2
 colunas:
@@ -305,6 +312,13 @@ titulo: Ritmo de galope por B3 — PA-TA-TA
 arquivo: galope-b3
 descricao: |
   O terceiro tempo grave logo depois de B2 dá a cadência de galope. É o som que a campânula apoiada de leve encontra na ponta, em decúbito lateral esquerdo — e que some se você comprimir demais o receptor.
+:::
+
+::: som
+titulo: Galope atrial por B4 — TA-TUM-TA
+arquivo: galope-b4
+descricao: |
+  O quarto som, grave e apagado, cai logo ANTES de B1 — a contração atrial ajudando o enchimento final. Compare com o galope por B3, em que o som extra vem depois de B2.
 :::
 
 ::: conceito
@@ -392,6 +406,13 @@ causas:
   - "Pericardite de qualquer etiologia — infecciosa, urêmica, neoplásica, actínica, por doença do tecido conjuntivo"
   - "Infarto agudo do miocárdio (surge em geral entre o 1º e o 3º dia)"
   - "Trauma torácico"
+:::
+
+::: som
+titulo: Atrito pericárdico
+arquivo: atrito-pericardico
+descricao: |
+  O som raspado, de couro novo dobrando, aqui com três componentes por ciclo — um sistólico e dois diastólicos — recobrindo parcialmente as bulhas. Procure-o com o paciente sentado, inclinado à frente, em apneia expiratória.
 :::
 
 ::: conceito
