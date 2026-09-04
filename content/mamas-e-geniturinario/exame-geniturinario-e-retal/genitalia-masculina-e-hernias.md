@@ -431,6 +431,20 @@ texto: |
 texto: "Três instrumentos resolvem a bolsa escrotal: a lanterna, os dedos acima da massa e o decúbito. O que transilumina é líquido; o que não deixa os dedos passarem por cima vem do canal inguinal; o que some deitado é hérnia ou varicocele. Quando os três falham ao mesmo tempo — a hidrocele irredutível no anel, que Porto admite indistinguível da hérnia estrangulada —, a resposta é a ultrassonografia, com pressa."
 :::
 
+::: relampago
+caso: |
+  Rapaz de 19 anos com desconforto escrotal esquerdo vago, pior ao fim do dia. Deitado na maca, o exame minucioso da bolsa não encontra nada. O laudo mental já diz "exame normal".
+pergunta: |
+  O exame terminou?
+opcoes:
+  - "Sim — a palpação em decúbito foi completa"
+  - "Não — falta examinar de pé, com manobra de Valsalva"
+  - "Sim, mas vale encaminhar ao ultrassom pela queixa persistente"
+corretaIndex: 1
+desfecho: |
+  De pé, o "saco cheio de vermes" apareceu acima do testículo esquerdo e cresceu com o esforço: varicocele — cujo exame Porto registra como obrigatoriamente feito em posição ortostática, graduada pela manobra de Valsalva. O que aparece de pé e some deitado — hérnia, varicocele — é o que a maca esconde; examinar só em decúbito é examinar com o achado guardado.
+:::
+
 ::: resumo
 linhas:
   - "Luvas sempre, etapa anunciada antes de executada, e palpação testicular de extrema delicadeza — a gentileza aqui tem justificativa oncológica."

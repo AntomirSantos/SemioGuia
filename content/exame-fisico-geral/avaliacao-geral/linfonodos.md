@@ -500,6 +500,20 @@ texto: |
 texto: "Diante de uma adenomegalia, três perguntas resolvem a maior parte do caminho antes de qualquer exame: há quanto tempo está aí, o que ela drena, e como ela é ao toque. Tempo separa infeccioso de neoplásico; território indica onde procurar a causa; consistência, mobilidade e coalescência carregam quase todo o poder discriminante que o exame físico tem a oferecer."
 :::
 
+::: relampago
+caso: |
+  Estudante de 20 anos com dor de garganta e febre há três dias; ontem apareceu uma "íngua" cervical dolorosa de 1,5 cm, móvel. A mãe quer encaminhamento imediato para biópsia.
+pergunta: |
+  Qual é a leitura do tempo nessa história?
+opcoes:
+  - "Dias a semanas apontam causa infecciosa ou inflamatória — tratar o foco e reavaliar"
+  - "Crescimento rápido é a assinatura típica da neoplasia — encaminhar para biópsia sem demora"
+  - "O tempo não ajuda em nada; só a ultrassonografia decide"
+corretaIndex: 0
+desfecho: |
+  Tempo é informação: a velocidade de crescimento separa os grupos — dias a semanas apontam causa infecciosa ou inflamatória; semanas a meses, causa neoplásica, granulomatosa ou inflamatória crônica. Somado ao território de drenagem inflamado e ao linfonodo móvel e doloroso, o caso se explica pela faringite — e a reavaliação confirma o caminho.
+:::
+
 ::: resumo
 linhas:
   - "Cada cadeia drena um território conhecido: localizar o linfonodo é deduzir de onde vem o problema — lembrando que a doença nem sempre respeita o mapa."

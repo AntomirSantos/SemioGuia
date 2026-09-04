@@ -493,6 +493,20 @@ texto: |
 texto: "Duas perguntas separam quase toda dor lombar que desce para a perna: o que a piora e o que a alivia. Se piora ao tossir, ao espirrar e ao inclinar o tronco, pense em raiz estirada. Se piora ao andar e alivia com o tronco curvado, pense em canal estreito — e lembre que a insuficiência arterial também dói ao andar."
 :::
 
+::: relampago
+caso: |
+  Lombalgia forte há dois dias em um homem de 44 anos. No meio da consulta ele menciona, de passagem, que "hoje o xixi está difícil de segurar" e que o períneo está "meio dormente ao sentar".
+pergunta: |
+  O que essas frases mudam?
+opcoes:
+  - "Nada — sintomas urinários acompanham qualquer dor intensa"
+  - "Indicam associar um relaxante muscular e reavaliar em uma semana"
+  - "Tudo — anestesia em sela e alteração de esfíncter compõem a síndrome da cauda equina"
+corretaIndex: 2
+desfecho: |
+  É o item da lista de bandeiras vermelhas que muda a conduta imediatamente: na compressão grave da cauda equina aparecem anestesia em sela no períneo, perda do controle dos esfíncteres e déficit nas pernas. E é justamente a pesquisa que o examinador costuma esquecer — perguntar sobre os esfíncteres e testar a sensibilidade perineal. A "lombalgia comum" acabou de sair do rótulo; o caso agora é emergência.
+:::
+
 ::: resumo
 linhas:
   - "A coluna se examina de pé, nos três planos, com o dorso descoberto — e a flexão anterior é o que revela a escoliose estrutural."

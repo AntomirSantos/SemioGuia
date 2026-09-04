@@ -382,6 +382,20 @@ texto: |
 texto: "Todo médico precisa conhecer as possibilidades econômicas do seu paciente — Porto trata isso como parte da anamnese, e não como delicadeza. Um plano de cuidado que a pessoa não pode cumprir não é um plano; é uma anotação."
 :::
 
+::: relampago
+caso: |
+  "Sou alérgico a dipirona", diz o paciente, e a acompanhante confirma com a cabeça. A informação vem de uma internação de vinte anos atrás; ele não sabe contar o que aconteceu — "só sei que ficou anotado".
+pergunta: |
+  Como registrar esse antecedente?
+opcoes:
+  - "Registrar \"alergia a dipirona\" e seguir — segurança em primeiro lugar"
+  - "Interrogar sintomas e temporalidade do episódio e registrar com o vínculo — ou como inconclusivo"
+  - "Não registrar nada, já que nem o próprio paciente consegue descrever a reação que apresentou"
+corretaIndex: 1
+desfecho: |
+  O interrogatório cuidadoso é o que *Semiologia Clínica* pede: procurar o vínculo de causa e efeito, porque histórias de alergia a medicamentos muitas vezes não se sustentam. Mesmo inconclusivo, o dado vale o registro — desde que registrado como inconclusivo. Uma alergia carimbada sem descrição fecha uma classe de medicamentos por décadas; não registrar, por outro lado, apaga um risco que pode ser real.
+:::
+
 ::: resumo
 linhas:
   - "Antecedentes e hábitos contam com quem a doença está acontecendo — e é isso que transforma sintomas em probabilidades."

@@ -407,6 +407,20 @@ texto: |
 texto: "A pergunta útil diante de um fígado palpável não é quantos centímetros ele ultrapassa o rebordo, e sim como ele é ao toque. A distância se correlaciona mal com o volume real; a consistência firme, essa sim, eleva a probabilidade de cirrose — e acompanha bem as medidas modernas de fibrose."
 :::
 
+::: relampago
+caso: |
+  Idoso sonolento na enfermaria, sem urinar desde a manhã. Na palpação do hipogástrio, uma "massa" arredondada, tensa e dolorosa. O plantonista já fala em acionar a cirurgia por tumor abdominal.
+pergunta: |
+  Qual é o passo anterior a qualquer acionamento?
+opcoes:
+  - "Solicitar tomografia de abdome em caráter de urgência"
+  - "Manter o jejum e chamar a cirurgia agora — massa dolorosa não espera"
+  - "Percutir a região e reexaminar depois de esvaziar a bexiga"
+corretaIndex: 2
+desfecho: |
+  A bexiga em retenção lidera a lista dos tumores-fantasmas — com o fecaloma no sigmoide, o promontório e o rim ptótico —, todos desfeitos por uma percussão e um reexame. Concluir massa sem percutir e sem esvaziar a bexiga é erro clássico da palpação: esvaziada a bexiga, o "tumor" sumiu, e a madrugada do paciente terminou sem cirurgião.
+:::
+
 ::: resumo
 linhas:
   - "Duas perguntas em sequência: primeiro a parede (superficial — tensão, dor, continuidade), depois a cavidade (profunda — órgãos e massas com seus atributos)."

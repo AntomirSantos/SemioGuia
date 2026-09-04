@@ -337,6 +337,20 @@ texto: |
 texto: "A régua do exame das mamas é a outra mama da mesma paciente. Porto manda começar pela mama sem queixa exatamente por isso: ela calibra a mão para o parênquima daquela pessoa, naquela fase do ciclo — e transforma a pergunta impossível 'isto é normal?' na pergunta respondível 'isto é igual ao outro lado?'."
 :::
 
+::: relampago
+caso: |
+  Homem de 62 anos em consulta por outro motivo menciona um "carocinho no peito" à esquerda. À palpação: nódulo endurecido, excêntrico em relação à aréola, único. "Ginecomastia da idade", sugere o interno — afinal, ela é fisiológica na senilidade.
+pergunta: |
+  O rótulo serve?
+opcoes:
+  - "Não — nódulo unilateral, excêntrico e endurecido no homem não é ginecomastia até prova em contrário"
+  - "Serve — mama aumentada no idoso é ginecomastia senil, fisiológica como a da puberdade e a do recém-nascido"
+  - "Serve, se os hormônios vierem normais"
+corretaIndex: 0
+desfecho: |
+  A ginecomastia verdadeira é proliferação glandular — um botão subareolar, tipicamente central. O câncer de mama masculino existe: 1% dos casos, em idade média mais avançada, e a assimetria que muda a conduta é exatamente esta — nódulo unilateral excêntrico, endurecido ou aderido não recebe o rótulo benigno sem investigação. O exame da mama masculina usa o mesmo repertório descritivo do exame da feminina, e aqui ele descreveu um achado que precisa de resposta.
+:::
+
 ::: resumo
 linhas:
   - "O contrato vem antes da técnica: etapas explicadas, consentimento prévio, exposição mínima e progressiva."

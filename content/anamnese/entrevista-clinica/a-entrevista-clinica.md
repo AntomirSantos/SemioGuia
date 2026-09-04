@@ -457,6 +457,20 @@ texto: |
 texto: "\"Só se acha o que se procura e só se procura o que se conhece\" — a formulação, entre aspas, é de Porto, no capítulo de anamnese, e explica por que a entrevista melhora conforme o conhecimento clínico cresce: não é a técnica de perguntar que muda, é o repertório de perguntas possíveis."
 :::
 
+::: relampago
+caso: |
+  Fim de uma consulta cheia. Você devolve a história no resumo de checagem e pergunta se ficou algo de fora. Dona Cecília baixa o olhar: "tem uma coisa... mas nem sei se é daqui". A sala de espera está lotada e o próximo paciente já foi chamado duas vezes.
+pergunta: |
+  O que fazer com essa frase?
+opcoes:
+  - "Encerrar com gentileza e pedir que ela traga o assunto na próxima consulta"
+  - "Abrir espaço agora e ouvir o que ela tem a dizer"
+  - "Pedir que ela resuma o tema em uma palavra, para decidir se cabe hoje"
+corretaIndex: 1
+desfecho: |
+  Era o motivo real da consulta — o que *Semiologia Clínica* chama de **agenda oculta**, o conteúdo que só aparece quando a confiança já se estabeleceu, e que costuma vir exatamente nesse momento do fechamento. Sexualidade, violência doméstica, saúde mental: temas assim raramente sobrevivem a um "traga na próxima". A consulta que parecia terminada estava, na verdade, começando.
+:::
+
 ::: resumo
 linhas:
   - "A anamnese responde pela maior parte dos diagnósticos — quem conduz mal a entrevista já perdeu o que o encontro clínico tinha de melhor a oferecer."

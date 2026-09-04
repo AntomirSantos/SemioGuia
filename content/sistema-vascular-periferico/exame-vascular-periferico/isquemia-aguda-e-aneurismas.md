@@ -429,6 +429,20 @@ texto: |
 texto: "Aneurisma quase nunca se anuncia; ele se apresenta pela complicação. Um artelho subitamente azul, um sopro sistólico novo sobre a fossa poplítea, uma pulsação que afasta as duas mãos no epigástrio — em cada um desses casos, o exame não descobriu o aneurisma, descobriu o que ele já fez."
 :::
 
+::: relampago
+caso: |
+  Revisão de um claudicante de 70 anos. Na fossa poplítea direita, o pulso vem fácil demais: uma massa pulsátil, larga, que você delimita entre os dedos. "Que pulso bom", comenta o interno.
+pergunta: |
+  Pulso bom?
+opcoes:
+  - "Sim — poplítea fácil de palpar é sinal de boa circulação colateral no membro claudicante"
+  - "Impossível dizer — só o duplex responde"
+  - "Provavelmente não — tumor pulsátil ali levanta aneurisma, e aneurisma poplíteo emboliza"
+corretaIndex: 2
+desfecho: |
+  A poplítea é reconhecidamente difícil de palpar — quando ela se entrega como massa pulsátil, a suspeita é aneurisma, uma das localizações mais comuns dos adquiridos. Porto descreve como complicações principais a trombose e a embolia a partir dos trombos da parede, capazes de produzir isquemia aguda da perna inteira ou de um único pododáctilo. O "pulso bom" é um aneurisma silencioso; achá-lo agora é o que evita conhecê-lo como emergência.
+:::
+
 ::: resumo
 linhas:
   - "Isquemia aguda é emergência de exame físico: dor, palidez e frialdade com topografia, cianose que agrava, pulsos ausentes distais à oclusão — e conduta que não espera imagem inacessível."

@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog` — edite lá.
 
+## 1.2.7 — 2026-09-04
+
+- Caso-relâmpago em todos os 55 tópicos: um parágrafo-caso com uma decisão única no fim da leitura
+- Você escolhe, o desfecho aparece — errar também ensina, e a escolha vale pela tentativa
+- É a ponte entre a leitura e os três casos clínicos ramificados
+
 ## 1.2.6 — 2026-09-04
 
 - Toda razão de verossimilhança citada agora vem traduzida: o quanto o achado move a probabilidade — regra vigiada pelo build

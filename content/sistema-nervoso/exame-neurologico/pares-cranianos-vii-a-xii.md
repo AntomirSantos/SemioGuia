@@ -579,6 +579,20 @@ texto: |
 texto: "Uma língua que desvia diz de que lado está a fraqueza — ela pende para o lado fraco. Para saber onde está a lesão, olhe duas coisas a mais: se há atrofia ou fasciculação, o problema é do núcleo ou do nervo; e para que lado estão o braço e a perna fracos, porque a resposta separa o hemisfério do bulbo."
 :::
 
+::: relampago
+caso: |
+  Terceiro dia de um acidente vascular cerebral. A família quer trazer sopa; a técnica informa que o paciente "tem reflexo de vômito presente" e pergunta se pode liberar a dieta por via oral.
+pergunta: |
+  O reflexo presente decide a questão?
+opcoes:
+  - "Decide — reflexo do vômito presente garante deglutição segura"
+  - "Decide o contrário — todo paciente com AVC permanece em jejum absoluto por uma semana"
+  - "Não decide — testar a sensibilidade faríngea e a deglutição de água rende muito mais"
+corretaIndex: 2
+desfecho: |
+  Diante do acidente vascular com suspeita de disfagia, testar a sensibilidade faríngea rende muito mais do que provocar o reflexo do vômito — e incomoda menos. O teste de deglutição de água completa a avaliação: goles pequenos, atenção a tosse, engasgo ou mudança da voz. O reflexo presente que a técnica descreveu não responde à única pergunta que importa aqui: se a via aérea está protegida quando o alimento desce.
+:::
+
 ::: resumo
 linhas:
   - "Do VII ao XII, o trabalho é ligar achados já conhecidos a uma topografia: rosto, audição e equilíbrio, palato e voz, pescoço e língua."

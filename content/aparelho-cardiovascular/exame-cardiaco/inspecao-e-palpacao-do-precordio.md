@@ -309,6 +309,20 @@ texto: |
 texto: "Antes de auscultar, localize o ictus. Ele não é apenas um sinal de tamanho ventricular — é o endereço da área mitral naquele paciente, que na cardiomegalia acentuada migra para a linha axilar anterior."
 :::
 
+::: relampago
+caso: |
+  Homem de 58 anos, hipertenso mal controlado. Você palpa o ictus no 6º espaço intercostal, nitidamente para fora da linha hemiclavicular, e precisa de três polpas digitais para recobri-lo.
+pergunta: |
+  O que esse conjunto sugere?
+opcoes:
+  - "Dilatação do ventrículo esquerdo — o ictus foi empurrado para baixo e para fora"
+  - "Variação do biotipo do paciente, sem nenhum significado patológico nesse contexto"
+  - "Ictus hipercinético de causa extracardíaca"
+corretaIndex: 0
+desfecho: |
+  Posição e extensão contam juntas a mesma história: a dilatação do ventrículo esquerdo empurra o ictus para baixo e para fora, e o ictus dilatado exige mais polpas para ser recoberto. O biotipo desloca o ponto de referência, mas não explica a extensão aumentada. E há um corolário prático imediato: é ali, onde o ictus está agora, que a ponta deve ser auscultada.
+:::
+
 ::: resumo
 linhas:
   - "Palpe auscultando: só as bulhas dizem se o movimento é hipercinético, sustentado (sempre anormal) ou retrátil."

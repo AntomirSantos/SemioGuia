@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.7',
+    data: '2026-09-04',
+    linhas: [
+      'Caso-relâmpago em todos os 55 tópicos: um parágrafo-caso com uma decisão única no fim da leitura',
+      'Você escolhe, o desfecho aparece — errar também ensina, e a escolha vale pela tentativa',
+      'É a ponte entre a leitura e os três casos clínicos ramificados',
+    ],
+  },
+  {
     versao: '1.2.6',
     data: '2026-09-04',
     linhas: [

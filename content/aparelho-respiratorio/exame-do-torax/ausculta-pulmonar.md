@@ -485,6 +485,20 @@ texto: |
 texto: "Diante de qualquer achado, faça sempre as mesmas quatro perguntas: onde, em que fase do ciclo, muda com a tosse, muda com a posição. Elas transformam 'estertores em bases' — que não significa nada — em 'estertores finos teleinspiratórios, bilaterais, que se modificam com o decúbito', que já sugere congestão."
 :::
 
+::: relampago
+caso: |
+  "Sopra com força, até o fim", pede o colega, à caça de um sibilo que confirme a suspeita de asma da paciente de 25 anos — e no fim da expiração forçada, lá está ele, discreto. "Achei!"
+pergunta: |
+  O sibilo encontrado assim confirma a suspeita?
+opcoes:
+  - "Confirma — sibilo é sibilo, espontâneo ou provocado"
+  - "Não — quase toda pessoa saudável sibila na expiração forçada"
+  - "Confirma, desde que o sibilo seja bilateral, simétrico e reprodutível"
+corretaIndex: 1
+desfecho: |
+  Pedir expiração forçada e comemorar o sibilo é um dos erros clássicos da ausculta: quase toda pessoa saudável sibila se soprar com força, e o som que só existe sob esforço máximo não separa doente de sadio. O sibilo que informa é o espontâneo, na respiração habitual — o achado fabricado pela manobra não muda probabilidade nenhuma.
+:::
+
 ::: resumo
 linhas:
   - "Escutam-se três coisas, nesta ordem: os sons respiratórios (e sua simetria), os adventícios sobrepostos e — quando há suspeita — os sons vocais."

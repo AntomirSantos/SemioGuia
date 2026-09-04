@@ -519,6 +519,20 @@ texto: |
 texto: "Um abdome que não se move com a respiração e um paciente que respira só com o tórax dizem, antes de qualquer manobra, que a parede está defendendo alguma coisa. Esse achado se colhe com os olhos, de graça, e vale mais do que a maioria dos sinais que exigem mãos."
 :::
 
+::: relampago
+caso: |
+  Homem de 55 anos, etilista, veio por outra queixa — mas, ao expor o abdome, uma rede de veias sinuosas salta em torno do umbigo. O interno já quer ditar "circulação colateral tipo porta".
+pergunta: |
+  O que falta para poder classificar?
+opcoes:
+  - "Determinar a direção do fluxo com a manobra de esvaziamento venoso"
+  - "Nada — a localização periumbilical já define o tipo de circulação colateral"
+  - "Apenas auscultar a região à procura de sopro"
+corretaIndex: 0
+desfecho: |
+  A circulação colateral se analisa por três atributos — localização, direção do fluxo e presença de frêmito ou sopro —, e a direção exige a manobra: dois indicadores justapostos comprimem a veia, afastam-se mantendo a pressão até deixar um segmento exangue, e a extremidade liberada mostra de onde o sangue vem. Duas ou três repetições antes de concluir. Sem a direção do fluxo, o "tipo" é palpite com nome técnico.
+:::
+
 ::: resumo
 linhas:
   - "No abdome a ordem se inverte: inspeção, ausculta, e só depois percussão e palpação — a mão estimula o peristaltismo e pode apagar o achado."

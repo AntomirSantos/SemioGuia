@@ -421,6 +421,20 @@ texto: |
 texto: "No estupor, a Semiologia Médica ensina a ler a causa no rosto: sonolência e torpor apontam o paciente orgânico; a tristeza, o deprimido; o alheamento, o esquizofrênico. É o mesmo gesto imóvel com três fisionomias — e o exame que não olha a face perde o único dado que o paciente ainda está dando."
 :::
 
+::: relampago
+caso: |
+  A filha conta assustada: "minha mãe está vendo vulto". A senhora de 79 anos explica, sem susto nenhum: à meia-luz do corredor, o casaco pendurado na cadeira "vira uma pessoa" — de dia, ela mesma ri do engano.
+pergunta: |
+  Como registrar o fenômeno?
+opcoes:
+  - "Ilusão — a percepção deformou um objeto que existe, achado comum e de pouco valor"
+  - "Alucinação visual — indicação de investigação orgânica imediata, começando ainda hoje"
+  - "Delírio — uma crença falsa sobre o corredor"
+corretaIndex: 0
+desfecho: |
+  Ilusão deforma um objeto real — o casaco estava lá — e é comum em pessoas normais, sobretudo em condições ruins de iluminação; alucinação é percepção sem objeto. Tratar ilusão como alucinação é erro clássico que infla o quadro: a palavra escolhida no prontuário decide se essa senhora sai da consulta tranquilizada ou investigada. Registrar com precisão é, aqui, o próprio tratamento.
+:::
+
 ::: resumo
 linhas:
   - "A segunda metade do roteiro: memória, sensopercepção, pensamento e linguagem, humor e afeto, juízo e crítica, vontade e psicomotricidade."

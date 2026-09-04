@@ -517,6 +517,20 @@ texto: |
 texto: "Antes de concluir que um paciente não responde, peça a ele que olhe para cima. A síndrome do cativeiro preserva a consciência inteira e a movimentação dos olhos — e é o diagnóstico que mais custa caro quando o examinador para de perguntar cedo demais."
 :::
 
+::: relampago
+caso: |
+  Meia-noite, telefone com a neurocirurgia: "qual é o Glasgow?". Você avaliou há pouco: abre os olhos ao chamado, palavras desconexas, localiza a dor com o braço esquerdo. A soma dá 12, e a resposta "Glasgow 12" já está na ponta da língua.
+pergunta: |
+  O que dizer ao colega do outro lado?
+opcoes:
+  - "O total basta — 12 pontos são 12 pontos, em qualquer combinação de componentes"
+  - "O total e a hora da avaliação"
+  - "Os três componentes com o total — O3, V3, M5 — e o estímulo usado"
+corretaIndex: 2
+desfecho: |
+  Somas iguais escondem doentes diferentes — é a insistência central deste tópico. O total serve para comparar o mesmo paciente ao longo do tempo; para tudo o mais, o que informa são os três números separados e o que se fez para obtê-los. "O3, V3, M5 ao chamado" transporta o exame inteiro pelo telefone; "Glasgow 12" transporta só uma soma.
+:::
+
 ::: resumo
 linhas:
   - "São duas perguntas, não uma: o nível (vigília, sistema reticular) e o conteúdo (córtex) — o paciente desperto pode estar profundamente alterado, como no delirium."

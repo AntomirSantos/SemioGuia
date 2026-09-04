@@ -379,6 +379,20 @@ texto: |
 texto: "Antes de fechar a HDA, faça a pergunta de Semiologia Clínica: o que o senhor deixou de fazer por causa disso? A resposta mede gravidade em unidade de vida real, e frequentemente corrige a intensidade que o paciente havia declarado."
 :::
 
+::: relampago
+caso: |
+  "É a minha gastrite, doutor — dez anos disso. Só vim renovar o remédio." O paciente de 58 anos entrega o rótulo pronto e já vai guardando o cartão do convênio, dando a consulta por resolvida.
+pergunta: |
+  Como registrar — e conduzir — essa queixa?
+opcoes:
+  - "Registrar \"gastrite há 10 anos\" e renovar a prescrição"
+  - "Registrar \"dispepsia crônica\", trocando o rótulo leigo por um termo técnico"
+  - "Esclarecer o que exatamente ele sente e registrar o sintoma"
+corretaIndex: 2
+desfecho: |
+  Esclarecido, o rótulo escondia um sintoma que ninguém caracterizava havia dez anos. A queixa principal se registra nas palavras do paciente, com a duração e **sem rótulo diagnóstico** — e trocar "gastrite" por "dispepsia" só troca o dono do rótulo. Porto dá a razão clínica: aceitar o rótulo do paciente pode custar o diagnóstico verdadeiro.
+:::
+
 ::: resumo
 linhas:
   - "Queixa principal é o título do capítulo: nas palavras do paciente, com a duração junto e sem rótulo diagnóstico."

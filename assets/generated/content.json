@@ -321,6 +321,18 @@
          "texto": "\"Só se acha o que se procura e só se procura o que se conhece\" — a formulação, entre aspas, é de Porto, no capítulo de anamnese, e explica por que a entrevista melhora conforme o conhecimento clínico cresce: não é a técnica de perguntar que muda, é o repertório de perguntas possíveis."
         },
         {
+         "tipo": "relampago",
+         "caso": "Fim de uma consulta cheia. Você devolve a história no resumo de checagem e pergunta se ficou algo de fora. Dona Cecília baixa o olhar: \"tem uma coisa... mas nem sei se é daqui\". A sala de espera está lotada e o próximo paciente já foi chamado duas vezes.\n",
+         "pergunta": "O que fazer com essa frase?\n",
+         "opcoes": [
+          "Encerrar com gentileza e pedir que ela traga o assunto na próxima consulta",
+          "Abrir espaço agora e ouvir o que ela tem a dizer",
+          "Pedir que ela resuma o tema em uma palavra, para decidir se cabe hoje"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "Era o motivo real da consulta — o que *Semiologia Clínica* chama de **agenda oculta**, o conteúdo que só aparece quando a confiança já se estabeleceu, e que costuma vir exatamente nesse momento do fechamento. Sexualidade, violência doméstica, saúde mental: temas assim raramente sobrevivem a um \"traga na próxima\". A consulta que parecia terminada estava, na verdade, começando.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "A anamnese responde pela maior parte dos diagnósticos — quem conduz mal a entrevista já perdeu o que o encontro clínico tinha de melhor a oferecer.",
@@ -687,6 +699,18 @@
          "texto": "Antes de fechar a HDA, faça a pergunta de Semiologia Clínica: o que o senhor deixou de fazer por causa disso? A resposta mede gravidade em unidade de vida real, e frequentemente corrige a intensidade que o paciente havia declarado."
         },
         {
+         "tipo": "relampago",
+         "caso": "\"É a minha gastrite, doutor — dez anos disso. Só vim renovar o remédio.\" O paciente de 58 anos entrega o rótulo pronto e já vai guardando o cartão do convênio, dando a consulta por resolvida.\n",
+         "pergunta": "Como registrar — e conduzir — essa queixa?\n",
+         "opcoes": [
+          "Registrar \"gastrite há 10 anos\" e renovar a prescrição",
+          "Registrar \"dispepsia crônica\", trocando o rótulo leigo por um termo técnico",
+          "Esclarecer o que exatamente ele sente e registrar o sintoma"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "Esclarecido, o rótulo escondia um sintoma que ninguém caracterizava havia dez anos. A queixa principal se registra nas palavras do paciente, com a duração e **sem rótulo diagnóstico** — e trocar \"gastrite\" por \"dispepsia\" só troca o dono do rótulo. Porto dá a razão clínica: aceitar o rótulo do paciente pode custar o diagnóstico verdadeiro.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "Queixa principal é o título do capítulo: nas palavras do paciente, com a duração junto e sem rótulo diagnóstico.",
@@ -1006,6 +1030,18 @@
         {
          "tipo": "perola",
          "texto": "Se o interrogatório sintomatológico está rendendo muito, desconfie da HDA. Um interrogatório cheio de achados novos costuma ser o sintoma de uma história da doença atual que não foi até o fim."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "A HDA levou meia hora: dor torácica aos esforços, caracterizada com tudo o que o esquema pede. Você chega ao interrogatório sintomatológico, e o próximo item da varredura é justamente o aparelho cardiovascular.\n",
+         "pergunta": "O que fazer com esse sistema na varredura?\n",
+         "opcoes": [
+          "Repetir as perguntas sobre a dor, para conferir a consistência do relato",
+          "Pular o aparelho cardiovascular, que a HDA já cobriu",
+          "Varrer o que ficou de fora do sistema, sem duplicar a HDA"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "O interrogatório existe para o que ficou de fora: sintomas já caracterizados na HDA não voltam a ele — duplicá-la é um dos erros clássicos —, mas o sistema não se pula, porque a dor bem descrita não responde pelo que o paciente não mencionou. Foi numa varredura assim, de rotina, que o caso de Porto encontrou a doença principal num sistema que ninguém tinha motivo para investigar.\n"
         },
         {
          "tipo": "resumo",
@@ -1353,6 +1389,18 @@
          "texto": "Todo médico precisa conhecer as possibilidades econômicas do seu paciente — Porto trata isso como parte da anamnese, e não como delicadeza. Um plano de cuidado que a pessoa não pode cumprir não é um plano; é uma anotação."
         },
         {
+         "tipo": "relampago",
+         "caso": "\"Sou alérgico a dipirona\", diz o paciente, e a acompanhante confirma com a cabeça. A informação vem de uma internação de vinte anos atrás; ele não sabe contar o que aconteceu — \"só sei que ficou anotado\".\n",
+         "pergunta": "Como registrar esse antecedente?\n",
+         "opcoes": [
+          "Registrar \"alergia a dipirona\" e seguir — segurança em primeiro lugar",
+          "Interrogar sintomas e temporalidade do episódio e registrar com o vínculo — ou como inconclusivo",
+          "Não registrar nada, já que nem o próprio paciente consegue descrever a reação que apresentou"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "O interrogatório cuidadoso é o que *Semiologia Clínica* pede: procurar o vínculo de causa e efeito, porque histórias de alergia a medicamentos muitas vezes não se sustentam. Mesmo inconclusivo, o dado vale o registro — desde que registrado como inconclusivo. Uma alergia carimbada sem descrição fecha uma classe de medicamentos por décadas; não registrar, por outro lado, apaga um risco que pode ser real.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "Antecedentes e hábitos contam com quem a doença está acontecendo — e é isso que transforma sintomas em probabilidades.",
@@ -1692,6 +1740,18 @@
          "nivel": "avancado"
         },
         {
+         "tipo": "relampago",
+         "caso": "Dona Irene, 81 anos, caiu duas vezes no último mês — sempre pouco depois de se levantar da cama. No consultório, sentada, a PA é 128 × 76 mmHg. \"Normal, graças a Deus.\"\n",
+         "pergunta": "A aferição terminou?\n",
+         "opcoes": [
+          "Sim — PA normal encerra a investigação das quedas",
+          "Não — falta medir também deitada e em pé, aos 3 minutos",
+          "Não — falta apenas repetir a medida sentada, no outro braço"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "Em pé, a sistólica caiu 26 mmHg. No idoso, afere-se em decúbito, sentado e em pé justamente pela frequência de hipotensão ortostática: queda maior que 20 mmHg na PAS ou 10 mmHg na PAD após 3 minutos em pé caracteriza hipotensão postural — uma causa tratável de queda que a medida sentada, sozinha, nunca mostraria.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "A PA é uma variável contínua, não um número fixo: técnica correta (repouso, braço na altura do coração, manguito do tamanho certo) e medidas repetidas.",
@@ -1939,6 +1999,18 @@
           "Comparação com a ausculta cardíaca para pesquisar déficit de pulso.",
           "Registro do valor e do contexto (repouso, febre, dor, medicação em uso)."
          ]
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Idoso de 84 anos, pressão de consultório sempre alta apesar de três anti-hipertensivos, sem qualquer lesão de órgão-alvo. Ao palpar a radial, a artéria rola sob os seus dedos endurecida e tortuosa — uma \"traqueia de passarinho\".\n",
+         "pergunta": "O que esse achado sugere antes de escalar o tratamento?\n",
+         "opcoes": [
+          "Pseudo-hipertensão por mediosclerose — o manguito pode estar superestimando a PA",
+          "Hipertensão resistente verdadeira — acrescentar o quarto fármaco e agendar retorno precoce",
+          "Achado sem relação com a pressão — seguir o protocolo"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "A parede endurecida e tortuosa — a traqueia de passarinho — sugere mediosclerose de Mönckeberg, causa clássica de pseudo-hipertensão no idoso. É o que a manobra de Osler, no tópico de pressão arterial, procura: a radial que continua palpável com o manguito insuflado acima da sistólica. O estado da parede é a primeira das sete informações do pulso — e aqui ela vale um tratamento inteiro.\n"
         },
         {
          "tipo": "resumo",
@@ -2370,6 +2442,18 @@
         {
          "tipo": "perola",
          "texto": "A frequência respiratória é o sinal vital mais anotado e menos aferido. Comparando o prontuário com a contagem real, os valores anotados se concentram entre 16 e 22 irpm na grande maioria das vezes — mesmo em pacientes cuja frequência verdadeira variava de 10 a mais de 30.\n\nA causa é quase sempre a mesma: contar 15 segundos e multiplicar por quatro. Nessa forma abreviada, apenas cerca de 23% dos pacientes taquipneicos são identificados; com 60 segundos de observação, praticamente todos são. O minuto inteiro ainda revela padrões que a contagem curta jamais mostraria, como a respiração de Cheyne-Stokes.\n"
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Enfermaria, 15h. O paciente do leito 2 acabou de tomar o café da tarde, ainda quente, e a técnica pergunta se pode aferir a temperatura pela via bucal — o termômetro axilar do setor sumiu.\n",
+         "pergunta": "O que orientar?\n",
+         "opcoes": [
+          "Pode aferir agora — a via bucal não sofre interferências",
+          "A via bucal é proscrita no adulto — suspender a aferição até acharem o termômetro axilar",
+          "Esperar um pouco: bebidas, mastigação, cigarro e taquipneia influenciam a via bucal"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "A leitura sublingual logo após uma bebida quente mede o café, não o paciente. A via bucal é legítima — faixa normal de 36 a 37,4 °C —, mas sofre influência de mastigação, bebidas, cigarro e taquipneia. Cada via tem sua faixa e suas ressalvas, e interpretar o número exige saber por qual via ele foi medido.\n"
         },
         {
          "tipo": "resumo",
@@ -2999,6 +3083,18 @@
          "texto": "Boa parte da ectoscopia acontece enquanto você ainda está fazendo a anamnese — e é justamente por isso que ela se perde. Reserve dez segundos de silêncio, antes da primeira pergunta, só para olhar: postura, respiração, cor, expressão, o que o paciente faz com as mãos. Nenhum outro momento do encontro devolve tanto por tão pouco."
         },
         {
+         "tipo": "relampago",
+         "caso": "Enfermaria, visita da manhã. O paciente do leito 9 está sentado na beira da cama, tronco inclinado para a frente, apoiado num travesseiro dobrado. O interno ao seu lado já escreve: \"atitude ortopneica — sugere causa cardíaca\".\n",
+         "pergunta": "O registro está pronto?\n",
+         "opcoes": [
+          "Não — primeiro perguntar por que ele está naquela posição",
+          "Sim — a postura é típica e fala por si",
+          "Quase — basta acrescentar a frequência respiratória ao lado"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "Ele tinha dobrado o travesseiro para mexer no celular. Só contam as atitudes involuntárias e as que aliviam sintoma — dar valor diagnóstico a uma atitude de hábito é um dos erros clássicos da ectoscopia. A pergunta custa cinco segundos e separa o achado do acaso.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "A ectoscopia responde \"como está esta pessoa, vista inteira?\" — e começa no instante em que o paciente entra, antes de qualquer manobra.",
@@ -3439,6 +3535,18 @@
         {
          "tipo": "perola",
          "texto": "Diante de um paciente com sinais duvidosos de desidratação, a pergunta mais produtiva raramente é sobre a pele. É: quanto o senhor pesava na última consulta, e quantas vezes urinou desde ontem? O peso gradua a perda; a diurese denuncia a resposta do rim."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Check-up de um homem de 45 anos. IMC de 24,8 kg/m² — \"peso normal\", comemora ele. Mas a fita métrica diz outra coisa: 1,70 m de altura e 98 cm de circunferência da cintura.\n",
+         "pergunta": "O que dizer a ele?\n",
+         "opcoes": [
+          "Que o IMC normal encerra a avaliação nutricional",
+          "Que a cintura maior que a metade da altura indica risco cardiovascular, apesar do IMC",
+          "Que só um exame de composição corporal, como a bioimpedância, pode desempatar os dois números"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "A relação cintura-estatura dele é 0,58 — acima do corte de 0,5 que Porto adota para todas as idades e ambos os sexos. O IMC não diz onde a gordura está, e é a localização que mais importa para o risco cardiovascular; a relação cintura-estatura prediz mortalidade com mais sensibilidade que o IMC. Na formulação prática: a cintura deve medir menos que metade da altura — e a dele não mede.\n"
         },
         {
          "tipo": "resumo",
@@ -3994,6 +4102,18 @@
          "texto": "1. **Examinar só a lesão de que o paciente se queixa.** O exame dermatológico envolve toda a pele, os anexos e as mucosas — e é fora da área da queixa que costumam estar as lesões que mudam o diagnóstico.\n2. **Não comprimir.** Sem digitopressão ou vitropressão, eritema e púrpura são a mesma mancha vermelha.\n3. **Procurar palidez no leito ungueal.** É o sítio de menor rendimento e o de pior concordância entre examinadores; a rima conjuntival e as pregas palmares informam muito mais.\n4. **Excluir anemia porque as mucosas estão coradas.** Nenhum sinal físico afasta anemia de forma convincente.\n5. **Chamar de icterícia toda pele amarela.** Carotenodermia e impregnação medicamentosa poupam conjuntiva e mucosa oral; a gordura subconjuntival poupa a vizinhança da córnea.\n6. **Confiar na graduação em cruzes da icterícia.** A correlação com a bilirrubina sérica e a concordância entre observadores são baixas; o que muda a conduta inicial é o sinal estar presente ou ausente.\n"
         },
         {
+         "tipo": "relampago",
+         "caso": "Fim de tarde na enfermaria, luz amarelada. A filha do paciente do leito 5 acha que \"ele amarelou de ontem para hoje\". O rosto, sob aquela luz, não ajuda a decidir.\n",
+         "pergunta": "Como pesquisar a icterícia?\n",
+         "opcoes": [
+          "Concluir pela cor do rosto mesmo — a pele exposta é o melhor sítio para a icterícia",
+          "Aguardar o resultado da bilirrubina antes de opinar",
+          "Buscar luz adequada e examinar esclera, freio da língua e palato duro"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "Perto da janela, a esclera tirou a dúvida. A icterícia se pesquisa nos sítios certos — esclera e conjuntiva, freio da língua, palato duro — e sob luz natural ou fluorescente incidindo por trás do examinador; foi a luz inadequada que criou a dúvida. O laboratório confirma depois; o exame decide agora o quanto investigar.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "O exame da pele se organiza em três perguntas — que cor, que lesões, o que dizem os anexos — e cobre o corpo todo, não só a área da queixa.",
@@ -4469,6 +4589,18 @@
          "texto": "Diante de uma adenomegalia, três perguntas resolvem a maior parte do caminho antes de qualquer exame: há quanto tempo está aí, o que ela drena, e como ela é ao toque. Tempo separa infeccioso de neoplásico; território indica onde procurar a causa; consistência, mobilidade e coalescência carregam quase todo o poder discriminante que o exame físico tem a oferecer."
         },
         {
+         "tipo": "relampago",
+         "caso": "Estudante de 20 anos com dor de garganta e febre há três dias; ontem apareceu uma \"íngua\" cervical dolorosa de 1,5 cm, móvel. A mãe quer encaminhamento imediato para biópsia.\n",
+         "pergunta": "Qual é a leitura do tempo nessa história?\n",
+         "opcoes": [
+          "Dias a semanas apontam causa infecciosa ou inflamatória — tratar o foco e reavaliar",
+          "Crescimento rápido é a assinatura típica da neoplasia — encaminhar para biópsia sem demora",
+          "O tempo não ajuda em nada; só a ultrassonografia decide"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "Tempo é informação: a velocidade de crescimento separa os grupos — dias a semanas apontam causa infecciosa ou inflamatória; semanas a meses, causa neoplásica, granulomatosa ou inflamatória crônica. Somado ao território de drenagem inflamado e ao linfonodo móvel e doloroso, o caso se explica pela faringite — e a reavaliação confirma o caminho.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "Cada cadeia drena um território conhecido: localizar o linfonodo é deduzir de onde vem o problema — lembrando que a doença nem sempre respeita o mapa.",
@@ -4851,6 +4983,18 @@
          "texto": "Diante de uma assimetria da face, faça três perguntas antes de nomeá-la: ela existe em repouso ou só no movimento? Ela é do lado direito ou do esquerdo — e comparada com o quê? E há alguma tumefação que a explique, como uma parótida crescida ou um abscesso dentário? Assimetria sem essas três respostas é observação, não achado."
         },
         {
+         "tipo": "relampago",
+         "caso": "A esposa acha que \"a boca dele entortou um pouco\" desde ontem. Na sua frente, o paciente sorri educadamente: você quase não vê diferença entre os lados, e ele diz que está tudo bem.\n",
+         "pergunta": "Como decidir se há assimetria?\n",
+         "opcoes": [
+          "Concluir simetria pelo sorriso espontâneo — se fosse paralisia facial, seria óbvio à inspeção",
+          "Pedir os movimentos com força: mostrar os dentes, cerrar os olhos, enrugar a testa",
+          "Encaminhar para eletroneuromiografia e aguardar o laudo"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "Ao mostrar os dentes com força, a rima desviou. A assimetria se acentua quando o paciente movimenta com esforço — pedir a mímica sem pedir força é um dos erros clássicos deste segmento, porque o sorriso educado esconde déficit. E a testa, no mesmo gesto, já começa a responder a próxima pergunta: enrugando dos dois lados, a paralisia poupa a metade superior e aponta para lesão central.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "Sequência fixa: forma e tamanho do crânio, posição e movimentos, superfície e couro cabeludo, face — e depois seios da face e temporomandibular, que só o tato alcança.",
@@ -5215,6 +5359,18 @@
         {
          "tipo": "perola",
          "texto": "Diante de um olho vermelho, três perguntas resolvem a triagem antes de qualquer hipótese: onde a vermelhidão é mais intensa — na periferia ou em torno do limbo? Dói quando a pupila contrai? E as pupilas estão iguais? Vermelhidão limbar, dor à contração e miose do lado afetado apontam para o especialista, hoje."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Exame de rotina de um homem de 30 anos, assintomático. Você nota que a pupila direita é discretamente maior que a esquerda. Fotomotor direto e consensual normais dos dois lados, sem ptose, sem queixa. O colega sugere tomografia \"para garantir\".\n",
+         "pergunta": "Qual é a conduta?\n",
+         "opcoes": [
+          "Registrar como provável anisocoria constitucional, dados os reflexos normais",
+          "Solicitar a tomografia de crânio com urgência, antes que uma lesão expansiva progrida",
+          "Não registrar nada, para não poluir o prontuário"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "Anisocoria é frequente em pessoas saudáveis — tratá-la como sinônimo de doença é um dos erros clássicos do exame dos olhos. Com reflexos normais dos dois lados e fora de contexto de alarme, o achado é constitucional. E o registro importa tanto quanto a calma: é ele que impede que o próximo examinador, diante da mesma pupila, dispare a investigação que você acabou de evitar.\n"
         },
         {
          "tipo": "resumo",
@@ -5610,6 +5766,18 @@
         {
          "tipo": "perola",
          "texto": "Duas perguntas transformam a otalgia em diagnóstico antes de qualquer instrumento: dói ao tracionar o pavilhão e comprimir o trago? Dói ao palpar a mastoide? A primeira aponta para a orelha externa; a segunda, para a hipótese de mastoidite. Se nenhuma das duas dói, considere seriamente a articulação temporomandibular."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Senhora de 80 anos, emagrecimento a esclarecer. Chega a hora de examinar a boca, e ela abre um sorriso completo — de prótese total, bem adaptada. A lanterna já está na sua mão.\n",
+         "pergunta": "Como proceder?\n",
+         "opcoes": [
+          "Examinar como está — a prótese bem adaptada não atrapalha a inspeção",
+          "Adiar a avaliação da boca para uma consulta odontológica",
+          "Pedir que ela retire a prótese antes do exame"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "Sob a prótese estava a úlcera que a inspeção por cima jamais veria. Examinar a boca com a prótese no lugar é o primeiro erro da lista deste tópico: úlcera traumática, candidíase e reabsorção da reborda alveolar ficam justamente embaixo dela. Num quadro de emagrecimento, a boca é território de interesse — mas só a boca inteira, e ela começa quando a prótese sai.\n"
         },
         {
          "tipo": "resumo",
@@ -6026,6 +6194,18 @@
          "texto": "Diante de qualquer tumoração cervical, faça três perguntas antes de nomeá-la: ela está na linha média ou de lado? Ela sobe quando o paciente engole? Ela sobe quando o paciente põe a língua para fora? As três respostas juntas separam tireoide, linfonodo e cisto tireoglosso sem nenhum exame complementar."
         },
         {
+         "tipo": "relampago",
+         "caso": "Professora de 55 anos, rouca há cinco semanas. \"É da profissão, doutor — todo ano fico assim.\" Sem dor, sem febre, sem sintomas de resfriado. Ela só quer \"um remédio para a voz\".\n",
+         "pergunta": "O que o exame deve incluir antes de qualquer receita?\n",
+         "opcoes": [
+          "Encaminhar à fonoaudiologia para reabilitação da voz e reavaliar o caso em três meses",
+          "Examinar a tireoide agora — diante de rouquidão persistente, isso é mandatório",
+          "Prescrever repouso vocal e reavaliar apenas se piorar"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "O nervo laríngeo recorrente corre colado à tireoide, e a rouquidão persistente levanta a hipótese de prega vocal paralisada por compressão ou invasão — por isso *Semiologia Clínica* considera mandatório examinar a glândula diante dela. A rouquidão persistente também figura na lista de sinais de alerta que antecipam a investigação. A explicação profissional pode até estar certa; o pescoço é quem confirma.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "O pescoço se examina por inspeção, palpação e ausculta — e a tireoide se identifica pelo movimento: o que sobe com o gole é dela ou está preso a ela.",
@@ -6345,6 +6525,18 @@
         {
          "tipo": "perola",
          "texto": "Antes de auscultar, localize o ictus. Ele não é apenas um sinal de tamanho ventricular — é o endereço da área mitral naquele paciente, que na cardiomegalia acentuada migra para a linha axilar anterior."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Homem de 58 anos, hipertenso mal controlado. Você palpa o ictus no 6º espaço intercostal, nitidamente para fora da linha hemiclavicular, e precisa de três polpas digitais para recobri-lo.\n",
+         "pergunta": "O que esse conjunto sugere?\n",
+         "opcoes": [
+          "Dilatação do ventrículo esquerdo — o ictus foi empurrado para baixo e para fora",
+          "Variação do biotipo do paciente, sem nenhum significado patológico nesse contexto",
+          "Ictus hipercinético de causa extracardíaca"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "Posição e extensão contam juntas a mesma história: a dilatação do ventrículo esquerdo empurra o ictus para baixo e para fora, e o ictus dilatado exige mais polpas para ser recoberto. O biotipo desloca o ponto de referência, mas não explica a extensão aumentada. E há um corolário prático imediato: é ali, onde o ictus está agora, que a ponta deve ser auscultada.\n"
         },
         {
          "tipo": "resumo",
@@ -6727,6 +6919,18 @@
         {
          "tipo": "perola",
          "texto": "Diante de um sopro, silencie-o na sua cabeça e vá atrás das bulhas. O ouvido corre para o som mais alto, e é assim que se perdem a bulha fraca, o desdobramento discreto e o estalido — achados que muitas vezes decidem mais que o próprio sopro."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Mulher de 62 anos com dispneia aos esforços. Você ausculta os quatro focos em decúbito dorsal, com calma: bulhas normofonéticas, nenhum ruído extra. A ausculta parece encerrada.\n",
+         "pergunta": "Parece — e está?\n",
+         "opcoes": [
+          "Está: os quatro focos clássicos em decúbito dorsal cobrem toda a ausculta cardíaca",
+          "Falta apenas repetir os focos com o paciente em pé",
+          "Falta auscultar em decúbito lateral esquerdo e sentada, inclinada para a frente"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "No decúbito lateral esquerdo, com a campânula, apareceu o que o dorsal escondia. Auscultar em uma só posição é erro clássico: sem o lateral esquerdo perdem-se B3, B4 e o ruflar da estenose mitral; sem a posição sentada com o tórax inclinado perdem-se os sopros da base, o atrito pericárdico e as bulhas dos hipofonéticos. Três posições, sempre.\n"
         },
         {
          "tipo": "resumo",
@@ -7164,6 +7368,18 @@
          "texto": "1. **Deduzir gravidade da intensidade.** Sopros intensos podem vir de defeitos pequenos e sopros discretos de lesões graves. A intensidade orienta, não decide.\n2. **Batizar o sopro pelo foco em que ele é mais alto.** O foco é referência, não origem. Muitos pacientes com estenose aórtica têm o sopro mais intenso na ponta. Quem define a origem é a irradiação e o comportamento nas manobras.\n3. **Interpretar manobra respiratória com paciente respirando mal.** Sem respiração regular, Rivero-Carvallo não significa nada.\n4. **Chamar de contínuo um sopro sistólico somado a um diastólico.** No sopro verdadeiramente contínuo a cadência não é interrompida pelas bulhas; nos sopros \"de vai e vem\" ouvem-se dois sopros distintos.\n5. **Rotular como inocente antes de completar a investigação.** \"Inocente\" é uma conclusão que vem depois do exame completo e dos complementares indicados — nunca uma primeira impressão acústica.\n"
         },
         {
+         "tipo": "relampago",
+         "caso": "Menino de 7 anos, consulta de rotina: sopro discreto, curto, que some quando ele senta. Tudo nele aponta para sopro inocente. A mãe percebeu o seu estetoscópio demorar e pergunta: \"tem alguma coisa no coração dele, doutora?\".\n",
+         "pergunta": "O que responder?\n",
+         "opcoes": [
+          "Explicar o achado de forma clara e simples, sem criar ansiedade nem restrições",
+          "Não mencionar o sopro por ora, para não gerar preocupação desnecessária na família",
+          "Suspender o esporte até o ecocardiograma decidir"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "Omitir o achado é a pior escolha: outro médico o encontrará depois, e o silêncio inicial vira desconfiança. Restringir o esporte é a segunda pior — a ansiedade criada acaba em limitações injustificadas. O conceito de sopro inocente existe justamente porque obriga a uma conclusão diagnóstica, e não a uma rotulação acústica: concluído, ele se explica com clareza e devolve a criança à quadra.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "Um sopro só está descrito com as sete características — e a mais importante é o lugar no ciclo, decidido com o pulso carotídeo sob os dedos.",
@@ -7593,6 +7809,18 @@
          "texto": "1. **Examinar o lado esquerdo.** A jugular esquerda cruza o mediastino e pode ser comprimida por uma aorta tortuosa; a distensão isolada à esquerda muitas vezes desaparece após uma inspiração profunda. O exame é do lado direito.\n2. **Fixar o ângulo em 45° e não procurar o topo da coluna.** Se o topo não é visível, o ângulo está errado, não o paciente.\n3. **Ler na inspiração.** A coluna desce no pescoço durante a inspiração e a leitura sai subestimada. Prefira a expiração.\n4. **Confundir com a carótida.** Sem checar os cinco critérios que separam veia de artéria, a \"turgência\" pode ser apenas uma carótida saliente em pessoa magra.\n5. **Descartar tamponamento ou constrição com edema presente e pescoço não examinado.** Pressão venosa elevada é achado cardinal dessas duas doenças; deixar de olhar o pescoço é deixar de fazer a pergunta.\n6. **Transformar o enchimento capilar em veredito.** Sozinho e sem comparação, ele não sustenta conclusão sobre perfusão.\n"
         },
         {
+         "tipo": "relampago",
+         "caso": "Você posiciona o paciente a 45 graus, como decorou, e não vê coluna venosa nenhuma no pescoço. O colega ao lado sugere registrar \"jugulares não avaliáveis\" e seguir o exame.\n",
+         "pergunta": "O que fazer antes de desistir?\n",
+         "opcoes": [
+          "Registrar como sugerido — sem coluna visível a 45°, não há o que medir",
+          "Ajustar a cabeceira — abaixá-la até o topo da coluna venosa aparecer",
+          "Pedir ao paciente que faça força abdominal para encher as jugulares"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "Com a cabeceira quase horizontal, o topo da coluna apareceu — e a 1 cm do ângulo esternal: pressão venosa normal. A posição correta não é um ângulo fixo, é aquela em que o topo da coluna fica visível: quase horizontal quando a pressão é normal, em torno de 45° quando há hipertensão venosa. Quem se prende ao \"exame é a 45°\" perde exatamente os pescoços normais.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "A jugular interna direita é o manômetro do coração direito: turgência mede quanto (a altura da coluna), pulso venoso mostra como (o formato das ondas).",
@@ -8013,6 +8241,18 @@
          "texto": "Antes de auscultar, decida de que lado está a doença. Um hemitórax que se move menos já entrega essa resposta — e transforma a ausculta de uma varredura em uma pergunta dirigida."
         },
         {
+         "tipo": "relampago",
+         "caso": "Interconsulta por dispneia. Você procura movimento abdominal paradoxal com o paciente sentado na beira da maca: nada. O colega já quer registrar \"sem respiração paradoxal\" e riscar a hipótese.\n",
+         "pergunta": "O registro está certo?\n",
+         "opcoes": [
+          "Está — a posição do paciente não interfere no sinal",
+          "Está — sentado é até melhor, porque a gravidade tensiona o diafragma",
+          "Não — o sinal deve ser procurado em decúbito dorsal"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "Deitado, o abdome dele afundava a cada inspiração. O movimento paradoxal depende do peso das vísceras sobre o diafragma e costuma sumir na posição ereta — procurá-lo com o paciente sentado é um dos erros clássicos da inspeção. Negar um sinal exige tê-lo procurado na posição em que ele aparece.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "Quatro perguntas: que forma tem a caixa, como a pessoa respira, quanto custa respirar, e o que o corpo denuncia de doença crônica — e o dorso faz parte da inspeção.",
@@ -8383,6 +8623,18 @@
          "texto": "Frêmito e ressonância vocal medem a mesma coisa por sentidos diferentes: um pela mão, outro pela orelha. Por isso costumam andar juntos — e por isso a ausculta da voz acrescenta pouco onde o frêmito já respondeu. A exceção conhecida é o derrame pleural: sobre a área do líquido o frêmito cai e a voz também se apaga, mas na estreita faixa de transição, no limite superior do derrame, a voz pode reaparecer com timbre anasalado."
         },
         {
+         "tipo": "relampago",
+         "caso": "Para ganhar tempo, o interno espalma uma mão em cada hemitórax, pede o \"trinta e três\" uma única vez e compara as duas palmas simultaneamente. \"Frêmito igual dos dois lados\", conclui.\n",
+         "pergunta": "Qual é o problema da técnica?\n",
+         "opcoes": [
+          "As duas palmas não têm a mesma sensibilidade — usa-se uma só mão, alternando os lados",
+          "Nenhum — a comparação simultânea é até mais fiel",
+          "Apenas a palavra escolhida: o correto seria pedir um sussurro em vez do \"trinta e três\""
+         ],
+         "corretaIndex": 0,
+         "desfecho": "A sensibilidade das duas palmas não é igual, e a diferença que o interno atribuiria ao paciente pode ser da própria mão. O frêmito se pesquisa sempre com a mesma mão, percorrendo pontos homólogos de um lado e do outro — lembrando que senti-lo mais forte à direita é o normal, porque o brônquio principal direito é mais curto.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "A palpação do tórax vive de comparação: parede, expansibilidade e frêmito só significam algo contra o ponto homólogo do outro lado — sempre com a mesma mão.",
@@ -8687,6 +8939,18 @@
         {
          "tipo": "perola",
          "texto": "Percussão nítida exige unhas curtas. É impossível golpear com a borda ungueal, em obliquidade, sem machucar o dedo plexímetro quando a unha é longa — e o estudante que descobre isso na frente do paciente já perdeu o achado."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Rotina de enfermaria. Ao percutir a face anterior esquerda de um homem com desconforto abdominal vago, o timpanismo que deveria ocupar o espaço de Traube não está lá: o som é maciço.\n",
+         "pergunta": "O que fazer com esse achado?\n",
+         "opcoes": [
+          "Nada — o espaço de Traube é naturalmente maciço",
+          "Tomá-lo como um sinal que sugere esplenomegalia e manda continuar o exame do baço",
+          "Fechar desde já o diagnóstico de esplenomegalia e encaminhar imediatamente ao especialista"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "O Traube normal é timpânico — o único som timpânico do tórax normal, projeção do fundo do estômago. A perda do timpanismo é uma das primeiras manifestações do aumento do baço, mas o desempenho é modesto: razão de verossimilhança 2,1, uma elevação apenas moderada da probabilidade. É um sinal que sugere, não que decide — quem decide é o restante do exame que ele manda fazer.\n"
         },
         {
          "tipo": "resumo",
@@ -9147,6 +9411,18 @@
         {
          "tipo": "perola",
          "texto": "Diante de qualquer achado, faça sempre as mesmas quatro perguntas: onde, em que fase do ciclo, muda com a tosse, muda com a posição. Elas transformam 'estertores em bases' — que não significa nada — em 'estertores finos teleinspiratórios, bilaterais, que se modificam com o decúbito', que já sugere congestão."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "\"Sopra com força, até o fim\", pede o colega, à caça de um sibilo que confirme a suspeita de asma da paciente de 25 anos — e no fim da expiração forçada, lá está ele, discreto. \"Achei!\"\n",
+         "pergunta": "O sibilo encontrado assim confirma a suspeita?\n",
+         "opcoes": [
+          "Confirma — sibilo é sibilo, espontâneo ou provocado",
+          "Não — quase toda pessoa saudável sibila na expiração forçada",
+          "Confirma, desde que o sibilo seja bilateral, simétrico e reprodutível"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "Pedir expiração forçada e comemorar o sibilo é um dos erros clássicos da ausculta: quase toda pessoa saudável sibila se soprar com força, e o som que só existe sob esforço máximo não separa doente de sadio. O sibilo que informa é o espontâneo, na respiração habitual — o achado fabricado pela manobra não muda probabilidade nenhuma.\n"
         },
         {
          "tipo": "resumo",
@@ -9655,6 +9931,18 @@
          "texto": "Um abdome que não se move com a respiração e um paciente que respira só com o tórax dizem, antes de qualquer manobra, que a parede está defendendo alguma coisa. Esse achado se colhe com os olhos, de graça, e vale mais do que a maioria dos sinais que exigem mãos."
         },
         {
+         "tipo": "relampago",
+         "caso": "Homem de 55 anos, etilista, veio por outra queixa — mas, ao expor o abdome, uma rede de veias sinuosas salta em torno do umbigo. O interno já quer ditar \"circulação colateral tipo porta\".\n",
+         "pergunta": "O que falta para poder classificar?\n",
+         "opcoes": [
+          "Determinar a direção do fluxo com a manobra de esvaziamento venoso",
+          "Nada — a localização periumbilical já define o tipo de circulação colateral",
+          "Apenas auscultar a região à procura de sopro"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "A circulação colateral se analisa por três atributos — localização, direção do fluxo e presença de frêmito ou sopro —, e a direção exige a manobra: dois indicadores justapostos comprimem a veia, afastam-se mantendo a pressão até deixar um segmento exangue, e a extremidade liberada mostra de onde o sangue vem. Duas ou três repetições antes de concluir. Sem a direção do fluxo, o \"tipo\" é palpite com nome técnico.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "No abdome a ordem se inverte: inspeção, ausculta, e só depois percussão e palpação — a mão estimula o peristaltismo e pode apagar o achado.",
@@ -10019,6 +10307,18 @@
         {
          "tipo": "perola",
          "texto": "Antes de anunciar ascite, pergunte-se por três coisas que imitam líquido livre: bexiga cheia, alças cheias de líquido e cisto de ovário. As duas primeiras somem quando o paciente esvazia; a terceira não muda com o decúbito. A percussão distingue as três — desde que você lembre de procurá-las."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Abdome volumoso, macicez nos flancos. Você vira a paciente para o decúbito lateral esquerdo e percute o flanco direito imediatamente: ainda maciço. \"Não é macicez móvel\", conclui o colega.\n",
+         "pergunta": "A conclusão vale?\n",
+         "opcoes": [
+          "Não — a macicez móvel leva alguns segundos para se deslocar; a pressa gera falso-negativo",
+          "Vale — líquido livre acompanha o corpo instantaneamente",
+          "Não — a macicez móvel se pesquisa apenas com o paciente em pé, nunca nos decúbitos laterais"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "Repetida a percussão depois de uma pequena espera, o flanco que ficou para cima virou timpânico e a macicez apareceu embaixo: líquido livre. A ascite se move com a gravidade, mas não na velocidade do examinador apressado — percutir imediatamente após virar o paciente é um dos erros clássicos da percussão do abdome.\n"
         },
         {
          "tipo": "resumo",
@@ -10416,6 +10716,18 @@
         {
          "tipo": "perola",
          "texto": "A pergunta útil diante de um fígado palpável não é quantos centímetros ele ultrapassa o rebordo, e sim como ele é ao toque. A distância se correlaciona mal com o volume real; a consistência firme, essa sim, eleva a probabilidade de cirrose — e acompanha bem as medidas modernas de fibrose."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Idoso sonolento na enfermaria, sem urinar desde a manhã. Na palpação do hipogástrio, uma \"massa\" arredondada, tensa e dolorosa. O plantonista já fala em acionar a cirurgia por tumor abdominal.\n",
+         "pergunta": "Qual é o passo anterior a qualquer acionamento?\n",
+         "opcoes": [
+          "Solicitar tomografia de abdome em caráter de urgência",
+          "Manter o jejum e chamar a cirurgia agora — massa dolorosa não espera",
+          "Percutir a região e reexaminar depois de esvaziar a bexiga"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "A bexiga em retenção lidera a lista dos tumores-fantasmas — com o fecaloma no sigmoide, o promontório e o rim ptótico —, todos desfeitos por uma percussão e um reexame. Concluir massa sem percutir e sem esvaziar a bexiga é erro clássico da palpação: esvaziada a bexiga, o \"tumor\" sumiu, e a madrugada do paciente terminou sem cirurgião.\n"
         },
         {
          "tipo": "resumo",
@@ -10897,6 +11209,18 @@
          "texto": "Quando o exame do abdome é francamente doloroso e ainda assim ambíguo, a informação que falta raramente vem de uma manobra a mais. Vem do relógio: reexamine o mesmo paciente daqui a algumas horas, com a mesma técnica, e compare. A evolução do exame é um dado, e costuma ser o dado decisivo."
         },
         {
+         "tipo": "relampago",
+         "caso": "Dor abdominal aguda no box 4. O interno anuncia o plano: \"vou fazer a descompressão brusca nos quatro quadrantes, para mapear a peritonite\".\n",
+         "pergunta": "É o melhor plano?\n",
+         "opcoes": [
+          "Sim — a descompressão brusca é o padrão-ouro consagrado do exame peritoneal nos quatro quadrantes",
+          "Sim, desde que comece pelo quadrante que dói",
+          "Não — rigidez, defesa e percussão dolorosa informam doendo menos; a descompressão fica reservada"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "Fazer a descompressão brusca como item de rotina é o primeiro erro da lista deste tópico: ela dói, acrescenta pouco ao que a palpação suave já mostrou e é superada por rigidez, percussão dolorosa e defesa. Reserve-a para quando o resultado ainda puder mudar a conduta — e lembre que o abdome agudo se examina mais de uma vez, não se esgota numa manobra.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "O exame do abdome agudo decide destinos: casa quando a probabilidade de peritonite é baixíssima, centro cirúrgico quando altíssima, imagem para o meio equívoco.",
@@ -11329,6 +11653,18 @@
         {
          "tipo": "perola",
          "texto": "Pulso presente não é sinônimo de artéria boa e pulso ausente não é sinônimo de artéria doente. Um pedioso ausente isolado costuma ser anatomia; dois ausentes, doença; e pulsos cheios em repouso podem sumir depois de trinta passos — que é exatamente o momento em que o paciente sente a dor que o trouxe."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Avaliação pré-operatória de um homem de 28 anos, saudável e assintomático. O pedioso direito não aparece por mais que você procure; o esquerdo é cheio, e os dois tibiais posteriores batem amplos. O interno sugere anotar \"doença arterial periférica à direita?\".\n",
+         "pergunta": "O que o achado vale?\n",
+         "opcoes": [
+          "Muito — um pulso ausente é doença arterial até prova em contrário, em qualquer faixa etária",
+          "Vale um duplex arterial antes da cirurgia",
+          "Pouco — um pulso do pé ausente com o outro cheio é, na maioria das vezes, anatomia"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "O pedioso não é palpável em 3% a 14% das pessoas saudáveis: quando uma das artérias do pé é congenitamente pequena, a outra cresce e compensa — por isso os dois pulsos só faltam juntos em 0% a 2%. É a ausência dos dois pulsos do pé que rastreia doença vascular; um ausente com o vizinho cheio, num jovem assintomático, é variação anatômica que não merece nem o ponto de interrogação do interno.\n"
         },
         {
          "tipo": "resumo",
@@ -11816,6 +12152,18 @@
          "texto": "Insuficiência arterial se pergunta antes de se procurar. Distância até a dor, o que faz a dor passar, e onde o paciente coloca a perna para dormir — três perguntas que localizam o segmento doente e graduam a isquemia antes de a mão encostar no pé."
         },
         {
+         "tipo": "relampago",
+         "caso": "A filha conta que o pai, claudicante antigo, \"agora dorme sentado na poltrona, com a perna para fora\" — deitado, a dor no pé não deixa; pendurada, melhora. Ele acha que descobriu um bom truque.\n",
+         "pergunta": "Como ler o \"truque\"?\n",
+         "opcoes": [
+          "Como sintoma de extrema gravidade — isquemia intensa, com risco de gangrena",
+          "Como adaptação inofensiva, que pode ser mantida",
+          "Como sinal de que a doença é venosa, e não arterial — o alívio postural é a prova disso"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "A cena é a que Porto descreve: a dor isquêmica de repouso piora deitado, porque a gravidade que ajudava o sangue a descer deixa de existir — e o alívio da perna pendente cobra o preço do edema postural, que agrava a isquemia. Porto classifica a dor de repouso como sintoma de extrema gravidade: outro estágio da doença, não outra intensidade. O \"truque\" é o membro pedindo socorro.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "O diagnóstico é clínico — a claudicação intermitente conta a história — e o exame localiza: pulsos, pele, temperatura e úlceras dizem qual segmento e quanto ameaça.",
@@ -12280,6 +12628,18 @@
          "texto": "Na perna aguda, o achado que mais vale é o que menos parece exame: a fita métrica. Todos os sinais clássicos da trombose — o cordão, o Homans, o eritema, a dor à palpação — perderam o valor nos estudos; a diferença medida entre as duas panturrilhas foi o único que sobrou de pé."
         },
         {
+         "tipo": "relampago",
+         "caso": "Perna dolorida no quinto dia de internação. \"Acho que a esquerda está um pouco maior\", diz o colega, olhando as duas panturrilhas da cabeceira, \"mas pode ser impressão\".\n",
+         "pergunta": "Como sair do \"pode ser impressão\"?\n",
+         "opcoes": [
+          "Pedir que outro colega olhe também, para desempatar",
+          "Medir os dois perímetros com fita, no mesmo nível, e anotar os dois valores",
+          "Considerar o edema confirmado — na dúvida, é mais seguro superestimar do que perder"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "A assimetria de perímetro é o único achado deste tópico que produz um número. A fita passa no mesmo nível dos dois lados, com a tuberosidade da tíbia como referência, e os dois valores vão para o prontuário — não a diferença, que o próximo examinador não reproduz sem saber onde a fita passou. Meça, não estime: é a medida que entra no escore de Wells e que a reavaliação de amanhã vai poder comparar.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "Duas doenças no mesmo membro: a venosa crônica, lenta e visível (variz não é sinônimo de insuficiência), e a trombose profunda, aguda e com pressa.",
@@ -12613,6 +12973,18 @@
         {
          "tipo": "perola",
          "texto": "Aneurisma quase nunca se anuncia; ele se apresenta pela complicação. Um artelho subitamente azul, um sopro sistólico novo sobre a fossa poplítea, uma pulsação que afasta as duas mãos no epigástrio — em cada um desses casos, o exame não descobriu o aneurisma, descobriu o que ele já fez."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Revisão de um claudicante de 70 anos. Na fossa poplítea direita, o pulso vem fácil demais: uma massa pulsátil, larga, que você delimita entre os dedos. \"Que pulso bom\", comenta o interno.\n",
+         "pergunta": "Pulso bom?\n",
+         "opcoes": [
+          "Sim — poplítea fácil de palpar é sinal de boa circulação colateral no membro claudicante",
+          "Impossível dizer — só o duplex responde",
+          "Provavelmente não — tumor pulsátil ali levanta aneurisma, e aneurisma poplíteo emboliza"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "A poplítea é reconhecidamente difícil de palpar — quando ela se entrega como massa pulsátil, a suspeita é aneurisma, uma das localizações mais comuns dos adquiridos. Porto descreve como complicações principais a trombose e a embolia a partir dos trombos da parede, capazes de produzir isquemia aguda da perna inteira ou de um único pododáctilo. O \"pulso bom\" é um aneurisma silencioso; achá-lo agora é o que evita conhecê-lo como emergência.\n"
         },
         {
          "tipo": "resumo",
@@ -12980,6 +13352,18 @@
          "texto": "O exame osteoarticular tem duas perguntas que quase nunca são feitas e quase sempre decidem: quantas juntas, e em que ordem elas entraram. Um paciente com quatro juntas doloridas que se somaram ao longo de meses e um paciente com quatro juntas que doeram uma de cada vez e passaram têm o mesmo exame de hoje e doenças diferentes."
         },
         {
+         "tipo": "relampago",
+         "caso": "Adolescente com artrite: semana passada foi o joelho direito, que melhorou sozinho; anteontem, o tornozelo esquerdo; hoje, o punho. O interno resume no prontuário: \"poliartrite em investigação\".\n",
+         "pergunta": "O que está faltando nesse registro?\n",
+         "opcoes": [
+          "O número exato de articulações acometidas até agora, com o lado de cada uma",
+          "A ordem de instalação — este padrão é migratório, e isso muda as hipóteses",
+          "Nada — poliartrite descreve o quadro adequadamente"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "Aditivo é o padrão em que as novas juntas se somam às que já doíam; migratório é o que troca de lugar — e a dor que muda de junta sem deixar sequela é o exemplo clássico da febre reumática, resumida na frase de Bouillaud: a doença lambe as articulações e morde o coração. \"Poliartrite\" conta quantas; o padrão conta qual — e aqui é o padrão que manda auscultar o precórdio.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "O vocabulário vem antes do gesto: artralgia ou artrite, quantas articulações, em que ordem, com que ritmo — são essas palavras que separam as famílias de doença.",
@@ -13345,6 +13729,18 @@
         {
          "tipo": "perola",
          "texto": "Duas perguntas separam quase toda dor lombar que desce para a perna: o que a piora e o que a alivia. Se piora ao tossir, ao espirrar e ao inclinar o tronco, pense em raiz estirada. Se piora ao andar e alivia com o tronco curvado, pense em canal estreito — e lembre que a insuficiência arterial também dói ao andar."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Lombalgia forte há dois dias em um homem de 44 anos. No meio da consulta ele menciona, de passagem, que \"hoje o xixi está difícil de segurar\" e que o períneo está \"meio dormente ao sentar\".\n",
+         "pergunta": "O que essas frases mudam?\n",
+         "opcoes": [
+          "Nada — sintomas urinários acompanham qualquer dor intensa",
+          "Indicam associar um relaxante muscular e reavaliar em uma semana",
+          "Tudo — anestesia em sela e alteração de esfíncter compõem a síndrome da cauda equina"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "É o item da lista de bandeiras vermelhas que muda a conduta imediatamente: na compressão grave da cauda equina aparecem anestesia em sela no períneo, perda do controle dos esfíncteres e déficit nas pernas. E é justamente a pesquisa que o examinador costuma esquecer — perguntar sobre os esfíncteres e testar a sensibilidade perineal. A \"lombalgia comum\" acabou de sair do rótulo; o caso agora é emergência.\n"
         },
         {
          "tipo": "resumo",
@@ -13869,6 +14265,18 @@
          "texto": "No ombro, o exame vale pelo que exclui. A ausência dos dois sinais de impacto praticamente afasta a doença subacromial, e a ausência dos três achados combinados praticamente afasta a ruptura do manguito. Nenhum teste isolado deste tópico confirma coisa alguma com a mesma força com que o conjunto negativo descarta."
         },
         {
+         "tipo": "relampago",
+         "caso": "Homem de 51 anos com dor no ombro direito que desce pelo braço, com formigamento até os dedos. No exame do ombro, amplitudes passivas completas e indolores, Neer e Hawkins negativos.\n",
+         "pergunta": "Para onde o exame vai agora?\n",
+         "opcoes": [
+          "Para a coluna cervical — Spurling e Apley interrogam a raiz que projeta dor no ombro",
+          "Para os testes de força do manguito rotador — ainda falta provocá-lo sob carga máxima",
+          "Para a ultrassonografia do ombro, que decide o impasse"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "Dor referida tende a não limitar o movimento passivo do ombro e a não ser reproduzida pelas manobras de impacto — e este ombro passou nos dois filtros. A radiculopatia cervical projeta dor no ombro e no braço, e as manobras que a interrogam — Spurling, distração de Apley — moram no tópico da coluna vertebral. O ombro que examina bem sabe também quando a dor não é dele.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "O ombro dói porque tendões passam entre ossos que se movem: impacto → tendinite → bursite → degeneração → rotura é a cadeia a interromper cedo.",
@@ -14387,6 +14795,18 @@
          "texto": "No túnel do carpo, o melhor achado negativo de todo o exame não é produzido pelo médico. É o desenho que o paciente faz da própria mão: quando os sintomas não tomam o polegar, o indicador nem o médio, a razão de verossimilhança cai a 0,2 — melhor do que qualquer manobra provocativa consegue ser em qualquer direção."
         },
         {
+         "tipo": "relampago",
+         "caso": "\"Formiga a mão inteira, doutora — a noite toda.\" A paciente de 49 anos balança a mão direita ao contar. Túnel do carpo já entrou na sua lista, e o próximo gesto vai valer mais que as duas manobras clássicas.\n",
+         "pergunta": "Qual é ele?\n",
+         "opcoes": [
+          "Pedir que ela aponte exatamente quais dedos formigam",
+          "Fazer Tinel e Phalen em sequência",
+          "Solicitar eletroneuromiografia dos membros superiores de imediato"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "A pergunta que vale não é \"dói na palma?\", e sim \"o polegar, o indicador ou o médio estão dentro da queixa?\". O padrão improvável — a queixa que poupa os dedos 1, 2 e 3 — rende razão de verossimilhança 0,2 e reduz bastante a probabilidade de síndrome do túnel do carpo; a \"mão inteira\", mapeada dedo a dedo, quase sempre se resolve em um território. O mapa custa dez segundos e orienta tudo o que vem depois.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "Na mão, o achado de beira de leito é o próprio padrão diagnóstico: a deformidade típica estabelece a doença, com ou sem sorologia.",
@@ -14867,6 +15287,18 @@
         {
          "tipo": "perola",
          "texto": "No joelho, o exame físico alcança números que quase nenhum outro segmento do corpo alcança: 97,8 para a gaveta posterior, 19,5 para Lachman, 16,2 para o estresse em varo. E, na mesma articulação, a dor na interlinha rende 1,8 e a concordância do McMurray vai de 0,16 a 0,35. A diferença entre um exame excelente e um exame inútil, aqui, cabe inteira na técnica."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Você mede a rotação interna do quadril direito de um paciente com dor na virilha: nitidamente reduzida. Hora de registrar, e a caneta hesita: \"rotação interna direita de 20 graus\" parece completo.\n",
+         "pergunta": "Parece — e é?\n",
+         "opcoes": [
+          "É — o número fala por si",
+          "Não — falta a posição em que a rotação foi medida",
+          "Não — falta converter o valor para porcentagem do normal"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "As próprias fontes deste guia se contradizem sobre como a extensão do quadril altera a rotação — uma diz que aumenta, outra que diminui —, e a consequência prática é o registro: \"rotação interna passiva de 20 graus, com quadril e joelho fletidos a 90 graus\" é uma frase conferível; sem a posição, o próximo examinador não consegue reproduzir a medida nem saber se o paciente piorou. Amplitude sem posição é número solto.\n"
         },
         {
          "tipo": "resumo",
@@ -15392,6 +15824,18 @@
          "texto": "O capítulo termina onde começou: contando juntas. Depois de seis tópicos de manobras, epônimos e razões de verossimilhança, o que separa osteoartrite de artrite reumatoide, de gota e de espondiloartrite continua sendo onde as juntas estão, o que se sente sob o dedo, com que ritmo dói e há quanto tempo. Nenhum exame de sangue chega antes dessas quatro respostas — e pedido antes delas, atrapalha."
         },
         {
+         "tipo": "relampago",
+         "caso": "Homem de 60 anos, diabético, com dor no antepé. Você examina com capricho: inspeção em carga e sem carga, palpação dos metatarsos, amplitudes, fáscia plantar. Tudo mapeado — e o exame parece pronto para o registro.\n",
+         "pergunta": "Parece — e falta o quê?\n",
+         "opcoes": [
+          "Nada — o exame articular está completo",
+          "Radiografia do pé em duas incidências, que fecha qualquer avaliação",
+          "Os pulsos — pediosa e tibial posterior fecham o exame do pé"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "A lista de palpação deste tópico termina, de propósito, nas artérias tibial posterior e pediosa: exame de pé que não termina em pulso é exame incompleto — e, no diabético, é exame perigoso. A perfusão e a sensibilidade protetora deste paciente têm tópicos próprios neste guia, e o pé dele precisa dos três exames: o da articulação, o dos pulsos e o do monofilamento.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "As queixas do pé são, antes de tudo, biomecânicas — e por isso o exame se faz deitado e em carga, com a pisada e o calçado como dados.",
@@ -15728,6 +16172,18 @@
         {
          "tipo": "perola",
          "texto": "A régua do exame das mamas é a outra mama da mesma paciente. Porto manda começar pela mama sem queixa exatamente por isso: ela calibra a mão para o parênquima daquela pessoa, naquela fase do ciclo — e transforma a pergunta impossível 'isto é normal?' na pergunta respondível 'isto é igual ao outro lado?'."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Homem de 62 anos em consulta por outro motivo menciona um \"carocinho no peito\" à esquerda. À palpação: nódulo endurecido, excêntrico em relação à aréola, único. \"Ginecomastia da idade\", sugere o interno — afinal, ela é fisiológica na senilidade.\n",
+         "pergunta": "O rótulo serve?\n",
+         "opcoes": [
+          "Não — nódulo unilateral, excêntrico e endurecido no homem não é ginecomastia até prova em contrário",
+          "Serve — mama aumentada no idoso é ginecomastia senil, fisiológica como a da puberdade e a do recém-nascido",
+          "Serve, se os hormônios vierem normais"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "A ginecomastia verdadeira é proliferação glandular — um botão subareolar, tipicamente central. O câncer de mama masculino existe: 1% dos casos, em idade média mais avançada, e a assimetria que muda a conduta é exatamente esta — nódulo unilateral excêntrico, endurecido ou aderido não recebe o rótulo benigno sem investigação. O exame da mama masculina usa o mesmo repertório descritivo do exame da feminina, e aqui ele descreveu um achado que precisa de resposta.\n"
         },
         {
          "tipo": "resumo",
@@ -16126,6 +16582,18 @@
         {
          "tipo": "perola",
          "texto": "O derrame papilar tem uma aritmética que cabe num bolso: quanto mais ductos, mais lados e mais provocação, mais benigno; quanto mais único, mais espontâneo e mais claro ou mais vermelho o líquido, mais atenção. Bilateral, multiductal e provocado tranquiliza; unilateral, uniductal, espontâneo — sanguinolento ou em água de rocha — investiga-se sempre."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "\"Toda noite eu aperto para ver se sai — e sai sempre um líquido amarelado, dos dois lados, por vários furinhos.\" A paciente de 38 anos faz a verificação desde que uma amiga adoeceu, e chega convencida de que o líquido é a doença.\n",
+         "pergunta": "O que os quatro eixos dizem desse derrame?\n",
+         "opcoes": [
+          "Que é patológico — qualquer descarga papilar fora da lactação exige investigação completa, sem exceção",
+          "Que é fisiológico — provocado, bilateral e multiductal — e que a orientação é parar de manipular",
+          "Que só a citologia do líquido pode decidir"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "Provocado pela manipulação, bilateral, multiductal e amarelado: o perfil fisiológico completo — o achado clássico da paciente que espreme para verificar. A consequência vem da própria definição: orientar a não manipular, porque é a manipulação que o produz. O derrame que preocupa é o oposto em cada eixo — espontâneo, unilateral, uniductal, em água de rocha, seroso ou sanguinolento. O alívio dela começa na explicação desses eixos.\n"
         },
         {
          "tipo": "resumo",
@@ -16536,6 +17004,18 @@
          "texto": "Três instrumentos resolvem a bolsa escrotal: a lanterna, os dedos acima da massa e o decúbito. O que transilumina é líquido; o que não deixa os dedos passarem por cima vem do canal inguinal; o que some deitado é hérnia ou varicocele. Quando os três falham ao mesmo tempo — a hidrocele irredutível no anel, que Porto admite indistinguível da hérnia estrangulada —, a resposta é a ultrassonografia, com pressa."
         },
         {
+         "tipo": "relampago",
+         "caso": "Rapaz de 19 anos com desconforto escrotal esquerdo vago, pior ao fim do dia. Deitado na maca, o exame minucioso da bolsa não encontra nada. O laudo mental já diz \"exame normal\".\n",
+         "pergunta": "O exame terminou?\n",
+         "opcoes": [
+          "Sim — a palpação em decúbito foi completa",
+          "Não — falta examinar de pé, com manobra de Valsalva",
+          "Sim, mas vale encaminhar ao ultrassom pela queixa persistente"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "De pé, o \"saco cheio de vermes\" apareceu acima do testículo esquerdo e cresceu com o esforço: varicocele — cujo exame Porto registra como obrigatoriamente feito em posição ortostática, graduada pela manobra de Valsalva. O que aparece de pé e some deitado — hérnia, varicocele — é o que a maca esconde; examinar só em decúbito é examinar com o achado guardado.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "Luvas sempre, etapa anunciada antes de executada, e palpação testicular de extrema delicadeza — a gentileza aqui tem justificativa oncológica.",
@@ -16846,6 +17326,18 @@
         {
          "tipo": "perola",
          "texto": "Porto exige que o exame ginecológico não se restrinja a um simples toque vaginal — e a frase corta nos dois sentidos: o exame sem toque é incompleto, e o toque sem o resto é quase cego. A sequência inteira — inspeção em repouso, esforço, espéculo, toque — é um funil em que cada etapa diz onde a seguinte deve olhar."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Mulher de 67 anos adiou este exame por anos: na última tentativa, \"doeu demais e eu desisti\". As paredes vaginais, na pós-menopausa, são lisas e secas. O espéculo médio está na bandeja.\n",
+         "pergunta": "O que a técnica muda para este exame acontecer?\n",
+         "opcoes": [
+          "Nada — a introdução rápida encurta o desconforto",
+          "Substituir definitivamente o espéculo pelo toque bimanual, que examina sem instrumento",
+          "Espéculo de tamanho adequado e lubrificante, indicado justamente na pós-menopausa"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "*Semiologia Clínica* indica o lubrificante exatamente para os grupos em que a introdução custa mais — jovens, pós-menopausa, inflamação — e o espéculo existe em tamanhos porque as pacientes existem em tamanhos. Somam-se a técnica de sempre (lâminas em plano oblíquo, vetor de força para a parede posterior, abertura suave) e o contrato explicado antes. O exame que doeu uma vez decide vinte anos de rastreamento; a técnica cuidadosa é o que traz a paciente de volta.\n"
         },
         {
          "tipo": "resumo",
@@ -17203,6 +17695,18 @@
         {
          "tipo": "perola",
          "texto": "A Semiologia Médica resume este tópico em uma sentença que vale por um capítulo: sem toque retal, nenhum exame físico merece o adjetivo completo. A sentença não promete que o toque acha tudo — o câncer inicial da próstata escapa, os números da peritonite são modestos —; promete que quem nunca toca nunca acha."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Homem de 58 anos com retenção urinária de instalação recente e lombalgia. No toque retal, a próstata é elástica, lisa, pouco aumentada — e a tentação é encerrar o exame com \"próstata sem alterações\".\n",
+         "pergunta": "O que este toque ainda tem a responder?\n",
+         "opcoes": [
+          "O tônus do esfíncter e a sensibilidade perineal — o exame da suspeita neurológica",
+          "Nada — a próstata era a única pergunta",
+          "A massagem prostática, para obter secreção e completar a avaliação da glândula"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "Retenção urinária com lombalgia levanta a hipótese de compressão neurológica, e o toque retal é onde ela se examina: o esfíncter relaxado das doenças neurológicas e a sensibilidade perineal preservada ou não. *Semiologia Clínica* pede exatamente esse par na suspeita neurológica — e o tópico da coluna vertebral cobra a mesma pesquisa na síndrome da cauda equina. A próstata normal respondeu uma pergunta; o esfíncter responde a que importa hoje.\n"
         },
         {
          "tipo": "resumo",
@@ -17659,6 +18163,18 @@
         {
          "tipo": "perola",
          "texto": "Antes de concluir que um paciente não responde, peça a ele que olhe para cima. A síndrome do cativeiro preserva a consciência inteira e a movimentação dos olhos — e é o diagnóstico que mais custa caro quando o examinador para de perguntar cedo demais."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Meia-noite, telefone com a neurocirurgia: \"qual é o Glasgow?\". Você avaliou há pouco: abre os olhos ao chamado, palavras desconexas, localiza a dor com o braço esquerdo. A soma dá 12, e a resposta \"Glasgow 12\" já está na ponta da língua.\n",
+         "pergunta": "O que dizer ao colega do outro lado?\n",
+         "opcoes": [
+          "O total basta — 12 pontos são 12 pontos, em qualquer combinação de componentes",
+          "O total e a hora da avaliação",
+          "Os três componentes com o total — O3, V3, M5 — e o estímulo usado"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "Somas iguais escondem doentes diferentes — é a insistência central deste tópico. O total serve para comparar o mesmo paciente ao longo do tempo; para tudo o mais, o que informa são os três números separados e o que se fez para obtê-los. \"O3, V3, M5 ao chamado\" transporta o exame inteiro pelo telefone; \"Glasgow 12\" transporta só uma soma.\n"
         },
         {
          "tipo": "resumo",
@@ -18198,6 +18714,18 @@
          "texto": "Diante de uma pupila diferente da outra, três perguntas ordenam tudo: as duas reagem à luz? A diferença é maior no claro ou no escuro? E há ptose — completa, com olho desviado para fora e para baixo, ou parcial, com miose do mesmo lado? A primeira e a segunda estão no tópico de olhos; a terceira decide entre o terceiro nervo e o simpático cervical."
         },
         {
+         "tipo": "relampago",
+         "caso": "Mulher de 44 anos, enxaquecosa de longa data, conta que \"a dor mudou\": agora é diária, pior de manhã, diferente das crises de sempre. O plantão está cheio e a receita de sempre resolveria a fila.\n",
+         "pergunta": "O que este capítulo obriga a fazer antes da receita?\n",
+         "opcoes": [
+          "Reforçar o analgésico, orientar um diário de cefaleia e retorno apenas se piorar",
+          "Examinar o fundo de olho à procura de papiledema",
+          "Solicitar eletroencefalograma"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "O oftalmoscópio mostrou papilas de bordas borradas. Papiledema em paciente com cefaleia que mudou de caráter é um achado que não espera — a suspeita de hipertensão intracraniana muda a ordem do exame e a urgência da investigação. Nenhum achado de fundo de olho isolado decide conduta, mas este muda a noite: a \"enxaqueca de sempre\" deixou de ser um diagnóstico e virou uma hipótese a rever.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "Os pares cranianos são o mapa do tronco encefálico à mão: doze nervos, três andares possíveis de lesão — nervo, núcleo ou via supranuclear.",
@@ -18644,6 +19172,18 @@
         {
          "tipo": "perola",
          "texto": "Uma língua que desvia diz de que lado está a fraqueza — ela pende para o lado fraco. Para saber onde está a lesão, olhe duas coisas a mais: se há atrofia ou fasciculação, o problema é do núcleo ou do nervo; e para que lado estão o braço e a perna fracos, porque a resposta separa o hemisfério do bulbo."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Terceiro dia de um acidente vascular cerebral. A família quer trazer sopa; a técnica informa que o paciente \"tem reflexo de vômito presente\" e pergunta se pode liberar a dieta por via oral.\n",
+         "pergunta": "O reflexo presente decide a questão?\n",
+         "opcoes": [
+          "Decide — reflexo do vômito presente garante deglutição segura",
+          "Decide o contrário — todo paciente com AVC permanece em jejum absoluto por uma semana",
+          "Não decide — testar a sensibilidade faríngea e a deglutição de água rende muito mais"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "Diante do acidente vascular com suspeita de disfagia, testar a sensibilidade faríngea rende muito mais do que provocar o reflexo do vômito — e incomoda menos. O teste de deglutição de água completa a avaliação: goles pequenos, atenção a tosse, engasgo ou mudança da voz. O reflexo presente que a técnica descreveu não responde à única pergunta que importa aqui: se a via aérea está protegida quando o alimento desce.\n"
         },
         {
          "tipo": "resumo",
@@ -19322,6 +19862,18 @@
          "texto": "Antes de decidir que o reflexo está alterado, faça duas perguntas: o paciente está relaxado, e o músculo está estirado? A maioria dos reflexos que somem no exame some pela mão do examinador, não pelo sistema nervoso do paciente."
         },
         {
+         "tipo": "relampago",
+         "caso": "O interno percute o patelar duas vezes, nada acontece, e ele já dita para o prontuário: \"arreflexia patelar bilateral\". O martelo ainda está na mão dele.\n",
+         "pergunta": "O registro pode ser feito?\n",
+         "opcoes": [
+          "Ainda não — falta repetir com manobra de reforço antes de chamar o reflexo de ausente",
+          "Pode — duas percussões sem resposta bastam",
+          "Pode, desde que o martelo seja de boa qualidade e a técnica de percussão esteja correta"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "Com a manobra de Jendrassik — as mãos do paciente se traveam e puxam enquanto o martelo cai —, o patelar apareceu dos dois lados. Reflexo que não aparece se repete com reforço antes de ser registrado como ausente; e mesmo a ausência verdadeira, isolada, não significa doença — parte das pessoas idosas sadias não tem aquileu nem com reforço. O registro precipitado do interno criaria uma \"polineuropatia\" de martelo.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "Três perguntas em ordem: onde está a fraqueza, de que tipo ela é (neurônio motor superior × inferior) e onde fica a lesão — e quem responde a segunda são tônus, trofismo e reflexos, não a força.",
@@ -19754,6 +20306,18 @@
         {
          "tipo": "perola",
          "texto": "Duas perguntas resolvem quase toda a topografia sensitiva: a perda é dos dois lados, e ela envolve a face? Dois lados sem face é polineuropatia ou medula; um lado com face é tálamo ou hemisfério; e face de um lado com corpo do outro é tronco encefálico."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Exame neurológico de rotina em um paciente internado por outro motivo, sem nenhuma queixa sensitiva. O interno prepara algodão, alfinete, tubos de água quente e fria e diapasão: \"vou testar tudo, para não perder nada\".\n",
+         "pergunta": "É o exame certo para este paciente?\n",
+         "opcoes": [
+          "Não — sem queixa sensitiva, a triagem se faz com o tato nos quatro membros",
+          "Sim — o exame de sensibilidade é sempre completo",
+          "Não — sem queixa, a sensibilidade simplesmente não se examina em paciente internado"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "Antes de encostar o algodão, decida a pergunta. Triagem sem queixa: só o tato, nos quatro membros. Queixa em um membro: tato e dor. Queixa extensa ou no tronco: todas as modalidades, atrás da dissociação que denuncia a medula. O exame completo no assintomático não é rigor — é tempo gasto onde a probabilidade não está, e é exatamente o hábito que este tópico veio corrigir.\n"
         },
         {
          "tipo": "resumo",
@@ -20293,6 +20857,18 @@
          "texto": "Rigidez de nuca é o achado que mais engana nas duas direções: ausente em quem tem hemorragia há poucas horas, presente em um terço dos idosos internados que não têm nada nas meninges. Ela vale muito quando aparece na cefaleia súbita, e nunca vale como carta de alforria."
         },
         {
+         "tipo": "relampago",
+         "caso": "Febre, cefaleia intensa e confusão há um dia. Você pesquisa: nuca livre, Kernig negativo, Brudzinski negativo. O colega respira aliviado — \"sem sinais meníngeos, podemos esperar a punção\".\n",
+         "pergunta": "A espera se justifica?\n",
+         "opcoes": [
+          "Sim — três sinais meníngeos negativos, juntos, praticamente afastam a meningite bacteriana",
+          "Não — a ausência dos três sinais não afasta meningite; a punção não se apoia neles",
+          "Sim, desde que o hemograma esteja normal"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "As razões de verossimilhança negativas dos três sinais clássicos não alcançaram significância — quer dizer: a ausência deles quase não move a probabilidade. É por isso que a decisão de puncionar não se apoia neles, e sim no quadro clínico. Febre, cefaleia e confusão seguem valendo exatamente o que valiam antes das manobras: uma suspeita que só o líquor resolve.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "Dois exames que a maca esconde: a marcha, que desmascara síndromes com exame de membros normal, e os sinais meníngeos, que exigem encostar na cabeça do paciente.",
@@ -20598,6 +21174,18 @@
         {
          "tipo": "perola",
          "texto": "Porto manda evitar as perguntas diretas de orientação e pedir, em vez disso, que o paciente conte de onde veio e como chegou ao exame. A pergunta indireta testa três funções de uma vez — orientação, memória e organização do relato — e não humilha ninguém: quem está orientado responde sem notar que foi testado."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Quarta consulta do mês com o mesmo paciente, e você se percebe irritado antes mesmo de ele terminar a primeira frase — uma impaciência que não sente com os outros pacientes da agenda.\n",
+         "pergunta": "O que fazer com esse sentimento?\n",
+         "opcoes": [
+          "Suprimi-lo — profissional de saúde não se deixa afetar",
+          "Notá-lo e tratá-lo como dado semiológico do encontro",
+          "Encaminhar o paciente a outro colega, para preservar a relação"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "Examinar o paciente e ignorar a si mesmo é um dos erros clássicos deste capítulo: os sentimentos que o paciente desperta são dado semiológico e fator de erro ao mesmo tempo — notados, informam; ignorados, conduzem. A irritação percebida vira pergunta clínica: o que, no modo de ser deste paciente, produz esse efeito em quem o atende — e o que isso diz do sofrimento dele?\n"
         },
         {
          "tipo": "resumo",
@@ -20974,6 +21562,18 @@
         {
          "tipo": "perola",
          "texto": "No estupor, a Semiologia Médica ensina a ler a causa no rosto: sonolência e torpor apontam o paciente orgânico; a tristeza, o deprimido; o alheamento, o esquizofrênico. É o mesmo gesto imóvel com três fisionomias — e o exame que não olha a face perde o único dado que o paciente ainda está dando."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "A filha conta assustada: \"minha mãe está vendo vulto\". A senhora de 79 anos explica, sem susto nenhum: à meia-luz do corredor, o casaco pendurado na cadeira \"vira uma pessoa\" — de dia, ela mesma ri do engano.\n",
+         "pergunta": "Como registrar o fenômeno?\n",
+         "opcoes": [
+          "Ilusão — a percepção deformou um objeto que existe, achado comum e de pouco valor",
+          "Alucinação visual — indicação de investigação orgânica imediata, começando ainda hoje",
+          "Delírio — uma crença falsa sobre o corredor"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "Ilusão deforma um objeto real — o casaco estava lá — e é comum em pessoas normais, sobretudo em condições ruins de iluminação; alucinação é percepção sem objeto. Tratar ilusão como alucinação é erro clássico que infla o quadro: a palavra escolhida no prontuário decide se essa senhora sai da consulta tranquilizada ou investigada. Registrar com precisão é, aqui, o próprio tratamento.\n"
         },
         {
          "tipo": "resumo",
@@ -21381,6 +21981,18 @@
          "texto": "Uma leitura deste guia sobre o desenho do Mini-Cog — não uma frase das fontes: o relógio, entre o registro e a evocação das três palavras, não é só um teste — funciona como distrator que impede o ensaio mental, e o paciente que evoca as três palavras depois de desenhá-lo evocou de verdade. O miniexame tem a mesma arquitetura: a subtração seriada separa a retenção da evocação."
         },
         {
+         "tipo": "relampago",
+         "caso": "Miniexame em andamento. Na evocação das três palavras, o senhor hesita — e a filha, aflita, sopra: \"começa com 'ca', pai...\". Ele acerta. No cálculo, ela quer \"só ajudar mais uma vez\".\n",
+         "pergunta": "O que fazer?\n",
+         "opcoes": [
+          "Deixar — o objetivo é o paciente acertar",
+          "Anotar os itens ajudados como corretos, acrescentando uma observação sobre a ajuda",
+          "Interromper as dicas com gentileza: repetir instrução pode; sugerir resposta, não"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "Ajudar o paciente durante o teste é um dos erros da lista deste tópico: repetir a instrução é permitido, mas a dica destrói a padronização que sustenta os cortes — o escore deixa de significar qualquer coisa. E a dificuldade observada é dado, não constrangimento a evitar: a hesitação que a filha tentou encobrir era exatamente a informação que o teste veio buscar.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "Relógio, Mini-Cog e miniexame diagnosticam demência; o CAM diagnostica delirium — testes breves, validados e de beira de leito.",
@@ -21712,6 +22324,18 @@
          "texto": "Diante do idoso que 'ficou confuso', a pergunta mais rentável do exame não é feita ao paciente: é o 'desde quando ele não é o mesmo?' dirigido a quem convive com ele. Horas pedem CAM e foco infeccioso; anos pedem biografia funcional e domínios cognitivos; 'desde que a esposa faleceu' pede humor e anedonia. A linha do tempo é o primeiro diferencial."
         },
         {
+         "tipo": "relampago",
+         "caso": "Enfermaria cheia; a paciente do leito 12, de 86 anos, é \"a mais fácil do corredor\": quieta, sonolenta, não chama, não reclama. Terceiro dia assim. A equipe agradece o sossego.\n",
+         "pergunta": "O sossego é bom sinal?\n",
+         "opcoes": [
+          "É — paciente tranquila é paciente estável",
+          "Não necessariamente — sonolência vespertina é comum no idoso internado, pela rotina da enfermaria",
+          "Pode ser o oposto — delirium hipoativo é o mais perdido, e a atenção dela precisa ser testada"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "Desatenta, flutuando, incapaz de sustentar uma tarefa breve: a \"paciente fácil\" estava em delirium — na forma hipoativa, a mais perdida justamente porque não incomoda ninguém. Atenção se examina em todo paciente agudo, especialmente no que \"só está sonolento\"; e atrás do delirium encontrado procura-se a causa no corpo. O silêncio do leito 12 não era estabilidade: era o sintoma.\n"
+        },
+        {
          "tipo": "resumo",
          "linhas": [
           "Três síndromes disputam o idoso \"confuso\": delirium (horas a dias, urgência), demência (meses a anos) e depressão (semanas, muitas vezes após perdas).",
@@ -22003,6 +22627,18 @@
         {
          "tipo": "perola",
          "texto": "A Semiologia Médica ensina que, na dúvida sobre a genitália do recém-nascido, não se declara o sexo até a avaliação completa. É talvez o exemplo mais nítido de uma habilidade que atravessa toda a semiologia pediátrica: saber quando a resposta correta da consulta é ainda não responder."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Consulta por febre de um menino de 2 anos. Falta a otoscopia, e a mãe interrompe: \"esse exame do ouvido não, doutora — ele chora muito, e hoje ele está tão calminho\".\n",
+         "pergunta": "Como responder ao pedido?\n",
+         "opcoes": [
+          "Atender — o vínculo com a família vale mais que um item do exame",
+          "Adiar a otoscopia para o fim, anunciá-la — e fazê-la",
+          "Fazer agora mesmo, antes que ele comece a chorar"
+         ],
+         "corretaIndex": 1,
+         "desfecho": "Os procedimentos mais temidos ficam para o fim da consulta e são informados previamente — mas não podem ser suprimidos por vontade dos pais nem da criança. Adiar o desconforto é técnica; pular etapa do exame para evitar o choro, não — numa febre sem foco, o ouvido é exatamente onde a resposta pode estar. A ordem se curva ao choro; a completude do exame, nunca.\n"
         },
         {
          "tipo": "resumo",
@@ -22320,6 +22956,18 @@
         {
          "tipo": "perola",
          "texto": "Porto lembra que, para condições especiais como o recém-nascido, existe balança própria — e a frase vale como síntese do tópico inteiro: na criança, quase nenhum instrumento novo é inventado; quase todos são recalibrados. O que muda de verdade é a régua de leitura, que agora tem idade."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "Recém-nascido internado com suspeita de sepse. Na passagem de plantão, a frequência cardíaca de 100 bpm é lida como o único dado tranquilizador da noite: \"pelo menos o coração está ótimo, bem normal\".\n",
+         "pergunta": "Está?\n",
+         "opcoes": [
+          "Não — no recém-nascido, 100 bpm pode ser bradicardia relativa; num séptico, alarme",
+          "Está — a faixa de 60 a 100 bpm é a normal da frequência cardíaca em qualquer idade",
+          "Está, desde que o ritmo seja regular"
+         ],
+         "corretaIndex": 0,
+         "desfecho": "Julgar o sinal vital da criança com a régua do adulto é o primeiro erro da lista deste tópico. Os 150 bpm do lactente são fisiologia — e os 100 bpm \"normais\" podem ser bradicardia relativa num recém-nascido séptico. A faixa etária vem antes do número: o dado \"tranquilizador\" da passagem de plantão era, lido na régua certa, mais um motivo de preocupação.\n"
         },
         {
          "tipo": "resumo",
@@ -22651,6 +23299,18 @@
         {
          "tipo": "perola",
          "texto": "O exame da criança termina onde começou o do guia inteiro: na ideia de que a normalidade tem calendário. A fontanela que se fecha, o ictus que migra, o testículo que desce, a segunda bulha que troca de foco, o broto que vira mama — quase nada no exame pediátrico é um ponto fixo; quase tudo é uma trajetória com hora certa. Examinar uma criança é conferir se o corpo está no horário."
+        },
+        {
+         "tipo": "relampago",
+         "caso": "O interno palpa o precórdio de um lactente de 8 meses e franze a testa: \"o ictus está no 4º espaço, desviado para cima — será cardiomegalia?\". Ele procurou no 5º espaço, onde sempre encontrou nos adultos.\n",
+         "pergunta": "O achado é doença?\n",
+         "opcoes": [
+          "Provavelmente sim — um ictus fora do 5º espaço intercostal pede ecocardiograma precoce",
+          "Impossível saber sem radiografia de tórax",
+          "Provavelmente não — no lactente, o ictus mora no 4º espaço, na linha hemiclavicular"
+         ],
+         "corretaIndex": 2,
+         "desfecho": "Esperar do precórdio infantil a geografia do adulto é um dos erros da lista deste tópico: no lactente, o ictus normal está no 4º espaço intercostal, na linha hemiclavicular — procurá-lo com o mapa do adulto fabrica cardiomegalias. O exame da criança muda de forma com a idade, e as referências anatômicas mudam junto; o \"desvio\" do interno era só o coração no endereço certo para os 8 meses.\n"
         },
         {
          "tipo": "resumo",

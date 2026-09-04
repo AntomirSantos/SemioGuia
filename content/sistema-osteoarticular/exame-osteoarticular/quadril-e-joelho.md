@@ -589,6 +589,20 @@ texto: |
 texto: "No joelho, o exame físico alcança números que quase nenhum outro segmento do corpo alcança: 97,8 para a gaveta posterior, 19,5 para Lachman, 16,2 para o estresse em varo. E, na mesma articulação, a dor na interlinha rende 1,8 e a concordância do McMurray vai de 0,16 a 0,35. A diferença entre um exame excelente e um exame inútil, aqui, cabe inteira na técnica."
 :::
 
+::: relampago
+caso: |
+  Você mede a rotação interna do quadril direito de um paciente com dor na virilha: nitidamente reduzida. Hora de registrar, e a caneta hesita: "rotação interna direita de 20 graus" parece completo.
+pergunta: |
+  Parece — e é?
+opcoes:
+  - "É — o número fala por si"
+  - "Não — falta a posição em que a rotação foi medida"
+  - "Não — falta converter o valor para porcentagem do normal"
+corretaIndex: 1
+desfecho: |
+  As próprias fontes deste guia se contradizem sobre como a extensão do quadril altera a rotação — uma diz que aumenta, outra que diminui —, e a consequência prática é o registro: "rotação interna passiva de 20 graus, com quadril e joelho fletidos a 90 graus" é uma frase conferível; sem a posição, o próximo examinador não consegue reproduzir a medida nem saber se o paciente piorou. Amplitude sem posição é número solto.
+:::
+
 ::: resumo
 linhas:
   - "O quadril é profundo e mente sobre onde dói — a queixa migra para virilha, coxa, joelho e nádega; o joelho é superficial e entrega quase tudo."

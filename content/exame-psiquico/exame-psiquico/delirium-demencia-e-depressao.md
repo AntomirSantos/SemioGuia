@@ -306,6 +306,20 @@ texto: |
 texto: "Diante do idoso que 'ficou confuso', a pergunta mais rentável do exame não é feita ao paciente: é o 'desde quando ele não é o mesmo?' dirigido a quem convive com ele. Horas pedem CAM e foco infeccioso; anos pedem biografia funcional e domínios cognitivos; 'desde que a esposa faleceu' pede humor e anedonia. A linha do tempo é o primeiro diferencial."
 :::
 
+::: relampago
+caso: |
+  Enfermaria cheia; a paciente do leito 12, de 86 anos, é "a mais fácil do corredor": quieta, sonolenta, não chama, não reclama. Terceiro dia assim. A equipe agradece o sossego.
+pergunta: |
+  O sossego é bom sinal?
+opcoes:
+  - "É — paciente tranquila é paciente estável"
+  - "Não necessariamente — sonolência vespertina é comum no idoso internado, pela rotina da enfermaria"
+  - "Pode ser o oposto — delirium hipoativo é o mais perdido, e a atenção dela precisa ser testada"
+corretaIndex: 2
+desfecho: |
+  Desatenta, flutuando, incapaz de sustentar uma tarefa breve: a "paciente fácil" estava em delirium — na forma hipoativa, a mais perdida justamente porque não incomoda ninguém. Atenção se examina em todo paciente agudo, especialmente no que "só está sonolento"; e atrás do delirium encontrado procura-se a causa no corpo. O silêncio do leito 12 não era estabilidade: era o sintoma.
+:::
+
 ::: resumo
 linhas:
   - "Três síndromes disputam o idoso \"confuso\": delirium (horas a dias, urgência), demência (meses a anos) e depressão (semanas, muitas vezes após perdas)."

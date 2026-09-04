@@ -573,6 +573,20 @@ texto: |
 texto: "O capítulo termina onde começou: contando juntas. Depois de seis tópicos de manobras, epônimos e razões de verossimilhança, o que separa osteoartrite de artrite reumatoide, de gota e de espondiloartrite continua sendo onde as juntas estão, o que se sente sob o dedo, com que ritmo dói e há quanto tempo. Nenhum exame de sangue chega antes dessas quatro respostas — e pedido antes delas, atrapalha."
 :::
 
+::: relampago
+caso: |
+  Homem de 60 anos, diabético, com dor no antepé. Você examina com capricho: inspeção em carga e sem carga, palpação dos metatarsos, amplitudes, fáscia plantar. Tudo mapeado — e o exame parece pronto para o registro.
+pergunta: |
+  Parece — e falta o quê?
+opcoes:
+  - "Nada — o exame articular está completo"
+  - "Radiografia do pé em duas incidências, que fecha qualquer avaliação"
+  - "Os pulsos — pediosa e tibial posterior fecham o exame do pé"
+corretaIndex: 2
+desfecho: |
+  A lista de palpação deste tópico termina, de propósito, nas artérias tibial posterior e pediosa: exame de pé que não termina em pulso é exame incompleto — e, no diabético, é exame perigoso. A perfusão e a sensibilidade protetora deste paciente têm tópicos próprios neste guia, e o pé dele precisa dos três exames: o da articulação, o dos pulsos e o do monofilamento.
+:::
+
 ::: resumo
 linhas:
   - "As queixas do pé são, antes de tudo, biomecânicas — e por isso o exame se faz deitado e em carga, com a pisada e o calçado como dados."

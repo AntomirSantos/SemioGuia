@@ -596,6 +596,20 @@ texto: |
 texto: "Insuficiência arterial se pergunta antes de se procurar. Distância até a dor, o que faz a dor passar, e onde o paciente coloca a perna para dormir — três perguntas que localizam o segmento doente e graduam a isquemia antes de a mão encostar no pé."
 :::
 
+::: relampago
+caso: |
+  A filha conta que o pai, claudicante antigo, "agora dorme sentado na poltrona, com a perna para fora" — deitado, a dor no pé não deixa; pendurada, melhora. Ele acha que descobriu um bom truque.
+pergunta: |
+  Como ler o "truque"?
+opcoes:
+  - "Como sintoma de extrema gravidade — isquemia intensa, com risco de gangrena"
+  - "Como adaptação inofensiva, que pode ser mantida"
+  - "Como sinal de que a doença é venosa, e não arterial — o alívio postural é a prova disso"
+corretaIndex: 0
+desfecho: |
+  A cena é a que Porto descreve: a dor isquêmica de repouso piora deitado, porque a gravidade que ajudava o sangue a descer deixa de existir — e o alívio da perna pendente cobra o preço do edema postural, que agrava a isquemia. Porto classifica a dor de repouso como sintoma de extrema gravidade: outro estágio da doença, não outra intensidade. O "truque" é o membro pedindo socorro.
+:::
+
 ::: resumo
 linhas:
   - "O diagnóstico é clínico — a claudicação intermitente conta a história — e o exame localiza: pulsos, pele, temperatura e úlceras dizem qual segmento e quanto ameaça."

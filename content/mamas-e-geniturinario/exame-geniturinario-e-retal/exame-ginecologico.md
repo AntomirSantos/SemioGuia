@@ -296,6 +296,20 @@ texto: |
 texto: "Porto exige que o exame ginecológico não se restrinja a um simples toque vaginal — e a frase corta nos dois sentidos: o exame sem toque é incompleto, e o toque sem o resto é quase cego. A sequência inteira — inspeção em repouso, esforço, espéculo, toque — é um funil em que cada etapa diz onde a seguinte deve olhar."
 :::
 
+::: relampago
+caso: |
+  Mulher de 67 anos adiou este exame por anos: na última tentativa, "doeu demais e eu desisti". As paredes vaginais, na pós-menopausa, são lisas e secas. O espéculo médio está na bandeja.
+pergunta: |
+  O que a técnica muda para este exame acontecer?
+opcoes:
+  - "Nada — a introdução rápida encurta o desconforto"
+  - "Substituir definitivamente o espéculo pelo toque bimanual, que examina sem instrumento"
+  - "Espéculo de tamanho adequado e lubrificante, indicado justamente na pós-menopausa"
+corretaIndex: 2
+desfecho: |
+  *Semiologia Clínica* indica o lubrificante exatamente para os grupos em que a introdução custa mais — jovens, pós-menopausa, inflamação — e o espéculo existe em tamanhos porque as pacientes existem em tamanhos. Somam-se a técnica de sempre (lâminas em plano oblíquo, vetor de força para a parede posterior, abertura suave) e o contrato explicado antes. O exame que doeu uma vez decide vinte anos de rastreamento; a técnica cuidadosa é o que traz a paciente de volta.
+:::
+
 ::: resumo
 linhas:
   - "O contrato rege o exame: etapas explicadas, consentimento, desnudamento progressivo — e a ordem do menos ao mais íntimo."

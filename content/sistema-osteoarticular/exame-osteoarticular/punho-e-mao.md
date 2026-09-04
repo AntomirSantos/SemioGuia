@@ -592,6 +592,20 @@ texto: |
 texto: "No túnel do carpo, o melhor achado negativo de todo o exame não é produzido pelo médico. É o desenho que o paciente faz da própria mão: quando os sintomas não tomam o polegar, o indicador nem o médio, a razão de verossimilhança cai a 0,2 — melhor do que qualquer manobra provocativa consegue ser em qualquer direção."
 :::
 
+::: relampago
+caso: |
+  "Formiga a mão inteira, doutora — a noite toda." A paciente de 49 anos balança a mão direita ao contar. Túnel do carpo já entrou na sua lista, e o próximo gesto vai valer mais que as duas manobras clássicas.
+pergunta: |
+  Qual é ele?
+opcoes:
+  - "Pedir que ela aponte exatamente quais dedos formigam"
+  - "Fazer Tinel e Phalen em sequência"
+  - "Solicitar eletroneuromiografia dos membros superiores de imediato"
+corretaIndex: 0
+desfecho: |
+  A pergunta que vale não é "dói na palma?", e sim "o polegar, o indicador ou o médio estão dentro da queixa?". O padrão improvável — a queixa que poupa os dedos 1, 2 e 3 — rende razão de verossimilhança 0,2 e reduz bastante a probabilidade de síndrome do túnel do carpo; a "mão inteira", mapeada dedo a dedo, quase sempre se resolve em um território. O mapa custa dez segundos e orienta tudo o que vem depois.
+:::
+
 ::: resumo
 linhas:
   - "Na mão, o achado de beira de leito é o próprio padrão diagnóstico: a deformidade típica estabelece a doença, com ou sem sorologia."

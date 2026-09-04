@@ -478,6 +478,20 @@ texto: |
 texto: "Pulso presente não é sinônimo de artéria boa e pulso ausente não é sinônimo de artéria doente. Um pedioso ausente isolado costuma ser anatomia; dois ausentes, doença; e pulsos cheios em repouso podem sumir depois de trinta passos — que é exatamente o momento em que o paciente sente a dor que o trouxe."
 :::
 
+::: relampago
+caso: |
+  Avaliação pré-operatória de um homem de 28 anos, saudável e assintomático. O pedioso direito não aparece por mais que você procure; o esquerdo é cheio, e os dois tibiais posteriores batem amplos. O interno sugere anotar "doença arterial periférica à direita?".
+pergunta: |
+  O que o achado vale?
+opcoes:
+  - "Muito — um pulso ausente é doença arterial até prova em contrário, em qualquer faixa etária"
+  - "Vale um duplex arterial antes da cirurgia"
+  - "Pouco — um pulso do pé ausente com o outro cheio é, na maioria das vezes, anatomia"
+corretaIndex: 2
+desfecho: |
+  O pedioso não é palpável em 3% a 14% das pessoas saudáveis: quando uma das artérias do pé é congenitamente pequena, a outra cresce e compensa — por isso os dois pulsos só faltam juntos em 0% a 2%. É a ausência dos dois pulsos do pé que rastreia doença vascular; um ausente com o vizinho cheio, num jovem assintomático, é variação anatômica que não merece nem o ponto de interrogação do interno.
+:::
+
 ::: resumo
 linhas:
   - "O exame é a comparação: cada artéria contra a sua homóloga — amplitude menor ou pulso ausente em relação ao outro lado é artéria ocluída até prova em contrário."

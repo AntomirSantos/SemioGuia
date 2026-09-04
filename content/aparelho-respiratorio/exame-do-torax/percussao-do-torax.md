@@ -315,6 +315,20 @@ texto: |
 texto: "Percussão nítida exige unhas curtas. É impossível golpear com a borda ungueal, em obliquidade, sem machucar o dedo plexímetro quando a unha é longa — e o estudante que descobre isso na frente do paciente já perdeu o achado."
 :::
 
+::: relampago
+caso: |
+  Rotina de enfermaria. Ao percutir a face anterior esquerda de um homem com desconforto abdominal vago, o timpanismo que deveria ocupar o espaço de Traube não está lá: o som é maciço.
+pergunta: |
+  O que fazer com esse achado?
+opcoes:
+  - "Nada — o espaço de Traube é naturalmente maciço"
+  - "Tomá-lo como um sinal que sugere esplenomegalia e manda continuar o exame do baço"
+  - "Fechar desde já o diagnóstico de esplenomegalia e encaminhar imediatamente ao especialista"
+corretaIndex: 1
+desfecho: |
+  O Traube normal é timpânico — o único som timpânico do tórax normal, projeção do fundo do estômago. A perda do timpanismo é uma das primeiras manifestações do aumento do baço, mas o desempenho é modesto: razão de verossimilhança 2,1, uma elevação apenas moderada da probabilidade. É um sinal que sugere, não que decide — quem decide é o restante do exame que ele manda fazer.
+:::
+
 ::: resumo
 linhas:
   - "Percutir é perguntar se um território tem mais ou menos ar que o simétrico — sempre comparativa, com golpes de mesma intensidade dos dois lados."

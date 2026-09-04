@@ -363,6 +363,20 @@ texto: |
 texto: "O exame da criança termina onde começou o do guia inteiro: na ideia de que a normalidade tem calendário. A fontanela que se fecha, o ictus que migra, o testículo que desce, a segunda bulha que troca de foco, o broto que vira mama — quase nada no exame pediátrico é um ponto fixo; quase tudo é uma trajetória com hora certa. Examinar uma criança é conferir se o corpo está no horário."
 :::
 
+::: relampago
+caso: |
+  O interno palpa o precórdio de um lactente de 8 meses e franze a testa: "o ictus está no 4º espaço, desviado para cima — será cardiomegalia?". Ele procurou no 5º espaço, onde sempre encontrou nos adultos.
+pergunta: |
+  O achado é doença?
+opcoes:
+  - "Provavelmente sim — um ictus fora do 5º espaço intercostal pede ecocardiograma precoce"
+  - "Impossível saber sem radiografia de tórax"
+  - "Provavelmente não — no lactente, o ictus mora no 4º espaço, na linha hemiclavicular"
+corretaIndex: 2
+desfecho: |
+  Esperar do precórdio infantil a geografia do adulto é um dos erros da lista deste tópico: no lactente, o ictus normal está no 4º espaço intercostal, na linha hemiclavicular — procurá-lo com o mapa do adulto fabrica cardiomegalias. O exame da criança muda de forma com a idade, e as referências anatômicas mudam junto; o "desvio" do interno era só o coração no endereço certo para os 8 meses.
+:::
+
 ::: resumo
 linhas:
   - "O recém-nascido tem exame quase próprio: triagem de malformações, quadril testado e reflexos que só ele tem."

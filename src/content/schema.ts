@@ -37,6 +37,21 @@ export const blocoSchema = z.discriminatedUnion('tipo', [
   z.object({ tipo: z.literal('cena'), texto: z.string().min(1), ...nivelCommon }),
   z.object({ tipo: z.literal('pense'), pergunta: z.string().min(1), resposta: z.string().min(1), ...nivelCommon }),
   z.object({ tipo: z.literal('resumo'), linhas: z.array(z.string().min(1)).length(3), ...nivelCommon }),
+  // Caso-relâmpago: parágrafo-caso com uma decisão única ao fim do tópico —
+  // a ponte entre a leitura e os casos clínicos ramificados.
+  z
+    .object({
+      tipo: z.literal('relampago'),
+      caso: z.string().min(1),
+      pergunta: z.string().min(1),
+      opcoes: z.array(z.string().min(1)).min(2).max(4),
+      corretaIndex: z.number().int().nonnegative(),
+      desfecho: z.string().min(1),
+      ...nivelCommon,
+    })
+    .refine((b) => b.corretaIndex < b.opcoes.length, {
+      message: 'corretaIndex fora do intervalo de opcoes',
+    }),
   z.object({ tipo: z.literal('quiz'), perguntas: z.array(quizPerguntaSchema).min(1), ...nivelCommon }),
   z.object({ tipo: z.literal('secao'), titulo: z.string().min(1), ...nivelCommon }),
   z.object({ tipo: z.literal('entendimento'), titulo: z.string().optional(), texto: z.string().min(1), ...nivelCommon }),

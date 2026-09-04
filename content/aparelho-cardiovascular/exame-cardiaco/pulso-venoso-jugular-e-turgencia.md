@@ -423,6 +423,20 @@ texto: |
   6. **Transformar o enchimento capilar em veredito.** Sozinho e sem comparação, ele não sustenta conclusão sobre perfusão.
 :::
 
+::: relampago
+caso: |
+  Você posiciona o paciente a 45 graus, como decorou, e não vê coluna venosa nenhuma no pescoço. O colega ao lado sugere registrar "jugulares não avaliáveis" e seguir o exame.
+pergunta: |
+  O que fazer antes de desistir?
+opcoes:
+  - "Registrar como sugerido — sem coluna visível a 45°, não há o que medir"
+  - "Ajustar a cabeceira — abaixá-la até o topo da coluna venosa aparecer"
+  - "Pedir ao paciente que faça força abdominal para encher as jugulares"
+corretaIndex: 1
+desfecho: |
+  Com a cabeceira quase horizontal, o topo da coluna apareceu — e a 1 cm do ângulo esternal: pressão venosa normal. A posição correta não é um ângulo fixo, é aquela em que o topo da coluna fica visível: quase horizontal quando a pressão é normal, em torno de 45° quando há hipertensão venosa. Quem se prende ao "exame é a 45°" perde exatamente os pescoços normais.
+:::
+
 ::: resumo
 linhas:
   - "A jugular interna direita é o manômetro do coração direito: turgência mede quanto (a altura da coluna), pulso venoso mostra como (o formato das ondas)."

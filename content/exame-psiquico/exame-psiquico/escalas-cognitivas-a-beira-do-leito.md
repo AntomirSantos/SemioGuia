@@ -423,6 +423,20 @@ texto: |
 texto: "Uma leitura deste guia sobre o desenho do Mini-Cog — não uma frase das fontes: o relógio, entre o registro e a evocação das três palavras, não é só um teste — funciona como distrator que impede o ensaio mental, e o paciente que evoca as três palavras depois de desenhá-lo evocou de verdade. O miniexame tem a mesma arquitetura: a subtração seriada separa a retenção da evocação."
 :::
 
+::: relampago
+caso: |
+  Miniexame em andamento. Na evocação das três palavras, o senhor hesita — e a filha, aflita, sopra: "começa com 'ca', pai...". Ele acerta. No cálculo, ela quer "só ajudar mais uma vez".
+pergunta: |
+  O que fazer?
+opcoes:
+  - "Deixar — o objetivo é o paciente acertar"
+  - "Anotar os itens ajudados como corretos, acrescentando uma observação sobre a ajuda"
+  - "Interromper as dicas com gentileza: repetir instrução pode; sugerir resposta, não"
+corretaIndex: 2
+desfecho: |
+  Ajudar o paciente durante o teste é um dos erros da lista deste tópico: repetir a instrução é permitido, mas a dica destrói a padronização que sustenta os cortes — o escore deixa de significar qualquer coisa. E a dificuldade observada é dado, não constrangimento a evitar: a hesitação que a filha tentou encobrir era exatamente a informação que o teste veio buscar.
+:::
+
 ::: resumo
 linhas:
   - "Relógio, Mini-Cog e miniexame diagnosticam demência; o CAM diagnostica delirium — testes breves, validados e de beira de leito."

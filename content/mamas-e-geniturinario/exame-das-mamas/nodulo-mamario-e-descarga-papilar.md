@@ -400,6 +400,20 @@ texto: |
 texto: "O derrame papilar tem uma aritmética que cabe num bolso: quanto mais ductos, mais lados e mais provocação, mais benigno; quanto mais único, mais espontâneo e mais claro ou mais vermelho o líquido, mais atenção. Bilateral, multiductal e provocado tranquiliza; unilateral, uniductal, espontâneo — sanguinolento ou em água de rocha — investiga-se sempre."
 :::
 
+::: relampago
+caso: |
+  "Toda noite eu aperto para ver se sai — e sai sempre um líquido amarelado, dos dois lados, por vários furinhos." A paciente de 38 anos faz a verificação desde que uma amiga adoeceu, e chega convencida de que o líquido é a doença.
+pergunta: |
+  O que os quatro eixos dizem desse derrame?
+opcoes:
+  - "Que é patológico — qualquer descarga papilar fora da lactação exige investigação completa, sem exceção"
+  - "Que é fisiológico — provocado, bilateral e multiductal — e que a orientação é parar de manipular"
+  - "Que só a citologia do líquido pode decidir"
+corretaIndex: 1
+desfecho: |
+  Provocado pela manipulação, bilateral, multiductal e amarelado: o perfil fisiológico completo — o achado clássico da paciente que espreme para verificar. A consequência vem da própria definição: orientar a não manipular, porque é a manipulação que o produz. O derrame que preocupa é o oposto em cada eixo — espontâneo, unilateral, uniductal, em água de rocha, seroso ou sanguinolento. O alívio dela começa na explicação desses eixos.
+:::
+
 ::: resumo
 linhas:
   - "O nódulo se interroga antes de se tocar — quando, quantos, velocidade, ciclo — e se descreve por inteiro: a descrição é a régua da próxima consulta."

@@ -409,6 +409,20 @@ texto: |
 texto: "Diante de um sopro, silencie-o na sua cabeça e vá atrás das bulhas. O ouvido corre para o som mais alto, e é assim que se perdem a bulha fraca, o desdobramento discreto e o estalido — achados que muitas vezes decidem mais que o próprio sopro."
 :::
 
+::: relampago
+caso: |
+  Mulher de 62 anos com dispneia aos esforços. Você ausculta os quatro focos em decúbito dorsal, com calma: bulhas normofonéticas, nenhum ruído extra. A ausculta parece encerrada.
+pergunta: |
+  Parece — e está?
+opcoes:
+  - "Está: os quatro focos clássicos em decúbito dorsal cobrem toda a ausculta cardíaca"
+  - "Falta apenas repetir os focos com o paciente em pé"
+  - "Falta auscultar em decúbito lateral esquerdo e sentada, inclinada para a frente"
+corretaIndex: 2
+desfecho: |
+  No decúbito lateral esquerdo, com a campânula, apareceu o que o dorsal escondia. Auscultar em uma só posição é erro clássico: sem o lateral esquerdo perdem-se B3, B4 e o ruflar da estenose mitral; sem a posição sentada com o tórax inclinado perdem-se os sopros da base, o atrito pericárdico e as bulhas dos hipofonéticos. Três posições, sempre.
+:::
+
 ::: resumo
 linhas:
   - "Tudo começa em separar B1 de B2 — carótida sob os dedos, TUM-TA no ouvido; cada bulha se julga no seu foco, e desdobramento de B2 só se estuda na área pulmonar."

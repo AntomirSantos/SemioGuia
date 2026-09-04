@@ -447,6 +447,20 @@ texto: |
 texto: "O exame osteoarticular tem duas perguntas que quase nunca são feitas e quase sempre decidem: quantas juntas, e em que ordem elas entraram. Um paciente com quatro juntas doloridas que se somaram ao longo de meses e um paciente com quatro juntas que doeram uma de cada vez e passaram têm o mesmo exame de hoje e doenças diferentes."
 :::
 
+::: relampago
+caso: |
+  Adolescente com artrite: semana passada foi o joelho direito, que melhorou sozinho; anteontem, o tornozelo esquerdo; hoje, o punho. O interno resume no prontuário: "poliartrite em investigação".
+pergunta: |
+  O que está faltando nesse registro?
+opcoes:
+  - "O número exato de articulações acometidas até agora, com o lado de cada uma"
+  - "A ordem de instalação — este padrão é migratório, e isso muda as hipóteses"
+  - "Nada — poliartrite descreve o quadro adequadamente"
+corretaIndex: 1
+desfecho: |
+  Aditivo é o padrão em que as novas juntas se somam às que já doíam; migratório é o que troca de lugar — e a dor que muda de junta sem deixar sequela é o exemplo clássico da febre reumática, resumida na frase de Bouillaud: a doença lambe as articulações e morde o coração. "Poliartrite" conta quantas; o padrão conta qual — e aqui é o padrão que manda auscultar o precórdio.
+:::
+
 ::: resumo
 linhas:
   - "O vocabulário vem antes do gesto: artralgia ou artrite, quantas articulações, em que ordem, com que ritmo — são essas palavras que separam as famílias de doença."

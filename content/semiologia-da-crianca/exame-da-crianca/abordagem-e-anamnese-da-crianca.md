@@ -257,6 +257,20 @@ texto: |
 texto: "A Semiologia Médica ensina que, na dúvida sobre a genitália do recém-nascido, não se declara o sexo até a avaliação completa. É talvez o exemplo mais nítido de uma habilidade que atravessa toda a semiologia pediátrica: saber quando a resposta correta da consulta é ainda não responder."
 :::
 
+::: relampago
+caso: |
+  Consulta por febre de um menino de 2 anos. Falta a otoscopia, e a mãe interrompe: "esse exame do ouvido não, doutora — ele chora muito, e hoje ele está tão calminho".
+pergunta: |
+  Como responder ao pedido?
+opcoes:
+  - "Atender — o vínculo com a família vale mais que um item do exame"
+  - "Adiar a otoscopia para o fim, anunciá-la — e fazê-la"
+  - "Fazer agora mesmo, antes que ele comece a chorar"
+corretaIndex: 1
+desfecho: |
+  Os procedimentos mais temidos ficam para o fim da consulta e são informados previamente — mas não podem ser suprimidos por vontade dos pais nem da criança. Adiar o desconforto é técnica; pular etapa do exame para evitar o choro, não — numa febre sem foco, o ouvido é exatamente onde a resposta pode estar. A ordem se curva ao choro; a completude do exame, nunca.
+:::
+
 ::: resumo
 linhas:
   - "O paciente não fala: a história chega por um tradutor que às vezes traduz mal — e observar a relação mãe-criança já é exame."

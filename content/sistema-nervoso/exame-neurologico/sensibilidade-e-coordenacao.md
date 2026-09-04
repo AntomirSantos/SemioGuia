@@ -610,6 +610,20 @@ texto: |
 texto: "Duas perguntas resolvem quase toda a topografia sensitiva: a perda é dos dois lados, e ela envolve a face? Dois lados sem face é polineuropatia ou medula; um lado com face é tálamo ou hemisfério; e face de um lado com corpo do outro é tronco encefálico."
 :::
 
+::: relampago
+caso: |
+  Exame neurológico de rotina em um paciente internado por outro motivo, sem nenhuma queixa sensitiva. O interno prepara algodão, alfinete, tubos de água quente e fria e diapasão: "vou testar tudo, para não perder nada".
+pergunta: |
+  É o exame certo para este paciente?
+opcoes:
+  - "Não — sem queixa sensitiva, a triagem se faz com o tato nos quatro membros"
+  - "Sim — o exame de sensibilidade é sempre completo"
+  - "Não — sem queixa, a sensibilidade simplesmente não se examina em paciente internado"
+corretaIndex: 0
+desfecho: |
+  Antes de encostar o algodão, decida a pergunta. Triagem sem queixa: só o tato, nos quatro membros. Queixa em um membro: tato e dor. Queixa extensa ou no tronco: todas as modalidades, atrás da dissociação que denuncia a medula. O exame completo no assintomático não é rigor — é tempo gasto onde a probabilidade não está, e é exatamente o hábito que este tópico veio corrigir.
+:::
+
 ::: resumo
 linhas:
   - "Sensibilidade é relato: decida antes o que quer saber — triagem só com tato; queixa em um membro, tato e dor; queixa extensa, todas as modalidades atrás da dissociação."

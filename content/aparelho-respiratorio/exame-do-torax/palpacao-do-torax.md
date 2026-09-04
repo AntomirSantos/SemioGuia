@@ -366,6 +366,20 @@ texto: |
 texto: "Frêmito e ressonância vocal medem a mesma coisa por sentidos diferentes: um pela mão, outro pela orelha. Por isso costumam andar juntos — e por isso a ausculta da voz acrescenta pouco onde o frêmito já respondeu. A exceção conhecida é o derrame pleural: sobre a área do líquido o frêmito cai e a voz também se apaga, mas na estreita faixa de transição, no limite superior do derrame, a voz pode reaparecer com timbre anasalado."
 :::
 
+::: relampago
+caso: |
+  Para ganhar tempo, o interno espalma uma mão em cada hemitórax, pede o "trinta e três" uma única vez e compara as duas palmas simultaneamente. "Frêmito igual dos dois lados", conclui.
+pergunta: |
+  Qual é o problema da técnica?
+opcoes:
+  - "As duas palmas não têm a mesma sensibilidade — usa-se uma só mão, alternando os lados"
+  - "Nenhum — a comparação simultânea é até mais fiel"
+  - "Apenas a palavra escolhida: o correto seria pedir um sussurro em vez do \"trinta e três\""
+corretaIndex: 0
+desfecho: |
+  A sensibilidade das duas palmas não é igual, e a diferença que o interno atribuiria ao paciente pode ser da própria mão. O frêmito se pesquisa sempre com a mesma mão, percorrendo pontos homólogos de um lado e do outro — lembrando que senti-lo mais forte à direita é o normal, porque o brônquio principal direito é mais curto.
+:::
+
 ::: resumo
 linhas:
   - "A palpação do tórax vive de comparação: parede, expansibilidade e frêmito só significam algo contra o ponto homólogo do outro lado — sempre com a mesma mão."

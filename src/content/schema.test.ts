@@ -97,3 +97,26 @@ test('resumo exige exatamente três linhas', () => {
   expect(() => blocoSchema.parse({ tipo: 'resumo', linhas: ['Um.', 'Dois.'] })).toThrow();
   expect(() => blocoSchema.parse({ tipo: 'resumo', linhas: ['Um.', 'Dois.', 'Três.', 'Quatro.'] })).toThrow();
 });
+
+test('relampago exige decisão única válida', () => {
+  expect(
+    blocoSchema.parse({
+      tipo: 'relampago',
+      caso: 'Plantão: paciente com dor torácica...',
+      pergunta: 'Qual é o próximo passo?',
+      opcoes: ['A', 'B', 'C'],
+      corretaIndex: 1,
+      desfecho: 'A opção B evita o erro clássico.',
+    }),
+  ).toMatchObject({ tipo: 'relampago', corretaIndex: 1 });
+  expect(() =>
+    blocoSchema.parse({
+      tipo: 'relampago',
+      caso: 'x',
+      pergunta: 'y',
+      opcoes: ['A', 'B'],
+      corretaIndex: 2,
+      desfecho: 'z',
+    }),
+  ).toThrow();
+});

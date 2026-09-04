@@ -488,6 +488,20 @@ texto: |
 texto: "Diante de uma assimetria da face, faça três perguntas antes de nomeá-la: ela existe em repouso ou só no movimento? Ela é do lado direito ou do esquerdo — e comparada com o quê? E há alguma tumefação que a explique, como uma parótida crescida ou um abscesso dentário? Assimetria sem essas três respostas é observação, não achado."
 :::
 
+::: relampago
+caso: |
+  A esposa acha que "a boca dele entortou um pouco" desde ontem. Na sua frente, o paciente sorri educadamente: você quase não vê diferença entre os lados, e ele diz que está tudo bem.
+pergunta: |
+  Como decidir se há assimetria?
+opcoes:
+  - "Concluir simetria pelo sorriso espontâneo — se fosse paralisia facial, seria óbvio à inspeção"
+  - "Pedir os movimentos com força: mostrar os dentes, cerrar os olhos, enrugar a testa"
+  - "Encaminhar para eletroneuromiografia e aguardar o laudo"
+corretaIndex: 1
+desfecho: |
+  Ao mostrar os dentes com força, a rima desviou. A assimetria se acentua quando o paciente movimenta com esforço — pedir a mímica sem pedir força é um dos erros clássicos deste segmento, porque o sorriso educado esconde déficit. E a testa, no mesmo gesto, já começa a responder a próxima pergunta: enrugando dos dois lados, a paralisia poupa a metade superior e aponta para lesão central.
+:::
+
 ::: resumo
 linhas:
   - "Sequência fixa: forma e tamanho do crânio, posição e movimentos, superfície e couro cabeludo, face — e depois seios da face e temporomandibular, que só o tato alcança."

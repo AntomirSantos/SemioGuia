@@ -549,6 +549,20 @@ texto: |
 texto: "Na perna aguda, o achado que mais vale é o que menos parece exame: a fita métrica. Todos os sinais clássicos da trombose — o cordão, o Homans, o eritema, a dor à palpação — perderam o valor nos estudos; a diferença medida entre as duas panturrilhas foi o único que sobrou de pé."
 :::
 
+::: relampago
+caso: |
+  Perna dolorida no quinto dia de internação. "Acho que a esquerda está um pouco maior", diz o colega, olhando as duas panturrilhas da cabeceira, "mas pode ser impressão".
+pergunta: |
+  Como sair do "pode ser impressão"?
+opcoes:
+  - "Pedir que outro colega olhe também, para desempatar"
+  - "Medir os dois perímetros com fita, no mesmo nível, e anotar os dois valores"
+  - "Considerar o edema confirmado — na dúvida, é mais seguro superestimar do que perder"
+corretaIndex: 1
+desfecho: |
+  A assimetria de perímetro é o único achado deste tópico que produz um número. A fita passa no mesmo nível dos dois lados, com a tuberosidade da tíbia como referência, e os dois valores vão para o prontuário — não a diferença, que o próximo examinador não reproduz sem saber onde a fita passou. Meça, não estime: é a medida que entra no escore de Wells e que a reavaliação de amanhã vai poder comparar.
+:::
+
 ::: resumo
 linhas:
   - "Duas doenças no mesmo membro: a venosa crônica, lenta e visível (variz não é sinônimo de insuficiência), e a trombose profunda, aguda e com pressa."

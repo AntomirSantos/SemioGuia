@@ -284,6 +284,20 @@ texto: |
 texto: "Porto lembra que, para condições especiais como o recém-nascido, existe balança própria — e a frase vale como síntese do tópico inteiro: na criança, quase nenhum instrumento novo é inventado; quase todos são recalibrados. O que muda de verdade é a régua de leitura, que agora tem idade."
 :::
 
+::: relampago
+caso: |
+  Recém-nascido internado com suspeita de sepse. Na passagem de plantão, a frequência cardíaca de 100 bpm é lida como o único dado tranquilizador da noite: "pelo menos o coração está ótimo, bem normal".
+pergunta: |
+  Está?
+opcoes:
+  - "Não — no recém-nascido, 100 bpm pode ser bradicardia relativa; num séptico, alarme"
+  - "Está — a faixa de 60 a 100 bpm é a normal da frequência cardíaca em qualquer idade"
+  - "Está, desde que o ritmo seja regular"
+corretaIndex: 0
+desfecho: |
+  Julgar o sinal vital da criança com a régua do adulto é o primeiro erro da lista deste tópico. Os 150 bpm do lactente são fisiologia — e os 100 bpm "normais" podem ser bradicardia relativa num recém-nascido séptico. A faixa etária vem antes do número: o dado "tranquilizador" da passagem de plantão era, lido na régua certa, mais um motivo de preocupação.
+:::
+
 ::: resumo
 linhas:
   - "O crescimento é o quinto sinal vital da criança: plote peso e estatura na curva a cada consulta e leia em percentil ou escore Z — a linha vale mais que o ponto."

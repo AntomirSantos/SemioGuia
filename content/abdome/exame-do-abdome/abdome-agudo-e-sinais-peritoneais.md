@@ -491,6 +491,20 @@ texto: |
 texto: "Quando o exame do abdome é francamente doloroso e ainda assim ambíguo, a informação que falta raramente vem de uma manobra a mais. Vem do relógio: reexamine o mesmo paciente daqui a algumas horas, com a mesma técnica, e compare. A evolução do exame é um dado, e costuma ser o dado decisivo."
 :::
 
+::: relampago
+caso: |
+  Dor abdominal aguda no box 4. O interno anuncia o plano: "vou fazer a descompressão brusca nos quatro quadrantes, para mapear a peritonite".
+pergunta: |
+  É o melhor plano?
+opcoes:
+  - "Sim — a descompressão brusca é o padrão-ouro consagrado do exame peritoneal nos quatro quadrantes"
+  - "Sim, desde que comece pelo quadrante que dói"
+  - "Não — rigidez, defesa e percussão dolorosa informam doendo menos; a descompressão fica reservada"
+corretaIndex: 2
+desfecho: |
+  Fazer a descompressão brusca como item de rotina é o primeiro erro da lista deste tópico: ela dói, acrescenta pouco ao que a palpação suave já mostrou e é superada por rigidez, percussão dolorosa e defesa. Reserve-a para quando o resultado ainda puder mudar a conduta — e lembre que o abdome agudo se examina mais de uma vez, não se esgota numa manobra.
+:::
+
 ::: resumo
 linhas:
   - "O exame do abdome agudo decide destinos: casa quando a probabilidade de peritonite é baixíssima, centro cirúrgico quando altíssima, imagem para o meio equívoco."

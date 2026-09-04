@@ -614,6 +614,20 @@ texto: |
 texto: "Boa parte da ectoscopia acontece enquanto você ainda está fazendo a anamnese — e é justamente por isso que ela se perde. Reserve dez segundos de silêncio, antes da primeira pergunta, só para olhar: postura, respiração, cor, expressão, o que o paciente faz com as mãos. Nenhum outro momento do encontro devolve tanto por tão pouco."
 :::
 
+::: relampago
+caso: |
+  Enfermaria, visita da manhã. O paciente do leito 9 está sentado na beira da cama, tronco inclinado para a frente, apoiado num travesseiro dobrado. O interno ao seu lado já escreve: "atitude ortopneica — sugere causa cardíaca".
+pergunta: |
+  O registro está pronto?
+opcoes:
+  - "Não — primeiro perguntar por que ele está naquela posição"
+  - "Sim — a postura é típica e fala por si"
+  - "Quase — basta acrescentar a frequência respiratória ao lado"
+corretaIndex: 0
+desfecho: |
+  Ele tinha dobrado o travesseiro para mexer no celular. Só contam as atitudes involuntárias e as que aliviam sintoma — dar valor diagnóstico a uma atitude de hábito é um dos erros clássicos da ectoscopia. A pergunta custa cinco segundos e separa o achado do acaso.
+:::
+
 ::: resumo
 linhas:
   - "A ectoscopia responde \"como está esta pessoa, vista inteira?\" — e começa no instante em que o paciente entra, antes de qualquer manobra."

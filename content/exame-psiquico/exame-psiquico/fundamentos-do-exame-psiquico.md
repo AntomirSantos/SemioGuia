@@ -349,6 +349,20 @@ texto: |
 texto: "Porto manda evitar as perguntas diretas de orientação e pedir, em vez disso, que o paciente conte de onde veio e como chegou ao exame. A pergunta indireta testa três funções de uma vez — orientação, memória e organização do relato — e não humilha ninguém: quem está orientado responde sem notar que foi testado."
 :::
 
+::: relampago
+caso: |
+  Quarta consulta do mês com o mesmo paciente, e você se percebe irritado antes mesmo de ele terminar a primeira frase — uma impaciência que não sente com os outros pacientes da agenda.
+pergunta: |
+  O que fazer com esse sentimento?
+opcoes:
+  - "Suprimi-lo — profissional de saúde não se deixa afetar"
+  - "Notá-lo e tratá-lo como dado semiológico do encontro"
+  - "Encaminhar o paciente a outro colega, para preservar a relação"
+corretaIndex: 1
+desfecho: |
+  Examinar o paciente e ignorar a si mesmo é um dos erros clássicos deste capítulo: os sentimentos que o paciente desperta são dado semiológico e fator de erro ao mesmo tempo — notados, informam; ignorados, conduzem. A irritação percebida vira pergunta clínica: o que, no modo de ser deste paciente, produz esse efeito em quem o atende — e o que isso diz do sofrimento dele?
+:::
+
 ::: resumo
 linhas:
   - "Avaliar o psiquismo é tarefa de todo médico — sofrimento emocional somatizado é rotina do consultório, não exceção do psiquiatra."

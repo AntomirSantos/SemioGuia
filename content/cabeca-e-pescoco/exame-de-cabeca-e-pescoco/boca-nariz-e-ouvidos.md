@@ -562,6 +562,20 @@ texto: |
 texto: "Duas perguntas transformam a otalgia em diagnóstico antes de qualquer instrumento: dói ao tracionar o pavilhão e comprimir o trago? Dói ao palpar a mastoide? A primeira aponta para a orelha externa; a segunda, para a hipótese de mastoidite. Se nenhuma das duas dói, considere seriamente a articulação temporomandibular."
 :::
 
+::: relampago
+caso: |
+  Senhora de 80 anos, emagrecimento a esclarecer. Chega a hora de examinar a boca, e ela abre um sorriso completo — de prótese total, bem adaptada. A lanterna já está na sua mão.
+pergunta: |
+  Como proceder?
+opcoes:
+  - "Examinar como está — a prótese bem adaptada não atrapalha a inspeção"
+  - "Adiar a avaliação da boca para uma consulta odontológica"
+  - "Pedir que ela retire a prótese antes do exame"
+corretaIndex: 2
+desfecho: |
+  Sob a prótese estava a úlcera que a inspeção por cima jamais veria. Examinar a boca com a prótese no lugar é o primeiro erro da lista deste tópico: úlcera traumática, candidíase e reabsorção da reborda alveolar ficam justamente embaixo dela. Num quadro de emagrecimento, a boca é território de interesse — mas só a boca inteira, e ela começa quando a prótese sai.
+:::
+
 ::: resumo
 linhas:
   - "Sem boa iluminação não há exame da boca — e a ordem fixa (lábios → mucosas → palatos → língua → assoalho → gengivas → orofaringe) é o que garante não pular nada."

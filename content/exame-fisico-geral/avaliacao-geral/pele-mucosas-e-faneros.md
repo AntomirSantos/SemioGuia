@@ -615,6 +615,20 @@ texto: |
   6. **Confiar na graduação em cruzes da icterícia.** A correlação com a bilirrubina sérica e a concordância entre observadores são baixas; o que muda a conduta inicial é o sinal estar presente ou ausente.
 :::
 
+::: relampago
+caso: |
+  Fim de tarde na enfermaria, luz amarelada. A filha do paciente do leito 5 acha que "ele amarelou de ontem para hoje". O rosto, sob aquela luz, não ajuda a decidir.
+pergunta: |
+  Como pesquisar a icterícia?
+opcoes:
+  - "Concluir pela cor do rosto mesmo — a pele exposta é o melhor sítio para a icterícia"
+  - "Aguardar o resultado da bilirrubina antes de opinar"
+  - "Buscar luz adequada e examinar esclera, freio da língua e palato duro"
+corretaIndex: 2
+desfecho: |
+  Perto da janela, a esclera tirou a dúvida. A icterícia se pesquisa nos sítios certos — esclera e conjuntiva, freio da língua, palato duro — e sob luz natural ou fluorescente incidindo por trás do examinador; foi a luz inadequada que criou a dúvida. O laboratório confirma depois; o exame decide agora o quanto investigar.
+:::
+
 ::: resumo
 linhas:
   - "O exame da pele se organiza em três perguntas — que cor, que lesões, o que dizem os anexos — e cobre o corpo todo, não só a área da queixa."

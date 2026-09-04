@@ -281,6 +281,20 @@ texto: |
 texto: "Se o interrogatório sintomatológico está rendendo muito, desconfie da HDA. Um interrogatório cheio de achados novos costuma ser o sintoma de uma história da doença atual que não foi até o fim."
 :::
 
+::: relampago
+caso: |
+  A HDA levou meia hora: dor torácica aos esforços, caracterizada com tudo o que o esquema pede. Você chega ao interrogatório sintomatológico, e o próximo item da varredura é justamente o aparelho cardiovascular.
+pergunta: |
+  O que fazer com esse sistema na varredura?
+opcoes:
+  - "Repetir as perguntas sobre a dor, para conferir a consistência do relato"
+  - "Pular o aparelho cardiovascular, que a HDA já cobriu"
+  - "Varrer o que ficou de fora do sistema, sem duplicar a HDA"
+corretaIndex: 2
+desfecho: |
+  O interrogatório existe para o que ficou de fora: sintomas já caracterizados na HDA não voltam a ele — duplicá-la é um dos erros clássicos —, mas o sistema não se pula, porque a dor bem descrita não responde pelo que o paciente não mencionou. Foi numa varredura assim, de rotina, que o caso de Porto encontrou a doença principal num sistema que ninguém tinha motivo para investigar.
+:::
+
 ::: resumo
 linhas:
   - "O interrogatório varre o que ficou fora do fio da HDA: anuncie a revisão, siga sempre a mesma ordem e abra cada sistema com uma pergunta geral."

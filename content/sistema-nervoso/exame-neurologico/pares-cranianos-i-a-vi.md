@@ -760,6 +760,20 @@ texto: |
 texto: "Diante de uma pupila diferente da outra, três perguntas ordenam tudo: as duas reagem à luz? A diferença é maior no claro ou no escuro? E há ptose — completa, com olho desviado para fora e para baixo, ou parcial, com miose do mesmo lado? A primeira e a segunda estão no tópico de olhos; a terceira decide entre o terceiro nervo e o simpático cervical."
 :::
 
+::: relampago
+caso: |
+  Mulher de 44 anos, enxaquecosa de longa data, conta que "a dor mudou": agora é diária, pior de manhã, diferente das crises de sempre. O plantão está cheio e a receita de sempre resolveria a fila.
+pergunta: |
+  O que este capítulo obriga a fazer antes da receita?
+opcoes:
+  - "Reforçar o analgésico, orientar um diário de cefaleia e retorno apenas se piorar"
+  - "Examinar o fundo de olho à procura de papiledema"
+  - "Solicitar eletroencefalograma"
+corretaIndex: 1
+desfecho: |
+  O oftalmoscópio mostrou papilas de bordas borradas. Papiledema em paciente com cefaleia que mudou de caráter é um achado que não espera — a suspeita de hipertensão intracraniana muda a ordem do exame e a urgência da investigação. Nenhum achado de fundo de olho isolado decide conduta, mas este muda a noite: a "enxaqueca de sempre" deixou de ser um diagnóstico e virou uma hipótese a rever.
+:::
+
 ::: resumo
 linhas:
   - "Os pares cranianos são o mapa do tronco encefálico à mão: doze nervos, três andares possíveis de lesão — nervo, núcleo ou via supranuclear."

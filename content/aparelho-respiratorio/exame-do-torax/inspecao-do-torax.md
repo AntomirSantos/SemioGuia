@@ -464,6 +464,20 @@ texto: |
 texto: "Antes de auscultar, decida de que lado está a doença. Um hemitórax que se move menos já entrega essa resposta — e transforma a ausculta de uma varredura em uma pergunta dirigida."
 :::
 
+::: relampago
+caso: |
+  Interconsulta por dispneia. Você procura movimento abdominal paradoxal com o paciente sentado na beira da maca: nada. O colega já quer registrar "sem respiração paradoxal" e riscar a hipótese.
+pergunta: |
+  O registro está certo?
+opcoes:
+  - "Está — a posição do paciente não interfere no sinal"
+  - "Está — sentado é até melhor, porque a gravidade tensiona o diafragma"
+  - "Não — o sinal deve ser procurado em decúbito dorsal"
+corretaIndex: 2
+desfecho: |
+  Deitado, o abdome dele afundava a cada inspiração. O movimento paradoxal depende do peso das vísceras sobre o diafragma e costuma sumir na posição ereta — procurá-lo com o paciente sentado é um dos erros clássicos da inspeção. Negar um sinal exige tê-lo procurado na posição em que ele aparece.
+:::
+
 ::: resumo
 linhas:
   - "Quatro perguntas: que forma tem a caixa, como a pessoa respira, quanto custa respirar, e o que o corpo denuncia de doença crônica — e o dorso faz parte da inspeção."

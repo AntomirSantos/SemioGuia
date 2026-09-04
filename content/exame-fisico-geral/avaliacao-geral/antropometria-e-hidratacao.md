@@ -496,6 +496,20 @@ texto: |
 texto: "Diante de um paciente com sinais duvidosos de desidratação, a pergunta mais produtiva raramente é sobre a pele. É: quanto o senhor pesava na última consulta, e quantas vezes urinou desde ontem? O peso gradua a perda; a diurese denuncia a resposta do rim."
 :::
 
+::: relampago
+caso: |
+  Check-up de um homem de 45 anos. IMC de 24,8 kg/m² — "peso normal", comemora ele. Mas a fita métrica diz outra coisa: 1,70 m de altura e 98 cm de circunferência da cintura.
+pergunta: |
+  O que dizer a ele?
+opcoes:
+  - "Que o IMC normal encerra a avaliação nutricional"
+  - "Que a cintura maior que a metade da altura indica risco cardiovascular, apesar do IMC"
+  - "Que só um exame de composição corporal, como a bioimpedância, pode desempatar os dois números"
+corretaIndex: 1
+desfecho: |
+  A relação cintura-estatura dele é 0,58 — acima do corte de 0,5 que Porto adota para todas as idades e ambos os sexos. O IMC não diz onde a gordura está, e é a localização que mais importa para o risco cardiovascular; a relação cintura-estatura prediz mortalidade com mais sensibilidade que o IMC. Na formulação prática: a cintura deve medir menos que metade da altura — e a dele não mede.
+:::
+
 ::: resumo
 linhas:
   - "Antropometria é comparação: o peso de hoje vale pelo que diz contra o peso de três meses atrás, e o IMC não decide nada sem musculatura, panículo e história."

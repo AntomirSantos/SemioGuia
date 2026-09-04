@@ -313,6 +313,20 @@ texto: |
   Lembre que a sensibilidade e a especificidade dessa manobra são baixas.
 :::
 
+::: relampago
+caso: |
+  Dona Irene, 81 anos, caiu duas vezes no último mês — sempre pouco depois de se levantar da cama. No consultório, sentada, a PA é 128 × 76 mmHg. "Normal, graças a Deus."
+pergunta: |
+  A aferição terminou?
+opcoes:
+  - "Sim — PA normal encerra a investigação das quedas"
+  - "Não — falta medir também deitada e em pé, aos 3 minutos"
+  - "Não — falta apenas repetir a medida sentada, no outro braço"
+corretaIndex: 1
+desfecho: |
+  Em pé, a sistólica caiu 26 mmHg. No idoso, afere-se em decúbito, sentado e em pé justamente pela frequência de hipotensão ortostática: queda maior que 20 mmHg na PAS ou 10 mmHg na PAD após 3 minutos em pé caracteriza hipotensão postural — uma causa tratável de queda que a medida sentada, sozinha, nunca mostraria.
+:::
+
 ::: resumo
 linhas:
   - "A PA é uma variável contínua, não um número fixo: técnica correta (repouso, braço na altura do coração, manguito do tamanho certo) e medidas repetidas."

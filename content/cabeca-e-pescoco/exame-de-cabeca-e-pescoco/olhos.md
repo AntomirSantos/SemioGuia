@@ -499,6 +499,20 @@ texto: |
 texto: "Diante de um olho vermelho, três perguntas resolvem a triagem antes de qualquer hipótese: onde a vermelhidão é mais intensa — na periferia ou em torno do limbo? Dói quando a pupila contrai? E as pupilas estão iguais? Vermelhidão limbar, dor à contração e miose do lado afetado apontam para o especialista, hoje."
 :::
 
+::: relampago
+caso: |
+  Exame de rotina de um homem de 30 anos, assintomático. Você nota que a pupila direita é discretamente maior que a esquerda. Fotomotor direto e consensual normais dos dois lados, sem ptose, sem queixa. O colega sugere tomografia "para garantir".
+pergunta: |
+  Qual é a conduta?
+opcoes:
+  - "Registrar como provável anisocoria constitucional, dados os reflexos normais"
+  - "Solicitar a tomografia de crânio com urgência, antes que uma lesão expansiva progrida"
+  - "Não registrar nada, para não poluir o prontuário"
+corretaIndex: 0
+desfecho: |
+  Anisocoria é frequente em pessoas saudáveis — tratá-la como sinônimo de doença é um dos erros clássicos do exame dos olhos. Com reflexos normais dos dois lados e fora de contexto de alarme, o achado é constitucional. E o registro importa tanto quanto a calma: é ele que impede que o próximo examinador, diante da mesma pupila, dispare a investigação que você acabou de evitar.
+:::
+
 ::: resumo
 linhas:
   - "O clínico examina com a lanterna: pálpebras e fenda, posição do globo, conjuntivas e escleras, e as pupilas com os três reflexos — fundo de olho e lâmpada de fenda ficam nomeados, não ensinados."

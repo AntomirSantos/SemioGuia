@@ -575,3 +575,16 @@ muda; espelhadas para as RVs negativas) — sem alterar nenhum valor. E o
 Perfil ganhou o mini-glossário "Imagens do guia", com as analogias nomeadas
 do conteúdo apontando para os tópicos de origem. Ambos entram na mesma
 passada de leitura pedida acima.
+
+**Complemento (v1.2.7):** cada tópico ganhou um **caso-relâmpago**
+(`relampago`) antes do "Em três linhas": um parágrafo-caso com **uma decisão
+única** — três opções, escolha definitiva, desfecho que ancora o ensino —,
+pensado como ponte entre a leitura e os três casos clínicos ramificados. Os
+55 casos seguem a mesma regra de composição do adendo: derivam apenas do
+texto já revisado do tópico (muitos dramatizam itens da própria seção
+"erros comuns"), sem afirmação médica nova e sem repetir os cenários do
+quiz, da cena e do pense daquele tópico. A distribuição das respostas
+corretas está balanceada (18/18/19 entre as três posições) e a alternativa
+correta não é sistematicamente a mais longa. Entram na mesma passada de
+leitura pedida acima, com atenção aos desfechos — que são o texto de maior
+carga interpretativa.

@@ -410,6 +410,20 @@ texto: |
 texto: "Antes de anunciar ascite, pergunte-se por três coisas que imitam líquido livre: bexiga cheia, alças cheias de líquido e cisto de ovário. As duas primeiras somem quando o paciente esvazia; a terceira não muda com o decúbito. A percussão distingue as três — desde que você lembre de procurá-las."
 :::
 
+::: relampago
+caso: |
+  Abdome volumoso, macicez nos flancos. Você vira a paciente para o decúbito lateral esquerdo e percute o flanco direito imediatamente: ainda maciço. "Não é macicez móvel", conclui o colega.
+pergunta: |
+  A conclusão vale?
+opcoes:
+  - "Não — a macicez móvel leva alguns segundos para se deslocar; a pressa gera falso-negativo"
+  - "Vale — líquido livre acompanha o corpo instantaneamente"
+  - "Não — a macicez móvel se pesquisa apenas com o paciente em pé, nunca nos decúbitos laterais"
+corretaIndex: 0
+desfecho: |
+  Repetida a percussão depois de uma pequena espera, o flanco que ficou para cima virou timpânico e a macicez apareceu embaixo: líquido livre. A ascite se move com a gravidade, mas não na velocidade do examinador apressado — percutir imediatamente após virar o paciente é um dos erros clássicos da percussão do abdome.
+:::
+
 ::: resumo
 linhas:
   - "Dois sons de trabalho — timpanismo (ar em víscera oca) e macicez (ausência de ar) — e a pergunta permanente: qual deles está onde não deveria?"

@@ -819,6 +819,20 @@ texto: |
 texto: "Antes de decidir que o reflexo está alterado, faça duas perguntas: o paciente está relaxado, e o músculo está estirado? A maioria dos reflexos que somem no exame some pela mão do examinador, não pelo sistema nervoso do paciente."
 :::
 
+::: relampago
+caso: |
+  O interno percute o patelar duas vezes, nada acontece, e ele já dita para o prontuário: "arreflexia patelar bilateral". O martelo ainda está na mão dele.
+pergunta: |
+  O registro pode ser feito?
+opcoes:
+  - "Ainda não — falta repetir com manobra de reforço antes de chamar o reflexo de ausente"
+  - "Pode — duas percussões sem resposta bastam"
+  - "Pode, desde que o martelo seja de boa qualidade e a técnica de percussão esteja correta"
+corretaIndex: 0
+desfecho: |
+  Com a manobra de Jendrassik — as mãos do paciente se traveam e puxam enquanto o martelo cai —, o patelar apareceu dos dois lados. Reflexo que não aparece se repete com reforço antes de ser registrado como ausente; e mesmo a ausência verdadeira, isolada, não significa doença — parte das pessoas idosas sadias não tem aquileu nem com reforço. O registro precipitado do interno criaria uma "polineuropatia" de martelo.
+:::
+
 ::: resumo
 linhas:
   - "Três perguntas em ordem: onde está a fraqueza, de que tipo ela é (neurônio motor superior × inferior) e onde fica a lesão — e quem responde a segunda são tônus, trofismo e reflexos, não a força."

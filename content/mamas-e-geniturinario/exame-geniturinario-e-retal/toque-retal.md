@@ -392,6 +392,20 @@ texto: |
 texto: "A Semiologia Médica resume este tópico em uma sentença que vale por um capítulo: sem toque retal, nenhum exame físico merece o adjetivo completo. A sentença não promete que o toque acha tudo — o câncer inicial da próstata escapa, os números da peritonite são modestos —; promete que quem nunca toca nunca acha."
 :::
 
+::: relampago
+caso: |
+  Homem de 58 anos com retenção urinária de instalação recente e lombalgia. No toque retal, a próstata é elástica, lisa, pouco aumentada — e a tentação é encerrar o exame com "próstata sem alterações".
+pergunta: |
+  O que este toque ainda tem a responder?
+opcoes:
+  - "O tônus do esfíncter e a sensibilidade perineal — o exame da suspeita neurológica"
+  - "Nada — a próstata era a única pergunta"
+  - "A massagem prostática, para obter secreção e completar a avaliação da glândula"
+corretaIndex: 0
+desfecho: |
+  Retenção urinária com lombalgia levanta a hipótese de compressão neurológica, e o toque retal é onde ela se examina: o esfíncter relaxado das doenças neurológicas e a sensibilidade perineal preservada ou não. *Semiologia Clínica* pede exatamente esse par na suspeita neurológica — e o tópico da coluna vertebral cobra a mesma pesquisa na síndrome da cauda equina. A próstata normal respondeu uma pergunta; o esfíncter responde a que importa hoje.
+:::
+
 ::: resumo
 linhas:
   - "Explicar desfaz a barreira, narrar cada gesto durante o exame a mantém desfeita — e a privacidade material (avental, campos) é prescrição, não luxo."

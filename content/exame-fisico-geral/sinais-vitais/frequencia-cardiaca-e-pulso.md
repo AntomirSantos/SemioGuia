@@ -242,6 +242,20 @@ itens:
   - "Registro do valor e do contexto (repouso, febre, dor, medicação em uso)."
 :::
 
+::: relampago
+caso: |
+  Idoso de 84 anos, pressão de consultório sempre alta apesar de três anti-hipertensivos, sem qualquer lesão de órgão-alvo. Ao palpar a radial, a artéria rola sob os seus dedos endurecida e tortuosa — uma "traqueia de passarinho".
+pergunta: |
+  O que esse achado sugere antes de escalar o tratamento?
+opcoes:
+  - "Pseudo-hipertensão por mediosclerose — o manguito pode estar superestimando a PA"
+  - "Hipertensão resistente verdadeira — acrescentar o quarto fármaco e agendar retorno precoce"
+  - "Achado sem relação com a pressão — seguir o protocolo"
+corretaIndex: 0
+desfecho: |
+  A parede endurecida e tortuosa — a traqueia de passarinho — sugere mediosclerose de Mönckeberg, causa clássica de pseudo-hipertensão no idoso. É o que a manobra de Osler, no tópico de pressão arterial, procura: a radial que continua palpável com o manguito insuflado acima da sistólica. O estado da parede é a primeira das sete informações do pulso — e aqui ela vale um tratamento inteiro.
+:::
+
 ::: resumo
 linhas:
   - "O pulso radial entrega sete informações — parede, frequência, ritmo, amplitude, tensão, tipo de onda e comparação entre os lados — em 60 segundos completos de contagem."

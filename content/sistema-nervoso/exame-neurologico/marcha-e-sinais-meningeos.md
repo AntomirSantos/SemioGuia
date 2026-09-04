@@ -665,6 +665,20 @@ texto: |
 texto: "Rigidez de nuca é o achado que mais engana nas duas direções: ausente em quem tem hemorragia há poucas horas, presente em um terço dos idosos internados que não têm nada nas meninges. Ela vale muito quando aparece na cefaleia súbita, e nunca vale como carta de alforria."
 :::
 
+::: relampago
+caso: |
+  Febre, cefaleia intensa e confusão há um dia. Você pesquisa: nuca livre, Kernig negativo, Brudzinski negativo. O colega respira aliviado — "sem sinais meníngeos, podemos esperar a punção".
+pergunta: |
+  A espera se justifica?
+opcoes:
+  - "Sim — três sinais meníngeos negativos, juntos, praticamente afastam a meningite bacteriana"
+  - "Não — a ausência dos três sinais não afasta meningite; a punção não se apoia neles"
+  - "Sim, desde que o hemograma esteja normal"
+corretaIndex: 1
+desfecho: |
+  As razões de verossimilhança negativas dos três sinais clássicos não alcançaram significância — quer dizer: a ausência deles quase não move a probabilidade. É por isso que a decisão de puncionar não se apoia neles, e sim no quadro clínico. Febre, cefaleia e confusão seguem valendo exatamente o que valiam antes das manobras: uma suspeita que só o líquor resolve.
+:::
+
 ::: resumo
 linhas:
   - "Dois exames que a maca esconde: a marcha, que desmascara síndromes com exame de membros normal, e os sinais meníngeos, que exigem encostar na cabeça do paciente."

@@ -444,6 +444,20 @@ texto: |
   5. **Rotular como inocente antes de completar a investigação.** "Inocente" é uma conclusão que vem depois do exame completo e dos complementares indicados — nunca uma primeira impressão acústica.
 :::
 
+::: relampago
+caso: |
+  Menino de 7 anos, consulta de rotina: sopro discreto, curto, que some quando ele senta. Tudo nele aponta para sopro inocente. A mãe percebeu o seu estetoscópio demorar e pergunta: "tem alguma coisa no coração dele, doutora?".
+pergunta: |
+  O que responder?
+opcoes:
+  - "Explicar o achado de forma clara e simples, sem criar ansiedade nem restrições"
+  - "Não mencionar o sopro por ora, para não gerar preocupação desnecessária na família"
+  - "Suspender o esporte até o ecocardiograma decidir"
+corretaIndex: 0
+desfecho: |
+  Omitir o achado é a pior escolha: outro médico o encontrará depois, e o silêncio inicial vira desconfiança. Restringir o esporte é a segunda pior — a ansiedade criada acaba em limitações injustificadas. O conceito de sopro inocente existe justamente porque obriga a uma conclusão diagnóstica, e não a uma rotulação acústica: concluído, ele se explica com clareza e devolve a criança à quadra.
+:::
+
 ::: resumo
 linhas:
   - "Um sopro só está descrito com as sete características — e a mais importante é o lugar no ciclo, decidido com o pulso carotídeo sob os dedos."

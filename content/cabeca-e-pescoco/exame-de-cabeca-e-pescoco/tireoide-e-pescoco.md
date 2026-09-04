@@ -628,6 +628,20 @@ texto: |
 texto: "Diante de qualquer tumoração cervical, faça três perguntas antes de nomeá-la: ela está na linha média ou de lado? Ela sobe quando o paciente engole? Ela sobe quando o paciente põe a língua para fora? As três respostas juntas separam tireoide, linfonodo e cisto tireoglosso sem nenhum exame complementar."
 :::
 
+::: relampago
+caso: |
+  Professora de 55 anos, rouca há cinco semanas. "É da profissão, doutor — todo ano fico assim." Sem dor, sem febre, sem sintomas de resfriado. Ela só quer "um remédio para a voz".
+pergunta: |
+  O que o exame deve incluir antes de qualquer receita?
+opcoes:
+  - "Encaminhar à fonoaudiologia para reabilitação da voz e reavaliar o caso em três meses"
+  - "Examinar a tireoide agora — diante de rouquidão persistente, isso é mandatório"
+  - "Prescrever repouso vocal e reavaliar apenas se piorar"
+corretaIndex: 1
+desfecho: |
+  O nervo laríngeo recorrente corre colado à tireoide, e a rouquidão persistente levanta a hipótese de prega vocal paralisada por compressão ou invasão — por isso *Semiologia Clínica* considera mandatório examinar a glândula diante dela. A rouquidão persistente também figura na lista de sinais de alerta que antecipam a investigação. A explicação profissional pode até estar certa; o pescoço é quem confirma.
+:::
+
 ::: resumo
 linhas:
   - "O pescoço se examina por inspeção, palpação e ausculta — e a tireoide se identifica pelo movimento: o que sobe com o gole é dela ou está preso a ela."

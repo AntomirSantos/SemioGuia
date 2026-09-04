@@ -30,15 +30,17 @@ como "Revisado" no app.
 | Questões de quiz | **327** (balanceadas por índice e comprimento) |
 | Checklists OSCE | **53** (viram estações de prática) |
 | Ilustrações SVG | **52** (temáveis via `currentColor`, geometria verificada) |
-| Testes | **55 suítes / 419 testes** verdes |
+| Testes | **55 suítes / 422 testes** verdes |
 
 ## Stack
 
 - **Expo SDK 57** (React Native + Web) · **expo-router** (rotas por arquivo) · **TypeScript**
 - **Camada didática** (set/2026): cada tópico abre com uma vinheta
   clínica (`cena`), interrompe a leitura com uma pergunta de recuperação
-  ativa de resposta recolhida (`pense`) e fecha com o resumo "Em três
-  linhas" (`resumo`) — 165 textos derivados do conteúdo já revisado
+  ativa de resposta recolhida (`pense`), fecha com o resumo "Em três
+  linhas" (`resumo`) e termina num caso-relâmpago (`relampago`) — um
+  parágrafo-caso de decisão única, ponte para os casos ramificados; 220
+  textos derivados do conteúdo já revisado
 - **Conteúdo como dados**: YAML + Markdown com blocos tipados em `content/`,
   validados por **Zod** e compilados por `npm run build:content` para
   `assets/generated/content.json` (offline-first; busca local sem servidor)
@@ -110,7 +112,7 @@ npm install
 npm run build:content   # compila o conteúdo (YAML/MD → JSON)
 npx expo start          # i = iOS, a = Android, w = web
 
-npm test                # 53 suítes / 406 testes
+npm test                # 55 suítes / 422 testes
 npm run checar:contraste
 npm run checar:rv
 npx tsc --noEmit

@@ -585,6 +585,20 @@ texto: |
 texto: "No ombro, o exame vale pelo que exclui. A ausência dos dois sinais de impacto praticamente afasta a doença subacromial, e a ausência dos três achados combinados praticamente afasta a ruptura do manguito. Nenhum teste isolado deste tópico confirma coisa alguma com a mesma força com que o conjunto negativo descarta."
 :::
 
+::: relampago
+caso: |
+  Homem de 51 anos com dor no ombro direito que desce pelo braço, com formigamento até os dedos. No exame do ombro, amplitudes passivas completas e indolores, Neer e Hawkins negativos.
+pergunta: |
+  Para onde o exame vai agora?
+opcoes:
+  - "Para a coluna cervical — Spurling e Apley interrogam a raiz que projeta dor no ombro"
+  - "Para os testes de força do manguito rotador — ainda falta provocá-lo sob carga máxima"
+  - "Para a ultrassonografia do ombro, que decide o impasse"
+corretaIndex: 0
+desfecho: |
+  Dor referida tende a não limitar o movimento passivo do ombro e a não ser reproduzida pelas manobras de impacto — e este ombro passou nos dois filtros. A radiculopatia cervical projeta dor no ombro e no braço, e as manobras que a interrogam — Spurling, distração de Apley — moram no tópico da coluna vertebral. O ombro que examina bem sabe também quando a dor não é dele.
+:::
+
 ::: resumo
 linhas:
   - "O ombro dói porque tendões passam entre ossos que se movem: impacto → tendinite → bursite → degeneração → rotura é a cadeia a interromper cedo."

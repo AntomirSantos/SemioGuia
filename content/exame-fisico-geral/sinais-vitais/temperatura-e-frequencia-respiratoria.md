@@ -349,6 +349,20 @@ texto: |
   A causa é quase sempre a mesma: contar 15 segundos e multiplicar por quatro. Nessa forma abreviada, apenas cerca de 23% dos pacientes taquipneicos são identificados; com 60 segundos de observação, praticamente todos são. O minuto inteiro ainda revela padrões que a contagem curta jamais mostraria, como a respiração de Cheyne-Stokes.
 :::
 
+::: relampago
+caso: |
+  Enfermaria, 15h. O paciente do leito 2 acabou de tomar o café da tarde, ainda quente, e a técnica pergunta se pode aferir a temperatura pela via bucal — o termômetro axilar do setor sumiu.
+pergunta: |
+  O que orientar?
+opcoes:
+  - "Pode aferir agora — a via bucal não sofre interferências"
+  - "A via bucal é proscrita no adulto — suspender a aferição até acharem o termômetro axilar"
+  - "Esperar um pouco: bebidas, mastigação, cigarro e taquipneia influenciam a via bucal"
+corretaIndex: 2
+desfecho: |
+  A leitura sublingual logo após uma bebida quente mede o café, não o paciente. A via bucal é legítima — faixa normal de 36 a 37,4 °C —, mas sofre influência de mastigação, bebidas, cigarro e taquipneia. Cada via tem sua faixa e suas ressalvas, e interpretar o número exige saber por qual via ele foi medido.
+:::
+
 ::: resumo
 linhas:
   - "Febre é termostato deslocado (adulto: axilar > 37,8 °C; criança, SBP 2025: ≥ 37,5 °C); hipertermia é sobrecarga externa — e a curva térmica vale mais que o valor isolado."

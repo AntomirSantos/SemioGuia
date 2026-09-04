@@ -209,3 +209,38 @@ test('resumo renderiza o título e as três linhas numeradas', async () => {
   expect(getByText('3.')).toBeTruthy();
   expect(getByText('Terceira frase.')).toBeTruthy();
 });
+
+test('caso-relâmpago revela o desfecho após a escolha e trava as opções', async () => {
+  const bloco: Bloco = {
+    tipo: 'relampago',
+    caso: 'Enfermaria, 2h: o paciente do leito 3 refere dor torácica nova.',
+    pergunta: 'Qual é a primeira providência?',
+    opcoes: ['Aguardar a manhã', 'Examinar agora, com sinais vitais', 'Prescrever analgesia sem exame'],
+    corretaIndex: 1,
+    desfecho: 'O exame imediato encontrou hipotensão — a espera teria custado caro.',
+  };
+  const { getByText, queryByText, getAllByRole } = await renderBloco(bloco);
+  expect(getByText(/leito 3/)).toBeTruthy();
+  expect(queryByText(/teria custado caro/)).toBeNull();
+  await fireEvent.press(getByText('Examinar agora, com sinais vitais'));
+  expect(getByText(/teria custado caro/)).toBeTruthy();
+  expect(getByText('Boa decisão')).toBeTruthy();
+  const botoes = getAllByRole('button').filter((b) => b.props.accessibilityState?.disabled === true);
+  expect(botoes.length).toBeGreaterThanOrEqual(3);
+});
+
+test('caso-relâmpago com escolha errada mostra o desfecho e marca a correta', async () => {
+  const bloco: Bloco = {
+    tipo: 'relampago',
+    caso: 'Caso curto.',
+    pergunta: 'Decisão?',
+    opcoes: ['Errada', 'Certa'],
+    corretaIndex: 1,
+    desfecho: 'Explicação do desfecho.',
+  };
+  const { getByText } = await renderBloco(bloco);
+  await fireEvent.press(getByText('Errada'));
+  expect(getByText('O desfecho ensina')).toBeTruthy();
+  expect(getByText(/✓ Certa/)).toBeTruthy();
+  expect(getByText(/✗ Errada/)).toBeTruthy();
+});
