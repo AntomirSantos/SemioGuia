@@ -588,3 +588,22 @@ corretas está balanceada (18/18/19 entre as três posições) e a alternativa
 correta não é sistematicamente a mais longa. Entram na mesma passada de
 leitura pedida acima, com atenção aos desfechos — que são o texto de maior
 carga interpretativa.
+
+**Complemento (v1.2.8):** o app ganhou movimento e som, com dois itens que
+pedem o olhar do autor. (1) **Sons de ausculta**: 8 sons SINTETIZADOS por
+`scripts/gerar-sons.py` (nenhuma gravação de terceiros; zero direitos
+autorais) tocáveis nos tópicos de ausculta cardíaca, sopros e ausculta
+pulmonar — bulhas normais, galope por B3, sopro sistólico de ejeção,
+diastólico aspirativo, murmúrio vesicular, sibilos, estertores finos e
+grossos. Cada player traz o aviso "som sintetizado para estudo — uma
+representação didática, não uma gravação clínica"; as descrições derivam do
+texto revisado (fases do ciclo, efeito da tosse, timbre). Pede-se ao autor
+UMA ESCUTA de endosso: os parâmetros (frequências, envelopes, cadências)
+são caricaturas didáticas ajustáveis pelo script. (2) **Ilustração nova**:
+"os quatro ritmos como traçado" (eupneia, Cheyne-Stokes, Kussmaul, Biot) no
+tópico de temperatura e FR, desenhada a partir das definições da tabela do
+próprio tópico. As demais mudanças são só de apresentação: os traçados
+temporais existentes (sopros, ondas do pulso venoso, curvas térmicas) agora
+se desenham em loop — com `prefers-reduced-motion`, ficam estáticos como
+sempre foram — e o quiz ganhou check desenhado, shake curto no erro e
+háptica no celular.

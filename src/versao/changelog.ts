@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.8',
+    data: '2026-09-04',
+    linhas: [
+      'Ausculta dentro do tópico: 8 sons sintetizados tocáveis — bulhas, galope, sopros sistólico e diastólico, murmúrio, sibilos e estertores',
+      'As ilustrações temporais agora se desenham: sopros no ciclo, ondas do pulso venoso, curvas térmicas e os ritmos respiratórios (novos, com Cheyne-Stokes)',
+      'Micro-recompensas sóbrias no quiz: check que se desenha, toque háptico no celular e o fecho "Revisão do dia encerrada"',
+    ],
+  },
+  {
     versao: '1.2.7',
     data: '2026-09-04',
     linhas: [

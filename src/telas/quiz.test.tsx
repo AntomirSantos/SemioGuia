@@ -218,3 +218,20 @@ test('card "Revisão de hoje" vazio mostra "Nada para revisar hoje" sem navegaç
   fireEvent.press(getByText('Abrir o Guia'));
   expect(router.push).toHaveBeenCalledWith('/');
 });
+
+test('acertar desenha o check na alternativa correta (micro-recompensa sóbria)', async () => {
+  const store = new MemoryProgressStore();
+  const { getByText, queryAllByTestId } = await renderQuiz(store);
+
+  await waitFor(() => {
+    expect(getByText('1 de 5')).toBeTruthy();
+  });
+  expect(queryAllByTestId('check-desenhado')).toHaveLength(0);
+
+  // "2 a 3 mmHg por segundo" é a alternativa correta da primeira pergunta.
+  await fireEvent.press(getByText('2 a 3 mmHg por segundo'));
+
+  await waitFor(() => {
+    expect(queryAllByTestId('check-desenhado')).toHaveLength(1);
+  });
+});

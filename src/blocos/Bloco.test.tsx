@@ -244,3 +244,23 @@ test('caso-relâmpago com escolha errada mostra o desfecho e marca a correta', a
   expect(getByText(/✓ Certa/)).toBeTruthy();
   expect(getByText(/✗ Errada/)).toBeTruthy();
 });
+
+test('som renderiza título, descrição, aviso e chama play ao tocar', async () => {
+  const { __mockPlayer, __resetMockPlayer } = require('../testes/expo-audio-mock');
+  __resetMockPlayer();
+  const bloco: Bloco = {
+    tipo: 'som',
+    titulo: 'Bulhas normais — TUM-TA',
+    arquivo: 'bulhas-normais',
+    descricao: 'B1 mais grave; B2 mais aguda e seca.',
+  };
+  const { getByText, getByRole } = await renderBloco(bloco);
+  expect(getByText('Ausculta')).toBeTruthy();
+  expect(getByText('Bulhas normais — TUM-TA')).toBeTruthy();
+  expect(getByText(/B2 mais aguda/)).toBeTruthy();
+  expect(getByText(/Som sintetizado para estudo/)).toBeTruthy();
+
+  await fireEvent.press(getByRole('button'));
+  expect(__mockPlayer.play).toHaveBeenCalledTimes(1);
+  expect(__mockPlayer.loop).toBe(true);
+});

@@ -1,0 +1,265 @@
+# Sintetizador dos sons de ausculta do SemioGuia.
+#
+# Todos os sons do app nascem DESTE script — nenhuma gravação de terceiros,
+# nenhum direito autoral envolvido. São representações didáticas canônicas
+# (fonocardiograma sintético), não gravações clínicas: o aviso no app diz
+# isso ao estudante. Rodar: python3 scripts/gerar-sons.py  → assets/sons/*.wav
+#
+# Decisões de engenharia:
+# - 16 kHz mono 16-bit: os fenômenos auscultatórios vivem abaixo de ~2 kHz;
+#   16 kHz dá margem para os estalidos finos e mantém cada arquivo pequeno.
+# - Bulhas como senoides amortecidas de baixa frequência (30-150 Hz);
+#   sopros e murmúrio como ruído filtrado por FFT com envelope temporal;
+#   sibilo como tom musical com vibrato sobre a expiração.
+# - Cada arquivo fecha um número inteiro de ciclos, para o loop do player
+#   não "pular".
+import os
+import wave
+
+import numpy as np
+
+SR = 16000
+SAIDA = os.path.join(os.path.dirname(__file__), '..', 'assets', 'sons')
+
+
+def t_axis(dur):
+    return np.arange(int(dur * SR)) / SR
+
+
+def damped_sine(freq, dur, tau, atraso=0.0, ataque=0.008):
+    """Senoide amortecida com ataque curto — o tijolo das bulhas."""
+    t = t_axis(dur)
+    y = np.sin(2 * np.pi * freq * t) * np.exp(-t / tau)
+    n_ataque = max(1, int(ataque * SR))
+    y[:n_ataque] *= np.linspace(0, 1, n_ataque)
+    silencio = np.zeros(int(atraso * SR))
+    return np.concatenate([silencio, y])
+
+
+def bulha1():
+    # B1: mais grave e um pouco mais longa — "lub".
+    return 1.0 * damped_sine(42, 0.16, 0.050) + 0.6 * damped_sine(90, 0.16, 0.035)
+
+
+def bulha2():
+    # B2: mais curta e de timbre um pouco mais agudo — "dub".
+    return 0.85 * damped_sine(65, 0.12, 0.032) + 0.55 * damped_sine(140, 0.12, 0.022)
+
+
+def bulha3():
+    # B3: muito grave, surda, mais fraca — o terceiro tempo do galope.
+    return 0.6 * damped_sine(32, 0.14, 0.045) + 0.25 * damped_sine(60, 0.14, 0.035)
+
+
+def ruido_banda(dur, f_lo, f_hi, semente):
+    """Ruído branco filtrado por FFT para a banda [f_lo, f_hi]."""
+    rng = np.random.default_rng(semente)
+    n = int(dur * SR)
+    ruido = rng.standard_normal(n)
+    espectro = np.fft.rfft(ruido)
+    freqs = np.fft.rfftfreq(n, 1 / SR)
+    mascara = ((freqs >= f_lo) & (freqs <= f_hi)).astype(float)
+    # Bordas suaves (janela de 40 Hz) para o filtro não "tocar" sozinho.
+    for i, f in enumerate(freqs):
+        if f_lo - 40 < f < f_lo:
+            mascara[i] = (f - (f_lo - 40)) / 40
+        elif f_hi < f < f_hi + 40:
+            mascara[i] = ((f_hi + 40) - f) / 40
+    y = np.fft.irfft(espectro * mascara, n)
+    return y / (np.max(np.abs(y)) + 1e-9)
+
+
+def env_diamante(n, pico=0.5):
+    """Envelope crescendo-decrescendo (o 'diamante' do sopro ejetivo)."""
+    x = np.linspace(0, 1, n)
+    e = np.where(x < pico, x / pico, (1 - x) / (1 - pico))
+    return np.clip(e, 0, 1) ** 1.2
+
+
+def env_decrescendo(n):
+    x = np.linspace(0, 1, n)
+    return (1 - x) ** 1.6
+
+
+def colocar(base, som, inicio_s, ganho=1.0):
+    i = int(inicio_s * SR)
+    fim = min(len(base), i + len(som))
+    base[i:fim] += ganho * som[: fim - i]
+
+
+def normalizar(y, alvo=0.55):
+    return y / (np.max(np.abs(y)) + 1e-9) * alvo
+
+
+def salvar(nome, y):
+    os.makedirs(SAIDA, exist_ok=True)
+    # Fades globais de 20 ms nas pontas, contra cliques no loop.
+    n_fade = int(0.02 * SR)
+    y = y.copy()
+    y[:n_fade] *= np.linspace(0, 1, n_fade)
+    y[-n_fade:] *= np.linspace(1, 0, n_fade)
+    dados = (np.clip(y, -1, 1) * 32767).astype('<i2')
+    caminho = os.path.join(SAIDA, nome)
+    with wave.open(caminho, 'wb') as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(SR)
+        w.writeframes(dados.tobytes())
+    print(f'{nome}: {len(y) / SR:.2f}s, {os.path.getsize(caminho) // 1024} KB')
+
+
+# ---------------------------------------------------------------- coração
+
+CICLO = 0.8  # 75 bpm
+SISTOLE = 0.30  # B1 → B2; a diástole (0,50 s) é mais longa — como no tópico
+
+
+def ciclos_cardiacos(n_ciclos, com=None, bpm_ciclo=CICLO):
+    dur = n_ciclos * bpm_ciclo
+    y = np.zeros(int(dur * SR))
+    for k in range(n_ciclos):
+        t0 = k * bpm_ciclo
+        colocar(y, bulha1(), t0)
+        colocar(y, bulha2(), t0 + SISTOLE)
+        if com is not None:
+            com(y, t0)
+    return y
+
+
+def som_bulhas_normais():
+    return normalizar(ciclos_cardiacos(8))
+
+
+def som_sopro_sistolico():
+    # Sopro mesossistólico em diamante: começa após B1, pico no meio da
+    # sístole, termina antes de B2.
+    dur_sopro = SISTOLE - 0.10
+
+    def sopro(y, t0):
+        n = int(dur_sopro * SR)
+        ruido = ruido_banda(dur_sopro, 120, 480, semente=int(t0 * 1000) + 7)
+        colocar(y, ruido * env_diamante(n), t0 + 0.05, ganho=0.55)
+
+    return normalizar(ciclos_cardiacos(8, com=sopro))
+
+
+def som_sopro_diastolico():
+    # Sopro diastólico aspirativo: nasce logo após B2 e decresce.
+    dur_sopro = 0.34
+
+    def sopro(y, t0):
+        n = int(dur_sopro * SR)
+        ruido = ruido_banda(dur_sopro, 220, 800, semente=int(t0 * 1000) + 13)
+        colocar(y, ruido * env_decrescendo(n), t0 + SISTOLE + 0.05, ganho=0.4)
+
+    return normalizar(ciclos_cardiacos(8, com=sopro))
+
+
+def som_galope_b3():
+    # Ritmo tríplice por B3 — PA-TA-TA, um pouco mais rápido (galope).
+    ciclo = 0.62  # ~97 bpm
+    sistole = 0.26
+
+    def montar():
+        n_ciclos = 10
+        y = np.zeros(int(n_ciclos * ciclo * SR))
+        for k in range(n_ciclos):
+            t0 = k * ciclo
+            colocar(y, bulha1(), t0)
+            colocar(y, bulha2(), t0 + sistole)
+            colocar(y, bulha3(), t0 + sistole + 0.15)
+        return y
+
+    return normalizar(montar())
+
+
+# ----------------------------------------------------------------- pulmão
+
+RESP = 4.0  # ciclo respiratório de 4 s (15 irpm)
+
+
+def respiracao_base(n_ciclos, insp=1.5, exp_audivel=0.7, ganho_exp=0.45, semente=3):
+    """Murmúrio vesicular: inspiração mais longa e mais alta; expiração
+    audível só no começo, mais baixa — a assinatura do som normal."""
+    dur = n_ciclos * RESP
+    y = np.zeros(int(dur * SR))
+    for k in range(n_ciclos):
+        t0 = k * RESP
+        n_i = int(insp * SR)
+        ruido_i = ruido_banda(insp, 90, 500, semente=semente + k * 2)
+        env_i = np.sin(np.linspace(0, np.pi, n_i)) ** 1.3
+        colocar(y, ruido_i * env_i, t0, ganho=0.9)
+        n_e = int(exp_audivel * SR)
+        ruido_e = ruido_banda(exp_audivel, 90, 400, semente=semente + k * 2 + 1)
+        env_e = np.sin(np.linspace(0, np.pi, n_e)) ** 1.6
+        colocar(y, ruido_e * env_e, t0 + insp + 0.05, ganho=ganho_exp)
+    return y
+
+
+def som_murmurio_vesicular():
+    return normalizar(respiracao_base(3))
+
+
+def som_sibilos():
+    # Sibilos: tons musicais contínuos na expiração (que se alonga), sobre
+    # um murmúrio de fundo mais discreto.
+    n_ciclos = 3
+    y = respiracao_base(n_ciclos, insp=1.2, exp_audivel=2.0, ganho_exp=0.3, semente=11) * 0.7
+    for k in range(n_ciclos):
+        t0 = k * RESP + 1.25
+        dur = 1.9
+        t = t_axis(dur)
+        env = np.sin(np.linspace(0, np.pi, len(t))) ** 0.8
+        vibrato = 1 + 0.006 * np.sin(2 * np.pi * 5.0 * t)
+        tom = 0.6 * np.sin(2 * np.pi * 420 * t * vibrato) + 0.3 * np.sin(2 * np.pi * 560 * t * vibrato)
+        colocar(y, tom * env, t0, ganho=0.35)
+    return normalizar(y)
+
+
+def _chuva_de_estalidos(y, t0, quantos, f_lo, f_hi, dur_estalido, ganho, semente):
+    rng = np.random.default_rng(semente)
+    for j in range(quantos):
+        atraso = float(rng.uniform(0, 0.45))
+        estalo = ruido_banda(dur_estalido, f_lo, f_hi, semente=semente * 100 + j)
+        n = len(estalo)
+        estalo = estalo * np.exp(-np.linspace(0, 6, n))
+        colocar(y, estalo, t0 + atraso, ganho=ganho * float(rng.uniform(0.6, 1.0)))
+
+
+def som_estertores_finos():
+    # Estertores finos: chuva de estalidos curtos e agudos no FIM da
+    # inspiração; não mudam de um ciclo para outro (abertura alveolar).
+    n_ciclos = 3
+    y = respiracao_base(n_ciclos, semente=21) * 0.8
+    for k in range(n_ciclos):
+        fim_insp = k * RESP + 1.0  # último meio segundo da inspiração
+        _chuva_de_estalidos(y, fim_insp, quantos=14, f_lo=500, f_hi=1800, dur_estalido=0.006, ganho=0.5, semente=31 + k)
+    return normalizar(y)
+
+
+def som_estertores_grossos():
+    # Estertores grossos: estalidos mais graves, longos e esparsos, no
+    # início da inspiração e também na expiração (secreção nas vias).
+    n_ciclos = 3
+    y = respiracao_base(n_ciclos, semente=41) * 0.8
+    for k in range(n_ciclos):
+        t0 = k * RESP
+        _chuva_de_estalidos(y, t0 + 0.15, quantos=6, f_lo=140, f_hi=650, dur_estalido=0.018, ganho=0.7, semente=51 + k)
+        _chuva_de_estalidos(y, t0 + 1.6, quantos=4, f_lo=140, f_hi=650, dur_estalido=0.018, ganho=0.55, semente=61 + k)
+    return normalizar(y)
+
+
+SONS = {
+    'bulhas-normais.wav': som_bulhas_normais,
+    'galope-b3.wav': som_galope_b3,
+    'sopro-sistolico.wav': som_sopro_sistolico,
+    'sopro-diastolico.wav': som_sopro_diastolico,
+    'murmurio-vesicular.wav': som_murmurio_vesicular,
+    'sibilos.wav': som_sibilos,
+    'estertores-finos.wav': som_estertores_finos,
+    'estertores-grossos.wav': som_estertores_grossos,
+}
+
+if __name__ == '__main__':
+    for nome, fabrica in SONS.items():
+        salvar(nome, fabrica())

@@ -4,6 +4,7 @@ import { SvgXml } from 'react-native-svg';
 import type { Bloco } from '../content/schema';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, tipo } from '../design/tokens';
+import { TracadoAnimado } from './TracadoAnimado';
 
 type IlustracaoBloco = Extract<Bloco, { tipo: 'ilustracao' }>;
 
@@ -25,9 +26,17 @@ export function Ilustracao({ bloco }: { bloco: IlustracaoBloco }) {
   const { paleta, escala } = useTema();
   const aspectRatio = useMemo(() => razaoDoViewBox(bloco.svg), [bloco.svg]);
 
+  // Paths marcados com id="anima-N" pedem o desenho temporal do traçado
+  // (TracadoAnimado); sem marcadores, a ilustração estática de sempre.
+  const temporal = bloco.svg.includes('id="anima-');
+
   return (
     <View style={{ marginVertical: espaco.xl }} accessible accessibilityLabel={bloco.legenda}>
-      <SvgXml xml={bloco.svg} width="100%" style={{ aspectRatio }} color={paleta.tinta} />
+      {temporal ? (
+        <TracadoAnimado svg={bloco.svg} cor={paleta.tinta} />
+      ) : (
+        <SvgXml xml={bloco.svg} width="100%" style={{ aspectRatio }} color={paleta.tinta} />
+      )}
       <Text
         style={{
           fontFamily: fonte.corpo,

@@ -109,7 +109,7 @@ svg: |
       <path d="M 150 32 L 150 46" stroke-width="2" />
       <path d="M 282 32 L 282 46" stroke-width="2" />
     </g>
-    <path d="M 62 46 L 100 33 L 140 46" stroke-width="2" />
+    <path id="anima-1" d="M 62 46 L 100 33 L 140 46" stroke-width="2" />
     <!-- faixa 2: sistólico de regurgitação -->
     <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
       <text x="6" y="66">sistólico de regurgitação</text>
@@ -120,7 +120,7 @@ svg: |
       <path d="M 150 68 L 150 82" stroke-width="2" />
       <path d="M 282 68 L 282 82" stroke-width="2" />
     </g>
-    <path d="M 48 82 L 48 70 L 152 70 L 152 82" stroke-width="2" />
+    <path id="anima-2" d="M 48 82 L 48 70 L 152 70 L 152 82" stroke-width="2" />
     <!-- faixa 3: diastólico aspirativo -->
     <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
       <text x="6" y="102">diastólico aspirativo</text>
@@ -131,7 +131,7 @@ svg: |
       <path d="M 150 104 L 150 118" stroke-width="2" />
       <path d="M 282 104 L 282 118" stroke-width="2" />
     </g>
-    <path d="M 150 105 L 216 118" stroke-width="2" />
+    <path id="anima-3" d="M 150 105 L 216 118" stroke-width="2" />
     <!-- faixa 4: ruflar diastólico com reforço pré-sistólico -->
     <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
       <text x="6" y="138">ruflar com reforço pré-sistólico</text>
@@ -142,7 +142,7 @@ svg: |
       <path d="M 150 140 L 150 154" stroke-width="2" />
       <path d="M 282 140 L 282 154" stroke-width="2" />
     </g>
-    <path d="M 176 148 L 244 148 L 278 141 L 282 154" stroke-width="2" />
+    <path id="anima-4" d="M 176 148 L 244 148 L 278 141 L 282 154" stroke-width="2" />
     <!-- faixa 5: contínuo -->
     <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
       <text x="6" y="174">contínuo (em maquinaria)</text>
@@ -153,9 +153,23 @@ svg: |
       <path d="M 150 176 L 150 190" stroke-width="2" />
       <path d="M 282 176 L 282 190" stroke-width="2" />
     </g>
-    <path d="M 48 190 L 150 177 L 282 188" stroke-width="2" />
+    <path id="anima-5" d="M 48 190 L 150 177 L 282 188" stroke-width="2" />
   </svg>
 legenda: "Cada tipo de sopro ocupa um lugar próprio entre as bulhas — e é esse lugar, mais que a intensidade, que aponta o mecanismo."
+:::
+
+::: som
+titulo: Sopro sistólico de ejeção
+arquivo: sopro-sistolico
+descricao: |
+  O sopro cresce e decresce entre B1 e B2 — o desenho em diamante da primeira faixa da figura. As duas bulhas permanecem audíveis, com o sopro entre elas.
+:::
+
+::: som
+titulo: Sopro diastólico aspirativo
+arquivo: sopro-diastolico
+descricao: |
+  O sopro nasce logo depois de B2 e vai decrescendo pela diástole, como na terceira faixa da figura. Compare com o sistólico: o lugar entre as bulhas é o que aponta o mecanismo.
 :::
 
 ::: secao

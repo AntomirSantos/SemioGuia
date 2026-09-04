@@ -52,6 +52,25 @@ export const blocoSchema = z.discriminatedUnion('tipo', [
     .refine((b) => b.corretaIndex < b.opcoes.length, {
       message: 'corretaIndex fora do intervalo de opcoes',
     }),
+  // Som de ausculta (didática 2026-09): player de um som sintetizado do
+  // registro em src/config/sons.ts. O enum espelha as chaves de lá — o
+  // build recusa um bloco que aponte para som inexistente.
+  z.object({
+    tipo: z.literal('som'),
+    titulo: z.string().min(1),
+    arquivo: z.enum([
+      'bulhas-normais',
+      'galope-b3',
+      'sopro-sistolico',
+      'sopro-diastolico',
+      'murmurio-vesicular',
+      'sibilos',
+      'estertores-finos',
+      'estertores-grossos',
+    ]),
+    descricao: z.string().min(1),
+    ...nivelCommon,
+  }),
   z.object({ tipo: z.literal('quiz'), perguntas: z.array(quizPerguntaSchema).min(1), ...nivelCommon }),
   z.object({ tipo: z.literal('secao'), titulo: z.string().min(1), ...nivelCommon }),
   z.object({ tipo: z.literal('entendimento'), titulo: z.string().optional(), texto: z.string().min(1), ...nivelCommon }),

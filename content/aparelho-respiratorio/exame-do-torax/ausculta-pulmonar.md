@@ -224,6 +224,13 @@ texto: |
   Quando esse som brônquico deslocado é muito intenso, a semiologia de língua portuguesa o chama de **sopro**: **tubário** nas pneumonias com hepatização, **cavitário** nas grandes cavernas com brônquio de drenagem pérvio, **anfórico** no pneumotórax hipertensivo. Um sopro brando e mais longo na expiração, ouvido sobre a 7ª vértebra cervical, sobre a traqueia ou na região interescapular, é apenas o som brônquico normal daquelas áreas.
 :::
 
+::: som
+titulo: Murmúrio vesicular
+arquivo: murmurio-vesicular
+descricao: |
+  O som normal da periferia do tórax: grave e suave, com a inspiração mais longa e mais audível que a expiração, sem intervalo entre as duas fases.
+:::
+
 ::: secao
 titulo: Sons adventícios
 :::
@@ -258,6 +265,20 @@ linhas:
     - "Bronquite crônica, bronquiectasias"
 :::
 
+::: som
+titulo: Estertores finos
+arquivo: estertores-finos
+descricao: |
+  A chuva de estalidos agudos, suaves e curtos do meio para o fim da inspiração — a abertura sequencial de vias antes fechadas. São os que a tosse não altera.
+:::
+
+::: som
+titulo: Estertores grossos
+arquivo: estertores-grossos
+descricao: |
+  Estalidos graves, mais intensos e mais longos, no início da inspiração e por toda a expiração — secreção nas vias. São os que podem desaparecer com a tosse.
+:::
+
 ::: conceito
 titulo: Contínuos — roncos, sibilos e estridor
 texto: |
@@ -282,6 +303,13 @@ causas:
   - "Pneumonias com comprometimento pleural"
   - "Doença reumática e outras colagenoses"
   - "Neoplasias da pleura e do pulmão"
+:::
+
+::: som
+titulo: Sibilos
+arquivo: sibilos
+descricao: |
+  Sons musicais contínuos que predominam na expiração — o ar passando por vias estreitadas, mais audível sobre o tórax. O que informa é o sibilo espontâneo, na respiração habitual.
 :::
 
 ::: conceito

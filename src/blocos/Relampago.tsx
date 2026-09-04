@@ -5,6 +5,7 @@ import type { Bloco } from '../content/schema';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
 import { EntradaAnimada } from '../design/EntradaAnimada';
+import { hapticaAcerto, hapticaErro } from '../design/feedbackTatil';
 import { IdentidadeBloco } from './identidade';
 import { TextoRico } from './texto';
 
@@ -67,7 +68,12 @@ export function Relampago({ bloco }: { bloco: RelampagoBloco }) {
               accessibilityRole="button"
               accessibilityState={{ disabled: decidido, selected: marcada }}
               disabled={decidido}
-              onPress={() => setEscolhida(i)}
+              onPress={() => {
+                setEscolhida(i);
+                // Mesma micro-recompensa tátil do quiz, só no aparelho.
+                if (i === bloco.corretaIndex) hapticaAcerto();
+                else hapticaErro();
+              }}
               style={{
                 minHeight: 44,
                 justifyContent: 'center',

@@ -102,7 +102,7 @@ test('sessão com 1 pergunta certa salva o item com repeticoes: 1 e mostra o res
   await fireEvent.press(getByText('Ver resultado'));
 
   await waitFor(() => {
-    expect(getByText('Revisão concluída')).toBeTruthy();
+    expect(getByText('Revisão do dia encerrada')).toBeTruthy();
   });
   expect(getByText('1 acerto · 0 erros')).toBeTruthy();
 
@@ -163,6 +163,6 @@ test('item de checklist usa EstacaoOsce e avalia ao concluir', async () => {
 
   await fireEvent.press(getByText('Ver resultado'));
   await waitFor(() => {
-    expect(getByText('Revisão concluída')).toBeTruthy();
+    expect(getByText('Revisão do dia encerrada')).toBeTruthy();
   });
 });

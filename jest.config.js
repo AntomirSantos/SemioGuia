@@ -6,5 +6,8 @@ module.exports = {
   // resolution to its CommonJS build instead of widening the transform pipeline.
   moduleNameMapper: {
     '^lucide-react-native$': '<rootDir>/node_modules/lucide-react-native/dist/cjs/lucide-react-native.js',
+    // expo-audio depende de módulo nativo ausente no ambiente de teste; o
+    // mock oferece player/status inertes e espiáveis (ver o arquivo).
+    '^expo-audio$': '<rootDir>/src/testes/expo-audio-mock.ts',
   },
 };

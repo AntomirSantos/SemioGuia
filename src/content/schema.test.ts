@@ -120,3 +120,12 @@ test('relampago exige decisão única válida', () => {
     }),
   ).toThrow();
 });
+
+test('bloco som exige arquivo do enum do registro', () => {
+  expect(
+    blocoSchema.safeParse({ tipo: 'som', titulo: 'Bulhas', arquivo: 'bulhas-normais', descricao: 'B1 e B2' }).success,
+  ).toBe(true);
+  expect(
+    blocoSchema.safeParse({ tipo: 'som', titulo: 'Bulhas', arquivo: 'gravacao-pirata', descricao: 'x' }).success,
+  ).toBe(false);
+});

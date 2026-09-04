@@ -226,10 +226,10 @@ svg: |
     </g>
     <!-- curvas -->
     <g stroke="currentColor" stroke-width="2" fill="none">
-      <path d="M 30 74 L 40 40 L 52 36 L 64 40 L 76 36 L 88 40 L 100 36 L 112 40 L 124 36 L 136 40 L 150 38" />
-      <path d="M 180 74 L 190 34 L 200 74 L 212 74 L 222 34 L 232 74 L 244 74 L 254 34 L 264 74 L 276 74 L 286 34 L 296 74 L 300 74" />
-      <path d="M 30 190 L 40 152 L 52 178 L 64 150 L 76 178 L 88 152 L 100 180 L 112 150 L 124 178 L 136 154 L 148 178" />
-      <path d="M 180 190 L 188 154 L 216 152 L 224 190 L 248 190 L 256 154 L 284 152 L 292 190 L 300 190" />
+      <path id="anima-1" d="M 30 74 L 40 40 L 52 36 L 64 40 L 76 36 L 88 40 L 100 36 L 112 40 L 124 36 L 136 40 L 150 38" />
+      <path id="anima-2" d="M 180 74 L 190 34 L 200 74 L 212 74 L 222 34 L 232 74 L 244 74 L 254 34 L 264 74 L 276 74 L 286 34 L 296 74 L 300 74" />
+      <path id="anima-3" d="M 30 190 L 40 152 L 52 178 L 64 150 L 76 178 L 88 152 L 100 180 L 112 150 L 124 178 L 136 154 L 148 178" />
+      <path id="anima-4" d="M 180 190 L 188 154 L 216 152 L 224 190 L 248 190 L 256 154 L 284 152 L 292 190 L 300 190" />
     </g>
     <!-- referencias de leitura, apenas na primeira miniatura -->
     <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none">
@@ -340,6 +340,38 @@ linhas:
   - ["Cheyne-Stokes", "Amplitude crescente até um máximo, depois decrescente, podendo chegar à apneia", "Disfunção ventricular esquerda, lesões do sistema nervoso central"]
   - ["Kussmaul", "Inspirações amplas e rápidas separadas por curtos períodos de apneia", "Cetoacidose diabética e outras acidoses metabólicas"]
   - ["Biot", "Movimentos de amplitudes e intervalos irregulares, sem padrão", "Lesões bulbares, meningite"]
+:::
+
+::: ilustracao
+svg: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- eixos das quatro miniaturas -->
+    <g stroke="currentColor" stroke-width="1.5" fill="none">
+      <path d="M 30 26 L 30 86 L 150 86" />
+      <path d="M 180 26 L 180 86 L 300 86" />
+      <path d="M 30 142 L 30 202 L 150 202" />
+      <path d="M 180 142 L 180 202 L 300 202" />
+    </g>
+    <!-- tracados: cada incursao respiratoria como uma onda -->
+    <g stroke="currentColor" stroke-width="2" fill="none">
+      <path id="anima-1" d="M 30 82 Q 40 48 50 82 Q 60 48 70 82 Q 80 48 90 82 Q 100 48 110 82 Q 120 48 130 82 Q 140 48 150 82" />
+      <path id="anima-2" d="M 180 82 L 190 82 Q 197 72 204 82 Q 211 58 218 82 Q 225 44 232 82 Q 239 58 246 82 Q 253 72 260 82 L 300 82" />
+      <path id="anima-3" d="M 30 198 Q 37 150 44 198 L 50 198 Q 57 150 64 198 L 70 198 Q 77 150 84 198 L 90 198 Q 97 150 104 198 L 110 198 Q 117 150 124 198 L 130 198 Q 137 150 144 198 L 150 198" />
+      <path id="anima-4" d="M 180 198 Q 185 176 190 198 L 202 198 Q 209 154 216 198 Q 221 186 226 198 L 246 198 Q 252 164 258 198 L 264 198 Q 272 156 280 198 L 300 198" />
+    </g>
+    <!-- referencia de apneia no Cheyne-Stokes -->
+    <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none" text-anchor="middle">
+      <text x="280" y="78">apneia</text>
+    </g>
+    <!-- nomes dos ritmos -->
+    <g font-family="sans-serif" font-size="11" fill="currentColor" stroke="none" text-anchor="middle">
+      <text x="90" y="106">Eupneia</text>
+      <text x="240" y="106">Cheyne-Stokes</text>
+      <text x="90" y="222">Kussmaul</text>
+      <text x="240" y="222">Biot</text>
+    </g>
+  </svg>
+legenda: "Os quatro ritmos como traçado, cada incursão como uma onda. Na eupneia, movimentos regulares e de amplitude semelhante. No Cheyne-Stokes, a amplitude cresce até um máximo e depois decresce, podendo chegar à apneia. No Kussmaul, inspirações amplas e rápidas separadas por curtos períodos de apneia. No Biot, amplitudes e intervalos irregulares, sem padrão — é o minuto inteiro de observação que revela esses desenhos, nunca os 15 segundos multiplicados por quatro."
 :::
 
 ::: perola

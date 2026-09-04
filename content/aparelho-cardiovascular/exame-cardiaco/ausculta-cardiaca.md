@@ -77,6 +77,13 @@ texto: |
   A cadência de referência é **TUM-TA — TUM-TA — TUM-TA**.
 :::
 
+::: som
+titulo: Bulhas normais — TUM-TA
+arquivo: bulhas-normais
+descricao: |
+  B1 mais grave e um pouco mais longa (TUM); B2 mais aguda, curta e seca (TA). Repare no pequeno silêncio entre B1 e B2 — a sístole — mais curto que o grande silêncio que fecha cada ciclo.
+:::
+
 ::: conceito
 titulo: Como as bulhas se formam
 texto: |
@@ -291,6 +298,13 @@ texto: |
   **Galope atrial.** Corresponde ao ritmo tríplice por B4. Não é sinal de insuficiência descompensada, mas de insuficiência iminente: o ventrículo doente pede ajuda da contração atrial para melhorar o enchimento final. Aparece sobretudo na hipertensão arterial grave e na insuficiência coronária crônica.
 
   **Galope de soma.** Na taquicardia, a diástole encurta e os fenômenos que geram B3 e B4 se fundem em um só ruído, às vezes mais intenso que B1 ou B2. Só se confirma observando o paciente depois que a frequência cai.
+:::
+
+::: som
+titulo: Ritmo de galope por B3 — PA-TA-TA
+arquivo: galope-b3
+descricao: |
+  O terceiro tempo grave logo depois de B2 dá a cadência de galope. É o som que a campânula apoiada de leve encontra na ponta, em decúbito lateral esquerdo — e que some se você comprimir demais o receptor.
 :::
 
 ::: conceito

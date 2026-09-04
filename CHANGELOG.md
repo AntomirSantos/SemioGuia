@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog` — edite lá.
 
+## 1.2.8 — 2026-09-04
+
+- Ausculta dentro do tópico: 8 sons sintetizados tocáveis — bulhas, galope, sopros sistólico e diastólico, murmúrio, sibilos e estertores
+- As ilustrações temporais agora se desenham: sopros no ciclo, ondas do pulso venoso, curvas térmicas e os ritmos respiratórios (novos, com Cheyne-Stokes)
+- Micro-recompensas sóbrias no quiz: check que se desenha, toque háptico no celular e o fecho "Revisão do dia encerrada"
+
 ## 1.2.7 — 2026-09-04
 
 - Caso-relâmpago em todos os 55 tópicos: um parágrafo-caso com uma decisão única no fim da leitura

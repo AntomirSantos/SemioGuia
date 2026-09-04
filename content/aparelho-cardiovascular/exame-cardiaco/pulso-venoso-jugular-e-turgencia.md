@@ -91,7 +91,7 @@ svg: |
     <!-- linha de base do traçado -->
     <path d="M 24 116 L 306 116" stroke-width="1.5" stroke-dasharray="4 4" />
     <!-- traçado do pulso venoso: ondas a, c, v e deflexões x' (profunda) e y (rasa) -->
-    <path d="M 24 106 L 55 66 L 72 100 L 88 82 L 132 128 L 150 74 L 180 106 L 205 100 L 227 66 L 244 100 L 260 82 L 302 128" stroke-width="2" />
+    <path id="anima-1" d="M 24 106 L 55 66 L 72 100 L 88 82 L 132 128 L 150 74 L 180 106 L 205 100 L 227 66 L 244 100 L 260 82 L 302 128" stroke-width="2" />
     <!-- guias verticais das bulhas -->
     <g stroke-width="1.5" stroke-dasharray="3 4">
       <path d="M 78 92 L 78 156" />

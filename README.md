@@ -30,7 +30,8 @@ como "Revisado" no app.
 | Questões de quiz | **327** (balanceadas por índice e comprimento) |
 | Checklists OSCE | **53** (viram estações de prática) |
 | Ilustrações SVG | **52** (temáveis via `currentColor`, geometria verificada) |
-| Testes | **55 suítes / 422 testes** verdes |
+| Sons de ausculta | **8** (sintetizados por script — livres de direitos) |
+| Testes | **57 suítes / 433 testes** verdes |
 
 ## Stack
 
@@ -41,6 +42,12 @@ como "Revisado" no app.
   linhas" (`resumo`) e termina num caso-relâmpago (`relampago`) — um
   parágrafo-caso de decisão única, ponte para os casos ramificados; 220
   textos derivados do conteúdo já revisado
+- **Semiologia em movimento e som** (set/2026): ilustrações temporais que
+  se desenham (`id="anima-N"` + stroke-dashoffset — sopros no ciclo, ondas
+  do pulso venoso, curvas térmicas, ritmos respiratórios), 8 sons de
+  ausculta sintetizados por `scripts/gerar-sons.py` (bloco `som`, player
+  expo-audio) e micro-recompensas sóbrias no quiz (check que se desenha,
+  shake curto, expo-haptics) — tudo respeitando `prefers-reduced-motion`
 - **Conteúdo como dados**: YAML + Markdown com blocos tipados em `content/`,
   validados por **Zod** e compilados por `npm run build:content` para
   `assets/generated/content.json` (offline-first; busca local sem servidor)
@@ -112,7 +119,7 @@ npm install
 npm run build:content   # compila o conteúdo (YAML/MD → JSON)
 npx expo start          # i = iOS, a = Android, w = web
 
-npm test                # 55 suítes / 422 testes
+npm test                # 57 suítes / 433 testes
 npm run checar:contraste
 npm run checar:rv
 npx tsc --noEmit

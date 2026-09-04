@@ -1,0 +1,90 @@
+import { Text, View } from 'react-native';
+import { useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
+import { Pause, Play, Volume2 } from 'lucide-react-native';
+import type { Bloco } from '../content/schema';
+import { useTema } from '../design/ThemeContext';
+import { espaco, fonte, raio, tipo } from '../design/tokens';
+import { Pressionavel } from '../design/movimento';
+import { AVISO_SOM_SINTETIZADO, FONTES_DE_SOM } from '../config/sons';
+import { IdentidadeBloco } from './identidade';
+
+type SomBloco = Extract<Bloco, { tipo: 'som' }>;
+
+// Bloco de ausculta (didática 2026-09): o som tocável dentro do tópico —
+// B1/B2, sopros, murmúrio, sibilos, estertores. Os arquivos são sintetizados
+// por scripts/gerar-sons.py (livres de direitos) e o aviso deixa claro ao
+// estudante que é representação didática, não gravação clínica. O player
+// toca em loop enquanto ativo — ausculta se escuta em ciclos, não em takes.
+export function Som({ bloco }: { bloco: SomBloco }) {
+  const { paleta, escala } = useTema();
+  const player = useAudioPlayer(FONTES_DE_SOM[bloco.arquivo]);
+  const status = useAudioPlayerStatus(player);
+  const tocando = status.playing;
+  const corpo = Math.round(tipo.corpo * escala);
+  const small = Math.round(tipo.small * escala);
+
+  function alternar() {
+    if (tocando) {
+      player.pause();
+      return;
+    }
+    player.loop = true;
+    player.play();
+  }
+
+  return (
+    <View
+      style={{
+        borderWidth: 1,
+        borderColor: paleta.linha,
+        borderRadius: raio.m,
+        paddingVertical: espaco.m,
+        paddingHorizontal: espaco.l,
+        marginVertical: espaco.l,
+        backgroundColor: paleta.superficie,
+      }}
+    >
+      <IdentidadeBloco Icone={Volume2} rotulo="Ausculta" />
+      <View style={{ flexDirection: 'row', alignItems: 'center', gap: espaco.m }}>
+        <Pressionavel
+          accessibilityRole="button"
+          accessibilityLabel={tocando ? `Pausar ${bloco.titulo}` : `Ouvir ${bloco.titulo}`}
+          onPress={alternar}
+          style={{
+            width: 44,
+            height: 44,
+            borderRadius: 22,
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: paleta.acento,
+          }}
+        >
+          {tocando ? (
+            <Pause size={20} color={paleta.superficie} fill={paleta.superficie} />
+          ) : (
+            <Play size={20} color={paleta.superficie} fill={paleta.superficie} style={{ marginLeft: 2 }} />
+          )}
+        </Pressionavel>
+        <View style={{ flex: 1 }}>
+          <Text style={{ fontFamily: fonte.leituraSemi, fontSize: corpo, color: paleta.tinta }}>{bloco.titulo}</Text>
+          <Text
+            style={{
+              fontFamily: fonte.corpo,
+              fontSize: small,
+              lineHeight: Math.round(small * 1.45),
+              color: paleta.tinta2,
+              marginTop: 2,
+            }}
+          >
+            {bloco.descricao}
+          </Text>
+        </View>
+      </View>
+      <View style={{ borderTopWidth: 1, borderTopColor: paleta.linha, marginTop: espaco.m, paddingTop: espaco.s }}>
+        <Text style={{ fontFamily: fonte.corpo, fontSize: tipo.tag + 1, color: paleta.tinta2 }}>
+          {AVISO_SOM_SINTETIZADO}
+        </Text>
+      </View>
+    </View>
+  );
+}

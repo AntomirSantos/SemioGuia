@@ -16,6 +16,9 @@ import { amanha, avaliar, notaDeEstacao, notaDePergunta, type ItemRevisao, type 
 import { hojeLocal, agoraIso } from '../revisao/hoje';
 import { EstacaoOsce, type ResultadoEstacao } from '../revisao/EstacaoOsce';
 import { PerguntaCard, BotaoPrincipal } from '../quiz/PerguntaCard';
+import { RegraAnimada } from '../design/movimento';
+import { CheckDesenhado } from '../design/CheckDesenhado';
+import { hapticaConclusao } from '../design/feedbackTatil';
 import { track } from '../analytics/analytics';
 import type { Bloco, Conteudo, QuizPergunta } from '../content/schema';
 
@@ -187,6 +190,8 @@ export function TelaRevisao() {
   useEffect(() => {
     if (!concluida || !fila) return;
     track('revisao_concluida', { itens: fila.itens.length, acertos, erros });
+    // Fecho tátil da sessão — um toque de encerramento, só no aparelho.
+    hapticaConclusao();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [concluida]);
 
@@ -209,7 +214,16 @@ export function TelaRevisao() {
     return (
       <Tela>
         <Cabecalho titulo="" aoVoltar={() => router.back()} />
-        <Rotulo texto="Revisão concluída" style={{ marginBottom: espaco.xs + 2 }} />
+        {/* Fecho tipográfico (micro-recompensa sóbria): a regra editorial se
+            desenha, o check se desenha, e a frase encerra o dia — nada de
+            confete, é o Design Editorial comemorando do jeito dele. */}
+        <RegraAnimada cor={paleta.acento} />
+        <View style={{ flexDirection: 'row', alignItems: 'center', gap: espaco.s, marginTop: espaco.l, marginBottom: espaco.l }}>
+          <CheckDesenhado cor={paleta.acentoTinta} tamanho={24} />
+          <Text style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.h2 * escala), color: paleta.tinta }}>
+            Revisão do dia encerrada
+          </Text>
+        </View>
         <Text style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.hero * escala), color: paleta.acento, marginBottom: espaco.s }}>
           {acertos}/{total}
         </Text>

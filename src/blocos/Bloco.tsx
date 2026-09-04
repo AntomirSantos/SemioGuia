@@ -14,6 +14,7 @@ import { Cena } from './Cena';
 import { Pense } from './Pense';
 import { Resumo } from './Resumo';
 import { Relampago } from './Relampago';
+import { Som } from './Som';
 import { Avancado } from './Avancado';
 
 // Rótulo pt-BR singular por tipo, usado no cabeçalho "Aprofundar · <rótulo>"
@@ -34,6 +35,7 @@ const ROTULOS: Record<Bloco['tipo'], string> = {
   pense: 'Pense',
   resumo: 'Resumo',
   relampago: 'Caso-relâmpago',
+  som: 'Ausculta',
 };
 
 function renderConteudo(bloco: Bloco, onIniciarQuiz?: (p: QuizPergunta[]) => void, topicoId?: string) {
@@ -68,6 +70,8 @@ function renderConteudo(bloco: Bloco, onIniciarQuiz?: (p: QuizPergunta[]) => voi
       return <Resumo bloco={bloco} />;
     case 'relampago':
       return <Relampago bloco={bloco} />;
+    case 'som':
+      return <Som bloco={bloco} />;
   }
 }
 
