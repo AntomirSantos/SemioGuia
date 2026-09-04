@@ -29,9 +29,9 @@ como "Revisado" no app.
 | Casos clínicos interativos | **3** |
 | Questões de quiz | **327** (balanceadas por índice e comprimento) |
 | Checklists OSCE | **53** (viram estações de prática) |
-| Ilustrações SVG | **52** (temáveis via `currentColor`, geometria verificada) |
+| Ilustrações SVG | **59** (temáveis via `currentColor`, geometria verificada; cobertura em `npm run relatorio:ilustracoes`) |
 | Sons de ausculta | **20** (17 sintetizados por script + 3 gravações clínicas reais CC BY 4.0) |
-| Testes | **57 suítes / 433 testes** verdes |
+| Testes | **58 suítes / 439 testes** verdes |
 
 ## Stack
 
@@ -77,6 +77,9 @@ npm run checar:travessao`, toda RV em prosa precisa da
   evidência, manobras passo a passo, pérolas (pull-quotes), armadilhas
   e ilustrações
 - **Busca**: offline, por sinal, manobra, epônimo ou tópico
+- **Modo plantão**: "achei um sinal no exame, e agora?": busca instantânea
+  sobre os verbetes `sinal` do conteúdo revisado, do achado ao significado,
+  às causas e ao tópico de origem
 - **Estudar**: quiz por sistema, revisão espaçada do dia (SM-2),
   estações OSCE geradas dos checklists e os 3 casos clínicos ramificados
 - **Perfil**: progresso, data da prova, preferências, tema claro/escuro,
@@ -120,7 +123,7 @@ npm install
 npm run build:content   # compila o conteúdo (YAML/MD → JSON)
 npx expo start          # i = iOS, a = Android, w = web
 
-npm test                # 57 suítes / 433 testes
+npm test                # 58 suítes / 439 testes
 npm run checar:contraste
 npm run checar:rv
 npx tsc --noEmit

@@ -178,6 +178,58 @@ texto: |
   Uma advertência de vocabulário: o nome **Lemos Torres** designa, na semiologia do tórax, um sinal completamente diferente, o abaulamento dos espaços intercostais durante a expiração, indicativo de derrame pleural, descrito no tópico de inspeção do tórax. Mesmo epônimo, dois achados sem qualquer relação.
 :::
 
+::: ilustracao
+svg: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- contorno do abdome, frente: a direita do paciente fica a esquerda de quem olha -->
+    <g stroke="currentColor" stroke-width="2" fill="none">
+      <path d="M 95 34 C 92 80, 90 140, 96 196" />
+      <path d="M 225 34 C 228 80, 230 140, 224 196" />
+      <path d="M 96 196 C 118 204, 202 204, 224 196" />
+    </g>
+    <!-- rebordo costal -->
+    <g stroke="currentColor" stroke-width="2" fill="none">
+      <path d="M 95 78 C 115 62, 140 54, 160 54" />
+      <path d="M 160 54 C 180 54, 205 62, 225 78" />
+    </g>
+    <!-- borda hepatica, logo abaixo do rebordo direito, com a seta da descida inspiratoria -->
+    <g stroke="currentColor" stroke-width="1.5" fill="none">
+      <path d="M 97 88 C 120 76, 142 68, 158 66" stroke-dasharray="5 4" />
+      <path d="M 84 102 L 84 116" />
+      <path d="M 79 111 L 84 117 L 89 111" />
+    </g>
+    <!-- umbigo -->
+    <circle cx="160" cy="142" r="3" stroke-width="1.5" />
+    <!-- linha hemiclavicular direita -->
+    <path d="M 113 62 L 113 196" stroke-width="1" stroke-dasharray="2 5" />
+    <!-- rota da palpacao: comeca embaixo e sobe por degraus a cada respiracao -->
+    <g stroke="currentColor" stroke-width="2" fill="none">
+      <circle cx="113" cy="184" r="4" fill="currentColor" fill-opacity="0.12" />
+      <path d="M 113 176 L 113 96" stroke-dasharray="7 5" />
+      <path d="M 107 102 L 113 94 L 119 102" />
+      <path d="M 106 161 L 120 161" stroke-width="1.5" />
+      <path d="M 106 141 L 120 141" stroke-width="1.5" />
+      <path d="M 106 121 L 120 121" stroke-width="1.5" />
+    </g>
+    <g font-family="sans-serif" font-size="11" fill="currentColor" stroke="none">
+      <text x="128" y="40">rebordo costal</text>
+      <text x="170" y="94">borda hepática</text>
+      <text x="98" y="152" text-anchor="end">1 a 2 cm por</text>
+      <text x="98" y="165" text-anchor="end">respiração</text>
+      <text x="76" y="98" text-anchor="end">desce na</text>
+      <text x="76" y="111" text-anchor="end">inspiração</text>
+      <text x="118" y="213">início: quadrante inferior direito</text>
+    </g>
+    <g stroke="currentColor" stroke-width="1.5" fill="none">
+      <path d="M 168 88 L 152 74" />
+      <path d="M 159 73 L 151 73 L 156 80" />
+      <path d="M 121 208 L 114 191" />
+      <path d="M 112 199 L 113 190 L 120 195" />
+    </g>
+  </svg>
+legenda: "A rota da palpação hepática: em caso de dúvida, começa no quadrante inferior direito e sobe 1 a 2 cm a cada respiração, até a borda vir ao encontro dos dedos na inspiração."
+:::
+
 ::: manobra
 titulo: Palpação da borda hepática
 passos:

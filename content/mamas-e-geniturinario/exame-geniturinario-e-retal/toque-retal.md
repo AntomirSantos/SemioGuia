@@ -303,7 +303,7 @@ linhas:
 ::: entendimento
 titulo: Como ler o quadro, e uma célula que pede cautela
 texto: |
-  O quadro rende mais lido por linhas inteiras do que por células: a **prostatite aguda** é a linha da dor e do amolecimento; a **hiperplasia** é a do crescimento ordeiro (globosa, lisa, elástica, de limites nítidos; o **tumor** é a linha da desordem) disforme, nodular, pétreo, de limites imprecisos. Uma célula, porém, pede cautela de leitura: o quadro registra a próstata normal como "dolorosa" à sensibilidade, reproduzimos o quadro fielmente, mas a leitura coerente com o conjunto das fontes é a de um **gradiente**: o toque da próstata normal provoca desconforto e alguma sensibilidade, que a prostatite aguda transforma em dor **extrema** (a mesma obra a descreve assim, e a *Semiologia Médica* fala em próstata extremamente dolorosa). O guia sinaliza a célula à revisão em vez de corrigi-la em silêncio. E o contraste que fecha a leitura: na prostatite **crônica**, a próstata pode ser normal e **indolor**, a ausência de dor não exclui doença prostática, como a linha do tumor também mostra.
+  O quadro rende mais lido por linhas inteiras do que por células: a **prostatite aguda** é a linha da dor e do amolecimento; a **hiperplasia** é a do crescimento ordeiro (globosa, lisa, elástica, de limites nítidos); o **tumor** é a linha da desordem (disforme, nodular, pétreo, de limites imprecisos). Uma célula, porém, pede cautela de leitura: o quadro registra a próstata normal como "dolorosa" à sensibilidade, reproduzimos o quadro fielmente, mas a leitura coerente com o conjunto das fontes é a de um **gradiente**: o toque da próstata normal provoca desconforto e alguma sensibilidade, que a prostatite aguda transforma em dor **extrema** (a mesma obra a descreve assim, e a *Semiologia Médica* fala em próstata extremamente dolorosa). O guia sinaliza a célula à revisão em vez de corrigi-la em silêncio. E o contraste que fecha a leitura: na prostatite **crônica**, a próstata pode ser normal e **indolor**, a ausência de dor não exclui doença prostática, como a linha do tumor também mostra.
 :::
 
 ::: conceito
@@ -364,7 +364,7 @@ texto: |
 ::: conceito
 titulo: Onde este tópico encontra os outros
 texto: |
-  - **Abdome agudo e sinais peritoneais** é o credor pago por este tópico: lá vivem os números do toque na dor abdominal aguda, a sensibilidade que os estudos não validaram e o abscesso pélvico raro que justifica o exame, ; aqui vive a técnica que aqueles números pressupõem.
+  - **Abdome agudo e sinais peritoneais** é o credor pago por este tópico: lá vivem os números do toque na dor abdominal aguda, a sensibilidade que os estudos não validaram e o abscesso pélvico raro que justifica o exame; aqui vive a técnica que aqueles números pressupõem.
   - **Genitália masculina e hérnias**, o primeiro tópico deste capítulo, entrega ao toque os genitais internos: próstata e vesículas seminais.
   - **Exame ginecológico** empresta e toma emprestado: o toque retal serve à paciente virgem, aos paramétrios e ao septo retovaginal; o retovaginal confirma a enterocele.
   - **Percussão do abdome** carrega a semiotécnica do bexigoma e da macicez suprapúbica que antecede a leitura da próstata obstrutiva.
@@ -389,7 +389,7 @@ texto: |
 :::
 
 ::: perola
-texto: "A Semiologia Médica resume este tópico em uma sentença que vale por um capítulo: sem toque retal, nenhum exame físico merece o adjetivo completo. A sentença não promete que o toque acha tudo (o câncer inicial da próstata escapa, os números da peritonite são modestos) ; promete que quem nunca toca nunca acha."
+texto: "A Semiologia Médica resume este tópico em uma sentença que vale por um capítulo: sem toque retal, nenhum exame físico merece o adjetivo completo. A sentença não promete que o toque acha tudo (o câncer inicial da próstata escapa, os números da peritonite são modestos); promete que quem nunca toca nunca acha."
 :::
 
 ::: relampago

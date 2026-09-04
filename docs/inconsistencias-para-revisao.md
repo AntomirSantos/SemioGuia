@@ -661,3 +661,26 @@ vírgula. NENHUM conteúdo médico mudou, apenas pontuação. O gate novo
 `npm run checar:travessao` roda no build e impede o retorno do sinal; a
 regra está registrada em AGENTS.md como permanente. Vale uma leitura de
 amostragem do autor para confirmar que o ritmo do texto continua o seu.
+
+**Complemento (v1.2.15):** duas frentes novas e um reparo. (1) Cobertura de
+ilustração: o relatório reproduzível `npm run relatorio:ilustracoes` lista a
+contagem por tópico; dos 7 tópicos que estavam sem nenhuma, 4 ganharam
+ilustração nova, todas derivadas do texto já revisado: a rota da palpação
+hepática (quadrante inferior direito, subida de 1 a 2 cm por respiração,
+rebordo e borda), as curvas de instalação dos 3 Ds (traçado animado: horas a
+dias com flutuação, semanas, meses a anos), os territórios da palpação da
+mama (quadrantes pelas linhas do mamilo, subareolar, cauda de Spence) e a
+ordem do exame pediátrico que se curva ao choro. Ficaram sem ilustração, por
+decisão: Antecedentes e hábitos e Interrogatório sintomatológico (conteúdo
+verbal, baixo rendimento de imagem) e Exame ginecológico (imagem sensível;
+o autor decide se quer e qual). (2) Modo plantão: tela nova de consulta
+rápida ("achei um sinal no exame, e agora?") que só REAPRESENTA os 36
+verbetes `sinal` do conteúdo revisado, com nome, achado, significado,
+causas e salto ao tópico; nenhum texto novo foi escrito. (3) Reparo: a
+conversão dos travessões (v1.2.13) tinha embaralhado a pontuação de 10
+trechos (apostos com ponto-e-vírgula interno, ex.: os dermátomos C6/C7/C8 e
+os compartimentos do prolapso); todos foram restaurados com fidelidade ao
+texto original pré-conversão, conferidos um a um contra o git. Vale conferir
+na leitura: dermátomos (Sensibilidade e coordenação), prolapso por
+compartimento (Exame ginecológico), quadro da próstata (Toque retal) e o
+eixo dos 3 Ds.

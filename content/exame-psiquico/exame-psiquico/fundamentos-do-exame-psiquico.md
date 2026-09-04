@@ -129,7 +129,7 @@ passos:
   - "Distinga no registro a orientação no tempo, no espaço e quanto à própria identidade."
   - "Anote os sentimentos que o paciente despertou em você (dado semiológico, não confissão) e feche registrando cada função em separado."
 observar: |
-  A ordem das funções não é cerimonial. Semiologia Clínica explica a lógica da sequência: primeiro se descrevem as funções que, alteradas, **indicam disfunção neurológica ou comprometem a avaliação de todas as outras** (consciência, orientação, atenção, memória) ; depois as que revelam o estado mental de forma mais elaborada, humor, pensamento, juízo. Um paciente desatento vai falhar em tudo o que vier depois, sem que nada do resto esteja doente.
+  A ordem das funções não é cerimonial. Semiologia Clínica explica a lógica da sequência: primeiro se descrevem as funções que, alteradas, **indicam disfunção neurológica ou comprometem a avaliação de todas as outras** (consciência, orientação, atenção, memória); depois as que revelam o estado mental de forma mais elaborada, humor, pensamento, juízo. Um paciente desatento vai falhar em tudo o que vier depois, sem que nada do resto esteja doente.
 
   E um aviso de variabilidade que é honestidade das fontes: a *Semiologia Médica* registra que o mesmo paciente, examinado por outro médico (ou pelo mesmo, horas depois) pode ter o estado mental avaliado de modo diferente, seja pelas influências mútuas da relação, seja porque a sintomatologia psicopatológica **flutua**: o paciente normal pela manhã pode estar desorientado e confuso ao fim do dia. Registrar o horário do exame faz parte do exame.
 :::

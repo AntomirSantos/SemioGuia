@@ -191,11 +191,11 @@ texto: |
 
   As zonas de assinatura que resolvem a maior parte dos casos, na tabela que McGee reproduz do padrão internacional usado na classificação da lesão medular:
 
-  - **C6** (o polegar; **C7**) o dedo médio; **C8**: o dedo mínimo;
-  - **C3** (a fossa supraclavicular; **C4**) o topo da articulação acromioclavicular;
-  - **T4** (o quarto espaço intercostal, na linha mamilar; **T10**) o décimo espaço intercostal, no umbigo; **T12**: o ponto médio do ligamento inguinal;
-  - **L3** (o côndilo femoral medial; **L4**) o maléolo medial; **L5**: o dorso do pé, na altura da terceira articulação metatarsofalângica;
-  - **S1** (o calcanhar lateral; **S4 e S5**) a região perianal.
+  - **C6**: o polegar; **C7**: o dedo médio; **C8**: o dedo mínimo;
+  - **C3**: a fossa supraclavicular; **C4**: o topo da articulação acromioclavicular;
+  - **T4**: o quarto espaço intercostal, na linha mamilar; **T10**: o décimo espaço intercostal, no umbigo; **T12**: o ponto médio do ligamento inguinal;
+  - **L3**: o côndilo femoral medial; **L4**: o maléolo medial; **L5**: o dorso do pé, na altura da terceira articulação metatarsofalângica;
+  - **S1**: o calcanhar lateral; **S4 e S5**: a região perianal.
 
   Semiologia Clínica registra as mesmas referências torácicas ao ensinar o exame do tórax, citando **T4 na altura dos mamilos** e **T10 no umbigo**: o que dá ao leitor deste guia a mesma tabela por duas portas. E McGee acrescenta um detalhe cultural útil: o **dermátomo C2 inclui o ângulo da mandíbula e a maior parte da orelha**, o que explica dores referidas que parecem faciais e não são.
 

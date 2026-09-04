@@ -68,7 +68,8 @@
     "relatorio:beta": "tsx scripts/relatorio-beta.ts",
     "changelog": "tsx scripts/gerar-changelog.ts",
     "revisao:status": "tsx scripts/revisao.ts",
-    "checar:travessao": "tsx scripts/checar-travessao.ts"
+    "checar:travessao": "tsx scripts/checar-travessao.ts",
+    "relatorio:ilustracoes": "tsx scripts/relatorio-ilustracoes.ts"
   },
   "private": true
 }

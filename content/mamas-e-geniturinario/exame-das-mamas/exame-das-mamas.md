@@ -212,6 +212,42 @@ texto: |
   **O que qualquer das três exige:** que nenhum território fique de fora (subareolar, os quatro quadrantes, o prolongamento axilar) e que cada achado saia com endereço. Como descrever o que a mão encontrou é o assunto do próximo tópico.
 :::
 
+::: ilustracao
+svg: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 210" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- mama direita vista de frente: a axila fica a direita de quem olha -->
+    <circle cx="140" cy="118" r="62" />
+    <!-- prolongamento axilar (cauda de Spence) rumo a axila -->
+    <path d="M 186 76 C 214 56, 240 42, 260 34" />
+    <path d="M 196 90 C 222 74, 246 60, 264 48" />
+    <path d="M 260 34 C 266 38, 266 42, 264 48" stroke-width="1.5" />
+    <!-- linhas vertical e horizontal tracadas pelo mamilo -->
+    <path d="M 140 46 L 140 190" stroke-width="1" stroke-dasharray="2 5" />
+    <path d="M 68 118 L 212 118" stroke-width="1" stroke-dasharray="2 5" />
+    <!-- areola e mamilo -->
+    <circle cx="140" cy="118" r="15" stroke-width="1.5" fill="currentColor" fill-opacity="0.12" />
+    <circle cx="140" cy="118" r="3" fill="currentColor" />
+    <g font-family="sans-serif" font-size="11" fill="currentColor" stroke="none">
+      <text x="252" y="22">axila</text>
+      <text x="234" y="86">cauda de</text>
+      <text x="234" y="99">Spence</text>
+      <text x="22" y="48">quatro</text>
+      <text x="22" y="61">quadrantes</text>
+      <text x="30" y="160">subareolar</text>
+      <text x="146" y="205">linha vertical do mamilo</text>
+    </g>
+    <g stroke="currentColor" stroke-width="1.5" fill="none">
+      <path d="M 56 70 L 92 88" />
+      <path d="M 84 84 L 92 88 L 85 92" />
+      <path d="M 76 152 L 122 128" />
+      <path d="M 113 128 L 122 128 L 117 135" />
+      <path d="M 236 90 L 221 83" />
+      <path d="M 228 79 L 220 83 L 226 90" />
+    </g>
+  </svg>
+legenda: "Os territórios que a palpação não deixa de fora: os quatro quadrantes traçados pelas linhas vertical e horizontal do mamilo, a região subareolar e o prolongamento axilar (cauda de Spence), que termina dentro da axila."
+:::
+
 ::: conceito
 titulo: Expressão papilar e o ponto de gatilho
 texto: |

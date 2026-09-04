@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.15',
+    data: '2026-09-04',
+    linhas: [
+      'Modo plantão: "achei um sinal no exame, e agora?", busca instantânea do achado ao significado, às causas e ao tópico',
+      'Quatro ilustrações novas onde não havia nenhuma: rota da palpação hepática, curvas de instalação dos 3 Ds (animadas), territórios da mama e a ordem do exame da criança',
+      'Reparos de pontuação em dez trechos que a remoção dos travessões havia embaralhado',
+    ],
+  },
+  {
     versao: '1.2.14',
     data: '2026-09-04',
     linhas: [

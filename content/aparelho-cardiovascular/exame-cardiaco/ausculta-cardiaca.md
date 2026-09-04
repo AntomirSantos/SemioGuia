@@ -240,7 +240,7 @@ texto: |
 titulo: "Desdobramento fisiológico de B2: TLA"
 arquivo: desdobramento-b2
 descricao: |
-  A respiração ao fundo marca as fases: na inspiração, B2 se divide em dois componentes, o TLA, ; na expiração, volta a ser única. É o comportamento que define o desdobramento fisiológico, ouvido na área pulmonar.
+  A respiração ao fundo marca as fases: na inspiração, B2 se divide em dois componentes, o TLA; na expiração, volta a ser única. É o comportamento que define o desdobramento fisiológico, ouvido na área pulmonar.
 :::
 
 ::: tabela

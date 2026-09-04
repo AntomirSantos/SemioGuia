@@ -702,7 +702,7 @@ texto: |
 
   E vem a atualização, que este guia registra com sua data de raciocínio: a regra tinha muito mais valor **na época em que o único exame para aneurisma intracraniano era a arteriografia por cateter**, que carrega risco de acidente vascular em torno de 2%. Com angiotomografia e ressonância disponíveis, a maioria dos especialistas recomenda **investigar por imagem não invasiva todos os pacientes** com paralisia isolada e não traumática do III de início recente, com ou sem poupança pupilar. A regra continua ensinando fisiopatologia; deixou de decidir conduta.
 
-  Uma última nota que fecha o círculo com a primeira pergunta da diplopia: para a **miastenia**, McGee registra o teste da bolsa de gelo, em que se aplica gelo sobre o olho por dois a cinco minutos. A melhora da ptose tem razão de verossimilhança **8,3**, elevação substancial da probabilidade, ; a melhora da diplopia e da oftalmoplegia, **30,6**, que praticamente confirma o diagnóstico: um dos números mais altos entre os testes de beira de leito deste capítulo.
+  Uma última nota que fecha o círculo com a primeira pergunta da diplopia: para a **miastenia**, McGee registra o teste da bolsa de gelo, em que se aplica gelo sobre o olho por dois a cinco minutos. A melhora da ptose tem razão de verossimilhança **8,3**, elevação substancial da probabilidade; a melhora da diplopia e da oftalmoplegia, **30,6**, que praticamente confirma o diagnóstico: um dos números mais altos entre os testes de beira de leito deste capítulo.
 :::
 
 ::: conceito

@@ -9,6 +9,7 @@ import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, tipo } from '../../design/tokens';
 import { useConteudo } from '../../content/ContentContext';
 import { listarSistemas, listarTodosTopicos, obterSistema, obterTopico, sistemaRevisado } from '../../content/store';
+import { listarSinais } from '../../plantao/sinais';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import { montarFila } from '../../revisao/fila';
@@ -212,6 +213,50 @@ function CartaoPlano({ dataProva, paraRevisarHoje, topicosRestantes, sistemaProv
   );
 }
 
+// Modo plantão (produto 2026-09): o atalho de consulta rápida, "achei um
+// sinal no exame, e agora?". Mesma anatomia editorial das outras linhas; o
+// filete usa o acento (não é de nenhum sistema: os verbetes vêm de todos).
+function CartaoPlantao({ totalSinais }: { totalSinais: number }) {
+  const { paleta, escala } = useTema();
+  return (
+    <View style={{ marginBottom: espaco.xl }}>
+      <RotuloDeSecao texto="Modo plantão" />
+      <Pressionavel
+        accessibilityRole="button"
+        onPress={() => router.push('/plantao')}
+        style={{
+          flexDirection: 'row',
+          alignItems: 'center',
+          paddingVertical: espaco.s,
+          borderBottomWidth: 1,
+          borderBottomColor: paleta.linha,
+          minHeight: 44,
+        }}
+      >
+        <View style={{ width: 8, height: 34, backgroundColor: paleta.acento, marginRight: espaco.m }} />
+        <View style={{ flex: 1 }}>
+          <Text
+            style={{
+              fontFamily: fonte.display,
+              fontSize: Math.round(tipo.h3 * escala),
+              lineHeight: Math.round(tipo.h3 * escala * 1.25),
+              color: paleta.tinta,
+            }}
+          >
+            Achei um sinal no exame, e agora?
+          </Text>
+          <Text
+            style={{ fontFamily: fonte.corpo, fontSize: Math.round(12 * escala), color: paleta.tinta2, marginTop: 2 }}
+          >
+            {totalSinais} sinais: do achado ao significado, às causas e ao tópico
+          </Text>
+        </View>
+        <ChevronRight size={18} color={paleta.tinta2} style={{ marginLeft: espaco.s }} />
+      </Pressionavel>
+    </View>
+  );
+}
+
 function useUltimoTopico(conteudo: Conteudo): { topico: Topico; sistema: Sistema } | null | undefined {
   const progresso = useProgresso();
   const carregar = useCallback(async () => {
@@ -288,6 +333,7 @@ export default function Guia() {
         />
       ) : null}
       {ultimo ? <CartaoContinuar topico={ultimo.topico} sistema={ultimo.sistema} /> : null}
+      <CartaoPlantao totalSinais={listarSinais(conteudo).length} />
       <RotuloDeSecao texto="Sistemas" />
       <View>
         {sistemas.map((sistema, indice) => {

@@ -67,12 +67,41 @@ texto: |
   A chave da separação está nas funções que os tópicos anteriores ensinaram a examinar, e cabe em três eixos:
 
   - **instalação**: o delirium é agudo ou subagudo, em horas a dias; a demência é crônica e progressiva, em meses a anos; a depressão instala-se em semanas (a *Semiologia Médica* exige os sintomas por pelo menos duas para o diagnóstico) e, no idoso, muitas vezes na esteira de perdas, mudanças e luto;
-  - **função nuclear atingida** (no delirium, a **atenção**; na demência, a **memória**) em regra, não obrigatoriamente (e ao menos mais um domínio cognitivo; na depressão, o **humor**) com a cognição queixosa, mas preservada ao teste;
+  - **função nuclear atingida**: no delirium, a **atenção**; na demência, a **memória** (em regra, não obrigatoriamente) e ao menos mais um domínio cognitivo; na depressão, o **humor**, com a cognição queixosa, mas preservada ao teste;
   - **curso no dia**, a flutuação com piora vespertina pertence ao delirium; este tópico não a reensina: ela já está descrita na confusão mental do primeiro tópico deste capítulo e no exame do paciente confuso do capítulo neurológico.
 
   **O que este tópico ensina:** cada síndrome pelos achados de exame, com a tabela de diferenciais atribuída às fontes; a depressão como imitadora, e a divergência das obras sobre o nome "pseudodemência"; os subtipos de demência que as fontes ancoram; o delirium hipoativo como o mais perdido; e os fatores precipitantes que o exame físico encontra.
 
   **O que é remetido:** o **CAM**, ferramenta diagnóstica do delirium, está no tópico anterior com seus desempenhos; a definição de delirium com a tríade hipoativo-hiperativo-misto e a armadilha "rebaixado que não está rebaixado" moram no tópico **Consciência e estado mental**; a distinção entre confusão e **afasia**, o falso confuso que não compreende linguagem, já foi registrada duas vezes, lá e no exame da linguagem psíquica, e não se repete.
+:::
+
+::: ilustracao
+svg: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 250" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- tres paineis, um por sindrome; cada eixo do tempo tem a sua propria escala -->
+    <g stroke="currentColor" stroke-width="1" fill="none">
+      <path d="M 55 70 L 305 70" />
+      <path d="M 55 70 L 55 32" />
+      <path d="M 55 150 L 305 150" />
+      <path d="M 55 150 L 55 112" />
+      <path d="M 55 230 L 305 230" />
+      <path d="M 55 230 L 55 192" />
+    </g>
+    <g stroke="currentColor" stroke-width="2" fill="none">
+      <path id="anima-1" d="M 55 70 L 62 40 L 72 52 L 82 38 L 92 54 L 102 40 L 112 55 L 122 38 L 132 52 L 142 40 L 152 55 L 162 38 L 172 52 L 182 40 L 192 55 L 202 38 L 212 52 L 222 40 L 232 55 L 242 38 L 252 52 L 262 40 L 272 55 L 282 38 L 292 52 L 300 44" />
+      <path id="anima-3" d="M 55 228 C 130 224, 210 206, 300 186" />
+      <path id="anima-2" d="M 55 148 C 95 146, 115 130, 140 120 C 165 110, 190 108, 215 108 L 300 108" />
+    </g>
+    <g font-family="sans-serif" font-size="11" fill="currentColor" stroke="none">
+      <text x="57" y="30">delirium</text>
+      <text x="57" y="110">depressão</text>
+      <text x="57" y="190">demência</text>
+      <text x="180" y="84" text-anchor="middle">horas a dias, e flutua</text>
+      <text x="180" y="164" text-anchor="middle">semanas</text>
+      <text x="180" y="244" text-anchor="middle">meses a anos</text>
+    </g>
+  </svg>
+legenda: "O eixo da instalação, uma curva por síndrome: o delirium é agudo, em horas a dias, e flutua ao longo do dia; a depressão instala-se em semanas; a demência é crônica e progressiva, em meses a anos."
 :::
 
 ::: perola

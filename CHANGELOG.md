@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.15 (2026-09-04)
+
+- Modo plantão: "achei um sinal no exame, e agora?", busca instantânea do achado ao significado, às causas e ao tópico
+- Quatro ilustrações novas onde não havia nenhuma: rota da palpação hepática, curvas de instalação dos 3 Ds (animadas), territórios da mama e a ordem do exame da criança
+- Reparos de pontuação em dez trechos que a remoção dos travessões havia embaralhado
+
 ## 1.2.14 (2026-09-04)
 
 - A prosa de leitura agora é justificada, alinhada nas duas margens como página de livro

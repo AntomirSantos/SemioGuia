@@ -66,7 +66,7 @@ texto: |
 
   A terceira é a postura. O capítulo 179 pede delicadeza e gentileza como condição técnica, dar segurança à criança e respeitar sua vulnerabilidade afetiva, e a obra resume tudo registrando a recomendação de Marcondes: examinar uma criança é fruto de **"muita paciência, doçura e carinho"**. As etapas que organizam este capítulo são as do próprio Porto: **recém-nascido** (0 a 28 dias), **lactente** (29 dias a 2 anos), **pré-escolar** (2 a 7 anos), **escolar** (7 a 10 anos) e **adolescente** (10 a 19 anos).
 
-  **O que este tópico ensina:** a anamnese feita por interposta pessoa e suas armadilhas; os segmentos que só a anamnese pediátrica tem; o exame físico oportunista, a ordem que se curva ao choro, ; e o profissionalismo como conteúdo: quem consente, quem assente, e o que muda quando o paciente é adolescente. O crescimento, os sinais vitais e a hidratação são o tópico seguinte; o exame por fases etárias, do recém-nascido aos estágios de Tanner, fecha o capítulo.
+  **O que este tópico ensina:** a anamnese feita por interposta pessoa e suas armadilhas; os segmentos que só a anamnese pediátrica tem; o exame físico oportunista, a ordem que se curva ao choro; e o profissionalismo como conteúdo: quem consente, quem assente, e o que muda quando o paciente é adolescente. O crescimento, os sinais vitais e a hidratação são o tópico seguinte; o exame por fases etárias, do recém-nascido aos estágios de Tanner, fecha o capítulo.
 
   **Onde estão os números deste capítulo.** McGee não tem capítulo nem seção sistemática de semiologia pediátrica: a auditoria das obras confirmou o silêncio, e este capítulo o declara em vez de disfarçá-lo, como o guia já fez com o exame ginecológico e o psíquico. O que há de quantificado vem das obras brasileiras: as faixas etárias, as frequências por idade (no próximo tópico) e uns poucos marcos com idade definida, sempre atribuídos.
 :::
@@ -91,7 +91,7 @@ texto: |
 
   - **Gestação:** duração (pré ou pós-termo), intercorrências como diabetes gestacional e infecção urinária próxima ao parto, via de parto, os exames da gestante (toxoplasmose, hepatites B e C, HIV, HTLV, citomegalovírus, sífilis, rubéola) alterações fetais à ultrassonografia e o tipo sanguíneo materno ABO-Rh.
   - **Parto e período neonatal:** intercorrências (aspiração de mecônio, trabalho de parto prolongado), o **índice de Apgar registrado na Caderneta de Saúde da Criança**, choro ao nascer, necessidade de reanimação ou oxigênio, passagem por terapia intensiva (peça o relatório), icterícia, peso, estatura e idade gestacional ao nascimento.
-  - **Alimentação:** se está em aleitamento materno exclusivo, que Porto registra como a melhor opção até o sexto mês de vida, ; se desmamou, o motivo; se usa outro leite, qual, como é diluído, preparado e oferecido. As condutas de puericultura ficam fora deste guia; a pergunta, não.
+  - **Alimentação:** se está em aleitamento materno exclusivo, que Porto registra como a melhor opção até o sexto mês de vida; se desmamou, o motivo; se usa outro leite, qual, como é diluído, preparado e oferecido. As condutas de puericultura ficam fora deste guia; a pergunta, não.
   - **Vacinação:** verifica-se **na Caderneta de Saúde da Criança**, contra o Calendário Nacional de Imunizações, que o capítulo 179 reproduz e este guia trata como **moldura nomeada**: o calendário muda com os anos (a própria obra registra mudanças recentes de esquema), e decorá-lo aqui envelheceria o tópico sem ensinar semiologia. O gesto clínico é abrir a caderneta em toda consulta.
   - **Desenvolvimento neuropsicomotor:** a abordagem do capítulo 179 começa com uma pergunta aberta (*"o que ele está fazendo atualmente?"*) e compara a resposta com uma escala de padrões; a obra cita a tabela do Ministério da Saúde (2002) para essa avaliação, outra moldura nomeada. Na criança maior, o desempenho escolar vira o termômetro do desenvolvimento. Os marcos com idade que Porto fornece na anamnese geral já moram no tópico de antecedentes do sistema Anamnese e não se repetem aqui.
 
@@ -118,6 +118,55 @@ texto: |
   As obras não prescrevem um roteiro fixo de "o que fica por último" além do princípio geral (os **procedimentos mais temidos ou dolorosos ficam para o fim da consulta**) e este guia não inventa um. O princípio vem com duas cláusulas que são profissionalismo puro: o procedimento deve ser **informado previamente ao paciente**, e **não pode ser suprimido por vontade dos pais nem da criança**, adiar o desconforto é técnica; pular etapa do exame para evitar o choro, não.
 
   A postura durante o exame também é conteúdo do capítulo: paciência e gentileza **desde o tom de voz** até os momentos e as formas adequadas de **manipular ou conter** o paciente, a contenção existe na semiologia pediátrica, mas como gesto medido, anunciado e breve, nunca como disputa. No **lactente**, o exame se organiza por **decúbitos**: tudo o que é possível examinar em decúbito dorsal, inclusive a ausculta da face anterior do tórax, antes de virar a criança; a criança maior, capaz de sentar e entender ordens simples, já se examina como o adulto, por segmentos.
+:::
+
+::: ilustracao
+svg: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 190" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- a ordem do exame que se curva ao choro, tres tempos -->
+    <rect x="10" y="34" width="94" height="112" rx="8" stroke-width="1.5" />
+    <rect x="118" y="34" width="84" height="112" rx="8" stroke-width="1.5" />
+    <rect x="216" y="34" width="94" height="112" rx="8" stroke-width="1.5" />
+    <g stroke="currentColor" stroke-width="2" fill="none">
+      <path d="M 106 90 L 115 90" />
+      <path d="M 111 86 L 116 90 L 111 94" />
+      <path d="M 204 90 L 213 90" />
+      <path d="M 209 86 L 214 90 L 209 94" />
+      <path d="M 10 168 L 302 168" stroke-width="1" />
+      <path d="M 297 164 L 304 168 L 297 172" stroke-width="1" />
+    </g>
+    <g stroke="currentColor" stroke-width="1.5" fill="currentColor" fill-opacity="0.12">
+      <circle cx="57" cy="24" r="9" />
+      <circle cx="160" cy="24" r="9" />
+      <circle cx="263" cy="24" r="9" />
+    </g>
+    <g font-family="sans-serif" font-size="11" fill="currentColor" stroke="none" text-anchor="middle">
+      <text x="57" y="28">1</text>
+      <text x="160" y="28">2</text>
+      <text x="263" y="28">3</text>
+      <text x="57" y="54">o que o choro</text>
+      <text x="57" y="67">estraga</text>
+      <text x="160" y="54">o restante,</text>
+      <text x="160" y="67">por inteiro</text>
+      <text x="263" y="54">o temido ou</text>
+      <text x="263" y="67">doloroso</text>
+      <text x="156" y="184">a consulta</text>
+    </g>
+    <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none" text-anchor="middle">
+      <text x="57" y="88">ausculta cardíaca</text>
+      <text x="57" y="101">FR e FC</text>
+      <text x="57" y="114">tensão do abdome</text>
+      <text x="57" y="127">fontanelas</text>
+      <text x="57" y="140">pressão arterial</text>
+      <text x="160" y="94">todos os</text>
+      <text x="160" y="107">sistemas, no</text>
+      <text x="160" y="120">melhor momento</text>
+      <text x="263" y="94">por último</text>
+      <text x="263" y="107">e sempre</text>
+      <text x="263" y="120">anunciado</text>
+    </g>
+  </svg>
+legenda: "A ordem que se curva ao choro: com a criança ainda calma, primeiro o que o choro estraga; os procedimentos temidos ou dolorosos ficam para o fim, previamente informados."
 :::
 
 ::: manobra
@@ -183,7 +232,7 @@ texto: |
 
   O sigilo tem exceções nomeadas, e um rito. Quebra-se nas **situações de risco** que as obras listam: gravidez e aborto, uso abusivo de drogas, doença grave, tratamento recomendado que o jovem não segue, risco de vida para si (a intenção suicida, por exemplo) ou para terceiros, e procedimentos de maior complexidade. Mas quebra-se **avisando o adolescente primeiro**, com os motivos explicados, e, sempre que possível, comunicando o responsável na presença dele. Só no risco de vida a quebra dispensa o consentimento do jovem.
 
-  No exame físico, o capítulo 180 é prescritivo: respeitar o pudor e explicar cada procedimento; garantir que a porta está fechada e que ninguém entrará; **manter outro profissional de saúde na sala** durante o exame; e, no exame genital, esclarecer antes a necessidade e **respeitar a recusa**, adiando para outra consulta, se preciso. Este guia já carrega a mesma regra pelo capítulo 119 da *Semiologia Médica* nos tópicos de exame das mamas e exame ginecológico, na adolescente, o exame acompanhado por uma assistente, com a presença dos pais decidida pela paciente, ; o que o capítulo 180 acrescenta é a generalização: vale para todo adolescente, em todo exame.
+  No exame físico, o capítulo 180 é prescritivo: respeitar o pudor e explicar cada procedimento; garantir que a porta está fechada e que ninguém entrará; **manter outro profissional de saúde na sala** durante o exame; e, no exame genital, esclarecer antes a necessidade e **respeitar a recusa**, adiando para outra consulta, se preciso. Este guia já carrega a mesma regra pelo capítulo 119 da *Semiologia Médica* nos tópicos de exame das mamas e exame ginecológico, na adolescente, o exame acompanhado por uma assistente, com a presença dos pais decidida pela paciente; o que o capítulo 180 acrescenta é a generalização: vale para todo adolescente, em todo exame.
 :::
 
 ::: perola
@@ -202,7 +251,7 @@ texto: |
 
   **O que é específico da criança é o cenário, não o roteiro.** A seção "Exame psíquico da criança" da obra ensina, em nível acessível a todo médico: avisar a criança **1 a 2 dias antes** da consulta, com explicações simples e adequadas à idade, os pais devem dizer que é uma consulta diferente, de um médico interessado em conhecê-la para ajudá-la; oferecer no consultório **jogos, material de desenho e brinquedos**, deixando que ela escolha entre brincar e conversar; e, com crianças maiores e adolescentes, **declarar o caráter confidencial** da entrevista, cabe ao paciente decidir se conta aos pais o que disse. A obra dá ainda a régua do que esperar: até os **5 ou 6 anos**, a criança fala de sua vida, de seus amigos e de suas fantasias com naturalidade; na criança maior, a repressão já opera, e a vida de fantasia se expressa menos. As **funções psíquicas** examinadas (consciência, atenção, orientação, pensamento, memória, afetividade e as demais) são as mesmas do roteiro adulto, e continuam morando no sistema **Exame psíquico** deste guia; nada disso se reensina aqui.
 
-  **A entrevista com os pais tem roteiro próprio**, a obra o apresenta na consulta psiquiátrica, e ele funciona como um aprofundamento da anamnese deste tópico: quem pediu a consulta e de quem partiu o encaminhamento (dos pais? da escola? da própria criança?); se a gravidez foi desejada e como foram as condições de nascimento; a depressão materna no período neonatal; o sono e seus rituais, medos e parassonias; o desenvolvimento psicomotor e o controle esfincteriano; a linguagem; as **atitudes educacionais** (castigos, divergências entre os pais, reação da criança à disciplina) ; a curiosidade sexual e a reação dos pais a ela; a entrada na escola e a socialização. O espírito é o da entrevista **semidirigida** que o guia já registrou nos fundamentos do psíquico: deixar o relato correr, sem interrogatório rígido e sem antecipar conselhos.
+  **A entrevista com os pais tem roteiro próprio**, a obra o apresenta na consulta psiquiátrica, e ele funciona como um aprofundamento da anamnese deste tópico: quem pediu a consulta e de quem partiu o encaminhamento (dos pais? da escola? da própria criança?); se a gravidez foi desejada e como foram as condições de nascimento; a depressão materna no período neonatal; o sono e seus rituais, medos e parassonias; o desenvolvimento psicomotor e o controle esfincteriano; a linguagem; as **atitudes educacionais** (castigos, divergências entre os pais, reação da criança à disciplina); a curiosidade sexual e a reação dos pais a ela; a entrada na escola e a socialização. O espírito é o da entrevista **semidirigida** que o guia já registrou nos fundamentos do psíquico: deixar o relato correr, sem interrogatório rígido e sem antecipar conselhos.
 :::
 
 ::: conceito
@@ -301,7 +350,7 @@ perguntas:
       - "Aguardar o choro, que facilita todo o exame por produzir inspirações profundas"
       - "Antecipar o que o choro compromete: ausculta cardíaca, frequências respiratória e cardíaca, tensão do abdome, fontanelas e pressão arterial, e deixar os procedimentos temidos ou dolorosos para o fim, previamente informados"
     corretaIndex: 3
-    explicacao: "Porto autoriza modificar a sequência clássica da semiologia para garantir o exame de cada sistema no melhor momento: se a criança ainda não chora, avaliam-se primeiro os itens que o choro estraga, ausculta cardíaca (sopro não se caracteriza bem no choro), FC, FR, tensão do abdome, fontanelas e PA. O choro ajuda apenas a ausculta pulmonar do lactente, pelas inspirações profundas (não o restante. Os procedimentos temidos ficam para o fim, informados antes) e nem os pais nem a criança podem suprimi-los."
+    explicacao: "Porto autoriza modificar a sequência clássica da semiologia para garantir o exame de cada sistema no melhor momento: se a criança ainda não chora, avaliam-se primeiro os itens que o choro estraga, ausculta cardíaca (sopro não se caracteriza bem no choro), FC, FR, tensão do abdome, fontanelas e PA. O choro ajuda apenas a ausculta pulmonar do lactente, pelas inspirações profundas (não o restante). Os procedimentos temidos ficam para o fim, informados antes, e nem os pais nem a criança podem suprimi-los."
   - id: cri-abord-3
     enunciado: Os pais de um menino de 4 anos estranham que ele ainda troque letras ao falar ("potão" por portão), embora o discurso seja compreensível. O que as fontes dizem sobre esse achado?
     alternativas:

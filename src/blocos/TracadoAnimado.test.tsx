@@ -56,5 +56,5 @@ test('as ilustrações temporais do conteúdo real analisam com traçados válid
       }
     }
   }
-  expect(marcadas).toBe(4);
+  expect(marcadas).toBe(5);
 });

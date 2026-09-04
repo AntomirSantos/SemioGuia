@@ -12,6 +12,8 @@ export const EVENTOS = [
   'caso_concluido',
   'resultado_compartilhado',
   'feedback_enviado',
+  'plantao_aberto',
+  'plantao_sinal_aberto',
 ] as const;
 
 export type EventoAnalytics = (typeof EVENTOS)[number];
