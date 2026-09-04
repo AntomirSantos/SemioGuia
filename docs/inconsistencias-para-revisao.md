@@ -692,3 +692,12 @@ na inspiração" saiu do desenho porque a legenda já o diz; nada mais se
 sobrepõe); as legendas das ilustrações passaram a ser justificadas como o
 restante da prosa; e a seta da cauda de Spence foi retocada. Nenhum
 conteúdo mudou, só o desenho e a tipografia.
+
+**Complemento (v1.2.17):** o modo plantão foi redesenhado a pedido do autor
+(a lista anterior, 36 cartões abertos em ordem alfabética, era um paredão).
+Agora: sinais agrupados por sistema com o filete de cor, na ordem
+craniocaudal do guia; dentro de cada sistema, ordem alfabética; cada sinal
+é uma linha compacta (nome + tópico de origem) que expande ao toque para o
+verbete completo, com as causas em lista vertical; na busca, até três
+resultados chegam abertos. Nenhum texto mudou: os verbetes seguem sendo os
+blocos `sinal` do conteúdo revisado, apenas reapresentados.

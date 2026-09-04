@@ -16,14 +16,18 @@ export interface SinalDePlantao {
   sistemaCor: string;
 }
 
+// A lista sai na ordem craniocaudal do guia (sistema a sistema) e, dentro de
+// cada sistema, em ordem alfabética: no plantão se folheia por região e se
+// acha o nome pelo olho.
 export function listarSinais(conteudo: Conteudo): SinalDePlantao[] {
   const sinais: SinalDePlantao[] = [];
   for (const sistema of conteudo.sistemas) {
+    const doSistema: SinalDePlantao[] = [];
     for (const capitulo of sistema.capitulos) {
       for (const topico of capitulo.topicos) {
         for (const bloco of topico.blocos) {
           if (bloco.tipo !== 'sinal') continue;
-          sinais.push({
+          doSistema.push({
             nome: bloco.nome,
             descricao: bloco.descricao,
             significado: bloco.significado,
@@ -36,8 +40,36 @@ export function listarSinais(conteudo: Conteudo): SinalDePlantao[] {
         }
       }
     }
+    doSistema.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
+    sinais.push(...doSistema);
   }
-  return sinais.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
+  return sinais;
+}
+
+export interface GrupoDeSinais {
+  sistemaTitulo: string;
+  sistemaCor: string;
+  sinais: SinalDePlantao[];
+}
+
+/**
+ * Agrupa por sistema preservando a ordem de entrada (a ordem do guia quando
+ * a lista vem de listarSinais). Grupos vazios não aparecem, então também
+ * serve para agrupar um resultado de busca já filtrado.
+ */
+export function agruparPorSistema(sinais: SinalDePlantao[]): GrupoDeSinais[] {
+  const grupos: GrupoDeSinais[] = [];
+  const porTitulo = new Map<string, GrupoDeSinais>();
+  for (const sinal of sinais) {
+    let grupo = porTitulo.get(sinal.sistemaTitulo);
+    if (!grupo) {
+      grupo = { sistemaTitulo: sinal.sistemaTitulo, sistemaCor: sinal.sistemaCor, sinais: [] };
+      porTitulo.set(sinal.sistemaTitulo, grupo);
+      grupos.push(grupo);
+    }
+    grupo.sinais.push(sinal);
+  }
+  return grupos;
 }
 
 /** Minúsculas e sem acentos, para casar "deficit" com "Déficit". */

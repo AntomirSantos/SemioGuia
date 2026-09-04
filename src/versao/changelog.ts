@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.17',
+    data: '2026-09-04',
+    linhas: [
+      'Modo plantão redesenhado: os sinais agora aparecem agrupados por sistema, na ordem craniocaudal do guia',
+      'Cada sinal é uma linha compacta que abre ao toque: o achado, o significado, as causas em lista e o salto ao tópico',
+      'Na busca, até três resultados já chegam abertos; folhear ficou leve e ler continua um gesto seu',
+    ],
+  },
+  {
     versao: '1.2.16',
     data: '2026-09-04',
     linhas: [

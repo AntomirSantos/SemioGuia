@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.17 (2026-09-04)
+
+- Modo plantão redesenhado: os sinais agora aparecem agrupados por sistema, na ordem craniocaudal do guia
+- Cada sinal é uma linha compacta que abre ao toque: o achado, o significado, as causas em lista e o salto ao tópico
+- Na busca, até três resultados já chegam abertos; folhear ficou leve e ler continua um gesto seu
+
 ## 1.2.16 (2026-09-04)
 
 - A rota da palpação hepática foi redesenhada: rótulos fora do desenho, margem livre à esquerda, nada mais se sobrepõe

@@ -1,101 +1,132 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Text, TextInput, View } from 'react-native';
 import { router } from 'expo-router';
-import { Search } from 'lucide-react-native';
+import { ChevronDown, ChevronUp, Search } from 'lucide-react-native';
 import { Tela } from '../design/Tela';
 import { Cabecalho } from '../design/Cabecalho';
 import { Rotulo } from '../design/Rotulo';
+import { EntradaAnimada } from '../design/EntradaAnimada';
 import { Pressionavel } from '../design/movimento';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
 import { useConteudo } from '../content/ContentContext';
-import { filtrarSinais, listarSinais, type SinalDePlantao } from '../plantao/sinais';
+import { agruparPorSistema, filtrarSinais, listarSinais, type SinalDePlantao } from '../plantao/sinais';
 import { track } from '../analytics/analytics';
 
 // Modo plantão (produto 2026-09): "achei X no exame, e agora?". A resposta
 // vem inteira do conteúdo revisado: cada verbete é um bloco `sinal` de um
-// tópico, com o achado, o significado, as causas e o salto para o tópico em
-// que ele nasce. Sem quiz, sem progresso: é consulta, não estudo.
+// tópico. Redesenho (pedido do autor, 2026-09): em vez de um paredão de
+// cartões abertos em ordem alfabética, os sinais aparecem agrupados por
+// sistema na ordem craniocaudal do guia, como linhas compactas que expandem
+// ao toque; a busca filtra os grupos e, com poucos resultados, já os abre.
 
-function CartaoSinal({ sinal, onAbrirTopico }: { sinal: SinalDePlantao; onAbrirTopico: () => void }) {
+const LIMIAR_ABRIR_NA_BUSCA = 3;
+
+function chaveDoSinal(sinal: SinalDePlantao): string {
+  return `${sinal.topicoId}:${sinal.nome}`;
+}
+
+// O verbete aberto: o achado, o que significa, as causas e o salto ao
+// tópico. Só aparece quando a linha é expandida: ler é um gesto intencional.
+function VerbeteAberto({ sinal, onAbrirTopico }: { sinal: SinalDePlantao; onAbrirTopico: () => void }) {
   const { paleta, escala } = useTema();
-  const corpo = Math.round(tipo.corpo * escala);
   const small = Math.round(tipo.small * escala);
+  const corpoTexto = {
+    fontFamily: fonte.corpo,
+    fontSize: small,
+    lineHeight: Math.round(small * 1.5),
+    color: paleta.tinta,
+    textAlign: 'justify' as const,
+  };
   return (
-    <View
-      style={{
-        borderWidth: 1,
-        borderColor: paleta.linha,
-        borderRadius: raio.m,
-        paddingVertical: espaco.m,
-        paddingHorizontal: espaco.l,
-        marginBottom: espaco.l,
-        backgroundColor: paleta.superficie,
-      }}
-    >
-      <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: espaco.s }}>
-        <View style={{ width: 8, height: 26, backgroundColor: sinal.sistemaCor, marginRight: espaco.m }} />
-        <View style={{ flex: 1 }}>
-          <Text style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.h3 * escala), color: paleta.tinta }}>
-            {sinal.nome}
-          </Text>
-          <Rotulo texto={sinal.sistemaTitulo} cor={paleta.tinta2} style={{ marginTop: 2 }} />
+    <EntradaAnimada>
+      <View
+        style={{
+          backgroundColor: paleta.superficie2,
+          borderRadius: raio.m,
+          padding: espaco.l,
+          marginTop: espaco.xs,
+          marginBottom: espaco.m,
+        }}
+      >
+        <Rotulo texto="O achado" cor={paleta.tinta2} />
+        <Text android_hyphenationFrequency="full" style={{ ...corpoTexto, marginTop: 2, marginBottom: espaco.m }}>
+          {sinal.descricao}
+        </Text>
+        <Rotulo texto="O que significa" cor={paleta.tinta2} />
+        <Text android_hyphenationFrequency="full" style={{ ...corpoTexto, marginTop: 2, marginBottom: espaco.m }}>
+          {sinal.significado}
+        </Text>
+        <Rotulo texto="Causas a considerar" cor={paleta.tinta2} />
+        <View style={{ marginTop: 2 }}>
+          {sinal.causas.map((causa) => (
+            <View key={causa} style={{ flexDirection: 'row', marginBottom: 2 }}>
+              <Text style={{ ...corpoTexto, textAlign: 'left', color: paleta.tinta2 }}>{'•'} </Text>
+              <Text style={{ ...corpoTexto, textAlign: 'left', flex: 1 }}>{causa}</Text>
+            </View>
+          ))}
         </View>
+        <Pressionavel
+          accessibilityRole="button"
+          onPress={onAbrirTopico}
+          style={{ minHeight: 44, justifyContent: 'center', alignSelf: 'flex-start' }}
+        >
+          <Text style={{ fontFamily: fonte.corpoBold, fontSize: Math.round(tipo.corpo * escala), color: paleta.acentoTinta }}>
+            Ver em {sinal.topicoTitulo}
+          </Text>
+        </Pressionavel>
       </View>
-      <Text
-        android_hyphenationFrequency="full"
-        style={{
-          fontFamily: fonte.corpo,
-          fontSize: small,
-          lineHeight: Math.round(small * 1.5),
-          color: paleta.tinta,
-          textAlign: 'justify',
-          marginBottom: espaco.s,
-        }}
-      >
-        {sinal.descricao}
-      </Text>
-      <Rotulo texto="O que significa" cor={paleta.tinta2} />
-      <Text
-        android_hyphenationFrequency="full"
-        style={{
-          fontFamily: fonte.corpo,
-          fontSize: small,
-          lineHeight: Math.round(small * 1.5),
-          color: paleta.tinta,
-          textAlign: 'justify',
-          marginTop: 2,
-          marginBottom: espaco.s,
-        }}
-      >
-        {sinal.significado}
-      </Text>
-      <Rotulo texto="Causas a considerar" cor={paleta.tinta2} />
-      <Text
-        style={{
-          fontFamily: fonte.corpo,
-          fontSize: small,
-          lineHeight: Math.round(small * 1.5),
-          color: paleta.tinta,
-          marginTop: 2,
-        }}
-      >
-        {sinal.causas.join(' · ')}
-      </Text>
+    </EntradaAnimada>
+  );
+}
+
+function LinhaSinal({
+  sinal,
+  aberto,
+  onToggle,
+  onAbrirTopico,
+}: {
+  sinal: SinalDePlantao;
+  aberto: boolean;
+  onToggle: () => void;
+  onAbrirTopico: () => void;
+}) {
+  const { paleta, escala } = useTema();
+  const Chevron = aberto ? ChevronUp : ChevronDown;
+  return (
+    <View style={{ borderBottomWidth: 1, borderBottomColor: paleta.linha }}>
       <Pressionavel
         accessibilityRole="button"
-        onPress={onAbrirTopico}
-        style={{
-          minHeight: 44,
-          justifyContent: 'center',
-          alignSelf: 'flex-start',
-          marginTop: espaco.s,
-        }}
+        accessibilityState={{ expanded: aberto }}
+        accessibilityLabel={`${sinal.nome}, ${aberto ? 'recolher' : 'abrir'}`}
+        onPress={onToggle}
+        style={{ flexDirection: 'row', alignItems: 'center', minHeight: 44, paddingVertical: espaco.s }}
       >
-        <Text style={{ fontFamily: fonte.corpoBold, fontSize: corpo, color: paleta.acentoTinta }}>
-          Ver em {sinal.topicoTitulo}
-        </Text>
+        <View style={{ flex: 1 }}>
+          <Text
+            style={{
+              fontFamily: fonte.leituraSemi,
+              fontSize: Math.round(tipo.corpo * escala),
+              color: paleta.tinta,
+            }}
+          >
+            {sinal.nome}
+          </Text>
+          <Text
+            numberOfLines={1}
+            style={{
+              fontFamily: fonte.corpo,
+              fontSize: Math.round(12 * escala),
+              color: paleta.tinta2,
+              marginTop: 1,
+            }}
+          >
+            {sinal.topicoTitulo}
+          </Text>
+        </View>
+        <Chevron size={18} color={paleta.tinta2} style={{ marginLeft: espaco.s }} />
       </Pressionavel>
+      {aberto ? <VerbeteAberto sinal={sinal} onAbrirTopico={onAbrirTopico} /> : null}
     </View>
   );
 }
@@ -105,13 +136,38 @@ export default function Plantao() {
   const conteudo = useConteudo();
   const sinais = useMemo(() => listarSinais(conteudo), [conteudo]);
   const [termo, setTermo] = useState('');
+  const [abertos, setAbertos] = useState<Set<string>>(new Set());
+
   const resultados = useMemo(() => filtrarSinais(sinais, termo), [sinais, termo]);
+  // Os grupos seguem sempre a ordem craniocaudal do guia; a busca só decide
+  // quem aparece dentro deles.
+  const grupos = useMemo(() => {
+    const visiveis = new Set(resultados);
+    return agruparPorSistema(sinais.filter((s) => visiveis.has(s)));
+  }, [sinais, resultados]);
+
+  const buscando = termo.trim().length > 0;
+  // Com poucos resultados a leitura é o próximo gesto óbvio: abre direto.
+  const abertosNaBusca = useMemo(
+    () => (buscando && resultados.length <= LIMIAR_ABRIR_NA_BUSCA ? new Set(resultados.map(chaveDoSinal)) : null),
+    [buscando, resultados],
+  );
 
   useEffect(() => {
     track('plantao_aberto', { sinais: sinais.length });
     // Uma abertura por montagem da tela, como `app_aberto` no layout raiz.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  function alternar(sinal: SinalDePlantao) {
+    const chave = chaveDoSinal(sinal);
+    setAbertos((atual) => {
+      const proximo = new Set(atual);
+      if (proximo.has(chave)) proximo.delete(chave);
+      else proximo.add(chave);
+      return proximo;
+    });
+  }
 
   function abrirTopico(sinal: SinalDePlantao) {
     track('plantao_sinal_aberto', { sinal: sinal.nome, topicoId: sinal.topicoId, termo: termo.trim() });
@@ -130,7 +186,7 @@ export default function Plantao() {
           marginBottom: espaco.l,
         }}
       >
-        Achou um sinal no exame? Do achado ao significado e às causas, com o caminho de volta ao tópico.
+        Achou um sinal no exame? Toque para abrir o verbete: o achado, o significado, as causas e o caminho de volta ao tópico.
       </Text>
       <View
         style={{
@@ -140,14 +196,14 @@ export default function Plantao() {
           borderRadius: raio.l,
           backgroundColor: paleta.superficie2,
           paddingHorizontal: espaco.m,
-          marginBottom: espaco.l,
+          marginBottom: espaco.s,
         }}
       >
         <Search size={18} color={paleta.tinta2} />
         <TextInput
           value={termo}
           onChangeText={setTermo}
-          placeholder="Sinal ou achado: sopro, Blumberg, estridor…"
+          placeholder="Sinal ou achado: Blumberg, Murphy, pulso paradoxal…"
           placeholderTextColor={paleta.tinta2}
           autoFocus={false}
           accessibilityLabel="Buscar sinal ou achado do exame"
@@ -161,11 +217,38 @@ export default function Plantao() {
           }}
         />
       </View>
-      {resultados.length > 0 ? (
-        resultados.map((sinal) => (
-          <CartaoSinal key={`${sinal.topicoId}:${sinal.nome}`} sinal={sinal} onAbrirTopico={() => abrirTopico(sinal)} />
-        ))
-      ) : (
+      <Rotulo
+        texto={
+          buscando
+            ? `${resultados.length} ${resultados.length === 1 ? 'sinal' : 'sinais'}`
+            : `${sinais.length} sinais na ordem do guia`
+        }
+        cor={paleta.tinta2}
+        style={{ marginBottom: espaco.m }}
+      />
+
+      {grupos.map((grupo) => (
+        <View key={grupo.sistemaTitulo} style={{ marginBottom: espaco.l }}>
+          <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: espaco.xs }}>
+            <View style={{ width: 8, height: 18, backgroundColor: grupo.sistemaCor, marginRight: espaco.m }} />
+            <Rotulo texto={grupo.sistemaTitulo} cor={paleta.tinta2} />
+          </View>
+          {grupo.sinais.map((sinal) => {
+            const chave = chaveDoSinal(sinal);
+            return (
+              <LinhaSinal
+                key={chave}
+                sinal={sinal}
+                aberto={abertosNaBusca ? abertosNaBusca.has(chave) : abertos.has(chave)}
+                onToggle={() => alternar(sinal)}
+                onAbrirTopico={() => abrirTopico(sinal)}
+              />
+            );
+          })}
+        </View>
+      ))}
+
+      {grupos.length === 0 ? (
         <Text
           style={{
             fontFamily: fonte.corpo,
@@ -176,7 +259,7 @@ export default function Plantao() {
         >
           Nenhum sinal com esse nome. A busca geral do app cobre também manobras e tópicos.
         </Text>
-      )}
+      ) : null}
     </Tela>
   );
 }

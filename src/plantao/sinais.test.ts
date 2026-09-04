@@ -1,4 +1,4 @@
-import { filtrarSinais, listarSinais, normalizar } from './sinais';
+import { agruparPorSistema, filtrarSinais, listarSinais, normalizar } from './sinais';
 import type { Conteudo } from '../content/schema';
 
 // O modo plantão só reapresenta conteúdo revisado: estes testes garantem que
@@ -12,20 +12,31 @@ test('normalizar iguala acentos e caixa', () => {
   expect(normalizar('Piparote')).toBe('piparote');
 });
 
-test('lista todos os blocos sinal do conteúdo real, em ordem alfabética', () => {
+test('lista todos os blocos sinal do conteúdo real, na ordem do guia', () => {
   const sinais = listarSinais(conteudoReal);
   let esperados = 0;
+  const ordemDosSistemas: string[] = [];
   for (const sistema of conteudoReal.sistemas) {
+    let temSinal = false;
     for (const capitulo of sistema.capitulos) {
       for (const topico of capitulo.topicos) {
-        esperados += topico.blocos.filter((b) => b.tipo === 'sinal').length;
+        const n = topico.blocos.filter((b) => b.tipo === 'sinal').length;
+        esperados += n;
+        if (n > 0) temSinal = true;
       }
     }
+    if (temSinal) ordemDosSistemas.push(sistema.titulo);
   }
   expect(esperados).toBeGreaterThanOrEqual(30);
   expect(sinais).toHaveLength(esperados);
-  const nomes = sinais.map((s) => s.nome);
-  expect([...nomes].sort((a, b) => a.localeCompare(b, 'pt-BR'))).toEqual(nomes);
+  // Sistemas na ordem craniocaudal do guia; dentro de cada um, alfabética.
+  const grupos = agruparPorSistema(sinais);
+  expect(grupos.map((g) => g.sistemaTitulo)).toEqual(ordemDosSistemas);
+  expect(grupos.reduce((soma, g) => soma + g.sinais.length, 0)).toBe(esperados);
+  for (const grupo of grupos) {
+    const nomes = grupo.sinais.map((s) => s.nome);
+    expect([...nomes].sort((a, b) => a.localeCompare(b, 'pt-BR'))).toEqual(nomes);
+  }
   for (const sinal of sinais) {
     expect(sinal.significado.length).toBeGreaterThan(0);
     expect(sinal.causas.length).toBeGreaterThan(0);
