@@ -5,7 +5,7 @@ import type { Bloco } from '../content/schema';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
 import { Pressionavel } from '../design/movimento';
-import { AVISO_SOM_SINTETIZADO, FONTES_DE_SOM } from '../config/sons';
+import { AVISO_SOM_GRAVACAO, AVISO_SOM_SINTETIZADO, FONTES_DE_SOM, ORIGEM_DE_SOM } from '../config/sons';
 import { IdentidadeBloco } from './identidade';
 
 type SomBloco = Extract<Bloco, { tipo: 'som' }>;
@@ -82,7 +82,7 @@ export function Som({ bloco }: { bloco: SomBloco }) {
       </View>
       <View style={{ borderTopWidth: 1, borderTopColor: paleta.linha, marginTop: espaco.m, paddingTop: espaco.s }}>
         <Text style={{ fontFamily: fonte.corpo, fontSize: tipo.tag + 1, color: paleta.tinta2 }}>
-          {AVISO_SOM_SINTETIZADO}
+          {ORIGEM_DE_SOM[bloco.arquivo] === 'gravacao' ? AVISO_SOM_GRAVACAO : AVISO_SOM_SINTETIZADO}
         </Text>
       </View>
     </View>

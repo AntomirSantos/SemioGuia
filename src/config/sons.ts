@@ -28,3 +28,29 @@ export type ChaveDeSom = keyof typeof FONTES_DE_SOM;
 
 export const AVISO_SOM_SINTETIZADO =
   'Som sintetizado para estudo — uma representação didática, não uma gravação clínica.';
+
+export const AVISO_SOM_GRAVACAO =
+  'Gravação clínica real (dataset HF_Lung_V1, CC BY 4.0) — Heroic-Faith Medical Science / TSECCM.';
+
+// Origem de cada som: 'sintetizado' (scripts/gerar-sons.py) ou 'gravacao'
+// (scripts/preparar-sons-reais.py; proveniência completa e licença em
+// assets/sons/LICENCAS.md). O aviso do player muda conforme a origem.
+export const ORIGEM_DE_SOM: Record<ChaveDeSom, 'sintetizado' | 'gravacao'> = {
+  'bulhas-normais': 'sintetizado',
+  'galope-b3': 'sintetizado',
+  'galope-b4': 'sintetizado',
+  'desdobramento-b2': 'sintetizado',
+  'sopro-sistolico': 'sintetizado',
+  'sopro-regurgitacao': 'sintetizado',
+  'sopro-diastolico': 'sintetizado',
+  'ruflar-pre-sistolico': 'sintetizado',
+  'sopro-continuo': 'sintetizado',
+  'atrito-pericardico': 'sintetizado',
+  'murmurio-vesicular': 'gravacao',
+  sibilos: 'gravacao',
+  roncos: 'gravacao',
+  estridor: 'sintetizado',
+  'estertores-finos': 'sintetizado',
+  'estertores-grossos': 'sintetizado',
+  'atrito-pleural': 'sintetizado',
+};

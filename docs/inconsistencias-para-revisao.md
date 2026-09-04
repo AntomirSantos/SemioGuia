@@ -622,3 +622,20 @@ de couro, mais intenso na inspiração). Os cinco sons de sopro espelham
 agora, um a um, as cinco faixas da figura dos formatos. Vale a mesma escuta
 de endosso pedida no complemento anterior — em especial o atrito
 pericárdico, o timbre mais difícil de sintetizar.
+
+**Complemento (v1.2.11):** três sons deixaram de ser sintéticos e passaram
+a GRAVAÇÕES CLÍNICAS REAIS — murmúrio vesicular, sibilos e roncos —,
+extraídas do dataset aberto HF_Lung_V1 (Heroic-Faith Medical Science +
+TSECCM, licença CC BY 4.0 verificada no repositório-fonte; proveniência,
+arquivos-fonte e modificações declaradas em `assets/sons/LICENCAS.md`). A
+seleção usou os rótulos clínicos do próprio dataset (Wheeze/Rhonchi/I-E)
+mais triagem numérica e verificação espectral do fenômeno dentro das
+janelas rotuladas (sibilo com pico tonal ~427 Hz; ronco ~95 Hz). O aviso do
+player agora distingue gravação real de som sintetizado. Duas decisões de
+curadoria para o autor conhecer: o ESTRIDOR real disponível tinha pico
+~710 Hz — divergente dos ~400 Hz que o texto ensina — e ficou sintetizado;
+os ESTERTORES reais não permitem separar finos × grossos com segurança
+(rótulo único no dataset) e também ficaram sintetizados. Sons cardíacos
+reais (PhysioNet 2016 / CirCor, ambos ODC-BY) ficam como leva futura — as
+fontes primárias estavam inacessíveis pela rede desta sessão. A escuta de
+endosso agora tem três itens a menos para desconfiar e três para conferir.

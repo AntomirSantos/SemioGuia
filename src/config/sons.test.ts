@@ -39,3 +39,16 @@ test('todos os blocos som do conteúdo apontam para sons do registro', () => {
   }
   expect(blocos).toBe(17);
 });
+
+test('toda chave do registro tem origem declarada', () => {
+  const { ORIGEM_DE_SOM } = require('./sons');
+  for (const chave of CHAVES) {
+    expect(['sintetizado', 'gravacao']).toContain(ORIGEM_DE_SOM[chave]);
+  }
+  // As três gravações reais documentadas em assets/sons/LICENCAS.md.
+  const reais = Object.entries(ORIGEM_DE_SOM)
+    .filter(([, o]) => o === 'gravacao')
+    .map(([c]) => c)
+    .sort();
+  expect(reais).toEqual(['murmurio-vesicular', 'roncos', 'sibilos']);
+});

@@ -3,10 +3,17 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog` — edite lá.
 
+## 1.2.11 — 2026-09-04
+
+- Três sons agora são gravações clínicas reais: murmúrio vesicular, sibilos e roncos (dataset aberto HF_Lung_V1, licença CC BY 4.0)
+- Selecionados pelos rótulos clínicos do dataset e por verificação espectral; o player identifica gravação real × som sintetizado
+- Proveniência e licença documentadas no repositório; estridor e estertores permanecem sintetizados, fiéis ao texto
+
 ## 1.2.10 — 2026-09-04
 
 - Timbre dos sons respiratórios corrigido para o grave que o texto descreve (~100 Hz no murmúrio vesicular)
 - O ajuste veio de uma auditoria numérica dos próprios arquivos contra os parâmetros do texto revisado
+- Nenhum outro som mudou: picos e intervalos conferidos antes e depois
 
 ## 1.2.9 — 2026-09-04
 

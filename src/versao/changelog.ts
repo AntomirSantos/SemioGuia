@@ -13,11 +13,21 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.11',
+    data: '2026-09-04',
+    linhas: [
+      'Três sons agora são gravações clínicas reais: murmúrio vesicular, sibilos e roncos (dataset aberto HF_Lung_V1, licença CC BY 4.0)',
+      'Selecionados pelos rótulos clínicos do dataset e por verificação espectral; o player identifica gravação real × som sintetizado',
+      'Proveniência e licença documentadas no repositório; estridor e estertores permanecem sintetizados, fiéis ao texto',
+    ],
+  },
+  {
     versao: '1.2.10',
     data: '2026-09-04',
     linhas: [
       'Timbre dos sons respiratórios corrigido para o grave que o texto descreve (~100 Hz no murmúrio vesicular)',
       'O ajuste veio de uma auditoria numérica dos próprios arquivos contra os parâmetros do texto revisado',
+      'Nenhum outro som mudou: picos e intervalos conferidos antes e depois',
     ],
   },
   {

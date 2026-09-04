@@ -458,6 +458,17 @@ SONS = {
     'atrito-pleural.wav': som_atrito_pleural,
 }
 
+# Chaves cujo arquivo em assets/sons é uma GRAVAÇÃO REAL (ver
+# assets/sons/LICENCAS.md e scripts/preparar-sons-reais.py). O gerador não
+# as sobrescreve — rode com --force para regenerar as versões sintéticas.
+GRAVACOES_REAIS = {'murmurio-vesicular.wav', 'sibilos.wav', 'roncos.wav'}
+
 if __name__ == '__main__':
+    import sys
+
+    forcar = '--force' in sys.argv
     for nome, fabrica in SONS.items():
+        if nome in GRAVACOES_REAIS and not forcar:
+            print(f'{nome}: gravação real preservada (use --force para sobrescrever)')
+            continue
         salvar(nome, fabrica())

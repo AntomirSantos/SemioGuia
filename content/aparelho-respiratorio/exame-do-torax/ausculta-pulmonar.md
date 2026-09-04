@@ -295,7 +295,7 @@ texto: |
 titulo: Roncos
 arquivo: roncos
 descricao: |
-  Contínuos graves, nas duas fases com predomínio expiratório — e fugazes: repare como mudam de um ciclo para o outro. Compare com os sibilos: mesma família, outra frequência.
+  Contínuos graves, de baixa frequência, com predomínio expiratório. Compare com os sibilos: mesma família de sons contínuos, outra frequência.
 :::
 
 ::: som
