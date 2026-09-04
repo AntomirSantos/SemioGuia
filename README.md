@@ -76,15 +76,13 @@ como "Revisado" no app.
    adendos em `docs/verificacao-fase1b.md`).
 2. **Ativação do Firebase** — flag mestre desligada; passos em
    `docs/firebase-setup.md` (executar na máquina do autor).
-3. **Publicação nas lojas** — build EAS, ícones/splash definitivos,
-   fichas das lojas.
-4. **Splash/ícone do app** — `app.json` ainda usa cores da paleta
-   anterior ao design editorial.
-5. **Fronteiras declaradas** (fora por decisão ou por silêncio das
+3. **Publicação nas lojas** — build EAS e fichas das lojas (ícone,
+   splash e favicon definitivos já estão na paleta editorial).
+4. **Fronteiras declaradas** (fora por decisão ou por silêncio das
    fontes, reavaliáveis): obstetrícia (sem obra de referência no
    acervo), marcha da criança pequena e exame motor neonatal
    especializado, puericultura.
-6. **Fase futura planejada: exame físico do idoso** — por decisão do
+5. **Fase futura planejada: exame físico do idoso** — por decisão do
    autor (2026-09-03) deixa de ser fronteira aceita; capítulo próprio a
    especificar depois do fechamento do beta (fundamentos do exame
    psíquico e delirium já apontam para ele).

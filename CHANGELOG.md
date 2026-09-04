@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog` — edite lá.
 
+## 1.2.4 — 2026-09-04
+
+- Ícone definitivo do app: "S" serifado em papel sobre vinho, como capa de livro
+- Splash na paleta editorial, com variante própria para o tema escuro
+- Favicon e ícones adaptativos do Android refeitos na mesma marca
+
 ## 1.2.3 — 2026-09-04
 
 - Revisão do autor encerrada: os 86 itens do checklist estão fechados

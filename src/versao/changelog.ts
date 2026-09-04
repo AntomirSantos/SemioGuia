@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.4',
+    data: '2026-09-04',
+    linhas: [
+      'Ícone definitivo do app: "S" serifado em papel sobre vinho, como capa de livro',
+      'Splash na paleta editorial, com variante própria para o tema escuro',
+      'Favicon e ícones adaptativos do Android refeitos na mesma marca',
+    ],
+  },
+  {
     versao: '1.2.3',
     data: '2026-09-04',
     linhas: [
