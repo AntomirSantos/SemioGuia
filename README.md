@@ -30,7 +30,7 @@ como "Revisado" no app.
 | Questões de quiz | **327** (balanceadas por índice e comprimento) |
 | Checklists OSCE | **53** (viram estações de prática) |
 | Ilustrações SVG | **52** (temáveis via `currentColor`, geometria verificada) |
-| Testes | **53 suítes / 412 testes** verdes |
+| Testes | **55 suítes / 419 testes** verdes |
 
 ## Stack
 
@@ -53,8 +53,10 @@ como "Revisado" no app.
   tipográficas; tokens de movimento (ease-out forte, pressões 120 ms,
   stagger 40 ms, `prefers-reduced-motion` respeitado) em `src/design/movimento.tsx`
 - **Qualidade**: Jest + jest-expo; gate de contraste WCAG AA
-  (`npm run checar:contraste`); CI no GitHub Actions; capturas de
-  verificação via Playwright
+  (`npm run checar:contraste`); gate editorial das razões de
+  verossimilhança (`npm run checar:rv` — toda RV em prosa precisa da
+  tradução "quanto o achado move a probabilidade" no mesmo parágrafo);
+  CI no GitHub Actions; capturas de verificação via Playwright
 - **Deploy web**: branch `gh-pages` (procedimento nominal em
   `docs/deploy-gh-pages.md`)
 
@@ -110,6 +112,7 @@ npx expo start          # i = iOS, a = Android, w = web
 
 npm test                # 53 suítes / 406 testes
 npm run checar:contraste
+npm run checar:rv
 npx tsc --noEmit
 ```
 

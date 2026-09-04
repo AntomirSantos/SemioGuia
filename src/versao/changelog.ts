@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.6',
+    data: '2026-09-04',
+    linhas: [
+      'Toda razão de verossimilhança citada agora vem traduzida: o quanto o achado move a probabilidade — regra vigiada pelo build',
+      'Novo no Perfil: "Imagens do guia", o glossário das analogias com nome próprio — do rio sem obstáculos ao quadril que mente',
+      'Cada imagem leva ao tópico em que ela nasce',
+    ],
+  },
+  {
     versao: '1.2.5',
     data: '2026-09-04',
     linhas: [

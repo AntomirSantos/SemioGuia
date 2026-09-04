@@ -467,7 +467,7 @@ texto: |
 
   **3. Para a ruptura, os achados se dividem em quem confirma e quem exclui.** O melhor achado positivo é a **ruptura palpável**, com **10,2** — e McGee coloca a ressalva na mesma página: esses números vêm de exames feitos por **cirurgiões ortopédicos** com conhecimento anatômico e experiência consideráveis, e não se sabe se outros examinadores reproduzem essa acurácia. Depois dela vêm a **idade de 60 anos ou mais** (3,2), o **teste do braço caído** (2,9) e a **fraqueza do infraespinal** (2,6). Para o teste do supraespinal, a acurácia é semelhante quer o examinador considere positiva a **fraqueza** (2,0) quer a **dor** (1,7).
 
-  Do lado negativo, o achado mais forte é demográfico e não custa nada: **idade de 39 anos ou menos**, com razão de verossimilhança **0,1**.
+  Do lado negativo, o achado mais forte é demográfico e não custa nada: **idade de 39 anos ou menos**, com razão de verossimilhança **0,1** — praticamente afasta a ruptura.
 
   **Uma inversão que merece atenção.** O **arco doloroso** é o melhor achado positivo para **tendinite** (2,9) e **não tem valor positivo** para **ruptura** — mas sua **ausência** reduz a probabilidade de ruptura (0,5). O mesmo gesto, duas perguntas, dois comportamentos opostos. É a razão pela qual "arco doloroso presente" não é um diagnóstico: é uma informação que só significa alguma coisa depois que se decide o que se está procurando.
 

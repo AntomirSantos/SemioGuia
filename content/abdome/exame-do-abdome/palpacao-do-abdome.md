@@ -290,9 +290,9 @@ nivel: avancado
 texto: |
   Os números de McGee separam duas perguntas que a beira do leito costuma confundir: **"isto que eu palpo é o fígado?"** e **"este fígado está aumentado?"**.
 
-  Para a primeira, o exame é excelente. Quando o examinador acredita ter palpado a borda hepática abaixo do rebordo costal, ele quase sempre está certo — razão de verossimilhança **233,7**.
+  Para a primeira, o exame é excelente. Quando o examinador acredita ter palpado a borda hepática abaixo do rebordo costal, ele quase sempre está certo — razão de verossimilhança **233,7**, um número que praticamente confirma o achado sozinho.
 
-  Para a segunda, o exame é fraco. A distância entre a borda e o rebordo se correlaciona mal com o tamanho global do órgão, e a borda palpável é um sinal pouco confiável de hepatomegalia: razão de verossimilhança de apenas **1,9**. Aproximadamente **metade dos fígados que se estendem abaixo do rebordo não são palpáveis**.
+  Para a segunda, o exame é fraco. A distância entre a borda e o rebordo se correlaciona mal com o tamanho global do órgão, e a borda palpável é um sinal pouco confiável de hepatomegalia: razão de verossimilhança de apenas **1,9**, que quase não move a probabilidade. Aproximadamente **metade dos fígados que se estendem abaixo do rebordo não são palpáveis**.
 
   A explicação dessa metade que escapa é o achado mais interessante do capítulo: **a palpabilidade depende mais da consistência do que do tamanho.** Fígados mais firmes são mais fáceis de palpar. Em pacientes com cirrose, cujos fígados são menores e mais firmes que o normal, a borda é palpável em 95% das vezes.
 
@@ -336,7 +336,7 @@ texto: |
 nome: Sinal de Courvoisier
 nivel: avancado
 descricao: "Vesícula biliar palpável e indolor em paciente ictérico."
-significado: "Indica obstrução extra-hepática das vias biliares. A leitura tradicional, que o toma como sinal de malignidade, é mais forte do que os dados sustentam: em pacientes com icterícia, o achado tem razão de verossimilhança 26 para obstrução das vias biliares, mas apenas 2,6 para que essa obstrução seja maligna (McGee). Se há uma lei, ela é sobre obstrução, não sobre câncer."
+significado: "Indica obstrução extra-hepática das vias biliares. A leitura tradicional, que o toma como sinal de malignidade, é mais forte do que os dados sustentam: em pacientes com icterícia, o achado tem razão de verossimilhança 26 para obstrução das vias biliares — eleva muito a probabilidade —, mas apenas 2,6 para que essa obstrução seja maligna, o que quase não muda o raciocínio (McGee). Se há uma lei, ela é sobre obstrução, não sobre câncer."
 causas:
   - "Neoplasia periampular, sobretudo da cabeça do pâncreas — a associação clássica descrita por Porto"
   - "Obstrução coledociana benigna, incluindo cálculo, que responde por parte dos casos"

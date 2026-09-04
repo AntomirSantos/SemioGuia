@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog` — edite lá.
 
+## 1.2.6 — 2026-09-04
+
+- Toda razão de verossimilhança citada agora vem traduzida: o quanto o achado move a probabilidade — regra vigiada pelo build
+- Novo no Perfil: "Imagens do guia", o glossário das analogias com nome próprio — do rio sem obstáculos ao quadril que mente
+- Cada imagem leva ao tópico em que ela nasce
+
 ## 1.2.5 — 2026-09-04
 
 - Todos os 55 tópicos ganham uma cena clínica de abertura, uma pergunta "Pense antes de seguir" e o fecho "Em três linhas"

@@ -62,6 +62,7 @@
     "typecheck": "tsc --noEmit",
     "build:content": "tsx scripts/build-content.ts",
     "checar:contraste": "tsx scripts/checar-contraste.ts",
+    "checar:rv": "tsx scripts/checar-rv.ts",
     "relatorio:beta": "tsx scripts/relatorio-beta.ts",
     "changelog": "tsx scripts/gerar-changelog.ts",
     "revisao:status": "tsx scripts/revisao.ts"

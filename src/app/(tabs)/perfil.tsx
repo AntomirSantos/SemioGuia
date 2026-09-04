@@ -18,6 +18,8 @@ import { compartilharJson } from '../../analytics/compartilhar';
 import { analisarDataProva, formatarDataProva } from '../../plano/plano';
 import { FolhaFeedback } from '../../feedback/FolhaFeedback';
 import { VERSAO_APP } from '../../config/versao';
+import { IMAGENS_DO_GUIA } from '../../config/analogias';
+import { router } from 'expo-router';
 
 const AVISO_LEGAL = 'Material educacional. Não substitui o julgamento clínico.';
 
@@ -371,6 +373,50 @@ export function TelaPerfil() {
         </Pressable>
       </View>
       <FolhaFeedback visivel={feedbackAberto} aoFechar={() => setFeedbackAberto(false)} />
+
+      <RotuloSecao>Imagens do guia</RotuloSecao>
+      <Text
+        style={{
+          fontFamily: fonte.corpo,
+          fontSize: Math.round(tipo.small * escala),
+          color: paleta.tinta2,
+          marginBottom: espaco.s,
+        }}
+      >
+        As analogias que o guia usa e reusa, com nome próprio. Toque para
+        reler a imagem no tópico em que ela nasce.
+      </Text>
+      <View style={{ marginBottom: espaco.l }}>
+        {IMAGENS_DO_GUIA.map((img) => (
+          <Pressable
+            key={`${img.topicoId}-${img.nome}`}
+            accessibilityRole="button"
+            accessibilityLabel={`${img.nome} — abrir ${img.topicoTitulo}`}
+            onPress={() => router.push(`/topico/${img.topicoId}`)}
+            style={{ paddingVertical: espaco.s, borderBottomWidth: 1, borderBottomColor: paleta.linha }}
+          >
+            <Text
+              style={{
+                fontFamily: fonte.displayItalico,
+                fontSize: Math.round(tipo.corpo * escala),
+                color: paleta.tinta,
+                marginBottom: 2,
+              }}
+            >
+              {img.nome}
+            </Text>
+            <Text
+              style={{
+                fontFamily: fonte.corpo,
+                fontSize: Math.round(tipo.small * escala),
+                color: paleta.tinta2,
+              }}
+            >
+              {img.descricao} · {img.topicoTitulo}
+            </Text>
+          </Pressable>
+        ))}
+      </View>
 
       <RotuloSecao>Bibliografia</RotuloSecao>
       <View style={{ marginBottom: espaco.l }}>

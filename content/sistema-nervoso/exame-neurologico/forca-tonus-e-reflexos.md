@@ -704,7 +704,7 @@ texto: |
 
   **Duas leituras práticas.** A primeira: diante de suspeita de lesão hemisférica com força preservada, vale a pena fazer os três testes especiais, e não apenas insistir na força. A segunda: o **rolamento dos dedos mínimos** e a **percussão do pé** não alcançaram significância — não é que sejam ruins, é que os estudos disponíveis não os sustentam, e é assim que este guia os registra.
 
-  Um dado do mesmo capítulo enquadra a hemianopsia: ela é o achado de nervo craniano da lista, com razão de verossimilhança 4,3, e sua semiotécnica — os campos por confrontação — está no tópico de pares cranianos de I a VI.
+  Um dado do mesmo capítulo enquadra a hemianopsia: ela é o achado de nervo craniano da lista, com razão de verossimilhança 4,3 — elevação moderada da probabilidade —, e sua semiotécnica — os campos por confrontação — está no tópico de pares cranianos de I a VI.
 :::
 
 ::: conceito
@@ -753,7 +753,7 @@ texto: |
 
   **A hierarquia surpreende duas vezes.** O reflexo com melhor desempenho localizatório é o **bicipital ou estilorradial diminuído** apontando C6 (14,2) — e o mais famoso da lista, o **aquileu diminuído** apontando S1, é o pior (2,7). O aquileu é o reflexo que todo mundo pesquisa na lombalgia com irradiação, e ele é justamente o que menos decide. McGee acrescenta o dado epidemiológico que completa o quadro do lado cervical: as radiculopatias **C6 e C7 são muito mais comuns** que as de C5 ou C8.
 
-  Aparece aqui o **reflexo isquiotibial medial**, que não está no exame de rotina deste guia e vale conhecer: percutido no tendão medial da fossa poplítea, ele corresponde ao nível **L5**, exatamente aquele que os reflexos habituais não cobrem — e localiza L5 com razão de verossimilhança 6,2. É a exceção útil à regra de que a radiculopatia L5 é a que não tem reflexo.
+  Aparece aqui o **reflexo isquiotibial medial**, que não está no exame de rotina deste guia e vale conhecer: percutido no tendão medial da fossa poplítea, ele corresponde ao nível **L5**, exatamente aquele que os reflexos habituais não cobrem — e localiza L5 com razão de verossimilhança 6,2, elevação substancial da probabilidade. É a exceção útil à regra de que a radiculopatia L5 é a que não tem reflexo.
 
   **O aquileu tem, porém, outro emprego, e nele é excelente.** Em um estudo com adultos ambulatoriais com diabetes tipo 2, o **reflexo aquileu ausente** detectou neuropatia periférica definida por estudo de condução nervosa com sensibilidade de **92%**, especificidade de **67%**, razão de verossimilhança positiva de **2,8** e negativa de **0,1**. Leia o número negativo com atenção: em paciente com diabetes, a **presença** do reflexo aquileu reduz muito a probabilidade de neuropatia periférica. E, nesse estudo, o exame do aquileu foi **mais preciso** que os sintomas neuropáticos, que a duração do diabetes e que a presença de retinopatia.
 

@@ -382,7 +382,7 @@ texto: |
 
   O padrão que emerge é constante em todo o exame do tórax: os sinais são **específicos e pouco sensíveis**. Achá-los vale muito; não achá-los quase nunca afasta a doença — com as exceções do murmúrio vesicular e da sonoridade normais, que efetivamente afastam derrame pleural.
 
-  Os valores exatos variam conforme a meta-análise que os agrega — a egofonia, por exemplo, aparece com razão de verossimilhança de 4 a 7 para pneumonia, e o murmúrio diminuído com 2,2 a 2,5 —, mas a direção e a ordem de grandeza são estáveis entre as fontes. Este guia mantém os números de McGee por consistência interna.
+  Os valores exatos variam conforme a meta-análise que os agrega — a egofonia, por exemplo, aparece com razão de verossimilhança de 4 a 7 para pneumonia (elevação moderada a substancial da probabilidade), e o murmúrio diminuído com 2,2 a 2,5 (elevação pequena) —, mas a direção e a ordem de grandeza são estáveis entre as fontes. Este guia mantém os números de McGee por consistência interna.
 :::
 
 ::: secao

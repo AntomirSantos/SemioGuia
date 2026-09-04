@@ -589,7 +589,7 @@ texto: |
 
   Sobre o **sopro tireoidiano**: é achado comum na doença de Graves — 73% dos pacientes em um estudo —, mas foi encontrado também em 30% de idosos com bócio nodular tóxico, o que sugere que **não é tão específico para Graves quanto se ensina classicamente**. McGee levanta uma hipótese elegante: sopros irradiam longe de sua origem, e o "sopro tireoidiano" desses idosos pode ser um sopro carotídeo tornado proeminente pelo aumento do débito cardíaco.
 
-  Sobre o **reflexo aquileu**: é o achado físico mais estudado da doença tireoidiana. Tanto a contração quanto o relaxamento se prolongam no hipotireoidismo, mas é o relaxamento lento que salta aos olhos. Em um estudo, o tempo de meio relaxamento foi de 460 ms nos hipotireóideos contra 310 ms nos eutireóideos. Medido com instrumento, um tempo acima de 370 a 380 ms detecta hipotireoidismo com razão de verossimilhança positiva de 18,7 e negativa de 0,1 — muito melhor que a apreciação a olho nu (3,4). A semiotécnica dos reflexos profundos pertence ao capítulo do sistema nervoso.
+  Sobre o **reflexo aquileu**: é o achado físico mais estudado da doença tireoidiana. Tanto a contração quanto o relaxamento se prolongam no hipotireoidismo, mas é o relaxamento lento que salta aos olhos. Em um estudo, o tempo de meio relaxamento foi de 460 ms nos hipotireóideos contra 310 ms nos eutireóideos. Medido com instrumento, um tempo acima de 370 a 380 ms detecta hipotireoidismo com razão de verossimilhança positiva de 18,7 e negativa de 0,1 — presente, praticamente confirma; ausente, praticamente afasta — muito melhor que a apreciação a olho nu (3,4, elevação apenas moderada). A semiotécnica dos reflexos profundos pertence ao capítulo do sistema nervoso.
 :::
 
 ::: conceito

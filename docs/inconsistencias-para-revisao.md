@@ -565,3 +565,13 @@ aparecem no início, no meio e no fim de cada tópico), com atenção especial
 às cenas — que são o único texto de tom narrativo do app — e às respostas
 dos `pense`. Este adendo NÃO reabre os 86 itens fechados; correções pedidas
 aqui serão tratadas como itens novos.
+
+**Complemento (v1.2.6):** a regra editorial dos números entrou no build
+(`npm run checar:rv`): toda razão de verossimilhança citada em prosa passa a
+vir com a tradução interpretativa no mesmo parágrafo. Treze menções que
+estavam secas ganharam glosas qualitativas (pelas faixas padrão: >10 eleva
+muito/praticamente confirma; 5–10 substancial; 2–5 moderada; 1–2 quase não
+muda; espelhadas para as RVs negativas) — sem alterar nenhum valor. E o
+Perfil ganhou o mini-glossário "Imagens do guia", com as analogias nomeadas
+do conteúdo apontando para os tópicos de origem. Ambos entram na mesma
+passada de leitura pedida acima.

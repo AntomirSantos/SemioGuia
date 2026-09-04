@@ -240,9 +240,9 @@ titulo: Percussão dolorosa e teste da tosse
 texto: |
   Existem duas maneiras de fazer a mesma pergunta da descompressão brusca sem infligir a mesma dor. As duas se baseiam no mesmo princípio: **movimentos súbitos da parede provocam dor em quem tem peritônio inflamado.**
 
-  **Percussão dolorosa.** No paciente com peritonite, os movimentos bruscos da parede — como os produzidos durante a percussão — causam dor. A percussão dolorosa está presente quando a **percussão leve** desperta dor. O achado tem razão de verossimilhança **2,4** para peritonite quando presente e **0,5** quando ausente — números melhores que os da descompressão brusca, e obtidos com uma manobra que o paciente tolera muito mais.
+  **Percussão dolorosa.** No paciente com peritonite, os movimentos bruscos da parede — como os produzidos durante a percussão — causam dor. A percussão dolorosa está presente quando a **percussão leve** desperta dor. O achado tem razão de verossimilhança **2,4** para peritonite quando presente e **0,5** quando ausente — eleva e reduz a probabilidade de forma discreta, mas com números melhores que os da descompressão brusca, e obtidos com uma manobra que o paciente tolera muito mais.
 
-  **Teste da tosse.** O paciente é solicitado a tossir. O teste é positivo quando ele demonstra dor durante a tosse — encolhe-se, faz careta, leva as mãos ao abdome — ou quando reduz nitidamente a intensidade da tosse para evitar a dor. Razão de verossimilhança **1,9** quando presente e **0,5** quando ausente.
+  **Teste da tosse.** O paciente é solicitado a tossir. O teste é positivo quando ele demonstra dor durante a tosse — encolhe-se, faz careta, leva as mãos ao abdome — ou quando reduz nitidamente a intensidade da tosse para evitar a dor. Razão de verossimilhança **1,9** quando presente e **0,5** quando ausente — move pouco a probabilidade em qualquer direção; o valor do teste está no custo, que é zero.
 
   A leitura combinada é simples e muda a prática: comece pela tosse e pela percussão suave. Se elas já responderam, a descompressão brusca não precisa ser feita.
 :::
@@ -325,7 +325,7 @@ passos:
   - "Repita do outro lado e compare: a assimetria da resposta vale mais que a resposta isolada."
   - "Considere positivo quando o golpe desperta dor intensa — o sinal de Giordano."
 observar: |
-  O sinal é muito sensível e pouco específico: além da pielonefrite aguda, pode ser positivo na litíase renal com cólica nefrética e mesmo em contratura muscular (Semiologia Clínica). Em um estudo com 1.333 pacientes que chegaram com dor abdominal aguda, McGee registra dois achados úteis para ureterolitíase, ambos provocados pelo examinador — dor à palpação do flanco e da região lombar, com razão de verossimilhança 27,7, e dor à palpação renal, com 3,6 quando presente e 0,2 quando ausente —, ainda que ambos fiquem atrás da hematúria microscópica.
+  O sinal é muito sensível e pouco específico: além da pielonefrite aguda, pode ser positivo na litíase renal com cólica nefrética e mesmo em contratura muscular (Semiologia Clínica). Em um estudo com 1.333 pacientes que chegaram com dor abdominal aguda, McGee registra dois achados úteis para ureterolitíase, ambos provocados pelo examinador — dor à palpação do flanco e da região lombar, com razão de verossimilhança 27,7 (eleva muito a probabilidade — quase decide sozinha), e dor à palpação renal, com 3,6 quando presente e 0,2 quando ausente (elevação e redução moderadas) —, ainda que ambos fiquem atrás da hematúria microscópica.
 :::
 
 ::: secao
