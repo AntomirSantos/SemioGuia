@@ -51,8 +51,14 @@ def bulha3():
     return 0.6 * damped_sine(32, 0.14, 0.045) + 0.25 * damped_sine(60, 0.14, 0.035)
 
 
-def ruido_banda(dur, f_lo, f_hi, semente):
-    """Ruído branco filtrado por FFT para a banda [f_lo, f_hi]."""
+def ruido_banda(dur, f_lo, f_hi, semente, grave=False):
+    """Ruído branco filtrado por FFT para a banda [f_lo, f_hi].
+
+    `grave=True` aplica inclinação espectral de -6 dB/oitava acima de
+    100 Hz — concentra a energia no grave, como o murmúrio vesicular que o
+    texto descreve "em torno de 100 Hz" (auditoria numérica de 2026-09:
+    sem a inclinação, a banda plana deixava o domínio em 200-500 Hz).
+    """
     rng = np.random.default_rng(semente)
     n = int(dur * SR)
     ruido = rng.standard_normal(n)
@@ -65,6 +71,8 @@ def ruido_banda(dur, f_lo, f_hi, semente):
             mascara[i] = (f - (f_lo - 40)) / 40
         elif f_hi < f < f_hi + 40:
             mascara[i] = ((f_hi + 40) - f) / 40
+    if grave:
+        mascara *= np.minimum(1.0, 100.0 / np.maximum(freqs, 1.0))
     y = np.fft.irfft(espectro * mascara, n)
     return y / (np.max(np.abs(y)) + 1e-9)
 
@@ -186,11 +194,11 @@ def respiracao_base(n_ciclos, insp=1.5, exp_audivel=0.7, ganho_exp=0.45, semente
     for k in range(n_ciclos):
         t0 = k * RESP
         n_i = int(insp * SR)
-        ruido_i = ruido_banda(insp, 90, 500, semente=semente + k * 2)
+        ruido_i = ruido_banda(insp, 60, 500, semente=semente + k * 2, grave=True)
         env_i = np.sin(np.linspace(0, np.pi, n_i)) ** 1.3
         colocar(y, ruido_i * env_i, t0, ganho=0.9)
         n_e = int(exp_audivel * SR)
-        ruido_e = ruido_banda(exp_audivel, 90, 400, semente=semente + k * 2 + 1)
+        ruido_e = ruido_banda(exp_audivel, 60, 400, semente=semente + k * 2 + 1, grave=True)
         env_e = np.sin(np.linspace(0, np.pi, n_e)) ** 1.6
         colocar(y, ruido_e * env_e, t0 + insp + 0.05, ganho=ganho_exp)
     return y

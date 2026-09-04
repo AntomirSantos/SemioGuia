@@ -13,6 +13,14 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.10',
+    data: '2026-09-04',
+    linhas: [
+      'Timbre dos sons respiratórios corrigido para o grave que o texto descreve (~100 Hz no murmúrio vesicular)',
+      'O ajuste veio de uma auditoria numérica dos próprios arquivos contra os parâmetros do texto revisado',
+    ],
+  },
+  {
     versao: '1.2.9',
     data: '2026-09-04',
     linhas: [
