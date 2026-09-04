@@ -12,26 +12,26 @@ import type { ConclusaoCaso, RespostaRegistrada } from '../progress/types';
 import { chaveConclusao, chaveResposta, type EstadoCarimbado, type PrefCarimbada, type SnapshotSync } from './merge';
 import { obterAuth } from '../conta/firebaseApp';
 
-// Única camada que toca o Firestore (Task 6 brief) — orquestrador.ts e
+// Única camada que toca o Firestore (Task 6 brief): orquestrador.ts e
 // BlocoConta.tsx nunca importam `firebase/firestore` diretamente.
 //
 // Contrato herdado das regras de segurança (Task 5, ver firestore.rules e
-// task-5-report.md — "Contrato para a Task 6"):
+// task-5-report.md, "Contrato para a Task 6"):
 //  1. Ids de tópico/item contêm '/': as chaves de documento de
 //     estudados/favoritos/itensRevisao são `encodeURIComponent`; decodificamos
 //     ao ler (decodeURIComponent é identidade em ids sem '%', então é seguro
 //     aplicar sempre, inclusive a `prefs`, cuja chave nunca é codificada).
-//  2. NUNCA gravar em `users/{uid}` — só subcoleções.
+//  2. NUNCA gravar em `users/{uid}`, só subcoleções.
 //  3. `perfil` tem id fixo `users/{uid}/perfil/dados`, campos EXATOS
 //     {email, criadoEm}; `email` tem que ser o de `auth.currentUser` NO
 //     MOMENTO da escrita (nunca cacheado) e `criadoEm` é imutável no update
-//     — por isso só gravamos o perfil quando o doc ainda não existe.
+//, por isso só gravamos o perfil quando o doc ainda não existe.
 //  4. `respostas`/`conclusoesCasos` são create-only: mandamos só as chaves
 //     que já vêm como delta (só-faltantes) do `merge()`.
 //  5. Leituras são sempre por coleção sob `users/{uid}/…`, nunca
 //     `collectionGroup` (negado por construção pelas regras).
 //  6. `writeBatch` em lotes de até 400 operações (folga sobre o limite real
-//     de 500 do SDK) — um documento inválido derruba o lote inteiro.
+//     de 500 do SDK): um documento inválido derruba o lote inteiro.
 
 const LIMITE_LOTE = 400;
 
@@ -75,11 +75,11 @@ async function commitEmLotes(db: Firestore, acoes: Array<(lote: WriteBatch) => v
 export async function gravarDeltas(db: Firestore, uid: string, deltas: SnapshotSync): Promise<void> {
   const acoes: Array<(lote: WriteBatch) => void> = [];
 
-  // Perfil: só na primeira sincronização (doc ausente) — ver contrato acima.
+  // Perfil: só na primeira sincronização (doc ausente), ver contrato acima.
   // Sem e-mail vivo (auth.currentUser.email ausente) NÃO gravamos o perfil
   // agora: as regras exigem texto(email, ...) > 0 caracteres, então um
   // e-mail vazio derrubaria o writeBatch INTEIRO (achado do round de
-  // revisão — reproduzido: 0 docs gravados). Adiar para uma sync futura é
+  // revisão, reproduzido: 0 docs gravados). Adiar para uma sync futura é
   // seguro, é só um `create` que ainda não aconteceu.
   const perfilRef = doc(db, 'users', uid, 'perfil', 'dados');
   const perfilSnap = await getDoc(perfilRef);
@@ -120,7 +120,7 @@ export async function gravarDeltas(db: Firestore, uid: string, deltas: SnapshotS
 // Apaga as 7 subcoleções (LGPD, "excluir conta"). Idempotente por natureza:
 // coleções vazias e docs já ausentes simplesmente não geram operação de
 // delete (deletar um doc inexistente também não falha, mas evitamos o ruído
-// de rede lendo antes) — contrato exigido pelo AuthProvider (Task 4/6):
+// de rede lendo antes), contrato exigido pelo AuthProvider (Task 4/6):
 // reentrar após reautenticação tem que tolerar dados já apagados.
 export async function apagarDadosDoUsuario(db: Firestore, uid: string): Promise<void> {
   const acoes: Array<(lote: WriteBatch) => void> = [];

@@ -62,20 +62,20 @@ tags:
   - pancreatite aguda
   - estação OSCE
 referencias:
-  - "Porto — Exame Clínico, 8ª ed., cap. 17 (Exame do Abdome) — Pontos de referência anatômicos, Regiões do abdome (Figuras 17.1 e 17.2), projeção dos órgãos; Inspeção: forma e volume (Figuras 17.5 a 17.8), cicatriz umbilical e boxe Sinais de Cullen e de Gray-Turner, abaulamentos, cicatrizes da parede, movimentos respiratórios, pulsações e ondas peristálticas (Figura 17.10); Ausculta: boxe sobre auscultar antes de percutir e palpar, ruídos hidroaéreos, boxe do silêncio abdominal e sopros; Roteiro pedagógico para exame do abdome"
-  - "Porto — Exame Clínico, 8ª ed., cap. 10 (Exame Físico Geral) — Circulação colateral: distinção entre desenho venoso e circulação colateral, análise (localização, direção do fluxo, frêmito e sopro), manobra de esvaziamento venoso (Figura 10.47) e boxe Tipos fundamentais de circulação colateral"
-  - "Porto — Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 8 (Parede e Cavidade Abdominais), cap. 94 (Fundamentos de Anatomia e Fisiologia) — divisão topográfica e projeção das vísceras (Figura 94.1); cap. 95 (Exame Clínico) — inspeção, peristaltismo visível, ausculta e silêncio abdominal"
-  - "Porto — Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 4 (Intestino Delgado), cap. 79 (Exame Clínico) — Exame do abdome: peristaltismo visível, localização e sentido das ondas na oclusão pilórica, do delgado e dos cólons"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 50 (Inspection of the Abdomen), p. 429-431 — equimose da parede abdominal (sinais de Cullen e de Grey Turner), frequência e patogenia; nódulo de Sister Mary Joseph"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 53 (Auscultation of the Abdomen), p. 457-460 — sopros abdominais em pessoas saudáveis e na hipertensão renovascular (boxe EBM 53.1), atrito hepático, variabilidade e propagação dos ruídos intestinais"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 52 (Abdominal Pain and Tenderness), p. 452-454 — boxe EBM 52.4, sinais de obstrução intestinal (peristaltismo visível, distensão abdominal, ruídos hiperativos)"
-  - "Semiologia Clínica, 1ª ed., cap. 14 (Exame físico de abdome e sistema digestório) — divisões do abdome (Figura 1), posicionamento (Figura 2), Tabela 1 (roteiro do exame abdominal), Tabela 2 e Figura 3 (tipos de abdome), tipos de circulação colateral (Figura 4), ausculta (patinhação, borborigmo, ruído metálico) e pontos de referência dos sopros vasculares (Figura 5)"
+  - "Porto, Exame Clínico, 8ª ed., cap. 17 (Exame do Abdome), Pontos de referência anatômicos, Regiões do abdome (Figuras 17.1 e 17.2), projeção dos órgãos; Inspeção: forma e volume (Figuras 17.5 a 17.8), cicatriz umbilical e boxe Sinais de Cullen e de Gray-Turner, abaulamentos, cicatrizes da parede, movimentos respiratórios, pulsações e ondas peristálticas (Figura 17.10); Ausculta: boxe sobre auscultar antes de percutir e palpar, ruídos hidroaéreos, boxe do silêncio abdominal e sopros; Roteiro pedagógico para exame do abdome"
+  - "Porto, Exame Clínico, 8ª ed., cap. 10 (Exame Físico Geral), Circulação colateral: distinção entre desenho venoso e circulação colateral, análise (localização, direção do fluxo, frêmito e sopro), manobra de esvaziamento venoso (Figura 10.47) e boxe Tipos fundamentais de circulação colateral"
+  - "Porto, Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 8 (Parede e Cavidade Abdominais), cap. 94 (Fundamentos de Anatomia e Fisiologia), divisão topográfica e projeção das vísceras (Figura 94.1); cap. 95 (Exame Clínico), inspeção, peristaltismo visível, ausculta e silêncio abdominal"
+  - "Porto, Semiologia Médica, 8ª ed., Parte 11 (Sistema Digestório), Seção 4 (Intestino Delgado), cap. 79 (Exame Clínico), Exame do abdome: peristaltismo visível, localização e sentido das ondas na oclusão pilórica, do delgado e dos cólons"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 50 (Inspection of the Abdomen), p. 429-431, equimose da parede abdominal (sinais de Cullen e de Grey Turner), frequência e patogenia; nódulo de Sister Mary Joseph"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 53 (Auscultation of the Abdomen), p. 457-460, sopros abdominais em pessoas saudáveis e na hipertensão renovascular (boxe EBM 53.1), atrito hepático, variabilidade e propagação dos ruídos intestinais"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 52 (Abdominal Pain and Tenderness), p. 452-454, boxe EBM 52.4, sinais de obstrução intestinal (peristaltismo visível, distensão abdominal, ruídos hiperativos)"
+  - "Semiologia Clínica, 1ª ed., cap. 14 (Exame físico de abdome e sistema digestório), divisões do abdome (Figura 1), posicionamento (Figura 2), Tabela 1 (roteiro do exame abdominal), Tabela 2 e Figura 3 (tipos de abdome), tipos de circulação colateral (Figura 4), ausculta (patinhação, borborigmo, ruído metálico) e pontos de referência dos sopros vasculares (Figura 5)"
 revisao: ok
 ---
 
 ::: cena
 texto: |
-  O interno já vinha com as mãos abertas para palpar o abdome distendido quando você o segura pelo cotovelo: "ausculta primeiro". Ele estranha — em todo o resto do corpo a ordem é outra. Mas a mão que palpa acorda o intestino, e o achado que talvez decida esse caso é justamente um intestino calado. No abdome, quem chega antes é o estetoscópio.
+  O interno já vinha com as mãos abertas para palpar o abdome distendido quando você o segura pelo cotovelo: "ausculta primeiro". Ele estranha: em todo o resto do corpo a ordem é outra. Mas a mão que palpa acorda o intestino, e o achado que talvez decida esse caso é justamente um intestino calado. No abdome, quem chega antes é o estetoscópio.
 :::
 
 ::: secao
@@ -87,7 +87,7 @@ titulo: O abdome inverte a ordem
 texto: |
   Em todo o resto do exame físico, a sequência é inspeção, palpação, percussão e ausculta. No abdome, a ausculta sobe para o segundo lugar: **inspeciona-se, ausculta-se, e só então se percute e se palpa.**
 
-  A razão é mecânica. Percutir e palpar estimulam o peristaltismo. Se a mão vier antes do estetoscópio, o examinador pode acordar um intestino calado e perder exatamente o achado que procurava — a hipoatividade dos ruídos. A regra vale sobretudo para o caso em que ela mais importa: o paciente que talvez esteja em íleo.
+  A razão é mecânica. Percutir e palpar estimulam o peristaltismo. Se a mão vier antes do estetoscópio, o examinador pode acordar um intestino calado e perder exatamente o achado que procurava: a hipoatividade dos ruídos. A regra vale sobretudo para o caso em que ela mais importa: o paciente que talvez esteja em íleo.
 
   Há um segundo motivo, este de conforto. A ausculta é indolor. Começar por ela dá ao paciente alguns minutos de contato manso antes das manobras que podem doer, e ao examinador alguns minutos para observar respiração, expressão facial e tensão da parede antes de tocar em qualquer área suspeita.
 :::
@@ -112,7 +112,7 @@ passos:
   - "Observe a dinâmica por 15 a 20 segundos sem tocar: movimentos respiratórios da parede, pulsações e ondas peristálticas."
   - "Peça ao paciente que levante a cabeça do travesseiro sem mover o tórax, ou que tussa, para evidenciar diástases e hérnias."
   - "Ausculte com o diafragma antes de qualquer percussão ou palpação, apoiando o receptor com pressão leve."
-  - "Escute por tempo suficiente para concluir por presença ou ausência de ruídos — alguns segundos não bastam quando se pretende afirmar que não há nenhum."
+  - "Escute por tempo suficiente para concluir por presença ou ausência de ruídos: alguns segundos não bastam quando se pretende afirmar que não há nenhum."
   - "Procure sopros sobre o trajeto da aorta, sobre as artérias renais na altura do umbigo e sobre as ilíacas logo abaixo dele."
 observar: |
   A parede abdominal precisa estar relaxada para que a inspeção sirva de alguma coisa, e o relaxamento depende mais do examinador do que do paciente. Converse, aqueça as mãos, avise antes de cada etapa. Um abdome contraído por medo esconde tanto quanto um abdome coberto.
@@ -148,7 +148,7 @@ texto: |
 
   Ficam então três andares. No superior, hipocôndrio direito, epigástrio e hipocôndrio esquerdo. No médio, flanco direito, mesogástrio (ou região umbilical) e flanco esquerdo. No inferior, fossa ilíaca direita, hipogástrio e fossa ilíaca esquerda.
 
-  O rebordo costal separa o hipocôndrio do flanco de cada lado — o que significa que **o hipocôndrio está inteiramente coberto pelo gradil costal**, como o próprio nome diz. Quem procura o fígado ou o baço abaixo das costelas está procurando fora da loja normal do órgão.
+  O rebordo costal separa o hipocôndrio do flanco de cada lado: o que significa que **o hipocôndrio está inteiramente coberto pelo gradil costal**, como o próprio nome diz. Quem procura o fígado ou o baço abaixo das costelas está procurando fora da loja normal do órgão.
 :::
 
 ::: ilustracao
@@ -226,9 +226,9 @@ linhas:
 ::: entendimento
 titulo: Por que a projeção varia tanto
 texto: |
-  As figuras de projeção visceral são uma média, não um gabarito. Porto adverte que essas projeções mudam com a idade, o biotipo, o estado nutricional e a própria posição do paciente — e as vísceras abdominais, exceto as retroperitoneais, deslocam-se com a respiração, com a mudança de postura e com a mão que as palpa.
+  As figuras de projeção visceral são uma média, não um gabarito. Porto adverte que essas projeções mudam com a idade, o biotipo, o estado nutricional e a própria posição do paciente, e as vísceras abdominais, exceto as retroperitoneais, deslocam-se com a respiração, com a mudança de postura e com a mão que as palpa.
 
-  A pressão intra-abdominal é praticamente igual à atmosférica, e o conteúdo do abdome se comporta como uma massa de densidade próxima à da água: cada órgão fica submetido a uma pressão que quase equilibra o seu peso. É isso que mantém fígado e baço na loja durante o ortostatismo — e é a perda dessa contenção, nas soluções de continuidade da parede, que faz as vísceras aflorarem sob a pele nas hérnias e eventrações.
+  A pressão intra-abdominal é praticamente igual à atmosférica, e o conteúdo do abdome se comporta como uma massa de densidade próxima à da água: cada órgão fica submetido a uma pressão que quase equilibra o seu peso. É isso que mantém fígado e baço na loja durante o ortostatismo, e é a perda dessa contenção, nas soluções de continuidade da parede, que faz as vísceras aflorarem sob a pele nas hérnias e eventrações.
 
   A consequência prática é modesta e importante: use as nove regiões para **descrever** onde está o achado, e não para **deduzir** de qual órgão ele vem. A dedução exige o achado somado ao restante do exame e à história.
 :::
@@ -245,7 +245,7 @@ colunas:
   - "Quando aparece"
 linhas:
   - - "Atípico ou plano"
-    - "Simétrico e levemente abaulado — a grande faixa do normal"
+    - "Simétrico e levemente abaulado: a grande faixa do normal"
     - "Pessoa saudável, com amplas variações individuais"
   - - "Globoso ou protuberante"
     - "Aumento global, com predomínio do diâmetro anteroposterior"
@@ -265,7 +265,7 @@ linhas:
 :::
 
 ::: perola
-texto: "Abdome globoso não é diagnóstico, é pergunta. Ar, líquido, gordura, feto, fezes ou massa: seis respostas possíveis para o mesmo formato — e a percussão, no tópico seguinte, é quem começa a separá-las."
+texto: "Abdome globoso não é diagnóstico, é pergunta. Ar, líquido, gordura, feto, fezes ou massa: seis respostas possíveis para o mesmo formato, e a percussão, no tópico seguinte, é quem começa a separá-las."
 :::
 
 ::: secao
@@ -281,9 +281,9 @@ texto: |
 
   **Cicatriz umbilical.** Normalmente plana ou levemente retraída. A retificação progressiva acompanha a distensão e a ascite moderada; a protrusão indica hérnia ou grande acúmulo de líquido. Em crianças, a onfalite pode cursar com secreção serosa ou seropurulenta.
 
-  **Ostomias e fístulas** entram na descrição pelo nome e pela localização — gastrostomia, ileostomia, colostomia —, com o aspecto do conteúdo e da pele ao redor.
+  **Ostomias e fístulas** entram na descrição pelo nome e pela localização (gastrostomia, ileostomia, colostomia) com o aspecto do conteúdo e da pele ao redor.
 
-  **Padrão venoso.** A pele clara e fina de crianças, idosos e emagrecidos deixa ver uma rede venosa que **não** é circulação colateral. Porto ensina a distinguir: o simples desenho venoso está na topografia normal, é simétrico, discreto, e as veias não são sinuosas. Circulação colateral é outra coisa — vem adiante, no aprofundamento.
+  **Padrão venoso.** A pele clara e fina de crianças, idosos e emagrecidos deixa ver uma rede venosa que **não** é circulação colateral. Porto ensina a distinguir: o simples desenho venoso está na topografia normal, é simétrico, discreto, e as veias não são sinuosas. Circulação colateral é outra coisa: vem adiante, no aprofundamento.
 :::
 
 ::: manobra
@@ -302,20 +302,20 @@ observar: |
 ::: conceito
 titulo: Abaulamentos e retrações
 texto: |
-  O abdome normal é regular e simétrico, com uma leve proeminência na parte média e inferior que não indica anormalidade (Porto). Um **abaulamento** ou uma **retração** em determinada região quebram essa simetria — e o dado semiológico fundamental é sempre a **localização**, lida contra a projeção das vísceras.
+  O abdome normal é regular e simétrico, com uma leve proeminência na parte média e inferior que não indica anormalidade (Porto). Um **abaulamento** ou uma **retração** em determinada região quebram essa simetria, e o dado semiológico fundamental é sempre a **localização**, lida contra a projeção das vísceras.
 
   A inspeção só levanta a hipótese; quem a fecha é a palpação, com forma, tamanho, mobilidade e pulsatilidade. Mas o endereço já estreita bastante a lista de Porto:
 
-  - **Hipocôndrio direito e epigástrio** — hepatomegalia, tumores pancreáticos.
-  - **Hipocôndrio esquerdo e flanco esquerdo** — esplenomegalia.
-  - **Flancos** — tumores renais.
-  - **Mesogástrio e difuso** — linfomas, megacólon chagásico com fecaloma volumoso, aneurisma da aorta abdominal (raro).
-  - **Hipogástrio** — útero grávido, tumores do útero e do ovário, retenção urinária, que Semiologia Clínica registra pelo nome de enfermaria **bexigoma**.
-  - **Sobre soluções de continuidade da parede** — hérnias umbilical, inguinal, femoral, escrotal, ventrolateral e **incisional**, além da diástase dos retos.
+  - **Hipocôndrio direito e epigástrio**: hepatomegalia, tumores pancreáticos.
+  - **Hipocôndrio esquerdo e flanco esquerdo**: esplenomegalia.
+  - **Flancos**: tumores renais.
+  - **Mesogástrio e difuso**: linfomas, megacólon chagásico com fecaloma volumoso, aneurisma da aorta abdominal (raro).
+  - **Hipogástrio**: útero grávido, tumores do útero e do ovário, retenção urinária, que Semiologia Clínica registra pelo nome de enfermaria **bexigoma**.
+  - **Sobre soluções de continuidade da parede**: hérnias umbilical, inguinal, femoral, escrotal, ventrolateral e **incisional**, além da diástase dos retos.
 
-  As **retrações** são mais raras — habitualmente decorrência de cicatrizes (Semiologia Clínica). Localizadas, entram na descrição pelo mesmo roteiro do abaulamento.
+  As **retrações** são mais raras: habitualmente decorrência de cicatrizes (Semiologia Clínica). Localizadas, entram na descrição pelo mesmo roteiro do abaulamento.
 
-  Um cuidado antes de nomear qualquer coisa: o abaulamento assimétrico de um flanco pode ser visceromegalia, mas as grandes esplenomegalias se reconhecem à inspeção sobretudo pela **mobilidade durante os movimentos respiratórios** — e essa é uma distinção que só a inspeção dinâmica oferece.
+  Um cuidado antes de nomear qualquer coisa: o abaulamento assimétrico de um flanco pode ser visceromegalia, mas as grandes esplenomegalias se reconhecem à inspeção sobretudo pela **mobilidade durante os movimentos respiratórios**, e essa é uma distinção que só a inspeção dinâmica oferece.
 :::
 
 ::: secao
@@ -325,24 +325,24 @@ titulo: Os movimentos
 ::: conceito
 titulo: Respiração, pulsações e ondas
 texto: |
-  **Movimentos respiratórios.** Com o paciente em decúbito dorsal — a posição do exame do abdome —, o andar superior da parede normalmente acompanha a inspiração. Esses movimentos **cessam** nos processos inflamatórios do peritônio, com a parede rígida; e nas afecções dolorosas do andar superior a respiração se torna puramente torácica. Um abdome imóvel que respira só com o tórax é um achado de inspeção com peso de alarme.
+  **Movimentos respiratórios.** Com o paciente em decúbito dorsal, a posição do exame do abdome, o andar superior da parede normalmente acompanha a inspiração. Esses movimentos **cessam** nos processos inflamatórios do peritônio, com a parede rígida; e nas afecções dolorosas do andar superior a respiração se torna puramente torácica. Um abdome imóvel que respira só com o tórax é um achado de inspeção com peso de alarme.
 
-  **Pulsações.** Em pessoas magras, pulsações epigástricas costumam ser apenas a aorta abdominal transmitida à parede. Podem também vir de um ventrículo direito hipertrofiado, caso em que a sensação lembra a do ictus. Para levantar a hipótese de aneurisma não basta ver a pulsação: é preciso o que se palpa — massa e alteração da forma do vaso (Porto). A discriminação fina dessa pulsação está no tópico de palpação.
+  **Pulsações.** Em pessoas magras, pulsações epigástricas costumam ser apenas a aorta abdominal transmitida à parede. Podem também vir de um ventrículo direito hipertrofiado, caso em que a sensação lembra a do ictus. Para levantar a hipótese de aneurisma não basta ver a pulsação: é preciso o que se palpa, massa e alteração da forma do vaso (Porto). A discriminação fina dessa pulsação está no tópico de palpação.
 
-  **Peristaltismo visível.** Em pessoas muito magras ou desnutridas, com parede hipotrofiada, ondas peristálticas podem ser vistas sem que haja doença. Ganham valor quando são bem visíveis independentemente da parede, ocorrem com periodicidade constante e vêm acompanhadas de dor em cólica e ruídos hidroaéreos — a tríade que levanta oclusão ou suboclusão.
+  **Peristaltismo visível.** Em pessoas muito magras ou desnutridas, com parede hipotrofiada, ondas peristálticas podem ser vistas sem que haja doença. Ganham valor quando são bem visíveis independentemente da parede, ocorrem com periodicidade constante e vêm acompanhadas de dor em cólica e ruídos hidroaéreos: a tríade que levanta oclusão ou suboclusão.
 
   Dois dados orientam a topografia do obstáculo (Porto): **onde** as ondas aparecem e **para onde** vão.
 
-  - **Estenose pilórica** — ondas no epigástrio e no mesogástrio, que descem cruzando da esquerda para a direita, com frequência praticamente fixa de três contrações por minuto.
-  - **Delgado** — ondas próximas ao umbigo, sem direção preferencial, podendo aparecer mais de uma ao mesmo tempo.
-  - **Cólon** — mais bem vistas no transverso quando a obstrução está no ângulo esplênico ou abaixo dele, deslocando-se da direita para a esquerda.
+  - **Estenose pilórica**: ondas no epigástrio e no mesogástrio, que descem cruzando da esquerda para a direita, com frequência praticamente fixa de três contrações por minuto.
+  - **Delgado**: ondas próximas ao umbigo, sem direção preferencial, podendo aparecer mais de uma ao mesmo tempo.
+  - **Cólon**, mais bem vistas no transverso quando a obstrução está no ângulo esplênico ou abaixo dele, deslocando-se da direita para a esquerda.
 :::
 
 ::: pense
 pergunta: |
   Por que a inspeção do abdome se faz com os olhos na altura do plano da parede, e não de cima para baixo?
 resposta: |
-  Porque abaulamentos, retrações e ondas peristálticas são relevos discretos que só aparecem em visão tangencial — olhando de cima, eles somem. Abaixe-se até a altura do abdome e use a luz rasante a favor.
+  Porque abaulamentos, retrações e ondas peristálticas são relevos discretos que só aparecem em visão tangencial: olhando de cima, eles somem. Abaixe-se até a altura do abdome e use a luz rasante a favor.
 :::
 
 ::: secao
@@ -352,17 +352,17 @@ titulo: A ausculta
 ::: conceito
 titulo: Ruídos hidroaéreos
 texto: |
-  Os ruídos hidroaéreos — abreviados **RHA** nos registros (Semiologia Clínica) — nascem do deslocamento de líquidos e gases no lúmen intestinal. Porto descreve a cadência normal como ruídos de timbre agudo que ocorrem mais ou menos a cada 5 a 10 segundos, de localização variável e aparecimento imprevisível; Semiologia Clínica recomenda auscultar no mínimo 15 a 20 segundos por quadrante.
+  Os ruídos hidroaéreos, abreviados **RHA** nos registros (Semiologia Clínica), nascem do deslocamento de líquidos e gases no lúmen intestinal. Porto descreve a cadência normal como ruídos de timbre agudo que ocorrem mais ou menos a cada 5 a 10 segundos, de localização variável e aparecimento imprevisível; Semiologia Clínica recomenda auscultar no mínimo 15 a 20 segundos por quadrante.
 
   O que se registra é uma escala de quatro degraus: **presentes e normais, aumentados, diminuídos ou ausentes.**
 
   Três variantes têm nome próprio (Semiologia Clínica):
 
-  - **Borborigmo** — o "ronco da barriga", comum em pessoas normais em jejum, pela grande proporção de gás sobre líquido.
-  - **Patinhação** — som de palmada em superfície líquida, que sugere estase num estômago sem esvaziamento adequado, como acontece diante de obstáculo no antro ou no piloro.
-  - **Ruído metálico** — timbre agudo e ressoante, descrito como um pingar de torneira, que aparece na obstrução incompleta, quando o peristaltismo tenta vencer o obstáculo.
+  - **Borborigmo**: o "ronco da barriga", comum em pessoas normais em jejum, pela grande proporção de gás sobre líquido.
+  - **Patinhação**: som de palmada em superfície líquida, que sugere estase num estômago sem esvaziamento adequado, como acontece diante de obstáculo no antro ou no piloro.
+  - **Ruído metálico**: timbre agudo e ressoante, descrito como um pingar de torneira, que aparece na obstrução incompleta, quando o peristaltismo tenta vencer o obstáculo.
 
-  Nos extremos: na diarreia e na oclusão mecânica os ruídos se intensificam; no íleo paralítico eles desaparecem, e a esse achado se dá o nome de **silêncio abdominal**. A ausculta é particularmente útil no pós-operatório de cirurgia intraperitoneal, quando o peristaltismo cessa por um período que costuma variar entre 24 e 72 horas — mais prolongado se houver infecção peritoneal ou distúrbio hidreletrolítico.
+  Nos extremos: na diarreia e na oclusão mecânica os ruídos se intensificam; no íleo paralítico eles desaparecem, e a esse achado se dá o nome de **silêncio abdominal**. A ausculta é particularmente útil no pós-operatório de cirurgia intraperitoneal, quando o peristaltismo cessa por um período que costuma variar entre 24 e 72 horas, mais prolongado se houver infecção peritoneal ou distúrbio hidreletrolítico.
 :::
 
 ::: perola
@@ -372,7 +372,7 @@ texto: "Afirmar que não há ruídos hidroaéreos é uma afirmação forte, e ex
 ::: conceito
 titulo: Sopros abdominais
 texto: |
-  Sopros abdominais são sopros ouvidos sobre o abdome. Como qualquer sopro gerado fora das câmaras cardíacas, podem atravessar os limites das bulhas e se estender da sístole à diástole — e é justamente aí que a informação muda de qualidade.
+  Sopros abdominais são sopros ouvidos sobre o abdome. Como qualquer sopro gerado fora das câmaras cardíacas, podem atravessar os limites das bulhas e se estender da sístole à diástole, e é justamente aí que a informação muda de qualidade.
 
   Onde procurar (Semiologia Clínica): sobre o trajeto da **aorta abdominal**, sobre as **artérias renais** na altura do umbigo, e sobre as **ilíacas comuns** cerca de 1 cm abaixo da cicatriz umbilical.
 
@@ -391,7 +391,7 @@ nivel: avancado
 texto: |
   Circulação colateral é a rede venosa vicariante que se abre quando um tronco venoso principal está obstruído. Ela se analisa por três atributos (Porto): **localização**, **direção do fluxo** e **presença de frêmito ou sopro**.
 
-  A direção do fluxo é determinada por uma manobra de esvaziamento. Comprima um segmento venoso com as polpas dos dois indicadores justapostos; afaste os dedos lentamente, mantendo a pressão, até deixar 5 a 10 cm de veia exangue; retire um dos dedos e observe. Se a veia se enche de imediato, o sangue vem do lado que foi liberado — ou seja, corre no sentido do dedo que permanece comprimindo. Se o segmento continua colapsado, repita descomprimindo a outra extremidade. Duas ou três repetições antes de concluir.
+  A direção do fluxo é determinada por uma manobra de esvaziamento. Comprima um segmento venoso com as polpas dos dois indicadores justapostos; afaste os dedos lentamente, mantendo a pressão, até deixar 5 a 10 cm de veia exangue; retire um dos dedos e observe. Se a veia se enche de imediato, o sangue vem do lado que foi liberado, ou seja, corre no sentido do dedo que permanece comprimindo. Se o segmento continua colapsado, repita descomprimindo a outra extremidade. Duas ou três repetições antes de concluir.
 
   - **Tipo porta.** O obstáculo está nas veias supra-hepáticas (Budd-Chiari), no fígado (cirrose) ou na veia porta. A rede ocupa as regiões periumbilical e epigástrica e a face anterior do tórax, com fluxo ascendente: o sangue sobe do abdome rumo ao tórax, buscando a cava superior. Quando a rede se concentra ao redor do umbigo e irradia dele como raios de uma roda, chama-se **cabeça de medusa**.
   - **Tipo cava inferior.** O obstáculo está na cava inferior. As fontes discordam sobre a causa mais frequente: Porto aponta a compressão extrínseca por neoplasias intra-abdominais; Semiologia Clínica aponta a trombose, com aderências e compressão tumoral em seguida. A rede ocupa a parte inferior do abdome, a região umbilical, os flancos e a face anterior do tórax, com fluxo abdome-tórax.
@@ -407,8 +407,8 @@ nivel: avancado
 descricao: "Equimose da parede abdominal. No sinal de Cullen, ela é periumbilical; no de Grey-Turner, ocupa os flancos."
 significado: "Ambos indicam hemorragia retroperitoneal ou intraperitoneal. São sinais raros: McGee registra frequência inferior a 1% na gravidez ectópica rota e inferior a 3% na pancreatite. Presentes, pesam; ausentes, não excluem nada."
 causas:
-  - "Pancreatite aguda necro-hemorrágica — descrição original de Grey Turner, em 1920, em um paciente com pancreatite hemorrágica"
-  - "Gravidez ectópica rota — quadro em que Cullen descreveu o sinal, em 1918"
+  - "Pancreatite aguda necro-hemorrágica: descrição original de Grey Turner, em 1920, em um paciente com pancreatite hemorrágica"
+  - "Gravidez ectópica rota: quadro em que Cullen descreveu o sinal, em 1918"
   - "Ruptura esplênica, hematoma da bainha do reto, úlcera duodenal perfurada"
   - "Hemorragia intra-hepática por tumor, abscesso hepático amebiano, isquemia intestinal"
   - "Ruptura de aneurisma da aorta abdominal e complicações de procedimentos (biopsia hepática percutânea, coronariografia)"
@@ -424,7 +424,7 @@ texto: |
 
   Há uma exceção que vale conhecer porque desmonta a explicação única: na gravidez ectópica, a equimose costuma ficar **abaixo** do umbigo, e o ligamento falciforme se insere na parede **acima** dele. Propôs-se que planos fasciais entre o ligamento largo e a parede inferior expliquem esses casos, hipótese que ainda não dá conta das rupturas livres na cavidade, fora do ligamento largo.
 
-  Um terceiro achado de inspeção merece o nome: o **nódulo de Sister Mary Joseph**, carcinoma metastático do umbigo, em geral adenocarcinoma de estômago, cólon, ovário ou pâncreas. Apresenta-se como nódulo dérmico ou subcutâneo endurecido e, em cerca de 20% dos pacientes, é a primeira manifestação da neoplasia; a sobrevida média após a descoberta é de 10 a 11 meses (McGee). Seu imitador é a concreção umbilical de queratina e sebo acumulados por higiene insuficiente (o *omphalith* de McGee) — que o exame cuidadoso remove.
+  Um terceiro achado de inspeção merece o nome: o **nódulo de Sister Mary Joseph**, carcinoma metastático do umbigo, em geral adenocarcinoma de estômago, cólon, ovário ou pâncreas. Apresenta-se como nódulo dérmico ou subcutâneo endurecido e, em cerca de 20% dos pacientes, é a primeira manifestação da neoplasia; a sobrevida média após a descoberta é de 10 a 11 meses (McGee). Seu imitador é a concreção umbilical de queratina e sebo acumulados por higiene insuficiente (o *omphalith* de McGee), que o exame cuidadoso remove.
 :::
 
 ::: conceito
@@ -433,9 +433,9 @@ nivel: avancado
 texto: |
   A ausculta abdominal é ensinada com mais confiança do que os dados sustentam, e McGee explica por quê com dois argumentos.
 
-  **Primeiro: a variação normal é enorme.** Uma pessoa saudável pode passar até quatro minutos sem nenhum ruído e, examinada mais tarde, apresentar mais de trinta ruídos por minuto. A atividade normal cicla com períodos de pico a pico que chegam a 50 a 60 minutos — de modo que qualquer conclusão baseada em alguns minutos de escuta analisa uma fatia pequena demais do fenômeno.
+  **Primeiro: a variação normal é enorme.** Uma pessoa saudável pode passar até quatro minutos sem nenhum ruído e, examinada mais tarde, apresentar mais de trinta ruídos por minuto. A atividade normal cicla com períodos de pico a pico que chegam a 50 a 60 minutos: de modo que qualquer conclusão baseada em alguns minutos de escuta analisa uma fatia pequena demais do fenômeno.
 
-  **Segundo: o som viaja.** Os ruídos gerados em um ponto do tubo digestivo se propagam por toda a parede abdominal. O que se escuta na fossa ilíaca direita pode ter nascido no estômago — que, aliás, é o maior gerador de ruídos, seguido pelo intestino grosso e depois pelo delgado. Isso torna a prática de auscultar os quatro quadrantes separadamente menos informativa do que parece: um quadrante mais silencioso pode significar apenas que o abdome inteiro está mais quieto naquele instante.
+  **Segundo: o som viaja.** Os ruídos gerados em um ponto do tubo digestivo se propagam por toda a parede abdominal. O que se escuta na fossa ilíaca direita pode ter nascido no estômago, que, aliás, é o maior gerador de ruídos, seguido pelo intestino grosso e depois pelo delgado. Isso torna a prática de auscultar os quatro quadrantes separadamente menos informativa do que parece: um quadrante mais silencioso pode significar apenas que o abdome inteiro está mais quieto naquele instante.
 
   A conclusão não é abandonar a ausculta, e sim calibrar a pergunta. O estetoscópio no abdome responde bem a "há atividade suficiente para dizer que este intestino não está parado?" e responde mal a "onde está a lesão?".
 :::
@@ -452,7 +452,7 @@ linhas:
     - "Contínua, de intensidade variável, sem o caráter em cólica intermitente"
     - "Em cólica, intermitente, acompanhando as contrações de luta"
   - - "Ausculta"
-    - "Ruídos escassos ou ausentes — silêncio abdominal"
+    - "Ruídos escassos ou ausentes: silêncio abdominal"
     - "Ruídos intensos e agudos nas fases iniciais, podendo ganhar timbre metálico"
   - - "Inspeção"
     - "Distensão, sem ondas de luta"
@@ -470,16 +470,16 @@ texto: |
 
   **Para obstrução intestinal**, em pacientes com dor abdominal aguda:
 
-  - **Peristaltismo visível** — razão de verossimilhança 18,8. É o achado mais poderoso de todo o exame do abdome agudo, com a ressalva de que é raro: aparece em apenas 6% dos pacientes com obstrução.
-  - **Abdome distendido** — 9,6 quando presente; 0,4 quando ausente. De 30% a 40% dos pacientes com obstrução não têm distensão, sobretudo cedo ou quando o obstáculo é alto.
-  - **Ruídos hiperativos** — 5,0.
-  - **Ruídos anormais** (hiperativos, diminuídos ou ausentes, tomados em conjunto) — 3,2; ruídos normais reduzem modestamente a probabilidade de obstrução (0,4).
-  - **Defesa, rigidez e descompressão dolorosa** — não alteram a probabilidade de obstrução.
+  - **Peristaltismo visível**: razão de verossimilhança 18,8. É o achado mais poderoso de todo o exame do abdome agudo, com a ressalva de que é raro: aparece em apenas 6% dos pacientes com obstrução.
+  - **Abdome distendido**: 9,6 quando presente; 0,4 quando ausente. De 30% a 40% dos pacientes com obstrução não têm distensão, sobretudo cedo ou quando o obstáculo é alto.
+  - **Ruídos hiperativos**: 5,0.
+  - **Ruídos anormais** (hiperativos, diminuídos ou ausentes, tomados em conjunto): 3,2; ruídos normais reduzem modestamente a probabilidade de obstrução (0,4).
+  - **Defesa, rigidez e descompressão dolorosa**, não alteram a probabilidade de obstrução.
 
   **Para hipertensão renovascular**, em pacientes investigados por hipertensão grave e de controle difícil:
 
-  - **Sopro sistodiastólico (contínuo)** — razão de verossimilhança 38,9. É praticamente diagnóstico.
-  - **Qualquer sopro abdominal**, sem exigir extensão à diástole — 5,6, bem menos convincente, justamente porque sopros sistólicos também ocorrem em quem não tem doença.
+  - **Sopro sistodiastólico (contínuo)**: razão de verossimilhança 38,9. É praticamente diagnóstico.
+  - **Qualquer sopro abdominal**, sem exigir extensão à diástole: 5,6, bem menos convincente, justamente porque sopros sistólicos também ocorrem em quem não tem doença.
 
   Um cuidado de interpretação: o sopro da hipertensão renovascular nem sempre nasce na artéria renal. Em pacientes operados, a ausculta intraoperatória localizou o sopro exclusivamente nas renais em cerca de metade dos casos.
 
@@ -493,11 +493,11 @@ titulo: Onde este tópico encontra os outros
 texto: |
   A inspeção do abdome puxa fios que já foram fiados em outras partes do guia.
 
-  - **A caracterização da dor abdominal** — localização, irradiação, tipo, intensidade, duração, periodicidade, ritmicidade (incluindo o ciclo dói–come–passa da úlcera duodenal), fatores de melhora e piora e manifestações concomitantes — pertence ao tópico de queixa principal e história da doença atual. Aqui se examina o abdome; lá se colhe a dor.
-  - **As lesões elementares da pele da parede** se descrevem com o vocabulário do tópico de pele, mucosas e fâneros. Já a **circulação colateral** — a distinção em relação ao desenho venoso normal, os tipos e a manobra de determinação do sentido do fluxo — é ensinada aqui mesmo, no aprofundamento deste tópico; a fonte é o capítulo de exame físico geral de Porto (Exame Clínico, cap. 10).
+  - **A caracterização da dor abdominal**: localização, irradiação, tipo, intensidade, duração, periodicidade, ritmicidade (incluindo o ciclo dói-come-passa da úlcera duodenal), fatores de melhora e piora e manifestações concomitantes, pertence ao tópico de queixa principal e história da doença atual. Aqui se examina o abdome; lá se colhe a dor.
+  - **As lesões elementares da pele da parede** se descrevem com o vocabulário do tópico de pele, mucosas e fâneros. Já a **circulação colateral**: a distinção em relação ao desenho venoso normal, os tipos e a manobra de determinação do sentido do fluxo, é ensinada aqui mesmo, no aprofundamento deste tópico; a fonte é o capítulo de exame físico geral de Porto (Exame Clínico, cap. 10).
   - **Turgência jugular e edema da metade superior do corpo**, que acompanham a colateral tipo cava superior, estão no tópico de pulso venoso jugular e turgência; a **cianose** que os acompanha tem o esquema prático de onde procurá-la no tópico de pele, mucosas e fâneros.
   - **O nódulo supraclavicular de Virchow**, achado extra-abdominal que muda o raciocínio diante de uma neoplasia digestiva, está no tópico de linfonodos, junto com a técnica da fossa supraclavicular.
-  - **A ascite** — que o abdome globoso levanta e a inspeção não resolve — se confirma pela percussão, no tópico seguinte.
+  - **A ascite**, que o abdome globoso levanta e a inspeção não resolve, se confirma pela percussão, no tópico seguinte.
   - **A respiração puramente torácica**, achado de inspeção abdominal, é a mesma dinâmica descrita no tópico de inspeção do tórax; e a frequência respiratória se conta no tópico de temperatura e frequência respiratória.
 :::
 
@@ -512,7 +512,7 @@ texto: |
   2. **Examinar o abdome parcialmente descoberto.** Cicatriz umbilical, cicatrizes cirúrgicas antigas, hérnias inguinais e o padrão venoso dos flancos ficam justamente nas bordas que o lençol costuma cobrir. Exponha do xifoide ao púbis, com a genitália coberta.
   3. **Chamar de circulação colateral qualquer veia visível.** Em pele clara e fina, o desenho venoso normal é simétrico, discreto, na topografia habitual, com veias não sinuosas. Colateral tem localização anômala, sentido de fluxo alterado e veias tortuosas.
   4. **Concluir doença a partir de um sopro sistólico epigástrico isolado.** Ele ocorre em até um quinto das pessoas saudáveis, sobretudo abaixo dos 40 anos, e costuma vir da artéria celíaca. O que muda o raciocínio é o sopro contínuo ou o sopro longe da linha média.
-  5. **Registrar "ruídos hidroaéreos presentes" como fórmula.** Registre o degrau observado — presentes, aumentados, diminuídos ou ausentes — e escute tempo suficiente para sustentar o que escreveu.
+  5. **Registrar "ruídos hidroaéreos presentes" como fórmula.** Registre o degrau observado (presentes, aumentados, diminuídos ou ausentes) e escute tempo suficiente para sustentar o que escreveu.
 :::
 
 ::: perola
@@ -521,21 +521,21 @@ texto: "Um abdome que não se move com a respiração e um paciente que respira 
 
 ::: relampago
 caso: |
-  Homem de 55 anos, etilista, veio por outra queixa — mas, ao expor o abdome, uma rede de veias sinuosas salta em torno do umbigo. O interno já quer ditar "circulação colateral tipo porta".
+  Homem de 55 anos, etilista, veio por outra queixa, mas, ao expor o abdome, uma rede de veias sinuosas salta em torno do umbigo. O interno já quer ditar "circulação colateral tipo porta".
 pergunta: |
   O que falta para poder classificar?
 opcoes:
   - "Determinar a direção do fluxo com a manobra de esvaziamento venoso"
-  - "Nada — a localização periumbilical já define o tipo de circulação colateral"
+  - "Nada: a localização periumbilical já define o tipo de circulação colateral"
   - "Apenas auscultar a região à procura de sopro"
 corretaIndex: 0
 desfecho: |
-  A circulação colateral se analisa por três atributos — localização, direção do fluxo e presença de frêmito ou sopro —, e a direção exige a manobra: dois indicadores justapostos comprimem a veia, afastam-se mantendo a pressão até deixar um segmento exangue, e a extremidade liberada mostra de onde o sangue vem. Duas ou três repetições antes de concluir. Sem a direção do fluxo, o "tipo" é palpite com nome técnico.
+  A circulação colateral se analisa por três atributos (localização, direção do fluxo e presença de frêmito ou sopro) e a direção exige a manobra: dois indicadores justapostos comprimem a veia, afastam-se mantendo a pressão até deixar um segmento exangue, e a extremidade liberada mostra de onde o sangue vem. Duas ou três repetições antes de concluir. Sem a direção do fluxo, o "tipo" é palpite com nome técnico.
 :::
 
 ::: resumo
 linhas:
-  - "No abdome a ordem se inverte: inspeção, ausculta, e só depois percussão e palpação — a mão estimula o peristaltismo e pode apagar o achado."
+  - "No abdome a ordem se inverte: inspeção, ausculta, e só depois percussão e palpação, a mão estimula o peristaltismo e pode apagar o achado."
   - "Inspecione com os olhos no plano da parede: é em visão tangencial que abaulamentos, retrações e ondas peristálticas aparecem."
   - "A ausculta abre o exame também por gentileza: minutos de contato indolor antes das manobras que podem doer."
 :::
@@ -554,11 +554,11 @@ perguntas:
       - "Porque percutir e palpar estimulam o peristaltismo e podem encobrir ruídos diminuídos"
       - "Porque a percussão desloca gás para os flancos e cria falsos sopros"
     corretaIndex: 2
-    explicacao: "A percussão e a palpação estimulam o peristaltismo. Auscultar depois delas pode transformar um intestino hipoativo em um intestino aparentemente normal — perdendo justamente o achado que interessa em quem se suspeita de íleo. Há ainda a vantagem de começar por um método indolor, o que ajuda no relaxamento da parede."
+    explicacao: "A percussão e a palpação estimulam o peristaltismo. Auscultar depois delas pode transformar um intestino hipoativo em um intestino aparentemente normal: perdendo justamente o achado que interessa em quem se suspeita de íleo. Há ainda a vantagem de começar por um método indolor, o que ajuda no relaxamento da parede."
   - id: insp-abd-2
     enunciado: Um homem de 62 anos com dor abdominal em cólica e vômitos tem, à inspeção, ondas peristálticas nitidamente visíveis. Como esse achado se comporta como teste diagnóstico para obstrução intestinal?
     alternativas:
-      - "Eleva muito a probabilidade de obstrução, mas é raro — e sua ausência não tranquiliza"
+      - "Eleva muito a probabilidade de obstrução, mas é raro, e sua ausência não tranquiliza"
       - "É um achado sensível e pouco específico, útil para excluir obstrução quando ausente"
       - "Não altera a probabilidade de obstrução, por ocorrer com a mesma frequência em pessoas saudáveis magras"
       - "Indica especificamente obstrução do intestino grosso, pois o delgado não produz ondas visíveis"
@@ -572,7 +572,7 @@ perguntas:
       - "Apenas desenho venoso, achado comum em pessoas de pele clara e fina"
       - "Tipo porta, no padrão em cabeça de medusa, por obstáculo no fígado, na porta ou nas supra-hepáticas"
     corretaIndex: 3
-    explicacao: "A colateral tipo porta ocupa as regiões periumbilical e epigástrica e a face anterior do tórax, com fluxo do abdome para o tórax, em busca da cava superior; quando a rede irradia do umbigo como raios de uma roda, chama-se cabeça de medusa. O obstáculo está nas supra-hepáticas, no fígado ou na porta. O desenho venoso normal é simétrico, discreto, na topografia habitual e com veias não sinuosas — o oposto do descrito. Na colateral tipo cava superior, a rede fica na metade superior do tórax, com fluxo toracoabdominal."
+    explicacao: "A colateral tipo porta ocupa as regiões periumbilical e epigástrica e a face anterior do tórax, com fluxo do abdome para o tórax, em busca da cava superior; quando a rede irradia do umbigo como raios de uma roda, chama-se cabeça de medusa. O obstáculo está nas supra-hepáticas, no fígado ou na porta. O desenho venoso normal é simétrico, discreto, na topografia habitual e com veias não sinuosas: o oposto do descrito. Na colateral tipo cava superior, a rede fica na metade superior do tórax, com fluxo toracoabdominal."
   - id: insp-abd-4
     enunciado: Ao auscultar o epigástrio de um universitário de 22 anos assintomático, você ouve um sopro sistólico de tonalidade média, que não se irradia para os lados. Qual é a interpretação correta?
     alternativas:
@@ -590,7 +590,7 @@ perguntas:
       - "Comprimir a proeminência com o paciente de pé: só a diástase é redutível, porque não tem conteúdo visceral, ao passo que a hérnia permanece exteriorizada"
       - "Auscultar a proeminência: na hérnia ouvem-se ruídos hidroaéreos e na diástase não"
     corretaIndex: 0
-    explicacao: "Com o paciente em decúbito dorsal, pede-se que levante a cabeça sem mover o tórax ou que eleve os membros inferiores estendidos: a contração da parede faz surgir, na diástase, uma proeminência longitudinal entre os retos, acima ou abaixo do umbigo. A diferença de fundo é anatômica — a diástase é o afastamento dos músculos, sem saco herniário nem anel por onde as alças se insinuem. Para hérnias inguinais e crurais, acrescenta-se a tosse ou o esforço expiratório contra a mão."
+    explicacao: "Com o paciente em decúbito dorsal, pede-se que levante a cabeça sem mover o tórax ou que eleve os membros inferiores estendidos: a contração da parede faz surgir, na diástase, uma proeminência longitudinal entre os retos, acima ou abaixo do umbigo. A diferença de fundo é anatômica: a diástase é o afastamento dos músculos, sem saco herniário nem anel por onde as alças se insinuem. Para hérnias inguinais e crurais, acrescenta-se a tosse ou o esforço expiratório contra a mão."
   - id: insp-abd-6
     enunciado: Um paciente no quinto dia de pós-operatório de laparotomia mantém distensão abdominal, dor contínua e ausência de ruídos hidroaéreos. Como se chama esse achado da ausculta e o que ele sugere neste contexto?
     alternativas:
@@ -599,5 +599,5 @@ perguntas:
       - "Borborigmo, achado fisiológico do jejum prolongado"
       - "Silêncio abdominal, sugerindo íleo paralítico além do período fisiológico de 24 a 72 horas"
     corretaIndex: 3
-    explicacao: "O desaparecimento dos ruídos hidroaéreos é o silêncio abdominal, característico do íleo paralítico. Após cirurgia abdominal há inibição fisiológica do peristaltismo por um período que costuma variar entre 24 e 72 horas; persistindo além disso, deve-se investigar íleo patológico — infecção peritoneal, distúrbio hidreletrolítico, isquemia. O ruído metálico aparece na obstrução incompleta, a patinhação denuncia líquido em estômago que se esvazia mal, e o borborigmo é o ronco comum do jejum."
+    explicacao: "O desaparecimento dos ruídos hidroaéreos é o silêncio abdominal, característico do íleo paralítico. Após cirurgia abdominal há inibição fisiológica do peristaltismo por um período que costuma variar entre 24 e 72 horas; persistindo além disso, deve-se investigar íleo patológico: infecção peritoneal, distúrbio hidreletrolítico, isquemia. O ruído metálico aparece na obstrução incompleta, a patinhação denuncia líquido em estômago que se esvazia mal, e o borborigmo é o ronco comum do jejum."
 :::

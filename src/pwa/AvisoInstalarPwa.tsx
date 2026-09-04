@@ -13,7 +13,7 @@ import {
 
 // Aviso de instalação da PWA (beta §9.7): só na web, só quando o app não
 // roda como app instalado; fechável, e o fechamento vale 7 dias. Tudo
-// guardado por try/catch — storage bloqueado nunca quebra a home.
+// guardado por try/catch: storage bloqueado nunca quebra a home.
 export function AvisoInstalarPwa() {
   const { paleta, escala } = useTema();
   const [plataforma, setPlataforma] = useState<PlataformaWeb | null>(null);

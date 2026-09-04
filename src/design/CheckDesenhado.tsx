@@ -4,7 +4,7 @@ import Svg, { Path } from 'react-native-svg';
 import { useReducedMotion } from './useReducedMotion';
 import { EASE_OUT_FORTE } from './movimento';
 
-// Checkmark que se DESENHA (stroke-dashoffset, 300ms) — a micro-recompensa
+// Checkmark que se DESENHA (stroke-dashoffset, 300ms): a micro-recompensa
 // visual do acerto e do fecho da revisão. Decorativo por definição: o texto
 // ao lado é quem comunica; com movimento reduzido o check já aparece pronto.
 const D = 'M 4 12.5 L 9.5 18 L 20 6';

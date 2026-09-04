@@ -1,14 +1,14 @@
-# SemioGuia Fase 4A — Contas e Sincronização: Implementation Plan
+# SemioGuia Fase 4A, Contas e Sincronização: Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Conta opcional (e-mail/senha + Google, Firebase) com sincronização offline-first do progresso, atrás de flag de config — sem config, o app permanece idêntico ao atual.
+**Goal:** Conta opcional (e-mail/senha + Google, Firebase) com sincronização offline-first do progresso, atrás de flag de config, sem config, o app permanece idêntico ao atual.
 
-**Architecture:** (1) `src/conta/` — config pública + init preguiçosa do SDK + AuthContext; (2) motor de merge puro em `src/sync/merge.ts` (união de históricos, LWW por carimbo nos estados); (3) `ProgressStore` v4 (carimbos + `exportarParaSync`/`aplicarDoSync`); (4) `firestore.rules` versionadas e auditadas pela skill; (5) orquestrador + bloco Conta no Perfil. Firebase real NUNCA roda no jest — sempre mockado.
+**Architecture:** (1) `src/conta/`, config pública + init preguiçosa do SDK + AuthContext; (2) motor de merge puro em `src/sync/merge.ts` (união de históricos, LWW por carimbo nos estados); (3) `ProgressStore` v4 (carimbos + `exportarParaSync`/`aplicarDoSync`); (4) `firestore.rules` versionadas e auditadas pela skill; (5) orquestrador + bloco Conta no Perfil. Firebase real NUNCA roda no jest, sempre mockado.
 
-**Tech Stack:** o existente + dependência nova `firebase` (SDK JS modular ^12 — Auth + Firestore).
+**Tech Stack:** o existente + dependência nova `firebase` (SDK JS modular ^12, Auth + Firestore).
 
-**Spec:** docs/superpowers/specs/2026-08-22-semioguia-fase4a-contas-sync-design.md — leia antes; é a autoridade.
+**Spec:** docs/superpowers/specs/2026-08-22-semioguia-fase4a-contas-sync-design.md: leia antes; é a autoridade.
 
 ## Global Constraints
 
@@ -31,7 +31,7 @@
 **Interfaces (Produces):**
 
 ```ts
-// config.ts — COMMITADO com null; o autor substitui pela config pública do console depois
+// config.ts: COMMITADO com null; o autor substitui pela config pública do console depois
 export interface FirebaseConfigApp { apiKey: string; authDomain: string; projectId: string; appId: string }
 export const firebaseConfig: FirebaseConfigApp | null = null;
 // firebaseApp.ts
@@ -41,7 +41,7 @@ export function obterAuth(): Auth; export function obterDb(): Firestore;  // laz
 ```
 
 - [ ] **Step 1:** `npm install firebase` (registro npm liberado). Conferir que `npx tsc --noEmit` segue limpo.
-- [ ] **Step 2 (TDD):** testes — `syncDisponivel()` é false com config null; `obterApp()` lança com mensagem pt-BR "Sincronização não configurada"; com `jest.mock('firebase/app')` e config injetável (exportar também `_setConfigParaTeste(cfg | null)` — usado SÓ em teste, documentado), `obterApp()` chama `initializeApp` uma única vez (segunda chamada reusa).
+- [ ] **Step 2 (TDD):** testes, `syncDisponivel()` é false com config null; `obterApp()` lança com mensagem pt-BR "Sincronização não configurada"; com `jest.mock('firebase/app')` e config injetável (exportar também `_setConfigParaTeste(cfg | null)`: usado SÓ em teste, documentado), `obterApp()` chama `initializeApp` uma única vez (segunda chamada reusa).
 - [ ] **Step 3:** implementar; suíte + typecheck. Commit: `feat: firebase dependency, public config and master sync flag`
 
 ---
@@ -51,7 +51,7 @@ export function obterAuth(): Auth; export function obterDb(): Firestore;  // laz
 **Files:**
 - Create: `src/sync/merge.ts`, Test: `src/sync/merge.test.ts`
 
-**Interfaces (Produces — Tasks 3 e 6 dependem):**
+**Interfaces (Produces, Tasks 3 e 6 dependem):**
 
 ```ts
 import type { ItemRevisao } from '../revisao/sm2';
@@ -74,17 +74,17 @@ export function chaveResposta(r: RespostaRegistrada): string;   // `${perguntaId
 export function chaveConclusao(c: ConclusaoCaso): string;       // `${casoId}_${concluidaEm}`
 ```
 
-- [ ] **Step 1 (TDD), casos obrigatórios:** históricos — união com duplicata exata (mesma chave) não duplica; item só no local vai a `paraRemoto`; só no remoto vai a `paraLocal`. Estados — carimbo maior vence nos DOIS sentidos (local mais novo ⇒ paraRemoto; remoto mais novo ⇒ paraLocal); **empate exato ⇒ vence o remoto** (entra em paraLocal, não em paraRemoto); itensRevisao comparados por `Date.parse(atualizadoEm)`. Snapshot vazio de um lado. **Idempotência:** aplicar `paraLocal`/`paraRemoto` e re-rodar `merge` devolve deltas vazios. Motor puro: sem Date.now(), sem rede, imutável (entradas inalteradas).
+- [ ] **Step 1 (TDD), casos obrigatórios:** históricos, união com duplicata exata (mesma chave) não duplica; item só no local vai a `paraRemoto`; só no remoto vai a `paraLocal`. Estados: carimbo maior vence nos DOIS sentidos (local mais novo ⇒ paraRemoto; remoto mais novo ⇒ paraLocal); **empate exato ⇒ vence o remoto** (entra em paraLocal, não em paraRemoto); itensRevisao comparados por `Date.parse(atualizadoEm)`. Snapshot vazio de um lado. **Idempotência:** aplicar `paraLocal`/`paraRemoto` e re-rodar `merge` devolve deltas vazios. Motor puro: sem Date.now(), sem rede, imutável (entradas inalteradas).
 - [ ] **Step 2:** FALHA; **Step 3:** implementar; suíte + typecheck. Commit: `feat: pure deterministic sync merge engine`
 
 ---
 
-### Task 3: Store v4 — carimbos + exportar/aplicar
+### Task 3: Store v4, carimbos + exportar/aplicar
 
 **Files:**
 - Modify: `src/progress/types.ts`, `memoryStore.ts`, `localStorageStore.ts`, `sqliteStore.ts` (migração v4), `contract.ts`; Test: via `contract.test.ts`
 
-**Interfaces (Produces — Task 6 depende):**
+**Interfaces (Produces, Task 6 depende):**
 
 ```ts
 // em ProgressStore (acréscimos):
@@ -94,7 +94,7 @@ aplicarDoSync(mudancas: SnapshotSync): Promise<void>;
 // respostas/conclusões = append apenas das chaves ausentes (dedupe por chave natural).
 ```
 
-Migração SQLite v4 (idempotente — ADD COLUMN não tem IF NOT EXISTS; usar PRAGMA):
+Migração SQLite v4 (idempotente, ADD COLUMN não tem IF NOT EXISTS; usar PRAGMA):
 
 ```ts
 private colunaExiste(tabela: string, coluna: string): boolean {
@@ -105,7 +105,7 @@ private colunaExiste(tabela: string, coluna: string): boolean {
 const VERSAO_ESQUEMA = '4';
 ```
 
-- Métodos existentes (`marcarEstudado`, `favoritar`, `definirPreferencia`) passam a gravar `atualizado_em = Date.now()` — assinaturas INALTERADAS. Desmarcar estudado/favorito vira gravação `valor=false` com carimbo (não DELETE), para o LWW propagar a remoção entre aparelhos; `listarEstudados`/`listarFavoritos` filtram `valor=true` (mesmo contrato de leitura de hoje). localStorage/memória: mesma semântica em objetos `{valor, atualizadoEm}`.
+- Métodos existentes (`marcarEstudado`, `favoritar`, `definirPreferencia`) passam a gravar `atualizado_em = Date.now()`: assinaturas INALTERADAS. Desmarcar estudado/favorito vira gravação `valor=false` com carimbo (não DELETE), para o LWW propagar a remoção entre aparelhos; `listarEstudados`/`listarFavoritos` filtram `valor=true` (mesmo contrato de leitura de hoje). localStorage/memória: mesma semântica em objetos `{valor, atualizadoEm}`.
 - [ ] **Step 1 (contrato, TDD):** marcar-desmarcar-listar continua funcionando igual (regressão); `exportarParaSync()` devolve snapshot com carimbos e históricos completos; `aplicarDoSync` faz upsert de estados e dedupe de históricos (aplicar 2× não duplica); round-trip exportar→aplicar em store vazio reproduz o snapshot.
 - [ ] **Step 2:** FALHA nos adaptadores testáveis; **Step 3:** implementar nos 3; suíte + typecheck. Commit: `feat: progress store v4 with sync timestamps and snapshot export/apply`
 
@@ -116,7 +116,7 @@ const VERSAO_ESQUEMA = '4';
 **Files:**
 - Create: `src/conta/AuthContext.tsx`, `src/conta/errosAuth.ts`, Tests co-locados
 
-**Interfaces (Produces — Task 6 depende):**
+**Interfaces (Produces, Task 6 depende):**
 
 ```ts
 export interface UsuarioConta { uid: string; email: string | null }
@@ -129,7 +129,7 @@ export function useConta(): {
   sair(): Promise<void>;
   excluirConta(): Promise<void>;                             // apaga docs do usuário (Task 6 injeta o apagador) + deleteUser; auth/requires-recent-login ⇒ mensagem pedindo reautenticação
 };
-// errosAuth.ts: mapearErroAuth(codigo: string): string — pt-BR p/ auth/email-already-in-use,
+// errosAuth.ts: mapearErroAuth(codigo: string): string, pt-BR p/ auth/email-already-in-use,
 // weak-password, invalid-credential, invalid-email, network-request-failed, requires-recent-login, too-many-requests; fallback genérico
 ```
 
@@ -141,7 +141,7 @@ export function useConta(): {
 ### Task 5: Regras Firestore + auditoria + guia do autor
 
 **Files:**
-- Create: `firestore.rules`, `docs/firebase-setup.md`; Test: nenhum automatizado (emulador não roda no CI — documentar)
+- Create: `firestore.rules`, `docs/firebase-setup.md`; Test: nenhum automatizado (emulador não roda no CI, documentar)
 
 **Regras (estrutura exata; escrever completo por coleção, sem curingas recursivos):**
 
@@ -162,9 +162,9 @@ service cloud.firestore {
 // NENHUM match fora de users/{uid}; default do Firestore nega o resto.
 ```
 
-- [ ] **Step 1:** escrever as regras completas (cada coleção com read/create/update/delete explícitos; históricos com update/delete negados; delete de estados permitido só ao dono — usado pelo excluir conta).
-- [ ] **Step 2 — AUDITORIA (gate):** ler `.claude/skills/firebase-security-rules-auditor/SKILL.md` e auditar as regras contra o checklist da skill (privilege escalation, create vs update, hasOnly, type safety, size limits, resource exhaustion, role bypass). Registrar o resultado da auditoria em `docs/firebase-setup.md` (seção "Auditoria de segurança": data, achados, correções). Corrigir tudo antes do commit.
-- [ ] **Step 3:** `docs/firebase-setup.md` (pt-BR): os 4 passos do autor da spec §8, com cliques do console, onde colar a config em `src/conta/config.ts`, e o comando de publicar regras (`firebase deploy --only firestore:rules` via `npx firebase-tools`, rodado pelo AUTOR na máquina dele — não no CI); nota de que testes de emulador são opcionais e como rodar.
+- [ ] **Step 1:** escrever as regras completas (cada coleção com read/create/update/delete explícitos; históricos com update/delete negados; delete de estados permitido só ao dono, usado pelo excluir conta).
+- [ ] **Step 2, AUDITORIA (gate):** ler `.claude/skills/firebase-security-rules-auditor/SKILL.md` e auditar as regras contra o checklist da skill (privilege escalation, create vs update, hasOnly, type safety, size limits, resource exhaustion, role bypass). Registrar o resultado da auditoria em `docs/firebase-setup.md` (seção "Auditoria de segurança": data, achados, correções). Corrigir tudo antes do commit.
+- [ ] **Step 3:** `docs/firebase-setup.md` (pt-BR): os 4 passos do autor da spec §8, com cliques do console, onde colar a config em `src/conta/config.ts`, e o comando de publicar regras (`firebase deploy --only firestore:rules` via `npx firebase-tools`, rodado pelo AUTOR na máquina dele, não no CI); nota de que testes de emulador são opcionais e como rodar.
 - [ ] **Step 4:** Commit: `feat: audited firestore security rules and author setup guide`
 
 ---
@@ -180,7 +180,7 @@ service cloud.firestore {
 - Produces:
 
 ```ts
-// firestoreSync.ts — única camada que toca o Firestore:
+// firestoreSync.ts, única camada que toca o Firestore:
 export function lerSnapshotRemoto(db, uid): Promise<SnapshotSync>;
 export function gravarDeltas(db, uid, deltas: SnapshotSync): Promise<void>;  // writeBatch em lotes de <= 400
 export function apagarDadosDoUsuario(db, uid): Promise<void>;                // usado por excluirConta
@@ -202,8 +202,8 @@ Comportamento do BlocoConta (Perfil, acima de "Aparência"): sem config ⇒ card
 
 **Files:** branch `gh-pages` regenerada (autorizada); `docs/verificacao-fase1b.md` ganha "Adendo Fase 4A".
 
-- [ ] Suíte inteira + typecheck + checar:contraste + build:content sync — verdes.
-- [ ] Export web com baseUrl `/SemioGuia` (procedimento padrão), regenerar gh-pages órfã via worktree (`.nojekyll` + `404.html`), commit `deploy: fase 4a — optional accounts groundwork (sync disabled)`, force-push SÓ gh-pages.
+- [ ] Suíte inteira + typecheck + checar:contraste + build:content sync, verdes.
+- [ ] Export web com baseUrl `/SemioGuia` (procedimento padrão), regenerar gh-pages órfã via worktree (`.nojekyll` + `404.html`), commit `deploy: fase 4a, optional accounts groundwork (sync disabled)`, force-push SÓ gh-pages.
 - [ ] Headless (390×844, claro+escuro, navegação por cliques): Perfil mostra o bloco Conta com "Sincronização indisponível nesta versão" (config null); resto do app intacto (home, um tópico, card de revisão). Screenshots: perfil-conta-indisponivel, perfil-escuro.
 - [ ] "Adendo Fase 4A" no doc de verificação + commit `docs: fase 4a verification addendum`. Push da branch principal fica com o orquestrador.
 
@@ -212,5 +212,5 @@ Comportamento do BlocoConta (Perfil, acima de "Aparência"): sem config ⇒ card
 
 ## Self-review (do plano)
 - Cobertura da spec: §3.1 → T1+T4; §3.2 → T2+T6; §4 → T5; §5 → T3; §6 → T6; §7 → distribuído; §8 → T5 (guia); §9 respeitado.
-- Tipos consistentes: SnapshotSync/EstadoCarimbado/PrefCarimbada (T2) usados em T3/T6; UsuarioConta (T4) em T6; FirebaseConfigApp (T1) — conferidos.
+- Tipos consistentes: SnapshotSync/EstadoCarimbado/PrefCarimbada (T2) usados em T3/T6; UsuarioConta (T4) em T6; FirebaseConfigApp (T1), conferidos.
 - Sem placeholders: código real na config, merge, migração v4 e estrutura das regras; T5/T6 com comportamento exaustivo e checklist de auditoria nomeado.

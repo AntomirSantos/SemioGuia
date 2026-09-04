@@ -16,7 +16,7 @@ import { track } from '../../analytics/analytics';
 import type { Avaliacao, Caso, No } from '../../content/casoSchema';
 
 // Fonte dos dados objetivos da cena: usa um token monoespaçado se um dia
-// existir em `fonte` (ainda não existe), senão cai para o corpo — como pedido
+// existir em `fonte` (ainda não existe), senão cai para o corpo, como pedido
 // pelo spec ("fonte mono se houver token, senão corpo").
 const FONTE_DADOS: string = (fonte as unknown as { mono?: string }).mono ?? fonte.corpo;
 
@@ -130,7 +130,7 @@ function OpcaoCard({ texto, estado, onPress }: { texto: string; estado: EstadoOp
   );
 }
 
-// Nó de decisão: escolher uma opção só mostra o feedback dela — o motor só é
+// Nó de decisão: escolher uma opção só mostra o feedback dela, o motor só é
 // avançado (via `decidir`) quando "Seguir" é tocado (spec §3: o feedback
 // aparece ANTES do grafo avançar).
 function NoDecisao({
@@ -227,7 +227,7 @@ export function TelaCasoPlayer({ caso }: { caso: Caso }) {
   const no = noAtual(caso, estado);
   const desfecho = desfechoAtual(caso, estado);
 
-  // Registra a conclusão exatamente uma vez por chegada a um desfecho — a
+  // Registra a conclusão exatamente uma vez por chegada a um desfecho: a
   // ref guarda o `estado` (objeto) já registrado; refazer o caso troca o
   // objeto de estado, então uma nova chegada ao mesmo (ou outro) desfecho
   // registra uma nova entrada de histórico, como pedido pelo spec §3.

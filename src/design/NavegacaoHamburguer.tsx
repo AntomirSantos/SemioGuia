@@ -22,7 +22,7 @@ const ITENS: ItemNav[] = [
 ];
 
 // react-native não tipa `.focus()` em View/Pressable (é uma capacidade só do
-// DOM, via react-native-web) — este tipo mínimo isola o cast necessário para
+// DOM, via react-native-web): este tipo mínimo isola o cast necessário para
 // devolver/mover o foco de teclado ao abrir/fechar o menu, sem introduzir
 // `any` solto pelo componente.
 interface ElementoFocavel {
@@ -37,12 +37,12 @@ function focar(ref: React.RefObject<unknown>) {
  * Navegação da versão web: substitui a barra de abas inferior (pensada para
  * toque nativo) por uma barra de topo com título + botão hambúrguer, que
  * abre um menu em overlay listando os mesmos 4 destinos das abas. O nativo
- * mantém as abas inferiores de sempre (ver (tabs)/_layout.tsx) — este
+ * mantém as abas inferiores de sempre (ver (tabs)/_layout.tsx): este
  * componente só é montado quando Platform.OS === 'web'.
  *
  * Envolve `children` (o próprio Tabs) porque o overlay precisa de um
  * ancestral com a altura cheia da tela para se posicionar com
- * `position: 'absolute'` — um wrapper do tamanho só da barra de topo faria
+ * `position: 'absolute'`, um wrapper do tamanho só da barra de topo faria
  * o overlay ficar restrito à altura da barra.
  */
 export function NavegacaoHamburguer({ children }: { children?: ReactNode }) {
@@ -55,7 +55,7 @@ export function NavegacaoHamburguer({ children }: { children?: ReactNode }) {
   const primeiraRenderizacao = useRef(true);
 
   // Move o foco de teclado para dentro do menu ao abrir e devolve ao botão
-  // hambúrguer ao fechar — sem isso, Tab continuaria seguindo a ordem do
+  // hambúrguer ao fechar, sem isso, Tab continuaria seguindo a ordem do
   // documento (conteúdo por trás do overlay) em vez de entrar no menu.
   // Ignorado na primeira renderização (menu começa fechado).
   useEffect(() => {
@@ -85,7 +85,7 @@ export function NavegacaoHamburguer({ children }: { children?: ReactNode }) {
           paddingHorizontal: espaco.l,
           backgroundColor: paleta.superficie,
           // Regra editorial de 2.5px em tinta sob a barra de navegação
-          // (identidade R2) — mesma linguagem da tab bar nativa.
+          // (identidade R2): mesma linguagem da tab bar nativa.
           borderBottomWidth: 2.5,
           borderBottomColor: paleta.tinta,
         }}
@@ -124,7 +124,7 @@ export function NavegacaoHamburguer({ children }: { children?: ReactNode }) {
           react-native-web encaminha a prop para o elemento DOM: impede que o
           conteúdo por trás do menu receba foco de teclado enquanto o overlay
           está aberto (aria-hidden sozinho não garante isso). Sem efeito no
-          nativo — prop desconhecida, ignorada. */}
+          nativo: prop desconhecida, ignorada. */}
       <View
         testID="conteudoWeb"
         style={{ flex: 1 }}

@@ -24,7 +24,7 @@ import { mapearErroAuth } from './errosAuth';
 
 const ERRO_SYNC_NAO_CONFIGURADA = 'Sincronização não configurada';
 const ERRO_GOOGLE_NATIVO =
-  'Login com Google ainda não está disponível no app nativo — chega em uma próxima versão. Use e-mail e senha por enquanto.';
+  'Login com Google ainda não está disponível no app nativo: chega em uma próxima versão. Use e-mail e senha por enquanto.';
 
 export interface UsuarioConta {
   uid: string;
@@ -60,7 +60,7 @@ const Ctx = createContext<ContaContexto | null>(null);
 
 /**
  * Contexto de conta opcional: a sincronização (config do Firebase) pode estar
- * indisponível — o app inteiro funciona em modo local nesse caso. Aqui, sem
+ * indisponível: o app inteiro funciona em modo local nesse caso. Aqui, sem
  * config, o provider monta normalmente com `usuario: null` e
  * `carregando: false`, e toda ação rejeita com a mensagem pt-BR de
  * "Sincronização não configurada" em vez de tentar tocar o SDK.
@@ -73,7 +73,7 @@ const Ctx = createContext<ContaContexto | null>(null);
  * CONSEQUÊNCIA dessa ordem: se `apagarDados` tiver sucesso mas `deleteUser`
  * falhar depois (o caso mais comum é `auth/requires-recent-login`, exigindo
  * reautenticação), os dados de servidor do usuário já foram apagados
- * enquanto a conta Auth continua existindo — `excluirConta()` rejeita, mas
+ * enquanto a conta Auth continua existindo: `excluirConta()` rejeita, mas
  * o estado local `usuario` permanece o mesmo (só `onAuthStateChanged` o
  * altera), então a UI segue mostrando a pessoa "logada". Por isso o
  * `apagarDados` injetado PRECISA ser idempotente: reentrar e chamar

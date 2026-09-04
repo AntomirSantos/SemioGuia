@@ -7,10 +7,10 @@ import { EntradaAnimada } from '../design/EntradaAnimada';
 import { ProvedorAprofundar } from './identidade';
 
 // Revelação progressiva: o bloco fica fechado por padrão (só o cabeçalho
-// "Aprofundar · <rótulo>" aparece) e o conteúdo só é montado quando aberto —
+// "Aprofundar · <rótulo>" aparece) e o conteúdo só é montado quando aberto: 
 // sem custo de render nem de a11y (leitor de tela) para quem não pediu para
 // aprofundar. Ao abrir, o conteúdo entra com a mesma transição curta
-// (fade + deslize, spec Fase 8 §3.4) usada na troca de seção — respeita
+// (fade + deslize, spec Fase 8 §3.4) usada na troca de seção: respeita
 // movimento reduzido automaticamente via EntradaAnimada.
 export function Avancado({ rotulo, children }: { rotulo: string; children: ReactNode }) {
   const { paleta } = useTema();

@@ -110,7 +110,7 @@ export function BotaoPrincipal({ rotulo, onPress }: { rotulo: string; onPress: (
 
 // Pergunta de quiz avulsa: enunciado + alternativas + explicação ao escolher.
 // Extraído de `/quiz/[...caminho]` (única UI original) para ser reaproveitado
-// pela sessão de revisão (Task 5) sem redesenho — mesma aparência e
+// pela sessão de revisão (Task 5) sem redesenho: mesma aparência e
 // comportamento em ambos os fluxos. Controlado: não sabe se está numa sessão
 // de quiz por tópico ou numa fila de revisão; quem o embute decide o rótulo
 // de progresso/avançar e o que fazer com a resposta.
@@ -137,7 +137,7 @@ export function PerguntaCard({
     // Micro-recompensa tátil: um toque físico, só no aparelho.
     if (correta) hapticaAcerto();
     else hapticaErro();
-    // Espelha o cálculo de engine.responder — manter em sincronia.
+    // Espelha o cálculo de engine.responder: manter em sincronia.
     onResponder(idx, correta);
   }
 
@@ -174,7 +174,7 @@ export function PerguntaCard({
       })}
 
       {escolhida !== null ? (
-        // Feedback do quiz (DECISAO.md): delight contido, ≤300ms — a
+        // Feedback do quiz (DECISAO.md): delight contido, ≤300ms, a
         // explicação entra com o fade+deslize curto de EntradaAnimada
         // (200ms), sem confete nem animação de estado nas alternativas.
         <EntradaAnimada>

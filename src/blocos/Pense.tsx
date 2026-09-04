@@ -12,7 +12,7 @@ type PenseBloco = Extract<Bloco, { tipo: 'pense' }>;
 
 // Recuperação ativa no meio da leitura (didática 2026-09): uma pergunta de
 // uma linha com a resposta recolhida. O leitor responde de cabeça e só então
-// confere — o ganho pedagógico está na tentativa, por isso a resposta nunca
+// confere: o ganho pedagógico está na tentativa, por isso a resposta nunca
 // vem aberta. Wash de papel (superficie2) para interromper a prosa sem
 // virar cartão sombreado; a resposta entra com a transição curta da casa.
 export function Pense({ bloco }: { bloco: PenseBloco }) {

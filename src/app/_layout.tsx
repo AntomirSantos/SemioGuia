@@ -31,7 +31,7 @@ SplashScreen.preventAutoHideAsync().catch(() => {});
 
 // Apagador real (Task 6): injetado no AuthProvider, chamado ANTES de
 // deleteUser (contrato documentado em AuthContext.tsx). Referência estável de
-// módulo — não recriada a cada render — porque AuthProvider depende dela no
+// módulo, não recriada a cada render, porque AuthProvider depende dela no
 // useCallback de `excluirConta`.
 function apagarDadosNoServidor(uid: string): Promise<void> {
   return apagarDadosDoUsuario(obterDb(), uid);
@@ -51,7 +51,7 @@ function ehEscalaFonteValida(valor: string | null): valor is EscalaFonte {
  * Ponte entre o ProgressStore e o ThemeProvider: lê as preferências de
  * tema/fonte persistidas uma única vez ao montar e as passa como props para
  * o ThemeProvider. Renderiza com os padrões enquanto carrega, sem bloquear
- * o app; ao carregar, apenas atualiza as props — o ThemeProvider sincroniza
+ * o app; ao carregar, apenas atualiza as props: o ThemeProvider sincroniza
  * seu próprio estado internamente (sem remount). Falhas ao ler o
  * ProgressStore são contidas aqui e mantêm os padrões.
  */
@@ -89,7 +89,7 @@ function TemaPersistido({ children }: { children: ReactNode }) {
 
 export default function RootLayout() {
   // Identidade Editorial R2: Libre Bodoni (títulos), Source Serif 4 (corpo
-  // de leitura) e Public Sans (UI) — ver src/design/tokens.ts (`fonte`).
+  // de leitura) e Public Sans (UI): ver src/design/tokens.ts (`fonte`).
   const [ok] = useFonts({
     LibreBodoni_700Bold,
     LibreBodoni_700Bold_Italic,
@@ -106,7 +106,7 @@ export default function RootLayout() {
   // segurar o app em tela branca; o gate de fontes vale só no nativo.
   const pronto = ok || Platform.OS === 'web';
 
-  // Instrumentação do beta (§4): uma abertura por montagem do layout raiz —
+  // Instrumentação do beta (§4): uma abertura por montagem do layout raiz, 
   // no PWA, cada visita à página conta como uma abertura. `origem` distingue
   // a home de um deep link (só a web tem URL de entrada).
   useEffect(() => {

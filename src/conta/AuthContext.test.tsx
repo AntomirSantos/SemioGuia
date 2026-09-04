@@ -238,7 +238,7 @@ describe('com config do Firebase (mockado)', () => {
     );
   });
 
-  test('excluirConta: apagarDados sucede mas deleteUser falha com auth/requires-recent-login — trava o comportamento de falha parcial (dados já apagados, usuario continua "logado")', async () => {
+  test('excluirConta: apagarDados sucede mas deleteUser falha com auth/requires-recent-login, trava o comportamento de falha parcial (dados já apagados, usuario continua "logado")', async () => {
     mockAuthObj.currentUser = { uid: 'uid-7', email: 'f@a.com' };
     const apagarDados = jest.fn(async (_uid: string) => {});
     mockDeleteUser.mockRejectedValue(
@@ -260,8 +260,8 @@ describe('com config do Firebase (mockado)', () => {
 
     expect(apagarDados).toHaveBeenCalledWith('uid-7');
     // Trava o comportamento ATUAL (documentado na docstring do AuthProvider):
-    // deleteUser falhar não limpa o `usuario` local — só onAuthStateChanged
-    // faz isso — então a UI segue mostrando a pessoa logada mesmo com os
+    // deleteUser falhar não limpa o `usuario` local, só onAuthStateChanged
+    // faz isso, então a UI segue mostrando a pessoa logada mesmo com os
     // dados de servidor já apagados por `apagarDados`. É por isso que o
     // apagador injetado (Task 6) precisa ser idempotente: o retry após
     // reautenticar vai chamá-lo de novo sobre dados que já não existem.

@@ -39,19 +39,19 @@ tags:
   - cardiomiopatia hipertrófica
   - prolapso da valva mitral
 referencias:
-  - "Porto — Semiologia Médica, 8ª ed., Parte 10 (Sistema Cardiovascular), Seção 1, cap. 47 (Exame Clínico) — Sopros: mecanismos de formação, características semiológicas, manobras, boxes Sopros orgânicos e sopros funcionais e Sopros inocentes"
-  - "Porto — Semiologia Médica, 8ª ed., Parte 10, Seção 1, cap. 49 (Doenças do Coração e da Aorta) — quadros clínicos das valvopatias aórticas e mitrais"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 43 (Heart Murmurs: General Principles), p. 361-378 — graduação de Levine, manobras e razões de verossimilhança"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 44 (Aortic Stenosis), p. 379-384"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 45 (Aortic Regurgitation), p. 385-392"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 46 (Miscellaneous Heart Murmurs), p. 393-404"
-  - "Semiologia Clínica, 1ª ed., cap. Semiologia cardiovascular — Avaliação dos sopros cardíacos (graduação em 6 níveis; Tabela 6, manobras dinâmicas; Tabela 7, comparativo dos sopros)"
+  - "Porto, Semiologia Médica, 8ª ed., Parte 10 (Sistema Cardiovascular), Seção 1, cap. 47 (Exame Clínico), Sopros: mecanismos de formação, características semiológicas, manobras, boxes Sopros orgânicos e sopros funcionais e Sopros inocentes"
+  - "Porto, Semiologia Médica, 8ª ed., Parte 10, Seção 1, cap. 49 (Doenças do Coração e da Aorta), quadros clínicos das valvopatias aórticas e mitrais"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 43 (Heart Murmurs: General Principles), p. 361-378, graduação de Levine, manobras e razões de verossimilhança"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 44 (Aortic Stenosis), p. 379-384"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 45 (Aortic Regurgitation), p. 385-392"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 46 (Miscellaneous Heart Murmurs), p. 393-404"
+  - "Semiologia Clínica, 1ª ed., cap. Semiologia cardiovascular, Avaliação dos sopros cardíacos (graduação em 6 níveis; Tabela 6, manobras dinâmicas; Tabela 7, comparativo dos sopros)"
 revisao: ok
 ---
 
 ::: cena
 texto: |
-  "Apareceu um sopro no leito 12" — e o residente já quer o ecocardiograma. Mas o sopro estava lá ontem? É sistólico ou diastólico? Recobre B1 ou nasce depois dela? Muda quando o paciente inspira? Cada uma dessas perguntas se responde com as mãos e o estetoscópio em dois minutos, e juntas elas costumam dizer mais do que o laudo que ainda vai demorar seis horas.
+  "Apareceu um sopro no leito 12", e o residente já quer o ecocardiograma. Mas o sopro estava lá ontem? É sistólico ou diastólico? Recobre B1 ou nasce depois dela? Muda quando o paciente inspira? Cada uma dessas perguntas se responde com as mãos e o estetoscópio em dois minutos, e juntas elas costumam dizer mais do que o laudo que ainda vai demorar seis horas.
 :::
 
 ::: secao
@@ -61,15 +61,15 @@ titulo: O essencial
 ::: conceito
 titulo: Sopro é fluxo que deixou de ser laminar
 texto: |
-  Em condições normais o sangue corre como uma corrente laminar, mais rápida no centro, como um rio sem obstáculos no leito. Quando surgem turbilhões, aparecem vibrações — e essas vibrações são os sopros.
+  Em condições normais o sangue corre como uma corrente laminar, mais rápida no centro, como um rio sem obstáculos no leito. Quando surgem turbilhões, aparecem vibrações, e essas vibrações são os sopros.
 
   Os mecanismos que quebram o fluxo laminar são poucos e costumam se combinar.
 
-  - **Aumento da velocidade do sangue** — exercício, febre, anemia, hipertireoidismo.
-  - **Diminuição da viscosidade** — a viscosidade amortece a turbulência, e a anemia a reduz.
-  - **Passagem por uma zona estreitada** — estenoses valvares, comunicação interventricular, persistência do canal arterial.
-  - **Passagem para uma zona dilatada** — aneurismas, rumor venoso.
-  - **Passagem sobre uma membrana de borda livre** — cúspides que não coaptam.
+  - **Aumento da velocidade do sangue**: exercício, febre, anemia, hipertireoidismo.
+  - **Diminuição da viscosidade**: a viscosidade amortece a turbulência, e a anemia a reduz.
+  - **Passagem por uma zona estreitada**: estenoses valvares, comunicação interventricular, persistência do canal arterial.
+  - **Passagem para uma zona dilatada**: aneurismas, rumor venoso.
+  - **Passagem sobre uma membrana de borda livre**: cúspides que não coaptam.
 
   A velocidade se soma a qualquer um dos outros, e disso se tira proveito: pedir um exercício ao paciente aumenta a velocidade e pode revelar um sopro que estava inaudível em repouso.
 :::
@@ -79,13 +79,13 @@ titulo: Sete características a descrever
 texto: |
   Um sopro só está descrito quando o registro responde a sete perguntas.
 
-  1. **Situação no ciclo cardíaco** — sistólico, diastólico ou contínuo; e dentro da fase, proto, meso, tele ou holo.
-  2. **Localização** — onde ele é mais audível.
-  3. **Irradiação** — para onde ele se propaga.
-  4. **Intensidade** — graduada de 1 a 6.
-  5. **Timbre e tonalidade** — suave, rude, granuloso, musical, aspirativo, em ruflar.
-  6. **Configuração** — em crescendo-decrescendo (diamante), em platô, em decrescendo.
-  7. **Modificações** — com a respiração, com a posição e com as manobras.
+  1. **Situação no ciclo cardíaco**: sistólico, diastólico ou contínuo; e dentro da fase, proto, meso, tele ou holo.
+  2. **Localização**, onde ele é mais audível.
+  3. **Irradiação**, para onde ele se propaga.
+  4. **Intensidade**: graduada de 1 a 6.
+  5. **Timbre e tonalidade**: suave, rude, granuloso, musical, aspirativo, em ruflar.
+  6. **Configuração**: em crescendo-decrescendo (diamante), em platô, em decrescendo.
+  7. **Modificações**, com a respiração, com a posição e com as manobras.
 
   A primeira é a mais importante e a que mais erra quem tem pressa. Palpe o pulso carotídeo enquanto ausculta: o que coincide com a onda carotídea é sistólico; o que vem depois é diastólico.
 :::
@@ -155,11 +155,11 @@ svg: |
     </g>
     <path id="anima-5" d="M 48 190 L 150 177 L 282 188" stroke-width="2" />
   </svg>
-legenda: "Cada tipo de sopro ocupa um lugar próprio entre as bulhas — e é esse lugar, mais que a intensidade, que aponta o mecanismo."
+legenda: "Cada tipo de sopro ocupa um lugar próprio entre as bulhas, e é esse lugar, mais que a intensidade, que aponta o mecanismo."
 :::
 
 ::: som
-titulo: Antes dos sopros — bulhas normais
+titulo: "Antes dos sopros: bulhas normais"
 arquivo: bulhas-normais
 descricao: |
   Ouça primeiro o ciclo sem sopro: TUM-TA, com o pequeno e o grande silêncio limpos. É contra este fundo que cada sopro abaixo ocupa o seu lugar entre as bulhas.
@@ -169,7 +169,7 @@ descricao: |
 titulo: Sopro sistólico de ejeção
 arquivo: sopro-sistolico
 descricao: |
-  O sopro cresce e decresce entre B1 e B2 — o desenho em diamante da primeira faixa da figura. As duas bulhas permanecem audíveis, com o sopro entre elas.
+  O sopro cresce e decresce entre B1 e B2: o desenho em diamante da primeira faixa da figura. As duas bulhas permanecem audíveis, com o sopro entre elas.
 :::
 
 ::: som
@@ -190,14 +190,14 @@ descricao: |
 titulo: Ruflar diastólico com reforço pré-sistólico
 arquivo: ruflar-pre-sistolico
 descricao: |
-  O rumor grave do meio da diástole que cresce até a próxima B1 — a quarta faixa da figura. É som de baixa frequência: a campânula apoiada de leve o encontra; a pressão firme o apaga.
+  O rumor grave do meio da diástole que cresce até a próxima B1: a quarta faixa da figura. É som de baixa frequência: a campânula apoiada de leve o encontra; a pressão firme o apaga.
 :::
 
 ::: som
-titulo: Sopro contínuo — em maquinaria
+titulo: "Sopro contínuo: em maquinaria"
 arquivo: sopro-continuo
 descricao: |
-  O sopro que atravessa a sístole e a diástole sem silêncio, com o máximo em torno de B2 — a última faixa da figura. Nenhuma pausa: é o que o nome "em maquinaria" descreve.
+  O sopro que atravessa a sístole e a diástole sem silêncio, com o máximo em torno de B2: a última faixa da figura. Nenhuma pausa: é o que o nome "em maquinaria" descreve.
 :::
 
 ::: secao
@@ -210,10 +210,10 @@ passos:
   - "Situe o sopro no ciclo palpando o pulso carotídeo enquanto ausculta com a outra mão."
   - "Determine se ele começa junto com B1 e a recobre (regurgitação) ou se começa um pouco depois dela e termina antes de B2 (ejeção)."
   - "Encontre o ponto de maior intensidade percorrendo o precórdio com o diafragma."
-  - "A partir desse ponto, desloque o receptor em várias direções — pescoço, axila, dorso, epigástrio — para mapear a irradiação."
+  - "A partir desse ponto, desloque o receptor em várias direções (pescoço, axila, dorso, epigástrio) para mapear a irradiação."
   - "Gradue a intensidade de 1 a 6, palpando a área para verificar se há frêmito."
   - "Descreva o timbre e a configuração: em diamante, em platô ou em decrescendo; rude, suave, aspirativo ou em ruflar."
-  - "Peça respiração regular e observe o comportamento do sopro na inspiração — manobra de Rivero-Carvallo."
+  - "Peça respiração regular e observe o comportamento do sopro na inspiração: manobra de Rivero-Carvallo."
   - "Repita a ausculta em decúbito lateral esquerdo e com o paciente sentado, inclinado para a frente e em apneia expiratória."
   - "Aplique as manobras que mudam o retorno venoso (Valsalva, de cócoras → de pé, elevação passiva das pernas) quando o sopro for sistólico e a dúvida incluir cardiomiopatia hipertrófica."
   - "Aplique a prensão palmar sustentada quando a dúvida for entre lesão de ejeção aórtica e lesão regurgitante esquerda."
@@ -243,19 +243,19 @@ titulo: Classificação
 ::: conceito
 titulo: Sistólicos - ejeção × regurgitação
 texto: |
-  **Sopro sistólico de ejeção.** Começa alguns centésimos de segundo depois de B1 — o intervalo da contração isovolumétrica, em que as sigmoides ainda estão fechadas. Quando a pressão intraventricular ultrapassa a da aorta ou da pulmonar, o sangue sai: devagar no início, no máximo na mesossístole, caindo na telessístole. Daí a configuração **em crescendo-decrescendo**, o desenho em diamante. Termina **antes de B2**, porque no fim da sístole as pressões praticamente se igualam. É o sopro das estenoses aórtica e pulmonar.
+  **Sopro sistólico de ejeção.** Começa alguns centésimos de segundo depois de B1: o intervalo da contração isovolumétrica, em que as sigmoides ainda estão fechadas. Quando a pressão intraventricular ultrapassa a da aorta ou da pulmonar, o sangue sai: devagar no início, no máximo na mesossístole, caindo na telessístole. Daí a configuração **em crescendo-decrescendo**, o desenho em diamante. Termina **antes de B2**, porque no fim da sístole as pressões praticamente se igualam. É o sopro das estenoses aórtica e pulmonar.
 
-  **Sopro sistólico de regurgitação.** Existe gradiente desde o início da contração isovolumétrica, quando a pressão ventricular já supera a atrial. O sopro começa **com B1**, recobrindo-a e mascarando-a, ocupa toda a sístole com intensidade mais ou menos igual — configuração **em platô** — e termina imediatamente antes de B2 ou a recobre. É o sopro das insuficiências mitral e tricúspide e da comunicação interventricular.
+  **Sopro sistólico de regurgitação.** Existe gradiente desde o início da contração isovolumétrica, quando a pressão ventricular já supera a atrial. O sopro começa **com B1**, recobrindo-a e mascarando-a, ocupa toda a sístole com intensidade mais ou menos igual, configuração **em platô**, e termina imediatamente antes de B2 ou a recobre. É o sopro das insuficiências mitral e tricúspide e da comunicação interventricular.
 :::
 
 ::: conceito
 titulo: Diastólicos e contínuos
 texto: |
-  **Diastólicos das estenoses atrioventriculares.** Ocupam a parte média da diástole, no enchimento rápido, e podem ganhar um reforço pré-sistólico dado pela contração atrial. Há um intervalo nítido entre B2 e o início do sopro, porque nesse momento as pressões atrial e ventricular são quase iguais. São de baixa frequência e tonalidade grave — o **ruflar**, mais bem ouvido com a campânula.
+  **Diastólicos das estenoses atrioventriculares.** Ocupam a parte média da diástole, no enchimento rápido, e podem ganhar um reforço pré-sistólico dado pela contração atrial. Há um intervalo nítido entre B2 e o início do sopro, porque nesse momento as pressões atrial e ventricular são quase iguais. São de baixa frequência e tonalidade grave: o **ruflar**, mais bem ouvido com a campânula.
 
-  **Diastólicos das insuficiências sigmoides.** Começam imediatamente após B2, quando já existe gradiente entre o vaso da base e o ventrículo. São de alta frequência, em decrescendo e tonalidade aguda — o caráter **aspirativo**. Podem ficar restritos à protodiástole ou ocupar também meso e telediástole.
+  **Diastólicos das insuficiências sigmoides.** Começam imediatamente após B2, quando já existe gradiente entre o vaso da base e o ventrículo. São de alta frequência, em decrescendo e tonalidade aguda: o caráter **aspirativo**. Podem ficar restritos à protodiástole ou ocupar também meso e telediástole.
 
-  **Contínuos ou sistodiastólicos.** Atravessam o ciclo inteiro sem pausa, engolindo B1 e B2 pelo caminho. O trecho sistólico soa mais forte e mais rude, e é dessa cadência de motor que vem o apelido de sopro **em maquinaria**. Quatro situações o produzem: um canal arterial que não se fechou, uma comunicação anômala entre artéria e veia, um defeito entre os septos aortopulmonares e — sem doença nenhuma — o rumor venoso do pescoço.
+  **Contínuos ou sistodiastólicos.** Atravessam o ciclo inteiro sem pausa, engolindo B1 e B2 pelo caminho. O trecho sistólico soa mais forte e mais rude, e é dessa cadência de motor que vem o apelido de sopro **em maquinaria**. Quatro situações o produzem: um canal arterial que não se fechou, uma comunicação anômala entre artéria e veia, um defeito entre os septos aortopulmonares e, sem doença nenhuma, o rumor venoso do pescoço.
 
   O erro a evitar é confundi-lo com o sopro "de vai e vem": ali existem dois sopros distintos, um em cada fase, e as bulhas continuam separando-os.
 :::
@@ -265,15 +265,15 @@ titulo: Duas regurgitações que não são a mesma coisa
 texto: |
   A palavra "regurgitação" aparece nos dois lados do ciclo e confunde.
 
-  No **sopro sistólico de regurgitação** o sangue volta do ventrículo para o átrio — insuficiência mitral ou tricúspide.
+  No **sopro sistólico de regurgitação** o sangue volta do ventrículo para o átrio: insuficiência mitral ou tricúspide.
 
-  Nos **sopros diastólicos** das valvas sigmoides o sangue volta do vaso da base para o ventrículo — insuficiência aórtica ou pulmonar.
+  Nos **sopros diastólicos** das valvas sigmoides o sangue volta do vaso da base para o ventrículo: insuficiência aórtica ou pulmonar.
 
   São situações hemodinâmicas completamente diferentes. Para os sopros diastólicos, é preferível falar em **refluxo** de sangue, reservando "regurgitação" para o sopro sistólico.
 :::
 
 ::: tabela
-titulo: Intensidade dos sopros — graduação de Levine (1 a 6)
+titulo: "Intensidade dos sopros: graduação de Levine (1 a 6)"
 colunas:
   - "Grau"
   - "Descrição"
@@ -300,15 +300,15 @@ texto: |
 
   A fronteira que importa está entre 3 e 4: **graus 1 a 3 não têm frêmito; graus 4 a 6 têm**. Isso torna a graduação parcialmente objetiva, apesar de toda a subjetividade da avaliação auditiva.
 
-  Parte da literatura brasileira ainda usa o sistema de cruzes, de + a ++++, com o mesmo espírito: + para sopros débeis, ++ para moderados, +++ para intensos e ++++ para os audíveis mesmo com o receptor afastado da parede. Ao registrar, deixe claro qual escala está usando — "3/6" e "+++" não são intercambiáveis.
+  Parte da literatura brasileira ainda usa o sistema de cruzes, de + a ++++, com o mesmo espírito: + para sopros débeis, ++ para moderados, +++ para intensos e ++++ para os audíveis mesmo com o receptor afastado da parede. Ao registrar, deixe claro qual escala está usando: "3/6" e "+++" não são intercambiáveis.
 
   Intensidade não é gravidade. Comunicações interventriculares pequenas produzem fluxo veloz e sopro intenso; as amplas, fluxo lento e sopro discreto. Existem defeitos valvares graves com sopros fracos, e o contrário também.
 :::
 
 ::: conceito
-titulo: Irradiação — a direção da corrente
+titulo: "Irradiação: a direção da corrente"
 texto: |
-  Dois fatores determinam para onde um sopro se propaga. O primeiro é a intensidade — quanto mais forte, maior a área audível. O segundo, mais interessante, é a direção do fluxo sanguíneo.
+  Dois fatores determinam para onde um sopro se propaga. O primeiro é a intensidade: quanto mais forte, maior a área audível. O segundo, mais interessante, é a direção do fluxo sanguíneo.
 
   - O sopro da **estenose aórtica** segue o sangue ejetado e alcança os vasos do pescoço.
   - O sopro da **insuficiência mitral** vai para a axila, porque o átrio esquerdo fica acima e atrás do ventrículo esquerdo.
@@ -321,7 +321,7 @@ texto: |
 pergunta: |
   Um sopro sistólico intenso (4/6) é necessariamente mais grave do que um sopro discreto (2/6)?
 resposta: |
-  Não — intensidade não é gravidade. Comunicações interventriculares pequenas produzem fluxo veloz e sopro intenso; as amplas, fluxo lento e sopro discreto. O que a intensidade traz de objetivo é a fronteira 3/4: a partir do grau 4 existe frêmito palpável.
+  Não: intensidade não é gravidade. Comunicações interventriculares pequenas produzem fluxo veloz e sopro intenso; as amplas, fluxo lento e sopro discreto. O que a intensidade traz de objetivo é a fronteira 3/4: a partir do grau 4 existe frêmito palpável.
 :::
 
 ::: secao
@@ -367,7 +367,7 @@ linhas:
   - - "Oclusão arterial transitória"
     - "Insuflar manguitos de pressão nos dois braços acima da pressão sistólica do paciente; avaliar o sopro 20 segundos após a insuflação"
     - "Aumenta a pós-carga"
-    - "Sopro sistólico que aumenta sugere fortemente insuficiência mitral ou comunicação interventricular — é a versão mais poderosa da manobra de pós-carga, sem fármaco (McGee)"
+    - "Sopro sistólico que aumenta sugere fortemente insuficiência mitral ou comunicação interventricular: é a versão mais poderosa da manobra de pós-carga, sem fármaco (McGee)"
   - - "Decúbito lateral esquerdo (Pachón)"
     - "Deitar sobre o lado esquerdo com a mão esquerda na cabeça"
     - "Aproxima a ponta da parede torácica"
@@ -386,9 +386,9 @@ texto: |
 
   **Respiração.** Sopro que aumenta na inspiração é forte argumento a favor de origem direita; sopro que fica mais suave argumenta contra. É a manobra descrita por Rivero-Carvallo em 1946, por isso também chamada sinal de Carvallo.
 
-  **Retorno venoso.** Todas as quatro manobras identificam bem a cardiomiopatia hipertrófica, cujo sopro se comporta ao contrário da maioria: aumenta quando o retorno diminui e diminui quando o retorno aumenta. A explicação é mecânica — a obstrução fica abaixo da valva aórtica, entre o folheto anterior da mitral e o septo hipertrofiado; menos volume aproxima as duas estruturas e agrava a obstrução. O aumento com o esforço de Valsalva é o achado que mais eleva a probabilidade; a ausência da resposta característica nas outras três manobras é o que mais a reduz.
+  **Retorno venoso.** Todas as quatro manobras identificam bem a cardiomiopatia hipertrófica, cujo sopro se comporta ao contrário da maioria: aumenta quando o retorno diminui e diminui quando o retorno aumenta. A explicação é mecânica: a obstrução fica abaixo da valva aórtica, entre o folheto anterior da mitral e o septo hipertrofiado; menos volume aproxima as duas estruturas e agrava a obstrução. O aumento com o esforço de Valsalva é o achado que mais eleva a probabilidade; a ausência da resposta característica nas outras três manobras é o que mais a reduz.
 
-  **Pós-carga.** Aumentar a resistência periférica faz o sangue preferir o caminho regurgitante: os sopros da insuficiência mitral e da comunicação interventricular ficam mais intensos com a prensão palmar sustentada (razão de verossimilhança 5,8) e, com muito mais força, com a **oclusão arterial transitória** — sopro sistólico que se intensifica 20 segundos após insuflar os manguitos nos dois braços acima da sistólica rende razão de verossimilhança **48,7**, com sensibilidade de 79% e especificidade de 98%, e a ausência de resposta reduz a probabilidade (0,2; McGee). É o maior número das manobras dinâmicas, obtido sem fármaco. Antes de recorrer à pós-carga, porém, já se deve ter afastado sopro direito com a respiração e cardiomiopatia hipertrófica com as manobras de retorno venoso.
+  **Pós-carga.** Aumentar a resistência periférica faz o sangue preferir o caminho regurgitante: os sopros da insuficiência mitral e da comunicação interventricular ficam mais intensos com a prensão palmar sustentada (razão de verossimilhança 5,8) e, com muito mais força, com a **oclusão arterial transitória**, sopro sistólico que se intensifica 20 segundos após insuflar os manguitos nos dois braços acima da sistólica rende razão de verossimilhança **48,7**, com sensibilidade de 79% e especificidade de 98%, e a ausência de resposta reduz a probabilidade (0,2; McGee). É o maior número das manobras dinâmicas, obtido sem fármaco. Antes de recorrer à pós-carga, porém, já se deve ter afastado sopro direito com a respiração e cardiomiopatia hipertrófica com as manobras de retorno venoso.
 :::
 
 ::: secao
@@ -398,9 +398,9 @@ titulo: Sopro inocente
 ::: conceito
 titulo: Uma conclusão, não um tipo de sopro
 texto: |
-  "Inocente" não descreve um som — descreve um julgamento. Só se rotula assim o sopro de um paciente já adequadamente examinado, com a investigação complementar indicada concluída, no qual se pôde afirmar que não há alteração estrutural do coração.
+  "Inocente" não descreve um som: descreve um julgamento. Só se rotula assim o sopro de um paciente já adequadamente examinado, com a investigação complementar indicada concluída, no qual se pôde afirmar que não há alteração estrutural do coração.
 
-  As características que autorizam essa suspeita são consistentes: sopros **sistólicos**, de **baixa intensidade** (1 a 2 em 6), suaves, **sem irradiação**, mais audíveis na borda esternal esquerda e na região mesocardíaca, com nítida variação conforme a posição — diminuem quando o paciente fica de pé, senta ou faz o esforço de Valsalva. Não vêm acompanhados de alterações das bulhas nem de frêmito, e não há sinais de aumento das câmaras. Nunca são holossistólicos.
+  As características que autorizam essa suspeita são consistentes: sopros **sistólicos**, de **baixa intensidade** (1 a 2 em 6), suaves, **sem irradiação**, mais audíveis na borda esternal esquerda e na região mesocardíaca, com nítida variação conforme a posição, diminuem quando o paciente fica de pé, senta ou faz o esforço de Valsalva. Não vêm acompanhados de alterações das bulhas nem de frêmito, e não há sinais de aumento das câmaras. Nunca são holossistólicos.
 
   Sopros sistólicos são comuns: aparecem em 5 a 52% dos adultos jovens e em 29 a 60% das pessoas mais velhas. Mais de 90% dos adultos jovens e mais da metade dos idosos com sopro sistólico têm ecocardiograma normal. O achado de um sopro com todas as características funcionais aumenta a probabilidade de o ecocardiograma ser normal.
 
@@ -408,16 +408,16 @@ texto: |
 :::
 
 ::: perola
-texto: "Ao explicar um sopro inocente aos pais de uma criança, não omita o achado — outro médico o encontrará depois, e o silêncio inicial vira desconfiança. Explique de forma clara e simples, sem criar ansiedade que acabe em restrições injustificadas ao esporte e à atividade física."
+texto: "Ao explicar um sopro inocente aos pais de uma criança, não omita o achado, outro médico o encontrará depois, e o silêncio inicial vira desconfiança. Explique de forma clara e simples, sem criar ansiedade que acabe em restrições injustificadas ao esporte e à atividade física."
 :::
 
 ::: conceito
-titulo: Orgânico × funcional — uma divisão que envelheceu mal
+titulo: "Orgânico × funcional: uma divisão que envelheceu mal"
 nivel: avancado
 texto: |
   A distinção clássica dizia que sopros orgânicos decorrem de alterações estruturais e funcionais apenas do aumento de velocidade ou da queda de viscosidade. A clareza é aparente.
 
-  O problema é que velocidade e viscosidade também intensificam sopros originados em lesões anatômicas. A certeza de que um sopro é orgânico só aparece no extremo superior da escala: som forte (+++ a ++++ na escala de cruzes de Porto), agudo, espalhando-se por uma área ampla e com frêmito sob a mão. Só que uma valva gravemente doente costuma soar fraca, sem irradiação e sem frêmito — esse sopro não preencheria os critérios de "orgânico" e acabaria arquivado como funcional, que é justamente o erro que a classificação deveria evitar.
+  O problema é que velocidade e viscosidade também intensificam sopros originados em lesões anatômicas. A certeza de que um sopro é orgânico só aparece no extremo superior da escala: som forte (+++ a ++++ na escala de cruzes de Porto), agudo, espalhando-se por uma área ampla e com frêmito sob a mão. Só que uma valva gravemente doente costuma soar fraca, sem irradiação e sem frêmito, esse sopro não preencheria os critérios de "orgânico" e acabaria arquivado como funcional, que é justamente o erro que a classificação deveria evitar.
 
   Uma classificação que só funciona nos extremos tem pouco valor prático. O conceito que sobreviveu foi o de sopro inocente, porque ele obriga a uma conclusão diagnóstica, e não a uma rotulação acústica.
 :::
@@ -454,7 +454,7 @@ linhas:
 
 ::: conceito
 texto: |
-  Os tipos de onda citados na tabela — o pulso **parvus et tardus** da estenose aórtica e o pulso **célere**, em martelo d'água, da insuficiência aórtica — têm técnica de palpação e diagnóstico diferencial próprios, tratados no tópico de frequência cardíaca e pulso, em Sinais vitais. Aqui eles entram apenas como achado que acompanha o sopro.
+  Os tipos de onda citados na tabela: o pulso **parvus et tardus** da estenose aórtica e o pulso **célere**, em martelo d'água, da insuficiência aórtica, têm técnica de palpação e diagnóstico diferencial próprios, tratados no tópico de frequência cardíaca e pulso, em Sinais vitais. Aqui eles entram apenas como achado que acompanha o sopro.
 :::
 
 ::: conceito
@@ -465,9 +465,9 @@ texto: |
 
   **Estenose aórtica.** O sopro característico irradia amplamente, do ápice até a clavícula direita; sua ausência é argumento forte contra o diagnóstico. Quatro achados clássicos aumentam a probabilidade de que a lesão seja de moderada a grave, e não um simples sopro de hiperfluxo aórtico: ascensão carotídea retardada, B2 de menor intensidade, ictus sustentado e sopro de pico tardio. Ainda assim, separar estenose moderada de grave só pelo exame físico é difícil.
 
-  **Insuficiência aórtica.** A presença do sopro característico aumenta muito a probabilidade da lesão, e sua ausência é argumento forte contra regurgitação de grau moderado a grave. Entre os pacientes que têm o sopro, a pressão arterial ajuda a graduar: pressão diastólica ≤ 50 mmHg e pressão diferencial ≥ 80 mmHg aumentam a probabilidade de regurgitação moderada a grave; diastólica > 70 mmHg e diferencial < 60 mmHg a reduzem. Na forma aguda — endocardite, dissecção — o sopro é mais curto e vem com taquicardia, hipotensão e pressão diferencial estreita, sem o pulso amplo da forma crônica.
+  **Insuficiência aórtica.** A presença do sopro característico aumenta muito a probabilidade da lesão, e sua ausência é argumento forte contra regurgitação de grau moderado a grave. Entre os pacientes que têm o sopro, a pressão arterial ajuda a graduar: pressão diastólica ≤ 50 mmHg e pressão diferencial ≥ 80 mmHg aumentam a probabilidade de regurgitação moderada a grave; diastólica > 70 mmHg e diferencial < 60 mmHg a reduzem. Na forma aguda (endocardite, dissecção) o sopro é mais curto e vem com taquicardia, hipotensão e pressão diferencial estreita, sem o pulso amplo da forma crônica.
 
-  **Estenose mitral.** Com o enchimento do ventrículo esquerdo represado, o esperado é um ictus normal ou até fraco — de modo que um ictus hipercinético, nesse contexto, denuncia uma segunda lesão. Entre os achados da doença, o que mais aponta para o diagnóstico é o estalido de abertura, desde que a valva conserve mobilidade suficiente para produzi-lo.
+  **Estenose mitral.** Com o enchimento do ventrículo esquerdo represado, o esperado é um ictus normal ou até fraco: de modo que um ictus hipercinético, nesse contexto, denuncia uma segunda lesão. Entre os achados da doença, o que mais aponta para o diagnóstico é o estalido de abertura, desde que a valva conserve mobilidade suficiente para produzi-lo.
 
   **Insuficiência mitral.** O sopro característico aumenta a probabilidade da lesão, embora com peso menor que o dos sopros de tricúspide e do defeito septal ventricular, porque pode ser confundido com outros sopros sistólicos. A resposta às manobras é o que resolve: aumento com a prensão palmar sustentada aponta para insuficiência mitral ou comunicação interventricular.
 :::
@@ -483,7 +483,7 @@ texto: |
   2. **Batizar o sopro pelo foco em que ele é mais alto.** O foco é referência, não origem. Muitos pacientes com estenose aórtica têm o sopro mais intenso na ponta. Quem define a origem é a irradiação e o comportamento nas manobras.
   3. **Interpretar manobra respiratória com paciente respirando mal.** Sem respiração regular, Rivero-Carvallo não significa nada.
   4. **Chamar de contínuo um sopro sistólico somado a um diastólico.** No sopro verdadeiramente contínuo a cadência não é interrompida pelas bulhas; nos sopros "de vai e vem" ouvem-se dois sopros distintos.
-  5. **Rotular como inocente antes de completar a investigação.** "Inocente" é uma conclusão que vem depois do exame completo e dos complementares indicados — nunca uma primeira impressão acústica.
+  5. **Rotular como inocente antes de completar a investigação.** "Inocente" é uma conclusão que vem depois do exame completo e dos complementares indicados, nunca uma primeira impressão acústica.
 :::
 
 ::: relampago
@@ -497,14 +497,14 @@ opcoes:
   - "Suspender o esporte até o ecocardiograma decidir"
 corretaIndex: 0
 desfecho: |
-  Omitir o achado é a pior escolha: outro médico o encontrará depois, e o silêncio inicial vira desconfiança. Restringir o esporte é a segunda pior — a ansiedade criada acaba em limitações injustificadas. O conceito de sopro inocente existe justamente porque obriga a uma conclusão diagnóstica, e não a uma rotulação acústica: concluído, ele se explica com clareza e devolve a criança à quadra.
+  Omitir o achado é a pior escolha: outro médico o encontrará depois, e o silêncio inicial vira desconfiança. Restringir o esporte é a segunda pior: a ansiedade criada acaba em limitações injustificadas. O conceito de sopro inocente existe justamente porque obriga a uma conclusão diagnóstica, e não a uma rotulação acústica: concluído, ele se explica com clareza e devolve a criança à quadra.
 :::
 
 ::: resumo
 linhas:
-  - "Um sopro só está descrito com as sete características — e a mais importante é o lugar no ciclo, decidido com o pulso carotídeo sob os dedos."
+  - "Um sopro só está descrito com as sete características, e a mais importante é o lugar no ciclo, decidido com o pulso carotídeo sob os dedos."
   - "Ejeção nasce depois de B1 e morre antes de B2 (diamante); regurgitação recobre B1 em platô; ruflar guarda distância de B2, aspirativo cola nela; contínuo atravessa tudo."
-  - "Intensidade não é gravidade — e as manobras (Rivero-Carvallo, Valsalva, cócoras, handgrip) respondem perguntas específicas que o repouso não responde."
+  - "Intensidade não é gravidade, e as manobras (Rivero-Carvallo, Valsalva, cócoras, handgrip) respondem perguntas específicas que o repouso não responde."
 :::
 
 ::: secao
@@ -521,7 +521,7 @@ perguntas:
       - "O sopro de ejeção aumenta na inspiração e o de regurgitação, na expiração"
       - "O de ejeção começa depois de B1 e termina antes de B2, em diamante; o de regurgitação recobre B1 e ocupa toda a sístole em platô"
     corretaIndex: 3
-    explicacao: "O sopro de ejeção só surge depois da contração isovolumétrica, cresce até a mesossístole e decresce antes de B2 — desenho em diamante. O de regurgitação existe desde o início da sístole, recobre B1, ocupa a sístole inteira com intensidade constante e termina junto de B2 ou a recobre."
+    explicacao: "O sopro de ejeção só surge depois da contração isovolumétrica, cresce até a mesossístole e decresce antes de B2, desenho em diamante. O de regurgitação existe desde o início da sístole, recobre B1, ocupa a sístole inteira com intensidade constante e termina junto de B2 ou a recobre."
   - id: sopros-2
     enunciado: Na graduação de Levine, qual é a fronteira objetiva entre os graus?
     alternativas:
@@ -535,7 +535,7 @@ perguntas:
     enunciado: Você ausculta um sopro sistólico na área tricúspide e pede ao paciente uma inspiração profunda. O sopro aumenta nitidamente de intensidade. O que se conclui?
     alternativas:
       - "Que o sopro é apenas a propagação de um sopro mitral, já que a inspiração profunda intensifica os sopros originados à esquerda"
-      - "Que o sopro se origina no aparelho valvar tricúspide — manobra de Rivero-Carvallo positiva"
+      - "Que o sopro se origina no aparelho valvar tricúspide: manobra de Rivero-Carvallo positiva"
       - "Que se trata de cardiomiopatia hipertrófica"
       - "Que o sopro é inocente, por variar com a respiração"
     corretaIndex: 1
@@ -566,5 +566,5 @@ perguntas:
       - "Porque os focos de ausculta correspondem exatamente à projeção anatômica das valvas, de modo que qualquer sopro ouvido fora deles é necessariamente irradiado"
       - "Porque a irradiação é o único parâmetro que não sofre influência subjetiva"
     corretaIndex: 0
-    explicacao: "Um sopro mais audível na área mitral não nasceu obrigatoriamente na valva mitral. A direção da corrente sanguínea define irradiações características — para os vasos do pescoço na estenose aórtica, para a axila na insuficiência mitral —, e é isso que aponta a origem."
+    explicacao: "Um sopro mais audível na área mitral não nasceu obrigatoriamente na valva mitral. A direção da corrente sanguínea define irradiações características (para os vasos do pescoço na estenose aórtica, para a axila na insuficiência mitral) e é isso que aponta a origem."
 :::

@@ -5,7 +5,7 @@ import { useTema } from './ThemeContext';
 import { espaco } from './tokens';
 
 // `ref` opcional (spec Fase 8, revisão de fase P1): encaminha para o
-// ScrollView interno só quando `rolavel` (o padrão) — o único chamador que
+// ScrollView interno só quando `rolavel` (o padrão): o único chamador que
 // precisa dele hoje é a tela de tópico, para resetar o scroll ao trocar de
 // seção. Todo o resto do app continua chamando `<Tela>` sem ref, sem
 // nenhuma mudança de comportamento.

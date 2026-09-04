@@ -7,7 +7,7 @@ import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
 
 // Tela de bloqueio placeholder (beta §9.10): aparece só com PAYWALL_ATIVO
-// ligado, em tópicos de sistemas premium. Sem pagamento integrado — o
+// ligado, em tópicos de sistemas premium. Sem pagamento integrado: o
 // texto é temporário de propósito.
 export function BloqueioPremium({ sistemaTitulo }: { sistemaTitulo: string }) {
   const { paleta, escala } = useTema();
@@ -36,7 +36,7 @@ export function BloqueioPremium({ sistemaTitulo }: { sistemaTitulo: string }) {
         }}
       >
         Durante o beta, todo o conteúdo está aberto. Em breve, este sistema fará parte do acesso
-        completo — os aparelhos cardiovascular e respiratório continuam gratuitos.
+        completo: os aparelhos cardiovascular e respiratório continuam gratuitos.
       </Text>
       <Pressable
         accessibilityRole="button"

@@ -1,6 +1,6 @@
 import type { ConfigFeedback } from '../config/feedback';
 
-// Lógica pura do feedback in-app (beta §9.5) — a folha (FolhaFeedback) só
+// Lógica pura do feedback in-app (beta §9.5): a folha (FolhaFeedback) só
 // coleta os campos e delega para cá.
 
 export const CATEGORIAS_FEEDBACK = ['Erro no conteúdo', 'Sugestão', 'Problema técnico'] as const;

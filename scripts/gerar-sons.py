@@ -1,6 +1,6 @@
 # Sintetizador dos sons de ausculta do SemioGuia.
 #
-# Todos os sons do app nascem DESTE script — nenhuma gravação de terceiros,
+# Todos os sons do app nascem DESTE script: nenhuma gravação de terceiros,
 # nenhum direito autoral envolvido. São representações didáticas canônicas
 # (fonocardiograma sintético), não gravações clínicas: o aviso no app diz
 # isso ao estudante. Rodar: python3 scripts/gerar-sons.py  → assets/sons/*.wav
@@ -27,7 +27,7 @@ def t_axis(dur):
 
 
 def damped_sine(freq, dur, tau, atraso=0.0, ataque=0.008):
-    """Senoide amortecida com ataque curto — o tijolo das bulhas."""
+    """Senoide amortecida com ataque curto: o tijolo das bulhas."""
     t = t_axis(dur)
     y = np.sin(2 * np.pi * freq * t) * np.exp(-t / tau)
     n_ataque = max(1, int(ataque * SR))
@@ -37,17 +37,17 @@ def damped_sine(freq, dur, tau, atraso=0.0, ataque=0.008):
 
 
 def bulha1():
-    # B1: mais grave e um pouco mais longa — "lub".
+    # B1: mais grave e um pouco mais longa, "lub".
     return 1.0 * damped_sine(42, 0.16, 0.050) + 0.6 * damped_sine(90, 0.16, 0.035)
 
 
 def bulha2():
-    # B2: mais curta e de timbre um pouco mais agudo — "dub".
+    # B2: mais curta e de timbre um pouco mais agudo, "dub".
     return 0.85 * damped_sine(65, 0.12, 0.032) + 0.55 * damped_sine(140, 0.12, 0.022)
 
 
 def bulha3():
-    # B3: muito grave, surda, mais fraca — o terceiro tempo do galope.
+    # B3: muito grave, surda, mais fraca, o terceiro tempo do galope.
     return 0.6 * damped_sine(32, 0.14, 0.045) + 0.25 * damped_sine(60, 0.14, 0.035)
 
 
@@ -55,7 +55,7 @@ def ruido_banda(dur, f_lo, f_hi, semente, grave=False):
     """Ruído branco filtrado por FFT para a banda [f_lo, f_hi].
 
     `grave=True` aplica inclinação espectral de -6 dB/oitava acima de
-    100 Hz — concentra a energia no grave, como o murmúrio vesicular que o
+    100 Hz: concentra a energia no grave, como o murmúrio vesicular que o
     texto descreve "em torno de 100 Hz" (auditoria numérica de 2026-09:
     sem a inclinação, a banda plana deixava o domínio em 200-500 Hz).
     """
@@ -119,7 +119,7 @@ def salvar(nome, y):
 # ---------------------------------------------------------------- coração
 
 CICLO = 0.8  # 75 bpm
-SISTOLE = 0.30  # B1 → B2; a diástole (0,50 s) é mais longa — como no tópico
+SISTOLE = 0.30  # B1 → B2; a diástole (0,50 s) é mais longa, como no tópico
 
 
 def ciclos_cardiacos(n_ciclos, com=None, bpm_ciclo=CICLO):
@@ -164,7 +164,7 @@ def som_sopro_diastolico():
 
 
 def som_galope_b3():
-    # Ritmo tríplice por B3 — PA-TA-TA, um pouco mais rápido (galope).
+    # Ritmo tríplice por B3: PA-TA-TA, um pouco mais rápido (galope).
     ciclo = 0.62  # ~97 bpm
     sistole = 0.26
 
@@ -188,7 +188,7 @@ RESP = 4.0  # ciclo respiratório de 4 s (15 irpm)
 
 def respiracao_base(n_ciclos, insp=1.5, exp_audivel=0.7, ganho_exp=0.45, semente=3):
     """Murmúrio vesicular: inspiração mais longa e mais alta; expiração
-    audível só no começo, mais baixa — a assinatura do som normal."""
+    audível só no começo, mais baixa: a assinatura do som normal."""
     dur = n_ciclos * RESP
     y = np.zeros(int(dur * SR))
     for k in range(n_ciclos):
@@ -218,7 +218,7 @@ def _fase_respiratoria(y, t0, dur, f_lo, f_hi, ganho, semente, grave=False):
 def som_traqueal():
     # Som traqueal (tabela dos normais): inspiração forte; expiração MAIS
     # forte e mais longa, separada da inspiração por pausa nítida. Timbre
-    # rude e agudo — é o som sem o filtro do pulmão.
+    # rude e agudo: é o som sem o filtro do pulmão.
     n_ciclos = 3
     y = np.zeros(int(n_ciclos * RESP * SR))
     for k in range(n_ciclos):
@@ -231,7 +231,7 @@ def som_traqueal():
 
 def som_bronquico():
     # Som brônquico: agudo (300-400 Hz), rude, expiração mais longa que a
-    # inspiração e um intervalo audível entre as fases — normal junto ao
+    # inspiração e um intervalo audível entre as fases: normal junto ao
     # esterno; fora do lugar, é o achado que o tópico chama de sopro.
     n_ciclos = 3
     y = np.zeros(int(n_ciclos * RESP * SR))
@@ -244,7 +244,7 @@ def som_bronquico():
 
 
 def som_broncovesicular():
-    # Som broncovesicular: intermediário — inspiração e expiração de igual
+    # Som broncovesicular: intermediário, inspiração e expiração de igual
     # duração e intensidade, sem pausa entre elas.
     n_ciclos = 3
     y = np.zeros(int(n_ciclos * RESP * SR))
@@ -341,7 +341,7 @@ def som_desdobramento_b2():
         fase = t0 % RESP
         inspirando = fase < 1.6
         if inspirando:
-            # A2 e P2 separados por ~70 ms — o "TLA".
+            # A2 e P2 separados por ~70 ms: o "TLA".
             colocar(y, bulha2(), t0 + SISTOLE, ganho=0.8)
             colocar(y, bulha2(), t0 + SISTOLE + 0.07, ganho=0.6)
         else:
@@ -408,8 +408,8 @@ def _raspado(dur, semente):
 
 
 def som_atrito_pericardico():
-    # Atrito pericárdico com três componentes por ciclo — um sistólico e
-    # dois diastólicos —, recobrindo parcialmente as bulhas.
+    # Atrito pericárdico com três componentes por ciclo: um sistólico e
+    # dois diastólicos: recobrindo parcialmente as bulhas.
     n_ciclos = 8
 
     def montar():
@@ -432,7 +432,7 @@ def som_atrito_pericardico():
 
 def som_roncos():
     # Roncos: contínuos graves, nas duas fases com predomínio expiratório,
-    # fugazes — presentes num ciclo, mais apagados no seguinte.
+    # fugazes: presentes num ciclo, mais apagados no seguinte.
     n_ciclos = 3
     y = respiracao_base(n_ciclos, insp=1.3, exp_audivel=1.8, ganho_exp=0.35, semente=81) * 0.6
     ganhos_por_ciclo = [1.0, 0.5, 0.9]
@@ -448,7 +448,7 @@ def som_roncos():
 
 
 def som_estridor():
-    # Estridor: tom musical de altura constante (~400 Hz) na INSPIRAÇÃO —
+    # Estridor: tom musical de altura constante (~400 Hz) na INSPIRAÇÃO, 
     # o espelho do sibilo, que predomina na expiração.
     n_ciclos = 3
     y = respiracao_base(n_ciclos, insp=1.5, exp_audivel=0.8, ganho_exp=0.35, semente=91) * 0.6
@@ -464,7 +464,7 @@ def som_estridor():
 
 def som_atrito_pleural():
     # Atrito pleural: ruído irregular e descontínuo, grave, mais intenso na
-    # inspiração — o ranger de couro.
+    # inspiração: o ranger de couro.
     n_ciclos = 3
     y = respiracao_base(n_ciclos, semente=101) * 0.55
     rng = np.random.default_rng(107)
@@ -510,7 +510,7 @@ SONS = {
 
 # Chaves cujo arquivo em assets/sons é uma GRAVAÇÃO REAL (ver
 # assets/sons/LICENCAS.md e scripts/preparar-sons-reais.py). O gerador não
-# as sobrescreve — rode com --force para regenerar as versões sintéticas.
+# as sobrescreve: rode com --force para regenerar as versões sintéticas.
 GRAVACOES_REAIS = {'murmurio-vesicular.wav', 'sibilos.wav', 'roncos.wav'}
 
 if __name__ == '__main__':

@@ -68,7 +68,7 @@ describe('dividirEmSessoes', () => {
 
 describe('calcularRetencao', () => {
   // u1: dia 0 e dia 1 (retido em D1); u2: só o dia 0 (não retido);
-  // u3: entrou no último dia — inelegível para D1.
+  // u3: entrou no último dia; inelegível para D1.
   const exportacoes = [
     exp('u1', [T0, T0 + 1 * DIA]),
     exp('u2', [T0]),
@@ -87,7 +87,7 @@ describe('calcularRetencao', () => {
 
   test('D7 conta retorno exatamente no dia 7', () => {
     const r = calcularRetencao([exp('u1', [T0, T0 + 7 * DIA]), exp('u2', [T0, T0 + 6 * DIA, T0 + 8 * DIA])], 7);
-    // u2 tem eventos no dia 6 e no dia 8, mas não no dia 7 — não retido.
+    // u2 tem eventos no dia 6 e no dia 8, mas não no dia 7, não retido.
     expect(r).toEqual({ n: 7, elegiveis: 2, retidos: 1, proporcao: 0.5 });
   });
 

@@ -6,8 +6,8 @@ import type { Caso } from './casoSchema';
 const Ctx = createContext<Conteudo | null>(null);
 
 export function ContentProvider({ children, conteudo }: { children: ReactNode; conteudo?: Conteudo }) {
-  // `conteudo` é opcional e existe para testes (ex.: casos clínicos — Task 5
-  // —, ainda ausentes do bundle real) injetarem conteúdo próprio, espelhando
+  // `conteudo` é opcional e existe para testes (ex.: casos clínicos, Task 5
+  //, ainda ausentes do bundle real) injetarem conteúdo próprio, espelhando
   // o `store` opcional do ProgressProvider.
   const valor = useMemo(
     () => conteudo ?? carregarConteudo(require('../../assets/generated/content.json')),

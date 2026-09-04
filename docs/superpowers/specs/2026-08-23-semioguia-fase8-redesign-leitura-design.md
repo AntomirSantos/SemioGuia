@@ -1,23 +1,23 @@
-# SemioGuia Fase 8 — Redesign de navegação e leitura: Design
+# SemioGuia Fase 8, Redesign de navegação e leitura: Design
 
 Data: 23/08/2026 · Autor do produto: Antomir Santos · Status: aprovado em chat
 
 ## 1. Objetivo (pedido do autor, verbatim em espírito)
 
 "Deixar mais bonito e navegável, separando e compartimentando o app de
-forma que não pareça um livro com muito texto e pouca compartimentação —
+forma que não pareça um livro com muito texto e pouca compartimentação: 
 bonito, fluido, navegável, intuitivo e não maçante."
 
-O problema real: um tópico tem 20–37 blocos numa rolagem única. O
+O problema real: um tópico tem 20 a 37 blocos numa rolagem única. O
 conteúdo é bom; a **apresentação é de livro**. A fase muda a forma de
 ler, não o conteúdo: nenhum arquivo de `content/` é tocado.
 
 ## 2. Princípios (das skills da casa)
 
-- `.claude/skills/cognitive-load-analyser/` — reduzir carga extrínseca:
+- `.claude/skills/cognitive-load-analyser/`, reduzir carga extrínseca:
   revelar progressivamente, um compartimento por vez, sinalizar posição.
 - `.claude/skills/sleek-design-mobile-apps/` e
-  `.claude/skills/high-end-visual-design/` — hierarquia tipográfica
+  `.claude/skills/high-end-visual-design/`: hierarquia tipográfica
   clara, cards com respiro, sombras/elevação sutis, animações curtas com
   propósito, nada de defaults genéricos.
 - Invariantes da casa: tokens via `useTema()` (nada de cor solta),
@@ -56,26 +56,26 @@ seções**:
 - `perola` vira card destacado (fundo `perola` já existente, ícone).
 - Tabelas: cabeçalho com peso maior e linha zebrada sutil (tokens).
 - Tipografia: títulos de seção maiores, line-height de leitura
-  confortável — ajustes nos valores de `tipo`/`espaco` dos tokens, sem
+  confortável: ajustes nos valores de `tipo`/`espaco` dos tokens, sem
   trocar fontes.
 
 ### 3.3 Home e tela de sistema mais ricas
 
 - Card de sistema na home ganha: barra de progresso (x de y tópicos
-  estudados — dado que o Perfil já calcula), e a cor do sistema como
+  estudados: dado que o Perfil já calcula), e a cor do sistema como
   acento consistente.
 - Card **"Continuar de onde parou"** no topo da home: último tópico
   aberto (persistido em preferência existente ou nova chave leve no
-  ProgressStore — SEM migração de schema: usar `definirPreferencia`
-  com chave nova, que o store já suporta genericamente — verificar; se
+  ProgressStore, SEM migração de schema: usar `definirPreferencia`
+  com chave nova, que o store já suporta genericamente: verificar; se
   exigir migração, cortar este item para não mexer em store nesta fase).
 - Tela de sistema: capítulos como seções com contagem e checkmarks de
   estudado.
 
 ### 3.4 Movimento com propósito
 
-- Transições curtas na troca de seção (fade/slide ~180–220 ms) e no
-  expandir do "Aprofundar" — `LayoutAnimation`/`Animated` nativos, sem
+- Transições curtas na troca de seção (fade/slide ~180 a 220 ms) e no
+  expandir do "Aprofundar": `LayoutAnimation`/`Animated` nativos, sem
   dependência nova. `prefers-reduced-motion` respeitado na web (e
   `AccessibilityInfo.isReduceMotionEnabled` onde disponível).
 
@@ -88,9 +88,9 @@ Nenhuma dependência nova.
 ## 4. Critérios de aceite
 
 - Um tópico denso (ex. ectoscopia, 37 blocos) navegável por seções com
-  sumário, posição visível e transições suaves — sem rolagem única.
+  sumário, posição visível e transições suaves, sem rolagem única.
 - Todos os 293 testes existentes passando (testes de tela adaptados
-  apenas onde a estrutura mudou — ex.: conteúdo de seções não ativas não
+  apenas onde a estrutura mudou: ex.: conteúdo de seções não ativas não
   está mais no DOM; os testes de bloco continuam intactos).
 - Contraste AA nos dois temas para tudo que for novo; alvos ≥44pt.
 - Deploy verificado em headless com capturas claro/escuro entregues ao

@@ -1,6 +1,6 @@
 // Mock de teste do expo-audio (mapeado em jest.config.js): o módulo real
 // exige o nativo ExpoAudio, ausente no jest. Oferece um player único e
-// espiável — os testes podem assertar play()/pause() e o estado exposto.
+// espiável: os testes podem assertar play()/pause() e o estado exposto.
 
 export const __mockPlayer = {
   play: jest.fn(),

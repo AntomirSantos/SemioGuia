@@ -64,7 +64,7 @@ export function checarContraste(): ResultadoPar[] {
 
 // Cores de sistema (H1 do checklist): `sistema.cor` é desenhada direta como
 // glifo do ícone sobre `superficie` (home) e como chevron sobre `superficie2`
-// (Cabecalho). Pisos da casa, herdados das otimizações F12–F15/Q16: glifo
+// (Cabecalho). Pisos da casa, herdados das otimizações F12: F15/Q16: glifo
 // >= 2.0:1 vs superficie nos dois temas; veto de mínimo histórico >= 1.79:1
 // vs superficie2 nos dois temas.
 export const PISO_GLIFO = 2.0;

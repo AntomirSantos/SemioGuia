@@ -1,4 +1,4 @@
-// Aviso de instalação da PWA (beta §9.7) — lógica pura, testável fora do
+// Aviso de instalação da PWA (beta §9.7): lógica pura, testável fora do
 // navegador. O componente (AvisoInstalarPwa) só liga os fios.
 
 export const DISPENSA_MS = 7 * 24 * 60 * 60 * 1000; // fechamento vale 7 dias
@@ -17,7 +17,7 @@ export function detectarPlataformaWeb(userAgent: string): PlataformaWeb {
 
 export function estaInstalada(args: { displayModeStandalone: boolean; navigatorStandalone: boolean }): boolean {
   // Chrome/Android expõe display-mode: standalone; o Safari iOS expõe
-  // navigator.standalone — qualquer um dos dois significa "já instalada".
+  // navigator.standalone: qualquer um dos dois significa "já instalada".
   return args.displayModeStandalone || args.navigatorStandalone;
 }
 

@@ -4,8 +4,8 @@ import Svg, { Path } from 'react-native-svg';
 import { SvgXml } from 'react-native-svg';
 import { useReducedMotion } from '../design/useReducedMotion';
 
-// Traçado temporal (didática 2026-09): semiologia é temporal — sopros no
-// ciclo cardíaco, ondas de pulso, padrões respiratórios — mas ilustração é
+// Traçado temporal (didática 2026-09): semiologia é temporal, sopros no
+// ciclo cardíaco, ondas de pulso, padrões respiratórios, mas ilustração é
 // estática. Aqui o traçado marcado se DESENHA no tempo (stroke-dashoffset),
 // devolvendo ao fenômeno a dimensão que o papel tirou.
 //
@@ -13,11 +13,11 @@ import { useReducedMotion } from '../design/useReducedMotion';
 // temporais recebem `id="anima-1"`, `id="anima-2"`, … A ordem numérica é a
 // ordem do desenho; todo o resto do SVG (eixos, rótulos, guias) permanece
 // estático. Com movimento reduzido, a ilustração original é renderizada
-// inteira, sem animação — o traçado completo comunica sozinho.
+// inteira, sem animação: o traçado completo comunica sozinho.
 
 const AnimatedPath = Animated.createAnimatedComponent(Path);
 
-// Velocidade constante de desenho, em unidades de viewBox por segundo — o
+// Velocidade constante de desenho, em unidades de viewBox por segundo: o
 // traçado corre como pena sobre papel, sem acelerar nos trechos longos.
 const VELOCIDADE_UN_POR_S = 220;
 const DURACAO_MIN_MS = 1200;
@@ -41,7 +41,7 @@ export interface SvgAnimado {
   duracaoMs: number;
 }
 
-// Comprimento aproximado de um path com comandos absolutos M/L/Q/C — o
+// Comprimento aproximado de um path com comandos absolutos M/L/Q/C: o
 // repertório inteiro das ilustrações deste guia. Curvas são amostradas em
 // segmentos retos (erro irrelevante para calibrar um dasharray).
 export function comprimentoDoPath(d: string): number {
@@ -140,7 +140,7 @@ export function analisarSvgAnimado(svg: string): SvgAnimado | null {
     return { d: b.d, strokeWidth: b.strokeWidth, comprimento: comprimentos[idx], inicio, fim: acumulado / total };
   });
 
-  // A base esconde os paths temporais (opacity 0) mas os mantém no lugar —
+  // A base esconde os paths temporais (opacity 0) mas os mantém no lugar: 
   // layout e acessibilidade idênticos; o overlay é quem os desenha.
   const svgBase = svg.replace(/<path\b([^>]*\bid="anima-\d+"[^>]*)\/>/g, '<path opacity="0" $1/>');
 
@@ -166,7 +166,7 @@ export function TracadoAnimado({ svg, cor }: { svg: string; cor: string }) {
           toValue: 1,
           duration: dados.duracaoMs,
           easing: Easing.linear,
-          // Props de SVG não passam pelo driver nativo — animação em JS.
+          // Props de SVG não passam pelo driver nativo: animação em JS.
           useNativeDriver: false,
         }),
         Animated.delay(PAUSA_ENTRE_CICLOS_MS),

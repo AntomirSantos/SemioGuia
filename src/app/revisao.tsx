@@ -106,7 +106,7 @@ function BotaoSecundario({ rotulo, onPress }: { rotulo: string; onPress: () => v
 }
 
 // Texto da "próxima leva" no resumo final: quantos itens (de todo o conjunto
-// válido, não só os desta sessão) já vencem amanhã — dá ao usuário uma ideia
+// válido, não só os desta sessão) já vencem amanhã: dá ao usuário uma ideia
 // do que vem a seguir sem precisar abrir a fila de novo.
 function textoProximaLeva(n: number): string {
   if (n === 0) return 'Nada agendado para amanhã';
@@ -140,7 +140,7 @@ function encontrarChecklist(conteudo: Conteudo, topicoId: string, checklistId: s
 // Sessão de revisão espaçada: percorre `FilaDeHoje.itens` em ordem, reaproveitando
 // a UI de pergunta do quiz (`PerguntaCard`) e a estação OSCE (`EstacaoOsce`) para
 // cada tipo de item. Cada item é avaliado (SM-2) e salvo imediatamente após a
-// resposta — o progresso da sessão sobrevive a um fechamento no meio.
+// resposta: o progresso da sessão sobrevive a um fechamento no meio.
 export function TelaRevisao() {
   const conteudo = useConteudo();
   const progresso = useProgresso();
@@ -168,7 +168,7 @@ export function TelaRevisao() {
   }, [conteudo, progresso]);
 
   // Ao concluir a sessão, recarrega os itens (já refletindo as gravações
-  // desta sessão) para contar quantos vencem amanhã — a "próxima leva".
+  // desta sessão) para contar quantos vencem amanhã: a "próxima leva".
   useEffect(() => {
     if (!concluida) return;
     let cancelado = false;
@@ -190,7 +190,7 @@ export function TelaRevisao() {
   useEffect(() => {
     if (!concluida || !fila) return;
     track('revisao_concluida', { itens: fila.itens.length, acertos, erros });
-    // Fecho tátil da sessão — um toque de encerramento, só no aparelho.
+    // Fecho tátil da sessão: um toque de encerramento, só no aparelho.
     hapticaConclusao();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [concluida]);
@@ -215,7 +215,7 @@ export function TelaRevisao() {
       <Tela>
         <Cabecalho titulo="" aoVoltar={() => router.back()} />
         {/* Fecho tipográfico (micro-recompensa sóbria): a regra editorial se
-            desenha, o check se desenha, e a frase encerra o dia — nada de
+            desenha, o check se desenha, e a frase encerra o dia: nada de
             confete, é o Design Editorial comemorando do jeito dele. */}
         <RegraAnimada cor={paleta.acento} />
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: espaco.s, marginTop: espaco.l, marginBottom: espaco.l }}>

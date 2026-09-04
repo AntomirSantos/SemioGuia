@@ -1,7 +1,7 @@
 import type { Paleta } from '../design/tokens';
 import type { ClasseDesfecho } from '../content/casoSchema';
 
-// Helpers de domínio sobre o desfecho de um caso clínico — compartilhados
+// Helpers de domínio sobre o desfecho de um caso clínico: compartilhados
 // entre a lista (Estudar) e o player (caso/[id]), por isso vivem aqui (ao
 // lado de motor.ts) em vez de num arquivo de rota.
 
@@ -22,7 +22,7 @@ export function melhorClasse(classes: ClasseDesfecho[]): ClasseDesfecho | null {
 }
 
 // Cor de destaque de uma classe de desfecho no tema atual (otimo→ok,
-// aceitavel→perolaTexto, dano→erro) — usada tanto no rótulo "Melhor
+// aceitavel→perolaTexto, dano→erro): usada tanto no rótulo "Melhor
 // resultado: …" da lista quanto no destaque do desfecho no player.
 export function corDaClasse(paleta: Paleta, classe: ClasseDesfecho): string {
   if (classe === 'otimo') return paleta.ok;

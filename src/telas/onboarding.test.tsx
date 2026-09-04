@@ -98,7 +98,7 @@ test('data inválida mostra erro e não conclui', async () => {
   await fireEvent.press(getByText('Começar'));
 
   await waitFor(() => {
-    expect(getByText('Data inválida — use o formato DD/MM/AAAA.')).toBeTruthy();
+    expect(getByText('Data inválida: use o formato DD/MM/AAAA.')).toBeTruthy();
   });
   expect(router.replace).not.toHaveBeenCalled();
   expect(await store.obterPreferencia('onboarding')).toBeNull();

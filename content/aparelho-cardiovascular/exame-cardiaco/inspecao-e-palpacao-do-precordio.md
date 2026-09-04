@@ -32,17 +32,17 @@ tags:
   - sínfise pericárdica
   - biotipo
 referencias:
-  - "Porto — Semiologia Médica, 8ª ed., Parte 10 (Sistema Cardiovascular), Seção 1, cap. 47 (Exame Clínico) — Exame físico: inspeção e palpação; boxe Características semiológicas das hipertrofias e dilatações ventriculares"
-  - "Porto — Exame Clínico, 8ª ed., cap. 16 (Exame do Tórax) — Exame do coração: semiotécnica, inspeção e palpação; boxe Percussão versus radiografia ou ecocardiografia"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 38 (Palpation of the Heart), p. 317-326"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 37 (Percussion of the Heart), p. 315-316"
-  - "Semiologia Clínica, 1ª ed., cap. Semiologia cardiovascular — Inspeção e palpação torácica (Tabela 1, alterações da inspeção)"
+  - "Porto, Semiologia Médica, 8ª ed., Parte 10 (Sistema Cardiovascular), Seção 1, cap. 47 (Exame Clínico), Exame físico: inspeção e palpação; boxe Características semiológicas das hipertrofias e dilatações ventriculares"
+  - "Porto, Exame Clínico, 8ª ed., cap. 16 (Exame do Tórax), Exame do coração: semiotécnica, inspeção e palpação; boxe Percussão versus radiografia ou ecocardiografia"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 38 (Palpation of the Heart), p. 317-326"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 37 (Percussion of the Heart), p. 315-316"
+  - "Semiologia Clínica, 1ª ed., cap. Semiologia cardiovascular, Inspeção e palpação torácica (Tabela 1, alterações da inspeção)"
 revisao: ok
 ---
 
 ::: cena
 texto: |
-  Você encosta o estetoscópio direto no "foco mitral" decorado — 5º espaço, linha hemiclavicular — e não ouve o sopro que o preceptor descreveu. Ele sorri, palpa por dez segundos, e desliza o seu estetoscópio dois dedos para fora: o coração daquele paciente cresceu, e a ponta mudou de endereço. Quem palpa antes de auscultar, ausculta no lugar certo.
+  Você encosta o estetoscópio direto no "foco mitral" decorado (5º espaço, linha hemiclavicular) e não ouve o sopro que o preceptor descreveu. Ele sorri, palpa por dez segundos, e desliza o seu estetoscópio dois dedos para fora: o coração daquele paciente cresceu, e a ponta mudou de endereço. Quem palpa antes de auscultar, ausculta no lugar certo.
 :::
 
 ::: secao
@@ -52,20 +52,20 @@ titulo: O essencial
 ::: conceito
 titulo: Duas mãos, um só gesto
 texto: |
-  Inspeção e palpação do precórdio não são etapas separadas. Elas se fazem juntas, porque cada achado só ganha sentido quando confirmado pelo outro sentido — o que se vê de raspão na parede torácica precisa ser sentido pela mão, e o que a mão sente precisa ser localizado pelo olho.
+  Inspeção e palpação do precórdio não são etapas separadas. Elas se fazem juntas, porque cada achado só ganha sentido quando confirmado pelo outro sentido: o que se vê de raspão na parede torácica precisa ser sentido pela mão, e o que a mão sente precisa ser localizado pelo olho.
 
   Quatro perguntas organizam o exame.
 
   1. **Há abaulamento ou retração da região precordial?**
   2. **Onde está o ictus cordis, quanto ele ocupa e como ele empurra a mão?**
-  3. **Há outros batimentos visíveis ou palpáveis** — levantamento paraesternal, retração sistólica, choque valvar, pulsação epigástrica, pulsação de fúrcula?
+  3. **Há outros batimentos visíveis ou palpáveis**: levantamento paraesternal, retração sistólica, choque valvar, pulsação epigástrica, pulsação de fúrcula?
   4. **Há frêmito?**
 
   O paciente fica em decúbito dorsal, com o tórax descoberto, e o examinador do lado direito. Outras posições entram depois, quando uma pergunta específica exigir.
 :::
 
 ::: perola
-texto: "A percussão da área cardíaca saiu da rotina. Comparada à radiografia e ao ecocardiograma, ela só acerta nas grandes cardiomegalias — e pode ser omitida sem prejuízo para o paciente. O tempo economizado vale mais aplicado a uma palpação caprichada."
+texto: "A percussão da área cardíaca saiu da rotina. Comparada à radiografia e ao ecocardiograma, ela só acerta nas grandes cardiomegalias, e pode ser omitida sem prejuízo para o paciente. O tempo economizado vale mais aplicado a uma palpação caprichada."
 :::
 
 ::: ilustracao
@@ -117,7 +117,7 @@ titulo: Como examinar
 titulo: Inspeção e palpação do precórdio
 passos:
   - "Coloque o paciente em decúbito dorsal, com o tórax completamente descoberto, e fique de pé ou sentado do lado direito dele."
-  - "Inspecione a região precordial em duas incidências: tangencial, de pé ao lado direito, e frontal, junto aos pés do leito — o abaulamento só aparece contra a luz rasante."
+  - "Inspecione a região precordial em duas incidências: tangencial, de pé ao lado direito, e frontal, junto aos pés do leito, o abaulamento só aparece contra a luz rasante."
   - "Procure o ictus cordis com as superfícies palmares de vários dedos, varrendo a região da ponta em direção ao esterno."
   - "Localize o ictus pelo espaço intercostal e pela relação com a linha hemiclavicular esquerda, marcada no ponto médio entre as articulações esternoclavicular e acromioclavicular."
   - "Meça a extensão contando quantas polpas digitais são necessárias para recobri-lo."
@@ -166,17 +166,17 @@ texto: |
 ::: conceito
 titulo: Extensão, intensidade e mobilidade
 texto: |
-  **Extensão.** Conte quantas polpas digitais recobrem o choque. Uma ou duas polpas — cerca de 2 a 3 cm — é o normal. Três ou mais sugerem hipertrofia; nas grandes dilatações, o ictus chega a ocupar toda a palma da mão. Medido em decúbito lateral esquerdo a 45°, um ictus com 4 cm ou mais aumenta a probabilidade de ventrículo esquerdo dilatado (McGee); um estudo clássico obteve bom desempenho já com o limiar de 3 cm (Eilen, 1983) — a fronteira exata varia com a fonte, a direção não.
+  **Extensão.** Conte quantas polpas digitais recobrem o choque. Uma ou duas polpas, cerca de 2 a 3 cm, é o normal. Três ou mais sugerem hipertrofia; nas grandes dilatações, o ictus chega a ocupar toda a palma da mão. Medido em decúbito lateral esquerdo a 45°, um ictus com 4 cm ou mais aumenta a probabilidade de ventrículo esquerdo dilatado (McGee); um estudo clássico obteve bom desempenho já com o limiar de 3 cm (Eilen, 1983): a fronteira exata varia com a fonte, a direção não.
 
   **Intensidade.** Avalia-se melhor pela palpação do que pela inspeção, com a palma apoiada sobre a área de batimentos. Varia dentro do normal: é mais forte em pessoas magras, depois de exercício, na emoção e em qualquer estado que aumente a atividade cardíaca.
 
-  **Mobilidade.** Marque o ponto do choque em decúbito dorsal e repita a marcação nos decúbitos laterais direito e esquerdo. O normal é deslocar 1 a 2 cm. Um ictus que não se move levanta a hipótese de sínfise pericárdica — dado clássico, de pouca aplicação prática hoje.
+  **Mobilidade.** Marque o ponto do choque em decúbito dorsal e repita a marcação nos decúbitos laterais direito e esquerdo. O normal é deslocar 1 a 2 cm. Um ictus que não se move levanta a hipótese de sínfise pericárdica: dado clássico, de pouca aplicação prática hoje.
 :::
 
 ::: entendimento
 titulo: Por que o ventrículo direito não desloca o ictus
 texto: |
-  Quem encosta na parede torácica pela frente é, em sua maior parte, a câmara direita — mas quem forma a ponta é a esquerda. Como o ventrículo direito não chega ao ápice, engrossá-lo quase não muda o ictus cordis. A sobrecarga direita se anuncia por outro caminho: levantamento em massa da região paraesternal e, em alguns pacientes, retração sistólica na ponta.
+  Quem encosta na parede torácica pela frente é, em sua maior parte, a câmara direita, mas quem forma a ponta é a esquerda. Como o ventrículo direito não chega ao ápice, engrossá-lo quase não muda o ictus cordis. A sobrecarga direita se anuncia por outro caminho: levantamento em massa da região paraesternal e, em alguns pacientes, retração sistólica na ponta.
 
   A consequência prática é direta: um ictus normal não afasta sobrecarga do coração direito. Quem procura ventrículo direito procura no esterno e no epigástrio, não na ponta.
 :::
@@ -190,7 +190,7 @@ texto: |
   - **Difuso**: a área do choque corresponde a três ou mais polpas digitais. Traduz sobretudo **dilatação**.
   - **Propulsivo**: a mão que palpa é levantada a cada contração. Traduz sobretudo **hipertrofia**.
 
-  A regra de bolso é a força: parede espessada empurra a mão com mais energia do que câmara apenas alargada. Na clínica, porém, as duas alterações raramente vêm sozinhas, e o ictus acaba somando os dois adjetivos — amplo, forte e fora do lugar, o que a literatura chama de ictus globoso ou musculoso.
+  A regra de bolso é a força: parede espessada empurra a mão com mais energia do que câmara apenas alargada. Na clínica, porém, as duas alterações raramente vêm sozinhas, e o ictus acaba somando os dois adjetivos: amplo, forte e fora do lugar, o que a literatura chama de ictus globoso ou musculoso.
 
   Dois exemplos separam bem os padrões.
 
@@ -204,27 +204,27 @@ nivel: avancado
 texto: |
   Cronometrar o movimento contra as bulhas separa três padrões que a mão sozinha confunde. Ausculte enquanto palpa.
 
-  - **Hipercinético**: mesmo tempo do normal — começa com B1 e termina no meio da sístole —, apenas com amplitude exagerada. É um achado de pouco valor isolado, porque aparece também em pessoas magras e em estados hipercinéticos. Ganha peso em um cenário específico: em quem tem sopro de estenose mitral, o ictus deveria ser normal ou reduzido; se for hipercinético, há outra lesão associada, como insuficiência mitral ou doença aórtica.
+  - **Hipercinético**: mesmo tempo do normal, começa com B1 e termina no meio da sístole, apenas com amplitude exagerada. É um achado de pouco valor isolado, porque aparece também em pessoas magras e em estados hipercinéticos. Ganha peso em um cenário específico: em quem tem sopro de estenose mitral, o ictus deveria ser normal ou reduzido; se for hipercinético, há outra lesão associada, como insuficiência mitral ou doença aórtica.
   - **Sustentado**: o movimento para fora começa com B1 e se prolonga até B2 ou além. É sempre anormal. Aumenta a probabilidade de hipertrofia ventricular esquerda e, em quem tem sopro de ejeção aórtico, de estenose aórtica importante.
-  - **Retrátil**: a parede se deprime na sístole e volta para fora no início da diástole. Passa despercebido se o examinador não estiver auscultando ao mesmo tempo. Duas doenças o produzem — pericardite constritiva e insuficiência tricúspide grave.
+  - **Retrátil**: a parede se deprime na sístole e volta para fora no início da diástole. Passa despercebido se o examinador não estiver auscultando ao mesmo tempo. Duas doenças o produzem: pericardite constritiva e insuficiência tricúspide grave.
 :::
 
 ::: conceito
-titulo: Deslocamento do ictus — quando não é o coração
+titulo: Deslocamento do ictus, quando não é o coração
 nivel: avancado
 texto: |
   Um ictus que desceu e saiu costuma denunciar câmara esquerda dilatada, hipertrofiada ou as duas coisas. A lista de responsáveis é curta e previsível: as duas lesões da valva aórtica, a insuficiência mitral, a hipertensão de longa data, as miocardiopatias e parte das cardiopatias congênitas.
 
   Antes de concluir isso, exclua as causas extracardíacas de deslocamento: escoliose, tórax infundibuliforme, derrame pleural e tudo o que eleva o diafragma, como ascite e obesidade. Nesses casos o coração mudou de endereço sem ter mudado de tamanho.
 
-  Vale ainda escolher bem o ponto de referência. Entre os três clássicos, a linha hemiclavicular é o melhor: um ictus lateral a ela, em decúbito dorsal, aumenta a probabilidade de coração aumentado na radiografia e de fração de ejeção reduzida. Uma ressalva de padrão-ouro: quando o alvo é o volume diastólico medido, o mesmo achado se mostra sensível porém pouco específico — o diâmetro do ictus discrimina melhor que a posição. A distância de 10 cm da linha medioesternal não discrimina bem, e a linha mamilar é a pior de todas, por não guardar relação constante com o tamanho do tórax nem com a posição do ictus.
+  Vale ainda escolher bem o ponto de referência. Entre os três clássicos, a linha hemiclavicular é o melhor: um ictus lateral a ela, em decúbito dorsal, aumenta a probabilidade de coração aumentado na radiografia e de fração de ejeção reduzida. Uma ressalva de padrão-ouro: quando o alvo é o volume diastólico medido, o mesmo achado se mostra sensível porém pouco específico, o diâmetro do ictus discrimina melhor que a posição. A distância de 10 cm da linha medioesternal não discrimina bem, e a linha mamilar é a pior de todas, por não guardar relação constante com o tamanho do tórax nem com a posição do ictus.
 :::
 
 ::: pense
 pergunta: |
   Você não encontrou o ictus cordis em decúbito dorsal. Isso é sinal de doença?
 resposta: |
-  Não, por si só. Em decúbito dorsal o choque da ponta é palpável em apenas 25 a 40% dos adultos; o decúbito lateral esquerdo em apneia expiratória eleva isso a 50 a 73%. Registre "ictus não palpável" e siga o exame — o achado pode ser só anatômico (obesidade, enfisema, mamas volumosas), mas não escreva "precórdio normal".
+  Não, por si só. Em decúbito dorsal o choque da ponta é palpável em apenas 25 a 40% dos adultos; o decúbito lateral esquerdo em apneia expiratória eleva isso a 50 a 73%. Registre "ictus não palpável" e siga o exame: o achado pode ser só anatômico (obesidade, enfisema, mamas volumosas), mas não escreva "precórdio normal".
 :::
 
 ::: secao
@@ -234,7 +234,7 @@ titulo: Além do ictus
 ::: sinal
 nome: Abaulamento precordial
 descricao: Elevação persistente da região precordial, mais evidente na inspeção tangencial. Diferencia-se dos abaulamentos por deformidade osteomuscular pela presença de impulsão sistólica nessa região.
-significado: O responsável habitual é o ventrículo direito dilatado — a câmara que se apoia diretamente contra o gradil, logo atrás do esterno. Em crianças, cuja caixa torácica ainda cede, um coração que cresce deforma a parede com facilidade.
+significado: O responsável habitual é o ventrículo direito dilatado, a câmara que se apoia diretamente contra o gradil, logo atrás do esterno. Em crianças, cuja caixa torácica ainda cede, um coração que cresce deforma a parede com facilidade.
 causas:
   - "Cardiopatias congênitas"
   - "Lesões valvares reumáticas"
@@ -247,7 +247,7 @@ causas:
 ::: sinal
 nome: Levantamento em massa do precórdio (impulsão sistólica)
 descricao: |
-  Com a região hipotenar apoiada na borda esternal esquerda baixa, a mão é erguida em bloco a cada sístole. Não é um ponto que bate — é um trecho largo de parede, vizinho ao esterno, que sobe inteiro.
+  Com a região hipotenar apoiada na borda esternal esquerda baixa, a mão é erguida em bloco a cada sístole. Não é um ponto que bate: é um trecho largo de parede, vizinho ao esterno, que sobe inteiro.
 significado: Indica hipertrofia e/ou dilatação do ventrículo direito. Frequentemente vem acompanhado de retração sistólica na ponta e de pulsação epigástrica, compondo o conjunto de sinais da sobrecarga direita.
 causas:
   - "Hipertrofia ventricular direita"
@@ -261,7 +261,7 @@ nome: Frêmito cardiovascular
 descricao: |
   Vibração que a mão sente sobre o precórdio ou sobre um vaso, nascida de turbulência no fluxo. A tradição semiológica a batiza de catária pela semelhança com o gato que ronrona sob os dedos.
 
-  Três perguntas fecham a descrição. **Onde?** — referencie pelas áreas de ausculta. **Quando?** — palpe o ictus ou a carótida ao mesmo tempo e veja se a vibração cai na sístole, na diástole ou nas duas. **Quanto?** — gradue a intensidade.
+  Três perguntas fecham a descrição. **Onde?** (referencie pelas áreas de ausculta. **Quando?**) palpe o ictus ou a carótida ao mesmo tempo e veja se a vibração cai na sístole, na diástole ou nas duas. **Quanto?**: gradue a intensidade.
 significado: O frêmito é o equivalente palpável de um sopro e denuncia turbulência importante. Sua presença acompanha os sopros de maior intensidade e reforça a suspeita de lesão estrutural.
 causas:
   - "Estenose aórtica"
@@ -279,16 +279,16 @@ texto: |
   - **Ventrículo direito hipertrofiado.** Aqui a pulsação se concentra no ângulo xifoesternal. Para trazê-la à mão, encaixe a palma sob o apêndice xifoide e faça pressão para cima, contra a região epigástrica alta; a contração da câmara hipertrofiada passa a ser percebida.
   - **Pulso hepático.** Chega pelo fígado, e o momento em que ocorre aponta a lesão: antes da sístole na estenose tricúspide, durante a sístole na insuficiência tricúspide.
 
-  **Fúrcula esternal.** O que pulsa ali é a crossa da aorta, e por isso a pulsação supraesternal existe em gente saudável, ficando mais visível depois de esforço ou emoção. Batida muito vigorosa muda o sentido do achado e pede investigação em duas direções: a **parede aórtica** — hipertensão, esclerose senil da aorta, aneurisma — ou um **estado hipercinético**, como insuficiência aórtica, hipertireoidismo e anemia.
+  **Fúrcula esternal.** O que pulsa ali é a crossa da aorta, e por isso a pulsação supraesternal existe em gente saudável, ficando mais visível depois de esforço ou emoção. Batida muito vigorosa muda o sentido do achado e pede investigação em duas direções: a **parede aórtica** (hipertensão, esclerose senil da aorta, aneurisma) ou um **estado hipercinético**, como insuficiência aórtica, hipertireoidismo e anemia.
 :::
 
 ::: conceito
 titulo: Choque valvar e ritmo de galope à palpação
 nivel: avancado
 texto: |
-  Quando as bulhas se tornam muito hiperfonéticas, a mão as sente como um choque de curta duração — é o choque valvar. O mesmo acontece com cliques e estalidos intensos: o estalido de abertura mitral, por exemplo, pode ser palpável.
+  Quando as bulhas se tornam muito hiperfonéticas, a mão as sente como um choque de curta duração: é o choque valvar. O mesmo acontece com cliques e estalidos intensos: o estalido de abertura mitral, por exemplo, pode ser palpável.
 
-  Vale o inverso também. O ritmo de galope, às vezes, é mais palpável do que audível, e a 3ª e a 4ª bulha podem ser sentidas como movimentos diastólicos extras na ponta, com o paciente em decúbito lateral esquerdo. Por isso a palpação não é só um preâmbulo da ausculta — ela às vezes chega primeiro ao diagnóstico.
+  Vale o inverso também. O ritmo de galope, às vezes, é mais palpável do que audível, e a 3ª e a 4ª bulha podem ser sentidas como movimentos diastólicos extras na ponta, com o paciente em decúbito lateral esquerdo. Por isso a palpação não é só um preâmbulo da ausculta, ela às vezes chega primeiro ao diagnóstico.
 :::
 
 ::: secao
@@ -299,14 +299,14 @@ titulo: Armadilhas do exame
 titulo: Cinco erros que custam achados
 texto: |
   1. **Palpar sem auscultar.** Sem as bulhas como referência não há como separar um ictus sustentado de um hipercinético, nem reconhecer uma retração sistólica.
-  2. **Caracterizar a impulsão em decúbito lateral esquerdo.** Essa posição distorce o movimento sistólico: até metade das pessoas saudáveis parece ter movimento sustentado nela. O decúbito lateral serve para *encontrar* e *medir* o ictus, não para classificar a impulsão — isso se faz em decúbito dorsal.
+  2. **Caracterizar a impulsão em decúbito lateral esquerdo.** Essa posição distorce o movimento sistólico: até metade das pessoas saudáveis parece ter movimento sustentado nela. O decúbito lateral serve para *encontrar* e *medir* o ictus, não para classificar a impulsão, isso se faz em decúbito dorsal.
   3. **Usar a linha mamilar como referência.** Ela não guarda relação constante com a posição do ictus nem com o tamanho do tórax, nem mesmo em homens.
   4. **Concluir cardiomegalia por um ictus deslocado sem olhar o tórax.** Escoliose, tórax infundibuliforme, derrame pleural e elevação do diafragma deslocam o coração sem aumentá-lo.
-  5. **Chamar de normal o precórdio em que o ictus não foi encontrado.** Registre "ictus não palpável" e siga procurando os outros movimentos — o achado pode ser apenas anatômico, mas também pode acompanhar enfisema ou derrame pericárdico.
+  5. **Chamar de normal o precórdio em que o ictus não foi encontrado.** Registre "ictus não palpável" e siga procurando os outros movimentos: o achado pode ser apenas anatômico, mas também pode acompanhar enfisema ou derrame pericárdico.
 :::
 
 ::: perola
-texto: "Antes de auscultar, localize o ictus. Ele não é apenas um sinal de tamanho ventricular — é o endereço da área mitral naquele paciente, que na cardiomegalia acentuada migra para a linha axilar anterior."
+texto: "Antes de auscultar, localize o ictus. Ele não é apenas um sinal de tamanho ventricular: é o endereço da área mitral naquele paciente, que na cardiomegalia acentuada migra para a linha axilar anterior."
 :::
 
 ::: relampago
@@ -315,7 +315,7 @@ caso: |
 pergunta: |
   O que esse conjunto sugere?
 opcoes:
-  - "Dilatação do ventrículo esquerdo — o ictus foi empurrado para baixo e para fora"
+  - "Dilatação do ventrículo esquerdo: o ictus foi empurrado para baixo e para fora"
   - "Variação do biotipo do paciente, sem nenhum significado patológico nesse contexto"
   - "Ictus hipercinético de causa extracardíaca"
 corretaIndex: 0
@@ -326,7 +326,7 @@ desfecho: |
 ::: resumo
 linhas:
   - "Palpe auscultando: só as bulhas dizem se o movimento é hipercinético, sustentado (sempre anormal) ou retrátil."
-  - "O ictus é assunto do ventrículo esquerdo — a sobrecarga direita se procura na borda esternal (levantamento em massa) e no epigástrio, não na ponta."
+  - "O ictus é assunto do ventrículo esquerdo: a sobrecarga direita se procura na borda esternal (levantamento em massa) e no epigástrio, não na ponta."
   - "Ictus difuso fala de dilatação, propulsivo fala de hipertrofia; antes de concluir cardiomegalia, exclua o tórax que mudou o coração de endereço."
 :::
 
@@ -362,7 +362,7 @@ perguntas:
       - "Porque o decúbito lateral esquerdo desloca o ictus para dentro da linha hemiclavicular"
       - "Porque o decúbito lateral esquerdo distorce o movimento sistólico e simula impulsão sustentada"
     corretaIndex: 3
-    explicacao: "O decúbito lateral esquerdo aproxima o coração da parede e é útil para encontrar o ictus e medir seu diâmetro, mas distorce o movimento sistólico — até metade dos indivíduos saudáveis apresenta movimento aparentemente sustentado nessa posição. A classificação da impulsão se faz em decúbito dorsal."
+    explicacao: "O decúbito lateral esquerdo aproxima o coração da parede e é útil para encontrar o ictus e medir seu diâmetro, mas distorce o movimento sistólico, até metade dos indivíduos saudáveis apresenta movimento aparentemente sustentado nessa posição. A classificação da impulsão se faz em decúbito dorsal."
   - id: precordio-4
     enunciado: Um paciente com sopro compatível com estenose mitral apresenta ictus hipercinético. O que esse achado sugere?
     alternativas:
@@ -371,7 +371,7 @@ perguntas:
       - "Que o achado é fisiológico e não modifica a interpretação do sopro"
       - "Que há sínfise pericárdica associada"
     corretaIndex: 1
-    explicacao: "Na estenose mitral isolada o enchimento do ventrículo esquerdo está prejudicado e o ictus tende a ser normal ou reduzido. Um ictus hipercinético nesse contexto aponta para uma segunda lesão — tipicamente insuficiência mitral ou doença da valva aórtica."
+    explicacao: "Na estenose mitral isolada o enchimento do ventrículo esquerdo está prejudicado e o ictus tende a ser normal ou reduzido. Um ictus hipercinético nesse contexto aponta para uma segunda lesão: tipicamente insuficiência mitral ou doença da valva aórtica."
   - id: precordio-5
     enunciado: Quais são as três características que devem ser descritas ao se encontrar um frêmito no precórdio?
     alternativas:
@@ -380,7 +380,7 @@ perguntas:
       - "Frequência, ritmo e amplitude"
       - "Mobilidade com o decúbito, resposta ao exercício e irradiação para o dorso"
     corretaIndex: 1
-    explicacao: "O frêmito é o equivalente palpável do sopro. Registram-se a localização (referida às áreas de ausculta), a situação no ciclo — sistólico, diastólico ou sistodiastólico, definida pela coincidência com o ictus ou com o pulso carotídeo — e a intensidade."
+    explicacao: "O frêmito é o equivalente palpável do sopro. Registram-se a localização (referida às áreas de ausculta), a situação no ciclo: sistólico, diastólico ou sistodiastólico, definida pela coincidência com o ictus ou com o pulso carotídeo, e a intensidade."
   - id: precordio-6
     enunciado: A percussão da área cardíaca foi abandonada da rotina do exame do coração. Por quê?
     alternativas:
@@ -389,5 +389,5 @@ perguntas:
       - "Porque seus resultados se mostraram imprecisos, exceto nas grandes cardiomegalias"
       - "Porque foi substituída pela ausculta do foco aórtico acessório, que delimita as bordas do coração com mais precisão"
     corretaIndex: 2
-    explicacao: "Confrontada com o que a radiografia e o ecocardiograma mostram, a percussão do precórdio erra com frequência — só as cardiomegalias grandes escapam desse erro. Deixar de percutir o coração não empobrece a avaliação, e o tempo rende mais em uma palpação bem-feita."
+    explicacao: "Confrontada com o que a radiografia e o ecocardiograma mostram, a percussão do precórdio erra com frequência, só as cardiomegalias grandes escapam desse erro. Deixar de percutir o coração não empobrece a avaliação, e o tempo rende mais em uma palpação bem-feita."
 :::

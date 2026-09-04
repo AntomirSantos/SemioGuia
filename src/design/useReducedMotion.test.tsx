@@ -4,7 +4,7 @@ import { _resetReducedMotionCacheParaTeste, useReducedMotion } from './useReduce
 
 // `jest.spyOn` sobre os métodos, não `jest.mock('react-native', ...)`: re-
 // implementar o módulo inteiro reexecuta a inicialização nativa fora da
-// ordem que o setup do jest-expo espera (quebra com TurboModuleRegistry —
+// ordem que o setup do jest-expo espera (quebra com TurboModuleRegistry: 
 // 'DevMenu' could not be found). Espiar preserva o módulo real e troca só o
 // comportamento dos dois métodos usados pelo hook. Em jest-expo, Platform.OS
 // não é 'web', então o hook usa o ramo nativo (isReduceMotionEnabled +
@@ -13,7 +13,7 @@ import { _resetReducedMotionCacheParaTeste, useReducedMotion } from './useReduce
 //
 // `act(async () => {...})` sempre com `await`: neste setup, mesmo uma
 // atualização de estado síncrona só assenta em `result.current` dentro de um
-// act assíncrono aguardado — confirmado isolando um hook de brinquedo antes
+// act assíncrono aguardado: confirmado isolando um hook de brinquedo antes
 // de escrever os testes reais.
 describe('useReducedMotion', () => {
   const remove = jest.fn();
@@ -40,7 +40,7 @@ describe('useReducedMotion', () => {
   });
 
   // Fase 8, revisão de fase (A7): antes da promise de isReduceMotionEnabled
-  // resolver, o hook devolvia `false` "otimista" — EntradaAnimada podia
+  // resolver, o hook devolvia `false` "otimista": EntradaAnimada podia
   // animar antes de saber se o usuário pediu movimento reduzido de verdade.
   // Na PRIMEIRA montagem nativa do app começa `null` (preferência
   // desconhecida) e os consumidores tratam como "reduzir" (padrão seguro).
@@ -91,7 +91,7 @@ describe('useReducedMotion', () => {
   });
 
   // Fase 8, re-revisão de fase: inicializar sempre em `null` matava a
-  // animação de entrada — os Animated.Values nasciam no estado "sem
+  // animação de entrada: os Animated.Values nasciam no estado "sem
   // animação" e a resolução posterior animava 1→1 (no-op). O valor
   // resolvido fica num cache de módulo: montagens seguintes já iniciam
   // resolvidas e a animação toca de verdade.

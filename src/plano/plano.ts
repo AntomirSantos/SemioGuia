@@ -1,11 +1,11 @@
 // Plano até a prova (beta §9.2): funções puras sobre datas ISO locais
-// (YYYY-MM-DD, mesmo formato de hojeLocal()) — a UI só formata o resultado.
+// (YYYY-MM-DD, mesmo formato de hojeLocal()): a UI só formata o resultado.
 
 const DIA_MS = 24 * 60 * 60 * 1000;
 
 /**
  * Converte a data digitada (DD/MM/AAAA, como se escreve no Brasil, ou já
- * ISO YYYY-MM-DD) para ISO. Devolve null para entrada inválida — inclusive
+ * ISO YYYY-MM-DD) para ISO. Devolve null para entrada inválida: inclusive
  * datas impossíveis como 31/02.
  */
 export function analisarDataProva(entrada: string): string | null {
@@ -39,7 +39,7 @@ export function diasAteProva(dataProvaIso: string, hojeIso: string): number {
 
 export function textoDiasAteProva(dias: number, sistemaTitulo?: string): string {
   const deSistema = sistemaTitulo ? ` de ${sistemaTitulo}` : '';
-  if (dias < 0) return 'A prova já passou — atualize a data no Perfil';
+  if (dias < 0) return 'A prova já passou: atualize a data no Perfil';
   if (dias === 0) return `A prova${deSistema} é hoje`;
   return dias === 1 ? `Falta 1 dia para a prova${deSistema}` : `Faltam ${dias} dias para a prova${deSistema}`;
 }

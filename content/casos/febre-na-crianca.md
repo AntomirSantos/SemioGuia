@@ -7,10 +7,10 @@ topicosDeApoio:
   - exame-fisico-geral/sinais-vitais/temperatura-e-frequencia-respiratoria
   - exame-fisico-geral/sinais-vitais/frequencia-cardiaca-e-pulso
 referencias:
-  - "SBP — Documento Científico nº 206, 15/05/2025: Abordagem da Febre Aguda em Pediatria e Reflexões sobre a Febre nas Arboviroses"
-  - "Porto — Semiologia Médica, 8ª ed., cap. 8 (Exame físico geral) e cap. 12 (Exame da pele — manchas hemorrágicas)"
-  - "Porto — Exame Clínico, 8ª ed., cap. 21 (Sinais vitais)"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 18 (Temperature)"
+  - "SBP, Documento Científico nº 206, 15/05/2025: Abordagem da Febre Aguda em Pediatria e Reflexões sobre a Febre nas Arboviroses"
+  - "Porto, Semiologia Médica, 8ª ed., cap. 8 (Exame físico geral) e cap. 12 (Exame da pele, manchas hemorrágicas)"
+  - "Porto, Exame Clínico, 8ª ed., cap. 21 (Sinais vitais)"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 18 (Temperature)"
 revisao: pendente
 inicio: c-chegada
 ---
@@ -38,7 +38,7 @@ opcoes:
     proximo: c-axilar
   - texto: "Aceitar os 39 °C da mãe, prescrever antitérmico e reavaliar a temperatura em uma hora."
     avaliacao: erro
-    feedback: "Você tratou o número e adiou o exame. Em criança febril, o que decide a conduta é o estado geral — e ele só aparece com a criança despida e examinada, não no visor do termômetro."
+    feedback: "Você tratou o número e adiou o exame. Em criança febril, o que decide a conduta é o estado geral, e ele só aparece com a criança despida e examinada, não no visor do termômetro."
     proximo: c-antitermico
   - texto: "Termômetro digital na axila seca, anotando valor, local e horário."
     avaliacao: otima
@@ -69,7 +69,7 @@ opcoes:
     proximo: c-antitermico
   - texto: "Despir a criança por completo e avaliar estado geral, consciência, perfusão, hidratação e pele."
     avaliacao: otima
-    feedback: "Esse é o exame que muda a conduta. O número isolado não gradua gravidade: estado geral, hidratação, perfusão e comportamento pesam mais que décimos de grau — e petéquias só aparecem para quem despe a criança."
+    feedback: "Esse é o exame que muda a conduta. O número isolado não gradua gravidade: estado geral, hidratação, perfusão e comportamento pesam mais que décimos de grau, e petéquias só aparecem para quem despe a criança."
     proximo: c-petequias
   - texto: "Colher hemograma, PCR, urina e hemocultura e aguardar os resultados para então decidir a conduta."
     avaliacao: erro
@@ -97,7 +97,7 @@ pergunta: "Criança febril com petéquias, taquipneia, pulso fino e rebaixamento
 opcoes:
   - texto: "Tratar como emergência: acesso venoso, volume, culturas e antimicrobiano precoce."
     avaliacao: otima
-    feedback: "Petéquias, taquipneia, má perfusão e sonolência são sinais de gravidade. Nessa situação monitoriza-se, estabiliza-se, colhem-se culturas e o antimicrobiano entra cedo, sem esperar resultado de exame — a hora do antibiótico é parte do prognóstico."
+    feedback: "Petéquias, taquipneia, má perfusão e sonolência são sinais de gravidade. Nessa situação monitoriza-se, estabiliza-se, colhem-se culturas e o antimicrobiano entra cedo, sem esperar resultado de exame: a hora do antibiótico é parte do prognóstico."
     proximo: fim-otimo
   - texto: "Antitérmico e reavaliação em 24 a 72 horas, orientando a mãe sobre os sinais de alarme."
     avaliacao: erro
@@ -154,7 +154,7 @@ tipo: desfecho
 id: fim-otimo
 classe: otimo
 texto: "Helena é levada à sala de emergência ainda com você ao lado da maca. Acesso, volume, culturas colhidas e a primeira dose do antimicrobiano correndo em menos de uma hora desde a chegada. Na evolução, você registra a temperatura com local e horário, os sinais que motivaram a conduta e o tempo até o antibiótico."
-ensino: "Na criança, febre é temperatura axilar ≥ 37,5 °C, aferida com termômetro digital — mas o número serve para caracterizar a febre, não para graduar a gravidade. Quem decide a conduta é a avaliação clínica integrada: estado geral, consciência, perfusão, hidratação e pele. Diante de sinais de gravidade, estabilizar, colher culturas e iniciar o antimicrobiano andam juntos."
+ensino: "Na criança, febre é temperatura axilar ≥ 37,5 °C, aferida com termômetro digital, mas o número serve para caracterizar a febre, não para graduar a gravidade. Quem decide a conduta é a avaliação clínica integrada: estado geral, consciência, perfusão, hidratação e pele. Diante de sinais de gravidade, estabilizar, colher culturas e iniciar o antimicrobiano andam juntos."
 :::
 
 ::: no
@@ -162,7 +162,7 @@ tipo: desfecho
 id: fim-aceitavel
 classe: aceitavel
 texto: "O tratamento certo começa, com quase uma hora de atraso. Helena melhora na terapia intensiva, mas a passagem de plantão inclui a frase que ninguém gosta de dizer: 'os sinais estavam lá desde o começo'."
-ensino: "Em criança febril, o exame completo com a criança despida é o passo que não pode ser pulado — nem pelo antitérmico, nem pela espera de exames. Perceber o próprio atraso e corrigir a rota ainda muda o desfecho."
+ensino: "Em criança febril, o exame completo com a criança despida é o passo que não pode ser pulado, nem pelo antitérmico, nem pela espera de exames. Perceber o próprio atraso e corrigir a rota ainda muda o desfecho."
 :::
 
 ::: no
@@ -170,5 +170,5 @@ tipo: desfecho
 id: fim-dano-atraso
 classe: dano
 texto: "As petéquias se ampliam e confluem enquanto a conduta espera. Helena chega à terapia intensiva já em choque, com necessidade de droga vasoativa, e o tempo até o antimicrobiano é a variável que a equipe vai discutir na revisão do caso."
-ensino: "A febre que cede não é a criança que melhora — e reavaliar em 24 a 72 horas só vale para a criança sem sinais de gravidade. Petéquias, taquipneia, má perfusão, sonolência ou hipotermia paradoxal transformam o caso em emergência, e a espera por exames laboratoriais não é motivo para adiar o antimicrobiano."
+ensino: "A febre que cede não é a criança que melhora, e reavaliar em 24 a 72 horas só vale para a criança sem sinais de gravidade. Petéquias, taquipneia, má perfusão, sonolência ou hipotermia paradoxal transformam o caso em emergência, e a espera por exames laboratoriais não é motivo para adiar o antimicrobiano."
 :::

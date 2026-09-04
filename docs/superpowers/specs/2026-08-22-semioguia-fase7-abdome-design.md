@@ -1,13 +1,13 @@
-# SemioGuia Fase 7 — Exame do abdome: Design
+# SemioGuia Fase 7, Exame do abdome: Design
 
 Data: 22/08/2026 · Autor do produto: Antomir Santos · Status: aprovado em chat
 
 ## 1. Objetivo
 
 Sistema novo **Abdome** com o capítulo "Exame do abdome" (4 tópicos), no
-padrão editorial das Fases 5–6: prosa original ancorada, aprofundamentos,
+padrão editorial das Fases 5 a 6: prosa original ancorada, aprofundamentos,
 quiz balanceado, checklists-estação, ilustrações. Fecha o tripé
-tórax–coração–abdome. Sem casos novos nesta fase.
+tórax-coração-abdome. Sem casos novos nesta fase.
 
 ## 2. Decisões do autor (registradas em 22/08)
 
@@ -21,7 +21,7 @@ tórax–coração–abdome. Sem casos novos nesta fase.
 ### `sistemas.yaml`
 
 ```yaml
-- id: abdome                    # NOVO — ordem 5, cor "#D99A3B", icone grid-3x3
+- id: abdome                    # NOVO, ordem 5, cor "#D99A3B", icone grid-3x3
   titulo: Abdome                # (grade 3×3 = as nove regiões abdominais)
   capitulos:
     - id: exame-do-abdome       # "Exame do abdome", ordem 1
@@ -30,9 +30,9 @@ tórax–coração–abdome. Sem casos novos nesta fase.
 (Ícone: `grid-3x3` → `Grid3x3` do lucide; a Task 1 verifica o nome exato
 do export e, se ausente, escolhe o equivalente mais próximo e registra.)
 
-### Abdome · Exame do abdome (ordem 1–4)
+### Abdome · Exame do abdome (ordem 1 a 4)
 
-1. `inspecao-e-ausculta-do-abdome` — divisões (9 regiões e 4 quadrantes,
+1. `inspecao-e-ausculta-do-abdome`: divisões (9 regiões e 4 quadrantes,
    com a projeção visceral essencial), formas do abdome (plano, globoso,
    em avental, batráquio, escavado), pele e parede (cicatrizes,
    estrias, circulação colateral e seus tipos, hérnias à manobra de
@@ -42,15 +42,15 @@ do export e, se ausente, escolhe o equivalente mais próximo e registra.)
    (onde procurar). Avançado: sinais de Cullen e Grey-Turner,
    diferenciação dos tipos de circulação colateral, íleo × obstrução na
    ausculta (com o ceticismo de McGee sobre RHA, se ancorável).
-2. `percussao-do-abdome` — técnica e os dois sons do abdome, hepatimetria
-   (limite superior COERENTE com o tópico de percussão do tórax —
+2. `percussao-do-abdome`: técnica e os dois sons do abdome, hepatimetria
+   (limite superior COERENTE com o tópico de percussão do tórax: 
    referência cruzada obrigatória; borda inferior; faixa normal
    ancorada), espaço de Traube (referência cruzada ao tórax, aqui na
-   leitura esplênica — percussão do baço, Castell se ancorável),
+   leitura esplênica: percussão do baço, Castell se ancorável),
    **ascite**: macicez móvel de decúbito, semicírculo de Skoda, sinal do
    piparote (com utilidade/limites e LRs de McGee quando houver).
    Avançado: LRs da ascite (McGee), percussão do baço e seus limites.
-3. `palpacao-do-abdome` — superficial (parede × cavidade, tensão,
+3. `palpacao-do-abdome`: superficial (parede × cavidade, tensão,
    diferenciação parede/intracavitário com a manobra de elevação da
    cabeça), profunda (técnica, mono e bimanual), **fígado** (técnicas de
    Lemos Torres e Mathieu, o que descrever da borda), **baço** (posição
@@ -59,7 +59,7 @@ do export e, se ausente, escolhe o equivalente mais próximo e registra.)
    aqui Courvoisier como aprofundamento). Avançado: características
    semiológicas do fígado palpável (consistência/borda/superfície e o que
    sugerem), Courvoisier, LRs de hepato/esplenomegalia (McGee).
-4. `abdome-agudo-e-sinais-peritoneais` — dor à descompressão brusca
+4. `abdome-agudo-e-sinais-peritoneais`: dor à descompressão brusca
    (Blumberg) e sua leitura, defesa voluntária × contratura (ventre em
    tábua), McBurney, Rovsing, sinais do psoas e do obturador, **Murphy**,
    Giordano/punho-percussão lombar, percussão dolorosa como alternativa
@@ -69,12 +69,12 @@ do export e, se ausente, escolhe o equivalente mais próximo e registra.)
 
 ## 4. Padrão editorial
 
-Idêntico às Fases 5–6 (seções "O essencial" → técnica com
+Idêntico às Fases 5 a 6 (seções "O essencial" → técnica com
 `manobra`+`checklist` → temáticas → "Armadilhas" → "Teste rápido"), MAIS
 as regras que as revisões da Fase 6 tornaram explícitas, valendo DESDE O
 PRIMEIRO RASCUNHO:
 
-- Quiz: 4–6 perguntas/tópico com `explicacao`; **gabarito balanceado por
+- Quiz: 4 a 6 perguntas/tópico com `explicacao`; **gabarito balanceado por
   posição no capítulo** (nenhum índice acima de ~8/24); distratores
   plausíveis (nunca espantalhos) e excludíveis pelo texto-base do
   tópico; explicações sem referência posicional às alternativas.
@@ -91,7 +91,7 @@ PRIMEIRO RASCUNHO:
   capítulo do coração; Virchow/supraclavicular → linfonodos; dor
   abdominal na HDA → anamnese. Sem fármacos/doses; "aferir" a PA.
 - Âncoras: Porto Sem. Méd. (Parte de abdome/sistema digestório), Porto
-  Ex. Clín., McGee (caps. de abdome — ascite, hepatomegalia,
+  Ex. Clín., McGee (caps. de abdome: ascite, hepatomegalia,
   esplenomegalia, abdominal pain/peritonite; páginas reais via running
   headers), Semiologia Clínica (cap. de abdome). Citações por
   capítulo/seção nomeada; páginas só quando verificáveis.

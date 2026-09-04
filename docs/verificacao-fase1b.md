@@ -1,8 +1,8 @@
-# Roteiro de verificação manual — Fase 1B
+# Roteiro de verificação manual: Fase 1B
 
 Este roteiro serve para conferir, num aparelho de verdade, que o app funciona
 bem de ponta a ponta. Os testes automáticos (Jest) já cobrem a lógica interna,
-mas não conseguem abrir o app num celular real — então esta é a forma de
+mas não conseguem abrir o app num celular real, então esta é a forma de
 confirmar visualmente que tudo está encaixado, e principalmente de confirmar
 que os dados **persistem** quando o app é fechado e reaberto.
 
@@ -12,7 +12,7 @@ minutos.
 ## 1. Preparar
 
 1. No celular (Android ou iPhone), instale o aplicativo **Expo Go** na loja
-   de aplicativos (Play Store ou App Store) — é gratuito.
+   de aplicativos (Play Store ou App Store): é gratuito.
 2. No computador, dentro da pasta do projeto, rode:
 
    ```
@@ -44,7 +44,7 @@ acontece.
    deve indicar "Estudado".
 5. **Buscar "Osler".** Volte para as abas e toque em "Busca". Digite
    **Osler** no campo de busca. Deve aparecer um resultado na lista.
-6. **Abrir pelo resultado da busca.** Toque no resultado encontrado — deve
+6. **Abrir pelo resultado da busca.** Toque no resultado encontrado: deve
    abrir o tópico correspondente normalmente.
 7. **Jogar o quiz de Pressão arterial.** Volte ao tópico "Pressão arterial"
    (aba Guia ou aba Estudar) e toque em "Praticar" no bloco de quiz. Responda
@@ -61,7 +61,7 @@ acontece.
 ## 3. Teste de persistência (o mais importante)
 
 Este é o único passo que testa de verdade o banco de dados do aparelho
-(SQLite) — o Jest não consegue rodar essa parte porque ela depende do
+(SQLite): o Jest não consegue rodar essa parte porque ela depende do
 celular, então esta verificação manual é a única garantia que temos.
 
 1. **Feche o app completamente.** Não basta minimizar: no Android, abra a
@@ -90,11 +90,11 @@ Ao relatar um problema, inclua:
   14").
 - Se o problema foi no passo 3 (persistência): diga exatamente quais dos
   quatro itens (favorito, estudado, tema, fonte) não voltaram como esperado
-  — isso ajuda a isolar se o problema é geral ou só de um tipo de dado.
+: isso ajuda a isolar se o problema é geral ou só de um tipo de dado.
 - Se o `npx expo start --tunnel` mostrou alguma mensagem de erro no
   terminal, copie e cole o texto.
 
-## Adendo 1C — paleta Vital, divulgação progressiva e ilustrações
+## Adendo 1C: paleta Vital, divulgação progressiva e ilustrações
 
 A Fase 1C trocou a aparência e a organização do conteúdo, mantendo intacta a
 arquitetura verificada acima (navegação, favoritos, estudado, busca, quiz,
@@ -103,7 +103,7 @@ tema e persistência). O que mudou:
 - **Paleta "Vital"**: nova paleta clara/escura (fundo `#f3f6fb` / `#0f121c`,
   acento indigo `#3655cd` / `#859ff6`), todos os 12 pares de contraste
   auditados em `npm run checar:contraste` (mínimo WCAG AA, 4.5:1 texto e
-  3:1 UI) — os 3 tópicos existentes foram migrados para ela.
+  3:1 UI), os 3 tópicos existentes foram migrados para ela.
 - **Blocos novos**: `secao` (títulos de seção com friso lateral), `entendimento`
   (caixa de destaque conceitual) e `ilustracao` (SVG de traço, herda a cor
   de tinta do tema via `currentColor`). Cinco ilustrações novas: medida da PA,
@@ -127,13 +127,13 @@ prefixo de caminho e navegado com Playwright/Chromium headless (viewport
 390×844, o mesmo layout de celular usado na Fase 1B). Resultado:
 
 1. **Home com a paleta Vital**: fundo da tela em `#f3f6fb` e cor de acento
-   `#3655cd` confirmados por estilo computado (não bastou olhar a tela —
+   `#3655cd` confirmados por estilo computado (não bastou olhar a tela: 
    os valores exatos batem com `src/design/tokens.ts`).
 2. **Tópico "Pressão arterial"**: títulos de `secao` ("O essencial", "Como
    medir") visíveis; bloco "Aprofundar · Conceito" presente e recolhido
    por padrão (a taxonomia das cinco fases de Korotkoff não aparece no
    texto da página antes do toque); ao tocar, o conteúdo monta e o texto
-   das fases I–V passa a aparecer.
+   das fases I-V passa a aparecer.
 3. **Ilustração `medida-pa`**: renderiza na seção "Como medir", ocupando
    quase a largura total do viewport (350 de 390px) e com a cor herdada do
    tema (`rgb(24, 27, 45)` = `#181b2d`, a tinta clara), confirmando que o
@@ -142,7 +142,7 @@ prefixo de caminho e navegado com Playwright/Chromium headless (viewport
    básico (célere / parvus / filiforme) em viewport estreito (390px):
    indentação com marcador "-" visível, sem sobreposição ou corte. As
    linhas de continuação que voltam à margem esquerda (em vez de alinhar
-   sob o texto do marcador) são o único ponto de atenção — é um
+   sob o texto do marcador) são o único ponto de atenção: é um
    comportamento aceitável para este único caso de lista aninhada no
    corpus, não uma quebra de layout.
 5. **Tópico "Temperatura e frequência respiratória"**: ilustração
@@ -153,7 +153,7 @@ prefixo de caminho e navegado com Playwright/Chromium headless (viewport
 Nenhum erro de página (`pageerror`) ou requisição falha (`requestfailed`)
 foi registrado em nenhuma das quatro navegações.
 
-## Adendo Fase 2 — revisão espaçada e estação OSCE
+## Adendo Fase 2: revisão espaçada e estação OSCE
 
 A Fase 2 adiciona um motor de revisão espaçada (SM-2) sobre a arquitetura
 verificada acima, sem alterar navegação, tema ou persistência de
@@ -162,7 +162,7 @@ favoritos/estudados já existentes. O que entrou:
 - **Motor SM-2 automático** (`src/revisao/sm2.ts`): agenda cada item
   (pergunta de quiz ou checklist) com fator de facilidade, repetições e
   intervalo em dias; a nota (2/4/5) é derivada automaticamente do resultado
-  — acerto/erro no quiz, percentual na estação — sem botões manuais de
+: acerto/erro no quiz, percentual na estação, sem botões manuais de
   Difícil/Bom/Fácil (fora do escopo desta fase).
 - **Semeadura ao marcar "Estudado"**: ao marcar um tópico como estudado,
   todas as perguntas de quiz e o checklist do tópico entram na fila de
@@ -172,7 +172,7 @@ favoritos/estudados já existentes. O que entrou:
   descartando da fila qualquer item cujo id não exista mais no conteúdo
   atual (órfãos).
 - **Persistência**: itens de revisão são gravados em todos os adaptadores de
-  `ProgressStore` (memória, localStorage — chave `semioguia.itensRevisao` —,
+  `ProgressStore` (memória, localStorage: chave `semioguia.itensRevisao`: 
   SQLite com migração v2), na mesma linha dos demais dados de progresso.
 - **Card "Revisão de hoje"** no topo da aba Estudar: estado vazio quando não
   há itens vencidos, ou contagem "N pergunta(s) · M estação(ões)" que abre a
@@ -191,7 +191,7 @@ favoritos/estudados já existentes. O que entrou:
 
 Fora do escopo (spec §7): cronômetro/modo treino da estação, botões
 manuais de nota (Difícil/Bom/Fácil), notificações e configuração do limite
-diário — todos deliberadamente adiados.
+diário: todos deliberadamente adiados.
 
 ### Verificação headless (build de deploy, caminho `/SemioGuia/`, 390×844)
 
@@ -200,16 +200,16 @@ Mesmo procedimento da Fase 1C: export web com `experiments.baseUrl` =
 Playwright/Chromium headless. Uma particularidade desta rodada: navegar
 direto (`page.goto`) para uma rota dinâmica de catch-all (`/topico/...`,
 `/estacao/...`) força o fallback de SPA (serve `index.html` com 404) e
-produz um erro de hidratação React (#418) inofensivo, mas evitável — a
+produz um erro de hidratação React (#418) inofensivo, mas evitável: a
 verificação passou a abrir tópicos por cliques dentro do app já carregado
 (Guia → sistema → tópico), como um usuário real faria; com isso, **zero**
 `pageerror`/`requestfailed` em toda a bateria, igual ao padrão da Fase 1C.
 
 1. **Card vazio**: com `localStorage` limpo, a aba Estudar mostra
-   "Revisão de hoje" / "Nada para revisar hoje" — sem navegação (elemento
+   "Revisão de hoje" / "Nada para revisar hoje", sem navegação (elemento
    não é tocável nesse estado).
 2. **Semeadura**: abrir o tópico "Pressão arterial" e marcar "Estudado"
-   grava 5 itens em `semioguia.itensRevisao` (as 5 perguntas do quiz — este
+   grava 5 itens em `semioguia.itensRevisao` (as 5 perguntas do quiz: este
    tópico não tem bloco `checklist`, só `manobra`), todos com
    `proximaRevisao` = amanhã (confirmado por igualdade de string de data,
    não só inspeção visual).
@@ -217,7 +217,7 @@ verificação passou a abrir tópicos por cliques dentro do app já carregado
    `proximaRevisao` de um item para ontem e recarregar a aba Estudar faz o
    card passar a contar "1 pergunta · 0 estações"; tocar no card abre
    `/revisao` com a pergunta correspondente, respondível; responder e
-   avançar leva ao resumo "Revisão concluída — 1/1"; o item no
+   avançar leva ao resumo "Revisão concluída: 1/1"; o item no
    `localStorage` foi atualizado (`repeticoes: 1`, `intervaloDias: 1`,
    `proximaRevisao` avançada).
 4. **Estação OSCE via checklist**: no tópico "Frequência cardíaca e pulso",
@@ -233,11 +233,11 @@ verificação passou a abrir tópicos por cliques dentro do app já carregado
 Screenshots (390×844, salvos durante a verificação):
 `estudar-card-vazio.png`, `estudar-card-cheio.png`, `sessao-pergunta.png`,
 `estacao-osce.png` (em andamento, passo 3 de 10) e `resultado.png`
-(resumo da sessão de revisão) — mais `resultado-estacao.png`,
+(resumo da sessão de revisão), mais `resultado-estacao.png`,
 `estudar-escuro.png` e `sessao-escuro.png` como evidência complementar do
 resumo da estação e do tema escuro.
 
-## Adendo Fase 3 — casos clínicos ramificados
+## Adendo Fase 3: casos clínicos ramificados
 
 A Fase 3 adiciona um motor de casos clínicos com decisões ramificadas
 (cena → decisão → cena/desfecho), sobre a mesma arquitetura de conteúdo e
@@ -250,7 +250,7 @@ progresso já verificada nas fases anteriores. O que entrou:
 - **Motor** (`src/casos/motor.ts`): `iniciar`/`avancar`/`decidir` navegam o
   grafo mantendo uma trilha de decisões; o feedback de uma opção aparece
   assim que ela é tocada, e o grafo só avança quando "Seguir" é
-  pressionado — nunca antes.
+  pressionado, nunca antes.
 - **Três casos** do capítulo de sinais vitais (crise hipertensiva, febre na
   criança, síncope com pulso irregular), cada um com regras clínicas e
   referências específicas.
@@ -259,7 +259,7 @@ progresso já verificada nas fases anteriores. O que entrou:
   alcançado, entre todas as tentativas).
 - **Tela do caso** (`/caso/[id]`): cena com dados objetivos, decisão com
   opções e feedback, e desfecho com a classe, "O que este caso ensina" e a
-  trilha de decisões — cada passo abaixo do ótimo mostra também "Melhor
+  trilha de decisões: cada passo abaixo do ótimo mostra também "Melhor
   conduta: …". "Refazer o caso" reinicia do primeiro nó.
 - **Histórico de conclusões**: cada chegada a um desfecho é registrada em
   todos os adaptadores de `ProgressStore` (memória, localStorage, SQLite
@@ -297,12 +297,12 @@ Screenshots (390×844, salvos durante a verificação): `casos-lista.png`,
 `caso-cena.png`, `caso-decisao.png`, `caso-feedback.png`,
 `caso-desfecho.png`, `casos-lista-resultado.png` e `caso-escuro.png`.
 
-## Adendo Fase 4A — conta opcional e base de sincronização
+## Adendo Fase 4A: conta opcional e base de sincronização
 
 A Fase 4A prepara o terreno para contas e sincronização entre aparelhos,
 mas **entrega isso desligado por padrão**: sem a config do Firebase (que só
 o autor cola em `src/conta/config.ts`, ver `docs/firebase-setup.md`), o
-bloco "Conta" no Perfil não mostra formulário nenhum — só um aviso. O
+bloco "Conta" no Perfil não mostra formulário nenhum, só um aviso. O
 resto do app permanece intacto. O que entrou:
 
 - **Conta opcional atrás de flag** (`src/conta/`): `firebaseApp.ts` inicializa
@@ -313,15 +313,15 @@ resto do app permanece intacto. O que entrou:
   `UsuarioConta`; erros do SDK passam por `mapearErroAuth`
   (`src/conta/errosAuth.ts`) antes de chegar à UI.
 - **Motor de merge puro** (`src/sync/merge.ts`): reconcilia snapshot local
-  e remoto por campo — listas por união, preferências e progresso de SM-2
-  por carimbo de tempo mais recente (last-write-wins) — sem tocar rede ou
+  e remoto por campo: listas por união, preferências e progresso de SM-2
+  por carimbo de tempo mais recente (last-write-wins), sem tocar rede ou
   storage; tipado sobre `SnapshotSync`/`EstadoCarimbado`/`PrefCarimbada`.
 - **`ProgressStore` v4** (`src/progress/types.ts` e adaptadores memória/
   localStorage/SQLite): todo estado mutável ganha carimbo de tempo;
   `exportarParaSync`/`aplicarDoSync` alimentam o merge; migração
   automática da forma legada (v3 e anteriores) para v4 preserva os dados já
   no aparelho do usuário.
-- **Regras do Firestore** (`firestore.rules`) — 7 coleções sob
+- **Regras do Firestore** (`firestore.rules`): 7 coleções sob
   `users/{uid}/…`, deny-by-default fora desse caminho, `hasOnly`+`hasAll`
   por coleção, faixas e tamanhos em todo campo, imutabilidade de
   `perfil.criadoEm` e dos históricos (create-only, delete só pelo dono para
@@ -330,7 +330,7 @@ resto do app permanece intacto. O que entrou:
   cada uma, nota final "Secure"); verificador de emulador local
   (`scripts/verificar-regras-emulador.mjs`, fora do CI):
   **87/87** contra a forma dos dados, mais **12/12** rodando o código real
-  de sincronização (`firestoreSync.ts`) contra o emulador — round-trip,
+  de sincronização (`firestoreSync.ts`) contra o emulador: round-trip,
   particionamento de `writeBatch`, exclusão idempotente e perfil adiado
   quando o e-mail ainda não está disponível.
 - **Orquestrador de sync** (`src/sync/orquestrador.ts`, `SyncProvider`/
@@ -339,7 +339,7 @@ resto do app permanece intacto. O que entrou:
   lança (falha vira `erro` no estado); debounce de 30s com retry manual
   (`forcar: true`) e reset de estado/relógio por troca de conta.
 - **Bloco Conta no Perfil** (`src/conta/BlocoConta.tsx`, montado em
-  `(tabs)/perfil.tsx`): três estados — sem config (aviso "Sincronização
+  `(tabs)/perfil.tsx`): três estados, sem config (aviso "Sincronização
   indisponível nesta versão."), sem sessão (formulário e-mail/senha +
   "Entrar com Google" + aviso LGPD) e com sessão (status de sync, "Sair",
   "Excluir conta" com confirmação em duas etapas).
@@ -358,7 +358,7 @@ app. Config do Firebase committada é `null` (estado real de deploy desta
 fase). Zero `pageerror` em toda a bateria.
 
 1. **Perfil sem config**: o bloco "Conta" mostra só "Sincronização
-   indisponível nesta versão." — nenhum campo de e-mail/senha, nenhum botão
+   indisponível nesta versão.": nenhum campo de e-mail/senha, nenhum botão
    "Entrar"/"Criar conta"/"Entrar com Google" visível.
 2. **Resto do app intacto**: a Home carrega e lista os sistemas; abrir um
    tópico (Exame físico geral → Pressão arterial) navega normalmente; a aba
@@ -371,7 +371,7 @@ Screenshots (390×844, salvos durante a verificação):
 `perfil-conta-indisponivel.png` (tema claro/sistema) e
 `perfil-conta-escuro.png` (tema escuro).
 
-## Adendo Fase 5 — capítulos "Exame do coração" e "Exame do tórax"
+## Adendo Fase 5: capítulos "Exame do coração" e "Exame do tórax"
 
 A Fase 5 acrescentou dois sistemas ao Guia (Aparelho cardiovascular e
 Aparelho respiratório), com 8 tópicos, 48 perguntas de quiz, 8 checklists
@@ -395,10 +395,10 @@ busca por termo novo ("frêmito") retornando os tópicos certos com o sistema
 identificado no resultado.
 
 Nota de comportamento esperado: os 8 checklists e 48 perguntas entram na
-fila do SM-2 sob o teto de 20 itens novos/dia — nos primeiros dias após o
+fila do SM-2 sob o teto de 20 itens novos/dia: nos primeiros dias após o
 deploy haverá backlog silencioso (ver item 10 da lista do autor).
 
-## Adendo Fase 6 — sistema "Anamnese" e capítulo "Avaliação geral"
+## Adendo Fase 6: sistema "Anamnese" e capítulo "Avaliação geral"
 
 A Fase 6 acrescentou o sistema Anamnese (primeiro do guia: A entrevista
 clínica, Queixa principal e HDA, Interrogatório sintomatológico,
@@ -423,7 +423,7 @@ Verificação headless pós-deploy: home com 4 sistemas na ordem nova;
 Nota: os 56 itens novos (48 perguntas + 8 checklists) entram na fila do
 SM-2 sob o teto de 20/dia (backlog silencioso nos primeiros dias).
 
-## Adendo Fase 7 — sistema "Abdome"
+## Adendo Fase 7: sistema "Abdome"
 
 A Fase 7 acrescentou o sistema Abdome (5º do guia) com o capítulo "Exame
 do abdome": Inspeção e ausculta · Percussão · Palpação · Abdome agudo e
@@ -435,8 +435,8 @@ no yaml.
 Gates na árvore final: build:content (5 sistemas, 23 tópicos, json em
 sync), jest (37 suítes, 293 testes), tsc, contraste (todos AA).
 
-Processo: revisão médica independente (1 Critical — sentido do fluxo
-venoso invertido — + 3 Important + 16 Minor, todos corrigidos e
+Processo: revisão médica independente (1 Critical, sentido do fluxo
+venoso invertido: + 3 Important + 16 Minor, todos corrigidos e
 re-verificados), micro-rodada e revisão final de fase (costuras
 hepatimetria/Traube/refluxo/edema/Virchow verificadas nas duas pontas).
 Conteúdo `revisao: pendente`.
@@ -444,7 +444,7 @@ Conteúdo `revisao: pendente`.
 Verificação headless pós-deploy: home com 5 sistemas; tópicos do abdome
 com ilustrações; busca por "ascite"/"Blumberg".
 
-## Adendo Fase 8 — redesign de navegação e leitura
+## Adendo Fase 8: redesign de navegação e leitura
 
 Leitura por seções nos tópicos (sumário de chips com papel de tabs,
 navegação Anterior/Próxima com retorno ao topo, indicador "Seção X de Y"
@@ -461,7 +461,7 @@ revisão final de fase em 3 rodadas com medições empíricas (scroll,
 opacity sampling, contraste calculado); 1 P1 (scroll não voltava ao topo)
 e 1 regressão de animação encontrados pelas revisões e corrigidos.
 
-## Adendo Fase 9 — sistema "Cabeça e pescoço"
+## Adendo Fase 9: sistema "Cabeça e pescoço"
 
 Sistema novo na ordem crânio-caudal (posição 3; cardio→4, resp→5,
 abdome→6) com o capítulo "Exame de cabeça e pescoço": crânio e face,
@@ -469,7 +469,7 @@ olhos, boca-nariz-e-ouvidos, tireoide e pescoço. 24 questões (gabarito
 5/7/7/5; resposta-mais-longa 6/24), 4 checklists de 10 itens (viram
 estações OSCE), 4 ilustrações novas (pontos sinusais/ATM, reflexos
 pupilares, orelha externa, reparos da tireoide), aprofundamentos com os
-LRs de McGee (pupilas, olho vermelho, audição, tireoide — caps. 21/23/
+LRs de McGee (pupilas, olho vermelho, audição, tireoide: caps. 21/23/
 24/25) e um bloco de concordância interobservador (Tabela 5.1, p. 30).
 Fronteiras do neuro nomeadas em voz alta (pares cranianos, motricidade
 ocular detalhada, fundo de olho, otoscopia, rigidez de nuca). Doze
@@ -487,23 +487,23 @@ final de fase com caminhada visual medida (scroll-reset 1087→0; SVGs nos
 dois temas; busca "tireoide"/"pupila"; console limpo).
 
 Verificação pós-deploy: árvore do gh-pages bit-idêntica ao dist revisado
-na caminhada visual (50 arquivos com .nojekyll e 404.html — repostos em hotfix
+na caminhada visual (50 arquivos com .nojekyll e 404.html: repostos em hotfix
 após o Jekyll do Pages descartar o _expo/; fontes do Expo como único conteúdo sob
 assets/node_modules/); deep links pelo servidor estático de revisão
 disparam React #418 (artefato de infra, navegação por cliques limpa).
 
-## Adendo Fase 10 — sistema "Sistema nervoso"
+## Adendo Fase 10: sistema "Sistema nervoso"
 
 Sistema novo no fim da sequência do exame (ordem 7, sem reordenação) com
 o capítulo "Exame neurológico" em 6 tópicos: consciência e estado mental
-(Glasgow por inteiro), pares cranianos I–VI e VII–XII, força/tônus/
+(Glasgow por inteiro), pares cranianos I-VI e VII-XII, força/tônus/
 reflexos, sensibilidade e coordenação, marcha e sinais meníngeos. A fase
 paga TODAS as molduras que as fases anteriores adiaram ao "capítulo
 neurológico" (auditoria de promessas com mapa arquivo:linha; zero
 órfãs) e atualiza as frases "ainda não escrito" nos tópicos de cabeça e
 pescoço. 36 questões (9/9/9/9; mais-longa 9/36), 6 checklists→estações
 com passo de segurança (rigidez de nuca), 8 ilustrações, aprofundamentos
-com os LRs de McGee (caps. 5, 7, 17, 19, 21, 26, 55, 58–65, 68). Lacunas
+com os LRs de McGee (caps. 5, 7, 17, 19, 21, 26, 55, 58 a 65, 68). Lacunas
 das fontes declaradas em vez de inventadas: escala numérica do VII,
 registro "T" da Glasgow, jolt accentuation (só título de bibliografia).
 Conteúdo `revisao: pendente`.
@@ -516,9 +516,9 @@ uma com revisão médica independente (0 erros clínicos em ~270 números e
 revisão final de fase com auditoria de grafo completo e caminhada visual
 medida (scroll-reset 1452→0; tabelas EBM com scroll interno; busca
 "Glasgow"/"Babinski"/"palmomentual"; estação OSCE nova). Checklist do
-autor: itens I1–I4.
+autor: itens I1, I4.
 
-## Adendo Fase 11 — sistema "Sistema vascular periférico"
+## Adendo Fase 11: sistema "Sistema vascular periférico"
 
 Sistema novo na ordem 7, entre abdome e nervoso (único deslocamento: o
 nervoso 7→8), com o capítulo "Exame vascular periférico" em 4 tópicos:
@@ -526,20 +526,20 @@ pulsos arteriais periféricos, insuficiência arterial crônica, doença
 venosa crônica e trombose, isquemia aguda e aneurismas. 24 questões
 (gabarito 6/6/6/6; mais-longa 6/24), 4 checklists→estações, 4
 ilustrações, aprofundamentos com os LRs de McGee (caps. 5, 17, 51, 54,
-56). O capítulo paga a promessa mais antiga em aberto do guia — os nove
-sintomas vasculares do interrogatório sintomatológico — e ensina
+56). O capítulo paga a promessa mais antiga em aberto do guia: os nove
+sintomas vasculares do interrogatório sintomatológico, e ensina
 Raynaud, acrocianose e livedo reticular, que nenhum tópico cobria.
 Conteúdo `revisao: pendente`.
 
 Duas decisões da fase ficam registradas como superação da spec (itens
 J1 e J2 do checklist): os números do aneurisma de aorta **não** foram
-duplicados aqui porque a palpação do abdome já os possuía — a regra
-"citar, nunca duplicar" prevalece sobre a alocação temática —, e a
+duplicados aqui porque a palpação do abdome já os possuía: a regra
+"citar, nunca duplicar" prevalece sobre a alocação temática, e a
 premissa de que faltariam razões de verossimilhança para a trombose
 venosa era falsa, de modo que nenhuma lacuna precisou ser declarada.
 Duas suposições de pré-voo da orquestração foram derrubadas pelo
 implementador com evidência (McGee tem capítulo dedicado à TVP;
-Brodie-Trendelenburg e Perthès têm âncora) — as manobras venosas
+Brodie-Trendelenburg e Perthès têm âncora): as manobras venosas
 acabaram ensinadas em bloco avançado com o fracasso medido, fora da
 manobra e do checklist.
 
@@ -553,14 +553,14 @@ dentro de uma alternativa correta) + micro-round + re-revisão escopada;
 revisão final de fase com auditoria de grafo e caminhada visual medida
 (scroll-reset 1601→0; tabelas EBM com scroll interno; busca
 "claudicação"/"varizes"/"Homans"; estação OSCE nova). A classe de
-defeito que a Fase 10 deixou — adiamentos que envelhecem — foi varrida
+defeito que a Fase 10 deixou, adiamentos que envelhecem, foi varrida
 e **não produziu nenhuma ocorrência** nesta fase.
 
 Nota de processo: o limite mensal de gasto do modelo usado nos portões
 finais foi atingido durante a fase; a revisão final foi re-despachada
 em outro modelo, com o mesmo escopo e sem redução de rigor.
 
-## Adendo Fase 12 — sistema "Sistema osteoarticular"
+## Adendo Fase 12: sistema "Sistema osteoarticular"
 
 Sistema novo na ordem 8 (nervoso 8→9) com o capítulo "Exame
 osteoarticular" em 6 tópicos: princípios, coluna vertebral, ombro e
@@ -574,9 +574,9 @@ Ottawa, e a desambiguação do epônimo Trendelenburg nos quatro sentidos
 que o guia agora carrega. Conteúdo `revisao: pendente`.
 
 Registro de processo da fase: a premissa da spec ("McGee não tem
-capítulo musculoesquelético") era FALSA — detectada pelo implementador
+capítulo musculoesquelético") era FALSA: detectada pelo implementador
 da T2, que se recusou a escrever a passagem falsa; duas erratas na spec
-documentam a correção e o inventário real (p. 481–513, EBM 57.1–57.8).
+documentam a correção e o inventário real (p. 481 a 513, EBM 57.1 a 57.8).
 A cor passou por dois ajustes medidos (ΔE2000 validado contra o dataset
 de Sharma; otimização em dois regimes, visão normal e daltonismo). Três
 erros de orquestração foram pegos por implementadores com evidência; o
@@ -591,15 +591,15 @@ erros numéricos) + micro-rounds + re-revisões; revisão final com
 auditoria de grafo (zero deferrals envelhecidos), caminhada visual
 medida (scroll 1751→0; tabela EBM 850×314 com scroll interno; busca
 "Lachman"/"Schober"/"túnel do carpo") e capturas nos dois temas.
-Checklist do autor: itens K1–K7. Nota de modelo: os limites de gasto
+Checklist do autor: itens K1, K7. Nota de modelo: os limites de gasto
 do fable (F11) e do opus (F12) foram atingidos; a fase fechou com
 sonnet nas verificações mecânicas e fable no portão final, sem redução
-de escopo declarada — o que cada modelo verificou está no ledger.
+de escopo declarada: o que cada modelo verificou está no ledger.
 
-## Adendo — Fase 13 (mamas e geniturinário)
+## Adendo: Fase 13 (mamas e geniturinário)
 
 A fase criou o décimo sistema, "Mamas e geniturinário" (ordem 9, ícone
-ribbon, cor #2929D6 por busca em dois regimes — mínimos 4,80 visão
+ribbon, cor #2929D6 por busca em dois regimes: mínimos 4,80 visão
 normal / 3,93 daltonismo, os melhores da paleta), com dois capítulos e
 cinco tópicos: exame das mamas, nódulo mamário e descarga papilar,
 genitália masculina e hérnias, exame ginecológico e toque retal. Três
@@ -629,7 +629,7 @@ guia ("único número"), uma lateralidade invertida no título de SVG e
 uma atribuição a mais no aval da indistinguibilidade da torção; a
 implementação, por sua vez, derrubou uma atribuição de capítulo do
 próprio revisor (bacteriemia: cap. 133, provado pelos cabeçalhos e
-ratificado na re-revisão) — a revisão seguiu bidirecional. Revisão
+ratificado na re-revisão): a revisão seguiu bidirecional. Revisão
 final com auditoria de costuras reversas (43 tópicos + 3 casos, zero
 deferrals órfãos), caminhada visual medida nos dois temas e busca
 validada ("próstata", "hérnia", "nódulo de mama").
@@ -640,25 +640,25 @@ Nota de modelo: dois abortos por limite de gasto (um micro-round e a
 primeira tentativa da revisão final), ambos retomados no mesmo modelo
 sem perda de estado e sem redução de escopo; estrutura e revisão
 estrutural no modelo mecânico, conteúdo e revisões médicas no portão
-principal — o detalhe de quem verificou o quê está no ledger da fase.
-Checklist do autor: itens L1–L8.
+principal: o detalhe de quem verificou o quê está no ledger da fase.
+Checklist do autor: itens L1, L8.
 
-## Adendo — Fase 14 (exame psíquico)
+## Adendo: Fase 14 (exame psíquico)
 
 A fase criou o décimo primeiro sistema, "Exame psíquico" (ordem 11,
-ícone message-circle, cor #BDBD05 — a primeira escolhida com piso de
+ícone message-circle, cor #BDBD05: a primeira escolhida com piso de
 legibilidade do glifo além da otimização de separação: 6,46 normal /
 3,57 daltonismo, 2,01:1 no tema claro), com um capítulo e quatro
 tópicos: fundamentos, funções psíquicas e seus distúrbios, escalas
 cognitivas à beira do leito, e delirium, demência e depressão. Três
-ilustrações (mapa das funções, ilusão–alucinação–alucinose, teste do
+ilustrações (mapa das funções, ilusão-alucinação-alucinose, teste do
 relógio normal × anormal com prova trigonométrica), 24 questões,
 4 checklists. As dívidas nomeadas do capítulo neurológico foram pagas
-nos dois sentidos — miniexame com os pontos de corte por escolaridade
+nos dois sentidos: miniexame com os pontos de corte por escolaridade
 exatamente como Porto os dá (preservando a divergência interna da
 própria obra: 14 × 20 para analfabetos), escalas de sedação nomeadas
 com silêncio declarado, reflexos primitivos com a interpretação
-cognitiva de McGee (preensão RV+ 19,1) — e sete frases desatualizadas
+cognitiva de McGee (preensão RV+ 19,1), e sete frases desatualizadas
 em três tópicos do neurológico foram costuradas para apontar os
 destinos reais. Conteúdo `revisao: pendente`.
 
@@ -668,9 +668,9 @@ McGee entrou célula a célula (relógio RV 5,3; Mini-Cog 4,5/0,1; MEEM
 corrente re-derivado por dois revisores independentes.
 
 Registro de processo: as revisões derrubaram, nas três tasks de
-conteúdo, a mesma classe de erro — atribuição às fontes de sínteses do
+conteúdo, a mesma classe de erro: atribuição às fontes de sínteses do
 guia (mapa das funções, precipitantes "nominalmente no quadro", tabela
-que jurava não inventar linhas) — todas corrigidas com fusão declarada;
+que jurava não inventar linhas): todas corrigidas com fusão declarada;
 em sentido contrário, implementadoras derrubaram dois achados de
 revisor com evidência literal ("dificilmente" da SC; posição do
 cap. 133), ambos retirados com crédito. A revisão estrutural da T1
@@ -681,51 +681,51 @@ abortos por limite de gasto, ambos retomados sem perda de estado.
 
 Gates finais: build 11 sistemas/52 tópicos/3 casos, jest 41/321, tsc,
 contraste AA, n-grama zerado em N=10 E N=9 nos quatro tópicos novos e
-nos três arquivos costurados. Checklist do autor: itens N1–N8.
+nos três arquivos costurados. Checklist do autor: itens N1, N8.
 
-## Adendo — Fase 15 (semiologia da criança) e o fechamento do conteúdo
+## Adendo: Fase 15 (semiologia da criança) e o fechamento do conteúdo
 
 A fase criou o décimo segundo e último sistema, "Semiologia da criança"
 (ordem 12, ícone baby, cor #C1012E por Pareto com piso de legibilidade),
 com um capítulo e três tópicos: abordagem e anamnese, crescimento/sinais
 vitais/hidratação, e do recém-nascido ao adolescente. Duas ilustrações
 (curva de crescimento esquemática; linha do tempo da puberdade), 18
-questões, 3 checklists. O escopo foi deliberadamente honesto —
-particularidades do exame, não puericultura — e o coração da fase foi a
+questões, 3 checklists. O escopo foi deliberadamente honesto: 
+particularidades do exame, não puericultura, e o coração da fase foi a
 AUDITORIA DE ADIAMENTOS: os oito adiamentos nominais que as fases
 anteriores apontaram para "a fase da criança" foram formalmente
-auditados (seis pagos, dois re-escopados com motivo declarado — as
+auditados (seis pagos, dois re-escopados com motivo declarado: as
 quatro obras não descrevem o exame motor neonatal especializado nem a
 marcha da criança pequena) e DOZE costuras reversas atualizaram as
 frases de origem em nove arquivos. O item C4 do checklist foi pago por
 referência: as frequências pediátricas do caso de febre ganharam âncora
 dupla sem que o caso fosse tocado. Tanner entrou como sistema de
-notação com âncoras textuais (as obras só dão pranchas — dito ao
+notação com âncoras textuais (as obras só dão pranchas: dito ao
 leitor); Ortolani/Barlow como obrigação com técnica em moldura.
 Conteúdo `revisao: pendente`.
 
 Registro de processo: a primeira execução da T2 foi interrompida antes
 da rodada de originalidade e o rascunho reprovou (14 runs literais);
 a re-execução tratou o rascunho como matéria-prima não confiável e,
-re-verificando alegação a alegação, corrigiu cinco — e a revisão ainda
+re-verificando alegação a alegação, corrigiu cinco, e a revisão ainda
 achou a sexta (o Quadro 14.5 de PA pediátrica que a alegação de
 omissão ignorava). Na T1, a revisora contestou os números da cor,
 recebeu o vetor de teste da linhagem (os pixels da colisão 0,000),
 encontrou o bug no próprio pipeline (float sem quantização 8-bit) e
-retratou os achados — cinco implementações independentes convergem no
+retratou os achados: cinco implementações independentes convergem no
 método da casa. A revisão final varreu TODAS as promessas remanescentes
 do guia completo, com veredito individual: restam apenas fronteiras
 legítimas com motivo e dois itens cosméticos (checklist O).
 
 Gates finais do guia completo: build 12 sistemas/55 tópicos/3 casos,
 jest 41/321, tsc, contraste AA, n-grama zerado em N=10 E N=9 em todos
-os tópicos novos e costurados. Checklist do autor: itens O1–O8.
+os tópicos novos e costurados. Checklist do autor: itens O1, O8.
 
 ### O conteúdo está completo
 
-Com o fechamento desta fase, o roteiro de conteúdo (Fases 5–15) está
+Com o fechamento desta fase, o roteiro de conteúdo (Fases 5 a 15) está
 integralmente executado: 12 sistemas, 55 tópicos, 3 casos clínicos,
-327 questões, 53 checklists OSCE, 52 ilustrações — todos os tópicos
+327 questões, 53 checklists OSCE, 52 ilustrações: todos os tópicos
 em `revisao: pendente`, aguardando a passada única de revisão médica
-do autor, como combinado. Os itens A–O deste checklist e o documento
+do autor, como combinado. Os itens A-O deste checklist e o documento
 de inconsistências são o mapa dessa revisão.

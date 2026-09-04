@@ -95,8 +95,8 @@ interface SecaoTopico {
 
 // Leitura por seções (spec Fase 8 §3.1): particiona os blocos do tópico nos
 // pontos marcados por `tipo: 'secao'`, cada um virando o título da seção
-// seguinte. Blocos soltos antes da 1ª seção — caso da vinheta `cena`, que
-// abre todo tópico desde a camada didática de 2026-09 — pertencem
+// seguinte. Blocos soltos antes da 1ª seção: caso da vinheta `cena`, que
+// abre todo tópico desde a camada didática de 2026-09: pertencem
 // editorialmente à primeira seção e são prefixados nela, preservando a
 // contagem de seções; um tópico sem nenhuma `secao` ainda ganha a seção
 // implícita "Início" em vez de perder blocos.
@@ -140,17 +140,17 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
   const totalSecoes = secoes.length;
   const acentoSistema = sistema?.cor;
 
-  // Deep-link ou troca de tópico sempre abre na 1ª seção (spec §3.1) — o
+  // Deep-link ou troca de tópico sempre abre na 1ª seção (spec §3.1): o
   // estado da seção ativa é local, não persiste entre visitas.
   useEffect(() => {
     setSecaoAtiva(0);
   }, [topicoId]);
 
   // Revisão de fase P1 (central): volta o scroll ao topo a cada troca de
-  // seção — sem isso, quem lia até o fim de uma seção longa e tocava
+  // seção, sem isso, quem lia até o fim de uma seção longa e tocava
   // "Próxima seção" caía no FIM da seção seguinte (quiz/checklist antes do
   // título), medido empiricamente pelo revisor (scrollTop 2453 → 2458 num
-  // tap). Instantâneo com movimento reduzido — `null` (ainda não resolvido)
+  // tap). Instantâneo com movimento reduzido: `null` (ainda não resolvido)
   // conta como reduzido, mesma regra de EntradaAnimada/SumarioSecoes.
   useEffect(() => {
     scrollRef.current?.scrollTo({ y: 0, animated: reduzidoMovimento === false });
@@ -190,7 +190,7 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
   }, [progresso, topicoId]);
 
   // "Continuar de onde parou" (spec §3.3): grava o último tópico aberto numa
-  // preferência genérica — mesmo mecanismo de `tema`/`fonte` no Perfil, sem
+  // preferência genérica: mesmo mecanismo de `tema`/`fonte` no Perfil, sem
   // migração de store nem de firestore.rules (chave e valor já cabem no
   // formato existente de `prefs`). Só grava quando o tópico existe de fato.
   useEffect(() => {
@@ -200,7 +200,7 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
     // Blindagem (revisão de fase A6): `prefs.valor` tem teto de 100
     // caracteres no firestore.rules; o `topicoId` mais longo hoje tem 71,
     // mas gravar algo acima do teto faria o Firestore rejeitar o
-    // documento (e potencialmente o lote inteiro de sync) — pula a
+    // documento (e potencialmente o lote inteiro de sync): pula a
     // gravação em vez de arriscar isso por um id futuro grande demais.
     if (topicoId.length > 100) return;
     progresso
@@ -223,12 +223,12 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
 
   const capitulo = sistema?.capitulos.find((c) => c.id === topicoAtual.capituloId);
 
-  // Byline editorial: nome curto da obra de cada referência ("Porto — Exame
-  // Clínico, …" → "Porto"), deduplicado e limitado a 3 fontes — é uma
+  // Byline editorial: nome curto da obra de cada referência ("Porto, Exame
+  // Clínico, …" → "Porto"), deduplicado e limitado a 3 fontes: é uma
   // assinatura, não a bibliografia (as referências completas continuam na
   // seção "Referências" ao fim).
   const byline = Array.from(
-    new Set(topicoAtual.referencias.map((r) => r.split(' — ')[0].split(',')[0].trim()).filter(Boolean)),
+    new Set(topicoAtual.referencias.map((r) => r.split(': ')[0].split(',')[0].trim()).filter(Boolean)),
   )
     .slice(0, 3)
     .join(' · ');
@@ -244,7 +244,7 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
   }
 
   // Semeadura da revisão espaçada ao marcar o tópico como estudado:
-  // fire-and-forget (não bloqueia a UI) com falha silenciosa — se o store
+  // fire-and-forget (não bloqueia a UI) com falha silenciosa, se o store
   // falhar, o pior caso é o tópico não ter itens na fila de revisão ainda,
   // não uma tela quebrada.
   async function semearRevisao(topicoAtual: Topico) {
@@ -378,7 +378,7 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
           um tópico hipotético sem nenhuma `secao` continua mostrando-as em
           vez de sumirem por estarem presas à condição `totalSecoes > 0`.
           Com seções normais, o gate `naUltimaSecao || totalSecoes === 0`
-          preserva o comportamento original — só na última seção. */}
+          preserva o comportamento original, só na última seção. */}
       {naUltimaSecao || totalSecoes === 0 ? (
         <View style={{ marginTop: espaco.xl, paddingTop: espaco.l, borderTopWidth: 1, borderTopColor: paleta.linha }}>
           <Rotulo texto="Referências" style={{ marginBottom: espaco.xs }} />

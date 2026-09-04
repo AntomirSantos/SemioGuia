@@ -1,7 +1,7 @@
 // Traduz os códigos de erro do Firebase Auth (`FirebaseError.code`, sempre no
 // formato "auth/algo") para mensagens pt-BR apresentáveis ao usuário. Códigos
 // não mapeados (ou string vazia, ex.: erro sem `.code`) caem no fallback
-// genérico — nunca expomos o texto técnico do SDK na UI.
+// genérico, nunca expomos o texto técnico do SDK na UI.
 const MENSAGENS: Record<string, string> = {
   'auth/email-already-in-use': 'Este e-mail já está cadastrado.',
   'auth/weak-password': 'A senha precisa ter pelo menos 6 caracteres.',

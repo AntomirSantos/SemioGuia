@@ -8,13 +8,13 @@ const MD_EXEMPLO = `# Checklist
 
 ## A. Divergências entre as referências (o app escolheu um lado)
 
-- [ ] **A1 · Ictus do longilíneo** — 6º × 5º EIC.
+- [ ] **A1 · Ictus do longilíneo**: 6º × 5º EIC.
   Continuação indentada do item.
-- [x] **A2 · Item já resolvido** — texto.
+- [x] **A2 · Item já resolvido**: texto.
 
 ## L. Itens da Fase 13 (mamas e geniturinário)
 
-- [ ] **L6 · Paráfrases herdadas** — reescrever como prosa própria.
+- [ ] **L6 · Paráfrases herdadas**: reescrever como prosa própria.
 `;
 
 test('parsearChecklist extrai id, título, estado e seção', () => {
@@ -32,7 +32,7 @@ test('parsearChecklist extrai id, título, estado e seção', () => {
 test('parsearChecklist lê o checklist real inteiro sem perder itens', () => {
   const md = readFileSync(join(__dirname, '..', 'docs/inconsistencias-para-revisao.md'), 'utf8');
   const itens = parsearChecklist(md);
-  expect(itens.length).toBeGreaterThan(80); // seções A–O acumulam dezenas de itens
+  expect(itens.length).toBeGreaterThan(80); // seções A-O acumulam dezenas de itens
   expect(itens.some((i) => i.id === 'L6')).toBe(true);
   expect(itens.some((i) => i.id === 'O8')).toBe(true);
 });

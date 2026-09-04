@@ -1,11 +1,11 @@
-# SemioGuia Fase 9 — Cabeça e pescoço: Design
+# SemioGuia Fase 9, Cabeça e pescoço: Design
 
 Data: 23/08/2026 · Autor do produto: Antomir Santos · Status: aprovado em chat
 
 ## 1. Objetivo
 
 Sistema novo **Cabeça e pescoço** com o capítulo "Exame de cabeça e
-pescoço" (4 tópicos), no padrão editorial consolidado das Fases 5–7 e já
+pescoço" (4 tópicos), no padrão editorial consolidado das Fases 5 a 7 e já
 na leitura por seções da Fase 8. Sem casos novos. Elo entre a avaliação
 geral e os exames por sistema.
 
@@ -25,7 +25,7 @@ geral e os exames por sistema.
 ```yaml
 - anamnese                    # ordem 1 (inalterado)
 - exame-fisico-geral          # ordem 2 (inalterado)
-- id: cabeca-e-pescoco        # NOVO — ordem 3, cor "#C46B8F", icone scan-face
+- id: cabeca-e-pescoco        # NOVO, ordem 3, cor "#C46B8F", icone scan-face
   titulo: Cabeça e pescoço
   capitulos:
     - id: exame-de-cabeca-e-pescoco   # "Exame de cabeça e pescoço", ordem 1
@@ -37,18 +37,18 @@ geral e os exames por sistema.
 (Ícone: `scan-face` → `ScanFace` do lucide; T1 verifica o export exato e,
 se ausente, escolhe equivalente e registra.)
 
-### Cabeça e pescoço · Exame de cabeça e pescoço (ordem 1–4)
+### Cabeça e pescoço · Exame de cabeça e pescoço (ordem 1 a 4)
 
-1. `cranio-e-face` — inspeção e palpação do crânio (forma, pontos
+1. `cranio-e-face`: inspeção e palpação do crânio (forma, pontos
    dolorosos, couro cabeludo como moldura); face: simetria e mímica
-   (paralisia facial central × periférica como achado — o exame dos
+   (paralisia facial central × periférica como achado: o exame dos
    pares cranianos completo fica para o capítulo neurológico, dizer
    isso), pontos sinusais e seios da face, articulação
    temporomandibular (palpação, crepitação, abertura). Referência
    cruzada: fácies típicas → ectoscopia (não reensinar). Avançado:
    sinais na face de doenças sistêmicas não cobertas pelas fácies,
    ATM detalhada.
-2. `olhos` — inspeção externa (pálpebras: ptose, edema — cruzada ao
+2. `olhos` (inspeção externa (pálpebras: ptose, edema) cruzada ao
    edema; conjuntivas e escleras: cruzada a palidez/icterícia da
    avaliação geral, aqui só a semiotécnica ocular específica), pupilas
    (fotomotor direto e consensual, acomodação; anisocoria como alarme),
@@ -57,34 +57,34 @@ se ausente, escolhe equivalente e registra.)
    olho como moldura nomeada (não ensinado). Avançado: Horner como
    síndrome-alarme (com a ressalva de que a cadeia simpática vem no
    neuro), LRs de McGee para achados oculares onde houver.
-3. `boca-nariz-e-ouvidos` — cavidade oral (lábios, mucosa — cruzada às
-   mucosas da avaliação geral —, dentes e gengivas, língua e suas
+3. `boca-nariz-e-ouvidos` (cavidade oral (lábios, mucosa) cruzada às
+   mucosas da avaliação geral: dentes e gengivas, língua e suas
    alterações principais, assoalho), orofaringe com abaixador (técnica,
    amígdalas e graduação se ancorada, palato); nariz (inspeção externa,
    vestíbulo e septo à rinoscopia anterior como moldura); ouvidos
    (inspeção do pavilhão, palpação do tragus e da mastoide, otoscopia
    como moldura nomeada; teste do sussurro se ancorado em McGee).
    Avançado: lesões orais de alarme, halitose como dado.
-4. `tireoide-e-pescoco` — contorno e simetria do pescoço; tireoide:
+4. `tireoide-e-pescoco`, contorno e simetria do pescoço; tireoide:
    inspeção com deglutição, palpação (abordagens anterior e posterior,
    reparos: cartilagens, istmo, lobos), o que descrever (volume,
    consistência, nódulos, mobilidade à deglutição, dor), ausculta de
    sopro; bócio e a correlação com o estado funcional (achados de
    hiper/hipo como referência cruzada a FC/pele/fácies). Linfonodos
    cervicais e jugulares/carótidas: referência cruzada aos tópicos que
-   já os ensinam (linfonodos; pulso venoso jugular) — aqui só o mapa de
+   já os ensinam (linfonodos; pulso venoso jugular): aqui só o mapa de
    vizinhança. Rigidez de nuca: moldura nomeada (neuro futuro).
    Avançado: LRs de McGee para bócio/nódulo, manobra de Pemberton se
    ancorada.
 
 ## 4. Padrão editorial
 
-O consolidado (Fases 5–8): seções "O essencial" → técnica com
+O consolidado (Fases 5 a 8): seções "O essencial" → técnica com
 `manobra`+`checklist` → temáticas → "Armadilhas" → "Teste rápido";
-1 checklist/tópico executável do nível básico; quiz 4–6 com explicacao,
+1 checklist/tópico executável do nível básico; quiz 4 a 6 com explicacao,
 gabarito balanceado no capítulo (nenhum índice >~8/24), distratores
 plausíveis, sem referências posicionais, resposta-mais-longa perto do
-acaso; 3–6 avançados; ≥2 ilustrações no capítulo (candidatas: pontos
+acaso; 3 a 6 avançados; ≥2 ilustrações no capítulo (candidatas: pontos
 sinusais e ATM; reparos da palpação da tireoide; pupilas
 fotomotor/consensual), SVG padrão da casa renderizado e inspecionado nos
 dois temas; tags generosas; bloco "Onde este tópico encontra os outros";
@@ -102,7 +102,7 @@ explicitamente adiados ao capítulo neurológico.
 
 `sistemas.yaml` (+ sistema, reordenação 3→4→5→6), `src/design/icones.ts`
 (+1 ícone), `content.json` regenerado, ajuste só de testes de
-contagem/ordem (o teste do ContentContext fixa `sistemas[0]` = Anamnese —
+contagem/ordem (o teste do ContentContext fixa `sistemas[0]` = Anamnese: 
 inalterado; conferir os que fixam contagens).
 
 ## 6. Erros e testes

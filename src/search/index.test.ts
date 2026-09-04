@@ -10,7 +10,7 @@ const dados = {
       topicos: [{
         id: 'abdome/vesicula/colecistite', titulo: 'Colecistite aguda',
         sistemaId: 'abdome', capituloId: 'vesicula', ordem: 1,
-        tags: ['Sinal de Murphy'], referencias: ['Porto — Semiologia Médica, 8ª ed.'],
+        tags: ['Sinal de Murphy'], referencias: ['Porto, Semiologia Médica, 8ª ed.'],
         revisao: 'pendente',
         blocos: [{ tipo: 'conceito', texto: 'Inflamação aguda da vesícula biliar.' }],
       }],

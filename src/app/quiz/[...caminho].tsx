@@ -73,7 +73,7 @@ function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: Qui
   const [indice, setIndice] = useState(0);
   const [mostrarResultado, setMostrarResultado] = useState(false);
 
-  // Instrumentação do beta (§4): um evento por sessão de quiz concluída —
+  // Instrumentação do beta (§4): um evento por sessão de quiz concluída, 
   // a ref evita duplicar em re-renders; "Repetir" zera e permite novo evento.
   const quizRegistradoRef = useRef(false);
   const inicioQuizRef = useRef(Date.now());
@@ -144,7 +144,7 @@ function SessaoAtiva({ topicoId, perguntas }: { topicoId: string; perguntas: Qui
         // Fire-and-forget: não bloqueia a UI do quiz.
       } finally {
         // Spec §3.2, 4º gatilho: notifica após a escrita de progresso, com
-        // debounce (nunca aguardado aqui — notificarEscrita é fire-and-forget).
+        // debounce (nunca aguardado aqui: notificarEscrita é fire-and-forget).
         notificarEscrita();
       }
     })();

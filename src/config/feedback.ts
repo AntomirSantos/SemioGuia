@@ -1,5 +1,5 @@
 // Endpoint do feedback in-app (beta §9.5): um Google Forms preenchido por
-// URL. COMMITADO com `null` — o autor cria o formulário (três campos:
+// URL. COMMITADO com `null`, o autor cria o formulário (três campos:
 // categoria, texto, contexto), copia a URL `viewform` e os ids `entry.N`
 // de cada campo e preenche este objeto. Enquanto for `null`, o feedback
 // fica registrado apenas como evento local `feedback_enviado` (que já sai

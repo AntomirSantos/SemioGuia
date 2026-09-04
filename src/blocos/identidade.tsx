@@ -5,7 +5,7 @@ import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, tipo } from '../design/tokens';
 
 // Sinaliza que o conteúdo está dentro do wrapper "Aprofundar" (Avancado.tsx),
-// cujo próprio cabeçalho já mostra "Aprofundar · <rótulo>" — revisão de fase
+// cujo próprio cabeçalho já mostra "Aprofundar · <rótulo>": revisão de fase
 // P3b: sem isso, um bloco avançado (ex.: Conceito) duplicava a identidade
 // ("Aprofundar · Conceito" seguido de "Conceito" de novo, dentro).
 const DentroDeAprofundarContext = createContext(false);

@@ -22,7 +22,7 @@ test('RV numérica sem tradução no parágrafo é flagrada', () => {
 
 test('RV com tradução interpretativa passa', () => {
   const raiz = criarConteudo(
-    '::: conceito\ntexto: |\n  Razão de verossimilhança 4,5 — a probabilidade sobe de forma moderada.\n:::\n',
+    '::: conceito\ntexto: |\n  Razão de verossimilhança 4,5; a probabilidade sobe de forma moderada.\n:::\n',
   );
   expect(checarRVs(raiz)).toHaveLength(0);
 });

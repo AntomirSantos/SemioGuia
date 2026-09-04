@@ -7,7 +7,7 @@ import { TextoRico } from './texto';
 type PerolaBloco = Extract<Bloco, { tipo: 'perola' }>;
 
 // Pull-quote editorial (identidade R2): a pérola clínica é a citação em
-// destaque da página — barra vinho de 3px à esquerda + Libre Bodoni itálico,
+// destaque da página: barra vinho de 3px à esquerda + Libre Bodoni itálico,
 // direto no papel (sem cartão, sem sombra, sem fundo). `perolaBorda` é a
 // barra (vinho), `perolaTexto` a tinta.
 export function Perola({ bloco }: { bloco: PerolaBloco }) {

@@ -8,16 +8,16 @@ export interface ResumoSecao {
   titulo: string;
 }
 
-// Colchão (px) para considerar a chip "visível o bastante" — evita recentrar
+// Colchão (px) para considerar a chip "visível o bastante": evita recentrar
 // por causa de 1-2px colados na borda.
 const MARGEM_VISIVEL = espaco.s;
 
 // Sumário horizontal fixo sob o título do tópico (spec Fase 8 §3.1): uma
-// chip por seção, papel de aba (`tab`) com `selected` no estado ativo —
+// chip por seção, papel de aba (`tab`) com `selected` no estado ativo: 
 // leitores de tela anunciam "aba, selecionada" ao focar a seção corrente.
 // Identidade editorial R2: a chip ativa é um bloco de TINTA sólida com
 // texto de papel (a linguagem dos chips editoriais); a cor do sistema não
-// tinge texto nem fundo de chip — ela vive só na barra de cor e em
+// tinge texto nem fundo de chip, ela vive só na barra de cor e em
 // elementos decorativos (contraste garantido pelo par tinta/fundo do gate).
 export function SumarioSecoes({
   secoes,
@@ -39,7 +39,7 @@ export function SumarioSecoes({
 
   // T1 review (P1): rola a chip ativa para dentro da área visível quando a
   // troca vem de "Anterior/Próxima seção" (chip pode estar fora da tela).
-  // Fica passivo — não mexe no scroll — quando a chip já está visível, o
+  // Fica passivo, não mexe no scroll, quando a chip já está visível, o
   // que cobre automaticamente o toque direto numa chip (só dá para tocar no
   // que já está visível). Instantâneo com movimento reduzido.
   useEffect(() => {
@@ -51,7 +51,7 @@ export function SumarioSecoes({
     if (jaVisivel) return;
     const alvo = Math.max(0, layout.x - larguraVisivel / 2 + layout.width / 2);
     // `reduzido` é `boolean | null` (spec A7): só anima quando já sabemos
-    // que NÃO foi pedido movimento reduzido — `null` (ainda resolvendo) e
+    // que NÃO foi pedido movimento reduzido: `null` (ainda resolvendo) e
     // `true` caem no mesmo lado seguro, instantâneo.
     scrollRef.current?.scrollTo({ x: alvo, animated: reduzido === false });
   }, [ativa, larguraVisivel, reduzido]);

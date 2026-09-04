@@ -23,7 +23,7 @@ function encontrarQuiz(topico: Topico) {
 
 // Card "Revisão de hoje" no topo da aba: soma perguntas/estações vencidas da
 // fila de revisão espaçada (Tasks 1-4). Fila vazia vira um estado informativo
-// sem navegação — nada para tocar quando não há nada para revisar.
+// sem navegação: nada para tocar quando não há nada para revisar.
 function CardRevisao({ fila }: { fila: FilaDeHoje | undefined }) {
   const { paleta, escala } = useTema();
   if (!fila) return null;

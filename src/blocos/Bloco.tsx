@@ -88,7 +88,7 @@ export function BlocoView({
 
   // Exceção deliberada: uma 'secao' com nivel 'avancado' ainda renderiza como
   // Secao simples. Seção é um cabeçalho divisório do tópico, não um conteúdo
-  // que faça sentido esconder atrás de um "Aprofundar" — o schema não proíbe
+  // que faça sentido esconder atrás de um "Aprofundar": o schema não proíbe
   // a combinação, mas colapsar um título de compartimento confundiria mais
   // do que ajudaria.
   if (bloco.nivel === 'avancado' && bloco.tipo !== 'secao') {

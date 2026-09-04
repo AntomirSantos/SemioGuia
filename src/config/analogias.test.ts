@@ -1,7 +1,7 @@
 import { IMAGENS_DO_GUIA } from './analogias';
 import conteudo from '../../assets/generated/content.json';
 
-// O glossário é curadoria manual — este teste garante que ele não aponte
+// O glossário é curadoria manual: este teste garante que ele não aponte
 // para tópicos que não existem (ou que mudaram de id) no conteúdo compilado.
 test('toda imagem do guia aponta para um tópico existente', () => {
   const ids = new Set<string>();

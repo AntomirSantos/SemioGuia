@@ -50,7 +50,7 @@ function BotaoEstacao({
   );
 }
 
-// Estação OSCE: recordação ativa de um checklist. Componente controlado — não
+// Estação OSCE: recordação ativa de um checklist. Componente controlado: não
 // toca no store de progresso/revisão; quem o embute (rota /estacao ou, na
 // Task 5, a sessão de revisão) decide o que fazer com o `ResultadoEstacao`.
 export function EstacaoOsce({
@@ -70,7 +70,7 @@ export function EstacaoOsce({
   const inicioRef = useRef(Date.now());
 
   // "Refazer estação" (beta §9.3): zera a sessão; concluir de novo chama
-  // `aoConcluir` outra vez — para o SM-2 isso é uma nova avaliação, o
+  // `aoConcluir` outra vez, para o SM-2 isso é uma nova avaliação, o
   // comportamento desejado.
   function refazer() {
     setIndice(0);

@@ -1,7 +1,7 @@
 import { PAYWALL_ATIVO, SISTEMAS_GRATUITOS } from '../config/paywall';
 
 // Entitlements locais (beta §9.10): quem pode abrir o quê. Nenhuma
-// integração de pagamento — `liberados` é uma lista local (cortesias do
+// integração de pagamento: `liberados` é uma lista local (cortesias do
 // beta, compras futuras) que hoje ninguém preenche.
 
 export type Entitlement = 'gratuito' | 'premium';

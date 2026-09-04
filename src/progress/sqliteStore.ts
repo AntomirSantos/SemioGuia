@@ -43,7 +43,7 @@ const VERSAO_ESQUEMA = '4';
 /**
  * Adaptador de ProgressStore sobre expo-sqlite (SQLite nativo).
  * Não exercitado pelo Jest (o runtime nativo do expo-sqlite não existe
- * fora do app) — importa o módulo nativo apenas na primeira construção,
+ * fora do app): importa o módulo nativo apenas na primeira construção,
  * de forma que meramente importar este arquivo em testes não quebra.
  */
 export class SqliteProgressStore implements ProgressStore {
@@ -61,11 +61,11 @@ export class SqliteProgressStore implements ProgressStore {
   }
 
   private migrar(): void {
-    this.db.execSync(ESQUEMA_V1); // idempotente (IF NOT EXISTS) — banco v1 abre e evolui sem perder dados
+    this.db.execSync(ESQUEMA_V1); // idempotente (IF NOT EXISTS): banco v1 abre e evolui sem perder dados
     this.db.execSync(ESQUEMA_V2);
     this.db.execSync(ESQUEMA_V3);
     // ESQUEMA_V4: carimbos de sincronização. ADD COLUMN não tem IF NOT EXISTS,
-    // por isso checamos via PRAGMA antes de alterar — idempotente em bancos
+    // por isso checamos via PRAGMA antes de alterar: idempotente em bancos
     // v1/v2/v3 que já rodaram esta migração. DEFAULT 1 (não 0): firestore.rules'
     // carimboMs exige atualizadoEm > 0; 1 continua sendo "mais antigo possível"
     // para o LWW frente a qualquer Date.now() real.

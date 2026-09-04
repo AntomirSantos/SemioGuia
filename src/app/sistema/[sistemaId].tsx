@@ -13,7 +13,7 @@ import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import type { Capitulo, Topico } from '../../content/schema';
 
 // Indicador de estudado por tópico (spec Fase 8 §3.3): checkmark visual, não
-// só texto — reaproveita o par `ok`/`okFundo` já usado em quiz/estação/caso
+// só texto: reaproveita o par `ok`/`okFundo` já usado em quiz/estação/caso
 // para "correto"/"lembrei", mesmo significado semântico aqui ("estudado").
 // Puramente decorativo (o estado real está no `accessibilityLabel` do
 // próprio botão da linha), então não precisa de role próprio.

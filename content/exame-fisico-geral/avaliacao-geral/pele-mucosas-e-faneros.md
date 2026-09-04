@@ -92,20 +92,20 @@ tags:
   - elasticidade da pele
   - estação OSCE
 referencias:
-  - "Porto — Semiologia Médica, 8ª ed., Parte 6 (Sistema Tegumentar), cap. 12 (Exame Clínico) — Pele: coloração (palidez, vermelhidão, cianose, icterícia, albinismo, bronzeamento, dermatografismo, fenômeno de Raynaud), continuidade, umidade, textura, espessura, temperatura, elasticidade e mobilidade, turgor, sensibilidade; Lesões elementares e sua classificação em seis grupos; manchas vasculares e hemorrágicas — petéquias, víbices e equimoses (Figuras 12.10 e 12.11); Mucosas: coloração, descoramento em cruzes, umidade; Fâneros: cabelo, pelos e unhas (Figura 12.33 e Quadro 12.1)"
-  - "Porto — Semiologia Médica, 8ª ed., Parte 3 (Método Clínico), cap. 8 (Exame Físico Geral) — pele, mucosas e fâneros na sequência do exame físico geral; alterações do tegumento na desnutrição"
-  - "Porto — Exame Clínico, 8ª ed., cap. 11 (Exame da Pele, das Mucosas e dos Fâneros) — Mucosas: coloração, descoramento, icterícia e a coloração amarelada da esclerótica por deposição de gordura nas pessoas de pele pigmentada"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 10 (Anemia), p. 73-75 — palidez da rima conjuntival (Figura 10.1) e demais sítios de palidez, boxe EBM 10.1"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 8 (Jaundice), p. 59-63 — onde a icterícia é notada primeiro e por que scleral icterus é designação imprópria; gordura subconjuntival e carotenemia como imitadores; sensibilidade do exame conforme o nível de bilirrubina"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 29, Tabela 5.1 — concordância entre observadores para palidez do leito ungueal, palidez conjuntival pelo método da rima, icterícia e cianose"
-  - "Semiologia Clínica, 1ª ed., cap. 9 (O exame da pele e anexos) — condições do exame dermatológico, inspeção a distância e a curta distância, palpação, digitopressão e vitropressão, compressão; classificação das lesões elementares em seis grupos (Tabela 1); fototipo de Fitzpatrick; exame das unhas e regiões periungueais"
-  - "Semiologia Clínica, 1ª ed., cap. 45 (Icterícia) — onde pesquisar icterícia, esclera e mucosa oral, fotoescurecimento da esclera, betacarotenemia; nível de bilirrubina a partir do qual a icterícia é detectada; graduação em cruzes e seus estudos de correlação e concordância; zonas dérmicas e progressão craniocaudal na icterícia neonatal"
+  - "Porto, Semiologia Médica, 8ª ed., Parte 6 (Sistema Tegumentar), cap. 12 (Exame Clínico), Pele: coloração (palidez, vermelhidão, cianose, icterícia, albinismo, bronzeamento, dermatografismo, fenômeno de Raynaud), continuidade, umidade, textura, espessura, temperatura, elasticidade e mobilidade, turgor, sensibilidade; Lesões elementares e sua classificação em seis grupos; manchas vasculares e hemorrágicas, petéquias, víbices e equimoses (Figuras 12.10 e 12.11); Mucosas: coloração, descoramento em cruzes, umidade; Fâneros: cabelo, pelos e unhas (Figura 12.33 e Quadro 12.1)"
+  - "Porto, Semiologia Médica, 8ª ed., Parte 3 (Método Clínico), cap. 8 (Exame Físico Geral), pele, mucosas e fâneros na sequência do exame físico geral; alterações do tegumento na desnutrição"
+  - "Porto, Exame Clínico, 8ª ed., cap. 11 (Exame da Pele, das Mucosas e dos Fâneros), Mucosas: coloração, descoramento, icterícia e a coloração amarelada da esclerótica por deposição de gordura nas pessoas de pele pigmentada"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 10 (Anemia), p. 73-75, palidez da rima conjuntival (Figura 10.1) e demais sítios de palidez, boxe EBM 10.1"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 8 (Jaundice), p. 59-63, onde a icterícia é notada primeiro e por que scleral icterus é designação imprópria; gordura subconjuntival e carotenemia como imitadores; sensibilidade do exame conforme o nível de bilirrubina"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 29, Tabela 5.1, concordância entre observadores para palidez do leito ungueal, palidez conjuntival pelo método da rima, icterícia e cianose"
+  - "Semiologia Clínica, 1ª ed., cap. 9 (O exame da pele e anexos), condições do exame dermatológico, inspeção a distância e a curta distância, palpação, digitopressão e vitropressão, compressão; classificação das lesões elementares em seis grupos (Tabela 1); fototipo de Fitzpatrick; exame das unhas e regiões periungueais"
+  - "Semiologia Clínica, 1ª ed., cap. 45 (Icterícia), onde pesquisar icterícia, esclera e mucosa oral, fotoescurecimento da esclera, betacarotenemia; nível de bilirrubina a partir do qual a icterícia é detectada; graduação em cruzes e seus estudos de correlação e concordância; zonas dérmicas e progressão craniocaudal na icterícia neonatal"
 revisao: ok
 ---
 
 ::: cena
 texto: |
-  Pronto-socorro, criança febril no colo da mãe. Alguém já anotou "exantema" e seguiu adiante. Você pega uma lâmina de vidro, comprime uma das manchas vermelhas e prende a respiração: se a cor sumir, é um grupo de doenças; se não sumir, é outro — e a noite muda de rumo. O exame da pele é feito de gestos assim, baratos e decisivos.
+  Pronto-socorro, criança febril no colo da mãe. Alguém já anotou "exantema" e seguiu adiante. Você pega uma lâmina de vidro, comprime uma das manchas vermelhas e prende a respiração: se a cor sumir, é um grupo de doenças; se não sumir, é outro, e a noite muda de rumo. O exame da pele é feito de gestos assim, baratos e decisivos.
 :::
 
 ::: secao
@@ -125,7 +125,7 @@ texto: |
 
   Três condições básicas valem para tudo o que vem depois: **iluminação adequada**, de preferência natural; **desnudamento** da região examinada, uma de cada vez; e **comparação com o lado homólogo**, que é o que transforma uma impressão em achado.
 
-  Uma advertência abre o tópico porque atravessa todo ele: reconhecer alterações de coloração em pele escura é mais difícil, e alguns sítios deixam de servir. A saída não é abandonar o achado — é mudar de sítio, como se detalha adiante para a palidez e para a icterícia.
+  Uma advertência abre o tópico porque atravessa todo ele: reconhecer alterações de coloração em pele escura é mais difícil, e alguns sítios deixam de servir. A saída não é abandonar o achado: é mudar de sítio, como se detalha adiante para a palidez e para a icterícia.
 :::
 
 ::: secao
@@ -135,19 +135,19 @@ titulo: Como examinar
 ::: manobra
 titulo: Exame da pele, das mucosas e dos fâneros
 passos:
-  - "Registre, na identificação, a cor da pele do paciente — é a referência contra a qual toda alteração de coloração será lida."
+  - "Registre, na identificação, a cor da pele do paciente: é a referência contra a qual toda alteração de coloração será lida."
   - "Inspecione primeiro a 1 a 2 metros de distância, para captar a distribuição e a simetria das lesões, e só depois a 20 a 30 centímetros, para a morfologia de cada uma."
   - "Use luz natural ou fluorescente incidindo por trás do examinador; recorra a lupa quando a lesão for pequena."
   - "Palpe com as polpas digitais deslizando sobre a superfície: umidade, textura, espessura (pinçando só epiderme e derme) e consistência das lesões."
   - "Avalie a temperatura com o dorso das mãos, comparando sempre regiões homólogas."
   - "Pesquise elasticidade tracionando a prega cutânea e turgor pinçando uma prega que inclua o tecido subcutâneo."
-  - "Aplique a digitopressão ou a vitropressão sobre toda lesão avermelhada — é o gesto que separa eritema de mancha hemorrágica."
+  - "Aplique a digitopressão ou a vitropressão sobre toda lesão avermelhada: é o gesto que separa eritema de mancha hemorrágica."
   - "Examine as mucosas acessíveis: conjuntivas oculares, lábios, mucosa bucal, gengivas, língua, freio da língua e palato duro."
   - "Procure palidez e icterícia nos sítios de maior rendimento, e cianose nos lábios, na língua, nas orelhas e nas extremidades."
   - "Examine cabelos e pelos quanto a distribuição, quantidade, coloração, brilho e fragilidade, testando o destacamento à tração suave."
-  - "Examine as unhas das mãos e dos pés — forma, implantação, espessura, superfície, consistência, brilho e coloração — e as regiões periungueais."
+  - "Examine as unhas das mãos e dos pés (forma, implantação, espessura, superfície, consistência, brilho e coloração) e as regiões periungueais."
 observar: |
-  Examinar a pele exige despir, e despir exige cuidado. Exponha uma região por vez, feche a porta, pergunte antes de descobrir áreas íntimas e explique o motivo — "preciso olhar as pernas inteiras porque procuro pontos vermelhos que não somem quando aperto" é uma frase que transforma constrangimento em colaboração. Lesões em áreas cobertas são justamente as que passam despercebidas quando o exame se limita ao que já está à mostra.
+  Examinar a pele exige despir, e despir exige cuidado. Exponha uma região por vez, feche a porta, pergunte antes de descobrir áreas íntimas e explique o motivo: "preciso olhar as pernas inteiras porque procuro pontos vermelhos que não somem quando aperto" é uma frase que transforma constrangimento em colaboração. Lesões em áreas cobertas são justamente as que passam despercebidas quando o exame se limita ao que já está à mostra.
 :::
 
 ::: checklist
@@ -172,7 +172,7 @@ titulo: Lesões elementares
 ::: conceito
 titulo: Um vocabulário de seis grupos
 texto: |
-  As agressões que a pele sofre são muitas; as respostas de que ela dispõe são poucas. Daí a possibilidade de um vocabulário fechado — as **lesões elementares** —, que descreve qualquer dermatose com um número pequeno de palavras.
+  As agressões que a pele sofre são muitas; as respostas de que ela dispõe são poucas. Daí a possibilidade de um vocabulário fechado, as **lesões elementares**, que descreve qualquer dermatose com um número pequeno de palavras.
 
   A classificação clássica usa seis grupos:
 
@@ -183,7 +183,7 @@ texto: |
   5. alterações da espessura (queratose, esclerose, atrofia);
   6. perdas e reparações teciduais.
 
-  Duas regras de uso poupam erro. A primeira: **mácula se confirma com o dedo, não com o olho**. É preciso deslizar as polpas de três dedos — o indicador, o médio e o anular — pela área alterada e por suas vizinhanças, porque só assim se percebem elevações discretas e mudanças de superfície que a inspeção não pega. A segunda: **o tamanho separa nomes**, e a fronteira quase sempre é 1 cm — pápula e vesícula abaixo, tubérculo e bolha acima.
+  Duas regras de uso poupam erro. A primeira: **mácula se confirma com o dedo, não com o olho**. É preciso deslizar as polpas de três dedos (o indicador, o médio e o anular) pela área alterada e por suas vizinhanças, porque só assim se percebem elevações discretas e mudanças de superfície que a inspeção não pega. A segunda: **o tamanho separa nomes**, e a fronteira quase sempre é 1 cm, pápula e vesícula abaixo, tubérculo e bolha acima.
 :::
 
 ::: tabela
@@ -219,13 +219,13 @@ linhas:
     - "Pústula é a vesícula de conteúdo purulento; abscesso é a coleção purulenta mais profunda e flutuante, quente quando há sinais inflamatórios e fria quando não há"
   - - "Alterações da espessura"
     - "Queratose e liquenificação"
-    - "Queratose é o espessamento da camada córnea, duro e inelástico — o calo é o exemplo; liquenificação é o espessamento com acentuação das estrias, em quadriculado, típico de áreas coçadas"
+    - "Queratose é o espessamento da camada córnea, duro e inelástico: o calo é o exemplo; liquenificação é o espessamento com acentuação das estrias, em quadriculado, típico de áreas coçadas"
   - - "Alterações da espessura"
     - "Infiltração, esclerose e atrofia"
     - "Infiltração aumenta consistência e espessura mantendo a pele depressível; esclerose torna a pele firme, aderente aos planos profundos e difícil de pregueá-la entre os dedos; atrofia a adelgaça, deixando-a fina, lisa e translúcida"
   - - "Perdas e reparações"
     - "Escama e crosta"
-    - "Escama é a lâmina epidérmica seca que se desprende — furfurácea quando em farelo, laminar quando em tiras; crosta é o ressecamento de secreção serosa, sanguínea ou purulenta sobre área previamente lesada"
+    - "Escama é a lâmina epidérmica seca que se desprende: furfurácea quando em farelo, laminar quando em tiras; crosta é o ressecamento de secreção serosa, sanguínea ou purulenta sobre área previamente lesada"
   - - "Perdas e reparações"
     - "Erosão, ulceração e fissura"
     - "Erosão ou exulceração atinge apenas a epiderme e não deixa cicatriz; ulceração atinge a derme e deixa cicatriz; fissura ou rágade é a perda linear, comum no fundo de dobras e ao redor de orifícios naturais"
@@ -241,8 +241,8 @@ texto: |
 
   Comprima a lesão e observe o que acontece com a cor. A compressão pode ser feita com a polpa digital (**digitopressão**), com uma lâmina de vidro transparente, que permite ver enquanto se comprime (**vitropressão**), ou com um objeto pontiagudo em um ponto preciso (**puntipressão**).
 
-  - **A mancha desaparece** — a cor vinha de sangue circulante em vasos dilatados. É mancha vascular: eritema, telangiectasia, aranha vascular.
-  - **A mancha não desaparece** — o sangue já extravasou para o tecido, e comprimir não o desloca. É mancha hemorrágica.
+  - **A mancha desaparece**: a cor vinha de sangue circulante em vasos dilatados. É mancha vascular: eritema, telangiectasia, aranha vascular.
+  - **A mancha não desaparece**: o sangue já extravasou para o tecido, e comprimir não o desloca. É mancha hemorrágica.
 
   A puntipressão tem um uso elegante nas **aranhas vasculares**: comprimindo exatamente o ponto central, oclui-se a arteríola que alimenta os vasos radiados, e a lesão inteira empalidece de uma vez.
 
@@ -258,11 +258,11 @@ titulo: "Palidez: onde procurar"
 texto: |
   Palidez é a atenuação ou o desaparecimento da cor rósea que a rede capilar cutânea confere à pele. Duas distinções organizam o achado.
 
-  **Generalizada ou localizada.** A palidez generalizada traduz redução das hemácias circulantes na microcirculação cutânea, e chega ali por dois caminhos diferentes: **vasoconstrição** — emoções fortes, dor excruciante, náusea intensa, lipotimia, feocromocitoma, choque — ou **redução real de hemácias e hemoglobina**, que é a anemia. A palidez localizada ou segmentar tem a isquemia como causa principal, e é por isso que a comparação entre regiões homólogas é obrigatória: a obstrução de uma femoral se manifesta pela palidez de um membro *comparado ao outro*.
+  **Generalizada ou localizada.** A palidez generalizada traduz redução das hemácias circulantes na microcirculação cutânea, e chega ali por dois caminhos diferentes: **vasoconstrição** (emoções fortes, dor excruciante, náusea intensa, lipotimia, feocromocitoma, choque) ou **redução real de hemácias e hemoglobina**, que é a anemia. A palidez localizada ou segmentar tem a isquemia como causa principal, e é por isso que a comparação entre regiões homólogas é obrigatória: a obstrução de uma femoral se manifesta pela palidez de um membro *comparado ao outro*.
 
-  **Onde olhar.** A palidez deve ser pesquisada em toda a superfície cutânea, incluindo as regiões palmoplantares. Em pessoas pardas e negras, é nas palmas das mãos e nas plantas dos pés que ela se identifica — e nas mucosas, que independem da pigmentação da pele.
+  **Onde olhar.** A palidez deve ser pesquisada em toda a superfície cutânea, incluindo as regiões palmoplantares. Em pessoas pardas e negras, é nas palmas das mãos e nas plantas dos pés que ela se identifica, e nas mucosas, que independem da pigmentação da pele.
 
-  Nas mucosas, o achado se chama **descoramento**, e se gradua em cruzes: mucosas descoradas (+) indicam leve redução da cor normal e (++++), o desaparecimento completo do rosado, com as mucosas brancas como papel. É a escala de cruzes de Porto, a mesma tradição brasileira que gradua edema e sopros — e distinta da graduação de Levine, de 1 a 6, usada para sopros no capítulo do coração.
+  Nas mucosas, o achado se chama **descoramento**, e se gradua em cruzes: mucosas descoradas (+) indicam leve redução da cor normal e (++++), o desaparecimento completo do rosado, com as mucosas brancas como papel. É a escala de cruzes de Porto, a mesma tradição brasileira que gradua edema e sopros, e distinta da graduação de Levine, de 1 a 6, usada para sopros no capítulo do coração.
 
   Um limite honesto: mucosas descoradas indicam anemia, mas **os achados mucocutâneos não identificam de que anemia se trata**. Em todos os casos, o hemograma é indispensável.
 :::
@@ -294,11 +294,11 @@ linhas:
 ::: entendimento
 titulo: O método da rima conjuntival
 texto: |
-  A maioria dos examinadores avalia palidez por comparação subjetiva — com a própria pele, ou com a lembrança de como é uma pele normal. Existe, porém, uma definição objetiva, e ela é a que melhor se sai nos estudos.
+  A maioria dos examinadores avalia palidez por comparação subjetiva, com a própria pele, ou com a lembrança de como é uma pele normal. Existe, porém, uma definição objetiva, e ela é a que melhor se sai nos estudos.
 
-  Puxe delicadamente a pálpebra inferior e olhe a superfície interna. Em quem não tem anemia, aparecem **duas zonas de cor**: a borda anterior — a rima — é nitidamente avermelhada, pela rica vascularização, e contrasta com a porção mais próxima do globo, de cor mais pálida e carnosa, onde predomina o tecido linfoide. Diz-se que há **palidez da rima conjuntival** quando esse contraste desaparece e toda a superfície interna da pálpebra tem a mesma cor pálida.
+  Puxe delicadamente a pálpebra inferior e olhe a superfície interna. Em quem não tem anemia, aparecem **duas zonas de cor**: a borda anterior, a rima, é nitidamente avermelhada, pela rica vascularização, e contrasta com a porção mais próxima do globo, de cor mais pálida e carnosa, onde predomina o tecido linfoide. Diz-se que há **palidez da rima conjuntival** quando esse contraste desaparece e toda a superfície interna da pálpebra tem a mesma cor pálida.
 
-  Dois dados reforçam a preferência por esse sítio. A palidez da rima conjuntival é o achado que mais eleva a probabilidade de anemia, com razão de verossimilhança 16,7. E é também mais reprodutível: na Tabela 5.1 de McGee, a palidez conjuntival pelo método da rima alcança kappa de 0,54 a 0,75, enquanto a palidez do leito ungueal fica em 0,19 a 0,34 — coerente com o fato de o leito ungueal não ter mostrado valor diagnóstico.
+  Dois dados reforçam a preferência por esse sítio. A palidez da rima conjuntival é o achado que mais eleva a probabilidade de anemia, com razão de verossimilhança 16,7. E é também mais reprodutível: na Tabela 5.1 de McGee, a palidez conjuntival pelo método da rima alcança kappa de 0,54 a 0,75, enquanto a palidez do leito ungueal fica em 0,19 a 0,34: coerente com o fato de o leito ungueal não ter mostrado valor diagnóstico.
 
   E um contrapeso que fecha o raciocínio: **nenhum sinal físico afasta anemia com convicção**. Nenhuma razão de verossimilhança negativa desceu abaixo de 0,4. Mucosas coradas tranquilizam pouco; o hemograma continua necessário.
 :::
@@ -372,8 +372,8 @@ legenda: "Os mesmos três sítios servem a duas perguntas diferentes, mas por es
 :::
 
 ::: pense
-pergunta: Você suspeita de anemia. Qual é o sítio de maior rendimento para procurar palidez — e qual é o que não vale o seu tempo?
-resposta: A rima conjuntival — puxando a pálpebra inferior, o contraste entre a rima avermelhada e a porção mais pálida desaparece na anemia (RV 16,7, o maior de todos os sítios). O leito ungueal é o que não vale o tempo — sem valor diagnóstico e com a pior concordância entre examinadores.
+pergunta: Você suspeita de anemia. Qual é o sítio de maior rendimento para procurar palidez, e qual é o que não vale o seu tempo?
+resposta: A rima conjuntival, puxando a pálpebra inferior, o contraste entre a rima avermelhada e a porção mais pálida desaparece na anemia (RV 16,7, o maior de todos os sítios). O leito ungueal é o que não vale o tempo, sem valor diagnóstico e com a pior concordância entre examinadores.
 :::
 
 ::: secao
@@ -383,7 +383,7 @@ titulo: Icterícia
 ::: conceito
 titulo: "Icterícia: onde procurar"
 texto: |
-  Icterícia é a cor amarelada que o acúmulo de bilirrubina imprime à pele, às mucosas visíveis e à esclerótica. O pigmento se deposita preferencialmente onde há mais tecido conjuntivo e mais albumina — daí a ordem em que os sítios se tornam positivos.
+  Icterícia é a cor amarelada que o acúmulo de bilirrubina imprime à pele, às mucosas visíveis e à esclerótica. O pigmento se deposita preferencialmente onde há mais tecido conjuntivo e mais albumina, daí a ordem em que os sítios se tornam positivos.
 
   Pesquisa-se icterícia, em ordem de rendimento, na **esclera e na conjuntiva**, no **freio da língua** e no **palato duro**; depois nos lábios, nas regiões ungueais, nas mãos e na pele. As icterícias mais leves só são perceptíveis nos primeiros sítios. À medida que a bilirrubina sobe, a face, as mucosas e por fim a pele inteira adquirem tonalidade amarela ou alaranjada, que pode ir do amarelo-claro ao amarelo-esverdeado.
 
@@ -391,7 +391,7 @@ texto: |
 
   Dois cuidados evitam o falso-positivo em pessoas de pele pigmentada. As duas edições de Porto registram o mesmo achado, e vale citá-lo ao pé da letra: "Nas pessoas de pele pigmentada, a esclerótica costuma apresentar uma coloração amarelada, causada por deposição de gordura, que não deve ser confundida com icterícia" (Porto, *Exame Clínico*, 8ª ed., cap. 11; a *Semiologia Médica*, cap. 12, traz a mesma observação). Semiologia Clínica acrescenta o **fotoescurecimento da esclera** e oferece a solução prática: avaliar a região da esclera **sob a pálpebra inferior**, que não fica exposta à luz solar.
 
-  Vale separar esse achado de um imitador vizinho, mas distinto, descrito por McGee: a **gordura subconjuntival**, que se limita às dobras da conjuntiva e poupa a área próxima à córnea. São, a rigor, dois relatos de depósito de gordura em planos diferentes — o escleral, descrito por Porto, e o subconjuntival, descrito por McGee — embora o capítulo hepatobiliar do próprio Porto localize essa gordura na conjuntiva, o que sugere que os dois relatos possam descrever o mesmo depósito. De um jeito ou de outro, o cuidado prático é o mesmo: gordura amarelada poupa a vizinhança da córnea e não acompanha as demais mucosas; a icterícia, não.
+  Vale separar esse achado de um imitador vizinho, mas distinto, descrito por McGee: a **gordura subconjuntival**, que se limita às dobras da conjuntiva e poupa a área próxima à córnea. São, a rigor, dois relatos de depósito de gordura em planos diferentes (o escleral, descrito por Porto, e o subconjuntival, descrito por McGee) embora o capítulo hepatobiliar do próprio Porto localize essa gordura na conjuntiva, o que sugere que os dois relatos possam descrever o mesmo depósito. De um jeito ou de outro, o cuidado prático é o mesmo: gordura amarelada poupa a vizinhança da córnea e não acompanha as demais mucosas; a icterícia, não.
 :::
 
 ::: entendimento
@@ -403,9 +403,9 @@ texto: |
 
   **McGee (cap. 8)** afirma o contrário sobre o local do depósito: o termo tradicional *scleral icterus* seria impreciso, porque estudos anatomopatológicos revelam que a maior parte do pigmento se deposita na **conjuntiva**, e não na esclera, que é avascular.
 
-  O guia registra as duas posições sem misturá-las, porque a divergência é sobre o mecanismo — e porque a conduta à beira do leito não muda: **olha-se o mesmo lugar**, a superfície ocular exposta ao afastar as pálpebras, de preferência sob luz natural.
+  O guia registra as duas posições sem misturá-las, porque a divergência é sobre o mecanismo, e porque a conduta à beira do leito não muda: **olha-se o mesmo lugar**, a superfície ocular exposta ao afastar as pálpebras, de preferência sob luz natural.
 
-  McGee acrescenta ainda um imitador que mora exatamente ali: a **gordura subconjuntival** amarelada pode ser confundida com icterícia, mas costuma limitar-se às dobras da conjuntiva e poupa a área vizinha à córnea — ao contrário da icterícia, que a acomete.
+  McGee acrescenta ainda um imitador que mora exatamente ali: a **gordura subconjuntival** amarelada pode ser confundida com icterícia, mas costuma limitar-se às dobras da conjuntiva e poupa a área vizinha à córnea, ao contrário da icterícia, que a acomete.
 :::
 
 ::: conceito
@@ -413,20 +413,20 @@ titulo: A partir de que nível a icterícia se vê
 texto: |
   Aqui as fontes divergem em ênfase, e o mais útil é registrá-las lado a lado.
 
-  **Semiologia Clínica (cap. 45)** situa a bilirrubina sérica normal, em crianças e adultos, abaixo de 1 mg/dL, e afirma que a icterícia clínica geralmente só é detectada com aumentos da ordem de duas a três vezes o limite superior — acima de 2 a 3 mg/dL.
+  **Semiologia Clínica (cap. 45)** situa a bilirrubina sérica normal, em crianças e adultos, abaixo de 1 mg/dL, e afirma que a icterícia clínica geralmente só é detectada com aumentos da ordem de duas a três vezes o limite superior: acima de 2 a 3 mg/dL.
 
   **McGee (cap. 8)** parte do mesmo ensino clássico e o confronta com dados: embora muitos textos afirmem que a icterícia se torna evidente quando a bilirrubina ultrapassa 2,5 a 3 mg/dL, os estudos clínicos mostram que **apenas 70% a 80% dos observadores a detectam nesse limiar**. A sensibilidade do exame sobe para 83% quando a bilirrubina ultrapassa 10 mg/dL e para 96% acima de 15 mg/dL.
 
-  A leitura conjunta é simples e prática: o limiar clássico de 2 a 3 mg/dL descreve **quando o pigmento começa a poder ser visto**, não quando ele *será* visto. Perto desse valor, a ausência de icterícia ao exame não afasta hiperbilirrubinemia — e a concordância entre observadores para o achado, embora razoável (kappa 0,65 na Tabela 5.1 de McGee), não é perfeita.
+  A leitura conjunta é simples e prática: o limiar clássico de 2 a 3 mg/dL descreve **quando o pigmento começa a poder ser visto**, não quando ele *será* visto. Perto desse valor, a ausência de icterícia ao exame não afasta hiperbilirrubinemia, e a concordância entre observadores para o achado, embora razoável (kappa 0,65 na Tabela 5.1 de McGee), não é perfeita.
 :::
 
 ::: conceito
 titulo: Graduação em cruzes e progressão craniocaudal
 nivel: avancado
 texto: |
-  Duas tentativas clássicas de quantificar a icterícia à beira do leito merecem uma leitura crítica — e Semiologia Clínica, no capítulo de icterícia, faz essa leitura com dados brasileiros.
+  Duas tentativas clássicas de quantificar a icterícia à beira do leito merecem uma leitura crítica, e Semiologia Clínica, no capítulo de icterícia, faz essa leitura com dados brasileiros.
 
-  **A graduação em cruzes.** O grau de icterícia costuma ser descrito qualitativamente (leve, moderada, grave), quantitativamente em uma escala de uma a quatro cruzes — em que + é leve alteração da coloração normal e ++++ é coloração intensa — ou de forma dicotômica, apenas como presente ou ausente. Um estudo conduzido em Santa Catarina mostrou que a graduação estratificada em cruzes tem baixa correlação com os níveis séricos de bilirrubina e baixa concordância entre observadores. Outro, na Universidade de São Paulo, concluiu que, embora rotineiramente ensinados, os níveis de intensidade não parecem determinar nem alterar a conduta inicial — o que muda a conduta é o sinal estar presente ou ausente.
+  **A graduação em cruzes.** O grau de icterícia costuma ser descrito qualitativamente (leve, moderada, grave), quantitativamente em uma escala de uma a quatro cruzes (em que + é leve alteração da coloração normal e ++++ é coloração intensa) ou de forma dicotômica, apenas como presente ou ausente. Um estudo conduzido em Santa Catarina mostrou que a graduação estratificada em cruzes tem baixa correlação com os níveis séricos de bilirrubina e baixa concordância entre observadores. Outro, na Universidade de São Paulo, concluiu que, embora rotineiramente ensinados, os níveis de intensidade não parecem determinar nem alterar a conduta inicial: o que muda a conduta é o sinal estar presente ou ausente.
 
   **A progressão craniocaudal.** No recém-nascido, a avaliação clínica da icterícia é decisiva, porque níveis muito elevados de bilirrubina não conjugada podem atravessar a barreira hematoencefálica e produzir kernicterus. Um dos métodos difundidos correlaciona zonas dérmicas com níveis séricos, apoiado na progressão tipicamente craniocaudal: cabeça em torno de 6 mg/dL, abdome e coxas em torno de 12 mg/dL, mãos e pés em torno de 16 mg/dL. A ressalva vem da mesma fonte: trabalhos mais recentes encontraram **correlação pobre entre a bilirrubina dosada e a progressão cefalocaudal usada de forma isolada**.
 
@@ -439,9 +439,9 @@ nivel: avancado
 texto: |
   Nem todo amarelo é bilirrubina, e a diferença se faz sem exame nenhum.
 
-  **Carotenodermia (betacarotenemia).** A ingestão elevada de alimentos ricos em carotenos — cenoura, mamão, beterraba — ou de suplementos vitamínicos produz tonalidade amarelo-alaranjada da pele, mais evidente nas **palmas, nas plantas e no sulco nasolabial**. O achado que resolve a dúvida é a negativa: a carotenodermia **poupa a conjuntiva e a mucosa oral**. Olhar o olho e o freio da língua encerra a discussão.
+  **Carotenodermia (betacarotenemia).** A ingestão elevada de alimentos ricos em carotenos (cenoura, mamão, beterraba) ou de suplementos vitamínicos produz tonalidade amarelo-alaranjada da pele, mais evidente nas **palmas, nas plantas e no sulco nasolabial**. O achado que resolve a dúvida é a negativa: a carotenodermia **poupa a conjuntiva e a mucosa oral**. Olhar o olho e o freio da língua encerra a discussão.
 
-  **Impregnação medicamentosa.** Substâncias que se depositam na pele, como a quinacrina, produzem coloração amarelada cutânea sem acometer as mucosas — mesma lógica.
+  **Impregnação medicamentosa.** Substâncias que se depositam na pele, como a quinacrina, produzem coloração amarelada cutânea sem acometer as mucosas: mesma lógica.
 
   **Gordura subconjuntival.** Amarelada, limitada às dobras da conjuntiva e poupando a vizinhança da córnea.
 
@@ -457,11 +457,11 @@ titulo: Cianose e manchas hemorrágicas
 ::: conceito
 titulo: "Cianose: onde olhar e um esquema prático"
 texto: |
-  Cianose é a coloração azulada da pele e das mucosas. Este guia a trata em detalhe no tópico de inspeção do tórax: é lá que estão o limiar de desoxi-hemoglobina necessário para produzir a cor, a razão pela qual **o paciente anêmico pode estar gravemente hipoxêmico sem ficar cianótico**, e a distinção entre cianose central e periférica. Não repita aquele conteúdo — cite-o.
+  Cianose é a coloração azulada da pele e das mucosas. Este guia a trata em detalhe no tópico de inspeção do tórax: é lá que estão o limiar de desoxi-hemoglobina necessário para produzir a cor, a razão pela qual **o paciente anêmico pode estar gravemente hipoxêmico sem ficar cianótico**, e a distinção entre cianose central e periférica. Não repita aquele conteúdo: cite-o.
 
   O que cabe ao exame do tegumento é onde procurar e como classificar.
 
-  **Onde procurar.** No rosto — sobretudo na região perioral —, na ponta do nariz, nos lóbulos das orelhas, nas mucosas e nas extremidades das mãos e dos pés, incluindo o leito ungueal e as polpas digitais. Nos casos intensos, todo o tegumento adquire tonalidade azulada ou arroxeada.
+  **Onde procurar.** No rosto, sobretudo na região perioral, na ponta do nariz, nos lóbulos das orelhas, nas mucosas e nas extremidades das mãos e dos pés, incluindo o leito ungueal e as polpas digitais. Nos casos intensos, todo o tegumento adquire tonalidade azulada ou arroxeada.
 
   **Generalizada ou segmentar.** A pergunta vem antes de qualquer outra, porque o raciocínio clínico é completamente diferente nos dois casos: a cianose segmentar significa obstrução de uma veia que drena aquela região.
 
@@ -479,28 +479,28 @@ texto: |
 ::: sinal
 nome: Manchas hemorrágicas (petéquias, víbices e equimoses)
 descricao: |
-  Também chamadas sufusões hemorrágicas. São manchas que **não desaparecem à compressão**, porque a cor vem de sangue extravasado para o tecido — e é exatamente esse comportamento que as separa das manchas eritematosas. A forma e o tamanho as subdividem em três:
+  Também chamadas sufusões hemorrágicas. São manchas que **não desaparecem à compressão**, porque a cor vem de sangue extravasado para o tecido, e é exatamente esse comportamento que as separa das manchas eritematosas. A forma e o tamanho as subdividem em três:
 
-  - **petéquias** — puntiformes, medindo até 1 cm;
-  - **víbices** — dispostas em linha;
-  - **equimoses** — em placa, acima de 1 cm.
+  - **petéquias**: puntiformes, medindo até 1 cm;
+  - **víbices**: dispostas em linha;
+  - **equimoses**: em placa, acima de 1 cm.
 
   A coloração varia do vermelho-arroxeado ao amarelo conforme o tempo de evolução. Nas equimoses grandes e médias, Porto descreve a sequência: avermelhadas até 48 horas; arroxeadas entre 48 e 96 horas; azuladas do 5º ao 6º dia; amareladas do 6º ao 8º dia; e retorno à coloração normal depois do 9º dia. Nas pequenas, o ciclo é mais curto. Equimoses grandes e médias permanecem visíveis mesmo em pessoas negras.
 
-  Quando o extravasamento é suficiente para elevar a pele, chama-se hematoma — e equimose e hematoma se associam com frequência.
+  Quando o extravasamento é suficiente para elevar a pele, chama-se hematoma, e equimose e hematoma se associam com frequência.
 significado: |
-  A digitopressão é o gesto que muda a conduta. Um exantema que empalidece à compressão pertence a um grupo de doenças; um exantema que não empalidece pertence a outro, com muito mais urgência. Em criança febril, procurar petéquias exige despir por completo — e essa é a diferença entre encontrar e não encontrar.
+  A digitopressão é o gesto que muda a conduta. Um exantema que empalidece à compressão pertence a um grupo de doenças; um exantema que não empalidece pertence a outro, com muito mais urgência. Em criança febril, procurar petéquias exige despir por completo, e essa é a diferença entre encontrar e não encontrar.
 
-  Quando as manchas hemorrágicas decorrem de alterações capilares ou de discrasias sanguíneas — e não de traumatismo —, o quadro recebe o nome de **púrpura**.
+  Quando as manchas hemorrágicas decorrem de alterações capilares ou de discrasias sanguíneas, e não de traumatismo, o quadro recebe o nome de **púrpura**.
 causas:
   - "Traumatismos, inclusive os provocados por manobras que aumentam a pressão venosa"
-  - "Alterações capilares — as púrpuras vasculares, incluindo a púrpura senil"
+  - "Alterações capilares: as púrpuras vasculares, incluindo a púrpura senil"
   - "Discrasias sanguíneas, com destaque para as plaquetopenias, como a púrpura trombocitopênica"
   - "Infecções graves com comprometimento vascular e de coagulação"
 :::
 
 ::: perola
-texto: "Diante de qualquer mancha avermelhada, o dedo vale mais do que o olho: comprima. Se some, é vaso dilatado; se não some, é sangue fora do vaso. É a manobra mais barata do exame físico e uma das que mais mudam a conduta — o caso de febre na criança deste guia gira em torno dela."
+texto: "Diante de qualquer mancha avermelhada, o dedo vale mais do que o olho: comprima. Se some, é vaso dilatado; se não some, é sangue fora do vaso. É a manobra mais barata do exame físico e uma das que mais mudam a conduta: o caso de febre na criança deste guia gira em torno dela."
 :::
 
 ::: secao
@@ -512,11 +512,11 @@ titulo: Cabelos, pelos e unhas
 texto: |
   Os fâneros compreendem cabelo, pelos e unhas, e cada um deles registra a história das últimas semanas ou meses do organismo.
 
-  **Cabelos.** Avaliam-se tipo de implantação, distribuição, quantidade, coloração e o conjunto brilho–espessura–consistência. Áreas sem pelos configuram **alopecia**; a queda de cabelos é, por si, um dado de interesse. Cabelos que perdem o brilho e se tornam secos e quebradiços aparecem no mixedema e nos estados carenciais — e, na desnutrição proteica grave da criança, o cabelo pode mudar de cor. No exame do couro cabeludo, a **prova de tração suave** (manobra de Sabouraud) testa o destacamento dos fios.
+  **Cabelos.** Avaliam-se tipo de implantação, distribuição, quantidade, coloração e o conjunto brilho-espessura-consistência. Áreas sem pelos configuram **alopecia**; a queda de cabelos é, por si, um dado de interesse. Cabelos que perdem o brilho e se tornam secos e quebradiços aparecem no mixedema e nos estados carenciais, e, na desnutrição proteica grave da criança, o cabelo pode mudar de cor. No exame do couro cabeludo, a **prova de tração suave** (manobra de Sabouraud) testa o destacamento dos fios.
 
   **Pelos.** Interessam distribuição, quantidade e caracteres do fio. **Hipertricose** é o aumento exagerado de pelos terminais; **hirsutismo**, o aumento de pelos de padrão masculino na mulher, que quando ligado a níveis elevados de testosterona vem com implantação masculina dos cabelos e calvície temporal. A **virilização** soma ao hirsutismo o aprofundamento da voz e o aumento do clitóris. Na direção oposta, a queda de pelos axilares e pubianos aponta desnutrição, hepatopatias crônicas, mixedema, colagenoses, quimioterapia e algumas dermatoses.
 
-  **Unhas.** Analisam-se forma, tipo de implantação, espessura, superfície, consistência, brilho e coloração — nas mãos e nos pés —, sem esquecer as **regiões periungueais**, sede frequente de processos inflamatórios e de alterações capilares com valor sistêmico. A unha normal tem superfície lisa e brilhante, cor róseo-avermelhada, uma curvatura lateral nítida, espessura e consistência firmes.
+  **Unhas.** Analisam-se forma, tipo de implantação, espessura, superfície, consistência, brilho e coloração, nas mãos e nos pés, sem esquecer as **regiões periungueais**, sede frequente de processos inflamatórios e de alterações capilares com valor sistêmico. A unha normal tem superfície lisa e brilhante, cor róseo-avermelhada, uma curvatura lateral nítida, espessura e consistência firmes.
 :::
 
 ::: tabela
@@ -542,7 +542,7 @@ linhas:
     - "Faixas transversais brancas"
     - "Intoxicação por arsênico; doença sistêmica de instalação aguda"
   - - "Unhas de Plummer"
-    - "Onicólise — a unha se descola parcialmente do leito"
+    - "Onicólise: a unha se descola parcialmente do leito"
     - "Hipertireoidismo"
   - - "Unhas distróficas"
     - "Espessadas, rugosas e de formato irregular"
@@ -560,13 +560,13 @@ titulo: Dois ângulos diferentes na mesma unha
 texto: |
   Este é um ponto em que dois vocabulários se cruzam e podem parecer contraditórios. Não são: **são duas medidas distintas, feitas em referências distintas**.
 
-  O **ângulo de implantação** (ou ângulo de perfil) é o que Porto descreve no exame das unhas: forma-se entre a placa ungueal e a dobra ungueal proximal, vista de perfil. Na unha normal ele fica em torno de 160°, e no hipocratismo digital aproxima-se de 180° — a unha perde o degrau e a última falange fica "em vidro de relógio".
+  O **ângulo de implantação** (ou ângulo de perfil) é o que Porto descreve no exame das unhas: forma-se entre a placa ungueal e a dobra ungueal proximal, vista de perfil. Na unha normal ele fica em torno de 160°, e no hipocratismo digital aproxima-se de 180°: a unha perde o degrau e a última falange fica "em vidro de relógio".
 
   O **ângulo hiponiquial** é outro: mede-se a partir do hiponíquio, na face inferior da falange, e o limite descrito por McGee para baqueteamento é 190°. É acurado, mas exige instrumentos e não se faz à beira do leito.
 
   Os números não se contradizem porque não medem a mesma coisa. Ao registrar, **diga qual ângulo você usou**.
 
-  O detalhamento do baqueteamento digital — as três definições sustentadas por dados, o **sinal de Schamroth** e as razões de verossimilhança de cada uma, além da lista de doenças de base — está no tópico de inspeção do tórax, junto do restante da moldura da doença pulmonar crônica.
+  O detalhamento do baqueteamento digital: as três definições sustentadas por dados, o **sinal de Schamroth** e as razões de verossimilhança de cada uma, além da lista de doenças de base, está no tópico de inspeção do tórax, junto do restante da moldura da doença pulmonar crônica.
 :::
 
 ::: conceito
@@ -575,15 +575,15 @@ nivel: avancado
 texto: |
   As manchas pigmentares decorrem de alteração do pigmento melânico e se dividem em três grupos, aos quais se soma o das pigmentações externas.
 
-  **Hipocrômicas e acrômicas**, por redução ou ausência de melanina: vitiligo (acrômica), pitiríase alba, hanseníase, nevo acrômico, albinismo. A distinção prática entre mancha hipocrômica e nevo anêmico se faz pela vitropressão — no nevo anêmico a redução é do compartimento vascular, não do pigmento, e a mancha some junto com a pele comprimida ao redor.
+  **Hipocrômicas e acrômicas**, por redução ou ausência de melanina: vitiligo (acrômica), pitiríase alba, hanseníase, nevo acrômico, albinismo. A distinção prática entre mancha hipocrômica e nevo anêmico se faz pela vitropressão: no nevo anêmico a redução é do compartimento vascular, não do pigmento, e a mancha some junto com a pele comprimida ao redor.
 
   **Hipercrômicas**, por aumento de melanina: melasma ou cloasma, efélides (sardas), nevos pigmentados, melanose senil, pelagra, manchas que sucedem processos de cicatrização e a hiperpigmentação que acompanha a estase venosa crônica das pernas.
 
-  **Pigmentação externa**, produzida por substâncias de uso tópico que deixam manchas em tons de cinza a preto — alcatrões, antralina, nitrato de prata, permanganato de potássio.
+  **Pigmentação externa**, produzida por substâncias de uso tópico que deixam manchas em tons de cinza a preto: alcatrões, antralina, nitrato de prata, permanganato de potássio.
 
   Duas alterações de cor difusa completam a lista e apontam para doença sistêmica: o **bronzeamento natural** da pele, que ocorre na doença de Addison e na hemocromatose por alteração do metabolismo da melanina, e o **eritema palmar** das hepatopatias crônicas, sobretudo da cirrose.
 
-  Uma advertência transversal: a quantidade de melanina influencia como toda lesão elementar aparece, e sobretudo as alterações de cor e o eritema. O **fototipo** — classificação de Fitzpatrick, de I a VI — deve ser considerado no exame, tanto por isso quanto pelas diferenças de prevalência e de gravidade de várias dermatoses.
+  Uma advertência transversal: a quantidade de melanina influencia como toda lesão elementar aparece, e sobretudo as alterações de cor e o eritema. O **fototipo** (classificação de Fitzpatrick, de I a VI) deve ser considerado no exame, tanto por isso quanto pelas diferenças de prevalência e de gravidade de várias dermatoses.
 :::
 
 ::: conceito
@@ -591,9 +591,9 @@ titulo: Onde este tópico encontra os outros
 texto: |
   O tegumento é o lugar onde vários capítulos deste guia se cruzam.
 
-  - **Cianose** — limiar de desoxi-hemoglobina, por que o anêmico não fica cianótico, e a distinção entre central e periférica — está no tópico de inspeção do tórax.
+  - **Cianose**: limiar de desoxi-hemoglobina, por que o anêmico não fica cianótico, e a distinção entre central e periférica, está no tópico de inspeção do tórax.
   - **Baqueteamento digital**, com o sinal de Schamroth, as definições acuradas e as doenças de base, está no mesmo tópico de inspeção do tórax.
-  - **Edema**, com a técnica do cacifo, a graduação em cruzes e as alterações de pele que o acompanham — pele lisa e brilhante no edema recente, espessa nos antigos —, está no tópico de pulso venoso jugular e turgência.
+  - **Edema**, com a técnica do cacifo, a graduação em cruzes e as alterações de pele que o acompanham (pele lisa e brilhante no edema recente, espessa nos antigos) está no tópico de pulso venoso jugular e turgência.
   - **Turgor, elasticidade e umidade como sinais de hidratação**, com as razões de verossimilhança correspondentes, estão no tópico de antropometria e hidratação deste capítulo.
   - **Petéquias como sinal de gravidade em criança febril** aparecem no caso clínico de febre na criança e no tópico de temperatura e frequência respiratória.
   - **Palidez, icterícia, prurido e lesões de pele como sintomas relatados** pertencem ao interrogatório sintomatológico, no capítulo da entrevista clínica.
@@ -607,7 +607,7 @@ titulo: Armadilhas do exame
 ::: conceito
 titulo: Seis erros que custam achados
 texto: |
-  1. **Examinar só a lesão de que o paciente se queixa.** O exame dermatológico envolve toda a pele, os anexos e as mucosas — e é fora da área da queixa que costumam estar as lesões que mudam o diagnóstico.
+  1. **Examinar só a lesão de que o paciente se queixa.** O exame dermatológico envolve toda a pele, os anexos e as mucosas, e é fora da área da queixa que costumam estar as lesões que mudam o diagnóstico.
   2. **Não comprimir.** Sem digitopressão ou vitropressão, eritema e púrpura são a mesma mancha vermelha.
   3. **Procurar palidez no leito ungueal.** É o sítio de menor rendimento e o de pior concordância entre examinadores; a rima conjuntival e as pregas palmares informam muito mais.
   4. **Excluir anemia porque as mucosas estão coradas.** Nenhum sinal físico afasta anemia de forma convincente.
@@ -621,19 +621,19 @@ caso: |
 pergunta: |
   Como pesquisar a icterícia?
 opcoes:
-  - "Concluir pela cor do rosto mesmo — a pele exposta é o melhor sítio para a icterícia"
+  - "Concluir pela cor do rosto mesmo: a pele exposta é o melhor sítio para a icterícia"
   - "Aguardar o resultado da bilirrubina antes de opinar"
   - "Buscar luz adequada e examinar esclera, freio da língua e palato duro"
 corretaIndex: 2
 desfecho: |
-  Perto da janela, a esclera tirou a dúvida. A icterícia se pesquisa nos sítios certos — esclera e conjuntiva, freio da língua, palato duro — e sob luz natural ou fluorescente incidindo por trás do examinador; foi a luz inadequada que criou a dúvida. O laboratório confirma depois; o exame decide agora o quanto investigar.
+  Perto da janela, a esclera tirou a dúvida. A icterícia se pesquisa nos sítios certos (esclera e conjuntiva, freio da língua, palato duro) e sob luz natural ou fluorescente incidindo por trás do examinador; foi a luz inadequada que criou a dúvida. O laboratório confirma depois; o exame decide agora o quanto investigar.
 :::
 
 ::: resumo
 linhas:
-  - "O exame da pele se organiza em três perguntas — que cor, que lesões, o que dizem os anexos — e cobre o corpo todo, não só a área da queixa."
-  - "Diante de mancha avermelhada, comprima: se some, é vaso dilatado; se não some, é sangue extravasado — petéquia, víbice ou equimose."
-  - "Palidez se procura na rima conjuntival e nas pregas palmares; icterícia, na esclera e no freio da língua — e pele amarela com olho e boca poupados não é icterícia."
+  - "O exame da pele se organiza em três perguntas (que cor, que lesões, o que dizem os anexos) e cobre o corpo todo, não só a área da queixa."
+  - "Diante de mancha avermelhada, comprima: se some, é vaso dilatado; se não some, é sangue extravasado, petéquia, víbice ou equimose."
+  - "Palidez se procura na rima conjuntival e nas pregas palmares; icterícia, na esclera e no freio da língua, e pele amarela com olho e boca poupados não é icterícia."
 :::
 
 ::: secao
@@ -645,12 +645,12 @@ perguntas:
   - id: pele-1
     enunciado: Você encontra manchas avermelhadas no tronco de um paciente febril. Ao comprimi-las com uma lâmina de vidro, as manchas não empalidecem. O que isso significa?
     alternativas:
-      - "São manchas hemorrágicas — o sangue já extravasou para o tecido"
+      - "São manchas hemorrágicas: o sangue já extravasou para o tecido"
       - "São manchas eritematosas por vasodilatação"
       - "São telangiectasias, que exigem puntipressão central para empalidecer"
       - "São manchas hipocrômicas, e a manobra confirma redução de melanina"
     corretaIndex: 0
-    explicacao: "As manchas vasculares — eritema, telangiectasias, aranhas vasculares — desaparecem à digitopressão ou à vitropressão, porque a cor vem de sangue circulante em vasos dilatados. As manchas hemorrágicas não desaparecem, porque o sangue está fora do vaso. Pela forma e pelo tamanho, subdividem-se em petéquias (puntiformes, até 1 cm), víbices (dispostas em linha) e equimoses (em placa, acima de 1 cm)."
+    explicacao: "As manchas vasculares (eritema, telangiectasias, aranhas vasculares) desaparecem à digitopressão ou à vitropressão, porque a cor vem de sangue circulante em vasos dilatados. As manchas hemorrágicas não desaparecem, porque o sangue está fora do vaso. Pela forma e pelo tamanho, subdividem-se em petéquias (puntiformes, até 1 cm), víbices (dispostas em linha) e equimoses (em placa, acima de 1 cm)."
   - id: pele-2
     enunciado: Qual sítio de palidez mais eleva a probabilidade de anemia, e como se pesquisa?
     alternativas:
@@ -666,7 +666,7 @@ perguntas:
       - "Icterícia leve, ainda restrita às extremidades"
       - "Icterícia obstrutiva, que caracteristicamente começa pelas palmas e plantas antes de atingir a esclera e o freio da língua"
       - "Cianose periférica em fase de resolução"
-      - "Carotenodermia — a betacarotenemia poupa conjuntiva e mucosa oral"
+      - "Carotenodermia: a betacarotenemia poupa conjuntiva e mucosa oral"
     corretaIndex: 3
     explicacao: "A ingestão elevada de alimentos ricos em caroteno ou de suplementos produz tonalidade amarelo-alaranjada, mais evidente nas palmas, nas plantas e no sulco nasolabial, e poupa a conjuntiva e a mucosa oral. A icterícia, ao contrário, é notada primeiro justamente na superfície ocular e no freio da língua. Pele amarela com olho e boca poupados não é icterícia."
   - id: pele-4

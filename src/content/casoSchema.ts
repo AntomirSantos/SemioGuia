@@ -38,7 +38,7 @@ export const casoSchema = z.object({
   titulo: z.string().min(1),
   contexto: z.string().min(1),
   tags: z.array(z.string()),
-  // topicosDeApoio references real topic ids — verified against whole content in the build pipeline (Task 2), not here.
+  // topicosDeApoio references real topic ids: verified against whole content in the build pipeline (Task 2), not here.
   topicosDeApoio: z.array(z.string().min(1)).min(1),
   referencias: z.array(z.string().min(1)).min(1),
   revisao: z.enum(['pendente', 'aprovada']),

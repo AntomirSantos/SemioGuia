@@ -223,7 +223,7 @@ export function TelaPerfil() {
 
   // Beta §4: os eventos de uso ficam no aparelho; este botão gera o JSON e
   // abre a folha de compartilhamento (ou baixa o arquivo, na web sem
-  // Web Share API). Falhas — incluindo o cancelamento da folha — são
+  // Web Share API). Falhas, incluindo o cancelamento da folha, são
   // silenciosas: nada aqui pode quebrar o Perfil.
   async function exportarDadosDeUso() {
     try {
@@ -312,7 +312,7 @@ export function TelaPerfil() {
         </View>
         {erroProva ? (
           <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.acentoTinta, marginTop: espaco.xs }}>
-            Data inválida — use o formato DD/MM/AAAA.
+            Data inválida: use o formato DD/MM/AAAA.
           </Text>
         ) : null}
         {provaSalva ? (
@@ -391,7 +391,7 @@ export function TelaPerfil() {
           <Pressable
             key={`${img.topicoId}-${img.nome}`}
             accessibilityRole="button"
-            accessibilityLabel={`${img.nome} — abrir ${img.topicoTitulo}`}
+            accessibilityLabel={`${img.nome}: abrir ${img.topicoTitulo}`}
             onPress={() => router.push(`/topico/${img.topicoId}`)}
             style={{ paddingVertical: espaco.s, borderBottomWidth: 1, borderBottomColor: paleta.linha }}
           >

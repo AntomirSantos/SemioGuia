@@ -27,7 +27,7 @@ test('gerarMarkdownChangelog produz um cabeçalho e uma seção por entrada', ()
   const md = gerarMarkdownChangelog(CHANGELOG);
   expect(md.startsWith('# Changelog')).toBe(true);
   for (const e of CHANGELOG) {
-    expect(md).toContain(`## ${e.versao} — ${e.data}`);
+    expect(md).toContain(`## ${e.versao} (${e.data})`);
     expect(md).toContain(`- ${e.linhas[0]}`);
   }
 });

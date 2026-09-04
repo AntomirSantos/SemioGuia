@@ -67,7 +67,7 @@ describe('EstacaoOsce', () => {
     const { getByText } = await renderEstacao(passos, aoConcluir);
 
     await fireEvent.press(getByText('Revelar passo'));
-    // Guarda a mesma referência do botão final e dispara dois toques nela —
+    // Guarda a mesma referência do botão final e dispara dois toques nela: 
     // simula um duplo toque acidental no último Lembrei/Esqueci da estação.
     const botaoLembrei = getByText('Lembrei');
     await fireEvent.press(botaoLembrei);

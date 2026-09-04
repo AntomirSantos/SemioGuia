@@ -9,9 +9,9 @@ import { AccessibilityInfo, Platform } from 'react-native';
 //
 // Resolução SÍNCRONA sempre que possível (re-revisão de fase: inicializar em
 // `null` e resolver um tick depois matava a animação de entrada em todo
-// lugar — os Animated.Values nasciam no estado "sem animação" e a resolução
+// lugar: os Animated.Values nasciam no estado "sem animação" e a resolução
 // posterior animava 1→1, um no-op):
-// - web: matchMedia é síncrono — o valor inicial já sai resolvido no
+// - web: matchMedia é síncrono, o valor inicial já sai resolvido no
 //   useState, nunca `null`.
 // - nativo: a primeira montagem do app não tem como saber síncrono (a API é
 //   uma promise) e fica `null` → consumidores tratam como "reduzir" (nunca

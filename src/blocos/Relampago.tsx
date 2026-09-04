@@ -12,7 +12,7 @@ import { TextoRico } from './texto';
 type RelampagoBloco = Extract<Bloco, { tipo: 'relampago' }>;
 
 // Caso-relâmpago (didática 2026-09): um parágrafo-caso com decisão única ao
-// fim do tópico — sem ramificação, só a escolha e o desfecho. Faz a ponte
+// fim do tópico, sem ramificação, só a escolha e o desfecho. Faz a ponte
 // entre a leitura e os casos clínicos grandes. Como no pense, o ganho está
 // na tentativa: o desfecho só aparece depois da escolha, e a escolha é
 // definitiva dentro da sessão de leitura (errar também ensina).

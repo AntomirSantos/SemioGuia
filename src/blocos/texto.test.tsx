@@ -32,7 +32,7 @@ test('negrito e itálico lado a lado no mesmo parágrafo (misto)', async () => {
 });
 
 test('itálico com pontuação colada ao fechamento (padrão real do conteúdo)', async () => {
-  // Ex. real: "...*com que esforço*." — ponto fora do marcador, sem espaço.
+  // Ex. real: "...*com que esforço*.": ponto fora do marcador, sem espaço.
   const { getByText } = await renderTexto('Não *quantas* vezes, mas *como*.');
   expect(getByText('quantas').props.style.fontStyle).toBe('italic');
   expect(getByText('como').props.style.fontStyle).toBe('italic');
@@ -44,7 +44,7 @@ test('asterisco solto sem par permanece texto literal', async () => {
 });
 
 // Marcadores genuinamente aninhados (um tipo inteiro dentro do outro) estão
-// fora do escopo suportado (ver comentário em texto.tsx) — o corpus real
+// fora do escopo suportado (ver comentário em texto.tsx): o corpus real
 // nunca faz isso. Este teste garante só que não derruba a tela.
 test('marcadores aninhados não quebram o render', async () => {
   const { toJSON } = await renderTexto('**negrito com *itálico* dentro** ainda aparece.');

@@ -1,4 +1,4 @@
-# Deploy gh-pages — procedimento e lições
+# Deploy gh-pages: procedimento e lições
 
 Passos (endurecidos nas Fases 5 e 9):
 
@@ -10,11 +10,11 @@ Passos (endurecidos nas Fases 5 e 9):
    (incidente da Fase 5: árvore inteira com node_modules foi ao ar).
 3. No worktree: `checkout --orphan gh-pages`, limpar, copiar o `dist/`,
    e **acrescentar os dois arquivos que o export NÃO gera**:
-   - `.nojekyll` (vazio) — sem ele o GitHub Pages roda Jekyll, que
+   - `.nojekyll` (vazio), sem ele o GitHub Pages roda Jekyll, que
      descarta diretórios com underscore: o `_expo/` inteiro (bundle JS)
      some e o app abre sem interatividade nenhuma (incidente da Fase 9:
      "não consigo clicar nos tópicos").
-   - `404.html` = cópia do `index.html` — deep links e refresh em rotas
+   - `404.html` = cópia do `index.html`: deep links e refresh em rotas
      internas reiniciam o app em vez de caírem no 404 do GitHub. Desde a
      correção do React #418 (beta §9.6), `web.output` é `"single"`: o
      `index.html` é um shell SEM markup prerenderizado (o React renderiza
@@ -27,7 +27,7 @@ Passos (endurecidos nas Fases 5 e 9):
    legítimo são as fontes do Expo sob
    `assets/node_modules/@expo-google-fonts/`; `.nojekyll` e `404.html`
    presentes; zero `src/`/`package.json`.
-5. `git push -f origin gh-pages` — força SÓ neste branch (autorizado
+5. `git push -f origin gh-pages`: força SÓ neste branch (autorizado
    pelo autor para gh-pages exclusivamente).
 6. Remover o worktree e o branch local.
 

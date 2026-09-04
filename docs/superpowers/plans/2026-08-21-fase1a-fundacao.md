@@ -1,8 +1,8 @@
-# SemioGuia Fase 1A — Fundação: Implementation Plan
+# SemioGuia Fase 1A, Fundação: Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Construir a fundação do app SemioGuia: projeto Expo, schema/pipeline de conteúdo com validação, conteúdo piloto, busca offline, motor de quiz, armazenamento de progresso e CI — tudo testável sem interface.
+**Goal:** Construir a fundação do app SemioGuia: projeto Expo, schema/pipeline de conteúdo com validação, conteúdo piloto, busca offline, motor de quiz, armazenamento de progresso e CI, tudo testável sem interface.
 
 **Architecture:** Conteúdo médico em arquivos Markdown (frontmatter + blocos YAML cercados) compilados por um script Node em um JSON validado e embutido no app. O app (React Native + Expo, TypeScript) apenas consome esse JSON via módulos puros (store, busca, quiz, progresso), todos testados com Jest. A UI chega na Fase 1B, após mockups aprovados.
 
@@ -16,7 +16,7 @@
 - 100% offline: nenhuma chamada de rede em runtime.
 - Zero coleta de dados pessoais.
 - Todo texto de UI e conteúdo em pt-BR.
-- Erro de conteúdo falha o build (`npm run build:content` retorna exit code ≠ 0) — nunca chega ao usuário.
+- Erro de conteúdo falha o build (`npm run build:content` retorna exit code ≠ 0), nunca chega ao usuário.
 - Conteúdo médico gerado neste plano é rascunho: frontmatter `revisao: pendente` até o autor aprovar. Nunca copiar texto verbatim dos livros de referência (em `/home/user/semioguia-referencias/`); redigir original e citar referência.
 - Aviso legal exato do app: "Material educacional. Não substitui o julgamento clínico."
 - Commits frequentes; mensagens em inglês convencional (`feat:`, `test:`, `chore:`).
@@ -295,7 +295,7 @@ export function parseTopico(markdown: string, caminho: string): TopicoParseado; 
 titulo: Pressão arterial
 ordem: 1
 tags: [PA, hipertensão]
-referencias: ["Porto — Semiologia Médica, 8ª ed., cap. X"]
+referencias: ["Porto, Semiologia Médica, 8ª ed., cap. X"]
 revisao: pendente
 ---
 
@@ -439,7 +439,7 @@ git commit -m "feat: topic file parser (frontmatter + fenced YAML blocks)"
 **Interfaces:**
 - Consumes: `parseTopico` (Task 3); schemas (Task 2).
 - Produces:
-  - `export function compilarConteudo(contentDir: string): Conteudo` — lança `Error` agregando todos os problemas encontrados.
+  - `export function compilarConteudo(contentDir: string): Conteudo`, lança `Error` agregando todos os problemas encontrados.
   - CLI: `npm run build:content` lê `content/`, escreve `assets/generated/content.json` e imprime resumo (nº sistemas/tópicos, nº com `revisao: pendente`). Exit ≠ 0 em erro.
   - Formato de `content/sistemas.yaml`:
 
@@ -487,7 +487,7 @@ test('agrega erros de diretório inválido', () => {
 });
 ```
 
-- [ ] **Step 3: Rodar e ver falhar** — `npx jest scripts/build-content.test.ts` → FAIL.
+- [ ] **Step 3: Rodar e ver falhar**, `npx jest scripts/build-content.test.ts` → FAIL.
 
 - [ ] **Step 4: Implementar `scripts/build-content.ts`**
 
@@ -563,7 +563,7 @@ Ajustar o teste da Task 4 Step 2 para casar com essa mensagem: trocar
 `.toThrow(/capitulo-fantasma/)` por
 `.toThrow(/capítulo não declarado/)`.
 
-- [ ] **Step 5: Rodar testes** — `npx jest scripts/build-content.test.ts` → PASS.
+- [ ] **Step 5: Rodar testes**, `npx jest scripts/build-content.test.ts` → PASS.
 
 - [ ] **Step 6: Criar `content/sistemas.yaml` real** (uma entrada: `exame-fisico-geral` com capítulo `sinais-vitais`, como no exemplo de interface acima).
 
@@ -576,7 +576,7 @@ git commit -m "feat: content build pipeline with aggregate validation"
 
 ---
 
-### Task 5: Conteúdo piloto — Sinais vitais
+### Task 5: Conteúdo piloto, Sinais vitais
 
 **Files:**
 - Create: `content/exame-fisico-geral/sinais-vitais/pressao-arterial.md`
@@ -588,13 +588,13 @@ git commit -m "feat: content build pipeline with aggregate validation"
 - Consumes: formato de tópico (Task 3), pipeline (Task 4), livros em `/home/user/semioguia-referencias/` (`porto-semiologia-medica-8ed.pdf`, `porto-exame-clinico-8ed.pdf`, `mcgee-evidence-based-physical-diagnosis-4ed.pdf`).
 - Produces: os 8 tipos de bloco exercitados com conteúdo real (rascunho `revisao: pendente`); `content.json` commitado.
 
-- [ ] **Step 1: Localizar os capítulos de sinais vitais nos livros** — usar o sumário dos PDFs (`pdftotext -f 1 -l 30 <pdf> -`) para achar as páginas de pressão arterial, pulso, temperatura e FR; ler as páginas com a ferramenta de leitura de PDF por intervalo.
+- [ ] **Step 1: Localizar os capítulos de sinais vitais nos livros**, usar o sumário dos PDFs (`pdftotext -f 1 -l 30 <pdf> -`) para achar as páginas de pressão arterial, pulso, temperatura e FR; ler as páginas com a ferramenta de leitura de PDF por intervalo.
 
-- [ ] **Step 2: Redigir os 3 tópicos** — redação própria (nunca verbatim), em pt-BR, com: `pressao-arterial.md` contendo blocos `conceito`, `manobra` (técnica de medida), `tabela` (classificação da PA), `perola`, `quiz` (≥3 perguntas); `frequencia-cardiaca-e-pulso.md` contendo `conceito`, `manobra`, `sinal` (ex.: pulso paradoxal), `checklist`, `quiz`; `temperatura-e-frequencia-respiratoria.md` contendo `conceito`, `tabela`, `fluxograma` (abordagem da febre), `perola`, `quiz`. Todos com `revisao: pendente` e `referencias` citando livro/capítulo.
+- [ ] **Step 2: Redigir os 3 tópicos**, redação própria (nunca verbatim), em pt-BR, com: `pressao-arterial.md` contendo blocos `conceito`, `manobra` (técnica de medida), `tabela` (classificação da PA), `perola`, `quiz` (≥3 perguntas); `frequencia-cardiaca-e-pulso.md` contendo `conceito`, `manobra`, `sinal` (ex.: pulso paradoxal), `checklist`, `quiz`; `temperatura-e-frequencia-respiratoria.md` contendo `conceito`, `tabela`, `fluxograma` (abordagem da febre), `perola`, `quiz`. Todos com `revisao: pendente` e `referencias` citando livro/capítulo.
 
-- [ ] **Step 3: Rodar o build** — `npm run build:content` → Expected: `OK: 1 sistemas, 3 tópicos (3 com revisão pendente)`.
+- [ ] **Step 3: Rodar o build**, `npm run build:content` → Expected: `OK: 1 sistemas, 3 tópicos (3 com revisão pendente)`.
 
-- [ ] **Step 4: Rodar a suíte inteira** — `npx jest` → Expected: PASS (nenhuma regressão).
+- [ ] **Step 4: Rodar a suíte inteira**, `npx jest` → Expected: PASS (nenhuma regressão).
 
 - [ ] **Step 5: Commit**
 
@@ -623,7 +623,7 @@ export function obterTopico(c: Conteudo, topicoId: string): Topico | undefined;
 export function listarTodosTopicos(c: Conteudo): Topico[];
 ```
 
-- [ ] **Step 1: Escrever testes que falham** — `src/content/store.test.ts` monta um `Conteudo` mínimo inline (2 sistemas com `ordem` invertida; 1 tópico) e verifica: `listarSistemas` ordena; `obterTopico('exame-fisico-geral/sinais-vitais/pressao-arterial')` acha; id inexistente → `undefined`; `carregarConteudo({})` lança.
+- [ ] **Step 1: Escrever testes que falham**, `src/content/store.test.ts` monta um `Conteudo` mínimo inline (2 sistemas com `ordem` invertida; 1 tópico) e verifica: `listarSistemas` ordena; `obterTopico('exame-fisico-geral/sinais-vitais/pressao-arterial')` acha; id inexistente → `undefined`; `carregarConteudo({})` lança.
 
 ```ts
 import { carregarConteudo, listarSistemas, obterTopico } from './store';
@@ -662,7 +662,7 @@ test('dados inválidos lançam', () => {
 });
 ```
 
-- [ ] **Step 2: Rodar e ver falhar** — `npx jest src/content/store.test.ts` → FAIL.
+- [ ] **Step 2: Rodar e ver falhar**, `npx jest src/content/store.test.ts` → FAIL.
 
 - [ ] **Step 3: Implementar `src/content/store.ts`**
 
@@ -690,9 +690,9 @@ export function obterTopico(c: Conteudo, topicoId: string): Topico | undefined {
 }
 ```
 
-- [ ] **Step 4: Rodar testes** — PASS.
+- [ ] **Step 4: Rodar testes**, PASS.
 
-- [ ] **Step 5: Commit** — `git add src/content/ && git commit -m "feat: content store with typed accessors"`
+- [ ] **Step 5: Commit**, `git add src/content/ && git commit -m "feat: content store with typed accessors"`
 
 ---
 
@@ -712,7 +712,7 @@ export function criarIndice(c: Conteudo): MiniSearch;   // campos: titulo, tags,
 export function buscar(indice: MiniSearch, termo: string): ResultadoBusca[]; // prefixo + fuzzy 0.2
 ```
 
-- [ ] **Step 1: Escrever testes que falham** — `src/search/index.test.ts` usando o mesmo `Conteudo` inline da Task 6 estendido com um tópico com tag `Sinal de Murphy`:
+- [ ] **Step 1: Escrever testes que falham**, `src/search/index.test.ts` usando o mesmo `Conteudo` inline da Task 6 estendido com um tópico com tag `Sinal de Murphy`:
 
 ```ts
 import { criarIndice, buscar } from './index';
@@ -727,7 +727,7 @@ const dados = {
       topicos: [{
         id: 'abdome/vesicula/colecistite', titulo: 'Colecistite aguda',
         sistemaId: 'abdome', capituloId: 'vesicula', ordem: 1,
-        tags: ['Sinal de Murphy'], referencias: ['Porto — Semiologia Médica, 8ª ed.'],
+        tags: ['Sinal de Murphy'], referencias: ['Porto, Semiologia Médica, 8ª ed.'],
         revisao: 'pendente',
         blocos: [{ tipo: 'conceito', texto: 'Inflamação aguda da vesícula biliar.' }],
       }],
@@ -752,7 +752,7 @@ test('termo sem correspondência retorna vazio', () => {
 });
 ```
 
-- [ ] **Step 2: Rodar e ver falhar** — FAIL.
+- [ ] **Step 2: Rodar e ver falhar**, FAIL.
 
 - [ ] **Step 3: Implementar**
 
@@ -802,9 +802,9 @@ export function buscar(indice: MiniSearch<DocBusca>, termo: string): ResultadoBu
 }
 ```
 
-- [ ] **Step 4: Rodar testes** — PASS.
+- [ ] **Step 4: Rodar testes**, PASS.
 
-- [ ] **Step 5: Commit** — `git add src/search/ package.json package-lock.json && git commit -m "feat: offline search index (MiniSearch)"`
+- [ ] **Step 5: Commit**, `git add src/search/ package.json package-lock.json && git commit -m "feat: offline search index (MiniSearch)"`
 
 ---
 
@@ -829,7 +829,7 @@ export function proximaPergunta(s: SessaoQuiz): QuizPergunta | undefined;      /
 export function resultado(s: SessaoQuiz): { total: number; acertos: number; percentual: number };
 ```
 
-- [ ] **Step 1: Escrever testes que falham** — `src/quiz/engine.test.ts`:
+- [ ] **Step 1: Escrever testes que falham**, `src/quiz/engine.test.ts`:
 
 ```ts
 import { criarSessao, responder, proximaPergunta, resultado } from './engine';
@@ -862,7 +862,7 @@ test('lanca em sessão vazia, id desconhecido e resposta dupla', () => {
 });
 ```
 
-- [ ] **Step 2: Rodar e ver falhar** — FAIL.
+- [ ] **Step 2: Rodar e ver falhar**, FAIL.
 
 - [ ] **Step 3: Implementar `src/quiz/engine.ts`**
 
@@ -905,9 +905,9 @@ export function resultado(s: SessaoQuiz): { total: number; acertos: number; perc
 }
 ```
 
-- [ ] **Step 4: Rodar testes** — PASS.
+- [ ] **Step 4: Rodar testes**, PASS.
 
-- [ ] **Step 5: Commit** — `git add src/quiz/ && git commit -m "feat: quiz engine (pure, immutable)"`
+- [ ] **Step 5: Commit**, `git add src/quiz/ && git commit -m "feat: quiz engine (pure, immutable)"`
 
 ---
 
@@ -938,7 +938,7 @@ export interface ProgressStore {
 export class MemoryProgressStore implements ProgressStore { /* Task */ }
 ```
 
-- [ ] **Step 1: Escrever testes que falham** — `src/progress/memoryStore.test.ts`:
+- [ ] **Step 1: Escrever testes que falham**, `src/progress/memoryStore.test.ts`:
 
 ```ts
 import { MemoryProgressStore } from './memoryStore';
@@ -975,7 +975,7 @@ test('buscas recentes: sem duplicatas, mais recente primeiro, com limite', async
 });
 ```
 
-- [ ] **Step 2: Rodar e ver falhar** — FAIL.
+- [ ] **Step 2: Rodar e ver falhar**, FAIL.
 
 - [ ] **Step 3: Implementar `src/progress/memoryStore.ts`**
 
@@ -1014,9 +1014,9 @@ export class MemoryProgressStore implements ProgressStore {
 
 (`types.ts` conforme o bloco de Interfaces.)
 
-- [ ] **Step 4: Rodar testes** — PASS.
+- [ ] **Step 4: Rodar testes**, PASS.
 
-- [ ] **Step 5: Commit** — `git add src/progress/ && git commit -m "feat: progress store interface + in-memory adapter"`
+- [ ] **Step 5: Commit**, `git add src/progress/ && git commit -m "feat: progress store interface + in-memory adapter"`
 
 ---
 
@@ -1076,5 +1076,5 @@ git push -u origin claude/claude-code-mobile-8l8cdb
 ## Fora deste plano (próximos)
 
 - **Mockups das telas** (portão do spec §7): produzidos e aprovados pelo autor entre 1A e 1B.
-- **Fase 1B — Interface**: design system final, tabs, telas Guia/Busca/Estudar/Perfil, renderizadores de bloco, adaptador SQLite do `ProgressStore`, Sentry.
+- **Fase 1B, Interface**: design system final, tabs, telas Guia/Busca/Estudar/Perfil, renderizadores de bloco, adaptador SQLite do `ProgressStore`, Sentry.
 - **Produção de conteúdo em escala**: workstream editorial próprio (livro → rascunho → revisão do autor), seção por seção, usando o pipeline deste plano.

@@ -79,7 +79,7 @@ export function testarContratoProgressStore(nome: string, criar: () => Promise<P
       expect(doCaso1.every((c) => c.casoId === 'caso-1')).toBe(true);
     });
 
-    test('desmarcar é gravação com carimbo (não DELETE) — leitura permanece idêntica ao contrato de hoje', async () => {
+    test('desmarcar é gravação com carimbo (não DELETE): leitura permanece idêntica ao contrato de hoje', async () => {
       const s = await criar();
       await s.marcarEstudado('t1', true);
       await s.favoritar('t1', true);

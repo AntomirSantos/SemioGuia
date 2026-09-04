@@ -32,7 +32,7 @@ export interface EstadoSync {
    * Gatilho "após ações que gravam progresso, com debounce" (spec §3.2,
    * 4º gatilho de sync). Chame sem `await` logo após uma escrita de
    * progresso (resposta de quiz, item de revisão, conclusão de caso/estação,
-   * marcar-estudado) — dispara `sincronizarAgora()` SEM `forcar`, então o
+   * marcar-estudado): dispara `sincronizarAgora()` SEM `forcar`, então o
    * debounce de 30s de sempre decide se roda; sem sessão/config
    * (`sincronizarAgora` no-opa sem `uid`) é barato o bastante para nunca
    * precisar ser guardado por condicional na tela chamadora.
@@ -45,17 +45,17 @@ const Ctx = createContext<EstadoSync | null>(null);
 /**
  * Lógica do orquestrador (Task 6): `sincronizarAgora` segue exatamente
  * exportar local → ler remoto → merge → aplicarDoSync(paraLocal) →
- * gravarDeltas(paraRemoto) → ultimaSync = Date.now(). Nunca lança — qualquer
+ * gravarDeltas(paraRemoto) → ultimaSync = Date.now(). Nunca lança: qualquer
  * falha (rede, permissão, SDK) vira `erro` no estado, deixando o app intacto
  * (spec: sync degrada em silêncio).
  *
  * Debounce de 30s: reentradas dentro da janela são ignoradas ANTES de tocar
  * qualquer módulo (sem chamar exportar/ler/gravar de novo). `forcar: true`
  * (usado pelo botão "Tentar de novo" do BlocoConta) pula só a checagem do
- * relógio do debounce — a reentrância concorrente continua bloqueada por
+ * relógio do debounce: a reentrância concorrente continua bloqueada por
  * `emAndamentoRef`, sempre. Sem `forcar`, uma falha recente também "gasta" a
  * janela de 30s (mede da última EXECUÇÃO tentada, não da última
- * bem-sucedida) — por isso o retry manual precisa do escape explícito, senão
+ * bem-sucedida), por isso o retry manual precisa do escape explícito, senão
  * o primeiro toque em "Tentar de novo" é sempre um no-op silencioso (achado
  * do round de revisão: o gatilho de foco no Perfil já consome a janela ao
  * chegar na tela).
@@ -63,14 +63,14 @@ const Ctx = createContext<EstadoSync | null>(null);
  * Gatilhos "login" e "app aberto com sessão" são o MESMO efeito abaixo: ele
  * roda tanto quando `usuario` passa de ausente para presente (login) quanto
  * quando o provider já monta com uma sessão persistida (app reaberto
- * logado) — em ambos os casos `uid` muda de `null` para um valor na
+ * logado): em ambos os casos `uid` muda de `null` para um valor na
  * primeira renderização útil. O gatilho "foco no Perfil" fica a cargo de
  * quem consome `useSync()` numa tela (BlocoConta), chamando
  * `sincronizarAgora()` em `useFocusEffect`.
  *
  * Troca de conta: `uid` mudando (inclusive para `null`, no logout) reseta o
  * relógio do debounce e o estado (`ultimaSync`/`erro`) ANTES de qualquer
- * sincronização — sem isso, o debounce e o estado eram globais por
+ * sincronização, sem isso, o debounce e o estado eram globais por
  * `SyncProvider`, não por conta: trocar de conta dentro da janela de 30s
  * pulava a sincronização inicial da conta B (o gatilho "login" que o brief
  * exige) e mostrava o `ultimaSync` da conta A na tela da conta B.
@@ -133,7 +133,7 @@ function useOrquestrador(): EstadoSync {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [uid]);
 
-  // 4º gatilho da spec: fire-and-forget, sem `forcar` — reaproveita o mesmo
+  // 4º gatilho da spec: fire-and-forget, sem `forcar`, reaproveita o mesmo
   // debounce/no-op de `sincronizarAgora` (sem uid/config, ela mesma retorna
   // cedo), então chamar daqui nunca precisa de guarda própria.
   const notificarEscrita = useCallback(() => {
@@ -148,7 +148,7 @@ function useOrquestrador(): EstadoSync {
 
 /**
  * Provider único do orquestrador: monta uma vez em `_layout.tsx`, dentro de
- * `AuthProvider` e `ProgressProvider` (dos quais depende) — assim o estado de
+ * `AuthProvider` e `ProgressProvider` (dos quais depende), assim o estado de
  * sync (e o gatilho de login/app aberto) é compartilhado pelo app inteiro,
  * não recriado a cada tela que chama `useSync()`.
  */

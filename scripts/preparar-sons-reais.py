@@ -1,6 +1,6 @@
 # Prepara as gravações REAIS de ausculta pulmonar a partir do dataset
 # HF_Lung_V1 (Heroic-Faith Medical Science Co. Ltd. + TSECCM, CC BY 4.0,
-# https://gitlab.com/techsupportHF/HF_Lung_V1) — ver assets/sons/LICENCAS.md.
+# https://gitlab.com/techsupportHF/HF_Lung_V1): ver assets/sons/LICENCAS.md.
 #
 # Uso: python3 scripts/preparar-sons-reais.py <dir-com-wavs-do-dataset>
 # Os arquivos-fonte (15 s, 4 kHz, rotulados) foram selecionados por rótulo

@@ -25,18 +25,18 @@ tags:
   - parvus et tardus
   - tamponamento cardíaco
 referencias:
-  - "Porto — Exame Clínico, 8ª ed., cap. 13 (Exame dos pulsos radial, periféricos e venoso)"
-  - "Porto — Exame Clínico, 8ª ed., cap. 21 (Sinais vitais) — seção de frequência cardíaca"
-  - "Porto — Semiologia Médica, 8ª ed., cap. 47 (Exame clínico do sistema cardiovascular) — seções de pulso radial e frequência cardíaca"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 15 (Pulse Rate and Contour)"
-  - "Porto — Exame Clínico, 8ª ed., cap. 15 (Exame de cabeça e pescoço) — boxe sinal de Kussmaul"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 36 (Inspection of the Neck Veins) — Kussmaul sign"
+  - "Porto, Exame Clínico, 8ª ed., cap. 13 (Exame dos pulsos radial, periféricos e venoso)"
+  - "Porto, Exame Clínico, 8ª ed., cap. 21 (Sinais vitais), seção de frequência cardíaca"
+  - "Porto, Semiologia Médica, 8ª ed., cap. 47 (Exame clínico do sistema cardiovascular), seções de pulso radial e frequência cardíaca"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 15 (Pulse Rate and Contour)"
+  - "Porto, Exame Clínico, 8ª ed., cap. 15 (Exame de cabeça e pescoço), boxe sinal de Kussmaul"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 36 (Inspection of the Neck Veins), Kussmaul sign"
 revisao: ok
 ---
 
 ::: cena
 texto: |
-  A técnica anotou "FC 78" e seguiu para o próximo leito. Você palpa a mesma radial e algo incomoda: as ondas vêm sem cadência nenhuma, umas cheias, outras que quase somem. No precórdio, o estetoscópio conta 96. Entre o número da prancheta e o que os seus dedos acabaram de sentir existe um diagnóstico — e é ele que este tópico ensina a não deixar passar.
+  A técnica anotou "FC 78" e seguiu para o próximo leito. Você palpa a mesma radial e algo incomoda: as ondas vêm sem cadência nenhuma, umas cheias, outras que quase somem. No precórdio, o estetoscópio conta 96. Entre o número da prancheta e o que os seus dedos acabaram de sentir existe um diagnóstico, e é ele que este tópico ensina a não deixar passar.
 :::
 
 ::: secao
@@ -48,16 +48,16 @@ titulo: Sete informações, não um número
 texto: |
   A tomada do pulso radial é o gesto mais simples do exame físico. Muitas vezes é o primeiro contato direto entre médico e paciente. Bem feito, ele entrega sete informações.
 
-  1. **Estado da parede arterial** — normalmente lisa e facilmente depressível. Parede endurecida e tortuosa é a "traqueia de passarinho".
-  2. **Frequência** — 60 a 100 bpm no adulto em repouso. Acima de 100, taquisfigmia (taquicardia); abaixo de 60, bradisfigmia (bradicardia). Atletas bem treinados podem ter 50 a 60 bpm sem doença.
-  3. **Ritmo** — regular quando os intervalos são iguais; irregular quando variam.
-  4. **Amplitude** — amplo, mediano ou pequeno.
-  5. **Tensão ou dureza** — a força necessária para interromper as pulsações. Pulso duro acompanha hipertensão; pulso mole, hipotensão.
-  6. **Tipo de onda** — normal, **alternante** (sinal de insuficiência ventricular esquerda), paradoxal ou bisferiens; e ainda:
+  1. **Estado da parede arterial**: normalmente lisa e facilmente depressível. Parede endurecida e tortuosa é a "traqueia de passarinho".
+  2. **Frequência**: 60 a 100 bpm no adulto em repouso. Acima de 100, taquisfigmia (taquicardia); abaixo de 60, bradisfigmia (bradicardia). Atletas bem treinados podem ter 50 a 60 bpm sem doença.
+  3. **Ritmo**: regular quando os intervalos são iguais; irregular quando variam.
+  4. **Amplitude**: amplo, mediano ou pequeno.
+  5. **Tensão ou dureza**: a força necessária para interromper as pulsações. Pulso duro acompanha hipertensão; pulso mole, hipotensão.
+  6. **Tipo de onda**, normal, **alternante** (sinal de insuficiência ventricular esquerda), paradoxal ou bisferiens; e ainda:
      - **célere**, em martelo d'água: insuficiência aórtica;
      - **parvus**, de ascensão lenta e pico prolongado: estenose aórtica grave;
      - **filiforme**, pequeno e mole: colapso circulatório.
-  7. **Comparação com o lado homólogo** — a desigualdade aponta obstrução na crossa da aorta ou nos troncos que dela partem.
+  7. **Comparação com o lado homólogo**: a desigualdade aponta obstrução na crossa da aorta ou nos troncos que dela partem.
 :::
 
 ::: conceito
@@ -133,7 +133,7 @@ passos:
   - "Localize a radial no sulco delimitado pelo tendão dos flexores e pela apófise estiloide do rádio."
   - "Palpe com as polpas do indicador e do médio; o polegar apenas se apoia, delicadamente, no dorso do punho."
   - "Varie a força de compressão até obter o impulso máximo."
-  - "Conte as pulsações durante 60 segundos completos — nunca 15 segundos multiplicados por quatro."
+  - "Conte as pulsações durante 60 segundos completos, nunca 15 segundos multiplicados por quatro."
   - "Avalie o ritmo pela sequência dos intervalos e a amplitude pela sensação de cada onda."
   - "Palpe as duas artérias radiais simultaneamente para comparar a amplitude entre os lados."
   - "Ausculte o precórdio contando os batimentos no mesmo minuto e compare com o número de pulsações."
@@ -156,8 +156,8 @@ texto: |
 :::
 
 ::: pense
-pergunta: O pulso alterna uma onda forte e uma fraca. O que decide se é pulso alternante ou bigeminado — e por que a diferença importa?
-resposta: O intervalo. No alternante os intervalos são regulares — sinal de insuficiência ventricular esquerda. No bigeminado a onda fraca é uma extrassístole que chega cedo e deixa o intervalo irregular. Mesma sensação nos dedos, dois diagnósticos diferentes.
+pergunta: O pulso alterna uma onda forte e uma fraca. O que decide se é pulso alternante ou bigeminado, e por que a diferença importa?
+resposta: "O intervalo. No alternante os intervalos são regulares: sinal de insuficiência ventricular esquerda. No bigeminado a onda fraca é uma extrassístole que chega cedo e deixa o intervalo irregular. Mesma sensação nos dedos, dois diagnósticos diferentes."
 :::
 
 ::: secao
@@ -200,7 +200,7 @@ causas:
 :::
 
 ::: conceito
-titulo: Pulso paradoxal — como aferir e quanto vale
+titulo: Pulso paradoxal, como aferir e quanto vale
 nivel: avancado
 texto: |
   Em pessoas normais a PAS já cai na inspiração, em média 6 mmHg (± 3). Alguns autores preferem o limiar de 12 mmHg, que corresponde ao limite superior do intervalo de confiança em indivíduos saudáveis.
@@ -244,23 +244,23 @@ itens:
 
 ::: relampago
 caso: |
-  Idoso de 84 anos, pressão de consultório sempre alta apesar de três anti-hipertensivos, sem qualquer lesão de órgão-alvo. Ao palpar a radial, a artéria rola sob os seus dedos endurecida e tortuosa — uma "traqueia de passarinho".
+  Idoso de 84 anos, pressão de consultório sempre alta apesar de três anti-hipertensivos, sem qualquer lesão de órgão-alvo. Ao palpar a radial, a artéria rola sob os seus dedos endurecida e tortuosa: uma "traqueia de passarinho".
 pergunta: |
   O que esse achado sugere antes de escalar o tratamento?
 opcoes:
-  - "Pseudo-hipertensão por mediosclerose — o manguito pode estar superestimando a PA"
-  - "Hipertensão resistente verdadeira — acrescentar o quarto fármaco e agendar retorno precoce"
-  - "Achado sem relação com a pressão — seguir o protocolo"
+  - "Pseudo-hipertensão por mediosclerose: o manguito pode estar superestimando a PA"
+  - "Hipertensão resistente verdadeira: acrescentar o quarto fármaco e agendar retorno precoce"
+  - "Achado sem relação com a pressão: seguir o protocolo"
 corretaIndex: 0
 desfecho: |
-  A parede endurecida e tortuosa — a traqueia de passarinho — sugere mediosclerose de Mönckeberg, causa clássica de pseudo-hipertensão no idoso. É o que a manobra de Osler, no tópico de pressão arterial, procura: a radial que continua palpável com o manguito insuflado acima da sistólica. O estado da parede é a primeira das sete informações do pulso — e aqui ela vale um tratamento inteiro.
+  A parede endurecida e tortuosa, a traqueia de passarinho, sugere mediosclerose de Mönckeberg, causa clássica de pseudo-hipertensão no idoso. É o que a manobra de Osler, no tópico de pressão arterial, procura: a radial que continua palpável com o manguito insuflado acima da sistólica. O estado da parede é a primeira das sete informações do pulso, e aqui ela vale um tratamento inteiro.
 :::
 
 ::: resumo
 linhas:
-  - "O pulso radial entrega sete informações — parede, frequência, ritmo, amplitude, tensão, tipo de onda e comparação entre os lados — em 60 segundos completos de contagem."
+  - "O pulso radial entrega sete informações (parede, frequência, ritmo, amplitude, tensão, tipo de onda e comparação entre os lados) em 60 segundos completos de contagem."
   - "Frequência cardíaca não é frequência de pulso: conte no precórdio e na radial no mesmo minuto; déficit de pulso com ritmo totalmente irregular é fibrilação atrial até prova em contrário."
-  - "Pulso paradoxal se mede com o manguito (queda inspiratória > 10 mmHg) e pesa muito no tamponamento; não confunda os três Kussmaul — pulso, sinal e respiração."
+  - "Pulso paradoxal se mede com o manguito (queda inspiratória > 10 mmHg) e pesa muito no tamponamento; não confunda os três Kussmaul: pulso, sinal e respiração."
 :::
 
 ::: secao

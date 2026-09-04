@@ -44,7 +44,7 @@ export function chaveConclusao(c: ConclusaoCaso): string {
 }
 
 // União por chave natural: cada lado recebe apenas o que lhe falta (delta, não
-// o estado completo). Duplicatas com a mesma chave não são repetidas — nem as
+// o estado completo). Duplicatas com a mesma chave não são repetidas, nem as
 // que já vêm duplicadas dentro do mesmo lado, por isso cada lado é colapsado a
 // uma entrada por chave antes de diferenciar contra o outro lado.
 function mergeHistorico<T>(
@@ -108,7 +108,7 @@ function itensRevisaoIguais(a: ItemRevisao, b: ItemRevisao): boolean {
   );
 }
 
-// LWW por Date.parse(atualizadoEm) — mesmas regras de empate de mergeCarimbado.
+// LWW por Date.parse(atualizadoEm): mesmas regras de empate de mergeCarimbado.
 function mergeItensRevisao(
   local: Record<string, ItemRevisao>,
   remoto: Record<string, ItemRevisao>,

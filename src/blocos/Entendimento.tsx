@@ -9,7 +9,7 @@ import { TextoRico } from './texto';
 type EntendimentoBloco = Extract<Bloco, { tipo: 'entendimento' }>;
 
 // Card de "entendimento clínico": não é um sinal nem uma pérola, é o porquê
-// por trás do achado — fundo superficie2 (um degrau acima do fundo comum) e
+// por trás do achado: fundo superficie2 (um degrau acima do fundo comum) e
 // borda esquerda de acento, para diferenciar visualmente dos demais cartões
 // (que usam superficie + borda ao redor).
 export function Entendimento({ bloco }: { bloco: EntendimentoBloco }) {

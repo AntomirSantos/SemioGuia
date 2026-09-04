@@ -6,7 +6,7 @@ import { espaco, fonte, tipo } from '../design/tokens';
 type SecaoBloco = Extract<Bloco, { tipo: 'secao' }>;
 
 // Cabeçalho de seção: divide compartimentos dentro de um tópico. Identidade
-// editorial R2: uma REGRA de 2.5px em tinta acima do título em Bodoni — a
+// editorial R2: uma REGRA de 2.5px em tinta acima do título em Bodoni: a
 // mesma linguagem de regras tipográficas dos rótulos de seção da home.
 export function Secao({ bloco }: { bloco: SecaoBloco }) {
   const { paleta, escala } = useTema();

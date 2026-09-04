@@ -61,7 +61,7 @@ test('barra de progresso do sistema expõe accessibilityRole e valor', async () 
   const { getByRole } = await renderHome(store);
 
   // `getByRole('progressbar')` só encontra o elemento porque a View leva
-  // `accessible` — sem isso, RNTL (e o leitor de tela real) nunca expõe o
+  // `accessible`, sem isso, RNTL (e o leitor de tela real) nunca expõe o
   // role/valor como um controle distinto, mesmo com accessibilityRole
   // presente. Filtra pelo `name` (accessibilityLabel) porque há uma barra
   // por sistema (uma para cada sistema do guia).
@@ -90,7 +90,7 @@ test('com "ultimoTopico" salvo, mostra o cartão e navega para o tópico ao toca
   });
   expect(getByText('Pressão arterial')).toBeTruthy();
   // "Exame físico geral" aparece 2x (cartão "Continuar" + cartão do próprio
-  // sistema na grade) — confirma só a presença, sem exigir unicidade.
+  // sistema na grade): confirma só a presença, sem exigir unicidade.
   expect(getAllByText('Exame físico geral').length).toBe(2);
 
   fireEvent.press(getByText('Pressão arterial'));

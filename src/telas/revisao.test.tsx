@@ -107,7 +107,7 @@ test('sessão com 1 pergunta certa salva o item com repeticoes: 1 e mostra o res
   expect(getByText('1 acerto · 0 erros')).toBeTruthy();
 
   // pa-1 acabou de ser reagendado para amanhã (repeticoes: 1, intervaloDias:
-  // 1) — a "próxima leva" deve contá-lo.
+  // 1): a "próxima leva" deve contá-lo.
   await waitFor(() => {
     expect(getByText('Próxima leva: 1 item amanhã')).toBeTruthy();
   });

@@ -7,7 +7,7 @@ import { espaco, fonte, raio, tipo } from './tokens';
 
 // "Seção X de Y" + barra fina de progresso na cor do sistema (spec Fase 8
 // §3.1). A barra é decorativa (progressbar não-textual, limiar de contraste
-// não-textual de 3:1) — cores arbitrárias de sistema são seguras aqui, ao
+// não-textual de 3:1), cores arbitrárias de sistema são seguras aqui, ao
 // contrário de texto sobre a cor (ver BotaoSecao abaixo).
 export function IndicadorSecao({ indice, total, cor }: { indice: number; total: number; cor?: string }) {
   const { paleta } = useTema();
@@ -33,7 +33,7 @@ export function IndicadorSecao({ indice, total, cor }: { indice: number; total: 
 // Botão de navegação sequencial ao fim da seção. Identidade editorial R2:
 // o botão de destaque ("Próxima seção") é um bloco de TINTA sólida com
 // texto de papel; o secundário é wash de papel com texto em tinta. Nunca
-// aplicamos a cor do sistema atrás de texto — ela é arbitrária por conteúdo
+// aplicamos a cor do sistema atrás de texto, ela é arbitrária por conteúdo
 // e não tem contraste garantido (o par tinta/fundo é o que o gate cobre).
 function BotaoSecao({
   rotulo,
@@ -83,7 +83,7 @@ function BotaoSecao({
 
 // "Anterior/Próxima seção" ao fim de cada seção (spec Fase 8 §3.1): o
 // aluno avança como em páginas, não em rolagem infinita. Some o lado sem
-// destino (primeira/última seção) em vez de desabilitar — evita alvo morto.
+// destino (primeira/última seção) em vez de desabilitar: evita alvo morto.
 export function NavegacaoSecao({
   temAnterior,
   temProxima,

@@ -127,7 +127,7 @@ test('exportarEventos devolve envelope JSON com userId e todos os eventos', asyn
 
 test('sem store configurado (fora do app), track degrada para memória sem lançar', async () => {
   // reiniciarAnalytics deixou store=null; criarStoreEventosPadrao tenta o
-  // SQLite nativo, que não existe no Jest — o fallback interno é memória.
+  // SQLite nativo, que não existe no Jest: o fallback interno é memória.
   expect(() => track('app_aberto')).not.toThrow();
   await aguardarAnalytics();
   const json = await exportarEventos();

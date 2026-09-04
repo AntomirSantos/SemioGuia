@@ -191,7 +191,7 @@ test('pense esconde a resposta até o toque em "Mostrar resposta"', async () => 
   const bloco: Bloco = {
     tipo: 'pense',
     pergunta: 'O sopro que coincide com a onda carotídea é sistólico ou diastólico?',
-    resposta: 'Sistólico — a onda carotídea marca a sístole.',
+    resposta: 'Sistólico, a onda carotídea marca a sístole.',
   };
   const { getByText, queryByText } = await renderBloco(bloco);
   expect(getByText(/onda carotídea é sistólico/)).toBeTruthy();
@@ -217,7 +217,7 @@ test('caso-relâmpago revela o desfecho após a escolha e trava as opções', as
     pergunta: 'Qual é a primeira providência?',
     opcoes: ['Aguardar a manhã', 'Examinar agora, com sinais vitais', 'Prescrever analgesia sem exame'],
     corretaIndex: 1,
-    desfecho: 'O exame imediato encontrou hipotensão — a espera teria custado caro.',
+    desfecho: 'O exame imediato encontrou hipotensão, a espera teria custado caro.',
   };
   const { getByText, queryByText, getAllByRole } = await renderBloco(bloco);
   expect(getByText(/leito 3/)).toBeTruthy();
@@ -250,13 +250,13 @@ test('som renderiza título, descrição, aviso e chama play ao tocar', async ()
   __resetMockPlayer();
   const bloco: Bloco = {
     tipo: 'som',
-    titulo: 'Bulhas normais — TUM-TA',
+    titulo: 'Bulhas normais: TUM-TA',
     arquivo: 'bulhas-normais',
     descricao: 'B1 mais grave; B2 mais aguda e seca.',
   };
   const { getByText, getByRole } = await renderBloco(bloco);
   expect(getByText('Ausculta')).toBeTruthy();
-  expect(getByText('Bulhas normais — TUM-TA')).toBeTruthy();
+  expect(getByText('Bulhas normais: TUM-TA')).toBeTruthy();
   expect(getByText(/B2 mais aguda/)).toBeTruthy();
   expect(getByText(/Som sintetizado para estudo/)).toBeTruthy();
 

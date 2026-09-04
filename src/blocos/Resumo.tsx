@@ -6,7 +6,7 @@ import { TextoRico } from './texto';
 
 type ResumoBloco = Extract<Bloco, { tipo: 'resumo' }>;
 
-// Fecho do tópico (didática 2026-09): exatamente três frases de saída — as
+// Fecho do tópico (didática 2026-09): exatamente três frases de saída, as
 // que o leitor deve conseguir repetir amanhã. Identidade tipográfica de
 // colofão: regra forte em tinta no topo (a separação por regras da casa),
 // título em Bodoni e numerais vinho em display.

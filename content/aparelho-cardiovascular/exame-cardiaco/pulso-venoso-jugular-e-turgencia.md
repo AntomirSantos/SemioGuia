@@ -41,19 +41,19 @@ tags:
   - perfusão periférica
   - enchimento capilar
 referencias:
-  - "Porto — Semiologia Médica, 8ª ed., Parte 10 (Sistema Cardiovascular), Seção 1, cap. 47 (Exame Clínico) — Ingurgitamento e pulsações das veias jugulares; Pulso venoso normal e flebograma; Alterações do pulso venoso"
-  - "Porto — Semiologia Médica, 8ª ed., Parte 3 (Exame Físico Geral), cap. 8 — Edema: intensidade, consistência, elasticidade, temperatura e sensibilidade; edema cardíaco"
-  - "Porto — Exame Clínico, 8ª ed., cap. 13 (Exame dos Pulsos Radial, Periféricos e Venoso) — Pulso venoso, turgência ou ingurgitamento jugular; boxe Pulso venoso e pulsações carotídeas"
-  - "Porto — Semiologia Médica, 8ª ed., Parte 14 (Sistema Digestivo), cap. 91 (Exame Clínico) — pesquisa do refluxo hepatojugular durante a palpação hepática"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 36 (Inspection of the Neck Veins), p. 301-314"
-  - "Semiologia Clínica, 1ª ed., cap. Semiologia cardiovascular — Avaliação do pulso venoso, estase jugular, método de Lewis, refluxo hepatojugular e sinal de Kussmaul (Tabelas 2 e 3)"
-  - "Semiologia Clínica, 1ª ed., cap. Insuficiência arterial periférica — limitações do tempo de enchimento capilar, da temperatura e da perda de pelos como achados isolados"
+  - "Porto, Semiologia Médica, 8ª ed., Parte 10 (Sistema Cardiovascular), Seção 1, cap. 47 (Exame Clínico), Ingurgitamento e pulsações das veias jugulares; Pulso venoso normal e flebograma; Alterações do pulso venoso"
+  - "Porto, Semiologia Médica, 8ª ed., Parte 3 (Exame Físico Geral), cap. 8, Edema: intensidade, consistência, elasticidade, temperatura e sensibilidade; edema cardíaco"
+  - "Porto, Exame Clínico, 8ª ed., cap. 13 (Exame dos Pulsos Radial, Periféricos e Venoso), Pulso venoso, turgência ou ingurgitamento jugular; boxe Pulso venoso e pulsações carotídeas"
+  - "Porto, Semiologia Médica, 8ª ed., Parte 14 (Sistema Digestivo), cap. 91 (Exame Clínico), pesquisa do refluxo hepatojugular durante a palpação hepática"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 36 (Inspection of the Neck Veins), p. 301-314"
+  - "Semiologia Clínica, 1ª ed., cap. Semiologia cardiovascular, Avaliação do pulso venoso, estase jugular, método de Lewis, refluxo hepatojugular e sinal de Kussmaul (Tabelas 2 e 3)"
+  - "Semiologia Clínica, 1ª ed., cap. Insuficiência arterial periférica, limitações do tempo de enchimento capilar, da temperatura e da perda de pelos como achados isolados"
 revisao: ok
 ---
 
 ::: cena
 texto: |
-  Pernas inchadas: "é o coração, doutor?". A resposta pode não estar nas pernas — está no pescoço. Cabeceira a 45 graus, luz rasante, e a pergunta certa: até que altura sobe a coluna nas jugulares? O pescoço é o manômetro de pressão venosa que todo paciente traz de fábrica, e quem aprende a lê-lo separa em minutos o edema cardíaco dos outros.
+  Pernas inchadas: "é o coração, doutor?". A resposta pode não estar nas pernas: está no pescoço. Cabeceira a 45 graus, luz rasante, e a pergunta certa: até que altura sobe a coluna nas jugulares? O pescoço é o manômetro de pressão venosa que todo paciente traz de fábrica, e quem aprende a lê-lo separa em minutos o edema cardíaco dos outros.
 :::
 
 ::: secao
@@ -65,12 +65,12 @@ titulo: Uma janela para o coração direito
 texto: |
   Do átrio direito até a jugular interna do lado direito, o sangue corre por um caminho reto e sem obstáculo. Isso faz do pescoço um manômetro improvisado: a pressão de enchimento da câmara direita empurra a coluna de sangue para cima, e a altura em que essa coluna para é a pressão venosa central.
 
-  A jugular interna direita é a melhor via porque tem trajeto retificado e caminho direto para o coração. As veias do lado esquerdo alcançam o coração atravessando o mediastino, onde a aorta pode comprimi-las — e por isso a jugular esquerda pode estar ingurgitada com pressão venosa central normal.
+  A jugular interna direita é a melhor via porque tem trajeto retificado e caminho direto para o coração. As veias do lado esquerdo alcançam o coração atravessando o mediastino, onde a aorta pode comprimi-las, e por isso a jugular esquerda pode estar ingurgitada com pressão venosa central normal.
 
   Duas coisas diferentes se avaliam no mesmo lugar.
 
-  - **Turgência (ou ingurgitamento) jugular** — a altura da coluna, isto é, *quanto* a pressão está.
-  - **Pulso venoso** — o formato da onda, isto é, *como* o coração direito está trabalhando.
+  - **Turgência (ou ingurgitamento) jugular**: a altura da coluna, isto é, *quanto* a pressão está.
+  - **Pulso venoso**: o formato da onda, isto é, *como* o coração direito está trabalhando.
 :::
 
 ::: conceito
@@ -79,7 +79,7 @@ texto: |
   Confundir pulsação venosa com pulsação carotídea inutiliza tudo o que vem depois. Cinco diferenças resolvem.
 
   1. **Formato.** O pulso venoso é ondulante, com várias ondas e depressões por ciclo; o movimento mais marcante é para dentro, o descenso. O pulso carotídeo tem uma onda única, e o movimento marcante é para fora.
-  2. **Palpável ou visível.** O pulso venoso é mais visível que palpável — é uma onda de volume, com pressão baixa. O carotídeo é nitidamente palpável.
+  2. **Palpável ou visível.** O pulso venoso é mais visível que palpável: é uma onda de volume, com pressão baixa. O carotídeo é nitidamente palpável.
   3. **Posição.** O pulso venoso fica mais evidente na horizontal e desce no pescoço à medida que o paciente se senta. O carotídeo não muda com a posição.
   4. **Respiração.** O pulso venoso varia com a respiração; o carotídeo, não.
   5. **Compressão.** Uma compressão leve na base do pescoço, logo acima da extremidade esternal da clavícula, apaga o pulso venoso. Não há como suprimir o carotídeo assim.
@@ -133,17 +133,17 @@ titulo: Como examinar
 ::: manobra
 titulo: Exame do pulso venoso e da turgência jugular
 passos:
-  - "Deite o paciente e ajuste a cabeceira até que o topo da coluna venosa fique visível — quase horizontal quando a pressão é normal, em torno de 45° quando há hipertensão venosa."
+  - "Deite o paciente e ajuste a cabeceira até que o topo da coluna venosa fique visível, quase horizontal quando a pressão é normal, em torno de 45° quando há hipertensão venosa."
   - "Use dois travesseiros ou a manivela da cama; o objetivo é a coluna visível, não um ângulo fixo."
   - "Examine o lado direito do pescoço, com a cabeça do paciente ligeiramente voltada para a esquerda."
   - "Ilumine o pescoço de forma tangencial, para que as ondulações produzam sombra."
   - "Identifique o topo da coluna: o ponto acima do qual a jugular externa deixa de ser visível, ou acima do qual as ondulações da jugular interna desaparecem."
-  - "Confirme que a pulsação é venosa — ondulante, mais visível que palpável, variável com a posição e com a respiração, abolida pela compressão leve na base do pescoço."
+  - "Confirme que a pulsação é venosa: ondulante, mais visível que palpável, variável com a posição e com a respiração, abolida pela compressão leve na base do pescoço."
   - "Meça a distância vertical entre o topo da coluna e o ângulo esternal (ângulo de Louis)."
   - "Procure as pulsações na parte mais baixa do pescoço, às vezes mais nítidas entre as duas inserções do esternocleidomastóideo."
   - "Cronometre os descensos auscultando o coração ou palpando a carótida do lado oposto."
   - "Pesquise o refluxo hepatojugular comprimindo firme e continuamente o abdome por cerca de 10 segundos, enquanto observa o pescoço."
-  - "Peça respirações tranquilas e observe se a coluna sobe na inspiração — sinal de Kussmaul."
+  - "Peça respirações tranquilas e observe se a coluna sobe na inspiração: sinal de Kussmaul."
 observar: |
   A leitura é mais fiel na expiração. Na inspiração a coluna desce no pescoço e o examinador tende a subestimar a pressão. Não force o paciente a um ângulo padronizado só porque "o exame é a 45°": a posição correta é aquela em que o topo da coluna aparece.
 :::
@@ -173,10 +173,10 @@ texto: |
   As causas se organizam em três grupos.
 
   - **Falência do coração direito**, incluindo as causas que a produzem a partir do coração esquerdo ou do pulmão.
-  - **Doença do pericárdio** — tamponamento e pericardite constritiva.
+  - **Doença do pericárdio**: tamponamento e pericardite constritiva.
   - **Obstrução da veia cava superior**, por compressão extrínseca.
 
-  Em quem tem edema ou ascite, a turgência é o dado que separa o coração do fígado: pressão venosa elevada aponta para causa cardíaca ou pulmonar; pressão venosa normal aponta para outra origem — na doença hepática crônica a pressão venosa central é normal, e o edema decorre da hipoalbuminemia e do peso da ascite comprimindo as veias das pernas.
+  Em quem tem edema ou ascite, a turgência é o dado que separa o coração do fígado: pressão venosa elevada aponta para causa cardíaca ou pulmonar; pressão venosa normal aponta para outra origem, na doença hepática crônica a pressão venosa central é normal, e o edema decorre da hipoalbuminemia e do peso da ascite comprimindo as veias das pernas.
 :::
 
 ::: conceito
@@ -185,13 +185,13 @@ nivel: avancado
 texto: |
   A referência externa mais prática é o ângulo esternal, porque qualquer examinador o encontra com segurança. Thomas Lewis observou, em 1930, que o topo da coluna jugular de pessoas normais permanece a 1 ou 2 cm de distância vertical do ângulo esternal, esteja o paciente deitado, semissentado ou de pé.
 
-  Do costume derivou o chamado método de Lewis: a pressão venosa central corresponde à distância vertical entre o topo da coluna e um ponto cerca de 5 cm abaixo do ângulo esternal — alguns autores usam 4,5 cm como distância até o átrio direito. Assim, uma coluna 2 cm acima do ângulo esternal corresponde a uma pressão de aproximadamente 7 cmH₂O.
+  Do costume derivou o chamado método de Lewis: a pressão venosa central corresponde à distância vertical entre o topo da coluna e um ponto cerca de 5 cm abaixo do ângulo esternal, alguns autores usam 4,5 cm como distância até o átrio direito. Assim, uma coluna 2 cm acima do ângulo esternal corresponde a uma pressão de aproximadamente 7 cmH₂O.
 
   Considera-se a pressão elevada quando o topo da coluna está mais de 3 cm acima do ângulo esternal, o que equivale a mais de 8 cmH₂O pelo método de Lewis. A estimativa de beira de leito fica dentro de 4 cmH₂O da medida por cateter em cerca de 85% das vezes.
 
   Duas ressalvas úteis.
 
-  - **A jugular externa serve.** O ensino tradicional privilegia a interna por causa das válvulas da externa, mas a interna também tem válvulas, e as medidas nas duas são semelhantes — é o que a maioria dos estudos modernos encontra, contra um único estudo antigo discordante. O que a interna oferece de melhor não é a pressão, e sim o formato das ondas.
+  - **A jugular externa serve.** O ensino tradicional privilegia a interna por causa das válvulas da externa, mas a interna também tem válvulas, e as medidas nas duas são semelhantes: é o que a maioria dos estudos modernos encontra, contra um único estudo antigo discordante. O que a interna oferece de melhor não é a pressão, e sim o formato das ondas.
   - **O examinador tende a subestimar.** A distância vertical entre o ângulo esternal e o átrio direito muda com a posição: é maior no decúbito dorsal e menor na posição semissentada. Como as pressões altas só são visíveis em posições mais verticalizadas, o método pode devolver um valor normal em pacientes com pressão discretamente elevada.
 :::
 
@@ -238,7 +238,7 @@ linhas:
 titulo: O que o olho realmente vê
 nivel: avancado
 texto: |
-  No papel, o traçado tem três ondas positivas (a, c, v) e três negativas (x, x′, y). No pescoço, essa contabilidade não se sustenta: a onda c é pequena demais para ser vista, e os dois primeiros descensos — x, do relaxamento atrial, e x′, da descida do anel atrioventricular — chegam ao olho fundidos em um só, que a literatura chama de **x′**.
+  No papel, o traçado tem três ondas positivas (a, c, v) e três negativas (x, x′, y). No pescoço, essa contabilidade não se sustenta: a onda c é pequena demais para ser vista, e os dois primeiros descensos (x, do relaxamento atrial, e x′, da descida do anel atrioventricular) chegam ao olho fundidos em um só, que a literatura chama de **x′**.
 
   O que o examinador de fato conta são, portanto, **dois descensos por ciclo**: o x′, mais marcante, e o y, menor.
 
@@ -247,7 +247,7 @@ texto: |
   - **Pelas bulhas**: o descenso x′ termina imediatamente antes de B2, como uma ladeira que desce e vai dar em B2; o descenso y começa logo depois de B2.
   - **Pela carótida**: o descenso x′ é sistólico e coincide com o toque da carótida; o descenso y vem depois, com atraso semelhante ao intervalo entre B1 e B2 daquele paciente.
 
-  O padrão normal tem x′ proeminente e y pequeno ou ausente, sem qualquer movimento brusco para fora. Uma simplificação prática é procurar a sequência **onda a — colapso — onda v — colapso**, que dá ao pescoço o aspecto de uma onda positiva diastólica e uma onda negativa sistólica. A tradição batiza esse traçado de pulso venoso negativo, justamente porque o que salta aos olhos é uma queda, e não uma batida.
+  O padrão normal tem x′ proeminente e y pequeno ou ausente, sem qualquer movimento brusco para fora. Uma simplificação prática é procurar a sequência **onda a, colapso, onda v: colapso**, que dá ao pescoço o aspecto de uma onda positiva diastólica e uma onda negativa sistólica. A tradição batiza esse traçado de pulso venoso negativo, justamente porque o que salta aos olhos é uma queda, e não uma batida.
 :::
 
 ::: tabela
@@ -257,17 +257,17 @@ colunas:
   - "Significado"
 linhas:
   - - "Onda a gigante (movimento brusco pré-sistólico, antes de B1)"
-    - "Contração atrial vigorosa contra obstrução ao esvaziamento do átrio ou do ventrículo direito — estenose tricúspide, atresia tricúspide, estenose pulmonar, hipertensão pulmonar grave. Exige ritmo sinusal preservado"
+    - "Contração atrial vigorosa contra obstrução ao esvaziamento do átrio ou do ventrículo direito: estenose tricúspide, atresia tricúspide, estenose pulmonar, hipertensão pulmonar grave. Exige ritmo sinusal preservado"
   - - "Onda a em canhão intermitente, com pulso arterial regular"
-    - "Dissociação atrioventricular — o átrio se contrai com a tricúspide fechada e joga sangue para o pescoço"
+    - "Dissociação atrioventricular: o átrio se contrai com a tricúspide fechada e joga sangue para o pescoço"
   - - "Onda a ausente e descenso x′ reduzido"
     - "Fibrilação atrial; sem contração atrial não há onda a, e o encolhimento do descenso mostra o quanto ele depende do relaxamento atrial. O y passa a ser o descenso dominante"
   - - "Onda sistólica proeminente (onda cv), coincidente com a carótida"
     - "Insuficiência tricúspide de grau moderado a grave"
   - - "Descenso y profundo (colapso diastólico abrupto)"
-    - "Pressão venosa elevada com enchimento diastólico inicial rápido e abrupto — pericardite constritiva; também comunicação interatrial. Junto com o descenso x′, desenha o padrão em W ou M no pescoço"
+    - "Pressão venosa elevada com enchimento diastólico inicial rápido e abrupto: pericardite constritiva; também comunicação interatrial. Junto com o descenso x′, desenha o padrão em W ou M no pescoço"
   - - "Descenso y ausente com pressão venosa elevada"
-    - "Restrição ao enchimento diastólico inicial — tamponamento cardíaco, estenose tricúspide"
+    - "Restrição ao enchimento diastólico inicial: tamponamento cardíaco, estenose tricúspide"
 :::
 
 ::: secao
@@ -283,7 +283,7 @@ descricao: |
 significado: |
   Um teste positivo indica pressões de enchimento elevadas do coração esquerdo. Em quem se apresenta com dispneia, isso significa que pelo menos parte do quadro vem do lado esquerdo do coração. O teste negativo reduz essa probabilidade.
 
-  O sinal nasceu como refluxo hepatojugular, descrito por Pasteur em 1885 e considerado então patognomônico de insuficiência tricúspide. Descobriu-se depois que pacientes com tricúspide normal também o apresentam, e que a compressão de qualquer região do abdome — não apenas do fígado — o produz. Daí o nome moderno, teste abdominojugular.
+  O sinal nasceu como refluxo hepatojugular, descrito por Pasteur em 1885 e considerado então patognomônico de insuficiência tricúspide. Descobriu-se depois que pacientes com tricúspide normal também o apresentam, e que a compressão de qualquer região do abdome, não apenas do fígado, o produz. Daí o nome moderno, teste abdominojugular.
 causas:
   - "Insuficiência cardíaca com pressões de enchimento elevadas"
   - "Insuficiência ventricular direita"
@@ -292,13 +292,13 @@ causas:
 
 ::: sinal
 nome: Sinal de Kussmaul
-descricao: Elevação paradoxal da coluna venosa jugular durante a inspiração. O normal é o oposto — a queda da pressão intratorácica reduz as pressões no coração direito e a coluna desce.
+descricao: "Elevação paradoxal da coluna venosa jugular durante a inspiração. O normal é o oposto: a queda da pressão intratorácica reduz as pressões no coração direito e a coluna desce."
 significado: |
-  Traduz um ventrículo direito incapaz de acomodar o volume extra que a inspiração lhe traz — seja porque o pericárdio o restringe, seja porque ele já está dilatado dentro de um pericárdio normal. Costuma andar junto com um teste abdominojugular francamente positivo, e há quem o descreva como um teste abdominojugular inspiratório, produzido pela descida do diafragma sobre o abdome.
+  Traduz um ventrículo direito incapaz de acomodar o volume extra que a inspiração lhe traz, seja porque o pericárdio o restringe, seja porque ele já está dilatado dentro de um pericárdio normal. Costuma andar junto com um teste abdominojugular francamente positivo, e há quem o descreva como um teste abdominojugular inspiratório, produzido pela descida do diafragma sobre o abdome.
 
   É classicamente associado à pericardite constritiva, mas está presente apenas na minoria desses pacientes. Quando encontrado na insuficiência cardíaca grave, associa-se a pior prognóstico.
 
-  Não confundir com os outros dois epônimos de Kussmaul, tratados no tópico de frequência cardíaca e pulso — o pulso paradoxal e a respiração de Kussmaul.
+  Não confundir com os outros dois epônimos de Kussmaul, tratados no tópico de frequência cardíaca e pulso: o pulso paradoxal e a respiração de Kussmaul.
 causas:
   - "Pericardite constritiva"
   - "Cardiomiopatia restritiva"
@@ -310,14 +310,14 @@ causas:
 :::
 
 ::: perola
-texto: "Turgência jugular elevada está presente em praticamente todos os casos de tamponamento cardíaco e na quase totalidade das pericardites constritivas. Jugulares normais são, portanto, um argumento forte contra esses dois diagnósticos — e quando elas estão cheias, o passo seguinte é procurar pulso paradoxal e olhar o formato dos descensos."
+texto: "Turgência jugular elevada está presente em praticamente todos os casos de tamponamento cardíaco e na quase totalidade das pericardites constritivas. Jugulares normais são, portanto, um argumento forte contra esses dois diagnósticos, e quando elas estão cheias, o passo seguinte é procurar pulso paradoxal e olhar o formato dos descensos."
 :::
 
 ::: pense
 pergunta: |
   A pulsação no pescoço é venosa ou carotídea? Cite duas manobras que resolvem a dúvida na hora.
 resposta: |
-  Comprimir levemente a base do pescoço, logo acima da clavícula — o pulso venoso se apaga, o carotídeo não. E mudar a posição: o venoso fica mais evidente na horizontal e desce quando o paciente se senta; o carotídeo não muda. Além disso, o venoso é mais visível que palpável e seu movimento marcante é para dentro.
+  Comprimir levemente a base do pescoço, logo acima da clavícula: o pulso venoso se apaga, o carotídeo não. E mudar a posição: o venoso fica mais evidente na horizontal e desce quando o paciente se senta; o carotídeo não muda. Além disso, o venoso é mais visível que palpável e seu movimento marcante é para dentro.
 :::
 
 ::: secao
@@ -328,18 +328,18 @@ titulo: Edema
 titulo: Como descrever um edema
 nivel: avancado
 texto: |
-  Procure edema nos membros inferiores, na face — sobretudo nas regiões subpalpebrais — e na região pré-sacra, obrigatória em quem está acamado, em recém-nascidos e em lactentes.
+  Procure edema nos membros inferiores, na face, sobretudo nas regiões subpalpebrais, e na região pré-sacra, obrigatória em quem está acamado, em recém-nascidos e em lactentes.
 
-  A técnica é uma só e responde a várias perguntas ao mesmo tempo: com a polpa do polegar ou do indicador, faça uma compressão firme e sustentada contra uma estrutura rígida subjacente — a tíbia, o sacro, os ossos da face. Ao retirar o dedo, a depressão que fica é a fóvea, o cacifo, também conhecida como sinal de Godet.
+  A técnica é uma só e responde a várias perguntas ao mesmo tempo: com a polpa do polegar ou do indicador, faça uma compressão firme e sustentada contra uma estrutura rígida subjacente, a tíbia, o sacro, os ossos da face. Ao retirar o dedo, a depressão que fica é a fóvea, o cacifo, também conhecida como sinal de Godet.
 
   Descreva seis atributos.
 
-  - **Intensidade** — profundidade da fóvea, graduada em cruzes, de + a ++++ (escala de cruzes de Porto, a mesma usada para frêmitos e sopros na tradição brasileira; não confundir com a graduação de Levine, de 1 a 6, empregada para sopros no tópico correspondente).
-  - **Consistência** — mole, facilmente depressível, indicando retenção hídrica recente; ou duro, com maior resistência, indicando proliferação fibroblástica de edemas antigos ou de repetidos surtos inflamatórios.
-  - **Elasticidade** — elástico quando a pele volta imediatamente, típico do edema inflamatório; inelástico quando a depressão persiste.
-  - **Temperatura da pele adjacente** — avaliada com o dorso dos dedos, comparando com a vizinhança e com o lado homólogo. Pele quente indica inflamação; pele fria, comprometimento da irrigação.
-  - **Sensibilidade** — dor à digitopressão aponta inflamação.
-  - **Outras alterações da pele** — palidez, cianose, vermelhidão; pele lisa e brilhante no edema recente e intenso, espessa nos de longa duração.
+  - **Intensidade**: profundidade da fóvea, graduada em cruzes, de + a ++++ (escala de cruzes de Porto, a mesma usada para frêmitos e sopros na tradição brasileira; não confundir com a graduação de Levine, de 1 a 6, empregada para sopros no tópico correspondente).
+  - **Consistência**: mole, facilmente depressível, indicando retenção hídrica recente; ou duro, com maior resistência, indicando proliferação fibroblástica de edemas antigos ou de repetidos surtos inflamatórios.
+  - **Elasticidade**: elástico quando a pele volta imediatamente, típico do edema inflamatório; inelástico quando a depressão persiste.
+  - **Temperatura da pele adjacente**: avaliada com o dorso dos dedos, comparando com a vizinhança e com o lado homólogo. Pele quente indica inflamação; pele fria, comprometimento da irrigação.
+  - **Sensibilidade**: dor à digitopressão aponta inflamação.
+  - **Outras alterações da pele**: palidez, cianose, vermelhidão; pele lisa e brilhante no edema recente e intenso, espessa nos de longa duração.
 
   Duas medidas complementam o exame e acompanham a evolução: pesar o paciente diariamente e medir o perímetro da região edemaciada, comparando com o lado oposto em dias sucessivos.
 :::
@@ -376,7 +376,7 @@ titulo: Por que o edema cardíaco é vespertino
 texto: |
   O mecanismo básico é o aumento da pressão hidrostática por insuficiência ventricular direita, somado à retenção de sódio e água pela ativação do sistema renina-angiotensina-aldosterona.
 
-  A gravidade faz o resto. Quem passa o dia de pé acumula líquido nas pernas ao longo das horas, e o edema atinge o máximo à tarde — daí a designação de edema vespertino. Deitado, o líquido redistribui-se, o que explica por que o edema diminui de manhã e por que o paciente acamado acumula na região pré-sacra.
+  A gravidade faz o resto. Quem passa o dia de pé acumula líquido nas pernas ao longo das horas, e o edema atinge o máximo à tarde, daí a designação de edema vespertino. Deitado, o líquido redistribui-se, o que explica por que o edema diminui de manhã e por que o paciente acamado acumula na região pré-sacra.
 
   No fundo, é a mesma história da coluna jugular. Falência do lado direito significa pressão represada a montante, e essa pressão é o fio que costura os achados: jugular cheia, fígado congesto, líquido nos tornozelos.
 :::
@@ -391,7 +391,7 @@ nivel: avancado
 texto: |
   Ao fechar o exame do pescoço e do edema, olhe as extremidades. Temperatura, coloração e a rapidez com que a cor retorna depois de uma compressão da polpa digital ou do leito ungueal compõem uma impressão de perfusão que dá contexto a tudo o que veio antes.
 
-  Essa impressão é uma **moldura**, não uma medida. Tomados um a um, nenhum desses dados sustenta conclusão: nem a rarefação de pelos, nem a pele fria, nem a demora do retorno da cor. Fatores que nada têm a ver com a circulação interferem em todos eles — temperatura ambiente, idade, iluminação, pigmentação, pressão e duração da compressão aplicada pelo examinador.
+  Essa impressão é uma **moldura**, não uma medida. Tomados um a um, nenhum desses dados sustenta conclusão: nem a rarefação de pelos, nem a pele fria, nem a demora do retorno da cor. Fatores que nada têm a ver com a circulação interferem em todos eles: temperatura ambiente, idade, iluminação, pigmentação, pressão e duração da compressão aplicada pelo examinador.
 
   O que aumenta o rendimento do dado é a **comparação**: entre um membro e o homólogo, entre extremidade e tronco, e entre um exame e o seguinte no mesmo paciente. Assimetria é sugestiva; um número isolado, não.
 
@@ -429,18 +429,18 @@ caso: |
 pergunta: |
   O que fazer antes de desistir?
 opcoes:
-  - "Registrar como sugerido — sem coluna visível a 45°, não há o que medir"
-  - "Ajustar a cabeceira — abaixá-la até o topo da coluna venosa aparecer"
+  - "Registrar como sugerido, sem coluna visível a 45°, não há o que medir"
+  - "Ajustar a cabeceira: abaixá-la até o topo da coluna venosa aparecer"
   - "Pedir ao paciente que faça força abdominal para encher as jugulares"
 corretaIndex: 1
 desfecho: |
-  Com a cabeceira quase horizontal, o topo da coluna apareceu — e a 1 cm do ângulo esternal: pressão venosa normal. A posição correta não é um ângulo fixo, é aquela em que o topo da coluna fica visível: quase horizontal quando a pressão é normal, em torno de 45° quando há hipertensão venosa. Quem se prende ao "exame é a 45°" perde exatamente os pescoços normais.
+  Com a cabeceira quase horizontal, o topo da coluna apareceu, e a 1 cm do ângulo esternal: pressão venosa normal. A posição correta não é um ângulo fixo, é aquela em que o topo da coluna fica visível: quase horizontal quando a pressão é normal, em torno de 45° quando há hipertensão venosa. Quem se prende ao "exame é a 45°" perde exatamente os pescoços normais.
 :::
 
 ::: resumo
 linhas:
   - "A jugular interna direita é o manômetro do coração direito: turgência mede quanto (a altura da coluna), pulso venoso mostra como (o formato das ondas)."
-  - "Antes de tudo, separe veia de carótida — compressão na base do pescoço e mudança de posição decidem; depois, teste abdominojugular e sinal de Kussmaul refinam."
+  - "Antes de tudo, separe veia de carótida: compressão na base do pescoço e mudança de posição decidem; depois, teste abdominojugular e sinal de Kussmaul refinam."
   - "Jugulares normais argumentam forte contra tamponamento e constrição; o edema se descreve pelos seis atributos, com o cacifo graduado em cruzes."
 :::
 
@@ -476,7 +476,7 @@ perguntas:
       - "Estenose pulmonar"
       - "Pericardite constritiva"
     corretaIndex: 3
-    explicacao: "O descenso y profundo aparece quando a pressão venosa é muito elevada e o enchimento diastólico inicial é rápido, característico da pericardite constritiva. No tamponamento ocorre o oposto — o enchimento inicial está restrito e o descenso y está ausente. Na fibrilação atrial o y domina por encolhimento do x′, não por colapso abrupto, e sem hipertensão venosa obrigatória."
+    explicacao: "O descenso y profundo aparece quando a pressão venosa é muito elevada e o enchimento diastólico inicial é rápido, característico da pericardite constritiva. No tamponamento ocorre o oposto: o enchimento inicial está restrito e o descenso y está ausente. Na fibrilação atrial o y domina por encolhimento do x′, não por colapso abrupto, e sem hipertensão venosa obrigatória."
   - id: jugular-4
     enunciado: Como se caracteriza um teste abdominojugular (refluxo hepatojugular) positivo?
     alternativas:
@@ -485,7 +485,7 @@ perguntas:
       - "A coluna venosa desaparece durante a compressão abdominal"
       - "A pressão arterial sistólica cai mais de 10 mmHg durante a compressão"
     corretaIndex: 0
-    explicacao: "A resposta normal é a coluna não se alterar ou subir por um ou dois batimentos e voltar. O teste é positivo quando a elevação passa de 4 cm e se mantém durante toda a compressão sustentada de 10 segundos — e o mesmo limiar de 4 cm serve para a queda observada ao liberar o abdome, que é como a maioria dos examinadores lê o resultado. O achado indica pressões de enchimento elevadas do coração esquerdo."
+    explicacao: "A resposta normal é a coluna não se alterar ou subir por um ou dois batimentos e voltar. O teste é positivo quando a elevação passa de 4 cm e se mantém durante toda a compressão sustentada de 10 segundos, e o mesmo limiar de 4 cm serve para a queda observada ao liberar o abdome, que é como a maioria dos examinadores lê o resultado. O achado indica pressões de enchimento elevadas do coração esquerdo."
   - id: jugular-5
     enunciado: O que caracteriza o sinal de Kussmaul e por que ele ocorre?
     alternativas:
@@ -494,7 +494,7 @@ perguntas:
       - "Ausência da onda a no pulso venoso, por perda da contração atrial"
       - "Elevação paradoxal da coluna jugular na inspiração, porque o ventrículo direito não acomoda o maior retorno venoso"
     corretaIndex: 3
-    explicacao: "O sinal de Kussmaul é a elevação da pressão venosa durante a inspiração, quando o normal seria a queda. Ocorre quando o ventrículo direito não acomoda o volume extra da inspiração — por restrição pericárdica ou por já estar dilatado dentro de um pericárdio normal. As outras alternativas descrevem o pulso paradoxal e a respiração de Kussmaul."
+    explicacao: "O sinal de Kussmaul é a elevação da pressão venosa durante a inspiração, quando o normal seria a queda. Ocorre quando o ventrículo direito não acomoda o volume extra da inspiração, por restrição pericárdica ou por já estar dilatado dentro de um pericárdio normal. As outras alternativas descrevem o pulso paradoxal e a respiração de Kussmaul."
   - id: jugular-6
     enunciado: Um paciente com edema de membros inferiores tem jugulares colabadas na posição semissentada. Que informação esse achado acrescenta?
     alternativas:
@@ -503,5 +503,5 @@ perguntas:
       - "Indica tamponamento cardíaco em fase inicial"
       - "Não acrescenta informação, porque as jugulares só se avaliam em decúbito horizontal"
     corretaIndex: 1
-    explicacao: "Em paciente com edema ou ascite, a pressão venosa elevada aponta para coração ou circulação pulmonar; a pressão venosa normal aponta para outra causa. Na doença hepática crônica, por exemplo, a pressão venosa central é normal — o edema decorre da hipoalbuminemia e do peso da ascite sobre as veias dos membros inferiores."
+    explicacao: "Em paciente com edema ou ascite, a pressão venosa elevada aponta para coração ou circulação pulmonar; a pressão venosa normal aponta para outra causa. Na doença hepática crônica, por exemplo, a pressão venosa central é normal: o edema decorre da hipoalbuminemia e do peso da ascite sobre as veias dos membros inferiores."
 :::

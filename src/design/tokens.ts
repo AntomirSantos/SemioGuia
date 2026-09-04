@@ -17,7 +17,7 @@ export interface Paleta {
 }
 
 // Identidade Editorial R2 (DECISAO.md): papel branco, tinta quase-preta,
-// acento vinho — o acento é da MARCA e nunca substitui as 12 cores de
+// acento vinho: o acento é da MARCA e nunca substitui as 12 cores de
 // sistema do conteúdo. Cartões não têm sombra: separação por regras
 // tipográficas (hairline `linha` + regras de 2.5px em `tinta`).
 export const paletaClara: Paleta = {
@@ -39,7 +39,7 @@ export const paletaClara: Paleta = {
 };
 
 // Variante noturna "editorial tinta" (refino R5): o mesmo papel-e-tinta,
-// invertido — fundo carvão, tinta de papel envelhecido, vinho mais claro
+// invertido: fundo carvão, tinta de papel envelhecido, vinho mais claro
 // para vencer o contraste sobre o escuro.
 export const paletaEscura: Paleta = {
   fundo: '#141414',
@@ -61,12 +61,12 @@ export const paletaEscura: Paleta = {
 
 export const espaco = { xs: 4, s: 8, m: 12, l: 16, xl: 20, xxl: 28 } as const;
 
-// Linguagem editorial: raios pequenos (0–10px) — busca 10px, botões 9px.
+// Linguagem editorial: raios pequenos (0 a 10px), busca 10px, botões 9px.
 export const raio = { s: 4, m: 9, l: 10, pill: 999 } as const;
 
 // Editorial R2 não usa sombra: cartões se separam por REGRAS (hairline e
 // regras de tinta), não por elevação. O token permanece (consumidores fazem
-// spread dele) mas zerado — um único ponto desliga todas as sombras.
+// spread dele) mas zerado: um único ponto desliga todas as sombras.
 export const sombra = {
   shadowColor: '#000',
   shadowOpacity: 0,
@@ -85,7 +85,7 @@ export const veu = 'rgba(0,0,0,0.45)';
 // - Libre Bodoni 700: títulos, marca, nomes de sistema, títulos de bloco
 //   (itálico para pull-quotes);
 // - Source Serif 4 400/600: corpo de leitura dos tópicos (TextoRico);
-// - Public Sans 400–800: TODA a UI (labels, meta, nav, botões, chips, busca).
+// - Public Sans 400 a 800: TODA a UI (labels, meta, nav, botões, chips, busca).
 // `corpo`/`corpoBold` continuam sendo a voz de UI padrão (Public Sans) para
 // não quebrar consumidores; `leitura`/`leituraSemi` são a voz de leitura.
 export const fonte = {
@@ -102,7 +102,7 @@ export const fonte = {
 } as const;
 
 // Escala tipográfica editorial: masthead 27, título de tópico 23, títulos de
-// bloco/linha 17, corpo de leitura 15 (line-height 1.6–1.65 no TextoRico),
+// bloco/linha 17, corpo de leitura 15 (line-height 1.6 a 1.65 no TextoRico),
 // meta 13, rótulos 11. `hero` é o placar do quiz; `secao` os títulos de
 // seção dentro do tópico.
 export const tipo = { h1: 27, h2: 23, h3: 17, corpo: 15, small: 13, tag: 11, hero: 48, secao: 19 } as const;

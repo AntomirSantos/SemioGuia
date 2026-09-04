@@ -2,7 +2,7 @@ import { Platform, Share } from 'react-native';
 
 // Compartilhar o resultado de uma estação OSCE (beta §9.3). A imagem é
 // desenhada no próprio aparelho, em canvas, na identidade Editorial clara
-// (papel/tinta/vinho) — nenhum dado sai do aparelho além do que o aluno
+// (papel/tinta/vinho): nenhum dado sai do aparelho além do que o aluno
 // decide compartilhar. Na web usa a Web Share API (arquivos) com fallback
 // de download; no nativo compartilha o texto (gerar bitmap de views exigiria
 // dependência nova, fora do escopo do beta em PWA).
@@ -29,13 +29,13 @@ const VINHO = '#8E1F2F';
 
 export function montarTextoResultado(d: DadosResultadoOsce): string {
   return [
-    `Estação OSCE — ${d.titulo}`,
+    `Estação OSCE: ${d.titulo}`,
     `${d.lembrados} de ${d.total} passos lembrados (${d.percentual}%)`,
     'SemioGuia · semiologia no bolso',
   ].join('\n');
 }
 
-// Subconjunto do CanvasRenderingContext2D que o desenho usa — permite testar
+// Subconjunto do CanvasRenderingContext2D que o desenho usa: permite testar
 // o layout com um contexto falso, sem canvas real no Jest.
 export interface Ctx2dMinimo {
   fillStyle: string;
@@ -115,7 +115,7 @@ interface NavegadorComShare {
 
 /**
  * Compartilha o resultado; devolve o meio efetivamente usado. Cancelar a
- * folha de compartilhamento rejeita (AbortError) — o chamador decide se
+ * folha de compartilhamento rejeita (AbortError): o chamador decide se
  * conta como compartilhado (não conta).
  */
 export async function compartilharResultadoOsce(d: DadosResultadoOsce): Promise<MeioCompartilhado> {

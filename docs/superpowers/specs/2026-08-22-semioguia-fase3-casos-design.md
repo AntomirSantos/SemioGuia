@@ -1,4 +1,4 @@
-# SemioGuia Fase 3 — Casos clínicos: Design
+# SemioGuia Fase 3, Casos clínicos: Design
 
 Data: 22/08/2026 · Autor do produto: Antomir Santos · Status: aprovado em chat, aguardando revisão do texto
 
@@ -6,11 +6,11 @@ Data: 22/08/2026 · Autor do produto: Antomir Santos · Status: aprovado em chat
 
 Vinhetas clínicas interativas **ramificadas**: o aluno toma decisões e o caso
 evolui conforme elas, até um de vários desfechos. Ensino pelo erro com
-segurança — a consequência aparece na história, não no paciente.
+segurança: a consequência aparece na história, não no paciente.
 
 ## 2. Decisões do autor (registradas em 22/08)
 
-1. **Formato:** ramificado — as escolhas mudam o rumo do caso.
+1. **Formato:** ramificado, as escolhas mudam o rumo do caso.
 2. **Grau:** árvore completa com **múltiplos desfechos** (ótimo, aceitável,
    dano), não apenas desvios que reconvergem.
 3. **Piloto:** 3 casos ancorados no conteúdo existente de sinais vitais:
@@ -24,7 +24,7 @@ segurança — a consequência aparece na história, não no paciente.
 
 Frontmatter: `id` (slug), `titulo`, `contexto` (uma linha: cenário e papel do
 aluno, ex. "Você é o interno no pronto-socorro"), `tags`, `topicosDeApoio`
-(ids de tópicos existentes — validados), `referencias` (≥1),
+(ids de tópicos existentes: validados), `referencias` (≥1),
 `revisao: pendente`, `inicio` (id do primeiro nó).
 
 Corpo: lista de **nós**, cada um em bloco fenced YAML (mesma mecânica
@@ -47,7 +47,7 @@ Corpo: lista de **nós**, cada um em bloco fenced YAML (mesma mecânica
 # ensino: a mensagem-chave do caso, sempre presente no fechamento
 ```
 
-### Validação de grafo (no build — erro de conteúdo não chega ao aluno)
+### Validação de grafo (no build: erro de conteúdo não chega ao aluno)
 
 - `inicio` existe; todo `proximo` aponta para nó existente.
 - Todo nó é alcançável a partir de `inicio`.
@@ -81,15 +81,15 @@ concluido(caso, estado) → desfecho | null
   melhor desfecho já alcançado (ou "não iniciado"). Toque abre o player.
 - **Player:** mostra a cena (texto + dados objetivos em card), depois a
   decisão; ao escolher, exibe o **feedback** da opção antes de seguir o
-  grafo. Progresso implícito (sem barra — o aluno não deve inferir o
+  grafo. Progresso implícito (sem barra: o aluno não deve inferir o
   tamanho do caminho restante).
 - **Desfecho:** classe com tratamento visual (ótimo `ok`, aceitável
   `perola`, dano `erro`), texto + **ensino**, a trilha das decisões do
   aluno com a opção ótima indicada em cada uma, e "Refazer o caso".
-- **Progresso:** novo registro no store — conclusões de caso
+- **Progresso:** novo registro no store, conclusões de caso
   (`casoId`, `classe`, `otimas/aceitaveis/erros`, `concluidoEm`). O melhor
   desfecho por caso vem daí. **Não** alimenta o SM-2 nesta fase.
-- Abandono no meio do caso: sem persistência de estado parcial na v1 —
+- Abandono no meio do caso: sem persistência de estado parcial na v1, 
   recomeça do início (casos são curtos por design).
 
 ## 6. Conteúdo piloto
@@ -115,5 +115,5 @@ até o autor aprovar cada caminho.
 
 - Persistência de estado parcial do caso; casos alimentando o SM-2;
   cronômetro; casos fora de sinais vitais (virão com os próximos
-  capítulos); imagens/ilustrações dentro dos casos (possível depois — o
+  capítulos); imagens/ilustrações dentro dos casos (possível depois: o
   schema pode ganhar `ilustracao` em cena numa fase futura sem migração).

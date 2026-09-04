@@ -5,7 +5,7 @@ import { idDeChecklist } from './fila';
 // Conjunto de ids "válidos" para `montarFila`: toda pergunta de quiz + todo
 // checklist com título, em todos os tópicos do conteúdo atual. Usado para
 // filtrar itens de revisão órfãos (conteúdo removido/renomeado desde que o
-// item foi semeado) tanto no card da aba Estudar quanto na sessão /revisao —
+// item foi semeado) tanto no card da aba Estudar quanto na sessão /revisao: 
 // mantém as duas leituras da fila consistentes entre si.
 export function idsValidosDoConteudo(conteudo: Conteudo): Set<string> {
   const ids = new Set<string>();

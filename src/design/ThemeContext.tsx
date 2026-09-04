@@ -33,22 +33,22 @@ export function ThemeProvider({
   const [escalaFonte, definirEscalaFonte] = useState<EscalaFonte>(escalaInicial);
 
   // No export estático da web, o HTML pré-renderizado (build-time, sem
-  // `window`) sempre assume a preferência 'sistema' resolvida para claro —
+  // `window`) sempre assume a preferência 'sistema' resolvida para claro: 
   // não há `matchMedia` no ambiente Node do export. `useColorScheme()`, no
   // cliente, já retorna a preferência real do SO desde a primeiríssima
   // renderização; se o SO estiver em modo escuro, essa primeira renderização
   // do cliente diverge do HTML da hidratação. Em produção, a hidratação do
   // React não reescreve com segurança atributos de estilo divergentes nesse
-  // primeiro commit (ela adota o DOM existente); um nó que nunca desmonta —
+  // primeiro commit (ela adota o DOM existente); um nó que nunca desmonta: 
   // como a barra de topo da navegação web, que embrulha as abas e nunca sai
-  // da árvore — fica preso para sempre no valor claro do build, mesmo que
+  // da árvore: fica preso para sempre no valor claro do build, mesmo que
   // renderizações seguintes já computem `escuro: true` corretamente (como
   // confirmado via log: o valor do React já estava certo, só o atributo no
   // DOM real nunca foi escrito). Por isso, na web, a preferência do sistema
   // só é aplicada depois do efeito pós-montagem (que roda só depois da
   // hidratação terminar): a primeira renderização do cliente fica idêntica
   // ao HTML exportado (sem `useColorScheme`), e a atualização que segue é um
-  // commit normal — não uma hidratação —, que corrige o DOM de verdade. No
+  // commit normal, não uma hidratação, que corrige o DOM de verdade. No
   // nativo não existe SSR/hidratação: `montado` já começa `true` e o
   // comportamento é idêntico ao de antes desta correção.
   const [montado, definirMontado] = useState(Platform.OS !== 'web');

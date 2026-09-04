@@ -18,11 +18,11 @@ const DADOS: DadosResultadoOsce = {
 
 test('montarTextoResultado resume estação, placar e assinatura', () => {
   expect(montarTextoResultado(DADOS)).toBe(
-    'Estação OSCE — Medida da pressão arterial\n8 de 10 passos lembrados (80%)\nSemioGuia · semiologia no bolso',
+    'Estação OSCE: Medida da pressão arterial\n8 de 10 passos lembrados (80%)\nSemioGuia · semiologia no bolso',
   );
 });
 
-// Contexto 2D falso que grava o que foi desenhado — testa o layout sem
+// Contexto 2D falso que grava o que foi desenhado: testa o layout sem
 // canvas real (o Jest roda em Node).
 function ctxFalso(): Ctx2dMinimo & { textos: string[]; retangulos: [number, number, number, number][] } {
   const gravado = {

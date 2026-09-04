@@ -6,7 +6,7 @@ import { espaco, fonte, raio, tipo } from './tokens';
 
 // Cabeçalho compartilhado das telas de capítulos e tópico: botão voltar
 // (44pt, acessível, wash de papel) + título display em Bodoni. Na identidade
-// editorial o chevron é sempre TINTA — a identidade do sistema aparece num
+// editorial o chevron é sempre TINTA: a identidade do sistema aparece num
 // filete de cor ao lado do título (`cor`, ex.: sistema.cor), nunca tingindo
 // o controle de navegação.
 export function Cabecalho({ titulo, aoVoltar, cor }: { titulo: string; aoVoltar: () => void; cor?: string }) {

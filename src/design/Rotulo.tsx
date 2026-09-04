@@ -4,7 +4,7 @@ import { fonte, tipo, espaco } from './tokens';
 import { RegraAnimada } from './movimento';
 
 // Eyebrow/rótulo compartilhado: uppercase, Public Sans forte, letterSpacing
-// largo — a voz de UI da identidade editorial. Usado em títulos de seção e
+// largo: a voz de UI da identidade editorial. Usado em títulos de seção e
 // badges de contexto (sistema · capítulo, "Referências", progresso do quiz
 // etc.). Não escala com a preferência de fonte: é rótulo, não texto de
 // leitura. Cor padrão: tinta (regras/rotulagem em tinta; o acento vinho fica
@@ -29,7 +29,7 @@ export function Rotulo({ texto, cor, style }: { texto: string; cor?: string; sty
   );
 }
 
-// Rótulo de seção com a regra editorial de 2.5px em tinta acima — a
+// Rótulo de seção com a regra editorial de 2.5px em tinta acima: a
 // assinatura visual da identidade R2 ("separação por regras, não por
 // sombras"). A regra se desenha na montagem (300ms, scaleX da esquerda);
 // com movimento reduzido, já aparece pronta.

@@ -20,11 +20,11 @@ jest.mock('react-native-safe-area-context', () => ({
 }));
 
 // TelaPerfil agora renderiza BlocoConta (Task 6), que passa por AuthContext e
-// pelo orquestrador de sync — ambos importam firebaseApp.ts, que importa a
+// pelo orquestrador de sync: ambos importam firebaseApp.ts, que importa a
 // SDK real do Firebase (firebase/app, firebase/auth, firebase/firestore).
 // Mockados aqui pelo mesmo motivo de AuthContext.test.tsx/firebaseApp.test.ts:
 // a config committada é `null` (ver src/conta/config.ts), então nada disso é
-// de fato chamado — só precisa resolver o import.
+// de fato chamado, só precisa resolver o import.
 jest.mock('firebase/app', () => ({
   initializeApp: jest.fn(() => ({ name: '[DEFAULT]' })),
 }));
@@ -156,7 +156,7 @@ test('salvar uma data de prova válida grava a preferência em ISO; inválida mo
   await fireEvent.changeText(getByLabelText('Data da prova'), '99/99/9999');
   await fireEvent.press(getByText('Salvar'));
   await waitFor(() => {
-    expect(getByText('Data inválida — use o formato DD/MM/AAAA.')).toBeTruthy();
+    expect(getByText('Data inválida: use o formato DD/MM/AAAA.')).toBeTruthy();
   });
   expect(await store.obterPreferencia('dataProva')).toBe('2026-10-07');
 });

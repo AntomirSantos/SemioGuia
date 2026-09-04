@@ -10,7 +10,7 @@ type CenaBloco = Extract<Bloco, { tipo: 'cena' }>;
 
 // Vinheta clínica de abertura (didática 2026-09): duas ou três linhas de
 // enfermaria antes da teoria, para ancorar o tópico numa cena concreta.
-// Voz narrativa — serifa itálica direto no papel, sem cartão — distinta da
+// Voz narrativa (serifa itálica direto no papel, sem cartão) distinta da
 // pérola (Bodoni itálico com barra vinho): a cena é história, não citação.
 export function Cena({ bloco }: { bloco: CenaBloco }) {
   const { paleta, escala } = useTema();

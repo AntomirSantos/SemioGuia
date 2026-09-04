@@ -4,7 +4,7 @@ import { join } from 'node:path';
 // Regra editorial das razões de verossimilhança (didática 2026-09): o leitor
 // de semiologia não pensa em RV, pensa em "isso confirma ou não". Toda RV
 // numérica citada em PROSA precisa vir acompanhada, no mesmo parágrafo, de
-// uma tradução interpretativa — para onde a probabilidade se move, ou que o
+// uma tradução interpretativa, para onde a probabilidade se move, ou que o
 // achado quase não muda o raciocínio. Tabelas e ilustrações ficam de fora:
 // elas listam; a prosa vizinha é que interpreta.
 
@@ -140,7 +140,7 @@ function main() {
   }
   console.error(`${problemas.length} RV(s) sem tradução interpretativa:`);
   for (const p of problemas) {
-    console.error(`  ${p.arquivo}:${p.linha} — "${p.trecho}"`);
+    console.error(`  ${p.arquivo}:${p.linha}: "${p.trecho}"`);
   }
   process.exitCode = 1;
 }

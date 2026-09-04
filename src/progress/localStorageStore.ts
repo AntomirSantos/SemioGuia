@@ -10,7 +10,7 @@ import {
 
 // Adaptador de ProgressStore para a versão web: persiste no localStorage do
 // navegador. Mesma semântica do MemoryProgressStore/SqliteProgressStore.
-// Toda leitura/escrita é guardada por try/catch — em navegadores que bloqueiam
+// Toda leitura/escrita é guardada por try/catch: em navegadores que bloqueiam
 // storage (aba privada, preview), o adaptador degrada para memória volátil.
 
 interface Estado {
@@ -38,7 +38,7 @@ const vazio = (): Estado => ({
 // esta migração, ler() perderia silenciosamente os dados desses usuários
 // (ver task-3-report.md). atualizadoEm=1 é proposital: LWW trata dados
 // migrados como os mais antigas possíveis (mas ainda > 0, como
-// firestore.rules' carimboMs exige — ver contract.test.ts).
+// firestore.rules' carimboMs exige: ver contract.test.ts).
 function migrarEstados(
   bruto: string[] | Record<string, EstadoCarimbado> | undefined,
 ): Record<string, EstadoCarimbado> {

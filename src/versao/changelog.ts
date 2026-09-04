@@ -1,6 +1,6 @@
 import { VERSAO_APP } from '../config/versao';
 
-// Changelog do app (beta §9.8): esta lista é a FONTE ÚNICA — o CHANGELOG.md
+// Changelog do app (beta §9.8): esta lista é a FONTE ÚNICA, o CHANGELOG.md
 // na raiz é gerado dela por `npm run changelog`, e o cartão "O que mudou"
 // lê as linhas da entrada mais recente. A cada publicação em gh-pages:
 // bump em src/config/versao.ts + nova entrada aqui + `npm run changelog`.
@@ -13,11 +13,20 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.13',
+    data: '2026-09-04',
+    linhas: [
+      'Revisão de estilo em todo o guia: os travessões saíram de cena, no lugar deles vírgulas, dois-pontos e parênteses',
+      'Mais de sete mil ocorrências reescritas, dos tópicos aos casos, passando por títulos, legendas e ilustrações',
+      'Um vigia novo no build garante que o sinal não volta em nenhum texto futuro',
+    ],
+  },
+  {
     versao: '1.2.12',
     data: '2026-09-04',
     linhas: [
       'Os quatro sons respiratórios normais completos: traqueal, brônquico e broncovesicular entram ao lado do murmúrio vesicular',
-      'O tópico de sopros ganha a referência normal — ouça o TUM-TA limpo antes de cada sopro ocupar o seu lugar',
+      'O tópico de sopros ganha a referência normal: ouça o TUM-TA limpo antes de cada sopro ocupar o seu lugar',
       '20 sons no total; a tabela dos normais agora se escuta linha a linha',
     ],
   },
@@ -43,7 +52,7 @@ export const CHANGELOG: EntradaChangelog[] = [
     versao: '1.2.9',
     data: '2026-09-04',
     linhas: [
-      'Segunda leva de ausculta: 9 sons novos — 17 no total, cobrindo todos os fenômenos sonoros que o texto descreve',
+      'Segunda leva de ausculta: 9 sons novos, 17 no total, cobrindo todos os fenômenos sonoros que o texto descreve',
       'No coração: galope por B4, desdobramento de B2 com a respiração marcando as fases, regurgitação, ruflar, sopro contínuo e atrito pericárdico',
       'No pulmão: roncos, estridor (o espelho inspiratório do sibilo) e atrito pleural',
     ],
@@ -52,7 +61,7 @@ export const CHANGELOG: EntradaChangelog[] = [
     versao: '1.2.8',
     data: '2026-09-04',
     linhas: [
-      'Ausculta dentro do tópico: 8 sons sintetizados tocáveis — bulhas, galope, sopros sistólico e diastólico, murmúrio, sibilos e estertores',
+      'Ausculta dentro do tópico: 8 sons sintetizados tocáveis, bulhas, galope, sopros sistólico e diastólico, murmúrio, sibilos e estertores',
       'As ilustrações temporais agora se desenham: sopros no ciclo, ondas do pulso venoso, curvas térmicas e os ritmos respiratórios (novos, com Cheyne-Stokes)',
       'Micro-recompensas sóbrias no quiz: check que se desenha, toque háptico no celular e o fecho "Revisão do dia encerrada"',
     ],
@@ -62,7 +71,7 @@ export const CHANGELOG: EntradaChangelog[] = [
     data: '2026-09-04',
     linhas: [
       'Caso-relâmpago em todos os 55 tópicos: um parágrafo-caso com uma decisão única no fim da leitura',
-      'Você escolhe, o desfecho aparece — errar também ensina, e a escolha vale pela tentativa',
+      'Você escolhe, o desfecho aparece: errar também ensina, e a escolha vale pela tentativa',
       'É a ponte entre a leitura e os três casos clínicos ramificados',
     ],
   },
@@ -70,8 +79,8 @@ export const CHANGELOG: EntradaChangelog[] = [
     versao: '1.2.6',
     data: '2026-09-04',
     linhas: [
-      'Toda razão de verossimilhança citada agora vem traduzida: o quanto o achado move a probabilidade — regra vigiada pelo build',
-      'Novo no Perfil: "Imagens do guia", o glossário das analogias com nome próprio — do rio sem obstáculos ao quadril que mente',
+      'Toda razão de verossimilhança citada agora vem traduzida: o quanto o achado move a probabilidade, regra vigiada pelo build',
+      'Novo no Perfil: "Imagens do guia", o glossário das analogias com nome próprio, do rio sem obstáculos ao quadril que mente',
       'Cada imagem leva ao tópico em que ela nasce',
     ],
   },
@@ -80,7 +89,7 @@ export const CHANGELOG: EntradaChangelog[] = [
     data: '2026-09-04',
     linhas: [
       'Todos os 55 tópicos ganham uma cena clínica de abertura, uma pergunta "Pense antes de seguir" e o fecho "Em três linhas"',
-      'A pergunta do meio da leitura esconde a resposta até você tentar de cabeça — recuperação ativa dentro do texto',
+      'A pergunta do meio da leitura esconde a resposta até você tentar de cabeça: recuperação ativa dentro do texto',
       'Nada mudou no conteúdo revisado: os blocos novos derivam do texto já fechado pelo autor',
     ],
   },
@@ -134,7 +143,7 @@ export const CHANGELOG: EntradaChangelog[] = [
     data: '2026-09-03',
     linhas: [
       'Hierarquia editorial completa: McGee primeiro, Semiologia Clínica como desempate',
-      'Guia adota: Traube semilunar, escala de pulso 0–3+, reflexos 0–++++, faixas de FR da criança',
+      'Guia adota: Traube semilunar, escala de pulso 0 a 3+, reflexos 0, ++++, faixas de FR da criança',
       'Também: espéculo na paciente com hímen perfurado (SC), posições do toque retal e ITB de McGee',
     ],
   },
@@ -153,7 +162,7 @@ export const CHANGELOG: EntradaChangelog[] = [
     linhas: [
       'Cardiovascular e respiratório revisados: selo "Em revisão" removido e marcador "Revisado" na home',
       'Valores de evidência conferidos com a literatura; divergências entre fontes citadas ao lado dos números',
-      'Nada mudou de direção — os achados do guia foram confirmados',
+      'Nada mudou de direção: os achados do guia foram confirmados',
     ],
   },
   {
@@ -183,9 +192,9 @@ export function linhasMaisRecentes(entradas: EntradaChangelog[], n = 3): string[
 
 export function gerarMarkdownChangelog(entradas: EntradaChangelog[]): string {
   const corpo = entradas
-    .map((e) => `## ${e.versao} — ${e.data}\n\n${e.linhas.map((l) => `- ${l}`).join('\n')}\n`)
+    .map((e) => `## ${e.versao} (${e.data})\n\n${e.linhas.map((l) => `- ${l}`).join('\n')}\n`)
     .join('\n');
-  return `# Changelog\n\nUma entrada por publicação em gh-pages, a mais recente primeiro.\nGerado de \`src/versao/changelog.ts\` por \`npm run changelog\` — edite lá.\n\n${corpo}`;
+  return `# Changelog\n\nUma entrada por publicação em gh-pages, a mais recente primeiro.\nGerado de \`src/versao/changelog.ts\` por \`npm run changelog\`: edite lá.\n\n${corpo}`;
 }
 
 /** Consistência: a entrada mais recente deve ser a versão corrente do app. */

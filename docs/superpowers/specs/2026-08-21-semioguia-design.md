@@ -1,4 +1,4 @@
-# SemioGuia — Design do Produto e Arquitetura
+# SemioGuia: Design do Produto e Arquitetura
 
 **Data:** 2026-08-21
 **Status:** Aprovado pelo autor (Antomir Santos)
@@ -14,8 +14,8 @@ recursos de fixação.
 
 **Diferenciais do SemioGuia:**
 1. Design moderno e convidativo (padrão de agência, não "app de faculdade")
-2. Conteúdo visual e escaneável — cards, checklists, tabelas, fluxogramas
-3. Aprendizado ativo — quiz, revisão espaçada, casos clínicos, checklists
+2. Conteúdo visual e escaneável: cards, checklists, tabelas, fluxogramas
+3. Aprendizado ativo: quiz, revisão espaçada, casos clínicos, checklists
    praticáveis
 
 ## 2. Decisões de produto
@@ -48,10 +48,10 @@ conteúdo).
 
 Duas metades independentes:
 
-1. **Conteúdo** — arquivos Markdown com metadados, em `content/<sistema>/`,
+1. **Conteúdo**: arquivos Markdown com metadados, em `content/<sistema>/`,
    revisáveis pelo autor sem conhecimento técnico. Um script de build valida e
    converte tudo num pacote de dados embutido no app.
-2. **App** — apenas renderiza o pacote: navegação, busca, quiz, progresso.
+2. **App**, apenas renderiza o pacote: navegação, busca, quiz, progresso.
    Corrigir/adicionar conteúdo não altera código.
 
 **Progresso do usuário** em SQLite local, separado do conteúdo. Essa separação
@@ -67,14 +67,14 @@ autor quando enviados.*
 
 Cada tópico é composto de **blocos**:
 
-- **Conceito** — texto curto e direto
-- **Manobra** — passo a passo numerado (posição, técnica, o que observar)
-- **Sinal/Achado** — card: achado, significado, causas
-- **Checklist** — sequência de exame em itens marcáveis
+- **Conceito**: texto curto e direto
+- **Manobra**: passo a passo numerado (posição, técnica, o que observar)
+- **Sinal/Achado**, card: achado, significado, causas
+- **Checklist**: sequência de exame em itens marcáveis
 - **Tabela comparativa**
-- **Fluxograma** — raciocínio semiológico
-- **Pérola clínica** — dica/pegadinha em destaque
-- **Quiz** — múltipla escolha vinculada ao tópico
+- **Fluxograma**: raciocínio semiológico
+- **Pérola clínica**: dica/pegadinha em destaque
+- **Quiz**: múltipla escolha vinculada ao tópico
 
 Cada tópico tem tags de busca (epônimos incluídos, ex.: "Sinal de Blumberg") e
 referências bibliográficas. Os blocos são reutilizados pelas fases seguintes:
@@ -84,14 +84,14 @@ quiz alimenta a revisão espaçada; checklist vira o modo praticável.
 
 Quatro abas:
 
-1. **Guia** — grade de cards por sistema (ícone + cor própria) → capítulos →
+1. **Guia**: grade de cards por sistema (ícone + cor própria) → capítulos →
    tela de tópico (blocos). Caminho do estudo sequencial.
-2. **Busca** — busca instantânea offline por tópico, manobra, sinal ou tag;
+2. **Busca**: busca instantânea offline por tópico, manobra, sinal ou tag;
    recentes e favoritos. Caminho beira-de-leito: tudo em ≤2 toques.
-3. **Estudar** — hub de aprendizado ativo. Fase 1: quiz por tópico +
+3. **Estudar**: hub de aprendizado ativo. Fase 1: quiz por tópico +
    histórico. Fases seguintes acrescentam revisão espaçada, checklists
    praticáveis (modo OSCE) e casos clínicos na mesma aba.
-4. **Perfil** — progresso por sistema, ajustes (tema, fonte), bibliografia e
+4. **Perfil**: progresso por sistema, ajustes (tema, fonte), bibliografia e
    aviso legal ("material educacional, não substitui julgamento clínico").
 
 Tela de tópico tem **favoritar** e **marcar como estudado**.
@@ -114,13 +114,13 @@ Tela de tópico tem **favoritar** e **marcar como estudado**.
 
 SQLite no aparelho: tópicos estudados, favoritos, resultados de quiz por
 pergunta (insumo da revisão espaçada), buscas recentes, preferências. Nada sai
-do aparelho na v1 — zero coleta de dados pessoais (simplifica LGPD e revisão
+do aparelho na v1: zero coleta de dados pessoais (simplifica LGPD e revisão
 das lojas). Migrações de esquema versionadas desde o início.
 
 ## 9. Erros e testes
 
 - Conteúdo **validado no build**: estrutura dos arquivos, links internos,
-  quiz sem resposta correta — erro de conteúdo não chega ao usuário
+  quiz sem resposta correta: erro de conteúdo não chega ao usuário
 - Estados vazios amigáveis nas telas; crash reporting (Sentry)
 - Testes: unitários na lógica pura (busca, pontuação de quiz, agendador de
   revisão espaçada), renderização dos componentes de bloco, e validador de
@@ -130,17 +130,17 @@ das lojas). Migrações de esquema versionadas desde o início.
 
 | Fase | Entrega |
 |---|---|
-| **1 — O Guia** | App completo de consulta/estudo: todo o conteúdo, navegação, busca, design novo, quiz por tópico |
-| **2 — Fixação** | Revisão espaçada + checklists praticáveis (modo OSCE) |
-| **3 — Casos clínicos** | Vinhetas interativas passo a passo |
-| **4 — Monetização** | Contas, assinatura, sincronização. Backend auditado com as skills `firebase-security-rules-auditor` e `better-auth-security-best-practices` antes de ir ao ar |
+| **1, O Guia** | App completo de consulta/estudo: todo o conteúdo, navegação, busca, design novo, quiz por tópico |
+| **2: Fixação** | Revisão espaçada + checklists praticáveis (modo OSCE) |
+| **3: Casos clínicos** | Vinhetas interativas passo a passo |
+| **4: Monetização** | Contas, assinatura, sincronização. Backend auditado com as skills `firebase-security-rules-auditor` e `better-auth-security-best-practices` antes de ir ao ar |
 
 Revisão de arquitetura com a skill `improve-codebase-architecture` ao fim de
 cada fase.
 
 ## 11. Fluxo de produção de conteúdo
 
-1. Autor envia livros de referência (links de nuvem — Google Drive/Dropbox)
+1. Autor envia livros de referência (links de nuvem: Google Drive/Dropbox)
 2. Claude redige conteúdo original em Markdown, seção por seção
 3. Autor revisa e aprova cada seção
 4. Conteúdo aprovado entra no pacote do app

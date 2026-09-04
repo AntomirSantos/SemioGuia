@@ -65,20 +65,20 @@ tags:
   - retração do hemitórax
   - circulação colateral
 referencias:
-  - "Porto — Semiologia Médica, 8ª ed., Parte 9 (Sistema Respiratório), Seção 1, cap. 35 (Fundamentos de Anatomia e Fisiologia) — Linhas e regiões torácicas; Projeção dos pulmões na parede torácica"
-  - "Porto — Semiologia Médica, 8ª ed., Parte 9, Seção 1, cap. 36 (Exame Clínico) — Exame físico geral e Inspeção: tipos de tórax (Figura 36.3), tipo respiratório, tiragem, sinais de Lemos Torres e de Ramond"
-  - "Porto — Exame Clínico, 8ª ed., cap. 16 (Exame do Tórax) — Inspeção: tiragem, inspeção do pescoço e musculatura acessória"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 28 (Inspection of the Chest), p. 239-247 — baqueteamento (boxe EBM 28.1), tórax em tonel, respiração com lábios semicerrados e musculatura acessória (boxe EBM 28.2)"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 9 (Cyanosis), p. 69-71 — limiar de desoxi-hemoglobina e Tabela 9.1"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 19 (Respiratory Rate and Abnormal Breathing Patterns), p. 151-153 — movimentos abdominais respiratórios (Figura 19.2)"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 33 (Chronic Obstructive Lung Disease), p. 286-288 — paradoxo costal (sinal de Hoover), boxe EBM 33.1"
-  - "Semiologia Clínica, 1ª ed., cap. 10 (O exame do tórax e do sistema respiratório) — Revisão de anatomia: pontos, linhas e regiões torácicas; Inspeção estática e dinâmica (Tabelas 1 e 2)"
+  - "Porto, Semiologia Médica, 8ª ed., Parte 9 (Sistema Respiratório), Seção 1, cap. 35 (Fundamentos de Anatomia e Fisiologia), Linhas e regiões torácicas; Projeção dos pulmões na parede torácica"
+  - "Porto, Semiologia Médica, 8ª ed., Parte 9, Seção 1, cap. 36 (Exame Clínico), Exame físico geral e Inspeção: tipos de tórax (Figura 36.3), tipo respiratório, tiragem, sinais de Lemos Torres e de Ramond"
+  - "Porto, Exame Clínico, 8ª ed., cap. 16 (Exame do Tórax), Inspeção: tiragem, inspeção do pescoço e musculatura acessória"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 28 (Inspection of the Chest), p. 239-247, baqueteamento (boxe EBM 28.1), tórax em tonel, respiração com lábios semicerrados e musculatura acessória (boxe EBM 28.2)"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 9 (Cyanosis), p. 69-71, limiar de desoxi-hemoglobina e Tabela 9.1"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 19 (Respiratory Rate and Abnormal Breathing Patterns), p. 151-153, movimentos abdominais respiratórios (Figura 19.2)"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 33 (Chronic Obstructive Lung Disease), p. 286-288, paradoxo costal (sinal de Hoover), boxe EBM 33.1"
+  - "Semiologia Clínica, 1ª ed., cap. 10 (O exame do tórax e do sistema respiratório), Revisão de anatomia: pontos, linhas e regiões torácicas; Inspeção estática e dinâmica (Tabelas 1 e 2)"
 revisao: ok
 ---
 
 ::: cena
 texto: |
-  Da porta do box, antes de qualquer aparelho: o homem sentado na maca respira com os lábios semicerrados, os escalenos saltados a cada inspiração, a fúrcula afundando. O tórax dele conta a história inteira antes da primeira pergunta — quanto está custando respirar é coisa que se vê, e é a única parte do exame respiratório em que você ainda não interferiu em nada.
+  Da porta do box, antes de qualquer aparelho: o homem sentado na maca respira com os lábios semicerrados, os escalenos saltados a cada inspiração, a fúrcula afundando. O tórax dele conta a história inteira antes da primeira pergunta: quanto está custando respirar é coisa que se vê, e é a única parte do exame respiratório em que você ainda não interferiu em nada.
 :::
 
 ::: secao
@@ -88,7 +88,7 @@ titulo: O essencial
 ::: conceito
 titulo: Quatro perguntas antes de encostar a mão
 texto: |
-  A inspeção do tórax é o único momento do exame respiratório em que o examinador ainda não interferiu em nada — o paciente respira como respirava antes de você chegar. Aproveitar esse minuto rende mais do que qualquer manobra posterior.
+  A inspeção do tórax é o único momento do exame respiratório em que o examinador ainda não interferiu em nada: o paciente respira como respirava antes de você chegar. Aproveitar esse minuto rende mais do que qualquer manobra posterior.
 
   Quatro perguntas organizam o que se olha.
 
@@ -101,7 +101,7 @@ texto: |
 :::
 
 ::: perola
-texto: "A frequência respiratória, os ritmos anormais — Cheyne-Stokes, Kussmaul, Biot — e a ortopneia pertencem aos sinais vitais e estão detalhados naquele tópico. Aqui a pergunta é outra: não *quantas* vezes o paciente respira, mas *como* e *com que esforço*."
+texto: "A frequência respiratória, os ritmos anormais (Cheyne-Stokes, Kussmaul, Biot) e a ortopneia pertencem aos sinais vitais e estão detalhados naquele tópico. Aqui a pergunta é outra: não *quantas* vezes o paciente respira, mas *como* e *com que esforço*."
 :::
 
 ::: secao
@@ -119,7 +119,7 @@ texto: |
 
   **Na face posterior**, duas: a **vertebral**, sobre os processos espinhosos, e a **escapular**, que passa pelo ângulo inferior da escápula.
 
-  As linhas horizontais completam a grade: as claviculares, a da 3ª e a da 6ª articulação esternocondral à frente, e as escapulares superior e inferior atrás. Do cruzamento dessas linhas nascem as regiões que dão nome ao achado — infraclavicular, mamária, inframamária, axilar, infra-axilar, supraescapular, interescapulovertebral, infraescapular.
+  As linhas horizontais completam a grade: as claviculares, a da 3ª e a da 6ª articulação esternocondral à frente, e as escapulares superior e inferior atrás. Do cruzamento dessas linhas nascem as regiões que dão nome ao achado: infraclavicular, mamária, inframamária, axilar, infra-axilar, supraescapular, interescapulovertebral, infraescapular.
 :::
 
 ::: ilustracao
@@ -194,7 +194,7 @@ titulo: Onde os pulmões realmente estão
 texto: |
   Duas noções de superfície evitam erros grosseiros de localização.
 
-  O **ápice pulmonar sobe acima da clavícula** — cerca de 3 cm — e por isso a região supraclavicular faz parte do exame do pulmão, não do pescoço.
+  O **ápice pulmonar sobe acima da clavícula**, cerca de 3 cm, e por isso a região supraclavicular faz parte do exame do pulmão, não do pescoço.
 
   A **base desce muito mais atrás do que na frente**. Em expiração, a borda inferior do pulmão cruza a linha hemiclavicular na altura da 6ª costela, a linha axilar média na 8ª e alcança, junto à coluna, o nível do processo espinhoso da 10ª vértebra torácica. Durante a inspiração esses limites descem pelo menos dois espaços intercostais.
 
@@ -209,10 +209,10 @@ titulo: Como examinar
 titulo: Inspeção estática e dinâmica do tórax
 passos:
   - "Peça ao paciente que se sente, com o tórax descoberto, os braços relaxados ao lado do corpo, e explique que você vai apenas olhar."
-  - "Olhe o tórax de frente, de perfil e por trás, primeiro à distância de um passo — a assimetria aparece melhor de longe."
+  - "Olhe o tórax de frente, de perfil e por trás, primeiro à distância de um passo: a assimetria aparece melhor de longe."
   - "Na inspeção estática, compare os dois hemitórax quanto a volume, simetria e forma; observe a curvatura da coluna e o relevo do esterno."
   - "Registre cicatrizes, abaulamentos, retrações localizadas, atrofias musculares, lesões de pele e circulação venosa superficial."
-  - "Na inspeção dinâmica, observe que parte do corpo se move a cada incursão — tórax, abdome ou os dois — para definir o tipo respiratório."
+  - "Na inspeção dinâmica, observe que parte do corpo se move a cada incursão (tórax, abdome ou os dois) para definir o tipo respiratório."
   - "Compare a amplitude dos dois hemitórax durante várias incursões; um lado que se move menos indica lesão daquele lado."
   - "Procure tiragem nos espaços intercostais, nas fossas supraclaviculares, na fúrcula e no epigástrio, sempre durante a inspiração."
   - "Olhe o pescoço: contração dos escalenos e dos esternocleidomastóideos durante a inspiração é uso de musculatura acessória."
@@ -220,7 +220,7 @@ passos:
   - "Com o paciente em decúbito dorsal, verifique se o abdome sobe na inspiração; se ele afunda, há movimento paradoxal."
   - "Complete a moldura: cor dos lábios, da língua e da mucosa oral, e inspeção das unhas em busca de baqueteamento."
 observar: |
-  Descobrir o tórax é um pedido grande, sobretudo para mulheres e adolescentes. Peça licença, exponha só o necessário e por pouco tempo, e vá narrando o que faz. A inspeção é o momento em que o paciente mais se sente olhado — e olhar com método é diferente de encarar.
+  Descobrir o tórax é um pedido grande, sobretudo para mulheres e adolescentes. Peça licença, exponha só o necessário e por pouco tempo, e vá narrando o que faz. A inspeção é o momento em que o paciente mais se sente olhado, e olhar com método é diferente de encarar.
 :::
 
 ::: checklist
@@ -245,7 +245,7 @@ titulo: A forma do tórax
 ::: conceito
 titulo: O tórax normal e seus desvios
 texto: |
-  No adulto, o diâmetro laterolateral supera o anteroposterior, e o tórax lembra um cilindro achatado de frente para trás. O ângulo formado pelas rebordas costais sob o apêndice xifoide — o ângulo de Charpy — objetiva o biotipo com números (Porto): **cerca de 90° no normolíneo, menor que 90° no longilíneo e maior que 90° no brevilíneo**.
+  No adulto, o diâmetro laterolateral supera o anteroposterior, e o tórax lembra um cilindro achatado de frente para trás. O ângulo formado pelas rebordas costais sob o apêndice xifoide, o ângulo de Charpy, objetiva o biotipo com números (Porto): **cerca de 90° no normolíneo, menor que 90° no longilíneo e maior que 90° no brevilíneo**.
 
   A partir dessa referência, as deformidades se descrevem com nomes consagrados. Quase todas são achados de moldura: dizem algo sobre o passado do paciente ou sobre a mecânica da respiração, e raramente fecham um diagnóstico sozinhas.
 :::
@@ -281,14 +281,14 @@ linhas:
 :::
 
 ::: conceito
-titulo: Tórax em tonel — o que a evidência sustenta
+titulo: "Tórax em tonel: o que a evidência sustenta"
 nivel: avancado
 texto: |
   O tórax em tonel é o exemplo perfeito de sinal que a tradição promoveu além do que os dados permitem.
 
   A medida objetiva é o **índice torácico**, a razão entre o diâmetro anteroposterior e o transversal. Nos adultos ele fica em torno de 0,70 a 0,75 e cresce com a idade; o limite superior do normal gira em torno de 0,9. O ensino clássico é que os pacientes obstruídos ultrapassam esse limite.
 
-  Confrontada com a espirometria (McGee), a impressão global de tórax em tonel eleva pouquíssimo a probabilidade de doença obstrutiva — razão de verossimilhança em torno de 1,5 — e a razão anteroposterior/transversal ≥ 0,9 chega a 2,0. Dois estudos encontraram correlação com a gravidade da obstrução e outros dois não encontraram nenhuma. Além disso o tórax em tonel também aparece em idosos sem doença pulmonar.
+  Confrontada com a espirometria (McGee), a impressão global de tórax em tonel eleva pouquíssimo a probabilidade de doença obstrutiva (razão de verossimilhança em torno de 1,5) e a razão anteroposterior/transversal ≥ 0,9 chega a 2,0. Dois estudos encontraram correlação com a gravidade da obstrução e outros dois não encontraram nenhuma. Além disso o tórax em tonel também aparece em idosos sem doença pulmonar.
 
   Há ainda uma armadilha de percepção: em parte dos pacientes o diâmetro anteroposterior é normal e apenas *parece* aumentado, porque contrasta com um abdome muito magro e com a cifose dorsal. O olho compara, e se engana.
 
@@ -304,9 +304,9 @@ titulo: Tipo respiratório
 texto: |
   Tipo respiratório é a resposta a uma pergunta simples: **que parte do corpo se move mais a cada incursão?**
 
-  Em pessoas sadias, de pé ou sentadas, predomina a respiração **torácica ou costal** — o que se movimenta é a caixa. No decúbito dorsal, em homens e mulheres igualmente, passa a predominar a respiração **diafragmática**: movem-se sobretudo a metade inferior da caixa e a porção alta do abdome. Não há "tipo masculino" e "tipo feminino": há posição.
+  Em pessoas sadias, de pé ou sentadas, predomina a respiração **torácica ou costal**: o que se movimenta é a caixa. No decúbito dorsal, em homens e mulheres igualmente, passa a predominar a respiração **diafragmática**: movem-se sobretudo a metade inferior da caixa e a porção alta do abdome. Não há "tipo masculino" e "tipo feminino": há posição.
 
-  O valor do achado está na fadiga e na paralisia do diafragma. Nessas situações a parede abdominal tende a se retrair durante a inspiração — exatamente o contrário do normal — e o paciente passa a alternar períodos de respiração predominantemente torácica com períodos de respiração abdominal, recrutando os músculos da caixa para compensar o diafragma.
+  O valor do achado está na fadiga e na paralisia do diafragma. Nessas situações a parede abdominal tende a se retrair durante a inspiração, exatamente o contrário do normal, e o paciente passa a alternar períodos de respiração predominantemente torácica com períodos de respiração abdominal, recrutando os músculos da caixa para compensar o diafragma.
 :::
 
 ::: sinal
@@ -314,7 +314,7 @@ nome: Tiragem
 descricao: |
   Depressão dos espaços intercostais, das fossas supraclaviculares, da fúrcula esternal ou do epigástrio durante a inspiração. Existe uma versão fisiológica, discreta, visível nas faces laterais do tórax de pessoas magras e longilíneas: a pressão intratorácica cai na inspiração e a atmosfera empurra os espaços intercostais para dentro enquanto os músculos ainda estão relaxados.
 significado: |
-  Torna-se patológica quando um obstáculo impede o ar de chegar a determinado território pulmonar. O parênquima correspondente não se expande, a pressão negativa se acentua e a parede cede para dentro. A tiragem marca, portanto, a região que não está sendo ventilada — e a altura da obstrução decide sua extensão.
+  Torna-se patológica quando um obstáculo impede o ar de chegar a determinado território pulmonar. O parênquima correspondente não se expande, a pressão negativa se acentua e a parede cede para dentro. A tiragem marca, portanto, a região que não está sendo ventilada, e a altura da obstrução decide sua extensão.
 causas:
   - "Tiragem de um hemitórax: oclusão de brônquio principal por tampão mucoso espesso, neoplasia ou corpo estranho"
   - "Tiragem bilateral por obstáculo acima da bifurcação traqueal: crupe diftérico, laringite estridulosa, corpo estranho, compressão por tumor de mediastino"
@@ -325,7 +325,7 @@ causas:
 ::: conceito
 titulo: Musculatura acessória e lábios semicerrados
 texto: |
-  Na respiração tranquila, o único músculo que trabalha é o diafragma, e a expiração é passiva, movida pela retração elástica do pulmão. Chama-se **musculatura acessória** qualquer outro músculo recrutado na inspiração — tipicamente escalenos e esternocleidomastóideos — ou qualquer músculo contraído na expiração, sobretudo os oblíquos do abdome.
+  Na respiração tranquila, o único músculo que trabalha é o diafragma, e a expiração é passiva, movida pela retração elástica do pulmão. Chama-se **musculatura acessória** qualquer outro músculo recrutado na inspiração, tipicamente escalenos e esternocleidomastóideos, ou qualquer músculo contraído na expiração, sobretudo os oblíquos do abdome.
 
   Os escalenos e o esternocleidomastóideo elevam a clavícula e as primeiras costelas, ajudando a expandir um tórax cujo diafragma, achatado pela hiperinsuflação, gera pouco movimento. O sinal se lê no pescoço, não no tórax: a contração desses músculos e a retração das fossas supraclaviculares durante a inspiração são das manifestações mais precoces de obstrução das vias respiratórias.
 
@@ -338,13 +338,13 @@ nivel: avancado
 texto: |
   Em pacientes encaminhados para prova de função pulmonar, três sinais de inspeção mudam a probabilidade de doença obstrutiva crônica (McGee):
 
-  - **contração de escalenos e esternocleidomastóideos na inspiração** — razão de verossimilhança 3,3, com especificidade de 88% e sensibilidade de apenas 39%;
-  - **expiração com lábios semicerrados** — razão de verossimilhança 2,7;
-  - **paradoxo costal (sinal de Hoover)** — razão de verossimilhança 4,2.
+  - **contração de escalenos e esternocleidomastóideos na inspiração**: razão de verossimilhança 3,3, com especificidade de 88% e sensibilidade de apenas 39%;
+  - **expiração com lábios semicerrados**: razão de verossimilhança 2,7;
+  - **paradoxo costal (sinal de Hoover)**: razão de verossimilhança 4,2.
 
   O padrão se repete: são sinais específicos e pouco sensíveis. Encontrá-los reforça a hipótese; não encontrá-los quase nada afasta, porque a maioria dos pacientes com doença leve ou moderada não os apresenta.
 
-  Há uma exceção instrutiva. Em pacientes com esclerose lateral amiotrófica examinados **em decúbito dorsal**, a *ausência* de contração dos escalenos e do esternocleidomastóideo reduz a probabilidade de fraqueza neuromuscular respiratória — razão de verossimilhança 0,2. Aqui o sinal negativo é que informa.
+  Há uma exceção instrutiva. Em pacientes com esclerose lateral amiotrófica examinados **em decúbito dorsal**, a *ausência* de contração dos escalenos e do esternocleidomastóideo reduz a probabilidade de fraqueza neuromuscular respiratória: razão de verossimilhança 0,2. Aqui o sinal negativo é que informa.
 
   Já na avaliação da dispneia aguda o uso de musculatura acessória perde valor: em pacientes com suspeita de embolia pulmonar, ele apareceu com a mesma frequência em quem tinha e em quem não tinha a doença.
 :::
@@ -359,9 +359,9 @@ texto: |
 
   **Respiração assíncrona.** A anormalidade está na *expiração*: em vez do recolhimento suave do abdome, aparece um movimento abrupto para dentro seguido de outro para fora. Traduz a ação vigorosa dos músculos da parede torácica na expiração, que empurra o diafragma achatado para baixo. Em pacientes obstruídos que descompensam, esse padrão prediz morte hospitalar ou necessidade de ventilação artificial com sensibilidade de 64%, especificidade de 80% e razão de verossimilhança 3,2 (McGee).
 
-  **Movimento abdominal paradoxal.** Aqui abdome e tórax estão completamente fora de fase, na inspiração *e* na expiração: o abdome afunda enquanto o tórax se expande. É sinal de fraqueza diafragmática bilateral, quase sempre acompanhado de ortopneia intensa. Detectou fraqueza do diafragma com sensibilidade de 95%, especificidade de 70% e razão de verossimilhança 3,2 (McGee). O exame precisa ser feito **em decúbito dorsal** — de pé o achado costuma desaparecer.
+  **Movimento abdominal paradoxal.** Aqui abdome e tórax estão completamente fora de fase, na inspiração *e* na expiração: o abdome afunda enquanto o tórax se expande. É sinal de fraqueza diafragmática bilateral, quase sempre acompanhado de ortopneia intensa. Detectou fraqueza do diafragma com sensibilidade de 95%, especificidade de 70% e razão de verossimilhança 3,2 (McGee). O exame precisa ser feito **em decúbito dorsal**: de pé o achado costuma desaparecer.
 
-  Um imitador merece atenção: no paciente tetraplégico a respiração depende inteiramente do diafragma, e a parede torácica paralisada pode ser puxada para dentro na inspiração. Tórax e abdome também ficam fora de fase, mas o abdome se move **para fora** na inspiração, não para dentro — o oposto da fraqueza diafragmática.
+  Um imitador merece atenção: no paciente tetraplégico a respiração depende inteiramente do diafragma, e a parede torácica paralisada pode ser puxada para dentro na inspiração. Tórax e abdome também ficam fora de fase, mas o abdome se move **para fora** na inspiração, não para dentro: o oposto da fraqueza diafragmática.
 :::
 
 ::: conceito
@@ -375,8 +375,8 @@ texto: |
   - **Sinal de Lemos Torres**: abaulamento dos espaços intercostais durante a expiração, indicativo de derrame pleural.
   - **Sinal de Ramond**: contratura da musculatura paravertebral torácica de um lado, denunciando comprometimento inflamatório da pleura homolateral.
   - **Retração de um hemitórax**: sequela de lesão tuberculosa mesmo tratada, que reduz o volume daquele lado, ou atelectasia crônica.
-  - **Abaulamento localizado**: neoplasia, aneurisma, fratura de arcos costais, e — na criança, cujo gradil ainda cede — hipertrofia do ventrículo direito.
-  - **Circulação colateral no tórax**: rede venosa superficial visível, que denuncia obstáculo junto ao ponto em que a veia ázigo desemboca na cava superior — situação típica das neoplasias de mediastino.
+  - **Abaulamento localizado**: neoplasia, aneurisma, fratura de arcos costais, e (na criança, cujo gradil ainda cede) hipertrofia do ventrículo direito.
+  - **Circulação colateral no tórax**: rede venosa superficial visível, que denuncia obstáculo junto ao ponto em que a veia ázigo desemboca na cava superior, situação típica das neoplasias de mediastino.
   - **Movimento paradoxal de um segmento do gradil** na inspiração: retalho costal instável por traumatismo torácico.
 
   Dois pontos do exame geral pertencem a essa lista. O **desvio lateral da traqueia** acompanha fibrose pulmonar, atelectasia e grandes derrames. E a **distância medida da margem inferior da cricoide até a fúrcula**, normalmente acima de 5,5 cm (Porto, Semiologia Médica, cap. 36), encurta na hiperinsuflação do enfisema avançado.
@@ -400,17 +400,17 @@ texto: |
 
   A distinção que muda a conduta é feita à beira do leito. Na **cianose central**, o sangue já sai azul do coração, e a cor aparece nos lábios, na língua e na mucosa oral, além das extremidades. Na **cianose periférica**, o sangue sai vermelho e azula no caminho, por extração aumentada de oxigênio nos tecidos; as mucosas centrais permanecem róseas.
 
-  Procure a cianose onde a epiderme é fina e os vasos subepidérmicos são abundantes: lábios, nariz, bochechas, orelhas, mãos, pés e mucosa oral. A luz importa — a cianose é mais fácil de reconhecer sob luz fluorescente do que sob luz incandescente ou luz do dia.
+  Procure a cianose onde a epiderme é fina e os vasos subepidérmicos são abundantes: lábios, nariz, bochechas, orelhas, mãos, pés e mucosa oral. A luz importa: a cianose é mais fácil de reconhecer sob luz fluorescente do que sob luz incandescente ou luz do dia.
 :::
 
 ::: entendimento
 titulo: Por que o paciente anêmico não fica cianótico
 texto: |
-  A cor azul depende da **quantidade absoluta** de desoxi-hemoglobina, não da porcentagem. Medidas cuidadosas (McGee) situam o limiar em torno de **2,38 g/dL de desoxi-hemoglobina arterial** — o mínimo capaz de produzir a cor visível através da epiderme.
+  A cor azul depende da **quantidade absoluta** de desoxi-hemoglobina, não da porcentagem. Medidas cuidadosas (McGee) situam o limiar em torno de **2,38 g/dL de desoxi-hemoglobina arterial**: o mínimo capaz de produzir a cor visível através da epiderme.
 
   Daí decorre a consequência clínica que mais engana. Para acumular 2,38 g/dL de hemoglobina reduzida, um paciente policitêmico com hemoglobina de 20 g/dL precisa de pouca hipoxemia: a cianose aparece já com saturação em torno de 88%. Um paciente anêmico com hemoglobina de 8 g/dL só reúne essa quantidade quando a saturação cai a cerca de 70%.
 
-  Ou seja: **a ausência de cianose não afasta hipoxemia grave**, sobretudo no anêmico — e a presença de cianose no policitêmico não implica hipoxemia grave. A cor é um indicador de massa de pigmento, não de oxigenação.
+  Ou seja: **a ausência de cianose não afasta hipoxemia grave**, sobretudo no anêmico, e a presença de cianose no policitêmico não implica hipoxemia grave. A cor é um indicador de massa de pigmento, não de oxigenação.
 
   A pseudocianose separa-se das demais por um teste simples: ela não empalidece à pressão, porque a cor não vem do sangue, e sim de pigmento depositado na pele.
 :::
@@ -424,14 +424,14 @@ descricao: |
   - **Ângulo hiponiquial maior que 190°**: acurado, mas difícil de medir à beira do leito, pois exige instrumentos.
   - **Sinal de Schamroth**: encostam-se dorso contra dorso as falanges terminais de dois dedos homólogos, de preferência os anelares. Normalmente aparece entre eles uma pequena janela em forma de losango; no baqueteamento, a janela desaparece.
 significado: |
-  O sinal de Schamroth é o único dos três aplicável em qualquer consultório, e se sai bem: sensibilidade de 77% a 87%, especificidade de 90%, razão de verossimilhança 8 quando presente e 0,2 quando ausente (McGee). Encontrado o baqueteamento, a causa costuma aparecer na radiografia de tórax — em uma série de 350 pacientes, 80% tinham doença respiratória de base.
+  O sinal de Schamroth é o único dos três aplicável em qualquer consultório, e se sai bem: sensibilidade de 77% a 87%, especificidade de 90%, razão de verossimilhança 8 quando presente e 0,2 quando ausente (McGee). Encontrado o baqueteamento, a causa costuma aparecer na radiografia de tórax: em uma série de 350 pacientes, 80% tinham doença respiratória de base.
 causas:
   - "Neoplasia pulmonar"
   - "Bronquiectasias, abscesso pulmonar e empiema"
   - "Fibrose intersticial"
-  - "Fibrose cística — nesses pacientes, o baqueteamento aumenta a probabilidade de hipoxemia (razão de verossimilhança 3,2; sua ausência, 0,1)"
-  - "Endocardite infecciosa — em pacientes investigados por endocardite, razão de verossimilhança 5,1"
-  - "Cirrose hepática, pela síndrome hepatopulmonar — razão de verossimilhança 4,0"
+  - "Fibrose cística: nesses pacientes, o baqueteamento aumenta a probabilidade de hipoxemia (razão de verossimilhança 3,2; sua ausência, 0,1)"
+  - "Endocardite infecciosa: em pacientes investigados por endocardite, razão de verossimilhança 5,1"
+  - "Cirrose hepática, pela síndrome hepatopulmonar: razão de verossimilhança 4,0"
   - "Baqueteamento hereditário, sem doença de base"
 :::
 
@@ -440,7 +440,7 @@ titulo: Onde este tópico encontra os outros
 texto: |
   A inspeção do tórax abre um exame que se completa em outros lugares do guia.
 
-  - **Frequência respiratória, eupneia, taquipneia, bradipneia e os ritmos anormais** — Cheyne-Stokes, Kussmaul, Biot, respiração suspirosa, ortopneia — estão no tópico de temperatura e frequência respiratória, com a técnica de contagem e os valores de referência. Não os repita aqui: cite-os.
+  - **Frequência respiratória, eupneia, taquipneia, bradipneia e os ritmos anormais** (Cheyne-Stokes, Kussmaul, Biot, respiração suspirosa, ortopneia) estão no tópico de temperatura e frequência respiratória, com a técnica de contagem e os valores de referência. Não os repita aqui: cite-os.
   - **Expansibilidade**, apenas estimada pelo olho, é medida pelas mãos no tópico de palpação do tórax.
   - **Turgência jugular, edema e perfusão periférica**, que muitas vezes acompanham a doença pulmonar crônica, estão no tópico de pulso venoso jugular e turgência.
   - **Abaulamento precordial e levantamento paraesternal**, achados de inspeção que pertencem ao coração, estão no tópico de inspeção e palpação do precórdio.
@@ -461,7 +461,7 @@ texto: |
 :::
 
 ::: perola
-texto: "Antes de auscultar, decida de que lado está a doença. Um hemitórax que se move menos já entrega essa resposta — e transforma a ausculta de uma varredura em uma pergunta dirigida."
+texto: "Antes de auscultar, decida de que lado está a doença. Um hemitórax que se move menos já entrega essa resposta, e transforma a ausculta de uma varredura em uma pergunta dirigida."
 :::
 
 ::: relampago
@@ -470,19 +470,19 @@ caso: |
 pergunta: |
   O registro está certo?
 opcoes:
-  - "Está — a posição do paciente não interfere no sinal"
-  - "Está — sentado é até melhor, porque a gravidade tensiona o diafragma"
-  - "Não — o sinal deve ser procurado em decúbito dorsal"
+  - "Está: a posição do paciente não interfere no sinal"
+  - "Está: sentado é até melhor, porque a gravidade tensiona o diafragma"
+  - "Não: o sinal deve ser procurado em decúbito dorsal"
 corretaIndex: 2
 desfecho: |
-  Deitado, o abdome dele afundava a cada inspiração. O movimento paradoxal depende do peso das vísceras sobre o diafragma e costuma sumir na posição ereta — procurá-lo com o paciente sentado é um dos erros clássicos da inspeção. Negar um sinal exige tê-lo procurado na posição em que ele aparece.
+  Deitado, o abdome dele afundava a cada inspiração. O movimento paradoxal depende do peso das vísceras sobre o diafragma e costuma sumir na posição ereta: procurá-lo com o paciente sentado é um dos erros clássicos da inspeção. Negar um sinal exige tê-lo procurado na posição em que ele aparece.
 :::
 
 ::: resumo
 linhas:
-  - "Quatro perguntas: que forma tem a caixa, como a pessoa respira, quanto custa respirar, e o que o corpo denuncia de doença crônica — e o dorso faz parte da inspeção."
+  - "Quatro perguntas: que forma tem a caixa, como a pessoa respira, quanto custa respirar, e o que o corpo denuncia de doença crônica, e o dorso faz parte da inspeção."
   - "Forma é moldura, esforço é gravidade: tiragem e musculatura acessória num tórax normal pesam mais que um tórax em tonel tranquilo (RV ~1,5, pouco discriminante)."
-  - "Cianose mede massa de pigmento, não oxigenação — o anêmico hipoxêmico não azula; e o sinal de Schamroth é o teste de consultório do baqueteamento (RV 8)."
+  - "Cianose mede massa de pigmento, não oxigenação: o anêmico hipoxêmico não azula; e o sinal de Schamroth é o teste de consultório do baqueteamento (RV 8)."
 :::
 
 ::: secao
@@ -508,7 +508,7 @@ perguntas:
       - "Porque no anêmico a cianose é sempre periférica e não aparece nas mucosas"
       - "Porque a palidez da anemia impede que qualquer alteração de cor seja percebida na mucosa oral"
     corretaIndex: 1
-    explicacao: "A cor azul exige uma quantidade absoluta mínima de desoxi-hemoglobina — cerca de 2,38 g/dL no sangue arterial. Com hemoglobina total de 8 g/dL, essa massa só se acumula quando a saturação cai a cerca de 70%; com hemoglobina de 20 g/dL, já aparece com saturação em torno de 88%. Cianose mede pigmento, não oxigenação."
+    explicacao: "A cor azul exige uma quantidade absoluta mínima de desoxi-hemoglobina, cerca de 2,38 g/dL no sangue arterial. Com hemoglobina total de 8 g/dL, essa massa só se acumula quando a saturação cai a cerca de 70%; com hemoglobina de 20 g/dL, já aparece com saturação em torno de 88%. Cianose mede pigmento, não oxigenação."
   - id: insp-torax-3
     enunciado: Você encontra tiragem visível em todo um hemitórax direito, sem tiragem à esquerda. O que esse achado localiza?
     alternativas:
@@ -517,7 +517,7 @@ perguntas:
       - "Oclusão do brônquio principal direito"
       - "Derrame pleural direito de grande volume"
     corretaIndex: 2
-    explicacao: "A extensão da tiragem denuncia a altura da obstrução. Tiragem em todo um hemitórax indica oclusão do brônquio principal daquele lado — por tampão mucoso espesso, neoplasia ou corpo estranho. Obstáculos acima da bifurcação traqueal produzem tiragem bilateral, assim como o estreitamento difuso dos pequenos brônquios da asma e do enfisema."
+    explicacao: "A extensão da tiragem denuncia a altura da obstrução. Tiragem em todo um hemitórax indica oclusão do brônquio principal daquele lado, por tampão mucoso espesso, neoplasia ou corpo estranho. Obstáculos acima da bifurcação traqueal produzem tiragem bilateral, assim como o estreitamento difuso dos pequenos brônquios da asma e do enfisema."
   - id: insp-torax-4
     enunciado: Em relação ao tórax em tonel como sinal de doença pulmonar obstrutiva crônica, qual afirmação está correta?
     alternativas:
@@ -533,16 +533,16 @@ perguntas:
       - "Medir o ângulo hiponiquial com transferidor diretamente à beira do leito; sensibilidade próxima de 100%, superior à de qualquer outra definição do achado"
       - "Observar a coloração do leito ungueal em luz fluorescente; especificidade próxima de 100%"
       - "Comparar a temperatura das polpas digitais com a do dorso da mão; razão de verossimilhança 8"
-      - "Sinal de Schamroth — desaparecimento da janela em losango entre dedos homólogos; razão de verossimilhança 8 quando presente e 0,2 quando ausente"
+      - "Sinal de Schamroth: desaparecimento da janela em losango entre dedos homólogos; razão de verossimilhança 8 quando presente e 0,2 quando ausente"
     corretaIndex: 3
-    explicacao: "Das três definições sustentadas por dados — razão de profundidade interfalangiana maior que 1, ângulo hiponiquial maior que 190° e sinal de Schamroth —, só a última dispensa instrumentos. Ela tem sensibilidade de 77% a 87%, especificidade de 90%, razão de verossimilhança 8 quando presente e 0,2 quando ausente."
+    explicacao: "Das três definições sustentadas por dados, razão de profundidade interfalangiana maior que 1, ângulo hiponiquial maior que 190° e sinal de Schamroth, só a última dispensa instrumentos. Ela tem sensibilidade de 77% a 87%, especificidade de 90%, razão de verossimilhança 8 quando presente e 0,2 quando ausente."
   - id: insp-torax-6
     enunciado: Ao auscultar o dorso, até onde é preciso descer para não perder território dos lobos inferiores?
     alternativas:
       - "Até a ponta da escápula, que marca o limite inferior dos pulmões"
       - "Até o 4º espaço intercostal posterior, limite da projeção pulmonar"
       - "Até a linha escapular superior, pois abaixo dela o parênquima pulmonar dá lugar à projeção do diafragma e das vísceras abdominais em qualquer fase do ciclo"
-      - "Bem abaixo do ângulo inferior da escápula — junto à coluna, a borda inferior do pulmão alcança o nível da 10ª vértebra torácica"
+      - "Bem abaixo do ângulo inferior da escápula: junto à coluna, a borda inferior do pulmão alcança o nível da 10ª vértebra torácica"
     corretaIndex: 3
-    explicacao: "A borda inferior do pulmão cruza a linha hemiclavicular na 6ª costela, a linha axilar média na 8ª e, junto à coluna, alcança o nível do processo espinhoso da 10ª vértebra torácica em expiração — descendo pelo menos mais dois espaços intercostais na inspiração. O ângulo inferior da escápula marca o começo do território das bases, não o fim."
+    explicacao: "A borda inferior do pulmão cruza a linha hemiclavicular na 6ª costela, a linha axilar média na 8ª e, junto à coluna, alcança o nível do processo espinhoso da 10ª vértebra torácica em expiração, descendo pelo menos mais dois espaços intercostais na inspiração. O ângulo inferior da escápula marca o começo do território das bases, não o fim."
 :::

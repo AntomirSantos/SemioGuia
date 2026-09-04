@@ -5,13 +5,13 @@ const CHAVE_EVENTOS = 'semioguia.analytics.eventos.v1';
 const CHAVE_USER_ID = 'semioguia.analytics.userId.v1';
 
 // Teto de eventos gravados (mais antigos são descartados): o beta dura
-// 4 semanas e o localStorage é compartilhado com o progresso — um aluno
+// 4 semanas e o localStorage é compartilhado com o progresso: um aluno
 // intenso gera poucos milhares de eventos, longe do limite do navegador,
 // mas o teto impede crescimento sem fim depois do beta.
 const MAX_EVENTOS = 4000;
 
 // Adaptador web: eventos no localStorage do navegador. Toda leitura/escrita
-// guardada por try/catch — em aba privada/preview degrada para memória
+// guardada por try/catch: em aba privada/preview degrada para memória
 // volátil, como o LocalStorageProgressStore.
 export class LocalStorageEventosStore implements EventosStore {
   private cache: RegistroEvento[];

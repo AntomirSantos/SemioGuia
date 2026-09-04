@@ -23,18 +23,18 @@ tags:
   - sinal de Osler
   - pseudo-hipertensão
 referencias:
-  - "Diretriz Brasileira de Hipertensão Arterial — 2025 (SBC/SBH/SBN), Quadros 3.2 e 3.4"
-  - "Porto — Semiologia Médica, 8ª ed., cap. 47 (Exame clínico do sistema cardiovascular) — seção de pressão arterial"
-  - "Porto — Exame Clínico, 8ª ed., cap. 21 (Sinais vitais) — seção de pressão arterial"
-  - "Porto — Exame Clínico, 8ª ed., cap. 14 (Exame da pressão arterial)"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 17 (Blood Pressure)"
+  - "Diretriz Brasileira de Hipertensão Arterial, 2025 (SBC/SBH/SBN), Quadros 3.2 e 3.4"
+  - "Porto, Semiologia Médica, 8ª ed., cap. 47 (Exame clínico do sistema cardiovascular), seção de pressão arterial"
+  - "Porto, Exame Clínico, 8ª ed., cap. 21 (Sinais vitais), seção de pressão arterial"
+  - "Porto, Exame Clínico, 8ª ed., cap. 14 (Exame da pressão arterial)"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 17 (Blood Pressure)"
   - "Semiologia Clínica, 1ª ed., cap. Semiologia cardiovascular (etapas de aferição da 7ª Diretriz Brasileira de Hipertensão Arterial)"
 revisao: ok
 ---
 
 ::: cena
 texto: |
-  O paciente subiu correndo a escada do posto, chegou atrasado, entrou direto — e a técnica anota 152 × 94 por cima da manga da camisa. "Doutor, minha pressão está alta?" Antes de responder, vale lembrar quantas regras de aferição acabaram de ser quebradas nessa única medida. Boa parte da "hipertensão" que se diagnostica por aí nasce assim.
+  O paciente subiu correndo a escada do posto, chegou atrasado, entrou direto, e a técnica anota 152 × 94 por cima da manga da camisa. "Doutor, minha pressão está alta?" Antes de responder, vale lembrar quantas regras de aferição acabaram de ser quebradas nessa única medida. Boa parte da "hipertensão" que se diagnostica por aí nasce assim.
 :::
 
 ::: secao
@@ -214,7 +214,7 @@ texto: |
   - **IV**: abafamento súbito.
   - **V**: silêncio. É a PAD.
 
-  Se os sons persistirem até zero, use a fase IV como diastólica e registre os três números — por exemplo, 150 × 70 × 0 mmHg. Isso é comum em gestantes, anemia grave e estados hipercinéticos.
+  Se os sons persistirem até zero, use a fase IV como diastólica e registre os três números, por exemplo, 150 × 70 × 0 mmHg. Isso é comum em gestantes, anemia grave e estados hipercinéticos.
 :::
 
 ::: conceito
@@ -229,7 +229,7 @@ texto: |
 
 ::: pense
 pergunta: Por que a aferição começa estimando a sistólica pela palpação do pulso radial, antes de encostar o estetoscópio?
-resposta: Por causa do hiato auscultatório — em até 20% dos idosos hipertensos os sons somem no fim da fase I e reaparecem depois, num intervalo de até 30 a 40 mmHg. O pulso distal persiste durante o hiato; palpar primeiro e insuflar 20 a 30 mmHg acima da estimativa evita registrar uma sistólica falsamente baixa.
+resposta: Por causa do hiato auscultatório, em até 20% dos idosos hipertensos os sons somem no fim da fase I e reaparecem depois, num intervalo de até 30 a 40 mmHg. O pulso distal persiste durante o hiato; palpar primeiro e insuflar 20 a 30 mmHg acima da estimativa evita registrar uma sistólica falsamente baixa.
 :::
 
 ::: secao
@@ -237,7 +237,7 @@ titulo: Classificação
 :::
 
 ::: tabela
-titulo: Classificação da PA no consultório em adultos — DBHA 2025 (a partir de 18 anos)
+titulo: "Classificação da PA no consultório em adultos: DBHA 2025 (a partir de 18 anos)"
 colunas: ["Classificação", "PAS (mmHg)", "Relação", "PAD (mmHg)"]
 linhas:
   - ["PA normal", "< 120", "e", "< 80"]
@@ -260,20 +260,20 @@ texto: |
 :::
 
 ::: tabela
-titulo: Definição de hipertensão conforme o método de aferição — DBHA 2025
+titulo: "Definição de hipertensão conforme o método de aferição: DBHA 2025"
 colunas: ["Método", "PAS (mmHg)", "Relação", "PAD (mmHg)"]
 linhas:
   - ["Consultório", "≥ 140", "e/ou", "≥ 90"]
-  - ["MAPA — média de 24 h", "≥ 130", "e/ou", "≥ 80"]
-  - ["MAPA — vigília", "≥ 135", "e/ou", "≥ 85"]
-  - ["MAPA — sono", "≥ 120", "e/ou", "≥ 70"]
+  - ["MAPA: média de 24 h", "≥ 130", "e/ou", "≥ 80"]
+  - ["MAPA: vigília", "≥ 135", "e/ou", "≥ 85"]
+  - ["MAPA: sono", "≥ 120", "e/ou", "≥ 70"]
   - ["MRPA (monitoramento residencial)", "≥ 130", "e/ou", "≥ 80"]
 :::
 
 ::: entendimento
 titulo: Uma medida alta ainda não é hipertensão
 texto: |
-  Classificar não é diagnosticar. Para validar o diagnóstico são necessárias medidas repetidas em duas ou mais visitas — ou MAPA/MRPA.
+  Classificar não é diagnosticar. Para validar o diagnóstico são necessárias medidas repetidas em duas ou mais visitas, ou MAPA/MRPA.
 
   A exceção pesa na conduta: em pacientes com lesão de órgão-alvo ou doença cardiovascular estabelecida, esses achados bastam para confirmar o diagnóstico.
 :::
@@ -286,7 +286,7 @@ titulo: Armadilhas do exame
 texto: |
   Nunca pule o método palpatório. Quem insufla só até "parar de ouvir" pode cair dentro do **hiato auscultatório** e registrar uma sistólica falsamente baixa. O pulso distal persiste durante o hiato, e é por isso que estimar a PAS pela palpação antes de auscultar resolve o problema em dez segundos.
 
-  O outro erro campeão é o manguito estreito demais para o braço. Ele transmite mal a pressão aos tecidos, exige pressões maiores para colabar a artéria e **superestima** a PA — transformando um obeso normotenso em "hipertenso".
+  O outro erro campeão é o manguito estreito demais para o braço. Ele transmite mal a pressão aos tecidos, exige pressões maiores para colabar a artéria e **superestima** a PA: transformando um obeso normotenso em "hipertenso".
 :::
 
 ::: conceito
@@ -308,30 +308,30 @@ texto: |
 titulo: Sinal de Osler e pseudo-hipertensão
 nivel: avancado
 texto: |
-  Insufle o manguito acima da sistólica e procure a radial. Se ela continuar palpável — sinal ou manobra de Osler —, considere pseudo-hipertensão.
+  Insufle o manguito acima da sistólica e procure a radial. Se ela continuar palpável, sinal ou manobra de Osler, considere pseudo-hipertensão.
 
   Lembre que a sensibilidade e a especificidade dessa manobra são baixas.
 :::
 
 ::: relampago
 caso: |
-  Dona Irene, 81 anos, caiu duas vezes no último mês — sempre pouco depois de se levantar da cama. No consultório, sentada, a PA é 128 × 76 mmHg. "Normal, graças a Deus."
+  Dona Irene, 81 anos, caiu duas vezes no último mês, sempre pouco depois de se levantar da cama. No consultório, sentada, a PA é 128 × 76 mmHg. "Normal, graças a Deus."
 pergunta: |
   A aferição terminou?
 opcoes:
-  - "Sim — PA normal encerra a investigação das quedas"
-  - "Não — falta medir também deitada e em pé, aos 3 minutos"
-  - "Não — falta apenas repetir a medida sentada, no outro braço"
+  - "Sim: PA normal encerra a investigação das quedas"
+  - "Não: falta medir também deitada e em pé, aos 3 minutos"
+  - "Não: falta apenas repetir a medida sentada, no outro braço"
 corretaIndex: 1
 desfecho: |
-  Em pé, a sistólica caiu 26 mmHg. No idoso, afere-se em decúbito, sentado e em pé justamente pela frequência de hipotensão ortostática: queda maior que 20 mmHg na PAS ou 10 mmHg na PAD após 3 minutos em pé caracteriza hipotensão postural — uma causa tratável de queda que a medida sentada, sozinha, nunca mostraria.
+  Em pé, a sistólica caiu 26 mmHg. No idoso, afere-se em decúbito, sentado e em pé justamente pela frequência de hipotensão ortostática: queda maior que 20 mmHg na PAS ou 10 mmHg na PAD após 3 minutos em pé caracteriza hipotensão postural, uma causa tratável de queda que a medida sentada, sozinha, nunca mostraria.
 :::
 
 ::: resumo
 linhas:
   - "A PA é uma variável contínua, não um número fixo: técnica correta (repouso, braço na altura do coração, manguito do tamanho certo) e medidas repetidas."
-  - "Palpe antes de auscultar — o hiato auscultatório engana; PAS na fase I, PAD na fase V, e sempre a categoria mais alta quando as faixas divergem."
-  - "Pela DBHA 2025: normal < 120/80, pré-hipertensão até 139/89, hipertensão a partir de 140/90 no consultório — e uma medida alta ainda não é diagnóstico."
+  - "Palpe antes de auscultar: o hiato auscultatório engana; PAS na fase I, PAD na fase V, e sempre a categoria mais alta quando as faixas divergem."
+  - "Pela DBHA 2025: normal < 120/80, pré-hipertensão até 139/89, hipertensão a partir de 140/90 no consultório, e uma medida alta ainda não é diagnóstico."
 :::
 
 ::: secao

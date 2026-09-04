@@ -1,5 +1,5 @@
 // Imagens do guia (didática 2026-09): as analogias recorrentes do conteúdo,
-// com nome próprio — quando a imagem mental tem nome, ela vira vocabulário
+// com nome próprio, quando a imagem mental tem nome, ela vira vocabulário
 // do curso. Cada entrada aponta o tópico onde a imagem nasce; a lista
 // alimenta o mini-glossário "Imagens do guia" no Perfil. Curadoria manual:
 // só entram imagens que existem literalmente no texto revisado.
@@ -38,7 +38,7 @@ export const IMAGENS_DO_GUIA: ImagemDoGuia[] = [
   },
   {
     nome: 'Dom Quixote e Sancho Pança',
-    descricao: 'O longilíneo é Dom Quixote, o brevilíneo é Sancho Pança — e o biotipo diz onde procurar as vísceras.',
+    descricao: 'O longilíneo é Dom Quixote, o brevilíneo é Sancho Pança, e o biotipo diz onde procurar as vísceras.',
     topicoId: 'exame-fisico-geral/avaliacao-geral/ectoscopia',
     topicoTitulo: 'Ectoscopia',
   },
@@ -55,14 +55,14 @@ export const IMAGENS_DO_GUIA: ImagemDoGuia[] = [
     topicoTitulo: 'Frequência cardíaca e pulso',
   },
   {
-    nome: 'Dói–come–passa',
-    descricao: 'O ritmo da úlcera duodenal: a dor cede quando o alimento chega — a exceção à regra de que a dor piora quando o órgão trabalha.',
+    nome: 'Dói-come-passa',
+    descricao: 'O ritmo da úlcera duodenal: a dor cede quando o alimento chega, a exceção à regra de que a dor piora quando o órgão trabalha.',
     topicoId: 'anamnese/entrevista-clinica/queixa-principal-e-hda',
     topicoTitulo: 'Queixa principal e HDA',
   },
   {
     nome: 'O filtro que deixa passar os graves',
-    descricao: 'O pulmão normal transmite as frequências baixas e retém as altas — é o princípio único por trás do frêmito e da ressonância vocal.',
+    descricao: 'O pulmão normal transmite as frequências baixas e retém as altas, é o princípio único por trás do frêmito e da ressonância vocal.',
     topicoId: 'aparelho-respiratorio/exame-do-torax/palpacao-do-torax',
     topicoTitulo: 'Palpação do tórax',
   },
@@ -74,7 +74,7 @@ export const IMAGENS_DO_GUIA: ImagemDoGuia[] = [
   },
   {
     nome: 'O grito de socorro do miocárdio',
-    descricao: 'O ritmo de galope por B3 patológica — a imagem é de Porto — sempre aponta comprometimento importante do músculo cardíaco.',
+    descricao: 'O ritmo de galope por B3 patológica, a imagem é de Porto, sempre aponta comprometimento importante do músculo cardíaco.',
     topicoId: 'aparelho-cardiovascular/exame-cardiaco/ausculta-cardiaca',
     topicoTitulo: 'Ausculta cardíaca',
   },

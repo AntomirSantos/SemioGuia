@@ -37,7 +37,7 @@ export const blocoSchema = z.discriminatedUnion('tipo', [
   z.object({ tipo: z.literal('cena'), texto: z.string().min(1), ...nivelCommon }),
   z.object({ tipo: z.literal('pense'), pergunta: z.string().min(1), resposta: z.string().min(1), ...nivelCommon }),
   z.object({ tipo: z.literal('resumo'), linhas: z.array(z.string().min(1)).length(3), ...nivelCommon }),
-  // Caso-relâmpago: parágrafo-caso com uma decisão única ao fim do tópico —
+  // Caso-relâmpago: parágrafo-caso com uma decisão única ao fim do tópico, 
   // a ponte entre a leitura e os casos clínicos ramificados.
   z
     .object({
@@ -53,7 +53,7 @@ export const blocoSchema = z.discriminatedUnion('tipo', [
       message: 'corretaIndex fora do intervalo de opcoes',
     }),
   // Som de ausculta (didática 2026-09): player de um som sintetizado do
-  // registro em src/config/sons.ts. O enum espelha as chaves de lá — o
+  // registro em src/config/sons.ts. O enum espelha as chaves de lá: o
   // build recusa um bloco que aponte para som inexistente.
   z.object({
     tipo: z.literal('som'),
@@ -101,7 +101,7 @@ export const topicoSchema = z.object({
   tags: z.array(z.string()),
   referencias: z.array(z.string().min(1)).min(1),
   // 'ok' é o atalho que o autor usa no frontmatter durante a revisão do beta
-  // (checklist §10 do plano) — normalizado para 'aprovada' na compilação,
+  // (checklist §10 do plano): normalizado para 'aprovada' na compilação,
   // então o app só conhece dois estados.
   revisao: z.preprocess((v) => (v === 'ok' ? 'aprovada' : v), z.enum(['pendente', 'aprovada'])),
   blocos: z.array(blocoSchema).min(1),

@@ -7,10 +7,10 @@ topicosDeApoio:
   - exame-fisico-geral/sinais-vitais/pressao-arterial
   - exame-fisico-geral/sinais-vitais/frequencia-cardiaca-e-pulso
 referencias:
-  - "Diretriz Brasileira de Hipertensão Arterial — 2025 (SBC/SBH/SBN), cap. 11 (Crise hipertensiva), Figura 11.1 e Quadros 11.1 a 11.3"
-  - "Porto — Semiologia Médica, 8ª ed., cap. 47 (Exame clínico do sistema cardiovascular)"
-  - "Porto — Exame Clínico, 8ª ed., cap. 14 (Exame da pressão arterial) e cap. 21 (Sinais vitais)"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 17 (Blood Pressure)"
+  - "Diretriz Brasileira de Hipertensão Arterial, 2025 (SBC/SBH/SBN), cap. 11 (Crise hipertensiva), Figura 11.1 e Quadros 11.1 a 11.3"
+  - "Porto, Semiologia Médica, 8ª ed., cap. 47 (Exame clínico do sistema cardiovascular)"
+  - "Porto, Exame Clínico, 8ª ed., cap. 14 (Exame da pressão arterial) e cap. 21 (Sinais vitais)"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 17 (Blood Pressure)"
 revisao: pendente
 inicio: c-triagem
 ---
@@ -39,11 +39,11 @@ opcoes:
     proximo: c-medida-um-braco
   - texto: "Reaferir você mesmo, com o paciente em repouso, manguito adequado ao braço e medida nos dois lados."
     avaliacao: otima
-    feedback: "Medida por cima da roupa, sem repouso e com manguito qualquer não sustenta diagnóstico nenhum. Repouso de 3 a 5 minutos, braço exposto e apoiado na altura do coração, manguito escolhido pela circunferência, sistólica estimada pela palpação antes de auscultar — e os dois braços, porque a diferença entre eles pode ser a única pista de dissecção de aorta."
+    feedback: "Medida por cima da roupa, sem repouso e com manguito qualquer não sustenta diagnóstico nenhum. Repouso de 3 a 5 minutos, braço exposto e apoiado na altura do coração, manguito escolhido pela circunferência, sistólica estimada pela palpação antes de auscultar, e os dois braços, porque a diferença entre eles pode ser a única pista de dissecção de aorta."
     proximo: c-medida-confirmada
   - texto: "O valor já é altíssimo: nifedipina sublingual de liberação rápida agora, enquanto você examina."
     avaliacao: erro
-    feedback: "A nifedipina de liberação rápida é proscrita na crise hipertensiva. A queda é abrupta e não se interrompe — e o cérebro, o coração e o rim de um hipertenso crônico dependem de pressões mais altas para se perfundir."
+    feedback: "A nifedipina de liberação rápida é proscrita na crise hipertensiva. A queda é abrupta e não se interrompe, e o cérebro, o coração e o rim de um hipertenso crônico dependem de pressões mais altas para se perfundir."
     proximo: c-queda-abrupta
 :::
 
@@ -80,7 +80,7 @@ pergunta: "A elevação está confirmada. O que decide se isso é uma emergênci
 opcoes:
   - texto: "O próprio número: PAS ≥ 180 com PAD ≥ 110 mmHg fecha o diagnóstico de emergência hipertensiva. Pedir vaga na UTI."
     avaliacao: erro
-    feedback: "Esses valores levantam a suspeita, mas não fecham nada — a maior parte dos pacientes nessa faixa não tem lesão aguda de órgão-alvo. E, se houver, é o órgão acometido que define o alvo de redução: sem saber qual é, você não sabe nem o que pedir para a UTI."
+    feedback: "Esses valores levantam a suspeita, mas não fecham nada, a maior parte dos pacientes nessa faixa não tem lesão aguda de órgão-alvo. E, se houver, é o órgão acometido que define o alvo de redução: sem saber qual é, você não sabe nem o que pedir para a UTI."
     proximo: c-atraso
   - texto: "Nada por enquanto: ele está lúcido e andando. Deixá-lo 30 minutos em sala calma e reaferir depois."
     avaliacao: erro
@@ -112,11 +112,11 @@ pergunta: "Emergência hipertensiva com edema agudo de pulmão. Qual o alvo da p
 opcoes:
   - texto: "Levar a PA até 120 x 80 mmHg na primeira hora: se o alvo é baixar depressa, baixar até o normal."
     avaliacao: erro
-    feedback: "Depressa, sim; até o normal, não. O alvo desta primeira hora é PAS abaixo de 140 mmHg — valores normais são meta de 24 a 48 horas. No hipertenso crônico a autorregulação está deslocada para cima, e a queda excessiva troca congestão por isquemia."
+    feedback: "Depressa, sim; até o normal, não. O alvo desta primeira hora é PAS abaixo de 140 mmHg: valores normais são meta de 24 a 48 horas. No hipertenso crônico a autorregulação está deslocada para cima, e a queda excessiva troca congestão por isquemia."
     proximo: fim-dano-queda
   - texto: "Droga intravenosa titulável em paciente monitorizado, com alvo de PAS < 140 mmHg na primeira hora."
     avaliacao: otima
-    feedback: "Monitorização, oxigênio e acesso venoso, e o alvo correto: o edema agudo de pulmão está no ramo de exceção do fluxograma da diretriz, ao lado das crises catecolaminérgicas e da dissecção de aorta. Aqui a redução é mais rápida, com PAS abaixo de 140 mmHg já na primeira hora — e é a titulação da droga intravenosa que torna essa velocidade segura."
+    feedback: "Monitorização, oxigênio e acesso venoso, e o alvo correto: o edema agudo de pulmão está no ramo de exceção do fluxograma da diretriz, ao lado das crises catecolaminérgicas e da dissecção de aorta. Aqui a redução é mais rápida, com PAS abaixo de 140 mmHg já na primeira hora, e é a titulação da droga intravenosa que torna essa velocidade segura."
     proximo: fim-otimo
   - texto: "Nifedipina sublingual de liberação rápida, que age em minutos, enquanto a bomba é preparada."
     avaliacao: erro
@@ -129,7 +129,7 @@ tipo: cena
 id: c-queda-abrupta
 texto: "Vinte minutos depois da nifedipina, a pressão despenca. Ele fica pálido, com sudorese fria, refere escurecimento visual e um aperto no peito que não existia na chegada. E continua sem conseguir deitar."
 dados:
-  - "PA 122 x 70 mmHg — queda de 88 mmHg na PAS em 20 minutos"
+  - "PA 122 x 70 mmHg: queda de 88 mmHg na PAS em 20 minutos"
   - "FC 118 bpm"
   - "Sudorese fria, escurecimento visual e dor precordial nova"
   - "SpO2 90% em ar ambiente, estertores nas bases"
@@ -147,7 +147,7 @@ opcoes:
     proximo: fim-dano-alta
   - texto: "Nenhuma droga nova: monitorizar, oxigênio, acesso venoso, ECG imediato e examinar o tórax."
     avaliacao: otima
-    feedback: "Boa recuperação. A prioridade agora é conter o estrago: nada de nova dose, monitor, ECG à procura de isquemia e o exame dirigido que deveria ter vindo primeiro — o tórax dele ainda não foi auscultado."
+    feedback: "Boa recuperação. A prioridade agora é conter o estrago: nada de nova dose, monitor, ECG à procura de isquemia e o exame dirigido que deveria ter vindo primeiro, o tórax dele ainda não foi auscultado."
     proximo: fim-aceitavel
 :::
 
@@ -170,7 +170,7 @@ pergunta: "O edema agudo de pulmão estava ali desde a chegada. E agora?"
 opcoes:
   - texto: "Assumir a emergência: droga titulável, com alvo de PAS < 140 mmHg nesta primeira hora."
     avaliacao: otima
-    feedback: "É a conduta certa, atrasada. Monitorização, oxigênio e droga intravenosa titulável, com o alvo correto para o edema agudo de pulmão — mas ele passou quarenta minutos congesto e hipoxêmico, e esse tempo cobra o preço em órgão."
+    feedback: "É a conduta certa, atrasada. Monitorização, oxigênio e droga intravenosa titulável, com o alvo correto para o edema agudo de pulmão, mas ele passou quarenta minutos congesto e hipoxêmico, e esse tempo cobra o preço em órgão."
     proximo: fim-aceitavel
   - texto: "Correr atrás do tempo perdido: doses sucessivas até a pressão chegar a 120 x 80 mmHg."
     avaliacao: erro
@@ -191,7 +191,7 @@ tipo: desfecho
 id: fim-aceitavel
 classe: aceitavel
 texto: "O paciente acaba recebendo o tratamento certo, depois de um susto evitável. Ele melhora, mas parte da conversa com a família passa a ser sobre o que quase aconteceu."
-ensino: "Os dois caminhos que chegam aqui têm a mesma raiz: agir sobre o número antes de examinar o paciente. Tratar sem saber qual órgão está sofrendo expõe a uma queda sem alvo e sem freio; esperar sem examinar deixa a lesão progredir. Reconhecer o próprio erro e voltar ao exame dirigido ainda salva o desfecho — insistir na conduta errada, não."
+ensino: "Os dois caminhos que chegam aqui têm a mesma raiz: agir sobre o número antes de examinar o paciente. Tratar sem saber qual órgão está sofrendo expõe a uma queda sem alvo e sem freio; esperar sem examinar deixa a lesão progredir. Reconhecer o próprio erro e voltar ao exame dirigido ainda salva o desfecho: insistir na conduta errada, não."
 :::
 
 ::: no
@@ -199,7 +199,7 @@ tipo: desfecho
 id: fim-dano-queda
 classe: dano
 texto: "A pressão cai muito além do alvo. Ele fica sonolento, com sudorese fria e novo desconforto precordial; o ECG mostra alterações isquêmicas que não existiam na chegada. A congestão pulmonar foi trocada por isquemia."
-ensino: "No hipertenso crônico a autorregulação está deslocada para cima: a pressão 'normal' pode ser isquêmica para ele. O alvo depende da emergência — edema agudo de pulmão e crise catecolaminérgica pedem PAS abaixo de 140 mmHg na primeira hora, e a dissecção aguda de aorta, abaixo de 120 mmHg; nas demais emergências hipertensivas, reduz-se cerca de 25% na primeira hora, chega-se a 160/100 a 110 mmHg em 2 a 6 horas e a valores normais só em 24 a 48 horas. Em nenhuma delas se usa nifedipina sublingual de liberação rápida, proscrita por produzir queda veloz e incontrolável."
+ensino: "No hipertenso crônico a autorregulação está deslocada para cima: a pressão 'normal' pode ser isquêmica para ele. O alvo depende da emergência: edema agudo de pulmão e crise catecolaminérgica pedem PAS abaixo de 140 mmHg na primeira hora, e a dissecção aguda de aorta, abaixo de 120 mmHg; nas demais emergências hipertensivas, reduz-se cerca de 25% na primeira hora, chega-se a 160/100 a 110 mmHg em 2 a 6 horas e a valores normais só em 24 a 48 horas. Em nenhuma delas se usa nifedipina sublingual de liberação rápida, proscrita por produzir queda veloz e incontrolável."
 :::
 
 ::: no
@@ -207,5 +207,5 @@ tipo: desfecho
 id: fim-dano-alta
 classe: dano
 texto: "Ele vai para casa com a pressão 'controlada' e volta de ambulância na mesma madrugada, com dor precordial e edema agudo de pulmão. A curva de troponina confirma o infarto."
-ensino: "Número que melhora não é paciente que melhora. A alta se decide pelo exame do paciente, não pelo valor do manguito — e dor precordial nova depois de uma queda abrupta de pressão é isquemia até prova em contrário."
+ensino: "Número que melhora não é paciente que melhora. A alta se decide pelo exame do paciente, não pelo valor do manguito, e dor precordial nova depois de uma queda abrupta de pressão é isquemia até prova em contrário."
 :::

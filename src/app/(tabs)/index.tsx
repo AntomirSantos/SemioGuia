@@ -26,7 +26,7 @@ function contarTopicos(sistema: Sistema): number {
 // Barra de progresso da linha de sistema: elemento não textual, então a cor
 // do sistema tinge livremente o preenchimento (cor de sistema nunca vira cor
 // de texto, só acento decorativo/estado). Na linguagem editorial ela é um
-// fio discreto sob a meta — quase uma sublinha.
+// fio discreto sob a meta, quase uma sublinha.
 function BarraProgressoSistema({ estudados, total, cor }: { estudados: number; total: number; cor: string }) {
   const { paleta } = useTema();
   const percentual = total > 0 ? estudados / total : 0;
@@ -51,7 +51,7 @@ function BarraProgressoSistema({ estudados, total, cor }: { estudados: number; t
 
 // Linha editorial de sistema (identidade R2): barra de cor 8×34 como único
 // canal da cor do sistema + nome em Bodoni + meta em Public Sans + chevron,
-// separadas por hairline — sem ícone-badge, sem wash de fundo, sem sombra.
+// separadas por hairline, sem ícone-badge, sem wash de fundo, sem sombra.
 function LinhaSistema({ sistema, estudados, revisado }: { sistema: Sistema; estudados: number; revisado: boolean }) {
   const { paleta, escala } = useTema();
   const totalTopicos = contarTopicos(sistema);
@@ -260,7 +260,7 @@ export default function Guia() {
   }, [progresso, conteudo]);
   const plano = useDadosAoFocar(carregarPlano);
 
-  // Kicker do masthead derivado do conteúdo real — nunca hardcode.
+  // Kicker do masthead derivado do conteúdo real, nunca hardcode.
   const totalTopicos = listarTodosTopicos(conteudo).length;
   const kicker = `${sistemas.length} sistemas · ${totalTopicos} tópicos`;
 

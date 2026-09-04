@@ -47,7 +47,7 @@ test('renderiza o título do tópico e um bloco', async () => {
     expect(getByText('Pressão arterial')).toBeTruthy();
   });
   // Leitura por seções (Fase 8 §3.1): a tela abre só na 1ª seção
-  // ("O essencial"), que não tem bloco de manobra — ele está na 2ª seção
+  // ("O essencial"), que não tem bloco de manobra, ele está na 2ª seção
   // ("Como aferir"). Navega antes de asserir, como orientado para testes
   // que dependiam de conteúdo fora da seção inicial. `await` no press: a
   // troca de seção dispara a transição de entrada (Animated), cujo efeito
@@ -130,7 +130,7 @@ test('desmarcar como estudado não semeia novos itens de revisão', async () => 
   expect(itens).toHaveLength(0);
 });
 
-// Leitura por seções — spec Fase 8 §3.1/§3.2.
+// Leitura por seções: spec Fase 8 §3.1/§3.2.
 describe('leitura por seções', () => {
   test('abre na 1ª seção, com a chip correspondente marcada como selecionada', async () => {
     const { getByText, getAllByRole } = await renderTopico(new MemoryProgressStore());
@@ -157,7 +157,7 @@ describe('leitura por seções', () => {
 
     // `await`: a troca de seção dispara EntradaAnimada (fade + deslize via
     // Animated), cujo efeito de montagem só assenta na árvore depois de
-    // resolvido — sem isso a asserção seguinte roda contra a árvore antiga.
+    // resolvido, sem isso a asserção seguinte roda contra a árvore antiga.
     await fireEvent.press(getByText('Classificação'));
 
     expect(getByText('Seção 3 de 5')).toBeTruthy();
@@ -199,7 +199,7 @@ describe('leitura por seções', () => {
     await fireEvent.press(gatilhos[0]);
 
     expect(getByText('As cinco fases, uma a uma')).toBeTruthy();
-    // Revisão de fase P3b: o Conceito revelado não duplica a identidade —
+    // Revisão de fase P3b: o Conceito revelado não duplica a identidade, 
     // "Aprofundar · Conceito" já basta, sem um "Conceito" solto dentro.
     expect(queryByText('Conceito')).toBeNull();
   });

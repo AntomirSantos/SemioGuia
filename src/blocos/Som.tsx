@@ -10,11 +10,11 @@ import { IdentidadeBloco } from './identidade';
 
 type SomBloco = Extract<Bloco, { tipo: 'som' }>;
 
-// Bloco de ausculta (didática 2026-09): o som tocável dentro do tópico —
+// Bloco de ausculta (didática 2026-09): o som tocável dentro do tópico, 
 // B1/B2, sopros, murmúrio, sibilos, estertores. Os arquivos são sintetizados
 // por scripts/gerar-sons.py (livres de direitos) e o aviso deixa claro ao
 // estudante que é representação didática, não gravação clínica. O player
-// toca em loop enquanto ativo — ausculta se escuta em ciclos, não em takes.
+// toca em loop enquanto ativo: ausculta se escuta em ciclos, não em takes.
 export function Som({ bloco }: { bloco: SomBloco }) {
   const { paleta, escala } = useTema();
   const player = useAudioPlayer(FONTES_DE_SOM[bloco.arquivo]);

@@ -38,7 +38,7 @@ describe('diasAteProva e textoDiasAteProva', () => {
     expect(textoDiasAteProva(34)).toBe('Faltam 34 dias para a prova');
     expect(textoDiasAteProva(1)).toBe('Falta 1 dia para a prova');
     expect(textoDiasAteProva(0)).toBe('A prova é hoje');
-    expect(textoDiasAteProva(-2)).toBe('A prova já passou — atualize a data no Perfil');
+    expect(textoDiasAteProva(-2)).toBe('A prova já passou: atualize a data no Perfil');
   });
 
   test('com o sistema da prova, o texto o nomeia', () => {

@@ -3,7 +3,7 @@ const mockAuthObj: { currentUser: { email: string | null } | null } = { currentU
 // firestoreSync.ts é a única camada que toca o Firestore; mockamos o SDK
 // modular usado por ela e o `obterAuth` de firebaseApp.ts diretamente (em vez
 // de mockar firebase/auth/app também), já que só o e-mail vivo do usuário
-// logado importa aqui — não o ciclo de vida completo do Auth.
+// logado importa aqui, não o ciclo de vida completo do Auth.
 jest.mock('../conta/firebaseApp', () => ({
   obterAuth: () => mockAuthObj,
 }));
@@ -130,7 +130,7 @@ describe('lerSnapshotRemoto', () => {
     ]);
   });
 
-  test('lê sempre por coleção sob users/{uid}/… — nunca collectionGroup', async () => {
+  test('lê sempre por coleção sob users/{uid}/…, nunca collectionGroup', async () => {
     mockGetDocs.mockResolvedValue(snapshotDe({}));
     await lerSnapshotRemoto(DB_FALSO, 'uid-1');
     for (const chamada of mockCollection.mock.calls) {
@@ -180,7 +180,7 @@ describe('gravarDeltas', () => {
     expect(lotesCriados).toHaveLength(1);
     const lote = lotesCriados[0];
     // Nenhuma operação de perfil (um e-mail vazio derrubaria o lote inteiro
-    // nas regras — texto(email, ...) exige size() > 0); os deltas de dados
+    // nas regras: texto(email, ...) exige size() > 0); os deltas de dados
     // são gravados normalmente.
     expect(lote.set).toHaveBeenCalledTimes(1);
     expect(lote.set).toHaveBeenCalledWith(

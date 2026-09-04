@@ -28,22 +28,22 @@ tags:
   - Biot
   - ortopneia
 referencias:
-  - "Porto — Semiologia Médica, 8ª ed., cap. 8 (Exame físico geral) — seções de temperatura e respiração"
-  - "Porto — Exame Clínico, 8ª ed., cap. 21 (Sinais vitais) — seções de temperatura e frequência respiratória"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 18 (Temperature)"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 19 (Respiratory Rate and Abnormal Breathing Patterns)"
+  - "Porto, Semiologia Médica, 8ª ed., cap. 8 (Exame físico geral), seções de temperatura e respiração"
+  - "Porto, Exame Clínico, 8ª ed., cap. 21 (Sinais vitais), seções de temperatura e frequência respiratória"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 18 (Temperature)"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 19 (Respiratory Rate and Abnormal Breathing Patterns)"
   - "Semiologia Clínica, 1ª ed. (definição de febre no adulto: axilar > 37,8 °C)"
-  - "SBP — Documento Científico nº 206, 15/05/2025: Abordagem da Febre Aguda em Pediatria e Reflexões sobre a Febre nas Arboviroses"
+  - "SBP, Documento Científico nº 206, 15/05/2025: Abordagem da Febre Aguda em Pediatria e Reflexões sobre a Febre nas Arboviroses"
 revisao: ok
 ---
 
 ::: cena
 texto: |
-  Plantão noturno. O idoso diabético do leito 7 está "afebril, 36,8" — mas hipotenso, confuso, taquipneico. A enfermagem estranha que você peça culturas: "sem febre, doutor?". É exatamente esse o ponto: quem não consegue fazer febre diante de uma infecção grave está pior, não melhor. Termômetro é instrumento; interpretar é outra coisa.
+  Plantão noturno. O idoso diabético do leito 7 está "afebril, 36,8", mas hipotenso, confuso, taquipneico. A enfermagem estranha que você peça culturas: "sem febre, doutor?". É exatamente esse o ponto: quem não consegue fazer febre diante de uma infecção grave está pior, não melhor. Termômetro é instrumento; interpretar é outra coisa.
 :::
 
 ::: secao
-titulo: Temperatura — o essencial
+titulo: "Temperatura: o essencial"
 :::
 
 ::: conceito
@@ -57,7 +57,7 @@ texto: |
 ::: conceito
 titulo: Febre não é hipertermia
 texto: |
-  Na febre, pirogênios liberados por bactérias ou por tecidos em degeneração deslocam para cima o ponto de ajuste do termostato. Os mecanismos de conservação e produção de calor são acionados até que a nova temperatura-alvo seja atingida — daí os calafrios.
+  Na febre, pirogênios liberados por bactérias ou por tecidos em degeneração deslocam para cima o ponto de ajuste do termostato. Os mecanismos de conservação e produção de calor são acionados até que a nova temperatura-alvo seja atingida, daí os calafrios.
 
   Na hipertermia o ponto de ajuste não se desloca. A temperatura sobe por sobrecarga externa: insolação, roupa inadequada, esforço extenuante.
 
@@ -145,7 +145,7 @@ passos:
   - "Mantenha o termômetro de mercúrio por cerca de 5 minutos; o digital costuma bastar 1 minuto."
   - "Enquanto aguarda, use o tempo para observar os outros sinais vitais."
   - "Retire o termômetro pela extremidade oposta ao bulbo e faça a leitura."
-  - "Registre o valor, o local de aferição e o horário — a temperatura isolada vale pouco; a curva vale muito."
+  - "Registre o valor, o local de aferição e o horário: a temperatura isolada vale pouco; a curva vale muito."
 :::
 
 ::: conceito
@@ -182,13 +182,13 @@ linhas:
 ::: conceito
 titulo: Uma escada, um corte
 texto: |
-  A escada acima foi harmonizada com o corte de febre do adulto que o guia adota (**acima de 37,8 °C**, Semiologia Clínica): a febrícula vai até 37,7 °C e a febre moderada começa exatamente onde a febre começa. Porto encerra a febrícula em 37,5 °C e inicia a moderada em 37,6 °C — o que deixaria uma faixa de dois décimos que já seria "febre moderada" sem ainda ser febre.
+  A escada acima foi harmonizada com o corte de febre do adulto que o guia adota (**acima de 37,8 °C**, Semiologia Clínica): a febrícula vai até 37,7 °C e a febre moderada começa exatamente onde a febre começa. Porto encerra a febrícula em 37,5 °C e inicia a moderada em 37,6 °C: o que deixaria uma faixa de dois décimos que já seria "febre moderada" sem ainda ser febre.
 :::
 
 ::: conceito
-titulo: Febre na criança — SBP 2025
+titulo: "Febre na criança: SBP 2025"
 texto: |
-  Na criança, o ponto de corte é diferente do adulto. O Documento Científico nº 206 da Sociedade Brasileira de Pediatria (maio de 2025) baixou o limiar de febre. De 37,8 °C, ele passou a **≥ 37,5 °C na temperatura axilar** — equivalente a ≥ 38 °C por via oral ou retal.
+  Na criança, o ponto de corte é diferente do adulto. O Documento Científico nº 206 da Sociedade Brasileira de Pediatria (maio de 2025) baixou o limiar de febre. De 37,8 °C, ele passou a **≥ 37,5 °C na temperatura axilar**: equivalente a ≥ 38 °C por via oral ou retal.
 
   Valores axilares de **37,3 a 37,5 °C** configuram **estado febril** (temperatura limítrofe), que pede observação.
 
@@ -202,7 +202,7 @@ titulo: A febre que não aparece
 texto: |
   A febre raramente vem sozinha. A **síndrome febril** inclui astenia, inapetência, cefaleia, taquicardia, taquipneia, oligúria, mialgia, calafrios, sudorese e náuseas. Nos extremos de idade somam-se delírio, confusão mental e convulsões.
 
-  Atenção ao paciente que "não faz febre". Idosos, diabéticos, pacientes em choque ou em mau estado geral podem apresentar apenas febrícula — ou nenhuma elevação — diante de infecção grave.
+  Atenção ao paciente que "não faz febre". Idosos, diabéticos, pacientes em choque ou em mau estado geral podem apresentar apenas febrícula, ou nenhuma elevação, diante de infecção grave.
 
   A ausência de febre nessa situação é sinal de mau prognóstico, não de tranquilidade.
 :::
@@ -296,7 +296,7 @@ etapas:
 ::: pense
 pergunta: Uma criança está com 37,6 °C na axila. Pelo corte da SBP 2025, isso é febre? E no adulto?
 resposta: |
-  Na criança, sim — o documento de 2025 baixou o limiar para ≥ 37,5 °C axilar (37,3 a 37,5 °C é estado febril, limítrofe). No adulto, ainda não: o corte que o guia adota é acima de 37,8 °C, e 37,3 a 37,7 °C é estado subfebril.
+  Na criança, sim: o documento de 2025 baixou o limiar para ≥ 37,5 °C axilar (37,3 a 37,5 °C é estado febril, limítrofe). No adulto, ainda não: o corte que o guia adota é acima de 37,8 °C, e 37,3 a 37,7 °C é estado subfebril.
 :::
 
 ::: secao
@@ -306,7 +306,7 @@ titulo: Frequência respiratória
 ::: conceito
 titulo: A faixa normal e os desvios
 texto: |
-  O padrão normal do adulto — **eupneia** — é uma sucessão regular de incursões de amplitude semelhante. A faixa normal é de **16 a 20 incursões por minuto (irpm)**: acima de 20, **taquipneia**; abaixo de 16, **bradipneia**.
+  O padrão normal do adulto, **eupneia**, é uma sucessão regular de incursões de amplitude semelhante. A faixa normal é de **16 a 20 incursões por minuto (irpm)**: acima de 20, **taquipneia**; abaixo de 16, **bradipneia**.
 
   A FR é o único sinal vital sob controle voluntário. Se o paciente perceber que está sendo contado, o número muda. Por isso a contagem é feita com discrição, tipicamente enquanto o examinador ainda segura o punho como se palpasse o pulso.
 :::
@@ -371,35 +371,35 @@ svg: |
       <text x="240" y="222">Biot</text>
     </g>
   </svg>
-legenda: "Os quatro ritmos como traçado, cada incursão como uma onda. Na eupneia, movimentos regulares e de amplitude semelhante. No Cheyne-Stokes, a amplitude cresce até um máximo e depois decresce, podendo chegar à apneia. No Kussmaul, inspirações amplas e rápidas separadas por curtos períodos de apneia. No Biot, amplitudes e intervalos irregulares, sem padrão — é o minuto inteiro de observação que revela esses desenhos, nunca os 15 segundos multiplicados por quatro."
+legenda: "Os quatro ritmos como traçado, cada incursão como uma onda. Na eupneia, movimentos regulares e de amplitude semelhante. No Cheyne-Stokes, a amplitude cresce até um máximo e depois decresce, podendo chegar à apneia. No Kussmaul, inspirações amplas e rápidas separadas por curtos períodos de apneia. No Biot, amplitudes e intervalos irregulares, sem padrão: é o minuto inteiro de observação que revela esses desenhos, nunca os 15 segundos multiplicados por quatro."
 :::
 
 ::: perola
 texto: |
-  A frequência respiratória é o sinal vital mais anotado e menos aferido. Comparando o prontuário com a contagem real, os valores anotados se concentram entre 16 e 22 irpm na grande maioria das vezes — mesmo em pacientes cuja frequência verdadeira variava de 10 a mais de 30.
+  A frequência respiratória é o sinal vital mais anotado e menos aferido. Comparando o prontuário com a contagem real, os valores anotados se concentram entre 16 e 22 irpm na grande maioria das vezes: mesmo em pacientes cuja frequência verdadeira variava de 10 a mais de 30.
 
   A causa é quase sempre a mesma: contar 15 segundos e multiplicar por quatro. Nessa forma abreviada, apenas cerca de 23% dos pacientes taquipneicos são identificados; com 60 segundos de observação, praticamente todos são. O minuto inteiro ainda revela padrões que a contagem curta jamais mostraria, como a respiração de Cheyne-Stokes.
 :::
 
 ::: relampago
 caso: |
-  Enfermaria, 15h. O paciente do leito 2 acabou de tomar o café da tarde, ainda quente, e a técnica pergunta se pode aferir a temperatura pela via bucal — o termômetro axilar do setor sumiu.
+  Enfermaria, 15h. O paciente do leito 2 acabou de tomar o café da tarde, ainda quente, e a técnica pergunta se pode aferir a temperatura pela via bucal: o termômetro axilar do setor sumiu.
 pergunta: |
   O que orientar?
 opcoes:
-  - "Pode aferir agora — a via bucal não sofre interferências"
-  - "A via bucal é proscrita no adulto — suspender a aferição até acharem o termômetro axilar"
+  - "Pode aferir agora: a via bucal não sofre interferências"
+  - "A via bucal é proscrita no adulto: suspender a aferição até acharem o termômetro axilar"
   - "Esperar um pouco: bebidas, mastigação, cigarro e taquipneia influenciam a via bucal"
 corretaIndex: 2
 desfecho: |
-  A leitura sublingual logo após uma bebida quente mede o café, não o paciente. A via bucal é legítima — faixa normal de 36 a 37,4 °C —, mas sofre influência de mastigação, bebidas, cigarro e taquipneia. Cada via tem sua faixa e suas ressalvas, e interpretar o número exige saber por qual via ele foi medido.
+  A leitura sublingual logo após uma bebida quente mede o café, não o paciente. A via bucal é legítima (faixa normal de 36 a 37,4 °C) mas sofre influência de mastigação, bebidas, cigarro e taquipneia. Cada via tem sua faixa e suas ressalvas, e interpretar o número exige saber por qual via ele foi medido.
 :::
 
 ::: resumo
 linhas:
-  - "Febre é termostato deslocado (adulto: axilar > 37,8 °C; criança, SBP 2025: ≥ 37,5 °C); hipertermia é sobrecarga externa — e a curva térmica vale mais que o valor isolado."
-  - "Idoso, diabético e paciente grave podem não fazer febre diante de infecção séria — a ausência é sinal de mau prognóstico, não de tranquilidade."
-  - "A FR se conta por 60 segundos, sem avisar — é o único sinal vital sob controle voluntário, e a contagem de 15 segundos perde três em cada quatro taquipneicos."
+  - "Febre é termostato deslocado (adulto: axilar > 37,8 °C; criança, SBP 2025: ≥ 37,5 °C); hipertermia é sobrecarga externa, e a curva térmica vale mais que o valor isolado."
+  - "Idoso, diabético e paciente grave podem não fazer febre diante de infecção séria: a ausência é sinal de mau prognóstico, não de tranquilidade."
+  - "A FR se conta por 60 segundos, sem avisar: é o único sinal vital sob controle voluntário, e a contagem de 15 segundos perde três em cada quatro taquipneicos."
 :::
 
 ::: secao
@@ -452,5 +452,5 @@ perguntas:
       - "Trata-se necessariamente de hipotermia"
       - "A temperatura deve ser desconsiderada e apenas a frequência respiratória avaliada"
     corretaIndex: 1
-    explicacao: Idosos, diabéticos, pacientes em choque e em mau estado geral podem não apresentar febre — ou apresentar só febrícula — diante de infecção grave. A incapacidade de responder com febre é sinal de mau prognóstico e reforça a necessidade de avaliar os demais sinais vitais e o foco.
+    explicacao: Idosos, diabéticos, pacientes em choque e em mau estado geral podem não apresentar febre, ou apresentar só febrícula, diante de infecção grave. A incapacidade de responder com febre é sinal de mau prognóstico e reforça a necessidade de avaliar os demais sinais vitais e o foco.
 :::

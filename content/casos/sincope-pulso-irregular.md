@@ -7,10 +7,10 @@ topicosDeApoio:
   - exame-fisico-geral/sinais-vitais/frequencia-cardiaca-e-pulso
   - exame-fisico-geral/sinais-vitais/pressao-arterial
 referencias:
-  - "Porto — Exame Clínico, 8ª ed., cap. 13 (Exame dos pulsos radial, periféricos e venoso) e cap. 21 (Sinais vitais)"
-  - "Porto — Semiologia Médica, 8ª ed., cap. 47 (Exame clínico do sistema cardiovascular)"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 15 (Pulse Rate and Contour)"
-  - "Diretriz Brasileira de Hipertensão Arterial — 2025 (SBC/SBH/SBN), aferição da PA e hipotensão ortostática no idoso"
+  - "Porto, Exame Clínico, 8ª ed., cap. 13 (Exame dos pulsos radial, periféricos e venoso) e cap. 21 (Sinais vitais)"
+  - "Porto, Semiologia Médica, 8ª ed., cap. 47 (Exame clínico do sistema cardiovascular)"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 15 (Pulse Rate and Contour)"
+  - "Diretriz Brasileira de Hipertensão Arterial, 2025 (SBC/SBH/SBN), aferição da PA e hipotensão ortostática no idoso"
 revisao: pendente
 inicio: c-chamado
 ---
@@ -38,22 +38,22 @@ opcoes:
     proximo: c-pulso-perdido
   - texto: "Palpar a radial por 60 segundos completos, com o estetoscópio no precórdio no mesmo minuto."
     avaliacao: otima
-    feedback: "O pulso entrega sete informações — parede, frequência, ritmo, amplitude, tensão, tipo de onda e comparação entre os lados —, e nenhuma delas cabe num número de monitor. Palpar e auscultar ao mesmo tempo, no mesmo minuto, é o que revela o déficit de pulso: contagens feitas em minutos diferentes não são comparáveis quando o ritmo é irregular."
+    feedback: "O pulso entrega sete informações (parede, frequência, ritmo, amplitude, tensão, tipo de onda e comparação entre os lados) e nenhuma delas cabe num número de monitor. Palpar e auscultar ao mesmo tempo, no mesmo minuto, é o que revela o déficit de pulso: contagens feitas em minutos diferentes não são comparáveis quando o ritmo é irregular."
     proximo: c-pulso
   - texto: "Anotar a frequência que o monitor do posto já mostra; a palpação não acrescentaria nada."
     avaliacao: erro
-    feedback: "O monitor conta batimentos elétricos; a radial conta os que geraram onda de pulso. A diferença entre os dois é um achado, não um detalhe — e é ela que aponta a arritmia."
+    feedback: "O monitor conta batimentos elétricos; a radial conta os que geraram onda de pulso. A diferença entre os dois é um achado, não um detalhe, e é ela que aponta a arritmia."
     proximo: c-pulso-perdido
 :::
 
 ::: no
 tipo: cena
 id: c-pulso
-texto: "Sob as suas polpas, a radial não guarda compasso nenhum: os intervalos mudam a cada batimento e a força das ondas também — algumas quase somem. Você mantém os dedos no punho e encaixa o estetoscópio no precórdio ao mesmo tempo, contando no mesmo minuto o que ouve e o que sente. Os dois números não batem."
+texto: "Sob as suas polpas, a radial não guarda compasso nenhum: os intervalos mudam a cada batimento e a força das ondas também, algumas quase somem. Você mantém os dedos no punho e encaixa o estetoscópio no precórdio ao mesmo tempo, contando no mesmo minuto o que ouve e o que sente. Os dois números não batem."
 dados:
   - "FC 116 bpm à palpação da radial, contada em 60 segundos"
   - "Ritmo completamente irregular, sem padrão; amplitude variável a cada onda"
-  - "Ausculta precordial no mesmo minuto: 138 bpm — déficit de pulso de 22 batimentos"
+  - "Ausculta precordial no mesmo minuto: 138 bpm, déficit de pulso de 22 batimentos"
   - "Radiais simétricas; parede arterial lisa e depressível"
   - "PA 104 x 62 mmHg em decúbito"
 proximo: d-interpretacao
@@ -64,7 +64,7 @@ tipo: decisao
 id: d-interpretacao
 pergunta: "Como você interpreta esse pulso?"
 opcoes:
-  - texto: "Pulso alternante — uma onda forte seguida de outra fraca —, sinal de insuficiência ventricular esquerda."
+  - texto: "Pulso alternante, uma onda forte seguida de outra fraca, sinal de insuficiência ventricular esquerda."
     avaliacao: erro
     feedback: "No pulso alternante a alternância de amplitude é regular: os intervalos entre as ondas continuam iguais. Aqui os intervalos não se repetem, e é isso que separa um achado do outro."
     proximo: c-conduta-errada
@@ -83,7 +83,7 @@ tipo: cena
 id: c-ecg
 texto: "O eletrocardiograma sai em dez minutos e confirma o que os seus dedos já tinham dito. Você aproveita para revisar as prescrições: dois diuréticos em uso e um dia de aceitação alimentar ruim."
 dados:
-  - "ECG de 12 derivações: ausência de onda P e intervalos RR irregularmente irregulares — fibrilação atrial"
+  - "ECG de 12 derivações: ausência de onda P e intervalos RR irregularmente irregulares, fibrilação atrial"
   - "Frequência ventricular 138 bpm"
   - "Sem supradesnivelamento do segmento ST"
   - "PA 104 x 62 mmHg em decúbito"
@@ -125,7 +125,7 @@ proximo: fim-otimo
 ::: no
 tipo: cena
 id: c-pulso-perdido
-texto: "No prontuário fica escrito só um número, sem uma palavra sobre ritmo ou amplitude. A irregularidade não aparece em lugar nenhum e ninguém pede o eletrocardiograma. No fim da tarde, a caminho do banheiro, ela cai outra vez — desta vez com laceração no supercílio."
+texto: "No prontuário fica escrito só um número, sem uma palavra sobre ritmo ou amplitude. A irregularidade não aparece em lugar nenhum e ninguém pede o eletrocardiograma. No fim da tarde, a caminho do banheiro, ela cai outra vez: desta vez com laceração no supercílio."
 dados:
   - "Segundo episódio de perda de consciência, agora com trauma de face"
   - "Laceração no supercílio direito, com necessidade de sutura"
@@ -157,7 +157,7 @@ opcoes:
     proximo: fim-dano-recorrencia
   - texto: "Refazer o exame do zero: pulso e ausculta no mesmo minuto, PA nas três posições e ECG."
     avaliacao: otima
-    feedback: "É o exame que deveria ter aberto o caso. Feito agora, ele ainda identifica as duas causas — a arritmia e a hipotensão postural — e evita o terceiro episódio. Reveja também os dois diuréticos."
+    feedback: "É o exame que deveria ter aberto o caso. Feito agora, ele ainda identifica as duas causas, a arritmia e a hipotensão postural, e evita o terceiro episódio. Reveja também os dois diuréticos."
     proximo: fim-aceitavel
 :::
 
@@ -165,8 +165,8 @@ opcoes:
 tipo: desfecho
 id: fim-otimo
 classe: otimo
-texto: "Você fecha o caso com duas causas somadas, não uma: fibrilação atrial de alta resposta ventricular e hipotensão ortostática em uso de dois diuréticos. A discussão com a equipe passa a ser sobre controle de frequência, avaliação de risco tromboembólico e revisão da prescrição — e dona Neusa é orientada a se levantar em etapas."
-ensino: "Pulso rápido, totalmente irregular, de amplitude variável e com déficit de pulso é fibrilação atrial até prova em contrário — e nada disso aparece em uma contagem de 15 segundos ou no número do monitor. Achar a arritmia, porém, não encerra a investigação da síncope: quando o gatilho é a ortostase, a PA precisa ser medida deitada, sentada e em pé, com 3 minutos completos."
+texto: "Você fecha o caso com duas causas somadas, não uma: fibrilação atrial de alta resposta ventricular e hipotensão ortostática em uso de dois diuréticos. A discussão com a equipe passa a ser sobre controle de frequência, avaliação de risco tromboembólico e revisão da prescrição, e dona Neusa é orientada a se levantar em etapas."
+ensino: "Pulso rápido, totalmente irregular, de amplitude variável e com déficit de pulso é fibrilação atrial até prova em contrário, e nada disso aparece em uma contagem de 15 segundos ou no número do monitor. Achar a arritmia, porém, não encerra a investigação da síncope: quando o gatilho é a ortostase, a PA precisa ser medida deitada, sentada e em pé, com 3 minutos completos."
 :::
 
 ::: no
@@ -174,7 +174,7 @@ tipo: desfecho
 id: fim-aceitavel
 classe: aceitavel
 texto: "O diagnóstico sai correto e completo, mas depois de um segundo episódio e de um trauma que era evitável. Na passagem de plantão, o exame que faltou no primeiro atendimento é o que ocupa a discussão."
-ensino: "Sessenta segundos de palpação do pulso e três medidas de pressão custam menos que uma queda com trauma no idoso. Rever o próprio exame depois do erro ainda muda o desfecho — mas o preço já foi pago."
+ensino: "Sessenta segundos de palpação do pulso e três medidas de pressão custam menos que uma queda com trauma no idoso. Rever o próprio exame depois do erro ainda muda o desfecho, mas o preço já foi pago."
 :::
 
 ::: no
@@ -182,5 +182,5 @@ tipo: desfecho
 id: fim-dano-recorrencia
 classe: dano
 texto: "A causa continua na prescrição e no ritmo cardíaco, e a terceira síncope acontece à noite, no banheiro. Desta vez a queda resulta em fratura do colo do fêmur, com cirurgia e todas as complicações que ela costuma trazer para uma paciente de 74 anos."
-ensino: "Síncope no idoso costuma ter mais de uma causa somada, e parar na primeira explicação plausível é o modo mais comum de deixar a segunda intacta. Enquanto a arritmia e a hipotensão postural não forem ambas medidas e tratadas, o episódio se repete — e no idoso a queda é o desfecho que muda a vida, não a arritmia."
+ensino: "Síncope no idoso costuma ter mais de uma causa somada, e parar na primeira explicação plausível é o modo mais comum de deixar a segunda intacta. Enquanto a arritmia e a hipotensão postural não forem ambas medidas e tratadas, o episódio se repete, e no idoso a queda é o desfecho que muda a vida, não a arritmia."
 :::

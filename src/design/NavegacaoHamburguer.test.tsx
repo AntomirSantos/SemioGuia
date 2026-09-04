@@ -12,7 +12,7 @@ jest.mock('expo-router', () => ({
 
 // Nota sobre os limites do jest-expo/RNTL aqui: `Pressable` absorve
 // `aria-expanded`/`aria-selected` em `accessibilityState` e não os expõe como
-// props próprias no renderer de teste — só dá para observar
+// props próprias no renderer de teste, só dá para observar
 // `accessibilityState.expanded`/`.selected` (o par ARIA real só existe no DOM
 // via react-native-web, verificado manualmente com Playwright, não em jest).
 // `View`, por outro lado, preserva `aria-hidden`/`importantForAccessibility`
@@ -120,7 +120,7 @@ test('o conteúdo por trás fica oculto para acessibilidade enquanto o menu est�
   fireEvent.press(getByTestId('botaoHamburguer'));
 
   // aria-hidden faz o RNTL tratar o elemento como oculto e sumir da consulta
-  // padrão — confirmação, na prática, de que ele saiu da árvore acessível.
+  // padrão: confirmação, na prática, de que ele saiu da árvore acessível.
   await waitFor(() => {
     expect(queryByTestId('conteudoWeb')).toBeNull();
   });

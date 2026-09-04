@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS analytics_meta (chave TEXT PRIMARY KEY, valor TEXT);
 
 /**
  * Adaptador de EventosStore sobre expo-sqlite (tabela `eventos` no mesmo
- * banco do progresso). Não exercitado pelo Jest — o runtime nativo do
+ * banco do progresso). Não exercitado pelo Jest: o runtime nativo do
  * expo-sqlite não existe fora do app; o módulo nativo só é importado na
  * primeira construção.
  */

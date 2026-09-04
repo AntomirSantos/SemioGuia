@@ -16,8 +16,8 @@ import { useReducedMotion } from './useReducedMotion';
 // - regra de seção: desenha em scaleX 300ms (origem à esquerda)
 // Apenas transform/opacity; com movimento reduzido mantém fades e zera
 // translações/stagger (regra: nada de saber "onde" via movimento, mas o
-// "quando" continua legível). Implementado com o Animated do RN — mesmo
-// exemplar de EntradaAnimada.tsx — com useNativeDriver.
+// "quando" continua legível). Implementado com o Animated do RN: mesmo
+// exemplar de EntradaAnimada.tsx, com useNativeDriver.
 export const EASE_OUT_FORTE = Easing.bezier(0.23, 1, 0.32, 1);
 export const DURACAO_PRESS_MS = 120;
 export const DURACAO_ENTRADA_MS = 250;
@@ -45,7 +45,7 @@ export function Pressionavel({
   const escala = useRef(new Animated.Value(1)).current;
 
   function animarPara(valor: number) {
-    // `null` (preferência ainda não resolvida) conta como reduzido — nunca
+    // `null` (preferência ainda não resolvida) conta como reduzido: nunca
     // animar antes de saber, mesma regra de EntradaAnimada.
     if (reduzido !== false) {
       escala.setValue(1);
@@ -77,7 +77,7 @@ export function Pressionavel({
 }
 
 // Entrada de item em lista (home): translateY(8→0) + opacity 250ms com
-// stagger de 40ms por índice. SÓ na montagem — o componente nunca reanima
+// stagger de 40ms por índice. SÓ na montagem: o componente nunca reanima
 // em re-render nem em troca de aba (as telas de Tabs permanecem montadas).
 // Com movimento reduzido: fade curto sem deslocamento nem stagger.
 export function EntradaEmLista({ indice, children }: { indice: number; children: ReactNode }) {
@@ -125,7 +125,7 @@ export function EntradaEmLista({ indice, children }: { indice: number; children:
 
 // Regra editorial de 2.5px que "se desenha" da esquerda para a direita em
 // 300ms na montagem (scaleX 0→1, origem à esquerda). Com movimento reduzido
-// a regra simplesmente já está lá — sem animação (ela é decorativa; o rótulo
+// a regra simplesmente já está lá, sem animação (ela é decorativa; o rótulo
 // comunica sozinho).
 export function RegraAnimada({ cor, altura = 2.5 }: { cor: string; altura?: number }) {
   const reduzido = useReducedMotion();

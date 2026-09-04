@@ -56,19 +56,19 @@ tags:
   - manobra de Valsalva
   - estação OSCE
 referencias:
-  - "Porto — Exame Clínico, 8ª ed., cap. 12 (Exame dos Linfonodos) — grupos ganglionares da cabeça e do pescoço (níveis I a VI), membros superiores e inferiores; Quadro 12.1 com localização, áreas de drenagem e causas de linfadenopatia por grupo; semiotécnica por cadeia (Figuras 12.6 a 12.9); características semiológicas; boxes sobre diagnóstico diferencial com outras estruturas da cabeça e do pescoço, linfonodos palpáveis sem significado patológico e esplenomegalia associada a adenomegalias; roteiro pedagógico de registro"
-  - "Porto — Semiologia Médica, 8ª ed., Parte 10 (Sistema Cardiovascular), Seção 4 (Linfáticos), cap. 59 (Exame Clínico) — anamnese dirigida, sinais e sintomas (edema, linfadenomegalia, linfangite), semiotécnica e características semiológicas dos linfonodos (Figuras 59.1 a 59.5)"
-  - "Porto — Semiologia Médica, 8ª ed., Parte 10, Seção 4, cap. 61 (Doenças dos Linfáticos) — tamanho considerado normal dos linfonodos; linfedema e sinal de Stemmer; elefantíase"
-  - "Porto — Semiologia Médica, 8ª ed., Parte 3 (Método Clínico), cap. 8 (Exame Físico Geral) — exame dos linfonodos na sequência do exame físico geral (Figura 8.42)"
-  - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 27 (Peripheral Lymphadenopathy), p. 227-238 — as sete regiões de drenagem linfática (Figura 27.1), nós epitrocleares e inguinais (Figura 27.2), linfonodos cervicais (Figura 27.3) e axilares (Figura 27.4); descrição da adenopatia; boxe EBM 27.1 e Tabela 27.1 (escore de linfonodo de Vassilakopoulos); adenopatia supraclavicular e epitroclear; síndromes ulceroglandular e oculoglandular; imitadores extranodais"
-  - "Semiologia Clínica, 1ª ed., cap. 13 (O exame dos gânglios e o sistema linfático) — cadeias linfonodais e sua distribuição (Figuras 1 e 2); técnica de palpação e posicionamento por cadeia; itens obrigatórios da descrição; linfonodos normalmente palpáveis"
-  - "Semiologia Clínica, 1ª ed., cap. 22 (Adenomegalias) — localização e regiões de drenagem (Tabela 1); causas de linfonodomegalia (Tabela 2); dados de anamnese e exame versus raciocínio diagnóstico (Tabela 3); características do linfonodo benigno e maligno (Tabela 4); imitadores de gânglios"
+  - "Porto, Exame Clínico, 8ª ed., cap. 12 (Exame dos Linfonodos), grupos ganglionares da cabeça e do pescoço (níveis I a VI), membros superiores e inferiores; Quadro 12.1 com localização, áreas de drenagem e causas de linfadenopatia por grupo; semiotécnica por cadeia (Figuras 12.6 a 12.9); características semiológicas; boxes sobre diagnóstico diferencial com outras estruturas da cabeça e do pescoço, linfonodos palpáveis sem significado patológico e esplenomegalia associada a adenomegalias; roteiro pedagógico de registro"
+  - "Porto, Semiologia Médica, 8ª ed., Parte 10 (Sistema Cardiovascular), Seção 4 (Linfáticos), cap. 59 (Exame Clínico), anamnese dirigida, sinais e sintomas (edema, linfadenomegalia, linfangite), semiotécnica e características semiológicas dos linfonodos (Figuras 59.1 a 59.5)"
+  - "Porto, Semiologia Médica, 8ª ed., Parte 10, Seção 4, cap. 61 (Doenças dos Linfáticos), tamanho considerado normal dos linfonodos; linfedema e sinal de Stemmer; elefantíase"
+  - "Porto, Semiologia Médica, 8ª ed., Parte 3 (Método Clínico), cap. 8 (Exame Físico Geral), exame dos linfonodos na sequência do exame físico geral (Figura 8.42)"
+  - "McGee, Evidence-Based Physical Diagnosis, 4ª ed., cap. 27 (Peripheral Lymphadenopathy), p. 227-238, as sete regiões de drenagem linfática (Figura 27.1), nós epitrocleares e inguinais (Figura 27.2), linfonodos cervicais (Figura 27.3) e axilares (Figura 27.4); descrição da adenopatia; boxe EBM 27.1 e Tabela 27.1 (escore de linfonodo de Vassilakopoulos); adenopatia supraclavicular e epitroclear; síndromes ulceroglandular e oculoglandular; imitadores extranodais"
+  - "Semiologia Clínica, 1ª ed., cap. 13 (O exame dos gânglios e o sistema linfático), cadeias linfonodais e sua distribuição (Figuras 1 e 2); técnica de palpação e posicionamento por cadeia; itens obrigatórios da descrição; linfonodos normalmente palpáveis"
+  - "Semiologia Clínica, 1ª ed., cap. 22 (Adenomegalias), localização e regiões de drenagem (Tabela 1); causas de linfonodomegalia (Tabela 2); dados de anamnese e exame versus raciocínio diagnóstico (Tabela 3); características do linfonodo benigno e maligno (Tabela 4); imitadores de gânglios"
 revisao: ok
 ---
 
 ::: cena
 texto: |
-  "Doutor, apareceu uma íngua." O paciente aponta o pescoço; a mãe, ao lado, já pesquisou linfoma na internet. Entre a íngua banal de uma faringite e o linfonodo que muda uma vida existem três perguntas — há quanto tempo, o que ele drena, como ele é ao toque — e uma palpação que precisa ser feita do jeito certo para responder à terceira.
+  "Doutor, apareceu uma íngua." O paciente aponta o pescoço; a mãe, ao lado, já pesquisou linfoma na internet. Entre a íngua banal de uma faringite e o linfonodo que muda uma vida existem três perguntas (há quanto tempo, o que ele drena, como ele é ao toque) e uma palpação que precisa ser feita do jeito certo para responder à terceira.
 :::
 
 ::: secao
@@ -78,13 +78,13 @@ titulo: O essencial
 ::: conceito
 titulo: Um filtro que denuncia o território que drena
 texto: |
-  Os linfonodos são estruturas encapsuladas intercaladas no caminho da linfa, entre o interstício e o retorno ao sistema venoso. Neles a linfa é filtrada e as células do sistema imune encontram os antígenos — e é essa função que produz o achado clínico: diante de um estímulo, o tecido linfoide sofre hiperplasia e o linfonodo pode aumentar várias vezes o seu tamanho.
+  Os linfonodos são estruturas encapsuladas intercaladas no caminho da linfa, entre o interstício e o retorno ao sistema venoso. Neles a linfa é filtrada e as células do sistema imune encontram os antígenos, e é essa função que produz o achado clínico: diante de um estímulo, o tecido linfoide sofre hiperplasia e o linfonodo pode aumentar várias vezes o seu tamanho.
 
   Duas divisões organizam o exame.
 
   **Superficiais e profundos.** Os superficiais ficam no tecido celular subcutâneo, acompanham veias superficiais e, quando aumentados, chegam a ser visíveis. Os profundos ficam abaixo da fáscia muscular e dentro das cavidades, e só os exames de imagem os alcançam. Uma exceção instrutiva: os linfonodos cervicais profundos e os axilares acompanham vasos profundos e ainda assim são acessíveis à palpação.
 
-  **Localizados e generalizados.** Um linfonodo aumentado num só território conta uma história local; vários grupos aumentados contam uma história sistêmica. Voltaremos a essa distinção — inclusive porque as fontes não a definem do mesmo jeito.
+  **Localizados e generalizados.** Um linfonodo aumentado num só território conta uma história local; vários grupos aumentados contam uma história sistêmica. Voltaremos a essa distinção, inclusive porque as fontes não a definem do mesmo jeito.
 
   A utilidade prática do exame vem de um fato anatômico: **cada cadeia drena um território conhecido**. Reconhecer qual linfonodo está alterado permite deduzir de onde vem o problema. A ressalva, também das fontes, é que a doença nem sempre respeita o mapa: infecções e neoplasias podem pular um grupo ou caminhar em sentido retrógrado, e uma adenomegalia isolada pode ser a primeira manifestação de uma doença generalizada.
 :::
@@ -116,7 +116,7 @@ linhas:
     - "Couro cabeludo, parte superior do tórax, nasofaringe, faringe, esôfago, tireoide, pulmão e mamas"
   - - "Supraclaviculares (parte do nível IV)"
     - "Atrás da clavícula, sob ou por trás do esternocleidomastóideo"
-    - "Cabeça, pescoço, órgãos intratorácicos e — sobretudo à esquerda, pelo ducto torácico — órgãos intra-abdominais e pélvicos"
+    - "Cabeça, pescoço, órgãos intratorácicos e (sobretudo à esquerda, pelo ducto torácico) órgãos intra-abdominais e pélvicos"
   - - "Infraclaviculares"
     - "Abaixo da clavícula"
     - "Mamas e porção superior do braço"
@@ -125,7 +125,7 @@ linhas:
     - "Membro superior, mama e parede torácica do mesmo lado"
   - - "Epitrocleanos"
     - "Na face anteromedial do braço, 2 a 3 cm acima do epicôndilo medial, medialmente à veia basílica"
-    - "Borda ulnar do antebraço e da mão — dedos mínimo e anular"
+    - "Borda ulnar do antebraço e da mão: dedos mínimo e anular"
   - - "Inguinais (grupos horizontal e vertical)"
     - "O horizontal logo abaixo do ligamento inguinal; o vertical na terminação da veia safena magna"
     - "Horizontal: genitália externa, períneo e parede abdominal anterior inferior. Vertical: membro inferior"
@@ -191,7 +191,7 @@ svg: |
       <text x="160" y="184">Compare sempre os dois lados.</text>
     </g>
   </svg>
-legenda: "As nove regiões que a palpação alcança. Duas delas raramente são palpáveis em pessoas saudáveis — a supraclavicular (5) e a epitrocleana (7). Em qualquer cadeia, o que soa alarme é o linfonodo endurecido e aderido aos planos profundos."
+legenda: "As nove regiões que a palpação alcança. Duas delas raramente são palpáveis em pessoas saudáveis: a supraclavicular (5) e a epitrocleana (7). Em qualquer cadeia, o que soa alarme é o linfonodo endurecido e aderido aos planos profundos."
 :::
 
 ::: secao
@@ -201,7 +201,7 @@ titulo: Como examinar
 ::: conceito
 titulo: O princípio que rege toda a palpação
 texto: |
-  Palpar linfonodo é diferente de palpar músculo, glândula ou massa. O gesto que os torna perceptíveis é **deslizar os tecidos moles contra uma estrutura mais rígida subjacente** — e não apertar em pinça ao longo do trajeto, que é como se palpa músculo.
+  Palpar linfonodo é diferente de palpar músculo, glândula ou massa. O gesto que os torna perceptíveis é **deslizar os tecidos moles contra uma estrutura mais rígida subjacente**, e não apertar em pinça ao longo do trajeto, que é como se palpa músculo.
 
   Na prática, isso se traduz em referências concretas:
 
@@ -229,7 +229,7 @@ passos:
   - "Poplíteos: paciente em decúbito ventral com a perna semifletida, dedos estendidos ou em garra na fossa poplítea."
   - "Complete examinando o trajeto dos linfáticos: finas estrias vermelhas na pele indicam linfangite."
 observar: |
-  O exame dos linfonodos leva as mãos ao pescoço, à axila e à virilha — três regiões que quase ninguém gosta de ter tocadas. Peça licença antes de cada uma, explique o que está procurando, exponha só o necessário e comente o que encontra. Em pacientes que já sabem estar investigando uma neoplasia, esse exame é vivido com apreensão: diga o que vai fazer e, ao terminar, diga o que encontrou.
+  O exame dos linfonodos leva as mãos ao pescoço, à axila e à virilha: três regiões que quase ninguém gosta de ter tocadas. Peça licença antes de cada uma, explique o que está procurando, exponha só o necessário e comente o que encontra. Em pacientes que já sabem estar investigando uma neoplasia, esse exame é vivido com apreensão: diga o que vai fazer e, ao terminar, diga o que encontrou.
 :::
 
 ::: checklist
@@ -258,11 +258,11 @@ texto: |
 
   **Localização.** Não basta a cadeia: interessa também *qual* linfonodo dentro dela, porque é isso que permite deduzir o território drenado.
 
-  **Tamanho.** Estima-se o diâmetro em centímetros — nunca em frutas ou grãos. Vale registrar as duas dimensões.
+  **Tamanho.** Estima-se o diâmetro em centímetros, nunca em frutas ou grãos. Vale registrar as duas dimensões.
 
   **Consistência.** Pode estar endurecido ou amolecido, com ou sem flutuação. O endurecimento é próprio dos processos neoplásicos e dos inflamatórios com fibrose; a consistência mole ou francamente flutuante indica, em geral, processo inflamatório ou infeccioso com formação de pus.
 
-  **Mobilidade.** Com palpação deslizante ou fixando o linfonodo entre polegar e indicador, tenta-se deslocá-lo. Ele pode estar móvel ou aderido aos planos profundos — e a aderência indica comprometimento da cápsula e das estruturas vizinhas.
+  **Mobilidade.** Com palpação deslizante ou fixando o linfonodo entre polegar e indicador, tenta-se deslocá-lo. Ele pode estar móvel ou aderido aos planos profundos, e a aderência indica comprometimento da cápsula e das estruturas vizinhas.
 
   **Sensibilidade.** As adenites bacterianas agudas costumam doer, muitas vezes com outros sinais inflamatórios; os processos infecciosos crônicos doem pouco; as infecções virais e as parasitoses costumam ser indolores. Os linfonodos metastáticos são indolores, além de pétreos; os leucêmicos e linfomatosos, indolores ou levemente doloridos.
 
@@ -272,28 +272,28 @@ texto: |
 :::
 
 ::: entendimento
-titulo: Tamanho — quatro referências que não coincidem
+titulo: "Tamanho: quatro referências que não coincidem"
 texto: |
   Este é um ponto em que as fontes divergem, e o guia registra a divergência em vez de escolher por conta própria.
 
-  **Porto (Exame Clínico, cap. 12, e Semiologia Médica, cap. 59)** afirma que os linfonodos variam normalmente de **0,5 a 2,5 cm** de diâmetro, e que linfonodos palpáveis podem ser normais em adultos — nesses casos, bem individualizados, móveis e indolores.
+  **Porto (Exame Clínico, cap. 12, e Semiologia Médica, cap. 59)** afirma que os linfonodos variam normalmente de **0,5 a 2,5 cm** de diâmetro, e que linfonodos palpáveis podem ser normais em adultos: nesses casos, bem individualizados, móveis e indolores.
 
   **Porto (Semiologia Médica, cap. 61)** registra outro parâmetro: o tamanho normal varia com a topografia, considerando-se normais os que têm **no máximo 10 mm** no eixo axial na maioria das cadeias.
 
   **Semiologia Clínica (cap. 13)** adota como normal o **diâmetro abaixo de 1 cm**, acrescentando que os linfonodos são maiores no adolescente do que no adulto; no capítulo dedicado às adenomegalias, registra que os pequenos linfonodos inguinais palpáveis em pessoas saudáveis costumam medir **0,5 a 2 cm** no maior eixo.
 
-  **McGee (cap. 27)** trabalha com **área**, e não com diâmetro: sugere registrar o produto das duas maiores dimensões — um linfonodo de 2,5 × 3 cm é descrito como "7,5 cm²" — porque é nessa unidade que as razões de verossimilhança do capítulo estão calculadas.
+  **McGee (cap. 27)** trabalha com **área**, e não com diâmetro: sugere registrar o produto das duas maiores dimensões (um linfonodo de 2,5 × 3 cm é descrito como "7,5 cm²") porque é nessa unidade que as razões de verossimilhança do capítulo estão calculadas.
 
   A conduta que sobrevive às quatro leituras é a mesma: **meça e registre em centímetros, com as duas dimensões**. Um número atravessa a divergência; um adjetivo, não. E quando for aplicar as razões de verossimilhança de McGee, converta para área antes.
 :::
 
 ::: perola
-texto: "Linfonodos palpáveis não são, por si, anormais. O tecido linfoide é hipertrófico na infância, e em crianças costuma ser normal palpar pequenos linfonodos nas cadeias cervical e submandibular. No adulto, é frequente palpar algum linfonodo inguinal, axilar, cervical ou submandibular de pequeno tamanho, secundário a processos inflamatórios ou infecções pregressas, sem significado patológico — os inguinais, sobretudo, drenam regiões sujeitas a traumas e infecções de repetição e podem permanecer aumentados a vida inteira."
+texto: "Linfonodos palpáveis não são, por si, anormais. O tecido linfoide é hipertrófico na infância, e em crianças costuma ser normal palpar pequenos linfonodos nas cadeias cervical e submandibular. No adulto, é frequente palpar algum linfonodo inguinal, axilar, cervical ou submandibular de pequeno tamanho, secundário a processos inflamatórios ou infecções pregressas, sem significado patológico: os inguinais, sobretudo, drenam regiões sujeitas a traumas e infecções de repetição e podem permanecer aumentados a vida inteira."
 :::
 
 ::: pense
 pergunta: Um linfonodo cervical dói à palpação. Isso permite tranquilizar o paciente quanto a malignidade?
-resposta: Só um pouco — a dor reduz a probabilidade de doença grave de forma modesta (RV 0,4), menos do que o ensino tradicional sugere, porque hemorragia ou necrose dentro de um linfonodo neoplásico também dói. O que realmente alarma é o linfonodo fixo, aderido (RV 10,9) e o tamanho ≥ 9 cm².
+resposta: Só um pouco, a dor reduz a probabilidade de doença grave de forma modesta (RV 0,4), menos do que o ensino tradicional sugere, porque hemorragia ou necrose dentro de um linfonodo neoplásico também dói. O que realmente alarma é o linfonodo fixo, aderido (RV 10,9) e o tamanho ≥ 9 cm².
 :::
 
 ::: secao
@@ -305,9 +305,9 @@ titulo: Antes dos sinais, a probabilidade pré-teste
 texto: |
   A mesma adenomegalia significa coisas diferentes em lugares diferentes, e ignorar isso é o erro mais caro deste tópico.
 
-  Nas clínicas de atenção primária, McGee registra que a adenomegalia periférica é **benigna em 99% das vezes** — às vezes explicada por faringite, dermatite ou picada de inseto, mais frequentemente aparecendo e desaparecendo sem explicação. Já em ambulatórios especializados, que recebem pacientes referenciados por adenomegalia persistente e inexplicada, **18% a 24% acabam com diagnóstico de malignidade** — linfoma ou câncer metastático — e até 5% têm doença infecciosa ou granulomatosa tratável, como tuberculose, infecção pelo HIV ou sarcoidose.
+  Nas clínicas de atenção primária, McGee registra que a adenomegalia periférica é **benigna em 99% das vezes**: às vezes explicada por faringite, dermatite ou picada de inseto, mais frequentemente aparecendo e desaparecendo sem explicação. Já em ambulatórios especializados, que recebem pacientes referenciados por adenomegalia persistente e inexplicada, **18% a 24% acabam com diagnóstico de malignidade**, linfoma ou câncer metastático, e até 5% têm doença infecciosa ou granulomatosa tratável, como tuberculose, infecção pelo HIV ou sarcoidose.
 
-  Duas consequências. A primeira: as razões de verossimilhança da tabela seguinte foram medidas em pacientes referenciados, e é sobre essa probabilidade pré-teste que elas operam. A segunda, mais prática: **tempo é informação**. A velocidade de crescimento separa os grupos — dias a semanas apontam causa infecciosa ou inflamatória; semanas a meses apontam causa neoplásica, granulomatosa ou inflamatória crônica.
+  Duas consequências. A primeira: as razões de verossimilhança da tabela seguinte foram medidas em pacientes referenciados, e é sobre essa probabilidade pré-teste que elas operam. A segunda, mais prática: **tempo é informação**. A velocidade de crescimento separa os grupos: dias a semanas apontam causa infecciosa ou inflamatória; semanas a meses apontam causa neoplásica, granulomatosa ou inflamatória crônica.
 :::
 
 ::: tabela
@@ -373,13 +373,13 @@ linhas:
 :::
 
 ::: conceito
-titulo: Achados que não ajudam — e por quê
+titulo: Achados que não ajudam, e por quê
 texto: |
   Tão útil quanto saber o que aumenta a probabilidade é saber o que não a move.
 
-  Nos estudos reunidos por McGee, **exantema, febre, baço palpável e fígado palpável** não discriminaram doença grave de doença benigna. A **distribuição regional** também não, com a única exceção da localização supraclavicular. E a **adenomegalia generalizada** não discriminou — nem quando definida como acometimento de dois ou mais grupos, nem quando definida como quatro ou mais. A explicação proposta é direta: o achado aparece com a mesma frequência em doenças benignas, como a mononucleose infecciosa, e em doenças graves, como o linfoma.
+  Nos estudos reunidos por McGee, **exantema, febre, baço palpável e fígado palpável** não discriminaram doença grave de doença benigna. A **distribuição regional** também não, com a única exceção da localização supraclavicular. E a **adenomegalia generalizada** não discriminou, nem quando definida como acometimento de dois ou mais grupos, nem quando definida como quatro ou mais. A explicação proposta é direta: o achado aparece com a mesma frequência em doenças benignas, como a mononucleose infecciosa, e em doenças graves, como o linfoma.
 
-  Um achado surpreende pela direção. A **dor à palpação** reduz a probabilidade de doença grave, mas apenas modestamente (razão de verossimilhança 0,4) — menos do que o ensino tradicional sugere. A razão é que hemorragia ou necrose dentro de um linfonodo neoplásico também produz desconforto, imitando alteração inflamatória aguda.
+  Um achado surpreende pela direção. A **dor à palpação** reduz a probabilidade de doença grave, mas apenas modestamente (razão de verossimilhança 0,4), menos do que o ensino tradicional sugere. A razão é que hemorragia ou necrose dentro de um linfonodo neoplásico também produz desconforto, imitando alteração inflamatória aguda.
 
   E a limitação mais importante para quem acompanha pacientes oncológicos: no **estadiamento de neoplasias conhecidas**, a ausência de adenomegalia ao exame físico não tem sensibilidade suficiente para excluir com segurança o comprometimento metastático dos linfonodos.
 :::
@@ -402,38 +402,38 @@ texto: |
 
   **Interpretação** (razões de verossimilhança para doença grave)
 
-  - escore de −3 ou menos: **0,04** — praticamente exclui doença grave;
+  - escore de −3 ou menos: **0,04**, praticamente exclui doença grave;
   - escore de −2 ou −1: **0,1**;
   - escore de 0 a 4: sem significância diagnóstica;
   - escore de 5 ou 6: **5,1**;
-  - escore de 7 ou mais: **21,9** — praticamente diagnóstico de doença grave.
+  - escore de 7 ou mais: **21,9**, praticamente diagnóstico de doença grave.
 
   O exemplo que a própria tabela oferece ajuda a fixar o cálculo: um paciente de 55 anos, assintomático, com adenopatia supraclavicular indolor, endurecida, medindo 6 cm², soma 5 + 8 + 3 + 2 − 6 = **12**.
 
-  O valor pedagógico do escore não está no número, e sim no que ele demonstra: o poder discriminante está concentrado em **idade, tamanho, consistência, localização supraclavicular e prurido** — exatamente os itens que a descrição semiológica cuidadosa já registra.
+  O valor pedagógico do escore não está no número, e sim no que ele demonstra: o poder discriminante está concentrado em **idade, tamanho, consistência, localização supraclavicular e prurido**, exatamente os itens que a descrição semiológica cuidadosa já registra.
 :::
 
 ::: conceito
-titulo: Supraclavicular — o nódulo de Virchow
+titulo: "Supraclavicular: o nódulo de Virchow"
 nivel: avancado
 texto: |
-  Os linfonodos supraclaviculares pertencem, anatomicamente, ao grupo cervical profundo, mas são tratados à parte por causa da posição que ocupam: ficam na base do pescoço, junto ao ponto em que **toda a drenagem linfática do corpo retorna ao sistema venoso**, na confluência da jugular interna com a subclávia. Por isso podem denunciar doença de cavidades que o examinador não alcança — o tórax e o abdome.
+  Os linfonodos supraclaviculares pertencem, anatomicamente, ao grupo cervical profundo, mas são tratados à parte por causa da posição que ocupam: ficam na base do pescoço, junto ao ponto em que **toda a drenagem linfática do corpo retorna ao sistema venoso**, na confluência da jugular interna com a subclávia. Por isso podem denunciar doença de cavidades que o examinador não alcança: o tórax e o abdome.
 
   A anatomia prevê que a adenopatia supraclavicular **direita** se associe a doenças do tórax, do braço e do pescoço do mesmo lado, e a **esquerda**, além dessas, a doenças abdominais e pélvicas, que chegam pelo ducto torácico.
 
-  Normalmente a linfa flui dos supraclaviculares *para baixo*, em direção à confluência. Para que uma doença abdominal ou torácica os acometa, o tumor precisa caminhar em **sentido retrógrado** — o que, ao contrário do que se imagina, ocorre com facilidade e **não implica obstrução do canal linfático**. Em uma investigação com linfangiografia de membros inferiores, o contraste apareceu nos linfonodos supraclaviculares em 48 horas em 55% dos pacientes.
+  Normalmente a linfa flui dos supraclaviculares *para baixo*, em direção à confluência. Para que uma doença abdominal ou torácica os acometa, o tumor precisa caminhar em **sentido retrógrado**: o que, ao contrário do que se imagina, ocorre com facilidade e **não implica obstrução do canal linfático**. Em uma investigação com linfangiografia de membros inferiores, o contraste apareceu nos linfonodos supraclaviculares em 48 horas em 55% dos pacientes.
 
-  Três dados temperam a associação clássica com o lado esquerdo, descrita por Virchow em 1848 e, independentemente, por Trosier em 1886 — donde os nomes nódulo de Virchow, de Trosier, sentinela ou sinal:
+  Três dados temperam a associação clássica com o lado esquerdo, descrita por Virchow em 1848 e, independentemente, por Trosier em 1886, donde os nomes nódulo de Virchow, de Trosier, sentinela ou sinal:
 
   - em média, **apenas três quartos** dos carcinomas infradiafragmáticos que metastatizam para supraclaviculares vão para a esquerda; um quarto aparece à direita (variação de 0% a 38% entre as séries);
   - em séries de pacientes submetidos a biópsia de linfonodo supraclavicular, **54% a 87% tinham neoplasia maligna**, em sua maioria carcinoma metastático;
-  - cerca de **metade dos pacientes cuja biópsia revelou malignidade não sabia do diagnóstico antes dela** — o que resume o valor desse único linfonodo.
+  - cerca de **metade dos pacientes cuja biópsia revelou malignidade não sabia do diagnóstico antes dela**: o que resume o valor desse único linfonodo.
 
-  Duas notas de técnica: a **manobra de Valsalva** empurra a superfície pleural apical para cima contra os linfonodos e os torna mais visíveis; e a região supraclavicular tem imitadores próprios — cistos sinoviais do ombro na artrite reumatoide, costelas cervicais e articulações anômalas da primeira costela já foram confundidos com linfonodos.
+  Duas notas de técnica: a **manobra de Valsalva** empurra a superfície pleural apical para cima contra os linfonodos e os torna mais visíveis; e a região supraclavicular tem imitadores próprios, cistos sinoviais do ombro na artrite reumatoide, costelas cervicais e articulações anômalas da primeira costela já foram confundidos com linfonodos.
 :::
 
 ::: conceito
-titulo: Localizada × generalizada — duas definições em uso
+titulo: "Localizada × generalizada: duas definições em uso"
 nivel: avancado
 texto: |
   Depois de caracterizar os linfonodos, o segundo passo do raciocínio é decidir se o comprometimento é localizado ou generalizado. As fontes usam limiares diferentes, e é preciso saber qual se está aplicando.
@@ -442,27 +442,27 @@ texto: |
 
   **Porto (Exame Clínico, cap. 12)** define o comprometimento como generalizado quando **três ou mais** grupos de linfonodos são palpáveis.
 
-  O significado clínico, esse é comum às duas: a adenomegalia generalizada aponta um distúrbio sistêmico acometendo os linfonodos — linfomas e leucemias, infecções específicas como mononucleose infecciosa, infecção pelo HIV e sífilis, síndrome de hipersensibilidade a anticonvulsivantes, sarcoidose e doenças do tecido conjuntivo.
+  O significado clínico, esse é comum às duas: a adenomegalia generalizada aponta um distúrbio sistêmico acometendo os linfonodos, linfomas e leucemias, infecções específicas como mononucleose infecciosa, infecção pelo HIV e sífilis, síndrome de hipersensibilidade a anticonvulsivantes, sarcoidose e doenças do tecido conjuntivo.
 
-  Duas ressalvas fecham o tema. Porto adverte que, **nas fases precoces**, mesmo as doenças sistêmicas costumam se apresentar com um único linfonodo ou um único grupo comprometido — ou seja, "localizada" hoje não exclui doença sistêmica amanhã. E McGee lembra que a adenomegalia generalizada, por qualquer das definições, **não discrimina** doença grave de doença benigna: ela orienta a lista de hipóteses, não o grau de preocupação.
+  Duas ressalvas fecham o tema. Porto adverte que, **nas fases precoces**, mesmo as doenças sistêmicas costumam se apresentar com um único linfonodo ou um único grupo comprometido, ou seja, "localizada" hoje não exclui doença sistêmica amanhã. E McGee lembra que a adenomegalia generalizada, por qualquer das definições, **não discrimina** doença grave de doença benigna: ela orienta a lista de hipóteses, não o grau de preocupação.
 :::
 
 ::: conceito
 titulo: Síndromes com nome e imitadores de linfonodo
 nivel: avancado
 texto: |
-  **Duas síndromes definidas por achados de exame.** O adjetivo *glandular*, nesse contexto, refere-se a linfonodos — *febre glandular* foi o nome original da mononucleose infecciosa.
+  **Duas síndromes definidas por achados de exame.** O adjetivo *glandular*, nesse contexto, refere-se a linfonodos: *febre glandular* foi o nome original da mononucleose infecciosa.
 
-  - **Síndrome ulceroglandular** — a tríade de febre, ulceração em porção distal de um membro (a porta de entrada do agente) e adenopatia regional.
-  - **Síndrome oculoglandular**, ou síndrome de Parinaud — conjuntivite associada a adenopatia pré-auricular e submandibular do mesmo lado.
+  - **Síndrome ulceroglandular**: a tríade de febre, ulceração em porção distal de um membro (a porta de entrada do agente) e adenopatia regional.
+  - **Síndrome oculoglandular**, ou síndrome de Parinaud: conjuntivite associada a adenopatia pré-auricular e submandibular do mesmo lado.
 
   **Epitrocleanos.** São raros em pessoas normais e, historicamente, associados a doenças que produzem adenomegalia generalizada, sobretudo quando aumentados dos dois lados. São palpáveis em 25% a 30% dos pacientes com sarcoidose, linfoma e leucemia linfocítica crônica, e em até 55% dos pacientes com mononucleose infecciosa. Em regiões de alta prevalência de HIV, o achado de linfonodo epitrocleano maior que 0,5 cm distinguiu pacientes soropositivos com sensibilidade de 84% e especificidade de 81% (razão de verossimilhança 4,5 quando presente e 0,2 quando ausente).
 
-  **Nem tudo o que se palpa é linfonodo.** Até 15% dos pacientes encaminhados por "adenomegalia" inexplicada têm, na verdade, uma explicação extranodal para o nódulo subcutâneo. Os imitadores mais comuns em qualquer localização são nódulos de pele — lipomas e cistos epidermoides. Por região:
+  **Nem tudo o que se palpa é linfonodo.** Até 15% dos pacientes encaminhados por "adenomegalia" inexplicada têm, na verdade, uma explicação extranodal para o nódulo subcutâneo. Os imitadores mais comuns em qualquer localização são nódulos de pele: lipomas e cistos epidermoides. Por região:
 
-  - **pescoço** — glândulas salivares parótidas e submandibulares, cistos tireoglossos, cistos branquiais, seios carotídeos proeminentes;
-  - **fossa supraclavicular** — cistos sinoviais, costelas cervicais, articulações anômalas da primeira costela;
-  - **virilha** — hérnias inguinais e aneurismas vasculares.
+  - **pescoço**: glândulas salivares parótidas e submandibulares, cistos tireoglossos, cistos branquiais, seios carotídeos proeminentes;
+  - **fossa supraclavicular**: cistos sinoviais, costelas cervicais, articulações anômalas da primeira costela;
+  - **virilha**: hérnias inguinais e aneurismas vasculares.
 
   A regra de técnica que separa boa parte deles já foi dada: para o linfonodo, deslizam-se os tecidos contra uma estrutura rígida; já o músculo se palpa com a mão em garra percorrendo o ventre muscular, e com dois dedos na origem. Uma **fístula** com secreção, por sua vez, tira a lesão do terreno da dúvida e sugere micose profunda ou tuberculose.
 :::
@@ -472,9 +472,9 @@ titulo: Onde este tópico encontra os outros
 texto: |
   O exame dos linfonodos amarra pontas espalhadas pelo guia.
 
-  - **A fossa supraclavicular também pertence ao exame do pulmão**: o ápice pulmonar sobe acima da clavícula, e a tiragem supraclavicular é sinal de esforço respiratório — os dois estão no tópico de inspeção do tórax.
-  - **Linfedema** — edema duro, inelástico, frio, que não regride com a elevação do membro, e o sinal de Stemmer, quando não se consegue pinçar a pele do segundo pododáctilo — se separa dos demais edemas pelas características descritas no tópico de pulso venoso jugular e turgência, onde está a semiotécnica do edema e a graduação em cruzes.
-  - **Linfangite** — eritema, dor e edema no trajeto do coletor, com os cordões avermelhados da erisipela — pertence ao mesmo território e se confunde com flebite, porque os coletores acompanham as veias superficiais.
+  - **A fossa supraclavicular também pertence ao exame do pulmão**: o ápice pulmonar sobe acima da clavícula, e a tiragem supraclavicular é sinal de esforço respiratório, os dois estão no tópico de inspeção do tórax.
+  - **Linfedema**: edema duro, inelástico, frio, que não regride com a elevação do membro, e o sinal de Stemmer, quando não se consegue pinçar a pele do segundo pododáctilo, se separa dos demais edemas pelas características descritas no tópico de pulso venoso jugular e turgência, onde está a semiotécnica do edema e a graduação em cruzes.
+  - **Linfangite** (eritema, dor e edema no trajeto do coletor, com os cordões avermelhados da erisipela) pertence ao mesmo território e se confunde com flebite, porque os coletores acompanham as veias superficiais.
   - **Febre prolongada**, que é a companhia mais frequente da adenomegalia investigada, está no tópico de temperatura e frequência respiratória, com os tipos evolutivos de febre.
   - **Petéquias, lesões de pele e fístulas cutâneas** sobre os linfonodos se descrevem com o vocabulário do tópico de pele, mucosas e fâneros.
   - **Perda de peso**, item de peso no escore de linfonodo, se quantifica no tópico de antropometria e hidratação e se colhe no capítulo da entrevista clínica.
@@ -488,7 +488,7 @@ titulo: Armadilhas do exame
 ::: conceito
 titulo: Seis erros que comprometem a conclusão
 texto: |
-  1. **Palpar como quem palpa músculo.** Sem deslizar os tecidos contra uma estrutura rígida, linfonodos pequenos não aparecem — e o ventre muscular vira "gânglio".
+  1. **Palpar como quem palpa músculo.** Sem deslizar os tecidos contra uma estrutura rígida, linfonodos pequenos não aparecem, e o ventre muscular vira "gânglio".
   2. **Descrever tamanho por comparação com alimentos.** "Do tamanho de um caroço de azeitona" não se compara com a medida da semana seguinte. Meça em centímetros, nas duas dimensões.
   3. **Tranquilizar-se porque o linfonodo dói.** A dor reduz pouco a probabilidade de doença grave: hemorragia ou necrose dentro de um linfonodo neoplásico também dói.
   4. **Aplicar as razões de verossimilhança fora do contexto em que foram medidas.** Na atenção primária, a adenomegalia periférica é benigna na quase totalidade dos casos.
@@ -506,17 +506,17 @@ caso: |
 pergunta: |
   Qual é a leitura do tempo nessa história?
 opcoes:
-  - "Dias a semanas apontam causa infecciosa ou inflamatória — tratar o foco e reavaliar"
-  - "Crescimento rápido é a assinatura típica da neoplasia — encaminhar para biópsia sem demora"
+  - "Dias a semanas apontam causa infecciosa ou inflamatória: tratar o foco e reavaliar"
+  - "Crescimento rápido é a assinatura típica da neoplasia: encaminhar para biópsia sem demora"
   - "O tempo não ajuda em nada; só a ultrassonografia decide"
 corretaIndex: 0
 desfecho: |
-  Tempo é informação: a velocidade de crescimento separa os grupos — dias a semanas apontam causa infecciosa ou inflamatória; semanas a meses, causa neoplásica, granulomatosa ou inflamatória crônica. Somado ao território de drenagem inflamado e ao linfonodo móvel e doloroso, o caso se explica pela faringite — e a reavaliação confirma o caminho.
+  Tempo é informação: a velocidade de crescimento separa os grupos, dias a semanas apontam causa infecciosa ou inflamatória; semanas a meses, causa neoplásica, granulomatosa ou inflamatória crônica. Somado ao território de drenagem inflamado e ao linfonodo móvel e doloroso, o caso se explica pela faringite, e a reavaliação confirma o caminho.
 :::
 
 ::: resumo
 linhas:
-  - "Cada cadeia drena um território conhecido: localizar o linfonodo é deduzir de onde vem o problema — lembrando que a doença nem sempre respeita o mapa."
+  - "Cada cadeia drena um território conhecido: localizar o linfonodo é deduzir de onde vem o problema, lembrando que a doença nem sempre respeita o mapa."
   - "Palpe deslizando os tecidos contra uma estrutura rígida, meça em centímetros nas duas dimensões e registre também as cadeias sem achados."
   - "O alarme está no linfonodo fixo, grande, endurecido e supraclavicular; a dor tranquiliza pouco, e o contexto (atenção primária × referenciado) muda tudo."
 :::
@@ -555,14 +555,14 @@ perguntas:
     corretaIndex: 0
     explicacao: "Na infância o tecido linfático é hipertrófico, e palpar pequenos linfonodos nas cadeias cervical e submandibular de uma criança é achado esperado. O linfonodo normal é individualizado, móvel, indolor e de consistência borrachosa. Em adultos, também é frequente palpar pequenos linfonodos inguinais, axilares, cervicais ou submandibulares secundários a processos inflamatórios ou infecções pregressas, sem significado patológico."
   - id: linfo-4
-    enunciado: Sobre a adenopatia supraclavicular esquerda associada a neoplasia abdominal — o nódulo de Virchow —, qual afirmação corresponde aos dados apresentados por McGee?
+    enunciado: Sobre a adenopatia supraclavicular esquerda associada a neoplasia abdominal, o nódulo de Virchow, qual afirmação corresponde aos dados apresentados por McGee?
     alternativas:
       - "Todos os carcinomas infradiafragmáticos que metastatizam para supraclaviculares vão para o lado esquerdo"
       - "O acometimento supraclavicular só ocorre quando há obstrução completa do ducto torácico"
       - "Cerca de três quartos vão para a esquerda e um quarto aparece à direita; a disseminação retrógrada não implica obstrução"
       - "A biópsia de linfonodo supraclavicular revela neoplasia em menos de 10% dos casos, o que a torna dispensável na investigação inicial dessa cadeia"
     corretaIndex: 2
-    explicacao: "Apesar do epônimo, apenas cerca de três quartos dos carcinomas infradiafragmáticos metastáticos para supraclaviculares vão para a esquerda; um quarto aparece à direita, com variação de 0% a 38% entre as séries. O fluxo normal é dos supraclaviculares em direção à confluência venosa, de modo que o acometimento exige disseminação retrógrada — que ocorre com facilidade e não implica obstrução. Em séries de biópsia dessa cadeia, 54% a 87% dos pacientes tinham neoplasia maligna, e cerca de metade desconhecia o diagnóstico antes do procedimento."
+    explicacao: "Apesar do epônimo, apenas cerca de três quartos dos carcinomas infradiafragmáticos metastáticos para supraclaviculares vão para a esquerda; um quarto aparece à direita, com variação de 0% a 38% entre as séries. O fluxo normal é dos supraclaviculares em direção à confluência venosa, de modo que o acometimento exige disseminação retrógrada, que ocorre com facilidade e não implica obstrução. Em séries de biópsia dessa cadeia, 54% a 87% dos pacientes tinham neoplasia maligna, e cerca de metade desconhecia o diagnóstico antes do procedimento."
   - id: linfo-5
     enunciado: Como as fontes deste guia definem linfadenomegalia generalizada?
     alternativas:
@@ -571,7 +571,7 @@ perguntas:
       - "Generalizada é sinônimo de acometimento simétrico bilateral de uma mesma cadeia"
       - "Só se considera generalizada quando há esplenomegalia associada"
     corretaIndex: 1
-    explicacao: "McGee define adenomegalia generalizada como aumento simultâneo de dois ou mais grupos regionais; Porto, no Exame Clínico, considera generalizado o comprometimento quando três ou mais grupos são palpáveis. O significado é comum às duas: aponta doença sistêmica — linfoma, leucemia, mononucleose, HIV, sífilis, sarcoidose, colagenoses, hipersensibilidade a anticonvulsivantes. Vale lembrar que o achado não discrimina doença grave de benigna, e que doenças sistêmicas podem começar com um único grupo acometido."
+    explicacao: "McGee define adenomegalia generalizada como aumento simultâneo de dois ou mais grupos regionais; Porto, no Exame Clínico, considera generalizado o comprometimento quando três ou mais grupos são palpáveis. O significado é comum às duas: aponta doença sistêmica, linfoma, leucemia, mononucleose, HIV, sífilis, sarcoidose, colagenoses, hipersensibilidade a anticonvulsivantes. Vale lembrar que o achado não discrimina doença grave de benigna, e que doenças sistêmicas podem começar com um único grupo acometido."
   - id: linfo-6
     enunciado: Uma paciente é encaminhada por "gânglio inguinal" que, ao exame, é redutível e aumenta com a manobra de Valsalva. O que esse caso ilustra?
     alternativas:

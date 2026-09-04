@@ -7,7 +7,7 @@ import type { EventoAnalytics, EventosStore, Propriedades, RegistroEvento } from
  * Núcleo do analytics do beta: `track(evento, propriedades)` fire-and-forget.
  *
  * Contratos:
- * - track NUNCA lança nem bloqueia a UI — qualquer falha é engolida;
+ * - track NUNCA lança nem bloqueia a UI: qualquer falha é engolida;
  * - os registros são gravados em série (fila interna), preservando a ordem;
  * - a persistência é local (tabela `eventos` no SQLite; localStorage na web);
  * - o envio ao PostHog só acontece com a flag POSTHOG preenchida em
@@ -73,7 +73,7 @@ export function track(evento: EventoAnalytics, propriedades: Propriedades = {}):
     .catch(() => {});
 }
 
-/** JSON com todos os eventos do aparelho — corpo do "Exportar dados de uso". */
+/** JSON com todos os eventos do aparelho: corpo do "Exportar dados de uso". */
 export async function exportarEventos(): Promise<string> {
   await estado.fila;
   const store = obterStore();

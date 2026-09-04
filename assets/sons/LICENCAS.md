@@ -6,11 +6,11 @@ Três sons são gravações clínicas reais extraídas do dataset **HF_Lung_V1**
 publicado por **Heroic-Faith Medical Science Co. Ltd.**, com parte das
 gravações provida pela **Taiwan Society of Emergency and Critical Care
 Medicine (TSECCM)** (datathon TSECC 2020). O dataset é licenciado sob
-**Creative Commons Attribution 4.0 International (CC BY 4.0)** — a licença
+**Creative Commons Attribution 4.0 International (CC BY 4.0)**: a licença
 consta do arquivo LICENSE do próprio repositório.
 
 - Fonte: <https://gitlab.com/techsupportHF/HF_Lung_V1> (conjunto `test`)
-- Publicação associada: Hsu F-S et al., PLOS ONE, 2021 —
+- Publicação associada: Hsu F-S et al., PLOS ONE, 2021: 
   <https://doi.org/10.1371/journal.pone.0254134>
 
 | Arquivo no app | Arquivo-fonte no dataset | Fenômeno rotulado |
@@ -39,11 +39,11 @@ não há direitos de terceiros envolvidos.
 
 - **Estridor**: o dataset contém gravações reais rotuladas de estridor,
   mas as candidatas têm pico tonal ~710 Hz, enquanto o texto do guia
-  (seguindo as fontes) o descreve "em torno de 400 Hz" — mantivemos o
+  (seguindo as fontes) o descreve "em torno de 400 Hz": mantivemos o
   sintetizado, fiel ao texto, e registramos a divergência aqui.
 - **Estertores**: as gravações reais rotuladas (D) não permitem separar
   com segurança finos × grossos (rótulo único no dataset; cronologia
-  inspiratória mista nos candidatos) — os dois permanecem sintetizados
+  inspiratória mista nos candidatos): os dois permanecem sintetizados
   para não desmentir o contraste que os blocos ensinam.
 - **Sons cardíacos**: nenhuma fonte cardíaca com licença aberta e áudio
   acessível foi alcançável nesta sessão (PhysioNet bloqueado pelo proxy;

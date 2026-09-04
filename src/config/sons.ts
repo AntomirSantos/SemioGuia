@@ -1,5 +1,5 @@
 // Registro dos sons de ausculta (didática 2026-09). Todos os arquivos são
-// SINTETIZADOS por scripts/gerar-sons.py — nenhuma gravação de terceiros,
+// SINTETIZADOS por scripts/gerar-sons.py: nenhuma gravação de terceiros,
 // nenhum direito autoral envolvido. As chaves aqui devem espelhar o enum
 // `arquivo` do bloco `som` no schema (src/content/schema.ts); o teste
 // sons.test.ts vigia esse espelhamento.
@@ -30,10 +30,10 @@ export const FONTES_DE_SOM = {
 export type ChaveDeSom = keyof typeof FONTES_DE_SOM;
 
 export const AVISO_SOM_SINTETIZADO =
-  'Som sintetizado para estudo — uma representação didática, não uma gravação clínica.';
+  'Som sintetizado para estudo: uma representação didática, não uma gravação clínica.';
 
 export const AVISO_SOM_GRAVACAO =
-  'Gravação clínica real (dataset HF_Lung_V1, CC BY 4.0) — Heroic-Faith Medical Science / TSECCM.';
+  'Gravação clínica real (dataset HF_Lung_V1, CC BY 4.0): Heroic-Faith Medical Science / TSECCM.';
 
 // Origem de cada som: 'sintetizado' (scripts/gerar-sons.py) ou 'gravacao'
 // (scripts/preparar-sons-reais.py; proveniência completa e licença em

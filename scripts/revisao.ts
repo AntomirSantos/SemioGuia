@@ -16,7 +16,7 @@ export interface ItemChecklist {
   secao: string; // título da seção (## ...)
 }
 
-/** Extrai os itens `- [ ] **X1 · Título** — ...` do checklist, por seção. */
+/** Extrai os itens `- [ ] **X1 · Título**: ...` do checklist, por seção. */
 export function parsearChecklist(md: string): ItemChecklist[] {
   const itens: ItemChecklist[] = [];
   let secao = '';
@@ -108,7 +108,7 @@ export function gerarRelatorioRevisao(conteudo: Conteudo, itens: ItemChecklist[]
     const topicosDoSistema = s.capitulos.flatMap((k) => k.topicos);
     const aprovadosDoSistema = topicosDoSistema.filter((t) => t.revisao === 'aprovada').length;
     partes.push('');
-    partes.push(`### ${s.titulo} — ${aprovadosDoSistema}/${topicosDoSistema.length} aprovados`);
+    partes.push(`### ${s.titulo}: ${aprovadosDoSistema}/${topicosDoSistema.length} aprovados`);
     partes.push('');
     for (const t of topicosDoSistema) {
       partes.push(`- [${t.revisao === 'aprovada' ? 'x' : ' '}] ${t.titulo} (\`${t.id}\`)`);

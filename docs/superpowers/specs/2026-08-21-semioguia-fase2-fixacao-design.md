@@ -1,4 +1,4 @@
-# SemioGuia Fase 2 — Fixação: Design
+# SemioGuia Fase 2, Fixação: Design
 
 Data: 21/08/2026 · Autor do produto: Antomir Santos · Status: aprovado em chat, aguardando revisão do texto
 
@@ -11,14 +11,14 @@ respostas por pergunta, blocos de conteúdo).
 
 ## 2. Decisões do autor (registradas em 21/08)
 
-1. **Escopo:** as duas entregas da spec original nesta fase — revisão espaçada
+1. **Escopo:** as duas entregas da spec original nesta fase, revisão espaçada
    E checklists praticáveis.
 2. **Fonte da revisão:** perguntas já respondidas no quiz entram com intervalo
    guiado pelo desempenho; marcar um tópico como **estudado** semeia as
    perguntas dele como itens novos.
-3. **Modo OSCE:** prova de recordação — passos ocultos, revelados um a um com
+3. **Modo OSCE:** prova de recordação, passos ocultos, revelados um a um com
    "lembrei/esqueci", nota final em %. Sem cronômetro nesta fase.
-4. **Algoritmo:** **SM-2** (Anki clássico), com **nota automática binária** —
+4. **Algoritmo:** **SM-2** (Anki clássico), com **nota automática binária**, 
    sem botões de autoavaliação.
 
 ## 3. Motor de revisão (`src/revisao/`)
@@ -89,7 +89,7 @@ listarItensRevisao(): Promise<ItemRevisao[]>;
   memória (testes).
 - SQLite: tabela nova `itens_revisao` via **migração versionada** (o banco da
   v1 abre e ganha a tabela sem perder dados).
-- Suíte de contrato compartilhada estendida — os 3 adaptadores passam pelos
+- Suíte de contrato compartilhada estendida: os 3 adaptadores passam pelos
   mesmos testes.
 
 ## 5. Experiência
@@ -115,7 +115,7 @@ listarItensRevisao(): Promise<ItemRevisao[]>;
 - O aluno tenta recordar e revela passo a passo, marcando **Lembrei** ou
   **Esqueci** em cada um (botões ≥44pt, acessíveis).
 - Nota final em % de passos lembrados; ≥80% conta como acerto para o
-  agendador (tabela 3.2). O resultado atualiza o item no agendador — não
+  agendador (tabela 3.2). O resultado atualiza o item no agendador: não
   reutiliza o registro de respostas de quiz.
 - Disponível também fora da revisão, a partir do bloco de checklist no tópico
   ("Praticar como estação").
@@ -139,7 +139,7 @@ listarItensRevisao(): Promise<ItemRevisao[]>;
 ## 7. Fora desta fase
 
 - Cronômetro na estação OSCE; modo treino com lista visível.
-- Botões de autoavaliação (Difícil/Bom/Fácil) — o EF já fica armazenado,
+- Botões de autoavaliação (Difícil/Bom/Fácil): o EF já fica armazenado,
   então dá para adicionar depois sem migração.
 - Notificações/push de lembrete diário.
 - FSRS ou parâmetros configuráveis do algoritmo; configuração do limite diário.

@@ -1,4 +1,4 @@
-# SemioGuia Fase 4A — Contas e Sincronização: Design
+# SemioGuia Fase 4A, Contas e Sincronização: Design
 
 Data: 22/08/2026 · Autor do produto: Antomir Santos · Status: aprovado em chat, aguardando revisão do texto
 
@@ -11,7 +11,7 @@ Fase 4B (assinatura), que fica fora deste escopo junto com pagamentos.
 ## 2. Decisões do autor (registradas em 22/08)
 
 1. **Escopo 4A:** contas + sincronização agora; assinatura/pagamento na 4B
-   (dependem do canal de distribuição — lojas × web — ainda não decidido).
+   (dependem do canal de distribuição, lojas × web, ainda não decidido).
 2. **Backend:** Firebase (Auth + Firestore), auditado pela skill
    `firebase-security-rules-auditor` antes de ir ao ar.
 3. **Login:** e-mail/senha com verificação + "Entrar com Google". Sign in
@@ -28,7 +28,7 @@ Fase 4B (assinatura), que fica fora deste escopo junto com pagamentos.
   (`firebase/app`, `firebase/auth`, `firebase/firestore`). A configuração
   pública vem de `src/conta/config.ts` (arquivo gerado a partir de
   `config.exemplo.ts`; sem ele, `syncDisponivel() === false`).
-  **Flag mestre:** sem config, todo o módulo se comporta como desabilitado —
+  **Flag mestre:** sem config, todo o módulo se comporta como desabilitado, 
   o app compila, testa e roda como hoje.
 - `AuthContext.tsx`: estado da sessão (`usuario: {uid, email} | null`,
   `carregando`), ações `criarConta(email, senha)`, `entrar(email, senha)`,
@@ -41,7 +41,7 @@ Fase 4B (assinatura), que fica fora deste escopo junto com pagamentos.
 
 ### 3.2 `src/sync/`
 
-- `merge.ts` — **motor puro** (sem rede, sem Firebase): recebe o estado
+- `merge.ts`, **motor puro** (sem rede, sem Firebase): recebe o estado
   local e o remoto e devolve `{ paraLocal, paraRemoto }`.
   - **Históricos** (respostas de quiz, conclusões de caso): fatos
     imutáveis; união por chave natural
@@ -49,10 +49,10 @@ Fase 4B (assinatura), que fica fora deste escopo junto com pagamentos.
   - **Estados** (itens de revisão, estudados, favoritos, preferências
     tema/fonte): last-write-wins por carimbo `atualizadoEm` (ISO).
     Empate exato de carimbo: vence o remoto (determinístico).
-- `orquestrador.ts` — quando sincronizar: ao entrar na conta (merge
+- `orquestrador.ts`, quando sincronizar: ao entrar na conta (merge
   inicial), ao abrir o app com sessão ativa, ao focar o Perfil, e após
   ações que gravam progresso (com debounce; falha silenciosa e re-tentativa
-  no próximo gatilho — sem fila persistente na 4A).
+  no próximo gatilho, sem fila persistente na 4A).
 - Estado observável para a UI: `ultimaSync: number | null`,
   `sincronizando: boolean`, `erro: string | null`.
 
@@ -88,13 +88,13 @@ e a conta de Auth; sem analytics e sem quaisquer outros SDKs de coleta.
 ## 5. Carimbos locais (migração v4)
 
 `estudados`, `favoritos` e `preferencias` ganham `atualizado_em` (INTEGER,
-epoch ms) no SQLite — migração v4 idempotente no padrão das anteriores
+epoch ms) no SQLite: migração v4 idempotente no padrão das anteriores
 (v1..v4 executadas em sequência, `IF NOT EXISTS`/`ADD COLUMN` guardado);
 localStorage ganha o campo nos objetos; memória idem. A interface
 `ProgressStore` muda apenas por acréscimo (os métodos existentes passam a
 gravar carimbo internamente; leitura dos carimbos via métodos novos de
-exportação para o sync: `exportarParaSync()` — snapshot tipado de tudo que
-sincroniza — e `aplicarDoSync(mudancas)`); a suíte de contrato cobre ambos
+exportação para o sync: `exportarParaSync()`, snapshot tipado de tudo que
+sincroniza, e `aplicarDoSync(mudancas)`); a suíte de contrato cobre ambos
 nos 3 adaptadores.
 
 ## 6. UX (Perfil → bloco "Conta")

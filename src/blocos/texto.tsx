@@ -19,12 +19,12 @@ function renderizarItalico(texto: string, chavePrefixo: string): ReactNode[] {
 }
 
 // Negrito (`**a**`) primeiro, depois itálico (`*a*`) dentro de cada pedaço
-// que sobra — cobre negrito sozinho, itálico sozinho, e os dois lado a lado
+// que sobra: cobre negrito sozinho, itálico sozinho, e os dois lado a lado
 // no mesmo parágrafo ("**importante** mas *sutil*"). NÃO cobre aninhamento
 // de verdade (um marcador inteiro dentro do outro, ex. "**a *b* c**"): o
 // regex de negrito exige conteúdo sem nenhum asterisco solto no meio, então
 // um asterisco de itálico ali dentro quebra o casamento do negrito e o
-// resultado degrada. Escopo deliberado — checado via grep em `content/`: o
+// resultado degrada. Escopo deliberado, checado via grep em `content/`: o
 // itálico real do corpus é sempre uma palavra/frase isolada, nunca aninhada
 // dentro de negrito.
 function renderizarInline(texto: string, chavePrefixo: string): ReactNode[] {
@@ -45,10 +45,10 @@ function renderizarInline(texto: string, chavePrefixo: string): ReactNode[] {
 // parágrafos separados por \n\n.
 //
 // Voz de LEITURA da identidade editorial: Source Serif 4 (400 no corpo, 600
-// no negrito) — a UI usa Public Sans, mas a prosa dos tópicos é serifada.
-// Line-height de leitura confortável (DECISAO.md: 1.6–1.65): quando `style`
+// no negrito): a UI usa Public Sans, mas a prosa dos tópicos é serifada.
+// Line-height de leitura confortável (DECISAO.md: 1.6 a 1.65): quando `style`
 // traz um `fontSize` numérico e não define seu próprio `lineHeight`,
-// aplicamos 1.62× por padrão — sem exigir que cada bloco repita a conta. Um
+// aplicamos 1.62× por padrão, sem exigir que cada bloco repita a conta. Um
 // `lineHeight` explícito em `style` continua vencendo (é o último item do
 // array).
 export function TextoRico({ children, style }: { children: string; style?: TextStyle }) {

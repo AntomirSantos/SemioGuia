@@ -8,7 +8,7 @@ import { TextoRico } from './texto';
 
 type ConceitoBloco = Extract<Bloco, { tipo: 'conceito' }>;
 
-// Bloco de conceito segue sem card/borda — é prosa corrida — mas ganha a
+// Bloco de conceito segue sem card/borda, é prosa corrida, mas ganha a
 // mesma identidade leve (ícone + rótulo) dos demais tipos (spec Fase 8
 // §3.2): sem isso, o conceito era o único bloco "anônimo" na leitura
 // seccionada, quebrando a compartimentação que o resto da tela ganhou.

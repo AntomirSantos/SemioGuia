@@ -1,6 +1,6 @@
 // Relatório do beta (plano de validação §2/§9.1): consome os JSONs que os
 // alunos exportam pelo botão "Exportar dados de uso" no Perfil e calcula as
-// métricas de decisão — retenção D1/D7 e sessões por semana.
+// métricas de decisão: retenção D1/D7 e sessões por semana.
 //
 // Uso: npm run relatorio:beta -- exports/*.json
 //

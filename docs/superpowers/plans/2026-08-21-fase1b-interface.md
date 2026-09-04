@@ -1,14 +1,14 @@
-# SemioGuia Fase 1B — Interface: Implementation Plan
+# SemioGuia Fase 1B, Interface: Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Construir a interface completa do SemioGuia sobre a fundação da Fase 1A: design system aprovado nos mockups, 4 abas (Guia, Busca, Estudar, Perfil), renderizadores dos 8 tipos de bloco, quiz jogável, progresso persistido em SQLite — um app utilizável de ponta a ponta no Expo Go.
+**Goal:** Construir a interface completa do SemioGuia sobre a fundação da Fase 1A: design system aprovado nos mockups, 4 abas (Guia, Busca, Estudar, Perfil), renderizadores dos 8 tipos de bloco, quiz jogável, progresso persistido em SQLite, um app utilizável de ponta a ponta no Expo Go.
 
 **Architecture:** O app carrega `assets/generated/content.json` num provider React na inicialização e navega com expo-router (tabs + stack). Cada tipo de bloco tem um componente próprio que consome tokens do design system (claro/escuro). Progresso usa a interface `ProgressStore` da 1A com um novo adaptador SQLite; a suíte de testes da memória vira contrato compartilhado. A identidade visual segue os mockups aprovados (prévia HTML): fundo clínico, acento por sistema, Bricolage Grotesque para títulos e Atkinson Hyperlegible para texto.
 
 **Tech Stack:** Expo + expo-router, TypeScript strict, expo-sqlite, @expo-google-fonts (Bricolage Grotesque, Atkinson Hyperlegible), lucide-react-native + react-native-svg, Jest (jest-expo) + @testing-library/react-native.
 
-**Spec:** `docs/superpowers/specs/2026-08-21-semioguia-design.md` (mockups do §7 aprovados pelo autor em 21/08 — a prévia HTML publicada é a referência visual)
+**Spec:** `docs/superpowers/specs/2026-08-21-semioguia-design.md` (mockups do §7 aprovados pelo autor em 21/08: a prévia HTML publicada é a referência visual)
 
 ## Global Constraints
 
@@ -17,10 +17,10 @@
 - Zero coleta de dados pessoais; progresso só no aparelho.
 - Todo texto de UI em pt-BR. Aviso legal exato: "Material educacional. Não substitui o julgamento clínico."
 - Acessibilidade: contraste AA nos dois temas; alvos de toque ≥ 44pt; `accessibilityRole`/`accessibilityLabel` em controles.
-- Tema claro E escuro desde já; nenhuma cor hardcoded em componente — sempre via tokens.
+- Tema claro E escuro desde já; nenhuma cor hardcoded em componente, sempre via tokens.
 - Testes via `npx jest <path>`; componentes de bloco têm teste de renderização; commits convencionais em inglês.
 - CI (typecheck + jest + build:content + sync do content.json) deve permanecer verde em todo push.
-- Design de referência: mockup aprovado — cards com cantos 16px, respiro generoso, tag de tipo de bloco em uppercase pequeno, passos numerados com chip, fluxograma como stepper vertical, pérola em âmbar.
+- Design de referência: mockup aprovado, cards com cantos 16px, respiro generoso, tag de tipo de bloco em uppercase pequeno, passos numerados com chip, fluxograma como stepper vertical, pérola em âmbar.
 
 ---
 
@@ -34,9 +34,9 @@
 - Consumes: scaffold da Fase 1A.
 - Produces: árvore `app/` mínima que compila e roda; `app.json` com `"scheme": "semioguia"`. Nada do template Expo sobra para as próximas tasks.
 
-- [ ] **Step 1: Corrigir o scheme** — em `app.json`: `"scheme": "semioguia"`.
+- [ ] **Step 1: Corrigir o scheme**, em `app.json`: `"scheme": "semioguia"`.
 
-- [ ] **Step 2: Remover o demo do template** — apagar os arquivos listados acima. Reescrever:
+- [ ] **Step 2: Remover o demo do template**, apagar os arquivos listados acima. Reescrever:
 
 `app/_layout.tsx`:
 ```tsx
@@ -69,9 +69,9 @@ export default function Guia() {
 }
 ```
 
-- [ ] **Step 3: Verificar** — `npx tsc --noEmit` limpo; `npx jest` verde (nenhum teste dependia do template — se algum quebrar, o teste era do template e sai junto); `npx expo export --platform ios --output-dir /tmp/expo-export-check 2>&1 | tail -5` conclui sem erro (prova que o bundle compila; apagar o diretório depois).
+- [ ] **Step 3: Verificar** (`npx tsc --noEmit` limpo; `npx jest` verde (nenhum teste dependia do template) se algum quebrar, o teste era do template e sai junto); `npx expo export --platform ios --output-dir /tmp/expo-export-check 2>&1 | tail -5` conclui sem erro (prova que o bundle compila; apagar o diretório depois).
 
-- [ ] **Step 4: Commit** — `git add -A && git commit -m "chore: strip Expo template demo and fix app scheme"`
+- [ ] **Step 4: Commit**, `git add -A && git commit -m "chore: strip Expo template demo and fix app scheme"`
 
 ---
 
@@ -124,7 +124,7 @@ export function useTema(): {
 
 Componentes usam `Math.round(tipo.corpo * escala)` para tamanhos de texto de leitura (títulos display podem ficar fixos).
 
-- [ ] **Step 1: Escrever teste que falha** — `src/design/tokens.test.ts`:
+- [ ] **Step 1: Escrever teste que falha**, `src/design/tokens.test.ts`:
 
 ```ts
 import { paletaClara, paletaEscura, espaco, fonte } from './tokens';
@@ -145,7 +145,7 @@ test('tokens de layout existem', () => {
 });
 ```
 
-- [ ] **Step 2: Ver falhar** — `npx jest src/design/tokens.test.ts` → FAIL.
+- [ ] **Step 2: Ver falhar**, `npx jest src/design/tokens.test.ts` → FAIL.
 
 - [ ] **Step 3: Implementar `tokens.ts`** com os valores do mockup aprovado:
 
@@ -200,7 +200,7 @@ export function useTema() {
 }
 ```
 
-- [ ] **Step 5: Fontes no root** — instalar (`npx expo install expo-font expo-splash-screen @expo-google-fonts/bricolage-grotesque @expo-google-fonts/atkinson-hyperlegible`; se `expo install` falhar no proxy, `npm install` com as versões compatíveis) e em `app/_layout.tsx`:
+- [ ] **Step 5: Fontes no root**, instalar (`npx expo install expo-font expo-splash-screen @expo-google-fonts/bricolage-grotesque @expo-google-fonts/atkinson-hyperlegible`; se `expo install` falhar no proxy, `npm install` com as versões compatíveis) e em `app/_layout.tsx`:
 
 ```tsx
 import { Stack } from 'expo-router';
@@ -222,9 +222,9 @@ export default function RootLayout() {
 }
 ```
 
-- [ ] **Step 6: Verificar** — `npx jest src/design/tokens.test.ts` PASS; suíte inteira + `npx tsc --noEmit` limpos.
+- [ ] **Step 6: Verificar**, `npx jest src/design/tokens.test.ts` PASS; suíte inteira + `npx tsc --noEmit` limpos.
 
-- [ ] **Step 7: Commit** — `git commit -m "feat: design tokens, theme context and bundled fonts"`
+- [ ] **Step 7: Commit**, `git commit -m "feat: design tokens, theme context and bundled fonts"`
 
 ---
 
@@ -245,7 +245,7 @@ export function useSistema(sistemaId: string): Sistema | undefined;
 export function useTopico(topicoId: string): Topico | undefined;
 ```
 
-- [ ] **Step 1: Teste que falha** — `src/content/ContentContext.test.tsx` (usa @testing-library/react-native; instalar com `npm install -D @testing-library/react-native` se ausente):
+- [ ] **Step 1: Teste que falha**, `src/content/ContentContext.test.tsx` (usa @testing-library/react-native; instalar com `npm install -D @testing-library/react-native` se ausente):
 
 ```tsx
 import { Text } from 'react-native';
@@ -292,7 +292,7 @@ export function useTopico(topicoId: string): Topico | undefined {
 
 Envolver o `<Stack/>` do root com `<ContentProvider>` (dentro do ThemeProvider).
 
-- [ ] **Step 3: Verificar** (teste PASS, suíte, typecheck) e **Commit** — `git commit -m "feat: content provider with bundled content"`
+- [ ] **Step 3: Verificar** (teste PASS, suíte, typecheck) e **Commit**, `git commit -m "feat: content provider with bundled content"`
 
 ---
 
@@ -315,7 +315,7 @@ export interface ProgressStore {
   definirPreferencia(chave: string, valor: string): Promise<void>;
 }
 
-// contract.ts — suíte compartilhada
+// contract.ts: suíte compartilhada
 export function testarContratoProgressStore(nome: string, criar: () => Promise<ProgressStore>): void;
 
 // sqliteStore.ts
@@ -331,7 +331,7 @@ export function ProgressProvider(props: {
 export function useProgresso(): ProgressStore;
 ```
 
-- [ ] **Step 1: Extrair o contrato** — mover os 4 testes existentes de `memoryStore.test.ts` para `contract.ts` como `testarContratoProgressStore(nome, criar)` (mesmos casos, parametrizados por factory), acrescentando:
+- [ ] **Step 1: Extrair o contrato**, mover os 4 testes existentes de `memoryStore.test.ts` para `contract.ts` como `testarContratoProgressStore(nome, criar)` (mesmos casos, parametrizados por factory), acrescentando:
 
 ```ts
 test('preferências: ausente é null, gravar e ler', async () => {
@@ -344,11 +344,11 @@ test('preferências: ausente é null, gravar e ler', async () => {
 });
 ```
 
-`contract.test.ts` roda `testarContratoProgressStore('memória', async () => new MemoryProgressStore())`. Apagar `memoryStore.test.ts` (substituído pelo contrato — sem perda de casos).
+`contract.test.ts` roda `testarContratoProgressStore('memória', async () => new MemoryProgressStore())`. Apagar `memoryStore.test.ts` (substituído pelo contrato, sem perda de casos).
 
 - [ ] **Step 2: Ver falhar** (métodos de preferência não existem) → implementar na `MemoryProgressStore` (um `Map<string,string>`); PASS.
 
-- [ ] **Step 3: Adaptador SQLite** — `npx expo install expo-sqlite`; implementar `SqliteProgressStore` com `openDatabaseSync` e migração v1:
+- [ ] **Step 3: Adaptador SQLite**, `npx expo install expo-sqlite`; implementar `SqliteProgressStore` com `openDatabaseSync` e migração v1:
 
 ```sql
 CREATE TABLE IF NOT EXISTS estudados (topico_id TEXT PRIMARY KEY);
@@ -361,13 +361,13 @@ CREATE TABLE IF NOT EXISTS meta (chave TEXT PRIMARY KEY, valor TEXT); -- versão
 
 Semântica idêntica à memória: `listarBuscasRecentes` ordena por `usada_em` DESC com dedup por PRIMARY KEY (upsert), limite default 10. **Nota de teste:** o runtime nativo do expo-sqlite não existe no Jest; o contrato NÃO roda contra o SQLite em CI. A verificação do adaptador é manual no app (Task 10 exercita) + o typecheck. Deixar isso registrado no report.
 
-- [ ] **Step 4: `ProgressContext.tsx`** — provider fino que instancia `SqliteProgressStore` uma vez (useMemo) e expõe via `useProgresso()`; lança fora do provider. Envolver no root layout (dentro do ContentProvider). Conectar a preferência de tema: no `ThemeProvider`, aceitar prop opcional `inicial?: PreferenciaTema` — o root lê `obterPreferencia('tema')` uma vez ao montar (estado + useEffect) e o Perfil grava via `definirPreferencia`.
+- [ ] **Step 4: `ProgressContext.tsx`**: provider fino que instancia `SqliteProgressStore` uma vez (useMemo) e expõe via `useProgresso()`; lança fora do provider. Envolver no root layout (dentro do ContentProvider). Conectar a preferência de tema: no `ThemeProvider`, aceitar prop opcional `inicial?: PreferenciaTema`, o root lê `obterPreferencia('tema')` uma vez ao montar (estado + useEffect) e o Perfil grava via `definirPreferencia`.
 
-- [ ] **Step 5: Verificar** — suíte + typecheck limpos. **Commit** — `git commit -m "feat: progress prefs, shared contract suite and SQLite adapter"`
+- [ ] **Step 5: Verificar**, suíte + typecheck limpos. **Commit**, `git commit -m "feat: progress prefs, shared contract suite and SQLite adapter"`
 
 ---
 
-### Task 5: Shell de navegação — 4 abas
+### Task 5: Shell de navegação, 4 abas
 
 **Files:**
 - Modify: `app/(tabs)/_layout.tsx`
@@ -400,11 +400,11 @@ export function Tela({ children, rolavel = true }: { children: ReactNode; rolave
 }
 ```
 
-- [ ] **Step 2: Tab layout** — `app/(tabs)/_layout.tsx` com `Tabs` do expo-router: cores da tab bar via tokens (`tabBarActiveTintColor: paleta.acento`, fundo `paleta.superficie`, borda `paleta.linha`), 4 telas com título pt-BR e ícone lucide (tamanho 22). Placeholders de busca/estudar/perfil: `<Tela><Text style={{ fontFamily: fonte.display, fontSize: tipo.h1, color: paleta.tinta }}>Busca</Text></Tela>` etc.
+- [ ] **Step 2: Tab layout**, `app/(tabs)/_layout.tsx` com `Tabs` do expo-router: cores da tab bar via tokens (`tabBarActiveTintColor: paleta.acento`, fundo `paleta.superficie`, borda `paleta.linha`), 4 telas com título pt-BR e ícone lucide (tamanho 22). Placeholders de busca/estudar/perfil: `<Tela><Text style={{ fontFamily: fonte.display, fontSize: tipo.h1, color: paleta.tinta }}>Busca</Text></Tela>` etc.
 
-- [ ] **Step 3: Teste de renderização** — `app/(tabs)/__tests__/layout.test.tsx`: renderizar `<ThemeProvider><Tela><Text>x</Text></Tela></ThemeProvider>` e asserir que o texto aparece (fumaça do design system em teste; SafeArea: mockar `useSafeAreaInsets` retornando zeros via `jest.mock`).
+- [ ] **Step 3: Teste de renderização**, `app/(tabs)/__tests__/layout.test.tsx`: renderizar `<ThemeProvider><Tela><Text>x</Text></Tela></ThemeProvider>` e asserir que o texto aparece (fumaça do design system em teste; SafeArea: mockar `useSafeAreaInsets` retornando zeros via `jest.mock`).
 
-- [ ] **Step 4: Verificar + Commit** — `git commit -m "feat: four-tab navigation shell with themed screen container"`
+- [ ] **Step 4: Verificar + Commit**, `git commit -m "feat: four-tab navigation shell with themed screen container"`
 
 ---
 
@@ -416,13 +416,13 @@ export function Tela({ children, rolavel = true }: { children: ReactNode; rolave
 
 **Interfaces:**
 - Consumes: tipos `Bloco` do schema; tokens/`useTema`.
-- Produces: `export function BlocoView({ bloco }: { bloco: Bloco }): JSX.Element` — dispatcher que as telas usam; `QuizBloco` recebe também `onIniciarQuiz?: (perguntas: QuizPergunta[]) => void` (o tópico navega para a sessão de quiz; dentro do tópico o bloco mostra só um card-resumo "N perguntas · Praticar").
+- Produces: `export function BlocoView({ bloco }: { bloco: Bloco }): JSX.Element`: dispatcher que as telas usam; `QuizBloco` recebe também `onIniciarQuiz?: (perguntas: QuizPergunta[]) => void` (o tópico navega para a sessão de quiz; dentro do tópico o bloco mostra só um card-resumo "N perguntas · Praticar").
 
-**Referência visual concreta:** além da especificação abaixo, o gerador do mockup aprovado está em `/tmp/claude-0/-home-user-SemioGuia/5a72fb17-6ea1-5493-a525-10d96f1ba47d/scratchpad/gerar-preview.mjs` — o CSS e a estrutura de cada bloco lá são a tradução fiel do que o autor aprovou; leia-o antes de estilizar e replique hierarquia, espaçamentos e tratamento de cada tipo (se o arquivo não existir mais, a especificação abaixo basta).
+**Referência visual concreta:** além da especificação abaixo, o gerador do mockup aprovado está em `/tmp/claude-0/-home-user-SemioGuia/5a72fb17-6ea1-5493-a525-10d96f1ba47d/scratchpad/gerar-preview.mjs`: o CSS e a estrutura de cada bloco lá são a tradução fiel do que o autor aprovou; leia-o antes de estilizar e replique hierarquia, espaçamentos e tratamento de cada tipo (se o arquivo não existir mais, a especificação abaixo basta).
 
-**Especificação visual (do mockup):** cada bloco num card `superficie` com borda `linha`, raio 16, padding 20; tag do tipo em uppercase 11.5 `acentoTinta`; título 19 display. Manobra: passos numerados com chip 28×28 `superficie2`; "O que observar" em caixa `superficie2`. Sinal: descrição, "Significado" com label, causas em lista. Checklist: itens com checkbox (Pressable com quadrado 19pt, check via lucide `Check`), riscado quando marcado (estado local). Tabela: primeira linha como header em `superficie2`, scroll horizontal quando larga (`ScrollView horizontal`), números com `fontVariant: ['tabular-nums']`. Fluxograma: stepper vertical — ponto redondo para ação/início/fim, losango (quadrado rotacionado) para decisão, linha vertical `linha` conectando; chip do formato em uppercase. Pérola: card âmbar (`perolaFundo/Borda/Texto`). Quiz: card com contagem de perguntas e botão "Praticar".
+**Especificação visual (do mockup):** cada bloco num card `superficie` com borda `linha`, raio 16, padding 20; tag do tipo em uppercase 11.5 `acentoTinta`; título 19 display. Manobra: passos numerados com chip 28×28 `superficie2`; "O que observar" em caixa `superficie2`. Sinal: descrição, "Significado" com label, causas em lista. Checklist: itens com checkbox (Pressable com quadrado 19pt, check via lucide `Check`), riscado quando marcado (estado local). Tabela: primeira linha como header em `superficie2`, scroll horizontal quando larga (`ScrollView horizontal`), números com `fontVariant: ['tabular-nums']`. Fluxograma: stepper vertical, ponto redondo para ação/início/fim, losango (quadrado rotacionado) para decisão, linha vertical `linha` conectando; chip do formato em uppercase. Pérola: card âmbar (`perolaFundo/Borda/Texto`). Quiz: card com contagem de perguntas e botão "Praticar".
 
-- [ ] **Step 1: Helper de texto** — `src/blocos/texto.tsx`:
+- [ ] **Step 1: Helper de texto**, `src/blocos/texto.tsx`:
 
 ```tsx
 import { Text, type TextStyle } from 'react-native';
@@ -447,7 +447,7 @@ export function TextoRico({ children, style }: { children: string; style?: TextS
 }
 ```
 
-- [ ] **Step 2: Teste que falha** — `src/blocos/Bloco.test.tsx`: para cada um dos 8 tipos, montar um bloco mínimo válido, renderizar `<ThemeProvider><BlocoView bloco={b}/></ThemeProvider>` e asserir um texto característico (ex.: manobra mostra o primeiro passo; tabela mostra célula; fluxograma mostra etapa; quiz mostra "5 perguntas"). Incluir caso de interação: checklist marca item ao toque (fireEvent.press → texto ganha strikethrough via prop de estilo testável ou accessibilityState checked).
+- [ ] **Step 2: Teste que falha**, `src/blocos/Bloco.test.tsx`: para cada um dos 8 tipos, montar um bloco mínimo válido, renderizar `<ThemeProvider><BlocoView bloco={b}/></ThemeProvider>` e asserir um texto característico (ex.: manobra mostra o primeiro passo; tabela mostra célula; fluxograma mostra etapa; quiz mostra "5 perguntas"). Incluir caso de interação: checklist marca item ao toque (fireEvent.press → texto ganha strikethrough via prop de estilo testável ou accessibilityState checked).
 
 - [ ] **Step 3: Implementar os 8 componentes + dispatcher** seguindo a especificação visual acima. Dispatcher:
 
@@ -468,11 +468,11 @@ export function BlocoView({ bloco, onIniciarQuiz }: { bloco: Bloco; onIniciarQui
 
 Cada componente ~30-60 linhas, todo estilo via tokens, zero cor literal.
 
-- [ ] **Step 4: Verificar** — testes de bloco PASS (8+ casos), suíte, typecheck. **Commit** — `git commit -m "feat: block renderer components for all eight content block types"`
+- [ ] **Step 4: Verificar** (testes de bloco PASS (8+ casos), suíte, typecheck. **Commit**) `git commit -m "feat: block renderer components for all eight content block types"`
 
 ---
 
-### Task 7: Aba Guia — sistemas → capítulos → tópico
+### Task 7: Aba Guia, sistemas → capítulos → tópico
 
 **Files:**
 - Modify: `app/(tabs)/index.tsx` (grade de sistemas)
@@ -483,15 +483,15 @@ Cada componente ~30-60 linhas, todo estilo via tokens, zero cor literal.
 - Consumes: `useConteudo`/`useSistema`/`useTopico`, `BlocoView`, `useProgresso`, `useTema`, expo-router (`Link`, `useLocalSearchParams`, `router`).
 - Produces: navegação Guia completa. Convenção de rota do tópico: id `a/b/c` vira `/topico/a/b/c` via catch-all `[...caminho]` (join com '/').
 
-- [ ] **Step 1: Grade de sistemas** — `index.tsx`: título "SemioGuia" (display, h1) + grade 2 colunas de cards de sistema: cor de fundo `sistema.cor` a 14% sobre `superficie` (usar cor com alpha: `sistema.cor + '24'`), nome do sistema, contagem de tópicos; toque → `/sistema/{id}`. Ícone: mapa `icone → componente lucide` em `src/design/icones.ts` com fallback `Stethoscope` (o campo `icone` do YAML nomeia chaves desse mapa).
+- [ ] **Step 1: Grade de sistemas**, `index.tsx`: título "SemioGuia" (display, h1) + grade 2 colunas de cards de sistema: cor de fundo `sistema.cor` a 14% sobre `superficie` (usar cor com alpha: `sistema.cor + '24'`), nome do sistema, contagem de tópicos; toque → `/sistema/{id}`. Ícone: mapa `icone → componente lucide` em `src/design/icones.ts` com fallback `Stethoscope` (o campo `icone` do YAML nomeia chaves desse mapa).
 
-- [ ] **Step 2: Capítulos** — `app/sistema/[sistemaId].tsx`: Cabecalho com voltar (`router.back()`), acento da tela = `sistema.cor`; lista de capítulos, cada um com seus tópicos como linhas (título + chip "estudado" quando `listarEstudados()` contém o id — carregar via useEffect/useState). Toque → `/topico/{topicoId}`.
+- [ ] **Step 2: Capítulos**, `app/sistema/[sistemaId].tsx`: Cabecalho com voltar (`router.back()`), acento da tela = `sistema.cor`; lista de capítulos, cada um com seus tópicos como linhas (título + chip "estudado" quando `listarEstudados()` contém o id: carregar via useEffect/useState). Toque → `/topico/{topicoId}`.
 
-- [ ] **Step 3: Tela de tópico** — `app/topico/[...caminho].tsx`: monta `topicoId = caminho.join('/')`; usa `useTopico`. Header: eyebrow "Sistema · Capítulo", título display, ações **favoritar** (Heart) e **marcar estudado** (CheckCircle) — Pressables 44pt que alternam via `useProgresso()` com estado local otimista e `accessibilityState`. Corpo: `topico.blocos.map(b => <BlocoView …/>)` + rodapé de referências (`tinta2`, small). `onIniciarQuiz` navega para `/quiz/{topicoId}` (Task 9). Tópico inexistente → tela vazia amigável "Tópico não encontrado" + voltar.
+- [ ] **Step 3: Tela de tópico**, `app/topico/[...caminho].tsx`: monta `topicoId = caminho.join('/')`; usa `useTopico`. Header: eyebrow "Sistema · Capítulo", título display, ações **favoritar** (Heart) e **marcar estudado** (CheckCircle), Pressables 44pt que alternam via `useProgresso()` com estado local otimista e `accessibilityState`. Corpo: `topico.blocos.map(b => <BlocoView …/>)` + rodapé de referências (`tinta2`, small). `onIniciarQuiz` navega para `/quiz/{topicoId}` (Task 9). Tópico inexistente → tela vazia amigável "Tópico não encontrado" + voltar.
 
-- [ ] **Step 4: Teste** — `src/telas/guia.test.tsx`: renderizar a tela de tópico diretamente (mockar `useLocalSearchParams` para o id `exame-fisico-geral/sinais-vitais/pressao-arterial` e envolver em ThemeProvider+ContentProvider+ProgressProvider com um `MemoryProgressStore` injetável — para isso, `ProgressProvider` aceita prop opcional `store?: ProgressStore`); asserir que o título "Pressão arterial" e um bloco (ex.: tag "MANOBRA") aparecem; press em "marcar estudado" chama o store (espionar `marcarEstudado`).
+- [ ] **Step 4: Teste**, `src/telas/guia.test.tsx`: renderizar a tela de tópico diretamente (mockar `useLocalSearchParams` para o id `exame-fisico-geral/sinais-vitais/pressao-arterial` e envolver em ThemeProvider+ContentProvider+ProgressProvider com um `MemoryProgressStore` injetável, para isso, `ProgressProvider` aceita prop opcional `store?: ProgressStore`); asserir que o título "Pressão arterial" e um bloco (ex.: tag "MANOBRA") aparecem; press em "marcar estudado" chama o store (espionar `marcarEstudado`).
 
-- [ ] **Step 5: Verificar + Commit** — `git commit -m "feat: guide tab with system grid, chapter list and topic screen"`
+- [ ] **Step 5: Verificar + Commit**, `git commit -m "feat: guide tab with system grid, chapter list and topic screen"`
 
 ---
 
@@ -503,13 +503,13 @@ Cada componente ~30-60 linhas, todo estilo via tokens, zero cor literal.
 
 **Interfaces:**
 - Consumes: `criarIndice`/`buscar` (1A), `useConteudo`, `useProgresso` (buscas recentes, favoritos), `useTema`.
-- Produces: busca instantânea com recentes e favoritos — o caminho beira-de-leito (≤ 2 toques).
+- Produces: busca instantânea com recentes e favoritos, o caminho beira-de-leito (≤ 2 toques).
 
-- [ ] **Step 1: Implementar** — TextInput no topo (autoFocus off, placeholder "Sinal, manobra, tópico…", `accessibilityLabel`), índice via `useMemo(() => criarIndice(conteudo), [conteudo])`. Digitou ≥ 2 chars → lista de `ResultadoBusca` (título + sistemaTitulo como eyebrow); toque → registra `registrarBusca(termo)` e navega ao tópico. Campo vazio → duas seções: "Recentes" (`listarBuscasRecentes()`, toque re-executa a busca) e "Favoritos" (`listarFavoritos()` resolvidos via `obterTopico`, toque abre o tópico). Sem resultado → estado vazio amigável ("Nada com esse nome. Tente o epônimo ou uma sigla.").
+- [ ] **Step 1: Implementar**, TextInput no topo (autoFocus off, placeholder "Sinal, manobra, tópico…", `accessibilityLabel`), índice via `useMemo(() => criarIndice(conteudo), [conteudo])`. Digitou ≥ 2 chars → lista de `ResultadoBusca` (título + sistemaTitulo como eyebrow); toque → registra `registrarBusca(termo)` e navega ao tópico. Campo vazio → duas seções: "Recentes" (`listarBuscasRecentes()`, toque re-executa a busca) e "Favoritos" (`listarFavoritos()` resolvidos via `obterTopico`, toque abre o tópico). Sem resultado → estado vazio amigável ("Nada com esse nome. Tente o epônimo ou uma sigla.").
 
-- [ ] **Step 2: Teste** — renderizar com providers (store de memória com um favorito e uma busca recente pré-gravados); digitar "murphy" não acha (conteúdo real não tem) mas digitar "PA" acha "Pressão arterial"; campo vazio mostra o favorito.
+- [ ] **Step 2: Teste**, renderizar com providers (store de memória com um favorito e uma busca recente pré-gravados); digitar "murphy" não acha (conteúdo real não tem) mas digitar "PA" acha "Pressão arterial"; campo vazio mostra o favorito.
 
-- [ ] **Step 3: Verificar + Commit** — `git commit -m "feat: search tab with instant offline search, recents and favorites"`
+- [ ] **Step 3: Verificar + Commit**, `git commit -m "feat: search tab with instant offline search, recents and favorites"`
 
 ---
 
@@ -538,13 +538,13 @@ export function useSessao(perguntas: QuizPergunta[]) {
 }
 ```
 
-- [ ] **Step 2: Tela Estudar** — lista todos os tópicos que têm bloco quiz (derivar de `listarTodosTopicos` filtrando `blocos.some(b => b.tipo === 'quiz')`), com: título, sistema, nº de perguntas e, se houver respostas registradas (`listarRespostas(topicoId)`), o percentual da última rodada (calcular das últimas N respostas onde N = nº de perguntas). Toque → `/quiz/{topicoId}`.
+- [ ] **Step 2: Tela Estudar**, lista todos os tópicos que têm bloco quiz (derivar de `listarTodosTopicos` filtrando `blocos.some(b => b.tipo === 'quiz')`), com: título, sistema, nº de perguntas e, se houver respostas registradas (`listarRespostas(topicoId)`), o percentual da última rodada (calcular das últimas N respostas onde N = nº de perguntas). Toque → `/quiz/{topicoId}`.
 
-- [ ] **Step 3: Tela de sessão** — `/quiz/[...caminho]`: pergunta atual (contador "2 de 5"), alternativas como cards; ao tocar: pinta certa (`ok`/`okFundo`) e errada (`erro`/`erroFundo`), mostra explicação, registra `registrarResposta({ perguntaId, topicoId, correta, respondidaEm: Date.now() })`, botão "Próxima" (ou "Ver resultado" na última). Resultado: percentual grande (display), acertos/total, botões "Repetir" (recria sessão) e "Voltar ao tópico". Respeitar reduced motion (sem animação obrigatória).
+- [ ] **Step 3: Tela de sessão**, `/quiz/[...caminho]`: pergunta atual (contador "2 de 5"), alternativas como cards; ao tocar: pinta certa (`ok`/`okFundo`) e errada (`erro`/`erroFundo`), mostra explicação, registra `registrarResposta({ perguntaId, topicoId, correta, respondidaEm: Date.now() })`, botão "Próxima" (ou "Ver resultado" na última). Resultado: percentual grande (display), acertos/total, botões "Repetir" (recria sessão) e "Voltar ao tópico". Respeitar reduced motion (sem animação obrigatória).
 
-- [ ] **Step 4: Teste** — `src/telas/quiz.test.tsx` com providers e store de memória: responder as 5 perguntas do quiz de PA tocando sempre a alternativa 0; asserir que o resultado aparece e que `listarRespostas('exame-fisico-geral/sinais-vitais/pressao-arterial')` tem 5 itens com `respondidaEm > 0`.
+- [ ] **Step 4: Teste**, `src/telas/quiz.test.tsx` com providers e store de memória: responder as 5 perguntas do quiz de PA tocando sempre a alternativa 0; asserir que o resultado aparece e que `listarRespostas('exame-fisico-geral/sinais-vitais/pressao-arterial')` tem 5 itens com `respondidaEm > 0`.
 
-- [ ] **Step 5: Verificar + Commit** — `git commit -m "feat: study tab with playable quiz sessions and persisted answers"`
+- [ ] **Step 5: Verificar + Commit**, `git commit -m "feat: study tab with playable quiz sessions and persisted answers"`
 
 ---
 
@@ -558,15 +558,15 @@ export function useSessao(perguntas: QuizPergunta[]) {
 - Consumes: `useConteudo`, `useProgresso`, `useTema` (definirPreferencia + persistência via `definirPreferencia('tema', …)`).
 - Produces: tela com progresso por sistema, ajuste de tema, bibliografia e aviso legal.
 
-- [ ] **Step 1: Implementar** — seções:
+- [ ] **Step 1: Implementar**, seções:
   1. **Progresso**: para cada sistema, barra (View com largura %) de tópicos estudados/total + rótulo "3 de 3 tópicos";
   2. **Aparência**: seletor segmentado Sistema/Claro/Escuro → `definirPreferencia` do tema + grava `definirPreferencia('tema', valor)` no ProgressStore; seletor de tamanho de fonte Normal/Grande → `definirEscalaFonte` + grava `definirPreferencia('fonte', valor)` (spec §7: fonte ajustável);
   3. **Bibliografia**: lista única de todas as `referencias` distintas do conteúdo (Set), em `small/tinta2`;
   4. **Sobre**: versão do conteúdo (`conteudo.versao`) e o aviso legal exato: "Material educacional. Não substitui o julgamento clínico."
 
-- [ ] **Step 2: Teste** — com store de memória contendo 1 tópico estudado: barra mostra "1 de 3"; o aviso legal exato está presente; tocar "Escuro" chama `definirPreferencia('tema','escuro')` no store.
+- [ ] **Step 2: Teste**, com store de memória contendo 1 tópico estudado: barra mostra "1 de 3"; o aviso legal exato está presente; tocar "Escuro" chama `definirPreferencia('tema','escuro')` no store.
 
-- [ ] **Step 3: Verificar + Commit** — `git commit -m "feat: profile tab with progress, appearance settings and bibliography"`
+- [ ] **Step 3: Verificar + Commit**, `git commit -m "feat: profile tab with progress, appearance settings and bibliography"`
 
 ---
 
@@ -580,19 +580,19 @@ export function useSessao(perguntas: QuizPergunta[]) {
 - Consumes: tudo anterior.
 - Produces: app auditado; roteiro de verificação manual para o autor.
 
-- [ ] **Step 1: Auditoria automatizável** — grep por cores hardcoded fora de `tokens.ts` (`grep -rn "#[0-9A-Fa-f]\{6\}" src/ app/ --include="*.tsx" | grep -v tokens.ts` → deve retornar vazio); conferir `accessibilityRole` em todos os Pressable; conferir alvos ≥ 44pt nos controles de topo de tópico e tab bar.
+- [ ] **Step 1: Auditoria automatizável**, grep por cores hardcoded fora de `tokens.ts` (`grep -rn "#[0-9A-Fa-f]\{6\}" src/ app/ --include="*.tsx" | grep -v tokens.ts` → deve retornar vazio); conferir `accessibilityRole` em todos os Pressable; conferir alvos ≥ 44pt nos controles de topo de tópico e tab bar.
 
-- [ ] **Step 2: Contraste AA** — verificar programaticamente (script rápido de razão de contraste WCAG entre pares tinta/fundo, acento/fundo, perolaTexto/perolaFundo nos dois temas — razão ≥ 4.5 para texto normal; ajustar tokens se algum par falhar e re-rodar o teste de tokens).
+- [ ] **Step 2: Contraste AA**, verificar programaticamente (script rápido de razão de contraste WCAG entre pares tinta/fundo, acento/fundo, perolaTexto/perolaFundo nos dois temas, razão ≥ 4.5 para texto normal; ajustar tokens se algum par falhar e re-rodar o teste de tokens).
 
-- [ ] **Step 3: Roteiro manual** — `docs/verificacao-fase1b.md`: passos para o autor abrir no Expo Go (npx expo start --tunnel), navegar Guia→tópico, favoritar, buscar "Osler", jogar um quiz, alternar tema, matar e reabrir o app confirmando persistência (valida o adaptador SQLite em aparelho real — a única verificação dele, já que Jest não roda o nativo).
+- [ ] **Step 3: Roteiro manual**, `docs/verificacao-fase1b.md`: passos para o autor abrir no Expo Go (npx expo start --tunnel), navegar Guia→tópico, favoritar, buscar "Osler", jogar um quiz, alternar tema, matar e reabrir o app confirmando persistência (valida o adaptador SQLite em aparelho real, a única verificação dele, já que Jest não roda o nativo).
 
-- [ ] **Step 4: Suíte inteira + typecheck + build:content**; conferir CI verde após push. **Commit** — `git commit -m "chore: accessibility pass and manual verification guide"`
+- [ ] **Step 4: Suíte inteira + typecheck + build:content**; conferir CI verde após push. **Commit**, `git commit -m "chore: accessibility pass and manual verification guide"`
 
 ---
 
 ## Fora deste plano
 
-- **Fase 2**: revisão espaçada e checklists praticáveis (modo OSCE) — consomem `listarRespostas`/`checklist` já prontos.
+- **Fase 2**: revisão espaçada e checklists praticáveis (modo OSCE), consomem `listarRespostas`/`checklist` já prontos.
 - **Sentry**: adiado para quando houver conta/DSN (decisão: não bloquear a 1B com serviço externo; app segue 100% offline).
 - **Produção de conteúdo em escala**: workstream editorial contínuo.
 - **Publicação nas lojas**: requer contas de desenvolvedor (Fase de release).

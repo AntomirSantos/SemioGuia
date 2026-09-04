@@ -7,8 +7,8 @@ import { useDadosAoFocar } from '../progress/useDadosAoFocar';
 import { VERSAO_APP } from '../config/versao';
 import { CHANGELOG, linhasMaisRecentes } from './changelog';
 
-// Cartão "O que mudou" (beta §9.8): aparece UMA vez após uma atualização —
-// quando a preferência `versaoVista` difere da versão corrente — com as 3
+// Cartão "O que mudou" (beta §9.8): aparece UMA vez após uma atualização, 
+// quando a preferência `versaoVista` difere da versão corrente, com as 3
 // linhas mais recentes do changelog; ao aparecer, grava a versão corrente,
 // então a próxima abertura já não o mostra.
 export function CartaoOQueMudou() {
@@ -19,7 +19,7 @@ export function CartaoOQueMudou() {
   const [dispensado, setDispensado] = useState(false);
   const marcadoRef = useRef(false);
 
-  // `undefined` = carregando; null = primeira abertura de todas — aí só
+  // `undefined` = carregando; null = primeira abertura de todas: aí só
   // gravamos a versão, sem cartão (não há "atualização" para anunciar).
   const primeiraAbertura = versaoVista === null;
   const visivel = !dispensado && typeof versaoVista === 'string' && versaoVista !== VERSAO_APP;

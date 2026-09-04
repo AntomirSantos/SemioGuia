@@ -117,7 +117,7 @@ test('segue a ordem exportar local → ler remoto → aplicarDoSync → gravarDe
   expect(ordem).toEqual(['exportar', 'lerRemoto', 'aplicarDoSync', 'gravarDeltas']);
 });
 
-test('falha (ex.: rede) seta erro e não lança — o app segue intacto', async () => {
+test('falha (ex.: rede) seta erro e não lança, o app segue intacto', async () => {
   mockUseConta.mockReturnValue({ usuario: USUARIO });
   mockLerSnapshotRemoto.mockRejectedValue(new Error('falha de rede'));
 
@@ -186,7 +186,7 @@ test('troca de conta dentro da janela do debounce: reseta o estado e sincroniza 
   await waitFor(() => expect(result.current.ultimaSync).not.toBeNull());
   expect(mockLerSnapshotRemoto).toHaveBeenLastCalledWith(DB_FALSO, 'uid-A');
 
-  // Logout: uid vira null — estado não pode vazar para a próxima sessão.
+  // Logout: uid vira null, estado não pode vazar para a próxima sessão.
   mockUseConta.mockReturnValue({ usuario: null });
   await rerender(undefined);
   expect(result.current.ultimaSync).toBeNull();

@@ -12,7 +12,7 @@ import { useSync } from '../sync/orquestrador';
 import { analisarDataProva } from '../plano/plano';
 import { track } from '../analytics/analytics';
 
-// Onboarding do beta (§9.2): três telas no primeiro acesso — período do
+// Onboarding do beta (§9.2): três telas no primeiro acesso, período do
 // curso, faculdade e a data da próxima prova prática com o sistema
 // correspondente. Tudo opcional (dá para "Deixar para depois"); a data é
 // editável no Perfil. A conclusão grava `onboarding` = 'concluido'; a home
@@ -112,7 +112,7 @@ export function TelaOnboarding() {
       if (dataIso) await progresso.definirPreferencia('dataProva', dataIso);
       if (dataIso && sistemaProva) await progresso.definirPreferencia('sistemaProva', sistemaProva);
     } catch {
-      // sem persistência, o onboarding reaparece na próxima abertura — melhor
+      // sem persistência, o onboarding reaparece na próxima abertura: melhor
       // que travar o primeiro uso.
     } finally {
       notificarEscrita();
@@ -147,7 +147,7 @@ export function TelaOnboarding() {
       corpo: (
         <>
           <Paragrafo>
-            O SemioGuia é um guia de semiologia de bolso — offline, com revisão espaçada, estações
+            O SemioGuia é um guia de semiologia de bolso: offline, com revisão espaçada, estações
             OSCE e quiz. Três perguntas rápidas ajustam o plano de estudo a você.
           </Paragrafo>
           <Campo valor={periodo} aoMudar={setPeriodo} rotulo="Período do curso" placeholder="Ex.: 4º período" />
@@ -179,7 +179,7 @@ export function TelaOnboarding() {
           />
           {erroData ? (
             <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.acentoTinta, marginBottom: espaco.xs }}>
-              Data inválida — use o formato DD/MM/AAAA.
+              Data inválida: use o formato DD/MM/AAAA.
             </Text>
           ) : null}
           <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: espaco.xs, marginTop: espaco.s }}>
