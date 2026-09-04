@@ -63,7 +63,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 27 (Peripheral Lymphadenopathy), p. 227-238 — as sete regiões de drenagem linfática (Figura 27.1), nós epitrocleares e inguinais (Figura 27.2), linfonodos cervicais (Figura 27.3) e axilares (Figura 27.4); descrição da adenopatia; boxe EBM 27.1 e Tabela 27.1 (escore de linfonodo de Vassilakopoulos); adenopatia supraclavicular e epitroclear; síndromes ulceroglandular e oculoglandular; imitadores extranodais"
   - "Semiologia Clínica, 1ª ed., cap. 13 (O exame dos gânglios e o sistema linfático) — cadeias linfonodais e sua distribuição (Figuras 1 e 2); técnica de palpação e posicionamento por cadeia; itens obrigatórios da descrição; linfonodos normalmente palpáveis"
   - "Semiologia Clínica, 1ª ed., cap. 22 (Adenomegalias) — localização e regiões de drenagem (Tabela 1); causas de linfonodomegalia (Tabela 2); dados de anamnese e exame versus raciocínio diagnóstico (Tabela 3); características do linfonodo benigno e maligno (Tabela 4); imitadores de gânglios"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
@@ -508,17 +508,17 @@ perguntas:
   - id: linfo-2
     enunciado: Qual é o princípio técnico que torna os linfonodos perceptíveis à palpação?
     alternativas:
-      - "Comprimir em pinça ao longo do trajeto muscular, como se faz para palpar músculos"
+      - "Comprimir em pinça ao longo do trajeto muscular, com a mão em garra percorrendo todo o ventre, como se faz para palpar músculos"
       - "Percutir a região e procurar mudança de som"
       - "Palpar com o paciente em apneia inspiratória máxima, para tensionar a pele"
-      - "Deslizar os tecidos moles contra uma estrutura mais rígida subjacente — o esternocleidomastóideo, a base da mandíbula, o gradil costal"
+      - "Deslizar os tecidos moles contra uma estrutura mais rígida subjacente, como o esternocleidomastóideo ou o gradil costal"
     corretaIndex: 3
     explicacao: "A palpação de linfonodos difere da palpação muscular. Para as cadeias ganglionares, deslizam-se os tecidos moles contra uma estrutura rígida: na cadeia cervical superficial, apoia-se o polegar no esternocleidomastóideo e movimentam-se os tecidos com os outros dedos; nas cadeias submandibular e submentoniana, contra a borda inferior da mandíbula; na axila, contra o gradil costal. Já o músculo se palpa com a mão em garra percorrendo o ventre muscular, e com dois dedos na origem."
   - id: linfo-3
     enunciado: Você examina uma criança de 5 anos e encontra dois linfonodos cervicais de cerca de 0,8 cm, móveis, indolores e de consistência borrachosa, sem sinais flogísticos. Qual é a interpretação mais adequada?
     alternativas:
-      - "Achado esperado: o tecido linfoide é hipertrófico na infância, e pequenos linfonodos nas cadeias cervical e submandibular são normais em crianças"
-      - "Adenomegalia generalizada, que obriga a investigação hematológica imediata"
+      - "Achado esperado: o tecido linfoide é hipertrófico na infância e pequenos linfonodos cervicais são normais em crianças"
+      - "Adenomegalia generalizada, achado que obriga a investigação hematológica imediata com hemograma e mielograma, mesmo sem sinais flogísticos"
       - "Achado sempre patológico, pois nenhum linfonodo deveria ser palpável"
       - "Provável metástase, pela consistência borrachosa"
     corretaIndex: 0
@@ -528,15 +528,15 @@ perguntas:
     alternativas:
       - "Todos os carcinomas infradiafragmáticos que metastatizam para supraclaviculares vão para o lado esquerdo"
       - "O acometimento supraclavicular só ocorre quando há obstrução completa do ducto torácico"
-      - "Em média, cerca de três quartos vão para a esquerda e um quarto aparece à direita; a disseminação retrógrada ocorre com facilidade e não implica obstrução linfática"
-      - "A biópsia de linfonodo supraclavicular revela neoplasia em menos de 10% dos casos"
+      - "Cerca de três quartos vão para a esquerda e um quarto aparece à direita; a disseminação retrógrada não implica obstrução"
+      - "A biópsia de linfonodo supraclavicular revela neoplasia em menos de 10% dos casos, o que a torna dispensável na investigação inicial dessa cadeia"
     corretaIndex: 2
     explicacao: "Apesar do epônimo, apenas cerca de três quartos dos carcinomas infradiafragmáticos metastáticos para supraclaviculares vão para a esquerda; um quarto aparece à direita, com variação de 0% a 38% entre as séries. O fluxo normal é dos supraclaviculares em direção à confluência venosa, de modo que o acometimento exige disseminação retrógrada — que ocorre com facilidade e não implica obstrução. Em séries de biópsia dessa cadeia, 54% a 87% dos pacientes tinham neoplasia maligna, e cerca de metade desconhecia o diagnóstico antes do procedimento."
   - id: linfo-5
     enunciado: Como as fontes deste guia definem linfadenomegalia generalizada?
     alternativas:
-      - "Há uma definição única e universal: quatro ou mais grupos acometidos"
-      - "As definições divergem: McGee usa dois ou mais grupos regionais e Porto (Exame Clínico) usa três ou mais grupos palpáveis"
+      - "Há uma definição única e universal, adotada por todas as fontes: quatro ou mais grupos linfonodais acometidos simultaneamente"
+      - "As definições divergem: McGee usa dois ou mais grupos regionais; Porto (Exame Clínico), três ou mais grupos palpáveis"
       - "Generalizada é sinônimo de acometimento simétrico bilateral de uma mesma cadeia"
       - "Só se considera generalizada quando há esplenomegalia associada"
     corretaIndex: 1
@@ -544,10 +544,10 @@ perguntas:
   - id: linfo-6
     enunciado: Uma paciente é encaminhada por "gânglio inguinal" que, ao exame, é redutível e aumenta com a manobra de Valsalva. O que esse caso ilustra?
     alternativas:
-      - "Coalescência linfonodal, indicativa de doença de longa evolução"
+      - "Coalescência linfonodal, indicativa de doença de longa evolução, na qual os linfonodos aderem uns aos outros e se tornam redutíveis à compressão"
       - "Linfonodo de consistência flutuante, sugestivo de processo purulento"
       - "Sinal de Stemmer positivo, patognomônico de linfedema"
-      - "Imitador extranodal: até 15% dos pacientes encaminhados por adenomegalia têm explicação não ganglionar; na virilha, hérnias e aneurismas são clássicos"
+      - "Um imitador extranodal de adenomegalia: na virilha, hérnias inguinais e aneurismas vasculares são clássicos"
     corretaIndex: 3
     explicacao: "Até 15% dos pacientes encaminhados por adenomegalia inexplicada têm explicação extranodal para o nódulo. Os imitadores mais comuns em qualquer local são lipomas e cistos epidermoides; no pescoço, glândulas salivares, cistos tireoglossos e branquiais e seios carotídeos proeminentes; na fossa supraclavicular, cistos sinoviais e costelas cervicais; na virilha, hérnias inguinais e aneurismas vasculares. O sinal de Stemmer é a impossibilidade de pinçar a pele do segundo pododáctilo, achado de linfedema."
 :::

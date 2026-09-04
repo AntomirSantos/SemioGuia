@@ -525,7 +525,7 @@ perguntas:
   - id: insp-abd-2
     enunciado: Um homem de 62 anos com dor abdominal em cólica e vômitos tem, à inspeção, ondas peristálticas nitidamente visíveis. Como esse achado se comporta como teste diagnóstico para obstrução intestinal?
     alternativas:
-      - "Eleva muito a probabilidade de obstrução (razão de verossimilhança 18,8), mas é raro — só cerca de 6% dos pacientes com obstrução o apresentam"
+      - "Eleva muito a probabilidade de obstrução, mas é raro — e sua ausência não tranquiliza"
       - "É um achado sensível e pouco específico, útil para excluir obstrução quando ausente"
       - "Não altera a probabilidade de obstrução, por ocorrer com a mesma frequência em pessoas saudáveis magras"
       - "Indica especificamente obstrução do intestino grosso, pois o delgado não produz ondas visíveis"

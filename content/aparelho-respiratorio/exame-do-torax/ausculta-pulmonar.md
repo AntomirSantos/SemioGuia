@@ -240,7 +240,7 @@ linhas:
     - "Não se alteram"
     - "Podem desaparecer"
   - - "Efeito da posição"
-    - "Podem aumentar ou reduzir quando secundários a congestão pulmonar; não se modificam quando de causa inflamatória"
+    - "Modificam-se ou são abolidos com a mudança de posição (o guia adota o Quadro 16.4 do Exame Clínico; a Semiologia Médica restringe a mudança aos de causa congestiva)"
     - "Não se modificam"
   - - "Onde predominam"
     - "Nas bases, quando originados por congestão; conforme a doença, quando inflamatórios — bases na fibrose pulmonar, lobos superiores na tuberculose"
@@ -493,24 +493,24 @@ perguntas:
     alternativas:
       - "O primeiro tem atelectasia obstrutiva e o segundo, derrame pleural"
       - "O primeiro tem derrame pleural e o segundo, atelectasia obstrutiva"
-      - "Ambos têm pneumotórax, e a diferença é apenas o volume de ar"
+      - "Ambos têm pneumotórax, e a diferença entre retração e abaulamento reflete apenas o volume de ar acumulado na cavidade pleural"
       - "Ambos têm consolidação, e a diferença é apenas o tempo de evolução"
     corretaIndex: 0
     explicacao: "Macicez com frêmito reduzido é combinação comum a derrame e atelectasia obstrutiva, e o exame físico dificilmente as separa. A inspeção desempata: a atelectasia retrai o hemitórax, produz tiragem e desvia traqueia e ictus para o lado comprometido; o grande derrame abaúla o hemitórax e os espaços intercostais."
   - id: ausc-pulm-3
-    enunciado: Um paciente com tosse crônica apresenta poucos estertores, grossos ou finos, confinados à primeira metade da inspiração. O que esse padrão sugere?
+    enunciado: Um paciente tem estertores audíveis nas bases pulmonares. Depois de uma tosse, eles desaparecem. O que isso indica sobre o tipo de estertor?
     alternativas:
-      - "Fibrose pulmonar, em que os estertores são numerosos e teleinspiratórios"
-      - "Pneumonia, em que os estertores são pan-inspiratórios"
-      - "Doença obstrutiva crônica ao fluxo aéreo"
-      - "Congestão pulmonar da insuficiência ventricular esquerda"
+      - "Finos, porque os estertores finos são os únicos que a tosse modifica, por dependerem de secreção acumulada nas vias respiratórias"
+      - "Atrito pleural, que caracteristicamente some após a tosse e reaparece apenas na incursão respiratória seguinte"
+      - "Grossos: eles podem mudar ou desaparecer com a tosse, enquanto os finos não se alteram"
+      - "A tosse não ajuda na distinção, porque abole qualquer som adventício por alguns ciclos respiratórios"
     corretaIndex: 2
-    explicacao: "Estertores protoinspiratórios — poucos por incursão e confinados à primeira metade da inspiração — elevam muito a probabilidade de doença obstrutiva crônica (razão de verossimilhança 14,6). Entre pacientes em quem a obstrução já está estabelecida, esse mesmo padrão indica doença grave (razão de verossimilhança 20,8) — mas essa segunda leitura vale só nesse subgrupo, não como conclusão direta do achado isolado. A fibrose produz 6 a 14 estertores finos teleinspiratórios; a pneumonia, 3 a 7 grossos ou finos pan-inspiratórios."
+    explicacao: "A tabela dos estertores dá a chave: os grossos (bolhosos), nascidos de secreção espessa nas vias respiratórias maiores, podem mudar ou desaparecer com a tosse; os finos (crepitantes), gerados pela abertura sequencial de pequenas vias antes fechadas, não se alteram com ela — o que modifica ou abole os finos é a mudança de posição. O atrito pleural também não muda com a tosse. É por isso que o roteiro manda, diante de qualquer achado, pedir uma tosse e auscultar de novo o mesmo ponto."
   - id: ausc-pulm-4
     enunciado: Por que um paciente com derrame pleural pode apresentar frêmito toracovocal diminuído e, ao mesmo tempo, egofonia na faixa superior do derrame?
     alternativas:
-      - "Porque o frêmito e a ressonância vocal medem fenômenos físicos independentes entre si"
-      - "Porque o líquido reduz a transmissão das frequências baixas, das quais depende o frêmito, e pode aumentar a das frequências acima de 400 Hz, das quais depende a alteração da voz"
+      - "Porque o frêmito e a ressonância vocal medem fenômenos físicos independentes, sem nenhuma relação com as frequências que o líquido transmite ou filtra"
+      - "Porque o líquido reduz a transmissão das frequências baixas, das quais depende o frêmito, e pode aumentar a das altas, das quais depende a voz"
       - "Porque o frêmito só é palpável em homens e a egofonia só é audível em mulheres"
       - "Porque a egofonia no derrame indica sempre que há consolidação associada"
     corretaIndex: 1
@@ -518,19 +518,19 @@ perguntas:
   - id: ausc-pulm-5
     enunciado: Ao auscultar um paciente com asma em crise, você percebe que os sibilos, antes intensos, ficaram muito fracos. Como interpretar?
     alternativas:
-      - "Como melhora, pois a intensidade do sibilo acompanha diretamente a gravidade da obstrução"
-      - "Como sinal potencialmente grave, pois a intensidade não reflete a obstrução e o tórax silencioso pode indicar fluxo insuficiente para gerar som"
-      - "Como erro de técnica, pois sibilos não variam de intensidade ao longo de uma crise"
+      - "Como melhora, pois a intensidade do sibilo acompanha diretamente a gravidade da obstrução, do mesmo modo que a duração e a altura"
       - "Como sinal de que a obstrução passou a ser das vias aéreas superiores"
-    corretaIndex: 1
+      - "Como erro de técnica, pois sibilos não variam de intensidade ao longo de uma crise"
+      - "Como sinal potencialmente grave, pois o tórax silencioso pode indicar fluxo insuficiente para gerar som"
+    corretaIndex: 3
     explicacao: "Das três características do sibilo — duração, altura e intensidade —, apenas as duas primeiras acompanham a gravidade. Sibilo mais longo e mais agudo indica pior obstrução. A intensidade não reflete a gravidade, porque muitos pacientes gravemente obstruídos sibilam pouco ou nada: o tórax silencioso pode ser um paciente exausto, incapaz de mover ar suficiente."
   - id: ausc-pulm-6
     enunciado: Como distinguir estridor de sibilo à beira do leito?
     alternativas:
       - "O estridor é grave e o sibilo é agudo"
       - "O estridor é expiratório e mais audível sobre o tórax; o sibilo é inspiratório e mais audível sobre o pescoço"
-      - "O estridor é inspiratório e sempre mais audível sobre o pescoço; o sibilo é expiratório ou expiratório e inspiratório, e sempre mais audível sobre o tórax"
-      - "Só a espirometria permite separá-los, pois são acusticamente idênticos e igualmente distribuídos"
-    corretaIndex: 2
+      - "Só a espirometria permite separá-los, pois são acusticamente idênticos, ocorrem nas mesmas fases do ciclo e se distribuem igualmente pelo pescoço e pelo tórax"
+      - "O estridor é inspiratório e mais audível sobre o pescoço; o sibilo, expiratório ou nas duas fases, mais audível sobre o tórax"
+    corretaIndex: 3
     explicacao: "Estridor e sibilo são acusticamente quase idênticos — sons musicais de alta frequência — e se separam por duas características: o estridor se confina à inspiração, enquanto o sibilo é apenas expiratório ou ocorre nas duas fases; e o estridor é sempre mais audível sobre o pescoço, enquanto o sibilo é sempre mais audível sobre o tórax. O estridor indica obstrução de laringe ou traqueia."
 :::

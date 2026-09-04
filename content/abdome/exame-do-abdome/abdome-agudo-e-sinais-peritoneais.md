@@ -178,7 +178,7 @@ titulo: Duas contrações, duas tradições de nomes
 texto: |
   A parede abdominal endurecida pode ser contração **voluntária**, produzida por medo, ansiedade ou mãos frias, ou contratura **involuntária**, reflexo que o paciente não controla e que nasce do peritônio inflamado. A distinção clínica é a mesma nas duas grandes referências; a nomenclatura, não. Vale conhecer as duas para não se perder na leitura.
 
-  - **Porto** chama **defesa abdominal** a contratura involuntária do reflexo visceromotor, e **contração psicomotora** a voluntária, que desaparece quando se tranquiliza ou se distrai o paciente.
+  - **Porto** chama **defesa abdominal** a contratura involuntária do reflexo visceromotor, e **contração psicomotora** a voluntária — a que some assim que o paciente é distraído ou posto à vontade.
   - **McGee** distingue *guarding*, a contração voluntária, de *rigidity*, a contração involuntária, e é essa a definição usada nos números que aparecem no aprofundamento deste tópico.
 
   Adotando os termos de Porto, a defesa pode ser **localizada** ou **generalizada**.
@@ -249,7 +249,7 @@ titulo: Os sinais dirigidos à apendicite
 ::: conceito
 titulo: McBurney, Rovsing, psoas e obturador
 texto: |
-  **Ponto de McBurney.** Em trabalho lido perante a Sociedade de Cirurgia de Nova York em 1889, defendendo a operação precoce na apendicite, Charles McBurney afirmou que todos os pacientes com apendicite têm dor e sensibilidade máximas em um ponto situado, segundo suas palavras, "entre uma polegada e meia e duas polegadas" da espinha ilíaca anterossuperior, sobre uma linha reta traçada dessa espinha até o umbigo (McGee) — o equivalente a cerca de 3,8 a 5 cm. É a mesma localização que Porto descreve como "união do terço externo com os dois terços internos" dessa linha, e que Semiologia Clínica situa a um terço da distância entre a espinha e o umbigo. Três formulações, um só ponto.
+  **Ponto de McBurney.** Em trabalho lido perante a Sociedade de Cirurgia de Nova York em 1889, defendendo a operação precoce na apendicite, Charles McBurney afirmou que todos os pacientes com apendicite têm dor e sensibilidade máximas em um ponto situado, segundo suas palavras, "entre uma polegada e meia e duas polegadas" da espinha ilíaca anterossuperior, sobre uma linha reta traçada dessa espinha até o umbigo (McGee) — o equivalente a cerca de 3,8 a 5 cm. É a mesma localização que Porto marca onde o terço lateral dessa linha encontra os dois terços mediais, e que Semiologia Clínica situa a um terço da distância entre a espinha e o umbigo. Três formulações, um só ponto.
 
   **Sinal de Rovsing** (Niels T. Rovsing, cirurgião dinamarquês, 1862–1927). É positivo quando a pressão sobre o quadrante inferior **esquerdo** provoca dor no quadrante inferior **direito** — daí ser chamado de dor indireta. Rovsing supunha que a pressão firme no abdome esquerdo empurrasse gás retrogradamente até o ceco, e que a distensão adicional doesse se o apêndice estivesse inflamado.
 
@@ -294,7 +294,7 @@ titulo: Como Murphy descreveu, e o que os dados acrescentaram
 texto: |
   Em 1903, o cirurgião americano Murphy afirmou que a vesícula hipersensível da colecistite impede o paciente de completar uma inspiração profunda quando os dedos do examinador estão em gancho sob o arco costal direito, abaixo da margem hepática: o diafragma empurra o fígado para baixo até que a vesícula sensível alcance os dedos que examinam, e a inspiração cessa de repente, como se tivesse sido desligada (McGee).
 
-  A semiotécnica de Porto traduz isso em gestos: o examinador, à direita do paciente em decúbito dorsal, insinua o polegar sob o rebordo costal direito na altura da borda externa do músculo reto, com a palma apoiada no flanco, e — sem afrouxar a pressão — pede uma inspiração profunda. O ponto cístico fica no ângulo formado pelo rebordo costal direito com a borda externa do reto abdominal; em pessoas obesas, Porto oferece uma segunda referência (Figura 91.3): a interseção do arco costal direito com "a linha que une a crista ilíaca anterossuperior **esquerda** ao arco costal, passando pelo umbigo".
+  A semiotécnica de Porto traduz isso em gestos: com o paciente deitado de costas e o examinador postado ao seu lado direito, o polegar se insinua sob o rebordo costal direito na altura da borda externa do músculo reto, a palma apoiada no flanco, e — sem afrouxar a pressão — pede-se uma inspiração profunda. O ponto cístico fica no ângulo formado pelo rebordo costal direito com a borda externa do reto abdominal; em pessoas obesas, Porto oferece uma segunda referência (Figura 91.3): trace mentalmente uma linha que parta da espinha ilíaca anterossuperior do lado **esquerdo** e siga em direção ao arco costal direito passando pelo umbigo — o ponto está onde ela cruza o rebordo.
 
   Duas informações que os dados acrescentaram à descrição original:
 
@@ -498,9 +498,9 @@ perguntas:
     enunciado: "Um paciente com dor abdominal aguda tem teste da parede abdominal positivo: mantida a pressão sobre o ponto doloroso, a dor aumenta quando ele levanta a cabeça e os ombros. Qual é o efeito desse achado sobre a probabilidade de peritonite?"
     alternativas:
       - "Aumenta muito, pois a contração aproxima o peritônio inflamado da mão do examinador"
-      - "Reduz fortemente a probabilidade de peritonite (razão de verossimilhança 0,1), porque aponta a parede como origem da dor"
+      - "Reduz fortemente a probabilidade de peritonite, porque aponta a parede como origem da dor"
       - "Não altera a probabilidade, pois o teste avalia apenas a força da musculatura"
-      - "Aumenta moderadamente, com razão de verossimilhança em torno de 2,3"
+      - "Aumenta moderadamente, como qualquer manobra que comprima um abdome inflamado"
     corretaIndex: 1
     explicacao: "O teste da parede abdominal positivo tem razão de verossimilhança 0,1 para peritonite — é o único achado da lista que reduz a probabilidade com força. A lógica é a da manobra: se a dor aumenta com a contração, ela vem da parede; se diminui, os músculos contraídos estão protegendo o conteúdo da cavidade da mão do examinador. Na dor abdominal crônica, o mesmo teste reduz fortemente a probabilidade de causa visceral."
   - id: abd-agudo-3

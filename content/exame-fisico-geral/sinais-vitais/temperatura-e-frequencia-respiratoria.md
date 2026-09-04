@@ -28,13 +28,13 @@ tags:
   - Biot
   - ortopneia
 referencias:
-  - "Porto — Semiologia Médica, 8ª ed., cap. 8 (Exame físico geral), p. 187-191"
-  - "Porto — Exame Clínico, 8ª ed., cap. 21 (Sinais vitais), p. 952-955"
+  - "Porto — Semiologia Médica, 8ª ed., cap. 8 (Exame físico geral) — seções de temperatura e respiração"
+  - "Porto — Exame Clínico, 8ª ed., cap. 21 (Sinais vitais) — seções de temperatura e frequência respiratória"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 18 (Temperature)"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 19 (Respiratory Rate and Abnormal Breathing Patterns)"
   - "Semiologia Clínica, 1ª ed. (definição de febre no adulto: axilar > 37,8 °C)"
   - "SBP — Documento Científico nº 206, 15/05/2025: Abordagem da Febre Aguda em Pediatria e Reflexões sobre a Febre nas Arboviroses"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
@@ -168,10 +168,16 @@ titulo: Febre
 titulo: Intensidade da febre pela temperatura axilar
 colunas: ["Categoria", "Temperatura axilar"]
 linhas:
-  - ["Febre leve ou febrícula", "até 37,5 °C"]
-  - ["Febre moderada", "37,6 a 38,5 °C"]
-  - ["Febre alta ou elevada", "acima de 38,6 °C"]
+  - ["Febre leve ou febrícula", "até 37,7 °C"]
+  - ["Febre moderada", "37,8 a 38,5 °C"]
+  - ["Febre alta ou elevada", "acima de 38,5 °C"]
   - ["Hipotermia", "abaixo de 35,5 °C na axila (ou abaixo de 35 °C no reto)"]
+:::
+
+::: conceito
+titulo: Uma escada, um corte
+texto: |
+  A escada acima foi harmonizada com o corte de febre do adulto que o guia adota (**acima de 37,8 °C**, Semiologia Clínica): a febrícula vai até 37,7 °C e a febre moderada começa exatamente onde a febre começa. Porto encerra a febrícula em 37,5 °C e inicia a moderada em 37,6 °C — o que deixaria uma faixa de dois décimos que já seria "febre moderada" sem ainda ser febre.
 :::
 
 ::: conceito
@@ -342,10 +348,10 @@ perguntas:
     enunciado: Qual é a faixa considerada normal para a temperatura axilar no adulto?
     alternativas:
       - "34,0 a 35,5 °C"
-      - "35,5 a 37 °C"
       - "37 a 38 °C"
       - "36,5 a 38,5 °C"
-    corretaIndex: 1
+      - "35,5 a 37 °C"
+    corretaIndex: 3
     explicacao: A temperatura axilar normal vai de 35,5 a 37 °C, com média entre 36 e 36,5 °C. A retal fica cerca de 0,5 °C acima desses valores.
   - id: temp-fr-2
     enunciado: Um paciente apresenta temperatura axilar de 38,0 °C. Como se classifica a intensidade dessa febre?
@@ -355,14 +361,14 @@ perguntas:
       - "Febre alta"
       - "Hipertermia"
     corretaIndex: 1
-    explicacao: Pela temperatura axilar, febrícula vai até 37,5 °C, febre moderada de 37,6 a 38,5 °C e febre alta acima de 38,6 °C. Portanto 38,0 °C corresponde a febre moderada.
+    explicacao: Pela temperatura axilar, febrícula vai até 37,7 °C, febre moderada de 37,8 a 38,5 °C e febre alta acima de 38,5 °C. Portanto 38,0 °C corresponde a febre moderada.
   - id: temp-fr-3
     enunciado: Por que a frequência respiratória deve ser contada durante 60 segundos e sem avisar o paciente?
     alternativas:
-      - "Porque a respiração é o único sinal vital sob controle voluntário e a contagem de 15 segundos identifica apenas parte dos pacientes taquipneicos"
+      - "Porque a respiração está sob controle voluntário e a contagem de 15 segundos perde parte dos taquipneicos"
       - "Porque o termômetro precisa de 60 segundos para estabilizar"
       - "Porque a frequência respiratória só se estabiliza após 1 minuto de decúbito"
-      - "Porque a contagem curta superestima sistematicamente a frequência"
+      - "Porque a contagem curta superestima sistematicamente a frequência, já que o paciente costuma hiperventilar no início da observação"
     corretaIndex: 0
     explicacao: Ao perceber que está sendo observado, o paciente altera a respiração. Além disso, a contagem de 15 segundos multiplicada por quatro detecta cerca de 23% dos taquipneicos, contra praticamente todos com 60 segundos de observação.
   - id: temp-fr-4
@@ -377,7 +383,7 @@ perguntas:
   - id: temp-fr-5
     enunciado: Idoso diabético com infecção urinária grave chega ao pronto-socorro com temperatura axilar de 36,8 °C. Qual a melhor interpretação?
     alternativas:
-      - "A ausência de febre praticamente afasta infecção bacteriana"
+      - "A ausência de febre praticamente afasta infecção bacteriana, sobretudo no idoso, em quem a resposta térmica costuma ser exagerada"
       - "A resposta febril pode estar ausente ou atenuada nesse perfil de paciente, e isso não afasta infecção grave"
       - "Trata-se necessariamente de hipotermia"
       - "A temperatura deve ser desconsiderada e apenas a frequência respiratória avaliada"

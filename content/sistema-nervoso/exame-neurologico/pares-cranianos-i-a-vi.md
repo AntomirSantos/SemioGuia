@@ -99,7 +99,7 @@ texto: |
 
   **O que fica como moldura, nomeada e não ensinada:**
 
-  - a **técnica da oftalmoscopia** — como segurar o aparelho, como aproximar, como percorrer a retina. Este tópico ensina *o que se procura* no fundo de olho e *por que* isso importa ao exame neurológico; o manejo do instrumento pertence ao exame instrumental, fora desta fase do guia;
+  - a **técnica da oftalmoscopia** — como segurar o aparelho, como aproximar, como percorrer a retina. Este tópico ensina *o que se procura* no fundo de olho e *por que* isso importa ao exame neurológico; o manejo do instrumento pertence ao exame instrumental, fora do escopo do guia;
   - os **testes farmacológicos tópicos** que confirmam determinadas síndromes pupilares. Eles existem, decidem casos difíceis e não são detalhados aqui, pela mesma regra que o guia aplica em todos os capítulos.
 :::
 
@@ -319,7 +319,7 @@ titulo: Fundo de olho — o que se procura
 texto: |
   Este guia deixou o fundo de olho para o capítulo neurológico, e aqui ele encontra seu lugar — com uma fronteira explícita.
 
-  **A técnica do oftalmoscópio não é ensinada aqui.** Ela é instrumental, exige treino próprio e pertence ao exame com aparelhos, fora desta fase do guia. O que este tópico ensina é o que o exame procura, por que ele importa e quando pedi-lo.
+  **A técnica do oftalmoscópio não é ensinada aqui.** Ela é instrumental, exige treino próprio e pertence ao exame com aparelhos, fora do escopo do guia. O que este tópico ensina é o que o exame procura, por que ele importa e quando pedi-lo.
 
   Porto justifica sua importância em uma imagem que vale a pena guardar: o fundo de olho é uma **biópsia incruenta**. Nele se veem, sem cortar nada, tecido nervoso — retina e papila óptica — e vasos, artérias, veias e capilares, que refletem fielmente o que se passa com as estruturas equivalentes dentro do crânio. Semiologia Clínica descreve o mesmo alcance: a fundoscopia permite avaliar as papilas ópticas, os vasos e a retina.
 

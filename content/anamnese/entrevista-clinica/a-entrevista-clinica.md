@@ -60,7 +60,7 @@ referencias:
   - "Porto — Exame Clínico, 8ª ed., cap. 4 (Anamnese) — Elementos componentes da anamnese (Quadro 4.1); Identificação"
   - "Semiologia Clínica, 1ª ed., cap. 2 (Comunicação clínica) — Escuta ativa; Acolhimento; Desenvolvendo a comunicação e coletando informações; Fechamento da consulta; Tópicos sensíveis; estudo de Beckman e Frankel; guia Calgary-Cambridge"
   - "Semiologia Clínica, 1ª ed., cap. 3 (História clínica) — Poder diagnóstico da anamnese e do exame clínico; Estrutura da anamnese (Tabela 1); Identificação; Fonte da história e confiabilidade; Alguns cuidados a serem tomados"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
@@ -457,7 +457,7 @@ perguntas:
     enunciado: Um paciente relata "tontura". Qual é a técnica de entrevista indicada e por quê?
     alternativas:
       - "Esclarecimento, porque o termo tem vários significados e é preciso definir a qual deles o paciente se refere"
-      - "Confronto, porque o termo sugere que o paciente esconde outra queixa"
+      - "Confronto, porque o uso de um termo vago revela discrepância entre o que o paciente diz e o que demonstra, e cabe apontá-la de imediato"
       - "Reafirmação, repetindo a palavra do paciente para que ele desenvolva"
       - "Silêncio, porque o paciente chegará sozinho à descrição correta"
     corretaIndex: 0
@@ -474,7 +474,7 @@ perguntas:
   - id: entrevista-3
     enunciado: Durante a narrativa, um paciente loquaz salta de assunto em assunto e a entrevista perde objetividade. Qual conduta é a mais adequada?
     alternativas:
-      - "Ampliar o uso do silêncio, para que ele mesmo perceba a digressão e se organize"
+      - "Ampliar o uso do silêncio e da facilitação, técnicas que sustentam a narrativa, para que ele mesmo perceba a digressão e reorganize o relato"
       - "Interromper e pedir que ele responda apenas o que for perguntado"
       - "Passar a perguntas dirigidas, resumir o que já se entendeu e explicitar os pontos que ainda faltam cobrir"
       - "Encerrar a anamnese e completar os dados no exame físico"
@@ -483,7 +483,7 @@ perguntas:
   - id: entrevista-4
     enunciado: Um paciente idoso vem acompanhado da filha, que responde a todas as perguntas. Qual é a conduta correta?
     alternativas:
-      - "Aceitar a filha como informante principal, já que a idade compromete a confiabilidade do relato do paciente"
+      - "Aceitar a filha como informante principal e dirigir-lhe as perguntas, já que a idade avançada compromete por si só a confiabilidade do relato e a autonomia do paciente"
       - "Dirigir as perguntas ao paciente, ouvir a filha em seguida e na presença dele, e registrar a fonte e a confiabilidade das informações"
       - "Pedir que a filha aguarde do lado de fora durante toda a consulta"
       - "Registrar as duas versões como equivalentes, sem indicar de quem veio cada informação"
@@ -492,7 +492,7 @@ perguntas:
   - id: entrevista-5
     enunciado: O paciente afirma que seu problema é "pressão alta". Como registrar a queixa principal?
     alternativas:
-      - "Registrar \"hipertensão arterial\", que é o termo clínico correspondente"
+      - "Registrar \"hipertensão arterial\", cumprindo a obrigação do examinador de traduzir a linguagem comum do paciente no termo clínico correspondente"
       - "Registrar \"pressão alta\" entre aspas, sem qualquer esclarecimento"
       - "Registrar a última aferição de pressão arterial obtida"
       - "Esclarecer qual sintoma está subentendido sob o rótulo e registrar esse sintoma"
@@ -501,9 +501,9 @@ perguntas:
   - id: entrevista-6
     enunciado: Qual afirmação sobre o rendimento diagnóstico da anamnese corresponde ao que as referências deste guia registram?
     alternativas:
-      - "As estimativas variam — Porto sintetiza 80 a 85% dos acertos pela anamnese, Semiologia Clínica cita 82% em Hampton e 78,1% em Benseñor, e o estudo de Sandler encontrou 56% ao final da história"
+      - "As estimativas variam conforme a fonte, indo de 56% no estudo de Sandler aos 80 a 85% sintetizados por Porto"
       - "Todas as fontes convergem para a cifra de 90% dos diagnósticos obtidos apenas pela história"
-      - "Os estudos disponíveis mostram que o exame físico contribui mais para o diagnóstico do que a anamnese"
+      - "Os estudos disponíveis mostram que o exame físico contribui mais para o diagnóstico do que a anamnese, respondendo por cerca de 73% dos acertos"
       - "O rendimento da anamnese é irrelevante desde a difusão dos exames de imagem"
     corretaIndex: 0
     explicacao: "As cifras não coincidem porque mudam a população, o serviço e o critério de diagnóstico correto. Porto (cap. 2) fala em 80 a 85% dos acertos pela anamnese e 8 a 10% pelo exame físico; Semiologia Clínica (cap. 2) cita Hampton, com 82% pela anamnese, mais 9% pelo exame clínico e 9% pelos complementares, e Benseñor, com 78,1%, 11,9% e 10,0%; a mesma obra (cap. 3) traz o estudo de Sandler, com 56% ao final da história e 73% após o exame clínico. Nenhuma delas coloca o exame físico acima da anamnese."

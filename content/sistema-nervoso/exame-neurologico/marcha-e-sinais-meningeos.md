@@ -660,14 +660,14 @@ titulo: Teste rápido
 ::: quiz
 perguntas:
   - id: neu-mar-1
-    enunciado: Um homem de 52 anos chega ao pronto-socorro com cefaleia intensa de início súbito, sem trauma. Ao exame, não consegue encostar o queixo no esterno. Que peso esse achado tem?
+    enunciado: Ao pesquisar rigidez de nuca em um paciente com suspeita de meningite, qual é a técnica correta e o que caracteriza o achado positivo?
     alternativas:
-      - "Peso grande: em pacientes com cefaleia súbita não traumática, a rigidez de nuca eleva substancialmente a probabilidade de hemorragia subaracnóidea, com razão de verossimilhança 7,1"
-      - "Peso pequeno, porque a rigidez de nuca tem razão de verossimilhança 1,5 e é o menos útil dos três sinais meníngeos"
-      - "Nenhum peso isolado: o achado só é interpretável se acompanhado de febre, já que é a síndrome infecciosa que confere valor aos sinais meníngeos"
-      - "Peso grande em sentido oposto: a rigidez de nuca é achado de meningite e afasta causa vascular para a cefaleia"
+      - "Decúbito dorsal, mão sob o occipital, flexão anterior delicada da cabeça: o positivo é o pescoço que resiste ao movimento"
+      - "Paciente sentado, rotação lateral passiva da cabeça para os dois lados: o positivo é a limitação da rotação, que precede a da flexão"
+      - "Decúbito dorsal, com flexão forçada até vencer a resistência, porque só a amplitude final do movimento tem valor diagnóstico"
+      - "Paciente em pé, extensão do pescoço contra a resistência do examinador, comparando a força dos extensores dos dois lados"
     corretaIndex: 0
-    explicacao: "Em estudos com mais de 4.000 pacientes que chegaram a serviços de emergência com cefaleia intensa, súbita e não traumática, a rigidez de nuca elevou significativamente a probabilidade de hemorragia subaracnóidea, com razão de verossimilhança 7,1 — o melhor desempenho de qualquer sinal meníngeo em qualquer cenário. O valor 1,5 pertence a outra pergunta: rigidez de nuca detectando pleocitose liquórica em pacientes com suspeita de meningite, cenário em que Kernig rende 2,5 e Brudzinski 2,2. A hemorragia intracerebral também produz rigidez de nuca quando o sangue intraventricular alcança o espaço subaracnóideo."
+    explicacao: "Porto descreve a técnica de modo idêntico nas duas obras: paciente em decúbito dorsal, uma das mãos apoiada sob o occipital e a cabeça levada à frente sem forçar. Flexão ampla e fácil significa nuca livre; o pescoço que se opõe ao movimento é a rigidez — que McGee operacionaliza como a incapacidade de tocar o queixo no esterno ou de elevar a cabeça 8 cm do leito. Há duas contraindicações formais: o politraumatizado, pelo risco de agravar lesão raquimedular, e o processo expansivo de fossa posterior, pelo risco de insinuação das amígdalas cerebelares."
   - id: neu-mar-2
     enunciado: Ao pesquisar o sinal de Brudzinski, por que o paciente com irritação meníngea flete os quadris E os joelhos, em vez de estender os quadris e fletir os joelhos?
     alternativas:

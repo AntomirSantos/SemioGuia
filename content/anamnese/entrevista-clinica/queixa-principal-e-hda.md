@@ -49,7 +49,7 @@ referencias:
   - "Porto — Exame Clínico, 8ª ed., cap. 6 (Sinais e Sintomas) — Dor: características semiológicas; localização e dores múltiplas; irradiação e dor referida"
   - "Semiologia Clínica, 1ª ed., cap. 3 (História clínica) — Queixa principal (ou queixas) e duração; História da moléstia atual; Alguns cuidados a serem tomados; Impacto da condição de saúde na funcionalidade da pessoa"
   - "Semiologia Clínica, 1ª ed., cap. 2 (Comunicação clínica) — Perguntas abertas e fechadas na coleta da história"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
@@ -389,8 +389,8 @@ perguntas:
     alternativas:
       - "É sempre o sintoma mais antigo relatado pelo paciente"
       - "É sempre o sintoma que o paciente mais realça"
-      - "Não há regra fixa; como orientação, o estudante pode eleger a queixa que dura há mais tempo, aquela que o paciente mais destaca ou a própria queixa principal"
-      - "Cada doença tem um sintoma-guia único e constante"
+      - "Não há regra fixa; o estudante pode eleger a queixa que dura há mais tempo, a mais destacada pelo paciente ou a própria queixa principal"
+      - "Cada doença tem um sintoma-guia único e constante, como a convulsão na epilepsia e o edema na síndrome nefrótica, que o estudante deve memorizar"
     corretaIndex: 2
     explicacao: "Porto examina e recusa cada critério isolado: o sintoma-guia não é necessariamente o mais antigo, não é obrigatoriamente a primeira queixa relatada e não é sistematicamente o mais realçado pelo paciente. Também não existe um sintoma-guia único e constante por enfermidade. A orientação oferecida ao iniciante é eleger a queixa que dura há mais tempo, aquela que o paciente mais destaca ou simplesmente a própria queixa principal."
   - id: hda-3
@@ -406,7 +406,7 @@ perguntas:
     enunciado: Sobre a escala analógica visual de intensidade da dor, qual descrição está correta?
     alternativas:
       - "Sequência de expressões faciais preferida em adultos alfabetizados"
-      - "Escala de seis expressões verbais, de \"sem dor\" a \"pior dor possível\", registrada em cruzes"
+      - "Escala de seis expressões verbais, de \"sem dor\" a \"pior dor possível\", preferida em adultos por dispensar números e registrada em cruzes"
       - "Régua graduada de 0 a 100 aplicada exclusivamente na dor crônica"
       - "Linha reta de 10 cm com \"sem dor\" e \"pior dor possível\" nos extremos, cujo resultado se registra de zero a dez"
     corretaIndex: 3
@@ -414,7 +414,7 @@ perguntas:
   - id: hda-5
     enunciado: Paciente com dor epigástrica em queimação há três anos passa, hoje, a sentir dor aguda e intensa na mesma região, que em poucas horas se espalha por todo o abdome. Qual é a leitura correta desse dado na HDA?
     alternativas:
-      - "Trata-se da mesma dor crônica, apenas mais intensa; basta registrar a piora"
+      - "Trata-se da mesma dor crônica, apenas mais intensa; como a dor antiga já virou a própria doença, basta registrar a piora na linha de base"
       - "Como a localização não mudou, o achado não altera a interpretação"
       - "A mudança de padrão é um evento e deve ser datada e caracterizada como quadro novo articulado à dor prévia"
       - "A cronologia perde importância quando o sintoma é antigo"
@@ -423,8 +423,8 @@ perguntas:
   - id: hda-6
     enunciado: De acordo com Porto, qual é a relação habitual entre a dor e a atividade funcional do órgão que a origina, e qual é a exceção clássica?
     alternativas:
-      - "A dor costuma piorar quando o órgão de onde ela vem entra em funcionamento; a exceção clássica é a úlcera péptica duodenal, cuja dor cede quando o paciente come"
-      - "A dor costuma aliviar com a atividade do órgão; a exceção é a angina, que piora com o esforço"
+      - "A dor piora quando o órgão de origem entra em funcionamento; a exceção clássica é a úlcera duodenal, cuja dor cede quando o paciente come"
+      - "A dor costuma aliviar quando o órgão de origem entra em funcionamento; a exceção clássica é a angina de peito, que piora com o esforço da caminhada"
       - "Não há relação previsível entre dor e função do órgão de origem"
       - "A relação só se aplica à dor neuropática"
     corretaIndex: 0

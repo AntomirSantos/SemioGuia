@@ -100,7 +100,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 29, Tabela 5.1 — concordância entre observadores para palidez do leito ungueal, palidez conjuntival pelo método da rima, icterícia e cianose"
   - "Semiologia Clínica, 1ª ed., cap. 9 (O exame da pele e anexos) — condições do exame dermatológico, inspeção a distância e a curta distância, palpação, digitopressão e vitropressão, compressão; classificação das lesões elementares em seis grupos (Tabela 1); fototipo de Fitzpatrick; exame das unhas e regiões periungueais"
   - "Semiologia Clínica, 1ª ed., cap. 45 (Icterícia) — onde pesquisar icterícia, esclera e mucosa oral, fotoescurecimento da esclera, betacarotenemia; nível de bilirrubina a partir do qual a icterícia é detectada; graduação em cruzes e seus estudos de correlação e concordância; zonas dérmicas e progressão craniocaudal na icterícia neonatal"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
@@ -625,15 +625,15 @@ perguntas:
     alternativas:
       - "O leito ungueal, comparando a cor com a do examinador"
       - "A face, em qualquer fototipo de pele"
-      - "A rima conjuntival: puxa-se a pálpebra inferior e verifica-se se o contraste entre a borda avermelhada e a porção mais pálida próxima ao globo desapareceu"
-      - "A mucosa gengival, graduada em cruzes de + a ++++"
+      - "A rima conjuntival: puxa-se a pálpebra inferior e verifica-se se o contraste entre as duas zonas de cor desapareceu"
+      - "A mucosa gengival, graduada em cruzes de + a ++++, método que alcançou a maior razão de verossimilhança entre todos os sítios"
     corretaIndex: 2
     explicacao: "A palidez da rima conjuntival é o achado com maior razão de verossimilhança para anemia (16,7) e também um dos mais reprodutíveis (kappa 0,54 a 0,75). Normalmente há duas zonas de cor na face interna da pálpebra inferior: a rima avermelhada e a porção mais pálida próxima ao globo; na anemia, toda a superfície fica pálida. A palidez do leito ungueal não mostrou valor diagnóstico, e a palidez facial só foi avaliada em pessoas de pele clara."
   - id: pele-3
     enunciado: Um paciente refere que a pele das mãos ficou amarelada nas últimas semanas. Ao exame, as palmas e as plantas estão francamente amareladas, mas a conjuntiva e a mucosa oral estão normais. Qual a interpretação?
     alternativas:
       - "Icterícia leve, ainda restrita às extremidades"
-      - "Icterícia obstrutiva, que caracteristicamente começa pelas mãos"
+      - "Icterícia obstrutiva, que caracteristicamente começa pelas palmas e plantas antes de atingir a esclera e o freio da língua"
       - "Cianose periférica em fase de resolução"
       - "Carotenodermia — a betacarotenemia poupa conjuntiva e mucosa oral"
     corretaIndex: 3
@@ -641,8 +641,8 @@ perguntas:
   - id: pele-4
     enunciado: Um adulto tem bilirrubina total de 2,8 mg/dL e você não identifica icterícia ao exame. Qual é a leitura correta?
     alternativas:
-      - "Houve erro laboratorial, pois acima de 2,5 mg/dL a icterícia é sempre visível"
-      - "Nesse nível a icterícia pode existir sem ser vista: os estudos mostram que apenas 70% a 80% dos observadores a detectam no limiar clássico de 2,5 a 3 mg/dL"
+      - "Houve erro laboratorial, pois acima de 2,5 mg/dL a icterícia é sempre visível na esclera e no freio da língua, mesmo sob luz artificial"
+      - "Nesse nível a icterícia pode passar despercebida: só 70% a 80% dos observadores a detectam no limiar clássico"
       - "A ausência de icterícia exclui hiperbilirrubinemia quando o exame é feito sob luz natural"
       - "Só há icterícia clínica acima de 15 mg/dL"
     corretaIndex: 1
@@ -650,9 +650,9 @@ perguntas:
   - id: pele-5
     enunciado: Sobre a graduação da icterícia em cruzes, o que os estudos citados em Semiologia Clínica mostraram?
     alternativas:
-      - "Baixa correlação com os níveis séricos e baixa concordância entre observadores; o que altera a conduta inicial é o sinal estar presente ou ausente"
+      - "Baixa correlação com os níveis séricos e baixa concordância entre observadores"
       - "Correlação forte com a bilirrubina sérica, o que justifica seu uso rotineiro"
-      - "Concordância excelente entre observadores, mas correlação fraca com a bilirrubina"
+      - "Concordância excelente entre observadores, mas correlação fraca com a bilirrubina, o que restringe o método ao acompanhamento evolutivo"
       - "Utilidade restrita ao recém-nascido, em quem a correlação é perfeita"
     corretaIndex: 0
     explicacao: "Um estudo conduzido em Santa Catarina mostrou baixa correlação da graduação em cruzes com os níveis séricos de bilirrubina e baixa concordância entre observadores; outro, na Universidade de São Paulo, concluiu que os níveis de intensidade não determinam nem alteram a conduta inicial, ao contrário da simples presença ou ausência do sinal. No recém-nascido, a correlação da progressão cefalocaudal isolada com a bilirrubina dosada também se mostrou pobre em estudos recentes."
@@ -661,8 +661,8 @@ perguntas:
     alternativas:
       - "Há contradição entre as fontes: um dos dois valores está errado"
       - "O ângulo de implantação de 180° é normal e o hiponiquial de 190° é patológico apenas em fumantes"
-      - "São medidas diferentes, feitas em referências diferentes: o ângulo de implantação normal fica em torno de 160° e se aproxima de 180° no hipocratismo; o ângulo hiponiquial é medido a partir do hiponíquio e tem limite de 190°"
-      - "O ângulo de implantação substituiu o hiponiquial porque mede a mesma coisa com mais acurácia à beira do leito"
+      - "São medidas diferentes: o ângulo de implantação normal fica em torno de 160° e se aproxima de 180° no hipocratismo; o hiponiquial tem limite de 190°"
+      - "O ângulo de implantação substituiu o hiponiquial nas descrições atuais, porque mede a mesma coisa com mais acurácia à beira do leito e dispensa instrumentos"
     corretaIndex: 2
     explicacao: "São duas medidas distintas. O ângulo de implantação, ou de perfil, forma-se entre a placa ungueal e a dobra ungueal proximal, fica em torno de 160° na unha normal e se aproxima de 180° no hipocratismo digital. O ângulo hiponiquial é medido a partir do hiponíquio, na face inferior da falange, e o limite descrito para baqueteamento é 190°; é acurado, mas exige instrumentos. Ao registrar, é preciso dizer qual ângulo foi usado."
 :::

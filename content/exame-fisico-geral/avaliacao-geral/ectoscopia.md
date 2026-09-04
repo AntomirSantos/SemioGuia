@@ -103,7 +103,7 @@ referencias:
   - "Semiologia Clínica, 1ª ed., cap. 8 (Semiologia de cabeça e pescoço) — Face: fácies sindrômicas, mímica, assimetrias; comparação com fotografia antiga e com familiares; descrição como fácies atípica"
   - "Semiologia Clínica, 1ª ed., cap. 23 (Alterações da consciência) — avaliação inicial do paciente com alteração da consciência e o que o exame clínico geral acrescenta"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 29-30, Tabela 5.1 — concordância entre observadores para achados de aparência geral, marcha e nível de consciência"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
@@ -631,7 +631,7 @@ perguntas:
     enunciado: Uma criança com cardiopatia congênita cianótica se agacha espontaneamente durante o esforço. Como se classifica essa atitude e o que ela produz?
     alternativas:
       - "Atitude involuntária; resulta de contratura da musculatura paravertebral"
-      - "Atitude genupeitoral; facilita o enchimento do coração no derrame pericárdico"
+      - "Atitude genupeitoral, a mesma da prece maometana; facilita o enchimento do coração quando há derrame pericárdico volumoso"
       - "Atitude voluntária de cócoras; reduz o retorno venoso ao coração e alivia a hipoxia"
       - "Postura parkinsoniana; decorre de rigidez muscular generalizada"
     corretaIndex: 2
@@ -640,15 +640,15 @@ perguntas:
     enunciado: Qual é a principal utilidade clínica de definir o biotipo do paciente?
     alternativas:
       - "Estimar o risco cardiovascular, que é maior no longilíneo"
-      - "Antecipar variações anatômicas — a posição do coração e do ictus cordis e a forma do estômago acompanham o tipo morfológico"
+      - "Antecipar variações anatômicas: a posição do coração e a forma do estômago acompanham o tipo morfológico"
       - "Substituir o índice de massa corporal na avaliação nutricional"
-      - "Graduar a intensidade da dispneia em pacientes com doença pulmonar"
+      - "Graduar a intensidade da dispneia em pacientes com doença pulmonar crônica, a partir da abertura do ângulo de Charpy"
     corretaIndex: 1
     explicacao: "O biotipo interessa porque a forma externa do corpo guarda correspondência com a acomodação das vísceras: o coração se verticaliza no longilíneo e se horizontaliza no brevilíneo, o que desloca o ictus cordis, e a forma do estômago acompanha o mesmo padrão. O ângulo de Charpy, que objetiva o biotipo, é detalhado no tópico de inspeção do tórax."
   - id: ecto-5
     enunciado: Um homem de 80 anos anda com passos curtos, pouco balanço dos braços e discreta flexão de tronco e quadris. Qual é a conduta correta diante desse achado?
     alternativas:
-      - "Registrar marcha senil, por se tratar de alteração fisiológica esperada nessa idade"
+      - "Registrar marcha senil de imediato, por se tratar de alteração fisiológica esperada e presente em todos os idosos a partir dos 80 anos"
       - "Concluir doença de Parkinson, pela redução do balanço dos braços"
       - "Dispensar a avaliação da marcha, cuja concordância entre observadores é baixa demais para ser útil"
       - "Descrever a marcha e afastar doenças neurológicas e osteomusculares antes de usar o rótulo de marcha senil"

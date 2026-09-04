@@ -41,7 +41,7 @@ referencias:
   - "Porto — Semiologia Médica, 8ª ed., Parte 1, cap. 2 (Diagnóstico e Prognóstico) — Fatores que dificultam o diagnóstico; erros diagnósticos não intencionais"
   - "Semiologia Clínica, 1ª ed., cap. 3 (História clínica) — Estrutura da anamnese e Interrogatório sobre órgãos e sistemas (Tabela 1); geração de hipóteses diagnósticas; crítica à \"história completa\"; pensamento epidemiológico"
   - "Semiologia Clínica, 1ª ed., cap. 2 (Comunicação clínica) — Perguntas abertas seguidas de perguntas fechadas e direcionadoras"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
@@ -162,7 +162,7 @@ linhas:
   - - "Músculos"
     - "Fraqueza segmentar ou generalizada e sua evolução no dia, atrofia, dor, cãibras, espasmos"
   - - "Artérias, veias, linfáticos e microcirculação"
-    - "Claudicação intermitente e dor de repouso; alterações tróficas e ulcerações; mudanças de cor e de temperatura da pele; edema; fenômeno de Raynaud, acrocianose, livedo reticular; parestesias"
+    - "Claudicação intermitente e dor de repouso; alterações tróficas e ulcerações; mudanças de cor e de temperatura da pele; edema; fenômeno de Raynaud, acrocianose, livedo reticular; parestesias. Todos os nove itens são ensinados no capítulo de exame vascular periférico"
   - - "Sistema nervoso"
     - "Distúrbios da consciência; cefaleia; tontura e vertigem; convulsões e ausências; amnésia; distúrbios visuais, auditivos, da marcha, da motricidade e da sensibilidade; distúrbios esfincterianos; distúrbios do sono; alterações da fala e da linguagem"
   - - "Exame psíquico e condições emocionais"
@@ -281,7 +281,7 @@ perguntas:
     enunciado: Qual é a principal utilidade prática do interrogatório sintomatológico, segundo Porto?
     alternativas:
       - "Confirmar os sintomas já descritos na história da doença atual"
-      - "Substituir a história da doença atual quando o paciente é mau informante"
+      - "Substituir a história da doença atual quando o paciente é mau informante, já que a varredura sistemática independe da qualidade da narrativa"
       - "Encurtar a anamnese em pacientes com queixa única"
       - "Permitir ao médico levantar possibilidades e reconhecer doenças que nada têm a ver com o quadro descrito na HDA"
     corretaIndex: 3
@@ -299,7 +299,7 @@ perguntas:
     enunciado: Por que Porto recomenda registrar também os sintomas negados pelo paciente?
     alternativas:
       - "Porque o registro do estado atual de todos os sistemas cria um parâmetro contra o qual queixas futuras serão comparadas"
-      - "Porque sintomas negados têm o mesmo peso diagnóstico dos sintomas presentes"
+      - "Porque sintomas negados têm o mesmo peso diagnóstico dos sintomas presentes, e a soma de ambos é o que gera as hipóteses do raciocínio clínico"
       - "Porque a ausência de sintomas exclui doença naquele sistema"
       - "Porque é exigência legal do prontuário"
     corretaIndex: 0
@@ -309,16 +309,16 @@ perguntas:
     alternativas:
       - "Ambas recomendam a história completa como padrão permanente da prática"
       - "Ambas recomendam abandonar a revisão de sistemas na graduação"
-      - "Porto defende o roteiro rígido na fase de iniciação, com simplificação conforme a experiência; Semiologia Clínica afirma que hoje ninguém mais recomenda uma \"história completa\""
-      - "Porto e Semiologia Clínica adotam a mesma posição, com terminologias diferentes"
+      - "Porto defende o roteiro rígido na iniciação, com simplificação posterior; Semiologia Clínica afirma que ninguém mais recomenda uma \"história completa\""
+      - "Porto e Semiologia Clínica adotam exatamente a mesma posição sobre a extensão do interrogatório, divergindo apenas na terminologia empregada"
     corretaIndex: 2
     explicacao: "As duas obras divergem. Porto sustenta que, na iniciação clínica, a única maneira de fazer uma boa anamnese especial é seguir um roteiro rígido com perguntas sobre todos os sistemas, admitindo simplificação e adaptação conforme se adquire experiência. Semiologia Clínica afirma que ninguém mais recomenda a \"história completa\", porque ela sempre deixará algo de fora, torna as entrevistas um fardo e ignora as queixas específicas de cada pessoa. Nenhuma das duas propõe abandonar a revisão de sistemas."
   - id: isda-5
     enunciado: Segundo o estudo citado em Semiologia Clínica sobre geração de hipóteses diagnósticas, qual conjunto de resultados está correto?
     alternativas:
       - "Primeira hipótese apenas ao final da anamnese, com 95% de acerto"
-      - "Primeira hipótese por volta de 28 segundos depois de enunciada a queixa principal, hipótese correta em torno de 6 minutos, 75% de acerto e cerca de três hipóteses principais mantidas ao longo do atendimento"
-      - "Primeira hipótese em cerca de 6 segundos e hipótese correta em cerca de 28 minutos"
+      - "Primeira hipótese por volta de 28 segundos depois de enunciada a queixa principal, hipótese correta em torno de 6 minutos e 75% de acerto"
+      - "Primeira hipótese somente em cerca de 6 minutos e hipótese correta em torno de 28 segundos, com índice de acerto próximo de 95% dos diagnósticos"
       - "Nenhuma hipótese é formulada antes do exame físico em médicos experientes"
     corretaIndex: 1
     explicacao: "No estudo relatado em Semiologia Clínica (cap. 3), médicos de família e internistas filmados atendendo pacientes com diagnósticos conhecidos geraram a primeira hipótese por volta de 28 segundos depois que a queixa principal foi enunciada, e a hipótese correta em torno de 6 minutos, com índice de acerto de 75% e cerca de 5,5 hipóteses por paciente, sustentando aproximadamente três hipóteses principais em qualquer ponto do atendimento. Quando o experimento foi repetido com estudantes, a estratégia foi a mesma, com diferenças quantitativas e não qualitativas."
@@ -326,7 +326,7 @@ perguntas:
     enunciado: Durante o interrogatório, o paciente refere "tontura". Qual conduta é a correta antes de registrar o achado?
     alternativas:
       - "Registrar \"refere tontura\" e prosseguir para o próximo sistema"
-      - "Registrar como vertigem, que é o termo clínico correspondente"
+      - "Registrar como vertigem, que é o termo clínico correspondente, cumprindo a obrigação de traduzir a linguagem popular em linguagem científica"
       - "Ignorar, por se tratar de queixa inespecífica sem valor semiológico"
       - "Esclarecer a qual sensação o termo se refere e caracterizar o sintoma pelo mesmo esquema usado na HDA"
     corretaIndex: 3

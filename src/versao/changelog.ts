@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.0',
+    data: '2026-09-04',
+    linhas: [
+      'Anamnese e exame físico geral revisados pela literatura: 19 tópicos agora "Revisado" na home',
+      'Quiz cobra só o nível básico, sem viés de resposta longa; cores de sistema re-otimizadas para daltonismo',
+      'Duas ilustrações novas: padrões de perda sensitiva e membro ameaçado × inviável',
+    ],
+  },
+  {
     versao: '1.1.3',
     data: '2026-09-03',
     linhas: [

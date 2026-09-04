@@ -600,14 +600,14 @@ perguntas:
     corretaIndex: 1
     explicacao: "Porto separa os três tipos de claudicação pelo que alivia. Na arterial, o simples repouso alivia, e a marcha pode ser retomada até a dor voltar. Na neurológica, por compressão nervosa lombar, para aliviar é preciso sentar-se — o que flete a coluna e abre o canal. Na venosa, a dor em geral não obriga a interromper a caminhada e o maior alívio vem da elevação dos membros. O caráter da dor não separa os tipos: a dor arterial pode manifestar-se como aperto, cãibra, constrição, queimação ou fadiga. E a dor que piora deitado é a dor isquêmica de repouso, não a neurológica."
   - id: vasc-iac-2
-    enunciado: Em um homem com claudicação de panturrilha à direita, você não palpa os pulsos pedioso e tibial posterior direitos. Que razão de verossimilhança McGee atribui a esse achado para doença vascular periférica, e por quê?
+    enunciado: Que alterações a inspeção mostra no membro com insuficiência arterial crônica — e qual delas a oclusão aguda não tem tempo de produzir?
     alternativas:
-      - "1,7, porque a ausência dos pulsos do pé é achado sensível mas pouco específico"
-      - "3,6, o mesmo valor do tempo de enchimento venoso prolongado, já que ambos medem a mesma coisa"
-      - "8,8, o melhor achado da série, com especificidade de 91% a 99%"
-      - "31, o maior valor do capítulo, por indicar doença de todos os segmentos ao mesmo tempo"
+      - "Pele espessada e hiperpigmentada com edema duro, sendo a hiperpigmentação o que falta na oclusão aguda"
+      - "Veias varicosas e dermatite ocre, ausentes na oclusão aguda por dependerem de hipertensão venosa de longa data"
+      - "Pele fina e brilhante, rarefação de pelos e unhas atróficas — alterações tróficas que são obra do tempo"
+      - "Cianose fixa com pele marmórea, achado que apenas as arteriopatias crônicas de longuíssima duração produzem"
     corretaIndex: 2
-    explicacao: "No boxe EBM 54.1, a ausência dos dois pulsos do pé na perna sintomática tem sensibilidade de 63% a 73%, especificidade de 91% a 99% e razão de verossimilhança positiva de 8,8 — o melhor achado da série, e o único cuja ausência também rende (0,3). O valor 1,7 pertence à pele atrófica e à ausência de pelos, achados sem utilidade diagnóstica. O valor 3,6 é o do tempo de enchimento venoso acima de 20 segundos. O valor 31 pertence a outra pergunta: pulso femoral ausente em membro sintomático, detectando doença do segmento aortoilíaco especificamente."
+    explicacao: "Porto reúne as alterações tróficas da arteriopatia crônica: a pele afina e perde pelos, ficando delgada, brilhante e lisa; o subcutâneo diminui; as unhas tornam-se atróficas, quebradiças ou hiperqueratósicas; aparecem calosidades nos pontos de apoio, ulcerações que não cicatrizam e, no extremo, gangrena. Quase tudo isso é obra do tempo — na oclusão aguda o repertório se reduz a bolhas, edema e gangrena. A dermatite ocre e as varizes pertencem à doença venosa, e a cianose fixa com pele marmórea é achado do membro agudamente inviável, não da doença crônica."
   - id: vasc-iac-3
     enunciado: Ao elevar o membro inferior de um paciente a 90 graus por um minuto, você observa palidez plantar à direita; ao devolvê-lo à posição horizontal, a cor demora e retorna como um vermelho-arroxeado mesclado com áreas pálidas. Como interpretar?
     alternativas:

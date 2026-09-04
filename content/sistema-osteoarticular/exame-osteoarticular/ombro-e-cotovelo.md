@@ -598,14 +598,14 @@ perguntas:
     corretaIndex: 2
     explicacao: "Na Tabela 57.3 de McGee, as síndromes capsulares — capsulite adesiva, que é o ombro congelado, e artrite glenoumeral — caracterizam-se por dor no braço e amplitude passiva limitada em todas as direções, especialmente rotação externa e abdução. Nas síndromes subacromiais, que reúnem tendinite e ruptura do manguito, a amplitude passiva é normal, o arco doloroso está presente e a força do manguito é normal na tendinite e fraca na ruptura. Na dor acromioclavicular, a amplitude passiva também é normal, com dor à palpação da articulação e piora à adução do braço através do corpo."
   - id: osteo-ombro-3
-    enunciado: Em um paciente de 64 anos com dor no ombro, estão presentes o sinal de Hawkins, o arco doloroso e a fraqueza do infraespinal. Que peso essa combinação tem para ruptura do manguito rotador?
+    enunciado: Na suspeita de ruptura do manguito rotador, como se testa o supraespinal — o músculo envolvido na maioria das rupturas?
     alternativas:
-      - "Grande: com os três achados da série de Park presentes, a razão de verossimilhança é 15,9"
-      - "Pequeno: nenhum dos três achados alcança razão de verossimilhança 3,0 isoladamente, e a soma de achados fracos não produz achado forte"
-      - "Nulo, porque o arco doloroso não tem valor diagnóstico positivo para ruptura do manguito rotador"
-      - "Indeterminado, já que a série de Park foi validada apenas para tendinite do manguito, e não para ruptura"
+      - "Elevação dos braços em rotação medial, polegares para baixo, sustentada contra resistência — o teste de Jobe"
+      - "Rotação externa contra resistência com o cotovelo junto ao corpo, posição em que o supraespinal trabalha isolado dos demais músculos do manguito"
+      - "Mão nas costas, afastando-a da coluna contra resistência, movimento que recruta o supraespinal de forma exclusiva"
+      - "Abdução passiva completa em busca de dor acima de 120 graus, arco em que apenas o supraespinal participa do movimento"
     corretaIndex: 0
-    explicacao: "No boxe EBM 57.2, a série de Park combina sinal de Hawkins, arco doloroso e fraqueza do infraespinal, tendo a artroscopia como padrão: os três achados presentes rendem razão de verossimilhança 15,9; dois achados, 3,6; um achado não alcança significância; e nenhum achado rende 0,2. A série de Murrell, com sinais de impacto, fraqueza do supraespinal e fraqueza do infraespinal, chega a 48,0 com os três presentes e a 0,02 com nenhum. É verdade que o arco doloroso isolado não tem valor positivo para ruptura, e é exatamente isso que torna o salto da combinação interessante."
+    explicacao: "Semiologia Clínica descreve as manobras músculo a músculo, e McGee detalha o posicionamento do teste de Jobe: braços a 90 graus no plano da escápula, rodados internamente com os polegares apontando para baixo — como quem esvazia uma lata —, sustentados contra a tentativa do examinador de abaixá-los. O supraespinal está envolvido na maioria das rupturas; o infraespinal, o segundo mais importante, testa-se pela rotação externa contra resistência. A mão nas costas explora o subescapular, não o supraespinal."
   - id: osteo-ombro-4
     enunciado: Um homem de 42 anos, pedreiro, tem dor no cotovelo direito que piora ao segurar peso. À palpação, o ponto doloroso é o epicôndilo lateral. Que manobra confirma a hipótese e como ela é feita?
     alternativas:

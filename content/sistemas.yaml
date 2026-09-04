@@ -2,7 +2,7 @@ versao: "0.1.0"
 sistemas:
   - id: anamnese
     titulo: Anamnese
-    cor: "#8E6BC8"
+    cor: "#6A1DA5"
     icone: clipboard-list
     ordem: 1
     capitulos:
@@ -41,7 +41,7 @@ sistemas:
         ordem: 1
   - id: aparelho-respiratorio
     titulo: Aparelho respiratório
-    cor: "#3BA48D"
+    cor: "#46AF88"
     icone: wind
     ordem: 5
     capitulos:
@@ -59,7 +59,7 @@ sistemas:
         ordem: 1
   - id: sistema-vascular-periferico
     titulo: Sistema vascular periférico
-    cor: "#66A04F"
+    cor: "#60913B"
     icone: git-fork
     ordem: 7
     capitulos:
@@ -77,7 +77,7 @@ sistemas:
         ordem: 1
   - id: mamas-e-geniturinario
     titulo: Mamas e geniturinário
-    cor: "#2929D6"
+    cor: "#1717E8"
     icone: ribbon
     ordem: 9
     capitulos:
@@ -89,7 +89,7 @@ sistemas:
         ordem: 2
   - id: sistema-nervoso
     titulo: Sistema nervoso
-    cor: "#5B6ABF"
+    cor: "#3D69E1"
     icone: brain
     ordem: 10
     capitulos:
@@ -107,7 +107,7 @@ sistemas:
         ordem: 1
   - id: semiologia-da-crianca
     titulo: Semiologia da criança
-    cor: "#C1012E"
+    cor: "#26C4CF"
     icone: baby
     ordem: 12
     capitulos:

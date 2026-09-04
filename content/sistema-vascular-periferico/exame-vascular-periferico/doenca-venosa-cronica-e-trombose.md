@@ -571,14 +571,14 @@ perguntas:
     corretaIndex: 3
     explicacao: "Porto descreve a hiperpigmentação da hipertensão venosa como manchas acastanhadas, esparsas ou confluentes, no terço inferior do membro, denominadas dermatite ocre, e a atribui à hemossiderina depositada na camada basal da derme, vinda das hemácias que passaram ao interstício e ali foram fagocitadas; registra ainda que o achado indica estágio avançado. A atrofia branca são manchas brancas de bordas escuras. A coroa flebectásica é o conjunto de vasos visíveis no tornozelo, com quatro componentes. E a lipodermatoesclerose cursa com diminuição, não aumento, da espessura da perna — o aspecto de gargalo de garrafa."
   - id: vasc-dvc-4
-    enunciado: Por que Semiologia Clínica conclui que as manobras de Brodie-Trendelenburg e de Perthes são inviáveis para planejar o cuidado, apesar de sensibilidades de 0,91 e 0,97?
+    enunciado: Uma paciente com acesso venoso recente no antebraço tem dor local, calor e um cordão endurecido e avermelhado seguindo o trajeto de uma veia. O que é isso — e o que o achado diz sobre o sistema venoso profundo?
     alternativas:
-      - "Porque exigem torniquete, cuja pressão não é padronizável entre examinadores"
-      - "Porque a especificidade é muito baixa — 0,15 e 0,20 — e os testes acusam refluxo onde não há, praticamente nunca conseguindo ser negativos"
-      - "Porque foram estudados apenas em pacientes com varizes secundárias e com cirurgia venosa prévia, população em que qualquer teste de refluxo perde valor por causa da distorção anatômica"
-      - "Porque a sensibilidade alta só se aplica ao sistema profundo, e as varizes são doença do sistema superficial"
+      - "Trombose venosa profunda do membro superior, que o cordão palpável confirma sem necessidade de exame de imagem"
+      - "Tromboflebite superficial — visível e palpável porque a veia é superficial; sobre o sistema profundo, nada informa"
+      - "Linfangite, já que o eritema em trajeto linear é exclusivo dos vasos linfáticos e afasta doença venosa"
+      - "Erisipela em fase inicial, cuja placa endurecida costuma se organizar em cordões seguindo as veias superficiais do antebraço"
     corretaIndex: 1
-    explicacao: "No estudo reproduzido por Semiologia Clínica, com 70 membros de 44 pacientes com varizes primárias não tratadas comparados ao duplex scan, Brodie-Trendelenburg teve sensibilidade 0,91 e especificidade 0,15, e Perthes, sensibilidade 0,97 e especificidade 0,20. Sensibilidade alta com especificidade quase nula significa teste que quase nunca deixa passar e quase sempre acusa a mais. A percussão venosa é o espelho invertido, com sensibilidade 0,18 e especificidade 0,92 — o único dos quatro que serve para confirmar. Pacientes com varizes secundárias foram justamente excluídos do estudo. Porto registra, no exame clínico das veias, que essas manobras caíram em desuso com o ecodoppler."
+    explicacao: "Porto descreve o conjunto da flebite: dor sobretudo ao toque, endurecimento em volta, calor local e eritema acompanhando o trajeto da veia comprometida; Semiologia Clínica acrescenta o contexto que mais frequentemente a produz — manipulação venosa, como um acesso. A tromboflebite superficial é visível e palpável exatamente porque a veia é superficial, e por isso mesmo não informa sobre o sistema profundo, que corre longe da mão. Trombose venosa profunda não se confirma pela palpação de cordão; a suspeita pede confirmação por imagem."
   - id: vasc-dvc-5
     enunciado: Um paciente internado há cinco dias apresenta perna esquerda mais fria que a direita, dolorosa e com aumento de volume, com início há poucas horas. Como a temperatura entra na interpretação?
     alternativas:

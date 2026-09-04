@@ -285,6 +285,72 @@ linhas:
     - "Tálamo ou hemisfério cerebral contralateral"
 :::
 
+::: ilustracao
+legenda: "Os três desenhos de lateralidade que se reconhecem de longe: perda bilateral e distal (bota e luva, polineuropatia), fronteira nítida no tronco (nível sensitivo, medula) e metade do corpo com a face (hemi-hipoestesia, tálamo ou hemisfério contralateral). A área hachurada ou tracejada é a hipoestesia."
+svg: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g font-family="sans-serif" font-size="9.5" fill="currentColor" stroke="none">
+      <text x="10" y="14">Três padrões de perda sensitiva (hachura = hipoestesia)</text>
+    </g>
+    <!-- figura 1: bota e luva (cx 58) -->
+    <g stroke-width="1.5">
+      <circle cx="58" cy="40" r="9" />
+      <path d="M 44 53 L 72 53 L 69 103 L 47 103 Z" />
+      <path d="M 44 56 L 34 98" /><path d="M 72 56 L 82 98" />
+      <circle cx="32" cy="104" r="3.5" /><circle cx="84" cy="104" r="3.5" />
+      <path d="M 52 103 L 49 158" /><path d="M 64 103 L 67 158" />
+      <path d="M 49 158 L 43 161" /><path d="M 67 158 L 73 161" />
+    </g>
+    <circle cx="32" cy="104" r="8" stroke-dasharray="4 3" stroke-width="1.5" />
+    <circle cx="84" cy="104" r="8" stroke-dasharray="4 3" stroke-width="1.5" />
+    <rect x="40" y="128" width="17" height="38" rx="7" stroke-dasharray="4 3" stroke-width="1.5" />
+    <rect x="59" y="128" width="17" height="38" rx="7" stroke-dasharray="4 3" stroke-width="1.5" />
+    <!-- figura 2: nível sensitivo (cx 160) -->
+    <g stroke-width="1.5">
+      <circle cx="160" cy="40" r="9" />
+      <path d="M 146 53 L 174 53 L 171 103 L 149 103 Z" />
+      <path d="M 146 56 L 136 98" /><path d="M 174 56 L 184 98" />
+      <circle cx="134" cy="104" r="3.5" /><circle cx="186" cy="104" r="3.5" />
+      <path d="M 154 103 L 151 158" /><path d="M 166 103 L 169 158" />
+      <path d="M 151 158 L 145 161" /><path d="M 169 158 L 175 161" />
+    </g>
+    <path d="M 138 80 L 182 80" stroke-dasharray="5 3" stroke-width="1.5" />
+    <g stroke-width="1">
+      <path d="M 150 86 l 7 7" /><path d="M 159 85 l 7 7" /><path d="M 167 86 l 6 6" />
+      <path d="M 152 96 l 6 6" /><path d="M 162 95 l 6 6" />
+      <path d="M 152 122 l 5 5" /><path d="M 165 122 l 5 5" />
+      <path d="M 150 142 l 5 5" /><path d="M 166 142 l 5 5" />
+    </g>
+    <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
+      <text x="186" y="77">nível</text>
+    </g>
+    <!-- figura 3: hemi-hipoestesia (cx 262) -->
+    <g stroke-width="1.5">
+      <circle cx="262" cy="40" r="9" />
+      <path d="M 248 53 L 276 53 L 273 103 L 251 103 Z" />
+      <path d="M 248 56 L 238 98" /><path d="M 276 56 L 286 98" />
+      <circle cx="236" cy="104" r="3.5" /><circle cx="288" cy="104" r="3.5" />
+      <path d="M 256 103 L 253 158" /><path d="M 268 103 L 271 158" />
+      <path d="M 253 158 L 247 161" /><path d="M 271 158 L 277 161" />
+    </g>
+    <path d="M 262 30 L 262 103" stroke-dasharray="5 3" stroke-width="1" />
+    <g stroke-width="1">
+      <path d="M 252 37 l 5 5" /><path d="M 250 60 l 6 6" /><path d="M 250 74 l 6 6" />
+      <path d="M 251 89 l 6 6" /><path d="M 243 70 l 4 4" /><path d="M 240 84 l 4 4" />
+      <path d="M 252 120 l 5 5" /><path d="M 250 140 l 5 5" />
+    </g>
+    <!-- legendas -->
+    <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none" text-anchor="middle">
+      <text x="58" y="180">bota e luva</text>
+      <text x="58" y="191">polineuropatia</text>
+      <text x="160" y="180">nível sensitivo</text>
+      <text x="160" y="191">medula espinal</text>
+      <text x="262" y="180">hemi-hipoestesia</text>
+      <text x="262" y="191">tálamo ou hemisfério</text>
+    </g>
+  </svg>
+:::
+
 ::: conceito
 titulo: Lendo a tabela — três detalhes que decidem
 texto: |
@@ -584,12 +650,12 @@ perguntas:
     corretaIndex: 2
     explicacao: "Na série de 444 pacientes com lesões focais confinadas a um hemisfério cerebelar reunida por McGee, os sinais de ataxia de membro — dismetria, tremor de intenção e disdiadococinesia — foram unilaterais em 85% das vezes e, quando unilaterais, ficaram do mesmo lado da lesão em 80% a 90%. O nistagmo localiza pior: quando presente, é unilateral em apenas 65% dos pacientes, e nesses a direção aponta para o lado da lesão em apenas 70% das vezes. A disartria é o menos frequente dos quatro sinais cardinais, em 10% a 25%. A hipotonia ocorre em 76% e os reflexos patelares pendulares em 37%, e a hipotonia é maior do lado da lesão, não do lado oposto."
   - id: neu-sen-6
-    enunciado: Um paciente com diabetes de longa data não se queixa de dormência, percebe o algodão e a picada do estilete nos pés, mas não sente o monofilamento 5,07 em nenhum sítio testado. Como ler esse conjunto?
+    enunciado: Um homem com diabetes de longa data tem hipoestesia simétrica nos dois pés, subindo até o terço inferior das pernas, com a face e o tronco poupados e formigamento começando nas pontas dos dedos das mãos. Que padrão é esse e o que ele indica?
     alternativas:
-      - "O resultado é coerente e útil: metade dos que ulceram não tem queixas e ainda sente algodão e estilete, e a insensibilidade ao 5,07 rende 2,6 para ulceração futura"
-      - "O resultado é contraditório e indica erro de técnica, porque o monofilamento é um estímulo mais intenso que a picada do estilete"
-      - "A insensibilidade ao 5,07 confirma neuropatia periférica estabelecida, com razão de verossimilhança acima de 10 para esse diagnóstico"
-      - "O achado não tem valor prognóstico: entre as medidas quantitativas de sensibilidade, apenas a vibratória ao diapasão de 128 Hz demonstrou prever complicações do pé diabético"
-    corretaIndex: 0
-    explicacao: "McGee registra que o exame convencional falha nesses pacientes: aproximadamente metade dos que desenvolvem ulceração diabética não se queixa de dormência ou dor e ainda consegue perceber o toque do algodão ou a picada do estilete — motivo pelo qual se recorre a um estímulo calibrado. A incapacidade de sentir o filamento 5,07 é um preditor modesto de ulceração em 2 a 4 anos, com razão de verossimilhança 2,6; o achado que mais rende é o negativo, já que a presença dessa sensibilidade reduz a probabilidade de amputação em 3 a 4 anos, com razão de verossimilhança 0,3. E a sensação ao monofilamento prevê complicações melhor que o diapasão de 128 Hz e que estímulos vibratórios ou térmicos graduados."
+      - "Nível sensitivo, que aponta doença da medula espinal e pede pesquisa de fraqueza e de retenção urinária associadas"
+      - "Hemi-hipoestesia em instalação, típica de doença do tálamo contralateral, que a face acabará confirmando"
+      - "Dissociação sensitiva, própria das síndromes medulares incompletas, como a siringomielia e o infarto medular"
+      - "Padrão em bota e luva, de polineuropatia: os nervos mais longos sofrem primeiro"
+    corretaIndex: 3
+    explicacao: "A polineuropatia acomete igualmente todos os nervos do mesmo comprimento, e os mais longos falham primeiro: a hipoestesia começa nos pés, aparece depois nas pontas dos dedos das mãos e só alcança o tronco anterior após comprometimento extenso. O desenho resultante lembra uma bota e uma luva, é simétrico e poupa a face — três traços que o distinguem do nível sensitivo (fronteira nítida no tronco, doença medular), da hemi-hipoestesia (todo um lado do corpo com a face, tálamo ou hemisfério contralateral) e da dissociação sensitiva (perda de dor e temperatura com tato e vibração poupados, síndromes medulares incompletas)."
 :::

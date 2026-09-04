@@ -70,7 +70,7 @@ referencias:
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 12 (Protein-Energy Malnutrition and Weight Loss), p. 81-83 — circunferência muscular do braço, força de preensão palmar e peso baixo como preditores de complicações pós-operatórias (boxe EBM 12.1); emagrecimento involuntário e proporção de causas orgânicas"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 5 (Reliability of Physical Findings), p. 29, Tabela 5.1 — concordância entre observadores para impressão de desidratação, secura axilar e estado nutricional anormal"
   - "Semiologia Clínica, 1ª ed., cap. 21 (Padronização do exame clínico) — exame geral quantitativo e qualitativo na sequência do exame clínico"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
@@ -495,7 +495,7 @@ perguntas:
   - id: antrop-1
     enunciado: Um homem de 45 anos tem IMC de 27,4 kg/m² e circunferência da cintura de 106 cm. Como se classificam essas duas medidas?
     alternativas:
-      - "Obesidade grau I e risco cardiovascular aumentado"
+      - "Obesidade grau I pelo critério do IMC e risco cardiovascular muito aumentado pela circunferência da cintura"
       - "Eutrofia e risco cardiovascular aumentado"
       - "Sobrepeso (pré-obesidade) e risco cardiovascular muito aumentado"
       - "Sobrepeso e circunferência dentro da faixa de referência"
@@ -504,7 +504,7 @@ perguntas:
   - id: antrop-2
     enunciado: Em uma idosa de 78 anos internada por vômitos há dois dias, quais achados aumentam mais a probabilidade de hipovolemia, segundo os dados reunidos por McGee?
     alternativas:
-      - "Enchimento capilar lentificado e confusão mental"
+      - "Enchimento capilar lentificado no leito ungueal e confusão mental de início recente"
       - "Sulcos longitudinais na língua e fraqueza"
       - "Fala arrastada e pele fria"
       - "Olhos encovados e turgor cutâneo anormal pesquisado na região subclavicular"
@@ -513,7 +513,7 @@ perguntas:
   - id: antrop-3
     enunciado: Por que a avaliação da hidratação pela pele é menos confiável no paciente idoso?
     alternativas:
-      - "Porque o envelhecimento reduz turgor, elasticidade e espessura da pele e resseca mucosas e conjuntivas, imitando desidratação; além disso, a elastina se deteriora com a idade e reduz a especificidade do sinal"
+      - "Porque a pele senil perde turgor, elasticidade e espessura e as mucosas ressecam, imitando desidratação"
       - "Porque o idoso tem menos tecido subcutâneo, o que impede pinçar a prega"
       - "Porque no idoso o turgor deve ser pesquisado no antebraço, região em que o envelhecimento não interfere no recolhimento da pele"
       - "Porque a desidratação no idoso é sempre hipotônica e não altera a pele"
@@ -532,17 +532,17 @@ perguntas:
     enunciado: Qual é a diferença prática entre circunferência da cintura e circunferência abdominal?
     alternativas:
       - "As duas têm pontos de corte próprios, mas os da circunferência abdominal são mais altos"
-      - "A cintura é aferida a meio caminho entre a última costela e a crista ilíaca e tem pontos de corte; a circunferência abdominal é o maior diâmetro do abdome, não tem ponto de corte e serve para acompanhar o mesmo paciente"
-      - "A circunferência abdominal é a medida validada para diagnosticar obesidade abdominal; a cintura é apenas estética"
+      - "A cintura, aferida a meio caminho entre a última costela e a crista ilíaca, tem pontos de corte; a abdominal é o maior diâmetro do abdome e serve para acompanhamento"
+      - "A circunferência abdominal é a medida validada para diagnosticar obesidade abdominal, com pontos de corte de 94 e 102 cm em homens; a cintura serve apenas para avaliação estética"
       - "A cintura só pode ser aferida com o paciente deitado; a abdominal, apenas de pé"
     corretaIndex: 1
     explicacao: "Os termos são usados como equivalentes na prática, mas apenas a circunferência da cintura, aferida a meio caminho entre a última costela e a crista ilíaca, tem pontos de corte de classificação. A circunferência abdominal — o maior diâmetro do abdome — não tem ponto de corte e não diagnostica obesidade abdominal; sua indicação é acompanhar a evolução em pacientes nos quais a localização dos reparos ósseos é impraticável."
   - id: antrop-6
     enunciado: Sobre o valor prognóstico da perda de peso recente em pacientes submetidos a cirurgia de grande porte, o que os estudos reunidos por McGee mostraram?
     alternativas:
-      - "A perda de peso recente foi o preditor mais forte de complicações, com razão de verossimilhança acima de 8"
+      - "A perda de peso recente foi o preditor mais forte de complicações, superando a força de preensão palmar, com razão de verossimilhança acima de 8"
       - "A perda de peso recente reduziu fortemente a probabilidade de complicações"
-      - "A perda de peso recente teve pouco valor preditivo, possivelmente por reunir tanto quem emagreceu por desnutrição quanto quem emagreceu voluntariamente antes da cirurgia"
+      - "A perda de peso recente teve pouco valor preditivo, talvez por misturar emagrecimento por desnutrição e emagrecimento voluntário"
       - "A perda de peso recente só tem valor quando associada a IMC acima de 30 kg/m²"
     corretaIndex: 2
     explicacao: "Circunferência muscular do braço ou do antebraço reduzida (razão de verossimilhança 2,5 a 3,2), força de preensão palmar reduzida (2,5) e peso corporal baixo (2,0) aumentam modestamente a probabilidade de complicações; a força de preensão normal a reduz (0,4). A perda de peso recente, porém, teve pouco valor — a explicação proposta é que o achado mistura pacientes desnutridos, de maior risco, com pacientes com excesso de peso que emagreceram voluntariamente antes da cirurgia."

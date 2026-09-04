@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog` — edite lá.
 
+## 1.2.0 — 2026-09-04
+
+- Anamnese e exame físico geral revisados pela literatura: 19 tópicos agora "Revisado" na home
+- Quiz cobra só o nível básico, sem viés de resposta longa; cores de sistema re-otimizadas para daltonismo
+- Duas ilustrações novas: padrões de perda sensitiva e membro ameaçado × inviável
+
 ## 1.1.3 — 2026-09-03
 
 - Hierarquia editorial completa: McGee primeiro, Semiologia Clínica como desempate

@@ -24,12 +24,12 @@ tags:
   - pseudo-hipertensão
 referencias:
   - "Diretriz Brasileira de Hipertensão Arterial — 2025 (SBC/SBH/SBN), Quadros 3.2 e 3.4"
-  - "Porto — Semiologia Médica, 8ª ed., cap. 47 (Exame clínico do sistema cardiovascular), p. 574-584"
-  - "Porto — Exame Clínico, 8ª ed., cap. 21 (Sinais vitais), p. 949-956"
+  - "Porto — Semiologia Médica, 8ª ed., cap. 47 (Exame clínico do sistema cardiovascular) — seção de pressão arterial"
+  - "Porto — Exame Clínico, 8ª ed., cap. 21 (Sinais vitais) — seção de pressão arterial"
   - "Porto — Exame Clínico, 8ª ed., cap. 14 (Exame da pressão arterial)"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 17 (Blood Pressure)"
   - "Semiologia Clínica, 1ª ed., cap. Semiologia cardiovascular (etapas de aferição da 7ª Diretriz Brasileira de Hipertensão Arterial)"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
@@ -312,11 +312,11 @@ perguntas:
   - id: pa-1
     enunciado: Em que velocidade o manguito deve ser desinsuflado durante a medida auscultatória da PA?
     alternativas:
-      - "2 a 3 mmHg por segundo"
       - "10 mmHg por segundo"
       - "20 a 30 mmHg por segundo"
       - "O mais rápido possível, para poupar tempo do paciente"
-    corretaIndex: 0
+      - "2 a 3 mmHg por segundo"
+    corretaIndex: 3
     explicacao: A deflação deve ser lenta e contínua, de 2 a 3 mmHg por segundo. Deflação rápida faz perder a fase I e superestimar ou subestimar os valores.
   - id: pa-2
     enunciado: Usar um manguito estreito demais para a circunferência do braço produz qual efeito sobre a leitura da PA?
@@ -331,7 +331,7 @@ perguntas:
     enunciado: Qual conduta evita o erro causado pelo hiato auscultatório?
     alternativas:
       - "Estimar a sistólica pelo método palpatório antes de auscultar"
-      - "Insuflar o manguito até 300 mmHg em todos os pacientes"
+      - "Insuflar o manguito até 300 mmHg em todos os pacientes, garantindo ultrapassar qualquer hiato logo na primeira tentativa"
       - "Usar sempre a fase IV de Korotkoff como diastólica"
       - "Medir a PA apenas no braço esquerdo"
     corretaIndex: 0
@@ -349,8 +349,8 @@ perguntas:
     enunciado: Durante a medida da PA, os sons de Korotkoff persistem até o manguito esvaziar por completo. Como registrar o resultado?
     alternativas:
       - "Considerar a diastólica igual a zero"
-      - "Repetir a medida no outro braço e ignorar o achado"
-      - "Usar a fase IV (abafamento) como diastólica e anotar os três valores, por exemplo 150 × 70 × 0 mmHg"
+      - "Repetir a medida no outro braço e ignorar o achado, que decorre apenas de mau posicionamento do estetoscópio"
+      - "Usar a fase IV (abafamento) como diastólica e anotar os três valores"
       - "Usar a fase III como diastólica"
     corretaIndex: 2
     explicacao: Quando os sons não desaparecem, adota-se a fase IV de Korotkoff como diastólica e registram-se os três números, deixando explícito o que foi observado. Isso é frequente em gestantes e em estados hipercinéticos.

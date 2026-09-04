@@ -526,7 +526,7 @@ texto: |
   - **A língua e a marca dos dentes na macroglossia** reaparecem no tópico de tireoide e pescoço, entre os achados do hipotireoidismo.
   - **A rouquidão persistente e a disfagia** como sinais de alarme de massa cervical estão no tópico de tireoide e pescoço.
   - **O desvio da língua na protrusão, a interpretação dos pares cranianos e o exame vestibular** ficam para o capítulo do sistema nervoso.
-  - **Otoscopia, rinoscopia anterior e posterior e laringoscopia** são nomeadas aqui e ensinadas em capítulo próprio, fora desta fase do guia.
+  - **Otoscopia, rinoscopia anterior e posterior e laringoscopia** são nomeadas aqui; por serem exame instrumental, ficam fora do escopo do guia, que se limita ao exame à beira do leito.
 :::
 
 ::: secao

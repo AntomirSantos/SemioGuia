@@ -419,7 +419,7 @@ perguntas:
       - "Nenhum: a percussão dos flancos não foi estudada nesse contexto"
       - "Eleva a probabilidade de ascite, pois na ascite o gás intestinal migra para os flancos e o líquido livre se acumula no centro"
       - "Confirma ascite septada, em que o líquido não se desloca"
-      - "Reduz a probabilidade de ascite: a ausência de macicez de flancos é dos melhores achados negativos (0,3)"
+      - "Reduz a probabilidade de ascite: o líquido livre acumula-se justamente nos flancos, que deveriam soar maciços"
     corretaIndex: 3
     explicacao: "A macicez de flancos, quando presente, tem razão de verossimilhança não significativa — não ajuda a confirmar. Sua ausência, porém, reduz a probabilidade de ascite (0,3) e é um dos melhores achados negativos, ao lado da ausência de edema (0,2). Para confirmar, os achados de maior peso são o piparote positivo (5,0) e a presença de edema (3,8)."
   - id: perc-abd-3
@@ -450,12 +450,12 @@ perguntas:
     corretaIndex: 1
     explicacao: "A estimativa percutida correlaciona-se apenas modestamente com o tamanho real (coeficientes de 0,6 a 0,7), e essa correlação é melhor — não pior — em fígados doentes. O examinador coloca o limite superior baixo demais e a borda inferior alta demais; golpes mais fortes reduzem a hepatimetria obtida. A percussão continua indispensável para situar o órgão antes da palpação e para reconhecer o fígado pequeno da cirrose, mas não funciona como régua."
   - id: perc-abd-6
-    enunciado: Como se comparam os sinais percutórios do baço com a palpação para a detecção de esplenomegalia?
+    enunciado: À percussão da base do hemitórax esquerdo, você encontra macicez onde deveria haver o timpanismo do espaço de Traube. Como se chama esse achado e o que ele sugere em primeiro lugar?
     alternativas:
-      - "Os sinais percutórios superam a palpação, com razões de verossimilhança acima de 8"
-      - "São equivalentes, e a escolha depende apenas da preferência do examinador"
-      - "São claramente inferiores à palpação: razões de verossimilhança de 1,7 a 2,1, contra 8,5 do baço palpável"
-      - "Não têm valor algum, e por isso a percussão do hipocôndrio esquerdo foi abandonada"
+      - "Traube livre, expressão de enfermaria que descreve a substituição do som timpânico pelo maciço"
+      - "Sinal do piparote, que confirma a presença de líquido livre na cavidade peritoneal"
+      - "Traube ocupado — e o primeiro ocupante a considerar é o baço que cresce"
+      - "Ressonância skódica, a hipersonoridade que aparece na vizinhança dos derrames pleurais volumosos"
     corretaIndex: 2
-    explicacao: "O sinal da percussão esplênica de Castell (1,7), o método de Nixon (2,0) e a macicez do espaço de Traube (2,1) sugerem aumento do baço, mas ficam bem abaixo da palpação, cujo achado positivo tem razão de verossimilhança 8,5. Ainda assim a percussão não é dispensável: todo baço aumentado é percutível, mas nem todo baço aumentado é palpável (Porto), e a macicez do Traube perde acurácia em pessoas com sobrepeso ou que acabaram de comer."
+    explicacao: "'Traube livre' é o timpanismo esperado sobre o fundo do estômago — zona semilunar de cerca de 12 × 9 cm, projetada da 6ª à 9ª ou 10ª costela (Semiologia Clínica). 'Traube ocupado' é a macicez ou a submacicez ali onde deveria haver timpanismo, e o primeiro ocupante a considerar é o baço, que se expande nessa direção; derrames pleurais à esquerda e grandes massas também ocupam o espaço. O achado sugere, não decide: a palpação vem confirmar."
 :::

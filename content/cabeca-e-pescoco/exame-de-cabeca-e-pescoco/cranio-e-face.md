@@ -176,11 +176,11 @@ texto: |
 
   A perda de simetria em repouso tem três origens frequentes:
 
-  - **Tumefações ou depressões unilaterais** — abscesso dentário, tumores, anomalias congênitas (Porto).
+  - **Abaulamentos ou afundamentos de um lado só** — um abscesso de origem dentária, um tumor, uma anomalia congênita (Porto).
   - **Aumento das glândulas salivares maiores.** A parótida crescida abaúla a região lateral alta e chega a invadir a parte lateral do rosto; o crescimento pode ser inflamatório, como na caxumba, ou hipertrófico, como se observa em pacientes com megaesôfago (Porto). Semiologia Clínica registra a mesma proeminência sobre o ramo da mandíbula e acrescenta o etilismo entre as causas.
   - **Paralisia facial**, que é o assunto do bloco seguinte.
 
-  Duas observações de Semiologia Clínica fecham a inspeção estática. A primeira: **edema da face tem endereços próprios** — abscessos dentários, sinusites complicadas, edemas alérgicos, hematomas —, e o edema palpebral e periorbitário tem semiotécnica e graduação no capítulo do coração, no tópico de pulso venoso jugular e turgência. A segunda: diante de qualquer paralisia facial, **examine a parótida**, pela relação estreita entre a glândula e o nervo facial, que pode ser comprimido nas lesões dela.
+  Duas observações de Semiologia Clínica fecham a inspeção estática. A primeira: **edema da face tem endereços próprios** — abscessos dentários, sinusites complicadas, edemas alérgicos, hematomas —, e o edema palpebral e periorbitário tem semiotécnica e graduação no capítulo do coração, no tópico de pulso venoso jugular e turgência. A segunda: diante de qualquer paralisia facial, **examine a parótida**, pela relação estreita entre a glândula e o nervo facial — lesões da parótida podem comprimi-lo no trajeto.
 :::
 
 ::: conceito
@@ -188,11 +188,11 @@ titulo: Mímica, e a assimetria que só aparece em movimento
 texto: |
   A face em repouso pode enganar. É o movimento que revela o déficit, e por isso a inspeção estática se completa com manobras.
 
-  Porto pede uma bateria de movimentos: enrugar a testa e franzir os supercílios, fechar as pálpebras com força, mostrar os dentes, abrir bem a boca, assobiar, inflar as bochechas e contrair o platisma. Semiologia Clínica pede o mesmo conjunto em outra ordem — sorrir, protruir os lábios, fechar os olhos com força, franzir a testa. O objetivo, nos dois casos, não é testar músculo por músculo: é procurar assimetria de movimento.
+  Porto pede uma bateria de movimentos: enrugar a testa e franzir os supercílios, fechar as pálpebras com força, mostrar os dentes, abrir bem a boca, assobiar, inflar as bochechas e contrair o platisma. Semiologia Clínica pede o mesmo conjunto em outra ordem — sorrir, projetar os lábios para a frente, cerrar as pálpebras e enrugar a testa. O objetivo, nos dois casos, não é testar músculo por músculo: é procurar assimetria de movimento.
 
   Ao movimentar o lado são, a assimetria se acentua (Porto). Esse é o ponto prático: peça o movimento máximo, não o movimento educado.
 
-  Na paralisia unilateral do nervo facial, o conjunto é característico (Porto): **lagoftalmia** — o olho não fecha —, ausência do piscar, lacrimejamento, desvio da boca para o lado normal, sobretudo ao mostrar os dentes ou abrir amplamente a boca, e incapacidade de assobiar, de manter a boca inflada e de contrair o platisma. Quando o paciente tenta fechar os olhos, o globo gira para cima e deixa a esclerótica à mostra: é o **sinal de Bell** (Porto, *Semiologia Médica*).
+  Na paralisia unilateral do nervo facial, o conjunto é característico (Porto): **lagoftalmia** — o olho não fecha —, ausência do piscar, lacrimejamento, e a boca que se desvia para o lado são — desvio mais evidente quando o paciente mostra os dentes ou abre amplamente a boca —, e incapacidade de assobiar, de manter a boca inflada e de contrair o platisma. Quando o paciente tenta fechar os olhos, o globo gira para cima e deixa a esclerótica à mostra: é o **sinal de Bell** (Porto, *Semiologia Médica*).
 
   Uma nota de vocabulário, porque as duas edições de Porto usam o mesmo epônimo com amplitudes diferentes. **Porto (*Semiologia Médica*)** reserva o nome para a **rotação do globo para cima com exposição da esclerótica** — é essa a definição que este tópico ensina. **Porto (*Exame Clínico*)** usa o termo de forma mais frouxa, aplicando-o ao próprio **não fechamento das pálpebras por paralisia do orbicular**, isto é, ao lagoftalmo. Ao registrar em prontuário, descreva o que viu em vez de confiar só no epônimo.
 
@@ -297,7 +297,7 @@ texto: |
 
   E há o cuidado interpretativo, que é o mais importante: **dor na topografia dos seios da face não é sinônimo de sinusite**. Semiologia Clínica é explícita: o diagnóstico de sinusite exige que haja também tosse, expectoração ou gotejamento pós-nasal, e a febre ou uma infecção de vias aéreas precedendo o quadro reforçam a hipótese; o diagnóstico é clínico, sem depender de exames complementares, com a ressalva do seio esfenoidal, cujo quadro é menos claro. Cefaleias primárias localizadas na face, essas não costumam piorar com a manobra.
 
-  A **transiluminação** dos seios completa o repertório clássico: em ambiente escuro, uma fonte de luz forte e estreita apoiada sob a sobrancelha ilumina o seio frontal do mesmo lado; a mesma ideia, aplicada sob a parte interna do olho, procura a luz no palato duro através da boca entreaberta. Semiologia Clínica registra o veredito sem rodeios: a manobra é **pouco sensível e pouco específica**, e a ausência de iluminação pode significar apenas mucosa espessada, secreção acumulada ou um seio que nunca se desenvolveu.
+  A **transiluminação** dos seios completa o repertório clássico: em ambiente escuro, uma fonte de luz forte e estreita apoiada sob a sobrancelha ilumina o seio frontal do mesmo lado; a mesma ideia, aplicada sob a parte interna do olho, busca o palato duro iluminado por dentro, com a boca entreaberta. Semiologia Clínica registra o veredito sem rodeios: a manobra é **pouco sensível e pouco específica**, e a ausência de iluminação pode significar apenas mucosa espessada, secreção acumulada ou um seio que nunca se desenvolveu.
 :::
 
 ::: conceito
@@ -310,11 +310,11 @@ texto: |
   A palpação tem dois endereços, e cada um interroga uma estrutura diferente:
 
   - **Palpação lateral**, digital ou bidigital, **cerca de 1 cm à frente do trago**. A dor aqui sugere capsulite e tendinite.
-  - **Palpação posterior**, com a **polpa do dedo mínimo posicionada na entrada do conduto auditivo**. A dor aqui é compatível com retrodiscite.
+  - **Palpação posterior** — o dedo mínimo entra na abertura do conduto auditivo **com a polpa voltada para a frente**. A dor aqui é compatível com retrodiscite.
 
   As duas devem ser feitas **com a boca fechada e com a boca aberta** (Porto). Durante o movimento da mandíbula, a mão percebe assimetrias do deslocamento da cabeça mandibular, **estalidos** e **crepitações**, que podem traduzir alteração dentro da articulação.
 
-  Junto com a articulação examinam-se os **músculos da mastigação** — masseter, temporal, pterigóideos medial e lateral, digástrico. A palpação ganha importância quando há queixa de dor ou desconforto na região, exatamente para separar a dor muscular da dor que nasce em outras estruturas da mesma topografia. Para masseter, pterigóideo medial e temporal, Porto recomenda palpação **bidigital**, em pontos diferentes da origem, da extensão e da inserção de cada músculo.
+  Junto com a articulação examinam-se os **músculos da mastigação** — masseter, temporal, pterigóideos medial e lateral, digástrico. A palpação ganha importância diante da queixa de dor ou de desconforto local, exatamente para separar a dor muscular da dor que nasce em outras estruturas da mesma topografia. Para masseter, pterigóideo medial e temporal, Porto recomenda palpação **bidigital**, em pontos diferentes da origem, da extensão e da inserção de cada músculo.
 
   O oposto do movimento normal tem nome: **trismo** é a limitação da abertura bucal, dificuldade ou impossibilidade — temporária ou permanente — de abrir a boca, e pode ter causa articular ou fora da articulação (Porto).
 :::
@@ -357,7 +357,7 @@ texto: |
   **Extraoral**
 
   - **Dor de origem muscular** — palpação do temporal, do pterigóideo medial, do pterigóideo lateral e do supra-hióideo.
-  - **Dor de origem articular** — movimentos mandibulares, palpação da cápsula articular e palpação das estruturas retroarticulares.
+  - **Dor de origem articular** — mobilização da mandíbula, palpação da cápsula e das estruturas atrás do disco.
   - **Dor de origem glandular** — inspeção de tumefação das glândulas salivares menores e ordenha da parótida.
   - **Dor com origem nos seios maxilares** — que, no roteiro, remete a exames de imagem.
   - **Dor de origem neuropática** — testes de estímulo e testes anestésicos.

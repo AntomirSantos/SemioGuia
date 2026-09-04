@@ -153,7 +153,7 @@ texto: |
 
   - **Mediolíneos**: linha hemiclavicular esquerda, no 5º espaço intercostal.
   - **Brevilíneos**: cerca de 2 cm para fora e para cima, no 4º espaço.
-  - **Longilíneos**: 6º espaço, 1 a 2 cm para dentro da linha hemiclavicular.
+  - **Longilíneos**: 5º espaço, 1 a 2 cm para dentro da linha hemiclavicular (o guia adota o Exame Clínico; a Semiologia Médica os situa no 6º espaço).
 
   Em muita gente saudável o ictus simplesmente não é encontrado. Enfisema pulmonar, obesidade, musculatura peitoral desenvolvida e mamas volumosas o tornam invisível e impalpável. Em decúbito dorsal, o choque da ponta é palpável em cerca de 25 a 40% dos adultos; em decúbito lateral esquerdo, em 50 a 73%. Não achar o ictus, isoladamente, não é sinal de doença.
 :::
@@ -306,11 +306,11 @@ perguntas:
   - id: precordio-1
     enunciado: Em um adulto mediolíneo, onde se espera encontrar o ictus cordis e qual extensão é considerada normal?
     alternativas:
-      - "No 5º espaço intercostal esquerdo, na linha hemiclavicular, recoberto por uma ou duas polpas digitais"
       - "No 3º espaço intercostal esquerdo, junto ao esterno, recoberto por três polpas digitais"
       - "No 5º espaço intercostal direito, na linha hemiclavicular, recoberto por toda a palma da mão"
-      - "Na base do apêndice xifoide, recoberto por quatro polpas digitais"
-    corretaIndex: 0
+      - "Na base do apêndice xifoide, logo abaixo do rebordo costal esquerdo, recoberto por quatro polpas digitais"
+      - "No 5º espaço intercostal esquerdo, na linha hemiclavicular, sob uma ou duas polpas digitais"
+    corretaIndex: 3
     explicacao: "No mediolíneo o choque da ponta cruza a linha hemiclavicular esquerda no 5º espaço intercostal e é recoberto por uma ou duas polpas digitais, cerca de 2 a 3 cm. Três polpas ou mais sugerem hipertrofia; nas grandes dilatações o ictus chega a ocupar toda a palma."
   - id: precordio-2
     enunciado: Você palpa o precórdio e sente um movimento sistólico amplo próximo à borda esternal esquerda baixa, com retração na ponta e pulsação epigástrica. O ictus está na posição habitual. Qual é a interpretação mais provável?
@@ -324,16 +324,16 @@ perguntas:
   - id: precordio-3
     enunciado: Por que a caracterização da impulsão apical (normal, hipercinética ou sustentada) deve ser feita com o paciente em decúbito dorsal?
     alternativas:
-      - "Porque o decúbito lateral esquerdo distorce o movimento sistólico e faz até metade das pessoas saudáveis parecer ter movimento sustentado"
-      - "Porque em decúbito lateral esquerdo o ictus se torna impalpável na maioria dos adultos"
+      - "Porque em decúbito lateral esquerdo o ictus se afasta da parede torácica e se torna impalpável na maioria dos adultos saudáveis"
       - "Porque só em decúbito dorsal é possível medir o diâmetro do ictus"
       - "Porque o decúbito lateral esquerdo desloca o ictus para dentro da linha hemiclavicular"
-    corretaIndex: 0
+      - "Porque o decúbito lateral esquerdo distorce o movimento sistólico e simula impulsão sustentada"
+    corretaIndex: 3
     explicacao: "O decúbito lateral esquerdo aproxima o coração da parede e é útil para encontrar o ictus e medir seu diâmetro, mas distorce o movimento sistólico — até metade dos indivíduos saudáveis apresenta movimento aparentemente sustentado nessa posição. A classificação da impulsão se faz em decúbito dorsal."
   - id: precordio-4
     enunciado: Um paciente com sopro compatível com estenose mitral apresenta ictus hipercinético. O que esse achado sugere?
     alternativas:
-      - "Que a estenose mitral é grave e já produziu hipertrofia ventricular esquerda"
+      - "Que a estenose mitral é grave e já produziu hipertrofia e dilatação importantes do ventrículo esquerdo"
       - "Que existe outra lesão associada, como insuficiência mitral ou doença valvar aórtica"
       - "Que o achado é fisiológico e não modifica a interpretação do sopro"
       - "Que há sínfise pericárdica associada"
@@ -353,8 +353,8 @@ perguntas:
     alternativas:
       - "Porque provoca dor no precórdio inflamado e pode desencadear arritmias"
       - "Porque só é confiável em crianças e em pessoas muito magras"
-      - "Porque a comparação com a radiografia e a ecocardiografia mostrou que seus resultados são imprecisos, exceto nas grandes cardiomegalias"
-      - "Porque foi substituída pela ausculta do foco aórtico acessório"
+      - "Porque seus resultados se mostraram imprecisos, exceto nas grandes cardiomegalias"
+      - "Porque foi substituída pela ausculta do foco aórtico acessório, que delimita as bordas do coração com mais precisão"
     corretaIndex: 2
     explicacao: "Confrontada com o que a radiografia e o ecocardiograma mostram, a percussão do precórdio erra com frequência — só as cardiomegalias grandes escapam desse erro. Deixar de percutir o coração não empobrece a avaliação, e o tempo rende mais em uma palpação bem-feita."
 :::

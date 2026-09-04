@@ -15,21 +15,22 @@ do que as obras não cobrem declaradas ao leitor.
 ## Estado atual (set/2026)
 
 **O conteúdo está completo** e o app está em **beta de validação**
-(v1.1.x): onboarding com data da prova e plano diário, analytics local
+(v1.2.x): onboarding com data da prova e plano diário, analytics local
 exportável, feedback in-app, compartilhamento de resultado OSCE e
 changelog visível. A passada única de revisão médica do autor está em
-andamento (triagem de literatura aberta de cardio + respiratório
-concluída — `docs/triagem-literatura-cardio-resp.md`).
+andamento, em ordem craniocaudal — cardio, respiratório, anamnese e
+exame físico geral concluídos (método em
+`docs/triagem-literatura-cardio-resp.md`).
 
 | | |
 |---|---|
 | Sistemas | **12** (Anamnese → Semiologia da criança, ordem craniocaudal) |
-| Tópicos | **55** — 8 revisados (cardiovascular e respiratório), 47 `revisao: pendente` |
+| Tópicos | **55** — 19 revisados (cardio, respiratório, anamnese, exame físico geral), 36 `revisao: pendente` |
 | Casos clínicos interativos | **3** |
 | Questões de quiz | **327** (balanceadas por índice e comprimento) |
 | Checklists OSCE | **53** (viram estações de prática) |
 | Ilustrações SVG | **52** (temáveis via `currentColor`, geometria verificada) |
-| Testes | **53 suítes / 405 testes** verdes |
+| Testes | **53 suítes / 406 testes** verdes |
 
 ## Stack
 
@@ -68,9 +69,10 @@ concluída — `docs/triagem-literatura-cardio-resp.md`).
 
 ## O que falta
 
-1. **Revisão médica do autor** — 47 tópicos seguem `revisao: pendente`
-   (cardiovascular e respiratório já revisados, com selo "Em revisão"
-   removido no app); o roteiro da revisão é `docs/inconsistencias-para-revisao.md`
+1. **Revisão médica do autor** — 36 tópicos seguem `revisao: pendente`
+   (cardiovascular, respiratório, anamnese e exame físico geral já
+   revisados, com selo "Em revisão" removido no app); a triagem de
+   literatura segue em ordem craniocaudal pelos sistemas restantes; o roteiro da revisão é `docs/inconsistencias-para-revisao.md`
    (seções A–P: divergências entre as obras, convenções declaradas e
    decisões editoriais a endossar) + os adendos por fase em
    `docs/verificacao-fase1b.md`.
@@ -82,20 +84,22 @@ concluída — `docs/triagem-literatura-cardio-resp.md`).
    anterior ao design editorial.
 5. **Fronteiras declaradas** (fora por decisão ou por silêncio das
    fontes, reavaliáveis): obstetrícia (sem obra de referência no
-   acervo), exame físico do idoso como capítulo próprio, marcha da
-   criança pequena e exame motor neonatal especializado, puericultura.
+   acervo), marcha da criança pequena e exame motor neonatal
+   especializado, puericultura.
+6. **Fase futura planejada: exame físico do idoso** — por decisão do
+   autor (2026-09-03) deixa de ser fronteira aceita; capítulo próprio a
+   especificar depois do fechamento do beta (fundamentos do exame
+   psíquico e delirium já apontam para ele).
 
 ## Problemas conhecidos
 
-- **Colisão de cor sob daltonismo** no tema escuro: os washes de
-  Cabeça e pescoço × Aparelho respiratório coincidem sob deuteranopia
-  (herança da paleta; a cor nunca é canal único — nome e posição
-  desambiguam). Registrado no checklist (item L2).
+- **Cores de sistema sob daltonismo**: a re-otimização global de
+  2026-09-03 eliminou as colisões (pior par sob deuteranopia/protanopia
+  subiu de ΔE00 0,00 para 1,67), mas com 12 cores categóricas a paleta
+  opera no limite prático — a cor nunca é canal único; ícone, nome e
+  posição desambiguam. Pisos vigiados por `npm run checar:contraste`.
 - **Reanimated 4.5 × jest-expo**: incompatíveis hoje; as animações usam
   o `Animated` do React Native com os mesmos valores de curva/duração.
-- **Resíduos aguardando endosso do autor** (não são bugs): uma citação
-  atribuída de 14 palavras e paráfrases herdadas de fases antigas em
-  dois tópicos, listadas nos itens L6/O8 do checklist.
 
 ## Rodando localmente
 
@@ -104,7 +108,7 @@ npm install
 npm run build:content   # compila o conteúdo (YAML/MD → JSON)
 npx expo start          # i = iOS, a = Android, w = web
 
-npm test                # 53 suítes / 405 testes
+npm test                # 53 suítes / 406 testes
 npm run checar:contraste
 npx tsc --noEmit
 ```

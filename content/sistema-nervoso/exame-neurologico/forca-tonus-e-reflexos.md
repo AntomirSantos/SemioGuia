@@ -832,14 +832,14 @@ perguntas:
     corretaIndex: 1
     explicacao: "McGee registra que de 6% a 50% das pessoas idosas sem doença neurológica não têm reflexo aquileu dos dois lados, mesmo com manobra de reforço, e que o reflexo alterado só é significativo em quatro situações: quando acompanha outros achados de neurônio motor inferior, quando acompanha achados de neurônio motor superior, quando é assimétrico, ou quando está desproporcionalmente vivo em relação a um reflexo de nível mais alto. Nenhuma delas está presente aqui. A manobra de Jendrassik é obrigatória antes de registrar ausência: em um estudo com idosos, ela fez o aquileu aparecer em 70% das vezes."
   - id: neu-mot-3
-    enunciado: Você suspeita de lesão hemisférica em um paciente cuja força, testada contra resistência, está preservada nos quatro membros. Entre os testes abaixo, qual é o que mais eleva a probabilidade de lesão hemisférica contralateral?
+    enunciado: Um paciente queixa-se de fraqueza no braço direito, mas a força testada contra a resistência do examinador parece normal nos dois lados. Que recurso do exame pode revelar um déficit discreto que esse teste não mostra?
     alternativas:
-      - "A pesquisa de hiper-reflexia, com razão de verossimilhança 5,3"
-      - "O teste de percussão rápida dos dedos, com razão de verossimilhança 4,7"
-      - "A prova do rolamento dos antebraços, com razão de verossimilhança 15,6"
-      - "A prova do rolamento dos dedos mínimos, que é a mais sensível da série"
+      - "Repetir o teste de força empregando resistência máxima, porque o déficit discreto só aparece quando o examinador usa toda a própria força"
+      - "A percussão dos tendões com o martelo, já que todo déficit motor discreto se acompanha de arreflexia do membro correspondente"
+      - "As provas deficitárias: braços estendidos com as palmas para cima, sustentados no tempo — o lado fraco prona ou cai primeiro"
+      - "A inspeção do trofismo, porque a atrofia sempre precede a fraqueza, qualquer que seja o nível da lesão motora"
     corretaIndex: 2
-    explicacao: "No conjunto de estudos reunido por McGee, em que a maioria dos pacientes não tinha fraqueza detectável pelo teste convencional, a prova do rolamento dos antebraços foi o achado com maior razão de verossimilhança positiva, 15,6, à frente do desvio em pronação (9,6) e da resposta de Babinski (8,5). Ela também é a mais reprodutível do grupo, com concordância entre observadores de 0,73 contra 0,39 do desvio em pronação. A prova do rolamento dos dedos mínimos não alcançou significância estatística nem quando presente nem quando ausente."
+    explicacao: "Quando o déficit é discreto, a força testada contra a mão do examinador tem um teto: o paciente empurra por dois segundos e o déficit some. Porto e Semiologia Clínica descrevem então as provas deficitárias, que trocam a resistência do examinador pelo peso do próprio membro e pelo tempo — a prova dos braços estendidos (Mingazzini dos membros superiores) com as palmas para cima, em que o membro deficitário prona ou cai antes do outro, e, nos membros inferiores, as manobras de Mingazzini e de Barré. Atrofia e reflexos respondem a outra pergunta — o nível da lesão —, não à existência do déficit discreto."
   - id: neu-mot-4
     enunciado: Um paciente tem fraqueza da mão direita. Ao exame, há atrofia da musculatura intrínseca e fasciculações naquela mão, reflexos aquileus e patelares exaltados nos dois lados e sinal de Babinski bilateral. Onde está a lesão?
     alternativas:

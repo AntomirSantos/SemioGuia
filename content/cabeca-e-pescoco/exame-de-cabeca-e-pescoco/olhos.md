@@ -503,23 +503,23 @@ perguntas:
     corretaIndex: 0
     explicacao: "Os dois músculos constritores recebem do mesencéfalo sinais idênticos, que somam a luz que entra pelos dois olhos. Numa lesão da retina ou do nervo óptico, esse sinal fica mais fraco, mas continua igual dos dois lados — e as pupilas mantêm o mesmo diâmetro (McGee). Anisocoria indica doença assimétrica da via eferente (terceiro nervo, gânglio ciliar, inervação simpática) ou da própria íris. Descobrir o defeito aferente exige manobra específica, que alterna a luz entre os olhos e pertence ao exame neurológico."
   - id: olh-2
-    enunciado: Você examina um paciente com anisocoria. As duas pupilas reagem bem à luz e a diferença entre elas fica maior quando você escurece a sala. Que estrutura está em causa?
+    enunciado: Uma paciente de 42 anos conta que as pálpebras "caem", pouco pela manhã e muito à noite. Ao exame, você confirma ptose bilateral. Que causa esse comportamento sugere?
     alternativas:
-      - "O nervo óptico do lado da pupila menor, cuja lesão reduz o estímulo aferente naquele olho"
-      - "O constritor da pupila maior, comprometido na paralisia do terceiro nervo e na pupila tônica"
-      - "A córnea do olho com a pupila maior, cuja opacificação impede a entrada da luz"
-      - "O dilatador da pupila menor, o que aponta para síndrome de Horner ou anisocoria simples"
-    corretaIndex: 3
-    explicacao: "McGee ordena a anisocoria com duas perguntas: as pupilas reagem bem à luz, e a diferença é pior no escuro ou no claro? Boa reação nos dois olhos com anisocoria pior no escuro indica falha do dilatador da pupila menor — síndrome de Horner ou anisocoria simples —, porque no escuro a pupila que não dilata fica para trás. Reação pobre na pupila maior com anisocoria pior no claro indica falha do constritor: paralisia do terceiro nervo, pupila tônica, midríase farmacológica ou alteração da íris."
-  - id: olh-3
-    enunciado: Uma paciente procura atendimento por olho vermelho unilateral. Ao iluminar o olho contralateral, ela refere dor no olho vermelho. Qual é o peso desse achado?
-    alternativas:
-      - "Peso reduzido, pois a dor referida a distância é típica das conjuntivites alérgicas"
-      - "É o achado de maior peso entre os testes de constrição pupilar: a fotofobia indireta tem razão de verossimilhança 28,8 para doença ocular grave"
-      - "Nenhum, porque o olho iluminado não é o olho doente e a manobra não tem validade nesse contexto"
-      - "Confirma hemorragia subconjuntival, cuja característica é a dor desencadeada por estímulo luminoso contralateral"
+      - "Paralisia do III par craniano, que produz caracteristicamente ptose bilateral e flutuante, mais acentuada nas primeiras horas do dia"
+      - "Miastenia gravis, na qual a ptose é bilateral e piora ao longo do dia"
+      - "Síndrome de Claude Bernard-Horner, por paralisia do músculo orbicular, cuja fadiga vespertina explica a queda progressiva das pálpebras"
+      - "Blefarite crônica, em que a inflamação da borda palpebral enfraquece o elevador da pálpebra e acentua a queda no fim do dia"
     corretaIndex: 1
-    explicacao: "Nos quadros graves de olho vermelho, a contração pupilar dói. Os três testes de constrição diferem apenas em como produzem a contração: fotofobia indireta, iluminando o olho são, que contrai o doente pelo reflexo consensual (razão de verossimilhança 28,8); teste de convergência dedo-nariz (21,4); e fotofobia direta (8,3). A anisocoria com a pupila menor no olho vermelho, com diferença acima de 1 mm, vale 6,5. A sensibilidade, porém, é ruim: 23% a 56% dos pacientes com doença grave não têm fotofobia e 81% não têm anisocoria."
+    explicacao: "Porto associa a ptose palpebral a três contextos: paralisia do III par, síndrome de Claude Bernard-Horner e miastenia gravis. Semiologia Clínica acrescenta o dado de comportamento que separa: na miastenia a ptose é bilateral e piora ao longo do dia. Vale lembrar qual músculo faz o quê — o elevador da pálpebra superior, inervado pelo oculomotor, abre o olho; o músculo tarsal de Müller, simpático, participa da elevação e responde pela ptose parcial da síndrome de Horner; o orbicular, inervado pelo facial, faz a oclusão — sua falha causa lagoftalmia, não ptose."
+  - id: olh-3
+    enunciado: Um homem de 36 anos nota que os olhos ficaram "saltados". De perfil, você confirma protrusão dos dois globos, com um crescente de esclerótica visível acima e abaixo do limbo. Qual é a principal hipótese?
+    alternativas:
+      - "Tumor retro-ocular, causa clássica da protrusão quando o quadro se instala simultaneamente nos dois olhos"
+      - "Trombose de seio cavernoso, cuja marca semiológica é a exoftalmia bilateral, simétrica e indolor"
+      - "Hipertireoidismo, em particular a doença de Graves-Basedow"
+      - "Enoftalmia bilateral por desidratação, que estreita as fendas palpebrais e cria a impressão de protrusão dos globos"
+    corretaIndex: 2
+    explicacao: "A lateralidade organiza as hipóteses da exoftalmia. Unilateral, ela aponta para tumores oculares e retro-oculares (Porto); Semiologia Clínica acrescenta hematoma na órbita e trombose de seio cavernoso. Bilateral, a causa clássica é o hipertireoidismo, em particular a doença de Graves-Basedow, na qual anticorpos agridem a gordura e a musculatura retro-orbitárias. O crescente de esclerótica acima e abaixo do limbo traduz a perda da relação normal entre o limbo e as pálpebras, e o achado fica mais evidente quando se olha o paciente de perfil."
   - id: olh-4
     enunciado: Ao inspecionar as pálpebras de uma senhora de 74 anos, você encontra abaulamento das pálpebras inferiores dos dois lados, instalado ao longo de anos, sem sinais flogísticos, sem variação ao longo do dia e não compressível. Qual é a interpretação mais provável?
     alternativas:
@@ -530,14 +530,14 @@ perguntas:
     corretaIndex: 3
     explicacao: "Semiologia Clínica descreve as bolsas de gordura como um dos principais diferenciais do edema palpebral: instalação lenta ao longo de anos, sem variação com a posição, sem flutuação durante o dia, sem sinais flogísticos e não compressíveis. O edema por acúmulo de líquido corporal varia com a posição e é depressível, e Porto registra que olhos inchados ao acordar podem ser a primeira manifestação de um edema generalizado. O xantelasma é uma placa amarelada em alto-relevo, não um abaulamento difuso."
   - id: olh-5
-    enunciado: Em um paciente com suspeita de doença tireoidiana, você observa que, ao olhar para baixo, aparece uma faixa de esclera branca entre a margem da pálpebra superior e o limbo. Qual é o nome e o valor desse achado?
+    enunciado: Um paciente refere sensação de corpo estranho no olho direito após trabalhar com uma esmerilhadeira. Você decide everter a pálpebra superior para examinar a conjuntiva. Como executar a manobra?
     alternativas:
-      - "Sinal de Romaña, o edema palpebral unilateral que aparece na doença de Chagas aguda"
-      - "Enoftalmia, achado bilateral que aponta para desidratação e caquexia"
-      - "Lid lag, ou sinal de von Graefe, com razão de verossimilhança 18,6 para hipertireoidismo"
-      - "Ptose palpebral por paralisia do músculo tarsal de Müller, componente da síndrome de Horner"
-    corretaIndex: 2
-    explicacao: "O lid lag, descrito por von Graefe em 1864, é a pálpebra superior que não acompanha a córnea quando o paciente olha para baixo. A retração palpebral, ou sinal de Dalrymple, é o achado análogo com o paciente olhando para a frente. Os dois têm o melhor desempenho entre os sinais físicos do hipertireoidismo estudados por McGee — razões de verossimilhança 18,6 e 33,2 —, à frente do tremor fino dos dedos (11,5) e da pele quente e úmida (6,8). São muito específicos e pouco sensíveis: sua ausência não afasta o diagnóstico."
+      - "Comprimir suavemente o globo ocular sobre a pálpebra fechada, o que faz a borda palpebral dobrar-se para fora e expõe a conjuntiva tarsal sem necessidade de instrumento"
+      - "Pedir que o paciente olhe para cima enquanto você traciona os cílios para fora e para baixo, mantendo pressão contínua sobre a margem livre da pálpebra"
+      - "Tracionar a pálpebra inferior para baixo com o paciente olhando para cima, o que expõe por transparência o fundo de saco conjuntival superior"
+      - "Com o paciente olhando para baixo, segurar os cílios, puxar para fora e para baixo e pressionar com uma haste cerca de 1 cm acima da borda palpebral"
+    corretaIndex: 3
+    explicacao: "Porto descreve o gesto: o paciente olha para baixo, o examinador segura os cílios, puxa para fora e para baixo e pressiona com uma haste cerca de 1 cm acima da borda palpebral — o equivalente a pressionar acima da placa tarsal; para desfazer, basta pedir que o paciente olhe para cima. Semiologia Clínica faz a advertência que importa: não pressione o globo ocular. A eversão só se justifica na suspeita de corpo estranho; a tração da pálpebra inferior com o olhar para cima expõe apenas a conjuntiva palpebral inferior."
   - id: olh-6
     enunciado: Um paciente chega com olho vermelho e dor. À inspeção, a vermelhidão é máxima em torno do limbo, com aspecto violáceo, e menos intensa na periferia. O que esse padrão sugere?
     alternativas:

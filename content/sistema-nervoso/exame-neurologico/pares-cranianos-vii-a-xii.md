@@ -96,7 +96,7 @@ texto: |
   **O que fica como moldura, nomeada e não ensinada:**
 
   - a **gustação** como exame formal. Porto descreve como se faz — soluções saturadas com os quatro sabores, aplicadas na língua, lavando a boca entre uma prova e outra — e registra que ele **não é habitualmente realizado** para o IX. Este tópico explica adiante por que McGee considera o diagnóstico topográfico por gustação de valor clínico mínimo;
-  - as **provas vestibulares calóricas e rotatórias**, que Porto situa em gabinete de neuro-otologia por exigirem equipamento especializado, e as **manobras posicionais**. São nomeadas aqui e ficam fora desta fase do guia;
+  - as **provas vestibulares calóricas e rotatórias**, que Porto situa em gabinete de neuro-otologia por exigirem equipamento especializado, e as **manobras posicionais**. São nomeadas aqui e ficam fora do escopo do guia, que se limita ao exame à beira do leito;
   - a **otoscopia** e as demais técnicas instrumentais do exame do ouvido, já nomeadas no tópico de boca, nariz e ouvidos.
 :::
 
@@ -238,7 +238,7 @@ titulo: Graduar a paralisia facial — o que as fontes oferecem
 texto: |
   O tópico de crânio e face deixou registrado que a **graduação** da paralisia facial pertenceria a este capítulo. Vale ser honesto sobre o que as quatro obras deste guia oferecem e o que elas não oferecem.
 
-  **O que elas não oferecem:** nenhuma delas apresenta uma escala numérica de graduação da paralisia facial. Escalas desse tipo existem e são usadas em otorrinolaringologia e em cirurgia de cabeça e pescoço, mas nenhuma das obras em que este guia se ancora as descreve — e o guia não vai reproduzir de memória o que suas fontes não trazem. Elas ficam nomeadas como instrumento especializado, fora desta fase.
+  **O que elas não oferecem:** nenhuma delas apresenta uma escala numérica de graduação da paralisia facial. Escalas desse tipo existem e são usadas em otorrinolaringologia e em cirurgia de cabeça e pescoço, mas nenhuma das obras em que este guia se ancora as descreve — e o guia não vai reproduzir de memória o que suas fontes não trazem. Elas ficam nomeadas como instrumento especializado, fora do escopo do guia.
 
   **O que elas oferecem, e é suficiente para o registro clínico**, são três eixos de descrição:
 
@@ -574,14 +574,14 @@ titulo: Teste rápido
 ::: quiz
 perguntas:
   - id: neu-pc2-1
-    enunciado: Um paciente com acidente vascular cerebral recente é avaliado quanto ao risco de aspiração. Ele percebe o cotonete aplicado na orofaringe posterior dos dois lados. Que peso esse achado tem?
+    enunciado: Um homem de 60 anos queixa-se de ouvir mal apenas do ouvido esquerdo, e os testes à beira do leito confirmam a hipoacusia unilateral. O que a lateralidade desse achado sugere quanto ao lugar da lesão?
     alternativas:
-      - "Peso pequeno, porque a sensibilidade faríngea depende do mesmo arco do reflexo do vômito, que está frequentemente ausente em pessoas idosas saudáveis"
-      - "Peso grande: sensibilidade faríngea normal reduz muito a probabilidade de aspiração, com razão de verossimilhança 0,03"
-      - "Nenhum, pois a sensibilidade faríngea avalia apenas o nervo trigêmeo, que não participa da deglutição"
-      - "Peso grande, mas em sentido oposto: sensibilidade preservada aumenta a probabilidade de aspiração silenciosa"
-    corretaIndex: 1
-    explicacao: "Entre os achados de beira de leito estudados por McGee para prever aspiração após acidente vascular, a sensibilidade faríngea normal é o de melhor desempenho negativo: razão de verossimilhança 0,03. O motivo é que ela raramente está ausente em pessoas normais. O reflexo do vômito, ao contrário, rende pouco — 1,4 quando alterado e 0,6 quando normal —, porque os músculos que ele mobiliza não são necessariamente os que protegem a via aérea durante a deglutição, e porque ele falta com frequência em pessoas saudáveis, sobretudo idosas."
+      - "Lesão periférica — da orelha, da cóclea ou do nervo —, porque é raro que lesão cortical produza hipoacusia de um lado só"
+      - "Lesão do córtex auditivo direito, já que a via auditiva termina no giro temporal transverso do lado oposto ao ouvido que ouve mal"
+      - "Lesão do córtex auditivo esquerdo, porque a audição, ao contrário da visão, é conduzida por vias que não cruzam a linha média"
+      - "Nada: a lateralidade da hipoacusia não participa do raciocínio topográfico do VIII par"
+    corretaIndex: 0
+    explicacao: "Semiologia Clínica registra que a via auditiva é complexa e termina no giro temporal transverso do lado oposto — e que, por isso, é raro que uma lesão cortical produza hipoacusia de um lado só. Hipoacusia unilateral sugere, portanto, lesão periférica, e o passo seguinte é classificá-la em condutiva, quando o som encontra obstáculo no caminho até a cóclea, ou neurossensorial, quando ele não chega ao córtex pelo nervo acústico. É o oposto do que acontece com a visão, em que lesões corticais produzem defeitos de campo bem lateralizados."
   - id: neu-pc2-2
     enunciado: Ao examinar um paciente com assimetria facial, você observa que ele não consegue erguer voluntariamente o canto direito da boca, mas move esse mesmo canto com vivacidade ao rir de uma piada. A testa enruga simetricamente. Como interpretar?
     alternativas:
@@ -592,14 +592,14 @@ perguntas:
     corretaIndex: 3
     explicacao: "McGee descreve dois critérios que separam a fraqueza facial central da periférica. O primeiro é a distribuição: lesões periféricas comprometem músculos superiores e inferiores, enquanto lesões centrais poupam relativamente o enrugamento da testa, porque os núcleos que a inervam recebem aferência cortical bilateral. O segundo é o tipo de movimento: lesões periféricas paralisam todos os movimentos daquele lado, e lesões centrais comprometem os voluntários poupando os emocionais, porque o comando emocional não chega aos núcleos faciais pelo córtex motor. Observar o rosto durante um riso espontâneo é, portanto, parte do exame."
   - id: neu-pc2-3
-    enunciado: Uma paciente com vertigem aguda isolada, sem outros sinais neurológicos, é submetida ao teste do impulso cefálico. Os olhos permanecem fixos no nariz do examinador durante toda a rotação rápida da cabeça, sem sacada corretiva. Que interpretação esse resultado permite?
+    enunciado: Para testar o esternocleidomastóideo direito de um paciente, para que lado o examinador pede que ele vire a cabeça, e por quê?
     alternativas:
-      - "O reflexo vestíbulo-ocular está íntegro, o que aponta para causa central: razão de verossimilhança 9,6 para acidente vascular"
-      - "O reflexo vestíbulo-ocular está deficiente, confirmando vestibulopatia periférica"
-      - "O teste foi mal executado, pois a ausência de sacada corretiva só ocorre com movimentos lentos da cabeça"
-      - "O resultado é normal e exclui doença vestibular de qualquer origem, dispensando investigação adicional"
-    corretaIndex: 0
-    explicacao: "Aqui a leitura é invertida em relação à intuição. O reflexo vestíbulo-ocular depende do labirinto e do nervo vestibular; quando eles estão doentes, o reflexo falha e aparece a sacada corretiva. Um reflexo íntegro em paciente genuinamente vertiginoso indica que a lesão não é periférica: teste do impulso cefálico normal tem razão de verossimilhança 9,6 para acidente vascular, e o teste anormal, com sacada corretiva, 0,2. Reunido ao nistagmo que muda de direção e ao desvio oblíquo, a ausência dos três reduz a probabilidade de acidente vascular a 0,02 — menos que uma ressonância com difusão normal."
+      - "Para a direita, porque cada esternocleidomastóideo gira a cabeça para o próprio lado e o teste se faz contra a resistência do examinador"
+      - "Para cima, em extensão do pescoço, posição em que o músculo trabalha isolado dos escalenos e do trapézio"
+      - "Para a esquerda, contra a mão do examinador: o músculo gira a cabeça para o lado oposto"
+      - "Para qualquer lado, sem resistência, já que o XI par se avalia apenas pela inspeção do relevo muscular"
+    corretaIndex: 2
+    explicacao: "O esternocleidomastóideo gira a cabeça para o lado oposto: o músculo direito vira o queixo para a esquerda. Para testá-lo, pede-se que o paciente vire a cabeça para a esquerda enquanto o examinador opõe resistência com a mão, comparando a força e o relevo do músculo dos dois lados. O exame do XI par se completa com a elevação dos ombros contra resistência, que avalia o trapézio."
   - id: neu-pc2-4
     enunciado: Um paciente com hemiparesia esquerda protrai a língua e a ponta desvia para a esquerda. Não há atrofia nem fasciculações. Onde está mais provavelmente a lesão?
     alternativas:

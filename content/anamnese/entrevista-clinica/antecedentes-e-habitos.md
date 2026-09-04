@@ -59,7 +59,7 @@ referencias:
   - "Porto — Exame Clínico, 8ª ed., cap. 4 (Anamnese) — Elementos componentes da anamnese (Quadro 4.1): antecedentes pessoais e familiares, hábitos de vida, condições socioeconômicas e culturais; profissão, ocupação atual e local de trabalho na identificação"
   - "Semiologia Clínica, 1ª ed., cap. 3 (História clínica) — Antecedentes pessoais; Antecedentes familiares; Hábitos e vícios: tabagismo atual, pregresso e passivo, consumo de álcool, substâncias psicoativas, atividade física, alimentação, exposição solar, risco de acidentes; Histórico sexual; Histórico social e familiar (Tabela 1)"
   - "Ewing JA — Detecting alcoholism: the CAGE questionnaire. JAMA, 1984 (instrumento original; formulação em português conforme Porto, cap. 6)"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
@@ -290,7 +290,7 @@ texto: |
   3. "Você já se sentiu culpado em relação a beber?"
   4. "Alguma vez já bebeu logo ao acordar pela manhã para diminuir o nervosismo ou a ressaca?"
 
-  Porto registra o desempenho: **duas respostas positivas identificam 75% dos etilistas, com especificidade de 95%**. É um rastreamento — não fecha diagnóstico, e sua negatividade não afasta consumo de risco.
+  Porto registra o desempenho: **duas respostas positivas identificam 75% dos etilistas, com especificidade de 95%**. Os números variam conforme o estudo — a publicação original de Ewing relata sensibilidade de 85% e especificidade de 89%, e as séries posteriores com o corte de duas respostas encontram sensibilidades de 74 a 93% com especificidades de 76 a 91%; o guia mantém os valores de Porto por consistência com a fonte. É um rastreamento — não fecha diagnóstico, e sua negatividade não afasta consumo de risco.
 
   **Uma advertência de vocabulário.** *Semiologia Clínica* critica a expressão "etilismo social", por considerá-la um erro: etilismo tem definição clara, seja pela quantidade ingerida, seja pela influência do álcool na vida da pessoa. Para o consumo eventual que não preenche critério de transtorno, a obra recomenda escrever "consumo eventual de bebidas alcoólicas" ou expressão equivalente.
 :::
@@ -381,7 +381,7 @@ perguntas:
   - id: antec-1
     enunciado: Um paciente fuma 30 cigarros industrializados por dia há 20 anos. Qual é a carga tabágica e como as referências deste guia a nomeiam?
     alternativas:
-      - "15 — Porto chama de anos/maço e Semiologia Clínica de maços/ano"
+      - "15 — Porto chama de anos/maço e Semiologia Clínica de maços/ano ou anos-maço"
       - "600 — as duas obras chamam de anos-maço"
       - "30 — Porto chama de anos/maço e Semiologia Clínica de maços/ano"
       - "20 — o número de anos de tabagismo é a própria carga tabágica"
@@ -390,27 +390,27 @@ perguntas:
   - id: antec-2
     enunciado: Segundo Porto, qual é a definição de binge drinking e o desempenho do questionário CAGE?
     alternativas:
-      - "Binge é o consumo de cinco ou mais doses em uma ocasião por homens ou quatro ou mais por mulheres, ao menos uma vez nas últimas 2 semanas; duas respostas positivas no CAGE identificam 75% dos etilistas, com especificidade de 95%"
+      - "Binge é o consumo de cinco doses ou mais numa ocasião (homens) ou quatro ou mais (mulheres), ao menos uma vez nas últimas 2 semanas; duas respostas positivas no CAGE identificam 75% dos etilistas, com especificidade de 95%"
       - "Binge é o consumo diário de qualquer quantidade; o CAGE tem sensibilidade de 95%"
       - "Binge é qualquer consumo antes do meio-dia; uma resposta positiva no CAGE fecha o diagnóstico de etilismo"
-      - "Binge é o consumo de dez ou mais doses por semana; o CAGE substitui a quantificação por tipo e frequência"
+      - "Binge é o consumo de dez ou mais doses distribuídas ao longo da semana, seja qual for a ocasião; o CAGE, com suas quatro perguntas, substitui com vantagem a quantificação do consumo por tipo, quantidade e frequência"
     corretaIndex: 0
     explicacao: "Porto define o binge drinking como beber cinco doses ou mais numa mesma ocasião, no caso dos homens, ou quatro ou mais, no caso das mulheres, com essa ocorrência ao menos uma vez nas duas semanas anteriores. Sobre o CAGE, registra que duas respostas positivas identificam 75% dos etilistas com especificidade de 95% — desempenho de rastreamento, que não fecha diagnóstico nem dispensa a quantificação por tipo, quantidade e frequência."
   - id: antec-3
     enunciado: Como o item "medicamentos em uso" deve ser tratado na anamnese?
     alternativas:
-      - "Como oportunidade de revisar e ajustar as prescrições em curso"
+      - "Como oportunidade de revisar e ajustar as prescrições em curso, suspendendo os produtos não medicamentosos — chás, florais e preparados naturais — que possam interferir"
       - "Apenas os medicamentos prescritos por médico devem ser registrados"
       - "É item dispensável quando o paciente traz receitas anteriores"
-      - "Como registro do que o paciente usa, para quê, desde quando, quem indicou e se ele está de fato tomando, incluindo os de uso comum não prescritos e produtos não medicamentosos"
+      - "Como registro do que o paciente usa, para quê, quem indicou e se está de fato tomando, incluindo os não prescritos"
     corretaIndex: 3
     explicacao: "Porto coloca os medicamentos em uso entre os antecedentes patológicos e manda registrar o que o paciente usa, por qual motivo e quem prescreveu. Semiologia Clínica detalha o que costuma escapar justamente porque o paciente não considera remédio: analgésicos, anti-inflamatórios, antialérgicos, descongestionantes, antiespasmódicos e anticoncepcionais orais de uso comum, além de chás, preparados naturais e florais, e a adesão aos tratamentos de doenças crônicas. É um item de registro anamnésico — a diferença entre o prescrito e o efetivamente tomado é, ela própria, um dado clínico."
   - id: antec-4
     enunciado: "Um motorista de caminhão apresenta doença pulmonar intersticial. Por que registrar apenas \"profissão — motorista\" pode ser insuficiente?"
     alternativas:
       - "Porque a profissão só interessa quando há acidente de trabalho"
-      - "Porque a ocupação transcende a profissão: é preciso saber a natureza do trabalho, o material manipulado e o ambiente — o mesmo motorista pode servir a uma pedreira ou transportar material de demolição contendo asbesto"
-      - "Porque a profissão deve ser registrada apenas na identificação e não nos hábitos"
+      - "Porque a ocupação transcende a profissão: é preciso saber a natureza do trabalho, o material manipulado e o ambiente de exposição"
+      - "Porque a profissão deve ser registrada apenas na identificação, e nos hábitos entram somente as exposições de uso pessoal, como tabaco e álcool"
       - "Porque doenças intersticiais não têm relação com exposição ocupacional"
     corretaIndex: 1
     explicacao: "Porto (cap. 36) usa exatamente este exemplo para mostrar que a ocupação transcende a profissão: um indivíduo que dirige veículo motorizado pode servir a uma pedreira ou transportar material de demolição contendo asbesto. No capítulo de anamnese, a mesma obra determina que a história ocupacional investigue a natureza do trabalho, as substâncias manipuladas, as características do ambiente e o grau de ajustamento, tanto na ocupação atual quanto nas anteriores — e que se pergunte por sintomas semelhantes entre colegas de trabalho."
@@ -426,9 +426,9 @@ perguntas:
   - id: antec-6
     enunciado: Um paciente responde "não bebo" sem qualquer detalhamento. Qual é a leitura correta desse dado?
     alternativas:
-      - "A negativa encerra o assunto e deve ser registrada como abstinência"
+      - "A negativa encerra o assunto e deve ser registrada como abstinência, porque o álcool é droga socialmente aceita e por isso não costuma ser negado pelos pacientes"
       - "O paciente deve ser confrontado imediatamente com a suspeita de omissão"
-      - "Uma negativa sem explicações não significa necessariamente a verdade; registra-se como veio, buscam-se outras fontes e o tema pode ser reaberto no seguimento"
+      - "Uma negativa sem explicações não significa necessariamente a verdade; registra-se como veio e o tema pode ser reaberto no seguimento"
       - "O item deve ser deixado em branco até que exames laboratoriais esclareçam"
     corretaIndex: 2
     explicacao: "Porto abre a seção de hábitos advertindo que alguns deles são ocultados pelo paciente e até pelos familiares, e que uma afirmativa ou uma negativa sem explicações não significa necessariamente a verdade. A conduta indicada é registrar a resposta como ela veio, integrar informações de outras fontes disponíveis — recomendação explícita da obra na investigação de substâncias — e reabrir o assunto no seguimento, que Porto descreve como o momento ideal para esclarecer o que a entrevista inicial não alcançou. Confronto imediato e suspensão do registro não são condutas recomendadas."

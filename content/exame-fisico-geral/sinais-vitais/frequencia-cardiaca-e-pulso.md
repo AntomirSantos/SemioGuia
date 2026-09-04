@@ -25,13 +25,13 @@ tags:
   - parvus et tardus
   - tamponamento cardíaco
 referencias:
-  - "Porto — Exame Clínico, 8ª ed., cap. 13 (Exame dos pulsos radial, periféricos e venoso), p. 565-570"
-  - "Porto — Exame Clínico, 8ª ed., cap. 21 (Sinais vitais), p. 949-952"
-  - "Porto — Semiologia Médica, 8ª ed., cap. 47 (Exame clínico do sistema cardiovascular), p. 570-571 e 582"
+  - "Porto — Exame Clínico, 8ª ed., cap. 13 (Exame dos pulsos radial, periféricos e venoso)"
+  - "Porto — Exame Clínico, 8ª ed., cap. 21 (Sinais vitais) — seção de frequência cardíaca"
+  - "Porto — Semiologia Médica, 8ª ed., cap. 47 (Exame clínico do sistema cardiovascular) — seções de pulso radial e frequência cardíaca"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 15 (Pulse Rate and Contour)"
-  - "Porto — Exame Clínico, 8ª ed., cap. 15 (Exame de cabeça e pescoço), p. 639 — boxe sinal de Kussmaul"
+  - "Porto — Exame Clínico, 8ª ed., cap. 15 (Exame de cabeça e pescoço) — boxe sinal de Kussmaul"
   - "McGee — Evidence-Based Physical Diagnosis, 4ª ed., cap. 36 (Inspection of the Neck Veins) — Kussmaul sign"
-revisao: pendente
+revisao: ok
 ---
 
 ::: secao
@@ -241,11 +241,11 @@ perguntas:
   - id: pulso-1
     enunciado: Por que a frequência do pulso deve ser contada durante 60 segundos completos?
     alternativas:
-      - "Porque contagens curtas perdem irregularidades de ritmo e erram a frequência quando ela está alterada"
       - "Porque o esfigmomanômetro exige esse tempo de insuflação"
       - "Porque a artéria radial só se torna palpável após 1 minuto de compressão"
-      - "Porque a frequência cardíaca é sempre irregular no primeiro minuto de exame"
-    corretaIndex: 0
+      - "Porque a frequência cardíaca é sempre irregular no primeiro minuto de exame, até o paciente se acostumar à palpação"
+      - "Porque contagens curtas perdem irregularidades de ritmo e erram a frequência quando ela está alterada"
+    corretaIndex: 3
     explicacao: Contar 15 segundos e multiplicar por quatro amplifica o erro e faz perder arritmias e padrões que só aparecem ao longo de um ciclo respiratório inteiro. O minuto completo é o padrão recomendado.
   - id: pulso-2
     enunciado: Qual é o limiar habitualmente aceito para caracterizar pulso paradoxal e qual o melhor método para detectá-lo?
@@ -259,7 +259,7 @@ perguntas:
   - id: pulso-3
     enunciado: Um paciente tem 96 batimentos por minuto à ausculta cardíaca e 78 pulsações por minuto na artéria radial. Como se chama esse achado e o que ele sugere?
     alternativas:
-      - "Pulso alternante; sugere insuficiência ventricular esquerda"
+      - "Pulso alternante; sugere insuficiência ventricular esquerda, com alternância da força de contração a cada batimento"
       - "Déficit de pulso; sugere fibrilação atrial ou extrassistolia frequente"
       - "Pulso paradoxal; sugere tamponamento cardíaco"
       - "Pulso filiforme; sugere colapso circulatório periférico"
@@ -278,7 +278,7 @@ perguntas:
     enunciado: Durante a fase I de Korotkoff, o examinador percebe alternância regular de um som forte e um som fraco. Qual é o achado?
     alternativas:
       - "Pulso alternante, sinal de insuficiência ventricular esquerda"
-      - "Pulso bigeminado, sinal de bloqueio atrioventricular total"
+      - "Pulso bigeminado, sinal de bloqueio atrioventricular total, no qual a alternância dos sons decorre da dissociação entre átrios e ventrículos"
       - "Hiato auscultatório"
       - "Pulso bisferiens, sinal de estenose mitral"
     corretaIndex: 0

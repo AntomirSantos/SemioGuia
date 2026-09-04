@@ -437,11 +437,11 @@ perguntas:
   - id: sopros-1
     enunciado: Qual característica distingue, à ausculta, o sopro sistólico de ejeção do sopro sistólico de regurgitação?
     alternativas:
-      - "O sopro de ejeção começa depois de B1 e termina antes de B2, com configuração em diamante; o de regurgitação recobre B1 e ocupa toda a sístole em platô"
       - "O sopro de ejeção é sempre mais intenso que o de regurgitação"
-      - "O sopro de ejeção é de baixa frequência e o de regurgitação, de alta frequência"
+      - "O sopro de ejeção é de baixa frequência e o de regurgitação, de alta frequência, diferença que se confirma trocando o diafragma pela campânula em cada foco"
       - "O sopro de ejeção aumenta na inspiração e o de regurgitação, na expiração"
-    corretaIndex: 0
+      - "O de ejeção começa depois de B1 e termina antes de B2, em diamante; o de regurgitação recobre B1 e ocupa toda a sístole em platô"
+    corretaIndex: 3
     explicacao: "O sopro de ejeção só surge depois da contração isovolumétrica, cresce até a mesossístole e decresce antes de B2 — desenho em diamante. O de regurgitação existe desde o início da sístole, recobre B1, ocupa a sístole inteira com intensidade constante e termina junto de B2 ou a recobre."
   - id: sopros-2
     enunciado: Na graduação de Levine, qual é a fronteira objetiva entre os graus?
@@ -455,11 +455,11 @@ perguntas:
   - id: sopros-3
     enunciado: Você ausculta um sopro sistólico na área tricúspide e pede ao paciente uma inspiração profunda. O sopro aumenta nitidamente de intensidade. O que se conclui?
     alternativas:
+      - "Que o sopro é apenas a propagação de um sopro mitral, já que a inspiração profunda intensifica os sopros originados à esquerda"
       - "Que o sopro se origina no aparelho valvar tricúspide — manobra de Rivero-Carvallo positiva"
-      - "Que o sopro é apenas a propagação de um sopro mitral"
       - "Que se trata de cardiomiopatia hipertrófica"
       - "Que o sopro é inocente, por variar com a respiração"
-    corretaIndex: 0
+    corretaIndex: 1
     explicacao: "A inspiração aumenta a negatividade intratorácica e o afluxo de sangue ao coração direito; se há refluxo tricúspide, o volume regurgitado aumenta e o sopro se intensifica. Se o sopro não muda ou diminui, ele é propagação de um sopro originado à esquerda."
   - id: sopros-4
     enunciado: Um sopro sistólico que aumenta durante o esforço de Valsalva e diminui com a elevação passiva das pernas sugere qual diagnóstico?
@@ -474,17 +474,17 @@ perguntas:
     enunciado: Quais características, em conjunto, caracterizam um sopro inocente?
     alternativas:
       - "Holossistólico, intenso, com frêmito e irradiação para a axila"
-      - "Diastólico, aspirativo, mais audível com o paciente sentado inclinado para a frente"
-      - "Sistólico, de baixa intensidade, suave, sem irradiação, mais audível na borda esternal esquerda e mesocárdio, variando com a posição, sem frêmito e sem alteração das bulhas"
+      - "Diastólico, aspirativo, mais audível com o paciente sentado inclinado para a frente, desde que de baixa intensidade e sem frêmito palpável"
+      - "Sistólico, suave, sem irradiação, na borda esternal esquerda e mesocárdio, variável com a posição, sem frêmito nem alteração das bulhas"
       - "Contínuo, em maquinaria, mais audível na região interescapulovertebral esquerda"
     corretaIndex: 2
     explicacao: "O sopro inocente nunca é holossistólico nem diastólico. É sistólico, de grau 1 a 2 em 6, suave, sem irradiação, localizado na borda esternal esquerda e no mesocárdio, com variação nítida conforme a posição, sem frêmito, sem alteração das bulhas e sem sinais de aumento de câmaras. E é uma conclusão diagnóstica, tomada após o exame completo."
   - id: sopros-6
     enunciado: Por que a irradiação de um sopro tem mais valor para localizar sua origem do que o foco em que ele é mais audível?
     alternativas:
-      - "Porque a irradiação segue a direção da corrente sanguínea, enquanto o ponto de maior intensidade pode não corresponder à valva de origem"
+      - "Porque a irradiação segue a direção da corrente sanguínea, e o foco mais audível pode não corresponder à valva de origem"
       - "Porque a irradiação independe da intensidade do sopro"
-      - "Porque os focos de ausculta correspondem exatamente à projeção anatômica das valvas"
+      - "Porque os focos de ausculta correspondem exatamente à projeção anatômica das valvas, de modo que qualquer sopro ouvido fora deles é necessariamente irradiado"
       - "Porque a irradiação é o único parâmetro que não sofre influência subjetiva"
     corretaIndex: 0
     explicacao: "Um sopro mais audível na área mitral não nasceu obrigatoriamente na valva mitral. A direção da corrente sanguínea define irradiações características — para os vasos do pescoço na estenose aórtica, para a axila na insuficiência mitral —, e é isso que aponta a origem."

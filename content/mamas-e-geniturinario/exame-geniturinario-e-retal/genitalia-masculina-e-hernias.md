@@ -4,6 +4,7 @@ ordem: 1
 tags:
   - genitália masculina
   - exame geniturinário
+  - próstata
   - pênis
   - prepúcio
   - glande

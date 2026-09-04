@@ -180,7 +180,7 @@ texto: |
   Antes de procurar doença, é preciso saber onde o tórax normal já não soa claro.
 
   - **Acima e sobre as clavículas.** Som claro pulmonar já se obtém percutindo a própria clavícula, e ainda na faixa de 2,5 a 3 cm acima dela — o ápice sobe até ali.
-  - **À direita.** Sonoridade pulmonar em toda a face anterior até a altura da 6ª ou 7ª costela (Porto, Semiologia Médica); abaixo desse nível não há mais pulmão entre o fígado e a parede, e o som se torna maciço. Descendo pela linha hemiclavicular, a transição não é abrupta: primeiro a nota fica submaciça, depois francamente maciça.
+  - **À direita.** Sonoridade pulmonar em toda a face anterior até o 4º espaço intercostal, onde a nota se torna submaciça; a macicez franca do fígado instala-se no 5º–6º espaço (o guia adota o Exame Clínico; a Semiologia Médica situa esse limite na altura da 6ª ou 7ª costela). Abaixo dele não há mais pulmão entre o fígado e a parede — descendo pela linha hemiclavicular, a transição nunca é abrupta.
   - **À esquerda.** O mesmo som claro até a região precordial, onde surge uma área de submacicez variável com o biotipo, de cerca de 5 cm, que ocupa a região mamária ao lado esquerdo do esterno, entre a 4ª e a 6ª costela. A submacicez é máxima no centro dessa área e vai se dissipando na periferia até voltar ao som claro.
   - **Abaixo e à esquerda.** A submacicez precordial dá lugar ao timpanismo do espaço de Traube, projeção do fundo do estômago.
   - **A coluna vertebral**, percutida, dá som claro atimpânico.
@@ -312,8 +312,8 @@ perguntas:
   - id: perc-torax-1
     enunciado: Qual é a posição correta da mão que apoia na parede durante a percussão dígito-digital, e por quê?
     alternativas:
-      - "Palma inteira apoiada, para estabilizar a parede e concentrar as vibrações"
-      - "Somente o dedo plexímetro em contato, com os demais dedos e a palma suspensos, porque a mão apoiada amortece as vibrações e abafa o som"
+      - "Palma inteira apoiada sobre a região examinada, para estabilizar a parede e concentrar no plexímetro as vibrações do golpe"
+      - "Somente o dedo plexímetro em contato com a parede, porque a mão apoiada amortece as vibrações e abafa o som"
       - "Dedos entrelaçados sobre a região a percutir, para aumentar a resistência ao golpe"
       - "Punho fechado apoiado sobre o gradil, técnica reservada ao tórax do adulto"
     corretaIndex: 1
@@ -321,18 +321,18 @@ perguntas:
   - id: perc-torax-2
     enunciado: Quais são os limites do espaço de Traube e qual som normal se obtém nele?
     alternativas:
-      - "Limitado acima pela clavícula, abaixo pela 4ª costela e lateralmente pela linha esternal; som maciço"
-      - "Limitado acima pela submacicez cardíaca (em geral a 6ª costela), para baixo e para dentro pela margem costal e para fora pela linha axilar anterior; som timpânico"
-      - "Limitado pelas linhas axilares anterior e posterior e pela 9ª costela; som claro pulmonar"
+      - "Limitado acima pela clavícula, abaixo pela 4ª costela e lateralmente pela linha esternal, na área de projeção do lobo superior esquerdo; som maciço"
       - "Limitado acima pelo ângulo de Louis e abaixo pelo apêndice xifoide; submacicez"
-    corretaIndex: 1
-    explicacao: "O espaço de Traube é a área triangular que ocupa o baixo da face anterior do hemitórax esquerdo, projeção do fundo do estômago. Acima, a submacicez cardíaca, em geral na altura da 6ª costela; abaixo e medialmente, a margem costal; lateralmente, a linha axilar anterior. Nele se obtém som timpânico — o único do tórax normal."
+      - "Limitado pelas linhas axilares anterior e posterior e pela 9ª costela; som claro pulmonar"
+      - "Acima, a submacicez cardíaca; para baixo e para dentro, a margem costal; para fora, a linha axilar anterior; som timpânico"
+    corretaIndex: 3
+    explicacao: "O espaço de Traube é a área semilunar, de cerca de 12 × 9 cm, que ocupa o baixo da face anterior do hemitórax esquerdo, projeção do fundo do estômago. Acima, a submacicez cardíaca, em geral na altura da 6ª costela; abaixo e medialmente, a margem costal; lateralmente, a linha axilar anterior. Nele se obtém som timpânico — o único do tórax normal."
   - id: perc-torax-3
     enunciado: Em um paciente internado com queixas respiratórias, a percussão do tórax revela sonoridade normal e simétrica. O que essa informação permite concluir?
     alternativas:
       - "Reduz muito a probabilidade de derrame pleural, mas não altera a probabilidade de outras doenças pulmonares"
       - "Exclui pneumonia, pois a consolidação sempre produz macicez"
-      - "Exclui doença pulmonar obstrutiva crônica, que sempre produz hipersonoridade"
+      - "Exclui doença pulmonar obstrutiva crônica, pois a obstrução ao fluxo aéreo produz sempre hipersonoridade detectável nos dois hemitórax"
       - "Não permite conclusão alguma, pois a percussão não tem valor negativo"
     corretaIndex: 0
     explicacao: "A ausência de macicez reduz significativamente a probabilidade de derrame pleural (razão de verossimilhança 0,1) — a percussão detectou todos os grandes derrames nos estudos. Não muda, porém, a probabilidade de outras doenças: a sensibilidade para consolidação foi de apenas 0% a 15%, e nódulos e granulomas não são detectados."
@@ -341,7 +341,7 @@ perguntas:
     alternativas:
       - "Nenhum: a força do golpe não influencia a nota obtida"
       - "Golpes leves produzem sons mais surdos que golpes fortes, de modo que a assimetria criada é do examinador, não do paciente"
-      - "Golpes leves penetram mais profundamente e detectam lesões que os fortes não alcançam"
+      - "Golpes leves penetram mais profundamente na caixa torácica e detectam lesões situadas além dos 5 cm que os golpes fortes não alcançam"
       - "O erro está apenas na ordem, pois a face posterior deve ser percutida antes da anterior"
     corretaIndex: 1
     explicacao: "A força e a orientação do golpe governam o som produzido: golpes mais leves produzem notas mais surdas que golpes fortes. A percussão comparativa exige força idêntica nos dois lados, para que a única variável seja o paciente. Golpes fortes, ao contrário do que ensinava a teoria topográfica, produzem áreas de macicez menores, não maiores."
@@ -349,7 +349,7 @@ perguntas:
     enunciado: Um paciente tem grande derrame pleural à direita. Ao percutir a face posterior do hemitórax esquerdo, você encontra uma área triangular de macicez. Como se chama esse achado e o que ele demonstra?
     alternativas:
       - "Istmo de Krönig; demonstra doença do ápice pulmonar esquerdo"
-      - "Ressonância skódica; demonstra hiperinsuflação compensatória do pulmão esquerdo"
+      - "Ressonância skódica; demonstra hiperinsuflação compensatória do pulmão esquerdo, que assume a ventilação perdida do lado do derrame"
       - "Triângulo de Grocco; demonstra que pressão aplicada em um ponto do tórax produz macicez à distância"
       - "Sinal de Signorelli; demonstra derrame pleural bilateral"
     corretaIndex: 2
@@ -357,10 +357,10 @@ perguntas:
   - id: perc-torax-6
     enunciado: Que diferença separa hipersonoridade de som timpânico à percussão do tórax?
     alternativas:
-      - "A hipersonoridade é musical e tem tonalidade identificável; o timpanismo é um ruído sem altura definida"
-      - "A hipersonoridade é a mesma nota do som claro pulmonar, apenas mais clara e mais intensa; o timpanismo é musical, com uma frequência dominante identificável"
-      - "São sinônimos, e a escolha do termo depende apenas da escola semiológica"
+      - "A hipersonoridade é musical e tem uma frequência dominante identificável; o timpanismo é um ruído sem altura definida, gerado pelo excesso de ar nos alvéolos"
       - "A hipersonoridade só ocorre no pneumotórax e o timpanismo só ocorre no enfisema"
-    corretaIndex: 1
+      - "São sinônimos, e a escolha do termo depende apenas da escola semiológica"
+      - "A hipersonoridade é a mesma nota do som claro, apenas mais clara e mais intensa; o timpanismo é musical, com tonalidade identificável"
+    corretaIndex: 3
     explicacao: "Hipersonoridade é a nota do som claro pulmonar tornada mais clara e mais intensa, por aumento de ar nos alvéolos — o enfisema é a causa mais comum. O som timpânico contém uma frequência dominante e por isso tem tonalidade musical identificável; indica ar aprisionado, como no pneumotórax, em grandes cavernas superficiais e, normalmente, no espaço de Traube."
 :::

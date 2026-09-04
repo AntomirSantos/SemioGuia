@@ -22,10 +22,28 @@ de FR do O4. Subitens sem lado SC/McGee (Porto interno: J3-iv, Glasgow do
 I3, janela testicular e PA do O4, e as divergências Porto×Porto do L5)
 seguem abertos dentro dos seus itens.
 
+**Rodada do questionário (2026-09-03):** o autor respondeu por texto à
+enumeração completa dos itens abertos. Decisões que mudaram texto: A1
+(ictus do longilíneo → 5º EIC, Exame Clínico), A10 (limite da macicez
+hepática → Exame Clínico), A11 (estertores finos → Quadro 16.4), C1
+(febrícula até 37,7 °C, febre ≥ 37,8 °C), B3 (cortes numéricos do ângulo
+de Charpy restaurados) e a janela testicular do O4 (9–14 anos adotada).
+Endossos sem edição: A5, B1 (duas escalas mantidas), B4 (resolvido pela
+própria regra editorial), B5, B6, E1, E2, F3, F4, F5, H2 (ensino da
+exoftalmometria mantido), I3 (Glasgow lado a lado), J1, J2, J4, J5, K1,
+K2, K3, K6, K7, L3, L4, L5 (restantes lado a lado), N2, N3, N5, N6, N7,
+O2, O3, O4 (PA: Flynn como moldura), C2. O6: o exame físico do idoso
+deixa de ser fronteira aceita e vira **fase futura planejada**. Trabalhos
+maiores aprovados na mesma rodada: quiz endurecido para o nível básico
+(H3/I2), re-otimização das cores de sistema (F1/H1/I4/J6/K5/L2 + L1/N1/O1)
+e duas ilustrações novas (I1, J6) — fechados quando executados. O item D
+da oclusão arterial transitória não recebeu resposta e segue aberto.
+
 ## A. Divergências entre as referências (o app escolheu um lado)
 
-- [ ] **A1 · Ictus do longilíneo** — Porto Semiologia Médica: 6º EIC;
-  Porto Exame Clínico: 5º EIC. O app adota o 6º.
+- [x] **A1 · Ictus do longilíneo** — Porto Semiologia Médica: 6º EIC;
+  Porto Exame Clínico: 5º EIC. Decisão do autor (2026-09-03): o guia
+  adota o 5º (Exame Clínico), com o 6º atribuído no texto.
 - [x] **A2 · Palpabilidade do ictus** — Porto Exame Clínico: ~70% palpável
   (30% não detectado); McGee: 25–40% em decúbito dorsal, 50–73% em DLE.
   O app usa McGee e não menciona o número de Porto.
@@ -34,7 +52,7 @@ seguem abertos dentro dos seus itens.
 - [x] **A4 · Descenso y no derrame pericárdico** — Porto inclui o derrame
   entre as causas de y profundo; McGee separa (tamponamento = y ausente).
   O app segue McGee (Tabela 36.2).
-- [ ] **A5 · Foco aórtico acessório** — 3º-4º EIC esquerdo (Porto Sem.
+- [x] **A5 · Foco aórtico acessório** — 3º-4º EIC esquerdo (Porto Sem.
   Méd.) × 3º EIC (Porto Ex. Clín.). O app segue Semiologia Médica.
 - [x] **A6 · Som broncovesicular** — interescapulovertebral **direita**
   (Porto Ex. Clín. + Semiologia Clínica) × "superior" genérico (Porto
@@ -51,12 +69,14 @@ seguem abertos dentro dos seus itens.
 - [x] **A9 · Profundidade alcançada pelo golpe de percussão** — ~5 cm
   (Porto) × ceticismo de McGee (regra de Weil, 1880, evidência escassa).
   Ambos atribuídos em bloco avançado.
-- [ ] **A10 · Limite superior da macicez hepática** — 6ª–7ª costela (Porto
+- [x] **A10 · Limite superior da macicez hepática** — 6ª–7ª costela (Porto
   Sem. Méd.) × submacicez no 4º EIC e macicez no 5º–6º (Porto Ex. Clín.).
-  O app adota Semiologia Médica, rotulado no ponto de uso.
-- [ ] **A11 · Estertores finos e mudança de posição** — "modificam-se só os
+  Decisão do autor (2026-09-03): o guia adota o Exame Clínico, com a
+  Semiologia Médica atribuída no ponto de uso.
+- [x] **A11 · Estertores finos e mudança de posição** — "modificam-se só os
   de congestão" (Porto Sem. Méd., Quadro 36.7) × "modificam-se ou são
-  abolidos" (Porto Ex. Clín., Quadro 16.4). O app adota o Quadro 36.7.
+  abolidos" (Porto Ex. Clín., Quadro 16.4). Decisão do autor (2026-09-03):
+  o guia adota o Quadro 16.4, com o 36.7 atribuído na tabela.
 - [x] **A12 · Limiar de cianose** — clássico 5 g/dL (Porto; o "5%" do
   cap. 36 é typo comprovado pela própria obra) × 2,38 g/dL medidos
   (McGee, Tabela 9.1). O app ensina só o 2,38; considerar restaurar o
@@ -71,26 +91,27 @@ seguem abertos dentro dos seus itens.
 
 ## B. Convenções internas do app (escolhas a confirmar)
 
-- [ ] **B1 · Duas escalas de intensidade de sopro** — Levine 1–6 e cruzes
+- [x] **B1 · Duas escalas de intensidade de sopro** — Levine 1–6 e cruzes
   + a ++++ convivem, sempre rotuladas, com aviso de não-intercambialidade.
   Padronizar ou manter as duas?
 - [x] **B2 · Taxonomia da impulsão apical** — spec pedia "hipercinético ×
   hipocinético"; o tópico adotou normal/hipercinético/sustentado/retrátil
   (McGee). Confirmar a troca.
-- [ ] **B3 · Ângulo de Charpy qualitativo** — Porto traz os cortes (≈90°
+- [x] **B3 · Ângulo de Charpy qualitativo** — Porto traz os cortes (≈90°
   mediolíneo, <90° longilíneo, >90° brevilíneo) sem ambiguidade; o app
-  descreve sem números. Restaurar os cortes?
-- [ ] **B4 · Política geral para divergências** — hoje o texto silencia a
+  descrevia sem números. Autor (2026-09-03): cortes restaurados na
+  inspeção do tórax.
+- [x] **B4 · Política geral para divergências** — hoje o texto silencia a
   divergência e segue a fonte citada (itens A acima). Alternativa: nota
   curta atribuída nos pontos de conflito. Definir o padrão da casa.
-- [ ] **B5 · Atribuições menores do capítulo respiratório** — desvio de
+- [x] **B5 · Atribuições menores do capítulo respiratório** — desvio de
   traqueia listado na atelectasia obstrutiva (Semiologia Clínica o põe na
   fibroatelectasia; Porto apoia o uso geral); glosa "MV diminuído
   bilateral → DPOC / unilateral → derrame" (LRs corretos, estratificação
   original é por contexto clínico); percussão comparativa atribuída a
   Auenbrugger (a dígito-digital é posterior, de Piorry).
 
-- [ ] **B6 · Nivelamento de conteúdos da spec** — itens que a spec §3
+- [x] **B6 · Nivelamento de conteúdos da spec** — itens que a spec §3
   atribui a "aprofundamento" foram publicados em nível base (tabela das 4
   valvopatias, tabelas do flebograma, sinal de Kussmaul, atrito
   pericárdico); cada tópico mantém 3–6 blocos avançados. Confirmar a
@@ -98,18 +119,20 @@ seguem abertos dentro dos seus itens.
 
 ## E. Itens da Fase 6 (anamnese e avaliação geral)
 
-- [ ] **E1 · Vocabulário datado das fácies** — o app omitiu a "fácies do
+- [x] **E1 · Vocabulário datado das fácies** — o app omitiu a "fácies do
   deficiente mental" de Porto e renomeou "fácies mongoloide" para "da
   síndrome de Down", com nota editorial. Revisores confirmaram a decisão
   como sólida; falta o aval do autor por ser desvio deliberado da fonte.
-- [ ] **E2 · Explicação e plano (Calgary-Cambridge)** — a etapa final do
+- [x] **E2 · Explicação e plano (Calgary-Cambridge)** — a etapa final do
   guia de Calgary (explicar diagnóstico e plano) ficou fora do capítulo
   de anamnese (coerente com adiar "más notícias"). Decidir em que
   capítulo futuro entra.
-- [ ] **E3 · Viés "resposta mais longa é a correta"** — 78–79% em TODO o
-  banco de questões (inclusive capítulos antigos). O viés posicional já
-  foi corrigido nos capítulos novos ([6,5,6,7] e [7,5,6,6]); os antigos
-  seguem carregados na alternativa B. Vale uma passada editorial de fase.
+- [x] **E3 · Viés "resposta mais longa é a correta"** — autor
+  (2026-09-03): passada executada nos capítulos antigos (anamnese,
+  cardio, respiratório, avaliação geral, sinais vitais — 19 arquivos).
+  Correta estritamente mais longa caiu de ~80% para ≤2 por arquivo
+  (na maioria, 0), e o carregamento posicional em B foi redistribuído
+  ([1,2,1,2]/[2,1,1,2] por arquivo, com D recebendo corretas).
 - [ ] **E4 · Menores registrados pelas revisões** — ordem das seções nos
   2 primeiros tópicos de anamnese (abertura antes da técnica); exemplo
   "falta de ar" repetido 7× no capítulo; referências cruzadas duplicadas
@@ -123,26 +146,25 @@ seguem abertos dentro dos seus itens.
 
 ## F. Itens da Fase 7 (abdome)
 
-- [ ] **F1 · Cor do sistema Abdome (#D99A3B)** — a menor razão de
-  contraste entre as cinco cores de sistema no tema claro (2,03:1 sobre
-  superfície). Dentro da regra atual (cor decorativa), mas a primeira a
-  revisitar se o corte de 3:1 para objetos gráficos for adotado; vale
-  também cobrir cores de sistema no checar-contraste.
+- [x] **F1 · Cor do sistema Abdome (#D99A3B)** — resolvido na
+  re-otimização Q16 (2026-09-03): a cor foi mantida (2,43:1 no glifo,
+  acima do piso de 2,0), e o `checar:contraste` agora cobre as 12 cores
+  de sistema com pisos automatizados (ver H1).
 - [x] **F2 · Formato do espaço de Traube** — triangular (Porto, no
   capítulo do tórax) × semilunar 12×9 cm (Semiologia Clínica, no
   capítulo do abdome). Cada um atribuído no seu lugar; quem segue a
   referência cruzada encontra dois formatos sem nota. Uma oração resolve.
-- [ ] **F3 · Epônimo "Guyon" omitido deliberadamente** — a spec pedia
+- [x] **F3 · Epônimo "Guyon" omitido deliberadamente** — a spec pedia
   "rins (Guyon)", mas o epônimo não existe em nenhuma das 4 referências
   (só "canal de Guyon", no punho). A técnica é ensinada pelos nomes que
   Porto usa (captura do rim, choque lomboabdominal). Aceitar a omissão ou
   indicar outra fonte que ancore o nome.
-- [ ] **F4 · Armadilhas internas de Porto (registro p/ capítulos futuros
+- [x] **F4 · Armadilhas internas de Porto (registro p/ capítulos futuros
   de digestório)** — cap. 90 "5º EIC direito" × cap. 91 "5º EIC esquerdo"
   (limite hepático); "borda interna" × "borda externa" do reto no ponto
   cístico; flanco direito × hipocôndrio na colecistite. Todas resolvidas
   para o lado correto nesta fase, com as divergências anotadas no texto.
-- [ ] **F5 · Migração da manobra do fluxo venoso** — recomendação do
+- [x] **F5 · Migração da manobra do fluxo venoso** — recomendação do
   revisor: mover a manobra (e a circulação colateral) para o exame físico
   geral (ectoscopia/pele), onde tórax e abdome poderiam referenciá-la.
   Hoje ela vive no capítulo do abdome, atribuída ao cap. 10 de Porto.
@@ -165,25 +187,26 @@ seguem abertos dentro dos seus itens.
 
 ## H. Itens da Fase 9 (cabeça e pescoço)
 
-- [ ] **H1 · Script de contraste não cobre cores de sistema** — o
-  checar:contraste só testa os tokens fixos do tema; nenhuma `cor` de
-  sistema (incluindo a nova #C46B8F) passa pelo gate automatizado. A
-  regra da casa (cor de sistema nunca como texto, só tint/ícone/fundo)
-  é garantida por inspeção manual e foi conferida na revisão da F9-T1.
-  Candidato a melhoria de tooling: gate que varra usos de `sistema.cor`.
-- [ ] **H2 · Exoftalmometria além da moldura** — a spec da Fase 9 pedia a
+- [x] **H1 · Script de contraste não cobre cores de sistema** — feito na
+  Q16 (2026-09-03): `checar:contraste` agora lê `content/sistemas.yaml`
+  e aplica às 12 cores os pisos da casa — glifo ≥ 2,0:1 vs superficie e
+  ≥ 1,79:1 vs superficie2, nos dois temas — falhando o gate se qualquer
+  cor cair abaixo.
+- [x] **H2 · Exoftalmometria além da moldura** — a spec da Fase 9 pedia a
   medida da exoftalmia "como moldura"; o tópico `olhos` ensina a técnica
   (Hertel/régua) em bloco avançado, declarando a contradição interna do
   Porto (cap. 16: Hertel 12–15 mm, régua <20 mm × cap. 103: "até
   23 mm") e recomendando não comparar técnicas diferentes. A revisão
   médica validou o conteúdo; decidir se mantém o ensino ou reduz à
   moldura (só assimetria >2 mm + crescente de esclerótica).
-- [ ] **H3 · Questões que dependem de blocos avançados** — 5 das 24
-  questões da Fase 9 (olh-2, olh-3, olh-5, tir-1, tir-5) exigem conteúdo
-  de aprofundamento, seguindo o padrão já aprovado nas Fases 5–7 (o quiz
-  cobre básico + avançado). Decidir se a regra deve ser endurecida
-  (quiz só do nível básico) ou mantida; se endurecer, vale retrofit nos
-  capítulos anteriores (abdome, cardio, respiratório têm o mesmo padrão).
+- [x] **H3 · Questões que dependem de blocos avançados** — autor
+  (2026-09-03): regra endurecida — o quiz cobra só o nível básico.
+  Retrofit executado: olh-2/3/5 e tir-1/5 reescritas para conteúdo
+  básico (ids preservados), auditoria em abdome/cardio/respiratório
+  (2 reescritas, 3 corretas despidas de números avançados) e extensão
+  da mesma regra a osteoarticular e vascular (5 reescritas). Verificador
+  automatizado: nenhuma alternativa correta cita mais valores que só
+  existem em blocos avançados.
 - [ ] **H4 · Divergências de fonte da Fase 9** — nove atribuídas lado a
   lado nos tópicos (anisocoria 5/25/35/38%, cortes pupilares,
   exoftalmometria [ver H2], dedos na palpação da tireoide, tireoide
@@ -194,16 +217,16 @@ seguem abertos dentro dos seus itens.
 
 ## I. Itens da Fase 10 (sistema nervoso)
 
-- [ ] **I1 · Sensibilidade e coordenação sem ilustração** — único tópico
-  do capítulo com 0 ilustrações (o capítulo tem 8, mínimo cumprido).
-  Sugestão das revisões: um painel dos padrões de perda sensitiva
-  (bota-e-luva / nível sensitivo / hemi-hipoestesia), lição que é mais
-  desenho de lateralidade do que texto.
-- [ ] **I2 · Extensão do H3 à Fase 10** — 8 das 36 questões novas
-  (neu-con-3, neu-pc2-1, neu-pc2-3, neu-mot-3, neu-sen-6, neu-mar-1,
-  neu-mar-3, neu-mar-6) apoiam-se em blocos de aprofundamento (LRs),
-  mesmo padrão das Fases 5–9. Decidir junto com o H3.
-- [ ] **I3 · Divergências de fonte da Fase 10** — atribuídas lado a lado
+- [x] **I1 · Sensibilidade e coordenação sem ilustração** — autor
+  (2026-09-03): aprovado e feito. Painel dos três padrões de perda
+  sensitiva (bota e luva / nível sensitivo / hemi-hipoestesia) criado
+  após a tabela de padrões, geometria verificada em render.
+- [x] **I2 · Extensão do H3 à Fase 10** — resolvido com o H3 (2026-09-03):
+  neu-con-3, neu-pc2-1, neu-pc2-3, neu-mot-3, neu-sen-6 e neu-mar-1
+  reescritas para conteúdo básico; neu-mar-3 e neu-mar-6 verificadas e
+  mantidas — seus números (tandem 5,4; Lasègue 1,5/0,4/3,4) vivem em
+  blocos básicos do próprio tópico.
+- [x] **I3 · Divergências de fonte da Fase 10** — atribuídas lado a lado
   nos tópicos: redação e faixas da Glasgow entre os quadros de Porto/SC;
   diâmetro pupilar (Porto 3–5 mm no cap. de olhos × 2–4 mm nos de
   neuro); três escalas de reflexos incompatíveis ("+" normal para Porto,
@@ -213,15 +236,14 @@ seguem abertos dentro dos seus itens.
   cap. 172: pseudobulbar); rigidez de nuca 84% × 20–52% (explicada).
   Lacunas declaradas das fontes: escala numérica do VII e registro "T"
   da Glasgow em intubado (nenhuma das 4 obras). Endossar.
-- [ ] **I4 · Wash de fundo Anamnese × Sistema nervoso** — no claro, os
-  fundos a 14% de alpha do roxo #8E6BC8 e do índigo #5B6ABF diferem
-  pouco (~7 pontos de RGB); a distinção vem do ícone e do tint pleno.
-  Se quiser mais separação, escurecer/saturar o índigo. Guarda-chuva do
-  H1 (cores de sistema fora do gate automatizado).
+- [x] **I4 · Wash de fundo Anamnese × Sistema nervoso** — resolvido na
+  re-otimização Q16 (2026-09-03): anamnese → #6A1DA5 e nervoso →
+  #3D69E1; o pior par entre os dois subiu de ΔE00 0,21 (protanopia,
+  claro — quase colisão) para ≥ 1,97 em todos os regimes.
 
 ## J. Itens da Fase 11 (vascular periférico)
 
-- [ ] **J1 · §3.4 da spec superada** — a spec destinava os números de
+- [x] **J1 · §3.4 da spec superada** — a spec destinava os números de
   McGee do aneurisma de aorta e o efeito do perímetro abdominal ao
   aprofundamento deste capítulo; `palpacao-do-abdome.md:349-360` já os
   possuía por inteiro. A revisão decidiu citar o dono: a regra "citar,
@@ -229,7 +251,7 @@ seguem abertos dentro dos seus itens.
   recebeu material novo (κ 0,53; RV 80,8 e 13,8 dos sinais
   pós-punção femoral; as três definições incompatíveis de aneurisma).
   Endossar.
-- [ ] **J2 · §3.3 da spec com premissa invertida** — a spec supunha que
+- [x] **J2 · §3.3 da spec com premissa invertida** — a spec supunha que
   as razões de verossimilhança da trombose venosa só existiriam dentro
   da suspeita de embolia pulmonar e mandava declarar a lacuna. O McGee
   tem capítulo dedicado (cap. 56, com o boxe EBM 56.1 de onze sinais).
@@ -249,44 +271,41 @@ seguem abertos dentro dos seus itens.
   cerulea" × "cerulea dolens", mesma descrição) e livedo (contorna pele
   normal × contorna palidez). Endossar a apresentação lado a lado ou
   eleger um lado por item.
-- [ ] **J4 · Ressalva do teste de Buerger** — as três versões do teste
+- [x] **J4 · Ressalva do teste de Buerger** — as três versões do teste
   (por ângulo, a investigada de 2+2 min e a de Porto por tempo) só
   ficam plenamente distinguíveis para quem chega ao bloco avançado. A
   figura deliberadamente não traz relógio e a manobra ancora os 5 a 12
   segundos no retorno à horizontal. Decidir se a ressalva sobe para o
   nível básico.
-- [ ] **J5 · Decisão de ensino de Brodie-Trendelenburg e Perthes** —
+- [x] **J5 · Decisão de ensino de Brodie-Trendelenburg e Perthes** —
   ancoradas (Porto SM cap. 57; SC cap. 65, estudo de 70 membros em 44
   pacientes) e ensinadas em bloco avançado **com o fracasso medido**
   (sensibilidade 0,91 e 0,97 contra especificidade 0,15 e 0,20: testes
   que praticamente não conseguem ser negativos), deliberadamente fora
   da manobra e do checklist, com a sentença de desuso do próprio Porto.
   Endossar a decisão de nomear-e-medir em vez de omitir.
-- [ ] **J6 · Tópico sem ilustração e o verde sob daltonismo** —
-  `isquemia-aguda-e-aneurismas` é o único dos quatro sem ilustração (o
-  capítulo cumpre o mínimo com 4); candidato natural é um painel dos
-  achados que separam membro ameaçado de membro inviável. E o par
-  vascular × abdome converge sob deuteranopia e protanopia (ΔE 2,81 no
-  claro), embora fique melhor que o par anamnese × nervoso já
-  registrado no I4. Guarda-chuva do H1/I4.
-- [ ] **J7 · Ponteiro na linha vascular do interrogatório** — a linha
-  "Artérias, veias, linfáticos e microcirculação" de
-  `interrogatorio-sintomatologico.md:165` não aponta destino, enquanto a
-  linha "Tórax" traz ponteiros embutidos. Agora existe um capítulo que
-  ensina nove dos nove itens. Melhoria opcional de simetria.
+- [x] **J6 · Tópico sem ilustração e o verde sob daltonismo** — resolvido
+  em 2026-09-03: painel "membro ameaçado × membro inviável" criado no
+  tópico (geometria verificada em render), e o verde vascular passou a
+  #60913B na re-otimização Q16 — o par vascular × abdome fica em
+  ΔE00 ≈ 2,7 sob daltonismo, acima do novo mínimo global da paleta.
+- [x] **J7 · Ponteiro na linha vascular do interrogatório** — autor
+  (2026-09-03): feito. A linha "Artérias, veias, linfáticos e
+  microcirculação" agora aponta para o capítulo de exame vascular
+  periférico, em simetria com a linha "Tórax".
 
 ## K. Itens da Fase 12 (osteoarticular)
 
-- [ ] **K1 · Método de mineração do McGee** — a varredura por título de
+- [x] **K1 · Método de mineração do McGee** — a varredura por título de
   capítulo falhou (o título vem na linha seguinte a "C H A P T E R nn")
   e o offset PDF↔impresso é variável por capítulo (129 no cap. 57, 146
   no cap. 63). Método adotado daqui em diante: `pdftotext -layout` +
   mapa de páginas por capítulo. Endossar como padrão.
-- [ ] **K2 · Capítulo 64 do McGee como fonte estrutural da mão** — os
+- [x] **K2 · Capítulo 64 do McGee como fonte estrutural da mão** — os
   números do túnel do carpo (EBM 64.3) vêm do capítulo de nervos,
   seguindo a remissão explícita do próprio McGee (p. 482, "hand pain —
   see Chapter 64"). Endossar o padrão de seguir remissões do autor.
-- [ ] **K3 · Razões de verossimilhança altas de estudo único** — rotação
+- [x] **K3 · Razões de verossimilhança altas de estudo único** — rotação
   interna do quadril <15° = 9,9 (598 pacientes) e aumento ósseo do
   joelho = 11,8 (237 pacientes, padrão = consenso de especialistas).
   Ensinadas com o contexto declarado; endossar.
@@ -294,18 +313,17 @@ seguem abertos dentro dos seus itens.
   "30°" na Semiologia Médica (cap. 160) contra 0–120° do Exame Clínico
   do mesmo autor e 130° do McGee. O guia publica a discrepância sem
   escolher. Validar no exemplar impresso.
-- [ ] **K5 · Cor #A83399 e a capacidade da paleta** — otimizada em dois
-  regimes (folga normal 4,22; daltonismo 1,36) contra baseline dos
-  piores pares antigos (3,10 e 0,22–0,58). A paleta atingiu a
-  capacidade prática para cores categóricas: cor nunca é canal único
-  (ícone + nome + posição), e sistemas novos devem assumir isso.
-  Guarda-chuva de H1/I4/J6.
-- [ ] **K6 · Lição da preensão palmar** — alegações de "omissão honesta"
+- [x] **K5 · Cor #A83399 e a capacidade da paleta** — endossado e
+  materializado na Q16 (2026-09-03): #A83399 mantida; a re-otimização
+  global elevou o pior par sob daltonismo de ΔE00 0,00 para 1,67 e
+  confirmou a lição — 12 cores categóricas estão no limite prático, e
+  cor nunca é canal único (ícone + nome + posição).
+- [x] **K6 · Lição da preensão palmar** — alegações de "omissão honesta"
   ("nenhuma obra mede X") devem ser verificadas também contra o
   PRÓPRIO GUIA publicado, não só contra as fontes: o achado mais grave
   da fase nasceu de o guia já ensinar em antropometria o que o tópico
   da mão dizia não existir. Institucionalizar o grep interno.
-- [ ] **K7 · Menores da revisão final** — (a) "gibosidade" tem dois
+- [x] **K7 · Menores da revisão final** — (a) "gibosidade" tem dois
   sentidos ancorados (tórax cifótico em inspeção do tórax × rotação
   costal da escoliose na coluna) sem desambiguação; (b) três ponteiros
   recíprocos opcionais: marcha→quadril (RV 3,2 do glúteo médio),
@@ -316,23 +334,21 @@ seguem abertos dentro dos seus itens.
 
 ## L. Itens da Fase 13 (mamas e geniturinário)
 
-- [ ] **L1 · Semântica da cor #2929D6** — azul puro escolhido por
-  otimização de separação em dois regimes (mínimos 4,80 visão normal /
-  3,93 daltonismo, os melhores da paleta), sem associação convencional
-  com mamas/GU; a semântica fica com o ícone ribbon. Override manual é
-  possível, ao custo medido de separação.
-- [ ] **L2 · Colisão CVD pré-existente da paleta** — cabeça-e-pescoço
-  (#C46B8F) × respiratório (#3BA48D) ficam com washes idênticos
-  (ΔE2000 = 0,00) sob deuteranopia no tema escuro, por arredondamento
-  8-bit do wash de 14% sobre o fundo #0f121c. Anterior à F13 e fora do
-  seu escopo; pendência global de paleta (cor nunca é canal único —
-  ícone+nome+posição seguram a distinção).
-- [ ] **L3 · Célula "Dolorosa" do Quadro 18.1 (Porto EC)** — a obra
+- [x] **L1 · Semântica da cor do sistema Mamas/GU** — decisão mantida na
+  Q16 (2026-09-03): a cor segue azul por separação medida (agora
+  #1717E8, que também corrige o piso de glifo no tema escuro, antes
+  1,89:1); a semântica fica com o ícone ribbon, como desenhado.
+- [x] **L2 · Colisão CVD pré-existente da paleta** — resolvida na
+  re-otimização Q16 (2026-09-03): respiratório → #46AF88; o par
+  cabeça-e-pescoço × respiratório subiu de ΔE00 0,00 (deuteranopia,
+  tema escuro, tokens atuais) para 2,23, e o pior par global da paleta
+  sob daltonismo subiu para 1,67.
+- [x] **L3 · Célula "Dolorosa" do Quadro 18.1 (Porto EC)** — a obra
   imprime "Dolorosa" como sensibilidade da próstata NORMAL (reconferido
   no PDF por dois revisores). O guia reproduz fiel e sinaliza a célula
   em bloco de entendimento (gradiente: desconforto normal × dor extrema
   da prostatite). Confirmar o tratamento ou decidir omitir a linha.
-- [ ] **L4 · Convenções declaradas sem âncora** — contraindicação da
+- [x] **L4 · Convenções declaradas sem âncora** — contraindicação da
   massagem prostática na prostatite aguda (construída sobre dados de
   Porto SM, nenhuma obra a formula); acompanhante para a paciente adulta
   (âncora parcial: SC cap. 2, acolhimento; Porto SM só sistematiza para
@@ -340,7 +356,7 @@ seguem abertos dentro dos seus itens.
   ensina); divisor dos vasos epigástricos no SVG do canal inguinal
   (anatomia consolidada além das obras). Todas declaradas no texto;
   endossar.
-- [ ] **L5 · Divergências carregadas lado a lado** — secreção esverdeada
+- [x] **L5 · Divergências carregadas lado a lado** — secreção esverdeada
   (EC alarme ductal × SM perfil fisiológico; desempate pelos outros
   eixos); paciente virgem (SM proíbe espéculo/toque × SC admite hímen
   perfurado); drenagem axilar 75% (EC) × 97% (SM); Montgomery ×
@@ -348,31 +364,29 @@ seguem abertos dentro dos seus itens.
   mamária; toque retal (SM genupeitoral × SC três posições); testículo
   direito anterior (SC) × esquerdo mais baixo (SM). Escolher lados ou
   manter.
-- [ ] **L6 · Runs herdados da Fase 7 no abdome agudo** — 1 citação de
-  14 palavras entre aspas e atribuída (Figura 91.3 de Porto — sancionada,
-  mas longa) + 3 paráfrases de 9 palavras atribuídas (l.181, 252, 297),
-  anteriores à barra atual de N≥9. Nada introduzido pela F13. Reescrever
-  ou endossar como citações.
-- [ ] **L7 · Recall da busca "próstata"** — retorna só o tópico Toque
-  retal (correto por desenho: a próstata é ensinada lá). Tag opcional
-  em genitália masculina ampliaria o recall.
+- [x] **L6 · Runs herdados da Fase 7 no abdome agudo** — autor
+  (2026-09-03): reescrever. A citação da Figura 91.3 e as 3 paráfrases
+  viraram prosa própria; verificador de originalidade (N≥9) zerado no
+  tópico.
+- [x] **L7 · Recall da busca "próstata"** — autor (2026-09-03): feito.
+  Tag "próstata" adicionada ao tópico de genitália masculina; o Toque
+  retal segue sendo o dono do ensino.
 - [ ] **L8 · Periodicidades datadas** — mamografia anual ≥40 (alto
   risco ≥30) e Papanicolaou 25–60 (anual→trienal) entraram como
   recomendações da 8ª ed. de Porto, datadas; envelhecem com diretrizes.
 
 ## N. Itens da Fase 14 (exame psíquico)
 
-- [ ] **N1 · Cor #BDBD05 e contraste do glifo** — oliva-chartreuse escolhido
-  por otimização com piso de legibilidade (separação 6,46 normal / 3,57
-  CVD, as melhores da paleta; glifo 2,01:1 no tema claro, chevron do
-  cabeçalho 1,68:1 — legível, mas é o teto de tolerância; S=95 fica
-  fora da banda de família da spec, desvio justificado por dados).
-  Endossar ou trocar com re-medição.
-- [ ] **N2 · Divergência interna de Porto no MEEM** — analfabetos: 14
+- [x] **N1 · Cor #BDBD05 e contraste do glifo** — re-medida na Q16
+  (2026-09-03) contra os tokens vigentes: a busca por substituto na
+  mesma família devolveu #BCBC06 (idêntica na prática) — o oliva é o
+  ótimo local. Mantida; glifo 2,01:1 e superficie2 1,80:1, agora
+  vigiados pelo gate automatizado (H1).
+- [x] **N2 · Divergência interna de Porto no MEEM** — analfabetos: 14
   pontos no Quadro 20.4 do Exame Clínico × 20 pontos em Brucki
   (Quadro 181.9 da Semiologia Médica). Exibida como "a divergência é o
   dado", com instrução de registrar a tabela usada. Validar.
-- [ ] **N3 · Seis versões de corte do MEEM** em tabela com dono por linha
+- [x] **N3 · Seis versões de corte do MEEM** em tabela com dono por linha
   (Quadro 20.4; Brucki; cap. 172; cap. 9 do idoso; Almeida/Caramelli
   da SC; as 3 faixas de McGee). Conferir se todas ficam.
 - [x] **N4 · Pseudodemência depressiva** — SC nomeia ativamente × Porto SM
@@ -380,19 +394,19 @@ seguem abertos dentro dos seus itens.
   quiz cobrando a divergência; "prova terapêutica com antidepressivos"
   citada como destino do impasse, sem classe além da nomeada pela
   fonte, sem dose. Endossar.
-- [ ] **N5 · Molduras nomeadas-não-ensinadas** — Ramsay e RASS (SC só as
+- [x] **N5 · Molduras nomeadas-não-ensinadas** — Ramsay e RASS (SC só as
   nomeia; itens não importados), CAM-ICU (nome vem das referências
   45–46 do próprio cap. 6 do McGee), PRIME-MD/PHQ/GAD (SC),
   GDS-15/Yesavage (SM, com CID-10/DSM-5 invocados pela fonte),
   critérios de depressão da SM ("cinco... 2 semanas") deliberadamente
   NÃO reproduzidos (matriz DSM). Endossar as abstenções.
-- [ ] **N6 · Convenções e leituras declaradas** — "insight" como sinônimo
+- [x] **N6 · Convenções e leituras declaradas** — "insight" como sinônimo
   de tradução de "crítica"; a pérola do Mini-Cog (relógio interposto
   entre registro e cobrança) como leitura do guia; partição do mapa
   das funções (princípio da SC + divisão dos tópicos do guia, fusão
   declarada); linhas de instalação da tabela diferencial como síntese
   declarada. Endossar.
-- [ ] **N7 · Triagem de suicídio** — o guia registra o risco como primeiro
+- [x] **N7 · Triagem de suicídio** — o guia registra o risco como primeiro
   critério de encaminhamento e remete a pergunta de triagem à
   anamnese da fonte, sem ensinar roteiro próprio ("exame que detecta
   não termina em anotação, termina em conduta"). Validar o
@@ -404,65 +418,67 @@ seguem abertos dentro dos seus itens.
 
 ## O. Itens da Fase 15 (semiologia da criança) — e do fechamento do guia
 
-- [ ] **O1 · Matiz carmesim × cardiovascular** — #C1012E é o segundo
-  vermelho da home de 12 (matematicamente distinto: ≥2,74 em todos os
-  regimes, incl. daltonismo; o melhor candidato não-vermelho, #4000FF,
-  perde em separação e seria o 4º azul). Decisão estética a arbitrar.
-- [ ] **O2 · Tanner sem pranchas** — as 3 obras brasileiras dão os 5
+- [x] **O1 · Matiz carmesim × cardiovascular** — resolvido na Q16
+  (2026-09-03): semiologia-da-criança deixou a família do vermelho e
+  passou ao ciano #26C4CF, matiz que nenhum sistema ocupava — a
+  distância para o vermelho cardiovascular saltou de ΔE00 4,6 para 20,0
+  em visão normal, e a semântica fica com o ícone (princípio do L1).
+- [x] **O2 · Tanner sem pranchas** — as 3 obras brasileiras dão os 5
   estágios só em figuras; o guia ensina o SISTEMA (notação G2P3,
   âncoras textuais, orquidômetros Takihara × Prader, limiar 2,5 mℓ/
   4 cm³ × 4 mℓ lado a lado) e declara que se estadia com a prancha ao
   lado. Endossar a decisão.
-- [ ] **O3 · Ortolani/Barlow como moldura** — rastreio registrado como
+- [x] **O3 · Ortolani/Barlow como moldura** — rastreio registrado como
   obrigação (única ocorrência nas obras, sem descrição de execução);
   o guia não inventou passos. Validar, ou importar técnica de fonte
   externa na revisão.
-- [ ] **O4 · Divergências da fase, lado a lado** — janela testicular
-  9–14 × 9,5–13,5; pelos faciais 14,5 (SM 180) × 12,9 (SC — valor
-  que o 180 dá aos axilares); telarca × velocidade de crescimento
-  como 1º sinal feminino; FR: tetos (Quadro 179.6) × faixas
-  (EC 16.1/SC); PA: Quadro 14.5 do EC (Second Task Force 1987, não
-  importado) × Flynn 2017 (moldura datada). Escolher lados ou manter.
-- [ ] **O5 · C4 pago** — as frequências do caso "Febre em uma criança
-  de 3 anos" (FC 168–174, FR 44–48) agora têm âncora dupla no tópico
-  de crescimento; o caso não foi editado. Dar baixa no C4.
-- [ ] **O6 · Fronteiras declaradas do guia completo** — fora com
+- [x] **O4 · Divergências da fase, lado a lado** — resolvido por partes:
+  janela testicular → **9–14 anos adotada** (caps. 180/114; 9,5–13,5
+  atribuído — autor, 2026-09-03); pelos faciais → 12,9 (SC, regra da
+  hierarquia); FR → faixas (EC/SC, regra da hierarquia); PA → Flynn 2017
+  como moldura, endossado; telarca × velocidade de crescimento mantidos
+  lado a lado como leituras complementares.
+- [x] **O5 · C4 pago** — as frequências do caso "Febre em uma criança
+  de 3 anos" (FC 168–174, FR 44–48) têm âncora dupla no tópico de
+  crescimento; o caso não precisou de edição. Baixa dada no C4
+  (2026-09-03).
+- [x] **O6 · Fronteiras declaradas do guia completo** — fora com
   motivo: marcha da criança pequena e exame motor neonatal
   especializado (ausentes das 4 obras); puericultura/calendário
   vacinal/percentis (por desenho); obstetrícia (sem obra no acervo —
-  reavaliar se Rezende/Zugaib entrarem); **exame físico do idoso** —
-  o único adiamento nominal sem destino restante (fundamentos do
-  psíquico e delirium o nomeiam): aceitar como fronteira ou planejar
-  fase futura.
-- [ ] **O7 · Vocabulário residual "fora desta fase"** — 5 pontos
-  instrumentais (boca-nariz:529; pares I–VI:102/322; pares
-  VII–XII:99/241) envelheceram com o fim das fases; reformulação
-  cosmética opcional.
-- [ ] **O8 · Runs herdados em cranio-e-face** — 8 paráfrases de 9
-  palavras da era da Fase 9 (pré-barra N≥9); zero introduzido pelas
-  costuras. Reescrever ou endossar.
+  reavaliar se Rezende/Zugaib entrarem). Autor (2026-09-03): o **exame
+  físico do idoso** deixa de ser fronteira aceita — fica registrado como
+  **fase futura planejada** (ver README), a especificar quando o beta
+  fechar.
+- [x] **O7 · Vocabulário residual "fora desta fase"** — autor
+  (2026-09-03): reformular. Os 5 pontos instrumentais agora dizem "fora
+  do escopo do guia" (exame à beira do leito), sem referência a fases.
+- [x] **O8 · Runs herdados em cranio-e-face** — autor (2026-09-03):
+  reescrever. As 8 paráfrases viraram prosa própria; verificador de
+  originalidade (N≥9) zerado no tópico.
 
 ## C. Inconsistências antigas ainda abertas (Fases 1C–3)
 
-- [ ] **C1 · Faixa 37,6–37,8 °C** — "febrícula até 37,5 °C" convive com o
-  corte de febre do adulto >37,8 °C, e 37,5 °C aparece em três categorias.
-  Harmonizar.
-- [ ] **C2 · Fluxograma de febre** — síntese didática própria; endossar
+- [x] **C1 · Faixa 37,6–37,8 °C** — "febrícula até 37,5 °C" convivia com o
+  corte de febre do adulto >37,8 °C. Autor (2026-09-03): harmonizado —
+  febrícula até 37,7 °C, febre ≥ 37,8 °C, escada da tabela ajustada e a
+  posição de Porto atribuída ao lado.
+- [x] **C2 · Fluxograma de febre** — síntese didática própria; endossar
   cada etapa.
 - [ ] **C3 · SBP 2025 (DC nº 206)** — valores de fontes secundárias
   concordantes; subir o PDF primário ao repositório de referências.
-- [ ] **C4 · Valores pediátricos dos casos** — FC 168–174 e FR 44–48 na
-  criança de 3 anos sem âncora nos tópicos (só faixas de adulto
-  aprovadas).
-- [ ] **C5 · Páginas de Porto nos tópicos de sinais vitais** — citações
-  "p. 565-570" etc. não verificáveis nas extrações digitais (capítulos
-  conferem). Validar no impresso ou rebaixar para capítulo/seção, como
-  fazem os capítulos novos.
+- [x] **C4 · Valores pediátricos dos casos** — resolvido pela Fase 15: as
+  frequências do caso têm âncora dupla no tópico de crescimento da
+  criança (ver O5). Baixa em 2026-09-03.
+- [x] **C5 · Páginas de Porto nos tópicos de sinais vitais** — autor
+  (2026-09-03): rebaixar. As citações de página dos três tópicos de
+  sinais vitais agora referem capítulo/seção, como nos capítulos novos.
 
 ## D. Conteúdo aguardando aval (não são inconsistências)
 
-- [ ] Os 8 tópicos da Fase 5 (`revisao: pendente`): texto, 48 perguntas,
-  8 checklists, 8 ilustrações.
+- [x] Os 8 tópicos da Fase 5: revisados na triagem de literatura de
+  2026-09-03 (cardio + respiratório), hoje `revisao: ok` e marcados
+  "Revisado" no app.
 - [ ] Os 3 tópicos de sinais vitais e os 3 casos clínicos (pendentes desde
   as fases anteriores; ver `docs/revisao-medica-pendente.md`).
 - [ ] Adição opcional: manobra de **oclusão arterial transitória** na

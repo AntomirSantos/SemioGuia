@@ -1,3 +1,5 @@
+import * as fs from 'fs';
+import * as path from 'path';
 import { paletaClara, paletaEscura, type Paleta } from '../src/design/tokens';
 
 // Razão de contraste WCAG 2.x entre duas cores hex (#RRGGBB).
@@ -60,6 +62,58 @@ export function checarContraste(): ResultadoPar[] {
   return resultados;
 }
 
+// Cores de sistema (H1 do checklist): `sistema.cor` é desenhada direta como
+// glifo do ícone sobre `superficie` (home) e como chevron sobre `superficie2`
+// (Cabecalho). Pisos da casa, herdados das otimizações F12–F15/Q16: glifo
+// >= 2.0:1 vs superficie nos dois temas; veto de mínimo histórico >= 1.79:1
+// vs superficie2 nos dois temas.
+export const PISO_GLIFO = 2.0;
+export const PISO_SUPERFICIE2 = 1.79;
+
+export interface ResultadoSistema {
+  id: string;
+  cor: string;
+  minSuperficie: number;
+  minSuperficie2: number;
+  ok: boolean;
+}
+
+export function lerCoresDeSistema(arquivo: string): Array<{ id: string; cor: string }> {
+  const texto = fs.readFileSync(arquivo, 'utf8');
+  const cores: Array<{ id: string; cor: string }> = [];
+  let idAtual: string | null = null;
+  for (const linha of texto.split('\n')) {
+    const mId = linha.match(/^  - id: ([\w-]+)/);
+    if (mId) idAtual = mId[1];
+    const mCor = linha.match(/^    cor: "(#[0-9A-Fa-f]{6})"/);
+    if (mCor && idAtual) {
+      cores.push({ id: idAtual, cor: mCor[1] });
+      idAtual = null;
+    }
+  }
+  return cores;
+}
+
+export function checarCoresDeSistema(arquivo: string): ResultadoSistema[] {
+  return lerCoresDeSistema(arquivo).map(({ id, cor }) => {
+    const minSuperficie = Math.min(
+      razaoContraste(cor, paletaClara.superficie),
+      razaoContraste(cor, paletaEscura.superficie),
+    );
+    const minSuperficie2 = Math.min(
+      razaoContraste(cor, paletaClara.superficie2),
+      razaoContraste(cor, paletaEscura.superficie2),
+    );
+    return {
+      id,
+      cor,
+      minSuperficie,
+      minSuperficie2,
+      ok: minSuperficie >= PISO_GLIFO && minSuperficie2 >= PISO_SUPERFICIE2,
+    };
+  });
+}
+
 function main() {
   const resultados = checarContraste();
   let falhou = false;
@@ -70,11 +124,23 @@ function main() {
     );
     if (!r.ok) falhou = true;
   }
+  const sistemas = checarCoresDeSistema(path.join(__dirname, '..', 'content', 'sistemas.yaml'));
+  for (const s of sistemas) {
+    const status = s.ok ? 'OK' : 'FALHOU';
+    console.log(
+      `[${status}] sistema ${s.id}: ${s.cor} glifo/superficie = ${s.minSuperficie.toFixed(2)} (mínimo ${PISO_GLIFO.toFixed(1)}), superficie2 = ${s.minSuperficie2.toFixed(2)} (mínimo ${PISO_SUPERFICIE2.toFixed(2)})`,
+    );
+    if (!s.ok) falhou = true;
+  }
+  if (sistemas.length !== 12) {
+    console.error(`\nEsperava 12 cores de sistema em sistemas.yaml, encontrei ${sistemas.length}.`);
+    falhou = true;
+  }
   if (falhou) {
-    console.error('\nUm ou mais pares de contraste ficaram abaixo do mínimo WCAG AA.');
+    console.error('\nUm ou mais pares de contraste ficaram abaixo do mínimo.');
     process.exit(1);
   }
-  console.log('\nTodos os pares atendem o mínimo WCAG AA.');
+  console.log('\nTodos os pares atendem os mínimos (tokens WCAG AA + pisos das cores de sistema).');
 }
 
 if (require.main === module) {

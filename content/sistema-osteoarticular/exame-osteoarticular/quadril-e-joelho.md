@@ -620,14 +620,14 @@ perguntas:
     corretaIndex: 3
     explicacao: "Os cinco preditores da Tabela 57.4 são idade de 55 anos ou mais, dor à palpação da cabeça da fíbula, dor isolada da patela, incapacidade de fletir a 90 graus e incapacidade de sustentar peso imediatamente e no pronto-socorro, definida como não transferir o peso duas vezes para cada membro. Basta um para indicar radiografia, e aos 57 anos o critério etário está preenchido. No boxe EBM 57.5, a idade de 55 anos ou mais rende razão de verossimilhança 3,0 isoladamente; a regra positiva rende 1,7 e a negativa, 0,1 — ela foi construída para dispensar radiografia com segurança, não para confirmar fratura."
   - id: osteo-quadril-5
-    enunciado: Em um paciente com dor crônica no joelho, o examinador encontra aumento de volume ósseo palpável nas margens da articulação. Que leitura o boxe EBM 57.4 autoriza?
+    enunciado: Um paciente com dor crônica no joelho e episódios de travamento não consegue estender a perna por completo. O que esse bloqueio sugere, e para que serve o teste de McMurray nesses quadros?
     alternativas:
-      - "Nenhuma isolada: o achado só ganha significado dentro do conjunto de seis achados combinados, e sozinho não alcança significância"
-      - "Sugere artrite inflamatória, porque o aumento de volume palpável reflete proliferação sinovial e não crescimento ósseo"
-      - "Aponta fortemente para osteoartrite: é o achado isolado mais forte da tabela, com razão de verossimilhança 11,8"
-      - "Sugere osteoartrite apenas se acompanhado de aumento palpável de temperatura, achado que confirma a atividade do processo"
+      - "Ruptura do ligamento cruzado anterior, que o McMurray confirma por meio de uma gaveta rotacional"
+      - "Osteoartrite avançada, em que o McMurray perde o sentido porque é o osso, e não o menisco, que limita a extensão"
+      - "Lesão meniscal — o bloqueio é seu sinal característico; o McMurray existe para as rupturas que não travam"
+      - "Corpo livre intra-articular, que o McMurray desloca e libera, servindo ao mesmo tempo de manobra terapêutica"
     corretaIndex: 2
-    explicacao: "No boxe EBM 57.4, o aumento de volume ósseo palpável rende razão de verossimilhança 11,8, com sensibilidade 55% e especificidade 95% — o achado isolado mais forte. Seguem-se a deformidade em varo, com 3,4, e a rigidez de menos de 30 minutos, com 3,0. O aumento palpável de temperatura tem comportamento invertido: rende 0,3 quando presente, ou seja, argumenta contra osteoartrite, por apontar para artrite inflamatória. A deformidade em valgo não alcança significância. A combinação de três ou mais dos seis achados rende 3,1, e menos de três rende 0,1 — o conjunto serve sobretudo para descartar."
+    explicacao: "Rupturas do menisco anterior, ou as grandes em alça de balde, deslocam tecido entre as superfícies articulares e impedem a extensão completa — o bloqueio, sinal característico de lesão meniscal, que Semiologia Clínica associa à queixa de travamento ou instabilidade e à dor à palpação direta da interlinha. O teste de McMurray foi proposto justamente para as rupturas da metade posterior do menisco, que dificilmente travam a extensão e por isso escapam do achado espontâneo."
   - id: osteo-quadril-6
     enunciado: Uma paciente de 61 anos tem dor lateral no quadril esquerdo, pior à noite quando se deita sobre esse lado, e dor máxima à palpação do trocanter maior. Que achado adicional mudaria de forma relevante o raciocínio?
     alternativas:

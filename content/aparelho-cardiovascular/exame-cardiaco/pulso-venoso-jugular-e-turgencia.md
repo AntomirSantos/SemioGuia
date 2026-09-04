@@ -420,8 +420,8 @@ perguntas:
   - id: jugular-1
     enunciado: Quais características identificam uma pulsação como venosa, e não carotídea?
     alternativas:
-      - "Onda única, nitidamente palpável, sem variação com a posição nem com a respiração"
-      - "Aspecto ondulante, mais visível que palpável, variando com a posição e a respiração, e abolida pela compressão leve na base do pescoço"
+      - "Onda única, nitidamente palpável, sem variação com a posição nem com a respiração, e que se intensifica sob compressão leve na base do pescoço"
+      - "Aspecto ondulante, mais visível que palpável, mudando com posição e respiração, abolida por compressão leve na base do pescoço"
       - "Movimento predominantemente ascendente, aumentando quando o paciente se senta"
       - "Pulsação que desaparece na expiração e reaparece na inspiração profunda"
     corretaIndex: 1
@@ -429,7 +429,7 @@ perguntas:
   - id: jugular-2
     enunciado: Em que posição se caracteriza a turgência jugular patológica?
     alternativas:
-      - "Jugulares túrgidas com o paciente em decúbito dorsal horizontal"
+      - "Jugulares túrgidas com o paciente em decúbito dorsal horizontal, achado que por si só traduz hipertensão venosa no território da cava superior"
       - "Jugulares túrgidas em Trendelenburg"
       - "Jugulares que continuam cheias com o dorso a cerca de 45° do leito, ou com o paciente sentado"
       - "Jugulares colabadas em decúbito lateral esquerdo"
@@ -438,29 +438,29 @@ perguntas:
   - id: jugular-3
     enunciado: Um paciente apresenta pulso venoso com colapso diastólico súbito e profundo, descenso y muito proeminente, com pressão venosa elevada. Qual diagnóstico esse padrão sugere?
     alternativas:
-      - "Tamponamento cardíaco"
-      - "Pericardite constritiva"
+      - "Tamponamento cardíaco em fase avançada"
       - "Fibrilação atrial"
       - "Estenose pulmonar"
-    corretaIndex: 1
+      - "Pericardite constritiva"
+    corretaIndex: 3
     explicacao: "O descenso y profundo aparece quando a pressão venosa é muito elevada e o enchimento diastólico inicial é rápido, característico da pericardite constritiva. No tamponamento ocorre o oposto — o enchimento inicial está restrito e o descenso y está ausente. Na fibrilação atrial o y domina por encolhimento do x′, não por colapso abrupto, e sem hipertensão venosa obrigatória."
   - id: jugular-4
     enunciado: Como se caracteriza um teste abdominojugular (refluxo hepatojugular) positivo?
     alternativas:
-      - "A coluna venosa sobe por um ou dois batimentos e retorna ao nível anterior"
-      - "A coluna venosa sobe mais de 4 cm e se mantém elevada durante os 10 segundos de compressão, caindo mais de 4 cm quando a pressão é liberada"
+      - "A coluna venosa sobe mais de 4 cm e se mantém elevada durante os 10 segundos de compressão"
+      - "A coluna venosa sobe por um ou dois batimentos e retorna ao nível anterior, mesmo com a compressão abdominal mantida pelos 10 segundos"
       - "A coluna venosa desaparece durante a compressão abdominal"
       - "A pressão arterial sistólica cai mais de 10 mmHg durante a compressão"
-    corretaIndex: 1
+    corretaIndex: 0
     explicacao: "A resposta normal é a coluna não se alterar ou subir por um ou dois batimentos e voltar. O teste é positivo quando a elevação passa de 4 cm e se mantém durante toda a compressão sustentada de 10 segundos — e o mesmo limiar de 4 cm serve para a queda observada ao liberar o abdome, que é como a maioria dos examinadores lê o resultado. O achado indica pressões de enchimento elevadas do coração esquerdo."
   - id: jugular-5
     enunciado: O que caracteriza o sinal de Kussmaul e por que ele ocorre?
     alternativas:
-      - "Queda exagerada da pressão sistólica na inspiração, por redução do débito do ventrículo esquerdo"
-      - "Elevação paradoxal da coluna jugular na inspiração, por incapacidade do ventrículo direito de acomodar o aumento do retorno venoso"
+      - "Queda inspiratória da pressão arterial sistólica superior a 10 mmHg, por redução transitória do débito do ventrículo esquerdo"
       - "Inspirações amplas e rápidas separadas por apneias, na acidose metabólica"
       - "Ausência da onda a no pulso venoso, por perda da contração atrial"
-    corretaIndex: 1
+      - "Elevação paradoxal da coluna jugular na inspiração, porque o ventrículo direito não acomoda o maior retorno venoso"
+    corretaIndex: 3
     explicacao: "O sinal de Kussmaul é a elevação da pressão venosa durante a inspiração, quando o normal seria a queda. Ocorre quando o ventrículo direito não acomoda o volume extra da inspiração — por restrição pericárdica ou por já estar dilatado dentro de um pericárdio normal. As outras alternativas descrevem o pulso paradoxal e a respiração de Kussmaul."
   - id: jugular-6
     enunciado: Um paciente com edema de membros inferiores tem jugulares colabadas na posição semissentada. Que informação esse achado acrescenta?

@@ -240,7 +240,7 @@ titulo: A forma do tórax
 ::: conceito
 titulo: O tórax normal e seus desvios
 texto: |
-  No adulto, o diâmetro laterolateral supera o anteroposterior, e o tórax lembra um cilindro achatado de frente para trás. O ângulo formado pelas rebordas costais sob o apêndice xifoide — o ângulo de Charpy — fica em torno de um ângulo reto no normolíneo, mais fechado no longilíneo e mais aberto no brevilíneo.
+  No adulto, o diâmetro laterolateral supera o anteroposterior, e o tórax lembra um cilindro achatado de frente para trás. O ângulo formado pelas rebordas costais sob o apêndice xifoide — o ângulo de Charpy — objetiva o biotipo com números (Porto): **cerca de 90° no normolíneo, menor que 90° no longilíneo e maior que 90° no brevilíneo**.
 
   A partir dessa referência, as deformidades se descrevem com nomes consagrados. Quase todas são achados de moldura: dizem algo sobre o passado do paciente ou sobre a mecânica da respiração, e raramente fecham um diagnóstico sozinhas.
 :::
@@ -464,13 +464,13 @@ perguntas:
       - "Movimento abdominal paradoxal, sinal de fraqueza diafragmática bilateral"
       - "Respiração assíncrona, sinal de expiração ativa na obstrução crônica"
       - "Tipo respiratório diafragmático normal para o decúbito dorsal"
-      - "Paradoxo costal, indicando hiperinsuflação com diafragma achatado"
+      - "Paradoxo costal, indicando hiperinsuflação com diafragma achatado que puxa as rebordas costais para dentro durante a inspiração"
     corretaIndex: 0
     explicacao: "No decúbito dorsal a respiração normal é diafragmática e o abdome sobe na inspiração. Abdome que afunda enquanto o tórax se expande caracteriza movimento abdominal paradoxal, sinal de fraqueza diafragmática bilateral, geralmente acompanhado de ortopneia intensa. A respiração assíncrona altera apenas a expiração, e o paradoxo costal se avalia com as mãos sobre as rebordas costais."
   - id: insp-torax-2
     enunciado: Por que a ausência de cianose não afasta hipoxemia grave em um paciente anêmico?
     alternativas:
-      - "Porque a anemia desloca a curva de dissociação da hemoglobina e impede a dessaturação"
+      - "Porque a anemia desloca a curva de dissociação da hemoglobina para a esquerda e impede a dessaturação do sangue que alcança os capilares superficiais"
       - "Porque a cianose depende da quantidade absoluta de desoxi-hemoglobina, e o anêmico só a acumula quando a saturação já caiu muito"
       - "Porque no anêmico a cianose é sempre periférica e não aparece nas mucosas"
       - "Porque a palidez da anemia impede que qualquer alteração de cor seja percebida na mucosa oral"
@@ -488,7 +488,7 @@ perguntas:
   - id: insp-torax-4
     enunciado: Em relação ao tórax em tonel como sinal de doença pulmonar obstrutiva crônica, qual afirmação está correta?
     alternativas:
-      - "É um sinal de alta sensibilidade, presente na maioria dos pacientes obstruídos, e por isso sua ausência afasta a doença"
+      - "É um sinal de alta sensibilidade, presente na maioria dos pacientes obstruídos desde as fases leves da doença, e por isso sua ausência praticamente afasta a obstrução"
       - "Eleva pouco a probabilidade de obstrução, ocorre também em idosos sem doença pulmonar e pode ser ilusão de contraste com um abdome magro"
       - "Só tem valor quando a razão anteroposterior/transversal é inferior a 0,7"
       - "Substitui a espirometria quando associado a cifose dorsal"
@@ -497,19 +497,19 @@ perguntas:
   - id: insp-torax-5
     enunciado: Qual é a maneira mais prática de reconhecer baqueteamento digital à beira do leito, e qual seu desempenho?
     alternativas:
-      - "Medir o ângulo hiponiquial com transferidor; sensibilidade próxima de 100%"
+      - "Medir o ângulo hiponiquial com transferidor diretamente à beira do leito; sensibilidade próxima de 100%, superior à de qualquer outra definição do achado"
       - "Observar a coloração do leito ungueal em luz fluorescente; especificidade próxima de 100%"
-      - "Sinal de Schamroth — desaparecimento da janela em losango entre dois dedos homólogos opostos dorso a dorso; razão de verossimilhança 8 quando presente e 0,2 quando ausente"
       - "Comparar a temperatura das polpas digitais com a do dorso da mão; razão de verossimilhança 8"
-    corretaIndex: 2
+      - "Sinal de Schamroth — desaparecimento da janela em losango entre dedos homólogos; razão de verossimilhança 8 quando presente e 0,2 quando ausente"
+    corretaIndex: 3
     explicacao: "Das três definições sustentadas por dados — razão de profundidade interfalangiana maior que 1, ângulo hiponiquial maior que 190° e sinal de Schamroth —, só a última dispensa instrumentos. Ela tem sensibilidade de 77% a 87%, especificidade de 90%, razão de verossimilhança 8 quando presente e 0,2 quando ausente."
   - id: insp-torax-6
     enunciado: Ao auscultar o dorso, até onde é preciso descer para não perder território dos lobos inferiores?
     alternativas:
       - "Até a ponta da escápula, que marca o limite inferior dos pulmões"
-      - "Bem abaixo do ângulo inferior da escápula — em expiração a borda inferior do pulmão alcança, junto à coluna, o nível do processo espinhoso da 10ª vértebra torácica"
-      - "Até a linha escapular superior, pois abaixo dela só há diafragma"
       - "Até o 4º espaço intercostal posterior, limite da projeção pulmonar"
-    corretaIndex: 1
+      - "Até a linha escapular superior, pois abaixo dela o parênquima pulmonar dá lugar à projeção do diafragma e das vísceras abdominais em qualquer fase do ciclo"
+      - "Bem abaixo do ângulo inferior da escápula — junto à coluna, a borda inferior do pulmão alcança o nível da 10ª vértebra torácica"
+    corretaIndex: 3
     explicacao: "A borda inferior do pulmão cruza a linha hemiclavicular na 6ª costela, a linha axilar média na 8ª e, junto à coluna, alcança o nível do processo espinhoso da 10ª vértebra torácica em expiração — descendo pelo menos mais dois espaços intercostais na inspiração. O ângulo inferior da escápula marca o começo do território das bases, não o fim."
 :::

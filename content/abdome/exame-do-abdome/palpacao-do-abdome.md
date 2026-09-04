@@ -429,14 +429,14 @@ perguntas:
     corretaIndex: 1
     explicacao: "A posição de Schuster é o decúbito lateral direito com a perna direita estendida, a coxa esquerda fletida sobre o abdome em ângulo de 90° e o ombro esquerdo elevado, com o braço correspondente sobre a cabeça. O examinador apoia a mão esquerda, com alguma pressão, sobre a projeção do baço, empurrando-a no sentido caudal, e palpa com a direita coordenando a manobra com a inspiração. Um estudo comparativo não encontrou superioridade entre as posições habituais de exame do baço."
   - id: palp-abd-4
-    enunciado: Um paciente com doença hepática crônica tem borda hepática palpável e nitidamente firme. Como esse achado se compara, em valor diagnóstico para cirrose, com o simples fato de o fígado ser palpável?
+    enunciado: Ao conseguir palpar a borda hepática de um paciente, o que deve ser descrito — e o que uma borda nitidamente firme sugere?
     alternativas:
-      - "Ambos são equivalentes, com razão de verossimilhança em torno de 1"
-      - "A borda palpável é mais informativa, pois a consistência do fígado não pode ser avaliada de maneira reprodutível pela mão do examinador à beira do leito"
-      - "Nenhum dos dois altera a probabilidade de cirrose, que só se estabelece por biopsia"
-      - "A borda firme é mais informativa (3,3) que o fígado aumentado e palpável (2,3): a palpabilidade depende mais da consistência que do tamanho"
+      - "Apenas a distância do rebordo costal em centímetros, pois as demais características não são acessíveis à mão do examinador"
+      - "A espessura e a superfície, reservando a avaliação da consistência à percussão, que a mede com mais fidelidade"
+      - "Nenhuma característica além da presença, porque fígado palpável já é, por si, sinônimo de hepatomegalia"
+      - "Espessura, regularidade, superfície, sensibilidade e consistência — a borda firme sugere cirrose"
     corretaIndex: 3
-    explicacao: "Em pacientes com doença hepática crônica, a borda firme tem razão de verossimilhança 3,3 para cirrose, o fígado palpável no epigástrio 2,7 e o fígado aumentado e palpável 2,3. A explicação está na física da manobra: fígados mais firmes são mais fáceis de palpar, e na cirrose — em que o órgão costuma ser menor e mais firme — a borda é palpável em 95% das vezes. A avaliação da firmeza pela mão correlaciona-se bem com medidas não invasivas de fibrose."
+    explicacao: "A palpação da borda hepática não termina no 'palpável': descrevem-se a espessura, a regularidade, a superfície (lisa ou nodular), a sensibilidade e a consistência. A consistência é o dado que mais orienta — a borda firme é a da cirrose, em que o órgão pode até ser pequeno. Palpar o fígado não é sinônimo de hepatomegalia, e a distância do rebordo, em centímetros, é apenas uma das partes do registro. A percussão responde a outra pergunta, a do limite superior."
   - id: palp-abd-5
     enunciado: Que achado à palpação da aorta caracteriza um aneurisma e o distingue de uma pulsação epigástrica proeminente sem aneurisma?
     alternativas:
@@ -447,12 +447,12 @@ perguntas:
     corretaIndex: 2
     explicacao: "O aneurisma empurra as duas mãos para os lados — é a pulsação expansiva. Pulsações epigástricas proeminentes ocorrem em pessoas de abdome fino ou quando uma massa se sobrepõe à aorta normal e, se não forem expansivas, não indicam aneurisma. A massa pulsátil expansiva tem razão de verossimilhança 8,0. Como a aorta normal se bifurca na altura do umbigo, os aneurismas palpáveis ficam no epigástrio ou no quadrante superior esquerdo; e o sopro abdominal não se mostrou útil para esse diagnóstico."
   - id: palp-abd-6
-    enunciado: Um paciente ictérico tem vesícula biliar palpável e indolor. Qual é a leitura correta desse achado à luz dos dados disponíveis?
+    enunciado: Durante a palpação bimanual do flanco direito de uma mulher magra, você sente, no fim da inspiração, uma estrutura que desce ao alcance da mão e que, ao aumento da pressão, se desloca para cima de forma súbita. O que é isso?
     alternativas:
-      - "Indica obstrução extra-hepática das vias biliares (26), mas eleva só modestamente a probabilidade de causa maligna (2,6)"
-      - "É praticamente patognomônico de neoplasia da cabeça do pâncreas"
-      - "Exclui coledocolitíase, já que a vesícula fibrosada pelo cálculo nunca se distende"
-      - "Não tem valor diagnóstico, já que pouco mais da metade das vesículas distendidas chega a ser palpável à beira do leito, mesmo quando documentadas por imagem"
+      - "A captura do rim: o polo inferior do rim direito, palpável em pessoas magras, sem significar doença"
+      - "Hepatomegalia, pois o fígado é o único órgão do flanco direito que desce com a inspiração profunda"
+      - "Vesícula biliar distendida, que caracteristicamente escapa para cima quando comprimida entre as duas mãos"
+      - "Massa retroperitoneal, já que nenhuma estrutura normal é palpável no flanco de qualquer paciente"
     corretaIndex: 0
-    explicacao: "O sinal de Courvoisier é praticamente diagnóstico de obstrução extra-hepática (razão de verossimilhança 26), mas apenas modestamente favorável a causa maligna sobre cálculo (2,6). Courvoisier apresentou a observação em 1890 como observação, não como lei; sua hipótese de que a vesícula da coledocolitíase não dilata por fibrose provavelmente está errada — o que distingue os grupos são pressões intraductais mais altas e icterícia de maior duração. É verdade que boa parte das vesículas distendidas não é palpável (53% o eram em uma série), o que reduz a sensibilidade, mas não anula o valor do achado positivo."
+    explicacao: "A técnica bimanual dos rins põe uma das mãos transversalmente na região lombar e a outra, longitudinal, sobre o flanco — sempre a mão homônima ao lado que se palpa. Com a respiração profunda, procura-se sentir a descida do rim a cada inspiração; no fim dela, aumentando a pressão das duas mãos, percebe-se o deslocamento ascendente súbito — a captura do rim. Dos órgãos retroperitoneais, apenas o polo inferior do rim direito costuma ser alcançável, sobretudo em mulheres magras com parede flácida, e não deve ser confundido com tumor."
 :::

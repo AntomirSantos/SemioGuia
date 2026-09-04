@@ -623,14 +623,14 @@ titulo: Teste rápido
 ::: quiz
 perguntas:
   - id: tir-1
-    enunciado: Você palpa uma tireoide que lhe parece discretamente aumentada, mas ela só se torna visível quando o paciente estende o pescoço. Qual é o valor desse achado para o diagnóstico de bócio?
+    enunciado: Ao examinar um homem de 78 anos, você nota que a proeminência laríngea e a fúrcula esternal distam menos de 5 cm, e não consegue palpar a tireoide. Como interpretar?
     alternativas:
-      - "Confirma bócio de pequeno volume, com razão de verossimilhança 26,3"
-      - "Reduz a probabilidade de bócio, uma vez que glândulas verdadeiramente aumentadas são sempre visíveis com o pescoço em posição normal, sem manobras"
-      - "Não distingue bócio de tireoide normal: a razão de verossimilhança desse achado intermediário não é significativa"
-      - "Só tem valor se acompanhado de sopro à ausculta da região tireoidiana"
+      - "A glândula é certamente normal, pois toda tireoide doente se torna acessível quando o examinador flete o pescoço do paciente e relaxa o esternocleidomastóideo"
+      - "Trata-se de provável agenesia tireoidiana, já que a distância entre a proeminência laríngea e a fúrcula esternal reflete diretamente o volume da glândula"
+      - "É uma tireoide baixa, comum em idosos, escondida atrás dos esternocleidomastóideos e das clavículas — e impalpável não significa normal"
+      - "É uma tireoide alta, que parece bócio mesmo tendo tamanho normal, variação frequente nessa faixa etária"
     corretaIndex: 2
-    explicacao: "McGee separa três níveis. Bócio à palpação e à inspeção com o pescoço em posição normal eleva muito a probabilidade (26,3). Ausência de bócio à palpação e à inspeção a reduz modestamente (0,4). E o nível intermediário — palpável, visível apenas após extensão do pescoço — não distingue bócio de glândula normal. É por isso que aumento sutil à palpação, sem bócio visível na posição normal, é considerado sinal não confiável."
+    explicacao: "A tireoide guarda relação constante com a proeminência laríngea e com a cricoide, mas a posição dessas estruturas dentro do pescoço varia muito entre pacientes (McGee). Quando a proeminência laríngea e a fúrcula distam menos de 5 cm, a tireoide baixa — mais comum em idosos — esconde-se atrás dos esternocleidomastóideos e das clavículas, e a palpação completa se torna impossível. O quadro oposto, com distância acima de 10 cm, é a tireoide alta, conspícua, que parece bócio sem ser. Daí a regra: nem toda tireoide que parece grande é grande, e nem toda tireoide impalpável é normal."
   - id: tir-2
     enunciado: Uma paciente tem uma massa arredondada na linha média do pescoço, logo abaixo do osso hioide. Que manobra ajuda mais a caracterizá-la, e por quê?
     alternativas:
@@ -659,14 +659,14 @@ perguntas:
     corretaIndex: 1
     explicacao: "Tireoide e traqueia estão firmemente presas por ligamentos e se movem juntas. Numa deglutição normal, McGee descreve um movimento inicial de 1,5 a 3,5 cm para cima, seguido de hesitação de 0,2 a 0,7 segundo antes do retorno. Uma massa provavelmente não é tireoidiana se estiver imóvel, se subir menos que a cartilagem tireoide, se não hesitar antes de descer ou se retornar antes que a cartilagem complete a descida. Semiologia Clínica acrescenta que a aderência aos planos profundos é outra explicação para a falta de elevação — e que dificilmente ocorre dos dois lados."
   - id: tir-5
-    enunciado: Um paciente com bócio apresenta adenopatia cervical à palpação. Qual é o peso desse achado?
+    enunciado: Em uma região onde a água e os alimentos são pobres em iodo, um paciente apresenta bócio difuso volumoso. Que estado funcional se espera dessa glândula?
     alternativas:
-      - "Nenhum, pois adenopatia cervical acompanha qualquer bócio de longa evolução"
-      - "Sugere tireoidite subaguda, cujo achado característico é a adenomegalia acompanhando a glândula dolorosa"
-      - "Aumenta muito a probabilidade de carcinoma, com razão de verossimilhança 15,4 — o maior entre os achados estudados nesse cenário"
-      - "Aumenta modestamente a probabilidade de carcinoma, com razão de verossimilhança 1,5, semelhante à do bócio nodular"
+      - "Hipertireoidismo, porque a hipertrofia do tecido tireoidiano aumenta na mesma proporção a capacidade de produzir hormônio, como ocorre na doença de Graves"
+      - "Eutireoidismo garantido, pois o crescimento da glândula compensa integralmente a falta do substrato e normaliza a produção hormonal"
+      - "Hipotireoidismo, porque sem iodo a produção hormonal cai, e o hormônio tireoestimulante elevado hipertrofia a glândula sem corrigi-la"
+      - "Hipertireoidismo transitório seguido de normalização, o padrão evolutivo característico dos bócios endêmicos de longa duração"
     corretaIndex: 2
-    explicacao: "Em pacientes com bócio, três achados elevam muito a probabilidade de carcinoma: adenopatia cervical (15,4), paralisia de prega vocal (11,3) e fixação aos tecidos vizinhos (10,5). Diante de um nódulo, a ordem muda e a paralisia de prega vocal lidera (17,9). Todos são pouco sensíveis: menos de um em cada três pacientes com nódulo carcinomatoso apresenta qualquer um deles, e por isso a punção aspirativa por agulha fina continua sendo o exame decisivo."
+    explicacao: "A carência de iodo é a causa mais comum de bócio no mundo (Porto), e o mecanismo é contraintuitivo (Semiologia Clínica): sem iodo, a produção hormonal cai, o hormônio tireoestimulante sobe e, como ele estimula também a reprodução celular no tecido tireoidiano, a glândula hipertrofia — mas continua produzindo pouco. O resultado é um bócio grande com hipotireoidismo. O contraste ajuda a fixar: na doença de Graves, autoanticorpos estimulam ao mesmo tempo produção e hipertrofia, dando glândula grande com hipertireoidismo; na doença de Plummer, um nódulo autônomo produz hipertireoidismo com glândula de dimensões normais."
   - id: tir-6
     enunciado: Você ausculta um sopro sobre a tireoide de uma paciente idosa com bócio nodular. Que leitura o dado permite?
     alternativas:

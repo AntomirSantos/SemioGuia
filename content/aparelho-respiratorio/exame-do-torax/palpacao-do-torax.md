@@ -366,31 +366,31 @@ perguntas:
       - "Achado normal, explicado pelo menor comprimento do brônquio principal direito"
       - "Consolidação do ápice direito, que deve ser confirmada por radiografia"
       - "Derrame pleural à esquerda, reduzindo o frêmito daquele lado"
-      - "Erro de técnica, pois o frêmito normal é simétrico em todo o tórax"
+      - "Erro de técnica, pois o frêmito normal é rigorosamente simétrico e qualquer diferença entre pontos homólogos indica doença subjacente"
     corretaIndex: 0
     explicacao: "O frêmito é normalmente mais nítido à direita, sobretudo no ápice e na região interescapulovertebral direita, porque o brônquio principal direito é mais curto e as vibrações chegam mais facilmente à superfície. Também é normalmente mais forte nas bases. Só a assimetria fora desse padrão esperado é anormal."
   - id: palp-torax-2
     enunciado: Em um paciente com atelectasia por oclusão de brônquio lobar, o frêmito toracovocal está diminuído sobre a área comprometida. Como interpretar esse achado?
     alternativas:
       - "Porque o parênquima atelectasiado contém mais ar do que o normal e o ar conduz mal o som"
-      - "Porque, na prática, a oclusão do brônquio que serve aquele território se associa a frêmito reduzido, apesar de o parênquima estar denso"
+      - "Porque, na prática, a oclusão do brônquio daquele território se associa a frêmito reduzido, apesar do parênquima denso"
       - "Porque a atelectasia sempre se acompanha de líquido na cavidade pleural"
-      - "Porque a retração do hemitórax aproxima o pulmão da parede e satura a percepção tátil"
+      - "Porque a retração do hemitórax aproxima o pulmão da parede e o excesso de contato satura a percepção tátil das vibrações produzidas pela voz"
     corretaIndex: 1
     explicacao: "Na atelectasia obstrutiva o parênquima está sem ar e denso — condição que, pela densidade, conduziria bem —, e mesmo assim o frêmito cai. A associação é constante e serve de regra de leitura: frêmito aumentado acompanha parênquima denso com brônquio pérvio; frêmito reduzido acompanha barreira interposta ou brônquio ocluído. O mecanismo íntimo é discutido — experimentos indicam que o som se conduz pelo parênquima poroso, e não pelo interior dos dutos aéreos."
   - id: palp-torax-3
-    enunciado: Um paciente com tosse e febre apresenta expansão torácica visivelmente menor à direita. Qual é o peso desse achado?
+    enunciado: Um paciente tem expansibilidade reduzida apenas na base do hemitórax direito, com o restante do exame simétrico. O que essa distribuição sugere?
     alternativas:
-      - "Pequeno, porque a expansão assimétrica é frequente em pessoas saudáveis"
-      - "Grande para pneumonia do lado que se move menos, com razão de verossimilhança em torno de 44, embora o sinal seja raro (sensibilidade cerca de 5%)"
-      - "Grande apenas se o frêmito estiver simultaneamente abolido"
-      - "Nenhum, pois a expansibilidade só tem valor quando avaliada com fita métrica"
+      - "Processo infeccioso ou cicatricial do ápice pulmonar, cuja retração se transmite preferencialmente à base do mesmo lado"
+      - "Derrame pleural daquele lado — e também causas abaixo do diafragma, como a hepatomegalia"
+      - "Pneumotórax, que reduz a expansibilidade só na base por acumular ar nas porções inferiores da cavidade pleural"
+      - "Doença que enrijece os dois pulmões de maneira difusa, ainda que o achado pareça restrito a uma base"
     corretaIndex: 1
-    explicacao: "Em pacientes com tosse e febre, a expansão assimétrica eleva fortemente a probabilidade de pneumonia do lado que se move menos (razão de verossimilhança 44,1), mas com sensibilidade de apenas 5% — quase ninguém com pneumonia tem o sinal, e quem tem, tem a doença. Em pacientes internados por queixas respiratórias o mesmo sinal aponta derrame pleural (razão de verossimilhança 8,1), aí com sensibilidade alta."
+    explicacao: "A tabela do tópico organiza a leitura pela distribuição: redução unilateral e basal aponta derrame pleural, hepatomegalia e esplenomegalia — a base pode se mover menos por causa que nem é pulmonar, empurrada de baixo. A redução unilateral difusa é o território do pneumotórax, do hidrotórax, da atelectasia e do traumatismo torácico; a apical, dos processos infecciosos ou cicatriciais do ápice. Como o restante da palpação, a resposta se constrói comparando os dois lados."
   - id: palp-torax-4
     enunciado: Ao palpar as fossas supraclaviculares de um paciente com dor torácica súbita, você sente uma crepitação fina sob os dedos. O que esse achado indica?
     alternativas:
-      - "Edema subcutâneo por obstrução da veia cava superior"
+      - "Edema subcutâneo por obstrução da veia cava superior, que se acumula primeiro no tecido frouxo das fossas supraclaviculares"
       - "Frêmito brônquico por secreção nas vias aéreas"
       - "Enfisema subcutâneo, que aponta pneumotórax até prova em contrário"
       - "Frêmito pleural por pleurite seca"
@@ -400,7 +400,7 @@ perguntas:
     enunciado: Em qual situação a dor reproduzida pela palpação da parede torácica realmente reduz a probabilidade da doença investigada?
     alternativas:
       - "Na suspeita de pneumonia em paciente com tosse aguda"
-      - "Na suspeita de embolia pulmonar em paciente com dor pleurítica"
+      - "Na suspeita de embolia pulmonar em paciente com dor pleurítica, em que a dor reproduzida na parede afasta a origem vascular do quadro"
       - "Na suspeita de doença coronariana crônica em paciente ambulatorial"
       - "Na suspeita de infarto do miocárdio em paciente com dor torácica aguda não traumática"
     corretaIndex: 3
@@ -409,9 +409,9 @@ perguntas:
     enunciado: Ao avaliar a expansibilidade das bases pulmonares, onde devem ficar os polegares do examinador e por que os demais dedos precisam estar aderidos à parede?
     alternativas:
       - "Nas fossas supraclaviculares; os dedos aderidos evitam que o paciente sinta frio"
-      - "Na altura dos processos espinhosos da 9ª ou 10ª vértebra torácica; a aderência faz a parede levar a mão consigo, tornando visível o deslocamento"
       - "Sobre as linhas hemiclaviculares anteriores; a aderência aumenta a pressão intratorácica"
-      - "Na altura da vértebra proeminente; a aderência impede a contração da musculatura acessória"
-    corretaIndex: 1
+      - "Na altura dos processos espinhosos da 9ª ou 10ª vértebra torácica; a aderência faz a parede levar a mão consigo"
+      - "Na altura da vértebra proeminente, com os demais dedos nas fossas supraclaviculares; a aderência impede a contração da musculatura acessória na inspiração"
+    corretaIndex: 2
     explicacao: "Para as bases, os polegares se aproximam na altura dos processos espinhosos da 9ª ou 10ª vértebra torácica, enquanto as palmas e a face ventral dos dedos abarcam o máximo da área correspondente. Os dedos precisam estar bem aderidos para que o movimento da parede leve a mão consigo — se escorregam sobre a pele, o deslocamento se perde. A vértebra proeminente é a referência da manobra dos ápices."
 :::

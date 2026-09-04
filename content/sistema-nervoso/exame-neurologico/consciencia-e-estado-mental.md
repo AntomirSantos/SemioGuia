@@ -530,14 +530,14 @@ perguntas:
     corretaIndex: 1
     explicacao: "Semiologia Clínica define delirium como um quadro de confusão mental de causa orgânica, com a atenção diminuída, classificando-o em hipoativo, hiperativo ou misto conforme haja agitação psicomotora; Porto descreve o mesmo quadro como estado confusional agudo, com distúrbio da vigilância, distraibilidade e incoerência de pensamento. A forma hipoativa é a mais silenciosa e a mais confundida com rebaixamento. Infecções — pneumonia entre elas — estão entre as causas mais comuns, e idosos são os mais propensos. Na afasia sensitiva a atenção está íntegra; a demência tem outra cronologia."
   - id: neu-con-3
-    enunciado: Você é chamado para avaliar um paciente com consciência comprometida, sem história de trauma craniano. A pressão arterial é 178 x 96 mmHg. Que peso esse dado tem?
+    enunciado: Um paciente com hemiplegia direita está com o nível de consciência rebaixado. Ao estímulo, o membro superior esquerdo obedece a ordens verbais; o direito não se move. Como pontuar a resposta motora da escala de coma de Glasgow?
     alternativas:
-      - "Nenhum: a pressão arterial se eleva de forma inespecífica em qualquer paciente com consciência comprometida, tanto nas causas estruturais quanto nas metabólicas, e por isso não entra no raciocínio"
-      - "Aumenta substancialmente a probabilidade de lesão estrutural do encéfalo, com razão de verossimilhança 7,3 para pressão sistólica de 160 mmHg ou mais"
-      - "Indica encefalopatia hipertensiva, diagnóstico que a cifra pressórica isoladamente já estabelece nesse contexto"
-      - "Reduz a probabilidade de causa metabólica a valores desprezíveis, dispensando a dosagem de glicemia"
+      - "Pela média das respostas obtidas nos dois lados, registrando a assimetria apenas na descrição complementar"
+      - "Pela melhor resposta e do melhor lado: registra-se 6 pelo membro esquerdo que obedece a ordens"
+      - "Pela pior resposta encontrada, porque a escala foi concebida para documentar sempre o déficit mais grave do paciente"
+      - "Pela resposta do lado direito, já que o lado deficitário é o que traduz a lesão e deve determinar a pontuação"
     corretaIndex: 1
-    explicacao: "Em dois estudos com pacientes consecutivos de consciência comprometida e sem trauma craniano, uma pressão sistólica de 160 mmHg ou mais elevou a probabilidade de lesão estrutural com razão de verossimilhança 7,3 (McGee). O mecanismo proposto soma a resposta reflexa ao aumento da pressão intracraniana — o reflexo de Cushing — à associação causal entre hipertensão e doença cerebrovascular, enquanto pacientes com encefalopatia metabólica costumam ter pressões mais baixas. Uma razão de verossimilhança de 7,3 desloca a probabilidade, mas não dispensa a investigação das causas metabólicas, que seguem sendo frequentes e tratáveis."
+    explicacao: "Porto (Exame Clínico, cap. 20) registra a regra de aplicação que mais se esquece: usa-se sempre a melhor resposta, e do melhor lado. Ela existe para impedir que uma hemiplegia seja contada como rebaixamento de consciência — pontuar o lado parético transforma um sinal localizatório em déficit de vigília e apaga justamente o achado que importa. A assimetria não se perde: ela deve ser procurada e registrada ao lado da pontuação, como parte da busca de sinais localizatórios."
   - id: neu-con-4
     enunciado: Ao avaliar a abertura ocular de um paciente que não responde a estímulos verbais, um estudante aplica compressão firme na região supraorbital. Que problema há nessa escolha?
     alternativas:

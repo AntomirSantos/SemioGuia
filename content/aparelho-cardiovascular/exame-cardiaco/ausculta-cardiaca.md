@@ -406,36 +406,36 @@ perguntas:
   - id: ausculta-1
     enunciado: Qual é a maneira mais confiável de identificar a primeira bulha à beira do leito?
     alternativas:
-      - "Reconhecer que ela é a bulha mais intensa no foco pulmonar"
-      - "Palpar simultaneamente o pulso carotídeo ou o ictus, com os quais B1 coincide"
-      - "Verificar que ela vem imediatamente após o grande silêncio"
+      - "Reconhecer que ela é a bulha mais intensa em todos os focos de ausculta, inclusive nos da base"
+      - "Palpar simultaneamente a carótida ou o ictus, que coincidem com B1"
+      - "Verificar que ela vem imediatamente após o grande silêncio, critério que se mantém em qualquer frequência cardíaca"
       - "Auscultar apenas com a campânula, que capta seletivamente B1"
     corretaIndex: 1
     explicacao: "A primeira bulha cai no mesmo instante em que o ictus toca a mão e em que a carótida entrega sua onda aos dedos; além disso, soa mais grave e dura um pouco mais que B2. Auscultar com a outra mão na carótida é o recurso clássico para situar o ciclo, sobretudo quando a frequência é alta."
   - id: ausculta-2
     enunciado: Em qual foco se estuda o desdobramento da segunda bulha e por quê?
     alternativas:
-      - "No foco aórtico, porque o componente aórtico é o mais intenso"
+      - "No foco aórtico, porque ali o componente pulmonar se soma ao aórtico e o desdobramento se torna mais nítido"
       - "No foco mitral, porque ali B2 se separa melhor de B1"
-      - "No foco pulmonar, porque é a única área em que os componentes aórtico e pulmonar são ambos audíveis"
+      - "No foco pulmonar, única área em que os dois componentes são audíveis"
       - "No foco tricúspide, porque ali a inspiração tem maior efeito"
     corretaIndex: 2
     explicacao: "O componente aórtico se ouve em todo o precórdio, mas o pulmonar é audível apenas na área pulmonar e na borda esternal esquerda. No foco aórtico e na ponta B2 é sempre única, por só existir ali o componente aórtico."
   - id: ausculta-3
     enunciado: Um paciente apresenta desdobramento de B2 que surge na expiração e desaparece na inspiração profunda. Como se chama esse achado e qual sua causa clássica?
     alternativas:
-      - "Desdobramento invertido ou paradoxal; bloqueio do ramo esquerdo"
-      - "Desdobramento fixo; comunicação interatrial"
+      - "Desdobramento fixo; comunicação interatrial com hiperfluxo pulmonar"
       - "Desdobramento fisiológico; nenhuma doença associada"
       - "Desdobramento constante e variável; bloqueio do ramo direito"
-    corretaIndex: 0
+      - "Desdobramento invertido ou paradoxal; bloqueio do ramo esquerdo"
+    corretaIndex: 3
     explicacao: "Com o ramo esquerdo bloqueado, a câmara direita termina sua sístole primeiro, a valva pulmonar fecha antes da aórtica e a sequência sonora se inverte. Inspirar prolonga a sístole direita, aproxima os dois fechamentos e funde a bulha; expirar devolve a separação. A estenose aórtica acentuada chega ao mesmo resultado por via mecânica."
   - id: ausculta-4
     enunciado: Você ausculta um ruído protodiastólico de baixa frequência na ponta, com a campânula apoiada de leve, em um paciente de 68 anos com dispneia. Ao comprimir firmemente a campânula, o ruído desaparece. Qual a interpretação?
     alternativas:
       - "É um estalido de abertura mitral, ruído agudo abolido pela pressão"
-      - "É uma terceira bulha; a pressão firme transforma a campânula em diafragma e elimina os sons de baixa frequência"
-      - "É um desdobramento de B2 transmitido para a ponta"
+      - "É uma terceira bulha, som grave que a compressão firme da campânula elimina"
+      - "É um desdobramento amplo de B2, cujos componentes se transmitem à ponta e se fundem quando a campânula é comprimida"
       - "É um clique mesossistólico de prolapso mitral"
     corretaIndex: 1
     explicacao: "Som que some quando se comprime a campânula é som de baixa frequência — a pele esticada passa a funcionar como membrana. É a manobra usada para confirmar B3, que em paciente acima de 40 anos com dispneia sugere disfunção sistólica e pressões de enchimento elevadas."
@@ -444,17 +444,17 @@ perguntas:
     alternativas:
       - "Timbre musical, irradiação ampla para a axila e intensidade constante ao longo dos dias"
       - "Localização exclusiva no foco aórtico, aumento na expiração forçada e relação fixa com B2"
-      - "Som semelhante a couro novo, ausência de relação fixa com as bulhas, área restrita de audibilidade e mutabilidade em poucas horas"
       - "Presença apenas na diástole, tonalidade grave e desaparecimento com a mudança de posição"
-    corretaIndex: 2
+      - "Timbre de couro novo, sem relação fixa com as bulhas, área restrita e mutável em horas"
+    corretaIndex: 3
     explicacao: "Quatro traços definem o atrito: a aspereza de couro novo, a independência em relação às bulhas, a área de audibilidade restrita e a instabilidade — o mesmo paciente soa diferente horas depois. Procure-o sentado, com o tronco inclinado à frente e o ar esvaziado."
   - id: ausculta-6
     enunciado: Que informação distinta B3 e B4 fornecem quando ambas são patológicas?
     alternativas:
-      - "B3 indica ventrículo dilatado com disfunção sistólica e pressões de enchimento elevadas; B4 indica ventrículo rígido, com complacência reduzida"
+      - "B3 indica ventrículo dilatado com disfunção sistólica; B4 indica ventrículo rígido, pouco complacente"
       - "B3 indica valva mitral estenótica; B4 indica valva aórtica insuficiente"
       - "B3 ocorre apenas em crianças; B4 apenas em idosos"
-      - "B3 é sempre de origem direita e B4 sempre de origem esquerda"
+      - "B3 é sempre de origem direita, audível no foco tricúspide, e B4 sempre de origem esquerda, audível na ponta"
     corretaIndex: 0
     explicacao: "B3 nasce do enchimento rápido de um ventrículo dilatado e acompanha disfunção sistólica e congestão, desaparecendo com o tratamento da congestão. B4 nasce da contração atrial contra um ventrículo pouco complacente — hipertensão, isquemia, hipertrofia, estenose aórtica — e é achado durável, que só se perde na fibrilação atrial."
 :::

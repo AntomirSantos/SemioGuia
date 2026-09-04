@@ -202,6 +202,64 @@ texto: |
   E vale repetir o que a manobra deste tópico já pede: **descreva antes de classificar**. Perda de sensibilidade tátil até o médio-pé, flexão dos dedos ausente, dorsiflexão presente, início há 5 horas é uma frase que qualquer serviço entende; grupo IIb depende de quem escreveu e de qual edição usou.
 :::
 
+::: ilustracao
+legenda: "O relógio da isquemia aguda em dois quadros. No membro sob ameaça imediata, a perda sensitiva sobe dos dedos para diante e já há déficit motor, mas o tornozelo ainda se move — ele se recupera se a revascularização for rápida. No membro inviável, a hipoestesia toma toda a perna (hachura), a musculatura acima do pé está paralisada ou em contratura, e a pele mostra cianose fixa com aspecto marmóreo."
+svg: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g font-family="sans-serif" font-size="9.5" fill="currentColor" stroke="none">
+      <text x="10" y="14">Membro ameaçado × membro inviável</text>
+    </g>
+    <!-- divisória central -->
+    <path d="M 160 24 L 160 172" stroke-width="1" stroke-dasharray="3 5" />
+    <!-- perna esquerda: sob ameaça imediata -->
+    <g stroke-width="1.5">
+      <path d="M 74 34 L 71 138 L 71 144 C 71 152 77 156 85 157 L 107 159 C 110 159 111 162 108 164 L 77 166 C 67 166 61 158 60 148 L 59 140 L 57 34" />
+    </g>
+    <!-- perda sensitiva até o antepé (tracejado) -->
+    <path d="M 82 146 C 80 152 82 162 90 166 L 108 167 C 115 165 116 154 111 149 C 104 143 88 141 82 146 Z" stroke-dasharray="4 3" stroke-width="1.5" />
+    <!-- dorsiflexão ainda presente: seta no tornozelo -->
+    <path d="M 104 142 C 108 136 107 130 102 126" stroke-width="1.5" />
+    <path d="M 102 126 L 108 127" stroke-width="1.5" />
+    <path d="M 102 126 L 103 132" stroke-width="1.5" />
+    <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
+      <text x="10" y="56">perda</text>
+      <text x="10" y="67">sensitiva</text>
+      <text x="10" y="78">dos dedos</text>
+      <text x="10" y="89">para diante</text>
+      <text x="114" y="112">movimento</text>
+      <text x="114" y="123">ainda presente</text>
+    </g>
+    <path d="M 44 94 C 58 106 70 126 84 146" stroke-width="1" stroke-dasharray="2 3" />
+    <!-- perna direita: inviável -->
+    <g stroke-width="1.5">
+      <path d="M 224 34 L 221 138 L 221 144 C 221 152 227 156 235 157 L 257 159 C 260 159 261 162 258 164 L 227 166 C 217 166 211 158 210 148 L 209 140 L 207 34" />
+    </g>
+    <!-- hipoestesia de toda a perna: hachura -->
+    <g stroke-width="1">
+      <path d="M 211 46 l 10 10" /><path d="M 210 86 l 11 11" />
+      <path d="M 209 126 l 11 11" /><path d="M 215 146 l 10 10" />
+      <path d="M 232 152 l 8 8" /><path d="M 246 155 l 7 7" />
+    </g>
+    <!-- mosqueamento (pele marmórea): manchas tracejadas -->
+    <path d="M 212 68 C 217 64 223 67 222 72 C 221 77 213 77 212 68 Z" stroke-dasharray="3 2" stroke-width="1" />
+    <path d="M 213 104 C 218 100 224 103 223 108 C 222 113 214 113 213 104 Z" stroke-dasharray="3 2" stroke-width="1" />
+    <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
+      <text x="258" y="60">anestesia e</text>
+      <text x="258" y="71">paralisia</text>
+      <text x="258" y="82">acima do pé</text>
+      <text x="258" y="110">cianose fixa,</text>
+      <text x="258" y="121">pele marmórea</text>
+    </g>
+    <!-- legendas -->
+    <g font-family="sans-serif" font-size="9" fill="currentColor" stroke="none" text-anchor="middle">
+      <text x="86" y="184">sob ameaça imediata</text>
+      <text x="86" y="195">ainda recuperável</text>
+      <text x="234" y="184">inviável</text>
+      <text x="234" y="195">não espera</text>
+    </g>
+  </svg>
+:::
+
 ::: entendimento
 titulo: Por que a mesma oclusão dói mais em quem nunca teve claudicação
 texto: |
@@ -393,14 +451,14 @@ perguntas:
     corretaIndex: 0
     explicacao: "Porto registra a ordem de tolerância dos tecidos à isquemia: sofrem primeiro os nervos periféricos, seguidos dos músculos, das artérias — que sofrem necrose da camada média —, da pele, das cartilagens e, por último, dos ossos. É por isso que a dor costuma ser precedida de formigamento e dormência e que a perda sensitiva e depois motora graduam a gravidade. Não é que a perda sensitiva anteceda a queda dos pulsos: os pulsos desaparecem no momento da oclusão. E o músculo não tolera 24 horas — Porto registra que uma isquemia grave já pode deixar lesões irreversíveis, com contratura muscular, depois de 4 a 6 horas de evolução."
   - id: vasc-isq-4
-    enunciado: Uma paciente desenvolve hematoma inguinal e sopro novo no membro após cateterismo cardíaco por punção femoral. Ao exame, o sopro femoral estende-se além da segunda bulha, com componentes sistólico e diastólico. O que esse achado indica?
+    enunciado: Por que este guia nomeia a mnemônica dos P da isquemia arterial aguda, mas não a ensina?
     alternativas:
-      - "Falso aneurisma femoral, com razão de verossimilhança 13,8"
-      - "Estenose crítica da femoral comum causada pelo hematoma, com razão de verossimilhança 5,6"
-      - "Fístula arteriovenosa, com razão de verossimilhança 80,8 — o maior valor deste capítulo"
-      - "Achado inespecífico, já que sopros femorais ocorrem em grande parte dos pacientes puncionados"
+      - "Porque a mnemônica só existe em língua inglesa e o guia é escrito em português"
+      - "Porque os P variam de paciente para paciente, o que torna qualquer lista de achados inútil à beira do leito"
+      - "Porque nenhuma das quatro obras de referência a usa — e o que não está ancorado não é ensinado"
+      - "Porque ela foi substituída pela classificação instrumental ao ecodoppler, que o guia adota no lugar dos achados clínicos"
     corretaIndex: 2
-    explicacao: "No estudo reunido por McGee, em pacientes com hematoma inguinal importante ou sopro novo após cateterismo, o sopro femoral contínuo — com componentes sistólico e diastólico — foi diagnóstico de fístula arteriovenosa, com sensibilidade 96%, especificidade 99%, razão de verossimilhança positiva 80,8 e negativa 0,04. A pulsação femoral expansiva, cujas paredes se expandem lateralmente a cada batimento, é que foi diagnóstica de falso aneurisma, com razão de verossimilhança 13,8. O caráter contínuo do sopro é a assinatura da comunicação arteriovenosa, como Porto registra ao separar sopros sistólicos de sistodiastólicos e frêmitos sistólicos de contínuos."
+    explicacao: "A sequência de palavras iniciadas com P circula em número variável conforme a fonte, de cinco a seis, habitualmente em inglês — mas nenhuma das quatro obras em que o guia se ancora a emprega: Porto descreve o quadro clínico como lista de achados, sem sigla; Semiologia Clínica não trata a isquemia aguda em capítulo próprio; McGee não a inclui nos capítulos de extremidades. Pela regra editorial da casa, ela fica nomeada e não ensinada, e em seu lugar entram as duas enumerações de Porto — a de cinco itens do Exame Clínico e a de sete da Semiologia Médica, que traz também a parestesia e a paralisia."
   - id: vasc-isq-5
     enunciado: Um paciente apresenta subitamente o segundo pododáctilo esquerdo cianótico e doloroso, com pulsos pedioso e tibial posterior palpáveis nesse pé. Qual é a conduta de exame mais adequada?
     alternativas:
