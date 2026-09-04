@@ -30,7 +30,7 @@ como "Revisado" no app.
 | Questões de quiz | **327** (balanceadas por índice e comprimento) |
 | Checklists OSCE | **53** (viram estações de prática) |
 | Ilustrações SVG | **52** (temáveis via `currentColor`, geometria verificada) |
-| Sons de ausculta | **17** (14 sintetizados por script + 3 gravações clínicas reais CC BY 4.0) |
+| Sons de ausculta | **20** (17 sintetizados por script + 3 gravações clínicas reais CC BY 4.0) |
 | Testes | **57 suítes / 433 testes** verdes |
 
 ## Stack

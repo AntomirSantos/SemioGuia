@@ -37,7 +37,7 @@ test('todos os blocos som do conteúdo apontam para sons do registro', () => {
       }
     }
   }
-  expect(blocos).toBe(17);
+  expect(blocos).toBe(21);
 });
 
 test('toda chave do registro tem origem declarada', () => {

@@ -225,6 +225,27 @@ texto: |
 :::
 
 ::: som
+titulo: Som traqueal
+arquivo: som-traqueal
+descricao: |
+  O som sem o filtro do pulmão, sobre o pescoço e a fúrcula: inspiração forte e expiração mais forte e mais longa, separadas por uma pausa nítida — a assinatura que nenhum outro som normal tem.
+:::
+
+::: som
+titulo: Som brônquico
+arquivo: som-bronquico
+descricao: |
+  Agudo e rude, com expiração mais longa que a inspiração e um intervalo audível entre as fases. Normal junto ao esterno; ouvido na periferia do tórax, vira o achado mais importante da ausculta.
+:::
+
+::: som
+titulo: Som broncovesicular
+arquivo: som-broncovesicular
+descricao: |
+  O intermediário: inspiração e expiração de igual duração e intensidade, sem pausa entre elas — normal na região esternal superior e interescapulovertebral direita.
+:::
+
+::: som
 titulo: Murmúrio vesicular
 arquivo: murmurio-vesicular
 descricao: |

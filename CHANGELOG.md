@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog` — edite lá.
 
+## 1.2.12 — 2026-09-04
+
+- Os quatro sons respiratórios normais completos: traqueal, brônquico e broncovesicular entram ao lado do murmúrio vesicular
+- O tópico de sopros ganha a referência normal — ouça o TUM-TA limpo antes de cada sopro ocupar o seu lugar
+- 20 sons no total; a tabela dos normais agora se escuta linha a linha
+
 ## 1.2.11 — 2026-09-04
 
 - Três sons agora são gravações clínicas reais: murmúrio vesicular, sibilos e roncos (dataset aberto HF_Lung_V1, licença CC BY 4.0)

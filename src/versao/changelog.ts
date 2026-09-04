@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.12',
+    data: '2026-09-04',
+    linhas: [
+      'Os quatro sons respiratórios normais completos: traqueal, brônquico e broncovesicular entram ao lado do murmúrio vesicular',
+      'O tópico de sopros ganha a referência normal — ouça o TUM-TA limpo antes de cada sopro ocupar o seu lugar',
+      '20 sons no total; a tabela dos normais agora se escuta linha a linha',
+    ],
+  },
+  {
     versao: '1.2.11',
     data: '2026-09-04',
     linhas: [

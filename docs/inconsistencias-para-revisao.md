@@ -639,3 +639,12 @@ os ESTERTORES reais não permitem separar finos × grossos com segurança
 reais (PhysioNet 2016 / CirCor, ambos ODC-BY) ficam como leva futura — as
 fontes primárias estavam inacessíveis pela rede desta sessão. A escuta de
 endosso agora tem três itens a menos para desconfiar e três para conferir.
+
+**Complemento (v1.2.12):** a tabela dos sons respiratórios NORMAIS agora se
+escuta por inteiro — som traqueal, som brônquico e som broncovesicular
+(sintetizados a partir das características da própria tabela: pausa nítida
+do traqueal; intervalo audível e expiração longa do brônquico; fases iguais
+e sem pausa do broncovesicular) entram ao lado do murmúrio vesicular real.
+E o tópico de sopros ganhou a referência normal no topo dos players: as
+bulhas normais para o ouvido calibrar antes de cada sopro. Entram na mesma
+escuta de endosso.

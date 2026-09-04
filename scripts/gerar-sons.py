@@ -208,6 +208,53 @@ def som_murmurio_vesicular():
     return normalizar(respiracao_base(3))
 
 
+def _fase_respiratoria(y, t0, dur, f_lo, f_hi, ganho, semente, grave=False):
+    n = int(dur * SR)
+    ruido = ruido_banda(dur, f_lo, f_hi, semente=semente, grave=grave)
+    env = np.sin(np.linspace(0, np.pi, n)) ** 1.1
+    colocar(y, ruido * env, t0, ganho=ganho)
+
+
+def som_traqueal():
+    # Som traqueal (tabela dos normais): inspiração forte; expiração MAIS
+    # forte e mais longa, separada da inspiração por pausa nítida. Timbre
+    # rude e agudo — é o som sem o filtro do pulmão.
+    n_ciclos = 3
+    y = np.zeros(int(n_ciclos * RESP * SR))
+    for k in range(n_ciclos):
+        t0 = k * RESP
+        _fase_respiratoria(y, t0, 1.2, 150, 1200, 0.75, semente=201 + 2 * k)
+        # pausa nítida de ~0,3 s entre as fases
+        _fase_respiratoria(y, t0 + 1.5, 1.6, 150, 1200, 0.95, semente=202 + 2 * k)
+    return normalizar(y)
+
+
+def som_bronquico():
+    # Som brônquico: agudo (300-400 Hz), rude, expiração mais longa que a
+    # inspiração e um intervalo audível entre as fases — normal junto ao
+    # esterno; fora do lugar, é o achado que o tópico chama de sopro.
+    n_ciclos = 3
+    y = np.zeros(int(n_ciclos * RESP * SR))
+    for k in range(n_ciclos):
+        t0 = k * RESP
+        _fase_respiratoria(y, t0, 1.1, 220, 700, 0.7, semente=211 + 2 * k)
+        # intervalo audível, mais curto que a pausa do traqueal
+        _fase_respiratoria(y, t0 + 1.28, 1.4, 220, 700, 0.85, semente=212 + 2 * k)
+    return normalizar(y)
+
+
+def som_broncovesicular():
+    # Som broncovesicular: intermediário — inspiração e expiração de igual
+    # duração e intensidade, sem pausa entre elas.
+    n_ciclos = 3
+    y = np.zeros(int(n_ciclos * RESP * SR))
+    for k in range(n_ciclos):
+        t0 = k * RESP
+        _fase_respiratoria(y, t0, 1.2, 100, 600, 0.75, semente=221 + 2 * k, grave=True)
+        _fase_respiratoria(y, t0 + 1.22, 1.2, 100, 600, 0.75, semente=222 + 2 * k, grave=True)
+    return normalizar(y)
+
+
 def som_sibilos():
     # Sibilos: tons musicais contínuos na expiração (que se alonga), sobre
     # um murmúrio de fundo mais discreto.
@@ -449,6 +496,9 @@ SONS = {
     'ruflar-pre-sistolico.wav': som_ruflar_pre_sistolico,
     'sopro-continuo.wav': som_sopro_continuo,
     'atrito-pericardico.wav': som_atrito_pericardico,
+    'som-traqueal.wav': som_traqueal,
+    'som-bronquico.wav': som_bronquico,
+    'som-broncovesicular.wav': som_broncovesicular,
     'murmurio-vesicular.wav': som_murmurio_vesicular,
     'sibilos.wav': som_sibilos,
     'roncos.wav': som_roncos,

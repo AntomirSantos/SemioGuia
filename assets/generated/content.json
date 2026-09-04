@@ -7138,6 +7138,12 @@
         },
         {
          "tipo": "som",
+         "titulo": "Antes dos sopros — bulhas normais",
+         "arquivo": "bulhas-normais",
+         "descricao": "Ouça primeiro o ciclo sem sopro: TUM-TA, com o pequeno e o grande silêncio limpos. É contra este fundo que cada sopro abaixo ocupa o seu lugar entre as bulhas.\n"
+        },
+        {
+         "tipo": "som",
          "titulo": "Sopro sistólico de ejeção",
          "arquivo": "sopro-sistolico",
          "descricao": "O sopro cresce e decresce entre B1 e B2 — o desenho em diamante da primeira faixa da figura. As duas bulhas permanecem audíveis, com o sopro entre elas.\n"
@@ -9280,6 +9286,24 @@
          "tipo": "entendimento",
          "titulo": "Som brônquico fora do lugar",
          "texto": "Som vesicular e som brônquico não diferem só de nome: diferem de frequência. O murmúrio vesicular é grave, em torno de 100 Hz, suave, com inspiração mais longa que a expiração e sem intervalo entre elas. O som brônquico é agudo, entre 300 e 400 Hz, rude, com expiração mais longa que a inspiração e um intervalo audível entre as duas fases (McGee).\n\nO pulmão normal funciona como um filtro que deixa passar as frequências baixas e retém as altas. Por isso, na periferia do tórax, só chega o murmúrio vesicular: o som brônquico, agudo, é filtrado no caminho.\n\nSegue daí a regra mais importante da ausculta: **som brônquico ouvido na face posterior ou lateral do tórax, sobretudo nas partes baixas, é sempre anormal**. Ele só aparece ali quando existe pulmão sólido, colapsado ou consolidado encostando na parede e se estendendo alguma distância em direção ao hilo — condição que transforma o filtro passa-baixa em um bom condutor de frequências altas. As causas habituais são a pneumonia e o derrame pleural.\n\nQuando esse som brônquico deslocado é muito intenso, a semiologia de língua portuguesa o chama de **sopro**: **tubário** nas pneumonias com hepatização, **cavitário** nas grandes cavernas com brônquio de drenagem pérvio, **anfórico** no pneumotórax hipertensivo. Um sopro brando e mais longo na expiração, ouvido sobre a 7ª vértebra cervical, sobre a traqueia ou na região interescapular, é apenas o som brônquico normal daquelas áreas.\n"
+        },
+        {
+         "tipo": "som",
+         "titulo": "Som traqueal",
+         "arquivo": "som-traqueal",
+         "descricao": "O som sem o filtro do pulmão, sobre o pescoço e a fúrcula: inspiração forte e expiração mais forte e mais longa, separadas por uma pausa nítida — a assinatura que nenhum outro som normal tem.\n"
+        },
+        {
+         "tipo": "som",
+         "titulo": "Som brônquico",
+         "arquivo": "som-bronquico",
+         "descricao": "Agudo e rude, com expiração mais longa que a inspiração e um intervalo audível entre as fases. Normal junto ao esterno; ouvido na periferia do tórax, vira o achado mais importante da ausculta.\n"
+        },
+        {
+         "tipo": "som",
+         "titulo": "Som broncovesicular",
+         "arquivo": "som-broncovesicular",
+         "descricao": "O intermediário: inspiração e expiração de igual duração e intensidade, sem pausa entre elas — normal na região esternal superior e interescapulovertebral direita.\n"
         },
         {
          "tipo": "som",

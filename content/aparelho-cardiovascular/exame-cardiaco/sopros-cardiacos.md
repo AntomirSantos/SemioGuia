@@ -159,6 +159,13 @@ legenda: "Cada tipo de sopro ocupa um lugar próprio entre as bulhas — e é es
 :::
 
 ::: som
+titulo: Antes dos sopros — bulhas normais
+arquivo: bulhas-normais
+descricao: |
+  Ouça primeiro o ciclo sem sopro: TUM-TA, com o pequeno e o grande silêncio limpos. É contra este fundo que cada sopro abaixo ocupa o seu lugar entre as bulhas.
+:::
+
+::: som
 titulo: Sopro sistólico de ejeção
 arquivo: sopro-sistolico
 descricao: |
