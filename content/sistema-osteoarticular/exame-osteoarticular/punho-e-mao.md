@@ -71,6 +71,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  A paciente estende as mãos sobre a mesa e o diagnóstico está posto ali, antes de qualquer exame de sangue: punhos e metacarpofalangianas simétricos, desvio ulnar, um dedo em pescoço de cisne. Se o fator reumatoide vier negativo, isso não desfaz o que os olhos viram — vira artrite reumatoide soronegativa. Na mão, a deformidade não sugere a doença: ela é o critério.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -363,6 +368,13 @@ texto: |
   **E a armadilha que fecha o assunto.** Força reduzida na mão pode vir da junta, do tendão, do músculo ou do nervo, e as quatro se examinam de modos diferentes. Uma mão que não fecha porque **dói** não é uma mão fraca; e o par movimento ativo contra movimento passivo, ensinado no primeiro tópico deste capítulo, é o que separa as duas coisas antes de qualquer teste especial.
 :::
 
+::: pense
+pergunta: |
+  Osteoartrite e artrite reumatoide escolhem fileiras diferentes de articulações na mão. Quais?
+resposta: |
+  A osteoartrite prefere as interfalangianas distais (nódulos de Heberden) e a base do polegar; a artrite reumatoide, as metacarpofalangianas e interfalangianas proximais e os punhos, de forma simétrica — poupando as distais. A inspeção resolve essa pergunta em segundos.
+:::
+
 ::: secao
 titulo: A síndrome do túnel do carpo
 :::
@@ -578,6 +590,13 @@ texto: |
 
 ::: perola
 texto: "No túnel do carpo, o melhor achado negativo de todo o exame não é produzido pelo médico. É o desenho que o paciente faz da própria mão: quando os sintomas não tomam o polegar, o indicador nem o médio, a razão de verossimilhança cai a 0,2 — melhor do que qualquer manobra provocativa consegue ser em qualquer direção."
+:::
+
+::: resumo
+linhas:
+  - "Na mão, o achado de beira de leito é o próprio padrão diagnóstico: a deformidade típica estabelece a doença, com ou sem sorologia."
+  - "A pergunta organizadora é osteoartrite × artrite reumatoide — e as fileiras de articulações acometidas respondem à inspeção."
+  - "No túnel do carpo, a pergunta decisiva é se polegar, indicador ou médio estão dentro da queixa — a ausência deles é o que argumenta contra (RV 0,2)."
 :::
 
 ::: secao

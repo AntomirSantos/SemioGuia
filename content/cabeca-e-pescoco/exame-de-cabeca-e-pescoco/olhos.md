@@ -74,6 +74,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  A acompanhante nota antes de você: "o olho esquerdo dele está caído". Ptose nova em adulto não é achado estético — entre a miastenia que piora ao fim do dia, o III par e a síndrome de Horner, o que decide são as pupilas e a lanterna que você carrega no bolso. Poucos segmentos do exame rendem tanto com tão pouco equipamento.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -329,6 +334,13 @@ texto: |
 texto: "Anisocoria descoberta em paciente com rebaixamento de consciência, trauma craniano ou cefaleia de início súbito não é achado para registrar e seguir adiante. Fora desses contextos, e com reflexos normais dos dois lados, a probabilidade de ser constitucional é alta — e a conduta é anotar."
 :::
 
+::: pense
+pergunta: |
+  Você ilumina um olho e observa a contração da pupila do outro. Como se chama essa resposta, e o que ela exige para acontecer?
+resposta: |
+  É o reflexo consensual: a pupila não iluminada contrai ao mesmo tempo e na mesma medida que a iluminada. Ele existe porque a via aferente de um olho distribui o estímulo para os dois lados eferentes — e é por isso que doença puramente aferente não produz anisocoria.
+:::
+
 ::: secao
 titulo: Aprofundamento
 :::
@@ -485,6 +497,13 @@ texto: |
 
 ::: perola
 texto: "Diante de um olho vermelho, três perguntas resolvem a triagem antes de qualquer hipótese: onde a vermelhidão é mais intensa — na periferia ou em torno do limbo? Dói quando a pupila contrai? E as pupilas estão iguais? Vermelhidão limbar, dor à contração e miose do lado afetado apontam para o especialista, hoje."
+:::
+
+::: resumo
+linhas:
+  - "O clínico examina com a lanterna: pálpebras e fenda, posição do globo, conjuntivas e escleras, e as pupilas com os três reflexos — fundo de olho e lâmpada de fenda ficam nomeados, não ensinados."
+  - "Ptose tem três donos habituais — III par, Horner e miastenia (bilateral, pior ao fim do dia) — e as pupilas ajudam a separá-los."
+  - "Anisocoria se analisa no claro e no escuro: a pupila anormal é a que não acompanha a mudança de luz — e doença aferente não produz anisocoria."
 :::
 
 ::: secao

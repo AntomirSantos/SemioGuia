@@ -67,6 +67,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  O exame todo saiu normal — força, sensibilidade, reflexos, coordenação no leito. Você já ia liberar quando o preceptor pergunta: "ele andou?". No corredor, três passos bastam para desmontar a alta: base alargada, trajetória em zigue-zague. A maca esconde exatamente os dois exames deste tópico — e os dois são pulados com a mesma frequência com que decidem casos.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -308,6 +313,13 @@ texto: |
   **A regra prática que resolve o impasse à beira do leito** é a mesma nas duas partes de Porto e vale mais que a escolha da causa: **a marcha senil é diagnóstico de exclusão**. Com o envelhecimento a marcha muda mesmo sem doença — aumenta a flexão de cotovelos, cintura e quadril, diminuem o balanço dos braços, a altura em que os pés são levantados e o comprimento dos passos, e o padrão pode chegar a se confundir com a marcha de pequenos passos. Mas essas alterações **não aparecem em todos os idosos**: há quem alcance idades muito avançadas sem nenhuma delas, e há quem as desenvolva cedo. Antes de usar o rótulo, é preciso afastar as doenças neurológicas e osteomusculares capazes de produzir o mesmo quadro. O tópico de ectoscopia já registra essa regra por inteiro, e ela não muda aqui.
 
   **McGee descreve um quadro vizinho — e com o mesmo nome.** Ao caracterizar o **distúrbio frontal da marcha**, ele chama a marcha lenta, arrastada e de base alargada de *marche à petits pas*, que é literalmente marcha de pequenos passos. Vale conhecê-lo porque explica boa parte dos casos: é termo impreciso que reúne achados vistos em pacientes com tumores cerebrais, hematomas subdurais, doenças que cursam com demência, hidrocefalia de pressão normal e múltiplos infartos lacunares. As características são quatro: marcha **lenta, arrastada e de base alargada**; **hesitação para iniciar** a caminhada; **dificuldade de descolar os pés do chão**; e **controle postural pobre**. Alguns desses achados lembram parkinsonismo, e é justamente por isso que McGee lista o que os separa: no distúrbio frontal, a **base é larga** — não estreita —, o **balanço dos braços é normal**, faltam os demais traços parkinsonianos, a postura é **mais ereta**, e há mais demência e mais incontinência urinária.
+:::
+
+::: pense
+pergunta: |
+  Um paciente pode ter síndrome cerebelar com exame de membros inteiramente normal?
+resposta: |
+  Pode — a ataxia de marcha é o achado mais frequente de todas as síndromes cerebelares, e muitos pacientes têm dificuldade de andar sem nenhum outro sinal de ataxia de membro. É por isso que o exame neurológico só termina quando o paciente anda.
 :::
 
 ::: secao
@@ -651,6 +663,13 @@ texto: |
 
 ::: perola
 texto: "Rigidez de nuca é o achado que mais engana nas duas direções: ausente em quem tem hemorragia há poucas horas, presente em um terço dos idosos internados que não têm nada nas meninges. Ela vale muito quando aparece na cefaleia súbita, e nunca vale como carta de alforria."
+:::
+
+::: resumo
+linhas:
+  - "Dois exames que a maca esconde: a marcha, que desmascara síndromes com exame de membros normal, e os sinais meníngeos, que exigem encostar na cabeça do paciente."
+  - "De todos os sinais de irritação meníngea, a rigidez de nuca é o que mais pesa — pesquisá-la é rotina; Kernig, Brudzinski e Lasègue completam."
+  - "Cada marcha nomeada aponta um sistema; e a rigidez pode demorar a aparecer na hemorragia subaracnóidea e desaparecer no coma profundo."
 :::
 
 ::: secao

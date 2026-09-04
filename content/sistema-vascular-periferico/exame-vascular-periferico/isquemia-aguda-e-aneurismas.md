@@ -51,6 +51,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  A perna esfriou de repente, há duas horas: pálida, dolorida, sem pulso distal. A angiotomografia? Fica a quarenta minutos dali. É o único cenário deste capítulo em que o relógio faz parte do exame — a isquemia aguda se diagnostica inteiramente à beira do leito, e esperar a imagem quando ela não está à mão pode custar o membro.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -272,6 +277,13 @@ texto: |
   A lógica inversa também vale e explica outro achado do quadro agudo: na oclusão crônica há tempo para as colaterais, e é por isso que quase todas as alterações tróficas pertencem às arteriopatias crônicas; na aguda, sem esse tempo, o repertório se reduz a **bolhas, edema e gangrena**.
 :::
 
+::: pense
+pergunta: |
+  Você encontra pulso femoral presente em um membro com quadro de isquemia aguda. Isso afasta oclusão naquele nível?
+resposta: |
+  Cuidado com o pulso transmitido: logo acima de uma oclusão a onda pode ser palpável — e até mais evidente. O que localiza a oclusão é o conjunto — o nível em que a palidez e a frialdade começam e os pulsos distais ausentes —, não um pulso isolado presente.
+:::
+
 ::: secao
 titulo: Aneurismas
 :::
@@ -415,6 +427,13 @@ texto: |
 
 ::: perola
 texto: "Aneurisma quase nunca se anuncia; ele se apresenta pela complicação. Um artelho subitamente azul, um sopro sistólico novo sobre a fossa poplítea, uma pulsação que afasta as duas mãos no epigástrio — em cada um desses casos, o exame não descobriu o aneurisma, descobriu o que ele já fez."
+:::
+
+::: resumo
+linhas:
+  - "Isquemia aguda é emergência de exame físico: dor, palidez e frialdade com topografia, cianose que agrava, pulsos ausentes distais à oclusão — e conduta que não espera imagem inacessível."
+  - "A mnemônica dos P fica nomeada, não ensinada — o guia registra as enumerações das fontes, que não são idênticas."
+  - "Aneurisma é o oposto em ritmo: silencioso por anos, hipótese levantada pela pulsação expansiva — cuja técnica mora no tópico de palpação do abdome."
 :::
 
 ::: secao

@@ -93,6 +93,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "A senhora está me ouvindo bem?" — "Estou, doutor." Mas a filha discorda: em casa, a televisão grita. Entre a negativa educada e a perda auditiva real existe um teste que não precisa de aparelho nenhum: um passo atrás do paciente, uma palavra sussurrada, uma resposta. Boca, nariz e ouvidos são o território da lanterna, do abaixador e dos testes de bolso.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -426,6 +431,13 @@ texto: |
   O desempenho justifica o hábito: o teste anormal aumenta consideravelmente a probabilidade de perda auditiva significativa, com razão de verossimilhança **6,0**, e o teste normal praticamente a exclui, com razão de verossimilhança **0,03** (McGee). Poucos achados de exame físico afastam tão bem quanto este.
 :::
 
+::: pense
+pergunta: |
+  A palpação da orelha externa usa três gestos com significados diferentes. Quais são, e o que cada dor sugere?
+resposta: |
+  Tração do pavilhão para cima e para trás e compressão do trago — dolorosas na otite externa — e palpação da mastoide, dolorosa na mastoidite. Três toques de segundos que orientam para onde a otoscopia (e a conduta) deve ir.
+:::
+
 ::: secao
 titulo: Aprofundamento
 :::
@@ -548,6 +560,13 @@ texto: |
 
 ::: perola
 texto: "Duas perguntas transformam a otalgia em diagnóstico antes de qualquer instrumento: dói ao tracionar o pavilhão e comprimir o trago? Dói ao palpar a mastoide? A primeira aponta para a orelha externa; a segunda, para a hipótese de mastoidite. Se nenhuma das duas dói, considere seriamente a articulação temporomandibular."
+:::
+
+::: resumo
+linhas:
+  - "Sem boa iluminação não há exame da boca — e a ordem fixa (lábios → mucosas → palatos → língua → assoalho → gengivas → orofaringe) é o que garante não pular nada."
+  - "A audição se rastreia com a voz sussurrada, e o diapasão de 512 Hz (Weber e Rinne) separa perda condutiva de neurossensorial."
+  - "Otoscopia, rinoscopia e laringoscopia ficam nomeadas: exigem instrumento e treino próprios — saber que existem já orienta o encaminhamento."
 :::
 
 ::: secao

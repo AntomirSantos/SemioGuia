@@ -62,6 +62,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  Madrugada, pronto-socorro lotado, dor abdominal há oito horas. A tomografia tem fila; o cirurgião quer saber se chama ou não chama. É para essa decisão — quem vai para casa, quem vai para a imagem, quem vai direto ao centro cirúrgico — que servem os sinais deste tópico. Nenhum fecha diagnóstico sozinho; todos movem probabilidade, e é assim que devem ser lidos.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -240,6 +245,13 @@ texto: |
   **Teste da tosse.** O paciente é solicitado a tossir. O teste é positivo quando ele demonstra dor durante a tosse — encolhe-se, faz careta, leva as mãos ao abdome — ou quando reduz nitidamente a intensidade da tosse para evitar a dor. Razão de verossimilhança **1,9** quando presente e **0,5** quando ausente.
 
   A leitura combinada é simples e muda a prática: comece pela tosse e pela percussão suave. Se elas já responderam, a descompressão brusca não precisa ser feita.
+:::
+
+::: pense
+pergunta: |
+  Sem encostar a mão no paciente, que manobra já rastreia irritação peritoneal — e o que você observa?
+resposta: |
+  O teste da tosse: peça que ele tussa e observe. Quem tem peritônio inflamado se encolhe, faz careta ou leva a mão ao abdome. É a informação mais barata do abdome agudo, obtida antes de qualquer palpação.
 :::
 
 ::: secao
@@ -477,6 +489,13 @@ texto: |
 
 ::: perola
 texto: "Quando o exame do abdome é francamente doloroso e ainda assim ambíguo, a informação que falta raramente vem de uma manobra a mais. Vem do relógio: reexamine o mesmo paciente daqui a algumas horas, com a mesma técnica, e compare. A evolução do exame é um dado, e costuma ser o dado decisivo."
+:::
+
+::: resumo
+linhas:
+  - "O exame do abdome agudo decide destinos: casa quando a probabilidade de peritonite é baixíssima, centro cirúrgico quando altíssima, imagem para o meio equívoco."
+  - "Comece pelo que não toca — a tosse — e gradue: defesa involuntária e rigidez pesam mais que dor difusa; a descompressão brusca tem alternativas mais gentis."
+  - "Nenhum sinal isolado fecha diagnóstico: todos movem probabilidade, e o conjunto — com a história e a evolução — é que decide."
 :::
 
 ::: secao

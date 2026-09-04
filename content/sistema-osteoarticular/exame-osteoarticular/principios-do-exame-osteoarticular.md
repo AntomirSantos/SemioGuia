@@ -62,6 +62,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "Doutor, é reumatismo — dói tudo." A palavra que a paciente trouxe não separa nada; as que você vai fazer com ela, sim: dói ou inflama? Uma junta ou muitas? As novas se somam ou a dor muda de lugar? Piora com o repouso ou com o uso? Neste sistema, quatro perguntas bem-feitas valem mais que o painel de exames que ela veio pedir.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -259,6 +264,13 @@ texto: |
   **O movimento é o teste.** No padrão inflamatório a rigidez **melhora com a movimentação** e a manhã é o pior período; no mecânico, o uso é o que piora, e o fim do dia é o pior momento. O mesmo relógio que mede a rigidez separa os dois padrões de dor.
 :::
 
+::: pense
+pergunta: |
+  Rigidez matinal que dura mais de uma hora e melhora com o movimento aponta para que família de doença? E a rigidez breve, de minutos, que piora com o uso?
+resposta: |
+  A rigidez prolongada (acima de uma hora) com melhora ao movimento é a assinatura do padrão inflamatório — pense em artrite reumatoide. A rigidez breve pós-repouso que piora com o uso é do padrão mecânico-degenerativo — pense em osteoartrite.
+:::
+
 ::: secao
 titulo: O que a palpação e a mobilidade entregam
 :::
@@ -433,6 +445,13 @@ texto: |
 
 ::: perola
 texto: "O exame osteoarticular tem duas perguntas que quase nunca são feitas e quase sempre decidem: quantas juntas, e em que ordem elas entraram. Um paciente com quatro juntas doloridas que se somaram ao longo de meses e um paciente com quatro juntas que doeram uma de cada vez e passaram têm o mesmo exame de hoje e doenças diferentes."
+:::
+
+::: resumo
+linhas:
+  - "O vocabulário vem antes do gesto: artralgia ou artrite, quantas articulações, em que ordem, com que ritmo — são essas palavras que separam as famílias de doença."
+  - "Padrão inflamatório: rigidez longa, melhora com o movimento; padrão mecânico: rigidez breve, piora com o uso."
+  - "Neste sistema, anamnese e exame valem mais que os exames complementares — que aqui confundem com facilidade."
 :::
 
 ::: secao

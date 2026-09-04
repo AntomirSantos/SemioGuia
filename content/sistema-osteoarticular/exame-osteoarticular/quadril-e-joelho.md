@@ -73,6 +73,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "Dor no joelho" há três meses, e o joelho examinado está impecável. Antes de pedir a ressonância do lugar errado, gire o quadril daquele lado: a articulação coxofemoral é profunda demais para doer onde mora, e manda a queixa para a virilha, para a coxa — e para o joelho. O quadril mente sobre onde dói; o joelho, superficial, entrega quase tudo.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -285,6 +290,13 @@ texto: |
   - **Bursite isquiática ou isquioglútea** — dor e às vezes tumefação sobre a **tuberosidade isquiática**. Porto dá o apelido e a origem: **nádega de tecelão**, por permanência prolongada sentado em superfície dura.
 
   **E os três diagnósticos de dor no quadril que não são da junta nem da bursa**, todos de Semiologia Clínica: a **síndrome do piriforme**, com compressão do isquiático sob o músculo em contratura e piora à abdução e rotação medial; a **disfunção do trato iliotibial**, com dor na região distal da coxa à deambulação; e a **meralgia parestésica**, dor e parestesia na face anterolateral da coxa por compressão do nervo cutâneo femoral lateral junto à espinha ilíaca anterossuperior — cintos apertados são a causa que ela cita.
+:::
+
+::: pense
+pergunta: |
+  Por que uma dor de quadril tantas vezes se apresenta como dor no joelho?
+resposta: |
+  Porque a coxofemoral é profunda, cercada de músculos, e não gera sensações bem localizadas: a dor segue os territórios dos nervos obturador e femoral — virilha, coxa, joelho — ou do isquiático, na nádega. Diante de joelho dolorido com exame normal, examine o quadril.
 :::
 
 ::: secao
@@ -575,6 +587,13 @@ texto: |
 
 ::: perola
 texto: "No joelho, o exame físico alcança números que quase nenhum outro segmento do corpo alcança: 97,8 para a gaveta posterior, 19,5 para Lachman, 16,2 para o estresse em varo. E, na mesma articulação, a dor na interlinha rende 1,8 e a concordância do McMurray vai de 0,16 a 0,35. A diferença entre um exame excelente e um exame inútil, aqui, cabe inteira na técnica."
+:::
+
+::: resumo
+linhas:
+  - "O quadril é profundo e mente sobre onde dói — a queixa migra para virilha, coxa, joelho e nádega; o joelho é superficial e entrega quase tudo."
+  - "No joelho, cada ligamento se testa na direção que ele resiste, o derrame se vê e as estruturas se palpam uma a uma — é a articulação com os melhores números do capítulo."
+  - "Joelho dolorido com exame normal pede exame do quadril antes de pedir imagem."
 :::
 
 ::: secao

@@ -71,6 +71,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "Apareceu um caroço no pescoço." Podia ser linfonodo, cisto, glândula salivar, vaso — ou tireoide. Você enche um copo d'água, entrega ao paciente e pede um gole olhando o pescoço dele contra a luz: o nódulo sobe com a laringe. Uma manobra que custa um copo d'água acabou de responder a primeira pergunta do caso.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -328,6 +333,13 @@ texto: |
   Duas advertências de Semiologia Clínica fecham a técnica. Primeira: confunde-se com frequência o crescimento da tireoide com um pescoço largo por outro motivo — constituição ou obesidade —, e nesses casos **a palpação não consegue delimitar a glândula**. Segunda: **dor à palpação sugere infecção ou inflamação agudas**, e um sangramento recente dentro de um nódulo também pode doer, pela distensão da cápsula.
 
   **Ausculta.** Se a tireoide estiver aumentada, ausculte a região correspondente (Porto). Em condições normais não se ouvem sopros no pescoço, com a exceção do **rumor venoso**, relativamente comum em crianças. Frêmito e sopro denunciam aumento do fluxo sanguíneo na glândula, achado bastante sugestivo de bócio tóxico (Porto). Semiologia Clínica acrescenta que, na doença de Graves, o sopro pode ser **contínuo** — sistólico e diastólico.
+:::
+
+::: pense
+pergunta: |
+  Um nódulo cervical anterior sobe quando o paciente engole. O que isso diz sobre a origem dele?
+resposta: |
+  Que é tireoide ou está preso a ela — a glândula é envolvida pela fáscia que acompanha a laringe na deglutição. O que fica parado durante o gole é outra coisa: linfonodo, cisto, lipoma, vaso. A deglutição é a prova de movimento que transforma inspeção em diagnóstico topográfico.
 :::
 
 ::: secao
@@ -614,6 +626,13 @@ texto: |
 
 ::: perola
 texto: "Diante de qualquer tumoração cervical, faça três perguntas antes de nomeá-la: ela está na linha média ou de lado? Ela sobe quando o paciente engole? Ela sobe quando o paciente põe a língua para fora? As três respostas juntas separam tireoide, linfonodo e cisto tireoglosso sem nenhum exame complementar."
+:::
+
+::: resumo
+linhas:
+  - "O pescoço se examina por inspeção, palpação e ausculta — e a tireoide se identifica pelo movimento: o que sobe com o gole é dela ou está preso a ela."
+  - "A tireoide normal é, em regra, impalpável; palpável não é sinônimo de doente, e bócio é aumento — o estado funcional se lê no resto do paciente."
+  - "Jugulares, linfonodos e rigidez de nuca são vizinhos com endereço próprio em outros tópicos: aqui basta saber localizá-los e diferenciá-los."
 :::
 
 ::: secao

@@ -75,6 +75,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "Formigamento nos pés" em um paciente diabético. Você poderia sair espetando o corpo inteiro ao acaso — ou decidir antes o que quer saber: a queixa é limitada, então tato e dor bastam; a distribuição interessa mais que o limiar; e se a perda subir feito uma bota, o exame já contou a história. Sensibilidade é o exame que mais recompensa quem planeja e mais castiga quem tem pressa.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -363,6 +368,13 @@ texto: |
   **O infarto bulbar lateral é o que mais impressiona e o que menos paralisa.** Ele se apresenta com vertigem intensa e perda de dor e temperatura em lados opostos da face e do corpo, **sem fraqueza** — e a lesão fica do mesmo lado da analgesia facial. Os achados associados mais frequentes, na tabulação de McGee, são reflexo córneo-palpebral diminuído (91%), nistagmo (56% a 100%), ataxia de marcha (91%), ataxia de membro do mesmo lado (55% a 95%), síndrome de Horner do mesmo lado (41% a 95%), analgesia facial do mesmo lado (50% a 86%), fraqueza do palato do mesmo lado (52% a 86%), analgesia do corpo do lado oposto (88%) e fraqueza facial do mesmo lado (18% a 43%). O tópico de pares cranianos de VII a XII já descreve essa síndrome pelo lado dos nervos; aqui ela aparece pelo lado da sensibilidade, e as duas descrições são a mesma lesão.
 :::
 
+::: pense
+pergunta: |
+  Quando a queixa sensitiva envolve grande parte de um membro ou o tronco, por que é preciso testar todas as sensações simples, e não só o tato?
+resposta: |
+  Para não perder a dissociação sensitiva — a perda de uma modalidade com preservação de outra —, que é pista importante de doença medular. As quatro sensações simples são dor, temperatura, tato e vibração.
+:::
+
 ::: secao
 titulo: Coordenação
 :::
@@ -596,6 +608,13 @@ texto: |
 
 ::: perola
 texto: "Duas perguntas resolvem quase toda a topografia sensitiva: a perda é dos dois lados, e ela envolve a face? Dois lados sem face é polineuropatia ou medula; um lado com face é tálamo ou hemisfério; e face de um lado com corpo do outro é tronco encefálico."
+:::
+
+::: resumo
+linhas:
+  - "Sensibilidade é relato: decida antes o que quer saber — triagem só com tato; queixa em um membro, tato e dor; queixa extensa, todas as modalidades atrás da dissociação."
+  - "O que faz diagnóstico é o padrão da perda — bota e luva, nível sensitivo, dermátomo, hemicorpo — mais do que o limiar."
+  - "Coordenação e Romberg completam: dismetria aponta cerebelo; Romberg positivo (queda ao fechar os olhos) aponta propriocepção ou vestíbulo, não cerebelo."
 :::
 
 ::: secao

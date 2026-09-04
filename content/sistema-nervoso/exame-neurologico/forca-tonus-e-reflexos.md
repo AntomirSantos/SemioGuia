@@ -72,6 +72,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "Fraqueza na perna direita há duas semanas." Você poderia pedir a ressonância — mas de qual segmento? Cérebro, medula, raiz, nervo, músculo? A resposta que orienta o pedido não vem da força: vem do tônus, do trofismo e dos reflexos daquele membro, lidos juntos. É o exame motor fazendo o que só ele faz — topografia.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -385,6 +390,13 @@ texto: |
   **Por que o achado é essa combinação de queda e pronação**, e não uma queda qualquer, é a parte elegante: o desvio em pronação é um sinal de lesão **hemisférica contralateral**, e McGee o agrupa com outros dois testes que detectam a mesma coisa mesmo quando a força está praticamente preservada — a **prova do rolamento dos antebraços**, em que o paciente gira os antebraços um em torno do outro e o lado comprometido fica parado enquanto o outro orbita à sua volta; e o **teste de percussão rápida dos dedos**, em que o paciente bate polegar contra indicador cerca de duas vezes por segundo e o lado comprometido bate mais devagar e com menor amplitude. Os números desses três testes estão no bloco de aprofundamento.
 
   Semiologia Clínica registra ainda a leitura mais útil das manobras deficitárias, que não é apenas encontrar a fraqueza: elas mostram **se o déficit é global, distal ou proximal**. O padrão **distal** é característico de lesões piramidais ou de nervos periféricos; o padrão **proximal** sugere miopatia. McGee mede exatamente essa intuição: se fraqueza proximal for definida como músculos proximais com um grau a menos que os distais na escala do Medical Research Council, ela aparece em **92%** dos pacientes com doença muscular — de modo que a **ausência** de fraqueza proximal reduz a probabilidade de doença do músculo.
+:::
+
+::: pense
+pergunta: |
+  A queixa é fraqueza discreta, e a força contra oposição parece normal. Que manobras revelam o déficit que a oposição não pega?
+resposta: |
+  As provas deficitárias — Mingazzini, Barré, braços estendidos: mantém-se a postura contra a gravidade por tempo suficiente e observa-se qual segmento cede primeiro. Elas detectam déficits leves que o teste de oposição direto não mostra.
 :::
 
 ::: secao
@@ -805,6 +817,13 @@ texto: |
 
 ::: perola
 texto: "Antes de decidir que o reflexo está alterado, faça duas perguntas: o paciente está relaxado, e o músculo está estirado? A maioria dos reflexos que somem no exame some pela mão do examinador, não pelo sistema nervoso do paciente."
+:::
+
+::: resumo
+linhas:
+  - "Três perguntas em ordem: onde está a fraqueza, de que tipo ela é (neurônio motor superior × inferior) e onde fica a lesão — e quem responde a segunda são tônus, trofismo e reflexos, não a força."
+  - "Superior: espasticidade, hiper-reflexia, Babinski, pouca atrofia. Inferior: hipotonia, arreflexia, atrofia e fasciculações — lidos no membro fraco."
+  - "Provas deficitárias pegam o déficit leve; reflexos se graduam e, sobretudo, se comparam entre os lados."
 :::
 
 ::: secao

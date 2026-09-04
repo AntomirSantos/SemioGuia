@@ -53,6 +53,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  O abdome cresceu — mas cresceu de quê? Gordura, gás, líquido, massa, gravidez: as cinco causas clássicas têm assinaturas diferentes sob o dedo que percute. É uma das poucas partes do exame em que dois sons — timpânico e maciço — bem mapeados respondem uma pergunta que a inspeção sozinha não responde.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -227,6 +232,13 @@ texto: |
   E há dois fatores banais que estragam o achado: a macicez do Traube perde acurácia em pessoas com sobrepeso e em quem acabou de comer (McGee). Um estômago cheio é um Traube maciço sem doença nenhuma.
 :::
 
+::: pense
+pergunta: |
+  Percutindo o abdome você encontra uma área de macicez onde deveria haver timpanismo de alça. O que esse achado diz — e o que ele não diz?
+resposta: |
+  Diz que existe algo sem ar ali — massa inflamatória, tumor, bexiga cheia, útero, líquido — e diz onde. Não diz o quê: a natureza vem da palpação, da história e dos exames. Macicez circunscrita é achado que muda conduta.
+:::
+
 ::: secao
 titulo: Ascite
 :::
@@ -396,6 +408,13 @@ texto: |
 
 ::: perola
 texto: "Antes de anunciar ascite, pergunte-se por três coisas que imitam líquido livre: bexiga cheia, alças cheias de líquido e cisto de ovário. As duas primeiras somem quando o paciente esvazia; a terceira não muda com o decúbito. A percussão distingue as três — desde que você lembre de procurá-las."
+:::
+
+::: resumo
+linhas:
+  - "Dois sons de trabalho — timpanismo (ar em víscera oca) e macicez (ausência de ar) — e a pergunta permanente: qual deles está onde não deveria?"
+  - "Três tarefas concretas: delimitar a macicez hepática, pesquisar ascite (macicez móvel, piparote) e comparar a sonoridade entre áreas homólogas."
+  - "O golpe é o mesmo do tórax, com dose menor — a parede abdominal é mais complacente e as vísceras, mais próximas."
 :::
 
 ::: secao

@@ -61,6 +61,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  Perna inchada e dolorida depois de uma viagem longa. Alguém já testou o Homans e anotou "negativo, TVP improvável" — e é exatamente esse o erro que este tópico existe para impedir: na trombose venosa profunda, nenhum achado isolado afasta o diagnóstico. Aqui se ensina o exame e, com a mesma seriedade, o tamanho do que ele entrega.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -198,6 +203,13 @@ texto: |
   McGee organiza o diferencial pelo número de pernas: as causas mais comuns de edema **bilateral** são insuficiência cardíaca congestiva, insuficiência venosa crônica, hipertensão pulmonar e edema induzido por medicamentos; as de edema **unilateral** são trombose venosa profunda, cisto de Baker e celulite. E acrescenta o achado que decide o edema bilateral: **as veias do pescoço**. Se a pressão venosa estiver elevada, a causa é cardiopulmonar; se estiver normal, a causa é outra — hepática, nefrótica, venosa crônica ou medicamentosa. A técnica está no tópico de pulso venoso jugular e turgência.
 
   Dois vizinhos, para não serem confundidos com edema venoso: o **linfedema**, indolor, firme, que caracteristicamente quadra os dedos e produz uma corcova no dorso do pé, varia pouco ao longo do dia e raramente ulcera — descrito, com o sinal de Stemmer, no tópico de linfonodos; e o **lipedema**, depósito bilateral de tecido adiposo subcutâneo nas pernas que **não** deixa fóvea e cuja característica mais marcante é **poupar os pés**, ocorrendo exclusivamente em mulheres obesas (McGee).
+:::
+
+::: pense
+pergunta: |
+  Toda variz é insuficiência venosa crônica?
+resposta: |
+  Não. Doença venosa crônica é o termo amplo — qualquer anormalidade morfológica ou funcional de longa duração do sistema venoso. Insuficiência venosa crônica se reserva à doença avançada, quando já há edema, alterações cutâneas ou ulceração.
 :::
 
 ::: secao
@@ -535,6 +547,13 @@ texto: |
 
 ::: perola
 texto: "Na perna aguda, o achado que mais vale é o que menos parece exame: a fita métrica. Todos os sinais clássicos da trombose — o cordão, o Homans, o eritema, a dor à palpação — perderam o valor nos estudos; a diferença medida entre as duas panturrilhas foi o único que sobrou de pé."
+:::
+
+::: resumo
+linhas:
+  - "Duas doenças no mesmo membro: a venosa crônica, lenta e visível (variz não é sinônimo de insuficiência), e a trombose profunda, aguda e com pressa."
+  - "Na TVP, nenhum achado isolado afasta o diagnóstico — a assimetria de panturrilha acima de 1,5 cm é o que mais informa, e a probabilidade se organiza pelo escore de Wells."
+  - "O exame venoso se faz de pé e depois deitado, com inspeção a distância e de perto — e a honestidade sobre seus limites faz parte da técnica."
 :::
 
 ::: secao

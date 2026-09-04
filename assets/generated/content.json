@@ -4647,6 +4647,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "Cefaleia há três semanas, \"já tomou de tudo\". A tomografia veio normal, e o paciente volta com o mesmo laudo e a mesma dor. Você faz o que ninguém tinha feito: toca a cabeça dele — e encontra o ponto doloroso na têmpora, sobre a artéria endurecida, que muda toda a investigação. Metade dos achados deste segmento se perde porque o examinador nunca encostou a mão.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -4729,6 +4733,11 @@
          "tipo": "entendimento",
          "titulo": "Periférica ou central — a pergunta que muda tudo",
          "texto": "De toda a semiologia da face, esta é a distinção com maior consequência prática, e ela se resolve olhando para a **testa**.\n\n- Na **paralisia periférica** — lesão do próprio nervo facial, também chamada infranuclear —, **toda a hemiface do mesmo lado** está comprometida: a testa não enruga, o olho não fecha, a boca desvia.\n- Na **paralisia central** — lesão da via corticonuclear, ou supranuclear —, apenas a **metade inferior da face do lado oposto à lesão** se altera. A testa continua enrugando e o olho continua fechando, porque a metade superior recebe inervação dos dois hemisférios.\n\nA leitura é de Porto (*Semiologia Médica*, cap. 172), que registra ainda a companhia habitual de cada uma: o tipo central ocorre com frequência nos acidentes vasculares encefálicos e nas neoplasias cerebrais; entre as periféricas, cerca de 80% são as chamadas paralisias *a frigore*, de caráter benigno, hoje atribuídas a infecções virais com reação edematosa do nervo. Outras causas periféricas incluem diabetes melito, neoplasias, otite média, traumatismos, herpes-zóster e hanseníase — nesta última, a lesão pode ser incompleta, do tipo ramuscular, atingindo apenas ramos terminais.\n\nUma consequência de enfermaria vale ser dita: paciente que não fecha o olho não protege a córnea. A lagoftalmia é, por si, um problema de superfície ocular, e Semiologia Clínica lembra que o piscar é o que reparte o filme lacrimal sobre a conjuntiva e a córnea.\n\nOnde este raciocínio continua: **a graduação da paralisia facial, o restante do exame do VII par e o exame sistemático dos demais nervos cranianos pertencem ao capítulo do sistema nervoso**. O que se aprende aqui é reconhecer a assimetria e saber para onde ela aponta.\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Neste tópico, o rosto é examinado por uma pergunta diferente da que a ectoscopia já fez. Qual é ela?\n",
+         "resposta": "Se o rosto é simétrico e se ele se move simetricamente. A fácies — o padrão sindrômico do conjunto — pertence à ectoscopia; aqui o foco é a assimetria estática e dinâmica, incluindo a paralisia facial como achado (cuja exploração sistemática, porém, é do capítulo do sistema nervoso).\n"
         },
         {
          "tipo": "secao",
@@ -4840,6 +4849,14 @@
         {
          "tipo": "perola",
          "texto": "Diante de uma assimetria da face, faça três perguntas antes de nomeá-la: ela existe em repouso ou só no movimento? Ela é do lado direito ou do esquerdo — e comparada com o quê? E há alguma tumefação que a explique, como uma parótida crescida ou um abscesso dentário? Assimetria sem essas três respostas é observação, não achado."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Sequência fixa: forma e tamanho do crânio, posição e movimentos, superfície e couro cabeludo, face — e depois seios da face e temporomandibular, que só o tato alcança.",
+          "Inspeção sem palpação não encontra afundamento, bossa nem ponto doloroso — toque a cabeça do paciente.",
+          "Aqui a pergunta do rosto é simetria, estática e em movimento; fácies é assunto da ectoscopia, e os pares cranianos, do sistema nervoso."
+         ]
         },
         {
          "tipo": "secao",
@@ -5005,6 +5022,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "A acompanhante nota antes de você: \"o olho esquerdo dele está caído\". Ptose nova em adulto não é achado estético — entre a miastenia que piora ao fim do dia, o III par e a síndrome de Horner, o que decide são as pupilas e a lanterna que você carrega no bolso. Poucos segmentos do exame rendem tanto com tão pouco equipamento.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -5108,6 +5129,11 @@
          "texto": "Anisocoria descoberta em paciente com rebaixamento de consciência, trauma craniano ou cefaleia de início súbito não é achado para registrar e seguir adiante. Fora desses contextos, e com reflexos normais dos dois lados, a probabilidade de ser constitucional é alta — e a conduta é anotar."
         },
         {
+         "tipo": "pense",
+         "pergunta": "Você ilumina um olho e observa a contração da pupila do outro. Como se chama essa resposta, e o que ela exige para acontecer?\n",
+         "resposta": "É o reflexo consensual: a pupila não iluminada contrai ao mesmo tempo e na mesma medida que a iluminada. Ele existe porque a via aferente de um olho distribui o estímulo para os dois lados eferentes — e é por isso que doença puramente aferente não produz anisocoria.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Aprofundamento"
         },
@@ -5189,6 +5215,14 @@
         {
          "tipo": "perola",
          "texto": "Diante de um olho vermelho, três perguntas resolvem a triagem antes de qualquer hipótese: onde a vermelhidão é mais intensa — na periferia ou em torno do limbo? Dói quando a pupila contrai? E as pupilas estão iguais? Vermelhidão limbar, dor à contração e miose do lado afetado apontam para o especialista, hoje."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "O clínico examina com a lanterna: pálpebras e fenda, posição do globo, conjuntivas e escleras, e as pupilas com os três reflexos — fundo de olho e lâmpada de fenda ficam nomeados, não ensinados.",
+          "Ptose tem três donos habituais — III par, Horner e miastenia (bilateral, pior ao fim do dia) — e as pupilas ajudam a separá-los.",
+          "Anisocoria se analisa no claro e no escuro: a pupila anormal é a que não acompanha a mudança de luz — e doença aferente não produz anisocoria."
+         ]
         },
         {
          "tipo": "secao",
@@ -5373,6 +5407,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "\"A senhora está me ouvindo bem?\" — \"Estou, doutor.\" Mas a filha discorda: em casa, a televisão grita. Entre a negativa educada e a perda auditiva real existe um teste que não precisa de aparelho nenhum: um passo atrás do paciente, uma palavra sussurrada, uma resposta. Boca, nariz e ouvidos são o território da lanterna, do abaixador e dos testes de bolso.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -5490,6 +5528,11 @@
          "texto": "A perda auditiva é comum, incapacitante e sistematicamente subestimada. McGee registra que ela afeta **25% a 40% das pessoas com mais de 65 anos** e que clínicos que se baseiam em avaliação informal no consultório **deixam passar cerca de metade** das perdas significativas. Semiologia Clínica dá o mesmo alerta com outro número — cerca de uma em cada três pessoas acima dos 65 anos terá algum grau de déficit auditivo — e recomenda rastrear a partir dos **50 anos**, sobretudo em quem tem antecedente familiar, exposição ocupacional a ruído intenso, história de sífilis, rubéola ou meningite bacteriana resolvida.\n\nExiste um teste validado que não exige nenhum instrumento: o **teste da voz sussurrada**.\n\nA técnica de McGee: o examinador sussurra uma combinação de três letras ou números, posicionado a um comprimento de braço **atrás** do paciente, e pede que ele repita a sequência. Se a resposta estiver correta, a audição é considerada normal e o teste termina. Se qualquer um dos três itens estiver errado, repetem-se mais um ou dois trios diferentes; o teste é anormal quando **metade ou mais** dos itens dos dois ou três trios estiverem incorretos.\n\n**O guia adota a técnica de McGee**, que é a dos estudos de validação; a Semiologia Clínica descreve a mesma manobra com parâmetros ligeiramente diferentes, que ficam registrados: cerca de **60 cm** de distância, atrás do paciente, sussurrando uma combinação de **três letras e três números** — acertar pelo menos três é normal, e errar quatro ou mais indica complementar com audiometria.\n\nTrês detalhes decidem a validade do teste, e os dois textos concordam neles:\n\n- **atrás do paciente**, para impedir a leitura labial;\n- **um ouvido de cada vez**, com o outro mascarado: o dedo do examinador oclui o conduto e faz movimentos circulares de fricção sobre o trago — McGee é explícito em que **ocluir sem friccionar é mascaramento insuficiente**;\n- **expire antes de sussurrar**, para produzir o sussurro mais silencioso possível.\n\nO desempenho justifica o hábito: o teste anormal aumenta consideravelmente a probabilidade de perda auditiva significativa, com razão de verossimilhança **6,0**, e o teste normal praticamente a exclui, com razão de verossimilhança **0,03** (McGee). Poucos achados de exame físico afastam tão bem quanto este.\n"
         },
         {
+         "tipo": "pense",
+         "pergunta": "A palpação da orelha externa usa três gestos com significados diferentes. Quais são, e o que cada dor sugere?\n",
+         "resposta": "Tração do pavilhão para cima e para trás e compressão do trago — dolorosas na otite externa — e palpação da mastoide, dolorosa na mastoidite. Três toques de segundos que orientam para onde a otoscopia (e a conduta) deve ir.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Aprofundamento"
         },
@@ -5567,6 +5610,14 @@
         {
          "tipo": "perola",
          "texto": "Duas perguntas transformam a otalgia em diagnóstico antes de qualquer instrumento: dói ao tracionar o pavilhão e comprimir o trago? Dói ao palpar a mastoide? A primeira aponta para a orelha externa; a segunda, para a hipótese de mastoidite. Se nenhuma das duas dói, considere seriamente a articulação temporomandibular."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Sem boa iluminação não há exame da boca — e a ordem fixa (lábios → mucosas → palatos → língua → assoalho → gengivas → orofaringe) é o que garante não pular nada.",
+          "A audição se rastreia com a voz sussurrada, e o diapasão de 512 Hz (Weber e Rinne) separa perda condutiva de neurossensorial.",
+          "Otoscopia, rinoscopia e laringoscopia ficam nomeadas: exigem instrumento e treino próprios — saber que existem já orienta o encaminhamento."
+         ]
         },
         {
          "tipo": "secao",
@@ -5729,6 +5780,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "\"Apareceu um caroço no pescoço.\" Podia ser linfonodo, cisto, glândula salivar, vaso — ou tireoide. Você enche um copo d'água, entrega ao paciente e pede um gole olhando o pescoço dele contra a luz: o nódulo sobe com a laringe. Uma manobra que custa um copo d'água acabou de responder a primeira pergunta do caso.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -5821,6 +5876,11 @@
          "tipo": "conceito",
          "titulo": "O que descrever, e o que a palpação normal encontra",
          "texto": "Porto (*Exame Clínico*) lista sete itens a registrar, e eles funcionam como um roteiro de prontuário:\n\n- **Volume** — normal ou aumentado; se aumentado, difuso ou segmentar. Qualquer aumento recebe o nome de **bócio**.\n- **Superfície** — lisa, nodular ou irregular.\n- **Consistência** — pode ser normal, firme, endurecida ou até pétrea.\n- **Mobilidade** — glândula móvel, ou imóvel por estar fixa aos planos superficiais e profundos.\n- **Sensibilidade** — indolor ou dolorosa à palpação.\n- **Temperatura da pele** que a recobre — normal ou quente.\n- **Frêmito e sopro** — presentes ou ausentes.\n\nE como é a glândula normal quando palpável? Porto (*Exame Clínico*) responde: **lisa, elástica — com consistência de tecido muscular —, móvel, indolor, com temperatura de pele normal e sem frêmito**.\n\nSobre **se ela deve ser palpável**, as três fontes discordam, e a diferença muda o que o examinador considera achado:\n\n- **Porto (*Exame Clínico*)** — há pessoas normais em que a glândula **se palpa** e outras em que ela **não se palpa**.\n- **Porto (*Semiologia Médica*)** — em muitas pessoas sem doença a glândula **se palpa**, e o lobo direito costuma ser discretamente maior do que o esquerdo.\n- **Semiologia Clínica** — a glândula normal **não deveria ser vista nem sentida**; em pessoas magras e de pescoço fino é possível encontrá-la sem que exista alteração, mas em geral **só se torna palpável a partir do dobro do tamanho**.\n\n**O guia adota a posição da Semiologia Clínica** — a glândula normal, em regra, não deveria ser vista nem sentida, com a exceção das pessoas magras de pescoço fino —, e as duas posições de Porto ficam registradas; a divergência provavelmente reflete populações e limiares diferentes. Os dados de McGee apoiam a escolha: como se verá adiante, **palpar uma glândula sem enxergá-la não distingue bócio de tireoide normal**. Registre o que sentiu, mas não construa diagnóstico de bócio sobre uma palpação isolada.\n\nDuas advertências de Semiologia Clínica fecham a técnica. Primeira: confunde-se com frequência o crescimento da tireoide com um pescoço largo por outro motivo — constituição ou obesidade —, e nesses casos **a palpação não consegue delimitar a glândula**. Segunda: **dor à palpação sugere infecção ou inflamação agudas**, e um sangramento recente dentro de um nódulo também pode doer, pela distensão da cápsula.\n\n**Ausculta.** Se a tireoide estiver aumentada, ausculte a região correspondente (Porto). Em condições normais não se ouvem sopros no pescoço, com a exceção do **rumor venoso**, relativamente comum em crianças. Frêmito e sopro denunciam aumento do fluxo sanguíneo na glândula, achado bastante sugestivo de bócio tóxico (Porto). Semiologia Clínica acrescenta que, na doença de Graves, o sopro pode ser **contínuo** — sistólico e diastólico.\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Um nódulo cervical anterior sobe quando o paciente engole. O que isso diz sobre a origem dele?\n",
+         "resposta": "Que é tireoide ou está preso a ela — a glândula é envolvida pela fáscia que acompanha a laringe na deglutição. O que fica parado durante o gole é outra coisa: linfonodo, cisto, lipoma, vaso. A deglutição é a prova de movimento que transforma inspeção em diagnóstico topográfico.\n"
         },
         {
          "tipo": "secao",
@@ -5964,6 +6024,14 @@
         {
          "tipo": "perola",
          "texto": "Diante de qualquer tumoração cervical, faça três perguntas antes de nomeá-la: ela está na linha média ou de lado? Ela sobe quando o paciente engole? Ela sobe quando o paciente põe a língua para fora? As três respostas juntas separam tireoide, linfonodo e cisto tireoglosso sem nenhum exame complementar."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "O pescoço se examina por inspeção, palpação e ausculta — e a tireoide se identifica pelo movimento: o que sobe com o gole é dela ou está preso a ela.",
+          "A tireoide normal é, em regra, impalpável; palpável não é sinônimo de doente, e bócio é aumento — o estado funcional se lê no resto do paciente.",
+          "Jugulares, linfonodos e rigidez de nuca são vizinhos com endereço próprio em outros tópicos: aqui basta saber localizá-los e diferenciá-los."
+         ]
         },
         {
          "tipo": "secao",
@@ -9267,6 +9335,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "O interno já vinha com as mãos abertas para palpar o abdome distendido quando você o segura pelo cotovelo: \"ausculta primeiro\". Ele estranha — em todo o resto do corpo a ordem é outra. Mas a mão que palpa acorda o intestino, e o achado que talvez decida esse caso é justamente um intestino calado. No abdome, quem chega antes é o estetoscópio.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -9468,6 +9540,11 @@
          "texto": "**Movimentos respiratórios.** Com o paciente em decúbito dorsal — a posição do exame do abdome —, o andar superior da parede normalmente acompanha a inspiração. Esses movimentos **cessam** nos processos inflamatórios do peritônio, com a parede rígida; e nas afecções dolorosas do andar superior a respiração se torna puramente torácica. Um abdome imóvel que respira só com o tórax é um achado de inspeção com peso de alarme.\n\n**Pulsações.** Em pessoas magras, pulsações epigástricas costumam ser apenas a aorta abdominal transmitida à parede. Podem também vir de um ventrículo direito hipertrofiado, caso em que a sensação lembra a do ictus. Para levantar a hipótese de aneurisma não basta ver a pulsação: é preciso o que se palpa — massa e alteração da forma do vaso (Porto). A discriminação fina dessa pulsação está no tópico de palpação.\n\n**Peristaltismo visível.** Em pessoas muito magras ou desnutridas, com parede hipotrofiada, ondas peristálticas podem ser vistas sem que haja doença. Ganham valor quando são bem visíveis independentemente da parede, ocorrem com periodicidade constante e vêm acompanhadas de dor em cólica e ruídos hidroaéreos — a tríade que levanta oclusão ou suboclusão.\n\nDois dados orientam a topografia do obstáculo (Porto): **onde** as ondas aparecem e **para onde** vão.\n\n- **Estenose pilórica** — ondas no epigástrio e no mesogástrio, que descem cruzando da esquerda para a direita, com frequência praticamente fixa de três contrações por minuto.\n- **Delgado** — ondas próximas ao umbigo, sem direção preferencial, podendo aparecer mais de uma ao mesmo tempo.\n- **Cólon** — mais bem vistas no transverso quando a obstrução está no ângulo esplênico ou abaixo dele, deslocando-se da direita para a esquerda.\n"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Por que a inspeção do abdome se faz com os olhos na altura do plano da parede, e não de cima para baixo?\n",
+         "resposta": "Porque abaulamentos, retrações e ondas peristálticas são relevos discretos que só aparecem em visão tangencial — olhando de cima, eles somem. Abaixe-se até a altura do abdome e use a luz rasante a favor.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "A ausculta"
         },
@@ -9576,6 +9653,14 @@
         {
          "tipo": "perola",
          "texto": "Um abdome que não se move com a respiração e um paciente que respira só com o tórax dizem, antes de qualquer manobra, que a parede está defendendo alguma coisa. Esse achado se colhe com os olhos, de graça, e vale mais do que a maioria dos sinais que exigem mãos."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "No abdome a ordem se inverte: inspeção, ausculta, e só depois percussão e palpação — a mão estimula o peristaltismo e pode apagar o achado.",
+          "Inspecione com os olhos no plano da parede: é em visão tangencial que abaulamentos, retrações e ondas peristálticas aparecem.",
+          "A ausculta abre o exame também por gentileza: minutos de contato indolor antes das manobras que podem doer."
+         ]
         },
         {
          "tipo": "secao",
@@ -9720,6 +9805,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "O abdome cresceu — mas cresceu de quê? Gordura, gás, líquido, massa, gravidez: as cinco causas clássicas têm assinaturas diferentes sob o dedo que percute. É uma das poucas partes do exame em que dois sons — timpânico e maciço — bem mapeados respondem uma pergunta que a inspeção sozinha não responde.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -9801,6 +9890,11 @@
          "tipo": "conceito",
          "titulo": "Traube livre, Traube ocupado",
          "texto": "O espaço de Traube é a área normalmente timpânica sobre o fundo do estômago, na base da face anterior do hemitórax esquerdo. **Seus limites e seu papel no exame do tórax já foram descritos no tópico de percussão do tórax**; aqui interessa a leitura abdominal.\n\nSemiologia Clínica descreve a zona como semilunar, com cerca de 12 cm de largura por 9 cm de altura, projetada da 6ª à 9ª ou 10ª costela. A expressão de enfermaria \"**Traube livre**\" significa que a percussão obteve o timpanismo esperado, isto é, que o espaço não está ocupado. \"**Traube ocupado**\" é a macicez ou submacicez ali onde deveria haver timpanismo.\n\nO que ocupa Traube? Em primeiro lugar o baço, que se expande no sentido descendente e da esquerda para a direita e, ao aumentar, começa por invadir esse espaço — daí a regra de Porto de que **todo baço aumentado é percutível, mas nem todo baço aumentado é palpável**, e de que não se deve confiar apenas na palpação. Mas a lista não para no baço: Semiologia Clínica inclui as cardiomegalias, o aumento do lobo esquerdo do fígado e os derrames pleurais entre as causas de macicez do espaço.\n\nE há dois fatores banais que estragam o achado: a macicez do Traube perde acurácia em pessoas com sobrepeso e em quem acabou de comer (McGee). Um estômago cheio é um Traube maciço sem doença nenhuma.\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Percutindo o abdome você encontra uma área de macicez onde deveria haver timpanismo de alça. O que esse achado diz — e o que ele não diz?\n",
+         "resposta": "Diz que existe algo sem ar ali — massa inflamatória, tumor, bexiga cheia, útero, líquido — e diz onde. Não diz o quê: a natureza vem da palpação, da história e dos exames. Macicez circunscrita é achado que muda conduta.\n"
         },
         {
          "tipo": "secao",
@@ -9925,6 +10019,14 @@
         {
          "tipo": "perola",
          "texto": "Antes de anunciar ascite, pergunte-se por três coisas que imitam líquido livre: bexiga cheia, alças cheias de líquido e cisto de ovário. As duas primeiras somem quando o paciente esvazia; a terceira não muda com o decúbito. A percussão distingue as três — desde que você lembre de procurá-las."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Dois sons de trabalho — timpanismo (ar em víscera oca) e macicez (ausência de ar) — e a pergunta permanente: qual deles está onde não deveria?",
+          "Três tarefas concretas: delimitar a macicez hepática, pesquisar ascite (macicez móvel, piparote) e comparar a sonoridade entre áreas homólogas.",
+          "O golpe é o mesmo do tórax, com dose menor — a parede abdominal é mais complacente e as vísceras, mais próximas."
+         ]
         },
         {
          "tipo": "secao",
@@ -10080,6 +10182,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "\"Dói aqui embaixo, doutor\" — e a sua mão, obediente, vai direto ao ponto que dói. A parede inteira se contrai, o paciente se arma, e os dez minutos seguintes de exame viram uma coleção de achados falsos. A palpação do abdome se ganha ou se perde antes de tocar: mão aquecida, começo longe da dor, e a área dolorida por último.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -10214,6 +10320,11 @@
          ]
         },
         {
+         "tipo": "pense",
+         "pergunta": "Em uma pessoa saudável, magra e com a parede relaxada, o que é normal conseguir palpar no abdome — e o que nunca se palpa?\n",
+         "resposta": "Palpam-se o fígado, os rins, a aorta, o ceco, o cólon transverso e o sigmoide. Não se distinguem o estômago, o duodeno, o delgado, o pâncreas, as vias biliares nem o peritônio. Saber o que é palpável evita tanto o susto com o normal quanto a falsa segurança com o impalpável.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Palpação do baço"
         },
@@ -10305,6 +10416,14 @@
         {
          "tipo": "perola",
          "texto": "A pergunta útil diante de um fígado palpável não é quantos centímetros ele ultrapassa o rebordo, e sim como ele é ao toque. A distância se correlaciona mal com o volume real; a consistência firme, essa sim, eleva a probabilidade de cirrose — e acompanha bem as medidas modernas de fibrose."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Duas perguntas em sequência: primeiro a parede (superficial — tensão, dor, continuidade), depois a cavidade (profunda — órgãos e massas com seus atributos).",
+          "O relaxamento da parede depende mais do examinador que do paciente: mão aquecida, começo suave e a área dolorida sempre por último.",
+          "Fígado e baço têm técnicas próprias e posições próprias — e toda massa se descreve por localização, forma, volume, sensibilidade, consistência, mobilidade e pulsatilidade."
+         ]
         },
         {
          "tipo": "secao",
@@ -10458,6 +10577,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "Madrugada, pronto-socorro lotado, dor abdominal há oito horas. A tomografia tem fila; o cirurgião quer saber se chama ou não chama. É para essa decisão — quem vai para casa, quem vai para a imagem, quem vai direto ao centro cirúrgico — que servem os sinais deste tópico. Nenhum fecha diagnóstico sozinho; todos movem probabilidade, e é assim que devem ser lidos.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -10561,6 +10684,11 @@
          "tipo": "conceito",
          "titulo": "Percussão dolorosa e teste da tosse",
          "texto": "Existem duas maneiras de fazer a mesma pergunta da descompressão brusca sem infligir a mesma dor. As duas se baseiam no mesmo princípio: **movimentos súbitos da parede provocam dor em quem tem peritônio inflamado.**\n\n**Percussão dolorosa.** No paciente com peritonite, os movimentos bruscos da parede — como os produzidos durante a percussão — causam dor. A percussão dolorosa está presente quando a **percussão leve** desperta dor. O achado tem razão de verossimilhança **2,4** para peritonite quando presente e **0,5** quando ausente — números melhores que os da descompressão brusca, e obtidos com uma manobra que o paciente tolera muito mais.\n\n**Teste da tosse.** O paciente é solicitado a tossir. O teste é positivo quando ele demonstra dor durante a tosse — encolhe-se, faz careta, leva as mãos ao abdome — ou quando reduz nitidamente a intensidade da tosse para evitar a dor. Razão de verossimilhança **1,9** quando presente e **0,5** quando ausente.\n\nA leitura combinada é simples e muda a prática: comece pela tosse e pela percussão suave. Se elas já responderam, a descompressão brusca não precisa ser feita.\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Sem encostar a mão no paciente, que manobra já rastreia irritação peritoneal — e o que você observa?\n",
+         "resposta": "O teste da tosse: peça que ele tussa e observe. Quem tem peritônio inflamado se encolhe, faz careta ou leva a mão ao abdome. É a informação mais barata do abdome agudo, obtida antes de qualquer palpação.\n"
         },
         {
          "tipo": "secao",
@@ -10769,6 +10897,14 @@
          "texto": "Quando o exame do abdome é francamente doloroso e ainda assim ambíguo, a informação que falta raramente vem de uma manobra a mais. Vem do relógio: reexamine o mesmo paciente daqui a algumas horas, com a mesma técnica, e compare. A evolução do exame é um dado, e costuma ser o dado decisivo."
         },
         {
+         "tipo": "resumo",
+         "linhas": [
+          "O exame do abdome agudo decide destinos: casa quando a probabilidade de peritonite é baixíssima, centro cirúrgico quando altíssima, imagem para o meio equívoco.",
+          "Comece pelo que não toca — a tosse — e gradue: defesa involuntária e rigidez pesam mais que dor difusa; a descompressão brusca tem alternativas mais gentis.",
+          "Nenhum sinal isolado fecha diagnóstico: todos movem probabilidade, e o conjunto — com a história e a evolução — é que decide."
+         ]
+        },
+        {
          "tipo": "secao",
          "titulo": "Teste rápido"
         },
@@ -10928,6 +11064,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "A ferida no pé do diabético não fecha há dois meses. Antes do curativo do dia, você ajoelha ao pé da maca e procura o pedioso: cheio à esquerda, um fio à direita. Ninguém tinha comparado — e é a comparação, artéria com a sua igual do outro lado, que constitui o exame inteiro deste capítulo.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -11082,6 +11222,11 @@
          "texto": "Pulso é onda de pressão, não é sangue passando. A onda gerada pela sístole corre pela parede arterial muito mais depressa do que a coluna de sangue e chega ao punho antes dele.\n\nDaí duas consequências práticas.\n\nA primeira: **o pulso pode estar palpável abaixo de uma lesão importante**, porque a onda ainda atravessa a estenose e ainda chega, apenas menor. Por isso a amplitude comparada informa mais que o simples presente ou ausente.\n\nA segunda, que Porto adverte na isquemia aguda: às vezes os dedos julgam ter encontrado um pulso, quando o que chegou até eles foi a **onda de um pulso proximal transmitida** pelos tecidos. Diante de um membro frio e pálido, o achado precisa ser confirmado com atenção, e não anotado de passagem.\n"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Por que nunca se palpam as duas carótidas ao mesmo tempo?\n",
+         "resposta": "Pelo risco de isquemia cerebral em quem tem uma delas ocluída — e porque comprimir o seio carotídeo pode desencadear bradicardia, síncope ou o desprendimento de trombos de uma placa. Uma de cada vez, com delicadeza; no idoso, é prudente auscultar antes de palpar.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Amplitude, simetria e parede"
         },
@@ -11184,6 +11329,14 @@
         {
          "tipo": "perola",
          "texto": "Pulso presente não é sinônimo de artéria boa e pulso ausente não é sinônimo de artéria doente. Um pedioso ausente isolado costuma ser anatomia; dois ausentes, doença; e pulsos cheios em repouso podem sumir depois de trinta passos — que é exatamente o momento em que o paciente sente a dor que o trouxe."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "O exame é a comparação: cada artéria contra a sua homóloga — amplitude menor ou pulso ausente em relação ao outro lado é artéria ocluída até prova em contrário.",
+          "Quando usar número, o guia adota a escala 0 a 3+ (2+ normal); melhor ainda é descrever a comparação, que sobrevive à troca de plantão.",
+          "Carótidas uma de cada vez; e o retardo radiofemoral, palpando os dois pulsos juntos, rastreia coarctação da aorta."
+         ]
         },
         {
          "tipo": "secao",
@@ -11331,6 +11484,10 @@
        ],
        "revisao": "aprovada",
        "blocos": [
+        {
+         "tipo": "cena",
+         "texto": "\"Dá umas duas quadras e a panturrilha trava; paro um pouco, passa, sigo.\" O paciente conta isso há um ano — para a família, era \"coisa da idade\". A frase que ele acabou de dizer é quase o diagnóstico inteiro: dor que vem com a marcha, obriga a parar e alivia com o repouso. O exame que vem agora não vai dizer se há doença; vai dizer onde ela está e quanto ameaça o membro.\n"
+        },
         {
          "tipo": "secao",
          "titulo": "O essencial"
@@ -11521,6 +11678,11 @@
          "texto": "Semiologia Clínica dá a orientação em uma frase: no paciente com diabetes, o exame **vascular** anda junto com o **neurológico** e com o **musculoesquelético**, porque é dessa soma que nasce o risco de lesão no pé — e o acompanhamento desses doentes é tarefa de equipe multidisciplinar.\n\nEste guia já ensinou as duas metades que faltam, e elas **não se repetem aqui**:\n\n- o **monofilamento de Semmes-Weinstein**, com a calibração, a técnica de aplicação e os sítios de teste, está no tópico de sensibilidade e coordenação, junto com a comparação com o diapasão de 128 Hz;\n- o **reflexo aquileu** está no tópico de força, tônus e reflexos, com o dado que interessa a este capítulo: em adultos com diabetes tipo 2, o reflexo aquileu **ausente** detectou neuropatia periférica com sensibilidade de 92%, especificidade de 67% e razão de verossimilhança negativa de 0,1 — isto é, a **presença** do reflexo reduz muito a probabilidade de neuropatia.\n\nO que este tópico acrescenta é a metade vascular e a leitura conjunta. A úlcera do pé insensível é indolor e nasce nos pontos de apoio; a úlcera do pé isquêmico é muito dolorosa e nasce nas extremidades e nas bordas. E os dois problemas convivem: McGee registra que a doença **abaixo do joelho** — o segmento peroneotibial — é incomum, exceto em quem tem diabetes ou tromboangiite obliterante.\n\nUm dado do exame que costuma passar batido e que Semiologia Clínica coloca no roteiro: procurar **micoses interdigitais**. Porto lista a micose entre as portas de entrada capazes de desencadear gangrena em um membro isquêmico. É o menor dos achados deste tópico e um dos que mais mudam desfecho.\n"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Um ITB de 1,4 tranquiliza quanto à circulação daquele membro?\n",
+         "resposta": "Não — índice alto demais não é saúde, é artéria rígida: acima de 1,2–1,3 as fontes o associam a calcificação arterial, comum em diabéticos e renais crônicos, que impede a compressão pelo manguito. O guia adota os cortes de McGee: anormal abaixo de 0,9; claudicação tipicamente entre 0,5 e 0,8; isquemia ameaçadora abaixo de 0,5.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O índice tornozelo-braço"
         },
@@ -11652,6 +11814,14 @@
         {
          "tipo": "perola",
          "texto": "Insuficiência arterial se pergunta antes de se procurar. Distância até a dor, o que faz a dor passar, e onde o paciente coloca a perna para dormir — três perguntas que localizam o segmento doente e graduam a isquemia antes de a mão encostar no pé."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "O diagnóstico é clínico — a claudicação intermitente conta a história — e o exame localiza: pulsos, pele, temperatura e úlceras dizem qual segmento e quanto ameaça.",
+          "Metade dos portadores é assintomática; o ITB abaixo de 0,9 define a doença mesmo sem queixa, e acima de 1,2–1,3 denuncia artéria calcificada, não saúde.",
+          "Pé isquêmico é pé em risco: procure as lesões tróficas antes que a gangrena as anuncie."
+         ]
         },
         {
          "tipo": "secao",
@@ -11804,6 +11974,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "Perna inchada e dolorida depois de uma viagem longa. Alguém já testou o Homans e anotou \"negativo, TVP improvável\" — e é exatamente esse o erro que este tópico existe para impedir: na trombose venosa profunda, nenhum achado isolado afasta o diagnóstico. Aqui se ensina o exame e, com a mesma seriedade, o tamanho do que ele entrega.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -11878,6 +12052,11 @@
          "tipo": "conceito",
          "titulo": "O edema venoso — o que é próprio dele",
          "texto": "A semiotécnica do edema, a fóvea, a graduação em cruzes e a comparação entre as causas de edema generalizado estão no tópico de pulso venoso jugular e turgência. O que este tópico acrescenta são os traços que identificam o edema **venoso**.\n\n- **Horário e resposta ao repouso.** Vespertino, desaparece com o repouso. Porto acrescenta a regra que fecha o raciocínio: **edema que o repouso não desfaz pede outra explicação** além da insuficiência venosa.\n- **Localização.** Mole e depressível, de preferência nas regiões perimaleolares; nos casos graves pode subir até a parte alta da perna.\n- **Assimetria.** É o traço mais útil. Na insuficiência venosa crônica o edema quase sempre pesa mais de um lado — o lado em que o retorno está pior —, ao passo que o edema cardíaco, o das disproteinemias e o das nefropatias tende a ser igual nas duas pernas.\n- **Evolução da consistência.** No **edema varicoso**, Porto registra intensidade em geral pequena (+ a ++), consistência de início mole que nos casos antigos se torna cada vez mais dura, inelástica, com a pele escurecendo e podendo tornar-se espessa e de textura mais grosseira.\n- **Na síndrome pós-trombótica**, o edema torna-se permanente e o membro inteiro engrossa — pé, perna e às vezes coxa — **sem que a inspeção os mostre edemaciados** — um detalhe que explica por que a comparação de perímetros importa mais que a impressão visual.\n\nMcGee organiza o diferencial pelo número de pernas: as causas mais comuns de edema **bilateral** são insuficiência cardíaca congestiva, insuficiência venosa crônica, hipertensão pulmonar e edema induzido por medicamentos; as de edema **unilateral** são trombose venosa profunda, cisto de Baker e celulite. E acrescenta o achado que decide o edema bilateral: **as veias do pescoço**. Se a pressão venosa estiver elevada, a causa é cardiopulmonar; se estiver normal, a causa é outra — hepática, nefrótica, venosa crônica ou medicamentosa. A técnica está no tópico de pulso venoso jugular e turgência.\n\nDois vizinhos, para não serem confundidos com edema venoso: o **linfedema**, indolor, firme, que caracteristicamente quadra os dedos e produz uma corcova no dorso do pé, varia pouco ao longo do dia e raramente ulcera — descrito, com o sinal de Stemmer, no tópico de linfonodos; e o **lipedema**, depósito bilateral de tecido adiposo subcutâneo nas pernas que **não** deixa fóvea e cuja característica mais marcante é **poupar os pés**, ocorrendo exclusivamente em mulheres obesas (McGee).\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Toda variz é insuficiência venosa crônica?\n",
+         "resposta": "Não. Doença venosa crônica é o termo amplo — qualquer anormalidade morfológica ou funcional de longa duração do sistema venoso. Insuficiência venosa crônica se reserva à doença avançada, quando já há edema, alterações cutâneas ou ulceração.\n"
         },
         {
          "tipo": "secao",
@@ -12101,6 +12280,14 @@
          "texto": "Na perna aguda, o achado que mais vale é o que menos parece exame: a fita métrica. Todos os sinais clássicos da trombose — o cordão, o Homans, o eritema, a dor à palpação — perderam o valor nos estudos; a diferença medida entre as duas panturrilhas foi o único que sobrou de pé."
         },
         {
+         "tipo": "resumo",
+         "linhas": [
+          "Duas doenças no mesmo membro: a venosa crônica, lenta e visível (variz não é sinônimo de insuficiência), e a trombose profunda, aguda e com pressa.",
+          "Na TVP, nenhum achado isolado afasta o diagnóstico — a assimetria de panturrilha acima de 1,5 cm é o que mais informa, e a probabilidade se organiza pelo escore de Wells.",
+          "O exame venoso se faz de pé e depois deitado, com inspeção a distância e de perto — e a honestidade sobre seus limites faz parte da técnica."
+         ]
+        },
+        {
          "tipo": "secao",
          "titulo": "Teste rápido"
         },
@@ -12241,6 +12428,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "A perna esfriou de repente, há duas horas: pálida, dolorida, sem pulso distal. A angiotomografia? Fica a quarenta minutos dali. É o único cenário deste capítulo em que o relógio faz parte do exame — a isquemia aguda se diagnostica inteiramente à beira do leito, e esperar a imagem quando ela não está à mão pode custar o membro.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -12353,6 +12544,11 @@
          "texto": "Parece contraintuitivo, e Porto registra o fenômeno duas vezes: em **artéria já doente antes do episódio**, com colaterais formadas, a dor da oclusão aguda vem fraca ou nem vem.\n\nA explicação está no que a colateral faz e no que ela não faz. Anos de estenose progressiva permitem que a rede colateral se abra e assuma parte do fluxo; quando o tronco principal finalmente fecha, o membro já vinha sendo irrigado em boa parte por esse desvio, e a queda de fluxo é **menor** do que seria em um leito íntegro. A mesma lógica explica por que, nas obstruções crônicas, a queda de temperatura da pele é menos acentuada que nas agudas.\n\nA consequência prática é desagradável: **o paciente com doença arterial crônica é o que tem mais chance de ocluir e o que menos alarme produz ao ocluir**. Nele, o exame — pulsos, sensibilidade, motricidade — vale mais que a intensidade da queixa.\n\nA lógica inversa também vale e explica outro achado do quadro agudo: na oclusão crônica há tempo para as colaterais, e é por isso que quase todas as alterações tróficas pertencem às arteriopatias crônicas; na aguda, sem esse tempo, o repertório se reduz a **bolhas, edema e gangrena**.\n"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Você encontra pulso femoral presente em um membro com quadro de isquemia aguda. Isso afasta oclusão naquele nível?\n",
+         "resposta": "Cuidado com o pulso transmitido: logo acima de uma oclusão a onda pode ser palpável — e até mais evidente. O que localiza a oclusão é o conjunto — o nível em que a palidez e a frialdade começam e os pulsos distais ausentes —, não um pulso isolado presente.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Aneurismas"
         },
@@ -12417,6 +12613,14 @@
         {
          "tipo": "perola",
          "texto": "Aneurisma quase nunca se anuncia; ele se apresenta pela complicação. Um artelho subitamente azul, um sopro sistólico novo sobre a fossa poplítea, uma pulsação que afasta as duas mãos no epigástrio — em cada um desses casos, o exame não descobriu o aneurisma, descobriu o que ele já fez."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Isquemia aguda é emergência de exame físico: dor, palidez e frialdade com topografia, cianose que agrava, pulsos ausentes distais à oclusão — e conduta que não espera imagem inacessível.",
+          "A mnemônica dos P fica nomeada, não ensinada — o guia registra as enumerações das fontes, que não são idênticas.",
+          "Aneurisma é o oposto em ritmo: silencioso por anos, hipótese levantada pela pulsação expansiva — cuja técnica mora no tópico de palpação do abdome."
+         ]
         },
         {
          "tipo": "secao",
@@ -12586,6 +12790,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "\"Doutor, é reumatismo — dói tudo.\" A palavra que a paciente trouxe não separa nada; as que você vai fazer com ela, sim: dói ou inflama? Uma junta ou muitas? As novas se somam ou a dor muda de lugar? Piora com o repouso ou com o uso? Neste sistema, quatro perguntas bem-feitas valem mais que o painel de exames que ela veio pedir.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -12703,6 +12911,11 @@
          "texto": "A rigidez pós-repouso — que o paciente descreve como travamento, e que Porto também chama de rigidez matinal — é um dos poucos sintomas do aparelho locomotor que vem com uma medida embutida: **a duração**.\n\nPorto explica a origem: ela vem do **acúmulo, nos locais acometidos, de substâncias que a inflamação produz**, e sua duração é proporcional à intensidade da doença. Daí a assimetria que interessa ao consultório: nos reumatismos inflamatórios ela **persiste durante horas** — nas interfalangianas proximais da artrite reumatoide costuma passar de uma hora —, enquanto nos processos degenerativos o paciente levanta enrijecido, mas a sensação é **fugaz** e logo desaparece.\n\nSemiologia Clínica dá o corte operacional: rigidez prolongada, definida por duração **superior a 30 a 60 minutos**, é mais característica de doenças inflamatórias.\n\nDuas consequências práticas:\n\n**A pergunta certa não é se há rigidez, é quanto tempo ela dura.** E vale pedir ao paciente que traduza a palavra: Semiologia Clínica recomenda elucidar o que ele chama de rigidez antes de aceitar o termo.\n\n**O movimento é o teste.** No padrão inflamatório a rigidez **melhora com a movimentação** e a manhã é o pior período; no mecânico, o uso é o que piora, e o fim do dia é o pior momento. O mesmo relógio que mede a rigidez separa os dois padrões de dor.\n"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Rigidez matinal que dura mais de uma hora e melhora com o movimento aponta para que família de doença? E a rigidez breve, de minutos, que piora com o uso?\n",
+         "resposta": "A rigidez prolongada (acima de uma hora) com melhora ao movimento é a assinatura do padrão inflamatório — pense em artrite reumatoide. A rigidez breve pós-repouso que piora com o uso é do padrão mecânico-degenerativo — pense em osteoartrite.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O que a palpação e a mobilidade entregam"
         },
@@ -12765,6 +12978,14 @@
         {
          "tipo": "perola",
          "texto": "O exame osteoarticular tem duas perguntas que quase nunca são feitas e quase sempre decidem: quantas juntas, e em que ordem elas entraram. Um paciente com quatro juntas doloridas que se somaram ao longo de meses e um paciente com quatro juntas que doeram uma de cada vez e passaram têm o mesmo exame de hoje e doenças diferentes."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "O vocabulário vem antes do gesto: artralgia ou artrite, quantas articulações, em que ordem, com que ritmo — são essas palavras que separam as famílias de doença.",
+          "Padrão inflamatório: rigidez longa, melhora com o movimento; padrão mecânico: rigidez breve, piora com o uso.",
+          "Neste sistema, anamnese e exame valem mais que os exames complementares — que aqui confundem com facilidade."
+         ]
         },
         {
          "tipo": "secao",
@@ -12921,6 +13142,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "Lombalgia há cinco dias — a queixa mais repetida do ambulatório. Antes de mandar alongar e voltar em duas semanas, duas perguntas silenciosas: essa dor nasce mesmo na coluna, ou está sendo referida de uma víscera? E, se nasce nela, há algum sinal que tire o caso do rótulo de \"lombalgia comum\"? A coluna se examina de pé, de perfil e em movimento — e começa excluindo o que não é dela.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -13006,6 +13231,11 @@
          "tipo": "conceito",
          "titulo": "O teste de Schober — o que este guia faz com ele",
          "texto": "O leitor encontrará, em textos de reumatologia e de ortopedia, o **teste de Schober**, uma medida de flexão lombar em que se marca a pele e se mede o quanto a distância entre as marcas aumenta com o tronco fletido. Ele é citado com frequência na avaliação das espondiloartrites.\n\n**Nenhuma das quatro obras adotadas por este guia descreve esse teste.** Não é omissão de leitura: a busca foi feita nas quatro, e ele não aparece em nenhuma — nem na descrição da técnica, nem entre as manobras da coluna, nem no capítulo de espondilite anquilosante.\n\nA regra editorial deste guia é a mesma de sempre, e ela vale mais do que a conveniência de completar uma lista: **não se ensina técnica cuja âncora não existe nas fontes adotadas**, e não se importa de fora a descrição de um gesto para preencher lacuna. Por isso o teste é **nomeado aqui e não ensinado**.\n\nO que as fontes adotadas oferecem no lugar, para a mesma pergunta — quanto a coluna lombar flete —, é a **distância entre as polpas digitais e o solo**, que Porto manda medir, e a inspeção dinâmica de Semiologia Clínica, que pede ao paciente alcançar os pés com as mãos mantendo os joelhos retos, registrando onde a dor aparece e o que ela limita. São medidas mais grosseiras que a de Schober, e são as que este guia pode sustentar.\n\nA mesma decisão vale para as manobras sacroilíacas: **Gaenslen** é **nomeada** por Semiologia Clínica como manobra capaz de demonstrar sacroileíte, mas **não é descrita** — e por isso este guia a nomeia sem ensinar a técnica. **Patrick/FABERE**, que a mesma obra descreve passo a passo, é ensinada adiante.\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Antes de examinar a coluna dolorida, qual é a primeira tarefa — a que vem antes de qualquer manobra?\n",
+         "resposta": "Excluir a dor referida: pancreatite percebida na região toracolombar, úlcera duodenal na torácica, dor renal na lombar, afecções ginecológicas na lombossacra. Depois, excluir que a dor venha de outra estrutura do aparelho locomotor. Só então a coluna vira a suspeita principal.\n"
         },
         {
          "tipo": "secao",
@@ -13115,6 +13345,14 @@
         {
          "tipo": "perola",
          "texto": "Duas perguntas separam quase toda dor lombar que desce para a perna: o que a piora e o que a alivia. Se piora ao tossir, ao espirrar e ao inclinar o tronco, pense em raiz estirada. Se piora ao andar e alivia com o tronco curvado, pense em canal estreito — e lembre que a insuficiência arterial também dói ao andar."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "A coluna se examina de pé, nos três planos, com o dorso descoberto — e a flexão anterior é o que revela a escoliose estrutural.",
+          "Primeira tarefa: excluir dor referida de víscera e dor de estrutura vizinha; segunda: procurar o que tira o caso da lombalgia comum.",
+          "Lasègue estira raiz, os testes de compressão provocam o segmento — cada manobra positiva aponta um mecanismo, não um diagnóstico pronto."
+         ]
         },
         {
          "tipo": "secao",
@@ -13269,6 +13507,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "O pintor de paredes não consegue mais levantar o braço para trabalhar. \"Bursite\", alguém já disse; \"tendinite\", disse outro. Os dois podem estar certos ao mesmo tempo — o ombro é o único lugar do corpo em que tendões passam entre ossos que se movem, e é essa arquitetura que explica por que ele dói tanto e por que os testes deste tópico existem.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -13360,6 +13602,11 @@
          "tipo": "conceito",
          "titulo": "Ombro congelado e as síndromes capsulares",
          "texto": "Há um grupo de doenças do ombro que o exame separa de todos os demais com **uma única observação**, e por isso ele merece bloco próprio.\n\nMcGee classifica as síndromes do ombro segundo o trabalho do cirurgião ortopédico britânico James Cyriax, e o eixo dessa classificação é a **amplitude passiva**:\n\n- **Síndromes capsulares** — a **capsulite adesiva**, que é o ombro congelado, e a **artrite glenoumeral**. Dor no braço, e **amplitude passiva limitada em todas as direções**, especialmente rotação externa e abdução.\n- **Bursite aguda** — dor no braço com amplitude passiva também limitada, sobretudo a abdução. McGee explica a diferença com o grupo seguinte: bursite aguda e as demais desordens subacromiais afetam o mesmo espaço, mas a bursite produz inflamação e tumefação **mais agudas e intensas**, e é isso que limita o movimento.\n- **Dor acromioclavicular** — dor **na ponta do ombro**, amplitude passiva **normal**, dor à palpação da articulação acromioclavicular e piora à adução do braço através do corpo.\n- **Síndromes subacromiais** — tendinite e ruptura do manguito. Dor no braço, amplitude passiva **normal**, **arco doloroso** presente, e a força do manguito **normal na tendinite** e **fraca na ruptura**.\n\n**A frequência relativa**, nos estudos que McGee reúne: síndromes capsulares **5% a 12%**, bursite aguda **17%**, síndromes acromioclaviculares **5% a 11%**, síndromes subacromiais **47% a 65%** e **dor referida** ao ombro **5% a 10%**.\n\n**E o guia registra também a crítica**, porque ela é do próprio McGee e é honesta. Quatro razões levantadas contra a utilidade dessa classificação: a maioria das síndromes do ombro é tratada de modo semelhante, com anti-inflamatórios, infiltrações e fisioterapia, seja qual for o diagnóstico; do ponto de vista do paciente as síndromes são indistinguíveis, produzindo dor e incapacidade semelhantes ao longo do tempo; ao reexaminar o paciente, o diagnóstico específico **frequentemente muda**; e a quantidade de testes propostos — um sítio lista **129** — sugere que a compreensão do problema ainda é incompleta.\n\n**O que sobra, e é bastante.** McGee conclui que o exame continua importante em duas tarefas: **distinguir as síndromes intrínsecas do ombro daquelas que causam dor referida**, e **identificar a ruptura do manguito**, condição que às vezes exige reparo cirúrgico. São essas duas tarefas que os blocos de aprofundamento medem.\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Quais são os quatro músculos do manguito rotador, onde se inserem e qual é a função que explica quase todos os testes do ombro?\n",
+         "resposta": "Supraespinal, infraespinal, subescapular e redondo menor — todos inseridos na tuberosidade maior do úmero. A função é manter a cabeça umeral encaixada na glenoide; cada teste do manguito provoca um deles nessa tarefa.\n"
         },
         {
          "tipo": "secao",
@@ -13622,6 +13869,14 @@
          "texto": "No ombro, o exame vale pelo que exclui. A ausência dos dois sinais de impacto praticamente afasta a doença subacromial, e a ausência dos três achados combinados praticamente afasta a ruptura do manguito. Nenhum teste isolado deste tópico confirma coisa alguma com a mesma força com que o conjunto negativo descarta."
         },
         {
+         "tipo": "resumo",
+         "linhas": [
+          "O ombro dói porque tendões passam entre ossos que se movem: impacto → tendinite → bursite → degeneração → rotura é a cadeia a interromper cedo.",
+          "O manguito são quatro músculos na tuberosidade maior segurando a cabeça umeral na glenoide — e cada teste provoca um deles.",
+          "No cotovelo, os epicôndilos contam a história: lateral no cotovelo do tenista, medial no do golfista — dor provocada pela contração resistida, não pelo toque."
+         ]
+        },
+        {
          "tipo": "secao",
          "titulo": "Teste rápido"
         },
@@ -13781,6 +14036,10 @@
        ],
        "revisao": "aprovada",
        "blocos": [
+        {
+         "tipo": "cena",
+         "texto": "A paciente estende as mãos sobre a mesa e o diagnóstico está posto ali, antes de qualquer exame de sangue: punhos e metacarpofalangianas simétricos, desvio ulnar, um dedo em pescoço de cisne. Se o fator reumatoide vier negativo, isso não desfaz o que os olhos viram — vira artrite reumatoide soronegativa. Na mão, a deformidade não sugere a doença: ela é o critério.\n"
+        },
         {
          "tipo": "secao",
          "titulo": "O essencial"
@@ -13957,6 +14216,11 @@
          "texto": "Perda de força na mão é queixa comum e mal registrada. O que as quatro obras adotadas oferecem é menos do que se gostaria, e é melhor dizer isso em voz alta.\n\n**O que existe.**\n\n- **Uma escala.** A graduação da força de **0 a 5** vale para os músculos da mão como para qualquer outro, e está no tópico de força, tônus e reflexos. Semiologia Clínica a reproduz na Tabela 5 do capítulo do exame locomotor e pede que a força de **cada grupo muscular** seja graduada.\n- **Um teste funcional com alvo.** A **oponência do polegar** — tocar a extremidade distal de todos os dedos — é uma prova de tudo ou nada, reprodutível, que Semiologia Clínica ensina como parte do exame da mão.\n- **Dois achados medidos, mas para outra pergunta.** No boxe EBM 64.3, a **fraqueza da abdução do polegar** rende razão de verossimilhança **1,8** e a **atrofia tenar**, **1,7**, ambas para síndrome do túnel do carpo. São números modestos, e valem para a compressão do mediano — não para \"fraqueza da mão\" em geral.\n- **Uma tradução funcional.** Porto, ao correlacionar queixa e topografia da fraqueza, associa a **dificuldade para manipular objetos, abrir garrafas e abotoar roupas** à fraqueza braquial distal. É uma pergunta de anamnese que vale por um teste.\n\n- **A preensão palmar, medida — mas para outra pergunta.** Ela **tem** instrumento, técnica e ponto de corte nas obras adotadas, e tem até razão de verossimilhança. O que ela não tem é validação como sinal de doença da mão.\n\n  **McGee**, no capítulo de desnutrição proteico-energética, descreve a técnica: o paciente aperta um dinamômetro de mola **três vezes, com 10 segundos de descanso** entre as tentativas, e se registra o maior valor; e guarda a improvisação histórica, para quem não tem o aparelho — enrolar um manguito aneroide de pressão em um cilindro de cerca de duas polegadas, insuflá-lo a **20 mmHg** e pedir que o paciente o aperte, lendo o resultado em milímetros de mercúrio. No boxe EBM 12.1, a **preensão reduzida** rende razão de verossimilhança **2,5**, e a preensão **normal**, **0,4** — mas o desfecho medido é **complicação pós-operatória maior**, não doença articular. E há a exclusão que decide o assunto: os estudos **excluíram justamente os pacientes com artrite**, acidente vascular ou outra causa evidente de fraqueza.\n\n  **Porto** dá o número brasileiro, no terreno da **sarcopenia**: dinamômetro isométrico com o paciente sentado, ombros em abdução, cotovelo fletido em ângulo reto, antebraço em posição neutra e punho entre 0 e 30 graus de dorsiflexão, com a média de medidas repetidas; os valores de referência são **abaixo de 30 kg em homens e de 20 kg em mulheres**. E oferece a saída para quem não consegue executar a preensão — em situação que ele nomeia, e que é a deste tópico: **artrite**. Nesse caso, mede-se o **teste da subida da cadeira**, o tempo para levantar-se cinco vezes da posição sentada, com corte de **15 segundos**.\n\n**A leitura, portanto, é a mesma dos dois achados anteriores: medido, mas para outra pergunta.** A preensão prevê complicação cirúrgica e rastreia sarcopenia; **nenhuma das quatro obras a mede como sinal diagnóstico de doença da mão** — e a fonte que mais a mede exclui, do seu próprio denominador, o paciente com artrite. **O instrumento, a técnica e os cortes de 30 e 20 kg são ensinados no tópico de antropometria e hidratação**, e não são reensinados aqui. O que este tópico faz com a preensão é o que a fonte autoriza: registrar que ela caiu, e não confundir a queda com diagnóstico.\n\n**E a armadilha que fecha o assunto.** Força reduzida na mão pode vir da junta, do tendão, do músculo ou do nervo, e as quatro se examinam de modos diferentes. Uma mão que não fecha porque **dói** não é uma mão fraca; e o par movimento ativo contra movimento passivo, ensinado no primeiro tópico deste capítulo, é o que separa as duas coisas antes de qualquer teste especial.\n"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Osteoartrite e artrite reumatoide escolhem fileiras diferentes de articulações na mão. Quais?\n",
+         "resposta": "A osteoartrite prefere as interfalangianas distais (nódulos de Heberden) e a base do polegar; a artrite reumatoide, as metacarpofalangianas e interfalangianas proximais e os punhos, de forma simétrica — poupando as distais. A inspeção resolve essa pergunta em segundos.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "A síndrome do túnel do carpo"
         },
@@ -14123,6 +14387,14 @@
          "texto": "No túnel do carpo, o melhor achado negativo de todo o exame não é produzido pelo médico. É o desenho que o paciente faz da própria mão: quando os sintomas não tomam o polegar, o indicador nem o médio, a razão de verossimilhança cai a 0,2 — melhor do que qualquer manobra provocativa consegue ser em qualquer direção."
         },
         {
+         "tipo": "resumo",
+         "linhas": [
+          "Na mão, o achado de beira de leito é o próprio padrão diagnóstico: a deformidade típica estabelece a doença, com ou sem sorologia.",
+          "A pergunta organizadora é osteoartrite × artrite reumatoide — e as fileiras de articulações acometidas respondem à inspeção.",
+          "No túnel do carpo, a pergunta decisiva é se polegar, indicador ou médio estão dentro da queixa — a ausência deles é o que argumenta contra (RV 0,2)."
+         ]
+        },
+        {
          "tipo": "secao",
          "titulo": "Teste rápido"
         },
@@ -14285,6 +14557,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "\"Dor no joelho\" há três meses, e o joelho examinado está impecável. Antes de pedir a ressonância do lugar errado, gire o quadril daquele lado: a articulação coxofemoral é profunda demais para doer onde mora, e manda a queixa para a virilha, para a coxa — e para o joelho. O quadril mente sobre onde dói; o joelho, superficial, entrega quase tudo.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -14381,6 +14657,11 @@
          "tipo": "conceito",
          "titulo": "A bursite trocantérica que talvez não seja bursite",
          "texto": "Este é um dos blocos mais instrutivos do capítulo, porque nele o exame físico **corrige um rótulo consagrado**.\n\n**O rótulo.** Porto descreve a **bursite trocanteriana** com precisão: tumefação localizada e dor no grande trocanter, agravada pela **abdução contra resistência** e pela **rotação do quadril**, com dor na face lateral do terço proximal da coxa que pode irradiar até perto do joelho. E acrescenta a ressalva que já antecipa o problema: a **tendinite do glúteo** pode ser tomada por ela, e o que separa as duas é a topografia — a dor da tendinite é mais posterior. Semiologia Clínica confirma o quadro e acrescenta o traço que traz o paciente: a dor **piora à noite** e atrapalha o sono, sobretudo quando ele se deita sobre o lado doente. McGee a coloca na Tabela 57.2 como o diagnóstico implicado pela dor à palpação localizada sobre o trocanter maior.\n\n**A correção.** McGee reproduz um estudo feito exatamente em pacientes com esse rótulo — dor lateral do quadril e dor máxima à palpação do trocanter maior. Nesses pacientes, a presença **simultânea** do sinal e da marcha de Trendelenburg do lado sintomático detectou, à ressonância, uma **rotura do tendão do glúteo médio**: sensibilidade **73%**, especificidade **77%**, razão de verossimilhança **3,2**. A ausência não alcançou significância. E há o detalhe que torna o achado clinicamente útil: **o sinal foi superior ao teste direto de força dos abdutores** — resistir à abdução ativa ou à rotação interna —, cujas razões de verossimilhança **não alcançaram significância**.\n\n**Por que o sinal ganha do teste de força.** As duas provas interrogam o mesmo músculo, mas em condições diferentes. O teste manual mede força contra a mão do examinador, deitado, com o músculo em vantagem mecânica e com a dor interferindo. A manobra de Trendelenburg mede o músculo **fazendo o que ele existe para fazer**: sustentar metade do peso do corpo sobre uma perna só. É a diferença entre perguntar se o músculo consegue empurrar e perguntar se ele consegue trabalhar.\n\n**A analogia que McGee faz, e que fecha o capítulo por dentro.** Ele compara essa descoberta à realização histórica de que muitos pacientes rotulados como portadores de **bursite subacromial**, no ombro, tinham na verdade doença dos **tendões do manguito rotador**. É a mesma história contada duas vezes: uma bursa recebe a culpa por um tendão vizinho, e o exame físico é quem desfaz o engano. O tópico de ombro e cotovelo conta a primeira metade.\n\n**As outras bursas do quadril, para completar o diferencial.** Porto e McGee coincidem na topografia, e cada ponto tem endereço próprio:\n\n- **Bursite iliopectínea**, ou do iliopsoas — tumefação e dor sobre o **terço médio** do ligamento inguinal, por fora do ponto em que se palpa o pulso femoral; **estender** o quadril piora e **fletir** alivia.\n- **Bursite isquiática ou isquioglútea** — dor e às vezes tumefação sobre a **tuberosidade isquiática**. Porto dá o apelido e a origem: **nádega de tecelão**, por permanência prolongada sentado em superfície dura.\n\n**E os três diagnósticos de dor no quadril que não são da junta nem da bursa**, todos de Semiologia Clínica: a **síndrome do piriforme**, com compressão do isquiático sob o músculo em contratura e piora à abdução e rotação medial; a **disfunção do trato iliotibial**, com dor na região distal da coxa à deambulação; e a **meralgia parestésica**, dor e parestesia na face anterolateral da coxa por compressão do nervo cutâneo femoral lateral junto à espinha ilíaca anterossuperior — cintos apertados são a causa que ela cita.\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Por que uma dor de quadril tantas vezes se apresenta como dor no joelho?\n",
+         "resposta": "Porque a coxofemoral é profunda, cercada de músculos, e não gera sensações bem localizadas: a dor segue os territórios dos nervos obturador e femoral — virilha, coxa, joelho — ou do isquiático, na nádega. Diante de joelho dolorido com exame normal, examine o quadril.\n"
         },
         {
          "tipo": "secao",
@@ -14588,6 +14869,14 @@
          "texto": "No joelho, o exame físico alcança números que quase nenhum outro segmento do corpo alcança: 97,8 para a gaveta posterior, 19,5 para Lachman, 16,2 para o estresse em varo. E, na mesma articulação, a dor na interlinha rende 1,8 e a concordância do McMurray vai de 0,16 a 0,35. A diferença entre um exame excelente e um exame inútil, aqui, cabe inteira na técnica."
         },
         {
+         "tipo": "resumo",
+         "linhas": [
+          "O quadril é profundo e mente sobre onde dói — a queixa migra para virilha, coxa, joelho e nádega; o joelho é superficial e entrega quase tudo.",
+          "No joelho, cada ligamento se testa na direção que ele resiste, o derrame se vê e as estruturas se palpam uma a uma — é a articulação com os melhores números do capítulo.",
+          "Joelho dolorido com exame normal pede exame do quadril antes de pedir imagem."
+         ]
+        },
+        {
          "tipo": "secao",
          "titulo": "Teste rápido"
         },
@@ -14742,6 +15031,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "A dor no pé foi examinada com o paciente deitado, e nada apareceu. Você pede que ele desça da maca e fique de pé: o arco desaba, o hálux entorta, o tornozelo cede para dentro. O pé é uma estrutura de carga — examiná-lo sem o peso do corpo em cima é examinar outro pé.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -14888,6 +15181,11 @@
           "Rotura por dorsiflexão forçada do tornozelo",
           "Falso-positivo possível quando a compressão da panturrilha é feita fora do terço médio ou com força insuficiente"
          ]
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Por que a inspeção do pé precisa ser feita com o paciente deitado e também de pé?\n",
+         "resposta": "Porque o pé é estrutura de carga: o arco plantar só mostra o que é com o corpo apoiado sobre ele, e deformidades como o hálux valgo mudam de aparência entre a maca e o chão. A maioria das queixas é biomecânica — e a biomecânica só aparece em carga.\n"
         },
         {
          "tipo": "secao",
@@ -15092,6 +15390,14 @@
         {
          "tipo": "perola",
          "texto": "O capítulo termina onde começou: contando juntas. Depois de seis tópicos de manobras, epônimos e razões de verossimilhança, o que separa osteoartrite de artrite reumatoide, de gota e de espondiloartrite continua sendo onde as juntas estão, o que se sente sob o dedo, com que ritmo dói e há quanto tempo. Nenhum exame de sangue chega antes dessas quatro respostas — e pedido antes delas, atrapalha."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "As queixas do pé são, antes de tudo, biomecânicas — e por isso o exame se faz deitado e em carga, com a pisada e o calçado como dados.",
+          "Gota, artrite reumatoide e o pé diabético são as doenças que mais visitam a região — cada uma com sua assinatura.",
+          "Os padrões articulares fecham o capítulo: quantas juntas, quais, simétricas ou não, somando-se ou migrando — o quadro que transforma achados em hipótese."
+         ]
         },
         {
          "tipo": "secao",
@@ -16999,6 +17305,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "\"O paciente do leito 4 está torporoso\", diz a passagem de plantão. Torporoso quanto? Para quem? O colega da manhã escreveu \"sonolento\"; o da tarde, \"obnubilado\" — e ninguém sabe se ele piorou. É exatamente para acabar com essa conversa que existe a escala de Glasgow: três números que dois examinadores diferentes conseguem reproduzir, e uma evolução que dá para comparar.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -17161,6 +17471,11 @@
          "texto": "Somar três números que medem coisas diferentes produz um resultado que qualquer combinação pode alcançar. Dois pacientes com **9 pontos** podem ser clinicamente opostos.\n\nUm deles abre os olhos ao chamado (3), fala palavras desconexas (3) e responde ao estímulo doloroso com **flexão anormal (3)**: rebaixamento difuso, sem assimetria.\n\nO outro não abre os olhos (1), emite sons incompreensíveis (2) e **obedece a ordem verbal com o membro que ainda funciona** (6): um quadro em que a via motora está bem mais preservada do que o total sugere. Essa segunda combinação é construída para o argumento — ela é incomum fora de situações como edema ou ptose bilateral, e serve aqui para mostrar até onde a soma pode enganar.\n\nDaí a insistência de todo este tópico no **registro por componente**. O total serve para uma coisa — comparar o mesmo paciente ao longo do tempo, que é justamente o uso que Semiologia Clínica atribui às escalas: permitir comparações evolutivas de melhora ou de piora. Para tudo o mais, o que informa são os três números separados, e o que se fez para obtê-los.\n\nExiste ainda uma situação que as quatro obras deste guia **não tratam** e que a enfermaria produz todos os dias: o paciente em quem a resposta verbal não pode ser avaliada — porque tem via aérea artificial, porque é afásico, porque não fala o idioma do examinador. Nenhuma das fontes descreve uma convenção de registro para esse caso, e este guia não vai inventar uma. O que decorre logicamente do que elas dizem é o suficiente para a prática: se um dos três parâmetros não pôde ser obtido, **o total perde sentido e só os componentes avaliados devem ser anotados**, dizendo por que o terceiro faltou. As convenções formais de registro nesse cenário — entre elas a anotação do componente verbal com a letra \"T\" — pertencem ao contexto de terapia intensiva, fora do alcance das obras em que este guia se apoia.\n"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Um paciente hemiplégico localiza a dor com o braço bom e nada faz com o braço plégico. Que resposta motora entra na escala de Glasgow?\n",
+         "resposta": "A do braço bom — usa-se sempre a melhor resposta, do melhor lado. É essa regra que impede que uma hemiplegia seja contada como rebaixamento de consciência: o déficit focal se registra à parte, como sinal localizatório, não dentro da escala.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Sinais localizatórios"
         },
@@ -17259,6 +17574,14 @@
         {
          "tipo": "perola",
          "texto": "Antes de concluir que um paciente não responde, peça a ele que olhe para cima. A síndrome do cativeiro preserva a consciência inteira e a movimentação dos olhos — e é o diagnóstico que mais custa caro quando o examinador para de perguntar cedo demais."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "São duas perguntas, não uma: o nível (vigília, sistema reticular) e o conteúdo (córtex) — o paciente desperto pode estar profundamente alterado, como no delirium.",
+          "Glasgow troca adjetivos por três réguas — ocular 4, verbal 5, motora 6 — sempre com a melhor resposta, do melhor lado.",
+          "Sinal localizatório muda a hipótese de difusa para focal; e a escala nasceu no trauma — em sedados, há escalas próprias."
+         ]
         },
         {
          "tipo": "secao",
@@ -17431,6 +17754,10 @@
        ],
        "revisao": "aprovada",
        "blocos": [
+        {
+         "tipo": "cena",
+         "texto": "Visão dupla desde ontem, e o paciente aguarda a tomografia. Enquanto ela não vem, você tem uma lanterna e um dedo — e com eles é possível apontar qual nervo falhou, se o problema mora no nervo, no núcleo ou acima dele, e até que ponto do tronco encefálico está sob suspeita. Os pares cranianos têm fama de decoreba; na beira do leito, são um mapa.\n"
+        },
         {
          "tipo": "secao",
          "titulo": "O essencial"
@@ -17618,6 +17945,11 @@
          "texto": "O tópico de olhos ensinou a **reconhecer** a síndrome de Claude Bernard-Horner e a regra de alarme que a acompanha, e deixou registrado que a anatomia da cadeia simpática e o raciocínio localizatório pertenciam ao capítulo neurológico. É aqui.\n\n**A tríade, revista em uma frase.** Denervação simpática do olho, com miose por paralisia do dilatador, ptose por paralisia do músculo tarsal superior e anidrose da face, tudo do mesmo lado. Porto acrescenta a leitura clássica, com enoftalmia e redução da fenda palpebral, e as causas que ele associa: traumatismo, neoplasia do ápice pulmonar e pós-operatório cervical — lembrando que o tópico de olhos já discutiu a ressalva de McGee sobre esse ponto, para quem a aparência de enoftalmia é criada pela pálpebra inferior elevada, sem que o globo esteja de fato retraído.\n\n**A anatomia que transforma a tríade em endereço.** McGee descreve a inervação simpática do olho como **três neurônios em série**:\n\n- o **primeiro**, central, vai do hipotálamo posterior até o nível **C8 a T2** da medula;\n- o **segundo**, pré-ganglionar, deixa a medula e sobe **passando sobre o ápice do pulmão**, contorna a artéria subclávia e acompanha a carótida até o **gânglio cervical superior**;\n- o **terceiro**, pós-ganglionar, **se divide em dois caminhos**: as fibras para a pupila e para a pálpebra sobem pela carótida interna, atravessam o seio cavernoso e alcançam a órbita; as fibras para as glândulas sudoríparas da face acompanham a **carótida externa**.\n\nGuarde essa bifurcação do terceiro neurônio: ela é a explicação anatômica de um dado clínico que o tópico de olhos já usava sem explicar — por que a sudorese facial pode ou não acompanhar a síndrome.\n\n**Como localizar.** McGee organiza a busca por achados associados, e cada grupo aponta para um dos três neurônios:\n\n- achados do **tronco encefálico do mesmo lado** — a síndrome bulbar lateral é o exemplo — apontam para o **primeiro** neurônio;\n- achados **do tórax ou do pescoço**, massa supraclavicular, ou alterações motoras, reflexas ou sensitivas das raízes **C8 a T1** do mesmo lado apontam para o **segundo**;\n- **trauma orbitário, inflamação orbitária, enxaqueca ou dor cervical** apontam para o **terceiro**. E McGee registra a associação que obriga a agir depressa: **uma síndrome de Horner aguda e dolorosa sugere dissecção da artéria carótida**.\n\nRepare no alcance clínico dessa lista. Ela obriga a examinar tórax, fossa supraclavicular e força segmentar dos membros superiores diante de uma pupila pequena — e é por isso que o tópico de olhos dizia que a síndrome \"obriga a olhar para fora da cabeça\". Os achados de fossa supraclavicular estão no tópico de linfonodos e no de tireoide e pescoço; a força segmentar e os reflexos correspondentes estão no tópico de força, tônus e reflexos, neste mesmo capítulo.\n\n**Duas ressalvas honestas.** A primeira: a lógica anatômica sugere que lesões do terceiro neurônio poupem a sudorese facial, enquanto lesões do primeiro e do segundo a comprometam — mas McGee registra que, em um estudo, **esse achado não teve valor diagnóstico**. A anatomia prevê; os dados não confirmaram. A segunda: quando o exame não resolve, a confirmação e a localização se fazem com testes farmacológicos tópicos, que este guia nomeia e não detalha, e hoje a maior parte dos clínicos recorre diretamente à imagem de todo o trajeto simpático.\n"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Uma alteração de nervo craniano pode nascer em três andares diferentes. Quais são eles?\n",
+         "resposta": "No próprio nervo em seu trajeto, no núcleo dele dentro do tronco encefálico, ou na doença hemisférica que interrompe a inervação supranuclear que desce até esse núcleo. E lembre: para alteração motora do V, IX ou X por doença hemisférica, ela precisa ser bilateral — esses núcleos recebem córtex dos dois lados.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "III, IV e VI — motricidade ocular e diplopia"
         },
@@ -17779,6 +18111,14 @@
         {
          "tipo": "perola",
          "texto": "Diante de uma pupila diferente da outra, três perguntas ordenam tudo: as duas reagem à luz? A diferença é maior no claro ou no escuro? E há ptose — completa, com olho desviado para fora e para baixo, ou parcial, com miose do mesmo lado? A primeira e a segunda estão no tópico de olhos; a terceira decide entre o terceiro nervo e o simpático cervical."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Os pares cranianos são o mapa do tronco encefálico à mão: doze nervos, três andares possíveis de lesão — nervo, núcleo ou via supranuclear.",
+          "Do I ao VI, o território é o olho e a face: olfato, via visual com campos por confrontação, pupilas com seus reflexos, motricidade ocular com a diplopia, e o trigêmeo.",
+          "A diplopia se analisa pela direção em que ela piora — a regra que reduz doze músculos a dois — e, na prova do vidro vermelho, a imagem mais periférica pertence ao olho parético."
+         ]
         },
         {
          "tipo": "secao",
@@ -17947,6 +18287,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "A boca entortou de manhã, e a família chegou convencida de que é derrame. Você pede um sorriso, depois pede que ele feche os olhos com força — e a testa enruga dos dois lados? A resposta a essa pergunta de dez segundos separa o provável AVC da provável paralisia de Bell, e muda tudo o que acontece na próxima hora.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -18042,6 +18386,11 @@
          "tipo": "conceito",
          "titulo": "A raiz vestibular sem aparelho nenhum",
          "texto": "Porto é explícito quanto ao alcance do exame neurológico de rotina: o VIII par é objeto da neuro-otologia, que dispõe de aparelhagem própria, e o clínico faz **uma exploração simplificada** das duas raízes. Simplificada não quer dizer inútil — quer dizer que se examinam quatro coisas, e todas sem equipamento.\n\n**1. Nistagmo.** O vocabulário está no tópico de pares cranianos de I a VI: movimentos ritmados com um componente lento e um rápido, nomeados pela direção do componente rápido, nos planos horizontal, vertical, rotatório ou misto, espontâneos ou provocados. Aqui vale a advertência que evita falso-positivo: **um pequeno abalo no olhar lateral extremo existe em muita gente normal** — procure o nistagmo antes de chegar ao extremo do olhar.\n\n**2. Desvio postural.** Porto descreve a manobra: paciente de pé ou sentado, olhos fechados, braços estendidos à frente e elevados até formarem ângulo reto com o tronco. Havendo lesão vestibular, **os braços se desviam para o lado do labirinto comprometido**, e o tronco pende na mesma direção. Semiologia Clínica descreve a mesma manobra dentro do exame do equilíbrio estático e acrescenta o contraste que a torna útil: na **lesão vestibular** desviam-se **os dois membros superiores** para o lado lesado; na **lesão cerebelar**, o desvio é apenas do membro **do mesmo lado** da lesão.\n\n**3. Equilíbrio estático.** O paciente de pé, descalço, com os pés juntos e paralelos, primeiro de olhos abertos e depois fechados. O detalhamento da prova de Romberg — o que ela testa e o que ela não testa — pertence ao tópico de sensibilidade e coordenação, neste mesmo capítulo. O que interessa aqui é a característica do desvio vestibular, que Porto registra: **sempre para o mesmo lado, depois de um pequeno período de latência** — ao contrário do desvio por perda proprioceptiva, que ocorre para qualquer lado e imediatamente.\n\n**4. Marcha e desvio lateral.** Porto descreve a lateropulsão para o lado da lesão e a marcha em estrela; Semiologia Clínica descreve a **manobra de Fukuda**, marchar sem sair do lugar, que evidencia o desvio para o lado lesado nas vestibulopatias. As marchas com nome, incluindo esta, são o tópico de marcha e sinais meníngeos.\n\n**O reflexo oculovestibular sem aparelho.** Semiologia Clínica descreve a **manobra de Halmagyi**: gira-se rapidamente a cabeça do paciente cerca de 20 a 30 graus, pedindo que ele mantenha o olhar em um ponto fixo. Havendo déficit vestibular, **o olho é arrastado junto com a cabeça e só depois retorna ao alvo** — a correção que denuncia o reflexo insuficiente. Ela é ensinada aqui porque não exige equipamento; McGee a examina em detalhe, com números, no bloco de aprofundamento.\n\n**A moldura.** As **provas calórica e rotatória** — estimular os labirintos com água quente e fria, ou usar cadeira giratória — são realizadas em gabinete de neuro-otologia porque requerem equipamento especializado (Porto), e ficam fora deste guia, assim como as manobras posicionais.\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Um paciente ouve mal só de um lado, e os testes confirmam hipoacusia unilateral. O que essa lateralidade diz sobre o lugar da lesão?\n",
+         "resposta": "Que a lesão está na via periférica — orelha ou nervo. A hipoacusia unilateral por lesão cortical é rara, porque a via auditiva ascende bilateralmente depois dos núcleos: cada córtex ouve os dois ouvidos.\n"
         },
         {
          "tipo": "secao",
@@ -18212,6 +18561,14 @@
          "texto": "Uma língua que desvia diz de que lado está a fraqueza — ela pende para o lado fraco. Para saber onde está a lesão, olhe duas coisas a mais: se há atrofia ou fasciculação, o problema é do núcleo ou do nervo; e para que lado estão o braço e a perna fracos, porque a resposta separa o hemisfério do bulbo."
         },
         {
+         "tipo": "resumo",
+         "linhas": [
+          "Do VII ao XII, o trabalho é ligar achados já conhecidos a uma topografia: rosto, audição e equilíbrio, palato e voz, pescoço e língua.",
+          "Na face, a testa decide: a paralisia central a poupa (inervação cortical bilateral do andar superior); a periférica leva o rosto inteiro.",
+          "Hipoacusia unilateral é periférica até prova em contrário — a via auditiva sobe bilateral; e rouquidão persistente é também um sinal de nervo."
+         ]
+        },
+        {
          "tipo": "secao",
          "titulo": "Teste rápido"
         },
@@ -18372,6 +18729,10 @@
        ],
        "revisao": "aprovada",
        "blocos": [
+        {
+         "tipo": "cena",
+         "texto": "\"Fraqueza na perna direita há duas semanas.\" Você poderia pedir a ressonância — mas de qual segmento? Cérebro, medula, raiz, nervo, músculo? A resposta que orienta o pedido não vem da força: vem do tônus, do trofismo e dos reflexos daquele membro, lidos juntos. É o exame motor fazendo o que só ele faz — topografia.\n"
+        },
         {
          "tipo": "secao",
          "titulo": "O essencial"
@@ -18584,6 +18945,11 @@
          "tipo": "conceito",
          "titulo": "As manobras deficitárias",
          "texto": "Quando o déficit é discreto ou duvidoso, a força testada contra a mão do examinador não o revela. Porto e Semiologia Clínica descrevem então as **provas deficitárias**, que trocam a resistência do examinador pelo peso do próprio membro e pelo tempo.\n\n**Membros superiores.** Na **prova dos braços estendidos**, também chamada manobra de Mingazzini dos membros superiores por Semiologia Clínica, o paciente estende os braços à frente com as **palmas voltadas para cima** e sustenta a posição; observa-se se um dos membros **prona** ou **cai**. A **manobra de Raimiste** é a variante feita com o paciente deitado de costas e os antebraços dobrados em ângulo reto.\n\n**Membros inferiores.** Na **manobra de Mingazzini**, o paciente deitado de costas sustenta a coxa dobrada sobre o tronco, deixando a perna horizontal, paralela ao leito; o membro deficitário cai antes do outro. Na **prova de Barré**, o paciente fica em decúbito ventral com as pernas fletidas a 90 graus, perpendiculares ao solo.\n\n**O tempo é parte da manobra, e as fontes pedem tempos diferentes.** Semiologia Clínica especifica **2 minutos** para as manobras de membros superiores e inferiores. McGee descreve a mesma prova nos membros superiores sob o nome de **desvio em pronação** (*pronator drift*) e pede que a posição seja mantida por **45 segundos**, com os olhos fechados; o achado positivo é o braço contralateral à lesão hemisférica que **desce e prona**. Não há como conciliar os dois números, e não é preciso: o que eles têm em comum é que a manobra só vale se o tempo for cronometrado e registrado. Uma prova sustentada por dez segundos não é a prova.\n\n**Por que o achado é essa combinação de queda e pronação**, e não uma queda qualquer, é a parte elegante: o desvio em pronação é um sinal de lesão **hemisférica contralateral**, e McGee o agrupa com outros dois testes que detectam a mesma coisa mesmo quando a força está praticamente preservada — a **prova do rolamento dos antebraços**, em que o paciente gira os antebraços um em torno do outro e o lado comprometido fica parado enquanto o outro orbita à sua volta; e o **teste de percussão rápida dos dedos**, em que o paciente bate polegar contra indicador cerca de duas vezes por segundo e o lado comprometido bate mais devagar e com menor amplitude. Os números desses três testes estão no bloco de aprofundamento.\n\nSemiologia Clínica registra ainda a leitura mais útil das manobras deficitárias, que não é apenas encontrar a fraqueza: elas mostram **se o déficit é global, distal ou proximal**. O padrão **distal** é característico de lesões piramidais ou de nervos periféricos; o padrão **proximal** sugere miopatia. McGee mede exatamente essa intuição: se fraqueza proximal for definida como músculos proximais com um grau a menos que os distais na escala do Medical Research Council, ela aparece em **92%** dos pacientes com doença muscular — de modo que a **ausência** de fraqueza proximal reduz a probabilidade de doença do músculo.\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "A queixa é fraqueza discreta, e a força contra oposição parece normal. Que manobras revelam o déficit que a oposição não pega?\n",
+         "resposta": "As provas deficitárias — Mingazzini, Barré, braços estendidos: mantém-se a postura contra a gravidade por tempo suficiente e observa-se qual segmento cede primeiro. Elas detectam déficits leves que o teste de oposição direto não mostra.\n"
         },
         {
          "tipo": "secao",
@@ -18871,6 +19237,14 @@
          "texto": "Antes de decidir que o reflexo está alterado, faça duas perguntas: o paciente está relaxado, e o músculo está estirado? A maioria dos reflexos que somem no exame some pela mão do examinador, não pelo sistema nervoso do paciente."
         },
         {
+         "tipo": "resumo",
+         "linhas": [
+          "Três perguntas em ordem: onde está a fraqueza, de que tipo ela é (neurônio motor superior × inferior) e onde fica a lesão — e quem responde a segunda são tônus, trofismo e reflexos, não a força.",
+          "Superior: espasticidade, hiper-reflexia, Babinski, pouca atrofia. Inferior: hipotonia, arreflexia, atrofia e fasciculações — lidos no membro fraco.",
+          "Provas deficitárias pegam o déficit leve; reflexos se graduam e, sobretudo, se comparam entre os lados."
+         ]
+        },
+        {
          "tipo": "secao",
          "titulo": "Teste rápido"
         },
@@ -19035,6 +19409,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "\"Formigamento nos pés\" em um paciente diabético. Você poderia sair espetando o corpo inteiro ao acaso — ou decidir antes o que quer saber: a queixa é limitada, então tato e dor bastam; a distribuição interessa mais que o limiar; e se a perda subir feito uma bota, o exame já contou a história. Sensibilidade é o exame que mais recompensa quem planeja e mais castiga quem tem pressa.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -19177,6 +19555,11 @@
          "texto": "**O padrão em bota e luva tem uma explicação, e ela prevê a sequência.** A polineuropatia acomete igualmente todos os nervos do mesmo comprimento — por isso o desenho lembra uma bota e uma luva. Como afeta primeiro os nervos mais longos, a hipoestesia aparece nos **pés**, depois nas **pontas dos dedos das mãos** e, apenas após comprometimento extenso de braços e pernas, no **tronco anterior** (McGee). Acompanham-na, com frequência, atrofia da musculatura pequena de pés e mãos e reflexos aquileus ausentes — os mesmos achados que o tópico de força, tônus e reflexos ensina a procurar.\n\nUm sinal fino de McGee vale guardar porque separa polineuropatia de outra coisa: como os nervos que vão aos **dorsiflexores** do pé são mais longos que os que vão aos **flexores plantares**, o paciente com polineuropatia tem **mais dificuldade de andar sobre os calcanhares do que sobre as pontas dos pés**. O achado inverso — dificuldade nas pontas e não nos calcanhares — sugere outro diagnóstico.\n\n**A síndrome de Brown-Séquard pura é rara.** McGee registra que a maioria dos pacientes com doença unilateral da medula se apresenta com fraqueza e perda sensitiva **nos dois lados**, embora a fraqueza seja maior do lado da lesão e a hipalgesia maior do lado oposto. Porto descreve a mesma dissociação ao separar, na hemissecção medular, a síndrome piramidal e a perda de sensibilidade vibratória e cinético-postural **do lado da lesão** da perda de sensibilidade superficial **do lado oposto**. Guardar a regra em uma frase: **a paralisia e a propriocepção vão juntas para o lado da lesão; a dor e a temperatura vão para o outro.**\n\n**O infarto bulbar lateral é o que mais impressiona e o que menos paralisa.** Ele se apresenta com vertigem intensa e perda de dor e temperatura em lados opostos da face e do corpo, **sem fraqueza** — e a lesão fica do mesmo lado da analgesia facial. Os achados associados mais frequentes, na tabulação de McGee, são reflexo córneo-palpebral diminuído (91%), nistagmo (56% a 100%), ataxia de marcha (91%), ataxia de membro do mesmo lado (55% a 95%), síndrome de Horner do mesmo lado (41% a 95%), analgesia facial do mesmo lado (50% a 86%), fraqueza do palato do mesmo lado (52% a 86%), analgesia do corpo do lado oposto (88%) e fraqueza facial do mesmo lado (18% a 43%). O tópico de pares cranianos de VII a XII já descreve essa síndrome pelo lado dos nervos; aqui ela aparece pelo lado da sensibilidade, e as duas descrições são a mesma lesão.\n"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Quando a queixa sensitiva envolve grande parte de um membro ou o tronco, por que é preciso testar todas as sensações simples, e não só o tato?\n",
+         "resposta": "Para não perder a dissociação sensitiva — a perda de uma modalidade com preservação de outra —, que é pista importante de doença medular. As quatro sensações simples são dor, temperatura, tato e vibração.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Coordenação"
         },
@@ -19286,6 +19669,14 @@
         {
          "tipo": "perola",
          "texto": "Duas perguntas resolvem quase toda a topografia sensitiva: a perda é dos dois lados, e ela envolve a face? Dois lados sem face é polineuropatia ou medula; um lado com face é tálamo ou hemisfério; e face de um lado com corpo do outro é tronco encefálico."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Sensibilidade é relato: decida antes o que quer saber — triagem só com tato; queixa em um membro, tato e dor; queixa extensa, todas as modalidades atrás da dissociação.",
+          "O que faz diagnóstico é o padrão da perda — bota e luva, nível sensitivo, dermátomo, hemicorpo — mais do que o limiar.",
+          "Coordenação e Romberg completam: dismetria aponta cerebelo; Romberg positivo (queda ao fechar os olhos) aponta propriocepção ou vestíbulo, não cerebelo."
+         ]
         },
         {
          "tipo": "secao",
@@ -19444,6 +19835,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "O exame todo saiu normal — força, sensibilidade, reflexos, coordenação no leito. Você já ia liberar quando o preceptor pergunta: \"ele andou?\". No corredor, três passos bastam para desmontar a alta: base alargada, trajetória em zigue-zague. A maca esconde exatamente os dois exames deste tópico — e os dois são pulados com a mesma frequência com que decidem casos.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -19581,6 +19976,11 @@
          "tipo": "conceito",
          "titulo": "Marcha de pequenos passos — uma divergência interna que precisa ser dita",
          "texto": "A **marcha de pequenos passos** é caracterizada por passada muito curta, com o paciente arrastando os pés. Ela merece um bloco próprio porque a atribuição de causa **diverge dentro da mesma obra**, e o leitor que consultar duas partes de Porto vai encontrar duas respostas.\n\n- **Porto, *Semiologia Médica*, cap. 8**, no exame físico geral, descreve a marcha de pequenos passos pela diminuição do comprimento da passada, com deslocamento do corpo para diante, redução da potência no fim do apoio e tendência a quedas, e atribui à **senilidade e à doença de Alzheimer**. É essa a versão que o tópico de ectoscopia registra, e ela não é alterada aqui.\n- **Porto, *Semiologia Médica*, cap. 172**, no exame neurológico, descreve os passos muito curtos com os pés arrastados e atribui à **paralisia pseudobulbar e à atrofia cortical degenerativa**. É essa a versão que o tópico de pares cranianos de VII a XII usou ao tratar da paralisia pseudobulbar.\n- **Porto, *Exame Clínico*, cap. 20**, descreve o mesmo padrão e atribui à **paralisia pseudobulbar e a doenças extrapiramidais**, acrescentando que o paciente às vezes não consegue sair do lugar e que **idosos também podem apresentá-la**.\n\nAs três descrições do achado coincidem; as atribuições de causa, não. Este guia registra **as três**, porque elas correspondem a situações clínicas que existem e que o leitor vai encontrar, e porque escolher uma delas em silêncio seria esconder do leitor uma divergência da própria fonte.\n\n**A regra prática que resolve o impasse à beira do leito** é a mesma nas duas partes de Porto e vale mais que a escolha da causa: **a marcha senil é diagnóstico de exclusão**. Com o envelhecimento a marcha muda mesmo sem doença — aumenta a flexão de cotovelos, cintura e quadril, diminuem o balanço dos braços, a altura em que os pés são levantados e o comprimento dos passos, e o padrão pode chegar a se confundir com a marcha de pequenos passos. Mas essas alterações **não aparecem em todos os idosos**: há quem alcance idades muito avançadas sem nenhuma delas, e há quem as desenvolva cedo. Antes de usar o rótulo, é preciso afastar as doenças neurológicas e osteomusculares capazes de produzir o mesmo quadro. O tópico de ectoscopia já registra essa regra por inteiro, e ela não muda aqui.\n\n**McGee descreve um quadro vizinho — e com o mesmo nome.** Ao caracterizar o **distúrbio frontal da marcha**, ele chama a marcha lenta, arrastada e de base alargada de *marche à petits pas*, que é literalmente marcha de pequenos passos. Vale conhecê-lo porque explica boa parte dos casos: é termo impreciso que reúne achados vistos em pacientes com tumores cerebrais, hematomas subdurais, doenças que cursam com demência, hidrocefalia de pressão normal e múltiplos infartos lacunares. As características são quatro: marcha **lenta, arrastada e de base alargada**; **hesitação para iniciar** a caminhada; **dificuldade de descolar os pés do chão**; e **controle postural pobre**. Alguns desses achados lembram parkinsonismo, e é justamente por isso que McGee lista o que os separa: no distúrbio frontal, a **base é larga** — não estreita —, o **balanço dos braços é normal**, faltam os demais traços parkinsonianos, a postura é **mais ereta**, e há mais demência e mais incontinência urinária.\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Um paciente pode ter síndrome cerebelar com exame de membros inteiramente normal?\n",
+         "resposta": "Pode — a ataxia de marcha é o achado mais frequente de todas as síndromes cerebelares, e muitos pacientes têm dificuldade de andar sem nenhum outro sinal de ataxia de membro. É por isso que o exame neurológico só termina quando o paciente anda.\n"
         },
         {
          "tipo": "secao",
@@ -19806,6 +20206,14 @@
         {
          "tipo": "perola",
          "texto": "Rigidez de nuca é o achado que mais engana nas duas direções: ausente em quem tem hemorragia há poucas horas, presente em um terço dos idosos internados que não têm nada nas meninges. Ela vale muito quando aparece na cefaleia súbita, e nunca vale como carta de alforria."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Dois exames que a maca esconde: a marcha, que desmascara síndromes com exame de membros normal, e os sinais meníngeos, que exigem encostar na cabeça do paciente.",
+          "De todos os sinais de irritação meníngea, a rigidez de nuca é o que mais pesa — pesquisá-la é rotina; Kernig, Brudzinski e Lasègue completam.",
+          "Cada marcha nomeada aponta um sistema; e a rigidez pode demorar a aparecer na hemorragia subaracnóidea e desaparecer no coma profundo."
+         ]
         },
         {
          "tipo": "secao",

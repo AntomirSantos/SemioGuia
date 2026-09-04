@@ -65,6 +65,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  A dor no pé foi examinada com o paciente deitado, e nada apareceu. Você pede que ele desça da maca e fique de pé: o arco desaba, o hálux entorta, o tornozelo cede para dentro. O pé é uma estrutura de carga — examiná-lo sem o peso do corpo em cima é examinar outro pé.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -310,6 +315,13 @@ causas:
   - "Rotura do tendão calcâneo, geralmente por flexão plantar forçada durante corrida ou salto"
   - "Rotura por dorsiflexão forçada do tornozelo"
   - "Falso-positivo possível quando a compressão da panturrilha é feita fora do terço médio ou com força insuficiente"
+:::
+
+::: pense
+pergunta: |
+  Por que a inspeção do pé precisa ser feita com o paciente deitado e também de pé?
+resposta: |
+  Porque o pé é estrutura de carga: o arco plantar só mostra o que é com o corpo apoiado sobre ele, e deformidades como o hálux valgo mudam de aparência entre a maca e o chão. A maioria das queixas é biomecânica — e a biomecânica só aparece em carga.
 :::
 
 ::: secao
@@ -559,6 +571,13 @@ texto: |
 
 ::: perola
 texto: "O capítulo termina onde começou: contando juntas. Depois de seis tópicos de manobras, epônimos e razões de verossimilhança, o que separa osteoartrite de artrite reumatoide, de gota e de espondiloartrite continua sendo onde as juntas estão, o que se sente sob o dedo, com que ritmo dói e há quanto tempo. Nenhum exame de sangue chega antes dessas quatro respostas — e pedido antes delas, atrapalha."
+:::
+
+::: resumo
+linhas:
+  - "As queixas do pé são, antes de tudo, biomecânicas — e por isso o exame se faz deitado e em carga, com a pisada e o calçado como dados."
+  - "Gota, artrite reumatoide e o pé diabético são as doenças que mais visitam a região — cada uma com sua assinatura."
+  - "Os padrões articulares fecham o capítulo: quantas juntas, quais, simétricas ou não, somando-se ou migrando — o quadro que transforma achados em hipótese."
 :::
 
 ::: secao

@@ -77,6 +77,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  A boca entortou de manhã, e a família chegou convencida de que é derrame. Você pede um sorriso, depois pede que ele feche os olhos com força — e a testa enruga dos dois lados? A resposta a essa pergunta de dez segundos separa o provável AVC da provável paralisia de Bell, e muda tudo o que acontece na próxima hora.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -314,6 +319,13 @@ texto: |
   **O reflexo oculovestibular sem aparelho.** Semiologia Clínica descreve a **manobra de Halmagyi**: gira-se rapidamente a cabeça do paciente cerca de 20 a 30 graus, pedindo que ele mantenha o olhar em um ponto fixo. Havendo déficit vestibular, **o olho é arrastado junto com a cabeça e só depois retorna ao alvo** — a correção que denuncia o reflexo insuficiente. Ela é ensinada aqui porque não exige equipamento; McGee a examina em detalhe, com números, no bloco de aprofundamento.
 
   **A moldura.** As **provas calórica e rotatória** — estimular os labirintos com água quente e fria, ou usar cadeira giratória — são realizadas em gabinete de neuro-otologia porque requerem equipamento especializado (Porto), e ficam fora deste guia, assim como as manobras posicionais.
+:::
+
+::: pense
+pergunta: |
+  Um paciente ouve mal só de um lado, e os testes confirmam hipoacusia unilateral. O que essa lateralidade diz sobre o lugar da lesão?
+resposta: |
+  Que a lesão está na via periférica — orelha ou nervo. A hipoacusia unilateral por lesão cortical é rara, porque a via auditiva ascende bilateralmente depois dos núcleos: cada córtex ouve os dois ouvidos.
 :::
 
 ::: secao
@@ -565,6 +577,13 @@ texto: |
 
 ::: perola
 texto: "Uma língua que desvia diz de que lado está a fraqueza — ela pende para o lado fraco. Para saber onde está a lesão, olhe duas coisas a mais: se há atrofia ou fasciculação, o problema é do núcleo ou do nervo; e para que lado estão o braço e a perna fracos, porque a resposta separa o hemisfério do bulbo."
+:::
+
+::: resumo
+linhas:
+  - "Do VII ao XII, o trabalho é ligar achados já conhecidos a uma topografia: rosto, audição e equilíbrio, palato e voz, pescoço e língua."
+  - "Na face, a testa decide: a paralisia central a poupa (inervação cortical bilateral do andar superior); a periférica leva o rosto inteiro."
+  - "Hipoacusia unilateral é periférica até prova em contrário — a via auditiva sobe bilateral; e rouquidão persistente é também um sinal de nervo."
 :::
 
 ::: secao

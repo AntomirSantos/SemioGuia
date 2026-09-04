@@ -64,6 +64,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "Dói aqui embaixo, doutor" — e a sua mão, obediente, vai direto ao ponto que dói. A parede inteira se contrai, o paciente se arma, e os dez minutos seguintes de exame viram uma coleção de achados falsos. A palpação do abdome se ganha ou se perde antes de tocar: mão aquecida, começo longe da dor, e a área dolorida por último.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -214,6 +219,13 @@ linhas:
   - - "Sensibilidade"
     - "Indolor ou dolorosa"
     - "Dolorosa quando a cápsula de Glisson é distendida rapidamente — insuficiência cardíaca, hepatite aguda, metástases de crescimento rápido; indolor nas hepatomegalias crônicas, em que a cápsula se adapta"
+:::
+
+::: pense
+pergunta: |
+  Em uma pessoa saudável, magra e com a parede relaxada, o que é normal conseguir palpar no abdome — e o que nunca se palpa?
+resposta: |
+  Palpam-se o fígado, os rins, a aorta, o ceco, o cólon transverso e o sigmoide. Não se distinguem o estômago, o duodeno, o delgado, o pâncreas, as vias biliares nem o peritônio. Saber o que é palpável evita tanto o susto com o normal quanto a falsa segurança com o impalpável.
 :::
 
 ::: secao
@@ -393,6 +405,13 @@ texto: |
 
 ::: perola
 texto: "A pergunta útil diante de um fígado palpável não é quantos centímetros ele ultrapassa o rebordo, e sim como ele é ao toque. A distância se correlaciona mal com o volume real; a consistência firme, essa sim, eleva a probabilidade de cirrose — e acompanha bem as medidas modernas de fibrose."
+:::
+
+::: resumo
+linhas:
+  - "Duas perguntas em sequência: primeiro a parede (superficial — tensão, dor, continuidade), depois a cavidade (profunda — órgãos e massas com seus atributos)."
+  - "O relaxamento da parede depende mais do examinador que do paciente: mão aquecida, começo suave e a área dolorida sempre por último."
+  - "Fígado e baço têm técnicas próprias e posições próprias — e toda massa se descreve por localização, forma, volume, sensibilidade, consistência, mobilidade e pulsatilidade."
 :::
 
 ::: secao

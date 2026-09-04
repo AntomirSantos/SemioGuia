@@ -65,6 +65,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  Lombalgia há cinco dias — a queixa mais repetida do ambulatório. Antes de mandar alongar e voltar em duas semanas, duas perguntas silenciosas: essa dor nasce mesmo na coluna, ou está sendo referida de uma víscera? E, se nasce nela, há algum sinal que tire o caso do rótulo de "lombalgia comum"? A coluna se examina de pé, de perfil e em movimento — e começa excluindo o que não é dela.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -264,6 +269,13 @@ texto: |
   O que as fontes adotadas oferecem no lugar, para a mesma pergunta — quanto a coluna lombar flete —, é a **distância entre as polpas digitais e o solo**, que Porto manda medir, e a inspeção dinâmica de Semiologia Clínica, que pede ao paciente alcançar os pés com as mãos mantendo os joelhos retos, registrando onde a dor aparece e o que ela limita. São medidas mais grosseiras que a de Schober, e são as que este guia pode sustentar.
 
   A mesma decisão vale para as manobras sacroilíacas: **Gaenslen** é **nomeada** por Semiologia Clínica como manobra capaz de demonstrar sacroileíte, mas **não é descrita** — e por isso este guia a nomeia sem ensinar a técnica. **Patrick/FABERE**, que a mesma obra descreve passo a passo, é ensinada adiante.
+:::
+
+::: pense
+pergunta: |
+  Antes de examinar a coluna dolorida, qual é a primeira tarefa — a que vem antes de qualquer manobra?
+resposta: |
+  Excluir a dor referida: pancreatite percebida na região toracolombar, úlcera duodenal na torácica, dor renal na lombar, afecções ginecológicas na lombossacra. Depois, excluir que a dor venha de outra estrutura do aparelho locomotor. Só então a coluna vira a suspeita principal.
 :::
 
 ::: secao
@@ -479,6 +491,13 @@ texto: |
 
 ::: perola
 texto: "Duas perguntas separam quase toda dor lombar que desce para a perna: o que a piora e o que a alivia. Se piora ao tossir, ao espirrar e ao inclinar o tronco, pense em raiz estirada. Se piora ao andar e alivia com o tronco curvado, pense em canal estreito — e lembre que a insuficiência arterial também dói ao andar."
+:::
+
+::: resumo
+linhas:
+  - "A coluna se examina de pé, nos três planos, com o dorso descoberto — e a flexão anterior é o que revela a escoliose estrutural."
+  - "Primeira tarefa: excluir dor referida de víscera e dor de estrutura vizinha; segunda: procurar o que tira o caso da lombalgia comum."
+  - "Lasègue estira raiz, os testes de compressão provocam o segmento — cada manobra positiva aponta um mecanismo, não um diagnóstico pronto."
 :::
 
 ::: secao

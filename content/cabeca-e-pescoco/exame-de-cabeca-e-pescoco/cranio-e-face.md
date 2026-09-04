@@ -65,6 +65,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  Cefaleia há três semanas, "já tomou de tudo". A tomografia veio normal, e o paciente volta com o mesmo laudo e a mesma dor. Você faz o que ninguém tinha feito: toca a cabeça dele — e encontra o ponto doloroso na têmpora, sobre a artéria endurecida, que muda toda a investigação. Metade dos achados deste segmento se perde porque o examinador nunca encostou a mão.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -212,6 +217,13 @@ texto: |
   Uma consequência de enfermaria vale ser dita: paciente que não fecha o olho não protege a córnea. A lagoftalmia é, por si, um problema de superfície ocular, e Semiologia Clínica lembra que o piscar é o que reparte o filme lacrimal sobre a conjuntiva e a córnea.
 
   Onde este raciocínio continua: **a graduação da paralisia facial, o restante do exame do VII par e o exame sistemático dos demais nervos cranianos pertencem ao capítulo do sistema nervoso**. O que se aprende aqui é reconhecer a assimetria e saber para onde ela aponta.
+:::
+
+::: pense
+pergunta: |
+  Neste tópico, o rosto é examinado por uma pergunta diferente da que a ectoscopia já fez. Qual é ela?
+resposta: |
+  Se o rosto é simétrico e se ele se move simetricamente. A fácies — o padrão sindrômico do conjunto — pertence à ectoscopia; aqui o foco é a assimetria estática e dinâmica, incluindo a paralisia facial como achado (cuja exploração sistemática, porém, é do capítulo do sistema nervoso).
 :::
 
 ::: secao
@@ -474,6 +486,13 @@ texto: |
 
 ::: perola
 texto: "Diante de uma assimetria da face, faça três perguntas antes de nomeá-la: ela existe em repouso ou só no movimento? Ela é do lado direito ou do esquerdo — e comparada com o quê? E há alguma tumefação que a explique, como uma parótida crescida ou um abscesso dentário? Assimetria sem essas três respostas é observação, não achado."
+:::
+
+::: resumo
+linhas:
+  - "Sequência fixa: forma e tamanho do crânio, posição e movimentos, superfície e couro cabeludo, face — e depois seios da face e temporomandibular, que só o tato alcança."
+  - "Inspeção sem palpação não encontra afundamento, bossa nem ponto doloroso — toque a cabeça do paciente."
+  - "Aqui a pergunta do rosto é simetria, estática e em movimento; fácies é assunto da ectoscopia, e os pares cranianos, do sistema nervoso."
 :::
 
 ::: secao

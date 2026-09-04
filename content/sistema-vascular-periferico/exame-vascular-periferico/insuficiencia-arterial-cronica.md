@@ -57,6 +57,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "Dá umas duas quadras e a panturrilha trava; paro um pouco, passa, sigo." O paciente conta isso há um ano — para a família, era "coisa da idade". A frase que ele acabou de dizer é quase o diagnóstico inteiro: dor que vem com a marcha, obriga a parar e alivia com o repouso. O exame que vem agora não vai dizer se há doença; vai dizer onde ela está e quanto ameaça o membro.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -414,6 +419,13 @@ texto: |
   Um dado do exame que costuma passar batido e que Semiologia Clínica coloca no roteiro: procurar **micoses interdigitais**. Porto lista a micose entre as portas de entrada capazes de desencadear gangrena em um membro isquêmico. É o menor dos achados deste tópico e um dos que mais mudam desfecho.
 :::
 
+::: pense
+pergunta: |
+  Um ITB de 1,4 tranquiliza quanto à circulação daquele membro?
+resposta: |
+  Não — índice alto demais não é saúde, é artéria rígida: acima de 1,2–1,3 as fontes o associam a calcificação arterial, comum em diabéticos e renais crônicos, que impede a compressão pelo manguito. O guia adota os cortes de McGee: anormal abaixo de 0,9; claudicação tipicamente entre 0,5 e 0,8; isquemia ameaçadora abaixo de 0,5.
+:::
+
 ::: secao
 titulo: O índice tornozelo-braço
 :::
@@ -582,6 +594,13 @@ texto: |
 
 ::: perola
 texto: "Insuficiência arterial se pergunta antes de se procurar. Distância até a dor, o que faz a dor passar, e onde o paciente coloca a perna para dormir — três perguntas que localizam o segmento doente e graduam a isquemia antes de a mão encostar no pé."
+:::
+
+::: resumo
+linhas:
+  - "O diagnóstico é clínico — a claudicação intermitente conta a história — e o exame localiza: pulsos, pele, temperatura e úlceras dizem qual segmento e quanto ameaça."
+  - "Metade dos portadores é assintomática; o ITB abaixo de 0,9 define a doença mesmo sem queixa, e acima de 1,2–1,3 denuncia artéria calcificada, não saúde."
+  - "Pé isquêmico é pé em risco: procure as lesões tróficas antes que a gangrena as anuncie."
 :::
 
 ::: secao

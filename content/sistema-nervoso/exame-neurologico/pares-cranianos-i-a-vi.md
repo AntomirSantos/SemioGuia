@@ -82,6 +82,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  Visão dupla desde ontem, e o paciente aguarda a tomografia. Enquanto ela não vem, você tem uma lanterna e um dedo — e com eles é possível apontar qual nervo falhou, se o problema mora no nervo, no núcleo ou acima dele, e até que ponto do tronco encefálico está sob suspeita. Os pares cranianos têm fama de decoreba; na beira do leito, são um mapa.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -491,6 +496,13 @@ texto: |
   **Duas ressalvas honestas.** A primeira: a lógica anatômica sugere que lesões do terceiro neurônio poupem a sudorese facial, enquanto lesões do primeiro e do segundo a comprometam — mas McGee registra que, em um estudo, **esse achado não teve valor diagnóstico**. A anatomia prevê; os dados não confirmaram. A segunda: quando o exame não resolve, a confirmação e a localização se fazem com testes farmacológicos tópicos, que este guia nomeia e não detalha, e hoje a maior parte dos clínicos recorre diretamente à imagem de todo o trajeto simpático.
 :::
 
+::: pense
+pergunta: |
+  Uma alteração de nervo craniano pode nascer em três andares diferentes. Quais são eles?
+resposta: |
+  No próprio nervo em seu trajeto, no núcleo dele dentro do tronco encefálico, ou na doença hemisférica que interrompe a inervação supranuclear que desce até esse núcleo. E lembre: para alteração motora do V, IX ou X por doença hemisférica, ela precisa ser bilateral — esses núcleos recebem córtex dos dois lados.
+:::
+
 ::: secao
 titulo: III, IV e VI — motricidade ocular e diplopia
 :::
@@ -746,6 +758,13 @@ texto: |
 
 ::: perola
 texto: "Diante de uma pupila diferente da outra, três perguntas ordenam tudo: as duas reagem à luz? A diferença é maior no claro ou no escuro? E há ptose — completa, com olho desviado para fora e para baixo, ou parcial, com miose do mesmo lado? A primeira e a segunda estão no tópico de olhos; a terceira decide entre o terceiro nervo e o simpático cervical."
+:::
+
+::: resumo
+linhas:
+  - "Os pares cranianos são o mapa do tronco encefálico à mão: doze nervos, três andares possíveis de lesão — nervo, núcleo ou via supranuclear."
+  - "Do I ao VI, o território é o olho e a face: olfato, via visual com campos por confrontação, pupilas com seus reflexos, motricidade ocular com a diplopia, e o trigêmeo."
+  - "A diplopia se analisa pela direção em que ela piora — a regra que reduz doze músculos a dois — e, na prova do vidro vermelho, a imagem mais periférica pertence ao olho parético."
 :::
 
 ::: secao

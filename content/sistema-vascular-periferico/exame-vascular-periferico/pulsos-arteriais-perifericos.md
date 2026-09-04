@@ -54,6 +54,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  A ferida no pé do diabético não fecha há dois meses. Antes do curativo do dia, você ajoelha ao pé da maca e procura o pedioso: cheio à esquerda, um fio à direita. Ninguém tinha comparado — e é a comparação, artéria com a sua igual do outro lado, que constitui o exame inteiro deste capítulo.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -286,6 +291,13 @@ texto: |
   A segunda, que Porto adverte na isquemia aguda: às vezes os dedos julgam ter encontrado um pulso, quando o que chegou até eles foi a **onda de um pulso proximal transmitida** pelos tecidos. Diante de um membro frio e pálido, o achado precisa ser confirmado com atenção, e não anotado de passagem.
 :::
 
+::: pense
+pergunta: |
+  Por que nunca se palpam as duas carótidas ao mesmo tempo?
+resposta: |
+  Pelo risco de isquemia cerebral em quem tem uma delas ocluída — e porque comprimir o seio carotídeo pode desencadear bradicardia, síncope ou o desprendimento de trombos de uma placa. Uma de cada vez, com delicadeza; no idoso, é prudente auscultar antes de palpar.
+:::
+
 ::: secao
 titulo: Amplitude, simetria e parede
 :::
@@ -464,6 +476,13 @@ texto: |
 
 ::: perola
 texto: "Pulso presente não é sinônimo de artéria boa e pulso ausente não é sinônimo de artéria doente. Um pedioso ausente isolado costuma ser anatomia; dois ausentes, doença; e pulsos cheios em repouso podem sumir depois de trinta passos — que é exatamente o momento em que o paciente sente a dor que o trouxe."
+:::
+
+::: resumo
+linhas:
+  - "O exame é a comparação: cada artéria contra a sua homóloga — amplitude menor ou pulso ausente em relação ao outro lado é artéria ocluída até prova em contrário."
+  - "Quando usar número, o guia adota a escala 0 a 3+ (2+ normal); melhor ainda é descrever a comparação, que sobrevive à troca de plantão."
+  - "Carótidas uma de cada vez; e o retardo radiofemoral, palpando os dois pulsos juntos, rastreia coarctação da aorta."
 :::
 
 ::: secao

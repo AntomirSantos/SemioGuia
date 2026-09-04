@@ -63,6 +63,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  O pintor de paredes não consegue mais levantar o braço para trabalhar. "Bursite", alguém já disse; "tendinite", disse outro. Os dois podem estar certos ao mesmo tempo — o ombro é o único lugar do corpo em que tendões passam entre ossos que se movem, e é essa arquitetura que explica por que ele dói tanto e por que os testes deste tópico existem.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -262,6 +267,13 @@ texto: |
   **E o guia registra também a crítica**, porque ela é do próprio McGee e é honesta. Quatro razões levantadas contra a utilidade dessa classificação: a maioria das síndromes do ombro é tratada de modo semelhante, com anti-inflamatórios, infiltrações e fisioterapia, seja qual for o diagnóstico; do ponto de vista do paciente as síndromes são indistinguíveis, produzindo dor e incapacidade semelhantes ao longo do tempo; ao reexaminar o paciente, o diagnóstico específico **frequentemente muda**; e a quantidade de testes propostos — um sítio lista **129** — sugere que a compreensão do problema ainda é incompleta.
 
   **O que sobra, e é bastante.** McGee conclui que o exame continua importante em duas tarefas: **distinguir as síndromes intrínsecas do ombro daquelas que causam dor referida**, e **identificar a ruptura do manguito**, condição que às vezes exige reparo cirúrgico. São essas duas tarefas que os blocos de aprofundamento medem.
+:::
+
+::: pense
+pergunta: |
+  Quais são os quatro músculos do manguito rotador, onde se inserem e qual é a função que explica quase todos os testes do ombro?
+resposta: |
+  Supraespinal, infraespinal, subescapular e redondo menor — todos inseridos na tuberosidade maior do úmero. A função é manter a cabeça umeral encaixada na glenoide; cada teste do manguito provoca um deles nessa tarefa.
 :::
 
 ::: secao
@@ -571,6 +583,13 @@ texto: |
 
 ::: perola
 texto: "No ombro, o exame vale pelo que exclui. A ausência dos dois sinais de impacto praticamente afasta a doença subacromial, e a ausência dos três achados combinados praticamente afasta a ruptura do manguito. Nenhum teste isolado deste tópico confirma coisa alguma com a mesma força com que o conjunto negativo descarta."
+:::
+
+::: resumo
+linhas:
+  - "O ombro dói porque tendões passam entre ossos que se movem: impacto → tendinite → bursite → degeneração → rotura é a cadeia a interromper cedo."
+  - "O manguito são quatro músculos na tuberosidade maior segurando a cabeça umeral na glenoide — e cada teste provoca um deles."
+  - "No cotovelo, os epicôndilos contam a história: lateral no cotovelo do tenista, medial no do golfista — dor provocada pela contração resistida, não pelo toque."
 :::
 
 ::: secao

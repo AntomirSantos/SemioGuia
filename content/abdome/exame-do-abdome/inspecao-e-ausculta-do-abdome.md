@@ -73,6 +73,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  O interno já vinha com as mãos abertas para palpar o abdome distendido quando você o segura pelo cotovelo: "ausculta primeiro". Ele estranha — em todo o resto do corpo a ordem é outra. Mas a mão que palpa acorda o intestino, e o achado que talvez decida esse caso é justamente um intestino calado. No abdome, quem chega antes é o estetoscópio.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -333,6 +338,13 @@ texto: |
   - **Cólon** — mais bem vistas no transverso quando a obstrução está no ângulo esplênico ou abaixo dele, deslocando-se da direita para a esquerda.
 :::
 
+::: pense
+pergunta: |
+  Por que a inspeção do abdome se faz com os olhos na altura do plano da parede, e não de cima para baixo?
+resposta: |
+  Porque abaulamentos, retrações e ondas peristálticas são relevos discretos que só aparecem em visão tangencial — olhando de cima, eles somem. Abaixe-se até a altura do abdome e use a luz rasante a favor.
+:::
+
 ::: secao
 titulo: A ausculta
 :::
@@ -505,6 +517,13 @@ texto: |
 
 ::: perola
 texto: "Um abdome que não se move com a respiração e um paciente que respira só com o tórax dizem, antes de qualquer manobra, que a parede está defendendo alguma coisa. Esse achado se colhe com os olhos, de graça, e vale mais do que a maioria dos sinais que exigem mãos."
+:::
+
+::: resumo
+linhas:
+  - "No abdome a ordem se inverte: inspeção, ausculta, e só depois percussão e palpação — a mão estimula o peristaltismo e pode apagar o achado."
+  - "Inspecione com os olhos no plano da parede: é em visão tangencial que abaulamentos, retrações e ondas peristálticas aparecem."
+  - "A ausculta abre o exame também por gentileza: minutos de contato indolor antes das manobras que podem doer."
 :::
 
 ::: secao

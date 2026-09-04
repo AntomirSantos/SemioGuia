@@ -72,6 +72,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "O paciente do leito 4 está torporoso", diz a passagem de plantão. Torporoso quanto? Para quem? O colega da manhã escreveu "sonolento"; o da tarde, "obnubilado" — e ninguém sabe se ele piorou. É exatamente para acabar com essa conversa que existe a escala de Glasgow: três números que dois examinadores diferentes conseguem reproduzir, e uma evolução que dá para comparar.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -304,6 +309,13 @@ texto: |
   Existe ainda uma situação que as quatro obras deste guia **não tratam** e que a enfermaria produz todos os dias: o paciente em quem a resposta verbal não pode ser avaliada — porque tem via aérea artificial, porque é afásico, porque não fala o idioma do examinador. Nenhuma das fontes descreve uma convenção de registro para esse caso, e este guia não vai inventar uma. O que decorre logicamente do que elas dizem é o suficiente para a prática: se um dos três parâmetros não pôde ser obtido, **o total perde sentido e só os componentes avaliados devem ser anotados**, dizendo por que o terceiro faltou. As convenções formais de registro nesse cenário — entre elas a anotação do componente verbal com a letra "T" — pertencem ao contexto de terapia intensiva, fora do alcance das obras em que este guia se apoia.
 :::
 
+::: pense
+pergunta: |
+  Um paciente hemiplégico localiza a dor com o braço bom e nada faz com o braço plégico. Que resposta motora entra na escala de Glasgow?
+resposta: |
+  A do braço bom — usa-se sempre a melhor resposta, do melhor lado. É essa regra que impede que uma hemiplegia seja contada como rebaixamento de consciência: o déficit focal se registra à parte, como sinal localizatório, não dentro da escala.
+:::
+
 ::: secao
 titulo: Sinais localizatórios
 :::
@@ -503,6 +515,13 @@ texto: |
 
 ::: perola
 texto: "Antes de concluir que um paciente não responde, peça a ele que olhe para cima. A síndrome do cativeiro preserva a consciência inteira e a movimentação dos olhos — e é o diagnóstico que mais custa caro quando o examinador para de perguntar cedo demais."
+:::
+
+::: resumo
+linhas:
+  - "São duas perguntas, não uma: o nível (vigília, sistema reticular) e o conteúdo (córtex) — o paciente desperto pode estar profundamente alterado, como no delirium."
+  - "Glasgow troca adjetivos por três réguas — ocular 4, verbal 5, motora 6 — sempre com a melhor resposta, do melhor lado."
+  - "Sinal localizatório muda a hipótese de difusa para focal; e a escala nasceu no trauma — em sedados, há escalas próprias."
 :::
 
 ::: secao
