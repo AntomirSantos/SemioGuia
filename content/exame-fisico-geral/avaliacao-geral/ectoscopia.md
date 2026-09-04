@@ -106,6 +106,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  O preceptor para na porta da enfermaria, olha o paciente do leito ao fundo por dez segundos e diz baixinho: "esse piorou desde ontem". Nenhum aparelho foi encostado. O que ele viu — postura, respiração, cor, expressão, o modo como o corpo ocupa o leito — é o que este tópico ensina a ver de propósito, em vez de por acaso.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -380,6 +385,12 @@ texto: |
   Vale uma nota de vocabulário. As descrições consagradas de fácies vêm de uma tradição textual longa e trazem nomes que a linguagem clínica atual já não usa, sobretudo os que rotulam pessoas por deficiência ou por origem. O achado permanece útil; o nome, quando ofende, se substitui pela descrição.
 :::
 
+::: pense
+pergunta: O paciente só desperta com estímulos fortes, mas ainda tem movimentos espontâneos. Em que degrau da escada da consciência ele está — e o que o separa do degrau de baixo?
+resposta: |
+  Torpor (ou estupor). O que o separa do coma são justamente os movimentos espontâneos: no coma o paciente não desperta nem com estímulos fortes e não se move espontaneamente. Registre sempre o menor estímulo que ainda obteve resposta.
+:::
+
 ::: secao
 titulo: Atitude, decúbito e postura
 :::
@@ -601,6 +612,13 @@ texto: |
 
 ::: perola
 texto: "Boa parte da ectoscopia acontece enquanto você ainda está fazendo a anamnese — e é justamente por isso que ela se perde. Reserve dez segundos de silêncio, antes da primeira pergunta, só para olhar: postura, respiração, cor, expressão, o que o paciente faz com as mãos. Nenhum outro momento do encontro devolve tanto por tão pouco."
+:::
+
+::: resumo
+linhas:
+  - "A ectoscopia responde \"como está esta pessoa, vista inteira?\" — e começa no instante em que o paciente entra, antes de qualquer manobra."
+  - "Impressões globais — estado geral, fácies, marcha — têm concordância apenas moderada entre examinadores: escreva o adjetivo e, ao lado, os achados que o sustentam."
+  - "Só têm valor diagnóstico as atitudes involuntárias e as que aliviam sintoma; fácies sem padrão é atípica, e marcha senil é diagnóstico de exclusão."
 :::
 
 ::: secao

@@ -52,6 +52,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  O preceptor lê a sua evolução e devolve o prontuário com uma pergunta só: "essa dor começou antes ou depois do vômito?". Você não sabe. O paciente contou tudo — mas contou fora de ordem, e você anotou na ordem em que veio. Este tópico ensina o ofício de transformar um relato embaralhado numa história com começo, meio e fim.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -299,6 +304,11 @@ texto: |
   - **Periodicidade** — surtos ao longo de meses ou anos, com remissões entre eles.
 :::
 
+::: pense
+pergunta: O paciente diz que a dor no epigástrio passa quando ele come. Esse dado confirma ou contraria a regra geral da relação entre dor e função do órgão?
+resposta: Contraria — e por isso vale ouro. Em geral a dor piora quando o órgão de origem entra em funcionamento; a exceção clássica é a úlcera duodenal, cuja dor cede com o alimento porque decorre da hipercloridria, não da atividade do duodeno. É o ritmo dói–come–passa.
+:::
+
 ::: secao
 titulo: Histórias que não cabem em uma linha
 :::
@@ -367,6 +377,13 @@ texto: |
 
 ::: perola
 texto: "Antes de fechar a HDA, faça a pergunta de Semiologia Clínica: o que o senhor deixou de fazer por causa disso? A resposta mede gravidade em unidade de vida real, e frequentemente corrige a intensidade que o paciente havia declarado."
+:::
+
+::: resumo
+linhas:
+  - "Queixa principal é o título do capítulo: nas palavras do paciente, com a duração junto e sem rótulo diagnóstico."
+  - "A HDA se organiza em torno de um sintoma-guia, caracterizado inteiro pelo esquema — e com a cronologia como eixo, ancorada em eventos memoráveis."
+  - "No paciente crônico agudizado, escreva duas cronologias: a linha de base e a data exata do que mudou — mudança de padrão é evento, não ruído."
 :::
 
 ::: secao

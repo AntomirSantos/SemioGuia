@@ -103,6 +103,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  Pronto-socorro, criança febril no colo da mãe. Alguém já anotou "exantema" e seguiu adiante. Você pega uma lâmina de vidro, comprime uma das manchas vermelhas e prende a respiração: se a cor sumir, é um grupo de doenças; se não sumir, é outro — e a noite muda de rumo. O exame da pele é feito de gestos assim, baratos e decisivos.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -366,6 +371,11 @@ svg: |
 legenda: "Os mesmos três sítios servem a duas perguntas diferentes, mas por estruturas distintas. No olho, a icterícia se procura na superfície do globo (1) e a palidez, na rima da pálpebra evertida (2), comparada com a face interna mais profunda (3)."
 :::
 
+::: pense
+pergunta: Você suspeita de anemia. Qual é o sítio de maior rendimento para procurar palidez — e qual é o que não vale o seu tempo?
+resposta: A rima conjuntival — puxando a pálpebra inferior, o contraste entre a rima avermelhada e a porção mais pálida desaparece na anemia (RV 16,7, o maior de todos os sítios). O leito ungueal é o que não vale o tempo — sem valor diagnóstico e com a pior concordância entre examinadores.
+:::
+
 ::: secao
 titulo: Icterícia
 :::
@@ -603,6 +613,13 @@ texto: |
   4. **Excluir anemia porque as mucosas estão coradas.** Nenhum sinal físico afasta anemia de forma convincente.
   5. **Chamar de icterícia toda pele amarela.** Carotenodermia e impregnação medicamentosa poupam conjuntiva e mucosa oral; a gordura subconjuntival poupa a vizinhança da córnea.
   6. **Confiar na graduação em cruzes da icterícia.** A correlação com a bilirrubina sérica e a concordância entre observadores são baixas; o que muda a conduta inicial é o sinal estar presente ou ausente.
+:::
+
+::: resumo
+linhas:
+  - "O exame da pele se organiza em três perguntas — que cor, que lesões, o que dizem os anexos — e cobre o corpo todo, não só a área da queixa."
+  - "Diante de mancha avermelhada, comprima: se some, é vaso dilatado; se não some, é sangue extravasado — petéquia, víbice ou equimose."
+  - "Palidez se procura na rima conjuntival e nas pregas palmares; icterícia, na esclera e no freio da língua — e pele amarela com olho e boca poupados não é icterícia."
 :::
 
 ::: secao

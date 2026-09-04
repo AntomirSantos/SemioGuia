@@ -62,6 +62,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "Fuma?" — "Não." A caneta já ia riscar o item quando você troca a pergunta: "e antes, já fumou?". Trinta anos de um maço por dia, parados há seis meses por causa da falta de ar que o trouxe aqui. O dado que muda o caso inteiro estava a uma pergunta de distância — e este tópico é sobre fazer essas perguntas.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -247,6 +252,11 @@ linhas:
     - "Exposição solar e uso de protetor; medidas de proteção contra acidentes; proteção nas relações sexuais; frequência de escovação e de visitas ao dentista"
 :::
 
+::: pense
+pergunta: Um paciente fuma um maço por dia há 20 anos. Qual é a carga tabágica dele — e por que esse número específico importa?
+resposta: 20 anos-maço (maços por dia × anos de uso). É justamente o limiar que Porto registra — a grande maioria dos pacientes com DPOC é ou foi tabagista com pelo menos 20 anos/maço; consumo bem menor não sugere DPOC como causa, salvo anormalidade genética.
+:::
+
 ::: secao
 titulo: Quantificar o que se pergunta
 :::
@@ -370,6 +380,13 @@ texto: |
 
 ::: perola
 texto: "Todo médico precisa conhecer as possibilidades econômicas do seu paciente — Porto trata isso como parte da anamnese, e não como delicadeza. Um plano de cuidado que a pessoa não pode cumprir não é um plano; é uma anotação."
+:::
+
+::: resumo
+linhas:
+  - "Antecedentes e hábitos contam com quem a doença está acontecendo — e é isso que transforma sintomas em probabilidades."
+  - "Hábito sem número não é dado: anos-maço para o tabaco, tipo-quantidade-frequência para o álcool (CAGE quando indicado), ambiente e substâncias para a ocupação."
+  - "Uma negativa sem explicações não é necessariamente a verdade: registre como veio, sem julgar, e reabra no seguimento."
 :::
 
 ::: secao

@@ -53,6 +53,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  O paciente está a 130 por minuto e, no estetoscópio, tudo virou uma metralhadora de sons iguais. Qual é B1? Qual é B2? Onde cai o sopro? A saída não é ouvir mais forte — é ancorar: dois dedos na carótida, e a bulha que bate junto com a onda é a primeira. Toda a ausculta cardíaca se constrói sobre esse gesto simples.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -203,6 +208,13 @@ texto: |
   A **campânula** é a peça dos graves — B3, B4 e o ruflar da estenose mitral só aparecem por ela. Apoie-a com a força mínima necessária para vedar o ar, e nada além disso.
 
   Esse detalhe de pressão é uma ferramenta diagnóstica, não um capricho. Comprimir a campânula estica a pele, que passa a funcionar como membrana e a transforma em diafragma. Daí uma manobra útil: se um som some quando você aumenta a pressão da campânula, ele é de baixa frequência. É assim que se confirma uma B3 e que se separa a dupla B4-B1 de um desdobramento de B1 — a pressão firme funde a primeira e não altera a segunda.
+:::
+
+::: pense
+pergunta: |
+  Um ruído grave na ponta some quando você comprime a campânula com força. O que isso diz sobre ele?
+resposta: |
+  Que é um som de baixa frequência — a pele esticada pela compressão vira membrana e a campânula vira diafragma, apagando os graves. É a manobra que confirma uma B3 e que separa a dupla B4-B1 de um desdobramento de B1: a pressão firme funde a primeira e não altera o segundo.
 :::
 
 ::: secao
@@ -395,6 +407,13 @@ texto: |
 
 ::: perola
 texto: "Diante de um sopro, silencie-o na sua cabeça e vá atrás das bulhas. O ouvido corre para o som mais alto, e é assim que se perdem a bulha fraca, o desdobramento discreto e o estalido — achados que muitas vezes decidem mais que o próprio sopro."
+:::
+
+::: resumo
+linhas:
+  - "Tudo começa em separar B1 de B2 — carótida sob os dedos, TUM-TA no ouvido; cada bulha se julga no seu foco, e desdobramento de B2 só se estuda na área pulmonar."
+  - "Diafragma para os agudos, campânula mal apoiada para os graves — e pelo menos três posições: dorsal, lateral esquerdo e sentado inclinado."
+  - "Desdobramento que aparece na inspiração é fisiológico; fixo lembra comunicação interatrial, paradoxal lembra bloqueio de ramo esquerdo; B3 fala de ventrículo dilatado, B4 de ventrículo rígido."
 :::
 
 ::: secao

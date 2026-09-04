@@ -37,6 +37,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  Plantão noturno. O idoso diabético do leito 7 está "afebril, 36,8" — mas hipotenso, confuso, taquipneico. A enfermagem estranha que você peça culturas: "sem febre, doutor?". É exatamente esse o ponto: quem não consegue fazer febre diante de uma infecção grave está pior, não melhor. Termômetro é instrumento; interpretar é outra coisa.
+:::
+
 ::: secao
 titulo: Temperatura — o essencial
 :::
@@ -288,6 +293,12 @@ etapas:
     formato: fim
 :::
 
+::: pense
+pergunta: Uma criança está com 37,6 °C na axila. Pelo corte da SBP 2025, isso é febre? E no adulto?
+resposta: |
+  Na criança, sim — o documento de 2025 baixou o limiar para ≥ 37,5 °C axilar (37,3 a 37,5 °C é estado febril, limítrofe). No adulto, ainda não: o corte que o guia adota é acima de 37,8 °C, e 37,3 a 37,7 °C é estado subfebril.
+:::
+
 ::: secao
 titulo: Frequência respiratória
 :::
@@ -336,6 +347,13 @@ texto: |
   A frequência respiratória é o sinal vital mais anotado e menos aferido. Comparando o prontuário com a contagem real, os valores anotados se concentram entre 16 e 22 irpm na grande maioria das vezes — mesmo em pacientes cuja frequência verdadeira variava de 10 a mais de 30.
 
   A causa é quase sempre a mesma: contar 15 segundos e multiplicar por quatro. Nessa forma abreviada, apenas cerca de 23% dos pacientes taquipneicos são identificados; com 60 segundos de observação, praticamente todos são. O minuto inteiro ainda revela padrões que a contagem curta jamais mostraria, como a respiração de Cheyne-Stokes.
+:::
+
+::: resumo
+linhas:
+  - "Febre é termostato deslocado (adulto: axilar > 37,8 °C; criança, SBP 2025: ≥ 37,5 °C); hipertermia é sobrecarga externa — e a curva térmica vale mais que o valor isolado."
+  - "Idoso, diabético e paciente grave podem não fazer febre diante de infecção séria — a ausência é sinal de mau prognóstico, não de tranquilidade."
+  - "A FR se conta por 60 segundos, sem avisar — é o único sinal vital sob controle voluntário, e a contagem de 15 segundos perde três em cada quatro taquipneicos."
 :::
 
 ::: secao

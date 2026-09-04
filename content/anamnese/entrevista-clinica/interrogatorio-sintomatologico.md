@@ -44,6 +44,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  O paciente veio por impotência sexual, e a consulta já ia se encerrando. Na varredura de rotina, quase por obrigação, você pergunta pela sede, pela urina, pelo peso — e vêm a polidipsia, a poliúria e o emagrecimento a que ele não dava importância. O caso é de Porto, e é o argumento inteiro deste tópico: a doença principal às vezes mora num sistema que ninguém tinha motivo para investigar.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -202,6 +207,11 @@ texto: |
   *Semiologia Clínica* reforça a mesma ideia por outro caminho: além de identificar e tratar as queixas apresentadas, cabe ao médico identificar precocemente doenças passíveis de intervenção, reconhecer fatores de risco e propor intervenções para hábitos potencialmente nocivos.
 :::
 
+::: pense
+pergunta: No interrogatório, o paciente responde "não" para todo o aparelho respiratório. Vale a pena registrar essa negativa — ou basta anotar os sistemas com achado?
+resposta: Vale — e Porto manda registrar os presentes e os negados. A negativa de hoje é o parâmetro de amanhã; se o paciente voltar em dois meses com tosse produtiva e dispneia, é o registro negativo que prova que o quadro é novo.
+:::
+
 ::: secao
 titulo: Interrogatório dirigido
 :::
@@ -269,6 +279,13 @@ texto: |
 
 ::: perola
 texto: "Se o interrogatório sintomatológico está rendendo muito, desconfie da HDA. Um interrogatório cheio de achados novos costuma ser o sintoma de uma história da doença atual que não foi até o fim."
+:::
+
+::: resumo
+linhas:
+  - "O interrogatório varre o que ficou fora do fio da HDA: anuncie a revisão, siga sempre a mesma ordem e abra cada sistema com uma pergunta geral."
+  - "Todo positivo se caracteriza pelo esquema da HDA; toda negativa também se registra — ela é o parâmetro contra o qual as queixas futuras serão comparadas."
+  - "Com a experiência, a profundidade passa a seguir as hipóteses; a cobertura de triagem, essa, é inegociável."
 :::
 
 ::: secao

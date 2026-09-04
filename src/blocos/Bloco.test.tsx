@@ -179,3 +179,33 @@ test('quiz mostra card-resumo e chama onIniciarQuiz ao praticar', async () => {
   await fireEvent.press(getByText('Praticar'));
   expect(onIniciar).toHaveBeenCalledWith(perguntas);
 });
+
+test('cena renderiza a vinheta com o rótulo "À beira do leito"', async () => {
+  const bloco: Bloco = { tipo: 'cena', texto: 'Plantão, 3h: o residente te chama pelo leito 12.' };
+  const { getByText } = await renderBloco(bloco);
+  expect(getByText('À beira do leito')).toBeTruthy();
+  expect(getByText(/leito 12/)).toBeTruthy();
+});
+
+test('pense esconde a resposta até o toque em "Mostrar resposta"', async () => {
+  const bloco: Bloco = {
+    tipo: 'pense',
+    pergunta: 'O sopro que coincide com a onda carotídea é sistólico ou diastólico?',
+    resposta: 'Sistólico — a onda carotídea marca a sístole.',
+  };
+  const { getByText, queryByText } = await renderBloco(bloco);
+  expect(getByText(/onda carotídea é sistólico/)).toBeTruthy();
+  expect(queryByText(/marca a sístole/)).toBeNull();
+  await fireEvent.press(getByText('Mostrar resposta'));
+  expect(getByText(/marca a sístole/)).toBeTruthy();
+  expect(queryByText('Mostrar resposta')).toBeNull();
+});
+
+test('resumo renderiza o título e as três linhas numeradas', async () => {
+  const bloco: Bloco = { tipo: 'resumo', linhas: ['Primeira frase.', 'Segunda frase.', 'Terceira frase.'] };
+  const { getByText } = await renderBloco(bloco);
+  expect(getByText('Em três linhas')).toBeTruthy();
+  expect(getByText('1.')).toBeTruthy();
+  expect(getByText('3.')).toBeTruthy();
+  expect(getByText('Terceira frase.')).toBeTruthy();
+});

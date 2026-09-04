@@ -9,6 +9,7 @@ import {
 } from '@expo-google-fonts/libre-bodoni';
 import {
   SourceSerif4_400Regular,
+  SourceSerif4_400Regular_Italic,
   SourceSerif4_600SemiBold,
 } from '@expo-google-fonts/source-serif-4';
 import {
@@ -93,6 +94,7 @@ export default function RootLayout() {
     LibreBodoni_700Bold,
     LibreBodoni_700Bold_Italic,
     SourceSerif4_400Regular,
+    SourceSerif4_400Regular_Italic,
     SourceSerif4_600SemiBold,
     PublicSans_400Regular,
     PublicSans_600SemiBold,

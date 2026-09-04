@@ -76,6 +76,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  Da porta do box, antes de qualquer aparelho: o homem sentado na maca respira com os lábios semicerrados, os escalenos saltados a cada inspiração, a fúrcula afundando. O tórax dele conta a história inteira antes da primeira pergunta — quanto está custando respirar é coisa que se vê, e é a única parte do exame respiratório em que você ainda não interferiu em nada.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -377,6 +382,13 @@ texto: |
   Dois pontos do exame geral pertencem a essa lista. O **desvio lateral da traqueia** acompanha fibrose pulmonar, atelectasia e grandes derrames. E a **distância medida da margem inferior da cricoide até a fúrcula**, normalmente acima de 5,5 cm (Porto, Semiologia Médica, cap. 36), encurta na hiperinsuflação do enfisema avançado.
 :::
 
+::: pense
+pergunta: |
+  Um paciente anêmico grave pode estar profundamente hipoxêmico sem nenhuma cianose. Por quê?
+resposta: |
+  Porque a cor azul depende da quantidade absoluta de desoxi-hemoglobina (~2,38 g/dL), não da porcentagem. Com hemoglobina de 8 g/dL, só se acumula essa massa de pigmento com saturação lá embaixo, perto de 70%. Pele rosada não é sinônimo de oxigenação adequada.
+:::
+
 ::: secao
 titulo: Sinais de moldura
 :::
@@ -450,6 +462,13 @@ texto: |
 
 ::: perola
 texto: "Antes de auscultar, decida de que lado está a doença. Um hemitórax que se move menos já entrega essa resposta — e transforma a ausculta de uma varredura em uma pergunta dirigida."
+:::
+
+::: resumo
+linhas:
+  - "Quatro perguntas: que forma tem a caixa, como a pessoa respira, quanto custa respirar, e o que o corpo denuncia de doença crônica — e o dorso faz parte da inspeção."
+  - "Forma é moldura, esforço é gravidade: tiragem e musculatura acessória num tórax normal pesam mais que um tórax em tonel tranquilo (RV ~1,5, pouco discriminante)."
+  - "Cianose mede massa de pigmento, não oxigenação — o anêmico hipoxêmico não azula; e o sinal de Schamroth é o teste de consultório do baqueteamento (RV 8)."
 :::
 
 ::: secao

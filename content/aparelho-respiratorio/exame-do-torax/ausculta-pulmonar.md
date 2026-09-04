@@ -58,6 +58,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "Tem uns crepitos na base", diz o colega, entregando o plantão. Mas crepitos que somem quando o paciente tosse contam uma história; crepitos que persistem, outra; e o "crepito" que era só a camisa roçando no receptor não conta nenhuma. A ausculta pulmonar é menos sobre ouvir sons e mais sobre fazer a cada som as quatro perguntas certas.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -314,6 +319,13 @@ texto: |
   Sobre o estridor, um dado de gravidade: em pacientes com estenose de traqueia após traqueostomia, ele é achado tardio, surge depois da dispneia e da tosse irritativa, e indica diâmetro de via aérea menor que 5 mm.
 :::
 
+::: pense
+pergunta: |
+  Você ouviu estertores na base. Qual manobra simples ajuda a separar os grossos dos finos — e o que cada resposta significa?
+resposta: |
+  Peça uma tosse e ausculte de novo o mesmo ponto: estertores grossos (de secreção nas vias aéreas) mudam ou desaparecem; estertores finos (de abertura alveolar, como na fibrose e no edema) não se alteram. Sem as quatro coordenadas — onde, quando, tosse, posição — o estertor é quase inútil.
+:::
+
 ::: secao
 titulo: Ressonância vocal
 :::
@@ -471,6 +483,13 @@ texto: |
 
 ::: perola
 texto: "Diante de qualquer achado, faça sempre as mesmas quatro perguntas: onde, em que fase do ciclo, muda com a tosse, muda com a posição. Elas transformam 'estertores em bases' — que não significa nada — em 'estertores finos teleinspiratórios, bilaterais, que se modificam com o decúbito', que já sugere congestão."
+:::
+
+::: resumo
+linhas:
+  - "Escutam-se três coisas, nesta ordem: os sons respiratórios (e sua simetria), os adventícios sobrepostos e — quando há suspeita — os sons vocais."
+  - "Todo achado ganha quatro coordenadas: onde, quando no ciclo, se muda com a tosse e se muda com a posição."
+  - "Receptor sempre na pele: a fricção da roupa fabrica estertores e atrito pleural que não existem."
 :::
 
 ::: secao

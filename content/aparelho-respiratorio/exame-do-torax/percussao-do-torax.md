@@ -49,6 +49,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  Dispneia e murmúrio abolido na base direita. Antes de pedir a radiografia, você percute descendo o hemitórax: claro, claro, claro — e de repente o som morre e o dedo apoiado sente a parede endurecer, como se batesse em pedra. É o único cenário em que a percussão brilha de verdade, e vale conhecê-lo bem justamente por isso.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -202,6 +207,13 @@ texto: |
   Existe uma variação de técnica que aproveita a física a favor do examinador, a **percussão de limiar**: bater tão levemente que as áreas maciças não produzam som nenhum. Movendo o golpe com força rigorosamente constante, a nota surge de repente ao encontrar a área sonora. É mais fácil distinguir "algo de nada" do que "mais de menos".
 :::
 
+::: pense
+pergunta: |
+  Se você fosse percutir o tórax por um único motivo, qual seria — e por quê?
+resposta: |
+  Pelo derrame pleural. Confrontada com a radiografia, a percussão detectou 100% dos grandes derrames — mas só 0% a 15% das consolidações e nenhum nódulo intraparenquimatoso. A macicez "pétrea", com o dedo plexímetro sentindo mais resistência, é a assinatura do líquido.
+:::
+
 ::: secao
 titulo: Aprofundamento
 :::
@@ -301,6 +313,13 @@ texto: |
 
 ::: perola
 texto: "Percussão nítida exige unhas curtas. É impossível golpear com a borda ungueal, em obliquidade, sem machucar o dedo plexímetro quando a unha é longa — e o estudante que descobre isso na frente do paciente já perdeu o achado."
+:::
+
+::: resumo
+linhas:
+  - "Percutir é perguntar se um território tem mais ou menos ar que o simétrico — sempre comparativa, com golpes de mesma intensidade dos dois lados."
+  - "A mão também escuta: macicez oferece mais resistência ao dedo plexímetro — a macicez pétrea do derrame."
+  - "O rendimento é baixo com uma exceção brilhante: os grandes derrames pleurais. Consolidações e nódulos, ela quase nunca vê."
 :::
 
 ::: secao

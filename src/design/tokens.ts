@@ -98,6 +98,7 @@ export const fonte = {
   corpoForte: 'PublicSans_800ExtraBold',
   leitura: 'SourceSerif4_400Regular',
   leituraSemi: 'SourceSerif4_600SemiBold',
+  leituraItalico: 'SourceSerif4_400Regular_Italic', // voz narrativa (bloco cena)
 } as const;
 
 // Escala tipográfica editorial: masthead 27, título de tópico 23, títulos de

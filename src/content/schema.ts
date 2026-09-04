@@ -31,6 +31,12 @@ export const blocoSchema = z.discriminatedUnion('tipo', [
   z.object({ tipo: z.literal('tabela'), titulo: z.string().optional(), colunas: z.array(z.string().min(1)).min(2), linhas: z.array(z.array(z.string())).min(1), ...nivelCommon }),
   z.object({ tipo: z.literal('fluxograma'), titulo: z.string().optional(), etapas: z.array(etapaFluxo).min(2), ...nivelCommon }),
   z.object({ tipo: z.literal('perola'), texto: z.string().min(1), ...nivelCommon }),
+  // Blocos didáticos (2026-09): cena abre o tópico com uma vinheta clínica,
+  // pense interrompe a leitura com recuperação ativa (resposta recolhida),
+  // resumo fecha o tópico com exatamente três frases de saída.
+  z.object({ tipo: z.literal('cena'), texto: z.string().min(1), ...nivelCommon }),
+  z.object({ tipo: z.literal('pense'), pergunta: z.string().min(1), resposta: z.string().min(1), ...nivelCommon }),
+  z.object({ tipo: z.literal('resumo'), linhas: z.array(z.string().min(1)).length(3), ...nivelCommon }),
   z.object({ tipo: z.literal('quiz'), perguntas: z.array(quizPerguntaSchema).min(1), ...nivelCommon }),
   z.object({ tipo: z.literal('secao'), titulo: z.string().min(1), ...nivelCommon }),
   z.object({ tipo: z.literal('entendimento'), titulo: z.string().optional(), texto: z.string().min(1), ...nivelCommon }),

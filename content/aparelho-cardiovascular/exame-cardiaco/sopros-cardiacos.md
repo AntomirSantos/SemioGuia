@@ -49,6 +49,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "Apareceu um sopro no leito 12" — e o residente já quer o ecocardiograma. Mas o sopro estava lá ontem? É sistólico ou diastólico? Recobre B1 ou nasce depois dela? Muda quando o paciente inspira? Cada uma dessas perguntas se responde com as mãos e o estetoscópio em dois minutos, e juntas elas costumam dizer mais do que o laudo que ainda vai demorar seis horas.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -270,6 +275,13 @@ texto: |
   Por isso a localização isolada não basta: um sopro mais audível na área mitral não nasceu necessariamente na valva mitral. É a irradiação que aponta a origem.
 :::
 
+::: pense
+pergunta: |
+  Um sopro sistólico intenso (4/6) é necessariamente mais grave do que um sopro discreto (2/6)?
+resposta: |
+  Não — intensidade não é gravidade. Comunicações interventriculares pequenas produzem fluxo veloz e sopro intenso; as amplas, fluxo lento e sopro discreto. O que a intensidade traz de objetivo é a fronteira 3/4: a partir do grau 4 existe frêmito palpável.
+:::
+
 ::: secao
 titulo: Manobras dinâmicas
 :::
@@ -430,6 +442,13 @@ texto: |
   3. **Interpretar manobra respiratória com paciente respirando mal.** Sem respiração regular, Rivero-Carvallo não significa nada.
   4. **Chamar de contínuo um sopro sistólico somado a um diastólico.** No sopro verdadeiramente contínuo a cadência não é interrompida pelas bulhas; nos sopros "de vai e vem" ouvem-se dois sopros distintos.
   5. **Rotular como inocente antes de completar a investigação.** "Inocente" é uma conclusão que vem depois do exame completo e dos complementares indicados — nunca uma primeira impressão acústica.
+:::
+
+::: resumo
+linhas:
+  - "Um sopro só está descrito com as sete características — e a mais importante é o lugar no ciclo, decidido com o pulso carotídeo sob os dedos."
+  - "Ejeção nasce depois de B1 e morre antes de B2 (diamante); regurgitação recobre B1 em platô; ruflar guarda distância de B2, aspirativo cola nela; contínuo atravessa tudo."
+  - "Intensidade não é gravidade — e as manobras (Rivero-Carvallo, Valsalva, cócoras, handgrip) respondem perguntas específicas que o repouso não responde."
 :::
 
 ::: secao

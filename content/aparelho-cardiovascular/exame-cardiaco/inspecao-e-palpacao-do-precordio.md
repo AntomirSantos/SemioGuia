@@ -40,6 +40,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  Você encosta o estetoscópio direto no "foco mitral" decorado — 5º espaço, linha hemiclavicular — e não ouve o sopro que o preceptor descreveu. Ele sorri, palpa por dez segundos, e desliza o seu estetoscópio dois dedos para fora: o coração daquele paciente cresceu, e a ponta mudou de endereço. Quem palpa antes de auscultar, ausculta no lugar certo.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -215,6 +220,13 @@ texto: |
   Vale ainda escolher bem o ponto de referência. Entre os três clássicos, a linha hemiclavicular é o melhor: um ictus lateral a ela, em decúbito dorsal, aumenta a probabilidade de coração aumentado na radiografia e de fração de ejeção reduzida. Uma ressalva de padrão-ouro: quando o alvo é o volume diastólico medido, o mesmo achado se mostra sensível porém pouco específico — o diâmetro do ictus discrimina melhor que a posição. A distância de 10 cm da linha medioesternal não discrimina bem, e a linha mamilar é a pior de todas, por não guardar relação constante com o tamanho do tórax nem com a posição do ictus.
 :::
 
+::: pense
+pergunta: |
+  Você não encontrou o ictus cordis em decúbito dorsal. Isso é sinal de doença?
+resposta: |
+  Não, por si só. Em decúbito dorsal o choque da ponta é palpável em apenas 25 a 40% dos adultos; o decúbito lateral esquerdo em apneia expiratória eleva isso a 50 a 73%. Registre "ictus não palpável" e siga o exame — o achado pode ser só anatômico (obesidade, enfisema, mamas volumosas), mas não escreva "precórdio normal".
+:::
+
 ::: secao
 titulo: Além do ictus
 :::
@@ -295,6 +307,13 @@ texto: |
 
 ::: perola
 texto: "Antes de auscultar, localize o ictus. Ele não é apenas um sinal de tamanho ventricular — é o endereço da área mitral naquele paciente, que na cardiomegalia acentuada migra para a linha axilar anterior."
+:::
+
+::: resumo
+linhas:
+  - "Palpe auscultando: só as bulhas dizem se o movimento é hipercinético, sustentado (sempre anormal) ou retrátil."
+  - "O ictus é assunto do ventrículo esquerdo — a sobrecarga direita se procura na borda esternal (levantamento em massa) e no epigástrio, não na ponta."
+  - "Ictus difuso fala de dilatação, propulsivo fala de hipertrofia; antes de concluir cardiomegalia, exclua o tórax que mudou o coração de endereço."
 :::
 
 ::: secao

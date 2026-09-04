@@ -79,3 +79,21 @@ test('rejeita nivel inválido', () => {
     blocoSchema.parse({ tipo: 'conceito', texto: 'A pressão...', nivel: 'x' }),
   ).toThrow();
 });
+
+test('cena exige texto', () => {
+  expect(blocoSchema.parse({ tipo: 'cena', texto: 'Plantão, 3h...' })).toMatchObject({ tipo: 'cena' });
+  expect(() => blocoSchema.parse({ tipo: 'cena' })).toThrow();
+});
+
+test('pense exige pergunta e resposta', () => {
+  expect(
+    blocoSchema.parse({ tipo: 'pense', pergunta: 'Sistólico ou diastólico?', resposta: 'Sistólico.' }),
+  ).toMatchObject({ tipo: 'pense' });
+  expect(() => blocoSchema.parse({ tipo: 'pense', pergunta: 'Só a pergunta?' })).toThrow();
+});
+
+test('resumo exige exatamente três linhas', () => {
+  expect(blocoSchema.parse({ tipo: 'resumo', linhas: ['Um.', 'Dois.', 'Três.'] })).toMatchObject({ tipo: 'resumo' });
+  expect(() => blocoSchema.parse({ tipo: 'resumo', linhas: ['Um.', 'Dois.'] })).toThrow();
+  expect(() => blocoSchema.parse({ tipo: 'resumo', linhas: ['Um.', 'Dois.', 'Três.', 'Quatro.'] })).toThrow();
+});

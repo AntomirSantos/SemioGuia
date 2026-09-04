@@ -83,6 +83,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "Primeiro dia no ambulatório. Dona Marta, 62 anos, senta-se à sua frente segurando um envelope de exames, e você segura o roteiro de anamnese recém-decorado. A tentação é sair preenchendo a ficha item por item, como quem aplica um questionário. Antes disso, este tópico — porque o que acontece nessa sala nos primeiros segundos pode valer mais do que tudo o que há no envelope.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -248,6 +252,11 @@
          "texto": "Saber quanto tempo deixar o silêncio durar faz parte da técnica — e Porto diz, sem meias palavras, que faz parte da arte de entrevistar. É a única manobra da entrevista que se executa sem fazer nada."
         },
         {
+         "tipo": "pense",
+         "pergunta": "Um paciente se emociona e começa a chorar no meio do relato. Qual técnica da entrevista está indicada — e com que perfil de paciente essa mesma técnica vira má escolha?",
+         "resposta": "O silêncio — calar e esperar, mesmo parecendo ter perdido o controle da conversa. Com o paciente loquaz, porém, o silêncio é má técnica — ele aproveita a brecha para pular de assunto; ali o manejo é o oposto, com perguntas dirigidas e resumos parciais."
+        },
+        {
          "tipo": "secao",
          "titulo": "Fechar"
         },
@@ -310,6 +319,14 @@
         {
          "tipo": "perola",
          "texto": "\"Só se acha o que se procura e só se procura o que se conhece\" — a formulação, entre aspas, é de Porto, no capítulo de anamnese, e explica por que a entrevista melhora conforme o conhecimento clínico cresce: não é a técnica de perguntar que muda, é o repertório de perguntas possíveis."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "A anamnese responde pela maior parte dos diagnósticos — quem conduz mal a entrevista já perdeu o que o encontro clínico tinha de melhor a oferecer.",
+          "Perguntas abertas primeiro, dirigidas depois, indutoras nunca — e deixe o paciente falar além dos dezoito segundos médios que se costuma tolerar.",
+          "Feche devolvendo a história com o resumo de checagem: é aí que erros se corrigem e que a agenda oculta costuma aparecer."
+         ]
         },
         {
          "tipo": "secao",
@@ -452,6 +469,10 @@
        ],
        "revisao": "aprovada",
        "blocos": [
+        {
+         "tipo": "cena",
+         "texto": "O preceptor lê a sua evolução e devolve o prontuário com uma pergunta só: \"essa dor começou antes ou depois do vômito?\". Você não sabe. O paciente contou tudo — mas contou fora de ordem, e você anotou na ordem em que veio. Este tópico ensina o ofício de transformar um relato embaralhado numa história com começo, meio e fim.\n"
+        },
         {
          "tipo": "secao",
          "titulo": "O essencial"
@@ -626,6 +647,11 @@
          "texto": "Porto (cap. 9) classifica a dor pela duração e registra, com honestidade, que a fronteira não é consensual: **aguda** é a que se resolve em menos de 1 mês, embora haja autores que estendam esse limite a 3 meses; ela cessa poucos dias ou poucas semanas depois que a lesão melhora. **Crônica** é a dor que sobrevive ao prazo em que a doença ou a lesão deveria ter cicatrizado — na prática, mais de 3 meses.\n\nVale mais do que uma classificação: a dor crônica, escreve a mesma obra, já não é sintoma de coisa alguma: ela própria virou a doença daquela pessoa, associando-se em geral a fatores sociais e emocionais. Isso muda o que se pergunta e o que se registra.\n\nDois padrões temporais completam o vocabulário, ambos ancorados no mesmo capítulo.\n\n- **Ritmicidade** — variação de intensidade dentro de um mesmo dia. O exemplo clássico é a úlcera duodenal, cuja dor segue o ciclo dói–come–passa, porque o alimento tampona o efeito do ácido clorídrico.\n- **Periodicidade** — surtos ao longo de meses ou anos, com remissões entre eles.\n"
         },
         {
+         "tipo": "pense",
+         "pergunta": "O paciente diz que a dor no epigástrio passa quando ele come. Esse dado confirma ou contraria a regra geral da relação entre dor e função do órgão?",
+         "resposta": "Contraria — e por isso vale ouro. Em geral a dor piora quando o órgão de origem entra em funcionamento; a exceção clássica é a úlcera duodenal, cuja dor cede com o alimento porque decorre da hipercloridria, não da atividade do duodeno. É o ritmo dói–come–passa."
+        },
+        {
          "tipo": "secao",
          "titulo": "Histórias que não cabem em uma linha"
         },
@@ -659,6 +685,14 @@
         {
          "tipo": "perola",
          "texto": "Antes de fechar a HDA, faça a pergunta de Semiologia Clínica: o que o senhor deixou de fazer por causa disso? A resposta mede gravidade em unidade de vida real, e frequentemente corrige a intensidade que o paciente havia declarado."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Queixa principal é o título do capítulo: nas palavras do paciente, com a duração junto e sem rótulo diagnóstico.",
+          "A HDA se organiza em torno de um sintoma-guia, caracterizado inteiro pelo esquema — e com a cronologia como eixo, ancorada em eventos memoráveis.",
+          "No paciente crônico agudizado, escreva duas cronologias: a linha de base e a data exata do que mudou — mudança de padrão é evento, não ruído."
+         ]
         },
         {
          "tipo": "secao",
@@ -793,6 +827,10 @@
        ],
        "revisao": "aprovada",
        "blocos": [
+        {
+         "tipo": "cena",
+         "texto": "O paciente veio por impotência sexual, e a consulta já ia se encerrando. Na varredura de rotina, quase por obrigação, você pergunta pela sede, pela urina, pelo peso — e vêm a polidipsia, a poliúria e o emagrecimento a que ele não dava importância. O caso é de Porto, e é o argumento inteiro deste tópico: a doença principal às vezes mora num sistema que ninguém tinha motivo para investigar.\n"
+        },
         {
          "tipo": "secao",
          "titulo": "O essencial"
@@ -930,6 +968,11 @@
          "texto": "Porto insere, ao final de vários sistemas, um item de **promoção da saúde** — perguntas que não buscam sintoma, e sim risco e prevenção. Aproveitar essa carona é o que transforma o interrogatório de exercício de coleta em ato clínico útil ao paciente que não tem nada.\n\nExemplos ancorados na obra, por sistema:\n\n- **pele** — exposição solar (hora do dia, uso de protetor), cuidados com pele e cabelos, bronzeamento artificial;\n- **olhos** — uso de óculos ou lentes, data do último exame oftálmico;\n- **orelhas** — exposição a ruído ambiental, uso de equipamento de proteção individual, hábitos de limpeza do conduto;\n- **boca** — escovação de dentes e língua, data do último exame odontológico;\n- **mamas** — autoexame e data da última mamografia ou ultrassonografia;\n- **respiratório** — exposição a alergênios, e quais;\n- **geniturinário** — autoexame testicular, último exame prostático, último exame ginecológico e Papanicolaou, uso de preservativos;\n- **locomotor** — movimentos repetitivos, hábito de levantar peso, cuidados com a postura.\n\n*Semiologia Clínica* reforça a mesma ideia por outro caminho: além de identificar e tratar as queixas apresentadas, cabe ao médico identificar precocemente doenças passíveis de intervenção, reconhecer fatores de risco e propor intervenções para hábitos potencialmente nocivos.\n"
         },
         {
+         "tipo": "pense",
+         "pergunta": "No interrogatório, o paciente responde \"não\" para todo o aparelho respiratório. Vale a pena registrar essa negativa — ou basta anotar os sistemas com achado?",
+         "resposta": "Vale — e Porto manda registrar os presentes e os negados. A negativa de hoje é o parâmetro de amanhã; se o paciente voltar em dois meses com tosse produtiva e dispneia, é o registro negativo que prova que o quadro é novo."
+        },
+        {
          "tipo": "secao",
          "titulo": "Interrogatório dirigido"
         },
@@ -963,6 +1006,14 @@
         {
          "tipo": "perola",
          "texto": "Se o interrogatório sintomatológico está rendendo muito, desconfie da HDA. Um interrogatório cheio de achados novos costuma ser o sintoma de uma história da doença atual que não foi até o fim."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "O interrogatório varre o que ficou fora do fio da HDA: anuncie a revisão, siga sempre a mesma ordem e abra cada sistema com uma pergunta geral.",
+          "Todo positivo se caracteriza pelo esquema da HDA; toda negativa também se registra — ela é o parâmetro contra o qual as queixas futuras serão comparadas.",
+          "Com a experiência, a profundidade passa a seguir as hipóteses; a cobertura de triagem, essa, é inegociável."
+         ]
         },
         {
          "tipo": "secao",
@@ -1116,6 +1167,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "\"Fuma?\" — \"Não.\" A caneta já ia riscar o item quando você troca a pergunta: \"e antes, já fumou?\". Trinta anos de um maço por dia, parados há seis meses por causa da falta de ar que o trouxe aqui. O dado que muda o caso inteiro estava a uma pergunta de distância — e este tópico é sobre fazer essas perguntas.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -1243,6 +1298,11 @@
          ]
         },
         {
+         "tipo": "pense",
+         "pergunta": "Um paciente fuma um maço por dia há 20 anos. Qual é a carga tabágica dele — e por que esse número específico importa?",
+         "resposta": "20 anos-maço (maços por dia × anos de uso). É justamente o limiar que Porto registra — a grande maioria dos pacientes com DPOC é ou foi tabagista com pelo menos 20 anos/maço; consumo bem menor não sugere DPOC como causa, salvo anormalidade genética."
+        },
+        {
          "tipo": "secao",
          "titulo": "Quantificar o que se pergunta"
         },
@@ -1291,6 +1351,14 @@
         {
          "tipo": "perola",
          "texto": "Todo médico precisa conhecer as possibilidades econômicas do seu paciente — Porto trata isso como parte da anamnese, e não como delicadeza. Um plano de cuidado que a pessoa não pode cumprir não é um plano; é uma anotação."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Antecedentes e hábitos contam com quem a doença está acontecendo — e é isso que transforma sintomas em probabilidades.",
+          "Hábito sem número não é dado: anos-maço para o tabaco, tipo-quantidade-frequência para o álcool (CAGE quando indicado), ambiente e substâncias para a ocupação.",
+          "Uma negativa sem explicações não é necessariamente a verdade: registre como veio, sem julgar, e reabra no seguimento."
+         ]
         },
         {
          "tipo": "secao",
@@ -1430,6 +1498,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "O paciente subiu correndo a escada do posto, chegou atrasado, entrou direto — e a técnica anota 152 × 94 por cima da manga da camisa. \"Doutor, minha pressão está alta?\" Antes de responder, vale lembrar quantas regras de aferição acabaram de ser quebradas nessa única medida. Boa parte da \"hipertensão\" que se diagnostica por aí nasce assim.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -1490,6 +1562,11 @@
          "titulo": "O que a intensidade dos sons revela",
          "texto": "Durante a fase I, atente também à intensidade dos batimentos.\n\n- Alternância de um som forte e um fraco: sugere pulso alternante, de disfunção ventricular esquerda.\n- Desaparecimento dos sons na inspiração: sugere pulso paradoxal.\n",
          "nivel": "avancado"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Por que a aferição começa estimando a sistólica pela palpação do pulso radial, antes de encostar o estetoscópio?",
+         "resposta": "Por causa do hiato auscultatório — em até 20% dos idosos hipertensos os sons somem no fim da fase I e reaparecem depois, num intervalo de até 30 a 40 mmHg. O pulso distal persiste durante o hiato; palpar primeiro e insuflar 20 a 30 mmHg acima da estimativa evita registrar uma sistólica falsamente baixa."
         },
         {
          "tipo": "secao",
@@ -1615,6 +1692,14 @@
          "nivel": "avancado"
         },
         {
+         "tipo": "resumo",
+         "linhas": [
+          "A PA é uma variável contínua, não um número fixo: técnica correta (repouso, braço na altura do coração, manguito do tamanho certo) e medidas repetidas.",
+          "Palpe antes de auscultar — o hiato auscultatório engana; PAS na fase I, PAD na fase V, e sempre a categoria mais alta quando as faixas divergem.",
+          "Pela DBHA 2025: normal < 120/80, pré-hipertensão até 139/89, hipertensão a partir de 140/90 no consultório — e uma medida alta ainda não é diagnóstico."
+         ]
+        },
+        {
          "tipo": "secao",
          "titulo": "Teste rápido"
         },
@@ -1726,6 +1811,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "A técnica anotou \"FC 78\" e seguiu para o próximo leito. Você palpa a mesma radial e algo incomoda: as ondas vêm sem cadência nenhuma, umas cheias, outras que quase somem. No precórdio, o estetoscópio conta 96. Entre o número da prancheta e o que os seus dedos acabaram de sentir existe um diagnóstico — e é ele que este tópico ensina a não deixar passar.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -1781,6 +1870,11 @@
          "titulo": "Ondas que escapam aos dedos",
          "texto": "Para perceber melhor o pulso célere, eleve o braço do paciente acima da cabeça. Receba a face anterior do punho na palma da mão e use a superfície ventral de todos os dedos, não só as polpas digitais.\n\nDuas ondas anormais aparecem melhor com o manguito. Ao desinsuflar devagar, mantenha a atenção na intensidade dos primeiros batimentos, os da fase I de Korotkoff.\n\n- Alternância regular de um som forte e um fraco: pulso alternante.\n- Sumiço dos sons a cada inspiração: pulso paradoxal.\n\nParando a deflação nesse nível, o mesmo padrão passa a ser sentido na radial.\n",
          "nivel": "avancado"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "O pulso alterna uma onda forte e uma fraca. O que decide se é pulso alternante ou bigeminado — e por que a diferença importa?",
+         "resposta": "O intervalo. No alternante os intervalos são regulares — sinal de insuficiência ventricular esquerda. No bigeminado a onda fraca é uma extrassístole que chega cedo e deixa o intervalo irregular. Mesma sensação nos dedos, dois diagnósticos diferentes."
         },
         {
          "tipo": "secao",
@@ -1844,6 +1938,14 @@
           "Comparação simultânea das duas radiais.",
           "Comparação com a ausculta cardíaca para pesquisar déficit de pulso.",
           "Registro do valor e do contexto (repouso, febre, dor, medicação em uso)."
+         ]
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "O pulso radial entrega sete informações — parede, frequência, ritmo, amplitude, tensão, tipo de onda e comparação entre os lados — em 60 segundos completos de contagem.",
+          "Frequência cardíaca não é frequência de pulso: conte no precórdio e na radial no mesmo minuto; déficit de pulso com ritmo totalmente irregular é fibrilação atrial até prova em contrário.",
+          "Pulso paradoxal se mede com o manguito (queda inspiratória > 10 mmHg) e pesa muito no tamponamento; não confunda os três Kussmaul — pulso, sinal e respiração."
          ]
         },
         {
@@ -1960,6 +2062,10 @@
        ],
        "revisao": "aprovada",
        "blocos": [
+        {
+         "tipo": "cena",
+         "texto": "Plantão noturno. O idoso diabético do leito 7 está \"afebril, 36,8\" — mas hipotenso, confuso, taquipneico. A enfermagem estranha que você peça culturas: \"sem febre, doutor?\". É exatamente esse o ponto: quem não consegue fazer febre diante de uma infecção grave está pior, não melhor. Termômetro é instrumento; interpretar é outra coisa.\n"
+        },
         {
          "tipo": "secao",
          "titulo": "Temperatura — o essencial"
@@ -2182,6 +2288,11 @@
          ]
         },
         {
+         "tipo": "pense",
+         "pergunta": "Uma criança está com 37,6 °C na axila. Pelo corte da SBP 2025, isso é febre? E no adulto?",
+         "resposta": "Na criança, sim — o documento de 2025 baixou o limiar para ≥ 37,5 °C axilar (37,3 a 37,5 °C é estado febril, limítrofe). No adulto, ainda não: o corte que o guia adota é acima de 37,8 °C, e 37,3 a 37,7 °C é estado subfebril.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Frequência respiratória"
         },
@@ -2259,6 +2370,14 @@
         {
          "tipo": "perola",
          "texto": "A frequência respiratória é o sinal vital mais anotado e menos aferido. Comparando o prontuário com a contagem real, os valores anotados se concentram entre 16 e 22 irpm na grande maioria das vezes — mesmo em pacientes cuja frequência verdadeira variava de 10 a mais de 30.\n\nA causa é quase sempre a mesma: contar 15 segundos e multiplicar por quatro. Nessa forma abreviada, apenas cerca de 23% dos pacientes taquipneicos são identificados; com 60 segundos de observação, praticamente todos são. O minuto inteiro ainda revela padrões que a contagem curta jamais mostraria, como a respiração de Cheyne-Stokes.\n"
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Febre é termostato deslocado (adulto: axilar > 37,8 °C; criança, SBP 2025: ≥ 37,5 °C); hipertermia é sobrecarga externa — e a curva térmica vale mais que o valor isolado.",
+          "Idoso, diabético e paciente grave podem não fazer febre diante de infecção séria — a ausência é sinal de mau prognóstico, não de tranquilidade.",
+          "A FR se conta por 60 segundos, sem avisar — é o único sinal vital sob controle voluntário, e a contagem de 15 segundos perde três em cada quatro taquipneicos."
+         ]
         },
         {
          "tipo": "secao",
@@ -2450,6 +2569,10 @@
        ],
        "revisao": "aprovada",
        "blocos": [
+        {
+         "tipo": "cena",
+         "texto": "O preceptor para na porta da enfermaria, olha o paciente do leito ao fundo por dez segundos e diz baixinho: \"esse piorou desde ontem\". Nenhum aparelho foi encostado. O que ele viu — postura, respiração, cor, expressão, o modo como o corpo ocupa o leito — é o que este tópico ensina a ver de propósito, em vez de por acaso.\n"
+        },
         {
          "tipo": "secao",
          "titulo": "O essencial"
@@ -2671,6 +2794,11 @@
          "nivel": "avancado"
         },
         {
+         "tipo": "pense",
+         "pergunta": "O paciente só desperta com estímulos fortes, mas ainda tem movimentos espontâneos. Em que degrau da escada da consciência ele está — e o que o separa do degrau de baixo?",
+         "resposta": "Torpor (ou estupor). O que o separa do coma são justamente os movimentos espontâneos: no coma o paciente não desperta nem com estímulos fortes e não se move espontaneamente. Registre sempre o menor estímulo que ainda obteve resposta.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Atitude, decúbito e postura"
         },
@@ -2871,6 +2999,14 @@
          "texto": "Boa parte da ectoscopia acontece enquanto você ainda está fazendo a anamnese — e é justamente por isso que ela se perde. Reserve dez segundos de silêncio, antes da primeira pergunta, só para olhar: postura, respiração, cor, expressão, o que o paciente faz com as mãos. Nenhum outro momento do encontro devolve tanto por tão pouco."
         },
         {
+         "tipo": "resumo",
+         "linhas": [
+          "A ectoscopia responde \"como está esta pessoa, vista inteira?\" — e começa no instante em que o paciente entra, antes de qualquer manobra.",
+          "Impressões globais — estado geral, fácies, marcha — têm concordância apenas moderada entre examinadores: escreva o adjetivo e, ao lado, os achados que o sustentam.",
+          "Só têm valor diagnóstico as atitudes involuntárias e as que aliviam sintoma; fácies sem padrão é atípica, e marcha senil é diagnóstico de exclusão."
+         ]
+        },
+        {
          "tipo": "secao",
          "titulo": "Teste rápido"
         },
@@ -3032,6 +3168,10 @@
        ],
        "revisao": "aprovada",
        "blocos": [
+        {
+         "tipo": "cena",
+         "texto": "A senhora de 78 anos chega trazida pela filha: vômitos há dois dias, \"muito caidinha\". Você pinça a pele do antebraço — demora a voltar — e quase escreve \"desidratada\". Mas a pele dela demoraria a voltar de qualquer jeito, aos 78 anos. O que decide não é a prega: é quanto ela pesava na última consulta e quantas vezes urinou desde ontem.\n"
+        },
         {
          "tipo": "secao",
          "titulo": "O essencial"
@@ -3202,6 +3342,11 @@
          "nivel": "avancado"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Na avaliação de sarcopenia do idoso, por onde o fluxograma manda começar — pela massa, pela força ou pela função?",
+         "resposta": "Pela função — a velocidade habitual da marcha (4 metros cronometrados; normal até 5 segundos, ≈0,8 m/s). Só depois vêm a força de preensão palmar e, por último, a massa muscular estimada pela circunferência da panturrilha."
+        },
+        {
          "tipo": "secao",
          "titulo": "Estado de hidratação"
         },
@@ -3294,6 +3439,14 @@
         {
          "tipo": "perola",
          "texto": "Diante de um paciente com sinais duvidosos de desidratação, a pergunta mais produtiva raramente é sobre a pele. É: quanto o senhor pesava na última consulta, e quantas vezes urinou desde ontem? O peso gradua a perda; a diurese denuncia a resposta do rim."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Antropometria é comparação: o peso de hoje vale pelo que diz contra o peso de três meses atrás, e o IMC não decide nada sem musculatura, panículo e história.",
+          "Cintura tem reparo anatômico e ponto de corte; circunferência abdominal, não — e no idoso a régua do IMC é outra (Lipschitz), o que precisa ser declarado.",
+          "Hidratação se julga pelo conjunto: peso e contexto de perdas mandam, o turgor se pesquisa fora do antebraço, e no idoso a pele seca engana."
+         ]
         },
         {
          "tipo": "secao",
@@ -3487,6 +3640,10 @@
        ],
        "revisao": "aprovada",
        "blocos": [
+        {
+         "tipo": "cena",
+         "texto": "Pronto-socorro, criança febril no colo da mãe. Alguém já anotou \"exantema\" e seguiu adiante. Você pega uma lâmina de vidro, comprime uma das manchas vermelhas e prende a respiração: se a cor sumir, é um grupo de doenças; se não sumir, é outro — e a noite muda de rumo. O exame da pele é feito de gestos assim, baratos e decisivos.\n"
+        },
         {
          "tipo": "secao",
          "titulo": "O essencial"
@@ -3686,6 +3843,11 @@
          "legenda": "Os mesmos três sítios servem a duas perguntas diferentes, mas por estruturas distintas. No olho, a icterícia se procura na superfície do globo (1) e a palidez, na rima da pálpebra evertida (2), comparada com a face interna mais profunda (3)."
         },
         {
+         "tipo": "pense",
+         "pergunta": "Você suspeita de anemia. Qual é o sítio de maior rendimento para procurar palidez — e qual é o que não vale o seu tempo?",
+         "resposta": "A rima conjuntival — puxando a pálpebra inferior, o contraste entre a rima avermelhada e a porção mais pálida desaparece na anemia (RV 16,7, o maior de todos os sítios). O leito ungueal é o que não vale o tempo — sem valor diagnóstico e com a pior concordância entre examinadores."
+        },
+        {
          "tipo": "secao",
          "titulo": "Icterícia"
         },
@@ -3830,6 +3992,14 @@
          "tipo": "conceito",
          "titulo": "Seis erros que custam achados",
          "texto": "1. **Examinar só a lesão de que o paciente se queixa.** O exame dermatológico envolve toda a pele, os anexos e as mucosas — e é fora da área da queixa que costumam estar as lesões que mudam o diagnóstico.\n2. **Não comprimir.** Sem digitopressão ou vitropressão, eritema e púrpura são a mesma mancha vermelha.\n3. **Procurar palidez no leito ungueal.** É o sítio de menor rendimento e o de pior concordância entre examinadores; a rima conjuntival e as pregas palmares informam muito mais.\n4. **Excluir anemia porque as mucosas estão coradas.** Nenhum sinal físico afasta anemia de forma convincente.\n5. **Chamar de icterícia toda pele amarela.** Carotenodermia e impregnação medicamentosa poupam conjuntiva e mucosa oral; a gordura subconjuntival poupa a vizinhança da córnea.\n6. **Confiar na graduação em cruzes da icterícia.** A correlação com a bilirrubina sérica e a concordância entre observadores são baixas; o que muda a conduta inicial é o sinal estar presente ou ausente.\n"
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "O exame da pele se organiza em três perguntas — que cor, que lesões, o que dizem os anexos — e cobre o corpo todo, não só a área da queixa.",
+          "Diante de mancha avermelhada, comprima: se some, é vaso dilatado; se não some, é sangue extravasado — petéquia, víbice ou equimose.",
+          "Palidez se procura na rima conjuntival e nas pregas palmares; icterícia, na esclera e no freio da língua — e pele amarela com olho e boca poupados não é icterícia."
+         ]
         },
         {
          "tipo": "secao",
@@ -3987,6 +4157,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "\"Doutor, apareceu uma íngua.\" O paciente aponta o pescoço; a mãe, ao lado, já pesquisou linfoma na internet. Entre a íngua banal de uma faringite e o linfonodo que muda uma vida existem três perguntas — há quanto tempo, o que ele drena, como ele é ao toque — e uma palpação que precisa ser feita do jeito certo para responder à terceira.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -4132,6 +4306,11 @@
         {
          "tipo": "perola",
          "texto": "Linfonodos palpáveis não são, por si, anormais. O tecido linfoide é hipertrófico na infância, e em crianças costuma ser normal palpar pequenos linfonodos nas cadeias cervical e submandibular. No adulto, é frequente palpar algum linfonodo inguinal, axilar, cervical ou submandibular de pequeno tamanho, secundário a processos inflamatórios ou infecções pregressas, sem significado patológico — os inguinais, sobretudo, drenam regiões sujeitas a traumas e infecções de repetição e podem permanecer aumentados a vida inteira."
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Um linfonodo cervical dói à palpação. Isso permite tranquilizar o paciente quanto a malignidade?",
+         "resposta": "Só um pouco — a dor reduz a probabilidade de doença grave de forma modesta (RV 0,4), menos do que o ensino tradicional sugere, porque hemorragia ou necrose dentro de um linfonodo neoplásico também dói. O que realmente alarma é o linfonodo fixo, aderido (RV 10,9) e o tamanho ≥ 9 cm²."
         },
         {
          "tipo": "secao",
@@ -4288,6 +4467,14 @@
         {
          "tipo": "perola",
          "texto": "Diante de uma adenomegalia, três perguntas resolvem a maior parte do caminho antes de qualquer exame: há quanto tempo está aí, o que ela drena, e como ela é ao toque. Tempo separa infeccioso de neoplásico; território indica onde procurar a causa; consistência, mobilidade e coalescência carregam quase todo o poder discriminante que o exame físico tem a oferecer."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Cada cadeia drena um território conhecido: localizar o linfonodo é deduzir de onde vem o problema — lembrando que a doença nem sempre respeita o mapa.",
+          "Palpe deslizando os tecidos contra uma estrutura rígida, meça em centímetros nas duas dimensões e registre também as cadeias sem achados.",
+          "O alarme está no linfonodo fixo, grande, endurecido e supraclavicular; a dor tranquiliza pouco, e o contexto (atenção primária × referenciado) muda tudo."
+         ]
         },
         {
          "tipo": "secao",
@@ -5924,6 +6111,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "Você encosta o estetoscópio direto no \"foco mitral\" decorado — 5º espaço, linha hemiclavicular — e não ouve o sopro que o preceptor descreveu. Ele sorri, palpa por dez segundos, e desliza o seu estetoscópio dois dedos para fora: o coração daquele paciente cresceu, e a ponta mudou de endereço. Quem palpa antes de auscultar, ausculta no lugar certo.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -6016,6 +6207,11 @@
          "nivel": "avancado"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Você não encontrou o ictus cordis em decúbito dorsal. Isso é sinal de doença?\n",
+         "resposta": "Não, por si só. Em decúbito dorsal o choque da ponta é palpável em apenas 25 a 40% dos adultos; o decúbito lateral esquerdo em apneia expiratória eleva isso a 50 a 73%. Registre \"ictus não palpável\" e siga o exame — o achado pode ser só anatômico (obesidade, enfisema, mamas volumosas), mas não escreva \"precórdio normal\".\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Além do ictus"
         },
@@ -6081,6 +6277,14 @@
         {
          "tipo": "perola",
          "texto": "Antes de auscultar, localize o ictus. Ele não é apenas um sinal de tamanho ventricular — é o endereço da área mitral naquele paciente, que na cardiomegalia acentuada migra para a linha axilar anterior."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Palpe auscultando: só as bulhas dizem se o movimento é hipercinético, sustentado (sempre anormal) ou retrátil.",
+          "O ictus é assunto do ventrículo esquerdo — a sobrecarga direita se procura na borda esternal (levantamento em massa) e no epigástrio, não na ponta.",
+          "Ictus difuso fala de dilatação, propulsivo fala de hipertrofia; antes de concluir cardiomegalia, exclua o tórax que mudou o coração de endereço."
+         ]
         },
         {
          "tipo": "secao",
@@ -6225,6 +6429,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "O paciente está a 130 por minuto e, no estetoscópio, tudo virou uma metralhadora de sons iguais. Qual é B1? Qual é B2? Onde cai o sopro? A saída não é ouvir mais forte — é ancorar: dois dedos na carótida, e a bulha que bate junto com a onda é a primeira. Toda a ausculta cardíaca se constrói sobre esse gesto simples.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -6296,6 +6504,11 @@
          "tipo": "conceito",
          "titulo": "Diafragma ou campânula",
          "texto": "O **diafragma** capta melhor os ruídos de alta frequência — B1, B2, cliques, estalidos e a maioria dos sopros. É com ele que se faz a maior parte da ausculta.\n\nA **campânula** é a peça dos graves — B3, B4 e o ruflar da estenose mitral só aparecem por ela. Apoie-a com a força mínima necessária para vedar o ar, e nada além disso.\n\nEsse detalhe de pressão é uma ferramenta diagnóstica, não um capricho. Comprimir a campânula estica a pele, que passa a funcionar como membrana e a transforma em diafragma. Daí uma manobra útil: se um som some quando você aumenta a pressão da campânula, ele é de baixa frequência. É assim que se confirma uma B3 e que se separa a dupla B4-B1 de um desdobramento de B1 — a pressão firme funde a primeira e não altera a segunda.\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Um ruído grave na ponta some quando você comprime a campânula com força. O que isso diz sobre ele?\n",
+         "resposta": "Que é um som de baixa frequência — a pele esticada pela compressão vira membrana e a campânula vira diafragma, apagando os graves. É a manobra que confirma uma B3 e que separa a dupla B4-B1 de um desdobramento de B1: a pressão firme funde a primeira e não altera o segundo.\n"
         },
         {
          "tipo": "secao",
@@ -6448,6 +6661,14 @@
          "texto": "Diante de um sopro, silencie-o na sua cabeça e vá atrás das bulhas. O ouvido corre para o som mais alto, e é assim que se perdem a bulha fraca, o desdobramento discreto e o estalido — achados que muitas vezes decidem mais que o próprio sopro."
         },
         {
+         "tipo": "resumo",
+         "linhas": [
+          "Tudo começa em separar B1 de B2 — carótida sob os dedos, TUM-TA no ouvido; cada bulha se julga no seu foco, e desdobramento de B2 só se estuda na área pulmonar.",
+          "Diafragma para os agudos, campânula mal apoiada para os graves — e pelo menos três posições: dorsal, lateral esquerdo e sentado inclinado.",
+          "Desdobramento que aparece na inspiração é fisiológico; fixo lembra comunicação interatrial, paradoxal lembra bloqueio de ramo esquerdo; B3 fala de ventrículo dilatado, B4 de ventrículo rígido."
+         ]
+        },
+        {
          "tipo": "secao",
          "titulo": "Teste rápido"
         },
@@ -6586,6 +6807,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "\"Apareceu um sopro no leito 12\" — e o residente já quer o ecocardiograma. Mas o sopro estava lá ontem? É sistólico ou diastólico? Recobre B1 ou nasce depois dela? Muda quando o paciente inspira? Cada uma dessas perguntas se responde com as mãos e o estetoscópio em dois minutos, e juntas elas costumam dizer mais do que o laudo que ainda vai demorar seis horas.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -6704,6 +6929,11 @@
          "tipo": "conceito",
          "titulo": "Irradiação — a direção da corrente",
          "texto": "Dois fatores determinam para onde um sopro se propaga. O primeiro é a intensidade — quanto mais forte, maior a área audível. O segundo, mais interessante, é a direção do fluxo sanguíneo.\n\n- O sopro da **estenose aórtica** segue o sangue ejetado e alcança os vasos do pescoço.\n- O sopro da **insuficiência mitral** vai para a axila, porque o átrio esquerdo fica acima e atrás do ventrículo esquerdo.\n- O sopro da **persistência do canal arterial** é mais bem ouvido na região interescapulovertebral esquerda.\n\nPor isso a localização isolada não basta: um sopro mais audível na área mitral não nasceu necessariamente na valva mitral. É a irradiação que aponta a origem.\n"
+        },
+        {
+         "tipo": "pense",
+         "pergunta": "Um sopro sistólico intenso (4/6) é necessariamente mais grave do que um sopro discreto (2/6)?\n",
+         "resposta": "Não — intensidade não é gravidade. Comunicações interventriculares pequenas produzem fluxo veloz e sopro intenso; as amplas, fluxo lento e sopro discreto. O que a intensidade traz de objetivo é a fronteira 3/4: a partir do grau 4 existe frêmito palpável.\n"
         },
         {
          "tipo": "secao",
@@ -6866,6 +7096,14 @@
          "texto": "1. **Deduzir gravidade da intensidade.** Sopros intensos podem vir de defeitos pequenos e sopros discretos de lesões graves. A intensidade orienta, não decide.\n2. **Batizar o sopro pelo foco em que ele é mais alto.** O foco é referência, não origem. Muitos pacientes com estenose aórtica têm o sopro mais intenso na ponta. Quem define a origem é a irradiação e o comportamento nas manobras.\n3. **Interpretar manobra respiratória com paciente respirando mal.** Sem respiração regular, Rivero-Carvallo não significa nada.\n4. **Chamar de contínuo um sopro sistólico somado a um diastólico.** No sopro verdadeiramente contínuo a cadência não é interrompida pelas bulhas; nos sopros \"de vai e vem\" ouvem-se dois sopros distintos.\n5. **Rotular como inocente antes de completar a investigação.** \"Inocente\" é uma conclusão que vem depois do exame completo e dos complementares indicados — nunca uma primeira impressão acústica.\n"
         },
         {
+         "tipo": "resumo",
+         "linhas": [
+          "Um sopro só está descrito com as sete características — e a mais importante é o lugar no ciclo, decidido com o pulso carotídeo sob os dedos.",
+          "Ejeção nasce depois de B1 e morre antes de B2 (diamante); regurgitação recobre B1 em platô; ruflar guarda distância de B2, aspirativo cola nela; contínuo atravessa tudo.",
+          "Intensidade não é gravidade — e as manobras (Rivero-Carvallo, Valsalva, cócoras, handgrip) respondem perguntas específicas que o repouso não responde."
+         ]
+        },
+        {
          "tipo": "secao",
          "titulo": "Teste rápido"
         },
@@ -7005,6 +7243,10 @@
        ],
        "revisao": "aprovada",
        "blocos": [
+        {
+         "tipo": "cena",
+         "texto": "Pernas inchadas: \"é o coração, doutor?\". A resposta pode não estar nas pernas — está no pescoço. Cabeceira a 45 graus, luz rasante, e a pergunta certa: até que altura sobe a coluna nas jugulares? O pescoço é o manômetro de pressão venosa que todo paciente traz de fábrica, e quem aprende a lê-lo separa em minutos o edema cardíaco dos outros.\n"
+        },
         {
          "tipo": "secao",
          "titulo": "O essencial"
@@ -7198,6 +7440,11 @@
          "texto": "Turgência jugular elevada está presente em praticamente todos os casos de tamponamento cardíaco e na quase totalidade das pericardites constritivas. Jugulares normais são, portanto, um argumento forte contra esses dois diagnósticos — e quando elas estão cheias, o passo seguinte é procurar pulso paradoxal e olhar o formato dos descensos."
         },
         {
+         "tipo": "pense",
+         "pergunta": "A pulsação no pescoço é venosa ou carotídea? Cite duas manobras que resolvem a dúvida na hora.\n",
+         "resposta": "Comprimir levemente a base do pescoço, logo acima da clavícula — o pulso venoso se apaga, o carotídeo não. E mudar a posição: o venoso fica mais evidente na horizontal e desce quando o paciente se senta; o carotídeo não muda. Além disso, o venoso é mais visível que palpável e seu movimento marcante é para dentro.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Edema"
         },
@@ -7276,6 +7523,14 @@
          "tipo": "conceito",
          "titulo": "Seis erros que falseiam o pescoço",
          "texto": "1. **Examinar o lado esquerdo.** A jugular esquerda cruza o mediastino e pode ser comprimida por uma aorta tortuosa; a distensão isolada à esquerda muitas vezes desaparece após uma inspiração profunda. O exame é do lado direito.\n2. **Fixar o ângulo em 45° e não procurar o topo da coluna.** Se o topo não é visível, o ângulo está errado, não o paciente.\n3. **Ler na inspiração.** A coluna desce no pescoço durante a inspiração e a leitura sai subestimada. Prefira a expiração.\n4. **Confundir com a carótida.** Sem checar os cinco critérios que separam veia de artéria, a \"turgência\" pode ser apenas uma carótida saliente em pessoa magra.\n5. **Descartar tamponamento ou constrição com edema presente e pescoço não examinado.** Pressão venosa elevada é achado cardinal dessas duas doenças; deixar de olhar o pescoço é deixar de fazer a pergunta.\n6. **Transformar o enchimento capilar em veredito.** Sozinho e sem comparação, ele não sustenta conclusão sobre perfusão.\n"
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "A jugular interna direita é o manômetro do coração direito: turgência mede quanto (a altura da coluna), pulso venoso mostra como (o formato das ondas).",
+          "Antes de tudo, separe veia de carótida — compressão na base do pescoço e mudança de posição decidem; depois, teste abdominojugular e sinal de Kussmaul refinam.",
+          "Jugulares normais argumentam forte contra tamponamento e constrição; o edema se descreve pelos seis atributos, com o cacifo graduado em cruzes."
+         ]
         },
         {
          "tipo": "secao",
@@ -7459,6 +7714,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "Da porta do box, antes de qualquer aparelho: o homem sentado na maca respira com os lábios semicerrados, os escalenos saltados a cada inspiração, a fúrcula afundando. O tórax dele conta a história inteira antes da primeira pergunta — quanto está custando respirar é coisa que se vê, e é a única parte do exame respiratório em que você ainda não interferiu em nada.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -7634,6 +7893,11 @@
          "nivel": "avancado"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Um paciente anêmico grave pode estar profundamente hipoxêmico sem nenhuma cianose. Por quê?\n",
+         "resposta": "Porque a cor azul depende da quantidade absoluta de desoxi-hemoglobina (~2,38 g/dL), não da porcentagem. Com hemoglobina de 8 g/dL, só se acumula essa massa de pigmento com saturação lá embaixo, perto de 70%. Pele rosada não é sinônimo de oxigenação adequada.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Sinais de moldura"
         },
@@ -7679,6 +7943,14 @@
         {
          "tipo": "perola",
          "texto": "Antes de auscultar, decida de que lado está a doença. Um hemitórax que se move menos já entrega essa resposta — e transforma a ausculta de uma varredura em uma pergunta dirigida."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Quatro perguntas: que forma tem a caixa, como a pessoa respira, quanto custa respirar, e o que o corpo denuncia de doença crônica — e o dorso faz parte da inspeção.",
+          "Forma é moldura, esforço é gravidade: tiragem e musculatura acessória num tórax normal pesam mais que um tórax em tonel tranquilo (RV ~1,5, pouco discriminante).",
+          "Cianose mede massa de pigmento, não oxigenação — o anêmico hipoxêmico não azula; e o sinal de Schamroth é o teste de consultório do baqueteamento (RV 8)."
+         ]
         },
         {
          "tipo": "secao",
@@ -7814,6 +8086,10 @@
        ],
        "revisao": "aprovada",
        "blocos": [
+        {
+         "tipo": "cena",
+         "texto": "A radiografia vai demorar, e o paciente com dispneia está na sua frente. Você espalma as mãos no dorso dele, pede o \"trinta e três\" — e de um lado a vibração chega, do outro não. Ainda não é diagnóstico; mas já é lado, e é lateralização que transforma a ausculta seguinte de varredura em pergunta dirigida.\n"
+        },
         {
          "tipo": "secao",
          "titulo": "O essencial"
@@ -7995,6 +8271,11 @@
          "nivel": "avancado"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Consolidação aumenta o frêmito toracovocal; derrame pleural o apaga. Qual é o princípio acústico único por trás dos dois comportamentos?\n",
+         "resposta": "O pulmão normal é um filtro que transmite bem as frequências baixas. O parênquima consolidado com brônquio pérvio conduz melhor ainda — frêmito aumentado. Já o líquido (ou ar) pleural interposto afasta o pulmão da parede e atenua justamente as frequências baixas — frêmito reduzido ou abolido.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "A parede torácica"
         },
@@ -8032,6 +8313,14 @@
         {
          "tipo": "perola",
          "texto": "Frêmito e ressonância vocal medem a mesma coisa por sentidos diferentes: um pela mão, outro pela orelha. Por isso costumam andar juntos — e por isso a ausculta da voz acrescenta pouco onde o frêmito já respondeu. A exceção conhecida é o derrame pleural: sobre a área do líquido o frêmito cai e a voz também se apaga, mas na estreita faixa de transição, no limite superior do derrame, a voz pode reaparecer com timbre anasalado."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "A palpação do tórax vive de comparação: parede, expansibilidade e frêmito só significam algo contra o ponto homólogo do outro lado — sempre com a mesma mão.",
+          "Frêmito assimetricamente diminuído aponta derrame pleural (RV 5,7); aumentado acompanha consolidação com brônquio pérvio; o normal é ele ser mais nítido à direita.",
+          "Para pneumonia, o sinal forte é a expansão assimétrica — e a assimetria pertence sempre ao lado que se move ou vibra menos."
+         ]
         },
         {
          "tipo": "secao",
@@ -8172,6 +8461,10 @@
        "revisao": "aprovada",
        "blocos": [
         {
+         "tipo": "cena",
+         "texto": "Dispneia e murmúrio abolido na base direita. Antes de pedir a radiografia, você percute descendo o hemitórax: claro, claro, claro — e de repente o som morre e o dedo apoiado sente a parede endurecer, como se batesse em pedra. É o único cenário em que a percussão brilha de verdade, e vale conhecê-lo bem justamente por isso.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "O essencial"
         },
@@ -8276,6 +8569,11 @@
          "texto": "O resultado da percussão não depende só do que existe sob o dedo — depende de como você bate.\n\nGolpes leves produzem sons mais surdos que golpes fortes. Levantar minimamente o dedo plexímetro é suficiente para transformar uma nota sonora em maciça. Entre examinadores diferentes, a força e a velocidade do golpe variam em até três vezes, o que explica por que a concordância entre observadores na percussão topográfica é das piores de todo o exame físico (McGee).\n\nDaí as duas regras que fazem a percussão comparativa funcionar. Primeira: **mesma força dos dois lados** — a comparação só é válida se a única variável for o paciente. Segunda: **mesma orientação e mesma pressão do plexímetro** nos dois pontos.\n\nExiste uma variação de técnica que aproveita a física a favor do examinador, a **percussão de limiar**: bater tão levemente que as áreas maciças não produzam som nenhum. Movendo o golpe com força rigorosamente constante, a nota surge de repente ao encontrar a área sonora. É mais fácil distinguir \"algo de nada\" do que \"mais de menos\".\n"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Se você fosse percutir o tórax por um único motivo, qual seria — e por quê?\n",
+         "resposta": "Pelo derrame pleural. Confrontada com a radiografia, a percussão detectou 100% dos grandes derrames — mas só 0% a 15% das consolidações e nenhum nódulo intraparenquimatoso. A macicez \"pétrea\", com o dedo plexímetro sentindo mais resistência, é a assinatura do líquido.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Aprofundamento"
         },
@@ -8321,6 +8619,14 @@
         {
          "tipo": "perola",
          "texto": "Percussão nítida exige unhas curtas. É impossível golpear com a borda ungueal, em obliquidade, sem machucar o dedo plexímetro quando a unha é longa — e o estudante que descobre isso na frente do paciente já perdeu o achado."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Percutir é perguntar se um território tem mais ou menos ar que o simétrico — sempre comparativa, com golpes de mesma intensidade dos dois lados.",
+          "A mão também escuta: macicez oferece mais resistência ao dedo plexímetro — a macicez pétrea do derrame.",
+          "O rendimento é baixo com uma exceção brilhante: os grandes derrames pleurais. Consolidações e nódulos, ela quase nunca vê."
+         ]
         },
         {
          "tipo": "secao",
@@ -8469,6 +8775,10 @@
        ],
        "revisao": "aprovada",
        "blocos": [
+        {
+         "tipo": "cena",
+         "texto": "\"Tem uns crepitos na base\", diz o colega, entregando o plantão. Mas crepitos que somem quando o paciente tosse contam uma história; crepitos que persistem, outra; e o \"crepito\" que era só a camisa roçando no receptor não conta nenhuma. A ausculta pulmonar é menos sobre ouvir sons e mais sobre fazer a cada som as quatro perguntas certas.\n"
+        },
         {
          "tipo": "secao",
          "titulo": "O essencial"
@@ -8655,6 +8965,11 @@
          "nivel": "avancado"
         },
         {
+         "tipo": "pense",
+         "pergunta": "Você ouviu estertores na base. Qual manobra simples ajuda a separar os grossos dos finos — e o que cada resposta significa?\n",
+         "resposta": "Peça uma tosse e ausculte de novo o mesmo ponto: estertores grossos (de secreção nas vias aéreas) mudam ou desaparecem; estertores finos (de abertura alveolar, como na fibrose e no edema) não se alteram. Sem as quatro coordenadas — onde, quando, tosse, posição — o estertor é quase inútil.\n"
+        },
+        {
          "tipo": "secao",
          "titulo": "Ressonância vocal"
         },
@@ -8764,6 +9079,14 @@
         {
          "tipo": "perola",
          "texto": "Diante de qualquer achado, faça sempre as mesmas quatro perguntas: onde, em que fase do ciclo, muda com a tosse, muda com a posição. Elas transformam 'estertores em bases' — que não significa nada — em 'estertores finos teleinspiratórios, bilaterais, que se modificam com o decúbito', que já sugere congestão."
+        },
+        {
+         "tipo": "resumo",
+         "linhas": [
+          "Escutam-se três coisas, nesta ordem: os sons respiratórios (e sua simetria), os adventícios sobrepostos e — quando há suspeita — os sons vocais.",
+          "Todo achado ganha quatro coordenadas: onde, quando no ciclo, se muda com a tosse e se muda com a posição.",
+          "Receptor sempre na pele: a fricção da roupa fabrica estertores e atrito pleural que não existem."
+         ]
         },
         {
          "tipo": "secao",

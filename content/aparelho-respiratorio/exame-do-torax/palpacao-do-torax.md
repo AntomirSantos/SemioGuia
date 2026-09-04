@@ -45,6 +45,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  A radiografia vai demorar, e o paciente com dispneia está na sua frente. Você espalma as mãos no dorso dele, pede o "trinta e três" — e de um lado a vibração chega, do outro não. Ainda não é diagnóstico; mas já é lado, e é lateralização que transforma a ausculta seguinte de varredura em pergunta dirigida.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -299,6 +304,13 @@ texto: |
   O **frêmito pleural** é a sensação tátil do atrito entre dois folhetos pleurais rugosos. Pode preceder o derrame e desaparece quando o líquido se instala e separa os folhetos. É a assinatura palpável do atrito pleural — e a sua palpabilidade é, aliás, o que mais facilmente distingue o atrito dos estertores na ausculta.
 :::
 
+::: pense
+pergunta: |
+  Consolidação aumenta o frêmito toracovocal; derrame pleural o apaga. Qual é o princípio acústico único por trás dos dois comportamentos?
+resposta: |
+  O pulmão normal é um filtro que transmite bem as frequências baixas. O parênquima consolidado com brônquio pérvio conduz melhor ainda — frêmito aumentado. Já o líquido (ou ar) pleural interposto afasta o pulmão da parede e atenua justamente as frequências baixas — frêmito reduzido ou abolido.
+:::
+
 ::: secao
 titulo: A parede torácica
 :::
@@ -352,6 +364,13 @@ texto: |
 
 ::: perola
 texto: "Frêmito e ressonância vocal medem a mesma coisa por sentidos diferentes: um pela mão, outro pela orelha. Por isso costumam andar juntos — e por isso a ausculta da voz acrescenta pouco onde o frêmito já respondeu. A exceção conhecida é o derrame pleural: sobre a área do líquido o frêmito cai e a voz também se apaga, mas na estreita faixa de transição, no limite superior do derrame, a voz pode reaparecer com timbre anasalado."
+:::
+
+::: resumo
+linhas:
+  - "A palpação do tórax vive de comparação: parede, expansibilidade e frêmito só significam algo contra o ponto homólogo do outro lado — sempre com a mesma mão."
+  - "Frêmito assimetricamente diminuído aponta derrame pleural (RV 5,7); aumentado acompanha consolidação com brônquio pérvio; o normal é ele ser mais nítido à direita."
+  - "Para pneumonia, o sinal forte é a expansão assimétrica — e a assimetria pertence sempre ao lado que se move ou vibra menos."
 :::
 
 ::: secao

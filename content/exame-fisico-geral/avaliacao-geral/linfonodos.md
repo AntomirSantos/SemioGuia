@@ -66,6 +66,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  "Doutor, apareceu uma íngua." O paciente aponta o pescoço; a mãe, ao lado, já pesquisou linfoma na internet. Entre a íngua banal de uma faringite e o linfonodo que muda uma vida existem três perguntas — há quanto tempo, o que ele drena, como ele é ao toque — e uma palpação que precisa ser feita do jeito certo para responder à terceira.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -286,6 +291,11 @@ texto: |
 texto: "Linfonodos palpáveis não são, por si, anormais. O tecido linfoide é hipertrófico na infância, e em crianças costuma ser normal palpar pequenos linfonodos nas cadeias cervical e submandibular. No adulto, é frequente palpar algum linfonodo inguinal, axilar, cervical ou submandibular de pequeno tamanho, secundário a processos inflamatórios ou infecções pregressas, sem significado patológico — os inguinais, sobretudo, drenam regiões sujeitas a traumas e infecções de repetição e podem permanecer aumentados a vida inteira."
 :::
 
+::: pense
+pergunta: Um linfonodo cervical dói à palpação. Isso permite tranquilizar o paciente quanto a malignidade?
+resposta: Só um pouco — a dor reduz a probabilidade de doença grave de forma modesta (RV 0,4), menos do que o ensino tradicional sugere, porque hemorragia ou necrose dentro de um linfonodo neoplásico também dói. O que realmente alarma é o linfonodo fixo, aderido (RV 10,9) e o tamanho ≥ 9 cm².
+:::
+
 ::: secao
 titulo: Benignidade × alarme
 :::
@@ -488,6 +498,13 @@ texto: |
 
 ::: perola
 texto: "Diante de uma adenomegalia, três perguntas resolvem a maior parte do caminho antes de qualquer exame: há quanto tempo está aí, o que ela drena, e como ela é ao toque. Tempo separa infeccioso de neoplásico; território indica onde procurar a causa; consistência, mobilidade e coalescência carregam quase todo o poder discriminante que o exame físico tem a oferecer."
+:::
+
+::: resumo
+linhas:
+  - "Cada cadeia drena um território conhecido: localizar o linfonodo é deduzir de onde vem o problema — lembrando que a doença nem sempre respeita o mapa."
+  - "Palpe deslizando os tecidos contra uma estrutura rígida, meça em centímetros nas duas dimensões e registre também as cadeias sem achados."
+  - "O alarme está no linfonodo fixo, grande, endurecido e supraclavicular; a dor tranquiliza pouco, e o contexto (atenção primária × referenciado) muda tudo."
 :::
 
 ::: secao

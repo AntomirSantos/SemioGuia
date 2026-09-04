@@ -32,6 +32,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  O paciente subiu correndo a escada do posto, chegou atrasado, entrou direto — e a técnica anota 152 × 94 por cima da manga da camisa. "Doutor, minha pressão está alta?" Antes de responder, vale lembrar quantas regras de aferição acabaram de ser quebradas nessa única medida. Boa parte da "hipertensão" que se diagnostica por aí nasce assim.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -222,6 +227,11 @@ texto: |
   - Desaparecimento dos sons na inspiração: sugere pulso paradoxal.
 :::
 
+::: pense
+pergunta: Por que a aferição começa estimando a sistólica pela palpação do pulso radial, antes de encostar o estetoscópio?
+resposta: Por causa do hiato auscultatório — em até 20% dos idosos hipertensos os sons somem no fim da fase I e reaparecem depois, num intervalo de até 30 a 40 mmHg. O pulso distal persiste durante o hiato; palpar primeiro e insuflar 20 a 30 mmHg acima da estimativa evita registrar uma sistólica falsamente baixa.
+:::
+
 ::: secao
 titulo: Classificação
 :::
@@ -301,6 +311,13 @@ texto: |
   Insufle o manguito acima da sistólica e procure a radial. Se ela continuar palpável — sinal ou manobra de Osler —, considere pseudo-hipertensão.
 
   Lembre que a sensibilidade e a especificidade dessa manobra são baixas.
+:::
+
+::: resumo
+linhas:
+  - "A PA é uma variável contínua, não um número fixo: técnica correta (repouso, braço na altura do coração, manguito do tamanho certo) e medidas repetidas."
+  - "Palpe antes de auscultar — o hiato auscultatório engana; PAS na fase I, PAD na fase V, e sempre a categoria mais alta quando as faixas divergem."
+  - "Pela DBHA 2025: normal < 120/80, pré-hipertensão até 139/89, hipertensão a partir de 140/90 no consultório — e uma medida alta ainda não é diagnóstico."
 :::
 
 ::: secao

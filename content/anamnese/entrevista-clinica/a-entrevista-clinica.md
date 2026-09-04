@@ -63,6 +63,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  Primeiro dia no ambulatório. Dona Marta, 62 anos, senta-se à sua frente segurando um envelope de exames, e você segura o roteiro de anamnese recém-decorado. A tentação é sair preenchendo a ficha item por item, como quem aplica um questionário. Antes disso, este tópico — porque o que acontece nessa sala nos primeiros segundos pode valer mais do que tudo o que há no envelope.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -316,6 +321,11 @@ linhas:
 texto: "Saber quanto tempo deixar o silêncio durar faz parte da técnica — e Porto diz, sem meias palavras, que faz parte da arte de entrevistar. É a única manobra da entrevista que se executa sem fazer nada."
 :::
 
+::: pense
+pergunta: Um paciente se emociona e começa a chorar no meio do relato. Qual técnica da entrevista está indicada — e com que perfil de paciente essa mesma técnica vira má escolha?
+resposta: O silêncio — calar e esperar, mesmo parecendo ter perdido o controle da conversa. Com o paciente loquaz, porém, o silêncio é má técnica — ele aproveita a brecha para pular de assunto; ali o manejo é o oposto, com perguntas dirigidas e resumos parciais.
+:::
+
 ::: secao
 titulo: Fechar
 :::
@@ -445,6 +455,13 @@ texto: |
 
 ::: perola
 texto: "\"Só se acha o que se procura e só se procura o que se conhece\" — a formulação, entre aspas, é de Porto, no capítulo de anamnese, e explica por que a entrevista melhora conforme o conhecimento clínico cresce: não é a técnica de perguntar que muda, é o repertório de perguntas possíveis."
+:::
+
+::: resumo
+linhas:
+  - "A anamnese responde pela maior parte dos diagnósticos — quem conduz mal a entrevista já perdeu o que o encontro clínico tinha de melhor a oferecer."
+  - "Perguntas abertas primeiro, dirigidas depois, indutoras nunca — e deixe o paciente falar além dos dezoito segundos médios que se costuma tolerar."
+  - "Feche devolvendo a história com o resumo de checagem: é aí que erros se corrigem e que a agenda oculta costuma aparecer."
 :::
 
 ::: secao

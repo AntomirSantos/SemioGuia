@@ -73,6 +73,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  A senhora de 78 anos chega trazida pela filha: vômitos há dois dias, "muito caidinha". Você pinça a pele do antebraço — demora a voltar — e quase escreve "desidratada". Mas a pele dela demoraria a voltar de qualquer jeito, aos 78 anos. O que decide não é a prega: é quanto ela pesava na última consulta e quantas vezes urinou desde ontem.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -355,6 +360,11 @@ texto: |
   Quando o dinamômetro ou o percurso demarcado não estão disponíveis, Porto registra duas perguntas que servem de aproximação subjetiva: se o paciente se sentiu mais enfraquecido no último ano, e se acha que hoje caminha mais devagar do que há doze meses.
 :::
 
+::: pense
+pergunta: Na avaliação de sarcopenia do idoso, por onde o fluxograma manda começar — pela massa, pela força ou pela função?
+resposta: Pela função — a velocidade habitual da marcha (4 metros cronometrados; normal até 5 segundos, ≈0,8 m/s). Só depois vêm a força de preensão palmar e, por último, a massa muscular estimada pela circunferência da panturrilha.
+:::
+
 ::: secao
 titulo: Estado de hidratação
 :::
@@ -484,6 +494,13 @@ texto: |
 
 ::: perola
 texto: "Diante de um paciente com sinais duvidosos de desidratação, a pergunta mais produtiva raramente é sobre a pele. É: quanto o senhor pesava na última consulta, e quantas vezes urinou desde ontem? O peso gradua a perda; a diurese denuncia a resposta do rim."
+:::
+
+::: resumo
+linhas:
+  - "Antropometria é comparação: o peso de hoje vale pelo que diz contra o peso de três meses atrás, e o IMC não decide nada sem musculatura, panículo e história."
+  - "Cintura tem reparo anatômico e ponto de corte; circunferência abdominal, não — e no idoso a régua do IMC é outra (Lipschitz), o que precisa ser declarado."
+  - "Hidratação se julga pelo conjunto: peso e contexto de perdas mandam, o turgor se pesquisa fora do antebraço, e no idoso a pele seca engana."
 :::
 
 ::: secao

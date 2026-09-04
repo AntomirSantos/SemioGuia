@@ -51,6 +51,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  Pernas inchadas: "é o coração, doutor?". A resposta pode não estar nas pernas — está no pescoço. Cabeceira a 45 graus, luz rasante, e a pergunta certa: até que altura sobe a coluna nas jugulares? O pescoço é o manômetro de pressão venosa que todo paciente traz de fábrica, e quem aprende a lê-lo separa em minutos o edema cardíaco dos outros.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -308,6 +313,13 @@ causas:
 texto: "Turgência jugular elevada está presente em praticamente todos os casos de tamponamento cardíaco e na quase totalidade das pericardites constritivas. Jugulares normais são, portanto, um argumento forte contra esses dois diagnósticos — e quando elas estão cheias, o passo seguinte é procurar pulso paradoxal e olhar o formato dos descensos."
 :::
 
+::: pense
+pergunta: |
+  A pulsação no pescoço é venosa ou carotídea? Cite duas manobras que resolvem a dúvida na hora.
+resposta: |
+  Comprimir levemente a base do pescoço, logo acima da clavícula — o pulso venoso se apaga, o carotídeo não. E mudar a posição: o venoso fica mais evidente na horizontal e desce quando o paciente se senta; o carotídeo não muda. Além disso, o venoso é mais visível que palpável e seu movimento marcante é para dentro.
+:::
+
 ::: secao
 titulo: Edema
 :::
@@ -409,6 +421,13 @@ texto: |
   4. **Confundir com a carótida.** Sem checar os cinco critérios que separam veia de artéria, a "turgência" pode ser apenas uma carótida saliente em pessoa magra.
   5. **Descartar tamponamento ou constrição com edema presente e pescoço não examinado.** Pressão venosa elevada é achado cardinal dessas duas doenças; deixar de olhar o pescoço é deixar de fazer a pergunta.
   6. **Transformar o enchimento capilar em veredito.** Sozinho e sem comparação, ele não sustenta conclusão sobre perfusão.
+:::
+
+::: resumo
+linhas:
+  - "A jugular interna direita é o manômetro do coração direito: turgência mede quanto (a altura da coluna), pulso venoso mostra como (o formato das ondas)."
+  - "Antes de tudo, separe veia de carótida — compressão na base do pescoço e mudança de posição decidem; depois, teste abdominojugular e sinal de Kussmaul refinam."
+  - "Jugulares normais argumentam forte contra tamponamento e constrição; o edema se descreve pelos seis atributos, com o cacifo graduado em cruzes."
 :::
 
 ::: secao

@@ -34,6 +34,11 @@ referencias:
 revisao: ok
 ---
 
+::: cena
+texto: |
+  A técnica anotou "FC 78" e seguiu para o próximo leito. Você palpa a mesma radial e algo incomoda: as ondas vêm sem cadência nenhuma, umas cheias, outras que quase somem. No precórdio, o estetoscópio conta 96. Entre o número da prancheta e o que os seus dedos acabaram de sentir existe um diagnóstico — e é ele que este tópico ensina a não deixar passar.
+:::
+
 ::: secao
 titulo: O essencial
 :::
@@ -150,6 +155,11 @@ texto: |
   Parando a deflação nesse nível, o mesmo padrão passa a ser sentido na radial.
 :::
 
+::: pense
+pergunta: O pulso alterna uma onda forte e uma fraca. O que decide se é pulso alternante ou bigeminado — e por que a diferença importa?
+resposta: O intervalo. No alternante os intervalos são regulares — sinal de insuficiência ventricular esquerda. No bigeminado a onda fraca é uma extrassístole que chega cedo e deixa o intervalo irregular. Mesma sensação nos dedos, dois diagnósticos diferentes.
+:::
+
 ::: secao
 titulo: Achados que mudam a conduta
 :::
@@ -230,6 +240,13 @@ itens:
   - "Comparação simultânea das duas radiais."
   - "Comparação com a ausculta cardíaca para pesquisar déficit de pulso."
   - "Registro do valor e do contexto (repouso, febre, dor, medicação em uso)."
+:::
+
+::: resumo
+linhas:
+  - "O pulso radial entrega sete informações — parede, frequência, ritmo, amplitude, tensão, tipo de onda e comparação entre os lados — em 60 segundos completos de contagem."
+  - "Frequência cardíaca não é frequência de pulso: conte no precórdio e na radial no mesmo minuto; déficit de pulso com ritmo totalmente irregular é fibrilação atrial até prova em contrário."
+  - "Pulso paradoxal se mede com o manguito (queda inspiratória > 10 mmHg) e pesa muito no tamponamento; não confunda os três Kussmaul — pulso, sinal e respiração."
 :::
 
 ::: secao
