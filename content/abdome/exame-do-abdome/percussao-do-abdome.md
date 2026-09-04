@@ -232,6 +232,18 @@ texto: |
   E há dois fatores banais que estragam o achado: a macicez do Traube perde acurácia em pessoas com sobrepeso e em quem acabou de comer (McGee). Um estômago cheio é um Traube maciço sem doença nenhuma.
 :::
 
+::: sinal
+nome: Traube ocupado
+descricao: |
+  **Macicez ou submacicez** na área semilunar do espaço de Traube (base do hemitórax esquerdo anterior, sobre o fundo gástrico), onde a percussão deveria encontrar **timpanismo**.
+significado: |
+  O primeiro ocupante a suspeitar é o **baço**, que ao crescer começa por invadir esse espaço: **todo baço aumentado é percutível, mas nem todo baço aumentado é palpável**. Dois fatores banais estragam o achado: sobrepeso e **estômago cheio**.
+causas:
+  - "Esplenomegalia"
+  - "Cardiomegalias e aumento do lobo esquerdo do fígado"
+  - "Derrame pleural esquerdo"
+:::
+
 ::: pense
 pergunta: |
   Percutindo o abdome você encontra uma área de macicez onde deveria haver timpanismo de alça. O que esse achado diz, e o que ele não diz?
@@ -272,6 +284,16 @@ observar: |
   A manobra depende de dar tempo ao líquido. Percutir imediatamente após virar o paciente é a causa mais comum de macicez móvel falsamente negativa. Espere; o líquido não é rápido.
 :::
 
+::: sinal
+nome: Macicez móvel
+descricao: |
+  Em decúbito dorsal, **macicez nos flancos com timpanismo central**; virado o paciente para o decúbito lateral (esperando o líquido se acomodar), a percussão **se inverte**: timpanismo no flanco que ficou por cima, macicez no de baixo, com fronteira **horizontal** em cada posição.
+significado: |
+  O líquido ascítico é **livre** e obedece à gravidade. Se a macicez **não muda** com o decúbito, pense em **cisto de ovário** (limites precisos, sempre no mesmo lugar) ou em **ascite septada**, em que o líquido não se desloca.
+causas:
+  - "Ascite livre (hipertensão portal, hipoalbuminemia, carcinomatose)"
+:::
+
 ::: manobra
 titulo: Sinal do piparote e semicírculo de Skoda
 passos:
@@ -287,6 +309,16 @@ observar: |
   O semicírculo de Skoda é também um teste de diagnóstico diferencial: na ascite a concavidade olha para cima; no cisto gigante de ovário, a concavidade se volta para o púbis (Semiologia Clínica). Duas curvas opostas, dois raciocínios opostos.
 
   Um cuidado de vocabulário: o nome de Skoda aparece duas vezes no guia, em achados percutórios diferentes. Aqui, o **semicírculo de Skoda**, linha de transição entre timpanismo e macicez na ascite; no tópico de percussão do tórax, a **ressonância skódica**, hipersonoridade ao redor de uma condensação ou logo acima de um derrame pleural. Mesmo epônimo, dois sinais sem relação entre si.
+:::
+
+::: sinal
+nome: Sinal do piparote
+descricao: |
+  Uma mão espalmada no flanco esquerdo, a **borda cubital de uma mão intermediária na linha média** (para o impulso não viajar pela parede), e um golpe de dedo no lado oposto: positivo quando a mão apoiada **capta o choque da onda líquida** atravessando a cavidade.
+significado: |
+  É o achado que melhor **confirma** ascite entre as manobras percutórias; sem a mão intermediária na linha média, o subcutâneo transmite o golpe e gera falso-positivo. Nas **ascites septadas**, o piparote pode ser duvidoso ou ausente.
+causas:
+  - "Ascite volumosa e livre"
 :::
 
 ::: perola
@@ -376,6 +408,17 @@ texto: |
   - **Atrofia hepática acentuada.**
 
   A percussão também é usada há mais de um século para estimar o volume vesical, e aqui o veredito é desfavorável. McGee resume: a bexiga precisa conter cerca de **400 a 600 mℓ** para que a macicez apareça de forma confiável; embora a extensão da macicez acima da sínfise se correlacione com o volume, o sinal é pouco confiável porque os resultados variam enormemente entre pacientes e porque muitos têm macicez inexplicada no abdome inferior, mesmo sem distensão vesical.
+:::
+
+::: sinal
+nome: Sinal de Jobert
+descricao: |
+  A **macicez hepática desaparece** e cede lugar ao **timpanismo** na projeção do fígado.
+significado: |
+  Há **ar interposto entre o fígado e o diafragma**: pneumoperitônio, cuja causa frequente é a **perfuração de víscera oca**. É achado de peritonite por perfuração, companheiro do abdome em tábua. Diferenciais benignos: interposição de alça e atrofia hepática acentuada.
+causas:
+  - "Pneumoperitônio por perfuração do tubo digestivo"
+  - "Interposição de alça entre fígado e parede (sem gravidade)"
 :::
 
 ::: conceito

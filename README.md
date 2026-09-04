@@ -77,9 +77,9 @@ npm run checar:travessao`, toda RV em prosa precisa da
   evidência, manobras passo a passo, pérolas (pull-quotes), armadilhas
   e ilustrações
 - **Busca**: offline, por sinal, manobra, epônimo ou tópico
-- **Modo plantão**: "achei um sinal no exame, e agora?": busca instantânea
-  sobre os verbetes `sinal` do conteúdo revisado, do achado ao significado,
-  às causas e ao tópico de origem
+- **Modo plantão**: "achei um sinal no exame, e agora?": 100 verbetes
+  `sinal` derivados do conteúdo revisado, agrupados por sistema, com busca
+  instantânea, destaques em negrito e o salto ao tópico de origem
 - **Estudar**: quiz por sistema, revisão espaçada do dia (SM-2),
   estações OSCE geradas dos checklists e os 3 casos clínicos ramificados
 - **Perfil**: progresso, data da prova, preferências, tema claro/escuro,

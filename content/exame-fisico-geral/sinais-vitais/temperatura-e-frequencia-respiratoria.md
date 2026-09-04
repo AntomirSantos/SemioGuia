@@ -374,6 +374,39 @@ svg: |
 legenda: "Os quatro ritmos como traçado, cada incursão como uma onda. Na eupneia, movimentos regulares e de amplitude semelhante. No Cheyne-Stokes, a amplitude cresce até um máximo e depois decresce, podendo chegar à apneia. No Kussmaul, inspirações amplas e rápidas separadas por curtos períodos de apneia. No Biot, amplitudes e intervalos irregulares, sem padrão: é o minuto inteiro de observação que revela esses desenhos, nunca os 15 segundos multiplicados por quatro."
 :::
 
+::: sinal
+nome: Respiração de Cheyne-Stokes
+descricao: |
+  A amplitude respiratória **cresce até um máximo e depois decresce**, ciclo a ciclo, podendo chegar à **apneia**. Só se revela com o **minuto inteiro** de observação, nunca com 15 segundos multiplicados por quatro.
+significado: |
+  Ritmo periódico associado a **disfunção ventricular esquerda** e a **lesões do sistema nervoso central**.
+causas:
+  - "Disfunção ventricular esquerda"
+  - "Lesões do sistema nervoso central"
+:::
+
+::: sinal
+nome: Respiração de Kussmaul
+descricao: |
+  **Inspirações amplas e rápidas separadas por curtos períodos de apneia**: a fome de ar da acidose.
+significado: |
+  É a resposta ventilatória à **acidose metabólica**: o corpo lava CO2 para compensar o pH.
+causas:
+  - "Cetoacidose diabética"
+  - "Outras acidoses metabólicas"
+:::
+
+::: sinal
+nome: Respiração de Biot
+descricao: |
+  Movimentos respiratórios de **amplitudes e intervalos irregulares, sem padrão** reconhecível.
+significado: |
+  A ausência de padrão é o padrão: aponta **lesões bulbares** e **meningite**.
+causas:
+  - "Lesões bulbares"
+  - "Meningite"
+:::
+
 ::: perola
 texto: |
   A frequência respiratória é o sinal vital mais anotado e menos aferido. Comparando o prontuário com a contagem real, os valores anotados se concentram entre 16 e 22 irpm na grande maioria das vezes: mesmo em pacientes cuja frequência verdadeira variava de 10 a mais de 30.

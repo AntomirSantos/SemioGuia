@@ -328,8 +328,8 @@ texto: |
 
 ::: sinal
 nome: Aneurisma poplíteo e síndrome do artelho azul
-descricao: "Aneurisma da artéria poplítea, uma das três localizações mais comuns dos aneurismas adquiridos. Manifesta-se como tumor pulsátil na fossa poplítea: território cuja palpação é reconhecidamente difícil e exige a técnica descrita no primeiro tópico deste capítulo. A síndrome do artelho azul é a manifestação distal de sua complicação embólica: um ou mais pododáctilos tornam-se subitamente cianóticos e dolorosos, com os pulsos do pé podendo permanecer palpáveis."
-significado: "Porto descreve como principais complicações do aneurisma poplíteo a trombose e a embolia para os dedos, a partir de fragmentos desprendidos dos trombos da parede, capaz de produzir isquemia aguda da perna inteira ou de um único pododáctilo. É a ponte entre as duas metades deste tópico: um aneurisma silencioso que se apresenta como isquemia aguda. Um dedo subitamente azul obriga a procurar a fonte proximal."
+descricao: "Aneurisma da artéria poplítea, uma das três localizações mais comuns dos aneurismas adquiridos. Manifesta-se como **tumor pulsátil na fossa poplítea**: território cuja palpação é reconhecidamente difícil e exige a técnica descrita no primeiro tópico deste capítulo. A síndrome do artelho azul é a manifestação distal de sua complicação embólica: um ou mais pododáctilos tornam-se subitamente cianóticos e dolorosos, com os pulsos do pé podendo permanecer palpáveis."
+significado: "Porto descreve como principais complicações do aneurisma poplíteo a trombose e a embolia para os dedos, a partir de fragmentos desprendidos dos trombos da parede, capaz de produzir isquemia aguda da perna inteira ou de um único pododáctilo. É a ponte entre as duas metades deste tópico: um aneurisma silencioso que se apresenta como isquemia aguda. **Um dedo subitamente azul obriga a procurar a fonte proximal.**"
 causas:
   - "Aneurisma da artéria poplítea, com trombose ou embolia distal"
   - "Aneurisma da aorta abdominal com embolização distal"

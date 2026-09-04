@@ -231,8 +231,8 @@ texto: |
 
 ::: sinal
 nome: Nódulo testicular
-descricao: "Área endurecida ou nodular dentro do parênquima testicular, em geral indolor, percebida na palpação comparativa. A Semiologia Médica formula a regra completa: a massa do testículo que não dói, é endurecida e irregular e não deixa a luz passar recebe o rótulo de neoplasia maligna enquanto a investigação não provar outra coisa. Semiologia Clínica repete o núcleo: áreas firmes ou endurecidas dentro do testículo são suspeitas de neoplasia. Muitas vezes é um pequeno traumatismo que chama a atenção do paciente para o nódulo que já existia: o trauma revela, não causa."
-significado: "É o alarme deste exame, e é alarme do homem jovem: as neoplasias testiculares representam 1% das lesões malignas do sexo masculino, mas a maioria ocorre entre 20 e 40 anos, a faixa etária em que quase nada mais é câncer. O testículo criptorquídico tem risco quatro a sete vezes maior. Dor mínima ou ausente não tranquiliza: é o padrão típico; a Semiologia Médica registra que em cerca de 20% dos casos há dor e hiperestesia que imitam orquiepididimite. Hidrocele associada pode esconder o tumor. A anamnese de Porto já prepara este encontro: o autoexame testicular é item de promoção da saúde no interrogatório, perguntar por ele faz parte da consulta."
+descricao: "Área endurecida ou nodular dentro do parênquima testicular, em geral indolor, percebida na palpação comparativa. A Semiologia Médica formula a regra completa: a massa do testículo que **não dói, é endurecida e irregular e não deixa a luz passar** recebe o rótulo de neoplasia maligna enquanto a investigação não provar outra coisa. Semiologia Clínica repete o núcleo: áreas firmes ou endurecidas dentro do testículo são suspeitas de neoplasia. Muitas vezes é um pequeno traumatismo que chama a atenção do paciente para o nódulo que já existia: o trauma revela, não causa."
+significado: "É o alarme deste exame, e é alarme do homem jovem: as neoplasias testiculares representam 1% das lesões malignas do sexo masculino, mas a maioria ocorre **entre 20 e 40 anos**, a faixa etária em que quase nada mais é câncer. O testículo criptorquídico tem risco quatro a sete vezes maior. Dor mínima ou ausente não tranquiliza: é o padrão típico; a Semiologia Médica registra que em cerca de 20% dos casos há dor e hiperestesia que imitam orquiepididimite. Hidrocele associada pode esconder o tumor. A anamnese de Porto já prepara este encontro: o autoexame testicular é item de promoção da saúde no interrogatório, perguntar por ele faz parte da consulta."
 causas:
   - "Neoplasia testicular germinativa (seminoma e não seminomatosas): a hipótese obrigatória no jovem"
   - "Neoplasias não germinativas (células de Leydig e de Sertoli), mais raras"
@@ -344,8 +344,8 @@ texto: |
 
 ::: sinal
 nome: Hérnia encarcerada e estrangulada
-descricao: "Hérnia que deixou de reduzir: o conteúdo ficou preso no saco herniário pelo anel fibroso e pelo trajeto, quando este é longo, forma-se um colo que comprime a alça e sua vascularização. O quadro descrito pela Semiologia Médica: dor intensa no local da hérnia, seguida de dor em cólica pelo peristaltismo de luta, náuseas e vômito; com as horas, o quadro de oclusão intestinal se completa. À palpação, o tumor herniário está duro, tenso e dolorido, com dor máxima no colo. A femoral é a que mais encarcera, seguida das inguinais."
-significado: "É a emergência deste capítulo: a Semiologia Médica é literal (urgência cirúrgica, operação imediata, antes que a alça necrose. O raciocínio do abdome) os sinais peritoneais, a oclusão, a decisão cirúrgica, mora no tópico Abdome agudo e sinais peritoneais, e é para lá que este achado remete; a lição de sentido inverso é que nenhum abdome agudo está examinado sem as regiões inguinais e a bolsa escrotal vistas e palpadas: a hérnia estrangulada é a causa de oclusão que se diagnostica com os olhos. E o caso-limite que engana até a lanterna: a hidrocele irredutível que surge junto ao anel inguinal externo é, para a obra, impossível de separar da hérnia estrangulada, ainda que transilumine, na dúvida, trata-se como a pior das duas."
+descricao: "Hérnia que deixou de reduzir: o conteúdo ficou preso no saco herniário pelo anel fibroso e pelo trajeto, quando este é longo, forma-se um colo que comprime a alça e sua vascularização. O quadro descrito pela Semiologia Médica: dor intensa no local da hérnia, seguida de dor em cólica pelo peristaltismo de luta, náuseas e vômito; com as horas, o quadro de oclusão intestinal se completa. À palpação, o tumor herniário está **duro, tenso e dolorido**, com dor máxima no colo. A femoral é a que mais encarcera, seguida das inguinais."
+significado: "É a emergência deste capítulo: a Semiologia Médica é literal: **urgência cirúrgica**, operação imediata, antes que a alça necrose. O raciocínio do abdome (os sinais peritoneais, a oclusão, a decisão cirúrgica) mora no tópico Abdome agudo e sinais peritoneais, e é para lá que este achado remete; a lição de sentido inverso é que nenhum abdome agudo está examinado sem as regiões inguinais e a bolsa escrotal vistas e palpadas: a hérnia estrangulada é a causa de oclusão que se diagnostica com os olhos. E o caso-limite que engana até a lanterna: a hidrocele irredutível que surge junto ao anel inguinal externo é, para a obra, impossível de separar da hérnia estrangulada, ainda que transilumine, na dúvida, trata-se como a pior das duas."
 causas:
   - "Hérnia femoral (crural): a de maior risco proporcional de encarceramento"
   - "Hérnia inguinal, indireta ou direta"
@@ -368,6 +368,27 @@ texto: |
   **O sinal de Prehn**, com sua âncora declarada: Semiologia Clínica o define, a dor que **alivia quando o examinador eleva mecanicamente o testículo**, o que só acontece na orquiepididimite, e o oferece como auxiliar do diferencial com a torção. A *Semiologia Médica* traz o mesmo fato sem o epônimo: na orquite aguda, a elevação manual do testículo reduz a dor. O guia ensina o sinal com o nome que Semiologia Clínica lhe dá e com a ressalva que as próprias fontes impõem: a *Semiologia Médica* admite, por duas vezes, que a torção pode ser **indistinguível** da epididimite e da orquite ao exame físico, e a hiperestesia da torção muitas vezes impede a palpação que os sinais exigem.
 
   **O desempate não é clínico.** Porto encerra o boxe com a frase que decide a conduta: a **ultrassonografia é fundamental** para a comprovação, com Doppler avaliando o fluxo, acrescenta a *Semiologia Médica*. Nenhum sinal isolado autoriza esperar.
+:::
+
+::: sinal
+nome: Sinal de Prehn
+descricao: |
+  A dor escrotal **alivia quando o examinador eleva mecanicamente o testículo**.
+significado: |
+  O alívio à elevação **só acontece na orquiepididimite**, e é auxiliar do diferencial com a **torção**, em que o reflexo cremastérico está geralmente **abolido**. A ressalva das fontes: a torção pode ser **indistinguível** da epididimite ao exame, e a ultrassonografia com Doppler é fundamental. Nenhum sinal isolado autoriza esperar.
+causas:
+  - "Orquiepididimite (alívio presente)"
+  - "Torção testicular (alívio ausente, cremastérico abolido): urgência"
+:::
+
+::: sinal
+nome: Reflexo cremastérico abolido
+descricao: |
+  O estímulo que normalmente **eleva o testículo homolateral** não produz resposta.
+significado: |
+  No escroto agudo, o cremastérico **geralmente abolido** acompanha a **torção testicular** (com testículo elevado e horizontalizado); ele está **presente** na orquiepididimite e na torção do apêndice testicular, cuja marca é o nódulo doloroso do polo superior com a mancha azul.
+causas:
+  - "Torção testicular (urgência cirúrgica)"
 :::
 
 ::: conceito

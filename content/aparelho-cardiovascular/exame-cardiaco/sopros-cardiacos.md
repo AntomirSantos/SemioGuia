@@ -236,6 +236,16 @@ itens:
   - "Manobras dinâmicas aplicadas conforme a hipótese e a resposta anotada."
 :::
 
+::: sinal
+nome: Sinal de Carvallo (manobra de Rivero-Carvallo)
+descricao: |
+  Com o receptor na **área tricúspide** e a respiração regular, pede-se **inspiração profunda**: o sopro **aumenta** de intensidade.
+significado: |
+  A inspiração **aumenta o retorno venoso ao coração direito**: sopro que cresce na inspiração é de **origem direita** (tricúspide ou pulmonar); o que não muda ou diminui é propagação de um sopro esquerdo. Antes de interpretar, confira a regularidade da respiração: apneia involuntária torna o teste ininterpretável.
+causas:
+  - "Sopros do coração direito (insuficiência tricúspide, lesões pulmonares)"
+:::
+
 ::: secao
 titulo: Classificação
 :::

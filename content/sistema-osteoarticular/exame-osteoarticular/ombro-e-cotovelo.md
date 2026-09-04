@@ -212,8 +212,8 @@ texto: |
 
 ::: sinal
 nome: Arco doloroso
-descricao: "Durante a elevação ativa do braço, a dor aparece em uma faixa intermediária do movimento e cede acima dela. McGee define a faixa e a razão dela: dor durante a elevação do braço entre os ângulos de 70 e 100 graus, que são os ângulos em que a compressão dos tecidos subacromiais é maior. Semiologia Clínica pede que se registre o ponto em que a dor aparece."
-significado: "É o achado isolado de melhor desempenho para a tendinite do manguito rotador segundo McGee: presente, rende razão de verossimilhança 2,9. Sua ausência não ajuda: a razão de verossimilhança negativa não alcança significância. Para a ruptura do manguito, o arco doloroso isolado não tem valor quando presente, mas sua ausência reduz modestamente a probabilidade, com razão de verossimilhança 0,5. É também um dos três achados da combinação de Park, que multiplica o desempenho do exame."
+descricao: "Durante a elevação ativa do braço, a dor aparece em uma faixa intermediária do movimento e cede acima dela. McGee define a faixa e a razão dela: dor durante a elevação do braço **entre os ângulos de 70 e 100 graus**, que são os ângulos em que a compressão dos tecidos subacromiais é maior. Semiologia Clínica pede que se registre o ponto em que a dor aparece."
+significado: "É o achado isolado de melhor desempenho para a **tendinite do manguito rotador** segundo McGee: presente, rende razão de verossimilhança 2,9. Sua ausência não ajuda: a razão de verossimilhança negativa não alcança significância. Para a ruptura do manguito, o arco doloroso isolado não tem valor quando presente, mas sua ausência reduz modestamente a probabilidade, com razão de verossimilhança 0,5. É também um dos três achados da combinação de Park, que multiplica o desempenho do exame."
 causas:
   - "Tendinite do manguito rotador e síndrome do impacto"
   - "Bursite subacromial"

@@ -260,8 +260,8 @@ texto: |
 
 ::: sinal
 nome: Manobra de Trendelenburg do quadril
-descricao: "O paciente fica de pé sobre uma perna, com o quadril contralateral fletido a 90 graus; o examinador pode apoiar o braço do mesmo lado para ajudar no equilíbrio e alinhar o ombro sobre o quadril testado. Observa-se a nádega do lado suspenso: se ela sobe, os abdutores do lado que sustenta o peso estão competentes; se ela cai, até que fêmur e pelve do lado apoiado entrem em contato, estão fracos. O lado testado é sempre o que suporta o peso."
-significado: "Interroga a função dos glúteos médio e mínimo do lado apoiado. Suas causas, segundo McGee, são fraqueza neuromuscular dos abdutores e doença do próprio quadril; historicamente a poliomielite e a atrofia muscular progressiva, e hoje sobretudo a complicação da artroplastia de quadril por via lateral, que arrisca o nervo glúteo superior ou o próprio músculo, além da luxação congênita e da coxa vara. E há um uso diagnóstico com número: em pacientes rotulados como portadores de bursite trocantérica, dor lateral no quadril com dor máxima sobre o trocanter maior, a presença simultânea do sinal e da marcha de Trendelenburg do lado sintomático detectou rotura do tendão do glúteo médio à ressonância com sensibilidade de 73%, especificidade de 77% e razão de verossimilhança 3,2; a ausência não alcançou significância. O sinal superou o teste direto de força dos abdutores, cujas razões de verossimilhança não alcançaram significância."
+descricao: "O paciente fica de pé sobre uma perna, com o quadril contralateral fletido a 90 graus; o examinador pode apoiar o braço do mesmo lado para ajudar no equilíbrio e alinhar o ombro sobre o quadril testado. Observa-se a nádega do lado suspenso: se ela sobe, os abdutores do lado que sustenta o peso estão competentes; se ela cai, até que fêmur e pelve do lado apoiado entrem em contato, estão fracos. **O lado testado é sempre o que suporta o peso.**"
+significado: "Interroga a função dos **glúteos médio e mínimo do lado apoiado**. Suas causas, segundo McGee, são fraqueza neuromuscular dos abdutores e doença do próprio quadril; historicamente a poliomielite e a atrofia muscular progressiva, e hoje sobretudo a complicação da artroplastia de quadril por via lateral, que arrisca o nervo glúteo superior ou o próprio músculo, além da luxação congênita e da coxa vara. E há um uso diagnóstico com número: em pacientes rotulados como portadores de bursite trocantérica, dor lateral no quadril com dor máxima sobre o trocanter maior, a presença simultânea do sinal e da marcha de Trendelenburg do lado sintomático detectou rotura do tendão do glúteo médio à ressonância com sensibilidade de 73%, especificidade de 77% e razão de verossimilhança 3,2; a ausência não alcançou significância. O sinal superou o teste direto de força dos abdutores, cujas razões de verossimilhança não alcançaram significância."
 causas:
   - "Fraqueza dos abdutores do quadril de origem neuromuscular"
   - "Doença da própria articulação coxofemoral"
@@ -326,6 +326,16 @@ texto: |
   **E as amplitudes, que também divergem.** O guia adota a flexão normal de **130°**, o valor de McGee. Porto, no *Exame Clínico*, traz **0° a 120°** (extensão **0° ou 180°**); na *Semiologia Médica*, o mesmo autor imprime **30°**: valor incompatível com a própria obra irmã, registrado aqui como provável erro tipográfico da fonte. Semiologia Clínica não tabula graus e oferece o limite da hiperextensão, **10 graus**. Duas cifras de flexão vão reaparecer com significado próprio: **120 graus** e **90 graus**.
 :::
 
+::: sinal
+nome: Sinal da tecla
+descricao: |
+  Com a perna estendida, **empurra-se a patela para dentro do sulco troclear e solta-se**: havendo derrame, a patela **retorna à posição original**, como uma tecla que volta.
+significado: |
+  É a pesquisa de **flutuação** aplicada ao joelho: o líquido devolve a patela. A ressalva da própria fonte: serve aos derrames **volumosos**. E derrame é mais difícil de ver do que se supõe: a concordância entre observadores está entre as mais baixas do joelho.
+causas:
+  - "Derrame articular volumoso do joelho (sinovite, trauma, artrite)"
+:::
+
 ::: conceito
 titulo: Os quatro ligamentos, e o gesto que cada um exige
 texto: |
@@ -344,6 +354,16 @@ texto: |
   **Cruzado posterior.** McGee registra que é a **estrutura interna do joelho menos sujeita a lesão**, e que o mecanismo característico é a **desaceleração do joelho fletido contra superfície dura**: o joelho batendo no painel do carro. O teste convencional é a **gaveta posterior**: mesma posição da gaveta anterior, empurrando a panturrilha alta para **trás**.
 
   **Duas notas de mecanismo que valem o parágrafo.** McGee associa a torção do joelho com o pé plantado à lesão do **cruzado anterior**, e observa que o mecanismo da lesão **meniscal é o mesmo**. O que separa os dois na história é o **tempo do inchaço**: a lesão do cruzado anterior produz tumefação **imediata**, e a meniscal produz tumefação que só aparece **após algumas horas**, porque os meniscos são relativamente avasculares. É uma pergunta de anamnese que vale por uma manobra.
+:::
+
+::: sinal
+nome: Teste de Lachman positivo
+descricao: |
+  O gesto da gaveta anterior com o **joelho a 20 graus** e o quadril estendido: uma mão segura a coxa distal, a outra traciona a panturrilha proximal para a frente. Positivo quando há **subluxação anterior anormal** ou **ponto final mole**.
+significado: |
+  **Não é a distância que decide: é como o movimento termina.** Ponto final firme fala de ligamento íntegro; frouxidão ou ponto final mole, de **rotura do cruzado anterior**, sempre comparando com o outro joelho. A anamnese ajuda: lesão do cruzado incha **de imediato**; a meniscal, só após horas.
+causas:
+  - "Rotura do ligamento cruzado anterior"
 :::
 
 ::: conceito

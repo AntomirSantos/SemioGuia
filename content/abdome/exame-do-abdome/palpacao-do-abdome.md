@@ -380,8 +380,8 @@ texto: |
 ::: sinal
 nome: Sinal de Courvoisier
 nivel: avancado
-descricao: "Vesícula biliar palpável e indolor em paciente ictérico."
-significado: "Indica obstrução extra-hepática das vias biliares. A leitura tradicional, que o toma como sinal de malignidade, é mais forte do que os dados sustentam: em pacientes com icterícia, o achado tem razão de verossimilhança 26 para obstrução das vias biliares, eleva muito a probabilidade, mas apenas 2,6 para que essa obstrução seja maligna, o que quase não muda o raciocínio (McGee). Se há uma lei, ela é sobre obstrução, não sobre câncer."
+descricao: "**Vesícula biliar palpável e indolor** em paciente **ictérico**."
+significado: "Indica **obstrução extra-hepática das vias biliares**. A leitura tradicional, que o toma como sinal de malignidade, é mais forte do que os dados sustentam: em pacientes com icterícia, o achado tem razão de verossimilhança 26 para obstrução das vias biliares, eleva muito a probabilidade, mas apenas 2,6 para que essa obstrução seja maligna, o que quase não muda o raciocínio (McGee). Se há uma lei, ela é **sobre obstrução, não sobre câncer**."
 causas:
   - "Neoplasia periampular, sobretudo da cabeça do pâncreas: a associação clássica descrita por Porto"
   - "Obstrução coledociana benigna, incluindo cálculo, que responde por parte dos casos"

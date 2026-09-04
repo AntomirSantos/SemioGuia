@@ -323,7 +323,7 @@ texto: |
 ::: sinal
 nome: Frêmito arterial
 descricao: "Vibração palpável sobre o trajeto de uma artéria, percebida com a palpação superficial, sem compressão do vaso. É o correspondente tátil do sopro, e gradua-se em cruzes de + a ++++ pela mesma escala usada para os sopros."
-significado: "Indica turbilhonamento do sangue na passagem por um estreitamento, por uma dilatação ou por uma comunicação anômala. Porto é direto: a presença de frêmito indica semioclusão da artéria ou fístula arteriovenosa. O frêmito sistólico aparece nas estenoses e nos aneurismas; o frêmito contínuo, sistodiastólico, aponta fístula ou malformação arteriovenosa."
+significado: "Indica turbilhonamento do sangue na passagem por um estreitamento, por uma dilatação ou por uma comunicação anômala. Porto é direto: a presença de frêmito indica **semioclusão da artéria ou fístula arteriovenosa**. O frêmito sistólico aparece nas estenoses e nos aneurismas; o frêmito contínuo, sistodiastólico, aponta fístula ou malformação arteriovenosa."
 causas:
   - "Estenose arterial por placa de ateroma"
   - "Aneurisma"
@@ -442,6 +442,16 @@ texto: |
   - **Manobra de Allen**, não investiga compressão, e sim a **patência das duas artérias do antebraço**. Em quatro tempos: paciente sentado, com os membros superiores estendidos à frente e as palmas para cima; o médico comprime a artéria radial; pede ao paciente que feche a mão com força, esvaziando-a de sangue, o que produz palidez; e, mantendo a radial comprimida, pede que abra a mão. **Normalmente a cor volta rápida e uniformemente.** Se a ulnar estiver estenosada ou ocluída, a cor demora a voltar e volta de forma irregular, em placas. Para investigar a artéria radial, repete-se tudo comprimindo a ulnar.
 
   Duas ressalvas fecham o bloco. **Nenhuma das quatro obras deste guia atribui razões de verossimilhança a essas manobras**: elas são descritas pela técnica e pelo raciocínio, não pelo desempenho medido. E a síndrome do desfiladeiro torácico, cujo diagnóstico diferencial completo envolve exame neurológico e imagem, fica fora deste guia: aqui entram apenas as manobras que se apoiam no pulso.
+:::
+
+::: sinal
+nome: Manobra de Allen alterada
+descricao: |
+  Comprime-se a **radial**; o paciente fecha a mão com força (palidez) e a abre com a radial ainda comprimida: no anormal, a cor **demora a voltar e volta irregular, em placas**. Para investigar a radial, repete-se comprimindo a ulnar.
+significado: |
+  Testa a **patência das duas artérias do antebraço**: com a radial ocluída pelo examinador, quem reperfunde a mão é a **ulnar**; retorno lento e em placas denuncia estenose ou oclusão dela. As fontes a descrevem pela técnica e pelo raciocínio, sem desempenho medido.
+causas:
+  - "Estenose ou oclusão da artéria ulnar (ou da radial, na variante invertida)"
 :::
 
 ::: conceito

@@ -437,6 +437,17 @@ texto: |
   Uma nota sobre o **enchimento capilar**: no estudo em que foi comparado com marcadores laboratoriais de hipovolemia, ele não mostrou valor diagnóstico. O guia mantém o mesmo tratamento que dá a ele no exame cardiovascular: achado de moldura, comparativo entre os lados, sem corte numérico e sem veredito isolado.
 :::
 
+::: sinal
+nome: Turgor cutâneo diminuído (prega lenta)
+descricao: |
+  Pinça-se uma prega que **inclua o subcutâneo** (melhor sobre **coxas, esterno ou região subclavicular** que no antebraço): com turgor diminuído a pele parece murcha e a prega **se desfaz lentamente**; um corte usado em estudo é a persistência por **3 segundos ou mais**.
+significado: |
+  Sinal de **desidratação**, lido junto de mucosas, olhos, fontanela (na criança), peso e diurese. **A idade corrói a especificidade**: a elastina envelhecida também devolve a pele devagar, e a prega lenta do idoso pode ser só idade.
+causas:
+  - "Desidratação (perda de água e eletrólitos sem reposição adequada)"
+  - "Envelhecimento cutâneo (falso-positivo no idoso)"
+:::
+
 ::: conceito
 titulo: Graus e tipos de desidratação
 texto: |

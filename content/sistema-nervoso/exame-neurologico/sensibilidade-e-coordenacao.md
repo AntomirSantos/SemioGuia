@@ -402,6 +402,27 @@ texto: |
   **Um cuidado com o termo tremor de intenção**, que McGee faz questão de registrar: ele nomeia dois tremores diferentes. O **cerebelar** é acentuadamente irregular, de grande amplitude e baixa frequência, abaixo de 5 por segundo, e vem **associado à dismetria**. O **essencial**, que também piora quando a mão se aproxima de um alvo, como ao levar uma colher à boca, é regular, fino, rápido, de 8 a 12 por segundo, e **não se associa a dismetria**. São dois quadros distintos com o mesmo apelido.
 :::
 
+::: sinal
+nome: Dismetria (prova índex-nariz)
+descricao: |
+  Na prova **índex-nariz** (ou dedo-nariz-dedo) e na **calcanhar-joelho**, o movimento erra a medida: **hipermetria** quando ultrapassa o alvo (a mão bate no rosto), **hipometria** quando para antes de alcançá-lo. Pode vir com **tremor de intenção**, que cresce à medida que o dedo se aproxima do alvo.
+significado: |
+  É sinal de **ataxia de membro cerebelar**, e vale a regra do **mesmo lado**: os sinais de ataxia de membro são unilaterais na maioria dos casos e apontam o hemisfério cerebelar da lesão, localizando melhor que o nistagmo. Se a prova **piora nitidamente de olhos fechados**, pense em ataxia **sensitiva** (proprioceptiva), não cerebelar.
+causas:
+  - "Lesão cerebelar, do mesmo lado do achado"
+  - "Ataxia sensitiva (proprioceptiva), quando o fechar dos olhos piora a prova"
+:::
+
+::: sinal
+nome: Disdiadococinesia
+descricao: |
+  Nos **movimentos alternados rápidos** (pronação e supinação do antebraço, abrir e fechar a mão, bater palmas ou o pé no chão), o paciente é **lento e irregular em ritmo, amplitude e precisão**.
+significado: |
+  Dificuldade com a **diadococinesia**, um dos sinais de ataxia de membro da **doença cerebelar** (a incapacidade completa chama-se adiadococinesia). Lida junto com dismetria, hipotonia e a marcha: a ataxia de marcha é o achado cerebelar mais frequente, e pode ser o único.
+causas:
+  - "Doença cerebelar (ataxia de membro, em geral do mesmo lado da lesão)"
+:::
+
 ::: conceito
 titulo: Os quatro sinais cerebelares e a regra do mesmo lado
 texto: |
@@ -443,6 +464,17 @@ texto: |
   Uma frase resume a lógica inteira: **Romberg mede o quanto o paciente dependia da visão para se equilibrar**. Quem se equilibrava pela propriocepção e a perdeu depende da visão, e desaba quando ela é retirada. Quem se equilibrava mal por doença cerebelar continua se equilibrando mal, com ou sem visão.
 
   **A ressalva histórica, e ela é honesta.** McGee registra que Moritz Romberg, em seu livro escrito entre 1840 e 1846, descreveu o sinal em pacientes com ataxia sensitiva grave por lesão sifilítica dos cordões posteriores, e citou o paciente que, ao fechar os olhos, começa a oscilar de lado a lado até cair se não for amparado. Mas acrescenta um dado que corrige uma atribuição comum: **a afirmação de que o sinal de Romberg é negativo na ataxia cerebelar não é de Romberg**, a doença cerebelar sequer estava definida na época dele, e sim de Duchenne e de Babinski, que a acrescentaram depois. A regra continua válida; a autoria, não.
+:::
+
+::: sinal
+nome: Prova de Romberg positiva
+descricao: |
+  De pé, descalço, **pés juntos e paralelos**: ao **fechar os olhos** o paciente oscila, desequilibra-se e tende a cair. A melhor definição operacional é a **incapacidade de permanecer 60 segundos** com os pés juntos e os olhos fechados; oscilar um pouco mais é normal.
+significado: |
+  Romberg mede **o quanto o paciente dependia da visão** para se equilibrar. Queda **imediata, para qualquer lado**, aponta as vias da **propriocepção consciente**; queda **com latência, sempre para o mesmo lado**, aponta o **aparelho vestibular**. Na doença **cerebelar** a prova é **negativa**: o paciente já estava instável de olhos abertos, e fechar os olhos não muda nada.
+causas:
+  - "Polineuropatia periférica e outras lesões proprioceptivas (tabes dorsalis, degeneração combinada da medula)"
+  - "Labirintopatias (queda com latência para o lado acometido)"
 :::
 
 ::: conceito

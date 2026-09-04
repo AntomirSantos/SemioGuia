@@ -254,6 +254,17 @@ texto: |
   Guarde então a regra como **regularidade de leitura, não como causa**: na prática, frêmito aumentado acompanha parênquima denso com brônquio pérvio; frêmito reduzido acompanha uma barreira interposta (pleural, aérea) ou um brônquio ocluído.
 :::
 
+::: sinal
+nome: Frêmito toracovocal alterado
+descricao: |
+  Com a mão espalmada e o paciente repetindo **"trinta e três"**, a vibração chega **diferente nos pontos homólogos** dos dois hemitórax: aumentada de um lado, ou reduzida e abolida.
+significado: |
+  A leitura é sempre **comparativa**: frêmito **aumentado** acompanha parênquima denso com brônquio pérvio (consolidação); **reduzido ou abolido** acompanha barreira interposta ou brônquio ocluído. A palpação raramente diagnostica sozinha, mas diz **de que lado** está a doença.
+causas:
+  - "Aumentado: consolidação pneumônica com brônquio pérvio"
+  - "Reduzido ou abolido: derrame pleural, pneumotórax, espessamento pleural, atelectasia por oclusão brônquica"
+:::
+
 ::: tabela
 titulo: Frêmito toracovocal por mecanismo
 nivel: avancado
@@ -328,9 +339,9 @@ texto: |
 ::: sinal
 nome: Enfisema subcutâneo
 descricao: |
-  Sensação de crepitação fina sob os dedos, como se houvesse bolhas de ar no tecido celular subcutâneo. Procura-se sobretudo nas fossas supraclaviculares e nos espaços intercostais, onde o tecido é frouxo e o ar se acumula primeiro.
+  Sensação de **crepitação fina sob os dedos**, como se houvesse bolhas de ar no tecido celular subcutâneo. Procura-se sobretudo nas fossas supraclaviculares e nos espaços intercostais, onde o tecido é frouxo e o ar se acumula primeiro.
 significado: |
-  Indica ar dissecando os planos do subcutâneo: na prática, comunicação entre o espaço aéreo e o tecido, e portanto pneumotórax até prova em contrário. O achado é fácil de reconhecer e difícil de confundir com qualquer outro.
+  Indica ar dissecando os planos do subcutâneo: na prática, comunicação entre o espaço aéreo e o tecido, e portanto **pneumotórax até prova em contrário**. O achado é fácil de reconhecer e difícil de confundir com qualquer outro.
 causas:
   - "Pneumotórax"
   - "Traumatismo torácico com lesão pulmonar ou de vias aéreas"

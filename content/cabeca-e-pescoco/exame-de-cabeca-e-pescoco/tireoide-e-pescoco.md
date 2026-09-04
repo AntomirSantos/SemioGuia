@@ -559,6 +559,16 @@ texto: |
   E aqui vem a ressalva honesta, que McGee faz e este guia repete: **a frequência real do sinal de Pemberton é desconhecida**. Em duas pequenas séries de pacientes com bócio subesternal ele esteve presente em todos os pacientes; outras séries grandes **sequer o mencionam**. Não há razão de verossimilhança publicada para ele. É uma manobra que vale conhecer e aplicar diante da suspeita, não um teste com desempenho estabelecido.
 :::
 
+::: sinal
+nome: Sinal de Pemberton
+descricao: |
+  O paciente **eleva os braços até encostarem na cabeça** e mantém: positivo quando surge **ingurgitamento facial com dilatação das veias cervicais**; a face pode ficar cianótica após 1 a 2 minutos.
+significado: |
+  Elevar os braços **puxa o desfiladeiro torácico para cima, para dentro do bócio**: a tireoide vira a rolha, o desfiladeiro, o gargalo. Sugere **bócio subesternal (mergulhante)** comprimindo as veias. Honestidade da fonte: a frequência real do sinal é desconhecida, sem desempenho publicado.
+causas:
+  - "Bócio subesternal ou mergulhante obstruindo o desfiladeiro torácico"
+:::
+
 ::: conceito
 titulo: Os achados corporais do hipo e do hipertireoidismo, com números
 nivel: avancado

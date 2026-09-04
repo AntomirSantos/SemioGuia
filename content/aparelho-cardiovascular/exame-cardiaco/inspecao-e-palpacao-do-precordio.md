@@ -233,8 +233,8 @@ titulo: Além do ictus
 
 ::: sinal
 nome: Abaulamento precordial
-descricao: Elevação persistente da região precordial, mais evidente na inspeção tangencial. Diferencia-se dos abaulamentos por deformidade osteomuscular pela presença de impulsão sistólica nessa região.
-significado: O responsável habitual é o ventrículo direito dilatado, a câmara que se apoia diretamente contra o gradil, logo atrás do esterno. Em crianças, cuja caixa torácica ainda cede, um coração que cresce deforma a parede com facilidade.
+descricao: Elevação persistente da região precordial, mais evidente na **inspeção tangencial**. Diferencia-se dos abaulamentos por deformidade osteomuscular pela presença de impulsão sistólica nessa região.
+significado: O responsável habitual é o **ventrículo direito dilatado**, a câmara que se apoia diretamente contra o gradil, logo atrás do esterno. Em crianças, cuja caixa torácica ainda cede, um coração que cresce deforma a parede com facilidade.
 causas:
   - "Cardiopatias congênitas"
   - "Lesões valvares reumáticas"
@@ -247,8 +247,8 @@ causas:
 ::: sinal
 nome: Levantamento em massa do precórdio (impulsão sistólica)
 descricao: |
-  Com a região hipotenar apoiada na borda esternal esquerda baixa, a mão é erguida em bloco a cada sístole. Não é um ponto que bate: é um trecho largo de parede, vizinho ao esterno, que sobe inteiro.
-significado: Indica hipertrofia e/ou dilatação do ventrículo direito. Frequentemente vem acompanhado de retração sistólica na ponta e de pulsação epigástrica, compondo o conjunto de sinais da sobrecarga direita.
+  Com a região hipotenar apoiada na borda esternal esquerda baixa, a mão é **erguida em bloco a cada sístole**. Não é um ponto que bate: é um trecho largo de parede, vizinho ao esterno, que sobe inteiro.
+significado: Indica **hipertrofia e/ou dilatação do ventrículo direito**. Frequentemente vem acompanhado de retração sistólica na ponta e de pulsação epigástrica, compondo o conjunto de sinais da sobrecarga direita.
 causas:
   - "Hipertrofia ventricular direita"
   - "Hipertensão pulmonar"
@@ -261,8 +261,8 @@ nome: Frêmito cardiovascular
 descricao: |
   Vibração que a mão sente sobre o precórdio ou sobre um vaso, nascida de turbulência no fluxo. A tradição semiológica a batiza de catária pela semelhança com o gato que ronrona sob os dedos.
 
-  Três perguntas fecham a descrição. **Onde?** (referencie pelas áreas de ausculta. **Quando?**) palpe o ictus ou a carótida ao mesmo tempo e veja se a vibração cai na sístole, na diástole ou nas duas. **Quanto?**: gradue a intensidade.
-significado: O frêmito é o equivalente palpável de um sopro e denuncia turbulência importante. Sua presença acompanha os sopros de maior intensidade e reforça a suspeita de lesão estrutural.
+  Três perguntas fecham a descrição. **Onde?**: referencie pelas áreas de ausculta. **Quando?**: palpe o ictus ou a carótida ao mesmo tempo e veja se a vibração cai na sístole, na diástole ou nas duas. **Quanto?**: gradue a intensidade.
+significado: O frêmito é o **equivalente palpável de um sopro** e denuncia turbulência importante. Sua presença acompanha os sopros de maior intensidade e reforça a suspeita de lesão estrutural.
 causas:
   - "Estenose aórtica"
   - "Estenose pulmonar"

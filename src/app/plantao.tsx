@@ -3,6 +3,7 @@ import { Text, TextInput, View } from 'react-native';
 import { router } from 'expo-router';
 import { ChevronDown, ChevronUp, Search } from 'lucide-react-native';
 import { Tela } from '../design/Tela';
+import { TextoRico } from '../blocos/texto';
 import { Cabecalho } from '../design/Cabecalho';
 import { Rotulo } from '../design/Rotulo';
 import { EntradaAnimada } from '../design/EntradaAnimada';
@@ -50,19 +51,21 @@ function VerbeteAberto({ sinal, onAbrirTopico }: { sinal: SinalDePlantao; onAbri
         }}
       >
         <Rotulo texto="O achado" cor={paleta.tinta2} />
-        <Text android_hyphenationFrequency="full" style={{ ...corpoTexto, marginTop: 2, marginBottom: espaco.m }}>
-          {sinal.descricao}
-        </Text>
+        <View style={{ marginTop: 2, marginBottom: espaco.m }}>
+          <TextoRico style={corpoTexto}>{sinal.descricao}</TextoRico>
+        </View>
         <Rotulo texto="O que significa" cor={paleta.tinta2} />
-        <Text android_hyphenationFrequency="full" style={{ ...corpoTexto, marginTop: 2, marginBottom: espaco.m }}>
-          {sinal.significado}
-        </Text>
+        <View style={{ marginTop: 2, marginBottom: espaco.m }}>
+          <TextoRico style={corpoTexto}>{sinal.significado}</TextoRico>
+        </View>
         <Rotulo texto="Causas a considerar" cor={paleta.tinta2} />
         <View style={{ marginTop: 2 }}>
           {sinal.causas.map((causa) => (
             <View key={causa} style={{ flexDirection: 'row', marginBottom: 2 }}>
               <Text style={{ ...corpoTexto, textAlign: 'left', color: paleta.tinta2 }}>{'•'} </Text>
-              <Text style={{ ...corpoTexto, textAlign: 'left', flex: 1 }}>{causa}</Text>
+              <View style={{ flex: 1 }}>
+                <TextoRico style={{ ...corpoTexto, textAlign: 'left' }}>{causa}</TextoRico>
+              </View>
             </View>
           ))}
         </View>

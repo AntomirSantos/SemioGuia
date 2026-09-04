@@ -304,9 +304,19 @@ texto: |
 :::
 
 ::: sinal
+nome: Manobra de Spurling
+descricao: |
+  Com o paciente de preferência sentado, soma-se a **flexão lateral da cabeça** à **pressão sobre o vértice**: positiva quando os **sintomas radiculares aumentam**.
+significado: |
+  Comprimir as superfícies articulares **estreita os forames intervertebrais** e reproduz a dor da raiz comprimida. O espelho é o **teste de distração de Apley**: a tração cervical alarga os forames e **alivia**. Compressão que dói e tração que alivia respondem à mesma pergunta.
+causas:
+  - "Radiculopatia cervical por compressão foraminal"
+:::
+
+::: sinal
 nome: Sinal de Lasègue e elevação da perna estendida
-descricao: "Com o paciente em decúbito dorsal e as pernas estendidas, o examinador eleva um dos membros inferiores sobre a bacia sem deixar que o joelho dobre, manobra que estira o nervo ciático. Porto considera o sinal positivo quando a dor surge até 60 graus, ângulo formado entre o membro elevado e a mesa de exame, e registra que bloqueio e dor até 30 graus sugerem hérnia discal. Semiologia Clínica descreve a versão em duas etapas: primeiro a flexão do quadril com o joelho fletido a 90 graus, que tensiona a coxofemoral, e depois a extensão do joelho, que tensiona o nervo."
-significado: "A manobra separa duas coisas que doem no mesmo movimento, e Porto dá o critério: cabe decidir se a dor despertada pela elevação vem de compressão verdadeira do ciático ou de contratura dos isquiotibiais, esta fica confinada atrás da coxa, ao passo que a ciática costuma percorrer o membro todo. O desempenho medido da elevação da perna estendida e da prova cruzada, com as razões de verossimilhança de McGee e a concordância entre observadores, está no tópico de marcha e sinais meníngeos e não se repete aqui. A confirmação se faz com o sinal de Bragard, e a elevação do membro sadio que dói no lado afetado sugere compressão mais central."
+descricao: "Com o paciente em decúbito dorsal e as pernas estendidas, o examinador eleva um dos membros inferiores sobre a bacia **sem deixar que o joelho dobre**, manobra que **estira o nervo ciático**. Porto considera o sinal positivo quando a dor surge até 60 graus, ângulo formado entre o membro elevado e a mesa de exame, e registra que bloqueio e dor até 30 graus sugerem hérnia discal. Semiologia Clínica descreve a versão em duas etapas: primeiro a flexão do quadril com o joelho fletido a 90 graus, que tensiona a coxofemoral, e depois a extensão do joelho, que tensiona o nervo."
+significado: "A manobra separa duas coisas que doem no mesmo movimento, e Porto dá o critério: cabe decidir se a dor despertada pela elevação vem de compressão verdadeira do ciático ou de contratura dos isquiotibiais, esta fica confinada atrás da coxa, ao passo que **a ciática costuma percorrer o membro todo**. O desempenho medido da elevação da perna estendida e da prova cruzada, com as razões de verossimilhança de McGee e a concordância entre observadores, está no tópico de marcha e sinais meníngeos e não se repete aqui. A confirmação se faz com o sinal de Bragard, e a elevação do membro sadio que dói no lado afetado sugere compressão mais central."
 causas:
   - "Hérnia de disco lombossacra, com compressão radicular"
   - "Outras causas de compressão da raiz, como neoplasia e espondilolistese"
@@ -328,6 +338,17 @@ texto: |
   A aplicação do mesmo teste ao **quadril**, e o repertório completo das amplitudes coxofemorais, pertence ao tópico de quadril e joelho deste capítulo.
 
   **Uma nota de vocabulário que evita confusão.** Espondiloartrite e espondiloartrose são palavras vizinhas com significados opostos: a primeira nomeia um grupo de doenças **inflamatórias** com sacroileíte e lombalgia que melhora com o movimento; a segunda, descrita por Porto, é a **artrose** da coluna, degeneração do disco, das facetas e dos ligamentos, com dor que melhora com o repouso.
+:::
+
+::: sinal
+nome: Teste de Patrick (FABERE)
+descricao: |
+  Em decúbito dorsal, fletem-se quadril e joelho a **90 graus**, o tornozelo apoia no joelho oposto e a coxa é **abduzida e rodada para fora** (*flexion, abduction, external rotation*); uma mão fixa a crista ilíaca investigada e a outra empurra o joelho oposto rumo à mesa.
+significado: |
+  A leitura é **topográfica**: dor **atrás e do lado contrário** ao joelho empurrado aponta as **sacroilíacas** (pense nas espondiloartrites); dor **do mesmo lado** do movimento aponta a **coxofemoral**.
+causas:
+  - "Sacroileíte (espondiloartrites)"
+  - "Doença coxofemoral (dor ipsilateral e anterior)"
 :::
 
 ::: secao

@@ -269,6 +269,26 @@ linhas:
     - "Dor articular, muscular ou óssea; insuficiência arterial periférica; estenose do canal lombar (Porto)"
 :::
 
+::: sinal
+nome: Marcha ceifante (hemiplégica)
+descricao: |
+  O membro superior vai **fletido e aduzido**, mão fechada; o membro inferior, **espástico e estendido**, arrasta-se descrevendo um **semicírculo**: primeiro para fora, depois para diante, como uma foice.
+significado: |
+  É a marcha da **espasticidade da hemiplegia**: a hipertonia piramidal predomina nos extensores da perna e nos flexores do braço (postura de Wernicke-Mann), e o semicírculo é o jeito de avançar uma perna que não dobra.
+causas:
+  - "Hemiplegia espástica (lesão piramidal, tipicamente acidente vascular cerebral)"
+:::
+
+::: sinal
+nome: Marcha parkinsoniana
+descricao: |
+  O corpo anda **em bloco**, cabeça e tronco inclinados à frente, **braços sem balanço**, passos **miúdos e rápidos**, com **aceleração involuntária** (propulsão).
+significado: |
+  É a marcha da **rigidez extrapiramidal**. Combine com o resto do quadro: rigidez com roda denteada, hipertonia que não depende da velocidade e sem fraqueza associada.
+causas:
+  - "Parkinsonismo (rigidez extrapiramidal)"
+:::
+
 ::: conceito
 titulo: "Lendo a tabela: os detalhes que separam marchas parecidas"
 texto: |
@@ -396,6 +416,18 @@ texto: |
   **O que examinar junto.** Porto situa a rigidez de nuca dentro do exame da **mobilidade cervical** (flexão, extensão, rotação e lateralidade, anotando contratura, resistência e dor) e é o tópico de tireoide e pescoço que ensina esse exame. Fazer os quatro movimentos, e não apenas a flexão, é o que separa irritação meníngea de limitação osteoarticular.
 :::
 
+::: sinal
+nome: Rigidez de nuca
+descricao: |
+  Em decúbito dorsal, com a mão do examinador sob o occipital e **sem forçar**, a flexão da cabeça encontra **resistência involuntária**. Definição operacional que vale registrar: o paciente **não consegue tocar o queixo no esterno** nem elevar a cabeça 8 cm do leito. O extremo é o **opistótono**.
+significado: |
+  É o sinal mais importante de **irritação meníngea** (meningite, hemorragia subaracnóidea). Dois falso-negativos traiçoeiros: após hemorragia subaracnóidea o sinal pode levar **até 24 horas** para se instalar, e ele **some no coma profundo**. **Não pesquise** no politraumatizado nem diante de processo expansivo da fossa posterior. Teste os quatro movimentos cervicais: limitação em todas as direções sugere causa osteoarticular, não meníngea.
+causas:
+  - "Meningite (com a síndrome infecciosa: febre, prostração)"
+  - "Hemorragia subaracnóidea (pode demorar até 24 horas para aparecer)"
+  - "Limitação osteoarticular cervical, quando todos os movimentos estão restritos"
+:::
+
 ::: conceito
 titulo: Kernig, Brudzinski e o mecanismo comum
 texto: |
@@ -414,6 +446,27 @@ texto: |
   A mesma lógica produz um subproduto importante: o sinal de Kernig **não difere** da prova de elevação da perna estendida usada para investigar ciática (McGee), assunto do bloco seguinte.
 
   **A síndrome inteira**, com o vocabulário de Porto (*Semiologia Médica*, cap. 174): a síndrome meníngea reúne três síndromes, e os sinais deste tópico pertencem à segunda. A **síndrome de hipertensão craniana**; a **síndrome radicular**, que reúne cefaleia, raquialgia, fotofobia, hiperestesia, sensitiva e sensorial, postura antálgica em decúbito lateral com as pernas semidobradas, rigidez da nuca e provas de Kernig, de Brudzinski e de Lasègue positivas; e a **síndrome infecciosa**, quando há meningite, com febre, prostração, astenia, anorexia e taquicardia. Repare que a **postura antálgica espontânea** do paciente é o sinal de Brudzinski que ele executa sozinho, sem examinador nenhum.
+:::
+
+::: sinal
+nome: Sinal de Kernig
+descricao: |
+  Em dois tempos: dobra-se a coxa sobre a bacia em ângulo reto e a perna sobre a coxa; então tenta-se **estender a perna**. Positivo quando surge **dor no trajeto do ciático** e o paciente **reage impedindo** a extensão do joelho (na descrição original, o joelho não passava de 135 graus).
+significado: |
+  A base de todos os sinais meníngeos é a mesma: a recusa a movimentos que **estirem os nervos espinais** que atravessam o espaço subaracnóideo irritado. Estender o joelho com o quadril fletido **traciona o ciático**; o paciente com meninges irritadas não deixa. A mesma manobra serve à radiculopatia ciática: sinal de fronteira dupla.
+causas:
+  - "Irritação meníngea (meningite, hemorragia subaracnóidea)"
+  - "Radiculopatia ciática (a manobra equivale à elevação da perna estendida)"
+:::
+
+::: sinal
+nome: Sinal de Brudzinski
+descricao: |
+  Deitado de costas, pernas esticadas: **uma mão sobre o tórax** do paciente (para o tronco não acompanhar) e a outra sob o occipital imprime **flexão enérgica da cabeça**. Positivo quando **quadris e joelhos se dobram**, retraindo as pernas em direção ao tórax, às vezes com expressão de dor.
+significado: |
+  Fletir o pescoço **traciona a medula** e estira os nervos espinais; fletir quadris **e** joelhos é a única postura que alivia a tração no ciático e no femoral ao mesmo tempo, e o paciente a adota sem pensar. A **postura antálgica espontânea** do meningítico (decúbito lateral, pernas semidobradas) é o mesmo sinal executado sem examinador.
+causas:
+  - "Irritação meníngea por inflamação, hemorragia ou tumor no espaço subaracnóideo"
 :::
 
 ::: conceito

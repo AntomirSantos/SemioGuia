@@ -489,7 +489,7 @@ descricao: |
 
   Quando o extravasamento é suficiente para elevar a pele, chama-se hematoma, e equimose e hematoma se associam com frequência.
 significado: |
-  A digitopressão é o gesto que muda a conduta. Um exantema que empalidece à compressão pertence a um grupo de doenças; um exantema que não empalidece pertence a outro, com muito mais urgência. Em criança febril, procurar petéquias exige despir por completo, e essa é a diferença entre encontrar e não encontrar.
+  A digitopressão é o gesto que muda a conduta. Um exantema que empalidece à compressão pertence a um grupo de doenças; um exantema que **não empalidece** pertence a outro, com **muito mais urgência**. Em criança febril, procurar petéquias exige despir por completo, e essa é a diferença entre encontrar e não encontrar.
 
   Quando as manchas hemorrágicas decorrem de alterações capilares ou de discrasias sanguíneas, e não de traumatismo, o quadro recebe o nome de **púrpura**.
 causas:

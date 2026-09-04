@@ -453,6 +453,17 @@ texto: |
   O tópico de crânio e face já registra a concordância entre observadores para esta manobra, medida por McGee: kappa de 0,63.
 :::
 
+::: sinal
+nome: Defeito pupilar aferente relativo (pupila de Marcus Gunn)
+descricao: |
+  Na **manobra da luz alternante** (1 a 3 segundos em cada olho, em ritmo fixo), as duas pupilas contraem quando a luz está no olho normal e **dilatam quando a luz passa ao olho doente**. O nome fica com a pupila que dilata.
+significado: |
+  As pupilas recebem comandos idênticos do mesencéfalo, então doença **aferente** (retina ou nervo óptico) não gera anisocoria: só a comparação dinâmica a revela. Aponta **doença do nervo óptico do mesmo lado** ou doença retiniana grave e assimétrica. **Catarata não o produz.** E o negativo engana: o defeito é *relativo*, não enxerga doença bilateral simétrica.
+causas:
+  - "Doença do nervo óptico (neurite óptica, neuropatia isquêmica, lesão glaucomatosa)"
+  - "Doença retiniana grave e acentuadamente assimétrica"
+:::
+
 ::: conceito
 titulo: Duas síndromes pupilares que se reconhecem à beira do leito
 texto: |
@@ -468,6 +479,17 @@ texto: |
   - **regeneração aberrante do terceiro nervo**, depois de lesão por trauma, aneurisma ou tumor, mas não por isquemia, em que fibras destinadas ao reto medial acabam reinervando o constritor da pupila.
 
   Semiologia Clínica reúne, do lado prático, a lista que fecha o raciocínio da anisocoria: afastadas causas oculares locais (glaucoma agudo, traumatismo, inflamação, infecção) investiga-se a causa neurológica conforme o cenário em que a diferença piora. Anisocoria **pior no escuro** aponta para alteração fisiológica ou lesão simpática; **pior no claro**, para lesão parassimpática do III par, efeito farmacológico, pupila tônica de Adie ou pupila de Argyll-Robertson. É a mesma bifurcação que o tópico de olhos ensina, agora com os nomes neurológicos no fim de cada ramo, e é aqui que os dois ramos que ele deixou em aberto se fecham: o ramo do **dilatador** continua no bloco sobre a síndrome de Horner, logo adiante, e o ramo do **constritor** continua no bloco sobre as duas ptoses, onde a paralisia do III par aparece com sua ptose e sua oftalmoplegia.
+:::
+
+::: sinal
+nome: Pupila de Argyll-Robertson
+descricao: |
+  **Miose bilateral** com pupilas que **não reagem à luz** nem dilatam por completo no escuro, mas **contraem vigorosamente para perto** (dissociação luz-perto), com o reflexo de acomodação preservado.
+significado: |
+  Lesão da **região periaquedutal do mesencéfalo**: interrompe as fibras do reflexo à luz e poupa as mais ventrais, da resposta para perto. Clássica da neurossífilis, mas não exclusiva. A dissociação luz-perto tem diferencial curto: pupila tônica de Adie, doença grave do nervo óptico ou da retina (estas com visão muito comprometida), síndrome do mesencéfalo dorsal e regeneração aberrante do III nervo.
+causas:
+  - "Neurossífilis (paralisia geral, tabes dorsalis)"
+  - "Outras lesões da região periaquedutal do mesencéfalo"
 :::
 
 ::: conceito
@@ -494,6 +516,18 @@ texto: |
   Repare no alcance clínico dessa lista. Ela obriga a examinar tórax, fossa supraclavicular e força segmentar dos membros superiores diante de uma pupila pequena, e é por isso que o tópico de olhos dizia que a síndrome "obriga a olhar para fora da cabeça". Os achados de fossa supraclavicular estão no tópico de linfonodos e no de tireoide e pescoço; a força segmentar e os reflexos correspondentes estão no tópico de força, tônus e reflexos, neste mesmo capítulo.
 
   **Duas ressalvas honestas.** A primeira: a lógica anatômica sugere que lesões do terceiro neurônio poupem a sudorese facial, enquanto lesões do primeiro e do segundo a comprometam, mas McGee registra que, em um estudo, **esse achado não teve valor diagnóstico**. A anatomia prevê; os dados não confirmaram. A segunda: quando o exame não resolve, a confirmação e a localização se fazem com testes farmacológicos tópicos, que este guia nomeia e não detalha, e hoje a maior parte dos clínicos recorre diretamente à imagem de todo o trajeto simpático.
+:::
+
+::: sinal
+nome: Síndrome de Claude Bernard-Horner
+descricao: |
+  Do mesmo lado: **miose** (paralisia do dilatador), **ptose discreta** (músculo tarsal superior) e **anidrose da face**, com redução da fenda palpebral e aparência de enoftalmia. A anisocoria **piora no escuro**.
+significado: |
+  Denervação **simpática** do olho, em qualquer ponto da cadeia de três neurônios: do hipotálamo à medula C8 a T2, da medula sobre o **ápice do pulmão** ao gânglio cervical superior, e do gânglio à órbita pela carótida. Os achados vizinhos dão o endereço: tronco encefálico, fossa supraclavicular e raízes C8 a T1, ou órbita e pescoço. **Horner agudo e doloroso sugere dissecção de carótida.**
+causas:
+  - "Neoplasia do ápice pulmonar e massas cervicais (segundo neurônio)"
+  - "Síndrome bulbar lateral e outras lesões do tronco (primeiro neurônio)"
+  - "Dissecção de carótida (aguda e dolorosa), trauma e pós-operatório cervical"
 :::
 
 ::: pense
@@ -626,6 +660,16 @@ texto: |
   **A dor do trigêmeo.** Comprometida a raiz sensitiva, o paciente refere dor limitada ao território correspondente: é a **neuralgia do trigêmeo**, ou trigeminalgia. Porto (*Semiologia Médica*) a descreve como dor extremamente intensa, em agulhada, choque ou faísca, estritamente unilateral, no território de um dos três ramos, desencadeada por estimulação de uma **zona-gatilho**, a comissura labial é o ponto mais comum, o que obriga o paciente a evitar sorrir, conversar e mastigar; e registra que é afecção quase exclusiva de pessoas idosas. A distinção que o exame precisa fazer é entre a forma **essencial**, em que não há alteração objetiva de sensibilidade da face, e a **secundária**, em que há. Encontrar déficit sensitivo em um paciente com dor facial muda a investigação.
 
   Um achado vizinho, de valor prático imediato, encerra o V: o **sinal de Hutchinson**. Cerca de metade dos pacientes com herpes-zóster do território oftálmico desenvolve complicações que ameaçam a visão (uveíte, ceratite) em uma a quatro semanas do início do exantema. Como a ponta do nariz, a córnea e a íris compartilham o mesmo ramo do trigêmeo, vesículas na ponta do nariz sinalizam risco ocular aumentado (razão de verossimilhança 3,3). McGee, porém, fecha o assunto com a conduta que torna o sinal quase supérfluo: **todos** os pacientes com herpes-zóster oftálmico, com ou sem o sinal, devem receber antivirais e ser examinados por um especialista.
+:::
+
+::: sinal
+nome: Sinal de Hutchinson
+descricao: |
+  **Vesículas na ponta do nariz** em paciente com herpes-zóster do território oftálmico.
+significado: |
+  A ponta do nariz, a córnea e a íris compartilham o **mesmo ramo do trigêmeo** (nasociliar): vesículas ali sinalizam **risco ocular aumentado** (uveíte, ceratite em 1 a 4 semanas). A conduta, porém, não depende do sinal: **todo** zóster oftálmico recebe antiviral e avaliação especializada.
+causas:
+  - "Herpes-zóster oftálmico com acometimento do ramo nasociliar"
 :::
 
 ::: secao

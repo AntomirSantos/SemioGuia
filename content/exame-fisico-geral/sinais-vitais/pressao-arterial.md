@@ -304,6 +304,17 @@ texto: |
   No idoso, afira em decúbito, sentado e em pé, pela frequência de hipotensão ortostática. Queda maior que 20 mmHg na PAS ou 10 mmHg na PAD após 3 minutos em pé caracteriza hipotensão postural.
 :::
 
+::: sinal
+nome: Hipotensão ortostática
+descricao: |
+  Aferindo em decúbito, sentado e **em pé**: queda **maior que 20 mmHg na sistólica** ou **10 mmHg na diastólica** após **3 minutos** em pé.
+significado: |
+  A pressão de consultório sentada pode estar normal e ainda assim o paciente cair ao se levantar: no idoso, a aferição nas três posições faz parte do exame, pela frequência do achado.
+causas:
+  - "Hipovolemia e efeito de fármacos anti-hipertensivos"
+  - "Disautonomia do idoso"
+:::
+
 ::: conceito
 titulo: Sinal de Osler e pseudo-hipertensão
 nivel: avancado
@@ -311,6 +322,16 @@ texto: |
   Insufle o manguito acima da sistólica e procure a radial. Se ela continuar palpável, sinal ou manobra de Osler, considere pseudo-hipertensão.
 
   Lembre que a sensibilidade e a especificidade dessa manobra são baixas.
+:::
+
+::: sinal
+nome: Sinal de Osler
+descricao: |
+  Com o manguito insuflado **acima da pressão sistólica**, a artéria **radial continua palpável** como um cordão.
+significado: |
+  Sugere **pseudo-hipertensão**: artéria rígida que o manguito não colaba, inflando os números. A ressalva é do próprio texto: sensibilidade e especificidade **baixas**, o sinal levanta a suspeita, não a decide.
+causas:
+  - "Rigidez arterial do idoso (pseudo-hipertensão)"
 :::
 
 ::: relampago

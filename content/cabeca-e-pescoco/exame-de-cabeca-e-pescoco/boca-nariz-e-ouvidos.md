@@ -527,6 +527,27 @@ texto: |
   E uma advertência que evita erro grosseiro: segundo o ensino tradicional, quem ouve normalmente percebe o som de Weber na linha média, mas até **40%** das pessoas com audição normal também lateralizam o teste. Por isso **o Weber só deve ser interpretado em paciente que já se sabe ter perda auditiva** (McGee). Semiologia Clínica chega à mesma conclusão por outro caminho: em paciente sem queixa, o teste pode gerar resultado falso-positivo.
 :::
 
+::: sinal
+nome: Teste de Rinne alterado (via óssea maior que a aérea)
+descricao: |
+  Compara-se, no mesmo ouvido, a percepção do diapasão de **512 Hz** por via aérea e por via óssea (cerca de dois segundos em cada posição, percutido contra superfície **macia**): no achado anormal, a **via óssea soa mais forte que a aérea**.
+significado: |
+  O normal (e também a perda neurossensorial) é a via aérea prevalecer. Via óssea maior que a aérea aponta **perda condutiva** significativa. Registre de modo explícito ("via óssea maior que via aérea") em vez da confusa convenção de "Rinne negativo".
+causas:
+  - "Perda auditiva condutiva (orelha externa ou média: cerume, otite, otosclerose)"
+:::
+
+::: sinal
+nome: Teste de Weber lateralizado
+descricao: |
+  Diapasão vibrando **na linha média** (vértice, fronte ou dorso do nariz): o som é percebido mais alto **de um lado**.
+significado: |
+  Em perda **unilateral já conhecida**: lateraliza para o ouvido **bom** na perda **neurossensorial** e para o ouvido **ruim** na **condutiva**. A advertência que evita erro: até 40% das pessoas com audição normal também lateralizam, então **só interprete o Weber em quem já se sabe ter perda auditiva**.
+causas:
+  - "Perda neurossensorial unilateral (lateraliza ao lado bom)"
+  - "Perda condutiva unilateral (lateraliza ao lado ruim)"
+:::
+
 ::: conceito
 titulo: Onde este tópico encontra os outros
 texto: |

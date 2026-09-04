@@ -224,6 +224,18 @@ texto: |
   Quando esse som brônquico deslocado é muito intenso, a semiologia de língua portuguesa o chama de **sopro**: **tubário** nas pneumonias com hepatização, **cavitário** nas grandes cavernas com brônquio de drenagem pérvio, **anfórico** no pneumotórax hipertensivo. Um sopro brando e mais longo na expiração, ouvido sobre a 7ª vértebra cervical, sobre a traqueia ou na região interescapular, é apenas o som brônquico normal daquelas áreas.
 :::
 
+::: sinal
+nome: Sopro tubário (som brônquico fora do lugar)
+descricao: |
+  Som **brônquico** (agudo, rude, expiração mais longa e intervalo entre as fases) ouvido **na face posterior ou lateral do tórax, sobretudo nas partes baixas**, onde só deveria chegar o murmúrio vesicular. Quando muito intenso, chama-se **sopro**: tubário, cavitário ou anfórico.
+significado: |
+  **Sempre anormal** nessas sedes: só aparece quando pulmão **sólido, colapsado ou consolidado** encosta na parede e conduz as frequências altas que o pulmão aerado filtraria. Procure a companhia clássica: frêmito aumentado e ressonância vocal aumentada no mesmo território.
+causas:
+  - "Pneumonia com hepatização (sopro tubário)"
+  - "Caverna com brônquio pérvio (sopro cavitário)"
+  - "Pneumotórax hipertensivo (sopro anfórico)"
+:::
+
 ::: som
 titulo: Som traqueal
 arquivo: som-traqueal
@@ -286,6 +298,29 @@ linhas:
     - "Bronquite crônica, bronquiectasias"
 :::
 
+::: sinal
+nome: Estertores finos (crepitantes)
+descricao: |
+  Estalidos **agudos, suaves e curtos**, em maior número, **do meio para o fim da inspiração**. **Não se alteram com a tosse**; modificam-se ou somem com a mudança de posição.
+significado: |
+  Abertura sequencial de vias respiratórias antes fechadas, por líquido ou exsudato no parênquima. Predominam **nas bases** quando congestivos; na doença inflamatória, seguem a doença (bases na fibrose, lobos superiores na tuberculose).
+causas:
+  - "Pneumonia"
+  - "Congestão da insuficiência ventricular esquerda"
+  - "Doenças intersticiais (fibrose pulmonar)"
+:::
+
+::: sinal
+nome: Estertores grossos (bolhosos)
+descricao: |
+  Estalidos **graves, mais intensos e mais longos**, em menor número, no **início da inspiração e por toda a expiração**. **Podem desaparecer com a tosse**; não mudam com a posição.
+significado: |
+  Vias respiratórias carregadas de **secreção espessa** que se abrem e se fecham, somadas à perda de sustentação das paredes brônquicas. A resposta à tosse é o divisor prático em relação aos finos.
+causas:
+  - "Bronquite crônica"
+  - "Bronquiectasias"
+:::
+
 ::: som
 titulo: Estertores finos
 arquivo: estertores-finos
@@ -312,6 +347,27 @@ texto: |
   Um adventício menos citado merece registro: o **grasnido**, som inspiratório agudo comparado ao pio de uma gaivota, audível no fim da inspiração nas doenças intersticiais e na bronquiolite.
 :::
 
+::: sinal
+nome: Sibilos
+descricao: |
+  Sons contínuos **agudos**, de alta frequência, inspiratórios e expiratórios com **predomínio expiratório**, fugazes; mais audíveis **sobre o tórax**.
+significado: |
+  Ar passando por duto estreitado (espasmo, edema de parede, secreção aderida). A informação mais importante é a distribuição: **difusos** traduzem doença de toda a árvore brônquica; **localizados** apontam obstrução parcial por neoplasia ou corpo estranho.
+causas:
+  - "Asma e bronquite (sibilos difusos)"
+  - "Neoplasia ou corpo estranho (sibilos localizados)"
+:::
+
+::: sinal
+nome: Estridor
+descricao: |
+  Ruído musical **inspiratório** de altura constante (em torno de 400 Hz), **sempre mais audível sobre o pescoço**; intensifica-se muito na respiração forçada, de boca aberta.
+significado: |
+  Obstrução parcial da **laringe ou da traqueia**. Acusticamente idêntico ao sibilo, dele se separa por dois traços: a fase (**inspiratório**) e a sede (**pescoço**, não tórax). É achado de via respiratória alta, com a urgência que isso implica.
+causas:
+  - "Obstrução parcial da laringe ou da traqueia"
+:::
+
 ::: som
 titulo: Roncos
 arquivo: roncos
@@ -329,9 +385,9 @@ descricao: |
 ::: sinal
 nome: Atrito pleural
 descricao: |
-  Ruído irregular e descontínuo, mais intenso na inspiração, de tonalidade grave e duração longa, comparado ao ranger de couro. Para aprender a reconhecê-lo, encoste uma das mãos na própria orelha e atrite-a com a outra, fazendo forte pressão. Aumentar a pressão do receptor do estetoscópio contra a parede torna o atrito mais intenso.
+  Ruído irregular e descontínuo, **mais intenso na inspiração**, de tonalidade grave e duração longa, comparado ao **ranger de couro**. Para aprender a reconhecê-lo, encoste uma das mãos na própria orelha e atrite-a com a outra, fazendo forte pressão. Aumentar a pressão do receptor do estetoscópio contra a parede torna o atrito mais intenso.
 significado: |
-  Traduz o deslizamento de dois folhetos pleurais recobertos de exsudato: a assinatura da pleurite seca. Distingue-se dos estertores com facilidade: é mais grave, mais longo e produz vibração palpável, o frêmito pleural. A instalação de derrame pleural o faz desaparecer, porque o líquido separa os folhetos.
+  Traduz o deslizamento de dois folhetos pleurais recobertos de exsudato: a assinatura da **pleurite seca**. Distingue-se dos estertores com facilidade: é mais grave, mais longo e produz vibração palpável, o frêmito pleural. **A instalação de derrame pleural o faz desaparecer**, porque o líquido separa os folhetos.
 causas:
   - "Pleurite seca de qualquer etiologia"
   - "Tuberculose"
@@ -416,6 +472,17 @@ texto: |
   A **egofonia** é uma forma particular de broncofonia: a voz adquire qualidade anasalada e metálica, comparada por Laennec ao balido de uma cabra. Muitos examinadores a pesquisam pedindo ao paciente que emita um "i" prolongado e escutando sua transformação em um "a" anasalado. O que caracteriza o achado não é apenas a mudança do som, todas as vogais são alteradas mesmo pelo pulmão sadio, mas a **intensidade** da mudança e o fato de ela surgir de repente sobre uma área pequena de um dos lados. Antes de afirmar egofonia, confira que essa transformação não ocorre no ponto homólogo do outro hemitórax.
 
   Egofonia aparece na parte superior dos derrames pleurais e também na condensação pulmonar.
+:::
+
+::: sinal
+nome: Egofonia
+descricao: |
+  A voz auscultada adquire qualidade **anasalada e metálica** (o balido de cabra de Laennec): o "i" prolongado do paciente vira um "a" anasalado, **de repente, sobre uma área pequena de um lado**. Confira que o ponto homólogo do outro hemitórax não faz o mesmo.
+significado: |
+  Forma particular de broncofonia: transmissão facilitada das **frequências altas**. Aparece na **parte superior dos derrames pleurais** e na **condensação**. Na mesma família, em grau crescente: broncofonia, pectorilóquia fônica e pectorilóquia afônica (até o cochicho chega nítido).
+causas:
+  - "Derrame pleural (na faixa de transição do limite superior do líquido)"
+  - "Condensação pulmonar"
 :::
 
 ::: entendimento

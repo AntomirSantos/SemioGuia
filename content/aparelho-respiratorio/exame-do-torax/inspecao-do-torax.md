@@ -312,9 +312,9 @@ texto: |
 ::: sinal
 nome: Tiragem
 descricao: |
-  Depressão dos espaços intercostais, das fossas supraclaviculares, da fúrcula esternal ou do epigástrio durante a inspiração. Existe uma versão fisiológica, discreta, visível nas faces laterais do tórax de pessoas magras e longilíneas: a pressão intratorácica cai na inspiração e a atmosfera empurra os espaços intercostais para dentro enquanto os músculos ainda estão relaxados.
+  **Depressão** dos espaços intercostais, das fossas supraclaviculares, da fúrcula esternal ou do epigástrio **durante a inspiração**. Existe uma versão fisiológica, discreta, visível nas faces laterais do tórax de pessoas magras e longilíneas: a pressão intratorácica cai na inspiração e a atmosfera empurra os espaços intercostais para dentro enquanto os músculos ainda estão relaxados.
 significado: |
-  Torna-se patológica quando um obstáculo impede o ar de chegar a determinado território pulmonar. O parênquima correspondente não se expande, a pressão negativa se acentua e a parede cede para dentro. A tiragem marca, portanto, a região que não está sendo ventilada, e a altura da obstrução decide sua extensão.
+  Torna-se patológica quando um obstáculo impede o ar de chegar a determinado território pulmonar. O parênquima correspondente não se expande, a pressão negativa se acentua e a parede cede para dentro. A tiragem marca, portanto, **a região que não está sendo ventilada**, e a altura da obstrução decide sua extensão.
 causas:
   - "Tiragem de um hemitórax: oclusão de brônquio principal por tampão mucoso espesso, neoplasia ou corpo estranho"
   - "Tiragem bilateral por obstáculo acima da bifurcação traqueal: crupe diftérico, laringite estridulosa, corpo estranho, compressão por tumor de mediastino"
@@ -364,6 +364,26 @@ texto: |
   Um imitador merece atenção: no paciente tetraplégico a respiração depende inteiramente do diafragma, e a parede torácica paralisada pode ser puxada para dentro na inspiração. Tórax e abdome também ficam fora de fase, mas o abdome se move **para fora** na inspiração, não para dentro: o oposto da fraqueza diafragmática.
 :::
 
+::: sinal
+nome: Sinal de Hoover (paradoxo costal)
+descricao: |
+  Com as mãos apoiadas sobre as rebordas costais: na pessoa normal a inspiração **abre** o ângulo costal e as mãos se separam; no tórax hiperinsuflado, as rebordas são **puxadas para dentro** e as mãos **se aproximam na inspiração**.
+significado: |
+  O diafragma **achatado** da hiperinsuflação traciona as rebordas para dentro em vez de expandir o tórax. Como os demais sinais de obstrução avançada, é **específico e pouco sensível**: encontrá-lo reforça a doença obstrutiva; não encontrá-lo quase nada afasta.
+causas:
+  - "Doença pulmonar obstrutiva com hiperinsuflação (enfisema avançado)"
+:::
+
+::: sinal
+nome: Movimento abdominal paradoxal
+descricao: |
+  Em **decúbito dorsal** (de pé o achado some): abdome e tórax completamente **fora de fase**, o abdome **afunda enquanto o tórax se expande**, na inspiração e na expiração.
+significado: |
+  Sinal de **fraqueza diafragmática bilateral**, quase sempre com ortopneia intensa. O imitador: no **tetraplégico** a parede torácica paralisada também sai de fase, mas o abdome se move **para fora** na inspiração, o oposto.
+causas:
+  - "Fraqueza diafragmática bilateral (doença neuromuscular)"
+:::
+
 ::: conceito
 titulo: Assimetrias localizadas
 nivel: avancado
@@ -380,6 +400,16 @@ texto: |
   - **Movimento paradoxal de um segmento do gradil** na inspiração: retalho costal instável por traumatismo torácico.
 
   Dois pontos do exame geral pertencem a essa lista. O **desvio lateral da traqueia** acompanha fibrose pulmonar, atelectasia e grandes derrames. E a **distância medida da margem inferior da cricoide até a fúrcula**, normalmente acima de 5,5 cm (Porto, Semiologia Médica, cap. 36), encurta na hiperinsuflação do enfisema avançado.
+:::
+
+::: sinal
+nome: Sinal de Lemos Torres
+descricao: |
+  **Abaulamento dos espaços intercostais durante a expiração**, visível à inspeção do hemitórax.
+significado: |
+  Indica **derrame pleural**. Não confunda com o epônimo homônimo do abdome: a técnica bimanual de palpação hepática também leva o nome de Lemos-Torres, e são achados sem qualquer relação. O vizinho de lista é o **sinal de Ramond**, contratura da musculatura paravertebral de um lado, que denuncia comprometimento inflamatório da pleura homolateral.
+causas:
+  - "Derrame pleural"
 :::
 
 ::: pense
@@ -424,7 +454,7 @@ descricao: |
   - **Ângulo hiponiquial maior que 190°**: acurado, mas difícil de medir à beira do leito, pois exige instrumentos.
   - **Sinal de Schamroth**: encostam-se dorso contra dorso as falanges terminais de dois dedos homólogos, de preferência os anelares. Normalmente aparece entre eles uma pequena janela em forma de losango; no baqueteamento, a janela desaparece.
 significado: |
-  O sinal de Schamroth é o único dos três aplicável em qualquer consultório, e se sai bem: sensibilidade de 77% a 87%, especificidade de 90%, razão de verossimilhança 8 quando presente e 0,2 quando ausente (McGee). Encontrado o baqueteamento, a causa costuma aparecer na radiografia de tórax: em uma série de 350 pacientes, 80% tinham doença respiratória de base.
+  O sinal de Schamroth é o único dos três aplicável em qualquer consultório, e se sai bem: sensibilidade de 77% a 87%, especificidade de 90%, razão de verossimilhança 8 quando presente e 0,2 quando ausente (McGee). Encontrado o baqueteamento, a causa costuma aparecer na radiografia de tórax: em uma série de 350 pacientes, 80% tinham **doença respiratória de base**.
 causas:
   - "Neoplasia pulmonar"
   - "Bronquiectasias, abscesso pulmonar e empiema"

@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.18 (2026-09-04)
+
+- O modo plantão quase triplicou: de 36 para 100 verbetes de sinais, todos derivados do texto já revisado dos tópicos
+- Entraram Babinski, Romberg, Kernig e Brudzinski, os ritmos respiratórios, os sons adventícios, os sinais da ascite, Lachman, Patrick e muito mais
+- Os verbetes ganharam destaques em negrito nas partes decisivas: o achado, o divisor diagnóstico e a urgência saltam aos olhos
+
 ## 1.2.17 (2026-09-04)
 
 - Modo plantão redesenhado: os sinais agora aparecem agrupados por sistema, na ordem craniocaudal do guia

@@ -432,6 +432,18 @@ texto: |
   Duas notas de técnica: a **manobra de Valsalva** empurra a superfície pleural apical para cima contra os linfonodos e os torna mais visíveis; e a região supraclavicular tem imitadores próprios, cistos sinoviais do ombro na artrite reumatoide, costelas cervicais e articulações anômalas da primeira costela já foram confundidos com linfonodos.
 :::
 
+::: sinal
+nome: Nódulo de Virchow (linfonodo supraclavicular)
+descricao: |
+  Linfonodo palpável na **fossa supraclavicular**, na base do pescoço, onde toda a drenagem linfática retorna ao sistema venoso. A **manobra de Valsalva** o torna mais palpável, empurrando a cúpula pleural para cima.
+significado: |
+  Pode denunciar doença de cavidades que a mão não alcança: a adenopatia **esquerda** associa-se também a doenças **abdominais e pélvicas** (via ducto torácico); a direita, a tórax, braço e pescoço homolaterais. Em séries de biópsia supraclavicular, a maioria tinha neoplasia maligna, e cerca de metade não sabia do diagnóstico.
+causas:
+  - "Carcinoma metastático infradiafragmático (clássico à esquerda, mas um quarto aparece à direita)"
+  - "Neoplasias torácicas e linfomas"
+  - "Imitadores locais: cisto sinovial do ombro, costela cervical"
+:::
+
 ::: conceito
 titulo: "Localizada × generalizada: duas definições em uso"
 nivel: avancado

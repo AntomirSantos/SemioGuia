@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.18',
+    data: '2026-09-04',
+    linhas: [
+      'O modo plantão quase triplicou: de 36 para 100 verbetes de sinais, todos derivados do texto já revisado dos tópicos',
+      'Entraram Babinski, Romberg, Kernig e Brudzinski, os ritmos respiratórios, os sons adventícios, os sinais da ascite, Lachman, Patrick e muito mais',
+      'Os verbetes ganharam destaques em negrito nas partes decisivas: o achado, o divisor diagnóstico e a urgência saltam aos olhos',
+    ],
+  },
+  {
     versao: '1.2.17',
     data: '2026-09-04',
     linhas: [

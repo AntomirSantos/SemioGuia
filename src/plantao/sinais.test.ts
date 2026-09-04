@@ -27,7 +27,7 @@ test('lista todos os blocos sinal do conteúdo real, na ordem do guia', () => {
     }
     if (temSinal) ordemDosSistemas.push(sistema.titulo);
   }
-  expect(esperados).toBeGreaterThanOrEqual(30);
+  expect(esperados).toBeGreaterThanOrEqual(90);
   expect(sinais).toHaveLength(esperados);
   // Sistemas na ordem craniocaudal do guia; dentro de cada um, alfabética.
   const grupos = agruparPorSistema(sinais);

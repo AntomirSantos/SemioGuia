@@ -184,6 +184,16 @@ svg: |
 legenda: "As duas posições que revelam a isquemia. À esquerda, a elevação drena o pouco sangue que o membro isquêmico consegue reter e revela a palidez plantar que o decúbito escondia: é o segundo tempo da manobra de Porto. À direita, a posição pendente devolve a gravidade e o leito capilar dilatado se enche de uma vez, produzindo o rubor escuro que Semiologia Clínica e McGee descrevem, e que nenhum dos dois cronometra. Repare no que a figura deliberadamente não traz: o relógio. Os 5 a 12 segundos de Porto medem o retorno da cor quando o membro volta à posição HORIZONTAL, no terceiro tempo, e não valem para o membro pendente: nessa posição a gravidade acelera o reenchimento e um membro isquêmico passaria por normal."
 :::
 
+::: sinal
+nome: Palidez à elevação e rubor pendente
+descricao: |
+  Com o membro **elevado**, a planta empalidece (no normal, a elevação muda pouco ou nada a cor); ao **pendê-lo**, o pé ganha um **rubor escuro** conforme o leito capilar dilatado se enche de uma vez.
+significado: |
+  A elevação drena o pouco sangue que o membro **isquêmico** consegue reter, e a posição pendente devolve a gravidade a um leito capilar cronicamente dilatado. É o par de posições que revela a **insuficiência arterial crônica** que o decúbito esconde.
+causas:
+  - "Insuficiência arterial crônica dos membros inferiores"
+:::
+
 ::: secao
 titulo: A claudicação e a dor de repouso
 :::
@@ -394,8 +404,8 @@ texto: |
 
 ::: sinal
 nome: Gangrena seca e gangrena úmida
-descricao: "Morte de tecidos por isquemia intensa, aguda ou crônica. Na gangrena seca, os tecidos desidratam, ficam secos, duros e mumificados, a pele fica preta e firmemente aderida aos planos profundos, o limite entre o tecido são e o tecido morto é nítido, e com a evolução aparece ali um sulco de delimitação. Na gangrena úmida, os limites são imprecisos, há dor, edema e sinais inflamatórios, secreção serossanguinolenta ou purulenta de mau cheiro, e a pele necrosada fica escura, de consistência elástica, deslizando facilmente sobre os planos profundos."
-significado: "A distinção não é acadêmica: quando há infecção e toxemia, a gangrena úmida pode matar, e Porto a trata como condição de emergência. A gangrena seca ocorre principalmente na arteriosclerose obliterante periférica e na evolução tardia das oclusões arteriais agudas; durante a instalação há dor, que depois desaparece. Porto acrescenta que a gangrena gasosa é fenômeno diferente dos dois: o oxigênio chega normalmente, e quem falha é a célula, incapaz de aproveitá-lo por ação de endotoxinas bacterianas."
+descricao: "Morte de tecidos por isquemia intensa, aguda ou crônica. Na gangrena seca, os tecidos desidratam, ficam **secos, duros e mumificados**, a pele fica preta e firmemente aderida aos planos profundos, o limite entre o tecido são e o tecido morto é nítido, e com a evolução aparece ali um sulco de delimitação. Na gangrena úmida, os limites são imprecisos, há dor, edema e sinais inflamatórios, secreção serossanguinolenta ou purulenta de mau cheiro, e a pele necrosada fica escura, de consistência elástica, deslizando facilmente sobre os planos profundos."
+significado: "A distinção não é acadêmica: quando há infecção e toxemia, **a gangrena úmida pode matar**, e Porto a trata como condição de emergência. A gangrena seca ocorre principalmente na arteriosclerose obliterante periférica e na evolução tardia das oclusões arteriais agudas; durante a instalação há dor, que depois desaparece. Porto acrescenta que a gangrena gasosa é fenômeno diferente dos dois: o oxigênio chega normalmente, e quem falha é a célula, incapaz de aproveitá-lo por ação de endotoxinas bacterianas."
 causas:
   - "Arteriosclerose obliterante periférica"
   - "Evolução tardia de oclusão arterial aguda"

@@ -307,6 +307,29 @@ texto: |
   **Galope de soma.** Na taquicardia, a diástole encurta e os fenômenos que geram B3 e B4 se fundem em um só ruído, às vezes mais intenso que B1 ou B2. Só se confirma observando o paciente depois que a frequência cai.
 :::
 
+::: sinal
+nome: Ritmo de galope por B3
+descricao: |
+  Ritmo tríplice **PA-TA-TA**: um terceiro som **grave, protodiastólico**, logo depois de B2, mais audível **na ponta, com a campânula apoiada de leve, em decúbito lateral esquerdo**. Some se o receptor for comprimido; às vezes a mão o percebe antes do ouvido.
+significado: |
+  A parede ventricular vibra ao ser **distendida bruscamente no enchimento rápido**. Em crianças e jovens pode ser fisiológica; **depois dos 40 anos** deixa de ser esperada. A B3 patológica é o "grito de socorro" do miocárdio: aponta comprometimento importante do músculo. Lateralidade: galope de VD fica na borda esternal esquerda baixa e **aumenta na inspiração**; o de VE, na ponta, diminui.
+causas:
+  - "Insuficiência ventricular com sobrecarga de volume"
+  - "B3 fisiológica de crianças e adultos jovens (sem cardiopatia associada)"
+:::
+
+::: sinal
+nome: Galope atrial por B4
+descricao: |
+  Ritmo tríplice com um quarto som **grave e apagado, pré-sistólico**, logo **antes** de B1 (TA-TUM-TA), também da campânula leve. A pressão firme da campânula funde a dupla B4-B1; um desdobramento de B1 não se altera.
+significado: |
+  A contração atrial desacelera contra um **ventrículo rígido**: não é insuficiência descompensada, é insuficiência **iminente**, o ventrículo pedindo ajuda do átrio para encher. Exige ritmo sinusal: **desaparece na fibrilação atrial**.
+causas:
+  - "Cardiopatia hipertensiva (hipertensão arterial grave)"
+  - "Insuficiência coronária crônica e cardiopatia hipertrófica"
+  - "Estenose aórtica"
+:::
+
 ::: som
 titulo: "Ritmo de galope por B3: PA-TA-TA"
 arquivo: galope-b3
@@ -371,9 +394,9 @@ titulo: Estalidos, cliques e atrito
 ::: sinal
 nome: Estalido de abertura mitral
 descricao: |
-  Estalo curto, agudo e seco, no começo da diástole, anunciando o ruflar que vem logo atrás. Procure-o com o paciente rolado para a esquerda, varrendo da ponta até a borda esternal esquerda entre o 3º e o 4º espaço: embora não seja raro ele soar por todo o precórdio. É intenso o bastante para, em alguns pacientes, ser sentido pela mão.
+  Estalo curto, agudo e seco, **no começo da diástole**, anunciando o ruflar que vem logo atrás. Procure-o com o paciente rolado para a esquerda, varrendo da ponta até a borda esternal esquerda entre o 3º e o 4º espaço: embora não seja raro ele soar por todo o precórdio. É intenso o bastante para, em alguns pacientes, ser sentido pela mão.
 significado: |
-  Entre todos os achados da estenose mitral, é o que mais aponta para o diagnóstico. Mas ele depende de uma condição: a valva precisa conservar alguma mobilidade. Calcificação extensa imobiliza as cúspides e o estalo se cala; hipertensão pulmonar muito grave produz o mesmo silêncio.
+  Entre todos os achados da **estenose mitral**, é o que mais aponta para o diagnóstico. Mas ele depende de uma condição: **a valva precisa conservar alguma mobilidade**. Calcificação extensa imobiliza as cúspides e o estalo se cala; hipertensão pulmonar muito grave produz o mesmo silêncio.
 
   Não confundir com B2 desdobrada nem com B3. O desdobramento se nota na área pulmonar; o estalido, na área mitral e no 3º-4º espaço esquerdo junto ao esterno, com timbre mais agudo e mais seco. Já B3 é de tonalidade baixa, quase restrita à ponta, e está separada de B2 por um intervalo maior que o do estalido.
 causas:
@@ -395,13 +418,13 @@ texto: |
 ::: sinal
 nome: Atrito pericárdico
 descricao: |
-  Som raspado, de couro novo dobrando ou de duas lixas se esfregando. O melhor lugar para encontrá-lo é a faixa que liga o ápice à borda esternal esquerda, e a melhor condição é o paciente sentado, tronco inclinado à frente, segurando o ar depois de esvaziar o peito.
+  Som raspado, de **couro novo dobrando** ou de duas lixas se esfregando. O melhor lugar para encontrá-lo é a faixa que liga o ápice à borda esternal esquerda, e a melhor condição é o paciente sentado, tronco inclinado à frente, segurando o ar depois de esvaziar o peito.
 
   Não guarda relação fixa com as bulhas: ocorre tanto na sístole quanto na diástole e frequentemente recobre B1 e parte do pequeno silêncio. Praticamente não se irradia, e sua intensidade e qualidade mudam de um dia para outro: às vezes em poucas horas. Cerca de um quarto dos atritos é palpável.
 significado: |
-  É o sinal físico da pericardite. Em torno de metade dos pacientes apresenta três componentes por ciclo: um sistólico e dois diastólicos; um terço apresenta dois; o restante, apenas o componente sistólico ventricular.
+  É o sinal físico da **pericardite**. Em torno de metade dos pacientes apresenta três componentes por ciclo: um sistólico e dois diastólicos; um terço apresenta dois; o restante, apenas o componente sistólico ventricular.
 
-  O atrito não afasta derrame pericárdico: ele persiste com frequência mesmo depois do acúmulo de líquido e chega a ser ouvido em até um quarto dos pacientes com tamponamento.
+  **O atrito não afasta derrame pericárdico**: ele persiste com frequência mesmo depois do acúmulo de líquido e chega a ser ouvido em até um quarto dos pacientes com tamponamento.
 causas:
   - "Pericardite de qualquer etiologia: infecciosa, urêmica, neoplásica, actínica, por doença do tecido conjuntivo"
   - "Infarto agudo do miocárdio (surge em geral entre o 1º e o 3º dia)"

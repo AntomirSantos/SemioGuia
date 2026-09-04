@@ -174,8 +174,8 @@ texto: |
 
 ::: sinal
 nome: Déficit de pulso
-descricao: Número de batimentos cardíacos auscultados no precórdio maior que o número de pulsações palpadas na artéria radial, contados no mesmo minuto.
-significado: Algumas contrações ventriculares ocorrem antes do enchimento adequado das câmaras e não impulsionam sangue suficiente para gerar onda de pulso periférica. Quanto maior o déficit, maior a chance de fibrilação atrial, sobretudo com frequência cardíaca alta.
+descricao: Número de batimentos cardíacos auscultados no precórdio **maior que o número de pulsações palpadas** na artéria radial, contados **no mesmo minuto**.
+significado: Algumas contrações ventriculares ocorrem antes do enchimento adequado das câmaras e não impulsionam sangue suficiente para gerar onda de pulso periférica. Quanto maior o déficit, maior a chance de **fibrilação atrial**, sobretudo com frequência cardíaca alta.
 causas:
   - "Fibrilação atrial"
   - "Extrassistolia frequente"
@@ -184,13 +184,13 @@ causas:
 ::: sinal
 nome: Pulso paradoxal (pulso paradoxal de Kussmaul)
 descricao: |
-  Queda exagerada da pressão arterial sistólica durante a inspiração, descrita por Kussmaul em 1873. Considera-se pulso paradoxal a queda maior que 10 mmHg.
+  Queda exagerada da pressão arterial sistólica durante a inspiração, descrita por Kussmaul em 1873. Considera-se pulso paradoxal a **queda maior que 10 mmHg**.
 
   Só é palpável quando ultrapassa 15 a 20 mmHg. Por isso a aferição se faz com o esfigmomanômetro, que ainda permite quantificar o achado.
 significado: |
   Não há nada de paradoxal: é o exagero de um fenômeno fisiológico. Na inspiração, a queda da pressão intratorácica altera o enchimento das câmaras cardíacas e reduz o débito do ventrículo esquerdo. Perifericamente, isso se traduz por pulsação mais fraca.
 
-  O achado tem grande peso no tamponamento cardíaco. Queda maior que 10 mmHg ocorre em cerca de 98% desses pacientes, ao lado de turgência jugular e taquicardia.
+  O achado tem grande peso no **tamponamento cardíaco**. Queda maior que 10 mmHg ocorre em cerca de 98% desses pacientes, ao lado de turgência jugular e taquicardia.
 causas:
   - "Tamponamento cardíaco"
   - "Derrame pericárdico volumoso"

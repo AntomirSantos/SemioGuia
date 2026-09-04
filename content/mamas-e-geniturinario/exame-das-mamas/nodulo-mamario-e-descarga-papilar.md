@@ -252,8 +252,8 @@ titulo: Os alarmes do mamilo e da pele
 
 ::: sinal
 nome: Retração do mamilo
-descricao: "O mamilo puxado para dentro, avaliado sempre em comparação com o outro lado. O primeiro passo é datar: Porto registra que mulheres normais podem apresentar retração mamilar, e a Semiologia Médica explica a versão congênita, o mamilo invertido por sistema ductal hipoplásico, com bandas fibrosas que o retraem desde sempre, às vezes atrapalhando a amamentação. A pergunta decisiva, portanto, não é se o mamilo está retraído, e sim desde quando."
-significado: "A Semiologia Médica é direta: papila que se retraiu há pouco tempo é alerta de câncer, o tumor que infiltra os ductos terminais e os ligamentos traciona o mamilo para dentro. A retração antiga, bilateral e estável é variação anatômica; a nova, unilateral e progressiva pede investigação. A inspeção dinâmica do tópico anterior ajuda: a elevação dos braços e a contração dos peitorais acentuam a retração de causa infiltrativa."
+descricao: "O mamilo puxado para dentro, avaliado sempre em comparação com o outro lado. O primeiro passo é datar: Porto registra que mulheres normais podem apresentar retração mamilar, e a Semiologia Médica explica a versão congênita, o mamilo invertido por sistema ductal hipoplásico, com bandas fibrosas que o retraem desde sempre, às vezes atrapalhando a amamentação. A pergunta decisiva, portanto, não é se o mamilo está retraído, e sim **desde quando**."
+significado: "A Semiologia Médica é direta: **papila que se retraiu há pouco tempo é alerta de câncer**, o tumor que infiltra os ductos terminais e os ligamentos traciona o mamilo para dentro. A retração antiga, bilateral e estável é variação anatômica; a nova, unilateral e progressiva pede investigação. A inspeção dinâmica do tópico anterior ajuda: a elevação dos braços e a contração dos peitorais acentuam a retração de causa infiltrativa."
 causas:
   - "Carcinoma de mama, quando a retração é recente e unilateral"
   - "Mamilo invertido congênito, por sistema ductal hipoplásico"
@@ -263,8 +263,8 @@ causas:
 
 ::: sinal
 nome: Doença de Paget do mamilo
-descricao: "Lesão eczematosa do complexo areolopapilar: erosões, crostas e descamação, exatamente o trio que Porto manda procurar na região dos mamilos durante a inspeção. O aspecto engana por parecer banal: lembra eczema ou dermatite de contato, e a Semiologia Médica coloca os três na mesma linha de pesquisa da aréola justamente porque se confundem."
-significado: "A Semiologia Médica define sem eufemismo: a doença de Paget é um tipo de câncer de mama. O que diferencia a suspeita não é o aspecto, é o comportamento: unilateralidade e persistência apesar do cuidado tópico pedem esclarecimento, e a mesma obra indica o caminho, a biopsia de pele por punch, listada para a suspeita de acometimento cutâneo da mama ao lado do carcinoma inflamatório. Eczema de aréola que não cura não se acompanha: se biopsia."
+descricao: "Lesão eczematosa do complexo areolopapilar: **erosões, crostas e descamação**, exatamente o trio que Porto manda procurar na região dos mamilos durante a inspeção. O aspecto engana por parecer banal: lembra eczema ou dermatite de contato, e a Semiologia Médica coloca os três na mesma linha de pesquisa da aréola justamente porque se confundem."
+significado: "A Semiologia Médica define sem eufemismo: a doença de Paget é um tipo de câncer de mama. O que diferencia a suspeita não é o aspecto, é o comportamento: unilateralidade e persistência apesar do cuidado tópico pedem esclarecimento, e a mesma obra indica o caminho, a biopsia de pele por punch, listada para a suspeita de acometimento cutâneo da mama ao lado do carcinoma inflamatório. **Eczema de aréola que não cura não se acompanha: se biopsia.**"
 causas:
   - "Doença de Paget do mamilo, forma de carcinoma mamário"
   - "Eczema e dermatite de contato, os imitadores benignos"

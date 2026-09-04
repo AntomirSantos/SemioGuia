@@ -281,7 +281,7 @@ descricao: |
 
   A resposta normal é a coluna permanecer inalterada ou subir por um ou dois batimentos e voltar. O teste é positivo quando a coluna sobe mais de **4 cm** e **permanece elevada durante todos os 10 segundos**; na prática, a maioria dos examinadores lê o resultado no instante em que solta o abdome, considerando positiva uma queda maior que 4 cm.
 significado: |
-  Um teste positivo indica pressões de enchimento elevadas do coração esquerdo. Em quem se apresenta com dispneia, isso significa que pelo menos parte do quadro vem do lado esquerdo do coração. O teste negativo reduz essa probabilidade.
+  Um teste positivo indica **pressões de enchimento elevadas do coração esquerdo**. Em quem se apresenta com dispneia, isso significa que pelo menos parte do quadro vem do lado esquerdo do coração. O teste negativo reduz essa probabilidade.
 
   O sinal nasceu como refluxo hepatojugular, descrito por Pasteur em 1885 e considerado então patognomônico de insuficiência tricúspide. Descobriu-se depois que pacientes com tricúspide normal também o apresentam, e que a compressão de qualquer região do abdome, não apenas do fígado, o produz. Daí o nome moderno, teste abdominojugular.
 causas:
@@ -292,11 +292,11 @@ causas:
 
 ::: sinal
 nome: Sinal de Kussmaul
-descricao: "Elevação paradoxal da coluna venosa jugular durante a inspiração. O normal é o oposto: a queda da pressão intratorácica reduz as pressões no coração direito e a coluna desce."
+descricao: "**Elevação paradoxal** da coluna venosa jugular **durante a inspiração**. O normal é o oposto: a queda da pressão intratorácica reduz as pressões no coração direito e a coluna desce."
 significado: |
   Traduz um ventrículo direito incapaz de acomodar o volume extra que a inspiração lhe traz, seja porque o pericárdio o restringe, seja porque ele já está dilatado dentro de um pericárdio normal. Costuma andar junto com um teste abdominojugular francamente positivo, e há quem o descreva como um teste abdominojugular inspiratório, produzido pela descida do diafragma sobre o abdome.
 
-  É classicamente associado à pericardite constritiva, mas está presente apenas na minoria desses pacientes. Quando encontrado na insuficiência cardíaca grave, associa-se a pior prognóstico.
+  É classicamente associado à **pericardite constritiva**, mas está presente apenas na minoria desses pacientes. Quando encontrado na insuficiência cardíaca grave, associa-se a pior prognóstico.
 
   Não confundir com os outros dois epônimos de Kussmaul, tratados no tópico de frequência cardíaca e pulso: o pulso paradoxal e a respiração de Kussmaul.
 causas:
@@ -342,6 +342,17 @@ texto: |
   - **Outras alterações da pele**: palidez, cianose, vermelhidão; pele lisa e brilhante no edema recente e intenso, espessa nos de longa duração.
 
   Duas medidas complementam o exame e acompanham a evolução: pesar o paciente diariamente e medir o perímetro da região edemaciada, comparando com o lado oposto em dias sucessivos.
+:::
+
+::: sinal
+nome: Edema com cacifo (sinal de Godet)
+descricao: |
+  Compressão **firme e sustentada** da polpa do dedo contra estrutura rígida (tíbia, sacro, ossos da face): ao retirar, fica a **fóvea**, o cacifo. Gradue a intensidade **em cruzes (+ a ++++)** e descreva consistência, elasticidade, temperatura, sensibilidade e a pele adjacente.
+significado: |
+  O líquido intersticial cede ao dedo e demora a voltar. **Mole e elástico** sugere retenção recente ou inflamação; **duro** fala de edema antigo com proliferação fibroblástica. Procure também onde ninguém olha: região **pré-sacra** no acamado e subpalpebral na face.
+causas:
+  - "Edema cardíaco (vespertino, ascendente) e demais edemas generalizados (renal, hepático, carencial)"
+  - "Edema inflamatório e venoso localizado"
 :::
 
 ::: tabela

@@ -365,6 +365,16 @@ texto: |
   Nos extremos: na diarreia e na oclusão mecânica os ruídos se intensificam; no íleo paralítico eles desaparecem, e a esse achado se dá o nome de **silêncio abdominal**. A ausculta é particularmente útil no pós-operatório de cirurgia intraperitoneal, quando o peristaltismo cessa por um período que costuma variar entre 24 e 72 horas, mais prolongado se houver infecção peritoneal ou distúrbio hidreletrolítico.
 :::
 
+::: sinal
+nome: Silêncio abdominal
+descricao: |
+  **Desaparecimento completo dos ruídos hidroaéreos**, declarado só depois de tempo de escuta proporcional: dez segundos de estetoscópio não bastam para afirmá-lo.
+significado: |
+  É o achado do **íleo paralítico**. Nos extremos opostos, diarreia e **oclusão mecânica** intensificam os ruídos. No pós-operatório intraperitoneal, o peristaltismo cessa normalmente por 24 a 72 horas. E lembre a ordem do exame: **ausculte antes de palpar**, porque a palpação estimula o peristaltismo.
+causas:
+  - "Íleo paralítico (pós-operatório além de 72 horas, peritonite, hipopotassemia, isquemia)"
+:::
+
 ::: perola
 texto: "Afirmar que não há ruídos hidroaéreos é uma afirmação forte, e exige tempo de escuta proporcional. Se você declara silêncio abdominal depois de dez segundos de estetoscópio, o silêncio pode ser seu, não do paciente."
 :::
@@ -404,8 +414,8 @@ texto: |
 ::: sinal
 nome: Sinais de Cullen e de Grey-Turner
 nivel: avancado
-descricao: "Equimose da parede abdominal. No sinal de Cullen, ela é periumbilical; no de Grey-Turner, ocupa os flancos."
-significado: "Ambos indicam hemorragia retroperitoneal ou intraperitoneal. São sinais raros: McGee registra frequência inferior a 1% na gravidez ectópica rota e inferior a 3% na pancreatite. Presentes, pesam; ausentes, não excluem nada."
+descricao: "Equimose da parede abdominal. No sinal de Cullen, ela é **periumbilical**; no de Grey-Turner, ocupa os **flancos**."
+significado: "Ambos indicam **hemorragia retroperitoneal ou intraperitoneal**. São sinais raros: McGee registra frequência inferior a 1% na gravidez ectópica rota e inferior a 3% na pancreatite. Presentes, pesam; ausentes, não excluem nada."
 causas:
   - "Pancreatite aguda necro-hemorrágica: descrição original de Grey Turner, em 1920, em um paciente com pancreatite hemorrágica"
   - "Gravidez ectópica rota: quadro em que Cullen descreveu o sinal, em 1918"

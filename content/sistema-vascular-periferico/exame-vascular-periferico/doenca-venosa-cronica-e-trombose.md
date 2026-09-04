@@ -298,8 +298,8 @@ texto: |
 
 ::: sinal
 nome: Sinal de Homans
-descricao: "Dor na panturrilha provocada pela dorsiflexão forçada do pé. Porto descreve a manobra e considera positiva a dor intensa na panturrilha; Semiologia Clínica define o sinal pela dor que a dorsiflexão do pé provoca abaixo do joelho."
-significado: "Porto o mantém entre as manobras com valor propedêutico na avaliação diagnóstica da trombose venosa profunda, ao lado das manobras de Olow e de Denecke-Payr. McGee chega a conclusão oposta: na tabulação de sensibilidade e especificidade dos sinais físicos, a presença ou a ausência do sinal de Homans não tem valor diagnóstico. As duas posições estão registradas lado a lado neste guia, e a história do próprio sinal está no bloco de aprofundamento."
+descricao: "Dor na panturrilha provocada pela **dorsiflexão forçada do pé**. Porto descreve a manobra e considera positiva a dor intensa na panturrilha; Semiologia Clínica define o sinal pela dor que a dorsiflexão do pé provoca abaixo do joelho."
+significado: "Porto o mantém entre as manobras com valor propedêutico na avaliação diagnóstica da trombose venosa profunda, ao lado das manobras de Olow e de Denecke-Payr. McGee chega a conclusão oposta: na tabulação de sensibilidade e especificidade dos sinais físicos, a presença ou a ausência do sinal de Homans **não tem valor diagnóstico**. As duas posições estão registradas lado a lado neste guia, e a história do próprio sinal está no bloco de aprofundamento."
 causas:
   - "Trombose venosa profunda"
   - "Cisto de Baker, o principal diagnóstico diferencial (Semiologia Clínica)"

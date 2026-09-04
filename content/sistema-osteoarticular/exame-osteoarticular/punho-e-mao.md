@@ -282,6 +282,16 @@ linhas:
     - "Artrite mutilante, reumatoide ou psoriásica"
 :::
 
+::: sinal
+nome: Teste de Finkelstein
+descricao: |
+  O paciente **fecha a mão sobre o próprio polegar** e o punho é **desviado para o lado ulnar**: positivo quando o movimento desperta **dor** na face radial do punho.
+significado: |
+  Estira as bainhas do **abdutor longo e do extensor curto do polegar**: dor aponta a **tenossinovite de De Quervain**. É achado da metade sem número do exame da mão: nomeado, definido e sem acurácia publicada, porque o próprio achado é o critério diagnóstico.
+causas:
+  - "Tenossinovite de De Quervain"
+:::
+
 ::: entendimento
 titulo: Por que esta tabela não tem uma coluna de razão de verossimilhança
 texto: |
@@ -335,8 +345,8 @@ texto: |
 
 ::: sinal
 nome: Dedo em gatilho
-descricao: "O dedo se flete sobre a palma normalmente, mas a extensão trava. Porto descreve o momento exato: o movimento é bloqueado e, só quando ocorre um ressalto, o tendão vence a resistência e completa a extensão. Semiologia Clínica acrescenta o que o paciente relata: muitas vezes precisa da outra mão para abrir o dedo, e o desbloqueio vem com um clique. À palpação da palma, no nível da metacarpofalangiana, encontram-se pequenos nódulos."
-significado: "É uma tenossinovite estenosante, não uma doença da articulação. Porto explica o mecanismo pelo lado do tendão: a estenose da bainha ou a formação de um nódulo no próprio tendão impede o deslizamento suave. Semiologia Clínica explica pelo lado do túnel: a tenossinovite evolui com fibrose, e a primeira polia anular se estreita sobre a metacarpofalangiana. McGee registra o achado na tabela de punho e mão, sem razão de verossimilhança, como sensação de ressalto ou travamento na palma durante a flexão e a extensão dos dedos. É um bom exemplo do princípio geral do capítulo: aumento de volume e dor fora das margens da junta apontam para fora dela."
+descricao: "O dedo se flete sobre a palma normalmente, mas **a extensão trava**. Porto descreve o momento exato: o movimento é bloqueado e, só quando ocorre um ressalto, o tendão vence a resistência e completa a extensão. Semiologia Clínica acrescenta o que o paciente relata: muitas vezes precisa da outra mão para abrir o dedo, e o desbloqueio vem com um clique. À palpação da palma, no nível da metacarpofalangiana, encontram-se pequenos nódulos."
+significado: "É uma **tenossinovite estenosante, não uma doença da articulação**. Porto explica o mecanismo pelo lado do tendão: a estenose da bainha ou a formação de um nódulo no próprio tendão impede o deslizamento suave. Semiologia Clínica explica pelo lado do túnel: a tenossinovite evolui com fibrose, e a primeira polia anular se estreita sobre a metacarpofalangiana. McGee registra o achado na tabela de punho e mão, sem razão de verossimilhança, como sensação de ressalto ou travamento na palma durante a flexão e a extensão dos dedos. É um bom exemplo do princípio geral do capítulo: aumento de volume e dor fora das margens da junta apontam para fora dela."
 causas:
   - "Uso excessivo e microtraumatismos repetidos"
   - "Artrite reumatoide, que Porto registra como associação frequente"
@@ -400,8 +410,8 @@ texto: |
 
 ::: sinal
 nome: Sinal de Phalen
-descricao: "Mantém-se a flexão máxima dos punhos por 60 segundos. A versão de consultório de Semiologia Clínica encosta os dorsos das mãos, com os cotovelos fletidos e elevados, e testa os dois lados ao mesmo tempo. O sinal é positivo quando surgem parestesias no território do mediano: polegar, indicador, médio e metade radial do anular."
-significado: "É a manobra mais conhecida da síndrome do túnel do carpo e uma das de pior desempenho medido. No boxe EBM 64.3, tendo a eletroneuromiografia como padrão, Phalen tem sensibilidade de 10% a 91% e especificidade de 33% a 86%, com razão de verossimilhança 1,3 quando presente e 0,7 quando ausente. Nenhum dos dois números move a probabilidade de forma útil. McGee é explícito sobre a razão: Tinel, Phalen e as manobras provocativas mais recentes não separam a síndrome do túnel do carpo das demais causas comuns de disestesia da mão, como polineuropatia, neuropatia ulnar e radiculopatia."
+descricao: "Mantém-se a **flexão máxima dos punhos por 60 segundos**. A versão de consultório de Semiologia Clínica encosta os dorsos das mãos, com os cotovelos fletidos e elevados, e testa os dois lados ao mesmo tempo. O sinal é positivo quando surgem parestesias no território do mediano: polegar, indicador, médio e metade radial do anular."
+significado: "É a manobra mais conhecida da síndrome do túnel do carpo e **uma das de pior desempenho medido**. No boxe EBM 64.3, tendo a eletroneuromiografia como padrão, Phalen tem sensibilidade de 10% a 91% e especificidade de 33% a 86%, com razão de verossimilhança 1,3 quando presente e 0,7 quando ausente. Nenhum dos dois números move a probabilidade de forma útil. McGee é explícito sobre a razão: Tinel, Phalen e as manobras provocativas mais recentes não separam a síndrome do túnel do carpo das demais causas comuns de disestesia da mão, como polineuropatia, neuropatia ulnar e radiculopatia."
 causas:
   - "Síndrome do túnel do carpo, que é a hipótese que a manobra interroga"
   - "Polineuropatia, que produz disestesia da mão e falseia a manobra"

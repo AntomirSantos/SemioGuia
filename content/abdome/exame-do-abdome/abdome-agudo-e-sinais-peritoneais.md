@@ -213,8 +213,8 @@ titulo: Descompressão brusca e as alternativas gentis
 
 ::: sinal
 nome: Sinal de Blumberg
-descricao: "Dor que aparece ou se exacerba no momento em que a mão do examinador é retirada abruptamente, após compressão lenta e progressiva da parede abdominal."
-significado: "Sinal de irritação peritoneal. Porto observa que a manobra pode ser aplicada em qualquer região e que seu significado é sempre o mesmo: peritonite; na peritonite generalizada, o sinal aparece em qualquer área pesquisada. Vale saber que o uso corrente ampliou a descrição original: McGee registra que J. Moritz Blumberg (1873 a 1955), cirurgião e ginecologista alemão, descreveu a dor no baixo ventre após a retirada abrupta da mão do quadrante inferior esquerdo, e a tomava por sinal de apendicite. Os dados de McGee mostram ainda que o achado move a probabilidade pouco: razão de verossimilhança 2,0 quando presente e 0,4 quando ausente, menos do que rigidez, percussão dolorosa e defesa."
+descricao: "Dor que aparece ou se exacerba **no momento em que a mão do examinador é retirada abruptamente**, após compressão lenta e progressiva da parede abdominal."
+significado: "Sinal de **irritação peritoneal**. Porto observa que a manobra pode ser aplicada em qualquer região e que seu significado é sempre o mesmo: peritonite; na peritonite generalizada, o sinal aparece em qualquer área pesquisada. Vale saber que o uso corrente ampliou a descrição original: McGee registra que J. Moritz Blumberg (1873 a 1955), cirurgião e ginecologista alemão, descreveu a dor no baixo ventre após a retirada abrupta da mão do quadrante inferior esquerdo, e a tomava por sinal de apendicite. Os dados de McGee mostram ainda que o achado move a probabilidade pouco: razão de verossimilhança 2,0 quando presente e 0,4 quando ausente, menos do que rigidez, percussão dolorosa e defesa."
 causas:
   - "Apendicite aguda: a causa mais frequente de peritonite nas séries estudadas"
   - "Perfuração de víscera oca (úlcera péptica, divertículo, apêndice)"
@@ -272,6 +272,36 @@ texto: |
   **Toque retal.** Nos casos em que a inflamação se confina à pelve, o toque pode revelar sensibilidade, sobretudo à direita; e alguns pacientes com perfuração apresentam massa retal, correspondente a abscesso pélvico. Nos estudos, a sensibilidade ao toque retal não se mostrou útil para o diagnóstico, mas o exame continua indicado justamente para detectar o paciente raro, 2% ou menos, com abscesso pélvico e massa (McGee). A técnica completa do toque (posições, entrada, canal, ampola e próstata) é ensinada no tópico Toque retal, do sistema Mamas e geniturinário; os números do abdome agudo moram aqui.
 :::
 
+::: sinal
+nome: Sinal de Rovsing
+descricao: |
+  A pressão sobre o quadrante inferior **esquerdo** provoca dor no quadrante inferior **direito**: a dor indireta.
+significado: |
+  A hipótese original de Rovsing: a pressão empurra gás retrogradamente até o **ceco**, e a distensão adicional dói se o **apêndice** estiver inflamado. Some-se ao ponto de McBurney e aos sinais do psoas e do obturador no raciocínio da apendicite.
+causas:
+  - "Apendicite aguda"
+:::
+
+::: sinal
+nome: Sinal do psoas
+descricao: |
+  Paciente em decúbito lateral **esquerdo**; o examinador **hiperestende o quadril direito**. Positivo quando a extensão desperta dor no quadrante inferior direito.
+significado: |
+  O apêndice inflamado pode repousar sobre o **psoas direito**: estirar o músculo irritado dói, e o paciente tende a mantê-lo encurtado com o joelho fletido.
+causas:
+  - "Apendicite aguda (apêndice em contato com o psoas)"
+:::
+
+::: sinal
+nome: Sinal do obturador
+descricao: |
+  Flete-se o quadril e o joelho **direitos** e faz-se a **rotação interna do quadril**: positivo quando o movimento provoca dor.
+significado: |
+  Mesmo princípio do psoas, outro músculo: estirar o **obturador interno** irritado pelo apêndice inflamado pélvico provoca dor.
+causas:
+  - "Apendicite aguda de localização pélvica"
+:::
+
 ::: manobra
 titulo: Sinais do psoas e do obturador
 passos:
@@ -293,8 +323,8 @@ titulo: Vesícula e loja renal
 
 ::: sinal
 nome: Sinal de Murphy
-descricao: "Interrupção súbita da inspiração profunda pela dor, quando os dedos do examinador estão comprimindo o ponto cístico, sob o rebordo costal direito."
-significado: "Sugere colecistite aguda. Razão de verossimilhança 3,2 quando presente e 0,6 quando ausente: o achado de maior peso no exame do quadrante superior direito, à frente da própria dor à palpação da região (2,7)."
+descricao: "**Interrupção súbita da inspiração profunda pela dor**, quando os dedos do examinador estão comprimindo o **ponto cístico**, sob o rebordo costal direito."
+significado: "Sugere **colecistite aguda**. Razão de verossimilhança 3,2 quando presente e 0,6 quando ausente: o achado de maior peso no exame do quadrante superior direito, à frente da própria dor à palpação da região (2,7)."
 causas:
   - "Colecistite aguda, com ou sem cálculo"
   - "Colelitíase e colecistite crônica, em que Porto descreve o sinal com frequência ainda que a vesícula não seja palpável"
@@ -326,6 +356,18 @@ passos:
   - "Considere positivo quando o golpe desperta dor intensa: o sinal de Giordano."
 observar: |
   O sinal é muito sensível e pouco específico: além da pielonefrite aguda, pode ser positivo na litíase renal com cólica nefrética e mesmo em contratura muscular (Semiologia Clínica). Em um estudo com 1.333 pacientes que chegaram com dor abdominal aguda, McGee registra dois achados úteis para ureterolitíase, ambos provocados pelo examinador: dor à palpação do flanco e da região lombar, com razão de verossimilhança 27,7 (eleva muito a probabilidade, quase decide sozinha), e dor à palpação renal, com 3,6 quando presente e 0,2 quando ausente (elevação e redução moderadas), ainda que ambos fiquem atrás da hematúria microscópica.
+:::
+
+::: sinal
+nome: Sinal de Giordano
+descricao: |
+  Punho-percussão do **ângulo costovertebral**, começando com golpes **leves** e comparando os dois lados: positivo quando o golpe desperta **dor intensa**.
+significado: |
+  Sinal **muito sensível e pouco específico** de comprometimento renal: a assimetria vale mais que a resposta isolada. Além da pielonefrite, pode ser positivo na cólica nefrética e até em contratura muscular.
+causas:
+  - "Pielonefrite aguda"
+  - "Litíase renal com cólica nefrética"
+  - "Contratura muscular lombar (falso-positivo)"
 :::
 
 ::: secao

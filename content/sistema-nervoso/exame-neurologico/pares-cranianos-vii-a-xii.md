@@ -226,6 +226,16 @@ texto: |
   Uma precisão anatômica de McGee evita um erro frequente: **lesões do nervo facial não causam ptose**. A pálpebra é elevada pelo músculo elevador, inervado pelo III par, e pelo músculo tarsal, de inervação simpática: nenhum dos dois pertence ao facial. Uma face assimétrica com ptose verdadeira aponta para outro lugar, e o tópico de pares cranianos de I a VI trata dele.
 :::
 
+::: sinal
+nome: Sinal de Bell
+descricao: |
+  Ao tentar fechar as pálpebras do lado paralisado, **o globo ocular gira para cima e a esclerótica fica exposta**. Acompanha a paralisia facial unilateral: **lagoftalmia** (o olho que não fecha), epífora e desvio da boca para o lado sadio ao mostrar os dentes.
+significado: |
+  Marca a paralisia facial **periférica**, que paralisa **todos os andares** da hemiface. Na paralisia **central**, o andar superior é poupado e os movimentos **emocionais** sobrevivem: assimetria que desaparece no riso espontâneo é central. E lembre: **lesão do facial não causa ptose**, a pálpebra sobe pelo III par e pelo simpático.
+causas:
+  - "Paralisia facial periférica (paralisia de Bell, a frigore; associação com diabetes melito)"
+:::
+
 ::: conceito
 titulo: "Central × periférica: o que este tópico acrescenta"
 texto: |
@@ -354,6 +364,17 @@ texto: |
   A **disfonia** merece uma última linha porque tem dono duplo neste guia: o tópico de tireoide e pescoço a trata como sinal de alarme de massa cervical, pela relação do nervo laríngeo recorrente com a glândula, e recomenda que ela torne mandatório o exame da tireoide. Aqui ela aparece como sinal do X. São a mesma via, examinada por duas portas, e um paciente rouco merece as duas leituras.
 :::
 
+::: sinal
+nome: Sinal da cortina
+descricao: |
+  À estimulação cuidadosa, **a parede posterior da faringe se desloca para o lado sadio**, como uma cortina puxada; o **véu palatino também desvia para o lado sadio** quando o paciente emite "a" ou "e". Pode haver disfagia com líquidos voltando pelo nariz e disfonia.
+significado: |
+  Lesão unilateral do **glossofaríngeo e do vago** (IX e X). A regra topográfica decide: os núcleos desses nervos recebem córtex dos dois lados, então **palato fraco de um lado aponta para o bulbo do mesmo lado ou para o nervo periférico**, nunca para um único hemisfério cerebral.
+causas:
+  - "Lesões do IX e do X: difteria, neoplasias do mediastino, esclerose lateral amiotrófica, siringobulbia, traumatismo"
+  - "Síndrome do forame jugular (IX, X e XI juntos, por fratura de base de crânio ou tumor glômico)"
+:::
+
 ::: secao
 titulo: "XI e XII: pescoço e língua"
 :::
@@ -387,6 +408,18 @@ texto: |
   As causas periféricas mais comuns, segundo McGee, são o **câncer metastático** (para a base do crânio, o espaço subaracnóideo ou o pescoço) e o **traumatismo**, incluindo cirurgia cervical radical e endarterectomia de carótida. E ele fecha com uma ressalva de humildade: a paralisia do hipoglosso **associada a outros achados de nervos cranianos ocorre tanto em doenças do tronco encefálico quanto em doenças periféricas**, e por isso tem pouco valor localizatório nessa combinação.
 
   Porto observa que as causas de lesão do hipoglosso são praticamente as mesmas já citadas para o IX, o X e o XI, o que faz sentido anatômico: são nervos vizinhos na saída do crânio.
+:::
+
+::: sinal
+nome: Desvio da língua na protrusão
+descricao: |
+  Na protrusão, **a ponta da língua desvia para o lado fraco**: cada genioglosso empurra para o lado oposto, e o lado sadio empurra sem oposição. Na lesão do núcleo ou do nervo somam-se **atrofia e fasciculações** na metade correspondente.
+significado: |
+  A topografia tem uma inversão que vale memorizar: em lesão de **hemisfério cerebral** a língua desvia **para o mesmo lado dos membros fracos**; na **síndrome bulbar medial**, desvia **para o lado oposto** aos membros fracos. **Atrofia ou fasciculações** apontam núcleo ou nervo, nunca o hemisfério.
+causas:
+  - "Acidente vascular hemisférico (desvio para o lado hemiparético)"
+  - "Síndrome bulbar medial (desvio oposto à hemiparesia)"
+  - "Câncer metastático de base de crânio e traumatismo ou cirurgia cervical (nervo periférico)"
 :::
 
 ::: secao

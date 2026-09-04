@@ -135,6 +135,29 @@ linhas:
     - "Projeção do fígado (normal), derrame pleural, espessamento pleural, consolidações extensas, atelectasia"
 :::
 
+::: sinal
+nome: Macicez torácica à percussão
+descricao: |
+  Em área onde deveria haver som claro pulmonar, a percussão encontra **desaparecimento da sonoridade** com **aumento da resistência ao dedo plexímetro** (macicez) ou apenas redução da nota (submacicez).
+significado: |
+  Menos ar sob o dedo: líquido, tecido consolidado ou pleura espessada. Compare sempre com o ponto homólogo; lembre as macicezes **normais** (projeção do fígado, submacicez precordial). Curiosidade com nome: a **ressonância skódica** é a hipersonoridade percebida ao redor de uma condensação ou logo acima de um derrame.
+causas:
+  - "Derrame pleural e espessamento pleural"
+  - "Consolidações extensas (pneumonia)"
+  - "Atelectasia"
+:::
+
+::: sinal
+nome: Hipersonoridade e timpanismo torácicos
+descricao: |
+  A nota de percussão fica **mais clara e mais intensa** que o normal (hipersonoridade) ou francamente **musical, com tonalidade identificável** (som timpânico), fora do espaço de Traube.
+significado: |
+  **Mais ar** onde deveria haver parênquima: hiperinsuflação alveolar na hipersonoridade; **ar aprisionado em cavidade** no timpanismo. O espaço de Traube timpânico é normal; timpanismo em campo pulmonar, não.
+causas:
+  - "Hipersonoridade: enfisema, crise de asma com hiperinsuflação"
+  - "Timpanismo: pneumotórax, grandes cavernas superficiais, hérnia diafragmática com alça no tórax"
+:::
+
 ::: ilustracao
 svg: |
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

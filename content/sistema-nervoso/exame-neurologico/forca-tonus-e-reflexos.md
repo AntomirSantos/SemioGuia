@@ -206,6 +206,26 @@ texto: |
   Duas advertências fecham o quadro, e as duas são de McGee. A primeira: a gravidade da espasticidade **correlaciona-se mal** com o grau de fraqueza e de hiper-reflexia. A segunda é temporal e explica muito erro de beira de leito: pacientes com acidente vascular ou lesão medular desenvolvem **fraqueza e flacidez imediatas**, e a espasticidade só aparece dias a semanas depois. Porto registra o mesmo fenômeno pelo lado dos reflexos: nas lesões agudas da via piramidal são comuns paralisia, hipotonia e arreflexia, e os sinais de liberação, tônus e reflexos aumentados, surgem depois de um intervalo que vai de dias a poucos meses.
 :::
 
+::: sinal
+nome: Sinal da roda denteada
+descricao: |
+  Durante o movimento **passivo e lento** do punho ou do cotovelo, em toda a amplitude, a resistência cede em **interrupções sucessivas**, como os dentes de uma cremalheira ou um membro passando por uma catraca.
+significado: |
+  É a assinatura da **rigidez extrapiramidal**: hipertonia que acomete igualmente agonistas e antagonistas, **não depende da velocidade** do movimento e **não traz fraqueza associada**, ao contrário da espasticidade piramidal, que é eletiva, elástica e fraca.
+causas:
+  - "Parkinsonismo (hipertonia extrapiramidal)"
+:::
+
+::: sinal
+nome: Fenômeno do canivete
+descricao: |
+  Ao estender o joelho em **velocidade constante**, a resistência espástica cresce e, perto da extensão completa, **cede de repente e completa o movimento**, como a lâmina de um canivete abrindo sob a mola.
+significado: |
+  Aparece na **espasticidade** da via piramidal, em até **metade** dos casos, mais nos extensores do joelho: a resistência **depende da velocidade e do comprimento do músculo**. Lembre o tempo: após acidente vascular ou lesão medular a fase aguda é de **fraqueza e flacidez**, e a espasticidade só aparece dias a semanas depois.
+causas:
+  - "Espasticidade piramidal (neurônio motor superior), depois da fase aguda flácida"
+:::
+
 ::: tabela
 titulo: As duas hipertonias lado a lado
 colunas:
@@ -392,6 +412,17 @@ texto: |
   Semiologia Clínica registra ainda a leitura mais útil das manobras deficitárias, que não é apenas encontrar a fraqueza: elas mostram **se o déficit é global, distal ou proximal**. O padrão **distal** é característico de lesões piramidais ou de nervos periféricos; o padrão **proximal** sugere miopatia. McGee mede exatamente essa intuição: se fraqueza proximal for definida como músculos proximais com um grau a menos que os distais na escala do Medical Research Council, ela aparece em **92%** dos pacientes com doença muscular, de modo que a **ausência** de fraqueza proximal reduz a probabilidade de doença do músculo.
 :::
 
+::: sinal
+nome: Desvio em pronação (braços estendidos)
+descricao: |
+  Braços estendidos à frente com as **palmas para cima**, olhos fechados, posição sustentada por tempo **cronometrado** (45 segundos por McGee; 2 minutos por Semiologia Clínica): o membro deficitário **desce e prona**.
+significado: |
+  Prova deficitária que revela a fraqueza discreta que o teste de oposição não pega; a combinação de queda com pronação aponta **lesão hemisférica contralateral**. Nos membros inferiores, as equivalentes são as manobras de **Mingazzini** e de **Barré**. O padrão do déficit também fala: **distal** sugere lesão piramidal ou de nervo periférico, **proximal** sugere miopatia.
+causas:
+  - "Lesão hemisférica contralateral (via piramidal)"
+  - "Fraqueza discreta de qualquer origem, lida pelo padrão global, distal ou proximal"
+:::
+
 ::: pense
 pergunta: |
   A queixa é fraqueza discreta, e a força contra oposição parece normal. Que manobras revelam o déficit que a oposição não pega?
@@ -568,6 +599,17 @@ texto: |
   Porto acrescenta que o cutâneo-plantar pode estar **abolido** quando há interrupção do arco reflexo e, às vezes, na fase inicial da lesão piramidal, mais um motivo para não ler o pé isoladamente.
 :::
 
+::: sinal
+nome: Sinal de Babinski
+descricao: |
+  Ao estímulo da planta com um traçado **lento, em taco de hóquei, começando pela borda lateral**, o hálux **sobe** (extensão), pela contração do extensor longo do hálux, visível no dorso do dedo, em vez da flexão normal dos dedos.
+significado: |
+  A resposta normal do cutâneo-plantar é a **flexão dos dedos**; a inversão indica **lesão da via piramidal** (neurônio motor superior). O leque dos demais dedos é fenômeno **normal** e não faz parte da resposta patológica. Em resposta duvidosa, valem os quatro critérios: contração visível do extensor longo do hálux, pé fraco ou lento nos movimentos finos, flexão associada de todo o membro e reprodutibilidade.
+causas:
+  - "Lesão da via piramidal, do hemisfério contralateral à medula"
+  - "Falso-negativos: choque medular, paralisia do nervo fibular e doença piramidal que poupa o pé"
+:::
+
 ::: conceito
 titulo: Os cutâneo-abdominais como moldura
 texto: |
@@ -588,6 +630,16 @@ texto: |
   O local mais fácil é o **pé**, dorsifletindo o tornozelo de modo brusco, com oscilações habitualmente de 5 a 8 por segundo. Também se obtém no quadríceps, nos flexores dos dedos e na mandíbula. Porto descreve exatamente os dois clássicos, o **clônus do pé** e o **clônus da rótula**, definidos como contrações sucessivas do tríceps sural e do quadríceps ao estiramento rápido e mantido, e registra o dado que importa para a interpretação: eles ocorrem na lesão da via piramidal e vêm **sempre acompanhados de exaltação dos reflexos** daqueles músculos. Clônus com reflexos normais deve fazer o examinador desconfiar da própria técnica.
 
   Uma observação de McGee explica um detalhe curioso e confirma o mecanismo: a **frequência do clônus varia inversamente com o comprimento do trajeto reflexo**. O clônus do punho é mais rápido que o do tornozelo, simplesmente porque os nervos até o antebraço são mais curtos que os que vão até a panturrilha.
+:::
+
+::: sinal
+nome: Clônus do pé e da rótula
+descricao: |
+  Ao estiramento **brusco e mantido** de um músculo hiper-reflexo (o local mais fácil é a dorsiflexão do tornozelo), surge uma série **rítmica** de contrações, em geral 5 a 8 por segundo, que se sustenta enquanto a tração durar. **Manter a tração é parte da técnica**: quem estira e solta não obtém clônus.
+significado: |
+  É o reflexo de estiramento que se autossustenta, próprio da **lesão da via piramidal**, e vem **sempre acompanhado da exaltação dos reflexos** daqueles músculos. Clônus com reflexos normais deve fazer o examinador desconfiar da própria técnica.
+causas:
+  - "Lesão da via piramidal (síndrome do neurônio motor superior)"
 :::
 
 ::: secao
