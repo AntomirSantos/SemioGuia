@@ -68,12 +68,14 @@ export function Som({ bloco }: { bloco: SomBloco }) {
         <View style={{ flex: 1 }}>
           <Text style={{ fontFamily: fonte.leituraSemi, fontSize: corpo, color: paleta.tinta }}>{bloco.titulo}</Text>
           <Text
+            android_hyphenationFrequency="full"
             style={{
               fontFamily: fonte.corpo,
               fontSize: small,
               lineHeight: Math.round(small * 1.45),
               color: paleta.tinta2,
               marginTop: 2,
+              textAlign: 'justify',
             }}
           >
             {bloco.descricao}

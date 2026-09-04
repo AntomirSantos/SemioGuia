@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.14 (2026-09-04)
+
+- A prosa de leitura agora é justificada, alinhada nas duas margens como página de livro
+- Vale para os tópicos, os casos clínicos, as explicações do quiz e as descrições de ausculta
+- No Android, a hifenização automática evita espaços exagerados na coluna estreita
+
 ## 1.2.13 (2026-09-04)
 
 - Revisão de estilo em todo o guia: os travessões saíram de cena, no lugar deles vírgulas, dois-pontos e parênteses

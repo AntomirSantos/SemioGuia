@@ -58,7 +58,18 @@ export function TextoRico({ children, style }: { children: string; style?: TextS
   return (
     <>
       {paragrafos.map((p, i) => (
-        <Text key={i} style={[{ fontFamily: fonte.leitura, marginTop: i ? 8 : 0, lineHeight: lineHeightPadrao }, style]}>
+        // Texto justificado (decisão do autor, 2026-09): a prosa de leitura
+        // alinha nas duas margens, como página de livro. A hifenização no
+        // Android evita rios em coluna estreita; iOS e web justificam
+        // nativamente. Um textAlign explícito em `style` continua vencendo.
+        <Text
+          key={i}
+          android_hyphenationFrequency="full"
+          style={[
+            { fontFamily: fonte.leitura, marginTop: i ? 8 : 0, lineHeight: lineHeightPadrao, textAlign: 'justify' },
+            style,
+          ]}
+        >
           {renderizarInline(p, `${i}`)}
         </Text>
       ))}

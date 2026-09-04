@@ -187,7 +187,15 @@ export function PerguntaCard({
               marginBottom: espaco.l,
             }}
           >
-            <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2 }}>
+            <Text
+              android_hyphenationFrequency="full"
+              style={{
+                fontFamily: fonte.corpo,
+                fontSize: Math.round(tipo.small * escala),
+                color: paleta.tinta2,
+                textAlign: 'justify',
+              }}
+            >
               {pergunta.explicacao}
             </Text>
           </View>

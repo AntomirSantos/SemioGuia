@@ -290,7 +290,16 @@ export function TelaCasoPlayer({ caso }: { caso: Caso }) {
 function CenaTexto({ texto }: { texto: string }) {
   const { paleta, escala } = useTema();
   return (
-    <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta, marginBottom: espaco.l }}>
+    <Text
+      android_hyphenationFrequency="full"
+      style={{
+        fontFamily: fonte.corpo,
+        fontSize: Math.round(tipo.corpo * escala),
+        color: paleta.tinta,
+        marginBottom: espaco.l,
+        textAlign: 'justify',
+      }}
+    >
       {texto}
     </Text>
   );
@@ -321,7 +330,16 @@ function DesfechoConteudo({
       >
         {CLASSE_LABEL[no.classe]}
       </Text>
-      <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta, marginBottom: espaco.l }}>
+      <Text
+        android_hyphenationFrequency="full"
+        style={{
+          fontFamily: fonte.corpo,
+          fontSize: Math.round(tipo.corpo * escala),
+          color: paleta.tinta,
+          marginBottom: espaco.l,
+          textAlign: 'justify',
+        }}
+      >
         {no.texto}
       </Text>
 
@@ -334,7 +352,12 @@ function DesfechoConteudo({
         }}
       >
         <Rotulo texto="O que este caso ensina" style={{ marginBottom: espaco.xs + 2 }} />
-        <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta }}>{no.ensino}</Text>
+        <Text
+          android_hyphenationFrequency="full"
+          style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta, textAlign: 'justify' }}
+        >
+          {no.ensino}
+        </Text>
       </View>
 
       {estado.trilha.map((passo, idx) => (

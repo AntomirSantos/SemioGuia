@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.14',
+    data: '2026-09-04',
+    linhas: [
+      'A prosa de leitura agora é justificada, alinhada nas duas margens como página de livro',
+      'Vale para os tópicos, os casos clínicos, as explicações do quiz e as descrições de ausculta',
+      'No Android, a hifenização automática evita espaços exagerados na coluna estreita',
+    ],
+  },
+  {
     versao: '1.2.13',
     data: '2026-09-04',
     linhas: [
