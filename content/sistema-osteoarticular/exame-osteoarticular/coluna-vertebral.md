@@ -304,6 +304,27 @@ texto: |
 :::
 
 ::: sinal
+nome: Sinal das pontas
+descricao: |
+  Manobra de consultório que testa os níveis lombossacros **sem martelo nem escala**: pede-se ao paciente que **caminhe na ponta dos pés** e depois **sobre os calcanhares**.
+significado: |
+  A topografia da dificuldade **localiza o nível** do comprometimento radicular: segundo Semiologia Clínica, dificuldade no primeiro movimento aponta **L4/L5** e, no segundo, **S1**. É triagem motora dos membros inferiores embutida em dois passos de marcha; a graduação formal da força e os reflexos moram no tópico de força, tônus e reflexos.
+causas:
+  - "Radiculopatia lombossacra (hérnia discal, compressão radicular)"
+:::
+
+::: sinal
+nome: Sinal de Bragard
+descricao: |
+  Manobra de confirmação do Lasègue. Porto: com o membro elevado, faz-se a **dorsiflexão do pé**, o que exacerba a dor. Semiologia Clínica refina: **depois de baixar o membro** até a posição em que os sintomas desapareceram, faz-se a **dorsiflexão passiva do tornozelo**.
+significado: |
+  Existe para desfazer a dúvida que o Lasègue deixa: a dor da elevação vem de **compressão verdadeira do ciático ou de contratura dos isquiotibiais**? A dorsiflexão volta a estirar a raiz sem mudar a posição dos isquiotibiais: dor que reaparece fala de **irritação radicular**. A contratura fica confinada atrás da coxa; **a ciática costuma percorrer o membro todo**.
+causas:
+  - "Radiculopatia lombossacra por hérnia discal"
+  - "Compressão ou irritação do nervo ciático"
+:::
+
+::: sinal
 nome: Manobra de Spurling
 descricao: |
   Com o paciente de preferência sentado, soma-se a **flexão lateral da cabeça** à **pressão sobre o vértice**: positiva quando os **sintomas radiculares aumentam**.

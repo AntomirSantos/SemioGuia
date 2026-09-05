@@ -403,6 +403,16 @@ texto: |
 :::
 
 ::: sinal
+nome: Sinal de Ramond
+descricao: |
+  **Contratura da musculatura paravertebral torácica de um lado só**, vista ou palpada na inspeção do dorso.
+significado: |
+  Denuncia **comprometimento inflamatório da pleura homolateral**: o músculo se contrai em defesa do lado que dói. Lê-se ao lado do vizinho de inspeção, o sinal de Lemos Torres (abaulamento expiratório dos espaços intercostais no derrame pleural).
+causas:
+  - "Pleurite e outros comprometimentos inflamatórios da pleura homolateral"
+:::
+
+::: sinal
 nome: Sinal de Lemos Torres
 descricao: |
   **Abaulamento dos espaços intercostais durante a expiração**, visível à inspeção do hemitórax.

@@ -483,6 +483,16 @@ texto: |
   Dois desses achados pertencem ao tópico seguinte deste capítulo: o **edema de papila** e a **paralisia do VI par**. O que este tópico registra é o encadeamento: consciência que se altera, cefaleia que muda de caráter, pressão que sobe e pulso que desce compõem um quadro cuja leitura é conjunta, e não item a item.
 :::
 
+::: sinal
+nome: Reflexo de Cushing
+descricao: |
+  **Bradicardia com hipertensão arterial** na hipertensão intracraniana aguda, acompanhadas de **alterações da frequência e do ritmo respiratórios**.
+significado: |
+  É a resposta reflexa ao aumento da pressão intracraniana, e muda a urgência: em consciência comprometida, **pressão que sobe e pulso que desce** compõem, com a cefaleia que muda de caráter e os vômitos, um quadro de leitura conjunta. Em pacientes sem trauma craniano, a pressão sistólica muito elevada é justamente o dado que aponta lesão **estrutural**, e não metabólica.
+causas:
+  - "Hipertensão intracraniana aguda (massa em expansão, hemorragia, hidrocefalia)"
+:::
+
 ::: conceito
 titulo: Onde este tópico encontra os outros
 texto: |

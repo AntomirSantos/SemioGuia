@@ -307,6 +307,83 @@ texto: |
   **Claudicante e antálgica.** Toda marcha antálgica tem uma marca comum: o **passo contralateral curto**, porque o paciente sai depressa da perna dolorida e pisa rápido na sadia, e o resultado é uma cadência desigual idêntica à de quem anda com uma pedra no sapato (McGee). Onde dói muda o desenho: na dor do **pé**, o paciente apoia só o calcanhar, só o antepé ou só a borda lateral; na dor do **joelho**, o joelho fica rígido, sem estender nem fletir completamente; na dor do **quadril**, aparece o achado mais característico, o **desvio lateral do tronco** sobre o lado que está apoiando, com o braço daquele lado se afastando do corpo. Esse desvio tem uma explicação mecânica bonita: ele equilibra o centro de gravidade sobre o quadril doente e evita a ativação dos abdutores, que, quando contraem, podem exercer uma pressão enorme sobre a cabeça femoral.
 :::
 
+::: sinal
+nome: Marcha antálgica (claudicante)
+descricao: |
+  O paciente manca: a perna doente toca o chão com menos força e o **passo contralateral é curto**, porque ele sai depressa da perna dolorida e pisa rápido na sadia, numa cadência desigual de quem anda **com uma pedra no sapato**.
+significado: |
+  Onde dói muda o desenho: na dor do **pé**, o apoio se faz só no calcanhar, no antepé ou na borda lateral; na do **joelho**, o joelho vai rígido; na do **quadril**, aparece o achado mais característico, o **desvio lateral do tronco sobre o lado apoiado**, que poupa os abdutores e alivia a pressão sobre a cabeça femoral.
+causas:
+  - "Dor articular, muscular ou óssea do membro inferior"
+  - "Insuficiência arterial periférica"
+  - "Estenose do canal lombar"
+:::
+
+::: sinal
+nome: Marcha vestibular (em estrela)
+descricao: |
+  **Lateropulsão para o lado da lesão**; caminhando de frente e voltando de costas com os **olhos fechados**, o desvio sistemático faz o trajeto **desenhar uma estrela**.
+significado: |
+  O labirinto lesado empurra sempre para o mesmo lado: é o mesmo desvio que a manobra de Fukuda (marchar sem sair do lugar) evidencia, e que no equilíbrio estático aparece após um período de latência, sempre para o mesmo lado. Procure os companheiros vestibulares: vertigem e nistagmo.
+causas:
+  - "Lesão vestibular (labirinto ou nervo vestibular)"
+:::
+
+::: sinal
+nome: Marcha em tesoura
+descricao: |
+  Membros inferiores **enrijecidos e semifletidos**, pés que se arrastam e **pernas que se cruzam uma à frente da outra** a cada passo, como lâminas de uma tesoura.
+significado: |
+  É a **espasticidade bilateral**, de origem medular ou encefálica: a mesma hipertonia da marcha ceifante, agora dos dois lados. Ceifante e em tesoura são a mesma doença de tônus contada com um ou com dois hemicorpos.
+causas:
+  - "Espasticidade bilateral de origem medular (mielopatias)"
+  - "Espasticidade bilateral de origem encefálica (paralisia cerebral, lesões bilaterais)"
+:::
+
+::: sinal
+nome: Marcha anserina (do pato)
+descricao: |
+  A cada passo, o **quadril do lado que está no ar cai**; o paciente **acentua a lordose** e inclina o tronco alternadamente para os dois lados, gingando como um pato.
+significado: |
+  É a marcha da **fraqueza da cintura pélvica**: os glúteos médio e mínimo, que sustentam a hemipelve oposta no apoio em um pé só, falham dos dois lados. A versão unilateral é a marcha de Trendelenburg, e a manobra de Trendelenburg do quadril testa o mecanismo em segundos.
+causas:
+  - "Miopatias com fraqueza proximal (distrofias musculares)"
+  - "Fraqueza bilateral dos abdutores do quadril"
+:::
+
+::: sinal
+nome: Marcha escarvante
+descricao: |
+  O **pé cai e a ponta tropeça**; o paciente **eleva muito o quadril e o joelho** para livrar o pé do chão, como quem passa por cima de um objeto invisível, e o **antepé bate no solo** depois do calcanhar. No pé caído unilateral, a cadência soa como dois sons alternando com um.
+significado: |
+  É a marcha da **fraqueza dos dorsiflexores do pé**: o pé caído. Os dois sinais se veem em fases diferentes do passo: o tapa do antepé na fase de apoio, a flexão exagerada do joelho na fase de balanço.
+causas:
+  - "Lesão do nervo fibular"
+  - "Radiculopatia de L5"
+  - "Polineuropatias com fraqueza distal"
+:::
+
+::: sinal
+nome: Marcha atáxica cerebelar (do ébrio)
+descricao: |
+  Base alargada, passos **irregulares e desiguais**, os pés ora longe demais, ora perto demais, com **oscilação e cambaleio em todas as direções**, como um embriagado.
+significado: |
+  Ao contrário da ataxia sensitiva, **não piora de forma marcante ao fechar os olhos** (Romberg negativa) e vem acompanhada dos **demais sinais cerebelares**: dismetria, hipotonia, tremor de intenção, disartria e nistagmo. Marcha atáxica sem nenhum outro sinal cerebelar pede que se reexamine a proposta.
+causas:
+  - "Lesão cerebelar (vascular, tumoral, degenerativa, tóxica)"
+:::
+
+::: sinal
+nome: Marcha talonante (atáxica sensitiva)
+descricao: |
+  Base alargada e **olhar fixo no chão**; os pés são **arremessados para diante** e os **calcanhares batem com força no solo**. **Piora muito de olhos fechados** e em terrenos irregulares.
+significado: |
+  É a marcha da **perda proprioceptiva**: sem saber onde estão os pés, o paciente substitui a propriocepção pela visão, e por isso fechar os olhos desmonta a marcha. A prova que a separa da ataxia cerebelar é a de **Romberg: positiva na sensitiva, negativa na cerebelar**.
+causas:
+  - "Lesão do cordão posterior da medula"
+  - "Neuropatia periférica com perda proprioceptiva"
+:::
+
 ::: conceito
 titulo: Marcha em tandem
 texto: |

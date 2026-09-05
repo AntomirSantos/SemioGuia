@@ -161,6 +161,37 @@ texto: |
   Dois achados completam o quadro e costumam ser esquecidos: as **hemorragias**, porque as varizes dérmicas rompem com relativa frequência, espontaneamente ou após traumatismo; e a **hiperidrose**, sudorese profusa no terço distal da perna, comum na insuficiência venosa crônica grave de longa duração.
 :::
 
+::: sinal
+nome: Lipodermatoesclerose
+descricao: |
+  Esclerose da pele e do subcutâneo do terço inferior da perna, que **perde espessura** e toma o aspecto de **gargalo de garrafa**: estreita embaixo, larga acima.
+significado: |
+  Resulta de surtos repetidos de celulite e úlceras cicatrizadas, e fecha um círculo vicioso: a fibrose leva à **anquilose da articulação tibiotársica**, que prejudica a bomba venosa da panturrilha e piora o retorno. Classifica-se, com a atrofia branca, no degrau de maior gravidade antes da úlcera.
+causas:
+  - "Insuficiência venosa crônica grave"
+:::
+
+::: sinal
+nome: Dermatite ocre
+descricao: |
+  **Manchas acastanhadas**, esparsas ou confluentes, no terço inferior da perna, predominando na **região perimaleolar interna**.
+significado: |
+  A cor é **hemossiderina** depositada na derme, vinda das hemácias que passaram ao interstício e ali foram fagocitadas: a hipertensão venosa escrita na pele. A hiperpigmentação indica **estágio avançado** da doença venosa crônica.
+causas:
+  - "Insuficiência venosa crônica em estágio avançado"
+  - "Síndrome pós-trombótica"
+:::
+
+::: sinal
+nome: Coroa flebectásica
+descricao: |
+  Vasos cutâneos anormalmente visíveis **no tornozelo**, com quatro componentes: as ventosas, telangiectasias azuis, telangiectasias vermelhas e pontos de estase capilar.
+significado: |
+  É um **sinal de território**, e o território é a região perimaleolar, **a mesma que ulcera**: degrau da progressão da doença venosa crônica que antecede as alterações mais graves da pele. Encontrá-la pede a busca dos demais degraus: pigmentação, eczema, lipodermatoesclerose.
+causas:
+  - "Doença venosa crônica com hipertensão venosa perimaleolar"
+:::
+
 ::: conceito
 titulo: A úlcera venosa e o endereço que ela escolhe
 texto: |
@@ -173,6 +204,17 @@ texto: |
   As características da úlcera venosa e sua comparação com a arterial (fundo, bordas, dor, efeito da posição, pulsos) estão na tabela e na ilustração do tópico de insuficiência arterial crônica, e não se repetem aqui.
 
   **O tamanho do problema**, em números de Semiologia Clínica: nos países ocidentais, a úlcera venosa atinge algo em torno de **0,3%** dos adultos, e somando as ativas às já cicatrizadas chega-se a cerca de **1%**; e **mais de metade** delas necessita de tratamento por mais de um ano. As varizes, por sua vez, estão presentes em **25% a 33%** das mulheres e em **10% a 40%** dos homens adultos; no estudo de Framingham, a incidência anual ficou em **2,6%** entre as mulheres e em **1,9%** entre os homens.
+:::
+
+::: sinal
+nome: Úlcera venosa
+descricao: |
+  Ferida da **região perimaleolar interna**, a **área da polaina**, que costuma surgir após traumatismos mínimos (coçar uma área de tromboflebite, romper uma variz) e, nos casos avançados, dá a volta completa na parte baixa da perna.
+significado: |
+  É o ponto final da insuficiência venosa crônica **grave**, por varizes ou síndrome pós-trombótica. O endereço tem explicação: ali passam as **perfurantes de Cockett**, as que mais se tornam insuficientes. E vale a regra de exclusão topográfica: ferida **acima do terço médio da perna raramente é venosa**.
+causas:
+  - "Insuficiência venosa crônica grave por varizes"
+  - "Síndrome pós-trombótica"
 :::
 
 ::: entendimento
@@ -319,6 +361,37 @@ texto: |
   As três compartilham a mesma limitação das demais: nenhuma delas tem razão de verossimilhança própria nas quatro obras deste guia. A tabulação de McGee mede a **dor à palpação** como categoria única e não encontra valor diagnóstico nela. O que essas manobras fazem bem é **padronizar onde e como se comprime**, o que torna o achado comparável entre examinadores e entre consultas.
 :::
 
+::: sinal
+nome: Sinal da bandeira
+descricao: |
+  Com o paciente deitado, a perna fletida e o pé apoiado, o examinador tenta **mobilizar lateralmente a panturrilha**. Quando ela está **empastada, não se move: a bandeira não tremula**.
+significado: |
+  Descreve o **empastamento** da panturrilha, a perda da mobilidade passiva da massa muscular, na suspeita de **trombose venosa profunda**. Sinal registrado por Semiologia Clínica, sem número próprio: descreva o que foi feito e o que aconteceu.
+causas:
+  - "Trombose venosa profunda com empastamento da panturrilha"
+:::
+
+::: sinal
+nome: Manobra de Denecke-Payr
+descricao: |
+  O polegar comprime a **planta do pé de encontro ao osso**. **Dor intensa** é a resposta positiva.
+significado: |
+  Levanta a hipótese de trombose nas veias profundas **do pé**: é o degrau mais distal da mesma família de manobras de compressão (Olow na panturrilha, Homans na dorsiflexão). Como as irmãs, não tem número próprio: vale como forma padronizada de examinar, não como veredito.
+causas:
+  - "Trombose venosa profunda das veias do pé"
+:::
+
+::: sinal
+nome: Manobra de Olow
+descricao: |
+  Comprime-se a musculatura da **panturrilha de encontro ao osso** (Porto descreve variante com a mão em garra). **Dor intensa** é a resposta positiva.
+significado: |
+  Porto a mantém, ao lado de Homans e Denecke-Payr, entre as manobras com valor propedêutico na suspeita de **trombose venosa profunda**. Sem número próprio nas quatro obras do guia: o que ela faz bem é **padronizar onde e como se comprime**, tornando o achado comparável entre examinadores.
+causas:
+  - "Trombose venosa profunda da perna"
+  - "Outras causas de dor da musculatura da panturrilha"
+:::
+
 ::: conceito
 titulo: Tromboflebite superficial, flebite e as duas flegmasias
 texto: |
@@ -336,6 +409,17 @@ texto: |
   Vale registrar uma divergência de nomenclatura interna a Porto: no capítulo de exame físico geral, ao descrever o edema da trombose venosa, ele nomeia os dois quadros como flegmasia alba dolens e flegmasia **alba** cerulea; no capítulo de doenças das veias, a segunda aparece como phlegmasia cerulea dolens. **O guia adota as formas consagradas: phlegmasia alba dolens e phlegmasia cerulea dolens**, as únicas que a literatura externa registra; o "alba cerulea" do capítulo de exame físico geral é quase certamente um lapso tipográfico. As descrições coincidem; só o nome divergia.
 
   **A síndrome pós-trombótica** é a complicação tardia: a trombose eleva a pressão distalmente ao ponto ocluído, as veias se dilatam, as válvulas distais e as perfurantes tornam-se insuficientes e, com a recanalização e a fibrose da parede, instala-se uma insuficiência venosa crônica com edema, dor, dermatite ocre, eczema, hipodermatoesclerose e ulcerações perimaleolares. É a razão pela qual este tópico trata as duas doenças juntas: **a trombose de hoje é a doença venosa crônica de daqui a dez anos.**
+:::
+
+::: sinal
+nome: Phlegmasia alba e cerulea dolens
+descricao: |
+  Dois quadros graves de trombose iliofemoral, separados pela **cor e pela temperatura**: na **alba**, edema desde a raiz da coxa, dor, pele **esbranquiçada** e membro **quente**; na **cerulea**, trombose simultânea dos sistemas **profundo e superficial**, com edema volumoso, **cianose acentuada**, membro **frio**, flictenas e áreas de necrose.
+significado: |
+  A cerulea é a mais temível: o bloqueio de quase todo o retorno venoso pode levar à necrose de todo o membro. São urgências: a cor do membro diz quanto do retorno ainda passa.
+causas:
+  - "Trombose venosa iliofemoral (alba dolens)"
+  - "Trombose maciça dos sistemas profundo e superficial (cerulea dolens)"
 :::
 
 ::: secao

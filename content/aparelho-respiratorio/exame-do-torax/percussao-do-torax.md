@@ -320,6 +320,17 @@ texto: |
   Há ainda o **hidropneumotórax**: quando há líquido e ar na cavidade pleural, encontra-se timpanismo acima da área de macicez. E, no derrame livre com o paciente sentado, mesmo pequenos volumes podem ser reconhecidos pela macicez na região infraescapular, onde se projetam os seios diafragmáticos posteriores.
 :::
 
+::: sinal
+nome: Sinal de Signorelli
+descricao: |
+  **Macicez à percussão da coluna dorsal** na presença de derrame pleural.
+significado: |
+  Ganha sentido com a manobra clássica: se o paciente **se inclina para a frente** ou assume o decúbito ventral, a macicez da coluna **desaparece nos derrames livres** de volume médio, porque o líquido se desloca, mas **permanece quando a causa é uma condensação**. É um jeito de separar derrame de consolidação sem imagem.
+causas:
+  - "Derrame pleural (a macicez se desloca com a posição)"
+  - "Condensação pulmonar (a macicez não se desloca)"
+:::
+
 ::: secao
 titulo: Armadilhas do exame
 :::

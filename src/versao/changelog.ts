@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.19',
+    data: '2026-09-05',
+    linhas: [
+      'O plantão está completo: 186 verbetes, com os 86 que faltavam escritos a partir do texto revisado dos tópicos',
+      'Entraram os testes do ombro e do joelho, as marchas, as fácies, os sinais vasculares, a torção testicular, o papiledema e o reflexo de Moro',
+      'O que as fontes declaram em desuso ou só nomeiam (Schober, Lhermitte, Brodie-Trendelenburg, Perthès) ficou de fora, com o motivo registrado para o autor',
+    ],
+  },
+  {
     versao: '1.2.18',
     data: '2026-09-04',
     linhas: [

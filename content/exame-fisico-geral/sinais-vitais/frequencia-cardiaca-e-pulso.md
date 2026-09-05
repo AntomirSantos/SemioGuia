@@ -155,6 +155,16 @@ texto: |
   Parando a deflação nesse nível, o mesmo padrão passa a ser sentido na radial.
 :::
 
+::: sinal
+nome: Pulso alternante
+descricao: |
+  **Alternância regular de uma onda forte e uma fraca, com intervalos iguais entre elas.** Aparece melhor com o manguito: ao desinsuflar devagar, os primeiros sons de Korotkoff alternam um forte e um fraco; parando a deflação nesse nível, o padrão passa a ser sentido na radial.
+significado: |
+  É sinal de **insuficiência ventricular esquerda**: o ventrículo que falha alterna contrações mais e menos eficazes. O divisor com o pulso bigeminado é o **intervalo**: no alternante, regular; no bigeminado, a onda fraca é uma extrassístole que chega cedo e o intervalo é irregular. Mesma sensação nos dedos, dois diagnósticos.
+causas:
+  - "Insuficiência ventricular esquerda"
+:::
+
 ::: pense
 pergunta: O pulso alterna uma onda forte e uma fraca. O que decide se é pulso alternante ou bigeminado, e por que a diferença importa?
 resposta: "O intervalo. No alternante os intervalos são regulares: sinal de insuficiência ventricular esquerda. No bigeminado a onda fraca é uma extrassístole que chega cedo e deixa o intervalo irregular. Mesma sensação nos dedos, dois diagnósticos diferentes."

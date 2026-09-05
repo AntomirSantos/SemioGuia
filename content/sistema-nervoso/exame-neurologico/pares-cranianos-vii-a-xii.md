@@ -331,6 +331,27 @@ texto: |
   **A moldura.** As **provas calórica e rotatória** (estimular os labirintos com água quente e fria, ou usar cadeira giratória) são realizadas em gabinete de neuro-otologia porque requerem equipamento especializado (Porto), e ficam fora deste guia, assim como as manobras posicionais.
 :::
 
+::: sinal
+nome: Teste do impulso cefálico (manobra de Halmagyi)
+descricao: |
+  O examinador segura a cabeça do paciente, pede que ele **fixe o olhar em um ponto** (o nariz do examinador) e **gira rapidamente a cabeça cerca de 20 a 30 graus**. Com déficit vestibular, **o olho é arrastado junto com a cabeça e só depois retorna ao alvo**: a sacada corretiva.
+significado: |
+  Na vertigem aguda, a leitura é **invertida e decisiva**: sacada corretiva presente fala de doença **periférica** (o reflexo vestíbulo-ocular falhou); teste **normal** em paciente genuinamente vertiginoso aponta para o **centro**, e eleva muito a probabilidade de acidente vascular. Vale para **vertigem aguda isolada**, não para tontura de qualquer natureza.
+causas:
+  - "Sacada corretiva presente: vestibulopatia periférica"
+  - "Teste normal com vertigem aguda persistente: suspeitar de causa central (acidente vascular)"
+:::
+
+::: sinal
+nome: Manobra de Fukuda
+descricao: |
+  Pede-se ao paciente que **marche sem sair do lugar**, de preferência com os olhos fechados. Positiva quando o corpo **gira progressivamente para um dos lados** durante a marcha estacionária.
+significado: |
+  Evidencia o **desvio para o lado lesado** nas vestibulopatias: o labirinto doente empurra sempre na mesma direção, o mesmo fenômeno que desenha a marcha em estrela e o desvio postural com latência. Achado a somar com vertigem, nistagmo e o teste do impulso cefálico.
+causas:
+  - "Vestibulopatia periférica (labirinto ou nervo vestibular)"
+:::
+
 ::: pense
 pergunta: |
   Um paciente ouve mal só de um lado, e os testes confirmam hipoacusia unilateral. O que essa lateralidade diz sobre o lugar da lesão?

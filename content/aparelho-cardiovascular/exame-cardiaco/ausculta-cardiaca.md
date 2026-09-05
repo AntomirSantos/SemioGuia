@@ -275,6 +275,16 @@ texto: |
   Como a sobrecarga total pouco varia, a distância entre os dois componentes também não varia, e é isso que a respiração deixa de mexer.
 :::
 
+::: sinal
+nome: Desdobramento fixo de B2
+descricao: |
+  A segunda bulha soa desdobrada em seus dois componentes e **a distância entre eles não varia com a respiração**: igual na inspiração e na expiração.
+significado: |
+  É a marca auscultatória da **comunicação interatrial**. A fixidez tem explicação elegante: inspirando, o retorno venoso sistêmico sobrecarrega a câmara direita e o desvio interatrial diminui; expirando, o retorno recua e o desvio cresce, devolvendo o mesmo excesso. Como a sobrecarga total pouco varia, a respiração deixa de mexer no desdobramento, que no coração normal se alarga ao inspirar.
+causas:
+  - "Comunicação interatrial"
+:::
+
 ::: conceito
 titulo: Por que o desdobramento paradoxal é ao contrário
 nivel: avancado

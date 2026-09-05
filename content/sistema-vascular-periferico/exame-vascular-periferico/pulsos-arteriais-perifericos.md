@@ -430,6 +430,16 @@ texto: |
   **Os pulsos anômalos.** Nos pacientes em que não se encontram os pulsos tronculares abaixo dos cotovelos e dos joelhos, Porto orienta procurar, **em torno dessas articulações**, pulsos anômalos que se tornam palpáveis quando uma boa circulação colateral se desenvolveu. Encontrá-los muda a leitura do caso: não é o membro que está sem fluxo, é o tronco principal que está fechado e sendo contornado.
 :::
 
+::: sinal
+nome: Sinal de Cowie
+descricao: |
+  **Pulso femoral ausente com poplíteo e pulsos distais presentes**: um mapa impossível pela regra de localização das oclusões.
+significado: |
+  A regra diz que o pulso alterado aponta oclusão entre o último segmento normal e o alterado; este mapa a contraria, e por isso ganhou nome. Denuncia a **persistência da artéria isquiática**, exceção congênita em que o fluxo distal chega por um vaso que não passa pelo trajeto femoral.
+causas:
+  - "Persistência congênita da artéria isquiática"
+:::
+
 ::: conceito
 titulo: "Manobras que dependem do pulso: o desfiladeiro e a mão"
 nivel: avancado
@@ -442,6 +452,16 @@ texto: |
   - **Manobra de Allen**, não investiga compressão, e sim a **patência das duas artérias do antebraço**. Em quatro tempos: paciente sentado, com os membros superiores estendidos à frente e as palmas para cima; o médico comprime a artéria radial; pede ao paciente que feche a mão com força, esvaziando-a de sangue, o que produz palidez; e, mantendo a radial comprimida, pede que abra a mão. **Normalmente a cor volta rápida e uniformemente.** Se a ulnar estiver estenosada ou ocluída, a cor demora a voltar e volta de forma irregular, em placas. Para investigar a artéria radial, repete-se tudo comprimindo a ulnar.
 
   Duas ressalvas fecham o bloco. **Nenhuma das quatro obras deste guia atribui razões de verossimilhança a essas manobras**: elas são descritas pela técnica e pelo raciocínio, não pelo desempenho medido. E a síndrome do desfiladeiro torácico, cujo diagnóstico diferencial completo envolve exame neurológico e imagem, fica fora deste guia: aqui entram apenas as manobras que se apoiam no pulso.
+:::
+
+::: sinal
+nome: Manobra de Adson
+descricao: |
+  Paciente sentado, mãos nos joelhos; palpa-se a **radial** e ausculta-se a **fossa supraclavicular**; pede-se **inspiração profunda mantida com a cabeça estendida e girada para o lado examinado**. Positiva quando o pulso radial **diminui ou desaparece** e surge **sopro supraclavicular**.
+significado: |
+  Usa o pulso como instrumento de medida da **compressão da subclávia e do plexo braquial** no desfiladeiro: escaleno anterior, costela cervical, processo transverso alongado de C7 ou bridas. Duas notas de Porto: às vezes positiva com a cabeça girada para o lado **oposto**, e **só tem valor quando repetida várias vezes com resultados semelhantes**.
+causas:
+  - "Síndrome do desfiladeiro torácico (compressão da subclávia e do plexo braquial)"
 :::
 
 ::: sinal

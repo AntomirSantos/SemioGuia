@@ -135,6 +135,17 @@ texto: |
   **O que continua fora, agora com motivo declarado:** a semiotécnica especializada do exame motor neonatal e da criança pequena, os ângulos, as provas de tônus do especialista, as escalas de avaliação neurológica do lactente, não é descrita pelas quatro obras adotadas, e o guia não a inventa. O mesmo vale para a **marcha da criança pequena**, que o tópico de marchas deixou de fora: as fontes deste guia não a descrevem, e o registro honesto é esse. O que era promessa vaga vira fronteira nomeada.
 :::
 
+::: sinal
+nome: Reflexo de Moro
+descricao: |
+  Deflagrado por um **som mais intenso ou pela movimentação súbita** do recém-nascido: a coluna **arqueia-se para trás** e os braços e mãos **se abrem, como num abraço**.
+significado: |
+  Reflexo primitivo que **deve estar ativo no recém-nascido** e segue observável **até o 5º ou 6º mês**: não encontrá-lo depois disso é o curso natural, não um alarme. A regra de interpretação vale ouro: nessa idade, reflexos e tônus se leem **no contexto do conjunto**, nunca por achado isolado; um Moro **pobre** entra, por exemplo, no conjunto de achados da síndrome de Down ao nascimento.
+causas:
+  - "Ausente ou pobre no recém-nascido: avaliar o conjunto neurológico (tônus, postura, demais reflexos primitivos)"
+  - "Ausente após os 5 a 6 meses: involução fisiológica esperada"
+:::
+
 ::: perola
 texto: "O capítulo 179 blinda o examinador contra o erro mais tentador do exame neurológico neonatal: valorizar demais um reflexo isolado. Um cutâneo-plantar 'estranho' ou um tendinoso vivo, nessa idade, não conclui nada sozinho, quem decide é o conjunto: tônus, postura, reflexos primitivos e o comportamento visual do bebê, lidos como uma cena única."
 :::

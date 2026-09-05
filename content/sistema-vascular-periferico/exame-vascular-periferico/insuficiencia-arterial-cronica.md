@@ -299,6 +299,42 @@ texto: |
   Nenhum desses quadros é diagnosticado por manobra de beira do leito neste guia: a prova da alternância de temperatura e a capilaroscopia, que Porto descreve na acrocianose, são exames de laboratório vascular e ficam de fora.
 :::
 
+::: sinal
+nome: Livedo reticular
+descricao: |
+  Manchas vermelhas ou cianóticas **em malhas de rede circundando áreas centrais pálidas**, com aspecto de mármore (cutis marmorata na forma leve), nas extremidades e no tronco.
+significado: |
+  A malha cianótica é a fronteira entre os cones de pele que cada arteríola irriga, onde o sangue dessaturado estagna. A forma leve só aparece **com o frio** e some no calor; a intensa **não desaparece** e pode evoluir com dor e úlceras. O livedo pode ser **secundário**, e é isso que o torna um achado que obriga a procurar outra doença.
+causas:
+  - "Livedo primário desencadeado pelo frio, sem alterações tróficas"
+  - "Doenças autoimunes e tromboangiite obliterante"
+  - "Policitemia e crioglobulinemia"
+  - "Intoxicações"
+:::
+
+::: sinal
+nome: Acrocianose
+descricao: |
+  Cianose **persistente** da porção distal dos membros, que **não sobe além dos punhos nem dos tornozelos**, com hipotermia e suor excessivo nos dedos e nas mãos.
+significado: |
+  O que a separa do Raynaud é a **natureza constante**: não há crise nem sequência de cores. E um dado de exame fecha o raciocínio no leito: **todos os pulsos periféricos são palpáveis e normais**. Mais frequente em mulheres jovens, de curso benigno.
+causas:
+  - "Acrocianose primária, de curso benigno"
+:::
+
+::: sinal
+nome: Fenômeno de Raynaud
+descricao: |
+  Alteração **sequencial** da cor da pele nas extremidades: **palidez, depois cianose, depois rubor**, nem sempre com as três fases. As crises são desencadeadas por **frio e por impactos emocionais**, cursam com formigamento, agulhadas, queimação ou dormência, e predominam nas mãos.
+significado: |
+  A sequência conta a fisiopatologia: vasospasmo (palidez), estase capilar com maior extração de oxigênio (cianose), reperfusão (rubor). Porto separa a **doença** de Raynaud, diagnóstico **por exclusão**, do **fenômeno** que acompanha outras condições, e é o fenômeno que obriga a procurar a doença por trás.
+causas:
+  - "Doença de Raynaud (por exclusão: crises por frio ou emoção, bilaterais, sem causa orgânica, por pelo menos 2 anos)"
+  - "Doenças do tecido conjuntivo e arteriopatias"
+  - "Compressão neurovascular cervicobraquial e traumatismos"
+  - "Afecções hematológicas e intoxicações (metais pesados, derivados do ergot)"
+:::
+
 ::: secao
 titulo: Úlceras, gangrena e o pé em risco
 :::

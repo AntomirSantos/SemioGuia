@@ -353,6 +353,17 @@ texto: |
   Há uma ressalva de segurança que atravessa este tópico e o de marcha e sinais meníngeos: a suspeita de hipertensão intracraniana muda a ordem do exame e a urgência da investigação. Nenhum achado de fundo de olho isolado autoriza ou proíbe conduta, mas encontrar papiledema em um paciente com cefaleia que mudou de caráter é um achado que não espera.
 :::
 
+::: sinal
+nome: Edema de papila (papiledema)
+descricao: |
+  Ao fundo de olho, **borramento do contorno da papila óptica**. Na sequência da hipertensão intracraniana: o pulso venoso desaparece, as veias ficam túrgidas, instala-se a estase da papila, surgem focos hemorrágicos e, por fim, a papila atrofia.
+significado: |
+  Traduz **hipertensão intracraniana** (e, na leitura de Porto, também inflamação do próprio nervo), e é **alarme que não espera**, sobretudo com cefaleia que mudou de caráter. Três ressalvas mudam a conduta: é frequente mas **não obrigatório** nas fases iniciais; é excepcionalmente unilateral; e pode ser intenso **sem prejuízo inicial da acuidade visual**: um paciente que enxerga bem não está protegido.
+causas:
+  - "Hipertensão intracraniana (massa, hemorragia, hidrocefalia, trombose venosa cerebral)"
+  - "Inflamação do próprio nervo óptico"
+:::
+
 ::: secao
 titulo: "As pupilas: a camada neurológica"
 :::

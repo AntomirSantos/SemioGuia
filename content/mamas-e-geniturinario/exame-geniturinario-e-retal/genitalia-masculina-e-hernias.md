@@ -230,6 +230,18 @@ texto: |
 :::
 
 ::: sinal
+nome: Manobra de Chevassu
+descricao: |
+  Faz-se o **epidídimo deslizar entre o indicador e o polegar**, acima e atrás do testículo, reconhecendo **cabeça, corpo e cauda**.
+significado: |
+  É a manobra que **individualiza o epidídimo** e responde a pergunta que evita metade dos erros: de que estrutura vem a massa? Aumento **regular e difuso com dor intensa** é epididimite aguda; aumento **irregular, multinodular e endurecido**, de evolução lenta, sugere tuberculose. O que é do testículo preocupa; o que é do epidídimo costuma ser benigno.
+causas:
+  - "Epididimite aguda (aumento difuso e doloroso)"
+  - "Epididimite tuberculosa (aumento irregular e endurecido)"
+  - "Espermatocele e cistos (massas císticas benignas)"
+:::
+
+::: sinal
 nome: Nódulo testicular
 descricao: "Área endurecida ou nodular dentro do parênquima testicular, em geral indolor, percebida na palpação comparativa. A Semiologia Médica formula a regra completa: a massa do testículo que **não dói, é endurecida e irregular e não deixa a luz passar** recebe o rótulo de neoplasia maligna enquanto a investigação não provar outra coisa. Semiologia Clínica repete o núcleo: áreas firmes ou endurecidas dentro do testículo são suspeitas de neoplasia. Muitas vezes é um pequeno traumatismo que chama a atenção do paciente para o nódulo que já existia: o trauma revela, não causa."
 significado: "É o alarme deste exame, e é alarme do homem jovem: as neoplasias testiculares representam 1% das lesões malignas do sexo masculino, mas a maioria ocorre **entre 20 e 40 anos**, a faixa etária em que quase nada mais é câncer. O testículo criptorquídico tem risco quatro a sete vezes maior. Dor mínima ou ausente não tranquiliza: é o padrão típico; a Semiologia Médica registra que em cerca de 20% dos casos há dor e hiperestesia que imitam orquiepididimite. Hidrocele associada pode esconder o tumor. A anamnese de Porto já prepara este encontro: o autoexame testicular é item de promoção da saúde no interrogatório, perguntar por ele faz parte da consulta."
@@ -368,6 +380,16 @@ texto: |
   **O sinal de Prehn**, com sua âncora declarada: Semiologia Clínica o define, a dor que **alivia quando o examinador eleva mecanicamente o testículo**, o que só acontece na orquiepididimite, e o oferece como auxiliar do diferencial com a torção. A *Semiologia Médica* traz o mesmo fato sem o epônimo: na orquite aguda, a elevação manual do testículo reduz a dor. O guia ensina o sinal com o nome que Semiologia Clínica lhe dá e com a ressalva que as próprias fontes impõem: a *Semiologia Médica* admite, por duas vezes, que a torção pode ser **indistinguível** da epididimite e da orquite ao exame físico, e a hiperestesia da torção muitas vezes impede a palpação que os sinais exigem.
 
   **O desempate não é clínico.** Porto encerra o boxe com a frase que decide a conduta: a **ultrassonografia é fundamental** para a comprovação, com Doppler avaliando o fluxo, acrescenta a *Semiologia Médica*. Nenhum sinal isolado autoriza esperar.
+:::
+
+::: sinal
+nome: Sinais da torção testicular (Brunzel, Angell e Ger)
+descricao: |
+  No escroto agudo: testículo tumefato e extremamente doloroso, **elevado** pelo encurtamento do cordão e pelo espasmo cremastérico (**sinal de Brunzel**), **horizontalizado** (**sinal de Angell**), com o epidídimo fora da posição habitual; muito precocemente, **umbilicação da pele escrotal inferior** (**sinal de Ger**). O **reflexo cremastérico está geralmente abolido**.
+significado: |
+  Compõem o retrato da **torção do cordão espermático**, acidente vascular com prazo, **emergência médica**: o atraso custa o testículo. Idade típica em torno da puberdade. O contraste: na orquiepididimite o reflexo está presente e a elevação do testículo alivia a dor (sinal de Prehn). E a sentença das fontes: torção e epididimite podem ser indistinguíveis ao exame, **a ultrassonografia com Doppler é fundamental e nenhum sinal isolado autoriza esperar**.
+causas:
+  - "Torção do cordão espermático (emergência: isquemia com prazo)"
 :::
 
 ::: sinal

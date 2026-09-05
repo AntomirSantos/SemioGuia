@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.19 (2026-09-05)
+
+- O plantão está completo: 186 verbetes, com os 86 que faltavam escritos a partir do texto revisado dos tópicos
+- Entraram os testes do ombro e do joelho, as marchas, as fácies, os sinais vasculares, a torção testicular, o papiledema e o reflexo de Moro
+- O que as fontes declaram em desuso ou só nomeiam (Schober, Lhermitte, Brodie-Trendelenburg, Perthès) ficou de fora, com o motivo registrado para o autor
+
 ## 1.2.18 (2026-09-04)
 
 - O modo plantão quase triplicou: de 36 para 100 verbetes de sinais, todos derivados do texto já revisado dos tópicos

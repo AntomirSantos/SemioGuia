@@ -493,6 +493,16 @@ texto: |
   - **Linfadenomegalias localizadas ou generalizadas como sintoma relatado** aparecem no interrogatório sintomatológico; a história ocupacional e epidemiológica que aponta paracoccidioidomicose, tuberculose, brucelose ou histoplasmose está no tópico de antecedentes e hábitos.
 :::
 
+::: sinal
+nome: Linfedema e sinal de Stemmer
+descricao: |
+  Edema **duro, inelástico, frio**, que **não regride com a elevação do membro**, quadra os dedos e produz corcova no dorso do pé, variando pouco ao longo do dia. O **sinal de Stemmer**: **não se consegue pinçar a pele do segundo pododáctilo**.
+significado: |
+  É o edema **linfático**, e as características o separam ponto a ponto do venoso (vespertino, mole, que o repouso desfaz) e do lipedema (que poupa os pés). Raramente ulcera; a forma extrema é a elefantíase.
+causas:
+  - "Obstrução ou insuficiência dos linfáticos do membro (linfedema)"
+:::
+
 ::: secao
 titulo: Armadilhas do exame
 :::

@@ -235,6 +235,32 @@ texto: |
   **E o próprio Neer já sabia da limitação.** McGee registra que ele considerava seu sinal **inespecífico**, dores no ombro de todos os tipos pioram com a manobra, mas ensinava que a dor subacromial era a única síndrome cujo sinal de impacto **desaparecia após a injeção de lidocaína** no espaço subacromial. Os estudos que mediram o teste não repetiram a manobra após a injeção, o que talvez explique parte da especificidade baixa.
 :::
 
+::: sinal
+nome: Teste de impacto de Hawkins-Kennedy
+descricao: |
+  Eleva-se o braço a **90 graus**, em rotação neutra, com o **cotovelo dobrado em ângulo reto**; o examinador então imprime uma **rotação anterior rápida e passiva**, pressionando a tuberosidade maior contra o **ligamento coracoacromial**, o teto anterior do manguito. Dor positiva o teste.
+significado: |
+  Como o Neer, vale sobretudo como **triagem negativa**: a ausência dos dois sinais de impacto praticamente afasta a tendinite do manguito. Presente, confirma pouco, porque dores no ombro de todos os tipos pioram com a manobra. Semiologia Clínica pede que as três manobras de impacto (Neer, Hawkins-Kennedy e Yokum) sejam **todas pesquisadas**, para elevar a sensibilidade do exame.
+causas:
+  - "Tendinite do manguito rotador e síndrome do impacto"
+  - "Bursite subacromial"
+  - "Ruptura do manguito rotador"
+  - "Qualquer dor no ombro reproduzida pela compressão subacromial"
+:::
+
+::: sinal
+nome: Teste de impacto de Neer
+descricao: |
+  O examinador **impede o movimento da escápula** com uma das mãos e, com a outra, **eleva o braço rapidamente, de forma passiva, no plano da escápula**, projetando o tubérculo maior contra a face anteroinferior do acrômio. Dor durante a manobra positiva o teste.
+significado: |
+  Reproduz a compressão subacromial, mas o próprio Neer o considerava **inespecífico**: dor no ombro de todos os tipos piora com a manobra. O valor real está na **ausência**: um ombro que não dói nem ao Neer nem ao Hawkins-Kennedy dificilmente tem doença subacromial. O teste nasceu como **seleção para cirurgia** (ressecção do acrômio anterior), não como ferramenta diagnóstica.
+causas:
+  - "Tendinite do manguito rotador e síndrome do impacto"
+  - "Bursite subacromial"
+  - "Ruptura do manguito rotador"
+  - "Dor no ombro de qualquer origem pode positivá-lo, e é isso que limita sua especificidade"
+:::
+
 ::: conceito
 titulo: Testar cada músculo do manguito
 texto: |
@@ -248,6 +274,83 @@ texto: |
   - **Sinal de Yergason, e as fontes descrevem gestos diferentes.** Este guia registra a divergência em vez de escolher em silêncio. **Semiologia Clínica e McGee**: resiste-se à **supinação** do antebraço, com o cotovelo dobrado em ângulo reto, e McGee dá a razão anatômica, o bíceps sendo o principal supinador do antebraço. **Porto**, na *Semiologia Médica*: a dor aparece ao se resistir à **flexão do antebraço** do lado doente, mantido em supinação, com o cotovelo a 90 graus. Resistir a dobrar o cotovelo não é o mesmo gesto que resistir a girar a palma para cima, e os dois movimentos recrutam músculos diferentes, embora o bíceps participe dos dois. **Os números de McGee, razão de verossimilhança 2,8: saíram da versão da supinação**, e é ela que este guia ensina; a versão de Porto fica registrada porque quem consultar a obra vai encontrá-la.
   - **Teste do braço caído.** McGee: o examinador abduz o braço o máximo possível, solta-o e pede ao paciente que o baixe lentamente. No teste positivo, o movimento é suave até cerca de **100 graus** e a partir daí torna-se irregular, podendo o braço **cair de repente**. E dá a explicação mecânica, que não é a intuitiva: isso não acontece porque o supraespinal seja o abdutor mais potente nesse ângulo, e sim porque **o manguito precisa estar íntegro para puxar a cabeça umeral contra a glenoide**, criando o fulcro que permite ao deltoide baixar o braço suavemente. Em nota, McGee registra que o supraespinal responde apenas pelos **30 graus iniciais** da abdução, e o deltoide, pelo restante.
   - **Adução cruzada, ou teste do cachecol.** McGee: aduz-se ao máximo o braço do lado sintomático **cruzando o tórax**, o que comprime a articulação acromioclavicular ipsilateral. Dor nessa articulação é a resposta positiva.
+:::
+
+::: sinal
+nome: Adução cruzada (teste do cachecol)
+descricao: |
+  Aduz-se ao máximo o braço do lado sintomático **cruzando o tórax**, como quem ajeita um cachecol no ombro oposto, o que comprime a **articulação acromioclavicular** do mesmo lado. A resposta positiva é dor sentida na própria articulação.
+significado: |
+  É o teste que de fato separa a **dor acromioclavicular**, e serve **nas duas direções**: presente aumenta a probabilidade, ausente a reduz. O contraste didático: a **palpação dolorosa** da articulação, que parece o gesto óbvio, não separa nada, porque quase todo ombro doloroso dói ali.
+causas:
+  - "Artropatia ou dor da articulação acromioclavicular"
+:::
+
+::: sinal
+nome: Teste do braço caído
+descricao: |
+  O examinador **abduz o braço o máximo possível, solta-o** e pede que o paciente o **baixe lentamente**. Positivo quando o movimento é suave até cerca de **100 graus** e daí se torna irregular, podendo o braço **cair de repente**.
+significado: |
+  Positivo, aumenta a probabilidade de **ruptura do manguito rotador**. A mecânica não é a intuitiva: o manguito íntegro **puxa a cabeça umeral contra a glenoide**, criando o fulcro que permite ao deltoide baixar o braço com suavidade; sem esse fulcro, o controle do movimento se perde. O supraespinal responde apenas pelos 30 graus iniciais da abdução, o deltoide faz o resto.
+causas:
+  - "Ruptura do manguito rotador"
+:::
+
+::: sinal
+nome: Sinal de Yergason
+descricao: |
+  Com o **cotovelo dobrado em ângulo reto**, o examinador **resiste à supinação do antebraço** (o bíceps é o principal supinador); dor no sulco bicipital positiva o sinal. Porto descreve outra versão, resistindo à **flexão do antebraço** supinado: **os números medidos vêm da versão da supinação**, e é ela que este guia ensina.
+significado: |
+  Criado para a tendinite bicipital, é dos melhores achados positivos para a **tendinite do manguito** entre os testes do ombro, atrás apenas do arco doloroso, o que McGee lê como confirmação da associação anatômica entre o bíceps e o manguito.
+causas:
+  - "Tendinite da cabeça longa do bíceps"
+  - "Tendinite do manguito rotador"
+:::
+
+::: sinal
+nome: Teste de Speed
+descricao: |
+  Resiste-se à **flexão do ombro com o cotovelo estendido e a palma voltada para cima**. Dor na região anterior do ombro, no trajeto bicipital, positiva o teste. Porto descreve o mesmo gesto, sem nome, como indicador de inflamação do tendão bicipital.
+significado: |
+  Interroga a **cabeça longa do bíceps**, mas serve de pista para a **doença do manguito**: o impacto subacromial avançado desgasta o supraespinal e expõe o tendão bicipital às mesmas forças, e a maioria das rupturas desse tendão acompanha doença avançada do manguito. Positivo, aumenta modestamente a probabilidade de tendinite do manguito.
+causas:
+  - "Tendinite da cabeça longa do bíceps"
+  - "Tendinite do manguito rotador associada"
+  - "Doença avançada do manguito com exposição do tendão bicipital"
+:::
+
+::: sinal
+nome: Teste de Gerber (lift off)
+descricao: |
+  O paciente leva a **mão às costas**, combinando rotação interna e extensão (a altura alcançada costuma ser **L5**), e tenta **afastá-la da coluna vencendo a resistência** do examinador. Não conseguir descolar a mão das costas positiva o teste.
+significado: |
+  É o teste do **subescapular**, o único músculo do manguito que **não se palpa**: só a rotação interna resistida o interroga. A falha em afastar a mão denuncia sua insuficiência, e completa o exame músculo a músculo do manguito rotador.
+causas:
+  - "Ruptura ou insuficiência do subescapular"
+  - "Doença do manguito rotador com acometimento anterior"
+:::
+
+::: sinal
+nome: Teste de Patte
+descricao: |
+  Membro em **abdução de 90 graus** com o **cotovelo fletido a 90 graus**; o paciente **roda lateralmente o antebraço contra a resistência** do examinador. Fraqueza ou dor positiva o teste.
+significado: |
+  É a variante em abdução do teste do **infraespinal**, o segundo músculo mais importante nas rupturas do manguito, envolvido em **11% a 45%** delas. A fraqueza do infraespinal é o achado que mais trabalha nas séries combinadas da ruptura. Técnica padronizada por Semiologia Clínica, ensinada **sem número próprio medido**.
+causas:
+  - "Ruptura do manguito rotador envolvendo o infraespinal"
+  - "Tendinite do manguito rotador"
+:::
+
+::: sinal
+nome: Teste de Jobe (lata vazia)
+descricao: |
+  Braços elevados a **90 graus no plano da escápula**, rodados internamente com os **polegares apontando para baixo, como quem esvazia uma lata**; o paciente sustenta a posição enquanto o examinador tenta baixá-los. **Fraqueza ou dor** positiva o teste. A variante da lata cheia, com os polegares para cima, dói menos e tem acurácia semelhante.
+significado: |
+  Testa o **supraespinal**, o músculo envolvido **na maioria das rupturas do manguito rotador**. Isolado, move pouco a probabilidade; seu peso aparece **em conjunto**: nas séries combinadas de McGee, três achados presentes tornam a ruptura muito provável e **nenhum achado presente praticamente a afasta**.
+causas:
+  - "Ruptura do manguito rotador envolvendo o supraespinal"
+  - "Tendinite do supraespinal, em que costuma haver dor com força preservada"
+  - "Dor subacromial de qualquer origem, que inibe a sustentação do braço"
 :::
 
 ::: conceito
@@ -319,6 +422,17 @@ texto: |
   As causas, reunindo as duas obras: trauma, inclusive microtraumatismos repetidos ocupacionais, e Semiologia Clínica dá o exemplo dos mecânicos de automóveis, artrite reumatoide, gota e infecções bacterianas; em muitos casos **a causa não se identifica**. Ao exame, avaliam-se tamanho, calor, eritema e turgor da bolsa.
 
   **E aqui há uma divergência que o leitor precisa conhecer**: Semiologia Clínica descreve a bursite olecraniana como **quadro doloroso** que pode complicar com infecção secundária; Porto a descreve como geralmente unilateral, com **dor leve ou ausente**, com derrame e **sem limitação dos movimentos** do cotovelo, acrescentando que gota, doença reumatoide e infecções acentuam as manifestações. As duas descrições convivem se lidas como estágios: a bursa distendida e não infectada dói pouco; a inflamada ou infectada dói muito. **Diante de uma bursa olecraniana quente, vermelha e muito dolorosa, a pergunta é infecção**, e Semiologia Clínica registra que se deve considerar a aspiração do conteúdo quando se suspeita de infecção, cristais ou etiologia inflamatória.
+:::
+
+::: sinal
+nome: Teste de Cozen
+descricao: |
+  **Cotovelo dobrado a 90 graus, antebraço pronado**; o paciente **estende o punho ativamente vencendo a resistência** do examinador. Dor sobre o **epicôndilo lateral** positiva o teste. Porto descreve o mesmo gesto: a dor aumenta quando se resiste à extensão do punho.
+significado: |
+  Confirma a **epicondilite lateral, o cotovelo do tenista**, a mais comum das epicondilites. O princípio que vale a pena guardar: a dor da entesopatia é provocada pela **contração resistida**, não pelo toque. O espelho medial: **fletir o punho contra resistência** dói na epicondilite medial, forma muito menos comum.
+causas:
+  - "Epicondilite lateral (cotovelo do tenista)"
+  - "Entesopatia dos extensores comuns do antebraço"
 :::
 
 ::: secao

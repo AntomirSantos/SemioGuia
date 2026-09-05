@@ -357,6 +357,36 @@ texto: |
 :::
 
 ::: sinal
+nome: Teste do pivot shift
+descricao: |
+  **Rotação interna da perna, estresse em valgo, carga axial e flexão progressiva** do joelho: no joelho sem cruzado anterior, a tíbia subluxa anteriormente entre 0 e 30 graus e **volta bruscamente ao lugar**, com **estalo palpável por volta de 30 graus**.
+significado: |
+  É a manobra que **reproduz o sintoma**: o paciente conhece o fenômeno como a sensação de **falseio** ao plantar o pé com o joelho estendido. Quase só confirmatório: positivo fala alto a favor da rotura do cruzado anterior; negativo não afasta, porque é um teste difícil de executar em paciente acordado e dolorido.
+causas:
+  - "Rotura do ligamento cruzado anterior"
+:::
+
+::: sinal
+nome: Teste da gaveta posterior
+descricao: |
+  A mesma posição da gaveta anterior, joelho a 90 graus, mas **empurrando a panturrilha alta para trás**. Positivo quando a tíbia **desliza posteriormente** de modo anormal, sempre em comparação com o outro joelho.
+significado: |
+  Interroga o **cruzado posterior**, a estrutura interna do joelho **menos sujeita a lesão**, cujo mecanismo característico é a desaceleração do joelho fletido contra superfície dura: **o joelho batendo no painel do carro**. Nos estudos reunidos por McGee, é o teste de melhor desempenho do capítulo, **confirmando quando presente e afastando quando ausente**, o que é raríssimo em um mesmo achado.
+causas:
+  - "Rotura do ligamento cruzado posterior"
+:::
+
+::: sinal
+nome: Teste da gaveta anterior
+descricao: |
+  Paciente deitado, **joelho a 90 graus**; o examinador **senta sobre o pé do paciente**, envolve a tíbia logo abaixo da interlinha com as duas mãos e **traciona a panturrilha alta para a frente**. Positivo quando há **subluxação anterior anormal com ponto final mole**.
+significado: |
+  Interroga o **cruzado anterior**, e positivo confirma bem a rotura. O problema é o negativo: a hemartrose aguda impede a flexão a 90 graus, os isquiotibiais doloridos se opõem à translação nesse ângulo e a borda posterior do menisco medial serve de calço. Por essas três razões mecânicas, **a gaveta que não veio não afasta nada**: quem exclui é o Lachman, o mesmo gesto a 20 graus.
+causas:
+  - "Rotura do ligamento cruzado anterior"
+:::
+
+::: sinal
 nome: Teste de Lachman positivo
 descricao: |
   O gesto da gaveta anterior com o **joelho a 20 graus** e o quadril estendido: uma mão segura a coxa distal, a outra traciona a panturrilha proximal para a frente. Positivo quando há **subluxação anterior anormal** ou **ponto final mole**.
@@ -376,6 +406,69 @@ texto: |
   **Uma nota de método que McGee faz questão de registrar.** Livros de ortopedia e artigos de revisão acrescentaram **estresses em varo e valgo** à definição do teste de McMurray. **McMurray não os incluiu na descrição original, e os estudos que mediram o teste não os usaram.** Quem executa a versão ampliada não está executando o teste que produziu os números.
 
   **Os outros testes meniscais que Semiologia Clínica ensina**, e que este guia registra com atribuição e **sem número**, porque nenhuma das quatro obras mede o desempenho deles: o **teste de Smillie**, que é a palpação dolorosa da interlinha correspondente à lesão; a **marcha de pato**, caminhar agachado, que evidencia lesões do corno posterior do menisco medial; o **teste de Appley**, executado em decúbito ventral, que comprime o pé no eixo da perna e a roda para os dois lados, e a contraprova em **distração**, que é a parte inteligente da manobra, porque a distração afasta as superfícies e provoca **menos** desconforto na lesão meniscal, separando-a da dor articular; e o **teste de Steinmann**, sentado com as pernas pendentes e os joelhos a 90 graus, rodando a tíbia pelo pé.
+:::
+
+::: sinal
+nome: Bloqueio articular do joelho
+descricao: |
+  O paciente **não consegue estender a perna por completo**: a extensão trava antes do fim, em geral com história de dor crônica ou intermitente e episódios de travamento.
+significado: |
+  É o achado meniscal **que dispensa manobra**: rupturas do menisco anterior, ou as grandes rupturas **em alça de balde**, deslocam tecido para entre as superfícies articulares e impedem a extensão completa. Presente, aumenta bem a probabilidade de lesão meniscal. O teste de McMurray existe justamente **para o que não bloqueia**: as rupturas da metade posterior.
+causas:
+  - "Ruptura do menisco anterior"
+  - "Ruptura em alça de balde com fragmento interposto"
+:::
+
+::: sinal
+nome: Marcha de pato
+descricao: |
+  Pede-se ao paciente que **caminhe agachado**, com os joelhos em flexão máxima sustentando o peso do corpo. Dor ou incapacidade de completar o gesto positiva o teste.
+significado: |
+  A flexão máxima sob carga comprime a **metade posterior dos meniscos**: por isso a manobra evidencia lesões do **corno posterior do menisco medial**, a mesma região que o teste de McMurray persegue. Não confundir com a marcha anserina da fraqueza da cintura pélvica: aqui a marcha é uma **prova provocativa**, não um padrão espontâneo.
+causas:
+  - "Lesão do corno posterior do menisco medial"
+:::
+
+::: sinal
+nome: Teste de Smillie
+descricao: |
+  **Palpação da interlinha articular** do joelho, medial e lateral: positivo quando a palpação é **dolorosa na interlinha correspondente à lesão**, sobretudo nas rupturas anteriores do menisco.
+significado: |
+  É o gesto mais fácil do exame meniscal, e o que **menos vale sozinho**: a dor na interlinha pode refletir lesão **da cápsula ou dos ligamentos colaterais** que acompanha o trauma, e não do menisco. Positivo, move pouco a probabilidade; negativo, reduz pouco. Serve como ponto de partida que os testes rotacionais (McMurray, Appley, Steinmann) vêm qualificar.
+causas:
+  - "Ruptura meniscal, sobretudo anterior"
+  - "Lesão da cápsula ou dos ligamentos colaterais, que dói no mesmo lugar"
+:::
+
+::: sinal
+nome: Teste de Steinmann
+descricao: |
+  Paciente **sentado com as pernas pendentes e os joelhos a 90 graus**; o examinador **roda a tíbia segurando pelo pé**, para um lado e para o outro.
+significado: |
+  Pertence ao grupo de testes meniscais que Semiologia Clínica ensina com técnica padronizada e **sem número medido**: a rotação da tíbia provoca o menisco lesado e desperta dor na interlinha correspondente. A leitura segue a mesma lógica do McMurray: rotação lateral interroga o menisco medial, e vice-versa.
+causas:
+  - "Lesão meniscal"
+:::
+
+::: sinal
+nome: Teste de Appley (compressão e distração)
+descricao: |
+  Em **decúbito ventral**, com o joelho fletido, **comprime-se o pé no eixo da perna** e roda-se a tíbia para os dois lados; a contraprova é a **distração**, tracionando o pé no mesmo eixo.
+significado: |
+  A distração é **a parte inteligente da manobra**: afastar as superfícies articulares provoca **menos** desconforto na lesão meniscal, separando-a da dor articular, que tende a doer também sob tração. Dor à compressão rotacional com alívio à distração fala do menisco. Técnica de Semiologia Clínica, ensinada **sem número medido**.
+causas:
+  - "Lesão meniscal"
+:::
+
+::: sinal
+nome: Teste de McMurray
+descricao: |
+  **Flete-se completamente o joelho** e **roda-se a tíbia**: a rotação **externa traz o menisco medial** para a frente do côndilo, a **interna traz o lateral**. Mantendo a rotação, **estende-se lentamente** o joelho. Positivo quando o côndilo passa por cima do fragmento roto e produz **ressalto palpável na interlinha** correspondente, com dor ou estalido.
+significado: |
+  Foi criado em 1949 para as rupturas da **metade posterior** do menisco, justamente as que **não bloqueiam** a extensão e escapam da inspeção. É o melhor teste meniscal isolado quando positivo, e uma nota de método importa: os estresses em varo e valgo que alguns textos acrescentam **não estão na descrição original nem nos estudos que mediram o teste**. Nenhum teste meniscal exclui a lesão quando negativo.
+causas:
+  - "Ruptura da metade posterior do menisco medial (rotação externa)"
+  - "Ruptura da metade posterior do menisco lateral (rotação interna)"
 :::
 
 ::: secao

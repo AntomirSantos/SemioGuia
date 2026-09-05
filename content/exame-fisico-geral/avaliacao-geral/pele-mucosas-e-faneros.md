@@ -303,6 +303,17 @@ texto: |
   E um contrapeso que fecha o raciocínio: **nenhum sinal físico afasta anemia com convicção**. Nenhuma razão de verossimilhança negativa desceu abaixo de 0,4. Mucosas coradas tranquilizam pouco; o hemograma continua necessário.
 :::
 
+::: sinal
+nome: Palidez da rima conjuntival
+descricao: |
+  Puxa-se delicadamente a pálpebra inferior: no normal, a **rima anterior é nitidamente avermelhada** e contrasta com a porção mais próxima do globo, pálida e carnosa. Há palidez da rima quando **esse contraste desaparece** e toda a superfície interna tem a mesma cor pálida.
+significado: |
+  É o achado que **mais eleva a probabilidade de anemia** e também o mais reprodutível entre os sítios de palidez, ao contrário do leito ungueal, que não mostrou valor. O contrapeso: **nenhum sinal físico afasta anemia com convicção**; mucosas coradas tranquilizam pouco e o hemograma continua necessário. Em pele escura, palmas, plantas e mucosas substituem a pele na busca.
+causas:
+  - "Anemia de qualquer causa"
+  - "Vasoconstrição (choque, dor intensa, lipotimia), na palidez generalizada aguda"
+:::
+
 ::: ilustracao
 svg: |
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -394,6 +405,18 @@ texto: |
   Vale separar esse achado de um imitador vizinho, mas distinto, descrito por McGee: a **gordura subconjuntival**, que se limita às dobras da conjuntiva e poupa a área próxima à córnea. São, a rigor, dois relatos de depósito de gordura em planos diferentes (o escleral, descrito por Porto, e o subconjuntival, descrito por McGee) embora o capítulo hepatobiliar do próprio Porto localize essa gordura na conjuntiva, o que sugere que os dois relatos possam descrever o mesmo depósito. De um jeito ou de outro, o cuidado prático é o mesmo: gordura amarelada poupa a vizinhança da córnea e não acompanha as demais mucosas; a icterícia, não.
 :::
 
+::: sinal
+nome: Icterícia
+descricao: |
+  Cor **amarelada** que o acúmulo de bilirrubina imprime à pele, às mucosas e à esclerótica. Pesquise em ordem de rendimento: **esclera e conjuntiva, freio da língua e palato duro**; as icterícias leves só aparecem nos primeiros sítios. Examine **sob luz natural**.
+significado: |
+  O pigmento se deposita onde há mais tecido conjuntivo e albumina, daí a ordem dos sítios. Dois imitadores a conhecer: em pessoas de pele pigmentada, a esclerótica pode ser amarelada **por depósito de gordura** (avalie a esclera sob a pálpebra inferior, protegida do sol); e a **gordura subconjuntival poupa a vizinhança da córnea** e não acompanha as demais mucosas, a icterícia, não.
+causas:
+  - "Icterícia hepatocelular (hepatites, cirrose)"
+  - "Icterícia obstrutiva (coledocolitíase, neoplasia, e a vesícula de Courvoisier)"
+  - "Hemólise"
+:::
+
 ::: entendimento
 titulo: Esclera ou conjuntiva? Duas leituras da mesma observação
 texto: |
@@ -477,6 +500,18 @@ texto: |
 :::
 
 ::: sinal
+nome: Cianose
+descricao: |
+  Coloração **azulada** da pele e das mucosas. Procure na região perioral, na ponta do nariz, nos lóbulos das orelhas, nas mucosas e nas extremidades, incluindo leito ungueal e polpas digitais.
+significado: |
+  A primeira pergunta é **generalizada ou segmentar**: toda cianose restrita a um segmento é **periférica**, e significa obstrução da veia que drena a região. O esquema prático de Porto: **aquecer a área atenua a periférica e não muda a central**; a oxigenoterapia atua na central e nada faz pela periférica; **unha azulada em mão quente aponta origem central**. E lembre: o anêmico pode estar gravemente hipoxêmico **sem ficar cianótico**.
+causas:
+  - "Cianose central (pulmão, coração, shunts)"
+  - "Cianose periférica (estase, obstrução venosa, baixo débito, frio)"
+  - "Alteração da hemoglobina (metemoglobinemia, sulfemoglobinemia)"
+:::
+
+::: sinal
 nome: Manchas hemorrágicas (petéquias, víbices e equimoses)
 descricao: |
   Também chamadas sufusões hemorrágicas. São manchas que **não desaparecem à compressão**, porque a cor vem de sangue extravasado para o tecido, e é exatamente esse comportamento que as separa das manchas eritematosas. A forma e o tamanho as subdividem em três:
@@ -517,6 +552,18 @@ texto: |
   **Pelos.** Interessam distribuição, quantidade e caracteres do fio. **Hipertricose** é o aumento exagerado de pelos terminais; **hirsutismo**, o aumento de pelos de padrão masculino na mulher, que quando ligado a níveis elevados de testosterona vem com implantação masculina dos cabelos e calvície temporal. A **virilização** soma ao hirsutismo o aprofundamento da voz e o aumento do clitóris. Na direção oposta, a queda de pelos axilares e pubianos aponta desnutrição, hepatopatias crônicas, mixedema, colagenoses, quimioterapia e algumas dermatoses.
 
   **Unhas.** Analisam-se forma, tipo de implantação, espessura, superfície, consistência, brilho e coloração, nas mãos e nos pés, sem esquecer as **regiões periungueais**, sede frequente de processos inflamatórios e de alterações capilares com valor sistêmico. A unha normal tem superfície lisa e brilhante, cor róseo-avermelhada, uma curvatura lateral nítida, espessura e consistência firmes.
+:::
+
+::: sinal
+nome: Manobra de Sabouraud (tração dos cabelos)
+descricao: |
+  **Prova de tração suave** de uma mecha de cabelos no exame do couro cabeludo, testando o **destacamento dos fios**.
+significado: |
+  Fios que se destacam com facilidade documentam a queda ativa que a anamnese relata. Leia junto com o restante dos cabelos: fios **sem brilho, secos e quebradiços** aparecem no mixedema e nos estados carenciais, e na desnutrição proteica grave da criança o cabelo pode até mudar de cor.
+causas:
+  - "Alopecias e quedas ativas de cabelo"
+  - "Estados carenciais e desnutrição"
+  - "Mixedema"
 :::
 
 ::: tabela

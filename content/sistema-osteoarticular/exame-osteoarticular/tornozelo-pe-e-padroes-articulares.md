@@ -308,6 +308,26 @@ texto: |
 :::
 
 ::: sinal
+nome: Falha palpável no tendão calcâneo
+descricao: |
+  Com o paciente em **decúbito ventral** e os pés para fora da maca, o examinador **percorre suavemente o trajeto do tendão** à procura de interrupções: quando existe, a falha costuma estar entre **2 e 6 cm do calcâneo**.
+significado: |
+  É a família de testes que **palpa o tendão lesado**, complementar à que demonstra a ausência de função (aperto da panturrilha, Matles). Presente, aumenta bem a probabilidade de **rotura do tendão calcâneo**; a topografia dos 2 a 6 cm orienta a busca, e o lado assintomático serve de controle.
+causas:
+  - "Rotura do tendão calcâneo"
+:::
+
+::: sinal
+nome: Teste de flexão do joelho (Matles)
+descricao: |
+  Paciente em **decúbito ventral**, pés para fora da maca; o examinador **observa a posição dos tornozelos enquanto o paciente flete os dois joelhos a 90 graus**. Com o tendão calcâneo íntegro, o tornozelo permanece em **leve flexão plantar**; **dorsiflexão discreta ou posição neutra** é a resposta positiva.
+significado: |
+  Segundo teste da **rotura do tendão calcâneo**, descrito por Matles em 1975: sem o tendão, o pé perde o tônus que o mantinha em flexão plantar e cai para a posição neutra sob a gravidade. Positivo, aumenta bem a probabilidade da rotura; o lado assintomático serve de **controle**. Lembre o erro clássico da região: muitos pacientes com o tendão roto **ainda fazem flexão plantar ativa**, pelo tibial posterior e pelos fibulares.
+causas:
+  - "Rotura do tendão calcâneo"
+:::
+
+::: sinal
 nome: Teste do aperto da panturrilha
 descricao: "Com o paciente em decúbito ventral e os pés para fora da maca, o examinador comprime suavemente o terço médio da panturrilha, logo abaixo do ponto de maior circunferência, e observa o tornozelo. Com o tendão calcâneo íntegro, o pé responde com flexão plantar, porque a compressão do sóleo arqueia o tendão para trás. **Ausência de movimento, ou movimento mínimo, é a resposta positiva.** O lado assintomático serve de controle."
 significado: "É o melhor achado isolado da **rotura do tendão calcâneo** em todo este capítulo, e um dos melhores de todo o guia, porque funciona nas duas direções. No boxe EBM 57.8, tendo como padrão os achados cirúrgicos ou, nos não operados, a ultrassonografia ou a ressonância, ele tem sensibilidade de 96% e especificidade de 93%, com razão de verossimilhança 13,5 quando presente e 0,05 quando ausente. Os outros dois testes seguem na mesma direção: falha palpável rende 6,8 e 0,3; teste de flexão do joelho, 6,2 e 0,1. Sua importância prática vem da advertência que o precede: muitos pacientes com o tendão roto **ainda fazem flexão plantar ativa**, porque o tibial posterior e os fibulares também plantifletem o pé."

@@ -372,6 +372,19 @@ texto: |
   **Tireoidites.** Porto descreve quatro tipos: aguda, por invasão bacteriana; subaguda, viral ou autoimune; de **Hashimoto**, doença autoimune que pode determinar hiperfunção na fase inicial e evoluir com frequência para hipotireoidismo; e de Riedel, muito rara. Um achado que vale reconhecer: **tireoide dolorosa ou hipersensível, às vezes simulando faringite**, sugere tireoidite subaguda ou hemorragia para dentro de um cisto ou nódulo, embora a maioria das hemorragias tireoidianas seja indolor (McGee). Na tireoidite subaguda, a glândula fica modestamente aumentada, em geral de 1,5 a 3 vezes o tamanho normal.
 :::
 
+::: sinal
+nome: Bócio
+descricao: |
+  Aumento da tireoide: no **bócio pequeno a glândula apenas se palpa** e só aparece com o pescoço estendido; num grau maior, vê-se com a cabeça em posição habitual e **durante a deglutição** (o nódulo tireoidiano sobe com a laringe ao engolir); nos evidentes, ver e palpar são igualmente fáceis. De perfil, o contorno **arqueado** denuncia o que a inspeção de frente não mostrou.
+significado: |
+  **Tamanho não é função**: cerca de 80% dos pacientes com bócio estão eutireóideos. A carência de iodo, causa mais comum no mundo, produz **bócio grande com hipotireoidismo**; a doença de Graves, **glândula grande com hipertireoidismo**; a doença de Plummer, hipertireoidismo com glândula de dimensões normais. **Dor à palpação sugere infecção, inflamação (tireoidite subaguda) ou sangramento em nódulo.** E não construa o diagnóstico sobre palpação isolada: palpar sem ver não distingue bócio de tireoide normal.
+causas:
+  - "Carência de iodo (bócio com hipotireoidismo)"
+  - "Doença de Graves (bócio com hipertireoidismo)"
+  - "Bócio multinodular e tireoidite de Hashimoto"
+  - "Tireoidites (dolorosas na forma subaguda)"
+:::
+
 ::: entendimento
 titulo: A palpação não diz se a glândula está funcionando
 texto: |

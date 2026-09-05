@@ -714,3 +714,44 @@ havia embaralhado (o frêmito cardiovascular, a hérnia encarcerada e o CAM),
 restaurados com fidelidade ao texto pré-conversão conferido no git. Vale uma
 leitura de amostragem dos verbetes novos, tópico a tópico, como parte da
 revisão de sempre.
+
+## Complemento (v1.2.19): plantão completo com 186 verbetes, para endosso do autor
+
+O modo plantão foi completado: aos 100 verbetes da v1.2.18 somaram-se **86
+novos**, todos escritos a partir do texto já revisado dos próprios tópicos,
+com leitura de fundamentação antes de cada verbete e destaques em negrito
+nas partes decisivas. Nenhum tópico teve seu texto alterado: os verbetes
+apenas reapresentam o que os tópicos já ensinam. Os 86 nomes, para
+conferência: Acrocianose; Adução cruzada (teste do cachecol); Baço palpável (esplenomegalia); Bloqueio articular do joelho; Borda hepática palpável; Bócio; Cianose; Contratura de Dupuytren; Coroa flebectásica; Dedo em botoeira; Dedo em pescoço de cisne; Dermatite ocre; Desdobramento fixo de B2; Desvio ulnar das metacarpofalangianas; Edema de papila (papiledema); Exoftalmia; Falha palpável no tendão calcâneo; Fenômeno de Raynaud; Fácies acromegálica; Fácies adenoidiana; Fácies basedowiana; Fácies cushingoide (lua cheia); Fácies esclerodérmica; Fácies hipocrática; Fácies leonina; Fácies mixedematosa; Fácies parkinsoniana; Fácies renal (nefrótica); Hipoalgesia no território do mediano; Icterícia; Ictus cordis desviado ou aumentado; Lid lag (sinal de von Graefe); Linfedema e sinal de Stemmer; Lipodermatoesclerose; Livedo reticular; Manobra de Adson; Manobra de Chevassu; Manobra de Denecke-Payr; Manobra de Fukuda; Manobra de Galambos; Manobra de Olow; Manobra de Sabouraud (tração dos cabelos); Marcha anserina (do pato); Marcha antálgica (claudicante); Marcha atáxica cerebelar (do ébrio); Marcha de pato; Marcha em tesoura; Marcha escarvante; Marcha talonante (atáxica sensitiva); Marcha vestibular (em estrela); Nódulos de Heberden e de Bouchard; Palidez da rima conjuntival; Phlegmasia alba e cerulea dolens; Pulso alternante; Reflexo de Cushing; Reflexo de Moro; Sinais da torção testicular (Brunzel, Angell e Ger); Sinal da bandeira; Sinal das pontas; Sinal de Bragard; Sinal de Cowie; Sinal de Dalrymple (retração palpebral); Sinal de Ramond; Sinal de Romaña; Sinal de Signorelli; Sinal de Tinel; Sinal de Yergason; Teste da gaveta anterior; Teste da gaveta posterior; Teste de Appley (compressão e distração); Teste de Cozen; Teste de Gerber (lift off); Teste de Jobe (lata vazia); Teste de McMurray; Teste de Patte; Teste de Smillie; Teste de Speed; Teste de Steinmann; Teste de flexão do joelho (Matles); Teste de impacto de Hawkins-Kennedy; Teste de impacto de Neer; Teste do braço caído; Teste do impulso cefálico (manobra de Halmagyi); Teste do pivot shift; Turgência jugular; Úlcera venosa.
+
+**O que ficou de fora, e por quê** (decisões que pedem seu aval):
+
+1. **Teste de Schober e sinal de Lhermitte**: o próprio guia os declara
+   nomeados e não ensinados (Schober sem técnica nas quatro obras; Lhermitte
+   citado apenas nas referências e em remissões). Sem texto de ensino, não
+   viraram verbete.
+2. **Manobras de Brodie-Trendelenburg, de Perthès, percussão venosa e a
+   tosse como prova isolada de refluxo**: Porto registra a sentença de
+   desuso (com o ecodoppler, deixaram de ser usadas) e o tópico as mantém
+   nomeadas e medidas apenas na tabela de aprofundamento, fora da manobra e
+   do checklist. O plantão respeitou a mesma decisão editorial.
+3. **Gaenslen, Ortolani e Barlow**: moldura declarada pelo guia (nomeados
+   sem descrição de técnica nas fontes adotadas).
+4. **Manobra de Jendrassik, manobra de Valsalva, teste de distração de
+   Apley e sinal de Bloodgood**: técnicas auxiliares ou de reforço, não
+   achados; ficam nos tópicos.
+5. **Pupila tônica de Adie**: aparece apenas como causa dentro do raciocínio
+   da anisocoria, sem bloco de ensino próprio; coberta pelos verbetes
+   pupilares existentes.
+
+**Um ponto para conferência de conteúdo**: o verbete "Sinal das pontas"
+reproduz fielmente o tópico de coluna vertebral (Semiologia Clínica):
+dificuldade de caminhar **na ponta dos pés** apontaria **L4/L5** e **nos
+calcanhares**, **S1**. O ensino clássico costuma inverter esse pareamento
+(ponta dos pés testa a flexão plantar, S1; calcanhares testam a
+dorsiflexão, L4/L5). O verbete segue o texto revisado, mas vale conferir a
+passagem na fonte; se houver ajuste, tópico e verbete mudam juntos.
+
+O piso do teste automatizado do plantão subiu de 90 para 180 verbetes, e o
+README passou a registrar 186. Como sempre, vale uma leitura de amostragem
+dos verbetes novos como parte da revisão.

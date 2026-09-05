@@ -246,6 +246,58 @@ texto: |
   - **Proeminência anormal da ulna distal**, McGee: **subluxação da ulna**, por artrite inflamatória crônica, sobretudo a reumatoide.
 :::
 
+::: sinal
+nome: Contratura de Dupuytren
+descricao: |
+  O **espessamento da aponeurose palmar** torna-se nodular e **puxa os dedos em flexão**. A placa inicial aparece na prega palmar distal, sobre o tendão flexor do **quarto dedo**; a hierarquia dos dedos acometidos: **quarto mais que quinto, e quinto mais que terceiro**. Costuma ser **indolor** e bilateral.
+significado: |
+  É deformidade **fibrótica, não articular**: a junta é inocente, a aponeurose é a ré. Hereditária, associa-se a **tabagismo, álcool, epilepsia e diabetes**. Distinguir da mão em garra neurológica: nesta, a atrofia muscular precede a retração e os dedos fletidos são os três mais ulnares.
+causas:
+  - "Contratura de Dupuytren idiopática ou hereditária"
+  - "Associações registradas: tabagismo, álcool, epilepsia, diabetes"
+:::
+
+::: sinal
+nome: Nódulos de Heberden e de Bouchard
+descricao: |
+  **Pequenos nódulos duros e indolores** nas interfalangianas: **Heberden nas distais, Bouchard nas proximais**. Desenvolvem-se lenta e gradualmente, com pouco ou nenhum desconforto, mas **podem inflamar de forma aguda** e então doer de modo persistente.
+significado: |
+  Traduzem **crescimento ósseo excessivo** (McGee os nomeia como osteófitos) e marcam a **osteoartrite das mãos**, sobretudo as formas hereditárias, com predomínio no sexo feminino. A fileira escolhida separa as doenças: a osteoartrite prefere as **distais** e a base do polegar; a artrite reumatoide, as metacarpofalangianas e proximais, **poupando as distais**.
+causas:
+  - "Osteoartrite das mãos"
+:::
+
+::: sinal
+nome: Dedo em botoeira
+descricao: |
+  **Flexão da interfalangiana proximal** com **hiperextensão da distal**: a ordem inversa do pescoço de cisne.
+significado: |
+  O mecanismo, segundo McGee: **desinserção da faixa central do tendão extensor** sobre a interfalangiana proximal, que escapa entre as faixas laterais como um botão pela casa. Achado comum na **artrite reumatoide**; como o pescoço de cisne, começa redutível e evolui para contratura fixa.
+causas:
+  - "Artrite reumatoide"
+  - "Lesão traumática do aparelho extensor do dedo"
+:::
+
+::: sinal
+nome: Dedo em pescoço de cisne
+descricao: |
+  Na descrição completa: contratura em **flexão da metacarpofalangiana**, **hiperextensão da interfalangiana proximal** e **flexão da distal**, o dedo desenhando a curva que dá o nome.
+significado: |
+  Deformidade clássica da **mão reumatoide**. O detalhe que o exame precisa registrar: ela é **inicialmente redutível** e só com o tempo passa à contratura fixa; tentar desfazê-la com o dedo custa um segundo e **data a doença**. O espelho é o dedo em botoeira, com as dobras invertidas.
+causas:
+  - "Artrite reumatoide"
+:::
+
+::: sinal
+nome: Desvio ulnar das metacarpofalangianas
+descricao: |
+  Os dedos **apontam para o lado do quinto dedo**, por **subluxação das metacarpofalangianas** com desvio ulnar do carpo, em geral com tumefação e espessamento das metacarpofalangianas e das interfalangianas proximais.
+significado: |
+  Deformidade tardia da **artrite reumatoide crônica**. Na mão, a deformidade não sugere a doença: **ela é o critério**. Diante de artrite simétrica de punhos e mãos com desvio ulnar e dedos em pescoço de cisne, o diagnóstico fica praticamente estabelecido **com ou sem fator reumatoide no soro**.
+causas:
+  - "Artrite reumatoide crônica"
+:::
+
 ::: tabela
 titulo: "Punho, carpo e dedos: achado e diagnóstico implicado (McGee, Tabela 57.2)"
 colunas:
@@ -406,6 +458,27 @@ texto: |
   **Um detalhe que muda o interrogatório, e que é fácil levar longe demais.** McGee registra por que o **padrão clássico** do diagrama de sintomas **exclui a palma**: o **ramo cutâneo palmar do mediano não passa dentro do túnel do carpo**. Mas o boxe não autoriza concluir que sintomas na palma afastem o diagnóstico: o padrão **provável** é definido como igual ao clássico **admitindo sintomas palmares**, e os dois entram na **mesma linha**, com a mesma razão de verossimilhança **2,4**. Sintomas na palma, portanto, movem o desenho de clássico para provável **dentro do mesmo grupo**, e não para fora dele.
 
   **O que de fato argumenta contra é o padrão improvável**, definido pela ausência de sintomas nos **dedos 1, 2 e 3**, e é ele que rende **0,2**. A pergunta que vale, portanto, não é "dói na palma?", e sim "**o polegar, o indicador ou o médio estão dentro da queixa?**".
+:::
+
+::: sinal
+nome: Hipoalgesia no território do mediano
+descricao: |
+  Compara-se a sensibilidade dolorosa do **indicador com a do quinto dedo da mesma mão**: percepção diminuída no indicador, território do mediano, é a resposta positiva.
+significado: |
+  É o achado do exame físico que **mais move a probabilidade** na síndrome do túnel do carpo, à frente de Tinel e Phalen, tendo a eletroneuromiografia como padrão. O desenho do teste é o que o torna bom: o quinto dedo, território do ulnar, serve de **controle interno** na própria mão do paciente.
+causas:
+  - "Síndrome do túnel do carpo (compressão do nervo mediano)"
+:::
+
+::: sinal
+nome: Sinal de Tinel
+descricao: |
+  **Percussão sobre a prega distal do punho**, na projeção do nervo mediano. Positivo quando surgem **parestesias no território do mediano**: polegar, segundo e terceiro dedos e a metade radial do quarto.
+significado: |
+  É a manobra mais conhecida da síndrome do túnel do carpo e uma das que **menos movem a probabilidade**: positiva confirma pouco e sua ausência não afasta nada. A razão, segundo McGee: Tinel e Phalen **não separam** o túnel do carpo das demais causas de disestesia da mão, como polineuropatia, neuropatia ulnar e radiculopatia. Registre o gesto e o desfecho, não o rótulo: **"percussão do punho reproduziu formigamento no indicador e no médio"** é frase conferível.
+causas:
+  - "Síndrome do túnel do carpo (compressão do nervo mediano)"
+  - "Outras causas de disestesia da mão, que a manobra não separa: polineuropatia, neuropatia ulnar, radiculopatia cervical"
 :::
 
 ::: sinal

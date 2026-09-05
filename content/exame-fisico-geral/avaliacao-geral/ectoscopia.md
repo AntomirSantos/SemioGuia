@@ -370,6 +370,111 @@ linhas:
     - "Esclerose sistêmica"
 :::
 
+::: sinal
+nome: Fácies esclerodérmica
+descricao: |
+  **Imobilidade facial**, a fácies de múmia: pele **endurecida e aderente**, lábios repuxados, nariz afinado, pálpebras imobilizadas.
+significado: |
+  É o rosto da **esclerose sistêmica**: a pele endurecida e aderente apaga a expressão, repuxa os lábios e imobiliza as pálpebras, o conjunto que a tradição chama de **fácies de múmia**.
+causas:
+  - "Esclerose sistêmica"
+:::
+
+::: sinal
+nome: Fácies cushingoide (lua cheia)
+descricao: |
+  Rosto **arredondado com atenuação dos traços**, **rubor malar**, por vezes hirsutismo.
+significado: |
+  Aponta **hipercortisolismo**: endógeno (síndrome de Cushing) ou, com frequência bem maior, **uso prolongado de corticosteroide**. A pergunta pela medicação vem antes de qualquer investigação hormonal.
+causas:
+  - "Uso prolongado de corticosteroide"
+  - "Hipercortisolismo endógeno (síndrome de Cushing)"
+:::
+
+::: sinal
+nome: Fácies acromegálica
+descricao: |
+  **Arcadas supraorbitárias salientes, maçãs do rosto proeminentes, maxilar inferior desenvolvido, nariz e orelhas aumentados.**
+significado: |
+  É o crescimento acral do excesso de hormônio do crescimento no adulto: os pacientes **se parecem mais entre si do que com os próprios familiares**. A comparação com fotografia antiga de documento é a manobra que revela a mudança lenta que a convivência não percebe.
+causas:
+  - "Acromegalia (excesso de hormônio do crescimento no adulto)"
+:::
+
+::: sinal
+nome: Fácies mixedematosa
+descricao: |
+  Rosto **arredondado**, nariz e lábios **grossos**, pele **seca e espessada**, **pálpebras infiltradas**, aspecto **apático**.
+significado: |
+  É o espelho da basedowiana: o **hipotireoidismo** infiltra onde o hipertireoidismo consome. A apatia do rosto acompanha a lentidão global do quadro, e a pele seca e espessada com pálpebras infiltradas é o que separa este rosto redondo do cushingoide.
+causas:
+  - "Hipotireoidismo (mixedema)"
+:::
+
+::: sinal
+nome: Fácies basedowiana
+descricao: |
+  **Olhos salientes e brilhantes com fenda palpebral aberta**, em rosto magro; **expressão de espanto**.
+significado: |
+  É o rosto do **hipertireoidismo**, tipicamente na doença de Graves-Basedow. O olhar de espanto nasce da retração palpebral (sinal de Dalrymple), o sinal físico de maior peso no hipertireoidismo; some o emagrecimento, o tremor fino e a pele quente e úmida.
+causas:
+  - "Hipertireoidismo, tipicamente doença de Graves-Basedow"
+:::
+
+::: sinal
+nome: Fácies parkinsoniana
+descricao: |
+  Cabeça **inclinada para diante e imóvel**, **olhar fixo**, supercílios elevados, fronte enrugada, **perda precoce da mímica**, voz baixa e pouco modulada.
+significado: |
+  É a hipomimia da **rigidez extrapiramidal**: o rosto congela antes de o diagnóstico ser dito. Combine com o resto da síndrome: marcha em bloco de passos miúdos, braços sem balanço, roda denteada.
+causas:
+  - "Doença de Parkinson"
+  - "Parkinsonismos de outras causas"
+:::
+
+::: sinal
+nome: Fácies adenoidiana
+descricao: |
+  **Nariz pequeno e afilado, boca sempre entreaberta.**
+significado: |
+  É o rosto do **respirador bucal** por hipertrofia das adenoides: a obstrução nasal crônica molda a face. A boca sempre entreaberta é o traço que se vê à distância, e leva o exame para boca, nariz e ouvidos.
+causas:
+  - "Hipertrofia das adenoides com respiração bucal crônica"
+:::
+
+::: sinal
+nome: Fácies leonina
+descricao: |
+  Pele **espessa**, sede de **lepromas confluentes**, mais numerosos na fronte; **queda dos supercílios**; nariz espessado e alargado; **lábios grossos e proeminentes**; bochechas e mento deformados por nódulos; barba escassa.
+significado: |
+  É a fácies da **hanseníase virchowiana**. A **queda dos supercílios** e os nódulos de predomínio frontal são os traços que a separam de outras faces infiltradas.
+causas:
+  - "Hanseníase virchowiana"
+:::
+
+::: sinal
+nome: Fácies renal (nefrótica)
+descricao: |
+  Edema que **predomina ao redor dos olhos**, nas regiões subpalpebrais, somado a **palidez cutânea**. É **mais evidente pela manhã** (o paciente amanhece com os olhos empapuçados) e, na glomerulonefrite, passa a predominar nos membros inferiores no fim do dia, se o paciente deambula.
+significado: |
+  O horário é o dado didático: **edema que amanhece com o paciente fala de rim**, e, na glomerulonefrite, o predomínio migra para os membros inferiores ao longo do dia. Inchaço dos olhos pela manhã pode ser o **sinal mais precoce de edema generalizado**.
+causas:
+  - "Síndrome nefrótica"
+  - "Glomerulonefrite aguda"
+  - "Outras doenças renais com retenção de líquido"
+:::
+
+::: sinal
+nome: Fácies hipocrática
+descricao: |
+  **Olhos fundos, parados e inexpressivos; nariz afilado; lábios adelgaçados; batimento das asas do nariz.**
+significado: |
+  É o rosto das **doenças graves em fase avançada e dos estados agônicos**: um aviso de gravidade que se levanta à distância, antes da primeira pergunta. Diante dela, o exame muda de andamento, o que se procura primeiro é a causa da deterioração.
+causas:
+  - "Doenças graves em fase avançada"
+  - "Estados agônicos"
+:::
+
 ::: conceito
 titulo: Fácies menos frequentes
 nivel: avancado

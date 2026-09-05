@@ -170,6 +170,17 @@ texto: |
   Dois imitadores fecham a lista. As **bolsas de acúmulo de gordura**, frequentes em idosos, instalam-se lentamente ao longo de anos, não variam com a posição, não flutuam durante o dia, não têm sinais flogísticos e não são compressíveis (Semiologia Clínica): o oposto ponto a ponto do edema. E o **xantelasma**, placa amarelada em alto-relevo na pálpebra, que pode ou não acompanhar alteração do metabolismo lipídico.
 :::
 
+::: sinal
+nome: Sinal de Romaña
+descricao: |
+  **Edema palpebral unilateral com características inflamatórias**, que **dura poucos dias e regride sozinho**.
+significado: |
+  É a porta de entrada ocular da **doença de Chagas aguda**, diagnóstico diferencial que vale lembrar em nosso meio diante de um olho inchado de um lado só. O contraste didático: os edemas palpebrais por retenção de líquido, alérgicos e mixedematosos tendem a ser **bilaterais**; o inflamatório unilateral pede que se pense também em blefarite e celulite periorbitária.
+causas:
+  - "Doença de Chagas aguda (inoculação conjuntival)"
+  - "Diferenciais do edema palpebral inflamatório unilateral: blefarite, celulite periorbitária"
+:::
+
 ::: conceito
 titulo: A fenda, e o globo por trás dela
 texto: |
@@ -183,6 +194,18 @@ texto: |
   Na exoftalmia, o que se perde é justamente a relação normal entre o limbo e as pálpebras: aparece um crescente de esclerótica visível acima e abaixo, e o achado fica mais evidente quando se olha o paciente de perfil (Porto, *Semiologia Médica*).
 
   Duas alterações da posição e do movimento do globo têm a sua **caracterização** aqui apenas como **moldura nomeada**: os **desvios**, observados nos estrabismos, e o **nistagmo**, com seus abalos e oscilações rápidas em um dos vários planos. Porto os descreve na mesma página e remete ao exame neurológico, e é para lá que este guia também os manda.
+:::
+
+::: sinal
+nome: Exoftalmia
+descricao: |
+  **Protrusão do globo ocular**: perde-se a relação normal entre o limbo e as pálpebras e aparece um **crescente de esclerótica visível acima e abaixo**, mais evidente **olhando o paciente de perfil**. Assimetria **maior que 2 mm** entre os olhos é suspeita.
+significado: |
+  A lateralidade organiza as hipóteses: **unilateral** aponta para tumores oculares e retro-oculares, hematoma de órbita e trombose de seio cavernoso; **bilateral**, para o hipertireoidismo, em particular a **doença de Graves-Basedow**, em que anticorpos agridem a gordura e a musculatura retro-orbitárias. Vigie a córnea: com exoftalmia pode vir a lagoftalmia, e sem oclusão a córnea seca e ulcera.
+causas:
+  - "Doença de Graves-Basedow (bilateral)"
+  - "Tumores oculares e retro-oculares (unilateral)"
+  - "Hematoma de órbita e trombose de seio cavernoso (unilateral)"
 :::
 
 ::: secao
@@ -440,6 +463,26 @@ texto: |
   Porto (*Semiologia Médica*, cap. 103) organiza as mesmas alterações em um quadro de classes, de 1 a 6, que vai do olhar brilhante com retração palpebral até a cegueira por lesão do nervo óptico, passando por edema palpebral e conjuntival, proptose e paralisia da musculatura extraocular.
 
   A correlação desses achados com o estado funcional da glândula, o exame da tireoide e as razões de verossimilhança do bócio estão no tópico de tireoide e pescoço.
+:::
+
+::: sinal
+nome: Lid lag (sinal de von Graefe)
+descricao: |
+  Aparece **esclera branca entre a margem da pálpebra superior e o limbo enquanto o paciente olha para baixo**: nas palavras de von Graefe, **a córnea desce e a pálpebra não a acompanha**.
+significado: |
+  Segundo maior peso entre os sinais físicos do hipertireoidismo estudados por McGee, atrás apenas da retração palpebral. Mesma leitura: **alta especificidade, baixa sensibilidade**, presente decide, ausente não afasta. Como o Dalrymple, associa-se ao hipertireoidismo de qualquer causa.
+causas:
+  - "Hipertireoidismo de qualquer causa"
+:::
+
+::: sinal
+nome: Sinal de Dalrymple (retração palpebral)
+descricao: |
+  Com o paciente **olhando para a frente**, a pálpebra superior fica anormalmente alta e aparece **esclera branca entre a margem palpebral e o limbo superior**. Normalmente a margem repousa logo abaixo da borda do limbo e cobre cerca de 1 mm da íris. O resultado é o **olhar fixo e espantado** da fácies basedowiana.
+significado: |
+  É o sinal físico de **maior peso no hipertireoidismo** entre os estudados por McGee, à frente do lid lag, do tremor fino, da pele quente e úmida e da taquicardia. Alta especificidade e baixa sensibilidade: **quando está, decide; quando falta, não afasta**. Associa-se ao hipertireoidismo de qualquer causa, ao contrário da oftalmopatia de Graves, exclusiva da doença de Graves.
+causas:
+  - "Hipertireoidismo de qualquer causa"
 :::
 
 ::: conceito

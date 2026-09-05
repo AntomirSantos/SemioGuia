@@ -173,6 +173,17 @@ texto: |
   **Mobilidade.** Marque o ponto do choque em decúbito dorsal e repita a marcação nos decúbitos laterais direito e esquerdo. O normal é deslocar 1 a 2 cm. Um ictus que não se move levanta a hipótese de sínfise pericárdica: dado clássico, de pouca aplicação prática hoje.
 :::
 
+::: sinal
+nome: Ictus cordis desviado ou aumentado
+descricao: |
+  O choque da ponta é encontrado **abaixo e para fora** do seu ponto esperado (o cruzamento da linha hemiclavicular esquerda no 4º ou 5º espaço, ajustado ao biotipo), ou ocupa **três ou mais polpas digitais** em vez das 1 a 2 habituais.
+significado: |
+  A dilatação do ventrículo esquerdo **empurra o ictus para baixo e para fora**; a extensão aumentada sugere hipertrofia, e nas grandes dilatações o ictus chega a ocupar a palma. Duas ressalvas: **não achar o ictus, isoladamente, não é doença** (ele é impalpável em boa parte dos adultos saudáveis); e um ictus normal **não afasta sobrecarga direita**, que se procura no esterno e no epigástrio.
+causas:
+  - "Dilatação do ventrículo esquerdo"
+  - "Hipertrofia ventricular esquerda (extensão aumentada)"
+:::
+
 ::: entendimento
 titulo: Por que o ventrículo direito não desloca o ictus
 texto: |

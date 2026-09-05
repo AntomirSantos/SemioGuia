@@ -1951,6 +1951,15 @@
          "nivel": "avancado"
         },
         {
+         "tipo": "sinal",
+         "nome": "Pulso alternante",
+         "descricao": "**Alternância regular de uma onda forte e uma fraca, com intervalos iguais entre elas.** Aparece melhor com o manguito: ao desinsuflar devagar, os primeiros sons de Korotkoff alternam um forte e um fraco; parando a deflação nesse nível, o padrão passa a ser sentido na radial.\n",
+         "significado": "É sinal de **insuficiência ventricular esquerda**: o ventrículo que falha alterna contrações mais e menos eficazes. O divisor com o pulso bigeminado é o **intervalo**: no alternante, regular; no bigeminado, a onda fraca é uma extrassístole que chega cedo e o intervalo é irregular. Mesma sensação nos dedos, dois diagnósticos.\n",
+         "causas": [
+          "Insuficiência ventricular esquerda"
+         ]
+        },
+        {
          "tipo": "pense",
          "pergunta": "O pulso alterna uma onda forte e uma fraca. O que decide se é pulso alternante ou bigeminado, e por que a diferença importa?",
          "resposta": "O intervalo. No alternante os intervalos são regulares: sinal de insuficiência ventricular esquerda. No bigeminado a onda fraca é uma extrassístole que chega cedo e deixa o intervalo irregular. Mesma sensação nos dedos, dois diagnósticos diferentes."
@@ -2923,6 +2932,101 @@
            "Imobilidade facial, a fácies de múmia: pele endurecida e aderente, lábios repuxados, nariz afinado, pálpebras imobilizadas",
            "Esclerose sistêmica"
           ]
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Fácies esclerodérmica",
+         "descricao": "**Imobilidade facial**, a fácies de múmia: pele **endurecida e aderente**, lábios repuxados, nariz afinado, pálpebras imobilizadas.\n",
+         "significado": "É o rosto da **esclerose sistêmica**: a pele endurecida e aderente apaga a expressão, repuxa os lábios e imobiliza as pálpebras, o conjunto que a tradição chama de **fácies de múmia**.\n",
+         "causas": [
+          "Esclerose sistêmica"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Fácies cushingoide (lua cheia)",
+         "descricao": "Rosto **arredondado com atenuação dos traços**, **rubor malar**, por vezes hirsutismo.\n",
+         "significado": "Aponta **hipercortisolismo**: endógeno (síndrome de Cushing) ou, com frequência bem maior, **uso prolongado de corticosteroide**. A pergunta pela medicação vem antes de qualquer investigação hormonal.\n",
+         "causas": [
+          "Uso prolongado de corticosteroide",
+          "Hipercortisolismo endógeno (síndrome de Cushing)"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Fácies acromegálica",
+         "descricao": "**Arcadas supraorbitárias salientes, maçãs do rosto proeminentes, maxilar inferior desenvolvido, nariz e orelhas aumentados.**\n",
+         "significado": "É o crescimento acral do excesso de hormônio do crescimento no adulto: os pacientes **se parecem mais entre si do que com os próprios familiares**. A comparação com fotografia antiga de documento é a manobra que revela a mudança lenta que a convivência não percebe.\n",
+         "causas": [
+          "Acromegalia (excesso de hormônio do crescimento no adulto)"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Fácies mixedematosa",
+         "descricao": "Rosto **arredondado**, nariz e lábios **grossos**, pele **seca e espessada**, **pálpebras infiltradas**, aspecto **apático**.\n",
+         "significado": "É o espelho da basedowiana: o **hipotireoidismo** infiltra onde o hipertireoidismo consome. A apatia do rosto acompanha a lentidão global do quadro, e a pele seca e espessada com pálpebras infiltradas é o que separa este rosto redondo do cushingoide.\n",
+         "causas": [
+          "Hipotireoidismo (mixedema)"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Fácies basedowiana",
+         "descricao": "**Olhos salientes e brilhantes com fenda palpebral aberta**, em rosto magro; **expressão de espanto**.\n",
+         "significado": "É o rosto do **hipertireoidismo**, tipicamente na doença de Graves-Basedow. O olhar de espanto nasce da retração palpebral (sinal de Dalrymple), o sinal físico de maior peso no hipertireoidismo; some o emagrecimento, o tremor fino e a pele quente e úmida.\n",
+         "causas": [
+          "Hipertireoidismo, tipicamente doença de Graves-Basedow"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Fácies parkinsoniana",
+         "descricao": "Cabeça **inclinada para diante e imóvel**, **olhar fixo**, supercílios elevados, fronte enrugada, **perda precoce da mímica**, voz baixa e pouco modulada.\n",
+         "significado": "É a hipomimia da **rigidez extrapiramidal**: o rosto congela antes de o diagnóstico ser dito. Combine com o resto da síndrome: marcha em bloco de passos miúdos, braços sem balanço, roda denteada.\n",
+         "causas": [
+          "Doença de Parkinson",
+          "Parkinsonismos de outras causas"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Fácies adenoidiana",
+         "descricao": "**Nariz pequeno e afilado, boca sempre entreaberta.**\n",
+         "significado": "É o rosto do **respirador bucal** por hipertrofia das adenoides: a obstrução nasal crônica molda a face. A boca sempre entreaberta é o traço que se vê à distância, e leva o exame para boca, nariz e ouvidos.\n",
+         "causas": [
+          "Hipertrofia das adenoides com respiração bucal crônica"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Fácies leonina",
+         "descricao": "Pele **espessa**, sede de **lepromas confluentes**, mais numerosos na fronte; **queda dos supercílios**; nariz espessado e alargado; **lábios grossos e proeminentes**; bochechas e mento deformados por nódulos; barba escassa.\n",
+         "significado": "É a fácies da **hanseníase virchowiana**. A **queda dos supercílios** e os nódulos de predomínio frontal são os traços que a separam de outras faces infiltradas.\n",
+         "causas": [
+          "Hanseníase virchowiana"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Fácies renal (nefrótica)",
+         "descricao": "Edema que **predomina ao redor dos olhos**, nas regiões subpalpebrais, somado a **palidez cutânea**. É **mais evidente pela manhã** (o paciente amanhece com os olhos empapuçados) e, na glomerulonefrite, passa a predominar nos membros inferiores no fim do dia, se o paciente deambula.\n",
+         "significado": "O horário é o dado didático: **edema que amanhece com o paciente fala de rim**, e, na glomerulonefrite, o predomínio migra para os membros inferiores ao longo do dia. Inchaço dos olhos pela manhã pode ser o **sinal mais precoce de edema generalizado**.\n",
+         "causas": [
+          "Síndrome nefrótica",
+          "Glomerulonefrite aguda",
+          "Outras doenças renais com retenção de líquido"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Fácies hipocrática",
+         "descricao": "**Olhos fundos, parados e inexpressivos; nariz afilado; lábios adelgaçados; batimento das asas do nariz.**\n",
+         "significado": "É o rosto das **doenças graves em fase avançada e dos estados agônicos**: um aviso de gravidade que se levanta à distância, antes da primeira pergunta. Diante dela, o exame muda de andamento, o que se procura primeiro é a causa da deterioração.\n",
+         "causas": [
+          "Doenças graves em fase avançada",
+          "Estados agônicos"
          ]
         },
         {
@@ -4010,6 +4114,16 @@
          "texto": "A maioria dos examinadores avalia palidez por comparação subjetiva, com a própria pele, ou com a lembrança de como é uma pele normal. Existe, porém, uma definição objetiva, e ela é a que melhor se sai nos estudos.\n\nPuxe delicadamente a pálpebra inferior e olhe a superfície interna. Em quem não tem anemia, aparecem **duas zonas de cor**: a borda anterior, a rima, é nitidamente avermelhada, pela rica vascularização, e contrasta com a porção mais próxima do globo, de cor mais pálida e carnosa, onde predomina o tecido linfoide. Diz-se que há **palidez da rima conjuntival** quando esse contraste desaparece e toda a superfície interna da pálpebra tem a mesma cor pálida.\n\nDois dados reforçam a preferência por esse sítio. A palidez da rima conjuntival é o achado que mais eleva a probabilidade de anemia, com razão de verossimilhança 16,7. E é também mais reprodutível: na Tabela 5.1 de McGee, a palidez conjuntival pelo método da rima alcança kappa de 0,54 a 0,75, enquanto a palidez do leito ungueal fica em 0,19 a 0,34: coerente com o fato de o leito ungueal não ter mostrado valor diagnóstico.\n\nE um contrapeso que fecha o raciocínio: **nenhum sinal físico afasta anemia com convicção**. Nenhuma razão de verossimilhança negativa desceu abaixo de 0,4. Mucosas coradas tranquilizam pouco; o hemograma continua necessário.\n"
         },
         {
+         "tipo": "sinal",
+         "nome": "Palidez da rima conjuntival",
+         "descricao": "Puxa-se delicadamente a pálpebra inferior: no normal, a **rima anterior é nitidamente avermelhada** e contrasta com a porção mais próxima do globo, pálida e carnosa. Há palidez da rima quando **esse contraste desaparece** e toda a superfície interna tem a mesma cor pálida.\n",
+         "significado": "É o achado que **mais eleva a probabilidade de anemia** e também o mais reprodutível entre os sítios de palidez, ao contrário do leito ungueal, que não mostrou valor. O contrapeso: **nenhum sinal físico afasta anemia com convicção**; mucosas coradas tranquilizam pouco e o hemograma continua necessário. Em pele escura, palmas, plantas e mucosas substituem a pele na busca.\n",
+         "causas": [
+          "Anemia de qualquer causa",
+          "Vasoconstrição (choque, dor intensa, lipotimia), na palidez generalizada aguda"
+         ]
+        },
+        {
          "tipo": "ilustracao",
          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"58\" y=\"14\">pálpebra inferior</text>\n    <text x=\"160\" y=\"14\">boca e língua</text>\n    <text x=\"264\" y=\"14\">mão</text>\n  </g>\n  <!-- A: globo ocular e pálpebra inferior tracionada -->\n  <path d=\"M 20 54 C 34 38, 82 38, 96 54 C 82 68, 34 68, 20 54 Z\" stroke-width=\"1.8\" />\n  <circle cx=\"58\" cy=\"53\" r=\"10\" stroke-width=\"1.6\" />\n  <circle cx=\"58\" cy=\"53\" r=\"3.6\" stroke-width=\"1.4\" />\n  <!-- banda da pálpebra evertida: superior (face interna) e inferior (rima) -->\n  <path d=\"M 26 64 C 38 78, 78 78, 90 64\" stroke-width=\"1.6\" />\n  <path d=\"M 24 65 C 37 86, 79 86, 92 65\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\" />\n  <path d=\"M 22 66 C 36 94, 80 94, 94 66\" stroke-width=\"1.8\" />\n  <!-- guias, uma para cada estrutura -->\n  <path d=\"M 34 50 L 24 40\" stroke-width=\"1.1\" />\n  <path d=\"M 62 79 L 100 73\" stroke-width=\"1.1\" />\n  <path d=\"M 62 89 L 100 97\" stroke-width=\"1.1\" />\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"14\" y=\"36\">1</text>\n    <text x=\"102\" y=\"72\">3</text>\n    <text x=\"102\" y=\"100\">2</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"60\" y=\"112\">1 esclera e conjuntiva</text>\n    <text x=\"60\" y=\"123\">2 rima · 3 face interna</text>\n  </g>\n  <!-- B: boca aberta, língua elevada -->\n  <path d=\"M 124 46 C 142 34, 178 34, 196 46 C 180 78, 140 78, 124 46 Z\" stroke-width=\"1.8\" />\n  <path d=\"M 132 45 C 146 40, 174 40, 188 45\" stroke-width=\"1.2\" />\n  <path d=\"M 160 52 C 152 56, 150 66, 154 74\" stroke-width=\"1.4\" />\n  <path d=\"M 160 52 C 168 56, 170 66, 166 74\" stroke-width=\"1.4\" />\n  <path d=\"M 160 54 L 160 74\" stroke-width=\"1.2\" stroke-dasharray=\"3 3\" />\n  <path d=\"M 160 40 L 160 34\" stroke-width=\"1.2\" />\n  <path d=\"M 160 78 L 160 96\" stroke-width=\"1.2\" />\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"160\" y=\"28\">4 palato duro</text>\n    <text x=\"160\" y=\"106\">5 freio da língua</text>\n  </g>\n  <!-- C: mão, palma -->\n  <path d=\"M 240 96 C 236 78, 238 62, 244 56 C 248 52, 252 54, 252 60 L 252 74\" stroke-width=\"1.6\" />\n  <path d=\"M 252 74 L 252 44 C 252 39, 258 39, 258 44 L 258 74\" stroke-width=\"1.6\" />\n  <path d=\"M 258 74 L 258 42 C 258 37, 264 37, 264 42 L 264 74\" stroke-width=\"1.6\" />\n  <path d=\"M 264 74 L 264 46 C 264 41, 270 41, 270 46 L 270 76\" stroke-width=\"1.6\" />\n  <path d=\"M 270 76 L 274 54 C 275 49, 281 50, 280 56 L 278 82\" stroke-width=\"1.6\" />\n  <path d=\"M 240 96 C 246 108, 274 108, 278 82\" stroke-width=\"1.6\" />\n  <g stroke-width=\"1.2\">\n    <path d=\"M 246 82 C 254 76, 264 76, 272 80\" />\n    <path d=\"M 246 90 C 256 84, 266 84, 274 88\" />\n  </g>\n  <g stroke-width=\"1.2\">\n    <path d=\"M 252 44 C 254 42, 257 42, 258 44\" />\n    <path d=\"M 258 42 C 260 40, 263 40, 264 42\" />\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"8.5\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\n    <text x=\"262\" y=\"122\">6 pregas palmares</text>\n  </g>\n  <g font-family=\"sans-serif\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">\n    <text x=\"14\" y=\"150\">Palidez: 2 rima conjuntival (maior rendimento), 6 pregas palmares.</text>\n    <text x=\"14\" y=\"166\">Icterícia: 1 esclera e conjuntiva, 5 freio da língua, 4 palato duro.</text>\n    <text x=\"14\" y=\"182\">Em pele escura, palma e planta substituem a pele na busca de palidez.</text>\n  </g>\n</svg>\n",
          "legenda": "Os mesmos três sítios servem a duas perguntas diferentes, mas por estruturas distintas. No olho, a icterícia se procura na superfície do globo (1) e a palidez, na rima da pálpebra evertida (2), comparada com a face interna mais profunda (3)."
@@ -4027,6 +4141,17 @@
          "tipo": "conceito",
          "titulo": "Icterícia: onde procurar",
          "texto": "Icterícia é a cor amarelada que o acúmulo de bilirrubina imprime à pele, às mucosas visíveis e à esclerótica. O pigmento se deposita preferencialmente onde há mais tecido conjuntivo e mais albumina, daí a ordem em que os sítios se tornam positivos.\n\nPesquisa-se icterícia, em ordem de rendimento, na **esclera e na conjuntiva**, no **freio da língua** e no **palato duro**; depois nos lábios, nas regiões ungueais, nas mãos e na pele. As icterícias mais leves só são perceptíveis nos primeiros sítios. À medida que a bilirrubina sobe, a face, as mucosas e por fim a pele inteira adquirem tonalidade amarela ou alaranjada, que pode ir do amarelo-claro ao amarelo-esverdeado.\n\n**A luz é parte do método**: examine, sempre que possível, sob iluminação natural.\n\nDois cuidados evitam o falso-positivo em pessoas de pele pigmentada. As duas edições de Porto registram o mesmo achado, e vale citá-lo ao pé da letra: \"Nas pessoas de pele pigmentada, a esclerótica costuma apresentar uma coloração amarelada, causada por deposição de gordura, que não deve ser confundida com icterícia\" (Porto, *Exame Clínico*, 8ª ed., cap. 11; a *Semiologia Médica*, cap. 12, traz a mesma observação). Semiologia Clínica acrescenta o **fotoescurecimento da esclera** e oferece a solução prática: avaliar a região da esclera **sob a pálpebra inferior**, que não fica exposta à luz solar.\n\nVale separar esse achado de um imitador vizinho, mas distinto, descrito por McGee: a **gordura subconjuntival**, que se limita às dobras da conjuntiva e poupa a área próxima à córnea. São, a rigor, dois relatos de depósito de gordura em planos diferentes (o escleral, descrito por Porto, e o subconjuntival, descrito por McGee) embora o capítulo hepatobiliar do próprio Porto localize essa gordura na conjuntiva, o que sugere que os dois relatos possam descrever o mesmo depósito. De um jeito ou de outro, o cuidado prático é o mesmo: gordura amarelada poupa a vizinhança da córnea e não acompanha as demais mucosas; a icterícia, não.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Icterícia",
+         "descricao": "Cor **amarelada** que o acúmulo de bilirrubina imprime à pele, às mucosas e à esclerótica. Pesquise em ordem de rendimento: **esclera e conjuntiva, freio da língua e palato duro**; as icterícias leves só aparecem nos primeiros sítios. Examine **sob luz natural**.\n",
+         "significado": "O pigmento se deposita onde há mais tecido conjuntivo e albumina, daí a ordem dos sítios. Dois imitadores a conhecer: em pessoas de pele pigmentada, a esclerótica pode ser amarelada **por depósito de gordura** (avalie a esclera sob a pálpebra inferior, protegida do sol); e a **gordura subconjuntival poupa a vizinhança da córnea** e não acompanha as demais mucosas, a icterícia, não.\n",
+         "causas": [
+          "Icterícia hepatocelular (hepatites, cirrose)",
+          "Icterícia obstrutiva (coledocolitíase, neoplasia, e a vesícula de Courvoisier)",
+          "Hemólise"
+         ]
         },
         {
          "tipo": "entendimento",
@@ -4061,6 +4186,17 @@
         },
         {
          "tipo": "sinal",
+         "nome": "Cianose",
+         "descricao": "Coloração **azulada** da pele e das mucosas. Procure na região perioral, na ponta do nariz, nos lóbulos das orelhas, nas mucosas e nas extremidades, incluindo leito ungueal e polpas digitais.\n",
+         "significado": "A primeira pergunta é **generalizada ou segmentar**: toda cianose restrita a um segmento é **periférica**, e significa obstrução da veia que drena a região. O esquema prático de Porto: **aquecer a área atenua a periférica e não muda a central**; a oxigenoterapia atua na central e nada faz pela periférica; **unha azulada em mão quente aponta origem central**. E lembre: o anêmico pode estar gravemente hipoxêmico **sem ficar cianótico**.\n",
+         "causas": [
+          "Cianose central (pulmão, coração, shunts)",
+          "Cianose periférica (estase, obstrução venosa, baixo débito, frio)",
+          "Alteração da hemoglobina (metemoglobinemia, sulfemoglobinemia)"
+         ]
+        },
+        {
+         "tipo": "sinal",
          "nome": "Manchas hemorrágicas (petéquias, víbices e equimoses)",
          "descricao": "Também chamadas sufusões hemorrágicas. São manchas que **não desaparecem à compressão**, porque a cor vem de sangue extravasado para o tecido, e é exatamente esse comportamento que as separa das manchas eritematosas. A forma e o tamanho as subdividem em três:\n\n- **petéquias**: puntiformes, medindo até 1 cm;\n- **víbices**: dispostas em linha;\n- **equimoses**: em placa, acima de 1 cm.\n\nA coloração varia do vermelho-arroxeado ao amarelo conforme o tempo de evolução. Nas equimoses grandes e médias, Porto descreve a sequência: avermelhadas até 48 horas; arroxeadas entre 48 e 96 horas; azuladas do 5º ao 6º dia; amareladas do 6º ao 8º dia; e retorno à coloração normal depois do 9º dia. Nas pequenas, o ciclo é mais curto. Equimoses grandes e médias permanecem visíveis mesmo em pessoas negras.\n\nQuando o extravasamento é suficiente para elevar a pele, chama-se hematoma, e equimose e hematoma se associam com frequência.\n",
          "significado": "A digitopressão é o gesto que muda a conduta. Um exantema que empalidece à compressão pertence a um grupo de doenças; um exantema que **não empalidece** pertence a outro, com **muito mais urgência**. Em criança febril, procurar petéquias exige despir por completo, e essa é a diferença entre encontrar e não encontrar.\n\nQuando as manchas hemorrágicas decorrem de alterações capilares ou de discrasias sanguíneas, e não de traumatismo, o quadro recebe o nome de **púrpura**.\n",
@@ -4083,6 +4219,17 @@
          "tipo": "conceito",
          "titulo": "Cabelos, pelos e unhas",
          "texto": "Os fâneros compreendem cabelo, pelos e unhas, e cada um deles registra a história das últimas semanas ou meses do organismo.\n\n**Cabelos.** Avaliam-se tipo de implantação, distribuição, quantidade, coloração e o conjunto brilho-espessura-consistência. Áreas sem pelos configuram **alopecia**; a queda de cabelos é, por si, um dado de interesse. Cabelos que perdem o brilho e se tornam secos e quebradiços aparecem no mixedema e nos estados carenciais, e, na desnutrição proteica grave da criança, o cabelo pode mudar de cor. No exame do couro cabeludo, a **prova de tração suave** (manobra de Sabouraud) testa o destacamento dos fios.\n\n**Pelos.** Interessam distribuição, quantidade e caracteres do fio. **Hipertricose** é o aumento exagerado de pelos terminais; **hirsutismo**, o aumento de pelos de padrão masculino na mulher, que quando ligado a níveis elevados de testosterona vem com implantação masculina dos cabelos e calvície temporal. A **virilização** soma ao hirsutismo o aprofundamento da voz e o aumento do clitóris. Na direção oposta, a queda de pelos axilares e pubianos aponta desnutrição, hepatopatias crônicas, mixedema, colagenoses, quimioterapia e algumas dermatoses.\n\n**Unhas.** Analisam-se forma, tipo de implantação, espessura, superfície, consistência, brilho e coloração, nas mãos e nos pés, sem esquecer as **regiões periungueais**, sede frequente de processos inflamatórios e de alterações capilares com valor sistêmico. A unha normal tem superfície lisa e brilhante, cor róseo-avermelhada, uma curvatura lateral nítida, espessura e consistência firmes.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Manobra de Sabouraud (tração dos cabelos)",
+         "descricao": "**Prova de tração suave** de uma mecha de cabelos no exame do couro cabeludo, testando o **destacamento dos fios**.\n",
+         "significado": "Fios que se destacam com facilidade documentam a queda ativa que a anamnese relata. Leia junto com o restante dos cabelos: fios **sem brilho, secos e quebradiços** aparecem no mixedema e nos estados carenciais, e na desnutrição proteica grave da criança o cabelo pode até mudar de cor.\n",
+         "causas": [
+          "Alopecias e quedas ativas de cabelo",
+          "Estados carenciais e desnutrição",
+          "Mixedema"
+         ]
         },
         {
          "tipo": "tabela",
@@ -4649,6 +4796,15 @@
          "tipo": "conceito",
          "titulo": "Onde este tópico encontra os outros",
          "texto": "O exame dos linfonodos amarra pontas espalhadas pelo guia.\n\n- **A fossa supraclavicular também pertence ao exame do pulmão**: o ápice pulmonar sobe acima da clavícula, e a tiragem supraclavicular é sinal de esforço respiratório, os dois estão no tópico de inspeção do tórax.\n- **Linfedema**: edema duro, inelástico, frio, que não regride com a elevação do membro, e o sinal de Stemmer, quando não se consegue pinçar a pele do segundo pododáctilo, se separa dos demais edemas pelas características descritas no tópico de pulso venoso jugular e turgência, onde está a semiotécnica do edema e a graduação em cruzes.\n- **Linfangite** (eritema, dor e edema no trajeto do coletor, com os cordões avermelhados da erisipela) pertence ao mesmo território e se confunde com flebite, porque os coletores acompanham as veias superficiais.\n- **Febre prolongada**, que é a companhia mais frequente da adenomegalia investigada, está no tópico de temperatura e frequência respiratória, com os tipos evolutivos de febre.\n- **Petéquias, lesões de pele e fístulas cutâneas** sobre os linfonodos se descrevem com o vocabulário do tópico de pele, mucosas e fâneros.\n- **Perda de peso**, item de peso no escore de linfonodo, se quantifica no tópico de antropometria e hidratação e se colhe no capítulo da entrevista clínica.\n- **Linfadenomegalias localizadas ou generalizadas como sintoma relatado** aparecem no interrogatório sintomatológico; a história ocupacional e epidemiológica que aponta paracoccidioidomicose, tuberculose, brucelose ou histoplasmose está no tópico de antecedentes e hábitos.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Linfedema e sinal de Stemmer",
+         "descricao": "Edema **duro, inelástico, frio**, que **não regride com a elevação do membro**, quadra os dedos e produz corcova no dorso do pé, variando pouco ao longo do dia. O **sinal de Stemmer**: **não se consegue pinçar a pele do segundo pododáctilo**.\n",
+         "significado": "É o edema **linfático**, e as características o separam ponto a ponto do venoso (vespertino, mole, que o repouso desfaz) e do lipedema (que poupa os pés). Raramente ulcera; a forma extrema é a elefantíase.\n",
+         "causas": [
+          "Obstrução ou insuficiência dos linfáticos do membro (linfedema)"
+         ]
         },
         {
          "tipo": "secao",
@@ -5306,9 +5462,30 @@
          "texto": "A pálpebra é a primeira coisa que o olho mostra, e ela responde a três perguntas: **onde está**, **fecha** e **está inchada**.\n\n**Onde está.** Em condições normais, a margem da pálpebra superior fica cerca de 2 mm abaixo do limbo superior; a da pálpebra inferior repousa cerca de 1 mm acima do limbo inferior (Porto, *Semiologia Médica*). Semiologia Clínica diz o mesmo de outro jeito: a pálpebra superior recobre a parte de cima da íris, mas **jamais a pupila**. Essa relação é a régua de todo o resto.\n\nA **ptose palpebral**, ou blefaroptose, é a queda da pálpebra superior, uni ou bilateral. Porto associa três contextos: paralisia do III par, síndrome de Claude Bernard-Horner e miastenia gravis. Semiologia Clínica acrescenta um dado de comportamento que ajuda a separar: na miastenia a ptose é bilateral e **piora ao longo do dia**.\n\nVale ter em mente qual músculo falhou (Porto, *Semiologia Médica*): o **orbicular**, inervado pelo facial, faz a oclusão; o **elevador da pálpebra superior**, inervado pelo oculomotor, abre; e o **músculo tarsal de Müller**, de fibras lisas e inervação simpática, participa da elevação. Ptose parcial por falha do músculo de Müller é o componente palpebral da síndrome de Horner.\n\n**Fecha.** A impossibilidade de ocluir as pálpebras chama-se **lagoftalmia** e aparece na paralisia facial periférica, na exoftalmia e nas retrações cicatriciais (Porto). Não é achado cosmético: sem oclusão, a córnea seca, e o quadro pode evoluir para úlcera e infecção. A borda palpebral também pode estar invertida, **entrópio**, ou evertida, **ectrópio**, com irritação da conjuntiva e da córnea no primeiro caso e lacrimejamento no segundo (Semiologia Clínica).\n\n**Está inchada.** O edema palpebral é comum e tem endereços (Semiologia Clínica): acúmulo de líquido corporal, como na síndrome nefrótica e na insuficiência renal; inflamatório, como na blefarite e na celulite periorbitária; alérgico; e mixedematoso. Exceto o inflamatório, todos tendem a ser **bilaterais**. Um edema unilateral com características inflamatórias tem um diagnóstico diferencial que vale lembrar em nosso meio: o **sinal de Romaña** da doença de Chagas aguda, que dura poucos dias e regride sozinho.\n\nPorto abre um boxe com uma frase que merece ficar: \"Inchaço dos olhos pela manhã pode ser o sinal mais precoce de edema generalizado\" (Porto, *Exame Clínico*, cap. 15). A semiotécnica do edema, sua graduação em cruzes e a comparação entre suas causas estão no capítulo do coração, no tópico de pulso venoso jugular e turgência, e a fácies renal ou nefrótica, com o edema que piora pela manhã, está no tópico de ectoscopia.\n\nDois imitadores fecham a lista. As **bolsas de acúmulo de gordura**, frequentes em idosos, instalam-se lentamente ao longo de anos, não variam com a posição, não flutuam durante o dia, não têm sinais flogísticos e não são compressíveis (Semiologia Clínica): o oposto ponto a ponto do edema. E o **xantelasma**, placa amarelada em alto-relevo na pálpebra, que pode ou não acompanhar alteração do metabolismo lipídico.\n"
         },
         {
+         "tipo": "sinal",
+         "nome": "Sinal de Romaña",
+         "descricao": "**Edema palpebral unilateral com características inflamatórias**, que **dura poucos dias e regride sozinho**.\n",
+         "significado": "É a porta de entrada ocular da **doença de Chagas aguda**, diagnóstico diferencial que vale lembrar em nosso meio diante de um olho inchado de um lado só. O contraste didático: os edemas palpebrais por retenção de líquido, alérgicos e mixedematosos tendem a ser **bilaterais**; o inflamatório unilateral pede que se pense também em blefarite e celulite periorbitária.\n",
+         "causas": [
+          "Doença de Chagas aguda (inoculação conjuntival)",
+          "Diferenciais do edema palpebral inflamatório unilateral: blefarite, celulite periorbitária"
+         ]
+        },
+        {
          "tipo": "conceito",
          "titulo": "A fenda, e o globo por trás dela",
          "texto": "A **fenda palpebral** pode estar normal, aumentada, diminuída ou ausente, e o vocabulário de Porto conecta cada estado a uma causa: aumentada na **exoftalmia**, diminuída ou ausente na **ptose**. Uma variação anatômica frequente é a **prega cantal**, ou epicanto: uma prega de pele no canto interno do olho, presente em populações inteiras e também descrita na síndrome de Down (Semiologia Clínica). O nome que Porto ainda usa para essa prega pertence a uma tradição textual antiga; vale aqui a mesma regra registrada no tópico de ectoscopia, quando o nome ofende, descreve-se o achado.\n\nA posição do globo dentro da órbita tem dois desvios:\n\n- **Exoftalmia**: protrusão do globo. **Unilateral**, aponta para tumores oculares e retro-oculares (Porto); Semiologia Clínica acrescenta hematoma na órbita e trombose de seio cavernoso, e recomenda perguntar por trauma, dor e alteração visual. **Bilateral**, a causa clássica é o hipertireoidismo (Porto), em particular a doença de Graves-Basedow, na qual anticorpos agridem a gordura e a musculatura retro-orbitárias.\n- **Enoftalmia**: globo afundado dentro da órbita, com estreitamento da fenda palpebral. Aparece na síndrome de Claude Bernard-Horner, em geral **unilateral**, e na desidratação, em geral **bilateral** (Porto). O encovamento dos olhos como sinal de desidratação já está no tópico de antropometria e hidratação.\n\nNa exoftalmia, o que se perde é justamente a relação normal entre o limbo e as pálpebras: aparece um crescente de esclerótica visível acima e abaixo, e o achado fica mais evidente quando se olha o paciente de perfil (Porto, *Semiologia Médica*).\n\nDuas alterações da posição e do movimento do globo têm a sua **caracterização** aqui apenas como **moldura nomeada**: os **desvios**, observados nos estrabismos, e o **nistagmo**, com seus abalos e oscilações rápidas em um dos vários planos. Porto os descreve na mesma página e remete ao exame neurológico, e é para lá que este guia também os manda.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Exoftalmia",
+         "descricao": "**Protrusão do globo ocular**: perde-se a relação normal entre o limbo e as pálpebras e aparece um **crescente de esclerótica visível acima e abaixo**, mais evidente **olhando o paciente de perfil**. Assimetria **maior que 2 mm** entre os olhos é suspeita.\n",
+         "significado": "A lateralidade organiza as hipóteses: **unilateral** aponta para tumores oculares e retro-oculares, hematoma de órbita e trombose de seio cavernoso; **bilateral**, para o hipertireoidismo, em particular a **doença de Graves-Basedow**, em que anticorpos agridem a gordura e a musculatura retro-orbitárias. Vigie a córnea: com exoftalmia pode vir a lagoftalmia, e sem oclusão a córnea seca e ulcera.\n",
+         "causas": [
+          "Doença de Graves-Basedow (bilateral)",
+          "Tumores oculares e retro-oculares (unilateral)",
+          "Hematoma de órbita e trombose de seio cavernoso (unilateral)"
+         ]
         },
         {
          "tipo": "secao",
@@ -5410,6 +5587,24 @@
          "titulo": "Os dois sinais palpebrais do hipertireoidismo",
          "texto": "Dois achados palpebrais associam-se ao hipertireoidismo de qualquer causa, e McGee os separa da oftalmopatia de Graves propriamente dita, que só ocorre na doença de Graves.\n\n- **Retração palpebral**, ou sinal de Dalrymple, descrito em 1849. Com o paciente olhando para a frente, a pálpebra superior fica anormalmente alta e aparece esclera branca entre a margem palpebral e o limbo superior. Normalmente a margem repousa logo abaixo da borda do limbo e cobre cerca de 1 mm da íris. O resultado é o olhar fixo e espantado que Porto chama de olhar de medo ou de espanto, componente da fácies basedowiana.\n- **Lid lag**, ou sinal de von Graefe, descrito em 1864. Aparece esclera branca entre a margem da pálpebra superior e o limbo **enquanto o paciente olha para baixo**: nas palavras de von Graefe, a córnea desce e a pálpebra não a acompanha.\n\nO desempenho diagnóstico desses dois sinais é notável para achados tão discretos. Em pacientes com suspeita de doença tireoidiana, a **retração palpebral** tem razão de verossimilhança **33,2** e o **lid lag**, **18,6**: os dois maiores valores entre todos os sinais físicos do hipertireoidismo estudados por McGee, à frente do tremor fino dos dedos (11,5), da pele quente e úmida (6,8) e do pulso acima de 90 batimentos por minuto (4,5). São sinais de alta especificidade e baixa sensibilidade: quando estão, decidem; quando faltam, não afastam.\n\nA **oftalmopatia de Graves** é outra coisa: um conjunto que decorre de edema e infiltração linfocitária da gordura orbitária, do tecido conjuntivo e dos músculos oculares, presente em 25% a 50% dos pacientes com doença de Graves. Seus achados característicos são edema palpebral, limitação dos movimentos oculares, quemose e injeção conjuntival e exoftalmia. McGee registra um dado contraintuitivo: os achados que melhor predizem neuropatia óptica incipiente são o **edema palpebral e a limitação dos movimentos oculares**, e não o grau de proptose.\n\nPorto (*Semiologia Médica*, cap. 103) organiza as mesmas alterações em um quadro de classes, de 1 a 6, que vai do olhar brilhante com retração palpebral até a cegueira por lesão do nervo óptico, passando por edema palpebral e conjuntival, proptose e paralisia da musculatura extraocular.\n\nA correlação desses achados com o estado funcional da glândula, o exame da tireoide e as razões de verossimilhança do bócio estão no tópico de tireoide e pescoço.\n",
          "nivel": "avancado"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Lid lag (sinal de von Graefe)",
+         "descricao": "Aparece **esclera branca entre a margem da pálpebra superior e o limbo enquanto o paciente olha para baixo**: nas palavras de von Graefe, **a córnea desce e a pálpebra não a acompanha**.\n",
+         "significado": "Segundo maior peso entre os sinais físicos do hipertireoidismo estudados por McGee, atrás apenas da retração palpebral. Mesma leitura: **alta especificidade, baixa sensibilidade**, presente decide, ausente não afasta. Como o Dalrymple, associa-se ao hipertireoidismo de qualquer causa.\n",
+         "causas": [
+          "Hipertireoidismo de qualquer causa"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Sinal de Dalrymple (retração palpebral)",
+         "descricao": "Com o paciente **olhando para a frente**, a pálpebra superior fica anormalmente alta e aparece **esclera branca entre a margem palpebral e o limbo superior**. Normalmente a margem repousa logo abaixo da borda do limbo e cobre cerca de 1 mm da íris. O resultado é o **olhar fixo e espantado** da fácies basedowiana.\n",
+         "significado": "É o sinal físico de **maior peso no hipertireoidismo** entre os estudados por McGee, à frente do lid lag, do tremor fino, da pele quente e úmida e da taquicardia. Alta especificidade e baixa sensibilidade: **quando está, decide; quando falta, não afasta**. Associa-se ao hipertireoidismo de qualquer causa, ao contrário da oftalmopatia de Graves, exclusiva da doença de Graves.\n",
+         "causas": [
+          "Hipertireoidismo de qualquer causa"
+         ]
         },
         {
          "tipo": "conceito",
@@ -6154,6 +6349,18 @@
          "texto": "**Bócio** é simplesmente o aumento de volume da tireoide, a ponto de ela se tornar palpável ou visível (Porto). A partir daí, duas classificações se cruzam.\n\n**Pela forma:**\n\n- **Bócio difuso**: toda a glândula cresce, istmo e lobos laterais juntos, sem que se palpem nódulos isolados.\n- **Bócio nodular**: único, que pode corresponder a cisto, tumor benigno ou maligno, ou **multinodular**, com dois ou mais nódulos.\n\n**Pela função:**\n\n- **Bócio tóxico**, com hipertireoidismo.\n- **Bócio não tóxico**, sem hipertireoidismo; são exemplos o puberal e o endêmico por deficiência de iodo.\n\nPorto descreve ainda uma gradação de visibilidade que antecipa o que os dados vão confirmar: **no bócio pequeno a glândula apenas se palpa, e só aparece à inspeção quando o pescoço é estendido**; num grau maior ela já se vê com a cabeça em posição habitual e durante a deglutição; nos casos mais evidentes, ver e palpar são igualmente fáceis.\n\n**A causa mais comum no mundo é a carência de iodo**: na água ou nos alimentos (Porto; McGee registra o mesmo). Semiologia Clínica explica o mecanismo, e ele é contraintuitivo: sem iodo, a produção hormonal cai, o hormônio tireoestimulante sobe, e como ele estimula também a reprodução celular no tecido tireoidiano, a glândula hipertrofia, mas continua produzindo pouco. O resultado é **um bócio grande com hipotireoidismo**.\n\nO contraste com a **doença de Graves** ajuda a fixar: ali, autoanticorpos se ligam ao receptor do hormônio tireoestimulante e mandam à glândula uma mensagem errada, estimulando ao mesmo tempo a produção hormonal e a hipertrofia, **glândula grande com hipertireoidismo**. E na **doença de Plummer**, responsável por cerca de 10% dos casos de hipertireoidismo segundo Semiologia Clínica, um nódulo com características de adenoma se torna autônomo: **glândula de dimensões normais com hipertireoidismo**, e um nódulo que pode nem ser palpável.\n\nEm áreas industrializadas, McGee registra que o bócio ocorre em até 10% das mulheres e 2% dos homens, tendo como causas habituais o bócio multinodular, a tireoidite de Hashimoto e a doença de Graves. E dá a proporção funcional que organiza a expectativa clínica: **cerca de 80% dos pacientes com bócio estão clinicamente eutireóideos**; 10% são hipotireóideos e 10%, hipertireóideos.\n\n**Tireoidites.** Porto descreve quatro tipos: aguda, por invasão bacteriana; subaguda, viral ou autoimune; de **Hashimoto**, doença autoimune que pode determinar hiperfunção na fase inicial e evoluir com frequência para hipotireoidismo; e de Riedel, muito rara. Um achado que vale reconhecer: **tireoide dolorosa ou hipersensível, às vezes simulando faringite**, sugere tireoidite subaguda ou hemorragia para dentro de um cisto ou nódulo, embora a maioria das hemorragias tireoidianas seja indolor (McGee). Na tireoidite subaguda, a glândula fica modestamente aumentada, em geral de 1,5 a 3 vezes o tamanho normal.\n"
         },
         {
+         "tipo": "sinal",
+         "nome": "Bócio",
+         "descricao": "Aumento da tireoide: no **bócio pequeno a glândula apenas se palpa** e só aparece com o pescoço estendido; num grau maior, vê-se com a cabeça em posição habitual e **durante a deglutição** (o nódulo tireoidiano sobe com a laringe ao engolir); nos evidentes, ver e palpar são igualmente fáceis. De perfil, o contorno **arqueado** denuncia o que a inspeção de frente não mostrou.\n",
+         "significado": "**Tamanho não é função**: cerca de 80% dos pacientes com bócio estão eutireóideos. A carência de iodo, causa mais comum no mundo, produz **bócio grande com hipotireoidismo**; a doença de Graves, **glândula grande com hipertireoidismo**; a doença de Plummer, hipertireoidismo com glândula de dimensões normais. **Dor à palpação sugere infecção, inflamação (tireoidite subaguda) ou sangramento em nódulo.** E não construa o diagnóstico sobre palpação isolada: palpar sem ver não distingue bócio de tireoide normal.\n",
+         "causas": [
+          "Carência de iodo (bócio com hipotireoidismo)",
+          "Doença de Graves (bócio com hipertireoidismo)",
+          "Bócio multinodular e tireoidite de Hashimoto",
+          "Tireoidites (dolorosas na forma subaguda)"
+         ]
+        },
+        {
          "tipo": "entendimento",
          "titulo": "A palpação não diz se a glândula está funcionando",
          "texto": "Existe uma frase de Porto que deveria abrir todo exame de tireoide, e ela está em um boxe do *Exame Clínico*, cap. 15: \"O exame físico da tireoide não permite caracterizar o hiperfuncionamento da glândula\". Esse dado se obtém pelos demais achados do exame clínico e por exames complementares apropriados.\n\nA consequência prática é que **o exame da tireoide não termina no pescoço**. Ele termina no resto do corpo, e boa parte desse resto já foi ensinada em outros tópicos deste guia. O quadro comparativo de Porto e a tabela de Semiologia Clínica descrevem os mesmos dois retratos:\n\n**Hipertireoidismo**: nervosismo e agitação, emagrecimento, sudorese excessiva, intolerância ao calor, palpitações, diarreia, tremor fino; **taquicardia**, fibrilação atrial e **hipertensão sistólica**; **pele quente, lisa e úmida**; exoftalmia e fácies basedowiana.\n\n**Hipotireoidismo**: cansaço, letargia e sonolência, ganho de peso, intolerância ao frio, constipação intestinal; **bradicardia**, bulhas cardíacas abafadas, redução da pressão sistólica com aumento da diastólica; **pele seca, áspera e fria**; síndrome do túnel do carpo, edema periorbitário e fácies mixedematosa.\n\nRepare onde cada linha desse quadro já mora neste guia:\n\n- **frequência cardíaca, ritmo e as arritmias**: tópico de frequência cardíaca e pulso;\n- **pressão sistólica, diastólica e a pressão divergente**: tópico de pressão arterial, que já lista o hipertireoidismo entre as causas de pressão divergente;\n- **textura, temperatura e umidade da pele, e o estado dos cabelos**: tópico de pele, mucosas e fâneros;\n- **fácies basedowiana e fácies mixedematosa**: tópico de ectoscopia;\n- **retração palpebral, lid lag e a oftalmopatia de Graves**: tópico de olhos, com as razões de verossimilhança;\n- **macroglossia e a marca dos dentes na língua**: tópico de boca, nariz e ouvidos.\n\nNenhum desses achados é da tireoide. Todos são **da tireoide funcionando**, e é por isso que o exame endócrino é o exemplo mais claro de por que o exame físico se faz inteiro, e não por segmentos isolados.\n"
@@ -6533,6 +6740,16 @@
          "tipo": "conceito",
          "titulo": "Extensão, intensidade e mobilidade",
          "texto": "**Extensão.** Conte quantas polpas digitais recobrem o choque. Uma ou duas polpas, cerca de 2 a 3 cm, é o normal. Três ou mais sugerem hipertrofia; nas grandes dilatações, o ictus chega a ocupar toda a palma da mão. Medido em decúbito lateral esquerdo a 45°, um ictus com 4 cm ou mais aumenta a probabilidade de ventrículo esquerdo dilatado (McGee); um estudo clássico obteve bom desempenho já com o limiar de 3 cm (Eilen, 1983): a fronteira exata varia com a fonte, a direção não.\n\n**Intensidade.** Avalia-se melhor pela palpação do que pela inspeção, com a palma apoiada sobre a área de batimentos. Varia dentro do normal: é mais forte em pessoas magras, depois de exercício, na emoção e em qualquer estado que aumente a atividade cardíaca.\n\n**Mobilidade.** Marque o ponto do choque em decúbito dorsal e repita a marcação nos decúbitos laterais direito e esquerdo. O normal é deslocar 1 a 2 cm. Um ictus que não se move levanta a hipótese de sínfise pericárdica: dado clássico, de pouca aplicação prática hoje.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Ictus cordis desviado ou aumentado",
+         "descricao": "O choque da ponta é encontrado **abaixo e para fora** do seu ponto esperado (o cruzamento da linha hemiclavicular esquerda no 4º ou 5º espaço, ajustado ao biotipo), ou ocupa **três ou mais polpas digitais** em vez das 1 a 2 habituais.\n",
+         "significado": "A dilatação do ventrículo esquerdo **empurra o ictus para baixo e para fora**; a extensão aumentada sugere hipertrofia, e nas grandes dilatações o ictus chega a ocupar a palma. Duas ressalvas: **não achar o ictus, isoladamente, não é doença** (ele é impalpável em boa parte dos adultos saudáveis); e um ictus normal **não afasta sobrecarga direita**, que se procura no esterno e no epigástrio.\n",
+         "causas": [
+          "Dilatação do ventrículo esquerdo",
+          "Hipertrofia ventricular esquerda (extensão aumentada)"
+         ]
         },
         {
          "tipo": "entendimento",
@@ -6925,6 +7142,15 @@
          "titulo": "Por que o desdobramento fixo é fixo",
          "texto": "Na comunicação interatrial, o maior fluxo para o ventrículo direito prolonga o esvaziamento dessa câmara e atrasa o fechamento da valva pulmonar. Até aí, nada de diferente.\n\nA fixidez vem de uma compensação cruzada entre os dois tempos respiratórios: o componente pulmonar acaba atrasado sempre, mas por motivos que se alternam.\n\n- **Inspirando**, quem sobrecarrega a câmara direita é o retorno venoso sistêmico, e, na mesma medida, o desvio pelo defeito interatrial diminui.\n- **Expirando**, o retorno venoso recua, porém o desvio entre os átrios cresce e devolve o mesmo excesso de volume ao lado direito.\n\nComo a sobrecarga total pouco varia, a distância entre os dois componentes também não varia, e é isso que a respiração deixa de mexer.\n",
          "nivel": "avancado"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Desdobramento fixo de B2",
+         "descricao": "A segunda bulha soa desdobrada em seus dois componentes e **a distância entre eles não varia com a respiração**: igual na inspiração e na expiração.\n",
+         "significado": "É a marca auscultatória da **comunicação interatrial**. A fixidez tem explicação elegante: inspirando, o retorno venoso sistêmico sobrecarrega a câmara direita e o desvio interatrial diminui; expirando, o retorno recua e o desvio cresce, devolvendo o mesmo excesso. Como a sobrecarga total pouco varia, a respiração deixa de mexer no desdobramento, que no coração normal se alarga ao inspirar.\n",
+         "causas": [
+          "Comunicação interatrial"
+         ]
         },
         {
          "tipo": "conceito",
@@ -7799,6 +8025,18 @@
          "nivel": "avancado"
         },
         {
+         "tipo": "sinal",
+         "nome": "Turgência jugular",
+         "descricao": "As veias jugulares **continuam cheias com o dorso a cerca de 45 graus do leito, ou com o paciente sentado**: a coluna venosa para acima do ponto esperado, mais de 3 cm acima do ângulo esternal pelo método de Lewis.\n",
+         "significado": "O pescoço é o manômetro de pressão venosa que todo paciente traz: turgência é **hipertensão venosa no território da cava superior**. Em quem tem edema ou ascite, é o dado que **separa o coração do fígado**: pressão venosa elevada aponta causa cardíaca ou pulmonar; na doença hepática crônica a pressão venosa central é normal. Lembre que o examinador tende a **subestimar**.\n",
+         "causas": [
+          "Insuficiência cardíaca e outras causas cardíacas de hipertensão venosa",
+          "Causas pulmonares (hipertensão pulmonar, cor pulmonale)",
+          "Tamponamento e constrição pericárdica",
+          "Obstrução da veia cava superior"
+         ]
+        },
+        {
          "tipo": "entendimento",
          "titulo": "Por que 45° não é uma regra",
          "texto": "O número 45 virou sinônimo de exame das jugulares, mas o que importa é enxergar o topo da coluna. Se a pressão é normal, ele só aparece com o paciente quase deitado; se a pressão é alta, ele só aparece com o paciente bem sentado.\n\nAjustar a cabeceira até encontrar o topo é o exame. Fixar o ângulo e concluir \"sem turgência\" quando a coluna estava acima da mandíbula, ou \"com turgência\" quando ela ainda estava colabada, é registrar o ângulo em vez do paciente.\n"
@@ -8414,6 +8652,15 @@
          "titulo": "Assimetrias localizadas",
          "texto": "A inspeção detecta desigualdade antes de a radiografia mudar. No início de muitas pleuropneumopatias, os movimentos respiratórios perdem a simetria: um hemitórax se move menos, ou fica imóvel, e essa imobilidade aponta a lesão subjacente. Quando os dois hemitórax estão parados, pense em espondilite anquilosante.\n\nAlguns achados localizados têm nome próprio e valem o olhar.\n\n- **Sinal de Lemos Torres**: abaulamento dos espaços intercostais durante a expiração, indicativo de derrame pleural.\n- **Sinal de Ramond**: contratura da musculatura paravertebral torácica de um lado, denunciando comprometimento inflamatório da pleura homolateral.\n- **Retração de um hemitórax**: sequela de lesão tuberculosa mesmo tratada, que reduz o volume daquele lado, ou atelectasia crônica.\n- **Abaulamento localizado**: neoplasia, aneurisma, fratura de arcos costais, e (na criança, cujo gradil ainda cede) hipertrofia do ventrículo direito.\n- **Circulação colateral no tórax**: rede venosa superficial visível, que denuncia obstáculo junto ao ponto em que a veia ázigo desemboca na cava superior, situação típica das neoplasias de mediastino.\n- **Movimento paradoxal de um segmento do gradil** na inspiração: retalho costal instável por traumatismo torácico.\n\nDois pontos do exame geral pertencem a essa lista. O **desvio lateral da traqueia** acompanha fibrose pulmonar, atelectasia e grandes derrames. E a **distância medida da margem inferior da cricoide até a fúrcula**, normalmente acima de 5,5 cm (Porto, Semiologia Médica, cap. 36), encurta na hiperinsuflação do enfisema avançado.\n",
          "nivel": "avancado"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Sinal de Ramond",
+         "descricao": "**Contratura da musculatura paravertebral torácica de um lado só**, vista ou palpada na inspeção do dorso.\n",
+         "significado": "Denuncia **comprometimento inflamatório da pleura homolateral**: o músculo se contrai em defesa do lado que dói. Lê-se ao lado do vizinho de inspeção, o sinal de Lemos Torres (abaulamento expiratório dos espaços intercostais no derrame pleural).\n",
+         "causas": [
+          "Pleurite e outros comprometimentos inflamatórios da pleura homolateral"
+         ]
         },
         {
          "tipo": "sinal",
@@ -9193,6 +9440,16 @@
          "titulo": "Epônimos que ainda circulam",
          "texto": "Quatro nomes aparecem em prova e em enfermaria, e um quinto vale conhecer pela história.\n\n- **Ressonância skódica.** Hipersonoridade percebida ao redor de uma condensação ou logo acima de um derrame pleural. Descrita por Skoda em meados do século XIX; a causa continua desconhecida.\n- **Sinal de Signorelli.** Macicez à percussão da coluna dorsal na presença de derrame pleural. Ganha sentido quando lido com a manobra clássica: se o paciente se inclina para a frente ou assume o decúbito ventral, a macicez da coluna desaparece nos derrames livres de volume médio, mas **permanece** quando a causa é uma condensação. É um jeito de separar derrame de consolidação sem imagem.\n- **Triângulo de Grocco.** Triângulo retângulo de macicez na face posterior, do lado oposto a um grande derrame. Descrito por Koranyi em 1897, depois por Grocco em 1902 e por Rauchfuss em 1903.\n- **Istmo de Krönig.** Faixa estreita de sonoridade sobre cada ápice pulmonar, entre a macicez do pescoço e a da musculatura do ombro. Doenças do ápice, como a tuberculose, estreitariam a faixa. Descrito por Krönig em 1889.\n- **Som de pote rachado.** Nota obtida sobre cavernas tuberculosas superficiais, imitada batendo o dorso de uma mão contra o joelho com as palmas unidas; o examinador escuta perto da boca aberta do paciente. Atribuía-se o som à saída súbita de ar por um brônquio comunicante, mas o único estudo anatomopatológico publicado não encontrou essa comunicação em 11 pacientes com o achado.\n\nHá ainda o **hidropneumotórax**: quando há líquido e ar na cavidade pleural, encontra-se timpanismo acima da área de macicez. E, no derrame livre com o paciente sentado, mesmo pequenos volumes podem ser reconhecidos pela macicez na região infraescapular, onde se projetam os seios diafragmáticos posteriores.\n",
          "nivel": "avancado"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Sinal de Signorelli",
+         "descricao": "**Macicez à percussão da coluna dorsal** na presença de derrame pleural.\n",
+         "significado": "Ganha sentido com a manobra clássica: se o paciente **se inclina para a frente** ou assume o decúbito ventral, a macicez da coluna **desaparece nos derrames livres** de volume médio, porque o líquido se desloca, mas **permanece quando a causa é uma condensação**. É um jeito de separar derrame de consolidação sem imagem.\n",
+         "causas": [
+          "Derrame pleural (a macicez se desloca com a posição)",
+          "Condensação pulmonar (a macicez não se desloca)"
+         ]
         },
         {
          "tipo": "secao",
@@ -10956,6 +11213,16 @@
          "observar": "Se a parede permanecer contraída apesar da boa técnica, tente desviar a atenção do paciente: converse sobre outro assunto, peça que respire fundo, peça que flexione as pernas. Porto descreve ainda a manobra de Galambos: comprimir outra região do abdome enquanto se palpa a região desejada. A contração que cede a esses artifícios é voluntária; a que não cede pede outra leitura.\n"
         },
         {
+         "tipo": "sinal",
+         "nome": "Manobra de Galambos",
+         "descricao": "Diante de uma parede abdominal que permanece contraída, **comprime-se outra região do abdome enquanto se palpa a região desejada**.\n",
+         "significado": "É um artifício de distração que separa as duas contraturas: **a contração que cede é voluntária** (psicomotora, do paciente tenso); **a que não cede é defesa**, o reflexo visceromotor do peritônio inflamado, e pede outra leitura. Vale ao lado dos truques vizinhos: conversar, pedir respiração funda, fletir as pernas.\n",
+         "causas": [
+          "Contração voluntária (psicomotora): cede à manobra",
+          "Defesa abdominal por irritação peritoneal: não cede"
+         ]
+        },
+        {
          "tipo": "checklist",
          "titulo": "Palpação do abdome em 10 passos",
          "itens": [
@@ -11110,10 +11377,33 @@
          "nivel": "avancado"
         },
         {
+         "tipo": "sinal",
+         "nome": "Borda hepática palpável",
+         "descricao": "A borda do fígado vem ao encontro dos dedos **abaixo do rebordo costal direito**, na inspiração, durante a palpação pela linha hemiclavicular.\n",
+         "significado": "Quando o examinador acredita ter palpado a borda, **quase sempre ela está mesmo ali**: o achado confirma a própria existência com enorme segurança. O que ele **não** confirma é hepatomegalia: pessoas magras e visceroptóticas têm fígado palpável sem aumento, cerca de metade dos fígados que descem abaixo do rebordo não é palpável, e a borda palpável quase não move a probabilidade de aumento real. **Interprete junto com o limite superior percutido**, e lembre: não palpar não autoriza concluir que o fígado não está aumentado.\n",
+         "causas": [
+          "Hepatomegalia (congestão, esteatose, infiltração, tumores)",
+          "Fígado normal palpável em magros e visceroptóticos",
+          "Rebaixamento do diafragma (hiperinsuflação pulmonar)"
+         ]
+        },
+        {
          "tipo": "conceito",
          "titulo": "O baço palpável em cinco contextos",
          "texto": "O baço palpável é um dos poucos achados abdominais com razão de verossimilhança alta para o que se propõe a detectar: **8,5** para esplenomegalia (McGee). A sensibilidade, porém, é ampla e baixa, de 18% a 78%, de modo que a ausência do achado reduz pouco a probabilidade.\n\nEncontrado o baço, a pergunta seguinte é a causa. As grandes categorias são a doença hepática com hipertensão portal, os distúrbios hematológicos, as doenças infecciosas e as afecções primárias do baço. Alguns achados associados ajudam a escolher:\n\n- **Dor e sensibilidade no quadrante superior esquerdo** aumentam a probabilidade de afecção primária do baço ou de doença hematológica.\n- **Adenomegalia associada** praticamente exclui a causa hepática (razão de verossimilhança 0,04) e aponta para as demais.\n- **Fígado palpável** aumenta a probabilidade de causa hepática (2,7).\n- **Esplenomegalia maciça**, com o baço alcançando o umbigo, aumenta a probabilidade de doença hematológica (2,1).\n\nE o baço palpável muda o raciocínio em cenários clínicos específicos:\n\n- **Viajante que retorna de área tropical com febre**: razão de verossimilhança 6,5 para malária.\n- **Paciente ictérico**: 2,9 para doença hepatocelular, isto é, icterícia não obstrutiva.\n- **Doença hepática crônica**: 2,5 para cirrose.\n- **Febre de origem indeterminada**, com mais de três semanas de duração: 2,9 de que o exame da medula óssea será diagnóstico.\n- **Adenomegalia periférica**, sem valor: o baço palpável aparece com a mesma frequência nas doenças graves e nos quadros benignos.\n\nPorto acrescenta o desfecho hematológico que costuma acompanhar o achado: qualquer que seja a etiologia, o baço aumentado pode causar anemia, leucopenia e trombocitopenia, o **hiperesplenismo**, seletivo quando atinge uma só série, global quando há pancitopenia.\n",
          "nivel": "avancado"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Baço palpável (esplenomegalia)",
+         "descricao": "O polo do baço torna-se palpável **abaixo do rebordo costal esquerdo**, em decúbito dorsal ou na posição de Schuster. Para a ponta aparecer abaixo do rebordo, o órgão precisa **dobrar de tamanho**.\n",
+         "significado": "Excluída a ptose esplênica, **palpar o baço significa esplenomegalia**: é dos poucos achados abdominais que confirmam bem o que procuram; a ausência, porém, reduz pouco. Achados associados escolhem a causa: **adenomegalia** praticamente exclui a origem hepática; **fígado palpável** aponta para ela; baço que alcança o umbigo fala de doença hematológica.\n",
+         "causas": [
+          "Doença hepática com hipertensão portal",
+          "Distúrbios hematológicos",
+          "Doenças infecciosas (malária no viajante febril)",
+          "Afecções primárias do baço"
+         ]
         },
         {
          "tipo": "sinal",
@@ -12110,10 +12400,28 @@
          "nivel": "avancado"
         },
         {
+         "tipo": "sinal",
+         "nome": "Sinal de Cowie",
+         "descricao": "**Pulso femoral ausente com poplíteo e pulsos distais presentes**: um mapa impossível pela regra de localização das oclusões.\n",
+         "significado": "A regra diz que o pulso alterado aponta oclusão entre o último segmento normal e o alterado; este mapa a contraria, e por isso ganhou nome. Denuncia a **persistência da artéria isquiática**, exceção congênita em que o fluxo distal chega por um vaso que não passa pelo trajeto femoral.\n",
+         "causas": [
+          "Persistência congênita da artéria isquiática"
+         ]
+        },
+        {
          "tipo": "conceito",
          "titulo": "Manobras que dependem do pulso: o desfiladeiro e a mão",
          "texto": "Um pequeno grupo de manobras não avalia o pulso: usa o pulso como **instrumento de medida** de uma compressão em outro lugar. Todas são descritas por Porto nas duas obras, e todas seguem o mesmo desenho: palpa-se a radial, ausculta-se a região suspeita, e então se pede uma posição que feche o espaço em questão.\n\n- **Manobra de Adson**, investiga a compressão da subclávia e do plexo braquial por quatro estruturas possíveis: o escaleno anterior, uma costela cervical, um processo transverso alongado da sétima vértebra cervical ou bridas fibróticas. Com o paciente sentado e as mãos nos joelhos, palpa-se a radial e ausculta-se a fossa supraclavicular; pede-se inspiração profunda mantida, com extensão da cabeça girada para o lado examinado. Positiva quando o pulso radial diminui ou desaparece e surge sopro supraclavicular. Porto acrescenta duas notas: em alguns casos ela se torna positiva com a cabeça girada para o lado oposto, e **só tem valor diagnóstico quando repetida várias vezes com resultados semelhantes**.\n- **Manobra costoclavicular**: investiga a compressão no espaço entre a clavícula e a primeira costela. Pede-se inspiração profunda com os ombros jogados para trás, na posição de sentido exagerada dos militares. Positiva pelos mesmos sinais, com o sopro na região supra ou infraclavicular. Porto descreve ainda uma variante passiva, com o braço abduzido e o antebraço fletido a 90 graus, rodado lateralmente e levado para trás pelo examinador.\n- **Manobra de hiperabdução**: investiga a compressão pelo tendão do músculo peitoral menor. O paciente eleva o braço e coloca a mão acima da cabeça enquanto o examinador palpa a radial e ausculta a axila. Há aqui uma inconsistência interna em Porto que vale registrar: ao recapitular a anatomia, ele descreve a **artéria axilar** passando sob o tendão do peitoral menor, perto da inserção no processo coracoide, e é esse o ponto que a hiperabdução fecha; ao nomear a manobra, porém, tanto na *Semiologia Médica* quanto no *Exame Clínico*, escreve compressão da **artéria subclávia**. O gesto e o achado são os mesmos nas duas passagens; o vaso nomeado, não.\n- **Manobra de Allen**, não investiga compressão, e sim a **patência das duas artérias do antebraço**. Em quatro tempos: paciente sentado, com os membros superiores estendidos à frente e as palmas para cima; o médico comprime a artéria radial; pede ao paciente que feche a mão com força, esvaziando-a de sangue, o que produz palidez; e, mantendo a radial comprimida, pede que abra a mão. **Normalmente a cor volta rápida e uniformemente.** Se a ulnar estiver estenosada ou ocluída, a cor demora a voltar e volta de forma irregular, em placas. Para investigar a artéria radial, repete-se tudo comprimindo a ulnar.\n\nDuas ressalvas fecham o bloco. **Nenhuma das quatro obras deste guia atribui razões de verossimilhança a essas manobras**: elas são descritas pela técnica e pelo raciocínio, não pelo desempenho medido. E a síndrome do desfiladeiro torácico, cujo diagnóstico diferencial completo envolve exame neurológico e imagem, fica fora deste guia: aqui entram apenas as manobras que se apoiam no pulso.\n",
          "nivel": "avancado"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Manobra de Adson",
+         "descricao": "Paciente sentado, mãos nos joelhos; palpa-se a **radial** e ausculta-se a **fossa supraclavicular**; pede-se **inspiração profunda mantida com a cabeça estendida e girada para o lado examinado**. Positiva quando o pulso radial **diminui ou desaparece** e surge **sopro supraclavicular**.\n",
+         "significado": "Usa o pulso como instrumento de medida da **compressão da subclávia e do plexo braquial** no desfiladeiro: escaleno anterior, costela cervical, processo transverso alongado de C7 ou bridas. Duas notas de Porto: às vezes positiva com a cabeça girada para o lado **oposto**, e **só tem valor quando repetida várias vezes com resultados semelhantes**.\n",
+         "causas": [
+          "Síndrome do desfiladeiro torácico (compressão da subclávia e do plexo braquial)"
+         ]
         },
         {
          "tipo": "sinal",
@@ -12436,6 +12744,39 @@
          "tipo": "conceito",
          "titulo": "Mudanças de cor que não são isquemia: Raynaud, acrocianose e livedo",
          "texto": "Nem toda mudança de cor das extremidades vem de artéria entupida. Porto reúne um grupo à parte, as **doenças vasculares funcionais** ou distúrbios da microcirculação, e este é o lugar do guia em que elas ganham nome e descrição. Três delas aparecem na revisão de sistemas do interrogatório sintomatológico.\n\n**Fenômeno de Raynaud.** É a alteração **sequencial** da cor da pele nas extremidades: palidez, depois cianose, depois rubor. Nem sempre ocorrem as três fases: pode haver palidez e cianose, ou cianose e rubor, ou apenas uma delas. A fisiopatologia explica a sequência: na primeira fase há vasospasmo com queda do fluxo para a rede capilar, e a pele fica pálida; na segunda, o espasmo das arteríolas cede e surge espasmo dos capilares venosos e vênulas, com estase, maior extração de oxigênio e cianose; na terceira, o vasospasmo desaparece, o leito capilar é inundado por sangue arterializado e a pele fica ruborizada. As crises são desencadeadas por **frio e por impactos emocionais**, e cursam com parestesias descritas como formigamento, agulhadas, queimação ou dormência. Predomina nas mãos, com predomínio feminino na proporção de 5:1.\n\nPorto distingue a **doença** de Raynaud, de causa desconhecida, do **fenômeno** que acompanha outras condições: arteriopatias, doenças do tecido conjuntivo e do sistema nervoso, afecções hematológicas, compressão neurovascular cervicobraquial, traumatismos neurovasculares e intoxicações por metais pesados e por derivados do ergot. O diagnóstico da doença é **por exclusão**, e Porto lista critérios: crises desencadeadas por frio ou emoção, bilateralidade, ausência de gangrena ou gangrena limitada a pequenas áreas das polpas digitais, ausência de causa orgânica identificável e duração dos sintomas de pelo menos 2 anos.\n\n**Acrocianose.** Cianose **persistente** da porção distal dos membros, que não sobe além dos punhos nem dos tornozelos, com hipotermia e suor excessivo nos dedos e nas mãos; nariz e orelhas raramente participam. É mais frequente entre mulheres jovens e na meia-idade, tem curso benigno e pode sumir na vida adulta. O que a separa do Raynaud, e Porto insiste nisso, é a **natureza constante**: não há crise nem sequência de cores. E há um dado de exame que fecha o raciocínio no leito: **todos os pulsos periféricos são palpáveis e normais**.\n\n**Livedo reticular.** Manchas vermelhas ou cianóticas em malhas de rede circundando **áreas centrais pálidas**, que dão à pele aspecto de mármore, daí o nome **cutis marmorata** da forma leve. Localiza-se nas extremidades e no tronco, e resulta de espasmo arteriolar seguido de dilatação de capilares e vênulas: cada arteríola ascendente irriga um cone de pele, e o sangue dessaturado estagna na periferia dos cones, onde eles se anastomosam, a malha cianótica é a fronteira entre cones, e o centro de cada cone empalidece. Uma divergência interna a Porto merece registro: no capítulo de doenças da microcirculação, as manchas circundariam áreas de pele normal; no capítulo de exame clínico das artérias e no *Exame Clínico*, circundam áreas de palidez. **O guia adota a segunda versão**, que é a das descrições dermatológicas de referência (a rede cianótica em torno de centros pálidos) e a que a fisiopatologia explica; o aspecto de mármore é o mesmo nas três passagens: o *Exame Clínico* chega a ele falando em placas, e não em malhas. Porto descreve duas formas: uma leve, que só aparece com a exposição ao frio, desaparece nas épocas quentes e não produz alterações tróficas; e outra mais intensa, que compromete o tronco, não desaparece no calor e pode evoluir com dor, parestesias, gangrenas cutâneas e úlceras. O livedo pode ser **secundário** e acompanhar outra doença (autoimune, tromboangiite obliterante, policitemia, crioglobulinemia) ou uma intoxicação: o que faz dele um achado que obriga a procurar outra doença.\n\nAs três respondem fortemente à temperatura ambiente: pioram no frio e cedem no calor. Um quarto quadro do mesmo grupo, a **eritromelalgia**, faz o inverso: crises de vermelhidão, hipertermia e dor em queimação desencadeadas pelo **calor**, que melhoram com a elevação dos membros e com água fria. Fica nomeada aqui.\n\nNenhum desses quadros é diagnosticado por manobra de beira do leito neste guia: a prova da alternância de temperatura e a capilaroscopia, que Porto descreve na acrocianose, são exames de laboratório vascular e ficam de fora.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Livedo reticular",
+         "descricao": "Manchas vermelhas ou cianóticas **em malhas de rede circundando áreas centrais pálidas**, com aspecto de mármore (cutis marmorata na forma leve), nas extremidades e no tronco.\n",
+         "significado": "A malha cianótica é a fronteira entre os cones de pele que cada arteríola irriga, onde o sangue dessaturado estagna. A forma leve só aparece **com o frio** e some no calor; a intensa **não desaparece** e pode evoluir com dor e úlceras. O livedo pode ser **secundário**, e é isso que o torna um achado que obriga a procurar outra doença.\n",
+         "causas": [
+          "Livedo primário desencadeado pelo frio, sem alterações tróficas",
+          "Doenças autoimunes e tromboangiite obliterante",
+          "Policitemia e crioglobulinemia",
+          "Intoxicações"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Acrocianose",
+         "descricao": "Cianose **persistente** da porção distal dos membros, que **não sobe além dos punhos nem dos tornozelos**, com hipotermia e suor excessivo nos dedos e nas mãos.\n",
+         "significado": "O que a separa do Raynaud é a **natureza constante**: não há crise nem sequência de cores. E um dado de exame fecha o raciocínio no leito: **todos os pulsos periféricos são palpáveis e normais**. Mais frequente em mulheres jovens, de curso benigno.\n",
+         "causas": [
+          "Acrocianose primária, de curso benigno"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Fenômeno de Raynaud",
+         "descricao": "Alteração **sequencial** da cor da pele nas extremidades: **palidez, depois cianose, depois rubor**, nem sempre com as três fases. As crises são desencadeadas por **frio e por impactos emocionais**, cursam com formigamento, agulhadas, queimação ou dormência, e predominam nas mãos.\n",
+         "significado": "A sequência conta a fisiopatologia: vasospasmo (palidez), estase capilar com maior extração de oxigênio (cianose), reperfusão (rubor). Porto separa a **doença** de Raynaud, diagnóstico **por exclusão**, do **fenômeno** que acompanha outras condições, e é o fenômeno que obriga a procurar a doença por trás.\n",
+         "causas": [
+          "Doença de Raynaud (por exclusão: crises por frio ou emoção, bilaterais, sem causa orgânica, por pelo menos 2 anos)",
+          "Doenças do tecido conjuntivo e arteriopatias",
+          "Compressão neurovascular cervicobraquial e traumatismos",
+          "Afecções hematológicas e intoxicações (metais pesados, derivados do ergot)"
+         ]
         },
         {
          "tipo": "secao",
@@ -12884,9 +13225,47 @@
          "texto": "As alterações venosas visíveis formam uma progressão, e cada degrau tem nome próprio. Semiologia Clínica reúne os sinais da doença venosa crônica: telangiectasias, veias reticulares e varicosas, edema e alterações da pele, pigmentação, lipodermatoesclerose, atrofia branca, coroa flebectásica, eczema e ulceração.\n\n- **Telangiectasias e microvarizes.** As menores. Porto registra que podem ser assintomáticas e que a dor, quando existe, costuma ser em queimação ou ardência local, e que são muito valorizadas pelo aspecto estético.\n- **Veias reticulares.** Calibre intermediário, na rede subcutânea.\n- **Varizes.** Porto define: veias permanentemente dilatadas, com alterações de suas paredes, de suas válvulas e de sua função. À palpação, a variz **colaba ao toque**: é isso que a separa de um cordão trombosado.\n- **Coroa flebectásica.** Semiologia Clínica descreve o achado com precisão: vasos cutâneos anormalmente visíveis **no tornozelo**, com quatro componentes, as ventosas, telangiectasias azuis, telangiectasias vermelhas e pontos de estase capilar. É um sinal de território, e o território é a região perimaleolar, a mesma que ulcera.\n- **Dermatite ocre.** Manchas acastanhadas, esparsas ou confluentes, no terço inferior da perna, predominando na região perimaleolar interna. Porto explica a cor: é **hemossiderina** depositada na camada basal da derme, vinda das hemácias que passaram ao interstício e ali foram fagocitadas. E acrescenta a leitura: a hiperpigmentação é indicativa de **estágio avançado** da doença.\n- **Eczema varicoso, ou dermatite de estase.** Na forma aguda, pequenas vesículas que secretam líquido seroso, com prurido intenso; na crônica, instala-se no dorso do pé ou no terço mais baixo da perna, com reagudizações periódicas. O prurido é mais intenso à tarde e à noite. Porto dá uma regra prática forte: **diante de eczema nas pernas de quem tem varizes, ainda que discretas, a insuficiência venosa crônica é a explicação até que se prove outra.**\n- **Lipodermatoesclerose, ou dermatofibrose.** Surtos repetidos de celulite, somados às úlceras que cicatrizam, esclerosam a pele e o subcutâneo e fazem a perna **perder espessura**. Porto, no *Exame Clínico*, dá a imagem que fixa o achado: a perna adquire o aspecto de **gargalo de garrafa**, estreita embaixo, larga acima. E fecha o círculo vicioso: a fibrose leva à **anquilose da articulação tibiotársica**, que prejudica ainda mais o retorno venoso, porque interfere na bomba venosa da panturrilha.\n- **Atrofia branca.** Semiologia Clínica a descreve como manchas brancas de bordas escuras, e a classifica junto da lipodermatoesclerose no mesmo degrau de gravidade.\n- **Úlcera venosa.** O ponto final da progressão, tratado adiante.\n\nDois achados completam o quadro e costumam ser esquecidos: as **hemorragias**, porque as varizes dérmicas rompem com relativa frequência, espontaneamente ou após traumatismo; e a **hiperidrose**, sudorese profusa no terço distal da perna, comum na insuficiência venosa crônica grave de longa duração.\n"
         },
         {
+         "tipo": "sinal",
+         "nome": "Lipodermatoesclerose",
+         "descricao": "Esclerose da pele e do subcutâneo do terço inferior da perna, que **perde espessura** e toma o aspecto de **gargalo de garrafa**: estreita embaixo, larga acima.\n",
+         "significado": "Resulta de surtos repetidos de celulite e úlceras cicatrizadas, e fecha um círculo vicioso: a fibrose leva à **anquilose da articulação tibiotársica**, que prejudica a bomba venosa da panturrilha e piora o retorno. Classifica-se, com a atrofia branca, no degrau de maior gravidade antes da úlcera.\n",
+         "causas": [
+          "Insuficiência venosa crônica grave"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Dermatite ocre",
+         "descricao": "**Manchas acastanhadas**, esparsas ou confluentes, no terço inferior da perna, predominando na **região perimaleolar interna**.\n",
+         "significado": "A cor é **hemossiderina** depositada na derme, vinda das hemácias que passaram ao interstício e ali foram fagocitadas: a hipertensão venosa escrita na pele. A hiperpigmentação indica **estágio avançado** da doença venosa crônica.\n",
+         "causas": [
+          "Insuficiência venosa crônica em estágio avançado",
+          "Síndrome pós-trombótica"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Coroa flebectásica",
+         "descricao": "Vasos cutâneos anormalmente visíveis **no tornozelo**, com quatro componentes: as ventosas, telangiectasias azuis, telangiectasias vermelhas e pontos de estase capilar.\n",
+         "significado": "É um **sinal de território**, e o território é a região perimaleolar, **a mesma que ulcera**: degrau da progressão da doença venosa crônica que antecede as alterações mais graves da pele. Encontrá-la pede a busca dos demais degraus: pigmentação, eczema, lipodermatoesclerose.\n",
+         "causas": [
+          "Doença venosa crônica com hipertensão venosa perimaleolar"
+         ]
+        },
+        {
          "tipo": "conceito",
          "titulo": "A úlcera venosa e o endereço que ela escolhe",
          "texto": "A úlcera é complicação da insuficiência venosa crônica **grave**, seja por varizes, seja por trombose venosa profunda prévia: a síndrome pós-trombótica. Ela costuma surgir depois de mínimos traumatismos: o ato de coçar uma área de tromboflebite superficial, a ruptura de uma variz.\n\n**A localização principal é a região perimaleolar interna**, e Porto explica por quê: é ali que passam as **perfurantes de Cockett**, justamente as que mais costumam tornar-se insuficientes. Nos casos avançados, ela dá a volta completa na parte baixa da perna. Semiologia Clínica dá ao território o nome que a literatura usa: a **área da polaina**.\n\n**A regra de exclusão topográfica**, já citada no tópico anterior e que vale repetir aqui pelo peso que tem: a ferida que aparece **acima do terço médio da perna** raramente é venosa, em geral tem outra causa.\n\nAs características da úlcera venosa e sua comparação com a arterial (fundo, bordas, dor, efeito da posição, pulsos) estão na tabela e na ilustração do tópico de insuficiência arterial crônica, e não se repetem aqui.\n\n**O tamanho do problema**, em números de Semiologia Clínica: nos países ocidentais, a úlcera venosa atinge algo em torno de **0,3%** dos adultos, e somando as ativas às já cicatrizadas chega-se a cerca de **1%**; e **mais de metade** delas necessita de tratamento por mais de um ano. As varizes, por sua vez, estão presentes em **25% a 33%** das mulheres e em **10% a 40%** dos homens adultos; no estudo de Framingham, a incidência anual ficou em **2,6%** entre as mulheres e em **1,9%** entre os homens.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Úlcera venosa",
+         "descricao": "Ferida da **região perimaleolar interna**, a **área da polaina**, que costuma surgir após traumatismos mínimos (coçar uma área de tromboflebite, romper uma variz) e, nos casos avançados, dá a volta completa na parte baixa da perna.\n",
+         "significado": "É o ponto final da insuficiência venosa crônica **grave**, por varizes ou síndrome pós-trombótica. O endereço tem explicação: ali passam as **perfurantes de Cockett**, as que mais se tornam insuficientes. E vale a regra de exclusão topográfica: ferida **acima do terço médio da perna raramente é venosa**.\n",
+         "causas": [
+          "Insuficiência venosa crônica grave por varizes",
+          "Síndrome pós-trombótica"
+         ]
         },
         {
          "tipo": "entendimento",
@@ -12940,9 +13319,47 @@
          "texto": "Porto mantém, ao lado do sinal de Homans, duas manobras que buscam a mesma dor por caminhos diferentes; e Semiologia Clínica acrescenta um sinal brasileiro que descreve o empastamento.\n\n- **Manobra de Olow**: comprime-se a musculatura da panturrilha **de encontro ao osso**. Dor intensa é resposta positiva. Porto descreve uma variante com a mão em garra. Semiologia Clínica também nomeia a manobra e a registra como sugestiva de trombose venosa profunda.\n- **Manobra de Denecke-Payr**: o polegar comprime a **planta do pé** de encontro ao osso. Dor intensa levanta a hipótese de trombose nas veias profundas **do pé**.\n- **Sinal da bandeira**, descrito em Semiologia Clínica: com o paciente deitado, a perna fletida e o pé apoiado, o examinador tenta mobilizar lateralmente a panturrilha. Quando ela está empastada, não se move: a bandeira não tremula.\n\nAs três compartilham a mesma limitação das demais: nenhuma delas tem razão de verossimilhança própria nas quatro obras deste guia. A tabulação de McGee mede a **dor à palpação** como categoria única e não encontra valor diagnóstico nela. O que essas manobras fazem bem é **padronizar onde e como se comprime**, o que torna o achado comparável entre examinadores e entre consultas.\n"
         },
         {
+         "tipo": "sinal",
+         "nome": "Sinal da bandeira",
+         "descricao": "Com o paciente deitado, a perna fletida e o pé apoiado, o examinador tenta **mobilizar lateralmente a panturrilha**. Quando ela está **empastada, não se move: a bandeira não tremula**.\n",
+         "significado": "Descreve o **empastamento** da panturrilha, a perda da mobilidade passiva da massa muscular, na suspeita de **trombose venosa profunda**. Sinal registrado por Semiologia Clínica, sem número próprio: descreva o que foi feito e o que aconteceu.\n",
+         "causas": [
+          "Trombose venosa profunda com empastamento da panturrilha"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Manobra de Denecke-Payr",
+         "descricao": "O polegar comprime a **planta do pé de encontro ao osso**. **Dor intensa** é a resposta positiva.\n",
+         "significado": "Levanta a hipótese de trombose nas veias profundas **do pé**: é o degrau mais distal da mesma família de manobras de compressão (Olow na panturrilha, Homans na dorsiflexão). Como as irmãs, não tem número próprio: vale como forma padronizada de examinar, não como veredito.\n",
+         "causas": [
+          "Trombose venosa profunda das veias do pé"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Manobra de Olow",
+         "descricao": "Comprime-se a musculatura da **panturrilha de encontro ao osso** (Porto descreve variante com a mão em garra). **Dor intensa** é a resposta positiva.\n",
+         "significado": "Porto a mantém, ao lado de Homans e Denecke-Payr, entre as manobras com valor propedêutico na suspeita de **trombose venosa profunda**. Sem número próprio nas quatro obras do guia: o que ela faz bem é **padronizar onde e como se comprime**, tornando o achado comparável entre examinadores.\n",
+         "causas": [
+          "Trombose venosa profunda da perna",
+          "Outras causas de dor da musculatura da panturrilha"
+         ]
+        },
+        {
          "tipo": "conceito",
          "titulo": "Tromboflebite superficial, flebite e as duas flegmasias",
          "texto": "**Tromboflebite superficial.** Porto descreve o quadro: dor forte, sobretudo quando se toca; a região em volta endurecida; calor local; e eritema **acompanhando o trajeto** da veia comprometida, o conjunto que caracteriza a flebite. Semiologia Clínica acrescenta o contexto que mais frequentemente a produz: história de manipulação, como acesso venoso, com eritema no trajeto do cordão venoso e endurecimento doloroso à palpação, às vezes com febre e edema.\n\nO ponto que interessa ao raciocínio: a tromboflebite superficial é visível e palpável **porque a veia é superficial**. E é justamente por isso que ela não informa sobre o sistema profundo: McGee registra que o achado não tem relação com a patologia das veias profundas.\n\nA **linfangite**, que também produz cordões avermelhados no membro e se confunde com a flebite porque os coletores acompanham as veias superficiais, está no tópico de linfonodos.\n\n**As duas flegmasias.** Porto descreve dois quadros graves de trombose iliofemoral, e a diferença entre eles está na cor e na temperatura:\n\n- **Phlegmasia alba dolens**: trombose da veia ilíaca ou femoral, com edema desde a raiz da coxa, dor, pele de **tom esbranquiçado** e membro **quente**;\n- **Phlegmasia cerulea dolens**, trombose que toma ao mesmo tempo o sistema **profundo e o superficial** e bloqueia quase todo o retorno: edema volumoso desde a raiz da coxa, **cianose acentuada**, membro **frio**, flictenas e áreas de necrose capazes de tomar todo o membro.\n\nVale registrar uma divergência de nomenclatura interna a Porto: no capítulo de exame físico geral, ao descrever o edema da trombose venosa, ele nomeia os dois quadros como flegmasia alba dolens e flegmasia **alba** cerulea; no capítulo de doenças das veias, a segunda aparece como phlegmasia cerulea dolens. **O guia adota as formas consagradas: phlegmasia alba dolens e phlegmasia cerulea dolens**, as únicas que a literatura externa registra; o \"alba cerulea\" do capítulo de exame físico geral é quase certamente um lapso tipográfico. As descrições coincidem; só o nome divergia.\n\n**A síndrome pós-trombótica** é a complicação tardia: a trombose eleva a pressão distalmente ao ponto ocluído, as veias se dilatam, as válvulas distais e as perfurantes tornam-se insuficientes e, com a recanalização e a fibrose da parede, instala-se uma insuficiência venosa crônica com edema, dor, dermatite ocre, eczema, hipodermatoesclerose e ulcerações perimaleolares. É a razão pela qual este tópico trata as duas doenças juntas: **a trombose de hoje é a doença venosa crônica de daqui a dez anos.**\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Phlegmasia alba e cerulea dolens",
+         "descricao": "Dois quadros graves de trombose iliofemoral, separados pela **cor e pela temperatura**: na **alba**, edema desde a raiz da coxa, dor, pele **esbranquiçada** e membro **quente**; na **cerulea**, trombose simultânea dos sistemas **profundo e superficial**, com edema volumoso, **cianose acentuada**, membro **frio**, flictenas e áreas de necrose.\n",
+         "significado": "A cerulea é a mais temível: o bloqueio de quase todo o retorno venoso pode levar à necrose de todo o membro. São urgências: a cor do membro diz quanto do retorno ainda passa.\n",
+         "causas": [
+          "Trombose venosa iliofemoral (alba dolens)",
+          "Trombose maciça dos sistemas profundo e superficial (cerulea dolens)"
+         ]
         },
         {
          "tipo": "secao",
@@ -14129,6 +14546,25 @@
         },
         {
          "tipo": "sinal",
+         "nome": "Sinal das pontas",
+         "descricao": "Manobra de consultório que testa os níveis lombossacros **sem martelo nem escala**: pede-se ao paciente que **caminhe na ponta dos pés** e depois **sobre os calcanhares**.\n",
+         "significado": "A topografia da dificuldade **localiza o nível** do comprometimento radicular: segundo Semiologia Clínica, dificuldade no primeiro movimento aponta **L4/L5** e, no segundo, **S1**. É triagem motora dos membros inferiores embutida em dois passos de marcha; a graduação formal da força e os reflexos moram no tópico de força, tônus e reflexos.\n",
+         "causas": [
+          "Radiculopatia lombossacra (hérnia discal, compressão radicular)"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Sinal de Bragard",
+         "descricao": "Manobra de confirmação do Lasègue. Porto: com o membro elevado, faz-se a **dorsiflexão do pé**, o que exacerba a dor. Semiologia Clínica refina: **depois de baixar o membro** até a posição em que os sintomas desapareceram, faz-se a **dorsiflexão passiva do tornozelo**.\n",
+         "significado": "Existe para desfazer a dúvida que o Lasègue deixa: a dor da elevação vem de **compressão verdadeira do ciático ou de contratura dos isquiotibiais**? A dorsiflexão volta a estirar a raiz sem mudar a posição dos isquiotibiais: dor que reaparece fala de **irritação radicular**. A contratura fica confinada atrás da coxa; **a ciática costuma percorrer o membro todo**.\n",
+         "causas": [
+          "Radiculopatia lombossacra por hérnia discal",
+          "Compressão ou irritação do nervo ciático"
+         ]
+        },
+        {
+         "tipo": "sinal",
          "nome": "Manobra de Spurling",
          "descricao": "Com o paciente de preferência sentado, soma-se a **flexão lateral da cabeça** à **pressão sobre o vértice**: positiva quando os **sintomas radiculares aumentam**.\n",
          "significado": "Comprimir as superfícies articulares **estreita os forames intervertebrais** e reproduz a dor da raiz comprimida. O espelho é o **teste de distração de Apley**: a tração cervical alarga os forames e **alivia**. Compressão que dói e tração que alivia respondem à mesma pergunta.\n",
@@ -14506,9 +14942,103 @@
          "texto": "Semiologia Clínica é categórica quanto ao uso: são **três manobras principais** relacionadas à avaliação da síndrome do impacto, e **todas devem ser pesquisadas**, a fim de elevar a sensibilidade do exame clínico.\n\n- **Teste de impacto de Neer**: o examinador eleva rapidamente o braço, de forma passiva, **no plano da escápula**, o que projeta o tubérculo maior contra a face anteroinferior do acrômio. McGee acrescenta a técnica: o examinador **impede o movimento da escápula** com uma das mãos e eleva o braço em flexão anterior com a outra.\n- **Teste de impacto de Hawkins-Kennedy**: eleva-se o braço a **90 graus**, em rotação neutra, com o **cotovelo dobrado em ângulo reto**; em seguida o examinador lhe imprime uma rotação anterior rápida e passiva. McGee explica o alvo: essa posição pressiona a tuberosidade maior contra o **ligamento coracoacromial**, o teto anterior do manguito.\n- **Teste de impacto de Yokum**: o paciente apoia cada mão no ombro do lado contrário e **eleva o cotovelo ativamente**.\n\n**A origem cirúrgica dos dois primeiros explica o que eles são.** McGee registra que as duas manobras nasceram para **selecionar pacientes para procedimentos específicos**: Neer propunha ressecar o acrômio anterior nos pacientes com dor persistente; Hawkins acreditava que o ligamento coracoacromial devesse ser ressecado. Elas não foram criadas como testes diagnósticos: foram criadas como testes de indicação cirúrgica, e é por isso que se comportam como se comportam nos estudos.\n\n**E o próprio Neer já sabia da limitação.** McGee registra que ele considerava seu sinal **inespecífico**, dores no ombro de todos os tipos pioram com a manobra, mas ensinava que a dor subacromial era a única síndrome cujo sinal de impacto **desaparecia após a injeção de lidocaína** no espaço subacromial. Os estudos que mediram o teste não repetiram a manobra após a injeção, o que talvez explique parte da especificidade baixa.\n"
         },
         {
+         "tipo": "sinal",
+         "nome": "Teste de impacto de Hawkins-Kennedy",
+         "descricao": "Eleva-se o braço a **90 graus**, em rotação neutra, com o **cotovelo dobrado em ângulo reto**; o examinador então imprime uma **rotação anterior rápida e passiva**, pressionando a tuberosidade maior contra o **ligamento coracoacromial**, o teto anterior do manguito. Dor positiva o teste.\n",
+         "significado": "Como o Neer, vale sobretudo como **triagem negativa**: a ausência dos dois sinais de impacto praticamente afasta a tendinite do manguito. Presente, confirma pouco, porque dores no ombro de todos os tipos pioram com a manobra. Semiologia Clínica pede que as três manobras de impacto (Neer, Hawkins-Kennedy e Yokum) sejam **todas pesquisadas**, para elevar a sensibilidade do exame.\n",
+         "causas": [
+          "Tendinite do manguito rotador e síndrome do impacto",
+          "Bursite subacromial",
+          "Ruptura do manguito rotador",
+          "Qualquer dor no ombro reproduzida pela compressão subacromial"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Teste de impacto de Neer",
+         "descricao": "O examinador **impede o movimento da escápula** com uma das mãos e, com a outra, **eleva o braço rapidamente, de forma passiva, no plano da escápula**, projetando o tubérculo maior contra a face anteroinferior do acrômio. Dor durante a manobra positiva o teste.\n",
+         "significado": "Reproduz a compressão subacromial, mas o próprio Neer o considerava **inespecífico**: dor no ombro de todos os tipos piora com a manobra. O valor real está na **ausência**: um ombro que não dói nem ao Neer nem ao Hawkins-Kennedy dificilmente tem doença subacromial. O teste nasceu como **seleção para cirurgia** (ressecção do acrômio anterior), não como ferramenta diagnóstica.\n",
+         "causas": [
+          "Tendinite do manguito rotador e síndrome do impacto",
+          "Bursite subacromial",
+          "Ruptura do manguito rotador",
+          "Dor no ombro de qualquer origem pode positivá-lo, e é isso que limita sua especificidade"
+         ]
+        },
+        {
          "tipo": "conceito",
          "titulo": "Testar cada músculo do manguito",
          "texto": "Semiologia Clínica descreve as manobras específicas músculo a músculo, e McGee acrescenta a hierarquia de importância: os mais importantes a testar quando se suspeita de ruptura são o **supraespinal**, envolvido na maioria das rupturas, e o **infraespinal**, envolvido em **11% a 45%** delas.\n\n- **Supraespinal.** Semiologia Clínica: eleva-se ativamente o braço **em rotação medial, vencendo resistência**, com os polegares apontando para baixo, o **teste de Jobe**. McGee detalha o posicionamento: os braços a **90 graus no plano da escápula**, rodados internamente com os polegares para baixo, como quem **esvazia uma lata**, e o paciente é instruído a manter a posição contra a tentativa de baixá-los. E registra a variante da **lata cheia**, com os polegares para cima, proposta por causar menos dor: nos estudos clínicos, as duas versões têm **acurácia diagnóstica semelhante**.\n- **Infraespinal.** Semiologia Clínica: cotovelo dobrado em ângulo reto e braço encostado no tórax, o paciente **roda o antebraço para fora vencendo resistência**. McGee descreve o mesmo gesto pelo lado do examinador: braços ao lado do corpo, cotovelos fletidos a 90 graus, polegares para cima, e o paciente afasta os antebraços contra a pressão do examinador. O **teste de Patte** é a variante com o membro em abdução de 90 graus e o cotovelo fletido a 90 graus, rodado lateralmente contra resistência.\n- **Infraespinal e redondo menor juntos.** O **teste da rotação lateral não mantida**, apelidado **teste da cancela**: partindo do posicionamento do teste do infraespinal, o examinador roda o membro passivamente e pede ao paciente que **mantenha** a posição. Se um dos dois músculos falha, a posição se perde e o braço retorna ao tórax, no gesto que dá nome à manobra: uma cancela fechando. Semiologia Clínica registra que **não há teste que avalie o redondo menor isoladamente**.\n- **Subescapular.** Por ser **não palpável**, testa-se por **rotação interna resistida**, geralmente combinada com extensão ao levar o braço para trás das costas: o **teste de Gerber**, ou *lift off test*. A obra dá a referência de altura que costuma ser alcançada: **L5**.\n- **Cabeça longa do bíceps.** Avaliada em conjunto com o manguito, porque função e sintomas são semelhantes. **Teste de Speed**: resiste-se à flexão do ombro, com o cotovelo estendido e a palma voltada para cima; e vale registrar que Porto descreve esse mesmo gesto sem lhe dar nome, como segunda manobra indicadora de inflamação do tendão bicipital, com o cotovelo estendido e o antebraço supinado. É corroboração direta, vinda de outra obra, para o teste que McGee mede. McGee explica por que o bíceps entra na conversa do manguito: o impacto subacromial progressivo desgasta o tendão do supraespinal e a cápsula subjacente, **expondo o tendão da cabeça longa do bíceps** às mesmas forças; a maioria das rupturas do tendão bicipital se associa a doença avançada do manguito.\n- **Sinal de Yergason, e as fontes descrevem gestos diferentes.** Este guia registra a divergência em vez de escolher em silêncio. **Semiologia Clínica e McGee**: resiste-se à **supinação** do antebraço, com o cotovelo dobrado em ângulo reto, e McGee dá a razão anatômica, o bíceps sendo o principal supinador do antebraço. **Porto**, na *Semiologia Médica*: a dor aparece ao se resistir à **flexão do antebraço** do lado doente, mantido em supinação, com o cotovelo a 90 graus. Resistir a dobrar o cotovelo não é o mesmo gesto que resistir a girar a palma para cima, e os dois movimentos recrutam músculos diferentes, embora o bíceps participe dos dois. **Os números de McGee, razão de verossimilhança 2,8: saíram da versão da supinação**, e é ela que este guia ensina; a versão de Porto fica registrada porque quem consultar a obra vai encontrá-la.\n- **Teste do braço caído.** McGee: o examinador abduz o braço o máximo possível, solta-o e pede ao paciente que o baixe lentamente. No teste positivo, o movimento é suave até cerca de **100 graus** e a partir daí torna-se irregular, podendo o braço **cair de repente**. E dá a explicação mecânica, que não é a intuitiva: isso não acontece porque o supraespinal seja o abdutor mais potente nesse ângulo, e sim porque **o manguito precisa estar íntegro para puxar a cabeça umeral contra a glenoide**, criando o fulcro que permite ao deltoide baixar o braço suavemente. Em nota, McGee registra que o supraespinal responde apenas pelos **30 graus iniciais** da abdução, e o deltoide, pelo restante.\n- **Adução cruzada, ou teste do cachecol.** McGee: aduz-se ao máximo o braço do lado sintomático **cruzando o tórax**, o que comprime a articulação acromioclavicular ipsilateral. Dor nessa articulação é a resposta positiva.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Adução cruzada (teste do cachecol)",
+         "descricao": "Aduz-se ao máximo o braço do lado sintomático **cruzando o tórax**, como quem ajeita um cachecol no ombro oposto, o que comprime a **articulação acromioclavicular** do mesmo lado. A resposta positiva é dor sentida na própria articulação.\n",
+         "significado": "É o teste que de fato separa a **dor acromioclavicular**, e serve **nas duas direções**: presente aumenta a probabilidade, ausente a reduz. O contraste didático: a **palpação dolorosa** da articulação, que parece o gesto óbvio, não separa nada, porque quase todo ombro doloroso dói ali.\n",
+         "causas": [
+          "Artropatia ou dor da articulação acromioclavicular"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Teste do braço caído",
+         "descricao": "O examinador **abduz o braço o máximo possível, solta-o** e pede que o paciente o **baixe lentamente**. Positivo quando o movimento é suave até cerca de **100 graus** e daí se torna irregular, podendo o braço **cair de repente**.\n",
+         "significado": "Positivo, aumenta a probabilidade de **ruptura do manguito rotador**. A mecânica não é a intuitiva: o manguito íntegro **puxa a cabeça umeral contra a glenoide**, criando o fulcro que permite ao deltoide baixar o braço com suavidade; sem esse fulcro, o controle do movimento se perde. O supraespinal responde apenas pelos 30 graus iniciais da abdução, o deltoide faz o resto.\n",
+         "causas": [
+          "Ruptura do manguito rotador"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Sinal de Yergason",
+         "descricao": "Com o **cotovelo dobrado em ângulo reto**, o examinador **resiste à supinação do antebraço** (o bíceps é o principal supinador); dor no sulco bicipital positiva o sinal. Porto descreve outra versão, resistindo à **flexão do antebraço** supinado: **os números medidos vêm da versão da supinação**, e é ela que este guia ensina.\n",
+         "significado": "Criado para a tendinite bicipital, é dos melhores achados positivos para a **tendinite do manguito** entre os testes do ombro, atrás apenas do arco doloroso, o que McGee lê como confirmação da associação anatômica entre o bíceps e o manguito.\n",
+         "causas": [
+          "Tendinite da cabeça longa do bíceps",
+          "Tendinite do manguito rotador"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Teste de Speed",
+         "descricao": "Resiste-se à **flexão do ombro com o cotovelo estendido e a palma voltada para cima**. Dor na região anterior do ombro, no trajeto bicipital, positiva o teste. Porto descreve o mesmo gesto, sem nome, como indicador de inflamação do tendão bicipital.\n",
+         "significado": "Interroga a **cabeça longa do bíceps**, mas serve de pista para a **doença do manguito**: o impacto subacromial avançado desgasta o supraespinal e expõe o tendão bicipital às mesmas forças, e a maioria das rupturas desse tendão acompanha doença avançada do manguito. Positivo, aumenta modestamente a probabilidade de tendinite do manguito.\n",
+         "causas": [
+          "Tendinite da cabeça longa do bíceps",
+          "Tendinite do manguito rotador associada",
+          "Doença avançada do manguito com exposição do tendão bicipital"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Teste de Gerber (lift off)",
+         "descricao": "O paciente leva a **mão às costas**, combinando rotação interna e extensão (a altura alcançada costuma ser **L5**), e tenta **afastá-la da coluna vencendo a resistência** do examinador. Não conseguir descolar a mão das costas positiva o teste.\n",
+         "significado": "É o teste do **subescapular**, o único músculo do manguito que **não se palpa**: só a rotação interna resistida o interroga. A falha em afastar a mão denuncia sua insuficiência, e completa o exame músculo a músculo do manguito rotador.\n",
+         "causas": [
+          "Ruptura ou insuficiência do subescapular",
+          "Doença do manguito rotador com acometimento anterior"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Teste de Patte",
+         "descricao": "Membro em **abdução de 90 graus** com o **cotovelo fletido a 90 graus**; o paciente **roda lateralmente o antebraço contra a resistência** do examinador. Fraqueza ou dor positiva o teste.\n",
+         "significado": "É a variante em abdução do teste do **infraespinal**, o segundo músculo mais importante nas rupturas do manguito, envolvido em **11% a 45%** delas. A fraqueza do infraespinal é o achado que mais trabalha nas séries combinadas da ruptura. Técnica padronizada por Semiologia Clínica, ensinada **sem número próprio medido**.\n",
+         "causas": [
+          "Ruptura do manguito rotador envolvendo o infraespinal",
+          "Tendinite do manguito rotador"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Teste de Jobe (lata vazia)",
+         "descricao": "Braços elevados a **90 graus no plano da escápula**, rodados internamente com os **polegares apontando para baixo, como quem esvazia uma lata**; o paciente sustenta a posição enquanto o examinador tenta baixá-los. **Fraqueza ou dor** positiva o teste. A variante da lata cheia, com os polegares para cima, dói menos e tem acurácia semelhante.\n",
+         "significado": "Testa o **supraespinal**, o músculo envolvido **na maioria das rupturas do manguito rotador**. Isolado, move pouco a probabilidade; seu peso aparece **em conjunto**: nas séries combinadas de McGee, três achados presentes tornam a ruptura muito provável e **nenhum achado presente praticamente a afasta**.\n",
+         "causas": [
+          "Ruptura do manguito rotador envolvendo o supraespinal",
+          "Tendinite do supraespinal, em que costuma haver dor com força preservada",
+          "Dor subacromial de qualquer origem, que inibe a sustentação do braço"
+         ]
         },
         {
          "tipo": "conceito",
@@ -14533,6 +15063,16 @@
          "tipo": "conceito",
          "titulo": "Epicondilites e bursite olecraniana",
          "texto": "**As epicondilites são entesopatias**, Porto usa o termo com precisão: o cotovelo abriga alterações das inserções tendíneas no epicôndilo e na epitróclea, e a isquemia é o denominador comum dos fatores causais. As duas têm apelido esportivo e ocupação associada.\n\n**Epicondilite lateral, o cotovelo do tenista.** Porto registra que é comum, e que atinge também dentistas, operadores de máquinas pneumáticas e arremessadores. O sintoma principal é **dor de forte intensidade**, e o diagnóstico se estabelece **pela palpação do local**. A manobra que confirma:\n\n- **Porto:** a dor aumenta quando o examinador **resiste à extensão do punho**, estando o cotovelo semifletido e o antebraço pronado.\n- **Semiologia Clínica**, com o nome próprio, **teste de Cozen**: cotovelo dobrado a **90 graus**, antebraço **pronado**, e o paciente **estende o punho ativamente vencendo a resistência** do examinador; positiva-se com dor sobre o epicôndilo lateral.\n\nAs duas descrições são o mesmo gesto: **estender o punho contra resistência dói no epicôndilo lateral**.\n\n**Epicondilite medial, o cotovelo do golfista.** Porto a chama de **epitrocleíte**, a epitróclea é o nome que ele usa para o epicôndilo medial, e a atribui à tração frequente dos flexores, que têm inserção comum ali; registra que ela se manifesta por dor nesse ponto. Semiologia Clínica registra o dado epidemiológico que muda a probabilidade a priori: **a forma medial é muito menos comum que a lateral**. O teste, segundo Semiologia Clínica: com o cotovelo dobrado, o antebraço supinado e o punho estendido, **estende-se o cotovelo devagar**, o que desperta dor sobre o epicôndilo medial; a alternativa é **fletir o punho contra resistência**.\n\n**Uma divergência de anatomia que este guia registra sem resolver.** Ao descrever as duas epicondilites, Semiologia Clínica nomeia o **epicôndilo lateral nas duas**, como inserção dos extensores comuns e como inserção do pronador redondo e dos flexores do antebraço: o que é incompatível com a própria distinção entre epicondilite lateral e medial que o texto faz na frase anterior. Porto, por sua vez, dá ao **epicôndilo a inserção comum dos tendões pronadores**, e atribui à epitróclea a inserção comum dos flexores. As descrições anatômicas não coincidem; **as manobras coincidem**, e são elas que o guia ensina: extensão resistida do punho dói lateralmente, flexão resistida do punho dói medialmente.\n\n**Bursite olecraniana.** A bursa fica na face extensora do cotovelo, em posição muito superficial e com pouco coxim de apoio, daí, segundo Semiologia Clínica, sua vulnerabilidade a traumatismos e infecções. O ponto semiológico decisivo: **o aumento de volume se dá fora da articulação**. É bursite, não artrite, e a distinção entre articular e periarticular ensinada no primeiro tópico deste capítulo se aplica aqui de forma quase didática.\n\nAs causas, reunindo as duas obras: trauma, inclusive microtraumatismos repetidos ocupacionais, e Semiologia Clínica dá o exemplo dos mecânicos de automóveis, artrite reumatoide, gota e infecções bacterianas; em muitos casos **a causa não se identifica**. Ao exame, avaliam-se tamanho, calor, eritema e turgor da bolsa.\n\n**E aqui há uma divergência que o leitor precisa conhecer**: Semiologia Clínica descreve a bursite olecraniana como **quadro doloroso** que pode complicar com infecção secundária; Porto a descreve como geralmente unilateral, com **dor leve ou ausente**, com derrame e **sem limitação dos movimentos** do cotovelo, acrescentando que gota, doença reumatoide e infecções acentuam as manifestações. As duas descrições convivem se lidas como estágios: a bursa distendida e não infectada dói pouco; a inflamada ou infectada dói muito. **Diante de uma bursa olecraniana quente, vermelha e muito dolorosa, a pergunta é infecção**, e Semiologia Clínica registra que se deve considerar a aspiração do conteúdo quando se suspeita de infecção, cristais ou etiologia inflamatória.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Teste de Cozen",
+         "descricao": "**Cotovelo dobrado a 90 graus, antebraço pronado**; o paciente **estende o punho ativamente vencendo a resistência** do examinador. Dor sobre o **epicôndilo lateral** positiva o teste. Porto descreve o mesmo gesto: a dor aumenta quando se resiste à extensão do punho.\n",
+         "significado": "Confirma a **epicondilite lateral, o cotovelo do tenista**, a mais comum das epicondilites. O princípio que vale a pena guardar: a dor da entesopatia é provocada pela **contração resistida**, não pelo toque. O espelho medial: **fletir o punho contra resistência** dói na epicondilite medial, forma muito menos comum.\n",
+         "causas": [
+          "Epicondilite lateral (cotovelo do tenista)",
+          "Entesopatia dos extensores comuns do antebraço"
+         ]
         },
         {
          "tipo": "secao",
@@ -15037,6 +15577,53 @@
          "texto": "Cada nome desta lista é um diagnóstico implicado, e por isso o registro precisa usar o nome certo.\n\n**Do grupo inflamatório crônico, sobretudo a artrite reumatoide:**\n\n- **Desvio ulnar das metacarpofalangianas**: os dedos apontam para o lado do quinto dedo. Semiologia Clínica descreve o mecanismo tardio: **subluxação das metacarpofalangianas** com desvio ulnar do carpo. Porto descreve o mesmo quadro na artrite reumatoide crônica, com tumefação e espessamento das metacarpofalangianas e das interfalangianas proximais.\n- **Dedo em pescoço de cisne**, Semiologia Clínica, na descrição completa: contratura em **flexão da metacarpofalangiana**, **hiperextensão da interfalangiana proximal** e **flexão da distal**. McGee registra a mesma sequência de três articulações. Vale saber que a mesma obra, no capítulo de artrites, resume a deformidade só pelas duas interfalangianas: é a mesma coisa descrita com menos detalhe, e o guia adota a versão completa.\n- **Dedo em botoeira**: **flexão da interfalangiana proximal** com **hiperextensão da distal**. McGee dá o mecanismo: **desinserção da faixa central do tendão extensor** sobre a interfalangiana proximal, achado comum na artrite reumatoide.\n- **Dedos em fuso**, Porto: os dedos se tornam fusiformes por **sinovite e capsulite das interfalangianas proximais**, e ele o registra como o grau mais leve da mão reumatoide.\n- **Mão em telescópio**, ou mão em luneta, McGee: encurtamento dos dedos com destruição das interfalangianas, implicando **artrite mutilante**, na doença reumatoide ou na psoriásica.\n- **Perda das pregas dos nós dos dedos** e **perda do relevo em morros e vales das cabeças dos metacarpos**: dois achados finos de McGee, que implicam respectivamente **sinovite das interfalangianas** e **sinovite das metacarpofalangianas**. São sinais de tumefação vistos pelo que **deixa** de existir, e por isso escapam de quem procura só o que aumenta.\n\n**Do grupo degenerativo:**\n\n- **Nódulos de Heberden**, nas interfalangianas **distais**, e **nódulos de Bouchard**, nas **proximais**. Porto os define como **pequenos nódulos duros e indolores** que traduzem crescimento ósseo excessivo, e registra que eles marcam as formas hereditárias da doença, com predomínio no sexo feminino. Semiologia Clínica acrescenta o comportamento no tempo: eles se desenvolvem **lenta e gradualmente**, com pouco ou nenhum desconforto, mas **podem inflamar de forma aguda** e então doer de modo persistente. McGee os nomeia como osteófitos.\n- **Rizoartrose**: a osteoartrite da carpometacarpiana do polegar, suspeitada pela dor à palpação da base do polegar.\n\n**Do grupo neurológico e fibrótico:**\n\n- **Mão em garra**, Porto: primeiro atrofia muscular, depois retração da aponeurose palmar sobre as metacarpofalangianas, que flete as falanges dos **três dedos mais ulnares**; aparece na distrofia muscular progressiva, na hanseníase e na pelagra.\n- **Contratura de Dupuytren**: o espessamento da aponeurose palmar torna-se nodular e puxa os dedos em flexão. Porto localiza a placa inicial na prega palmar distal, sobre o **tendão flexor do quarto dedo** e, por vezes, do quinto; McGee dá a hierarquia dos dedos acometidos: **quarto mais que quinto, e quinto mais que terceiro**; Semiologia Clínica acrescenta que costuma ser **indolor**, bilateral, hereditária e associada a tabagismo, álcool, epilepsia e diabetes.\n- **Contratura de Volkmann**, Porto: fibrose e retração musculares por **má irrigação**, com punho e dedos fixos em flexão; pode seguir-se a lesões do cotovelo ou a aparelho gessado mal colocado.\n- **Atrofia tenar** sugere lesão do **mediano**, e a compressão no punho é a causa comum; **atrofia hipotenar** sugere lesão do **ulnar**. As duas eminências se comparam com as da outra mão, não com uma ideia de normalidade.\n\n**E dois achados que não são da junta e moram no punho:**\n\n- **Cisto sinovial**, Porto: tumefação cística, arredondada, em geral **indolor**, ao longo das bainhas tendinosas ou das cápsulas, mais frequente no **dorso do punho**, e que se torna mais proeminente quando o punho é fletido. McGee o descreve como **firme e indolor**, volar ou dorsal.\n- **Proeminência anormal da ulna distal**, McGee: **subluxação da ulna**, por artrite inflamatória crônica, sobretudo a reumatoide.\n"
         },
         {
+         "tipo": "sinal",
+         "nome": "Contratura de Dupuytren",
+         "descricao": "O **espessamento da aponeurose palmar** torna-se nodular e **puxa os dedos em flexão**. A placa inicial aparece na prega palmar distal, sobre o tendão flexor do **quarto dedo**; a hierarquia dos dedos acometidos: **quarto mais que quinto, e quinto mais que terceiro**. Costuma ser **indolor** e bilateral.\n",
+         "significado": "É deformidade **fibrótica, não articular**: a junta é inocente, a aponeurose é a ré. Hereditária, associa-se a **tabagismo, álcool, epilepsia e diabetes**. Distinguir da mão em garra neurológica: nesta, a atrofia muscular precede a retração e os dedos fletidos são os três mais ulnares.\n",
+         "causas": [
+          "Contratura de Dupuytren idiopática ou hereditária",
+          "Associações registradas: tabagismo, álcool, epilepsia, diabetes"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Nódulos de Heberden e de Bouchard",
+         "descricao": "**Pequenos nódulos duros e indolores** nas interfalangianas: **Heberden nas distais, Bouchard nas proximais**. Desenvolvem-se lenta e gradualmente, com pouco ou nenhum desconforto, mas **podem inflamar de forma aguda** e então doer de modo persistente.\n",
+         "significado": "Traduzem **crescimento ósseo excessivo** (McGee os nomeia como osteófitos) e marcam a **osteoartrite das mãos**, sobretudo as formas hereditárias, com predomínio no sexo feminino. A fileira escolhida separa as doenças: a osteoartrite prefere as **distais** e a base do polegar; a artrite reumatoide, as metacarpofalangianas e proximais, **poupando as distais**.\n",
+         "causas": [
+          "Osteoartrite das mãos"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Dedo em botoeira",
+         "descricao": "**Flexão da interfalangiana proximal** com **hiperextensão da distal**: a ordem inversa do pescoço de cisne.\n",
+         "significado": "O mecanismo, segundo McGee: **desinserção da faixa central do tendão extensor** sobre a interfalangiana proximal, que escapa entre as faixas laterais como um botão pela casa. Achado comum na **artrite reumatoide**; como o pescoço de cisne, começa redutível e evolui para contratura fixa.\n",
+         "causas": [
+          "Artrite reumatoide",
+          "Lesão traumática do aparelho extensor do dedo"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Dedo em pescoço de cisne",
+         "descricao": "Na descrição completa: contratura em **flexão da metacarpofalangiana**, **hiperextensão da interfalangiana proximal** e **flexão da distal**, o dedo desenhando a curva que dá o nome.\n",
+         "significado": "Deformidade clássica da **mão reumatoide**. O detalhe que o exame precisa registrar: ela é **inicialmente redutível** e só com o tempo passa à contratura fixa; tentar desfazê-la com o dedo custa um segundo e **data a doença**. O espelho é o dedo em botoeira, com as dobras invertidas.\n",
+         "causas": [
+          "Artrite reumatoide"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Desvio ulnar das metacarpofalangianas",
+         "descricao": "Os dedos **apontam para o lado do quinto dedo**, por **subluxação das metacarpofalangianas** com desvio ulnar do carpo, em geral com tumefação e espessamento das metacarpofalangianas e das interfalangianas proximais.\n",
+         "significado": "Deformidade tardia da **artrite reumatoide crônica**. Na mão, a deformidade não sugere a doença: **ela é o critério**. Diante de artrite simétrica de punhos e mãos com desvio ulnar e dedos em pescoço de cisne, o diagnóstico fica praticamente estabelecido **com ou sem fator reumatoide no soro**.\n",
+         "causas": [
+          "Artrite reumatoide crônica"
+         ]
+        },
+        {
          "tipo": "tabela",
          "titulo": "Punho, carpo e dedos: achado e diagnóstico implicado (McGee, Tabela 57.2)",
          "colunas": [
@@ -15161,6 +15748,25 @@
          "tipo": "conceito",
          "titulo": "A compressão do mediano e as manobras que a interrogam",
          "texto": "**A anatomia decide o quadro.** Semiologia Clínica descreve o túnel como o corredor que conduz do antebraço à mão os **tendões flexores dos dedos** e, com eles, o **nervo mediano**; a compressão restringe funções **motoras e sensitivas**. O território da queixa é preciso e vale decorar: **polegar, segundo e terceiro dedos e a metade radial do quarto**. Nos quadros avançados aparecem a **atrofia tenar** e a perda de oposição e abdução do polegar.\n\n**As associações que a anamnese procura**, segundo a mesma obra: gravidez e outras condições que retêm líquido; trauma; osteoartrite; artrite inflamatória; distúrbios metabólicos, entre eles o diabetes e o hipotireoidismo; e doenças de depósito, como a amiloidose.\n\n**As manobras, com as definições operacionais que os estudos usaram.** McGee é quem dá o detalhe cronometrado, e o detalhe importa porque é o que torna o achado comparável:\n\n- **Sinal de Tinel**: **percussão sobre a prega distal do punho**, na projeção do mediano. Positivo quando surgem **parestesias no território do mediano**. Semiologia Clínica descreve o mesmo gesto como percussão sobre a projeção do ligamento, reproduzindo dor e parestesia.\n- **Sinal de Phalen**: **flexão máxima dos punhos mantida por 60 segundos**. Semiologia Clínica ensina a versão de consultório, que é a mesma coisa executada com as duas mãos ao mesmo tempo: manter por um minuto a flexão dos punhos **com os dorsos encostados**, cotovelos fletidos e elevados. Positivo quando os sintomas se reproduzem. Porto também nomeia a manobra de Phalen, entre as manobras específicas para avaliar dor no punho.\n- **Manobra de Phalen invertida**, Semiologia Clínica: essencialmente a mesma, com os punhos em **extensão máxima**.\n- **Teste de provocação por pressão**, McGee: os **polegares do examinador comprimem firmemente a face palmar da prega distal do punho por 60 segundos**. Mesmo desfecho positivo, estímulo diferente.\n\n**Um detalhe que muda o interrogatório, e que é fácil levar longe demais.** McGee registra por que o **padrão clássico** do diagrama de sintomas **exclui a palma**: o **ramo cutâneo palmar do mediano não passa dentro do túnel do carpo**. Mas o boxe não autoriza concluir que sintomas na palma afastem o diagnóstico: o padrão **provável** é definido como igual ao clássico **admitindo sintomas palmares**, e os dois entram na **mesma linha**, com a mesma razão de verossimilhança **2,4**. Sintomas na palma, portanto, movem o desenho de clássico para provável **dentro do mesmo grupo**, e não para fora dele.\n\n**O que de fato argumenta contra é o padrão improvável**, definido pela ausência de sintomas nos **dedos 1, 2 e 3**, e é ele que rende **0,2**. A pergunta que vale, portanto, não é \"dói na palma?\", e sim \"**o polegar, o indicador ou o médio estão dentro da queixa?**\".\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Hipoalgesia no território do mediano",
+         "descricao": "Compara-se a sensibilidade dolorosa do **indicador com a do quinto dedo da mesma mão**: percepção diminuída no indicador, território do mediano, é a resposta positiva.\n",
+         "significado": "É o achado do exame físico que **mais move a probabilidade** na síndrome do túnel do carpo, à frente de Tinel e Phalen, tendo a eletroneuromiografia como padrão. O desenho do teste é o que o torna bom: o quinto dedo, território do ulnar, serve de **controle interno** na própria mão do paciente.\n",
+         "causas": [
+          "Síndrome do túnel do carpo (compressão do nervo mediano)"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Sinal de Tinel",
+         "descricao": "**Percussão sobre a prega distal do punho**, na projeção do nervo mediano. Positivo quando surgem **parestesias no território do mediano**: polegar, segundo e terceiro dedos e a metade radial do quarto.\n",
+         "significado": "É a manobra mais conhecida da síndrome do túnel do carpo e uma das que **menos movem a probabilidade**: positiva confirma pouco e sua ausência não afasta nada. A razão, segundo McGee: Tinel e Phalen **não separam** o túnel do carpo das demais causas de disestesia da mão, como polineuropatia, neuropatia ulnar e radiculopatia. Registre o gesto e o desfecho, não o rótulo: **\"percussão do punho reproduziu formigamento no indicador e no médio\"** é frase conferível.\n",
+         "causas": [
+          "Síndrome do túnel do carpo (compressão do nervo mediano)",
+          "Outras causas de disestesia da mão, que a manobra não separa: polineuropatia, neuropatia ulnar, radiculopatia cervical"
+         ]
         },
         {
          "tipo": "sinal",
@@ -15633,6 +16239,33 @@
         },
         {
          "tipo": "sinal",
+         "nome": "Teste do pivot shift",
+         "descricao": "**Rotação interna da perna, estresse em valgo, carga axial e flexão progressiva** do joelho: no joelho sem cruzado anterior, a tíbia subluxa anteriormente entre 0 e 30 graus e **volta bruscamente ao lugar**, com **estalo palpável por volta de 30 graus**.\n",
+         "significado": "É a manobra que **reproduz o sintoma**: o paciente conhece o fenômeno como a sensação de **falseio** ao plantar o pé com o joelho estendido. Quase só confirmatório: positivo fala alto a favor da rotura do cruzado anterior; negativo não afasta, porque é um teste difícil de executar em paciente acordado e dolorido.\n",
+         "causas": [
+          "Rotura do ligamento cruzado anterior"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Teste da gaveta posterior",
+         "descricao": "A mesma posição da gaveta anterior, joelho a 90 graus, mas **empurrando a panturrilha alta para trás**. Positivo quando a tíbia **desliza posteriormente** de modo anormal, sempre em comparação com o outro joelho.\n",
+         "significado": "Interroga o **cruzado posterior**, a estrutura interna do joelho **menos sujeita a lesão**, cujo mecanismo característico é a desaceleração do joelho fletido contra superfície dura: **o joelho batendo no painel do carro**. Nos estudos reunidos por McGee, é o teste de melhor desempenho do capítulo, **confirmando quando presente e afastando quando ausente**, o que é raríssimo em um mesmo achado.\n",
+         "causas": [
+          "Rotura do ligamento cruzado posterior"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Teste da gaveta anterior",
+         "descricao": "Paciente deitado, **joelho a 90 graus**; o examinador **senta sobre o pé do paciente**, envolve a tíbia logo abaixo da interlinha com as duas mãos e **traciona a panturrilha alta para a frente**. Positivo quando há **subluxação anterior anormal com ponto final mole**.\n",
+         "significado": "Interroga o **cruzado anterior**, e positivo confirma bem a rotura. O problema é o negativo: a hemartrose aguda impede a flexão a 90 graus, os isquiotibiais doloridos se opõem à translação nesse ângulo e a borda posterior do menisco medial serve de calço. Por essas três razões mecânicas, **a gaveta que não veio não afasta nada**: quem exclui é o Lachman, o mesmo gesto a 20 graus.\n",
+         "causas": [
+          "Rotura do ligamento cruzado anterior"
+         ]
+        },
+        {
+         "tipo": "sinal",
          "nome": "Teste de Lachman positivo",
          "descricao": "O gesto da gaveta anterior com o **joelho a 20 graus** e o quadril estendido: uma mão segura a coxa distal, a outra traciona a panturrilha proximal para a frente. Positivo quando há **subluxação anterior anormal** ou **ponto final mole**.\n",
          "significado": "**Não é a distância que decide: é como o movimento termina.** Ponto final firme fala de ligamento íntegro; frouxidão ou ponto final mole, de **rotura do cruzado anterior**, sempre comparando com o outro joelho. A anamnese ajuda: lesão do cruzado incha **de imediato**; a meniscal, só após horas.\n",
@@ -15644,6 +16277,63 @@
          "tipo": "conceito",
          "titulo": "Os meniscos e o que os testes conseguem",
          "texto": "**O achado que dispensa manobra.** McGee explica: rupturas do menisco anterior, ou rupturas grandes em alça de balde, deslocam tecido entre as superfícies articulares e **impedem a extensão completa**, o **bloqueio**, que é sinal característico de lesão meniscal. Semiologia Clínica descreve a queixa correspondente: dor crônica ou intermitente associada a **bloqueio ou instabilidade**, com dor à palpação direta da interlinha quando a ruptura é anterior.\n\n**O teste de McMurray existe para o que não bloqueia.** Rupturas da **metade posterior** do menisco dificilmente travam a extensão, e por isso são mais difíceis de detectar; foi para elas que o cirurgião britânico McMurray propôs, em **1949**, o teste que leva seu nome. McGee descreve o propósito de cada componente do gesto, e entendê-lo é o que torna o teste memorizável: **flete-se completamente o joelho** e **roda-se a tíbia** para trazer o fragmento roto, que está atrás, para a **frente** do côndilo femoral; a **rotação externa traz o menisco medial** e a **interna traz o lateral**. Mantendo a rotação, **estende-se lentamente** o joelho, e o côndilo passa por cima do fragmento: produzindo, quando o teste é positivo, uma **sensação de ressalto palpável na interlinha** correspondente. Semiologia Clínica descreve o mesmo gesto e resume a leitura: dor ou estalido à rotação lateral aponta o menisco medial, e vice-versa.\n\n**Uma nota de método que McGee faz questão de registrar.** Livros de ortopedia e artigos de revisão acrescentaram **estresses em varo e valgo** à definição do teste de McMurray. **McMurray não os incluiu na descrição original, e os estudos que mediram o teste não os usaram.** Quem executa a versão ampliada não está executando o teste que produziu os números.\n\n**Os outros testes meniscais que Semiologia Clínica ensina**, e que este guia registra com atribuição e **sem número**, porque nenhuma das quatro obras mede o desempenho deles: o **teste de Smillie**, que é a palpação dolorosa da interlinha correspondente à lesão; a **marcha de pato**, caminhar agachado, que evidencia lesões do corno posterior do menisco medial; o **teste de Appley**, executado em decúbito ventral, que comprime o pé no eixo da perna e a roda para os dois lados, e a contraprova em **distração**, que é a parte inteligente da manobra, porque a distração afasta as superfícies e provoca **menos** desconforto na lesão meniscal, separando-a da dor articular; e o **teste de Steinmann**, sentado com as pernas pendentes e os joelhos a 90 graus, rodando a tíbia pelo pé.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Bloqueio articular do joelho",
+         "descricao": "O paciente **não consegue estender a perna por completo**: a extensão trava antes do fim, em geral com história de dor crônica ou intermitente e episódios de travamento.\n",
+         "significado": "É o achado meniscal **que dispensa manobra**: rupturas do menisco anterior, ou as grandes rupturas **em alça de balde**, deslocam tecido para entre as superfícies articulares e impedem a extensão completa. Presente, aumenta bem a probabilidade de lesão meniscal. O teste de McMurray existe justamente **para o que não bloqueia**: as rupturas da metade posterior.\n",
+         "causas": [
+          "Ruptura do menisco anterior",
+          "Ruptura em alça de balde com fragmento interposto"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Marcha de pato",
+         "descricao": "Pede-se ao paciente que **caminhe agachado**, com os joelhos em flexão máxima sustentando o peso do corpo. Dor ou incapacidade de completar o gesto positiva o teste.\n",
+         "significado": "A flexão máxima sob carga comprime a **metade posterior dos meniscos**: por isso a manobra evidencia lesões do **corno posterior do menisco medial**, a mesma região que o teste de McMurray persegue. Não confundir com a marcha anserina da fraqueza da cintura pélvica: aqui a marcha é uma **prova provocativa**, não um padrão espontâneo.\n",
+         "causas": [
+          "Lesão do corno posterior do menisco medial"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Teste de Smillie",
+         "descricao": "**Palpação da interlinha articular** do joelho, medial e lateral: positivo quando a palpação é **dolorosa na interlinha correspondente à lesão**, sobretudo nas rupturas anteriores do menisco.\n",
+         "significado": "É o gesto mais fácil do exame meniscal, e o que **menos vale sozinho**: a dor na interlinha pode refletir lesão **da cápsula ou dos ligamentos colaterais** que acompanha o trauma, e não do menisco. Positivo, move pouco a probabilidade; negativo, reduz pouco. Serve como ponto de partida que os testes rotacionais (McMurray, Appley, Steinmann) vêm qualificar.\n",
+         "causas": [
+          "Ruptura meniscal, sobretudo anterior",
+          "Lesão da cápsula ou dos ligamentos colaterais, que dói no mesmo lugar"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Teste de Steinmann",
+         "descricao": "Paciente **sentado com as pernas pendentes e os joelhos a 90 graus**; o examinador **roda a tíbia segurando pelo pé**, para um lado e para o outro.\n",
+         "significado": "Pertence ao grupo de testes meniscais que Semiologia Clínica ensina com técnica padronizada e **sem número medido**: a rotação da tíbia provoca o menisco lesado e desperta dor na interlinha correspondente. A leitura segue a mesma lógica do McMurray: rotação lateral interroga o menisco medial, e vice-versa.\n",
+         "causas": [
+          "Lesão meniscal"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Teste de Appley (compressão e distração)",
+         "descricao": "Em **decúbito ventral**, com o joelho fletido, **comprime-se o pé no eixo da perna** e roda-se a tíbia para os dois lados; a contraprova é a **distração**, tracionando o pé no mesmo eixo.\n",
+         "significado": "A distração é **a parte inteligente da manobra**: afastar as superfícies articulares provoca **menos** desconforto na lesão meniscal, separando-a da dor articular, que tende a doer também sob tração. Dor à compressão rotacional com alívio à distração fala do menisco. Técnica de Semiologia Clínica, ensinada **sem número medido**.\n",
+         "causas": [
+          "Lesão meniscal"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Teste de McMurray",
+         "descricao": "**Flete-se completamente o joelho** e **roda-se a tíbia**: a rotação **externa traz o menisco medial** para a frente do côndilo, a **interna traz o lateral**. Mantendo a rotação, **estende-se lentamente** o joelho. Positivo quando o côndilo passa por cima do fragmento roto e produz **ressalto palpável na interlinha** correspondente, com dor ou estalido.\n",
+         "significado": "Foi criado em 1949 para as rupturas da **metade posterior** do menisco, justamente as que **não bloqueiam** a extensão e escapam da inspeção. É o melhor teste meniscal isolado quando positivo, e uma nota de método importa: os estresses em varo e valgo que alguns textos acrescentam **não estão na descrição original nem nos estudos que mediram o teste**. Nenhum teste meniscal exclui a lesão quando negativo.\n",
+         "causas": [
+          "Ruptura da metade posterior do menisco medial (rotação externa)",
+          "Ruptura da metade posterior do menisco lateral (rotação interna)"
+         ]
         },
         {
          "tipo": "secao",
@@ -16145,6 +16835,24 @@
          "tipo": "conceito",
          "titulo": "A rotura que engana quem testa a força errada",
          "texto": "Este é o bloco mais importante do tópico do ponto de vista do erro evitado, e ele começa por uma advertência de McGee que vale ser lida duas vezes.\n\n**Muitos pacientes com o tendão calcâneo roto ainda conseguem fazer flexão plantar do tornozelo.** A razão é anatômica: o **tibial posterior** e os **fibulares**, que se inserem nos ossos do médio-pé, também fazem flexão plantar. Um examinador que peça ao paciente para \"empurrar o pé contra a minha mão\", constate que ele consegue e conclua que o tendão está íntegro **acaba de cometer o erro clássico da região**.\n\n**Por isso existem testes específicos**, e McGee os organiza em duas famílias: os que **palpam o tendão lesado** e os que **demonstram a ausência de função do tendão**.\n\n**Como se posiciona o paciente para os três.** Todos se fazem com o paciente em **decúbito ventral**, com os pés para fora da borda da maca, e, este é o ponto que os torna interpretáveis, **o lado assintomático serve de controle**.\n\n- **Falha palpável no tendão.** O examinador percorre suavemente o trajeto do tendão à procura de interrupções. McGee dá a topografia que orienta a busca: quando existe, a falha costuma estar entre **2 e 6 cm do calcâneo**.\n- **Teste do aperto da panturrilha**, também chamado teste de Simmonds-Thompson. O examinador **comprime suavemente o terço médio da panturrilha**, logo abaixo do ponto de maior circunferência, e **observa o tornozelo**. Com o tendão íntegro, o pé faz **flexão plantar**; ausência de movimento, ou movimento mínimo, é a resposta positiva. McGee explica o mecanismo, e ele é elegante: a flexão plantar normal resulta da **compressão do músculo sóleo**, que arqueia o tendão calcâneo para trás.\n- **Teste de flexão do joelho**, ou teste de Matles. O examinador **observa a posição dos tornozelos enquanto o paciente flete os dois joelhos a 90 graus**: juntos ou um de cada vez. Com o tendão íntegro, o tornozelo permanece em **leve flexão plantar**; **dorsiflexão discreta ou posição neutra** é a resposta positiva.\n\n**Um pouco de história, porque ela explica o nome duplo.** Thompson descreveu o teste do aperto em **1962**, observando que podia ser feito com o paciente em decúbito ventral ou ajoelhado numa cadeira; **Simmonds havia descrito o mesmo teste em 1957**. Matles descreveu o teste de flexão do joelho em **1975**.\n\n**E o mecanismo da lesão, que ajuda na anamnese.** McGee registra que a rotura ocorre tipicamente durante atividade esportiva, quando o atleta faz uma **flexão plantar forçada**, o impulso da corrida ou do salto, ou uma **dorsiflexão forçada**.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Falha palpável no tendão calcâneo",
+         "descricao": "Com o paciente em **decúbito ventral** e os pés para fora da maca, o examinador **percorre suavemente o trajeto do tendão** à procura de interrupções: quando existe, a falha costuma estar entre **2 e 6 cm do calcâneo**.\n",
+         "significado": "É a família de testes que **palpa o tendão lesado**, complementar à que demonstra a ausência de função (aperto da panturrilha, Matles). Presente, aumenta bem a probabilidade de **rotura do tendão calcâneo**; a topografia dos 2 a 6 cm orienta a busca, e o lado assintomático serve de controle.\n",
+         "causas": [
+          "Rotura do tendão calcâneo"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Teste de flexão do joelho (Matles)",
+         "descricao": "Paciente em **decúbito ventral**, pés para fora da maca; o examinador **observa a posição dos tornozelos enquanto o paciente flete os dois joelhos a 90 graus**. Com o tendão calcâneo íntegro, o tornozelo permanece em **leve flexão plantar**; **dorsiflexão discreta ou posição neutra** é a resposta positiva.\n",
+         "significado": "Segundo teste da **rotura do tendão calcâneo**, descrito por Matles em 1975: sem o tendão, o pé perde o tônus que o mantinha em flexão plantar e cai para a posição neutra sob a gravidade. Positivo, aumenta bem a probabilidade da rotura; o lado assintomático serve de **controle**. Lembre o erro clássico da região: muitos pacientes com o tendão roto **ainda fazem flexão plantar ativa**, pelo tibial posterior e pelos fibulares.\n",
+         "causas": [
+          "Rotura do tendão calcâneo"
+         ]
         },
         {
          "tipo": "sinal",
@@ -17397,6 +18105,17 @@
         },
         {
          "tipo": "sinal",
+         "nome": "Manobra de Chevassu",
+         "descricao": "Faz-se o **epidídimo deslizar entre o indicador e o polegar**, acima e atrás do testículo, reconhecendo **cabeça, corpo e cauda**.\n",
+         "significado": "É a manobra que **individualiza o epidídimo** e responde a pergunta que evita metade dos erros: de que estrutura vem a massa? Aumento **regular e difuso com dor intensa** é epididimite aguda; aumento **irregular, multinodular e endurecido**, de evolução lenta, sugere tuberculose. O que é do testículo preocupa; o que é do epidídimo costuma ser benigno.\n",
+         "causas": [
+          "Epididimite aguda (aumento difuso e doloroso)",
+          "Epididimite tuberculosa (aumento irregular e endurecido)",
+          "Espermatocele e cistos (massas císticas benignas)"
+         ]
+        },
+        {
+         "tipo": "sinal",
          "nome": "Nódulo testicular",
          "descricao": "Área endurecida ou nodular dentro do parênquima testicular, em geral indolor, percebida na palpação comparativa. A Semiologia Médica formula a regra completa: a massa do testículo que **não dói, é endurecida e irregular e não deixa a luz passar** recebe o rótulo de neoplasia maligna enquanto a investigação não provar outra coisa. Semiologia Clínica repete o núcleo: áreas firmes ou endurecidas dentro do testículo são suspeitas de neoplasia. Muitas vezes é um pequeno traumatismo que chama a atenção do paciente para o nódulo que já existia: o trauma revela, não causa.",
          "significado": "É o alarme deste exame, e é alarme do homem jovem: as neoplasias testiculares representam 1% das lesões malignas do sexo masculino, mas a maioria ocorre **entre 20 e 40 anos**, a faixa etária em que quase nada mais é câncer. O testículo criptorquídico tem risco quatro a sete vezes maior. Dor mínima ou ausente não tranquiliza: é o padrão típico; a Semiologia Médica registra que em cerca de 20% dos casos há dor e hiperestesia que imitam orquiepididimite. Hidrocele associada pode esconder o tumor. A anamnese de Porto já prepara este encontro: o autoexame testicular é item de promoção da saúde no interrogatório, perguntar por ele faz parte da consulta.",
@@ -17520,6 +18239,15 @@
          "titulo": "Escroto agudo: torção até prova em contrário",
          "texto": "Escroto agudo é dor escrotal **intensa e súbita**, em geral unilateral, com edema, aumento de volume e vermelhidão: podendo somar febre, náuseas, vômito e inquietação. Porto lista as causas: **torção do cordão espermático**, orquiepididimites, torção dos apêndices testiculares, hidrocele que se instala depressa, trauma escrotal e a hérnia inguinoescrotal estrangulada. O problema clínico é um só: dentre elas está a **torção**, que é acidente vascular, isquemia com prazo, e Semiologia Clínica a rotula sem rodeio de **emergência médica**, porque o atraso custa o testículo.\n\n**A torção pelos achados.** Idade típica em torno da **puberdade** (a intravaginal, entre 10 e 15 anos; rara acima dos 35: a extravaginal é da primeira infância). Dor lancinante, súbita, às vezes precedida de crises que passaram sozinhas (torção intermitente) ou irradiada da virilha. Ao exame: testículo tumefato, extremamente doloroso, **elevado** (o encurtamento do cordão e o espasmo cremastérico, que a *Semiologia Médica* e Semiologia Clínica nomeiam **sinal de Brunzel**) e **horizontalizado** (sinal de Angell); o epidídimo não é palpável na posição habitual; muito precocemente pode haver a umbilicação da pele escrotal inferior (sinal de Ger). O **reflexo cremastérico está geralmente abolido** na torção, e presente na orquiepididimite e na torção do apêndice testicular, cuja marca própria é o nódulo doloroso no polo superior com a **mancha azul** visível.\n\n**O sinal de Prehn**, com sua âncora declarada: Semiologia Clínica o define, a dor que **alivia quando o examinador eleva mecanicamente o testículo**, o que só acontece na orquiepididimite, e o oferece como auxiliar do diferencial com a torção. A *Semiologia Médica* traz o mesmo fato sem o epônimo: na orquite aguda, a elevação manual do testículo reduz a dor. O guia ensina o sinal com o nome que Semiologia Clínica lhe dá e com a ressalva que as próprias fontes impõem: a *Semiologia Médica* admite, por duas vezes, que a torção pode ser **indistinguível** da epididimite e da orquite ao exame físico, e a hiperestesia da torção muitas vezes impede a palpação que os sinais exigem.\n\n**O desempate não é clínico.** Porto encerra o boxe com a frase que decide a conduta: a **ultrassonografia é fundamental** para a comprovação, com Doppler avaliando o fluxo, acrescenta a *Semiologia Médica*. Nenhum sinal isolado autoriza esperar.\n",
          "nivel": "avancado"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Sinais da torção testicular (Brunzel, Angell e Ger)",
+         "descricao": "No escroto agudo: testículo tumefato e extremamente doloroso, **elevado** pelo encurtamento do cordão e pelo espasmo cremastérico (**sinal de Brunzel**), **horizontalizado** (**sinal de Angell**), com o epidídimo fora da posição habitual; muito precocemente, **umbilicação da pele escrotal inferior** (**sinal de Ger**). O **reflexo cremastérico está geralmente abolido**.\n",
+         "significado": "Compõem o retrato da **torção do cordão espermático**, acidente vascular com prazo, **emergência médica**: o atraso custa o testículo. Idade típica em torno da puberdade. O contraste: na orquiepididimite o reflexo está presente e a elevação do testículo alivia a dor (sinal de Prehn). E a sentença das fontes: torção e epididimite podem ser indistinguíveis ao exame, **a ultrassonografia com Doppler é fundamental e nenhum sinal isolado autoriza esperar**.\n",
+         "causas": [
+          "Torção do cordão espermático (emergência: isquemia com prazo)"
+         ]
         },
         {
          "tipo": "sinal",
@@ -18714,6 +19442,15 @@
          "nivel": "avancado"
         },
         {
+         "tipo": "sinal",
+         "nome": "Reflexo de Cushing",
+         "descricao": "**Bradicardia com hipertensão arterial** na hipertensão intracraniana aguda, acompanhadas de **alterações da frequência e do ritmo respiratórios**.\n",
+         "significado": "É a resposta reflexa ao aumento da pressão intracraniana, e muda a urgência: em consciência comprometida, **pressão que sobe e pulso que desce** compõem, com a cefaleia que muda de caráter e os vômitos, um quadro de leitura conjunta. Em pacientes sem trauma craniano, a pressão sistólica muito elevada é justamente o dado que aponta lesão **estrutural**, e não metabólica.\n",
+         "causas": [
+          "Hipertensão intracraniana aguda (massa em expansão, hemorragia, hidrocefalia)"
+         ]
+        },
+        {
          "tipo": "conceito",
          "titulo": "Onde este tópico encontra os outros",
          "texto": "Este é o primeiro tópico do capítulo neurológico, e boa parte do que ele nomeia já foi ensinada em outros lugares do guia, ou será ensinada logo adiante, neste mesmo capítulo.\n\n- **A escada da consciência** (obnubilação, sonolência, confusão mental, torpor e coma) o princípio de aumentar o estímulo até obter resposta e a distinção entre perceptividade e reatividade estão no tópico de ectoscopia, que prometeu este capítulo para o detalhamento da escala de Glasgow.\n- **O padrão respiratório**, com a definição de cada ritmo e a técnica de contagem em um minuto inteiro, está no tópico de temperatura e frequência respiratória; o **esforço respiratório** e seus sinais visíveis estão no tópico de inspeção do tórax.\n- **A pressão arterial**, sua técnica de medida e seus erros estão no tópico de pressão arterial; **a bradicardia** e as arritmias, no tópico de frequência cardíaca e pulso.\n- **A semiotécnica das pupilas** (luz oblíqua, ambiente escurecido, fotomotor direto e consensual) está no tópico de olhos; a **interpretação neurológica das pupilas**, com a manobra da luz alternante, é o tópico de pares cranianos de I a VI.\n- **A paralisia facial** como achado de assimetria, com a regra da testa, está no tópico de crânio e face; o exame completo do VII par está no tópico de pares cranianos de VII a XII.\n- **A hemiparesia**, sua graduação e os reflexos que a acompanham são o tópico de força, tônus e reflexos; **as marchas típicas** e os **sinais meníngeos**, o tópico de marcha e sinais meníngeos.\n- **A hipoacusia**, causa frequente de paciente rotulado como confuso, tem semiotécnica e razões de verossimilhança no tópico de boca, nariz e ouvidos.\n- **O miniexame do estado mental, as escalas de sedação e o exame psíquico formal** têm agora morada própria no sistema Exame psíquico: as escalas, no tópico Escalas cognitivas à beira do leito.\n"
@@ -19082,6 +19819,16 @@
          "tipo": "conceito",
          "titulo": "Fundo de olho: o que se procura",
          "texto": "Este guia deixou o fundo de olho para o capítulo neurológico, e aqui ele encontra seu lugar, com uma fronteira explícita.\n\n**A técnica do oftalmoscópio não é ensinada aqui.** Ela é instrumental, exige treino próprio e pertence ao exame com aparelhos, fora do escopo do guia. O que este tópico ensina é o que o exame procura, por que ele importa e quando pedi-lo.\n\nPorto justifica sua importância em uma imagem que vale a pena guardar: o fundo de olho é uma **biópsia incruenta**. Nele se veem, sem cortar nada, tecido nervoso, retina e papila óptica, e vasos, artérias, veias e capilares, que refletem fielmente o que se passa com as estruturas equivalentes dentro do crânio. Semiologia Clínica descreve o mesmo alcance: a fundoscopia permite avaliar as papilas ópticas, os vasos e a retina.\n\n**Três achados organizam a leitura** (Porto, *Exame Clínico* e *Semiologia Médica*):\n\n- **palidez da papila**, sinal de atrofia do nervo óptico;\n- **edema da papila**, ou papiledema, que traduz hipertensão intracraniana, e, na leitura de Porto (*Semiologia Médica*), também inflamação do próprio nervo. Semiologia Clínica descreve como reconhecê-lo: **borramento do contorno da papila**;\n- **modificações das arteríolas**, que aparecem na hipertensão arterial.\n\n**Por que o papiledema é alarme.** Porto o coloca entre os sinais da síndrome de hipertensão intracraniana e faz três ressalvas que mudam a conduta. Ele é frequente, mas **não obrigatório**, sobretudo nas fases iniciais. É excepcionalmente unilateral, embora possa ser assimétrico. E, este é o ponto, pode alcançar grande intensidade **sem prejuízo inicial da acuidade visual**, ainda que sua evolução leve à atrofia do nervo óptico e à amaurose definitiva. Um paciente que enxerga bem não está protegido.\n\nPorto descreve ainda a sequência completa de eventos que a hipertensão intracraniana produz no fundo de olho, ao impedir o fluxo normal nas veias da retina: o pulso venoso desaparece, as veias ficam túrgidas, instala-se a estase da papila, surgem focos hemorrágicos e, ao cabo, a papila atrofia.\n\n**O que mais se procura, além do papiledema.** A promessa que o tópico de olhos deixou aqui apontava para três destinos (hipertensão, diabetes melito e infecções sistêmicas) e Semiologia Clínica (cap. 8) os organiza pelas indicações do exame: fundo de olho é rotina em **diabéticos e hipertensos**, é avaliação complementar importante em pacientes com **HIV, sífilis e colagenoses**, entra na investigação de quem se queixa de **perda visual** e, no pronto atendimento, **faz parte do exame neurológico**.\n\nOs achados que sustentam cada uma dessas indicações, ainda no nível de \"o que se procura\" (Semiologia Clínica):\n\n- **retinopatia hipertensiva**, o cruzamento arteriovenoso patológico, ou **sinal de Gunn**, em que a artéria espessada comprime a veia: no começo a veia apenas se estreita; adiante, parece interrompida e ingurgitada. Junto vem o brilho arterial acentuado, as chamadas **arteríolas em fios de cobre**;\n- **retinopatia diabética**: **microaneurismas**, que aparecem como pontos vermelhos diminutos, redondos ou irregulares; lesões avermelhadas arredondadas e irregulares vizinhas aos vasos; e os **exsudatos**, duros ou algodonosos, que correspondem a isquemia e a depósito de lipídios;\n- **hemorragias retinianas superficiais**, avermelhadas e estriadas, que a hipertensão arterial grave, o papiledema e a trombose da veia central da retina podem produzir.\n\nPorto (*Semiologia Médica*, cap. 174) faz a mesma leitura no paciente comatoso, e ela serve de resumo do que o exame rende ali: retinopatia hipertensiva, retinopatia diabética, hemorragias da retina, hemorragias sub-hialóideas e papiledema apontam, cada um, para uma etiologia diferente do coma.\n\nUma nota de reprodutibilidade fecha o assunto, e justifica a fronteira que este tópico traçou. Na Tabela 5.1 de McGee, os achados da retinopatia diabética concordam entre observadores de forma muito desigual: **hemorragias intrarretinianas, 0,89**; exsudatos duros, 0,66 a 0,74; microaneurismas, 0,58 a 0,66; manchas algodonosas, 0,56 a 0,67; e, no outro extremo, **neovascularização junto ao disco, 0,21 a 0,48**, e **edema macular, 0,21 a 0,67**, com grau global de 0,65. Mesmo entre examinadores treinados, parte do que se vê no fundo de olho é pouco reprodutível: mais um argumento para que a técnica e a graduação fina fiquem com quem as pratica todo dia.\n\nHá uma ressalva de segurança que atravessa este tópico e o de marcha e sinais meníngeos: a suspeita de hipertensão intracraniana muda a ordem do exame e a urgência da investigação. Nenhum achado de fundo de olho isolado autoriza ou proíbe conduta, mas encontrar papiledema em um paciente com cefaleia que mudou de caráter é um achado que não espera.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Edema de papila (papiledema)",
+         "descricao": "Ao fundo de olho, **borramento do contorno da papila óptica**. Na sequência da hipertensão intracraniana: o pulso venoso desaparece, as veias ficam túrgidas, instala-se a estase da papila, surgem focos hemorrágicos e, por fim, a papila atrofia.\n",
+         "significado": "Traduz **hipertensão intracraniana** (e, na leitura de Porto, também inflamação do próprio nervo), e é **alarme que não espera**, sobretudo com cefaleia que mudou de caráter. Três ressalvas mudam a conduta: é frequente mas **não obrigatório** nas fases iniciais; é excepcionalmente unilateral; e pode ser intenso **sem prejuízo inicial da acuidade visual**: um paciente que enxerga bem não está protegido.\n",
+         "causas": [
+          "Hipertensão intracraniana (massa, hemorragia, hidrocefalia, trombose venosa cerebral)",
+          "Inflamação do próprio nervo óptico"
+         ]
         },
         {
          "tipo": "secao",
@@ -19615,6 +20362,25 @@
          "tipo": "conceito",
          "titulo": "A raiz vestibular sem aparelho nenhum",
          "texto": "Porto é explícito quanto ao alcance do exame neurológico de rotina: o VIII par é objeto da neuro-otologia, que dispõe de aparelhagem própria, e o clínico faz **uma exploração simplificada** das duas raízes. Simplificada não quer dizer inútil: quer dizer que se examinam quatro coisas, e todas sem equipamento.\n\n**1. Nistagmo.** O vocabulário está no tópico de pares cranianos de I a VI: movimentos ritmados com um componente lento e um rápido, nomeados pela direção do componente rápido, nos planos horizontal, vertical, rotatório ou misto, espontâneos ou provocados. Aqui vale a advertência que evita falso-positivo: **um pequeno abalo no olhar lateral extremo existe em muita gente normal**, procure o nistagmo antes de chegar ao extremo do olhar.\n\n**2. Desvio postural.** Porto descreve a manobra: paciente de pé ou sentado, olhos fechados, braços estendidos à frente e elevados até formarem ângulo reto com o tronco. Havendo lesão vestibular, **os braços se desviam para o lado do labirinto comprometido**, e o tronco pende na mesma direção. Semiologia Clínica descreve a mesma manobra dentro do exame do equilíbrio estático e acrescenta o contraste que a torna útil: na **lesão vestibular** desviam-se **os dois membros superiores** para o lado lesado; na **lesão cerebelar**, o desvio é apenas do membro **do mesmo lado** da lesão.\n\n**3. Equilíbrio estático.** O paciente de pé, descalço, com os pés juntos e paralelos, primeiro de olhos abertos e depois fechados. O detalhamento da prova de Romberg, o que ela testa e o que ela não testa, pertence ao tópico de sensibilidade e coordenação, neste mesmo capítulo. O que interessa aqui é a característica do desvio vestibular, que Porto registra: **sempre para o mesmo lado, depois de um pequeno período de latência**, ao contrário do desvio por perda proprioceptiva, que ocorre para qualquer lado e imediatamente.\n\n**4. Marcha e desvio lateral.** Porto descreve a lateropulsão para o lado da lesão e a marcha em estrela; Semiologia Clínica descreve a **manobra de Fukuda**, marchar sem sair do lugar, que evidencia o desvio para o lado lesado nas vestibulopatias. As marchas com nome, incluindo esta, são o tópico de marcha e sinais meníngeos.\n\n**O reflexo oculovestibular sem aparelho.** Semiologia Clínica descreve a **manobra de Halmagyi**: gira-se rapidamente a cabeça do paciente cerca de 20 a 30 graus, pedindo que ele mantenha o olhar em um ponto fixo. Havendo déficit vestibular, **o olho é arrastado junto com a cabeça e só depois retorna ao alvo**: a correção que denuncia o reflexo insuficiente. Ela é ensinada aqui porque não exige equipamento; McGee a examina em detalhe, com números, no bloco de aprofundamento.\n\n**A moldura.** As **provas calórica e rotatória** (estimular os labirintos com água quente e fria, ou usar cadeira giratória) são realizadas em gabinete de neuro-otologia porque requerem equipamento especializado (Porto), e ficam fora deste guia, assim como as manobras posicionais.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Teste do impulso cefálico (manobra de Halmagyi)",
+         "descricao": "O examinador segura a cabeça do paciente, pede que ele **fixe o olhar em um ponto** (o nariz do examinador) e **gira rapidamente a cabeça cerca de 20 a 30 graus**. Com déficit vestibular, **o olho é arrastado junto com a cabeça e só depois retorna ao alvo**: a sacada corretiva.\n",
+         "significado": "Na vertigem aguda, a leitura é **invertida e decisiva**: sacada corretiva presente fala de doença **periférica** (o reflexo vestíbulo-ocular falhou); teste **normal** em paciente genuinamente vertiginoso aponta para o **centro**, e eleva muito a probabilidade de acidente vascular. Vale para **vertigem aguda isolada**, não para tontura de qualquer natureza.\n",
+         "causas": [
+          "Sacada corretiva presente: vestibulopatia periférica",
+          "Teste normal com vertigem aguda persistente: suspeitar de causa central (acidente vascular)"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Manobra de Fukuda",
+         "descricao": "Pede-se ao paciente que **marche sem sair do lugar**, de preferência com os olhos fechados. Positiva quando o corpo **gira progressivamente para um dos lados** durante a marcha estacionária.\n",
+         "significado": "Evidencia o **desvio para o lado lesado** nas vestibulopatias: o labirinto doente empurra sempre na mesma direção, o mesmo fenômeno que desenha a marcha em estrela e o desvio postural com latência. Achado a somar com vertigem, nistagmo e o teste do impulso cefálico.\n",
+         "causas": [
+          "Vestibulopatia periférica (labirinto ou nervo vestibular)"
+         ]
         },
         {
          "tipo": "pense",
@@ -21346,6 +22112,76 @@
          "tipo": "conceito",
          "titulo": "Lendo a tabela: os detalhes que separam marchas parecidas",
          "texto": "**Ceifante × em tesoura: é a mesma espasticidade, com um lado ou com dois.** Na hemiplegia há excesso de tônus nos **flexores do braço** e nos **extensores da perna**: a distribuição que o tópico de força, tônus e reflexos ensinou como característica da espasticidade, e a perna estendida fica funcionalmente **mais longa** que a sadia. Daí o problema: o paciente precisa livrar do chão um membro grande demais. McGee descreve as duas soluções que ele encontra, e as duas se veem: **inclinar o tronco para o lado sadio**, o que eleva a hemipelve do lado parético, e a **circundução**, em que a ponta do pé traça um semicírculo no chão, indo primeiro para fora e depois para dentro. Porto descreve exatamente o mesmo movimento, e é dele que vem o nome brasileiro: lembra uma foice ceifando.\n\nUm detalhe do ensino clássico que **não se sustentou**: a assimetria do balanço dos braços como sinal de hemiplegia leve. McGee registra que essa assimetria aparece em **11% a 70%** das pessoas normais e que, em um estudo, ela **não detectou** doença cerebral focal com precisão. Vale para desconfiar de um achado bonito e frágil.\n\n**As duas ataxias, e a manobra que as separa.** As duas têm **base alargada** e passos irregulares. A **sensitiva** faz o paciente **olhar para o chão** e arremessar os pés, que batem com força; caminhos lisos e conhecidos incomodam menos que terrenos irregulares. A **cerebelar** faz o paciente colocar os pés ora longe demais, ora perto demais, oscilando e cambaleando em todas as direções, como se estivesse embriagado, e, ao contrário da sensitiva, ela vem acompanhada dos **demais sinais cerebelares**: dismetria, hipotonia, tremor de intenção, disartria e nistagmo. A prova que separa as duas é a de Romberg, ensinada no tópico de sensibilidade e coordenação: positiva na sensitiva, negativa na cerebelar.\n\n**Escarvante: dois sinais, um em cada fase da marcha.** McGee decompõe o pé caído em duas coisas que se percebem separadamente. Na fase de apoio, o **antepé bate no chão** logo depois do calcanhar, sem controle, e, no paciente com pé caído de um lado só, isso produz uma cadência inconfundível de dois sons alternando com um som. Na fase de balanço, o paciente **flete demais o quadril e o joelho** para livrar o pé do chão, o que dá a impressão de que ele está passando por cima de um objeto invisível. É o mesmo passo que Porto compara ao andar dos soldados prussianos.\n\n**Anserina: a marcha que se explica por um sinal.** Porto a descreve pela queda do quadril oposto a cada passo e a atribui à fraqueza dos músculos da cintura pélvica. McGee explica o mecanismo e dá nome ao sinal correspondente: os glúteos médio e mínimo **abduzem o quadril**, ação que sustenta a hemipelve oposta durante o apoio em um pé só. Quando falham, a pelve do lado oposto **cai demais**: a marcha de Trendelenburg. Quando o problema é bilateral, a pelve ginga dos dois lados, e daí a comparação com o pato.\n\nE há um sinal de consultório que testa isso em segundos, o **sinal de Trendelenburg**, descrito em 1895: pede-se ao paciente que fique de pé sobre uma perna, com o outro quadril fletido a 90 graus. Com abdutores normais, a nádega do lado oposto **sobe**; com abdutores fracos, ela **cai**. É preciso lembrar que **o lado testado é o que suporta o peso**, e não o que está no ar: a fonte mais comum de erro. Deformidades importantes do membro, como um genu varum grave, podem produzir falso-positivo.\n\n**Claudicante e antálgica.** Toda marcha antálgica tem uma marca comum: o **passo contralateral curto**, porque o paciente sai depressa da perna dolorida e pisa rápido na sadia, e o resultado é uma cadência desigual idêntica à de quem anda com uma pedra no sapato (McGee). Onde dói muda o desenho: na dor do **pé**, o paciente apoia só o calcanhar, só o antepé ou só a borda lateral; na dor do **joelho**, o joelho fica rígido, sem estender nem fletir completamente; na dor do **quadril**, aparece o achado mais característico, o **desvio lateral do tronco** sobre o lado que está apoiando, com o braço daquele lado se afastando do corpo. Esse desvio tem uma explicação mecânica bonita: ele equilibra o centro de gravidade sobre o quadril doente e evita a ativação dos abdutores, que, quando contraem, podem exercer uma pressão enorme sobre a cabeça femoral.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Marcha antálgica (claudicante)",
+         "descricao": "O paciente manca: a perna doente toca o chão com menos força e o **passo contralateral é curto**, porque ele sai depressa da perna dolorida e pisa rápido na sadia, numa cadência desigual de quem anda **com uma pedra no sapato**.\n",
+         "significado": "Onde dói muda o desenho: na dor do **pé**, o apoio se faz só no calcanhar, no antepé ou na borda lateral; na do **joelho**, o joelho vai rígido; na do **quadril**, aparece o achado mais característico, o **desvio lateral do tronco sobre o lado apoiado**, que poupa os abdutores e alivia a pressão sobre a cabeça femoral.\n",
+         "causas": [
+          "Dor articular, muscular ou óssea do membro inferior",
+          "Insuficiência arterial periférica",
+          "Estenose do canal lombar"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Marcha vestibular (em estrela)",
+         "descricao": "**Lateropulsão para o lado da lesão**; caminhando de frente e voltando de costas com os **olhos fechados**, o desvio sistemático faz o trajeto **desenhar uma estrela**.\n",
+         "significado": "O labirinto lesado empurra sempre para o mesmo lado: é o mesmo desvio que a manobra de Fukuda (marchar sem sair do lugar) evidencia, e que no equilíbrio estático aparece após um período de latência, sempre para o mesmo lado. Procure os companheiros vestibulares: vertigem e nistagmo.\n",
+         "causas": [
+          "Lesão vestibular (labirinto ou nervo vestibular)"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Marcha em tesoura",
+         "descricao": "Membros inferiores **enrijecidos e semifletidos**, pés que se arrastam e **pernas que se cruzam uma à frente da outra** a cada passo, como lâminas de uma tesoura.\n",
+         "significado": "É a **espasticidade bilateral**, de origem medular ou encefálica: a mesma hipertonia da marcha ceifante, agora dos dois lados. Ceifante e em tesoura são a mesma doença de tônus contada com um ou com dois hemicorpos.\n",
+         "causas": [
+          "Espasticidade bilateral de origem medular (mielopatias)",
+          "Espasticidade bilateral de origem encefálica (paralisia cerebral, lesões bilaterais)"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Marcha anserina (do pato)",
+         "descricao": "A cada passo, o **quadril do lado que está no ar cai**; o paciente **acentua a lordose** e inclina o tronco alternadamente para os dois lados, gingando como um pato.\n",
+         "significado": "É a marcha da **fraqueza da cintura pélvica**: os glúteos médio e mínimo, que sustentam a hemipelve oposta no apoio em um pé só, falham dos dois lados. A versão unilateral é a marcha de Trendelenburg, e a manobra de Trendelenburg do quadril testa o mecanismo em segundos.\n",
+         "causas": [
+          "Miopatias com fraqueza proximal (distrofias musculares)",
+          "Fraqueza bilateral dos abdutores do quadril"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Marcha escarvante",
+         "descricao": "O **pé cai e a ponta tropeça**; o paciente **eleva muito o quadril e o joelho** para livrar o pé do chão, como quem passa por cima de um objeto invisível, e o **antepé bate no solo** depois do calcanhar. No pé caído unilateral, a cadência soa como dois sons alternando com um.\n",
+         "significado": "É a marcha da **fraqueza dos dorsiflexores do pé**: o pé caído. Os dois sinais se veem em fases diferentes do passo: o tapa do antepé na fase de apoio, a flexão exagerada do joelho na fase de balanço.\n",
+         "causas": [
+          "Lesão do nervo fibular",
+          "Radiculopatia de L5",
+          "Polineuropatias com fraqueza distal"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Marcha atáxica cerebelar (do ébrio)",
+         "descricao": "Base alargada, passos **irregulares e desiguais**, os pés ora longe demais, ora perto demais, com **oscilação e cambaleio em todas as direções**, como um embriagado.\n",
+         "significado": "Ao contrário da ataxia sensitiva, **não piora de forma marcante ao fechar os olhos** (Romberg negativa) e vem acompanhada dos **demais sinais cerebelares**: dismetria, hipotonia, tremor de intenção, disartria e nistagmo. Marcha atáxica sem nenhum outro sinal cerebelar pede que se reexamine a proposta.\n",
+         "causas": [
+          "Lesão cerebelar (vascular, tumoral, degenerativa, tóxica)"
+         ]
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Marcha talonante (atáxica sensitiva)",
+         "descricao": "Base alargada e **olhar fixo no chão**; os pés são **arremessados para diante** e os **calcanhares batem com força no solo**. **Piora muito de olhos fechados** e em terrenos irregulares.\n",
+         "significado": "É a marcha da **perda proprioceptiva**: sem saber onde estão os pés, o paciente substitui a propriocepção pela visão, e por isso fechar os olhos desmonta a marcha. A prova que a separa da ataxia cerebelar é a de **Romberg: positiva na sensitiva, negativa na cerebelar**.\n",
+         "causas": [
+          "Lesão do cordão posterior da medula",
+          "Neuropatia periférica com perda proprioceptiva"
+         ]
         },
         {
          "tipo": "conceito",
@@ -23951,6 +24787,16 @@
          "tipo": "conceito",
          "titulo": "Os reflexos próprios do recém-nascido: o adiamento decidido",
          "texto": "O tópico de força, tônus e reflexos deixou o exame motor do recém-nascido \"fora deste guia\", sem prometer fase. A auditoria do capítulo 179 decidiu a contingência em duas partes. **O que a obra dá em nível de exame clínico geral, o guia ensina aqui:**\n\n- **Reflexo de Moro**: o da Figura 179.2: deflagrado por um som mais intenso ou por movimentação súbita do recém-nascido, faz a coluna arquear-se para trás e os braços e mãos se abrirem, **como num abraço**. Deve estar ativo no recém-nascido, e segue observável **até o 5º ou 6º mês**.\n- **Preensão palmar**, **braçada** e **passada** (a marcha reflexa): os demais reflexos primitivos que a obra manda pesquisar, junto com o **tônus cervical**.\n- **O repertório postural esperado:** até a 4ª semana, atitude fletida, cabeça que gira de um lado a outro em decúbito ventral e que pende quando o bebê é suspenso na posição ventral; em decúbito dorsal, flexão com alguma rigidez, olhar que fixa faces ou luz na linha de visão, o fenômeno dos **olhos de boneca** ao virar o corpo, e a **preferência visual pela face humana**.\n- **Uma regra de interpretação** que vale ouro: hipertonias, hipotonias, movimentos anormais e os reflexos tendinosos e cutâneo-plantar devem ser lidos **no contexto geral do exame**, isolados, nessa idade, **não fecham diagnóstico nem definem conduta**.\n\n**O que continua fora, agora com motivo declarado:** a semiotécnica especializada do exame motor neonatal e da criança pequena, os ângulos, as provas de tônus do especialista, as escalas de avaliação neurológica do lactente, não é descrita pelas quatro obras adotadas, e o guia não a inventa. O mesmo vale para a **marcha da criança pequena**, que o tópico de marchas deixou de fora: as fontes deste guia não a descrevem, e o registro honesto é esse. O que era promessa vaga vira fronteira nomeada.\n"
+        },
+        {
+         "tipo": "sinal",
+         "nome": "Reflexo de Moro",
+         "descricao": "Deflagrado por um **som mais intenso ou pela movimentação súbita** do recém-nascido: a coluna **arqueia-se para trás** e os braços e mãos **se abrem, como num abraço**.\n",
+         "significado": "Reflexo primitivo que **deve estar ativo no recém-nascido** e segue observável **até o 5º ou 6º mês**: não encontrá-lo depois disso é o curso natural, não um alarme. A regra de interpretação vale ouro: nessa idade, reflexos e tônus se leem **no contexto do conjunto**, nunca por achado isolado; um Moro **pobre** entra, por exemplo, no conjunto de achados da síndrome de Down ao nascimento.\n",
+         "causas": [
+          "Ausente ou pobre no recém-nascido: avaliar o conjunto neurológico (tônus, postura, demais reflexos primitivos)",
+          "Ausente após os 5 a 6 meses: involução fisiológica esperada"
+         ]
         },
         {
          "tipo": "perola",

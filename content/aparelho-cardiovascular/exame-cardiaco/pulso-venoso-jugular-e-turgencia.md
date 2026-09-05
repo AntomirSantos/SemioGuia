@@ -195,6 +195,19 @@ texto: |
   - **O examinador tende a subestimar.** A distância vertical entre o ângulo esternal e o átrio direito muda com a posição: é maior no decúbito dorsal e menor na posição semissentada. Como as pressões altas só são visíveis em posições mais verticalizadas, o método pode devolver um valor normal em pacientes com pressão discretamente elevada.
 :::
 
+::: sinal
+nome: Turgência jugular
+descricao: |
+  As veias jugulares **continuam cheias com o dorso a cerca de 45 graus do leito, ou com o paciente sentado**: a coluna venosa para acima do ponto esperado, mais de 3 cm acima do ângulo esternal pelo método de Lewis.
+significado: |
+  O pescoço é o manômetro de pressão venosa que todo paciente traz: turgência é **hipertensão venosa no território da cava superior**. Em quem tem edema ou ascite, é o dado que **separa o coração do fígado**: pressão venosa elevada aponta causa cardíaca ou pulmonar; na doença hepática crônica a pressão venosa central é normal. Lembre que o examinador tende a **subestimar**.
+causas:
+  - "Insuficiência cardíaca e outras causas cardíacas de hipertensão venosa"
+  - "Causas pulmonares (hipertensão pulmonar, cor pulmonale)"
+  - "Tamponamento e constrição pericárdica"
+  - "Obstrução da veia cava superior"
+:::
+
 ::: entendimento
 titulo: Por que 45° não é uma regra
 texto: |

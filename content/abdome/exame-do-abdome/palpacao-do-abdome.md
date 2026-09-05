@@ -112,6 +112,17 @@ observar: |
   Se a parede permanecer contraída apesar da boa técnica, tente desviar a atenção do paciente: converse sobre outro assunto, peça que respire fundo, peça que flexione as pernas. Porto descreve ainda a manobra de Galambos: comprimir outra região do abdome enquanto se palpa a região desejada. A contração que cede a esses artifícios é voluntária; a que não cede pede outra leitura.
 :::
 
+::: sinal
+nome: Manobra de Galambos
+descricao: |
+  Diante de uma parede abdominal que permanece contraída, **comprime-se outra região do abdome enquanto se palpa a região desejada**.
+significado: |
+  É um artifício de distração que separa as duas contraturas: **a contração que cede é voluntária** (psicomotora, do paciente tenso); **a que não cede é defesa**, o reflexo visceromotor do peritônio inflamado, e pede outra leitura. Vale ao lado dos truques vizinhos: conversar, pedir respiração funda, fletir as pernas.
+causas:
+  - "Contração voluntária (psicomotora): cede à manobra"
+  - "Defesa abdominal por irritação peritoneal: não cede"
+:::
+
 ::: checklist
 titulo: Palpação do abdome em 10 passos
 itens:
@@ -353,6 +364,18 @@ texto: |
   Em contraste, em pacientes **ictéricos** o fígado palpável e a dor hepática não distinguem icterícia hepatocelular de obstrutiva, e em pacientes com **adenomegalia** o fígado palpável não separa doença grave de quadro benigno autolimitado.
 :::
 
+::: sinal
+nome: Borda hepática palpável
+descricao: |
+  A borda do fígado vem ao encontro dos dedos **abaixo do rebordo costal direito**, na inspiração, durante a palpação pela linha hemiclavicular.
+significado: |
+  Quando o examinador acredita ter palpado a borda, **quase sempre ela está mesmo ali**: o achado confirma a própria existência com enorme segurança. O que ele **não** confirma é hepatomegalia: pessoas magras e visceroptóticas têm fígado palpável sem aumento, cerca de metade dos fígados que descem abaixo do rebordo não é palpável, e a borda palpável quase não move a probabilidade de aumento real. **Interprete junto com o limite superior percutido**, e lembre: não palpar não autoriza concluir que o fígado não está aumentado.
+causas:
+  - "Hepatomegalia (congestão, esteatose, infiltração, tumores)"
+  - "Fígado normal palpável em magros e visceroptóticos"
+  - "Rebaixamento do diafragma (hiperinsuflação pulmonar)"
+:::
+
 ::: conceito
 titulo: O baço palpável em cinco contextos
 nivel: avancado
@@ -375,6 +398,19 @@ texto: |
   - **Adenomegalia periférica**, sem valor: o baço palpável aparece com a mesma frequência nas doenças graves e nos quadros benignos.
 
   Porto acrescenta o desfecho hematológico que costuma acompanhar o achado: qualquer que seja a etiologia, o baço aumentado pode causar anemia, leucopenia e trombocitopenia, o **hiperesplenismo**, seletivo quando atinge uma só série, global quando há pancitopenia.
+:::
+
+::: sinal
+nome: Baço palpável (esplenomegalia)
+descricao: |
+  O polo do baço torna-se palpável **abaixo do rebordo costal esquerdo**, em decúbito dorsal ou na posição de Schuster. Para a ponta aparecer abaixo do rebordo, o órgão precisa **dobrar de tamanho**.
+significado: |
+  Excluída a ptose esplênica, **palpar o baço significa esplenomegalia**: é dos poucos achados abdominais que confirmam bem o que procuram; a ausência, porém, reduz pouco. Achados associados escolhem a causa: **adenomegalia** praticamente exclui a origem hepática; **fígado palpável** aponta para ela; baço que alcança o umbigo fala de doença hematológica.
+causas:
+  - "Doença hepática com hipertensão portal"
+  - "Distúrbios hematológicos"
+  - "Doenças infecciosas (malária no viajante febril)"
+  - "Afecções primárias do baço"
 :::
 
 ::: sinal
