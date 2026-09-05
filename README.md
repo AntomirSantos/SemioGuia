@@ -26,12 +26,12 @@ como "Revisado" no app.
 |---|---|
 | Sistemas | **12** (Anamnese → Semiologia da criança, ordem craniocaudal) |
 | Tópicos | **55**: todos revisados (triagem de literatura craniocaudal concluída) |
-| Casos clínicos interativos | **3** |
+| Casos clínicos interativos | **12** (um por sistema, ramificados) |
 | Questões de quiz | **327** (balanceadas por índice e comprimento) |
 | Checklists OSCE | **53** (viram estações de prática) |
 | Ilustrações SVG | **59** (temáveis via `currentColor`, geometria verificada; cobertura em `npm run relatorio:ilustracoes`) |
-| Sons de ausculta | **20** (17 sintetizados por script + 3 gravações clínicas reais CC BY 4.0) |
-| Testes | **60 suítes / 455 testes** verdes |
+| Sons de ausculta | **20** (15 sintetizados por script + 5 gravações clínicas reais CC BY 4.0), com fonocardiograma sincronizado no player |
+| Testes | **61 suítes / 460 testes** verdes |
 
 ## Stack
 
@@ -82,9 +82,10 @@ npm run checar:travessao`, toda RV em prosa precisa da
   instantânea, destaques em negrito e o salto ao tópico de origem
 - **Checklists de exame** (aba própria): os 53 roteiros do guia, mais o exame completo da cabeça aos pés com relatório do que faltou,
   organizados por sistema, com itens marcáveis para conferir o que faltou
-- **Estudar**: quiz por sistema, revisão espaçada do dia (SM-2),
-  estações OSCE geradas dos checklists e os 3 casos clínicos ramificados
-- **Perfil**: progresso, data da prova, preferências, tema claro/escuro,
+- **Estudar**: quiz por sistema, revisão espaçada do dia (SM-2) com
+  flashcards dos 186 sinais do plantão, estações OSCE geradas dos
+  checklists e 12 casos clínicos ramificados (um por sistema)
+- **Perfil**: progresso, data da prova, bibliografia do guia, preferências, tema claro/escuro,
   exportação dos dados de uso, feedback, versão do app e conta (atrás da
   flag de sync)
 
@@ -125,9 +126,11 @@ npm install
 npm run build:content   # compila o conteúdo (YAML/MD → JSON)
 npx expo start          # i = iOS, a = Android, w = web
 
-npm test                # 58 suítes / 439 testes
+npm test                # 61 suítes / 460 testes
 npm run checar:contraste
 npm run checar:rv
+npm run checar:travessao
+npm run checar:fontes
 npx tsc --noEmit
 ```
 

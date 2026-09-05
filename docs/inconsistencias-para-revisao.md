@@ -776,3 +776,80 @@ corrigidos juntos, e ambos agora registram a divergência interna da obra em
 vez de silenciá-la. Se preferir manter a letra do parágrafo original da
 fonte, é reverter dois trechos; a recomendação editorial é manter a
 correção.
+
+## Complemento (v1.2.24): lote aprovado do produto + reforma editorial "sem fontes no corpo", para endosso do autor
+
+Registro do que entrou nesta versão e das decisões que pedem o seu olhar.
+
+### 1. Reforma editorial: as obras saem da prosa (decisão sua, 2026-09-05)
+
+- Todo o corpo dos 55 tópicos e dos casos deixou de citar as obras de
+  referência (McGee, Porto, Semiologia Médica, Exame Clínico, Semiologia
+  Clínica), seus capítulos, tabelas, figuras, quadros e boxes: o texto
+  agora afirma diretamente.
+- O frontmatter `referencias` de cada arquivo permanece intacto como
+  trilha de auditoria, e a bibliografia simplificada vive na aba Perfil.
+- Um gate novo (`npm run checar:travessao` ganhou o irmão
+  `npm run checar:fontes`) vigia a regra: qualquer menção reintroduzida
+  no corpo quebra a checagem.
+- Toda divergência entre as obras foi PRESERVADA, apenas anonimizada
+  ("as referências divergem: ...; este guia adota ..."): nenhum lado foi
+  descartado, nenhum número sumiu. Exemplos que valem conferência:
+  sinal das pontas (coluna), rotação do quadril em extensão, amplitudes
+  do tornozelo, crepitação óssea (princípios), gesto do Yergason e do
+  Finkelstein, livedo (vascular).
+- Nomes históricos e epônimos ficaram (Neer, Thompson, Lewis, Cyriax,
+  McBurney, von Graefe, Jendrassik etc.): o que saiu foi a obra como
+  fonte, não a história.
+
+### 2. Nove casos clínicos novos (total: 12, um por sistema), todos `revisao: pendente`
+
+Cada caso é ramificado (cena, decisões com feedback, desfechos ótimo,
+aceitável e dano) e ancorado nos números dos próprios tópicos:
+
+- **A base que parou de falar** (respiratório): derrame × consolidação
+  pelos quatro tempos comparados; RVs 5,2 / 6,5 do murmúrio e da
+  ressonância vocal.
+- **A dor que caminhou até a fossa direita** (abdome): apendicite,
+  mito da analgesia, descompressão brusca criticada, Alvarado.
+- **Febre, cefaleia e uma nuca que não dobra** (nervoso): meningite,
+  técnica explícita da rigidez de nuca, "ausência dos sinais não afasta",
+  primeira dose sem espera.
+- **A perna que esfriou às três da tarde** (vascular): isquemia aguda,
+  dor fraca do claudicante, pulso transmitido, janela de 4 a 6 horas.
+- **O joelho do futebol de sábado** (osteoarticular): Ottawa negativa
+  dispensa raio X (0,1), tempo do inchaço, Lachman 19,5/0,2.
+- **O caroço que subiu com o gole** (cabeça e pescoço): deglutição como
+  triagem, tríade do carcinoma (RVs 7 a 18) pouco sensível, PAAF decide.
+- **A dor que acordou o menino às 3 da manhã** (geniturinário): torção,
+  Brunzel/Angell, cremastérico abolido, Prehn, suspeita alta não espera
+  Doppler indisponível.
+- **Quieta demais no leito 8** (psíquico): delirium hipoativo, linha de
+  base da família, CAM (12,7/0,2), caça ao precipitante.
+- **A consulta dos dezoito segundos** (anamnese): abertura sem
+  interrupção, silêncio com o paciente emocionado, agenda oculta.
+
+### 3. Sons reais: estertores finos e grossos agora são gravações (HF_Lung_V1, CC BY 4.0)
+
+- O rótulo do dataset é único (D, descontínuos); a separação finos ×
+  grossos foi curadoria nossa por triagem espectral dos 368 arquivos
+  rotulados: centroide ~714 Hz com ~6,6 transientes/s em chuva
+  teleinspiratória (finos) contra ~294 Hz com ~2,1 transientes/s
+  esparsos (grossos). A decisão está declarada em assets/sons/LICENCAS.md.
+- O estridor PERMANECE sintetizado: a nova triagem achou candidatos
+  reais com picos tonais de 144 a 383 Hz, abaixo dos "em torno de
+  400 Hz" que o texto ensina; trocar desmentiria o tópico. Divergência
+  registrada em LICENCAS.md; se preferir a gravação real com nota no
+  texto, é um comando.
+- Sons cardíacos reais continuam pendentes da sua máquina (PhysioNet
+  bloqueado no ambiente remoto); candidatos e passos em LICENCAS.md.
+
+### 4. Flashcards e fonocardiograma
+
+- A revisão espaçada agora inclui os 186 sinais do plantão como
+  flashcards SM-2 (frente: o achado; verso: significado e próximo
+  passo), semeados ao marcar o tópico como estudado e retro-semeados
+  para quem já estudou.
+- O player de ausculta ganhou um fonocardiograma: o envelope do som em
+  96 barras, com o trecho já tocado tingido, ligando o que se ouve
+  (B1/B2, sopros, estertores) ao que se vê.
