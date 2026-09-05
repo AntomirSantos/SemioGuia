@@ -68,20 +68,20 @@ texto: |
 
   **O que este tópico ensina:** a anamnese feita por interposta pessoa e suas armadilhas; os segmentos que só a anamnese pediátrica tem; o exame físico oportunista, a ordem que se curva ao choro; e o profissionalismo como conteúdo: quem consente, quem assente, e o que muda quando o paciente é adolescente. O crescimento, os sinais vitais e a hidratação são o tópico seguinte; o exame por fases etárias, do recém-nascido aos estágios de Tanner, fecha o capítulo.
 
-  **Onde estão os números deste capítulo.** McGee não tem capítulo nem seção sistemática de semiologia pediátrica: a auditoria das obras confirmou o silêncio, e este capítulo o declara em vez de disfarçá-lo, como o guia já fez com o exame ginecológico e o psíquico. O que há de quantificado vem das obras brasileiras: as faixas etárias, as frequências por idade (no próximo tópico) e uns poucos marcos com idade definida, sempre atribuídos.
+  **Onde estão os números deste capítulo.** Não há, entre as referências deste guia, capítulo nem seção sistemática de semiologia pediátrica com razões de verossimilhança: a auditoria confirmou o silêncio, e este capítulo o declara em vez de disfarçá-lo, como o guia já fez com o exame ginecológico e o psíquico. O que há de quantificado vem das referências deste guia: as faixas etárias, as frequências por idade (no próximo tópico) e uns poucos marcos com idade definida, sempre atribuídos.
 :::
 
 ::: conceito
 titulo: A anamnese por interposta pessoa, e suas armadilhas
 texto: |
-  A *Semiologia Médica* dedica à anamnese pediátrica uma seção do capítulo geral de anamnese, e as armadilhas que lista valem decorar:
+  A anamnese pediátrica tem armadilhas próprias, e valem decorar:
 
   - **Interpretar não é relatar.** Pais (e avós, principalmente) tendem a entregar conclusões em vez de observações. O recém-nascido chora mais que o habitual e a família já traduz: "está com dor de ouvido", a partir de indícios frágeis ou de pura suposição. O capítulo 179 dá o exemplo clássico na direção oposta: a mãe relata que o bebê está "com dor"; posto ao seio, ele mama, sacia-se e dorme (a queixa era fome. O examinador recebe a interpretação, agradece) e volta ao dado bruto: o que exatamente a criança fez, quando, por quanto tempo.
   - **A anamnese é totalmente dirigida.** Não existe relato espontâneo da criança pequena; cada informação precisa ser perguntada. Isso cobra método: o interrogatório por sistemas do recém-nascido, no capítulo 179, pergunta ativamente pelo sono (o recém-nascido dorme cerca de 16,5 horas por dia na primeira semana, 15,5 ao fim do primeiro mês), pela amamentação, pelas características das fezes e dos vômitos, pelo número de micções no dia, e, no menino, pela força do jato urinário: jato fraco e curto levanta a possibilidade de válvula de uretra posterior.
-  - **Não interrompa.** O boxe do capítulo 179 cita a observação de Groopman (2008): o tempo médio entre o médico perguntar aos pais o que está acontecendo e atropelá-los com a pergunta seguinte é de **18 segundos**, e informações importantes viriam depois, se o relato pudesse continuar.
-  - **A criança também fala.** A partir dos **3 a 4 anos de idade**, o capítulo 179 manda estabelecer diálogo com a própria criança durante a consulta. Ela deixa progressivamente de ser só o assunto da conversa. Um marco ajuda a calibrar a expectativa: aos 2 anos, cerca de metade da fala da criança deve ser inteligível; aos 4, quase toda, e o *Exame Clínico* lembra que a **dislalia fisiológica**, a troca ou supressão de sílabas e letras ("potão" por portão), é normal até os 4 anos.
+  - **Não interrompa.** A observação de Groopman (2008): o tempo médio entre o médico perguntar aos pais o que está acontecendo e atropelá-los com a pergunta seguinte é de **18 segundos**, e informações importantes viriam depois, se o relato pudesse continuar.
+  - **A criança também fala.** A partir dos **3 a 4 anos de idade**, vale estabelecer diálogo com a própria criança durante a consulta. Ela deixa progressivamente de ser só o assunto da conversa. Um marco ajuda a calibrar a expectativa: aos 2 anos, cerca de metade da fala da criança deve ser inteligível; aos 4, quase toda, e vale lembrar que a **dislalia fisiológica**, a troca ou supressão de sílabas e letras ("potão" por portão), é normal até os 4 anos.
 
-  Enquanto o informante fala, o exame já começou: o comportamento da mãe, os vínculos que a cena revela entre ela e a criança, a linguagem gestual dos dois, tudo, diz Porto, deve ser motivo da atenção do médico.
+  Enquanto o informante fala, o exame já começou: o comportamento da mãe, os vínculos que a cena revela entre ela e a criança, a linguagem gestual dos dois, tudo isso deve ser motivo da atenção do médico.
 :::
 
 ::: conceito
@@ -91,15 +91,15 @@ texto: |
 
   - **Gestação:** duração (pré ou pós-termo), intercorrências como diabetes gestacional e infecção urinária próxima ao parto, via de parto, os exames da gestante (toxoplasmose, hepatites B e C, HIV, HTLV, citomegalovírus, sífilis, rubéola) alterações fetais à ultrassonografia e o tipo sanguíneo materno ABO-Rh.
   - **Parto e período neonatal:** intercorrências (aspiração de mecônio, trabalho de parto prolongado), o **índice de Apgar registrado na Caderneta de Saúde da Criança**, choro ao nascer, necessidade de reanimação ou oxigênio, passagem por terapia intensiva (peça o relatório), icterícia, peso, estatura e idade gestacional ao nascimento.
-  - **Alimentação:** se está em aleitamento materno exclusivo, que Porto registra como a melhor opção até o sexto mês de vida; se desmamou, o motivo; se usa outro leite, qual, como é diluído, preparado e oferecido. As condutas de puericultura ficam fora deste guia; a pergunta, não.
+  - **Alimentação:** se está em aleitamento materno exclusivo, a melhor opção até o sexto mês de vida; se desmamou, o motivo; se usa outro leite, qual, como é diluído, preparado e oferecido. As condutas de puericultura ficam fora deste guia; a pergunta, não.
   - **Vacinação:** verifica-se **na Caderneta de Saúde da Criança**, contra o Calendário Nacional de Imunizações, que o capítulo 179 reproduz e este guia trata como **moldura nomeada**: o calendário muda com os anos (a própria obra registra mudanças recentes de esquema), e decorá-lo aqui envelheceria o tópico sem ensinar semiologia. O gesto clínico é abrir a caderneta em toda consulta.
-  - **Desenvolvimento neuropsicomotor:** a abordagem do capítulo 179 começa com uma pergunta aberta (*"o que ele está fazendo atualmente?"*) e compara a resposta com uma escala de padrões; a obra cita a tabela do Ministério da Saúde (2002) para essa avaliação, outra moldura nomeada. Na criança maior, o desempenho escolar vira o termômetro do desenvolvimento. Os marcos com idade que Porto fornece na anamnese geral já moram no tópico de antecedentes do sistema Anamnese e não se repetem aqui.
+  - **Desenvolvimento neuropsicomotor:** a abordagem começa com uma pergunta aberta (*"o que ele está fazendo atualmente?"*) e compara a resposta com uma escala de padrões; a tabela do Ministério da Saúde (2002) serve a essa avaliação, outra moldura nomeada. Na criança maior, o desempenho escolar vira o termômetro do desenvolvimento. Os marcos com idade da anamnese geral já moram no tópico de antecedentes do sistema Anamnese e não se repetem aqui.
 
   A anamnese do **lactente** acrescenta o cotidiano: sono, alimentação, funções fisiológicas, prevenção de acidentes domésticos, e, com o mesmo peso, os **laços afetivos**: o que os pais sentem em relação ao filho, como leem o temperamento dele, como reagem ao choro. Nos lactentes maiores, a obra manda procurar a ansiedade de separação e a insegurança diante de estranhos, e explicá-las aos pais, porque são esperadas. No **pré-escolar e escolar** entram o treinamento esfincteriano, o despertar noturno, as triagens sensoriais que verificam as condições para a aprendizagem, a adaptação à escola, os colegas, as notas e o absenteísmo.
 :::
 
 ::: perola
-texto: "Porto observa que, muitas vezes, quem mais precisa de amparo e de compreensão na consulta pediátrica são os pais, não o paciente, sem que a criança perca o lugar de centro da relação. A observação resolve na prática um dilema comum do consultório: acolher a angústia de quem traz a criança não é desviar-se do exame; é parte dele."
+texto: "Muitas vezes, quem mais precisa de amparo e de compreensão na consulta pediátrica são os pais, não o paciente, sem que a criança perca o lugar de centro da relação. Essa observação resolve na prática um dilema comum do consultório: acolher a angústia de quem traz a criança não é desviar-se do exame; é parte dele."
 :::
 
 ::: secao
@@ -183,7 +183,7 @@ passos:
   - "No lactente, examine por decúbitos: esgote o decúbito dorsal antes de virar; na criança maior, proceda por segmentos, como no adulto."
   - "Deixe o desagradável para o fim, anuncie antes o que vai fazer e conclua o exame completo, sem suprimir etapa por vontade dos pais ou da criança."
 observar: |
-  O boxe de avaliação inicial do capítulo 179 dá respaldo de literatura ao "olho clínico" da porta: na revisão sistemática de Van den Bruel et al. (2010), a impressão inicial do estado geral, o instinto clínico sobre a gravidade, foi um dos alertas vermelhos mais importantes para prever evolução grave em crianças. A observação do primeiro minuto não é preâmbulo do exame; é exame.
+  Há respaldo de literatura ao "olho clínico" da porta: na revisão sistemática de Van den Bruel et al. (2010), a impressão inicial do estado geral, o instinto clínico sobre a gravidade, foi um dos alertas vermelhos mais importantes para prever evolução grave em crianças. A observação do primeiro minuto não é preâmbulo do exame; é exame.
 :::
 
 ::: checklist
@@ -205,7 +205,7 @@ itens:
 pergunta: |
   Na consulta pediátrica, que estatuto a mãe (ou o cuidador principal) tem no exame: fonte de informação ou algo mais?
 resposta: |
-  Algo mais: relacionar-se com ela já é examinar a criança. Porto manda observar durante toda a entrevista o comportamento materno e o que ele revela, isso é parte do próprio exame clínico, não cortesia. E a relação é sempre com a família inteira, da qual depende a adesão ao tratamento.
+  Algo mais: relacionar-se com ela já é examinar a criança. Observa-se durante toda a entrevista o comportamento materno e o que ele revela, isso é parte do próprio exame clínico, não cortesia. E a relação é sempre com a família inteira, da qual depende a adesão ao tratamento.
 :::
 
 ::: secao
@@ -217,7 +217,7 @@ titulo: O responsável, a criança e as decisões
 texto: |
   No adulto, o contrato do exame se firma com o próprio paciente. Na criança, ele tem dois lados, e as obras dão a substância de cada um, ainda que sem usar o par de termos consagrado *consentimento/assentimento*, que este guia registra como vocabulário de documentos éticos, não das fontes:
 
-  - **O lado do responsável.** O *Exame Clínico* dá a regra no ponto em que a formula, a autorização da presença de um acompanhante na consulta cabe ao paciente capaz de decidir e, quando ele não o é, ao seu **responsável legal**, e a lógica é a que rege toda decisão da consulta pediátrica: quem responde pela criança é quem a lei designa. E a *Semiologia Médica* acrescenta uma camada que surpreende quem nunca a leu: as **dicas de segurança** que o Conselho Federal de Medicina divulgou diante do número de crianças desaparecidas, pedir a documentação do acompanhante quando não for pai, mãe ou parente próximo, desconfiar de informações desencontradas ou de quem não responde perguntas básicas sobre a criança, e observar se ela demonstra medo, choro ou aparência assustada diante de quem a traz. A semiotécnica, diz a obra, também é instrumento de direitos humanos.
+  - **O lado do responsável.** A regra: a autorização da presença de um acompanhante na consulta cabe ao paciente capaz de decidir e, quando ele não o é, ao seu **responsável legal**, e a lógica é a que rege toda decisão da consulta pediátrica: quem responde pela criança é quem a lei designa. Soma-se uma camada que surpreende quem nunca a leu: as **dicas de segurança** que o Conselho Federal de Medicina divulgou diante do número de crianças desaparecidas, pedir a documentação do acompanhante quando não for pai, mãe ou parente próximo, desconfiar de informações desencontradas ou de quem não responde perguntas básicas sobre a criança, e observar se ela demonstra medo, choro ou aparência assustada diante de quem a traz. A semiotécnica também é instrumento de direitos humanos.
   - **O lado da criança.** Ela não assina nada, mas as fontes lhe dão voz em três pontos: o diálogo direto a partir dos 3 a 4 anos; a **informação prévia** de todo procedimento desagradável; e o limite simétrico, nem os pais nem a criança podem suprimir etapas do exame. Respeito não é negociar o exame; é explicá-lo, adiá-lo para o melhor momento e executá-lo com o mínimo de desconforto.
 
   Um caso particular do capítulo 179 mostra o peso clínico dessa prudência: diante de **genitália de aspecto dúbio** no recém-nascido, não se declara o sexo até a avaliação completa, em alguns casos, só o cariótipo responde. A frase dita no afogadilho da sala de parto pode custar caro; o silêncio técnico, aqui, é a conduta.
@@ -226,17 +226,17 @@ texto: |
 ::: conceito
 titulo: "O adolescente: privacidade como regra, não como concessão"
 texto: |
-  O capítulo 180 transforma a consulta do adolescente em matéria de direito: ele **pode ser atendido sem os pais ou responsáveis no ambiente da consulta**, com privacidade e confidencialidade garantidas, e a confidencialidade gera a obrigação do **sigilo médico**, que a obra ancora no art. 74 do Código de Ética Médica. Semiologia Clínica soma os arts. 7º do ECA e 78 do mesmo Código (o sigilo obriga a equipe inteira, não só o médico) e registra, lado a lado, as duas definições de adolescência que não coincidem: **10 a 19 anos para a OMS, 12 a 18 para o ECA**.
+  A consulta do adolescente é matéria de direito: ele **pode ser atendido sem os pais ou responsáveis no ambiente da consulta**, com privacidade e confidencialidade garantidas, e a confidencialidade gera a obrigação do **sigilo médico**, ancorada no art. 74 do Código de Ética Médica. Somam-se os arts. 7º do ECA e 78 do mesmo Código (o sigilo obriga a equipe inteira, não só o médico), e registram-se, lado a lado, as duas definições de adolescência que não coincidem: **10 a 19 anos para a OMS, 12 a 18 para o ECA**.
 
-  O desenho prático é o mesmo nas duas obras: a consulta em **tempos**, um com a família presente, um **a sós com o adolescente**, e um final com a família de volta para as conclusões; Semiologia Clínica descreve a variante em três etapas praticada no Instituto da Criança e do Adolescente, no HC-FMUSP, acolhimento conjunto que explica a todos as regras do jogo (inclusive quando o sigilo poderá ser quebrado), um momento privado com os pais e a consulta com o jovem. Na etapa a sós, a queixa é recontada **pela perspectiva do adolescente**, que pode coincidir com a da família, complementá-la ou contradizê-la, e cada uma dessas três situações informa.
+  O desenho prático é o mesmo: a consulta em **tempos**, um com a família presente, um **a sós com o adolescente**, e um final com a família de volta para as conclusões; uma variante em três etapas é praticada no Instituto da Criança e do Adolescente, no HC-FMUSP: acolhimento conjunto que explica a todos as regras do jogo (inclusive quando o sigilo poderá ser quebrado), um momento privado com os pais e a consulta com o jovem. Na etapa a sós, a queixa é recontada **pela perspectiva do adolescente**, que pode coincidir com a da família, complementá-la ou contradizê-la, e cada uma dessas três situações informa.
 
   O sigilo tem exceções nomeadas, e um rito. Quebra-se nas **situações de risco** que as obras listam: gravidez e aborto, uso abusivo de drogas, doença grave, tratamento recomendado que o jovem não segue, risco de vida para si (a intenção suicida, por exemplo) ou para terceiros, e procedimentos de maior complexidade. Mas quebra-se **avisando o adolescente primeiro**, com os motivos explicados, e, sempre que possível, comunicando o responsável na presença dele. Só no risco de vida a quebra dispensa o consentimento do jovem.
 
-  No exame físico, o capítulo 180 é prescritivo: respeitar o pudor e explicar cada procedimento; garantir que a porta está fechada e que ninguém entrará; **manter outro profissional de saúde na sala** durante o exame; e, no exame genital, esclarecer antes a necessidade e **respeitar a recusa**, adiando para outra consulta, se preciso. Este guia já carrega a mesma regra pelo capítulo 119 da *Semiologia Médica* nos tópicos de exame das mamas e exame ginecológico, na adolescente, o exame acompanhado por uma assistente, com a presença dos pais decidida pela paciente; o que o capítulo 180 acrescenta é a generalização: vale para todo adolescente, em todo exame.
+  No exame físico, a regra é prescritiva: respeitar o pudor e explicar cada procedimento; garantir que a porta está fechada e que ninguém entrará; **manter outro profissional de saúde na sala** durante o exame; e, no exame genital, esclarecer antes a necessidade e **respeitar a recusa**, adiando para outra consulta, se preciso. Este guia já carrega a mesma regra nos tópicos de exame das mamas e exame ginecológico, na adolescente, o exame acompanhado por uma assistente, com a presença dos pais decidida pela paciente; o que se acrescenta aqui é a generalização: vale para todo adolescente, em todo exame.
 :::
 
 ::: perola
-texto: "Na consulta em tempos, o que sustenta a confiança não é o momento a sós, é o que acontece depois dele. A Semiologia Médica manda que, dali em diante, toda conversa do médico com os pais ocorra diante do adolescente: ele precisa ver o que se diz sobre ele para acreditar no que o médico prometeu não dizer."
+texto: "Na consulta em tempos, o que sustenta a confiança não é o momento a sós, é o que acontece depois dele. A regra manda que, dali em diante, toda conversa do médico com os pais ocorra diante do adolescente: ele precisa ver o que se diz sobre ele para acreditar no que o médico prometeu não dizer."
 :::
 
 ::: secao

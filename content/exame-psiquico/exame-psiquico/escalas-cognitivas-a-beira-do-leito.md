@@ -455,10 +455,10 @@ perguntas:
     alternativas:
       - "O escore fecha o diagnóstico de demência, pois está abaixo do corte clássico de 23 pontos aplicável a qualquer paciente"
       - "O escore é ininterpretável, porque o miniexame não pode ser aplicado a analfabetos em nenhuma circunstância"
-      - "Depende da tabela de corte adotada: 17 está acima do mínimo de 14 que o Exame Clínico dá ao analfabeto e abaixo do corte de 20 de Brucki et al. que a Semiologia Médica sugere, e, em qualquer caso, o resultado é triagem: dispara avaliação clínica e confirmação, não rótulo"
+      - "Depende da tabela de corte adotada: 17 está acima do mínimo de 14 de uma tabela para o analfabeto e abaixo do corte de 20 de Brucki et al., sugerido por outra, e, em qualquer caso, o resultado é triagem: dispara avaliação clínica e confirmação, não rótulo"
       - "O escore indica apenas depressão, porque o miniexame não sofre influência da escolaridade"
     corretaIndex: 2
-    explicacao: "Os cortes por escolaridade divergem dentro da própria obra de Porto: o Quadro 20.4 do Exame Clínico aceita 14 como mínimo normal do analfabeto, enquanto o Quadro 181.9 da Semiologia Médica, com a validação de Brucki et al. (2003), exige 20, e 17 cai exatamente entre os dois. Por isso o registro precisa dizer qual tabela foi usada. E nenhum corte transposto diagnostica demência: a triagem positiva pede confirmação por outro instrumento, biografia funcional e exclusão de causas reversíveis e de delirium."
+    explicacao: "Os cortes por escolaridade divergem entre as próprias tabelas de referência: uma aceita 14 como mínimo normal do analfabeto, enquanto outra, com a validação de Brucki et al. (2003), exige 20, e 17 cai exatamente entre as duas. Por isso o registro precisa dizer qual tabela foi usada. E nenhum corte transposto diagnostica demência: a triagem positiva pede confirmação por outro instrumento, biografia funcional e exclusão de causas reversíveis e de delirium."
   - id: psi-esc-2
     enunciado: Em uma consulta de rotina, um homem de 72 anos evoca uma das três palavras do Mini-Cog e desenha um relógio anormal, somando 1 ponto. O que esse resultado faz com a probabilidade de demência?
     alternativas:
@@ -467,34 +467,34 @@ perguntas:
       - "Nada, porque o Mini-Cog exige no mínimo oito palavras para ter validade estatística, e a versão de três palavras é apenas um aquecimento para o miniexame completo, sem valor diagnóstico próprio nas fontes"
       - "Confirma demência, já que qualquer escore abaixo de 5 é patológico no Mini-Cog"
     corretaIndex: 0
-    explicacao: "No boxe EBM 6.1 de McGee, o Mini-Cog de 2 pontos ou menos eleva a probabilidade de demência com razão de verossimilhança 4,5 (sensibilidade 75 a 99%, especificidade 59 a 93%); 3 ou mais a derruba para 0,1. O teste soma 1 ponto por palavra evocada depois do desenho do relógio, interposto entre o registro e a cobrança, e 2 pontos pelo relógio normal. Como toda triagem, o resultado positivo dispara a investigação, inclusive a exclusão de delirium, e não fecha diagnóstico."
+    explicacao: "O Mini-Cog de 2 pontos ou menos eleva a probabilidade de demência com razão de verossimilhança 4,5 (sensibilidade 75 a 99%, especificidade 59 a 93%); 3 ou mais a derruba para 0,1. O teste soma 1 ponto por palavra evocada depois do desenho do relógio, interposto entre o registro e a cobrança, e 2 pontos pelo relógio normal. Como toda triagem, o resultado positivo dispara a investigação, inclusive a exclusão de delirium, e não fecha diagnóstico."
   - id: psi-esc-3
-    enunciado: Na enfermaria, um paciente internado por pneumonia está desatento, flutuando ao longo do dia, e pontua 15 no miniexame. A equipe cogita registrar "demência avançada". Qual é o erro, segundo McGee?
+    enunciado: Na enfermaria, um paciente internado por pneumonia está desatento, flutuando ao longo do dia, e pontua 15 no miniexame. A equipe cogita registrar "demência avançada". Qual é o erro?
     alternativas:
       - "Nenhum: 15 pontos está abaixo de todos os cortes conhecidos e autoriza o diagnóstico"
       - "O erro é apenas de instrumento: bastaria substituir o miniexame pelo teste do relógio que, por avaliar a construção visuoespacial em vez da memória e por não depender da escolaridade, não sofre interferência de quadros agudos e permite firmar o diagnóstico de demência mesmo durante uma internação por doença ativa"
       - "O erro é de gravidade: 15 pontos ainda é faixa limítrofe, compatível com envelhecimento normal"
       - "Quadro agudo e flutuante com desatenção pede primeiro o CAM: no delirium, os testes de demência à beira do leito são imprecisos, com alta taxa de falso-positivos, mede-se a cognição depois de tratada a confusão"
     corretaIndex: 3
-    explicacao: "McGee é explícito: antes de diagnosticar demência é preciso excluir delirium, e em qualquer paciente com delirium os testes de demência positivam falsamente. O quadro descrito (início agudo, flutuação, desatenção, contexto infeccioso) é a assinatura que o CAM captura (razão de verossimilhança 12,7 quando positivo). O relógio não escapa da mesma limitação, porque depende de atenção; e 15 pontos abaixo de qualquer corte não significa nada enquanto a confusão aguda não for resolvida."
+    explicacao: "É explícito: antes de diagnosticar demência é preciso excluir delirium, e em qualquer paciente com delirium os testes de demência positivam falsamente. O quadro descrito (início agudo, flutuação, desatenção, contexto infeccioso) é a assinatura que o CAM captura (razão de verossimilhança 12,7 quando positivo). O relógio não escapa da mesma limitação, porque depende de atenção; e 15 pontos abaixo de qualquer corte não significa nada enquanto a confusão aguda não for resolvida."
   - id: psi-esc-4
     enunciado: Um paciente desenha o relógio com os 12 números na ordem correta, junto à borda, mas com espaçamento visivelmente irregular, e não desenha ponteiros. Pelo método de Wolf-Klein, como pontuar?
     alternativas:
       - "Anormal, porque a ausência de ponteiros invalida o desenho em qualquer método de pontuação"
       - "Normal: o método considera a ordem horária dos números perto da borda; espaçamento inadequado continua normal e os ponteiros não são exigidos"
       - "Anormal, porque o espaçamento irregular é o principal marcador de apraxia construtiva"
-      - "Limítrofe, exigindo o desempate imediato pela cópia dos pentágonos do miniexame, único item visuoespacial com validade formal reconhecida pelas quatro obras adotadas neste guia"
+      - "Limítrofe, exigindo o desempate imediato pela cópia dos pentágonos do miniexame, único item visuoespacial com validade formal reconhecida nas referências deste guia"
     corretaIndex: 1
-    explicacao: "No método de Wolf-Klein que McGee adota, o desenho é normal quando a maior parte dos 12 números está em orientação horária correta, próxima à borda, o espaçamento inadequado, por pior que seja, segue normal, e o paciente não precisa desenhar os ponteiros. Anormais são as figuras irrelevantes, os arranjos incomuns como números na vertical, a rotação anti-horária e a ausência de números. Os ponteiros são exigência de outros usos do relógio: o Mini-Cog pede 8h20, e o método de Sunderland, na Semiologia Médica, pede 22h45 e os pontua."
+    explicacao: "No método de Wolf-Klein, o desenho é normal quando a maior parte dos 12 números está em orientação horária correta, próxima à borda, o espaçamento inadequado, por pior que seja, segue normal, e o paciente não precisa desenhar os ponteiros. Anormais são as figuras irrelevantes, os arranjos incomuns como números na vertical, a rotação anti-horária e a ausência de números. Os ponteiros são exigência de outros usos do relógio: o Mini-Cog pede 8h20, e o método de Sunderland pede 22h45 e os pontua."
   - id: psi-esc-5
-    enunciado: Na UTI, pedem que você "aplique o miniexame" em uma paciente sob sedação contínua para avaliar cognição. Qual é a resposta correta, pelas fontes deste capítulo?
+    enunciado: Na UTI, pedem que você "aplique o miniexame" em uma paciente sob sedação contínua para avaliar cognição. Qual é a resposta correta?
     alternativas:
-      - "Escala cognitiva pressupõe paciente desperto e colaborativo: na pessoa sedada, o que se gradua é o nível de consciência com uma escala de sedação, Semiologia Clínica nomeia a de Ramsay e a RASS como as adequadas, e até o delirium, nesse cenário, tem versão própria do CAM para pacientes ventilados"
+      - "Escala cognitiva pressupõe paciente desperto e colaborativo: na pessoa sedada, o que se gradua é o nível de consciência com uma escala de sedação, a de Ramsay e a RASS são as nomeadas como adequadas, e até o delirium, nesse cenário, tem versão própria do CAM para pacientes ventilados"
       - "Aplicar o miniexame normalmente, descontando pontos proporcionais à dose de sedativo"
       - "Aplicar a escala de coma de Glasgow, que substitui as escalas cognitivas em qualquer paciente grave"
       - "Adiar toda avaliação: nenhum instrumento avalia consciência ou confusão sob sedação"
     corretaIndex: 0
-    explicacao: "Semiologia Clínica indica, no paciente sob sedação, as escalas de Ramsay e de Richmond (RASS) como as adequadas para graduar o nível de consciência, a dívida que o tópico de consciência do capítulo neurológico deixou nomeada. As obras dão os nomes e a indicação, não os itens, e o guia registra o limite. O miniexame perde o sentido sem colaboração, e a Glasgow, nascida no trauma, não é o instrumento do paciente sedado; para o delirium do paciente ventilado, McGee cita a versão adaptada do CAM, com acurácia semelhante."
+    explicacao: "No paciente sob sedação, as escalas de Ramsay e de Richmond (RASS) são as indicadas para graduar o nível de consciência, a dívida que o tópico de consciência do capítulo neurológico deixou nomeada. As referências dão os nomes e a indicação, não os itens, e o guia registra o limite. O miniexame perde o sentido sem colaboração, e a Glasgow, nascida no trauma, não é o instrumento do paciente sedado; para o delirium do paciente ventilado, existe a versão adaptada do CAM, com acurácia semelhante."
   - id: psi-esc-6
     enunciado: Em um homem de 70 anos com declínio cognitivo, você encontra reflexo de preensão bilateral, ele agarra seus dedos e aperta mais quando você tenta retirá-los. Qual é o peso desse achado?
     alternativas:
@@ -503,5 +503,5 @@ perguntas:
       - "É o mais significativo dos reflexos primitivos: não ocorre em pessoas normais, prediz lesão frontal ou profunda com especificidade de 99% e razão de verossimilhança 19,1, e na demência se correlaciona com maior gravidade cognitiva e funcional"
       - "Só teria valor se fosse unilateral, porque o lado do reflexo aponta o lado da lesão"
     corretaIndex: 2
-    explicacao: "McGee separa a preensão dos demais reflexos primitivos: palmomentual e glabelar aparecem em pessoas normais (3 a 70% e 3 a 33%, conforme o estudo), mas a preensão não, e, em enfermaria neurológica, predisse lesões discretas frontais ou de núcleos profundos com sensibilidade de 13 a 50%, especificidade de 99% e RV positiva de 19,1. Na demência, correlaciona-se com pior estado cognitivo e funcional e com perda de células piramidais frontais; a Semiologia Médica descreve a preensão forçada nas fases avançadas da doença de Alzheimer. Quando presente, costuma ser bilateral, e, no palmomentual, o lado do reflexo não indica o lado da lesão, como o tópico de marcha registrou."
+    explicacao: "A preensão se separa dos demais reflexos primitivos: palmomentual e glabelar aparecem em pessoas normais (3 a 70% e 3 a 33%, conforme o estudo), mas a preensão não, e, em enfermaria neurológica, predisse lesões discretas frontais ou de núcleos profundos com sensibilidade de 13 a 50%, especificidade de 99% e RV positiva de 19,1. Na demência, correlaciona-se com pior estado cognitivo e funcional e com perda de células piramidais frontais; descreve-se a preensão forçada nas fases avançadas da doença de Alzheimer. Quando presente, costuma ser bilateral, e, no palmomentual, o lado do reflexo não indica o lado da lesão, como o tópico de marcha registrou."
 :::

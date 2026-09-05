@@ -136,13 +136,13 @@ passos:
   - "Teste o polegar em flexão, extensão, abdução e oponência: ele deve alcançar a base do quinto dedo e tocar a ponta de todos os outros."
   - "Complete com os pulsos radial e ulnar, o tempo de enchimento capilar e a palpação do nervo ulnar no cotovelo."
 observar: |
-  **A técnica dos quatro pontos, e por que ela existe.** Semiologia Clínica descreve o modo correto de palpar uma pequena junta: **polegares e indicadores das duas mãos**, sentindo os dois lados da articulação e também as suas laterais. Uma nota de vocabulário, feita em voz alta porque o guia declara suas escolhas: a obra escreve *volar e palmar*, dois termos que designam a mesma face; este guia lê o par como **dorsal e palmar**, que é o que a técnica exige, e registra a normalização em vez de fazê-la em silêncio. O que se procura é a **proliferação sinovial**, e a obra dá a textura, que é a parte difícil de aprender em texto: **consistência de borracha**. Uma junta com sinovite pode não estar quente nem vermelha; o que ela tem é essa espessura elástica que a palpação em pinça encontra e a palpação com um dedo só não encontra.
+  **A técnica dos quatro pontos, e por que ela existe.** O modo correto de palpar uma pequena junta: **polegares e indicadores das duas mãos**, sentindo os dois lados da articulação e também as suas laterais. Uma nota de vocabulário, feita em voz alta porque o guia declara suas escolhas: a obra escreve *volar e palmar*, dois termos que designam a mesma face; este guia lê o par como **dorsal e palmar**, que é o que a técnica exige, e registra a normalização em vez de fazê-la em silêncio. O que se procura é a **proliferação sinovial**, e a obra dá a textura, que é a parte difícil de aprender em texto: **consistência de borracha**. Uma junta com sinovite pode não estar quente nem vermelha; o que ela tem é essa espessura elástica que a palpação em pinça encontra e a palpação com um dedo só não encontra.
 
-  **Fusiforme ou difuso: a pergunta que a palpação responde.** Semiologia Clínica dá o critério e ele é visual: quando o líquido está **dentro** da sinovial, o aumento é **simétrico** e o dedo toma o aspecto de **fuso**; quando a origem é **extrassinovial**, o aumento é **assimétrico e difuso**. É a distinção entre articular e periarticular do primeiro tópico deste capítulo, aplicada ao dedo.
+  **Fusiforme ou difuso: a pergunta que a palpação responde.** O critério é visual: quando o líquido está **dentro** da sinovial, o aumento é **simétrico** e o dedo toma o aspecto de **fuso**; quando a origem é **extrassinovial**, o aumento é **assimétrico e difuso**. É a distinção entre articular e periarticular do primeiro tópico deste capítulo, aplicada ao dedo.
 
-  **O teste do aperto tem um propósito declarado.** Comprimir de uma vez o conjunto das metacarpofalangianas (e o correspondente nos pés, as metatarsofalangianas) não é um atalho preguiçoso. Semiologia Clínica explica o objetivo: **sensibilizar o exame de dois territórios difíceis de examinar de outra forma**. Dor ou desconforto à compressão sugere sinovite; e é um gesto que leva três segundos em cada mão.
+  **O teste do aperto tem um propósito declarado.** Comprimir de uma vez o conjunto das metacarpofalangianas (e o correspondente nos pés, as metatarsofalangianas) não é um atalho preguiçoso. O objetivo declarado: **sensibilizar o exame de dois territórios difíceis de examinar de outra forma**. Dor ou desconforto à compressão sugere sinovite; e é um gesto que leva três segundos em cada mão.
 
-  **O polegar tem repertório próprio, e ele se testa por alvos.** Semiologia Clínica dá referências concretas em vez de graus: na **flexão**, o polegar alcança a base do quinto dedo; na **extensão**, forma com o indicador um ângulo em torno de **50 graus**; na **oponência**, toca a extremidade distal de todos os demais dedos. São três alvos que qualquer examinador reproduz sem goniômetro.
+  **O polegar tem repertório próprio, e ele se testa por alvos.** As referências são concretas, em vez de graus: na **flexão**, o polegar alcança a base do quinto dedo; na **extensão**, forma com o indicador um ângulo em torno de **50 graus**; na **oponência**, toca a extremidade distal de todos os demais dedos. São três alvos que qualquer examinador reproduz sem goniômetro.
 
   **A base do polegar é um ponto doloroso com nome:** dor à palpação ali sugere **rizoartrose**, a osteoartrite da carpometacarpiana do polegar, e as **primeiras carpometacarpianas** figuram entre as juntas escolhidas pela osteoartrose. É uma queixa comum e frequentemente atribuída ao punho por quem não palpou a base.
 
@@ -444,7 +444,7 @@ titulo: A síndrome do túnel do carpo
 ::: conceito
 titulo: A compressão do mediano e as manobras que a interrogam
 texto: |
-  **A anatomia decide o quadro.** Semiologia Clínica descreve o túnel como o corredor que conduz do antebraço à mão os **tendões flexores dos dedos** e, com eles, o **nervo mediano**; a compressão restringe funções **motoras e sensitivas**. O território da queixa é preciso e vale decorar: **polegar, segundo e terceiro dedos e a metade radial do quarto**. Nos quadros avançados aparecem a **atrofia tenar** e a perda de oposição e abdução do polegar.
+  **A anatomia decide o quadro.** O túnel é o corredor que conduz do antebraço à mão os **tendões flexores dos dedos** e, com eles, o **nervo mediano**; a compressão restringe funções **motoras e sensitivas**. O território da queixa é preciso e vale decorar: **polegar, segundo e terceiro dedos e a metade radial do quarto**. Nos quadros avançados aparecem a **atrofia tenar** e a perda de oposição e abdução do polegar.
 
   **As associações que a anamnese procura**, segundo a mesma obra: gravidez e outras condições que retêm líquido; trauma; osteoartrite; artrite inflamatória; distúrbios metabólicos, entre eles o diabetes e o hipotireoidismo; e doenças de depósito, como a amiloidose.
 
@@ -483,7 +483,7 @@ causas:
 
 ::: sinal
 nome: Sinal de Phalen
-descricao: "Mantém-se a **flexão máxima dos punhos por 60 segundos**. A versão de consultório de Semiologia Clínica encosta os dorsos das mãos, com os cotovelos fletidos e elevados, e testa os dois lados ao mesmo tempo. O sinal é positivo quando surgem parestesias no território do mediano: polegar, indicador, médio e metade radial do anular."
+descricao: "Mantém-se a **flexão máxima dos punhos por 60 segundos**. A versão de consultório encosta os dorsos das mãos, com os cotovelos fletidos e elevados, e testa os dois lados ao mesmo tempo. O sinal é positivo quando surgem parestesias no território do mediano: polegar, indicador, médio e metade radial do anular."
 significado: "É a manobra mais conhecida da síndrome do túnel do carpo e **uma das de pior desempenho medido**. Nos números compilados, tendo a eletroneuromiografia como padrão, Phalen tem sensibilidade de 10% a 91% e especificidade de 33% a 86%, com razão de verossimilhança 1,3 quando presente e 0,7 quando ausente. Nenhum dos dois números move a probabilidade de forma útil. A razão é explícita: Tinel, Phalen e as manobras provocativas mais recentes não separam a síndrome do túnel do carpo das demais causas comuns de disestesia da mão, como polineuropatia, neuropatia ulnar e radiculopatia."
 causas:
   - "Síndrome do túnel do carpo, que é a hipótese que a manobra interroga"
@@ -617,7 +617,7 @@ texto: |
 titulo: Artrite reumatoide e osteoartrite lidas na mão
 nivel: avancado
 texto: |
-  Este é o bloco que Semiologia Clínica coloca como a tarefa central das queixas de mão, e ele se resolve quase todo com a inspeção. O primeiro tópico deste capítulo já apresentou as duas doenças pelo **padrão de acometimento**; aqui elas são lidas pelo **exame da mão**, que é outra coisa.
+  Este é o bloco que as referências colocam como a tarefa central das queixas de mão, e ele se resolve quase todo com a inspeção. O primeiro tópico deste capítulo já apresentou as duas doenças pelo **padrão de acometimento**; aqui elas são lidas pelo **exame da mão**, que é outra coisa.
 
   **A pergunta única: qual fileira está doente?**
 
@@ -633,11 +633,11 @@ texto: |
   - **Simetria**: a reumatoide se instala de modo simétrico; a osteoartrite é assimétrica e predomina no **lado dominante**, porque o uso acelera o processo.
   - **Relógio da rigidez**: acima de uma hora na reumatoide, abaixo de trinta minutos na osteoartrite.
   - **Ritmo da dor**: inflamatório contra mecânico.
-  - **Fora da mão**: a reumatoide traz sintomas constitucionais e acometimento extra-articular; a osteoartrite, não. É a diferença que Semiologia Clínica resume dizendo que a ausência de sintomas sistêmicos favorece as causas osteoarticulares de dor.
+  - **Fora da mão**: a reumatoide traz sintomas constitucionais e acometimento extra-articular; a osteoartrite, não. É a diferença que se resume dizendo que a ausência de sintomas sistêmicos favorece as causas osteoarticulares de dor.
 
   **Duas ressalvas que impedem o esquema de virar dogma.**
 
-  1. **A distribuição das interfalangianas distais levanta duas hipóteses, não uma.** Semiologia Clínica é explícita: osteoartrite **e artrite psoriásica**. Diante de distais acometidas, a pergunta seguinte é sobre pele e unhas, e a psoríase ungueal precisa ser perguntada **ativamente**, porque o paciente não a relaciona com a queixa articular.
+  1. **A distribuição das interfalangianas distais levanta duas hipóteses, não uma.** As referências são explícitas: osteoartrite **e artrite psoriásica**. Diante de distais acometidas, a pergunta seguinte é sobre pele e unhas, e a psoríase ungueal precisa ser perguntada **ativamente**, porque o paciente não a relaciona com a queixa articular.
   2. **A artrite reumatoide pode começar como monoartrite.** A mesma obra registra que, apesar de o quadro típico ser poliartrite simétrica com predomínio de mãos, o **início monoarticular** existe. Uma junta só não afasta a doença; afasta apenas o padrão característico dela.
 
   **E o registro que fecha o bloco.** Diante de uma mão deformada, três informações valem mais do que qualquer adjetivo: **quais fileiras**, **em que sentido** e **se ainda reduz**. As três cabem em uma linha de prontuário e permitem ao próximo examinador saber se a doença andou.
