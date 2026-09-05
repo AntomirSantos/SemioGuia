@@ -10,6 +10,7 @@ import { espaco, fonte, tipo } from '../../design/tokens';
 import { useConteudo } from '../../content/ContentContext';
 import { listarSistemas, listarTodosTopicos, obterSistema, obterTopico, sistemaRevisado } from '../../content/store';
 import { listarSinais } from '../../plantao/sinais';
+import { listarChecklists } from '../../checklists/listas';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import { montarFila } from '../../revisao/fila';
@@ -257,6 +258,49 @@ function CartaoPlantao({ totalSinais }: { totalSinais: number }) {
   );
 }
 
+// Cartão dos checklists (pedido do autor, 2026-09): a linha-irmã do plantão,
+// levando à tela com todos os roteiros de exame marcáveis.
+function CartaoChecklists({ totalChecklists }: { totalChecklists: number }) {
+  const { paleta, escala } = useTema();
+  return (
+    <View style={{ marginBottom: espaco.xl }}>
+      <RotuloDeSecao texto="Checklists de exame" />
+      <Pressionavel
+        accessibilityRole="button"
+        onPress={() => router.push('/checklists')}
+        style={{
+          flexDirection: 'row',
+          alignItems: 'center',
+          paddingVertical: espaco.s,
+          borderBottomWidth: 1,
+          borderBottomColor: paleta.linha,
+          minHeight: 44,
+        }}
+      >
+        <View style={{ width: 8, height: 34, backgroundColor: paleta.acento, marginRight: espaco.m }} />
+        <View style={{ flex: 1 }}>
+          <Text
+            style={{
+              fontFamily: fonte.display,
+              fontSize: Math.round(tipo.h3 * escala),
+              lineHeight: Math.round(tipo.h3 * escala * 1.25),
+              color: paleta.tinta,
+            }}
+          >
+            Esqueci alguma coisa no exame?
+          </Text>
+          <Text
+            style={{ fontFamily: fonte.corpo, fontSize: Math.round(12 * escala), color: paleta.tinta2, marginTop: 2 }}
+          >
+            {totalChecklists} checklists para marcar item a item e conferir o que faltou
+          </Text>
+        </View>
+        <ChevronRight size={18} color={paleta.tinta2} style={{ marginLeft: espaco.s }} />
+      </Pressionavel>
+    </View>
+  );
+}
+
 function useUltimoTopico(conteudo: Conteudo): { topico: Topico; sistema: Sistema } | null | undefined {
   const progresso = useProgresso();
   const carregar = useCallback(async () => {
@@ -334,6 +378,7 @@ export default function Guia() {
       ) : null}
       {ultimo ? <CartaoContinuar topico={ultimo.topico} sistema={ultimo.sistema} /> : null}
       <CartaoPlantao totalSinais={listarSinais(conteudo).length} />
+      <CartaoChecklists totalChecklists={listarChecklists(conteudo).length} />
       <RotuloDeSecao texto="Sistemas" />
       <View>
         {sistemas.map((sistema, indice) => {

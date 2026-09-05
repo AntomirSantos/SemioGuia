@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.21 (2026-09-05)
+
+- Tela nova de checklists: os 53 roteiros de exame do guia em um só lugar, por sistema, com itens marcáveis para conferir o que faltou
+- A ausculta ficou educada: tocar um som para o anterior, nada mais se sobrepõe, e cada clique concede cerca de 10 segundos de escuta
+- Cada checklist mostra o placar (quantos itens faltam), tem botão de refazer e salta ao tópico de origem
+
 ## 1.2.20 (2026-09-05)
 
 - Sinal das pontas corrigido: caminhar na ponta dos pés testa S1 (flexão plantar) e nos calcanhares testa L4/L5 (dorsiflexão)

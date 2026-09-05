@@ -264,3 +264,57 @@ test('som renderiza título, descrição, aviso e chama play ao tocar', async ()
   expect(__mockPlayer.play).toHaveBeenCalledTimes(1);
   expect(__mockPlayer.loop).toBe(true);
 });
+
+test('som pausa sozinho ao fim do limite por clique', async () => {
+  const { __mockPlayer, __resetMockPlayer } = require('../testes/expo-audio-mock');
+  const { DURACAO_MAX_DE_SOM_MS } = require('../audio/reprodutor-unico');
+  __resetMockPlayer();
+  const bloco: Bloco = {
+    tipo: 'som',
+    titulo: 'Sopro sistólico',
+    arquivo: 'bulhas-normais',
+    descricao: 'Som contínuo entre B1 e B2.',
+  };
+  const { getByRole } = await renderBloco(bloco);
+  jest.useFakeTimers();
+  try {
+    await fireEvent.press(getByRole('button'));
+    expect(__mockPlayer.play).toHaveBeenCalledTimes(1);
+    expect(__mockPlayer.pause).not.toHaveBeenCalled();
+    jest.advanceTimersByTime(DURACAO_MAX_DE_SOM_MS + 50);
+    expect(__mockPlayer.pause).toHaveBeenCalledTimes(1);
+  } finally {
+    jest.useRealTimers();
+  }
+});
+
+test('tocar um segundo som para o anterior antes de começar', async () => {
+  const { __mockPlayer, __resetMockPlayer } = require('../testes/expo-audio-mock');
+  __resetMockPlayer();
+  const primeiro: Bloco = {
+    tipo: 'som',
+    titulo: 'Bulhas normais',
+    arquivo: 'bulhas-normais',
+    descricao: 'TUM-TA.',
+  };
+  const segundo: Bloco = {
+    tipo: 'som',
+    titulo: 'Sibilos',
+    arquivo: 'sibilos',
+    descricao: 'Som musical expiratório.',
+  };
+  const { getAllByRole } = await render(
+    <ThemeProvider>
+      <BlocoView bloco={primeiro} />
+      <BlocoView bloco={segundo} />
+    </ThemeProvider>,
+  );
+  const botoes = getAllByRole('button');
+  await fireEvent.press(botoes[0]);
+  expect(__mockPlayer.play).toHaveBeenCalledTimes(1);
+  expect(__mockPlayer.pause).not.toHaveBeenCalled();
+  await fireEvent.press(botoes[1]);
+  // O coordenador manda o primeiro bloco pausar antes de o segundo tocar.
+  expect(__mockPlayer.pause).toHaveBeenCalledTimes(1);
+  expect(__mockPlayer.play).toHaveBeenCalledTimes(2);
+});

@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.21',
+    data: '2026-09-05',
+    linhas: [
+      'Tela nova de checklists: os 53 roteiros de exame do guia em um só lugar, por sistema, com itens marcáveis para conferir o que faltou',
+      'A ausculta ficou educada: tocar um som para o anterior, nada mais se sobrepõe, e cada clique concede cerca de 10 segundos de escuta',
+      'Cada checklist mostra o placar (quantos itens faltam), tem botão de refazer e salta ao tópico de origem',
+    ],
+  },
+  {
     versao: '1.2.20',
     data: '2026-09-05',
     linhas: [

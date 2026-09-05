@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import { Text, View } from 'react-native';
 import { useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
 import { Pause, Play, Volume2 } from 'lucide-react-native';
@@ -6,15 +7,18 @@ import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
 import { Pressionavel } from '../design/movimento';
 import { AVISO_SOM_GRAVACAO, AVISO_SOM_SINTETIZADO, FONTES_DE_SOM, ORIGEM_DE_SOM } from '../config/sons';
+import { DURACAO_MAX_DE_SOM_MS, assumirReproducao, encerrarReproducao } from '../audio/reprodutor-unico';
 import { IdentidadeBloco } from './identidade';
 
 type SomBloco = Extract<Bloco, { tipo: 'som' }>;
 
-// Bloco de ausculta (didática 2026-09): o som tocável dentro do tópico, 
+// Bloco de ausculta (didática 2026-09): o som tocável dentro do tópico,
 // B1/B2, sopros, murmúrio, sibilos, estertores. Os arquivos são sintetizados
 // por scripts/gerar-sons.py (livres de direitos) e o aviso deixa claro ao
 // estudante que é representação didática, não gravação clínica. O player
 // toca em loop enquanto ativo: ausculta se escuta em ciclos, não em takes.
+// Só um som toca por vez em todo o app (reprodutor-unico), e cada clique
+// concede no máximo DURACAO_MAX_DE_SOM_MS de escuta antes de pausar sozinho.
 export function Som({ bloco }: { bloco: SomBloco }) {
   const { paleta, escala } = useTema();
   const player = useAudioPlayer(FONTES_DE_SOM[bloco.arquivo]);
@@ -23,13 +27,43 @@ export function Som({ bloco }: { bloco: SomBloco }) {
   const corpo = Math.round(tipo.corpo * escala);
   const small = Math.round(tipo.small * escala);
 
+  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  // Ref estável por instância: identifica este bloco junto ao coordenador
+  // mesmo quando o player é recriado entre renders.
+  const paradorRef = useRef<() => void>(() => {});
+  paradorRef.current = () => {
+    if (timerRef.current) {
+      clearTimeout(timerRef.current);
+      timerRef.current = null;
+    }
+    try {
+      player.pause();
+    } catch {
+      // O player pode já ter sido liberado no desmonte; pausar vira no-op.
+    }
+  };
+
+  useEffect(() => {
+    return () => {
+      paradorRef.current();
+      encerrarReproducao(paradorRef);
+    };
+  }, []);
+
   function alternar() {
     if (tocando) {
-      player.pause();
+      paradorRef.current();
+      encerrarReproducao(paradorRef);
       return;
     }
+    assumirReproducao(paradorRef);
     player.loop = true;
     player.play();
+    if (timerRef.current) clearTimeout(timerRef.current);
+    timerRef.current = setTimeout(() => {
+      paradorRef.current();
+      encerrarReproducao(paradorRef);
+    }, DURACAO_MAX_DE_SOM_MS);
   }
 
   return (
