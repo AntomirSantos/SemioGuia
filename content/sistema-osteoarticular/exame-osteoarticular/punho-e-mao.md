@@ -83,11 +83,11 @@ titulo: O essencial
 ::: conceito
 titulo: A mão é o lugar onde o achado vale por si
 texto: |
-  Há uma frase de McGee que explica por que o exame da mão é diferente de tudo o que este guia mediu até aqui: em boa parte das doenças musculoesqueléticas, **o padrão diagnóstico é o próprio achado de beira de leito**. E o exemplo que ele escolhe para ilustrar a afirmação é uma mão: diante de artrite simétrica de punhos e mãos, com desvio ulnar das metacarpofalangianas e dedos em pescoço de cisne, o diagnóstico de artrite reumatoide fica praticamente estabelecido, **com ou sem fator reumatoide no soro**; se o exame sorológico for negativo, o que se tem é uma artrite reumatoide soronegativa, não outra doença.
+  Há uma explicação que esclarece por que o exame da mão é diferente de tudo o que este guia mediu até aqui: em boa parte das doenças musculoesqueléticas, **o padrão diagnóstico é o próprio achado de beira de leito**. O exemplo que ilustra a afirmação é uma mão: diante de artrite simétrica de punhos e mãos, com desvio ulnar das metacarpofalangianas e dedos em pescoço de cisne, o diagnóstico de artrite reumatoide fica praticamente estabelecido, **com ou sem fator reumatoide no soro**; se o exame sorológico for negativo, o que se tem é uma artrite reumatoide soronegativa, não outra doença.
 
   Isso muda o peso de cada gesto. No ombro, o exame é uma sequência de testes provocativos que apostam em probabilidade. Na mão, a maior parte da informação chega pelos **olhos**, e chega inteira: a deformidade não sugere a doença, ela **é** o critério.
 
-  **Onde a mão fica no capítulo.** Semiologia Clínica organiza as queixas de mão e punho em torno de uma pergunta única e muito prática: **osteoartrite ou artrite reumatoide?** As duas escolhem fileiras diferentes de articulações, e é isso que a inspeção resolve em segundos. O bloco de aprofundamento deste tópico desenvolve a leitura.
+  **Onde a mão fica no capítulo.** As queixas de mão e punho se organizam em torno de uma pergunta única e muito prática: **osteoartrite ou artrite reumatoide?** As duas escolhem fileiras diferentes de articulações, e é isso que a inspeção resolve em segundos. O bloco de aprofundamento deste tópico desenvolve a leitura.
 
   **O que este tópico não reensina.**
 
@@ -104,9 +104,9 @@ titulo: Onde estão os números da mão, e onde não estão
 texto: |
   Este tópico tem uma textura dividida, e vale saber disso antes de estranhar.
 
-  **A metade sem número.** Todas as deformidades, tenossinovites e nódulos que a mão exibe estão na **Tabela 57.2** de McGee, que lista achado e diagnóstico implicado, e **não traz razão de verossimilhança nenhuma**. Não é omissão: é o desenho da tabela. Quando o achado é o próprio critério diagnóstico, não existe um padrão independente contra o qual medi-lo. O teste de **Finkelstein** e o **dedo em gatilho** aparecem ali, entre os testes especiais do punho, exatamente assim: nomeados, definidos e sem acurácia.
+  **A metade sem número.** Todas as deformidades, tenossinovites e nódulos que a mão exibe estão na tabulação de achado e diagnóstico implicado, e **não trazem razão de verossimilhança nenhuma**. Não é omissão: é o desenho da tabela. Quando o achado é o próprio critério diagnóstico, não existe um padrão independente contra o qual medi-lo. O teste de **Finkelstein** e o **dedo em gatilho** aparecem ali, entre os testes especiais do punho, exatamente assim: nomeados, definidos e sem acurácia.
 
-  **A metade com número.** A **síndrome do túnel do carpo** é a exceção, e é uma exceção grande. Ela tem um padrão diagnóstico independente, a **eletroneuromiografia**, e por isso pôde ser medida. Os números não estão no capítulo musculoesquelético de McGee: estão no capítulo de **raízes, plexos e nervos periféricos**, onde ele trata a compressão do mediano como o que ela é, uma neuropatia. O boxe EBM 64.3 aparece na íntegra no aprofundamento deste tópico, e o que ele mostra sobre Tinel e Phalen é desconfortável.
+  **A metade com número.** A **síndrome do túnel do carpo** é a exceção, e é uma exceção grande. Ela tem um padrão diagnóstico independente, a **eletroneuromiografia**, e por isso pôde ser medida. Os números não estão na parte musculoesquelética: estão no capítulo de **raízes, plexos e nervos periféricos**, tratando a compressão do mediano como o que ela é, uma neuropatia. Os números aparecem na íntegra no aprofundamento deste tópico, e o que mostram sobre Tinel e Phalen é desconfortável.
 
   A regra editorial do capítulo continua valendo: **onde a fonte não mede, o guia ensina a técnica com atribuição e diz que não há número**, em vez de importar um de fora.
 :::
@@ -144,9 +144,9 @@ observar: |
 
   **O polegar tem repertório próprio, e ele se testa por alvos.** Semiologia Clínica dá referências concretas em vez de graus: na **flexão**, o polegar alcança a base do quinto dedo; na **extensão**, forma com o indicador um ângulo em torno de **50 graus**; na **oponência**, toca a extremidade distal de todos os demais dedos. São três alvos que qualquer examinador reproduz sem goniômetro.
 
-  **A base do polegar é um ponto doloroso com nome.** Ainda em Semiologia Clínica: dor à palpação ali sugere **rizoartrose**, a osteoartrite da carpometacarpiana do polegar, e Porto confirma o endereço ao listar as **primeiras carpometacarpianas** entre as juntas escolhidas pela osteoartrose. É uma queixa comum e frequentemente atribuída ao punho por quem não palpou a base.
+  **A base do polegar é um ponto doloroso com nome:** dor à palpação ali sugere **rizoartrose**, a osteoartrite da carpometacarpiana do polegar, e as **primeiras carpometacarpianas** figuram entre as juntas escolhidas pela osteoartrose. É uma queixa comum e frequentemente atribuída ao punho por quem não palpou a base.
 
-  **O punho não termina na junta.** A Tabela 4 de Semiologia Clínica coloca no mesmo exame os tendões do polegar e do carpo, os dois estiloides, a articulação radioulnar distal, a **tabaqueira anatômica** e os ossos do carpo, e ainda os **pulsos radial e ulnar**, o **tempo de enchimento capilar** e o **nervo ulnar**. Exame de mão que não termina em vaso e nervo é exame pela metade.
+  **O punho não termina na junta:** o mesmo exame reúne os tendões do polegar e do carpo, os dois estiloides, a articulação radioulnar distal, a **tabaqueira anatômica** e os ossos do carpo, e ainda os **pulsos radial e ulnar**, o **tempo de enchimento capilar** e o **nervo ulnar**. Exame de mão que não termina em vaso e nervo é exame pela metade.
 :::
 
 ::: checklist
@@ -207,7 +207,7 @@ svg: |
       <text x="245" y="192">distal para o dorso</text>
     </g>
   </svg>
-legenda: "As duas deformidades clássicas da mão reumatoide são a mesma articulação contando histórias opostas. No pescoço de cisne, a interfalangiana proximal se dobra para o dorso e a distal se dobra para a palma, e Semiologia Clínica acrescenta, na descrição mais completa, a flexão da metacarpofalangiana que abre a sequência. Na botoeira, a ordem se inverte: a proximal se dobra para a palma e a distal para o dorso, por desinserção da faixa central do tendão extensor sobre a interfalangiana proximal, segundo McGee. Repare no que o desenho não mostra e o exame precisa registrar: as duas são inicialmente redutíveis, e só com o tempo passam à contratura fixa. Tentar desfazê-las com o dedo custa um segundo e data a doença."
+legenda: "As duas deformidades clássicas da mão reumatoide são a mesma articulação contando histórias opostas. No pescoço de cisne, a interfalangiana proximal se dobra para o dorso e a distal se dobra para a palma, e a descrição mais completa acrescenta a flexão da metacarpofalangiana que abre a sequência. Na botoeira, a ordem se inverte: a proximal se dobra para a palma e a distal para o dorso, por desinserção da faixa central do tendão extensor sobre a interfalangiana proximal. Repare no que o desenho não mostra e o exame precisa registrar: as duas são inicialmente redutíveis, e só com o tempo passam à contratura fixa. Tentar desfazê-las com o dedo custa um segundo e data a doença."
 :::
 
 ::: secao
@@ -221,29 +221,29 @@ texto: |
 
   **Do grupo inflamatório crônico, sobretudo a artrite reumatoide:**
 
-  - **Desvio ulnar das metacarpofalangianas**: os dedos apontam para o lado do quinto dedo. Semiologia Clínica descreve o mecanismo tardio: **subluxação das metacarpofalangianas** com desvio ulnar do carpo. Porto descreve o mesmo quadro na artrite reumatoide crônica, com tumefação e espessamento das metacarpofalangianas e das interfalangianas proximais.
-  - **Dedo em pescoço de cisne**, Semiologia Clínica, na descrição completa: contratura em **flexão da metacarpofalangiana**, **hiperextensão da interfalangiana proximal** e **flexão da distal**. McGee registra a mesma sequência de três articulações. Vale saber que a mesma obra, no capítulo de artrites, resume a deformidade só pelas duas interfalangianas: é a mesma coisa descrita com menos detalhe, e o guia adota a versão completa.
-  - **Dedo em botoeira**: **flexão da interfalangiana proximal** com **hiperextensão da distal**. McGee dá o mecanismo: **desinserção da faixa central do tendão extensor** sobre a interfalangiana proximal, achado comum na artrite reumatoide.
-  - **Dedos em fuso**, Porto: os dedos se tornam fusiformes por **sinovite e capsulite das interfalangianas proximais**, e ele o registra como o grau mais leve da mão reumatoide.
-  - **Mão em telescópio**, ou mão em luneta, McGee: encurtamento dos dedos com destruição das interfalangianas, implicando **artrite mutilante**, na doença reumatoide ou na psoriásica.
-  - **Perda das pregas dos nós dos dedos** e **perda do relevo em morros e vales das cabeças dos metacarpos**: dois achados finos de McGee, que implicam respectivamente **sinovite das interfalangianas** e **sinovite das metacarpofalangianas**. São sinais de tumefação vistos pelo que **deixa** de existir, e por isso escapam de quem procura só o que aumenta.
+  - **Desvio ulnar das metacarpofalangianas**: os dedos apontam para o lado do quinto dedo. O mecanismo tardio: **subluxação das metacarpofalangianas** com desvio ulnar do carpo, no quadro da artrite reumatoide crônica, com tumefação e espessamento das metacarpofalangianas e das interfalangianas proximais.
+  - **Dedo em pescoço de cisne**, na descrição completa: contratura em **flexão da metacarpofalangiana**, **hiperextensão da interfalangiana proximal** e **flexão da distal**, a mesma sequência de três articulações. Vale saber que uma passagem resume a deformidade só pelas duas interfalangianas: é a mesma coisa descrita com menos detalhe, e o guia adota a versão completa.
+  - **Dedo em botoeira**: **flexão da interfalangiana proximal** com **hiperextensão da distal**. O mecanismo: **desinserção da faixa central do tendão extensor** sobre a interfalangiana proximal, achado comum na artrite reumatoide.
+  - **Dedos em fuso**: os dedos se tornam fusiformes por **sinovite e capsulite das interfalangianas proximais**, o grau mais leve da mão reumatoide.
+  - **Mão em telescópio**, ou mão em luneta: encurtamento dos dedos com destruição das interfalangianas, implicando **artrite mutilante**, na doença reumatoide ou na psoriásica.
+  - **Perda das pregas dos nós dos dedos** e **perda do relevo em morros e vales das cabeças dos metacarpos**: dois achados finos, que implicam respectivamente **sinovite das interfalangianas** e **sinovite das metacarpofalangianas**. São sinais de tumefação vistos pelo que **deixa** de existir, e por isso escapam de quem procura só o que aumenta.
 
   **Do grupo degenerativo:**
 
-  - **Nódulos de Heberden**, nas interfalangianas **distais**, e **nódulos de Bouchard**, nas **proximais**. Porto os define como **pequenos nódulos duros e indolores** que traduzem crescimento ósseo excessivo, e registra que eles marcam as formas hereditárias da doença, com predomínio no sexo feminino. Semiologia Clínica acrescenta o comportamento no tempo: eles se desenvolvem **lenta e gradualmente**, com pouco ou nenhum desconforto, mas **podem inflamar de forma aguda** e então doer de modo persistente. McGee os nomeia como osteófitos.
+  - **Nódulos de Heberden**, nas interfalangianas **distais**, e **nódulos de Bouchard**, nas **proximais**: **pequenos nódulos duros e indolores** que traduzem crescimento ósseo excessivo, e marcam as formas hereditárias da doença, com predomínio no sexo feminino. O comportamento no tempo: eles se desenvolvem **lenta e gradualmente**, com pouco ou nenhum desconforto, mas **podem inflamar de forma aguda** e então doer de modo persistente. São nomeados também como osteófitos.
   - **Rizoartrose**: a osteoartrite da carpometacarpiana do polegar, suspeitada pela dor à palpação da base do polegar.
 
   **Do grupo neurológico e fibrótico:**
 
-  - **Mão em garra**, Porto: primeiro atrofia muscular, depois retração da aponeurose palmar sobre as metacarpofalangianas, que flete as falanges dos **três dedos mais ulnares**; aparece na distrofia muscular progressiva, na hanseníase e na pelagra.
-  - **Contratura de Dupuytren**: o espessamento da aponeurose palmar torna-se nodular e puxa os dedos em flexão. Porto localiza a placa inicial na prega palmar distal, sobre o **tendão flexor do quarto dedo** e, por vezes, do quinto; McGee dá a hierarquia dos dedos acometidos: **quarto mais que quinto, e quinto mais que terceiro**; Semiologia Clínica acrescenta que costuma ser **indolor**, bilateral, hereditária e associada a tabagismo, álcool, epilepsia e diabetes.
-  - **Contratura de Volkmann**, Porto: fibrose e retração musculares por **má irrigação**, com punho e dedos fixos em flexão; pode seguir-se a lesões do cotovelo ou a aparelho gessado mal colocado.
+  - **Mão em garra**: primeiro atrofia muscular, depois retração da aponeurose palmar sobre as metacarpofalangianas, que flete as falanges dos **três dedos mais ulnares**; aparece na distrofia muscular progressiva, na hanseníase e na pelagra.
+  - **Contratura de Dupuytren**: o espessamento da aponeurose palmar torna-se nodular e puxa os dedos em flexão. A placa inicial aparece na prega palmar distal, sobre o **tendão flexor do quarto dedo** e, por vezes, do quinto; a hierarquia dos dedos acometidos: **quarto mais que quinto, e quinto mais que terceiro**; costuma ser **indolor**, bilateral, hereditária e associada a tabagismo, álcool, epilepsia e diabetes.
+  - **Contratura de Volkmann**: fibrose e retração musculares por **má irrigação**, com punho e dedos fixos em flexão; pode seguir-se a lesões do cotovelo ou a aparelho gessado mal colocado.
   - **Atrofia tenar** sugere lesão do **mediano**, e a compressão no punho é a causa comum; **atrofia hipotenar** sugere lesão do **ulnar**. As duas eminências se comparam com as da outra mão, não com uma ideia de normalidade.
 
   **E dois achados que não são da junta e moram no punho:**
 
-  - **Cisto sinovial**, Porto: tumefação cística, arredondada, em geral **indolor**, ao longo das bainhas tendinosas ou das cápsulas, mais frequente no **dorso do punho**, e que se torna mais proeminente quando o punho é fletido. McGee o descreve como **firme e indolor**, volar ou dorsal.
-  - **Proeminência anormal da ulna distal**, McGee: **subluxação da ulna**, por artrite inflamatória crônica, sobretudo a reumatoide.
+  - **Cisto sinovial**: tumefação cística, arredondada, em geral **indolor** e **firme**, ao longo das bainhas tendinosas ou das cápsulas, mais frequente no **dorso do punho** (podendo também ser volar), e que se torna mais proeminente quando o punho é fletido.
+  - **Proeminência anormal da ulna distal**: **subluxação da ulna**, por artrite inflamatória crônica, sobretudo a reumatoide.
 :::
 
 ::: sinal
@@ -262,7 +262,7 @@ nome: Nódulos de Heberden e de Bouchard
 descricao: |
   **Pequenos nódulos duros e indolores** nas interfalangianas: **Heberden nas distais, Bouchard nas proximais**. Desenvolvem-se lenta e gradualmente, com pouco ou nenhum desconforto, mas **podem inflamar de forma aguda** e então doer de modo persistente.
 significado: |
-  Traduzem **crescimento ósseo excessivo** (McGee os nomeia como osteófitos) e marcam a **osteoartrite das mãos**, sobretudo as formas hereditárias, com predomínio no sexo feminino. A fileira escolhida separa as doenças: a osteoartrite prefere as **distais** e a base do polegar; a artrite reumatoide, as metacarpofalangianas e proximais, **poupando as distais**.
+  Traduzem **crescimento ósseo excessivo** (também chamados osteófitos) e marcam a **osteoartrite das mãos**, sobretudo as formas hereditárias, com predomínio no sexo feminino. A fileira escolhida separa as doenças: a osteoartrite prefere as **distais** e a base do polegar; a artrite reumatoide, as metacarpofalangianas e proximais, **poupando as distais**.
 causas:
   - "Osteoartrite das mãos"
 :::
@@ -272,7 +272,7 @@ nome: Dedo em botoeira
 descricao: |
   **Flexão da interfalangiana proximal** com **hiperextensão da distal**: a ordem inversa do pescoço de cisne.
 significado: |
-  O mecanismo, segundo McGee: **desinserção da faixa central do tendão extensor** sobre a interfalangiana proximal, que escapa entre as faixas laterais como um botão pela casa. Achado comum na **artrite reumatoide**; como o pescoço de cisne, começa redutível e evolui para contratura fixa.
+  O mecanismo: **desinserção da faixa central do tendão extensor** sobre a interfalangiana proximal, que escapa entre as faixas laterais como um botão pela casa. Achado comum na **artrite reumatoide**; como o pescoço de cisne, começa redutível e evolui para contratura fixa.
 causas:
   - "Artrite reumatoide"
   - "Lesão traumática do aparelho extensor do dedo"
@@ -299,7 +299,7 @@ causas:
 :::
 
 ::: tabela
-titulo: "Punho, carpo e dedos: achado e diagnóstico implicado (McGee, Tabela 57.2)"
+titulo: "Punho, carpo e dedos: achado e diagnóstico implicado"
 colunas:
   - "Achado"
   - "Diagnóstico implicado"
@@ -347,11 +347,11 @@ causas:
 ::: entendimento
 titulo: Por que esta tabela não tem uma coluna de razão de verossimilhança
 texto: |
-  Um leitor que chegou até aqui vindo dos capítulos do coração ou do pulmão vai estranhar uma tabela de catorze linhas sem um único número. A ausência é **deliberada**, e a explicação está no próprio McGee.
+  Um leitor que chegou até aqui vindo dos capítulos do coração ou do pulmão vai estranhar uma tabela de catorze linhas sem um único número. A ausência é **deliberada**, e a explicação é direta.
 
   Uma razão de verossimilhança compara um achado com um **padrão diagnóstico independente**. Existe um para a estenose aórtica, o ecocardiograma. Existe um para a ruptura do manguito, a artroscopia. Existe um para a síndrome do túnel do carpo: a eletroneuromiografia.
 
-  **Mas qual é o padrão independente para "artrite reumatoide"?** O fator reumatoide não serve: McGee lembra que a doença existe sem ele. A radiografia não serve: ela mostra a consequência do que a mão já mostrou. O que define a doença, na prática, é o **conjunto clínico**, e o desvio ulnar e o pescoço de cisne fazem parte desse conjunto. Medir o achado contra um padrão do qual ele faz parte é medir uma coisa contra si mesma.
+  **Mas qual é o padrão independente para "artrite reumatoide"?** O fator reumatoide não serve: A doença existe sem ele. A radiografia não serve: ela mostra a consequência do que a mão já mostrou. O que define a doença, na prática, é o **conjunto clínico**, e o desvio ulnar e o pescoço de cisne fazem parte desse conjunto. Medir o achado contra um padrão do qual ele faz parte é medir uma coisa contra si mesma.
 
   **A consequência prática não é a que se imagina.** A ausência de número não rebaixa o achado; ela o **promove**. Um sinal que entra na definição da doença carrega mais informação do que qualquer teste com razão de verossimilhança 3. O que ele exige em troca é rigor descritivo: não basta anotar "deformidades nas mãos". É preciso dizer **quais** articulações, **em que sentido** elas se deformaram e se a deformidade **ainda se desfaz** com o dedo do examinador.
 :::
@@ -359,20 +359,20 @@ texto: |
 ::: conceito
 titulo: Amplitudes do punho e dos dedos, e onde as obras não concordam
 texto: |
-  Semiologia Clínica define o repertório a avaliar: no punho, **flexão, extensão, desvio radial e desvio ulnar**; na mão, **extensão e flexão dos dedos**, seu afastamento e sua aproximação, e a **oponência do polegar**.
+  O repertório a avaliar: no punho, **flexão, extensão, desvio radial e desvio ulnar**; na mão, **extensão e flexão dos dedos**, seu afastamento e sua aproximação, e a **oponência do polegar**.
 
-  Os valores normais, como já aconteceu no ombro e no cotovelo, **não coincidem entre as obras**:
+  Os valores normais, como já aconteceu no ombro e no cotovelo, **divergem nas referências**:
 
-  - **Extensão do punho**, Porto, nas duas obras: **70°**. McGee: **70°**. As três concordam.
-  - **Flexão palmar**, Porto, nas duas obras: **90°**. McGee: **80° a 90°**. Praticamente concordam.
-  - **Desvio radial**, Porto: **20°**. McGee: **20° a 30°**.
-  - **Desvio ulnar**, Porto: **30°**. McGee: **50°**. É a maior divergência do punho, e ela importa porque o desvio ulnar é justamente o movimento do teste de Finkelstein.
-  - **Metacarpofalangianas**, Porto: flexão **90°**, extensão **30°**. McGee: flexão **90°**, e uma medida que Porto não tabula, a **abdução e adução combinadas de 30° a 40°**.
-  - **Interfalangiana proximal**, Porto, nas duas obras: **90°**. McGee: **120°**.
-  - **Interfalangiana distal**, Porto, no *Exame Clínico*: **90°**; na *Semiologia Médica*: **80°**. McGee: **80°**. Aqui a divergência é **interna a Porto**, e o guia registra as duas.
-  - **Polegar**, Porto: abdução **110°**, oponência **45°**, flexão da metacarpofalangiana e da interfalangiana **90°**. McGee não tabula o polegar separadamente.
+  - **Extensão do punho**: as referências concordam em **70°**.
+  - **Flexão palmar**: uma referência traz **90°** (em duas passagens); outra traz **80° a 90°**. Praticamente concordam.
+  - **Desvio radial**: uma referência traz **20°**; outra, **20° a 30°**.
+  - **Desvio ulnar**: uma referência traz **30°**; outra, **50°**. É a maior divergência do punho, e ela importa porque o desvio ulnar é justamente o movimento do teste de Finkelstein.
+  - **Metacarpofalangianas**: uma referência traz flexão **90°**, extensão **30°**; outra traz flexão **90°**, e uma medida não tabulada na primeira, a **abdução e adução combinadas de 30° a 40°**.
+  - **Interfalangiana proximal**: uma referência traz **90°** (em duas passagens); outra traz **120°**.
+  - **Interfalangiana distal**: duas passagens de uma mesma referência trazem **90°** e **80°**; outra referência também traz **80°**. Aqui a divergência é **interna a uma mesma referência**, e o guia registra as duas.
+  - **Polegar**: uma referência traz abdução **110°**, oponência **45°**, flexão da metacarpofalangiana e da interfalangiana **90°**; outra não tabula o polegar separadamente.
 
-  **A leitura é a mesma de todo o capítulo:** a régua confiável é o **outro punho do mesmo paciente**, e o que se registra é o valor medido dos dois lados. Para os dedos, Semiologia Clínica oferece um teste funcional que dispensa graus e que qualquer examinador reproduz: observar se **os dedos se movimentam todos juntos, no mesmo ritmo**, ao abrir e fechar a mão. Um dedo que sai do conjunto é um dedo que tem alguma coisa.
+  **A leitura é a mesma de todo o capítulo:** a régua confiável é o **outro punho do mesmo paciente**, e o que se registra é o valor medido dos dois lados. Para os dedos, há um teste funcional que dispensa graus e que qualquer examinador reproduz: observar se **os dedos se movimentam todos juntos, no mesmo ritmo**, ao abrir e fechar a mão. Um dedo que sai do conjunto é um dedo que tem alguma coisa.
 :::
 
 ::: secao
@@ -382,26 +382,26 @@ titulo: Tenossinovites, dedo em gatilho e a força que a mão perde
 ::: conceito
 titulo: De Quervain e o teste de Finkelstein
 texto: |
-  **A doença.** Semiologia Clínica e Porto descrevem a mesma coisa com ênfases diferentes, e as duas somadas dão o quadro completo. É a inflamação da **bainha por onde passam o abdutor longo e o extensor curto do polegar**, na face radial do punho. Porto acrescenta a mecânica da compressão: os tendões ficam espremidos entre o **processo estiloide do rádio**, por dentro, e o **ligamento anular**, por fora, e registra que é mais comum em mulheres e que a causa é uso excessivo. Semiologia Clínica descreve a dor: **insidiosa**, podendo ser aguda no dorso do polegar e sobre o estiloide radial, com irradiação **proximal**; e o efeito tardio, que é o que traz o paciente, dificuldade para segurar objetos e para os movimentos que exigem o polegar **em garra**. Porto delimita a extensão da dor à palpação: cerca de **2 a 3 cm** ao longo dos tendões, com edema local e, mais raramente, calor e rubor.
+  **A doença.** É a inflamação da **bainha por onde passam o abdutor longo e o extensor curto do polegar**, na face radial do punho. A mecânica da compressão: os tendões ficam espremidos entre o **processo estiloide do rádio**, por dentro, e o **ligamento anular**, por fora; é mais comum em mulheres e a causa costuma ser uso excessivo. A dor: **insidiosa**, podendo ser aguda no dorso do polegar e sobre o estiloide radial, com irradiação **proximal**; e o efeito tardio, que é o que traz o paciente, dificuldade para segurar objetos e para os movimentos que exigem o polegar **em garra**. A extensão da dor à palpação: cerca de **2 a 3 cm** ao longo dos tendões, com edema local e, mais raramente, calor e rubor.
 
-  **A manobra, e aqui as três obras descrevem gestos que não são idênticos.** O guia registra a divergência em vez de escolher em silêncio.
+  **A manobra, e aqui as referências descrevem gestos que não são idênticos.** O guia registra a divergência em vez de escolher em silêncio.
 
-  - **Semiologia Clínica:** o paciente **cerra o punho com o polegar por baixo**, escondido pelos outros dedos; o examinador **estabiliza o antebraço** e **desvia passivamente o punho em direção ulnar**. Positivo quando surge dor aguda na projeção do túnel.
-  - **McGee**, na Tabela 57.2: dor quando o paciente **fecha a mão sobre o polegar e inclina o punho em direção ulnar**. É a mesma descrição.
-  - **Porto:** a dor piora nos tendões acometidos quando o **polegar é forçadamente aduzido, com os demais dedos fechados sobre ele**, e ele **não menciona o desvio ulnar do punho**.
+  - Uma descrição: o paciente **cerra o punho com o polegar por baixo**, escondido pelos outros dedos; o examinador **estabiliza o antebraço** e **desvia passivamente o punho em direção ulnar**. Positivo quando surge dor aguda na projeção do túnel.
+  - Outra referência traz a mesma descrição: dor quando o paciente **fecha a mão sobre o polegar e inclina o punho em direção ulnar**.
+  - Uma terceira descrição diverge: a dor piora nos tendões acometidos quando o **polegar é forçadamente aduzido, com os demais dedos fechados sobre ele**, **sem menção ao desvio ulnar do punho**.
 
-  Duas das três obras exigem o **desvio ulnar do punho**; Porto descreve apenas a adução forçada do polegar. Não é uma diferença cosmética: sem o desvio ulnar, os tendões não são estirados sob o retináculo, e a manobra perde justamente o que a torna provocativa. **Este guia ensina a versão com desvio ulnar**, que é a majoritária e a que McGee tabula, e registra a de Porto porque quem consultar a obra vai encontrá-la.
+  Duas das três descrições exigem o **desvio ulnar do punho**; a terceira descreve apenas a adução forçada do polegar. Não é uma diferença cosmética: sem o desvio ulnar, os tendões não são estirados sob o retináculo, e a manobra perde justamente o que a torna provocativa. **Este guia ensina a versão com desvio ulnar**, que é a majoritária, e registra a outra porque quem consultar as referências vai encontrá-la.
 
-  **E o que nenhuma das três oferece: um número.** O teste de Finkelstein está na tabela de McGee que, por construção, não traz razão de verossimilhança. Ele se ensina como técnica, não como probabilidade.
+  **E o que nenhuma das descrições oferece: um número.** O teste de Finkelstein está na tabulação que, por construção, não traz razão de verossimilhança. Ele se ensina como técnica, não como probabilidade.
 :::
 
 ::: sinal
 nome: Dedo em gatilho
-descricao: "O dedo se flete sobre a palma normalmente, mas **a extensão trava**. Porto descreve o momento exato: o movimento é bloqueado e, só quando ocorre um ressalto, o tendão vence a resistência e completa a extensão. Semiologia Clínica acrescenta o que o paciente relata: muitas vezes precisa da outra mão para abrir o dedo, e o desbloqueio vem com um clique. À palpação da palma, no nível da metacarpofalangiana, encontram-se pequenos nódulos."
-significado: "É uma **tenossinovite estenosante, não uma doença da articulação**. Porto explica o mecanismo pelo lado do tendão: a estenose da bainha ou a formação de um nódulo no próprio tendão impede o deslizamento suave. Semiologia Clínica explica pelo lado do túnel: a tenossinovite evolui com fibrose, e a primeira polia anular se estreita sobre a metacarpofalangiana. McGee registra o achado na tabela de punho e mão, sem razão de verossimilhança, como sensação de ressalto ou travamento na palma durante a flexão e a extensão dos dedos. É um bom exemplo do princípio geral do capítulo: aumento de volume e dor fora das margens da junta apontam para fora dela."
+descricao: "O dedo se flete sobre a palma normalmente, mas **a extensão trava**. O momento exato: o movimento é bloqueado e, só quando ocorre um ressalto, o tendão vence a resistência e completa a extensão. O que o paciente relata: muitas vezes precisa da outra mão para abrir o dedo, e o desbloqueio vem com um clique. À palpação da palma, no nível da metacarpofalangiana, encontram-se pequenos nódulos."
+significado: "É uma **tenossinovite estenosante, não uma doença da articulação**. O mecanismo pelo lado do tendão: a estenose da bainha ou a formação de um nódulo no próprio tendão impede o deslizamento suave. Pelo lado do túnel: a tenossinovite evolui com fibrose, e a primeira polia anular se estreita sobre a metacarpofalangiana. O achado, registrado sem razão de verossimilhança, aparece como sensação de ressalto ou travamento na palma durante a flexão e a extensão dos dedos. É um bom exemplo do princípio geral do capítulo: aumento de volume e dor fora das margens da junta apontam para fora dela."
 causas:
   - "Uso excessivo e microtraumatismos repetidos"
-  - "Artrite reumatoide, que Porto registra como associação frequente"
+  - "Artrite reumatoide, associação frequente"
   - "Gota"
   - "Diabetes melito"
   - "Forma espontânea, sem doença de base identificada"
@@ -410,22 +410,22 @@ causas:
 ::: conceito
 titulo: A força que a mão perde, e o que se pode medir dela
 texto: |
-  Perda de força na mão é queixa comum e mal registrada. O que as quatro obras adotadas oferecem é menos do que se gostaria, e é melhor dizer isso em voz alta.
+  Perda de força na mão é queixa comum e mal registrada. O que as referências oferecem é menos do que se gostaria, e é melhor dizer isso em voz alta.
 
   **O que existe.**
 
-  - **Uma escala.** A graduação da força de **0 a 5** vale para os músculos da mão como para qualquer outro, e está no tópico de força, tônus e reflexos. Semiologia Clínica a reproduz na Tabela 5 do capítulo do exame locomotor e pede que a força de **cada grupo muscular** seja graduada.
-  - **Um teste funcional com alvo.** A **oponência do polegar**, tocar a extremidade distal de todos os dedos, é uma prova de tudo ou nada, reprodutível, que Semiologia Clínica ensina como parte do exame da mão.
-  - **Dois achados medidos, mas para outra pergunta.** No boxe EBM 64.3, a **fraqueza da abdução do polegar** rende razão de verossimilhança **1,8** e a **atrofia tenar**, **1,7**, ambas para síndrome do túnel do carpo. São números modestos, e valem para a compressão do mediano, não para "fraqueza da mão" em geral.
-  - **Uma tradução funcional.** Porto, ao correlacionar queixa e topografia da fraqueza, associa a **dificuldade para manipular objetos, abrir garrafas e abotoar roupas** à fraqueza braquial distal. É uma pergunta de anamnese que vale por um teste.
+  - **Uma escala.** A graduação da força de **0 a 5** vale para os músculos da mão como para qualquer outro, e está no tópico de força, tônus e reflexos; a força de **cada grupo muscular** deve ser graduada.
+  - **Um teste funcional com alvo.** A **oponência do polegar**, tocar a extremidade distal de todos os dedos, é uma prova de tudo ou nada, reprodutível, e faz parte do exame da mão.
+  - **Dois achados medidos, mas para outra pergunta.** Nos números compilados, a **fraqueza da abdução do polegar** rende razão de verossimilhança **1,8** e a **atrofia tenar**, **1,7**, ambas para síndrome do túnel do carpo. São números modestos, e valem para a compressão do mediano, não para "fraqueza da mão" em geral.
+  - **Uma tradução funcional:** correlacionando queixa e topografia da fraqueza, a **dificuldade para manipular objetos, abrir garrafas e abotoar roupas** associa-se à fraqueza braquial distal. É uma pergunta de anamnese que vale por um teste.
 
-  - **A preensão palmar, medida, mas para outra pergunta.** Ela **tem** instrumento, técnica e ponto de corte nas obras adotadas, e tem até razão de verossimilhança. O que ela não tem é validação como sinal de doença da mão.
+  - **A preensão palmar, medida, mas para outra pergunta.** Ela **tem** instrumento, técnica e ponto de corte nas referências, e tem até razão de verossimilhança. O que ela não tem é validação como sinal de doença da mão.
 
-    **McGee**, no capítulo de desnutrição proteico-energética, descreve a técnica: o paciente aperta um dinamômetro de mola **três vezes, com 10 segundos de descanso** entre as tentativas, e se registra o maior valor; e guarda a improvisação histórica, para quem não tem o aparelho, enrolar um manguito aneroide de pressão em um cilindro de cerca de duas polegadas, insuflá-lo a **20 mmHg** e pedir que o paciente o aperte, lendo o resultado em milímetros de mercúrio. No boxe EBM 12.1, a **preensão reduzida** rende razão de verossimilhança **2,5**, e a preensão **normal**, **0,4**, mas o desfecho medido é **complicação pós-operatória maior**, não doença articular. E há a exclusão que decide o assunto: os estudos **excluíram justamente os pacientes com artrite**, acidente vascular ou outra causa evidente de fraqueza.
+    Uma técnica: o paciente aperta um dinamômetro de mola **três vezes, com 10 segundos de descanso** entre as tentativas, e se registra o maior valor; há também a improvisação histórica, para quem não tem o aparelho, enrolar um manguito aneroide de pressão em um cilindro de cerca de duas polegadas, insuflá-lo a **20 mmHg** e pedir que o paciente o aperte, lendo o resultado em milímetros de mercúrio. Nos números compilados, a **preensão reduzida** rende razão de verossimilhança **2,5**, e a preensão **normal**, **0,4**, mas o desfecho medido é **complicação pós-operatória maior**, não doença articular. E há a exclusão que decide o assunto: os estudos **excluíram justamente os pacientes com artrite**, acidente vascular ou outra causa evidente de fraqueza.
 
-    **Porto** dá o número brasileiro, no terreno da **sarcopenia**: dinamômetro isométrico com o paciente sentado, ombros em abdução, cotovelo fletido em ângulo reto, antebraço em posição neutra e punho entre 0 e 30 graus de dorsiflexão, com a média de medidas repetidas; os valores de referência são **abaixo de 30 kg em homens e de 20 kg em mulheres**. E oferece a saída para quem não consegue executar a preensão, em situação que ele nomeia, e que é a deste tópico: **artrite**. Nesse caso, mede-se o **teste da subida da cadeira**, o tempo para levantar-se cinco vezes da posição sentada, com corte de **15 segundos**.
+    Há também um número no terreno da **sarcopenia**: dinamômetro isométrico com o paciente sentado, ombros em abdução, cotovelo fletido em ângulo reto, antebraço em posição neutra e punho entre 0 e 30 graus de dorsiflexão, com a média de medidas repetidas; os valores de referência são **abaixo de 30 kg em homens e de 20 kg em mulheres**. E há a saída para quem não consegue executar a preensão, em situação nomeada, que é a deste tópico: **artrite**. Nesse caso, mede-se o **teste da subida da cadeira**, o tempo para levantar-se cinco vezes da posição sentada, com corte de **15 segundos**.
 
-  **A leitura, portanto, é a mesma dos dois achados anteriores: medido, mas para outra pergunta.** A preensão prevê complicação cirúrgica e rastreia sarcopenia; **nenhuma das quatro obras a mede como sinal diagnóstico de doença da mão**, e a fonte que mais a mede exclui, do seu próprio denominador, o paciente com artrite. **O instrumento, a técnica e os cortes de 30 e 20 kg são ensinados no tópico de antropometria e hidratação**, e não são reensinados aqui. O que este tópico faz com a preensão é o que a fonte autoriza: registrar que ela caiu, e não confundir a queda com diagnóstico.
+  **A leitura, portanto, é a mesma dos dois achados anteriores: medido, mas para outra pergunta.** A preensão prevê complicação cirúrgica e rastreia sarcopenia; **nenhuma das referências a mede como sinal diagnóstico de doença da mão**, e a que mais a mede exclui, do seu próprio denominador, o paciente com artrite. **O instrumento, a técnica e os cortes de 30 e 20 kg são ensinados no tópico de antropometria e hidratação**, e não são reensinados aqui. O que este tópico faz com a preensão é registrar que ela caiu, e não confundir a queda com diagnóstico.
 
   **E a armadilha que fecha o assunto.** Força reduzida na mão pode vir da junta, do tendão, do músculo ou do nervo, e as quatro se examinam de modos diferentes. Uma mão que não fecha porque **dói** não é uma mão fraca; e o par movimento ativo contra movimento passivo, ensinado no primeiro tópico deste capítulo, é o que separa as duas coisas antes de qualquer teste especial.
 :::
@@ -448,14 +448,14 @@ texto: |
 
   **As associações que a anamnese procura**, segundo a mesma obra: gravidez e outras condições que retêm líquido; trauma; osteoartrite; artrite inflamatória; distúrbios metabólicos, entre eles o diabetes e o hipotireoidismo; e doenças de depósito, como a amiloidose.
 
-  **As manobras, com as definições operacionais que os estudos usaram.** McGee é quem dá o detalhe cronometrado, e o detalhe importa porque é o que torna o achado comparável:
+  **As manobras, com as definições operacionais que os estudos usaram**, com o detalhe cronometrado que torna o achado comparável:
 
-  - **Sinal de Tinel**: **percussão sobre a prega distal do punho**, na projeção do mediano. Positivo quando surgem **parestesias no território do mediano**. Semiologia Clínica descreve o mesmo gesto como percussão sobre a projeção do ligamento, reproduzindo dor e parestesia.
-  - **Sinal de Phalen**: **flexão máxima dos punhos mantida por 60 segundos**. Semiologia Clínica ensina a versão de consultório, que é a mesma coisa executada com as duas mãos ao mesmo tempo: manter por um minuto a flexão dos punhos **com os dorsos encostados**, cotovelos fletidos e elevados. Positivo quando os sintomas se reproduzem. Porto também nomeia a manobra de Phalen, entre as manobras específicas para avaliar dor no punho.
-  - **Manobra de Phalen invertida**, Semiologia Clínica: essencialmente a mesma, com os punhos em **extensão máxima**.
-  - **Teste de provocação por pressão**, McGee: os **polegares do examinador comprimem firmemente a face palmar da prega distal do punho por 60 segundos**. Mesmo desfecho positivo, estímulo diferente.
+  - **Sinal de Tinel**: **percussão sobre a prega distal do punho**, na projeção do mediano. Positivo quando surgem **parestesias no território do mediano**. O mesmo gesto também se descreve como percussão sobre a projeção do ligamento, reproduzindo dor e parestesia.
+  - **Sinal de Phalen**: **flexão máxima dos punhos mantida por 60 segundos**. A versão de consultório é a mesma coisa executada com as duas mãos ao mesmo tempo: manter por um minuto a flexão dos punhos **com os dorsos encostados**, cotovelos fletidos e elevados. Positivo quando os sintomas se reproduzem. A manobra de Phalen também é nomeada entre as manobras específicas para avaliar dor no punho.
+  - **Manobra de Phalen invertida**: essencialmente a mesma, com os punhos em **extensão máxima**.
+  - **Teste de provocação por pressão**: os **polegares do examinador comprimem firmemente a face palmar da prega distal do punho por 60 segundos**. Mesmo desfecho positivo, estímulo diferente.
 
-  **Um detalhe que muda o interrogatório, e que é fácil levar longe demais.** McGee registra por que o **padrão clássico** do diagrama de sintomas **exclui a palma**: o **ramo cutâneo palmar do mediano não passa dentro do túnel do carpo**. Mas o boxe não autoriza concluir que sintomas na palma afastem o diagnóstico: o padrão **provável** é definido como igual ao clássico **admitindo sintomas palmares**, e os dois entram na **mesma linha**, com a mesma razão de verossimilhança **2,4**. Sintomas na palma, portanto, movem o desenho de clássico para provável **dentro do mesmo grupo**, e não para fora dele.
+  **Um detalhe que muda o interrogatório, e que é fácil levar longe demais.** O **padrão clássico** do diagrama de sintomas **exclui a palma** porque o **ramo cutâneo palmar do mediano não passa dentro do túnel do carpo**. Mas isso não autoriza concluir que sintomas na palma afastem o diagnóstico: o padrão **provável** é definido como igual ao clássico **admitindo sintomas palmares**, e os dois entram na **mesma linha**, com a mesma razão de verossimilhança **2,4**. Sintomas na palma, portanto, movem o desenho de clássico para provável **dentro do mesmo grupo**, e não para fora dele.
 
   **O que de fato argumenta contra é o padrão improvável**, definido pela ausência de sintomas nos **dedos 1, 2 e 3**, e é ele que rende **0,2**. A pergunta que vale, portanto, não é "dói na palma?", e sim "**o polegar, o indicador ou o médio estão dentro da queixa?**".
 :::
@@ -475,7 +475,7 @@ nome: Sinal de Tinel
 descricao: |
   **Percussão sobre a prega distal do punho**, na projeção do nervo mediano. Positivo quando surgem **parestesias no território do mediano**: polegar, segundo e terceiro dedos e a metade radial do quarto.
 significado: |
-  É a manobra mais conhecida da síndrome do túnel do carpo e uma das que **menos movem a probabilidade**: positiva confirma pouco e sua ausência não afasta nada. A razão, segundo McGee: Tinel e Phalen **não separam** o túnel do carpo das demais causas de disestesia da mão, como polineuropatia, neuropatia ulnar e radiculopatia. Registre o gesto e o desfecho, não o rótulo: **"percussão do punho reproduziu formigamento no indicador e no médio"** é frase conferível.
+  É a manobra mais conhecida da síndrome do túnel do carpo e uma das que **menos movem a probabilidade**: positiva confirma pouco e sua ausência não afasta nada. A razão: Tinel e Phalen **não separam** o túnel do carpo das demais causas de disestesia da mão, como polineuropatia, neuropatia ulnar e radiculopatia. Registre o gesto e o desfecho, não o rótulo: **"percussão do punho reproduziu formigamento no indicador e no médio"** é frase conferível.
 causas:
   - "Síndrome do túnel do carpo (compressão do nervo mediano)"
   - "Outras causas de disestesia da mão, que a manobra não separa: polineuropatia, neuropatia ulnar, radiculopatia cervical"
@@ -484,7 +484,7 @@ causas:
 ::: sinal
 nome: Sinal de Phalen
 descricao: "Mantém-se a **flexão máxima dos punhos por 60 segundos**. A versão de consultório de Semiologia Clínica encosta os dorsos das mãos, com os cotovelos fletidos e elevados, e testa os dois lados ao mesmo tempo. O sinal é positivo quando surgem parestesias no território do mediano: polegar, indicador, médio e metade radial do anular."
-significado: "É a manobra mais conhecida da síndrome do túnel do carpo e **uma das de pior desempenho medido**. No boxe EBM 64.3, tendo a eletroneuromiografia como padrão, Phalen tem sensibilidade de 10% a 91% e especificidade de 33% a 86%, com razão de verossimilhança 1,3 quando presente e 0,7 quando ausente. Nenhum dos dois números move a probabilidade de forma útil. McGee é explícito sobre a razão: Tinel, Phalen e as manobras provocativas mais recentes não separam a síndrome do túnel do carpo das demais causas comuns de disestesia da mão, como polineuropatia, neuropatia ulnar e radiculopatia."
+significado: "É a manobra mais conhecida da síndrome do túnel do carpo e **uma das de pior desempenho medido**. Nos números compilados, tendo a eletroneuromiografia como padrão, Phalen tem sensibilidade de 10% a 91% e especificidade de 33% a 86%, com razão de verossimilhança 1,3 quando presente e 0,7 quando ausente. Nenhum dos dois números move a probabilidade de forma útil. A razão é explícita: Tinel, Phalen e as manobras provocativas mais recentes não separam a síndrome do túnel do carpo das demais causas comuns de disestesia da mão, como polineuropatia, neuropatia ulnar e radiculopatia."
 causas:
   - "Síndrome do túnel do carpo, que é a hipótese que a manobra interroga"
   - "Polineuropatia, que produz disestesia da mão e falseia a manobra"
@@ -497,7 +497,7 @@ titulo: Aprofundamento
 :::
 
 ::: tabela
-titulo: "Diagnóstico da síndrome do túnel do carpo: o boxe EBM 64.3 de McGee, na íntegra"
+titulo: "Diagnóstico da síndrome do túnel do carpo: os números, na íntegra"
 nivel: avancado
 colunas:
   - "Achado"
@@ -577,7 +577,7 @@ linhas:
 titulo: "Ler a tabela do túnel do carpo: quatro incômodos úteis"
 nivel: avancado
 texto: |
-  Antes dos números, o limite. O padrão diagnóstico é a **condução motora ou sensitiva anormal dentro do túnel do carpo**, medida por eletroneuromiografia. Tudo o que a tabela diz é: **este achado prevê aquele exame**. Não é o mesmo que dizer que ele prevê o sofrimento do paciente, e McGee registra, no próprio capítulo, que os achados provocativos não separam a compressão do mediano de outras causas de disestesia da mão.
+  Antes dos números, o limite. O padrão diagnóstico é a **condução motora ou sensitiva anormal dentro do túnel do carpo**, medida por eletroneuromiografia. Tudo o que a tabela diz é: **este achado prevê aquele exame**. Não é o mesmo que dizer que ele prevê o sofrimento do paciente: os achados provocativos não separam a compressão do mediano de outras causas de disestesia da mão.
 
   **Primeiro incômodo: as duas manobras mais ensinadas são as que menos servem.** **Tinel rende 1,4** quando positivo e **não alcança significância** quando negativo. **Phalen rende 1,3** e **0,7**. Traduzindo para o que isso significa à beira do leito: um Phalen positivo em um paciente com probabilidade prévia de 50% a leva para algo em torno de 57%; um Phalen negativo a deixa em torno de 41%. A conduta não muda em nenhuma das duas direções. E o **teste de provocação por pressão** e o **sinal do sacudir a mão**, que aparecem em textos mais recentes, **não alcançam significância em nenhuma direção**.
 
@@ -594,7 +594,7 @@ texto: |
 titulo: A concordância entre observadores, e o paradoxo que ela produz
 nivel: avancado
 texto: |
-  A Tabela 5.1 de McGee, na seção de nervo periférico, mede a concordância entre observadores para os mesmos achados:
+  A tabulação de concordância entre observadores, na seção de nervo periférico, mede a concordância para os mesmos achados:
 
   - **sinal do sacudir a mão**: **0,90**;
   - **diagrama da mão de Katz**: **0,86**;
@@ -602,7 +602,7 @@ texto: |
   - **hipoalgesia do indicador**: **0,50**;
   - **sinal de Tinel**: **0,47**.
 
-  Posto ao lado do boxe EBM 64.3, esse conjunto produz uma inversão que vale ser vista com calma.
+  Posto ao lado dos números de desempenho, esse conjunto produz uma inversão que vale ser vista com calma.
 
   **O sinal do sacudir a mão é o achado mais reprodutível da lista, e não tem valor diagnóstico nenhum.** Dois examinadores concordam quase sempre sobre se o paciente sacode a mão; a concordância, porém, é sobre um comportamento que ocorre com a mesma frequência em quem tem e em quem não tem compressão do mediano. **Reprodutibilidade não é acurácia**, e este é o exemplo mais limpo disso em todo o guia.
 
@@ -626,7 +626,7 @@ texto: |
 
   As duas frases se cruzam exatamente onde as interfalangianas proximais estão, que é a única fileira que as duas doenças dividem. **O que separa é o que está nas pontas e o que está na base.** Nódulos duros nas distais apontam para a osteoartrite; tumefação elástica nas metacarpofalangianas aponta para a reumatoide.
 
-  **O que a palpação acrescenta à inspeção.** A textura decide: a osteoartrite produz **crescimento ósseo**, e Porto insiste no adjetivo, nódulos **duros e indolores**. A artrite reumatoide produz **proliferação sinovial**, e Semiologia Clínica insiste na outra textura: **consistência de borracha**. Duas mãos aumentadas de volume, dois materiais diferentes sob o dedo.
+  **O que a palpação acrescenta à inspeção.** A textura decide: a osteoartrite produz **crescimento ósseo**, nódulos **duros e indolores**. A artrite reumatoide produz **proliferação sinovial**, com a textura característica: **consistência de borracha**. Duas mãos aumentadas de volume, dois materiais diferentes sob o dedo.
 
   **O que o resto do exame acrescenta à mão.**
 
@@ -651,8 +651,8 @@ texto: |
   - **A coluna cervical**, com a manobra de Spurling, o teste de distração de Apley e o sinal de Lhermitte, está no tópico de coluna vertebral. É ela que interroga a radiculopatia, uma das causas de disestesia da mão que Tinel e Phalen não conseguem separar.
   - **Os dermátomos, o monofilamento de Semmes-Weinstein e a comparação com o diapasão de 128 Hz** estão em sensibilidade e coordenação, e é lá que se vê o mesmo monofilamento funcionando bem em outra doença.
   - **A graduação da força de 0 a 5**, o tônus e os reflexos bicipital, braquiorradial e tricipital estão em força, tônus e reflexos.
-  - **As unhas, o ângulo de implantação e as lesões elementares da pele** estão em pele, mucosas e fâneros; o **baqueteamento digital** com o desempenho medido está na inspeção do tórax. A osteoartropatia hipertrófica, que a Tabela 57.2 associa à tumefação do punho com baqueteamento, atravessa os dois tópicos.
-  - **Os pulsos radial e ulnar e o tempo de enchimento capilar**, que a Tabela 4 de Semiologia Clínica inclui no exame do punho e da mão, estão no tópico de pulsos arteriais periféricos. O **nervo ulnar** aparece na mesma tabela, mas na linha do **cotovelo**: é lá que ele é acessível à palpação, e é assim que a fonte o organiza; este tópico o inclui no fecho do exame por continuidade do membro, e não por topografia.
+  - **As unhas, o ângulo de implantação e as lesões elementares da pele** estão em pele, mucosas e fâneros; o **baqueteamento digital** com o desempenho medido está na inspeção do tórax. A osteoartropatia hipertrófica, associada à tumefação do punho com baqueteamento, atravessa os dois tópicos.
+  - **Os pulsos radial e ulnar e o tempo de enchimento capilar**, incluídos no exame do punho e da mão, estão no tópico de pulsos arteriais periféricos. O **nervo ulnar** é examinado no **cotovelo**, onde é acessível à palpação; este tópico o inclui no fecho do exame por continuidade do membro, e não por topografia.
   - **A força de preensão palmar**: o dinamômetro, a técnica, os cortes de 20 kg em mulheres e de 30 kg em homens e a razão de verossimilhança 2,5 para complicação pós-operatória, está em antropometria e hidratação, junto do restante da avaliação de massa e função musculares. Este tópico apenas registra que a preensão caiu.
 :::
 
@@ -667,7 +667,7 @@ texto: |
   2. **Anotar "deformidades nas mãos".** A frase não é interpretável. O que importa é **quais fileiras** estão acometidas (distais, proximais ou metacarpofalangianas) **em que sentido** a deformidade se dá e **se ela ainda se reduz**. As deformidades da mão reumatoide são inicialmente redutíveis, e a redutibilidade data a doença.
   3. **Palpar a junta com um dedo só.** A proliferação sinovial é encontrada pela **técnica dos quatro pontos**, com polegares e indicadores das duas mãos sentindo dorso, palma e as duas laterais. Sinovite sem calor e sem rubor é comum, e o que a denuncia é a consistência de borracha.
   4. **Confundir aumento de volume articular com periarticular no dedo.** O derrame sinovial produz aumento **simétrico**, com aspecto de **fuso**; a origem extrassinovial produz aumento **assimétrico e difuso**. É a mesma pergunta do primeiro tópico deste capítulo, respondida em escala pequena.
-  5. **Fazer o teste de Finkelstein sem o desvio ulnar do punho.** Duas das três obras exigem o desvio; sem ele, os tendões não são estirados e a manobra deixa de provocar. Porto descreve apenas a adução forçada do polegar, e essa diferença precisa ser conhecida por quem consultar as fontes.
+  5. **Fazer o teste de Finkelstein sem o desvio ulnar do punho.** Duas das três descrições exigem o desvio; sem ele, os tendões não são estirados e a manobra deixa de provocar. Uma terceira descreve apenas a adução forçada do polegar, e essa diferença precisa ser conhecida por quem consultar as referências.
   6. **Esquecer a base do polegar.** Dor à palpação da primeira carpometacarpiana sugere **rizoartrose**, e é uma queixa frequentemente atribuída ao punho por quem não palpou o ponto certo.
 :::
 
@@ -706,11 +706,11 @@ perguntas:
     enunciado: Uma mulher de 47 anos tem parestesias noturnas no polegar, no indicador e no médio da mão direita. O sinal de Phalen é positivo. Como esse resultado entra no raciocínio?
     alternativas:
       - "Confirma a compressão do mediano, já que a manobra reproduz os sintomas no território do nervo"
-      - "Move pouco a probabilidade: no boxe EBM 64.3, o sinal de Phalen rende razão de verossimilhança 1,3 quando presente"
+      - "Move pouco a probabilidade: nos números compilados, o sinal de Phalen rende razão de verossimilhança 1,3 quando presente"
       - "Não tem interpretação possível fora do bloco cirúrgico, porque o único padrão aceito para a síndrome do túnel do carpo é a visualização direta do ligamento durante a descompressão"
       - "Afasta polineuropatia, uma vez que a flexão mantida do punho só reproduz sintomas quando a compressão é focal"
     corretaIndex: 1
-    explicacao: "No boxe EBM 64.3, tendo a eletroneuromiografia como padrão, o sinal de Phalen tem sensibilidade de 10% a 91% e especificidade de 33% a 86%, com razão de verossimilhança 1,3 quando presente e 0,7 quando ausente; o sinal de Tinel rende 1,4 e a ausência não alcança significância. McGee registra que essas manobras não separam a síndrome do túnel do carpo de outras causas comuns de disestesia da mão, como polineuropatia, neuropatia ulnar e radiculopatia. Os achados que mais movem a probabilidade são a hipoalgesia no território do mediano, com 3,1, e o índice do punho quadrado, com 2,7."
+    explicacao: "Nos números compilados, tendo a eletroneuromiografia como padrão, o sinal de Phalen tem sensibilidade de 10% a 91% e especificidade de 33% a 86%, com razão de verossimilhança 1,3 quando presente e 0,7 quando ausente; o sinal de Tinel rende 1,4 e a ausência não alcança significância. Essas manobras não separam a síndrome do túnel do carpo de outras causas comuns de disestesia da mão, como polineuropatia, neuropatia ulnar e radiculopatia. Os achados que mais movem a probabilidade são a hipoalgesia no território do mediano, com 3,1, e o índice do punho quadrado, com 2,7."
   - id: osteo-punho-2
     enunciado: Ao examinar as mãos de um homem de 63 anos, o examinador encontra nódulos duros e indolores nas interfalangianas distais e proximais, sem acometimento das metacarpofalangianas. Que leitura esse padrão sustenta?
     alternativas:
@@ -719,16 +719,16 @@ perguntas:
       - "Sinovite das metacarpofalangianas, ainda não visível por não haver apagamento do relevo em morros e vales das cabeças dos metacarpos"
       - "Osteoartrite, com nódulos de Heberden nas distais e de Bouchard nas proximais"
     corretaIndex: 3
-    explicacao: "A osteoartrite acomete interfalangianas proximais e distais e poupa as metacarpofalangianas; a artrite reumatoide acomete metacarpofalangianas e interfalangianas proximais e poupa as distais. Porto define os nódulos de Heberden, nas distais, e de Bouchard, nas proximais, como pequenos nódulos duros e indolores que traduzem crescimento ósseo excessivo, e McGee os classifica como osteófitos. A textura separa as duas doenças: crescimento ósseo duro na osteoartrite, proliferação sinovial de consistência de borracha na artrite reumatoide. A distribuição em interfalangianas distais levanta também a hipótese de artrite psoriásica."
+    explicacao: "A osteoartrite acomete interfalangianas proximais e distais e poupa as metacarpofalangianas; a artrite reumatoide acomete metacarpofalangianas e interfalangianas proximais e poupa as distais. Os nódulos de Heberden, nas distais, e de Bouchard, nas proximais, são pequenos nódulos duros e indolores que traduzem crescimento ósseo excessivo, também classificados como osteófitos. A textura separa as duas doenças: crescimento ósseo duro na osteoartrite, proliferação sinovial de consistência de borracha na artrite reumatoide. A distribuição em interfalangianas distais levanta também a hipótese de artrite psoriásica."
   - id: osteo-punho-3
-    enunciado: Por que a Tabela 57.2 de McGee lista o desvio ulnar das metacarpofalangianas e o dedo em pescoço de cisne sem nenhuma razão de verossimilhança?
+    enunciado: Por que a tabulação de achados lista o desvio ulnar das metacarpofalangianas e o dedo em pescoço de cisne sem nenhuma razão de verossimilhança?
     alternativas:
       - "Porque esses achados integram a própria definição clínica da doença, e não há padrão independente contra o qual medi-los"
       - "Porque os estudos que os mediram usaram examinadores não especializados e foram excluídos por baixa concordância"
       - "Porque são achados tardios, e razões de verossimilhança só podem ser calculadas para achados presentes na fase inicial da doença"
       - "Porque o fator reumatoide substitui o exame físico no diagnóstico da artrite reumatoide, tornando desnecessário medir o desempenho das deformidades"
     corretaIndex: 0
-    explicacao: "McGee explica que, ao contrário de outros sistemas, o padrão diagnóstico de muitas doenças musculoesqueléticas é o próprio achado de beira de leito, o que impede calcular razões de verossimilhança. O exemplo que ele dá é justamente este: artrite simétrica de punhos e mãos, desvio ulnar das metacarpofalangianas e dedos em pescoço de cisne tornam o diagnóstico de artrite reumatoide quase certo, haja ou não fator reumatoide no soro, se ele for negativo, trata-se de artrite reumatoide soronegativa. A ausência de número não rebaixa o achado; ela indica que ele entra na definição da doença."
+    explicacao: "Ao contrário de outros sistemas, o padrão diagnóstico de muitas doenças musculoesqueléticas é o próprio achado de beira de leito, o que impede calcular razões de verossimilhança. O exemplo é justamente este: artrite simétrica de punhos e mãos, desvio ulnar das metacarpofalangianas e dedos em pescoço de cisne tornam o diagnóstico de artrite reumatoide quase certo, haja ou não fator reumatoide no soro; se ele for negativo, trata-se de artrite reumatoide soronegativa. A ausência de número não rebaixa o achado; ela indica que ele entra na definição da doença."
   - id: osteo-punho-4
     enunciado: Um homem de 52 anos relata que o dedo anular trava em flexão e só se estende com um estalo, às vezes precisando da outra mão. À palpação da palma, sobre a metacarpofalangiana, há um pequeno nódulo. Qual é a natureza do problema?
     alternativas:
@@ -737,23 +737,23 @@ perguntas:
       - "Tenossinovite estenosante dos flexores, com constrição da primeira polia anular: o dedo em gatilho"
       - "Deformidade em botoeira incipiente, por desinserção da faixa central do tendão extensor sobre a interfalangiana proximal"
     corretaIndex: 2
-    explicacao: "Porto descreve a tenossinovite estenosante pelo lado do tendão: a estenose da bainha ou um nódulo no tendão impede o deslizamento suave, o movimento de extensão é bloqueado e só se completa após um ressalto. Semiologia Clínica descreve pelo lado do túnel: fibrose com constrição da primeira polia anular sobre a metacarpofalangiana, com pequenos nódulos palpáveis e um clique ao desbloquear; registra associação com artrite reumatoide, gota e diabetes. A contratura de Dupuytren produz deformidade fixa em flexão sem ressalto. A botoeira é deformidade das interfalangianas, sem travamento."
+    explicacao: "A tenossinovite estenosante se descreve pelo lado do tendão: a estenose da bainha ou um nódulo no tendão impede o deslizamento suave, o movimento de extensão é bloqueado e só se completa após um ressalto. Pelo lado do túnel: fibrose com constrição da primeira polia anular sobre a metacarpofalangiana, com pequenos nódulos palpáveis e um clique ao desbloquear; associação com artrite reumatoide, gota e diabetes. A contratura de Dupuytren produz deformidade fixa em flexão sem ressalto. A botoeira é deformidade das interfalangianas, sem travamento."
   - id: osteo-punho-5
     enunciado: Uma paciente com dor na face radial do punho, irradiada em direção proximal, tem dor à palpação sobre o processo estiloide do rádio. Como se completa o exame, e o que as fontes divergem quanto ao gesto?
     alternativas:
       - "Percute-se a prega distal do punho sobre o mediano; as fontes divergem quanto ao tempo de percussão"
-      - "Fecha-se a mão sobre o polegar e desvia-se o punho para o lado ulnar; Porto descreve a manobra apenas como adução forçada do polegar, sem o desvio ulnar"
+      - "Fecha-se a mão sobre o polegar e desvia-se o punho para o lado ulnar; outra descrição da manobra traz apenas a adução forçada do polegar, sem o desvio ulnar"
       - "Comprime-se o conjunto da segunda à quinta metacarpofalangianas; as fontes divergem quanto à força a ser aplicada"
       - "Mantém-se a flexão máxima do punho por 60 segundos; as fontes divergem quanto à posição dos cotovelos"
     corretaIndex: 1
-    explicacao: "O quadro é a tenossinovite estenosante de De Quervain, que inflama as bainhas por onde correm o abdutor longo e o extensor curto do polegar. Semiologia Clínica descreve o teste de Finkelstein com o punho cerrado sobre o polegar, o antebraço estabilizado e o desvio passivo do punho em direção ulnar; McGee, na Tabela 57.2, descreve o mesmo gesto. Porto define a manobra pela adução forçada do polegar mantido dentro da mão cerrada, e não menciona o desvio ulnar do punho. Sem o desvio, os tendões não são estirados sob o retináculo. O teste está na tabela sem razão de verossimilhança."
+    explicacao: "O quadro é a tenossinovite estenosante de De Quervain, que inflama as bainhas por onde correm o abdutor longo e o extensor curto do polegar. O teste de Finkelstein se descreve com o punho cerrado sobre o polegar, o antebraço estabilizado e o desvio passivo do punho em direção ulnar; outra descrição traz o mesmo gesto. Uma terceira definição da manobra usa a adução forçada do polegar mantido dentro da mão cerrada, sem mencionar o desvio ulnar do punho. Sem o desvio, os tendões não são estirados sob o retináculo. O teste está na tabulação sem razão de verossimilhança."
   - id: osteo-punho-6
-    enunciado: Na Tabela 5.1 de McGee, o sinal do sacudir a mão tem concordância entre observadores de 0,90 e o sinal de Tinel, de 0,47. Que conclusão esse par autoriza?
+    enunciado: Na tabulação de concordância entre observadores, o sinal do sacudir a mão tem concordância de 0,90 e o sinal de Tinel, de 0,47. Que conclusão esse par autoriza?
     alternativas:
       - "Que o sinal do sacudir a mão deve substituir o de Tinel na triagem, por ser quase perfeitamente reprodutível"
       - "Que a concordância alta do primeiro decorre de sua definição operacional imprecisa, ao contrário do que ocorre com o de Tinel"
-      - "Nenhuma sobre acurácia: apesar da concordância quase perfeita, o sinal do sacudir a mão não alcança significância no boxe EBM 64.3"
+      - "Nenhuma sobre acurácia: apesar da concordância quase perfeita, o sinal do sacudir a mão não alcança significância nos números de desempenho"
       - "Que o de Tinel tem concordância apenas moderada e o do sacudir a mão, quase perfeita, e que essa diferença de faixa já ordena o valor diagnóstico dos dois"
     corretaIndex: 2
-    explicacao: "Reprodutibilidade e acurácia são propriedades distintas. Na Tabela 5.1, o sinal do sacudir a mão alcança 0,90 e o diagrama da mão de Katz, 0,86: concordância quase perfeita pela escala do rodapé da própria tabela, que vai de 0 a 0,2 como leve, 0,2 a 0,4 como razoável, 0,4 a 0,6 como moderada, 0,6 a 0,8 como substancial e 0,8 a 1,0 como quase perfeita; Phalen fica em 0,79, a hipoalgesia do indicador em 0,50 e Tinel em 0,47. No boxe EBM 64.3, porém, o sinal do sacudir a mão não alcança significância em nenhuma direção, enquanto a hipoalgesia, menos reprodutível, rende 3,1. Dois examinadores podem concordar quase sempre sobre um comportamento que ocorre com a mesma frequência em quem tem e em quem não tem a doença."
+    explicacao: "Reprodutibilidade e acurácia são propriedades distintas. Na tabulação de concordância, o sinal do sacudir a mão alcança 0,90 e o diagrama da mão de Katz, 0,86: concordância quase perfeita pela escala de referência, que vai de 0 a 0,2 como leve, 0,2 a 0,4 como razoável, 0,4 a 0,6 como moderada, 0,6 a 0,8 como substancial e 0,8 a 1,0 como quase perfeita; Phalen fica em 0,79, a hipoalgesia do indicador em 0,50 e Tinel em 0,47. Nos números de desempenho, porém, o sinal do sacudir a mão não alcança significância em nenhuma direção, enquanto a hipoalgesia, menos reprodutível, rende 3,1. Dois examinadores podem concordar quase sempre sobre um comportamento que ocorre com a mesma frequência em quem tem e em quem não tem a doença."
 :::

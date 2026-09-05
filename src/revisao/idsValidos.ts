@@ -1,6 +1,6 @@
 import type { Conteudo } from '../content/schema';
 import { listarTodosTopicos } from '../content/store';
-import { idDeChecklist } from './fila';
+import { idDeChecklist, idDeSinal } from './fila';
 
 // Conjunto de ids "válidos" para `montarFila`: toda pergunta de quiz + todo
 // checklist com título, em todos os tópicos do conteúdo atual. Usado para
@@ -17,6 +17,8 @@ export function idsValidosDoConteudo(conteudo: Conteudo): Set<string> {
         }
       } else if (bloco.tipo === 'checklist') {
         ids.add(idDeChecklist(topico.id, bloco.titulo));
+      } else if (bloco.tipo === 'sinal') {
+        ids.add(idDeSinal(topico.id, bloco.nome));
       }
     }
   }

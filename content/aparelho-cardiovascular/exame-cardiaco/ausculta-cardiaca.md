@@ -310,7 +310,7 @@ texto: |
 
   **B3 fisiológica.** Comum em crianças e adultos jovens. Do ponto de vista estetoacústico não há diferença entre a B3 fisiológica e a patológica; o que separa as duas é o resto do exame. Sem cardiopatia que a justifique, uma B3 é considerada fisiológica. Depois dos 40 anos ela deixa de ser esperada, porque o envelhecimento normal desloca o enchimento para mais tarde na diástole.
 
-  **Ritmo de galope.** É o ritmo tríplice por B3 patológica, cujo som lembra o galopar de cavalo: **PA-TA-TA**. Ouve-se melhor na ponta ou junto à borda esternal, com a campânula apoiada de leve e o paciente em decúbito lateral esquerdo; some quando se comprime demais o receptor. Às vezes a mão o percebe antes do ouvido. Porto o descreve como o "grito de socorro" do miocárdio em sofrimento, a imagem é dele, e é boa: o achado sempre aponta comprometimento importante do músculo.
+  **Ritmo de galope.** É o ritmo tríplice por B3 patológica, cujo som lembra o galopar de cavalo: **PA-TA-TA**. Ouve-se melhor na ponta ou junto à borda esternal, com a campânula apoiada de leve e o paciente em decúbito lateral esquerdo; some quando se comprime demais o receptor. Às vezes a mão o percebe antes do ouvido. É descrito como o "grito de socorro" do miocárdio em sofrimento, uma boa imagem: o achado sempre aponta comprometimento importante do músculo.
 
   **Galope atrial.** Corresponde ao ritmo tríplice por B4. Não é sinal de insuficiência descompensada, mas de insuficiência iminente: o ventrículo doente pede ajuda da contração atrial para melhorar o enchimento final. Aparece sobretudo na hipertensão arterial grave e na insuficiência coronária crônica.
 

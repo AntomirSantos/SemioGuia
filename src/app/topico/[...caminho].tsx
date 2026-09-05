@@ -268,16 +268,6 @@ export function TelaTopico({ topicoId, ancora }: { topicoId: string; ancora?: st
 
   const capitulo = sistema?.capitulos.find((c) => c.id === topicoAtual.capituloId);
 
-  // Byline editorial: nome curto da obra de cada referência ("Porto, Exame
-  // Clínico, …" → "Porto"), deduplicado e limitado a 3 fontes: é uma
-  // assinatura, não a bibliografia (as referências completas continuam na
-  // seção "Referências" ao fim).
-  const byline = Array.from(
-    new Set(topicoAtual.referencias.map((r) => r.split(': ')[0].split(',')[0].trim()).filter(Boolean)),
-  )
-    .slice(0, 3)
-    .join(' · ');
-
   function alternarEstudado() {
     const novo = !estudado;
     setEstudado(novo);
@@ -327,26 +317,12 @@ export function TelaTopico({ topicoId, ancora }: { topicoId: string; ancora?: st
       <Text style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.h2 * escala), lineHeight: Math.round(tipo.h2 * escala * 1.2), color: paleta.tinta, marginBottom: espaco.xs + 2 }}>
         {topico.titulo}
       </Text>
-      {/* Byline editorial: as fontes bibliográficas do tópico em maiúsculas
-          suaves, fechada por uma regra de 2.5px em tinta (identidade R2). */}
-      {byline ? (
-        <View style={{ marginBottom: espaco.m }}>
-          <Text
-            style={{
-              fontFamily: fonte.corpo,
-              fontSize: 11.5,
-              letterSpacing: 1.2,
-              textTransform: 'uppercase',
-              color: paleta.tinta2,
-              marginBottom: espaco.s + 2,
-            }}
-            numberOfLines={2}
-          >
-            {byline}
-          </Text>
-          <View style={{ height: 2.5, backgroundColor: paleta.tinta }} />
-        </View>
-      ) : null}
+      {/* Regra editorial de 2.5px em tinta sob o título (identidade R2). A
+          bibliografia saiu daqui (decisão do autor, 2026-09-05): a prosa
+          afirma direto e as obras vivem na aba Perfil. */}
+      <View style={{ marginBottom: espaco.m }}>
+        <View style={{ height: 2.5, backgroundColor: paleta.tinta }} />
+      </View>
 
       <View style={{ flexDirection: 'row', flexWrap: 'wrap', marginBottom: espaco.l }}>
         {topico.revisao === 'pendente' ? (
@@ -427,22 +403,12 @@ export function TelaTopico({ topicoId, ancora }: { topicoId: string; ancora?: st
         </>
       ) : null}
 
-      {/* Referências ficam fora do bloco de seções (revisão de fase P5):
-          um tópico hipotético sem nenhuma `secao` continua mostrando-as em
-          vez de sumirem por estarem presas à condição `totalSecoes > 0`.
-          Com seções normais, o gate `naUltimaSecao || totalSecoes === 0`
-          preserva o comportamento original, só na última seção. */}
+      {/* O rodapé da última seção guarda só o feedback: a listagem de
+          referências saiu da tela (decisão do autor, 2026-09-05), a
+          bibliografia consolidada vive na aba Perfil e o frontmatter de
+          cada tópico segue carregando a atribuição como auditoria. */}
       {naUltimaSecao || totalSecoes === 0 ? (
         <View style={{ marginTop: espaco.xl, paddingTop: espaco.l, borderTopWidth: 1, borderTopColor: paleta.linha }}>
-          <Rotulo texto="Referências" style={{ marginBottom: espaco.xs }} />
-          {topico.referencias.map((referencia, i) => (
-            <Text
-              key={i}
-              style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2, marginBottom: espaco.xs }}
-            >
-              {referencia}
-            </Text>
-          ))}
           {/* Feedback in-app (beta §9.5): a folha inclui o tópico atual. */}
           <Pressable
             accessibilityRole="button"

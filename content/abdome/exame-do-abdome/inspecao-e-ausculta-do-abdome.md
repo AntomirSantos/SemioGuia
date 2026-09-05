@@ -144,7 +144,7 @@ texto: |
 
   **Quatro quadrantes.** Duas linhas imaginárias, uma vertical e outra horizontal, cruzam-se na cicatriz umbilical e dividem o abdome em quadrante superior direito, superior esquerdo, inferior direito e inferior esquerdo. É a divisão rápida, boa para a emergência e para a comunicação com quem não está na beira do leito.
 
-  **Nove regiões.** É a divisão preferida em semiologia porque cada região tem, sob si, um conjunto pequeno de vísceras. Duas linhas horizontais e duas verticais a delimitam (Porto): a **linha bicostal**, que une os dois pontos em que as linhas hemiclaviculares cruzam os rebordos costais; a **linha bi-ilíaca**, que une os pontos mais altos das cristas ilíacas; e duas linhas ligeiramente oblíquas que descem do cruzamento da hemiclavicular com o rebordo costal até o tubérculo do púbis.
+  **Nove regiões.** É a divisão preferida em semiologia porque cada região tem, sob si, um conjunto pequeno de vísceras. Duas linhas horizontais e duas verticais a delimitam: a **linha bicostal**, que une os dois pontos em que as linhas hemiclaviculares cruzam os rebordos costais; a **linha bi-ilíaca**, que une os pontos mais altos das cristas ilíacas; e duas linhas ligeiramente oblíquas que descem do cruzamento da hemiclavicular com o rebordo costal até o tubérculo do púbis.
 
   Ficam então três andares. No superior, hipocôndrio direito, epigástrio e hipocôndrio esquerdo. No médio, flanco direito, mesogástrio (ou região umbilical) e flanco esquerdo. No inferior, fossa ilíaca direita, hipogástrio e fossa ilíaca esquerda.
 
@@ -226,7 +226,7 @@ linhas:
 ::: entendimento
 titulo: Por que a projeção varia tanto
 texto: |
-  As figuras de projeção visceral são uma média, não um gabarito. Porto adverte que essas projeções mudam com a idade, o biotipo, o estado nutricional e a própria posição do paciente, e as vísceras abdominais, exceto as retroperitoneais, deslocam-se com a respiração, com a mudança de postura e com a mão que as palpa.
+  As figuras de projeção visceral são uma média, não um gabarito. Essas projeções mudam com a idade, o biotipo, o estado nutricional e a própria posição do paciente, e as vísceras abdominais, exceto as retroperitoneais, deslocam-se com a respiração, com a mudança de postura e com a mão que as palpa.
 
   A pressão intra-abdominal é praticamente igual à atmosférica, e o conteúdo do abdome se comporta como uma massa de densidade próxima à da água: cada órgão fica submetido a uma pressão que quase equilibra o seu peso. É isso que mantém fígado e baço na loja durante o ortostatismo, e é a perda dessa contenção, nas soluções de continuidade da parede, que faz as vísceras aflorarem sob a pele nas hérnias e eventrações.
 
@@ -275,7 +275,7 @@ titulo: A pele e a parede
 ::: conceito
 titulo: O que ler na superfície
 texto: |
-  **Cicatrizes.** Localização, extensão e forma contam a história cirúrgica que o paciente às vezes não conta. Porto associa: flanco direito à colecistectomia, flanco esquerdo à colectomia, fossa ilíaca direita à apendicectomia ou herniorrafia, fossa ilíaca esquerda à herniorrafia, hipogástrio à histerectomia, linha média à laparotomia, região lombar à nefrectomia. Uma cicatriz abdominal em paciente com dor em cólica e parada de eliminação de gases levanta imediatamente a hipótese de bridas.
+  **Cicatrizes.** Localização, extensão e forma contam a história cirúrgica que o paciente às vezes não conta. Associam-se: flanco direito à colecistectomia, flanco esquerdo à colectomia, fossa ilíaca direita à apendicectomia ou herniorrafia, fossa ilíaca esquerda à herniorrafia, hipogástrio à histerectomia, linha média à laparotomia, região lombar à nefrectomia. Uma cicatriz abdominal em paciente com dor em cólica e parada de eliminação de gases levanta imediatamente a hipótese de bridas.
 
   **Estrias.** As nacaradas, esbranquiçadas, são antigas; as róseas ou violáceas, recentes.
 
@@ -283,7 +283,7 @@ texto: |
 
   **Ostomias e fístulas** entram na descrição pelo nome e pela localização (gastrostomia, ileostomia, colostomia) com o aspecto do conteúdo e da pele ao redor.
 
-  **Padrão venoso.** A pele clara e fina de crianças, idosos e emagrecidos deixa ver uma rede venosa que **não** é circulação colateral. Porto ensina a distinguir: o simples desenho venoso está na topografia normal, é simétrico, discreto, e as veias não são sinuosas. Circulação colateral é outra coisa: vem adiante, no aprofundamento.
+  **Padrão venoso.** A pele clara e fina de crianças, idosos e emagrecidos deixa ver uma rede venosa que **não** é circulação colateral. Distingue-se assim: o simples desenho venoso está na topografia normal, é simétrico, discreto, e as veias não são sinuosas. Circulação colateral é outra coisa: vem adiante, no aprofundamento.
 :::
 
 ::: manobra
@@ -302,18 +302,18 @@ observar: |
 ::: conceito
 titulo: Abaulamentos e retrações
 texto: |
-  O abdome normal é regular e simétrico, com uma leve proeminência na parte média e inferior que não indica anormalidade (Porto). Um **abaulamento** ou uma **retração** em determinada região quebram essa simetria, e o dado semiológico fundamental é sempre a **localização**, lida contra a projeção das vísceras.
+  O abdome normal é regular e simétrico, com uma leve proeminência na parte média e inferior que não indica anormalidade. Um **abaulamento** ou uma **retração** em determinada região quebram essa simetria, e o dado semiológico fundamental é sempre a **localização**, lida contra a projeção das vísceras.
 
-  A inspeção só levanta a hipótese; quem a fecha é a palpação, com forma, tamanho, mobilidade e pulsatilidade. Mas o endereço já estreita bastante a lista de Porto:
+  A inspeção só levanta a hipótese; quem a fecha é a palpação, com forma, tamanho, mobilidade e pulsatilidade. Mas o endereço já estreita bastante a lista:
 
   - **Hipocôndrio direito e epigástrio**: hepatomegalia, tumores pancreáticos.
   - **Hipocôndrio esquerdo e flanco esquerdo**: esplenomegalia.
   - **Flancos**: tumores renais.
   - **Mesogástrio e difuso**: linfomas, megacólon chagásico com fecaloma volumoso, aneurisma da aorta abdominal (raro).
-  - **Hipogástrio**: útero grávido, tumores do útero e do ovário, retenção urinária, que Semiologia Clínica registra pelo nome de enfermaria **bexigoma**.
+  - **Hipogástrio**: útero grávido, tumores do útero e do ovário, retenção urinária, que se registra pelo nome de enfermaria **bexigoma**.
   - **Sobre soluções de continuidade da parede**: hérnias umbilical, inguinal, femoral, escrotal, ventrolateral e **incisional**, além da diástase dos retos.
 
-  As **retrações** são mais raras: habitualmente decorrência de cicatrizes (Semiologia Clínica). Localizadas, entram na descrição pelo mesmo roteiro do abaulamento.
+  As **retrações** são mais raras: habitualmente decorrência de cicatrizes. Localizadas, entram na descrição pelo mesmo roteiro do abaulamento.
 
   Um cuidado antes de nomear qualquer coisa: o abaulamento assimétrico de um flanco pode ser visceromegalia, mas as grandes esplenomegalias se reconhecem à inspeção sobretudo pela **mobilidade durante os movimentos respiratórios**, e essa é uma distinção que só a inspeção dinâmica oferece.
 :::
@@ -327,11 +327,11 @@ titulo: Respiração, pulsações e ondas
 texto: |
   **Movimentos respiratórios.** Com o paciente em decúbito dorsal, a posição do exame do abdome, o andar superior da parede normalmente acompanha a inspiração. Esses movimentos **cessam** nos processos inflamatórios do peritônio, com a parede rígida; e nas afecções dolorosas do andar superior a respiração se torna puramente torácica. Um abdome imóvel que respira só com o tórax é um achado de inspeção com peso de alarme.
 
-  **Pulsações.** Em pessoas magras, pulsações epigástricas costumam ser apenas a aorta abdominal transmitida à parede. Podem também vir de um ventrículo direito hipertrofiado, caso em que a sensação lembra a do ictus. Para levantar a hipótese de aneurisma não basta ver a pulsação: é preciso o que se palpa, massa e alteração da forma do vaso (Porto). A discriminação fina dessa pulsação está no tópico de palpação.
+  **Pulsações.** Em pessoas magras, pulsações epigástricas costumam ser apenas a aorta abdominal transmitida à parede. Podem também vir de um ventrículo direito hipertrofiado, caso em que a sensação lembra a do ictus. Para levantar a hipótese de aneurisma não basta ver a pulsação: é preciso o que se palpa, massa e alteração da forma do vaso. A discriminação fina dessa pulsação está no tópico de palpação.
 
   **Peristaltismo visível.** Em pessoas muito magras ou desnutridas, com parede hipotrofiada, ondas peristálticas podem ser vistas sem que haja doença. Ganham valor quando são bem visíveis independentemente da parede, ocorrem com periodicidade constante e vêm acompanhadas de dor em cólica e ruídos hidroaéreos: a tríade que levanta oclusão ou suboclusão.
 
-  Dois dados orientam a topografia do obstáculo (Porto): **onde** as ondas aparecem e **para onde** vão.
+  Dois dados orientam a topografia do obstáculo: **onde** as ondas aparecem e **para onde** vão.
 
   - **Estenose pilórica**: ondas no epigástrio e no mesogástrio, que descem cruzando da esquerda para a direita, com frequência praticamente fixa de três contrações por minuto.
   - **Delgado**: ondas próximas ao umbigo, sem direção preferencial, podendo aparecer mais de uma ao mesmo tempo.
@@ -352,11 +352,11 @@ titulo: A ausculta
 ::: conceito
 titulo: Ruídos hidroaéreos
 texto: |
-  Os ruídos hidroaéreos, abreviados **RHA** nos registros (Semiologia Clínica), nascem do deslocamento de líquidos e gases no lúmen intestinal. Porto descreve a cadência normal como ruídos de timbre agudo que ocorrem mais ou menos a cada 5 a 10 segundos, de localização variável e aparecimento imprevisível; Semiologia Clínica recomenda auscultar no mínimo 15 a 20 segundos por quadrante.
+  Os ruídos hidroaéreos, abreviados **RHA** nos registros, nascem do deslocamento de líquidos e gases no lúmen intestinal. A cadência normal é de ruídos de timbre agudo que ocorrem mais ou menos a cada 5 a 10 segundos, de localização variável e aparecimento imprevisível; recomenda-se auscultar no mínimo 15 a 20 segundos por quadrante.
 
   O que se registra é uma escala de quatro degraus: **presentes e normais, aumentados, diminuídos ou ausentes.**
 
-  Três variantes têm nome próprio (Semiologia Clínica):
+  Três variantes têm nome próprio:
 
   - **Borborigmo**: o "ronco da barriga", comum em pessoas normais em jejum, pela grande proporção de gás sobre líquido.
   - **Patinhação**: som de palmada em superfície líquida, que sugere estase num estômago sem esvaziamento adequado, como acontece diante de obstáculo no antro ou no piloro.
@@ -384,11 +384,11 @@ titulo: Sopros abdominais
 texto: |
   Sopros abdominais são sopros ouvidos sobre o abdome. Como qualquer sopro gerado fora das câmaras cardíacas, podem atravessar os limites das bulhas e se estender da sístole à diástole, e é justamente aí que a informação muda de qualidade.
 
-  Onde procurar (Semiologia Clínica): sobre o trajeto da **aorta abdominal**, sobre as **artérias renais** na altura do umbigo, e sobre as **ilíacas comuns** cerca de 1 cm abaixo da cicatriz umbilical.
+  Onde procurar: sobre o trajeto da **aorta abdominal**, sobre as **artérias renais** na altura do umbigo, e sobre as **ilíacas comuns** cerca de 1 cm abaixo da cicatriz umbilical.
 
-  O ponto que separa o achado banal do achado útil é este: **sopros abdominais existem em pessoas saudáveis.** McGee registra que ocorrem em 4% a 20% das pessoas sadias, mais frequentemente abaixo dos 40 anos. O sopro do indivíduo saudável é sistólico, de tonalidade média a baixa, audível entre o apêndice xifoide e o umbigo, e só raramente se espalha para os lados; a fonte mais comum, em arteriografias, é a artéria celíaca. Os sopros anormais tendem a ser mais intensos longe do epigástrio ou a se estender pela diástole.
+  O ponto que separa o achado banal do achado útil é este: **sopros abdominais existem em pessoas saudáveis.** Ocorrem em 4% a 20% das pessoas sadias, mais frequentemente abaixo dos 40 anos. O sopro do indivíduo saudável é sistólico, de tonalidade média a baixa, audível entre o apêndice xifoide e o umbigo, e só raramente se espalha para os lados; a fonte mais comum, em arteriografias, é a artéria celíaca. Os sopros anormais tendem a ser mais intensos longe do epigástrio ou a se estender pela diástole.
 
-  Além dos sopros, Porto lembra que a ausculta abdominal alcança, do quinto mês de gestação em diante, os batimentos cardíacos fetais e, ocasionalmente, um sopro placentário.
+  Além dos sopros, vale lembrar que a ausculta abdominal alcança, do quinto mês de gestação em diante, os batimentos cardíacos fetais e, ocasionalmente, um sopro placentário.
 :::
 
 ::: secao
@@ -399,14 +399,14 @@ titulo: Aprofundamento
 titulo: Tipos de circulação colateral
 nivel: avancado
 texto: |
-  Circulação colateral é a rede venosa vicariante que se abre quando um tronco venoso principal está obstruído. Ela se analisa por três atributos (Porto): **localização**, **direção do fluxo** e **presença de frêmito ou sopro**.
+  Circulação colateral é a rede venosa vicariante que se abre quando um tronco venoso principal está obstruído. Ela se analisa por três atributos: **localização**, **direção do fluxo** e **presença de frêmito ou sopro**.
 
   A direção do fluxo é determinada por uma manobra de esvaziamento. Comprima um segmento venoso com as polpas dos dois indicadores justapostos; afaste os dedos lentamente, mantendo a pressão, até deixar 5 a 10 cm de veia exangue; retire um dos dedos e observe. Se a veia se enche de imediato, o sangue vem do lado que foi liberado, ou seja, corre no sentido do dedo que permanece comprimindo. Se o segmento continua colapsado, repita descomprimindo a outra extremidade. Duas ou três repetições antes de concluir.
 
   - **Tipo porta.** O obstáculo está nas veias supra-hepáticas (Budd-Chiari), no fígado (cirrose) ou na veia porta. A rede ocupa as regiões periumbilical e epigástrica e a face anterior do tórax, com fluxo ascendente: o sangue sobe do abdome rumo ao tórax, buscando a cava superior. Quando a rede se concentra ao redor do umbigo e irradia dele como raios de uma roda, chama-se **cabeça de medusa**.
-  - **Tipo cava inferior.** O obstáculo está na cava inferior. As fontes discordam sobre a causa mais frequente: Porto aponta a compressão extrínseca por neoplasias intra-abdominais; Semiologia Clínica aponta a trombose, com aderências e compressão tumoral em seguida. A rede ocupa a parte inferior do abdome, a região umbilical, os flancos e a face anterior do tórax, com fluxo abdome-tórax.
+  - **Tipo cava inferior.** O obstáculo está na cava inferior. As referências divergem sobre a causa mais frequente: uma aponta a compressão extrínseca por neoplasias intra-abdominais; outra aponta a trombose, com aderências e compressão tumoral em seguida. A rede ocupa a parte inferior do abdome, a região umbilical, os flancos e a face anterior do tórax, com fluxo abdome-tórax.
   - **Tipo cava superior.** A rede se distribui pela porção superior da face anterior do tórax e, por vezes, também pelo dorso, pelos braços e pelo pescoço, com fluxo toracoabdominal. Acompanha-se de estase jugular bilateral não pulsátil, cianose e edema da porção superior do tronco, do pescoço e da face.
-  - **Tipo misto.** Semiologia Clínica descreve a associação dos tipos porta e cava inferior, com ampla rede e sentido ascendente.
+  - **Tipo misto.** É a associação dos tipos porta e cava inferior, com ampla rede e sentido ascendente.
 
   Um detalhe que fecha o raciocínio: o único quadro em que se costuma perceber **frêmito ou sopro** sobre a colateral é a recanalização da veia umbilical, na síndrome de Cruveilhier-Baumgarten.
 :::
@@ -415,7 +415,7 @@ texto: |
 nome: Sinais de Cullen e de Grey-Turner
 nivel: avancado
 descricao: "Equimose da parede abdominal. No sinal de Cullen, ela é **periumbilical**; no de Grey-Turner, ocupa os **flancos**."
-significado: "Ambos indicam **hemorragia retroperitoneal ou intraperitoneal**. São sinais raros: McGee registra frequência inferior a 1% na gravidez ectópica rota e inferior a 3% na pancreatite. Presentes, pesam; ausentes, não excluem nada."
+significado: "Ambos indicam **hemorragia retroperitoneal ou intraperitoneal**. São sinais raros: a frequência é inferior a 1% na gravidez ectópica rota e inferior a 3% na pancreatite. Presentes, pesam; ausentes, não excluem nada."
 causas:
   - "Pancreatite aguda necro-hemorrágica: descrição original de Grey Turner, em 1920, em um paciente com pancreatite hemorrágica"
   - "Gravidez ectópica rota: quadro em que Cullen descreveu o sinal, em 1918"
@@ -428,20 +428,20 @@ causas:
 titulo: Por onde o sangue chega à pele
 nivel: avancado
 texto: |
-  A coloração dessas equimoses vem do sangue coletado nos planos fasciais subcutâneos, e não da dispersão de hemácias pelos linfáticos, como já se supôs (McGee).
+  A coloração dessas equimoses vem do sangue coletado nos planos fasciais subcutâneos, e não da dispersão de hemácias pelos linfáticos, como já se supôs.
 
   Na pancreatite, a tomografia mostra coleções de sangue retroperitoneal dentro dos planos fasciais atrás do rim, que alcançam o subcutâneo da parede lateral pela borda lateral do músculo quadrado lombar. No sinal de Cullen, o caminho habitual é o **ligamento falciforme**, que se conecta ao retroperitônio pelo omento menor e pelo mesocólon transverso.
 
   Há uma exceção que vale conhecer porque desmonta a explicação única: na gravidez ectópica, a equimose costuma ficar **abaixo** do umbigo, e o ligamento falciforme se insere na parede **acima** dele. Propôs-se que planos fasciais entre o ligamento largo e a parede inferior expliquem esses casos, hipótese que ainda não dá conta das rupturas livres na cavidade, fora do ligamento largo.
 
-  Um terceiro achado de inspeção merece o nome: o **nódulo de Sister Mary Joseph**, carcinoma metastático do umbigo, em geral adenocarcinoma de estômago, cólon, ovário ou pâncreas. Apresenta-se como nódulo dérmico ou subcutâneo endurecido e, em cerca de 20% dos pacientes, é a primeira manifestação da neoplasia; a sobrevida média após a descoberta é de 10 a 11 meses (McGee). Seu imitador é a concreção umbilical de queratina e sebo acumulados por higiene insuficiente (o *omphalith* de McGee), que o exame cuidadoso remove.
+  Um terceiro achado de inspeção merece o nome: o **nódulo de Sister Mary Joseph**, carcinoma metastático do umbigo, em geral adenocarcinoma de estômago, cólon, ovário ou pâncreas. Apresenta-se como nódulo dérmico ou subcutâneo endurecido e, em cerca de 20% dos pacientes, é a primeira manifestação da neoplasia; a sobrevida média após a descoberta é de 10 a 11 meses. Seu imitador é a concreção umbilical de queratina e sebo acumulados por higiene insuficiente (o *omphalith*), que o exame cuidadoso remove.
 :::
 
 ::: conceito
 titulo: O ceticismo sobre os ruídos hidroaéreos
 nivel: avancado
 texto: |
-  A ausculta abdominal é ensinada com mais confiança do que os dados sustentam, e McGee explica por quê com dois argumentos.
+  A ausculta abdominal é ensinada com mais confiança do que os dados sustentam, por dois motivos.
 
   **Primeiro: a variação normal é enorme.** Uma pessoa saudável pode passar até quatro minutos sem nenhum ruído e, examinada mais tarde, apresentar mais de trinta ruídos por minuto. A atividade normal cicla com períodos de pico a pico que chegam a 50 a 60 minutos: de modo que qualquer conclusão baseada em alguns minutos de escuta analisa uma fatia pequena demais do fenômeno.
 
@@ -476,7 +476,7 @@ linhas:
 titulo: O que os números dizem da ausculta e da inspeção
 nivel: avancado
 texto: |
-  As razões de verossimilhança de McGee separam bem o que vale e o que não vale nesses dois tempos do exame.
+  As razões de verossimilhança a seguir separam bem o que vale e o que não vale nesses dois tempos do exame.
 
   **Para obstrução intestinal**, em pacientes com dor abdominal aguda:
 
@@ -504,7 +504,7 @@ texto: |
   A inspeção do abdome puxa fios que já foram fiados em outras partes do guia.
 
   - **A caracterização da dor abdominal**: localização, irradiação, tipo, intensidade, duração, periodicidade, ritmicidade (incluindo o ciclo dói-come-passa da úlcera duodenal), fatores de melhora e piora e manifestações concomitantes, pertence ao tópico de queixa principal e história da doença atual. Aqui se examina o abdome; lá se colhe a dor.
-  - **As lesões elementares da pele da parede** se descrevem com o vocabulário do tópico de pele, mucosas e fâneros. Já a **circulação colateral**: a distinção em relação ao desenho venoso normal, os tipos e a manobra de determinação do sentido do fluxo, é ensinada aqui mesmo, no aprofundamento deste tópico; a fonte é o capítulo de exame físico geral de Porto (Exame Clínico, cap. 10).
+  - **As lesões elementares da pele da parede** se descrevem com o vocabulário do tópico de pele, mucosas e fâneros. Já a **circulação colateral**: a distinção em relação ao desenho venoso normal, os tipos e a manobra de determinação do sentido do fluxo, é ensinada aqui mesmo, no aprofundamento deste tópico.
   - **Turgência jugular e edema da metade superior do corpo**, que acompanham a colateral tipo cava superior, estão no tópico de pulso venoso jugular e turgência; a **cianose** que os acompanha tem o esquema prático de onde procurá-la no tópico de pele, mucosas e fâneros.
   - **O nódulo supraclavicular de Virchow**, achado extra-abdominal que muda o raciocínio diante de uma neoplasia digestiva, está no tópico de linfonodos, junto com a técnica da fossa supraclavicular.
   - **A ascite**, que o abdome globoso levanta e a inspeção não resolve, se confirma pela percussão, no tópico seguinte.

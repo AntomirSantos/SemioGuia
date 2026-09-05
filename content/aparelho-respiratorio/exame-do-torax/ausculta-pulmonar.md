@@ -215,7 +215,7 @@ texto: |
 ::: entendimento
 titulo: Som brônquico fora do lugar
 texto: |
-  Som vesicular e som brônquico não diferem só de nome: diferem de frequência. O murmúrio vesicular é grave, em torno de 100 Hz, suave, com inspiração mais longa que a expiração e sem intervalo entre elas. O som brônquico é agudo, entre 300 e 400 Hz, rude, com expiração mais longa que a inspiração e um intervalo audível entre as duas fases (McGee).
+  Som vesicular e som brônquico não diferem só de nome: diferem de frequência. O murmúrio vesicular é grave, em torno de 100 Hz, suave, com inspiração mais longa que a expiração e sem intervalo entre elas. O som brônquico é agudo, entre 300 e 400 Hz, rude, com expiração mais longa que a inspiração e um intervalo audível entre as duas fases.
 
   O pulmão normal funciona como um filtro que deixa passar as frequências baixas e retém as altas. Por isso, na periferia do tórax, só chega o murmúrio vesicular: o som brônquico, agudo, é filtrado no caminho.
 
@@ -285,7 +285,7 @@ linhas:
     - "Não se alteram"
     - "Podem desaparecer"
   - - "Efeito da posição"
-    - "Modificam-se ou são abolidos com a mudança de posição (o guia adota o Quadro 16.4 do Exame Clínico; a Semiologia Médica restringe a mudança aos de causa congestiva)"
+    - "Modificam-se ou são abolidos com a mudança de posição (posição que este guia adota; as referências divergem, e uma delas restringe essa mudança aos de causa congestiva)"
     - "Não se modificam"
   - - "Onde predominam"
     - "Nas bases, quando originados por congestão; conforme a doença, quando inflamatórios: bases na fibrose pulmonar, lobos superiores na tuberculose"
@@ -414,7 +414,7 @@ descricao: |
 titulo: A cronologia dos estertores diz mais que a presença deles
 nivel: avancado
 texto: |
-  Encontrar estertores é pouco específico, quase toda doença pulmonar os produz. Em pacientes com tosse e febre, a simples presença de estertores eleva a probabilidade de pneumonia com razão de verossimilhança 2,3; em pacientes com cardiopatia conhecida, aponta pressão atrial esquerda elevada com razão de verossimilhança 2,1 (McGee). São números modestos.
+  Encontrar estertores é pouco específico, quase toda doença pulmonar os produz. Em pacientes com tosse e febre, a simples presença de estertores eleva a probabilidade de pneumonia com razão de verossimilhança 2,3; em pacientes com cardiopatia conhecida, aponta pressão atrial esquerda elevada com razão de verossimilhança 2,1. São números modestos.
 
   O que discrimina é **quando** eles ocorrem dentro da inspiração, e **quantos** são.
 
@@ -432,7 +432,7 @@ texto: |
 titulo: A intensidade do sibilo não mede a gravidade
 nivel: avancado
 texto: |
-  Três características descrevem um sibilo: duração, altura e intensidade. Apenas as duas primeiras variam com a gravidade da obstrução (McGee).
+  Três características descrevem um sibilo: duração, altura e intensidade. Apenas as duas primeiras variam com a gravidade da obstrução.
 
   - **Duração.** Quanto maior a proporção do ciclo respiratório ocupada pelo sibilo, pior a obstrução: a correlação com o volume expiratório forçado no primeiro segundo é forte e negativa, em torno de −0,89.
   - **Altura.** Sibilos mais agudos indicam obstrução pior; quando o tratamento da obstrução funciona, a altura do sibilo cai.
@@ -488,7 +488,7 @@ causas:
 ::: entendimento
 titulo: Por que o pulmão é um filtro e o que isso explica
 texto: |
-  Um único experimento acústico explica quase toda a semiologia da transmissão sonora no tórax (McGee). Colocou-se na boca de pacientes um alto-falante emitindo tons puros de várias frequências e mediu-se, com microfones na parede torácica, quanto de cada frequência chegava até lá.
+  Um único experimento acústico explica quase toda a semiologia da transmissão sonora no tórax. Colocou-se na boca de pacientes um alto-falante emitindo tons puros de várias frequências e mediu-se, com microfones na parede torácica, quanto de cada frequência chegava até lá.
 
   **Pulmão normal.** Transmite bem as frequências baixas, de 100 a 200 Hz, e filtra as altas, acima de 300 Hz. Como o frêmito toracovocal é feito de vibrações baixas, ele é um achado normal; como as palavras precisam de frequências altas para serem compreendidas, a voz chega ininteligível. A voz cochichada, que exige acima de 400 Hz, some por completo.
 
@@ -505,7 +505,7 @@ texto: |
 titulo: O que a ausculta prediz
 nivel: avancado
 texto: |
-  Os achados de ausculta estão entre os mais bem estudados do exame do tórax (McGee).
+  Os achados de ausculta estão entre os mais bem estudados do exame do tórax.
 
   **Murmúrio vesicular diminuído.** Bilateral e simétrico, eleva a probabilidade de doença obstrutiva crônica (razão de verossimilhança 3,5). Unilateral, aponta derrame pleural (5,2) e, em paciente com tosse e febre, pneumonia (2,2). O achado negativo é forte: intensidade normal do murmúrio reduz muito a probabilidade de derrame (0,1).
 
@@ -519,7 +519,7 @@ texto: |
 
   O padrão que emerge é constante em todo o exame do tórax: os sinais são **específicos e pouco sensíveis**. Achá-los vale muito; não achá-los quase nunca afasta a doença, com as exceções do murmúrio vesicular e da sonoridade normais, que efetivamente afastam derrame pleural.
 
-  Os valores exatos variam conforme a meta-análise que os agrega: a egofonia, por exemplo, aparece com razão de verossimilhança de 4 a 7 para pneumonia (elevação moderada a substancial da probabilidade), e o murmúrio diminuído com 2,2 a 2,5 (elevação pequena), mas a direção e a ordem de grandeza são estáveis entre as fontes. Este guia mantém os números de McGee por consistência interna.
+  Os valores exatos variam conforme a meta-análise que os agrega: a egofonia, por exemplo, aparece com razão de verossimilhança de 4 a 7 para pneumonia (elevação moderada a substancial da probabilidade), e o murmúrio diminuído com 2,2 a 2,5 (elevação pequena), mas a direção e a ordem de grandeza são estáveis entre as fontes. Este guia mantém estes números por consistência interna.
 :::
 
 ::: secao
@@ -538,10 +538,10 @@ texto: |
 
   Restam então dois pares que a percussão e o frêmito não separam, e cada um tem seu desempate.
 
-  - **Derrame × atelectasia obstrutiva.** Ambos dão macicez com frêmito reduzido: combinação que Porto descreve como indistinguível pelo exame físico na maior parte dos casos. A inspeção desempata: a atelectasia **retrai** o hemitórax e produz tiragem, com desvio da traqueia e do ictus para o lado comprometido; o grande derrame **abaúla** o hemitórax e os espaços intercostais. A percussão da coluna ajuda (sinal de Signorelli, no tópico de percussão), e a imagem resolve.
-  - **Pneumotórax × enfisema.** Ambos cursam com frêmito reduzido e com excesso de ar, mas o ar não está no mesmo lugar. A percussão **sugere** onde ele está, som **timpânico**, musical e de tonalidade identificável, aponta ar aprisionado na cavidade pleural; **hipersonoridade**, a mesma nota do som claro pulmonar apenas mais clara e mais intensa, aponta ar em excesso dentro dos alvéolos, mas não decide: Porto (Semiologia Médica) registra pneumotórax que se apresenta apenas hipersonoro, e uma nota hipersonora sozinha não autoriza descartá-lo. Quem decide é a distribuição somada ao modo de instalação: o pneumotórax é **unilateral e agudo**; o enfisema é **bilateral e crônico**, com tórax em tonel e expiração prolongada.
+  - **Derrame × atelectasia obstrutiva.** Ambos dão macicez com frêmito reduzido: combinação indistinguível pelo exame físico na maior parte dos casos. A inspeção desempata: a atelectasia **retrai** o hemitórax e produz tiragem, com desvio da traqueia e do ictus para o lado comprometido; o grande derrame **abaúla** o hemitórax e os espaços intercostais. A percussão da coluna ajuda (sinal de Signorelli, no tópico de percussão), e a imagem resolve.
+  - **Pneumotórax × enfisema.** Ambos cursam com frêmito reduzido e com excesso de ar, mas o ar não está no mesmo lugar. A percussão **sugere** onde ele está, som **timpânico**, musical e de tonalidade identificável, aponta ar aprisionado na cavidade pleural; **hipersonoridade**, a mesma nota do som claro pulmonar apenas mais clara e mais intensa, aponta ar em excesso dentro dos alvéolos, mas não decide: há registro de pneumotórax que se apresenta apenas hipersonoro, e uma nota hipersonora sozinha não autoriza descartá-lo. Quem decide é a distribuição somada ao modo de instalação: o pneumotórax é **unilateral e agudo**; o enfisema é **bilateral e crônico**, com tórax em tonel e expiração prolongada.
 
-  Uma última cautela sobre a atelectasia. A tabela abaixo descreve a forma **obstrutiva**, em que o brônquio está ocluído: a mais comum, causada por neoplasias e corpos estranhos. Existe uma variante em que a via aérea permanece pérvia e o pulmão está retraído e denso, como na fibroatelectasia: ali o frêmito fica **aumentado**, e à ausculta surgem som brônquico e estertores. As duas se resolvem pela mesma regularidade, e é assim, como regularidade, que ela deve ser guardada: **na prática, o frêmito acompanha a permeabilidade do brônquio que serve aquele território, e não a densidade do pulmão.** Note que isso descreve o que melhor prediz o achado, não o seu mecanismo íntimo, que continua discutido: a correção de McGee registrada acima mostra que o som se conduz pelo parênquima poroso, e não pelo interior dos dutos aéreos.
+  Uma última cautela sobre a atelectasia. A tabela abaixo descreve a forma **obstrutiva**, em que o brônquio está ocluído: a mais comum, causada por neoplasias e corpos estranhos. Existe uma variante em que a via aérea permanece pérvia e o pulmão está retraído e denso, como na fibroatelectasia: ali o frêmito fica **aumentado**, e à ausculta surgem som brônquico e estertores. As duas se resolvem pela mesma regularidade, e é assim, como regularidade, que ela deve ser guardada: **na prática, o frêmito acompanha a permeabilidade do brônquio que serve aquele território, e não a densidade do pulmão.** Note que isso descreve o que melhor prediz o achado, não o seu mecanismo íntimo, que continua discutido: a correção registrada acima mostra que o som se conduz pelo parênquima poroso, e não pelo interior dos dutos aéreos.
 :::
 
 ::: tabela
@@ -567,7 +567,7 @@ linhas:
   - - "Pneumotórax"
     - "Pode não haver nada visível; nos grandes volumes, abaulamento do hemitórax e dos espaços intercostais"
     - "Expansibilidade diminuída; frêmito diminuído ou abolido; pode haver enfisema subcutâneo"
-    - "Som timpânico, ou hipersonoridade (Porto, Semiologia Médica); no hidropneumotórax, timpanismo acima da área de macicez"
+    - "Som timpânico, ou hipersonoridade; no hidropneumotórax, timpanismo acima da área de macicez"
     - "Murmúrio vesicular muito reduzido ou ausente; ressonância vocal diminuída"
   - - "Atelectasia obstrutiva"
     - "Retração do hemitórax comprometido e tiragem; desvio da traqueia e do ictus para o lado comprometido"

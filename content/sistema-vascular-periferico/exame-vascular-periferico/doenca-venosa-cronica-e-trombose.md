@@ -75,11 +75,11 @@ titulo: Duas doenças no mesmo membro, e uma delas tem pressa
 texto: |
   Este tópico trata do lado venoso da perna, e ele guarda duas doenças muito diferentes que compartilham os mesmos achados de superfície.
 
-  **A doença venosa crônica** é lenta, comum e visível. Semiologia Clínica define o termo de forma ampla: qualquer anormalidade morfológica ou funcional de longa duração do sistema venoso, manifestada por sintomas ou sinais que indiquem investigação e tratamento. E reserva o nome **insuficiência venosa crônica** para a doença avançada, aquela cujas anormalidades funcionais já produzem **edema, alterações cutâneas ou ulceração**. É uma distinção útil de vocabulário: nem toda variz é insuficiência venosa.
+  **A doença venosa crônica** é lenta, comum e visível. Define-se o termo de forma ampla: qualquer anormalidade morfológica ou funcional de longa duração do sistema venoso, manifestada por sintomas ou sinais que indiquem investigação e tratamento. Reserva-se o nome **insuficiência venosa crônica** para a doença avançada, aquela cujas anormalidades funcionais já produzem **edema, alterações cutâneas ou ulceração**. É uma distinção útil de vocabulário: nem toda variz é insuficiência venosa.
 
-  **A trombose venosa profunda** é aguda e tem pressa. Porto a define como o sangue coagulando dentro da veia, com obstrução parcial ou total da luz, e lembra que ela acumulou nomes ao longo do tempo: flebite, flebotrombose, tromboflebite, trombose venosa superficial, trombose venosa profunda, doença tromboembólica, cada um deles enfatizando um aspecto diferente do mesmo processo.
+  **A trombose venosa profunda** é aguda e tem pressa. É definida como o sangue coagulando dentro da veia, com obstrução parcial ou total da luz, e acumulou nomes ao longo do tempo: flebite, flebotrombose, tromboflebite, trombose venosa superficial, trombose venosa profunda, doença tromboembólica, cada um deles enfatizando um aspecto diferente do mesmo processo.
 
-  **O problema de fundo deste tópico é a insuficiência do exame físico.** Nas duas doenças, os achados isolados rendem pouco. Semiologia Clínica conclui, sobre os testes clínicos venosos, que eles são muito imprecisos quando se trata de localizar o refluxo. McGee conclui, sobre os sinais da trombose: nenhum achado isolado diminui convincentemente a probabilidade. Este tópico ensina o exame **e** ensina o tamanho do que ele entrega, que é a única forma honesta de ensiná-lo.
+  **O problema de fundo deste tópico é a insuficiência do exame físico.** Nas duas doenças, os achados isolados rendem pouco. Os testes clínicos venosos são muito imprecisos quando se trata de localizar o refluxo, e, sobre os sinais da trombose, nenhum achado isolado diminui convincentemente a probabilidade. Este tópico ensina o exame **e** ensina o tamanho do que ele entrega, que é a única forma honesta de ensiná-lo.
 
   **O que este tópico não reensina.**
 
@@ -115,13 +115,13 @@ passos:
   - "Procure edema, descreva-o pelos atributos já ensinados no capítulo do coração e verifique se ele é simétrico ou assimétrico."
   - "Palpe os pulsos periféricos dos dois pés: em todo paciente com varizes, e sempre antes de qualquer discussão sobre compressão do membro."
 observar: |
-  **De pé primeiro, deitado depois.** Porto organiza o exame venoso nessa ordem, e Semiologia Clínica dá a razão: em pé as veias ficam mais túrgidas e as varizes, mais evidentes. A inspeção panorâmica a 2 metros vem antes da inspeção próxima porque as duas veem coisas diferentes: de longe se vê distribuição, assimetria e extensão; de perto, telangiectasias, eritema, cianose, púrpuras e petéquias.
+  **De pé primeiro, deitado depois.** O exame venoso segue essa ordem, e a razão é clara: em pé as veias ficam mais túrgidas e as varizes, mais evidentes. A inspeção panorâmica a 2 metros vem antes da inspeção próxima porque as duas veem coisas diferentes: de longe se vê distribuição, assimetria e extensão; de perto, telangiectasias, eritema, cianose, púrpuras e petéquias.
 
-  **Por que palpar os pulsos em quem tem varizes.** Porto é explícito: é indispensável palpar os pulsos periféricos dos pacientes com varizes, porque a ausência de pulsos pode contraindicar eventual cirurgia. Semiologia Clínica dá a versão de consultório da mesma regra ao mandar procurar sinais de doença arterial (perda de pelos, espessamento das unhas, ulceração) justamente para avaliar a adequação da terapia de compressão. Um membro isquêmico não recebe o mesmo tratamento que um membro apenas congesto.
+  **Por que palpar os pulsos em quem tem varizes.** É indispensável palpar os pulsos periféricos dos pacientes com varizes, porque a ausência de pulsos pode contraindicar eventual cirurgia. A versão de consultório da mesma regra manda procurar sinais de doença arterial (perda de pelos, espessamento das unhas, ulceração) justamente para avaliar a adequação da terapia de compressão. Um membro isquêmico não recebe o mesmo tratamento que um membro apenas congesto.
 
   **Meça, não estime.** A assimetria de perímetro é o único achado deste tópico que produz um número. Meça os dois lados no mesmo nível e escreva os dois valores, não a diferença, que o próximo examinador não consegue reproduzir sem saber onde a fita passou.
 
-  **Um exame que exige acompanhante.** Semiologia Clínica registra a recomendação de haver uma pessoa na sala durante o exame venoso, dada a natureza da exposição necessária, e lembra que as varizes podem começar na pelve, com varicosidades nas nádegas e na vulva.
+  **Um exame que exige acompanhante.** Registra-se a recomendação de haver uma pessoa na sala durante o exame venoso, dada a natureza da exposição necessária, e lembra que as varizes podem começar na pelve, com varicosidades nas nádegas e na vulva.
 :::
 
 ::: checklist
@@ -146,16 +146,16 @@ titulo: Doença venosa crônica
 ::: conceito
 titulo: O vocabulário da inspeção, do menor ao maior
 texto: |
-  As alterações venosas visíveis formam uma progressão, e cada degrau tem nome próprio. Semiologia Clínica reúne os sinais da doença venosa crônica: telangiectasias, veias reticulares e varicosas, edema e alterações da pele, pigmentação, lipodermatoesclerose, atrofia branca, coroa flebectásica, eczema e ulceração.
+  As alterações venosas visíveis formam uma progressão, e cada degrau tem nome próprio: telangiectasias, veias reticulares e varicosas, edema e alterações da pele, pigmentação, lipodermatoesclerose, atrofia branca, coroa flebectásica, eczema e ulceração.
 
-  - **Telangiectasias e microvarizes.** As menores. Porto registra que podem ser assintomáticas e que a dor, quando existe, costuma ser em queimação ou ardência local, e que são muito valorizadas pelo aspecto estético.
+  - **Telangiectasias e microvarizes.** As menores. Podem ser assintomáticas e que a dor, quando existe, costuma ser em queimação ou ardência local, e que são muito valorizadas pelo aspecto estético.
   - **Veias reticulares.** Calibre intermediário, na rede subcutânea.
-  - **Varizes.** Porto define: veias permanentemente dilatadas, com alterações de suas paredes, de suas válvulas e de sua função. À palpação, a variz **colaba ao toque**: é isso que a separa de um cordão trombosado.
-  - **Coroa flebectásica.** Semiologia Clínica descreve o achado com precisão: vasos cutâneos anormalmente visíveis **no tornozelo**, com quatro componentes, as ventosas, telangiectasias azuis, telangiectasias vermelhas e pontos de estase capilar. É um sinal de território, e o território é a região perimaleolar, a mesma que ulcera.
-  - **Dermatite ocre.** Manchas acastanhadas, esparsas ou confluentes, no terço inferior da perna, predominando na região perimaleolar interna. Porto explica a cor: é **hemossiderina** depositada na camada basal da derme, vinda das hemácias que passaram ao interstício e ali foram fagocitadas. E acrescenta a leitura: a hiperpigmentação é indicativa de **estágio avançado** da doença.
-  - **Eczema varicoso, ou dermatite de estase.** Na forma aguda, pequenas vesículas que secretam líquido seroso, com prurido intenso; na crônica, instala-se no dorso do pé ou no terço mais baixo da perna, com reagudizações periódicas. O prurido é mais intenso à tarde e à noite. Porto dá uma regra prática forte: **diante de eczema nas pernas de quem tem varizes, ainda que discretas, a insuficiência venosa crônica é a explicação até que se prove outra.**
-  - **Lipodermatoesclerose, ou dermatofibrose.** Surtos repetidos de celulite, somados às úlceras que cicatrizam, esclerosam a pele e o subcutâneo e fazem a perna **perder espessura**. Porto, no *Exame Clínico*, dá a imagem que fixa o achado: a perna adquire o aspecto de **gargalo de garrafa**, estreita embaixo, larga acima. E fecha o círculo vicioso: a fibrose leva à **anquilose da articulação tibiotársica**, que prejudica ainda mais o retorno venoso, porque interfere na bomba venosa da panturrilha.
-  - **Atrofia branca.** Semiologia Clínica a descreve como manchas brancas de bordas escuras, e a classifica junto da lipodermatoesclerose no mesmo degrau de gravidade.
+  - **Varizes.** São veias permanentemente dilatadas, com alterações de suas paredes, de suas válvulas e de sua função. À palpação, a variz **colaba ao toque**: é isso que a separa de um cordão trombosado.
+  - **Coroa flebectásica.** O achado se descreve com precisão: vasos cutâneos anormalmente visíveis **no tornozelo**, com quatro componentes, as ventosas, telangiectasias azuis, telangiectasias vermelhas e pontos de estase capilar. É um sinal de território, e o território é a região perimaleolar, a mesma que ulcera.
+  - **Dermatite ocre.** Manchas acastanhadas, esparsas ou confluentes, no terço inferior da perna, predominando na região perimaleolar interna. A cor se explica: é **hemossiderina** depositada na camada basal da derme, vinda das hemácias que passaram ao interstício e ali foram fagocitadas. E fica a leitura: a hiperpigmentação é indicativa de **estágio avançado** da doença.
+  - **Eczema varicoso, ou dermatite de estase.** Na forma aguda, pequenas vesículas que secretam líquido seroso, com prurido intenso; na crônica, instala-se no dorso do pé ou no terço mais baixo da perna, com reagudizações periódicas. O prurido é mais intenso à tarde e à noite. Fica a regra prática forte: **diante de eczema nas pernas de quem tem varizes, ainda que discretas, a insuficiência venosa crônica é a explicação até que se prove outra.**
+  - **Lipodermatoesclerose, ou dermatofibrose.** Surtos repetidos de celulite, somados às úlceras que cicatrizam, esclerosam a pele e o subcutâneo e fazem a perna **perder espessura**. A imagem que fixa o achado: a perna adquire o aspecto de **gargalo de garrafa**, estreita embaixo, larga acima. E fecha o círculo vicioso: a fibrose leva à **anquilose da articulação tibiotársica**, que prejudica ainda mais o retorno venoso, porque interfere na bomba venosa da panturrilha.
+  - **Atrofia branca.** Descreve-se como manchas brancas de bordas escuras, e se classifica junto da lipodermatoesclerose no mesmo degrau de gravidade.
   - **Úlcera venosa.** O ponto final da progressão, tratado adiante.
 
   Dois achados completam o quadro e costumam ser esquecidos: as **hemorragias**, porque as varizes dérmicas rompem com relativa frequência, espontaneamente ou após traumatismo; e a **hiperidrose**, sudorese profusa no terço distal da perna, comum na insuficiência venosa crônica grave de longa duração.
@@ -197,13 +197,13 @@ titulo: A úlcera venosa e o endereço que ela escolhe
 texto: |
   A úlcera é complicação da insuficiência venosa crônica **grave**, seja por varizes, seja por trombose venosa profunda prévia: a síndrome pós-trombótica. Ela costuma surgir depois de mínimos traumatismos: o ato de coçar uma área de tromboflebite superficial, a ruptura de uma variz.
 
-  **A localização principal é a região perimaleolar interna**, e Porto explica por quê: é ali que passam as **perfurantes de Cockett**, justamente as que mais costumam tornar-se insuficientes. Nos casos avançados, ela dá a volta completa na parte baixa da perna. Semiologia Clínica dá ao território o nome que a literatura usa: a **área da polaina**.
+  **A localização principal é a região perimaleolar interna**, isso porque é ali que passam as **perfurantes de Cockett**, justamente as que mais costumam tornar-se insuficientes. Nos casos avançados, ela dá a volta completa na parte baixa da perna. O território tem o nome que a literatura usa: a **área da polaina**.
 
   **A regra de exclusão topográfica**, já citada no tópico anterior e que vale repetir aqui pelo peso que tem: a ferida que aparece **acima do terço médio da perna** raramente é venosa, em geral tem outra causa.
 
   As características da úlcera venosa e sua comparação com a arterial (fundo, bordas, dor, efeito da posição, pulsos) estão na tabela e na ilustração do tópico de insuficiência arterial crônica, e não se repetem aqui.
 
-  **O tamanho do problema**, em números de Semiologia Clínica: nos países ocidentais, a úlcera venosa atinge algo em torno de **0,3%** dos adultos, e somando as ativas às já cicatrizadas chega-se a cerca de **1%**; e **mais de metade** delas necessita de tratamento por mais de um ano. As varizes, por sua vez, estão presentes em **25% a 33%** das mulheres e em **10% a 40%** dos homens adultos; no estudo de Framingham, a incidência anual ficou em **2,6%** entre as mulheres e em **1,9%** entre os homens.
+  **O tamanho do problema**, em números: nos países ocidentais, a úlcera venosa atinge algo em torno de **0,3%** dos adultos, e somando as ativas às já cicatrizadas chega-se a cerca de **1%**; e **mais de metade** delas necessita de tratamento por mais de um ano. As varizes, por sua vez, estão presentes em **25% a 33%** das mulheres e em **10% a 40%** dos homens adultos; no estudo de Framingham, a incidência anual ficou em **2,6%** entre as mulheres e em **1,9%** entre os homens.
 :::
 
 ::: sinal
@@ -220,15 +220,15 @@ causas:
 ::: entendimento
 titulo: Por que doer à tarde e melhorar andando
 texto: |
-  Cerca de 90% do sangue venoso dos membros inferiores volta ao coração empurrado pelas **bombas musculares** (a do pé, a da panturrilha e a da coxa) e a mais importante das três é a da perna, pela sua capacitância e pelas pressões que gera (Semiologia Clínica). A contração aumenta a pressão dentro do compartimento, comprime as veias profundas e empurra o sangue através das válvulas unidirecionais; no relaxamento, a pressão profunda cai e o sangue do sistema superficial passa ao profundo pelas perfurantes.
+  Cerca de 90% do sangue venoso dos membros inferiores volta ao coração empurrado pelas **bombas musculares** (a do pé, a da panturrilha e a da coxa) e a mais importante das três é a da perna, pela sua capacitância e pelas pressões que gera. A contração aumenta a pressão dentro do compartimento, comprime as veias profundas e empurra o sangue através das válvulas unidirecionais; no relaxamento, a pressão profunda cai e o sangue do sistema superficial passa ao profundo pelas perfurantes.
 
   Duas consequências clínicas saem daí.
 
-  **Por que a dor venosa melhora andando.** Andar aciona a bomba. Ficar de pé parado, não. É o oposto exato da dor isquêmica, e Porto transforma isso em regra: ao contrário do que ocorre na doença arterial, a dor venosa **cede quando o paciente caminha** e aperta quando ele para; e cede também com o membro elevado e com o repouso no leito, pernas para cima.
+  **Por que a dor venosa melhora andando.** Andar aciona a bomba. Ficar de pé parado, não. É o oposto exato da dor isquêmica, e é regra: ao contrário do que ocorre na doença arterial, a dor venosa **cede quando o paciente caminha** e aperta quando ele para; e cede também com o membro elevado e com o repouso no leito, pernas para cima.
 
   **Por que o edema é vespertino.** Ele aparece à tarde e o repouso o desfaz; é mais intenso em quem passa horas sentado, com os pés pendentes: o que fica evidente ao fim de viagens longas.
 
-  Uma exceção honesta, que Porto registra no boxe: **nem sempre é assim.** Alguns doentes, paradoxalmente, pioram ao deitar, com sensação de queimação, e não conseguem ficar quietos, procurando as partes mais frias da cama: o quadro que ele associa à síndrome das pernas inquietas. E cãibras noturnas são queixa frequente.
+  Uma exceção honesta: **nem sempre é assim.** Alguns doentes, paradoxalmente, pioram ao deitar, com sensação de queimação, e não conseguem ficar quietos, procurando as partes mais frias da cama: o quadro associado à síndrome das pernas inquietas. E cãibras noturnas são queixa frequente.
 :::
 
 ::: conceito
@@ -236,15 +236,15 @@ titulo: "O edema venoso: o que é próprio dele"
 texto: |
   A semiotécnica do edema, a fóvea, a graduação em cruzes e a comparação entre as causas de edema generalizado estão no tópico de pulso venoso jugular e turgência. O que este tópico acrescenta são os traços que identificam o edema **venoso**.
 
-  - **Horário e resposta ao repouso.** Vespertino, desaparece com o repouso. Porto acrescenta a regra que fecha o raciocínio: **edema que o repouso não desfaz pede outra explicação** além da insuficiência venosa.
+  - **Horário e resposta ao repouso.** Vespertino, desaparece com o repouso. Fica a regra que fecha o raciocínio: **edema que o repouso não desfaz pede outra explicação** além da insuficiência venosa.
   - **Localização.** Mole e depressível, de preferência nas regiões perimaleolares; nos casos graves pode subir até a parte alta da perna.
   - **Assimetria.** É o traço mais útil. Na insuficiência venosa crônica o edema quase sempre pesa mais de um lado, o lado em que o retorno está pior, ao passo que o edema cardíaco, o das disproteinemias e o das nefropatias tende a ser igual nas duas pernas.
-  - **Evolução da consistência.** No **edema varicoso**, Porto registra intensidade em geral pequena (+ a ++), consistência de início mole que nos casos antigos se torna cada vez mais dura, inelástica, com a pele escurecendo e podendo tornar-se espessa e de textura mais grosseira.
+  - **Evolução da consistência.** No **edema varicoso**, registra-se intensidade em geral pequena (+ a ++), consistência de início mole que nos casos antigos se torna cada vez mais dura, inelástica, com a pele escurecendo e podendo tornar-se espessa e de textura mais grosseira.
   - **Na síndrome pós-trombótica**, o edema torna-se permanente e o membro inteiro engrossa (pé, perna e às vezes coxa) **sem que a inspeção os mostre edemaciados**: um detalhe que explica por que a comparação de perímetros importa mais que a impressão visual.
 
-  McGee organiza o diferencial pelo número de pernas: as causas mais comuns de edema **bilateral** são insuficiência cardíaca congestiva, insuficiência venosa crônica, hipertensão pulmonar e edema induzido por medicamentos; as de edema **unilateral** são trombose venosa profunda, cisto de Baker e celulite. E acrescenta o achado que decide o edema bilateral: **as veias do pescoço**. Se a pressão venosa estiver elevada, a causa é cardiopulmonar; se estiver normal, a causa é outra: hepática, nefrótica, venosa crônica ou medicamentosa. A técnica está no tópico de pulso venoso jugular e turgência.
+  O diferencial se organiza pelo número de pernas: as causas mais comuns de edema **bilateral** são insuficiência cardíaca congestiva, insuficiência venosa crônica, hipertensão pulmonar e edema induzido por medicamentos; as de edema **unilateral** são trombose venosa profunda, cisto de Baker e celulite. E acrescenta o achado que decide o edema bilateral: **as veias do pescoço**. Se a pressão venosa estiver elevada, a causa é cardiopulmonar; se estiver normal, a causa é outra: hepática, nefrótica, venosa crônica ou medicamentosa. A técnica está no tópico de pulso venoso jugular e turgência.
 
-  Dois vizinhos, para não serem confundidos com edema venoso: o **linfedema**, indolor, firme, que caracteristicamente quadra os dedos e produz uma corcova no dorso do pé, varia pouco ao longo do dia e raramente ulcera, descrito, com o sinal de Stemmer, no tópico de linfonodos; e o **lipedema**, depósito bilateral de tecido adiposo subcutâneo nas pernas que **não** deixa fóvea e cuja característica mais marcante é **poupar os pés**, ocorrendo exclusivamente em mulheres obesas (McGee).
+  Dois vizinhos, para não serem confundidos com edema venoso: o **linfedema**, indolor, firme, que caracteristicamente quadra os dedos e produz uma corcova no dorso do pé, varia pouco ao longo do dia e raramente ulcera, descrito, com o sinal de Stemmer, no tópico de linfonodos; e o **lipedema**, depósito bilateral de tecido adiposo subcutâneo nas pernas que **não** deixa fóvea e cuja característica mais marcante é **poupar os pés**, ocorrendo exclusivamente em mulheres obesas.
 :::
 
 ::: pense
@@ -302,36 +302,36 @@ svg: |
     <path d="M 111 122 L 118 122" stroke-width="1" />
     <path d="M 152 122 L 186 122" stroke-width="1" />
     <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
-      <text x="10" y="184">Diferença de 1,5 cm já é anormal (McGee); a partir de 2 cm, RV 2,1 para trombose.</text>
+      <text x="10" y="184">Diferença de 1,5 cm já é anormal; a partir de 2 cm, RV 2,1 para trombose.</text>
       <text x="10" y="195">O escore de Wells pontua diferença acima de 3 cm medida 10 cm abaixo da tuberosidade.</text>
     </g>
   </svg>
-legenda: "O único achado deste tópico que produz um número. A fita passa no mesmo nível nos dois lados, tomando a tuberosidade da tíbia como referência fixa, e os dois valores vão para o prontuário, não a diferença. Repare que os limiares citados nas fontes não coincidem: 1,5 cm já é anormal para McGee, 2 cm é o corte do achado com razão de verossimilhança medida, e 3 cm é o que pontua no escore de Wells."
+legenda: "O único achado deste tópico que produz um número. A fita passa no mesmo nível nos dois lados, tomando a tuberosidade da tíbia como referência fixa, e os dois valores vão para o prontuário, não a diferença. Repare que os limiares citados nas referências não coincidem: 1,5 cm já é considerado anormal, 2 cm é o corte do achado com razão de verossimilhança medida, e 3 cm é o que pontua no escore de Wells."
 :::
 
 ::: conceito
 titulo: O que se procura na perna aguda
 texto: |
-  **Os dois sinais mais importantes**, segundo McGee, são **dor à palpação e aumento de volume**. A partir daí, tudo é comparação com o outro lado.
+  **Os dois sinais mais importantes**, são **dor à palpação e aumento de volume**. A partir daí, tudo é comparação com o outro lado.
 
   - **Assimetria de perímetro.** Diferença maior que **1,5 cm** entre as panturrilhas é anormal, indicando edema significativo do membro maior ou atrofia do menor.
-  - **Empastamento.** Semiologia Clínica o coloca ao lado da dor à palpação da panturrilha como achado da trombose. Porto chega ao mesmo quadro por outro caminho: dor que se instala de súbito, com cianose e com edema que empasta a musculatura.
-  - **Edema.** Porto o considera **o sinal mais característico** da trombose venosa aguda. Ele se instala logo abaixo do ponto obstruído, e, se a obstrução pega as duas ilíacas ou a cava inferior, sobe até a região glútea e o períneo, tomando os dois membros.
-  - **Temperatura, e ela muda de sinal com o tempo.** Porto descreve a sequência: nas **primeiras horas**, a pele esfria por vasospasmo reflexo; cedido o espasmo e instalada a inflamação em torno do trombo, ela **aquece**. É por isso que autoridades diferentes propuseram tanto o frio quanto o calor como sinal: as duas coisas acontecem, em momentos diferentes.
+  - **Empastamento.** Está ao lado da dor à palpação da panturrilha como achado da trombose, e se chega ao mesmo quadro por outro caminho: dor que se instala de súbito, com cianose e com edema que empasta a musculatura.
+  - **Edema.** É **o sinal mais característico** da trombose venosa aguda. Ele se instala logo abaixo do ponto obstruído, e, se a obstrução pega as duas ilíacas ou a cava inferior, sobe até a região glútea e o períneo, tomando os dois membros.
+  - **Temperatura, e ela muda de sinal com o tempo.** A sequência: nas **primeiras horas**, a pele esfria por vasospasmo reflexo; cedido o espasmo e instalada a inflamação em torno do trombo, ela **aquece**. É por isso que autoridades diferentes propuseram tanto o frio quanto o calor como sinal: as duas coisas acontecem, em momentos diferentes.
   - **Cor.** A palidez dura apenas o tempo da vasoconstrição reflexa; a alteração mais frequente é a **cianose**, pela estase.
   - **Ingurgitamento das veias superficiais.** Quando a trombose é profunda, o retorno passa a ser feito pelas veias superficiais, que ficam ingurgitadas.
 
-  **A forma que não se vê.** Porto descreve uma **forma indeterminada**, em que o paciente não apresenta nenhum sintoma indicativo, e orienta lembrar do diagnóstico diante do paciente acamado, por doença debilitante ou por cirurgia, que passe a ter febrícula, taquicardia, taquipneia e sensação de mal-estar. Semiologia Clínica registra o mesmo de outro modo: **cerca de metade dos pacientes com trombose venosa profunda é assintomática.**
+  **A forma que não se vê.** Existe uma **forma indeterminada**, em que o paciente não apresenta nenhum sintoma indicativo, o que manda lembrar do diagnóstico diante do paciente acamado, por doença debilitante ou por cirurgia, que passe a ter febrícula, taquicardia, taquipneia e sensação de mal-estar. Dito de outro modo: **cerca de metade dos pacientes com trombose venosa profunda é assintomática.**
 :::
 
 ::: conceito
 titulo: "A pergunta que vem antes dos sinais: quem realmente tem trombose"
 texto: |
-  Antes de discutir o desempenho de cada achado, vale um número que muda a leitura de todos eles. Em grandes séries de pacientes que se apresentam com **suspeita** de trombose venosa profunda, McGee registra que **apenas um em cada quatro ou cinco** tem de fato o diagnóstico.
+  Antes de discutir o desempenho de cada achado, vale um número que muda a leitura de todos eles. Em grandes séries de pacientes que se apresentam com **suspeita** de trombose venosa profunda, **apenas um em cada quatro ou cinco** tem de fato o diagnóstico.
 
   Ou seja: a maioria dos pacientes examinados por essa suspeita tem outra coisa. E o exame precisa procurar essa outra coisa com o mesmo empenho.
 
-  **Os imitadores.** Semiologia Clínica lista os mais frequentes: infecções do membro, cisto de Baker e lesão muscular. McGee dá ao conjunto o nome de **pseudotromboflebite** e detalha o principal deles: o **cisto de Baker**, uma bursa gastrocnêmio-semimembranosa distendida que disseca ou se rompe para dentro da panturrilha, ou que comprime a veia poplítea.
+  **Os imitadores.** Os mais frequentes são infecções do membro, cisto de Baker e lesão muscular, conjunto chamado de **pseudotromboflebite**; o principal deles é o **cisto de Baker**, uma bursa gastrocnêmio-semimembranosa distendida que disseca ou se rompe para dentro da panturrilha, ou que comprime a veia poplítea.
 
   E dá o sinal que o denuncia, o mais específico deste tópico: uma **equimose em forma de crescente perto de um dos maléolos**, achado de cisto roto e de qualquer outra causa de hematoma da panturrilha. É o sangue descendo pelos planos até o tornozelo, e ele não pertence ao repertório da trombose.
 
@@ -340,11 +340,11 @@ texto: |
 
 ::: sinal
 nome: Sinal de Homans
-descricao: "Dor na panturrilha provocada pela **dorsiflexão forçada do pé**. Porto descreve a manobra e considera positiva a dor intensa na panturrilha; Semiologia Clínica define o sinal pela dor que a dorsiflexão do pé provoca abaixo do joelho."
-significado: "Porto o mantém entre as manobras com valor propedêutico na avaliação diagnóstica da trombose venosa profunda, ao lado das manobras de Olow e de Denecke-Payr. McGee chega a conclusão oposta: na tabulação de sensibilidade e especificidade dos sinais físicos, a presença ou a ausência do sinal de Homans **não tem valor diagnóstico**. As duas posições estão registradas lado a lado neste guia, e a história do próprio sinal está no bloco de aprofundamento."
+descricao: "Dor na panturrilha provocada pela **dorsiflexão forçada do pé**. Considera-se positiva a dor intensa na panturrilha; também se define o sinal pela dor que a dorsiflexão do pé provoca abaixo do joelho."
+significado: "As referências divergem: uma mantém o sinal entre as manobras com valor propedêutico na avaliação diagnóstica da trombose venosa profunda, ao lado das manobras de Olow e de Denecke-Payr; outra chega a conclusão oposta, mostrando, na tabulação de sensibilidade e especificidade dos sinais físicos, que a presença ou a ausência do sinal de Homans **não tem valor diagnóstico**. As duas posições estão registradas lado a lado neste guia, e a história do próprio sinal está no bloco de aprofundamento."
 causas:
   - "Trombose venosa profunda"
-  - "Cisto de Baker, o principal diagnóstico diferencial (Semiologia Clínica)"
+  - "Cisto de Baker, o principal diagnóstico diferencial"
   - "Lesão muscular da panturrilha"
   - "Qualquer causa de dor da musculatura posterior da perna"
 :::
@@ -352,13 +352,13 @@ causas:
 ::: conceito
 titulo: As outras três manobras da panturrilha
 texto: |
-  Porto mantém, ao lado do sinal de Homans, duas manobras que buscam a mesma dor por caminhos diferentes; e Semiologia Clínica acrescenta um sinal brasileiro que descreve o empastamento.
+  Ao lado do sinal de Homans, há duas manobras que buscam a mesma dor por caminhos diferentes, e um sinal brasileiro que descreve o empastamento.
 
-  - **Manobra de Olow**: comprime-se a musculatura da panturrilha **de encontro ao osso**. Dor intensa é resposta positiva. Porto descreve uma variante com a mão em garra. Semiologia Clínica também nomeia a manobra e a registra como sugestiva de trombose venosa profunda.
+  - **Manobra de Olow**: comprime-se a musculatura da panturrilha **de encontro ao osso**. Dor intensa é resposta positiva, com uma variante feita com a mão em garra; a manobra é registrada como sugestiva de trombose venosa profunda.
   - **Manobra de Denecke-Payr**: o polegar comprime a **planta do pé** de encontro ao osso. Dor intensa levanta a hipótese de trombose nas veias profundas **do pé**.
-  - **Sinal da bandeira**, descrito em Semiologia Clínica: com o paciente deitado, a perna fletida e o pé apoiado, o examinador tenta mobilizar lateralmente a panturrilha. Quando ela está empastada, não se move: a bandeira não tremula.
+  - **Sinal da bandeira**: com o paciente deitado, a perna fletida e o pé apoiado, o examinador tenta mobilizar lateralmente a panturrilha. Quando ela está empastada, não se move: a bandeira não tremula.
 
-  As três compartilham a mesma limitação das demais: nenhuma delas tem razão de verossimilhança própria nas quatro obras deste guia. A tabulação de McGee mede a **dor à palpação** como categoria única e não encontra valor diagnóstico nela. O que essas manobras fazem bem é **padronizar onde e como se comprime**, o que torna o achado comparável entre examinadores e entre consultas.
+  As três compartilham a mesma limitação das demais: nenhuma delas tem razão de verossimilhança própria nas referências deste guia. A tabulação de concordância mede a **dor à palpação** como categoria única e não encontra valor diagnóstico nela. O que essas manobras fazem bem é **padronizar onde e como se comprime**, o que torna o achado comparável entre examinadores e entre consultas.
 :::
 
 ::: sinal
@@ -366,7 +366,7 @@ nome: Sinal da bandeira
 descricao: |
   Com o paciente deitado, a perna fletida e o pé apoiado, o examinador tenta **mobilizar lateralmente a panturrilha**. Quando ela está **empastada, não se move: a bandeira não tremula**.
 significado: |
-  Descreve o **empastamento** da panturrilha, a perda da mobilidade passiva da massa muscular, na suspeita de **trombose venosa profunda**. Sinal registrado por Semiologia Clínica, sem número próprio: descreva o que foi feito e o que aconteceu.
+  Descreve o **empastamento** da panturrilha, a perda da mobilidade passiva da massa muscular, na suspeita de **trombose venosa profunda**. Sinal sem número próprio: descreva o que foi feito e o que aconteceu.
 causas:
   - "Trombose venosa profunda com empastamento da panturrilha"
 :::
@@ -384,9 +384,9 @@ causas:
 ::: sinal
 nome: Manobra de Olow
 descricao: |
-  Comprime-se a musculatura da **panturrilha de encontro ao osso** (Porto descreve variante com a mão em garra). **Dor intensa** é a resposta positiva.
+  Comprime-se a musculatura da **panturrilha de encontro ao osso** (há uma variante com a mão em garra). **Dor intensa** é a resposta positiva.
 significado: |
-  Porto a mantém, ao lado de Homans e Denecke-Payr, entre as manobras com valor propedêutico na suspeita de **trombose venosa profunda**. Sem número próprio nas quatro obras do guia: o que ela faz bem é **padronizar onde e como se comprime**, tornando o achado comparável entre examinadores.
+  Este guia a mantém, ao lado de Homans e Denecke-Payr, entre as manobras com valor propedêutico na suspeita de **trombose venosa profunda**. Sem número próprio nas referências do guia: o que ela faz bem é **padronizar onde e como se comprime**, tornando o achado comparável entre examinadores.
 causas:
   - "Trombose venosa profunda da perna"
   - "Outras causas de dor da musculatura da panturrilha"
@@ -395,18 +395,18 @@ causas:
 ::: conceito
 titulo: Tromboflebite superficial, flebite e as duas flegmasias
 texto: |
-  **Tromboflebite superficial.** Porto descreve o quadro: dor forte, sobretudo quando se toca; a região em volta endurecida; calor local; e eritema **acompanhando o trajeto** da veia comprometida, o conjunto que caracteriza a flebite. Semiologia Clínica acrescenta o contexto que mais frequentemente a produz: história de manipulação, como acesso venoso, com eritema no trajeto do cordão venoso e endurecimento doloroso à palpação, às vezes com febre e edema.
+  **Tromboflebite superficial.** O quadro: dor forte, sobretudo quando se toca; a região em volta endurecida; calor local; e eritema **acompanhando o trajeto** da veia comprometida, o conjunto que caracteriza a flebite. O contexto que mais frequentemente a produz: história de manipulação, como acesso venoso, com eritema no trajeto do cordão venoso e endurecimento doloroso à palpação, às vezes com febre e edema.
 
-  O ponto que interessa ao raciocínio: a tromboflebite superficial é visível e palpável **porque a veia é superficial**. E é justamente por isso que ela não informa sobre o sistema profundo: McGee registra que o achado não tem relação com a patologia das veias profundas.
+  O ponto que interessa ao raciocínio: a tromboflebite superficial é visível e palpável **porque a veia é superficial**. E é justamente por isso que ela não informa sobre o sistema profundo: O achado não tem relação com a patologia das veias profundas.
 
   A **linfangite**, que também produz cordões avermelhados no membro e se confunde com a flebite porque os coletores acompanham as veias superficiais, está no tópico de linfonodos.
 
-  **As duas flegmasias.** Porto descreve dois quadros graves de trombose iliofemoral, e a diferença entre eles está na cor e na temperatura:
+  **As duas flegmasias.** Há dois quadros graves de trombose iliofemoral, e a diferença entre eles está na cor e na temperatura:
 
   - **Phlegmasia alba dolens**: trombose da veia ilíaca ou femoral, com edema desde a raiz da coxa, dor, pele de **tom esbranquiçado** e membro **quente**;
   - **Phlegmasia cerulea dolens**, trombose que toma ao mesmo tempo o sistema **profundo e o superficial** e bloqueia quase todo o retorno: edema volumoso desde a raiz da coxa, **cianose acentuada**, membro **frio**, flictenas e áreas de necrose capazes de tomar todo o membro.
 
-  Vale registrar uma divergência de nomenclatura interna a Porto: no capítulo de exame físico geral, ao descrever o edema da trombose venosa, ele nomeia os dois quadros como flegmasia alba dolens e flegmasia **alba** cerulea; no capítulo de doenças das veias, a segunda aparece como phlegmasia cerulea dolens. **O guia adota as formas consagradas: phlegmasia alba dolens e phlegmasia cerulea dolens**, as únicas que a literatura externa registra; o "alba cerulea" do capítulo de exame físico geral é quase certamente um lapso tipográfico. As descrições coincidem; só o nome divergia.
+  Vale registrar uma divergência de nomenclatura interna das referências: em uma passagem, ao descrever o edema da trombose venosa, os dois quadros aparecem nomeados como flegmasia alba dolens e flegmasia **alba** cerulea; em outra, a segunda aparece como phlegmasia cerulea dolens. **O guia adota as formas consagradas: phlegmasia alba dolens e phlegmasia cerulea dolens**, as únicas que a literatura externa registra; o "alba cerulea" da primeira passagem é quase certamente um lapso tipográfico. As descrições coincidem; só o nome divergia.
 
   **A síndrome pós-trombótica** é a complicação tardia: a trombose eleva a pressão distalmente ao ponto ocluído, as veias se dilatam, as válvulas distais e as perfurantes tornam-se insuficientes e, com a recanalização e a fibrose da parede, instala-se uma insuficiência venosa crônica com edema, dor, dermatite ocre, eczema, hipodermatoesclerose e ulcerações perimaleolares. É a razão pela qual este tópico trata as duas doenças juntas: **a trombose de hoje é a doença venosa crônica de daqui a dez anos.**
 :::
@@ -427,7 +427,7 @@ titulo: Aprofundamento
 :::
 
 ::: tabela
-titulo: Acurácia dos sinais físicos na trombose venosa profunda (McGee, boxe EBM 56.1)
+titulo: Acurácia dos sinais físicos na trombose venosa profunda
 nivel: avancado
 colunas:
   - "Achado na perna sintomática"
@@ -499,17 +499,17 @@ nivel: avancado
 texto: |
   Esta é uma das tabelas mais desconfortáveis do guia, e vale ler seus limites antes de seus números. Ela reúne milhares de pacientes com dor, edema da panturrilha ou ambos; o padrão diagnóstico foi flebografia com contraste ou ultrassonografia por compressão; em quase todos os estudos, trombose significa **trombose proximal**; e a maioria excluiu pacientes com sintomas sugestivos de embolia pulmonar.
 
-  **Apenas quatro achados aumentam a probabilidade**, e todos modestamente: assimetria de panturrilha com 2 cm ou mais (**2,1**), dilatação de veias superficiais (**1,6**), edema de toda a perna (**1,5**) e assimetria de temperatura com a perna mais quente (**1,4**). McGee é direto ao qualificar o conjunto: o valor discriminatório de todos esses sinais é pequeno.
+  **Apenas quatro achados aumentam a probabilidade**, e todos modestamente: assimetria de panturrilha com 2 cm ou mais (**2,1**), dilatação de veias superficiais (**1,6**), edema de toda a perna (**1,5**) e assimetria de temperatura com a perna mais quente (**1,4**). O valor discriminatório de todos esses sinais é pequeno.
 
   **Cinco achados clássicos não têm valor diagnóstico** nem quando presentes nem quando ausentes: eritema, dor à palpação, perna mais fria, cordão venoso palpável e **sinal de Homans**.
 
   **Nenhum achado isolado diminui convincentemente a probabilidade**: nenhuma razão de verossimilhança negativa ficou abaixo de 0,5. O melhor deles é a ausência de assimetria de panturrilha (0,5), e mesmo esse apenas empata com o limiar.
 
-  **Por que os sinais falham, e a explicação é anatômica.** McGee questiona a própria base física da maioria deles: músculos volumosos e tecido fascial denso envolvem as veias profundas da perna, escondendo-as dos olhos e das mãos do examinador, é difícil conceber como se poderia palpar o cordão de uma veia profunda trombosada. O fluxo colateral aumentado em torno de uma obstrução pode, sim, tornar as veias superficiais mais conspícuas; mas a temperatura e a cor da pele refletem o fluxo e o calibre dos vasos mínimos da derme, que não são necessariamente diferentes depois de uma obstrução profunda.
+  **Por que os sinais falham, e a explicação é anatômica.** Isso questiona a própria base física da maioria deles: músculos volumosos e tecido fascial denso envolvem as veias profundas da perna, escondendo-as dos olhos e das mãos do examinador, é difícil conceber como se poderia palpar o cordão de uma veia profunda trombosada. O fluxo colateral aumentado em torno de uma obstrução pode, sim, tornar as veias superficiais mais conspícuas; mas a temperatura e a cor da pele refletem o fluxo e o calibre dos vasos mínimos da derme, que não são necessariamente diferentes depois de uma obstrução profunda.
 
   **O que ainda ajuda, fora do exame físico.** Os mesmos estudos mostram que certos fatores de risco auxiliam o diagnóstico, com destaque para o **câncer ativo** (sensibilidade 7% a 39%, especificidade 90% a 97%, razão de verossimilhança **2,9**). Imobilização recente e cirurgia recente rendem **1,6** cada.
 
-  **Semiologia Clínica traz a mesma tabulação de sensibilidade e especificidade** no capítulo de sangramento e trombose, com os mesmos valores. As duas obras, portanto, não divergem quanto aos números: divergem quanto ao que fazer com eles. Porto mantém Homans, Olow e Denecke-Payr como manobras com valor propedêutico; McGee retira do sinal de Homans qualquer valor diagnóstico. Este guia registra as duas posições, e a resolução prática é a mesma que ele adota em outros pontos: **a manobra vale como forma padronizada de examinar, não como veredito.**
+  **A mesma tabulação de sensibilidade e especificidade** aparece registrada em mais de uma referência, com os mesmos valores. As referências, portanto, não divergem quanto aos números: divergem quanto ao que fazer com eles. Uma posição mantém Homans, Olow e Denecke-Payr como manobras com valor propedêutico; outra retira do sinal de Homans qualquer valor diagnóstico. Este guia registra as duas posições, e a resolução prática é a mesma que adota em outros pontos: **a manobra vale como forma padronizada de examinar, não como veredito.**
 :::
 
 ::: conceito
@@ -530,7 +530,7 @@ texto: |
 :::
 
 ::: tabela
-titulo: Testes clínicos venosos comparados ao duplex scan (Semiologia Clínica, Tabela 3)
+titulo: Testes clínicos venosos comparados ao duplex scan
 nivel: avancado
 colunas:
   - "Teste"
@@ -566,11 +566,11 @@ nivel: avancado
 texto: |
   Este bloco existe porque o leitor vai encontrar essas manobras em outros lugares e precisa saber exatamente o que este guia faz com elas.
 
-  **Elas têm âncora.** Porto, no capítulo de doenças das veias, nomeia as manobras de **Brodie-Trendelenburg** e de **Perthès** e diz para que servem: a primeira serve às varizes em que a válvula ostial da safena interna e as perfurantes falharam; a segunda ajuda a separar as varizes primárias daquelas que nascem de obstrução no sistema profundo. Semiologia Clínica descreve a técnica de cada uma e as mede.
+  **Elas têm âncora.** As manobras de **Brodie-Trendelenburg** e de **Perthès** têm nome definido e finalidade clara: a primeira serve às varizes em que a válvula ostial da safena interna e as perfurantes falharam; a segunda ajuda a separar as varizes primárias daquelas que nascem de obstrução no sistema profundo. A técnica de cada uma está descrita e medida a seguir.
 
-  **E têm uma sentença explícita de desuso.** Porto, no capítulo de exame clínico das veias, é direto: existem inúmeras manobras para avaliação da insuficiência venosa crônica e das alterações valvulares, e **hoje, com o ecodoppler colorido incorporado à rotina, elas deixaram de ser usadas**, abrindo exceção apenas para Homans, Olow e Denecke-Payr, que ele mantém para a trombose.
+  **E têm uma sentença explícita de desuso.** É direto: existem inúmeras manobras para avaliação da insuficiência venosa crônica e das alterações valvulares, e **hoje, com o ecodoppler colorido incorporado à rotina, elas deixaram de ser usadas**, abrindo exceção apenas para Homans, Olow e Denecke-Payr, mantidas para a trombose.
 
-  **Os números explicam o desuso melhor do que a frase.** O estudo reproduzido por Semiologia Clínica examinou 70 membros de 44 pacientes com varizes primárias não tratadas, comparando cada teste com o duplex scan.
+  **Os números explicam o desuso melhor do que a frase.** O estudo examinou 70 membros de 44 pacientes com varizes primárias não tratadas, comparando cada teste com o duplex scan.
 
   - **Brodie-Trendelenburg e Perthes têm sensibilidade altíssima e especificidade quase nula**: 0,91 e 0,97 de sensibilidade contra 0,15 e 0,20 de especificidade. Traduzindo: eles quase nunca deixam passar um refluxo, e quase sempre acusam refluxo onde não há. São testes que praticamente não conseguem ser negativos.
   - **A percussão venosa é o espelho invertido**: sensibilidade de 0,18 e especificidade de 0,92. Quase nunca acusa; quando acusa, costuma estar certo. É o único dos quatro que serve para confirmar.
@@ -579,7 +579,7 @@ texto: |
 
   A conclusão dos próprios autores é a que este guia adota: os testes de uso corrente são muito imprecisos para dizer onde está o refluxo, e igualmente imprecisos para apontar por onde o sistema profundo se comunica com o superficial, o que os torna inviáveis para planejar o cuidado.
 
-  **A decisão editorial.** As quatro manobras **especiais**: Brodie-Trendelenburg, Perthes, percussão venosa e a tosse pesquisada isoladamente como prova de refluxo, ficam **nomeadas e descritas nesta tabela**, com seus números, e **não entram na manobra nem no checklist** deste tópico. O critério que governa a rotina não é o desempenho medido, e sim o lugar que Porto dá a cada gesto: entra o que ele ensina **como parte do exame físico**, e não como manobra especial, a inspeção em pé, a palpação do trajeto venoso, a palpação da junção safenofemoral com o teste da tosse e a procura das perfurantes insuficientes pelo alargamento do orifício aponeurótico. A tosse aparece, portanto, nos dois lugares e sem contradição: como gesto de rotina acoplado à palpação da junção, que é como Porto a ensina, e como prova isolada de refluxo na tabela, que é como o estudo a mediu, e nessa segunda função ela não se sustenta.
+  **A decisão editorial.** As quatro manobras **especiais**: Brodie-Trendelenburg, Perthes, percussão venosa e a tosse pesquisada isoladamente como prova de refluxo, ficam **nomeadas e descritas nesta tabela**, com seus números, e **não entram na manobra nem no checklist** deste tópico. O critério que governa a rotina não é o desempenho medido, e sim o lugar que cada gesto ocupa no exame físico: entram como **parte do exame físico**, e não como manobra especial, a inspeção em pé, a palpação do trajeto venoso, a palpação da junção safenofemoral com o teste da tosse e a procura das perfurantes insuficientes pelo alargamento do orifício aponeurótico. A tosse aparece, portanto, nos dois lugares e sem contradição: como gesto de rotina acoplado à palpação da junção, e como prova isolada de refluxo na tabela, que é como o estudo a mediu, e nessa segunda função ela não se sustenta.
 
   **Uma advertência de leitura, porque este é um terreno onde já houve erro grave neste guia.** A percussão venosa envolve uma afirmação sobre transmissão de impulso entre dois pontos da mesma veia, e é fácil confundi-la com a análise da circulação colateral da parede abdominal, que se faz por outra manobra e responde a outra pergunta. **São coisas distintas e têm donos distintos:** o desenho venoso abdominal, a circulação colateral, sua análise e a manobra de esvaziamento venoso pertencem ao tópico de inspeção e ausculta do abdome, e não são reproduzidos aqui.
 :::
@@ -590,7 +590,7 @@ nivel: avancado
 texto: |
   Dado o desempenho fraco dos achados isolados, Wells e outros desenvolveram um esquema que **combina** achados e estratifica os pacientes em baixa, moderada ou alta probabilidade de trombose da perna. Os itens que entraram no modelo (fatores de risco, sinais e a existência de um diagnóstico alternativo) haviam sido demonstrados como preditores independentes em análise anterior.
 
-  O modelo foi validado em muitos estudos, com mais de 6.000 pacientes com suspeita de trombose: probabilidade pré-teste **baixa** diminui a probabilidade (razão de verossimilhança **0,2**) e probabilidade pré-teste **alta** a aumenta (**5,9**); a probabilidade intermediária é diagnosticamente inútil. Uma versão modificada, com uma variável a mais, também é acurada. McGee acrescenta que o escore foi testado sobretudo em pacientes ambulatoriais e **pode ser menos acurado em pacientes internados**.
+  O modelo foi validado em muitos estudos, com mais de 6.000 pacientes com suspeita de trombose: probabilidade pré-teste **baixa** diminui a probabilidade (razão de verossimilhança **0,2**) e probabilidade pré-teste **alta** a aumenta (**5,9**); a probabilidade intermediária é diagnosticamente inútil. Uma versão modificada, com uma variável a mais, também é acurada. O escore foi testado sobretudo em pacientes ambulatoriais e **pode ser menos acurado em pacientes internados**.
 
   Repare no contraste: nenhum sinal isolado alcança 2,5, e a combinação chega a 5,9 quando alta e a 0,2 quando baixa. É a demonstração mais limpa, em todo este capítulo, de que **o valor está no conjunto, não no achado**.
 
@@ -598,7 +598,7 @@ texto: |
 
   A primeira: **os itens do escore são todos achados que este tópico ensina a procurar**, dor localizada no trajeto do sistema venoso profundo, perna inteira edemaciada, assimetria de panturrilha, edema com fóvea assimétrico, veias colaterais superficiais não varicosas, mais fatores de risco e a existência de um diagnóstico alternativo tão ou mais provável, este último com peso negativo. Examinar bem é a condição para que qualquer escore funcione.
 
-  A segunda: **a probabilidade pré-teste julgada por Wells é reprodutível.** Na tabulação de concordância de McGee, ela alcança **0,74 a 0,75**: um dos melhores números de toda a Tabela 5.1, e muito acima da concordância para **edema postural**, que fica entre **0,39 e 0,73**. O julgamento estruturado concorda melhor consigo mesmo do que a impressão de um achado isolado.
+  A segunda: **a probabilidade pré-teste julgada por Wells é reprodutível.** Na tabulação de concordância entre observadores, ela alcança **0,74 a 0,75**: um dos melhores números de toda a tabulação, e muito acima da concordância para **edema postural**, que fica entre **0,39 e 0,73**. O julgamento estruturado concorda melhor consigo mesmo do que a impressão de um achado isolado.
 :::
 
 ::: conceito
@@ -621,12 +621,12 @@ titulo: Armadilhas do exame
 ::: conceito
 titulo: Seis erros no exame venoso
 texto: |
-  1. **Procurar varizes com o paciente deitado.** As veias superficiais colabam no decúbito. Porto e Semiologia Clínica pedem o exame em pé, com inspeção panorâmica antes da inspeção próxima.
-  2. **Afastar trombose porque o sinal de Homans é negativo.** Nenhum achado isolado tem razão de verossimilhança negativa abaixo de 0,5, e Homans não tem valor diagnóstico em nenhuma das duas direções na tabulação de McGee.
+  1. **Procurar varizes com o paciente deitado.** As veias superficiais colabam no decúbito. O exame é feito em pé, com inspeção panorâmica antes da inspeção próxima.
+  2. **Afastar trombose porque o sinal de Homans é negativo.** Nenhum achado isolado tem razão de verossimilhança negativa abaixo de 0,5, e Homans não tem valor diagnóstico em nenhuma das duas direções na tabulação de concordância.
   3. **Estimar a assimetria em vez de medi-la.** Diferença acima de 1,5 cm já é anormal; o achado com razão de verossimilhança medida usa o corte de 2 cm; e o escore de Wells usa 3 cm, medidos 10 cm abaixo da tuberosidade da tíbia. Sem fita métrica e sem nível de referência, nenhum desses limiares se aplica.
   4. **Ler a perna quente ou a perna fria como sinal fixo.** Na trombose aguda a pele **esfria** nas primeiras horas, por vasospasmo reflexo, e só depois **aquece**, quando a inflamação se instala.
   5. **Tratar tromboflebite superficial como marcador do sistema profundo.** O achado é visível porque a veia é superficial, e não tem relação com a patologia das veias profundas.
-  6. **Indicar compressão sem palpar os pulsos.** Porto exige a palpação dos pulsos em todo paciente com varizes, e Semiologia Clínica pede a busca de sinais de doença arterial exatamente para avaliar a adequação da terapia de compressão.
+  6. **Indicar compressão sem palpar os pulsos.** É exigida a palpação dos pulsos em todo paciente com varizes, e pede-se a busca de sinais de doença arterial exatamente para avaliar a adequação da terapia de compressão.
 :::
 
 ::: perola
@@ -666,9 +666,9 @@ perguntas:
       - "Reduz substancialmente a probabilidade de trombose, porque a ausência do sinal é o mais forte dos achados negativos da série"
       - "Reduz a probabilidade somente quando os demais sinais de trombose também estiverem ausentes, situação em que o conjunto negativo passa a ter peso decisivo e dispensa qualquer investigação adicional do membro doloroso"
       - "Torna obrigatório o diagnóstico alternativo de cisto de Baker, único quadro em que a dorsiflexão é indolor"
-      - "Praticamente não altera a probabilidade: na tabulação de McGee, o sinal de Homans não tem valor diagnóstico nem quando presente nem quando ausente"
+      - "Praticamente não altera a probabilidade: na tabulação de concordância, o sinal de Homans não tem valor diagnóstico nem quando presente nem quando ausente"
     corretaIndex: 3
-    explicacao: "No boxe EBM 56.1, o sinal de Homans tem sensibilidade de 10% a 54% e especificidade de 39% a 89%, e as razões de verossimilhança positiva e negativa não alcançaram significância. O mesmo vale para eritema, dor à palpação, perna mais fria e cordão venoso palpável. Nenhum achado isolado da trombose venosa profunda tem razão de verossimilhança negativa abaixo de 0,5, não existe achado excludente. Porto mantém a manobra entre as de valor propedêutico, e este guia registra as duas posições. O cisto de Baker é o principal diagnóstico diferencial segundo Semiologia Clínica, mas não é definido pela ausência do sinal."
+    explicacao: "Nos números compilados, o sinal de Homans tem sensibilidade de 10% a 54% e especificidade de 39% a 89%, e as razões de verossimilhança positiva e negativa não alcançaram significância. O mesmo vale para eritema, dor à palpação, perna mais fria e cordão venoso palpável. Nenhum achado isolado da trombose venosa profunda tem razão de verossimilhança negativa abaixo de 0,5, não existe achado excludente. Uma posição mantém a manobra entre as de valor propedêutico, e este guia registra as duas posições. O cisto de Baker é o principal diagnóstico diferencial, mas não é definido pela ausência do sinal."
   - id: vasc-dvc-2
     enunciado: Que achado do exame de uma panturrilha dolorosa aponta para hematoma ou cisto de Baker roto em vez de trombose?
     alternativas:
@@ -677,7 +677,7 @@ perguntas:
       - "Diferença de perímetro maior que 2 cm entre as panturrilhas"
       - "Ingurgitamento das veias superficiais do membro acometido"
     corretaIndex: 0
-    explicacao: "McGee descreve a equimose em forma de crescente perto de um dos maléolos como sinal revelador do cisto de Baker roto e de qualquer outra causa de hematoma da panturrilha, é o sangue descendo pelos planos até o tornozelo. A pseudotromboflebite importa porque, em grandes séries de pacientes com suspeita de trombose, apenas um em cada quatro ou cinco tem de fato o diagnóstico. Empastamento e assimetria de perímetro pertencem ao repertório da trombose, e o ingurgitamento das veias superficiais é justamente o que Porto descreve quando a obstrução profunda desvia o retorno para o sistema superficial."
+    explicacao: "A equimose em forma de crescente perto de um dos maléolos é sinal revelador do cisto de Baker roto e de qualquer outra causa de hematoma da panturrilha, é o sangue descendo pelos planos até o tornozelo. A pseudotromboflebite importa porque, em grandes séries de pacientes com suspeita de trombose, apenas um em cada quatro ou cinco tem de fato o diagnóstico. Empastamento e assimetria de perímetro pertencem ao repertório da trombose, e o ingurgitamento das veias superficiais é justamente o que ocorre quando a obstrução profunda desvia o retorno para o sistema superficial."
   - id: vasc-dvc-3
     enunciado: Uma paciente com varizes tem manchas acastanhadas confluentes no terço inferior da perna, predominando na região perimaleolar interna. Qual é o nome e o significado desse achado?
     alternativas:
@@ -686,7 +686,7 @@ perguntas:
       - "Lipodermatoesclerose, caracterizada pelo aumento da espessura da perna por fibrose do subcutâneo"
       - "Dermatite ocre, por depósito de hemossiderina na camada basal da derme, indicativa de estágio avançado da doença"
     corretaIndex: 3
-    explicacao: "Porto descreve a hiperpigmentação da hipertensão venosa como manchas acastanhadas, esparsas ou confluentes, no terço inferior do membro, denominadas dermatite ocre, e a atribui à hemossiderina depositada na camada basal da derme, vinda das hemácias que passaram ao interstício e ali foram fagocitadas; registra ainda que o achado indica estágio avançado. A atrofia branca são manchas brancas de bordas escuras. A coroa flebectásica é o conjunto de vasos visíveis no tornozelo, com quatro componentes. E a lipodermatoesclerose cursa com diminuição, não aumento, da espessura da perna: o aspecto de gargalo de garrafa."
+    explicacao: "A hiperpigmentação da hipertensão venosa se manifesta como manchas acastanhadas, esparsas ou confluentes, no terço inferior do membro, denominadas dermatite ocre, atribuída à hemossiderina depositada na camada basal da derme, vinda das hemácias que passaram ao interstício e ali foram fagocitadas; o achado indica estágio avançado. A atrofia branca são manchas brancas de bordas escuras. A coroa flebectásica é o conjunto de vasos visíveis no tornozelo, com quatro componentes. E a lipodermatoesclerose cursa com diminuição, não aumento, da espessura da perna: o aspecto de gargalo de garrafa."
   - id: vasc-dvc-4
     enunciado: Uma paciente com acesso venoso recente no antebraço tem dor local, calor e um cordão endurecido e avermelhado seguindo o trajeto de uma veia. O que é isso, e o que o achado diz sobre o sistema venoso profundo?
     alternativas:
@@ -695,16 +695,16 @@ perguntas:
       - "Linfangite, já que o eritema em trajeto linear é exclusivo dos vasos linfáticos e afasta doença venosa"
       - "Erisipela em fase inicial, cuja placa endurecida costuma se organizar em cordões seguindo as veias superficiais do antebraço"
     corretaIndex: 1
-    explicacao: "Porto descreve o conjunto da flebite: dor sobretudo ao toque, endurecimento em volta, calor local e eritema acompanhando o trajeto da veia comprometida; Semiologia Clínica acrescenta o contexto que mais frequentemente a produz, manipulação venosa, como um acesso. A tromboflebite superficial é visível e palpável exatamente porque a veia é superficial, e por isso mesmo não informa sobre o sistema profundo, que corre longe da mão. Trombose venosa profunda não se confirma pela palpação de cordão; a suspeita pede confirmação por imagem."
+    explicacao: "O conjunto da flebite: dor sobretudo ao toque, endurecimento em volta, calor local e eritema acompanhando o trajeto da veia comprometida; o contexto que mais frequentemente a produz é manipulação venosa, como um acesso. A tromboflebite superficial é visível e palpável exatamente porque a veia é superficial, e por isso mesmo não informa sobre o sistema profundo, que corre longe da mão. Trombose venosa profunda não se confirma pela palpação de cordão; a suspeita pede confirmação por imagem."
   - id: vasc-dvc-5
     enunciado: Um paciente internado há cinco dias apresenta perna esquerda mais fria que a direita, dolorosa e com aumento de volume, com início há poucas horas. Como a temperatura entra na interpretação?
     alternativas:
-      - "A frialdade é compatível com trombose recente: Porto descreve a pele esfriando nas primeiras horas por vasospasmo reflexo, e aquecendo depois, quando a inflamação se instala"
+      - "A frialdade é compatível com trombose recente: a pele esfria nas primeiras horas por vasospasmo reflexo, e aquece depois, quando a inflamação se instala"
       - "A frialdade afasta a trombose venosa e obriga a considerar oclusão arterial aguda como primeira hipótese, já que na obstrução do retorno venoso a perna acometida está sempre mais quente que a contralateral"
       - "A frialdade tem razão de verossimilhança 1,4 para trombose, o mesmo valor da perna mais quente, porque qualquer assimetria térmica conta"
       - "A frialdade indica phlegmasia alba dolens, quadro definido por palidez e diminuição da temperatura do membro"
     corretaIndex: 0
-    explicacao: "Porto descreve a sequência: nas primeiras horas a pele esfria, por vasospasmo reflexo; cedido o espasmo e instalada a inflamação em torno do trombo, ela aquece. É por isso que autoridades diferentes propuseram tanto o frio quanto o calor como sinal. Na tabulação de McGee, a perna assimetricamente mais quente rende 1,4 e a mais fria não alcança significância: os dois achados não têm o mesmo valor. A phlegmasia alba dolens cursa com pele esbranquiçada e membro quente; é a phlegmasia cerulea dolens que cursa com cianose acentuada e membro frio."
+    explicacao: "A sequência: nas primeiras horas a pele esfria, por vasospasmo reflexo; cedido o espasmo e instalada a inflamação em torno do trombo, ela aquece. É por isso que autoridades diferentes propuseram tanto o frio quanto o calor como sinal. Na tabulação de concordância, a perna assimetricamente mais quente rende 1,4 e a mais fria não alcança significância: os dois achados não têm o mesmo valor. A phlegmasia alba dolens cursa com pele esbranquiçada e membro quente; é a phlegmasia cerulea dolens que cursa com cianose acentuada e membro frio."
   - id: vasc-dvc-6
     enunciado: Uma paciente tem edema vespertino do tornozelo esquerdo que desaparece com o repouso noturno, sem edema à direita. Que raciocínio a distribuição e o horário permitem?
     alternativas:
@@ -713,5 +713,5 @@ perguntas:
       - "São compatíveis com insuficiência venosa crônica, que produz edema vespertino, reversível com o repouso e habitualmente predominante de um lado"
       - "Não permitem raciocínio algum, porque nem a distribuição nem o horário do edema conseguem separar as causas locais das causas sistêmicas, questão que só a medida da pressão venosa resolve"
     corretaIndex: 2
-    explicacao: "Porto descreve o edema da insuficiência venosa crônica como vespertino, desaparecendo com o repouso, mole e depressível, de preferência perimaleolar, e quase sempre pesando mais de um lado, o lado em que o retorno está pior, ao passo que o edema cardíaco, o das disproteinemias e o das nefropatias tende a ser igual nas duas pernas. Ele acrescenta a regra que impede o erro oposto: edema que o repouso não desfaz pede outra explicação. O linfedema, descrito no tópico de linfonodos, é firme, indolor, varia pouco ao longo do dia e caracteristicamente quadra os dedos."
+    explicacao: "O edema da insuficiência venosa crônica é vespertino, desaparecendo com o repouso, mole e depressível, de preferência perimaleolar, e quase sempre pesa mais de um lado, o lado em que o retorno está pior, ao passo que o edema cardíaco, o das disproteinemias e o das nefropatias tende a ser igual nas duas pernas. Fica a regra que impede o erro oposto: edema que o repouso não desfaz pede outra explicação. O linfedema, descrito no tópico de linfonodos, é firme, indolor, varia pouco ao longo do dia e caracteristicamente quadra os dedos."
 :::

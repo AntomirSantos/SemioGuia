@@ -86,7 +86,7 @@ titulo: Duas perguntas, não uma
 texto: |
   Todo exame neurológico começa pelo mesmo lugar, e quase sempre pela pergunta errada. Diante de um paciente que "não está bem", o reflexo é perguntar **quanto** ele está acordado. A pergunta certa são duas.
 
-  Semiologia Clínica separa os dois eixos com clareza. O **nível de consciência** é o eixo quantitativo: o grau de vigília, o quanto o paciente está desperto. O **conteúdo da consciência** é o eixo qualitativo: a soma das funções corticais (motoras, sensitivas, emotivas, cognitivas) que dá coerência ao pensamento e ao comportamento.
+  Convém separar os dois eixos com clareza. O **nível de consciência** é o eixo quantitativo: o grau de vigília, o quanto o paciente está desperto. O **conteúdo da consciência** é o eixo qualitativo: a soma das funções corticais (motoras, sensitivas, emotivas, cognitivas) que dá coerência ao pensamento e ao comportamento.
 
   E cada eixo tem seu substrato. O nível depende do **sistema reticular ativador ascendente**, que se estende do mesencéfalo ao diencéfalo e ativa o córtex. O conteúdo depende do próprio **córtex cerebral**. Daí a regra que organiza o raciocínio: lesão do sistema reticular rebaixa o nível; lesão cortical altera o conteúdo; e lesões corticais muito extensas conseguem rebaixar o nível também.
 
@@ -96,8 +96,8 @@ texto: |
 
   **O que fica como moldura, nomeada e não ensinada:**
 
-  - as **escalas cognitivas estruturadas**: o miniexame do estado mental, que Porto reproduz com seus pontos de corte por escolaridade, e as escalas de sedação que Semiologia Clínica indica para pacientes sedados. Elas existem, têm uso próprio e são ensinadas no tópico Escalas cognitivas à beira do leito, do sistema Exame psíquico;
-  - o **exame psíquico formal**, que Porto distingue explicitamente da avaliação do estado mental feita dentro do exame neurológico: um analisa afeto, humor e pensamento como objeto; o outro busca os elementos que se correlacionam com doença neurológica. O exame psíquico formal tem agora capítulo próprio: o sistema Exame psíquico deste guia.
+  - as **escalas cognitivas estruturadas**: o miniexame do estado mental, com seus pontos de corte por escolaridade, e as escalas de sedação indicadas para pacientes sedados. Elas existem, têm uso próprio e são ensinadas no tópico Escalas cognitivas à beira do leito, do sistema Exame psíquico;
+  - o **exame psíquico formal**, que se distingue explicitamente da avaliação do estado mental feita dentro do exame neurológico: um analisa afeto, humor e pensamento como objeto; o outro busca os elementos que se correlacionam com doença neurológica. O exame psíquico formal tem agora seção própria: o sistema Exame psíquico deste guia.
 :::
 
 ::: perola
@@ -124,9 +124,9 @@ passos:
   - "Procure assimetrias (face, membros, campo visual, atenção a um dos lados) e registre-as ao lado da pontuação."
   - "Repita a avaliação em intervalos definidos: a comparação ao longo do tempo vale mais que qualquer número isolado."
 observar: |
-  Porto (*Semiologia Médica*, cap. 172) faz uma ressalva de técnica que muda o resultado: prefira o estímulo doloroso aplicado ao leito ungueal, porque o estímulo supraorbital é capaz de fazer o paciente fechar as pálpebras, e é justamente a abertura ocular que se está tentando medir.
+  Vale uma ressalva de técnica que muda o resultado: prefira o estímulo doloroso aplicado ao leito ungueal, porque o estímulo supraorbital é capaz de fazer o paciente fechar as pálpebras, e é justamente a abertura ocular que se está tentando medir.
 
-  Há uma dificuldade que nenhuma escala resolve e que a beira do leito exige: parte do que se precisa saber não está no paciente. Semiologia Clínica insiste que a anamnese, nesses casos, se faz com quem trouxe o doente, e que o prontuário deve registrar **quem** informou e que relação essa pessoa tem com ele.
+  Há uma dificuldade que nenhuma escala resolve e que a beira do leito exige: parte do que se precisa saber não está no paciente. Vale insistir que a anamnese, nesses casos, se faz com quem trouxe o doente, e que o prontuário deve registrar **quem** informou e que relação essa pessoa tem com ele.
 :::
 
 ::: checklist
@@ -151,7 +151,7 @@ titulo: A escala de coma de Glasgow
 ::: conceito
 titulo: Por que se abandonou o adjetivo
 texto: |
-  Porto (*Semiologia Médica*, cap. 172) explica em uma frase por que a escala existe: as palavras da escada clássica passaram a ser evitadas porque **observadores diferentes entendem coisas diferentes por cada uma delas**. "Torporoso" não significa a mesma coisa em duas enfermarias, e a evolução do paciente fica impossível de comparar.
+  Em uma frase, eis por que a escala existe: as palavras da escada clássica passaram a ser evitadas porque **observadores diferentes entendem coisas diferentes por cada uma delas**. "Torporoso" não significa a mesma coisa em duas enfermarias, e a evolução do paciente fica impossível de comparar.
 
   A escala substitui adjetivos por três observações independentes, cada uma com sua própria régua:
 
@@ -159,9 +159,9 @@ texto: |
   - **melhor resposta verbal**, de 1 a 5;
   - **melhor resposta motora**, de 1 a 6.
 
-  O total vai de **3 a 15**, e Porto (*Exame Clínico*, cap. 20) acrescenta a regra de aplicação que mais se esquece: usa-se **sempre a melhor resposta, e do melhor lado**. Isso não é detalhe burocrático: é o que impede que uma hemiplegia seja contada como rebaixamento de consciência.
+  O total vai de **3 a 15**, e vale acrescentar a regra de aplicação que mais se esquece: usa-se **sempre a melhor resposta, e do melhor lado**. Isso não é detalhe burocrático: é o que impede que uma hemiplegia seja contada como rebaixamento de consciência.
 
-  Três origens vale conhecer, porque explicam limites. Semiologia Clínica registra que a escala **nasceu no contexto do trauma** e passou a ser usada em situações clínicas de todo tipo; que sua confiabilidade sofre influência do **treinamento de quem aplica**, do **tipo de estímulo doloroso** escolhido e do próprio nível de consciência do paciente; e que, para pessoas **sedadas**, existem escalas próprias, mais adequadas ao objetivo. Porto (*Semiologia Médica*) diz o mesmo por outro caminho, sublinhando a experiência do examinador pela possibilidade de variação da pontuação entre observadores.
+  Três origens vale conhecer, porque explicam limites. A escala **nasceu no contexto do trauma** e passou a ser usada em situações clínicas de todo tipo; sua confiabilidade sofre influência do **treinamento de quem aplica**, do **tipo de estímulo doloroso** escolhido e do próprio nível de consciência do paciente; e, para pessoas **sedadas**, existem escalas próprias, mais adequadas ao objetivo. As referências dizem o mesmo por caminhos diferentes, sublinhando a experiência do examinador pela possibilidade de variação da pontuação entre observadores.
 :::
 
 ::: tabela
@@ -221,17 +221,17 @@ linhas:
 ::: conceito
 titulo: Lendo a tabela, e as pequenas discordâncias entre as fontes
 texto: |
-  A tabela acima reúne as quatro versões que as obras deste guia apresentam, e vale saber que elas **não são idênticas na redação**, embora sejam na estrutura.
+  A tabela acima reúne as versões que as referências deste guia apresentam, e vale saber que elas **não são idênticas na redação**, embora sejam na estrutura.
 
-  - No **componente verbal**, o degrau 4 aparece como "confuso" em Semiologia Clínica, como "confuso" em Porto (*Exame Clínico*, cap. 10) e como "desorientada ou confusa" em Porto (*Semiologia Médica*, cap. 174); o Quadro 20.2 de Porto (*Exame Clínico*, cap. 20) abrevia o mesmo degrau como "frases". O degrau 3 é "palavras desconexas", "palavras inapropriadas" ou apenas "palavras", conforme a fonte.
-  - No **componente motor**, os degraus 3 e 2 são nomeados pela postura, decorticação e descerebração em Semiologia Clínica, ou pelo movimento: flexão anormal e extensão em Porto. São o mesmo achado, com dois vocabulários.
+  - No **componente verbal**, o degrau 4 aparece como "confuso" em uma referência, e como "confuso" ou "desorientada ou confusa" em outra (duas passagens da mesma obra divergem); um quadro abrevia o mesmo degrau como "frases". O degrau 3 é "palavras desconexas", "palavras inapropriadas" ou apenas "palavras", conforme a referência.
+  - No **componente motor**, os degraus 3 e 2 são nomeados, conforme a referência, pela postura (decorticação e descerebração) ou pelo movimento (flexão anormal e extensão). São o mesmo achado, com dois vocabulários.
 
   Duas leituras práticas saem daí. A primeira: **descreva a resposta em palavras ao lado do número**. "Flexão anormal dos membros superiores ao estímulo ungueal" sobrevive a qualquer divergência de nomenclatura; "M3" isolado, não. A segunda: as diferenças de redação são a razão pela qual a mesma pontuação, anotada por dois examinadores, pode não significar a mesma coisa, e por que a comparação mais confiável é a do mesmo examinador ao longo do tempo.
 
   **A pontuação tem faixas de interpretação?** As fontes oferecem duas, e elas não coincidem exatamente:
 
-  - **Porto (*Exame Clínico*, cap. 10)** propõe âncoras: 15 corresponde à normalidade; 11, a coma superficial; 7, a coma intermediário; 4, a coma profundo; e 3, ao coma profundo que ele qualifica como vegetativo.
-  - **Porto (*Semiologia Médica*, cap. 174)** trabalha com um corte: 15 é normalidade e 3 é coma grave, e, na prática, ele situa o estado de coma nas pontuações **abaixo de 8, ou de 7**. O mesmo livro, em outro capítulo, fixa o corte em menos de 8.
+  - **Uma passagem** propõe âncoras: 15 corresponde à normalidade; 11, a coma superficial; 7, a coma intermediário; 4, a coma profundo; e 3, ao coma profundo que qualifica como vegetativo.
+  - **Outra passagem da mesma obra** trabalha com um corte: 15 é normalidade e 3 é coma grave, e, na prática, situa o estado de coma nas pontuações **abaixo de 8, ou de 7**. Ainda um outro trecho, na mesma obra, fixa o corte em menos de 8.
 
   Onde as duas concordam é no que interessa: **os extremos falam e o meio precisa ser detalhado**. Entre 3 e 15 há uma transição contínua, e é o registro por componente, e a repetição da medida, que descreve para onde o paciente está indo.
 :::
@@ -292,7 +292,7 @@ svg: |
       <text x="200" y="46">leito</text>
     </g>
   </svg>
-legenda: "Paciente em decúbito dorsal, visto de cima. As duas posturas anormais do componente motor não são detalhes de nomenclatura: elas separam dois pontos na escala e, segundo Porto, apontam para níveis diferentes de sofrimento encefálico. O que se anota é o que se viu: antebraços que se fecham sobre o tronco, ou quatro membros que se enrijecem em extensão."
+legenda: "Paciente em decúbito dorsal, visto de cima. As duas posturas anormais do componente motor não são detalhes de nomenclatura: elas separam dois pontos na escala e, apontam para níveis diferentes de sofrimento encefálico. O que se anota é o que se viu: antebraços que se fecham sobre o tronco, ou quatro membros que se enrijecem em extensão."
 :::
 
 ::: entendimento
@@ -304,9 +304,9 @@ texto: |
 
   O outro não abre os olhos (1), emite sons incompreensíveis (2) e **obedece a ordem verbal com o membro que ainda funciona** (6): um quadro em que a via motora está bem mais preservada do que o total sugere. Essa segunda combinação é construída para o argumento, ela é incomum fora de situações como edema ou ptose bilateral, e serve aqui para mostrar até onde a soma pode enganar.
 
-  Daí a insistência de todo este tópico no **registro por componente**. O total serve para uma coisa, comparar o mesmo paciente ao longo do tempo, que é justamente o uso que Semiologia Clínica atribui às escalas: permitir comparações evolutivas de melhora ou de piora. Para tudo o mais, o que informa são os três números separados, e o que se fez para obtê-los.
+  Daí a insistência de todo este tópico no **registro por componente**. O total serve para uma coisa, comparar o mesmo paciente ao longo do tempo, que é justamente o uso atribuído a escalas como esta: permitir comparações evolutivas de melhora ou de piora. Para tudo o mais, o que informa são os três números separados, e o que se fez para obtê-los.
 
-  Existe ainda uma situação que as quatro obras deste guia **não tratam** e que a enfermaria produz todos os dias: o paciente em quem a resposta verbal não pode ser avaliada, porque tem via aérea artificial, porque é afásico, porque não fala o idioma do examinador. Nenhuma das fontes descreve uma convenção de registro para esse caso, e este guia não vai inventar uma. O que decorre logicamente do que elas dizem é o suficiente para a prática: se um dos três parâmetros não pôde ser obtido, **o total perde sentido e só os componentes avaliados devem ser anotados**, dizendo por que o terceiro faltou. As convenções formais de registro nesse cenário, entre elas a anotação do componente verbal com a letra "T", pertencem ao contexto de terapia intensiva, fora do alcance das obras em que este guia se apoia.
+  Existe ainda uma situação que as referências deste guia **não tratam** e que a enfermaria produz todos os dias: o paciente em quem a resposta verbal não pode ser avaliada, porque tem via aérea artificial, porque é afásico, porque não fala o idioma do examinador. Nenhuma delas descreve uma convenção de registro para esse caso, e este guia não vai inventar uma. O que decorre logicamente do que elas dizem é o suficiente para a prática: se um dos três parâmetros não pôde ser obtido, **o total perde sentido e só os componentes avaliados devem ser anotados**, dizendo por que o terceiro faltou. As convenções formais de registro nesse cenário, entre elas a anotação do componente verbal com a letra "T", pertencem ao contexto de terapia intensiva, fora do alcance das referências deste guia.
 :::
 
 ::: pense
@@ -325,14 +325,14 @@ titulo: O que muda quando o achado tem endereço
 texto: |
   Diante de consciência alterada, o exame não termina em uma pontuação. A pergunta seguinte é se há **assimetria**, e ela vale ouro, porque separa dois mundos causais.
 
-  Semiologia Clínica organiza as causas de rebaixamento em dois grandes grupos:
+  As causas de rebaixamento se organizam em dois grandes grupos:
 
   - **estruturais**, com lesão direta do tronco encefálico, compressão do tronco, lesão de um hemisfério que distorce sua arquitetura ou lesão difusa bilateral dos hemisférios: em geral traumáticas, tumorais, infecciosas ou vasculares;
   - **metabólicas**, ou não estruturais, em que o córtex ou o sistema reticular funcionam mal sem que haja lesão de arquitetura: hipoglicemia e hiperglicemia, hipoxemia, hipercapnia, distúrbios do sódio e do cálcio, encefalopatia hepática, uremia, entre outras.
 
-  Porto (*Semiologia Médica*, cap. 174) reúne uma lista etiológica ampla e faz a advertência que impede a leitura ingênua: sinais neurológicos focais sugerem fortemente doença neurológica de base, **mas alguns comas de causa não neurológica cursam com sinais focais**, ele cita hipoglicemia e hepatopatia, e há comas primariamente neurológicos sem nenhum sinal focal. A assimetria desloca a probabilidade; não fecha o diagnóstico.
+  Uma lista etiológica ampla traz a advertência que impede a leitura ingênua: sinais neurológicos focais sugerem fortemente doença neurológica de base, **mas alguns comas de causa não neurológica cursam com sinais focais** (hipoglicemia e hepatopatia, por exemplo), e há comas primariamente neurológicos sem nenhum sinal focal. A assimetria desloca a probabilidade; não fecha o diagnóstico.
 
-  **Que achados são esses?** Semiologia Clínica os nomeia como sinais localizatórios que habitualmente indicam acometimento cortical específico: **hemiparesia, hemiplegia, hemianopsia, heminegligência e afasia**. E acrescenta dois grupos vizinhos, com endereços diferentes: alterações no padrão de resposta motora, respiratória e da motricidade ocular podem indicar sofrimento do sistema reticular por compressão; e **paralisias de nervos cranianos** apontam para acometimento direto do tronco encefálico.
+  **Que achados são esses?** São os sinais localizatórios que habitualmente indicam acometimento cortical específico: **hemiparesia, hemiplegia, hemianopsia, heminegligência e afasia**. E acrescenta dois grupos vizinhos, com endereços diferentes: alterações no padrão de resposta motora, respiratória e da motricidade ocular podem indicar sofrimento do sistema reticular por compressão; e **paralisias de nervos cranianos** apontam para acometimento direto do tronco encefálico.
 
   Este guia ensina cada um desses achados em seu lugar, e a lista abaixo serve como mapa, não como repetição:
 
@@ -343,7 +343,7 @@ texto: |
   - as **marchas típicas**, que a ectoscopia prometeu e este capítulo paga, são o tópico de marcha e sinais meníngeos;
   - as **alterações pupilares** com valor localizatório estão no tópico de pares cranianos de I a VI, que continua o exame das pupilas iniciado no tópico de olhos.
 
-  A **afasia** merece uma linha à parte porque é o sinal localizatório mais fácil de confundir com rebaixamento. Semiologia Clínica registra que, na maioria das pessoas destras e em cerca de 70% dos canhotos, o hemisfério dominante para a linguagem é o esquerdo, e descreve os três tipos mais comuns: a **afasia motora ou de expressão**, por lesão da área de Broca, no giro frontal inferior, em que o paciente compreende mas não consegue se expressar; a **afasia sensitiva ou de compreensão**, por lesão da área de Wernicke, no giro temporal superior, em que a compreensão da linguagem falada e escrita está prejudicada; e a **afasia de condução**, por lesão do fascículo arqueado, que liga as duas áreas, em que a repetição de palavras se torna muito difícil enquanto a compreensão e a fala espontânea sofrem menos.
+  A **afasia** merece uma linha à parte porque é o sinal localizatório mais fácil de confundir com rebaixamento. Na maioria das pessoas destras e em cerca de 70% dos canhotos, o hemisfério dominante para a linguagem é o esquerdo, e descreve os três tipos mais comuns: a **afasia motora ou de expressão**, por lesão da área de Broca, no giro frontal inferior, em que o paciente compreende mas não consegue se expressar; a **afasia sensitiva ou de compreensão**, por lesão da área de Wernicke, no giro temporal superior, em que a compreensão da linguagem falada e escrita está prejudicada; e a **afasia de condução**, por lesão do fascículo arqueado, que liga as duas áreas, em que a repetição de palavras se torna muito difícil enquanto a compreensão e a fala espontânea sofrem menos.
 
   Um paciente com afasia sensitiva grave pode parecer confuso, agitado e desorientado sem ter nenhum rebaixamento de nível. A diferença se faz pedindo tarefas **não verbais** e observando se a atenção e a vigília estão íntegras.
 :::
@@ -353,20 +353,20 @@ titulo: O padrão respiratório como dado neurológico
 texto: |
   A frequência respiratória, os ritmos com nome (Cheyne-Stokes, Kussmaul, Biot) e suas definições estão no tópico de temperatura e frequência respiratória; o esforço respiratório e seus sinais estão no tópico de inspeção do tórax. Aqui interessa apenas o que esses padrões dizem **sobre o sistema nervoso**, e é bastante.
 
-  Porto (*Semiologia Médica*, cap. 174) lê a respiração do paciente comatoso como parte do exame do sistema nervoso autônomo, com quatro observações:
+  A respiração do paciente comatoso se lê como parte do exame do sistema nervoso autônomo, com quatro observações:
 
   - **bradipneia** no coma por opiáceos;
   - **hiperpneia** no sofrimento da porção alta do tronco encefálico, e uma hiperpneia contínua na herniação transtentorial;
   - **apneia** na hipertensão intracraniana, por sofrimento da porção caudal do tronco, podendo instalar-se de modo progressivo ou súbito;
   - **respiração de Kussmaul** nos comas urêmico e diabético, pela acidose metabólica: aqui a causa não é neurológica, e reconhecer isso é o ponto.
 
-  Sobre o **ritmo de Cheyne-Stokes**, Porto o associa a lesões hemisféricas bilaterais e profundas e a lesões diencefálicas, considerando-o um comprometimento inicial da consciência e de origem central.
+  Sobre o **ritmo de Cheyne-Stokes**, associa-se a lesões hemisféricas bilaterais e profundas e a lesões diencefálicas, considerando-o um comprometimento inicial da consciência e de origem central.
 
-  McGee acrescenta uma observação de beira de leito que transforma o padrão em exame neurológico contínuo: durante a **fase de hiperpneia**, o paciente fica alerta, às vezes agitado, com **pupilas dilatadas**, reflexos musculares vivos e tônus aumentado; durante a **fase de apneia**, fica imóvel e com aparência de sono, com **pupilas contraídas**, reflexos hipoativos e tônus reduzido. Ou seja: em um paciente com Cheyne-Stokes, o tamanho das pupilas e a amplitude dos reflexos **oscilam com o ciclo respiratório**, e um exame feito sem se dar conta disso registra dois pacientes diferentes em dez minutos.
+  Uma observação de beira de leito transforma o padrão em exame neurológico contínuo: durante a **fase de hiperpneia**, o paciente fica alerta, às vezes agitado, com **pupilas dilatadas**, reflexos musculares vivos e tônus aumentado; durante a **fase de apneia**, fica imóvel e com aparência de sono, com **pupilas contraídas**, reflexos hipoativos e tônus reduzido. Ou seja: em um paciente com Cheyne-Stokes, o tamanho das pupilas e a amplitude dos reflexos **oscilam com o ciclo respiratório**, e um exame feito sem se dar conta disso registra dois pacientes diferentes em dez minutos.
 
-  McGee também descreve o ciclo com números que ajudam a reconhecê-lo: entre dois picos de hiperpneia há uma duração de ciclo, com fase de hiperpneia de cerca de 30 segundos e fase de apneia de cerca de 25 segundos, em média, nos pacientes com insuficiência cardíaca; e a frequência respiratória permanece **constante** durante a hiperpneia, apenas o volume corrente oscila, ao contrário do que a descrição intuitiva sugere.
+  O ciclo também se descreve com números que ajudam a reconhecê-lo: entre dois picos de hiperpneia há uma duração de ciclo, com fase de hiperpneia de cerca de 30 segundos e fase de apneia de cerca de 25 segundos, em média, nos pacientes com insuficiência cardíaca; e a frequência respiratória permanece **constante** durante a hiperpneia, apenas o volume corrente oscila, ao contrário do que a descrição intuitiva sugere.
 
-  Uma nota de causalidade que evita erro: o mesmo padrão tem duas origens comuns. McGee registra que a respiração de Cheyne-Stokes acomete cerca de 30% dos pacientes com insuficiência cardíaca estável e aparece também em muitas doenças neurológicas; e que pessoas normais podem apresentá-la durante o sono ou em grandes altitudes. Achar Cheyne-Stokes não é achar lesão cerebral.
+  Uma nota de causalidade que evita erro: o mesmo padrão tem duas origens comuns. A respiração de Cheyne-Stokes acomete cerca de 30% dos pacientes com insuficiência cardíaca estável e aparece também em muitas doenças neurológicas; e que pessoas normais podem apresentá-la durante o sono ou em grandes altitudes. Achar Cheyne-Stokes não é achar lesão cerebral.
 :::
 
 ::: secao
@@ -376,17 +376,17 @@ titulo: Orientação, atenção e linguagem à beira do leito
 ::: conceito
 titulo: A triagem que cabe em três minutos
 texto: |
-  Com o paciente responsivo, a avaliação do conteúdo da consciência não exige instrumento. Semiologia Clínica lista o que se procura: se a **atenção** está preservada, isto é, a capacidade de focar e se concentrar; se há alteração de **memória recente** (minutos, horas, dias) ou **remota**; se o paciente está **orientado no tempo e no espaço**; e se percebe os objetos e acontecimentos ao redor. Afeto, humor e linguagem completam o quadro.
+  Com o paciente responsivo, a avaliação do conteúdo da consciência não exige instrumento. O que se procura é: se a **atenção** está preservada, isto é, a capacidade de focar e se concentrar; se há alteração de **memória recente** (minutos, horas, dias) ou **remota**; se o paciente está **orientado no tempo e no espaço**; e se percebe os objetos e acontecimentos ao redor. Afeto, humor e linguagem completam o quadro.
 
-  Porto (*Semiologia Médica*, cap. 174) oferece um conjunto de tarefas simples, extraído da escala de consciência vígil de Jouvet e Dechaume, que serve bem como roteiro de triagem: executar uma ordem escrita, dizer onde está e que dia é, fazer um cálculo mental simples, nomear seis flores, executar uma ordem verbal simples e piscar diante da ameaça. Ele registra ainda uma observação clínica curiosa e útil: à medida que a consciência se desorganiza, os pacientes costumam citar **apenas uma flor**, quase sempre a rosa.
+  Um conjunto de tarefas simples, extraído da escala de consciência vígil de Jouvet e Dechaume, serve bem como roteiro de triagem: executar uma ordem escrita, dizer onde está e que dia é, fazer um cálculo mental simples, nomear seis flores, executar uma ordem verbal simples e piscar diante da ameaça. Vale registrar ainda uma observação clínica curiosa e útil: à medida que a consciência se desorganiza, os pacientes costumam citar **apenas uma flor**, quase sempre a rosa.
 
-  Um alerta de método vale mais que qualquer lista: **a atenção é a função de base**. Semiologia Clínica afirma que o prejuízo da atenção, comum no delirium, pode comprometer o exame de todos os demais domínios cognitivos. Um paciente que não consegue sustentar atenção vai errar testes de memória, de cálculo e de linguagem sem que nenhuma dessas funções esteja de fato lesada. Teste a atenção primeiro; interprete o resto à luz dela.
+  Um alerta de método vale mais que qualquer lista: **a atenção é a função de base**. O prejuízo da atenção, comum no delirium, pode comprometer o exame de todos os demais domínios cognitivos. Um paciente que não consegue sustentar atenção vai errar testes de memória, de cálculo e de linguagem sem que nenhuma dessas funções esteja de fato lesada. Teste a atenção primeiro; interprete o resto à luz dela.
 
-  **A fala é a via de acesso a quase tudo isso**, e vale separar três problemas diferentes que a alteram, seguindo Porto (*Exame Clínico*, cap. 10):
+  **A fala é a via de acesso a quase tudo isso**, e vale separar três problemas diferentes que a alteram:
 
   - **disfonia**: alteração do timbre por problema no órgão fonador; a voz fica rouca, fanhosa ou bitonal;
   - **disartria**, alteração dos músculos da fonação ou da coordenação: voz arrastada e escandida na incoordenação cerebelar, baixa, monótona e lenta no parkinsonismo, e alterada também na perda do controle piramidal;
-  - **disfasia**, órgão fonador e músculos normais, e o defeito na elaboração cortical da linguagem: de recepção, de expressão ou, mais frequentemente, mista. Porto acrescenta que ela traduz lesão do hemisfério dominante, mas **não tem valor localizatório muito preciso**.
+  - **disfasia**, órgão fonador e músculos normais, e o defeito na elaboração cortical da linguagem: de recepção, de expressão ou, mais frequentemente, mista. Ela traduz lesão do hemisfério dominante, mas **não tem valor localizatório muito preciso**.
 
   Rouquidão não é afasia, e voz arrastada não é confusão mental. Separar os três é o primeiro passo, e cada um manda o raciocínio para um lugar diferente.
 :::
@@ -403,15 +403,15 @@ titulo: Aprofundamento
 titulo: Rebaixamento não é delirium, e os dois convivem
 nivel: avancado
 texto: |
-  O erro mais caro deste tópico é tratar todo paciente alterado como paciente rebaixado. Semiologia Clínica define **delirium** como um quadro de confusão mental de causa orgânica, com a atenção diminuída, muitas vezes acompanhado de ideias delirantes e de alucinações, e o classifica em **hipoativo, hiperativo ou misto**, conforme haja ou não agitação psicomotora. Porto (*Semiologia Médica*, cap. 174) descreve o mesmo quadro como **estado confusional agudo**, descrito por quatro traços: a vigilância perturbada, a distraibilidade, o pensamento sem coerência e a perda da capacidade de executar movimentos com finalidade. Ele reconhece dois tipos clínicos: um com agitação, outro com apatia e prostração.
+  O erro mais caro deste tópico é tratar todo paciente alterado como paciente rebaixado. Define-se **delirium** como um quadro de confusão mental de causa orgânica, com a atenção diminuída, muitas vezes acompanhado de ideias delirantes e de alucinações, classificado em **hipoativo, hiperativo ou misto**, conforme haja ou não agitação psicomotora. Outra referência descreve o mesmo quadro como **estado confusional agudo**, com quatro traços: a vigilância perturbada, a distraibilidade, o pensamento sem coerência e a perda da capacidade de executar movimentos com finalidade, reconhecendo dois tipos clínicos: um com agitação, outro com apatia e prostração.
 
-  Note onde está a armadilha: o **delirium hipoativo** se apresenta como um paciente quieto, lentificado, sonolento, exatamente o retrato que se costuma anotar como "rebaixado" e deixar quieto. Semiologia Clínica registra que idosos e pessoas com quadros demenciais são mais propensos ao delirium e evoluem pior, e que as causas mais comuns são banais e tratáveis: infecções do trato urinário e pneumonias, além de doenças pulmonares e cardíacas descompensadas, alterações da glicemia, medicamentos e pós-operatórios.
+  Note onde está a armadilha: o **delirium hipoativo** se apresenta como um paciente quieto, lentificado, sonolento, exatamente o retrato que se costuma anotar como "rebaixado" e deixar quieto. Idosos e pessoas com quadros demenciais são mais propensos ao delirium e evoluem pior, e que as causas mais comuns são banais e tratáveis: infecções do trato urinário e pneumonias, além de doenças pulmonares e cardíacas descompensadas, alterações da glicemia, medicamentos e pós-operatórios.
 
-  O diagnóstico diferencial que fecha o triângulo é a **demência**, que Semiologia Clínica lembra ser uma hipótese concorrente sempre que há confusão mental e alteração de memória, e que se separa do delirium sobretudo pela **instalação** e pelo **estado da atenção**.
+  O diagnóstico diferencial que fecha o triângulo é a **demência**, hipótese concorrente sempre que há confusão mental e alteração de memória, que se separa do delirium sobretudo pela **instalação** e pelo **estado da atenção**.
 
-  Duas outras condições merecem estar no vocabulário porque são confundidas com coma, e Porto (*Semiologia Médica*, cap. 174) as descreve lado a lado:
+  Duas outras condições merecem estar no vocabulário porque são confundidas com coma:
 
-  - o **estado vegetativo persistente**, em que há algum grau de reatividade, o paciente pode manter os olhos abertos, sem perceptividade; Porto registra que o termo "vegetativo" é considerado inadequado e que já se propôs substituí-lo por síndrome do despertar não responsivo;
+  - o **estado vegetativo persistente**, em que há algum grau de reatividade, o paciente pode manter os olhos abertos, sem perceptividade; considera-se o termo "vegetativo" inadequado, e já se propôs substituí-lo por síndrome do despertar não responsivo;
   - o **estado minimamente consciente**, com alguma percepção do ambiente e interação por audição, movimentos e vocalização primária, sem comunicação efetiva;
   - e a **síndrome do cativeiro**, ou *locked-in*, em que a consciência é **normal** e o único movimento que resta ao paciente é o das pálpebras e dos globos oculares.
 
@@ -422,7 +422,7 @@ texto: |
 titulo: Quanto os examinadores concordam
 nivel: avancado
 texto: |
-  A Tabela 5.1 de McGee reúne a concordância entre observadores para achados do exame físico, medida pela estatística kappa, e três de suas linhas dizem respeito direto a este tópico.
+  A tabulação de concordância entre observadores para achados do exame físico, medida pela estatística kappa, traz três linhas que dizem respeito direto a este tópico.
 
   - **Consciência comprometida**, presente ou ausente: kappa de **0,65 a 0,88**. É uma das melhores concordâncias de toda a semiologia geral: perceber que o paciente está rebaixado é confiável.
   - **Estado mental alterado**: kappa **0,71**.
@@ -434,7 +434,7 @@ texto: |
 :::
 
 ::: tabela
-titulo: Três achados que separam lesão estrutural de causa metabólica (McGee)
+titulo: Três achados que separam lesão estrutural de causa metabólica
 nivel: avancado
 colunas:
   - "Situação e achado"
@@ -458,11 +458,11 @@ nivel: avancado
 texto: |
   Os dois primeiros achados vêm de estudos diferentes e respondem à mesma pergunta: diante de um paciente com consciência comprometida, o problema é **estrutural** (um acidente vascular, um tumor, uma coleção que ocupa espaço) ou **metabólico**?
 
-  **A pressão arterial.** McGee explica o mecanismo antes de dar o número. Pacientes com lesão estrutural tendem a ter pressões mais altas, por dois motivos que se somam: a resposta reflexa ao aumento da pressão intracraniana (o reflexo de Cushing, que Porto também registra, ao lado da bradicardia) e a própria associação causal entre hipertensão arterial e acidente vascular. Pacientes com encefalopatia metabólica costumam ter comorbidades graves que puxam a pressão para baixo. Em dois estudos com pacientes consecutivos de consciência comprometida e **sem história de trauma craniano**, uma pressão sistólica de 160 mmHg ou mais elevou substancialmente a probabilidade de lesão estrutural: razão de verossimilhança **7,3**.
+  **A pressão arterial.** Vale explicar o mecanismo antes de dar o número. Pacientes com lesão estrutural tendem a ter pressões mais altas, por dois motivos que se somam: a resposta reflexa ao aumento da pressão intracraniana (o reflexo de Cushing, também associado à bradicardia) e a própria associação causal entre hipertensão arterial e acidente vascular. Pacientes com encefalopatia metabólica costumam ter comorbidades graves que puxam a pressão para baixo. Em dois estudos com pacientes consecutivos de consciência comprometida e **sem história de trauma craniano**, uma pressão sistólica de 160 mmHg ou mais elevou substancialmente a probabilidade de lesão estrutural: razão de verossimilhança **7,3**.
 
   Repare no que esse número faz com a rotina: a aferição da pressão, que já se faz em todo atendimento, passa a ser também um dado neurológico. E note a restrição, **sem trauma craniano**, que retira do escopo justamente a situação em que a pergunta seria mais óbvia.
 
-  **As pupilas.** Em pacientes em coma, McGee registra que **anisocoria acima de 1 mm** eleva a probabilidade de doença estrutural intracraniana (massa hemisférica em expansão, lesão de fossa posterior) com razão de verossimilhança **9,0**. E o espelho do achado é igualmente útil: **preservação da reação à luz nos dois olhos** reduz a probabilidade de causa estrutural (0,2) e torna mais provável uma encefalopatia metabólica, intoxicação, hipoglicemia, sepse, uremia.
+  **As pupilas.** Em pacientes em coma, **anisocoria acima de 1 mm** eleva a probabilidade de doença estrutural intracraniana (massa hemisférica em expansão, lesão de fossa posterior) com razão de verossimilhança **9,0**. E o espelho do achado é igualmente útil: **preservação da reação à luz nos dois olhos** reduz a probabilidade de causa estrutural (0,2) e torna mais provável uma encefalopatia metabólica, intoxicação, hipoglicemia, sepse, uremia.
 
   A semiotécnica das pupilas (luz oblíqua, ambiente escurecido, comparação dos dois lados) está no tópico de olhos; a interpretação neurológica completa, com a manobra da luz alternante e as síndromes pupilares, está no tópico de pares cranianos de I a VI. Aqui basta guardar a consequência: **em paciente com consciência comprometida, o exame das pupilas é parte da definição da causa, e não um detalhe do exame ocular**.
 :::
@@ -471,12 +471,12 @@ texto: |
 titulo: O que a hipertensão intracraniana acrescenta ao exame
 nivel: avancado
 texto: |
-  Porto (*Exame Clínico*, cap. 20) descreve a síndrome de hipertensão intracraniana de instalação lenta com um conjunto de achados que se cruzam com este tópico, e que vale reconhecer porque mudam a urgência:
+  A síndrome de hipertensão intracraniana de instalação lenta se descreve com um conjunto de achados que se cruzam com este tópico, e que vale reconhecer porque mudam a urgência:
 
   - **cefaleia**, praticamente constante, que evolui de ocasional e localizada para constante, intensa e global;
   - **vômitos**, frequentes, predominando pela manhã e na mudança de decúbito para sentado ou de pé, sem período nauseoso que os anteceda, daí o nome tradicional de vômitos cerebrais;
   - **edema da papila**, frequente mas não obrigatório, sobretudo nas fases iniciais, e que pode alcançar grande intensidade sem prejuízo inicial da acuidade visual;
-  - **paralisia de nervo craniano**, em imensa maioria o VI, com estrabismo convergente e diplopia, e Porto faz questão de dizer que essa paralisia **não indica o local da lesão**, pela disposição anatômica do nervo na base do crânio;
+  - **paralisia de nervo craniano**, em imensa maioria o VI, com estrabismo convergente e diplopia, e vale destacar que essa paralisia **não indica o local da lesão**, pela disposição anatômica do nervo na base do crânio;
   - **distúrbios psíquicos** nas fases avançadas, com irritabilidade, raciocínio lento, indiferença, confusão e desatenção;
   - **distúrbios autonômicos**: bradicardia e hipertensão arterial na forma aguda, o reflexo de Cushing, com alterações da frequência e do ritmo respiratórios.
 
@@ -516,11 +516,11 @@ titulo: Armadilhas do exame
 titulo: Seis erros na avaliação da consciência
 texto: |
   1. **Anotar só o total da Glasgow.** Pontuações iguais descrevem pacientes clinicamente opostos. Registre os três componentes e o estímulo que usou para obter cada um.
-  2. **Pontuar o lado hemiparético.** A regra é usar a **melhor** resposta e o **melhor** lado (Porto). Contar o lado deficitário transforma um sinal localizatório em rebaixamento de consciência, e apaga justamente o achado que importa.
+  2. **Pontuar o lado hemiparético.** A regra é usar a **melhor** resposta e o **melhor** lado. Contar o lado deficitário transforma um sinal localizatório em rebaixamento de consciência, e apaga justamente o achado que importa.
   3. **Confundir conteúdo com nível.** O paciente do delirium hipoativo parece rebaixado e não está; o afásico parece confuso e pode ter vigília íntegra. Teste a atenção antes de interpretar qualquer outro domínio cognitivo.
-  4. **Usar estímulo supraorbital para avaliar abertura ocular.** Ele pode provocar o fechamento dos olhos (Porto, *Semiologia Médica*). Prefira a compressão do leito ungueal.
-  5. **Examinar sem considerar o ciclo respiratório.** No paciente com Cheyne-Stokes, pupilas, reflexos e tônus oscilam entre a fase de hiperpneia e a de apneia (McGee). Dois exames em momentos diferentes do ciclo descrevem dois pacientes.
-  6. **Concluir sem procurar assimetria.** Sinal localizatório desloca a hipótese de metabólica para estrutural, e a ausência dele não a exclui, porque há comas neurológicos sem sinais focais (Porto).
+  4. **Usar estímulo supraorbital para avaliar abertura ocular.** Ele pode provocar o fechamento dos olhos. Prefira a compressão do leito ungueal.
+  5. **Examinar sem considerar o ciclo respiratório.** No paciente com Cheyne-Stokes, pupilas, reflexos e tônus oscilam entre a fase de hiperpneia e a de apneia. Dois exames em momentos diferentes do ciclo descrevem dois pacientes.
+  6. **Concluir sem procurar assimetria.** Sinal localizatório desloca a hipótese de metabólica para estrutural, e a ausência dele não a exclui, porque há comas neurológicos sem sinais focais.
 :::
 
 ::: perola
@@ -562,7 +562,7 @@ perguntas:
       - "Nenhuma além da gravidade global: o total soma três parâmetros independentes, e combinações muito diferentes chegam ao mesmo número"
       - "O primeiro está mais grave, porque a flexão anormal indica sempre lesão estrutural do tronco encefálico, enquanto a ausência de abertura ocular tem valor apenas prognóstico"
     corretaIndex: 2
-    explicacao: "A escala mede três coisas independentes, abertura ocular de 1 a 4, melhor resposta verbal de 1 a 5 e melhor resposta motora de 1 a 6, e o total apenas as soma. Um paciente que obedece a ordens tem via motora muito mais preservada do que um que responde com flexão anormal, ainda que os totais coincidam. Por isso o registro se faz por componente, com a descrição do estímulo usado, e o total serve sobretudo para comparar o mesmo paciente ao longo do tempo, que é o uso que Semiologia Clínica atribui às escalas."
+    explicacao: "A escala mede três coisas independentes, abertura ocular de 1 a 4, melhor resposta verbal de 1 a 5 e melhor resposta motora de 1 a 6, e o total apenas as soma. Um paciente que obedece a ordens tem via motora muito mais preservada do que um que responde com flexão anormal, ainda que os totais coincidam. Por isso o registro se faz por componente, com a descrição do estímulo usado, e o total serve sobretudo para comparar o mesmo paciente ao longo do tempo, que é o uso atribuído a escalas como esta."
   - id: neu-con-2
     enunciado: Uma senhora de 80 anos, internada por pneumonia, está quieta, lentificada e sonolenta há um dia. Desperta ao chamado, responde de forma incoerente e não consegue sustentar atenção em uma tarefa breve. Como caracterizar o quadro?
     alternativas:
@@ -571,7 +571,7 @@ perguntas:
       - "Demência de instalação recente, já que a incoerência do discurso e a lentificação são seus achados definidores"
       - "Afasia sensitiva, em que o paciente compreende mal e parece confuso, mas a atenção está preservada"
     corretaIndex: 1
-    explicacao: "Semiologia Clínica define delirium como um quadro de confusão mental de causa orgânica, com a atenção diminuída, classificando-o em hipoativo, hiperativo ou misto conforme haja agitação psicomotora; Porto descreve o mesmo quadro como estado confusional agudo, com distúrbio da vigilância, distraibilidade e incoerência de pensamento. A forma hipoativa é a mais silenciosa e a mais confundida com rebaixamento. Infecções, pneumonia entre elas, estão entre as causas mais comuns, e idosos são os mais propensos. Na afasia sensitiva a atenção está íntegra; a demência tem outra cronologia."
+    explicacao: "Define-se delirium como um quadro de confusão mental de causa orgânica, com a atenção diminuída, classificado em hipoativo, hiperativo ou misto conforme haja agitação psicomotora; outra referência descreve o mesmo quadro como estado confusional agudo, com distúrbio da vigilância, distraibilidade e incoerência de pensamento. A forma hipoativa é a mais silenciosa e a mais confundida com rebaixamento. Infecções, pneumonia entre elas, estão entre as causas mais comuns, e idosos são os mais propensos. Na afasia sensitiva a atenção está íntegra; a demência tem outra cronologia."
   - id: neu-con-3
     enunciado: Um paciente com hemiplegia direita está com o nível de consciência rebaixado. Ao estímulo, o membro superior esquerdo obedece a ordens verbais; o direito não se move. Como pontuar a resposta motora da escala de coma de Glasgow?
     alternativas:
@@ -580,16 +580,16 @@ perguntas:
       - "Pela pior resposta encontrada, porque a escala foi concebida para documentar sempre o déficit mais grave do paciente"
       - "Pela resposta do lado direito, já que o lado deficitário é o que traduz a lesão e deve determinar a pontuação"
     corretaIndex: 1
-    explicacao: "Porto (Exame Clínico, cap. 20) registra a regra de aplicação que mais se esquece: usa-se sempre a melhor resposta, e do melhor lado. Ela existe para impedir que uma hemiplegia seja contada como rebaixamento de consciência: pontuar o lado parético transforma um sinal localizatório em déficit de vigília e apaga justamente o achado que importa. A assimetria não se perde: ela deve ser procurada e registrada ao lado da pontuação, como parte da busca de sinais localizatórios."
+    explicacao: "Vale a regra de aplicação que mais se esquece: usa-se sempre a melhor resposta, e do melhor lado. Ela existe para impedir que uma hemiplegia seja contada como rebaixamento de consciência: pontuar o lado parético transforma um sinal localizatório em déficit de vigília e apaga justamente o achado que importa. A assimetria não se perde: ela deve ser procurada e registrada ao lado da pontuação, como parte da busca de sinais localizatórios."
   - id: neu-con-4
     enunciado: Ao avaliar a abertura ocular de um paciente que não responde a estímulos verbais, um estudante aplica compressão firme na região supraorbital. Que problema há nessa escolha?
     alternativas:
       - "Nenhum: é o estímulo padronizado para a escala de coma de Glasgow, por atingir território do nervo trigêmeo"
       - "O estímulo supraorbital só é válido em pacientes com via aérea artificial, situação em que o componente verbal não pode ser obtido"
-      - "O estímulo pode provocar fechamento dos olhos, justamente a resposta que se está tentando medir; Porto prefere a compressão do leito ungueal"
+      - "O estímulo pode provocar fechamento dos olhos, justamente a resposta que se está tentando medir; prefere-se a compressão do leito ungueal"
       - "O estímulo é excessivamente doloroso e falseia a resposta motora para cima, superestimando a pontuação total e mascarando a assimetria entre os dois hemicorpos"
     corretaIndex: 2
-    explicacao: "Porto (Semiologia Médica, cap. 172) recomenda de preferência estímulos dolorosos produzidos por lápis ou caneta comprimindo o leito ungueal, e adverte que o estímulo supraorbital é capaz de fazer o paciente fechar as pálpebras: o que inviabiliza a leitura da abertura ocular. É uma escolha de técnica com consequência direta na pontuação, e um dos motivos, segundo Semiologia Clínica, de a confiabilidade da escala depender do tipo de estímulo doloroso empregado e do treinamento de quem a aplica."
+    explicacao: "Recomenda-se de preferência estímulos dolorosos produzidos por lápis ou caneta comprimindo o leito ungueal, já que o estímulo supraorbital é capaz de fazer o paciente fechar as pálpebras: o que inviabiliza a leitura da abertura ocular. É uma escolha de técnica com consequência direta na pontuação, e um dos motivos de a confiabilidade da escala depender do tipo de estímulo doloroso empregado e do treinamento de quem a aplica."
   - id: neu-con-5
     enunciado: Um paciente internado apresenta respiração de Cheyne-Stokes. Você o examina duas vezes com dez minutos de intervalo e encontra, na primeira, pupilas dilatadas e reflexos vivos e, na segunda, pupilas contraídas e reflexos hipoativos. Qual é a explicação mais provável?
     alternativas:
@@ -598,7 +598,7 @@ perguntas:
       - "O primeiro exame foi tecnicamente incorreto, pois pupilas dilatadas com reflexos vivos são uma combinação impossível"
       - "O paciente recebeu medicação de ação pupilar entre os dois exames, única causa capaz de inverter os achados em minutos"
     corretaIndex: 0
-    explicacao: "McGee descreve os achados que acompanham cada fase do ciclo: durante a hiperpneia o paciente fica alerta, às vezes agitado, com pupilas dilatadas, reflexos musculares vivos e tônus aumentado; durante a apneia fica imóvel e com aparência de sono, com pupilas contraídas, reflexos hipoativos e tônus reduzido. Registrar o momento do ciclo em que o exame foi feito evita concluir por deterioração onde há apenas oscilação. Vale lembrar ainda que o padrão acomete cerca de 30% dos pacientes com insuficiência cardíaca estável e aparece em pessoas normais durante o sono ou em grandes altitudes."
+    explicacao: "Os achados que acompanham cada fase do ciclo são estes: durante a hiperpneia o paciente fica alerta, às vezes agitado, com pupilas dilatadas, reflexos musculares vivos e tônus aumentado; durante a apneia fica imóvel e com aparência de sono, com pupilas contraídas, reflexos hipoativos e tônus reduzido. Registrar o momento do ciclo em que o exame foi feito evita concluir por deterioração onde há apenas oscilação. Vale lembrar ainda que o padrão acomete cerca de 30% dos pacientes com insuficiência cardíaca estável e aparece em pessoas normais durante o sono ou em grandes altitudes."
   - id: neu-con-6
     enunciado: Qual das afirmações descreve corretamente a relação entre o sistema reticular ativador ascendente, o córtex cerebral e as alterações da consciência?
     alternativas:
@@ -607,5 +607,5 @@ perguntas:
       - "As duas estruturas são funcionalmente independentes, de modo que uma lesão nunca altera nível e conteúdo ao mesmo tempo"
       - "O sistema reticular determina o nível e o córtex determina o conteúdo; alterações corticais extensas também podem rebaixar o nível"
     corretaIndex: 3
-    explicacao: "Semiologia Clínica situa o nível de consciência na atividade do sistema reticular ativador ascendente, que se estende do mesencéfalo ao diencéfalo e é responsável pela ativação cortical, e o conteúdo na atividade do córtex cerebral. Daí a regra: alterações do sistema reticular provocam alterações do nível; alterações corticais, do conteúdo. A ressalva que fecha o raciocínio é que alterações extensas do córtex também cursam com rebaixamento do nível, e, na prática, os dois eixos com frequência se alteram juntos."
+    explicacao: "O nível de consciência se situa na atividade do sistema reticular ativador ascendente, que se estende do mesencéfalo ao diencéfalo e é responsável pela ativação cortical, e o conteúdo na atividade do córtex cerebral. Daí a regra: alterações do sistema reticular provocam alterações do nível; alterações corticais, do conteúdo. A ressalva que fecha o raciocínio é que alterações extensas do córtex também cursam com rebaixamento do nível, e, na prática, os dois eixos com frequência se alteram juntos."
 :::

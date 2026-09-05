@@ -50,5 +50,5 @@ test('toda chave do registro tem origem declarada', () => {
     .filter(([, o]) => o === 'gravacao')
     .map(([c]) => c)
     .sort();
-  expect(reais).toEqual(['murmurio-vesicular', 'roncos', 'sibilos']);
+  expect(reais).toEqual(['estertores-finos', 'estertores-grossos', 'murmurio-vesicular', 'roncos', 'sibilos']);
 });

@@ -76,7 +76,7 @@ titulo: A pergunta do abdome agudo
 texto: |
   Chama-se **abdome agudo** o conjunto de condições que causam dor e sensibilidade abdominais de instalação abrupta e exigem diagnóstico urgente: apendicite, obstrução, perfuração de víscera. Duas grandes causas respondem pela maioria: a **peritonite**, por inflamação ou perfuração, e a **obstrução intestinal**. As duas provocam dor à palpação; o que as separa está no resto do exame.
 
-  McGee registra a distribuição dos diagnósticos entre pacientes que chegam com dor abdominal de menos de sete dias: dor abdominal inespecífica em 43%, apendicite aguda em 4% a 20%, colecistite aguda em 3% a 9%, obstrução do delgado em 4% e ureterolitíase em 4%.
+  A distribuição dos diagnósticos entre pacientes que chegam com dor abdominal de menos de sete dias é: dor abdominal inespecífica em 43%, apendicite aguda em 4% a 20%, colecistite aguda em 3% a 9%, obstrução do delgado em 4% e ureterolitíase em 4%.
 
   Ainda que muitos pacientes façam tomografia, o exame à beira do leito continua a ser instrumento diagnóstico fundamental, e não porque substitua a imagem. Ele decide **quem vai para onde**: alguns pacientes podem ir para casa sem imagem porque a probabilidade de peritonite é baixíssima; outros vão direto para o centro cirúrgico porque ela é altíssima; e são justamente os achados equívocos, ou que sugerem abscesso, que mais se beneficiam de imagem.
 
@@ -107,7 +107,7 @@ passos:
   - "Complete com a punho-percussão lombar, dos dois lados, com força crescente e a partir de golpes leves."
   - "Reexamine depois de algum tempo: a evolução do exame é um dado tão importante quanto o exame inicial."
 observar: |
-  Repetir o exame ao longo de horas é a manobra mais subestimada do abdome agudo. Cirurgiões experientes separam contração voluntária de contratura verdadeira de duas maneiras: distraindo o paciente durante o exame (conversando, ou usando o próprio estetoscópio para comprimir suavemente a parede) e examinando o mesmo paciente repetidamente ao longo do tempo. A contração voluntária diminui com a distração e oscila ou desaparece; a contratura involuntária, não (McGee).
+  Repetir o exame ao longo de horas é a manobra mais subestimada do abdome agudo. Cirurgiões experientes separam contração voluntária de contratura verdadeira de duas maneiras: distraindo o paciente durante o exame (conversando, ou usando o próprio estetoscópio para comprimir suavemente a parede) e examinando o mesmo paciente repetidamente ao longo do tempo. A contração voluntária diminui com a distração e oscila ou desaparece; a contratura involuntária, não.
 :::
 
 ::: checklist
@@ -181,30 +181,30 @@ titulo: Defesa e contratura
 ::: conceito
 titulo: Duas contrações, duas tradições de nomes
 texto: |
-  A parede abdominal endurecida pode ser contração **voluntária**, produzida por medo, ansiedade ou mãos frias, ou contratura **involuntária**, reflexo que o paciente não controla e que nasce do peritônio inflamado. A distinção clínica é a mesma nas duas grandes referências; a nomenclatura, não. Vale conhecer as duas para não se perder na leitura.
+  A parede abdominal endurecida pode ser contração **voluntária**, produzida por medo, ansiedade ou mãos frias, ou contratura **involuntária**, reflexo que o paciente não controla e que nasce do peritônio inflamado. A distinção clínica é a mesma nas duas grandes referências deste guia; a nomenclatura, não. Vale conhecer as duas para não se perder na leitura.
 
-  - **Porto** chama **defesa abdominal** a contratura involuntária do reflexo visceromotor, e **contração psicomotora** a voluntária: a que some assim que o paciente é distraído ou posto à vontade.
-  - **McGee** distingue *guarding*, a contração voluntária, de *rigidity*, a contração involuntária, e é essa a definição usada nos números que aparecem no aprofundamento deste tópico.
+  - Uma tradição chama **defesa abdominal** a contratura involuntária do reflexo visceromotor, e **contração psicomotora** a voluntária: a que some assim que o paciente é distraído ou posto à vontade.
+  - Outra tradição distingue *guarding*, a contração voluntária, de *rigidity*, a contração involuntária, e é essa a definição usada nos números que aparecem no aprofundamento deste tópico.
 
-  Adotando os termos de Porto, a defesa pode ser **localizada** ou **generalizada**.
+  Adotando os termos da primeira tradição, a defesa pode ser **localizada** ou **generalizada**.
 
-  A **localizada** aparece nas inflamações viscerais que alcançam o peritônio parietal vizinho, e se instala sobre a projeção do órgão doente: fossa ilíaca direita na apendicite, fossa ilíaca esquerda na peridiverticulite e hipocôndrio direito na colecistite aguda, este último Porto registra como flanco direito; o guia adota hipocôndrio, que é onde a vesícula se projeta. Reconhece-se melhor pela palpação bimanual comparativa das regiões homólogas.
+  A **localizada** aparece nas inflamações viscerais que alcançam o peritônio parietal vizinho, e se instala sobre a projeção do órgão doente: fossa ilíaca direita na apendicite, fossa ilíaca esquerda na peridiverticulite e hipocôndrio direito na colecistite aguda (as referências divergem: uma registra este último como flanco direito; este guia adota hipocôndrio, que é onde a vesícula se projeta). Reconhece-se melhor pela palpação bimanual comparativa das regiões homólogas.
 
   A **generalizada** é o **abdome em tábua**, encontrado nas perfurações de víscera oca, sobretudo na úlcera péptica que se abre no peritônio livre, e nas peritonites difusas agudas.
 
-  O primeiro autor a descrever com clareza a rigidez foi Celso, médico romano, por volta do ano 30 da nossa era (McGee). É um dos sinais mais antigos da medicina que ainda mudam conduta hoje.
+  O primeiro autor a descrever com clareza a rigidez foi Celso, médico romano, por volta do ano 30 da nossa era. É um dos sinais mais antigos da medicina que ainda mudam conduta hoje.
 :::
 
 ::: conceito
 titulo: O quadro clássico da perfuração
 texto: |
-  Vale conhecer o roteiro completo, porque nele os sinais se encaixam uns nos outros (Porto).
+  Vale conhecer o roteiro completo, porque nele os sinais se encaixam uns nos outros.
 
   O paciente, muitas vezes com antecedentes de doença ulcerosa, relata **dor em punhalada** de início súbito, excruciante, no epigástrio, que se irradia para os ombros e piora ao menor movimento, e que o imobiliza, deitado de costas ou com o tronco fletido. A respiração fica curta e dói. Passadas algumas horas, a dor toma todo o abdome ou escoa para a fossa ilíaca direita, para onde correm os sucos digestivos extravasados. Vômitos são raros.
 
   Ao exame, o abdome em tábua, com contratura intensa sobretudo no epigástrio. Havendo gás suficiente na cavidade, a macicez hepática desaparece à percussão do hipocôndrio direito: o **sinal de Jobert**. Achados menores completam o quadro: redução do espaço de Traube, hiperestesia cutânea epigástrica e ruídos anormais à ausculta.
 
-  O diagnóstico diferencial que Porto destaca é instrutivo por incluir uma doença que não é abdominal: **infarto agudo do miocárdio**, ao lado de apendicite aguda, pancreatite aguda e cólica biliar.
+  O diagnóstico diferencial a seguir é instrutivo por incluir uma doença que não é abdominal: **infarto agudo do miocárdio**, ao lado de apendicite aguda, pancreatite aguda e cólica biliar.
 :::
 
 ::: secao
@@ -214,7 +214,7 @@ titulo: Descompressão brusca e as alternativas gentis
 ::: sinal
 nome: Sinal de Blumberg
 descricao: "Dor que aparece ou se exacerba **no momento em que a mão do examinador é retirada abruptamente**, após compressão lenta e progressiva da parede abdominal."
-significado: "Sinal de **irritação peritoneal**. Porto observa que a manobra pode ser aplicada em qualquer região e que seu significado é sempre o mesmo: peritonite; na peritonite generalizada, o sinal aparece em qualquer área pesquisada. Vale saber que o uso corrente ampliou a descrição original: McGee registra que J. Moritz Blumberg (1873 a 1955), cirurgião e ginecologista alemão, descreveu a dor no baixo ventre após a retirada abrupta da mão do quadrante inferior esquerdo, e a tomava por sinal de apendicite. Os dados de McGee mostram ainda que o achado move a probabilidade pouco: razão de verossimilhança 2,0 quando presente e 0,4 quando ausente, menos do que rigidez, percussão dolorosa e defesa."
+significado: "Sinal de **irritação peritoneal**. A manobra pode ser aplicada em qualquer região e seu significado é sempre o mesmo: peritonite; na peritonite generalizada, o sinal aparece em qualquer área pesquisada. Vale saber que o uso corrente ampliou a descrição original: J. Moritz Blumberg (1873 a 1955), cirurgião e ginecologista alemão, descreveu a dor no baixo ventre após a retirada abrupta da mão do quadrante inferior esquerdo, e a tomava por sinal de apendicite. Os dados mostram ainda que o achado move a probabilidade pouco: razão de verossimilhança 2,0 quando presente e 0,4 quando ausente, menos do que rigidez, percussão dolorosa e defesa."
 causas:
   - "Apendicite aguda: a causa mais frequente de peritonite nas séries estudadas"
   - "Perfuração de víscera oca (úlcera péptica, divertículo, apêndice)"
@@ -232,7 +232,7 @@ passos:
   - "Retire a mão abruptamente e observe a expressão facial ao mesmo tempo em que escuta a resposta."
   - "Considere positivo apenas quando houver nítida exacerbação da dor no momento da descompressão."
 observar: |
-  Muitos cirurgiões experientes desencorajam essa manobra, qualificando-a de desnecessária, cruel, ou como uma maneira popular e pouco gentil de enfatizar o que a palpação suave já deixou óbvio (McGee). O sentido dessa crítica está nos números: a descompressão dolorosa acrescenta pouco ao que a palpação cuidadosa já informou. Use-a quando o resultado ainda puder mudar a conduta, e não como item automático de roteiro.
+  Muitos cirurgiões experientes desencorajam essa manobra, qualificando-a de desnecessária, cruel, ou como uma maneira popular e pouco gentil de enfatizar o que a palpação suave já deixou óbvio. O sentido dessa crítica está nos números: a descompressão dolorosa acrescenta pouco ao que a palpação cuidadosa já informou. Use-a quando o resultado ainda puder mudar a conduta, e não como item automático de roteiro.
 :::
 
 ::: conceito
@@ -261,7 +261,7 @@ titulo: Os sinais dirigidos à apendicite
 ::: conceito
 titulo: McBurney, Rovsing, psoas e obturador
 texto: |
-  **Ponto de McBurney.** Em trabalho lido perante a Sociedade de Cirurgia de Nova York em 1889, defendendo a operação precoce na apendicite, Charles McBurney afirmou que todos os pacientes com apendicite têm dor e sensibilidade máximas em um ponto situado, segundo suas palavras, "entre uma polegada e meia e duas polegadas" da espinha ilíaca anterossuperior, sobre uma linha reta traçada dessa espinha até o umbigo (McGee): o equivalente a cerca de 3,8 a 5 cm. É a mesma localização que Porto marca onde o terço lateral dessa linha encontra os dois terços mediais, e que Semiologia Clínica situa a um terço da distância entre a espinha e o umbigo. Três formulações, um só ponto.
+  **Ponto de McBurney.** Em trabalho lido perante a Sociedade de Cirurgia de Nova York em 1889, defendendo a operação precoce na apendicite, Charles McBurney afirmou que todos os pacientes com apendicite têm dor e sensibilidade máximas em um ponto situado, segundo suas palavras, "entre uma polegada e meia e duas polegadas" da espinha ilíaca anterossuperior, sobre uma linha reta traçada dessa espinha até o umbigo: o equivalente a cerca de 3,8 a 5 cm. É a mesma localização, marcada onde o terço lateral dessa linha encontra os dois terços mediais, ou situada, conforme a referência, a um terço da distância entre a espinha e o umbigo. Três formulações, um só ponto.
 
   **Sinal de Rovsing** (Niels T. Rovsing, cirurgião dinamarquês, 1862 a 1927). É positivo quando a pressão sobre o quadrante inferior **esquerdo** provoca dor no quadrante inferior **direito**, daí ser chamado de dor indireta. Rovsing supunha que a pressão firme no abdome esquerdo empurrasse gás retrogradamente até o ceco, e que a distensão adicional doesse se o apêndice estivesse inflamado.
 
@@ -269,7 +269,7 @@ texto: |
 
   **Sinal do obturador.** Baseia-se no mesmo princípio: estirar um músculo pélvico irritado pelo apêndice inflamado provoca dor. Para estirar o obturador interno direito, flete-se o quadril e o joelho direitos e faz-se a rotação interna do quadril.
 
-  **Toque retal.** Nos casos em que a inflamação se confina à pelve, o toque pode revelar sensibilidade, sobretudo à direita; e alguns pacientes com perfuração apresentam massa retal, correspondente a abscesso pélvico. Nos estudos, a sensibilidade ao toque retal não se mostrou útil para o diagnóstico, mas o exame continua indicado justamente para detectar o paciente raro, 2% ou menos, com abscesso pélvico e massa (McGee). A técnica completa do toque (posições, entrada, canal, ampola e próstata) é ensinada no tópico Toque retal, do sistema Mamas e geniturinário; os números do abdome agudo moram aqui.
+  **Toque retal.** Nos casos em que a inflamação se confina à pelve, o toque pode revelar sensibilidade, sobretudo à direita; e alguns pacientes com perfuração apresentam massa retal, correspondente a abscesso pélvico. Nos estudos, a sensibilidade ao toque retal não se mostrou útil para o diagnóstico, mas o exame continua indicado justamente para detectar o paciente raro, 2% ou menos, com abscesso pélvico e massa. A técnica completa do toque (posições, entrada, canal, ampola e próstata) é ensinada no tópico Toque retal, do sistema Mamas e geniturinário; os números do abdome agudo moram aqui.
 :::
 
 ::: sinal
@@ -309,12 +309,12 @@ passos:
   - "Psoas: posicione o paciente em decúbito lateral esquerdo, com o membro inferior direito por cima."
   - "Estabilize a pelve com uma das mãos e hiperestenda passivamente o quadril direito com a outra."
   - "A resposta é positiva quando a extensão do quadril desperta dor no quadrante inferior direito."
-  - "Uma alternativa descrita por Porto é a flexão ativa do membro inferior direito, no lugar da hiperextensão passiva."
+  - "Uma alternativa é a flexão ativa do membro inferior direito, no lugar da hiperextensão passiva."
   - "Obturador, com o paciente em decúbito dorsal, flita o quadril e o joelho direitos."
   - "Segurando o tornozelo e o joelho, faça a rotação interna do quadril direito."
   - "A resposta é positiva quando a manobra desperta dor no quadrante inferior direito."
 observar: |
-  Os dois sinais têm desempenhos diferentes, e isso importa na hora de escolher o que pesquisar. O sinal do psoas eleva modestamente a probabilidade de apendicite (razão de verossimilhança 2,0), enquanto o sinal do obturador, nos estudos disponíveis, não se mostrou útil (McGee). Ausentes, nenhum dos dois reduz a probabilidade.
+  Os dois sinais têm desempenhos diferentes, e isso importa na hora de escolher o que pesquisar. O sinal do psoas eleva modestamente a probabilidade de apendicite (razão de verossimilhança 2,0), enquanto o sinal do obturador, nos estudos disponíveis, não se mostrou útil. Ausentes, nenhum dos dois reduz a probabilidade.
 :::
 
 ::: secao
@@ -327,16 +327,16 @@ descricao: "**Interrupção súbita da inspiração profunda pela dor**, quando 
 significado: "Sugere **colecistite aguda**. Razão de verossimilhança 3,2 quando presente e 0,6 quando ausente: o achado de maior peso no exame do quadrante superior direito, à frente da própria dor à palpação da região (2,7)."
 causas:
   - "Colecistite aguda, com ou sem cálculo"
-  - "Colelitíase e colecistite crônica, em que Porto descreve o sinal com frequência ainda que a vesícula não seja palpável"
+  - "Colelitíase e colecistite crônica, em que o sinal aparece com frequência ainda que a vesícula não seja palpável"
   - "Abscesso hepático piogênico: em que a presença do sinal aumenta a probabilidade de sepse associada às vias biliares"
 :::
 
 ::: conceito
 titulo: Como Murphy descreveu, e o que os dados acrescentaram
 texto: |
-  Em 1903, o cirurgião americano Murphy afirmou que a vesícula hipersensível da colecistite impede o paciente de completar uma inspiração profunda quando os dedos do examinador estão em gancho sob o arco costal direito, abaixo da margem hepática: o diafragma empurra o fígado para baixo até que a vesícula sensível alcance os dedos que examinam, e a inspiração cessa de repente, como se tivesse sido desligada (McGee).
+  Em 1903, o cirurgião americano Murphy afirmou que a vesícula hipersensível da colecistite impede o paciente de completar uma inspiração profunda quando os dedos do examinador estão em gancho sob o arco costal direito, abaixo da margem hepática: o diafragma empurra o fígado para baixo até que a vesícula sensível alcance os dedos que examinam, e a inspiração cessa de repente, como se tivesse sido desligada.
 
-  A semiotécnica de Porto traduz isso em gestos: com o paciente deitado de costas e o examinador postado ao seu lado direito, o polegar se insinua sob o rebordo costal direito na altura da borda externa do músculo reto, a palma apoiada no flanco, e, sem afrouxar a pressão, pede-se uma inspiração profunda. O ponto cístico fica no ângulo formado pelo rebordo costal direito com a borda externa do reto abdominal; em pessoas obesas, Porto oferece uma segunda referência (Figura 91.3): trace mentalmente uma linha que parta da espinha ilíaca anterossuperior do lado **esquerdo** e siga em direção ao arco costal direito passando pelo umbigo, o ponto está onde ela cruza o rebordo.
+  A semiotécnica traduz isso em gestos: com o paciente deitado de costas e o examinador postado ao seu lado direito, o polegar se insinua sob o rebordo costal direito na altura da borda externa do músculo reto, a palma apoiada no flanco, e, sem afrouxar a pressão, pede-se uma inspiração profunda. O ponto cístico fica no ângulo formado pelo rebordo costal direito com a borda externa do reto abdominal; em pessoas obesas, há uma segunda referência: trace mentalmente uma linha que parta da espinha ilíaca anterossuperior do lado **esquerdo** e siga em direção ao arco costal direito passando pelo umbigo, o ponto está onde ela cruza o rebordo.
 
   Duas informações que os dados acrescentaram à descrição original:
 
@@ -355,7 +355,7 @@ passos:
   - "Repita do outro lado e compare: a assimetria da resposta vale mais que a resposta isolada."
   - "Considere positivo quando o golpe desperta dor intensa: o sinal de Giordano."
 observar: |
-  O sinal é muito sensível e pouco específico: além da pielonefrite aguda, pode ser positivo na litíase renal com cólica nefrética e mesmo em contratura muscular (Semiologia Clínica). Em um estudo com 1.333 pacientes que chegaram com dor abdominal aguda, McGee registra dois achados úteis para ureterolitíase, ambos provocados pelo examinador: dor à palpação do flanco e da região lombar, com razão de verossimilhança 27,7 (eleva muito a probabilidade, quase decide sozinha), e dor à palpação renal, com 3,6 quando presente e 0,2 quando ausente (elevação e redução moderadas), ainda que ambos fiquem atrás da hematúria microscópica.
+  O sinal é muito sensível e pouco específico: além da pielonefrite aguda, pode ser positivo na litíase renal com cólica nefrética e mesmo em contratura muscular. Em um estudo com 1.333 pacientes que chegaram com dor abdominal aguda, dois achados se mostraram úteis para ureterolitíase, ambos provocados pelo examinador: dor à palpação do flanco e da região lombar, com razão de verossimilhança 27,7 (eleva muito a probabilidade, quase decide sozinha), e dor à palpação renal, com 3,6 quando presente e 0,2 quando ausente (elevação e redução moderadas), ainda que ambos fiquem atrás da hematúria microscópica.
 :::
 
 ::: sinal
@@ -379,11 +379,11 @@ titulo: O que o silêncio diz e o que não diz
 texto: |
   Ensina-se tradicionalmente que a peritonite cursa com ruídos diminuídos ou ausentes. A ausculta abdominal continua obrigatória no abdome agudo, mas por outra razão, e com outra expectativa.
 
-  **Para peritonite, os ruídos não ajudam.** Nos estudos de pacientes com dor abdominal aguda, os ruídos anormais (hiperativos, diminuídos ou ausentes) tiveram razão de verossimilhança não significativa para peritonite (McGee). O mesmo vale para a febre e para a sensibilidade ao toque retal.
+  **Para peritonite, os ruídos não ajudam.** Nos estudos de pacientes com dor abdominal aguda, os ruídos anormais (hiperativos, diminuídos ou ausentes) tiveram razão de verossimilhança não significativa para peritonite. O mesmo vale para a febre e para a sensibilidade ao toque retal.
 
   **Para obstrução, ajudam.** Ruídos hiperativos têm razão de verossimilhança 5,0; o conjunto dos ruídos anormais, 3,2; e ruídos normais reduzem modestamente a probabilidade de obstrução (0,4). Em animais com obstrução experimental completa, os ruídos ficam hiperativos por cerca de trinta minutos antes de diminuir ou desaparecer: o que explica por que, entre pacientes com obstrução do delgado, cerca de 40% têm ruídos hiperativos e cerca de 25% os têm diminuídos ou ausentes.
 
-  O **silêncio abdominal**, desaparecimento completo dos ruídos, é o achado do íleo paralítico, e sua leitura depende inteiramente do contexto: pós-operatório além de 72 horas, irritação peritoneal, distúrbio hidreletrolítico com hipopotassemia, anoxia isquêmica da parede intestinal (Porto). A caracterização dos ruídos, os motivos do ceticismo sobre eles e a distinção entre íleo e obstrução mecânica estão no tópico de inspeção e ausculta do abdome.
+  O **silêncio abdominal**, desaparecimento completo dos ruídos, é o achado do íleo paralítico, e sua leitura depende inteiramente do contexto: pós-operatório além de 72 horas, irritação peritoneal, distúrbio hidreletrolítico com hipopotassemia, anoxia isquêmica da parede intestinal. A caracterização dos ruídos, os motivos do ceticismo sobre eles e a distinção entre íleo e obstrução mecânica estão no tópico de inspeção e ausculta do abdome.
 :::
 
 ::: secao
@@ -391,7 +391,7 @@ titulo: Aprofundamento
 :::
 
 ::: tabela
-titulo: Sinais de peritonite na dor abdominal aguda (McGee)
+titulo: Sinais de peritonite na dor abdominal aguda
 nivel: avancado
 colunas:
   - "Achado"
@@ -404,7 +404,7 @@ linhas:
   - - "Percussão dolorosa"
     - "2,4"
     - "0,5"
-  - - "Contração da parede (guarding, na definição de McGee)"
+  - - "Contração da parede (guarding, na definição usada aqui)"
     - "2,3"
     - "0,6"
   - - "Dor à descompressão brusca"
@@ -436,11 +436,11 @@ texto: |
 
   **A terceira: a febre quase não move a agulha.** Ela não é estatisticamente nula (1,4 quando presente e 0,7 quando ausente) mas desloca tão pouco a probabilidade que não decide nada sozinha. Já os ruídos intestinais e a dor ao toque retal não alteram a probabilidade de peritonite nesses estudos.
 
-  Há ainda um achado que a evidência derrubou e que vale registrar porque contraria um ensinamento antigo: **a analgesia oferecida ao paciente com dor abdominal aguda não reduz a acurácia dos sinais individuais nem a acurácia diagnóstica global do examinador** (McGee). Deixar o paciente com dor para "não mascarar o exame" não se sustenta nos dados.
+  Há ainda um achado que a evidência derrubou e que vale registrar porque contraria um ensinamento antigo: **a analgesia oferecida ao paciente com dor abdominal aguda não reduz a acurácia dos sinais individuais nem a acurácia diagnóstica global do examinador**. Deixar o paciente com dor para "não mascarar o exame" não se sustenta nos dados.
 :::
 
 ::: tabela
-titulo: Achados de apendicite na dor abdominal aguda (McGee)
+titulo: Achados de apendicite na dor abdominal aguda
 nivel: avancado
 colunas:
   - "Achado"
@@ -474,7 +474,7 @@ linhas:
 titulo: O escore de Alvarado e o ponto que não está no ponto
 nivel: avancado
 texto: |
-  O **escore de Alvarado**, também chamado **MANTRELS** pelas iniciais de seus itens em inglês, é um dos mais antigos e mais usados instrumentos de decisão na suspeita de apendicite. Reunindo 19 estudos com mais de 4.700 pacientes com dor abdominal aguda, McGee mostra que um escore de **7 ou mais** eleva a probabilidade de apendicite (razão de verossimilhança 3,1) e um escore de **4 ou menos** a reduz substancialmente (0,1).
+  O **escore de Alvarado**, também chamado **MANTRELS** pelas iniciais de seus itens em inglês, é um dos mais antigos e mais usados instrumentos de decisão na suspeita de apendicite. Reunindo 19 estudos com mais de 4.700 pacientes com dor abdominal aguda, um escore de **7 ou mais** eleva a probabilidade de apendicite (razão de verossimilhança 3,1) e um escore de **4 ou menos** a reduz substancialmente (0,1).
 
   Os itens e seus pontos, na tabela original: migração da dor (1), anorexia (1), náuseas e vômitos (1), dor no quadrante inferior direito (2), dor à descompressão (1), elevação da temperatura (1), leucocitose acima de 10.000/μL (2) e desvio à esquerda acima de 75% de neutrófilos (1): total de 10 pontos. A definição de migração é a clássica: dor que se desloca da região periumbilical ou epigástrica para o quadrante inferior direito. A elevação da temperatura é definida como temperatura oral de 37,3 °C ou mais.
 
@@ -489,16 +489,16 @@ nivel: avancado
 texto: |
   **Colecistite.** Em pacientes com dor no quadrante superior direito e suspeita de colecistite, o sinal de Murphy tem razão de verossimilhança 3,2 e a dor à palpação da região, 2,7; a ausência de dor à palpação do quadrante superior direito reduz a probabilidade (0,4). Febre e massa no quadrante superior direito não ajudam.
 
-  **Diverticulite.** Aqui as fontes divergem, e a divergência é instrutiva. Em um estudo mais antigo, com 600 pacientes com dor abdominal aguda e achados operatórios como padrão, a dor no quadrante inferior esquerdo foi muito específica (98%) e pouco sensível (22%), com razão de verossimilhança 13,8 quando presente e 0,8 quando ausente; a sensibilidade foi baixa porque a maioria dos pacientes com diverticulite tinha dor mais difusa. Em um estudo posterior, com 163 pacientes com dor abdominal baixa e tomografia como padrão, o mesmo achado foi mais sensível (76%) e menos específico (65%), com razão de verossimilhança 2,2 quando presente e 0,4 quando ausente: a especificidade caiu porque muito mais doenças imitadoras entraram na amostra, como enterite, câncer de cólon, alterações ginecológicas e colite isquêmica (McGee). Os dois números estão certos; o que muda é a população e o padrão de referência.
+  **Diverticulite.** Aqui as fontes divergem, e a divergência é instrutiva. Em um estudo mais antigo, com 600 pacientes com dor abdominal aguda e achados operatórios como padrão, a dor no quadrante inferior esquerdo foi muito específica (98%) e pouco sensível (22%), com razão de verossimilhança 13,8 quando presente e 0,8 quando ausente; a sensibilidade foi baixa porque a maioria dos pacientes com diverticulite tinha dor mais difusa. Em um estudo posterior, com 163 pacientes com dor abdominal baixa e tomografia como padrão, o mesmo achado foi mais sensível (76%) e menos específico (65%), com razão de verossimilhança 2,2 quando presente e 0,4 quando ausente: a especificidade caiu porque muito mais doenças imitadoras entraram na amostra, como enterite, câncer de cólon, alterações ginecológicas e colite isquêmica. Os dois números estão certos; o que muda é a população e o padrão de referência.
 
   **O idoso.** É onde o exame mais falha, e por dois motivos que se somam.
 
-  - **A dor pode simplesmente não estar lá.** Até 25% dos pacientes com mais de 60 anos e colecistite não têm nenhuma dor à palpação abdominal, e o sinal de Murphy é menos acurado nessa faixa. Alguns desses pacientes também não relatam dor espontânea, por alteração do estado mental (McGee).
-  - **A parede responde menos.** A tensão da parede abdominal é reduzida em idosos, assim como em crianças, multíparas e desnutridos (Porto): de modo que a contratura, o sinal mais acurado de peritonite, pode faltar mesmo diante de peritônio inflamado.
+  - **A dor pode simplesmente não estar lá.** Até 25% dos pacientes com mais de 60 anos e colecistite não têm nenhuma dor à palpação abdominal, e o sinal de Murphy é menos acurado nessa faixa. Alguns desses pacientes também não relatam dor espontânea, por alteração do estado mental.
+  - **A parede responde menos.** A tensão da parede abdominal é reduzida em idosos, assim como em crianças, multíparas e desnutridos: de modo que a contratura, o sinal mais acurado de peritonite, pode faltar mesmo diante de peritônio inflamado.
 
-  Some-se a isso a advertência de Porto sobre o exame do idoso: é importante palpar e auscultar o trajeto da aorta abdominal, porque dilatações aneurismáticas e estenoses de seus ramos são mais comuns em idades avançadas.
+  Some-se a isso uma advertência sobre o exame do idoso: é importante palpar e auscultar o trajeto da aorta abdominal, porque dilatações aneurismáticas e estenoses de seus ramos são mais comuns em idades avançadas.
 
-  Uma última armadilha, apontada por Semiologia Clínica e que não é exclusiva do idoso, mas nele é frequente: na **isquemia mesentérica**, a suspeita nasce justamente da **desproporção**, dor muito mais intensa que os achados do exame físico, sobretudo em vasculopatas, idosos e portadores de fibrilação atrial crônica ou trombofilias.
+  Uma última armadilha, que não é exclusiva do idoso, mas nele é frequente: na **isquemia mesentérica**, a suspeita nasce justamente da **desproporção**, dor muito mais intensa que os achados do exame físico, sobretudo em vasculopatas, idosos e portadores de fibrilação atrial crônica ou trombofilias.
 :::
 
 ::: conceito
@@ -561,7 +561,7 @@ titulo: Teste rápido
 ::: quiz
 perguntas:
   - id: abd-agudo-1
-    enunciado: Entre os sinais pesquisados na suspeita de peritonite, qual conclusão os dados de McGee sustentam sobre a dor à descompressão brusca?
+    enunciado: Entre os sinais pesquisados na suspeita de peritonite, qual conclusão os dados reunidos sustentam sobre a dor à descompressão brusca?
     alternativas:
       - "É o sinal mais acurado de peritonite, com razão de verossimilhança acima de 10"
       - "Sua ausência praticamente exclui peritonite, com razão de verossimilhança 0,05"
@@ -606,7 +606,7 @@ perguntas:
     corretaIndex: 3
     explicacao: "O desaparecimento da macicez hepática, substituída por timpanismo, é o sinal de Jobert, e no contexto descrito indica pneumoperitônio por perfuração. Vale lembrar que o mesmo achado percutório pode resultar de interposição de alça entre o fígado e a parede ou de atrofia hepática acentuada, o que reforça a necessidade de lê-lo dentro do quadro. O sinal de Gersuny é a crepitação percebida à palpação de um fecaloma, e o semicírculo de Skoda pertence à pesquisa de ascite."
   - id: abd-agudo-6
-    enunciado: Que valor a ausculta abdominal tem no paciente com dor abdominal aguda, segundo os dados reunidos por McGee?
+    enunciado: Que valor a ausculta abdominal tem no paciente com dor abdominal aguda, segundo os dados reunidos?
     alternativas:
       - "Ruídos ausentes confirmam peritonite, com razão de verossimilhança acima de 5"
       - "Não alteram a probabilidade de peritonite, mas ajudam na obstrução: hiperativos 5,0 e ruídos normais 0,4"

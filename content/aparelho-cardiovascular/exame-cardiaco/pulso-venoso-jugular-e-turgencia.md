@@ -347,7 +347,7 @@ texto: |
 
   Descreva seis atributos.
 
-  - **Intensidade**: profundidade da fóvea, graduada em cruzes, de + a ++++ (escala de cruzes de Porto, a mesma usada para frêmitos e sopros na tradição brasileira; não confundir com a graduação de Levine, de 1 a 6, empregada para sopros no tópico correspondente).
+  - **Intensidade**: profundidade da fóvea, graduada em cruzes, de + a ++++ (a mesma escala usada para frêmitos e sopros; não confundir com a graduação de Levine, de 1 a 6, empregada para sopros no tópico correspondente).
   - **Consistência**: mole, facilmente depressível, indicando retenção hídrica recente; ou duro, com maior resistência, indicando proliferação fibroblástica de edemas antigos ou de repetidos surtos inflamatórios.
   - **Elasticidade**: elástico quando a pele volta imediatamente, típico do edema inflamatório; inelástico quando a depressão persiste.
   - **Temperatura da pele adjacente**: avaliada com o dorso dos dedos, comparando com a vizinhança e com o lado homólogo. Pele quente indica inflamação; pele fria, comprometimento da irrigação.
@@ -369,7 +369,7 @@ causas:
 :::
 
 ::: tabela
-titulo: Edema cardíaco × outras causas de edema generalizado (cruzes na escala de Porto)
+titulo: Edema cardíaco × outras causas de edema generalizado (intensidade na escala de cruzes)
 colunas:
   - "Origem"
   - "Distribuição e horário"

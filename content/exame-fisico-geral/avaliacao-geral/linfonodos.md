@@ -276,15 +276,15 @@ titulo: "Tamanho: quatro referências que não coincidem"
 texto: |
   Este é um ponto em que as fontes divergem, e o guia registra a divergência em vez de escolher por conta própria.
 
-  **Porto (Exame Clínico, cap. 12, e Semiologia Médica, cap. 59)** afirma que os linfonodos variam normalmente de **0,5 a 2,5 cm** de diâmetro, e que linfonodos palpáveis podem ser normais em adultos: nesses casos, bem individualizados, móveis e indolores.
+  Uma referência afirma que os linfonodos variam normalmente de **0,5 a 2,5 cm** de diâmetro, e que linfonodos palpáveis podem ser normais em adultos: nesses casos, bem individualizados, móveis e indolores.
 
-  **Porto (Semiologia Médica, cap. 61)** registra outro parâmetro: o tamanho normal varia com a topografia, considerando-se normais os que têm **no máximo 10 mm** no eixo axial na maioria das cadeias.
+  Essa mesma referência registra outro parâmetro em outra passagem: o tamanho normal varia com a topografia, considerando-se normais os que têm **no máximo 10 mm** no eixo axial na maioria das cadeias.
 
-  **Semiologia Clínica (cap. 13)** adota como normal o **diâmetro abaixo de 1 cm**, acrescentando que os linfonodos são maiores no adolescente do que no adulto; no capítulo dedicado às adenomegalias, registra que os pequenos linfonodos inguinais palpáveis em pessoas saudáveis costumam medir **0,5 a 2 cm** no maior eixo.
+  Outra referência adota como normal o **diâmetro abaixo de 1 cm**, acrescentando que os linfonodos são maiores no adolescente do que no adulto; no trecho dedicado às adenomegalias, registra que os pequenos linfonodos inguinais palpáveis em pessoas saudáveis costumam medir **0,5 a 2 cm** no maior eixo.
 
-  **McGee (cap. 27)** trabalha com **área**, e não com diâmetro: sugere registrar o produto das duas maiores dimensões (um linfonodo de 2,5 × 3 cm é descrito como "7,5 cm²") porque é nessa unidade que as razões de verossimilhança do capítulo estão calculadas.
+  Uma terceira referência trabalha com **área**, e não com diâmetro: sugere registrar o produto das duas maiores dimensões (um linfonodo de 2,5 × 3 cm é descrito como "7,5 cm²") porque é nessa unidade que as razões de verossimilhança dela estão calculadas.
 
-  A conduta que sobrevive às quatro leituras é a mesma: **meça e registre em centímetros, com as duas dimensões**. Um número atravessa a divergência; um adjetivo, não. E quando for aplicar as razões de verossimilhança de McGee, converta para área antes.
+  A conduta que sobrevive às quatro leituras é a mesma: **meça e registre em centímetros, com as duas dimensões**. Um número atravessa a divergência; um adjetivo, não. E quando for aplicar essas razões de verossimilhança, converta para área antes.
 :::
 
 ::: perola
@@ -305,13 +305,13 @@ titulo: Antes dos sinais, a probabilidade pré-teste
 texto: |
   A mesma adenomegalia significa coisas diferentes em lugares diferentes, e ignorar isso é o erro mais caro deste tópico.
 
-  Nas clínicas de atenção primária, McGee registra que a adenomegalia periférica é **benigna em 99% das vezes**: às vezes explicada por faringite, dermatite ou picada de inseto, mais frequentemente aparecendo e desaparecendo sem explicação. Já em ambulatórios especializados, que recebem pacientes referenciados por adenomegalia persistente e inexplicada, **18% a 24% acabam com diagnóstico de malignidade**, linfoma ou câncer metastático, e até 5% têm doença infecciosa ou granulomatosa tratável, como tuberculose, infecção pelo HIV ou sarcoidose.
+  Nas clínicas de atenção primária, a adenomegalia periférica é **benigna em 99% das vezes**: às vezes explicada por faringite, dermatite ou picada de inseto, mais frequentemente aparecendo e desaparecendo sem explicação. Já em ambulatórios especializados, que recebem pacientes referenciados por adenomegalia persistente e inexplicada, **18% a 24% acabam com diagnóstico de malignidade**, linfoma ou câncer metastático, e até 5% têm doença infecciosa ou granulomatosa tratável, como tuberculose, infecção pelo HIV ou sarcoidose.
 
   Duas consequências. A primeira: as razões de verossimilhança da tabela seguinte foram medidas em pacientes referenciados, e é sobre essa probabilidade pré-teste que elas operam. A segunda, mais prática: **tempo é informação**. A velocidade de crescimento separa os grupos: dias a semanas apontam causa infecciosa ou inflamatória; semanas a meses apontam causa neoplásica, granulomatosa ou inflamatória crônica.
 :::
 
 ::: tabela
-titulo: O que muda a probabilidade de doença grave em quem tem adenomegalia (McGee, cap. 27)
+titulo: O que muda a probabilidade de doença grave em quem tem adenomegalia
 colunas:
   - "Achado"
   - "Razão de verossimilhança quando presente"
@@ -343,7 +343,7 @@ linhas:
 :::
 
 ::: tabela
-titulo: Características do linfonodo benigno e do maligno (Semiologia Clínica, cap. 22, Tabela 4)
+titulo: Características do linfonodo benigno e do maligno
 colunas:
   - "Característica"
   - "Benigno"
@@ -377,7 +377,7 @@ titulo: Achados que não ajudam, e por quê
 texto: |
   Tão útil quanto saber o que aumenta a probabilidade é saber o que não a move.
 
-  Nos estudos reunidos por McGee, **exantema, febre, baço palpável e fígado palpável** não discriminaram doença grave de doença benigna. A **distribuição regional** também não, com a única exceção da localização supraclavicular. E a **adenomegalia generalizada** não discriminou, nem quando definida como acometimento de dois ou mais grupos, nem quando definida como quatro ou mais. A explicação proposta é direta: o achado aparece com a mesma frequência em doenças benignas, como a mononucleose infecciosa, e em doenças graves, como o linfoma.
+  Nos estudos reunidos, **exantema, febre, baço palpável e fígado palpável** não discriminaram doença grave de doença benigna. A **distribuição regional** também não, com a única exceção da localização supraclavicular. E a **adenomegalia generalizada** não discriminou, nem quando definida como acometimento de dois ou mais grupos, nem quando definida como quatro ou mais. A explicação proposta é direta: o achado aparece com a mesma frequência em doenças benignas, como a mononucleose infecciosa, e em doenças graves, como o linfoma.
 
   Um achado surpreende pela direção. A **dor à palpação** reduz a probabilidade de doença grave, mas apenas modestamente (razão de verossimilhança 0,4), menos do que o ensino tradicional sugere. A razão é que hemorragia ou necrose dentro de um linfonodo neoplásico também produz desconforto, imitando alteração inflamatória aguda.
 
@@ -388,7 +388,7 @@ texto: |
 titulo: O escore de linfonodo de Vassilakopoulos
 nivel: avancado
 texto: |
-  A combinação de achados se sai melhor do que qualquer achado isolado. A partir da avaliação de mais de 300 pacientes, Vassilakopoulos e colaboradores identificaram seis preditores independentes de doença grave e os reuniram em um escore calculável à beira do leito, reproduzido por McGee (cap. 27, Tabela 27.1).
+  A combinação de achados se sai melhor do que qualquer achado isolado. A partir da avaliação de mais de 300 pacientes, Vassilakopoulos e colaboradores identificaram seis preditores independentes de doença grave e os reuniram em um escore calculável à beira do leito.
 
   **Pontuação**
 
@@ -450,13 +450,13 @@ nivel: avancado
 texto: |
   Depois de caracterizar os linfonodos, o segundo passo do raciocínio é decidir se o comprometimento é localizado ou generalizado. As fontes usam limiares diferentes, e é preciso saber qual se está aplicando.
 
-  **McGee (cap. 27)** define adenomegalia generalizada como o aumento simultâneo de **dois ou mais** grupos regionais, e registra que a maioria dos pacientes afetados tem a combinação cervical mais inguinal ou cervical mais axilar.
+  Uma referência define adenomegalia generalizada como o aumento simultâneo de **dois ou mais** grupos regionais, e registra que a maioria dos pacientes afetados tem a combinação cervical mais inguinal ou cervical mais axilar.
 
-  **Porto (Exame Clínico, cap. 12)** define o comprometimento como generalizado quando **três ou mais** grupos de linfonodos são palpáveis.
+  Outra referência define o comprometimento como generalizado quando **três ou mais** grupos de linfonodos são palpáveis.
 
   O significado clínico, esse é comum às duas: a adenomegalia generalizada aponta um distúrbio sistêmico acometendo os linfonodos, linfomas e leucemias, infecções específicas como mononucleose infecciosa, infecção pelo HIV e sífilis, síndrome de hipersensibilidade a anticonvulsivantes, sarcoidose e doenças do tecido conjuntivo.
 
-  Duas ressalvas fecham o tema. Porto adverte que, **nas fases precoces**, mesmo as doenças sistêmicas costumam se apresentar com um único linfonodo ou um único grupo comprometido, ou seja, "localizada" hoje não exclui doença sistêmica amanhã. E McGee lembra que a adenomegalia generalizada, por qualquer das definições, **não discrimina** doença grave de doença benigna: ela orienta a lista de hipóteses, não o grau de preocupação.
+  Duas ressalvas fecham o tema. A segunda referência adverte que, **nas fases precoces**, mesmo as doenças sistêmicas costumam se apresentar com um único linfonodo ou um único grupo comprometido, ou seja, "localizada" hoje não exclui doença sistêmica amanhã. E a primeira lembra que a adenomegalia generalizada, por qualquer das definições, **não discrimina** doença grave de doença benigna: ela orienta a lista de hipóteses, não o grau de preocupação.
 :::
 
 ::: conceito
@@ -550,14 +550,14 @@ titulo: Teste rápido
 ::: quiz
 perguntas:
   - id: linfo-1
-    enunciado: Homem de 58 anos com linfonodo supraclavicular esquerdo de 3 × 3 cm, endurecido e aderido a planos profundos, indolor. Quais desses achados mais elevam a probabilidade de doença grave, segundo os dados reunidos por McGee?
+    enunciado: Homem de 58 anos com linfonodo supraclavicular esquerdo de 3 × 3 cm, endurecido e aderido a planos profundos, indolor. Quais desses achados mais elevam a probabilidade de doença grave, segundo os dados reunidos?
     alternativas:
       - "A ausência de dor, isoladamente, com razão de verossimilhança acima de 10"
       - "A fixação a planos profundos (10,9) e o tamanho de 9 cm² ou mais (8,4)"
       - "A localização cervical, que é a de maior razão de verossimilhança entre todas"
       - "A idade acima de 40 anos, que sozinha já é praticamente diagnóstica"
     corretaIndex: 1
-    explicacao: "No boxe EBM 27.1, os achados que mais elevam a probabilidade de doença grave são linfonodos fixos (razão de verossimilhança 10,9) e tamanho de 9 cm² ou mais, equivalente a 3 × 3 cm (8,4). Seguem-se prurido generalizado (4,9), perda de peso (3,4), consistência endurecida (3,2), adenopatia supraclavicular (3,2) e idade de 40 anos ou mais (2,4). A ausência de dor não é avaliada isoladamente: é a presença de dor que reduz modestamente a probabilidade (0,4)."
+    explicacao: "Nos dados compilados, os achados que mais elevam a probabilidade de doença grave são linfonodos fixos (razão de verossimilhança 10,9) e tamanho de 9 cm² ou mais, equivalente a 3 × 3 cm (8,4). Seguem-se prurido generalizado (4,9), perda de peso (3,4), consistência endurecida (3,2), adenopatia supraclavicular (3,2) e idade de 40 anos ou mais (2,4). A ausência de dor não é avaliada isoladamente: é a presença de dor que reduz modestamente a probabilidade (0,4)."
   - id: linfo-2
     enunciado: Qual é o princípio técnico que torna os linfonodos perceptíveis à palpação?
     alternativas:
@@ -577,7 +577,7 @@ perguntas:
     corretaIndex: 0
     explicacao: "Na infância o tecido linfático é hipertrófico, e palpar pequenos linfonodos nas cadeias cervical e submandibular de uma criança é achado esperado. O linfonodo normal é individualizado, móvel, indolor e de consistência borrachosa. Em adultos, também é frequente palpar pequenos linfonodos inguinais, axilares, cervicais ou submandibulares secundários a processos inflamatórios ou infecções pregressas, sem significado patológico."
   - id: linfo-4
-    enunciado: Sobre a adenopatia supraclavicular esquerda associada a neoplasia abdominal, o nódulo de Virchow, qual afirmação corresponde aos dados apresentados por McGee?
+    enunciado: Sobre a adenopatia supraclavicular esquerda associada a neoplasia abdominal, o nódulo de Virchow, qual afirmação corresponde aos dados apresentados?
     alternativas:
       - "Todos os carcinomas infradiafragmáticos que metastatizam para supraclaviculares vão para o lado esquerdo"
       - "O acometimento supraclavicular só ocorre quando há obstrução completa do ducto torácico"
@@ -589,11 +589,11 @@ perguntas:
     enunciado: Como as fontes deste guia definem linfadenomegalia generalizada?
     alternativas:
       - "Há uma definição única e universal, adotada por todas as fontes: quatro ou mais grupos linfonodais acometidos simultaneamente"
-      - "As definições divergem: McGee usa dois ou mais grupos regionais; Porto (Exame Clínico), três ou mais grupos palpáveis"
+      - "As definições divergem: uma referência usa dois ou mais grupos regionais; outra, três ou mais grupos palpáveis"
       - "Generalizada é sinônimo de acometimento simétrico bilateral de uma mesma cadeia"
       - "Só se considera generalizada quando há esplenomegalia associada"
     corretaIndex: 1
-    explicacao: "McGee define adenomegalia generalizada como aumento simultâneo de dois ou mais grupos regionais; Porto, no Exame Clínico, considera generalizado o comprometimento quando três ou mais grupos são palpáveis. O significado é comum às duas: aponta doença sistêmica, linfoma, leucemia, mononucleose, HIV, sífilis, sarcoidose, colagenoses, hipersensibilidade a anticonvulsivantes. Vale lembrar que o achado não discrimina doença grave de benigna, e que doenças sistêmicas podem começar com um único grupo acometido."
+    explicacao: "Uma referência define adenomegalia generalizada como aumento simultâneo de dois ou mais grupos regionais; outra considera generalizado o comprometimento quando três ou mais grupos são palpáveis. O significado é comum às duas: aponta doença sistêmica, linfoma, leucemia, mononucleose, HIV, sífilis, sarcoidose, colagenoses, hipersensibilidade a anticonvulsivantes. Vale lembrar que o achado não discrimina doença grave de benigna, e que doenças sistêmicas podem começar com um único grupo acometido."
   - id: linfo-6
     enunciado: Uma paciente é encaminhada por "gânglio inguinal" que, ao exame, é redutível e aumenta com a manobra de Valsalva. O que esse caso ilustra?
     alternativas:

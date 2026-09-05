@@ -100,8 +100,8 @@ texto: |
 
   **O que fica como moldura, nomeada e não ensinada:**
 
-  - a **gustação** como exame formal. Porto descreve como se faz: soluções saturadas com os quatro sabores, aplicadas na língua, lavando a boca entre uma prova e outra, e registra que ele **não é habitualmente realizado** para o IX. Este tópico explica adiante por que McGee considera o diagnóstico topográfico por gustação de valor clínico mínimo;
-  - as **provas vestibulares calóricas e rotatórias**, que Porto situa em gabinete de neuro-otologia por exigirem equipamento especializado, e as **manobras posicionais**. São nomeadas aqui e ficam fora do escopo do guia, que se limita ao exame à beira do leito;
+  - a **gustação** como exame formal. Descreve-se como se faz: soluções saturadas com os quatro sabores, aplicadas na língua, lavando a boca entre uma prova e outra; registra-se que ele **não é habitualmente realizado** para o IX. Este tópico explica adiante por que o diagnóstico topográfico por gustação tem valor clínico mínimo;
+  - as **provas vestibulares calóricas e rotatórias**, situadas em gabinete de neuro-otologia por exigirem equipamento especializado, e as **manobras posicionais**. São nomeadas aqui e ficam fora do escopo do guia, que se limita ao exame à beira do leito;
   - a **otoscopia** e as demais técnicas instrumentais do exame do ouvido, já nomeadas no tópico de boca, nariz e ouvidos.
 :::
 
@@ -211,7 +211,7 @@ legenda: "As duas faces estão tentando fechar os olhos. Examinar a mímica por 
 ::: conceito
 titulo: A mímica por andares
 texto: |
-  Porto descreve o exame do VII par como uma sequência de comandos, e ela funciona melhor se for lida como uma varredura de cima para baixo: **enrugar a testa e franzir os supercílios; cerrar as pálpebras; mostrar os dentes e abrir bem a boca; assobiar; encher a boca de ar; contrair o platisma**.
+  O exame do VII par se descreve como uma sequência de comandos, e ela funciona melhor se for lida como uma varredura de cima para baixo: **enrugar a testa e franzir os supercílios; cerrar as pálpebras; mostrar os dentes e abrir bem a boca; assobiar; encher a boca de ar; contrair o platisma**.
 
   Agrupe esses comandos em **três andares** e o exame passa a produzir topografia, e não só assimetria:
 
@@ -219,11 +219,11 @@ texto: |
   - **andar médio**: cerrar as pálpebras com força, comparando a força de oclusão dos dois lados;
   - **andar inferior**: mostrar os dentes, encher a boca de ar, assobiar, contrair o platisma.
 
-  **O que a paralisia unilateral mostra** (Porto): **lagoftalmia**, com o olho que permanece aberto; ausência do ato de piscar; **epífora**, o lacrimejamento; desvio da boca para o lado sadio, sobretudo ao mostrar os dentes ou abrir amplamente a boca; e incapacidade de contrair o platisma, de assobiar e de manter a boca inflada. Porto (*Semiologia Médica*, cap. 174) acrescenta o achado que confirma a tentativa de fechar o olho: ao tentar ocluir as pálpebras, **o globo gira para cima e a esclerótica fica exposta**, o sinal de Bell, já descrito no tópico de crânio e face.
+  **O que a paralisia unilateral mostra**: **lagoftalmia**, com o olho que permanece aberto; ausência do ato de piscar; **epífora**, o lacrimejamento; desvio da boca para o lado sadio, sobretudo ao mostrar os dentes ou abrir amplamente a boca; e incapacidade de contrair o platisma, de assobiar e de manter a boca inflada. Vale acrescentar o achado que confirma a tentativa de fechar o olho: ao tentar ocluir as pálpebras, **o globo gira para cima e a esclerótica fica exposta**, o sinal de Bell, já descrito no tópico de crânio e face.
 
   O vocabulário completa o registro: a paralisia da face chama-se **prosopoplegia**, e quando é bilateral fala-se em **diplegia facial**.
 
-  Uma precisão anatômica de McGee evita um erro frequente: **lesões do nervo facial não causam ptose**. A pálpebra é elevada pelo músculo elevador, inervado pelo III par, e pelo músculo tarsal, de inervação simpática: nenhum dos dois pertence ao facial. Uma face assimétrica com ptose verdadeira aponta para outro lugar, e o tópico de pares cranianos de I a VI trata dele.
+  Uma precisão anatômica evita um erro frequente: **lesões do nervo facial não causam ptose**. A pálpebra é elevada pelo músculo elevador, inervado pelo III par, e pelo músculo tarsal, de inervação simpática: nenhum dos dois pertence ao facial. Uma face assimétrica com ptose verdadeira aponta para outro lugar, e o tópico de pares cranianos de I a VI trata dele.
 :::
 
 ::: sinal
@@ -239,53 +239,53 @@ causas:
 ::: conceito
 titulo: "Central × periférica: o que este tópico acrescenta"
 texto: |
-  A distinção está ensinada no tópico de crânio e face: a regra da testa, o mecanismo que a sustenta e as causas de cada tipo. Ela não se repete aqui. O que este tópico acrescenta é **um segundo critério**, de McGee, que decide mesmo quando o exame do andar superior fica duvidoso.
+  A distinção está ensinada no tópico de crânio e face: a regra da testa, o mecanismo que a sustenta e as causas de cada tipo. Ela não se repete aqui. O que este tópico acrescenta é **um segundo critério**, que decide mesmo quando o exame do andar superior fica duvidoso.
 
   **O critério dos movimentos afetados.** É elegante: lesões **periféricas** paralisam **todos** os movimentos faciais daquele lado; lesões **centrais** comprometem os movimentos **voluntários** e poupam os **emocionais**. O paciente com fraqueza central pode ser incapaz de erguer voluntariamente um canto da boca e, no entanto, movê-lo com vivacidade ao rir ou chorar. A explicação é que o comando emocional não chega aos núcleos faciais pelo córtex motor.
 
   A consequência prática é uma manobra que ninguém executa e que custa nada: **observe o rosto do paciente enquanto ele ri de alguma coisa**, e compare com o que ele consegue fazer sob comando. Uma assimetria que desaparece no riso espontâneo é central.
 
-  McGee registra também que existe o achado inverso, paralisia emocional sem paralisia volitiva, que ocorre em lesões do tálamo ou do lobo frontal.
+  Registra-se também o achado inverso, paralisia emocional sem paralisia volitiva, que ocorre em lesões do tálamo ou do lobo frontal.
 :::
 
 ::: conceito
 titulo: "Graduar a paralisia facial: o que as fontes oferecem"
 texto: |
-  O tópico de crânio e face deixou registrado que a **graduação** da paralisia facial pertenceria a este capítulo. Vale ser honesto sobre o que as quatro obras deste guia oferecem e o que elas não oferecem.
+  O tópico de crânio e face deixou registrado que a **graduação** da paralisia facial pertenceria a este capítulo. Vale ser honesto sobre o que as referências deste guia oferecem e o que elas não oferecem.
 
-  **O que elas não oferecem:** nenhuma delas apresenta uma escala numérica de graduação da paralisia facial. Escalas desse tipo existem e são usadas em otorrinolaringologia e em cirurgia de cabeça e pescoço, mas nenhuma das obras em que este guia se ancora as descreve, e o guia não vai reproduzir de memória o que suas fontes não trazem. Elas ficam nomeadas como instrumento especializado, fora do escopo do guia.
+  **O que elas não oferecem:** nenhuma delas apresenta uma escala numérica de graduação da paralisia facial. Escalas desse tipo existem e são usadas em otorrinolaringologia e em cirurgia de cabeça e pescoço, mas nenhuma das referências em que este guia se apoia as descreve, e o guia não vai reproduzir de memória o que elas não trazem. Elas ficam nomeadas como instrumento especializado, fora do escopo do guia.
 
   **O que elas oferecem, e é suficiente para o registro clínico**, são três eixos de descrição:
 
   1. **Que andares estão comprometidos**: os três, ou apenas o inferior. É o eixo que separa periférica de central, e ele é a primeira coisa a registrar.
-  2. **Se a paralisia é completa ou parcial**. Porto descreve uma forma **incompleta, do tipo ramuscular**, na hanseníase, em que apenas ramos terminais são lesados: de modo que a paralisia pode acometer parte da hemiface e poupar outra parte. Registrar "paralisia completa da hemiface direita" ou "déficit parcial, limitado ao ramo cervicofacial" descreve dois quadros clínicos diferentes.
+  2. **Se a paralisia é completa ou parcial**. Descreve-se uma forma **incompleta, do tipo ramuscular**, na hanseníase, em que apenas ramos terminais são lesados: de modo que a paralisia pode acometer parte da hemiface e poupar outra parte. Registrar "paralisia completa da hemiface direita" ou "déficit parcial, limitado ao ramo cervicofacial" descreve dois quadros clínicos diferentes.
   3. **Que funções não motoras acompanham**, o que localiza o nível da lesão ao longo do trajeto do nervo: assunto do bloco seguinte.
 
-  A isso soma-se um dado de reprodutibilidade que convém conhecer antes de confiar demais no julgamento: na Tabela 5.1 de McGee, o julgamento **paralisia facial presente ou ausente** tem concordância entre observadores de **0,57**: concordância moderada, e bem abaixo da que se obtém para achados como a sensibilidade faríngea. Descrever o que se viu, andar por andar, é mais reprodutível do que rotular.
+  A isso soma-se um dado de reprodutibilidade que convém conhecer antes de confiar demais no julgamento: na tabulação de concordância entre observadores, o julgamento **paralisia facial presente ou ausente** tem concordância de **0,57**: concordância moderada, e bem abaixo da que se obtém para achados como a sensibilidade faríngea. Descrever o que se viu, andar por andar, é mais reprodutível do que rotular.
 :::
 
 ::: conceito
 titulo: O que acompanha o VII, e por que a gustação fica de fora
 texto: |
-  O nervo facial não é só mímica. Porto descreve o **nervo intermédio**, também chamado nervo intermediário de Wrisberg, que faz curto trajeto junto ao facial e, por um de seus ramos principais, a **corda do tímpano**, conduz a informação gustativa vinda dos **dois terços anteriores da língua**. McGee acrescenta o resto da lista: o VII responde ainda pelo **lacrimejamento** (glândula lacrimal), pela **audição** através do músculo estapédio, e é a **via eferente** do reflexo córneo-palpebral e do reflexo glabelar.
+  O nervo facial não é só mímica. Descreve-se o **nervo intermédio**, também chamado nervo intermediário de Wrisberg, que faz curto trajeto junto ao facial e, por um de seus ramos principais, a **corda do tímpano**, conduz a informação gustativa vinda dos **dois terços anteriores da língua**. O restante da lista: o VII responde ainda pelo **lacrimejamento** (glândula lacrimal), pela **audição** através do músculo estapédio, e é a **via eferente** do reflexo córneo-palpebral e do reflexo glabelar.
 
-  Porto (*Semiologia Médica*, cap. 174) transforma essa anatomia em raciocínio clínico: na paralisia facial periférica podem surgir **hipogeusia**, **lacrimejamento** e **hiperacusia** para sons agudos, conforme a lesão fique acima ou abaixo do ponto em que se destacam o ramo do músculo estapédio, o ramo da glândula lacrimal e a corda do tímpano. Ele registra ainda um distúrbio sensitivo limitado: hipoestesia ou anestesia parcial no conduto auditivo externo ou na região vizinha da orelha, e que **dor retroauricular pode preceder** o aparecimento da paralisia.
+  Essa anatomia se transforma em raciocínio clínico: na paralisia facial periférica podem surgir **hipogeusia**, **lacrimejamento** e **hiperacusia** para sons agudos, conforme a lesão fique acima ou abaixo do ponto em que se destacam o ramo do músculo estapédio, o ramo da glândula lacrimal e a corda do tímpano. Registra-se ainda um distúrbio sensitivo limitado: hipoestesia ou anestesia parcial no conduto auditivo externo ou na região vizinha da orelha, e que **dor retroauricular pode preceder** o aparecimento da paralisia.
 
-  **E aqui está a razão pela qual este guia trata a gustação como moldura.** McGee explica que os ramos do facial se separam do tronco principal em ordem previsível, do mais proximal ao mais distal: glândula lacrimal, músculo estapédio, língua (gustação) e músculos da face. Em tese, testar o lacrimejamento, a função do estapédio e a gustação localizaria a lesão. Na prática, isso **só é confiável quando o nervo está completamente seccionado**. Nas lesões parcelares (a paralisia de Bell, as lesões parciais) o diagnóstico topográfico produz combinações sem sentido (lacrimejamento reduzido com gustação e estapédio preservados) e tem **valor clínico mínimo**.
+  **E aqui está a razão pela qual este guia trata a gustação como moldura.** Os ramos do facial se separam do tronco principal em ordem previsível, do mais proximal ao mais distal: glândula lacrimal, músculo estapédio, língua (gustação) e músculos da face. Em tese, testar o lacrimejamento, a função do estapédio e a gustação localizaria a lesão. Na prática, isso **só é confiável quando o nervo está completamente seccionado**. Nas lesões parcelares (a paralisia de Bell, as lesões parciais) o diagnóstico topográfico produz combinações sem sentido (lacrimejamento reduzido com gustação e estapédio preservados) e tem **valor clínico mínimo**.
 
-  Porto chega a uma conclusão prática convergente: a gustação se examina com soluções saturadas dos quatro sabores, lavando a boca entre uma prova e outra, e ele a descreve como algo que "às vezes" é possível caracterizar na vigência da paralisia. Não é exame de rotina. Pergunte ao paciente se o paladar mudou: o dado de anamnese é obtido em segundos e serve para o mesmo propósito.
+  Chega-se a uma conclusão prática convergente: a gustação se examina com soluções saturadas dos quatro sabores, lavando a boca entre uma prova e outra, sendo algo que "às vezes" é possível caracterizar na vigência da paralisia. Não é exame de rotina. Pergunte ao paciente se o paladar mudou: o dado de anamnese é obtido em segundos e serve para o mesmo propósito.
 
-  **A paralisia de Bell**, forma idiopática que responde pela maioria das paralisias periféricas isoladas, tem números que vale conhecer. McGee reúne a etiologia das paralisias faciais periféricas isoladas: **idiopáticas em 50% a 87%**, traumáticas, cirúrgicas ou acidentais, em 5% a 22%, por herpes-zóster em 7% a 13%, tumorais em 1% a 6%. Porto registra proporção compatível ao dizer que cerca de 80% das paralisias faciais são a *frigore*, de caráter benigno, hoje atribuídas a infecção viral com reação edematosa do nervo, e que há recuperação completa em cerca de 80% dos casos nas semanas seguintes.
+  **A paralisia de Bell**, forma idiopática que responde pela maioria das paralisias periféricas isoladas, tem números que vale conhecer. A etiologia das paralisias faciais periféricas isoladas reúne: **idiopáticas em 50% a 87%**, traumáticas, cirúrgicas ou acidentais, em 5% a 22%, por herpes-zóster em 7% a 13%, tumorais em 1% a 6%. Outra referência registra proporção compatível ao dizer que cerca de 80% das paralisias faciais são a *frigore*, de caráter benigno, hoje atribuídas a infecção viral com reação edematosa do nervo, e que há recuperação completa em cerca de 80% dos casos nas semanas seguintes.
 
-  Os **achados associados** à paralisia de Bell, segundo McGee: gustação diminuída em 52%, hiperacusia em 8% a 30%, aumento do lacrimejamento em 19% a 34% e diminuição em 2% a 17%. O aumento tem explicação mecânica bonita: o orbicular fraco não consegue conduzir a lágrima para o ducto nasolacrimal.
+  Os **achados associados** à paralisia de Bell: gustação diminuída em 52%, hiperacusia em 8% a 30%, aumento do lacrimejamento em 19% a 34% e diminuição em 2% a 17%. O aumento tem explicação mecânica bonita: o orbicular fraco não consegue conduzir a lágrima para o ducto nasolacrimal.
 
   E as **complicações da recuperação**, que explicam achados que o paciente traz meses depois:
 
-  - **sincinesias**, ou movimentos associados, em 55% a 94%: movimentos inesperados por reinervação aberrante, como o estreitamento da fenda palpebral quando o paciente sorri, ou o canto da boca que se move quando ele fecha os olhos com força. Porto descreve exatamente o mesmo fenômeno e o atribui à reinervação por fibras que originalmente inervavam outros músculos;
+  - **sincinesias**, ou movimentos associados, em 55% a 94%: movimentos inesperados por reinervação aberrante, como o estreitamento da fenda palpebral quando o paciente sorri, ou o canto da boca que se move quando ele fecha os olhos com força. descreve-se exatamente o mesmo fenômeno, atribuído à reinervação por fibras que originalmente inervavam outros músculos;
   - **contratura** em 3% a 36%, que apesar do nome corresponde a aumento do tônus e não a cicatriz fibrosa, e que muitas vezes até **restaura a simetria** do rosto, mesmo persistindo alguma fraqueza;
   - **lágrimas de crocodilo** em 2% a 6%, por regeneração aberrante de fibras salivares para a glândula lacrimal: ao comer, o paciente lacrimeja.
 
-  Um último dado de conduta, de Porto (*Semiologia Médica*, cap. 174): as paralisias faciais periféricas são mais frequentes em diabéticos e podem ser a **primeira manifestação** da doença, razão pela qual ele recomenda investigar diabetes em todos os casos.
+  Um último dado de conduta: as paralisias faciais periféricas são mais frequentes em diabéticos e podem ser a **primeira manifestação** da doença, razão pela qual se recomenda investigar diabetes em todos os casos.
 :::
 
 ::: secao
@@ -295,40 +295,40 @@ titulo: "VIII: audição e equilíbrio"
 ::: conceito
 titulo: "A raiz coclear: o enquadramento neurológico"
 texto: |
-  As provas de **Weber**, de **Rinne** e do **sussurro** estão inteiras no tópico de boca, nariz e ouvidos, com a técnica detalhada, as razões de verossimilhança de McGee e as advertências que impedem seu uso errado: entre elas a de que o Weber só deve ser interpretado em paciente que já se sabe ter perda auditiva. Nada disso se repete aqui.
+  As provas de **Weber**, de **Rinne** e do **sussurro** estão inteiras no tópico de boca, nariz e ouvidos, com a técnica detalhada, as razões de verossimilhança e as advertências que impedem seu uso errado: entre elas a de que o Weber só deve ser interpretado em paciente que já se sabe ter perda auditiva. Nada disso se repete aqui.
 
-  O que este tópico acrescenta é **por que essas provas pertencem ao exame neurológico**, e a resposta está em uma frase de Semiologia Clínica: compreender e interpretar a fala exige, antes de tudo, um sistema auditivo íntegro, e quem ouve mal costuma ser tomado por confuso ou pouco participativo pelas pessoas ao redor.
+  O que este tópico acrescenta é **por que essas provas pertencem ao exame neurológico**, e a resposta está em uma frase: compreender e interpretar a fala exige, antes de tudo, um sistema auditivo íntegro, e quem ouve mal costuma ser tomado por confuso ou pouco participativo pelas pessoas ao redor.
 
-  **A divisão que o exame produz** é topográfica, e é isso que interessa ao neurológico. Semiologia Clínica separa dois tipos de hipoacusia periférica:
+  **A divisão que o exame produz** é topográfica, e é isso que interessa ao neurológico. Separam-se dois tipos de hipoacusia periférica:
 
   - **de condução**, em que o som encontra obstáculo no caminho até a cóclea: perfuração do tímpano, rolha de cera, otosclerose;
   - **neurossensorial**, em que a cóclea recebe o som, mas ele não chega ao córtex auditivo pelo nervo acústico: traumatismo do nervo, neurinoma do acústico, meningiomas do ângulo pontocerebelar.
 
-  E daí sai a observação que transforma um achado otológico em achado neurológico: **a via auditiva é complexa e termina no giro temporal transverso do lado oposto; por isso, é raro que uma lesão cortical produza hipoacusia de um lado só**, de modo que hipoacusia de um lado só sugere lesão periférica (Semiologia Clínica). É o oposto do que acontece com a visão, em que lesões corticais produzem defeitos de campo bem lateralizados.
+  E daí sai a observação que transforma um achado otológico em achado neurológico: **a via auditiva é complexa e termina no giro temporal transverso do lado oposto; por isso, é raro que uma lesão cortical produza hipoacusia de um lado só**, de modo que hipoacusia de um lado só sugere lesão periférica. É o oposto do que acontece com a visão, em que lesões corticais produzem defeitos de campo bem lateralizados.
 
-  Porto acrescenta o repertório de causas da lesão da raiz coclear, afastadas as causas de transmissão aérea como cerume e otosclerose: rubéola, neurinoma do acústico, fratura do rochedo, intoxicação medicamentosa e síndrome de Ménière. E separa os sintomas **deficitários**, hipoacusia, dos **irritativos** (zumbido, hiperacusia e alucinações auditivas) lembrando que os zumbidos podem existir sem déficit de audição, que as alucinações podem depender de focos epilépticos corticais, e que a **hiperacusia acompanha a paralisia facial periférica**, pelo comprometimento do estapédio.
+  Vale acrescentar o repertório de causas da lesão da raiz coclear, afastadas as causas de transmissão aérea como cerume e otosclerose: rubéola, neurinoma do acústico, fratura do rochedo, intoxicação medicamentosa e síndrome de Ménière. Separam-se os sintomas **deficitários**, hipoacusia, dos **irritativos** (zumbido, hiperacusia e alucinações auditivas) lembrando que os zumbidos podem existir sem déficit de audição, que as alucinações podem depender de focos epilépticos corticais, e que a **hiperacusia acompanha a paralisia facial periférica**, pelo comprometimento do estapédio.
 
-  Porto (*Exame Clínico*) descreve ainda as manobras simples que precedem qualquer diapasão: **redução gradativa da intensidade da voz natural**, **voz cochichada** e **atrito suave das polpas digitais próximo ao ouvido**, as três já detalhadas, com números, no tópico de boca, nariz e ouvidos.
+  Descrevem-se ainda as manobras simples que precedem qualquer diapasão: **redução gradativa da intensidade da voz natural**, **voz cochichada** e **atrito suave das polpas digitais próximo ao ouvido**, as três já detalhadas, com números, no tópico de boca, nariz e ouvidos.
 
-  Uma síndrome fecha a raiz coclear porque atinge as duas raízes ao mesmo tempo: a **síndrome de Ménière**, que Porto descreve como crises de zumbidos, vertigens, desequilíbrio, náuseas e vômitos, com hipoacusia que se agrava a cada novo episódio.
+  Uma síndrome fecha a raiz coclear porque atinge as duas raízes ao mesmo tempo: a **síndrome de Ménière**, descrita como crises de zumbidos, vertigens, desequilíbrio, náuseas e vômitos, com hipoacusia que se agrava a cada novo episódio.
 :::
 
 ::: conceito
 titulo: A raiz vestibular sem aparelho nenhum
 texto: |
-  Porto é explícito quanto ao alcance do exame neurológico de rotina: o VIII par é objeto da neuro-otologia, que dispõe de aparelhagem própria, e o clínico faz **uma exploração simplificada** das duas raízes. Simplificada não quer dizer inútil: quer dizer que se examinam quatro coisas, e todas sem equipamento.
+  É explícito o alcance do exame neurológico de rotina: o VIII par é objeto da neuro-otologia, que dispõe de aparelhagem própria, e o clínico faz **uma exploração simplificada** das duas raízes. Simplificada não quer dizer inútil: quer dizer que se examinam quatro coisas, e todas sem equipamento.
 
   **1. Nistagmo.** O vocabulário está no tópico de pares cranianos de I a VI: movimentos ritmados com um componente lento e um rápido, nomeados pela direção do componente rápido, nos planos horizontal, vertical, rotatório ou misto, espontâneos ou provocados. Aqui vale a advertência que evita falso-positivo: **um pequeno abalo no olhar lateral extremo existe em muita gente normal**, procure o nistagmo antes de chegar ao extremo do olhar.
 
-  **2. Desvio postural.** Porto descreve a manobra: paciente de pé ou sentado, olhos fechados, braços estendidos à frente e elevados até formarem ângulo reto com o tronco. Havendo lesão vestibular, **os braços se desviam para o lado do labirinto comprometido**, e o tronco pende na mesma direção. Semiologia Clínica descreve a mesma manobra dentro do exame do equilíbrio estático e acrescenta o contraste que a torna útil: na **lesão vestibular** desviam-se **os dois membros superiores** para o lado lesado; na **lesão cerebelar**, o desvio é apenas do membro **do mesmo lado** da lesão.
+  **2. Desvio postural.** Descreve-se a manobra: paciente de pé ou sentado, olhos fechados, braços estendidos à frente e elevados até formarem ângulo reto com o tronco. Havendo lesão vestibular, **os braços se desviam para o lado do labirinto comprometido**, e o tronco pende na mesma direção. A mesma manobra, descrita dentro do exame do equilíbrio estático, acrescenta o contraste que a torna útil: na **lesão vestibular** desviam-se **os dois membros superiores** para o lado lesado; na **lesão cerebelar**, o desvio é apenas do membro **do mesmo lado** da lesão.
 
-  **3. Equilíbrio estático.** O paciente de pé, descalço, com os pés juntos e paralelos, primeiro de olhos abertos e depois fechados. O detalhamento da prova de Romberg, o que ela testa e o que ela não testa, pertence ao tópico de sensibilidade e coordenação, neste mesmo capítulo. O que interessa aqui é a característica do desvio vestibular, que Porto registra: **sempre para o mesmo lado, depois de um pequeno período de latência**, ao contrário do desvio por perda proprioceptiva, que ocorre para qualquer lado e imediatamente.
+  **3. Equilíbrio estático.** O paciente de pé, descalço, com os pés juntos e paralelos, primeiro de olhos abertos e depois fechados. O detalhamento da prova de Romberg, o que ela testa e o que ela não testa, pertence ao tópico de sensibilidade e coordenação, neste mesmo capítulo. O que interessa aqui é a característica do desvio vestibular: **sempre para o mesmo lado, depois de um pequeno período de latência**, ao contrário do desvio por perda proprioceptiva, que ocorre para qualquer lado e imediatamente.
 
-  **4. Marcha e desvio lateral.** Porto descreve a lateropulsão para o lado da lesão e a marcha em estrela; Semiologia Clínica descreve a **manobra de Fukuda**, marchar sem sair do lugar, que evidencia o desvio para o lado lesado nas vestibulopatias. As marchas com nome, incluindo esta, são o tópico de marcha e sinais meníngeos.
+  **4. Marcha e desvio lateral.** Descreve-se a lateropulsão para o lado da lesão e a marcha em estrela; e a **manobra de Fukuda**, marchar sem sair do lugar, que evidencia o desvio para o lado lesado nas vestibulopatias. As marchas com nome, incluindo esta, são o tópico de marcha e sinais meníngeos.
 
-  **O reflexo oculovestibular sem aparelho.** Semiologia Clínica descreve a **manobra de Halmagyi**: gira-se rapidamente a cabeça do paciente cerca de 20 a 30 graus, pedindo que ele mantenha o olhar em um ponto fixo. Havendo déficit vestibular, **o olho é arrastado junto com a cabeça e só depois retorna ao alvo**: a correção que denuncia o reflexo insuficiente. Ela é ensinada aqui porque não exige equipamento; McGee a examina em detalhe, com números, no bloco de aprofundamento.
+  **O reflexo oculovestibular sem aparelho.** Descreve-se a **manobra de Halmagyi**: gira-se rapidamente a cabeça do paciente cerca de 20 a 30 graus, pedindo que ele mantenha o olhar em um ponto fixo. Havendo déficit vestibular, **o olho é arrastado junto com a cabeça e só depois retorna ao alvo**: a correção que denuncia o reflexo insuficiente. Ela é ensinada aqui porque não exige equipamento; é examinada em detalhe, com números, no bloco de aprofundamento.
 
-  **A moldura.** As **provas calórica e rotatória** (estimular os labirintos com água quente e fria, ou usar cadeira giratória) são realizadas em gabinete de neuro-otologia porque requerem equipamento especializado (Porto), e ficam fora deste guia, assim como as manobras posicionais.
+  **A moldura.** As **provas calórica e rotatória** (estimular os labirintos com água quente e fria, ou usar cadeira giratória) são realizadas em gabinete de neuro-otologia porque requerem equipamento especializado, e ficam fora deste guia, assim como as manobras posicionais.
 :::
 
 ::: sinal
@@ -366,21 +366,21 @@ titulo: "IX e X: palato, faringe e voz"
 ::: conceito
 titulo: Dois nervos que se examinam juntos
 texto: |
-  Porto explica por que o glossofaríngeo e o vago não se separam à beira do leito: as ligações de origem, trajeto e distribuição são estreitas demais, e os quadros clínicos costumam acometer os dois ao mesmo tempo. McGee diz o mesmo com outras palavras: a função dos dois é difícil de separar no exame.
+  Eis por que o glossofaríngeo e o vago não se separam à beira do leito: as ligações de origem, trajeto e distribuição são estreitas demais, e os quadros clínicos costumam acometer os dois ao mesmo tempo; a função dos dois é difícil de separar no exame.
 
-  **Três achados** compõem o exame (McGee):
+  **Três achados** compõem o exame:
 
   - **sensibilidade faríngea ausente**, testada com um cotonete tocando a orofaringe posterior;
   - **movimento velar diminuído**: o véu, que é a borda posterior do palato mole, deve elevar-se quando o paciente emite um "a" prolongado;
   - **reflexo do vômito anormal** (diminuído, ausente, hiperativo ou assimétrico) desencadeado pela estimulação da língua posterior, da faringe ou do palato mole, com elevação reflexa da língua e do palato e constrição da musculatura faríngea.
 
-  **O que a lesão unilateral mostra** (Porto): o **véu palatino desvia para o lado sadio** quando o paciente emite as vogais "a" ou "e"; a **parede posterior da faringe também se desloca para o lado sadio** à estimulação cuidadosa, é o **sinal da cortina**; há **disfagia**, com líquidos que voltam pelo nariz; e o reflexo velopalatino fica reduzido ou abolido. Quando a lesão atinge apenas o ramo laríngeo do X, o resultado é **disfonia**.
+  **O que a lesão unilateral mostra**: o **véu palatino desvia para o lado sadio** quando o paciente emite as vogais "a" ou "e"; a **parede posterior da faringe também se desloca para o lado sadio** à estimulação cuidadosa, é o **sinal da cortina**; há **disfagia**, com líquidos que voltam pelo nariz; e o reflexo velopalatino fica reduzido ou abolido. Quando a lesão atinge apenas o ramo laríngeo do X, o resultado é **disfonia**.
 
-  A lesão unilateral do IX pode aparecer como alteração do paladar no terço posterior da língua, hipogeusia ou ageusia, exame que Porto registra como **não habitualmente realizado**. Pode haver disfagia. E, mais raramente, dor semelhante à do trigêmeo, distinta apenas pela sede, que é na fossa amigdaliana.
+  A lesão unilateral do IX pode aparecer como alteração do paladar no terço posterior da língua, hipogeusia ou ageusia, exame **não habitualmente realizado**. Pode haver disfagia. E, mais raramente, dor semelhante à do trigêmeo, distinta apenas pela sede, que é na fossa amigdaliana.
 
-  **A regra de lateralidade que decide a topografia** é de McGee, e vale para o V, o IX e o X: **doença hemisférica unilateral não costuma causar fraqueza do palato**, porque os núcleos desses nervos recebem inervação corticobulbar dos dois lados. Palato fraco de um lado aponta, portanto, para o bulbo do mesmo lado ou para o nervo periférico, não para o hemisfério cerebral. Para que a doença hemisférica produza fraqueza palatina, ela precisa ser **bilateral**, e aí o quadro tem nome, tratado no bloco de aprofundamento.
+  **A regra de lateralidade que decide a topografia** vale para o V, o IX e o X: **doença hemisférica unilateral não costuma causar fraqueza do palato**, porque os núcleos desses nervos recebem inervação corticobulbar dos dois lados. Palato fraco de um lado aponta, portanto, para o bulbo do mesmo lado ou para o nervo periférico, não para o hemisfério cerebral. Para que a doença hemisférica produza fraqueza palatina, ela precisa ser **bilateral**, e aí o quadro tem nome, tratado no bloco de aprofundamento.
 
-  Porto lista as causas mais frequentes de lesão do IX e do X ou de seus ramos: a neuropatia da difteria, as neoplasias do mediastino, a esclerose lateral amiotrófica, a siringobulbia e o traumatismo. McGee acrescenta duas síndromes que se diagnosticam pela combinação de nervos acometidos: a **síndrome bulbar lateral**, que soma ausência de sensibilidade faríngea e redução da elevação velar do mesmo lado à síndrome de Horner e a outros sinais sensitivos e cerebelares; e a **síndrome do forame jugular**, por fratura de base de crânio ou tumor glômico, que compromete simultaneamente IX, X e XI, produzindo paralisia do palato, das pregas vocais com rouquidão, e dos músculos trapézio e esternocleidomastóideo do mesmo lado.
+  As causas mais frequentes de lesão do IX e do X ou de seus ramos são: a neuropatia da difteria, as neoplasias do mediastino, a esclerose lateral amiotrófica, a siringobulbia e o traumatismo. Somam-se duas síndromes que se diagnosticam pela combinação de nervos acometidos: a **síndrome bulbar lateral**, que soma ausência de sensibilidade faríngea e redução da elevação velar do mesmo lado à síndrome de Horner e a outros sinais sensitivos e cerebelares; e a **síndrome do forame jugular**, por fratura de base de crânio ou tumor glômico, que compromete simultaneamente IX, X e XI, produzindo paralisia do palato, das pregas vocais com rouquidão, e dos músculos trapézio e esternocleidomastóideo do mesmo lado.
 
   A **disfonia** merece uma última linha porque tem dono duplo neste guia: o tópico de tireoide e pescoço a trata como sinal de alarme de massa cervical, pela relação do nervo laríngeo recorrente com a glândula, e recomenda que ela torne mandatório o exame da tireoide. Aqui ela aparece como sinal do X. São a mesma via, examinada por duas portas, e um paciente rouco merece as duas leituras.
 :::
@@ -403,21 +403,21 @@ titulo: "XI e XII: pescoço e língua"
 ::: conceito
 titulo: Trapézio, esternocleidomastóideo e a língua que desvia
 texto: |
-  **XI: o nervo acessório.** Essencialmente motor. O que interessa ao exame é o ramo externo, de origem medular cervical, que inerva o **esternocleidomastóideo** e a **porção superior do trapézio** (Porto). A lesão traz atrofia dos dois músculos, com perda de força para **elevar o ombro**, o trapézio, e para **girar a cabeça na direção contrária** à do músculo comprometido: o esternocleidomastóideo. Porto associa traumatismo, esclerose lateral amiotrófica e siringomielia entre as causas.
+  **XI: o nervo acessório.** Essencialmente motor. O que interessa ao exame é o ramo externo, de origem medular cervical, que inerva o **esternocleidomastóideo** e a **porção superior do trapézio**. A lesão traz atrofia dos dois músculos, com perda de força para **elevar o ombro**, o trapézio, e para **girar a cabeça na direção contrária** à do músculo comprometido: o esternocleidomastóideo. Associam-se traumatismo, esclerose lateral amiotrófica e siringomielia entre as causas.
 
-  McGee acrescenta três precisões topográficas úteis:
+  Vale acrescentar três precisões topográficas úteis:
 
   - **atrofia** indica que a lesão está no núcleo, tronco encefálico ou medula cervical alta, ou no nervo periférico, e **não** no hemisfério cerebral;
   - lesões de um hemisfério cerebral afetam os dois músculos de forma diferente: enfraquecem o **trapézio contralateral** e o **esternocleidomastóideo ipsilateral**. Em um acidente vascular hemisférico, portanto, o paciente pode ter dificuldade para **virar a cabeça na direção do lado hemiparético**;
   - lesões do nervo periférico ocorrem por trauma do trígono posterior do pescoço (cirurgia de linfonodos, trauma contuso) e podem **poupar o esternocleidomastóideo**, porque seus ramos se separam proximalmente do tronco do nervo.
 
-  **XII: o nervo hipoglosso.** Exclusivamente motor, origina-se no bulbo e comanda os músculos da língua. Porto descreve o exame: inspecione a língua dentro da boca e depois exteriorizada; peça que ela se movimente em todas as direções; force-a contra a bochecha; e, ao final, palpe-a para avaliar a consistência.
+  **XII: o nervo hipoglosso.** Exclusivamente motor, origina-se no bulbo e comanda os músculos da língua. O exame se descreve assim: inspecione a língua dentro da boca e depois exteriorizada; peça que ela se movimente em todas as direções; force-a contra a bochecha; e, ao final, palpe-a para avaliar a consistência.
 
   **A interpretação do desvio** (que o tópico de boca, nariz e ouvidos registrou como achado e reservou a este capítulo) é a seguinte.
 
-  Porto: na lesão **unilateral** do hipoglosso aparecem **atrofia e fasciculações** na metade da língua correspondente e, na protrusão, **a ponta pende para o lado lesado**; pode haver disartria para as consoantes linguais. Nas lesões **bilaterais**, somam-se atrofia, fasciculação, paralisia, disartria acentuada e dificuldade para mastigar e deglutir, porque a língua auxilia esses atos.
+  Na lesão **unilateral** do hipoglosso aparecem **atrofia e fasciculações** na metade da língua correspondente e, na protrusão, **a ponta pende para o lado lesado**; pode haver disartria para as consoantes linguais. Nas lesões **bilaterais**, somam-se atrofia, fasciculação, paralisia, disartria acentuada e dificuldade para mastigar e deglutir, porque a língua auxilia esses atos.
 
-  McGee explica o mecanismo, e ele torna a regra impossível de esquecer: durante a protrusão, **cada genioglosso empurra a língua para fora e para o lado oposto**. Normalmente as duas forças laterais se equilibram e a ponta fica na linha média. Se um genioglosso está fraco, o do lado sadio empurra sem oposição, e a língua **desvia para o lado fraco**.
+  O mecanismo explica e torna a regra impossível de esquecer: durante a protrusão, **cada genioglosso empurra a língua para fora e para o lado oposto**. Normalmente as duas forças laterais se equilibram e a ponta fica na linha média. Se um genioglosso está fraco, o do lado sadio empurra sem oposição, e a língua **desvia para o lado fraco**.
 
   **E daí sai a topografia**, com uma inversão que vale memorizar:
 
@@ -426,9 +426,9 @@ texto: |
 
   Um sinal separa os dois grupos sem depender da correlação com os membros: **atrofia ou fasciculações da língua indicam que a lesão está no núcleo hipoglosso ou no nervo**, e não no hemisfério cerebral. É a mesma regra do XI, aplicada a outro músculo.
 
-  As causas periféricas mais comuns, segundo McGee, são o **câncer metastático** (para a base do crânio, o espaço subaracnóideo ou o pescoço) e o **traumatismo**, incluindo cirurgia cervical radical e endarterectomia de carótida. E ele fecha com uma ressalva de humildade: a paralisia do hipoglosso **associada a outros achados de nervos cranianos ocorre tanto em doenças do tronco encefálico quanto em doenças periféricas**, e por isso tem pouco valor localizatório nessa combinação.
+  As causas periféricas mais comuns, são o **câncer metastático** (para a base do crânio, o espaço subaracnóideo ou o pescoço) e o **traumatismo**, incluindo cirurgia cervical radical e endarterectomia de carótida. E ele fecha com uma ressalva de humildade: a paralisia do hipoglosso **associada a outros achados de nervos cranianos ocorre tanto em doenças do tronco encefálico quanto em doenças periféricas**, e por isso tem pouco valor localizatório nessa combinação.
 
-  Porto observa que as causas de lesão do hipoglosso são praticamente as mesmas já citadas para o IX, o X e o XI, o que faz sentido anatômico: são nervos vizinhos na saída do crânio.
+  As causas de lesão do hipoglosso são praticamente as mesmas já citadas para o IX, o X e o XI, o que faz sentido anatômico: são nervos vizinhos na saída do crânio.
 :::
 
 ::: sinal
@@ -448,7 +448,7 @@ titulo: Aprofundamento
 :::
 
 ::: tabela
-titulo: Risco de aspiração após acidente vascular cerebral (McGee)
+titulo: Risco de aspiração após acidente vascular cerebral
 nivel: avancado
 colunas:
   - "Achado"
@@ -498,9 +498,9 @@ texto: |
   - **sensibilidade faríngea ausente**: o paciente não percebe o cotonete aplicado na orofaringe posterior, de um lado ou dos dois;
   - **tosse voluntária anormal**: pede-se que o paciente tussa com toda a força, e a tosse é ausente, fraca, soprosa ou lenta.
 
-  **O achado mais poderoso da tabela é um resultado negativo.** Sensibilidade faríngea **normal** tem razão de verossimilhança **0,03** para aspiração: um dos valores negativos mais baixos de toda a semiologia. Um paciente que sente o cotonete dos dois lados tem probabilidade muito baixa de aspirar. E McGee explica por que esse achado funciona tão bem: **a sensibilidade faríngea raramente está ausente em pessoas normais**.
+  **O achado mais poderoso da tabela é um resultado negativo.** Sensibilidade faríngea **normal** tem razão de verossimilhança **0,03** para aspiração: um dos valores negativos mais baixos de toda a semiologia. Um paciente que sente o cotonete dos dois lados tem probabilidade muito baixa de aspirar. E vale explicar por que esse achado funciona tão bem: **a sensibilidade faríngea raramente está ausente em pessoas normais**.
 
-  **E o achado mais decepcionante é justamente o mais famoso.** O **reflexo do vômito anormal** rende quase nada: 1,4 quando presente, 0,6 quando ausente. McGee dá duas razões, e as duas fazem sentido assim que são ditas. A primeira: os músculos faríngeos envolvidos no reflexo **não são necessariamente os mesmos** que se ativam durante a deglutição normal para proteger a via aérea. A segunda: **o reflexo do vômito está frequentemente ausente em pessoas normais**, sobretudo em idosos.
+  **E o achado mais decepcionante é justamente o mais famoso.** O **reflexo do vômito anormal** rende quase nada: 1,4 quando presente, 0,6 quando ausente. Há duas razões, e as duas fazem sentido assim que são ditas. A primeira: os músculos faríngeos envolvidos no reflexo **não são necessariamente os mesmos** que se ativam durante a deglutição normal para proteger a via aérea. A segunda: **o reflexo do vômito está frequentemente ausente em pessoas normais**, sobretudo em idosos.
 
   A consequência para a beira do leito é direta e contraria o hábito: diante de um paciente com acidente vascular e suspeita de disfagia, **testar a sensibilidade faríngea rende muito mais do que provocar o reflexo do vômito**, e incomoda menos.
 
@@ -517,7 +517,7 @@ texto: |
 
   **Paralisia bulbar** é a lesão dos próprios núcleos motores no tronco encefálico. **Paralisia pseudobulbar** é a lesão **supranuclear**: lesões bilaterais acima do nível da ponte, que interrompem as vias piramidais descendentes destinadas a esses núcleos.
 
-  McGee descreve a pseudobulbar em detalhe:
+  A pseudobulbar se descreve em detalhe:
 
   - acomete cerca de **4%** dos pacientes com doença cerebrovascular, em geral com **infartos lacunares nas duas cápsulas internas**;
   - as manifestações principais são **disartria, disfagia e paralisia dos movimentos voluntários da face**;
@@ -525,13 +525,13 @@ texto: |
 
   O contraste que torna o quadro reconhecível à beira do leito é este: **os movimentos faciais durante o riso ou o choro incontroláveis contrastam vivamente com a ausência de movimento facial voluntário** e com a incapacidade do paciente de imitar gestos. É a mesma dissociação entre movimento voluntário e emocional que separa a paralisia facial central da periférica, agora bilateral e mais dramática.
 
-  McGee registra ainda uma curiosidade terminológica que ele mesmo chama de impropriedade: **"bulbar" refere-se ao bulbo**, mas dois dos núcleos motores prominentemente afetados na paralisia pseudobulbar, o do facial e o dos músculos da mastigação, ficam na **ponte**, não no bulbo. O termo foi cunhado por Lepine em 1877 e permaneceu.
+  Vale registrar ainda uma curiosidade terminológica, chamada de impropriedade: **"bulbar" refere-se ao bulbo**, mas dois dos núcleos motores prominentemente afetados na paralisia pseudobulbar, o do facial e o dos músculos da mastigação, ficam na **ponte**, não no bulbo. O termo foi cunhado por Lepine em 1877 e permaneceu.
 
-  Porto contribui com o achado de marcha correspondente, ensinado no tópico de marcha e sinais meníngeos: a **marcha de pequenos passos**, com os pés arrastados, ocorre na paralisia pseudobulbar.
+  Soma-se o achado de marcha correspondente, ensinado no tópico de marcha e sinais meníngeos: a **marcha de pequenos passos**, com os pés arrastados, ocorre na paralisia pseudobulbar.
 :::
 
 ::: tabela
-titulo: "Vertigem aguda: achados que apontam para acidente vascular (McGee)"
+titulo: "Vertigem aguda: achados que apontam para acidente vascular"
 nivel: avancado
 colunas:
   - "Achado"
@@ -564,17 +564,17 @@ nivel: avancado
 texto: |
   O padrão de referência é a **ressonância magnética do cerebelo e do tronco encefálico**. Todos esses pacientes chegaram com **vertigem aguda isolada**, sem os sinais focais óbvios que tornariam o diagnóstico fácil.
 
-  **O contexto primeiro.** McGee registra que a maioria dos pacientes com vertigem, tontura ou desequilíbrio agudos tem doença vestibular periférica benigna, e que apenas **3% a 4%** recebem afinal o diagnóstico de acidente vascular. Quando o acidente vascular é a causa, ele em geral vem acompanhado de achados focais evidentes: oftalmoparesia (razão de verossimilhança 70), defeito de campo visual (17,5), disartria (10), fraqueza focal (9,6), ataxia de membro (9,2), alteração sensitiva focal (7). O problema clínico difícil é a minoria, **5% a 17%** dos acidentes vasculares que causam tontura, em que não há nenhum desses sinais.
+  **O contexto primeiro.** A maioria dos pacientes com vertigem, tontura ou desequilíbrio agudos tem doença vestibular periférica benigna, e que apenas **3% a 4%** recebem afinal o diagnóstico de acidente vascular. Quando o acidente vascular é a causa, ele em geral vem acompanhado de achados focais evidentes: oftalmoparesia (razão de verossimilhança 70), defeito de campo visual (17,5), disartria (10), fraqueza focal (9,6), ataxia de membro (9,2), alteração sensitiva focal (7). O problema clínico difícil é a minoria, **5% a 17%** dos acidentes vasculares que causam tontura, em que não há nenhum desses sinais.
 
   **A inversão que a tabela ensina.** No teste do impulso cefálico, o achado que aponta para doença **central** é o resultado **normal**. Parece contraintuitivo e a lógica é impecável: o reflexo vestíbulo-ocular depende do labirinto e do nervo vestibular; se eles estão doentes, o reflexo falha e o examinador vê a **sacada corretiva**, os olhos acompanham a cabeça e depois voltam ao alvo. Se o reflexo está **íntegro** em um paciente que está genuinamente vertiginoso, a lesão não está no aparelho periférico. Daí o valor: teste do impulso cefálico **normal**, razão de verossimilhança **9,6** para acidente vascular; teste **anormal**, isto é, com sacada corretiva presente, **0,2**, reduz a probabilidade e favorece a doença periférica.
 
-  A técnica é a que Semiologia Clínica descreve como manobra de Halmagyi, com o detalhamento de McGee: o examinador senta em frente ao paciente, apoia as mãos nos dois lados da cabeça, pede que ele fixe o nariz do examinador e roda rapidamente a cabeça de uma posição a cerca de 20 graus até a posição neutra. Os especialistas fazem um aquecimento com movimentos lentos, para o paciente relaxar, e depois muitas tentativas alternadas ao acaso para cada lado, considerando o teste anormal quando a maioria das tentativas para um dos lados revela a sacada corretiva.
+  A técnica é a manobra de Halmagyi, descrita a seguir em detalhe: o examinador senta em frente ao paciente, apoia as mãos nos dois lados da cabeça, pede que ele fixe o nariz do examinador e roda rapidamente a cabeça de uma posição a cerca de 20 graus até a posição neutra. Os especialistas fazem um aquecimento com movimentos lentos, para o paciente relaxar, e depois muitas tentativas alternadas ao acaso para cada lado, considerando o teste anormal quando a maioria das tentativas para um dos lados revela a sacada corretiva.
 
-  **O nistagmo que muda de direção.** Muitos pacientes com vertigem aguda têm nistagmo em abalo ao olhar para a frente. Olhando na direção do componente rápido, o nistagmo persiste ou piora, tanto na doença periférica quanto na central. A diferença aparece quando o paciente olha **para o lado contrário**: na doença periférica ele diminui ou desaparece; em 20% a 56% dos pacientes com acidente vascular, ele **inverte de direção**. A ressalva de McGee é a mesma que o tópico de pares cranianos de I a VI já registrou: a mudança de direção precisa aparecer **antes do olhar lateral extremo** para ser considerada patológica, porque muitas pessoas normais têm um pequeno abalo no extremo.
+  **O nistagmo que muda de direção.** Muitos pacientes com vertigem aguda têm nistagmo em abalo ao olhar para a frente. Olhando na direção do componente rápido, o nistagmo persiste ou piora, tanto na doença periférica quanto na central. A diferença aparece quando o paciente olha **para o lado contrário**: na doença periférica ele diminui ou desaparece; em 20% a 56% dos pacientes com acidente vascular, ele **inverte de direção**. A ressalva é a mesma que o tópico de pares cranianos de I a VI já registrou: a mudança de direção precisa aparecer **antes do olhar lateral extremo** para ser considerada patológica, porque muitas pessoas normais têm um pequeno abalo no extremo.
 
   Um segundo traço distingue os dois grupos: na doença periférica o nistagmo **diminui durante a fixação** em um objeto; na central, permanece igual.
 
-  **A combinação é o que decide.** Reunidos os três achados (impulso cefálico normal, nistagmo que muda de direção e desvio oblíquo) a presença de **pelo menos um** eleva a probabilidade de acidente vascular (10,8), e a **ausência dos três** a reduz de forma marcante: razão de verossimilhança **0,02**. McGee faz questão de sublinhar o que esse número significa: ele é **menor que o de uma ressonância magnética normal com difusão** (0,2), ou seja, a probabilidade de acidente vascular cai mais com a ausência desses três achados de exame físico do que com um exame de imagem normal.
+  **A combinação é o que decide.** Reunidos os três achados (impulso cefálico normal, nistagmo que muda de direção e desvio oblíquo) a presença de **pelo menos um** eleva a probabilidade de acidente vascular (10,8), e a **ausência dos três** a reduz de forma marcante: razão de verossimilhança **0,02**. Vale sublinhar o que esse número significa: ele é **menor que o de uma ressonância magnética normal com difusão** (0,2), ou seja, a probabilidade de acidente vascular cai mais com a ausência desses três achados de exame físico do que com um exame de imagem normal.
 
   É, provavelmente, o argumento mais forte deste capítulo a favor do exame físico. E é preciso lê-lo com a restrição correta: os números valem para **vertigem aguda isolada**, e não para tontura de qualquer natureza.
 :::
@@ -583,7 +583,7 @@ texto: |
 titulo: Quanto os examinadores concordam, nervo a nervo
 nivel: avancado
 texto: |
-  A seção *Neurologic Examination* da Tabela 5.1 de McGee reúne a concordância entre observadores para os achados deste tópico, e o resultado organiza a confiança que se deve depositar em cada um.
+  A tabulação de concordância entre observadores reúne os achados deste tópico, e o resultado organiza a confiança que se deve depositar em cada um.
 
   - **sensibilidade faríngea**, presente ou ausente: **1,0**, concordância perfeita no estudo que a mediu;
   - **teste de deglutição de água** com 50 mL: **0,60**;
@@ -621,12 +621,12 @@ titulo: Armadilhas do exame
 ::: conceito
 titulo: Seis erros no exame dos pares VII a XII
 texto: |
-  1. **Confiar no reflexo do vômito para prever aspiração.** Ele rende 1,4 quando alterado e 0,6 quando normal, e falta em muitas pessoas saudáveis (McGee). A sensibilidade faríngea, testada antes dele, rende 0,03 quando normal.
+  1. **Confiar no reflexo do vômito para prever aspiração.** Ele rende 1,4 quando alterado e 0,6 quando normal, e falta em muitas pessoas saudáveis. A sensibilidade faríngea, testada antes dele, rende 0,03 quando normal.
   2. **Julgar a mímica só pelo sorriso espontâneo.** É o oposto do que se quer: lesões centrais poupam justamente os movimentos emocionais. Peça comandos voluntários, um de cada vez, e depois observe o riso, como segunda informação.
-  3. **Registrar "paralisia facial" sem dizer os andares.** O julgamento presente-ou-ausente tem concordância de 0,57 (McGee). Andar por andar, completo ou parcial, é reprodutível.
+  3. **Registrar "paralisia facial" sem dizer os andares.** O julgamento presente-ou-ausente tem concordância de 0,57. Andar por andar, completo ou parcial, é reprodutível.
   4. **Ler o teste do impulso cefálico ao contrário.** Na vertigem aguda isolada, é o resultado **normal** que aponta para causa central (razão de verossimilhança 9,6) porque o reflexo íntegro afasta a lesão periférica.
   5. **Procurar nistagmo no olhar lateral extremo.** Muita gente normal tem um pequeno abalo ali. O nistagmo que interessa aparece antes do extremo.
-  6. **Concluir por lesão hemisférica diante de palato caído de um lado.** Os núcleos do IX e do X recebem inervação cortical bilateral: fraqueza palatina unilateral aponta para o bulbo ou para o nervo, não para o hemisfério (McGee).
+  6. **Concluir por lesão hemisférica diante de palato caído de um lado.** Os núcleos do IX e do X recebem inervação cortical bilateral: fraqueza palatina unilateral aponta para o bulbo ou para o nervo, não para o hemisfério.
 :::
 
 ::: perola

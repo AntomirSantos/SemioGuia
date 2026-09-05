@@ -69,6 +69,7 @@
     "changelog": "tsx scripts/gerar-changelog.ts",
     "revisao:status": "tsx scripts/revisao.ts",
     "checar:travessao": "tsx scripts/checar-travessao.ts",
+    "checar:fontes": "tsx scripts/checar-fontes.ts",
     "relatorio:ilustracoes": "tsx scripts/relatorio-ilustracoes.ts"
   },
   "private": true

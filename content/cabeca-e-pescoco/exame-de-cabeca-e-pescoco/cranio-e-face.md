@@ -79,7 +79,7 @@ titulo: O primeiro segmento, e o mais exposto
 texto: |
   O exame de cabeça e pescoço abre o exame por segmentos, e começa pelo que o paciente já mostrou sem que ninguém pedisse: o crânio e o rosto. Nada aqui exige aparelho: bastam boa iluminação, as duas mãos e uma ordem fixa.
 
-  Porto organiza o exame da cabeça em uma sequência que vale como esqueleto: **forma e tamanho do crânio**, sua **posição** e os **movimentos** da cabeça, a **superfície craniana com o couro cabeludo**, o **exame geral da face** e, logo depois, olhos, nariz e região bucomaxilofacial. Este tópico cobre a primeira metade dessa lista e acrescenta duas estruturas que só se alcançam pelo tato: os **seios da face** e a **articulação temporomandibular**. Olhos ficam no tópico seguinte; boca, nariz e ouvidos, no terceiro; pescoço e tireoide, no quarto.
+  O exame da cabeça segue uma sequência que vale como esqueleto: **forma e tamanho do crânio**, sua **posição** e os **movimentos** da cabeça, a **superfície craniana com o couro cabeludo**, o **exame geral da face** e, logo depois, olhos, nariz e região bucomaxilofacial. Este tópico cobre a primeira metade dessa lista e acrescenta duas estruturas que só se alcançam pelo tato: os **seios da face** e a **articulação temporomandibular**. Olhos ficam no tópico seguinte; boca, nariz e ouvidos, no terceiro; pescoço e tireoide, no quarto.
 
   Duas fronteiras precisam ficar claras desde já, porque poupam repetição e evitam contradição.
 
@@ -136,16 +136,16 @@ titulo: O crânio
 ::: conceito
 titulo: Tamanho, forma e o que eles denunciam
 texto: |
-  Na criança, tamanho não se estima: mede-se. O **perímetro cefálico** é parâmetro de desenvolvimento do segmento cefálico, e a técnica com fita métrica está no tópico Crescimento, sinais vitais e hidratação, do sistema Semiologia da criança. Ao nascer, a cabeça predomina sobre o tronco; conforme a criança se desenvolve, a proporção se inverte (Porto).
+  Na criança, tamanho não se estima: mede-se. O **perímetro cefálico** é parâmetro de desenvolvimento do segmento cefálico, e a técnica com fita métrica está no tópico Crescimento, sinais vitais e hidratação, do sistema Semiologia da criança. Ao nascer, a cabeça predomina sobre o tronco; conforme a criança se desenvolve, a proporção se inverte.
 
   **Quanto ao tamanho**, duas alterações organizam a leitura:
 
-  - **Macrocefalia**: crânio grande em todos os sentidos. A causa mais frequente é a hidrocefalia; acromegalia e raquitismo aparecem bem mais raramente (Porto).
-  - **Microcefalia**: crânio pequeno em todos os diâmetros, congênito ou hereditário, ou consequência de doença cerebral, como a toxoplasmose congênita e as encefalites virais (Porto).
+  - **Macrocefalia**: crânio grande em todos os sentidos. A causa mais frequente é a hidrocefalia; acromegalia e raquitismo aparecem bem mais raramente.
+  - **Microcefalia**: crânio pequeno em todos os diâmetros, congênito ou hereditário, ou consequência de doença cerebral, como a toxoplasmose congênita e as encefalites virais.
 
-  No idoso, o crânio pode **aumentar de tamanho na doença de Paget**: um dos poucos contextos em que um adulto troca de número de chapéu (Porto).
+  No idoso, o crânio pode **aumentar de tamanho na doença de Paget**: um dos poucos contextos em que um adulto troca de número de chapéu.
 
-  **Quanto à forma**, as alterações mais citadas nascem do fechamento precoce de uma ou mais suturas, a **cranioestenose** (Porto):
+  **Quanto à forma**, as alterações mais citadas nascem do fechamento precoce de uma ou mais suturas, a **cranioestenose**:
 
   - **acrocefalia**, ou crânio em torre: cabeça alongada para cima e afilada no ápice; é a forma mais frequente;
   - **escafocefalia**: a linha mediana se eleva, e o crânio lembra um casco de navio virado;
@@ -153,19 +153,19 @@ texto: |
   - **braquicefalia**: o inverso, com predomínio do diâmetro transverso;
   - **plagiocefalia**: assimetria com saliência anterior de um lado e posterior do outro, que pode ter relação com a posição de dormir.
 
-  Semiologia Clínica acrescenta uma advertência útil ao registro: nomeie a região pelo osso subjacente (frontal, temporais, parietais, occipital) sabendo que a divisão feita a olho não coincide exatamente com as suturas, e use as combinações (frontoparietal, temporo-occipital, parieto-occipital) para o que cai nas transições.
+  Vale uma advertência útil ao registro: nomeie a região pelo osso subjacente (frontal, temporais, parietais, occipital) sabendo que a divisão feita a olho não coincide exatamente com as suturas, e use as combinações (frontoparietal, temporo-occipital, parieto-occipital) para o que cai nas transições.
 :::
 
 ::: conceito
 titulo: O que a mão encontra
 texto: |
-  A palpação do crânio procura três categorias de achado (Porto): **saliências** (tumores, tumefações, bossas, hematomas) **depressões**, isto é, afundamentos, e **pontos dolorosos**. A técnica é a mesma de Semiologia Clínica para qualquer relevo: as polpas digitais rolam sobre a pele em movimentos circulares, contra o osso, percorrendo região por região.
+  A palpação do crânio procura três categorias de achado: **saliências** (tumores, tumefações, bossas, hematomas) **depressões**, isto é, afundamentos, e **pontos dolorosos**. A técnica é a mesma para qualquer relevo: as polpas digitais rolam sobre a pele em movimentos circulares, contra o osso, percorrendo região por região.
 
-  Há um quarto parâmetro, menos lembrado: a **consistência da tábua óssea**. No raquitismo, na osteomalacia e na sífilis, a simples compressão com o dedo pode produzir leve afundamento: manobra que Porto localiza atrás e acima do pavilhão auricular.
+  Há um quarto parâmetro, menos lembrado: a **consistência da tábua óssea**. No raquitismo, na osteomalacia e na sífilis, a simples compressão com o dedo pode produzir leve afundamento: manobra localizada atrás e acima do pavilhão auricular.
 
-  Na criança com a **fontanela anterior** ainda patente, a palpação vale por um sinal inteiro. Uma fontanela **hipertensa e saliente** traduz pressão intracraniana aumentada, como na hidrocefalia e na meningite. Uma fontanela **hipotensa e deprimida** traduz desidratação (Porto), e essa segunda leitura já está no tópico de antropometria e hidratação, ao lado dos demais sinais do estado de hidratação. Duas mãos, dois sentidos opostos, e um único ponto de exame.
+  Na criança com a **fontanela anterior** ainda patente, a palpação vale por um sinal inteiro. Uma fontanela **hipertensa e saliente** traduz pressão intracraniana aumentada, como na hidrocefalia e na meningite. Uma fontanela **hipotensa e deprimida** traduz desidratação, e essa segunda leitura já está no tópico de antropometria e hidratação, ao lado dos demais sinais do estado de hidratação. Duas mãos, dois sentidos opostos, e um único ponto de exame.
 
-  O **couro cabeludo** entra aqui como moldura: procure feridas, crostas, nódulos, cistos, descamação, áreas de inflamação, cicatrizes e sinais de trauma, e afaste os cabelos por partes em vez de tentar ver tudo de uma vez (Semiologia Clínica). O que diz respeito aos **cabelos** propriamente ditos (quantidade, textura, implantação, alopecia e as alterações dos quadros carenciais) já foi ensinado no tópico de pele, mucosas e fâneros e não se repete.
+  O **couro cabeludo** entra aqui como moldura: procure feridas, crostas, nódulos, cistos, descamação, áreas de inflamação, cicatrizes e sinais de trauma, e afaste os cabelos por partes em vez de tentar ver tudo de uma vez. O que diz respeito aos **cabelos** propriamente ditos (quantidade, textura, implantação, alopecia e as alterações dos quadros carenciais) já foi ensinado no tópico de pele, mucosas e fâneros e não se repete.
 :::
 
 ::: secao
@@ -175,17 +175,17 @@ titulo: A face
 ::: conceito
 titulo: Simetria em repouso
 texto: |
-  O exame da face analisa **simetria, mímica, pele e pelos** (Porto). A pele e os pelos seguem o roteiro do exame físico geral; a fácies, o tópico de ectoscopia. Sobram a simetria e o movimento, e são eles que este tópico ensina.
+  O exame da face analisa **simetria, mímica, pele e pelos**. A pele e os pelos seguem o roteiro do exame físico geral; a fácies, o tópico de ectoscopia. Sobram a simetria e o movimento, e são eles que este tópico ensina.
 
-  Para comparar com método, Porto recorre a quatro linhas horizontais imaginárias: uma no limite entre a testa e o cabelo, outra na altura das sobrancelhas, outra na base do nariz e a última no queixo. Elas delimitam os **três terços faciais** (o superior, o médio e o inferior) em geral proporcionais entre si.
+  Para comparar com método, usam-se quatro linhas horizontais imaginárias: uma no limite entre a testa e o cabelo, outra na altura das sobrancelhas, outra na base do nariz e a última no queixo. Elas delimitam os **três terços faciais** (o superior, o médio e o inferior) em geral proporcionais entre si.
 
   A perda de simetria em repouso tem três origens frequentes:
 
-  - **Abaulamentos ou afundamentos de um lado só**: um abscesso de origem dentária, um tumor, uma anomalia congênita (Porto).
-  - **Aumento das glândulas salivares maiores.** A parótida crescida abaúla a região lateral alta e chega a invadir a parte lateral do rosto; o crescimento pode ser inflamatório, como na caxumba, ou hipertrófico, como se observa em pacientes com megaesôfago (Porto). Semiologia Clínica registra a mesma proeminência sobre o ramo da mandíbula e acrescenta o etilismo entre as causas.
+  - **Abaulamentos ou afundamentos de um lado só**: um abscesso de origem dentária, um tumor, uma anomalia congênita.
+  - **Aumento das glândulas salivares maiores.** A parótida crescida abaúla a região lateral alta e chega a invadir a parte lateral do rosto; o crescimento pode ser inflamatório, como na caxumba, ou hipertrófico, como se observa em pacientes com megaesôfago. Essa mesma proeminência aparece sobre o ramo da mandíbula, e o etilismo entra entre as causas.
   - **Paralisia facial**, que é o assunto do bloco seguinte.
 
-  Duas observações de Semiologia Clínica fecham a inspeção estática. A primeira: **edema da face tem endereços próprios** (abscessos dentários, sinusites complicadas, edemas alérgicos, hematomas) e o edema palpebral e periorbitário tem semiotécnica e graduação no capítulo do coração, no tópico de pulso venoso jugular e turgência. A segunda: diante de qualquer paralisia facial, **examine a parótida**, pela relação estreita entre a glândula e o nervo facial, lesões da parótida podem comprimi-lo no trajeto.
+  Duas observações fecham a inspeção estática. A primeira: **edema da face tem endereços próprios** (abscessos dentários, sinusites complicadas, edemas alérgicos, hematomas) e o edema palpebral e periorbitário tem semiotécnica e graduação no capítulo do coração, no tópico de pulso venoso jugular e turgência. A segunda: diante de qualquer paralisia facial, **examine a parótida**, pela relação estreita entre a glândula e o nervo facial, lesões da parótida podem comprimi-lo no trajeto.
 :::
 
 ::: conceito
@@ -193,15 +193,15 @@ titulo: Mímica, e a assimetria que só aparece em movimento
 texto: |
   A face em repouso pode enganar. É o movimento que revela o déficit, e por isso a inspeção estática se completa com manobras.
 
-  Porto pede uma bateria de movimentos: enrugar a testa e franzir os supercílios, fechar as pálpebras com força, mostrar os dentes, abrir bem a boca, assobiar, inflar as bochechas e contrair o platisma. Semiologia Clínica pede o mesmo conjunto em outra ordem: sorrir, projetar os lábios para a frente, cerrar as pálpebras e enrugar a testa. O objetivo, nos dois casos, não é testar músculo por músculo: é procurar assimetria de movimento.
+  Uma referência pede uma bateria de movimentos: enrugar a testa e franzir os supercílios, fechar as pálpebras com força, mostrar os dentes, abrir bem a boca, assobiar, inflar as bochechas e contrair o platisma. Outra referência pede o mesmo conjunto em outra ordem: sorrir, projetar os lábios para a frente, cerrar as pálpebras e enrugar a testa. O objetivo, nos dois casos, não é testar músculo por músculo: é procurar assimetria de movimento.
 
-  Ao movimentar o lado são, a assimetria se acentua (Porto). Esse é o ponto prático: peça o movimento máximo, não o movimento educado.
+  Ao movimentar o lado são, a assimetria se acentua. Esse é o ponto prático: peça o movimento máximo, não o movimento educado.
 
-  Na paralisia unilateral do nervo facial, o conjunto é característico (Porto): **lagoftalmia**, o olho não fecha, ausência do piscar, lacrimejamento, e a boca que se desvia para o lado são (desvio mais evidente quando o paciente mostra os dentes ou abre amplamente a boca) e incapacidade de assobiar, de manter a boca inflada e de contrair o platisma. Quando o paciente tenta fechar os olhos, o globo gira para cima e deixa a esclerótica à mostra: é o **sinal de Bell** (Porto, *Semiologia Médica*).
+  Na paralisia unilateral do nervo facial, o conjunto é característico: **lagoftalmia**, o olho não fecha, ausência do piscar, lacrimejamento, e a boca que se desvia para o lado são (desvio mais evidente quando o paciente mostra os dentes ou abre amplamente a boca) e incapacidade de assobiar, de manter a boca inflada e de contrair o platisma. Quando o paciente tenta fechar os olhos, o globo gira para cima e deixa a esclerótica à mostra: é o **sinal de Bell**.
 
-  Uma nota de vocabulário, porque as duas edições de Porto usam o mesmo epônimo com amplitudes diferentes. **Porto (*Semiologia Médica*)** reserva o nome para a **rotação do globo para cima com exposição da esclerótica**: é essa a definição que este tópico ensina. **Porto (*Exame Clínico*)** usa o termo de forma mais frouxa, aplicando-o ao próprio **não fechamento das pálpebras por paralisia do orbicular**, isto é, ao lagoftalmo. Ao registrar em prontuário, descreva o que viu em vez de confiar só no epônimo.
+  Uma nota de vocabulário, porque duas passagens da mesma obra usam o mesmo epônimo com amplitudes diferentes. Uma passagem reserva o nome para a **rotação do globo para cima com exposição da esclerótica**: é essa a definição que este tópico ensina. A outra passagem usa o termo de forma mais frouxa, aplicando-o ao próprio **não fechamento das pálpebras por paralisia do orbicular**, isto é, ao lagoftalmo. Ao registrar em prontuário, descreva o que viu em vez de confiar só no epônimo.
 
-  Duas palavras de vocabulário, porque aparecem em prontuário: a paralisia da face chama-se **prosopoplegia**, e quando bilateral, **diplegia facial** (Porto).
+  Duas palavras de vocabulário, porque aparecem em prontuário: a paralisia da face chama-se **prosopoplegia**, e quando bilateral, **diplegia facial**.
 :::
 
 ::: entendimento
@@ -212,9 +212,9 @@ texto: |
   - Na **paralisia periférica** (lesão do próprio nervo facial, também chamada infranuclear) **toda a hemiface do mesmo lado** está comprometida: a testa não enruga, o olho não fecha, a boca desvia.
   - Na **paralisia central** (lesão da via corticonuclear, ou supranuclear) apenas a **metade inferior da face do lado oposto à lesão** se altera. A testa continua enrugando e o olho continua fechando, porque a metade superior recebe inervação dos dois hemisférios.
 
-  A leitura é de Porto (*Semiologia Médica*, cap. 172), que registra ainda a companhia habitual de cada uma: o tipo central ocorre com frequência nos acidentes vasculares encefálicos e nas neoplasias cerebrais; entre as periféricas, cerca de 80% são as chamadas paralisias *a frigore*, de caráter benigno, hoje atribuídas a infecções virais com reação edematosa do nervo. Outras causas periféricas incluem diabetes melito, neoplasias, otite média, traumatismos, herpes-zóster e hanseníase: nesta última, a lesão pode ser incompleta, do tipo ramuscular, atingindo apenas ramos terminais.
+  Essa leitura registra ainda a companhia habitual de cada uma: o tipo central ocorre com frequência nos acidentes vasculares encefálicos e nas neoplasias cerebrais; entre as periféricas, cerca de 80% são as chamadas paralisias *a frigore*, de caráter benigno, hoje atribuídas a infecções virais com reação edematosa do nervo. Outras causas periféricas incluem diabetes melito, neoplasias, otite média, traumatismos, herpes-zóster e hanseníase: nesta última, a lesão pode ser incompleta, do tipo ramuscular, atingindo apenas ramos terminais.
 
-  Uma consequência de enfermaria vale ser dita: paciente que não fecha o olho não protege a córnea. A lagoftalmia é, por si, um problema de superfície ocular, e Semiologia Clínica lembra que o piscar é o que reparte o filme lacrimal sobre a conjuntiva e a córnea.
+  Uma consequência de enfermaria vale ser dita: paciente que não fecha o olho não protege a córnea. A lagoftalmia é, por si, um problema de superfície ocular, e vale lembrar que o piscar é o que reparte o filme lacrimal sobre a conjuntiva e a córnea.
 
   Onde este raciocínio continua: **a graduação da paralisia facial, o restante do exame do VII par e o exame sistemático dos demais nervos cranianos pertencem ao capítulo do sistema nervoso**. O que se aprende aqui é reconhecer a assimetria e saber para onde ela aponta.
 :::
@@ -303,32 +303,32 @@ titulo: Os pontos sinusais
 texto: |
   Dos quatro grupos de seios paranasais (frontais, maxilares, células etmoidais e esfenoidais) apenas dois têm projeção que a mão alcança: os **frontais** e os **maxilares**. Etmoidais e esfenoidais ficam fora do alcance do exame físico.
 
-  A técnica é simples e a mesma nas duas fontes. Porto descreve, depois de testar a permeabilidade de cada narina, a **palpação sobre os seios frontal e maxilar**, e trata a dor ali encontrada como elemento que **levanta a suspeita** de sinusite. Semiologia Clínica detalha o gesto: faça, de baixo para cima, a compressão da parte óssea das sobrancelhas, com cuidado para não pressionar os olhos, e repita a manobra na região malar; complemente com **percussão delicada** das mesmas projeções, pedindo antes ao paciente que feche os olhos para reduzir o incômodo. Em condições normais, nem a compressão nem a percussão doem.
+  A técnica é simples e a mesma nas duas fontes. Depois de testar a permeabilidade de cada narina, faz-se a **palpação sobre os seios frontal e maxilar**, e a dor ali encontrada é elemento que **levanta a suspeita** de sinusite. Uma delas detalha o gesto: faça, de baixo para cima, a compressão da parte óssea das sobrancelhas, com cuidado para não pressionar os olhos, e repita a manobra na região malar; complemente com **percussão delicada** das mesmas projeções, pedindo antes ao paciente que feche os olhos para reduzir o incômodo. Em condições normais, nem a compressão nem a percussão doem.
 
-  Há um dado de anatomia do desenvolvimento que explica um erro comum. Os seios maxilares e as células etmoidais anteriores são os únicos presentes ao nascimento; os **esfenoidais e frontais só se desenvolvem depois dos 4 e dos 6 anos de vida**, respectivamente (Porto). Procurar dor em seio frontal de uma criança pequena é procurar dor em uma cavidade que ainda não existe.
+  Há um dado de anatomia do desenvolvimento que explica um erro comum. Os seios maxilares e as células etmoidais anteriores são os únicos presentes ao nascimento; os **esfenoidais e frontais só se desenvolvem depois dos 4 e dos 6 anos de vida**, respectivamente. Procurar dor em seio frontal de uma criança pequena é procurar dor em uma cavidade que ainda não existe.
 
-  E há o cuidado interpretativo, que é o mais importante: **dor na topografia dos seios da face não é sinônimo de sinusite**. Semiologia Clínica é explícita: o diagnóstico de sinusite exige que haja também tosse, expectoração ou gotejamento pós-nasal, e a febre ou uma infecção de vias aéreas precedendo o quadro reforçam a hipótese; o diagnóstico é clínico, sem depender de exames complementares, com a ressalva do seio esfenoidal, cujo quadro é menos claro. Cefaleias primárias localizadas na face, essas não costumam piorar com a manobra.
+  E há o cuidado interpretativo, que é o mais importante: **dor na topografia dos seios da face não é sinônimo de sinusite**. Vale que fique explícito: o diagnóstico de sinusite exige que haja também tosse, expectoração ou gotejamento pós-nasal, e a febre ou uma infecção de vias aéreas precedendo o quadro reforçam a hipótese; o diagnóstico é clínico, sem depender de exames complementares, com a ressalva do seio esfenoidal, cujo quadro é menos claro. Cefaleias primárias localizadas na face, essas não costumam piorar com a manobra.
 
-  A **transiluminação** dos seios completa o repertório clássico: em ambiente escuro, uma fonte de luz forte e estreita apoiada sob a sobrancelha ilumina o seio frontal do mesmo lado; a mesma ideia, aplicada sob a parte interna do olho, busca o palato duro iluminado por dentro, com a boca entreaberta. Semiologia Clínica registra o veredito sem rodeios: a manobra é **pouco sensível e pouco específica**, e a ausência de iluminação pode significar apenas mucosa espessada, secreção acumulada ou um seio que nunca se desenvolveu.
+  A **transiluminação** dos seios completa o repertório clássico: em ambiente escuro, uma fonte de luz forte e estreita apoiada sob a sobrancelha ilumina o seio frontal do mesmo lado; a mesma ideia, aplicada sob a parte interna do olho, busca o palato duro iluminado por dentro, com a boca entreaberta. O veredito é registrado sem rodeios: a manobra é **pouco sensível e pouco específica**, e a ausência de iluminação pode significar apenas mucosa espessada, secreção acumulada ou um seio que nunca se desenvolveu.
 :::
 
 ::: conceito
 titulo: A articulação temporomandibular
 texto: |
-  A ATM articula a mandíbula com a base do crânio, e difere das outras articulações em um detalhe que importa: no lugar da cartilagem hialina que reveste as superfícies articulares comuns, ela tem um tecido fibroso avascular com células cartilaginosas; entre a mandíbula e o osso temporal aloja-se um **disco intra-articular** (Porto).
+  A ATM articula a mandíbula com a base do crânio, e difere das outras articulações em um detalhe que importa: no lugar da cartilagem hialina que reveste as superfícies articulares comuns, ela tem um tecido fibroso avascular com células cartilaginosas; entre a mandíbula e o osso temporal aloja-se um **disco intra-articular**.
 
-  Ela se examina por **inspeção, palpação e ausculta da região**, em repouso e durante o movimento, avaliando-se o **grau de abertura da boca, desvios, tumefação, dor e ruídos** (Porto).
+  Ela se examina por **inspeção, palpação e ausculta da região**, em repouso e durante o movimento, avaliando-se o **grau de abertura da boca, desvios, tumefação, dor e ruídos**.
 
   A palpação tem dois endereços, e cada um interroga uma estrutura diferente:
 
   - **Palpação lateral**, digital ou bidigital, **cerca de 1 cm à frente do trago**. A dor aqui sugere capsulite e tendinite.
   - **Palpação posterior**: o dedo mínimo entra na abertura do conduto auditivo **com a polpa voltada para a frente**. A dor aqui é compatível com retrodiscite.
 
-  As duas devem ser feitas **com a boca fechada e com a boca aberta** (Porto). Durante o movimento da mandíbula, a mão percebe assimetrias do deslocamento da cabeça mandibular, **estalidos** e **crepitações**, que podem traduzir alteração dentro da articulação.
+  As duas devem ser feitas **com a boca fechada e com a boca aberta**. Durante o movimento da mandíbula, a mão percebe assimetrias do deslocamento da cabeça mandibular, **estalidos** e **crepitações**, que podem traduzir alteração dentro da articulação.
 
-  Junto com a articulação examinam-se os **músculos da mastigação**: masseter, temporal, pterigóideos medial e lateral, digástrico. A palpação ganha importância diante da queixa de dor ou de desconforto local, exatamente para separar a dor muscular da dor que nasce em outras estruturas da mesma topografia. Para masseter, pterigóideo medial e temporal, Porto recomenda palpação **bidigital**, em pontos diferentes da origem, da extensão e da inserção de cada músculo.
+  Junto com a articulação examinam-se os **músculos da mastigação**: masseter, temporal, pterigóideos medial e lateral, digástrico. A palpação ganha importância diante da queixa de dor ou de desconforto local, exatamente para separar a dor muscular da dor que nasce em outras estruturas da mesma topografia. Para masseter, pterigóideo medial e temporal, recomenda-se palpação **bidigital**, em pontos diferentes da origem, da extensão e da inserção de cada músculo.
 
-  O oposto do movimento normal tem nome: **trismo** é a limitação da abertura bucal, dificuldade ou impossibilidade, temporária ou permanente, de abrir a boca, e pode ter causa articular ou fora da articulação (Porto).
+  O oposto do movimento normal tem nome: **trismo** é a limitação da abertura bucal, dificuldade ou impossibilidade, temporária ou permanente, de abrir a boca, e pode ter causa articular ou fora da articulação.
 :::
 
 ::: perola
@@ -343,16 +343,16 @@ titulo: Aprofundamento
 titulo: Disfunção temporomandibular por dentro
 nivel: avancado
 texto: |
-  **Disfunção temporomandibular (DTM)** é o termo que agrupa sinais e sintomas originados ao mesmo tempo nas articulações temporomandibulares e na musculatura da mastigação, com causa multifatorial (Porto, *Semiologia Médica*, cap. 67).
+  **Disfunção temporomandibular (DTM)** é o termo que agrupa sinais e sintomas originados ao mesmo tempo nas articulações temporomandibulares e na musculatura da mastigação, com causa multifatorial.
 
   O sintoma mais frequente é a **dor**, que costuma vir associada à restrição do movimento mandibular, a limitação da abertura bucal, e a ruídos articulares. Embora os três apareçam com frequência juntos, **separar dor articular de dor muscular importa**, porque as condutas divergem.
 
   - A **dor articular** localiza-se na área da articulação, piora com os movimentos da mastigação e pode irradiar ou ser referida na orelha, na cabeça e na região cervical.
   - A **dor muscular** associa-se a processos inflamatórios e pode ter **pontos-gatilho**: acionados, além da dor local, produzem dor a distância, em outros músculos e em estruturas vizinhas, um dente, uma orelha.
 
-  Entre os fatores associados à sobrecarga da articulação, Porto lista hábitos parafuncionais, apertar os dentes e rangê-los, alterações da relação entre maxila e mandíbula por perda dentária, má oclusão, subluxação e alterações degenerativas ou inflamatórias.
+  Entre os fatores associados à sobrecarga da articulação estão hábitos parafuncionais, apertar os dentes e rangê-los, alterações da relação entre maxila e mandíbula por perda dentária, má oclusão, subluxação e alterações degenerativas ou inflamatórias.
 
-  As causas de **trismo** são muitas, e Porto as lista por inteiro. Agrupadas, ficam mais fáceis de guardar:
+  As causas de **trismo** são muitas. Agrupadas, ficam mais fáceis de guardar:
 
   - **articulares**: desarranjo interno ou luxação da ATM, sinovite traumática, osteoartrite, artrite inflamatória, anquilose e fratura da cabeça da mandíbula;
   - **ósseas e pós-operatórias**: fraturas de ossos da face, traumas e edema depois de cirurgia, além de hematomas;
@@ -364,7 +364,7 @@ texto: |
 titulo: "Dor na face: um roteiro de origem"
 nivel: avancado
 texto: |
-  Porto dedica ao assunto um roteiro pedagógico inteiro, de diagnóstico diferencial da dor na região bucomaxilofacial, e o valor dele está em organizar a busca por **origem**, e não por sintoma. O roteiro separa exame extraoral e exame intraoral.
+  Há um roteiro pedagógico inteiro de diagnóstico diferencial da dor na região bucomaxilofacial, e o valor dele está em organizar a busca por **origem**, e não por sintoma. O roteiro separa exame extraoral e exame intraoral.
 
   **Extraoral**
 
@@ -381,9 +381,9 @@ texto: |
   - **Dor de origem periodontal**: periodontite e abscesso periodontal.
   - **Dor de origem neuropática**: novamente por testes de estímulo e anestésicos.
 
-  Uma armadilha que o roteiro previne está registrada no texto de Porto: **a dor que nasce nesses músculos imita a dor de origem dentária**. É um erro que custa procedimento dentário desnecessário.
+  Uma armadilha que o roteiro previne: **a dor que nasce nesses músculos imita a dor de origem dentária**. É um erro que custa procedimento dentário desnecessário.
 
-  O exame intraoral desse roteiro é o assunto do tópico de boca, nariz e ouvidos. Uma nota sobre a dor facial de origem neuropática: Porto (*Semiologia Médica*) registra que a dor na face pode nascer de afecções odontológicas, sinusais, oculares, de distúrbios da articulação temporomandibular e do septo nasal, a lista é longa porque a região é densa.
+  O exame intraoral desse roteiro é o assunto do tópico de boca, nariz e ouvidos. Uma nota sobre a dor facial de origem neuropática: A dor na face pode nascer de afecções odontológicas, sinusais, oculares, de distúrbios da articulação temporomandibular e do septo nasal, a lista é longa porque a região é densa.
 :::
 
 ::: tabela
@@ -396,33 +396,33 @@ colunas:
 linhas:
   - - "Eritema em asa de borboleta"
     - "Lúpus eritematoso sistêmico"
-    - "Pele espessada e de textura irregular sobre as regiões malares e o dorso do nariz, com calor e vermelhidão locais e fotossensibilidade (Semiologia Clínica). Porto ilustra o mesmo eritema malar ao lado de lesões destrutivas do nariz"
+    - "Pele espessada e de textura irregular sobre as regiões malares e o dorso do nariz, com calor e vermelhidão locais e fotossensibilidade. O mesmo eritema malar aparece descrito ao lado de lesões destrutivas do nariz"
   - - "Vesículas sobre base eritematosa em um só lado da face"
     - "Herpes-zóster facial"
-    - "As lesões respeitam a linha média e se distribuem no território de um ramo do trigêmeo; após 5 a 7 dias formam crostas amarelo-acastanhadas (Semiologia Clínica)"
+    - "As lesões respeitam a linha média e se distribuem no território de um ramo do trigêmeo; após 5 a 7 dias formam crostas amarelo-acastanhadas"
   - - "Área inflamatória que se instala em horas a dias, com febre"
     - "Celulite da face"
-    - "Calor, rubor, aumento de volume e dor, com evolução rápida (Semiologia Clínica)"
+    - "Calor, rubor, aumento de volume e dor, com evolução rápida"
   - - "Congestão nasal com coriza clara, edema palpebral, olho congesto e lacrimejamento, sempre do mesmo lado"
     - "Cefaleia em salvas"
-    - "Acompanha crises de dor unilateral muito intensa, de minutos a horas, e traduz disfunção do sistema nervoso autônomo local (Semiologia Clínica)"
+    - "Acompanha crises de dor unilateral muito intensa, de minutos a horas, e traduz disfunção do sistema nervoso autônomo local"
   - - "Espessamento do nariz, com pele brilhante e avermelhada"
     - "Rinofima"
-    - "Desenvolvimento das glândulas sebáceas; aparece entre as causas de rubicundez nasal, ao lado do alcoolismo, da acne rosácea e do lúpus eritematoso (Porto)"
+    - "Desenvolvimento das glândulas sebáceas; aparece entre as causas de rubicundez nasal, ao lado do alcoolismo, da acne rosácea e do lúpus eritematoso"
   - - "Queda dos supercílios (madarose)"
     - "Mixedema, hanseníase, esclerodermia"
-    - "Também descrita em quimioterapia, senilidade e desnutrição acentuada (Porto). A rarefação do terço externo das sobrancelhas é comum no hipotireoidismo (Porto, Semiologia Médica)"
+    - "Também descrita em quimioterapia, senilidade e desnutrição acentuada. A rarefação do terço externo das sobrancelhas é comum no hipotireoidismo"
 :::
 
 ::: conceito
 titulo: Quanto dois examinadores concordam neste capítulo
 nivel: avancado
 texto: |
-  Vale abrir o capítulo com uma medida de humildade. A Tabela 5.1 de McGee (p. 30, seção *Head and Neck*) reúne a concordância entre observadores, o coeficiente kappa, de vários achados que este capítulo ensina ou nomeia. Os números não medem se o achado é útil; medem se **dois examinadores encontram a mesma coisa no mesmo paciente**.
+  Vale abrir o capítulo com uma medida de humildade. A tabulação de concordância entre observadores reúne o coeficiente kappa de vários achados que este capítulo ensina ou nomeia. Os números não medem se o achado é útil; medem se **dois examinadores encontram a mesma coisa no mesmo paciente**.
 
   A leitura, do mais reprodutível para o menos (ordenados pelo limite inferior de cada intervalo):
 
-  - **teste do atrito dos dedos**, alternativa ao sussurro descrita por McGee: 0,83;
+  - **teste do atrito dos dedos**, alternativa ao sussurro: 0,83;
   - **manobra que compara a resposta luminosa entre os dois olhos**: 0,63;
   - **bócio**: 0,38 a 0,77;
   - **textura da tireoide**, isto é, glândula difusa, multinodular ou com nódulo único: 0,25 a 0,70;
@@ -444,14 +444,14 @@ texto: |
 titulo: A linha do trago à narina
 nivel: avancado
 texto: |
-  Semiologia Clínica oferece um atalho de raciocínio para as lesões tumorais da pele da face: trace uma linha imaginária **do trago à narina**.
+  Há um atalho de raciocínio para as lesões tumorais da pele da face: trace uma linha imaginária **do trago à narina**.
 
   - **Acima dessa linha**, predominam os **carcinomas basocelulares**, que costumam ser indolentes e raramente se mostram agressivos ou dão metástase.
   - **Abaixo dela**, predominam os **carcinomas espinocelulares**, mais agressivos e invasivos.
 
   A regra não substitui a biópsia, e não é isso que se pede dela. Ela serve para calibrar a urgência do encaminhamento diante de uma lesão que o paciente trouxe como queixa estética.
 
-  Ao avaliar qualquer lesão tumoral da face, Semiologia Clínica recomenda registrar aspecto, coloração, padrão de vascularização e presença de úlceras, e **procurar os linfonodos associados**, cuja semiotécnica, cadeias e critérios de alarme estão no tópico de linfonodos.
+  Ao avaliar qualquer lesão tumoral da face, recomenda-se registrar aspecto, coloração, padrão de vascularização e presença de úlceras, e **procurar os linfonodos associados**, cuja semiotécnica, cadeias e critérios de alarme estão no tópico de linfonodos.
 :::
 
 ::: conceito
@@ -477,10 +477,10 @@ titulo: Armadilhas do exame
 titulo: Seis erros no exame do crânio e da face
 texto: |
   1. **Examinar a cabeça só com os olhos.** Bossa, afundamento e ponto doloroso são achados de palpação. Sem tocar, o exame fica pela metade.
-  2. **Concluir sinusite a partir da dor à compressão.** A dor levanta a suspeita, não fecha o diagnóstico: sem tosse, expectoração ou gotejamento pós-nasal, o quadro provavelmente é outro (Semiologia Clínica).
-  3. **Procurar dor em seio frontal de criança pequena.** Os seios frontais só se desenvolvem depois dos 6 anos de vida (Porto); antes disso a manobra não tem onde produzir achado.
+  2. **Concluir sinusite a partir da dor à compressão.** A dor levanta a suspeita, não fecha o diagnóstico: sem tosse, expectoração ou gotejamento pós-nasal, o quadro provavelmente é outro.
+  3. **Procurar dor em seio frontal de criança pequena.** Os seios frontais só se desenvolvem depois dos 6 anos de vida; antes disso a manobra não tem onde produzir achado.
   4. **Chamar de paralisia central o que é periférica.** A testa decide: se ela não enruga do lado afetado, a lesão é do nervo facial; se enruga, a paralisia é central e poupa a metade superior.
-  5. **Pedir a mímica sem pedir esforço.** A assimetria se acentua quando o paciente movimenta o lado são com força (Porto). Sorriso educado esconde déficit.
+  5. **Pedir a mímica sem pedir esforço.** A assimetria se acentua quando o paciente movimenta o lado são com força. Sorriso educado esconde déficit.
   6. **Ler estalido de ATM como doença.** O que caracteriza disfunção temporomandibular é a combinação de dor, limitação do movimento e ruído, não o ruído isolado.
 :::
 
@@ -532,7 +532,7 @@ perguntas:
       - "Capsulite e tendinite, que são as causas de dor articular reconhecidas pela palpação"
       - "Dor de origem muscular no masseter, cuja palpação bidigital deve ser feita em vários pontos de sua origem, extensão e inserção"
     corretaIndex: 0
-    explicacao: "Porto separa os dois endereços da palpação da ATM: a palpação lateral, 1 cm à frente do trago, sugere capsulite e tendinite quando dolorosa; a palpação posterior, feita com a polpa do dedo mínimo na entrada do conduto auditivo, é compatível com retrodiscite. As duas devem ser realizadas com a boca fechada e com a boca aberta. A dor muscular tem endereço próprio: palpação bidigital do masseter, do temporal e dos pterigóideos em vários pontos de cada músculo."
+    explicacao: "Os dois endereços da palpação da ATM se separam: a palpação lateral, 1 cm à frente do trago, sugere capsulite e tendinite quando dolorosa; a palpação posterior, feita com a polpa do dedo mínimo na entrada do conduto auditivo, é compatível com retrodiscite. As duas devem ser realizadas com a boca fechada e com a boca aberta. A dor muscular tem endereço próprio: palpação bidigital do masseter, do temporal e dos pterigóideos em vários pontos de cada músculo."
   - id: cf-3
     enunciado: Uma criança de 3 anos é levada por quadro de coriza e febre. A mãe pergunta se é sinusite. Qual consideração anatômica é pertinente ao exame dos seios da face nessa idade?
     alternativas:
@@ -541,7 +541,7 @@ perguntas:
       - "Os seios frontais e esfenoidais só se desenvolvem após os 6 e os 4 anos de vida, respectivamente, e não há o que palpar na fronte dessa criança"
       - "Apenas os seios frontais estão presentes ao nascimento, sendo os únicos passíveis de palpação na infância"
     corretaIndex: 2
-    explicacao: "Porto registra que os seios maxilares e as células etmoidais anteriores são os únicos presentes ao nascimento; os esfenoidais e os frontais se desenvolvem depois dos 4 e dos 6 anos de vida. Procurar dor em seio frontal aos 3 anos é procurar achado em cavidade ainda não formada. Isso não torna impossível a rinossinusite na criança: os seios maxilares e etmoidais existem desde o nascimento."
+    explicacao: "Os seios maxilares e as células etmoidais anteriores são os únicos presentes ao nascimento; os esfenoidais e os frontais se desenvolvem depois dos 4 e dos 6 anos de vida. Procurar dor em seio frontal aos 3 anos é procurar achado em cavidade ainda não formada. Isso não torna impossível a rinossinusite na criança: os seios maxilares e etmoidais existem desde o nascimento."
   - id: cf-4
     enunciado: Você palpa o crânio de um lactente e encontra a fontanela anterior tensa e saliente. Como esse achado se relaciona com a fontanela avaliada no exame do estado de hidratação?
     alternativas:
@@ -550,7 +550,7 @@ perguntas:
       - "Não há relação: a fontanela só tem valor semiológico na avaliação da hidratação"
       - "Indica fechamento precoce das suturas, isto é, cranioestenose, e nada informa sobre pressão ou hidratação"
     corretaIndex: 1
-    explicacao: "Porto descreve os dois sentidos no mesmo ponto de exame: fontanela hipertensa e saliente indica aumento da pressão intracraniana, como na meningite e na hidrocefalia; fontanela hipotensa e deprimida traduz desidratação. A segunda leitura integra a avaliação do estado de hidratação, ao lado de sede, turgor cutâneo reduzido, mucosas secas, enoftalmia e queda abrupta de peso. A cranioestenose é o fechamento precoce das suturas e produz alterações da forma do crânio, não da tensão da fontanela."
+    explicacao: "Os dois sentidos convivem no mesmo ponto de exame: fontanela hipertensa e saliente indica aumento da pressão intracraniana, como na meningite e na hidrocefalia; fontanela hipotensa e deprimida traduz desidratação. A segunda leitura integra a avaliação do estado de hidratação, ao lado de sede, turgor cutâneo reduzido, mucosas secas, enoftalmia e queda abrupta de peso. A cranioestenose é o fechamento precoce das suturas e produz alterações da forma do crânio, não da tensão da fontanela."
   - id: cf-5
     enunciado: Durante a inspeção da face de um paciente com queixa de dor mandibular, você nota proeminência na parte lateral alta da face, do lado direito. Quais hipóteses essa localização levanta em primeiro lugar?
     alternativas:
@@ -559,7 +559,7 @@ perguntas:
       - "Hipertrofia isolada do masseter, que é a única causa possível de proeminência nessa área em pacientes com bruxismo de longa data"
       - "Aumento da glândula parótida, que ali faz proeminência e pode ser inflamatório, hipertrófico ou neoplásico"
     corretaIndex: 3
-    explicacao: "A parótida aumentada abaúla a região lateral alta e pode invadir a parte lateral do rosto (Porto). O crescimento pode ser inflamatório, como na caxumba, hipertrófico, como se observa em pacientes com megaesôfago, ou neoplásico. Semiologia Clínica situa a glândula sobre o ramo da mandíbula e acrescenta o etilismo entre as causas. Diante de qualquer paralisia facial, examinar a parótida é obrigatório, pela relação estreita entre a glândula e o nervo facial."
+    explicacao: "A parótida aumentada abaúla a região lateral alta e pode invadir a parte lateral do rosto. O crescimento pode ser inflamatório, como na caxumba, hipertrófico, como se observa em pacientes com megaesôfago, ou neoplásico. Essa mesma proeminência situa a glândula sobre o ramo da mandíbula, e o etilismo entra entre as causas. Diante de qualquer paralisia facial, examinar a parótida é obrigatório, pela relação estreita entre a glândula e o nervo facial."
   - id: cf-6
     enunciado: Um paciente relata dor na região frontal e refere que ela piora ao abaixar a cabeça. À compressão da parte óssea das sobrancelhas, há dor. Que informação adicional pesa mais para sustentar a hipótese de sinusite?
     alternativas:
@@ -568,5 +568,5 @@ perguntas:
       - "A presença de tosse, expectoração ou gotejamento pós-nasal, especialmente após infecção viral de vias aéreas"
       - "A intensidade da dor à percussão, que é proporcional ao volume de secreção acumulada"
     corretaIndex: 2
-    explicacao: "Semiologia Clínica é explícita: dor na topografia dos seios da face não é sinônimo de sinusite, e o diagnóstico exige que haja também tosse, expectoração ou gotejamento pós-nasal, com febre ou infecção de vias aéreas precedendo ou acompanhando o quadro reforçando a hipótese. O diagnóstico é clínico. A transiluminação é pouco sensível e pouco específica: a falta de iluminação pode significar apenas mucosa espessada, secreção acumulada ou um seio que nunca se desenvolveu."
+    explicacao: "Vale que fique explícito: dor na topografia dos seios da face não é sinônimo de sinusite, e o diagnóstico exige que haja também tosse, expectoração ou gotejamento pós-nasal, com febre ou infecção de vias aéreas precedendo ou acompanhando o quadro reforçando a hipótese. O diagnóstico é clínico. A transiluminação é pouco sensível e pouco específica: a falta de iluminação pode significar apenas mucosa espessada, secreção acumulada ou um seio que nunca se desenvolveu."
 :::

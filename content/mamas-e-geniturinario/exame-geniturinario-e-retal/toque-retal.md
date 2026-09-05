@@ -191,7 +191,7 @@ svg: |
       <text x="238" y="86">alcance ~10 cm</text>
     </g>
   </svg>
-legenda: "Esquema do toque retal. À esquerda, duas das posições descritas pelas fontes: a de Sims, decúbito lateral esquerdo com as coxas fletidas, a mais cômoda e a única possível no paciente debilitado, e a genupeitoral, que a Semiologia Médica considera a mais adequada por estirar os órgãos pélvicos, ao custo de maior constrangimento; Semiologia Clínica acrescenta a supina com coxas fletidas e a ortostática curvada sobre a maca. À direita, o corte sagital esquemático: o dedo entra pela margem anal e dirige-se para cima e para a frente; a próstata é palpada através da parede anterior do reto, com o ápice a 3 ou 4 cm da margem (Semiologia Clínica), e o alcance útil do dedo é de cerca de 10 cm (Porto), o trajeto em que também se leem o tônus do canal, as paredes da ampola e o fundo de saco."
+legenda: "Esquema do toque retal. À esquerda, duas das posições descritas pelas fontes: a de Sims, decúbito lateral esquerdo com as coxas fletidas, a mais cômoda e a única possível no paciente debilitado, e a genupeitoral, que a Semiologia Médica considera a mais adequada por estirar os órgãos pélvicos, ao custo de maior constrangimento; Semiologia Clínica acrescenta a supina com coxas fletidas e a ortostática curvada sobre a maca. À direita, o corte sagital esquemático: o dedo entra pela margem anal e dirige-se para cima e para a frente; a próstata é palpada através da parede anterior do reto, com o ápice a 3 ou 4 cm da margem, e o alcance útil do dedo é de cerca de 10 cm, o trajeto em que também se leem o tônus do canal, as paredes da ampola e o fundo de saco."
 :::
 
 ::: secao
@@ -226,7 +226,7 @@ texto: |
 
   **A ampola normal** está vazia, com paredes lisas, depressíveis e indolores. O que o dedo pode encontrar:
 
-  - **Massa endurecida, irregular, vegetante ou ulcerada**, a suspeita imediata é neoplasia, e os números das fontes explicam a insistência delas no toque de rotina: **cerca de 70% dos tumores malignos do reto** estão ao alcance do dedo (*Exame Clínico*), e **metade das neoplasias malignas do intestino grosso**, cerca de 50%, localiza-se no reto (*Semiologia Médica*). O contraste que evita falso alarme: hemorroidas internas prolabadas têm consistência **aveludada**, de mucosa; **qualquer endurecimento** é o que obriga a pensar em tumor, e o degrau seguinte é a anuscopia, nomeada e não ensinada.
+  - **Massa endurecida, irregular, vegetante ou ulcerada**, a suspeita imediata é neoplasia, e os números das fontes explicam a insistência delas no toque de rotina: **cerca de 70% dos tumores malignos do reto** estão ao alcance do dedo, e **metade das neoplasias malignas do intestino grosso**, cerca de 50%, localiza-se no reto. O contraste que evita falso alarme: hemorroidas internas prolabadas têm consistência **aveludada**, de mucosa; **qualquer endurecimento** é o que obriga a pensar em tumor, e o degrau seguinte é a anuscopia, nomeada e não ensinada.
   - **Fecaloma**: massa de fezes impactadas, moldável, frequente no **megacólon chagásico**; o toque faz o diagnóstico na maioria dos casos, porque o reto é o lugar mais comum da impactação. No idoso, o *Exame Clínico* avisa que ele se traveste: **diarreia paradoxal**, incontinência, às vezes só confusão mental.
   - **Abaulamento do fundo de saco**, anterior, através da parede retal: no homem o fundo retovesical, na mulher o de **Douglas**. Abaulado, permite o diagnóstico **precoce de ascite**; abaulado **e doloroso**, sugere abscesso pélvico, anexite, apendicite: é exatamente o achado que o tópico do abdome agudo espera deste exame, e os números daquela expectativa estão lá.
 :::
@@ -270,7 +270,7 @@ texto: |
 :::
 
 ::: tabela
-titulo: "A próstata ao toque: Quadro 18.1 do Exame Clínico (Porto)"
+titulo: "A próstata ao toque: Quadro 18.1 do Exame Clínico"
 colunas:
   - "Afecção"
   - "Volume e forma"
@@ -353,7 +353,7 @@ nivel: avancado
 texto: |
   Uma lista curta de situações, todas ancoradas, em que o toque retal responde perguntas de outros capítulos, e que justifica a insistência das fontes em incorporá-lo à rotina:
 
-  - **Hemorragia digestiva**: melena ou hematoquezia no dedo de luva documentam o sangramento na hora (Semiologia Clínica).
+  - **Hemorragia digestiva**: melena ou hematoquezia no dedo de luva documentam o sangramento na hora.
   - **Constipação**: estenose, espasmo, retocele, prolapso, impactação e neoplasia, o exame que a maioria não faz, no dizer da própria fonte.
   - **Abdome agudo**: o fundo de saco doloroso ou abaulado, com os números e limites que o tópico do abdome agudo detalha.
   - **O idoso**: doenças prostáticas, fecalomas e neoplasias do reto são frequentes na faixa etária, e o *Exame Clínico* manda o toque **completar o exame do abdome**, lembrando o fecaloma que se manifesta como diarreia paradoxal ou confusão mental.
@@ -380,7 +380,7 @@ titulo: Armadilhas do exame
 ::: conceito
 titulo: Seis erros no toque retal
 texto: |
-  1. **Omitir o exame.** É o erro que as fontes mais atacam: por constrangimento ou negligência, o toque não feito retarda o diagnóstico de tumores que estavam ao alcance do dedo, 70% dos malignos do reto, segundo Porto.
+  1. **Omitir o exame.** É o erro que as fontes mais atacam: por constrangimento ou negligência, o toque não feito retarda o diagnóstico de tumores que estavam ao alcance do dedo, 70% dos malignos do reto.
   2. **Tocar sem explicar.** A barreira sociocultural se desfaz com a explicação prévia e a narração dos gestos; sem isso, o paciente contrai, o exame dói e a informação se perde.
   3. **Pular a inspeção.** Fissura, fístula, abscesso e hemorroidas se diagnosticam com os olhos; o dedo que entra antes da inspeção machuca o que era para ver.
   4. **Forçar a entrada dolorosa.** Dor intensa com espasmo é achado (fissura, criptite) e não resistência a vencer; insistir transforma exame em trauma.

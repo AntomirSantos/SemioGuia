@@ -158,7 +158,7 @@ texto: |
   2. **Serve de alerta** quando os sinais e sintomas são escassos: um estado geral deteriorado sem explicação obriga a aprofundar a investigação.
   3. **Tem valor prognóstico nos dois sentidos.** Manter bom estado geral diante de uma doença reconhecidamente grave indica boa capacidade de reação do organismo.
 
-  A contrapartida honesta é a reprodutibilidade. Na tabulação de concordância entre observadores de McGee (cap. 5, Tabela 5.1), a impressão de "paciente com aparência de doente" alcança um coeficiente kappa de 0,52 a 0,64: concordância moderada, não excelente. A conclusão não é abandonar o item: é **nunca deixá-lo sozinho**. Escreva "mau estado geral" e, ao lado, os achados que sustentam essa impressão: emagrecido, prostrado, sudoreico, não consegue sentar sem ajuda. O adjetivo comunica; a descrição é que se sustenta.
+  A contrapartida honesta é a reprodutibilidade. Na tabulação de concordância entre observadores, a impressão de "paciente com aparência de doente" alcança um coeficiente kappa de 0,52 a 0,64: concordância moderada, não excelente. A conclusão não é abandonar o item: é **nunca deixá-lo sozinho**. Escreva "mau estado geral" e, ao lado, os achados que sustentam essa impressão: emagrecido, prostrado, sudoreico, não consegue sentar sem ajuda. O adjetivo comunica; a descrição é que se sustenta.
 :::
 
 ::: secao
@@ -577,7 +577,7 @@ titulo: Três formas de corpo, três anatomias
 texto: |
   **Biotipo** ou tipo morfológico é o conjunto das características de forma do corpo. Não é sinônimo de altura: há correlação entre as duas coisas, mas são conceitos distintos, e um longilíneo baixo existe.
 
-  A classificação prática separa três tipos, e Porto os apresenta com um par de personagens que ajuda a fixar: o brevilíneo é Sancho Pança; o longilíneo, Dom Quixote; o mediolíneo, também chamado normolíneo, é o intermediário.
+  A classificação prática separa três tipos, e um par de personagens ajuda a fixar: o brevilíneo é Sancho Pança; o longilíneo, Dom Quixote; o mediolíneo, também chamado normolíneo, é o intermediário.
 
   A utilidade do biotipo não é estética nem prognóstica: é **anatômica**. A forma externa do corpo guarda correspondência com o modo como as vísceras se acomodam dentro dele. O coração se verticaliza no longilíneo e se horizontaliza no brevilíneo, o que desloca o ictus cordis; a forma e a posição do estômago acompanham o mesmo padrão. Quem define o biotipo antes de procurar o ictus procura no lugar certo.
 :::
@@ -613,7 +613,7 @@ titulo: A marcha como moldura
 texto: |
   O modo de andar é um dado clínico e se examina com técnica: peça ao paciente que caminhe uma distância de pelo menos 5 metros, de preferência descalço e com as pernas visíveis, indo e voltando sob observação, primeiro com os olhos abertos e depois fechados.
 
-  Duas advertências enquadram o achado. A primeira é que **cada pessoa tem seu jeito de andar**, e variações individuais são a regra. A segunda vem dos dados: a concordância entre observadores para o julgamento "marcha anormal" varia muito de estudo para estudo, kappa de 0,11 a 0,71 na tabulação de McGee (cap. 5, Tabela 5.1). Ou seja, examinadores diferentes discordam com frequência sobre se uma marcha é ou não anormal.
+  Duas advertências enquadram o achado. A primeira é que **cada pessoa tem seu jeito de andar**, e variações individuais são a regra. A segunda vem dos dados: a concordância entre observadores para o julgamento "marcha anormal" varia muito de estudo para estudo, kappa de 0,11 a 0,71 na tabulação de concordância entre observadores. Ou seja, examinadores diferentes discordam com frequência sobre se uma marcha é ou não anormal.
 
   A consequência prática é a mesma do estado geral: **descreva antes de rotular**. Base alargada ou estreita, comprimento do passo, altura em que o pé é levantado, oscilação dos braços, simetria entre os lados, desvio de trajetória, necessidade de apoio. A partir dessa descrição, o rótulo, quando couber, vem sozinho.
 
@@ -672,7 +672,7 @@ texto: |
 
   A primeira decisão é se o movimento é **voluntário ou involuntário**, para afastar atos realizados de maneira consciente ou semiconsciente. Feita essa separação, os distúrbios do movimento se dividem em dois grupos: **hipocinéticos**, com pobreza e lentidão de movimentos, a doença de Parkinson e os parkinsonismos, e **hipercinéticos**, com excesso de movimento sem fraqueza nem espasticidade.
 
-  Para caracterizar um movimento involuntário à beira do leito, Porto propõe um conjunto de eixos que também funciona como roteiro de registro:
+  Para caracterizar um movimento involuntário à beira do leito, use um conjunto de eixos que também funciona como roteiro de registro:
 
   - **ritmicidade**: rítmico ou arrítmico;
   - **manutenção**: mantido ou não mantido;
@@ -756,14 +756,14 @@ perguntas:
     corretaIndex: 3
     explicacao: "Permanecer exatamente na posição em que foi colocado caracteriza a atitude passiva. Despertar somente com estímulos fortes, mas ainda apresentar movimentos espontâneos, corresponde ao torpor ou estupor, e é justamente a presença desses movimentos que o separa do coma, em que o paciente não desperta nem se move espontaneamente. Na sonolência o paciente desperta com facilidade e logo volta a dormir; a obnubilação é o grau mais leve, com o alerta apenas diminuído."
   - id: ecto-2
-    enunciado: Você registra "mau estado geral" na evolução. Qual é a limitação desse registro isolado, segundo os dados de concordância entre observadores reunidos por McGee?
+    enunciado: Você registra "mau estado geral" na evolução. Qual é a limitação desse registro isolado, segundo os dados de concordância entre observadores?
     alternativas:
       - "A impressão de aparência de doente tem concordância apenas moderada, o que exige registrar também os achados que a sustentam"
       - "O estado geral só é reprodutível quando acompanhado da escala de coma de Glasgow"
       - "O achado é reprodutível, mas não tem valor prognóstico: manter bom estado geral em uma doença grave não acrescenta informação"
       - "Nenhuma: a impressão de estado geral tem concordância quase perfeita entre examinadores"
     corretaIndex: 0
-    explicacao: "Na Tabela 5.1 de McGee, a impressão de paciente com aparência de doente alcança kappa de 0,52 a 0,64: concordância moderada. O item continua útil: dimensiona o quanto a doença atingiu o organismo, alerta quando os sinais são escassos e tem valor prognóstico nos dois sentidos. O que o dado exige é que o adjetivo venha acompanhado da descrição que o justifica."
+    explicacao: "Na tabulação de concordância entre observadores, a impressão de paciente com aparência de doente alcança kappa de 0,52 a 0,64: concordância moderada. O item continua útil: dimensiona o quanto a doença atingiu o organismo, alerta quando os sinais são escassos e tem valor prognóstico nos dois sentidos. O que o dado exige é que o adjetivo venha acompanhado da descrição que o justifica."
   - id: ecto-3
     enunciado: Uma criança com cardiopatia congênita cianótica se agacha espontaneamente durante o esforço. Como se classifica essa atitude e o que ela produz?
     alternativas:

@@ -245,7 +245,7 @@ titulo: A forma do tórax
 ::: conceito
 titulo: O tórax normal e seus desvios
 texto: |
-  No adulto, o diâmetro laterolateral supera o anteroposterior, e o tórax lembra um cilindro achatado de frente para trás. O ângulo formado pelas rebordas costais sob o apêndice xifoide, o ângulo de Charpy, objetiva o biotipo com números (Porto): **cerca de 90° no normolíneo, menor que 90° no longilíneo e maior que 90° no brevilíneo**.
+  No adulto, o diâmetro laterolateral supera o anteroposterior, e o tórax lembra um cilindro achatado de frente para trás. O ângulo formado pelas rebordas costais sob o apêndice xifoide, o ângulo de Charpy, objetiva o biotipo com números: **cerca de 90° no normolíneo, menor que 90° no longilíneo e maior que 90° no brevilíneo**.
 
   A partir dessa referência, as deformidades se descrevem com nomes consagrados. Quase todas são achados de moldura: dizem algo sobre o passado do paciente ou sobre a mecânica da respiração, e raramente fecham um diagnóstico sozinhas.
 :::
@@ -288,7 +288,7 @@ texto: |
 
   A medida objetiva é o **índice torácico**, a razão entre o diâmetro anteroposterior e o transversal. Nos adultos ele fica em torno de 0,70 a 0,75 e cresce com a idade; o limite superior do normal gira em torno de 0,9. O ensino clássico é que os pacientes obstruídos ultrapassam esse limite.
 
-  Confrontada com a espirometria (McGee), a impressão global de tórax em tonel eleva pouquíssimo a probabilidade de doença obstrutiva (razão de verossimilhança em torno de 1,5) e a razão anteroposterior/transversal ≥ 0,9 chega a 2,0. Dois estudos encontraram correlação com a gravidade da obstrução e outros dois não encontraram nenhuma. Além disso o tórax em tonel também aparece em idosos sem doença pulmonar.
+  Confrontada com a espirometria, a impressão global de tórax em tonel eleva pouquíssimo a probabilidade de doença obstrutiva (razão de verossimilhança em torno de 1,5) e a razão anteroposterior/transversal ≥ 0,9 chega a 2,0. Dois estudos encontraram correlação com a gravidade da obstrução e outros dois não encontraram nenhuma. Além disso o tórax em tonel também aparece em idosos sem doença pulmonar.
 
   Há ainda uma armadilha de percepção: em parte dos pacientes o diâmetro anteroposterior é normal e apenas *parece* aumentado, porque contrasta com um abdome muito magro e com a cifose dorsal. O olho compara, e se engana.
 
@@ -336,7 +336,7 @@ texto: |
 titulo: O que o esforço respiratório prediz
 nivel: avancado
 texto: |
-  Em pacientes encaminhados para prova de função pulmonar, três sinais de inspeção mudam a probabilidade de doença obstrutiva crônica (McGee):
+  Em pacientes encaminhados para prova de função pulmonar, três sinais de inspeção mudam a probabilidade de doença obstrutiva crônica:
 
   - **contração de escalenos e esternocleidomastóideos na inspiração**: razão de verossimilhança 3,3, com especificidade de 88% e sensibilidade de apenas 39%;
   - **expiração com lábios semicerrados**: razão de verossimilhança 2,7;
@@ -357,9 +357,9 @@ texto: |
 
   **Paradoxo costal (sinal de Hoover).** Apoie as mãos sobre cada reborda costal e observe como elas se afastam ou se aproximam. Na pessoa normal, a inspiração abre o ângulo costal e as mãos se separam. No tórax hiperinsuflado que já não pode se expandir mais, o diafragma achatado puxa as rebordas para dentro e as mãos se aproximam na inspiração.
 
-  **Respiração assíncrona.** A anormalidade está na *expiração*: em vez do recolhimento suave do abdome, aparece um movimento abrupto para dentro seguido de outro para fora. Traduz a ação vigorosa dos músculos da parede torácica na expiração, que empurra o diafragma achatado para baixo. Em pacientes obstruídos que descompensam, esse padrão prediz morte hospitalar ou necessidade de ventilação artificial com sensibilidade de 64%, especificidade de 80% e razão de verossimilhança 3,2 (McGee).
+  **Respiração assíncrona.** A anormalidade está na *expiração*: em vez do recolhimento suave do abdome, aparece um movimento abrupto para dentro seguido de outro para fora. Traduz a ação vigorosa dos músculos da parede torácica na expiração, que empurra o diafragma achatado para baixo. Em pacientes obstruídos que descompensam, esse padrão prediz morte hospitalar ou necessidade de ventilação artificial com sensibilidade de 64%, especificidade de 80% e razão de verossimilhança 3,2.
 
-  **Movimento abdominal paradoxal.** Aqui abdome e tórax estão completamente fora de fase, na inspiração *e* na expiração: o abdome afunda enquanto o tórax se expande. É sinal de fraqueza diafragmática bilateral, quase sempre acompanhado de ortopneia intensa. Detectou fraqueza do diafragma com sensibilidade de 95%, especificidade de 70% e razão de verossimilhança 3,2 (McGee). O exame precisa ser feito **em decúbito dorsal**: de pé o achado costuma desaparecer.
+  **Movimento abdominal paradoxal.** Aqui abdome e tórax estão completamente fora de fase, na inspiração *e* na expiração: o abdome afunda enquanto o tórax se expande. É sinal de fraqueza diafragmática bilateral, quase sempre acompanhado de ortopneia intensa. Detectou fraqueza do diafragma com sensibilidade de 95%, especificidade de 70% e razão de verossimilhança 3,2. O exame precisa ser feito **em decúbito dorsal**: de pé o achado costuma desaparecer.
 
   Um imitador merece atenção: no paciente tetraplégico a respiração depende inteiramente do diafragma, e a parede torácica paralisada pode ser puxada para dentro na inspiração. Tórax e abdome também ficam fora de fase, mas o abdome se move **para fora** na inspiração, não para dentro: o oposto da fraqueza diafragmática.
 :::
@@ -399,7 +399,7 @@ texto: |
   - **Circulação colateral no tórax**: rede venosa superficial visível, que denuncia obstáculo junto ao ponto em que a veia ázigo desemboca na cava superior, situação típica das neoplasias de mediastino.
   - **Movimento paradoxal de um segmento do gradil** na inspiração: retalho costal instável por traumatismo torácico.
 
-  Dois pontos do exame geral pertencem a essa lista. O **desvio lateral da traqueia** acompanha fibrose pulmonar, atelectasia e grandes derrames. E a **distância medida da margem inferior da cricoide até a fúrcula**, normalmente acima de 5,5 cm (Porto, Semiologia Médica, cap. 36), encurta na hiperinsuflação do enfisema avançado.
+  Dois pontos do exame geral pertencem a essa lista. O **desvio lateral da traqueia** acompanha fibrose pulmonar, atelectasia e grandes derrames. E a **distância medida da margem inferior da cricoide até a fúrcula**, normalmente acima de 5,5 cm, encurta na hiperinsuflação do enfisema avançado.
 :::
 
 ::: sinal
@@ -446,7 +446,7 @@ texto: |
 ::: entendimento
 titulo: Por que o paciente anêmico não fica cianótico
 texto: |
-  A cor azul depende da **quantidade absoluta** de desoxi-hemoglobina, não da porcentagem. Medidas cuidadosas (McGee) situam o limiar em torno de **2,38 g/dL de desoxi-hemoglobina arterial**: o mínimo capaz de produzir a cor visível através da epiderme.
+  A cor azul depende da **quantidade absoluta** de desoxi-hemoglobina, não da porcentagem. Medidas cuidadosas situam o limiar em torno de **2,38 g/dL de desoxi-hemoglobina arterial**: o mínimo capaz de produzir a cor visível através da epiderme.
 
   Daí decorre a consequência clínica que mais engana. Para acumular 2,38 g/dL de hemoglobina reduzida, um paciente policitêmico com hemoglobina de 20 g/dL precisa de pouca hipoxemia: a cianose aparece já com saturação em torno de 88%. Um paciente anêmico com hemoglobina de 8 g/dL só reúne essa quantidade quando a saturação cai a cerca de 70%.
 
@@ -464,7 +464,7 @@ descricao: |
   - **Ângulo hiponiquial maior que 190°**: acurado, mas difícil de medir à beira do leito, pois exige instrumentos.
   - **Sinal de Schamroth**: encostam-se dorso contra dorso as falanges terminais de dois dedos homólogos, de preferência os anelares. Normalmente aparece entre eles uma pequena janela em forma de losango; no baqueteamento, a janela desaparece.
 significado: |
-  O sinal de Schamroth é o único dos três aplicável em qualquer consultório, e se sai bem: sensibilidade de 77% a 87%, especificidade de 90%, razão de verossimilhança 8 quando presente e 0,2 quando ausente (McGee). Encontrado o baqueteamento, a causa costuma aparecer na radiografia de tórax: em uma série de 350 pacientes, 80% tinham **doença respiratória de base**.
+  O sinal de Schamroth é o único dos três aplicável em qualquer consultório, e se sai bem: sensibilidade de 77% a 87%, especificidade de 90%, razão de verossimilhança 8 quando presente e 0,2 quando ausente. Encontrado o baqueteamento, a causa costuma aparecer na radiografia de tórax: em uma série de 350 pacientes, 80% tinham **doença respiratória de base**.
 causas:
   - "Neoplasia pulmonar"
   - "Bronquiectasias, abscesso pulmonar e empiema"

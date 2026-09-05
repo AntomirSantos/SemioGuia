@@ -46,7 +46,7 @@ revisao: ok
 
 ::: cena
 texto: |
-  O paciente veio por impotência sexual, e a consulta já ia se encerrando. Na varredura de rotina, quase por obrigação, você pergunta pela sede, pela urina, pelo peso, e vêm a polidipsia, a poliúria e o emagrecimento a que ele não dava importância. O caso é de Porto, e é o argumento inteiro deste tópico: a doença principal às vezes mora num sistema que ninguém tinha motivo para investigar.
+  O paciente veio por impotência sexual, e a consulta já ia se encerrando. Na varredura de rotina, quase por obrigação, você pergunta pela sede, pela urina, pelo peso, e vêm a polidipsia, a poliúria e o emagrecimento a que ele não dava importância. É o argumento inteiro deste tópico: a doença principal às vezes mora num sistema que ninguém tinha motivo para investigar.
 :::
 
 ::: secao
@@ -56,9 +56,9 @@ titulo: O essencial
 ::: conceito
 titulo: O que a HDA não contou
 texto: |
-  O interrogatório sintomatológico, também chamado de anamnese especial ou revisão dos sistemas, é, nas palavras de Porto, um **complemento da história da doença atual**. Ele documenta a presença ou a ausência dos sintomas comuns de cada um dos principais sistemas corporais.
+  O interrogatório sintomatológico, também chamado de anamnese especial ou revisão dos sistemas, é um **complemento da história da doença atual**. Ele documenta a presença ou a ausência dos sintomas comuns de cada um dos principais sistemas corporais.
 
-  Duas frases da mesma obra delimitam bem o seu lugar, e à primeira vista parecem se contradizer:
+  Duas afirmações delimitam bem o seu lugar, e à primeira vista parecem se contradizer:
 
   - quando a HDA é bem conduzida, **sobra pouco** para o interrogatório sintomatológico;
   - o exame clínico só está concluído quando o interrogatório, abrangendo **todos** os sistemas, tiver sido adequadamente executado.
@@ -69,7 +69,7 @@ texto: |
 ::: entendimento
 titulo: Por que a varredura vale a pena
 texto: |
-  Porto oferece dois casos que justificam o método melhor do que qualquer argumento.
+  Dois casos justificam o método melhor do que qualquer argumento.
 
   **O achado que abre outra hipótese.** O relato de um paciente conduzia ao diagnóstico de gastrite. No interrogatório, ele mencionou edema dos membros inferiores: sintoma que levantou uma hipótese nova e culminou no encontro de uma cirrose.
 
@@ -81,11 +81,11 @@ texto: |
   - o registro do estado atual de todos os sistemas cria um **parâmetro para o futuro**, se o paciente nada referia do aparelho respiratório e volta dois meses depois com tosse produtiva e dispneia, o médico sabe que aquilo é novo;
   - o adoecimento de um sistema frequentemente **repercute em outro**, e a hipertensão arterial é o exemplo clássico, com comprometimento cardiovascular, renal, neurológico, metabólico e endócrino.
 
-  Há ainda uma quarta função, que Porto destaca e que raramente é aproveitada: enquanto se avalia cada sistema, avalia-se também a **promoção da saúde**, orientando e esclarecendo o paciente sobre como prevenir doenças e evitar riscos.
+  Há ainda uma quarta função, que raramente é aproveitada: enquanto se avalia cada sistema, avalia-se também a **promoção da saúde**, orientando e esclarecendo o paciente sobre como prevenir doenças e evitar riscos.
 :::
 
 ::: perola
-texto: "No interrogatório sintomatológico, o que o paciente nega também vira registro: Porto recomenda explicitamente ao estudante que anote os sintomas presentes e os negados. É o que permite, meses depois, saber se uma queixa nova é mesmo nova."
+texto: "No interrogatório sintomatológico, o que o paciente nega também vira registro: recomenda-se explicitamente ao estudante que anote os sintomas presentes e os negados. É o que permite, meses depois, saber se uma queixa nova é mesmo nova."
 :::
 
 ::: secao
@@ -106,7 +106,7 @@ passos:
   - "Aproveite cada sistema para os itens de promoção da saúde correspondentes."
   - "Registre, ao final de cada sistema, os sintomas presentes e os negados."
 observar: |
-  Porto adverte que o interrogatório é a parte mais longa da anamnese e que ao estudante ela parece cansativa e às vezes inútil. Anunciar a revisão ao paciente antes de começá-la resolve metade do incômodo: ele entende por que está sendo perguntado sobre os olhos quando veio por dor no joelho, e para de procurar sentido oculto em cada pergunta.
+  O interrogatório é a parte mais longa da anamnese e que ao estudante ela parece cansativa e às vezes inútil. Anunciar a revisão ao paciente antes de começá-la resolve metade do incômodo: ele entende por que está sendo perguntado sobre os olhos quando veio por dor no joelho, e para de procurar sentido oculto em cada pergunta.
 :::
 
 ::: checklist
@@ -131,17 +131,17 @@ titulo: A sistematização
 ::: conceito
 titulo: Segmentos e sistemas, conciliados
 texto: |
-  Sistematizar a revisão é mais difícil do que parece, e Porto explica por quê: a maneira mais natural de percorrer o corpo é **por segmentos**, mas os sistemas do organismo quase sempre atravessam mais de um segmento. A solução adotada é conciliar as duas lógicas: reunir em cada segmento os órgãos de aparelhos diferentes, quando possível, e investigar em sequência os sistemas que não cabem nesse arranjo.
+  Sistematizar a revisão é mais difícil do que parece: a maneira mais natural de percorrer o corpo é **por segmentos**, mas os sistemas do organismo quase sempre atravessam mais de um segmento. A solução adotada é conciliar as duas lógicas: reunir em cada segmento os órgãos de aparelhos diferentes, quando possível, e investigar em sequência os sistemas que não cabem nesse arranjo.
 
-  Daí a lista de treze blocos de *Semiologia Médica*: os sintomas gerais; a pele e os fâneros; a cabeça e o pescoço; o tórax; o abdome; os sistemas urinário e genital; o sistema hemolinfopoético; o sistema endócrino; a coluna vertebral, os ossos, as articulações e as extremidades; os músculos; as artérias, as veias, os linfáticos e a microcirculação; o sistema nervoso; e o exame psíquico com a avaliação das condições emocionais.
+  Uma lista organiza o território em treze blocos: os sintomas gerais; a pele e os fâneros; a cabeça e o pescoço; o tórax; o abdome; os sistemas urinário e genital; o sistema hemolinfopoético; o sistema endócrino; a coluna vertebral, os ossos, as articulações e as extremidades; os músculos; as artérias, as veias, os linfáticos e a microcirculação; o sistema nervoso; e o exame psíquico com a avaliação das condições emocionais.
 
-  *Semiologia Clínica* organiza o mesmo território por sistemas, numa lista mais próxima do vocabulário dos aparelhos: os sintomas gerais e constitucionais; a pele; o sistema nervoso e o psiquismo; os olhos, os ouvidos e o nariz; a boca e a garganta; o pescoço; as mamas e o tórax; os sistemas respiratório e cardiocirculatório; o digestório; o urinário; os genitais feminino e masculino; o vascular; o musculoesquelético e articular; os sintomas endócrinos; e uma rubrica final para os demais.
+  Outra lista organiza o mesmo território por sistemas, numa organização mais próxima do vocabulário dos aparelhos: os sintomas gerais e constitucionais; a pele; o sistema nervoso e o psiquismo; os olhos, os ouvidos e o nariz; a boca e a garganta; o pescoço; as mamas e o tórax; os sistemas respiratório e cardiocirculatório; o digestório; o urinário; os genitais feminino e masculino; o vascular; o musculoesquelético e articular; os sintomas endócrinos; e uma rubrica final para os demais.
 
   As duas cobrem a mesma superfície. **Escolha uma e não mude**, porque a segurança do interrogatório vem da repetição da ordem, não da elegância da classificação.
 :::
 
 ::: tabela
-titulo: Roteiro de varredura por segmento e sistema (sistematização de Porto)
+titulo: Roteiro de varredura por segmento e sistema
 colunas:
   - "Bloco"
   - "Sintomas de triagem"
@@ -177,23 +177,23 @@ linhas:
 ::: conceito
 titulo: A pergunta que abre cada sistema
 texto: |
-  Porto propõe uma técnica de duas velocidades, que torna a varredura suportável sem torná-la superficial.
+  Uma técnica de duas velocidades torna a varredura suportável sem torná-la superficial.
 
-  **Primeira velocidade: uma pergunta geral por sistema.** Os exemplos da própria obra: "como estão seus olhos e sua visão?", "como anda sua digestão?", "seu intestino funciona regularmente?". A resposta decide o que vem a seguir.
+  **Primeira velocidade: uma pergunta geral por sistema.** Os exemplos clássicos: "como estão seus olhos e sua visão?", "como anda sua digestão?", "seu intestino funciona regularmente?". A resposta decide o que vem a seguir.
 
   **Segunda velocidade: perguntas específicas**, acionadas apenas quando a primeira abriu alguma porta. É aqui que se detalha a queixa, com o mesmo esquema de caracterização usado na história da doença atual.
 
-  A regra que atravessa as duas velocidades é a mesma da entrevista inteira: **não induzir a resposta**. Porto repete o exemplo em dois capítulos diferentes, porque o erro é frequente, nem "o senhor está com falta de ar, não é?", nem "o senhor não está com falta de ar, não é mesmo?". A pergunta correta é: "o senhor sente falta de ar?".
+  A regra que atravessa as duas velocidades é a mesma da entrevista inteira: **não induzir a resposta**. O erro é frequente, nem "o senhor está com falta de ar, não é?", nem "o senhor não está com falta de ar, não é mesmo?". A pergunta correta é: "o senhor sente falta de ar?".
 
-  *Semiologia Clínica* descreve a mesma mecânica em outros termos, aplicável a toda a consulta: iniciar com perguntas abertas e terminar com perguntas direcionadoras e fechadas.
+  A mesma mecânica se descreve em outros termos, aplicável a toda a consulta: iniciar com perguntas abertas e terminar com perguntas direcionadoras e fechadas.
 :::
 
 ::: conceito
 titulo: Promoção da saúde dentro do interrogatório
 texto: |
-  Porto insere, ao final de vários sistemas, um item de **promoção da saúde**: perguntas que não buscam sintoma, e sim risco e prevenção. Aproveitar essa carona é o que transforma o interrogatório de exercício de coleta em ato clínico útil ao paciente que não tem nada.
+  Vale inserir, ao final de vários sistemas, um item de **promoção da saúde**: perguntas que não buscam sintoma, e sim risco e prevenção. Aproveitar essa carona é o que transforma o interrogatório de exercício de coleta em ato clínico útil ao paciente que não tem nada.
 
-  Exemplos ancorados na obra, por sistema:
+  Exemplos por sistema:
 
   - **pele**: exposição solar (hora do dia, uso de protetor), cuidados com pele e cabelos, bronzeamento artificial;
   - **olhos**: uso de óculos ou lentes, data do último exame oftálmico;
@@ -204,12 +204,12 @@ texto: |
   - **geniturinário**: autoexame testicular, último exame prostático, último exame ginecológico e Papanicolaou, uso de preservativos;
   - **locomotor**: movimentos repetitivos, hábito de levantar peso, cuidados com a postura.
 
-  *Semiologia Clínica* reforça a mesma ideia por outro caminho: além de identificar e tratar as queixas apresentadas, cabe ao médico identificar precocemente doenças passíveis de intervenção, reconhecer fatores de risco e propor intervenções para hábitos potencialmente nocivos.
+  A mesma ideia se reforça por outro caminho: além de identificar e tratar as queixas apresentadas, cabe ao médico identificar precocemente doenças passíveis de intervenção, reconhecer fatores de risco e propor intervenções para hábitos potencialmente nocivos.
 :::
 
 ::: pense
 pergunta: No interrogatório, o paciente responde "não" para todo o aparelho respiratório. Vale a pena registrar essa negativa, ou basta anotar os sistemas com achado?
-resposta: Vale, e Porto manda registrar os presentes e os negados. A negativa de hoje é o parâmetro de amanhã; se o paciente voltar em dois meses com tosse produtiva e dispneia, é o registro negativo que prova que o quadro é novo.
+resposta: Vale registrar os presentes e os negados. A negativa de hoje é o parâmetro de amanhã; se o paciente voltar em dois meses com tosse produtiva e dispneia, é o registro negativo que prova que o quadro é novo.
 :::
 
 ::: secao
@@ -220,7 +220,7 @@ titulo: Interrogatório dirigido
 titulo: Quando a hipótese passa a guiar a varredura
 nivel: avancado
 texto: |
-  O interrogatório completo é ferramenta de aprendizado. Na prática, ele se transforma, e *Semiologia Clínica* descreve o mecanismo dessa transformação com dados.
+  O interrogatório completo é ferramenta de aprendizado. Na prática, ele se transforma, e o mecanismo dessa transformação já foi descrito com dados.
 
   Num estudo em que médicos de família e internistas foram filmados atendendo pacientes com diagnósticos conhecidos, a **primeira hipótese diagnóstica surgiu por volta de 28 segundos** depois que a queixa principal foi enunciada; a hipótese correta levou, na média, **6 minutos**, com índice de acerto de **75%** dos diagnósticos e cerca de **5,5 hipóteses formuladas por paciente**. Enquanto geravam possibilidades, os médicos perguntavam e examinavam para descartar e manter, sustentando **cerca de três hipóteses principais** em qualquer momento do atendimento.
 
@@ -229,9 +229,9 @@ texto: |
   Daí decorre o **interrogatório orientado por hipótese**: em vez de uma varredura uniforme, aprofunda-se nos sistemas que discriminam entre as três hipóteses vivas, e mantém-se a triagem rápida nos demais. Duas salvaguardas impedem que isso vire preguiça.
 
   1. **A varredura de triagem continua acontecendo em todos os sistemas.** O que muda é a profundidade, não a cobertura.
-  2. **A hipótese não escolhe as respostas.** Porto chama de espírito preconcebido o erro de conduzir a investigação a partir de uma ideia formada, e o lista entre os fatores que dificultam o diagnóstico.
+  2. **A hipótese não escolhe as respostas.** Chama-se de espírito preconcebido o erro de conduzir a investigação a partir de uma ideia formada, listado entre os fatores que dificultam o diagnóstico.
 
-  *Semiologia Clínica* acrescenta uma bússola para dirigir a busca: o pensamento epidemiológico, considerando as doenças mais prevalentes no segmento populacional daquele paciente, porque é sempre mais provável ver manifestação rara de doença comum do que apresentação típica de doença rara.
+  Vale ainda uma bússola para dirigir a busca: o pensamento epidemiológico, considerando as doenças mais prevalentes no segmento populacional daquele paciente, porque é sempre mais provável ver manifestação rara de doença comum do que apresentação típica de doença rara.
 :::
 
 ::: conceito
@@ -242,25 +242,25 @@ texto: |
 
   Quatro falhas típicas, e o que cada uma custa.
 
-  - **Recitar em vez de perguntar.** Perguntas encadeadas sem pausa não dão tempo de resposta, e o paciente passa a negar tudo por economia. A cena de abertura do capítulo de comunicação clínica de *Semiologia Clínica* mostra exatamente isso: três perguntas seguidas e um paciente que não consegue esboçar resposta.
+  - **Recitar em vez de perguntar.** Perguntas encadeadas sem pausa não dão tempo de resposta, e o paciente passa a negar tudo por economia. Uma cena conhecida mostra exatamente isso: três perguntas seguidas e um paciente que não consegue esboçar resposta.
   - **Induzir a negativa.** "Nada de intestino, né?" é uma pergunta que já traz a resposta embutida.
-  - **Colher positivos e não caracterizá-los.** Porto é direto: a simples citação de uma queixa tem algum valor, mas muito mais útil é o registro de suas características semiológicas fundamentais. Um "refere tontura" sem esclarecimento não é dado, é ruído.
+  - **Colher positivos e não caracterizá-los.** A simples citação de uma queixa tem algum valor, mas muito mais útil é o registro de suas características semiológicas fundamentais. Um "refere tontura" sem esclarecimento não é dado, é ruído.
   - **Não registrar as negativas.** Sem elas, o interrogatório perde a função de parâmetro para o futuro, que é uma de suas principais utilidades.
 
-  O nome que Porto dá à consequência é duro e vale como advertência: entre os erros diagnósticos não intencionais, ele lista a anamnese inadequada, inconsistente, superficial ou desconexa.
+  O nome que se dá à consequência é duro e vale como advertência: entre os erros diagnósticos não intencionais está a anamnese inadequada, inconsistente, superficial ou desconexa.
 :::
 
 ::: conceito
 titulo: Uma divergência que vale conhecer
 nivel: avancado
 texto: |
-  As duas obras de referência deste guia discordam sobre a extensão do interrogatório, e a discordância é instrutiva.
+  As referências deste guia discordam sobre a extensão do interrogatório, e a discordância é instrutiva.
 
-  **Porto** defende que, na fase de iniciação clínica, a única maneira de fazer uma boa anamnese especial é seguir um roteiro rígido, com um conjunto de perguntas correspondentes a todos os sistemas: trabalhoso, mas imprescindível no aprendizado do método. Reconhece que se gasta muito tempo, e que o interrogatório pode ser simplificado e adaptado às circunstâncias **à medida que se adquire experiência**. Nas considerações finais do capítulo, responde diretamente à crítica de que o detalhamento é excessivo: o que se propõe é um esquema para o aprendizado, que precisa ser o mais abrangente possível.
+  **Uma posição** defende que, na fase de iniciação clínica, a única maneira de fazer uma boa anamnese especial é seguir um roteiro rígido, com um conjunto de perguntas correspondentes a todos os sistemas: trabalhoso, mas imprescindível no aprendizado do método. Reconhece que se gasta muito tempo, e que o interrogatório pode ser simplificado e adaptado às circunstâncias **à medida que se adquire experiência**. Responde diretamente à crítica de que o detalhamento é excessivo: o que se propõe é um esquema para o aprendizado, que precisa ser o mais abrangente possível.
 
-  **Semiologia Clínica** vai por outro caminho: afirma que hoje ninguém mais recomenda uma "história completa", porque, por mais completa que seja, ela sempre deixará algo de fora; porque a tentativa de abrangência total tornava as histórias dos alunos longas a ponto de virarem fardo para entrevistado e entrevistador; e porque o método não leva em conta as queixas específicas de cada pessoa nem o impacto delas no seu dia a dia. Acrescenta uma observação irônica: mesmo os médicos treinados nesse método raramente o utilizam.
+  **A outra posição** vai por outro caminho: afirma que hoje ninguém mais recomenda uma "história completa", porque, por mais completa que seja, ela sempre deixará algo de fora; porque a tentativa de abrangência total tornava as histórias dos alunos longas a ponto de virarem fardo para entrevistado e entrevistador; e porque o método não leva em conta as queixas específicas de cada pessoa nem o impacto delas no seu dia a dia. Acrescenta uma observação irônica: mesmo os médicos treinados nesse método raramente o utilizam.
 
-  Não se trata de escolher um lado e esquecer o outro. As duas posições convergem num ponto prático: **a cobertura de triagem é inegociável, a profundidade é que se ajusta**. Enquanto está aprendendo, percorra tudo (é assim que se constrói o repertório de perguntas possíveis. Depois, dirija) mas continue percorrendo tudo por cima, porque o edema que revelou a cirrose apareceu num sistema que ninguém tinha motivo para investigar.
+  Não se trata de escolher um lado e esquecer o outro. Este guia adota a convergência prática entre as duas posições: **a cobertura de triagem é inegociável, a profundidade é que se ajusta**. Enquanto está aprendendo, percorra tudo (é assim que se constrói o repertório de perguntas possíveis. Depois, dirija) mas continue percorrendo tudo por cima, porque o edema que revelou a cirrose apareceu num sistema que ninguém tinha motivo para investigar.
 :::
 
 ::: secao
@@ -292,7 +292,7 @@ opcoes:
   - "Varrer o que ficou de fora do sistema, sem duplicar a HDA"
 corretaIndex: 2
 desfecho: |
-  O interrogatório existe para o que ficou de fora: sintomas já caracterizados na HDA não voltam a ele, duplicá-la é um dos erros clássicos, mas o sistema não se pula, porque a dor bem descrita não responde pelo que o paciente não mencionou. Foi numa varredura assim, de rotina, que o caso de Porto encontrou a doença principal num sistema que ninguém tinha motivo para investigar.
+  O interrogatório existe para o que ficou de fora: sintomas já caracterizados na HDA não voltam a ele, duplicá-la é um dos erros clássicos, mas o sistema não se pula, porque a dor bem descrita não responde pelo que o paciente não mencionou. Foi numa varredura assim, de rotina, que se encontrou a doença principal num sistema que ninguém tinha motivo para investigar.
 :::
 
 ::: resumo
@@ -309,14 +309,14 @@ titulo: Teste rápido
 ::: quiz
 perguntas:
   - id: isda-1
-    enunciado: Qual é a principal utilidade prática do interrogatório sintomatológico, segundo Porto?
+    enunciado: Qual é a principal utilidade prática do interrogatório sintomatológico?
     alternativas:
       - "Confirmar os sintomas já descritos na história da doença atual"
       - "Substituir a história da doença atual quando o paciente é mau informante, já que a varredura sistemática independe da qualidade da narrativa"
       - "Encurtar a anamnese em pacientes com queixa única"
       - "Permitir ao médico levantar possibilidades e reconhecer doenças que nada têm a ver com o quadro descrito na HDA"
     corretaIndex: 3
-    explicacao: "Porto define assim a utilidade prática do interrogatório: permitir ao médico levantar possibilidades e reconhecer doenças que nada têm a ver com o quadro descrito na HDA. Os dois exemplos da obra ilustram: o edema de membros inferiores mencionado por um paciente cuja história apontava gastrite, e que levou ao encontro de uma cirrose; e a polidipsia, a poliúria e o emagrecimento revelados por um paciente que consultava por impotência sexual, e que levaram ao diagnóstico de diabetes melito. O interrogatório complementa a HDA, não a confirma nem a substitui."
+    explicacao: "A utilidade prática do interrogatório é permitir ao médico levantar possibilidades e reconhecer doenças que nada têm a ver com o quadro descrito na HDA. Dois exemplos clássicos ilustram: o edema de membros inferiores mencionado por um paciente cuja história apontava gastrite, e que levou ao encontro de uma cirrose; e a polidipsia, a poliúria e o emagrecimento revelados por um paciente que consultava por impotência sexual, e que levaram ao diagnóstico de diabetes melito. O interrogatório complementa a HDA, não a confirma nem a substitui."
   - id: isda-2
     enunciado: Você inicia a revisão do aparelho digestório. Qual formulação corresponde à técnica recomendada?
     alternativas:
@@ -325,34 +325,34 @@ perguntas:
       - "\"O senhor tem azia, náusea, vômito, diarreia, obstipação, sangramento e icterícia?\""
       - "\"Seu intestino está preso, não é mesmo?\""
     corretaIndex: 1
-    explicacao: "Porto recomenda abrir cada sistema com perguntas gerais (\"como anda sua digestão?\", \"seu intestino funciona regularmente?\") e só descer para perguntas específicas se a resposta abrir alguma porta. As formulações que já trazem a resposta embutida (\"o senhor não tem nada de intestino, né?\", \"seu intestino está preso, não é mesmo?\") são indutoras, formato que a mesma obra reprova nas duas direções, tanto o que afirma quanto o que nega o sintoma. E a lista de sintomas recitada de uma vez não dá tempo de resposta, levando o paciente a negar tudo em bloco."
+    explicacao: "A recomendação é abrir cada sistema com perguntas gerais (\"como anda sua digestão?\", \"seu intestino funciona regularmente?\") e só descer para perguntas específicas se a resposta abrir alguma porta. As formulações que já trazem a resposta embutida (\"o senhor não tem nada de intestino, né?\", \"seu intestino está preso, não é mesmo?\") são indutoras, formato que se reprova nas duas direções, tanto o que afirma quanto o que nega o sintoma. E a lista de sintomas recitada de uma vez não dá tempo de resposta, levando o paciente a negar tudo em bloco."
   - id: isda-3
-    enunciado: Por que Porto recomenda registrar também os sintomas negados pelo paciente?
+    enunciado: Por que se recomenda registrar também os sintomas negados pelo paciente?
     alternativas:
       - "Porque o registro do estado atual de todos os sistemas cria um parâmetro contra o qual queixas futuras serão comparadas"
       - "Porque sintomas negados têm o mesmo peso diagnóstico dos sintomas presentes, e a soma de ambos é o que gera as hipóteses do raciocínio clínico"
       - "Porque a ausência de sintomas exclui doença naquele sistema"
       - "Porque é exigência legal do prontuário"
     corretaIndex: 0
-    explicacao: "Porto argumenta que, pensando no paciente como um ser mutável, é necessário registrar o estado atual de todo o organismo para ter parâmetro no caso de futuras queixas, e dá o exemplo do paciente que nada referia do aparelho respiratório e retorna dois meses depois com tosse com escarros amarelados e dispneia, permitindo ao médico reconhecer que aquilo é novo. A obra recomenda ao estudante registrar os sintomas presentes e os negados. Ausência de sintoma não exclui doença, e o registro não se justifica por exigência formal."
+    explicacao: "Pensando no paciente como um ser mutável, é necessário registrar o estado atual de todo o organismo para ter parâmetro no caso de futuras queixas; um exemplo clássico é o paciente que nada referia do aparelho respiratório e retorna dois meses depois com tosse com escarros amarelados e dispneia, permitindo ao médico reconhecer que aquilo é novo. Recomenda-se ao estudante registrar os sintomas presentes e os negados. Ausência de sintoma não exclui doença, e o registro não se justifica por exigência formal."
   - id: isda-4
     enunciado: Sobre a extensão do interrogatório sintomatológico, o que as referências deste guia efetivamente sustentam?
     alternativas:
       - "Ambas recomendam a história completa como padrão permanente da prática"
       - "Ambas recomendam abandonar a revisão de sistemas na graduação"
-      - "Porto defende o roteiro rígido na iniciação, com simplificação posterior; Semiologia Clínica afirma que ninguém mais recomenda uma \"história completa\""
-      - "Porto e Semiologia Clínica adotam exatamente a mesma posição sobre a extensão do interrogatório, divergindo apenas na terminologia empregada"
+      - "Uma posição defende o roteiro rígido na iniciação, com simplificação posterior; outra afirma que ninguém mais recomenda uma \"história completa\""
+      - "As referências adotam exatamente a mesma posição sobre a extensão do interrogatório, divergindo apenas na terminologia empregada"
     corretaIndex: 2
-    explicacao: "As duas obras divergem. Porto sustenta que, na iniciação clínica, a única maneira de fazer uma boa anamnese especial é seguir um roteiro rígido com perguntas sobre todos os sistemas, admitindo simplificação e adaptação conforme se adquire experiência. Semiologia Clínica afirma que ninguém mais recomenda a \"história completa\", porque ela sempre deixará algo de fora, torna as entrevistas um fardo e ignora as queixas específicas de cada pessoa. Nenhuma das duas propõe abandonar a revisão de sistemas."
+    explicacao: "As referências divergem. Uma sustenta que, na iniciação clínica, a única maneira de fazer uma boa anamnese especial é seguir um roteiro rígido com perguntas sobre todos os sistemas, admitindo simplificação e adaptação conforme se adquire experiência. A outra afirma que ninguém mais recomenda a \"história completa\", porque ela sempre deixará algo de fora, torna as entrevistas um fardo e ignora as queixas específicas de cada pessoa. Nenhuma das duas propõe abandonar a revisão de sistemas."
   - id: isda-5
-    enunciado: Segundo o estudo citado em Semiologia Clínica sobre geração de hipóteses diagnósticas, qual conjunto de resultados está correto?
+    enunciado: Segundo o estudo sobre geração de hipóteses diagnósticas, qual conjunto de resultados está correto?
     alternativas:
       - "Primeira hipótese apenas ao final da anamnese, com 95% de acerto"
       - "Primeira hipótese por volta de 28 segundos depois de enunciada a queixa principal, hipótese correta em torno de 6 minutos e 75% de acerto"
       - "Primeira hipótese somente em cerca de 6 minutos e hipótese correta em torno de 28 segundos, com índice de acerto próximo de 95% dos diagnósticos"
       - "Nenhuma hipótese é formulada antes do exame físico em médicos experientes"
     corretaIndex: 1
-    explicacao: "No estudo relatado em Semiologia Clínica (cap. 3), médicos de família e internistas filmados atendendo pacientes com diagnósticos conhecidos geraram a primeira hipótese por volta de 28 segundos depois que a queixa principal foi enunciada, e a hipótese correta em torno de 6 minutos, com índice de acerto de 75% e cerca de 5,5 hipóteses por paciente, sustentando aproximadamente três hipóteses principais em qualquer ponto do atendimento. Quando o experimento foi repetido com estudantes, a estratégia foi a mesma, com diferenças quantitativas e não qualitativas."
+    explicacao: "No estudo relatado, médicos de família e internistas filmados atendendo pacientes com diagnósticos conhecidos geraram a primeira hipótese por volta de 28 segundos depois que a queixa principal foi enunciada, e a hipótese correta em torno de 6 minutos, com índice de acerto de 75% e cerca de 5,5 hipóteses por paciente, sustentando aproximadamente três hipóteses principais em qualquer ponto do atendimento. Quando o experimento foi repetido com estudantes, a estratégia foi a mesma, com diferenças quantitativas e não qualitativas."
   - id: isda-6
     enunciado: Durante o interrogatório, o paciente refere "tontura". Qual conduta é a correta antes de registrar o achado?
     alternativas:
@@ -361,5 +361,5 @@ perguntas:
       - "Ignorar, por se tratar de queixa inespecífica sem valor semiológico"
       - "Esclarecer a qual sensação o termo se refere e caracterizar o sintoma pelo mesmo esquema usado na HDA"
     corretaIndex: 3
-    explicacao: "Porto observa que a simples citação de uma queixa tem algum valor, mas muito mais útil é o registro de suas características semiológicas fundamentais, todo sintoma positivo do interrogatório deve ser investigado pelo mesmo esquema de análise usado na história da doença atual. Além disso, \"tontura\" é o exemplo que a própria obra usa para a técnica de esclarecimento, porque o termo tem vários significados; traduzi-lo automaticamente como vertigem é assumir um sentido que o paciente pode não ter dado."
+    explicacao: "A simples citação de uma queixa tem algum valor, mas muito mais útil é o registro de suas características semiológicas fundamentais: todo sintoma positivo do interrogatório deve ser investigado pelo mesmo esquema de análise usado na história da doença atual. Além disso, \"tontura\" é o exemplo clássico para a técnica de esclarecimento, porque o termo tem vários significados; traduzi-lo automaticamente como vertigem é assumir um sentido que o paciente pode não ter dado."
 :::

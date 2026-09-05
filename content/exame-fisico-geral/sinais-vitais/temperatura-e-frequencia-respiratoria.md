@@ -182,7 +182,7 @@ linhas:
 ::: conceito
 titulo: Uma escada, um corte
 texto: |
-  A escada acima foi harmonizada com o corte de febre do adulto que o guia adota (**acima de 37,8 °C**, Semiologia Clínica): a febrícula vai até 37,7 °C e a febre moderada começa exatamente onde a febre começa. Porto encerra a febrícula em 37,5 °C e inicia a moderada em 37,6 °C: o que deixaria uma faixa de dois décimos que já seria "febre moderada" sem ainda ser febre.
+  A escada acima foi harmonizada com o corte de febre do adulto que este guia adota (**acima de 37,8 °C**): a febrícula vai até 37,7 °C e a febre moderada começa exatamente onde a febre começa. As referências divergem: uma encerra a febrícula em 37,5 °C e inicia a moderada em 37,6 °C, o que deixaria uma faixa de dois décimos que já seria "febre moderada" sem ainda ser febre.
 :::
 
 ::: conceito
@@ -323,7 +323,7 @@ passos:
 titulo: Onde fica o limiar que discrimina doença
 nivel: avancado
 texto: |
-  Aferições cuidadosas em adultos sem febre e sem doença cardiopulmonar (McGee) encontram média em torno de 20 irpm, com faixa de até 25.
+  Aferições cuidadosas em adultos sem febre e sem doença cardiopulmonar encontram média em torno de 20 irpm, com faixa de até 25.
 
   Na prática à beira do leito, uma FR persistentemente ≥ 25 irpm é um limiar que discrimina melhor doença real.
 :::

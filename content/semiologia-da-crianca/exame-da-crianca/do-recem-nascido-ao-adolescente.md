@@ -102,7 +102,7 @@ texto: |
 :::
 
 ::: tabela
-titulo: Posição do ictus cordis na infância (Porto, Quadro 179.3)
+titulo: Posição do ictus cordis na infância
 colunas:
   - Faixa etária
   - Posição do ictus cordis

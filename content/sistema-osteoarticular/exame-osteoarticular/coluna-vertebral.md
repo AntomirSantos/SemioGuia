@@ -79,11 +79,11 @@ titulo: A coluna se examina em pé, de perfil e em movimento
 texto: |
   A coluna vertebral é o único segmento do aparelho locomotor que sustenta o corpo inteiro, e é por isso que seu exame começa longe da maca: **com o paciente de pé, visto de frente, de costas e de perfil**.
 
-  Porto abre o exame clínico da coluna com uma exigência que se cumpre antes de qualquer manobra (o paciente precisa estar com roupa adequada, que deixe o dorso descoberto) e com uma organização que vale memorizar: **a abordagem se faz em três planos**, o frontal anterior, o frontal posterior e o sagital. Cada plano responde a uma pergunta diferente, e nenhum deles substitui os outros.
+  O exame clínico da coluna abre com uma exigência que se cumpre antes de qualquer manobra (o paciente precisa estar com roupa adequada, que deixe o dorso descoberto) e com uma organização que vale memorizar: **a abordagem se faz em três planos**, o frontal anterior, o frontal posterior e o sagital. Cada plano responde a uma pergunta diferente, e nenhum deles substitui os outros.
 
-  As síndromes dolorosas da coluna (**cervicalgia, dorsalgia, lombalgia e lombociatalgia**) estão entre os problemas mais frequentes da prática médica. Semiologia Clínica dimensiona: cerca de **80%** dos adultos terão lombalgia em algum momento, com maior incidência na terceira década e prevalência maior entre **60 e 65 anos**; e a cervicalgia alcançaria, ao longo da vida, até **55%** dos brasileiros, com prevalência de **12%** entre as mulheres e **9%** entre os homens. A lombalgia lidera as causas de afastamento temporário do trabalho.
+  As síndromes dolorosas da coluna (**cervicalgia, dorsalgia, lombalgia e lombociatalgia**) estão entre os problemas mais frequentes da prática médica. Cerca de **80%** dos adultos terão lombalgia em algum momento, com maior incidência na terceira década e prevalência maior entre **60 e 65 anos**; e a cervicalgia alcançaria, ao longo da vida, até **55%** dos brasileiros, com prevalência de **12%** entre as mulheres e **9%** entre os homens. A lombalgia lidera as causas de afastamento temporário do trabalho.
 
-  **A primeira tarefa, e Porto a coloca antes de todas: excluir a dor referida.** A dor pode ser percebida na coluna sem nascer nela. Os exemplos que ele dá são de leitura obrigatória: a pancreatite aguda percebida na topografia toracolombar, a úlcera duodenal na coluna torácica, a dor renal na coluna lombar e as afecções ginecológicas na lombossacra. A segunda tarefa é excluir que a dor venha de outra estrutura do aparelho locomotor: articulações, tendinites, bursites, miosites.
+  **A primeira tarefa, antes de todas: excluir a dor referida.** A dor pode ser percebida na coluna sem nascer nela. Os exemplos são de leitura obrigatória: a pancreatite aguda percebida na topografia toracolombar, a úlcera duodenal na coluna torácica, a dor renal na coluna lombar e as afecções ginecológicas na lombossacra. A segunda tarefa é excluir que a dor venha de outra estrutura do aparelho locomotor: articulações, tendinites, bursites, miosites.
 
   **O que este tópico não reensina.**
 
@@ -120,15 +120,15 @@ passos:
   - "Com o paciente deitado, faça a elevação da perna estendida de cada lado e, se houver dor, a dorsiflexão do pé na altura em que ela apareceu."
   - "Complete com o exame neurológico dos membros (força, sensibilidade e reflexos) e com o exame da bacia."
 observar: |
-  **Por que os três planos, e o que cada um mostra.** Porto separa as perguntas. No **frontal**, procura-se assimetria: o desnivelamento das escápulas sugere desvio de lateralidade, isto é, escoliose; o desnivelamento da cintura pélvica sugere **discrepância no comprimento dos membros inferiores**; patelas que olham para dentro sugerem alteração na anteversão do colo femoral. No **sagital**, avaliam-se o grau das lordoses e da cifose e onde a pelve se situa diante dessa linha: projetada para diante ou para trás. E os **movimentos** também se observam nos três planos.
+  **Por que os três planos, e o que cada um mostra.** As perguntas se separam por plano. No **frontal**, procura-se assimetria: o desnivelamento das escápulas sugere desvio de lateralidade, isto é, escoliose; o desnivelamento da cintura pélvica sugere **discrepância no comprimento dos membros inferiores**; patelas que olham para dentro sugerem alteração na anteversão do colo femoral. No **sagital**, avaliam-se o grau das lordoses e da cifose e onde a pelve se situa diante dessa linha: projetada para diante ou para trás. E os **movimentos** também se observam nos três planos.
 
-  **A inclinação anterior é a manobra central da inspeção.** Porto, no *Exame Clínico*, é direto: a posição e o gesto tornam fácil o reconhecimento de uma escoliose ou de uma cifose. E, na *Semiologia Médica*, dá a razão: é com o tronco fletido que a **rotação dos corpos vertebrais e do gradeado costal** se torna visível, levantando no dorso a **gibosidade**, sempre do lado convexo. Sem essa manobra, uma escoliose estruturada e uma escoliose postural parecem a mesma coisa.
+  **A inclinação anterior é a manobra central da inspeção.** A posição e o gesto tornam fácil o reconhecimento de uma escoliose ou de uma cifose. E a razão é clara: é com o tronco fletido que a **rotação dos corpos vertebrais e do gradeado costal** se torna visível, levantando no dorso a **gibosidade**, sempre do lado convexo. Sem essa manobra, uma escoliose estruturada e uma escoliose postural parecem a mesma coisa.
 
-  **Palpação delicada, e por um motivo específico.** Porto adverte que palpar a coluna pode provocar dor forte: na hérnia discal, sobretudo. Palpar uma a uma as apófises espinhosas e os espaços entre elas é fundamental nas afecções inflamatórias e compressivas justamente porque **isso dói**: o que significa que o examinador deve começar longe do ponto suspeito e avançar até ele, não o contrário.
+  **Palpação delicada, e por um motivo específico.** Palpar a coluna pode provocar dor forte: na hérnia discal, sobretudo. Palpar uma a uma as apófises espinhosas e os espaços entre elas é fundamental nas afecções inflamatórias e compressivas justamente porque **isso dói**: o que significa que o examinador deve começar longe do ponto suspeito e avançar até ele, não o contrário.
 
-  **Sentado para as rotações.** Porto pede que a rotação cervical e as rotações do tronco sejam avaliadas com o paciente **sentado**. A razão é mecânica: sentado, a pelve fica fixa, e o que gira é a coluna, não o quadril.
+  **Sentado para as rotações.** A rotação cervical e as rotações do tronco devem ser avaliadas com o paciente **sentado**. A razão é mecânica: sentado, a pelve fica fixa, e o que gira é a coluna, não o quadril.
 
-  **O exame da coluna não termina na coluna.** Porto encerra o capítulo com a exigência: complete com o exame da bacia, sacroilíacas e coxofemorais, porque doença dessas juntas produz um quadro muito parecido com o das afecções da própria coluna.
+  **O exame da coluna não termina na coluna.** É preciso completar o exame com o da bacia, sacroilíacas e coxofemorais, porque doença dessas juntas produz um quadro muito parecido com o das afecções da própria coluna.
 :::
 
 ::: checklist
@@ -179,7 +179,7 @@ svg: |
       <text x="242" y="182">inclinação anterior</text>
     </g>
     <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
-      <text x="10" y="196">A gibosidade fica na convexidade e só aparece com o tronco fletido (Porto).</text>
+      <text x="10" y="196">A gibosidade fica na convexidade e só aparece com o tronco fletido.</text>
     </g>
   </svg>
 legenda: "Duas vistas que respondem a perguntas diferentes. No perfil, com o fio de prumo como linha de gravidade, avaliam-se as três curvaturas e a posição da pelve. Na inclinação anterior, vista por trás e tangencialmente, aparece a rotação dos corpos vertebrais e das costelas: a gibosidade, sempre do lado da convexidade. É essa manobra que separa a escoliose estruturada, que a flexão revela, da escoliose postural, que a flexão corrige."
@@ -192,7 +192,7 @@ titulo: "Inspeção: as curvaturas e o que a flexão revela"
 ::: conceito
 titulo: Escoliose estruturada e escoliose que se corrige
 texto: |
-  As definições de cifose, lordose e escoliose estão na ectoscopia. O que interessa aqui é a divisão que muda a conduta, e Porto a organiza em dois grandes grupos: escolioses de **curvas não estruturadas** e de **curvas estruturadas**.
+  As definições de cifose, lordose e escoliose estão na ectoscopia. O que interessa aqui é a divisão que muda a conduta, organizada em dois grandes grupos: escolioses de **curvas não estruturadas** e de **curvas estruturadas**.
 
   **As não estruturadas** reúnem cinco tipos: postural, compensatória, antálgica, inflamatória e histérica. Duas delas se explicam sozinhas:
 
@@ -201,21 +201,21 @@ texto: |
 
   **A estruturada** só se deixa reconhecer **com o tronco fletido**: nessa posição, corpos e costelas aparecem rodados e o dorso levanta a **gibosidade**, sempre do lado **convexo**. No raio X a rotação tem direção fixa: o corpo vertebral gira para a convexidade; o processo espinhoso, para a concavidade.
 
-  **Um dado epidemiológico que orienta o olhar.** Porto registra que a escoliose incide sobretudo em crianças e adolescentes, com predomínio feminino; a escoliose idiopática, a mais comum, tem três picos de aparecimento: no recém-nascido, entre os 5 e os 6 anos e dos 11 anos até o fim do crescimento, este último o prevalente. E dá a regra de prognóstico: **quanto mais alta a curva, pior**, e quanto mais jovem o paciente, mais grave.
+  **Um dado epidemiológico que orienta o olhar.** A escoliose incide sobretudo em crianças e adolescentes, com predomínio feminino; a escoliose idiopática, a mais comum, tem três picos de aparecimento: no recém-nascido, entre os 5 e os 6 anos e dos 11 anos até o fim do crescimento, este último o prevalente. E dá a regra de prognóstico: **quanto mais alta a curva, pior**, e quanto mais jovem o paciente, mais grave.
 
   **A cifose também tem sua leitura, e a maior parte dela já foi dada:** as causas do aumento da cifose torácica estão no tópico de **ectoscopia** e não se repetem aqui. O que pertence a este tópico é a **cifose do adolescente**, ou dorso curvo, a osteocondrite de Scheuermann, mais frequente na puberdade, em que as vértebras torácicas inferiores se achatam e é comum existir também uma pequena curva lateral. A **cifoescoliose** combina as duas deformidades.
 
-  **E a lordose lombar entra em um círculo vicioso.** Porto descreve: a lordose lombar pode aumentar nos processos degenerativos dos discos inferiores, quando a pelve perde equilíbrio por fraqueza de abdominais e de glúteos, ou quando iliopsoas e isquiossurais encurtam. O aumento da lordose **projeta o centro de gravidade para a frente**, o que agrava a instabilidade lombossacra, que, por sua vez, piora as condições que a produziram.
+  **E a lordose lombar entra em um círculo vicioso.** A lordose lombar pode aumentar nos processos degenerativos dos discos inferiores, quando a pelve perde equilíbrio por fraqueza de abdominais e de glúteos, ou quando iliopsoas e isquiossurais encurtam. O aumento da lordose **projeta o centro de gravidade para a frente**, o que agrava a instabilidade lombossacra, que, por sua vez, piora as condições que a produziram.
 :::
 
 ::: conceito
 titulo: A atitude antálgica e a lordose que sumiu
 texto: |
-  Porto diz que **o primeiro item a investigar é a atitude que o paciente adota**, e dá o exemplo que mais aparece: na hérnia discal é frequente que o paciente assuma uma **posição antálgica** para conseguir algum alívio.
+  **O primeiro item a investigar é a atitude que o paciente adota**, e o exemplo que mais aparece é este: na hérnia discal é frequente que o paciente assuma uma **posição antálgica** para conseguir algum alívio.
 
   O mecanismo está descrito no capítulo de doenças da coluna: a hérnia produz **contratura muscular**, e a contratura determina a posição antálgica, caracterizada pela **inclinação lateral do tronco**, ou do pescoço, quando o segmento é cervical. A mesma contratura se manifesta como rigidez da musculatura e como **apagamento da lordose fisiológica**, cervical ou lombar.
 
-  Porto dá peso a esse achado: o **apagamento da lordose fisiológica, com retificação cervical ou lombar**, pesa muito no diagnóstico das doenças da coluna. À radiografia, a coluna fica quase vertical.
+  **O apagamento da lordose fisiológica, com retificação cervical ou lombar**, pesa muito no diagnóstico das doenças da coluna. À radiografia, a coluna fica quase vertical.
 
   Há uma segunda atitude que o exame da coluna precisa reconhecer de longe, e ela pertence à espondilite anquilosante: a **posição de esquiador**, que o paciente assume gradativamente em estágio avançado, caracterizada por aumento da lordose cervical, cifose dorsal, lordose lombossacra e flexão dos joelhos.
 
@@ -225,36 +225,36 @@ texto: |
 ::: conceito
 titulo: "Palpação: músculo, osso e o nível"
 texto: |
-  A palpação da coluna responde a duas perguntas, e Semiologia Clínica as separa com clareza: **de onde vem a dor** e **em que altura**.
+  A palpação da coluna responde a duas perguntas, que se separam com clareza: **de onde vem a dor** e **em que altura**.
 
-  **Partes moles primeiro.** Porto manda palpar as massas musculares, sobretudo as que preenchem a **goteira vertebral**, à procura de hipertrofia e de retificação. Semiologia Clínica acrescenta o mapa dos pontos dolorosos mais frequentes na lombalgia (quadrado lombar, piriforme, iliopsoas e os três glúteos, mínimo, médio e máximo) e recomenda estender a palpação ao tensor da fáscia lata. O achado que interessa é aquele em que a palpação **reproduz a dor que o paciente sente**, e não apenas produz dor nova.
+  **Partes moles primeiro.** Deve-se palpar as massas musculares, sobretudo as que preenchem a **goteira vertebral**, à procura de hipertrofia e de retificação. Some-se o mapa dos pontos dolorosos mais frequentes na lombalgia (quadrado lombar, piriforme, iliopsoas e os três glúteos, mínimo, médio e máximo), estendendo a palpação ao tensor da fáscia lata. O achado que interessa é aquele em que a palpação **reproduz a dor que o paciente sente**, e não apenas produz dor nova.
 
-  **Osso depois.** Palpam-se as **apófises espinhosas** uma a uma e os **espaços intervertebrais**. Semiologia Clínica dá o critério de leitura: para diferenciar dor muscular de dor óssea, é preciso palpar a própria coluna; **quando há dor à palpação da coluna vertebral**, pensa-se em pequenos traumas, calcificações e fraturas, entre outras causas. Na hérnia discal, Porto registra que palpar as linhas espondileia e paraespondileia desperta dor perto do disco herniado, e, por vezes, de modo difuso em todo o segmento.
+  **Osso depois.** Palpam-se as **apófises espinhosas** uma a uma e os **espaços intervertebrais**. O critério de leitura é este: para diferenciar dor muscular de dor óssea, é preciso palpar a própria coluna; **quando há dor à palpação da coluna vertebral**, pensa-se em pequenos traumas, calcificações e fraturas, entre outras causas. Na hérnia discal, palpar as linhas espondileia e paraespondileia desperta dor perto do disco herniado, e, por vezes, de modo difuso em todo o segmento.
 
-  **Por segmento, o que se palpa** (Semiologia Clínica, capítulo do exame do sistema locomotor):
+  **Por segmento, o que se palpa:**
 
   - **Cervical**: partes moles anteriores e posteriores, tireoide e pulso carotídeo; no osso, o occipício e os processos espinhosos, procurando dor e crepitação. Os processos de **C2 e C7** são os mais fáceis de encontrar, por serem mais superficiais.
   - **Torácica**: trapézio, grande dorsal e romboides, que são superficiais; no osso, as apófises vertebrais, o gradeado costal e a escápula.
   - **Lombar**: musculatura paravertebral, abdominal e glútea; no osso, o sacro, as apófises, a crista ilíaca e as espinhas ilíacas anterossuperiores e posterossuperiores.
 
-  **E o sinal que a palpação lombar pode disparar.** Porto registra, em boxe, o **sinal da campainha** (Putti): a compressão da região lombar desperta dor pelo trajeto do nervo ciático. É a palpação que se transforma em teste de irritação radicular sem que o examinador mude de posição.
+  **E o sinal que a palpação lombar pode disparar.** Há o **sinal da campainha** (Putti): a compressão da região lombar desperta dor pelo trajeto do nervo ciático. É a palpação que se transforma em teste de irritação radicular sem que o examinador mude de posição.
 :::
 
 ::: conceito
 titulo: Mobilidade nos três planos, e o que se pode medir
 texto: |
-  A coluna se move em flexão, extensão, rotação e lateralidade, mas os segmentos não contribuem igualmente. Porto explica por quê: a coluna torácica tem **mobilidade reduzida**, e isso, somado ao modo como a musculatura do tronco se prende entre costelas e pelve, faz com que os movimentos torácicos e os lombossacros **andem juntos**, o que se examina, na prática, é o conjunto toracolombar.
+  A coluna se move em flexão, extensão, rotação e lateralidade, mas os segmentos não contribuem igualmente. A razão é clara: a coluna torácica tem **mobilidade reduzida**, e isso, somado ao modo como a musculatura do tronco se prende entre costelas e pelve, faz com que os movimentos torácicos e os lombossacros **andem juntos**, o que se examina, na prática, é o conjunto toracolombar.
 
-  **As amplitudes que as obras registram**, e vale ler cada linha como pertencente à obra que a publica, porque elas não coincidem em tudo:
+  **As amplitudes divergem entre as referências do guia**, e vale ler cada linha como uma medição possível, porque elas não coincidem em tudo:
 
-  - **Cervical (Porto).** Flexão: o mento deve alcançar a fúrcula esternal, e **o que sobrar entre os dois se mede em fita métrica**. Extensão: o queixo deve se distanciar cerca de **18 cm** desse mesmo ponto. Rotação para cada lado, **60°**. Lateralidade para cada lado, **30°**.
-  - **Cervical (Semiologia Clínica).** Flexoextensão **130°**, rotação **80°**, inclinação lateral **45°** para cada lado. E critérios sem goniômetro, que valem no consultório: a flexão é normal se o queixo encosta no tórax; a extensão, quando a fronte e o nariz se alinham no plano horizontal; a rotação, quando o queixo se alinha com o ombro; e a inclinação lateral, quando alcança um ângulo igual ou maior que **45°**.
-  - **Torácica (Porto).** Rotação **75°** para cada lado, mais flexão, extensão e lateralidade. **Semiologia Clínica** dá para esse segmento flexão **45°**, extensão **45°** e inclinação lateral **45°** para cada lado.
-  - **Lombar (Porto).** Flexão: **meça a distância entre as polpas digitais e o solo**. Extensão **30°**. Rotação **90°** para cada lado. Lateralidade **35°** para cada lado.
+  - **Cervical.** Flexão: o mento deve alcançar a fúrcula esternal, e **o que sobrar entre os dois se mede em fita métrica**. Extensão: o queixo deve se distanciar cerca de **18 cm** desse mesmo ponto. Rotação para cada lado, **60°**. Lateralidade para cada lado, **30°**.
+  - **Cervical.** Flexoextensão **130°**, rotação **80°**, inclinação lateral **45°** para cada lado. E critérios sem goniômetro, que valem no consultório: a flexão é normal se o queixo encosta no tórax; a extensão, quando a fronte e o nariz se alinham no plano horizontal; a rotação, quando o queixo se alinha com o ombro; e a inclinação lateral, quando alcança um ângulo igual ou maior que **45°**.
+  - **Torácica.** Rotação **75°** para cada lado, mais flexão, extensão e lateralidade. Outra descrição dá para esse segmento flexão **45°**, extensão **45°** e inclinação lateral **45°** para cada lado.
+  - **Lombar.** Flexão: **meça a distância entre as polpas digitais e o solo**. Extensão **30°**. Rotação **90°** para cada lado. Lateralidade **35°** para cada lado.
 
   **As duas medidas que valem ouro** são justamente as que dispensam goniômetro: **mento-fúrcula** na flexão cervical e **polpas digitais-solo** na flexão lombar. As duas produzem um número em centímetros, reprodutível pelo próximo examinador e comparável na consulta seguinte, que é exatamente o que uma anotação de "flexão limitada" não oferece.
 
-  **E o registro tem formulário.** O roteiro pedagógico de Porto para o exame da coluna pede, para cada segmento, os seis movimentos (flexão, extensão, rotação direita e esquerda, lateralidade direita e esquerda) mais uma linha para as curvaturas. É um bom modelo de prontuário.
+  **E o registro tem formulário.** O roteiro pedagógico para o exame da coluna pede, para cada segmento, os seis movimentos (flexão, extensão, rotação direita e esquerda, lateralidade direita e esquerda) mais uma linha para as curvaturas. É um bom modelo de prontuário.
 :::
 
 ::: conceito
@@ -262,13 +262,13 @@ titulo: "O teste de Schober: o que este guia faz com ele"
 texto: |
   O leitor encontrará, em textos de reumatologia e de ortopedia, o **teste de Schober**, uma medida de flexão lombar em que se marca a pele e se mede o quanto a distância entre as marcas aumenta com o tronco fletido. Ele é citado com frequência na avaliação das espondiloartrites.
 
-  **Nenhuma das quatro obras adotadas por este guia descreve esse teste.** Não é omissão de leitura: a busca foi feita nas quatro, e ele não aparece em nenhuma, nem na descrição da técnica, nem entre as manobras da coluna, nem no capítulo de espondilite anquilosante.
+  **Nenhuma das referências deste guia descreve esse teste.** Não é omissão de leitura: a busca foi feita em todas elas, e ele não aparece em nenhuma, nem na descrição da técnica, nem entre as manobras da coluna, nem no capítulo de espondilite anquilosante.
 
-  A regra editorial deste guia é a mesma de sempre, e ela vale mais do que a conveniência de completar uma lista: **não se ensina técnica cuja âncora não existe nas fontes adotadas**, e não se importa de fora a descrição de um gesto para preencher lacuna. Por isso o teste é **nomeado aqui e não ensinado**.
+  A regra editorial deste guia é a mesma de sempre, e ela vale mais do que a conveniência de completar uma lista: **não se ensina técnica cuja âncora não existe nas referências do guia**, e não se importa de fora a descrição de um gesto para preencher lacuna. Por isso o teste é **nomeado aqui e não ensinado**.
 
-  O que as fontes adotadas oferecem no lugar, para a mesma pergunta, quanto a coluna lombar flete, é a **distância entre as polpas digitais e o solo**, que Porto manda medir, e a inspeção dinâmica de Semiologia Clínica, que pede ao paciente alcançar os pés com as mãos mantendo os joelhos retos, registrando onde a dor aparece e o que ela limita. São medidas mais grosseiras que a de Schober, e são as que este guia pode sustentar.
+  O que as referências do guia oferecem no lugar, para a mesma pergunta, quanto a coluna lombar flete, é a **distância entre as polpas digitais e o solo**, que se manda medir, e a inspeção dinâmica que pede ao paciente alcançar os pés com as mãos mantendo os joelhos retos, registrando onde a dor aparece e o que ela limita. São medidas mais grosseiras que a de Schober, e são as que este guia pode sustentar.
 
-  A mesma decisão vale para as manobras sacroilíacas: **Gaenslen** é **nomeada** por Semiologia Clínica como manobra capaz de demonstrar sacroileíte, mas **não é descrita**, e por isso este guia a nomeia sem ensinar a técnica. **Patrick/FABERE**, que a mesma obra descreve passo a passo, é ensinada adiante.
+  A mesma decisão vale para as manobras sacroilíacas: **Gaenslen** é **nomeada** como manobra capaz de demonstrar sacroileíte, mas **não é descrita**, e por isso este guia a nomeia sem ensinar a técnica. **Patrick/FABERE**, descrita passo a passo nas referências, é ensinada adiante.
 :::
 
 ::: pense
@@ -285,22 +285,22 @@ titulo: Testes que estiram e testes que comprimem
 ::: conceito
 titulo: Três mecanismos, e a manobra que corresponde a cada um
 texto: |
-  Porto organiza os testes da coluna por **mecanismo**, o que é mais útil do que uma lista de epônimos. A dor pode ser agravada basicamente de três maneiras:
+  Os testes da coluna se organizam por **mecanismo**, o que é mais útil do que uma lista de epônimos. A dor pode ser agravada basicamente de três maneiras:
 
   **1. Estreitando o forame de conjugação.**
 
   - **Manobra de Valsalva**: pede-se ao paciente que segure o ar e faça força abdominal, como para evacuar. O gesto eleva a pressão intratecal; havendo afecção expansiva ou compressiva, como neoplasia ou hérnia discal, o paciente relata dor. É o mesmo mecanismo pelo qual, na hérnia discal, a dor piora ao **tossir, espirrar, evacuar e urinar**.
   - **Sinal de Lasègue**: descrito no bloco seguinte.
-  - **Sinal de Bragard**, Porto o descreve como manobra de confirmação: com o membro elevado, faz-se a **dorsiflexão do pé**, o que exacerba a dor. Semiologia Clínica descreve uma variante mais refinada: **depois** de baixar o membro até a posição em que os sintomas desapareceram, faz-se a dorsiflexão passiva do tornozelo, o que permite separar irritação radicular de encurtamento dos isquiotibiais.
+  - **Sinal de Bragard**, descrito como manobra de confirmação: com o membro elevado, faz-se a **dorsiflexão do pé**, o que exacerba a dor. Há uma variante mais refinada: **depois** de baixar o membro até a posição em que os sintomas desapareceram, faz-se a dorsiflexão passiva do tornozelo, o que permite separar irritação radicular de encurtamento dos isquiotibiais.
   - **Elevação do membro sadio**: a dor que aparece no membro **oposto**, o afetado, sugere compressão mais central. É a prova cruzada, cujo desempenho está no tópico de marcha e sinais meníngeos.
 
-  **2. Alterando a função sensorimotora.** As afecções da coluna repercutem nos membros com alterações de sensibilidade, de força e de reflexos, e a topografia dessas alterações **localiza o nível** da compressão. Porto dá dois exemplos diretos: um bíceps fraco pode significar compressão de **C5**; a queda de potência nos dorsiflexores dos dedos e do pé aponta **L5 e S1**. A técnica de graduar a força e pesquisar os reflexos está no tópico de força, tônus e reflexos, com a correspondência completa entre raiz, músculo-chave e reflexo.
+  **2. Alterando a função sensorimotora.** As afecções da coluna repercutem nos membros com alterações de sensibilidade, de força e de reflexos, e a topografia dessas alterações **localiza o nível** da compressão. Dois exemplos diretos: um bíceps fraco pode significar compressão de **C5**; a queda de potência nos dorsiflexores dos dedos e do pé aponta **L5 e S1**. A técnica de graduar a força e pesquisar os reflexos está no tópico de força, tônus e reflexos, com a correspondência completa entre raiz, músculo-chave e reflexo.
 
-  Semiologia Clínica acrescenta uma manobra de consultório que testa esses dois níveis sem martelo nem escala: o **sinal das pontas**. Pede-se ao paciente que caminhe na ponta dos pés e depois sobre os calcanhares. Dificuldade em caminhar **na ponta dos pés** aponta comprometimento de **S1**, porque o gesto exige a flexão plantar do tríceps sural; dificuldade **nos calcanhares** aponta **L4/L5**, porque o gesto exige a dorsiflexão. Vale registrar uma divergência interna da própria obra: o texto do capítulo de lombalgia traz o pareamento invertido, mas a sua Tabela 2 de níveis motores atribui a **dorsiflexão do tornozelo a L4**, a extensão do hálux a L5 e a **flexão plantar (tríceps sural) a S1**, e é essa fisiologia, coerente com a literatura, que o guia adota.
+  Há uma manobra de consultório que testa esses dois níveis sem martelo nem escala: o **sinal das pontas**. Pede-se ao paciente que caminhe na ponta dos pés e depois sobre os calcanhares. Dificuldade em caminhar **na ponta dos pés** aponta comprometimento de **S1**, porque o gesto exige a flexão plantar do tríceps sural; dificuldade **nos calcanhares** aponta **L4/L5**, porque o gesto exige a dorsiflexão. Vale registrar que duas passagens das referências divergem sobre esse pareamento: um trecho traz o pareamento invertido, mas a tabulação de níveis motores atribui a **dorsiflexão do tornozelo a L4**, a extensão do hálux a L5 e a **flexão plantar (tríceps sural) a S1**, e é essa fisiologia, coerente com a literatura, que o guia adota.
 
-  **3. Comprimindo as superfícies articulares.** Porto descreve: pressiona-se **para baixo a cabeça** do paciente, de preferência sentado. É o mesmo princípio da **manobra de Spurling** descrita por Semiologia Clínica, em que a flexão lateral da cabeça é somada à pressão sobre o vértice, sendo o teste positivo quando os sintomas radiculares aumentam.
+  **3. Comprimindo as superfícies articulares.** Pressiona-se **para baixo a cabeça** do paciente, de preferência sentado. É o mesmo princípio da **manobra de Spurling**, em que a flexão lateral da cabeça é somada à pressão sobre o vértice, sendo o teste positivo quando os sintomas radiculares aumentam.
 
-  E há o teste que faz o contrário, também de Semiologia Clínica: o **teste de distração de Apley**, em que a tração da região cervical **alarga** os forames intervertebrais e **alivia** a dor, alívio que se explica pela redução da compressão radicular. Compressão que dói e tração que alivia respondem à mesma pergunta por caminhos opostos.
+  E há o teste que faz o contrário: o **teste de distração de Apley**, em que a tração da região cervical **alarga** os forames intervertebrais e **alivia** a dor, alívio que se explica pela redução da compressão radicular. Compressão que dói e tração que alivia respondem à mesma pergunta por caminhos opostos.
 :::
 
 ::: sinal
@@ -308,7 +308,7 @@ nome: Sinal das pontas
 descricao: |
   Manobra de consultório que testa os níveis lombossacros **sem martelo nem escala**: pede-se ao paciente que **caminhe na ponta dos pés** e depois **sobre os calcanhares**.
 significado: |
-  A topografia da dificuldade **localiza o nível** do comprometimento radicular: dificuldade **na ponta dos pés** aponta **S1**, porque o gesto exige a flexão plantar do tríceps sural; dificuldade **nos calcanhares** aponta **L4/L5**, porque exige a dorsiflexão. O texto de Semiologia Clínica traz o pareamento invertido, mas a Tabela 2 da própria obra e a fisiologia sustentam esta leitura, que o guia adota. É triagem motora dos membros inferiores embutida em dois passos de marcha; a graduação formal da força e os reflexos moram no tópico de força, tônus e reflexos.
+  A topografia da dificuldade **localiza o nível** do comprometimento radicular: dificuldade **na ponta dos pés** aponta **S1**, porque o gesto exige a flexão plantar do tríceps sural; dificuldade **nos calcanhares** aponta **L4/L5**, porque exige a dorsiflexão. Um dos textos de referência traz o pareamento invertido, mas a tabulação de níveis motores e a fisiologia sustentam esta leitura, que o guia adota. É triagem motora dos membros inferiores embutida em dois passos de marcha; a graduação formal da força e os reflexos moram no tópico de força, tônus e reflexos.
 causas:
   - "Radiculopatia lombossacra (hérnia discal, compressão radicular)"
 :::
@@ -316,7 +316,7 @@ causas:
 ::: sinal
 nome: Sinal de Bragard
 descricao: |
-  Manobra de confirmação do Lasègue. Porto: com o membro elevado, faz-se a **dorsiflexão do pé**, o que exacerba a dor. Semiologia Clínica refina: **depois de baixar o membro** até a posição em que os sintomas desapareceram, faz-se a **dorsiflexão passiva do tornozelo**.
+  Manobra de confirmação do Lasègue. Com o membro elevado, faz-se a **dorsiflexão do pé**, o que exacerba a dor. Uma variante refina a técnica: **depois de baixar o membro** até a posição em que os sintomas desapareceram, faz-se a **dorsiflexão passiva do tornozelo**.
 significado: |
   Existe para desfazer a dúvida que o Lasègue deixa: a dor da elevação vem de **compressão verdadeira do ciático ou de contratura dos isquiotibiais**? A dorsiflexão volta a estirar a raiz sem mudar a posição dos isquiotibiais: dor que reaparece fala de **irritação radicular**. A contratura fica confinada atrás da coxa; **a ciática costuma percorrer o membro todo**.
 causas:
@@ -336,8 +336,8 @@ causas:
 
 ::: sinal
 nome: Sinal de Lasègue e elevação da perna estendida
-descricao: "Com o paciente em decúbito dorsal e as pernas estendidas, o examinador eleva um dos membros inferiores sobre a bacia **sem deixar que o joelho dobre**, manobra que **estira o nervo ciático**. Porto considera o sinal positivo quando a dor surge até 60 graus, ângulo formado entre o membro elevado e a mesa de exame, e registra que bloqueio e dor até 30 graus sugerem hérnia discal. Semiologia Clínica descreve a versão em duas etapas: primeiro a flexão do quadril com o joelho fletido a 90 graus, que tensiona a coxofemoral, e depois a extensão do joelho, que tensiona o nervo."
-significado: "A manobra separa duas coisas que doem no mesmo movimento, e Porto dá o critério: cabe decidir se a dor despertada pela elevação vem de compressão verdadeira do ciático ou de contratura dos isquiotibiais, esta fica confinada atrás da coxa, ao passo que **a ciática costuma percorrer o membro todo**. O desempenho medido da elevação da perna estendida e da prova cruzada, com as razões de verossimilhança de McGee e a concordância entre observadores, está no tópico de marcha e sinais meníngeos e não se repete aqui. A confirmação se faz com o sinal de Bragard, e a elevação do membro sadio que dói no lado afetado sugere compressão mais central."
+descricao: "Com o paciente em decúbito dorsal e as pernas estendidas, o examinador eleva um dos membros inferiores sobre a bacia **sem deixar que o joelho dobre**, manobra que **estira o nervo ciático**. O sinal é considerado positivo quando a dor surge até 60 graus, ângulo formado entre o membro elevado e a mesa de exame, e bloqueio e dor até 30 graus sugerem hérnia discal. Há uma versão descrita em duas etapas: primeiro a flexão do quadril com o joelho fletido a 90 graus, que tensiona a coxofemoral, e depois a extensão do joelho, que tensiona o nervo."
+significado: "A manobra separa duas coisas que doem no mesmo movimento, e o critério é este: cabe decidir se a dor despertada pela elevação vem de compressão verdadeira do ciático ou de contratura dos isquiotibiais, esta fica confinada atrás da coxa, ao passo que **a ciática costuma percorrer o membro todo**. O desempenho medido da elevação da perna estendida e da prova cruzada, com as razões de verossimilhança e a concordância entre observadores, está no tópico de marcha e sinais meníngeos e não se repete aqui. A confirmação se faz com o sinal de Bragard, e a elevação do membro sadio que dói no lado afetado sugere compressão mais central."
 causas:
   - "Hérnia de disco lombossacra, com compressão radicular"
   - "Outras causas de compressão da raiz, como neoplasia e espondilolistese"
@@ -348,17 +348,17 @@ causas:
 ::: conceito
 titulo: As sacroilíacas e o teste de Patrick
 texto: |
-  Semiologia Clínica dá à sacroileíte um lugar de destaque: ela é característica das **espondiloartrites**, grupo diante do qual a suspeição precisa ser alta, porque as sequelas se instalam. E oferece três caminhos para demonstrá-la: **palpação direta** e as manobras de **Gaenslen** e de **Patrick**.
+  A sacroileíte tem um lugar de destaque: ela é característica das **espondiloartrites**, grupo diante do qual a suspeição precisa ser alta, porque as sequelas se instalam. E oferece três caminhos para demonstrá-la: **palpação direta** e as manobras de **Gaenslen** e de **Patrick**.
 
   **A cintura pélvica reúne três articulações**: a sacroilíaca, a coxofemoral e a sínfise púbica. A palpação, iniciada com o paciente de pé, percorre as espinhas ilíacas anterossuperior e posterior, a crista ilíaca, o trocanter maior, a tuberosidade isquiática e a sínfise púbica.
 
   **Teste de Patrick, também chamado FABERE**, o acrônimo descreve o próprio movimento: *flexion, abduction, external rotation*. Com o paciente em decúbito dorsal, fletem-se o quadril e o joelho a **90 graus** e apoia-se o tornozelo no joelho contrário; em seguida a coxa é abduzida e rodada para fora, rumo à mesa. Para avaliar a sacroilíaca, uma das mãos do examinador fixa a **crista ilíaca do lado que se investiga** e a outra empurra o **joelho oposto** em direção à mesa.
 
-  **E a leitura é topográfica, o que a torna especialmente útil:** dor que aparece **atrás** e do lado **contrário** ao joelho empurrado aponta as **sacroilíacas**; se ela for **do mesmo lado** do movimento, o problema tende a ser **coxofemoral**. Semiologia Clínica, no capítulo de lombalgia, diz o mesmo de outro modo: o teste importa para diferenciar o comprometimento da articulação do quadril, com dor anterior, da sacroileíte, com dor posterior.
+  **E a leitura é topográfica, o que a torna especialmente útil:** dor que aparece **atrás** e do lado **contrário** ao joelho empurrado aponta as **sacroilíacas**; se ela for **do mesmo lado** do movimento, o problema tende a ser **coxofemoral**. Dito de outro modo: o teste importa para diferenciar o comprometimento da articulação do quadril, com dor anterior, da sacroileíte, com dor posterior.
 
   A aplicação do mesmo teste ao **quadril**, e o repertório completo das amplitudes coxofemorais, pertence ao tópico de quadril e joelho deste capítulo.
 
-  **Uma nota de vocabulário que evita confusão.** Espondiloartrite e espondiloartrose são palavras vizinhas com significados opostos: a primeira nomeia um grupo de doenças **inflamatórias** com sacroileíte e lombalgia que melhora com o movimento; a segunda, descrita por Porto, é a **artrose** da coluna, degeneração do disco, das facetas e dos ligamentos, com dor que melhora com o repouso.
+  **Uma nota de vocabulário que evita confusão.** Espondiloartrite e espondiloartrose são palavras vizinhas com significados opostos: a primeira nomeia um grupo de doenças **inflamatórias** com sacroileíte e lombalgia que melhora com o movimento; a segunda é a **artrose** da coluna, degeneração do disco, das facetas e dos ligamentos, com dor que melhora com o repouso.
 :::
 
 ::: sinal
@@ -380,9 +380,9 @@ titulo: Aprofundamento
 titulo: As bandeiras vermelhas da dor lombar
 nivel: avancado
 texto: |
-  A lombalgia é, na maioria das vezes, benigna e autolimitada: Semiologia Clínica define a forma **aguda** como autolimitada em cerca de **8 semanas**, com tendência à cura espontânea, e reserva **recorrente** para a recidiva em menos de 3 meses e **crônica** para a duração superior a 3 meses. O trabalho do exame clínico, portanto, não é confirmar a lombalgia comum: é **procurar ativamente as exceções**.
+  A lombalgia é, na maioria das vezes, benigna e autolimitada: a forma **aguda** se define como autolimitada em cerca de **8 semanas**, com tendência à cura espontânea, e reserva **recorrente** para a recidiva em menos de 3 meses e **crônica** para a duração superior a 3 meses. O trabalho do exame clínico, portanto, não é confirmar a lombalgia comum: é **procurar ativamente as exceções**.
 
-  Semiologia Clínica reúne essas exceções em uma lista de sinais de alarme que exigem avaliação imediata:
+  Essas exceções se reúnem em uma lista de sinais de alarme que exigem avaliação imediata:
 
   1. Trauma em quem já passou dos **50 anos**; ou qualquer paciente acima dos **70**.
   2. **Câncer prévio**, ou suspeita de neoplasia em curso.
@@ -400,9 +400,9 @@ texto: |
   14. Alteração neurológica com mais de **um mês**; ou déficit motor ou sensitivo que **avança**.
   15. **Seis semanas** ou mais de tratamento sem resposta.
 
-  **O item 9 merece leitura separada**, porque ele é a síndrome da cauda equina, e Porto a descreve com o mesmo conteúdo: na compressão grave aparecem **anestesia em sela** no períneo, perda do controle dos esfíncteres vesical e anal e déficit sensitivo e motor nas pernas. É a única linha desta lista que muda a conduta na mesma hora, e é a única cuja pesquisa, perguntar sobre esfíncteres e testar a sensibilidade perineal, o examinador costuma esquecer.
+  **O item 9 merece leitura separada**, porque ele é a síndrome da cauda equina, com o mesmo conteúdo: na compressão grave aparecem **anestesia em sela** no períneo, perda do controle dos esfíncteres vesical e anal e déficit sensitivo e motor nas pernas. É a única linha desta lista que muda a conduta na mesma hora, e é a única cuja pesquisa, perguntar sobre esfíncteres e testar a sensibilidade perineal, o examinador costuma esquecer.
 
-  **E há a lista que a lombalgia esconde.** Semiologia Clínica separa quatro diagnósticos diferenciais que se apresentam como dor lombar e não pertencem à coluna: **nefrolitíase**, com dor em flanco súbita e intensa, irradiada para a virilha, e sinal de Giordano positivo; **pancreatite**, com dor abdominal superior em faixa, náusea e vômito; **pielonefrite**, com ardência, aumento da frequência e da urgência urinária e febre; e **aneurisma de aorta abdominal**, cuja pesquisa é a palpação de massa pulsátil no abdome. Porto acrescenta os órgãos que produzem dor referida na coluna, entre eles o pâncreas, o duodeno, o rim e os genitais internos.
+  **E há a lista que a lombalgia esconde.** Separam-se quatro diagnósticos diferenciais que se apresentam como dor lombar e não pertencem à coluna: **nefrolitíase**, com dor em flanco súbita e intensa, irradiada para a virilha, e sinal de Giordano positivo; **pancreatite**, com dor abdominal superior em faixa, náusea e vômito; **pielonefrite**, com ardência, aumento da frequência e da urgência urinária e febre; e **aneurisma de aorta abdominal**, cuja pesquisa é a palpação de massa pulsátil no abdome. Somam-se os órgãos que produzem dor referida na coluna, entre eles o pâncreas, o duodeno, o rim e os genitais internos.
 
   **A conclusão prática.** Diante de dor lombar, o exame que importa não é só o da coluna: é a coluna **mais** a busca dirigida das bandeiras vermelhas, **mais** a palpação do abdome e a punho-percussão lombar. Um exame que ignora as três últimas linhas não é um exame de coluna incompleto: é um exame que pode perder um aneurisma.
 :::
@@ -413,23 +413,23 @@ nivel: avancado
 texto: |
   Duas doenças degenerativas da coluna lombar produzem dor que desce para a perna, e o exame clínico as separa antes de qualquer imagem: desde que se pergunte as coisas certas.
 
-  **O que desencadeia a dor.** Este é o eixo mais forte, e Porto o registra ao listar os fatores desencadeantes da dor: na **hérnia discal lombossacra**, dói **tudo que estire a raiz nervosa** (elevar a perna estendida, fletir o tronco) ou que eleve a pressão dentro do canal raquidiano, como tossir e espirrar. Na **estenose do canal lombar**, o desencadeante é outro: **a deambulação**. E Porto coloca, na mesma linha, a insuficiência arterial dos membros inferiores, porque as duas partilham esse gatilho.
+  **O que desencadeia a dor.** Este é o eixo mais forte, ao listar os fatores desencadeantes da dor: na **hérnia discal lombossacra**, dói **tudo que estire a raiz nervosa** (elevar a perna estendida, fletir o tronco) ou que eleve a pressão dentro do canal raquidiano, como tossir e espirrar. Na **estenose do canal lombar**, o desencadeante é outro: **a deambulação**. E, na mesma linha, está a insuficiência arterial dos membros inferiores, porque as duas partilham esse gatilho.
 
-  **A postura que o paciente adota.** McGee descreve, no capítulo de postura e marcha, o achado que assina a estenose: esses pacientes assumem uma **postura fletida**, que **reduz a tensão sobre os nervos lombossacros**. Ele acrescenta a observação que evita o erro de leitura mais provável: à primeira vista essa postura fletida lembra a da doença de Parkinson, mas os pacientes com estenose **se queixam de dor** e têm, no mais, **marcha normal**.
+  **A postura que o paciente adota.** O achado que assina a estenose é este: esses pacientes assumem uma **postura fletida**, que **reduz a tensão sobre os nervos lombossacros**. Ele acrescenta a observação que evita o erro de leitura mais provável: à primeira vista essa postura fletida lembra a da doença de Parkinson, mas os pacientes com estenose **se queixam de dor** e têm, no mais, **marcha normal**.
 
   Repare no contraste que se forma: a estenose melhora com a coluna fletida e piora andando; a hérnia piora justamente com a flexão do tronco e com tudo que estira a raiz. **É o mesmo movimento com o sinal trocado.**
 
-  **A dor em repouso.** Porto separa também aqui. Na **hérnia discal**, a dor é **contínua, mesmo em repouso**, e piora muito aos movimentos. Na **espondiloartrose**, ela cede ao repouso, aperta nos primeiros movimentos e depois **afrouxa conforme eles continuam**: o padrão que o paciente descreve como "preciso me soltar".
+  **A dor em repouso.** A distinção vale também aqui. Na **hérnia discal**, a dor é **contínua, mesmo em repouso**, e piora muito aos movimentos. Na **espondiloartrose**, ela cede ao repouso, aperta nos primeiros movimentos e depois **afrouxa conforme eles continuam**: o padrão que o paciente descreve como "preciso me soltar".
 
-  **O que o exame acrescenta.** Na hérnia, Porto descreve o conjunto: contratura muscular com posição antálgica, retificação da lordose, dor à palpação próxima ao disco herniado, áreas de hipo ou hiperestesia por dermátomo e reflexos diminuídos ou ausentes conforme a raiz. Os níveis mais frequentes são **L4/L5 e L5/S1** na região lombar e **C4/C5 e C5/C6** na cervical: os pontos de maior mobilidade e, por isso, de desgaste mais precoce.
+  **O que o exame acrescenta.** Na hérnia, o conjunto é este: contratura muscular com posição antálgica, retificação da lordose, dor à palpação próxima ao disco herniado, áreas de hipo ou hiperestesia por dermátomo e reflexos diminuídos ou ausentes conforme a raiz. Os níveis mais frequentes são **L4/L5 e L5/S1** na região lombar e **C4/C5 e C5/C6** na cervical: os pontos de maior mobilidade e, por isso, de desgaste mais precoce.
 
-  **Uma advertência que fecha o raciocínio**, e é de Porto: **radiografia de coluna normal não exclui hérnia de disco.** O exame clínico não está pedindo licença ao raio X.
+  **Uma advertência que fecha o raciocínio**: **radiografia de coluna normal não exclui hérnia de disco.** O exame clínico não está pedindo licença ao raio X.
 
-  **E o que não se pode fazer aqui.** Nenhuma das obras adotadas mede o desempenho de qualquer achado para separar estenose de hérnia. O que existe é o conjunto acima (desencadeante, postura, comportamento em repouso e topografia neurológica) e ele é um bom conjunto. Não é uma razão de verossimilhança, e este guia não vai fingir que é.
+  **E o que não se pode fazer aqui.** Nenhuma das referências do guia mede o desempenho de qualquer achado para separar estenose de hérnia. O que existe é o conjunto acima (desencadeante, postura, comportamento em repouso e topografia neurológica) e ele é um bom conjunto. Não é uma razão de verossimilhança, e este guia não vai fingir que é.
 :::
 
 ::: tabela
-titulo: Dor e parestesia por raiz na lombociatalgia por hérnia discal (Porto)
+titulo: Dor e parestesia por raiz na lombociatalgia por hérnia discal
 nivel: avancado
 colunas:
   - "Raiz e disco herniado"
@@ -455,15 +455,15 @@ linhas:
 titulo: Lendo a tabela, e a linha que quase ninguém percebe
 nivel: avancado
 texto: |
-  A tabela acima é do capítulo de doenças da coluna de Porto, e vale por três razões.
+  A tabela acima vale por três razões.
 
   **Primeira: a dor não localiza sozinha.** Os três territórios de dor começam iguais, região lombar e face posterior da coxa, e só divergem **abaixo do joelho**. É por isso que perguntar "até onde desce" vale mais que perguntar "onde dói": a perna lateral aponta L5, a perna posterior e o calcanhar apontam S1, a perna medial aponta L4.
 
   **Segunda: a linha de L5 é a que mais engana.** Nela, os **reflexos tendinosos são normais**. Um paciente com ciatalgia intensa, dorsiflexão fraca e reflexos patelar e aquileu preservados não tem exame neurológico normal: tem exatamente o exame que a compressão de L5 produz. Quem procura assimetria de reflexo como prova de radiculopatia perde essa raiz.
 
-  **Terceira: os músculos-chave desta tabela já foram ensinados.** A correspondência entre raiz, músculo e reflexo está no tópico de força, tônus e reflexos, com a mesma L4 na dorsiflexão do tornozelo, L5 na extensão do hálux e S1 na flexão plantar. E os achados que mais elevam a probabilidade de radiculopatia lombossacra em pacientes com ciática: a atrofia da panturrilha, a fraqueza da dorsiflexão do tornozelo, a prova cruzada e o reflexo aquileu alterado, estão no tópico de marcha e sinais meníngeos, com os números de McGee.
+  **Terceira: os músculos-chave desta tabela já foram ensinados.** A correspondência entre raiz, músculo e reflexo está no tópico de força, tônus e reflexos, com a mesma L4 na dorsiflexão do tornozelo, L5 na extensão do hálux e S1 na flexão plantar. E os achados que mais elevam a probabilidade de radiculopatia lombossacra em pacientes com ciática: a atrofia da panturrilha, a fraqueza da dorsiflexão do tornozelo, a prova cruzada e o reflexo aquileu alterado, estão no tópico de marcha e sinais meníngeos.
 
-  **Uma divergência interna que o leitor deve conhecer.** Porto, no capítulo de exame clínico da coluna, atribui a integridade de **L4 ao reflexo patelar** e a de **L5 e S1 ao patelar e ao aquileu**; na tabela das lombociatalgias, do capítulo seguinte, é o patelar que cai em L4, os reflexos ficam normais em L5 e o aquileu cai em S1. A segunda versão é a que coincide com Semiologia Clínica e com a tabela já publicada no tópico de força, tônus e reflexos, e é a que este guia adota. A primeira fica registrada porque quem consultar a obra vai encontrá-la.
+  **Uma divergência interna que o leitor deve conhecer.** Uma passagem das referências atribui a integridade de **L4 ao reflexo patelar** e a de **L5 e S1 ao patelar e ao aquileu**; outra passagem, na tabela das lombociatalgias, traz o patelar caindo em L4, os reflexos normais em L5 e o aquileu em S1. A segunda versão é a que coincide com a tabela já publicada no tópico de força, tônus e reflexos, e é a que este guia adota. A primeira fica registrada porque quem consultar as referências vai encontrá-la.
 :::
 
 ::: conceito
@@ -472,13 +472,13 @@ nivel: avancado
 texto: |
   Há um padrão de dor lombar que inverte todas as expectativas do senso comum, e reconhecê-lo é a diferença entre diagnosticar uma espondiloartrite aos 25 anos ou aos 45.
 
-  **O padrão.** Porto: a história de dor vertebral, sobretudo dorsal e lombossacra, que **piora quando o paciente descansa e cede quando ele se mexe** é sugestiva de espondilite anquilosante, em especial em homem entre 20 e 40 anos. Ele acrescenta que a dor que cede ao movimento e **recrudesce à noite** é o retrato clássico das afecções inflamatórias, e que a doença começa nas **sacroilíacas** com tendência a comprometer toda a coluna.
+  **O padrão.** A história de dor vertebral, sobretudo dorsal e lombossacra, que **piora quando o paciente descansa e cede quando ele se mexe** é sugestiva de espondilite anquilosante, em especial em homem entre 20 e 40 anos. A dor que cede ao movimento e **recrudesce à noite** é o retrato clássico das afecções inflamatórias, e a doença começa nas **sacroilíacas** com tendência a comprometer toda a coluna.
 
-  Semiologia Clínica descreve o mesmo padrão de forma genérica na Tabela 1 do capítulo de artrites, piora com repouso, pior momento no início do dia, rigidez matinal prolongada, despertar noturno, sintomas constitucionais, e lista as características que reúnem o grupo das espondiloartrites: lombalgia de características inflamatórias, sacroileíte, artrite periférica com predomínio em membros inferiores, entesite, acometimento extra-articular ocular, cutâneo, intestinal e geniturinário, agregação familiar e boa resposta a anti-inflamatórios.
+  O mesmo padrão se descreve de forma genérica, com piora com repouso, pior momento no início do dia, rigidez matinal prolongada, despertar noturno, sintomas constitucionais, e as características que reúnem o grupo das espondiloartrites são: lombalgia de características inflamatórias, sacroileíte, artrite periférica com predomínio em membros inferiores, entesite, acometimento extra-articular ocular, cutâneo, intestinal e geniturinário, agregação familiar e boa resposta a anti-inflamatórios.
 
-  **A armadilha, e ela é cruel.** Porto registra, sobre a espondilite anquilosante: **conforme a coluna enrijece, a dor recua.** A incapacidade passa a vir da fixação dos corpos vertebrais, não da dor. Ou seja: um paciente que melhorou da dor lombar e perdeu mobilidade não está melhor, está mais avançado. É a razão de a **limitação da amplitude de movimento** figurar entre as bandeiras vermelhas de Semiologia Clínica.
+  **A armadilha, e ela é cruel.** Na espondilite anquilosante, **conforme a coluna enrijece, a dor recua.** A incapacidade passa a vir da fixação dos corpos vertebrais, não da dor. Ou seja: um paciente que melhorou da dor lombar e perdeu mobilidade não está melhor, está mais avançado. É a razão de a **limitação da amplitude de movimento** figurar entre as bandeiras vermelhas.
 
-  **O que o exame procura, então.** Não a dor, que pode ter ido embora, mas o que sobrou dela: a **posição de esquiador** (lordose cervical aumentada, cifose dorsal, lordose lombossacra e joelhos fletidos) a limitação nos três planos e a dor sacroilíaca à palpação direta ou ao teste de Patrick. Porto acrescenta as manifestações extra-articulares que confirmam o terreno: insuficiência aórtica, uveíte ou irite e fibrose pulmonar.
+  **O que o exame procura, então.** Não a dor, que pode ter ido embora, mas o que sobrou dela: a **posição de esquiador** (lordose cervical aumentada, cifose dorsal, lordose lombossacra e joelhos fletidos) a limitação nos três planos e a dor sacroilíaca à palpação direta ou ao teste de Patrick. Somam-se as manifestações extra-articulares que confirmam o terreno: insuficiência aórtica, uveíte ou irite e fibrose pulmonar.
 
   **Um contraste de vocabulário que fecha o bloco.** A dor que melhora com o repouso e piora ao movimento é mecânica: espondiloartrose, hérnia, sobrecarga. A dor que piora com o repouso e melhora ao movimento é inflamatória. **A mesma pergunta ("e quando o senhor descansa?") separa as duas famílias inteiras**, e ela leva cinco segundos.
 :::
@@ -489,7 +489,7 @@ nivel: avancado
 texto: |
   Um número solitário, e desconfortável, para calibrar a confiança em tudo que a inspeção da coluna produz.
 
-  Na Tabela 5.1 de McGee, que reúne a concordância entre observadores para os achados do exame físico, a **cifose** aparece com kappa de **0,37**. Para efeito de comparação dentro da mesma tabela, o baqueteamento digital avaliado pela **impressão geral** rende 0,33 a 0,45, enquanto o mesmo baqueteamento medido pela **razão de profundidade interfalangiana** chega a 0,98.
+  Na tabulação de concordância entre observadores para os achados do exame físico, a **cifose** aparece com kappa de **0,37**. Para efeito de comparação dentro da mesma tabulação, o baqueteamento digital avaliado pela **impressão geral** rende 0,33 a 0,45, enquanto o mesmo baqueteamento medido pela **razão de profundidade interfalangiana** chega a 0,98.
 
   A leitura é a mesma que este guia já fez para a rigidez de nuca no tópico de marcha e sinais meníngeos: **o que separa 0,37 de 0,98 não é o achado, é a definição operacional.** Quando cada examinador decide por impressão o que é "cifose aumentada", eles concordam pouco. Quando existe uma medida, eles concordam muito.
 
@@ -499,16 +499,16 @@ texto: |
 
   **2. Descreva antes de rotular.** "Cifose torácica acentuada, com o paciente incapaz de encostar o occipital na parede" é uma frase que o próximo examinador pode reproduzir. "Cifose" não é.
 
-  **3. A gibosidade é o achado mais confiável da inspeção da coluna**, e não porque alguém a mediu, nenhuma das quatro obras traz concordância para ela, mas porque ela é **binária e provocada**: ou aparece na flexão do tronco, ou não aparece. Achados provocados por uma manobra padronizada tendem a ser mais reprodutíveis que impressões colhidas em repouso, e essa é a lição que a Tabela 5.1 repete em cada uma de suas linhas.
+  **3. A gibosidade é o achado mais confiável da inspeção da coluna**, e não porque alguém a mediu, não há concordância medida para ela nas referências do guia, mas porque ela é **binária e provocada**: ou aparece na flexão do tronco, ou não aparece. Achados provocados por uma manobra padronizada tendem a ser mais reprodutíveis que impressões colhidas em repouso, e essa é a lição que a tabulação repete em cada uma de suas linhas.
 :::
 
 ::: conceito
 titulo: Onde este tópico encontra os outros
 texto: |
-  - **A prova de Lasègue com desempenho medido**: as razões de verossimilhança da prova convencional e da prova cruzada, e a concordância entre observadores das duas, está no tópico de **marcha e sinais meníngeos**, que também traz a origem do epônimo e o critério de McGee de que a dor precisa descer pela perna para o teste ser positivo. Ali também estão os achados que mais elevam a probabilidade de radiculopatia lombossacra.
+  - **A prova de Lasègue com desempenho medido**: as razões de verossimilhança da prova convencional e da prova cruzada, e a concordância entre observadores das duas, está no tópico de **marcha e sinais meníngeos**, que também traz a origem do epônimo e o critério de que a dor precisa descer pela perna para o teste ser positivo. Ali também estão os achados que mais elevam a probabilidade de radiculopatia lombossacra.
   - **A graduação da força de 0 a 5, os reflexos profundos e a correspondência entre raiz, músculo-chave e reflexo** estão no tópico de **força, tônus e reflexos**, que traz a tabela dos níveis motores de C5 a S1.
   - **Os dermátomos e a técnica de pesquisa da sensibilidade** estão no tópico de **sensibilidade e coordenação**.
-  - **As marchas** (antálgica, claudicante e as demais) estão em **marcha e sinais meníngeos**. Porto registra que a marcha claudicante ocorre na estenose do canal vertebral lombar, além da insuficiência arterial periférica e das lesões do aparelho locomotor.
+  - **As marchas** (antálgica, claudicante e as demais) estão em **marcha e sinais meníngeos**. A marcha claudicante ocorre na estenose do canal vertebral lombar, além da insuficiência arterial periférica e das lesões do aparelho locomotor.
   - **As definições de cifose, lordose e escoliose, a postura em três graus e a atitude** estão na **ectoscopia**.
   - **A dor da insuficiência arterial dos membros inferiores**, que compartilha com a estenose de canal o gatilho da deambulação, está no tópico de **insuficiência arterial crônica**.
   - **As deformidades do tórax que acompanham as da coluna** estão no tópico de **inspeção do tórax**.
@@ -523,10 +523,10 @@ titulo: Armadilhas do exame
 ::: conceito
 titulo: Seis erros no exame da coluna
 texto: |
-  1. **Examinar a coluna com o paciente deitado.** As curvaturas, a assimetria das cinturas e a atitude antálgica só existem em pé. Porto organiza o exame em três planos com o paciente em ortostase, e a inclinação anterior não tem equivalente no decúbito.
+  1. **Examinar a coluna com o paciente deitado.** As curvaturas, a assimetria das cinturas e a atitude antálgica só existem em pé. O exame se organiza em três planos com o paciente em ortostase, e a inclinação anterior não tem equivalente no decúbito.
   2. **Pular a inclinação anterior.** É a manobra que separa a escoliose estruturada da postural, porque só ela revela a rotação vertebral e a gibosidade. Sem ela, as duas parecem iguais, e têm prognósticos diferentes.
-  3. **Concluir por doença da coluna diante de um desnivelamento de cintura pélvica.** Porto ensina que esse achado sugere **discrepância de comprimento dos membros inferiores**, e a escoliose de compensação desaparece quando o membro mais curto é compensado.
-  4. **Chamar de negativo o Lasègue que dói na coxa.** Porto exige a distinção: dor limitada à face posterior da coxa é contratura dos isquiotibiais; a ciatalgia acomete todo o membro. O sinal de Bragard existe para desfazer essa dúvida.
+  3. **Concluir por doença da coluna diante de um desnivelamento de cintura pélvica.** Esse achado sugere **discrepância de comprimento dos membros inferiores**, e a escoliose de compensação desaparece quando o membro mais curto é compensado.
+  4. **Chamar de negativo o Lasègue que dói na coxa.** A distinção é exigida: dor limitada à face posterior da coxa é contratura dos isquiotibiais; a ciatalgia acomete todo o membro. O sinal de Bragard existe para desfazer essa dúvida.
   5. **Interpretar melhora da dor lombar como melhora da doença.** Na espondilite anquilosante, a dor diminui à medida que a coluna se torna rígida, e a incapacidade vem da fixação. Melhorar da dor e perder mobilidade é progressão, não resposta.
   6. **Não perguntar sobre esfíncteres e sensibilidade perineal.** Anestesia em sela, ciatalgia bilateral, fraqueza dos membros inferiores e disfunção urinária ou fecal formam a única bandeira vermelha que muda a conduta na mesma hora, e é a que o exame de rotina não procura sozinha.
 :::
@@ -570,7 +570,7 @@ perguntas:
       - "A inclinação anterior com os joelhos estendidos: a escoliose estruturada faz aparecer a gibosidade, na convexidade da curva, e a postural se corrige"
       - "A medida da distância entre as polpas digitais e o solo, cujo aumento indica curva estruturada"
     corretaIndex: 2
-    explicacao: "Porto, no Exame Clínico, pede que o paciente se incline para a frente fletindo o tronco ao máximo com os joelhos estendidos, e diz que essa posição permite reconhecer com facilidade a escoliose e a cifose. Na Semiologia Médica, ele explica o que a manobra revela: a escoliose estruturada só se deixa reconhecer com o tronco fletido, posição em que corpos vertebrais e costelas aparecem rodados e o dorso levanta a gibosidade, sempre do lado convexo. A escoliose postural, ao contrário, corrige-se pela flexão do tronco, pelo decúbito ou pela tração, e não cursa com rotação vertebral. A distância polpas digitais-solo mede a flexão lombar, não a rotação."
+    explicacao: "Pede-se que o paciente se incline para a frente fletindo o tronco ao máximo com os joelhos estendidos: essa posição permite reconhecer com facilidade a escoliose e a cifose. E a manobra revela mais: a escoliose estruturada só se deixa reconhecer com o tronco fletido, posição em que corpos vertebrais e costelas aparecem rodados e o dorso levanta a gibosidade, sempre do lado convexo. A escoliose postural, ao contrário, corrige-se pela flexão do tronco, pelo decúbito ou pela tração, e não cursa com rotação vertebral. A distância polpas digitais-solo mede a flexão lombar, não a rotação."
   - id: osteo-coluna-2
     enunciado: Um homem de 68 anos refere dor lombar e nas coxas que aparece ao caminhar e o obriga a parar; ele nota que fica melhor quando se inclina para a frente sobre o carrinho do supermercado. Que hipótese esse conjunto sustenta?
     alternativas:
@@ -579,7 +579,7 @@ perguntas:
       - "Lombalgia mecânica comum, agravada pela sobrecarga da musculatura paravertebral durante a marcha"
       - "Estenose do canal lombar, em que a deambulação é o desencadeante e a postura fletida reduz a tensão sobre os nervos lombossacros"
     corretaIndex: 3
-    explicacao: "Porto lista a deambulação como fator desencadeante da dor na estenose do canal lombar, ao lado da insuficiência arterial dos membros inferiores. McGee descreve, no capítulo de postura e marcha, que os pacientes com estenose adotam uma postura fletida que reduz a tensão sobre os nervos lombossacros, e acrescenta que eles se queixam de dor mas têm, no mais, marcha normal: o que os separa do parkinsoniano, que também tem postura fletida. Na hérnia discal o desencadeante é o oposto: qualquer movimento que estire a raiz, como a flexão do tronco e a elevação da perna estendida, ou que aumente a pressão intrarraquidiana, como tossir e espirrar."
+    explicacao: "A deambulação é fator desencadeante da dor na estenose do canal lombar, ao lado da insuficiência arterial dos membros inferiores. Os pacientes com estenose adotam uma postura fletida que reduz a tensão sobre os nervos lombossacros, e queixam-se de dor mas têm, no mais, marcha normal: o que os separa do parkinsoniano, que também tem postura fletida. Na hérnia discal o desencadeante é o oposto: qualquer movimento que estire a raiz, como a flexão do tronco e a elevação da perna estendida, ou que aumente a pressão intrarraquidiana, como tossir e espirrar."
   - id: osteo-coluna-3
     enunciado: Ao elevar a perna estendida de um paciente com lombalgia, aparece dor que ele localiza apenas na face posterior da coxa e que não desce além do joelho. Como interpretar?
     alternativas:
@@ -588,7 +588,7 @@ perguntas:
       - "Sinal da campainha, que se caracteriza por dor limitada à face posterior da coxa durante a elevação do membro e que, por definição, dispensa qualquer investigação radicular adicional"
       - "Comprometimento da raiz de S1, cujo território de dor corresponde à face posterior da coxa"
     corretaIndex: 0
-    explicacao: "Porto é explícito ao ensinar os testes de compressão: cabe ao examinador decidir se a dor que a elevação despertou nasce de compressão verdadeira do ciático ou de contratura dos isquiotibiais, esta última fica confinada atrás da coxa, ao passo que a ciática costuma percorrer o membro inteiro. O sinal de Bragard, com a dorsiflexão do pé, serve justamente para desfazer essa dúvida. O sinal da campainha, descrito por Porto em boxe, é a dor pelo trajeto do ciático despertada pela compressão da região lombar. O território de S1 inclui a face posterior da coxa, mas também a face posterior da perna e o calcanhar."
+    explicacao: "Ao ensinar os testes de compressão, o critério é explícito: cabe ao examinador decidir se a dor que a elevação despertou nasce de compressão verdadeira do ciático ou de contratura dos isquiotibiais, esta última fica confinada atrás da coxa, ao passo que a ciática costuma percorrer o membro inteiro. O sinal de Bragard, com a dorsiflexão do pé, serve justamente para desfazer essa dúvida. O sinal da campainha é a dor pelo trajeto do ciático despertada pela compressão da região lombar. O território de S1 inclui a face posterior da coxa, mas também a face posterior da perna e o calcanhar."
   - id: osteo-coluna-4
     enunciado: Uma mulher de 34 anos com lombalgia de dois anos conta que a dor piora quando ela fica parada, é pior ao acordar, melhora depois que ela se movimenta e chega a acordá-la de madrugada. Que leitura o padrão autoriza?
     alternativas:
@@ -597,7 +597,7 @@ perguntas:
       - "É dor referida de origem visceral, cuja marca é a ausência de relação com a movimentação da coluna"
       - "É dor neuropática, definida pela piora ao repouso e pela melhora ao movimento"
     corretaIndex: 1
-    explicacao: "Semiologia Clínica caracteriza a dor inflamatória por piora com o repouso e melhora com o esforço, pior momento no início do dia, rigidez matinal prolongada, despertar noturno e sintomas constitucionais. Porto registra que a história de dor vertebral que piora no descanso e cede com o movimento é sugestiva de espondilite anquilosante, sobretudo em adulto jovem, e registra como clássico, nas afecções inflamatórias, o par melhora ao movimento e piora noturna. As características comuns do grupo das espondiloartrites, segundo Semiologia Clínica, incluem lombalgia inflamatória, sacroileíte, artrite periférica de predomínio em membros inferiores e entesite."
+    explicacao: "A dor inflamatória se caracteriza por piora com o repouso e melhora com o esforço, pior momento no início do dia, rigidez matinal prolongada, despertar noturno e sintomas constitucionais. A história de dor vertebral que piora no descanso e cede com o movimento é sugestiva de espondilite anquilosante, sobretudo em adulto jovem, e é clássico, nas afecções inflamatórias, o par melhora ao movimento e piora noturna. As características comuns do grupo das espondiloartrites incluem lombalgia inflamatória, sacroileíte, artrite periférica de predomínio em membros inferiores e entesite."
   - id: osteo-coluna-5
     enunciado: Ao realizar o teste de Patrick em um paciente com dor lombar baixa, com a mão sobre a crista ilíaca de um lado e a outra pressionando o joelho contralateral em direção à mesa, o paciente refere dor posterior do lado contrário ao joelho pressionado. O que isso sugere?
     alternativas:
@@ -606,14 +606,14 @@ perguntas:
       - "Resultado sem valor localizatório, porque o teste de Patrick avalia simultaneamente sacroilíaca, coxofemoral e sínfise púbica e não permite distinguir a origem da dor"
       - "Acometimento da articulação sacroilíaca"
     corretaIndex: 3
-    explicacao: "Semiologia Clínica descreve o teste de Patrick, também chamado Faber, e dá a leitura topográfica: dor que aparece atrás e do lado contrário ao joelho empurrado aponta as sacroilíacas; se ela for do mesmo lado do movimento, o problema tende a ser coxofemoral. No capítulo de lombalgia, a mesma obra resume a finalidade do teste como diferenciar o comprometimento da articulação do quadril, com dor anterior, da sacroileíte, com dor posterior. A sacroileíte é característica das espondiloartrites e pode também ser demonstrada por palpação direta ou pela manobra de Gaenslen, que a obra nomeia mas não descreve."
+    explicacao: "O teste de Patrick, também chamado Faber, tem leitura topográfica: dor que aparece atrás e do lado contrário ao joelho empurrado aponta as sacroilíacas; se ela for do mesmo lado do movimento, o problema tende a ser coxofemoral. A finalidade do teste resume-se em diferenciar o comprometimento da articulação do quadril, com dor anterior, da sacroileíte, com dor posterior. A sacroileíte é característica das espondiloartrites e pode também ser demonstrada por palpação direta ou pela manobra de Gaenslen, nomeada mas não descrita nas referências do guia."
   - id: osteo-coluna-6
     enunciado: Por que este guia nomeia o teste de Schober mas não ensina sua técnica?
     alternativas:
-      - "Porque nenhuma das quatro obras adotadas o descreve, e o guia não importa de fora a descrição de uma manobra para preencher lacuna"
-      - "Porque seu desempenho medido foi considerado insuficiente pelas fontes adotadas, que recomendam substituí-lo pela distância polpas digitais-solo"
+      - "Porque nenhuma das referências do guia o descreve, e o guia não importa de fora a descrição de uma manobra para preencher lacuna"
+      - "Porque seu desempenho medido foi considerado insuficiente pelas referências do guia, que recomendam substituí-lo pela distância polpas digitais-solo"
       - "Porque ele avalia a coluna torácica, segmento cuja mobilidade reduzida torna a medida pouco informativa na prática clínica"
       - "Porque a manobra exige goniômetro e marcação da pele, recursos indisponíveis no exame de rotina à beira do leito"
     corretaIndex: 0
-    explicacao: "A busca nas quatro obras adotadas não encontra o teste de Schober em nenhuma delas, nem na descrição da técnica, nem entre as manobras da coluna, nem no capítulo de espondilite anquilosante. A regra editorial do guia é não ensinar técnica sem âncora nas fontes adotadas, e por isso o teste é nomeado e não ensinado. No lugar dele, para a mesma pergunta sobre a flexão lombar, as fontes oferecem a medida da distância entre as polpas digitais e o solo, que Porto prescreve, e a inspeção dinâmica de Semiologia Clínica. A mesma decisão vale para a manobra de Gaenslen, nomeada mas não descrita por Semiologia Clínica."
+    explicacao: "A busca nas referências do guia não encontra o teste de Schober em nenhuma delas, nem na descrição da técnica, nem entre as manobras da coluna, nem no capítulo de espondilite anquilosante. A regra editorial do guia é não ensinar técnica sem âncora nas referências do guia, e por isso o teste é nomeado e não ensinado. No lugar dele, para a mesma pergunta sobre a flexão lombar, as referências oferecem a medida da distância entre as polpas digitais e o solo, que se prescreve, e a inspeção dinâmica. A mesma decisão vale para a manobra de Gaenslen, nomeada mas não descrita."
 :::

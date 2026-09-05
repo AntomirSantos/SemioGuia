@@ -194,10 +194,10 @@ test('card "Revisão de hoje" mostra a contagem de itens vencidos e navega para 
     expect(getByText('Revisão de hoje')).toBeTruthy();
   });
   await waitFor(() => {
-    expect(getByText('1 pergunta · 0 estações')).toBeTruthy();
+    expect(getByText('1 pergunta · 0 estações · 0 sinais')).toBeTruthy();
   });
 
-  fireEvent.press(getByText('1 pergunta · 0 estações'));
+  fireEvent.press(getByText('1 pergunta · 0 estações · 0 sinais'));
   expect(router.push).toHaveBeenCalledWith('/revisao');
 });
 

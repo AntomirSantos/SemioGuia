@@ -69,22 +69,22 @@ titulo: O essencial
 ::: conceito
 titulo: A doença que se diagnostica pela história e se localiza pelo exame
 texto: |
-  A insuficiência arterial crônica dos membros: Porto a chama de **síndrome isquêmica crônica**, Semiologia Clínica de **insuficiência arterial periférica**, McGee de **doença vascular periférica**, é a redução progressiva do fluxo arterial por estreitamento da luz do vaso, quase sempre aterosclerótico.
+  A insuficiência arterial crônica dos membros, também chamada de **síndrome isquêmica crônica**, de **insuficiência arterial periférica** ou de **doença vascular periférica**, é a redução progressiva do fluxo arterial por estreitamento da luz do vaso, quase sempre aterosclerótico.
 
-  Três frases das fontes bastam para enquadrar o problema.
+  Três frases bastam para enquadrar o problema.
 
-  - **A doença é comum e silenciosa.** Semiologia Clínica registra que **cerca de metade dos portadores é assintomática**, e que a prevalência mundial foi calculada em 200 milhões de pessoas em 2010.
-  - **O diagnóstico é clínico.** Ainda em Semiologia Clínica, na conclusão do caso que fecha o capítulo: o índice tornozelo-braquial **corrobora** a hipótese já estabelecida pelo quadro clínico.
-  - **O exame não serve só para dizer se há doença: serve para dizer onde.** McGee abre o capítulo com isso: pela análise dos sintomas, pelo exame dos pulsos e pelo conhecimento da anatomia, o clínico consegue diagnosticar com precisão a distribuição e a gravidade da doença.
+  - **A doença é comum e silenciosa.** Registra-se que **cerca de metade dos portadores é assintomática**, e que a prevalência mundial foi calculada em 200 milhões de pessoas em 2010.
+  - **O diagnóstico é clínico.** Na conclusão de um caso ilustrativo: o índice tornozelo-braquial **corrobora** a hipótese já estabelecida pelo quadro clínico.
+  - **O exame não serve só para dizer se há doença: serve para dizer onde.** Vale isso: pela análise dos sintomas, pelo exame dos pulsos e pelo conhecimento da anatomia, o clínico consegue diagnosticar com precisão a distribuição e a gravidade da doença.
 
   **O que este tópico paga.** O interrogatório sintomatológico, no capítulo da entrevista clínica, promete uma revisão vascular inteira: claudicação intermitente e dor de repouso, alterações tróficas e ulcerações, mudanças de cor e de temperatura da pele, edema, fenômeno de Raynaud, acrocianose, livedo reticular e parestesias. São nove itens. Este tópico ensina sete deles; o **edema**, que é o quinto da lista, tem dono no tópico de pulso venoso jugular e turgência e reaparece no tópico seguinte; as **parestesias** e a sensibilidade do pé estão no capítulo neurológico.
 
   **O que fica como moldura, nomeada e não ensinada:**
 
   - o **Doppler portátil** e a técnica de medida do índice tornozelo-braço, que dependem dele. O índice entra aqui como **conceito** que fecha o raciocínio, com os pontos de corte das três obras, não como procedimento a executar;
-  - as **provas de esforço em esteira**, com medida de pressão antes e depois da caminhada, que Porto descreve entre os exames complementares;
-  - as **classificações de Fontaine e de Rutherford**, que estadiam a doença e que Porto apresenta em quadros próprios. São instrumentos de estadiamento, não achados de exame;
-  - a **oximetria de pulso no hálux** e o **ITB por palpação**, que McGee descreve como alternativas engenhosas ao Doppler, com a ressalva de que foram testadas sobretudo em pacientes assintomáticos.
+  - as **provas de esforço em esteira**, com medida de pressão antes e depois da caminhada, descritas entre os exames complementares;
+  - as **classificações de Fontaine e de Rutherford**, que estadiam a doença e que aparecem em quadros próprios. São instrumentos de estadiamento, não achados de exame;
+  - a **oximetria de pulso no hálux** e o **ITB por palpação**, alternativas engenhosas ao Doppler, com a ressalva de que foram testadas sobretudo em pacientes assintomáticos.
 :::
 
 ::: perola
@@ -108,16 +108,16 @@ passos:
   - "Se o resultado for duvidoso, peça flexão e extensão dos pés na frequência de 30 movimentos por minuto durante 3 minutos e reavalie."
   - "Terceiro tempo: devolva os membros à posição horizontal e conte o tempo até a cor voltar ao normal."
   - "Para o tempo de enchimento venoso, sente o paciente com as pernas pendentes e escolha uma veia proeminente no dorso do pé."
-  - "Deite o paciente, eleve o membro a 45 graus por 1 minuto e esvazie a veia; sente-o de novo com o pé pendente e conte quantos segundos a veia leva para voltar a aparecer acima da pele (versão de McGee; a de Porto difere, e a diferença está adiante)."
+  - "Deite o paciente, eleve o membro a 45 graus por 1 minuto e esvazie a veia; sente-o de novo com o pé pendente e conte quantos segundos a veia leva para voltar a aparecer acima da pele (uma versão; a outra difere, e a diferença está adiante)."
   - "Registre, ao final, a comparação entre os dois membros em cada item, e não apenas a impressão sobre o membro sintomático."
 observar: |
-  **A palidez aparece antes da cor voltar.** Na isquemia provocada, o achado do segundo tempo é a **palidez plantar** do membro comprometido, tanto mais intensa quanto pior a irrigação. No terceiro tempo, o que se mede é o tempo, e ele corre a partir da volta do membro à **posição horizontal**: em pessoas normais a coloração retorna em **5 a 12 segundos** (Porto). O número é de Porto e vale para essa posição, não para o membro pendente, em que a gravidade acelera o reenchimento e faria um membro isquêmico passar por normal. Havendo isquemia, o tempo se alonga, e o pé pode nem recuperar a cor normal, adquirindo em vez disso um tom vermelho-arroxeado ou vermelho vivo, a **hiperemia reativa**. Na isquemia muito acentuada, a hiperemia deixa de ser uniforme e vem entremeada de manchas pálidas; nesses pacientes, erguer o membro já dói.
+  **A palidez aparece antes da cor voltar.** Na isquemia provocada, o achado do segundo tempo é a **palidez plantar** do membro comprometido, tanto mais intensa quanto pior a irrigação. No terceiro tempo, o que se mede é o tempo, e ele corre a partir da volta do membro à **posição horizontal**: em pessoas normais a coloração retorna em **5 a 12 segundos**. O número vale para essa posição, não para o membro pendente, em que a gravidade acelera o reenchimento e faria um membro isquêmico passar por normal. Havendo isquemia, o tempo se alonga, e o pé pode nem recuperar a cor normal, adquirindo em vez disso um tom vermelho-arroxeado ou vermelho vivo, a **hiperemia reativa**. Na isquemia muito acentuada, a hiperemia deixa de ser uniforme e vem entremeada de manchas pálidas; nesses pacientes, erguer o membro já dói.
 
-  **Um detalhe de ambiente.** Porto pede que a temperatura da pele seja avaliada em ambiente de temperatura amena e estável, porque frio ou calor intensos mascaram alterações, e lembra que a variação térmica é mais bem captada pelo **dorso** dos dedos ou da mão do que pela palma.
+  **Um detalhe de ambiente.** Pede-se que a temperatura da pele seja avaliada em ambiente de temperatura amena e estável, porque frio ou calor intensos mascaram alterações, e a variação térmica é mais bem captada pelo **dorso** dos dedos ou da mão do que pela palma.
 
-  **Duas versões do tempo de enchimento venoso, e elas não coincidem.** Os passos acima seguem a versão de **McGee**, que é a única com desempenho medido: eleva-se o membro a **45 graus** por **1 minuto**, senta-se o paciente com o pé pendente e considera-se anormal um enchimento acima de **20 segundos**, o corte que rende razão de verossimilhança 3,6 na tabela de aprofundamento. **Porto** descreve a mesma ideia com outros parâmetros: eleva a cerca de **90 graus**, sem estipular duração, esvazia as veias deslizando a mão pelo trajeto delas, em direção à coxa, e dá como normal um enchimento de **cerca de 10 segundos**. Quem executar a versão de Porto e aplicar o corte de McGee estará somando duas medidas diferentes; nomeie a versão usada ao registrar.
+  **Duas versões do tempo de enchimento venoso, e elas não coincidem.** Os passos acima seguem uma versão, a única com desempenho medido: eleva-se o membro a **45 graus** por **1 minuto**, senta-se o paciente com o pé pendente e considera-se anormal um enchimento acima de **20 segundos**, o corte que rende razão de verossimilhança 3,6 na tabela de aprofundamento. Há uma versão alternativa com outros parâmetros: eleva a cerca de **90 graus**, sem estipular duração, esvazia as veias deslizando a mão pelo trajeto delas, em direção à coxa, e dá como normal um enchimento de **cerca de 10 segundos**. Quem executar a versão alternativa e aplicar o corte da primeira estará somando duas medidas diferentes; nomeie a versão usada ao registrar.
 
-  **O que anula o tempo de enchimento venoso.** Porto adverte que a manobra do enchimento venoso **não tem valor** em portadores de varizes, em pacientes submetidos a simpatectomia lombar, nem quando realizada em ambiente muito frio, pelo espasmo arteriolar e venoso que o frio provoca. É uma limitação grande: varizes e insuficiência arterial convivem no mesmo paciente com frequência.
+  **O que anula o tempo de enchimento venoso.** Sabe-se que a manobra do enchimento venoso **não tem valor** em portadores de varizes, em pacientes submetidos a simpatectomia lombar, nem quando realizada em ambiente muito frio, pelo espasmo arteriolar e venoso que o frio provoca. É uma limitação grande: varizes e insuficiência arterial convivem no mesmo paciente com frequência.
 :::
 
 ::: checklist
@@ -176,12 +176,12 @@ svg: |
     </g>
     <path d="M 268 166 Q 276 172, 286 166" stroke-width="1.1" stroke-dasharray="2 2" />
     <g font-family="sans-serif" font-size="7.5" fill="currentColor" stroke="none">
-      <text x="10" y="172">Normal: a elevação altera pouco ou nada a cor das plantas (Porto).</text>
-      <text x="10" y="182">Isquemia: palidez plantar à elevação (Porto) e rubor escuro na posição</text>
-      <text x="10" y="192">pendente (Semiologia Clínica, McGee), descrito sem tempo definido.</text>
+      <text x="10" y="172">Normal: a elevação altera pouco ou nada a cor das plantas.</text>
+      <text x="10" y="182">Isquemia: palidez plantar à elevação e rubor escuro na posição</text>
+      <text x="10" y="192">pendente, descrito sem tempo definido.</text>
     </g>
   </svg>
-legenda: "As duas posições que revelam a isquemia. À esquerda, a elevação drena o pouco sangue que o membro isquêmico consegue reter e revela a palidez plantar que o decúbito escondia: é o segundo tempo da manobra de Porto. À direita, a posição pendente devolve a gravidade e o leito capilar dilatado se enche de uma vez, produzindo o rubor escuro que Semiologia Clínica e McGee descrevem, e que nenhum dos dois cronometra. Repare no que a figura deliberadamente não traz: o relógio. Os 5 a 12 segundos de Porto medem o retorno da cor quando o membro volta à posição HORIZONTAL, no terceiro tempo, e não valem para o membro pendente: nessa posição a gravidade acelera o reenchimento e um membro isquêmico passaria por normal."
+legenda: "As duas posições que revelam a isquemia. À esquerda, a elevação drena o pouco sangue que o membro isquêmico consegue reter e revela a palidez plantar que o decúbito escondia: é o segundo tempo da manobra. À direita, a posição pendente devolve a gravidade e o leito capilar dilatado se enche de uma vez, produzindo o rubor escuro descrito, e que não é cronometrado. Repare no que a figura deliberadamente não traz: o relógio. Os 5 a 12 segundos medem o retorno da cor quando o membro volta à posição HORIZONTAL, no terceiro tempo, e não valem para o membro pendente: nessa posição a gravidade acelera o reenchimento e um membro isquêmico passaria por normal."
 :::
 
 ::: sinal
@@ -201,21 +201,21 @@ titulo: A claudicação e a dor de repouso
 ::: conceito
 titulo: A dor que anda com o paciente
 texto: |
-  A **claudicação intermitente** é a dor mais característica da doença arterial crônica e um dos primeiros sintomas a aparecer (Porto). O padrão é rígido, e é isso que a torna reconhecível: a dor surge durante o exercício, aumenta até obrigar o paciente a parar, **desaparece rapidamente com a interrupção** e volta depois de aproximadamente a mesma distância. Porto descreve o ciclo assim, com a repetição incluída, para, melhora, anda a mesma distância, para de novo.
+  A **claudicação intermitente** é a dor mais característica da doença arterial crônica e um dos primeiros sintomas a aparecer. O padrão é rígido, e é isso que a torna reconhecível: a dor surge durante o exercício, aumenta até obrigar o paciente a parar, **desaparece rapidamente com a interrupção** e volta depois de aproximadamente a mesma distância. O ciclo é assim, com a repetição incluída: para, melhora, anda a mesma distância, para de novo.
 
-  Dois números saem daí sem nenhum aparelho, e Porto os nomeia na prova da marcha: o **tempo de claudicação**, gasto até a dor aparecer, e o **tempo de incapacidade funcional**, até o paciente ser obrigado a parar.
+  Dois números saem daí sem nenhum aparelho, nomeados na prova da marcha: o **tempo de claudicação**, gasto até a dor aparecer, e o **tempo de incapacidade funcional**, até o paciente ser obrigado a parar.
 
-  **A distância é o termômetro da doença.** No início a dor só aparece em caminhadas longas; com a progressão, a distância vai encurtando, até o paciente não conseguir andar sem dor dentro de casa. Porto é explícito sobre o valor desse dado: analisada corretamente, a claudicação informa três coisas, quanto o segmento arterial está comprometido, como a doença vem evoluindo e quanta circulação colateral já se formou.
+  **A distância é o termômetro da doença.** No início a dor só aparece em caminhadas longas; com a progressão, a distância vai encurtando, até o paciente não conseguir andar sem dor dentro de casa. É explícito o valor desse dado: analisada corretamente, a claudicação informa três coisas, quanto o segmento arterial está comprometido, como a doença vem evoluindo e quanta circulação colateral já se formou.
 
-  **De onde vem a dor.** Do acúmulo de catabólitos ácidos e de restos da degradação tecidual, que acabam estimulando terminações nervosas. Porto, na *Semiologia Médica*, chama o conjunto de **fator P**, e entre seus catabólitos nomeia o ácido láctico, a amônia, o potássio e elementos fosforados, e faz a ressalva de que a falta de oxigênio, por si só, não é o que dói.
+  **De onde vem a dor.** Do acúmulo de catabólitos ácidos e de restos da degradação tecidual, que acabam estimulando terminações nervosas. O conjunto é chamado de **fator P**, e entre seus catabólitos nomeiam-se o ácido láctico, a amônia, o potássio e elementos fosforados, com a ressalva de que a falta de oxigênio, por si só, não é o que dói.
 
-  **A dor de repouso é outro estágio, não outra intensidade.** Quando a isquemia se agrava, aparece dor que não depende do exercício e que **piora com o paciente deitado**, porque o fluxo para os membros inferiores é um pouco maior de pé, pela gravidade. Daí a cena que Porto descreve em detalhe e que vale como sinal: o paciente dorme com o membro pendente para fora da cama, mas a dor não desaparece, porque a posição produz **edema postural** que agrava a isquemia; então ele se senta, apoia o pé na própria cama e fica alisando de leve a região doente, sem deixar que outra coisa a toque: até o lençol roçando torna a dor insuportável.
+  **A dor de repouso é outro estágio, não outra intensidade.** Quando a isquemia se agrava, aparece dor que não depende do exercício e que **piora com o paciente deitado**, porque o fluxo para os membros inferiores é um pouco maior de pé, pela gravidade. Daí a cena que vale como sinal: o paciente dorme com o membro pendente para fora da cama, mas a dor não desaparece, porque a posição produz **edema postural** que agrava a isquemia; então ele se senta, apoia o pé na própria cama e fica alisando de leve a região doente, sem deixar que outra coisa a toque: até o lençol roçando torna a dor insuportável.
 
-  Porto classifica a dor de repouso como sintoma de extrema gravidade: traduz isquemia intensa com risco de gangrena, que uma simples queda da temperatura ambiente pode desencadear.
+  A dor de repouso é sintoma de extrema gravidade: traduz isquemia intensa com risco de gangrena, que uma simples queda da temperatura ambiente pode desencadear.
 :::
 
 ::: tabela
-titulo: Três claudicações que se separam pela pergunta certa (Porto, Quadro 51.1)
+titulo: Três claudicações que se separam pela pergunta certa
 colunas:
   - "Tipo"
   - "O que o paciente descreve"
@@ -253,11 +253,11 @@ titulo: A pele, a cor e a temperatura
 ::: conceito
 titulo: O que a inspeção do membro isquêmico mostra
 texto: |
-  **Alterações tróficas.** Porto reúne, nas duas obras, uma lista longa. A pele afina e perde pelos; o tecido subcutâneo diminui; as unhas se alteram, ficando atróficas, quebradiças ou hiperqueratósicas; aparecem calosidades, sufusões hemorrágicas, bolhas, edema, ulcerações que não cicatrizam e, no extremo, gangrena. A pele atrófica fica **delgada, brilhante e lisa**, e se rompe com pequenos traumatismos. Quase tudo isso é próprio das arteriopatias **crônicas**: na oclusão aguda o repertório é bem menor, bolhas, edema e gangrena, e mais nada.
+  **Alterações tróficas.** Reúne-se uma lista longa. A pele afina e perde pelos; o tecido subcutâneo diminui; as unhas se alteram, ficando atróficas, quebradiças ou hiperqueratósicas; aparecem calosidades, sufusões hemorrágicas, bolhas, edema, ulcerações que não cicatrizam e, no extremo, gangrena. A pele atrófica fica **delgada, brilhante e lisa**, e se rompe com pequenos traumatismos. Quase tudo isso é próprio das arteriopatias **crônicas**: na oclusão aguda o repertório é bem menor, bolhas, edema e gangrena, e mais nada.
 
   As **calosidades** aparecem nos pontos de apoio: em geral sobre a cabeça do primeiro metatarsiano e a do quinto, nos calcanhares e nas polpas dos dedos. Doem, e podem ulcerar.
 
-  Semiologia Clínica acrescenta ao roteiro os **estigmas** que valem a inspeção geral e não só a do membro: as manchas de nicotina nos dedos, os xantelasmas e as cicatrizes de cirurgia cardíaca ou vascular anterior, e, no membro, o traço deixado pela retirada de enxerto de safena, as microembolizações e o livedo.
+  Somam-se ao roteiro os **estigmas** que valem a inspeção geral e não só a do membro: as manchas de nicotina nos dedos, os xantelasmas e as cicatrizes de cirurgia cardíaca ou vascular anterior, e, no membro, o traço deixado pela retirada de enxerto de safena, as microembolizações e o livedo.
 
   **Temperatura.** Quando a artéria se estreita e chega menos sangue, a pele esfria. O detalhe que a torna informativa é topográfico: nos quadros agudos, a **topografia da frialdade** serve para avaliar o nível da obstrução, o grau de vasospasmo e a magnitude da circulação colateral preexistente. Nas obstruções crônicas, a instalação lenta dá tempo para a colateral se formar, e a queda de temperatura é **menor**: motivo pelo qual um membro cronicamente isquêmico pode não estar frio.
 
@@ -265,38 +265,38 @@ texto: |
 
   - **Palidez**, quando o fluxo no leito cutâneo cai muito, por oclusão ou por espasmo.
   - **Cianose**, quando o fluxo capilar fica muito lento e quase todo o oxigênio é consumido, aumentando a hemoglobina reduzida.
-  - **Eritrocianose**: a coloração vermelho-arroxeada das extremidades com isquemia intensa, que aparece no estágio de **pré-gangrena**. Porto a explica pela dilatação dos capilares, arteriais e venosos: é a última cartada do organismo para levar oxigênio a tecidos que já quase não o recebem.
+  - **Eritrocianose**: a coloração vermelho-arroxeada das extremidades com isquemia intensa, que aparece no estágio de **pré-gangrena**. Explica-se pela dilatação dos capilares, arteriais e venosos: é a última cartada do organismo para levar oxigênio a tecidos que já quase não o recebem.
   - **Rubor**: ocorre principalmente nas doenças vasculares funcionais e vem da dilatação arteriolar e capilar.
 :::
 
 ::: conceito
 titulo: Uma divergência que muda o que se escreve no prontuário
 texto: |
-  Há um desacordo direto entre as fontes sobre o valor de três achados clássicos da inspeção, e ele precisa ser dito por inteiro.
+  Há um desacordo direto entre as referências sobre o valor de três achados clássicos da inspeção, e ele precisa ser dito por inteiro.
 
-  - **Porto** ensina a queda de pelos, a frialdade e as alterações ungueais como sinais da síndrome isquêmica crônica, e descreve com cuidado a topografia da frialdade como estimador do nível da obstrução.
-  - **Semiologia Clínica**, no capítulo de insuficiência arterial periférica, afirma o contrário com todas as letras: **não se pode confiar na queda de pelos, na temperatura nem no tempo de enchimento capilar**, porque outros fatores interferem em cada um deles. E acrescenta a saída: o que sugere isquemia é **a assimetria** entre um lado e outro.
-  - **McGee** mede e dá razão parcial aos dois: a pele atrófica e a ausência de pelos no membro inferior são diagnosticamente pouco úteis, enquanto o **pé assimetricamente mais frio** é um dos melhores achados do exame.
+  - **Uma posição** ensina a queda de pelos, a frialdade e as alterações ungueais como sinais da síndrome isquêmica crônica, e descreve com cuidado a topografia da frialdade como estimador do nível da obstrução.
+  - **Outra posição** afirma o contrário com todas as letras: **não se pode confiar na queda de pelos, na temperatura nem no tempo de enchimento capilar**, porque outros fatores interferem em cada um deles. E acrescenta a saída: o que sugere isquemia é **a assimetria** entre um lado e outro.
+  - **Uma terceira posição**, com números, dá razão parcial às duas: a pele atrófica e a ausência de pelos no membro inferior são diagnosticamente pouco úteis, enquanto o **pé assimetricamente mais frio** é um dos melhores achados do exame.
 
-  As três posições convergem em uma regra prática: **esses achados valem comparados, não isolados**. Registrar pé direito nitidamente mais frio que o esquerdo é diferente de registrar extremidades frias. E há uma sutileza que McGee explica e que invalida um registro muito comum: em um dos estudos, o achado foi definido como **pé mais frio que a panturrilha do mesmo lado**, o que é, na verdade, o normal, porque a temperatura da superfície cutânea diminui em direção aos pés, acompanhando a redução progressiva do fluxo cutâneo que conserva o calor do corpo.
+  As três posições convergem em uma regra prática: **esses achados valem comparados, não isolados**. Registrar pé direito nitidamente mais frio que o esquerdo é diferente de registrar extremidades frias. E há uma sutileza que explica e invalida um registro muito comum: em um dos estudos, o achado foi definido como **pé mais frio que a panturrilha do mesmo lado**, o que é, na verdade, o normal, porque a temperatura da superfície cutânea diminui em direção aos pés, acompanhando a redução progressiva do fluxo cutâneo que conserva o calor do corpo.
 :::
 
 ::: conceito
 titulo: "Mudanças de cor que não são isquemia: Raynaud, acrocianose e livedo"
 texto: |
-  Nem toda mudança de cor das extremidades vem de artéria entupida. Porto reúne um grupo à parte, as **doenças vasculares funcionais** ou distúrbios da microcirculação, e este é o lugar do guia em que elas ganham nome e descrição. Três delas aparecem na revisão de sistemas do interrogatório sintomatológico.
+  Nem toda mudança de cor das extremidades vem de artéria entupida. Há um grupo à parte, as **doenças vasculares funcionais** ou distúrbios da microcirculação, e este é o lugar do guia em que elas ganham nome e descrição. Três delas aparecem na revisão de sistemas do interrogatório sintomatológico.
 
   **Fenômeno de Raynaud.** É a alteração **sequencial** da cor da pele nas extremidades: palidez, depois cianose, depois rubor. Nem sempre ocorrem as três fases: pode haver palidez e cianose, ou cianose e rubor, ou apenas uma delas. A fisiopatologia explica a sequência: na primeira fase há vasospasmo com queda do fluxo para a rede capilar, e a pele fica pálida; na segunda, o espasmo das arteríolas cede e surge espasmo dos capilares venosos e vênulas, com estase, maior extração de oxigênio e cianose; na terceira, o vasospasmo desaparece, o leito capilar é inundado por sangue arterializado e a pele fica ruborizada. As crises são desencadeadas por **frio e por impactos emocionais**, e cursam com parestesias descritas como formigamento, agulhadas, queimação ou dormência. Predomina nas mãos, com predomínio feminino na proporção de 5:1.
 
-  Porto distingue a **doença** de Raynaud, de causa desconhecida, do **fenômeno** que acompanha outras condições: arteriopatias, doenças do tecido conjuntivo e do sistema nervoso, afecções hematológicas, compressão neurovascular cervicobraquial, traumatismos neurovasculares e intoxicações por metais pesados e por derivados do ergot. O diagnóstico da doença é **por exclusão**, e Porto lista critérios: crises desencadeadas por frio ou emoção, bilateralidade, ausência de gangrena ou gangrena limitada a pequenas áreas das polpas digitais, ausência de causa orgânica identificável e duração dos sintomas de pelo menos 2 anos.
+  Distingue-se a **doença** de Raynaud, de causa desconhecida, do **fenômeno** que acompanha outras condições: arteriopatias, doenças do tecido conjuntivo e do sistema nervoso, afecções hematológicas, compressão neurovascular cervicobraquial, traumatismos neurovasculares e intoxicações por metais pesados e por derivados do ergot. O diagnóstico da doença é **por exclusão**, com critérios: crises desencadeadas por frio ou emoção, bilateralidade, ausência de gangrena ou gangrena limitada a pequenas áreas das polpas digitais, ausência de causa orgânica identificável e duração dos sintomas de pelo menos 2 anos.
 
-  **Acrocianose.** Cianose **persistente** da porção distal dos membros, que não sobe além dos punhos nem dos tornozelos, com hipotermia e suor excessivo nos dedos e nas mãos; nariz e orelhas raramente participam. É mais frequente entre mulheres jovens e na meia-idade, tem curso benigno e pode sumir na vida adulta. O que a separa do Raynaud, e Porto insiste nisso, é a **natureza constante**: não há crise nem sequência de cores. E há um dado de exame que fecha o raciocínio no leito: **todos os pulsos periféricos são palpáveis e normais**.
+  **Acrocianose.** Cianose **persistente** da porção distal dos membros, que não sobe além dos punhos nem dos tornozelos, com hipotermia e suor excessivo nos dedos e nas mãos; nariz e orelhas raramente participam. É mais frequente entre mulheres jovens e na meia-idade, tem curso benigno e pode sumir na vida adulta. O que a separa do Raynaud é a **natureza constante**: não há crise nem sequência de cores. E há um dado de exame que fecha o raciocínio no leito: **todos os pulsos periféricos são palpáveis e normais**.
 
-  **Livedo reticular.** Manchas vermelhas ou cianóticas em malhas de rede circundando **áreas centrais pálidas**, que dão à pele aspecto de mármore, daí o nome **cutis marmorata** da forma leve. Localiza-se nas extremidades e no tronco, e resulta de espasmo arteriolar seguido de dilatação de capilares e vênulas: cada arteríola ascendente irriga um cone de pele, e o sangue dessaturado estagna na periferia dos cones, onde eles se anastomosam, a malha cianótica é a fronteira entre cones, e o centro de cada cone empalidece. Uma divergência interna a Porto merece registro: no capítulo de doenças da microcirculação, as manchas circundariam áreas de pele normal; no capítulo de exame clínico das artérias e no *Exame Clínico*, circundam áreas de palidez. **O guia adota a segunda versão**, que é a das descrições dermatológicas de referência (a rede cianótica em torno de centros pálidos) e a que a fisiopatologia explica; o aspecto de mármore é o mesmo nas três passagens: o *Exame Clínico* chega a ele falando em placas, e não em malhas. Porto descreve duas formas: uma leve, que só aparece com a exposição ao frio, desaparece nas épocas quentes e não produz alterações tróficas; e outra mais intensa, que compromete o tronco, não desaparece no calor e pode evoluir com dor, parestesias, gangrenas cutâneas e úlceras. O livedo pode ser **secundário** e acompanhar outra doença (autoimune, tromboangiite obliterante, policitemia, crioglobulinemia) ou uma intoxicação: o que faz dele um achado que obriga a procurar outra doença.
+  **Livedo reticular.** Manchas vermelhas ou cianóticas em malhas de rede circundando **áreas centrais pálidas**, que dão à pele aspecto de mármore, daí o nome **cutis marmorata** da forma leve. Localiza-se nas extremidades e no tronco, e resulta de espasmo arteriolar seguido de dilatação de capilares e vênulas: cada arteríola ascendente irriga um cone de pele, e o sangue dessaturado estagna na periferia dos cones, onde eles se anastomosam, a malha cianótica é a fronteira entre cones, e o centro de cada cone empalidece. Há uma divergência interna das referências que merece registro: em uma passagem, as manchas circundariam áreas de pele normal; em outras duas, circundam áreas de palidez. **O guia adota a segunda versão**, que é a das descrições dermatológicas de referência (a rede cianótica em torno de centros pálidos) e a que a fisiopatologia explica; o aspecto de mármore é o mesmo nas três passagens, ainda que uma delas fale em placas, e não em malhas. Descrevem-se duas formas: uma leve, que só aparece com a exposição ao frio, desaparece nas épocas quentes e não produz alterações tróficas; e outra mais intensa, que compromete o tronco, não desaparece no calor e pode evoluir com dor, parestesias, gangrenas cutâneas e úlceras. O livedo pode ser **secundário** e acompanhar outra doença (autoimune, tromboangiite obliterante, policitemia, crioglobulinemia) ou uma intoxicação: o que faz dele um achado que obriga a procurar outra doença.
 
   As três respondem fortemente à temperatura ambiente: pioram no frio e cedem no calor. Um quarto quadro do mesmo grupo, a **eritromelalgia**, faz o inverso: crises de vermelhidão, hipertermia e dor em queimação desencadeadas pelo **calor**, que melhoram com a elevação dos membros e com água fria. Fica nomeada aqui.
 
-  Nenhum desses quadros é diagnosticado por manobra de beira do leito neste guia: a prova da alternância de temperatura e a capilaroscopia, que Porto descreve na acrocianose, são exames de laboratório vascular e ficam de fora.
+  Nenhum desses quadros é diagnosticado por manobra de beira do leito neste guia: a prova da alternância de temperatura e a capilaroscopia são exames de laboratório vascular e ficam de fora.
 :::
 
 ::: sinal
@@ -327,7 +327,7 @@ nome: Fenômeno de Raynaud
 descricao: |
   Alteração **sequencial** da cor da pele nas extremidades: **palidez, depois cianose, depois rubor**, nem sempre com as três fases. As crises são desencadeadas por **frio e por impactos emocionais**, cursam com formigamento, agulhadas, queimação ou dormência, e predominam nas mãos.
 significado: |
-  A sequência conta a fisiopatologia: vasospasmo (palidez), estase capilar com maior extração de oxigênio (cianose), reperfusão (rubor). Porto separa a **doença** de Raynaud, diagnóstico **por exclusão**, do **fenômeno** que acompanha outras condições, e é o fenômeno que obriga a procurar a doença por trás.
+  A sequência conta a fisiopatologia: vasospasmo (palidez), estase capilar com maior extração de oxigênio (cianose), reperfusão (rubor). Separa-se a **doença** de Raynaud, diagnóstico **por exclusão**, do **fenômeno** que acompanha outras condições, e é o fenômeno que obriga a procurar a doença por trás.
 causas:
   - "Doença de Raynaud (por exclusão: crises por frio ou emoção, bilaterais, sem causa orgânica, por pelo menos 2 anos)"
   - "Doenças do tecido conjuntivo e arteriopatias"
@@ -408,7 +408,7 @@ linhas:
     - "Bordas do pé, calcanhar, região dos maléolos, polpas dos dedos e contorno das unhas"
     - "Principalmente a região perimaleolar interna; em casos avançados, circunda o terço inferior da perna"
   - - "Fundo e bordas"
-    - "Fundo com material necrótico e cicatrização difícil; nenhuma das quatro obras descreve as bordas da úlcera isquêmica"
+    - "Fundo com material necrótico e cicatrização difícil; as bordas da úlcera isquêmica não têm descrição própria nas referências do guia"
     - "Rasa, bordas nítidas, com secreção serosa ou seropurulenta"
   - - "Dor"
     - "Muito dolorosa"
@@ -427,13 +427,13 @@ linhas:
 ::: conceito
 titulo: Duas úlceras que não são nem uma nem outra
 texto: |
-  A dicotomia arterial-venosa resolve a maioria dos casos, mas Porto descreve duas úlceras de perna que não entram em nenhuma das duas colunas e que produzem erro quando forçadas para dentro delas.
+  A dicotomia arterial-venosa resolve a maioria dos casos, mas há duas úlceras de perna que não entram em nenhuma das duas colunas e que produzem erro quando forçadas para dentro delas.
 
   **Mal perfurante plantar.** Em diabéticos e em hansenianos, a úlcera escolhe outro endereço: as **polpas dos dedos e os pontos de pressão da planta**. Têm contornos nítidos, bordas circulares e hiperqueratósicas, podem conter secreção purulenta e, o dado que muda tudo, **em geral são indolores**. A ausência de dor não é sinal de benignidade: é sinal de neuropatia, e é ela que permitiu à úlcera chegar àquele tamanho sem ser notada.
 
-  **Úlcera da hipertensão arterial de longa duração**, que Porto também associa à anemia falciforme no *Exame Clínico*. Fica de preferência no **terço inferior da perna, pela face lateral**; é superficial, com contorno regular e fundo necrótico, e **dói muito**. A causa está nas arteríolas da pele obstruídas: arterioloesclerose e microembolias.
+  **Úlcera da hipertensão arterial de longa duração**, também associada à anemia falciforme. Fica de preferência no **terço inferior da perna, pela face lateral**; é superficial, com contorno regular e fundo necrótico, e **dói muito**. A causa está nas arteríolas da pele obstruídas: arterioloesclerose e microembolias.
 
-  Vale ainda a regra topográfica que Porto dá para as úlceras venosas e que serve de alarme: **a ferida que aparece acima do terço médio da perna raramente é venosa**, em geral tem outra causa.
+  Vale ainda a regra topográfica para as úlceras venosas e que serve de alarme: **a ferida que aparece acima do terço médio da perna raramente é venosa**, em geral tem outra causa.
 
   As lesões elementares da pele e o vocabulário para descrever qualquer ferida (bordas, fundo, secreção, halo) estão no tópico de pele, mucosas e fâneros.
 :::
@@ -441,7 +441,7 @@ texto: |
 ::: sinal
 nome: Gangrena seca e gangrena úmida
 descricao: "Morte de tecidos por isquemia intensa, aguda ou crônica. Na gangrena seca, os tecidos desidratam, ficam **secos, duros e mumificados**, a pele fica preta e firmemente aderida aos planos profundos, o limite entre o tecido são e o tecido morto é nítido, e com a evolução aparece ali um sulco de delimitação. Na gangrena úmida, os limites são imprecisos, há dor, edema e sinais inflamatórios, secreção serossanguinolenta ou purulenta de mau cheiro, e a pele necrosada fica escura, de consistência elástica, deslizando facilmente sobre os planos profundos."
-significado: "A distinção não é acadêmica: quando há infecção e toxemia, **a gangrena úmida pode matar**, e Porto a trata como condição de emergência. A gangrena seca ocorre principalmente na arteriosclerose obliterante periférica e na evolução tardia das oclusões arteriais agudas; durante a instalação há dor, que depois desaparece. Porto acrescenta que a gangrena gasosa é fenômeno diferente dos dois: o oxigênio chega normalmente, e quem falha é a célula, incapaz de aproveitá-lo por ação de endotoxinas bacterianas."
+significado: "A distinção não é acadêmica: quando há infecção e toxemia, **a gangrena úmida pode matar**, tratada como condição de emergência. A gangrena seca ocorre principalmente na arteriosclerose obliterante periférica e na evolução tardia das oclusões arteriais agudas; durante a instalação há dor, que depois desaparece. A gangrena gasosa é fenômeno diferente dos dois: o oxigênio chega normalmente, e quem falha é a célula, incapaz de aproveitá-lo por ação de endotoxinas bacterianas."
 causas:
   - "Arteriosclerose obliterante periférica"
   - "Evolução tardia de oclusão arterial aguda"
@@ -453,23 +453,23 @@ causas:
 ::: conceito
 titulo: O pé em risco
 texto: |
-  Semiologia Clínica dá a orientação em uma frase: no paciente com diabetes, o exame **vascular** anda junto com o **neurológico** e com o **musculoesquelético**, porque é dessa soma que nasce o risco de lesão no pé, e o acompanhamento desses doentes é tarefa de equipe multidisciplinar.
+  Vale a orientação em uma frase: no paciente com diabetes, o exame **vascular** anda junto com o **neurológico** e com o **musculoesquelético**, porque é dessa soma que nasce o risco de lesão no pé, e o acompanhamento desses doentes é tarefa de equipe multidisciplinar.
 
   Este guia já ensinou as duas metades que faltam, e elas **não se repetem aqui**:
 
   - o **monofilamento de Semmes-Weinstein**, com a calibração, a técnica de aplicação e os sítios de teste, está no tópico de sensibilidade e coordenação, junto com a comparação com o diapasão de 128 Hz;
   - o **reflexo aquileu** está no tópico de força, tônus e reflexos, com o dado que interessa a este capítulo: em adultos com diabetes tipo 2, o reflexo aquileu **ausente** detectou neuropatia periférica com sensibilidade de 92%, especificidade de 67% e razão de verossimilhança negativa de 0,1, isto é, a **presença** do reflexo reduz muito a probabilidade de neuropatia.
 
-  O que este tópico acrescenta é a metade vascular e a leitura conjunta. A úlcera do pé insensível é indolor e nasce nos pontos de apoio; a úlcera do pé isquêmico é muito dolorosa e nasce nas extremidades e nas bordas. E os dois problemas convivem: McGee registra que a doença **abaixo do joelho**, o segmento peroneotibial, é incomum, exceto em quem tem diabetes ou tromboangiite obliterante.
+  O que este tópico acrescenta é a metade vascular e a leitura conjunta. A úlcera do pé insensível é indolor e nasce nos pontos de apoio; a úlcera do pé isquêmico é muito dolorosa e nasce nas extremidades e nas bordas. E os dois problemas convivem: A doença **abaixo do joelho**, o segmento peroneotibial, é incomum, exceto em quem tem diabetes ou tromboangiite obliterante.
 
-  Um dado do exame que costuma passar batido e que Semiologia Clínica coloca no roteiro: procurar **micoses interdigitais**. Porto lista a micose entre as portas de entrada capazes de desencadear gangrena em um membro isquêmico. É o menor dos achados deste tópico e um dos que mais mudam desfecho.
+  Um dado do exame que costuma passar batido e que está no roteiro: procurar **micoses interdigitais**, uma das portas de entrada capazes de desencadear gangrena em um membro isquêmico. É o menor dos achados deste tópico e um dos que mais mudam desfecho.
 :::
 
 ::: pense
 pergunta: |
   Um ITB de 1,4 tranquiliza quanto à circulação daquele membro?
 resposta: |
-  Não, índice alto demais não é saúde, é artéria rígida: acima de 1,2 a 1,3 as fontes o associam a calcificação arterial, comum em diabéticos e renais crônicos, que impede a compressão pelo manguito. O guia adota os cortes de McGee: anormal abaixo de 0,9; claudicação tipicamente entre 0,5 e 0,8; isquemia ameaçadora abaixo de 0,5.
+  Não, índice alto demais não é saúde, é artéria rígida: acima de 1,2 a 1,3 associa-se a calcificação arterial, comum em diabéticos e renais crônicos, que impede a compressão pelo manguito. O guia adota estes cortes: anormal abaixo de 0,9; claudicação tipicamente entre 0,5 e 0,8; isquemia ameaçadora abaixo de 0,5.
 :::
 
 ::: secao
@@ -481,15 +481,15 @@ titulo: O número que fecha o raciocínio, e por que ele não é o exame
 texto: |
   O índice tornozelo-braço (ITB, ou índice tornozelo-braquial) é a razão entre a **maior pressão sistólica medida no tornozelo** (nas artérias pediosa e tibial posterior) e a **pressão sistólica na artéria braquial**. A medida depende de um Doppler portátil, e é por isso que a técnica fica de fora deste guia. O conceito, não: ele é o padrão contra o qual todos os achados físicos deste tópico foram medidos.
 
-  **Os pontos de corte divergem entre as obras, e a divergência é informativa.**
+  **Os pontos de corte divergem entre as referências, e a divergência é informativa.**
 
-  - **McGee** registra que valores abaixo de **0,97** já são estatisticamente anormais: correspondem aos 2,5% inferiores das medidas em grandes números de jovens não fumantes assintomáticos, mas que a maioria dos investigadores define isquemia crônica da perna como ITB menor que **0,9**. Acrescenta a correlação com a extensão da doença: a maioria dos pacientes com claudicação tem ITB entre **0,5 e 0,8** e doença em um **único** segmento; os que têm isquemia ameaçadora do membro, com dor de repouso ou gangrena, têm ITB abaixo de **0,5** e doença em pelo menos **dois** segmentos.
-  - **Semiologia Clínica** usa **menor que 0,9** como anormal e indicativo de doença arterial periférica, **menor que 0,4** como indicativo de isquemia crítica, e **maior que 1,2** como associado a calcificação arterial, que ocorre em diabéticos e renais crônicos. Define ainda a artéria **não compressível**: aquela em que o fluxo distal não desaparece nem com 200 mmHg no manguito.
-  - **Porto** apresenta uma escala de graus de isquemia, com cinco faixas: de **0,9 a 1,3**, o normal; de **0,7 a 0,89**, a faixa que ele associa à claudicação intermitente; de **0,4 a 0,69**, a da dor em repouso; **abaixo de 0,4**, a da lesão trófica já instalada; e **acima de 1,3**, a artéria que não se deixa comprimir. Nomeia também o que limita o índice: parede calcificada, edema e ulceração ao redor dos maléolos.
+  - **Uma referência** registra que valores abaixo de **0,97** já são estatisticamente anormais: correspondem aos 2,5% inferiores das medidas em grandes números de jovens não fumantes assintomáticos, mas que a maioria dos investigadores define isquemia crônica da perna como ITB menor que **0,9**. Acrescenta a correlação com a extensão da doença: a maioria dos pacientes com claudicação tem ITB entre **0,5 e 0,8** e doença em um **único** segmento; os que têm isquemia ameaçadora do membro, com dor de repouso ou gangrena, têm ITB abaixo de **0,5** e doença em pelo menos **dois** segmentos.
+  - **Outra referência** usa **menor que 0,9** como anormal e indicativo de doença arterial periférica, **menor que 0,4** como indicativo de isquemia crítica, e **maior que 1,2** como associado a calcificação arterial, que ocorre em diabéticos e renais crônicos. Define ainda a artéria **não compressível**: aquela em que o fluxo distal não desaparece nem com 200 mmHg no manguito.
+  - **Uma terceira referência** apresenta uma escala de graus de isquemia, com cinco faixas: de **0,9 a 1,3**, o normal; de **0,7 a 0,89**, a faixa associada à claudicação intermitente; de **0,4 a 0,69**, a da dor em repouso; **abaixo de 0,4**, a da lesão trófica já instalada; e **acima de 1,3**, a artéria que não se deixa comprimir. Nomeia também o que limita o índice: parede calcificada, edema e ulceração ao redor dos maléolos.
 
-  As três concordam no essencial e discordam nas bordas. Como referência única, **o guia adota os cortes de McGee**: anormal abaixo de 0,9; claudicação tipicamente entre 0,5 e 0,8; isquemia ameaçadora abaixo de 0,5, com as demais faixas atribuídas acima. O que sobrevive a qualquer divergência é a leitura clínica: **um índice baixo confirma e gradua o que o exame já sugeriu; um índice alto demais não tranquiliza, denuncia artéria rígida.**
+  As três concordam no essencial e discordam nas bordas. Como referência única, **este guia adota o primeiro conjunto de cortes**: anormal abaixo de 0,9; claudicação tipicamente entre 0,5 e 0,8; isquemia ameaçadora abaixo de 0,5, com as demais faixas atribuídas acima. O que sobrevive a qualquer divergência é a leitura clínica: **um índice baixo confirma e gradua o que o exame já sugeriu; um índice alto demais não tranquiliza, denuncia artéria rígida.**
 
-  E há o uso que o exame físico não alcança: Semiologia Clínica registra que **ITB abaixo de 0,9 sem qualquer manifestação clínica define a doença arterial periférica assintomática**, que é, afinal, metade dos casos.
+  E há o uso que o exame físico não alcança: **ITB abaixo de 0,9 sem qualquer manifestação clínica define a doença arterial periférica assintomática**, que é, afinal, metade dos casos.
 :::
 
 ::: secao
@@ -497,7 +497,7 @@ titulo: Aprofundamento
 :::
 
 ::: tabela
-titulo: Achados físicos na doença vascular periférica (McGee, boxe EBM 54.1)
+titulo: Achados físicos na doença vascular periférica
 nivel: avancado
 colunas:
   - "Achado na perna sintomática"
@@ -579,7 +579,7 @@ texto: |
 titulo: "Localizar a doença: os três segmentos"
 nivel: avancado
 texto: |
-  McGee organiza a doença arterial crônica da perna em **três segmentos**, e é essa divisão que transforma o exame dos pulsos em um mapa.
+  A doença arterial crônica da perna se organiza em **três segmentos**, e é essa divisão que transforma o exame dos pulsos em um mapa.
 
   - **Aortoilíaco**, sobretudo a aorta abdominal infrarrenal e as ilíacas comuns. Claudicação de **nádega, coxa e panturrilha**; femoral, poplíteo e pulsos do pé ausentes. Quando as ilíacas internas participam, pode haver disfunção erétil.
   - **Femoropoplíteo**, sobretudo a femoral superficial no canal dos adutores. Claudicação de **panturrilha**; femoral presente, poplíteo e pulsos do pé ausentes.
@@ -587,7 +587,7 @@ texto: |
 
   Duas regras fecham o raciocínio. **Doença em um único segmento causa claudicação; doença em vários segmentos causa dor de repouso e isquemia ameaçadora do membro.** E o segmento abaixo do joelho só costuma adoecer em quem tem **diabetes ou tromboangiite obliterante**: nos diabéticos em geral sem claudicação, nos portadores de doença de Buerger com dor no pé.
 
-  Porto chega ao mesmo mapa pela clínica. Na **oclusão da aorta terminal**, descreve claudicação de nádega e de coxa, impotência sexual e hipotrofia da musculatura de coxas e pernas, e, na *Semiologia Médica*, nomeia o conjunto: **síndrome de Leriche**. Nas lesões mais distais, claudicação da panturrilha ou apenas do pé.
+  O mesmo mapa se alcança pela clínica. Na **oclusão da aorta terminal**, há claudicação de nádega e de coxa, impotência sexual e hipotrofia da musculatura de coxas e pernas, conjunto nomeado como **síndrome de Leriche**. Nas lesões mais distais, claudicação da panturrilha ou apenas do pé.
 
   **O que a medida diz sobre a localização.** Um estudo confirma o ensino tradicional: pulso femoral ausente ou muito diminuído em membro sintomático aumenta a probabilidade de doença **aortoilíaca** com razão de verossimilhança **31** (o maior número deste tópico. E, em membros sintomáticos com pulso poplíteo **preservado**) achado que argumenta contra oclusão dos dois segmentos de cima: a presença de sopro no membro favorece estenoses na angiografia, com razão de verossimilhança **3,2**.
 :::
@@ -596,17 +596,17 @@ texto: |
 titulo: O teste de Buerger e o que ele mede além do diagnóstico
 nivel: avancado
 texto: |
-  A manobra que Porto chama de **isquemia provocada** aparece na literatura anglófona como **teste de Buerger**, e as versões não são idênticas: o que importa quando se lê os números.
+  A manobra chamada de **isquemia provocada** aparece na literatura anglófona como **teste de Buerger**, e as versões não são idênticas: o que importa quando se lê os números.
 
   **A versão de Buerger**, de 1924: elevava-se a perna até produzir palidez e registrava-se simplesmente o **ângulo em que o tom avermelhado retornava** com a descida do membro, o que ele chamou de ângulo de suficiência circulatória.
 
   **A versão que foi de fato investigada**: eleva-se a perna a 90 graus da mesa por **2 minutos** e depois se deixa pendente perpendicularmente à borda por outros **2 minutos**. A resposta positiva é palidez anormal na elevação **e** o aparecimento de um rubor vermelho-escuro que se espalha dos dedos em direção proximal na posição pendente.
 
-  **A versão de Porto**, descrita na manobra deste tópico, usa **1 minuto** de elevação, admite a sensibilização com 3 minutos de flexão e extensão dos pés a 30 movimentos por minuto, e mede o **tempo** de retorno da cor, com o normal entre 5 e 12 segundos. Porto descreve ainda uma terceira manobra, a da **hiperemia reativa**, que acrescenta um manguito insuflado acima da pressão sistólica na raiz da coxa por 3 minutos: nos normais, a coloração avermelhada alcança os pododáctilos em 10 a 15 segundos e desaparece em até 2 minutos.
+  **Uma terceira versão**, descrita na manobra deste tópico, usa **1 minuto** de elevação, admite a sensibilização com 3 minutos de flexão e extensão dos pés a 30 movimentos por minuto, e mede o **tempo** de retorno da cor, com o normal entre 5 e 12 segundos. Descreve-se ainda uma outra manobra, a da **hiperemia reativa**, que acrescenta um manguito insuflado acima da pressão sistólica na raiz da coxa por 3 minutos: nos normais, a coloração avermelhada alcança os pododáctilos em 10 a 15 segundos e desaparece em até 2 minutos.
 
   **O que o teste positivo significa.** Além de sugerir a doença, ele **estratifica**: os pacientes com teste de Buerger positivo têm doença mais extensa que os negativos, mais dor de repouso (**60% contra 8%**), mais gangrena (**23% contra 0%**) e índices tornozelo-braço mais baixos (média de 0,37 contra 0,62).
 
-  É um achado de gravidade, e não apenas de presença. Por isso ele entra na manobra de rotina deste tópico mesmo sem razão de verossimilhança própria na tabulação de McGee.
+  É um achado de gravidade, e não apenas de presença. Por isso ele entra na manobra de rotina deste tópico mesmo sem razão de verossimilhança própria na tabulação de concordância.
 :::
 
 ::: conceito
@@ -630,12 +630,12 @@ titulo: Armadilhas do exame
 ::: conceito
 titulo: Seis erros na avaliação do membro isquêmico
 texto: |
-  1. **Afastar doença arterial porque há pulso no pé.** Até um em cada três pacientes com doença tem um ou os dois pulsos do pé palpáveis, e neles o pulso costuma desaparecer com o exercício (McGee).
-  2. **Confiar em pele atrófica e ausência de pelos.** Os dois têm razão de verossimilhança 1,7, isto é, praticamente não movem a probabilidade, e Semiologia Clínica os chama de achados não confiáveis. O que rende é a **assimetria**.
+  1. **Afastar doença arterial porque há pulso no pé.** Até um em cada três pacientes com doença tem um ou os dois pulsos do pé palpáveis, e neles o pulso costuma desaparecer com o exercício.
+  2. **Confiar em pele atrófica e ausência de pelos.** Os dois têm razão de verossimilhança 1,7, isto é, praticamente não movem a probabilidade, e são achados considerados não confiáveis. O que rende é a **assimetria**.
   3. **Registrar extremidades frias sem comparar os lados.** O pé mais frio que a própria panturrilha é o normal. O achado que vale 6,1 é o pé assimetricamente mais frio que o outro pé.
   4. **Tratar toda úlcera de perna como arterial ou venosa.** O mal perfurante plantar é indolor e fica nos pontos de apoio; a úlcera da hipertensão de longa duração fica na face lateral do terço inferior da perna e é muito dolorosa; e a ferida que aparece acima do terço médio da perna raramente é venosa.
-  5. **Usar o tempo de enchimento venoso em quem tem varizes.** Porto anula a manobra em portadores de varizes, em quem fez simpatectomia lombar e em ambiente muito frio.
-  6. **Ler um ITB alto como tranquilizador.** Acima de 1,2 ou 1,3, conforme a obra, o número indica artéria não compressível por calcificação: comum justamente em diabéticos e renais crônicos, que são os pacientes de maior risco.
+  5. **Usar o tempo de enchimento venoso em quem tem varizes.** A manobra perde valor em portadores de varizes, em quem fez simpatectomia lombar e em ambiente muito frio.
+  6. **Ler um ITB alto como tranquilizador.** Acima de 1,2 ou 1,3, conforme a referência, o número indica artéria não compressível por calcificação: comum justamente em diabéticos e renais crônicos, que são os pacientes de maior risco.
 :::
 
 ::: perola
@@ -653,7 +653,7 @@ opcoes:
   - "Como sinal de que a doença é venosa, e não arterial: o alívio postural é a prova disso"
 corretaIndex: 0
 desfecho: |
-  A cena é a que Porto descreve: a dor isquêmica de repouso piora deitado, porque a gravidade que ajudava o sangue a descer deixa de existir, e o alívio da perna pendente cobra o preço do edema postural, que agrava a isquemia. Porto classifica a dor de repouso como sintoma de extrema gravidade: outro estágio da doença, não outra intensidade. O "truque" é o membro pedindo socorro.
+  A cena: a dor isquêmica de repouso piora deitado, porque a gravidade que ajudava o sangue a descer deixa de existir, e o alívio da perna pendente cobra o preço do edema postural, que agrava a isquemia. A dor de repouso é sintoma de extrema gravidade: outro estágio da doença, não outra intensidade. O "truque" é o membro pedindo socorro.
 :::
 
 ::: resumo
@@ -677,7 +677,7 @@ perguntas:
       - "Se a dor acorda a paciente à noite, sinal presente apenas na compressão radicular lombar"
       - "Se a distância percorrida antes da dor varia de um dia para o outro, o que exclui causa arterial"
     corretaIndex: 1
-    explicacao: "Porto separa os três tipos de claudicação pelo que alivia. Na arterial, o simples repouso alivia, e a marcha pode ser retomada até a dor voltar. Na neurológica, por compressão nervosa lombar, para aliviar é preciso sentar-se: o que flete a coluna e abre o canal. Na venosa, a dor em geral não obriga a interromper a caminhada e o maior alívio vem da elevação dos membros. O caráter da dor não separa os tipos: a dor arterial pode manifestar-se como aperto, cãibra, constrição, queimação ou fadiga. E a dor que piora deitado é a dor isquêmica de repouso, não a neurológica."
+    explicacao: "Os três tipos de claudicação se separam pelo que alivia. Na arterial, o simples repouso alivia, e a marcha pode ser retomada até a dor voltar. Na neurológica, por compressão nervosa lombar, para aliviar é preciso sentar-se: o que flete a coluna e abre o canal. Na venosa, a dor em geral não obriga a interromper a caminhada e o maior alívio vem da elevação dos membros. O caráter da dor não separa os tipos: a dor arterial pode manifestar-se como aperto, cãibra, constrição, queimação ou fadiga. E a dor que piora deitado é a dor isquêmica de repouso, não a neurológica."
   - id: vasc-iac-2
     enunciado: Que alterações a inspeção mostra no membro com insuficiência arterial crônica, e qual delas a oclusão aguda não tem tempo de produzir?
     alternativas:
@@ -686,16 +686,16 @@ perguntas:
       - "Pele fina e brilhante, rarefação de pelos e unhas atróficas: alterações tróficas que são obra do tempo"
       - "Cianose fixa com pele marmórea, achado que apenas as arteriopatias crônicas de longuíssima duração produzem"
     corretaIndex: 2
-    explicacao: "Porto reúne as alterações tróficas da arteriopatia crônica: a pele afina e perde pelos, ficando delgada, brilhante e lisa; o subcutâneo diminui; as unhas tornam-se atróficas, quebradiças ou hiperqueratósicas; aparecem calosidades nos pontos de apoio, ulcerações que não cicatrizam e, no extremo, gangrena. Quase tudo isso é obra do tempo: na oclusão aguda o repertório se reduz a bolhas, edema e gangrena. A dermatite ocre e as varizes pertencem à doença venosa, e a cianose fixa com pele marmórea é achado do membro agudamente inviável, não da doença crônica."
+    explicacao: "As alterações tróficas da arteriopatia crônica: a pele afina e perde pelos, ficando delgada, brilhante e lisa; o subcutâneo diminui; as unhas tornam-se atróficas, quebradiças ou hiperqueratósicas; aparecem calosidades nos pontos de apoio, ulcerações que não cicatrizam e, no extremo, gangrena. Quase tudo isso é obra do tempo: na oclusão aguda o repertório se reduz a bolhas, edema e gangrena. A dermatite ocre e as varizes pertencem à doença venosa, e a cianose fixa com pele marmórea é achado do membro agudamente inviável, não da doença crônica."
   - id: vasc-iac-3
     enunciado: Ao elevar o membro inferior de um paciente a 90 graus por um minuto, você observa palidez plantar à direita; ao devolvê-lo à posição horizontal, a cor demora e retorna como um vermelho-arroxeado mesclado com áreas pálidas. Como interpretar?
     alternativas:
-      - "Manobra da isquemia provocada positiva à direita, com hiperemia reativa não homogênea, que Porto associa à isquemia muito acentuada"
+      - "Manobra da isquemia provocada positiva à direita, com hiperemia reativa não homogênea, achado associado à isquemia muito acentuada"
       - "Resposta normal, já que a elevação do membro produz palidez em qualquer pessoa e a cor demora fisiologicamente até um minuto para retornar"
       - "Achado incaracterístico, porque a manobra perde o valor em qualquer paciente com pulsos periféricos palpáveis"
       - "Sinal de insuficiência venosa crônica, em que a elevação produz palidez e a posição horizontal produz rubor de estase"
     corretaIndex: 0
-    explicacao: "Na manobra da isquemia provocada, o normal é não haver alteração de cor na elevação, ou alteração discreta, e a cor retornar em 5 a 12 segundos ao voltar à horizontal. A palidez plantar na elevação indica isquemia, tanto mais intensa quanto maior a deficiência de irrigação; e o tom vermelho-arroxeado do retorno é a hiperemia reativa. Porto acrescenta que, na isquemia muito acentuada, a hiperemia deixa de ser uniforme e vem entremeada de manchas pálidas, e que nesses pacientes erguer o membro já dói. Quem perde o valor com varizes é a manobra do enchimento venoso, não esta."
+    explicacao: "Na manobra da isquemia provocada, o normal é não haver alteração de cor na elevação, ou alteração discreta, e a cor retornar em 5 a 12 segundos ao voltar à horizontal. A palidez plantar na elevação indica isquemia, tanto mais intensa quanto maior a deficiência de irrigação; e o tom vermelho-arroxeado do retorno é a hiperemia reativa. Sabe-se que, na isquemia muito acentuada, a hiperemia deixa de ser uniforme e vem entremeada de manchas pálidas, e que nesses pacientes erguer o membro já dói. Quem perde o valor com varizes é a manobra do enchimento venoso, não esta."
   - id: vasc-iac-4
     enunciado: Uma mulher de 32 anos relata que, no frio, os dedos das mãos ficam brancos, depois azulados e por fim vermelhos, com formigamento durante as crises. Os pulsos periféricos são todos palpáveis e normais. Qual é a caracterização correta?
     alternativas:
@@ -713,7 +713,7 @@ perguntas:
       - "Femoropoplíteo, com claudicação de panturrilha, femoral presente e poplíteo e pulsos do pé ausentes"
       - "Dois segmentos ao mesmo tempo, já que a ausência do pulso poplíteo implica sempre doença aortoilíaca associada"
     corretaIndex: 2
-    explicacao: "Na Tabela 54.1 de McGee, a doença femoropoplítea, sobretudo da femoral superficial no canal dos adutores, produz claudicação de panturrilha, com pulso femoral presente e pulsos poplíteo e do pé ausentes. A doença aortoilíaca produz claudicação de nádega, coxa e panturrilha, com os três grupos de pulsos ausentes, e pode causar disfunção erétil quando as ilíacas internas participam. A doença peroneotibial poupa femoral e poplíteo e costuma não causar claudicação, ocorrendo quase só em diabéticos e na tromboangiite obliterante. Doença de um único segmento causa claudicação; doença de múltiplos segmentos causa dor de repouso e isquemia ameaçadora do membro."
+    explicacao: "Na tabulação de localização da claudicação, a doença femoropoplítea, sobretudo da femoral superficial no canal dos adutores, produz claudicação de panturrilha, com pulso femoral presente e pulsos poplíteo e do pé ausentes. A doença aortoilíaca produz claudicação de nádega, coxa e panturrilha, com os três grupos de pulsos ausentes, e pode causar disfunção erétil quando as ilíacas internas participam. A doença peroneotibial poupa femoral e poplíteo e costuma não causar claudicação, ocorrendo quase só em diabéticos e na tromboangiite obliterante. Doença de um único segmento causa claudicação; doença de múltiplos segmentos causa dor de repouso e isquemia ameaçadora do membro."
   - id: vasc-iac-6
     enunciado: Um paciente diabético tem índice tornozelo-braço de 1,4 no membro sintomático. Como ler esse resultado?
     alternativas:
@@ -722,5 +722,5 @@ perguntas:
       - "Como erro de técnica na medida, já que o índice é uma razão entre duas pressões sistólicas e, por definição, não pode ultrapassar 1,0 em nenhuma circunstância, qualquer que seja o paciente examinado"
       - "Como isquemia crítica, faixa em que se indica revascularização imediata"
     corretaIndex: 1
-    explicacao: "Porto classifica ITB maior que 1,3 como artéria não compressível e cita, entre as limitações do índice, os vasos calcificados, o edema e as ulcerações perimaleolares; Semiologia Clínica usa o corte de 1,2 e associa o achado à calcificação arterial de diabéticos e renais crônicos, definindo artéria não compressível como aquela em que o fluxo não desaparece até 200 mmHg. Um índice alto demais, portanto, não tranquiliza: denuncia parede rígida e torna o número inútil naquele paciente. A faixa de isquemia crítica é a oposta: abaixo de 0,4 em Semiologia Clínica, abaixo de 0,5 em McGee."
+    explicacao: "Classifica-se ITB maior que 1,3 como artéria não compressível, citando, entre as limitações do índice, os vasos calcificados, o edema e as ulcerações perimaleolares; outra referência usa o corte de 1,2 e associa o achado à calcificação arterial de diabéticos e renais crônicos, definindo artéria não compressível como aquela em que o fluxo não desaparece até 200 mmHg. Um índice alto demais, portanto, não tranquiliza: denuncia parede rígida e torna o número inútil naquele paciente. A faixa de isquemia crítica é a oposta: abaixo de 0,4 em uma referência, abaixo de 0,5 em outra."
 :::

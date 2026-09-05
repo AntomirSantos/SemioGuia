@@ -158,7 +158,7 @@ titulo: Quatro origens e uma primeira pergunta
 texto: |
   O tópico de ectoscopia ensina a **técnica** de observação da marcha e a advertência que a enquadra: cada pessoa tem seu jeito de andar, e a concordância entre observadores para o rótulo "marcha anormal" é baixa. Este tópico começa onde aquele parou, com a pergunta que organiza o resto.
 
-  **Todo distúrbio da marcha nasce de uma de quatro coisas** (McGee): **dor**, **articulação imóvel**, **fraqueza muscular** ou **controle anormal do membro**. E o controle anormal, por sua vez, tem cinco origens possíveis: espasticidade, rigidez, propriocepção diminuída, doença cerebelar e problemas de controle central.
+  **Todo distúrbio da marcha nasce de uma de quatro coisas**: **dor**, **articulação imóvel**, **fraqueza muscular** ou **controle anormal do membro**. E o controle anormal, por sua vez, tem cinco origens possíveis: espasticidade, rigidez, propriocepção diminuída, doença cerebelar e problemas de controle central.
 
   **A pergunta que vem antes do nome da marcha é: ela é simétrica ou assimétrica?** McGee a coloca como a mais importante do exame da marcha, e a resposta já divide o campo:
 
@@ -242,31 +242,31 @@ colunas:
 linhas:
   - - "Ceifante, hemiplégica ou helicópode"
     - "Membro superior fletido e aduzido, mão fechada; membro inferior espástico e estendido que se arrasta descrevendo um semicírculo: primeiro para fora, depois para diante"
-    - "Espasticidade da hemiplegia (Porto, Semiologia Clínica, McGee)"
+    - "Espasticidade da hemiplegia"
   - - "Parkinsoniana ou propulsiva"
     - "Corpo em bloco, cabeça e tronco inclinados à frente, braços sem balanço, passos miúdos e rápidos, com aceleração involuntária"
-    - "Rigidez extrapiramidal (Porto, Semiologia Clínica, McGee)"
+    - "Rigidez extrapiramidal"
   - - "Atáxica cerebelar, ou do ébrio"
     - "Base alargada, passos irregulares e desiguais, oscilação e cambaleio em todas as direções, com os demais sinais cerebelares presentes"
-    - "Lesão cerebelar (Porto, Semiologia Clínica, McGee)"
+    - "Lesão cerebelar"
   - - "Atáxica sensitiva, tabética ou talonante"
     - "Base alargada e olhar fixo no chão; os pés são arremessados para diante e os calcanhares batem forte no solo; piora muito de olhos fechados"
-    - "Perda proprioceptiva por lesão do cordão posterior ou neuropatia (Porto, Semiologia Clínica, McGee)"
+    - "Perda proprioceptiva por lesão do cordão posterior ou neuropatia"
   - - "Escarvante"
     - "O pé cai e a ponta tropeça; o paciente eleva muito o joelho para livrá-lo do chão, e o antepé bate no solo depois do calcanhar"
-    - "Fraqueza dos dorsiflexores do pé (Porto, Semiologia Clínica, McGee)"
+    - "Fraqueza dos dorsiflexores do pé"
   - - "Anserina, ou do pato"
     - "A cada passo, o quadril do lado que está no ar cai; o paciente acentua a lordose e inclina o tronco alternadamente para os dois lados"
-    - "Fraqueza da cintura pélvica (Porto)"
+    - "Fraqueza da cintura pélvica"
   - - "Em tesoura, ou espástica bilateral"
     - "Membros inferiores enrijecidos e semifletidos, pés que se arrastam e pernas que se cruzam uma à frente da outra"
-    - "Espasticidade bilateral, de origem medular ou encefálica (Porto, McGee)"
+    - "Espasticidade bilateral, de origem medular ou encefálica"
   - - "Vestibular, ou em estrela"
     - "Lateropulsão para o lado da lesão; indo de frente e voltando de costas com os olhos fechados, o trajeto desenha uma estrela"
-    - "Lesão vestibular (Porto)"
+    - "Lesão vestibular"
   - - "Claudicante"
     - "O paciente manca de um lado: a perna doente toca o chão com menos força, produzindo cadência desigual"
-    - "Dor articular, muscular ou óssea; insuficiência arterial periférica; estenose do canal lombar (Porto)"
+    - "Dor articular, muscular ou óssea; insuficiência arterial periférica; estenose do canal lombar"
 :::
 
 ::: sinal
@@ -294,7 +294,7 @@ titulo: "Lendo a tabela: os detalhes que separam marchas parecidas"
 texto: |
   **Ceifante × em tesoura: é a mesma espasticidade, com um lado ou com dois.** Na hemiplegia há excesso de tônus nos **flexores do braço** e nos **extensores da perna**: a distribuição que o tópico de força, tônus e reflexos ensinou como característica da espasticidade, e a perna estendida fica funcionalmente **mais longa** que a sadia. Daí o problema: o paciente precisa livrar do chão um membro grande demais. McGee descreve as duas soluções que ele encontra, e as duas se veem: **inclinar o tronco para o lado sadio**, o que eleva a hemipelve do lado parético, e a **circundução**, em que a ponta do pé traça um semicírculo no chão, indo primeiro para fora e depois para dentro. Porto descreve exatamente o mesmo movimento, e é dele que vem o nome brasileiro: lembra uma foice ceifando.
 
-  Um detalhe do ensino clássico que **não se sustentou**: a assimetria do balanço dos braços como sinal de hemiplegia leve. McGee registra que essa assimetria aparece em **11% a 70%** das pessoas normais e que, em um estudo, ela **não detectou** doença cerebral focal com precisão. Vale para desconfiar de um achado bonito e frágil.
+  Um detalhe do ensino clássico que **não se sustentou**: a assimetria do balanço dos braços como sinal de hemiplegia leve. Essa assimetria aparece em **11% a 70%** das pessoas normais e que, em um estudo, ela **não detectou** doença cerebral focal com precisão. Vale para desconfiar de um achado bonito e frágil.
 
   **As duas ataxias, e a manobra que as separa.** As duas têm **base alargada** e passos irregulares. A **sensitiva** faz o paciente **olhar para o chão** e arremessar os pés, que batem com força; caminhos lisos e conhecidos incomodam menos que terrenos irregulares. A **cerebelar** faz o paciente colocar os pés ora longe demais, ora perto demais, oscilando e cambaleando em todas as direções, como se estivesse embriagado, e, ao contrário da sensitiva, ela vem acompanhada dos **demais sinais cerebelares**: dismetria, hipotonia, tremor de intenção, disartria e nistagmo. A prova que separa as duas é a de Romberg, ensinada no tópico de sensibilidade e coordenação: positiva na sensitiva, negativa na cerebelar.
 
@@ -304,7 +304,7 @@ texto: |
 
   E há um sinal de consultório que testa isso em segundos, o **sinal de Trendelenburg**, descrito em 1895: pede-se ao paciente que fique de pé sobre uma perna, com o outro quadril fletido a 90 graus. Com abdutores normais, a nádega do lado oposto **sobe**; com abdutores fracos, ela **cai**. É preciso lembrar que **o lado testado é o que suporta o peso**, e não o que está no ar: a fonte mais comum de erro. Deformidades importantes do membro, como um genu varum grave, podem produzir falso-positivo.
 
-  **Claudicante e antálgica.** Toda marcha antálgica tem uma marca comum: o **passo contralateral curto**, porque o paciente sai depressa da perna dolorida e pisa rápido na sadia, e o resultado é uma cadência desigual idêntica à de quem anda com uma pedra no sapato (McGee). Onde dói muda o desenho: na dor do **pé**, o paciente apoia só o calcanhar, só o antepé ou só a borda lateral; na dor do **joelho**, o joelho fica rígido, sem estender nem fletir completamente; na dor do **quadril**, aparece o achado mais característico, o **desvio lateral do tronco** sobre o lado que está apoiando, com o braço daquele lado se afastando do corpo. Esse desvio tem uma explicação mecânica bonita: ele equilibra o centro de gravidade sobre o quadril doente e evita a ativação dos abdutores, que, quando contraem, podem exercer uma pressão enorme sobre a cabeça femoral.
+  **Claudicante e antálgica.** Toda marcha antálgica tem uma marca comum: o **passo contralateral curto**, porque o paciente sai depressa da perna dolorida e pisa rápido na sadia, e o resultado é uma cadência desigual idêntica à de quem anda com uma pedra no sapato. Onde dói muda o desenho: na dor do **pé**, o paciente apoia só o calcanhar, só o antepé ou só a borda lateral; na dor do **joelho**, o joelho fica rígido, sem estender nem fletir completamente; na dor do **quadril**, aparece o achado mais característico, o **desvio lateral do tronco** sobre o lado que está apoiando, com o braço daquele lado se afastando do corpo. Esse desvio tem uma explicação mecânica bonita: ele equilibra o centro de gravidade sobre o quadril doente e evita a ativação dos abdutores, que, quando contraem, podem exercer uma pressão enorme sobre a cabeça femoral.
 :::
 
 ::: sinal
@@ -488,7 +488,7 @@ texto: |
 
   Ou seja: os dois cenários em que o achado seria mais decisivo são justamente os dois em que ele pode faltar.
 
-  **O extremo do espectro** tem nome: quando o aumento do tônus extensor do pescoço e da coluna é tão intenso que todo o dorso se hiperestende, o paciente em decúbito dorsal fica apoiado apenas no occipúcio e nos calcanhares. Essa postura chama-se **opistótono** (McGee), e Porto a registra entre os sinais que podem acompanhar a irritação meningorradicular.
+  **O extremo do espectro** tem nome: quando o aumento do tônus extensor do pescoço e da coluna é tão intenso que todo o dorso se hiperestende, o paciente em decúbito dorsal fica apoiado apenas no occipúcio e nos calcanhares. Essa postura chama-se **opistótono**, e Porto a registra entre os sinais que podem acompanhar a irritação meningorradicular.
 
   **O que examinar junto.** Porto situa a rigidez de nuca dentro do exame da **mobilidade cervical** (flexão, extensão, rotação e lateralidade, anotando contratura, resistência e dor) e é o tópico de tireoide e pescoço que ensina esse exame. Fazer os quatro movimentos, e não apenas a flexão, é o que separa irritação meníngea de limitação osteoarticular.
 :::
@@ -510,7 +510,7 @@ titulo: Kernig, Brudzinski e o mecanismo comum
 texto: |
   **Sinal de Kernig.** Descrito por Vladimir Kernig em 1882. Porto ensina a técnica em dois tempos: primeiro se dobra a coxa sobre a bacia em ângulo reto e a perna sobre a coxa; depois se tenta **estender a perna**. A prova é **positiva** quando surge dor no trajeto do ciático e o paciente **reage impedindo** que o joelho se abra. McGee acrescenta o dado original, que dá uma referência de amplitude: Kernig chamou o achado de contratura dos isquiotibiais porque o joelho **não se estendia além de 135 graus** com o quadril fletido, embora se estendesse completamente se o quadril fosse antes posicionado em extensão. Registra também que a maioria dos clínicos faz a prova com o paciente **deitado**, embora Kernig a tenha descrito com o paciente **sentado**.
 
-  Porto (*Exame Clínico*) descreve ainda uma **variante**: elevar os dois membros inferiores ao mesmo tempo, considerando-se positiva a prova que desencadeia dor e flexão dos joelhos.
+  Porto descreve ainda uma **variante**: elevar os dois membros inferiores ao mesmo tempo, considerando-se positiva a prova que desencadeia dor e flexão dos joelhos.
 
   **Sinal de Brudzinski.** Jozef Brudzinski descreveu vários sinais meníngeos entre 1909 e 1916; o mais popular é este. Porto ensina a técnica com precisão útil: com o paciente deitado de costas e as pernas esticadas, **uma das mãos do examinador fica pousada sobre o tórax** dele e **a outra, sob o occipital**, imprime uma **flexão enérgica da cabeça**. É positiva a prova em que **os membros inferiores se dobram**; Porto acrescenta que em alguns pacientes se veem os joelhos fletindo junto com uma expressão de dor no rosto. McGee descreve o mesmo: a flexão do pescoço do paciente em decúbito dorsal faz com que ele flita **quadris e joelhos**, retraindo as pernas em direção ao tórax.
 
@@ -520,9 +520,9 @@ texto: |
 
   Essas duas frases explicam a rigidez de nuca e o sinal de Kernig de imediato. O sinal de Brudzinski é mais difícil: à primeira vista, um paciente com irritação meníngea deveria querer **estender** os quadris e **fletir** os joelhos quando o pescoço é fletido. Essa posição de fato tira tensão do ciático, mas **estira o nervo femoral**. Fletir quadris **e** joelhos é a única postura que alivia a tração nos **dois** nervos, e é por isso que o paciente a adota espontaneamente.
 
-  A mesma lógica produz um subproduto importante: o sinal de Kernig **não difere** da prova de elevação da perna estendida usada para investigar ciática (McGee), assunto do bloco seguinte.
+  A mesma lógica produz um subproduto importante: o sinal de Kernig **não difere** da prova de elevação da perna estendida usada para investigar ciática, assunto do bloco seguinte.
 
-  **A síndrome inteira**, com o vocabulário de Porto (*Semiologia Médica*, cap. 174): a síndrome meníngea reúne três síndromes, e os sinais deste tópico pertencem à segunda. A **síndrome de hipertensão craniana**; a **síndrome radicular**, que reúne cefaleia, raquialgia, fotofobia, hiperestesia, sensitiva e sensorial, postura antálgica em decúbito lateral com as pernas semidobradas, rigidez da nuca e provas de Kernig, de Brudzinski e de Lasègue positivas; e a **síndrome infecciosa**, quando há meningite, com febre, prostração, astenia, anorexia e taquicardia. Repare que a **postura antálgica espontânea** do paciente é o sinal de Brudzinski que ele executa sozinho, sem examinador nenhum.
+  **A síndrome inteira**, com o vocabulário de Porto: a síndrome meníngea reúne três síndromes, e os sinais deste tópico pertencem à segunda. A **síndrome de hipertensão craniana**; a **síndrome radicular**, que reúne cefaleia, raquialgia, fotofobia, hiperestesia, sensitiva e sensorial, postura antálgica em decúbito lateral com as pernas semidobradas, rigidez da nuca e provas de Kernig, de Brudzinski e de Lasègue positivas; e a **síndrome infecciosa**, quando há meningite, com febre, prostração, astenia, anorexia e taquicardia. Repare que a **postura antálgica espontânea** do paciente é o sinal de Brudzinski que ele executa sozinho, sem examinador nenhum.
 :::
 
 ::: sinal
@@ -551,13 +551,13 @@ titulo: "Lasègue: o sinal radicular vizinho"
 texto: |
   Porto trata a prova de Lasègue e a prova de Kernig **no mesmo lugar**, entre as provas de estiramento de raiz nervosa do exame da coluna lombossacra, e diz por quê: as duas servem a três diagnósticos ao mesmo tempo, **radiculopatia ciática, meningite e hemorragia subaracnóidea**. É um sinal que atravessa duas fronteiras, e é por isso que ele entra aqui.
 
-  **A técnica** (Porto): deitado de costas, com as duas pernas esticadas, o paciente tem **um dos membros erguido pelo examinador sem que o joelho dobre**. A prova é positiva se ele acusa dor **atrás** do membro erguido **já no começo da manobra, por volta de 30 graus de elevação**. McGee acrescenta o critério que evita o falso-positivo mais comum: a resposta positiva é a **dor que desce pela perna do lado examinado**; se a dor se limitar ao quadril ou às costas, o teste é considerado **negativo**.
+  **A técnica**: deitado de costas, com as duas pernas esticadas, o paciente tem **um dos membros erguido pelo examinador sem que o joelho dobre**. A prova é positiva se ele acusa dor **atrás** do membro erguido **já no começo da manobra, por volta de 30 graus de elevação**. McGee acrescenta o critério que evita o falso-positivo mais comum: a resposta positiva é a **dor que desce pela perna do lado examinado**; se a dor se limitar ao quadril ou às costas, o teste é considerado **negativo**.
 
   **A prova cruzada** é a variante que McGee descreve e que muda os números: consiste em elevar o membro **sadio** e observar se aparece dor no membro **afetado**.
 
   **A origem do nome**, que McGee conta e que é um exemplo de como epônimos se formam: Charles Lasègue, clínico francês do século XIX, **nunca publicou** uma descrição do sinal. Quem o descreveu foi seu aluno Forst, na tese de doutorado de 1881, creditando Lasègue, e uma descrição anterior já havia sido publicada em 1880 pelo médico iugoslavo Lazarevic.
 
-  **Os números**, em pacientes com dor ciática (McGee):
+  **Os números**, em pacientes com dor ciática:
 
   - **elevação da perna estendida positiva: razão de verossimilhança 1,5**; **negativa: 0,4**;
   - **prova cruzada positiva: 3,4**.
@@ -592,7 +592,7 @@ titulo: Aprofundamento
 :::
 
 ::: tabela
-titulo: Frequência dos achados na meningite bacteriana aguda e na hemorragia subaracnóidea (McGee)
+titulo: Frequência dos achados na meningite bacteriana aguda e na hemorragia subaracnóidea
 nivel: avancado
 colunas:
   - "Achado"
@@ -626,7 +626,7 @@ linhas:
 :::
 
 ::: tabela
-titulo: Desempenho dos sinais meníngeos (McGee)
+titulo: Desempenho dos sinais meníngeos
 nivel: avancado
 colunas:
   - "Achado e o que ele detecta"
@@ -675,7 +675,7 @@ texto: |
 
 
 ::: tabela
-titulo: Marcha na doença de Parkinson, na demência e no risco de queda (McGee)
+titulo: Marcha na doença de Parkinson, na demência e no risco de queda
 nivel: avancado
 colunas:
   - "Achado"
@@ -737,7 +737,7 @@ texto: |
 
   **O reflexo palmomentual** entra aqui pelo dado de risco de queda, e é aqui que mora a sua técnica. A técnica de McGee: com uma chave ou outro objeto rombo, aplica-se um estímulo desagradável na eminência tenar, deslizando-o com firmeza da região proximal para a distal; a resposta positiva é uma contração breve do músculo mentual do mesmo lado, que faz o lábio inferior daquele lado projetar-se, subir ou enrugar. Duas ressalvas explicam por que ele não vale mais do que isso: **o lado do reflexo não indica o lado da lesão**, em 39 pacientes com resposta unilateral, 44% tinham lesão hemisférica do mesmo lado, 36% do lado oposto, 10% dos dois lados e 10% nenhuma lesão, e ele aparece em **3% a 70%** das pessoas normais, conforme o estudo e o critério usado. O tópico de força, tônus e reflexos nomeia os demais reflexos primitivos, glabelar e de preensão, e a interpretação de todos eles em doença frontal e em demências é ensinada no tópico Escalas cognitivas à beira do leito, do sistema Exame psíquico.
 
-  **A técnica do teste de levantar e andar**: mede-se o tempo que o paciente leva para se levantar de uma cadeira comum, caminhar até uma marca no chão a **3 metros** de distância, virar, voltar e sentar-se de novo. Pede-se que ele caminhe em velocidade normal e permite-se uma tentativa antes da cronometragem; o tempo começa quando as costas descolam do encosto e termina quando as nádegas tocam o assento. McGee adverte que os **pontos de corte variam muito** entre estudos e provavelmente dependem da metodologia e da população, e que os valores desta tabela vêm de um estudo com residentes frágeis de casas de repouso.
+  **A técnica do teste de levantar e andar**: mede-se o tempo que o paciente leva para se levantar de uma cadeira comum, caminhar até uma marca no chão a **3 metros** de distância, virar, voltar e sentar-se de novo. Pede-se que ele caminhe em velocidade normal e permite-se uma tentativa antes da cronometragem; o tempo começa quando as costas descolam do encosto e termina quando as nádegas tocam o assento. Os **pontos de corte variam muito** entre estudos e provavelmente dependem da metodologia e da população, e que os valores desta tabela vêm de um estudo com residentes frágeis de casas de repouso.
 
   Porto chega ao mesmo instrumento por outra porta ao recomendá-lo como forma simples e eficiente de avaliar a marcha do idoso, e o rastreamento de sarcopenia que começa pela velocidade da marcha está no tópico de antropometria e hidratação.
 
@@ -783,11 +783,11 @@ titulo: Armadilhas do exame
 ::: conceito
 titulo: Seis erros na marcha e nos sinais meníngeos
 texto: |
-  1. **Afastar meningite porque os sinais meníngeos estão ausentes.** As razões de verossimilhança negativas da rigidez de nuca, do Kernig e do Brudzinski não alcançaram significância (McGee). A decisão sobre a punção lombar não se apoia neles.
+  1. **Afastar meningite porque os sinais meníngeos estão ausentes.** As razões de verossimilhança negativas da rigidez de nuca, do Kernig e do Brudzinski não alcançaram significância. A decisão sobre a punção lombar não se apoia neles.
   2. **Pesquisar rigidez de nuca em politraumatizado ou diante de processo expansivo da fossa posterior.** Porto contraindica formalmente as duas situações, a segunda pelo risco de insinuação das amígdalas cerebelares com morte súbita.
   3. **Concluir por rigidez de nuca sem testar os outros movimentos do pescoço.** A irritação meníngea resiste sobretudo à flexão; a doença osteoarticular cervical limita também rotação e lateralização.
-  4. **Ler a rigidez de nuca ausente como tranquilizadora na hemorragia subaracnóidea recente.** Ela pode demorar até 24 horas para aparecer, e desaparece no coma profundo (Porto).
-  5. **Confiar na assimetria do balanço dos braços como sinal de hemiparesia leve.** Ela aparece em 11% a 70% das pessoas normais e não detectou doença cerebral focal com precisão em um estudo (McGee).
+  4. **Ler a rigidez de nuca ausente como tranquilizadora na hemorragia subaracnóidea recente.** Ela pode demorar até 24 horas para aparecer, e desaparece no coma profundo.
+  5. **Confiar na assimetria do balanço dos braços como sinal de hemiparesia leve.** Ela aparece em 11% a 70% das pessoas normais e não detectou doença cerebral focal com precisão em um estudo.
   6. **Nomear a marcha antes de descrevê-la.** A concordância entre observadores para o julgamento marcha anormal vai de 0,11 a 0,71. Base, passo, altura do pé, balanço dos braços e trajetória são reprodutíveis; o rótulo, muito menos.
 :::
 
@@ -875,5 +875,5 @@ perguntas:
       - "A prova de Kernig, que difere da elevação da perna estendida por não estirar o nervo ciático"
       - "A prova cruzada, com razão de verossimilhança 3,4, porque é pouco sensível e muito específica: enquanto a prova convencional rende sobretudo quando negativa, com 0,4"
     corretaIndex: 3
-    explicacao: "Em pacientes com dor ciática, a elevação da perna estendida convencional tem sensibilidade de 53% a 98% e especificidade de 11% a 89%, o que resulta em razão de verossimilhança positiva de apenas 1,5 e negativa de 0,4, ou seja, ela rende sobretudo quando é negativa. A prova cruzada, em que se eleva o membro sadio e se observa dor no membro afetado, tem o perfil inverso: sensibilidade de 22% a 43% e especificidade de 88% a 98%, com razão de verossimilhança positiva de 3,4. A versão sentada demonstrou sensibilidade menor que a tradicional em dois estudos. E McGee registra que o sinal de Kernig não difere da prova de elevação da perna estendida: os dois estiram as mesmas estruturas. O valor 4,9 pertence à fraqueza da dorsiflexão do tornozelo."
+    explicacao: "Em pacientes com dor ciática, a elevação da perna estendida convencional tem sensibilidade de 53% a 98% e especificidade de 11% a 89%, o que resulta em razão de verossimilhança positiva de apenas 1,5 e negativa de 0,4, ou seja, ela rende sobretudo quando é negativa. A prova cruzada, em que se eleva o membro sadio e se observa dor no membro afetado, tem o perfil inverso: sensibilidade de 22% a 43% e especificidade de 88% a 98%, com razão de verossimilhança positiva de 3,4. A versão sentada demonstrou sensibilidade menor que a tradicional em dois estudos. E O sinal de Kernig não difere da prova de elevação da perna estendida: os dois estiram as mesmas estruturas. O valor 4,9 pertence à fraqueza da dorsiflexão do tornozelo."
 :::

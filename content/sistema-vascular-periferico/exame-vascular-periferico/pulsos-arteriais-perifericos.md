@@ -68,7 +68,7 @@ titulo: Dez segundos de mão que substituem um exame
 texto: |
   Este é o primeiro tópico de um capítulo que examina os vasos fora do coração. Ele trata de uma coisa só, e ela cabe em uma frase: **encostar os dedos nas artérias que dá para alcançar e comparar cada uma com a sua igual do outro lado.**
 
-  **Por que a comparação é o exame inteiro.** Porto é explícito no que se procura ao palpar as artérias periféricas: presença ou ausência do pulso, amplitude da onda e estado da parede do vaso, sempre **entre artérias homólogas**. E vai adiante, no boxe que fecha o capítulo: o parâmetro principal do exame é confrontar a amplitude de dois pulsos homólogos, porque é daí que se lê o fluxo naquele segmento, amplitude menor ou pulso ausente em relação ao lado oposto significa, quase sempre, artéria ocluída, parcial ou totalmente.
+  **Por que a comparação é o exame inteiro.** O que se procura ao palpar as artérias periféricas é isto: presença ou ausência do pulso, amplitude da onda e estado da parede do vaso, sempre **entre artérias homólogas**. E vale ir além: o parâmetro principal do exame é confrontar a amplitude de dois pulsos homólogos, porque é daí que se lê o fluxo naquele segmento, amplitude menor ou pulso ausente em relação ao lado oposto significa, quase sempre, artéria ocluída, parcial ou totalmente.
 
   **O que este tópico não reensina.** A técnica do **pulso radial**, a contagem, o ritmo, a irregularidade da fibrilação atrial, o déficit de pulso e o vocabulário dos tipos de onda (célere, parvus, alternante, bisferiens, paradoxal) pertencem ao tópico de frequência cardíaca e pulso, no capítulo de sinais vitais. Aqui a radial aparece apenas como um dos pontos da sequência e como o **par comparativo** de outras artérias.
 
@@ -80,7 +80,7 @@ texto: |
   - **a graduação de Levine e a irradiação** dos sopros cardíacos estão no tópico de sopros cardíacos, e não se aplicam aos sopros arteriais periféricos, que a tradição brasileira gradua em cruzes;
   - **a medida da pressão nos quatro membros** está no tópico de pressão arterial.
 
-  **O que fica como moldura, nomeada e não ensinada:** o **Doppler portátil** e os aparelhos de fluxometria. Porto reconhece que hoje existem aparelhos simples e sensíveis para medir o fluxo, e registra em seguida a razão pela qual este tópico existe: mesmo assim, o exame feito à beira do leito segue prestando serviço ao raciocínio diagnóstico. O instrumento aparece aqui só pelo nome; o índice tornozelo-braço, que depende dele, entra como conceito no tópico seguinte.
+  **O que fica como moldura, nomeada e não ensinada:** o **Doppler portátil** e os aparelhos de fluxometria. Hoje existem aparelhos simples e sensíveis para medir o fluxo, e registra em seguida a razão pela qual este tópico existe: mesmo assim, o exame feito à beira do leito segue prestando serviço ao raciocínio diagnóstico. O instrumento aparece aqui só pelo nome; o índice tornozelo-braço, que depende dele, entra como conceito no tópico seguinte.
 :::
 
 ::: perola
@@ -109,13 +109,13 @@ passos:
   - "Ausculte com o receptor apoiado sem pressão sobre carótidas, subclávias, aorta abdominal, ilíacas, femorais e poplíteas."
   - "Registre cada pulso pelo nome, pelo lado e pela amplitude, e diga qual escala de graduação você usou."
 observar: |
-  **Não comprima ao auscultar.** É o erro que fabrica um achado: a pressão do receptor estreita o vaso e cria o sopro que se pretendia procurar. Porto adverte para isso na ausculta arterial e faz a mesma advertência na palpação da femoral, que é superficial: a compressão excessiva pode produzir um frêmito falso. Os frêmitos verdadeiros da região, decorrentes de placas na parede, são percebidos à palpação superficial, sem compressão nenhuma.
+  **Não comprima ao auscultar.** É o erro que fabrica um achado: a pressão do receptor estreita o vaso e cria o sopro que se pretendia procurar. Vale a advertência tanto na ausculta arterial quanto na palpação da femoral, que é superficial: a compressão excessiva pode produzir um frêmito falso. Os frêmitos verdadeiros da região, decorrentes de placas na parede, são percebidos à palpação superficial, sem compressão nenhuma.
 
-  **O joelho totalmente estendido apaga os pulsos do pé.** Porto registra o detalhe ao descrever a tibial posterior: a extensão completa do joelho pode comprimir a artéria poplítea e diminuir os pulsos podais. Deixe sempre uma leve flexão.
+  **O joelho totalmente estendido apaga os pulsos do pé.** Vale o detalhe ao descrever a tibial posterior: a extensão completa do joelho pode comprimir a artéria poplítea e diminuir os pulsos podais. Deixe sempre uma leve flexão.
 
   **A pediosa muda de endereço.** Ela apresenta variações de localização. Quando não for encontrada no ponto habitual, é preciso varrer o dorso do pé inteiro antes de escrever que ela está ausente.
 
-  **Sopro que some não é sopro que melhorou.** O sopro nasce do turbilhonamento na passagem estreitada. Quando a oclusão se completa, ele **desaparece** (McGee). Um sopro que sumiu entre duas consultas pode significar tanto artéria que melhorou quanto artéria que fechou, e quem separa as duas hipóteses é o pulso distal, não o estetoscópio.
+  **Sopro que some não é sopro que melhorou.** O sopro nasce do turbilhonamento na passagem estreitada. Quando a oclusão se completa, ele **desaparece**. Um sopro que sumiu entre duas consultas pode significar tanto artéria que melhorou quanto artéria que fechou, e quem separa as duas hipóteses é o pulso distal, não o estetoscópio.
 :::
 
 ::: checklist
@@ -235,7 +235,7 @@ linhas:
     - "Braço em leve abdução, sustentado pela mão homolateral do examinador"
   - - "Braquial"
     - "Face anterior do braço, no sulco entre os músculos"
-    - "Porto está dividido: a Semiologia Médica aponta o sulco bicipital, mais acessível no terço distal, e o Exame Clínico abarca a parte média do braço, logo abaixo do deltoide; Semiologia Clínica indica o terço médio, entre bíceps e tríceps"
+    - "As referências divergem: uma passagem aponta o sulco bicipital, mais acessível no terço distal; outra passagem da mesma referência abarca a parte média do braço, logo abaixo do deltoide; e uma terceira referência indica o terço médio, entre bíceps e tríceps"
   - - "Radial"
     - "Face anterior do punho, lateralmente ao tendão do flexor radial do carpo"
     - "Técnica completa no tópico de frequência cardíaca e pulso"
@@ -253,28 +253,28 @@ linhas:
     - "Artéria superficial: comprimir demais estreita o lúmen e cria frêmito falso"
   - - "Poplíteo"
     - "Fundo da fossa poplítea, com o joelho semifletido"
-    - "É o mais difícil; Porto descreve o abraço do joelho com as duas mãos e os polegares fixos à frente, e uma segunda técnica em decúbito"
+    - "É o mais difícil: abraça-se o joelho com as duas mãos e os polegares fixos à frente, com uma segunda técnica em decúbito"
   - - "Tibial anterior"
     - "Terço distal da perna, entre os tendões extensores do hálux e dos dedos"
     - "Pé firmado em dorsiflexão pela outra mão"
   - - "Tibial posterior"
     - "Região retromaleolar interna, atrás do maléolo medial"
-    - "Semiologia Clínica situa-o no meio da distância entre o maléolo medial e o tendão do calcâneo; manter leve flexão do joelho"
+    - "Situa-se no meio da distância entre o maléolo medial e o tendão do calcâneo; manter leve flexão do joelho"
   - - "Pedioso"
-    - "Dorso do pé; Porto o situa entre o primeiro e o segundo metatarsianos e Semiologia Clínica, lateralmente ao tendão do hálux"
+    - "Dorso do pé; situa-se entre o primeiro e o segundo metatarsianos, ou lateralmente ao tendão do hálux, conforme a referência"
     - "Varia de posição: não estando no ponto habitual, varrer o dorso do pé inteiro"
 :::
 
 ::: conceito
 titulo: Quais desses entram na rotina
 texto: |
-  A lista completa das artérias palpáveis é longa, Porto chega a incluir as digitais das mãos e dos pés, mas nem todas entram no exame de rotina, e as obras não pedem exatamente o mesmo conjunto.
+  A lista completa das artérias palpáveis é longa, chegando a incluir as digitais das mãos e dos pés, mas nem todas entram no exame de rotina, e as referências não pedem exatamente o mesmo conjunto.
 
-  **Porto, na *Semiologia Médica*, nomeia o conjunto da prática diária:** carótidas, braquiais, radial e ulnar, aorta abdominal, femoral comum, poplítea, tibial posterior e pediosa. É a lista que este guia adota, e é a que está na manobra e no checklist acima.
+  **Uma referência nomeia o conjunto da prática diária:** carótidas, braquiais, radial e ulnar, aorta abdominal, femoral comum, poplítea, tibial posterior e pediosa. É a lista que este guia adota, e é a que está na manobra e no checklist acima.
 
-  **Porto, no *Exame Clínico*, lista as artérias que devem ser examinadas** em uma sequência mais ampla, que acrescenta temporal superficial, subclávia, axilar, ilíaca e tibial anterior.
+  **Outra referência lista as artérias que devem ser examinadas** em uma sequência mais ampla, que acrescenta temporal superficial, subclávia, axilar, ilíaca e tibial anterior.
 
-  **Semiologia Clínica** faz uma exigência diferente e útil: todos os pulsos que ela descreve **devem estar presentes bilateralmente**. É uma frase que muda o registro: a ausência de qualquer um deles é achado, não variação, até que se prove o contrário. A exceção importante, para os pulsos do pé, está no bloco de aprofundamento.
+  **Uma terceira referência** faz uma exigência diferente e útil: todos os pulsos que ela descreve **devem estar presentes bilateralmente**. É uma frase que muda o registro: a ausência de qualquer um deles é achado, não variação, até que se prove o contrário. A exceção importante, para os pulsos do pé, está no bloco de aprofundamento.
 
   A ordem também importa. Descer de proximal para distal em cada membro transforma a palpação em uma **localização**: o exame não termina em pedioso ausente, termina em femoral cheio, poplíteo diminuído, tibial posterior e pedioso ausentes, uma frase que já diz aproximadamente onde está a lesão.
 :::
@@ -288,7 +288,7 @@ texto: |
 
   A primeira: **o pulso pode estar palpável abaixo de uma lesão importante**, porque a onda ainda atravessa a estenose e ainda chega, apenas menor. Por isso a amplitude comparada informa mais que o simples presente ou ausente.
 
-  A segunda, que Porto adverte na isquemia aguda: às vezes os dedos julgam ter encontrado um pulso, quando o que chegou até eles foi a **onda de um pulso proximal transmitida** pelos tecidos. Diante de um membro frio e pálido, o achado precisa ser confirmado com atenção, e não anotado de passagem.
+  A segunda: às vezes os dedos julgam ter encontrado um pulso, quando o que chegou até eles foi a **onda de um pulso proximal transmitida** pelos tecidos. Diante de um membro frio e pálido, o achado precisa ser confirmado com atenção, e não anotado de passagem.
 :::
 
 ::: pense
@@ -305,17 +305,17 @@ titulo: Amplitude, simetria e parede
 ::: conceito
 titulo: Três escalas para a mesma coisa, e por que isso importa no prontuário
 texto: |
-  A amplitude do pulso é graduada, e as obras deste guia **não usam a mesma escala**. Registrar apenas o número, sem dizer qual escala foi usada, produz um dado ilegível para quem ler depois.
+  A amplitude do pulso é graduada, e as referências deste guia **não usam a mesma escala**. Registrar apenas o número, sem dizer qual escala foi usada, produz um dado ilegível para quem ler depois.
 
-  - **Porto, *Semiologia Médica*, cap. 51**, gradua de **0 a ++**: 0 é ausente, + é diminuído e ++ é normal. Três degraus, sem espaço para pulso aumentado.
-  - **Semiologia Clínica, cap. 12**, gradua de **0 a 3+**: 0 ausente, 1+ reduzido, 2+ normal, 3+ aumentado. Quatro degraus, com o normal no meio da escala.
-  - **Porto, *Exame Clínico*, cap. 13**, não propõe escala numérica para os pulsos periféricos: pede a comparação da amplitude entre homólogos e a descrição do achado.
+  - **Uma escala** gradua de **0 a ++**: 0 é ausente, + é diminuído e ++ é normal. Três degraus, sem espaço para pulso aumentado.
+  - **Outra escala** gradua de **0 a 3+**: 0 ausente, 1+ reduzido, 2+ normal, 3+ aumentado. Quatro degraus, com o normal no meio da escala.
+  - **Uma terceira referência** não propõe escala numérica para os pulsos periféricos: pede a comparação da amplitude entre homólogos e a descrição do achado.
 
-  Repare que as duas escalas numéricas **concordam** nos três primeiros degraus (ausente, diminuído, normal) e que a armadilha não está aí: está em **onde cada uma termina**. Em Porto, ++ é o **teto** da escala; em Semiologia Clínica, 2+ é o **meio** dela, com 3+ ainda disponível acima.
+  Repare que as duas escalas numéricas **concordam** nos três primeiros degraus (ausente, diminuído, normal) e que a armadilha não está aí: está em **onde cada uma termina**. Na primeira, ++ é o **teto** da escala; na segunda, 2+ é o **meio** dela, com 3+ ainda disponível acima.
 
-  Duas consequências. A primeira: **um pulso hipercinético é irregistrável na notação de Porto**, que não tem degrau para ele, e o exame dos pulsos periféricos encontra hiperpulsatilidade, que o próprio Porto manda procurar ao descrever o que a palpação sistematizada detecta. A segunda: quem lê **++** em um prontuário não sabe se o autor considerou o pulso normal ou se apenas não tinha como escrever aumentado.
+  Duas consequências. A primeira: **um pulso hipercinético é irregistrável na primeira notação**, que não tem degrau para ele, embora o exame dos pulsos periféricos encontre hiperpulsatilidade, achado que a própria palpação sistematizada manda procurar. A segunda: quem lê **++** em um prontuário não sabe se o autor considerou o pulso normal ou se apenas não tinha como escrever aumentado.
 
-  Quando for usar número, **o guia adota a escala de 0 a 3+ da Semiologia Clínica**: é a única com degrau para o pulso aumentado; a notação de Porto fica registrada acima, atribuída. E a saída de sempre continua valendo, como no edema e nos sopros: **nomeie a escala ou descreva o achado**. Pedioso direito de amplitude nitidamente menor que o esquerdo é uma frase que sobrevive à troca de plantão; pedioso 2+, sozinho, não.
+  Quando for usar número, **o guia adota a escala de 0 a 3+**: é a única com degrau para o pulso aumentado; a outra notação fica registrada acima. E a saída de sempre continua valendo, como no edema e nos sopros: **nomeie a escala ou descreva o achado**. Pedioso direito de amplitude nitidamente menor que o esquerdo é uma frase que sobrevive à troca de plantão; pedioso 2+, sozinho, não.
 
   Uma nota sobre o vocabulário: os tipos de onda de pulso, célere ou em martelo d'água, parvus, alternante, bigeminado, paradoxal, dicrótico, anacrótico, bisferiens, pertencem ao pulso radial e ao exame do coração, e estão no tópico de frequência cardíaca e pulso. Não se avaliam nos pulsos do pé.
 :::
@@ -323,7 +323,7 @@ texto: |
 ::: sinal
 nome: Frêmito arterial
 descricao: "Vibração palpável sobre o trajeto de uma artéria, percebida com a palpação superficial, sem compressão do vaso. É o correspondente tátil do sopro, e gradua-se em cruzes de + a ++++ pela mesma escala usada para os sopros."
-significado: "Indica turbilhonamento do sangue na passagem por um estreitamento, por uma dilatação ou por uma comunicação anômala. Porto é direto: a presença de frêmito indica **semioclusão da artéria ou fístula arteriovenosa**. O frêmito sistólico aparece nas estenoses e nos aneurismas; o frêmito contínuo, sistodiastólico, aponta fístula ou malformação arteriovenosa."
+significado: "Indica turbilhonamento do sangue na passagem por um estreitamento, por uma dilatação ou por uma comunicação anômala. É direto: a presença de frêmito indica **semioclusão da artéria ou fístula arteriovenosa**. O frêmito sistólico aparece nas estenoses e nos aneurismas; o frêmito contínuo, sistodiastólico, aponta fístula ou malformação arteriovenosa."
 causas:
   - "Estenose arterial por placa de ateroma"
   - "Aneurisma"
@@ -334,16 +334,16 @@ causas:
 ::: conceito
 titulo: A parede e o sopro
 texto: |
-  **A parede.** Depois de sentir a onda, sinta o tubo. Porto pede que se avalie o estado da parede arterial: paredes **endurecidas e tortuosas** indicam arteriosclerose, e ele nomeia a forma correspondente, a **mediosclerose de Mönckeberg**. Em idosos, a aorta abdominal costuma ser endurecida e tortuosa, achado que o tópico de palpação do abdome registra e que é a causa mais comum de falso-positivo na busca de aneurisma.
+  **A parede.** Depois de sentir a onda, sinta o tubo. Se avalie o estado da parede arterial: paredes **endurecidas e tortuosas** indicam arteriosclerose, e ele nomeia a forma correspondente, a **mediosclerose de Mönckeberg**. Em idosos, a aorta abdominal costuma ser endurecida e tortuosa, achado que o tópico de palpação do abdome registra e que é a causa mais comum de falso-positivo na busca de aneurisma.
 
-  **O sopro.** Ausculta-se o trajeto das artérias troncular por troncular, com o receptor apoiado sem pressão. Porto gradua os sopros arteriais em cruzes, de + a ++++, com os mesmos critérios da ausculta cardíaca, e separa dois tipos:
+  **O sopro.** Ausculta-se o trajeto das artérias troncular por troncular, com o receptor apoiado sem pressão. Graduam-se os sopros arteriais em cruzes, de + a ++++, com os mesmos critérios da ausculta cardíaca, separados em dois tipos:
 
   - **sistólicos**, nas estenoses e nas dilatações arteriais;
   - **sistodiastólicos, ou contínuos**, nas fístulas e nas malformações arteriovenosas.
 
-  Dois cuidados de leitura. O primeiro: **sopro nem sempre é doença da parede**. Porto lembra que estados hipercinéticos produzem sopros sem alteração arterial, como nas anemias e depois de exercício físico intenso. O segundo: sopros pouco intensos podem ser realçados pelo exercício, o mesmo recurso vale para o frêmito duvidoso, com abrir e fechar as mãos nos membros superiores e dorsiflexão ativa dos pés nos inferiores.
+  Dois cuidados de leitura. O primeiro: **sopro nem sempre é doença da parede**. Estados hipercinéticos produzem sopros sem alteração arterial, como nas anemias e depois de exercício físico intenso. O segundo: sopros pouco intensos podem ser realçados pelo exercício, o mesmo recurso vale para o frêmito duvidoso, com abrir e fechar as mãos nos membros superiores e dorsiflexão ativa dos pés nos inferiores.
 
-  **Onde procurar.** Semiologia Clínica destaca dois pontos como os mais importantes: a **região cervical**, pelo sopro carotídeo, e a **raiz da coxa**, pela femoral. McGee acrescenta o sopro do membro em três alturas (ilíaco, acima da prega inguinal; femoral, na coxa; e poplíteo) e é dele o alerta sobre o sopro que desaparece quando o vaso oclui completamente. Os **sopros abdominais** têm dono próprio: estão no tópico de inspeção e ausculta do abdome, com a advertência de que ocorrem em 4% a 20% das pessoas sadias.
+  **Onde procurar.** Dois pontos se destacam como os mais importantes: a **região cervical**, pelo sopro carotídeo, e a **raiz da coxa**, pela femoral. Soma-se o sopro do membro em três alturas (ilíaco, acima da prega inguinal; femoral, na coxa; e poplíteo), com o alerta de que o sopro desaparece quando o vaso oclui completamente. Os **sopros abdominais** têm dono próprio: estão no tópico de inspeção e ausculta do abdome, com a advertência de que ocorrem em 4% a 20% das pessoas sadias.
 :::
 
 ::: secao
@@ -355,13 +355,13 @@ titulo: Duas mãos, dois pulsos, uma pergunta
 texto: |
   Há uma manobra que não custa nada e que só existe porque a anatomia normal é previsível: palpar ao mesmo tempo a **radial e a femoral do mesmo lado**.
 
-  McGee define o normal pela impossibilidade: durante a palpação simultânea das duas artérias em pessoas saudáveis, **não é possível dizer qual delas chega primeiro**. Os dois impulsos são percebidos juntos.
+  Define-se o normal pela impossibilidade: durante a palpação simultânea das duas artérias em pessoas saudáveis, **não é possível dizer qual delas chega primeiro**. Os dois impulsos são percebidos juntos.
 
   Na **coarctação da aorta**, não. O pulso femoral chega **atrasado**, e por duas razões somadas: a onda demora mais a alcançar as pernas e, ao mesmo tempo, é conduzida aos braços mais depressa que o normal.
 
-  O achado quase nunca vem sozinho. McGee descreve o conjunto que acompanha a coarctação no adulto: hipertensão nos braços, **96%** têm pressão acima de 140/90, pulsos femorais ausentes ou diminuídos **e retardados** em **100%** dos casos, pulsações carotídeas aumentadas, sopros variados, em geral um sopro sistólico na borda esternal e um sopro contínuo no dorso, sobre a parte alta da coluna, e artérias colaterais visíveis, habitualmente ao redor da escápula, nos espaços intercostais ou na axila.
+  O achado quase nunca vem sozinho. O conjunto que acompanha a coarctação no adulto: hipertensão nos braços, **96%** têm pressão acima de 140/90, pulsos femorais ausentes ou diminuídos **e retardados** em **100%** dos casos, pulsações carotídeas aumentadas, sopros variados, em geral um sopro sistólico na borda esternal e um sopro contínuo no dorso, sobre a parte alta da coluna, e artérias colaterais visíveis, habitualmente ao redor da escápula, nos espaços intercostais ou na axila.
 
-  **A quem aplicar.** A situação em que a manobra rende é o **paciente jovem com hipertensão**. Nele, pressão inobtenível nas pernas ou muito mais baixa nas pernas que nos braços sugere coarctação, e a medida da pressão nos quatro membros está no tópico de pressão arterial. Porto chega ao mesmo ponto por outra porta: pede a medida nos quatro membros em todo paciente com diferença entre os pulsos periféricos e em todo hipertenso, porque valores diferentes levantam malformações congênitas, aneurismas, oclusão arterial e fístulas arteriovenosas.
+  **A quem aplicar.** A situação em que a manobra rende é o **paciente jovem com hipertensão**. Nele, pressão inobtenível nas pernas ou muito mais baixa nas pernas que nos braços sugere coarctação, e a medida da pressão nos quatro membros está no tópico de pressão arterial. Chega-se ao mesmo ponto por outra porta: pede-se a medida nos quatro membros em todo paciente com diferença entre os pulsos periféricos e em todo hipertenso, porque valores diferentes levantam malformações congênitas, aneurismas, oclusão arterial e fístulas arteriovenosas.
 :::
 
 ::: secao
@@ -374,7 +374,7 @@ nivel: avancado
 texto: |
   A regra de que todos os pulsos devem estar presentes bilateralmente tem uma exceção medida, e é preciso conhecê-la para não transformar variação anatômica em doença.
 
-  **Os números de McGee**, reunidos de estudos com grandes números de pessoas saudáveis:
+  **Os números compilados**, reunidos de estudos com grandes números de pessoas saudáveis:
 
   - o pulso **pedioso** não é palpável em **3% a 14%** das vezes;
   - o pulso **tibial posterior** não é palpável em **0% a 10%** das vezes;
@@ -384,11 +384,11 @@ texto: |
 
   Daí a conclusão que organiza o exame do pé: **a ausência dos dois pulsos pediosos é o melhor teste de rastreamento para doença vascular periférica**, porque é o achado comum às lesões dos três segmentos vasculares da perna. Um pulso do pé ausente com o outro cheio é, na maioria das vezes, anatomia. Os dois ausentes, não.
 
-  Uma segunda armadilha, com o sinal invertido: **pulsos presentes em repouso não afastam doença**. McGee registra que até um em cada três pacientes com doença arterial periférica tem um ou os dois pulsos do pé palpáveis, e que, nesses pacientes, os pulsos frequentemente diminuem ou desaparecem **durante o exercício**: correr no lugar, caminhar, ficar na ponta dos pés ou fazer flexões repetidas do tornozelo contra resistência. A comparação que ele faz é boa para guardar: é o mesmo fenômeno do fluxo coronariano normal em repouso que se torna anormal depois do esforço.
+  Uma segunda armadilha, com o sinal invertido: **pulsos presentes em repouso não afastam doença**. Até um em cada três pacientes com doença arterial periférica tem um ou os dois pulsos do pé palpáveis, e que, nesses pacientes, os pulsos frequentemente diminuem ou desaparecem **durante o exercício**: correr no lugar, caminhar, ficar na ponta dos pés ou fazer flexões repetidas do tornozelo contra resistência. A comparação que ele faz é boa para guardar: é o mesmo fenômeno do fluxo coronariano normal em repouso que se torna anormal depois do esforço.
 :::
 
 ::: tabela
-titulo: Concordância entre observadores para o exame dos pulsos (McGee, Tabela 5.1)
+titulo: Concordância entre observadores para o exame dos pulsos
 nivel: avancado
 colunas:
   - "Julgamento pedido ao examinador"
@@ -410,9 +410,9 @@ texto: |
 
   **Perguntar se o pulso existe é reprodutível.** Dois examinadores concordam razoavelmente bem sobre presente ou ausente: concordância de 0,52 a 0,92, faixa boa para um achado palpatório.
 
-  **Perguntar se o pulso está diminuído não é.** A concordância para normal ou diminuído vai de **0,01 a 0,15**, o que é praticamente concordância por acaso. É um dos piores números de toda a tabulação de McGee, e ele convive com o fato de que a amplitude comparada é justamente o parâmetro que Porto considera o principal do exame.
+  **Perguntar se o pulso está diminuído não é.** A concordância para normal ou diminuído vai de **0,01 a 0,15**, o que é praticamente concordância por acaso. É um dos piores números de toda a tabulação de concordância, e ele convive com o fato de que a amplitude comparada é justamente o parâmetro considerado o principal do exame.
 
-  As duas coisas não se contradizem tanto quanto parece, e a diferença está no **como**. O número baixo mede examinadores julgando **um pulso isolado** contra uma ideia interna de normalidade. O que Porto pede é outra coisa: **palpação simultânea dos dois lados**, com a pergunta reduzida a qual dos dois é menor. Comparar dois estímulos ao mesmo tempo é uma tarefa perceptiva muito mais fácil do que classificar um estímulo sozinho.
+  As duas coisas não se contradizem tanto quanto parece, e a diferença está no **como**. O número baixo mede examinadores julgando **um pulso isolado** contra uma ideia interna de normalidade. O que se pede é outra coisa: **palpação simultânea dos dois lados**, com a pergunta reduzida a qual dos dois é menor. Comparar dois estímulos ao mesmo tempo é uma tarefa perceptiva muito mais fácil do que classificar um estímulo sozinho.
 
   A regra prática que sai daqui é a mesma que atravessa o guia: **descreva antes de graduar**. Registre a comparação (qual lado é menor, entre quais dois pontos o pulso se perde) em vez de confiar em um grau isolado que o próximo examinador não vai reproduzir.
 
@@ -423,11 +423,11 @@ texto: |
 titulo: Pulsos que não estão onde deveriam
 nivel: avancado
 texto: |
-  Duas situações produzem um mapa de pulsos que parece contradizer a anatomia, e as duas estão em Porto.
+  Duas situações produzem um mapa de pulsos que parece contradizer a anatomia.
 
   **O sinal de Cowie.** A regra de localização diz que um pulso diminuído ou ausente aponta estenose crítica ou oclusão em algum ponto entre o último segmento normal e o segmento alterado. Há uma exceção congênita: na **persistência da artéria isquiática**, o pulso femoral está ausente enquanto o poplíteo e os distais estão presentes. É um mapa impossível pela regra, e por isso mesmo recebeu nome próprio.
 
-  **Os pulsos anômalos.** Nos pacientes em que não se encontram os pulsos tronculares abaixo dos cotovelos e dos joelhos, Porto orienta procurar, **em torno dessas articulações**, pulsos anômalos que se tornam palpáveis quando uma boa circulação colateral se desenvolveu. Encontrá-los muda a leitura do caso: não é o membro que está sem fluxo, é o tronco principal que está fechado e sendo contornado.
+  **Os pulsos anômalos.** Nos pacientes em que não se encontram os pulsos tronculares abaixo dos cotovelos e dos joelhos, procuram-se, **em torno dessas articulações**, pulsos anômalos que se tornam palpáveis quando uma boa circulação colateral se desenvolveu. Encontrá-los muda a leitura do caso: não é o membro que está sem fluxo, é o tronco principal que está fechado e sendo contornado.
 :::
 
 ::: sinal
@@ -444,14 +444,14 @@ causas:
 titulo: "Manobras que dependem do pulso: o desfiladeiro e a mão"
 nivel: avancado
 texto: |
-  Um pequeno grupo de manobras não avalia o pulso: usa o pulso como **instrumento de medida** de uma compressão em outro lugar. Todas são descritas por Porto nas duas obras, e todas seguem o mesmo desenho: palpa-se a radial, ausculta-se a região suspeita, e então se pede uma posição que feche o espaço em questão.
+  Um pequeno grupo de manobras não avalia o pulso: usa o pulso como **instrumento de medida** de uma compressão em outro lugar. Todas seguem o mesmo desenho: palpa-se a radial, ausculta-se a região suspeita, e então se pede uma posição que feche o espaço em questão.
 
-  - **Manobra de Adson**, investiga a compressão da subclávia e do plexo braquial por quatro estruturas possíveis: o escaleno anterior, uma costela cervical, um processo transverso alongado da sétima vértebra cervical ou bridas fibróticas. Com o paciente sentado e as mãos nos joelhos, palpa-se a radial e ausculta-se a fossa supraclavicular; pede-se inspiração profunda mantida, com extensão da cabeça girada para o lado examinado. Positiva quando o pulso radial diminui ou desaparece e surge sopro supraclavicular. Porto acrescenta duas notas: em alguns casos ela se torna positiva com a cabeça girada para o lado oposto, e **só tem valor diagnóstico quando repetida várias vezes com resultados semelhantes**.
-  - **Manobra costoclavicular**: investiga a compressão no espaço entre a clavícula e a primeira costela. Pede-se inspiração profunda com os ombros jogados para trás, na posição de sentido exagerada dos militares. Positiva pelos mesmos sinais, com o sopro na região supra ou infraclavicular. Porto descreve ainda uma variante passiva, com o braço abduzido e o antebraço fletido a 90 graus, rodado lateralmente e levado para trás pelo examinador.
-  - **Manobra de hiperabdução**: investiga a compressão pelo tendão do músculo peitoral menor. O paciente eleva o braço e coloca a mão acima da cabeça enquanto o examinador palpa a radial e ausculta a axila. Há aqui uma inconsistência interna em Porto que vale registrar: ao recapitular a anatomia, ele descreve a **artéria axilar** passando sob o tendão do peitoral menor, perto da inserção no processo coracoide, e é esse o ponto que a hiperabdução fecha; ao nomear a manobra, porém, tanto na *Semiologia Médica* quanto no *Exame Clínico*, escreve compressão da **artéria subclávia**. O gesto e o achado são os mesmos nas duas passagens; o vaso nomeado, não.
+  - **Manobra de Adson**, investiga a compressão da subclávia e do plexo braquial por quatro estruturas possíveis: o escaleno anterior, uma costela cervical, um processo transverso alongado da sétima vértebra cervical ou bridas fibróticas. Com o paciente sentado e as mãos nos joelhos, palpa-se a radial e ausculta-se a fossa supraclavicular; pede-se inspiração profunda mantida, com extensão da cabeça girada para o lado examinado. Positiva quando o pulso radial diminui ou desaparece e surge sopro supraclavicular. Duas notas: em alguns casos ela se torna positiva com a cabeça girada para o lado oposto, e **só tem valor diagnóstico quando repetida várias vezes com resultados semelhantes**.
+  - **Manobra costoclavicular**: investiga a compressão no espaço entre a clavícula e a primeira costela. Pede-se inspiração profunda com os ombros jogados para trás, na posição de sentido exagerada dos militares. Positiva pelos mesmos sinais, com o sopro na região supra ou infraclavicular. Descreve-se ainda uma variante passiva, com o braço abduzido e o antebraço fletido a 90 graus, rodado lateralmente e levado para trás pelo examinador.
+  - **Manobra de hiperabdução**: investiga a compressão pelo tendão do músculo peitoral menor. O paciente eleva o braço e coloca a mão acima da cabeça enquanto o examinador palpa a radial e ausculta a axila. Há aqui uma inconsistência interna das referências que vale registrar: ao recapitular a anatomia, descreve-se a **artéria axilar** passando sob o tendão do peitoral menor, perto da inserção no processo coracoide, e é esse o ponto que a hiperabdução fecha; ao nomear a manobra, porém, em mais de uma passagem, escreve-se compressão da **artéria subclávia**. O gesto e o achado são os mesmos nas duas passagens; o vaso nomeado, não.
   - **Manobra de Allen**, não investiga compressão, e sim a **patência das duas artérias do antebraço**. Em quatro tempos: paciente sentado, com os membros superiores estendidos à frente e as palmas para cima; o médico comprime a artéria radial; pede ao paciente que feche a mão com força, esvaziando-a de sangue, o que produz palidez; e, mantendo a radial comprimida, pede que abra a mão. **Normalmente a cor volta rápida e uniformemente.** Se a ulnar estiver estenosada ou ocluída, a cor demora a voltar e volta de forma irregular, em placas. Para investigar a artéria radial, repete-se tudo comprimindo a ulnar.
 
-  Duas ressalvas fecham o bloco. **Nenhuma das quatro obras deste guia atribui razões de verossimilhança a essas manobras**: elas são descritas pela técnica e pelo raciocínio, não pelo desempenho medido. E a síndrome do desfiladeiro torácico, cujo diagnóstico diferencial completo envolve exame neurológico e imagem, fica fora deste guia: aqui entram apenas as manobras que se apoiam no pulso.
+  Duas ressalvas fecham o bloco. **Nenhuma referência deste guia atribui razões de verossimilhança a essas manobras**: elas são descritas pela técnica e pelo raciocínio, não pelo desempenho medido. E a síndrome do desfiladeiro torácico, cujo diagnóstico diferencial completo envolve exame neurológico e imagem, fica fora deste guia: aqui entram apenas as manobras que se apoiam no pulso.
 :::
 
 ::: sinal
@@ -459,7 +459,7 @@ nome: Manobra de Adson
 descricao: |
   Paciente sentado, mãos nos joelhos; palpa-se a **radial** e ausculta-se a **fossa supraclavicular**; pede-se **inspiração profunda mantida com a cabeça estendida e girada para o lado examinado**. Positiva quando o pulso radial **diminui ou desaparece** e surge **sopro supraclavicular**.
 significado: |
-  Usa o pulso como instrumento de medida da **compressão da subclávia e do plexo braquial** no desfiladeiro: escaleno anterior, costela cervical, processo transverso alongado de C7 ou bridas. Duas notas de Porto: às vezes positiva com a cabeça girada para o lado **oposto**, e **só tem valor quando repetida várias vezes com resultados semelhantes**.
+  Usa o pulso como instrumento de medida da **compressão da subclávia e do plexo braquial** no desfiladeiro: escaleno anterior, costela cervical, processo transverso alongado de C7 ou bridas. Duas notas: às vezes positiva com a cabeça girada para o lado **oposto**, e **só tem valor quando repetida várias vezes com resultados semelhantes**.
 causas:
   - "Síndrome do desfiladeiro torácico (compressão da subclávia e do plexo braquial)"
 :::
@@ -496,11 +496,11 @@ titulo: Armadilhas do exame
 ::: conceito
 titulo: Seis erros na palpação dos pulsos
 texto: |
-  1. **Palpar com o polegar.** O polegar tem pulso próprio e forte. Porto orienta usar as polpas dos dedos indicador, médio e anular e, na dúvida, palpar simultaneamente o próprio pulso: se as frequências coincidirem, o que se sente é a mão do examinador.
-  2. **Comprimir as duas carótidas ao mesmo tempo.** Porto proíbe a manobra pelo risco de isquemia cerebral em quem tem uma delas ocluída, e adverte que comprimir o seio carotídeo pode desencadear bradicardia, parada cardíaca ou o desprendimento de trombos presos a uma placa. Semiologia Clínica acrescenta que, no idoso, é mais prudente auscultar antes de palpar.
+  1. **Palpar com o polegar.** O polegar tem pulso próprio e forte. Orienta-se usar as polpas dos dedos indicador, médio e anular e, na dúvida, palpar simultaneamente o próprio pulso: se as frequências coincidirem, o que se sente é a mão do examinador.
+  2. **Comprimir as duas carótidas ao mesmo tempo.** A manobra é proibida pelo risco de isquemia cerebral em quem tem uma delas ocluída, e comprimir o seio carotídeo pode desencadear bradicardia, parada cardíaca ou o desprendimento de trombos presos a uma placa. No idoso, é mais prudente auscultar antes de palpar.
   3. **Escrever pedioso ausente sem procurar em todo o dorso do pé.** A artéria pediosa varia de localização, e a extensão completa do joelho pode diminuir os pulsos podais por compressão da poplítea.
   4. **Ler um pulso do pé ausente como doença.** O pedioso falta em 3% a 14% das pessoas saudáveis e o tibial posterior em até 10%; o que quase não acontece por acaso é faltarem os dois (0% a 2%).
-  5. **Registrar amplitude em cruzes sem dizer qual escala.** As duas concordam até o normal e se separam no topo: ++ é o teto em Porto, que não tem degrau para pulso aumentado, enquanto 2+ é o meio da escala de Semiologia Clínica, que ainda oferece 3+.
+  5. **Registrar amplitude em cruzes sem dizer qual escala.** As duas concordam até o normal e se separam no topo: ++ é o teto em uma delas, que não tem degrau para pulso aumentado, enquanto 2+ é o meio da outra, que ainda oferece 3+.
   6. **Auscultar apertando o receptor sobre a artéria.** A compressão cria o sopro; e, na femoral, a compressão digital excessiva cria um frêmito falso.
 :::
 
@@ -543,12 +543,12 @@ perguntas:
       - "Peso indeterminado, já que a palpação dos pulsos do pé tem concordância entre observadores próxima de zero"
       - "Peso grande apenas se houver também sopro femoral, único achado que confirma obstrução arterial"
     corretaIndex: 0
-    explicacao: "Em pessoas saudáveis, o pulso pedioso não é palpável em 3% a 14% das vezes e o tibial posterior em 0% a 10%, mas os dois faltam simultaneamente em apenas 0% a 2%, porque, quando uma dessas artérias é congenitamente pequena ou ausente, a outra aumenta e compensa. É por isso que McGee trata a ausência dos dois pulsos pediosos como o melhor teste de rastreamento para doença vascular periférica, achado comum às lesões dos três segmentos. A concordância entre observadores próxima de zero (0,01 a 0,15) refere-se ao julgamento pulso normal ou diminuído, não a presente ou ausente, que alcança 0,52 a 0,92."
+    explicacao: "Em pessoas saudáveis, o pulso pedioso não é palpável em 3% a 14% das vezes e o tibial posterior em 0% a 10%, mas os dois faltam simultaneamente em apenas 0% a 2%, porque, quando uma dessas artérias é congenitamente pequena ou ausente, a outra aumenta e compensa. É por isso que a ausência dos dois pulsos pediosos é tratada como o melhor teste de rastreamento para doença vascular periférica, achado comum às lesões dos três segmentos. A concordância entre observadores próxima de zero (0,01 a 0,15) refere-se ao julgamento pulso normal ou diminuído, não a presente ou ausente, que alcança 0,52 a 0,92."
   - id: vasc-pul-2
     enunciado: Um interno registra no prontuário apenas pedioso 2+ bilateral. Por que essa anotação é insuficiente?
     alternativas:
       - "Porque a amplitude do pulso deixou de ser graduada em cruzes na semiologia vascular contemporânea, que passou a registrar apenas a razão entre a pressão do tornozelo e a do braço em cada membro examinado"
-      - "Porque as escalas divergem no topo: ++ é o degrau máximo em Porto, enquanto em Semiologia Clínica 2+ é o normal e ainda existe 3+ para o pulso aumentado"
+      - "Porque as escalas divergem no topo: ++ é o degrau máximo em uma delas, enquanto na outra 2+ é o normal e ainda existe 3+ para o pulso aumentado"
       - "Porque o pulso pedioso não deve ser graduado, e sim descrito apenas como presente ou ausente"
       - "Porque falta o registro do ritmo e da frequência, obrigatórios em todos os pulsos periféricos"
     corretaIndex: 1

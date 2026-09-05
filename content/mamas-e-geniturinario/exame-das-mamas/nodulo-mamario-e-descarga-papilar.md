@@ -62,11 +62,11 @@ titulo: O essencial
 ::: conceito
 titulo: Um caroço é um relato antes de ser um achado
 texto: |
-  A maioria dos nódulos chega ao consultório pela voz da paciente, e Porto ensina a interrogá-los antes de tocá-los. As perguntas do *Exame Clínico* são quatro: **quando apareceu**, se é **um ou mais de um e de que lado**, com que **velocidade cresce**, e se **muda com o ciclo menstrual**, o nódulo que incha e amolece antes da menstruação e desincha depois conta uma história diferente do que cresce sem calendário.
+  A maioria dos nódulos chega ao consultório pela voz da paciente, e vale interrogá-los antes de tocá-los. As perguntas são quatro: **quando apareceu**, se é **um ou mais de um e de que lado**, com que **velocidade cresce**, e se **muda com o ciclo menstrual**, o nódulo que incha e amolece antes da menstruação e desincha depois conta uma história diferente do que cresce sem calendário.
 
-  A dor entra no interrogatório com um aviso contraintuitivo. A *Semiologia Médica* registra que a **mastalgia** responde por metade das queixas em mastologia e **não tem relação com o câncer de mama**, mas é grande produtora de ansiedade. A classificação da obra ajuda a devolvê-la ao seu lugar: **cíclica** (difusa, bilateral, atada ao ciclo), **acíclica** (localizada, unilateral, cistos, mastites, traumas) e **extramamária** (a parede torácica doendo por baixo da mama). Dor não protege nem acusa; quem acusa é o conjunto do exame.
+  A dor entra no interrogatório com um aviso contraintuitivo. A **mastalgia** responde por metade das queixas em mastologia e **não tem relação com o câncer de mama**, mas é grande produtora de ansiedade. A classificação ajuda a devolvê-la ao seu lugar: **cíclica** (difusa, bilateral, atada ao ciclo), **acíclica** (localizada, unilateral, cistos, mastites, traumas) e **extramamária** (a parede torácica doendo por baixo da mama). Dor não protege nem acusa; quem acusa é o conjunto do exame.
 
-  **E a regra que governa o tópico inteiro**, no boxe de Porto: todo nódulo mamário é **"suspeito até que se prove o contrário"**, com investigação diagnóstica detalhada por métodos complementares. O que o exame clínico faz (e faz melhor do que qualquer outro método, porque é ele que toca) é **descrever**: uma descrição completa hoje é a régua contra a qual o próximo examinador medirá se a doença andou.
+  **E a regra que governa o tópico inteiro:** todo nódulo mamário é **"suspeito até que se prove o contrário"**, com investigação diagnóstica detalhada por métodos complementares. O que o exame clínico faz (e faz melhor do que qualquer outro método, porque é ele que toca) é **descrever**: uma descrição completa hoje é a régua contra a qual o próximo examinador medirá se a doença andou.
 :::
 
 ::: conceito
@@ -93,7 +93,7 @@ texto: |
   Somando as três fontes brasileiras, que pedem listas quase idênticas, a descrição completa de um nódulo mamário tem sete coordenadas:
 
   1. **Localização.** Porto ensina o sistema ancorado: os **quadrantes**, traçando pelo mamilo uma linha vertical e outra horizontal (superior externo, superior interno, inferior externo, inferior interno) divisão que existe, diz a obra, para facilitar a descrição e o registro. A prática consolidada acrescenta uma segunda notação, mais fina: o **raio horário** (a posição como num mostrador de relógio visto pelo examinador) com a **distância da papila** em centímetros, "às 2 horas, a 3 cm da papila". Nenhuma das quatro obras adotadas descreve a notação horária; o guia a registra **como convenção**, útil porque é a linguagem dos laudos com que o registro clínico vai dialogar. Um cuidado com ela: as posições horárias **se espelham** entre as mamas, às 9 horas é lateral na mama direita e medial na esquerda, e é por isso que a nomenclatura dos quadrantes, que usa externo e interno, viaja melhor entre os dois lados.
-  2. **Tamanho**, medido em centímetros, nas duas maiores dimensões, nunca "pequeno" ou "grande". Porto lembra que o diâmetro orienta inclusive o estadiamento.
+  2. **Tamanho**, medido em centímetros, nas duas maiores dimensões, nunca "pequeno" ou "grande". O diâmetro orienta inclusive o estadiamento.
   3. **Consistência.** O vocabulário da *Semiologia Médica*: **fibroelástica**, **cística** ou **endurecida**.
   4. **Limites e superfície.** Bem delimitados ou imprecisos; superfície **regular, lobulada ou irregular**.
   5. **Mobilidade e fixação.** O nódulo desliza sobre os planos profundos e sob a pele, ou está preso? A fixação se testa nos dois planos, e a contração dos peitorais, herdada da inspeção dinâmica do tópico anterior, ajuda a interrogar o plano muscular.
@@ -155,7 +155,7 @@ svg: |
       <text x="258" y="88">2 h</text>
     </g>
     <g font-family="sans-serif" font-size="7" fill="currentColor" stroke="none" text-anchor="middle">
-      <text x="82" y="196">quadrantes (Porto)</text>
+      <text x="82" y="196">quadrantes</text>
       <text x="238" y="196">raios horários (convenção)</text>
     </g>
   </svg>

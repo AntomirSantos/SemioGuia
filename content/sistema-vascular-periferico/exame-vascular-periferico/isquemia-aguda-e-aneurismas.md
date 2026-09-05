@@ -65,7 +65,7 @@ titulo: O único tópico deste capítulo em que o relógio faz parte do exame
 texto: |
   Este tópico fecha o capítulo com dois quadros que não se parecem em nada, exceto no que exigem de quem examina: reconhecimento rápido e descrição precisa.
 
-  **A isquemia arterial aguda** é a interrupção brusca do fluxo para um segmento do organismo (Porto). No membro, ela é emergência. E é uma emergência que se diagnostica **inteiramente pelo exame físico**, a confirmação por imagem existe, mas Porto registra a regra que a subordina: na ausência de acesso rápido ao exame complementar, a conduta não deve ser adiada, pelo risco de amputação nos casos de isquemia grave.
+  **A isquemia arterial aguda** é a interrupção brusca do fluxo para um segmento do organismo. No membro, ela é emergência. E é uma emergência que se diagnostica **inteiramente pelo exame físico**, a confirmação por imagem existe, mas Porto registra a regra que a subordina: na ausência de acesso rápido ao exame complementar, a conduta não deve ser adiada, pelo risco de amputação nos casos de isquemia grave.
 
   **Os aneurismas** são o oposto em ritmo: em geral assintomáticos, descobertos por acaso, crescendo devagar durante anos, até que uma minoria rompe de forma catastrófica. Aqui o exame não decide a urgência; ele levanta a hipótese.
 
@@ -440,7 +440,7 @@ opcoes:
   - "Provavelmente não: tumor pulsátil ali levanta aneurisma, e aneurisma poplíteo emboliza"
 corretaIndex: 2
 desfecho: |
-  A poplítea é reconhecidamente difícil de palpar, quando ela se entrega como massa pulsátil, a suspeita é aneurisma, uma das localizações mais comuns dos adquiridos. Porto descreve como complicações principais a trombose e a embolia a partir dos trombos da parede, capazes de produzir isquemia aguda da perna inteira ou de um único pododáctilo. O "pulso bom" é um aneurisma silencioso; achá-lo agora é o que evita conhecê-lo como emergência.
+  A poplítea é reconhecidamente difícil de palpar, quando ela se entrega como massa pulsátil, a suspeita é aneurisma, uma das localizações mais comuns dos adquiridos. Complicações principais a trombose e a embolia a partir dos trombos da parede, capazes de produzir isquemia aguda da perna inteira ou de um único pododáctilo. O "pulso bom" é um aneurisma silencioso; achá-lo agora é o que evita conhecê-lo como emergência.
 :::
 
 ::: resumo
@@ -482,7 +482,7 @@ perguntas:
       - "Porque a perda de sensibilidade precede a queda dos pulsos e permite diagnosticar a oclusão antes que ela se complete"
       - "Porque a musculatura da panturrilha tolera a isquemia por até 24 horas, o que torna o exame motor pouco informativo"
     corretaIndex: 0
-    explicacao: "Porto registra a ordem de tolerância dos tecidos à isquemia: sofrem primeiro os nervos periféricos, seguidos dos músculos, das artérias, que sofrem necrose da camada média, da pele, das cartilagens e, por último, dos ossos. É por isso que a dor costuma ser precedida de formigamento e dormência e que a perda sensitiva e depois motora graduam a gravidade. Não é que a perda sensitiva anteceda a queda dos pulsos: os pulsos desaparecem no momento da oclusão. E o músculo não tolera 24 horas: Porto registra que uma isquemia grave já pode deixar lesões irreversíveis, com contratura muscular, depois de 4 a 6 horas de evolução."
+    explicacao: "Porto registra a ordem de tolerância dos tecidos à isquemia: sofrem primeiro os nervos periféricos, seguidos dos músculos, das artérias, que sofrem necrose da camada média, da pele, das cartilagens e, por último, dos ossos. É por isso que a dor costuma ser precedida de formigamento e dormência e que a perda sensitiva e depois motora graduam a gravidade. Não é que a perda sensitiva anteceda a queda dos pulsos: os pulsos desaparecem no momento da oclusão. E o músculo não tolera 24 horas: Uma isquemia grave já pode deixar lesões irreversíveis, com contratura muscular, depois de 4 a 6 horas de evolução."
   - id: vasc-isq-4
     enunciado: Por que este guia nomeia a mnemônica dos P da isquemia arterial aguda, mas não a ensina?
     alternativas:

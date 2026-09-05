@@ -66,9 +66,9 @@ titulo: Duas peças que se encaixam
 texto: |
   A **queixa principal** é curta. A **história da doença atual** é longa. Uma anuncia, a outra desenvolve.
 
-  Porto define a queixa principal como o motivo que levou o paciente a procurar atendimento, registrado, sempre que possível, com as expressões que ele usou: uma afirmação breve e espontânea, em geral um sintoma ou um sinal. *Semiologia Clínica* dá a imagem que fixa o conceito: essa parte da anamnese funciona como **o título de um capítulo, não como o resumo dele**.
+  A queixa principal é o motivo que levou o paciente a procurar atendimento, registrado, sempre que possível, com as expressões que ele usou: uma afirmação breve e espontânea, em geral um sintoma ou um sinal. A imagem que fixa o conceito: essa parte da anamnese funciona como **o título de um capítulo, não como o resumo dele**.
 
-  A HDA é o registro cronológico e detalhado desse motivo, do começo até a data de hoje. Porto a chama de parte principal da anamnese e de chave mestra do diagnóstico, e resume a meta em cinco palavras: a história precisa ter **começo, meio e fim**.
+  A HDA é o registro cronológico e detalhado desse motivo, do começo até a data de hoje. É a parte principal da anamnese e a chave mestra do diagnóstico, e a meta se resume em cinco palavras: a história precisa ter **começo, meio e fim**.
 
   Entre as duas há uma peça de engenharia: o **sintoma-guia**, que dá à narrativa uma espinha dorsal em torno da qual as outras queixas se articulam.
 :::
@@ -84,16 +84,16 @@ titulo: A queixa principal
 ::: conceito
 titulo: Como obter, o que registrar
 texto: |
-  Porto sugere abrir com uma pergunta ampla: qual o motivo da consulta, por que o senhor me procurou, o que o senhor está sentindo, o que o está incomodando. E dá exemplos do que uma boa queixa principal parece: "exame de admissão para o trabalho", "dor de ouvido", "dor no peito há 2 horas".
+  Vale abrir com uma pergunta ampla: qual o motivo da consulta, por que o senhor me procurou, o que o senhor está sentindo, o que o está incomodando. E dá exemplos do que uma boa queixa principal parece: "exame de admissão para o trabalho", "dor de ouvido", "dor no peito há 2 horas".
 
   Quatro regras cobrem quase todas as situações.
 
-  1. **Nas palavras do paciente**, entre aspas quando se quer marcar que foram as palavras exatas. A regra não é absoluta: *Semiologia Clínica* admite que essa linha seja escrita tanto com o linguajar habitual quanto em termos médicos, o que ela proíbe é escrevê-la como diagnóstico. Por isso "dor de cabeça há um dia" e "cefaleia há um dia" servem igualmente, e "cefaleia occipital há 3 meses" continua sendo queixa principal, não hipótese.
-  2. **Com a duração junto.** *Semiologia Clínica* trata queixa e duração como um par: "dor de cabeça há um dia" é queixa principal; "dor de cabeça" sozinha é meia queixa.
-  3. **Sem rótulo diagnóstico.** A mesma obra é explícita: não se escreve "enxaqueca há um dia", escreve-se "dor de cabeça há um dia", porque a essa altura ainda não há diagnóstico preciso. Porto acrescenta a razão clínica: aceitar o rótulo do paciente pode custar o diagnóstico verdadeiro.
-  4. **Uma queixa, não sete.** Quando a pessoa enumera vários motivos, Porto lembra que nem sempre o motivo que mais pesa é o primeiro a ser enunciado, e ensina como identificá-lo: perguntar o que a levou a procurar atendimento, ou o que mais a incomoda.
+  1. **Nas palavras do paciente**, entre aspas quando se quer marcar que foram as palavras exatas. A regra não é absoluta: essa linha pode ser escrita tanto com o linguajar habitual quanto em termos médicos, o que se proíbe é escrevê-la como diagnóstico. Por isso "dor de cabeça há um dia" e "cefaleia há um dia" servem igualmente, e "cefaleia occipital há 3 meses" continua sendo queixa principal, não hipótese.
+  2. **Com a duração junto.** Queixa e duração formam um par: "dor de cabeça há um dia" é queixa principal; "dor de cabeça" sozinha é meia queixa.
+  3. **Sem rótulo diagnóstico.** A regra é explícita: não se escreve "enxaqueca há um dia", escreve-se "dor de cabeça há um dia", porque a essa altura ainda não há diagnóstico preciso. A razão clínica: aceitar o rótulo do paciente pode custar o diagnóstico verdadeiro.
+  4. **Uma queixa, não sete.** Quando a pessoa enumera vários motivos, nem sempre o motivo que mais pesa é o primeiro a ser enunciado; para identificá-lo, pergunta-se o que a levou a procurar atendimento, ou o que mais a incomoda.
 
-  Há situações em que o motivo da consulta não é um sintoma, e continua sendo uma queixa principal legítima: paciente encaminhado para avaliação pré-operatória, paciente que quer parar de fumar, paciente que traz um exame alterado. *Semiologia Clínica* registra essas três variantes: sintoma, preocupação e encaminhamento.
+  Há situações em que o motivo da consulta não é um sintoma, e continua sendo uma queixa principal legítima: paciente encaminhado para avaliação pré-operatória, paciente que quer parar de fumar, paciente que traz um exame alterado. São três variantes: sintoma, preocupação e encaminhamento.
 :::
 
 ::: tabela
@@ -139,7 +139,7 @@ passos:
   - "Pergunte o que o paciente deixou de fazer por causa dessa condição."
   - "Resuma a história obtida para que ele confirme, corrija ou acrescente algo esquecido."
 observar: |
-  Duas obras divergem discretamente no último passo, e ambas as versões funcionam: Porto, em *Semiologia Médica*, manda resumir a história para o paciente; em *Exame Clínico*, manda ler para ele a história que se escreveu. O que não muda é a finalidade: devolver a narrativa antes de fechá-la. E há uma regra de escrita que atravessa as duas: não induza respostas.
+  As referências divergem discretamente no último passo, e ambas as versões funcionam: uma manda resumir a história para o paciente; outra manda ler para ele a história que se escreveu. O que não muda é a finalidade: devolver a narrativa antes de fechá-la. E há uma regra de escrita que atravessa as duas: não induza respostas.
 :::
 
 ::: checklist
@@ -164,16 +164,16 @@ titulo: O sintoma-guia
 ::: conceito
 titulo: A espinha dorsal da narrativa
 texto: |
-  Porto define o sintoma-guia como o sintoma ou sinal que permite recompor a história com mais facilidade e precisão, e dá exemplos que mostram a ideia funcionando: a convulsão da epilepsia, o edema da síndrome nefrótica, a diarreia da colite ulcerativa, a febre da malária, a dor epigástrica da úlcera péptica.
+  O sintoma-guia é o sintoma ou sinal que permite recompor a história com mais facilidade e precisão. Exemplos que mostram a ideia funcionando: a convulsão da epilepsia, o edema da síndrome nefrótica, a diarreia da colite ulcerativa, a febre da malária, a dor epigástrica da úlcera péptica.
 
   Duas advertências vêm junto.
 
   - **Não há um sintoma-guia fixo por doença.** A mesma enfermidade pode se apresentar guiada por sintomas diferentes em pacientes diferentes.
-  - **Não há regra fixa para escolhê-lo.** Porto examina três candidatos e recusa todos como critério absoluto: o sintoma mais antigo (a levar em conta, mas não obrigatório), a primeira queixa relatada (também não desprezível) e o sintoma mais realçado pelo paciente (não sistematicamente).
+  - **Não há regra fixa para escolhê-lo.** Três candidatos são examinados e nenhum vale como critério absoluto: o sintoma mais antigo (a levar em conta, mas não obrigatório), a primeira queixa relatada (também não desprezível) e o sintoma mais realçado pelo paciente (não sistematicamente).
 
   Para quem está começando, a mesma obra oferece uma orientação prática: eleger a queixa que dura há mais tempo, aquela que o paciente mais destaca, ou simplesmente partir da própria queixa principal. E acrescenta um consolo honesto, para o iniciante, sem grande conhecimento clínico e sem experiência, o sintoma-guia acaba sendo a única maneira de reconstruir a história de uma doença.
 
-  Escolhido o guia, o resto se organiza sozinho: as outras queixas se articulam a ele em ordem cronológica, formando um conjunto compreensível e lógico. Porto chama esse arranjo de fio condutor, e diz que ele é a base do raciocínio clínico.
+  Escolhido o guia, o resto se organiza sozinho: as outras queixas se articulam a ele em ordem cronológica, formando um conjunto compreensível e lógico. Esse arranjo se chama fio condutor, e é a base do raciocínio clínico.
 :::
 
 ::: entendimento
@@ -181,7 +181,7 @@ titulo: Por que ancorar datas em eventos
 texto: |
   Nas doenças de início recente, o paciente recorda bem: os acontecimentos ainda estão vivos e se ordenam sem esforço. O problema aparece nas afecções de longa duração, de começo insidioso e manifestações múltiplas: exatamente as histórias em que a cronologia mais importa.
 
-  Porto recomenda um artifício simples: relacionar o sintoma a **eventos que não se esquecem**, casamento, gravidez, mudanças, acidentes. "Já sentia isso quando a senhora se mudou?" produz uma data mais confiável que "há quanto tempo?", porque a memória humana guarda melhor episódios do que intervalos.
+  Vale um artifício simples: relacionar o sintoma a **eventos que não se esquecem**, casamento, gravidez, mudanças, acidentes. "Já sentia isso quando a senhora se mudou?" produz uma data mais confiável que "há quanto tempo?", porque a memória humana guarda melhor episódios do que intervalos.
 
   A mesma obra insiste que, mesmo sem data exata, é indispensável estabelecer a **época provável** do início. Uma HDA que começa com "há muito tempo" perdeu o eixo antes da primeira frase.
 :::
@@ -193,13 +193,13 @@ titulo: Caracterizar o sintoma
 ::: conceito
 titulo: O esquema geral, válido para qualquer sintoma
 texto: |
-  Porto propõe, nas duas obras, um esquema de seis elementos para analisar **qualquer** sintoma, usando a dor apenas como modelo de exposição. É o roteiro mínimo, e não deixar cair nenhum dos seis já separa uma HDA utilizável de um amontoado de queixas.
+  Este esquema tem seis elementos para analisar **qualquer** sintoma, usando a dor apenas como modelo de exposição. É o roteiro mínimo, e não deixar cair nenhum dos seis já separa uma HDA utilizável de um amontoado de queixas.
 
   A ordem em que se pergunta pode variar; a ordem em que se registra deve seguir a cronologia.
 :::
 
 ::: tabela
-titulo: Esquema para análise de um sintoma (Porto)
+titulo: Esquema para análise de um sintoma
 colunas:
   - "Elemento"
   - "O que se investiga"
@@ -221,9 +221,9 @@ linhas:
 ::: conceito
 titulo: O conjunto completo, quando o sintoma é dor
 texto: |
-  Para a dor (o sintoma mais frequente e o mais mal caracterizado nas primeiras histórias) Porto abre o esquema em **dez atributos**, que valem como roteiro de exaustão e que se transferem, com adaptações, a quase qualquer sintoma somático.
+  Para a dor (o sintoma mais frequente e o mais mal caracterizado nas primeiras histórias) o esquema se abre em **dez atributos**, que valem como roteiro de exaustão e que se transferem, com adaptações, a quase qualquer sintoma somático.
 
-  1. **Localização.** Peça que o paciente aponte com um dedo, e registre pela nomenclatura das regiões da superfície corporal. Porto adverte que descrições como "dor na vesícula" não têm valor semiótico, porque dependem da imagem corporal que o paciente tem de si, e que pode estar completamente equivocada.
+  1. **Localização.** Peça que o paciente aponte com um dedo, e registre pela nomenclatura das regiões da superfície corporal. Descrições como "dor na vesícula" não têm valor semiótico, porque dependem da imagem corporal que o paciente tem de si, e que pode estar completamente equivocada.
   2. **Irradiação.** Se a dor é estritamente localizada, se segue o trajeto de uma raiz ou nervo (irradiada), ou se é sentida em território distante por outro mecanismo (referida). São coisas diferentes, com fisiopatologias diferentes.
   3. **Qualidade ou caráter.** Nas palavras do paciente: pontada, facada, agulhada, queimação, aperto, latejante, surda, em cólica.
   4. **Intensidade.** Ver adiante.
@@ -234,7 +234,7 @@ texto: |
   9. **Fatores atenuantes.** O que o paciente descobriu que alivia: posição, repouso, alimento, compressa.
   10. **Manifestações concomitantes.** O que acompanha a dor, sobretudo o cortejo neurovegetativo da dor aguda intensa.
 
-  Uma observação de Porto sobre o item 7 organiza o raciocínio: em geral **a dor piora justamente quando o órgão de onde ela vem entra em funcionamento**. A exceção clássica é a úlcera péptica duodenal, cuja dor cede quando o paciente come, porque decorre da hipercloridria e não da atividade do duodeno.
+  Uma observação sobre o item 7 organiza o raciocínio: em geral **a dor piora justamente quando o órgão de onde ela vem entra em funcionamento**. A exceção clássica é a úlcera péptica duodenal, cuja dor cede quando o paciente come, porque decorre da hipercloridria e não da atividade do duodeno.
 :::
 
 ::: ilustracao
@@ -274,29 +274,29 @@ svg: |
       <text x="160" y="194">e, ao fim, a situação atual</text>
     </g>
   </svg>
-legenda: "Mapa da caracterização do sintoma. Nove atributos convergem para a mesma queixa; a descrição só se fecha com a situação atual, como o sintoma está no momento da entrevista. Quando o sintoma é dor, acrescentam-se a relação com funções orgânicas e a separação entre fatores desencadeantes e fatores atenuantes (Porto, Semiologia Médica, cap. 9)."
+legenda: "Mapa da caracterização do sintoma. Nove atributos convergem para a mesma queixa; a descrição só se fecha com a situação atual, como o sintoma está no momento da entrevista. Quando o sintoma é dor, acrescentam-se a relação com funções orgânicas e a separação entre fatores desencadeantes e fatores atenuantes."
 :::
 
 ::: entendimento
 titulo: "Intensidade: o adjetivo não basta"
 texto: |
-  Intensidade é o atributo que mais importa ao paciente e o mais escorregadio de registrar, porque é subjetivo por natureza. Porto (cap. 9) descreve três instrumentos, e nomeia cada um.
+  Intensidade é o atributo que mais importa ao paciente e o mais escorregadio de registrar, porque é subjetivo por natureza. Há três instrumentos, cada um com seu nome.
 
   - **Escala subjetiva por expressões**, sem dor, dor leve, moderada, intensa, muito intensa, pior dor possível. De amplo uso e com a desvantagem de ser, ela mesma, subjetiva.
   - **Escala analógica visual**, preferida em adultos: uma linha reta de **10 cm** com as designações "sem dor" e "pior dor possível" nos extremos. O paciente aponta um ponto da linha, e o resultado se registra como um valor **de zero a dez**. Não elimina o componente subjetivo, mas melhora a avaliação.
   - **Escalas gráficas sem número**, entre elas a de expressões faciais de sofrimento, destinadas a crianças, a idosos e a adultos de baixa escolaridade, para quem a escala analógica pode ser de compreensão difícil.
 
-  Quando o paciente não sabe definir a "pior dor possível", Porto sugere pedir comparação com a dor mais intensa que ele já sentiu (a cólica nefrética, o parto, o instante em que uma úlcera perfura) reconhecendo que nem todo paciente tem essas referências.
+  Quando o paciente não sabe definir a "pior dor possível", vale pedir comparação com a dor mais intensa que ele já sentiu (a cólica nefrética, o parto, o instante em que uma úlcera perfura) reconhecendo que nem todo paciente tem essas referências.
 
-  Existe ainda uma medida indireta e objetiva que a mesma obra manda valorizar: **o quanto a dor interfere no sono, no trabalho, na vida conjugal e familiar, na atividade sexual, social e recreativa**. É a mesma pergunta que *Semiologia Clínica* transforma em item próprio da anamnese: o que o senhor deixou de fazer por causa da sua condição de saúde?
+  Existe ainda uma medida indireta e objetiva que vale a pena valorizar: **o quanto a dor interfere no sono, no trabalho, na vida conjugal e familiar, na atividade sexual, social e recreativa**. É a mesma pergunta que se transforma em item próprio da anamnese: o que o senhor deixou de fazer por causa da sua condição de saúde?
 :::
 
 ::: conceito
 titulo: Aguda e crônica, onde fica a fronteira
 texto: |
-  Porto (cap. 9) classifica a dor pela duração e registra, com honestidade, que a fronteira não é consensual: **aguda** é a que se resolve em menos de 1 mês, embora haja autores que estendam esse limite a 3 meses; ela cessa poucos dias ou poucas semanas depois que a lesão melhora. **Crônica** é a dor que sobrevive ao prazo em que a doença ou a lesão deveria ter cicatrizado: na prática, mais de 3 meses.
+  A dor se classifica pela duração, e vale registrar, com honestidade, que a fronteira não é consensual: **aguda** é a que se resolve em menos de 1 mês, embora haja autores que estendam esse limite a 3 meses; ela cessa poucos dias ou poucas semanas depois que a lesão melhora. **Crônica** é a dor que sobrevive ao prazo em que a doença ou a lesão deveria ter cicatrizado: na prática, mais de 3 meses.
 
-  Vale mais do que uma classificação: a dor crônica, escreve a mesma obra, já não é sintoma de coisa alguma: ela própria virou a doença daquela pessoa, associando-se em geral a fatores sociais e emocionais. Isso muda o que se pergunta e o que se registra.
+  Vale mais do que uma classificação: a dor crônica já não é sintoma de coisa alguma: ela própria virou a doença daquela pessoa, associando-se em geral a fatores sociais e emocionais. Isso muda o que se pergunta e o que se registra.
 
   Dois padrões temporais completam o vocabulário, ambos ancorados no mesmo capítulo.
 
@@ -317,9 +317,9 @@ titulo: Histórias que não cabem em uma linha
 titulo: Sintomas múltiplos e concomitantes
 nivel: avancado
 texto: |
-  Quando o paciente refere dor em mais de um lugar, a tentação é somar tudo numa frase. Porto (Exame Clínico, cap. 6) dá a regra oposta: **cada localização deve ser registrada e caracterizada por conta própria**, exceção feita à dor irradiada e à dor referida, que se avaliam junto com a dor de origem.
+  Quando o paciente refere dor em mais de um lugar, a tentação é somar tudo numa frase. A regra é a oposta: **cada localização deve ser registrada e caracterizada por conta própria**, exceção feita à dor irradiada e à dor referida, que se avaliam junto com a dor de origem.
 
-  Feito isso, a mesma obra oferece três leituras possíveis para dores sem relação aparente entre si:
+  Feito isso, há três leituras possíveis para dores sem relação aparente entre si:
 
   - **uma doença única**, como nas afecções reumáticas com dor em múltiplas articulações;
   - **processos patológicos independentes**, que apenas coexistem naquele paciente;
@@ -341,22 +341,22 @@ texto: |
   1. **A linha de base.** Como era o sintoma no seu estado habitual: frequência, intensidade típica, o que ele já não conseguia fazer, o que costumava aliviar.
   2. **O que mudou, e quando.** A pergunta operacional é direta: o que está diferente das outras vezes? E a data dessa mudança é a data que a HDA precisa fixar, ainda que o sintoma exista há dez anos.
 
-  Porto (cap. 9) fornece o princípio clínico que sustenta essa disciplina: **a mudança de padrão é evento, não ruído**. A mesma obra dá dois exemplos que valem por uma aula. O paciente com úlcera péptica e dor crônica em queimação no epigástrio que passa subitamente a ter dor aguda e intensa na mesma região, espalhando-se horas depois por todo o abdome: quadro de úlcera perfurada. E a paciente com doença biliar e dor surda crônica no hipocôndrio direito que passa subitamente a ter dor intensa em barra no andar superior do abdome, com vômitos repetidos: quadro compatível com pancreatite aguda.
+  O princípio clínico que sustenta essa disciplina: **a mudança de padrão é evento, não ruído**. Dois exemplos valem por uma aula. O paciente com úlcera péptica e dor crônica em queimação no epigástrio que passa subitamente a ter dor aguda e intensa na mesma região, espalhando-se horas depois por todo o abdome: quadro de úlcera perfurada. E a paciente com doença biliar e dor surda crônica no hipocôndrio direito que passa subitamente a ter dor intensa em barra no andar superior do abdome, com vômitos repetidos: quadro compatível com pancreatite aguda.
 
-  A evolução da intensidade também informa, e a mesma obra é explícita: redução progressiva sem qualquer alteração no tratamento sugere que o quadro entra em remissão; intensidade inalterada, progressiva ou em agravamento ao longo dos meses, apesar de tratamento adequado, sugere que a dor se cronificou.
+  A evolução da intensidade também informa: redução progressiva sem qualquer alteração no tratamento sugere que o quadro entra em remissão; intensidade inalterada, progressiva ou em agravamento ao longo dos meses, apesar de tratamento adequado, sugere que a dor se cronificou.
 
-  Há ainda um cuidado de registro que *Semiologia Clínica* recomenda para essas histórias longas: não transcrever a peregrinação por serviços e médicos, e sim resumi-la, procurou vários especialistas sem solução do quadro; após dois atendimentos, houve melhora parcial.
+  Há ainda um cuidado de registro recomendado para essas histórias longas: não transcrever a peregrinação por serviços e médicos, e sim resumi-la, procurou vários especialistas sem solução do quadro; após dois atendimentos, houve melhora parcial.
 :::
 
 ::: conceito
 titulo: Quando o sintoma muda de caráter
 nivel: avancado
 texto: |
-  Um sintoma que troca de qualidade é um sintoma novo usando o nome do antigo. Porto (cap. 9) descreve o fenômeno em várias direções e todas interessam à HDA.
+  Um sintoma que troca de qualidade é um sintoma novo usando o nome do antigo. O fenômeno se manifesta em várias direções e todas interessam à HDA.
 
   - Uma dor pode mudar em função do **tempo**, do **tratamento** ou da **evolução da doença de base**.
   - Na dor neuropática, os componentes constante, intermitente e evocado costumam surgir em épocas diferentes; o retorno da queixa pode significar o aparecimento de um componente novo, e não a perda do controle do antigo.
-  - O reconhecimento da forma inicial de apresentação é o que permite interpretar a atual, e Porto observa que, quando o paciente só é visto tardiamente, a caracterização fica mais difícil justamente por falta desse ponto de partida.
+  - O reconhecimento da forma inicial de apresentação é o que permite interpretar a atual, e quando o paciente só é visto tardiamente, a caracterização fica mais difícil justamente por falta desse ponto de partida.
 
   Daí a instrução prática: caracterize o sintoma **como ele é hoje e como ele era no início**, e registre as duas descrições. Uma HDA que só descreve o presente joga fora a metade mais informativa da história.
 :::
@@ -371,12 +371,12 @@ texto: |
   1. **Adotar o diagnóstico como queixa principal.** "Enxaqueca há um dia" fecha a investigação antes de abri-la. Escreva o sintoma.
   2. **Deixar a caracterização pela metade.** Quase toda HDA fraca tem localização e duração e não tem qualidade, irradiação, fatores de melhora nem sintomas associados. O esquema existe para ser percorrido inteiro.
   3. **Descrever intensidade por adjetivo.** "Dor forte" não é comparável entre consultas nem entre examinadores. Use uma escala nomeada e registre qual foi.
-  4. **Escrever fora de ordem.** *Semiologia Clínica* recomenda ouvir e perguntar primeiro, anotar depois: justamente para conseguir uma ordenação cronológica pertinente e um texto linear para quem for ler.
+  4. **Escrever fora de ordem.** A recomendação é ouvir e perguntar primeiro, anotar depois: justamente para conseguir uma ordenação cronológica pertinente e um texto linear para quem for ler.
   5. **Esquecer o presente.** O esquema termina em "situação atual" e é o item mais omitido. Uma história que para na semana passada não diz ao próximo examinador em que estado o paciente chegou.
 :::
 
 ::: perola
-texto: "Antes de fechar a HDA, faça a pergunta de Semiologia Clínica: o que o senhor deixou de fazer por causa disso? A resposta mede gravidade em unidade de vida real, e frequentemente corrige a intensidade que o paciente havia declarado."
+texto: "Antes de fechar a HDA, faça esta pergunta: o que o senhor deixou de fazer por causa disso? A resposta mede gravidade em unidade de vida real, e frequentemente corrige a intensidade que o paciente havia declarado."
 :::
 
 ::: relampago
@@ -390,7 +390,7 @@ opcoes:
   - "Esclarecer o que exatamente ele sente e registrar o sintoma"
 corretaIndex: 2
 desfecho: |
-  Esclarecido, o rótulo escondia um sintoma que ninguém caracterizava havia dez anos. A queixa principal se registra nas palavras do paciente, com a duração e **sem rótulo diagnóstico**, e trocar "gastrite" por "dispepsia" só troca o dono do rótulo. Porto dá a razão clínica: aceitar o rótulo do paciente pode custar o diagnóstico verdadeiro.
+  Esclarecido, o rótulo escondia um sintoma que ninguém caracterizava havia dez anos. A queixa principal se registra nas palavras do paciente, com a duração e **sem rótulo diagnóstico**, e trocar "gastrite" por "dispepsia" só troca o dono do rótulo. A razão clínica: aceitar o rótulo do paciente pode custar o diagnóstico verdadeiro.
 :::
 
 ::: resumo
@@ -414,16 +414,16 @@ perguntas:
       - "Cefaleia intensa de provável origem tensional"
       - "Cefaleia crônica agudizada"
     corretaIndex: 1
-    explicacao: "A queixa principal registra o motivo da consulta nas palavras do paciente, acompanhado da duração, e não deve ser escrita como diagnóstico, a essa altura ainda não existe diagnóstico preciso. Semiologia Clínica usa exatamente este exemplo, recomendando \"dor de cabeça (ou cefaleia) há um dia\" em vez de \"enxaqueca há um dia\". As demais alternativas antecipam conclusões que a história ainda não sustenta."
+    explicacao: "A queixa principal registra o motivo da consulta nas palavras do paciente, acompanhado da duração, e não deve ser escrita como diagnóstico, a essa altura ainda não existe diagnóstico preciso. É exatamente este o exemplo clássico, recomendando \"dor de cabeça (ou cefaleia) há um dia\" em vez de \"enxaqueca há um dia\". As demais alternativas antecipam conclusões que a história ainda não sustenta."
   - id: hda-2
-    enunciado: Qual das afirmações abaixo sobre o sintoma-guia corresponde ao que Porto ensina?
+    enunciado: Qual das afirmações abaixo sobre o sintoma-guia é a correta?
     alternativas:
       - "É sempre o sintoma mais antigo relatado pelo paciente"
       - "É sempre o sintoma que o paciente mais realça"
       - "Não há regra fixa; o estudante pode eleger a queixa que dura há mais tempo, a mais destacada pelo paciente ou a própria queixa principal"
       - "Cada doença tem um sintoma-guia único e constante, como a convulsão na epilepsia e o edema na síndrome nefrótica, que o estudante deve memorizar"
     corretaIndex: 2
-    explicacao: "Porto examina e recusa cada critério isolado: o sintoma-guia não é necessariamente o mais antigo, não é obrigatoriamente a primeira queixa relatada e não é sistematicamente o mais realçado pelo paciente. Também não existe um sintoma-guia único e constante por enfermidade. A orientação oferecida ao iniciante é eleger a queixa que dura há mais tempo, aquela que o paciente mais destaca ou simplesmente a própria queixa principal."
+    explicacao: "Cada critério isolado é examinado e recusado: o sintoma-guia não é necessariamente o mais antigo, não é obrigatoriamente a primeira queixa relatada e não é sistematicamente o mais realçado pelo paciente. Também não existe um sintoma-guia único e constante por enfermidade. A orientação oferecida ao iniciante é eleger a queixa que dura há mais tempo, aquela que o paciente mais destaca ou simplesmente a própria queixa principal."
   - id: hda-3
     enunciado: Um paciente refere dor no ombro direito e dor no joelho esquerdo, sem relação aparente. Como proceder na HDA?
     alternativas:
@@ -432,7 +432,7 @@ perguntas:
       - "Investigar apenas a mais intensa, deixando a outra para o interrogatório sintomatológico"
       - "Concluir por dor psicogênica, já que dores em locais distantes não costumam ter causa orgânica única"
     corretaIndex: 0
-    explicacao: "Porto (Exame Clínico, cap. 6) determina que cada localização seja registrada e caracterizada por conta própria, salvo na dor irradiada e na dor referida, avaliadas junto com a dor de origem. Só depois, com as duas caracterizações completas, é possível decidir entre doença única (como nas afecções reumáticas poliarticulares), processos independentes ou dor psicogênica: a conclusão não antecede a caracterização."
+    explicacao: "Cada localização deve ser registrada e caracterizada por conta própria, salvo na dor irradiada e na dor referida, avaliadas junto com a dor de origem. Só depois, com as duas caracterizações completas, é possível decidir entre doença única (como nas afecções reumáticas poliarticulares), processos independentes ou dor psicogênica: a conclusão não antecede a caracterização."
   - id: hda-4
     enunciado: Sobre a escala analógica visual de intensidade da dor, qual descrição está correta?
     alternativas:
@@ -441,7 +441,7 @@ perguntas:
       - "Régua graduada de 0 a 100 aplicada exclusivamente na dor crônica"
       - "Linha reta de 10 cm com \"sem dor\" e \"pior dor possível\" nos extremos, cujo resultado se registra de zero a dez"
     corretaIndex: 3
-    explicacao: "Porto (cap. 9) descreve a escala analógica como uma linha reta de 10 centímetros, com as designações \"sem dor\" e \"pior dor possível\" nos extremos; o paciente indica um ponto e o resultado é registrado como um valor de zero a dez. É a preferida em adultos. As escalas de expressões verbais e as escalas gráficas sem número, entre elas a de expressões faciais, existem e têm indicação própria (esta última para crianças, idosos e adultos de baixa escolaridade) mas são outras escalas."
+    explicacao: "A escala analógica é uma linha reta de 10 centímetros, com as designações \"sem dor\" e \"pior dor possível\" nos extremos; o paciente indica um ponto e o resultado é registrado como um valor de zero a dez. É a preferida em adultos. As escalas de expressões verbais e as escalas gráficas sem número, entre elas a de expressões faciais, existem e têm indicação própria (esta última para crianças, idosos e adultos de baixa escolaridade) mas são outras escalas."
   - id: hda-5
     enunciado: Paciente com dor epigástrica em queimação há três anos passa, hoje, a sentir dor aguda e intensa na mesma região, que em poucas horas se espalha por todo o abdome. Qual é a leitura correta desse dado na HDA?
     alternativas:
@@ -450,14 +450,14 @@ perguntas:
       - "A mudança de padrão é um evento e deve ser datada e caracterizada como quadro novo articulado à dor prévia"
       - "A cronologia perde importância quando o sintoma é antigo"
     corretaIndex: 2
-    explicacao: "Porto (cap. 9) usa exatamente este exemplo: o paciente com úlcera péptica e dor crônica em queimação no epigástrio que passa subitamente a apresentar dor aguda e intensa, espalhando-se horas depois por todo o abdome, caracterizando úlcera perfurada. No paciente crônico agudizado a HDA precisa de duas cronologias, a linha de base e a data do que mudou, e a mudança de caráter da dor é o dado central, não um detalhe de intensidade."
+    explicacao: "É exatamente este o exemplo clássico: o paciente com úlcera péptica e dor crônica em queimação no epigástrio que passa subitamente a apresentar dor aguda e intensa, espalhando-se horas depois por todo o abdome, caracterizando úlcera perfurada. No paciente crônico agudizado a HDA precisa de duas cronologias, a linha de base e a data do que mudou, e a mudança de caráter da dor é o dado central, não um detalhe de intensidade."
   - id: hda-6
-    enunciado: De acordo com Porto, qual é a relação habitual entre a dor e a atividade funcional do órgão que a origina, e qual é a exceção clássica?
+    enunciado: Qual é a relação habitual entre a dor e a atividade funcional do órgão que a origina, e qual é a exceção clássica?
     alternativas:
       - "A dor piora quando o órgão de origem entra em funcionamento; a exceção clássica é a úlcera duodenal, cuja dor cede quando o paciente come"
       - "A dor costuma aliviar quando o órgão de origem entra em funcionamento; a exceção clássica é a angina de peito, que piora com o esforço da caminhada"
       - "Não há relação previsível entre dor e função do órgão de origem"
       - "A relação só se aplica à dor neuropática"
     corretaIndex: 0
-    explicacao: "Porto (cap. 9) formula a regra ao tratar da relação da dor com as funções orgânicas: em quase todos os casos a dor piora quando o órgão de onde ela vem entra em funcionamento, a dor mesentérica aumenta depois de comer, a da colecistite é desencadeada por alimentos gordurosos, a articular pela movimentação. A exceção que a mesma obra destaca é a úlcera péptica duodenal, cuja dor cede com a chegada do alimento, porque ela decorre da hipercloridria e não da atividade do duodeno."
+    explicacao: "A regra sobre a relação da dor com as funções orgânicas: em quase todos os casos a dor piora quando o órgão de onde ela vem entra em funcionamento, a dor mesentérica aumenta depois de comer, a da colecistite é desencadeada por alimentos gordurosos, a articular pela movimentação. A exceção clássica é a úlcera péptica duodenal, cuja dor cede com a chegada do alimento, porque ela decorre da hipercloridria e não da atividade do duodeno."
 :::

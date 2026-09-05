@@ -107,9 +107,11 @@ test('marcar como estudado semeia a revisão espaçada com os itens do tópico',
   });
 
   const itens = await store.listarItensRevisao();
-  // Quiz de PA tem 5 perguntas e nenhum checklist.
-  expect(itens).toHaveLength(5);
-  expect(itens.every((i) => i.topicoId === TOPICO_ID && i.tipo === 'pergunta')).toBe(true);
+  // Quiz de PA tem 5 perguntas, nenhum checklist e 2 blocos sinal (flashcards).
+  expect(itens).toHaveLength(7);
+  expect(itens.every((i) => i.topicoId === TOPICO_ID)).toBe(true);
+  expect(itens.filter((i) => i.tipo === 'pergunta')).toHaveLength(5);
+  expect(itens.filter((i) => i.tipo === 'sinal')).toHaveLength(2);
 });
 
 test('desmarcar como estudado não semeia novos itens de revisão', async () => {

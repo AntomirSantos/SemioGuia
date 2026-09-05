@@ -262,13 +262,13 @@ texto: |
 
   **Onde olhar.** A palidez deve ser pesquisada em toda a superfície cutânea, incluindo as regiões palmoplantares. Em pessoas pardas e negras, é nas palmas das mãos e nas plantas dos pés que ela se identifica, e nas mucosas, que independem da pigmentação da pele.
 
-  Nas mucosas, o achado se chama **descoramento**, e se gradua em cruzes: mucosas descoradas (+) indicam leve redução da cor normal e (++++), o desaparecimento completo do rosado, com as mucosas brancas como papel. É a escala de cruzes de Porto, a mesma tradição brasileira que gradua edema e sopros, e distinta da graduação de Levine, de 1 a 6, usada para sopros no capítulo do coração.
+  Nas mucosas, o achado se chama **descoramento**, e se gradua em cruzes: mucosas descoradas (+) indicam leve redução da cor normal e (++++), o desaparecimento completo do rosado, com as mucosas brancas como papel. É a mesma escala de cruzes, de tradição brasileira, usada para graduar edema e sopros, e distinta da graduação de Levine, de 1 a 6, usada para sopros no capítulo do coração.
 
   Um limite honesto: mucosas descoradas indicam anemia, mas **os achados mucocutâneos não identificam de que anemia se trata**. Em todos os casos, o hemograma é indispensável.
 :::
 
 ::: tabela
-titulo: O que cada sítio de palidez acrescenta na suspeita de anemia (McGee, cap. 10)
+titulo: O que cada sítio de palidez acrescenta na suspeita de anemia
 colunas:
   - "Sítio pesquisado"
   - "Razão de verossimilhança quando há palidez"
@@ -298,7 +298,7 @@ texto: |
 
   Puxe delicadamente a pálpebra inferior e olhe a superfície interna. Em quem não tem anemia, aparecem **duas zonas de cor**: a borda anterior, a rima, é nitidamente avermelhada, pela rica vascularização, e contrasta com a porção mais próxima do globo, de cor mais pálida e carnosa, onde predomina o tecido linfoide. Diz-se que há **palidez da rima conjuntival** quando esse contraste desaparece e toda a superfície interna da pálpebra tem a mesma cor pálida.
 
-  Dois dados reforçam a preferência por esse sítio. A palidez da rima conjuntival é o achado que mais eleva a probabilidade de anemia, com razão de verossimilhança 16,7. E é também mais reprodutível: na Tabela 5.1 de McGee, a palidez conjuntival pelo método da rima alcança kappa de 0,54 a 0,75, enquanto a palidez do leito ungueal fica em 0,19 a 0,34: coerente com o fato de o leito ungueal não ter mostrado valor diagnóstico.
+  Dois dados reforçam a preferência por esse sítio. A palidez da rima conjuntival é o achado que mais eleva a probabilidade de anemia, com razão de verossimilhança 16,7. E é também mais reprodutível: na tabulação de concordância entre observadores, a palidez conjuntival pelo método da rima alcança kappa de 0,54 a 0,75, enquanto a palidez do leito ungueal fica em 0,19 a 0,34: coerente com o fato de o leito ungueal não ter mostrado valor diagnóstico.
 
   E um contrapeso que fecha o raciocínio: **nenhum sinal físico afasta anemia com convicção**. Nenhuma razão de verossimilhança negativa desceu abaixo de 0,4. Mucosas coradas tranquilizam pouco; o hemograma continua necessário.
 :::
@@ -400,9 +400,9 @@ texto: |
 
   **A luz é parte do método**: examine, sempre que possível, sob iluminação natural.
 
-  Dois cuidados evitam o falso-positivo em pessoas de pele pigmentada. As duas edições de Porto registram o mesmo achado, e vale citá-lo ao pé da letra: "Nas pessoas de pele pigmentada, a esclerótica costuma apresentar uma coloração amarelada, causada por deposição de gordura, que não deve ser confundida com icterícia" (Porto, *Exame Clínico*, 8ª ed., cap. 11; a *Semiologia Médica*, cap. 12, traz a mesma observação). Semiologia Clínica acrescenta o **fotoescurecimento da esclera** e oferece a solução prática: avaliar a região da esclera **sob a pálpebra inferior**, que não fica exposta à luz solar.
+  Dois cuidados evitam o falso-positivo em pessoas de pele pigmentada. Duas fontes registram o mesmo achado, e vale citá-lo ao pé da letra: "Nas pessoas de pele pigmentada, a esclerótica costuma apresentar uma coloração amarelada, causada por deposição de gordura, que não deve ser confundida com icterícia". Outra referência acrescenta o **fotoescurecimento da esclera** e oferece a solução prática: avaliar a região da esclera **sob a pálpebra inferior**, que não fica exposta à luz solar.
 
-  Vale separar esse achado de um imitador vizinho, mas distinto, descrito por McGee: a **gordura subconjuntival**, que se limita às dobras da conjuntiva e poupa a área próxima à córnea. São, a rigor, dois relatos de depósito de gordura em planos diferentes (o escleral, descrito por Porto, e o subconjuntival, descrito por McGee) embora o capítulo hepatobiliar do próprio Porto localize essa gordura na conjuntiva, o que sugere que os dois relatos possam descrever o mesmo depósito. De um jeito ou de outro, o cuidado prático é o mesmo: gordura amarelada poupa a vizinhança da córnea e não acompanha as demais mucosas; a icterícia, não.
+  Vale separar esse achado de um imitador vizinho, mas distinto: a **gordura subconjuntival**, que se limita às dobras da conjuntiva e poupa a área próxima à córnea. São, a rigor, dois relatos de depósito de gordura em planos diferentes (o escleral e o subconjuntival), embora uma passagem da mesma referência que descreve o depósito escleral localize, em outro trecho, essa gordura na conjuntiva, o que sugere que os dois relatos possam descrever o mesmo depósito. De um jeito ou de outro, o cuidado prático é o mesmo: gordura amarelada poupa a vizinhança da córnea e não acompanha as demais mucosas; a icterícia, não.
 :::
 
 ::: sinal
@@ -422,13 +422,13 @@ titulo: Esclera ou conjuntiva? Duas leituras da mesma observação
 texto: |
   O sítio é o mesmo; a explicação anatômica divide as fontes, e vale conhecer as duas.
 
-  **Semiologia Clínica (cap. 45)** justifica a preferência pela esclera: é tecido rico em elastina, à qual a bilirrubina tem afinidade, e sua cor de base habitualmente branca faz dela o lugar onde a icterícia é mais facilmente percebida.
+  Uma referência justifica a preferência pela esclera: é tecido rico em elastina, à qual a bilirrubina tem afinidade, e sua cor de base habitualmente branca faz dela o lugar onde a icterícia é mais facilmente percebida.
 
-  **McGee (cap. 8)** afirma o contrário sobre o local do depósito: o termo tradicional *scleral icterus* seria impreciso, porque estudos anatomopatológicos revelam que a maior parte do pigmento se deposita na **conjuntiva**, e não na esclera, que é avascular.
+  Outra referência afirma o contrário sobre o local do depósito: o termo tradicional *scleral icterus* seria impreciso, porque estudos anatomopatológicos revelam que a maior parte do pigmento se deposita na **conjuntiva**, e não na esclera, que é avascular.
 
   O guia registra as duas posições sem misturá-las, porque a divergência é sobre o mecanismo, e porque a conduta à beira do leito não muda: **olha-se o mesmo lugar**, a superfície ocular exposta ao afastar as pálpebras, de preferência sob luz natural.
 
-  McGee acrescenta ainda um imitador que mora exatamente ali: a **gordura subconjuntival** amarelada pode ser confundida com icterícia, mas costuma limitar-se às dobras da conjuntiva e poupa a área vizinha à córnea, ao contrário da icterícia, que a acomete.
+  Essa segunda referência acrescenta ainda um imitador que mora exatamente ali: a **gordura subconjuntival** amarelada pode ser confundida com icterícia, mas costuma limitar-se às dobras da conjuntiva e poupa a área vizinha à córnea, ao contrário da icterícia, que a acomete.
 :::
 
 ::: conceito
@@ -436,18 +436,18 @@ titulo: A partir de que nível a icterícia se vê
 texto: |
   Aqui as fontes divergem em ênfase, e o mais útil é registrá-las lado a lado.
 
-  **Semiologia Clínica (cap. 45)** situa a bilirrubina sérica normal, em crianças e adultos, abaixo de 1 mg/dL, e afirma que a icterícia clínica geralmente só é detectada com aumentos da ordem de duas a três vezes o limite superior: acima de 2 a 3 mg/dL.
+  Uma referência situa a bilirrubina sérica normal, em crianças e adultos, abaixo de 1 mg/dL, e afirma que a icterícia clínica geralmente só é detectada com aumentos da ordem de duas a três vezes o limite superior: acima de 2 a 3 mg/dL.
 
-  **McGee (cap. 8)** parte do mesmo ensino clássico e o confronta com dados: embora muitos textos afirmem que a icterícia se torna evidente quando a bilirrubina ultrapassa 2,5 a 3 mg/dL, os estudos clínicos mostram que **apenas 70% a 80% dos observadores a detectam nesse limiar**. A sensibilidade do exame sobe para 83% quando a bilirrubina ultrapassa 10 mg/dL e para 96% acima de 15 mg/dL.
+  Outra referência parte do mesmo ensino clássico e o confronta com dados: embora muitos textos afirmem que a icterícia se torna evidente quando a bilirrubina ultrapassa 2,5 a 3 mg/dL, os estudos clínicos mostram que **apenas 70% a 80% dos observadores a detectam nesse limiar**. A sensibilidade do exame sobe para 83% quando a bilirrubina ultrapassa 10 mg/dL e para 96% acima de 15 mg/dL.
 
-  A leitura conjunta é simples e prática: o limiar clássico de 2 a 3 mg/dL descreve **quando o pigmento começa a poder ser visto**, não quando ele *será* visto. Perto desse valor, a ausência de icterícia ao exame não afasta hiperbilirrubinemia, e a concordância entre observadores para o achado, embora razoável (kappa 0,65 na Tabela 5.1 de McGee), não é perfeita.
+  A leitura conjunta é simples e prática: o limiar clássico de 2 a 3 mg/dL descreve **quando o pigmento começa a poder ser visto**, não quando ele *será* visto. Perto desse valor, a ausência de icterícia ao exame não afasta hiperbilirrubinemia, e a concordância entre observadores para o achado, embora razoável (kappa 0,65), não é perfeita.
 :::
 
 ::: conceito
 titulo: Graduação em cruzes e progressão craniocaudal
 nivel: avancado
 texto: |
-  Duas tentativas clássicas de quantificar a icterícia à beira do leito merecem uma leitura crítica, e Semiologia Clínica, no capítulo de icterícia, faz essa leitura com dados brasileiros.
+  Duas tentativas clássicas de quantificar a icterícia à beira do leito merecem uma leitura crítica, feita aqui com dados brasileiros.
 
   **A graduação em cruzes.** O grau de icterícia costuma ser descrito qualitativamente (leve, moderada, grave), quantitativamente em uma escala de uma a quatro cruzes (em que + é leve alteração da coloração normal e ++++ é coloração intensa) ou de forma dicotômica, apenas como presente ou ausente. Um estudo conduzido em Santa Catarina mostrou que a graduação estratificada em cruzes tem baixa correlação com os níveis séricos de bilirrubina e baixa concordância entre observadores. Outro, na Universidade de São Paulo, concluiu que, embora rotineiramente ensinados, os níveis de intensidade não parecem determinar nem alterar a conduta inicial: o que muda a conduta é o sinal estar presente ou ausente.
 
@@ -488,7 +488,7 @@ texto: |
 
   **Generalizada ou segmentar.** A pergunta vem antes de qualquer outra, porque o raciocínio clínico é completamente diferente nos dois casos: a cianose segmentar significa obstrução de uma veia que drena aquela região.
 
-  Porto oferece um esquema prático que complementa o que o tópico do tórax ensina:
+  Um esquema prático complementa o que o tópico do tórax ensina:
 
   - toda cianose restrita a um segmento é, necessariamente, periférica;
   - quando universal, a origem pode estar no pulmão, no coração, na periferia ou no próprio pigmento alterado;
@@ -496,7 +496,7 @@ texto: |
   - a oxigenoterapia atua sobre a central, melhora a mista e nada faz pela periférica;
   - unha azulada em mão quente aponta para origem central.
 
-  Uma quarta categoria completa a lista das fontes: a **cianose por alteração da hemoglobina**, das metemoglobinemias e sulfemoglobinemias, em que a insaturação sobe porque o pigmento perdeu a capacidade de fixar oxigênio.
+  Uma quarta categoria completa a lista: a **cianose por alteração da hemoglobina**, das metemoglobinemias e sulfemoglobinemias, em que a insaturação sobe porque o pigmento perdeu a capacidade de fixar oxigênio.
 :::
 
 ::: sinal
@@ -504,7 +504,7 @@ nome: Cianose
 descricao: |
   Coloração **azulada** da pele e das mucosas. Procure na região perioral, na ponta do nariz, nos lóbulos das orelhas, nas mucosas e nas extremidades, incluindo leito ungueal e polpas digitais.
 significado: |
-  A primeira pergunta é **generalizada ou segmentar**: toda cianose restrita a um segmento é **periférica**, e significa obstrução da veia que drena a região. O esquema prático de Porto: **aquecer a área atenua a periférica e não muda a central**; a oxigenoterapia atua na central e nada faz pela periférica; **unha azulada em mão quente aponta origem central**. E lembre: o anêmico pode estar gravemente hipoxêmico **sem ficar cianótico**.
+  A primeira pergunta é **generalizada ou segmentar**: toda cianose restrita a um segmento é **periférica**, e significa obstrução da veia que drena a região. O esquema prático: **aquecer a área atenua a periférica e não muda a central**; a oxigenoterapia atua na central e nada faz pela periférica; **unha azulada em mão quente aponta origem central**. E lembre: o anêmico pode estar gravemente hipoxêmico **sem ficar cianótico**.
 causas:
   - "Cianose central (pulmão, coração, shunts)"
   - "Cianose periférica (estase, obstrução venosa, baixo débito, frio)"
@@ -520,7 +520,7 @@ descricao: |
   - **víbices**: dispostas em linha;
   - **equimoses**: em placa, acima de 1 cm.
 
-  A coloração varia do vermelho-arroxeado ao amarelo conforme o tempo de evolução. Nas equimoses grandes e médias, Porto descreve a sequência: avermelhadas até 48 horas; arroxeadas entre 48 e 96 horas; azuladas do 5º ao 6º dia; amareladas do 6º ao 8º dia; e retorno à coloração normal depois do 9º dia. Nas pequenas, o ciclo é mais curto. Equimoses grandes e médias permanecem visíveis mesmo em pessoas negras.
+  A coloração varia do vermelho-arroxeado ao amarelo conforme o tempo de evolução. Nas equimoses grandes e médias, a sequência é: avermelhadas até 48 horas; arroxeadas entre 48 e 96 horas; azuladas do 5º ao 6º dia; amareladas do 6º ao 8º dia; e retorno à coloração normal depois do 9º dia. Nas pequenas, o ciclo é mais curto. Equimoses grandes e médias permanecem visíveis mesmo em pessoas negras.
 
   Quando o extravasamento é suficiente para elevar a pele, chama-se hematoma, e equimose e hematoma se associam com frequência.
 significado: |
@@ -607,9 +607,9 @@ titulo: Dois ângulos diferentes na mesma unha
 texto: |
   Este é um ponto em que dois vocabulários se cruzam e podem parecer contraditórios. Não são: **são duas medidas distintas, feitas em referências distintas**.
 
-  O **ângulo de implantação** (ou ângulo de perfil) é o que Porto descreve no exame das unhas: forma-se entre a placa ungueal e a dobra ungueal proximal, vista de perfil. Na unha normal ele fica em torno de 160°, e no hipocratismo digital aproxima-se de 180°: a unha perde o degrau e a última falange fica "em vidro de relógio".
+  O **ângulo de implantação** (ou ângulo de perfil) é o que se descreve no exame das unhas: forma-se entre a placa ungueal e a dobra ungueal proximal, vista de perfil. Na unha normal ele fica em torno de 160°, e no hipocratismo digital aproxima-se de 180°: a unha perde o degrau e a última falange fica "em vidro de relógio".
 
-  O **ângulo hiponiquial** é outro: mede-se a partir do hiponíquio, na face inferior da falange, e o limite descrito por McGee para baqueteamento é 190°. É acurado, mas exige instrumentos e não se faz à beira do leito.
+  O **ângulo hiponiquial** é outro: mede-se a partir do hiponíquio, na face inferior da falange, e o limite descrito para baqueteamento é 190°. É acurado, mas exige instrumentos e não se faz à beira do leito.
 
   Os números não se contradizem porque não medem a mesma coisa. Ao registrar, **diga qual ângulo você usou**.
 
@@ -724,9 +724,9 @@ perguntas:
       - "A ausência de icterícia exclui hiperbilirrubinemia quando o exame é feito sob luz natural"
       - "Só há icterícia clínica acima de 15 mg/dL"
     corretaIndex: 1
-    explicacao: "McGee registra que, embora os textos clássicos situem o limiar de visibilidade entre 2,5 e 3 mg/dL, apenas 70% a 80% dos observadores detectam a icterícia nesse nível; a sensibilidade sobe para 83% acima de 10 mg/dL e 96% acima de 15 mg/dL. Semiologia Clínica indica o mesmo limiar clássico de 2 a 3 mg/dL para a detecção clínica. Perto desse valor, portanto, o exame negativo não afasta hiperbilirrubinemia."
+    explicacao: "Embora os textos clássicos situem o limiar de visibilidade entre 2,5 e 3 mg/dL, apenas 70% a 80% dos observadores detectam a icterícia nesse nível; a sensibilidade sobe para 83% acima de 10 mg/dL e 96% acima de 15 mg/dL. Outra referência indica o mesmo limiar clássico de 2 a 3 mg/dL para a detecção clínica. Perto desse valor, portanto, o exame negativo não afasta hiperbilirrubinemia."
   - id: pele-5
-    enunciado: Sobre a graduação da icterícia em cruzes, o que os estudos citados em Semiologia Clínica mostraram?
+    enunciado: Sobre a graduação da icterícia em cruzes, o que os estudos citados mostraram?
     alternativas:
       - "Baixa correlação com os níveis séricos e baixa concordância entre observadores"
       - "Correlação forte com a bilirrubina sérica, o que justifica seu uso rotineiro"

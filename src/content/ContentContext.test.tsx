@@ -19,11 +19,11 @@ function SondaCasos() {
   return <Text>casos: {casos.map((c) => c.id).join(', ')}</Text>;
 }
 
-test('useCasos lê os três casos piloto do bundle real', async () => {
+test('useCasos lê os doze casos do bundle real', async () => {
   render(<ContentProvider><SondaCasos /></ContentProvider>);
   await waitFor(() => {
     expect(
-      screen.getByText('casos: crise-hipertensiva, febre-na-crianca, sincope-pulso-irregular')
+      screen.getByText('casos: caroco-no-pescoco, consulta-dos-dezoito-segundos, crise-hipertensiva, dispneia-e-base-muda, dor-que-acordou-o-menino, dor-que-caminhou, febre-e-nuca-dura, febre-na-crianca, joelho-do-sabado, perna-que-esfriou, quieta-demais-no-leito-8, sincope-pulso-irregular')
     ).toBeTruthy();
   });
 });

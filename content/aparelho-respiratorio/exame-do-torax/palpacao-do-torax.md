@@ -211,7 +211,7 @@ nivel: avancado
 texto: |
   Este é um dos poucos sinais do exame do tórax cuja presença muda muito a probabilidade da doença.
 
-  Em pacientes com tosse e febre, encontrar expansão assimétrica eleva fortemente a probabilidade de pneumonia do lado que se move menos: razão de verossimilhança 44,1 (McGee). O preço é a raridade: a sensibilidade foi de apenas 5%. Praticamente ninguém com pneumonia tem o sinal, mas quem tem, tem pneumonia.
+  Em pacientes com tosse e febre, encontrar expansão assimétrica eleva fortemente a probabilidade de pneumonia do lado que se move menos: razão de verossimilhança 44,1. O preço é a raridade: a sensibilidade foi de apenas 5%. Praticamente ninguém com pneumonia tem o sinal, mas quem tem, tem pneumonia.
 
   Em pacientes internados por queixas respiratórias, a expansão assimétrica eleva a probabilidade de derrame pleural (razão de verossimilhança 8,1), e agora com sensibilidade alta, de 74%. Nesse cenário o sinal negativo também informa: expansão simétrica reduz a probabilidade de derrame (razão de verossimilhança 0,3).
 
@@ -243,7 +243,7 @@ titulo: Por que a pleura apaga o frêmito e a consolidação o reforça
 texto: |
   Existe um princípio único por trás de todas as alterações do frêmito, e ele vem da acústica.
 
-  O pulmão normal se comporta como um **filtro passa-baixa**: transmite bem as frequências baixas, de 100 a 200 Hz, e retém as altas, acima de 300 Hz (McGee). O frêmito toracovocal é justamente feito de vibrações de baixa frequência, daí ser um achado normal, e daí ser mais forte em quem tem voz grave.
+  O pulmão normal se comporta como um **filtro passa-baixa**: transmite bem as frequências baixas, de 100 a 200 Hz, e retém as altas, acima de 300 Hz. O frêmito toracovocal é justamente feito de vibrações de baixa frequência, daí ser um achado normal, e daí ser mais forte em quem tem voz grave.
 
   **Consolidação.** Quando os alvéolos se enchem de exsudato e o brônquio permanece pérvio, o tecido sólido conduz melhor: a transmissão aumenta tanto nas frequências baixas quanto nas altas. Resultado: frêmito aumentado, e, na ausculta, som brônquico e alterações da ressonância vocal no mesmo lugar.
 
@@ -297,7 +297,7 @@ linhas:
 titulo: O que o frêmito diminuído prediz
 nivel: avancado
 texto: |
-  Em uma casuística de 278 pacientes internados por queixas respiratórias, o frêmito toracovocal assimetricamente diminuído elevou a probabilidade de derrame pleural com razão de verossimilhança 5,7, e o frêmito simétrico reduziu essa probabilidade com razão de verossimilhança 0,2 (McGee). Sensibilidade de 82% e especificidade de 86%: desempenho respeitável para um sinal que custa dez segundos.
+  Em uma casuística de 278 pacientes internados por queixas respiratórias, o frêmito toracovocal assimetricamente diminuído elevou a probabilidade de derrame pleural com razão de verossimilhança 5,7, e o frêmito simétrico reduziu essa probabilidade com razão de verossimilhança 0,2. Sensibilidade de 82% e especificidade de 86%: desempenho respeitável para um sinal que custa dez segundos.
 
   Repare no que esses números *não* dizem. Eles se referem a derrame pleural, a condição em que o frêmito foi mais estudado, e não à consolidação. Para pneumonia, o sinal que carrega a evidência forte é outro: a expansão assimétrica.
 
@@ -331,7 +331,7 @@ titulo: "Dor provocada: o que ela significa e o que não significa"
 texto: |
   Processos inflamatórios pleuropulmonares criam uma faixa de sensibilidade aumentada na área torácica que lhes corresponde, e lesões extensas do ápice chegam a provocar contratura muscular da região, imitando a defesa da peritonite.
 
-  A leitura tradicional, porém, é outra: dor reproduzida pela palpação da parede sugeriria causa benigna, do tipo costocondrite. Essa conclusão só se sustenta em um cenário específico. Em pacientes com **dor torácica aguda não traumática**, a dor à palpação reduz a probabilidade de infarto do miocárdio (razão de verossimilhança 0,3; McGee).
+  A leitura tradicional, porém, é outra: dor reproduzida pela palpação da parede sugeriria causa benigna, do tipo costocondrite. Essa conclusão só se sustenta em um cenário específico. Em pacientes com **dor torácica aguda não traumática**, a dor à palpação reduz a probabilidade de infarto do miocárdio (razão de verossimilhança 0,3).
 
   Fora dele, o sinal não ajuda. Em estudos de pneumonia, de embolia pulmonar e de doença coronariana crônica, a dor à palpação apareceu com a mesma frequência em quem tinha e em quem não tinha a doença. Reproduzir a dor apertando o tórax **não** é permissão para parar de investigar.
 :::

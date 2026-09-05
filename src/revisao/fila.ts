@@ -7,6 +7,10 @@ export function idDeChecklist(topicoId: string, titulo: string): string {
   return `${topicoId}#checklist:${titulo}`;
 }
 
+export function idDeSinal(topicoId: string, nome: string): string {
+  return `${topicoId}#sinal:${nome}`;
+}
+
 export function semearTopico(
   topico: Topico,
   existentes: ItemRevisao[],
@@ -28,6 +32,13 @@ export function semearTopico(
       if (!idsExistentes.has(id)) {
         novos.push(criarItem(id, 'checklist', topico.id, hoje, agoraIso));
       }
+    } else if (bloco.tipo === 'sinal') {
+      // Flashcards de sinais (2026-09): cada verbete do tópico estudado
+      // entra na fila como cartão de recuperação ativa, autoavaliado.
+      const id = idDeSinal(topico.id, bloco.nome);
+      if (!idsExistentes.has(id)) {
+        novos.push(criarItem(id, 'sinal', topico.id, hoje, agoraIso));
+      }
     }
   }
 
@@ -38,6 +49,7 @@ export interface FilaDeHoje {
   itens: ItemRevisao[];
   totalPerguntas: number;
   totalChecklists: number;
+  totalSinais: number;
 }
 
 export function montarFila(
@@ -58,5 +70,6 @@ export function montarFila(
     itens: selecionados,
     totalPerguntas: selecionados.filter((i) => i.tipo === 'pergunta').length,
     totalChecklists: selecionados.filter((i) => i.tipo === 'checklist').length,
+    totalSinais: selecionados.filter((i) => i.tipo === 'sinal').length,
   };
 }

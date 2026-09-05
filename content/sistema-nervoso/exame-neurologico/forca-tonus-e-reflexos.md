@@ -90,7 +90,7 @@ texto: |
   2. **De que tipo ela é?** Central ou periférica, ou, com o vocabulário que este tópico usa, do **neurônio motor superior** ou do **inferior**. Quem responde a essa pergunta não é a força: são o **tônus**, o **trofismo** e os **reflexos**.
   3. **Onde fica a lesão que a produz?** Aqui entram os achados vizinhos: campo visual, linguagem, nervos cranianos, nível sensitivo.
 
-  Essa é a razão pela qual força, tônus e reflexos ocupam um único tópico. Medidos isoladamente, cada um deles decepciona; lidos juntos, eles fazem topografia. McGee é explícito quanto ao alcance: alterações de sensibilidade, de tônus ou de reflexos **no membro fraco** já excluem doença muscular e doença da junção neuromuscular, e apontam para o neurônio motor superior ou inferior.
+  Essa é a razão pela qual força, tônus e reflexos ocupam um único tópico. Medidos isoladamente, cada um deles decepciona; lidos juntos, eles fazem topografia. Alterações de sensibilidade, de tônus ou de reflexos **no membro fraco** já excluem doença muscular e doença da junção neuromuscular, e apontam para o neurônio motor superior ou inferior.
 
   **O que este tópico paga.** O tópico de tireoide e pescoço registrou que a **semiotécnica dos reflexos profundos**, e do aquileu em particular, pertenceria ao capítulo do sistema nervoso. É aqui que ela é ensinada. Os números do reflexo aquileu no hipotireoidismo continuam lá, e este tópico não os repete: cita.
 
@@ -98,7 +98,7 @@ texto: |
 
   - a **eletroneuromiografia** e os demais exames eletrodiagnósticos, que são o padrão de referência de vários números citados adiante e não fazem parte do exame à beira do leito;
   - o **exame motor especializado do recém-nascido e da criança pequena**, que tem semiotécnica distinta e fica fora deste guia; os **reflexos próprios do RN** (Moro, preensão, passada, tônus cervical) são ensinados no tópico Do recém-nascido ao adolescente, do sistema Semiologia da criança;
-  - os **reflexos primitivos ou de liberação** (palmomentual, glabelar, de preensão) que McGee descreve entre os reflexos deste capítulo. Eles aparecem adiante apenas em um dado de risco de queda; sua interpretação em doença frontal e em demências é ensinada no tópico Escalas cognitivas à beira do leito, do sistema Exame psíquico.
+  - os **reflexos primitivos ou de liberação** (palmomentual, glabelar, de preensão), descritos entre os reflexos deste capítulo. Eles aparecem adiante apenas em um dado de risco de queda; sua interpretação em doença frontal e em demências é ensinada no tópico Escalas cognitivas à beira do leito, do sistema Exame psíquico.
 :::
 
 ::: perola
@@ -131,7 +131,7 @@ observar: |
 
   **Compare imediatamente.** A fraqueza unilateral só existe em relação ao outro lado, e a memória do examinador é curta. Teste o bíceps direito e o esquerdo em sequência, não os dez músculos do lado direito e depois os dez do esquerdo.
 
-  **Quadril e joelho enganam.** McGee adverte que testar esses músculos contra a resistência da mão do examinador deixa passar fraquezas importantes, porque a musculatura antigravitária vence facilmente o médico. O contorno é usar o peso do próprio paciente: peça que ele se levante da cadeira sem apoiar as mãos. Um quadríceps fraco fica evidente aí, e não na maca.
+  **Quadril e joelho enganam.** Testar esses músculos contra a resistência da mão do examinador deixa passar fraquezas importantes, porque a musculatura antigravitária vence facilmente o médico. O contorno é usar o peso do próprio paciente: peça que ele se levante da cadeira sem apoiar as mãos. Um quadríceps fraco fica evidente aí, e não na maca.
 
   **Relaxamento é pré-requisito do tônus.** O exame do tônus pressupõe paciente relaxado e sem limitação óssea ou articular ao movimento. Um paciente tenso produz resistência que não é hipertonia, e um paciente com artrose produz resistência que não é neurológica.
 :::
@@ -158,17 +158,17 @@ titulo: Inspeção e trofismo
 ::: conceito
 titulo: O que a musculatura mostra antes de ser tocada
 texto: |
-  McGee descreve o exame muscular como uma sequência de quatro gestos: **inspeção** (atrofia, hipertrofia, fasciculações, tremor) **percussão**, **palpação** em busca de tônus anormal, e **flexão e extensão completas** de cotovelos e joelhos, que serve tanto para o tônus quanto para descobrir limitações não neurológicas ao movimento, como contraturas e doença articular. Só depois vem a força.
+  O exame muscular segue uma sequência de quatro gestos: **inspeção** (atrofia, hipertrofia, fasciculações, tremor) **percussão**, **palpação** em busca de tônus anormal, e **flexão e extensão completas** de cotovelos e joelhos, que serve tanto para o tônus quanto para descobrir limitações não neurológicas ao movimento, como contraturas e doença articular. Só depois vem a força.
 
-  **Atrofia** é o músculo emagrecido. Ela se vê, e McGee dá três exemplos que treinam o olho: a **eminência tenar anormalmente plana** quando observada de perfil; as **sombras que faltam no pescoço** de quem tem esternocleidomastóideos atrofiados; e os **metacarpos anormalmente salientes** no dorso da mão, por atrofia da musculatura intrínseca.
+  **Atrofia** é o músculo emagrecido. Ela se vê, e três exemplos treinam o olho: a **eminência tenar anormalmente plana** quando observada de perfil; as **sombras que faltam no pescoço** de quem tem esternocleidomastóideos atrofiados; e os **metacarpos anormalmente salientes** no dorso da mão, por atrofia da musculatura intrínseca.
 
-  Há um ponto em que a atrofia deixa de ser impressão e vira medida. **Em pessoas normais, a diferença de circunferência entre as panturrilhas é menor que 1 cm em 90% e menor que 1,5 cm em 100%**, medida 10 cm abaixo da tuberosidade da tíbia (McGee). Uma assimetria maior que isso indica atrofia do lado menor, ou edema do lado maior. E ela tem valor: em pacientes com dor ciática, a **atrofia da panturrilha do lado sintomático**, definida como circunferência máxima pelo menos 1 cm menor que a do outro lado, aponta para compressão de raiz lombossacra com razão de verossimilhança **5,2**.
+  Há um ponto em que a atrofia deixa de ser impressão e vira medida. **Em pessoas normais, a diferença de circunferência entre as panturrilhas é menor que 1 cm em 90% e menor que 1,5 cm em 100%**, medida 10 cm abaixo da tuberosidade da tíbia. Uma assimetria maior que isso indica atrofia do lado menor, ou edema do lado maior. E ela tem valor: em pacientes com dor ciática, a **atrofia da panturrilha do lado sintomático**, definida como circunferência máxima pelo menos 1 cm menor que a do outro lado, aponta para compressão de raiz lombossacra com razão de verossimilhança **5,2**.
 
-  Duas ressalvas de interpretação. A atrofia acompanha as lesões do neurônio motor inferior, mas também o **desuso**: o que inclui a musculatura vizinha a uma articulação dolorosa ou traumatizada. E, na síndrome piramidal, Porto registra que a atrofia **pode existir**, moderada e global no segmento paralisado, mas só depois de muito tempo, como consequência do desuso.
+  Duas ressalvas de interpretação. A atrofia acompanha as lesões do neurônio motor inferior, mas também o **desuso**: o que inclui a musculatura vizinha a uma articulação dolorosa ou traumatizada. E, na síndrome piramidal, a atrofia **pode existir**, moderada e global no segmento paralisado, mas só depois de muito tempo, como consequência do desuso.
 
-  **Hipertrofia** é o aumento anormal do músculo. A hipertrofia bilateral das panturrilhas é traço típico de algumas distrofias musculares, embora McGee registre que ela aparece em doenças neuromusculares muito variadas.
+  **Hipertrofia** é o aumento anormal do músculo. A hipertrofia bilateral das panturrilhas é traço típico de algumas distrofias musculares, embora ela também apareça em doenças neuromusculares muito variadas.
 
-  **Fasciculações** são contrações musculares rápidas e involuntárias, fracas demais para mover o membro, mas visíveis e palpáveis. Porto as define como abalos breves e arrítmicos limitados a um feixe muscular. Duas informações mudam a leitura à beira do leito, e as duas são de McGee: a maioria das pessoas saudáveis tem fasciculações em algum momento, sobretudo nas pálpebras; e **fasciculações isoladas, sem outro achado neurológico, são benignas**. Elas só significam doença do neurônio motor inferior quando acompanham fraqueza ou atrofia.
+  **Fasciculações** são contrações musculares rápidas e involuntárias, fracas demais para mover o membro, mas visíveis e palpáveis: abalos breves e arrítmicos limitados a um feixe muscular. Duas informações mudam a leitura à beira do leito: a maioria das pessoas saudáveis tem fasciculações em algum momento, sobretudo nas pálpebras; e **fasciculações isoladas, sem outro achado neurológico, são benignas**. Elas só significam doença do neurônio motor inferior quando acompanham fraqueza ou atrofia.
 :::
 
 ::: secao
@@ -178,14 +178,14 @@ titulo: O tônus
 ::: conceito
 titulo: Como se examina o tônus, e o que se procura
 texto: |
-  Tônus é a tensão que o músculo mantém em repouso e em movimento. Ele não se mede: se percebe, movimentando passivamente o membro do paciente relaxado. Porto organiza a técnica em quatro tempos:
+  Tônus é a tensão que o músculo mantém em repouso e em movimento. Ele não se mede: se percebe, movimentando passivamente o membro do paciente relaxado. A técnica se organiza em quatro tempos:
 
   - **inspeção**: verificar se as massas musculares se achatam contra o plano do leito. É mais visível nas coxas e só tem valor quando a diminuição do tônus é acentuada;
   - **palpação** das massas musculares: a consistência aumenta nas lesões motoras centrais e diminui nas periféricas;
   - **movimentos passivos** de flexão e extensão, em que se avaliam duas coisas separadas: a **passividade** (há resistência ao movimento, ou ela está aquém do normal?) e a **extensibilidade** (o segmento se alonga além do normal? Na flexão da perna sobre a coxa, o calcanhar toca a região glútea com facilidade suspeita?);
   - **balanço passivo**: segurar e balançar o antebraço do paciente e observar se a mão oscila de modo normal, exagerado ou reduzido; o mesmo se faz na perna, observando o pé.
 
-  McGee acrescenta um detalhe de técnica que o exame do tônus costuma perder: **varie a velocidade**. É a resposta a essa variação que separa os dois tipos de hipertonia, como se verá adiante.
+  Um detalhe de técnica que o exame do tônus costuma perder: **varie a velocidade**. É a resposta a essa variação que separa os dois tipos de hipertonia, como se verá adiante.
 
   O registro segue o padrão do resto do exame neurológico: **grau e sede**. "Hipotonia moderada nos membros inferiores" e "hipertonia acentuada nos membros direitos" são registros úteis; "tônus alterado" não é.
 :::
@@ -193,17 +193,17 @@ texto: |
 ::: conceito
 titulo: "Espasticidade × rigidez: a diferença que muda o diagnóstico"
 texto: |
-  As duas são hipertonia. Elas pertencem a sistemas diferentes, e distingui-las à beira do leito é um dos gestos mais rentáveis do exame neurológico. As duas obras convergem, com vocabulários que se completam.
+  As duas são hipertonia. Elas pertencem a sistemas diferentes, e distingui-las à beira do leito é um dos gestos mais rentáveis do exame neurológico. As descrições convergem, com vocabulários que se completam.
 
-  **Espasticidade** é a hipertonia da via piramidal: o neurônio motor superior. Porto lhe atribui duas características: ela é **eletiva**, porque alcança toda a musculatura mas predomina em dois grupos, os **extensores da perna** e os **flexores do braço**, o que produz a clássica **postura de Wernicke-Mann** da fase espástica da hemiplegia; e é **elástica**, porque o segmento retorna à posição inicial quando o movimento passivo de extensão é interrompido. McGee descreve a mesma coisa por três atributos: a resistência **depende da velocidade**, quanto mais rápido o movimento, maior a resistência; o tônus é **diferente em flexores e extensores**, o que gera as posturas de repouso características; e o músculo espástico é também **fraco**.
+  **Espasticidade** é a hipertonia da via piramidal: o neurônio motor superior. Ela tem duas características centrais: é **eletiva**, porque alcança toda a musculatura mas predomina em dois grupos, os **extensores da perna** e os **flexores do braço**, o que produz a clássica **postura de Wernicke-Mann** da fase espástica da hemiplegia; e é **elástica**, porque o segmento retorna à posição inicial quando o movimento passivo de extensão é interrompido. Descreve-se ainda por três outros atributos: a resistência **depende da velocidade**, quanto mais rápido o movimento, maior a resistência; o tônus é **diferente em flexores e extensores**, o que gera as posturas de repouso características; e o músculo espástico é também **fraco**.
 
-  **Rigidez** é a hipertonia extrapiramidal. Porto: ela **não é eletiva**, porque acomete igualmente agonistas, sinergistas e antagonistas; e é **plástica**, no sentido de que a resistência permanece a mesma do começo ao fim do deslocamento passivo, como se o examinador estivesse dobrando cera, a flexibilidade cérea. McGee: **não depende da velocidade**, o tônus é **igual em flexores e extensores** e **não há fraqueza associada**. É a hipertonia do parkinsonismo.
+  **Rigidez** é a hipertonia extrapiramidal. Ela **não é eletiva**, porque acomete igualmente agonistas, sinergistas e antagonistas; e é **plástica**, no sentido de que a resistência permanece a mesma do começo ao fim do deslocamento passivo, como se o examinador estivesse dobrando cera, a flexibilidade cérea. Além disso, **não depende da velocidade**, o tônus é **igual em flexores e extensores** e **não há fraqueza associada**. É a hipertonia do parkinsonismo.
 
-  **O sinal da roda denteada** aparece na rigidez: o movimento passivo se interrompe em série, como se o membro fosse a alavanca passando por uma engrenagem. Porto o descreve como interrupções sucessivas que lembram os dentes de uma cremalheira; McGee, como o membro que cede de modo intermitente sobre uma catraca.
+  **O sinal da roda denteada** aparece na rigidez: o movimento passivo se interrompe em série, como se o membro fosse a alavanca passando por uma engrenagem, em interrupções sucessivas que lembram os dentes de uma cremalheira, ou o membro que cede de modo intermitente sobre uma catraca.
 
-  **O fenômeno do canivete** aparece na espasticidade, e é o seu espelho. McGee o registra em até **metade** dos pacientes com espasticidade, mais frequentemente nos extensores do joelho e menos nos flexores do cotovelo: o examinador estende o joelho em velocidade constante e, perto da extensão completa, o tônus do quadríceps aumenta de repente e completa o movimento, como a lâmina de um canivete que se abre sob a mola. A explicação é que o tônus depende do comprimento do músculo: diminui com o alongamento e aumenta com o encurtamento.
+  **O fenômeno do canivete** aparece na espasticidade, e é o seu espelho. Ocorre em até **metade** dos pacientes com espasticidade, mais frequentemente nos extensores do joelho e menos nos flexores do cotovelo: o examinador estende o joelho em velocidade constante e, perto da extensão completa, o tônus do quadríceps aumenta de repente e completa o movimento, como a lâmina de um canivete que se abre sob a mola. A explicação é que o tônus depende do comprimento do músculo: diminui com o alongamento e aumenta com o encurtamento.
 
-  Duas advertências fecham o quadro, e as duas são de McGee. A primeira: a gravidade da espasticidade **correlaciona-se mal** com o grau de fraqueza e de hiper-reflexia. A segunda é temporal e explica muito erro de beira de leito: pacientes com acidente vascular ou lesão medular desenvolvem **fraqueza e flacidez imediatas**, e a espasticidade só aparece dias a semanas depois. Porto registra o mesmo fenômeno pelo lado dos reflexos: nas lesões agudas da via piramidal são comuns paralisia, hipotonia e arreflexia, e os sinais de liberação, tônus e reflexos aumentados, surgem depois de um intervalo que vai de dias a poucos meses.
+  Duas advertências fecham o quadro. A primeira: a gravidade da espasticidade **correlaciona-se mal** com o grau de fraqueza e de hiper-reflexia. A segunda é temporal e explica muito erro de beira de leito: pacientes com acidente vascular ou lesão medular desenvolvem **fraqueza e flacidez imediatas**, e a espasticidade só aparece dias a semanas depois. O mesmo fenômeno se repete pelo lado dos reflexos: nas lesões agudas da via piramidal são comuns paralisia, hipotonia e arreflexia, e os sinais de liberação, tônus e reflexos aumentados, surgem depois de um intervalo que vai de dias a poucos meses.
 :::
 
 ::: sinal
@@ -234,17 +234,17 @@ colunas:
   - "Rigidez (extrapiramidal)"
 linhas:
   - - "Depende da velocidade do movimento?"
-    - "Sim: mais rápido, mais resistência (McGee)"
-    - "Não: igual em movimento lento e rápido (McGee)"
+    - "Sim: mais rápido, mais resistência"
+    - "Não: igual em movimento lento e rápido"
   - - "Distribuição"
-    - "Eletiva: flexores dos membros superiores e extensores dos inferiores (Porto)"
-    - "Global: agonistas, sinergistas e antagonistas (Porto)"
+    - "Eletiva: flexores dos membros superiores e extensores dos inferiores"
+    - "Global: agonistas, sinergistas e antagonistas"
   - - "Qualidade da resistência"
-    - "Elástica: o segmento volta à posição inicial (Porto)"
-    - "Plástica: resistência constante, como cera (Porto)"
+    - "Elástica: o segmento volta à posição inicial"
+    - "Plástica: resistência constante, como cera"
   - - "Fraqueza associada"
-    - "Sim, o músculo espástico é fraco (McGee)"
-    - "Não (McGee)"
+    - "Sim, o músculo espástico é fraco"
+    - "Não"
   - - "Sinal característico"
     - "Fenômeno do canivete, em até metade dos casos"
     - "Sinal da roda denteada"
@@ -256,17 +256,17 @@ linhas:
 ::: conceito
 titulo: Hipotonia, paratonia e as demais alterações
 texto: |
-  **Hipotonia** é a redução ou a ausência de tensão muscular. Porto reúne suas características: as massas musculares se achatam contra o leito, a consistência cai, passividade e extensibilidade sobem, e a prova do balanço devolve oscilações exageradas. McGee acrescenta descrições que treinam a mão: o membro parece **um boneco de pano**; os músculos são moles e frouxos; o braço estendido, quando percutido, faz excursões maiores que o normal.
+  **Hipotonia** é a redução ou a ausência de tensão muscular. Suas características: as massas musculares se achatam contra o leito, a consistência cai, passividade e extensibilidade sobem, e a prova do balanço devolve oscilações exageradas. Descrições que treinam a mão: o membro parece **um boneco de pano**; os músculos são moles e frouxos; o braço estendido, quando percutido, faz excursões maiores que o normal.
 
-  As causas dividem-se em dois grupos, e é útil guardá-los juntos porque parecem distantes: hipotonia ocorre nas lesões do **neurônio motor inferior** e nas lesões do **cerebelo**. Porto amplia a lista com o coma profundo, a fase de choque do sistema nervoso central, as lesões das vias de sensibilidade proprioceptiva consciente e a coreia aguda.
+  As causas dividem-se em dois grupos, e é útil guardá-los juntos porque parecem distantes: hipotonia ocorre nas lesões do **neurônio motor inferior** e nas lesões do **cerebelo**. A lista se amplia com o coma profundo, a fase de choque do sistema nervoso central, as lesões das vias de sensibilidade proprioceptiva consciente e a coreia aguda.
 
-  Uma ressalva de McGee vale por si: a definição tradicional de **reflexo patelar pendular**, mais de três oscilações da perna durante a pesquisa do reflexo, **precisa ser revista para cima**, porque muitas pessoas normais têm esse achado. Porto registra o reflexo patelar pendular como achado comum nas lesões cerebelares, consequência da hipotonia; a advertência de McGee não desmente o achado, apenas eleva o limiar a partir do qual ele conta.
+  Uma ressalva importante: a definição tradicional de **reflexo patelar pendular**, mais de três oscilações da perna durante a pesquisa do reflexo, **precisa ser revista para cima**, porque muitas pessoas normais têm esse achado. O reflexo patelar pendular é achado comum nas lesões cerebelares, consequência da hipotonia; essa ressalva não desmente o achado, apenas eleva o limiar a partir do qual ele conta.
 
-  **Paratonia**, ou *gegenhalten*, é a tensão excessiva que não existe em repouso e aparece quando o membro do paciente encosta em alguma coisa, como se o contato o impedisse de relaxar. Porto EC a descreve como o paciente que aparentemente se opõe à tentativa do examinador de movimentar seu membro, e a situa nas lesões frontais bilaterais. McGee separa duas formas: a **oposicional**, em que a força de resistência é proporcional e contrária ao movimento do examinador (e é isso que a distingue da rigidez, cuja resistência independe do que o examinador faz) e a **facilitatória**, em que o paciente ativamente ajuda o movimento conduzido pelo examinador. As duas se associam a doença frontal extensa e aparecem em doenças que cursam com demência.
+  **Paratonia**, ou *gegenhalten*, é a tensão excessiva que não existe em repouso e aparece quando o membro do paciente encosta em alguma coisa, como se o contato o impedisse de relaxar: o paciente aparentemente se opõe à tentativa do examinador de movimentar seu membro, achado situado nas lesões frontais bilaterais. Ela se divide em duas formas: a **oposicional**, em que a força de resistência é proporcional e contrária ao movimento do examinador (e é isso que a distingue da rigidez, cuja resistência independe do que o examinador faz) e a **facilitatória**, em que o paciente ativamente ajuda o movimento conduzido pelo examinador. As duas se associam a doença frontal extensa e aparecem em doenças que cursam com demência.
 
-  **Miotonia** é o relaxamento lentificado depois da contração. Porto EC ensina a demonstrá-la pedindo ao paciente que cerre o punho e abra a mão rapidamente: havendo miotonia, a mão se abre devagar. Ela também pode ser provocada por percussão do corpo do músculo, e McGee descreve o achado correspondente, a **miotonia de percussão**, uma contração prolongada de alguns segundos que deixa uma **depressão** sustentada na pele.
+  **Miotonia** é o relaxamento lentificado depois da contração. Demonstra-se pedindo ao paciente que cerre o punho e abra a mão rapidamente: havendo miotonia, a mão se abre devagar. Ela também pode ser provocada por percussão do corpo do músculo, o que produz o achado correspondente, a **miotonia de percussão**, uma contração prolongada de alguns segundos que deixa uma **depressão** sustentada na pele.
 
-  Vale distinguir a miotonia de percussão de um achado vizinho e inofensivo, o **mioedema**: também surge à percussão, mas produz um **volume** em vez de uma depressão, pode se orientar de través às fibras musculares, e é uma resposta fisiológica normal. McGee registra que ele é descrito com frequência no hipotireoidismo, em que a frequência acompanha a gravidade da doença: o que o coloca ao lado do reflexo aquileu lentificado, ensinado no tópico de tireoide e pescoço.
+  Vale distinguir a miotonia de percussão de um achado vizinho e inofensivo, o **mioedema**: também surge à percussão, mas produz um **volume** em vez de uma depressão, pode se orientar de través às fibras musculares, e é uma resposta fisiológica normal. Ele é descrito com frequência no hipotireoidismo, em que a frequência acompanha a gravidade da doença: o que o coloca ao lado do reflexo aquileu lentificado, ensinado no tópico de tireoide e pescoço.
 :::
 
 ::: secao
@@ -276,13 +276,13 @@ titulo: Força segmentar
 ::: conceito
 titulo: A técnica e o vocabulário
 texto: |
-  A técnica é simples e tem uma armadilha: o examinador testa **um músculo de cada vez**, pedindo ao paciente que contraia com força enquanto tenta impedir o movimento (McGee). A fraqueza de um lado se reconhece pela comparação com o músculo homólogo; a fraqueza dos dois lados só se reconhece contra um padrão guardado da experiência, e é por isso que ela é mais fácil de perder.
+  A técnica é simples e tem uma armadilha: o examinador testa **um músculo de cada vez**, pedindo ao paciente que contraia com força enquanto tenta impedir o movimento. A fraqueza de um lado se reconhece pela comparação com o músculo homólogo; a fraqueza dos dois lados só se reconhece contra um padrão guardado da experiência, e é por isso que ela é mais fácil de perder.
 
-  Porto ordena o exame em dois tempos que convém não inverter: primeiro a **motricidade espontânea**, em que se pede ao paciente uma série de movimentos livres, fechar e abrir cada mão; fletir o antebraço e estendê-lo; elevar o braço em abdução; levar a coxa em flexão sobre o tronco; e mover perna e pé nos dois sentidos, observando se cada um se completa em toda a amplitude; e só depois os **mesmos movimentos contra oposição** do examinador. Um movimento que já é incompleto sem resistência não precisa ser testado contra resistência para ser anormal.
+  O exame se ordena em dois tempos que convém não inverter: primeiro a **motricidade espontânea**, em que se pede ao paciente uma série de movimentos livres, fechar e abrir cada mão; fletir o antebraço e estendê-lo; elevar o braço em abdução; levar a coxa em flexão sobre o tronco; e mover perna e pé nos dois sentidos, observando se cada um se completa em toda a amplitude; e só depois os **mesmos movimentos contra oposição** do examinador. Um movimento que já é incompleto sem resistência não precisa ser testado contra resistência para ser anormal.
 
-  O vocabulário do resultado é o de McGee, e é preciso: **paralisia** designa perda de força de qualquer grau; **plegia** e **paresia** também indicam paralisia, embora *paresia* se use habitualmente para a paralisia incompleta. A distribuição tem nomes próprios: **monoparesia** é a fraqueza de um único membro; **hemiparesia**, de braço e perna do mesmo lado; **paraparesia**, das duas pernas; e **tetraparesia**, dos quatro membros, termo que os especialistas em medula preferem a *quadriparesia*.
+  O vocabulário do resultado é preciso: **paralisia** designa perda de força de qualquer grau; **plegia** e **paresia** também indicam paralisia, embora *paresia* se use habitualmente para a paralisia incompleta. A distribuição tem nomes próprios: **monoparesia** é a fraqueza de um único membro; **hemiparesia**, de braço e perna do mesmo lado; **paraparesia**, das duas pernas; e **tetraparesia**, dos quatro membros, termo que os especialistas em medula preferem a *quadriparesia*.
 
-  Porto registra ainda um dado que a maioria dos roteiros não menciona: nas **síndromes piramidais** há diminuição da velocidade dos movimentos; nas **extrapiramidais** há diminuição da velocidade **e** redução progressiva da amplitude à medida que o movimento é repetido. Pedir movimentos repetitivos dos dedos, aproximar e afastar indicador e polegar, evidencia a diferença.
+  Há ainda um dado que a maioria dos roteiros não menciona: nas **síndromes piramidais** há diminuição da velocidade dos movimentos; nas **extrapiramidais** há diminuição da velocidade **e** redução progressiva da amplitude à medida que o movimento é repetido. Pedir movimentos repetitivos dos dedos, aproximar e afastar indicador e polegar, evidencia a diferença.
 :::
 
 ::: ilustracao
@@ -323,34 +323,34 @@ svg: |
     <g font-family="sans-serif" font-size="8" fill="currentColor" stroke="none">
       <text x="12" y="166">A · o membro parético prona e cai em relação ao outro</text>
       <text x="12" y="178">B · quadris e joelhos a 90°: o membro fraco cai antes do outro</text>
-      <text x="12" y="190">Observação: 2 minutos (Semiologia Clínica) · 45 segundos (McGee)</text>
+      <text x="12" y="190">Observação: 2 minutos · 45 segundos</text>
     </g>
   </svg>
 legenda: "As manobras deficitárias existem porque a força testada contra a mão do examinador tem um teto: um déficit discreto some quando o paciente empurra por dois segundos. Pedir que ele sustente a posição contra a gravidade transforma o tempo em instrumento de medida, e o lado fraco se denuncia sozinho, caindo ou pronando antes do outro."
 :::
 
 ::: conceito
-titulo: Graduar a força, e por que as três fontes não graduam igual
+titulo: Graduar a força, e por que as escalas não se equivalem
 texto: |
-  A escala universal foi criada pelo **Medical Research Council** britânico durante a Segunda Guerra Mundial, e McGee a reproduz assim: **0** sem contração; **1** esboço ou traço de contração; **2** movimento ativo com a gravidade eliminada; **3** movimento ativo contra a gravidade; **4** movimento ativo contra a gravidade e contra resistência; **5** força normal.
+  A escala universal foi criada pelo **Medical Research Council** britânico durante a Segunda Guerra Mundial: **0** sem contração; **1** esboço ou traço de contração; **2** movimento ativo com a gravidade eliminada; **3** movimento ativo contra a gravidade; **4** movimento ativo contra a gravidade e contra resistência; **5** força normal.
 
   Aqui aparece a primeira divergência, e ela é de forma, não de fundo, mas precisa ser dita, porque o leitor vai encontrar as três versões:
 
-  - **Porto (*Exame Clínico*)** adota a escala do Medical Research Council e a **subdivide o grau 4** em três: 4+ para movimento submáximo contra resistência, 4 para movimento moderado contra resistência e 4, para movimento discreto contra resistência. Acrescenta uma regra de execução que evita erro: a força deve ser graduada pela **força máxima obtida**, não pelo tempo em que o paciente a sustenta.
-  - **Porto (*Semiologia Médica*)** apresenta a mesma progressão em **percentuais** (100%, 75%, 50%, 25%, 10% e 0%) e também em **graus de 0 a V** em algarismos romanos, com as mesmas definições.
-  - **Semiologia Clínica** usa a escala de **0 a 5** e faz a ponte entre as duas linguagens ao dar a cada grau uma faixa percentual: grau 1 de 0 a 10%, grau 2 de 11 a 25%, grau 3 de 26 a 50%, grau 4 de 51 a 75% e grau 5 de 76 a 100%, definindo o grau 5 como movimento contra resistência máxima sem sinais de fadiga.
+  - Uma descrição adota a escala do Medical Research Council e **subdivide o grau 4** em três: 4+ para movimento submáximo contra resistência, 4 para movimento moderado contra resistência e 4, para movimento discreto contra resistência. Acrescenta uma regra de execução que evita erro: a força deve ser graduada pela **força máxima obtida**, não pelo tempo em que o paciente a sustenta.
+  - A mesma descrição apresenta a progressão também em **percentuais** (100%, 75%, 50%, 25%, 10% e 0%) e em **graus de 0 a V** em algarismos romanos, com as mesmas definições.
+  - Outra descrição usa a escala de **0 a 5** e faz a ponte entre as duas linguagens ao dar a cada grau uma faixa percentual: grau 1 de 0 a 10%, grau 2 de 11 a 25%, grau 3 de 26 a 50%, grau 4 de 51 a 75% e grau 5 de 76 a 100%, definindo o grau 5 como movimento contra resistência máxima sem sinais de fadiga.
 
   As definições coincidem. O que muda é o rótulo, e a consequência prática é escrever no prontuário **qual escala foi usada**, porque "força 4" e "força 75%" só significam a mesma coisa para quem sabe de onde vieram.
 
-  **A crítica que vale conhecer.** McGee aponta um defeito importante da escala: ela atribui uma fatia desproporcional da potência do músculo ao grau 4. O bíceps usa apenas **2%** de sua força total para vencer a gravidade (isto é, para alcançar o grau 3) de modo que quase **98%** da faixa restante de potência cabe dentro do grau 4. É por isso que muitos neurologistas subdividem esse grau, exatamente como faz Porto no *Exame Clínico*.
+  **A crítica que vale conhecer.** Há um defeito importante nessa escala: ela atribui uma fatia desproporcional da potência do músculo ao grau 4. O bíceps usa apenas **2%** de sua força total para vencer a gravidade (isto é, para alcançar o grau 3) de modo que quase **98%** da faixa restante de potência cabe dentro do grau 4. É por isso que muitos neurologistas subdividem esse grau, como já mostrado acima.
 :::
 
 ::: conceito
 titulo: Que músculo testar para que raiz
 texto: |
-  Graduar a força só vira topografia quando se sabe **qual segmento medular** comanda cada movimento. A tabela abaixo reproduz a inervação segmentar padronizada que McGee apresenta: a mesma usada internacionalmente pelos especialistas para classificar lesões medulares.
+  Graduar a força só vira topografia quando se sabe **qual segmento medular** comanda cada movimento. A tabela abaixo reproduz a inervação segmentar padronizada: a mesma usada internacionalmente pelos especialistas para classificar lesões medulares.
 
-  Duas ressalvas antes de usá-la, e as duas são do próprio McGee. A primeira: **quase todo músculo recebe fibras de mais de uma raiz**; esta tabela simplifica de propósito, para padronizar a descrição. A segunda decorre dela: ela serve para **atribuir um nível** a uma lesão medular ou para conferir a suspeita de radiculopatia, não para afirmar que um músculo pertence a uma raiz só.
+  Duas ressalvas antes de usá-la. A primeira: **quase todo músculo recebe fibras de mais de uma raiz**; esta tabela simplifica de propósito, para padronizar a descrição. A segunda decorre dela: ela serve para **atribuir um nível** a uma lesão medular ou para conferir a suspeita de radiculopatia, não para afirmar que um músculo pertence a uma raiz só.
 
   E é com ela que se responde a uma pergunta que outro tópico deixou pendente. O tópico de pares cranianos de I a VI ensina que a síndrome de Horner obriga a examinar as raízes **C8 e T1** fora da cabeça: os movimentos a testar são, portanto, a **flexão dos dedos** e a **abdução do dedo mínimo**, dois gestos que o paciente executa em segundos e que quase nenhum exame de rotina inclui.
 
@@ -358,7 +358,7 @@ texto: |
 :::
 
 ::: tabela
-titulo: Inervação segmentar dos músculos (McGee, quase todo músculo recebe fibras de mais de uma raiz; ver texto)
+titulo: Inervação segmentar dos músculos (quase todo músculo recebe fibras de mais de uma raiz; ver texto)
 colunas:
   - "Nível"
   - "Movimento a testar"
@@ -399,23 +399,23 @@ linhas:
 ::: conceito
 titulo: As manobras deficitárias
 texto: |
-  Quando o déficit é discreto ou duvidoso, a força testada contra a mão do examinador não o revela. Porto e Semiologia Clínica descrevem então as **provas deficitárias**, que trocam a resistência do examinador pelo peso do próprio membro e pelo tempo.
+  Quando o déficit é discreto ou duvidoso, a força testada contra a mão do examinador não o revela. Entram então as **provas deficitárias**, que trocam a resistência do examinador pelo peso do próprio membro e pelo tempo.
 
-  **Membros superiores.** Na **prova dos braços estendidos**, também chamada manobra de Mingazzini dos membros superiores por Semiologia Clínica, o paciente estende os braços à frente com as **palmas voltadas para cima** e sustenta a posição; observa-se se um dos membros **prona** ou **cai**. A **manobra de Raimiste** é a variante feita com o paciente deitado de costas e os antebraços dobrados em ângulo reto.
+  **Membros superiores.** Na **prova dos braços estendidos**, também chamada manobra de Mingazzini dos membros superiores, o paciente estende os braços à frente com as **palmas voltadas para cima** e sustenta a posição; observa-se se um dos membros **prona** ou **cai**. A **manobra de Raimiste** é a variante feita com o paciente deitado de costas e os antebraços dobrados em ângulo reto.
 
   **Membros inferiores.** Na **manobra de Mingazzini**, o paciente deitado de costas sustenta a coxa dobrada sobre o tronco, deixando a perna horizontal, paralela ao leito; o membro deficitário cai antes do outro. Na **prova de Barré**, o paciente fica em decúbito ventral com as pernas fletidas a 90 graus, perpendiculares ao solo.
 
-  **O tempo é parte da manobra, e as fontes pedem tempos diferentes.** Semiologia Clínica especifica **2 minutos** para as manobras de membros superiores e inferiores. McGee descreve a mesma prova nos membros superiores sob o nome de **desvio em pronação** (*pronator drift*) e pede que a posição seja mantida por **45 segundos**, com os olhos fechados; o achado positivo é o braço contralateral à lesão hemisférica que **desce e prona**. Não há como conciliar os dois números, e não é preciso: o que eles têm em comum é que a manobra só vale se o tempo for cronometrado e registrado. Uma prova sustentada por dez segundos não é a prova.
+  **O tempo é parte da manobra, e as descrições pedem tempos diferentes.** Uma descrição especifica **2 minutos** para as manobras de membros superiores e inferiores. Outra descreve a mesma prova nos membros superiores sob o nome de **desvio em pronação** (*pronator drift*) e pede que a posição seja mantida por **45 segundos**, com os olhos fechados; o achado positivo é o braço contralateral à lesão hemisférica que **desce e prona**. Não há como conciliar os dois números, e não é preciso: o que eles têm em comum é que a manobra só vale se o tempo for cronometrado e registrado. Uma prova sustentada por dez segundos não é a prova.
 
-  **Por que o achado é essa combinação de queda e pronação**, e não uma queda qualquer, é a parte elegante: o desvio em pronação é um sinal de lesão **hemisférica contralateral**, e McGee o agrupa com outros dois testes que detectam a mesma coisa mesmo quando a força está praticamente preservada, a **prova do rolamento dos antebraços**, em que o paciente gira os antebraços um em torno do outro e o lado comprometido fica parado enquanto o outro orbita à sua volta; e o **teste de percussão rápida dos dedos**, em que o paciente bate polegar contra indicador cerca de duas vezes por segundo e o lado comprometido bate mais devagar e com menor amplitude. Os números desses três testes estão no bloco de aprofundamento.
+  **Por que o achado é essa combinação de queda e pronação**, e não uma queda qualquer, é a parte elegante: o desvio em pronação é um sinal de lesão **hemisférica contralateral**, e se agrupa com outros dois testes que detectam a mesma coisa mesmo quando a força está praticamente preservada, a **prova do rolamento dos antebraços**, em que o paciente gira os antebraços um em torno do outro e o lado comprometido fica parado enquanto o outro orbita à sua volta; e o **teste de percussão rápida dos dedos**, em que o paciente bate polegar contra indicador cerca de duas vezes por segundo e o lado comprometido bate mais devagar e com menor amplitude. Os números desses três testes estão no bloco de aprofundamento.
 
-  Semiologia Clínica registra ainda a leitura mais útil das manobras deficitárias, que não é apenas encontrar a fraqueza: elas mostram **se o déficit é global, distal ou proximal**. O padrão **distal** é característico de lesões piramidais ou de nervos periféricos; o padrão **proximal** sugere miopatia. McGee mede exatamente essa intuição: se fraqueza proximal for definida como músculos proximais com um grau a menos que os distais na escala do Medical Research Council, ela aparece em **92%** dos pacientes com doença muscular, de modo que a **ausência** de fraqueza proximal reduz a probabilidade de doença do músculo.
+  Há ainda a leitura mais útil das manobras deficitárias, que não é apenas encontrar a fraqueza: elas mostram **se o déficit é global, distal ou proximal**. O padrão **distal** é característico de lesões piramidais ou de nervos periféricos; o padrão **proximal** sugere miopatia. Um dado mede exatamente essa intuição: se fraqueza proximal for definida como músculos proximais com um grau a menos que os distais na escala do Medical Research Council, ela aparece em **92%** dos pacientes com doença muscular, de modo que a **ausência** de fraqueza proximal reduz a probabilidade de doença do músculo.
 :::
 
 ::: sinal
 nome: Desvio em pronação (braços estendidos)
 descricao: |
-  Braços estendidos à frente com as **palmas para cima**, olhos fechados, posição sustentada por tempo **cronometrado** (45 segundos por McGee; 2 minutos por Semiologia Clínica): o membro deficitário **desce e prona**.
+  Braços estendidos à frente com as **palmas para cima**, olhos fechados, posição sustentada por tempo **cronometrado** (as descrições variam entre 45 segundos e 2 minutos): o membro deficitário **desce e prona**.
 significado: |
   Prova deficitária que revela a fraqueza discreta que o teste de oposição não pega; a combinação de queda com pronação aponta **lesão hemisférica contralateral**. Nos membros inferiores, as equivalentes são as manobras de **Mingazzini** e de **Barré**. O padrão do déficit também fala: **distal** sugere lesão piramidal ou de nervo periférico, **proximal** sugere miopatia.
 causas:
@@ -479,8 +479,8 @@ svg: |
     <!-- legenda -->
     <g font-family="sans-serif" font-size="8.5" fill="currentColor" stroke="none">
       <text x="12" y="174">1 bicipital · 2 tricipital · 3 estilorradial · 4 patelar · 5 aquileu</text>
-      <text x="12" y="186">Níveis medulares (McGee): 1 e 3 C5-C6 · 2 C7-C8 · 4 L2-L4 · 5 S1</text>
-      <text x="12" y="197">Porto registra o aquileu em L5-S1 e o tricipital em C6-C7-C8</text>
+      <text x="12" y="186">Níveis medulares: 1 e 3 C5-C6 · 2 C7-C8 · 4 L2-L4 · 5 S1</text>
+      <text x="12" y="197">O aquileu também se descreve em L5-S1, e o tricipital em C6-C7-C8</text>
     </g>
   </svg>
 legenda: "Cinco pontos de percussão cobrem quatro níveis medulares diferentes, dos membros superiores aos inferiores. É essa distribuição em altura que dá aos reflexos seu valor topográfico: um reflexo apagado marca o nível da lesão, e reflexos exaltados abaixo dele marcam o que está solto do controle cortical."
@@ -489,15 +489,15 @@ legenda: "Cinco pontos de percussão cobrem quatro níveis medulares diferentes,
 ::: conceito
 titulo: A técnica, e um nome que atrapalha
 texto: |
-  O estímulo é uma percussão firme e breve com o martelo sobre o tendão do músculo, perto de onde ele se insere no osso (McGee). O músculo precisa estar levemente estirado e o paciente relaxado.
+  O estímulo é uma percussão firme e breve com o martelo sobre o tendão do músculo, perto de onde ele se insere no osso. O músculo precisa estar levemente estirado e o paciente relaxado.
 
-  Um detalhe de técnica que quase ninguém conhece: o **reflexo aquileu** também pode ser obtido pelo **método do golpe plantar**, em que o martelo percute a mão do examinador apoiada na planta do antepé do paciente. Nos estudos clínicos, os dois métodos, percussão do tendão e golpe plantar, se mostraram **equivalentes** (McGee). O golpe plantar resolve o problema prático do paciente acamado cujo tendão de Aquiles não fica acessível.
+  Um detalhe de técnica que quase ninguém conhece: o **reflexo aquileu** também pode ser obtido pelo **método do golpe plantar**, em que o martelo percute a mão do examinador apoiada na planta do antepé do paciente. Nos estudos clínicos, os dois métodos, percussão do tendão e golpe plantar, se mostraram **equivalentes**. O golpe plantar resolve o problema prático do paciente acamado cujo tendão de Aquiles não fica acessível.
 
-  O nome tradicional atrapalha, e vale corrigi-lo. Chamá-los de **reflexos tendinosos profundos** é impróprio: o tendão tem pouco a ver com a resposta, servindo apenas para transmitir mecanicamente o estiramento súbito ao fuso muscular. A prova é que alguns músculos com reflexo de estiramento **não têm tendão**: o reflexo mandibular, do masseter, é o exemplo de McGee. O nome que descreve o que acontece é **reflexo de estiramento muscular**, ou, com o vocabulário de Porto, **reflexo miotático**. Este guia usa "reflexo profundo" porque é o termo do prontuário brasileiro, sabendo que ele nomeia mal a coisa.
+  O nome tradicional atrapalha, e vale corrigi-lo. Chamá-los de **reflexos tendinosos profundos** é impróprio: o tendão tem pouco a ver com a resposta, servindo apenas para transmitir mecanicamente o estiramento súbito ao fuso muscular. A prova é que alguns músculos com reflexo de estiramento **não têm tendão**: o reflexo mandibular, do masseter, é o exemplo clássico. O nome que descreve o que acontece é **reflexo de estiramento muscular**, também chamado **reflexo miotático**. Este guia usa "reflexo profundo" porque é o termo do prontuário brasileiro, sabendo que ele nomeia mal a coisa.
 
-  **Quais pesquisar de rotina.** Porto investiga sete: bicipital, tricipital, supinador, pronador, flexor dos dedos, patelar e aquileu. Semiologia Clínica lista, nos membros superiores, bicipital, tricipital, estilorradial e flexor dos dedos, e, nos inferiores, patelar, adutores da coxa e aquileu. Os cinco da ilustração (bicipital, tricipital, estilorradial, patelar e aquileu) são o núcleo comum das duas listas e cobrem quatro níveis medulares.
+  **Quais pesquisar de rotina.** Há duas listas: uma investiga sete: bicipital, tricipital, supinador, pronador, flexor dos dedos, patelar e aquileu; outra lista, nos membros superiores, bicipital, tricipital, estilorradial e flexor dos dedos, e, nos inferiores, patelar, adutores da coxa e aquileu. Os cinco da ilustração (bicipital, tricipital, estilorradial, patelar e aquileu) são o núcleo comum das duas listas e cobrem quatro níveis medulares.
 
-  Um esclarecimento de nomenclatura que confunde estudantes: o **reflexo supinador** de Porto e o **estilorradial** de Semiologia Clínica são o mesmo reflexo, o do braquiorradial, obtido percutindo o processo estiloide do rádio. McGee registra a equivalência ao tratar do reflexo supinador invertido.
+  Um esclarecimento de nomenclatura que confunde estudantes: o **reflexo supinador** e o **estilorradial** são nomes para o mesmo reflexo, o do braquiorradial, obtido percutindo o processo estiloide do rádio, e a equivalência vale também para o reflexo supinador invertido.
 :::
 
 ::: tabela
@@ -515,7 +515,7 @@ linhas:
   - - "Tricipital"
     - "Tríceps · extensão do antebraço"
     - "Tendão distal do tríceps"
-    - "C7-C8 (McGee) · C6-C7-C8 (Porto)"
+    - "C7-C8 · C6-C7-C8"
   - - "Estilorradial ou supinador"
     - "Braquiorradial · flexão do antebraço"
     - "Processo estiloide do rádio"
@@ -527,13 +527,13 @@ linhas:
   - - "Aquileu"
     - "Tríceps sural · flexão plantar do pé"
     - "Tendão calcâneo, ou golpe plantar"
-    - "S1 (McGee) · L5-S1 (Porto)"
+    - "S1 · L5-S1"
 :::
 
 ::: conceito
 titulo: "Graduar e registrar: três escalas para a mesma coisa"
 texto: |
-  Aqui está a diferença mais incômoda entre o exame dos reflexos e o da força: **não existe uma escala universalmente aceita**. McGee registra que as propostas vão das quatro categorias originais de Weir Mitchell às nove da Mayo Clinic, e recomenda a de cinco pontos do **National Institute of Neurological Disorders and Stroke**, de 0 a 4:
+  Aqui está a diferença mais incômoda entre o exame dos reflexos e o da força: **não existe uma escala universalmente aceita**. As propostas vão das quatro categorias originais de Weir Mitchell às nove da Mayo Clinic, e recomenda a de cinco pontos do **National Institute of Neurological Disorders and Stroke**, de 0 a 4:
 
   - **0**: reflexo ausente;
   - **1**: reflexo pequeno, abaixo do normal; inclui a resposta em traço e a resposta que só aparece com reforço;
@@ -543,27 +543,27 @@ texto: |
 
   As duas obras brasileiras usam sinais convencionais, e não coincidem entre si:
 
-  - **Porto** registra arreflexia como **0**, hiporreflexia como **: **, normorreflexia como **+**, reflexo vivo como **++** e hiper-reflexia como **+++**.
-  - **Semiologia Clínica** usa **0** para ausente, **+** para diminuído, **++** para normal, **+++** para vivo e **++++** para exaltado.
+  - Uma descrição registra arreflexia como **0**, hiporreflexia como **: **, normorreflexia como **+**, reflexo vivo como **++** e hiper-reflexia como **+++**.
+  - Outra descrição usa **0** para ausente, **+** para diminuído, **++** para normal, **+++** para vivo e **++++** para exaltado.
 
-  Repare no que isso significa: um reflexo normal é **"+"** para Porto e **"++"** para Semiologia Clínica. O mesmo símbolo, dois significados opostos. Quando precisar de número, **o guia adota a escala da Semiologia Clínica** (0 ausente, + diminuído, ++ normal, +++ vivo, ++++ exaltado); a notação de Porto fica atribuída acima. E o risco de comunicação se resolve do mesmo modo que na força: **nomeie a escala no registro**, ou escreva por extenso, "reflexos profundos vivos e simétricos nos quatro membros" não depende de convenção nenhuma.
+  Repare no que isso significa: um reflexo normal é **"+"** em uma descrição e **"++"** na outra. O mesmo símbolo, dois significados opostos. Quando precisar de número, **este guia adota a segunda escala** (0 ausente, + diminuído, ++ normal, +++ vivo, ++++ exaltado); a primeira notação fica registrada acima. E o risco de comunicação se resolve do mesmo modo que na força: **nomeie a escala no registro**, ou escreva por extenso, "reflexos profundos vivos e simétricos nos quatro membros" não depende de convenção nenhuma.
 
-  Porto e Semiologia Clínica convergem na definição do que separa **vivo** de **exaltado**, e ela é útil: o reflexo vivo é obtido com facilidade aumentada, amplo e brusco; a hiper-reflexia acrescenta duas coisas, o reflexo é obtido em **área maior** que a habitual, o chamado aumento da área reflexógena, e é **policinético**, isto é, uma única percussão produz várias contrações. Porto acrescenta ainda a **sinreflexia**, a resposta que aparece também do lado oposto ao estimulado, entre os sinais de liberação piramidal.
+  As duas descrições convergem na definição do que separa **vivo** de **exaltado**, e ela é útil: o reflexo vivo é obtido com facilidade aumentada, amplo e brusco; a hiper-reflexia acrescenta duas coisas, o reflexo é obtido em **área maior** que a habitual, o chamado aumento da área reflexógena, e é **policinético**, isto é, uma única percussão produz várias contrações. Uma delas acrescenta ainda a **sinreflexia**, a resposta que aparece também do lado oposto ao estimulado, entre os sinais de liberação piramidal.
 :::
 
 ::: conceito
 titulo: Quando o reflexo alterado significa doença
 texto: |
-  Este é o bloco mais importante do tópico, e ele contraria o hábito. **Um reflexo ausente ou exagerado, isoladamente, não significa doença neurológica.** McGee sustenta a afirmação com dados: de **6% a 50%** das pessoas idosas sem doença neurológica não têm reflexo aquileu dos dois lados, mesmo com manobra de reforço; e uma pequena parcela de indivíduos normais tem hiper-reflexia generalizada. Porto diz o mesmo com outras palavras ao advertir que respostas diminuídas ou aumentadas aparecem também em quem não tem doença alguma, e que a leitura correta depende da experiência do examinador somada aos demais achados.
+  Este é o bloco mais importante do tópico, e ele contraria o hábito. **Um reflexo ausente ou exagerado, isoladamente, não significa doença neurológica.** Os dados sustentam a afirmação: de **6% a 50%** das pessoas idosas sem doença neurológica não têm reflexo aquileu dos dois lados, mesmo com manobra de reforço; e uma pequena parcela de indivíduos normais tem hiper-reflexia generalizada. Vale o mesmo com outras palavras: respostas diminuídas ou aumentadas aparecem também em quem não tem doença alguma, e a leitura correta depende da experiência do examinador somada aos demais achados.
 
-  O reflexo alterado só é significativo em **uma de quatro situações** (McGee):
+  O reflexo alterado só é significativo em **uma de quatro situações**:
 
   1. **O reflexo ausente vem acompanhado de outros achados de neurônio motor inferior**: fraqueza, atrofia, fasciculações.
   2. **O reflexo exagerado vem acompanhado de outros achados de neurônio motor superior**: fraqueza, espasticidade, sinal de Babinski.
   3. **A amplitude é assimétrica**, o que sugere lesão do neurônio inferior do lado diminuído ou do neurônio superior do lado aumentado.
   4. **O reflexo está desproporcionalmente vivo em comparação com um reflexo de nível medular mais alto**, o que levanta a possibilidade de doença medular em algum ponto entre os segmentos com reflexos exaltados e os com reflexos diminuídos.
 
-  Porto chega ao mesmo lugar por outro caminho ao afirmar que a **assimetria** das respostas tem grande importância porque evidencia anormalidade neurológica, e que ela precisa ser analisada em conjunto com os demais elementos do exame.
+  Chega-se ao mesmo lugar por outro caminho ao afirmar que a **assimetria** das respostas tem grande importância porque evidencia anormalidade neurológica, e que ela precisa ser analisada em conjunto com os demais elementos do exame.
 
   **A lógica por trás das quatro regras** é simples e vale mais que a memorização. A amplitude de um reflexo depende de duas alças. A alça **inferior** é o nervo periférico e o segmento medular do próprio reflexo: doença em qualquer um dos dois **reduz ou abole** aquele reflexo. A alça **superior** são as vias corticospinais descendentes que o inibem: doença em qualquer ponto delas **exagera** o reflexo. E a doença da **medula**, onde os dois segmentos moram, faz as duas coisas ao mesmo tempo: abole o reflexo no nível da lesão e exalta todos os reflexos abaixo dela.
 
@@ -577,15 +577,15 @@ titulo: Reflexos superficiais e clônus
 ::: conceito
 titulo: O cutâneo-plantar e o sinal de Babinski
 texto: |
-  O reflexo cutâneo-plantar é o mais importante dos reflexos superficiais, e o sinal que dele deriva é, nas palavras de Porto, um dos elementos semiológicos mais importantes do sistema nervoso.
+  O reflexo cutâneo-plantar é o mais importante dos reflexos superficiais, e o sinal que dele deriva é um dos elementos semiológicos mais importantes do sistema nervoso.
 
-  **A técnica, e uma divergência que precisa ser dita.** Porto descreve o estímulo com o paciente em decúbito dorsal e membros inferiores estendidos: estimula-se superficialmente a região plantar **próxima à borda lateral**, no sentido posteroanterior, com um leve semicírculo na parte mais anterior. McGee é mais específico e explica por quê: entre as muitas formas de obter o reflexo, a melhor é um traçado **lento, de 5 a 6 segundos, em forma de taco de hóquei, começando na superfície plantar lateral**, feito com um bastão de madeira, uma chave ou a extremidade pontiaguda do cabo do martelo. Esse método é superior a arranhar a planta lateral, a estimular abaixo do maléolo lateral (método de Chaddock), a friccionar a face anterior da tíbia (método de Oppenheim) e, o estímulo menos eficaz de todos, a comprimir a panturrilha (método de Gordon). **Semiologia Clínica, porém, situa o estímulo na metade interna da planta**, também de trás para diante. As três obras concordam no sentido do traçado e na resposta; divergem quanto à borda. Duas contra uma, e com a justificativa experimental do lado de McGee: comece pela borda **lateral**.
+  **A técnica, e uma divergência que precisa ser dita.** Uma descrição situa o estímulo com o paciente em decúbito dorsal e membros inferiores estendidos: estimula-se superficialmente a região plantar **próxima à borda lateral**, no sentido posteroanterior, com um leve semicírculo na parte mais anterior. Outra é mais específica e explica por quê: entre as muitas formas de obter o reflexo, a melhor é um traçado **lento, de 5 a 6 segundos, em forma de taco de hóquei, começando na superfície plantar lateral**, feito com um bastão de madeira, uma chave ou a extremidade pontiaguda do cabo do martelo. Esse método é superior a arranhar a planta lateral, a estimular abaixo do maléolo lateral (método de Chaddock), a friccionar a face anterior da tíbia (método de Oppenheim) e, o estímulo menos eficaz de todos, a comprimir a panturrilha (método de Gordon). **Uma terceira descrição, porém, situa o estímulo na metade interna da planta**, também de trás para diante. As três descrições concordam no sentido do traçado e na resposta; divergem quanto à borda. Duas contra uma, e com a justificativa experimental do lado da descrição mais detalhada: comece pela borda **lateral**.
 
-  **A resposta normal** é a flexão dos dedos. **A inversão da resposta, a extensão do hálux, é o sinal de Babinski**, e indica lesão da via piramidal ou corticospinal (Porto). Os demais dedos podem ou não se abrir em leque.
+  **A resposta normal** é a flexão dos dedos. **A inversão da resposta, a extensão do hálux, é o sinal de Babinski**, e indica lesão da via piramidal ou corticospinal. Os demais dedos podem ou não se abrir em leque.
 
-  **Um esclarecimento que Babinski deu e que se perdeu:** a abertura dos dedos em leque é um fenômeno **normal** e **não faz parte** da resposta patológica (McGee, citando o próprio Babinski). Quem diagnostica Babinski pelo leque diagnostica outra coisa.
+  **Um esclarecimento que Babinski deu e que se perdeu:** a abertura dos dedos em leque é um fenômeno **normal** e **não faz parte** da resposta patológica, segundo o próprio Babinski. Quem diagnostica Babinski pelo leque diagnostica outra coisa.
 
-  **Como decidir uma resposta duvidosa.** McGee reúne quatro critérios, apoiados em estudos eletrodiagnósticos e no seguimento dos pacientes:
+  **Como decidir uma resposta duvidosa.** Quatro critérios ajudam, apoiados em estudos eletrodiagnósticos e no seguimento dos pacientes:
 
   1. **O hálux patológico sobe por contração do extensor longo do hálux**, cujo tendão fica visível sob a pele no dorso do dedo. O movimento do dedo em si não é o essencial e pode ser impedido por doença articular. Mais: o dedo pode **parecer** subir sem que aquele músculo se contraia, quando o tornozelo dorsiflete, ou quando o dedo retorna de um movimento inicial para baixo.
   2. **Em mais de 90% das vezes, o pé com hálux patológico é fraco ou tem dificuldade com movimentos finos.** Um bom teste de motricidade fina é a percussão rápida do antepé contra a mão do examinador: pessoas normais fazem de **20 a 40 batidas em 10 segundos**.
@@ -594,9 +594,9 @@ texto: |
 
   **Por que existe um Babinski**, e por que ele é o mesmo movimento de todos os mamíferos: diante de um estímulo doloroso no membro inferior, a maioria dos mamíferos o retira fletindo quadril e joelho e dorsifletindo pé e dedos. Esse reflexo primitivo de flexão existe no lactente humano até 1 ou 2 anos de idade; depois disso, o amadurecimento das vias piramidais faz duas coisas: torna a resposta de flexão menos viva e inverte o movimento dos dedos, que passam a descer. Quando a doença piramidal aparece mais tarde na vida, o reflexo cutâneo-plantar normal desaparece e o hálux volta a subir. É por isso, aliás, que chamar a resposta de "extensora" é confuso: os anatomistas sempre chamaram o movimento para cima de extensão, e os fisiologistas chamam o mesmo movimento de flexão.
 
-  **Os falso-negativos**, paciente com doença piramidal e sem hálux patológico, têm três explicações (McGee): **choque medular**; **paralisia do nervo fibular**, que denerva justamente os músculos que dorsifletem o hálux e que é problema comum em acamados, por compressão contra a cabeça da fíbula; e **doença piramidal que poupa a musculatura do pé**, como a fraqueza do neurônio motor superior confinada ao braço daquele lado.
+  **Os falso-negativos**, paciente com doença piramidal e sem hálux patológico, têm três explicações: **choque medular**; **paralisia do nervo fibular**, que denerva justamente os músculos que dorsifletem o hálux e que é problema comum em acamados, por compressão contra a cabeça da fíbula; e **doença piramidal que poupa a musculatura do pé**, como a fraqueza do neurônio motor superior confinada ao braço daquele lado.
 
-  Porto acrescenta que o cutâneo-plantar pode estar **abolido** quando há interrupção do arco reflexo e, às vezes, na fase inicial da lesão piramidal, mais um motivo para não ler o pé isoladamente.
+  O cutâneo-plantar pode estar **abolido** quando há interrupção do arco reflexo e, às vezes, na fase inicial da lesão piramidal, mais um motivo para não ler o pé isoladamente.
 :::
 
 ::: sinal
@@ -613,11 +613,11 @@ causas:
 ::: conceito
 titulo: Os cutâneo-abdominais como moldura
 texto: |
-  Os reflexos cutâneo-abdominais são pesquisados com o paciente em decúbito dorsal e a parede abdominal relaxada, estimulando-se o abdome em três níveis (superior, médio e inferior) no sentido da linha mediana; a resposta normal é a contração da musculatura abdominal, que desloca levemente a cicatriz umbilical para o lado estimulado (Porto). McGee registra o mesmo reflexo entre os níveis **T6 e T11** e observa que ele aparece com a mesma frequência quer o estímulo vá de medial para lateral, quer de lateral para medial.
+  Os reflexos cutâneo-abdominais são pesquisados com o paciente em decúbito dorsal e a parede abdominal relaxada, estimulando-se o abdome em três níveis (superior, médio e inferior) no sentido da linha mediana; a resposta normal é a contração da musculatura abdominal, que desloca levemente a cicatriz umbilical para o lado estimulado. O mesmo reflexo se registra entre os níveis **T6 e T11**, e aparece com a mesma frequência quer o estímulo vá de medial para lateral, quer de lateral para medial.
 
-  Este guia os nomeia e não os transforma em rotina, e a razão está nos dados. Segundo o ensino tradicional, os cutâneo-abdominais desaparecem tanto na doença do neurônio motor superior quanto na do inferior, e Porto de fato registra a diminuição ou abolição dos cutâneo-abdominais entre os sinais deficitários da síndrome piramidal. **Mas o valor clínico é pequeno**, diz McGee, porque eles estão ausentes em cerca de **20%** dos indivíduos normais, e mais ainda nos idosos. Pior: os padrões tradicionalmente associados a doença (reflexos **assimétricos**, ou preservados apenas nos quadrantes superiores) também são achado comum em pessoas saudáveis.
+  Este guia os nomeia e não os transforma em rotina, e a razão está nos dados. Segundo o ensino tradicional, os cutâneo-abdominais desaparecem tanto na doença do neurônio motor superior quanto na do inferior, e de fato a diminuição ou abolição dos cutâneo-abdominais está entre os sinais deficitários da síndrome piramidal. **Mas o valor clínico é pequeno**, porque eles estão ausentes em cerca de **20%** dos indivíduos normais, e mais ainda nos idosos. Pior: os padrões tradicionalmente associados a doença (reflexos **assimétricos**, ou preservados apenas nos quadrantes superiores) também são achado comum em pessoas saudáveis.
 
-  Porto chega a uma conclusão convergente por outro caminho, ao listar entre as causas de abolição, além da interrupção do arco reflexo e da lesão piramidal, três condições sem nenhuma doença neurológica: **obesidade, idade avançada e multiparidade**.
+  Chega-se a uma conclusão convergente por outro caminho, ao listar entre as causas de abolição, além da interrupção do arco reflexo e da lesão piramidal, três condições sem nenhuma doença neurológica: **obesidade, idade avançada e multiparidade**.
 
   A consequência é que este achado quase nunca decide sozinho. Ele entra como confirmação quando já há outros sinais piramidais do mesmo lado, e nunca como o achado que abre o raciocínio.
 :::
@@ -625,11 +625,11 @@ texto: |
 ::: conceito
 titulo: Clônus
 texto: |
-  Clônus é um reflexo de estiramento que se autossustenta: o examinador estira bruscamente um músculo hiper-reflexo e **mantém a força de estiramento**; cada vez que o músculo relaxa da contração anterior, a tração renovada dispara o reflexo outra vez, e a série rítmica continua enquanto a tensão for mantida (McGee). Note que **manter a tração é parte da técnica**: quem estira e solta não obtém clônus.
+  Clônus é um reflexo de estiramento que se autossustenta: o examinador estira bruscamente um músculo hiper-reflexo e **mantém a força de estiramento**; cada vez que o músculo relaxa da contração anterior, a tração renovada dispara o reflexo outra vez, e a série rítmica continua enquanto a tensão for mantida. Note que **manter a tração é parte da técnica**: quem estira e solta não obtém clônus.
 
-  O local mais fácil é o **pé**, dorsifletindo o tornozelo de modo brusco, com oscilações habitualmente de 5 a 8 por segundo. Também se obtém no quadríceps, nos flexores dos dedos e na mandíbula. Porto descreve exatamente os dois clássicos, o **clônus do pé** e o **clônus da rótula**, definidos como contrações sucessivas do tríceps sural e do quadríceps ao estiramento rápido e mantido, e registra o dado que importa para a interpretação: eles ocorrem na lesão da via piramidal e vêm **sempre acompanhados de exaltação dos reflexos** daqueles músculos. Clônus com reflexos normais deve fazer o examinador desconfiar da própria técnica.
+  O local mais fácil é o **pé**, dorsifletindo o tornozelo de modo brusco, com oscilações habitualmente de 5 a 8 por segundo. Também se obtém no quadríceps, nos flexores dos dedos e na mandíbula. Os dois clássicos são o **clônus do pé** e o **clônus da rótula**, definidos como contrações sucessivas do tríceps sural e do quadríceps ao estiramento rápido e mantido, e o dado que importa para a interpretação é este: eles ocorrem na lesão da via piramidal e vêm **sempre acompanhados de exaltação dos reflexos** daqueles músculos. Clônus com reflexos normais deve fazer o examinador desconfiar da própria técnica.
 
-  Uma observação de McGee explica um detalhe curioso e confirma o mecanismo: a **frequência do clônus varia inversamente com o comprimento do trajeto reflexo**. O clônus do punho é mais rápido que o do tornozelo, simplesmente porque os nervos até o antebraço são mais curtos que os que vão até a panturrilha.
+  Uma observação explica um detalhe curioso e confirma o mecanismo: a **frequência do clônus varia inversamente com o comprimento do trajeto reflexo**. O clônus do punho é mais rápido que o do tornozelo, simplesmente porque os nervos até o antebraço são mais curtos que os que vão até a panturrilha.
 :::
 
 ::: sinal
@@ -666,11 +666,11 @@ linhas:
     - "Sinal de Babinski"
     - "Resposta em flexão ou reflexo abolido"
   - - "Cutâneo-abdominais"
-    - "Diminuídos ou abolidos (Porto)"
+    - "Diminuídos ou abolidos"
     - "Abolidos quando o arco reflexo é interrompido"
   - - "Distribuição da fraqueza"
     - "Paralisa movimentos; hemiparesia é específica"
-    - "Paralisa músculos; segmentar e assimétrica (Porto)"
+    - "Paralisa músculos; segmentar e assimétrica"
   - - "Achados sensitivos no membro fraco"
     - "Às vezes"
     - "Em geral presentes, no território da raiz ou do nervo"
@@ -679,7 +679,7 @@ linhas:
 ::: conceito
 titulo: Lendo o quadro, e por que ele quase nunca aparece completo
 texto: |
-  A tabela acima resume o que McGee organiza na sua Tabela 61.2 e o que Porto descreve como síndrome do I e do II neurônio motor. Ela é verdadeira e é perigosa, e as duas coisas pelo mesmo motivo: **esses achados são específicos, mas não sensíveis**, ou seja, ajudam quando estão presentes e não ajudam quando estão ausentes. O próprio McGee o diz em nota de rodapé da tabela.
+  A tabela acima resume a síndrome do I e do II neurônio motor. Ela é verdadeira e é perigosa, e as duas coisas pelo mesmo motivo: **esses achados são específicos, mas não sensíveis**, ou seja, ajudam quando estão presentes e não ajudam quando estão ausentes, como registra a ressalva que acompanha a tabela de origem.
 
   Os números por trás da advertência:
 
@@ -687,7 +687,7 @@ texto: |
   - a **ausência de espasticidade é comum**, sobretudo nas lesões agudas;
   - em muitos casos de fraqueza periférica, o nervo acometido **nem sequer inerva um reflexo clínico**, a radiculopatia L5 e as neuropatias mediana e ulnar são os exemplos, de modo que os reflexos do membro ficam preservados.
 
-  A conclusão de McGee é explícita e vale como regra de leitura: **a ausência de espasticidade ou de hiper-reflexia não argumenta contra doença do neurônio motor superior, e a ausência de hipotonia ou de hiporreflexia não argumenta contra doença do neurônio motor inferior.**
+  A conclusão vale como regra de leitura: **a ausência de espasticidade ou de hiper-reflexia não argumenta contra doença do neurônio motor superior, e a ausência de hipotonia ou de hiporreflexia não argumenta contra doença do neurônio motor inferior.**
 
   Do outro lado, quando o reflexo **está** alterado, ele é muito bom: em um estudo de pacientes com fraqueza, 87% tinham reflexos anormais e, em todos os casos, a **arreflexia** previu corretamente doença do neurônio inferior e a **hiper-reflexia** previu corretamente doença do neurônio superior.
 
@@ -695,9 +695,9 @@ texto: |
 
   - **só a hemiparesia é específica.** Monoparesia, paraparesia e tetraparesia não distinguem central de periférico por si mesmas; a hemiparesia indica lesão central.
   - **na lesão do neurônio motor inferior, a lesão é sempre do mesmo lado da fraqueza.** Na do superior, a fraqueza é contralateral se a lesão está no hemisfério cerebral ou no tronco, e ipsilateral se está na medula, porque as vias descendentes cruzam logo abaixo do tronco encefálico, na decussação das pirâmides.
-  - **achados dos dois tipos ao mesmo tempo indicam doença da medula espinal**, o único lugar onde os dois segmentos coabitam. Porto descreve a mesma lógica ao separar as síndromes do I e do II neurônio motor, e as causas comuns são a mielopatia e a esclerose lateral amiotrófica.
+  - **achados dos dois tipos ao mesmo tempo indicam doença da medula espinal**, o único lugar onde os dois segmentos coabitam, o que fundamenta a mesma lógica de separar as síndromes do I e do II neurônio motor; as causas comuns são a mielopatia e a esclerose lateral amiotrófica.
 
-  Há ainda uma distinção conceitual de McGee que reorganiza tudo o que veio antes, e que merece ser lida devagar: **lesões centrais paralisam movimentos; lesões periféricas paralisam músculos.** Um neurônio de uma única área do córtex conecta-se a muitos segmentos medulares e a muitos músculos para produzir um movimento; um único músculo, por sua vez, participa de muitos movimentos e recebe informação de muitos segmentos superiores, todos convergindo no único nervo periférico que chega até ele. Lesar esse nervo elimina **todo o repertório** do músculo; lesar um segmento superior elimina **apenas um** dos movimentos possíveis. O exemplo que o leitor já conhece está no tópico de pares cranianos de VII a XII: a paralisia facial periférica paralisa todos os movimentos daquela hemiface, enquanto a central paralisa os voluntários e poupa os emocionais.
+  Há ainda uma distinção conceitual que reorganiza tudo o que veio antes, e que merece ser lida devagar: **lesões centrais paralisam movimentos; lesões periféricas paralisam músculos.** Um neurônio de uma única área do córtex conecta-se a muitos segmentos medulares e a muitos músculos para produzir um movimento; um único músculo, por sua vez, participa de muitos movimentos e recebe informação de muitos segmentos superiores, todos convergindo no único nervo periférico que chega até ele. Lesar esse nervo elimina **todo o repertório** do músculo; lesar um segmento superior elimina **apenas um** dos movimentos possíveis. O exemplo que o leitor já conhece está no tópico de pares cranianos de VII a XII: a paralisia facial periférica paralisa todos os movimentos daquela hemiface, enquanto a central paralisa os voluntários e poupa os emocionais.
 :::
 
 ::: secao
@@ -705,7 +705,7 @@ titulo: Aprofundamento
 :::
 
 ::: tabela
-titulo: Achados que detectam lesão hemisférica cerebral unilateral (McGee)
+titulo: Achados que detectam lesão hemisférica cerebral unilateral
 nivel: avancado
 colunas:
   - "Achado"
@@ -765,7 +765,7 @@ nivel: avancado
 texto: |
   Pela escala do National Institute of Neurological Disorders and Stroke, o **grau 1** inclui os reflexos que só aparecem com manobra de reforço, e o **grau 0** descreve os reflexos ausentes **apesar** do reforço. Ou seja: a escala pressupõe que a manobra foi feita. Registrar "aquileu ausente" sem ter reforçado é pular um degrau da própria escala.
 
-  O método mais usado é a **manobra de Jendrassik**. Em 1885, Ernő Jendrassik relatou que pedir ao paciente que **encaixe os dedos fletidos de uma mão nos da outra e puxe com toda a força** enquanto o examinador percute o tendão amplifica os reflexos de pessoas normais. O reforço dura enquanto o paciente mantém a tração: em alguns estudos, até **10 segundos** (McGee).
+  O método mais usado é a **manobra de Jendrassik**. Em 1885, Ernő Jendrassik relatou que pedir ao paciente que **encaixe os dedos fletidos de uma mão nos da outra e puxe com toda a força** enquanto o examinador percute o tendão amplifica os reflexos de pessoas normais. O reforço dura enquanto o paciente mantém a tração: em alguns estudos, até **10 segundos**.
 
   O quanto ela muda o exame é surpreendente: em um estudo com idosos normais cujo reflexo aquileu estava ausente, as manobras de reforço fizeram o reflexo aparecer em **70%** das vezes. Isso reordena a interpretação do achado mais comum do exame de reflexos no idoso, e é a razão pela qual a ausência do aquileu, mesmo com reforço, precisa de outros achados ao lado para significar alguma coisa.
 
@@ -773,7 +773,7 @@ texto: |
 :::
 
 ::: tabela
-titulo: Reflexo diminuído como localizador de raiz (McGee)
+titulo: Reflexo diminuído como localizador de raiz
 nivel: avancado
 colunas:
   - "Reflexo diminuído"
@@ -803,7 +803,7 @@ nivel: avancado
 texto: |
   A tabela vale para um cenário específico: pacientes com **queixa de dor ou déficit em um membro sugerindo doença de raiz cervical ou lombossacra**. Fora dele, os números não se aplicam.
 
-  **A hierarquia surpreende duas vezes.** O reflexo com melhor desempenho localizatório é o **bicipital ou estilorradial diminuído** apontando C6 (14,2), e o mais famoso da lista, o **aquileu diminuído** apontando S1, é o pior (2,7). O aquileu é o reflexo que todo mundo pesquisa na lombalgia com irradiação, e ele é justamente o que menos decide. McGee acrescenta o dado epidemiológico que completa o quadro do lado cervical: as radiculopatias **C6 e C7 são muito mais comuns** que as de C5 ou C8.
+  **A hierarquia surpreende duas vezes.** O reflexo com melhor desempenho localizatório é o **bicipital ou estilorradial diminuído** apontando C6 (14,2), e o mais famoso da lista, o **aquileu diminuído** apontando S1, é o pior (2,7). O aquileu é o reflexo que todo mundo pesquisa na lombalgia com irradiação, e ele é justamente o que menos decide. Um dado epidemiológico completa o quadro do lado cervical: as radiculopatias **C6 e C7 são muito mais comuns** que as de C5 ou C8.
 
   Aparece aqui o **reflexo isquiotibial medial**, que não está no exame de rotina deste guia e vale conhecer: percutido no tendão medial da fossa poplítea, ele corresponde ao nível **L5**, exatamente aquele que os reflexos habituais não cobrem, e localiza L5 com razão de verossimilhança 6,2, elevação substancial da probabilidade. É a exceção útil à regra de que a radiculopatia L5 é a que não tem reflexo.
 
@@ -816,7 +816,7 @@ texto: |
 titulo: Quanto os examinadores concordam no exame motor
 nivel: avancado
 texto: |
-  A Tabela 5.1 de McGee reúne a concordância entre observadores para os achados deste tópico, e o resultado organiza a confiança que cada um merece:
+  A tabulação de concordância entre observadores reúne os achados deste tópico, e o resultado organiza a confiança que cada um merece:
 
   - **força muscular pela escala do Medical Research Council**: **0,69 a 0,93**, a melhor concordância de todo o exame neurológico;
   - **prova do rolamento dos antebraços**: 0,73; **teste de percussão do pé**: 0,73;
@@ -830,7 +830,7 @@ texto: |
 
   Dois cruzamentos merecem atenção, porque contrariam a hierarquia de prestígio dos achados.
 
-  **O primeiro é o Babinski.** É o sinal mais reverenciado do exame neurológico, tem razão de verossimilhança de 8,5 para lesão hemisférica contralateral, e é dos achados **menos reprodutíveis** da lista, com concordância que começa em 0,17, apenas ligeira. Não há contradição: um achado pode ser muito informativo **quando é encontrado** e, ao mesmo tempo, ser encontrado de modo inconsistente. A resposta prática não é abandoná-lo; é padronizar a técnica que McGee descreve, traçado lento em taco de hóquei a partir da borda lateral, e aplicar os quatro critérios de interpretação, em vez de julgar pelo movimento do dedo.
+  **O primeiro é o Babinski.** É o sinal mais reverenciado do exame neurológico, tem razão de verossimilhança de 8,5 para lesão hemisférica contralateral, e é dos achados **menos reprodutíveis** da lista, com concordância que começa em 0,17, apenas ligeira. Não há contradição: um achado pode ser muito informativo **quando é encontrado** e, ao mesmo tempo, ser encontrado de modo inconsistente. A resposta prática não é abandoná-lo; é padronizar a técnica descrita acima, traçado lento em taco de hóquei a partir da borda lateral, e aplicar os quatro critérios de interpretação, em vez de julgar pelo movimento do dedo.
 
   **O segundo é o desvio em pronação**, com concordância de apenas 0,39 contra 0,73 do rolamento dos antebraços: o mesmo par de testes cuja razão de verossimilhança positiva também favorece o rolamento (15,6 contra 9,6). Aqui os dois critérios apontam para o mesmo lado, o que é raro e vale registrar: entre os testes especiais de lesão hemisférica, o **rolamento dos antebraços** é simultaneamente o mais informativo e o mais reprodutível.
 
@@ -859,12 +859,12 @@ titulo: Armadilhas do exame
 ::: conceito
 titulo: Seis erros no exame de força, tônus e reflexos
 texto: |
-  1. **Concluir por doença a partir de um reflexo isolado.** De 6% a 50% dos idosos sem doença neurológica não têm aquileu dos dois lados, mesmo com reforço, e há pessoas normais com hiper-reflexia generalizada (McGee). O reflexo alterado só conta em uma das quatro situações listadas neste tópico.
+  1. **Concluir por doença a partir de um reflexo isolado.** De 6% a 50% dos idosos sem doença neurológica não têm aquileu dos dois lados, mesmo com reforço, e há pessoas normais com hiper-reflexia generalizada. O reflexo alterado só conta em uma das quatro situações listadas neste tópico.
   2. **Registrar reflexo ausente sem manobra de reforço.** A própria escala do National Institute of Neurological Disorders and Stroke define o grau 0 como ausência **apesar** do reforço. Em idosos com aquileu ausente, o reforço fez o reflexo aparecer em 70% das vezes.
   3. **Testar quadril e joelho só contra a mão do examinador.** A musculatura antigravitária vence o médico e a fraqueza passa. Peça que o paciente se levante da cadeira sem usar as mãos.
   4. **Diagnosticar Babinski pela abertura dos dedos em leque.** O leque é fenômeno normal e não faz parte da resposta patológica: o próprio Babinski o disse. O que conta é a contração do extensor longo do hálux.
   5. **Afastar lesão do neurônio motor superior porque não há espasticidade.** Nas lesões agudas, a flacidez é a regra, e a espasticidade só aparece dias a semanas depois. Até 25% dos pacientes com fraqueza central não têm reflexos exagerados.
-  6. **Escrever "reflexos ++" sem dizer a escala.** Para Porto isso é reflexo vivo; para Semiologia Clínica é reflexo normal. Nomeie a escala ou escreva por extenso.
+  6. **Escrever "reflexos ++" sem dizer a escala.** Numa descrição isso é reflexo vivo; noutra é reflexo normal. Nomeie a escala ou escreva por extenso.
 :::
 
 ::: perola
@@ -906,7 +906,7 @@ perguntas:
       - "Paratonia oposicional, em que a resistência é proporcional e contrária ao movimento aplicado pelo examinador"
       - "Miotonia, definida pelo relaxamento lentificado após a contração voluntária do músculo"
     corretaIndex: 0
-    explicacao: "Os três atributos descritos são exatamente os que McGee usa para definir rigidez, e Porto os traduz dizendo que ela não é eletiva, porque acomete igualmente agonistas, sinergistas e antagonistas, e é plástica, porque a resistência permanece igual do começo ao fim do deslocamento passivo. A espasticidade tem o perfil oposto nos três pontos: depende da velocidade, predomina nos flexores dos membros superiores e nos extensores dos inferiores, e vem acompanhada de fraqueza. O fenômeno do canivete não é resistência mantida, e sim um aumento súbito do tônus perto do fim da extensão. A paratonia só aparece quando o membro encosta em alguma coisa, e sua força acompanha a do examinador."
+    explicacao: "Os três atributos descritos são exatamente os que definem a rigidez: ela não é eletiva, porque acomete igualmente agonistas, sinergistas e antagonistas, e é plástica, porque a resistência permanece igual do começo ao fim do deslocamento passivo. A espasticidade tem o perfil oposto nos três pontos: depende da velocidade, predomina nos flexores dos membros superiores e nos extensores dos inferiores, e vem acompanhada de fraqueza. O fenômeno do canivete não é resistência mantida, e sim um aumento súbito do tônus perto do fim da extensão. A paratonia só aparece quando o membro encosta em alguma coisa, e sua força acompanha a do examinador."
   - id: neu-mot-2
     enunciado: Um paciente de 78 anos, sem queixas neurológicas, tem reflexo aquileu ausente nos dois lados. Força, tônus, trofismo e reflexo cutâneo-plantar são normais. Qual a conduta de raciocínio correta?
     alternativas:
@@ -915,7 +915,7 @@ perguntas:
       - "Concluir por lesão medular ao nível de S1, porque a arreflexia sempre indica interrupção do arco reflexo naquele segmento"
       - "Solicitar avaliação neurológica urgente, pois reflexo ausente é sempre sinal de doença do neurônio motor inferior"
     corretaIndex: 1
-    explicacao: "McGee registra que de 6% a 50% das pessoas idosas sem doença neurológica não têm reflexo aquileu dos dois lados, mesmo com manobra de reforço, e que o reflexo alterado só é significativo em quatro situações: quando acompanha outros achados de neurônio motor inferior, quando acompanha achados de neurônio motor superior, quando é assimétrico, ou quando está desproporcionalmente vivo em relação a um reflexo de nível mais alto. Nenhuma delas está presente aqui. A manobra de Jendrassik é obrigatória antes de registrar ausência: em um estudo com idosos, ela fez o aquileu aparecer em 70% das vezes."
+    explicacao: "De 6% a 50% das pessoas idosas sem doença neurológica não têm reflexo aquileu dos dois lados, mesmo com manobra de reforço, e o reflexo alterado só é significativo em quatro situações: quando acompanha outros achados de neurônio motor inferior, quando acompanha achados de neurônio motor superior, quando é assimétrico, ou quando está desproporcionalmente vivo em relação a um reflexo de nível mais alto. Nenhuma delas está presente aqui. A manobra de Jendrassik é obrigatória antes de registrar ausência: em um estudo com idosos, ela fez o aquileu aparecer em 70% das vezes."
   - id: neu-mot-3
     enunciado: Um paciente queixa-se de fraqueza no braço direito, mas a força testada contra a resistência do examinador parece normal nos dois lados. Que recurso do exame pode revelar um déficit discreto que esse teste não mostra?
     alternativas:
@@ -924,7 +924,7 @@ perguntas:
       - "As provas deficitárias: braços estendidos com as palmas para cima, sustentados no tempo, o lado fraco prona ou cai primeiro"
       - "A inspeção do trofismo, porque a atrofia sempre precede a fraqueza, qualquer que seja o nível da lesão motora"
     corretaIndex: 2
-    explicacao: "Quando o déficit é discreto, a força testada contra a mão do examinador tem um teto: o paciente empurra por dois segundos e o déficit some. Porto e Semiologia Clínica descrevem então as provas deficitárias, que trocam a resistência do examinador pelo peso do próprio membro e pelo tempo: a prova dos braços estendidos (Mingazzini dos membros superiores) com as palmas para cima, em que o membro deficitário prona ou cai antes do outro, e, nos membros inferiores, as manobras de Mingazzini e de Barré. Atrofia e reflexos respondem a outra pergunta, o nível da lesão, não à existência do déficit discreto."
+    explicacao: "Quando o déficit é discreto, a força testada contra a mão do examinador tem um teto: o paciente empurra por dois segundos e o déficit some. Entram então as provas deficitárias, que trocam a resistência do examinador pelo peso do próprio membro e pelo tempo: a prova dos braços estendidos (Mingazzini dos membros superiores) com as palmas para cima, em que o membro deficitário prona ou cai antes do outro, e, nos membros inferiores, as manobras de Mingazzini e de Barré. Atrofia e reflexos respondem a outra pergunta, o nível da lesão, não à existência do déficit discreto."
   - id: neu-mot-4
     enunciado: Um paciente tem fraqueza da mão direita. Ao exame, há atrofia da musculatura intrínseca e fasciculações naquela mão, reflexos aquileus e patelares exaltados nos dois lados e sinal de Babinski bilateral. Onde está a lesão?
     alternativas:
@@ -933,7 +933,7 @@ perguntas:
       - "No plexo braquial direito, cuja lesão associa achados motores e sensitivos em todo o membro superior"
       - "Na medula espinal, único lugar onde os dois neurônios motores coabitam, e onde a lesão abole reflexos no seu nível e exalta os de abaixo"
     corretaIndex: 3
-    explicacao: "A combinação de achados de neurônio motor inferior, atrofia e fasciculações, com achados de neurônio motor superior, hiper-reflexia e sinal de Babinski, indica doença da medula espinal, o único ponto anatômico onde os dois segmentos residem, como registra McGee. A lesão produz fraqueza de tipo periférico no seu próprio nível e de tipo central em tudo o que fica abaixo. As causas comuns são a mielopatia e a esclerose lateral amiotrófica. Lesão de nervo periférico ou de plexo não produz Babinski nem hiper-reflexia; lesão hemisférica não produz atrofia nem fasciculações."
+    explicacao: "A combinação de achados de neurônio motor inferior, atrofia e fasciculações, com achados de neurônio motor superior, hiper-reflexia e sinal de Babinski, indica doença da medula espinal, o único ponto anatômico onde os dois segmentos residem. A lesão produz fraqueza de tipo periférico no seu próprio nível e de tipo central em tudo o que fica abaixo. As causas comuns são a mielopatia e a esclerose lateral amiotrófica. Lesão de nervo periférico ou de plexo não produz Babinski nem hiper-reflexia; lesão hemisférica não produz atrofia nem fasciculações."
   - id: neu-mot-5
     enunciado: Ao pesquisar o reflexo cutâneo-plantar de um paciente, você observa o hálux subir e os demais dedos se abrirem em leque. Que elemento confirma que se trata de resposta patológica?
     alternativas:
@@ -942,14 +942,14 @@ perguntas:
       - "A dorsiflexão simultânea do tornozelo, que confirma a participação da via piramidal e separa o movimento ativo do hálux do seu retorno passivo"
       - "A latência prolongada entre o estímulo e a resposta, que separa a resposta patológica da normal"
     corretaIndex: 0
-    explicacao: "McGee reúne quatro critérios para a resposta duvidosa: o hálux patológico sobe por contração do extensor longo do hálux, cujo tendão é visível sob a pele; em mais de 90% das vezes o pé é fraco ou tem dificuldade com movimentos finos; a resposta vem acompanhada de flexão de todo o membro, perceptível no tensor da fáscia lata e nos isquiotibiais; e é reprodutível. O leque é fenômeno normal e não faz parte da resposta patológica, como o próprio Babinski registrou. A dorsiflexão do tornozelo é justamente uma das armadilhas: ela pode fazer o dedo parecer subir sem contração do extensor."
+    explicacao: "Quatro critérios valem para a resposta duvidosa: o hálux patológico sobe por contração do extensor longo do hálux, cujo tendão é visível sob a pele; em mais de 90% das vezes o pé é fraco ou tem dificuldade com movimentos finos; a resposta vem acompanhada de flexão de todo o membro, perceptível no tensor da fáscia lata e nos isquiotibiais; e é reprodutível. O leque é fenômeno normal e não faz parte da resposta patológica, como o próprio Babinski registrou. A dorsiflexão do tornozelo é justamente uma das armadilhas: ela pode fazer o dedo parecer subir sem contração do extensor."
   - id: neu-mot-6
     enunciado: "Um estudante registra no prontuário a seguinte frase, força grau 4 nos quatro membros, reflexos ++ e simétricos. Que problema de comunicação esse registro cria?"
     alternativas:
       - "Nenhum, porque as escalas de força e de reflexos são padronizadas internacionalmente e têm significado único"
       - "Apenas na força, porque o grau 4 corresponde a força normal em algumas obras e a movimento contra resistência em outras"
       - "Nos dois: o grau 4 abriga quase toda a faixa de potência do músculo, e o símbolo ++ significa reflexo vivo para uma obra e reflexo normal para outra"
-      - "Apenas nos reflexos, porque a escala de força de 0 a 5 tem definições idênticas nas quatro obras e dispensa qualquer identificação da fonte no prontuário"
+      - "Apenas nos reflexos, porque a escala de força de 0 a 5 tem definições idênticas nas referências do guia e dispensa qualquer identificação da fonte no prontuário"
     corretaIndex: 2
-    explicacao: "São dois problemas distintos. Na força, as obras concordam nas definições, mas McGee mostra que o grau 4 é desproporcional: o bíceps usa apenas 2% de sua potência para vencer a gravidade, de modo que quase 98% da faixa restante cabe no grau 4, motivo pelo qual Porto, no Exame Clínico, o subdivide em 4 menos, 4 e 4 mais. Nos reflexos não há escala universal: Porto usa um sinal de mais para o reflexo normal e dois para o reflexo vivo, enquanto Semiologia Clínica usa dois sinais de mais para o normal e três para o vivo. O mesmo símbolo significa coisas diferentes, e a solução é nomear a escala ou escrever por extenso."
+    explicacao: "São dois problemas distintos. Na força, as referências concordam nas definições, mas o grau 4 é desproporcional: o bíceps usa apenas 2% de sua potência para vencer a gravidade, de modo que quase 98% da faixa restante cabe no grau 4, motivo pelo qual uma delas o subdivide em 4 menos, 4 e 4 mais. Nos reflexos não há escala universal: uma descrição usa um sinal de mais para o reflexo normal e dois para o reflexo vivo, enquanto outra usa dois sinais de mais para o normal e três para o vivo. O mesmo símbolo significa coisas diferentes, e a solução é nomear a escala ou escrever por extenso."
 :::

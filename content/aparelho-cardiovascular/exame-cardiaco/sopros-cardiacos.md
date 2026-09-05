@@ -377,7 +377,7 @@ linhas:
   - - "Oclusão arterial transitória"
     - "Insuflar manguitos de pressão nos dois braços acima da pressão sistólica do paciente; avaliar o sopro 20 segundos após a insuflação"
     - "Aumenta a pós-carga"
-    - "Sopro sistólico que aumenta sugere fortemente insuficiência mitral ou comunicação interventricular: é a versão mais poderosa da manobra de pós-carga, sem fármaco (McGee)"
+    - "Sopro sistólico que aumenta sugere fortemente insuficiência mitral ou comunicação interventricular: é a versão mais poderosa da manobra de pós-carga, sem fármaco"
   - - "Decúbito lateral esquerdo (Pachón)"
     - "Deitar sobre o lado esquerdo com a mão esquerda na cabeça"
     - "Aproxima a ponta da parede torácica"
@@ -398,7 +398,7 @@ texto: |
 
   **Retorno venoso.** Todas as quatro manobras identificam bem a cardiomiopatia hipertrófica, cujo sopro se comporta ao contrário da maioria: aumenta quando o retorno diminui e diminui quando o retorno aumenta. A explicação é mecânica: a obstrução fica abaixo da valva aórtica, entre o folheto anterior da mitral e o septo hipertrofiado; menos volume aproxima as duas estruturas e agrava a obstrução. O aumento com o esforço de Valsalva é o achado que mais eleva a probabilidade; a ausência da resposta característica nas outras três manobras é o que mais a reduz.
 
-  **Pós-carga.** Aumentar a resistência periférica faz o sangue preferir o caminho regurgitante: os sopros da insuficiência mitral e da comunicação interventricular ficam mais intensos com a prensão palmar sustentada (razão de verossimilhança 5,8) e, com muito mais força, com a **oclusão arterial transitória**, sopro sistólico que se intensifica 20 segundos após insuflar os manguitos nos dois braços acima da sistólica rende razão de verossimilhança **48,7**, com sensibilidade de 79% e especificidade de 98%, e a ausência de resposta reduz a probabilidade (0,2; McGee). É o maior número das manobras dinâmicas, obtido sem fármaco. Antes de recorrer à pós-carga, porém, já se deve ter afastado sopro direito com a respiração e cardiomiopatia hipertrófica com as manobras de retorno venoso.
+  **Pós-carga.** Aumentar a resistência periférica faz o sangue preferir o caminho regurgitante: os sopros da insuficiência mitral e da comunicação interventricular ficam mais intensos com a prensão palmar sustentada (razão de verossimilhança 5,8) e, com muito mais força, com a **oclusão arterial transitória**, sopro sistólico que se intensifica 20 segundos após insuflar os manguitos nos dois braços acima da sistólica rende razão de verossimilhança **48,7**, com sensibilidade de 79% e especificidade de 98%, e a ausência de resposta reduz a probabilidade. É o maior número das manobras dinâmicas, obtido sem fármaco. Antes de recorrer à pós-carga, porém, já se deve ter afastado sopro direito com a respiração e cardiomiopatia hipertrófica com as manobras de retorno venoso.
 :::
 
 ::: secao
@@ -427,7 +427,7 @@ nivel: avancado
 texto: |
   A distinção clássica dizia que sopros orgânicos decorrem de alterações estruturais e funcionais apenas do aumento de velocidade ou da queda de viscosidade. A clareza é aparente.
 
-  O problema é que velocidade e viscosidade também intensificam sopros originados em lesões anatômicas. A certeza de que um sopro é orgânico só aparece no extremo superior da escala: som forte (+++ a ++++ na escala de cruzes de Porto), agudo, espalhando-se por uma área ampla e com frêmito sob a mão. Só que uma valva gravemente doente costuma soar fraca, sem irradiação e sem frêmito, esse sopro não preencheria os critérios de "orgânico" e acabaria arquivado como funcional, que é justamente o erro que a classificação deveria evitar.
+  O problema é que velocidade e viscosidade também intensificam sopros originados em lesões anatômicas. A certeza de que um sopro é orgânico só aparece no extremo superior da escala: som forte (+++ a ++++ na escala de cruzes), agudo, espalhando-se por uma área ampla e com frêmito sob a mão. Só que uma valva gravemente doente costuma soar fraca, sem irradiação e sem frêmito, esse sopro não preencheria os critérios de "orgânico" e acabaria arquivado como funcional, que é justamente o erro que a classificação deveria evitar.
 
   Uma classificação que só funciona nos extremos tem pouco valor prático. O conceito que sobreviveu foi o de sopro inocente, porque ele obriga a uma conclusão diagnóstica, e não a uma rotulação acústica.
 :::

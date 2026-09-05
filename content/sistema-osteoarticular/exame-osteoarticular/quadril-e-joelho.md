@@ -87,11 +87,11 @@ titulo: Duas juntas grandes, dois problemas opostos
 texto: |
   O quadril e o joelho carregam o corpo inteiro e falham de maneiras diferentes, e a diferença começa na anatomia.
 
-  **O quadril é profundo, e por isso mente sobre onde dói.** McGee dá a explicação: a articulação coxofemoral fica funda na pelve, cercada de músculos volumosos que a separam do mundo exterior, e essa profundidade **impede que se formem sensações somáticas bem localizadas**. O resultado é que muitos pacientes com artrite do quadril **não sentem dor no quadril**: sentem na virilha, na coxa, no joelho, território dos nervos obturador e femoral, ou na nádega, território do isquiático. Um paciente que chega dizendo "dor no joelho" pode ter doença do quadril, e o exame precisa ser feito de modo a não cair nessa.
+  **O quadril é profundo, e por isso mente sobre onde dói.** A articulação coxofemoral fica funda na pelve, cercada de músculos volumosos que a separam do mundo exterior, e essa profundidade **impede que se formem sensações somáticas bem localizadas**. O resultado é que muitos pacientes com artrite do quadril **não sentem dor no quadril**: sentem na virilha, na coxa, no joelho, território dos nervos obturador e femoral, ou na nádega, território do isquiático. Um paciente que chega dizendo "dor no joelho" pode ter doença do quadril, e o exame precisa ser feito de modo a não cair nessa.
 
-  **O joelho é superficial, e por isso entrega quase tudo.** É a segunda queixa musculoesquelética mais comum, atrás apenas da dor lombar, e McGee registra que atinge até **13%** da população adulta. Suas estruturas se palpam uma a uma, seu derrame se vê, e seus ligamentos podem ser testados diretamente, cada um estressado na direção que ele normalmente resiste. É a articulação em que o exame físico tem os melhores números de todo este capítulo, e alguns dos melhores de todo o guia.
+  **O joelho é superficial, e por isso entrega quase tudo.** É a segunda queixa musculoesquelética mais comum, atrás apenas da dor lombar, e atinge até **13%** da população adulta. Suas estruturas se palpam uma a uma, seu derrame se vê, e seus ligamentos podem ser testados diretamente, cada um estressado na direção que ele normalmente resiste. É a articulação em que o exame físico tem os melhores números de todo este capítulo, e alguns dos melhores de todo o guia.
 
-  **A regra que abre o exame do quadril.** McGee dá o critério mais rentável da região: ao contrário das causas extra-articulares, a bursite trocantérica é o exemplo dele, a **doença do quadril compromete todo o repertório de movimentos**: flexão, extensão, abdução, adução e as duas rotações. Um quadril que perde uma direção só e conserva as outras provavelmente não é o quadril.
+  **A regra que abre o exame do quadril.** O critério mais rentável da região é este: ao contrário das causas extra-articulares, a bursite trocantérica é o exemplo dele, a **doença do quadril compromete todo o repertório de movimentos**: flexão, extensão, abdução, adução e as duas rotações. Um quadril que perde uma direção só e conserva as outras provavelmente não é o quadril.
 
   **O que este tópico não reensina.**
 
@@ -130,19 +130,19 @@ passos:
   - "Teste os quatro ligamentos: estresse em valgo e em varo, gaveta anterior, teste de Lachman e gaveta posterior, sempre comparando com o outro joelho."
   - "Aplique os testes meniscais dirigidos pela história de bloqueio ou instabilidade, e palpe o oco poplíteo."
 observar: |
-  **A inspeção do membro inferior começa em pé e sem toque.** Semiologia Clínica pede que se avaliem os dois membros como um todo: postura, assimetria, **inclinação da bacia**, discrepância de comprimento, desvios de eixo em varo, valgo, antecurvo e retrocurvo, deformidades, cicatrizes e alterações da pele. E acrescenta a regra que este capítulo repete desde o primeiro tópico: a **inspeção dinâmica começa pela marcha**.
+  **A inspeção do membro inferior começa em pé e sem toque.** Avaliam-se os dois membros como um todo: postura, assimetria, **inclinação da bacia**, discrepância de comprimento, desvios de eixo em varo, valgo, antecurvo e retrocurvo, deformidades, cicatrizes e alterações da pele. E acrescenta a regra que este capítulo repete desde o primeiro tópico: a **inspeção dinâmica começa pela marcha**.
 
-  **A inclinação da pelve é um sinal com três causas.** McGee registra que uma linha imaginária traçada entre as espinhas ilíacas anteriores que **não fica horizontal** implica escoliose, **dismetria anatômica** dos membros ou **doença do quadril**. Três diagnósticos muito diferentes com o mesmo achado: motivo pelo qual medir o comprimento dos membros, como Semiologia Clínica recomenda, vale o minuto que custa.
+  **A inclinação da pelve é um sinal com três causas.** Uma linha imaginária traçada entre as espinhas ilíacas anteriores que **não fica horizontal** implica escoliose, **dismetria anatômica** dos membros ou **doença do quadril**. Três diagnósticos muito diferentes com o mesmo achado: motivo pelo qual medir o comprimento dos membros vale o minuto que custa.
 
-  **A rotação interna do quadril merece linha própria no prontuário.** É o único achado do quadril, em todo este capítulo, com número forte, e, como esse número depende de um ponto de corte em graus, o adjetivo não serve. Meça-a e escreva o valor. Nenhuma das quatro obras adotadas afirma que ela seja o primeiro movimento a se perder na osteoartrite, e este guia não afirma por elas; o que as fontes sustentam é o desempenho do achado, não a sua precedência cronológica.
+  **A rotação interna do quadril merece linha própria no prontuário.** É o único achado do quadril, em todo este capítulo, com número forte, e, como esse número depende de um ponto de corte em graus, o adjetivo não serve. Meça-a e escreva o valor. Não há registro de que ela seja o primeiro movimento a se perder na osteoartrite, e este guia não afirma isso; o que se sustenta é o desempenho do achado, não a sua precedência cronológica.
 
-  **O joelho se examina duas vezes: com carga e sem.** Semiologia Clínica separa as duas etapas e diz o que cada uma entrega. **Com carga**, veem-se o alinhamento e seus desvios (o joelho varo, "para fora", e o valgo, "para dentro", que dá a impressão de um X) o trofismo e os sinais flogísticos. **Sem carga**, com o paciente deitado, veem-se a integridade da pele, equimoses e atrofias musculares, e só então se procura o derrame.
+  **O joelho se examina duas vezes: com carga e sem.** As duas etapas entregam achados diferentes. **Com carga**, veem-se o alinhamento e seus desvios (o joelho varo, "para fora", e o valgo, "para dentro", que dá a impressão de um X) o trofismo e os sinais flogísticos. **Sem carga**, com o paciente deitado, veem-se a integridade da pele, equimoses e atrofias musculares, e só então se procura o derrame.
 
-  **A comparação com o outro joelho não é conselho, é parte do método.** Semiologia Clínica dá a razão exata para os testes ligamentares: existe **grande variabilidade entre indivíduos na elasticidade do tecido conectivo**, e por isso todo teste precisa ser comparado com o lado contralateral. Um joelho frouxo em quem tem os dois frouxos é um joelho normal.
+  **A comparação com o outro joelho não é conselho, é parte do método.** A razão exata para os testes ligamentares é esta: existe **grande variabilidade entre indivíduos na elasticidade do tecido conectivo**, e por isso todo teste precisa ser comparado com o lado contralateral. Um joelho frouxo em quem tem os dois frouxos é um joelho normal.
 
-  **A hiperextensão tem limite tabelado.** Ainda em Semiologia Clínica: hiperextensão **até 10 graus** é aceitável e recebe o nome de **joelho recurvado**. Acima disso, é achado.
+  **A hiperextensão tem limite tabelado.** Hiperextensão **até 10 graus** é aceitável e recebe o nome de **joelho recurvado**. Acima disso, é achado.
 
-  **A palpação do joelho é topográfica, e o nome do ponto é o diagnóstico.** A Tabela 7 de Semiologia Clínica organiza os alvos: os tendões do quadríceps, o patelar, o do gastrocnêmio e os da pata de ganso; a patela, a cabeça da fíbula, os epicôndilos medial e lateral, a tíbia proximal e a sua tuberosidade anterior; e a artéria poplítea. Dor **sobre a patela** e dor **na cabeça da fíbula** são dois pontos que voltarão, com números, na regra de Ottawa.
+  **A palpação do joelho é topográfica, e o nome do ponto é o diagnóstico.** A palpação organiza os alvos: os tendões do quadríceps, o patelar, o do gastrocnêmio e os da pata de ganso; a patela, a cabeça da fíbula, os epicôndilos medial e lateral, a tíbia proximal e a sua tuberosidade anterior; e a artéria poplítea. Dor **sobre a patela** e dor **na cabeça da fíbula** são dois pontos que voltarão, com números, na regra de Ottawa.
 :::
 
 ::: checklist
@@ -197,7 +197,7 @@ svg: |
       <text x="10" y="196">A linha tracejada é a maca; a força aplicada é a mesma nos dois.</text>
     </g>
   </svg>
-legenda: "Os dois testes do cruzado anterior aplicam a mesma força, puxar a tíbia para a frente, e diferem apenas no ângulo em que o joelho é mantido. McGee dá três razões pelas quais Lachman, a 20 graus, é mais sensível que a gaveta a 90 graus: a hemartrose da lesão aguda impede a flexão necessária à gaveta; os isquiotibiais contraídos pela dor se opõem diretamente à translação anterior a 90 graus, mas não a 20; e a borda posterior espessa do menisco medial funciona como calço contra a translação com o joelho a 90 graus. Os números do boxe EBM 57.6 seguem a mesma direção, e a diferença maior está no lado negativo: só a ausência do sinal de Lachman reduz de forma significativa a probabilidade de lesão."
+legenda: "Os dois testes do cruzado anterior aplicam a mesma força, puxar a tíbia para a frente, e diferem apenas no ângulo em que o joelho é mantido. Há três razões pelas quais Lachman, a 20 graus, é mais sensível que a gaveta a 90 graus: a hemartrose da lesão aguda impede a flexão necessária à gaveta; os isquiotibiais contraídos pela dor se opõem diretamente à translação anterior a 90 graus, mas não a 20; e a borda posterior espessa do menisco medial funciona como calço contra a translação com o joelho a 90 graus. Os números compilados seguem a mesma direção, e a diferença maior está no lado negativo: só a ausência do sinal de Lachman reduz de forma significativa a probabilidade de lesão."
 :::
 
 ::: secao
@@ -207,16 +207,16 @@ titulo: O quadril
 ::: conceito
 titulo: Amplitudes, e a divergência que só aparece quando se compara
 texto: |
-  Semiologia Clínica define o que avaliar: **flexão, extensão, adução, abdução e rotações interna e externa**, ativa e passivamente, com o quadril fletido ou estendido. Os valores normais das obras não coincidem, e a divergência aqui é mais interessante do que nas outras juntas.
+  Avalia-se **flexão, extensão, adução, abdução e rotações interna e externa**, ativa e passivamente, com o quadril fletido ou estendido. Os valores normais descritos não coincidem, e a divergência aqui é mais interessante do que nas outras juntas.
 
-  - **Flexão**, Porto, no *Exame Clínico*: **0° a 120°**; na *Semiologia Médica*: **110° a 120°**. McGee: **120°**, com o joelho fletido. Concordam na prática.
-  - **Extensão**, McGee: **10° a 20°**. Porto tabula, em vez disso, a **hiperextensão em decúbito ventral**, de **30°**.
-  - **Abdução**, Porto, nas duas obras: **45°**. McGee: **40°**.
-  - **Adução**, Porto: **30°**. McGee: **25°**.
-  - **Rotações com o quadril fletido**, Porto: **45°** interna e **45°** externa. McGee: **40°** interna e **45°** externa. Praticamente iguais.
-  - **Rotações com o quadril estendido**, e aqui está a divergência real. **Porto, nas duas obras, dá 90° para as duas rotações em extensão**: isto é, o dobro do que dá em flexão. **McGee afirma o contrário**, em nota de rodapé da Tabela 57.1: os valores de rotação valem com quadril e joelho fletidos, e a amplitude é **menor** quando quadril e joelho estão estendidos.
+  - **Flexão**: uma descrição traz **0° a 120°**; outra, **110° a 120°**; e outra, **120°**, com o joelho fletido. Concordam na prática.
+  - **Extensão**: **10° a 20°** numa descrição. Outra tabula, em vez disso, a **hiperextensão em decúbito ventral**, de **30°**.
+  - **Abdução**: **45°** em duas descrições e **40°** em outra.
+  - **Adução**: **30°** numa descrição e **25°** em outra.
+  - **Rotações com o quadril fletido**: **45°** interna e **45°** externa numa descrição; **40°** interna e **45°** externa em outra. Praticamente iguais.
+  - **Rotações com o quadril estendido**, e aqui está a divergência real. **Duas descrições dão 90° para as duas rotações em extensão**: isto é, o dobro do que dão em flexão. **Outra afirma o contrário**, em nota: os valores de rotação valem com quadril e joelho fletidos, e a amplitude é **menor** quando quadril e joelho estão estendidos.
 
-  Não é uma diferença de arredondamento: é uma **contradição de sentido**. Uma obra diz que estender o quadril aumenta a rotação; a outra diz que a diminui. Este guia **não resolve a divergência** e registra as duas posições, com a consequência prática que dela decorre: **a posição em que a rotação foi medida precisa constar do registro**. "Rotação interna do quadril direito de 20 graus" é uma frase incompleta; "rotação interna passiva de 20 graus, com quadril e joelho fletidos a 90 graus" é conferível.
+  Não é uma diferença de arredondamento: é uma **contradição de sentido**. Uma descrição diz que estender o quadril aumenta a rotação; a outra diz que a diminui. Este guia **não resolve a divergência** e registra as duas posições, com a consequência prática que dela decorre: **a posição em que a rotação foi medida precisa constar do registro**. "Rotação interna do quadril direito de 20 graus" é uma frase incompleta; "rotação interna passiva de 20 graus, com quadril e joelho fletidos a 90 graus" é conferível.
 
   **E há uma razão a mais para essa exigência**, que o aprofundamento deste tópico desenvolve: o único número forte do quadril depende de um ponto de corte em graus.
 :::
@@ -226,18 +226,18 @@ titulo: O teste de Patrick a serviço do quadril
 texto: |
   Esta é a manobra que o tópico de coluna vertebral prometeu que reapareceria aqui, e ela merece a promessa: **é o mesmo gesto respondendo a duas perguntas diferentes**, e o que decide qual das duas foi respondida é **onde o paciente diz que doeu**.
 
-  **O gesto, em uma linha.** Com o paciente deitado, flete-se quadril e joelho a 90 graus e apoia-se o **tornozelo sobre o joelho do lado oposto**; em seguida a coxa é **abduzida e rodada para fora**, em direção à mesa de exame. O acrônimo que a obra registra descreve exatamente isso: **FABERE**, de flexão, abdução e rotação externa. A técnica completa, com a mão do examinador sobre a crista ilíaca e a outra pressionando o joelho contralateral em direção à maca, está no tópico de coluna vertebral, que a ensina a serviço da sacroilíaca; aqui interessa a leitura.
+  **O gesto, em uma linha.** Com o paciente deitado, flete-se quadril e joelho a 90 graus e apoia-se o **tornozelo sobre o joelho do lado oposto**; em seguida a coxa é **abduzida e rodada para fora**, em direção à mesa de exame. O acrônimo **FABERE**, de flexão, abdução e rotação externa, descreve exatamente isso. A técnica completa, com a mão do examinador sobre a crista ilíaca e a outra pressionando o joelho contralateral em direção à maca, está no tópico de coluna vertebral, que a ensina a serviço da sacroilíaca; aqui interessa a leitura.
 
-  **A leitura, que é topográfica e está na fonte com todas as letras.** Semiologia Clínica separa os dois resultados pelo lado em que a dor aparece:
+  **A leitura, que é topográfica e direta.** Os dois resultados se separam pelo lado em que a dor aparece:
 
   - dor na **região posterior e do lado contrário** ao joelho que foi movido sugere acometimento das **sacroilíacas**;
   - **dor ipsilateral à movimentação sugere doença coxofemoral**.
 
-  A mesma obra, no capítulo de lombalgia, diz o mesmo por outro eixo: o teste serve para diferenciar o comprometimento da articulação do quadril, com **dor anterior**, da sacroileíte, com **dor posterior**.
+  Sob outro eixo, o mesmo critério vale: o teste serve para diferenciar o comprometimento da articulação do quadril, com **dor anterior**, da sacroileíte, com **dor posterior**.
 
   **Por que isso importa neste tópico e não só no da coluna.** O primeiro bloco deste tópico já registrou que a coxofemoral é profunda demais para localizar a própria dor, e a projeta na virilha, na coxa e no joelho. Patrick é uma das poucas manobras que devolve a informação que o paciente não consegue dar: ele **provoca a junta** e pede que a dor se declare de um lado. Somado à rotação interna medida em graus, ele compõe o par que o exame do quadril entrega antes de qualquer imagem.
 
-  **E o limite, que é de reprodutibilidade.** Na Tabela 5.1 de McGee, o teste de Patrick tem concordância entre observadores de **0,47**, apenas moderada, e mais baixa que a da rotação interna passiva, que fica em 0,51. Nenhuma das quatro obras adotadas mede a **acurácia** do teste, nem para a sacroilíaca nem para o quadril: ele é ensinado aqui como técnica, com atribuição, e **sem razão de verossimilhança**. O que se registra é o gesto e o lado da dor, não o rótulo "Patrick positivo", que não diz qual das duas perguntas foi respondida.
+  **E o limite, que é de reprodutibilidade.** Na tabulação de concordância entre observadores, o teste de Patrick tem concordância entre observadores de **0,47**, apenas moderada, e mais baixa que a da rotação interna passiva, que fica em 0,51. Não há medida de **acurácia** do teste nas referências do guia, nem para a sacroilíaca nem para o quadril: ele é ensinado aqui como técnica, **sem razão de verossimilhança**. O que se registra é o gesto e o lado da dor, não o rótulo "Patrick positivo", que não diz qual das duas perguntas foi respondida.
 :::
 
 ::: conceito
@@ -245,11 +245,11 @@ titulo: "Trendelenburg: três coisas, um só nome"
 texto: |
   Este é o epônimo mais perigoso do guia, porque aparece em **três lugares diferentes**, com significados que não se comunicam, e porque nos três a palavra vem sozinha. E note que não são três manobras: a primeira é uma **marcha**, e só as outras duas são manobras. Um leitor que encontre "Trendelenburg" em um prontuário sem mais contexto **não sabe do que se está falando**. Este bloco existe para desarmar isso.
 
-  **1. Marcha de Trendelenburg**: ensinada no tópico de marcha e sinais meníngeos. É um **modo de andar**. Os glúteos médio e mínimo abduzem o quadril, ação que sustenta a hemipelve oposta durante o apoio em um pé só; quando eles falham, a pelve **do lado oposto cai demais** a cada passo. Quando o problema é bilateral, a pelve ginga dos dois lados: a marcha comparada à do pato. McGee a separa da **marcha coxálgica**, da dor no quadril: nas duas o tronco pode inclinar-se sobre a perna doente, mas na coxálgica a inclinação é muito mais dramática e a pelve oposta **não** cai em excesso.
+  **1. Marcha de Trendelenburg**: ensinada no tópico de marcha e sinais meníngeos. É um **modo de andar**. Os glúteos médio e mínimo abduzem o quadril, ação que sustenta a hemipelve oposta durante o apoio em um pé só; quando eles falham, a pelve **do lado oposto cai demais** a cada passo. Quando o problema é bilateral, a pelve ginga dos dois lados: a marcha comparada à do pato. Ela se distingue da **marcha coxálgica**, da dor no quadril: nas duas o tronco pode inclinar-se sobre a perna doente, mas na coxálgica a inclinação é muito mais dramática e a pelve oposta **não** cai em excesso.
 
   **2. Manobra de Brodie-Trendelenburg**: ensinada no tópico de doença venosa crônica e trombose, em bloco avançado. **Não tem nada a ver com o quadril.** É uma prova venosa: eleva-se o membro para esvaziar as varizes, aplica-se um garrote e observa-se o enchimento, à procura de refluxo pela válvula ostial da safena interna ou pelas perfurantes. Naquele tópico ela aparece com o desempenho medido, e o desempenho é ruim: sensibilidade 0,91 contra especificidade 0,15, um teste que quase não consegue ser negativo. Mesmo sobrenome, outro aparelho.
 
-  **3. Manobra, ou sinal, de Trendelenburg do quadril**: é a que interessa a este tópico. É a **versão estática** da primeira: em vez de observar o paciente andando, pede-se que ele **fique de pé sobre uma perna, com o outro quadril fletido a 90 graus**. Com abdutores competentes, a nádega do lado que está no ar **sobe**; com abdutores fracos, ela **cai**. McGee registra a origem: Friedrich Trendelenburg a inventou em **1895**, antes da radiologia, para provar que a marcha gingada da luxação congênita do quadril vinha de falha dos abdutores, e não do deslocamento do fêmur durante o apoio, como se acreditava.
+  **3. Manobra, ou sinal, de Trendelenburg do quadril**: é a que interessa a este tópico. É a **versão estática** da primeira: em vez de observar o paciente andando, pede-se que ele **fique de pé sobre uma perna, com o outro quadril fletido a 90 graus**. Com abdutores competentes, a nádega do lado que está no ar **sobe**; com abdutores fracos, ela **cai**. A origem: Friedrich Trendelenburg a inventou em **1895**, antes da radiologia, para provar que a marcha gingada da luxação congênita do quadril vinha de falha dos abdutores, e não do deslocamento do fêmur durante o apoio, como se acreditava.
 
   **A armadilha de execução, e ela é a fonte de erro mais comum:** **o lado testado é o que suporta o peso**, não o que está suspenso. Quem lê a queda da nádega como sinal do lado que caiu inverte o diagnóstico. E há um falso-positivo a conhecer: deformidades importantes do membro, como um **genu varum grave**, podem produzir queda sem que os abdutores estejam fracos.
 
@@ -261,7 +261,7 @@ texto: |
 ::: sinal
 nome: Manobra de Trendelenburg do quadril
 descricao: "O paciente fica de pé sobre uma perna, com o quadril contralateral fletido a 90 graus; o examinador pode apoiar o braço do mesmo lado para ajudar no equilíbrio e alinhar o ombro sobre o quadril testado. Observa-se a nádega do lado suspenso: se ela sobe, os abdutores do lado que sustenta o peso estão competentes; se ela cai, até que fêmur e pelve do lado apoiado entrem em contato, estão fracos. **O lado testado é sempre o que suporta o peso.**"
-significado: "Interroga a função dos **glúteos médio e mínimo do lado apoiado**. Suas causas, segundo McGee, são fraqueza neuromuscular dos abdutores e doença do próprio quadril; historicamente a poliomielite e a atrofia muscular progressiva, e hoje sobretudo a complicação da artroplastia de quadril por via lateral, que arrisca o nervo glúteo superior ou o próprio músculo, além da luxação congênita e da coxa vara. E há um uso diagnóstico com número: em pacientes rotulados como portadores de bursite trocantérica, dor lateral no quadril com dor máxima sobre o trocanter maior, a presença simultânea do sinal e da marcha de Trendelenburg do lado sintomático detectou rotura do tendão do glúteo médio à ressonância com sensibilidade de 73%, especificidade de 77% e razão de verossimilhança 3,2; a ausência não alcançou significância. O sinal superou o teste direto de força dos abdutores, cujas razões de verossimilhança não alcançaram significância."
+significado: "Interroga a função dos **glúteos médio e mínimo do lado apoiado**. Suas causas, são fraqueza neuromuscular dos abdutores e doença do próprio quadril; historicamente a poliomielite e a atrofia muscular progressiva, e hoje sobretudo a complicação da artroplastia de quadril por via lateral, que arrisca o nervo glúteo superior ou o próprio músculo, além da luxação congênita e da coxa vara. E há um uso diagnóstico com número: em pacientes rotulados como portadores de bursite trocantérica, dor lateral no quadril com dor máxima sobre o trocanter maior, a presença simultânea do sinal e da marcha de Trendelenburg do lado sintomático detectou rotura do tendão do glúteo médio à ressonância com sensibilidade de 73%, especificidade de 77% e razão de verossimilhança 3,2; a ausência não alcançou significância. O sinal superou o teste direto de força dos abdutores, cujas razões de verossimilhança não alcançaram significância."
 causas:
   - "Fraqueza dos abdutores do quadril de origem neuromuscular"
   - "Doença da própria articulação coxofemoral"
@@ -276,20 +276,20 @@ titulo: A bursite trocantérica que talvez não seja bursite
 texto: |
   Este é um dos blocos mais instrutivos do capítulo, porque nele o exame físico **corrige um rótulo consagrado**.
 
-  **O rótulo.** Porto descreve a **bursite trocanteriana** com precisão: tumefação localizada e dor no grande trocanter, agravada pela **abdução contra resistência** e pela **rotação do quadril**, com dor na face lateral do terço proximal da coxa que pode irradiar até perto do joelho. E acrescenta a ressalva que já antecipa o problema: a **tendinite do glúteo** pode ser tomada por ela, e o que separa as duas é a topografia, a dor da tendinite é mais posterior. Semiologia Clínica confirma o quadro e acrescenta o traço que traz o paciente: a dor **piora à noite** e atrapalha o sono, sobretudo quando ele se deita sobre o lado doente. McGee a coloca na Tabela 57.2 como o diagnóstico implicado pela dor à palpação localizada sobre o trocanter maior.
+  **O rótulo.** A **bursite trocanteriana** se descreve com precisão: tumefação localizada e dor no grande trocanter, agravada pela **abdução contra resistência** e pela **rotação do quadril**, com dor na face lateral do terço proximal da coxa que pode irradiar até perto do joelho. Uma ressalva já antecipa o problema: a **tendinite do glúteo** pode ser tomada por ela, e o que separa as duas é a topografia, a dor da tendinite é mais posterior. O quadro se confirma com o traço que traz o paciente: a dor **piora à noite** e atrapalha o sono, sobretudo quando ele se deita sobre o lado doente. A dor à palpação localizada sobre o trocanter maior implica esse diagnóstico.
 
-  **A correção.** McGee reproduz um estudo feito exatamente em pacientes com esse rótulo: dor lateral do quadril e dor máxima à palpação do trocanter maior. Nesses pacientes, a presença **simultânea** do sinal e da marcha de Trendelenburg do lado sintomático detectou, à ressonância, uma **rotura do tendão do glúteo médio**: sensibilidade **73%**, especificidade **77%**, razão de verossimilhança **3,2**. A ausência não alcançou significância. E há o detalhe que torna o achado clinicamente útil: **o sinal foi superior ao teste direto de força dos abdutores**, resistir à abdução ativa ou à rotação interna, cujas razões de verossimilhança **não alcançaram significância**.
+  **A correção.** Um estudo feito exatamente em pacientes com esse rótulo, dor lateral do quadril e dor máxima à palpação do trocanter maior, mostra que, nesses pacientes, a presença **simultânea** do sinal e da marcha de Trendelenburg do lado sintomático detectou, à ressonância, uma **rotura do tendão do glúteo médio**: sensibilidade **73%**, especificidade **77%**, razão de verossimilhança **3,2**. A ausência não alcançou significância. E há o detalhe que torna o achado clinicamente útil: **o sinal foi superior ao teste direto de força dos abdutores**, resistir à abdução ativa ou à rotação interna, cujas razões de verossimilhança **não alcançaram significância**.
 
   **Por que o sinal ganha do teste de força.** As duas provas interrogam o mesmo músculo, mas em condições diferentes. O teste manual mede força contra a mão do examinador, deitado, com o músculo em vantagem mecânica e com a dor interferindo. A manobra de Trendelenburg mede o músculo **fazendo o que ele existe para fazer**: sustentar metade do peso do corpo sobre uma perna só. É a diferença entre perguntar se o músculo consegue empurrar e perguntar se ele consegue trabalhar.
 
-  **A analogia que McGee faz, e que fecha o capítulo por dentro.** Ele compara essa descoberta à realização histórica de que muitos pacientes rotulados como portadores de **bursite subacromial**, no ombro, tinham na verdade doença dos **tendões do manguito rotador**. É a mesma história contada duas vezes: uma bursa recebe a culpa por um tendão vizinho, e o exame físico é quem desfaz o engano. O tópico de ombro e cotovelo conta a primeira metade.
+  **Uma analogia fecha o capítulo por dentro.** Essa descoberta se compara à realização histórica de que muitos pacientes rotulados como portadores de **bursite subacromial**, no ombro, tinham na verdade doença dos **tendões do manguito rotador**. É a mesma história contada duas vezes: uma bursa recebe a culpa por um tendão vizinho, e o exame físico é quem desfaz o engano. O tópico de ombro e cotovelo conta a primeira metade.
 
-  **As outras bursas do quadril, para completar o diferencial.** Porto e McGee coincidem na topografia, e cada ponto tem endereço próprio:
+  **As outras bursas do quadril, para completar o diferencial.** Cada ponto tem endereço próprio:
 
   - **Bursite iliopectínea**, ou do iliopsoas: tumefação e dor sobre o **terço médio** do ligamento inguinal, por fora do ponto em que se palpa o pulso femoral; **estender** o quadril piora e **fletir** alivia.
-  - **Bursite isquiática ou isquioglútea**: dor e às vezes tumefação sobre a **tuberosidade isquiática**. Porto dá o apelido e a origem: **nádega de tecelão**, por permanência prolongada sentado em superfície dura.
+  - **Bursite isquiática ou isquioglútea**: dor e às vezes tumefação sobre a **tuberosidade isquiática**. O apelido e a origem: **nádega de tecelão**, por permanência prolongada sentado em superfície dura.
 
-  **E os três diagnósticos de dor no quadril que não são da junta nem da bursa**, todos de Semiologia Clínica: a **síndrome do piriforme**, com compressão do isquiático sob o músculo em contratura e piora à abdução e rotação medial; a **disfunção do trato iliotibial**, com dor na região distal da coxa à deambulação; e a **meralgia parestésica**, dor e parestesia na face anterolateral da coxa por compressão do nervo cutâneo femoral lateral junto à espinha ilíaca anterossuperior, cintos apertados são a causa que ela cita.
+  **E os três diagnósticos de dor no quadril que não são da junta nem da bursa:** a **síndrome do piriforme**, com compressão do isquiático sob o músculo em contratura e piora à abdução e rotação medial; a **disfunção do trato iliotibial**, com dor na região distal da coxa à deambulação; e a **meralgia parestésica**, dor e parestesia na face anterolateral da coxa por compressão do nervo cutâneo femoral lateral junto à espinha ilíaca anterossuperior, cintos apertados são a causa que ela cita.
 :::
 
 ::: pense
@@ -306,24 +306,24 @@ titulo: O joelho
 ::: conceito
 titulo: Derrame, alinhamento e os pontos que doem
 texto: |
-  **O derrame.** Semiologia Clínica ensina a manobra e delimita o seu campo com honestidade: diante de um derrame **volumoso**, aparece o **sinal da tecla**, com a perna estendida, empurra-se a patela para dentro do sulco troclear e solta-se; havendo derrame, a patela **retorna à posição original**. Porto não descreve essa manobra no exame do joelho, mas oferece o princípio geral de que ela é um caso particular: a **pesquisa de flutuação**, em que o indicador de uma das mãos recebe o impulso transmitido pelas compressões da outra através do líquido.
+  **O derrame.** A manobra se delimita com honestidade: diante de um derrame **volumoso**, aparece o **sinal da tecla**, com a perna estendida, empurra-se a patela para dentro do sulco troclear e solta-se; havendo derrame, a patela **retorna à posição original**. O princípio geral por trás dela é a **pesquisa de flutuação**, em que o indicador de uma das mãos recebe o impulso transmitido pelas compressões da outra através do líquido.
 
-  **Uma declaração necessária.** Muitos textos separam duas manobras de derrame: uma para o derrame volumoso, outra para o pequeno, com o líquido ordenhado do recesso suprapatelar. **Nenhuma das quatro obras adotadas por este guia descreve a segunda**, e por isso ela não é ensinada aqui. O que se ensina é o sinal da tecla, com a ressalva da própria fonte de que ele serve aos derrames volumosos.
+  **Uma declaração necessária.** Muitos textos separam duas manobras de derrame: uma para o derrame volumoso, outra para o pequeno, com o líquido ordenhado do recesso suprapatelar. **Não há descrição da segunda nas referências do guia**, e por isso ela não é ensinada aqui. O que se ensina é o sinal da tecla, com a ressalva de que ele serve aos derrames volumosos.
 
-  **O derrame tem número, mas para outra pergunta.** No boxe EBM 57.5, o **derrame articular** em pacientes com trauma de joelho rende razão de verossimilhança **2,5** para fratura clinicamente significativa, e **0,5** quando ausente. É um número modesto, e diz respeito ao osso, não à sinovial. E a concordância entre observadores para **derrame visível** fica entre **0,28 e 0,59**: está entre as mais baixas do joelho na Tabela 5.1, ao lado da dor na interlinha, do sinal de McMurray, da instabilidade mediolateral e da crepitação patelofemoral. Derrame é mais difícil de ver do que se supõe.
+  **O derrame tem número, mas para outra pergunta.** Nos números compilados, o **derrame articular** em pacientes com trauma de joelho rende razão de verossimilhança **2,5** para fratura clinicamente significativa, e **0,5** quando ausente. É um número modesto, e diz respeito ao osso, não à sinovial. E a concordância entre observadores para **derrame visível** fica entre **0,28 e 0,59**: está entre as mais baixas do joelho na tabulação de concordância entre observadores, ao lado da dor na interlinha, do sinal de McMurray, da instabilidade mediolateral e da crepitação patelofemoral. Derrame é mais difícil de ver do que se supõe.
 
-  **O alinhamento.** Porto descreve os dois desvios pela forma que eles desenham: no **joelho varo** (*genu varum*), fêmures e tíbias se arqueiam e os joelhos se afastam, lembrando a letra **O**; no **joelho valgo** (*genu valgum*), eles se aproximam de maneira anormal e a silhueta lembra a letra **X**. Semiologia Clínica usa as mesmas imagens. As causas que Porto lista: o varo é quase sempre congênito, mais raramente por raquitismo, acondroplasia ou doença de Paget; o valgo pode ser congênito ou consequência de raquitismo. **E o varo tem número**, no boxe EBM 57.4: razão de verossimilhança **3,4** para osteoartrite do joelho, enquanto o **valgo não alcança significância**, ocorrendo com a mesma frequência em quem tem e em quem não tem a doença.
+  **O alinhamento.** Os dois desvios se descrevem pela forma que desenham: no **joelho varo** (*genu varum*), fêmures e tíbias se arqueiam e os joelhos se afastam, lembrando a letra **O**; no **joelho valgo** (*genu valgum*), eles se aproximam de maneira anormal e a silhueta lembra a letra **X**. As causas: o varo é quase sempre congênito, mais raramente por raquitismo, acondroplasia ou doença de Paget; o valgo pode ser congênito ou consequência de raquitismo. **E o varo tem número**, nos achados compilados: razão de verossimilhança **3,4** para osteoartrite do joelho, enquanto o **valgo não alcança significância**, ocorrendo com a mesma frequência em quem tem e em quem não tem a doença.
 
-  **Os pontos que doem, e o que cada um implica.** Reunindo Porto, Semiologia Clínica e a Tabela 57.2 de McGee:
+  **Os pontos que doem, e o que cada um implica.** Reunindo os achados:
 
-  - **Sobre a patela**, com tumefação localizada: **bursite pré-patelar**. Porto registra que é ocupacional, de quem se ajoelha; Semiologia Clínica menciona também a infrapatelar.
-  - **Na face medial da tíbia proximal**, na inserção comum de sartório, grácil e semitendíneo: **bursite anserina**, ou da pata de ganso. Porto dá o sintoma que a identifica: **descer ou subir escadas fica extremamente difícil**.
-  - **Sobre a tuberosidade anterior da tíbia**, em menino de 10 a 14 anos, com edema doloroso da proeminência e piora com saltos: **doença de Osgood-Schlatter**, apofisite de tração da tuberosidade tibial (Semiologia Clínica).
+  - **Sobre a patela**, com tumefação localizada: **bursite pré-patelar**. É ocupacional, de quem se ajoelha; a infrapatelar também ocorre.
+  - **Na face medial da tíbia proximal**, na inserção comum de sartório, grácil e semitendíneo: **bursite anserina**, ou da pata de ganso. O sintoma que a identifica: **descer ou subir escadas fica extremamente difícil**.
+  - **Sobre a tuberosidade anterior da tíbia**, em menino de 10 a 14 anos, com edema doloroso da proeminência e piora com saltos: **doença de Osgood-Schlatter**, apofisite de tração da tuberosidade tibial.
   - **Na interlinha articular**, medial ou lateral: sugere lesão meniscal, sobretudo nas rupturas anteriores; mas o número desse achado é fraco, e o bloco dos meniscos explica por quê.
-  - **No oco poplíteo**, com aumento de volume generalizado: **cisto de Baker**, que a Tabela 57.2 define como a **bursa semimembranosa** aumentada, comunicante com a articulação do joelho: no capítulo venoso, ao tratá-lo como imitador da trombose, o mesmo autor a chama de bursa gastrocnêmio-semimembranosa. Semiologia Clínica o registra entre os achados da artrite reumatoide e alerta para os sintomas compressivos e para a rotura, cujo diferencial é a trombose venosa profunda. **O tópico de doença venosa crônica e trombose ensina esse diferencial**, com a equimose em crescente perto dos maléolos que denuncia a rotura, e não é repetido aqui.
-  - **Apreensão ao deslocar a patela lateralmente**, McGee: **luxação recorrente da patela**.
+  - **No oco poplíteo**, com aumento de volume generalizado: **cisto de Baker**, definido como a **bursa semimembranosa** aumentada, comunicante com a articulação do joelho: no capítulo venoso, ao tratá-lo como imitador da trombose, ele também é chamado de bursa gastrocnêmio-semimembranosa. Registra-se entre os achados da artrite reumatoide, com alerta para os sintomas compressivos e para a rotura, cujo diferencial é a trombose venosa profunda. **O tópico de doença venosa crônica e trombose ensina esse diferencial**, com a equimose em crescente perto dos maléolos que denuncia a rotura, e não é repetido aqui.
+  - **Apreensão ao deslocar a patela lateralmente**: sugere **luxação recorrente da patela**.
 
-  **E as amplitudes, que também divergem.** O guia adota a flexão normal de **130°**, o valor de McGee. Porto, no *Exame Clínico*, traz **0° a 120°** (extensão **0° ou 180°**); na *Semiologia Médica*, o mesmo autor imprime **30°**: valor incompatível com a própria obra irmã, registrado aqui como provável erro tipográfico da fonte. Semiologia Clínica não tabula graus e oferece o limite da hiperextensão, **10 graus**. Duas cifras de flexão vão reaparecer com significado próprio: **120 graus** e **90 graus**.
+  **E as amplitudes, que também divergem.** O guia adota a flexão normal de **130°**. Uma descrição traz **0° a 120°** (extensão **0° ou 180°**); duas passagens da mesma obra divergem entre si, e a outra imprime **30°**: valor incompatível com a primeira, registrado aqui como provável erro tipográfico da fonte. Outra descrição não tabula graus e oferece o limite da hiperextensão, **10 graus**. Duas cifras de flexão vão reaparecer com significado próprio: **120 graus** e **90 graus**.
 :::
 
 ::: sinal
@@ -339,21 +339,21 @@ causas:
 ::: conceito
 titulo: Os quatro ligamentos, e o gesto que cada um exige
 texto: |
-  McGee dá a lógica que organiza tudo: a estabilidade do joelho depende da cápsula e de **dois pares de ligamentos**, os colaterais medial e lateral, e os cruzados anterior e posterior. O examinador testa cada um **estressando o joelho na direção que o ligamento íntegro normalmente resiste**.
+  A lógica que organiza tudo: a estabilidade do joelho depende da cápsula e de **dois pares de ligamentos**, os colaterais medial e lateral, e os cruzados anterior e posterior. O examinador testa cada um **estressando o joelho na direção que o ligamento íntegro normalmente resiste**.
 
-  **E dá o critério de leitura, que é o que separa um exame treinado de um exame ansioso.** Se não houver movimento durante o estresse, **ou** se houver movimento pequeno que **termina de modo abrupto**, com um **ponto final firme**, o ligamento está íntegro. Se houver frouxidão excessiva, **ou** um ponto final **mole**, o ligamento está lesado. **Não é a distância que decide: é como o movimento termina.**
+  **O critério de leitura é o que separa um exame treinado de um exame ansioso.** Se não houver movimento durante o estresse, **ou** se houver movimento pequeno que **termina de modo abrupto**, com um **ponto final firme**, o ligamento está íntegro. Se houver frouxidão excessiva, **ou** um ponto final **mole**, o ligamento está lesado. **Não é a distância que decide: é como o movimento termina.**
 
   **Colaterais.** Aplica-se estresse em **varo** ou em **valgo**, comparando com o lado contralateral, e o teste se faz **com o joelho estendido e a 20 graus de flexão**. Movimento excessivo ao estresse em **valgo** indica lesão do **colateral medial**; ao estresse em **varo**, do **colateral lateral**. A história ajuda: trauma sobre a **face externa** do joelho lesa o **medial**; trauma sobre a **face interna** lesa o **lateral**.
 
   **Cruzado anterior.** Ele impede a subluxação anterior da tíbia sobre o fêmur, e tem três testes.
 
-  - **Gaveta anterior**, Semiologia Clínica: paciente deitado, **joelho a 90 graus**; com as duas mãos envolvendo a tíbia logo abaixo da interlinha, traciona-se para a frente. McGee acrescenta o detalhe que estabiliza o teste: o examinador **senta sobre o pé do paciente** e traciona a panturrilha alta para a frente. Positivo quando há subluxação anterior anormal com **ponto final mole**.
-  - **Teste de Lachman**: o mesmo gesto com o **joelho a 20 graus** e o quadril estendido; uma das mãos segura a coxa distal e a outra a panturrilha proximal. Semiologia Clínica registra que tem **alto valor preditivo positivo** para a rotura do cruzado anterior.
-  - **Pivot shift**: a manobra que reproduz o sintoma. McGee define o fenômeno: em joelhos sem cruzado anterior, a tíbia subluxa anteriormente entre **0 e 30 graus** de flexão e **volta bruscamente** ao passar de 40 a 50 graus. Semiologia Clínica descreve a execução (rotação interna da perna, estresse em valgo, carga axial e flexão progressiva) e registra o **estalo palpável por volta de 30 graus**. O paciente com lesão do cruzado anterior conhece o fenômeno por conta própria: é a sensação de **falseio** quando planta o pé com o joelho estendido à frente.
+  - **Gaveta anterior**: paciente deitado, **joelho a 90 graus**; com as duas mãos envolvendo a tíbia logo abaixo da interlinha, traciona-se para a frente. Um detalhe estabiliza o teste: o examinador **senta sobre o pé do paciente** e traciona a panturrilha alta para a frente. Positivo quando há subluxação anterior anormal com **ponto final mole**.
+  - **Teste de Lachman**: o mesmo gesto com o **joelho a 20 graus** e o quadril estendido; uma das mãos segura a coxa distal e a outra a panturrilha proximal. Tem **alto valor preditivo positivo** para a rotura do cruzado anterior.
+  - **Pivot shift**: a manobra que reproduz o sintoma. O fenômeno: em joelhos sem cruzado anterior, a tíbia subluxa anteriormente entre **0 e 30 graus** de flexão e **volta bruscamente** ao passar de 40 a 50 graus. A execução (rotação interna da perna, estresse em valgo, carga axial e flexão progressiva) registra o **estalo palpável por volta de 30 graus**. O paciente com lesão do cruzado anterior conhece o fenômeno por conta própria: é a sensação de **falseio** quando planta o pé com o joelho estendido à frente.
 
-  **Cruzado posterior.** McGee registra que é a **estrutura interna do joelho menos sujeita a lesão**, e que o mecanismo característico é a **desaceleração do joelho fletido contra superfície dura**: o joelho batendo no painel do carro. O teste convencional é a **gaveta posterior**: mesma posição da gaveta anterior, empurrando a panturrilha alta para **trás**.
+  **Cruzado posterior.** É a **estrutura interna do joelho menos sujeita a lesão**, e o mecanismo característico é a **desaceleração do joelho fletido contra superfície dura**: o joelho batendo no painel do carro. O teste convencional é a **gaveta posterior**: mesma posição da gaveta anterior, empurrando a panturrilha alta para **trás**.
 
-  **Duas notas de mecanismo que valem o parágrafo.** McGee associa a torção do joelho com o pé plantado à lesão do **cruzado anterior**, e observa que o mecanismo da lesão **meniscal é o mesmo**. O que separa os dois na história é o **tempo do inchaço**: a lesão do cruzado anterior produz tumefação **imediata**, e a meniscal produz tumefação que só aparece **após algumas horas**, porque os meniscos são relativamente avasculares. É uma pergunta de anamnese que vale por uma manobra.
+  **Duas notas de mecanismo que valem o parágrafo.** A torção do joelho com o pé plantado se associa à lesão do **cruzado anterior**, e o mecanismo da lesão **meniscal é o mesmo**. O que separa os dois na história é o **tempo do inchaço**: a lesão do cruzado anterior produz tumefação **imediata**, e a meniscal produz tumefação que só aparece **após algumas horas**, porque os meniscos são relativamente avasculares. É uma pergunta de anamnese que vale por uma manobra.
 :::
 
 ::: sinal
@@ -371,7 +371,7 @@ nome: Teste da gaveta posterior
 descricao: |
   A mesma posição da gaveta anterior, joelho a 90 graus, mas **empurrando a panturrilha alta para trás**. Positivo quando a tíbia **desliza posteriormente** de modo anormal, sempre em comparação com o outro joelho.
 significado: |
-  Interroga o **cruzado posterior**, a estrutura interna do joelho **menos sujeita a lesão**, cujo mecanismo característico é a desaceleração do joelho fletido contra superfície dura: **o joelho batendo no painel do carro**. Nos estudos reunidos por McGee, é o teste de melhor desempenho do capítulo, **confirmando quando presente e afastando quando ausente**, o que é raríssimo em um mesmo achado.
+  Interroga o **cruzado posterior**, a estrutura interna do joelho **menos sujeita a lesão**, cujo mecanismo característico é a desaceleração do joelho fletido contra superfície dura: **o joelho batendo no painel do carro**. Nos estudos compilados, é o teste de melhor desempenho do capítulo, **confirmando quando presente e afastando quando ausente**, o que é raríssimo em um mesmo achado.
 causas:
   - "Rotura do ligamento cruzado posterior"
 :::
@@ -399,13 +399,13 @@ causas:
 ::: conceito
 titulo: Os meniscos e o que os testes conseguem
 texto: |
-  **O achado que dispensa manobra.** McGee explica: rupturas do menisco anterior, ou rupturas grandes em alça de balde, deslocam tecido entre as superfícies articulares e **impedem a extensão completa**, o **bloqueio**, que é sinal característico de lesão meniscal. Semiologia Clínica descreve a queixa correspondente: dor crônica ou intermitente associada a **bloqueio ou instabilidade**, com dor à palpação direta da interlinha quando a ruptura é anterior.
+  **O achado que dispensa manobra.** Rupturas do menisco anterior, ou rupturas grandes em alça de balde, deslocam tecido entre as superfícies articulares e **impedem a extensão completa**, o **bloqueio**, que é sinal característico de lesão meniscal. A queixa correspondente: dor crônica ou intermitente associada a **bloqueio ou instabilidade**, com dor à palpação direta da interlinha quando a ruptura é anterior.
 
-  **O teste de McMurray existe para o que não bloqueia.** Rupturas da **metade posterior** do menisco dificilmente travam a extensão, e por isso são mais difíceis de detectar; foi para elas que o cirurgião britânico McMurray propôs, em **1949**, o teste que leva seu nome. McGee descreve o propósito de cada componente do gesto, e entendê-lo é o que torna o teste memorizável: **flete-se completamente o joelho** e **roda-se a tíbia** para trazer o fragmento roto, que está atrás, para a **frente** do côndilo femoral; a **rotação externa traz o menisco medial** e a **interna traz o lateral**. Mantendo a rotação, **estende-se lentamente** o joelho, e o côndilo passa por cima do fragmento: produzindo, quando o teste é positivo, uma **sensação de ressalto palpável na interlinha** correspondente. Semiologia Clínica descreve o mesmo gesto e resume a leitura: dor ou estalido à rotação lateral aponta o menisco medial, e vice-versa.
+  **O teste de McMurray existe para o que não bloqueia.** Rupturas da **metade posterior** do menisco dificilmente travam a extensão, e por isso são mais difíceis de detectar; foi para elas que o cirurgião britânico McMurray propôs, em **1949**, o teste que leva seu nome. O propósito de cada componente do gesto, uma vez entendido, é o que torna o teste memorizável: **flete-se completamente o joelho** e **roda-se a tíbia** para trazer o fragmento roto, que está atrás, para a **frente** do côndilo femoral; a **rotação externa traz o menisco medial** e a **interna traz o lateral**. Mantendo a rotação, **estende-se lentamente** o joelho, e o côndilo passa por cima do fragmento: produzindo, quando o teste é positivo, uma **sensação de ressalto palpável na interlinha** correspondente. O mesmo gesto resume a leitura: dor ou estalido à rotação lateral aponta o menisco medial, e vice-versa.
 
-  **Uma nota de método que McGee faz questão de registrar.** Livros de ortopedia e artigos de revisão acrescentaram **estresses em varo e valgo** à definição do teste de McMurray. **McMurray não os incluiu na descrição original, e os estudos que mediram o teste não os usaram.** Quem executa a versão ampliada não está executando o teste que produziu os números.
+  **Uma nota de método importa registrar.** Livros de ortopedia e artigos de revisão acrescentaram **estresses em varo e valgo** à definição do teste de McMurray. **McMurray não os incluiu na descrição original, e os estudos que mediram o teste não os usaram.** Quem executa a versão ampliada não está executando o teste que produziu os números.
 
-  **Os outros testes meniscais que Semiologia Clínica ensina**, e que este guia registra com atribuição e **sem número**, porque nenhuma das quatro obras mede o desempenho deles: o **teste de Smillie**, que é a palpação dolorosa da interlinha correspondente à lesão; a **marcha de pato**, caminhar agachado, que evidencia lesões do corno posterior do menisco medial; o **teste de Appley**, executado em decúbito ventral, que comprime o pé no eixo da perna e a roda para os dois lados, e a contraprova em **distração**, que é a parte inteligente da manobra, porque a distração afasta as superfícies e provoca **menos** desconforto na lesão meniscal, separando-a da dor articular; e o **teste de Steinmann**, sentado com as pernas pendentes e os joelhos a 90 graus, rodando a tíbia pelo pé.
+  **Os outros testes meniscais**, registrados aqui **sem número** porque não há desempenho medido nas referências do guia: o **teste de Smillie**, que é a palpação dolorosa da interlinha correspondente à lesão; a **marcha de pato**, caminhar agachado, que evidencia lesões do corno posterior do menisco medial; o **teste de Appley**, executado em decúbito ventral, que comprime o pé no eixo da perna e a roda para os dois lados, e a contraprova em **distração**, que é a parte inteligente da manobra, porque a distração afasta as superfícies e provoca **menos** desconforto na lesão meniscal, separando-a da dor articular; e o **teste de Steinmann**, sentado com as pernas pendentes e os joelhos a 90 graus, rodando a tíbia pelo pé.
 :::
 
 ::: sinal
@@ -445,7 +445,7 @@ nome: Teste de Steinmann
 descricao: |
   Paciente **sentado com as pernas pendentes e os joelhos a 90 graus**; o examinador **roda a tíbia segurando pelo pé**, para um lado e para o outro.
 significado: |
-  Pertence ao grupo de testes meniscais que Semiologia Clínica ensina com técnica padronizada e **sem número medido**: a rotação da tíbia provoca o menisco lesado e desperta dor na interlinha correspondente. A leitura segue a mesma lógica do McMurray: rotação lateral interroga o menisco medial, e vice-versa.
+  Pertence ao grupo de testes meniscais com técnica padronizada e **sem número medido**: a rotação da tíbia provoca o menisco lesado e desperta dor na interlinha correspondente. A leitura segue a mesma lógica do McMurray: rotação lateral interroga o menisco medial, e vice-versa.
 causas:
   - "Lesão meniscal"
 :::
@@ -455,7 +455,7 @@ nome: Teste de Appley (compressão e distração)
 descricao: |
   Em **decúbito ventral**, com o joelho fletido, **comprime-se o pé no eixo da perna** e roda-se a tíbia para os dois lados; a contraprova é a **distração**, tracionando o pé no mesmo eixo.
 significado: |
-  A distração é **a parte inteligente da manobra**: afastar as superfícies articulares provoca **menos** desconforto na lesão meniscal, separando-a da dor articular, que tende a doer também sob tração. Dor à compressão rotacional com alívio à distração fala do menisco. Técnica de Semiologia Clínica, ensinada **sem número medido**.
+  A distração é **a parte inteligente da manobra**: afastar as superfícies articulares provoca **menos** desconforto na lesão meniscal, separando-a da dor articular, que tende a doer também sob tração. Dor à compressão rotacional com alívio à distração fala do menisco. Técnica ensinada **sem número medido**.
 causas:
   - "Lesão meniscal"
 :::
@@ -476,7 +476,7 @@ titulo: Aprofundamento
 :::
 
 ::: tabela
-titulo: Osteoartrite em pacientes com dor no quadril (McGee, boxe EBM 57.3)
+titulo: Osteoartrite em pacientes com dor no quadril
 nivel: avancado
 colunas:
   - "Achado"
@@ -521,7 +521,7 @@ linhas:
 titulo: O único número forte do quadril está em um ângulo
 nivel: avancado
 texto: |
-  O padrão diagnóstico dos estudos reunidos no boxe EBM 57.3 é **radiográfico**: escore de Kellgren-Lawrence de 2 ou mais em um deles, presença de osteófitos e redução do espaço articular no outro. O que a tabela prevê, portanto, é a radiografia, não o sofrimento.
+  O padrão diagnóstico dos estudos reunidos é **radiográfico**: escore de Kellgren-Lawrence de 2 ou mais em um deles, presença de osteófitos e redução do espaço articular no outro. O que a tabela prevê, portanto, é a radiografia, não o sofrimento.
 
   **A linha decisiva é a última, e ela tem um ponto de corte.** A **rotação interna passiva abaixo de 15 graus** rende razão de verossimilhança **9,9**: o maior número do exame do quadril e um dos maiores deste capítulo. Repare no contraste com a linha imediatamente acima: **rotação interna de 25 graus ou menos** rende apenas **1,9**. **O mesmo movimento, dois cortes, cinco vezes de diferença.** O corte generoso captura quase todo mundo com quadril doente, sensibilidade 76%, mas também muita gente sem doença; o corte estreito quase não erra para mais, com especificidade de 96%.
 
@@ -529,13 +529,13 @@ texto: |
 
   **Os achados provocativos formam um bloco coerente.** Agachar doendo na região posterior (**6,1**), abdução ou adução doendo na virilha (**5,7**) e flexão ativa doendo lateralmente (**3,6**) são todos muito específicos e pouco sensíveis: 96%, 94% e 88% de especificidade contra 24%, 33% e 43% de sensibilidade. **Servem para confirmar, não para excluir**, e as três ausências não alcançam significância. Um quadril que passa por todas essas manobras sem doer não está por isso liberado.
 
-  **E dois achados de história, que McGee cita no texto do capítulo e valem tanto quanto manobras:** em pacientes com dor unilateral do quadril, dor localizada na **nádega** do mesmo lado rende **6,7**, e dor na **virilha**, **3,6**. São perguntas, não gestos, e a da nádega é a mais forte do conjunto.
+  **E dois achados de história, que valem tanto quanto manobras:** em pacientes com dor unilateral do quadril, dor localizada na **nádega** do mesmo lado rende **6,7**, e dor na **virilha**, **3,6**. São perguntas, não gestos, e a da nádega é a mais forte do conjunto.
 
-  **A concordância entre observadores fecha o quadro.** Na Tabela 5.1, a **rotação interna passiva de 25 graus ou menos** tem concordância de **0,51** e o **teste de Patrick**, de **0,47**: as duas apenas moderadas. É pouco, e a explicação provável é a mesma da divergência de amplitudes: sem padronizar a posição do quadril e do joelho durante a medida, cada examinador mede uma coisa diferente.
+  **A concordância entre observadores fecha o quadro.** Na tabulação de concordância entre observadores, a **rotação interna passiva de 25 graus ou menos** tem concordância de **0,51** e o **teste de Patrick**, de **0,47**: as duas apenas moderadas. É pouco, e a explicação provável é a mesma da divergência de amplitudes: sem padronizar a posição do quadril e do joelho durante a medida, cada examinador mede uma coisa diferente.
 :::
 
 ::: tabela
-titulo: Lesões ligamentares e meniscais do joelho (McGee, boxe EBM 57.6)
+titulo: Lesões ligamentares e meniscais do joelho
 nivel: avancado
 colunas:
   - "Achado e alvo"
@@ -600,27 +600,27 @@ linhas:
 titulo: "Ler a tabela dos ligamentos: os melhores números do capítulo"
 nivel: avancado
 texto: |
-  Antes dos números, os limites, e McGee os expõe sem rodeios. A maior parte dos estudos de lesões de partes moles do joelho é vulnerável a **viés de seleção**, só entram pacientes já programados para cirurgia, e a **viés de verificação**: os cirurgiões que operaram são os mesmos que examinaram. Ele acrescenta a contraprova que atenua a crítica: estudos com padrões independentes, como a **ressonância**, encontraram acurácia semelhante.
+  Antes dos números, os limites, expostos sem rodeios. A maior parte dos estudos de lesões de partes moles do joelho é vulnerável a **viés de seleção**, só entram pacientes já programados para cirurgia, e a **viés de verificação**: os cirurgiões que operaram são os mesmos que examinaram. Uma contraprova atenua a crítica: estudos com padrões independentes, como a **ressonância**, encontraram acurácia semelhante.
 
-  **1. O melhor número deste capítulo, e um dos melhores do guia.** A **gaveta posterior** rende **97,8** quando positiva e **0,1** quando negativa. É um teste que funciona nas duas direções, o que é raríssimo. Mas há uma ressalva honesta que McGee faz e o guia repete: os **dois estudos que produziram esse número não identificaram especificamente a técnica usada** à beira do leito, quase certamente incluía a gaveta posterior, mas isso não é a mesma coisa que ter sido medido.
+  **1. O melhor número deste capítulo, e um dos melhores do guia.** A **gaveta posterior** rende **97,8** quando positiva e **0,1** quando negativa. É um teste que funciona nas duas direções, o que é raríssimo. Mas há uma ressalva honesta que o guia repete: os **dois estudos que produziram esse número não identificaram especificamente a técnica usada** à beira do leito, quase certamente incluía a gaveta posterior, mas isso não é a mesma coisa que ter sido medido.
 
-  **2. Lachman contra gaveta anterior, e a diferença está no lado negativo.** Positivos, os dois confirmam: **19,5** e **13,6**. Negativos, só um serve: **a ausência do sinal de Lachman rende 0,2**, enquanto a ausência da gaveta anterior fica em **0,4**. McGee dá **três razões mecânicas** para Lachman ser mais sensível, e as três valem porque explicam quando a gaveta falha:
+  **2. Lachman contra gaveta anterior, e a diferença está no lado negativo.** Positivos, os dois confirmam: **19,5** e **13,6**. Negativos, só um serve: **a ausência do sinal de Lachman rende 0,2**, enquanto a ausência da gaveta anterior fica em **0,4**. **Há três razões mecânicas** para Lachman ser mais sensível, e as três valem porque explicam quando a gaveta falha:
 
   - a **hemartrose** da lesão aguda impede a flexão do joelho e, com isso, impede executar a gaveta;
   - os **isquiotibiais** contraídos pela dor opõem-se **diretamente** à translação anterior com o joelho a 90 graus, mas não a 20 graus, ângulo em que a tração deles é quase perpendicular ao movimento;
-  - a **borda posterior espessa do menisco medial** funciona como **calço** contra os côndilos e impede a translação com o joelho a 90 graus, mas não a 20 graus. Em apoio a essa terceira hipótese, McGee cita o dado mais eloquente da série: em um estudo, a sensibilidade da gaveta anterior **subiu de 50% para 100% depois de meniscectomia medial**.
+  - a **borda posterior espessa do menisco medial** funciona como **calço** contra os côndilos e impede a translação com o joelho a 90 graus, mas não a 20 graus. Em apoio a essa terceira hipótese, o dado mais eloquente da série: em um estudo, a sensibilidade da gaveta anterior **subiu de 50% para 100% depois de meniscectomia medial**.
 
   **3. O pivot shift é quase só confirmatório.** Especificidade de 95% a 99% com sensibilidade de 6% a 61%: positivo, rende **8,8**; negativo, **0,7**, ou seja, quase nada. É o retrato de um teste difícil de executar em paciente acordado e dolorido.
 
   **4. Os colaterais se comportam de modo espelhado.** O **varo** rende **16,2** quando positivo e **não alcança significância** quando negativo (confirma e não exclui. O **valgo** rende **7,7** quando positivo e **0,2** quando negativo) o único ligamento cuja ausência de frouxidão realmente afasta a lesão.
 
-  **5. Nos meniscos, o achado mais fácil é o que menos vale.** A **dor à palpação da interlinha**, o gesto que todo mundo faz, rende apenas **1,8**, com especificidade de 30% a 83%. **McMurray rende 4,0** e o **bloqueio à extensão**, **3,2**. E McGee oferece a explicação provável do fracasso da interlinha: a dor ali pode refletir lesão **da cápsula ou dos colaterais** que acompanha o trauma, e não do menisco em si. Do lado negativo, **nenhum achado meniscal exclui**: o melhor é a ausência de dor na interlinha, com **0,5**, que reduz pouco.
+  **5. Nos meniscos, o achado mais fácil é o que menos vale.** A **dor à palpação da interlinha**, o gesto que todo mundo faz, rende apenas **1,8**, com especificidade de 30% a 83%. **McMurray rende 4,0** e o **bloqueio à extensão**, **3,2**. E a explicação provável do fracasso da interlinha: a dor ali pode refletir lesão **da cápsula ou dos colaterais** que acompanha o trauma, e não do menisco em si. Do lado negativo, **nenhum achado meniscal exclui**: o melhor é a ausência de dor na interlinha, com **0,5**, que reduz pouco.
 
-  **6. As variáveis que mudam a sensibilidade, e que explicam resultados discordantes.** McGee lista quatro. Os sinais ligamentares são mais frequentemente positivos quando a **rotura é completa** e não parcial; quando a lesão é **crônica** e não aguda; quando **vários ligamentos** estão lesados ao mesmo tempo; e quanto mais **relaxado** estiver o paciente: a ponto de a sensibilidade da maioria dos testes **aumentar sob anestesia**. Um exame negativo no dia do trauma, em joelho doloroso e contraído, é um exame que precisa ser repetido.
+  **6. As variáveis que mudam a sensibilidade, e que explicam resultados discordantes.** São quatro. Os sinais ligamentares são mais frequentemente positivos quando a **rotura é completa** e não parcial; quando a lesão é **crônica** e não aguda; quando **vários ligamentos** estão lesados ao mesmo tempo; e quanto mais **relaxado** estiver o paciente: a ponto de a sensibilidade da maioria dos testes **aumentar sob anestesia**. Um exame negativo no dia do trauma, em joelho doloroso e contraído, é um exame que precisa ser repetido.
 
-  **7. O contraste com a concordância entre observadores.** Na Tabela 5.1, o **sinal de McMurray** tem concordância de apenas **0,16 a 0,35**, a **instabilidade mediolateral**, **0,23**, e a **dor na interlinha**, **0,11 a 0,43**: as três entre as piores do capítulo. É um lembrete de que os números da tabela anterior vêm de examinadores muito treinados, e que reproduzi-los exige a mesma técnica, não apenas o mesmo nome.
+  **7. O contraste com a concordância entre observadores.** Na tabulação de concordância entre observadores, o **sinal de McMurray** tem concordância de apenas **0,16 a 0,35**, a **instabilidade mediolateral**, **0,23**, e a **dor na interlinha**, **0,11 a 0,43**: as três entre as piores do capítulo. É um lembrete de que os números da tabela anterior vêm de examinadores muito treinados, e que reproduzi-los exige a mesma técnica, não apenas o mesmo nome.
 
-  **E o que o exame prevê, além do diagnóstico.** McGee cita um estudo em que vários desses sinais: flexão limitada abaixo de **120 graus** ou extensão limitada, dor na interlinha medial ou lateral, McMurray positivo, Lachman positivo e gaveta anterior positiva, **previram de forma independente** se um cirurgião ortopédico experiente recomendaria cirurgia não protética ao paciente. O exame do joelho não descreve apenas a lesão: ele antecipa a decisão.
+  **E o que o exame prevê, além do diagnóstico.** Um estudo mostra que vários desses sinais: flexão limitada abaixo de **120 graus** ou extensão limitada, dor na interlinha medial ou lateral, McMurray positivo, Lachman positivo e gaveta anterior positiva, **previram de forma independente** se um cirurgião ortopédico experiente recomendaria cirurgia não protética ao paciente. O exame do joelho não descreve apenas a lesão: ele antecipa a decisão.
 :::
 
 ::: conceito
@@ -629,7 +629,7 @@ nivel: avancado
 texto: |
   **O problema que a regra resolve.** Entre pacientes que chegam ao pronto-socorro com trauma de joelho, apenas **6% a 12%** têm fratura significativa na radiografia. Radiografar todos é caro, lento e quase sempre inútil; radiografar por intuição deixa passar fraturas. A regra de Ottawa é uma resposta a esse desperdício, construída por Stiell e colaboradores a partir de mais de mil pacientes com trauma fechado do joelho.
 
-  **O que a regra chama de joelho.** McGee registra a definição operacional usada no estudo, e ela é mais ampla do que a intuitiva: patela, **cabeça e colo da fíbula**, os **8 cm proximais da tíbia** e os **8 cm distais do fêmur**. E define o desfecho: trauma significativo é o que exige **avaliação ortopédica, imobilização ou cirurgia**.
+  **O que a regra chama de joelho.** A definição operacional usada no estudo é mais ampla do que a intuitiva: patela, **cabeça e colo da fíbula**, os **8 cm proximais da tíbia** e os **8 cm distais do fêmur**. E define o desfecho: trauma significativo é o que exige **avaliação ortopédica, imobilização ou cirurgia**.
 
   **A regra, com os cinco preditores.** Indica-se radiografia se **qualquer um** estiver presente:
 
@@ -639,11 +639,11 @@ texto: |
   4. incapacidade de fletir o joelho a **90 graus**;
   5. incapacidade de sustentar o peso **imediatamente após o trauma e no pronto-socorro**: definida como não conseguir transferir o peso duas vezes para cada membro, mancando ou não, o que equivale a quatro passos.
 
-  **Como cada item se comporta sozinho**, no boxe EBM 57.5: incapacidade de fletir além de **60 graus** rende **4,7**, o achado isolado mais forte; incapacidade de sustentar peso, **3,6**; dor na cabeça da fíbula, **3,4**; idade de 55 anos ou mais, **3,0**; incapacidade de fletir além de 90 graus, **2,9**; derrame articular, **2,5**; dor isolada da patela, **2,2**. A **equimose não alcança significância** em nenhuma direção.
+  **Como cada item se comporta sozinho**, nos números compilados: incapacidade de fletir além de **60 graus** rende **4,7**, o achado isolado mais forte; incapacidade de sustentar peso, **3,6**; dor na cabeça da fíbula, **3,4**; idade de 55 anos ou mais, **3,0**; incapacidade de fletir além de 90 graus, **2,9**; derrame articular, **2,5**; dor isolada da patela, **2,2**. A **equimose não alcança significância** em nenhuma direção.
 
   **E como o conjunto se comporta, que é o ponto.** A regra **positiva** rende apenas **1,7**, com especificidade de 19% a 54%. A regra **negativa** rende **0,1**. Ela não foi construída para confirmar fratura: foi construída para **dispensar radiografia com segurança**, e é assim que deve ser usada. Um joelho traumatizado que não preenche nenhum dos cinco critérios tem probabilidade de fratura suficientemente baixa para não ser radiografado.
 
-  **A concordância entre observadores sustenta o uso.** Na Tabela 5.1, as **regras de Ottawa do joelho** alcançam **0,51 a 0,77**, e os seus componentes são justamente os achados mais reprodutíveis do joelho: incapacidade de sustentar peso **0,75 a 0,81**, flexão abaixo de 90 graus **0,74**, dor à palpação da patela **0,69 a 0,76**, dor na cabeça da fíbula **0,64**. Compare com o sinal de McMurray, **0,16 a 0,35**. **Não é coincidência**: os itens da regra foram escritos com definição operacional explícita (quatro passos, 90 graus, um ponto anatômico nomeado) e é isso que os torna reprodutíveis.
+  **A concordância entre observadores sustenta o uso.** Na tabulação de concordância entre observadores, as **regras de Ottawa do joelho** alcançam **0,51 a 0,77**, e os seus componentes são justamente os achados mais reprodutíveis do joelho: incapacidade de sustentar peso **0,75 a 0,81**, flexão abaixo de 90 graus **0,74**, dor à palpação da patela **0,69 a 0,76**, dor na cabeça da fíbula **0,64**. Compare com o sinal de McMurray, **0,16 a 0,35**. **Não é coincidência**: os itens da regra foram escritos com definição operacional explícita (quatro passos, 90 graus, um ponto anatômico nomeado) e é isso que os torna reprodutíveis.
 
   **O que muda na conduta, em uma frase.** Diante de um joelho agudo, a sequência é: procurar os cinco itens antes de pensar em ligamento; se nenhum estiver presente, a fratura está praticamente afastada e o exame passa a ser de partes moles; e, se o joelho estiver muito doloroso e contraído, aceitar que os testes ligamentares perdem sensibilidade nessa condição e **marcar o reexame**.
 :::
@@ -652,7 +652,7 @@ texto: |
 titulo: Osteoartrite do joelho, quando seis achados valem mais que cada um
 nivel: avancado
 texto: |
-  O boxe EBM 57.4 reúne 237 pacientes com dor crônica no joelho de causas variadas: osteoartrite, artrite reumatoide, lesões meniscais e ligamentares, osteonecrose, gota, artrite séptica e doenças do tecido conjuntivo, tendo como padrão o **consenso de especialistas** após revisão da evolução, dos exames laboratoriais e das radiografias.
+  Os números compilados reúnem 237 pacientes com dor crônica no joelho de causas variadas: osteoartrite, artrite reumatoide, lesões meniscais e ligamentares, osteonecrose, gota, artrite séptica e doenças do tecido conjuntivo, tendo como padrão o **consenso de especialistas** após revisão da evolução, dos exames laboratoriais e das radiografias.
 
   **Os achados isolados.**
 
@@ -662,7 +662,7 @@ texto: |
   - **Crepitação à mobilização passiva**: **2,1** presente e **0,2** ausente. Um joelho que não faz crepitação dificilmente tem osteoartrite.
   - **Aumento palpável de temperatura**: **0,3** quando presente. É um achado invertido: **calor local argumenta contra** osteoartrite, porque aponta para artrite inflamatória.
 
-  **E a combinação, que é onde o bloco quer chegar.** McGee reúne seis achados: idade acima de 50 anos, rigidez abaixo de 30 minutos, crepitação, dor óssea nas margens da junta, aumento de volume ósseo e **ausência** de calor palpável. **Três ou mais dos seis** rendem **3,1**; **menos de três** rendem **0,1**.
+  **E a combinação, que é onde o bloco quer chegar.** Reúnem-se seis achados: idade acima de 50 anos, rigidez abaixo de 30 minutos, crepitação, dor óssea nas margens da junta, aumento de volume ósseo e **ausência** de calor palpável. **Três ou mais dos seis** rendem **3,1**; **menos de três** rendem **0,1**.
 
   Repare no que aconteceu. O conjunto positivo (3,1) é **menos** poderoso que o melhor achado isolado (11,8): o que é incomum e vale ser dito, porque a lição usual das combinações é a oposta. Mas o conjunto **negativo** (0,1) é muito melhor do que qualquer ausência isolada. **A regra dos seis achados serve para descartar**, e o aumento de volume ósseo serve para confirmar. São ferramentas diferentes para direções diferentes.
 
@@ -677,9 +677,9 @@ texto: |
   - **A manobra de Brodie-Trendelenburg**, que divide o sobrenome e não divide mais nada, está em doença venosa crônica e trombose, com o desempenho medido.
   - **O cisto de Baker** é ensinado no mesmo tópico venoso, como diagnóstico diferencial da trombose venosa profunda, junto do escore de Wells e da equimose em crescente da rotura. Este tópico o encontra no oco poplíteo e remete àquele.
   - **O teste de Patrick ou FABERE** aparece nos dois lados da mesma manobra: no tópico de coluna vertebral, servindo à **sacroilíaca**, dor posterior contralateral, e aqui, servindo à **coxofemoral**, dor ipsilateral ao movimento. É a mesma manobra respondendo a duas perguntas conforme onde a dor aparece.
-  - **A elevação da perna estendida e o sinal de Lasègue**, com os números de McGee, estão em marcha e sinais meníngeos e são executados no tópico de coluna vertebral.
+  - **A elevação da perna estendida e o sinal de Lasègue**, com os números compilados, estão em marcha e sinais meníngeos e são executados no tópico de coluna vertebral.
   - **A graduação da força de 0 a 5**, usada sempre que se fala em fraqueza dos abdutores, e os reflexos patelar e aquileu estão em força, tônus e reflexos.
-  - **Os pulsos femoral, poplíteo, tibial posterior e pedioso**, que a Tabela 7 de Semiologia Clínica inclui no exame do membro inferior, estão em pulsos arteriais periféricos; a **claudicação intermitente**, em insuficiência arterial crônica.
+  - **Os pulsos femoral, poplíteo, tibial posterior e pedioso**, incluídos no exame do membro inferior, estão em pulsos arteriais periféricos; a **claudicação intermitente**, em insuficiência arterial crônica.
   - **O tornozelo e o pé**, com a regra de Ottawa correspondente e os testes do tendão calcâneo, são o tópico seguinte, que fecha o capítulo com os padrões articulares.
 :::
 
@@ -737,7 +737,7 @@ perguntas:
       - "Grande: rotação interna passiva abaixo de 15 graus rende razão de verossimilhança 9,9"
       - "Moderado, e apenas se acompanhado de dor à palpação do trocanter maior, que é o achado que confere especificidade ao conjunto"
     corretaIndex: 2
-    explicacao: "No boxe EBM 57.3, a rotação interna passiva tem dois cortes com desempenhos muito diferentes: 25 graus ou menos rende razão de verossimilhança 1,9, com sensibilidade 76% e especificidade 61%; abaixo de 15 graus rende 9,9, com sensibilidade 39% e especificidade 96%. É o mesmo movimento medido com réguas diferentes. Por isso o registro precisa trazer o valor em graus, e não o adjetivo. Dor à palpação do trocanter maior aponta para causa extra-articular, e não para a junta."
+    explicacao: "Nos números compilados, a rotação interna passiva tem dois cortes com desempenhos muito diferentes: 25 graus ou menos rende razão de verossimilhança 1,9, com sensibilidade 76% e especificidade 61%; abaixo de 15 graus rende 9,9, com sensibilidade 39% e especificidade 96%. É o mesmo movimento medido com réguas diferentes. Por isso o registro precisa trazer o valor em graus, e não o adjetivo. Dor à palpação do trocanter maior aponta para causa extra-articular, e não para a junta."
   - id: osteo-quadril-2
     enunciado: Ao pedir que uma paciente fique de pé apenas sobre a perna direita, com o quadril esquerdo fletido a 90 graus, o examinador observa que a nádega esquerda cai. Que músculos esse achado interroga e de que lado?
     alternativas:
@@ -746,7 +746,7 @@ perguntas:
       - "Os extensores do quadril esquerdo, cuja falha permite a báscula anterior da pelve durante o apoio unipodal"
       - "Os adutores do quadril direito, que estabilizam a pelve contra a queda contralateral durante o apoio em uma perna"
     corretaIndex: 0
-    explicacao: "Na manobra de Trendelenburg do quadril, os glúteos médio e mínimo do lado apoiado abduzem o quadril e sustentam a hemipelve oposta. Com abdutores competentes, a nádega do lado suspenso sobe; com abdutores fracos, ela cai. McGee registra explicitamente que o lado testado é o que suporta o peso, e é essa a fonte de erro mais comum. Deformidades acentuadas do membro, como um genu varum grave, podem produzir falso-positivo. A técnica completa é ensinada no tópico de marcha e sinais meníngeos."
+    explicacao: "Na manobra de Trendelenburg do quadril, os glúteos médio e mínimo do lado apoiado abduzem o quadril e sustentam a hemipelve oposta. Com abdutores competentes, a nádega do lado suspenso sobe; com abdutores fracos, ela cai. O lado testado é sempre o que suporta o peso, e essa é a fonte de erro mais comum. Deformidades acentuadas do membro, como um genu varum grave, podem produzir falso-positivo. A técnica completa é ensinada no tópico de marcha e sinais meníngeos."
   - id: osteo-quadril-3
     enunciado: Um jogador de 24 anos torceu o joelho com o pé plantado há duas horas e o joelho já está tenso e volumoso. Que teste do cruzado anterior é preferível nessa situação, e por quê?
     alternativas:
@@ -755,7 +755,7 @@ perguntas:
       - "O pivot shift, cuja sensibilidade é maior justamente na fase aguda, quando o derrame reduz o atrito articular"
       - "A gaveta posterior, teste de escolha em todo trauma agudo do joelho por ter razão de verossimilhança 97,8"
     corretaIndex: 1
-    explicacao: "McGee dá três razões pelas quais o sinal de Lachman é mais sensível que a gaveta anterior: a hemartrose da lesão aguda prejudica a flexão do joelho e impede executar a gaveta; os isquiotibiais contraídos pela dor opõem-se diretamente à translação anterior com o joelho a 90 graus, mas não a 20 graus, ângulo em que sua tração é quase perpendicular ao movimento; e a borda posterior espessa do menisco medial funciona como calço contra os côndilos a 90 graus, mas não a 20. Em um estudo, a sensibilidade da gaveta subiu de 50% para 100% após meniscectomia medial. Lachman rende 19,5 quando presente e 0,2 quando ausente; a gaveta, 13,6 e 0,4."
+    explicacao: "Há três razões pelas quais o sinal de Lachman é mais sensível que a gaveta anterior: a hemartrose da lesão aguda prejudica a flexão do joelho e impede executar a gaveta; os isquiotibiais contraídos pela dor opõem-se diretamente à translação anterior com o joelho a 90 graus, mas não a 20 graus, ângulo em que sua tração é quase perpendicular ao movimento; e a borda posterior espessa do menisco medial funciona como calço contra os côndilos a 90 graus, mas não a 20. Em um estudo, a sensibilidade da gaveta subiu de 50% para 100% após meniscectomia medial. Lachman rende 19,5 quando presente e 0,2 quando ausente; a gaveta, 13,6 e 0,4."
   - id: osteo-quadril-4
     enunciado: Um homem de 57 anos caiu e chega ao pronto-socorro com dor no joelho. Consegue fletir além de 90 graus, não tem dor na patela nem na cabeça da fíbula e andou quatro passos logo após a queda e na sala de emergência. Como a regra de Ottawa do joelho é usada aqui?
     alternativas:
@@ -764,7 +764,7 @@ perguntas:
       - "A regra é indiferente: positiva ou negativa, ela rende razão de verossimilhança em torno de 1,7 e não altera a decisão de radiografar"
       - "A idade de 57 anos preenche sozinha um dos cinco preditores, e basta um deles: a regra é positiva e a radiografia está indicada, apesar dos demais itens negativos"
     corretaIndex: 3
-    explicacao: "Os cinco preditores da Tabela 57.4 são idade de 55 anos ou mais, dor à palpação da cabeça da fíbula, dor isolada da patela, incapacidade de fletir a 90 graus e incapacidade de sustentar peso imediatamente e no pronto-socorro, definida como não transferir o peso duas vezes para cada membro. Basta um para indicar radiografia, e aos 57 anos o critério etário está preenchido. No boxe EBM 57.5, a idade de 55 anos ou mais rende razão de verossimilhança 3,0 isoladamente; a regra positiva rende 1,7 e a negativa, 0,1, ela foi construída para dispensar radiografia com segurança, não para confirmar fratura."
+    explicacao: "Os cinco preditores da regra de Ottawa do joelho são idade de 55 anos ou mais, dor à palpação da cabeça da fíbula, dor isolada da patela, incapacidade de fletir a 90 graus e incapacidade de sustentar peso imediatamente e no pronto-socorro, definida como não transferir o peso duas vezes para cada membro. Basta um para indicar radiografia, e aos 57 anos o critério etário está preenchido. Nos números compilados, a idade de 55 anos ou mais rende razão de verossimilhança 3,0 isoladamente; a regra positiva rende 1,7 e a negativa, 0,1, ela foi construída para dispensar radiografia com segurança, não para confirmar fratura."
   - id: osteo-quadril-5
     enunciado: Um paciente com dor crônica no joelho e episódios de travamento não consegue estender a perna por completo. O que esse bloqueio sugere, e para que serve o teste de McMurray nesses quadros?
     alternativas:
@@ -773,7 +773,7 @@ perguntas:
       - "Lesão meniscal: o bloqueio é seu sinal característico; o McMurray existe para as rupturas que não travam"
       - "Corpo livre intra-articular, que o McMurray desloca e libera, servindo ao mesmo tempo de manobra terapêutica"
     corretaIndex: 2
-    explicacao: "Rupturas do menisco anterior, ou as grandes em alça de balde, deslocam tecido entre as superfícies articulares e impedem a extensão completa, o bloqueio, sinal característico de lesão meniscal, que Semiologia Clínica associa à queixa de travamento ou instabilidade e à dor à palpação direta da interlinha. O teste de McMurray foi proposto justamente para as rupturas da metade posterior do menisco, que dificilmente travam a extensão e por isso escapam do achado espontâneo."
+    explicacao: "Rupturas do menisco anterior, ou as grandes em alça de balde, deslocam tecido entre as superfícies articulares e impedem a extensão completa, o bloqueio, sinal característico de lesão meniscal, associado à queixa de travamento ou instabilidade e à dor à palpação direta da interlinha. O teste de McMurray foi proposto justamente para as rupturas da metade posterior do menisco, que dificilmente travam a extensão e por isso escapam do achado espontâneo."
   - id: osteo-quadril-6
     enunciado: Uma paciente de 61 anos tem dor lateral no quadril esquerdo, pior à noite quando se deita sobre esse lado, e dor máxima à palpação do trocanter maior. Que achado adicional mudaria de forma relevante o raciocínio?
     alternativas:
@@ -782,5 +782,5 @@ perguntas:
       - "Fraqueza à abdução resistida do quadril, achado com razão de verossimilhança superior à do sinal de Trendelenburg para rotura tendínea"
       - "Rotação interna passiva de 40 graus, que descarta causas extra-articulares"
     corretaIndex: 1
-    explicacao: "Em pacientes com o rótulo clínico de bursite trocantérica, dor lateral no quadril com dor máxima sobre o trocanter maior, McGee registra que a presença simultânea do sinal e da marcha de Trendelenburg do lado sintomático detectou rotura do tendão do glúteo médio à ressonância, com sensibilidade 73%, especificidade 77% e razão de verossimilhança 3,2; a ausência não alcançou significância. O sinal foi superior ao teste direto de força dos abdutores, cujas razões de verossimilhança não alcançaram significância. Ele compara a descoberta ao reconhecimento histórico de que muitos casos rotulados como bursite subacromial são doença dos tendões do manguito rotador."
+    explicacao: "Em pacientes com o rótulo clínico de bursite trocantérica, dor lateral no quadril com dor máxima sobre o trocanter maior, a presença simultânea do sinal e da marcha de Trendelenburg do lado sintomático detectou rotura do tendão do glúteo médio à ressonância, com sensibilidade 73%, especificidade 77% e razão de verossimilhança 3,2; a ausência não alcançou significância. O sinal foi superior ao teste direto de força dos abdutores, cujas razões de verossimilhança não alcançaram significância. Compara-se a descoberta ao reconhecimento histórico de que muitos casos rotulados como bursite subacromial são doença dos tendões do manguito rotador."
 :::

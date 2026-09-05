@@ -64,11 +64,11 @@ titulo: O sinal vital que só a criança tem
 texto: |
   O adulto tem quatro sinais vitais clássicos; a criança tem um a mais: **o crescimento**. Nenhum número isolado da consulta pediátrica informa tanto quanto a comparação do peso e da estatura de hoje com os de todas as consultas anteriores, e é por isso que o capítulo 179 chama a avaliação do crescimento e do desenvolvimento de ação básica de saúde em pediatria.
 
-  A régua de fundo é vertiginosa e vale memorizar: pela *Semiologia Médica*, o peso de nascimento está **dobrado por volta do 4º ao 5º mês, é o triplo ao completar 1 ano e o quádruplo aos 2**; do segundo ano até a puberdade, o ganho esperado cai para **2 a 5,5 kg por ano**. Quem cresce assim não pode ser avaliado contra uma tabela fixa, precisa de **curvas**. O capítulo 179 nomeia as disponíveis, a curva de Marcondes, as do CDC e as da **OMS**, estas propostas em 2006 a partir de um estudo mundial iniciado em 1996, com países das seis grandes regiões do globo, e ensina o gesto: plotar o peso ou a estatura na curva correspondente à idade e ao sexo, a cada consulta, e ler o resultado em **percentis ou escores Z** (quantos desvios padrão separam a medida da média). O *Exame Clínico* lembra onde essas curvas já estão impressas: na **Caderneta de Saúde da Criança**, a mesma que carrega o Apgar e as vacinas do tópico anterior.
+  A régua de fundo é vertiginosa e vale memorizar: o peso de nascimento está **dobrado por volta do 4º ao 5º mês, é o triplo ao completar 1 ano e o quádruplo aos 2**; do segundo ano até a puberdade, o ganho esperado cai para **2 a 5,5 kg por ano**. Quem cresce assim não pode ser avaliado contra uma tabela fixa, precisa de **curvas**. As disponíveis: a curva de Marcondes, as do CDC e as da **OMS**, estas propostas em 2006 a partir de um estudo mundial iniciado em 1996, com países das seis grandes regiões do globo. O gesto: plotar o peso ou a estatura na curva correspondente à idade e ao sexo, a cada consulta, e ler o resultado em **percentis ou escores Z** (quantos desvios padrão separam a medida da média). Essas curvas já estão impressas na **Caderneta de Saúde da Criança**, a mesma que carrega o Apgar e as vacinas do tópico anterior.
 
   **O que este tópico ensina:** o que muda na antropometria quando o paciente é uma criança (peso, comprimento deitado, estatura e perímetro cefálico); a leitura das curvas e do estado nutricional pelos quadros do capítulo 179; as **faixas de frequência cardíaca e respiratória por idade**, com sua atribuição exata; e o que muda na medida da pressão arterial. A febre da criança e a avaliação da hidratação já têm donos neste guia: este tópico remete e costura, sem duplicar.
 
-  **Onde estão os números deste capítulo.** Todos brasileiros: os quadros do capítulo 179 e a tabela pediátrica de frequência respiratória que o *Exame Clínico* e Semiologia Clínica compartilham, apresentados lado a lado com os tetos de Porto, porque divergem. McGee, fonte dos números de desempenho do guia, não tem seção sistemática de semiologia pediátrica, e o capítulo declara o silêncio: para as faixas desta página não há razões de verossimilhança, só valores de referência atribuídos.
+  **Onde estão os números deste capítulo.** Todos brasileiros: os quadros de referência e a tabela pediátrica de frequência respiratória que duas fontes compartilham, apresentados lado a lado com os tetos de uma terceira, porque divergem. As referências deste guia não têm seção sistemática de semiologia pediátrica com razões de verossimilhança: para as faixas desta página não há razões de verossimilhança, só valores de referência atribuídos.
 :::
 
 ::: conceito
@@ -76,7 +76,7 @@ titulo: Peso, comprimento, estatura e o perímetro que faltava
 texto: |
   A técnica antropométrica geral (balança calibrada, estadiômetro, os cinco pontos de contato) mora no tópico de antropometria e hidratação do exame físico geral, que já avisa: **na criança pequena, mede-se o comprimento com o paciente deitado, em régua graduada**. O que este tópico acrescenta são os cortes e os instrumentos próprios da idade:
 
-  - **Peso:** recém-nascidos têm **balanças próprias** (Porto, cap. 8): o prato substitui a plataforma. O restante da semiotécnica é o da antropometria geral.
+  - **Peso:** recém-nascidos têm **balanças próprias**: o prato substitui a plataforma. O restante da semiotécnica é o da antropometria geral.
   - **Comprimento × estatura:** o *Exame Clínico* dá o corte etário que o tópico geral não precisou dar: **até os 2 anos**, mede-se o **comprimento deitado**, em régua antropométrica com base fixa no zero e cursor móvel; **depois dos 2 anos**, a **estatura em pé**, comparada às curvas para idade e sexo. O capítulo 99 da *Semiologia Médica* acrescenta o rigor de quem investiga crescimento: medir **3 vezes no mesmo dia**, pelo mesmo avaliador, aceitando variação **menor que 0,3 cm** entre as medidas, e anotar a média.
   - **Perímetro cefálico:** medido **logo após o nascimento** e acompanhado **até os 2 anos de idade** (até os 5, em crianças com algum déficit) com fita métrica; Semiologia Clínica frisa que o que se avalia é a **velocidade** do crescimento craniano, não um número solto. É a medida que não pode faltar no exame físico da criança, diz o *Exame Clínico*, porque diagnostica **microcefalia** (na criança **a termo**, perímetro cefálico **inferior a 33 cm**) e macrocefalia. A palpação das fontanelas e das suturas que acompanha essa medida é matéria do tópico de crânio e face (a fontanela hipertensa) e do de antropometria e hidratação (a fontanela deprimida); o recém-nascido e suas fontanelas voltam no próximo tópico.
 
@@ -170,7 +170,7 @@ texto: |
 :::
 
 ::: tabela
-titulo: Frequência cardíaca por faixa etária (Porto, Quadro 179.4)
+titulo: Frequência cardíaca por faixa etária
 colunas:
   - Faixa etária
   - Espectro

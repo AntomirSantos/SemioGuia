@@ -211,7 +211,7 @@ texto: |
 :::
 
 ::: tabela
-titulo: Classificação do IMC no adulto (OMS 2000, reproduzida em Porto, Quadro 129.1)
+titulo: Classificação do IMC no adulto (OMS 2000)
 colunas:
   - "Classificação"
   - "IMC (kg/m²)"
@@ -250,7 +250,7 @@ texto: |
 :::
 
 ::: tabela
-titulo: Risco de morbidade cardiovascular segundo a circunferência da cintura (OMS 1998, reproduzida em Porto, Quadro 129.2)
+titulo: Risco de morbidade cardiovascular segundo a circunferência da cintura (OMS 1998)
 colunas:
   - "Faixa de risco"
   - "Homens"
@@ -274,11 +274,11 @@ texto: |
 
   **Circunferência da cintura.** Acrescenta a informação que falta ao IMC, onde está a gordura.
 
-  **Relação cintura-estatura.** Divide-se a circunferência da cintura pela estatura, ambas na mesma unidade. Porto registra que ela prediz mortalidade e risco cardiovascular com mais sensibilidade do que o IMC, e adota **0,5** como ponto de corte, o mesmo para adultos e para idosos, homens e mulheres: na formulação prática, a cintura deve medir menos que metade da altura.
+  **Relação cintura-estatura.** Divide-se a circunferência da cintura pela estatura, ambas na mesma unidade. Ela prediz mortalidade e risco cardiovascular com mais sensibilidade do que o IMC, e adota **0,5** como ponto de corte, o mesmo para adultos e para idosos, homens e mulheres: na formulação prática, a cintura deve medir menos que metade da altura.
 
   **Circunferência da panturrilha.** Estima a massa muscular, que é justamente o compartimento que o IMC confunde com gordura.
 
-  Vale ainda uma ressalva sobre o **peso ideal**, calculado a partir de um IMC de referência. Porto o considera criticável quando aplicado a quem já está na faixa normal, pelo risco de estabelecer metas que empurram para exageros e transtornos alimentares. E adverte que **um IMC entre 17 e 19 não é, por si só, indicativo de desnutrição**: sem a história de evolução do peso e sem o exame da musculatura e do panículo adiposo, o número não decide nada.
+  Vale ainda uma ressalva sobre o **peso ideal**, calculado a partir de um IMC de referência. É criticável quando aplicado a quem já está na faixa normal, pelo risco de estabelecer metas que empurram para exageros e transtornos alimentares. Vale ainda que **um IMC entre 17 e 19 não é, por si só, indicativo de desnutrição**: sem a história de evolução do peso e sem o exame da musculatura e do panículo adiposo, o número não decide nada.
 :::
 
 ::: conceito
@@ -289,7 +289,7 @@ texto: |
 
   **Altura.** Ela diminui com os anos, pela redução dos corpos vertebrais e dos discos intervertebrais, somada ao aumento das curvaturas e à osteoporose. Por isso a altura referida pelo próprio paciente tende a ser maior que a atual, e a medida direta passa a ser obrigatória: ao contrário do adulto jovem, em quem a altura referida já foi validada em estudos, com precisão maior nos homens que fizeram a medida no alistamento militar.
 
-  **IMC.** Porto reproduz, para a pessoa idosa, a classificação de **Lipschitz (1994)**: baixo peso abaixo de 22 kg/m², eutrofia entre 22 e 27, excesso de peso acima de 27. Os limites são, portanto, mais altos na base e mais baixos no topo do que os da OMS para adultos. A Caderneta de Saúde da Pessoa Idosa, editada pelo Ministério da Saúde, também caracteriza sobrepeso pelo IMC acima de 27 kg/m², e não traz classificação específica de obesidade como a que existe para adultos.
+  **IMC.** Para a pessoa idosa, usa-se a classificação de **Lipschitz (1994)**: baixo peso abaixo de 22 kg/m², eutrofia entre 22 e 27, excesso de peso acima de 27. Os limites são, portanto, mais altos na base e mais baixos no topo do que os da OMS para adultos. A Caderneta de Saúde da Pessoa Idosa, editada pelo Ministério da Saúde, também caracteriza sobrepeso pelo IMC acima de 27 kg/m², e não traz classificação específica de obesidade como a que existe para adultos.
 
   A consequência prática é declarar a régua usada. Escrever "IMC 26 kg/m², eutrófico pelo critério de Lipschitz para idosos" é informação; escrever "IMC 26, sobrepeso" em uma pessoa de 80 anos é aplicar a tabela errada sem avisar.
 :::
@@ -315,9 +315,9 @@ texto: |
 ::: conceito
 titulo: Graduação da desnutrição pelo déficit de peso, e por que ela não basta
 texto: |
-  A classificação clássica gradua a desnutrição pelo **déficit de peso**, calculado contra o padrão esperado para a idade e para o sexo (escala de graus de Porto): déficit acima de 10% caracteriza a desnutrição de 1º grau; acima de 25%, a de 2º grau; acima de 40%, a de 3º grau.
+  A classificação clássica gradua a desnutrição pelo **déficit de peso**, calculado contra o padrão esperado para a idade e para o sexo, em graus: déficit acima de 10% caracteriza a desnutrição de 1º grau; acima de 25%, a de 2º grau; acima de 40%, a de 3º grau.
 
-  A própria obra que a apresenta lista os limites da escala, e vale repeti-los:
+  Vale repetir os próprios limites dessa escala:
 
   - ela pressupõe conhecer padrões normais de crescimento físico, que nem sempre estão disponíveis;
   - **não leva em conta a altura**, de modo que crianças de baixa estatura ficam em desvantagem quando o peso é relacionado apenas à idade cronológica;
@@ -330,7 +330,7 @@ texto: |
 titulo: O que a evidência acrescenta à avaliação nutricional
 nivel: avancado
 texto: |
-  As síndromes clássicas de desnutrição proteico-energética: o marasmo, com perda profunda de peso e depleção de músculo e gordura, e o kwashiorkor, com distensão abdominal, edema e cabelos hipopigmentados, são descritas em crianças de países em desenvolvimento. Em serviços de países industrializados, McGee registra que o quadro é menos dramático: os pacientes desnutridos se apresentam com peso baixo, atrofia de músculo e de gordura subcutânea, fraqueza e alterações laboratoriais.
+  As síndromes clássicas de desnutrição proteico-energética: o marasmo, com perda profunda de peso e depleção de músculo e gordura, e o kwashiorkor, com distensão abdominal, edema e cabelos hipopigmentados, são descritas em crianças de países em desenvolvimento. Em serviços de países industrializados, o quadro é menos dramático: os pacientes desnutridos se apresentam com peso baixo, atrofia de músculo e de gordura subcutânea, fraqueza e alterações laboratoriais.
 
   Nesses serviços, três achados foram estudados como preditores de complicações pós-operatórias significativas em cirurgias de grande porte:
 
@@ -340,7 +340,7 @@ texto: |
 
   Um resultado contraintuitivo merece atenção: a **presença de perda de peso recente teve pouco valor** para predizer complicações. A explicação proposta é que o achado mistura dois grupos opostos: quem emagreceu por desnutrição, com risco aumentado, e quem emagreceu voluntariamente antes da cirurgia, com risco reduzido.
 
-  Duas notas completam o quadro. Em pacientes com **emagrecimento involuntário**, 65% têm uma doença orgânica responsável, e ela costuma aparecer já na história, no exame físico e nos exames laboratoriais iniciais. E a **reprodutibilidade** do julgamento global é modesta: na Tabela 5.1 de McGee, a impressão de "estado nutricional anormal" alcança kappa de 0,27 a 0,36, mais um motivo para registrar medidas, e não adjetivos.
+  Duas notas completam o quadro. Em pacientes com **emagrecimento involuntário**, 65% têm uma doença orgânica responsável, e ela costuma aparecer já na história, no exame físico e nos exames laboratoriais iniciais. E a **reprodutibilidade** do julgamento global é modesta: na tabulação de concordância entre observadores, a impressão de "estado nutricional anormal" alcança kappa de 0,27 a 0,36, mais um motivo para registrar medidas, e não adjetivos.
 :::
 
 ::: conceito
@@ -349,15 +349,15 @@ nivel: avancado
 texto: |
   Sarcopenia é a perda progressiva e generalizada de **massa, força e função** muscular, com consequências que vão além do músculo: a atividade física se restringe, o deslocamento fica difícil, o equilíbrio se compromete, a capacidade funcional cai, instala-se fragilidade, e aumentam as fraturas e a mortalidade. Classifica-se em três estágios: pré-sarcopenia (só massa reduzida), sarcopenia (massa somada a força ou função reduzidas) e sarcopenia grave (os três parâmetros comprometidos).
 
-  O ponto que surpreende quem espera começar pela balança: **o primeiro sinal clínico não é a massa, é a função**. O fluxograma de avaliação em pessoas idosas que Porto reproduz (segundo Cruz-Jentoft et al., 2010) começa pela velocidade habitual da marcha, passa à força de preensão palmar e só então avalia a massa muscular.
+  O ponto que surpreende quem espera começar pela balança: **o primeiro sinal clínico não é a massa, é a função**. O fluxograma de avaliação em pessoas idosas (segundo Cruz-Jentoft et al., 2010) começa pela velocidade habitual da marcha, passa à força de preensão palmar e só então avalia a massa muscular.
 
-  Os parâmetros, com os pontos de corte que a obra registra:
+  Os parâmetros, com os pontos de corte:
 
-  - **Velocidade habitual da marcha.** Percurso demarcado com 2 metros iniciais de aceleração, 4 metros cronometrados e 2 metros finais de desaceleração. Em condições normais, os 4 metros são percorridos em até 5 segundos, o que equivale a 0,8 m/s: valor que a obra adota como padrão, registrando que há divergências na literatura.
+  - **Velocidade habitual da marcha.** Percurso demarcado com 2 metros iniciais de aceleração, 4 metros cronometrados e 2 metros finais de desaceleração. Em condições normais, os 4 metros são percorridos em até 5 segundos, o que equivale a 0,8 m/s: valor adotado como padrão, registrando que há divergências na literatura.
   - **Força de preensão palmar**, com dinamômetro isométrico, paciente sentado, ombros em abdução, cotovelo fletido em ângulo reto, antebraço em posição neutra: valores de referência de 30 kg em homens e 20 kg em mulheres, abaixo dos quais a força é considerada reduzida.
   - **Massa muscular**, estimada pela circunferência da panturrilha: pontos de corte de 34 cm em mulheres e 33 cm em homens. A caderneta editada pelo Ministério da Saúde trata a faixa de 31 a 34 cm como alerta e valores abaixo de 31 cm como indicação de seguir investigando, sobretudo em quem já tem a marcha lentificada.
 
-  Quando o dinamômetro ou o percurso demarcado não estão disponíveis, Porto registra duas perguntas que servem de aproximação subjetiva: se o paciente se sentiu mais enfraquecido no último ano, e se acha que hoje caminha mais devagar do que há doze meses.
+  Quando o dinamômetro ou o percurso demarcado não estão disponíveis, há duas perguntas que servem de aproximação subjetiva: se o paciente se sentiu mais enfraquecido no último ano, e se acha que hoje caminha mais devagar do que há doze meses.
 :::
 
 ::: pense
@@ -372,7 +372,7 @@ titulo: Estado de hidratação
 ::: conceito
 titulo: Seis parâmetros e um número
 texto: |
-  O estado de hidratação se avalia por um conjunto, nunca por um sinal isolado. Porto organiza a avaliação em seis parâmetros:
+  O estado de hidratação se avalia por um conjunto, nunca por um sinal isolado, organizado em seis parâmetros:
 
   1. **alteração abrupta do peso**: o único dado quantitativo confiável desse terreno;
   2. **pele**: umidade, elasticidade e turgor;
@@ -389,7 +389,7 @@ texto: |
 :::
 
 ::: tabela
-titulo: Sinais de hipovolemia e o que cada um acrescenta (McGee, cap. 11)
+titulo: Sinais de hipovolemia e o que cada um acrescenta
 colunas:
   - "Achado"
   - "Razão de verossimilhança quando presente"
@@ -426,7 +426,7 @@ titulo: Turgor, onde, como e por que envelhece mal
 texto: |
   Turgor se pesquisa pinçando entre dois dedos, polegar e indicador, uma prega que **inclua o tecido subcutâneo**. Com turgor normal, a sensação é de pele suculenta e a prega se desfaz de imediato; com turgor diminuído, a pele parece murcha e a prega se desfaz lentamente. É diferente da **elasticidade**, que se pesquisa pinçando apenas epiderme e derme e tracionando: a hipoelasticidade aparece no idoso, no desnutrido, no abdome de multíparas e, principalmente, na desidratação.
 
-  Três refinamentos vêm dos estudos reunidos por McGee.
+  Três refinamentos vêm dos estudos reunidos sobre o turgor.
 
   **A definição pode ser cronometrada.** Em um dos estudos, considerou-se turgor anormal a persistência da prega por 3 segundos ou mais, após 3 segundos de pinçamento.
 
@@ -451,7 +451,7 @@ causas:
 ::: conceito
 titulo: Graus e tipos de desidratação
 texto: |
-  A intensidade da desidratação se classifica pela **perda de peso** (escala de graus de Porto):
+  A intensidade da desidratação se classifica pela **perda de peso**, em graus:
 
   - **1º grau (leve)**: perda de até 5% do peso;
   - **2º grau (moderada)**: perda entre 5% e 10%;
@@ -468,11 +468,11 @@ nivel: avancado
 texto: |
   Todos os sinais em que a avaliação de hidratação se apoia sofrem interferência do envelhecimento, e sofrem na mesma direção, o que produz falso-positivos em série.
 
-  Porto lista as três interferências no capítulo de semiologia do idoso: a **pele** perde turgor, elasticidade e espessura; a **mucosa oral e a língua** ficam menos umedecidas pela redução da produção de saliva; e as **conjuntivas** ressecam pela diminuição da secreção lacrimal. Ou seja, a pessoa idosa hidratada exibe, em grau variável, boa parte do quadro que se aprendeu a chamar de desidratação.
+  As três interferências: a **pele** perde turgor, elasticidade e espessura; a **mucosa oral e a língua** ficam menos umedecidas pela redução da produção de saliva; e as **conjuntivas** ressecam pela diminuição da secreção lacrimal. Ou seja, a pessoa idosa hidratada exibe, em grau variável, boa parte do quadro que se aprendeu a chamar de desidratação.
 
   Some-se a isso o dado experimental já citado (a deterioração da elastina com a idade reduz a especificidade do turgor) e a conclusão se impõe: **no idoso, o peso e o contexto de perdas pesam mais do que os sinais tegumentares**. A pergunta pela diurese, pelo aporte de líquidos dos últimos dias, por vômitos, diarreia e febre, e a comparação com o peso registrado na consulta anterior valem mais do que qualquer prega de pele.
 
-  Vale ainda lembrar que a impressão global também é pouco reprodutível: na Tabela 5.1 de McGee, o julgamento "paciente com aparência de desidratado" alcança kappa de 0,44 a 0,53, e a secura axilar, 0,50.
+  Vale ainda lembrar que a impressão global também é pouco reprodutível: na tabulação de concordância entre observadores, o julgamento "paciente com aparência de desidratado" alcança kappa de 0,44 a 0,53, e a secura axilar, 0,50.
 :::
 
 ::: conceito
@@ -480,7 +480,7 @@ titulo: Onde este tópico encontra os outros
 texto: |
   Antropometria e hidratação puxam fios que estão amarrados em outros pontos do guia.
 
-  - **Edema**: técnica do cacifo, graduação em cruzes na escala de Porto, consistência, elasticidade e as etiologias que separam o edema cardíaco dos demais, está no tópico de pulso venoso jugular e turgência. É lá também que se explica por que a turgência jugular separa a causa cardíaca da hepática em um paciente edemaciado. Aqui, o edema entra apenas como fonte de erro do peso: o **peso seco** é o peso descontado de edema e de ascite.
+  - **Edema**: técnica do cacifo, graduação em cruzes, consistência, elasticidade e as etiologias que separam o edema cardíaco dos demais, está no tópico de pulso venoso jugular e turgência. É lá também que se explica por que a turgência jugular separa a causa cardíaca da hepática em um paciente edemaciado. Aqui, o edema entra apenas como fonte de erro do peso: o **peso seco** é o peso descontado de edema e de ascite.
   - **Perfusão periférica e enchimento capilar** estão no mesmo tópico venoso, com o mesmo tratamento: achado comparativo, sem corte numérico.
   - **Turgor, elasticidade, umidade e textura da pele**, com a semiotécnica completa, estão no tópico de pele, mucosas e fâneros deste capítulo.
   - **Biotipo**, que precisa ser lido junto do IMC, está no tópico de ectoscopia, e é lá também que a velocidade da marcha aparece como parte do exame do modo de andar.
@@ -518,7 +518,7 @@ opcoes:
   - "Que só um exame de composição corporal, como a bioimpedância, pode desempatar os dois números"
 corretaIndex: 1
 desfecho: |
-  A relação cintura-estatura dele é 0,58: acima do corte de 0,5 que Porto adota para todas as idades e ambos os sexos. O IMC não diz onde a gordura está, e é a localização que mais importa para o risco cardiovascular; a relação cintura-estatura prediz mortalidade com mais sensibilidade que o IMC. Na formulação prática: a cintura deve medir menos que metade da altura, e a dele não mede.
+  A relação cintura-estatura dele é 0,58: acima do corte de 0,5 adotado para todas as idades e ambos os sexos. O IMC não diz onde a gordura está, e é a localização que mais importa para o risco cardiovascular; a relação cintura-estatura prediz mortalidade com mais sensibilidade que o IMC. Na formulação prática: a cintura deve medir menos que metade da altura, e a dele não mede.
 :::
 
 ::: resumo
@@ -542,16 +542,16 @@ perguntas:
       - "Sobrepeso (pré-obesidade) e risco cardiovascular muito aumentado"
       - "Sobrepeso e circunferência dentro da faixa de referência"
     corretaIndex: 2
-    explicacao: "IMC entre 25,0 e 29,9 kg/m² corresponde a sobrepeso ou pré-obesidade na classificação da OMS de 2000, reproduzida por Porto no Quadro 129.1. Para a circunferência da cintura, os pontos de corte da OMS de 1998 para homens são 94 a 102 cm (risco aumentado) e acima de 102 cm (risco muito aumentado); 106 cm cai, portanto, na faixa de risco muito aumentado. O caso ilustra por que as duas medidas se complementam: o IMC sozinho subestimaria o risco."
+    explicacao: "IMC entre 25,0 e 29,9 kg/m² corresponde a sobrepeso ou pré-obesidade na classificação da OMS de 2000. Para a circunferência da cintura, os pontos de corte da OMS de 1998 para homens são 94 a 102 cm (risco aumentado) e acima de 102 cm (risco muito aumentado); 106 cm cai, portanto, na faixa de risco muito aumentado. O caso ilustra por que as duas medidas se complementam: o IMC sozinho subestimaria o risco."
   - id: antrop-2
-    enunciado: Em uma idosa de 78 anos internada por vômitos há dois dias, quais achados aumentam mais a probabilidade de hipovolemia, segundo os dados reunidos por McGee?
+    enunciado: Em uma idosa de 78 anos internada por vômitos há dois dias, quais achados aumentam mais a probabilidade de hipovolemia, segundo os dados reunidos?
     alternativas:
       - "Enchimento capilar lentificado no leito ungueal e confusão mental de início recente"
       - "Sulcos longitudinais na língua e fraqueza"
       - "Fala arrastada e pele fria"
       - "Olhos encovados e turgor cutâneo anormal pesquisado na região subclavicular"
     corretaIndex: 3
-    explicacao: "No boxe EBM 11.1, olhos encovados (razão de verossimilhança 3,7), turgor anormal na região subclavicular (3,5), mucosas secas (3,1) e axila seca (3,0) aumentam a probabilidade de hipovolemia. Confusão mental e fala arrastada nada acrescentam quando presentes, e sua ausência reduz apenas discretamente a probabilidade (0,5); a fraqueza não informa em nenhuma direção. O enchimento capilar não mostrou valor no estudo em que foi avaliado. Os sulcos na língua informam pela ausência: não encontrá-los reduz a probabilidade (0,3)."
+    explicacao: "Nos dados compilados, olhos encovados (razão de verossimilhança 3,7), turgor anormal na região subclavicular (3,5), mucosas secas (3,1) e axila seca (3,0) aumentam a probabilidade de hipovolemia. Confusão mental e fala arrastada nada acrescentam quando presentes, e sua ausência reduz apenas discretamente a probabilidade (0,5); a fraqueza não informa em nenhuma direção. O enchimento capilar não mostrou valor no estudo em que foi avaliado. Os sulcos na língua informam pela ausência: não encontrá-los reduz a probabilidade (0,3)."
   - id: antrop-3
     enunciado: Por que a avaliação da hidratação pela pele é menos confiável no paciente idoso?
     alternativas:
@@ -560,9 +560,9 @@ perguntas:
       - "Porque no idoso o turgor deve ser pesquisado no antebraço, região em que o envelhecimento não interfere no recolhimento da pele"
       - "Porque a desidratação no idoso é sempre hipotônica e não altera a pele"
     corretaIndex: 0
-    explicacao: "Porto registra que a pele senil perde turgor, elasticidade e espessura, a mucosa oral e a língua ficam menos úmidas pela redução da saliva e as conjuntivas ressecam pela menor secreção lacrimal, de modo que a pessoa idosa hidratada já exibe parte do quadro de desidratação. McGee acrescenta que a elastina, responsável pelo recolhimento da pele, deteriora-se com a idade, reduzindo a especificidade do turgor. No idoso, peso e contexto de perdas informam mais do que a pele."
+    explicacao: "A pele senil perde turgor, elasticidade e espessura, a mucosa oral e a língua ficam menos úmidas pela redução da saliva e as conjuntivas ressecam pela menor secreção lacrimal, de modo que a pessoa idosa hidratada já exibe parte do quadro de desidratação. Some-se que a elastina, responsável pelo recolhimento da pele, deteriora-se com a idade, reduzindo a especificidade do turgor. No idoso, peso e contexto de perdas informam mais do que a pele."
   - id: antrop-4
-    enunciado: Na avaliação de sarcopenia em pessoas idosas proposta no fluxograma reproduzido por Porto, qual parâmetro é avaliado primeiro?
+    enunciado: Na avaliação de sarcopenia em pessoas idosas proposta no fluxograma de avaliação, qual parâmetro é avaliado primeiro?
     alternativas:
       - "A massa muscular, pela circunferência da panturrilha"
       - "A força, pelo teste de preensão palmar"
@@ -580,7 +580,7 @@ perguntas:
     corretaIndex: 1
     explicacao: "Os termos são usados como equivalentes na prática, mas apenas a circunferência da cintura, aferida a meio caminho entre a última costela e a crista ilíaca, tem pontos de corte de classificação. A circunferência abdominal, o maior diâmetro do abdome, não tem ponto de corte e não diagnostica obesidade abdominal; sua indicação é acompanhar a evolução em pacientes nos quais a localização dos reparos ósseos é impraticável."
   - id: antrop-6
-    enunciado: Sobre o valor prognóstico da perda de peso recente em pacientes submetidos a cirurgia de grande porte, o que os estudos reunidos por McGee mostraram?
+    enunciado: Sobre o valor prognóstico da perda de peso recente em pacientes submetidos a cirurgia de grande porte, o que os estudos reunidos mostraram?
     alternativas:
       - "A perda de peso recente foi o preditor mais forte de complicações, superando a força de preensão palmar, com razão de verossimilhança acima de 8"
       - "A perda de peso recente reduziu fortemente a probabilidade de complicações"

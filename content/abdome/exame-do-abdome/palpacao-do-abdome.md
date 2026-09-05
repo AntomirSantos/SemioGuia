@@ -82,9 +82,9 @@ texto: |
 
   A segunda é **da cavidade**: que órgãos e massas existem lá dentro, com que tamanho, consistência, superfície, mobilidade e sensibilidade? É a **palpação profunda**, feita com uma ou com as duas mãos sobrepostas e com pressão maior.
 
-  Entre uma e outra há uma regra de ouro que Porto repete e que a experiência confirma: **o relaxamento da parede depende mais da maneira de examinar do que da vontade do paciente.** Mão fria, começo abrupto ou pressão desnecessária provocam contração instintiva, e a partir daí nenhuma técnica salva o exame.
+  Entre uma e outra há uma regra de ouro que a experiência confirma: **o relaxamento da parede depende mais da maneira de examinar do que da vontade do paciente.** Mão fria, começo abrupto ou pressão desnecessária provocam contração instintiva, e a partir daí nenhuma técnica salva o exame.
 
-  O que se palpa no abdome normal é pouco: em pessoas magras com parede relaxada, reconhecem-se o fígado, os rins, a aorta, o ceco, o cólon transverso e o sigmoide. Não se distinguem o estômago, o duodeno, o delgado, o pâncreas, as vias biliares nem o peritônio (Porto).
+  O que se palpa no abdome normal é pouco: em pessoas magras com parede relaxada, reconhecem-se o fígado, os rins, a aorta, o ceco, o cólon transverso e o sigmoide. Não se distinguem o estômago, o duodeno, o delgado, o pâncreas, as vias biliares nem o peritônio.
 :::
 
 ::: perola
@@ -109,7 +109,7 @@ passos:
   - "Palpe o fígado, o baço e os rins com as técnicas próprias e, ao encontrar massa, descreva localização, forma, volume, sensibilidade, consistência, mobilidade e pulsatilidade."
   - "Registre em centímetros, com fita métrica, e não em dedos transversos."
 observar: |
-  Se a parede permanecer contraída apesar da boa técnica, tente desviar a atenção do paciente: converse sobre outro assunto, peça que respire fundo, peça que flexione as pernas. Porto descreve ainda a manobra de Galambos: comprimir outra região do abdome enquanto se palpa a região desejada. A contração que cede a esses artifícios é voluntária; a que não cede pede outra leitura.
+  Se a parede permanecer contraída apesar da boa técnica, tente desviar a atenção do paciente: converse sobre outro assunto, peça que respire fundo, peça que flexione as pernas. Há ainda a manobra de Galambos: comprimir outra região do abdome enquanto se palpa a região desejada. A contração que cede a esses artifícios é voluntária; a que não cede pede outra leitura.
 :::
 
 ::: sinal
@@ -145,11 +145,11 @@ titulo: "A parede: tensão, defesa e continuidade"
 ::: conceito
 titulo: Tensão normal e defesa
 texto: |
-  A tensão da parede é o primeiro dado da palpação, e tem um padrão normal que convém conhecer antes de chamar qualquer coisa de anormal (Porto): a tensão é **ligeiramente maior no centro do que nos flancos**, por conta dos músculos retos, e maior no andar inferior do que no epigástrio; aumenta na inspiração e diminui na expiração; é maior em jovens atletas e em obesos, e menor em crianças, idosos, multíparas e desnutridos.
+  A tensão da parede é o primeiro dado da palpação, e tem um padrão normal que convém conhecer antes de chamar qualquer coisa de anormal: a tensão é **ligeiramente maior no centro do que nos flancos**, por conta dos músculos retos, e maior no andar inferior do que no epigástrio; aumenta na inspiração e diminui na expiração; é maior em jovens atletas e em obesos, e menor em crianças, idosos, multíparas e desnutridos.
 
   O aumento patológico da tensão pode ter duas origens completamente distintas.
 
-  **Defesa abdominal.** É a contração tônica dos músculos da parede produzida por um **reflexo visceromotor**, cujo estímulo nasce no peritônio inflamado. É involuntária. Pode ser **localizada**, situando-se sobre a projeção do órgão doente: fossa ilíaca direita na apendicite, fossa ilíaca esquerda na peridiverticulite e hipocôndrio direito na colecistite aguda (Porto registra este último como flanco direito; o guia adota hipocôndrio, que é onde a vesícula se projeta), ou **generalizada**, o clássico **abdome em tábua** das perfurações de víscera oca e das peritonites agudas difusas.
+  **Defesa abdominal.** É a contração tônica dos músculos da parede produzida por um **reflexo visceromotor**, cujo estímulo nasce no peritônio inflamado. É involuntária. Pode ser **localizada**, situando-se sobre a projeção do órgão doente: fossa ilíaca direita na apendicite, fossa ilíaca esquerda na peridiverticulite e hipocôndrio direito na colecistite aguda (as referências divergem: uma registra este último como flanco direito; este guia adota hipocôndrio, que é onde a vesícula se projeta), ou **generalizada**, o clássico **abdome em tábua** das perfurações de víscera oca e das peritonites agudas difusas.
 
   **Contração psicomotora.** É voluntária, comum em quem fica tenso com medo da dor. Desaparece quando se tranquiliza ou se distrai o paciente.
 
@@ -168,7 +168,7 @@ passos:
   - "A prova é positiva quando a dor aumenta com a contração: sinal de que a origem está na própria parede."
   - "A prova é negativa quando a dor diminui: os músculos contraídos protegem o conteúdo da cavidade da mão do examinador."
 observar: |
-  O teste foi introduzido por Carnett em 1926 justamente para reconhecer lesões da parede que imitam doença intracavitária. Uma causa clássica de dor aguda da parede é a neuropatia toracoabdominal do diabetes (raízes T7 a T11), que costuma vir com hipersensibilidade cutânea de dermátomos contíguos e fraqueza da musculatura, com abaulamento ipsilateral que lembra uma hérnia (McGee).
+  O teste foi introduzido por Carnett em 1926 justamente para reconhecer lesões da parede que imitam doença intracavitária. Uma causa clássica de dor aguda da parede é a neuropatia toracoabdominal do diabetes (raízes T7 a T11), que costuma vir com hipersensibilidade cutânea de dermátomos contíguos e fraqueza da musculatura, com abaulamento ipsilateral que lembra uma hérnia.
 :::
 
 ::: secao
@@ -182,9 +182,9 @@ texto: |
 
   As duas técnicas de manual têm nome e lógica próprias.
 
-  **Técnica bimanual, ou de Lemos-Torres** (Semiologia Clínica). A mão esquerda do examinador passa por baixo do paciente, na topografia da loja renal direita, e empurra as estruturas para cima; a mão direita, espalmada sobre o hipocôndrio, procura a borda com as pontas dos dedos. Pede-se então uma inspiração profunda e lenta. A palpação passa a contar com dois deslocamentos do fígado: **para diante**, pela mão de baixo, e **para baixo**, pela descida do diafragma (Porto).
+  **Técnica bimanual, ou de Lemos-Torres**. A mão esquerda do examinador passa por baixo do paciente, na topografia da loja renal direita, e empurra as estruturas para cima; a mão direita, espalmada sobre o hipocôndrio, procura a borda com as pontas dos dedos. Pede-se então uma inspiração profunda e lenta. A palpação passa a contar com dois deslocamentos do fígado: **para diante**, pela mão de baixo, e **para baixo**, pela descida do diafragma.
 
-  **Técnica das mãos em garra, ou de Mathieu** (Semiologia Clínica; Porto a descreve como **manobra em garra**). O examinador se coloca à altura do ombro direito do paciente, em pé ou sentado, voltado para os pés. As polpas dos dedos mínimo, anular e médio das duas mãos ficam alinhadas, formando uma superfície contínua ampla. Pede-se ao paciente que expire, aprofundam-se os dedos e mantêm-se ali; na inspiração seguinte, a borda vem contra as polpas. É especialmente útil em pessoas obesas.
+  **Técnica das mãos em garra, ou de Mathieu** (também chamada **manobra em garra**). O examinador se coloca à altura do ombro direito do paciente, em pé ou sentado, voltado para os pés. As polpas dos dedos mínimo, anular e médio das duas mãos ficam alinhadas, formando uma superfície contínua ampla. Pede-se ao paciente que expire, aprofundam-se os dedos e mantêm-se ali; na inspiração seguinte, a borda vem contra as polpas. É especialmente útil em pessoas obesas.
 
   Uma advertência de vocabulário: o nome **Lemos Torres** designa, na semiologia do tórax, um sinal completamente diferente, o abaulamento dos espaços intercostais durante a expiração, indicativo de derrame pleural, descrito no tópico de inspeção do tórax. Mesmo epônimo, dois achados sem qualquer relação.
 :::
@@ -248,9 +248,9 @@ passos:
   - "Deslize as polpas pela superfície hepática procurando irregularidades e nódulos."
   - "Comprima a superfície com firmeza e por pouco tempo, perguntando ao paciente se há dor, e avalie ao mesmo tempo a consistência."
 observar: |
-  Nem toda borda palpável é hepatomegalia. Toda hepatomegalia é palpável, mas o fígado pode ser palpado a um centímetro do rebordo, em inspiração profunda, em pessoas magras, e também nos visceroptóticos, sem qualquer aumento de volume (Porto). É por isso que a borda palpável se interpreta junto com o limite superior percutido.
+  Nem toda borda palpável é hepatomegalia. Toda hepatomegalia é palpável, mas o fígado pode ser palpado a um centímetro do rebordo, em inspiração profunda, em pessoas magras, e também nos visceroptóticos, sem qualquer aumento de volume. É por isso que a borda palpável se interpreta junto com o limite superior percutido.
 
-  Guarde uma ressalva sobre a metade da frase que mais tranquiliza. A máxima "toda hepatomegalia é palpável" é de Porto; os dados de McGee a contestam: cerca de metade dos fígados que descem abaixo do rebordo não são palpáveis, e a borda palpável tem razão de verossimilhança de apenas 1,9 para hepatomegalia. Os números e a explicação estão no aprofundamento deste tópico. Na prática: **não ter palpado o fígado não autoriza a concluir que ele não está aumentado.**
+  Guarde uma ressalva sobre a metade da frase que mais tranquiliza. As referências divergem sobre a máxima "toda hepatomegalia é palpável": dados de uma delas a contestam, mostrando que cerca de metade dos fígados que descem abaixo do rebordo não são palpáveis, e que a borda palpável tem razão de verossimilhança de apenas 1,9 para hepatomegalia. Os números e a explicação estão no aprofundamento deste tópico. Na prática: **não ter palpado o fígado não autoriza a concluir que ele não está aumentado.**
 :::
 
 ::: tabela
@@ -291,13 +291,13 @@ titulo: Palpação do baço
 ::: conceito
 titulo: Por que só o baço aumentado é palpável
 texto: |
-  O baço normal mede cerca de 13 × 8 × 3,5 cm, com peso entre 180 e 200 g. Ocupa a loja esplênica, sob o diafragma e a parede costal esquerda, **na altura da 9ª à 11ª costela**, e sua extremidade inferior fica cerca de 5 cm acima do rebordo costal (Porto).
+  O baço normal mede cerca de 13 × 8 × 3,5 cm, com peso entre 180 e 200 g. Ocupa a loja esplênica, sob o diafragma e a parede costal esquerda, **na altura da 9ª à 11ª costela**, e sua extremidade inferior fica cerca de 5 cm acima do rebordo costal.
 
   A conta é simples: para que a ponta do baço apareça abaixo do rebordo, o órgão precisa **dobrar de tamanho**. Daí a regra prática: excluída a ptose esplênica, palpar o baço significa que há esplenomegalia.
 
-  A recíproca não vale, e é aí que a percussão do tópico anterior encontra a palpação deste: **todo baço aumentado é percutível, mas nem sempre é palpável.** Baços muito grandes, porém, quase não escapam: McGee registra que praticamente todos os aumentos maciços, peso acima de 1 kg ou extensão cintilográfica acima de 22 cm, são detectáveis à palpação.
+  A recíproca não vale, e é aí que a percussão do tópico anterior encontra a palpação deste: **todo baço aumentado é percutível, mas nem sempre é palpável.** Baços muito grandes, porém, quase não escapam: Praticamente todos os aumentos maciços, peso acima de 1 kg ou extensão cintilográfica acima de 22 cm, são detectáveis à palpação.
 
-  Dois detalhes de reconhecimento fecham o exame. O primeiro é a **chanfradura esplênica**, a reentrância semicircular correspondente à direção do hilo, que confirma que a massa palpada é o baço e não, por exemplo, o rim esquerdo (Porto). O segundo é o engano mais comum entre iniciantes: confundir a última costela, que é flutuante, com a ponta do baço.
+  Dois detalhes de reconhecimento fecham o exame. O primeiro é a **chanfradura esplênica**, a reentrância semicircular correspondente à direção do hilo, que confirma que a massa palpada é o baço e não, por exemplo, o rim esquerdo. O segundo é o engano mais comum entre iniciantes: confundir a última costela, que é flutuante, com a ponta do baço.
 :::
 
 ::: manobra
@@ -313,7 +313,7 @@ passos:
   - "Meça em centímetros a distância entre o rebordo costal e a extremidade inferior do baço, na linha hemiclavicular esquerda."
   - "Procure a chanfradura esplênica e avalie a sensibilidade: a periesplenite torna a palpação dolorosa."
 observar: |
-  Não existe uma posição superior às outras. Um estudo que comparou o decúbito dorsal, o decúbito dorsal com o punho esquerdo do paciente sob o dorso e o decúbito lateral direito encontrou desempenho equivalente nas três, de modo que a escolha depende sobretudo da preferência do examinador (McGee). O que não varia é a exigência de coordenar a manobra com a inspiração.
+  Não existe uma posição superior às outras. Um estudo que comparou o decúbito dorsal, o decúbito dorsal com o punho esquerdo do paciente sob o dorso e o decúbito lateral direito encontrou desempenho equivalente nas três, de modo que a escolha depende sobretudo da preferência do examinador. O que não varia é a exigência de coordenar a manobra com a inspiração.
 :::
 
 ::: secao
@@ -323,17 +323,17 @@ titulo: Rins, aorta e o resto da cavidade
 ::: conceito
 titulo: As outras estruturas ao alcance da mão
 texto: |
-  **Rins.** Dos órgãos retroperitoneais, apenas o polo inferior do rim direito costuma ser alcançável, sobretudo em mulheres magras com parede flácida, e não deve ser confundido com tumor. A técnica é **bimanual**, com o paciente em decúbito dorsal: uma das mãos transversalmente na região lombar, a outra longitudinalmente sobre o flanco, sempre a mão homônima ao lado que se palpa. Pede-se respiração tranquila e profunda e procura-se sentir a descida do rim a cada inspiração; a mão posterior projeta o órgão para frente. No fim da inspiração, já entrando na expiração, aumenta-se a pressão das duas mãos e percebe-se o deslocamento ascendente súbito: é a chamada **captura do rim**. Uma variante é o **choque lomboabdominal**: impulsões rápidas e sucessivas com as pontas dos dedos no ângulo costovertebral, em direção à mão que palpa, que recebe a sensação de choque (Porto). A punho-percussão lombar, que é outra manobra e outro raciocínio, está no tópico de abdome agudo.
+  **Rins.** Dos órgãos retroperitoneais, apenas o polo inferior do rim direito costuma ser alcançável, sobretudo em mulheres magras com parede flácida, e não deve ser confundido com tumor. A técnica é **bimanual**, com o paciente em decúbito dorsal: uma das mãos transversalmente na região lombar, a outra longitudinalmente sobre o flanco, sempre a mão homônima ao lado que se palpa. Pede-se respiração tranquila e profunda e procura-se sentir a descida do rim a cada inspiração; a mão posterior projeta o órgão para frente. No fim da inspiração, já entrando na expiração, aumenta-se a pressão das duas mãos e percebe-se o deslocamento ascendente súbito: é a chamada **captura do rim**. Uma variante é o **choque lomboabdominal**: impulsões rápidas e sucessivas com as pontas dos dedos no ângulo costovertebral, em direção à mão que palpa, que recebe a sensação de choque. A punho-percussão lombar, que é outra manobra e outro raciocínio, está no tópico de abdome agudo.
 
-  **Aorta.** Em pessoas magras, a aorta e a coluna são facilmente percebidas. Coloca-se uma mão de cada lado do vaso e estima-se o diâmetro, descontando a espessura de duas camadas de pele e subcutâneo (McGee). Em idosos, a aorta costuma ser endurecida e tortuosa (Porto).
+  **Aorta.** Em pessoas magras, a aorta e a coluna são facilmente percebidas. Coloca-se uma mão de cada lado do vaso e estima-se o diâmetro, descontando a espessura de duas camadas de pele e subcutâneo. Em idosos, a aorta costuma ser endurecida e tortuosa.
 
   **Cólon.** O sigmoide é o segmento mais fácil de perceber, no quadrante inferior esquerdo, como uma corda firme e pouco móvel; o ceco reconhece-se na fossa ilíaca direita, deslizando a mão ao longo da linha que une o umbigo à espinha ilíaca anterossuperior, e ao deslizar produzem-se os borborigmos; o transverso aparece no mesogástrio como uma corda transversal que rola sob os dedos.
 
   **Massas.** Diante de qualquer massa, sete atributos precisam constar do registro: localização, forma, volume, sensibilidade, consistência, mobilidade e pulsatilidade. A mobilidade com a respiração indica origem intraperitoneal, as retroperitoneais são fixas, e a pulsatilidade exige distinguir pulsação própria de pulsação transmitida por vizinhança com a aorta.
 
-  **Duas manobras especiais.** No abdome globoso por ascite volumosa, a palpação profunda comum é impossível pela resistência da parede distendida; recorre-se então à **manobra do rechaço**: comprime-se a parede com a palma e imprime-se um impulso rápido com as polpas, sem afrouxar a compressão. Há rechaço quando, logo após a impulsão, a mão recebe um choque de volta: sinal de órgão ou tumor sólido flutuando em meio líquido. Já a pesquisa do **vascolejo** é feita no epigástrio, com movimentos compressivos rápidos das polpas sobre a mão apoiada: ouvir líquido sacolejando denuncia conteúdo líquido no estômago, achado que pode ser normal logo após a ingestão, mas que levanta estase em estômago atônico ou estenose pilórica (Porto).
+  **Duas manobras especiais.** No abdome globoso por ascite volumosa, a palpação profunda comum é impossível pela resistência da parede distendida; recorre-se então à **manobra do rechaço**: comprime-se a parede com a palma e imprime-se um impulso rápido com as polpas, sem afrouxar a compressão. Há rechaço quando, logo após a impulsão, a mão recebe um choque de volta: sinal de órgão ou tumor sólido flutuando em meio líquido. Já a pesquisa do **vascolejo** é feita no epigástrio, com movimentos compressivos rápidos das polpas sobre a mão apoiada: ouvir líquido sacolejando denuncia conteúdo líquido no estômago, achado que pode ser normal logo após a ingestão, mas que levanta estase em estômago atônico ou estenose pilórica.
 
-  **Tumores-fantasmas.** Porto reúne sob esse nome as estruturas normais tomadas por neoplasia: rim direito ptótico em grandes multíparas, rim ectópico, promontório em pacientes com lordose lombar acentuada, sigmoide com fezes endurecidas e bexiga em retenção urinária, o **bexigoma** da linguagem de enfermaria (Semiologia Clínica), simulando cisto de ovário. Percutir a massa e reexaminar o paciente após a micção resolve boa parte desses enganos.
+  **Tumores-fantasmas.** É o nome que reúne as estruturas normais tomadas por neoplasia: rim direito ptótico em grandes multíparas, rim ectópico, promontório em pacientes com lordose lombar acentuada, sigmoide com fezes endurecidas e bexiga em retenção urinária, o **bexigoma** da linguagem de enfermaria, simulando cisto de ovário. Percutir a massa e reexaminar o paciente após a micção resolve boa parte desses enganos.
 :::
 
 ::: secao
@@ -344,7 +344,7 @@ titulo: Aprofundamento
 titulo: O que o fígado palpável realmente informa
 nivel: avancado
 texto: |
-  Os números de McGee separam duas perguntas que a beira do leito costuma confundir: **"isto que eu palpo é o fígado?"** e **"este fígado está aumentado?"**.
+  Os números a seguir separam duas perguntas que a beira do leito costuma confundir: **"isto que eu palpo é o fígado?"** e **"este fígado está aumentado?"**.
 
   Para a primeira, o exame é excelente. Quando o examinador acredita ter palpado a borda hepática abaixo do rebordo costal, ele quase sempre está certo: razão de verossimilhança **233,7**, um número que praticamente confirma o achado sozinho.
 
@@ -380,7 +380,7 @@ causas:
 titulo: O baço palpável em cinco contextos
 nivel: avancado
 texto: |
-  O baço palpável é um dos poucos achados abdominais com razão de verossimilhança alta para o que se propõe a detectar: **8,5** para esplenomegalia (McGee). A sensibilidade, porém, é ampla e baixa, de 18% a 78%, de modo que a ausência do achado reduz pouco a probabilidade.
+  O baço palpável é um dos poucos achados abdominais com razão de verossimilhança alta para o que se propõe a detectar: **8,5** para esplenomegalia. A sensibilidade, porém, é ampla e baixa, de 18% a 78%, de modo que a ausência do achado reduz pouco a probabilidade.
 
   Encontrado o baço, a pergunta seguinte é a causa. As grandes categorias são a doença hepática com hipertensão portal, os distúrbios hematológicos, as doenças infecciosas e as afecções primárias do baço. Alguns achados associados ajudam a escolher:
 
@@ -397,7 +397,7 @@ texto: |
   - **Febre de origem indeterminada**, com mais de três semanas de duração: 2,9 de que o exame da medula óssea será diagnóstico.
   - **Adenomegalia periférica**, sem valor: o baço palpável aparece com a mesma frequência nas doenças graves e nos quadros benignos.
 
-  Porto acrescenta o desfecho hematológico que costuma acompanhar o achado: qualquer que seja a etiologia, o baço aumentado pode causar anemia, leucopenia e trombocitopenia, o **hiperesplenismo**, seletivo quando atinge uma só série, global quando há pancitopenia.
+  Vale acrescentar o desfecho hematológico que costuma acompanhar o achado: qualquer que seja a etiologia, o baço aumentado pode causar anemia, leucopenia e trombocitopenia, o **hiperesplenismo**, seletivo quando atinge uma só série, global quando há pancitopenia.
 :::
 
 ::: sinal
@@ -417,9 +417,9 @@ causas:
 nome: Sinal de Courvoisier
 nivel: avancado
 descricao: "**Vesícula biliar palpável e indolor** em paciente **ictérico**."
-significado: "Indica **obstrução extra-hepática das vias biliares**. A leitura tradicional, que o toma como sinal de malignidade, é mais forte do que os dados sustentam: em pacientes com icterícia, o achado tem razão de verossimilhança 26 para obstrução das vias biliares, eleva muito a probabilidade, mas apenas 2,6 para que essa obstrução seja maligna, o que quase não muda o raciocínio (McGee). Se há uma lei, ela é **sobre obstrução, não sobre câncer**."
+significado: "Indica **obstrução extra-hepática das vias biliares**. A leitura tradicional, que o toma como sinal de malignidade, é mais forte do que os dados sustentam: em pacientes com icterícia, o achado tem razão de verossimilhança 26 para obstrução das vias biliares, eleva muito a probabilidade, mas apenas 2,6 para que essa obstrução seja maligna, o que quase não muda o raciocínio. Se há uma lei, ela é **sobre obstrução, não sobre câncer**."
 causas:
-  - "Neoplasia periampular, sobretudo da cabeça do pâncreas: a associação clássica descrita por Porto"
+  - "Neoplasia periampular, sobretudo da cabeça do pâncreas: a associação clássica"
   - "Obstrução coledociana benigna, incluindo cálculo, que responde por parte dos casos"
   - "Vesícula hidrópica por obstrução do ducto cístico, calculosa ou inflamatória"
   - "Câncer da própria vesícula, por alteração da consistência de suas paredes"
@@ -429,7 +429,7 @@ causas:
 titulo: A história e a fisiologia por trás de Courvoisier
 nivel: avancado
 texto: |
-  Courvoisier, cirurgião suíço, apresentou a observação em 1890 em uma monografia sobre vias biliares, e a apresentou como observação interessante, não como lei. Entre 187 pacientes com icterícia e obstrução do ducto comum, encontrou vesícula dilatada em apenas 20% dos que tinham cálculos, contra 92% dos que tinham outras causas, em sua maioria neoplásicas (McGee).
+  Courvoisier, cirurgião suíço, apresentou a observação em 1890 em uma monografia sobre vias biliares, e a apresentou como observação interessante, não como lei. Entre 187 pacientes com icterícia e obstrução do ducto comum, encontrou vesícula dilatada em apenas 20% dos que tinham cálculos, contra 92% dos que tinham outras causas, em sua maioria neoplásicas.
 
   A hipótese original de Courvoisier, a de que a vesícula da coledocolitíase não dilata porque suas paredes estão fibrosadas pela colecistite crônica, provavelmente está errada: experimentos mostram rigidez de parede semelhante em vesículas dilatadas e não dilatadas de pacientes ictéricos. O que de fato distingue os dois grupos são **pressões intraductais operatórias mais altas** e **icterícia de maior duração**.
 
@@ -442,7 +442,7 @@ texto: |
 titulo: A aorta sob os dedos
 nivel: avancado
 texto: |
-  O aneurisma da aorta abdominal é uma dilatação focal da aorta infrarrenal, tradicionalmente definida por diâmetro acima de 3 a 4 cm. Afeta 1% a 2% das pessoas acima dos 50 anos e cresce lentamente, mas algumas rupturas são catastróficas, com mortalidade que chega a 90% (McGee).
+  O aneurisma da aorta abdominal é uma dilatação focal da aorta infrarrenal, tradicionalmente definida por diâmetro acima de 3 a 4 cm. Afeta 1% a 2% das pessoas acima dos 50 anos e cresce lentamente, mas algumas rupturas são catastróficas, com mortalidade que chega a 90%.
 
   Como a aorta normal se bifurca na altura do umbigo, os aneurismas palpáveis costumam estar no epigástrio ou no quadrante superior esquerdo. O achado que importa não é a pulsação, e sim a **pulsação expansiva**: o aneurisma **afasta as duas mãos** do examinador, uma de cada lado do vaso. Pulsações epigástricas proeminentes ocorrem em pessoas de abdome fino ou quando uma massa epigástrica se sobrepõe à aorta normal, e, se não forem expansivas, não indicam aneurisma.
 

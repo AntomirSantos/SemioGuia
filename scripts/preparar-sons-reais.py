@@ -18,6 +18,11 @@ ESCOLHAS = {
     'murmurio-vesicular': 'steth_20190815_10_00_37',
     'sibilos': 'trunc_2019-08-08-09-36-47-L1_3',
     'roncos': 'steth_20190809_10_30_29',
+    # Estertores: rótulo único (D) no dataset, mas a triagem espectral separa
+    # com folga: centroide ~714 Hz e ~6,6 transientes/s (finos, teleinspiratórios
+    # em chuva) contra ~294 Hz e ~2,1 transientes/s (grossos, esparsos e graves).
+    'estertores-finos': 'steth_20190801_10_55_11',
+    'estertores-grossos': 'steth_20190902_13_18_17',
 }
 
 

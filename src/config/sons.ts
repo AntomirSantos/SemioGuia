@@ -56,7 +56,7 @@ export const ORIGEM_DE_SOM: Record<ChaveDeSom, 'sintetizado' | 'gravacao'> = {
   sibilos: 'gravacao',
   roncos: 'gravacao',
   estridor: 'sintetizado',
-  'estertores-finos': 'sintetizado',
-  'estertores-grossos': 'sintetizado',
+  'estertores-finos': 'gravacao',
+  'estertores-grossos': 'gravacao',
   'atrito-pleural': 'sintetizado',
 };

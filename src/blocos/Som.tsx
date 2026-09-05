@@ -7,10 +7,40 @@ import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
 import { Pressionavel } from '../design/movimento';
 import { AVISO_SOM_GRAVACAO, AVISO_SOM_SINTETIZADO, FONTES_DE_SOM, ORIGEM_DE_SOM } from '../config/sons';
+import { ENVELOPES_DE_SOM } from '../config/envelopes';
 import { DURACAO_MAX_DE_SOM_MS, assumirReproducao, encerrarReproducao } from '../audio/reprodutor-unico';
 import { IdentidadeBloco } from './identidade';
 
 type SomBloco = Extract<Bloco, { tipo: 'som' }>;
+
+// Fonocardiograma (pedido do autor, 2026-09): o envelope do som desenhado em
+// barras, com o trecho já tocado tingido de acento. Liga o que se ouve ao
+// que se vê: B1/B2 são os picos, o sopro é o platô entre eles. O cursor vem
+// de currentTime/duration do próprio player, então acompanha o loop.
+function Fonocardiograma({ arquivo, fracao, tocando }: { arquivo: string; fracao: number; tocando: boolean }) {
+  const { paleta } = useTema();
+  const envelope = ENVELOPES_DE_SOM[arquivo];
+  if (!envelope) return null;
+  const limite = Math.floor(fracao * envelope.length);
+  return (
+    <View
+      accessible={false}
+      style={{ flexDirection: 'row', alignItems: 'flex-end', height: 34, gap: 1, marginTop: espaco.m }}
+    >
+      {envelope.map((valor, i) => (
+        <View
+          key={i}
+          style={{
+            flex: 1,
+            height: Math.max(2, Math.round(valor * 34)),
+            borderRadius: 1,
+            backgroundColor: tocando && i <= limite ? paleta.acento : paleta.linha,
+          }}
+        />
+      ))}
+    </View>
+  );
+}
 
 // Bloco de ausculta (didática 2026-09): o som tocável dentro do tópico,
 // B1/B2, sopros, murmúrio, sibilos, estertores. Os arquivos são sintetizados
@@ -116,6 +146,11 @@ export function Som({ bloco }: { bloco: SomBloco }) {
           </Text>
         </View>
       </View>
+      <Fonocardiograma
+        arquivo={bloco.arquivo}
+        fracao={status.duration > 0 ? (status.currentTime ?? 0) / status.duration : 0}
+        tocando={tocando}
+      />
       <View style={{ borderTopWidth: 1, borderTopColor: paleta.linha, marginTop: espaco.m, paddingTop: espaco.s }}>
         <Text style={{ fontFamily: fonte.corpo, fontSize: tipo.tag + 1, color: paleta.tinta2 }}>
           {ORIGEM_DE_SOM[bloco.arquivo] === 'gravacao' ? AVISO_SOM_GRAVACAO : AVISO_SOM_SINTETIZADO}

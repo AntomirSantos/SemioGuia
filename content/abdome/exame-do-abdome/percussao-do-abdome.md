@@ -71,7 +71,7 @@ texto: |
 
   **Macicez** é o som da ausência de ar: a projeção do fígado, a do baço, o útero gravídico, e também líquido ou massa sólida onde antes havia alça cheia de gás. Entre os dois extremos, a **submacicez** aparece quando há menos ar ou quando uma víscera maciça se sobrepõe a uma alça.
 
-  A partir daí, três tarefas concretas (Porto): delimitar o **limite superior do fígado e a área de macicez hepática**, **pesquisar ascite** e **avaliar a sonoridade geral** do abdome, comparando áreas homólogas.
+  A partir daí, três tarefas concretas: delimitar o **limite superior do fígado e a área de macicez hepática**, **pesquisar ascite** e **avaliar a sonoridade geral** do abdome, comparando áreas homólogas.
 
   A técnica do golpe é a mesma da percussão dígito-digital descrita no tópico de percussão do tórax, com uma diferença de dose: no abdome o golpe é mais leve, porque a parede é mais complacente e as vísceras estão mais próximas.
 :::
@@ -173,13 +173,13 @@ legenda: "A hepatimetria é a distância entre dois pontos: o limite superior, a
 ::: conceito
 titulo: O limite superior
 texto: |
-  O limite superior do fígado é percutido, não palpado, e é encontrado **sobre o tórax**. Percute-se o hemitórax direito pela linha hemiclavicular, de cima para baixo, a partir da clavícula. Ao chegar às últimas cartilagens costais, desvia-se a percussão para fora, porque sobre o plastrão condrocostal não se contam espaços intercostais (Porto).
+  O limite superior do fígado é percutido, não palpado, e é encontrado **sobre o tórax**. Percute-se o hemitórax direito pela linha hemiclavicular, de cima para baixo, a partir da clavícula. Ao chegar às últimas cartilagens costais, desvia-se a percussão para fora, porque sobre o plastrão condrocostal não se contam espaços intercostais.
 
-  O ponto em que o som claro pulmonar cede à submacicez marca o limite superior. Em condições normais, **Porto (Exame Clínico) o situa no 5º ou 6º espaço intercostal direito**.
+  O ponto em que o som claro pulmonar cede à submacicez marca o limite superior. Em condições normais, **situa-se no 5º ou 6º espaço intercostal direito**.
 
-  Vale reconciliar esse número com o que foi ensinado no tópico de percussão do tórax, onde a sonoridade pulmonar na face anterior direita vai **até a altura da 6ª ou 7ª costela (Porto, Semiologia Médica)**. Os dois enunciados descrevem o mesmo nível com um degrau de diferença: o 5º a 6º espaço intercostal marca a **submacicez** que abre a área hepática; a **macicez franca** começa abaixo da 6ª (7ª costela. Uma zona de transição, dois pontos de referência) e é a mesma gradação que o tópico do tórax já descreve, quando ensina que, descendo pela linha hemiclavicular, a nota fica primeiro submaciça e depois francamente maciça.
+  Vale reconciliar esse número com o que foi ensinado no tópico de percussão do tórax, onde a sonoridade pulmonar na face anterior direita vai **até a altura da 6ª ou 7ª costela**. Os dois enunciados descrevem o mesmo nível com um degrau de diferença: o 5º a 6º espaço intercostal marca a **submacicez** que abre a área hepática; a **macicez franca** começa abaixo da 6ª (7ª costela. Uma zona de transição, dois pontos de referência) e é a mesma gradação que o tópico do tórax já descreve, quando ensina que, descendo pela linha hemiclavicular, a nota fica primeiro submaciça e depois francamente maciça.
 
-  Um limite superior **abaixo** do 5º ou 6º espaço intercostal não significa fígado grande: significa ptose hepática ou redução do volume do órgão (Porto). É por isso que a percussão do limite superior é insubstituível nas cirroses, em que o fígado pode estar pequeno e ainda assim palpável.
+  Um limite superior **abaixo** do 5º ou 6º espaço intercostal não significa fígado grande: significa ptose hepática ou redução do volume do órgão. É por isso que a percussão do limite superior é insubstituível nas cirroses, em que o fígado pode estar pequeno e ainda assim palpável.
 :::
 
 ::: conceito
@@ -189,20 +189,20 @@ texto: |
 
   Onde ela normalmente está, as fontes divergem, e a diferença é pequena mas real:
 
-  - **Porto (Exame Clínico)**: em adultos, a borda inferior não deve ultrapassar **1 cm** do rebordo costal na linha hemiclavicular direita; em crianças, pode estar 2 a 3 cm abaixo.
-  - **Semiologia Clínica** dá outro número para o mesmo limite: "o fígado não costuma ultrapassar 2 cm do rebordo costal direito".
+  - **Uma referência**: em adultos, a borda inferior não deve ultrapassar **1 cm** do rebordo costal na linha hemiclavicular direita; em crianças, pode estar 2 a 3 cm abaixo.
+  - **Outra referência** dá outro número para o mesmo limite: "o fígado não costuma ultrapassar 2 cm do rebordo costal direito".
 
-  Há uma armadilha anatômica que as duas fontes evitam do mesmo jeito: **no epigástrio a borda se afasta do rebordo** e chega a ficar 3 a 5 cm abaixo do vértice do ângulo de Charpy, até alcançar o rebordo costal esquerdo (Porto). Palpar o fígado a três dedos do apêndice xifoide e chamar isso de hepatomegalia é um erro clássico.
+  Há uma armadilha anatômica que as duas fontes evitam do mesmo jeito: **no epigástrio a borda se afasta do rebordo** e chega a ficar 3 a 5 cm abaixo do vértice do ângulo de Charpy, até alcançar o rebordo costal esquerdo. Palpar o fígado a três dedos do apêndice xifoide e chamar isso de hepatomegalia é um erro clássico.
 
-  A medida propriamente dita, a **hepatimetria**, é a distância entre o limite superior e a borda inferior, tomada na linha hemiclavicular direita e registrada em centímetros. Semiologia Clínica dá a faixa normal de **6 a 12 cm na linha hemiclavicular e de 4 a 8 cm na linha esternal média**, e recomenda percutir também a partir do apêndice xifoide, porque o lobo esquerdo pode crescer isoladamente, como na forma hepatoesplênica da esquistossomose.
+  A medida propriamente dita, a **hepatimetria**, é a distância entre o limite superior e a borda inferior, tomada na linha hemiclavicular direita e registrada em centímetros. Considera-se normal a faixa de **6 a 12 cm na linha hemiclavicular e de 4 a 8 cm na linha esternal média**, e recomenda-se percutir também a partir do apêndice xifoide, porque o lobo esquerdo pode crescer isoladamente, como na forma hepatoesplênica da esquistossomose.
 
-  Duas convenções de registro fecham a técnica. A primeira: meça em centímetros, com fita, e não em dedos transversos, porque a largura dos dedos varia de examinador para examinador (Porto). A segunda: descreva o achado com os dois pontos de referência, e não apenas com um número solto.
+  Duas convenções de registro fecham a técnica. A primeira: meça em centímetros, com fita, e não em dedos transversos, porque a largura dos dedos varia de examinador para examinador. A segunda: descreva o achado com os dois pontos de referência, e não apenas com um número solto.
 :::
 
 ::: entendimento
 titulo: Por que a hepatimetria é um índice, e não uma medida
 texto: |
-  Desde que Piorry introduziu a percussão topográfica, em 1828, mede-se o fígado percutindo. Depois da radiografia ficou claro que a estimativa quase nunca coincide com o tamanho real, e a maioria dos clínicos passou a tratar a hepatimetria percutida como **índice de tamanho**, não como medida (McGee).
+  Desde que Piorry introduziu a percussão topográfica, em 1828, mede-se o fígado percutindo. Depois da radiografia ficou claro que a estimativa quase nunca coincide com o tamanho real, e a maioria dos clínicos passou a tratar a hepatimetria percutida como **índice de tamanho**, não como medida.
 
   Os dados explicam a mudança de estatuto.
 
@@ -211,7 +211,7 @@ texto: |
   - A medida depende fortemente da técnica: **quanto mais forte o golpe, menor a hepatimetria obtida** e maior o erro. Isso explica por que as estimativas publicadas de "hepatimetria normal" variam de 6 a 15 cm, e por que examinadores experientes que avaliam o mesmo paciente diferem, em média, em 8 cm.
   - Confrontada com a imagem, a percussão padronizada **não** conseguiu detectar hepatomegalia de forma acurada: a hepatimetria de 10 cm ou mais na linha hemiclavicular teve razão de verossimilhança não significativa.
 
-  Como referência externa, McGee registra que o limite normal superior da dimensão craniocaudal do fígado à ultrassonografia, da borda inferior na hemiclavicular até a margem com o pulmão, é de 13 cm.
+  Como referência externa, o limite normal superior da dimensão craniocaudal do fígado à ultrassonografia, da borda inferior na hemiclavicular até a margem com o pulmão, é de 13 cm.
 
   A leitura prática: a percussão hepática continua indispensável para **situar** o órgão, antes da palpação, antes de uma punção-biopsia, e para reconhecer o fígado pequeno da cirrose. Ela não é, porém, uma régua. Registre a hepatimetria como estimativa e não construa diagnóstico de hepatomegalia sobre ela sozinha.
 :::
@@ -225,11 +225,11 @@ titulo: Traube livre, Traube ocupado
 texto: |
   O espaço de Traube é a área normalmente timpânica sobre o fundo do estômago, na base da face anterior do hemitórax esquerdo. **Seus limites e seu papel no exame do tórax já foram descritos no tópico de percussão do tórax**; aqui interessa a leitura abdominal.
 
-  Semiologia Clínica descreve a zona como semilunar, com cerca de 12 cm de largura por 9 cm de altura, projetada da 6ª à 9ª ou 10ª costela. A expressão de enfermaria "**Traube livre**" significa que a percussão obteve o timpanismo esperado, isto é, que o espaço não está ocupado. "**Traube ocupado**" é a macicez ou submacicez ali onde deveria haver timpanismo.
+  A zona se descreve como semilunar, com cerca de 12 cm de largura por 9 cm de altura, projetada da 6ª à 9ª ou 10ª costela. A expressão de enfermaria "**Traube livre**" significa que a percussão obteve o timpanismo esperado, isto é, que o espaço não está ocupado. "**Traube ocupado**" é a macicez ou submacicez ali onde deveria haver timpanismo.
 
-  O que ocupa Traube? Em primeiro lugar o baço, que se expande no sentido descendente e da esquerda para a direita e, ao aumentar, começa por invadir esse espaço, daí a regra de Porto de que **todo baço aumentado é percutível, mas nem todo baço aumentado é palpável**, e de que não se deve confiar apenas na palpação. Mas a lista não para no baço: Semiologia Clínica inclui as cardiomegalias, o aumento do lobo esquerdo do fígado e os derrames pleurais entre as causas de macicez do espaço.
+  O que ocupa Traube? Em primeiro lugar o baço, que se expande no sentido descendente e da esquerda para a direita e, ao aumentar, começa por invadir esse espaço, daí a regra de que **todo baço aumentado é percutível, mas nem todo baço aumentado é palpável**, e de que não se deve confiar apenas na palpação. Mas a lista não para no baço: incluem-se as cardiomegalias, o aumento do lobo esquerdo do fígado e os derrames pleurais entre as causas de macicez do espaço.
 
-  E há dois fatores banais que estragam o achado: a macicez do Traube perde acurácia em pessoas com sobrepeso e em quem acabou de comer (McGee). Um estômago cheio é um Traube maciço sem doença nenhuma.
+  E há dois fatores banais que estragam o achado: a macicez do Traube perde acurácia em pessoas com sobrepeso e em quem acabou de comer. Um estômago cheio é um Traube maciço sem doença nenhuma.
 :::
 
 ::: sinal
@@ -262,11 +262,11 @@ texto: |
 
   Daí o padrão que se procura: **macicez nos flancos, timpanismo no centro**. E daí a manobra que confirma: mudar o paciente de posição e ver a fronteira entre os dois sons **mudar de lugar**.
 
-  A escolha da manobra depende do volume estimado (Porto):
+  A escolha da manobra depende do volume estimado:
 
   - **Grande volume** (em geral acima de 1.500 mℓ): abdome globoso que não se modifica com as posições, cicatriz umbilical plana ou protrusa, e sinal do piparote positivo.
   - **Médio volume**: o piparote é negativo com o paciente deitado, porque o líquido se acumula nos flancos; a manobra é a pesquisa de macicez móvel. De pé, o piparote pode reaparecer no baixo ventre.
-  - **Pequeno volume** (menos de 500 mℓ): o reconhecimento é difícil; a técnica é percutir e fazer o piparote no baixo ventre com o paciente de pé e a bexiga vazia. Porto e Semiologia Clínica concordam que, aqui, o método que resolve é a ultrassonografia.
+  - **Pequeno volume** (menos de 500 mℓ): o reconhecimento é difícil; a técnica é percutir e fazer o piparote no baixo ventre com o paciente de pé e a bexiga vazia. As referências concordam que, aqui, o método que resolve é a ultrassonografia.
 
   Um alerta que evita erro grosseiro: quando há **cisto de ovário**, a área de macicez permanece a mesma em todos os decúbitos, o continente tem limites precisos, e o abdome pode ser bastante volumoso. E nas **ascites septadas ou multiloculadas**, a tuberculosa é o exemplo típico, o líquido está represado em lojas e não se desloca, de modo que o piparote pode ser duvidoso ou ausente.
 :::
@@ -306,7 +306,7 @@ passos:
   - "Marque, em cada raio, o ponto em que o som passa de timpânico a submaciço e depois a maciço."
   - "Una os pontos de transição: na ascite eles desenham uma linha semicircular com a concavidade voltada para cima, para o epigástrio."
 observar: |
-  O semicírculo de Skoda é também um teste de diagnóstico diferencial: na ascite a concavidade olha para cima; no cisto gigante de ovário, a concavidade se volta para o púbis (Semiologia Clínica). Duas curvas opostas, dois raciocínios opostos.
+  O semicírculo de Skoda é também um teste de diagnóstico diferencial: na ascite a concavidade olha para cima; no cisto gigante de ovário, a concavidade se volta para o púbis. Duas curvas opostas, dois raciocínios opostos.
 
   Um cuidado de vocabulário: o nome de Skoda aparece duas vezes no guia, em achados percutórios diferentes. Aqui, o **semicírculo de Skoda**, linha de transição entre timpanismo e macicez na ascite; no tópico de percussão do tórax, a **ressonância skódica**, hipersonoridade ao redor de uma condensação ou logo acima de um derrame pleural. Mesmo epônimo, dois sinais sem relação entre si.
 :::
@@ -330,7 +330,7 @@ titulo: Aprofundamento
 :::
 
 ::: tabela
-titulo: O que cada achado vale na ascite (McGee)
+titulo: O que cada achado vale na ascite
 nivel: avancado
 colunas:
   - "Achado"
@@ -358,7 +358,7 @@ linhas:
 titulo: Lendo a tabela da ascite
 nivel: avancado
 texto: |
-  Os números de McGee foram obtidos em pacientes com aumento do volume abdominal, tendo o líquido peritoneal à ultrassonografia como padrão. Eles reorganizam a hierarquia das manobras de um jeito que a tradição não anteciparia.
+  Os números a seguir foram obtidos em pacientes com aumento do volume abdominal, tendo o líquido peritoneal à ultrassonografia como padrão. Eles reorganizam a hierarquia das manobras de um jeito que a tradição não anteciparia.
 
   **Para confirmar**, dois achados se destacam: o **piparote positivo** (razão de verossimilhança 5,0) e a **presença de edema** (3,8). A macicez móvel eleva a probabilidade apenas modestamente (2,3).
 
@@ -373,20 +373,20 @@ texto: |
 titulo: Quanto líquido é preciso para que a percussão perceba
 nivel: avancado
 texto: |
-  Há um século, Müller injetou líquido na cavidade peritoneal de cadáveres para descobrir o limiar do exame físico. O resultado, citado por McGee: **1.000 mℓ passaram despercebidos** à macicez de flancos e à macicez móvel; **1.500 mℓ** produziram alguma macicez de flancos; e **2.000 mℓ** foi o menor volume capaz de gerar macicez móvel.
+  Há um século, Müller injetou líquido na cavidade peritoneal de cadáveres para descobrir o limiar do exame físico. O resultado: **1.000 mℓ passaram despercebidos** à macicez de flancos e à macicez móvel; **1.500 mℓ** produziram alguma macicez de flancos; e **2.000 mℓ** foi o menor volume capaz de gerar macicez móvel.
 
-  A parede abdominal viva é mais elástica que a do cadáver, e é provável que o examinador cuidadoso detecte volumes menores, mas um pequeno estudo em voluntários saudáveis ainda exigiu **500 a 1.100 mℓ** para que a macicez móvel aparecesse. Semiologia Clínica situa o sinal do piparote como próprio das grandes ascites, em geral positivo a partir de cerca de 3 ℓ, e por isso o considera o mais específico dos três.
+  A parede abdominal viva é mais elástica que a do cadáver, e é provável que o examinador cuidadoso detecte volumes menores, mas um pequeno estudo em voluntários saudáveis ainda exigiu **500 a 1.100 mℓ** para que a macicez móvel aparecesse. O sinal do piparote se situa como próprio das grandes ascites, em geral positivo a partir de cerca de 3 ℓ, e por isso é considerado o mais específico dos três.
 
   Há também um falso-positivo com nome antigo: acúmulo de líquido **dentro** das alças colônicas produz macicez de flancos e macicez móvel sem que haja líquido livre. Antes da imagem, chamava-se isso de **pseudoascite**, e ocorria tipicamente em pacientes com quadros diarreicos.
 
-  Duas consequências práticas. Primeira: um exame físico negativo não exclui ascite de pequeno volume, em caso de dúvida, escreva "ascite questionável" e peça a ultrassonografia, como recomenda Porto. Segunda: no acompanhamento diário do paciente ascítico, o que se registra não é a manobra, e sim a **medida da circunferência abdominal na altura do umbigo, o peso na mesma balança e o volume urinário de 24 horas**, sempre no mesmo horário.
+  Duas consequências práticas. Primeira: um exame físico negativo não exclui ascite de pequeno volume, em caso de dúvida, escreva "ascite questionável" e peça a ultrassonografia. Segunda: no acompanhamento diário do paciente ascítico, o que se registra não é a manobra, e sim a **medida da circunferência abdominal na altura do umbigo, o peso na mesma balança e o volume urinário de 24 horas**, sempre no mesmo horário.
 :::
 
 ::: conceito
 titulo: Percussão do baço, e até onde ela chega
 nivel: avancado
 texto: |
-  Três sinais percutórios do baço circulam na literatura, e McGee os descreve lado a lado.
+  Três sinais percutórios do baço circulam na literatura, descritos a seguir lado a lado.
 
   - **Sinal da percussão esplênica**, descrito por Castell em 1967 em pacientes com mononucleose infecciosa. Percute-se o último espaço intercostal esquerdo na linha axilar anterior, em geral o oitavo ou o nono. O sinal é positivo quando a nota, habitualmente sonora, torna-se maciça na inspiração profunda. Investigadores posteriores passaram a considerar positiva qualquer macicez nesse ponto, tanto na inspiração quanto na expiração.
   - **Método de Nixon**, descrito em 1954. Paciente em decúbito lateral direito; percute-se do limite inferior da sonoridade pulmonar na linha axilar posterior, obliquamente para baixo, até o rebordo costal anterior. É positivo quando a fronteira de macicez ao longo dessa linha fica a mais de 8 cm do rebordo costal.
@@ -394,20 +394,20 @@ texto: |
 
   E o desempenho? Os três são **claramente inferiores à palpação**: razões de verossimilhança positivas de 1,7 (Castell), 2,0 (Nixon) e 2,1 (Traube), contra 8,5 do baço palpável. São sinais que sugerem, não que decidem.
 
-  Isso não os torna inúteis. A percussão do Traube é o que sobra quando a palpação é impossível (abdome muito tenso, parede espessa, paciente que não tolera a manobra) e é o que sustenta a advertência de Porto de que nem todo baço aumentado é palpável. Mas o achado que muda o raciocínio continua sendo o baço que a mão encontra, e ele está no tópico seguinte.
+  Isso não os torna inúteis. A percussão do Traube é o que sobra quando a palpação é impossível (abdome muito tenso, parede espessa, paciente que não tolera a manobra) e é o que sustenta a advertência de que nem todo baço aumentado é palpável. Mas o achado que muda o raciocínio continua sendo o baço que a mão encontra, e ele está no tópico seguinte.
 :::
 
 ::: conceito
 titulo: Timpanismo onde deveria haver macicez
 nivel: avancado
 texto: |
-  O desaparecimento da macicez hepática, com timpanismo no hipocôndrio direito, tem três explicações possíveis (Porto):
+  O desaparecimento da macicez hepática, com timpanismo no hipocôndrio direito, tem três explicações possíveis:
 
   - **Pneumoperitônio**, cuja causa frequente é a perfuração do tubo digestivo. Esse é o **sinal de Jobert**: a macicez hepática cede lugar ao timpanismo porque há uma camada de ar entre o fígado e o diafragma. É um achado de peritonite por perfuração, e reaparece no tópico de abdome agudo, ao lado do abdome em tábua.
   - **Interposição de alça** entre o fígado e a parede costal, achado sem gravidade que também aparece nas grandes distensões abdominais e na impactação fecal.
   - **Atrofia hepática acentuada.**
 
-  A percussão também é usada há mais de um século para estimar o volume vesical, e aqui o veredito é desfavorável. McGee resume: a bexiga precisa conter cerca de **400 a 600 mℓ** para que a macicez apareça de forma confiável; embora a extensão da macicez acima da sínfise se correlacione com o volume, o sinal é pouco confiável porque os resultados variam enormemente entre pacientes e porque muitos têm macicez inexplicada no abdome inferior, mesmo sem distensão vesical.
+  A percussão também é usada há mais de um século para estimar o volume vesical, e aqui o veredito é desfavorável. Em resumo: a bexiga precisa conter cerca de **400 a 600 mℓ** para que a macicez apareça de forma confiável; embora a extensão da macicez acima da sínfise se correlacione com o volume, o sinal é pouco confiável porque os resultados variam enormemente entre pacientes e porque muitos têm macicez inexplicada no abdome inferior, mesmo sem distensão vesical.
 :::
 
 ::: sinal
@@ -427,7 +427,7 @@ texto: |
   A percussão do abdome é o ponto em que o tórax e o abdome se sobrepõem, e por isso é a que mais depende dos outros tópicos.
 
   - **A técnica do golpe dígito-digital**, a física da nota e a razão pela qual golpes de forças diferentes produzem sons diferentes estão no tópico de percussão do tórax. Não se repete aqui: aplica-se, com golpe mais leve.
-  - **O limite superior da macicez hepática** é a mesma zona de transição já ensinada no tópico de percussão do tórax, tomada um degrau adiante: lá, a macicez franca abaixo da 6ª ou 7ª costela (Porto, Semiologia Médica); aqui, a submacicez que a antecede, no 5º ou 6º espaço intercostal (Porto, Exame Clínico).
+  - **O limite superior da macicez hepática** é a mesma zona de transição já ensinada no tópico de percussão do tórax, tomada um degrau adiante: lá, a macicez franca abaixo da 6ª ou 7ª costela; aqui, a submacicez que a antecede, no 5º ou 6º espaço intercostal.
   - **Os limites do espaço de Traube e seu uso como treino do som timpânico** estão no tópico de percussão do tórax; aqui ele entra apenas na leitura esplênica.
   - **O edema**, que a tabela da ascite mostra ser um dos achados mais informativos, tem semiotécnica e graduação em cruzes no tópico de pulso venoso jugular e turgência.
   - **A palpação do fígado e do baço**, que fecha o que a percussão apenas situou, é o tópico seguinte.
@@ -446,7 +446,7 @@ texto: |
   3. **Palpar o fígado no epigástrio e concluir hepatomegalia.** Ali a borda normalmente se afasta do rebordo, distando 3 a 5 cm do ângulo de Charpy.
   4. **Percutir imediatamente após virar o paciente.** A macicez móvel precisa de alguns segundos para se mover. Pressa produz falso-negativo.
   5. **Fazer o piparote sem a mão intermediária.** Sem ela, a onda pode viajar pelo subcutâneo da parede e gerar resposta falsamente positiva.
-  6. **Esquecer a bexiga.** Macicez suprapúbica em paciente que não urina há horas costuma ser retenção urinária, o **bexigoma** da linguagem de enfermaria (Semiologia Clínica), não massa; e a percussão repetida após a micção resolve a dúvida sem custo.
+  6. **Esquecer a bexiga.** Macicez suprapúbica em paciente que não urina há horas costuma ser retenção urinária, o **bexigoma** da linguagem de enfermaria, não massa; e a percussão repetida após a micção resolve a dúvida sem custo.
 :::
 
 ::: perola
@@ -488,7 +488,7 @@ perguntas:
       - "Indica ptose hepática, pois a submacicez encontrada abaixo do 5º espaço já significa fígado rebaixado, qualquer que seja o espaço"
       - "Indica hepatomegalia, porque o limite superior sobe quando o fígado aumenta, e o 6º espaço já está acima da faixa normal"
     corretaIndex: 1
-    explicacao: "Porto (Exame Clínico) situa no 5º ou 6º espaço intercostal direito o ponto em que a sonoridade pulmonar cede à submacicez; o tópico de percussão do tórax descreve a macicez franca começando abaixo da 6ª ou 7ª costela (Porto, Semiologia Médica). São dois pontos de referência sobre uma única zona de transição: a mesma gradação que o tópico do tórax ensina, com a nota ficando primeiro submaciça e depois maciça. Um limite encontrado abaixo dessa faixa sugere ptose hepática ou redução do volume do fígado, não aumento."
+    explicacao: "Situa-se no 5º ou 6º espaço intercostal direito o ponto em que a sonoridade pulmonar cede à submacicez; o tópico de percussão do tórax descreve a macicez franca começando abaixo da 6ª ou 7ª costela. São dois pontos de referência sobre uma única zona de transição: a mesma gradação que o tópico do tórax ensina, com a nota ficando primeiro submaciça e depois maciça. Um limite encontrado abaixo dessa faixa sugere ptose hepática ou redução do volume do fígado, não aumento."
   - id: perc-abd-2
     enunciado: Um paciente com aumento do volume abdominal tem timpanismo nos flancos à percussão. Qual é o peso dessa informação para o diagnóstico de ascite?
     alternativas:
@@ -506,7 +506,7 @@ perguntas:
       - "Para reduzir a dor da manobra em pacientes com ascite tensa"
       - "Para permitir a contagem das ondas líquidas transmitidas por minuto"
     corretaIndex: 0
-    explicacao: "A mão apoiada na linha média bloqueia a transmissão do impulso pelo tecido subcutâneo, de modo que o choque captado pela mão do examinador tenha atravessado a cavidade e não a parede. Sem esse cuidado, uma parede espessa pode gerar resposta positiva na ausência de líquido livre. Em ascites muito tensas, Porto observa que a mão do auxiliar pode ser dispensada."
+    explicacao: "A mão apoiada na linha média bloqueia a transmissão do impulso pelo tecido subcutâneo, de modo que o choque captado pela mão do examinador tenha atravessado a cavidade e não a parede. Sem esse cuidado, uma parede espessa pode gerar resposta positiva na ausência de líquido livre. Em ascites muito tensas, observa-se que a mão do auxiliar pode ser dispensada."
   - id: perc-abd-4
     enunciado: Uma mulher de 46 anos apresenta abdome volumoso. À percussão, a área de macicez não se modifica com as mudanças de decúbito e a linha de transição do semicírculo tem concavidade voltada para o púbis. Qual é a interpretação mais provável?
     alternativas:
@@ -517,7 +517,7 @@ perguntas:
     corretaIndex: 2
     explicacao: "Líquido livre se move com a gravidade: nas ascites, os limites entre macicez e timpanismo mudam com o decúbito, e o semicírculo de Skoda tem a concavidade voltada para cima. Nas neoplasias e cistos de ovário, a massa líquida tem continente próprio e limites precisos, a macicez não é móvel e a concavidade da linha de transição se volta para o púbis. As ascites septadas também não se deslocam, mas produzem lojas múltiplas e não uma única massa de limites bem definidos."
   - id: perc-abd-5
-    enunciado: Que conclusão a evidência reunida por McGee sustenta a respeito da hepatimetria obtida por percussão?
+    enunciado: Que conclusão a evidência reunida sustenta a respeito da hepatimetria obtida por percussão?
     alternativas:
       - "É uma medida precisa do tamanho do fígado, desde que o golpe seja forte, padronizado e sempre aplicado ao longo da mesma linha hemiclavicular direita, de cima para baixo"
       - "É um índice de tamanho, não uma medida: o examinador subestima o órgão e examinadores experientes divergem em média em 8 cm no mesmo paciente"
@@ -533,5 +533,5 @@ perguntas:
       - "Traube ocupado, e o primeiro ocupante a considerar é o baço que cresce"
       - "Ressonância skódica, a hipersonoridade que aparece na vizinhança dos derrames pleurais volumosos"
     corretaIndex: 2
-    explicacao: "'Traube livre' é o timpanismo esperado sobre o fundo do estômago, zona semilunar de cerca de 12 × 9 cm, projetada da 6ª à 9ª ou 10ª costela (Semiologia Clínica). 'Traube ocupado' é a macicez ou a submacicez ali onde deveria haver timpanismo, e o primeiro ocupante a considerar é o baço, que se expande nessa direção; derrames pleurais à esquerda e grandes massas também ocupam o espaço. O achado sugere, não decide: a palpação vem confirmar."
+    explicacao: "'Traube livre' é o timpanismo esperado sobre o fundo do estômago, zona semilunar de cerca de 12 × 9 cm, projetada da 6ª à 9ª ou 10ª costela. 'Traube ocupado' é a macicez ou a submacicez ali onde deveria haver timpanismo, e o primeiro ocupante a considerar é o baço, que se expande nessa direção; derrames pleurais à esquerda e grandes massas também ocupam o espaço. O achado sugere, não decide: a palpação vem confirmar."
 :::

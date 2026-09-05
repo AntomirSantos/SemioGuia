@@ -158,7 +158,7 @@ texto: |
 
   - **Mediolíneos**: linha hemiclavicular esquerda, no 5º espaço intercostal.
   - **Brevilíneos**: cerca de 2 cm para fora e para cima, no 4º espaço.
-  - **Longilíneos**: 5º espaço, 1 a 2 cm para dentro da linha hemiclavicular (o guia adota o Exame Clínico; a Semiologia Médica os situa no 6º espaço).
+  - **Longilíneos**: 5º espaço, 1 a 2 cm para dentro da linha hemiclavicular (posição que este guia adota; as referências divergem, e uma delas situa os longilíneos no 6º espaço).
 
   Em muita gente saudável o ictus simplesmente não é encontrado. Enfisema pulmonar, obesidade, musculatura peitoral desenvolvida e mamas volumosas o tornam invisível e impalpável. Em decúbito dorsal, o choque da ponta é palpável em cerca de 25 a 40% dos adultos; em decúbito lateral esquerdo, em 50 a 73%. Não achar o ictus, isoladamente, não é sinal de doença.
 :::
@@ -166,7 +166,7 @@ texto: |
 ::: conceito
 titulo: Extensão, intensidade e mobilidade
 texto: |
-  **Extensão.** Conte quantas polpas digitais recobrem o choque. Uma ou duas polpas, cerca de 2 a 3 cm, é o normal. Três ou mais sugerem hipertrofia; nas grandes dilatações, o ictus chega a ocupar toda a palma da mão. Medido em decúbito lateral esquerdo a 45°, um ictus com 4 cm ou mais aumenta a probabilidade de ventrículo esquerdo dilatado (McGee); um estudo clássico obteve bom desempenho já com o limiar de 3 cm (Eilen, 1983): a fronteira exata varia com a fonte, a direção não.
+  **Extensão.** Conte quantas polpas digitais recobrem o choque. Uma ou duas polpas, cerca de 2 a 3 cm, é o normal. Três ou mais sugerem hipertrofia; nas grandes dilatações, o ictus chega a ocupar toda a palma da mão. Medido em decúbito lateral esquerdo a 45°, um ictus com 4 cm ou mais aumenta a probabilidade de ventrículo esquerdo dilatado; um estudo clássico obteve bom desempenho já com o limiar de 3 cm (Eilen, 1983): a fronteira exata varia com a fonte, a direção não.
 
   **Intensidade.** Avalia-se melhor pela palpação do que pela inspeção, com a palma apoiada sobre a área de batimentos. Varia dentro do normal: é mais forte em pessoas magras, depois de exercício, na emoção e em qualquer estado que aumente a atividade cardíaca.
 

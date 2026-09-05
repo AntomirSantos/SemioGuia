@@ -6,6 +6,7 @@ import { Rotulo, RotuloDeSecao } from '../../design/Rotulo';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useConteudo } from '../../content/ContentContext';
 import { listarSistemas, listarTodosTopicos } from '../../content/store';
+import { BIBLIOGRAFIA } from '../../config/bibliografia';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useSync } from '../../sync/orquestrador';
 import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
@@ -373,6 +374,35 @@ export function TelaPerfil() {
         </Pressable>
       </View>
       <FolhaFeedback visivel={feedbackAberto} aoFechar={() => setFeedbackAberto(false)} />
+
+      <RotuloSecao>Bibliografia</RotuloSecao>
+      <Text
+        style={{
+          fontFamily: fonte.corpo,
+          fontSize: Math.round(tipo.small * escala),
+          color: paleta.tinta2,
+          marginBottom: espaco.s,
+        }}
+      >
+        As obras e fontes de onde todo o conteúdo do guia deriva. A prosa dos
+        tópicos afirma direto; a atribuição vive aqui.
+      </Text>
+      <View style={{ marginBottom: espaco.l }}>
+        {BIBLIOGRAFIA.map((obra) => (
+          <View key={obra} style={{ paddingVertical: espaco.s, borderBottomWidth: 1, borderBottomColor: paleta.linha }}>
+            <Text
+              style={{
+                fontFamily: fonte.corpo,
+                fontSize: Math.round(tipo.corpo * escala),
+                lineHeight: Math.round(tipo.corpo * escala * 1.4),
+                color: paleta.tinta,
+              }}
+            >
+              {obra}
+            </Text>
+          </View>
+        ))}
+      </View>
 
       <RotuloSecao>Imagens do guia</RotuloSecao>
       <Text

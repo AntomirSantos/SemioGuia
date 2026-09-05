@@ -208,7 +208,7 @@ texto: |
   Antes de procurar doença, é preciso saber onde o tórax normal já não soa claro.
 
   - **Acima e sobre as clavículas.** Som claro pulmonar já se obtém percutindo a própria clavícula, e ainda na faixa de 2,5 a 3 cm acima dela: o ápice sobe até ali.
-  - **À direita.** Sonoridade pulmonar em toda a face anterior até o 4º espaço intercostal, onde a nota se torna submaciça; a macicez franca do fígado instala-se no 5º a 6º espaço (o guia adota o Exame Clínico; a Semiologia Médica situa esse limite na altura da 6ª ou 7ª costela). Abaixo dele não há mais pulmão entre o fígado e a parede: descendo pela linha hemiclavicular, a transição nunca é abrupta.
+  - **À direita.** Sonoridade pulmonar em toda a face anterior até o 4º espaço intercostal, onde a nota se torna submaciça; a macicez franca do fígado instala-se no 5º a 6º espaço (posição que este guia adota; as referências divergem, e uma delas situa esse limite na altura da 6ª ou 7ª costela). Abaixo dele não há mais pulmão entre o fígado e a parede: descendo pela linha hemiclavicular, a transição nunca é abrupta.
   - **À esquerda.** O mesmo som claro até a região precordial, onde surge uma área de submacicez variável com o biotipo, de cerca de 5 cm, que ocupa a região mamária ao lado esquerdo do esterno, entre a 4ª e a 6ª costela. A submacicez é máxima no centro dessa área e vai se dissipando na periferia até voltar ao som claro.
   - **Abaixo e à esquerda.** A submacicez precordial dá lugar ao timpanismo do espaço de Traube, projeção do fundo do estômago.
   - **A coluna vertebral**, percutida, dá som claro atimpânico.
@@ -223,7 +223,7 @@ titulo: Por que o mesmo pulmão pode soar diferente
 texto: |
   O resultado da percussão não depende só do que existe sob o dedo: depende de como você bate.
 
-  Golpes leves produzem sons mais surdos que golpes fortes. Levantar minimamente o dedo plexímetro é suficiente para transformar uma nota sonora em maciça. Entre examinadores diferentes, a força e a velocidade do golpe variam em até três vezes, o que explica por que a concordância entre observadores na percussão topográfica é das piores de todo o exame físico (McGee).
+  Golpes leves produzem sons mais surdos que golpes fortes. Levantar minimamente o dedo plexímetro é suficiente para transformar uma nota sonora em maciça. Entre examinadores diferentes, a força e a velocidade do golpe variam em até três vezes, o que explica por que a concordância entre observadores na percussão topográfica é das piores de todo o exame físico.
 
   Daí as duas regras que fazem a percussão comparativa funcionar. Primeira: **mesma força dos dois lados**, a comparação só é válida se a única variável for o paciente. Segunda: **mesma orientação e mesma pressão do plexímetro** nos dois pontos.
 
@@ -245,7 +245,7 @@ titulo: Aprofundamento
 titulo: O que a percussão prediz
 nivel: avancado
 texto: |
-  Os números de McGee delimitam com precisão o alcance do método.
+  Os números a seguir delimitam com precisão o alcance do método.
 
   **Macicez assimétrica.** Eleva moderadamente a probabilidade de pneumonia em pacientes com febre e tosse (razão de verossimilhança 3,0), de qualquer anormalidade na radiografia de tórax (3,0) e de derrame pleural em pacientes internados por queixas respiratórias (4,8). A sensibilidade para pneumonia é baixíssima: de 4% a 26%.
 
@@ -255,20 +255,20 @@ texto: |
 
   Resumindo em uma frase: a percussão do tórax é um bom teste para **excluir derrame pleural** e para **reforçar a suspeita de obstrução crônica**; é um teste fraco para consolidações e inútil para lesões pequenas ou profundas.
 
-  Como em toda a semiologia do tórax, os valores exatos dependem da análise que os agrega: para a macicez no derrame há estimativas de até 8,7, e para a hipersonoridade na obstrução crônica, de até 9,5, variação de fonte, não de direção. Os números de McGee ficam como referência do guia.
+  Como em toda a semiologia do tórax, os valores exatos dependem da análise que os agrega: para a macicez no derrame há estimativas de até 8,7, e para a hipersonoridade na obstrução crônica, de até 9,5, variação de fonte, não de direção. Estes números ficam como referência do guia.
 :::
 
 ::: conceito
 titulo: Espaço de Traube
 nivel: avancado
 texto: |
-  O espaço de Traube é a área normalmente timpânica que ocupa o baixo da face anterior do hemitórax esquerdo e corresponde ao fundo do estômago. A forma que o guia adota é a da Semiologia Clínica, **semilunar, de cerca de 12 × 9 cm**; Porto o desenha como um triângulo, e os marcos são os mesmos nas duas descrições: **acima**, a submacicez cardíaca, em geral na altura da 6ª costela; **para baixo e para dentro**, a margem costal; **para fora**, a linha axilar anterior.
+  O espaço de Traube é a área normalmente timpânica que ocupa o baixo da face anterior do hemitórax esquerdo e corresponde ao fundo do estômago. A forma que este guia adota é **semilunar, de cerca de 12 × 9 cm**; as referências divergem, e uma delas o desenha como um triângulo, mas os marcos são os mesmos nas duas descrições: **acima**, a submacicez cardíaca, em geral na altura da 6ª costela; **para baixo e para dentro**, a margem costal; **para fora**, a linha axilar anterior.
 
   Serve para duas coisas.
 
   **Aprender o som timpânico.** É o único lugar do tórax normal onde ele existe. Percutir Traube repetidas vezes é o melhor treino para reconhecer timpanismo quando ele aparecer onde não deveria: no pneumotórax ou sobre uma grande caverna.
 
-  **Detectar esplenomegalia.** A perda do timpanismo é uma das primeiras manifestações do aumento do baço; nos grandes aumentos, a macicez alcança as regiões inframamária e axilar inferior. O desempenho é modesto: macicez do espaço de Traube eleva a probabilidade de esplenomegalia com razão de verossimilhança 2,1, e sua ausência quase não a reduz (0,8; McGee). É um sinal que sugere, não que decide.
+  **Detectar esplenomegalia.** A perda do timpanismo é uma das primeiras manifestações do aumento do baço; nos grandes aumentos, a macicez alcança as regiões inframamária e axilar inferior. O desempenho é modesto: macicez do espaço de Traube eleva a probabilidade de esplenomegalia com razão de verossimilhança 2,1, e sua ausência quase não a reduz. É um sinal que sugere, não que decide.
 
   Um cuidado de interpretação: a percussão da área cardíaca vizinha não tem valor prático para avaliar o volume do coração, isso ficou para a radiografia e a ecocardiografia, como discutido no tópico de inspeção e palpação do precórdio.
 :::
@@ -277,11 +277,11 @@ texto: |
 titulo: Limites e mobilidade das bases
 nivel: avancado
 texto: |
-  A percussão topográfica sobrevive em uma aplicação: acompanhar a posição e a excursão do diafragma. A técnica clássica (Porto) percute as duas regiões infraescapulares em vários níveis, marcando onde está cada hemicúpula antes e depois de uma inspiração e de uma expiração forçadas. À direita, a referência é a macicez hepática, que na inspiração profunda desce cerca de 5 cm.
+  A percussão topográfica sobrevive em uma aplicação: acompanhar a posição e a excursão do diafragma. A técnica clássica percute as duas regiões infraescapulares em vários níveis, marcando onde está cada hemicúpula antes e depois de uma inspiração e de uma expiração forçadas. À direita, a referência é a macicez hepática, que na inspiração profunda desce cerca de 5 cm.
 
   A leitura tradicional é coerente com a fisiologia. No **enfisema**, a cúpula se retifica e se abaixa: os limites da macicez hepática ficam mais baixos tanto na inspiração quanto na expiração. Nas **hepatomegalias**, ocorre o contrário: o órgão dificulta a própria descida inspiratória e o limite superior permanece alto.
 
-  Aqui as fontes divergem, e vale saber disso. McGee mostra que, em pacientes com doença pulmonar, o examinador **superestima** o movimento real do diafragma, errando de 1 a 3 cm em relação à radiografia, e que a correlação entre a excursão percutida e a real é fraca: coeficientes de 0,14 a 0,42, não significativos em metade das medidas. Uma excursão percutida menor que 2 cm mostrou-se sinal raro e pouco confiável de doença obstrutiva crônica.
+  Aqui as fontes divergem, e vale saber disso: em pacientes com doença pulmonar, o examinador **superestima** o movimento real do diafragma, errando de 1 a 3 cm em relação à radiografia, e que a correlação entre a excursão percutida e a real é fraca: coeficientes de 0,14 a 0,42, não significativos em metade das medidas. Uma excursão percutida menor que 2 cm mostrou-se sinal raro e pouco confiável de doença obstrutiva crônica.
 
   A resolução prática: use a percussão das bases para **comparar os dois lados**, uma base que não desce enquanto a outra desce localiza a lesão, e não para produzir um número em centímetros. A excursão medida à percussão não deve ser transcrita no prontuário como se fosse uma medida.
 :::
@@ -290,9 +290,9 @@ texto: |
 titulo: Até onde chega o golpe
 nivel: avancado
 texto: |
-  Quanto do pulmão a percussão realmente enxerga? A tradição semiológica responde com um número: as vibrações captam estruturas situadas no máximo a **cerca de 5 cm** do ponto de impacto (Porto), e só lesões dentro dessa profundidade, e grandes o bastante para mudar a densidade da região, modificam o som.
+  Quanto do pulmão a percussão realmente enxerga? A tradição semiológica responde com um número: as vibrações captam estruturas situadas no máximo a **cerca de 5 cm** do ponto de impacto, e só lesões dentro dessa profundidade, e grandes o bastante para mudar a densidade da região, modificam o som.
 
-  Esse é o enunciado da **teoria da percussão topográfica**, segundo a qual apenas os tecidos imediatamente sob o golpe determinam a nota, e a parede seria um mero transmissor. Ela ganhou o século XIX pela força de seus professores. McGee mostra que a evidência que a sustentava era escassa: a "regra dos vários centímetros" foi proposta por Weil em 1880 a partir de poucos experimentos em cadáveres.
+  Esse é o enunciado da **teoria da percussão topográfica**, segundo a qual apenas os tecidos imediatamente sob o golpe determinam a nota, e a parede seria um mero transmissor. Ela ganhou o século XIX pela força de seus professores. A evidência que a sustentava era escassa: a "regra dos vários centímetros" foi proposta por Weil em 1880 a partir de poucos experimentos em cadáveres.
 
   A teoria concorrente, a da **ressonância da caixa torácica**, sustenta que o som reflete a facilidade com que a parede inteira vibra, e reúne mais evidências a seu favor.
 

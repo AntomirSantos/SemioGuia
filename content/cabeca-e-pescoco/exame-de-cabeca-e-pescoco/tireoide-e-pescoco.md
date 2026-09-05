@@ -91,7 +91,7 @@ texto: |
   - **Linfonodos cervicais.** As cadeias, os níveis I a VI, as áreas de drenagem de cada uma, a técnica de palpação e os critérios de alarme estão no tópico de linfonodos. Aqui interessa apenas onde eles ficam em relação à tireoide e à traqueia, e o que diferencia um linfonodo de tudo o mais que se palpa no pescoço.
   - **Rigidez de nuca.** Porto a registra como sinal importante de irritação meníngea, e remete a outro capítulo. Este guia faz o mesmo: a pesquisa e a interpretação da rigidez de nuca pertencem ao capítulo do sistema nervoso.
 
-  O pescoço normal (Porto) tem formato quase cilíndrico e contorno regular. Na face anterior notam-se duas leves saliências oblíquas dirigidas para cima, que correspondem aos **esternocleidomastóideos**, e uma proeminência central, a **cartilagem tireoide**: o pomo de Adão, mais saliente nos homens. O esternocleidomastóideo separa o trígono anterior do trígono posterior. E o formato varia com o biotipo: curto e grosso nos brevilíneos, alongado e fino nos longilíneos, o que muda muito a dificuldade do exame.
+  O pescoço normal tem formato quase cilíndrico e contorno regular. Na face anterior notam-se duas leves saliências oblíquas dirigidas para cima, que correspondem aos **esternocleidomastóideos**, e uma proeminência central, a **cartilagem tireoide**: o pomo de Adão, mais saliente nos homens. O esternocleidomastóideo separa o trígono anterior do trígono posterior. E o formato varia com o biotipo: curto e grosso nos brevilíneos, alongado e fino nos longilíneos, o que muda muito a dificuldade do exame.
 :::
 
 ::: perola
@@ -117,7 +117,7 @@ passos:
   - "Registre volume, consistência, mobilidade, superfície, temperatura da pele, presença de frêmito e sopro e sensibilidade."
   - "Se a glândula estiver aumentada, ausculte a região correspondente e o trajeto dos vasos cervicais."
 observar: |
-  A flexão do pescoço, ou uma rotação discreta para um lado, relaxa o esternocleidomastóideo e facilita muito a palpação (Porto). É o ajuste que mais melhora o exame e o que menos se faz.
+  A flexão do pescoço, ou uma rotação discreta para um lado, relaxa o esternocleidomastóideo e facilita muito a palpação. É o ajuste que mais melhora o exame e o que menos se faz.
 
   A palpação da tireoide exige técnica firme, não delicada, mas exige também aviso. Mãos que fecham em volta do pescoço de alguém, vindo por trás, sem explicação prévia, produzem um paciente tenso e uma glândula que não se deixa palpar.
 :::
@@ -148,7 +148,7 @@ texto: |
 
   **Pele.** Procure sinais flogísticos (edema, calor, rubor e dor) e **fistulização**, tanto nas áreas que recobrem os linfonodos quanto na **linha média**, onde a fístula pode vir do ducto tireoglosso. Porto atribui grande importância diagnóstica ao encontro desses sinais. Registre também cicatrizes, que revelam traumas ou doenças anteriores, e, no pescoço, frequentemente uma cirurgia de tireoide que o paciente não mencionou.
 
-  **Forma e volume.** As alterações vêm de aumentos da tireoide, dos linfonodos, das parótidas ou de tumorações (Porto), e a **topografia já separa as hipóteses**:
+  **Forma e volume.** As alterações vêm de aumentos da tireoide, dos linfonodos, das parótidas ou de tumorações, e a **topografia já separa as hipóteses**:
 
   - **anteriores e na linha média**: tireoide, cisto do ducto tireoglosso, cisto dermoide;
   - **laterais, ao longo da borda anterior do esternocleidomastóideo**: cistos branquiais;
@@ -156,9 +156,9 @@ texto: |
   - **na parte lateral alta**, alcançando a face: parótidas;
   - **nos trígonos posteriores**: higromas císticos, linfangiomas, costela cervical.
 
-  **Posição.** A normal é mediana, seguindo o eixo da coluna. A alteração mais característica é o **torcicolo**. Doenças da coluna cervical (fratura, luxação, espondiloartrose) costumam vir acompanhadas de desvio do pescoço, quase sempre para o lado (Porto).
+  **Posição.** A normal é mediana, seguindo o eixo da coluna. A alteração mais característica é o **torcicolo**. Doenças da coluna cervical (fratura, luxação, espondiloartrose) costumam vir acompanhadas de desvio do pescoço, quase sempre para o lado.
 
-  **Mobilidade.** Compreende movimentação ativa e passiva. Peça flexão, extensão, rotação e lateralidade, e anote contratura, resistência e dor (Porto). É neste ponto do exame que se encontra a **rigidez de nuca**, sinal de irritação meníngea que este guia nomeia e reserva ao capítulo do sistema nervoso.
+  **Mobilidade.** Compreende movimentação ativa e passiva. Peça flexão, extensão, rotação e lateralidade, e anote contratura, resistência e dor. É neste ponto do exame que se encontra a **rigidez de nuca**, sinal de irritação meníngea que este guia nomeia e reserva ao capítulo do sistema nervoso.
 
   Semiologia Clínica acrescenta um dado que não é exatamente semiológico, mas que se colhe aqui: a **medida do diâmetro cervical** funciona como estimativa de risco: correlaciona-se tanto com o risco cardiovascular quanto com a apneia do sono.
 :::
@@ -166,7 +166,7 @@ texto: |
 ::: conceito
 titulo: Os reparos da linha média
 texto: |
-  Todo o exame da tireoide se apoia em quatro estruturas que a mão encontra na linha média, e vale treiná-las em si mesmo antes de procurá-las em um paciente. De cima para baixo (Semiologia Clínica):
+  Todo o exame da tireoide se apoia em quatro estruturas que a mão encontra na linha média, e vale treiná-las em si mesmo antes de procurá-las em um paciente. De cima para baixo:
 
   1. **Osso hioide**: rígido e móvel, situado logo abaixo da mandíbula, no ponto em que o assoalho da boca encontra o pescoço.
   2. **Cartilagem tireoide**: em forma de escudo, com chanfradura na borda superior; é o pomo de Adão, mais visível nos homens.
@@ -175,11 +175,11 @@ texto: |
 
   McGee elege duas delas como os reparos que decidem tudo: **a proeminência laríngea da cartilagem tireoide** e **a cartilagem cricoide**, separadas em geral por cerca de 3 cm, e as estruturas mais conspícuas da linha média do pescoço. A tireoide mantém com elas uma relação constante: **o istmo fica logo abaixo da cricoide**, e a proeminência laríngea fica cerca de 4 cm acima do istmo.
 
-  A traqueia também se avalia aqui. Compare o espaço entre ela e cada esternocleidomastóideo, que deve ser simétrico; desvios aparecem com massas cervicais e intratorácicas e com pneumotórax importante (Semiologia Clínica), e também nas atelectasias, como ensina o tópico de ausculta pulmonar.
+  A traqueia também se avalia aqui. Compare o espaço entre ela e cada esternocleidomastóideo, que deve ser simétrico; desvios aparecem com massas cervicais e intratorácicas e com pneumotórax importante, e também nas atelectasias, como ensina o tópico de ausculta pulmonar.
 
-  Uma nota sobre os trígonos, que organizam o pescoço para o registro (Semiologia Clínica). O **trígono anterior** é limitado acima pela mandíbula, à frente pela linha média e atrás pela borda anterior do esternocleidomastóideo, e contém glândulas salivares, as estruturas vasculares, as cartilagens da laringe, a tireoide, as tonsilas e os linfonodos que drenam tudo isso. O **trígono posterior** tem a clavícula abaixo, o trapézio atrás e a borda posterior do esternocleidomastóideo à frente, e contém sobretudo músculos e os linfonodos que drenam o couro cabeludo e a parte posterior da cabeça: os que aumentam na mononucleose e nas infecções de vias aéreas superiores.
+  Uma nota sobre os trígonos, que organizam o pescoço para o registro. O **trígono anterior** é limitado acima pela mandíbula, à frente pela linha média e atrás pela borda anterior do esternocleidomastóideo, e contém glândulas salivares, as estruturas vasculares, as cartilagens da laringe, a tireoide, as tonsilas e os linfonodos que drenam tudo isso. O **trígono posterior** tem a clavícula abaixo, o trapézio atrás e a borda posterior do esternocleidomastóideo à frente, e contém sobretudo músculos e os linfonodos que drenam o couro cabeludo e a parte posterior da cabeça: os que aumentam na mononucleose e nas infecções de vias aéreas superiores.
 
-  Os **níveis cervicais I a VI**, usados sobretudo pelos cirurgiões, já foram ensinados com suas áreas de drenagem no tópico de linfonodos. Vale registrar aqui apenas como eles se ancoram nos mesmos reparos deste tópico: o nível II vai da base do crânio ao hioide, o III do hioide à borda inferior da cricoide, e o IV da cricoide à clavícula (Semiologia Clínica). Os reparos da tireoide são também as fronteiras das cadeias.
+  Os **níveis cervicais I a VI**, usados sobretudo pelos cirurgiões, já foram ensinados com suas áreas de drenagem no tópico de linfonodos. Vale registrar aqui apenas como eles se ancoram nos mesmos reparos deste tópico: o nível II vai da base do crânio ao hioide, o III do hioide à borda inferior da cricoide, e o IV da cricoide à clavícula. Os reparos da tireoide são também as fronteiras das cadeias.
 :::
 
 ::: secao
@@ -252,11 +252,11 @@ legenda: "A cricoide é o reparo que resolve o exame: o istmo fica logo abaixo d
 ::: conceito
 titulo: Onde ela está, e por que às vezes não se acha
 texto: |
-  A tireoide tem formato de borboleta: **dois lobos unidos por um istmo estreito**, na base do pescoço, envolvendo a traqueia pela frente e pelos lados (Semiologia Clínica). Cada lobo mede cerca de **4 a 5 cm** de altura, número em que Semiologia Clínica e McGee concordam, e se estende desde o meio da cartilagem tireoide até o quinto ou sexto anel traqueal (McGee). O istmo cobre, segundo McGee e a Semiologia Clínica, do **segundo ao quarto anéis traqueais**. As dimensões atribuídas ao istmo diferem entre os textos, provavelmente porque medem eixos diferentes; o que interessa à mão é a posição, e nela há acordo: **logo abaixo da cricoide**.
+  A tireoide tem formato de borboleta: **dois lobos unidos por um istmo estreito**, na base do pescoço, envolvendo a traqueia pela frente e pelos lados. Cada lobo mede cerca de **4 a 5 cm** de altura, número em que Semiologia Clínica e McGee concordam, e se estende desde o meio da cartilagem tireoide até o quinto ou sexto anel traqueal. O istmo cobre, segundo McGee e a Semiologia Clínica, do **segundo ao quarto anéis traqueais**. As dimensões atribuídas ao istmo diferem entre os textos, provavelmente porque medem eixos diferentes; o que interessa à mão é a posição, e nela há acordo: **logo abaixo da cricoide**.
 
-  Um detalhe anatômico que aparece na palpação: o **lobo piramidal**, presente em até 50% das dissecções anatômicas, em geral do lado esquerdo, palpável em cerca de 10% dos bócios não tóxicos e raramente em glândulas de tamanho normal (McGee).
+  Um detalhe anatômico que aparece na palpação: o **lobo piramidal**, presente em até 50% das dissecções anatômicas, em geral do lado esquerdo, palpável em cerca de 10% dos bócios não tóxicos e raramente em glândulas de tamanho normal.
 
-  E aqui entra a explicação para dois fracassos comuns do exame. A tireoide guarda relação constante com a proeminência laríngea e com a cricoide, **mas a posição dessas estruturas dentro do pescoço varia muito entre pacientes** (McGee):
+  E aqui entra a explicação para dois fracassos comuns do exame. A tireoide guarda relação constante com a proeminência laríngea e com a cricoide, **mas a posição dessas estruturas dentro do pescoço varia muito entre pacientes**:
 
   - Se a proeminência laríngea e a fúrcula esternal estiverem **muito afastadas, mais de 10 cm**, o paciente tem uma **tireoide alta**, conspícua, que parece bócio mesmo tendo tamanho normal.
   - Se estiverem **muito próximas, menos de 5 cm**, a **tireoide baixa** se esconde atrás dos esternocleidomastóideos e das clavículas, e a palpação completa se torna impossível. Tireoides baixas são mais comuns em idosos.
@@ -267,7 +267,7 @@ texto: |
 ::: conceito
 titulo: A inspeção, e o gole de água
 texto: |
-  A inspeção da tireoide tem duas manobras que a tornam conspícua (McGee):
+  A inspeção da tireoide tem duas manobras que a tornam conspícua:
 
   - **Estender o pescoço**, o que eleva a traqueia, e com ela a glândula, cerca de 3 cm em relação à fúrcula esternal, além de esticar a pele sobre a tireoide.
   - **Olhar o pescoço de perfil.** Em pacientes com tireoide normal ou alta, a linha entre a proeminência da cricoide e a fúrcula esternal, vista de lado, deve ser **reta**. Um **arqueamento anterior** dessa linha sugere bócio, pelo aumento do istmo. A manobra não funciona em tireoides baixas, porque ali a linha não é visível.
@@ -292,14 +292,14 @@ titulo: "A palpação: duas abordagens, e uma divergência de dedos"
 texto: |
   A escolha da abordagem é livre. McGee é explícito: os estudos **não demonstram superioridade** de palpar por trás ou pela frente, e a escolha deve seguir o que for mais confortável e eficaz para o examinador. O que ele exige é o resto: **pescoço levemente fletido**, para relaxar o esternocleidomastóideo e o esterno-hióideo, e **técnica firme**.
 
-  **Abordagem posterior.** Paciente sentado, examinador de pé atrás dele. As duas mãos envolvem o pescoço, com os polegares apoiados na nuca e as pontas dos dedos indicador e médio de cada lado quase se encontrando sobre a linha média (Porto).
+  **Abordagem posterior.** Paciente sentado, examinador de pé atrás dele. As duas mãos envolvem o pescoço, com os polegares apoiados na nuca e as pontas dos dedos indicador e médio de cada lado quase se encontrando sobre a linha média.
 
-  **Abordagem anterior.** Paciente sentado ou de pé, examinador à sua frente, no mesmo nível (Porto).
+  **Abordagem anterior.** Paciente sentado ou de pé, examinador à sua frente, no mesmo nível.
 
   Até aqui as fontes coincidem. A partir daqui, **divergem quanto a quais dedos fazem o quê**, e vale saber que a divergência existe antes de decorar uma das versões como se fosse a única:
 
-  - **Porto (*Exame Clínico*, cap. 15)**: na abordagem posterior, o lobo direito cabe aos dedos médio e indicador da **mão direita**; o esquerdo, aos mesmos dedos da mão esquerda. Na abordagem anterior, são os **indicadores e médios** que palpam, com os polegares apoiados sobre o tórax, e o lobo direito é palpado pela mão esquerda.
-  - **Porto (*Semiologia Médica*, cap. 103)**: na abordagem posterior, quem palpa o lobo direito é a **mão esquerda**, cabendo à mão oposta **afastar o esternocleidomastóideo**. Na abordagem anterior, são os **polegares** que palpam, enquanto os demais dedos se apoiam nas regiões supraclaviculares. O texto descreve ainda uma terceira manobra, com uma única mão percorrendo toda a área da glândula.
+  - **Porto**: na abordagem posterior, o lobo direito cabe aos dedos médio e indicador da **mão direita**; o esquerdo, aos mesmos dedos da mão esquerda. Na abordagem anterior, são os **indicadores e médios** que palpam, com os polegares apoiados sobre o tórax, e o lobo direito é palpado pela mão esquerda.
+  - **Porto**: na abordagem posterior, quem palpa o lobo direito é a **mão esquerda**, cabendo à mão oposta **afastar o esternocleidomastóideo**. Na abordagem anterior, são os **polegares** que palpam, enquanto os demais dedos se apoiam nas regiões supraclaviculares. O texto descreve ainda uma terceira manobra, com uma única mão percorrendo toda a área da glândula.
   - **Semiologia Clínica**, descreve o gesto pelo movimento, e não pelos dedos: uma das mãos **empurra delicadamente a traqueia para o lado oposto** ao que vai ser palpado, e a outra explora a região, primeiro lateralmente ao esternocleidomastóideo, depois medialmente a ele e por fim contra a traqueia. Na abordagem anterior, o mesmo empurrão é feito com o polegar de uma das mãos, e o polegar da outra procura o lobo.
 
   **O guia adota a descrição da Semiologia Clínica (pelo movimento, não pelos dedos**) que é também o denominador comum das três: **uma mão desloca a traqueia ou o músculo, a outra procura o lobo do lado que ficou exposto**. Faça isso e a nomenclatura dos dedos, em que as duas obras de Porto divergem entre si, deixa de ser um problema.
@@ -310,7 +310,7 @@ texto: |
 ::: conceito
 titulo: O que descrever, e o que a palpação normal encontra
 texto: |
-  Porto (*Exame Clínico*) lista sete itens a registrar, e eles funcionam como um roteiro de prontuário:
+  Porto lista sete itens a registrar, e eles funcionam como um roteiro de prontuário:
 
   - **Volume**: normal ou aumentado; se aumentado, difuso ou segmentar. Qualquer aumento recebe o nome de **bócio**.
   - **Superfície**: lisa, nodular ou irregular.
@@ -320,19 +320,19 @@ texto: |
   - **Temperatura da pele** que a recobre: normal ou quente.
   - **Frêmito e sopro**: presentes ou ausentes.
 
-  E como é a glândula normal quando palpável? Porto (*Exame Clínico*) responde: **lisa, elástica, com consistência de tecido muscular, móvel, indolor, com temperatura de pele normal e sem frêmito**.
+  E como é a glândula normal quando palpável? Porto responde: **lisa, elástica, com consistência de tecido muscular, móvel, indolor, com temperatura de pele normal e sem frêmito**.
 
   Sobre **se ela deve ser palpável**, as três fontes discordam, e a diferença muda o que o examinador considera achado:
 
-  - **Porto (*Exame Clínico*)**: há pessoas normais em que a glândula **se palpa** e outras em que ela **não se palpa**.
-  - **Porto (*Semiologia Médica*)**: em muitas pessoas sem doença a glândula **se palpa**, e o lobo direito costuma ser discretamente maior do que o esquerdo.
+  - **Porto**: há pessoas normais em que a glândula **se palpa** e outras em que ela **não se palpa**.
+  - **Porto**: em muitas pessoas sem doença a glândula **se palpa**, e o lobo direito costuma ser discretamente maior do que o esquerdo.
   - **Semiologia Clínica**: a glândula normal **não deveria ser vista nem sentida**; em pessoas magras e de pescoço fino é possível encontrá-la sem que exista alteração, mas em geral **só se torna palpável a partir do dobro do tamanho**.
 
   **O guia adota a posição da Semiologia Clínica**: a glândula normal, em regra, não deveria ser vista nem sentida, com a exceção das pessoas magras de pescoço fino, e as duas posições de Porto ficam registradas; a divergência provavelmente reflete populações e limiares diferentes. Os dados de McGee apoiam a escolha: como se verá adiante, **palpar uma glândula sem enxergá-la não distingue bócio de tireoide normal**. Registre o que sentiu, mas não construa diagnóstico de bócio sobre uma palpação isolada.
 
   Duas advertências de Semiologia Clínica fecham a técnica. Primeira: confunde-se com frequência o crescimento da tireoide com um pescoço largo por outro motivo, constituição ou obesidade, e nesses casos **a palpação não consegue delimitar a glândula**. Segunda: **dor à palpação sugere infecção ou inflamação agudas**, e um sangramento recente dentro de um nódulo também pode doer, pela distensão da cápsula.
 
-  **Ausculta.** Se a tireoide estiver aumentada, ausculte a região correspondente (Porto). Em condições normais não se ouvem sopros no pescoço, com a exceção do **rumor venoso**, relativamente comum em crianças. Frêmito e sopro denunciam aumento do fluxo sanguíneo na glândula, achado bastante sugestivo de bócio tóxico (Porto). Semiologia Clínica acrescenta que, na doença de Graves, o sopro pode ser **contínuo**: sistólico e diastólico.
+  **Ausculta.** Se a tireoide estiver aumentada, ausculte a região correspondente. Em condições normais não se ouvem sopros no pescoço, com a exceção do **rumor venoso**, relativamente comum em crianças. Frêmito e sopro denunciam aumento do fluxo sanguíneo na glândula, achado bastante sugestivo de bócio tóxico. Semiologia Clínica acrescenta que, na doença de Graves, o sopro pode ser **contínuo**: sistólico e diastólico.
 :::
 
 ::: pense
@@ -349,7 +349,7 @@ titulo: Bócio e estado funcional
 ::: conceito
 titulo: O vocabulário do bócio
 texto: |
-  **Bócio** é simplesmente o aumento de volume da tireoide, a ponto de ela se tornar palpável ou visível (Porto). A partir daí, duas classificações se cruzam.
+  **Bócio** é simplesmente o aumento de volume da tireoide, a ponto de ela se tornar palpável ou visível. A partir daí, duas classificações se cruzam.
 
   **Pela forma:**
 
@@ -363,13 +363,13 @@ texto: |
 
   Porto descreve ainda uma gradação de visibilidade que antecipa o que os dados vão confirmar: **no bócio pequeno a glândula apenas se palpa, e só aparece à inspeção quando o pescoço é estendido**; num grau maior ela já se vê com a cabeça em posição habitual e durante a deglutição; nos casos mais evidentes, ver e palpar são igualmente fáceis.
 
-  **A causa mais comum no mundo é a carência de iodo**: na água ou nos alimentos (Porto; McGee registra o mesmo). Semiologia Clínica explica o mecanismo, e ele é contraintuitivo: sem iodo, a produção hormonal cai, o hormônio tireoestimulante sobe, e como ele estimula também a reprodução celular no tecido tireoidiano, a glândula hipertrofia, mas continua produzindo pouco. O resultado é **um bócio grande com hipotireoidismo**.
+  **A causa mais comum no mundo é a carência de iodo**: na água ou nos alimentos. Semiologia Clínica explica o mecanismo, e ele é contraintuitivo: sem iodo, a produção hormonal cai, o hormônio tireoestimulante sobe, e como ele estimula também a reprodução celular no tecido tireoidiano, a glândula hipertrofia, mas continua produzindo pouco. O resultado é **um bócio grande com hipotireoidismo**.
 
   O contraste com a **doença de Graves** ajuda a fixar: ali, autoanticorpos se ligam ao receptor do hormônio tireoestimulante e mandam à glândula uma mensagem errada, estimulando ao mesmo tempo a produção hormonal e a hipertrofia, **glândula grande com hipertireoidismo**. E na **doença de Plummer**, responsável por cerca de 10% dos casos de hipertireoidismo segundo Semiologia Clínica, um nódulo com características de adenoma se torna autônomo: **glândula de dimensões normais com hipertireoidismo**, e um nódulo que pode nem ser palpável.
 
   Em áreas industrializadas, McGee registra que o bócio ocorre em até 10% das mulheres e 2% dos homens, tendo como causas habituais o bócio multinodular, a tireoidite de Hashimoto e a doença de Graves. E dá a proporção funcional que organiza a expectativa clínica: **cerca de 80% dos pacientes com bócio estão clinicamente eutireóideos**; 10% são hipotireóideos e 10%, hipertireóideos.
 
-  **Tireoidites.** Porto descreve quatro tipos: aguda, por invasão bacteriana; subaguda, viral ou autoimune; de **Hashimoto**, doença autoimune que pode determinar hiperfunção na fase inicial e evoluir com frequência para hipotireoidismo; e de Riedel, muito rara. Um achado que vale reconhecer: **tireoide dolorosa ou hipersensível, às vezes simulando faringite**, sugere tireoidite subaguda ou hemorragia para dentro de um cisto ou nódulo, embora a maioria das hemorragias tireoidianas seja indolor (McGee). Na tireoidite subaguda, a glândula fica modestamente aumentada, em geral de 1,5 a 3 vezes o tamanho normal.
+  **Tireoidites.** Porto descreve quatro tipos: aguda, por invasão bacteriana; subaguda, viral ou autoimune; de **Hashimoto**, doença autoimune que pode determinar hiperfunção na fase inicial e evoluir com frequência para hipotireoidismo; e de Riedel, muito rara. Um achado que vale reconhecer: **tireoide dolorosa ou hipersensível, às vezes simulando faringite**, sugere tireoidite subaguda ou hemorragia para dentro de um cisto ou nódulo, embora a maioria das hemorragias tireoidianas seja indolor. Na tireoidite subaguda, a glândula fica modestamente aumentada, em geral de 1,5 a 3 vezes o tamanho normal.
 :::
 
 ::: sinal
@@ -432,9 +432,9 @@ texto: |
 
   Um sinal com dono duplo merece nota: a **disfonia**. Como o nervo laríngeo recorrente tem trajeto intimamente associado à tireoide, a rouquidão persistente levanta a hipótese de prega vocal paralisada por compressão ou invasão do nervo, e por isso Semiologia Clínica considera **mandatório examinar a tireoide** diante dela.
 
-  A regra de tempo que organiza a conduta: **toda lesão cervical que dure mais de quatro semanas indica investigação**, feita por punção aspirativa com agulha fina, e não por biópsia excisional, pelo risco de disseminação no trajeto do acesso quando a lesão for neoplásica (Semiologia Clínica). Massas de origem infecciosa ou inflamatória tendem a se resolver dentro de algumas semanas.
+  A regra de tempo que organiza a conduta: **toda lesão cervical que dure mais de quatro semanas indica investigação**, feita por punção aspirativa com agulha fina, e não por biópsia excisional, pelo risco de disseminação no trajeto do acesso quando a lesão for neoplásica. Massas de origem infecciosa ou inflamatória tendem a se resolver dentro de algumas semanas.
 
-  E a lista de sinais de alerta que antecipam esse prazo (Semiologia Clínica, Tabela 4): **nódulo indolor, aderido ou de crescimento progressivo; duração acima de duas semanas; idade acima de 40 anos; rouquidão persistente; disfagia; trismo ou otalgia; perda de peso; e lesão suspeita de mucosa associada**. Diante de qualquer um deles, a investigação começa antes.
+  E a lista de sinais de alerta que antecipam esse prazo: **nódulo indolor, aderido ou de crescimento progressivo; duração acima de duas semanas; idade acima de 40 anos; rouquidão persistente; disfagia; trismo ou otalgia; perda de peso; e lesão suspeita de mucosa associada**. Diante de qualquer um deles, a investigação começa antes.
 :::
 
 ::: perola
@@ -446,7 +446,7 @@ titulo: Aprofundamento
 :::
 
 ::: tabela
-titulo: Detecção de bócio pelo exame físico (McGee)
+titulo: Detecção de bócio pelo exame físico
 nivel: avancado
 colunas:
   - "Achado"
@@ -480,28 +480,28 @@ texto: |
 
   Três situações explicam boa parte dos erros que a tabela quantifica: a glândula que parece grande sem ser, o nódulo que existe e não se palpa, e o linfonodo que se confunde com a glândula.
 
-  **Pseudobócio** é a glândula que parece aumentada sem estar (McGee). Três causas:
+  **Pseudobócio** é a glândula que parece aumentada sem estar. Três causas:
 
   1. **Tireoide alta.** Normal em tamanho, mas situada tão alto no pescoço que fica conspícua depois da extensão. Nesses pacientes, a proeminência laríngea está 10 cm ou mais acima da fúrcula esternal e os dois lobos são menores que a falange distal do polegar do paciente. Em um estudo, tireoides altas de tamanho normal responderam por **8%** dos casos encaminhados a um serviço de endocrinologia como suspeita de bócio.
   2. **Outras massas cervicais**: tecido adiposo, linfonodos, cistos branquiais, divertículos faríngeos. A observação durante a deglutição ajuda a identificá-las, com os três critérios já descritos.
   3. **Síndrome de Modigliani**: tireoide de tamanho normal repousando sobre uma lordose cervical exagerada. O nome homenageia o pintor Amedeo Modigliani, cujos retratos tinham pescoços longos e curvos.
 
-  **Nódulos ocultos.** Nódulos tireoidianos são palpáveis em cerca de 5% das mulheres e 1% dos homens (McGee): número próximo ao de Porto (*Semiologia Médica*), que registra ocorrência de 4 a 5% na população. Mas **a ultrassonografia e as séries de autópsia encontram nódulos em até 50%** dos pacientes, e Porto registra prevalência de 20% ao exame ultrassonográfico. Ou seja: a maioria dos nódulos tireoidianos é oculta ao exame físico.
+  **Nódulos ocultos.** Nódulos tireoidianos são palpáveis em cerca de 5% das mulheres e 1% dos homens: número próximo ao de Porto, que registra ocorrência de 4 a 5% na população. Mas **a ultrassonografia e as séries de autópsia encontram nódulos em até 50%** dos pacientes, e Porto registra prevalência de 20% ao exame ultrassonográfico. Ou seja: a maioria dos nódulos tireoidianos é oculta ao exame físico.
 
-  Os números explicam por quê (McGee):
+  Os números explicam por quê:
 
   - o diâmetro médio de um nódulo palpável é de **3 cm**;
   - a palpação **deixa de detectar 50%** dos nódulos menores que 2 cm e **mais de 90%** dos menores que 1 cm;
   - quando o examinador palpa um **único** nódulo, a ultrassonografia revela **múltiplos nódulos em metade das vezes**;
   - nódulos escapam também porque o pescoço é curto ou espesso, ou porque estão nas porções posteriores da glândula.
 
-  Uma tranquilidade compensa o susto: **mais de 95% dos nódulos correspondem a afecções benignas**, cistos coloides, adenomas ou nódulos dominantes de uma glândula multinodular (McGee).
+  Uma tranquilidade compensa o susto: **mais de 95% dos nódulos correspondem a afecções benignas**, cistos coloides, adenomas ou nódulos dominantes de uma glândula multinodular.
 
-  **O nódulo de Delfos.** É um linfonodo que drena a tireoide e a laringe, situado na **linha média, logo acima do istmo, à frente do ligamento cricotireóideo**: posição superficial que o torna facilmente palpável contra a cricoide, que não cede (McGee). Aumenta em alguns pacientes com câncer de tireoide, tireoidite de Hashimoto e câncer de laringe, e seu acometimento nos dois cânceres associa-se a pior prognóstico. O nome vem do fato de ser o primeiro linfonodo exposto na cirurgia: sua aparência anuncia o que o cirurgião vai encontrar na glândula, como o oráculo de Delfos anunciava o futuro.
+  **O nódulo de Delfos.** É um linfonodo que drena a tireoide e a laringe, situado na **linha média, logo acima do istmo, à frente do ligamento cricotireóideo**: posição superficial que o torna facilmente palpável contra a cricoide, que não cede. Aumenta em alguns pacientes com câncer de tireoide, tireoidite de Hashimoto e câncer de laringe, e seu acometimento nos dois cânceres associa-se a pior prognóstico. O nome vem do fato de ser o primeiro linfonodo exposto na cirurgia: sua aparência anuncia o que o cirurgião vai encontrar na glândula, como o oráculo de Delfos anunciava o futuro.
 :::
 
 ::: tabela
-titulo: Achados que predizem carcinoma (McGee)
+titulo: Achados que predizem carcinoma
 nivel: avancado
 colunas:
   - "Achado"
@@ -547,25 +547,25 @@ texto: |
 
   Vale reconciliar esses números com a lista de sinais de alerta de Semiologia Clínica. Os dois textos apontam para o mesmo lugar: rouquidão persistente, adenomegalia cervical e nódulo aderido aparecem nas duas listas. Semiologia Clínica acrescenta itens de anamnese: idade acima de 40 anos, duração, perda de peso, crescimento progressivo, disfagia, trismo ou otalgia, que McGee não quantifica. As listas se somam; não se contradizem.
 
-  Um dado de contexto que ajuda a calibrar o susto: os carcinomas papilares e foliculares, de crescimento lento e bem diferenciados, respondem por 80% a 90% das neoplasias tireoidianas (Semiologia Clínica). Porto (*Exame Clínico*) registra a mesma evolução lenta do carcinoma tireoidiano e lembra que **é o exame citológico que define o diagnóstico**.
+  Um dado de contexto que ajuda a calibrar o susto: os carcinomas papilares e foliculares, de crescimento lento e bem diferenciados, respondem por 80% a 90% das neoplasias tireoidianas. Porto registra a mesma evolução lenta do carcinoma tireoidiano e lembra que **é o exame citológico que define o diagnóstico**.
 :::
 
 ::: conceito
 titulo: O bócio que desce para o tórax e o sinal de Pemberton
 nivel: avancado
 texto: |
-  Bócios grandes podem se estender do pescoço para o mediastino superior, atravessando o **desfiladeiro torácico**: o anel ósseo inflexível formado pela parte superior do esterno, pelas primeiras costelas e pelo primeiro corpo vertebral torácico (McGee). Semiologia Clínica chama esse crescimento inferior de **bócio subesternal** ou **mergulhante**.
+  Bócios grandes podem se estender do pescoço para o mediastino superior, atravessando o **desfiladeiro torácico**: o anel ósseo inflexível formado pela parte superior do esterno, pelas primeiras costelas e pelo primeiro corpo vertebral torácico. Semiologia Clínica chama esse crescimento inferior de **bócio subesternal** ou **mergulhante**.
 
   Ali, o bócio pode comprimir traqueia, esôfago e veias do pescoço, produzindo **dispneia, disfagia, pletora facial, tosse e rouquidão**. Porto lista os mesmos sintomas de compressão (dispneia, disfagia e rouquidão) decorrentes da compressão da traqueia, do esôfago ou do nervo laríngeo por bócios volumosos ou de crescimento rápido.
 
-  Os achados associados, segundo McGee, são úteis para suspeitar:
+  Os achados associados, são úteis para suspeitar:
 
   - **bócio cervical palpável acima do desfiladeiro** em 75% a 90% dos pacientes com bócio subesternal: o que significa que o exame do pescoço quase sempre dá o aviso;
   - **desvio da traqueia** em cerca de 33% à palpação e 75% à radiografia de tórax;
   - **veias cervicais distendidas** em 5% a 20%;
   - **estridor** em 7% a 16%.
 
-  **O sinal de Pemberton.** A manobra é simples: pede-se ao paciente que **eleve os braços até encostarem nas laterais da cabeça** e mantenha a posição por algum tempo (Semiologia Clínica). O sinal é positivo quando surge **ingurgitamento facial com dilatação das veias cervicais**; a face pode se tornar cianótica após 1 a 2 minutos.
+  **O sinal de Pemberton.** A manobra é simples: pede-se ao paciente que **eleve os braços até encostarem nas laterais da cabeça** e mantenha a posição por algum tempo. O sinal é positivo quando surge **ingurgitamento facial com dilatação das veias cervicais**; a face pode se tornar cianótica após 1 a 2 minutos.
 
   A explicação mecânica de McGee é a melhor parte, e é o que torna o sinal memorável: elevar os braços **puxa o desfiladeiro torácico para cima, para dentro do bócio**, como se a tireoide fosse a rolha e o desfiladeiro, o gargalo da garrafa. Uma tireoide de tamanho normal é pequena demais para obstruir o desfiladeiro; um bócio suficientemente grande, que se estenda abaixo do esterno, obstrui.
 
@@ -639,12 +639,12 @@ titulo: Armadilhas do exame
 ::: conceito
 titulo: Seis erros no exame do pescoço e da tireoide
 texto: |
-  1. **Diagnosticar bócio por uma palpação sutil.** Glândula palpável que só fica visível depois de estender o pescoço **não distingue** bócio de tireoide normal (McGee). O achado que decide é o par palpável e visível na posição normal.
+  1. **Diagnosticar bócio por uma palpação sutil.** Glândula palpável que só fica visível depois de estender o pescoço **não distingue** bócio de tireoide normal. O achado que decide é o par palpável e visível na posição normal.
   2. **Concluir que a tireoide é normal porque não foi palpada.** A ausência de bócio ao exame reduz pouco a probabilidade (0,4), e tireoides baixas, mais comuns em idosos, escondem-se atrás das clavículas e dos esternocleidomastóideos.
-  3. **Confundir pescoço largo com bócio.** O aumento do diâmetro cervical constitucional ou por obesidade imita bócio; nesses casos, a palpação não consegue delimitar a glândula (Semiologia Clínica). A tireoide alta produz a mesma ilusão em pessoas magras.
+  3. **Confundir pescoço largo com bócio.** O aumento do diâmetro cervical constitucional ou por obesidade imita bócio; nesses casos, a palpação não consegue delimitar a glândula. A tireoide alta produz a mesma ilusão em pessoas magras.
   4. **Palpar sem pedir que o paciente engula.** A deglutição é o que separa tireoide de tudo o mais no pescoço, e o padrão do movimento (subida, hesitação, descida) é tão característico que serve de critério.
-  5. **Ler o exame físico da tireoide como se ele informasse a função.** Não informa (Porto). O estado funcional se lê no pulso, na pele, nas pálpebras, na fácies e nos exames complementares.
-  6. **Tratar frêmito e sopro como prova de doença de Graves.** O sopro tireoidiano aparece em 73% dos pacientes com Graves, mas também em 30% de idosos com bócio nodular tóxico, e pode ser um sopro carotídeo irradiado (McGee).
+  5. **Ler o exame físico da tireoide como se ele informasse a função.** Não informa. O estado funcional se lê no pulso, na pele, nas pálpebras, na fácies e nos exames complementares.
+  6. **Tratar frêmito e sopro como prova de doença de Graves.** O sopro tireoidiano aparece em 73% dos pacientes com Graves, mas também em 30% de idosos com bócio nodular tóxico, e pode ser um sopro carotídeo irradiado.
 :::
 
 ::: perola
@@ -686,7 +686,7 @@ perguntas:
       - "É uma tireoide baixa, comum em idosos, escondida atrás dos esternocleidomastóideos e das clavículas, e impalpável não significa normal"
       - "É uma tireoide alta, que parece bócio mesmo tendo tamanho normal, variação frequente nessa faixa etária"
     corretaIndex: 2
-    explicacao: "A tireoide guarda relação constante com a proeminência laríngea e com a cricoide, mas a posição dessas estruturas dentro do pescoço varia muito entre pacientes (McGee). Quando a proeminência laríngea e a fúrcula distam menos de 5 cm, a tireoide baixa, mais comum em idosos, esconde-se atrás dos esternocleidomastóideos e das clavículas, e a palpação completa se torna impossível. O quadro oposto, com distância acima de 10 cm, é a tireoide alta, conspícua, que parece bócio sem ser. Daí a regra: nem toda tireoide que parece grande é grande, e nem toda tireoide impalpável é normal."
+    explicacao: "A tireoide guarda relação constante com a proeminência laríngea e com a cricoide, mas a posição dessas estruturas dentro do pescoço varia muito entre pacientes. Quando a proeminência laríngea e a fúrcula distam menos de 5 cm, a tireoide baixa, mais comum em idosos, esconde-se atrás dos esternocleidomastóideos e das clavículas, e a palpação completa se torna impossível. O quadro oposto, com distância acima de 10 cm, é a tireoide alta, conspícua, que parece bócio sem ser. Daí a regra: nem toda tireoide que parece grande é grande, e nem toda tireoide impalpável é normal."
   - id: tir-2
     enunciado: Uma paciente tem uma massa arredondada na linha média do pescoço, logo abaixo do osso hioide. Que manobra ajuda mais a caracterizá-la, e por quê?
     alternativas:
@@ -722,7 +722,7 @@ perguntas:
       - "Hipotireoidismo, porque sem iodo a produção hormonal cai, e o hormônio tireoestimulante elevado hipertrofia a glândula sem corrigi-la"
       - "Hipertireoidismo transitório seguido de normalização, o padrão evolutivo característico dos bócios endêmicos de longa duração"
     corretaIndex: 2
-    explicacao: "A carência de iodo é a causa mais comum de bócio no mundo (Porto), e o mecanismo é contraintuitivo (Semiologia Clínica): sem iodo, a produção hormonal cai, o hormônio tireoestimulante sobe e, como ele estimula também a reprodução celular no tecido tireoidiano, a glândula hipertrofia, mas continua produzindo pouco. O resultado é um bócio grande com hipotireoidismo. O contraste ajuda a fixar: na doença de Graves, autoanticorpos estimulam ao mesmo tempo produção e hipertrofia, dando glândula grande com hipertireoidismo; na doença de Plummer, um nódulo autônomo produz hipertireoidismo com glândula de dimensões normais."
+    explicacao: "A carência de iodo é a causa mais comum de bócio no mundo, e o mecanismo é contraintuitivo: sem iodo, a produção hormonal cai, o hormônio tireoestimulante sobe e, como ele estimula também a reprodução celular no tecido tireoidiano, a glândula hipertrofia, mas continua produzindo pouco. O resultado é um bócio grande com hipotireoidismo. O contraste ajuda a fixar: na doença de Graves, autoanticorpos estimulam ao mesmo tempo produção e hipertrofia, dando glândula grande com hipertireoidismo; na doença de Plummer, um nódulo autônomo produz hipertireoidismo com glândula de dimensões normais."
   - id: tir-6
     enunciado: Você ausculta um sopro sobre a tireoide de uma paciente idosa com bócio nodular. Que leitura o dado permite?
     alternativas:

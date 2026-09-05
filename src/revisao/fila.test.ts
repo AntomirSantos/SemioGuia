@@ -1,6 +1,6 @@
 import type { Topico } from '../content/schema';
 import { criarItem, amanha, ItemRevisao } from './sm2';
-import { idDeChecklist, semearTopico, montarFila } from './fila';
+import { idDeChecklist, idDeSinal, semearTopico, montarFila } from './fila';
 
 const HOJE = '2026-08-21';
 const AGORA = '2026-08-21T12:00:00.000Z';
@@ -40,6 +40,13 @@ function topicoMinimo(): Topico {
         titulo: 'Medida da PA',
         itens: ['passo 1', 'passo 2'],
       },
+      {
+        tipo: 'sinal',
+        nome: 'Sinal de Teste',
+        descricao: 'O achado descrito',
+        significado: 'O que significa',
+        causas: ['Causa 1'],
+      },
     ],
   };
 }
@@ -54,9 +61,11 @@ describe('semearTopico', () => {
   test('cria 1 item por pergunta + 1 por checklist, todos com proximaRevisao = amanhã', () => {
     const topico = topicoMinimo();
     const novos = semearTopico(topico, [], HOJE, AGORA);
-    expect(novos).toHaveLength(3);
+    expect(novos).toHaveLength(4);
     const ids = novos.map((i) => i.id).sort();
-    expect(ids).toEqual(['a/b/c#checklist:Medida da PA', 'a/b/c#q1', 'a/b/c#q2'].sort());
+    expect(ids).toEqual(
+      ['a/b/c#checklist:Medida da PA', 'a/b/c#q1', 'a/b/c#q2', 'a/b/c#sinal:Sinal de Teste'].sort(),
+    );
     for (const item of novos) {
       expect(item.proximaRevisao).toBe(amanha(HOJE));
     }
@@ -127,6 +136,31 @@ describe('montarFila', () => {
     const itens = [p1, p2, chk];
     const idsValidos = new Set(itens.map((i) => i.id));
     const fila = montarFila(itens, idsValidos, HOJE);
+    expect(fila.totalPerguntas).toBe(2);
+    expect(fila.totalChecklists).toBe(1);
+  });
+});
+
+describe('flashcards de sinais na fila', () => {
+  test('semearTopico cria um item tipo sinal por bloco sinal', () => {
+    const novos = semearTopico(topicoMinimo(), [], HOJE, AGORA);
+    const sinais = novos.filter((i) => i.tipo === 'sinal');
+    expect(sinais).toHaveLength(1);
+    expect(sinais[0].id).toBe(idDeSinal('a/b/c', 'Sinal de Teste'));
+    expect(sinais[0].topicoId).toBe('a/b/c');
+  });
+
+  test('semear de novo não duplica o item de sinal', () => {
+    const primeira = semearTopico(topicoMinimo(), [], HOJE, AGORA);
+    const segunda = semearTopico(topicoMinimo(), primeira, HOJE, AGORA);
+    expect(segunda).toHaveLength(0);
+  });
+
+  test('montarFila conta os sinais separadamente', () => {
+    const itens = semearTopico(topicoMinimo(), [], HOJE, AGORA);
+    const ids = new Set(itens.map((i) => i.id));
+    const fila = montarFila(itens, ids, amanha(HOJE));
+    expect(fila.totalSinais).toBe(1);
     expect(fila.totalPerguntas).toBe(2);
     expect(fila.totalChecklists).toBe(1);
   });

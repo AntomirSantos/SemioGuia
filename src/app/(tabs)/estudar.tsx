@@ -82,7 +82,7 @@ function CardRevisao({ fila }: { fila: FilaDeHoje | undefined }) {
       ) : (
         <Text style={{ fontFamily: fonte.corpoBold, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta }}>
           {fila.totalPerguntas} pergunta{fila.totalPerguntas === 1 ? '' : 's'} · {fila.totalChecklists} esta
-          {fila.totalChecklists === 1 ? 'ção' : 'ções'}
+          {fila.totalChecklists === 1 ? 'ção' : 'ções'} · {fila.totalSinais} {fila.totalSinais === 1 ? 'sinal' : 'sinais'}
         </Text>
       )}
     </>

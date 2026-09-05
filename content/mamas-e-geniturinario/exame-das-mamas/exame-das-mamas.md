@@ -79,13 +79,13 @@ texto: |
 
   **O que as obras prescrevem.**
 
-  - **Explicação prévia e consentimento.** Semiologia Clínica abre o capítulo ginecológico e mamário com a regra: a paciente é orientada sobre a necessidade do exame, que tem suas **etapas explicadas antes**, e a realização depende de **consentimento prévio**. Não é um formulário: é uma conversa que antecede o primeiro gesto.
-  - **Exposição mínima.** Porto, no exame do sistema genital feminino, proíbe o desnudamento completo: a paciente usa **avental e lençol**, e descobre-se **progressivamente**, apenas a região que está sendo examinada. No exame das mamas, as duas obras de Porto especificam o avental **aberto na frente**: o que se expõe é o tórax, no momento do exame, e nada além.
-  - **A ordem também é respeito.** Porto recomenda que o exame ginecológico **comece pelas mamas**, em consideração ao pudor da paciente: do menos ao mais íntimo. E lembra o óbvio que se esquece: a paciente chega com **tensão emocional**, vergonha e medo do diagnóstico, e o examinador se arma de paciência e delicadeza.
-  - **Quem mais está na sala.** No exame da adolescente, Porto determina que uma **assistente do médico, ou a acompanhante,** esteja presente durante o exame físico, e que caiba **à paciente** decidir se os pais assistem.
-  - **Para quem é este exame.** Semiologia Clínica é explícita: os procedimentos valem para toda a população, incluindo pessoas **transgênero e não binárias**, e o examinador deve estar preparado para um cuidado inclusivo. A mama masculina também pertence ao exame, como se verá adiante.
+  - **Explicação prévia e consentimento.** A regra abre o capítulo ginecológico e mamário: a paciente é orientada sobre a necessidade do exame, que tem suas **etapas explicadas antes**, e a realização depende de **consentimento prévio**. Não é um formulário: é uma conversa que antecede o primeiro gesto.
+  - **Exposição mínima.** No exame do sistema genital feminino, o desnudamento completo é proibido: a paciente usa **avental e lençol**, e descobre-se **progressivamente**, apenas a região que está sendo examinada. No exame das mamas, o avental fica **aberto na frente**: o que se expõe é o tórax, no momento do exame, e nada além.
+  - **A ordem também é respeito.** O exame ginecológico **começa pelas mamas**, em consideração ao pudor da paciente: do menos ao mais íntimo. Vale lembrar o óbvio que se esquece: a paciente chega com **tensão emocional**, vergonha e medo do diagnóstico, e o examinador se arma de paciência e delicadeza.
+  - **Quem mais está na sala.** No exame da adolescente, uma **assistente do médico, ou a acompanhante,** deve estar presente durante o exame físico, e cabe **à paciente** decidir se os pais assistem.
+  - **Para quem é este exame.** Os procedimentos valem para toda a população, incluindo pessoas **transgênero e não binárias**, e o examinador deve estar preparado para um cuidado inclusivo. A mama masculina também pertence ao exame, como se verá adiante.
 
-  **Onde as obras calam, e o que a prática consolidou.** Há uma âncora parcial: Semiologia Clínica, entre os cuidados do **acolhimento** de qualquer consulta, inclui **perguntar se a pessoa deseja a presença de acompanhante**, regra da consulta em geral, não específica do exame íntimo. Nenhuma das quatro obras adotadas sistematiza, para a **paciente adulta**, a oferta de acompanhante durante o exame das mamas em si, nem o registro do consentimento em prontuário. A prática consolidada (e o guia a registra como **convenção, não como citação**) é oferecer a presença de acompanhante a qualquer paciente, documentar o consentimento verbal e interromper o exame se a paciente o pedir, em qualquer etapa. É a extensão natural daquele acolhimento, do que Porto exige para a adolescente e do consentimento que abre o capítulo ginecológico de Semiologia Clínica.
+  **Onde falta uma referência direta, e o que a prática consolidou.** Há uma âncora parcial: entre os cuidados do **acolhimento** de qualquer consulta, já se inclui **perguntar se a pessoa deseja a presença de acompanhante**, regra da consulta em geral, não específica do exame íntimo. Não há, nas referências deste guia, sistematização, para a **paciente adulta**, da oferta de acompanhante durante o exame das mamas em si, nem do registro do consentimento em prontuário. A prática consolidada (e o guia a registra como **convenção, não como citação**) é oferecer a presença de acompanhante a qualquer paciente, documentar o consentimento verbal e interromper o exame se a paciente o pedir, em qualquer etapa. É a extensão natural daquele acolhimento, do que se exige para a adolescente e do consentimento que abre o capítulo ginecológico e mamário.
 :::
 
 ::: conceito
@@ -93,15 +93,15 @@ titulo: Um capítulo de técnica e padrão, e o aviso sobre os números
 texto: |
   Quem vem dos capítulos do coração, do pulmão ou dos linfonodos está acostumado a encontrar razões de verossimilhança atrás de cada achado. **Aqui isso quase não acontece, e é bom saber por quê.**
 
-  McGee, a fonte quantificada deste guia, **não tem capítulo de mamas**. O que existe são menções incidentais espalhadas por outros capítulos, e o guia as usa quando servem. As obras brasileiras ensinam o exame mamário como **técnica e padrão**: descrevem o gesto, nomeiam o achado e dizem o que ele sugere, sem medir o desempenho de cada manobra. A regra editorial é a mesma do exame osteoarticular: **onde as fontes adotadas não medem, o guia ensina a técnica com atribuição e diz que não há número**, em vez de importar um de fora.
+  Praticamente não há, entre as referências numéricas deste guia, um capítulo dedicado às mamas. O que existe são menções incidentais espalhadas por outros capítulos, e o guia as usa quando servem. O exame mamário é ensinado aqui como **técnica e padrão**: descreve o gesto, nomeia o achado e diz o que ele sugere, sem medir o desempenho de cada manobra. A regra editorial é a mesma do exame osteoarticular: **onde não há medição, o guia ensina a técnica e diz que não há número**, em vez de importar um de fora.
 
-  O único desempenho medido vindo de McGee que este capítulo carrega é um desses achados incidentais, e está no bloco dos linfonodos: o valor, e o limite, da **axila palpável** na paciente que já tem o diagnóstico de câncer de mama. O outro número do capítulo vem de Semiologia Clínica e mora na mama masculina: o peso da ginecomastia na suspeita de cirrose, no bloco próprio.
+  O único desempenho medido que este capítulo carrega é um desses achados incidentais, e está no bloco dos linfonodos: o valor, e o limite, da **axila palpável** na paciente que já tem o diagnóstico de câncer de mama. O outro número do capítulo mora na mama masculina: o peso da ginecomastia na suspeita de cirrose, no bloco próprio.
 
-  E há uma segunda moldura, nomeada e não ensinada: **mamografia, ultrassonografia, punção e biópsia**. Porto dedica um capítulo inteiro a elas, e este guia as cita apenas como o destino da investigação: o exame clínico descreve; quem classifica imagem é a imagem.
+  E há uma segunda moldura, nomeada e não ensinada: **mamografia, ultrassonografia, punção e biópsia**. Um capítulo inteiro é dedicado a elas nas referências, e este guia as cita apenas como o destino da investigação: o exame clínico descreve; quem classifica imagem é a imagem.
 :::
 
 ::: perola
-texto: "Porto manda o examinador se movimentar diante da paciente durante a inspeção, mudando o ângulo da luz. Não é um floreio: retração e abaulamento discretos são acidentes de relevo, e relevo só aparece com sombra. A luz oblíqua é a primeira manobra do exame das mamas, antes de qualquer mão."
+texto: "O examinador se movimenta diante da paciente durante a inspeção, mudando o ângulo da luz. Não é um floreio: retração e abaulamento discretos são acidentes de relevo, e relevo só aparece com sombra. A luz oblíqua é a primeira manobra do exame das mamas, antes de qualquer mão."
 :::
 
 ::: secao
@@ -126,15 +126,15 @@ passos:
   - "Termine com a expressão papilar delicada, por quadrantes ou pontos cardinais da aréola, procurando o ducto responsável por qualquer secreção."
   - "No homem, inspecione e palpe a região subareolar procurando tecido glandular firme, e diferencie-o do acúmulo adiposo."
 observar: |
-  **Por que sentada E deitada.** Porto, no *Exame Clínico*, explica o que cada posição entrega: sentada, a mama pende e a inspeção dinâmica funciona; **deitada, a glândula se achata sobre o gradil costal**, e é esse achatamento que expõe à mão os tumores **pequenos ou profundos**. Quem examina só em uma posição perde o que a outra mostra. A mesma obra registra o teto do método bem executado: em mamas não muito volumosas, a palpação pode revelar tumores de **até 3 mm**.
+  **Por que sentada E deitada.** Cada posição entrega uma coisa: sentada, a mama pende e a inspeção dinâmica funciona; **deitada, a glândula se achata sobre o gradil costal**, e é esse achatamento que expõe à mão os tumores **pequenos ou profundos**. Quem examina só em uma posição perde o que a outra mostra. O teto do método bem executado: em mamas não muito volumosas, a palpação pode revelar tumores de **até 3 mm**.
 
-  **As duas mãos têm papéis.** Porto detalha uma coreografia que parece cerimonial e não é: cada mama é palpada **com a mão oposta** do examinador, enquanto a outra mão repousa no ombro contralateral da paciente, o tronco fica estabilizado e a mama, acessível. Na palpação deitada, a obra muda a regra: o examinador se posiciona **atrás da cabeça** da paciente e palpa cada mama com a **mão do mesmo lado**.
+  **As duas mãos têm papéis.** É uma coreografia que parece cerimonial e não é: cada mama é palpada **com a mão oposta** do examinador, enquanto a outra mão repousa no ombro contralateral da paciente, o tronco fica estabilizado e a mama, acessível. Na palpação deitada, a regra muda: o examinador se posiciona **atrás da cabeça** da paciente e palpa cada mama com a **mão do mesmo lado**.
 
-  **Começar pela mama sem queixa** não é gentileza, é método: Porto manda iniciar pela mama **supostamente normal**, que fornece o padrão de comparação daquele parênquima, a régua do exame é a outra mama da própria paciente.
+  **Começar pela mama sem queixa** não é gentileza, é método: inicia-se pela mama **supostamente normal**, que fornece o padrão de comparação daquele parênquima; a régua do exame é a outra mama da própria paciente.
 
-  **A pressão tem dois tempos.** Porto, na *Semiologia Médica*, pede a palpação **primeiro leve**, para os nódulos superficiais, **depois vigorosa**, para os profundos. Começar forte esmaga o plano superficial e o exame perde uma camada.
+  **A pressão tem dois tempos.** A palpação é **primeiro leve**, para os nódulos superficiais, **depois vigorosa**, para os profundos. Começar forte esmaga o plano superficial e o exame perde uma camada.
 
-  **A consistência normal varia, e o calendário importa.** A proporção entre tecido glandular e adiposo muda a textura de mama para mama, e a mesma obra registra o efeito do ciclo: no período **pré-menstrual** as mamas aumentam, ficam hipersensíveis e mais nodulares. Repetir um exame duvidoso em outro momento do ciclo é a consequência prática que o guia tira desse dado: a obra registra a variação, não a conduta.
+  **A consistência normal varia, e o calendário importa.** A proporção entre tecido glandular e adiposo muda a textura de mama para mama, e o ciclo tem efeito conhecido: no período **pré-menstrual** as mamas aumentam, ficam hipersensíveis e mais nodulares. Repetir um exame duvidoso em outro momento do ciclo é a consequência prática que o guia tira desse dado: a variação é registrada, a conduta é deste guia.
 :::
 
 ::: checklist
@@ -159,20 +159,20 @@ titulo: O que a inspeção entrega
 ::: conceito
 titulo: "Inspeção estática: pele, contorno, mamilo e aréola"
 texto: |
-  A inspeção estática responde por comparação: os dois lados, sob a mesma luz. Porto lembra que as mamas normais variam muito em **tamanho, forma e simetria**, variações constitucionais ou adquiridas ao longo da vida, e a *Semiologia Médica* acrescenta que assimetrias são frequentes e, na puberdade, costumam ser fisiológicas. Assimetria antiga e estável é biografia; **assimetria nova é achado**.
+  A inspeção estática responde por comparação: os dois lados, sob a mesma luz. As mamas normais variam muito em **tamanho, forma e simetria**, variações constitucionais ou adquiridas ao longo da vida, e assimetrias são frequentes e, na puberdade, costumam ser fisiológicas. Assimetria antiga e estável é biografia; **assimetria nova é achado**.
 
   **Na pele**, procura-se:
 
-  - **Retração e depressão**: a pele puxada para dentro denuncia tração fibrosa subjacente; Porto a lista, com o aspecto de casca de laranja, entre os sinais importantes das neoplasias malignas. O tópico seguinte devolve esse achado ao raciocínio do nódulo.
-  - **Casca de laranja**: edema cutâneo com os poros afundados. A *Semiologia Médica* o associa classicamente ao **carcinoma inflamatório**, e Semiologia Clínica dá o mecanismo: **obstrução linfática**.
+  - **Retração e depressão**: a pele puxada para dentro denuncia tração fibrosa subjacente; junto com o aspecto de casca de laranja, está entre os sinais importantes das neoplasias malignas. O tópico seguinte devolve esse achado ao raciocínio do nódulo.
+  - **Casca de laranja**: edema cutâneo com os poros afundados, associado classicamente ao **carcinoma inflamatório**; o mecanismo é a **obstrução linfática**.
   - **Abaulamento**: massa que empurra o contorno; vale registrar onde, em que quadrante.
-  - **Sinais flogísticos**: calor, rubor, edema e dor denunciam **mastite**. Porto acrescenta a regra de ouro: a mastite é doença da **lactação**; processo inflamatório **fora do puerpério** é raro e obriga a investigação detalhada para afastar câncer.
+  - **Sinais flogísticos**: calor, rubor, edema e dor denunciam **mastite**. A regra de ouro: a mastite é doença da **lactação**; processo inflamatório **fora do puerpério** é raro e obriga a investigação detalhada para afastar câncer.
   - **Rede venosa**: visível na mama normal; o que importa é a mudança e a assimetria.
-  - **Vesículas agrupadas** em faixa: a *Semiologia Médica* lembra o herpes-zóster, que também visita a mama; as lesões elementares estão no tópico de pele, mucosas e fâneros.
+  - **Vesículas agrupadas** em faixa lembram o herpes-zóster, que também visita a mama; as lesões elementares estão no tópico de pele, mucosas e fâneros.
 
-  **No mamilo e na aréola**, três perguntas: **posição** (comparada com o outro lado, a retração é assunto do próximo tópico), **superfície** (Porto manda procurar erosões, crostas e descamação, a porta de entrada da suspeita de Paget) e **secreção** visível.
+  **No mamilo e na aréola**, três perguntas: **posição** (comparada com o outro lado, a retração é assunto do próximo tópico), **superfície** (procuram-se erosões, crostas e descamação, a porta de entrada da suspeita de Paget) e **secreção** visível.
 
-  **Uma nota de vocabulário que é divergência interna de Porto.** O *Exame Clínico* chama as pequenas elevações da aréola de **tubérculos de Montgomery**. A *Semiologia Médica* as chama de **tubérculos de Morgagni** e reserva o nome de Montgomery para quando se tornam salientes **na gravidez e no aleitamento**. O guia registra as duas versões em vez de fundi-las; o que importa ao exame é saber que são estruturas normais, e não lesões.
+  **Uma nota de vocabulário que é uma divergência interna das referências.** Uma descrição chama as pequenas elevações da aréola de **tubérculos de Montgomery**. Outra as chama de **tubérculos de Morgagni** e reserva o nome de Montgomery para quando se tornam salientes **na gravidez e no aleitamento**. O guia registra as duas versões em vez de fundi-las; o que importa ao exame é saber que são estruturas normais, e não lesões.
 :::
 
 ::: conceito
@@ -180,11 +180,11 @@ titulo: "Inspeção dinâmica: três manobras e o que elas revelam"
 texto: |
   A inspeção dinâmica existe porque a mama é uma glândula suspensa: os **ligamentos de Cooper** a prendem à pele e à fáscia do peitoral. Um tumor que infiltra essa trama não se move com ela, e é o movimento que o denuncia.
 
-  - **Elevação dos braços acima da cabeça.** Porto explica o mecanismo: aumenta a **tensão dos ligamentos suspensores**. A pele presa por um processo infiltrativo forma retração ou depressão que a posição de repouso escondia.
-  - **Contração dos músculos peitorais.** O *Exame Clínico* a nomeia como a segunda manobra; a *Semiologia Médica* ensina o modo prático de obtê-la (as mãos **comprimindo a cintura**, sobre as asas dos ilíacos) e acrescenta um segundo propósito: avaliar se a neoplasia compromete o plano muscular.
-  - **Inclinação anterior do tronco.** Vem de Semiologia Clínica, com indicação precisa: mamas **grandes ou pêndulas**, cuja face inferior e sulco inframamário a posição ereta esconde. A mama pendendo desdobra o que estava encostado.
+  - **Elevação dos braços acima da cabeça.** O mecanismo: aumenta a **tensão dos ligamentos suspensores**. A pele presa por um processo infiltrativo forma retração ou depressão que a posição de repouso escondia.
+  - **Contração dos músculos peitorais.** É a segunda manobra; o modo prático de obtê-la é com as mãos **comprimindo a cintura**, sobre as asas dos ilíacos, e tem um segundo propósito: avaliar se a neoplasia compromete o plano muscular.
+  - **Inclinação anterior do tronco.** Indicação precisa: mamas **grandes ou pêndulas**, cuja face inferior e sulco inframamário a posição ereta esconde. A mama pendendo desdobra o que estava encostado.
 
-  O que as três procuram é o mesmo: **revelar ou acentuar retrações, abaulamentos e alterações da papila e da aréola**. Porto acrescenta a leitura de probabilidade: essas alterações dinâmicas ocorrem sobretudo nos tumores malignos **avançados**, a inspeção dinâmica negativa não tranquiliza; a positiva preocupa.
+  O que as três procuram é o mesmo: **revelar ou acentuar retrações, abaulamentos e alterações da papila e da aréola**. A leitura de probabilidade: essas alterações dinâmicas ocorrem sobretudo nos tumores malignos **avançados**; a inspeção dinâmica negativa não tranquiliza, a positiva preocupa.
 :::
 
 ::: pense
@@ -199,15 +199,15 @@ titulo: Palpação, expressão e os linfonodos
 :::
 
 ::: conceito
-titulo: "Palpação: as três obras não descrevem o mesmo exame"
+titulo: "Palpação: três descrições que não coincidem"
 texto: |
-  As três fontes brasileiras ensinam palpações que **não coincidem**, e o guia as apresenta lado a lado em vez de fundi-las em silêncio.
+  Há três descrições de palpação que **não coincidem**, e o guia as apresenta lado a lado em vez de fundi-las em silêncio.
 
-  - **Porto, Exame Clínico:** o exame **começa sentado e termina deitado**. Sentada, a sequência é em três tempos: palpação **global** com a mão espalmada, que contém a glândula e acha os tumores maiores; palpação **por quadrantes** com a face palmar dos dedos juntos; e palpação **digital**, a manobra de Bloodgood, o tocar piano sobre a mama, que percebe os tumores menores. Os movimentos podem ser por quadrantes ou **radiados**, da papila à periferia. Depois dos linfonodos, a paciente deita, mãos sob a nuca, e tudo se repete com a mama achatada.
-  - **Porto, Semiologia Médica:** a palpação mamária é descrita **toda em decúbito dorsal**, braços abertos e mãos apoiadas atrás da cabeça, partindo da região **subareolar** e cobrindo tudo até o paraesternal, o infraclavicular e o prolongamento axilar, com pressão leve e depois vigorosa. As técnicas ganham nomes: **Velpeaux** quando se usa a região palmar dos dedos, **Bloodgood** para as falanges distais.
-  - **Semiologia Clínica:** palpação em posição **supina**, com a porção palmar dos dedos comprimindo levemente o parênquima **contra a parede torácica**, é a compressão que destaca o nódulo do tecido vizinho, em movimentos **circunferenciais ou radiais**, cobrindo toda a mama e a extensão axilar.
+  - **Uma descrição:** o exame **começa sentado e termina deitado**. Sentada, a sequência é em três tempos: palpação **global** com a mão espalmada, que contém a glândula e acha os tumores maiores; palpação **por quadrantes** com a face palmar dos dedos juntos; e palpação **digital**, a manobra de Bloodgood, o tocar piano sobre a mama, que percebe os tumores menores. Os movimentos podem ser por quadrantes ou **radiados**, da papila à periferia. Depois dos linfonodos, a paciente deita, mãos sob a nuca, e tudo se repete com a mama achatada.
+  - **Outra descrição:** a palpação mamária é **toda em decúbito dorsal**, braços abertos e mãos apoiadas atrás da cabeça, partindo da região **subareolar** e cobrindo tudo até o paraesternal, o infraclavicular e o prolongamento axilar, com pressão leve e depois vigorosa. As técnicas ganham nomes: **Velpeaux** quando se usa a região palmar dos dedos, **Bloodgood** para as falanges distais.
+  - **Uma terceira descrição:** palpação em posição **supina**, com a porção palmar dos dedos comprimindo levemente o parênquima **contra a parede torácica**, é a compressão que destaca o nódulo do tecido vizinho, em movimentos **circunferenciais ou radiais**, cobrindo toda a mama e a extensão axilar.
 
-  **A leitura do guia:** as três convergem no essencial, toda a mama, prolongamento axilar incluído, com a face palmar dos dedos e sistemática declarada, e divergem na posição e na ordem. Este guia ensina a versão **mais completa**, a do *Exame Clínico*, com as duas posições; quem examinar só deitado estará dentro da *Semiologia Médica* e de Semiologia Clínica, mas abre mão da inspeção dinâmica eficaz e da palpação sentada que o próprio *Exame Clínico* considera parte do método.
+  **A leitura do guia:** as três convergem no essencial, toda a mama, prolongamento axilar incluído, com a face palmar dos dedos e sistemática declarada, e divergem na posição e na ordem. Este guia ensina a versão **mais completa**, a da primeira descrição, com as duas posições; quem examinar só deitado estará dentro das outras duas, mas abre mão da inspeção dinâmica eficaz e da palpação sentada que a primeira descrição considera parte do método.
 
   **O que qualquer das três exige:** que nenhum território fique de fora (subareolar, os quatro quadrantes, o prolongamento axilar) e que cada achado saia com endereço. Como descrever o que a mão encontrou é o assunto do próximo tópico.
 :::
@@ -251,11 +251,11 @@ legenda: "Os territórios que a palpação não deixa de fora: os quatro quadran
 ::: conceito
 titulo: Expressão papilar e o ponto de gatilho
 texto: |
-  O exame termina no mamilo, e termina com delicadeza. A expressão é uma **pressão suave** no nível da aréola e da papila, não uma ordenha. Porto, no *Exame Clínico*, manda fazê-la **com os dedos e por quadrante**, com um objetivo declarado: localizar **pelo tato o ducto** do qual sai a secreção.
+  O exame termina no mamilo, e termina com delicadeza. A expressão é uma **pressão suave** no nível da aréola e da papila, não uma ordenha; faz-se **com os dedos e por quadrante**, com um objetivo declarado: localizar **pelo tato o ducto** do qual sai a secreção.
 
-  A *Semiologia Médica* dá nome à versão sistemática dessa busca: a **pesquisa do ponto de gatilho**, digitopressão em círculo ao redor da aréola, pelos pontos cardinais, identificando o ponto cuja compressão desencadeia a saída, e, portanto, o ducto comprometido. Semiologia Clínica pede o mesmo registro: a **área que desencadeou** a saída, e se a secreção é **uniorificial ou multiorificial**.
+  A versão sistemática dessa busca tem nome: a **pesquisa do ponto de gatilho**, digitopressão em círculo ao redor da aréola, pelos pontos cardinais, identificando o ponto cuja compressão desencadeia a saída, e, portanto, o ducto comprometido. O mesmo registro se completa com a **área que desencadeou** a saída, e se a secreção é **uniorificial ou multiorificial**.
 
-  Se algo sai, o registro tem quatro coordenadas: **espontânea ou provocada**, **uni ou bilateral**, **por um ducto ou por vários**, e o **aspecto**, Porto descreve o espectro do citrino claro ao francamente sanguinolento. A interpretação de cada combinação, inclusive os dois aspectos que soam alarme, é o núcleo do próximo tópico, e não é repetida aqui.
+  Se algo sai, o registro tem quatro coordenadas: **espontânea ou provocada**, **uni ou bilateral**, **por um ducto ou por vários**, e o **aspecto**, que vai do citrino claro ao francamente sanguinolento. A interpretação de cada combinação, inclusive os dois aspectos que soam alarme, é o núcleo do próximo tópico, e não é repetida aqui.
 :::
 
 ::: conceito
@@ -263,19 +263,19 @@ titulo: Os linfonodos na rotina, e o número da axila
 texto: |
   A rede linfática da mama drena majoritariamente para a **axila**, e por isso os linfonodos pertencem à rotina do exame mamário, mas as cadeias, os níveis e a semiotécnica de cada fossa têm dono neste guia: o tópico **Linfonodos**, no exame físico geral, incluída a manobra de Valsalva que salienta os supraclaviculares. Aqui entra apenas a integração.
 
-  **Quando, na sequência.** As duas obras de Porto divergem na ordem, e vale registrar: o *Exame Clínico* palpa os linfonodos **depois** da palpação mamária sentada e **antes** da palpação deitada; a *Semiologia Médica* os coloca **antes** de toda a palpação mamária. Qualquer das duas serve; o que não serve é esquecê-los.
+  **Quando, na sequência.** As referências divergem na ordem, e vale registrar: uma descrição palpa os linfonodos **depois** da palpação mamária sentada e **antes** da palpação deitada; outra os coloca **antes** de toda a palpação mamária. Qualquer das duas serve; o que não serve é esquecê-los.
 
-  **Como, em resumo.** Com a paciente sentada, o braço dela apoiado, no braço do examinador (Porto) ou no ombro dele (Semiologia Clínica), para relaxar a parede da axila, a mão oposta espalmada desliza e aprofunda no oco axilar; depois as regiões **infraclaviculares** e as fossas **supraclaviculares**.
+  **Como, em resumo.** Com a paciente sentada, o braço dela apoiado, no braço do examinador ou no ombro dele, para relaxar a parede da axila, a mão oposta espalmada desliza e aprofunda no oco axilar; depois as regiões **infraclaviculares** e as fossas **supraclaviculares**.
 
-  **O que significa o que se acha.** A *Semiologia Médica* dá as duas frases que orientam: linfonodos palpáveis **móveis e fibroelásticos** não são, por si, suspeitos; os **endurecidos, fixos, aumentados e coalescentes** na axila indicam metástase, de carcinoma de mama, linfoma ou outra neoplasia.
+  **O que significa o que se acha.** As duas frases que orientam: linfonodos palpáveis **móveis e fibroelásticos** não são, por si, suspeitos; os **endurecidos, fixos, aumentados e coalescentes** na axila indicam metástase, de carcinoma de mama, linfoma ou outra neoplasia.
 
-  **E o número medido da axila, com seu limite.** McGee, no capítulo de linfadenopatia periférica, traz o desempenho da axila **na paciente que já tem câncer de mama**: adenopatia axilar palpável tem especificidade de 94% a 98% e razão de verossimilhança **9,3**, quando a axila é palpável nesse contexto, o comprometimento metastático é quase certo. Mas a sensibilidade é de 31% a 35%, a razão de verossimilhança da axila negativa é **0,7**, e **18% a 33% das pacientes com axila normal ao exame têm metástase linfonodal descoberta na cirurgia**. A mão confirma; a mão **não exclui**, e é por isso que o estadiamento axilar não termina no exame físico.
+  **E o número medido da axila, com seu limite.** O desempenho da axila **na paciente que já tem câncer de mama**: adenopatia axilar palpável tem especificidade de 94% a 98% e razão de verossimilhança **9,3**, quando a axila é palpável nesse contexto, o comprometimento metastático é quase certo. Mas a sensibilidade é de 31% a 35%, a razão de verossimilhança da axila negativa é **0,7**, e **18% a 33% das pacientes com axila normal ao exame têm metástase linfonodal descoberta na cirurgia**. A mão confirma; a mão **não exclui**, e é por isso que o estadiamento axilar não termina no exame físico.
 :::
 
 ::: sinal
 nome: Ginecomastia
-descricao: "Crescimento da glândula mamária no homem, uni ou bilateral. McGee dá a definição operacional que separa o achado da impressão: um **botão discreto, palpável e firme** de tecido mamário subareolar com **2 cm ou mais** de diâmetro. A distinção decisiva é com a lipomastia, ou adipomastia, o acúmulo de gordura sem proliferação glandular, comum na obesidade: a gordura é difusa e não forma o botão firme centrado na aréola. Porto lembra que em 30% dos homens adultos alguma estrutura glandular firme já é identificável, e que na adolescência costuma haver desenvolvimento transitório da glândula, com resolução espontânea."
-significado: "A Semiologia Médica resume o mecanismo: proliferação ductal e do estroma por desequilíbrio entre estrogênios e androgênios. É fisiológica no recém-nascido, na puberdade e na senilidade; fora desses períodos, pede explicação. Semiologia Clínica quantifica o cenário mais rendoso: em pacientes com doença hepática, a ginecomastia tem grande valor na predição de cirrose, com razão de verossimilhança positiva de 6 a 35, no homem hepatopata, a aréola vale como o abdome. E uma assimetria que muda a conduta: o câncer de mama masculino existe (1% dos casos, em idade média mais avançada) e **nódulo unilateral excêntrico, endurecido ou aderido no homem não é ginecomastia até prova em contrário**; o exame da mama masculina usa o mesmo repertório descritivo do próximo tópico."
+descricao: "Crescimento da glândula mamária no homem, uni ou bilateral. A definição operacional que separa o achado da impressão: um **botão discreto, palpável e firme** de tecido mamário subareolar com **2 cm ou mais** de diâmetro. A distinção decisiva é com a lipomastia, ou adipomastia, o acúmulo de gordura sem proliferação glandular, comum na obesidade: a gordura é difusa e não forma o botão firme centrado na aréola. Em 30% dos homens adultos alguma estrutura glandular firme já é identificável, e na adolescência costuma haver desenvolvimento transitório da glândula, com resolução espontânea."
+significado: "O mecanismo: proliferação ductal e do estroma por desequilíbrio entre estrogênios e androgênios. É fisiológica no recém-nascido, na puberdade e na senilidade; fora desses períodos, pede explicação. O cenário mais rendoso está quantificado: em pacientes com doença hepática, a ginecomastia tem grande valor na predição de cirrose, com razão de verossimilhança positiva de 6 a 35, no homem hepatopata, a aréola vale como o abdome. E uma assimetria que muda a conduta: o câncer de mama masculino existe (1% dos casos, em idade média mais avançada) e **nódulo unilateral excêntrico, endurecido ou aderido no homem não é ginecomastia até prova em contrário**; o exame da mama masculina usa o mesmo repertório descritivo do próximo tópico."
 causas:
   - "Fisiológica: período neonatal, puberdade e senilidade"
   - "Cirrose e insuficiência hepática"
@@ -296,11 +296,11 @@ nivel: avancado
 texto: |
   O autoexame é um assunto em que este guia precisa ser honesto sobre o tamanho da âncora.
 
-  **O que as quatro obras adotadas dizem:** pouco, e em lugar preciso. Nas duas obras de Porto, o autoexame mamário aparece no **interrogatório sintomatológico**, como item de **promoção da saúde**: pergunta-se se a paciente o pratica, junto da data da última mamografia ou ultrassonografia, em mulheres a partir dos 40 anos. E a *Semiologia Médica* o menciona de passagem ao lembrar que a nodularidade pré-menstrual pode chamar a atenção da própria paciente durante o autoexame. **É tudo.** Nenhuma das quatro ensina uma técnica de autoexame, e nenhuma discute seu papel, ou desempenho, como método de rastreamento.
+  **O que as referências dizem:** pouco, e em lugar preciso. O autoexame mamário aparece no **interrogatório sintomatológico**, como item de **promoção da saúde**: pergunta-se se a paciente o pratica, junto da data da última mamografia ou ultrassonografia, em mulheres a partir dos 40 anos. Também é mencionado de passagem ao lembrar que a nodularidade pré-menstrual pode chamar a atenção da própria paciente durante o autoexame. **É tudo.** Não há, nas referências deste guia, uma técnica de autoexame ensinada, nem discussão sobre seu papel, ou desempenho, como método de rastreamento.
 
-  **O que o guia não faz:** importar para dentro do capítulo uma recomendação populacional de rastreamento, a favor ou contra o autoexame, que as obras adotadas não trazem. Essa discussão existe, é matéria de diretrizes datadas de sociedades e programas de saúde pública, e envelhece rápido; quem precisar dela deve buscá-la na fonte normativa vigente, com data.
+  **O que o guia não faz:** importar para dentro do capítulo uma recomendação populacional de rastreamento, a favor ou contra o autoexame, que não está nas referências deste guia. Essa discussão existe, é matéria de diretrizes datadas de sociedades e programas de saúde pública, e envelhece rápido; quem precisar dela deve buscá-la na fonte normativa vigente, com data.
 
-  **O que se pode dizer com âncora:** primeiro, que perguntar sobre o autoexame **faz parte da anamnese**, está no roteiro de Porto. Segundo, que o achado trazido pela paciente merece o mesmo circuito de qualquer achado do examinador: boa parte dos nódulos chega ao consultório **encontrada por quem os carrega**, e a resposta correta nunca é desqualificar o dedo que achou, é examinar. Terceiro, que a recomendação de imagem que Porto efetivamente assume é outra: **mamografia anual a partir dos 40 anos** na população de baixo risco, e a partir dos 30 no alto risco, recomendação da 8ª edição da *Semiologia Médica*, e datada como tal.
+  **O que se pode dizer com âncora:** primeiro, que perguntar sobre o autoexame **faz parte da anamnese**, está no roteiro do interrogatório. Segundo, que o achado trazido pela paciente merece o mesmo circuito de qualquer achado do examinador: boa parte dos nódulos chega ao consultório **encontrada por quem os carrega**, e a resposta correta nunca é desqualificar o dedo que achou, é examinar. Terceiro, que a recomendação de imagem efetivamente assumida é outra: **mamografia anual a partir dos 40 anos** na população de baixo risco, e a partir dos 30 no alto risco, recomendação datada como tal.
 :::
 
 ::: conceito
@@ -309,8 +309,8 @@ nivel: avancado
 texto: |
   A linha láctea embrionária corre da axila à região inguinal, de cada lado. O que não regride ao longo dela produz os dois achados deste bloco, e os dois são, antes de tudo, diagnósticos diferenciais de coisas mais graves.
 
-  - **Politelia**: mamilos supranumerários. A *Semiologia Médica* a registra como a anomalia mamária **mais frequente**, localizada sobretudo no **sulco inframamário**, mas possível em qualquer ponto da linha; o *Exame Clínico* descreve o trajeto típico dos mamilos extranumerários **da mama à axila**. São em geral assintomáticos, e parecem pequenos nevos ou verrugas: a pista é a posição sobre a linha láctea e, quando presente, a miniatura de aréola. A *Semiologia Médica* registra associação possível com outras alterações congênitas, que nomeia sem que este guia as reensine aqui.
-  - **Polimastia**: glândulas mamárias acessórias, mais comuns **nas axilas**. Duas consequências práticas: uma massa axilar pode ser **mama, e não linfonodo**, e a mama acessória tem comportamento de mama: a *Semiologia Médica* registra que **aumenta de volume e dói na gravidez e na lactação**, quando costuma ser notada pela primeira vez. Tecido acessório também adoece como mama, e entra no mesmo exame.
+  - **Politelia**: mamilos supranumerários, a anomalia mamária **mais frequente**, localizada sobretudo no **sulco inframamário**, mas possível em qualquer ponto da linha; o trajeto típico dos mamilos extranumerários vai **da mama à axila**. São em geral assintomáticos, e parecem pequenos nevos ou verrugas: a pista é a posição sobre a linha láctea e, quando presente, a miniatura de aréola. Há associação possível com outras alterações congênitas, que este guia não reensina aqui.
+  - **Polimastia**: glândulas mamárias acessórias, mais comuns **nas axilas**. Duas consequências práticas: uma massa axilar pode ser **mama, e não linfonodo**, e a mama acessória tem comportamento de mama: **aumenta de volume e dói na gravidez e na lactação**, quando costuma ser notada pela primeira vez. Tecido acessório também adoece como mama, e entra no mesmo exame.
 
   **O que mora em outro tópico.** O desenvolvimento mamário normal: a **telarca**, os estágios puberais, a telarca prematura antes dos 8 anos e a assimetria puberal da adolescente, é ensinado no tópico Do recém-nascido ao adolescente, do sistema Semiologia da criança. Aqui fica só o registro de que a assimetria puberal costuma ser fisiológica e se resolve com o tempo.
 :::
@@ -319,11 +319,11 @@ texto: |
 titulo: Implantes mamários no exame
 nivel: avancado
 texto: |
-  Semiologia Clínica é, das fontes adotadas, a que traz a mama operada para dentro da semiotécnica, e o faz em três gestos:
+  A mama operada entra na semiotécnica em três gestos:
 
   - **Na inspeção**, registrar a presença de próteses e implantes junto com cicatrizes: a cirurgia é parte da biografia da mama e muda a leitura de contorno e simetria.
   - **Na palpação**, caracterizar o implante quanto à **mobilidade**, a **áreas de aderência**, a **dobras e herniações** do seu contorno.
-  - **E um alerta específico**: atenção ao **líquido ao redor da prótese**, sugerido pela distensão da pele e por uma consistência cística à palpação. A obra o considera relevante pela associação possível com o **linfoma anaplásico de células grandes**: entidade que o guia nomeia sem ensinar, porque o diagnóstico é de imagem e citologia; o papel do exame físico é notar o líquido e encaminhar.
+  - **E um alerta específico**: atenção ao **líquido ao redor da prótese**, sugerido pela distensão da pele e por uma consistência cística à palpação. É um achado relevante pela associação possível com o **linfoma anaplásico de células grandes**: entidade que o guia nomeia sem ensinar, porque o diagnóstico é de imagem e citologia; o papel do exame físico é notar o líquido e encaminhar.
 
   A regra geral não muda com a prótese: o parênquima que restou continua sendo mama, e continua sendo palpado por inteiro.
 :::
@@ -332,25 +332,25 @@ texto: |
 titulo: "A drenagem linfática: dois números que não coincidem"
 nivel: avancado
 texto: |
-  As duas obras de Porto dão porcentagens diferentes para a mesma anatomia, e o guia as registra lado a lado em vez de escolher em silêncio:
+  As referências dão porcentagens diferentes para a mesma anatomia, e o guia as registra lado a lado em vez de escolher em silêncio:
 
-  - o **Exame Clínico** afirma que **75%** da drenagem linfática da mama segue para os linfonodos **axilares**, e o restante para os infraclaviculares, supraclaviculares e paraesternais;
-  - a **Semiologia Médica** afirma que **97%** vai para os axilares e **3%** para os **mamários internos**.
+  - uma descrição indica que **75%** da drenagem linfática da mama segue para os linfonodos **axilares**, e o restante para os infraclaviculares, supraclaviculares e paraesternais;
+  - outra indica que **97%** vai para os axilares e **3%** para os **mamários internos**.
 
-  A divergência é interna a Porto e não muda a conduta: nas duas versões, a axila é o destino dominante e as demais cadeias existem e merecem exame. Muda, porém, o que se memoriza: quem decorar um dos números deve saber que a outra obra traz outro.
+  A divergência é interna às referências e não muda a conduta: nas duas versões, a axila é o destino dominante e as demais cadeias existem e merecem exame. Muda, porém, o que se memoriza: quem decorar um dos números deve saber que a outra versão traz outro.
 
-  Dois nomes anatômicos completam o bloco. O **prolongamento axilar**, a cauda de Spence, é a razão pela qual a palpação da mama termina dentro da axila: é mama, não linfonodo, e nódulo ali é nódulo mamário. E os **ligamentos de Cooper**, os septos que prendem a glândula à pele e à fáscia peitoral, são a estrutura que explica dois achados deste capítulo: a retração da pele, o tumor que traciona o septo, e a lógica da inspeção dinâmica, que tensiona os septos de propósito. O mapa completo das cadeias segue sendo assunto do tópico Linfonodos; já a divisão da axila nos **níveis de Berg**, que a *Semiologia Médica* apresenta no capítulo de fundamentos, fica aqui como moldura nomeada e não ensinada: é vocabulário do estadiamento cirúrgico, e nenhum tópico deste guia a ensina.
+  Dois nomes anatômicos completam o bloco. O **prolongamento axilar**, a cauda de Spence, é a razão pela qual a palpação da mama termina dentro da axila: é mama, não linfonodo, e nódulo ali é nódulo mamário. E os **ligamentos de Cooper**, os septos que prendem a glândula à pele e à fáscia peitoral, são a estrutura que explica dois achados deste capítulo: a retração da pele, o tumor que traciona o septo, e a lógica da inspeção dinâmica, que tensiona os septos de propósito. O mapa completo das cadeias segue sendo assunto do tópico Linfonodos; já a divisão da axila nos **níveis de Berg** fica aqui como moldura nomeada e não ensinada: é vocabulário do estadiamento cirúrgico, e nenhum tópico deste guia a ensina.
 :::
 
 ::: conceito
 titulo: Onde este tópico encontra os outros
 texto: |
   - **Linfonodos**, no exame físico geral, é o dono das cadeias: axilares, infra e supraclaviculares, com a semiotécnica de cada fossa, a manobra de Valsalva para os supraclaviculares, as características de benignidade e alarme e o desempenho medido da adenomegalia. Este tópico só integra essas cadeias à rotina do exame mamário.
-  - **Pele, mucosas e fâneros** traz as lesões elementares (erosão, crosta, descamação, vesícula) com que se descrevem as alterações da aréola e do mamilo, incluído o herpes-zóster que a Semiologia Médica lembra na mama.
+  - **Pele, mucosas e fâneros** traz as lesões elementares (erosão, crosta, descamação, vesícula) com que se descrevem as alterações da aréola e do mamilo, incluído o herpes-zóster que também visita a mama.
   - **Inspeção do tórax** traz as linhas e regiões torácicas, a região mamária entre elas, e as alterações da parede que o exame da mama atravessa.
   - **Interrogatório sintomatológico** carrega o segmento mamas da revisão de sistemas (dor, nódulo e secreção) e o item de promoção da saúde com o autoexame e a data da última mamografia.
   - **Nódulo mamário e descarga papilar**, o próximo tópico, recebe tudo o que este produz: o vocabulário para descrever o nódulo que a palpação encontrou, a leitura das secreções que a expressão obteve e os alarmes do mamilo e da pele.
-  - **O exame ginecológico**, no capítulo seguinte deste sistema, retoma o contrato de profissionalismo deste tópico: Porto manda, aliás, começar aquele exame por este.
+  - **O exame ginecológico**, no capítulo seguinte deste sistema, retoma o contrato de profissionalismo deste tópico: aquele exame, aliás, começa por este.
   - **Do recém-nascido ao adolescente**, no sistema Semiologia da criança, recebeu a telarca, os estágios do desenvolvimento puberal e a puberdade precoce.
 :::
 
@@ -361,16 +361,16 @@ titulo: Armadilhas do exame
 ::: conceito
 titulo: Seis erros no exame das mamas
 texto: |
-  1. **Começar pela mão, e não pela palavra.** Semiologia Clínica exige explicação das etapas e consentimento prévio; a prática consolidada acrescenta a oferta de acompanhante. Exame íntimo sem contrato é erro técnico, não só ético.
-  2. **Examinar em uma posição só.** Sentada, funciona a inspeção dinâmica; deitada, a mama achatada entrega os nódulos pequenos e profundos. Porto exige as duas: quem escolhe uma perde a metade da outra.
+  1. **Começar pela mão, e não pela palavra.** A explicação das etapas e o consentimento prévio são exigidos; a prática consolidada acrescenta a oferta de acompanhante. Exame íntimo sem contrato é erro técnico, não só ético.
+  2. **Examinar em uma posição só.** Sentada, funciona a inspeção dinâmica; deitada, a mama achatada entrega os nódulos pequenos e profundos. As duas posições são exigidas: quem escolhe uma perde a metade da outra.
   3. **Pular a inspeção dinâmica.** Elevação dos braços, contração dos peitorais e, nas mamas volumosas, inclinação anterior: são três gestos de segundos que revelam retrações que a posição de repouso esconde.
-  4. **Deixar o prolongamento axilar de fora.** A cauda de Spence é mama dentro da axila; a palpação que termina na borda visível da mama deixa parênquima sem exame, e a Semiologia Médica manda ir além, até as regiões paraesternais e infraclaviculares.
+  4. **Deixar o prolongamento axilar de fora.** A cauda de Spence é mama dentro da axila; a palpação que termina na borda visível da mama deixa parênquima sem exame, e é preciso ir além, até as regiões paraesternais e infraclaviculares.
   5. **Esquecer a expressão papilar**, ou fazê-la como ordenha. É pressão delicada, por quadrantes ou pontos cardinais, com pesquisa do ponto de gatilho; sem ela, a descarga provocada não aparece e o dado se perde.
   6. **Tratar a mama masculina como fora do exame.** A ginecomastia tem definição operacional, valor diagnóstico medido na suspeita de cirrose e um diferencial que importa: o câncer de mama do homem, 1% dos casos, que se apresenta como nódulo excêntrico e endurecido, não como botão subareolar simétrico.
 :::
 
 ::: perola
-texto: "A régua do exame das mamas é a outra mama da mesma paciente. Porto manda começar pela mama sem queixa exatamente por isso: ela calibra a mão para o parênquima daquela pessoa, naquela fase do ciclo, e transforma a pergunta impossível 'isto é normal?' na pergunta respondível 'isto é igual ao outro lado?'."
+texto: "A régua do exame das mamas é a outra mama da mesma paciente. Começa-se pela mama sem queixa exatamente por isso: ela calibra a mão para o parênquima daquela pessoa, naquela fase do ciclo, e transforma a pergunta impossível 'isto é normal?' na pergunta respondível 'isto é igual ao outro lado?'."
 :::
 
 ::: relampago
@@ -408,7 +408,7 @@ perguntas:
       - "Expressão papilar bilateral e vigorosa, que evidencia as retrações subareolares ao esvaziar os ductos terminais e reduzir o volume da região central da mama, tornando o contorno mais nítido sob a luz oblíqua"
       - "Percussão comparada dos dois hemitórax, que delimita o parênquima mamário contra a parede"
     corretaIndex: 0
-    explicacao: "A inspeção dinâmica existe porque a mama é suspensa pelos ligamentos de Cooper: Porto descreve a elevação dos braços, que aumenta a tensão dos ligamentos suspensores, e a contração dos peitorais (obtida, na Semiologia Médica, com as mãos comprimindo a cintura) que também avalia comprometimento muscular. Semiologia Clínica acrescenta a inclinação anterior do tronco para mamas grandes ou pêndulas. As três manobras revelam ou acentuam retrações, abaulamentos e alterações papilares, mais frequentes nos tumores malignos avançados."
+    explicacao: "A inspeção dinâmica existe porque a mama é suspensa pelos ligamentos de Cooper: a elevação dos braços aumenta a tensão dos ligamentos suspensores, e a contração dos peitorais (obtida com as mãos comprimindo a cintura) também avalia comprometimento muscular. A inclinação anterior do tronco completa o trio, indicada para mamas grandes ou pêndulas. As três manobras revelam ou acentuam retrações, abaulamentos e alterações papilares, mais frequentes nos tumores malignos avançados."
   - id: mamas-exame-2
     enunciado: Uma estudante pergunta por que o exame das mamas precisa ser feito sentada e também deitada, se a palpação é a mesma. Qual é a resposta ancorada nas fontes?
     alternativas:
@@ -417,7 +417,7 @@ perguntas:
       - "Deitada, a mama se achata sobre o gradil costal e expõe nódulos pequenos ou profundos; sentada, funcionam a inspeção dinâmica e a primeira palpação"
       - "A posição sentada é reservada às mamas volumosas, e a deitada às mamas pequenas, conforme o biotipo"
     corretaIndex: 2
-    explicacao: "Porto, no Exame Clínico, começa o exame com a paciente sentada, inspeção estática, dinâmica e palpação em três tempos: global com a mão espalmada, por quadrantes com a face palmar dos dedos e digital pela manobra de Bloodgood, e o conclui em decúbito dorsal, com as mãos sob a nuca: o achatamento da mama sobre o gradil costal evidencia melhor os tumores pequenos ou de localização profunda. A Semiologia Médica e Semiologia Clínica descrevem a palpação em decúbito dorsal; nenhuma obra a trata como questão de conforto ou de biotipo."
+    explicacao: "O exame mais completo começa com a paciente sentada, inspeção estática, dinâmica e palpação em três tempos: global com a mão espalmada, por quadrantes com a face palmar dos dedos e digital pela manobra de Bloodgood, e se conclui em decúbito dorsal, com as mãos sob a nuca: o achatamento da mama sobre o gradil costal evidencia melhor os tumores pequenos ou de localização profunda. As outras descrições também trazem a palpação em decúbito dorsal; nenhuma a trata como questão de conforto ou de biotipo."
   - id: mamas-exame-3
     enunciado: Homem de 58 anos, obeso, com aumento bilateral do volume das mamas. À palpação, não há botão firme subareolar; o aumento é difuso e mole. Como interpretar?
     alternativas:
@@ -426,7 +426,7 @@ perguntas:
       - "Câncer de mama masculino bilateral, dada a idade acima da média para o diagnóstico"
       - "Telarca tardia, pela persistência de tecido glandular rudimentar da adolescência"
     corretaIndex: 1
-    explicacao: "McGee define ginecomastia operacionalmente: botão discreto, palpável e firme de tecido mamário subareolar com 2 cm ou mais de diâmetro. A Semiologia Médica e Semiologia Clínica exigem a mesma distinção entre proliferação glandular e lipomastia ou adipomastia: deposição de gordura sem tecido glandular, comum na obesidade, difusa e sem botão firme. O câncer de mama masculino, 1% dos casos, apresenta-se tipicamente como nódulo unilateral, excêntrico e endurecido, não como aumento difuso, mole e bilateral."
+    explicacao: "A definição operacional de ginecomastia: botão discreto, palpável e firme de tecido mamário subareolar com 2 cm ou mais de diâmetro. A mesma distinção vale entre proliferação glandular e lipomastia ou adipomastia: deposição de gordura sem tecido glandular, comum na obesidade, difusa e sem botão firme. O câncer de mama masculino, 1% dos casos, apresenta-se tipicamente como nódulo unilateral, excêntrico e endurecido, não como aumento difuso, mole e bilateral."
   - id: mamas-exame-4
     enunciado: Mulher de 60 anos com carcinoma de mama recém-diagnosticado tem axila normal à palpação cuidadosa. O que o exame físico autoriza a concluir sobre os linfonodos axilares?
     alternativas:
@@ -435,16 +435,16 @@ perguntas:
       - "Que a doença está em estágio inicial, porque a adenopatia axilar precede qualquer outro sinal de disseminação"
       - "Pouco: a axila palpável nesse contexto praticamente confirma metástase, com razão de verossimilhança 9,3, mas a axila negativa rende apenas 0,7, e 18% a 33% dessas pacientes têm metástase encontrada na cirurgia"
     corretaIndex: 3
-    explicacao: "McGee, no capítulo de linfadenopatia periférica, mede o exame da axila no estadiamento do carcinoma de mama conhecido: sensibilidade de 31% a 35%, especificidade de 94% a 98%, razão de verossimilhança 9,3 quando a adenopatia é palpável e 0,7 quando não é. A assimetria é a lição: a mão confirma, mas não exclui, 18% a 33% das pacientes com axila negativa ao exame têm metástase linfonodal descoberta na cirurgia, e por isso o estadiamento axilar não termina no exame físico."
+    explicacao: "O exame da axila no estadiamento do carcinoma de mama conhecido tem desempenho medido: sensibilidade de 31% a 35%, especificidade de 94% a 98%, razão de verossimilhança 9,3 quando a adenopatia é palpável e 0,7 quando não é. A assimetria é a lição: a mão confirma, mas não exclui, 18% a 33% das pacientes com axila negativa ao exame têm metástase linfonodal descoberta na cirurgia, e por isso o estadiamento axilar não termina no exame físico."
   - id: mamas-exame-5
-    enunciado: Sobre o autoexame das mamas, o que as quatro obras adotadas por este guia efetivamente ensinam?
+    enunciado: Sobre o autoexame das mamas, o que as referências deste guia efetivamente ensinam?
     alternativas:
       - "Uma técnica mensal padronizada, com posição, sequência de quadrantes e o melhor momento do ciclo"
-      - "Quase nada: ele aparece como item de promoção da saúde na anamnese de Porto, sem técnica ensinada nem posição sobre seu papel no rastreamento"
+      - "Quase nada: ele aparece como item de promoção da saúde na anamnese, sem técnica ensinada nem posição sobre seu papel no rastreamento"
       - "A recomendação formal de substituí-lo pela mamografia, com a data da diretriz que aboliu sua prática"
       - "O desempenho medido do autoexame comparado ao exame clínico do profissional, com sensibilidade, especificidade e razões de verossimilhança tabuladas para cada faixa etária de rastreamento"
     corretaIndex: 1
-    explicacao: "Nas duas obras de Porto, o autoexame mamário aparece no interrogatório sintomatológico como item de promoção da saúde, pergunta-se se a paciente o pratica, junto da data da última mamografia ou ultrassonografia a partir dos 40 anos, e a Semiologia Médica o menciona de passagem a propósito da nodularidade pré-menstrual. Nenhuma das quatro obras ensina técnica de autoexame, mede seu desempenho ou toma posição sobre seu papel no rastreamento; recomendações populacionais a respeito são matéria de diretrizes datadas, externas às obras adotadas, e o guia não as importa sem âncora."
+    explicacao: "O autoexame mamário aparece no interrogatório sintomatológico como item de promoção da saúde: pergunta-se se a paciente o pratica, junto da data da última mamografia ou ultrassonografia a partir dos 40 anos, e é mencionado de passagem a propósito da nodularidade pré-menstrual. Não há, nas referências deste guia, técnica de autoexame ensinada, desempenho medido ou posição sobre seu papel no rastreamento; recomendações populacionais a respeito são matéria de diretrizes datadas, externas a essas referências, e o guia não as importa sem âncora."
   - id: mamas-exame-6
     enunciado: No exame de rotina de uma mulher de 34 anos, há uma pequena elevação pigmentada no sulco inframamário esquerdo, com aspecto de miniatura de aréola, presente desde sempre. Qual é a leitura mais provável?
     alternativas:
@@ -453,5 +453,5 @@ perguntas:
       - "Politelia: mamilo supranumerário na linha láctea, a anomalia mamária mais frequente, tipicamente assintomática"
       - "Linfonodo intramamário superficializado, achado frequente no sulco inframamário e que dispensa registro por ser variação anatômica da drenagem linfática da mama"
     corretaIndex: 2
-    explicacao: "A Semiologia Médica registra a politelia como a anomalia mamária mais frequente, localizada mais comumente no sulco inframamário e possível em qualquer ponto da linha láctea, que corre da axila à região inguinal; o Exame Clínico descreve os mamilos extranumerários no trajeto da mama à axila. O achado é em geral assintomático e se parece com nevo ou verruga: a pista é a posição sobre a linha e a miniatura de aréola. A polimastia, glândula acessória mais comum na axila, é o diferencial de massa axilar que não é linfonodo e aumenta na gravidez e na lactação."
+    explicacao: "A politelia é a anomalia mamária mais frequente, localizada mais comumente no sulco inframamário e possível em qualquer ponto da linha láctea, que corre da axila à região inguinal; os mamilos extranumerários seguem o trajeto da mama à axila. O achado é em geral assintomático e se parece com nevo ou verruga: a pista é a posição sobre a linha e a miniatura de aréola. A polimastia, glândula acessória mais comum na axila, é o diferencial de massa axilar que não é linfonodo e aumenta na gravidez e na lactação."
 :::

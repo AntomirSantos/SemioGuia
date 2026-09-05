@@ -87,7 +87,7 @@ titulo: O essencial
 ::: conceito
 titulo: O exame que depende inteiramente do paciente
 texto: |
-  Toda a sensibilidade que se examina à beira do leito é, no fundo, **relato**. Porto é honesto quanto a isso: a sensibilidade dita objetiva não deixa de ser subjetiva, porque depende da resposta do paciente; ela se chama objetiva apenas porque existe um estímulo aplicado pelo examinador. Daí a lista de condições que arruínam o exame, que Porto (*Exame Clínico*) enumera sem cerimônia: ambiente e material inadequados, cansaço, consciência alterada, transtorno psíquico e, a única que depende só do médico, a impaciência de quem examina.
+  Toda a sensibilidade que se examina à beira do leito é, no fundo, **relato**. Porto é honesto quanto a isso: a sensibilidade dita objetiva não deixa de ser subjetiva, porque depende da resposta do paciente; ela se chama objetiva apenas porque existe um estímulo aplicado pelo examinador. Daí a lista de condições que arruínam o exame, que Porto enumera sem cerimônia: ambiente e material inadequados, cansaço, consciência alterada, transtorno psíquico e, a única que depende só do médico, a impaciência de quem examina.
 
   A consequência prática é que **este é o exame que mais se beneficia de decidir antes o que se quer saber**. McGee organiza essa decisão em três cenários, e ela poupa metade do tempo:
 
@@ -95,7 +95,7 @@ texto: |
   - **queixa limitada a um membro**: testam-se **tato e dor**, com a observação de que a pesquisa da **dor** tem mais chance de detectar radiculopatias e lesões sutis de nervo periférico;
   - **queixa que envolve grande parte de um membro ou o tronco**, é necessário testar **todas as sensações simples**, e a razão é específica: só assim se descobre a **dissociação sensitiva**, a perda de uma modalidade com preservação de outra, que é uma pista importante de doença medular.
 
-  São **quatro as sensações simples** (McGee): dor, temperatura, tato e vibração. Chamam-se simples porque sua percepção não exige um córtex cerebral contralateral íntegro.
+  São **quatro as sensações simples**: dor, temperatura, tato e vibração. Chamam-se simples porque sua percepção não exige um córtex cerebral contralateral íntegro.
 
   **O que este tópico paga.** O tópico de ectoscopia prometeu ao capítulo do sistema nervoso o estudo detalhado das marchas **com as manobras de equilíbrio e coordenação que as explicam**. As manobras estão aqui; as marchas, no tópico seguinte. E o tópico de pares cranianos de VII a XII deixou reservado a este o detalhamento da prova de Romberg: o que ela testa e o que ela não testa.
 
@@ -126,7 +126,7 @@ passos:
   - "Quando houver indicação, teste a temperatura alternando os dois tubos, ou compare a haste fria do diapasão com o seu próprio dedo aquecido."
   - "Aplique o diapasão de 128 Hz vibrando sobre saliências ósseas e pergunte quando a vibração some, comparando os dois lados."
   - "Teste a posição segmentar segurando as laterais do hálux ou do polegar e deslocando-o devagar para cima e para baixo, pedindo que o paciente informe o movimento e a direção."
-  - "Delimite a área alterada e registre-a em esquema corporal (Porto)."
+  - "Delimite a área alterada e registre-a em esquema corporal."
   - "Coordenação dos membros superiores: prova índex-nariz, repetida algumas vezes, primeiro de olhos abertos e depois fechados."
   - "Coordenação dos membros inferiores: prova calcanhar-joelho, com deslizamento pela crista tibial nos casos duvidosos."
   - "Movimentos alternados rápidos: pronação e supinação sucessivas do antebraço, ou abrir e fechar a mão, comparando os dois lados."
@@ -161,7 +161,7 @@ titulo: Sensibilidade superficial
 ::: conceito
 titulo: "Tato, dor e temperatura: técnica e material"
 texto: |
-  **Tato.** Testa-se qualitativamente roçando de leve a pele com algodão, um pincel macio, um pedaço de papel ou o próprio dedo do examinador (Porto, McGee). A versão quantitativa usa monofilamentos calibrados, tratada no bloco de aprofundamento.
+  **Tato.** Testa-se qualitativamente roçando de leve a pele com algodão, um pincel macio, um pedaço de papel ou o próprio dedo do examinador. A versão quantitativa usa monofilamentos calibrados, tratada no bloco de aprofundamento.
 
   **Dor.** Porto pede um **estilete rombo**, capaz de provocar dor sem ferir, e desaconselha a agulha hipodérmica, que considera imprópria (sobretudo em mãos pouco treinadas. McGee especifica os dois materiais usuais) um alfinete de segurança dobrado em ângulo reto ou a borda cortada de um bastão de madeira, e acrescenta a regra sanitária que hoje é inegociável: **os dois devem ser descartados após o uso**, e por isso não se usam mais nem o pino embutido de alguns martelos de reflexo nem a tradicional roseta dentada. Semiologia Clínica, por sua vez, indica preferencialmente o **monofilamento** para a pesquisa da dor, admitindo alfinete ou agulha: divergência de material que vale registrar, já que as três obras não pedem o mesmo instrumento.
 
@@ -169,7 +169,7 @@ texto: |
 
   **O vocabulário das alterações** vem de Porto e de McGee, e convém ser exato:
 
-  - **hipoestesia** é a diminuição e **anestesia** a abolição da capacidade de perceber uma sensação simples; **hiperestesia**, o aumento. McGee registra que os dois primeiros termos originalmente se referiam só ao tato, embora muitos clínicos os usem para qualquer modalidade;
+  - **hipoestesia** é a diminuição e **anestesia** a abolição da capacidade de perceber uma sensação simples; **hiperestesia**, o aumento. Os dois primeiros termos originalmente se referiam só ao tato, embora muitos clínicos os usem para qualquer modalidade;
   - **hipalgesia** é a sensibilidade reduzida ao estímulo doloroso e **analgesia**, a insensibilidade completa;
   - **hiperpatia**, **hiperestesia** e **alodinia** designam sensibilidade aumentada aos estímulos, muitas vezes com qualidade desagradável; alguns autores restringem *hiperpatia* ao estímulo doloroso e *alodinia* ao desconforto provocado por estímulo tátil.
 
@@ -181,7 +181,7 @@ texto: |
 ::: conceito
 titulo: "Dermátomos: referência de consulta, não lista de decorar"
 texto: |
-  Um **dermátomo** é a área de pele inervada por uma única raiz nervosa, ou seja, por um segmento medular. Ele serve a dois propósitos, e só a esses dois (McGee): determinar se a perda sensitiva de um membro corresponde a um único segmento, o que implica lesão daquela raiz, e atribuir um **nível** neurológico a uma lesão medular.
+  Um **dermátomo** é a área de pele inervada por uma única raiz nervosa, ou seja, por um segmento medular. Ele serve a dois propósitos, e só a esses dois: determinar se a perda sensitiva de um membro corresponde a um único segmento, o que implica lesão daquela raiz, e atribuir um **nível** neurológico a uma lesão medular.
 
   Este guia não pede que o leitor decore o mapa. Pede que ele conheça **dois princípios** e **algumas zonas**.
 
@@ -215,7 +215,7 @@ texto: |
 
   Junte as duas frases e a aparente incoerência desaparece: aquilo que **desqualifica** o diapasão de 128 Hz para testar audição, o fato de ser sentido como vibração antes de ser ouvido como som, é exatamente o que o **qualifica** para testar a sensibilidade vibratória. São dois instrumentos parecidos para duas perguntas opostas, e trocá-los estraga as duas.
 
-  **Os números da normalidade** (McGee): quando um diapasão de 128 Hz é percutido a uma distância de 20 cm contra a base da palma do examinador, uma pessoa saudável de 40 anos deve perceber a vibração por **pelo menos 11 segundos** com a haste apoiada no **maléolo lateral** e por **pelo menos 15 segundos** no **processo estiloide da ulna**. Esses valores **diminuem 2 segundos a cada década** acima dos 40 anos. É o que transforma "sente" ou "não sente" em medida comparável.
+  **Os números da normalidade**: quando um diapasão de 128 Hz é percutido a uma distância de 20 cm contra a base da palma do examinador, uma pessoa saudável de 40 anos deve perceber a vibração por **pelo menos 11 segundos** com a haste apoiada no **maléolo lateral** e por **pelo menos 15 segundos** no **processo estiloide da ulna**. Esses valores **diminuem 2 segundos a cada década** acima dos 40 anos. É o que transforma "sente" ou "não sente" em medida comparável.
 
   **Duas correções de crença.** A primeira: a tradição de apoiar o diapasão sobre proeminências ósseas nasceu da ideia equivocada de que o osso conteria os receptores da vibração. Não contém: a sensibilidade vibratória é **igual ou até melhor sobre tecidos moles sem osso subjacente**, e McGee sugere ao leitor que comprove testando a parede abdominal. A segunda: a vibração é tradicionalmente associada à propriocepção porque os impulsos das duas sobem pelos **cordões posteriores** da medula, mas existem muitos exemplos clínicos de **dissociação** entre perda vibratória e perda proprioceptiva, tanto na neuropatia periférica quanto na doença medular. As duas andam juntas com frequência; não andam sempre.
 
@@ -225,20 +225,20 @@ texto: |
 ::: conceito
 titulo: Posição segmentar, pressão e dor profunda
 texto: |
-  **Propriocepção**, ou sensibilidade cinético-postural, a **batiestesia** de Porto, é a capacidade de detectar o movimento e a posição de um segmento com os olhos fechados. Ela tem um traço que a separa das sensações simples e a aproxima das corticais: **a percepção plena exige um córtex contralateral íntegro** (McGee).
+  **Propriocepção**, ou sensibilidade cinético-postural, a **batiestesia** de Porto, é a capacidade de detectar o movimento e a posição de um segmento com os olhos fechados. Ela tem um traço que a separa das sensações simples e a aproxima das corticais: **a percepção plena exige um córtex contralateral íntegro**.
 
   **A técnica** é a mesma nas duas obras. McGee: segurar com leveza as **laterais** do dedo do paciente e movê-lo devagar para cima e para baixo, pedindo que ele informe **se houve movimento e em que direção**. Porto descreve o mesmo deslocamento suave de um segmento em várias direções, com a fixação em uma posição que o paciente deve reconhecer, e sugere os pontos de eleição: hálux, polegar, pé e mão.
 
   Segurar pelas laterais não é preciosismo: apertar o dorso ou a polpa do dedo entrega a resposta pela pressão, e o paciente acerta sem propriocepção nenhuma.
 
-  **Os números que calibram o normal** (McGee) são úteis porque previnem um falso-positivo comum: pessoas normais percebem o **movimento** com muito mais facilidade do que a **direção**, e podem errar a direção em até **10%** das vezes acertando sempre a presença do movimento. Indivíduos normais detectam de **1 a 2 graus** de movimento na maioria das articulações, sendo os **quadris** os mais sensíveis. Há ainda uma segunda prova, de olhos fechados: o examinador coloca o indicador estendido do paciente sobre o seu próprio indicador, o paciente baixa o braço e tenta reencontrar a posição; pessoas normais chegam consistentemente a **menos de 5 cm** do alvo.
+  **Os números que calibram o normal** são úteis porque previnem um falso-positivo comum: pessoas normais percebem o **movimento** com muito mais facilidade do que a **direção**, e podem errar a direção em até **10%** das vezes acertando sempre a presença do movimento. Indivíduos normais detectam de **1 a 2 graus** de movimento na maioria das articulações, sendo os **quadris** os mais sensíveis. Há ainda uma segunda prova, de olhos fechados: o examinador coloca o indicador estendido do paciente sobre o seu próprio indicador, o paciente baixa o braço e tenta reencontrar a posição; pessoas normais chegam consistentemente a **menos de 5 cm** do alvo.
 
   A consequência mais visível da perda proprioceptiva grave é a **dependência da visão para o equilíbrio**: o paciente fica muito instável ao fechar os olhos ou ao andar no escuro. É esse fato, e não outro, que fundamenta o sinal de Romberg, tratado adiante.
 
   Porto acrescenta duas modalidades que completam a sensibilidade profunda:
 
   - **barestesia**, a sensibilidade à pressão, verificada por compressão digital ou manual, sobretudo de massas musculares;
-  - **sensibilidade dolorosa profunda**, avaliada por compressão moderada de músculos e tendões, manobra que em condições normais **não** dói. Havendo queixa de dor, o achado sugere neurite ou miosite. O comportamento oposto também informa: Porto registra que pacientes com tabes dorsalis não sentem dor à compressão, mesmo forte, de estruturas habitualmente muito dolorosas.
+  - **sensibilidade dolorosa profunda**, avaliada por compressão moderada de músculos e tendões, manobra que em condições normais **não** dói. Havendo queixa de dor, o achado sugere neurite ou miosite. O comportamento oposto também informa: Pacientes com tabes dorsalis não sentem dor à compressão, mesmo forte, de estruturas habitualmente muito dolorosas.
 
   **Estereognosia** fecha o exame sensitivo em Porto: coloca-se um objeto comum e pequeno (uma chave, um botão, um grampo) na mão do paciente, que deve reconhecê-lo pelo tato, sem ver. A perda dessa função chama-se **astereognosia** ou agnosia tátil e indica lesão do **lobo parietal contralateral**. McGee acrescenta o padrão de normalidade: pessoas normais nomeiam mais de **90%** desses objetos em até **5 segundos**.
 :::
@@ -359,7 +359,7 @@ svg: |
 ::: conceito
 titulo: "Lendo a tabela: três detalhes que decidem"
 texto: |
-  **O padrão em bota e luva tem uma explicação, e ela prevê a sequência.** A polineuropatia acomete igualmente todos os nervos do mesmo comprimento, por isso o desenho lembra uma bota e uma luva. Como afeta primeiro os nervos mais longos, a hipoestesia aparece nos **pés**, depois nas **pontas dos dedos das mãos** e, apenas após comprometimento extenso de braços e pernas, no **tronco anterior** (McGee). Acompanham-na, com frequência, atrofia da musculatura pequena de pés e mãos e reflexos aquileus ausentes: os mesmos achados que o tópico de força, tônus e reflexos ensina a procurar.
+  **O padrão em bota e luva tem uma explicação, e ela prevê a sequência.** A polineuropatia acomete igualmente todos os nervos do mesmo comprimento, por isso o desenho lembra uma bota e uma luva. Como afeta primeiro os nervos mais longos, a hipoestesia aparece nos **pés**, depois nas **pontas dos dedos das mãos** e, apenas após comprometimento extenso de braços e pernas, no **tronco anterior**. Acompanham-na, com frequência, atrofia da musculatura pequena de pés e mãos e reflexos aquileus ausentes: os mesmos achados que o tópico de força, tônus e reflexos ensina a procurar.
 
   Um sinal fino de McGee vale guardar porque separa polineuropatia de outra coisa: como os nervos que vão aos **dorsiflexores** do pé são mais longos que os que vão aos **flexores plantares**, o paciente com polineuropatia tem **mais dificuldade de andar sobre os calcanhares do que sobre as pontas dos pés**. O achado inverso, dificuldade nas pontas e não nos calcanhares, sugere outro diagnóstico.
 
@@ -384,9 +384,9 @@ titulo: As três provas, e o que cada uma pode mostrar
 texto: |
   Coordenação não é força. Porto explica o pré-requisito conceitual: não basta haver força para executar um movimento; é preciso que direção, velocidade e medida sejam reguladas, o que torna o movimento econômico, preciso e harmônico. E isso depende de **dois setores** do sistema nervoso funcionando juntos: o **cerebelo**, como centro coordenador, e a **sensibilidade proprioceptiva**, que informa continuamente a esse centro as mudanças de posição dos segmentos.
 
-  Daí a divisão da **ataxia**, a perda de coordenação, em **cerebelar**, **sensitiva** e **mista** (Porto). E daí a manobra que separa as duas, e que atravessa este tópico inteiro: **fechar os olhos**. Nas lesões da sensibilidade proprioceptiva, o paciente recorre à visão para vigiar os movimentos que não consegue coordenar; fechados os olhos, a ataxia **piora**. Nas lesões cerebelares, isso não acontece.
+  Daí a divisão da **ataxia**, a perda de coordenação, em **cerebelar**, **sensitiva** e **mista**. E daí a manobra que separa as duas, e que atravessa este tópico inteiro: **fechar os olhos**. Nas lesões da sensibilidade proprioceptiva, o paciente recorre à visão para vigiar os movimentos que não consegue coordenar; fechados os olhos, a ataxia **piora**. Nas lesões cerebelares, isso não acontece.
 
-  **Prova índex-nariz.** Com o braço aberto para o lado e o cotovelo esticado, o paciente leva o indicador até a ponta do próprio nariz, repetindo algumas vezes, primeiro de olhos abertos e depois fechados; de pé ou sentado (Porto). McGee descreve a variante **dedo-nariz-dedo**, em que o paciente alterna entre o próprio nariz e o indicador do examinador mantido a cerca de meio metro de distância, e acrescenta um refinamento: **mover o alvo** durante a prova evidencia melhor o desvio do trajeto.
+  **Prova índex-nariz.** Com o braço aberto para o lado e o cotovelo esticado, o paciente leva o indicador até a ponta do próprio nariz, repetindo algumas vezes, primeiro de olhos abertos e depois fechados; de pé ou sentado. McGee descreve a variante **dedo-nariz-dedo**, em que o paciente alterna entre o próprio nariz e o indicador do examinador mantido a cerca de meio metro de distância, e acrescenta um refinamento: **mover o alvo** durante a prova evidencia melhor o desvio do trajeto.
 
   **Prova calcanhar-joelho.** Em decúbito dorsal, o paciente toca o joelho oposto com o calcanhar do membro examinado, várias vezes, de olhos abertos e depois fechados. Nos casos duvidosos, Porto ensina a **sensibilizar** a prova: depois de tocar o joelho, o calcanhar desliza pela **crista tibial** até o pé.
 
@@ -426,9 +426,9 @@ causas:
 ::: conceito
 titulo: Os quatro sinais cerebelares e a regra do mesmo lado
 texto: |
-  Na década de 1920, depois de observar pacientes com tumores do cerebelo e soldados feridos por projétil na fossa posterior, o neurologista britânico Gordon Holmes concluiu que **quatro sinais físicos** eram fundamentais na doença cerebelar: **ataxia, nistagmo, hipotonia e disartria** (McGee). Um século depois, a lista continua sendo o esqueleto do exame cerebelar.
+  Na década de 1920, depois de observar pacientes com tumores do cerebelo e soldados feridos por projétil na fossa posterior, o neurologista britânico Gordon Holmes concluiu que **quatro sinais físicos** eram fundamentais na doença cerebelar: **ataxia, nistagmo, hipotonia e disartria**. Um século depois, a lista continua sendo o esqueleto do exame cerebelar.
 
-  **As frequências**, medidas em 444 pacientes com lesões focais confinadas a um hemisfério cerebelar (McGee): **ataxia de marcha 80% a 93%**, dismetria 71% a 86%, disdiadococinesia 47% a 69%, tremor de intenção 29%, **nistagmo 54% a 84%**, **hipotonia 76%**, com reflexos patelares pendulares em 37%, e **disartria 10% a 25%**.
+  **As frequências**, medidas em 444 pacientes com lesões focais confinadas a um hemisfério cerebelar: **ataxia de marcha 80% a 93%**, dismetria 71% a 86%, disdiadococinesia 47% a 69%, tremor de intenção 29%, **nistagmo 54% a 84%**, **hipotonia 76%**, com reflexos patelares pendulares em 37%, e **disartria 10% a 25%**.
 
   Três leituras saem daí.
 
@@ -448,7 +448,7 @@ titulo: Equilíbrio estático e a prova de Romberg
 ::: conceito
 titulo: O que Romberg testa, e o que ele não testa
 texto: |
-  **A técnica** é comum às três obras: terminado o estudo da marcha, o paciente permanece de pé, descalço, com os **pés juntos e paralelos**, olhando para a frente, por alguns segundos; em seguida, fecha as pálpebras (Porto). Semiologia Clínica acrescenta um passo útil ao mesmo exame: pedir que estenda os membros superiores paralelos ao chão antes de fechar os olhos, o que permite ler o desvio dos braços junto com o do tronco.
+  **A técnica** é comum às três obras: terminado o estudo da marcha, o paciente permanece de pé, descalço, com os **pés juntos e paralelos**, olhando para a frente, por alguns segundos; em seguida, fecha as pálpebras. Semiologia Clínica acrescenta um passo útil ao mesmo exame: pedir que estenda os membros superiores paralelos ao chão antes de fechar os olhos, o que permite ler o desvio dos braços junto com o do tronco.
 
   **A leitura de Porto**, que é a que orienta a topografia: a pessoa sem doença ou não mostra nada, ou apenas oscila de leve, prova negativa. Havendo alteração, ao cerrar as pálpebras o paciente oscila, desequilibra-se e tende a cair. E **a tendência à queda tem duas formas, que apontam para lugares diferentes**:
 
@@ -459,7 +459,7 @@ texto: |
 
   Porto lista as condições em que a prova é positiva: labirintopatias, tabes dorsalis, degeneração combinada da medula e polineuropatia periférica.
 
-  **E aqui está o que a prova NÃO testa.** Nas lesões **cerebelares**, sobretudo, o paciente sequer fica de pé, *astasia*, ou fica com dificuldade, *distasia*, e compensa o desequilíbrio afastando os pés para ganhar base. E o ponto decisivo: **nada disso muda quando a visão é retirada**, ou seja, a prova de Romberg é **negativa** (Porto). O paciente cerebelar já estava instável de olhos abertos; fechar os olhos não acrescenta informação.
+  **E aqui está o que a prova NÃO testa.** Nas lesões **cerebelares**, sobretudo, o paciente sequer fica de pé, *astasia*, ou fica com dificuldade, *distasia*, e compensa o desequilíbrio afastando os pés para ganhar base. E o ponto decisivo: **nada disso muda quando a visão é retirada**, ou seja, a prova de Romberg é **negativa**. O paciente cerebelar já estava instável de olhos abertos; fechar os olhos não acrescenta informação.
 
   Uma frase resume a lógica inteira: **Romberg mede o quanto o paciente dependia da visão para se equilibrar**. Quem se equilibrava pela propriocepção e a perdeu depende da visão, e desaba quando ela é retirada. Quem se equilibrava mal por doença cerebelar continua se equilibrando mal, com ou sem visão.
 
@@ -484,7 +484,7 @@ texto: |
 
   A oscilação aumentada, sozinha, **não serve**, e o motivo é simples: **a maioria das pessoas normais oscila mais ao fechar os olhos**, e o mesmo acontece em pacientes com doença vestibular, cerebelar e parkinsoniana. Um critério que quase todo mundo preenche não separa ninguém.
 
-  **A melhor definição operacional**, segundo McGee, é a **incapacidade de permanecer 60 segundos com os pés juntos e os olhos fechados**. O que sustenta a escolha é um estudo com três grupos: **todas** as pessoas saudáveis e **mais da metade** dos pacientes com ataxia cerebelar mantiveram a posição pelos 60 segundos, enquanto **metade** dos pacientes com **ataxia sensitiva** durou apenas **10 segundos** antes de começar a tombar.
+  **A melhor definição operacional**, é a **incapacidade de permanecer 60 segundos com os pés juntos e os olhos fechados**. O que sustenta a escolha é um estudo com três grupos: **todas** as pessoas saudáveis e **mais da metade** dos pacientes com ataxia cerebelar mantiveram a posição pelos 60 segundos, enquanto **metade** dos pacientes com **ataxia sensitiva** durou apenas **10 segundos** antes de começar a tombar.
 
   Repare no que esse resultado faz com a regra clássica: ele **confirma** que o Romberg separa ataxia sensitiva de cerebelar, e ao mesmo tempo mostra que a separação não é absoluta, quase metade dos pacientes cerebelares também falhou no teste de 60 segundos. Como sempre neste guia, o achado desloca a probabilidade; não decide sozinho.
 
@@ -498,7 +498,7 @@ titulo: Aprofundamento
 :::
 
 ::: tabela
-titulo: Sensibilidade, neuropatia e pé diabético (McGee)
+titulo: Sensibilidade, neuropatia e pé diabético
 nivel: avancado
 colunas:
   - "Achado"
@@ -530,13 +530,13 @@ nivel: avancado
 texto: |
   O monofilamento de **Semmes-Weinstein** é um instrumento, não um fármaco, e entra neste guia porque é o único modo padronizado de transformar o tato em número à beira do leito.
 
-  **A técnica** (McGee): o paciente deve estar **deitado e de olhos fechados**; o filamento é aplicado **perpendicular à pele**, com força suficiente para **encurvá-lo por cerca de 1 segundo**; o paciente responde "sim" a cada vez que sente, enquanto o examinador testa cada sítio do pé **várias vezes e em ordem aleatória**. Nos estudos clínicos, de 1 a 10 sítios diferentes foram testados, e todos definiram como anormal a **incapacidade de sentir o filamento de forma consistente em qualquer sítio**. Testar a **superfície plantar da primeira e da quinta cabeças metatarsais** talvez seja a manobra mais eficiente e globalmente mais precisa.
+  **A técnica**: o paciente deve estar **deitado e de olhos fechados**; o filamento é aplicado **perpendicular à pele**, com força suficiente para **encurvá-lo por cerca de 1 segundo**; o paciente responde "sim" a cada vez que sente, enquanto o examinador testa cada sítio do pé **várias vezes e em ordem aleatória**. Nos estudos clínicos, de 1 a 10 sítios diferentes foram testados, e todos definiram como anormal a **incapacidade de sentir o filamento de forma consistente em qualquer sítio**. Testar a **superfície plantar da primeira e da quinta cabeças metatarsais** talvez seja a manobra mais eficiente e globalmente mais precisa.
 
   **O que significa o número 5,07.** É o logaritmo comum de dez vezes a força em miligramas necessária para encurvar o filamento: o filamento 5,07 encurva com **11,8 g** de pressão. Monofilamentos com números maiores são, portanto, mais rígidos e mais facilmente percebidos.
 
   **A história explica um limite.** Os monofilamentos foram criados em 1898 por von Frey, que colava espinhos em fios de cabelo de rigidez variável e os calibrava em balança química. Os de náilon foram introduzidos em 1960 por Josephine Semmes e Sidney Weinstein, que usaram filamentos de vinte diâmetros diferentes para estudar a sensibilidade em pacientes com lesões cerebrais penetrantes.
 
-  **E aqui está a parte que quase nunca se conta.** Embora o 5,07 esteja consagrado como padrão para o pé diabético, essa escolha vem de um estudo antigo com úlceras neuropáticas que usou **apenas 3 dos 20 filamentos disponíveis**: o 4,17, escolhido porque praticamente todas as pessoas normais o sentem, e os mais rígidos 5,07 e 6,10. Nesse estudo, nenhum paciente com úlcera sentia o 4,17 nem o 5,07, embora alguns sentissem o 6,10, e daí se concluiu que sentir o 5,07 seria protetor. McGee observa que **um dos sete filamentos intermediários não usados poderia ser um limiar melhor**, e registra que um estudo sugeriu justamente isso para o filamento 4,21.
+  **E aqui está a parte que quase nunca se conta.** Embora o 5,07 esteja consagrado como padrão para o pé diabético, essa escolha vem de um estudo antigo com úlceras neuropáticas que usou **apenas 3 dos 20 filamentos disponíveis**: o 4,17, escolhido porque praticamente todas as pessoas normais o sentem, e os mais rígidos 5,07 e 6,10. Nesse estudo, nenhum paciente com úlcera sentia o 4,17 nem o 5,07, embora alguns sentissem o 6,10, e daí se concluiu que sentir o 5,07 seria protetor. **um dos sete filamentos intermediários não usados poderia ser um limiar melhor**, e registra que um estudo sugeriu justamente isso para o filamento 4,21.
 
   **O desempenho, lido com honestidade.** A incapacidade de sentir o 5,07 é um preditor **modesto** de ulceração em 2 a 4 anos de seguimento: razão de verossimilhança **2,6**. O achado que rende mais é o negativo: a **presença** de sensibilidade ao 5,07 reduz a probabilidade de amputação em 3 a 4 anos, com razão de verossimilhança **0,3**. E McGee registra a comparação que interessa a este tópico: a sensação ao monofilamento **prevê complicações melhor** que outras medidas quantitativas de sensibilidade, incluindo o **diapasão de 128 Hz** e estímulos vibratórios ou térmicos graduados.
 
@@ -549,7 +549,7 @@ nivel: avancado
 texto: |
   **Sensações corticais** são as que exigem integração e processamento superiores e, portanto, um **córtex contralateral íntegro**. Elas podem estar alteradas na doença hemisférica **mesmo com as sensações simples preservadas**, e é isso que as torna úteis.
 
-  Testá-las tem **três pré-requisitos** (McGee), e o terceiro é o que mais se esquece: olhos fechados; ausência de demência; e **sensações simples, sobretudo o tato, preservadas**. Se as sensações simples estiverem profundamente alteradas, como na neuropatia periférica grave, nenhuma informação sensitiva chega ao hemisfério e os testes de sensação cortical se tornam **ininterpretáveis**.
+  Testá-las tem **três pré-requisitos**, e o terceiro é o que mais se esquece: olhos fechados; ausência de demência; e **sensações simples, sobretudo o tato, preservadas**. Se as sensações simples estiverem profundamente alteradas, como na neuropatia periférica grave, nenhuma informação sensitiva chega ao hemisfério e os testes de sensação cortical se tornam **ininterpretáveis**.
 
   As provas, com seus padrões de normalidade:
 
@@ -558,7 +558,7 @@ texto: |
   - **grafestesia**: identificar letras ou números traçados na pele; pessoas normais reconhecem com facilidade símbolos de **1 cm** nas polpas digitais e de **6 cm** em outras regiões;
   - **localização**: apontar com precisão o ponto que acabou de ser tocado;
   - **estimulação tátil bilateral simultânea**: reconhecer que os dois lados do corpo estão sendo tocados ao mesmo tempo. A falha consistente em detectar o estímulo de um dos lados chama-se **extinção tátil**;
-  - **apreciação de pesos**: perceber diferenças de peso entre objetos colocados sucessivamente na mão. McGee registra que essa prova era mais usada décadas atrás do que hoje.
+  - **apreciação de pesos**: perceber diferenças de peso entre objetos colocados sucessivamente na mão. Essa prova era mais usada décadas atrás do que hoje.
 
   **A leitura topográfica.** Lesões do **lobo parietal posterior** podem preservar as sensações simples e eliminar a propriocepção e as sensações corticais, com perda tipicamente confinada às **porções distais dos membros contralaterais**, poupando face e tronco. Mas há uma advertência importante: a doença cortical **também pode** eliminar qualquer uma das sensações simples, sobretudo se a lesão envolver o lobo parietal anterior, o giro pós-central, ou a substância branca profunda. Essas lesões produzem uma perda sensitiva densa do lado oposto do corpo, envolvendo tronco, membros e face, tão parecida com a da doença talâmica que recebe o nome de **síndrome pseudotalâmica**.
 
@@ -630,11 +630,11 @@ titulo: Armadilhas do exame
 ::: conceito
 titulo: Seis erros no exame da sensibilidade e da coordenação
 texto: |
-  1. **Sugerir a resposta na própria pergunta.** Perguntar "está sentindo o algodão no pé direito?" enquanto se toca o pé direito produz um exame normal em qualquer paciente. A pergunta é aberta, e a comparação vem depois (Porto).
-  2. **Testar só o tato diante de queixa que envolve o tronco.** É exatamente nesse cenário que se precisa de todas as modalidades, porque só assim se descobre a **dissociação sensitiva**, que é a pista de doença medular (McGee).
+  1. **Sugerir a resposta na própria pergunta.** Perguntar "está sentindo o algodão no pé direito?" enquanto se toca o pé direito produz um exame normal em qualquer paciente. A pergunta é aberta, e a comparação vem depois.
+  2. **Testar só o tato diante de queixa que envolve o tronco.** É exatamente nesse cenário que se precisa de todas as modalidades, porque só assim se descobre a **dissociação sensitiva**, que é a pista de doença medular.
   3. **Chamar de Romberg positivo a oscilação aumentada.** A maioria das pessoas normais oscila mais ao fechar os olhos, e também oscilam pacientes vestibulares, cerebelares e parkinsonianos. A definição que funciona é a incapacidade de manter 60 segundos com pés juntos e olhos fechados.
-  4. **Esperar Romberg positivo na doença cerebelar.** O paciente cerebelar alarga a base e oscila **antes** de fechar os olhos, e fechar os olhos não muda o quadro: a prova é negativa (Porto).
-  5. **Interpretar provas de coordenação em membro fraco.** Sem força preservada não há movimento para o cerebelo administrar, e a prova não é interpretável (McGee).
+  4. **Esperar Romberg positivo na doença cerebelar.** O paciente cerebelar alarga a base e oscila **antes** de fechar os olhos, e fechar os olhos não muda o quadro: a prova é negativa.
+  5. **Interpretar provas de coordenação em membro fraco.** Sem força preservada não há movimento para o cerebelo administrar, e a prova não é interpretável.
   6. **Segurar o dedo pela polpa ao testar a posição segmentar.** A pressão entrega a direção e o paciente acerta sem propriocepção. Segure pelas laterais.
 :::
 

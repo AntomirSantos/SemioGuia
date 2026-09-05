@@ -86,7 +86,7 @@ titulo: O essencial
 ::: conceito
 titulo: O que o clínico geral examina nos olhos
 texto: |
-  Poucos segmentos rendem tanto por tão pouco equipamento. Porto abre a seção dizendo que os olhos têm valor semiológico extraordinário e pedem exame metódico e detalhado, e o roteiro que ele oferece cabe em uma lanterna: **as pálpebras e a fenda palpebral, os globos oculares, as conjuntivas e a esclerótica, a córnea e o cristalino, as pupilas com o reflexo fotomotor, a movimentação ocular e o fundo de olho**.
+  Poucos segmentos rendem tanto por tão pouco equipamento. Os olhos têm valor semiológico extraordinário e pedem exame metódico e detalhado, e o roteiro cabe em uma lanterna: **as pálpebras e a fenda palpebral, os globos oculares, as conjuntivas e a esclerótica, a córnea e o cristalino, as pupilas com o reflexo fotomotor, a movimentação ocular e o fundo de olho**.
 
   Este tópico ensina a metade dessa lista que o clínico geral executa à beira do leito, e nomeia sem ensinar a outra metade.
 
@@ -94,8 +94,8 @@ texto: |
 
   **O que fica como moldura, nomeada e não ensinada:**
 
-  - o **fundo de olho**, ou oftalmoscopia, que abre a retina ao exame e informa sobre hipertensão, diabetes melito e infecções sistêmicas (Semiologia Clínica), e que este guia deixa para o capítulo do sistema nervoso;
-  - os instrumentos do oftalmologista (**lâmpada de fenda, tonômetro, retinoscópio**) com os quais se examinam em detalhe córnea, câmara anterior, íris e cristalino, e se mede a pressão intraocular (Semiologia Clínica).
+  - o **fundo de olho**, ou oftalmoscopia, que abre a retina ao exame e informa sobre hipertensão, diabetes melito e infecções sistêmicas, e que este guia deixa para o capítulo do sistema nervoso;
+  - os instrumentos do oftalmologista (**lâmpada de fenda, tonômetro, retinoscópio**) com os quais se examinam em detalhe córnea, câmara anterior, íris e cristalino, e se mede a pressão intraocular.
 
   A **motricidade ocular extrínseca** fica no meio do caminho, e vale dizer exatamente onde a linha passa: o **rastreio** é ensinado aqui, pede-se ao paciente que acompanhe o dedo para os lados, para cima e para baixo, e registra-se limitação, desvio ou nistagmo. O que fica para o exame neurológico é a análise músculo a músculo, a atribuição de cada déficit ao seu nervo craniano e a nomenclatura das paralisias.
 
@@ -126,7 +126,7 @@ passos:
   - "Teste a resposta para perto aproximando um alvo até cerca de 10 cm do nariz, e observe miose bilateral com convergência dos globos."
   - "Peça que o paciente acompanhe seu dedo para os lados, para cima e para baixo, registrando limitação, desvio ou nistagmo."
 observar: |
-  Dirigir a lanterna para dentro do olho produz desconforto e faz o paciente desviar o olhar justamente quando você precisa que ele fique parado. Semiologia Clínica resolve o problema com um detalhe de ângulo: a luz vai obliquamente em direção à pupila, não frontalmente ao eixo visual.
+  Dirigir a lanterna para dentro do olho produz desconforto e faz o paciente desviar o olhar justamente quando você precisa que ele fique parado. Um detalhe de ângulo resolve o problema: a luz vai obliquamente em direção à pupila, não frontalmente ao eixo visual.
 
   Se o paciente usa prótese ocular e não avisou, você vai encontrar uma assimetria que nenhuma hipótese explica. Pergunte com delicadeza se há algum problema naquele olho, em vez de insistir no exame.
 :::
@@ -155,19 +155,19 @@ titulo: A moldura do olho
 texto: |
   A pálpebra é a primeira coisa que o olho mostra, e ela responde a três perguntas: **onde está**, **fecha** e **está inchada**.
 
-  **Onde está.** Em condições normais, a margem da pálpebra superior fica cerca de 2 mm abaixo do limbo superior; a da pálpebra inferior repousa cerca de 1 mm acima do limbo inferior (Porto, *Semiologia Médica*). Semiologia Clínica diz o mesmo de outro jeito: a pálpebra superior recobre a parte de cima da íris, mas **jamais a pupila**. Essa relação é a régua de todo o resto.
+  **Onde está.** Em condições normais, a margem da pálpebra superior fica cerca de 2 mm abaixo do limbo superior; a da pálpebra inferior repousa cerca de 1 mm acima do limbo inferior. Dito de outro jeito: a pálpebra superior recobre a parte de cima da íris, mas **jamais a pupila**. Essa relação é a régua de todo o resto.
 
-  A **ptose palpebral**, ou blefaroptose, é a queda da pálpebra superior, uni ou bilateral. Porto associa três contextos: paralisia do III par, síndrome de Claude Bernard-Horner e miastenia gravis. Semiologia Clínica acrescenta um dado de comportamento que ajuda a separar: na miastenia a ptose é bilateral e **piora ao longo do dia**.
+  A **ptose palpebral**, ou blefaroptose, é a queda da pálpebra superior, uni ou bilateral. Associam-se três contextos: paralisia do III par, síndrome de Claude Bernard-Horner e miastenia gravis. Um dado de comportamento ajuda a separar: na miastenia a ptose é bilateral e **piora ao longo do dia**.
 
-  Vale ter em mente qual músculo falhou (Porto, *Semiologia Médica*): o **orbicular**, inervado pelo facial, faz a oclusão; o **elevador da pálpebra superior**, inervado pelo oculomotor, abre; e o **músculo tarsal de Müller**, de fibras lisas e inervação simpática, participa da elevação. Ptose parcial por falha do músculo de Müller é o componente palpebral da síndrome de Horner.
+  Vale ter em mente qual músculo falhou: o **orbicular**, inervado pelo facial, faz a oclusão; o **elevador da pálpebra superior**, inervado pelo oculomotor, abre; e o **músculo tarsal de Müller**, de fibras lisas e inervação simpática, participa da elevação. Ptose parcial por falha do músculo de Müller é o componente palpebral da síndrome de Horner.
 
-  **Fecha.** A impossibilidade de ocluir as pálpebras chama-se **lagoftalmia** e aparece na paralisia facial periférica, na exoftalmia e nas retrações cicatriciais (Porto). Não é achado cosmético: sem oclusão, a córnea seca, e o quadro pode evoluir para úlcera e infecção. A borda palpebral também pode estar invertida, **entrópio**, ou evertida, **ectrópio**, com irritação da conjuntiva e da córnea no primeiro caso e lacrimejamento no segundo (Semiologia Clínica).
+  **Fecha.** A impossibilidade de ocluir as pálpebras chama-se **lagoftalmia** e aparece na paralisia facial periférica, na exoftalmia e nas retrações cicatriciais. Não é achado cosmético: sem oclusão, a córnea seca, e o quadro pode evoluir para úlcera e infecção. A borda palpebral também pode estar invertida, **entrópio**, ou evertida, **ectrópio**, com irritação da conjuntiva e da córnea no primeiro caso e lacrimejamento no segundo.
 
-  **Está inchada.** O edema palpebral é comum e tem endereços (Semiologia Clínica): acúmulo de líquido corporal, como na síndrome nefrótica e na insuficiência renal; inflamatório, como na blefarite e na celulite periorbitária; alérgico; e mixedematoso. Exceto o inflamatório, todos tendem a ser **bilaterais**. Um edema unilateral com características inflamatórias tem um diagnóstico diferencial que vale lembrar em nosso meio: o **sinal de Romaña** da doença de Chagas aguda, que dura poucos dias e regride sozinho.
+  **Está inchada.** O edema palpebral é comum e tem endereços: acúmulo de líquido corporal, como na síndrome nefrótica e na insuficiência renal; inflamatório, como na blefarite e na celulite periorbitária; alérgico; e mixedematoso. Exceto o inflamatório, todos tendem a ser **bilaterais**. Um edema unilateral com características inflamatórias tem um diagnóstico diferencial que vale lembrar em nosso meio: o **sinal de Romaña** da doença de Chagas aguda, que dura poucos dias e regride sozinho.
 
-  Porto abre um boxe com uma frase que merece ficar: "Inchaço dos olhos pela manhã pode ser o sinal mais precoce de edema generalizado" (Porto, *Exame Clínico*, cap. 15). A semiotécnica do edema, sua graduação em cruzes e a comparação entre suas causas estão no capítulo do coração, no tópico de pulso venoso jugular e turgência, e a fácies renal ou nefrótica, com o edema que piora pela manhã, está no tópico de ectoscopia.
+  Vale uma frase que merece ficar: "Inchaço dos olhos pela manhã pode ser o sinal mais precoce de edema generalizado". A semiotécnica do edema, sua graduação em cruzes e a comparação entre suas causas estão no capítulo do coração, no tópico de pulso venoso jugular e turgência, e a fácies renal ou nefrótica, com o edema que piora pela manhã, está no tópico de ectoscopia.
 
-  Dois imitadores fecham a lista. As **bolsas de acúmulo de gordura**, frequentes em idosos, instalam-se lentamente ao longo de anos, não variam com a posição, não flutuam durante o dia, não têm sinais flogísticos e não são compressíveis (Semiologia Clínica): o oposto ponto a ponto do edema. E o **xantelasma**, placa amarelada em alto-relevo na pálpebra, que pode ou não acompanhar alteração do metabolismo lipídico.
+  Dois imitadores fecham a lista. As **bolsas de acúmulo de gordura**, frequentes em idosos, instalam-se lentamente ao longo de anos, não variam com a posição, não flutuam durante o dia, não têm sinais flogísticos e não são compressíveis: o oposto ponto a ponto do edema. E o **xantelasma**, placa amarelada em alto-relevo na pálpebra, que pode ou não acompanhar alteração do metabolismo lipídico.
 :::
 
 ::: sinal
@@ -184,16 +184,16 @@ causas:
 ::: conceito
 titulo: A fenda, e o globo por trás dela
 texto: |
-  A **fenda palpebral** pode estar normal, aumentada, diminuída ou ausente, e o vocabulário de Porto conecta cada estado a uma causa: aumentada na **exoftalmia**, diminuída ou ausente na **ptose**. Uma variação anatômica frequente é a **prega cantal**, ou epicanto: uma prega de pele no canto interno do olho, presente em populações inteiras e também descrita na síndrome de Down (Semiologia Clínica). O nome que Porto ainda usa para essa prega pertence a uma tradição textual antiga; vale aqui a mesma regra registrada no tópico de ectoscopia, quando o nome ofende, descreve-se o achado.
+  A **fenda palpebral** pode estar normal, aumentada, diminuída ou ausente, e o vocabulário conecta cada estado a uma causa: aumentada na **exoftalmia**, diminuída ou ausente na **ptose**. Uma variação anatômica frequente é a **prega cantal**, ou epicanto: uma prega de pele no canto interno do olho, presente em populações inteiras e também descrita na síndrome de Down. O nome ainda usado para essa prega pertence a uma tradição textual antiga; vale aqui a mesma regra registrada no tópico de ectoscopia, quando o nome ofende, descreve-se o achado.
 
   A posição do globo dentro da órbita tem dois desvios:
 
-  - **Exoftalmia**: protrusão do globo. **Unilateral**, aponta para tumores oculares e retro-oculares (Porto); Semiologia Clínica acrescenta hematoma na órbita e trombose de seio cavernoso, e recomenda perguntar por trauma, dor e alteração visual. **Bilateral**, a causa clássica é o hipertireoidismo (Porto), em particular a doença de Graves-Basedow, na qual anticorpos agridem a gordura e a musculatura retro-orbitárias.
-  - **Enoftalmia**: globo afundado dentro da órbita, com estreitamento da fenda palpebral. Aparece na síndrome de Claude Bernard-Horner, em geral **unilateral**, e na desidratação, em geral **bilateral** (Porto). O encovamento dos olhos como sinal de desidratação já está no tópico de antropometria e hidratação.
+  - **Exoftalmia**: protrusão do globo. **Unilateral**, aponta para tumores oculares e retro-oculares; somam-se hematoma na órbita e trombose de seio cavernoso, e recomenda-se perguntar por trauma, dor e alteração visual. **Bilateral**, a causa clássica é o hipertireoidismo, em particular a doença de Graves-Basedow, na qual anticorpos agridem a gordura e a musculatura retro-orbitárias.
+  - **Enoftalmia**: globo afundado dentro da órbita, com estreitamento da fenda palpebral. Aparece na síndrome de Claude Bernard-Horner, em geral **unilateral**, e na desidratação, em geral **bilateral**. O encovamento dos olhos como sinal de desidratação já está no tópico de antropometria e hidratação.
 
-  Na exoftalmia, o que se perde é justamente a relação normal entre o limbo e as pálpebras: aparece um crescente de esclerótica visível acima e abaixo, e o achado fica mais evidente quando se olha o paciente de perfil (Porto, *Semiologia Médica*).
+  Na exoftalmia, o que se perde é justamente a relação normal entre o limbo e as pálpebras: aparece um crescente de esclerótica visível acima e abaixo, e o achado fica mais evidente quando se olha o paciente de perfil.
 
-  Duas alterações da posição e do movimento do globo têm a sua **caracterização** aqui apenas como **moldura nomeada**: os **desvios**, observados nos estrabismos, e o **nistagmo**, com seus abalos e oscilações rápidas em um dos vários planos. Porto os descreve na mesma página e remete ao exame neurológico, e é para lá que este guia também os manda.
+  Duas alterações da posição e do movimento do globo têm a sua **caracterização** aqui apenas como **moldura nomeada**: os **desvios**, observados nos estrabismos, e o **nistagmo**, com seus abalos e oscilações rápidas em um dos vários planos. Ambos remetem ao exame neurológico, e é para lá que este guia também os manda.
 :::
 
 ::: sinal
@@ -215,23 +215,23 @@ titulo: Conjuntivas, esclera e córnea
 ::: conceito
 titulo: O que se vê na superfície do olho
 texto: |
-  A conjuntiva normal é **rósea**, com a rede vascular levemente desenhada (Porto). A esclera normal tem cor branco-porcelana, com a ressalva de que perto do limbo, sobretudo do lado nasal, pode haver depósito de pigmento e áreas amareladas.
+  A conjuntiva normal é **rósea**, com a rede vascular levemente desenhada. A esclera normal tem cor branco-porcelana, com a ressalva de que perto do limbo, sobretudo do lado nasal, pode haver depósito de pigmento e áreas amareladas.
 
-  Para expor a conjuntiva palpebral inferior basta tracionar a pálpebra para baixo pedindo ao paciente que olhe para cima. Para a **eversão da pálpebra superior**, que só se justifica na suspeita de corpo estranho, Porto descreve o gesto: o paciente olha para baixo, o examinador segura os cílios e puxa para fora e para baixo enquanto pressiona com uma haste cerca de 1 cm acima da borda palpebral, o equivalente a pressionar acima da placa tarsal. Para desfazer, basta pedir que o paciente olhe para cima. Semiologia Clínica descreve a mesma manobra e faz a advertência que importa: **não pressione o globo ocular**.
+  Para expor a conjuntiva palpebral inferior basta tracionar a pálpebra para baixo pedindo ao paciente que olhe para cima. Para a **eversão da pálpebra superior**, que só se justifica na suspeita de corpo estranho, o gesto é este: o paciente olha para baixo, o examinador segura os cílios e puxa para fora e para baixo enquanto pressiona com uma haste cerca de 1 cm acima da borda palpebral, o equivalente a pressionar acima da placa tarsal. Para desfazer, basta pedir que o paciente olhe para cima. Vale a advertência que importa: **não pressione o globo ocular**.
 
-  **Coloração.** Conjuntivas pálidas nas anemias, amareladas na icterícia, hiperemiadas nas conjuntivites (Porto). Onde procurar cada uma, com que método e com que rendimento: a rima conjuntival para a palidez, a esclera e a conjuntiva para a icterícia, e a advertência sobre a coloração amarelada por depósito de gordura em pessoas de pele pigmentada, está inteiro no tópico de pele, mucosas e fâneros, e não se repete aqui.
+  **Coloração.** Conjuntivas pálidas nas anemias, amareladas na icterícia, hiperemiadas nas conjuntivites. Onde procurar cada uma, com que método e com que rendimento: a rima conjuntival para a palidez, a esclera e a conjuntiva para a icterícia, e a advertência sobre a coloração amarelada por depósito de gordura em pessoas de pele pigmentada, está inteiro no tópico de pele, mucosas e fâneros, e não se repete aqui.
 
-  **Onde a vermelhidão é mais intensa.** Esta é a pergunta que separa o banal do grave, e Porto lista três padrões:
+  **Onde a vermelhidão é mais intensa.** Esta é a pergunta que separa o banal do grave. Três padrões:
 
   - **Conjuntivite**: os vasos se dilatam de forma difusa, com intensidade máxima na periferia do globo.
   - **Ceratite, irite aguda e glaucoma agudo**: vasos radiais em torno do limbo, a **congestão ciliar**.
   - **Hemorragia subconjuntival**: área vermelha homogênea e nitidamente demarcada, que em alguns dias amarela e desaparece; pode surgir depois de crises de tosse ou de vômitos.
 
-  Porto (*Semiologia Médica*) descreve a mesma distinção por outro caminho: a **congestão superficial** envolve apenas os vasos superficiais, que ficam tortuosos e vermelho-tijolo, mais evidentes no fundo de saco conjuntival do que junto ao limbo, e traduz processo restrito à conjuntiva; a **congestão profunda**, ou **injeção ciliar**, é violácea, concentra-se no limbo e traduz sofrimento da córnea ou de estruturas mais internas do globo, ceratites, irites, glaucoma agudo, corpo estranho.
+  Há a mesma distinção por outro caminho: a **congestão superficial** envolve apenas os vasos superficiais, que ficam tortuosos e vermelho-tijolo, mais evidentes no fundo de saco conjuntival do que junto ao limbo, e traduz processo restrito à conjuntiva; a **congestão profunda**, ou **injeção ciliar**, é violácea, concentra-se no limbo e traduz sofrimento da córnea ou de estruturas mais internas do globo, ceratites, irites, glaucoma agudo, corpo estranho.
 
-  **Achados que não são doença.** A **pinguécula** é uma pequena área elevada e amarelada junto ao limbo, mais comum do lado nasal, e corresponde a degeneração do tecido elástico, não confundir com neoplasia (Porto, *Semiologia Médica*). O **pterígio** é uma conjuntiva bulbar espessada em triângulo, que avança sobre a superfície externa da córnea (Porto).
+  **Achados que não são doença.** A **pinguécula** é uma pequena área elevada e amarelada junto ao limbo, mais comum do lado nasal, e corresponde a degeneração do tecido elástico, não confundir com neoplasia. O **pterígio** é uma conjuntiva bulbar espessada em triângulo, que avança sobre a superfície externa da córnea.
 
-  **Na córnea e atrás dela**, o exame com boa iluminação alcança o que é grosseiro: o **arco senil**, o **anel de Kayser-Fleischer** da degeneração hepatolenticular e as **cataratas**, que opacificam o cristalino e, a olho nu, surgem como áreas esbranquiçadas dentro da pupila (Porto). Semiologia Clínica acrescenta ao redor da córnea um terceiro anel: o depósito de cálcio, branco e opaco, que acompanha as hipercalcemias graves. O exame detalhado dessas estruturas é do oftalmologista, com a lâmpada de fenda.
+  **Na córnea e atrás dela**, o exame com boa iluminação alcança o que é grosseiro: o **arco senil**, o **anel de Kayser-Fleischer** da degeneração hepatolenticular e as **cataratas**, que opacificam o cristalino e, a olho nu, surgem como áreas esbranquiçadas dentro da pupila. Soma-se ao redor da córnea um terceiro anel: o depósito de cálcio, branco e opaco, que acompanha as hipercalcemias graves. O exame detalhado dessas estruturas é do oftalmologista, com a lâmpada de fenda.
 :::
 
 ::: secao
@@ -295,33 +295,33 @@ legenda: "As duas pupilas recebem o mesmo comando, venha a luz de um olho ou dos
 ::: conceito
 titulo: Forma, posição, tamanho e reflexos
 texto: |
-  Porto organiza o exame das pupilas em quatro itens, e vale segui-los na ordem.
+  O exame das pupilas se organiza em quatro itens, e vale segui-los na ordem.
 
-  **Forma.** Normalmente arredondadas ou levemente ovaladas. Alterações do contorno, as **discorias**, aparecem depois de cirurgia de catarata e de traumas oculares (Semiologia Clínica).
+  **Forma.** Normalmente arredondadas ou levemente ovaladas. Alterações do contorno, as **discorias**, aparecem depois de cirurgia de catarata e de traumas oculares.
 
   **Localização.** Centrais.
 
   **Tamanho.** Varia com a claridade do ambiente, e por isso não se avalia pupila sem controlar a luz. **Midríase** é a pupila dilatada; **miose**, a contraída. Onde está a fronteira, porém, as fontes divergem, e a divergência é grande o bastante para ser dita em voz alta:
 
-  - **Porto (*Semiologia Médica*, cap. 16)** situa o diâmetro normal entre **3 e 5 mm** em ambiente iluminado, chamando de miose a pupila menor que 3 mm e de midríase a maior que 7 mm.
-  - **Semiologia Clínica** trabalha com outra faixa: acima de **5 mm**, midríase; abaixo de **3 mm**, miose, e sublinha que o número depende da luz do ambiente e do contexto clínico.
-  - **McGee** não fixa corte e explica por quê: o diâmetro pupilar médio **cai com a idade**, cerca de 7 mm aos 10 anos, 6 mm aos 30 e 4 mm aos 80. Uma mesma medida significa coisas diferentes em pacientes de idades diferentes.
+  - Uma referência situa o diâmetro normal entre **3 e 5 mm** em ambiente iluminado, chamando de miose a pupila menor que 3 mm e de midríase a maior que 7 mm.
+  - Outra referência trabalha com outra faixa: acima de **5 mm**, midríase; abaixo de **3 mm**, miose, e sublinha que o número depende da luz do ambiente e do contexto clínico.
+  - Uma terceira referência não fixa corte e explica por quê: o diâmetro pupilar médio **cai com a idade**, cerca de 7 mm aos 10 anos, 6 mm aos 30 e 4 mm aos 80. Uma mesma medida significa coisas diferentes em pacientes de idades diferentes.
 
-  **O guia adota a posição de McGee**: sem corte fixo, registre o diâmetro estimado, registre a luz do ambiente e compare **os dois lados**, que é a comparação que não depende de tabela. Para quem precisa de um número de referência, valem os cortes da Semiologia Clínica (miose abaixo de 3 mm, midríase acima de 5 mm), com a faixa da *Semiologia Médica* registrada ao lado. Semiologia Clínica sugere ainda medir com pupilômetro, a régua milimetrada estampada em lanternas de bolso, colocado logo abaixo do olho.
+  **O guia adota essa terceira posição**: sem corte fixo, registre o diâmetro estimado, registre a luz do ambiente e compare **os dois lados**, que é a comparação que não depende de tabela. Para quem precisa de um número de referência, valem os cortes da segunda leitura (miose abaixo de 3 mm, midríase acima de 5 mm), com a faixa da primeira registrada ao lado. Sugere-se ainda medir com pupilômetro, a régua milimetrada estampada em lanternas de bolso, colocado logo abaixo do olho.
 
-  **Reflexos.** São três (Porto):
+  **Reflexos.** São três:
 
   - **Fotomotor direto**: a pupila iluminada contrai, vigorosa e rapidamente, e mantém a contração.
   - **Consensual**: a pupila do outro olho contrai ao mesmo tempo e com a mesma intensidade.
   - **De acomodação-convergência**, ou resposta para perto: ao se aproximar um alvo do nariz, ocorre miose bilateral com convergência dos globos e acomodação do cristalino.
 
-  Um detalhe técnico separa o exame bem-feito do malfeito. Porto descreve a manobra com **iluminação uniforme sobre a face** e o feixe incidindo sobre um dos olhos. Semiologia Clínica prefere **escurecer ao menos parcialmente o ambiente** e dirigir a luz **obliquamente** em direção à pupila, para não causar desconforto. As duas descrições convergem no essencial: a resposta é a mudança de tamanho, e ela só é legível se houver de onde a pupila contrair.
+  Um detalhe técnico separa o exame bem-feito do malfeito. Uma referência descreve a manobra com **iluminação uniforme sobre a face** e o feixe incidindo sobre um dos olhos. Outra referência prefere **escurecer ao menos parcialmente o ambiente** e dirigir a luz **obliquamente** em direção à pupila, para não causar desconforto. As duas descrições convergem no essencial: a resposta é a mudança de tamanho, e ela só é legível se houver de onde a pupila contrair.
 :::
 
 ::: entendimento
 titulo: Por que anisocoria é sempre um problema de saída
 texto: |
-  Há um raciocínio anatômico simples que reorganiza tudo o que se faz com as pupilas, e McGee o enuncia em duas frases.
+  Há um raciocínio anatômico simples que reorganiza tudo o que se faz com as pupilas, e ele cabe em duas frases.
 
   Os dois músculos constritores recebem do mesencéfalo **sinais idênticos**, que somam a luz que entra pelos dois olhos. Por isso as duas pupilas contraem sempre na mesma medida: pouco quando a luz é fraca, muito quando é forte, e sempre **juntas**, venha o estímulo de um olho ou dos dois.
 
@@ -333,7 +333,7 @@ texto: |
 
   Essa é a razão pela qual o exame das pupilas serve a duas perguntas diferentes, e não a uma. Comparar tamanhos responde à segunda. Para a primeira existe uma manobra específica, que compara a resposta de um olho com a do outro alternando a luz entre eles, e cujo detalhamento, junto com a interpretação neurológica das pupilas, pertence ao capítulo do sistema nervoso.
 
-  Vale também saber o que **não** é achado: sob iluminação estável, a pupila normal está em movimento contínuo, dilatando e contraindo pequenas amplitudes. Esse remexer chama-se **hippus**, é mais evidente em pacientes jovens e sob luz forte, e foi longamente associado no século 19 a doenças que não tinham relação nenhuma com ele. Hoje se sabe que é fenômeno normal, e que as oscilações dos dois lados são sincrônicas (McGee).
+  Vale também saber o que **não** é achado: sob iluminação estável, a pupila normal está em movimento contínuo, dilatando e contraindo pequenas amplitudes. Esse remexer chama-se **hippus**, é mais evidente em pacientes jovens e sob luz forte, e foi longamente associado no século 19 a doenças que não tinham relação nenhuma com ele. Hoje se sabe que é fenômeno normal, e que as oscilações dos dois lados são sincrônicas.
 :::
 
 ::: conceito
@@ -341,16 +341,16 @@ titulo: "Anisocoria: quanta gente tem, e o que ela significa"
 texto: |
   **Anisocoria** é a diferença de tamanho entre as pupilas. É um dos achados em que a pergunta "isso é normal?" tem quatro respostas diferentes na literatura, e o intervalo entre elas é grande demais para ser ignorado.
 
-  - **Porto (*Exame Clínico*, cap. 15)** registra que, em **5%** das pessoas normais, o tamanho das pupilas não é exatamente igual.
-  - **Porto (*Semiologia Médica*, cap. 16)** dá outro número para o mesmo fenômeno: pupilas de tamanhos diferentes são observadas em cerca de **25%** da população normal.
-  - **Semiologia Clínica** fala em cerca de **35%** da população mundial com pupilas desiguais sem doença.
-  - **McGee** define a **anisocoria simples** como diferença de diâmetro de **0,4 mm ou mais** que não se explique por nenhuma das pupilas patológicas, por medicamentos intraoculares, por lesão ou por inflamação do olho, e nesses termos ela afeta até **38%** das pessoas saudáveis, das quais apenas metade a apresenta em um dado momento; é achado constante em **3%**. A diferença raramente ultrapassa **1 mm**, e é em geral o mesmo olho que exibe a pupila maior.
+  - Uma passagem de uma referência registra que, em **5%** das pessoas normais, o tamanho das pupilas não é exatamente igual.
+  - Outra passagem da mesma referência dá outro número para o mesmo fenômeno: pupilas de tamanhos diferentes são observadas em cerca de **25%** da população normal.
+  - Outra referência fala em cerca de **35%** da população mundial com pupilas desiguais sem doença.
+  - Uma quarta referência define a **anisocoria simples** como diferença de diâmetro de **0,4 mm ou mais** que não se explique por nenhuma das pupilas patológicas, por medicamentos intraoculares, por lesão ou por inflamação do olho, e nesses termos ela afeta até **38%** das pessoas saudáveis, das quais apenas metade a apresenta em um dado momento; é achado constante em **3%**. A diferença raramente ultrapassa **1 mm**, e é em geral o mesmo olho que exibe a pupila maior.
 
-  Pela hierarquia editorial da casa, **o guia adota a definição e os números de McGee**: anisocoria simples como diferença de 0,4 mm ou mais, presente em até 38% das pessoas saudáveis e constante em 3%, por ser a única formulação com critério explícito; os demais percentuais ficam registrados como leituras sem critério declarado. A dispersão tem uma explicação provável, que vale como hipótese: os números baixos correspondem à anisocoria que salta aos olhos, e os altos, à anisocoria medida.
+  Pela hierarquia editorial da casa, **o guia adota essa quarta definição**: anisocoria simples como diferença de 0,4 mm ou mais, presente em até 38% das pessoas saudáveis e constante em 3%, por ser a única formulação com critério explícito; os demais percentuais ficam registrados como leituras sem critério declarado. A dispersão tem uma explicação provável, que vale como hipótese: os números baixos correspondem à anisocoria que salta aos olhos, e os altos, à anisocoria medida.
 
-  O que fazer com isso à beira do leito é, felizmente, consensual. Semiologia Clínica dá a regra prática: **teste a reatividade dos dois lados**; se ela for normal em ambos, considere alteração constitucional e benigna, e **registre o achado em prontuário**, mesmo sendo constitucional, para que em um atendimento de urgência futuro ele não seja lido como alteração recente.
+  O que fazer com isso à beira do leito é, felizmente, consensual. A regra prática: **teste a reatividade dos dois lados**; se ela for normal em ambos, considere alteração constitucional e benigna, e **registre o achado em prontuário**, mesmo sendo constitucional, para que em um atendimento de urgência futuro ele não seja lido como alteração recente.
 
-  E a regra de alarme, de McGee: diante de uma pupila que dilata mal, **anisocoria maior que 1 mm, ptose associada ou sudorese facial assimétrica** apontam para síndrome de Horner, e não para anisocoria simples.
+  E a regra de alarme: diante de uma pupila que dilata mal, **anisocoria maior que 1 mm, ptose associada ou sudorese facial assimétrica** apontam para síndrome de Horner, e não para anisocoria simples.
 :::
 
 ::: perola
@@ -372,7 +372,7 @@ titulo: Aprofundamento
 titulo: "A pergunta que ordena a anisocoria: claro ou escuro"
 nivel: avancado
 texto: |
-  McGee organiza a abordagem da anisocoria em duas perguntas feitas na sequência, e elas dividem o problema ao meio antes de qualquer hipótese diagnóstica.
+  A abordagem da anisocoria se organiza em duas perguntas feitas na sequência, e elas dividem o problema ao meio antes de qualquer hipótese diagnóstica.
 
   **Pergunta 1: as duas pupilas reagem bem à luz?**
 
@@ -400,9 +400,9 @@ texto: |
   - **ptose**, pela paralisia do músculo tarsal superior;
   - **anidrose da face**, por lesão das fibras sudomotoras.
 
-  Sobre a enoftalmia, **o guia adota a leitura de McGee**: a pálpebra inferior elevada cria a **aparência** de enoftalmia, sem que o globo esteja de fato retraído. As duas edições de Porto listam a enoftalmia entre os componentes da síndrome, e ficam registradas: Porto (*Semiologia Médica*, cap. 16) descreve a paralisia do músculo de Müller com blefaroptose parcial integrando a síndrome de paralisia do simpático cervical, constituída por **enoftalmia, miose e transtornos vasomotores**; Porto (*Exame Clínico*) inclui a síndrome entre as causas de enoftalmia unilateral e de ptose. As leituras descrevem a mesma aparência; o guia fica com a de McGee: o globo não se afunda.
+  Sobre a enoftalmia, **o guia adota a leitura de McGee**: a pálpebra inferior elevada cria a **aparência** de enoftalmia, sem que o globo esteja de fato retraído. As duas edições de Porto listam a enoftalmia entre os componentes da síndrome, e ficam registradas: Porto descreve a paralisia do músculo de Müller com blefaroptose parcial integrando a síndrome de paralisia do simpático cervical, constituída por **enoftalmia, miose e transtornos vasomotores**; Porto inclui a síndrome entre as causas de enoftalmia unilateral e de ptose. As leituras descrevem a mesma aparência; o guia fica com a de McGee: o globo não se afunda.
 
-  Porto (*Semiologia Médica*) registra ainda o quadro oposto, menos citado: a contração espasmódica do músculo de Müller integra a **síndrome de irritação simpática cervical**, que associa midríase, alargamento da fenda palpebral e algum grau de exoftalmia.
+  Porto registra ainda o quadro oposto, menos citado: a contração espasmódica do músculo de Müller integra a **síndrome de irritação simpática cervical**, que associa midríase, alargamento da fenda palpebral e algum grau de exoftalmia.
 
   **A ressalva que este tópico faz questão de manter:** a anatomia da cadeia simpática, os três neurônios em série que ligam o hipotálamo posterior à medula cervicotorácica, passam sobre o ápice do pulmão e sobem pelo trajeto carotídeo, e o raciocínio localizatório que ela permite pertencem ao capítulo do sistema nervoso. O que interessa ao exame de cabeça e pescoço é reconhecer a tríade e entender por que ela obriga a olhar para fora da cabeça.
 
@@ -410,7 +410,7 @@ texto: |
 :::
 
 ::: tabela
-titulo: "Olho vermelho: o que aumenta a probabilidade de doença grave (McGee)"
+titulo: "Olho vermelho: o que aumenta a probabilidade de doença grave"
 nivel: avancado
 colunas:
   - "Achado"
@@ -460,7 +460,7 @@ texto: |
 
   A **oftalmopatia de Graves** é outra coisa: um conjunto que decorre de edema e infiltração linfocitária da gordura orbitária, do tecido conjuntivo e dos músculos oculares, presente em 25% a 50% dos pacientes com doença de Graves. Seus achados característicos são edema palpebral, limitação dos movimentos oculares, quemose e injeção conjuntival e exoftalmia. McGee registra um dado contraintuitivo: os achados que melhor predizem neuropatia óptica incipiente são o **edema palpebral e a limitação dos movimentos oculares**, e não o grau de proptose.
 
-  Porto (*Semiologia Médica*, cap. 103) organiza as mesmas alterações em um quadro de classes, de 1 a 6, que vai do olhar brilhante com retração palpebral até a cegueira por lesão do nervo óptico, passando por edema palpebral e conjuntival, proptose e paralisia da musculatura extraocular.
+  Porto organiza as mesmas alterações em um quadro de classes, de 1 a 6, que vai do olhar brilhante com retração palpebral até a cegueira por lesão do nervo óptico, passando por edema palpebral e conjuntival, proptose e paralisia da musculatura extraocular.
 
   A correlação desses achados com o estado funcional da glândula, o exame da tireoide e as razões de verossimilhança do bócio estão no tópico de tireoide e pescoço.
 :::
@@ -491,7 +491,7 @@ nivel: avancado
 texto: |
   A medida da protrusão do globo é um dos poucos pontos deste capítulo em que este guia não consegue oferecer um número único, e o motivo é que as fontes não o oferecem.
 
-  **A técnica** é consensual. Com o **exoftalmômetro de Hertel**, ou, na falta dele, com uma **régua milimetrada** apoiada na reborda orbitária lateral, mede-se até o ápice da córnea, em vista lateral (Porto, *Semiologia Médica*, cap. 16).
+  **A técnica** é consensual. Com o **exoftalmômetro de Hertel**, ou, na falta dele, com uma **régua milimetrada** apoiada na reborda orbitária lateral, mede-se até o ápice da córnea, em vista lateral.
 
   **Os valores de referência**, não. No mesmo livro, dois capítulos diferentes dão números incompatíveis:
 
@@ -502,7 +502,7 @@ texto: |
 
   O que **sobrevive** à divergência, e é o que o exame clínico de fato usa:
 
-  - uma **assimetria maior que 2 mm entre os dois olhos** é suspeita, e sugere exoftalmia unilateral (Porto, *Semiologia Médica*);
+  - uma **assimetria maior que 2 mm entre os dois olhos** é suspeita, e sugere exoftalmia unilateral;
   - a perda da relação normal entre o limbo e as pálpebras, com crescente de esclerótica visível acima e abaixo, é um achado qualitativo que não depende de régua nenhuma;
   - a medida serve sobretudo para **acompanhar a evolução** da oftalmopatia ao longo do tempo, com o mesmo instrumento e o mesmo examinador.
 :::
@@ -531,11 +531,11 @@ titulo: Armadilhas do exame
 titulo: Seis erros no exame dos olhos
 texto: |
   1. **Avaliar pupilas em sala clara.** Sob luz forte a pupila já está contraída, e o reflexo que resta é pequeno demais para ser lido. Reduza a luz antes de acender a lanterna.
-  2. **Apontar a lanterna para dentro do olho.** A luz vai obliquamente em direção à pupila (Semiologia Clínica); frontal, ela produz desconforto e faz o paciente desviar o olhar.
+  2. **Apontar a lanterna para dentro do olho.** A luz vai obliquamente em direção à pupila; frontal, ela produz desconforto e faz o paciente desviar o olhar.
   3. **Tratar anisocoria como sinônimo de doença.** Ela é frequente em pessoas saudáveis, e a fração exata varia muito entre as fontes. Com reflexos normais dos dois lados e fora de contexto de alarme, o achado é constitucional, e deve ser registrado justamente para não assustar quem vier depois.
-  4. **Usar acuidade visual normal para afastar doença ocular grave.** Até metade dos pacientes com irite comprovada tem acuidade de 20/60 ou melhor (McGee).
+  4. **Usar acuidade visual normal para afastar doença ocular grave.** Até metade dos pacientes com irite comprovada tem acuidade de 20/60 ou melhor.
   5. **Pressionar o globo ao everter a pálpebra superior.** A manobra se faz sobre a placa tarsal, cerca de 1 cm acima da borda palpebral, e nunca sobre o globo.
-  6. **Confundir bolsa de gordura com edema palpebral.** A bolsa instala-se em anos, não flutua ao longo do dia, não muda com a posição, não é compressível e não tem sinais flogísticos (Semiologia Clínica).
+  6. **Confundir bolsa de gordura com edema palpebral.** A bolsa instala-se em anos, não flutua ao longo do dia, não muda com a posição, não é compressível e não tem sinais flogísticos.
 :::
 
 ::: perola
@@ -577,7 +577,7 @@ perguntas:
       - "As pupilas estão iguais porque a lesão do nervo óptico é compensada pela inervação simpática do olho contralateral, que mantém a simetria"
       - "Trata-se de erro de exame: sob iluminação suficiente, a anisocoria da neurite óptica é sempre perceptível"
     corretaIndex: 0
-    explicacao: "Os dois músculos constritores recebem do mesencéfalo sinais idênticos, que somam a luz que entra pelos dois olhos. Numa lesão da retina ou do nervo óptico, esse sinal fica mais fraco, mas continua igual dos dois lados, e as pupilas mantêm o mesmo diâmetro (McGee). Anisocoria indica doença assimétrica da via eferente (terceiro nervo, gânglio ciliar, inervação simpática) ou da própria íris. Descobrir o defeito aferente exige manobra específica, que alterna a luz entre os olhos e pertence ao exame neurológico."
+    explicacao: "Os dois músculos constritores recebem do mesencéfalo sinais idênticos, que somam a luz que entra pelos dois olhos. Numa lesão da retina ou do nervo óptico, esse sinal fica mais fraco, mas continua igual dos dois lados, e as pupilas mantêm o mesmo diâmetro. Anisocoria indica doença assimétrica da via eferente (terceiro nervo, gânglio ciliar, inervação simpática) ou da própria íris. Descobrir o defeito aferente exige manobra específica, que alterna a luz entre os olhos e pertence ao exame neurológico."
   - id: olh-2
     enunciado: Uma paciente de 42 anos conta que as pálpebras "caem", pouco pela manhã e muito à noite. Ao exame, você confirma ptose bilateral. Que causa esse comportamento sugere?
     alternativas:
@@ -595,7 +595,7 @@ perguntas:
       - "Hipertireoidismo, em particular a doença de Graves-Basedow"
       - "Enoftalmia bilateral por desidratação, que estreita as fendas palpebrais e cria a impressão de protrusão dos globos"
     corretaIndex: 2
-    explicacao: "A lateralidade organiza as hipóteses da exoftalmia. Unilateral, ela aponta para tumores oculares e retro-oculares (Porto); Semiologia Clínica acrescenta hematoma na órbita e trombose de seio cavernoso. Bilateral, a causa clássica é o hipertireoidismo, em particular a doença de Graves-Basedow, na qual anticorpos agridem a gordura e a musculatura retro-orbitárias. O crescente de esclerótica acima e abaixo do limbo traduz a perda da relação normal entre o limbo e as pálpebras, e o achado fica mais evidente quando se olha o paciente de perfil."
+    explicacao: "A lateralidade organiza as hipóteses da exoftalmia. Unilateral, ela aponta para tumores oculares e retro-oculares; Semiologia Clínica acrescenta hematoma na órbita e trombose de seio cavernoso. Bilateral, a causa clássica é o hipertireoidismo, em particular a doença de Graves-Basedow, na qual anticorpos agridem a gordura e a musculatura retro-orbitárias. O crescente de esclerótica acima e abaixo do limbo traduz a perda da relação normal entre o limbo e as pálpebras, e o achado fica mais evidente quando se olha o paciente de perfil."
   - id: olh-4
     enunciado: Ao inspecionar as pálpebras de uma senhora de 74 anos, você encontra abaulamento das pálpebras inferiores dos dois lados, instalado ao longo de anos, sem sinais flogísticos, sem variação ao longo do dia e não compressível. Qual é a interpretação mais provável?
     alternativas:

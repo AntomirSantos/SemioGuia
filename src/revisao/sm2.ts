@@ -1,4 +1,4 @@
-export type TipoItem = 'pergunta' | 'checklist';
+export type TipoItem = 'pergunta' | 'checklist' | 'sinal';
 export interface ItemRevisao {
   id: string;
   tipo: TipoItem;
