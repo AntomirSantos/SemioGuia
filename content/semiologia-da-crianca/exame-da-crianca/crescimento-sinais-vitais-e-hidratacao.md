@@ -77,10 +77,10 @@ texto: |
   A técnica antropométrica geral (balança calibrada, estadiômetro, os cinco pontos de contato) mora no tópico de antropometria e hidratação do exame físico geral, que já avisa: **na criança pequena, mede-se o comprimento com o paciente deitado, em régua graduada**. O que este tópico acrescenta são os cortes e os instrumentos próprios da idade:
 
   - **Peso:** recém-nascidos têm **balanças próprias**: o prato substitui a plataforma. O restante da semiotécnica é o da antropometria geral.
-  - **Comprimento × estatura:** o *Exame Clínico* dá o corte etário que o tópico geral não precisou dar: **até os 2 anos**, mede-se o **comprimento deitado**, em régua antropométrica com base fixa no zero e cursor móvel; **depois dos 2 anos**, a **estatura em pé**, comparada às curvas para idade e sexo. O capítulo 99 da *Semiologia Médica* acrescenta o rigor de quem investiga crescimento: medir **3 vezes no mesmo dia**, pelo mesmo avaliador, aceitando variação **menor que 0,3 cm** entre as medidas, e anotar a média.
-  - **Perímetro cefálico:** medido **logo após o nascimento** e acompanhado **até os 2 anos de idade** (até os 5, em crianças com algum déficit) com fita métrica; Semiologia Clínica frisa que o que se avalia é a **velocidade** do crescimento craniano, não um número solto. É a medida que não pode faltar no exame físico da criança, diz o *Exame Clínico*, porque diagnostica **microcefalia** (na criança **a termo**, perímetro cefálico **inferior a 33 cm**) e macrocefalia. A palpação das fontanelas e das suturas que acompanha essa medida é matéria do tópico de crânio e face (a fontanela hipertensa) e do de antropometria e hidratação (a fontanela deprimida); o recém-nascido e suas fontanelas voltam no próximo tópico.
+  - **Comprimento × estatura:** o corte etário que o tópico geral não precisou dar é este: **até os 2 anos**, mede-se o **comprimento deitado**, em régua antropométrica com base fixa no zero e cursor móvel; **depois dos 2 anos**, a **estatura em pé**, comparada às curvas para idade e sexo. Vale ainda o rigor de quem investiga crescimento: medir **3 vezes no mesmo dia**, pelo mesmo avaliador, aceitando variação **menor que 0,3 cm** entre as medidas, e anotar a média.
+  - **Perímetro cefálico:** medido **logo após o nascimento** e acompanhado **até os 2 anos de idade** (até os 5, em crianças com algum déficit) com fita métrica; o que se avalia é a **velocidade** do crescimento craniano, não um número solto. É a medida que não pode faltar no exame físico da criança, porque diagnostica **microcefalia** (na criança **a termo**, perímetro cefálico **inferior a 33 cm**) e macrocefalia. A palpação das fontanelas e das suturas que acompanha essa medida é matéria do tópico de crânio e face (a fontanela hipertensa) e do de antropometria e hidratação (a fontanela deprimida); o recém-nascido e suas fontanelas voltam no próximo tópico.
 
-  A leitura de tudo isso é a curva. O resultado da plotagem se expressa em escore Z, e os **Quadros 179.7 e 179.8** transformam o escore em diagnóstico nutricional. Abaixo de **−2** ficam o baixo peso, a magreza e a baixa estatura para a idade; abaixo de **−3**, as formas acentuadas ("muito baixo peso", "magreza acentuada", "muito baixa estatura"). Para cima, a escada muda com a idade: **antes dos 5 anos** (Quadro 179.7), o IMC para a idade acima de **+1** marca o risco de sobrepeso, acima de **+2** o sobrepeso e acima de **+3** a obesidade; **dos 5 aos 10 anos** (Quadro 179.8), os mesmos degraus sobem um rótulo: acima de +1 já é sobrepeso, acima de +2 obesidade, e acima de **+3** entra a categoria que só essa faixa tem, a **obesidade grave**. A faixa da eutrofia, de −2 a +1, é larga de propósito: dentro dela, o que importa é a trajetória, não a posição.
+  A leitura de tudo isso é a curva. O resultado da plotagem se expressa em escore Z, que se transforma em diagnóstico nutricional. Abaixo de **−2** ficam o baixo peso, a magreza e a baixa estatura para a idade; abaixo de **−3**, as formas acentuadas ("muito baixo peso", "magreza acentuada", "muito baixa estatura"). Para cima, a escada muda com a idade: **antes dos 5 anos**, o IMC para a idade acima de **+1** marca o risco de sobrepeso, acima de **+2** o sobrepeso e acima de **+3** a obesidade; **dos 5 aos 10 anos**, os mesmos degraus sobem um rótulo: acima de +1 já é sobrepeso, acima de +2 obesidade, e acima de **+3** entra a categoria que só essa faixa tem, a **obesidade grave**. A faixa da eutrofia, de −2 a +1, é larga de propósito: dentro dela, o que importa é a trajetória, não a posição.
 :::
 
 ::: manobra
@@ -129,7 +129,7 @@ svg: |
       <text x="10" y="197.5">b · curva paralela ao padrão, abaixo dele: velocidade de crescimento normal</text>
     </g>
   </svg>
-legenda: "Esquema conceitual da curva de crescimento, sem escala, com os canais de escore Z (+2, 0, −2) das curvas de referência que o capítulo 179 nomeia (OMS 2006, na Caderneta de Saúde da Criança). A criança 'a' seguia seu canal e passou a cruzar escores para baixo: pelo Exame Clínico, é o padrão do desvio adquirido, a curva era normal e depois se desviou. A criança 'b' corre paralela ao padrão, abaixo dele, com velocidade de crescimento preservada: o padrão das variantes funcionais. O terceiro tipo, congênito, desvia desde o nascimento. É por isso que o ponto isolado classifica, mas só o trajeto diagnostica."
+legenda: "Esquema conceitual da curva de crescimento, sem escala, com os canais de escore Z (+2, 0, −2) das curvas de referência (OMS 2006, na Caderneta de Saúde da Criança). A criança 'a' seguia seu canal e passou a cruzar escores para baixo: é o padrão do desvio adquirido, a curva era normal e depois se desviou. A criança 'b' corre paralela ao padrão, abaixo dele, com velocidade de crescimento preservada: o padrão das variantes funcionais. O terceiro tipo, congênito, desvia desde o nascimento. É por isso que o ponto isolado classifica, mas só o trajeto diagnostica."
 :::
 
 ::: checklist
@@ -161,12 +161,12 @@ titulo: "Sinais vitais: as faixas da idade"
 ::: conceito
 titulo: "Frequência cardíaca: a taquicardia que é fisiologia"
 texto: |
-  A frequência cardíaca da criança desce degrau a degrau ao longo da infância, e ignorar isso transforma fisiologia em alarme falso, ou gravidade em "normal". O **Quadro 179.4** da *Semiologia Médica* é a âncora das faixas, com média e espectro por idade; a tabela abaixo traz todos os seus valores. Duas leituras práticas:
+  A frequência cardíaca da criança desce degrau a degrau ao longo da infância, e ignorar isso transforma fisiologia em alarme falso, ou gravidade em "normal". A tabela abaixo traz os valores de referência, com média e espectro por idade. Duas leituras práticas:
 
   - um lactente com 150 bpm está **dentro do espectro** da sua idade: a mesma frequência que, no adulto, seria taquicardia franca;
   - uma criança de 2 a 4 anos com frequência acima de **150 bpm** já ultrapassou o teto do espectro da sua faixa, número que passa a exigir explicação: febre, dor, choro, hipovolemia, doença.
 
-  A contagem é a do tópico de frequência cardíaca e pulso: **1 minuto inteiro**, aproveitando, na criança, o momento anterior ao choro, como manda a sequência oportunista do tópico de abordagem. E o capítulo 179 desarma um falso alarme frequente do ritmo infantil: a **arritmia sinusal (ou respiratória)** (a frequência que acelera quando a criança inspira e desacelera quando expira) **é normal na infância**. Ritmo que acompanha a respiração não é doença; é criança.
+  A contagem é a do tópico de frequência cardíaca e pulso: **1 minuto inteiro**, aproveitando, na criança, o momento anterior ao choro, como manda a sequência oportunista do tópico de abordagem. E vale desarmar um falso alarme frequente do ritmo infantil: a **arritmia sinusal (ou respiratória)** (a frequência que acelera quando a criança inspira e desacelera quando expira) **é normal na infância**. Ritmo que acompanha a respiração não é doença; é criança.
 :::
 
 ::: tabela
@@ -188,30 +188,30 @@ linhas:
 ::: conceito
 titulo: "Frequência respiratória: duas réguas que não coincidem"
 texto: |
-  Para a respiração, as obras adotadas dão **duas réguas diferentes**, e o guia as apresenta lado a lado, como faz sempre que as fontes divergem.
+  Para a respiração, as referências adotadas dão **duas réguas diferentes**, e o guia as apresenta lado a lado, como faz sempre que as fontes divergem.
 
-  O **Quadro 179.6** da *Semiologia Médica* fornece **tetos**, a frequência respiratória máxima esperada, contada em 1 minuto:
+  Uma referência fornece **tetos**, a frequência respiratória máxima esperada, contada em 1 minuto:
 
   - até 2 meses: **até 60 irpm**;
   - de 2 a 12 meses: **até 50 irpm**;
   - acima de 12 meses: **até 40 irpm**.
 
-  A segunda régua aparece, com valores idênticos, em duas obras: o *Exame Clínico* (Quadro 16.1 do capítulo de exame do tórax) e Semiologia Clínica (Tabela 4 do capítulo correspondente) fornecem **faixas normais** por etapa: recém-nascidos, **40 a 45 irpm**; lactentes, **25 a 35**; pré-escolares, **20 a 35**; escolares, **18 a 35**; adultos, 16 a 20. As réguas contam histórias compatíveis, a respiração desacelera com a idade, mas discordam nos números: pelo teto do Quadro 179.6, um recém-nascido com 50 irpm é normal; pela faixa das outras duas, já passou do limite superior. **O guia adota as faixas**, a régua compartilhada por Semiologia Clínica e *Exame Clínico*, mantendo os tetos do Quadro 179.6 atribuídos; e vale a observação prática de que o **teto** é a régua mais generosa: o que estiver acima dele está alterado por qualquer das obras.
+  A segunda régua aparece, com valores idênticos, em duas outras referências, que fornecem **faixas normais** por etapa: recém-nascidos, **40 a 45 irpm**; lactentes, **25 a 35**; pré-escolares, **20 a 35**; escolares, **18 a 35**; adultos, 16 a 20. As réguas contam histórias compatíveis, a respiração desacelera com a idade, mas discordam nos números: pelo teto da primeira régua, um recém-nascido com 50 irpm é normal; pela faixa das outras duas, já passou do limite superior. **Este guia adota as faixas**, a régua compartilhada pelas duas outras referências, mantendo os tetos da primeira atribuídos; e vale a observação prática de que o **teto** é a régua mais generosa: o que estiver acima dele está alterado por qualquer das referências.
 
-  A consequência clínica das faixas é direta: **uma criança de 3 anos com 46 irpm está taquipneica pelas duas réguas** (acima do teto de 40 do Quadro 179.6 e da faixa de 20 a 35 do pré-escolar) e uma FC de 170 bpm nessa idade ultrapassa o espectro tanto dos 2 anos (90 a 150) quanto dos 4 (72 a 135). A contagem respiratória na criança segue as regras do tópico dono: 1 minuto inteiro, sem avisar, e, no lactente, antes do choro ou nas pausas dele.
+  A consequência clínica das faixas é direta: **uma criança de 3 anos com 46 irpm está taquipneica pelas duas réguas** (acima do teto de 40 e da faixa de 20 a 35 do pré-escolar) e uma FC de 170 bpm nessa idade ultrapassa o espectro tanto dos 2 anos (90 a 150) quanto dos 4 (72 a 135). A contagem respiratória na criança segue as regras do tópico dono: 1 minuto inteiro, sem avisar, e, no lactente, antes do choro ou nas pausas dele.
 :::
 
 ::: conceito
 titulo: "Pressão arterial: a técnica que muda, os valores que são moldura"
 texto: |
-  A semiotécnica completa da pressão arterial (Korotkoff, velocidade de desinsuflação, hiato auscultatório) mora no tópico de pressão arterial dos sinais vitais. O capítulo 47 da *Semiologia Médica* lista o que muda na criança:
+  A semiotécnica completa da pressão arterial (Korotkoff, velocidade de desinsuflação, hiato auscultatório) mora no tópico de pressão arterial dos sinais vitais. O que muda na criança:
 
   - **manguito proporcional ao braço**, como no adulto, mas há **três tamanhos pediátricos** para os diferentes tamanhos de criança; manguito de adulto em braço de criança falseia a medida;
   - **criança quieta é pré-requisito**: a técnica manda diminuir os movimentos distraindo a criança, e **evitar medir durante o choro**, que pode elevar a pressão em **até 50 mmHg**. É por isso que a PA está na lista do que se examina antes de a criança chorar;
   - nas **crianças muito pequenas**, usa-se com frequência o **método palpatório** para a sistólica: sabendo que ele subestima o valor auscultatório em 5 a 10 mmHg;
   - como os sons são difíceis de ouvir, a diastólica é muitas vezes tomada na **fase IV de Korotkoff**: o abafamento, não o desaparecimento.
 
-  E os valores normais? O *Exame Clínico* traz uma classificação da hipertensão da criança por grupo etário: o **Quadro 14.5**, com percentis de pressão sistólica e diastólica em oito faixas, dos 7 dias aos 16 a 18 anos, adaptado de uma força-tarefa de **1987**, e o próprio texto manda adotar tabelas apropriadas à idade. O guia nomeia essa tabela e **não a importa**, pela idade da fonte primária: o capítulo 179 da *Semiologia Médica* remete a determinação da pressão ao capítulo 47, e a bibliografia do próprio 179 registra a referência atual, a diretriz de rastreamento e manejo da hipertensão em crianças e adolescentes de **Flynn et al. (Pediatrics, 2017)**, em que a classificação depende de percentis por idade, sexo e estatura. Ficam as duas molduras, nomeadas e datadas: o que é semiologia, a técnica, está aqui; a tabela vigente fica com a diretriz.
+  E os valores normais? Uma classificação da hipertensão da criança por grupo etário, com percentis de pressão sistólica e diastólica em oito faixas, dos 7 dias aos 16 a 18 anos, foi adaptada de uma força-tarefa de **1987**, e a própria fonte manda adotar tabelas apropriadas à idade. Este guia nomeia essa tabela e **não a importa**, pela idade da fonte primária: a referência atual é a diretriz de rastreamento e manejo da hipertensão em crianças e adolescentes de **Flynn et al. (Pediatrics, 2017)**, em que a classificação depende de percentis por idade, sexo e estatura. Ficam as duas molduras, nomeadas e datadas: o que é semiologia, a técnica, está aqui; a tabela vigente fica com a diretriz.
 :::
 
 ::: perola
@@ -222,7 +222,7 @@ texto: "O choro pode somar até 50 mmHg à pressão arterial de uma criança, ma
 titulo: Onde este tópico encontra os outros
 texto: |
   - **Temperatura e frequência respiratória**, nos sinais vitais, é o dono da febre na criança: o corte axilar da SBP (documento de 2025), o estado febril e a primazia da avaliação clínica sobre o número. Nada disso se repete aqui: criança febril se estuda lá.
-  - **Antropometria e hidratação** é a dona da avaliação do estado de hidratação: os seis parâmetros de Porto, incluindo **as fontanelas planas e normotensas da criança hidratada e a fontanela deprimida do lactente desidratado**, e da técnica antropométrica geral. Este tópico acrescentou os cortes pediátricos; a desidratação continua morando lá.
+  - **Antropometria e hidratação** é a dona da avaliação do estado de hidratação: os seis parâmetros de referência, incluindo **as fontanelas planas e normotensas da criança hidratada e a fontanela deprimida do lactente desidratado**, e da técnica antropométrica geral. Este tópico acrescentou os cortes pediátricos; a desidratação continua morando lá.
   - **Crânio e face**, em cabeça e pescoço, carrega a fontanela hipertensa e a leitura do crânio: micro e macrocefalia como achados de inspeção; a medida do perímetro cefálico que dá nome a esses achados, com seu corte e seu calendário, ganha morada aqui.
   - **Frequência cardíaca e pulso** e **Pressão arterial** ensinam a semiotécnica geral que as particularidades desta página pressupõem.
   - **Abordagem e anamnese da criança**, o tópico anterior, explica por que estes números se colhem antes do choro, e o que fazer quando a criança chora assim mesmo.
@@ -238,7 +238,7 @@ titulo: Aprofundamento
 titulo: Baixa estatura, quando a curva pede investigação
 nivel: avancado
 texto: |
-  O capítulo 99 da *Semiologia Médica* transforma a curva de estatura em critério de encaminhamento. Investigam-se três situações: estatura **abaixo do percentil 3**; estatura **abaixo do potencial familiar**, 2 escores Z abaixo do percentil da estatura-alvo; e **baixa velocidade de crescimento**, mesmo com estatura ainda "normal".
+  A curva de estatura vira critério de encaminhamento. Investigam-se três situações: estatura **abaixo do percentil 3**; estatura **abaixo do potencial familiar**, 2 escores Z abaixo do percentil da estatura-alvo; e **baixa velocidade de crescimento**, mesmo com estatura ainda "normal".
 
   A estatura-alvo se calcula a partir das alturas dos pais (**aferidas, de preferência, e não referidas**) e a pergunta da consulta passa a ser se a criança está no **canal de crescimento** que leva ao alvo familiar. Confirmada a baixa estatura, o primeiro corte do raciocínio é **proporcionada × desproporcionada**: membros desproporcionalmente curtos em relação à coluna, como na acondroplasia, mudam o diagnóstico de partida, medindo perímetro cefálico, envergadura, altura sentada e os segmentos superior e inferior.
 
@@ -260,7 +260,7 @@ texto: |
 titulo: A curva como triagem nutricional
 nivel: avancado
 texto: |
-  O capítulo de desnutrição da *Semiologia Médica* dá à curva pediátrica uma gramática temporal: **peso para estatura** baixo indica, em geral, **desnutrição aguda** (o peso cai antes); **estatura para idade** baixa reflete **desnutrição crônica** (o crescimento comprometido é a cicatriz do tempo). E manda ler os indicadores **em conjunto**: um parâmetro isolado apontando problema pede atenção redobrada às curvas de peso para estatura e de estatura para idade antes de qualquer rótulo.
+  A curva pediátrica tem uma gramática temporal: **peso para estatura** baixo indica, em geral, **desnutrição aguda** (o peso cai antes); **estatura para idade** baixa reflete **desnutrição crônica** (o crescimento comprometido é a cicatriz do tempo). Os indicadores devem ser lidos **em conjunto**: um parâmetro isolado apontando problema pede atenção redobrada às curvas de peso para estatura e de estatura para idade antes de qualquer rótulo.
 
   Na criança hospitalizada, a obra converte a triagem em rotina: risco de desnutrição avaliado em **até 48 horas da admissão** e reavaliado ao menos **a cada 7 dias**, porque a desnutrição, aguda ou crônica, se associa a complicações, pior prognóstico e internação mais longa, qualquer que seja o motivo da admissão. O instrumento que a obra registra, indicado pela Associação Brasileira de Nutrição, é o **Strong Kids**: triagem para 1 mês a 18 anos que combina estado nutricional, perda ou não ganho de peso, ingestão, sintomas gastrintestinais e gravidade da doença. Este guia o nomeia como moldura: a ferramenta aplica-se pelo formulário próprio, não por memória.
 :::
@@ -273,7 +273,7 @@ titulo: Armadilhas do exame
 titulo: Seis erros no crescimento e nos sinais vitais da criança
 texto: |
   1. **Julgar o sinal vital da criança com a régua do adulto.** Os 150 bpm do lactente e as 40 irpm do recém-nascido são fisiologia; os 100 bpm "normais" podem ser bradicardia relativa num recém-nascido séptico. A faixa etária vem antes do número.
-  2. **Classificar sem plotar.** Peso e estatura soltos não dizem quase nada; o diagnóstico nutricional dos quadros de Porto exige o escore Z da curva certa: idade e sexo conferidos.
+  2. **Classificar sem plotar.** Peso e estatura soltos não dizem quase nada; o diagnóstico nutricional pelos quadros de referência exige o escore Z da curva certa: idade e sexo conferidos.
   3. **Olhar o ponto e ignorar o trajeto.** A criança no percentil 3 que sempre correu paralela ao padrão preocupa menos que a criança do percentil 50 que vinha do 90. Cruzar escores para baixo é o achado.
   4. **Medir a pressão da criança chorando**, ou com manguito de adulto. Um erro soma até 50 mmHg; o outro falseia a medida por desproporção. Os dois fabricam hipertensos.
   5. **Diagnosticar arritmia na frequência que respira.** A arritmia sinusal da criança é achado normal; suspeitar de doença a cada variação inspiratória é não conhecer o capítulo 179.
@@ -281,7 +281,7 @@ texto: |
 :::
 
 ::: perola
-texto: "Porto lembra que, para condições especiais como o recém-nascido, existe balança própria, e a frase vale como síntese do tópico inteiro: na criança, quase nenhum instrumento novo é inventado; quase todos são recalibrados. O que muda de verdade é a régua de leitura, que agora tem idade."
+texto: "Para condições especiais como o recém-nascido, existe balança própria, e a frase vale como síntese do tópico inteiro: na criança, quase nenhum instrumento novo é inventado; quase todos são recalibrados. O que muda de verdade é a régua de leitura, que agora tem idade."
 :::
 
 ::: relampago
@@ -312,14 +312,14 @@ titulo: Teste rápido
 ::: quiz
 perguntas:
   - id: cri-cresc-1
-    enunciado: Um lactente de 6 meses, calmo e afebril, apresenta FC de 150 bpm em contagem de 1 minuto. Como interpretar, pelo Quadro 179.4 de Porto?
+    enunciado: Um lactente de 6 meses, calmo e afebril, apresenta FC de 150 bpm em contagem de 1 minuto. Como interpretar, pela tabela de referência?
     alternativas:
       - "Taquicardia importante: acima de 100 bpm há taquicardia em qualquer idade"
       - "Bradicardia relativa, pois a média da faixa etária é bem mais alta que o valor encontrado, o que exige eletrocardiograma imediato e monitoramento contínuo até o esclarecimento da causa"
       - "Frequência dentro do espectro esperado para a idade: aos 6 meses, o quadro registra média de 145 bpm e espectro de 105 a 185 bpm"
       - "Valor não interpretável sem a frequência respiratória simultânea"
     corretaIndex: 2
-    explicacao: "O Quadro 179.4 dá, para os 6 meses, média de 145 bpm e espectro de 105 a 185 bpm: 150 bpm é um valor central para a idade. A régua do adulto (60 a 100 bpm) não se aplica à criança: a frequência desce degrau a degrau até se aproximar dos valores adultos por volta dos 10 anos (90 bpm de média, 65 a 130 de espectro). E não é bradicardia: 150 está acima, não abaixo, da média etária."
+    explicacao: "A tabela de referência dá, para os 6 meses, média de 145 bpm e espectro de 105 a 185 bpm: 150 bpm é um valor central para a idade. A régua do adulto (60 a 100 bpm) não se aplica à criança: a frequência desce degrau a degrau até se aproximar dos valores adultos por volta dos 10 anos (90 bpm de média, 65 a 130 de espectro). E não é bradicardia: 150 está acima, não abaixo, da média etária."
   - id: cri-cresc-2
     enunciado: Durante a ausculta de uma criança de 5 anos, você nota que a frequência cardíaca aumenta na inspiração e diminui na expiração, de forma repetida e previsível. Qual é o significado?
     alternativas:
@@ -330,23 +330,23 @@ perguntas:
     corretaIndex: 0
     explicacao: "O capítulo 179 é explícito: a arritmia sinusal ou respiratória é normal na infância, o coração acelera a cada inspiração e desacelera a cada expiração. É ritmo acoplado à respiração, previsível, e não exige investigação. A fibrilação atrial produz irregularidade sem padrão; e pedir apneia voluntária a uma criança de 5 anos para 'corrigir' um achado fisiológico é resolver um problema que não existe."
   - id: cri-cresc-3
-    enunciado: Em um recém-nascido a termo, qual valor de perímetro cefálico define microcefalia, e até quando a medida deve ser acompanhada em toda criança, segundo o Exame Clínico?
+    enunciado: Em um recém-nascido a termo, qual valor de perímetro cefálico define microcefalia, e até quando a medida deve ser acompanhada em toda criança?
     alternativas:
       - "Menos de 30 cm, com acompanhamento até o primeiro ano de vida"
       - "Menos de 35 cm, com acompanhamento até os 5 anos em todas as crianças"
       - "Qualquer valor abaixo do percentil 50 da curva da OMS na primeira medida, com acompanhamento mensal obrigatório até a puberdade e investigação genética sempre que a curva não retornar à mediana em duas consultas consecutivas"
       - "Menos de 33 cm na criança a termo, com medida logo após o nascimento e acompanhamento até os 2 anos: estendido até os 5 anos nas crianças com algum déficit"
     corretaIndex: 3
-    explicacao: "O Exame Clínico define microcefalia, na criança a termo, como perímetro cefálico inferior a 33 cm, e manda medir logo após o nascimento e acompanhar até os 2 anos de idade, até os 5 anos quando há déficit. Semiologia Clínica acrescenta o espírito da medida: com a fita métrica avalia-se a velocidade do crescimento craniano, não um número isolado. Percentil abaixo do 50 é metade das crianças normais, não é critério de nada."
+    explicacao: "A microcefalia se define, na criança a termo, como perímetro cefálico inferior a 33 cm, e a medida deve ser feita logo após o nascimento e acompanhada até os 2 anos de idade, até os 5 anos quando há déficit. Vale ainda o espírito da medida: com a fita métrica avalia-se a velocidade do crescimento craniano, não um número isolado. Percentil abaixo do 50 é metade das crianças normais, não é critério de nada."
   - id: cri-cresc-4
-    enunciado: Uma criança de 3 anos com febre apresenta FR de 46 irpm e FC de 170 bpm. Como as duas obras que fornecem faixas pediátricas classificam esses valores?
+    enunciado: Uma criança de 3 anos com febre apresenta FR de 46 irpm e FC de 170 bpm. Como as referências que fornecem faixas pediátricas classificam esses valores?
     alternativas:
       - "Normais para a idade, pois criança pequena respira e bate o coração naturalmente rápido, e a febre explica qualquer aceleração adicional sem valor semiológico"
-      - "Taquipneia e taquicardia: a FR ultrapassa o teto de 40 irpm de Porto para maiores de 12 meses e a faixa de 20 a 35 irpm que o Exame Clínico e Semiologia Clínica dão ao pré-escolar, e a FC excede o espectro tanto dos 2 anos (90 a 150 bpm) quanto dos 4 anos (72 a 135 bpm)"
+      - "Taquipneia e taquicardia: a FR ultrapassa o teto de 40 irpm para maiores de 12 meses e a faixa de 20 a 35 irpm que outras referências dão ao pré-escolar, e a FC excede o espectro tanto dos 2 anos (90 a 150 bpm) quanto dos 4 anos (72 a 135 bpm)"
       - "Taquipneia isolada com FC normal, já que 170 bpm está dentro do espectro dos 6 meses"
       - "Valores inclassificáveis, pois nenhuma das obras adotadas fornece faixas pediátricas"
     corretaIndex: 1
-    explicacao: "Aos 3 anos, as duas réguas convergem: pelo Quadro 179.6 de Porto, acima de 12 meses a FR máxima esperada é 40 irpm; pela tabela comum ao Exame Clínico e a Semiologia Clínica, o pré-escolar respira de 20 a 35 irpm: 46 irpm é taquipneia pelas duas. Para a FC, o Quadro 179.4 enquadra os 3 anos entre as linhas dos 2 anos (90 a 150) e dos 4 anos (72 a 135): 170 bpm ultrapassa ambas. O espectro dos 6 meses não serve de consolo: a faixa é a da idade da criança. Febre acelera coração e respiração, mas isso não anula o achado: explica-o, e ele continua sendo dado de gravidade a integrar ao estado geral."
+    explicacao: "Aos 3 anos, as duas réguas convergem: por uma tabela, acima de 12 meses a FR máxima esperada é 40 irpm; pela tabela comum às outras duas referências, o pré-escolar respira de 20 a 35 irpm: 46 irpm é taquipneia pelas duas. Para a FC, a tabela de referência enquadra os 3 anos entre as linhas dos 2 anos (90 a 150) e dos 4 anos (72 a 135): 170 bpm ultrapassa ambas. O espectro dos 6 meses não serve de consolo: a faixa é a da idade da criança. Febre acelera coração e respiração, mas isso não anula o achado: explica-o, e ele continua sendo dado de gravidade a integrar ao estado geral."
   - id: cri-cresc-5
     enunciado: Ao medir a pressão arterial de um lactente que chora vigorosamente, o valor obtido vem bem acima do esperado. O que diz a técnica do capítulo 47?
     alternativas:
@@ -364,5 +364,5 @@ perguntas:
       - "A segunda preocupa mais: a queda da velocidade com cruzamento de escores para baixo sugere agressão à saúde ou doença adquirida, enquanto a curva paralela com velocidade normal é o padrão das variantes do crescimento, como o retardo constitucional"
       - "A primeira preocupa mais, porque a baixa estatura presente desde sempre indica necessariamente causa congênita grave"
     corretaIndex: 2
-    explicacao: "O Exame Clínico diferencia os padrões pela curva: a alteração funcional cresce em velocidade normal, com curva paralela ao padrão; a afecção adquirida segue curva normal por um tempo e depois se desvia. O capítulo 99 fecha o raciocínio: queda brusca da velocidade de crescimento costuma denunciar agressão relevante à saúde da criança, física ou emocional, enquanto as variantes do normal (como o retardo constitucional, causa mais comum de baixa estatura) mantêm velocidade próxima do normal. O percentil 3 é um dos critérios de investigação, mas o trajeto decide a urgência e a direção, e curva baixa desde sempre pede avaliação, não pânico: pode ser padrão familiar."
+    explicacao: "Os padrões se diferenciam pela curva: a alteração funcional cresce em velocidade normal, com curva paralela ao padrão; a afecção adquirida segue curva normal por um tempo e depois se desvia. O raciocínio se fecha assim: queda brusca da velocidade de crescimento costuma denunciar agressão relevante à saúde da criança, física ou emocional, enquanto as variantes do normal (como o retardo constitucional, causa mais comum de baixa estatura) mantêm velocidade próxima do normal. O percentil 3 é um dos critérios de investigação, mas o trajeto decide a urgência e a direção, e curva baixa desde sempre pede avaliação, não pânico: pode ser padrão familiar."
 :::

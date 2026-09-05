@@ -388,7 +388,7 @@ texto: |
 
   Avalia-se sem instrumento, e com uma calibração obrigatória: pelos conhecimentos gerais e pelo vocabulário do paciente, **sempre de acordo com idade, escolaridade e condições socioculturais**, a mesma ressalva que voltará, quantificada, nos pontos de corte por escolaridade do miniexame, no tópico de escalas. Dois testes simples ajudam na dúvida: a **interpretação de provérbios** (dando antes um exemplo, para garantir que o paciente entendeu a tarefa) e os **testes das similaridades**: o que há de comum entre laranja e maçã? O paciente com déficit responde pelo concreto ("são redondas", "têm casca") sem alcançar a categoria "frutas".
 
-  Constatado um déficit, a pergunta seguinte é temporal, e Porto a formula como par: a deficiência **sempre existiu**, oligofrenia, **ou surgiu na vida adulta**, demência? Respondem-na a escolaridade alcançada e o desempenho profissional e social **anteriores**: uma biografia de funcionamento normal seguida de declínio aponta demência; a limitação de sempre, não. O par reaparece nos padrões de pensamento do tópico: o **oligofrênico**, de vocabulário pobre e preso ao imediato e concreto, sem generalização nem abstração; o **demencial**, vago e inadequado, do paciente que erra grosseiramente ao aplicar conceitos que já dominou. A investigação da demência propriamente (instalação, achados, diferenciais) pertence ao último tópico deste capítulo.
+  Constatado um déficit, a pergunta seguinte é temporal, formulada como par: a deficiência **sempre existiu**, oligofrenia, **ou surgiu na vida adulta**, demência? Respondem-na a escolaridade alcançada e o desempenho profissional e social **anteriores**: uma biografia de funcionamento normal seguida de declínio aponta demência; a limitação de sempre, não. O par reaparece nos padrões de pensamento do tópico: o **oligofrênico**, de vocabulário pobre e preso ao imediato e concreto, sem generalização nem abstração; o **demencial**, vago e inadequado, do paciente que erra grosseiramente ao aplicar conceitos que já dominou. A investigação da demência propriamente (instalação, achados, diferenciais) pertence ao último tópico deste capítulo.
 :::
 
 ::: conceito
@@ -397,7 +397,7 @@ texto: |
   - **Fundamentos do exame psíquico**, o tópico anterior, carrega a primeira metade do roteiro (impressão geral, consciência, atenção, orientação) e o contrato de respeito que este exame pressupõe.
   - **Consciência e estado mental**, no capítulo neurológico, é o dono da tríade disfonia-disartria-disfasia, das afasias de Broca, Wernicke e condução e da distinção entre afasia e confusão mental; **Sensibilidade e coordenação** guarda a disartria cerebelar e seu contraste com a afasia. Este tópico só acrescenta o espelho: a psicose que imita afasia.
   - **Ectoscopia** ensinou fácies, atitude e movimentos involuntários: os tremores, coreias e tiques com que a psicomotricidade deste tópico não deve ser confundida.
-  - **Escalas cognitivas à beira do leito**, adiante, recebe os instrumentos nomeados aqui (miniexame com seus cortes por escolaridade, teste do relógio, Mini-Cog, CAM) e os rastreios de Semiologia Clínica.
+  - **Escalas cognitivas à beira do leito**, adiante, recebe os instrumentos nomeados aqui (miniexame com seus cortes por escolaridade, teste do relógio, Mini-Cog, CAM) e os rastreios de saúde mental nomeados neste tópico.
   - **Delirium, demência e depressão**, o último tópico, recebe a pseudodemência depressiva, o pensamento demencial e a confusão mental como síndromes a diferenciar.
   - **O interrogatório sintomatológico**, no sistema Anamnese, lista o segmento psíquico da revisão de sistemas: ansiedade, humor, fobias e compulsões como perguntas; aqui, como achados.
 :::
@@ -409,7 +409,7 @@ titulo: Armadilhas do exame
 ::: conceito
 titulo: Seis erros no exame das funções psíquicas
 texto: |
-  1. **Aceitar a queixa de memória como amnésia.** Deprimidos e ansiosos se queixam de memória por falta de concentração: a falsa perda que a Semiologia Médica manda investigar antes de rotular. Teste a fixação; confronte com a atenção.
+  1. **Aceitar a queixa de memória como amnésia.** Deprimidos e ansiosos se queixam de memória por falta de concentração: a falsa perda que se deve investigar antes de rotular. Teste a fixação; confronte com a atenção.
   2. **Tratar ilusão como alucinação.** Ilusão deforma um objeto que existe, é comum em pessoas normais e tem pouco valor diagnóstico; alucinação é percepção sem objeto. O registro que as confunde infla o quadro.
   3. **Ignorar a crítica do paciente sobre o fenômeno.** Alucinação vivida como real e alucinose criticada apontam caminhos diferentes: a segunda, para causa orgânica. Uma pergunta a mais muda a investigação.
   4. **Chamar de delírio toda crença estranha.** A terceira nota da definição é cultural: a ideia compartilhada pelo meio do paciente não é delírio. Convicção, irredutibilidade e partilha se exploram antes do rótulo.
@@ -418,7 +418,7 @@ texto: |
 :::
 
 ::: perola
-texto: "No estupor, a Semiologia Médica ensina a ler a causa no rosto: sonolência e torpor apontam o paciente orgânico; a tristeza, o deprimido; o alheamento, o esquizofrênico. É o mesmo gesto imóvel com três fisionomias, e o exame que não olha a face perde o único dado que o paciente ainda está dando."
+texto: "No estupor, a causa se lê no rosto: sonolência e torpor apontam o paciente orgânico; a tristeza, o deprimido; o alheamento, o esquizofrênico. É o mesmo gesto imóvel com três fisionomias, e o exame que não olha a face perde o único dado que o paciente ainda está dando."
 :::
 
 ::: relampago
@@ -454,45 +454,45 @@ perguntas:
       - "Amnésia de evocação, pois o paciente não consegue trazer de volta o que já contou na própria entrevista"
       - "Hipermnésia seletiva para o passado, achado dos estados de exaltação emocional que explica tanto a riqueza e a precisão das lembranças antigas quanto a repetição involuntária dos episódios recentes da conversa, já que as representações do passado afluem em grande quantidade e ocupam o espaço que seria destinado à gravação dos fatos novos"
       - "Confabulação, porque as repetições preenchem falhas com material inventado"
-      - "Amnésia de fixação: o recente não é retido, e a repetição involuntária de tópicos da entrevista é justamente a forma de detectá-la que Porto descreve, enquanto a memória remota resiste, na ordem da lei de Ribot"
+      - "Amnésia de fixação: o recente não é retido, e a repetição involuntária de tópicos da entrevista é justamente a forma de detectá-la, enquanto a memória remota resiste, na ordem da lei de Ribot"
     corretaIndex: 3
-    explicacao: "Porto ensina que o retorno a tópicos já tratados avalia a fixação: quem a perdeu repete, sem perceber, o que disse no início da entrevista. A preservação das lembranças remotas com perda do recente segue a lei de Ribot, que a Semiologia Médica nomeia, os fatos recentes se comprometem primeiro, e é o padrão da fase inicial dos processos demenciais. A amnésia de evocação atingiria o passado distante; a confabulação é falsa recordação, não repetição; e a hipermnésia é aumento, não perda."
+    explicacao: "O retorno a tópicos já tratados avalia a fixação: quem a perdeu repete, sem perceber, o que disse no início da entrevista. A preservação das lembranças remotas com perda do recente segue a lei de Ribot: os fatos recentes se comprometem primeiro, e é o padrão da fase inicial dos processos demenciais. A amnésia de evocação atingiria o passado distante; a confabulação é falsa recordação, não repetição; e a hipermnésia é aumento, não perda."
   - id: psi-func-2
     enunciado: Um homem de 62 anos relata ver, à noite, pequenos animais no quarto, e acrescenta, espontaneamente, que sabe que eles não existem, que "deve ser coisa da cabeça". O que esse relato com crítica indica?
     alternativas:
-      - "Alucinose, fenômeno alucinatório relatado com crítica, que Semiologia Clínica distingue da alucinação exatamente por isso e considera indicativo de causa orgânica a investigar"
+      - "Alucinose, fenômeno alucinatório relatado com crítica, que se distingue da alucinação exatamente por isso e é indicativo de causa orgânica a investigar"
       - "Alucinação visual típica de esquizofrenia, pois a modalidade visual é a mais característica da doença"
       - "Ilusão catatímica, com o medo noturno deformando objetos reais do quarto"
       - "Fenômeno hipnagógico patológico, diagnóstico firmado pela ocorrência noturna"
     corretaIndex: 0
-    explicacao: "Semiologia Clínica reserva o nome de alucinose ao fenômeno alucinatório que o paciente relata com alguma crítica (reconhecendo-o como estranho, sem tomá-lo por real) e afirma que isso costuma indicar causa orgânica. Na alucinação propriamente dita, a vivência é indistinguível de uma percepção real e falta crítica. As alucinações visuais, aliás, são características de quadros orgânicos agudos, não de esquizofrenia; a ilusão exigiria um objeto real deformado; e as experiências hipnagógicas ocorrem na transição para o sono, podendo aparecer em pessoas normais."
+    explicacao: "O nome de alucinose se reserva ao fenômeno alucinatório que o paciente relata com alguma crítica (reconhecendo-o como estranho, sem tomá-lo por real), o que costuma indicar causa orgânica. Na alucinação propriamente dita, a vivência é indistinguível de uma percepção real e falta crítica. As alucinações visuais, aliás, são características de quadros orgânicos agudos, não de esquizofrenia; a ilusão exigiria um objeto real deformado; e as experiências hipnagógicas ocorrem na transição para o sono, podendo aparecer em pessoas normais."
   - id: psi-func-3
     enunciado: Em uma visita, uma paciente internada por episódio depressivo grave ri de uma piada do colega de enfermaria. Um estudante anota "humor eutímico, quadro em remissão". Qual é o erro?
     alternativas:
       - "Nenhum: a reatividade afetiva preservada define eutimia e indica remissão do episódio"
-      - "Confundir afeto com humor: o riso é uma reação momentânea, e Semiologia Clínica é explícita, o paciente com humor deprimido pode rir de um comentário sem que isso desminta o tônus afetivo de fundo, que se avalia pelo conjunto"
+      - "Confundir afeto com humor: o riso é uma reação momentânea, e o paciente com humor deprimido pode rir de um comentário sem que isso desminta o tônus afetivo de fundo, que se avalia pelo conjunto"
       - "O oposto: o riso na depressão configura incontinência afetiva e indica agravamento orgânico"
       - "O registro deveria ser incongruência afetiva, sugestiva de esquizofrenia"
     corretaIndex: 1
-    explicacao: "A distinção é de Semiologia Clínica: humor é o tônus afetivo, a tonalidade de fundo; afetos são as reações de cada momento, e o riso arrancado por um comentário não retira do humor o seu estado deprimido. A incontinência afetiva seria o riso ou choro prolongado e sem controle diante de estímulo mínimo, sugerindo lesão orgânica; a incongruência seria a resposta inadequada ao contexto, rir narrando uma tragédia própria, o que não é o caso de rir de uma piada. O humor se julga pelo conjunto da conversa, não por um instante dela."
+    explicacao: "A distinção: humor é o tônus afetivo, a tonalidade de fundo; afetos são as reações de cada momento, e o riso arrancado por um comentário não retira do humor o seu estado deprimido. A incontinência afetiva seria o riso ou choro prolongado e sem controle diante de estímulo mínimo, sugerindo lesão orgânica; a incongruência seria a resposta inadequada ao contexto, rir narrando uma tragédia própria, o que não é o caso de rir de uma piada. O humor se julga pelo conjunto da conversa, não por um instante dela."
   - id: psi-func-4
     enunciado: Um paciente afirma com absoluta certeza que vizinhos o vigiam por aparelhos, e nenhum argumento o demove. A família informa que a crença não é partilhada por ninguém do seu meio. Que características fazem dessa ideia um delírio, segundo as fontes?
     alternativas:
       - "O conteúdo persecutório, tema que por si só define a natureza delirante de qualquer convicção: as fontes consideram que ideias de vigilância e perseguição, pela sua gravidade e pelo seu potencial de desorganizar a vida do paciente, dispensam a exploração das demais características e autorizam o registro imediato de delírio no exame psíquico"
       - "A presença simultânea de alucinações auditivas, sem as quais não se diagnostica delírio"
-      - "A tríade que Porto e Semiologia Clínica descrevem: convicção extraordinária, irredutibilidade à argumentação lógica e não partilha pelo meio sociocultural, o que a distingue da superstição"
+      - "A tríade que caracteriza o delírio: convicção extraordinária, irredutibilidade à argumentação lógica e não partilha pelo meio sociocultural, o que a distingue da superstição"
       - "O início súbito, pois toda ideia delirante nasce como intuição repentina"
     corretaIndex: 2
-    explicacao: "Porto caracteriza a ideia delirante primária por convicção extraordinária com certeza subjetiva incomparável, impossibilidade de a realidade e a lógica demoverem essa certeza e impossibilidade do conteúdo; Semiologia Clínica resume nas mesmas três notas: errônea, irredutível, não partilhada pelo meio. A nota cultural separa delírio de superstição. O tema persecutório não basta, alucinação é distúrbio de outra função, a sensopercepção, e a intuição delirante súbita é apenas um dos modos de surgimento que Porto descreve, ao lado da percepção delirante."
+    explicacao: "A ideia delirante primária se caracteriza por convicção extraordinária com certeza subjetiva incomparável, impossibilidade de a realidade e a lógica demoverem essa certeza e impossibilidade do conteúdo, o que se resume nas mesmas três notas: errônea, irredutível, não partilhada pelo meio. A nota cultural separa delírio de superstição. O tema persecutório não basta, alucinação é distúrbio de outra função, a sensopercepção, e a intuição delirante súbita é apenas um dos modos de surgimento, ao lado da percepção delirante."
   - id: psi-func-5
-    enunciado: Na emergência, um homem de 60 anos apresenta discurso abundante e desorganizado, iniciado abruptamente há algumas horas, sem qualquer antecedente psiquiátrico. Ele não consegue nomear objetos, não repete frases e não executa ordens simples. Qual é a leitura da Semiologia Médica?
+    enunciado: Na emergência, um homem de 60 anos apresenta discurso abundante e desorganizado, iniciado abruptamente há algumas horas, sem qualquer antecedente psiquiátrico. Ele não consegue nomear objetos, não repete frases e não executa ordens simples. Qual é a leitura desse quadro?
     alternativas:
       - "O quadro aponta afasia de Wernicke, não psicose: início rápido e sem pródromos, com nomear, repetir e compreender comprometidos, tarefas quase sempre preservadas na esquizofrenia"
       - "Esquizofrenia de início tardio, pois a desorganização do discurso é seu achado nuclear"
       - "Pensamento desagregado em primeiro episódio psicótico de início tardio, dispensando investigação orgânica imediata desde que não haja febre nem sinais focais evidentes ao exame inicial: a desorganização do discurso com incapacidade de executar ordens é o núcleo do quadro esquizofrênico agudo, e a idade de apresentação não muda essa leitura"
       - "Fuga de ideias de um episódio maníaco, dado o discurso abundante e acelerado"
     corretaIndex: 0
-    explicacao: "A Semiologia Médica ensina a diferenciação: a afasia de Wernicke tem início rápido, sem pródromos e sem o isolamento social prévio do quadro psicótico; o paciente esquizofrênico, se não agitado, executa solicitações verbais simples, e as quatro tarefas (nomear, ler, repetir, escrever) costumam estar íntegras na esquizofrenia e falhar na afasia. Idade, instalação abrupta e ausência de antecedentes reforçam a suspeita neurológica: a distinção entre afasia e confusão mental, com os tipos de afasia, está no tópico Consciência e estado mental, do capítulo neurológico."
+    explicacao: "A diferenciação: a afasia de Wernicke tem início rápido, sem pródromos e sem o isolamento social prévio do quadro psicótico; o paciente esquizofrênico, se não agitado, executa solicitações verbais simples, e as quatro tarefas (nomear, ler, repetir, escrever) costumam estar íntegras na esquizofrenia e falhar na afasia. Idade, instalação abrupta e ausência de antecedentes reforçam a suspeita neurológica: a distinção entre afasia e confusão mental, com os tipos de afasia, está no tópico Consciência e estado mental, do capítulo neurológico."
   - id: psi-func-6
     enunciado: Uma paciente confere o fogão dezenas de vezes por dia, irritada consigo mesma, dizendo saber que "a dúvida não tem fundamento", mas sem conseguir parar. O que separa esse pensamento de um delírio?
     alternativas:
@@ -501,5 +501,5 @@ perguntas:
       - "A frequência do ritual, pois comportamentos repetidos definem o delírio sistematizado"
       - "A propriedade e a crítica: a obsessão é reconhecida pelo paciente como pensamento seu, intruso e indesejado, contra o qual ele se exaspera, o oposto da certeza delirante, vivida como verdade irredutível"
     corretaIndex: 3
-    explicacao: "Porto define as obsessões como pensamentos desagradáveis e irresistíveis que a vontade e o raciocínio não expulsam da consciência, com a nota decisiva: o paciente reconhece os pensamentos como próprios, ainda que venham contra a vontade dele, e realiza compulsões, como a dúvida imotivada da porta e do gás, com indignação e exasperação. No delírio, a convicção é extraordinária e irredutível, vivida como verdade. O contraste corre pela propriedade (a vivência de influência esquizofrênica é o pensamento sentido como imposto de fora) e pela crítica, preservada na obsessão e abolida no delírio."
+    explicacao: "As obsessões se definem como pensamentos desagradáveis e irresistíveis que a vontade e o raciocínio não expulsam da consciência, com a nota decisiva: o paciente reconhece os pensamentos como próprios, ainda que venham contra a vontade dele, e realiza compulsões, como a dúvida imotivada da porta e do gás, com indignação e exasperação. No delírio, a convicção é extraordinária e irredutível, vivida como verdade. O contraste corre pela propriedade (a vivência de influência esquizofrênica é o pensamento sentido como imposto de fora) e pela crítica, preservada na obsessão e abolida no delírio."
 :::

@@ -394,15 +394,15 @@ nivel: avancado
 texto: |
   A síndrome de Horner é a **denervação simpática do olho**, e sua importância clínica não está no que ela faz ao olho, é pouco, mas no que ela denuncia sobre o trajeto do simpático.
 
-  McGee descreve três características, todas do mesmo lado:
+  Três características, todas do mesmo lado:
 
   - **miose**, pela paralisia do músculo dilatador da pupila;
   - **ptose**, pela paralisia do músculo tarsal superior;
   - **anidrose da face**, por lesão das fibras sudomotoras.
 
-  Sobre a enoftalmia, **o guia adota a leitura de McGee**: a pálpebra inferior elevada cria a **aparência** de enoftalmia, sem que o globo esteja de fato retraído. As duas edições de Porto listam a enoftalmia entre os componentes da síndrome, e ficam registradas: Porto descreve a paralisia do músculo de Müller com blefaroptose parcial integrando a síndrome de paralisia do simpático cervical, constituída por **enoftalmia, miose e transtornos vasomotores**; Porto inclui a síndrome entre as causas de enoftalmia unilateral e de ptose. As leituras descrevem a mesma aparência; o guia fica com a de McGee: o globo não se afunda.
+  Sobre a enoftalmia, **o guia adota esta leitura**: a pálpebra inferior elevada cria a **aparência** de enoftalmia, sem que o globo esteja de fato retraído. Duas passagens de outra referência listam a enoftalmia entre os componentes da síndrome, e ficam registradas: uma descreve a paralisia do músculo de Müller com blefaroptose parcial integrando a síndrome de paralisia do simpático cervical, constituída por **enoftalmia, miose e transtornos vasomotores**; a outra inclui a síndrome entre as causas de enoftalmia unilateral e de ptose. As leituras descrevem a mesma aparência; o guia mantém a posição assumida acima: o globo não se afunda.
 
-  Porto registra ainda o quadro oposto, menos citado: a contração espasmódica do músculo de Müller integra a **síndrome de irritação simpática cervical**, que associa midríase, alargamento da fenda palpebral e algum grau de exoftalmia.
+  Registra-se ainda o quadro oposto, menos citado: a contração espasmódica do músculo de Müller integra a **síndrome de irritação simpática cervical**, que associa midríase, alargamento da fenda palpebral e algum grau de exoftalmia.
 
   **A ressalva que este tópico faz questão de manter:** a anatomia da cadeia simpática, os três neurônios em série que ligam o hipotálamo posterior à medula cervicotorácica, passam sobre o ápice do pulmão e sobem pelo trajeto carotídeo, e o raciocínio localizatório que ela permite pertencem ao capítulo do sistema nervoso. O que interessa ao exame de cabeça e pescoço é reconhecer a tríade e entender por que ela obriga a olhar para fora da cabeça.
 
@@ -442,25 +442,25 @@ texto: |
 
   A primeira: **a sensibilidade desses achados é ruim**. Entre 23% e 56% dos pacientes com doença grave não têm fotofobia, e 81% não têm anisocoria. A ausência dos sinais não tranquiliza.
 
-  A segunda é ainda mais direta: **acuidade visual normal não é argumento contra doença ocular grave**. Até metade dos pacientes com irite comprovada tem acuidade de 20/60 ou melhor, e McGee escreve, sem meio-termo, que o clínico jamais deve usar a acuidade normal para descartar doença grave do olho.
+  A segunda é ainda mais direta: **acuidade visual normal não é argumento contra doença ocular grave**. Até metade dos pacientes com irite comprovada tem acuidade de 20/60 ou melhor, e vale o alerta sem meio-termo: o clínico jamais deve usar a acuidade normal para descartar doença grave do olho.
 
-  Os padrões de hiperemia descritos por Porto e por Semiologia Clínica e esses números respondem à mesma pergunta por caminhos diferentes, e se somam bem: vermelhidão máxima em torno do limbo, dor à contração pupilar e anisocoria com miose no olho afetado apontam todos para a mesma direção, e para o encaminhamento urgente ao especialista.
+  Os padrões de hiperemia descritos anteriormente e esses números respondem à mesma pergunta por caminhos diferentes, e se somam bem: vermelhidão máxima em torno do limbo, dor à contração pupilar e anisocoria com miose no olho afetado apontam todos para a mesma direção, e para o encaminhamento urgente ao especialista.
 :::
 
 ::: conceito
 titulo: Os dois sinais palpebrais do hipertireoidismo
 nivel: avancado
 texto: |
-  Dois achados palpebrais associam-se ao hipertireoidismo de qualquer causa, e McGee os separa da oftalmopatia de Graves propriamente dita, que só ocorre na doença de Graves.
+  Dois achados palpebrais associam-se ao hipertireoidismo de qualquer causa, e se separam da oftalmopatia de Graves propriamente dita, que só ocorre na doença de Graves.
 
-  - **Retração palpebral**, ou sinal de Dalrymple, descrito em 1849. Com o paciente olhando para a frente, a pálpebra superior fica anormalmente alta e aparece esclera branca entre a margem palpebral e o limbo superior. Normalmente a margem repousa logo abaixo da borda do limbo e cobre cerca de 1 mm da íris. O resultado é o olhar fixo e espantado que Porto chama de olhar de medo ou de espanto, componente da fácies basedowiana.
+  - **Retração palpebral**, ou sinal de Dalrymple, descrito em 1849. Com o paciente olhando para a frente, a pálpebra superior fica anormalmente alta e aparece esclera branca entre a margem palpebral e o limbo superior. Normalmente a margem repousa logo abaixo da borda do limbo e cobre cerca de 1 mm da íris. O resultado é o olhar fixo e espantado, chamado de olhar de medo ou de espanto, componente da fácies basedowiana.
   - **Lid lag**, ou sinal de von Graefe, descrito em 1864. Aparece esclera branca entre a margem da pálpebra superior e o limbo **enquanto o paciente olha para baixo**: nas palavras de von Graefe, a córnea desce e a pálpebra não a acompanha.
 
-  O desempenho diagnóstico desses dois sinais é notável para achados tão discretos. Em pacientes com suspeita de doença tireoidiana, a **retração palpebral** tem razão de verossimilhança **33,2** e o **lid lag**, **18,6**: os dois maiores valores entre todos os sinais físicos do hipertireoidismo estudados por McGee, à frente do tremor fino dos dedos (11,5), da pele quente e úmida (6,8) e do pulso acima de 90 batimentos por minuto (4,5). São sinais de alta especificidade e baixa sensibilidade: quando estão, decidem; quando faltam, não afastam.
+  O desempenho diagnóstico desses dois sinais é notável para achados tão discretos. Em pacientes com suspeita de doença tireoidiana, a **retração palpebral** tem razão de verossimilhança **33,2** e o **lid lag**, **18,6**: os dois maiores valores entre todos os sinais físicos do hipertireoidismo estudados, à frente do tremor fino dos dedos (11,5), da pele quente e úmida (6,8) e do pulso acima de 90 batimentos por minuto (4,5). São sinais de alta especificidade e baixa sensibilidade: quando estão, decidem; quando faltam, não afastam.
 
-  A **oftalmopatia de Graves** é outra coisa: um conjunto que decorre de edema e infiltração linfocitária da gordura orbitária, do tecido conjuntivo e dos músculos oculares, presente em 25% a 50% dos pacientes com doença de Graves. Seus achados característicos são edema palpebral, limitação dos movimentos oculares, quemose e injeção conjuntival e exoftalmia. McGee registra um dado contraintuitivo: os achados que melhor predizem neuropatia óptica incipiente são o **edema palpebral e a limitação dos movimentos oculares**, e não o grau de proptose.
+  A **oftalmopatia de Graves** é outra coisa: um conjunto que decorre de edema e infiltração linfocitária da gordura orbitária, do tecido conjuntivo e dos músculos oculares, presente em 25% a 50% dos pacientes com doença de Graves. Seus achados característicos são edema palpebral, limitação dos movimentos oculares, quemose e injeção conjuntival e exoftalmia. Um dado contraintuitivo: os achados que melhor predizem neuropatia óptica incipiente são o **edema palpebral e a limitação dos movimentos oculares**, e não o grau de proptose.
 
-  Porto organiza as mesmas alterações em um quadro de classes, de 1 a 6, que vai do olhar brilhante com retração palpebral até a cegueira por lesão do nervo óptico, passando por edema palpebral e conjuntival, proptose e paralisia da musculatura extraocular.
+  Uma classificação organiza as mesmas alterações em um quadro de classes, de 1 a 6, que vai do olhar brilhante com retração palpebral até a cegueira por lesão do nervo óptico, passando por edema palpebral e conjuntival, proptose e paralisia da musculatura extraocular.
 
   A correlação desses achados com o estado funcional da glândula, o exame da tireoide e as razões de verossimilhança do bócio estão no tópico de tireoide e pescoço.
 :::
@@ -470,7 +470,7 @@ nome: Lid lag (sinal de von Graefe)
 descricao: |
   Aparece **esclera branca entre a margem da pálpebra superior e o limbo enquanto o paciente olha para baixo**: nas palavras de von Graefe, **a córnea desce e a pálpebra não a acompanha**.
 significado: |
-  Segundo maior peso entre os sinais físicos do hipertireoidismo estudados por McGee, atrás apenas da retração palpebral. Mesma leitura: **alta especificidade, baixa sensibilidade**, presente decide, ausente não afasta. Como o Dalrymple, associa-se ao hipertireoidismo de qualquer causa.
+  Segundo maior peso entre os sinais físicos do hipertireoidismo estudados, atrás apenas da retração palpebral. Mesma leitura: **alta especificidade, baixa sensibilidade**, presente decide, ausente não afasta. Como o Dalrymple, associa-se ao hipertireoidismo de qualquer causa.
 causas:
   - "Hipertireoidismo de qualquer causa"
 :::
@@ -480,7 +480,7 @@ nome: Sinal de Dalrymple (retração palpebral)
 descricao: |
   Com o paciente **olhando para a frente**, a pálpebra superior fica anormalmente alta e aparece **esclera branca entre a margem palpebral e o limbo superior**. Normalmente a margem repousa logo abaixo da borda do limbo e cobre cerca de 1 mm da íris. O resultado é o **olhar fixo e espantado** da fácies basedowiana.
 significado: |
-  É o sinal físico de **maior peso no hipertireoidismo** entre os estudados por McGee, à frente do lid lag, do tremor fino, da pele quente e úmida e da taquicardia. Alta especificidade e baixa sensibilidade: **quando está, decide; quando falta, não afasta**. Associa-se ao hipertireoidismo de qualquer causa, ao contrário da oftalmopatia de Graves, exclusiva da doença de Graves.
+  É o sinal físico de **maior peso no hipertireoidismo** entre os estudados, à frente do lid lag, do tremor fino, da pele quente e úmida e da taquicardia. Alta especificidade e baixa sensibilidade: **quando está, decide; quando falta, não afasta**. Associa-se ao hipertireoidismo de qualquer causa, ao contrário da oftalmopatia de Graves, exclusiva da doença de Graves.
 causas:
   - "Hipertireoidismo de qualquer causa"
 :::
@@ -493,10 +493,10 @@ texto: |
 
   **A técnica** é consensual. Com o **exoftalmômetro de Hertel**, ou, na falta dele, com uma **régua milimetrada** apoiada na reborda orbitária lateral, mede-se até o ápice da córnea, em vista lateral.
 
-  **Os valores de referência**, não. No mesmo livro, dois capítulos diferentes dão números incompatíveis:
+  **Os valores de referência**, não. Na mesma referência, dois trechos diferentes dão números incompatíveis:
 
-  - **Porto, *Semiologia Médica*, cap. 16 (Olhos)**: pela régua, o valor normal medido da margem orbitária lateral até o ápice da córnea fica em geral **abaixo de 20 mm**; pelo exoftalmômetro de Hertel, a saliência normal do globo vai de **12 a 15 mm**, e valores acima de 25 mm aparecem nas exoftalmias graves.
-  - **Porto, *Semiologia Médica*, cap. 103 (Tireoide)**: considera-se normal valor **de até 23 mm**, sendo indicativos de proptose os maiores.
+  - Um trecho, no capítulo dos olhos: pela régua, o valor normal medido da margem orbitária lateral até o ápice da córnea fica em geral **abaixo de 20 mm**; pelo exoftalmômetro de Hertel, a saliência normal do globo vai de **12 a 15 mm**, e valores acima de 25 mm aparecem nas exoftalmias graves.
+  - Outro trecho, no capítulo da tireoide: considera-se normal valor **de até 23 mm**, sendo indicativos de proptose os maiores.
 
   Não há como conciliar 12 a 15 mm com até 23 mm sem informação que os textos não fornecem: provavelmente pontos de referência ou modelos de instrumento diferentes. Registre o método usado junto com o número, e não compare medidas obtidas por técnicas diferentes.
 
@@ -586,7 +586,7 @@ perguntas:
       - "Síndrome de Claude Bernard-Horner, por paralisia do músculo orbicular, cuja fadiga vespertina explica a queda progressiva das pálpebras"
       - "Blefarite crônica, em que a inflamação da borda palpebral enfraquece o elevador da pálpebra e acentua a queda no fim do dia"
     corretaIndex: 1
-    explicacao: "Porto associa a ptose palpebral a três contextos: paralisia do III par, síndrome de Claude Bernard-Horner e miastenia gravis. Semiologia Clínica acrescenta o dado de comportamento que separa: na miastenia a ptose é bilateral e piora ao longo do dia. Vale lembrar qual músculo faz o quê: o elevador da pálpebra superior, inervado pelo oculomotor, abre o olho; o músculo tarsal de Müller, simpático, participa da elevação e responde pela ptose parcial da síndrome de Horner; o orbicular, inervado pelo facial, faz a oclusão, sua falha causa lagoftalmia, não ptose."
+    explicacao: "Associam-se três contextos à ptose palpebral: paralisia do III par, síndrome de Claude Bernard-Horner e miastenia gravis. Um dado de comportamento separa: na miastenia a ptose é bilateral e piora ao longo do dia. Vale lembrar qual músculo faz o quê: o elevador da pálpebra superior, inervado pelo oculomotor, abre o olho; o músculo tarsal de Müller, simpático, participa da elevação e responde pela ptose parcial da síndrome de Horner; o orbicular, inervado pelo facial, faz a oclusão, sua falha causa lagoftalmia, não ptose."
   - id: olh-3
     enunciado: Um homem de 36 anos nota que os olhos ficaram "saltados". De perfil, você confirma protrusão dos dois globos, com um crescente de esclerótica visível acima e abaixo do limbo. Qual é a principal hipótese?
     alternativas:
@@ -595,7 +595,7 @@ perguntas:
       - "Hipertireoidismo, em particular a doença de Graves-Basedow"
       - "Enoftalmia bilateral por desidratação, que estreita as fendas palpebrais e cria a impressão de protrusão dos globos"
     corretaIndex: 2
-    explicacao: "A lateralidade organiza as hipóteses da exoftalmia. Unilateral, ela aponta para tumores oculares e retro-oculares; Semiologia Clínica acrescenta hematoma na órbita e trombose de seio cavernoso. Bilateral, a causa clássica é o hipertireoidismo, em particular a doença de Graves-Basedow, na qual anticorpos agridem a gordura e a musculatura retro-orbitárias. O crescente de esclerótica acima e abaixo do limbo traduz a perda da relação normal entre o limbo e as pálpebras, e o achado fica mais evidente quando se olha o paciente de perfil."
+    explicacao: "A lateralidade organiza as hipóteses da exoftalmia. Unilateral, ela aponta para tumores oculares e retro-oculares; somam-se hematoma na órbita e trombose de seio cavernoso. Bilateral, a causa clássica é o hipertireoidismo, em particular a doença de Graves-Basedow, na qual anticorpos agridem a gordura e a musculatura retro-orbitárias. O crescente de esclerótica acima e abaixo do limbo traduz a perda da relação normal entre o limbo e as pálpebras, e o achado fica mais evidente quando se olha o paciente de perfil."
   - id: olh-4
     enunciado: Ao inspecionar as pálpebras de uma senhora de 74 anos, você encontra abaulamento das pálpebras inferiores dos dois lados, instalado ao longo de anos, sem sinais flogísticos, sem variação ao longo do dia e não compressível. Qual é a interpretação mais provável?
     alternativas:
@@ -604,7 +604,7 @@ perguntas:
       - "Xantelasmas confluentes, que produzem abaulamento simétrico das pálpebras inferiores"
       - "Bolsas de acúmulo de gordura, um diferencial frequente do edema palpebral em idosos"
     corretaIndex: 3
-    explicacao: "Semiologia Clínica descreve as bolsas de gordura como um dos principais diferenciais do edema palpebral: instalação lenta ao longo de anos, sem variação com a posição, sem flutuação durante o dia, sem sinais flogísticos e não compressíveis. O edema por acúmulo de líquido corporal varia com a posição e é depressível, e Porto registra que olhos inchados ao acordar podem ser a primeira manifestação de um edema generalizado. O xantelasma é uma placa amarelada em alto-relevo, não um abaulamento difuso."
+    explicacao: "As bolsas de gordura são um dos principais diferenciais do edema palpebral: instalação lenta ao longo de anos, sem variação com a posição, sem flutuação durante o dia, sem sinais flogísticos e não compressíveis. O edema por acúmulo de líquido corporal varia com a posição e é depressível, e vale que olhos inchados ao acordar podem ser a primeira manifestação de um edema generalizado. O xantelasma é uma placa amarelada em alto-relevo, não um abaulamento difuso."
   - id: olh-5
     enunciado: Um paciente refere sensação de corpo estranho no olho direito após trabalhar com uma esmerilhadeira. Você decide everter a pálpebra superior para examinar a conjuntiva. Como executar a manobra?
     alternativas:
@@ -613,7 +613,7 @@ perguntas:
       - "Tracionar a pálpebra inferior para baixo com o paciente olhando para cima, o que expõe por transparência o fundo de saco conjuntival superior"
       - "Com o paciente olhando para baixo, segurar os cílios, puxar para fora e para baixo e pressionar com uma haste cerca de 1 cm acima da borda palpebral"
     corretaIndex: 3
-    explicacao: "Porto descreve o gesto: o paciente olha para baixo, o examinador segura os cílios, puxa para fora e para baixo e pressiona com uma haste cerca de 1 cm acima da borda palpebral, o equivalente a pressionar acima da placa tarsal; para desfazer, basta pedir que o paciente olhe para cima. Semiologia Clínica faz a advertência que importa: não pressione o globo ocular. A eversão só se justifica na suspeita de corpo estranho; a tração da pálpebra inferior com o olhar para cima expõe apenas a conjuntiva palpebral inferior."
+    explicacao: "O gesto: o paciente olha para baixo, o examinador segura os cílios, puxa para fora e para baixo e pressiona com uma haste cerca de 1 cm acima da borda palpebral, o equivalente a pressionar acima da placa tarsal; para desfazer, basta pedir que o paciente olhe para cima. Vale a advertência que importa: não pressione o globo ocular. A eversão só se justifica na suspeita de corpo estranho; a tração da pálpebra inferior com o olhar para cima expõe apenas a conjuntiva palpebral inferior."
   - id: olh-6
     enunciado: Um paciente chega com olho vermelho e dor. À inspeção, a vermelhidão é máxima em torno do limbo, com aspecto violáceo, e menos intensa na periferia. O que esse padrão sugere?
     alternativas:
@@ -622,5 +622,5 @@ perguntas:
       - "Hemorragia subconjuntival, reconhecível pelo aspecto violáceo que se acentua ao redor do limbo"
       - "Pterígio em fase inflamatória, cuja hiperemia caracteristicamente circunda toda a córnea"
     corretaIndex: 0
-    explicacao: "Porto separa dois padrões de congestão. Na superficial, os vasos superficiais ficam tortuosos e vermelho-tijolo, mais evidentes no fundo de saco conjuntival do que junto ao limbo, e o processo se restringe à conjuntiva. Na congestão profunda, ou injeção ciliar, a cor é violácea e se concentra no limbo, porque estão envolvidos os vasos que irrigam a íris e o corpo ciliar: ceratites, irites, glaucoma agudo, corpo estranho. Nas conjuntivites a dilatação é difusa e máxima na periferia; a hemorragia subconjuntival é uma área vermelha homogênea e bem demarcada, sem dor."
+    explicacao: "Há dois padrões de congestão. Na superficial, os vasos superficiais ficam tortuosos e vermelho-tijolo, mais evidentes no fundo de saco conjuntival do que junto ao limbo, e o processo se restringe à conjuntiva. Na congestão profunda, ou injeção ciliar, a cor é violácea e se concentra no limbo, porque estão envolvidos os vasos que irrigam a íris e o corpo ciliar: ceratites, irites, glaucoma agudo, corpo estranho. Nas conjuntivites a dilatação é difusa e máxima na periferia; a hemorragia subconjuntival é uma área vermelha homogênea e bem demarcada, sem dor."
 :::

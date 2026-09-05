@@ -668,7 +668,7 @@ perguntas:
       - "Lesão do córtex auditivo esquerdo, porque a audição, ao contrário da visão, é conduzida por vias que não cruzam a linha média"
       - "Nada: a lateralidade da hipoacusia não participa do raciocínio topográfico do VIII par"
     corretaIndex: 0
-    explicacao: "Semiologia Clínica registra que a via auditiva é complexa e termina no giro temporal transverso do lado oposto, e que, por isso, é raro que uma lesão cortical produza hipoacusia de um lado só. Hipoacusia unilateral sugere, portanto, lesão periférica, e o passo seguinte é classificá-la em condutiva, quando o som encontra obstáculo no caminho até a cóclea, ou neurossensorial, quando ele não chega ao córtex pelo nervo acústico. É o oposto do que acontece com a visão, em que lesões corticais produzem defeitos de campo bem lateralizados."
+    explicacao: "A via auditiva é complexa e termina no giro temporal transverso do lado oposto, e por isso é raro que uma lesão cortical produza hipoacusia de um lado só. Hipoacusia unilateral sugere, portanto, lesão periférica, e o passo seguinte é classificá-la em condutiva, quando o som encontra obstáculo no caminho até a cóclea, ou neurossensorial, quando ele não chega ao córtex pelo nervo acústico. É o oposto do que acontece com a visão, em que lesões corticais produzem defeitos de campo bem lateralizados."
   - id: neu-pc2-2
     enunciado: Ao examinar um paciente com assimetria facial, você observa que ele não consegue erguer voluntariamente o canto direito da boca, mas move esse mesmo canto com vivacidade ao rir de uma piada. A testa enruga simetricamente. Como interpretar?
     alternativas:
@@ -677,7 +677,7 @@ perguntas:
       - "Paralisia de Bell em fase de recuperação, com sincinesias por reinervação aberrante"
       - "Paralisia facial central: lesões centrais comprometem os movimentos voluntários e poupam os emocionais, além de poupar a testa"
     corretaIndex: 3
-    explicacao: "McGee descreve dois critérios que separam a fraqueza facial central da periférica. O primeiro é a distribuição: lesões periféricas comprometem músculos superiores e inferiores, enquanto lesões centrais poupam relativamente o enrugamento da testa, porque os núcleos que a inervam recebem aferência cortical bilateral. O segundo é o tipo de movimento: lesões periféricas paralisam todos os movimentos daquele lado, e lesões centrais comprometem os voluntários poupando os emocionais, porque o comando emocional não chega aos núcleos faciais pelo córtex motor. Observar o rosto durante um riso espontâneo é, portanto, parte do exame."
+    explicacao: "Dois critérios separam a fraqueza facial central da periférica. O primeiro é a distribuição: lesões periféricas comprometem músculos superiores e inferiores, enquanto lesões centrais poupam relativamente o enrugamento da testa, porque os núcleos que a inervam recebem aferência cortical bilateral. O segundo é o tipo de movimento: lesões periféricas paralisam todos os movimentos daquele lado, e lesões centrais comprometem os voluntários poupando os emocionais, porque o comando emocional não chega aos núcleos faciais pelo córtex motor. Observar o rosto durante um riso espontâneo é, portanto, parte do exame."
   - id: neu-pc2-3
     enunciado: Para testar o esternocleidomastóideo direito de um paciente, para que lado o examinador pede que ele vire a cabeça, e por quê?
     alternativas:
@@ -704,7 +704,7 @@ perguntas:
       - "Achado fisiológico, pois o véu palatino se eleva de forma assimétrica na maioria das pessoas"
       - "Lesão do nervo acessório direito, que compartilha o forame jugular com o glossofaríngeo e o vago"
     corretaIndex: 1
-    explicacao: "Os núcleos do IX e do X recebem inervação corticobulbar dos dois hemisférios; por isso, doença hemisférica unilateral não costuma produzir fraqueza palatina, e para que ela ocorra por causa hemisférica a doença precisa ser bilateral, o quadro da paralisia pseudobulbar. Fraqueza velar unilateral aponta, portanto, para o bulbo do mesmo lado ou para os nervos periféricos. Porto descreve o achado correspondente: o véu se desloca para o lado sadio à emissão das vogais, ao lado do sinal da cortina, da disfagia com regurgitação nasal e da redução do reflexo velopalatino."
+    explicacao: "Os núcleos do IX e do X recebem inervação corticobulbar dos dois hemisférios; por isso, doença hemisférica unilateral não costuma produzir fraqueza palatina, e para que ela ocorra por causa hemisférica a doença precisa ser bilateral, o quadro da paralisia pseudobulbar. Fraqueza velar unilateral aponta, portanto, para o bulbo do mesmo lado ou para os nervos periféricos. Descreve-se o achado correspondente: o véu se desloca para o lado sadio à emissão das vogais, ao lado do sinal da cortina, da disfagia com regurgitação nasal e da redução do reflexo velopalatino."
   - id: neu-pc2-6
     enunciado: Um paciente teve paralisia facial periférica há oito meses. Hoje, ao sorrir, a fenda palpebral do lado antes acometido se estreita; ao fechar os olhos com força, o canto da boca daquele lado se move. Como se chama esse fenômeno e por que ele ocorre?
     alternativas:
@@ -713,5 +713,5 @@ perguntas:
       - "Recidiva da paralisia, indicando que a lesão original era tumoral e não idiopática"
       - "Sincinesia, ou movimento associado, por reinervação aberrante durante a recuperação: complicação presente em 55% a 94% dos pacientes"
     corretaIndex: 3
-    explicacao: "As sincinesias são movimentos inesperados que resultam de reinervação aberrante depois da recuperação, e McGee as registra em 55% a 94% dos pacientes, citando como exemplos exatamente o estreitamento da fenda palpebral ao sorrir e o movimento do canto da boca ao fechar os olhos com força. Porto descreve o mesmo mecanismo: quando há axonotmese, a reinervação pode ocorrer por fibras que originalmente inervavam outros músculos. A contratura, em 3% a 36%, corresponde a aumento de tônus e não a cicatriz fibrosa, e muitas vezes até restaura a simetria; as lágrimas de crocodilo, em 2% a 6%, fazem o paciente lacrimejar ao comer."
+    explicacao: "As sincinesias são movimentos inesperados que resultam de reinervação aberrante depois da recuperação, presentes em 55% a 94% dos pacientes, com exemplos como o estreitamento da fenda palpebral ao sorrir e o movimento do canto da boca ao fechar os olhos com força. O mesmo mecanismo se descreve assim: quando há axonotmese, a reinervação pode ocorrer por fibras que originalmente inervavam outros músculos. A contratura, em 3% a 36%, corresponde a aumento de tônus e não a cicatriz fibrosa, e muitas vezes até restaura a simetria; as lágrimas de crocodilo, em 2% a 6%, fazem o paciente lacrimejar ao comer."
 :::
