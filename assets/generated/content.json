@@ -6552,7 +6552,7 @@
             "Auscultar a massa em busca de sopro contínuo, que é o achado próprio dessa lesão"
            ],
            "corretaIndex": 0,
-           "explicacao": "O sinal físico característico do cisto do ducto tireoglosso é a movimentação para cima quando o paciente protrai a língua, porque o cisto permanece ligado à base da língua ou ao osso hioide (McGee; Semiologia Clínica descreve o mesmo movimento vertical). Cistos dermoides, também da linha média, não se movem com a protrusão. A elevação dos braços é a manobra de Pemberton, para bócio mergulhante; a redutibilidade caracteriza laringocele e divertículo de Zenker."
+           "explicacao": "O sinal físico característico do cisto do ducto tireoglosso é a movimentação para cima quando o paciente protrai a língua, porque o cisto permanece ligado à base da língua ou ao osso hioide. Cistos dermoides, também da linha média, não se movem com a protrusão. A elevação dos braços é a manobra de Pemberton, para bócio mergulhante; a redutibilidade caracteriza laringocele e divertículo de Zenker."
           },
           {
            "id": "tir-3",
@@ -6564,7 +6564,7 @@
             "Nenhuma: o exame físico da glândula não informa sobre seu funcionamento, que se avalia pelo restante do exame clínico e por exames complementares"
            ],
            "corretaIndex": 3,
-           "explicacao": "Porto afirma diretamente que a palpação da glândula não informa se ela está hiperfuncionante; isso se obtém pelo restante do exame clínico e por exames complementares. A calibração de expectativa vem de McGee: cerca de 80% dos pacientes com bócio estão clinicamente eutireóideos, 10% são hipotireóideos e 10%, hipertireóideos. Os achados que informam sobre a função moram fora do pescoço: pulso, pele, pálpebras, fácies, reflexos."
+           "explicacao": "A palpação da glândula não informa diretamente se ela está hiperfuncionante; isso se obtém pelo restante do exame clínico e por exames complementares. A calibração de expectativa: cerca de 80% dos pacientes com bócio estão clinicamente eutireóideos, 10% são hipotireóideos e 10%, hipertireóideos. Os achados que informam sobre a função moram fora do pescoço: pulso, pele, pálpebras, fácies, reflexos."
           },
           {
            "id": "tir-4",

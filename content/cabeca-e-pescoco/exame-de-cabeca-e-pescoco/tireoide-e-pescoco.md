@@ -695,7 +695,7 @@ perguntas:
       - "Elevar os braços do paciente até as laterais da cabeça, procurando ingurgitamento facial"
       - "Auscultar a massa em busca de sopro contínuo, que é o achado próprio dessa lesão"
     corretaIndex: 0
-    explicacao: "O sinal físico característico do cisto do ducto tireoglosso é a movimentação para cima quando o paciente protrai a língua, porque o cisto permanece ligado à base da língua ou ao osso hioide (McGee; Semiologia Clínica descreve o mesmo movimento vertical). Cistos dermoides, também da linha média, não se movem com a protrusão. A elevação dos braços é a manobra de Pemberton, para bócio mergulhante; a redutibilidade caracteriza laringocele e divertículo de Zenker."
+    explicacao: "O sinal físico característico do cisto do ducto tireoglosso é a movimentação para cima quando o paciente protrai a língua, porque o cisto permanece ligado à base da língua ou ao osso hioide. Cistos dermoides, também da linha média, não se movem com a protrusão. A elevação dos braços é a manobra de Pemberton, para bócio mergulhante; a redutibilidade caracteriza laringocele e divertículo de Zenker."
   - id: tir-3
     enunciado: Um paciente tem bócio difuso e a palpação revela glândula de consistência firme, sem nódulos, indolor. Que conclusão o exame físico da tireoide autoriza sobre o estado funcional?
     alternativas:
@@ -704,7 +704,7 @@ perguntas:
       - "Bócio sem sopro e sem nódulos indica eutireoidismo, dispensando avaliação adicional"
       - "Nenhuma: o exame físico da glândula não informa sobre seu funcionamento, que se avalia pelo restante do exame clínico e por exames complementares"
     corretaIndex: 3
-    explicacao: "Porto afirma diretamente que a palpação da glândula não informa se ela está hiperfuncionante; isso se obtém pelo restante do exame clínico e por exames complementares. A calibração de expectativa vem de McGee: cerca de 80% dos pacientes com bócio estão clinicamente eutireóideos, 10% são hipotireóideos e 10%, hipertireóideos. Os achados que informam sobre a função moram fora do pescoço: pulso, pele, pálpebras, fácies, reflexos."
+    explicacao: "A palpação da glândula não informa diretamente se ela está hiperfuncionante; isso se obtém pelo restante do exame clínico e por exames complementares. A calibração de expectativa: cerca de 80% dos pacientes com bócio estão clinicamente eutireóideos, 10% são hipotireóideos e 10%, hipertireóideos. Os achados que informam sobre a função moram fora do pescoço: pulso, pele, pálpebras, fácies, reflexos."
   - id: tir-4
     enunciado: Ao observar a deglutição de um paciente com massa cervical, você nota que a massa sobe menos que a cartilagem tireoide e volta à posição original antes que a cartilagem termine de descer. Como interpretar?
     alternativas:
@@ -713,7 +713,7 @@ perguntas:
       - "Indica bócio mergulhante, cuja porção subesternal restringe a subida da glândula"
       - "Indica tireoide aderida aos planos profundos, situação que ocorre tipicamente de forma bilateral e impede a elevação da glândula à deglutição"
     corretaIndex: 1
-    explicacao: "Tireoide e traqueia estão firmemente presas por ligamentos e se movem juntas. Numa deglutição normal, McGee descreve um movimento inicial de 1,5 a 3,5 cm para cima, seguido de hesitação de 0,2 a 0,7 segundo antes do retorno. Uma massa provavelmente não é tireoidiana se estiver imóvel, se subir menos que a cartilagem tireoide, se não hesitar antes de descer ou se retornar antes que a cartilagem complete a descida. Semiologia Clínica acrescenta que a aderência aos planos profundos é outra explicação para a falta de elevação, e que dificilmente ocorre dos dois lados."
+    explicacao: "Tireoide e traqueia estão firmemente presas por ligamentos e se movem juntas. Numa deglutição normal, descreve-se um movimento inicial de 1,5 a 3,5 cm para cima, seguido de hesitação de 0,2 a 0,7 segundo antes do retorno. Uma massa provavelmente não é tireoidiana se estiver imóvel, se subir menos que a cartilagem tireoide, se não hesitar antes de descer ou se retornar antes que a cartilagem complete a descida. Soma-se que a aderência aos planos profundos é outra explicação para a falta de elevação, e que dificilmente ocorre dos dois lados."
   - id: tir-5
     enunciado: Em uma região onde a água e os alimentos são pobres em iodo, um paciente apresenta bócio difuso volumoso. Que estado funcional se espera dessa glândula?
     alternativas:
@@ -731,5 +731,5 @@ perguntas:
       - "É achado normal na tireoide de idosos, equivalente ao rumor venoso das crianças"
       - "Indica compressão do desfiladeiro torácico por bócio mergulhante"
     corretaIndex: 1
-    explicacao: "Porto ensina que frêmito e sopro indicam fluxo sanguíneo aumentado e são bastante sugestivos de bócio tóxico. McGee acrescenta a ressalva quantitativa: o sopro tireoidiano esteve presente em 73% dos pacientes com doença de Graves em um estudo, mas também em 30% de idosos com bócio nodular tóxico, e como sopros irradiam longe de sua origem, pode tratar-se de sopro carotídeo tornado proeminente pelo aumento do débito cardíaco. Em condições normais não se ouvem sopros no pescoço, com a exceção do rumor venoso, comum em crianças."
+    explicacao: "Frêmito e sopro indicam fluxo sanguíneo aumentado e são bastante sugestivos de bócio tóxico. Soma-se a ressalva quantitativa: o sopro tireoidiano esteve presente em 73% dos pacientes com doença de Graves em um estudo, mas também em 30% de idosos com bócio nodular tóxico, e como sopros irradiam longe de sua origem, pode tratar-se de sopro carotídeo tornado proeminente pelo aumento do débito cardíaco. Em condições normais não se ouvem sopros no pescoço, com a exceção do rumor venoso, comum em crianças."
 :::
