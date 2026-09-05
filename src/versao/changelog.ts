@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.20',
+    data: '2026-09-05',
+    linhas: [
+      'Sinal das pontas corrigido: caminhar na ponta dos pés testa S1 (flexão plantar) e nos calcanhares testa L4/L5 (dorsiflexão)',
+      'A verificação na fonte mostrou contradição interna: o parágrafo do capítulo de lombalgia inverte o pareamento que a Tabela 2 da mesma obra sustenta',
+      'Tópico da coluna e verbete do plantão mudaram juntos, com a divergência registrada no texto e no adendo para o autor',
+    ],
+  },
+  {
     versao: '1.2.19',
     data: '2026-09-05',
     linhas: [

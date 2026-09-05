@@ -296,7 +296,7 @@ texto: |
 
   **2. Alterando a função sensorimotora.** As afecções da coluna repercutem nos membros com alterações de sensibilidade, de força e de reflexos, e a topografia dessas alterações **localiza o nível** da compressão. Porto dá dois exemplos diretos: um bíceps fraco pode significar compressão de **C5**; a queda de potência nos dorsiflexores dos dedos e do pé aponta **L5 e S1**. A técnica de graduar a força e pesquisar os reflexos está no tópico de força, tônus e reflexos, com a correspondência completa entre raiz, músculo-chave e reflexo.
 
-  Semiologia Clínica acrescenta uma manobra de consultório que testa esses dois níveis sem martelo nem escala: o **sinal das pontas**. Pede-se ao paciente que caminhe na ponta dos pés e depois sobre os calcanhares. Dificuldade no primeiro movimento aponta comprometimento de **L4/L5**; dificuldade no segundo, de **S1**.
+  Semiologia Clínica acrescenta uma manobra de consultório que testa esses dois níveis sem martelo nem escala: o **sinal das pontas**. Pede-se ao paciente que caminhe na ponta dos pés e depois sobre os calcanhares. Dificuldade em caminhar **na ponta dos pés** aponta comprometimento de **S1**, porque o gesto exige a flexão plantar do tríceps sural; dificuldade **nos calcanhares** aponta **L4/L5**, porque o gesto exige a dorsiflexão. Vale registrar uma divergência interna da própria obra: o texto do capítulo de lombalgia traz o pareamento invertido, mas a sua Tabela 2 de níveis motores atribui a **dorsiflexão do tornozelo a L4**, a extensão do hálux a L5 e a **flexão plantar (tríceps sural) a S1**, e é essa fisiologia, coerente com a literatura, que o guia adota.
 
   **3. Comprimindo as superfícies articulares.** Porto descreve: pressiona-se **para baixo a cabeça** do paciente, de preferência sentado. É o mesmo princípio da **manobra de Spurling** descrita por Semiologia Clínica, em que a flexão lateral da cabeça é somada à pressão sobre o vértice, sendo o teste positivo quando os sintomas radiculares aumentam.
 
@@ -308,7 +308,7 @@ nome: Sinal das pontas
 descricao: |
   Manobra de consultório que testa os níveis lombossacros **sem martelo nem escala**: pede-se ao paciente que **caminhe na ponta dos pés** e depois **sobre os calcanhares**.
 significado: |
-  A topografia da dificuldade **localiza o nível** do comprometimento radicular: segundo Semiologia Clínica, dificuldade no primeiro movimento aponta **L4/L5** e, no segundo, **S1**. É triagem motora dos membros inferiores embutida em dois passos de marcha; a graduação formal da força e os reflexos moram no tópico de força, tônus e reflexos.
+  A topografia da dificuldade **localiza o nível** do comprometimento radicular: dificuldade **na ponta dos pés** aponta **S1**, porque o gesto exige a flexão plantar do tríceps sural; dificuldade **nos calcanhares** aponta **L4/L5**, porque exige a dorsiflexão. O texto de Semiologia Clínica traz o pareamento invertido, mas a Tabela 2 da própria obra e a fisiologia sustentam esta leitura, que o guia adota. É triagem motora dos membros inferiores embutida em dois passos de marcha; a graduação formal da força e os reflexos moram no tópico de força, tônus e reflexos.
 causas:
   - "Radiculopatia lombossacra (hérnia discal, compressão radicular)"
 :::

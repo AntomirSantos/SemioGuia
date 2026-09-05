@@ -755,3 +755,24 @@ passagem na fonte; se houver ajuste, tópico e verbete mudam juntos.
 O piso do teste automatizado do plantão subiu de 90 para 180 verbetes, e o
 README passou a registrar 186. Como sempre, vale uma leitura de amostragem
 dos verbetes novos como parte da revisão.
+
+
+## Complemento (v1.2.20): sinal das pontas corrigido, com a divergência da fonte registrada
+
+O ponto flagrado no complemento anterior foi verificado em duas frentes e
+resolvido. Na literatura externa, o pareamento é unânime: caminhar na ponta
+dos pés exige a flexão plantar (tríceps sural) e testa S1; caminhar nos
+calcanhares exige a dorsiflexão e testa L4/L5. E a verificação direta na
+Semiologia Clínica (cap. 46, Lombalgia e cervicalgia) mostrou que a obra se
+contradiz internamente: o parágrafo do sinal das pontas escreve o pareamento
+invertido (ponta dos pés levando a L4/L5 e calcanhares a S1), mas a Tabela 2
+do mesmo capítulo, de níveis motores, atribui a dorsiflexão do tornozelo a
+L4, a extensão do hálux a L5 e a flexão plantar (tríceps sural) a S1, em
+linha com a fisiologia e com a literatura.
+
+Seguindo o precedente do livedo reticular (v1.2.3), o guia adotou a versão
+consistente: tópico de coluna vertebral e verbete do plantão foram
+corrigidos juntos, e ambos agora registram a divergência interna da obra em
+vez de silenciá-la. Se preferir manter a letra do parágrafo original da
+fonte, é reverter dois trechos; a recomendação editorial é manter a
+correção.

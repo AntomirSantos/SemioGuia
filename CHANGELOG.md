@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.20 (2026-09-05)
+
+- Sinal das pontas corrigido: caminhar na ponta dos pés testa S1 (flexão plantar) e nos calcanhares testa L4/L5 (dorsiflexão)
+- A verificação na fonte mostrou contradição interna: o parágrafo do capítulo de lombalgia inverte o pareamento que a Tabela 2 da mesma obra sustenta
+- Tópico da coluna e verbete do plantão mudaram juntos, com a divergência registrada no texto e no adendo para o autor
+
 ## 1.2.19 (2026-09-05)
 
 - O plantão está completo: 186 verbetes, com os 86 que faltavam escritos a partir do texto revisado dos tópicos
