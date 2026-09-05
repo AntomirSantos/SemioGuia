@@ -31,7 +31,7 @@ como "Revisado" no app.
 | Checklists OSCE | **53** (viram estações de prática) |
 | Ilustrações SVG | **59** (temáveis via `currentColor`, geometria verificada; cobertura em `npm run relatorio:ilustracoes`) |
 | Sons de ausculta | **20** (17 sintetizados por script + 3 gravações clínicas reais CC BY 4.0) |
-| Testes | **60 suítes / 450 testes** verdes |
+| Testes | **60 suítes / 453 testes** verdes |
 
 ## Stack
 
@@ -76,11 +76,11 @@ npm run checar:travessao`, toda RV em prosa precisa da
   em seções navegáveis (essencial → técnica → avançado) com tabelas de
   evidência, manobras passo a passo, pérolas (pull-quotes), armadilhas
   e ilustrações
-- **Busca**: offline, por sinal, manobra, epônimo ou tópico
-- **Modo plantão**: "achei um sinal no exame, e agora?": 186 verbetes
+- **Busca**: offline; sinais e checklists são resultados de primeira classe e abrem o tópico na parte certa
+- **Modo plantão** (aba própria): "achei um sinal no exame, e agora?": 186 verbetes
   `sinal` derivados do conteúdo revisado, agrupados por sistema, com busca
   instantânea, destaques em negrito e o salto ao tópico de origem
-- **Checklists de exame**: os 53 roteiros do guia em uma tela própria,
+- **Checklists de exame** (aba própria): os 53 roteiros do guia,
   organizados por sistema, com itens marcáveis para conferir o que faltou
 - **Estudar**: quiz por sistema, revisão espaçada do dia (SM-2),
   estações OSCE geradas dos checklists e os 3 casos clínicos ramificados

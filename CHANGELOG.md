@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.22 (2026-09-05)
+
+- Plantão e Checklists ganharam abas próprias na barra de navegação, saindo da aba Guia
+- A busca ficou incisiva: digitar Blumberg agora traz o próprio Sinal de Blumberg (e os checklists também aparecem), não só o título do tópico
+- Do plantão, dos checklists e da busca, o tópico abre exatamente na parte do material que fala do achado
+
 ## 1.2.21 (2026-09-05)
 
 - Tela nova de checklists: os 53 roteiros de exame do guia em um só lugar, por sistema, com itens marcáveis para conferir o que faltou

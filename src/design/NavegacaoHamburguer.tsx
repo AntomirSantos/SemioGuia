@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import { router, usePathname } from 'expo-router';
-import { BookOpen, GraduationCap, Menu, Search, User, type LucideIcon } from 'lucide-react-native';
+import { BookOpen, GraduationCap, ListChecks, Menu, Search, Stethoscope, User, type LucideIcon } from 'lucide-react-native';
 import { useTema } from './ThemeContext';
 import { espaco, fonte, raio, tipo, veu } from './tokens';
 
@@ -9,13 +9,15 @@ const TAMANHO_ICONE = 22;
 const LARGURA_GAVETA = 260;
 
 interface ItemNav {
-  rota: '/' | '/busca' | '/estudar' | '/perfil';
+  rota: '/' | '/plantao' | '/checklists' | '/busca' | '/estudar' | '/perfil';
   titulo: string;
   Icone: LucideIcon;
 }
 
 const ITENS: ItemNav[] = [
   { rota: '/', titulo: 'Guia', Icone: BookOpen },
+  { rota: '/plantao', titulo: 'Plantão', Icone: Stethoscope },
+  { rota: '/checklists', titulo: 'Checklists', Icone: ListChecks },
   { rota: '/busca', titulo: 'Busca', Icone: Search },
   { rota: '/estudar', titulo: 'Estudar', Icone: GraduationCap },
   { rota: '/perfil', titulo: 'Perfil', Icone: User },

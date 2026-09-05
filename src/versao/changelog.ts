@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.22',
+    data: '2026-09-05',
+    linhas: [
+      'Plantão e Checklists ganharam abas próprias na barra de navegação, saindo da aba Guia',
+      'A busca ficou incisiva: digitar Blumberg agora traz o próprio Sinal de Blumberg (e os checklists também aparecem), não só o título do tópico',
+      'Do plantão, dos checklists e da busca, o tópico abre exatamente na parte do material que fala do achado',
+    ],
+  },
+  {
     versao: '1.2.21',
     data: '2026-09-05',
     linhas: [

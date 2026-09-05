@@ -1,6 +1,6 @@
 import { Platform } from 'react-native';
 import { Tabs } from 'expo-router';
-import { BookOpen, GraduationCap, Search, User } from 'lucide-react-native';
+import { BookOpen, GraduationCap, ListChecks, Search, Stethoscope, User } from 'lucide-react-native';
 import { useTema } from '../../design/ThemeContext';
 import { fonte, tipo } from '../../design/tokens';
 import { NavegacaoHamburguer } from '../../design/NavegacaoHamburguer';
@@ -41,6 +41,20 @@ export default function TabsLayout() {
         options={{
           title: 'Guia',
           tabBarIcon: ({ color }) => <BookOpen size={TAMANHO_ICONE} color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="plantao"
+        options={{
+          title: 'Plantão',
+          tabBarIcon: ({ color }) => <Stethoscope size={TAMANHO_ICONE} color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="checklists"
+        options={{
+          title: 'Checklists',
+          tabBarIcon: ({ color }) => <ListChecks size={TAMANHO_ICONE} color={color} />,
         }}
       />
       <Tabs.Screen

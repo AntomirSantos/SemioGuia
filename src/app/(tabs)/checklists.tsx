@@ -2,21 +2,20 @@ import { useEffect, useMemo, useState } from 'react';
 import { Text, TextInput, View } from 'react-native';
 import { router } from 'expo-router';
 import { Check, ChevronDown, ChevronUp, Search } from 'lucide-react-native';
-import { Tela } from '../design/Tela';
-import { Cabecalho } from '../design/Cabecalho';
-import { Rotulo } from '../design/Rotulo';
-import { EntradaAnimada } from '../design/EntradaAnimada';
-import { Pressionavel } from '../design/movimento';
-import { useTema } from '../design/ThemeContext';
-import { espaco, fonte, raio, tipo } from '../design/tokens';
-import { useConteudo } from '../content/ContentContext';
+import { Tela } from '../../design/Tela';
+import { Rotulo } from '../../design/Rotulo';
+import { EntradaAnimada } from '../../design/EntradaAnimada';
+import { Pressionavel } from '../../design/movimento';
+import { useTema } from '../../design/ThemeContext';
+import { espaco, fonte, raio, tipo } from '../../design/tokens';
+import { useConteudo } from '../../content/ContentContext';
 import {
   agruparPorSistema,
   filtrarChecklists,
   listarChecklists,
   type ChecklistDeExame,
-} from '../checklists/listas';
-import { track } from '../analytics/analytics';
+} from '../../checklists/listas';
+import { track } from '../../analytics/analytics';
 
 // Tela de checklists (pedido do autor, 2026-09): todos os roteiros de exame
 // do guia em um só lugar, organizados por sistema na ordem craniocaudal.
@@ -266,12 +265,23 @@ export default function Checklists() {
   }
 
   function abrirTopico(lista: ChecklistDeExame) {
-    router.push(`/topico/${lista.topicoId}`);
+    // A âncora abre o tópico exatamente no bloco deste checklist.
+    router.push(`/topico/${lista.topicoId}?ancora=${encodeURIComponent(`checklist:${lista.titulo}`)}`);
   }
 
   return (
     <Tela>
-      <Cabecalho titulo="Checklists de exame" aoVoltar={() => router.back()} />
+      <Text
+        accessibilityRole="header"
+        style={{
+          fontFamily: fonte.display,
+          fontSize: Math.round(tipo.h2 * escala),
+          color: paleta.tinta,
+          marginBottom: espaco.s,
+        }}
+      >
+        Checklists de exame
+      </Text>
       <Text
         style={{
           fontFamily: fonte.corpo,

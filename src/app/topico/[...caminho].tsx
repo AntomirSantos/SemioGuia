@@ -123,7 +123,27 @@ function particionarSecoes(blocos: Bloco[]): SecaoTopico[] {
   return secoes;
 }
 
-export function TelaTopico({ topicoId }: { topicoId: string }) {
+// Âncora de bloco (`?ancora=sinal:{nome}` ou `checklist:{titulo}`): permite
+// que o plantão, a tela de checklists e a busca abram o tópico exatamente na
+// parte do material que fala do achado, não no topo.
+function blocoCorrespondeAncora(bloco: Bloco, ancora: string): boolean {
+  const separador = ancora.indexOf(':');
+  if (separador < 0) return false;
+  const tipoAlvo = ancora.slice(0, separador);
+  const nomeAlvo = ancora.slice(separador + 1);
+  if (tipoAlvo === 'sinal') return bloco.tipo === 'sinal' && bloco.nome === nomeAlvo;
+  if (tipoAlvo === 'checklist') return bloco.tipo === 'checklist' && bloco.titulo === nomeAlvo;
+  return false;
+}
+
+function secaoDaAncora(secoes: SecaoTopico[], ancora: string): number | null {
+  for (let i = 0; i < secoes.length; i += 1) {
+    if (secoes[i].blocos.some((b) => blocoCorrespondeAncora(b, ancora))) return i;
+  }
+  return null;
+}
+
+export function TelaTopico({ topicoId, ancora }: { topicoId: string; ancora?: string }) {
   const { paleta, escala } = useTema();
   const topico = useTopico(topicoId);
   const sistema = useSistema(topico?.sistemaId ?? '');
@@ -134,17 +154,42 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
   const [secaoAtiva, setSecaoAtiva] = useState(0);
   const [feedbackAberto, setFeedbackAberto] = useState(false);
   const scrollRef = useRef<ScrollView>(null);
+  const alvoAncoraRef = useRef<View>(null);
+  const jaRolouParaAncora = useRef(false);
   const reduzidoMovimento = useReducedMotion();
 
   const secoes = useMemo(() => particionarSecoes(topico?.blocos ?? []), [topico]);
   const totalSecoes = secoes.length;
   const acentoSistema = sistema?.cor;
 
-  // Deep-link ou troca de tópico sempre abre na 1ª seção (spec §3.1): o
-  // estado da seção ativa é local, não persiste entre visitas.
+  // Deep-link ou troca de tópico abre na 1ª seção (spec §3.1), exceto quando
+  // há âncora de bloco: aí a seção inicial é a que contém o bloco pedido.
   useEffect(() => {
-    setSecaoAtiva(0);
-  }, [topicoId]);
+    jaRolouParaAncora.current = false;
+    const secaoAlvo = ancora ? secaoDaAncora(secoes, ancora) : null;
+    setSecaoAtiva(secaoAlvo ?? 0);
+    // `secoes` deriva de `topico`, que muda junto com `topicoId`.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [topicoId, ancora]);
+
+  // Depois que o bloco-alvo mede seu layout, rola até ele. O pequeno atraso
+  // deixa a animação de entrada da seção assentar antes da medição.
+  function rolarParaAncora() {
+    if (jaRolouParaAncora.current) return;
+    jaRolouParaAncora.current = true;
+    setTimeout(() => {
+      const alvo = alvoAncoraRef.current;
+      const scroll = scrollRef.current;
+      if (!alvo || !scroll) return;
+      const noInterno =
+        (scroll as unknown as { getInnerViewNode?: () => number }).getInnerViewNode?.() ?? scroll;
+      (alvo as unknown as {
+        measureLayout: (no: unknown, ok: (x: number, y: number) => void, erro?: () => void) => void;
+      }).measureLayout(noInterno, (_x, y) => {
+        scroll.scrollTo({ y: Math.max(0, y - espaco.m), animated: reduzidoMovimento === false });
+      }, () => {});
+    }, 250);
+  }
 
   // Revisão de fase P1 (central): volta o scroll ao topo a cada troca de
   // seção, sem isso, quem lia até o fim de uma seção longa e tocava
@@ -358,9 +403,17 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
               >
                 {secaoCorrente.titulo}
               </Text>
-              {secaoCorrente.blocos.map((bloco, i) => (
-                <BlocoView key={i} bloco={bloco} onIniciarQuiz={iniciarQuiz} topicoId={topicoId} />
-              ))}
+              {secaoCorrente.blocos.map((bloco, i) => {
+                const alvoDaAncora = ancora != null && blocoCorrespondeAncora(bloco, ancora);
+                if (!alvoDaAncora) {
+                  return <BlocoView key={i} bloco={bloco} onIniciarQuiz={iniciarQuiz} topicoId={topicoId} />;
+                }
+                return (
+                  <View key={i} ref={alvoAncoraRef} onLayout={rolarParaAncora}>
+                    <BlocoView bloco={bloco} onIniciarQuiz={iniciarQuiz} topicoId={topicoId} />
+                  </View>
+                );
+              })}
             </EntradaAnimada>
           ) : null}
 
@@ -416,7 +469,7 @@ export function TelaTopico({ topicoId }: { topicoId: string }) {
 }
 
 export default function TopicoRoute() {
-  const { caminho } = useLocalSearchParams<{ caminho: string | string[] }>();
+  const { caminho, ancora } = useLocalSearchParams<{ caminho: string | string[]; ancora?: string }>();
   const topicoId = Array.isArray(caminho) ? caminho.join('/') : (caminho ?? '');
-  return <TelaTopico topicoId={topicoId} />;
+  return <TelaTopico topicoId={topicoId} ancora={typeof ancora === 'string' && ancora ? ancora : undefined} />;
 }

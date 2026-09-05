@@ -2,17 +2,16 @@ import { useEffect, useMemo, useState } from 'react';
 import { Text, TextInput, View } from 'react-native';
 import { router } from 'expo-router';
 import { ChevronDown, ChevronUp, Search } from 'lucide-react-native';
-import { Tela } from '../design/Tela';
-import { TextoRico } from '../blocos/texto';
-import { Cabecalho } from '../design/Cabecalho';
-import { Rotulo } from '../design/Rotulo';
-import { EntradaAnimada } from '../design/EntradaAnimada';
-import { Pressionavel } from '../design/movimento';
-import { useTema } from '../design/ThemeContext';
-import { espaco, fonte, raio, tipo } from '../design/tokens';
-import { useConteudo } from '../content/ContentContext';
-import { agruparPorSistema, filtrarSinais, listarSinais, type SinalDePlantao } from '../plantao/sinais';
-import { track } from '../analytics/analytics';
+import { Tela } from '../../design/Tela';
+import { TextoRico } from '../../blocos/texto';
+import { Rotulo } from '../../design/Rotulo';
+import { EntradaAnimada } from '../../design/EntradaAnimada';
+import { Pressionavel } from '../../design/movimento';
+import { useTema } from '../../design/ThemeContext';
+import { espaco, fonte, raio, tipo } from '../../design/tokens';
+import { useConteudo } from '../../content/ContentContext';
+import { agruparPorSistema, filtrarSinais, listarSinais, type SinalDePlantao } from '../../plantao/sinais';
+import { track } from '../../analytics/analytics';
 
 // Modo plantão (produto 2026-09): "achei X no exame, e agora?". A resposta
 // vem inteira do conteúdo revisado: cada verbete é um bloco `sinal` de um
@@ -174,12 +173,23 @@ export default function Plantao() {
 
   function abrirTopico(sinal: SinalDePlantao) {
     track('plantao_sinal_aberto', { sinal: sinal.nome, topicoId: sinal.topicoId, termo: termo.trim() });
-    router.push(`/topico/${sinal.topicoId}`);
+    // A âncora abre o tópico exatamente no bloco deste sinal.
+    router.push(`/topico/${sinal.topicoId}?ancora=${encodeURIComponent(`sinal:${sinal.nome}`)}`);
   }
 
   return (
     <Tela>
-      <Cabecalho titulo="Modo plantão" aoVoltar={() => router.back()} />
+      <Text
+        accessibilityRole="header"
+        style={{
+          fontFamily: fonte.display,
+          fontSize: Math.round(tipo.h2 * escala),
+          color: paleta.tinta,
+          marginBottom: espaco.s,
+        }}
+      >
+        Modo plantão
+      </Text>
       <Text
         style={{
           fontFamily: fonte.corpo,

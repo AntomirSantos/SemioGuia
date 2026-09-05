@@ -17,7 +17,17 @@ function RotuloSecao({ texto }: { texto: string }) {
   return <RotuloDeSecao texto={texto} />;
 }
 
-function LinhaResultado({ titulo, sistemaTitulo, onPress }: { titulo: string; sistemaTitulo?: string; onPress: () => void }) {
+function LinhaResultado({
+  titulo,
+  sistemaTitulo,
+  detalhe,
+  onPress,
+}: {
+  titulo: string;
+  sistemaTitulo?: string;
+  detalhe?: string;
+  onPress: () => void;
+}) {
   const { paleta, escala } = useTema();
   return (
     <Pressionavel
@@ -33,6 +43,11 @@ function LinhaResultado({ titulo, sistemaTitulo, onPress }: { titulo: string; si
     >
       {sistemaTitulo ? <Rotulo texto={sistemaTitulo} cor={paleta.tinta2} style={{ marginBottom: 2 }} /> : null}
       <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta }}>{titulo}</Text>
+      {detalhe ? (
+        <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(12 * escala), color: paleta.tinta2, marginTop: 1 }}>
+          {detalhe}
+        </Text>
+      ) : null}
     </Pressionavel>
   );
 }
@@ -70,6 +85,12 @@ export function TelaBusca() {
     // rende um clique (mesma semântica do histórico de buscas recentes),
     // não a cada tecla digitada.
     track('busca_realizada', { termo: termo.trim(), resultados: resultados.length, topicoId: r.topicoId });
+    // Resultado de bloco (sinal ou checklist) abre o tópico já na parte
+    // certa: a âncora diz à tela do tópico onde parar.
+    if (r.ancora) {
+      router.push(`/topico/${r.topicoId}?ancora=${encodeURIComponent(r.ancora)}`);
+      return;
+    }
     abrirTopico(r.topicoId);
   }
 
@@ -113,9 +134,10 @@ export function TelaBusca() {
         resultados.length > 0 ? (
           resultados.map((r) => (
             <LinhaResultado
-              key={r.topicoId}
+              key={r.id}
               titulo={r.titulo}
               sistemaTitulo={r.sistemaTitulo}
+              detalhe={r.tipo === 'topico' ? undefined : `${r.tipo === 'checklist' ? 'Checklist' : 'Sinal'} em ${r.topicoTitulo}`}
               onPress={() => selecionarResultado(r)}
             />
           ))
