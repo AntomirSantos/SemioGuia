@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Text, TextInput, View } from 'react-native';
 import { router } from 'expo-router';
-import { Check, ChevronDown, ChevronUp, Search } from 'lucide-react-native';
+import { ChevronDown, ChevronUp, Search } from 'lucide-react-native';
 import { Tela } from '../../design/Tela';
 import { Rotulo } from '../../design/Rotulo';
 import { EntradaAnimada } from '../../design/EntradaAnimada';
@@ -15,6 +15,7 @@ import {
   listarChecklists,
   type ChecklistDeExame,
 } from '../../checklists/listas';
+import { ItemMarcavel } from '../../checklists/ItemMarcavel';
 import { track } from '../../analytics/analytics';
 
 // Tela de checklists (pedido do autor, 2026-09): todos os roteiros de exame
@@ -25,50 +26,6 @@ import { track } from '../../analytics/analytics';
 
 function chaveDaLista(lista: ChecklistDeExame): string {
   return `${lista.topicoId}:${lista.titulo}`;
-}
-
-function ItemMarcavel({ texto, marcado, onToggle }: { texto: string; marcado: boolean; onToggle: () => void }) {
-  const { paleta, escala } = useTema();
-  const small = Math.round(tipo.small * escala);
-  return (
-    <Pressionavel
-      accessibilityRole="checkbox"
-      accessibilityState={{ checked: marcado }}
-      accessibilityLabel={texto}
-      onPress={onToggle}
-      style={{ flexDirection: 'row', alignItems: 'flex-start', minHeight: 44, paddingVertical: espaco.xs }}
-    >
-      <View
-        style={{
-          width: 22,
-          height: 22,
-          borderRadius: raio.s,
-          borderWidth: 1.5,
-          borderColor: marcado ? paleta.acento : paleta.linha,
-          backgroundColor: marcado ? paleta.acento : 'transparent',
-          alignItems: 'center',
-          justifyContent: 'center',
-          marginRight: espaco.m,
-          marginTop: 2,
-        }}
-      >
-        {marcado ? <Check size={15} color={paleta.superficie} strokeWidth={3} /> : null}
-      </View>
-      <Text
-        android_hyphenationFrequency="full"
-        style={{
-          flex: 1,
-          fontFamily: fonte.corpo,
-          fontSize: small,
-          lineHeight: Math.round(small * 1.5),
-          color: marcado ? paleta.tinta2 : paleta.tinta,
-          textAlign: 'justify',
-        }}
-      >
-        {texto}
-      </Text>
-    </Pressionavel>
-  );
 }
 
 // O checklist aberto: itens marcáveis, o placar do que falta e o salto ao
@@ -332,6 +289,40 @@ export default function Checklists() {
         cor={paleta.tinta2}
         style={{ marginBottom: espaco.m }}
       />
+
+      {!buscando ? (
+        <Pressionavel
+          accessibilityRole="button"
+          onPress={() => router.push('/exame-completo')}
+          style={{
+            flexDirection: 'row',
+            alignItems: 'center',
+            minHeight: 44,
+            paddingVertical: espaco.s,
+            borderBottomWidth: 1,
+            borderBottomColor: paleta.linha,
+            marginBottom: espaco.l,
+          }}
+        >
+          <View style={{ width: 8, height: 34, backgroundColor: paleta.acento, marginRight: espaco.m }} />
+          <View style={{ flex: 1 }}>
+            <Text
+              style={{
+                fontFamily: fonte.display,
+                fontSize: Math.round(tipo.h3 * escala),
+                lineHeight: Math.round(tipo.h3 * escala * 1.25),
+                color: paleta.tinta,
+              }}
+            >
+              Exame completo da cabeça aos pés
+            </Text>
+            <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(12 * escala), color: paleta.tinta2, marginTop: 2 }}>
+              Os {listas.length} checklists em sequência, com relatório do que faltou
+            </Text>
+          </View>
+          <ChevronDown size={18} color={paleta.tinta2} style={{ marginLeft: espaco.s, transform: [{ rotate: '-90deg' }] }} />
+        </Pressionavel>
+      ) : null}
 
       {grupos.map((grupo) => (
         <View key={grupo.sistemaTitulo} style={{ marginBottom: espaco.l }}>

@@ -16,6 +16,8 @@ export const EVENTOS = [
   'plantao_sinal_aberto',
   'checklists_aberto',
   'checklist_concluido',
+  'exame_completo_aberto',
+  'exame_completo_encerrado',
 ] as const;
 
 export type EventoAnalytics = (typeof EVENTOS)[number];

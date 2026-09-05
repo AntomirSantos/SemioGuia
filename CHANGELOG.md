@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.23 (2026-09-05)
+
+- Exame completo da cabeça aos pés: os 53 checklists em sequência única, com relatório final do que ficou de fora
+- A busca ignora acentos dos dois lados e aprendeu os apelidos de enfermaria: rebote, punhopercussão, clubbing, wheezing, estase jugular e dezenas de outros
+- Cada item esquecido no relatório leva direto à parte do tópico que o ensina
+
 ## 1.2.22 (2026-09-05)
 
 - Plantão e Checklists ganharam abas próprias na barra de navegação, saindo da aba Guia

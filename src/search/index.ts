@@ -1,6 +1,18 @@
 import MiniSearch from 'minisearch';
 import { listarTodosTopicos, obterSistema } from '../content/store';
+import { APELIDOS_DE_SINAIS } from './apelidos';
 import type { Conteudo } from '../content/schema';
+
+// Busca insensível a acento (pedido do autor, 2026-09): o mesmo
+// processamento vale para indexação e consulta, então "punhopercussao"
+// encontra "punhopercussão" e vice-versa.
+function processarTermo(termo: string): string | null {
+  const limpo = termo
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+  return limpo.length > 0 ? limpo : null;
+}
 
 // Busca offline do app. Além dos tópicos (título + tags), o índice carrega
 // um documento por bloco `sinal` e por bloco `checklist`: quem digita
@@ -39,9 +51,11 @@ export function criarIndice(c: Conteudo): MiniSearch<DocBusca> {
   const indice = new MiniSearch<DocBusca>({
     fields: ['titulo', 'tags', 'corpo', 'sistemaTitulo'],
     storeFields: ['tipo', 'titulo', 'topicoId', 'topicoTitulo', 'sistemaId', 'sistemaTitulo', 'ancora'],
+    processTerm: processarTermo,
     // O nome pesa mais que tags e corpo: "Blumberg" deve trazer o sinal de
-    // Blumberg à frente do tópico que só o cita.
-    searchOptions: { prefix: true, fuzzy: 0.2, boost: { titulo: 3, tags: 1.5 } },
+    // Blumberg à frente do tópico que só o cita. O processTerm da consulta
+    // repete o da indexação, tirando os acentos dos dois lados.
+    searchOptions: { prefix: true, fuzzy: 0.2, boost: { titulo: 3, tags: 1.5 }, processTerm: processarTermo },
   });
   const docs: DocBusca[] = [];
   for (const t of listarTodosTopicos(c)) {
@@ -63,7 +77,8 @@ export function criarIndice(c: Conteudo): MiniSearch<DocBusca> {
           id: `sinal|${t.id}|${bloco.nome}`,
           tipo: 'sinal',
           titulo: bloco.nome,
-          tags: '',
+          // Apelidos de enfermaria, siglas e nomes em inglês: só para busca.
+          tags: (APELIDOS_DE_SINAIS[bloco.nome] ?? []).join(' '),
           // Descrição e causas entram como corpo, com peso menor: recall
           // para quem busca pelo fenômeno ("dor à descompressão") e não
           // pelo epônimo.

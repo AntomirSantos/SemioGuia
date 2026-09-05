@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.23',
+    data: '2026-09-05',
+    linhas: [
+      'Exame completo da cabeça aos pés: os 53 checklists em sequência única, com relatório final do que ficou de fora',
+      'A busca ignora acentos dos dois lados e aprendeu os apelidos de enfermaria: rebote, punhopercussão, clubbing, wheezing, estase jugular e dezenas de outros',
+      'Cada item esquecido no relatório leva direto à parte do tópico que o ensina',
+    ],
+  },
+  {
     versao: '1.2.22',
     data: '2026-09-05',
     linhas: [

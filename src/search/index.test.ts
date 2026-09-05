@@ -64,3 +64,16 @@ test('acha checklist pelo título, com âncora própria', () => {
   const check = r.find((x) => x.tipo === 'checklist');
   expect(check?.ancora).toBe('checklist:Exame do abdome em 10 passos');
 });
+
+test('busca sem acento acha termo acentuado, e vice-versa', () => {
+  const c = carregarConteudo(dados);
+  const i = criarIndice(c);
+  expect(buscar(i, 'descompressao').some((x) => x.titulo === 'Sinal de Blumberg')).toBe(true);
+  expect(buscar(i, 'colecistite aguda').length).toBeGreaterThan(0);
+});
+
+test('apelido de enfermaria acha o verbete (rebote, DB)', () => {
+  const c = carregarConteudo(dados);
+  const i = criarIndice(c);
+  expect(buscar(i, 'rebote')[0]?.titulo).toBe('Sinal de Blumberg');
+});
