@@ -13,6 +13,17 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.24',
+    data: '2026-09-05',
+    linhas: [
+      'O texto agora afirma direto, sem citar as obras no corpo dos tópicos e casos; a bibliografia completa vive na aba Perfil',
+      'Nove casos clínicos novos, um por sistema: derrame pleural, apendicite, meningite, isquemia aguda, joelho agudo, nódulo cervical, escroto agudo, delirium e a consulta de anamnese (total: 12)',
+      'A revisão espaçada ganhou flashcards dos 186 sinais do plantão, semeados ao marcar o tópico como estudado',
+      'O player de ausculta ganhou um fonocardiograma: o desenho do som acompanha o que você ouve',
+      'Estertores finos e grossos agora são gravações clínicas reais (dataset aberto HF_Lung_V1, CC BY 4.0)',
+    ],
+  },
+  {
     versao: '1.2.23',
     data: '2026-09-05',
     linhas: [

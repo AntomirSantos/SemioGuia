@@ -281,7 +281,7 @@ titulo: Onde este tópico encontra os outros
 texto: |
   - **A entrevista clínica** e **Antecedentes e hábitos**, no sistema Anamnese, carregam as técnicas de entrevista, o manejo do acompanhante que responde pelo paciente e os antecedentes fisiológicos com os marcos gerais do desenvolvimento: aqui entra só o que é próprio da criança.
   - **Fundamentos do exame psíquico** adiou para cá o exame psíquico da criança e do adolescente com a entrevista com os pais: o bloco avançado deste tópico paga esse adiamento, e devolve as funções psíquicas ao sistema que as ensina.
-  - **Exame das mamas** e **Exame ginecológico** já carregam, pelo capítulo 119 da *Semiologia Médica*, o exame da adolescente com acompanhante-assistente; este tópico generaliza a regra pelo capítulo 180.
+  - **Exame das mamas** e **Exame ginecológico** já carregam o exame da adolescente com acompanhante-assistente; este tópico generaliza a regra para todo exame do adolescente.
   - **Crescimento, sinais vitais e hidratação**, o próximo tópico, recebe a antropometria da criança e as faixas de frequência cardíaca e respiratória por idade, inclusive as fontanelas e a pressão arterial que a sequência oportunista manda examinar antes do choro.
   - **Do recém-nascido ao adolescente**, o último tópico do capítulo, recebe o exame físico por fases etárias: o recém-nascido e seus reflexos, o quadril, a puberdade e os estágios de Tanner.
   - O caso clínico **Febre em uma criança de 3 anos**, no modo de casos do guia, exercita exatamente a lição deste tópico: o estado geral decide mais que o número do termômetro.
@@ -303,7 +303,7 @@ texto: |
 :::
 
 ::: perola
-texto: "A Semiologia Médica ensina que, na dúvida sobre a genitália do recém-nascido, não se declara o sexo até a avaliação completa. É talvez o exemplo mais nítido de uma habilidade que atravessa toda a semiologia pediátrica: saber quando a resposta correta da consulta é ainda não responder."
+texto: "Na dúvida sobre a genitália do recém-nascido, não se declara o sexo até a avaliação completa. É talvez o exemplo mais nítido de uma habilidade que atravessa toda a semiologia pediátrica: saber quando a resposta correta da consulta é ainda não responder."
 :::
 
 ::: relampago
@@ -323,7 +323,7 @@ desfecho: |
 ::: resumo
 linhas:
   - "O paciente não fala: a história chega por um tradutor que às vezes traduz mal, e observar a relação mãe-criança já é exame."
-  - "As etapas de Porto organizam o capítulo: recém-nascido, lactente, pré-escolar, escolar e adolescente, cada uma com sua abordagem."
+  - "As etapas da infância organizam o capítulo: recém-nascido, lactente, pré-escolar, escolar e adolescente, cada uma com sua abordagem."
   - "Quem consente é o responsável; quem assente, na medida da idade, é a criança, e a doçura aqui é condição técnica."
 :::
 
@@ -334,23 +334,23 @@ titulo: Teste rápido
 ::: quiz
 perguntas:
   - id: cri-abord-1
-    enunciado: Durante a anamnese de um lactente, a avó afirma que ele "está com dor de ouvido porque chora muito". Como as obras de Porto orientam o manejo dessa informação?
+    enunciado: Durante a anamnese de um lactente, a avó afirma que ele "está com dor de ouvido porque chora muito". Como se deve orientar o manejo dessa informação?
     alternativas:
       - "Reconhecê-la como interpretação do informante (pais e avós tendem a traduzir as manifestações da criança em vez de relatá-las) e retornar às observações objetivas: o que a criança fez, quando e em que circunstâncias"
       - "Aceitá-la como queixa principal e registrá-la textualmente no prontuário, pois o informante adulto é a fonte legal e definitiva da anamnese pediátrica, e questionar o relato da família comprometeria a relação médico-família de que depende a adesão ao tratamento"
       - "Descartá-la, porque somente informações fornecidas pela mãe têm valor na anamnese da criança pequena"
       - "Encaminhar de imediato ao otorrinolaringologista, já que choro persistente em lactente indica otite até prova em contrário"
     corretaIndex: 0
-    explicacao: "A Semiologia Médica descreve a armadilha no capítulo de anamnese: pais, e sobretudo avós, preferem 'interpretar' o que a criança manifesta a relatá-lo com objetividade, e deduzem a dor de ouvido de indícios muito frágeis. O capítulo 179 dá o exemplo espelhado: a 'dor' relatada pela mãe do recém-nascido que era fome, posto ao seio, o bebê saciou-se e dormiu. A conduta não é descartar o informante (a anamnese é feita por interposta pessoa, e qualquer convivente pode informar), e sim converter interpretações em observações."
+    explicacao: "A armadilha é conhecida: pais, e sobretudo avós, preferem 'interpretar' o que a criança manifesta a relatá-lo com objetividade, e deduzem a dor de ouvido de indícios muito frágeis. O exemplo espelhado: a 'dor' relatada pela mãe do recém-nascido que era fome, posto ao seio, o bebê saciou-se e dormiu. A conduta não é descartar o informante (a anamnese é feita por interposta pessoa, e qualquer convivente pode informar), e sim converter interpretações em observações."
   - id: cri-abord-2
-    enunciado: Você vai examinar um lactente tranquilo, ainda sem chorar, trazido para consulta de rotina. Qual sequência o capítulo 179 recomenda?
+    enunciado: Você vai examinar um lactente tranquilo, ainda sem chorar, trazido para consulta de rotina. Qual sequência é recomendada?
     alternativas:
       - "A sequência clássica craniocaudal, que não deve ser alterada para não perder sistemas"
       - "Começar pela orofaringe e pela otoscopia, eliminando logo os procedimentos desagradáveis"
       - "Aguardar o choro, que facilita todo o exame por produzir inspirações profundas"
       - "Antecipar o que o choro compromete: ausculta cardíaca, frequências respiratória e cardíaca, tensão do abdome, fontanelas e pressão arterial, e deixar os procedimentos temidos ou dolorosos para o fim, previamente informados"
     corretaIndex: 3
-    explicacao: "Porto autoriza modificar a sequência clássica da semiologia para garantir o exame de cada sistema no melhor momento: se a criança ainda não chora, avaliam-se primeiro os itens que o choro estraga, ausculta cardíaca (sopro não se caracteriza bem no choro), FC, FR, tensão do abdome, fontanelas e PA. O choro ajuda apenas a ausculta pulmonar do lactente, pelas inspirações profundas (não o restante). Os procedimentos temidos ficam para o fim, informados antes, e nem os pais nem a criança podem suprimi-los."
+    explicacao: "É autorizado modificar a sequência clássica da semiologia para garantir o exame de cada sistema no melhor momento: se a criança ainda não chora, avaliam-se primeiro os itens que o choro estraga, ausculta cardíaca (sopro não se caracteriza bem no choro), FC, FR, tensão do abdome, fontanelas e PA. O choro ajuda apenas a ausculta pulmonar do lactente, pelas inspirações profundas (não o restante). Os procedimentos temidos ficam para o fim, informados antes, e nem os pais nem a criança podem suprimi-los."
   - id: cri-abord-3
     enunciado: Os pais de um menino de 4 anos estranham que ele ainda troque letras ao falar ("potão" por portão), embora o discurso seja compreensível. O que as fontes dizem sobre esse achado?
     alternativas:
@@ -359,32 +359,32 @@ perguntas:
       - "Trocas de letras só são normais até os 2 anos, idade em que toda a fala deve ser inteligível"
       - "É um distúrbio da fluência, do mesmo grupo da gagueira, e deve ser tratado como tal"
     corretaIndex: 1
-    explicacao: "O Exame Clínico define a dislalia fisiológica (troca ou supressão de sílabas ou letras, como 'potão' por portão) como achado normal até os 4 anos. O capítulo 179 dá os marcos de inteligibilidade: aos 2 anos, cerca de metade da fala deve ser compreensível; aos 4, quase toda. O menino descrito está no limite da normalidade, não em atraso global, e dislalia é distúrbio de articulação, não de fluência."
+    explicacao: "A dislalia fisiológica (troca ou supressão de sílabas ou letras, como 'potão' por portão) é achado normal até os 4 anos. Os marcos de inteligibilidade: aos 2 anos, cerca de metade da fala deve ser compreensível; aos 4, quase toda. O menino descrito está no limite da normalidade, não em atraso global, e dislalia é distúrbio de articulação, não de fluência."
   - id: cri-abord-4
-    enunciado: Uma adolescente de 15 anos revela, no momento a sós da consulta, ideação suicida estruturada, e pede segredo absoluto. Qual é a conduta, segundo o capítulo 180 e Semiologia Clínica?
+    enunciado: Uma adolescente de 15 anos revela, no momento a sós da consulta, ideação suicida estruturada, e pede segredo absoluto. Qual é a conduta correta?
     alternativas:
       - "Manter o sigilo integral, pois a confidencialidade do adolescente é direito garantido pelo Código de Ética Médica"
       - "Comunicar imediatamente os responsáveis em separado, sem informar a adolescente da conversa, porque avisá-la antes poderia agravar o risco, precipitar o ato e comprometer a vigilância da família sobre os meios disponíveis em casa"
       - "Quebrar o sigilo por se tratar de risco de vida, informando a adolescente da quebra e de seus motivos, e, sempre que possível, comunicando os responsáveis na presença dela"
       - "Condicionar a quebra do sigilo à autorização por escrito da adolescente"
     corretaIndex: 2
-    explicacao: "A confidencialidade é a regra (art. 74 do Código de Ética Médica; ECA, art. 7º), mas as duas obras listam as exceções: risco de vida para si, a intenção suicida é o exemplo nomeado, ou para terceiros, gravidez, aborto, drogadição, não adesão e doenças graves. Nesses casos o sigilo se quebra mesmo sem o consentimento do adolescente, mas com rito: informá-lo primeiro, justificar os motivos e, se possível, comunicar o responsável na presença dele. Sigilo absoluto e comunicação às escondidas erram nos dois sentidos."
+    explicacao: "A confidencialidade é a regra (art. 74 do Código de Ética Médica; ECA, art. 7º), mas as exceções estão listadas: risco de vida para si, a intenção suicida é o exemplo nomeado, ou para terceiros, gravidez, aborto, drogadição, não adesão e doenças graves. Nesses casos o sigilo se quebra mesmo sem o consentimento do adolescente, mas com rito: informá-lo primeiro, justificar os motivos e, se possível, comunicar o responsável na presença dele. Sigilo absoluto e comunicação às escondidas erram nos dois sentidos."
   - id: cri-abord-5
-    enunciado: Em consulta psiquiátrica de uma criança de 5 anos, que preparo prévio a Semiologia Médica recomenda à família?
+    enunciado: Em consulta psiquiátrica de uma criança de 5 anos, que preparo prévio se recomenda à família?
     alternativas:
       - "Não avisar a criança sobre a consulta, para que a observação do comportamento espontâneo no consultório não seja contaminada pela expectativa criada em casa nem pelos ensaios de resposta que os pais poderiam induzir nos dias anteriores ao exame"
       - "Avisá-la apenas no caminho do consultório, evitando ansiedade antecipatória prolongada"
       - "Dizer que se trata de um passeio, revelando o destino somente na chegada"
       - "Avisá-la 1 a 2 dias antes, com explicações simples e adequadas à idade, dizendo que é uma consulta diferente, com um médico cujo interesse é conhecê-la e ajudá-la nas dificuldades que houver"
     corretaIndex: 3
-    explicacao: "A seção de exame psíquico da criança do capítulo 176 recomenda o aviso com 1 a 2 dias de antecedência, com explicações simples e claras conforme a idade, e que os pais apresentem a consulta como um encontro diferente, com um médico interessado essencialmente em conhecê-la. No consultório, o médico oferece jogos, desenho e brinquedos, deixando a criança escolher entre brincar e conversar. Esconder o destino ou avisar em cima da hora mina a confiança que o exame precisa construir, e até os 5 ou 6 anos a criança avisada costuma falar de sua vida com naturalidade."
+    explicacao: "Recomenda-se o aviso com 1 a 2 dias de antecedência, com explicações simples e claras conforme a idade, e que os pais apresentem a consulta como um encontro diferente, com um médico interessado essencialmente em conhecê-la. No consultório, o médico oferece jogos, desenho e brinquedos, deixando a criança escolher entre brincar e conversar. Esconder o destino ou avisar em cima da hora mina a confiança que o exame precisa construir, e até os 5 ou 6 anos a criança avisada costuma falar de sua vida com naturalidade."
   - id: cri-abord-6
-    enunciado: Uma mulher que se apresenta como vizinha traz uma criança de 2 anos, sem os pais, para atendimento não urgente. Além de colher a anamnese, o que a Semiologia Médica orienta verificar?
+    enunciado: Uma mulher que se apresenta como vizinha traz uma criança de 2 anos, sem os pais, para atendimento não urgente. Além de colher a anamnese, o que se deve verificar?
     alternativas:
       - "Nada além da anamnese: qualquer adulto que conviva com a criança é informante válido e suficiente"
       - "A documentação e a autorização do acompanhante que não é parente próximo, a coerência das informações que ele fornece sobre a criança e o comportamento dela diante dele: medo, choro ou aparência assustada"
       - "Apenas o cartão vacinal, que comprova o vínculo do acompanhante com a criança"
       - "A recusa do atendimento até a chegada dos pais e o acionamento do serviço social, pois o exame clínico de qualquer criança sem a presença física do pai, da mãe ou do responsável legal é vedado em todas as circunstâncias, inclusive nas consultas não urgentes"
     corretaIndex: 1
-    explicacao: "A Semiologia Médica reproduz as dicas de segurança do CFM diante do número de crianças desaparecidas: criança acompanhada por quem não é pai, mãe ou parente próximo pede documentação e autorização por escrito; informações desencontradas ou o desconhecimento de dados básicos da criança levantam suspeita; e o comportamento da criança com o acompanhante (medo, choro, aparência assustada) é dado de exame. O vizinho pode de fato informar a anamnese (a obra o cita como informante possível), mas isso não dispensa as verificações, e recusar sumariamente o atendimento não é a orientação."
+    explicacao: "Valem as dicas de segurança do CFM diante do número de crianças desaparecidas: criança acompanhada por quem não é pai, mãe ou parente próximo pede documentação e autorização por escrito; informações desencontradas ou o desconhecimento de dados básicos da criança levantam suspeita; e o comportamento da criança com o acompanhante (medo, choro, aparência assustada) é dado de exame. O vizinho pode de fato informar a anamnese (é citado como informante possível), mas isso não dispensa as verificações, e recusar sumariamente o atendimento não é a orientação."
 :::

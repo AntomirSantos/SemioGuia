@@ -3,6 +3,14 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.24 (2026-09-05)
+
+- O texto agora afirma direto, sem citar as obras no corpo dos tópicos e casos; a bibliografia completa vive na aba Perfil
+- Nove casos clínicos novos, um por sistema: derrame pleural, apendicite, meningite, isquemia aguda, joelho agudo, nódulo cervical, escroto agudo, delirium e a consulta de anamnese (total: 12)
+- A revisão espaçada ganhou flashcards dos 186 sinais do plantão, semeados ao marcar o tópico como estudado
+- O player de ausculta ganhou um fonocardiograma: o desenho do som acompanha o que você ouve
+- Estertores finos e grossos agora são gravações clínicas reais (dataset aberto HF_Lung_V1, CC BY 4.0)
+
 ## 1.2.23 (2026-09-05)
 
 - Exame completo da cabeça aos pés: os 53 checklists em sequência única, com relatório final do que ficou de fora
