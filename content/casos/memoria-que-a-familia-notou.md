@@ -3,6 +3,7 @@ id: memoria-que-a-familia-notou
 titulo: A memória que a família notou primeiro
 contexto: "Ambulatório de clínica geral. Uma mulher de 76 anos vem trazida pelo filho, que diz que ela 'está esquecida'. Ela discorda, e afirma que está bem. O filho conta que ela repete as mesmas perguntas, deixou de pagar contas que sempre pagou e se perdeu voltando de um endereço conhecido."
 tags: [psiquico, memoria, demencia, depressao]
+cenario: ambulatorio
 topicosDeApoio:
   - exame-psiquico/exame-psiquico/delirium-demencia-e-depressao
   - exame-psiquico/exame-psiquico/escalas-cognitivas-a-beira-do-leito

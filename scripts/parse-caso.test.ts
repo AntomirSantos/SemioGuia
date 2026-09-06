@@ -24,6 +24,7 @@ id: caso-teste
 titulo: Caso de teste
 contexto: Você é o interno.
 tags: []
+cenario: urgencia
 topicosDeApoio: [a/b/c]
 referencias: ["Ref"]
 revisao: pendente
@@ -50,6 +51,7 @@ id: caso-teste
 titulo: Caso de teste
 contexto: Você é o interno.
 tags: []
+cenario: urgencia
 topicosDeApoio: [a/b/c]
 referencias: ["Ref"]
 revisao: pendente

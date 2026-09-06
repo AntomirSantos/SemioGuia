@@ -3,6 +3,7 @@ id: caroco-no-pescoco
 titulo: O caroço que subiu com o gole
 contexto: "Ambulatório de clínica geral. Uma mulher de 52 anos senta e vai direto ao ponto: 'apareceu um caroço no meu pescoço faz umas cinco semanas'. Não dói, não cresceu a olho, e a filha insistiu para ela vir."
 tags: [cabeca e pescoco, tireoide, nodulo cervical, linfonodos]
+cenario: ambulatorio
 topicosDeApoio:
   - cabeca-e-pescoco/exame-de-cabeca-e-pescoco/tireoide-e-pescoco
   - exame-fisico-geral/avaliacao-geral/linfonodos

@@ -25036,6 +25036,7 @@
     "desidratacao",
     "respiracao"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "exame-fisico-geral/avaliacao-geral/antropometria-e-hidratacao",
     "exame-fisico-geral/sinais-vitais/temperatura-e-frequencia-respiratoria",
@@ -25212,6 +25213,7 @@
     "gravidez ectopica",
     "hemorragia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "abdome/exame-do-abdome/abdome-agudo-e-sinais-peritoneais",
     "mamas-e-geniturinario/exame-geniturinario-e-retal/exame-ginecologico",
@@ -25383,6 +25385,7 @@
     "perfuracao",
     "peritonite"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "abdome/exame-do-abdome/abdome-agudo-e-sinais-peritoneais",
     "abdome/exame-do-abdome/percussao-do-abdome",
@@ -25545,6 +25548,7 @@
     "obstrucao intestinal",
     "percussao"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "abdome/exame-do-abdome/inspecao-e-ausculta-do-abdome",
     "abdome/exame-do-abdome/percussao-do-abdome",
@@ -25710,6 +25714,7 @@
     "curva de peso",
     "puericultura"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "semiologia-da-crianca/exame-da-crianca/crescimento-sinais-vitais-e-hidratacao",
     "semiologia-da-crianca/exame-da-crianca/abordagem-e-anamnese-da-crianca",
@@ -25887,6 +25892,7 @@
     "choque",
     "hidratacao"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "semiologia-da-crianca/exame-da-crianca/crescimento-sinais-vitais-e-hidratacao",
     "semiologia-da-crianca/exame-da-crianca/abordagem-e-anamnese-da-crianca",
@@ -26064,6 +26070,7 @@
     "janela terapeutica",
     "forca"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "sistema-nervoso/exame-neurologico/forca-tonus-e-reflexos",
     "sistema-nervoso/exame-neurologico/pares-cranianos-vii-a-xii",
@@ -26235,6 +26242,7 @@
     "manguito rotador",
     "manobras"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "sistema-osteoarticular/exame-osteoarticular/ombro-e-cotovelo",
     "sistema-osteoarticular/exame-osteoarticular/principios-do-exame-osteoarticular",
@@ -26399,6 +26407,7 @@
     "palidez",
     "mucosas"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros",
     "exame-fisico-geral/avaliacao-geral/ectoscopia",
@@ -26564,6 +26573,7 @@
     "exame das mamas",
     "ambulatorial"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "mamas-e-geniturinario/exame-das-mamas/nodulo-mamario-e-descarga-papilar",
     "mamas-e-geniturinario/exame-das-mamas/exame-das-mamas",
@@ -26734,6 +26744,7 @@
     "nodulo cervical",
     "linfonodos"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "cabeca-e-pescoco/exame-de-cabeca-e-pescoco/tireoide-e-pescoco",
     "exame-fisico-geral/avaliacao-geral/linfonodos"
@@ -26883,6 +26894,7 @@
     "tecnica de entrevista",
     "agenda oculta"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "anamnese/entrevista-clinica/a-entrevista-clinica",
     "anamnese/entrevista-clinica/queixa-principal-e-hda"
@@ -27048,6 +27060,7 @@
     "convulsao",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "sistema-nervoso/exame-neurologico/consciencia-e-estado-mental",
     "sistema-nervoso/exame-neurologico/forca-tonus-e-reflexos",
@@ -27218,6 +27231,7 @@
     "tireoide",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "cabeca-e-pescoco/exame-de-cabeca-e-pescoco/tireoide-e-pescoco",
     "exame-fisico-geral/sinais-vitais/temperatura-e-frequencia-respiratoria",
@@ -27388,6 +27402,7 @@
     "via aerea",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "semiologia-da-crianca/exame-da-crianca/do-recem-nascido-ao-adolescente",
     "semiologia-da-crianca/exame-da-crianca/abordagem-e-anamnese-da-crianca",
@@ -27563,6 +27578,7 @@
     "sinais vitais",
     "pressão arterial"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "exame-fisico-geral/sinais-vitais/pressao-arterial",
     "exame-fisico-geral/sinais-vitais/frequencia-cardiaca-e-pulso"
@@ -27806,6 +27822,7 @@
     "percussao",
     "ausculta"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "aparelho-respiratorio/exame-do-torax/palpacao-do-torax",
     "aparelho-respiratorio/exame-do-torax/percussao-do-torax",
@@ -28010,6 +28027,7 @@
     "isquemia mesenterica",
     "fibrilacao atrial"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "abdome/exame-do-abdome/abdome-agudo-e-sinais-peritoneais",
     "abdome/exame-do-abdome/inspecao-e-ausculta-do-abdome",
@@ -28143,6 +28161,7 @@
     "coluna",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "sistema-osteoarticular/exame-osteoarticular/coluna-vertebral",
     "sistema-nervoso/exame-neurologico/sensibilidade-e-coordenacao",
@@ -28314,6 +28333,7 @@
     "gestacao",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "mamas-e-geniturinario/exame-geniturinario-e-retal/exame-ginecologico",
     "exame-fisico-geral/sinais-vitais/pressao-arterial",
@@ -28485,6 +28505,7 @@
     "torcao testicular",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "mamas-e-geniturinario/exame-geniturinario-e-retal/genitalia-masculina-e-hernias"
    ],
@@ -28616,6 +28637,7 @@
     "dor epigastrica",
     "gravidade"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "abdome/exame-do-abdome/abdome-agudo-e-sinais-peritoneais",
     "abdome/exame-do-abdome/palpacao-do-abdome",
@@ -28782,6 +28804,7 @@
     "peritonite",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "abdome/exame-do-abdome/abdome-agudo-e-sinais-peritoneais",
     "abdome/exame-do-abdome/palpacao-do-abdome"
@@ -28955,6 +28978,7 @@
     "pulsos",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "aparelho-cardiovascular/exame-cardiaco/sopros-cardiacos",
     "sistema-vascular-periferico/exame-vascular-periferico/pulsos-arteriais-perifericos",
@@ -29124,6 +29148,7 @@
     "pele",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros",
     "exame-fisico-geral/sinais-vitais/frequencia-cardiaca-e-pulso",
@@ -29295,6 +29320,7 @@
     "pulsos",
     "insuficiencia arterial"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "sistema-vascular-periferico/exame-vascular-periferico/insuficiencia-arterial-cronica",
     "sistema-vascular-periferico/exame-vascular-periferico/pulsos-arteriais-perifericos",
@@ -29465,6 +29491,7 @@
     "uso de alcool",
     "entrevista"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "exame-psiquico/exame-psiquico/fundamentos-do-exame-psiquico",
     "anamnese/entrevista-clinica/antecedentes-e-habitos",
@@ -29642,6 +29669,7 @@
     "dpoc",
     "ambulatorial"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "aparelho-respiratorio/exame-do-torax/inspecao-do-torax",
     "aparelho-respiratorio/exame-do-torax/percussao-do-torax",
@@ -29813,6 +29841,7 @@
     "dispneia",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "aparelho-respiratorio/exame-do-torax/ausculta-pulmonar",
     "sistema-vascular-periferico/exame-vascular-periferico/doenca-venosa-cronica-e-trombose",
@@ -29982,6 +30011,7 @@
     "sopro",
     "febre de origem indeterminada"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "aparelho-cardiovascular/exame-cardiaco/sopros-cardiacos",
     "exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros",
@@ -30154,6 +30184,7 @@
     "febre",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "sistema-nervoso/exame-neurologico/marcha-e-sinais-meningeos",
     "sistema-nervoso/exame-neurologico/consciencia-e-estado-mental",
@@ -30321,6 +30352,7 @@
     "ictericia",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "abdome/exame-do-abdome/palpacao-do-abdome",
     "exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros",
@@ -30487,6 +30519,7 @@
     "temperatura",
     "febre"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "semiologia-da-crianca/exame-da-crianca/crescimento-sinais-vitais-e-hidratacao",
     "exame-fisico-geral/sinais-vitais/temperatura-e-frequencia-respiratoria",
@@ -30690,6 +30723,7 @@
     "ulcera",
     "neuropatia"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "sistema-vascular-periferico/exame-vascular-periferico/doenca-venosa-cronica-e-trombose",
     "sistema-vascular-periferico/exame-vascular-periferico/pulsos-arteriais-perifericos",
@@ -30855,6 +30889,7 @@
     "acompanhante",
     "autonomia"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "anamnese/entrevista-clinica/a-entrevista-clinica",
     "anamnese/entrevista-clinica/antecedentes-e-habitos",
@@ -31024,6 +31059,7 @@
     "delirium",
     "idoso"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "exame-fisico-geral/sinais-vitais/temperatura-e-frequencia-respiratoria",
     "exame-fisico-geral/sinais-vitais/frequencia-cardiaca-e-pulso",
@@ -31195,6 +31231,7 @@
     "toque retal",
     "ambulatorial"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "mamas-e-geniturinario/exame-geniturinario-e-retal/toque-retal",
     "mamas-e-geniturinario/exame-geniturinario-e-retal/genitalia-masculina-e-hernias",
@@ -31373,6 +31410,7 @@
     "Ottawa",
     "Lachman"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "sistema-osteoarticular/exame-osteoarticular/quadril-e-joelho",
     "sistema-osteoarticular/exame-osteoarticular/principios-do-exame-osteoarticular"
@@ -31538,6 +31576,7 @@
     "organofosforado",
     "pupilas"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "sistema-nervoso/exame-neurologico/consciencia-e-estado-mental",
     "sistema-nervoso/exame-neurologico/pares-cranianos-i-a-vi",
@@ -31709,6 +31748,7 @@
     "priorizacao",
     "entrevista"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "anamnese/entrevista-clinica/interrogatorio-sintomatologico",
     "anamnese/entrevista-clinica/queixa-principal-e-hda",
@@ -31878,6 +31918,7 @@
     "padrao inflamatorio",
     "maos"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "sistema-osteoarticular/exame-osteoarticular/principios-do-exame-osteoarticular",
     "sistema-osteoarticular/exame-osteoarticular/punho-e-mao",
@@ -32049,6 +32090,7 @@
     "demencia",
     "depressao"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "exame-psiquico/exame-psiquico/delirium-demencia-e-depressao",
     "exame-psiquico/exame-psiquico/escalas-cognitivas-a-beira-do-leito",
@@ -32220,6 +32262,7 @@
     "congestao",
     "jugular"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "aparelho-cardiovascular/exame-cardiaco/pulso-venoso-jugular-e-turgencia",
     "aparelho-cardiovascular/exame-cardiaco/ausculta-cardiaca",
@@ -32385,6 +32428,7 @@
     "olhos",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "cabeca-e-pescoco/exame-de-cabeca-e-pescoco/olhos",
     "cabeca-e-pescoco/exame-de-cabeca-e-pescoco/boca-nariz-e-ouvidos",
@@ -32550,6 +32594,7 @@
     "glaucoma agudo",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "cabeca-e-pescoco/exame-de-cabeca-e-pescoco/olhos",
     "cabeca-e-pescoco/exame-de-cabeca-e-pescoco/cranio-e-face",
@@ -32720,6 +32765,7 @@
     "ombro",
     "monoartrite"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "sistema-osteoarticular/exame-osteoarticular/ombro-e-cotovelo",
     "sistema-osteoarticular/exame-osteoarticular/principios-do-exame-osteoarticular",
@@ -32890,6 +32936,7 @@
     "edema",
     "membro inferior"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "sistema-vascular-periferico/exame-vascular-periferico/doenca-venosa-cronica-e-trombose",
     "exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros",
@@ -33060,6 +33107,7 @@
     "humor",
     "entrevista"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "exame-psiquico/exame-psiquico/fundamentos-do-exame-psiquico",
     "exame-psiquico/exame-psiquico/funcoes-psiquicas-e-seus-disturbios",
@@ -33237,6 +33285,7 @@
     "dor desproporcional",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "sistema-osteoarticular/exame-osteoarticular/principios-do-exame-osteoarticular",
     "sistema-vascular-periferico/exame-vascular-periferico/pulsos-arteriais-perifericos",
@@ -33407,6 +33456,7 @@
     "pulsos",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "sistema-vascular-periferico/exame-vascular-periferico/isquemia-aguda-e-aneurismas",
     "sistema-vascular-periferico/exame-vascular-periferico/pulsos-arteriais-perifericos"
@@ -33570,6 +33620,7 @@
     "apresentacao atipica",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "aparelho-cardiovascular/exame-cardiaco/ausculta-cardiaca",
     "aparelho-cardiovascular/exame-cardiaco/pulso-venoso-jugular-e-turgencia",
@@ -33741,6 +33792,7 @@
     "hemorragia subaracnoide",
     "sinais meningeos"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "sistema-nervoso/exame-neurologico/marcha-e-sinais-meningeos",
     "sistema-nervoso/exame-neurologico/consciencia-e-estado-mental",
@@ -33917,6 +33969,7 @@
     "pele",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros",
     "exame-fisico-geral/sinais-vitais/pressao-arterial",
@@ -34082,6 +34135,7 @@
     "hipotensao",
     "pele"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros",
     "exame-fisico-geral/sinais-vitais/pressao-arterial",
@@ -34253,6 +34307,7 @@
     "pulso paradoxal",
     "jugular"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "aparelho-cardiovascular/exame-cardiaco/pulso-venoso-jugular-e-turgencia",
     "aparelho-cardiovascular/exame-cardiaco/ausculta-cardiaca",
@@ -34423,6 +34478,7 @@
     "percussao",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "aparelho-respiratorio/exame-do-torax/percussao-do-torax",
     "aparelho-respiratorio/exame-do-torax/inspecao-do-torax",
@@ -34594,6 +34650,7 @@
     "entrevista",
     "queixa principal"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "anamnese/entrevista-clinica/a-entrevista-clinica",
     "anamnese/entrevista-clinica/queixa-principal-e-hda",
@@ -34770,6 +34827,7 @@
     "CAM",
     "avaliacao cognitiva"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "exame-psiquico/exame-psiquico/delirium-demencia-e-depressao",
     "exame-psiquico/exame-psiquico/escalas-cognitivas-a-beira-do-leito",
@@ -34900,6 +34958,7 @@
     "idoso",
     "investigacao"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "exame-fisico-geral/avaliacao-geral/antropometria-e-hidratacao",
     "exame-fisico-geral/avaliacao-geral/linfonodos",
@@ -35071,6 +35130,7 @@
     "sibilos",
     "emergencia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "aparelho-respiratorio/exame-do-torax/ausculta-pulmonar",
     "aparelho-respiratorio/exame-do-torax/inspecao-do-torax",
@@ -35236,6 +35296,7 @@
     "arritmia",
     "síncope"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "aparelho-cardiovascular/exame-cardiaco/ausculta-cardiaca",
     "exame-fisico-geral/sinais-vitais/frequencia-cardiaca-e-pulso",
@@ -35451,6 +35512,7 @@
     "ausculta",
     "ambulatorial"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "aparelho-cardiovascular/exame-cardiaco/sopros-cardiacos",
     "aparelho-cardiovascular/exame-cardiaco/ausculta-cardiaca",
@@ -35615,6 +35677,7 @@
     "tontura",
     "manobras"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "cabeca-e-pescoco/exame-de-cabeca-e-pescoco/boca-nariz-e-ouvidos",
     "sistema-nervoso/exame-neurologico/marcha-e-sinais-meningeos",
@@ -35790,6 +35853,7 @@
     "bandeira vermelha",
     "tabagismo"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "aparelho-respiratorio/exame-do-torax/ausculta-pulmonar",
     "aparelho-respiratorio/exame-do-torax/inspecao-do-torax",
@@ -35959,6 +36023,7 @@
     "parkinsonismo",
     "marcha"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "sistema-nervoso/exame-neurologico/forca-tonus-e-reflexos",
     "sistema-nervoso/exame-neurologico/marcha-e-sinais-meningeos",
@@ -36130,6 +36195,7 @@
     "hipovolemia",
     "hepatopatia"
    ],
+   "cenario": "urgencia",
    "topicosDeApoio": [
     "abdome/exame-do-abdome/palpacao-do-abdome",
     "exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros",
@@ -36301,6 +36367,7 @@
     "bandeira vermelha",
     "tabagismo"
    ],
+   "cenario": "ambulatorio",
    "topicosDeApoio": [
     "cabeca-e-pescoco/exame-de-cabeca-e-pescoco/boca-nariz-e-ouvidos",
     "exame-fisico-geral/avaliacao-geral/linfonodos",

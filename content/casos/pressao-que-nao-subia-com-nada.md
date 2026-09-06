@@ -3,6 +3,7 @@ id: pressao-que-nao-subia-com-nada
 titulo: A pressão que não subia com nada
 contexto: "Emergência de hospital geral. Um homem de 44 anos chega com vômitos, dor abdominal difusa e fraqueza extrema há três dias. Ele emagreceu bastante no último ano e conta, quando perguntado, que se sente tonto ao levantar há meses. A esposa comenta que ele 'ficou moreno mesmo sem ir à praia'."
 tags: [geral, insuficiencia adrenal, hipotensao, pele]
+cenario: urgencia
 topicosDeApoio:
   - exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros
   - exame-fisico-geral/sinais-vitais/pressao-arterial

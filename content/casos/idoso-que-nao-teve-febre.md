@@ -3,6 +3,7 @@ id: idoso-que-nao-teve-febre
 titulo: O idoso que não teve febre
 contexto: "Enfermaria de clínica médica, visita da manhã. Um homem de 82 anos, internado há dois dias para investigação de anemia, amanheceu 'estranho' segundo a filha: não reconheceu a neta, tentou levantar sozinho de madrugada e voltou a dormir sem terminar as frases. Ontem ele conversava normalmente."
 tags: [geral, sepse, delirium, idoso]
+cenario: urgencia
 topicosDeApoio:
   - exame-fisico-geral/sinais-vitais/temperatura-e-frequencia-respiratoria
   - exame-fisico-geral/sinais-vitais/frequencia-cardiaca-e-pulso

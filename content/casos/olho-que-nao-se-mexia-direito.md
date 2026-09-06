@@ -3,6 +3,7 @@ id: olho-que-nao-se-mexia-direito
 titulo: O olho que não se mexia direito
 contexto: "Pronto atendimento pediátrico e de adultos, terça-feira à noite. Uma mulher de 29 anos chega com a pálpebra do olho direito inchada e vermelha há dois dias. Ela conta que estava com sinusite havia uma semana e que hoje o olho começou a doer quando ela mexe. Já usou colírio antibiótico por conta própria."
 tags: [cabeca e pescoco, celulite orbitaria, olhos, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - cabeca-e-pescoco/exame-de-cabeca-e-pescoco/olhos
   - cabeca-e-pescoco/exame-de-cabeca-e-pescoco/boca-nariz-e-ouvidos

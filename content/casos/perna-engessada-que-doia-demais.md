@@ -3,6 +3,7 @@ id: perna-engessada-que-doia-demais
 titulo: A perna engessada que doía demais
 contexto: "Pronto socorro ortopédico, madrugada. Um rapaz de 22 anos voltou hoje à tarde com a perna imobilizada após redução de uma fratura de tíbia sofrida num acidente de moto. Ele retorna dizendo que a dor está insuportável, muito pior do que era quando saiu, e que já tomou dois analgésicos em casa sem nenhum efeito."
 tags: [osteoarticular, sindrome compartimental, dor desproporcional, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - sistema-osteoarticular/exame-osteoarticular/principios-do-exame-osteoarticular
   - sistema-vascular-periferico/exame-vascular-periferico/pulsos-arteriais-perifericos

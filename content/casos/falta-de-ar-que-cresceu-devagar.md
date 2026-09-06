@@ -3,6 +3,7 @@ id: falta-de-ar-que-cresceu-devagar
 titulo: A falta de ar que cresceu devagar
 contexto: "Ambulatório de clínica geral. Uma mulher de 66 anos vem porque 'está sem fôlego'. Ela conta que há uns dois anos parou de subir as escadas do prédio, há um ano passou a evitar caminhadas, e agora se cansa arrumando a casa. Ela atribui tudo à idade e ao peso. Fuma há quarenta anos."
 tags: [respiratorio, dispneia, dpoc, ambulatorial]
+cenario: ambulatorio
 topicosDeApoio:
   - aparelho-respiratorio/exame-do-torax/inspecao-do-torax
   - aparelho-respiratorio/exame-do-torax/percussao-do-torax

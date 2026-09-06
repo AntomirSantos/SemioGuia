@@ -3,6 +3,7 @@ id: pergunta-que-faltava-fazer
 titulo: A pergunta que faltava fazer
 contexto: "Ambulatório de clínica geral, última consulta da manhã. Um homem de 34 anos volta para mostrar exames de rotina que estão todos normais. Ele veio há dois meses com insônia e cansaço, saiu com um ansiolítico e não voltou desde então. Hoje ele fala pouco, olha para o chão e responde com frases curtas."
 tags: [psiquico, risco de suicidio, humor, entrevista]
+cenario: ambulatorio
 topicosDeApoio:
   - exame-psiquico/exame-psiquico/fundamentos-do-exame-psiquico
   - exame-psiquico/exame-psiquico/funcoes-psiquicas-e-seus-disturbios

@@ -3,6 +3,7 @@ id: dor-que-obriga-a-parar-na-esquina
 titulo: A dor que obriga a parar na esquina
 contexto: "Ambulatório de clínica geral. Um homem de 68 anos, diabético e hipertenso, conta que sente uma dor na panturrilha direita ao caminhar. Ele já sabe a distância exata: uma quadra e meia. Para, espera dois ou três minutos e a dor passa. Aí caminha de novo. Ele acha que é 'problema de coluna'."
 tags: [vascular, claudicacao, pulsos, insuficiencia arterial]
+cenario: ambulatorio
 topicosDeApoio:
   - sistema-vascular-periferico/exame-vascular-periferico/insuficiencia-arterial-cronica
   - sistema-vascular-periferico/exame-vascular-periferico/pulsos-arteriais-perifericos

@@ -3,6 +3,7 @@ id: crianca-que-babava-sentada
 titulo: A criança que babava sentada na cadeira
 contexto: "Pronto atendimento pediátrico, três da manhã. Uma menina de 4 anos chega no colo do pai, sentada bem ereta, com o queixo para a frente. Ela não fala, baba, e o pai diz que a febre começou há poucas horas e subiu rápido. Ele conta que ela 'não quis nem tomar água' desde a noite."
 tags: [crianca, epiglotite, via aerea, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - semiologia-da-crianca/exame-da-crianca/do-recem-nascido-ao-adolescente
   - semiologia-da-crianca/exame-da-crianca/abordagem-e-anamnese-da-crianca

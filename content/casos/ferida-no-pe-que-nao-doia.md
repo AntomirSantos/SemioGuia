@@ -3,6 +3,7 @@ id: ferida-no-pe-que-nao-doia
 titulo: A ferida no pé que não doía
 contexto: "Ambulatório de clínica geral. Um homem de 59 anos, diabético há dezoito anos, mostra uma ferida na planta do pé direito que ele descobriu há duas semanas, ao tirar a meia e ver sangue. Ele não sabe dizer quando começou. Diz que não dói nada, e por isso não achou que fosse importante."
 tags: [vascular, pe diabetico, ulcera, neuropatia]
+cenario: ambulatorio
 topicosDeApoio:
   - sistema-vascular-periferico/exame-vascular-periferico/doenca-venosa-cronica-e-trombose
   - sistema-vascular-periferico/exame-vascular-periferico/pulsos-arteriais-perifericos

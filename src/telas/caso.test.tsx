@@ -43,6 +43,7 @@ const CASO_TESTE: Caso = {
   titulo: 'Dor torácica súbita',
   contexto: 'Homem de 58 anos chega à emergência com dor torácica intensa iniciada há 30 minutos.',
   tags: ['cardiovascular'],
+  cenario: 'urgencia' as const,
   topicosDeApoio: ['sistema-cardiovascular/exame/ausculta-cardiaca'],
   referencias: ['Diretriz de Síndrome Coronariana Aguda'],
   revisao: 'aprovada',
@@ -289,5 +290,34 @@ test('caso ainda em revisão traz o selo "Em revisão pelo autor" ao ser aberto'
   fireEvent.press(getByText(pendente.titulo));
   await waitFor(() => {
     expect(getByText('Em revisão pelo autor')).toBeTruthy();
+  });
+});
+
+test('o filtro de cenário esconde os casos do outro cenário e volta em "Todos"', async () => {
+  const urgente = { ...CASO_TESTE, cenario: 'urgencia' as const };
+  const consulta = {
+    ...CASO_TESTE,
+    id: 'caso-consulta',
+    titulo: 'A consulta que ninguém marcou',
+    cenario: 'ambulatorio' as const,
+  };
+  const { getByText, queryByText, getByLabelText } = await renderCasos(new MemoryProgressStore(), [urgente, consulta]);
+
+  await waitFor(() => {
+    expect(getByText(urgente.titulo)).toBeTruthy();
+  });
+  expect(getByText(consulta.titulo)).toBeTruthy();
+  expect(getByText('Urgência 1')).toBeTruthy();
+  expect(getByText('Ambulatório 1')).toBeTruthy();
+
+  fireEvent.press(getByLabelText('Ambulatório 1'));
+  await waitFor(() => {
+    expect(queryByText(urgente.titulo)).toBeNull();
+  });
+  expect(getByText(consulta.titulo)).toBeTruthy();
+
+  fireEvent.press(getByLabelText('Todos 2'));
+  await waitFor(() => {
+    expect(getByText(urgente.titulo)).toBeTruthy();
   });
 });

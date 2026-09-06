@@ -3,6 +3,7 @@ id: jato-que-ficou-fraco
 titulo: O jato que ficou fraco
 contexto: "Ambulatório de clínica geral. Um homem de 66 anos vem à consulta acompanhado da esposa, que o convenceu a vir. Ele conta, sem jeito, que levanta três vezes por noite para urinar, que o jato ficou fraco e que às vezes precisa esperar um tempo para começar. Diz que 'é da idade, todo homem fica assim'."
 tags: [geniturinario, prostata, toque retal, ambulatorial]
+cenario: ambulatorio
 topicosDeApoio:
   - mamas-e-geniturinario/exame-geniturinario-e-retal/toque-retal
   - mamas-e-geniturinario/exame-geniturinario-e-retal/genitalia-masculina-e-hernias

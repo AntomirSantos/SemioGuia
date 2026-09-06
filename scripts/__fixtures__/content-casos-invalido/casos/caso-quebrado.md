@@ -3,6 +3,7 @@ id: caso-quebrado
 titulo: Caso com grafo quebrado
 contexto: Você é o interno de plantão.
 tags: [emergencia]
+cenario: urgencia
 topicosDeApoio: [exame-fisico-geral/sinais-vitais/pressao-arterial]
 referencias: ["Referência de teste"]
 revisao: pendente

@@ -3,6 +3,7 @@ id: pressao-que-sumia-na-inspiracao
 titulo: A pressão que sumia na inspiração
 contexto: "Emergência oncológica, começo da noite. Uma mulher de 58 anos, em tratamento de câncer de pulmão, chega com falta de ar que piorou nos últimos três dias e cansaço para qualquer esforço. Ela diz que só consegue ficar bem sentada e inclinada para a frente, e que o coração 'está disparado'."
 tags: [cardiovascular, tamponamento, pulso paradoxal, jugular]
+cenario: urgencia
 topicosDeApoio:
   - aparelho-cardiovascular/exame-cardiaco/pulso-venoso-jugular-e-turgencia
   - aparelho-cardiovascular/exame-cardiaco/ausculta-cardiaca

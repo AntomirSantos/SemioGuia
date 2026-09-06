@@ -3,6 +3,7 @@ id: febre-e-nuca-dura
 titulo: Febre, cefaleia e uma nuca que não dobra
 contexto: "Plantão noturno de pronto-socorro. O colega da república traz um universitário de 19 anos que 'não está bem desde a tarde': febre alta, dor de cabeça que só piora e agora umas respostas fora de hora."
 tags: [nervoso, meningite, sinais meningeos, febre, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - sistema-nervoso/exame-neurologico/marcha-e-sinais-meningeos
   - sistema-nervoso/exame-neurologico/consciencia-e-estado-mental

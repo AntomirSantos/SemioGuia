@@ -3,6 +3,7 @@ id: pulmao-que-sumiu-do-lado-direito
 titulo: O pulmão que sumiu do lado direito
 contexto: "Unidade de pronto atendimento sem tomógrafo, sábado de manhã. Um rapaz de 24 anos, alto e magro, chega com dor súbita no lado direito do peito que começou enquanto ele arrumava a estante. Está falando normalmente, mas prefere ficar sentado."
 tags: [respiratorio, pneumotorax, percussao, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - aparelho-respiratorio/exame-do-torax/percussao-do-torax
   - aparelho-respiratorio/exame-do-torax/inspecao-do-torax

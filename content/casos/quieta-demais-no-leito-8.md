@@ -3,6 +3,7 @@ id: quieta-demais-no-leito-8
 titulo: Quieta demais no leito 8
 contexto: "Enfermaria de clínica médica, visita da manhã. Dona Cecília, 81 anos, internada há três dias por pielonefrite, 'está ótima' segundo a passagem de plantão: 'calma, sem queixas, dormiu bem'. A filha, na cadeira ao lado, discorda com o olhar."
 tags: [psiquico, delirium, idoso, CAM, avaliacao cognitiva]
+cenario: urgencia
 topicosDeApoio:
   - exame-psiquico/exame-psiquico/delirium-demencia-e-depressao
   - exame-psiquico/exame-psiquico/escalas-cognitivas-a-beira-do-leito

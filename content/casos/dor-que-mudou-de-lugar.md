@@ -3,6 +3,7 @@ id: dor-que-mudou-de-lugar
 titulo: A dor que mudou de lugar
 contexto: "Emergência de hospital geral, três da manhã. Um homem de 58 anos, hipertenso que 'toma o remédio quando lembra', chega andando, pálido, e conta que a dor começou no peito de uma vez só, forte desde o primeiro segundo, e que agora dói mais entre as escápulas do que na frente."
 tags: [cardiovascular, disseccao de aorta, pulsos, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - aparelho-cardiovascular/exame-cardiaco/sopros-cardiacos
   - sistema-vascular-periferico/exame-vascular-periferico/pulsos-arteriais-perifericos

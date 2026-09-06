@@ -14,7 +14,9 @@ conferido antes do endosso.
 | 3 | 15 | segunda leva de urgências, incluindo armadilhas de conduta |
 | 4 | 20 | casos ambulatoriais de raciocínio, distribuídos para equilibrar os sistemas |
 
-Os lotes 1 a 3 se passam quase todos em urgência; o lote 4 é ambulatorial.
+O cenário de cada caso agora é um campo do frontmatter (`cenario: urgencia` ou
+`cenario: ambulatorio`) e é o filtro da tela de Casos: 42 de urgência e 25 de
+ambulatório.
 
 ## Como revisar
 
@@ -37,130 +39,130 @@ arquivo em `content/casos/` e rode `npm run build:content`.
 
 ## Anamnese (4)
 
-| Caso | Decisões | Cenário | Tema | Lote |
-|---|---|---|---|---|
-| A consulta dos dezoito segundos | 3 | urgência | anamnese, entrevista, cefaleia, tecnica de entrevista, agenda oculta | 1 |
-| A filha que respondia por ele | 3 | ambulatório | anamnese, entrevista, acompanhante, autonomia | 4 |
-| A lista de nove queixas | 3 | ambulatório | anamnese, polissintomatico, priorizacao, entrevista | 4 |
-| A queixa que só apareceu na porta | 3 | ambulatório | anamnese, agenda oculta, entrevista, queixa principal | 4 |
+| Caso | Decisões | Cenário | Tema |
+|---|---|---|---|
+| A consulta dos dezoito segundos | 3 | ambulatório | anamnese, entrevista, cefaleia, tecnica de entrevista, agenda oculta |
+| A filha que respondia por ele | 3 | ambulatório | anamnese, entrevista, acompanhante, autonomia |
+| A lista de nove queixas | 3 | ambulatório | anamnese, polissintomatico, priorizacao, entrevista |
+| A queixa que só apareceu na porta | 3 | ambulatório | anamnese, agenda oculta, entrevista, queixa principal |
 
 ## Exame físico geral (8)
 
-| Caso | Decisões | Cenário | Tema | Lote |
-|---|---|---|---|---|
-| O adolescente que respirava fundo demais | 3 | urgência | geral, cetoacidose, desidratacao, respiracao | 2 |
-| O cansaço que a palidez explicava | 3 | ambulatório | geral, anemia, palidez, mucosas | 4 |
-| A pressão que chegou em 210 por 130 | 5 | urgência | emergencia, cardiovascular, sinais vitais, pressão arterial | 1 |
-| A dor que não cabia na mancha | 3 | urgência | geral, fasciite necrosante, pele, emergencia | 3 |
-| O idoso que não teve febre | 3 | urgência | geral, sepse, delirium, idoso | 2 |
-| As placas que subiram em dez minutos | 3 | urgência | geral, anafilaxia, pele, emergencia | 2 |
-| A pressão que não subia com nada | 3 | urgência | geral, insuficiencia adrenal, hipotensao, pele | 3 |
-| Os quilos que sumiram sem explicação | 3 | ambulatório | geral, emagrecimento, idoso, investigacao | 4 |
+| Caso | Decisões | Cenário | Tema |
+|---|---|---|---|
+| O adolescente que respirava fundo demais | 3 | urgência | geral, cetoacidose, desidratacao, respiracao |
+| O cansaço que a palidez explicava | 3 | ambulatório | geral, anemia, palidez, mucosas |
+| A pressão que chegou em 210 por 130 | 5 | urgência | emergencia, cardiovascular, sinais vitais, pressão arterial |
+| A dor que não cabia na mancha | 3 | urgência | geral, fasciite necrosante, pele, emergencia |
+| O idoso que não teve febre | 3 | urgência | geral, sepse, delirium, idoso |
+| As placas que subiram em dez minutos | 3 | urgência | geral, anafilaxia, pele, emergencia |
+| A pressão que não subia com nada | 3 | urgência | geral, insuficiencia adrenal, hipotensao, pele |
+| Os quilos que sumiram sem explicação | 3 | ambulatório | geral, emagrecimento, idoso, investigacao |
 
 ## Cabeça e pescoço (6)
 
-| Caso | Decisões | Cenário | Tema | Lote |
-|---|---|---|---|---|
-| O caroço que subiu com o gole | 3 | urgência | cabeca e pescoco, tireoide, nodulo cervical, linfonodos | 1 |
-| O coração disparado e o pescoço quente | 3 | urgência | cabeca e pescoco, tireotoxicose, tireoide, emergencia | 3 |
-| O olho que não se mexia direito | 3 | urgência | cabeca e pescoco, celulite orbitaria, olhos, emergencia | 3 |
-| O olho vermelho que doía de verdade | 3 | urgência | cabeca e pescoco, olho vermelho, glaucoma agudo, emergencia | 2 |
-| A tontura que vinha em crises | 3 | ambulatório | cabeca e pescoco, vertigem, tontura, manobras | 4 |
-| A voz que não voltou | 3 | ambulatório | cabeca e pescoco, rouquidao, bandeira vermelha, tabagismo | 4 |
+| Caso | Decisões | Cenário | Tema |
+|---|---|---|---|
+| O caroço que subiu com o gole | 3 | ambulatório | cabeca e pescoco, tireoide, nodulo cervical, linfonodos |
+| O coração disparado e o pescoço quente | 3 | urgência | cabeca e pescoco, tireotoxicose, tireoide, emergencia |
+| O olho que não se mexia direito | 3 | urgência | cabeca e pescoco, celulite orbitaria, olhos, emergencia |
+| O olho vermelho que doía de verdade | 3 | urgência | cabeca e pescoco, olho vermelho, glaucoma agudo, emergencia |
+| A tontura que vinha em crises | 3 | ambulatório | cabeca e pescoco, vertigem, tontura, manobras |
+| A voz que não voltou | 3 | ambulatório | cabeca e pescoco, rouquidao, bandeira vermelha, tabagismo |
 
 ## Aparelho cardiovascular (7)
 
-| Caso | Decisões | Cenário | Tema | Lote |
-|---|---|---|---|---|
-| A dor que mudou de lugar | 3 | urgência | cardiovascular, disseccao de aorta, pulsos, emergencia | 2 |
-| A febre arrastada e o sopro que não existia | 3 | urgência | cardiovascular, endocardite, sopro, febre de origem indeterminada | 3 |
-| A terceira noite sentado na cadeira | 3 | urgência | cardiovascular, insuficiencia cardiaca, congestao, jugular | 2 |
-| O peso no peito que ela chamou de azia | 3 | urgência | cardiovascular, infarto, apresentacao atipica, emergencia | 2 |
-| A pressão que sumia na inspiração | 3 | urgência | cardiovascular, tamponamento, pulso paradoxal, jugular | 3 |
-| A síncope e o pulso que ninguém contou | 4 | urgência | cardiovascular, sinais vitais, pulso, arritmia, síncope | 1 |
-| O sopro que ninguém tinha ouvido antes | 3 | ambulatório | cardiovascular, sopro, ausculta, ambulatorial | 4 |
+| Caso | Decisões | Cenário | Tema |
+|---|---|---|---|
+| A dor que mudou de lugar | 3 | urgência | cardiovascular, disseccao de aorta, pulsos, emergencia |
+| A febre arrastada e o sopro que não existia | 3 | ambulatório | cardiovascular, endocardite, sopro, febre de origem indeterminada |
+| A terceira noite sentado na cadeira | 3 | urgência | cardiovascular, insuficiencia cardiaca, congestao, jugular |
+| O peso no peito que ela chamou de azia | 3 | urgência | cardiovascular, infarto, apresentacao atipica, emergencia |
+| A pressão que sumia na inspiração | 3 | urgência | cardiovascular, tamponamento, pulso paradoxal, jugular |
+| A síncope e o pulso que ninguém contou | 4 | urgência | cardiovascular, sinais vitais, pulso, arritmia, síncope |
+| O sopro que ninguém tinha ouvido antes | 3 | ambulatório | cardiovascular, sopro, ausculta, ambulatorial |
 
 ## Aparelho respiratório (6)
 
-| Caso | Decisões | Cenário | Tema | Lote |
-|---|---|---|---|---|
-| A base que parou de falar | 5 | urgência | respiratorio, dispneia, derrame pleural, percussao, ausculta | 1 |
-| A falta de ar que cresceu devagar | 3 | ambulatório | respiratorio, dispneia, dpoc, ambulatorial | 4 |
-| A falta de ar que o tórax não explicava | 3 | urgência | respiratorio, tromboembolismo, dispneia, emergencia | 2 |
-| O pulmão que sumiu do lado direito | 3 | urgência | respiratorio, pneumotorax, percussao, emergencia | 2 |
-| O sibilo que parou de tocar | 3 | urgência | respiratorio, asma, sibilos, emergencia | 2 |
-| A tosse que já dura oito semanas | 3 | ambulatório | respiratorio, tosse cronica, bandeira vermelha, tabagismo | 4 |
+| Caso | Decisões | Cenário | Tema |
+|---|---|---|---|
+| A base que parou de falar | 5 | urgência | respiratorio, dispneia, derrame pleural, percussao, ausculta |
+| A falta de ar que cresceu devagar | 3 | ambulatório | respiratorio, dispneia, dpoc, ambulatorial |
+| A falta de ar que o tórax não explicava | 3 | urgência | respiratorio, tromboembolismo, dispneia, emergencia |
+| O pulmão que sumiu do lado direito | 3 | urgência | respiratorio, pneumotorax, percussao, emergencia |
+| O sibilo que parou de tocar | 3 | urgência | respiratorio, asma, sibilos, emergencia |
+| A tosse que já dura oito semanas | 3 | ambulatório | respiratorio, tosse cronica, bandeira vermelha, tabagismo |
 
 ## Abdome (8)
 
-| Caso | Decisões | Cenário | Tema | Lote |
-|---|---|---|---|---|
-| O atraso que ninguém perguntou | 3 | urgência | abdome, abdome agudo, gravidez ectopica, hemorragia | 2 |
-| A barriga que virou tábua | 3 | urgência | abdome, abdome agudo, perfuracao, peritonite | 2 |
-| A barriga que parou de trabalhar | 3 | urgência | abdome, abdome agudo, obstrucao intestinal, percussao | 2 |
-| A dor que o abdome não confirmava | 2 | urgência | abdome, abdome agudo, isquemia mesenterica, fibrilacao atrial | 2 |
-| A dor que atravessou para as costas | 3 | urgência | abdome, pancreatite, dor epigastrica, gravidade | 3 |
-| A dor que caminhou até a fossa direita | 3 | urgência | abdome, dor abdominal, apendicite, peritonite, emergencia | 1 |
-| A febre que veio junto com a icterícia | 3 | urgência | abdome, colangite, ictericia, emergencia | 3 |
-| O vômito que veio preto | 3 | urgência | abdome, hemorragia digestiva, hipovolemia, hepatopatia | 3 |
+| Caso | Decisões | Cenário | Tema |
+|---|---|---|---|
+| O atraso que ninguém perguntou | 3 | urgência | abdome, abdome agudo, gravidez ectopica, hemorragia |
+| A barriga que virou tábua | 3 | urgência | abdome, abdome agudo, perfuracao, peritonite |
+| A barriga que parou de trabalhar | 3 | urgência | abdome, abdome agudo, obstrucao intestinal, percussao |
+| A dor que o abdome não confirmava | 2 | urgência | abdome, abdome agudo, isquemia mesenterica, fibrilacao atrial |
+| A dor que atravessou para as costas | 3 | urgência | abdome, pancreatite, dor epigastrica, gravidade |
+| A dor que caminhou até a fossa direita | 3 | urgência | abdome, dor abdominal, apendicite, peritonite, emergencia |
+| A febre que veio junto com a icterícia | 3 | urgência | abdome, colangite, ictericia, emergencia |
+| O vômito que veio preto | 3 | urgência | abdome, hemorragia digestiva, hipovolemia, hepatopatia |
 
 ## Sistema vascular periférico (4)
 
-| Caso | Decisões | Cenário | Tema | Lote |
-|---|---|---|---|---|
-| A dor que obriga a parar na esquina | 3 | ambulatório | vascular, claudicacao, pulsos, insuficiencia arterial | 4 |
-| A ferida no pé que não doía | 3 | ambulatório | vascular, pe diabetico, ulcera, neuropatia | 4 |
-| A panturrilha que inchou na viagem | 3 | urgência | vascular, trombose venosa, edema, membro inferior | 2 |
-| A perna que esfriou às três da tarde | 3 | urgência | vascular, isquemia aguda, pulsos, emergencia | 1 |
+| Caso | Decisões | Cenário | Tema |
+|---|---|---|---|
+| A dor que obriga a parar na esquina | 3 | ambulatório | vascular, claudicacao, pulsos, insuficiencia arterial |
+| A ferida no pé que não doía | 3 | ambulatório | vascular, pe diabetico, ulcera, neuropatia |
+| A panturrilha que inchou na viagem | 3 | ambulatório | vascular, trombose venosa, edema, membro inferior |
+| A perna que esfriou às três da tarde | 3 | urgência | vascular, isquemia aguda, pulsos, emergencia |
 
 ## Sistema osteoarticular (6)
 
-| Caso | Decisões | Cenário | Tema | Lote |
-|---|---|---|---|---|
-| O braço que não alcança mais o varal | 3 | ambulatório | osteoarticular, ombro, manguito rotador, manobras | 4 |
-| A dor nas costas que molhou a cama | 3 | urgência | osteoarticular, cauda equina, coluna, emergencia | 3 |
-| O joelho do futebol de sábado | 4 | urgência | osteoarticular, joelho, trauma, Ottawa, Lachman | 1 |
-| As mãos que amanhecem duras | 3 | ambulatório | osteoarticular, poliartralgia, padrao inflamatorio, maos | 4 |
-| O ombro que não deixava ninguém tocar | 3 | urgência | osteoarticular, artrite septica, ombro, monoartrite | 2 |
-| A perna engessada que doía demais | 3 | urgência | osteoarticular, sindrome compartimental, dor desproporcional, emergencia | 3 |
+| Caso | Decisões | Cenário | Tema |
+|---|---|---|---|
+| O braço que não alcança mais o varal | 3 | ambulatório | osteoarticular, ombro, manguito rotador, manobras |
+| A dor nas costas que molhou a cama | 3 | urgência | osteoarticular, cauda equina, coluna, emergencia |
+| O joelho do futebol de sábado | 4 | urgência | osteoarticular, joelho, trauma, Ottawa, Lachman |
+| As mãos que amanhecem duras | 3 | ambulatório | osteoarticular, poliartralgia, padrao inflamatorio, maos |
+| O ombro que não deixava ninguém tocar | 3 | urgência | osteoarticular, artrite septica, ombro, monoartrite |
+| A perna engessada que doía demais | 3 | urgência | osteoarticular, sindrome compartimental, dor desproporcional, emergencia |
 
 ## Mamas e geniturinário (4)
 
-| Caso | Decisões | Cenário | Tema | Lote |
-|---|---|---|---|---|
-| O carocinho que ela achou no banho | 3 | ambulatório | mamas, nodulo mamario, exame das mamas, ambulatorial | 4 |
-| A dor no alto da barriga que não era gastrite | 3 | urgência | geniturinario, pre-eclampsia, gestacao, emergencia | 3 |
-| A dor que acordou o menino às 3 da manhã | 3 | urgência | geniturinario, escroto agudo, torcao testicular, emergencia | 1 |
-| O jato que ficou fraco | 3 | ambulatório | geniturinario, prostata, toque retal, ambulatorial | 4 |
+| Caso | Decisões | Cenário | Tema |
+|---|---|---|---|
+| O carocinho que ela achou no banho | 3 | ambulatório | mamas, nodulo mamario, exame das mamas, ambulatorial |
+| A dor no alto da barriga que não era gastrite | 3 | urgência | geniturinario, pre-eclampsia, gestacao, emergencia |
+| A dor que acordou o menino às 3 da manhã | 3 | urgência | geniturinario, escroto agudo, torcao testicular, emergencia |
+| O jato que ficou fraco | 3 | ambulatório | geniturinario, prostata, toque retal, ambulatorial |
 
 ## Sistema nervoso (6)
 
-| Caso | Decisões | Cenário | Tema | Lote |
-|---|---|---|---|---|
-| O braço que caiu às sete da manhã | 3 | urgência | neurologico, avc, janela terapeutica, forca | 2 |
-| A convulsão que não parava | 3 | urgência | neurologico, estado de mal, convulsao, emergencia | 3 |
-| Febre, cefaleia e uma nuca que não dobra | 4 | urgência | nervoso, meningite, sinais meningeos, febre, emergencia | 1 |
-| Voltou da lavoura passando mal | 3 | urgência | neurologico, intoxicacao, organofosforado, pupilas | 3 |
-| A pior dor de cabeça da vida dela | 3 | urgência | neurologico, cefaleia, hemorragia subaracnoide, sinais meningeos | 2 |
-| O tremor que aparecia com a mão parada | 3 | ambulatório | neurologico, tremor, parkinsonismo, marcha | 4 |
+| Caso | Decisões | Cenário | Tema |
+|---|---|---|---|
+| O braço que caiu às sete da manhã | 3 | urgência | neurologico, avc, janela terapeutica, forca |
+| A convulsão que não parava | 3 | urgência | neurologico, estado de mal, convulsao, emergencia |
+| Febre, cefaleia e uma nuca que não dobra | 4 | urgência | nervoso, meningite, sinais meningeos, febre, emergencia |
+| Voltou da lavoura passando mal | 3 | urgência | neurologico, intoxicacao, organofosforado, pupilas |
+| A pior dor de cabeça da vida dela | 3 | urgência | neurologico, cefaleia, hemorragia subaracnoide, sinais meningeos |
+| O tremor que aparecia com a mão parada | 3 | ambulatório | neurologico, tremor, parkinsonismo, marcha |
 
 ## Exame psíquico (4)
 
-| Caso | Decisões | Cenário | Tema | Lote |
-|---|---|---|---|---|
-| As duas cervejas que eram oito | 3 | ambulatório | psiquico, rastreio, uso de alcool, entrevista | 4 |
-| A memória que a família notou primeiro | 3 | ambulatório | psiquico, memoria, demencia, depressao | 4 |
-| A pergunta que faltava fazer | 3 | urgência | psiquico, risco de suicidio, humor, entrevista | 2 |
-| Quieta demais no leito 8 | 3 | urgência | psiquico, delirium, idoso, CAM, avaliacao cognitiva | 1 |
+| Caso | Decisões | Cenário | Tema |
+|---|---|---|---|
+| As duas cervejas que eram oito | 3 | ambulatório | psiquico, rastreio, uso de alcool, entrevista |
+| A memória que a família notou primeiro | 3 | ambulatório | psiquico, memoria, demencia, depressao |
+| A pergunta que faltava fazer | 3 | ambulatório | psiquico, risco de suicidio, humor, entrevista |
+| Quieta demais no leito 8 | 3 | urgência | psiquico, delirium, idoso, CAM, avaliacao cognitiva |
 
 ## Semiologia da criança (4)
 
-| Caso | Decisões | Cenário | Tema | Lote |
-|---|---|---|---|---|
-| O bebê que não ganha peso | 3 | ambulatório | crianca, crescimento, curva de peso, puericultura | 4 |
-| O bebê que parou de mamar | 3 | urgência | crianca, desidratacao, choque, hidratacao | 2 |
-| A criança que babava sentada na cadeira | 3 | urgência | crianca, epiglotite, via aerea, emergencia | 3 |
-| Febre em uma criança de 3 anos | 4 | urgência | pediatria, emergencia, sinais vitais, temperatura, febre | 1 |
+| Caso | Decisões | Cenário | Tema |
+|---|---|---|---|
+| O bebê que não ganha peso | 3 | ambulatório | crianca, crescimento, curva de peso, puericultura |
+| O bebê que parou de mamar | 3 | urgência | crianca, desidratacao, choque, hidratacao |
+| A criança que babava sentada na cadeira | 3 | urgência | crianca, epiglotite, via aerea, emergencia |
+| Febre em uma criança de 3 anos | 4 | urgência | pediatria, emergencia, sinais vitais, temperatura, febre |
 
 ## Arquivos
 

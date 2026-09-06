@@ -33,11 +33,17 @@ export const noSchema = z.discriminatedUnion('tipo', [
   }),
 ]);
 
+export type Cenario = 'urgencia' | 'ambulatorio';
+
 export const casoSchema = z.object({
   id: z.string().min(1),
   titulo: z.string().min(1),
   contexto: z.string().min(1),
   tags: z.array(z.string()),
+  // Onde o caso se passa. Separa o raciocínio com o relógio correndo do
+  // raciocínio de consulta, e é o filtro da tela de Casos. Obrigatório: com
+  // o acervo grande, um caso sem cenário some do filtro sem ninguém notar.
+  cenario: z.enum(['urgencia', 'ambulatorio']),
   // topicosDeApoio references real topic ids: verified against whole content in the build pipeline (Task 2), not here.
   topicosDeApoio: z.array(z.string().min(1)).min(1),
   referencias: z.array(z.string().min(1)).min(1),

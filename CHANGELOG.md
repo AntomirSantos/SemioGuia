@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.32 (2026-09-06)
+
+- A tela de Casos ganhou filtro por cenário: urgência, ambulatório ou todos, com a contagem de cada um
+- O app ficou pronto para a loja: identificador de pacote, código de versão, perfis de build e política de privacidade publicada, acessível pelo Perfil
+- Um novo gate impede que a versão de app.json e a do app divirjam, como já havia acontecido
+
 ## 1.2.31 (2026-09-06)
 
 - Vinte casos ambulatoriais novos, de raciocínio diagnóstico: a queixa dita na porta, a lista de nove queixas, emagrecimento no idoso, anemia, tontura, rouquidão, sopro achado por acaso, tosse crônica, dispneia progressiva, claudicação, pé diabético, poliartralgia, ombro doloroso, nódulo de mama, sintomas prostáticos, tremor, memória, rastreio de álcool e ganho de peso do lactente

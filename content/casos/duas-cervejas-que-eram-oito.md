@@ -3,6 +3,7 @@ id: duas-cervejas-que-eram-oito
 titulo: As duas cervejas que eram oito
 contexto: "Ambulatório de clínica geral. Um homem de 45 anos vem por causa de exames alterados que trouxe do trabalho: enzimas hepáticas elevadas. Ele está bem, sem queixas. Quando perguntado sobre bebida, responde rápido: 'ah, socialmente, umas duas cervejas no fim de semana'."
 tags: [psiquico, rastreio, uso de alcool, entrevista]
+cenario: ambulatorio
 topicosDeApoio:
   - exame-psiquico/exame-psiquico/fundamentos-do-exame-psiquico
   - anamnese/entrevista-clinica/antecedentes-e-habitos

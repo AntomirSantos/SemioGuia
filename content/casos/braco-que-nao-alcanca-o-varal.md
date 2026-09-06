@@ -3,6 +3,7 @@ id: braco-que-nao-alcanca-o-varal
 titulo: O braço que não alcança mais o varal
 contexto: "Ambulatório de clínica geral. Uma mulher de 54 anos, costureira, vem por dor no ombro direito há quatro meses. Ela diz que dói quando levanta o braço para pendurar roupa e para pentear o cabelo, e que à noite dói ao deitar sobre esse lado. Já fez dez sessões de fisioterapia sem melhora clara."
 tags: [osteoarticular, ombro, manguito rotador, manobras]
+cenario: ambulatorio
 topicosDeApoio:
   - sistema-osteoarticular/exame-osteoarticular/ombro-e-cotovelo
   - sistema-osteoarticular/exame-osteoarticular/principios-do-exame-osteoarticular

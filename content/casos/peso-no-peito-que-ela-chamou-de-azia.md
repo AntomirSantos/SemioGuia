@@ -3,6 +3,7 @@ id: peso-no-peito-que-ela-chamou-de-azia
 titulo: O peso no peito que ela chamou de azia
 contexto: "Pronto atendimento de bairro, domingo à noite. Uma mulher de 64 anos, diabética há quinze anos, senta e explica que 'comeu errado no almoço' e está com azia desde a tarde. Já tomou antiácido em casa e não melhorou. Ela não usa a palavra dor em nenhum momento."
 tags: [cardiovascular, infarto, apresentacao atipica, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - aparelho-cardiovascular/exame-cardiaco/ausculta-cardiaca
   - aparelho-cardiovascular/exame-cardiaco/pulso-venoso-jugular-e-turgencia

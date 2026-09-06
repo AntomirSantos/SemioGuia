@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.32',
+    data: '2026-09-06',
+    linhas: [
+      'A tela de Casos ganhou filtro por cenário: urgência, ambulatório ou todos, com a contagem de cada um',
+      'O app ficou pronto para a loja: identificador de pacote, código de versão, perfis de build e política de privacidade publicada, acessível pelo Perfil',
+      'Um novo gate impede que a versão de app.json e a do app divirjam, como já havia acontecido',
+    ],
+  },
+  {
     versao: '1.2.31',
     data: '2026-09-06',
     linhas: [

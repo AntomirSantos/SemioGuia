@@ -3,6 +3,7 @@ id: dispneia-e-base-muda
 titulo: A base que parou de falar
 contexto: "Enfermaria de clínica médica, início da tarde. O paciente do leito 12, internado ontem à noite pela emergência com 'pneumonia a esclarecer', chama porque o ar 'está ficando mais curto'. O plantonista da noite deixou anotado: ausculta com murmúrio diminuído à direita."
 tags: [respiratorio, dispneia, derrame pleural, percussao, ausculta]
+cenario: urgencia
 topicosDeApoio:
   - aparelho-respiratorio/exame-do-torax/palpacao-do-torax
   - aparelho-respiratorio/exame-do-torax/percussao-do-torax

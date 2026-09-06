@@ -3,6 +3,7 @@ id: convulsao-que-nao-parava
 titulo: A convulsão que não parava
 contexto: "Emergência de hospital geral, dez da noite. Um homem de 26 anos, com epilepsia desde a adolescência, chega convulsionando dentro da ambulância. A namorada conta que a crise começou em casa, que ela achou que ia passar, e que já dura 'uns vinte minutos, talvez mais'. Ele parou o remédio faz duas semanas porque a receita venceu."
 tags: [neurologico, estado de mal, convulsao, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - sistema-nervoso/exame-neurologico/consciencia-e-estado-mental
   - sistema-nervoso/exame-neurologico/forca-tonus-e-reflexos

@@ -3,6 +3,7 @@ import { carregarConteudo } from '../content/store';
 import {
   agruparPorSistema,
   filtrarCasos,
+  filtrarPorCenario,
   filtrarQuestoes,
   listarCasosDeEstudo,
   listarQuestoes,
@@ -77,4 +78,23 @@ test('agruparPorSistema preserva a ordem e não cria grupos vazios', () => {
 
 test('normalizar tira acento e caixa', () => {
   expect(normalizar('Percussão Dolorosa')).toBe('percussao dolorosa');
+});
+
+test('o filtro de cenário separa urgência de ambulatório sem perder nenhum caso', () => {
+  const lista = listarCasosDeEstudo(conteudo);
+  const urgencia = filtrarPorCenario(lista, 'urgencia');
+  const ambulatorio = filtrarPorCenario(lista, 'ambulatorio');
+
+  expect(filtrarPorCenario(lista, 'todos')).toHaveLength(lista.length);
+  expect(urgencia.length + ambulatorio.length).toBe(lista.length);
+  expect(urgencia.length).toBeGreaterThan(0);
+  expect(ambulatorio.length).toBeGreaterThan(0);
+  expect(urgencia.every((i) => i.caso.cenario === 'urgencia')).toBe(true);
+  expect(ambulatorio.every((i) => i.caso.cenario === 'ambulatorio')).toBe(true);
+});
+
+test('todo caso do bundle declara um cenário', () => {
+  for (const item of listarCasosDeEstudo(conteudo)) {
+    expect(['urgencia', 'ambulatorio']).toContain(item.caso.cenario);
+  }
 });

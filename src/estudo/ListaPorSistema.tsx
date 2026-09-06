@@ -57,6 +57,65 @@ export function CampoDeBusca({
   );
 }
 
+/**
+ * Fila de chips de filtro, com o selecionado em tinta cheia. Mantém a
+ * gramática sóbria do app: sem cor de sistema aqui, porque a cor já está
+ * ocupada pelos grupos logo abaixo.
+ */
+export function ChipsDeFiltro<T extends string>({
+  opcoes,
+  valor,
+  onChange,
+  rotulo,
+}: {
+  opcoes: { valor: T; texto: string }[];
+  valor: T;
+  onChange: (v: T) => void;
+  rotulo: string;
+}) {
+  const { paleta, escala } = useTema();
+  return (
+    <View
+      accessibilityRole="radiogroup"
+      accessibilityLabel={rotulo}
+      style={{ flexDirection: 'row', flexWrap: 'wrap', gap: espaco.xs, marginBottom: espaco.s }}
+    >
+      {opcoes.map((o) => {
+        const ativo = o.valor === valor;
+        return (
+          <View key={o.valor}>
+            <Pressionavel
+              accessibilityRole="radio"
+              accessibilityState={{ selected: ativo }}
+              accessibilityLabel={o.texto}
+              onPress={() => onChange(o.valor)}
+              style={{
+                minHeight: 36,
+                justifyContent: 'center',
+                paddingHorizontal: espaco.m,
+                borderRadius: raio.l,
+                borderWidth: 1,
+                borderColor: ativo ? paleta.tinta : paleta.linha,
+                backgroundColor: ativo ? paleta.tinta : 'transparent',
+              }}
+            >
+              <Text
+                style={{
+                  fontFamily: fonte.corpoBold,
+                  fontSize: Math.round(tipo.small * escala),
+                  color: ativo ? paleta.superficie : paleta.tinta2,
+                }}
+              >
+                {o.texto}
+              </Text>
+            </Pressionavel>
+          </View>
+        );
+      })}
+    </View>
+  );
+}
+
 export function LinhaExpansivel({
   titulo,
   subtitulo,

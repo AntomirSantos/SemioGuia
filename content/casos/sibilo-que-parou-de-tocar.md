@@ -3,6 +3,7 @@ id: sibilo-que-parou-de-tocar
 titulo: O sibilo que parou de tocar
 contexto: "Sala de emergência, meia-noite. Uma jovem de 19 anos com asma desde a infância chega trazida pelo irmão. Ela usou a bombinha de resgate seis vezes desde as dez da noite. Está sentada, curvada para a frente, com as mãos apoiadas na maca, e responde às perguntas com uma palavra de cada vez."
 tags: [respiratorio, asma, sibilos, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - aparelho-respiratorio/exame-do-torax/ausculta-pulmonar
   - aparelho-respiratorio/exame-do-torax/inspecao-do-torax

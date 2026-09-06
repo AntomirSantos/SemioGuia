@@ -26,7 +26,7 @@ como "Revisado" no app.
 |---|---|
 | Sistemas | **12** (Anamnese → Semiologia da criança, ordem craniocaudal) |
 | Tópicos | **55**: todos revisados (triagem de literatura craniocaudal concluída) |
-| Casos clínicos interativos | **67** (ramificados, urgência e ambulatório, todos os sistemas) |
+| Casos clínicos interativos | **67** (ramificados: 42 de urgência e 25 de ambulatório, com filtro por cenário) |
 | Questões de quiz | **327** (balanceadas por índice e comprimento) |
 | Checklists OSCE | **53** (viram estações de prática) |
 | Ilustrações SVG | **59** (temáveis via `currentColor`, geometria verificada; cobertura em `npm run relatorio:ilustracoes`) |
@@ -101,13 +101,19 @@ npm run checar:travessao`, toda RV em prosa precisa da
    adendos em `docs/verificacao-fase1b.md`).
 2. **Ativação do Firebase**: flag mestre desligada; passos em
    `docs/firebase-setup.md` (executar na máquina do autor).
-3. **Publicação nas lojas**: build EAS e fichas das lojas (ícone,
-   splash e favicon definitivos já estão na paleta editorial).
-4. **Fronteiras declaradas** (fora por decisão ou por silêncio das
+3. **Endosso dos 67 casos clínicos**: todos estão `revisao: pendente` e
+   aparecem com o selo "Em revisão pelo autor"; fila de trabalho por
+   sistema em `docs/casos-para-revisao.md`.
+4. **Publicação nas lojas**: a configuração está pronta no repositório
+   (pacote `br.com.semioguia.app`, `eas.json`, política de privacidade em
+   `public/privacidade.html`, peças da ficha em `assets/loja/`); falta a
+   conta de desenvolvedor e o build assinado na máquina do autor. Passo a
+   passo e textos da ficha em `docs/publicar-na-loja.md`.
+5. **Fronteiras declaradas** (fora por decisão ou por silêncio das
    fontes, reavaliáveis): obstetrícia (sem obra de referência no
    acervo), marcha da criança pequena e exame motor neonatal
    especializado, puericultura.
-5. **Fase futura planejada: exame físico do idoso**, por decisão do
+6. **Fase futura planejada: exame físico do idoso**, por decisão do
    autor (2026-09-03) deixa de ser fronteira aceita; capítulo próprio a
    especificar depois do fechamento do beta (fundamentos do exame
    psíquico e delirium já apontam para ele).

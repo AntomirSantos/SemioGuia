@@ -3,6 +3,7 @@ id: febre-ictericia-e-calafrio
 titulo: A febre que veio junto com a icterícia
 contexto: "Emergência de hospital geral. Uma mulher de 67 anos chega com dor no quadrante superior direito do abdome há um dia, febre alta com calafrios desde a noite e, segundo a filha, 'os olhos amarelos desde ontem'. Ela tem cálculos biliares conhecidos e já recusou a cirurgia duas vezes."
 tags: [abdome, colangite, ictericia, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - abdome/exame-do-abdome/palpacao-do-abdome
   - exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros

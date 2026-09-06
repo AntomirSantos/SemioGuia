@@ -3,6 +3,7 @@ id: atraso-que-ninguem-perguntou
 titulo: O atraso que ninguém perguntou
 contexto: "Pronto atendimento numa sexta-feira à noite. Uma mulher de 27 anos chega com dor no baixo ventre há seis horas, que começou de um lado e agora é difusa. A ficha da triagem diz 'cólica menstrual forte'. Ela está pálida e diz que sentiu tontura ao levantar da cama."
 tags: [abdome, abdome agudo, gravidez ectopica, hemorragia]
+cenario: urgencia
 topicosDeApoio:
   - abdome/exame-do-abdome/abdome-agudo-e-sinais-peritoneais
   - mamas-e-geniturinario/exame-geniturinario-e-retal/exame-ginecologico

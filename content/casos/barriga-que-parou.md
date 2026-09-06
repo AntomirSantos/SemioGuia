@@ -3,6 +3,7 @@ id: barriga-que-parou
 titulo: A barriga que parou de trabalhar
 contexto: "Emergência de hospital geral. Um homem de 66 anos, operado de apendicite na juventude e de hérnia há dez anos, chega com dor abdominal em cólica há doze horas, distensão progressiva e vômitos que começaram amarelos e agora têm cheiro forte. Não elimina gases desde a noite anterior."
 tags: [abdome, abdome agudo, obstrucao intestinal, percussao]
+cenario: urgencia
 topicosDeApoio:
   - abdome/exame-do-abdome/inspecao-e-ausculta-do-abdome
   - abdome/exame-do-abdome/percussao-do-abdome

@@ -3,6 +3,7 @@ id: bebe-que-parou-de-mamar
 titulo: O bebê que parou de mamar
 contexto: "Unidade de pronto atendimento, oito da manhã. Uma mãe chega com o filho de sete meses no colo. Ele tem diarreia e vômitos há dois dias e, desde a madrugada, recusa o peito e a mamadeira. Ela conta que trocou uma fralda molhada ontem à tarde e nenhuma desde então."
 tags: [crianca, desidratacao, choque, hidratacao]
+cenario: urgencia
 topicosDeApoio:
   - semiologia-da-crianca/exame-da-crianca/crescimento-sinais-vitais-e-hidratacao
   - semiologia-da-crianca/exame-da-crianca/abordagem-e-anamnese-da-crianca

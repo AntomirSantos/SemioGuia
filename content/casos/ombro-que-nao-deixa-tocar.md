@@ -3,6 +3,7 @@ id: ombro-que-nao-deixa-tocar
 titulo: O ombro que não deixava ninguém tocar
 contexto: "Pronto atendimento de fim de semana. Um homem de 58 anos, diabético, chega com dor intensa no ombro direito há dois dias, que começou sem trauma e piorou rápido. Ele sustenta o braço junto ao corpo com a outra mão e não deixa ninguém encostar. Diz que sentiu 'um calafrio' na noite anterior."
 tags: [osteoarticular, artrite septica, ombro, monoartrite]
+cenario: urgencia
 topicosDeApoio:
   - sistema-osteoarticular/exame-osteoarticular/ombro-e-cotovelo
   - sistema-osteoarticular/exame-osteoarticular/principios-do-exame-osteoarticular

@@ -3,6 +3,7 @@ id: sopro-que-ninguem-tinha-ouvido
 titulo: O sopro que ninguém tinha ouvido antes
 contexto: "Ambulatório, consulta para exame admissional de um novo emprego. Um homem de 44 anos, assintomático, corre cinco quilômetros três vezes por semana. Durante a ausculta de rotina, você encontra um sopro que ele diz que nunca ninguém mencionou. Ele pergunta se pode assinar o atestado."
 tags: [cardiovascular, sopro, ausculta, ambulatorial]
+cenario: ambulatorio
 topicosDeApoio:
   - aparelho-cardiovascular/exame-cardiaco/sopros-cardiacos
   - aparelho-cardiovascular/exame-cardiaco/ausculta-cardiaca

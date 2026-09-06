@@ -3,6 +3,7 @@ id: cansaco-que-a-palidez-explicava
 titulo: O cansaço que a palidez explicava
 contexto: "Ambulatório de clínica geral. Uma mulher de 34 anos vem por cansaço há uns seis meses, que ela atribui à rotina de dois empregos. Diz que sobe um lance de escada e precisa parar, e que tem sentido o coração acelerar sem motivo. A colega de trabalho comentou que ela está 'meio amarela'."
 tags: [geral, anemia, palidez, mucosas]
+cenario: ambulatorio
 topicosDeApoio:
   - exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros
   - exame-fisico-geral/avaliacao-geral/ectoscopia

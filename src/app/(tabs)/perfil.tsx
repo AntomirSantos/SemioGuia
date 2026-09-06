@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
-import { Pressable, Text, TextInput, View } from 'react-native';
+import { Linking, Pressable, Text, TextInput, View } from 'react-native';
 import { Tela } from '../../design/Tela';
 import { useTema, type EscalaFonte, type PreferenciaTema } from '../../design/ThemeContext';
 import { Rotulo, RotuloDeSecao } from '../../design/Rotulo';
@@ -19,6 +19,7 @@ import { compartilharJson } from '../../analytics/compartilhar';
 import { analisarDataProva, formatarDataProva } from '../../plano/plano';
 import { FolhaFeedback } from '../../feedback/FolhaFeedback';
 import { VERSAO_APP } from '../../config/versao';
+import { URL_PRIVACIDADE } from '../../config/links';
 import { IMAGENS_DO_GUIA } from '../../config/analogias';
 import { router } from 'expo-router';
 
@@ -489,6 +490,21 @@ export function TelaPerfil() {
       <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2 }}>
         {AVISO_LEGAL}
       </Text>
+      {/* A loja exige a política acessível de dentro do app, e não só na ficha. */}
+      <Pressable
+        accessibilityRole="link"
+        accessibilityLabel="Abrir a política de privacidade no navegador"
+        onPress={() => {
+          Linking.openURL(URL_PRIVACIDADE).catch(() => {});
+        }}
+        style={{ alignSelf: 'flex-start', minHeight: 44, justifyContent: 'center', marginTop: espaco.xs }}
+      >
+        <Text
+          style={{ fontFamily: fonte.corpoBold, fontSize: Math.round(tipo.small * escala), color: paleta.acentoTinta }}
+        >
+          Política de privacidade
+        </Text>
+      </Pressable>
     </Tela>
   );
 }

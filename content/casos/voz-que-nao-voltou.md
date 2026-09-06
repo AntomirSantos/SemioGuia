@@ -3,6 +3,7 @@ id: voz-que-nao-voltou
 titulo: A voz que não voltou
 contexto: "Ambulatório de clínica geral. Um homem de 63 anos vem porque a voz está rouca há dois meses e meio. Começou depois de uma gripe e nunca mais normalizou. Ele é churrasqueiro, fuma um maço por dia desde os vinte anos e bebe cerveja quase todos os dias. Diz que a rouquidão 'não atrapalha, só incomoda'."
 tags: [cabeca e pescoco, rouquidao, bandeira vermelha, tabagismo]
+cenario: ambulatorio
 topicosDeApoio:
   - cabeca-e-pescoco/exame-de-cabeca-e-pescoco/boca-nariz-e-ouvidos
   - exame-fisico-geral/avaliacao-geral/linfonodos

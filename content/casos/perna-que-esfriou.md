@@ -3,6 +3,7 @@ id: perna-que-esfriou
 titulo: A perna que esfriou às três da tarde
 contexto: "Hospital secundário, sem serviço de cirurgia vascular na casa. Um homem de 71 anos, com claudicação antiga e fibrilação atrial de que 'tomava um comprimido que acabou', chega de cadeira de rodas: a perna direita esfriou de repente no começo da tarde."
 tags: [vascular, isquemia aguda, pulsos, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - sistema-vascular-periferico/exame-vascular-periferico/isquemia-aguda-e-aneurismas
   - sistema-vascular-periferico/exame-vascular-periferico/pulsos-arteriais-perifericos

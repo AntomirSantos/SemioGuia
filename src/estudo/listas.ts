@@ -127,6 +127,18 @@ export function listarCasosDeEstudo(conteudo: Conteudo): CasoDeEstudo[] {
 }
 
 /** Busca: título do caso primeiro, depois contexto, tags e tópicos de apoio. */
+export type FiltroDeCenario = 'todos' | 'urgencia' | 'ambulatorio';
+
+/**
+ * Filtra pelo cenário do caso. Com o acervo grande, a distinção entre o
+ * raciocínio com o relógio correndo e o raciocínio de consulta é o corte
+ * que o aluno mais usa.
+ */
+export function filtrarPorCenario(lista: CasoDeEstudo[], cenario: FiltroDeCenario): CasoDeEstudo[] {
+  if (cenario === 'todos') return lista;
+  return lista.filter((i) => i.caso.cenario === cenario);
+}
+
 export function filtrarCasos(lista: CasoDeEstudo[], termo: string): CasoDeEstudo[] {
   const t = normalizar(termo.trim());
   if (t.length === 0) return lista;

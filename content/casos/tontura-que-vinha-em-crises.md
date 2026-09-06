@@ -3,6 +3,7 @@ id: tontura-que-vinha-em-crises
 titulo: A tontura que vinha em crises
 contexto: "Ambulatório de clínica geral. Uma mulher de 58 anos vem por tontura há três semanas. Ela usa a palavra tontura para várias coisas diferentes ao longo da conversa: às vezes descreve o mundo girando, às vezes uma sensação de desmaio ao levantar. Já tomou dois remédios diferentes indicados na farmácia."
 tags: [cabeca e pescoco, vertigem, tontura, manobras]
+cenario: ambulatorio
 topicosDeApoio:
   - cabeca-e-pescoco/exame-de-cabeca-e-pescoco/boca-nariz-e-ouvidos
   - sistema-nervoso/exame-neurologico/marcha-e-sinais-meningeos

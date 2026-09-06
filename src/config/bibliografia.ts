@@ -12,4 +12,5 @@ export const BIBLIOGRAFIA: string[] = [
   'Diretriz Brasileira de Hipertensão Arterial, 2025 (SBC/SBH/SBN)',
   'SBP, Documento Científico nº 206: febre aguda em pediatria (2025)',
   'HF_Lung_V1, dataset aberto de sons respiratórios (CC BY 4.0)',
+  'CirCor DigiScope Phonocardiogram Dataset, PhysioNet, sons cardíacos (ODC-BY 1.0)',
 ];

@@ -3,6 +3,7 @@ id: panturrilha-que-inchou-na-viagem
 titulo: A panturrilha que inchou na viagem
 contexto: "Ambulatório de clínica geral, segunda-feira. Uma mulher de 44 anos voltou ontem de uma viagem de ônibus de dezoito horas e acordou hoje com a perna esquerda inchada e dolorida. Ela usa anticoncepcional combinado e fuma cerca de dez cigarros por dia. Chegou andando, com dificuldade, apoiada no marido."
 tags: [vascular, trombose venosa, edema, membro inferior]
+cenario: ambulatorio
 topicosDeApoio:
   - sistema-vascular-periferico/exame-vascular-periferico/doenca-venosa-cronica-e-trombose
   - exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros

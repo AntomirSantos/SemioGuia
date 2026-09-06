@@ -3,6 +3,7 @@ id: adolescente-que-respirava-fundo
 titulo: O adolescente que respirava fundo demais
 contexto: "Pronto atendimento, domingo à tarde. Um rapaz de 16 anos chega levado pela mãe por vômitos e dor abdominal há um dia. Ela conta que ele emagreceu bastante nos últimos dois meses, bebe água o tempo todo e levanta várias vezes à noite para urinar. Ninguém na família tem diabetes."
 tags: [geral, cetoacidose, desidratacao, respiracao]
+cenario: urgencia
 topicosDeApoio:
   - exame-fisico-geral/avaliacao-geral/antropometria-e-hidratacao
   - exame-fisico-geral/sinais-vitais/temperatura-e-frequencia-respiratoria

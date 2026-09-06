@@ -3,6 +3,7 @@ id: joelho-do-sabado
 titulo: O joelho do futebol de sábado
 contexto: "Pronto atendimento de sábado à tarde. Um homem de 26 anos entra amparado pelos amigos, com o joelho direito volumoso por baixo do shorts do futebol. Ele repete a frase clássica: 'travei o pé no chão, girei, ouvi um estalo'."
 tags: [osteoarticular, joelho, trauma, Ottawa, Lachman]
+cenario: urgencia
 topicosDeApoio:
   - sistema-osteoarticular/exame-osteoarticular/quadril-e-joelho
   - sistema-osteoarticular/exame-osteoarticular/principios-do-exame-osteoarticular

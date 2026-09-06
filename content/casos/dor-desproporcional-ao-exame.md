@@ -3,6 +3,7 @@ id: dor-desproporcional-ao-exame
 titulo: A dor que o abdome não confirmava
 contexto: "Emergência, começo da manhã. Uma mulher de 74 anos, com fibrilação atrial e anticoagulação suspensa há duas semanas para uma extração dentária, chega com dor abdominal intensa e contínua que começou há quatro horas, de forma súbita. Ela grita de dor, e a barriga, quando você a examina, está quase normal."
 tags: [abdome, abdome agudo, isquemia mesenterica, fibrilacao atrial]
+cenario: urgencia
 topicosDeApoio:
   - abdome/exame-do-abdome/abdome-agudo-e-sinais-peritoneais
   - abdome/exame-do-abdome/inspecao-e-ausculta-do-abdome

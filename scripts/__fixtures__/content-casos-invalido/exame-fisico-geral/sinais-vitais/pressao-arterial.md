@@ -2,6 +2,7 @@
 titulo: Pressão arterial
 ordem: 1
 tags: [vitais]
+cenario: urgencia
 referencias: ["Referência de teste"]
 revisao: pendente
 ---

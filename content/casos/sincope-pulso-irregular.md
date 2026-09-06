@@ -3,6 +3,7 @@ id: sincope-pulso-irregular
 titulo: A síncope e o pulso que ninguém contou
 contexto: "Você é o interno da enfermaria de clínica médica. A técnica chama você ao leito 12: dona Neusa, 74 anos, internada há dois dias para ajuste de diuréticos, desmaiou ao levantar-se da poltrona."
 tags: [cardiovascular, sinais vitais, pulso, arritmia, síncope]
+cenario: urgencia
 topicosDeApoio:
   - aparelho-cardiovascular/exame-cardiaco/ausculta-cardiaca
   - exame-fisico-geral/sinais-vitais/frequencia-cardiaca-e-pulso

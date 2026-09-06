@@ -3,6 +3,7 @@ id: febre-na-crianca
 titulo: Febre em uma criança de 3 anos
 contexto: "Você é o interno do pronto-atendimento de pediatria. A mãe entra com Helena, 3 anos, no colo: febre desde ontem à noite e, hoje, uma moleza que ela nunca tinha visto."
 tags: [pediatria, emergencia, sinais vitais, temperatura, febre]
+cenario: urgencia
 topicosDeApoio:
   - semiologia-da-crianca/exame-da-crianca/crescimento-sinais-vitais-e-hidratacao
   - exame-fisico-geral/sinais-vitais/temperatura-e-frequencia-respiratoria

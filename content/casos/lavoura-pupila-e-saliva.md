@@ -3,6 +3,7 @@ id: lavoura-pupila-e-saliva
 titulo: Voltou da lavoura passando mal
 contexto: "Unidade de pronto atendimento rural, fim de tarde. Um homem de 35 anos é trazido por colegas depois de passar mal enquanto pulverizava a plantação. Ele está sonolento, salivando muito e com a roupa encharcada de suor e do produto que usava. Os colegas dizem que ele 'começou a passar mal uma hora depois de começar o serviço'."
 tags: [neurologico, intoxicacao, organofosforado, pupilas]
+cenario: urgencia
 topicosDeApoio:
   - sistema-nervoso/exame-neurologico/consciencia-e-estado-mental
   - sistema-nervoso/exame-neurologico/pares-cranianos-i-a-vi

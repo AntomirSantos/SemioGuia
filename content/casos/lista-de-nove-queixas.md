@@ -3,6 +3,7 @@ id: lista-de-nove-queixas
 titulo: A lista de nove queixas
 contexto: "Ambulatório de clínica geral, consulta de quinze minutos. Uma mulher de 52 anos senta, tira do bolso um papel dobrado e diz: 'anotei tudo para não esquecer'. São nove itens escritos à mão, de dor de cabeça a formigamento nos pés, passando por azia, cansaço e 'uma coisa estranha no peito'."
 tags: [anamnese, polissintomatico, priorizacao, entrevista]
+cenario: ambulatorio
 topicosDeApoio:
   - anamnese/entrevista-clinica/interrogatorio-sintomatologico
   - anamnese/entrevista-clinica/queixa-principal-e-hda

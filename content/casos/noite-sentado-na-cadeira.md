@@ -3,6 +3,7 @@ id: noite-sentado-na-cadeira
 titulo: A terceira noite sentado na cadeira
 contexto: "Visita domiciliar de rotina que vira urgência. Um homem de 72 anos, com insuficiência cardíaca conhecida, conta que parou o diurético faz duas semanas 'porque dava muito xixi e ele não conseguia dormir'. Há três noites ele dorme sentado na poltrona da sala, e nesta madrugada não conseguiu nem isso."
 tags: [cardiovascular, insuficiencia cardiaca, congestao, jugular]
+cenario: urgencia
 topicosDeApoio:
   - aparelho-cardiovascular/exame-cardiaco/pulso-venoso-jugular-e-turgencia
   - aparelho-cardiovascular/exame-cardiaco/ausculta-cardiaca

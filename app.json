@@ -2,15 +2,18 @@
   "expo": {
     "name": "SemioGuia",
     "slug": "semioguia",
-    "version": "1.0.0",
+    "version": "1.2.32",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "semioguia",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "br.com.semioguia.app"
     },
     "android": {
+      "package": "br.com.semioguia.app",
+      "versionCode": 2,
       "adaptiveIcon": {
         "backgroundColor": "#8E1F2F",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -40,6 +43,8 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "primaryColor": "#8E1F2F",
+    "description": "Guia de semiologia médica em português, com 12 sistemas, casos clínicos ramificados, checklists de exame e revisão espaçada. Funciona offline."
   }
 }

@@ -3,6 +3,7 @@ id: maos-que-amanhecem-duras
 titulo: As mãos que amanhecem duras
 contexto: "Ambulatório de clínica geral. Uma mulher de 46 anos vem por dor nas mãos há três meses. Diz que de manhã leva um tempo até conseguir abrir o vidro de café, e que melhora depois que 'se mexe um pouco'. Já usou anti-inflamatório por conta própria, com alívio parcial. Está preocupada porque a mãe teve artrite."
 tags: [osteoarticular, poliartralgia, padrao inflamatorio, maos]
+cenario: ambulatorio
 topicosDeApoio:
   - sistema-osteoarticular/exame-osteoarticular/principios-do-exame-osteoarticular
   - sistema-osteoarticular/exame-osteoarticular/punho-e-mao

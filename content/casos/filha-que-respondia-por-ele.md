@@ -3,6 +3,7 @@ id: filha-que-respondia-por-ele
 titulo: A filha que respondia por ele
 contexto: "Ambulatório de clínica geral. Um homem de 74 anos entra acompanhado da filha, que puxa a cadeira, senta primeiro e começa a falar antes que você pergunte qualquer coisa. Ele senta ao lado, quieto, e olha para ela sempre que você dirige uma pergunta a ele."
 tags: [anamnese, entrevista, acompanhante, autonomia]
+cenario: ambulatorio
 topicosDeApoio:
   - anamnese/entrevista-clinica/a-entrevista-clinica
   - anamnese/entrevista-clinica/antecedentes-e-habitos

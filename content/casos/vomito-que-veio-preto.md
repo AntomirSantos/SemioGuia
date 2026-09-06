@@ -3,6 +3,7 @@ id: vomito-que-veio-preto
 titulo: O vômito que veio preto
 contexto: "Emergência de hospital geral, oito da noite. Um homem de 54 anos chega trazido pela esposa depois de vomitar duas vezes um material escuro, que ela descreve como 'borra de café'. Ele diz que está fraco desde ontem e que quase desmaiou ao levantar da cama hoje de manhã. Bebe diariamente há vinte anos."
 tags: [abdome, hemorragia digestiva, hipovolemia, hepatopatia]
+cenario: urgencia
 topicosDeApoio:
   - abdome/exame-do-abdome/palpacao-do-abdome
   - exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros

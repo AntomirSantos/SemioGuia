@@ -3,6 +3,7 @@ id: tosse-de-oito-semanas
 titulo: A tosse que já dura oito semanas
 contexto: "Ambulatório de clínica geral. Uma mulher de 57 anos vem pela terceira vez pela mesma tosse, que começou há dois meses. Já tomou dois antibióticos e um xarope. Fuma desde os dezenove anos, cerca de um maço por dia. Diz que a tosse é seca, pior de manhã, e que uma vez saiu 'um fiapo de sangue' no lenço."
 tags: [respiratorio, tosse cronica, bandeira vermelha, tabagismo]
+cenario: ambulatorio
 topicosDeApoio:
   - aparelho-respiratorio/exame-do-torax/ausculta-pulmonar
   - aparelho-respiratorio/exame-do-torax/inspecao-do-torax

@@ -3,6 +3,7 @@ id: coracao-disparado-e-pescoco-quente
 titulo: O coração disparado e o pescoço quente
 contexto: "Emergência de hospital geral, segunda-feira. Uma mulher de 42 anos chega agitada, suando muito, dizendo que o coração está disparado desde ontem. A irmã conta que ela emagreceu bastante nos últimos meses, anda irritada e insone, e que parou o remédio da tireoide há dois meses porque 'estava se sentindo bem'. Ela teve uma infecção urinária tratada na semana passada."
 tags: [cabeca e pescoco, tireotoxicose, tireoide, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - cabeca-e-pescoco/exame-de-cabeca-e-pescoco/tireoide-e-pescoco
   - exame-fisico-geral/sinais-vitais/temperatura-e-frequencia-respiratoria

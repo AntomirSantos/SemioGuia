@@ -3,6 +3,7 @@ id: barriga-de-tabua
 titulo: A barriga que virou tábua
 contexto: "Pronto socorro, seis da tarde. Um homem de 52 anos, que toma anti-inflamatório há três semanas por dor na coluna, chega curvado, andando devagar e com passos curtos. Diz que a dor começou de repente, há duas horas, 'como uma facada' no alto da barriga, e que agora dói o abdome inteiro."
 tags: [abdome, abdome agudo, perfuracao, peritonite]
+cenario: urgencia
 topicosDeApoio:
   - abdome/exame-do-abdome/abdome-agudo-e-sinais-peritoneais
   - abdome/exame-do-abdome/percussao-do-abdome

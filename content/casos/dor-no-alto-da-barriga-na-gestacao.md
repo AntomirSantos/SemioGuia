@@ -3,6 +3,7 @@ id: dor-no-alto-da-barriga-na-gestacao
 titulo: A dor no alto da barriga que não era gastrite
 contexto: "Unidade de pronto atendimento, sábado à tarde. Uma gestante de 31 anos, com 34 semanas, chega com dor no alto da barriga desde a manhã. Ela acha que é gastrite, porque comeu feijoada ontem. Diz também que enxergou 'umas luzinhas' quando levantou, e que os pés e as mãos incharam bastante essa semana."
 tags: [geniturinario, pre-eclampsia, gestacao, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - mamas-e-geniturinario/exame-geniturinario-e-retal/exame-ginecologico
   - exame-fisico-geral/sinais-vitais/pressao-arterial

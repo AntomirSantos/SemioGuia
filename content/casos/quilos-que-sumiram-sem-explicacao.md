@@ -3,6 +3,7 @@ id: quilos-que-sumiram-sem-explicacao
 titulo: Os quilos que sumiram sem explicação
 contexto: "Ambulatório de clínica geral. Um homem de 71 anos vem à consulta de rotina e menciona, quase de passagem, que 'as calças estão largas'. Ele não pesava havia mais de um ano. A balança de hoje mostra oito quilos a menos que o registro de dezoito meses atrás, e ele nega dieta ou exercício novo."
 tags: [geral, emagrecimento, idoso, investigacao]
+cenario: ambulatorio
 topicosDeApoio:
   - exame-fisico-geral/avaliacao-geral/antropometria-e-hidratacao
   - exame-fisico-geral/avaliacao-geral/linfonodos

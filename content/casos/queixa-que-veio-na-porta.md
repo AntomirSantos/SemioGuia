@@ -3,6 +3,7 @@ id: queixa-que-veio-na-porta
 titulo: A queixa que só apareceu na porta
 contexto: "Ambulatório de clínica geral, consulta de rotina. Um homem de 41 anos veio 'renovar a receita da pressão'. A consulta correu tranquila, ele respondeu tudo de forma breve e você já estava imprimindo a receita. Ao se levantar, com a mão na maçaneta, ele diz: 'doutor, só uma coisinha rápida'."
 tags: [anamnese, agenda oculta, entrevista, queixa principal]
+cenario: ambulatorio
 topicosDeApoio:
   - anamnese/entrevista-clinica/a-entrevista-clinica
   - anamnese/entrevista-clinica/queixa-principal-e-hda

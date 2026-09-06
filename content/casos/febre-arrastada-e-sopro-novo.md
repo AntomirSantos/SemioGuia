@@ -3,6 +3,7 @@ id: febre-arrastada-e-sopro-novo
 titulo: A febre arrastada e o sopro que não existia
 contexto: "Ambulatório de clínica geral. Um homem de 39 anos vem pela terceira vez em cinco semanas com febre baixa, cansaço e falta de apetite. Já tomou dois antibióticos diferentes por 'infecção de garganta' e por 'infecção urinária', sem melhora. Perdeu seis quilos nesse período."
 tags: [cardiovascular, endocardite, sopro, febre de origem indeterminada]
+cenario: ambulatorio
 topicosDeApoio:
   - aparelho-cardiovascular/exame-cardiaco/sopros-cardiacos
   - exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros

@@ -10,8 +10,15 @@ import { espaco, fonte, raio, tipo } from '../design/tokens';
 import { useConteudo } from '../content/ContentContext';
 import { useProgresso } from '../progress/ProgressContext';
 import { useDadosAoFocar } from '../progress/useDadosAoFocar';
-import { agruparPorSistema, filtrarCasos, listarCasosDeEstudo, type CasoDeEstudo } from '../estudo/listas';
-import { AcaoDoVerbete, CampoDeBusca, GruposPorSistema, LinhaExpansivel } from '../estudo/ListaPorSistema';
+import {
+  agruparPorSistema,
+  filtrarCasos,
+  filtrarPorCenario,
+  listarCasosDeEstudo,
+  type CasoDeEstudo,
+  type FiltroDeCenario,
+} from '../estudo/listas';
+import { AcaoDoVerbete, CampoDeBusca, ChipsDeFiltro, GruposPorSistema, LinhaExpansivel } from '../estudo/ListaPorSistema';
 import { melhorClasse, CLASSE_LABEL, corDaClasse } from '../casos/desfecho';
 import { track } from '../analytics/analytics';
 import type { ClasseDesfecho } from '../content/casoSchema';
@@ -119,9 +126,14 @@ export function TelaCasos() {
   const { paleta, escala } = useTema();
   const conteudo = useConteudo();
   const progresso = useProgresso();
-  const lista = useMemo(() => listarCasosDeEstudo(conteudo), [conteudo]);
+  const todos = useMemo(() => listarCasosDeEstudo(conteudo), [conteudo]);
   const [termo, setTermo] = useState('');
+  const [cenario, setCenario] = useState<FiltroDeCenario>('todos');
   const [abertos, setAbertos] = useState<Set<string>>(new Set());
+
+  const lista = useMemo(() => filtrarPorCenario(todos, cenario), [todos, cenario]);
+  const nUrgencia = useMemo(() => todos.filter((i) => i.caso.cenario === 'urgencia').length, [todos]);
+  const nAmbulatorio = todos.length - nUrgencia;
 
   const resultados = useMemo(() => filtrarCasos(lista, termo), [lista, termo]);
   const grupos = useMemo(() => {
@@ -139,13 +151,13 @@ export function TelaCasos() {
   // reexecuta a cada render e vira laço.
   const carregarMelhores = useCallback(async () => {
     const pares = await Promise.all(
-      lista.map(async (item) => {
+      todos.map(async (item) => {
         const conclusoes = await progresso.listarConclusoesCasos(item.caso.id);
         return [item.caso.id, melhorClasse(conclusoes.map((c) => c.classe))] as const;
       }),
     );
     return Object.fromEntries(pares) as Record<string, ClasseDesfecho | null>;
-  }, [lista, progresso]);
+  }, [todos, progresso]);
   const melhores = useDadosAoFocar(carregarMelhores) ?? {};
   const concluidos = useMemo(() => lista.filter((i) => melhores[i.caso.id]).length, [lista, melhores]);
 
@@ -184,6 +196,18 @@ export function TelaCasos() {
         onChange={setTermo}
         placeholder="Caso, queixa ou tópico: dispneia, torção, delirium…"
         rotulo="Buscar caso clínico"
+      />
+      {/* Com 67 casos, o corte que o aluno mais usa é o cenário: decidir com o
+          relógio correndo é outro exercício que decidir numa consulta. */}
+      <ChipsDeFiltro
+        rotulo="Filtrar casos por cenário"
+        valor={cenario}
+        onChange={setCenario}
+        opcoes={[
+          { valor: 'todos', texto: `Todos ${todos.length}` },
+          { valor: 'urgencia', texto: `Urgência ${nUrgencia}` },
+          { valor: 'ambulatorio', texto: `Ambulatório ${nAmbulatorio}` },
+        ]}
       />
       <Rotulo
         texto={
@@ -227,7 +251,9 @@ export function TelaCasos() {
             marginTop: espaco.m,
           }}
         >
-          Nenhum caso com esse termo. Tente o sistema, a queixa principal ou o nome de um tópico.
+          {cenario === 'todos'
+            ? 'Nenhum caso com esse termo. Tente o sistema, a queixa principal ou o nome de um tópico.'
+            : 'Nenhum caso com esse termo neste cenário. Tente em Todos, ou busque pelo sistema ou pela queixa.'}
         </Text>
       ) : null}
     </Tela>

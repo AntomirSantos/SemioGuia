@@ -3,6 +3,7 @@ id: pior-dor-de-cabeca-da-vida
 titulo: A pior dor de cabeça da vida dela
 contexto: "Pronto atendimento numa quarta à tarde. Uma mulher de 45 anos, que se descreve como enxaquecosa desde a adolescência, chega dizendo que a dor de hoje é diferente: veio de uma vez, na nuca, enquanto ela levantava uma caixa, e chegou ao máximo em poucos segundos. Ela já tomou o analgésico de sempre e não melhorou."
 tags: [neurologico, cefaleia, hemorragia subaracnoide, sinais meningeos]
+cenario: urgencia
 topicosDeApoio:
   - sistema-nervoso/exame-neurologico/marcha-e-sinais-meningeos
   - sistema-nervoso/exame-neurologico/consciencia-e-estado-mental

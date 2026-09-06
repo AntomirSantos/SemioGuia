@@ -3,6 +3,7 @@ id: placas-que-subiram-em-dez-minutos
 titulo: As placas que subiram em dez minutos
 contexto: "Sala de observação de uma unidade básica. Um homem de 31 anos recebeu a primeira dose de um antibiótico injetável há quinze minutos e agora coça o corpo inteiro. A técnica de enfermagem chama você porque ele 'ficou vermelho e está diferente'. Ele está de pé, andando pela sala, inquieto."
 tags: [geral, anafilaxia, pele, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros
   - exame-fisico-geral/sinais-vitais/pressao-arterial

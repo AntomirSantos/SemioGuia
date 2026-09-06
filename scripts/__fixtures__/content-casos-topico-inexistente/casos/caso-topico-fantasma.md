@@ -3,6 +3,7 @@ id: caso-topico-fantasma
 titulo: Caso com tópico de apoio inexistente
 contexto: Você é o interno de plantão.
 tags: [emergencia]
+cenario: urgencia
 topicosDeApoio: [nao-existe/nao-existe/nao-existe]
 referencias: ["Referência de teste"]
 revisao: pendente

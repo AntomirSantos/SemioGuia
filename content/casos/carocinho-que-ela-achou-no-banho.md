@@ -3,6 +3,7 @@ id: carocinho-que-ela-achou-no-banho
 titulo: O carocinho que ela achou no banho
 contexto: "Ambulatório de clínica geral. Uma mulher de 48 anos vem porque encontrou um nódulo na mama esquerda durante o banho, há duas semanas. Ela está nitidamente ansiosa e diz que a mãe teve câncer de mama aos 60 anos. Fez a última mamografia há três anos, que veio normal."
 tags: [mamas, nodulo mamario, exame das mamas, ambulatorial]
+cenario: ambulatorio
 topicosDeApoio:
   - mamas-e-geniturinario/exame-das-mamas/nodulo-mamario-e-descarga-papilar
   - mamas-e-geniturinario/exame-das-mamas/exame-das-mamas

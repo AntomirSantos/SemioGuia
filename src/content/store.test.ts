@@ -6,6 +6,7 @@ const casoBase: Caso = {
   titulo: 'Caso 1',
   contexto: 'Você é o interno.',
   tags: [],
+  cenario: 'urgencia' as const,
   topicosDeApoio: ['a/c1/t1'],
   referencias: ['Ref'],
   revisao: 'pendente',

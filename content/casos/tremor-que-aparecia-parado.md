@@ -3,6 +3,7 @@ id: tremor-que-aparecia-parado
 titulo: O tremor que aparecia com a mão parada
 contexto: "Ambulatório de clínica geral. Um homem de 69 anos vem porque a mão direita treme. Ele diz que percebeu há uns oito meses, e que o filho notou antes dele. Acha que é 'nervoso', porque tem passado por dificuldades. A esposa comenta que ele anda mais devagar e que a letra dele diminuiu de tamanho."
 tags: [neurologico, tremor, parkinsonismo, marcha]
+cenario: ambulatorio
 topicosDeApoio:
   - sistema-nervoso/exame-neurologico/forca-tonus-e-reflexos
   - sistema-nervoso/exame-neurologico/marcha-e-sinais-meningeos

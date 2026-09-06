@@ -3,6 +3,7 @@ id: dor-que-acordou-o-menino
 titulo: A dor que acordou o menino às 3 da manhã
 contexto: "Pronto atendimento, madrugada. Um adolescente de 14 anos chega curvado, amparado pelo pai, pálido e com ânsia. A dor começou há pouco mais de uma hora, de repente, 'lá embaixo', e ele mal deixa alguém chegar perto."
 tags: [geniturinario, escroto agudo, torcao testicular, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - mamas-e-geniturinario/exame-geniturinario-e-retal/genitalia-masculina-e-hernias
 referencias:

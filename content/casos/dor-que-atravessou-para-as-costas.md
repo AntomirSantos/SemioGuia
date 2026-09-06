@@ -3,6 +3,7 @@ id: dor-que-atravessou-para-as-costas
 titulo: A dor que atravessou para as costas
 contexto: "Pronto socorro, madrugada de domingo. Um homem de 46 anos chega curvado para a frente, segurando a barriga. Diz que a dor começou há oito horas no alto do abdome, forte e contínua, e que atravessa para as costas. Vomitou várias vezes sem alívio nenhum. Bebeu bastante na festa de sábado."
 tags: [abdome, pancreatite, dor epigastrica, gravidade]
+cenario: urgencia
 topicosDeApoio:
   - abdome/exame-do-abdome/abdome-agudo-e-sinais-peritoneais
   - abdome/exame-do-abdome/palpacao-do-abdome

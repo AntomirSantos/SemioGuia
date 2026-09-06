@@ -3,6 +3,7 @@ id: crise-hipertensiva
 titulo: A pressão que chegou em 210 por 130
 contexto: "Você é o interno de plantão na UPA. A enfermagem chama você à sala amarela: um homem de 58 anos acabou de chegar e a pressão da triagem assustou todo mundo."
 tags: [emergencia, cardiovascular, sinais vitais, pressão arterial]
+cenario: urgencia
 topicosDeApoio:
   - exame-fisico-geral/sinais-vitais/pressao-arterial
   - exame-fisico-geral/sinais-vitais/frequencia-cardiaca-e-pulso

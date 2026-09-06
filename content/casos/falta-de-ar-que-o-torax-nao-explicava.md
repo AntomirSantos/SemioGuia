@@ -3,6 +3,7 @@ id: falta-de-ar-que-o-torax-nao-explicava
 titulo: A falta de ar que o tórax não explicava
 contexto: "Pronto socorro de uma tarde de terça. Uma mulher de 38 anos, operada de fratura de tornozelo há doze dias e ainda com a bota imobilizadora, chega dizendo que ficou sem ar de repente enquanto assistia à novela. Ela mesma sugere que pode ser ansiedade, porque anda dormindo mal desde a cirurgia."
 tags: [respiratorio, tromboembolismo, dispneia, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - aparelho-respiratorio/exame-do-torax/ausculta-pulmonar
   - sistema-vascular-periferico/exame-vascular-periferico/doenca-venosa-cronica-e-trombose

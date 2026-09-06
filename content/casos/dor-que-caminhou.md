@@ -3,6 +3,7 @@ id: dor-que-caminhou
 titulo: A dor que caminhou até a fossa direita
 contexto: "Pronto atendimento, fim de manhã. Uma mulher de 24 anos chega andando devagar, meio curvada, com a mão espalmada sobre o lado direito do baixo ventre. A acompanhante conta que ontem a dor era 'no meio da barriga' e hoje mudou de endereço."
 tags: [abdome, dor abdominal, apendicite, peritonite, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - abdome/exame-do-abdome/abdome-agudo-e-sinais-peritoneais
   - abdome/exame-do-abdome/palpacao-do-abdome

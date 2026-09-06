@@ -3,6 +3,7 @@ id: bebe-que-nao-ganha-peso
 titulo: O bebê que não ganha peso
 contexto: "Consulta de puericultura. Uma mãe traz o filho de 7 meses para a consulta de rotina. Ela diz que ele mama bem e come tudo o que oferece. A caderneta mostra que o peso, que vinha subindo na mesma faixa desde o nascimento, cruzou duas linhas para baixo nos últimos três meses."
 tags: [crianca, crescimento, curva de peso, puericultura]
+cenario: ambulatorio
 topicosDeApoio:
   - semiologia-da-crianca/exame-da-crianca/crescimento-sinais-vitais-e-hidratacao
   - semiologia-da-crianca/exame-da-crianca/abordagem-e-anamnese-da-crianca

@@ -3,6 +3,7 @@ id: braco-que-caiu-as-sete-da-manha
 titulo: O braço que caiu às sete da manhã
 contexto: "Emergência de hospital com tomógrafo e protocolo de trombólise. Uma mulher de 68 anos chega às 8h10 trazida pelo marido: às 7h em ponto, tomando café, o braço direito 'largou' a xícara e a fala embolou. Ele conta que ela estava bem quando acordaram, às 6h30, e que ontem à noite dormiram sem nenhuma queixa."
 tags: [neurologico, avc, janela terapeutica, forca]
+cenario: urgencia
 topicosDeApoio:
   - sistema-nervoso/exame-neurologico/forca-tonus-e-reflexos
   - sistema-nervoso/exame-neurologico/pares-cranianos-vii-a-xii

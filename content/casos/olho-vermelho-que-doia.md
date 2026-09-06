@@ -3,6 +3,7 @@ id: olho-vermelho-que-doia
 titulo: O olho vermelho que doía de verdade
 contexto: "Unidade de pronto atendimento, nove da noite. Uma mulher de 62 anos chega com o olho direito vermelho e doendo desde o fim da tarde. Diz que a dor irradia para a testa, que enjoou e vomitou uma vez, e que está vendo halos coloridos ao redor das lâmpadas. Ela cobre o olho com a mão porque a luz incomoda."
 tags: [cabeca e pescoco, olho vermelho, glaucoma agudo, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - cabeca-e-pescoco/exame-de-cabeca-e-pescoco/olhos
   - cabeca-e-pescoco/exame-de-cabeca-e-pescoco/cranio-e-face

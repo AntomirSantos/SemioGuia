@@ -3,6 +3,7 @@ id: consulta-dos-dezoito-segundos
 titulo: A consulta dos dezoito segundos
 contexto: "Unidade básica, agenda cheia, 15 minutos por consulta. Entra uma mulher de 34 anos, professora, com a queixa anotada pela recepção: 'dor de cabeça há 3 meses'. Você tem a mão no teclado e a fila na porta."
 tags: [anamnese, entrevista, cefaleia, tecnica de entrevista, agenda oculta]
+cenario: ambulatorio
 topicosDeApoio:
   - anamnese/entrevista-clinica/a-entrevista-clinica
   - anamnese/entrevista-clinica/queixa-principal-e-hda

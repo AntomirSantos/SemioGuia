@@ -3,6 +3,7 @@ id: caso-dup
 titulo: Caso dois
 contexto: Você é o interno de plantão.
 tags: [emergencia]
+cenario: urgencia
 topicosDeApoio: [exame-fisico-geral/sinais-vitais/pressao-arterial]
 referencias: ["Referência de teste"]
 revisao: pendente

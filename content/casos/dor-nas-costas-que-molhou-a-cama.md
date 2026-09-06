@@ -3,6 +3,7 @@ id: dor-nas-costas-que-molhou-a-cama
 titulo: A dor nas costas que molhou a cama
 contexto: "Pronto atendimento, domingo de manhã. Um homem de 47 anos chega com dor lombar há duas semanas, que piorou muito nos últimos dois dias e agora desce pelas duas pernas. Ele conta, constrangido, que hoje de madrugada urinou na cama sem perceber, coisa que nunca aconteceu na vida dele."
 tags: [osteoarticular, cauda equina, coluna, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - sistema-osteoarticular/exame-osteoarticular/coluna-vertebral
   - sistema-nervoso/exame-neurologico/sensibilidade-e-coordenacao

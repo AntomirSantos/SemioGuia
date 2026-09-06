@@ -3,6 +3,7 @@ id: dor-que-nao-cabia-na-mancha
 titulo: A dor que não cabia na mancha
 contexto: "Emergência de hospital geral, sábado à noite. Um homem de 61 anos, diabético, chega com dor na coxa esquerda há um dia e uma mancha vermelha que a esposa diz ter aparecido de manhã e crescido durante a tarde. Ele diz que a dor é muito forte, e a mancha, quando você olha, parece pequena para o tamanho da queixa."
 tags: [geral, fasciite necrosante, pele, emergencia]
+cenario: urgencia
 topicosDeApoio:
   - exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros
   - exame-fisico-geral/sinais-vitais/frequencia-cardiaca-e-pulso
