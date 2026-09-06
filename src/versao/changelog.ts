@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.31',
+    data: '2026-09-06',
+    linhas: [
+      'Vinte casos ambulatoriais novos, de raciocínio diagnóstico: a queixa dita na porta, a lista de nove queixas, emagrecimento no idoso, anemia, tontura, rouquidão, sopro achado por acaso, tosse crônica, dispneia progressiva, claudicação, pé diabético, poliartralgia, ombro doloroso, nódulo de mama, sintomas prostáticos, tremor, memória, rastreio de álcool e ganho de peso do lactente',
+      'O acervo chega a 67 casos e fica equilibrado entre os sistemas: nenhum tem menos de quatro nem mais de oito',
+      'O app deixa de ser só de urgência: agora treina também a consulta ambulatorial, onde a decisão se resolve pela história e pelo exame, e não pela pressa',
+    ],
+  },
+  {
     versao: '1.2.30',
     data: '2026-09-06',
     linhas: [

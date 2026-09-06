@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.31 (2026-09-06)
+
+- Vinte casos ambulatoriais novos, de raciocínio diagnóstico: a queixa dita na porta, a lista de nove queixas, emagrecimento no idoso, anemia, tontura, rouquidão, sopro achado por acaso, tosse crônica, dispneia progressiva, claudicação, pé diabético, poliartralgia, ombro doloroso, nódulo de mama, sintomas prostáticos, tremor, memória, rastreio de álcool e ganho de peso do lactente
+- O acervo chega a 67 casos e fica equilibrado entre os sistemas: nenhum tem menos de quatro nem mais de oito
+- O app deixa de ser só de urgência: agora treina também a consulta ambulatorial, onde a decisão se resolve pela história e pelo exame, e não pela pressa
+
 ## 1.2.30 (2026-09-06)
 
 - Quinze casos clínicos novos: pancreatite, colangite, hemorragia digestiva alta, endocardite, tamponamento cardíaco, síndrome compartimental, fasciíte necrosante, celulite orbitária, pré-eclâmpsia grave, crise tireotóxica, insuficiência adrenal aguda, síndrome da cauda equina, epiglotite na criança, intoxicação por agrotóxico e estado de mal epiléptico
