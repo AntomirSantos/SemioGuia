@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.26',
+    data: '2026-09-06',
+    linhas: [
+      'O estridor agora é gravação clínica real (HF_Lung_V1), com seis ciclos inspiratórios rotulados; a faixa de tom real ficou registrada no próprio tópico',
+      'Metade dos 20 sons do app já é gravação real; o garimpo por um sopro contínuo verdadeiro no CirCor deu negativo e está documentado',
+      'A busca por fontes abertas para galopes, atritos e sons traqueais foi registrada: nenhuma licença disponível passa no critério do guia, e as pistas ficaram anotadas para o autor',
+    ],
+  },
+  {
     versao: '1.2.25',
     data: '2026-09-06',
     linhas: [

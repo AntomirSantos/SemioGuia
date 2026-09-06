@@ -342,7 +342,7 @@ texto: |
 
   **Roncos** são graves, de baixa frequência. **Sibilos** são agudos, de alta frequência. Ambos ocorrem na inspiração e na expiração, com predomínio expiratório, e são fugazes: surgem e desaparecem em curto período. Quando difusos por todo o tórax, traduzem doença de toda a árvore brônquica, como asma e bronquite. Quando bem localizados em uma região, apontam obstrução parcial por neoplasia ou corpo estranho, e essa distinção entre difuso e localizado é a informação clínica mais importante que eles carregam.
 
-  **Estridor** é um ruído musical de altura constante, em torno de 400 Hz, produzido pela obstrução parcial da laringe ou da traqueia. Acusticamente é idêntico ao sibilo, e duas características o separam dele: o estridor é **inspiratório**, enquanto o sibilo é apenas expiratório ou expiratório e inspiratório; e o estridor é **sempre mais audível sobre o pescoço**, enquanto o sibilo é sempre mais audível sobre o tórax. Na respiração calma sua intensidade é pequena; na respiração forçada, o aumento do fluxo o intensifica muito, e em alguns pacientes ele só aparece quando se pede respiração rápida de boca aberta.
+  **Estridor** é um ruído musical de altura constante, em torno de 400 Hz nas descrições clássicas, produzido pela obstrução parcial da laringe ou da traqueia. A gravação real deste guia, rotulada em dataset aberto, mostra o tom variando entre cerca de 140 e 380 Hz de ciclo para ciclo: o valor clássico é típico, não regra, e o que decide o diagnóstico é a fase inspiratória com predomínio cervical, não o número exato. Acusticamente é idêntico ao sibilo, e duas características o separam dele: o estridor é **inspiratório**, enquanto o sibilo é apenas expiratório ou expiratório e inspiratório; e o estridor é **sempre mais audível sobre o pescoço**, enquanto o sibilo é sempre mais audível sobre o tórax. Na respiração calma sua intensidade é pequena; na respiração forçada, o aumento do fluxo o intensifica muito, e em alguns pacientes ele só aparece quando se pede respiração rápida de boca aberta.
 
   Um adventício menos citado merece registro: o **grasnido**, som inspiratório agudo comparado ao pio de uma gaivota, audível no fim da inspiração nas doenças intersticiais e na bronquiolite.
 :::
@@ -361,7 +361,7 @@ causas:
 ::: sinal
 nome: Estridor
 descricao: |
-  Ruído musical **inspiratório** de altura constante (em torno de 400 Hz), **sempre mais audível sobre o pescoço**; intensifica-se muito na respiração forçada, de boca aberta.
+  Ruído musical **inspiratório** de altura constante (em torno de 400 Hz nas descrições clássicas; gravações reais variam por algumas centenas de hertz), **sempre mais audível sobre o pescoço**; intensifica-se muito na respiração forçada, de boca aberta.
 significado: |
   Obstrução parcial da **laringe ou da traqueia**. Acusticamente idêntico ao sibilo, dele se separa por dois traços: a fase (**inspiratório**) e a sede (**pescoço**, não tórax). É achado de via respiratória alta, com a urgência que isso implica.
 causas:
@@ -379,7 +379,7 @@ descricao: |
 titulo: Estridor
 arquivo: estridor
 descricao: |
-  O tom musical de altura constante, em torno de 400 Hz, na INSPIRAÇÃO. Acusticamente idêntico ao sibilo, o que os separa é a fase do ciclo e o lugar onde soam mais alto: pescoço, não tórax.
+  O tom musical de altura constante, tipicamente de algumas centenas de hertz (o valor clássico é 400), na INSPIRAÇÃO. Acusticamente idêntico ao sibilo, o que os separa é a fase do ciclo e o lugar onde soam mais alto: pescoço, não tórax.
 :::
 
 ::: sinal

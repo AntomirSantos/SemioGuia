@@ -30,7 +30,7 @@ como "Revisado" no app.
 | Questões de quiz | **327** (balanceadas por índice e comprimento) |
 | Checklists OSCE | **53** (viram estações de prática) |
 | Ilustrações SVG | **59** (temáveis via `currentColor`, geometria verificada; cobertura em `npm run relatorio:ilustracoes`) |
-| Sons de ausculta | **20** (11 sintetizados por script + 9 gravações clínicas reais: HF_Lung_V1 CC BY 4.0 e CirCor DigiScope ODC-BY 1.0), com fonocardiograma sincronizado no player |
+| Sons de ausculta | **20** (10 sintetizados por script + 10 gravações clínicas reais: HF_Lung_V1 CC BY 4.0 e CirCor DigiScope ODC-BY 1.0), com fonocardiograma sincronizado no player |
 | Testes | **61 suítes / 460 testes** verdes |
 
 ## Stack

@@ -2,11 +2,11 @@
 
 ## Gravações clínicas reais
 
-Nove sons são gravações clínicas reais, vindas de dois datasets abertos.
+Dez sons são gravações clínicas reais, vindas de dois datasets abertos.
 
 ### Sons respiratórios: HF_Lung_V1 (CC BY 4.0)
 
-Cinco sons vêm do dataset **HF_Lung_V1**,
+Seis sons vêm do dataset **HF_Lung_V1**,
 publicado por **Heroic-Faith Medical Science Co. Ltd.**, com parte das
 gravações provida pela **Taiwan Society of Emergency and Critical Care
 Medicine (TSECCM)** (datathon TSECC 2020). O dataset é licenciado sob
@@ -24,6 +24,7 @@ consta do arquivo LICENSE do próprio repositório.
 | `roncos.wav` | `steth_20190809_10_30_29.wav` | Rhonchi (8,2 s rotulados; pico tonal ~95 Hz) |
 | `estertores-finos.wav` | `steth_20190801_10_55_11.wav` | D, descontínuos (8,2 s rotulados; centroide ~714 Hz; ~6,6 transientes/s) |
 | `estertores-grossos.wav` | `steth_20190902_13_18_17.wav` | D, descontínuos (10,3 s rotulados; centroide ~294 Hz; ~2,1 transientes/s) |
+| `estridor.wav` | `steth_20190811_10_09_06.wav` | Stridor em 6 ciclos inspiratórios rotulados (picos tonais ~144 a 383 Hz) |
 
 **Modificações** (declaração exigida pelo CC BY para obras modificadas),
 aplicadas por `scripts/preparar-sons-reais.py`: filtro passa-alta de 70 Hz
@@ -82,17 +83,18 @@ preservada.
 
 ## Sons sintetizados
 
-Os demais 11 sons são **inteiramente sintetizados** por
+Os demais 10 sons são **inteiramente sintetizados** por
 `scripts/gerar-sons.py` (numpy → WAV). Não derivam de nenhuma gravação;
 não há direitos de terceiros envolvidos.
 
 ## Notas de curadoria
 
-- **Estridor**: o dataset contém 12 gravações rotuladas de estridor. Uma
-  triagem tonal segmento a segmento achou picos entre 144 e 383 Hz nos
-  melhores candidatos (as demais candidatas chegam a ~710 Hz), enquanto o
-  texto do guia (seguindo as referências) o descreve "em torno de 400 Hz":
-  mantivemos o sintetizado, fiel ao texto, e registramos a divergência aqui.
+- **Estridor**: gravação real desde 2026-09-06, por decisão do autor. O
+  dataset contém 12 gravações rotuladas; a escolhida tem 6 ciclos
+  inspiratórios nítidos com picos tonais de ~144 a 383 Hz, abaixo dos
+  "em torno de 400 Hz" das descrições clássicas. A divergência está
+  registrada no próprio tópico de ausculta pulmonar (o valor clássico é
+  típico, não regra) e o aviso do player declara a gravação.
 - **Estertores**: o rótulo do dataset é único (D, descontínuos), sem separar
   finos de grossos. A separação foi feita por triagem espectral dos 368
   arquivos rotulados: os dois escolhidos ficam nos extremos da distribuição

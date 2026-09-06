@@ -883,3 +883,53 @@ Decisões que pedem seu olhar:
 3. Permanecem sintetizados, por falta de rótulo no dataset: galopes B3 e
    B4, desdobramento de B2, ruflar pré-sistólico, sopro contínuo e atrito
    pericárdico.
+
+## Complemento (v1.2.26): estridor real, garimpo do sopro contínuo e pesquisa de fontes
+
+Executando suas três ordens de 2026-09-06:
+
+### 1. Estridor trocado pela gravação real (feito)
+
+- Fonte: steth_20190811_10_09_06.wav do HF_Lung_V1, com seis ciclos
+  inspiratórios rotulados pelo dataset, exatamente a fase que o texto
+  ensina. Picos tonais de ~144 a 383 Hz.
+- O tópico de ausculta pulmonar agora registra a divergência nos três
+  pontos que citavam "em torno de 400 Hz": o valor clássico é típico,
+  não regra, e o que decide é a fase inspiratória com predomínio
+  cervical. Verifique se o fraseado lhe agrada.
+
+### 2. Garimpo do sopro contínuo no CirCor (negativo, com dados)
+
+Nos três pacientes com sopro nas duas fases que temos em mãos, a energia
+de sopro cobre só 11 a 23% do ciclo, com vales profundos em B2: são
+vai-e-vem (lesão aórtica dupla), não o sopro em maquinaria da PCA, que
+atravessa B2 sem cair. O único candidato restante do dataset é um
+lactente com diastólico I/IV, fraco demais. O sopro contínuo permanece
+sintetizado, e o critério de continuidade usado está reproduzível no
+histórico da sessão.
+
+### 3. Pesquisa de fontes abertas para os 10 sintetizados restantes
+
+- **HLS-CMDS** (CC BY 4.0, com galope B3, B4 e atrito pleural): gravado
+  de um MANEQUIM de simulação clínica, não de pacientes. Além de não ser
+  som real (desonesto sob o aviso "gravação clínica real"), o áudio
+  interno do manequim pertence ao fabricante, e a licença CC BY dos
+  autores do dataset provavelmente não alcança esse material. Descartado.
+- **BMD-HS** (BUET, sopros valvares confirmados por eco): licença
+  CC BY-NC-ND, que proíbe uso comercial e modificação. Descartado pela
+  regra do projeto.
+- **HeartWave** (King Abdulaziz + Instituto Nacional do Coração do
+  Cairo): 1.353 gravações com S3 e S4 anotados por cardiologistas, a
+  única fonte encontrada com galopes reais rotulados. NÃO tem repositório
+  público: acesso mediante contato com os autores (IEEE Access, 2023,
+  doi 10.1109/ACCESS.2023.3326660 aprox.). Pista de maior valor: um
+  e-mail seu aos autores pode destravar os galopes reais.
+- **ICBHI 2017** (tem gravações na TRAQUEIA, resolveria o som traqueal):
+  distribuído "para pesquisa", sem licença aberta clara. Descartado até
+  prova de licença.
+- **EPHNOGRAM** (PhysioNet, ODC-BY 1.0): 24 ADULTOS jovens saudáveis com
+  fonocardiograma limpo. Não traz doença, mas permitiria trocar as bulhas
+  normais pediátricas por bulhas adultas. Requer download na sua máquina,
+  como o CirCor. Recomendação: vale a pena na próxima leva.
+- Atrito pericárdico e ruflar: nenhuma fonte aberta em nenhuma busca.
+  Caminho realista: gravação própria sua, com estetoscópio digital.

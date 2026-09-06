@@ -54,6 +54,7 @@ test('toda chave do registro tem origem declarada', () => {
     'bulhas-normais',
     'estertores-finos',
     'estertores-grossos',
+    'estridor',
     'murmurio-vesicular',
     'roncos',
     'sibilos',

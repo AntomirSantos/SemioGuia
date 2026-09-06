@@ -513,7 +513,7 @@ SONS = {
 # as sobrescreve: rode com --force para regenerar as versões sintéticas.
 GRAVACOES_REAIS = {
     'murmurio-vesicular.wav', 'sibilos.wav', 'roncos.wav',
-    'estertores-finos.wav', 'estertores-grossos.wav',
+    'estertores-finos.wav', 'estertores-grossos.wav', 'estridor.wav',
     'bulhas-normais.wav', 'sopro-sistolico.wav',
     'sopro-regurgitacao.wav', 'sopro-diastolico.wav',
 }

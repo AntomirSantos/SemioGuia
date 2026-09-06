@@ -30,6 +30,10 @@ ESCOLHAS = {
         # (grossos, esparsos e graves).
         'estertores-finos': ('steth_20190801_10_55_11', 0.0),
         'estertores-grossos': ('steth_20190902_13_18_17', 0.0),
+        # Estridor: ciclos inspiratórios rotulados, picos tonais de ~144 a
+        # 383 Hz (abaixo dos ~400 Hz clássicos; divergência registrada no
+        # tópico e em LICENCAS.md).
+        'estridor': ('steth_20190811_10_09_06', 0.0),
     },
     # CirCor: seleção pelo training_data.csv (sopro, tempo, forma, grau,
     # foco mais audível) + triagem de sinal (ritmo, clipping, ruído de
