@@ -162,10 +162,16 @@ test('tópico inexistente mostra estado vazio amigável', async () => {
   expect(getByText('Voltar')).toBeTruthy();
 });
 
-test('aba Estudar lista os 3 tópicos com quiz e o número de perguntas', async () => {
+test('aba Estudar agrupa os quizzes por sistema e mostra os tópicos ao abrir o grupo', async () => {
   const store = new MemoryProgressStore();
-  const { getByText, getAllByText } = await renderEstudar(store);
+  const { getByText, getAllByText, getByLabelText, queryByText } = await renderEstudar(store);
 
+  // Os grupos começam recolhidos: o tópico só aparece depois de abrir o sistema.
+  await waitFor(() => {
+    expect(getByText('Quiz por sistema')).toBeTruthy();
+  });
+  expect(queryByText('Pressão arterial')).toBeNull();
+  fireEvent.press(getByLabelText('Quiz: Exame físico geral, abrir'));
   await waitFor(() => {
     expect(getByText('Pressão arterial')).toBeTruthy();
   });

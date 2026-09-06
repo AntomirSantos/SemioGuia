@@ -82,9 +82,10 @@ npm run checar:travessao`, toda RV em prosa precisa da
   instantânea, destaques em negrito e o salto ao tópico de origem
 - **Checklists de exame** (aba própria): os 53 roteiros do guia, mais o exame completo da cabeça aos pés com relatório do que faltou,
   organizados por sistema, com itens marcáveis para conferir o que faltou
-- **Estudar**: quiz por sistema, revisão espaçada do dia (SM-2) com
-  flashcards dos 186 sinais do plantão, estações OSCE geradas dos
-  checklists e 12 casos clínicos ramificados (um por sistema)
+- **Estudar**: revisão espaçada do dia (SM-2) com flashcards dos 186
+  sinais do plantão; quiz e estações OSCE agrupados por sistema em
+  sanfonas; 12 casos clínicos ramificados na ordem do exame; sumário
+  que salta para cada seção
 - **Perfil**: progresso, data da prova, bibliografia do guia, preferências, tema claro/escuro,
   exportação dos dados de uso, feedback, versão do app e conta (atrás da
   flag de sync)

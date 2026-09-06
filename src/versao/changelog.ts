@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.27',
+    data: '2026-09-06',
+    linhas: [
+      'A aba Estudar foi reorganizada em quatro blocos: o que venceu hoje, quiz por sistema, casos clínicos e estações OSCE',
+      'Quiz e estações agora vêm agrupados por sistema em linhas que abrem e fecham: 12 linhas em vez de 55, com a média das rodadas de cada sistema',
+      'Um sumário no topo salta direto para a seção, e os casos aparecem na ordem do exame com o sistema de origem',
+    ],
+  },
+  {
     versao: '1.2.26',
     data: '2026-09-06',
     linhas: [

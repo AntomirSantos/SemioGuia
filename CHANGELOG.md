@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.27 (2026-09-06)
+
+- A aba Estudar foi reorganizada em quatro blocos: o que venceu hoje, quiz por sistema, casos clínicos e estações OSCE
+- Quiz e estações agora vêm agrupados por sistema em linhas que abrem e fecham: 12 linhas em vez de 55, com a média das rodadas de cada sistema
+- Um sumário no topo salta direto para a seção, e os casos aparecem na ordem do exame com o sistema de origem
+
 ## 1.2.26 (2026-09-06)
 
 - O estridor agora é gravação clínica real (HF_Lung_V1), com seis ciclos inspiratórios rotulados; a faixa de tom real ficou registrada no próprio tópico
