@@ -36,12 +36,14 @@ function ChecklistAberto({
   marcados,
   onToggleItem,
   onRefazer,
+  onPraticar,
   onAbrirTopico,
 }: {
   lista: ChecklistDeExame;
   marcados: Set<number>;
   onToggleItem: (indice: number) => void;
   onRefazer: () => void;
+  onPraticar: () => void;
   onAbrirTopico: () => void;
 }) {
   const { paleta, escala } = useTema();
@@ -80,7 +82,25 @@ function ChecklistAberto({
             />
           ))}
         </View>
-        <View style={{ flexDirection: 'row', alignItems: 'center', gap: espaco.l, marginTop: espaco.s }}>
+        <View
+          style={{ flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap', gap: espaco.l, marginTop: espaco.s }}
+        >
+          <Pressionavel
+            accessibilityRole="button"
+            accessibilityLabel={`Praticar ${lista.titulo} como estação, sem consultar a lista`}
+            onPress={onPraticar}
+            style={{ minHeight: 44, justifyContent: 'center' }}
+          >
+            <Text
+              style={{
+                fontFamily: fonte.corpoBold,
+                fontSize: Math.round(tipo.corpo * escala),
+                color: paleta.acentoTinta,
+              }}
+            >
+              Praticar como estação
+            </Text>
+          </Pressionavel>
           {feitos > 0 ? (
             <Pressionavel
               accessibilityRole="button"
@@ -100,11 +120,7 @@ function ChecklistAberto({
             style={{ minHeight: 44, justifyContent: 'center' }}
           >
             <Text
-              style={{
-                fontFamily: fonte.corpoBold,
-                fontSize: Math.round(tipo.corpo * escala),
-                color: paleta.acentoTinta,
-              }}
+              style={{ fontFamily: fonte.corpoBold, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta2 }}
             >
               Ver em {lista.topicoTitulo}
             </Text>
@@ -221,6 +237,12 @@ export default function Checklists() {
     });
   }
 
+  // A prática como estação saiu da aba Estudar quando esta virou hub: o
+  // roteiro e o treino do mesmo roteiro moram juntos, aqui.
+  function praticar(lista: ChecklistDeExame) {
+    router.push(`/estacao/${lista.topicoId}?titulo=${encodeURIComponent(lista.titulo)}`);
+  }
+
   function abrirTopico(lista: ChecklistDeExame) {
     // A âncora abre o tópico exatamente no bloco deste checklist.
     router.push(`/topico/${lista.topicoId}?ancora=${encodeURIComponent(`checklist:${lista.titulo}`)}`);
@@ -249,7 +271,8 @@ export default function Checklists() {
         }}
       >
         Todos os roteiros do guia em um só lugar. Abra um checklist, marque o que você fez e veja na hora o que
-        esqueceu; as marcas zeram ao sair da tela, cada treino começa limpo.
+        esqueceu; as marcas zeram ao sair da tela, cada treino começa limpo. Cada roteiro também pode virar estação
+        de prática, com o tempo correndo e a lista escondida.
       </Text>
       <View
         style={{
@@ -346,6 +369,7 @@ export default function Checklists() {
                   marcados={marcas}
                   onToggleItem={(indice) => alternarItem(lista, indice)}
                   onRefazer={() => refazer(lista)}
+                  onPraticar={() => praticar(lista)}
                   onAbrirTopico={() => abrirTopico(lista)}
                 />
               </LinhaChecklist>

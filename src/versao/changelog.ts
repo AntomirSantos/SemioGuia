@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.28',
+    data: '2026-09-06',
+    linhas: [
+      'Questões e casos clínicos agora têm cada um a sua tela, organizadas como o modo plantão: busca instantânea, grupos por sistema e linhas que abrem no lugar',
+      'A aba Estudar virou a porta de entrada: a revisão que venceu hoje e os dois caminhos, com a conta do acervo em cada um',
+      'Os checklists ficaram com aba exclusiva, e cada roteiro de lá pode virar estação de prática sem sair da tela',
+    ],
+  },
+  {
     versao: '1.2.27',
     data: '2026-09-06',
     linhas: [

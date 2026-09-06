@@ -162,24 +162,6 @@ test('tópico inexistente mostra estado vazio amigável', async () => {
   expect(getByText('Voltar')).toBeTruthy();
 });
 
-test('aba Estudar agrupa os quizzes por sistema e mostra os tópicos ao abrir o grupo', async () => {
-  const store = new MemoryProgressStore();
-  const { getByText, getAllByText, getByLabelText, queryByText } = await renderEstudar(store);
-
-  // Os grupos começam recolhidos: o tópico só aparece depois de abrir o sistema.
-  await waitFor(() => {
-    expect(getByText('Quiz por sistema')).toBeTruthy();
-  });
-  expect(queryByText('Pressão arterial')).toBeNull();
-  fireEvent.press(getByLabelText('Quiz: Exame físico geral, abrir'));
-  await waitFor(() => {
-    expect(getByText('Pressão arterial')).toBeTruthy();
-  });
-  expect(getByText('Frequência cardíaca e pulso')).toBeTruthy();
-  expect(getByText('Temperatura e frequência respiratória')).toBeTruthy();
-  expect(getAllByText('5 perguntas')).toHaveLength(3);
-});
-
 test('card "Revisão de hoje" mostra a contagem de itens vencidos e navega para /revisao ao tocar', async () => {
   const store = new MemoryProgressStore();
   const vencido: ItemRevisao = {

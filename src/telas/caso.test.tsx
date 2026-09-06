@@ -5,7 +5,7 @@ import { ContentProvider } from '../content/ContentContext';
 import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
 import { carregarConteudo } from '../content/store';
-import { TelaEstudar } from '../app/(tabs)/estudar';
+import { TelaCasos } from '../app/casos';
 import { TelaCaso } from '../app/caso/[id]';
 import type { Caso } from '../content/casoSchema';
 
@@ -93,12 +93,12 @@ const CASO_TESTE: Caso = {
 
 const CONTEUDO = carregarConteudo({ versao: '1', sistemas: [], casos: [CASO_TESTE] });
 
-function renderEstudar(store: MemoryProgressStore) {
+function renderCasos(store: MemoryProgressStore) {
   return render(
     <ThemeProvider>
       <ContentProvider conteudo={CONTEUDO}>
         <ProgressProvider store={store}>
-          <TelaEstudar />
+          <TelaCasos />
         </ProgressProvider>
       </ContentProvider>
     </ThemeProvider>,
@@ -122,22 +122,28 @@ beforeEach(() => {
   (router.back as jest.Mock).mockClear();
 });
 
-test('aba Estudar lista o caso clínico com contexto e "Não iniciado", e navega ao tocar', async () => {
+test('tela de Casos lista o caso, abre a cena ao tocar e navega em "Começar o caso"', async () => {
   const store = new MemoryProgressStore();
-  const { getByText } = await renderEstudar(store);
+  const { getByText, queryByText } = await renderCasos(store);
 
   await waitFor(() => {
-    expect(getByText('Casos clínicos')).toBeTruthy();
+    expect(getByText(CASO_TESTE.titulo)).toBeTruthy();
   });
-  expect(getByText(CASO_TESTE.titulo)).toBeTruthy();
-  expect(getByText(CASO_TESTE.contexto)).toBeTruthy();
-  expect(getByText('Não iniciado')).toBeTruthy();
+  // A linha nasce fechada: o contexto só aparece quando o caso é aberto.
+  expect(queryByText(CASO_TESTE.contexto)).toBeNull();
+  expect(getByText('1 decisão · não iniciado')).toBeTruthy();
 
   fireEvent.press(getByText(CASO_TESTE.titulo));
+  await waitFor(() => {
+    expect(getByText(CASO_TESTE.contexto)).toBeTruthy();
+  });
+  expect(getByText('Não iniciado')).toBeTruthy();
+
+  fireEvent.press(getByText('Começar o caso'));
   expect(router.push).toHaveBeenCalledWith('/caso/caso-dor-toracica');
 });
 
-test('caso concluído com desfecho "otimo" mostra "Melhor resultado: Ótimo" na lista', async () => {
+test('caso concluído com desfecho "otimo" mostra o melhor desfecho já na linha fechada', async () => {
   const store = new MemoryProgressStore();
   await store.registrarConclusaoCaso({
     casoId: CASO_TESTE.id,
@@ -148,28 +154,34 @@ test('caso concluído com desfecho "otimo" mostra "Melhor resultado: Ótimo" na 
     concluidaEm: Date.now(),
   });
 
-  const { getByText } = await renderEstudar(store);
+  const { getByText } = await renderCasos(store);
   await waitFor(() => {
-    expect(getByText('Melhor resultado: Ótimo')).toBeTruthy();
+    expect(getByText('1 decisão · melhor desfecho: Ótimo')).toBeTruthy();
   });
+  // E, aberto, o caso convida a refazer em vez de começar.
+  fireEvent.press(getByText(CASO_TESTE.titulo));
+  await waitFor(() => {
+    expect(getByText('Melhor desfecho: Ótimo')).toBeTruthy();
+  });
+  expect(getByText('Refazer o caso')).toBeTruthy();
 });
 
-test('nenhum caso no conteúdo faz a seção "Casos clínicos" não renderizar', async () => {
+test('sem casos no conteúdo, a tela de Casos mostra estado vazio em vez de lista', async () => {
   const store = new MemoryProgressStore();
   const conteudoVazio = carregarConteudo({ versao: '1', sistemas: [], casos: [] });
-  const { queryByText } = await render(
+  const { getByText, queryByText } = await render(
     <ThemeProvider>
       <ContentProvider conteudo={conteudoVazio}>
         <ProgressProvider store={store}>
-          <TelaEstudar />
+          <TelaCasos />
         </ProgressProvider>
       </ContentProvider>
     </ThemeProvider>,
   );
   await waitFor(() => {
-    expect(queryByText('Estudar')).toBeTruthy();
+    expect(getByText('0 casos · 0 concluídos')).toBeTruthy();
   });
-  expect(queryByText('Casos clínicos')).toBeNull();
+  expect(queryByText(CASO_TESTE.titulo)).toBeNull();
 });
 
 test('player: cena mostra dados e avança para a decisão ao tocar Continuar', async () => {

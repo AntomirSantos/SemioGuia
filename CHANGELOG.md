@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.28 (2026-09-06)
+
+- Questões e casos clínicos agora têm cada um a sua tela, organizadas como o modo plantão: busca instantânea, grupos por sistema e linhas que abrem no lugar
+- A aba Estudar virou a porta de entrada: a revisão que venceu hoje e os dois caminhos, com a conta do acervo em cada um
+- Os checklists ficaram com aba exclusiva, e cada roteiro de lá pode virar estação de prática sem sair da tela
+
 ## 1.2.27 (2026-09-06)
 
 - A aba Estudar foi reorganizada em quatro blocos: o que venceu hoje, quiz por sistema, casos clínicos e estações OSCE
