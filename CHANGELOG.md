@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.30 (2026-09-06)
+
+- Quinze casos clínicos novos: pancreatite, colangite, hemorragia digestiva alta, endocardite, tamponamento cardíaco, síndrome compartimental, fasciíte necrosante, celulite orbitária, pré-eclâmpsia grave, crise tireotóxica, insuficiência adrenal aguda, síndrome da cauda equina, epiglotite na criança, intoxicação por agrotóxico e estado de mal epiléptico
+- O acervo chega a 47 casos, com oito no abdome e seis no cardiovascular, sempre com a decisão resolvida pelo exame à beira do leito
+- Vários deles ensinam armadilhas de conduta: nitrato no infarto de ventrículo direito, diurético no tamponamento, elevar o membro na síndrome compartimental, iodo antes do antitireoidiano e atropina guiada pela pupila em vez do pulmão
+
 ## 1.2.29 (2026-09-06)
 
 - Vinte casos clínicos novos, os mais emblemáticos de cada especialidade: infarto com dor atípica, dissecção de aorta, edema agudo, embolia pulmonar, pneumotórax hipertensivo, asma quase fatal, os quatro tipos restantes de abdome agudo, anafilaxia, sepse no idoso, cetoacidose, acidente vascular na janela, hemorragia subaracnóidea, trombose venosa, artrite séptica, desidratação grave no lactente, risco de suicídio e glaucoma agudo

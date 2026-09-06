@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.30',
+    data: '2026-09-06',
+    linhas: [
+      'Quinze casos clínicos novos: pancreatite, colangite, hemorragia digestiva alta, endocardite, tamponamento cardíaco, síndrome compartimental, fasciíte necrosante, celulite orbitária, pré-eclâmpsia grave, crise tireotóxica, insuficiência adrenal aguda, síndrome da cauda equina, epiglotite na criança, intoxicação por agrotóxico e estado de mal epiléptico',
+      'O acervo chega a 47 casos, com oito no abdome e seis no cardiovascular, sempre com a decisão resolvida pelo exame à beira do leito',
+      'Vários deles ensinam armadilhas de conduta: nitrato no infarto de ventrículo direito, diurético no tamponamento, elevar o membro na síndrome compartimental, iodo antes do antitireoidiano e atropina guiada pela pupila em vez do pulmão',
+    ],
+  },
+  {
     versao: '1.2.29',
     data: '2026-09-06',
     linhas: [

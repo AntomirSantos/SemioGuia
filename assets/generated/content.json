@@ -26363,6 +26363,521 @@
    ]
   },
   {
+   "id": "convulsao-que-nao-parava",
+   "titulo": "A convulsão que não parava",
+   "contexto": "Emergência de hospital geral, dez da noite. Um homem de 26 anos, com epilepsia desde a adolescência, chega convulsionando dentro da ambulância. A namorada conta que a crise começou em casa, que ela achou que ia passar, e que já dura 'uns vinte minutos, talvez mais'. Ele parou o remédio faz duas semanas porque a receita venceu.",
+   "tags": [
+    "neurologico",
+    "estado de mal",
+    "convulsao",
+    "emergencia"
+   ],
+   "topicosDeApoio": [
+    "sistema-nervoso/exame-neurologico/consciencia-e-estado-mental",
+    "sistema-nervoso/exame-neurologico/forca-tonus-e-reflexos",
+    "exame-fisico-geral/sinais-vitais/temperatura-e-frequencia-respiratoria"
+   ],
+   "referencias": [
+    "Porto, Semiologia Médica, 8ª ed., seção de exame neurológico e de crises epilépticas",
+    "McGee, Evidence-Based Physical Diagnosis, 4ª ed., seção de avaliação do estado mental",
+    "Semiologia Clínica, 1ª ed., capítulo de semiologia neurológica"
+   ],
+   "revisao": "pendente",
+   "inicio": "c-chegada",
+   "nos": [
+    {
+     "tipo": "cena",
+     "id": "c-chegada",
+     "texto": "Ele tem movimentos tônico-clônicos generalizados, com desvio do olhar para a direita e sialorreia espumosa. Não responde a nenhum estímulo. Há sangue no canto da boca, provavelmente da língua mordida. A respiração é irregular e a saturação marca 88% com máscara.",
+     "dados": [
+      "Crise generalizada em curso há pelo menos 20 minutos",
+      "Saturação 88% com máscara de oxigênio",
+      "FC 138 bpm, temperatura 37,9 graus",
+      "Suspensão de anticonvulsivante há 2 semanas",
+      "Glicemia capilar ainda não medida"
+     ],
+     "proximo": "d-primeiros-passos"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-primeiros-passos",
+     "pergunta": "O que você faz nos primeiros dois minutos?",
+     "opcoes": [
+      {
+       "texto": "Proteger a via aérea com posicionamento e oxigênio, medir a glicemia capilar, obter acesso venoso e administrar benzodiazepínico em dose adequada, marcando o horário.",
+       "avaliacao": "otima",
+       "feedback": "Crise que passa de cinco minutos já é estado de mal e o tratamento começa agora. Três coisas costumam falhar: a glicemia não é medida, o benzodiazepínico é dado em dose menor que a recomendada, e ninguém anota o horário. A dose insuficiente é a causa mais comum de crise que não cede, e o relógio orienta cada passo seguinte.",
+       "proximo": "c-segunda-dose"
+      },
+      {
+       "texto": "Aguardar mais alguns minutos, porque a maioria das crises cessa espontaneamente.",
+       "avaliacao": "erro",
+       "feedback": "A maioria cessa em até dois minutos, e esta já passou de vinte. A partir dos cinco minutos, quanto mais tempo a crise dura, mais difícil ela se torna de tratar, porque os receptores em que o benzodiazepínico age vão sendo internalizados. Esperar aqui é reduzir a eficácia da própria droga que se vai usar.",
+       "proximo": "c-atraso"
+      },
+      {
+       "texto": "Solicitar tomografia de crânio de urgência antes de qualquer medicação, para excluir causa estrutural.",
+       "avaliacao": "aceitavel",
+       "feedback": "A imagem entra na investigação e não durante a crise. Transportar um paciente convulsionando e sem via aérea protegida é arriscado, e a máquina não trata nada. Primeiro se interrompe a crise, depois se procura a causa.",
+       "proximo": "c-segunda-dose"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-atraso",
+     "texto": "Mais oito minutos se passam. A saturação cai para 82%, a temperatura sobe para 38,6 graus e a crise continua igual. O tratamento começa agora, com quase trinta minutos de atividade elétrica contínua no cérebro.",
+     "proximo": "c-segunda-dose"
+    },
+    {
+     "tipo": "cena",
+     "id": "c-segunda-dose",
+     "texto": "Após a primeira dose de benzodiazepínico, a crise diminui de intensidade mas não cessa: persistem abalos nos membros superiores e o desvio do olhar. Cinco minutos se passaram desde a administração. A glicemia capilar voltou normal.",
+     "dados": [
+      "Crise persistente após a primeira dose",
+      "Glicemia capilar normal",
+      "5 minutos desde a primeira dose",
+      "Saturação 91% com máscara"
+     ],
+     "proximo": "d-segunda-linha"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-segunda-linha",
+     "pergunta": "A crise não cedeu por completo. Qual é o próximo passo?",
+     "opcoes": [
+      {
+       "texto": "Repetir o benzodiazepínico em dose plena e iniciar já a droga de segunda linha, sem esperar mais uma rodada de observação.",
+       "avaliacao": "otima",
+       "feedback": "A sequência é conhecida e o erro clássico é atrasá-la: uma segunda dose do benzodiazepínico e, em paralelo, a droga de segunda linha, que estabiliza o resultado e evita a recorrência. Cada minuto adicional de crise aumenta a chance de refratariedade e de lesão neuronal, e o tratamento em degraus precisa subir rápido.",
+       "proximo": "c-refrataria"
+      },
+      {
+       "texto": "Aumentar apenas o benzodiazepínico, repetindo doses sucessivas até a crise ceder.",
+       "avaliacao": "erro",
+       "feedback": "Doses sucessivas sem passar à segunda linha acumulam sedação e depressão respiratória sem tratar a tendência à recorrência. Além disso, o efeito do benzodiazepínico é curto: mesmo que a crise pare, ela volta se a droga de manutenção não estiver a bordo.",
+       "proximo": "c-refrataria"
+      },
+      {
+       "texto": "Chamar o neurologista e aguardar a orientação dele antes de introduzir a segunda droga.",
+       "avaliacao": "aceitavel",
+       "feedback": "Envolver o especialista é útil e não pode custar tempo. O protocolo de estado de mal é padronizado justamente para poder ser iniciado por qualquer médico. Ligue, e comece enquanto o telefone chama.",
+       "proximo": "c-refrataria"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-refrataria",
+     "texto": "Com a segunda dose e a droga de segunda linha, os movimentos cessam. Vinte minutos depois, porém, ele continua sem responder a estímulos, com os olhos abertos e desvio persistente do olhar para a direita, além de discretos abalos na pálpebra. A respiração está regular e a saturação normal.",
+     "dados": [
+      "Movimentos generalizados cessaram",
+      "Ausência de resposta 20 minutos após o fim dos abalos",
+      "Desvio persistente do olhar, abalos palpebrais",
+      "Sinais vitais estáveis"
+     ],
+     "proximo": "d-nao-convulsivo"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-nao-convulsivo",
+     "pergunta": "Ele parou de convulsionar mas não acorda. Como você interpreta?",
+     "opcoes": [
+      {
+       "texto": "Suspeitar de estado de mal não convulsivo: o desvio persistente do olhar e os abalos palpebrais sugerem atividade elétrica em curso, e é preciso eletroencefalograma urgente.",
+       "avaliacao": "otima",
+       "feedback": "O período pós-crítico existe e costuma melhorar progressivamente em minutos. Quando o paciente não acorda e mantém sinais sutis, como desvio ocular fixo, abalos palpebrais ou automatismos, a atividade elétrica pode estar continuando sem manifestação motora evidente. Sem eletroencefalograma, esse diagnóstico não se faz, e ele é frequentemente perdido.",
+       "proximo": "fim-otimo"
+      },
+      {
+       "texto": "Considerar período pós-crítico prolongado e observar por algumas horas antes de investigar.",
+       "avaliacao": "erro",
+       "feedback": "É a interpretação mais comum e a que mais atrasa o diagnóstico. O pós-crítico melhora de forma progressiva, e este paciente mantém sinais focais sutis vinte minutos depois. Horas de atividade elétrica não reconhecida causam lesão que se poderia evitar.",
+       "proximo": "fim-dano"
+      },
+      {
+       "texto": "Atribuir à sedação das drogas administradas e aguardar a eliminação.",
+       "avaliacao": "aceitavel",
+       "feedback": "A sedação contribui e explica sonolência, e não explica desvio ocular fixo nem abalos palpebrais. Quando existe um sinal focal, ele precisa ser investigado, e não creditado à medicação.",
+       "proximo": "c-sedacao"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-sedacao",
+     "texto": "Duas horas depois ele continua sem responder, com o mesmo desvio ocular. O eletroencefalograma, finalmente solicitado, mostra atividade epileptiforme contínua, e o tratamento é escalonado com atraso.",
+     "proximo": "fim-aceitavel"
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-otimo",
+     "classe": "otimo",
+     "texto": "O eletroencefalograma confirma estado de mal não convulsivo. O tratamento é escalonado, ele é intubado e sedado em terapia intensiva, e a atividade cessa em poucas horas. Acorda no dia seguinte, sem déficit. A receita do anticonvulsivante é renovada antes da alta, com um plano para que ela não vença de novo.",
+     "ensino": "Crise que passa de cinco minutos é estado de mal e o tratamento não espera. Três falhas se repetem: não medir a glicemia, subdosar o benzodiazepínico e não anotar o horário. E quando os movimentos cessam mas o paciente não acorda, sinais sutis como desvio ocular fixo e abalos palpebrais sugerem que a crise continua sem se mostrar, e isso só o eletroencefalograma revela."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-aceitavel",
+     "classe": "aceitavel",
+     "texto": "Ele se recupera após três dias em terapia intensiva, com déficit de memória recente que melhora ao longo de semanas.",
+     "ensino": "A sedação explica sonolência, não sinais focais. Desvio ocular persistente e abalos palpebrais depois do fim dos movimentos pedem eletroencefalograma, e não observação."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-dano",
+     "classe": "dano",
+     "texto": "Ao longo de seis horas de observação sem investigação, a atividade elétrica se mantém. Quando o eletroencefalograma é finalmente feito, o quadro já é refratário. Ele acorda uma semana depois com déficit cognitivo importante e não retorna ao trabalho.",
+     "ensino": "O período pós-crítico melhora progressivamente; a ausência de melhora é o alerta. Estado de mal não convulsivo é uma crise que continua sem aparecer, e cada hora não reconhecida se traduz em lesão neuronal que não se recupera."
+    }
+   ]
+  },
+  {
+   "id": "coracao-disparado-e-pescoco-quente",
+   "titulo": "O coração disparado e o pescoço quente",
+   "contexto": "Emergência de hospital geral, segunda-feira. Uma mulher de 42 anos chega agitada, suando muito, dizendo que o coração está disparado desde ontem. A irmã conta que ela emagreceu bastante nos últimos meses, anda irritada e insone, e que parou o remédio da tireoide há dois meses porque 'estava se sentindo bem'. Ela teve uma infecção urinária tratada na semana passada.",
+   "tags": [
+    "cabeca e pescoco",
+    "tireotoxicose",
+    "tireoide",
+    "emergencia"
+   ],
+   "topicosDeApoio": [
+    "cabeca-e-pescoco/exame-de-cabeca-e-pescoco/tireoide-e-pescoco",
+    "exame-fisico-geral/sinais-vitais/temperatura-e-frequencia-respiratoria",
+    "exame-fisico-geral/sinais-vitais/frequencia-cardiaca-e-pulso"
+   ],
+   "referencias": [
+    "Porto, Semiologia Médica, 8ª ed., seção de exame da tireoide e de tireotoxicose",
+    "McGee, Evidence-Based Physical Diagnosis, 4ª ed., seção de exame da tireoide",
+    "Semiologia Clínica, 1ª ed., capítulo de semiologia de cabeça e pescoço"
+   ],
+   "revisao": "pendente",
+   "inicio": "c-chegada",
+   "nos": [
+    {
+     "tipo": "cena",
+     "id": "c-chegada",
+     "texto": "Ela não para quieta na maca, fala rápido e se confunde com as datas. A pele está quente e úmida em todo o corpo, e ela pede que desliguem o ventilador porque 'está com calor mesmo assim'. As mãos tremem visivelmente quando ela estende os braços. A irmã diz que ela 'não está sendo ela mesma' desde ontem.",
+     "dados": [
+      "Palpitações há 24 horas, agitação e confusão leve",
+      "Temperatura 39,2 graus, FC 148 bpm irregular",
+      "PA 148 x 62 mmHg, FR 26 irpm",
+      "Pele quente e úmida, tremor fino de extremidades",
+      "Suspensão de medicação tireoidiana há 2 meses, infecção recente"
+     ],
+     "proximo": "d-reconhecimento"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-reconhecimento",
+     "pergunta": "Febre alta, taquicardia importante e agitação. Qual hipótese organiza melhor esses achados?",
+     "opcoes": [
+      {
+       "texto": "Crise tireotóxica: a combinação de febre, taquiarritmia, agitação com confusão e pele quente e úmida, em quem parou a medicação e teve um gatilho infeccioso recente.",
+       "avaliacao": "otima",
+       "feedback": "O diagnóstico é clínico e depende de reconhecer o padrão: hipertermia, taquicardia desproporcional, alteração do estado mental e sinais adrenérgicos difusos, quase sempre com um gatilho, como infecção, cirurgia ou abandono do tratamento. Nenhum exame de sangue chega a tempo de confirmar: o tratamento começa pela suspeita.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Sepse de foco urinário, dada a febre alta com taquicardia e a infecção recente.",
+       "avaliacao": "aceitavel",
+       "feedback": "A hipótese é obrigatória e, na prática, as duas coisas convivem: a infecção é justamente o gatilho mais comum da crise. O que não se pode é tratar só a infecção, porque a tempestade hormonal segue seu curso independentemente do antibiótico.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Crise de ansiedade com síndrome do pânico, agravada por febre de outra causa.",
+       "avaliacao": "erro",
+       "feedback": "A ansiedade não produz temperatura de 39,2 graus nem fibrilação atrial. E a leitura desse quadro como emocional em mulher de meia-idade é um viés conhecido e caro: a crise tireotóxica tem mortalidade alta e o tratamento depende de reconhecer o padrão nas primeiras horas.",
+       "proximo": "c-atraso"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-atraso",
+     "texto": "Ela recebe ansiolítico e antitérmico. Duas horas depois está mais confusa, com temperatura de 39,6 graus, e o monitor mostra fibrilação atrial de alta resposta. A equipe recomeça a avaliação, agora pelo pescoço.",
+     "proximo": "c-exame"
+    },
+    {
+     "tipo": "cena",
+     "id": "c-exame",
+     "texto": "Você examina o pescoço por trás, com ela sentada, pedindo que engula um gole de água. A tireoide está aumentada de forma difusa, com consistência elástica, e move-se com a deglutição. Ao apoiar o estetoscópio sobre os lobos, ouve-se um sopro contínuo suave. As pálpebras estão retraídas e há atraso da descida da pálpebra quando ela acompanha o dedo para baixo. O pulso é irregularmente irregular.",
+     "dados": [
+      "Bócio difuso, elástico, móvel à deglutição",
+      "Sopro audível sobre a tireoide",
+      "Retração palpebral e atraso palpebral",
+      "Pulso irregularmente irregular, FC 152 bpm",
+      "Temperatura 39,4 graus"
+     ],
+     "proximo": "d-sopro"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-sopro",
+     "pergunta": "O que significa ouvir um sopro sobre a tireoide?",
+     "opcoes": [
+      {
+       "texto": "Significa fluxo aumentado na glândula hipervascularizada, achado típico da tireotoxicose por doença autoimune e reforço importante para o diagnóstico à beira do leito.",
+       "avaliacao": "otima",
+       "feedback": "A glândula hiperfuncionante recebe muito mais sangue, e esse fluxo aumentado produz um sopro contínuo audível sobre os lobos. É um achado que a maioria dos estudantes nunca procura porque não pensa em auscultar o pescoço. Junto com bócio difuso e sinais oculares, ele fecha o quadro sem precisar de exame algum.",
+       "proximo": "c-tratamento"
+      },
+      {
+       "texto": "Significa transmissão do sopro carotídeo, sem valor próprio.",
+       "avaliacao": "erro",
+       "feedback": "O sopro carotídeo é sistólico e se ouve sobre o trajeto do vaso, não sobre os lobos da glândula. O sopro tireoidiano é contínuo e mais audível sobre o próprio tecido. Confundir os dois faz perder um achado que praticamente confirma a hipótese.",
+       "proximo": "c-tratamento"
+      },
+      {
+       "texto": "Significa provável nódulo vascularizado, e a conduta é solicitar ultrassonografia com doppler.",
+       "avaliacao": "aceitavel",
+       "feedback": "A ultrassonografia entra na investigação depois, para caracterizar a glândula. Neste momento ela não muda nada: a glândula é difusamente aumentada, o sopro é difuso e a paciente está em crise. O exame de imagem não é urgência aqui.",
+       "proximo": "c-tratamento"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-tratamento",
+     "texto": "Você inicia medidas de suporte, resfriamento externo, hidratação e antitérmico, e prepara o tratamento específico. Estão disponíveis o betabloqueador, a droga antitireoidiana, o iodo e o corticoide. A frequência cardíaca permanece em torno de 150 bpm e a temperatura, em 39,4 graus.",
+     "dados": [
+      "Suporte iniciado: hidratação, resfriamento, antitérmico",
+      "Drogas disponíveis: betabloqueador, antitireoidiano, iodo, corticoide",
+      "FC 150 bpm, temperatura 39,4 graus"
+     ],
+     "proximo": "d-sequencia"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-sequencia",
+     "pergunta": "Em que ordem você usa as drogas específicas?",
+     "opcoes": [
+      {
+       "texto": "Betabloqueador para controlar a resposta adrenérgica, droga antitireoidiana para bloquear a síntese e, somente pelo menos uma hora depois dela, o iodo; corticoide para reduzir a conversão periférica.",
+       "avaliacao": "otima",
+       "feedback": "A ordem tem uma razão específica: o iodo administrado antes do bloqueio da síntese fornece matéria-prima e pode agravar a tireotoxicose. Por isso ele vem sempre depois da droga antitireoidiana, com pelo menos uma hora de intervalo. O betabloqueador trata o que está matando a paciente agora, que é a resposta adrenérgica, e o corticoide reduz a conversão do hormônio na periferia.",
+       "proximo": "fim-otimo"
+      },
+      {
+       "texto": "Iodo primeiro, por ser o que mais rapidamente bloqueia a liberação hormonal, seguido do antitireoidiano.",
+       "avaliacao": "erro",
+       "feedback": "O iodo de fato bloqueia a liberação, e se dado antes do bloqueio da síntese ele também alimenta a produção de hormônio novo. Essa inversão pode piorar a crise justamente na paciente mais grave. A regra é simples e vale a pena memorizar: antitireoidiano antes, iodo depois.",
+       "proximo": "fim-dano"
+      },
+      {
+       "texto": "Apenas betabloqueador e suporte, deixando o tratamento específico para o endocrinologista pela manhã.",
+       "avaliacao": "aceitavel",
+       "feedback": "O betabloqueador trata a manifestação mais perigosa e é o passo mais urgente, e ele sozinho não interrompe a produção hormonal. A crise tireotóxica tem mortalidade alta, e adiar o bloqueio da síntese até a manhã seguinte deixa a fonte do problema aberta durante toda a noite.",
+       "proximo": "c-parcial"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-parcial",
+     "texto": "Com betabloqueador e suporte a frequência cai para 118 bpm, mas a febre persiste e ela segue confusa durante a noite. O tratamento específico começa apenas pela manhã, com quase doze horas de tempestade hormonal a mais.",
+     "proximo": "fim-aceitavel"
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-otimo",
+     "classe": "otimo",
+     "texto": "Com a sequência correta, a frequência cai para 96 bpm em quatro horas e a temperatura normaliza na madrugada. A infecção urinária residual é tratada, o estado mental volta ao normal em vinte e quatro horas, e ela recebe alta no quinto dia com acompanhamento endocrinológico e a conversa sobre por que o remédio não pode ser interrompido quando se sente bem.",
+     "ensino": "A crise tireotóxica é diagnóstico clínico: hipertermia, taquiarritmia, agitação com confusão e sinais adrenérgicos, quase sempre com um gatilho. O pescoço fecha o raciocínio: bócio difuso, sinais oculares e o sopro contínuo sobre a glândula, que quase ninguém procura. E há uma ordem que precisa ser respeitada: droga antitireoidiana antes do iodo, nunca o contrário."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-aceitavel",
+     "classe": "aceitavel",
+     "texto": "Ela se recupera, com uma noite de febre alta e confusão que poderia ter sido evitada, e internação de oito dias.",
+     "ensino": "O betabloqueador controla a manifestação, não a fonte. Na crise tireotóxica, o bloqueio da síntese hormonal faz parte do tratamento da mesma noite: adiar deixa a tempestade correndo enquanto se trata apenas o sintoma."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-dano",
+     "classe": "dano",
+     "texto": "Após o iodo administrado antes do bloqueio da síntese, a febre sobe para 40,1 graus e a fibrilação atrial evolui com instabilidade, exigindo cardioversão e vasopressor. Ela precisa de terapia intensiva por seis dias.",
+     "ensino": "Iodo antes do bloqueio da síntese fornece substrato para a glândula produzir mais hormônio, e pode agravar a crise que se pretendia tratar. A sequência é droga antitireoidiana primeiro e iodo pelo menos uma hora depois, e essa ordem é uma das poucas em que o intervalo entre duas prescrições muda o desfecho."
+    }
+   ]
+  },
+  {
+   "id": "crianca-que-babava-sentada",
+   "titulo": "A criança que babava sentada na cadeira",
+   "contexto": "Pronto atendimento pediátrico, três da manhã. Uma menina de 4 anos chega no colo do pai, sentada bem ereta, com o queixo para a frente. Ela não fala, baba, e o pai diz que a febre começou há poucas horas e subiu rápido. Ele conta que ela 'não quis nem tomar água' desde a noite.",
+   "tags": [
+    "crianca",
+    "epiglotite",
+    "via aerea",
+    "emergencia"
+   ],
+   "topicosDeApoio": [
+    "semiologia-da-crianca/exame-da-crianca/do-recem-nascido-ao-adolescente",
+    "semiologia-da-crianca/exame-da-crianca/abordagem-e-anamnese-da-crianca",
+    "aparelho-respiratorio/exame-do-torax/inspecao-do-torax"
+   ],
+   "referencias": [
+    "Porto, Semiologia Médica, 8ª ed., seção de semiologia pediátrica e das vias aéreas superiores",
+    "McGee, Evidence-Based Physical Diagnosis, 4ª ed., seção de exame respiratório",
+    "Semiologia Clínica, 1ª ed., capítulo de semiologia da criança"
+   ],
+   "revisao": "pendente",
+   "inicio": "c-chegada",
+   "nos": [
+    {
+     "tipo": "cena",
+     "id": "c-chegada",
+     "texto": "Ela mantém o tronco inclinado para a frente, apoiada nos braços, com o pescoço estendido e a boca entreaberta. A saliva escorre pelo canto da boca. A cada inspiração há um som áspero e agudo. Não há tosse. O pai diz que o cartão de vacinas ficou em casa e que ela 'atrasou algumas'.",
+     "dados": [
+      "Febre alta de início há poucas horas",
+      "Posição de tripé com pescoço estendido, sialorreia",
+      "Estridor inspiratório, ausência de tosse",
+      "Recusa de líquidos, voz abafada",
+      "Vacinação possivelmente incompleta"
+     ],
+     "proximo": "d-abordagem"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-abordagem",
+     "pergunta": "Qual é a sua primeira conduta com essa criança?",
+     "opcoes": [
+      {
+       "texto": "Manter a criança no colo do pai, na posição que ela escolheu, sem examinar a garganta nem deitar, e acionar imediatamente a equipe capaz de manejar via aérea difícil.",
+       "avaliacao": "otima",
+       "feedback": "Essa combinação tem nome e urgência próprias: posição de tripé, sialorreia, estridor e ausência de tosse apontam epiglotite. A epiglote inflamada ocupa espaço e a criança encontrou sozinha a única posição em que o ar passa. Deitar, chorar ou abrir a boca com abaixador podem fechar essa via aérea em segundos.",
+       "proximo": "c-preparo"
+      },
+      {
+       "texto": "Deitar a criança e examinar a orofaringe com abaixador de língua para visualizar a epiglote.",
+       "avaliacao": "erro",
+       "feedback": "Esse é o gesto proibido nesta suspeita. A manipulação da orofaringe e o choro que ela provoca podem desencadear espasmo e obstrução completa, e não há tempo para resgatar a via aérea de uma criança que fecha nessa situação. O diagnóstico é feito pela cena, e a inspeção direta acontece na sala de cirurgia, com anestesista presente.",
+       "proximo": "c-piora"
+      },
+      {
+       "texto": "Iniciar nebulização com broncodilatador e corticoide, como se faz na crise de laringite.",
+       "avaliacao": "aceitavel",
+       "feedback": "A laringite é o diagnóstico diferencial mais importante e a confusão é compreensível, porque as duas fazem estridor. O que separa está na cena: a laringite tem tosse rouca característica, evolução em dias e criança que aceita líquidos; a epiglotite tem febre alta de instalação rápida, sialorreia, ausência de tosse e posição de tripé. Nebulizar não resolve epiglotite e a agitação da máscara pode piorar.",
+       "proximo": "c-preparo"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-piora",
+     "texto": "Ao ser deitada, ela agita-se, o estridor aumenta e ela fica cianótica por alguns segundos. Você a devolve ao colo do pai e o quadro melhora um pouco. Foi um aviso de quanto essa via aérea está no limite.",
+     "proximo": "c-preparo"
+    },
+    {
+     "tipo": "cena",
+     "id": "c-preparo",
+     "texto": "A criança permanece no colo, sentada, com oxigênio ofertado de longe pelo pai, sem máscara encostada no rosto. A equipe de anestesia e o otorrinolaringologista foram acionados e chegam em vinte minutos. O centro cirúrgico está sendo preparado. Ela segue com estridor, mas mantém saturação de 94%.",
+     "dados": [
+      "Criança mantida sentada, no colo, sem manipulação",
+      "Oxigênio ofertado a distância",
+      "Anestesia e otorrino acionados, sala em preparo",
+      "Saturação 94%, FC 156 bpm"
+     ],
+     "proximo": "d-acesso"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-acesso",
+     "pergunta": "A enfermagem pergunta se já pega o acesso venoso e colhe exames. O que você orienta?",
+     "opcoes": [
+      {
+       "texto": "Adiar o acesso e a coleta até a via aérea estar garantida, porque a dor e o choro podem precipitar a obstrução completa.",
+       "avaliacao": "otima",
+       "feedback": "Tudo o que faz a criança chorar é risco nesta situação, e um acesso venoso em criança de 4 anos raramente é conseguido sem choro. Exames de sangue não mudam a conduta imediata, e a via aérea garantida é o que permite fazer todo o resto com segurança. A ordem correta é sala primeiro, procedimentos depois.",
+       "proximo": "c-sala"
+      },
+      {
+       "texto": "Pegar o acesso agora, porque a criança pode precisar de medicação de emergência a qualquer momento.",
+       "avaliacao": "erro",
+       "feedback": "O raciocínio é sensato em quase todas as emergências e falha nesta. O choro provocado pela punção é justamente o gatilho que pode fechar a via aérea, e aí o acesso não salvaria nada, porque o problema não se resolve com droga. Nesta doença, o acesso vem depois da via aérea assegurada.",
+       "proximo": "c-obstrucao"
+      },
+      {
+       "texto": "Pegar o acesso apenas se conseguir sem que ela chore, com o pai segurando e distraindo.",
+       "avaliacao": "aceitavel",
+       "feedback": "A intenção é boa e o risco é real: raramente se prevê se a criança vai chorar ou não. Se houver qualquer sinal de agitação, a tentativa precisa ser interrompida imediatamente. Na dúvida, esperar a sala é mais seguro.",
+       "proximo": "c-sala"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-obstrucao",
+     "texto": "Na segunda tentativa de punção ela chora forte, o estridor aumenta e a saturação cai para 82%. A equipe interrompe tudo, devolve a criança ao colo e a leva imediatamente para a sala, com a via aérea muito mais próxima do fechamento do que estava.",
+     "proximo": "c-sala"
+    },
+    {
+     "tipo": "cena",
+     "id": "c-sala",
+     "texto": "No centro cirúrgico, com anestesista e otorrinolaringologista presentes e material de traqueostomia aberto, a laringoscopia mostra uma epiglote muito edemaciada e avermelhada. A intubação é realizada com cânula menor que a prevista para a idade.",
+     "dados": [
+      "Epiglote edemaciada e vermelha à laringoscopia",
+      "Intubação realizada com cânula de menor calibre",
+      "Material de traqueostomia disponível durante o procedimento"
+     ],
+     "proximo": "d-tratamento"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-tratamento",
+     "pergunta": "Com a via aérea garantida, qual é a continuação do tratamento?",
+     "opcoes": [
+      {
+       "texto": "Antibiótico endovenoso, culturas, suporte em terapia intensiva e avaliação da situação vacinal da criança e dos contatos domiciliares.",
+       "avaliacao": "otima",
+       "feedback": "A epiglotite é infecção bacteriana e o tratamento é antibiótico endovenoso, com a criança intubada até o edema ceder. A parte que costuma ser esquecida é a saúde pública: verificar a vacinação, notificar quando for o caso e avaliar a necessidade de profilaxia para contatos próximos. Uma criança com esse quadro é também um alerta sobre cobertura vacinal.",
+       "proximo": "fim-otimo"
+      },
+      {
+       "texto": "Corticoide isolado e observação, extubando assim que possível, sem antibiótico até o resultado das culturas.",
+       "avaliacao": "erro",
+       "feedback": "O corticoide pode ajudar no edema e não trata a infecção. Aguardar culturas para iniciar antibiótico em uma infecção que ameaça a via aérea inverte a prioridade: colhe-se e trata-se, ajustando depois pelo resultado.",
+       "proximo": "fim-dano"
+      },
+      {
+       "texto": "Antibiótico endovenoso e extubação ainda na sala, já que a via aérea foi assegurada e a criança está estável.",
+       "avaliacao": "aceitavel",
+       "feedback": "O antibiótico está certo e a extubação precoce é arriscada: o edema leva um a dois dias para ceder, e uma reintubação de urgência em epiglote inflamada é bem mais difícil que a intubação eletiva feita em condições ideais. A extubação acontece quando houver escape de ar ao redor da cânula.",
+       "proximo": "c-extubacao"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-extubacao",
+     "texto": "Extubada ainda na sala, ela apresenta estridor progressivo em duas horas e precisa ser reintubada, agora em condições piores. O procedimento é bem-sucedido, com um susto que poderia ter sido evitado.",
+     "proximo": "fim-aceitavel"
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-otimo",
+     "classe": "otimo",
+     "texto": "Com antibiótico e suporte, o edema cede em quarenta e oito horas e ela é extubada sem intercorrências. Recebe alta no quinto dia. A situação vacinal da família é regularizada na unidade básica e os contatos recebem a orientação adequada.",
+     "ensino": "A cena diagnostica a epiglotite: criança sentada em posição de tripé, babando, com estridor, febre alta de instalação rápida e sem tosse. A laringite, que é o diferencial, tem tosse rouca e evolução em dias. Nada de deitar, de abaixador de língua ou de procedimentos que provoquem choro antes da via aérea garantida: a sala vem primeiro, o resto depois."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-aceitavel",
+     "classe": "aceitavel",
+     "texto": "Ela evolui bem, após uma reintubação de urgência e um dia a mais em terapia intensiva.",
+     "ensino": "O edema da epiglote leva um a dois dias para ceder. Extubar antes de haver escape de ar ao redor da cânula troca um procedimento eletivo por uma reintubação de urgência em via aérea ainda inflamada."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-dano",
+     "classe": "dano",
+     "texto": "Sem antibiótico nas primeiras horas, a infecção progride e ela desenvolve bacteremia com choque séptico, exigindo vasopressor e uma semana em terapia intensiva.",
+     "ensino": "Corticoide trata edema, não bactéria. Em infecção que ameaça a via aérea, o antibiótico começa logo após a coleta das culturas, e o ajuste vem depois com o resultado."
+    }
+   ]
+  },
+  {
    "id": "crise-hipertensiva",
    "titulo": "A pressão que chegou em 210 por 130",
    "contexto": "Você é o interno de plantão na UPA. A enfermagem chama você à sala amarela: um homem de 58 anos acabou de chegar e a pressão da triagem assustou todo mundo.",
@@ -26943,6 +27458,348 @@
    ]
   },
   {
+   "id": "dor-nas-costas-que-molhou-a-cama",
+   "titulo": "A dor nas costas que molhou a cama",
+   "contexto": "Pronto atendimento, domingo de manhã. Um homem de 47 anos chega com dor lombar há duas semanas, que piorou muito nos últimos dois dias e agora desce pelas duas pernas. Ele conta, constrangido, que hoje de madrugada urinou na cama sem perceber, coisa que nunca aconteceu na vida dele.",
+   "tags": [
+    "osteoarticular",
+    "cauda equina",
+    "coluna",
+    "emergencia"
+   ],
+   "topicosDeApoio": [
+    "sistema-osteoarticular/exame-osteoarticular/coluna-vertebral",
+    "sistema-nervoso/exame-neurologico/sensibilidade-e-coordenacao",
+    "sistema-nervoso/exame-neurologico/forca-tonus-e-reflexos"
+   ],
+   "referencias": [
+    "Porto, Semiologia Médica, 8ª ed., seção de exame da coluna vertebral e exame neurológico",
+    "McGee, Evidence-Based Physical Diagnosis, 4ª ed., seção de exame da coluna lombar",
+    "Semiologia Clínica, 1ª ed., capítulo de semiologia osteoarticular"
+   ],
+   "revisao": "pendente",
+   "inicio": "c-chegada",
+   "nos": [
+    {
+     "tipo": "cena",
+     "id": "c-chegada",
+     "texto": "Ele anda com dificuldade, apoiado na parede. Diz que a dor lombar começou depois de carregar caixas na mudança e que vinha melhorando, até anteontem. Agora ela desce pela parte de trás das duas coxas. Menciona o episódio da noite com vergonha, e acrescenta que 'está meio dormente para sentar'.",
+     "dados": [
+      "Lombalgia há 2 semanas, com piora nos últimos 2 dias",
+      "Dor irradiada para as duas pernas",
+      "Episódio de perda involuntária de urina",
+      "Dormência na região que apoia ao sentar",
+      "Sem febre, sem perda de peso"
+     ],
+     "proximo": "d-bandeiras"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-bandeiras",
+     "pergunta": "Lombalgia com irradiação. O que muda o rumo desta consulta?",
+     "opcoes": [
+      {
+       "texto": "A perda de urina somada à dormência em sela e à irradiação bilateral: essa combinação é sinal de alarme e exige exame neurológico completo, incluindo toque retal, agora.",
+       "avaliacao": "otima",
+       "feedback": "A maioria absoluta das lombalgias é benigna e não pede exame nenhum. O que retira o paciente desse grupo são os sinais de alarme, e três deles estão aqui: irradiação para as duas pernas, alteração de esfíncter e dormência na região que encosta na sela da bicicleta. Essa tríade é a síndrome da cauda equina até prova em contrário.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Nada de essencial: dor lombar com irradiação é comum, e a incontinência provavelmente foi efeito do relaxante muscular que ele tomou.",
+       "avaliacao": "erro",
+       "feedback": "Atribuir o episódio à medicação é a explicação confortável, e ela não cobre a dormência em sela nem a irradiação bilateral. A cauda equina tem janela cirúrgica curta, e a alteração de esfíncter costuma ser o último sinal a aparecer e o primeiro a se tornar permanente.",
+       "proximo": "c-atraso"
+      },
+      {
+       "texto": "Solicitar radiografia de coluna lombar para investigar a causa da piora.",
+       "avaliacao": "aceitavel",
+       "feedback": "A radiografia não mostra o que importa aqui: ela vê osso e não vê nervo comprimido. Se houver suspeita de compressão da cauda equina, o exame é a ressonância, e ela é urgente. Pedir a radiografia primeiro consome o tempo do paciente sem responder à pergunta.",
+       "proximo": "c-exame"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-atraso",
+     "texto": "Ele é liberado com analgésico e orientação de repouso. Volta na terça-feira sem conseguir urinar espontaneamente, com a bexiga distendida e a dormência agora estendida à face interna das duas coxas.",
+     "proximo": "c-exame"
+    },
+    {
+     "tipo": "cena",
+     "id": "c-exame",
+     "texto": "No exame, a força de dorsiflexão dos pés está reduzida dos dois lados. O reflexo aquileu está ausente bilateralmente. A sensibilidade está diminuída na face posterior das coxas, na região perineal e ao redor do ânus, de forma simétrica. Ao toque retal, o tônus do esfíncter está claramente reduzido e ele não consegue contrair voluntariamente quando você pede. A percussão da bexiga revela macicez acima da sínfise.",
+     "dados": [
+      "Fraqueza bilateral de dorsiflexão",
+      "Reflexos aquileus ausentes nos dois lados",
+      "Anestesia em sela simétrica",
+      "Tônus esfincteriano reduzido, sem contração voluntária",
+      "Bexiga palpável e maciça à percussão"
+     ],
+     "proximo": "d-toque"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-toque",
+     "pergunta": "O tônus do esfíncter está reduzido e a bexiga está cheia. O que isso define?",
+     "opcoes": [
+      {
+       "texto": "Define síndrome da cauda equina instalada: é emergência cirúrgica, e a ressonância precisa ser feita agora, com o neurocirurgião já acionado.",
+       "avaliacao": "otima",
+       "feedback": "O toque retal é o exame que quase ninguém faz na lombalgia e que aqui define tudo: perda do tônus e da contração voluntária confirma o acometimento das raízes sacrais. Com anestesia em sela e retenção urinária, o diagnóstico está feito clinicamente. A descompressão precoce é o que determina se a função de esfíncter volta.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Define bexiga neurogênica isolada: passar sonda vesical de alívio e encaminhar ao urologista.",
+       "avaliacao": "erro",
+       "feedback": "A sonda alivia a bexiga e não trata nada: a bexiga está cheia porque as raízes que a controlam estão comprimidas. Encaminhar ao ambulatório de urologia troca uma emergência cirúrgica da coluna por uma consulta que acontecerá semanas depois, com a lesão já definitiva.",
+       "proximo": "fim-dano"
+      },
+      {
+       "texto": "Define compressão radicular importante, que merece ressonância na próxima semana e corticoide agora.",
+       "avaliacao": "aceitavel",
+       "feedback": "A urgência está subestimada. Corticoide pode reduzir edema e não descomprime nada, e uma semana é muito além da janela em que a recuperação esfincteriana ainda é provável. Nesta síndrome, a ressonância é hoje e a cirurgia costuma ser no mesmo dia.",
+       "proximo": "c-espera"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-espera",
+     "texto": "Com corticoide e analgesia, a dor melhora um pouco, e a ressonância acaba sendo feita apenas no dia seguinte. Ela mostra hérnia discal volumosa comprimindo o saco dural, e a cirurgia acontece com quase trinta horas de compressão.",
+     "proximo": "fim-aceitavel"
+    },
+    {
+     "tipo": "cena",
+     "id": "c-conduta",
+     "texto": "A ressonância de urgência mostra hérnia discal volumosa em L4 e L5, com compressão importante do saco dural e das raízes da cauda equina. O neurocirurgião avaliou e o centro cirúrgico está disponível. Ele mantém a retenção urinária e a anestesia em sela.",
+     "dados": [
+      "Hérnia discal com compressão do saco dural",
+      "Neurocirurgião presente, centro cirúrgico disponível",
+      "Retenção urinária e anestesia em sela mantidas",
+      "Cerca de 10 horas desde o início dos sintomas esfincterianos"
+     ],
+     "proximo": "d-tempo"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-tempo",
+     "pergunta": "A cirurgia pode ser programada para amanhã de manhã, com a equipe descansada?",
+     "opcoes": [
+      {
+       "texto": "Não: a descompressão deve ser feita o quanto antes, porque a chance de recuperar a função esfincteriana cai com as horas de compressão.",
+       "avaliacao": "otima",
+       "feedback": "Esta é uma das poucas emergências verdadeiras da coluna. Quanto mais tempo as raízes sacrais permanecem comprimidas, menor a chance de a bexiga e o esfíncter voltarem a funcionar, e essa perda costuma ser definitiva. A pressa aqui não é sobre a dor, é sobre a função.",
+       "proximo": "fim-otimo"
+      },
+      {
+       "texto": "Sim: o quadro já está instalado e algumas horas a mais não mudam o resultado.",
+       "avaliacao": "erro",
+       "feedback": "A ideia de que o dano já aconteceu e nada mais muda é o raciocínio que produz sequela permanente. Mesmo com sintomas instalados, a recuperação depende do tempo total de compressão, e cada bloco de horas conta contra a função esfincteriana e sexual.",
+       "proximo": "fim-dano"
+      },
+      {
+       "texto": "Sim, desde que sejam mantidos corticoide e sondagem, e a cirurgia aconteça nas primeiras horas da manhã.",
+       "avaliacao": "aceitavel",
+       "feedback": "As medidas de suporte são adequadas e não param o relógio. Se houver alguma razão logística real para adiar, ela precisa ser pesada contra a probabilidade de o paciente ficar com bexiga neurogênica pelo resto da vida.",
+       "proximo": "c-espera"
+      }
+     ]
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-otimo",
+     "classe": "otimo",
+     "texto": "A descompressão é realizada na mesma madrugada. Ele volta a urinar espontaneamente em quarenta e oito horas e a sensibilidade perineal retorna ao longo de três semanas. Sai do hospital andando, com reabilitação programada, e recupera a função esfincteriana por completo.",
+     "ensino": "Lombalgia é quase sempre benigna, e o que muda tudo são os sinais de alarme: irradiação bilateral, anestesia em sela e alteração de esfíncter. O toque retal é o exame que confirma o acometimento sacral e quase nunca é feito. A síndrome da cauda equina é emergência cirúrgica, e a chance de recuperar bexiga e esfíncter diminui a cada hora de compressão."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-aceitavel",
+     "classe": "aceitavel",
+     "texto": "A cirurgia acontece com atraso e ele recupera parcialmente a função: volta a urinar, com jato fraco e necessidade de manobras, e mantém área de dormência perineal.",
+     "ensino": "Corticoide reduz edema e não descomprime raiz. Na cauda equina, o tempo entre o diagnóstico e a sala é a variável que determina se a bexiga volta a funcionar."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-dano",
+     "classe": "dano",
+     "texto": "A descompressão acaba acontecendo dias depois. Ele fica com bexiga neurogênica permanente, dependente de cateterismo intermitente, anestesia em sela definitiva e disfunção sexual.",
+     "ensino": "A perda de esfíncter é o sinal mais tardio da compressão e o mais frequentemente irreversível. Tratar a bexiga cheia com uma sonda e encaminhar para consulta ambulatorial é a maneira mais comum de transformar uma emergência cirúrgica em uma sequela para a vida inteira."
+    }
+   ]
+  },
+  {
+   "id": "dor-no-alto-da-barriga-na-gestacao",
+   "titulo": "A dor no alto da barriga que não era gastrite",
+   "contexto": "Unidade de pronto atendimento, sábado à tarde. Uma gestante de 31 anos, com 34 semanas, chega com dor no alto da barriga desde a manhã. Ela acha que é gastrite, porque comeu feijoada ontem. Diz também que enxergou 'umas luzinhas' quando levantou, e que os pés e as mãos incharam bastante essa semana.",
+   "tags": [
+    "geniturinario",
+    "pre-eclampsia",
+    "gestacao",
+    "emergencia"
+   ],
+   "topicosDeApoio": [
+    "mamas-e-geniturinario/exame-geniturinario-e-retal/exame-ginecologico",
+    "exame-fisico-geral/sinais-vitais/pressao-arterial",
+    "sistema-nervoso/exame-neurologico/forca-tonus-e-reflexos"
+   ],
+   "referencias": [
+    "Porto, Semiologia Médica, 8ª ed., seção de exame da gestante e de hipertensão na gravidez",
+    "McGee, Evidence-Based Physical Diagnosis, 4ª ed., seção de medida da pressão arterial e exame neurológico",
+    "Semiologia Clínica, 1ª ed., capítulos de exame geral e geniturinário"
+   ],
+   "revisao": "pendente",
+   "inicio": "c-chegada",
+   "nos": [
+    {
+     "tipo": "cena",
+     "id": "c-chegada",
+     "texto": "Ela está desconfortável, com a mão sobre a região epigástrica e um pouco à direita. A ficha da triagem diz 'dor epigástrica, provável dispepsia'. Ela conta que o pré-natal foi todo normal e que a última consulta foi há três semanas. Está com o rosto visivelmente inchado, o que ela atribui ao calor.",
+     "dados": [
+      "Gestação de 34 semanas, dor epigástrica há 6 horas",
+      "Escotomas visuais ao levantar",
+      "Edema de face, mãos e pés, de instalação recente",
+      "Triagem registrou dispepsia",
+      "Última consulta de pré-natal há 3 semanas"
+     ],
+     "proximo": "d-primeira-medida"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-primeira-medida",
+     "pergunta": "Qual é a primeira coisa a fazer nesta paciente?",
+     "opcoes": [
+      {
+       "texto": "Medir a pressão arterial com manguito adequado e a paciente sentada, e pesquisar proteinúria, antes de qualquer conduta para a dor.",
+       "avaliacao": "otima",
+       "feedback": "Dor epigástrica na segunda metade da gestação é sinal de alarme até que a pressão diga o contrário: ela vem da distensão da cápsula do fígado. Somada a escotomas e edema de instalação rápida, o quadro pede pressão medida corretamente e pesquisa de proteína na urina, nessa ordem, antes de tratar qualquer sintoma.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Prescrever antiácido e orientar dieta leve, com retorno se não melhorar.",
+       "avaliacao": "erro",
+       "feedback": "Rotular como dispepsia uma dor epigástrica em gestante de 34 semanas com edema recente e alterações visuais é o caminho mais direto para a convulsão em casa. A queixa digestiva aqui é a apresentação de uma doença hipertensiva, e ela se descarta em dois minutos com um manguito.",
+       "proximo": "c-atraso"
+      },
+      {
+       "texto": "Solicitar ultrassonografia obstétrica para avaliar o bem-estar fetal antes de qualquer outra coisa.",
+       "avaliacao": "aceitavel",
+       "feedback": "A avaliação fetal é necessária e virá. O que precisa vir antes é a pressão da mãe: é ela que define se esta paciente pode esperar na fila do ultrassom ou se precisa de sulfato de magnésio e de transferência agora.",
+       "proximo": "c-exame"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-atraso",
+     "texto": "Ela é liberada com antiácido. Três horas depois volta de ambulância, trazida pelo marido, após ter apresentado uma crise convulsiva em casa. A pressão medida na ambulância foi de 178 x 118 mmHg.",
+     "proximo": "c-exame"
+    },
+    {
+     "tipo": "cena",
+     "id": "c-exame",
+     "texto": "Sentada, com manguito de tamanho adequado, a pressão é de 172 x 114 mmHg, confirmada em nova medida após cinco minutos. A fita reagente na urina mostra proteína em grande quantidade. O edema é depressível em face, mãos e membros inferiores. À palpação, a dor se localiza no quadrante superior direito e no epigástrio. Os reflexos patelares estão exaltados e há esboço de clônus no tornozelo.",
+     "dados": [
+      "PA 172 x 114 mmHg em duas medidas",
+      "Proteinúria de grande quantidade na fita",
+      "Edema de face e extremidades",
+      "Dor à palpação do quadrante superior direito",
+      "Reflexos exaltados com esboço de clônus"
+     ],
+     "proximo": "d-diagnostico"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-diagnostico",
+     "pergunta": "O que os reflexos exaltados e o clônus acrescentam?",
+     "opcoes": [
+      {
+       "texto": "Acrescentam iminência de eclâmpsia: com hipertensão grave, proteinúria, dor no quadrante superior direito e alterações visuais, o quadro pede sulfato de magnésio imediatamente.",
+       "avaliacao": "otima",
+       "feedback": "A hiperreflexia com clônus mostra o sistema nervoso já irritado, e é o sinal que aproxima a paciente da convulsão. O exame neurológico da gestante hipertensa não é detalhe: reflexos, nível de consciência e queixas visuais dizem quanto tempo resta. O sulfato de magnésio previne a crise e é a medida que mais reduz risco aqui.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Acrescentam pouco: reflexos vivos são comuns na gestação e o clônus é achado inespecífico.",
+       "avaliacao": "erro",
+       "feedback": "Reflexos vivos são de fato comuns; clônus somado a hipertensão grave, proteinúria e escotomas não é. Descontar o achado pelo contexto fisiológico da gravidez ignora o que ele significa quando aparece em companhia dessas outras coisas.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Acrescentam indicação de exames laboratoriais completos antes de iniciar qualquer tratamento.",
+       "avaliacao": "aceitavel",
+       "feedback": "Os exames vão avaliar plaquetas, função hepática e renal, e são necessários para caracterizar a gravidade. Eles correm em paralelo, nunca antes: com pressão de 172 x 114 mmHg e sinais de irritabilidade neurológica, o sulfato de magnésio e o anti-hipertensivo começam agora.",
+       "proximo": "c-conduta"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-conduta",
+     "texto": "O sulfato de magnésio é iniciado e o anti-hipertensivo endovenoso é preparado. A pressão permanece em 168 x 110 mmHg. O hospital de referência com obstetrícia e leito neonatal fica a quarenta minutos. O batimento cardíaco fetal está presente e regular.",
+     "dados": [
+      "Sulfato de magnésio em curso",
+      "PA 168 x 110 mmHg",
+      "Referência obstétrica a 40 minutos",
+      "Batimento fetal presente e regular"
+     ],
+     "proximo": "d-pressao"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-pressao",
+     "pergunta": "Qual é a meta ao tratar essa pressão antes da transferência?",
+     "opcoes": [
+      {
+       "texto": "Reduzir de forma controlada para uma faixa segura, sem normalizar, porque a queda abrupta compromete a perfusão da placenta.",
+       "avaliacao": "otima",
+       "feedback": "O objetivo é afastar a paciente do risco de acidente vascular sem cortar o fluxo que chega ao feto. A placenta não autorregula o fluxo como os outros órgãos: ela depende diretamente da pressão materna. Por isso a redução é gradual e a meta é uma faixa de segurança, não o valor de uma pessoa não gestante.",
+       "proximo": "fim-otimo"
+      },
+      {
+       "texto": "Normalizar a pressão rapidamente, buscando valores próximos de 120 x 80 mmHg antes de transportar.",
+       "avaliacao": "erro",
+       "feedback": "A queda rápida e profunda reduz a perfusão placentária e pode provocar sofrimento fetal agudo, além de isquemia em órgãos maternos já adaptados a pressões altas. O tratamento da hipertensão grave na gestação é controlado e tem alvo intermediário.",
+       "proximo": "fim-dano"
+      },
+      {
+       "texto": "Não tratar a pressão e apenas transportar rapidamente com o sulfato de magnésio correndo.",
+       "avaliacao": "aceitavel",
+       "feedback": "O sulfato previne convulsão e não trata a pressão, e níveis nessa faixa expõem a mãe a acidente vascular durante o trajeto. Com quarenta minutos de estrada, o anti-hipertensivo precisa começar antes da saída.",
+       "proximo": "c-sem-anti"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-sem-anti",
+     "texto": "Durante o transporte a pressão chega a 186 x 120 mmHg e ela apresenta cefaleia intensa. O anti-hipertensivo é iniciado dentro da ambulância, sem monitorização adequada, e a chegada acontece com a paciente muito mais sintomática.",
+     "proximo": "fim-aceitavel"
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-otimo",
+     "classe": "otimo",
+     "texto": "Com sulfato de magnésio e a pressão reduzida de forma controlada, ela chega estável à referência. Os exames mostram plaquetas baixas e enzimas hepáticas elevadas, e o parto é resolvido no mesmo dia. Mãe e recém-nascido evoluem bem, e ele recebe alta da unidade neonatal em duas semanas.",
+     "ensino": "Dor epigástrica ou no quadrante superior direito na segunda metade da gestação é sinal de alarme, não dispepsia: vem da distensão da cápsula hepática. Escotomas, edema de instalação rápida e hiperreflexia com clônus completam o quadro. O sulfato de magnésio previne a convulsão, e a pressão se reduz de forma controlada, porque a placenta depende da pressão materna para perfundir."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-aceitavel",
+     "classe": "aceitavel",
+     "texto": "Ela chega à referência com cefaleia intensa e pressão mais alta que na saída, precisando de manejo agressivo na chegada. O parto ocorre no mesmo dia e ambos evoluem bem, após uma transferência mais tensa do que precisava ser.",
+     "ensino": "O sulfato de magnésio previne a convulsão, e não trata a hipertensão. Na hipertensão grave da gestação, o anti-hipertensivo começa antes do transporte, porque o risco de acidente vascular materno acompanha a paciente durante todo o trajeto."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-dano",
+     "classe": "dano",
+     "texto": "Com a queda rápida da pressão, o batimento fetal desacelera e não recupera. É necessária cesariana de emergência na chegada, e o recém-nascido precisa de reanimação e de terapia intensiva neonatal prolongada por sofrimento agudo.",
+     "ensino": "A placenta não autorregula seu fluxo: ela depende diretamente da pressão materna. Normalizar rapidamente a pressão de uma gestante gravemente hipertensa troca o risco materno pelo sofrimento fetal agudo. A redução é gradual e o alvo é uma faixa de segurança."
+    }
+   ]
+  },
+  {
    "id": "dor-que-acordou-o-menino",
    "titulo": "A dor que acordou o menino às 3 da manhã",
    "contexto": "Pronto atendimento, madrugada. Um adolescente de 14 anos chega curvado, amparado pelo pai, pálido e com ânsia. A dor começou há pouco mais de uma hora, de repente, 'lá embaixo', e ele mal deixa alguém chegar perto.",
@@ -27070,6 +27927,171 @@
      "classe": "dano",
      "texto": "O Doppler das 7h20 mostra ausência de fluxo no testículo esquerdo. Na cirurgia, mais de seis horas depois do início da dor, o órgão está escuro e não responde: orquiectomia. A conversa com o pai, na saída do centro cirúrgico, é sobre o que três horas de espera significaram.",
      "ensino": "A imagem que não está disponível não pode ser critério de conduta. Na torção, as horas de evolução são a variável que nenhum tratamento recupera: o exame físico típico, na idade típica, autoriza e exige o acionamento imediato. O antibiótico errado atrasa; o exame adiado atrasa; a espera pela comprovação, quando ela não está à mão, é o atraso com aparência de rigor."
+    }
+   ]
+  },
+  {
+   "id": "dor-que-atravessou-para-as-costas",
+   "titulo": "A dor que atravessou para as costas",
+   "contexto": "Pronto socorro, madrugada de domingo. Um homem de 46 anos chega curvado para a frente, segurando a barriga. Diz que a dor começou há oito horas no alto do abdome, forte e contínua, e que atravessa para as costas. Vomitou várias vezes sem alívio nenhum. Bebeu bastante na festa de sábado.",
+   "tags": [
+    "abdome",
+    "pancreatite",
+    "dor epigastrica",
+    "gravidade"
+   ],
+   "topicosDeApoio": [
+    "abdome/exame-do-abdome/abdome-agudo-e-sinais-peritoneais",
+    "abdome/exame-do-abdome/palpacao-do-abdome",
+    "exame-fisico-geral/sinais-vitais/frequencia-cardiaca-e-pulso"
+   ],
+   "referencias": [
+    "McGee, Evidence-Based Physical Diagnosis, 4ª ed., seção de exame do abdome",
+    "Porto, Semiologia Médica, 8ª ed., seção de doenças do pâncreas e abdome agudo",
+    "Semiologia Clínica, 1ª ed., capítulo de semiologia abdominal"
+   ],
+   "revisao": "pendente",
+   "inicio": "c-chegada",
+   "nos": [
+    {
+     "tipo": "cena",
+     "id": "c-chegada",
+     "texto": "Ele encontra alívio parcial sentado e inclinado para a frente, com os joelhos dobrados, e piora ao deitar. A dor não vem em ondas: é contínua desde o início, sem intervalos. Os vômitos foram cinco ou seis, e nenhum deles melhorou nada. Ele conta que já teve 'crise de pedra na vesícula' há dois anos.",
+     "dados": [
+      "Dor epigástrica contínua há 8 horas, irradiando para o dorso",
+      "Alívio parcial em posição fetal ou inclinado para a frente",
+      "Vômitos repetidos sem alívio",
+      "FC 112 bpm, PA 118 x 72 mmHg, FR 24 irpm",
+      "Ingestão alcoólica intensa na véspera, cálculo biliar conhecido"
+     ],
+     "proximo": "d-caracterizacao"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-caracterizacao",
+     "pergunta": "O que a posição de alívio e o padrão da dor sugerem?",
+     "opcoes": [
+      {
+       "texto": "Dor de origem retroperitoneal: contínua, transfixante para o dorso e aliviada ao inclinar o tronco para a frente, o padrão que a pancreatite costuma desenhar.",
+       "avaliacao": "otima",
+       "feedback": "A posição que alivia é informação semiológica de verdade. Ao inclinar o tronco para a frente, o peso das vísceras deixa de comprimir o retroperitônio, e por isso a dor cede um pouco. Some a isso o caráter contínuo, sem as ondas da obstrução, e a irradiação em faixa para o dorso: o quadro aponta para o pâncreas antes de qualquer exame de sangue.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Dor de origem obstrutiva: os vômitos repetidos indicam obstrução intestinal alta.",
+       "avaliacao": "erro",
+       "feedback": "Vômito acompanha as duas coisas, mas o resto não combina: a dor obstrutiva vem em cólicas com alívio entre elas, e aqui ela é contínua desde o começo. Além disso, a obstrução alta não costuma irradiar em faixa para o dorso nem melhorar com o tronco inclinado.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Provável úlcera péptica complicada, dada a dor epigástrica intensa em quem bebeu muito.",
+       "avaliacao": "aceitavel",
+       "feedback": "A hipótese é razoável e precisa ser considerada, sobretudo a perfuração. O que fala contra é a ausência de rigidez de parede e o modo como a dor irradia. O exame do abdome, feito com atenção à defesa e à percussão hepática, separa as duas em poucos minutos.",
+       "proximo": "c-exame"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-exame",
+     "texto": "O abdome está distendido no andar superior e doloroso à palpação do epigástrio, com defesa voluntária que cede quando você conversa com ele. Não há rigidez involuntária nem descompressão dolorosa evidente. A macicez hepática está preservada à percussão. Os ruídos hidroaéreos estão diminuídos. Não há icterícia visível na esclera com luz natural. As extremidades estão discretamente frias.",
+     "dados": [
+      "Dor epigástrica à palpação, sem rigidez involuntária",
+      "Macicez hepática preservada",
+      "Ruídos hidroaéreos diminuídos",
+      "Sem icterícia perceptível",
+      "FC 118 bpm, extremidades discretamente frias"
+     ],
+     "proximo": "d-gravidade"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-gravidade",
+     "pergunta": "Que achados do exame você usa para estimar a gravidade agora?",
+     "opcoes": [
+      {
+       "texto": "Os sinais de perfusão e de terceiro espaço: frequência cardíaca, temperatura das extremidades, frequência respiratória e diurese, porque a pancreatite grave perde grandes volumes para dentro do abdome.",
+       "avaliacao": "otima",
+       "feedback": "A pancreatite não mata pela dor, mata pela perda de volume para o retroperitônio e pela resposta inflamatória sistêmica. Por isso a gravidade se acompanha à beira do leito com os mesmos parâmetros do choque: pulso, perfusão, respiração e diurese. Nas primeiras horas, esses sinais valem mais que o valor da amilase.",
+       "proximo": "c-tratamento"
+      },
+      {
+       "texto": "O valor da amilase e da lipase: quanto mais altos, mais grave o quadro.",
+       "avaliacao": "erro",
+       "feedback": "As enzimas confirmam o diagnóstico e não graduam a gravidade: pancreatites leves podem cursar com valores altíssimos e formas graves, com elevações modestas. Usar o número como termômetro de gravidade leva a subestimar justamente o paciente que mais precisa de volume e de vigilância.",
+       "proximo": "c-tratamento"
+      },
+      {
+       "texto": "A presença de manchas na pele dos flancos ou ao redor do umbigo, que indicam gravidade.",
+       "avaliacao": "aceitavel",
+       "feedback": "Esses sinais existem, apontam sangramento retroperitoneal e valem a inspeção completa do abdome despido. O problema é o tempo: eles costumam aparecer dias depois, quando a gravidade já se manifestou por outros caminhos. Procure, mas não espere por eles.",
+       "proximo": "c-tratamento"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-tratamento",
+     "texto": "Você inicia hidratação venosa vigorosa, analgesia e jejum, e solicita os exames. A lipase volta muito elevada. A ultrassonografia mostra cálculos na vesícula, sem dilatação evidente das vias biliares. Duas horas depois, com dois litros infundidos, a frequência cardíaca caiu para 96 bpm e ele urinou.",
+     "dados": [
+      "Lipase muito elevada",
+      "Colelitíase à ultrassonografia, sem dilatação de vias biliares",
+      "FC 96 bpm após 2 litros, diurese presente",
+      "Sem febre, sem icterícia"
+     ],
+     "proximo": "d-antibiotico"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-antibiotico",
+     "pergunta": "Um colega sugere iniciar antibiótico profilático. O que você decide?",
+     "opcoes": [
+      {
+       "texto": "Não iniciar antibiótico: sem sinal de infecção, ele não previne complicação e seleciona germes resistentes. O tratamento nesta fase é volume, analgesia e vigilância.",
+       "avaliacao": "otima",
+       "feedback": "O reflexo de cobrir é forte e aqui não se sustenta. Na pancreatite aguda sem sinal de infecção, o antibiótico profilático não melhora desfecho e cobra o preço da resistência e da candidíase. O que muda o prognóstico nas primeiras horas é hidratação adequada e reavaliação frequente, sempre com o exame à beira do leito.",
+       "proximo": "fim-otimo"
+      },
+      {
+       "texto": "Iniciar antibiótico de amplo espectro, já que a pancreatite é um quadro inflamatório grave com risco de infecção.",
+       "avaliacao": "erro",
+       "feedback": "Inflamação não é infecção. A febre e a leucocitose da pancreatite vêm da própria resposta inflamatória, e tratá-las com antibiótico não reduz complicação. Pior: quando a infecção realmente aparecer, dias depois, o paciente já terá selecionado germes mais difíceis.",
+       "proximo": "fim-dano"
+      },
+      {
+       "texto": "Não iniciar agora, mas manter observação e reavaliar em vinte e quatro horas apenas se houver piora clínica.",
+       "avaliacao": "aceitavel",
+       "feedback": "A decisão de não iniciar está correta. O intervalo é que é longo demais: nas primeiras vinte e quatro horas a hidratação precisa ser reavaliada em intervalos de poucas horas, porque é justamente aí que a perda para o terceiro espaço acontece.",
+       "proximo": "c-reavaliacao-tardia"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-reavaliacao-tardia",
+     "texto": "Na manhã seguinte ele está taquicárdico de novo, com pouca diurese e mais dor. A reposição foi insuficiente durante a noite e ele precisa de correção agressiva, agora com função renal já alterada.",
+     "proximo": "fim-aceitavel"
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-otimo",
+     "classe": "otimo",
+     "texto": "Com hidratação bem conduzida e reavaliações a cada poucas horas, ele melhora ao longo de dois dias, volta a se alimentar no terceiro e é operado da vesícula na mesma internação, antes da alta, para evitar uma segunda crise.",
+     "ensino": "A dor contínua, transfixante para o dorso e aliviada com o tronco inclinado para a frente, desenha a origem retroperitoneal. A gravidade da pancreatite se acompanha pelos sinais de perfusão, não pelo valor da enzima. E antibiótico profilático não faz parte do tratamento na ausência de infecção. Na pancreatite de origem biliar, a vesícula sai antes da alta."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-aceitavel",
+     "classe": "aceitavel",
+     "texto": "Ele se recupera, com lesão renal aguda transitória e uma internação de nove dias em vez de quatro.",
+     "ensino": "Na pancreatite, a hidratação das primeiras horas é o tratamento principal, e ela se ajusta por reavaliações frequentes de pulso, perfusão e diurese. Intervalos longos entre as avaliações permitem que a perda para o terceiro espaço aconteça sem ninguém ver."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-dano",
+     "classe": "dano",
+     "texto": "Duas semanas depois ele desenvolve uma coleção infectada com germe resistente e candidemia associada. A internação passa por terapia intensiva, drenagem percutânea e cinco semanas de hospital.",
+     "ensino": "Antibiótico não previne a infecção da necrose pancreática e favorece a seleção de germes difíceis, exatamente os que aparecerão se a infecção vier. A febre e a leucocitose iniciais pertencem à inflamação, e o tratamento delas é volume e tempo, não cobertura antimicrobiana."
     }
    ]
   },
@@ -27417,6 +28439,177 @@
    ]
   },
   {
+   "id": "dor-que-nao-cabia-na-mancha",
+   "titulo": "A dor que não cabia na mancha",
+   "contexto": "Emergência de hospital geral, sábado à noite. Um homem de 61 anos, diabético, chega com dor na coxa esquerda há um dia e uma mancha vermelha que a esposa diz ter aparecido de manhã e crescido durante a tarde. Ele diz que a dor é muito forte, e a mancha, quando você olha, parece pequena para o tamanho da queixa.",
+   "tags": [
+    "geral",
+    "fasciite necrosante",
+    "pele",
+    "emergencia"
+   ],
+   "topicosDeApoio": [
+    "exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros",
+    "exame-fisico-geral/sinais-vitais/frequencia-cardiaca-e-pulso",
+    "exame-fisico-geral/sinais-vitais/temperatura-e-frequencia-respiratoria"
+   ],
+   "referencias": [
+    "McGee, Evidence-Based Physical Diagnosis, 4ª ed., seção de exame da pele e de infecções de partes moles",
+    "Porto, Semiologia Médica, 8ª ed., seção de exame da pele e infecções de tecidos moles",
+    "Semiologia Clínica, 1ª ed., capítulo de exame geral e da pele"
+   ],
+   "revisao": "pendente",
+   "inicio": "c-chegada",
+   "nos": [
+    {
+     "tipo": "cena",
+     "id": "c-chegada",
+     "texto": "Ele está prostrado, com o rosto contraído, e não deixa ninguém encostar na coxa. A área avermelhada tem cerca de dez centímetros na face medial, sem borda bem definida. A dor que ele descreve é de 10 em 10 e se estende bem além do vermelho. A temperatura é de 38,6 graus e o pulso, de 122 bpm.",
+     "dados": [
+      "Dor intensa na coxa há 24 horas, progressiva",
+      "Área eritematosa de bordas mal definidas, crescendo em horas",
+      "Dor que ultrapassa os limites da lesão visível",
+      "Temperatura 38,6 graus, FC 122 bpm, PA 104 x 62 mmHg",
+      "Diabetes de longa data"
+     ],
+     "proximo": "d-primeira-leitura"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-primeira-leitura",
+     "pergunta": "Como você lê a desproporção entre a dor e o tamanho da mancha?",
+     "opcoes": [
+      {
+       "texto": "Como bandeira vermelha: dor que excede muito os limites da lesão visível, em quadro que evolui em horas, sugere infecção necrosante de partes moles.",
+       "avaliacao": "otima",
+       "feedback": "Essa desproporção é o sinal precoce mais valioso. A infecção necrosante caminha pelo plano da fáscia, abaixo da pele, e destrói terminações nervosas e vasos antes de a pele mudar de aspecto. Por isso o paciente dói muito e a superfície ainda mostra pouco, e por isso a velocidade da evolução conta tanto quanto a aparência.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Como baixa tolerância à dor, comum em diabéticos com neuropatia e ansiedade: iniciar antibiótico oral para celulite e reavaliar em quarenta e oito horas.",
+       "avaliacao": "erro",
+       "feedback": "A neuropatia do diabético costuma reduzir a dor, não aumentá-la, o que torna esta queixa ainda mais preocupante. Celulite comum não avança em horas nem produz taquicardia e febre com prostração desse grau. Quarenta e oito horas nesta doença é um intervalo em que o desfecho já terá sido decidido.",
+       "proximo": "c-atraso"
+      },
+      {
+       "texto": "Como possível trombose venosa profunda com dor intensa: solicitar doppler antes de decidir.",
+       "avaliacao": "aceitavel",
+       "feedback": "A trombose entra no diagnóstico diferencial da perna dolorosa e edemaciada, e a doppler será útil. O que não combina é a febre alta com prostração e uma lesão de pele que cresce durante a tarde. Peça o exame sem deixar que ele adie a avaliação cirúrgica.",
+       "proximo": "c-exame"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-atraso",
+     "texto": "Na manhã seguinte a área dobrou de tamanho, a pele mudou para um tom acinzentado em partes e ele está hipotenso. As horas gastas com antibiótico oral foram as horas em que a fáscia continuou sendo destruída.",
+     "proximo": "c-exame"
+    },
+    {
+     "tipo": "cena",
+     "id": "c-exame",
+     "texto": "Com a perna despida e boa iluminação, você percebe que a área eritematosa tem limites imprecisos, que se perdem na pele normal. Há uma zona central mais escura, quase acinzentada, e a pele ali está tensa e brilhante. Ao palpar, você sente uma crepitação fina sob os dedos em um ponto. O edema ultrapassa muito a área avermelhada. Ele não sente o toque leve no centro da lesão, embora sinta ao redor.",
+     "dados": [
+      "Bordas imprecisas, com zona central acinzentada",
+      "Pele tensa e brilhante, edema além do eritema",
+      "Crepitação à palpação",
+      "Anestesia cutânea no centro da lesão",
+      "PA 96 x 56 mmHg, FC 130 bpm"
+     ],
+     "proximo": "d-achados"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-achados",
+     "pergunta": "Anestesia da pele no centro da lesão e crepitação. O que esses achados indicam?",
+     "opcoes": [
+      {
+       "texto": "Indicam necrose já instalada: os nervos cutâneos foram destruídos e há gás nos tecidos, o que torna a exploração cirúrgica imediata a prioridade absoluta.",
+       "avaliacao": "otima",
+       "feedback": "A anestesia cutânea sobre uma área que dói ao redor é um achado quase específico: significa que os pequenos nervos que passavam ali já morreram. A crepitação indica gás produzido por bactérias no tecido. Nenhum dos dois é achado de celulite, e ambos apontam para a sala de cirurgia, não para mais uma dose de antibiótico.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Indicam apenas infecção mais extensa: aumentar o espectro do antibiótico e observar de perto por seis horas.",
+       "avaliacao": "erro",
+       "feedback": "Antibiótico não alcança tecido morto, e é tecido morto que está alimentando essa infecção. A doença avança pela fáscia em velocidade que se mede em centímetros por hora, e a única intervenção que interrompe é o desbridamento cirúrgico. Seis horas de observação é o intervalo que decide entre membro e amputação.",
+       "proximo": "fim-dano"
+      },
+      {
+       "texto": "Indicam necessidade de tomografia para avaliar extensão do gás antes da decisão cirúrgica.",
+       "avaliacao": "aceitavel",
+       "feedback": "A imagem mostra o gás e ajuda a planejar, e é dispensável quando o quadro clínico já é característico. Com hipotensão, anestesia cutânea e crepitação, a exploração cirúrgica não deve esperar pelo exame. A tomografia só cabe quando ainda existe dúvida real.",
+       "proximo": "c-conduta"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-conduta",
+     "texto": "Culturas colhidas, antibiótico de amplo espectro iniciado e volume correndo. A cirurgia foi acionada e a sala fica pronta em trinta minutos. A pressão respondeu parcialmente e está em 100 x 58 mmHg. A área acinzentada aumentou visivelmente desde a chegada dele.",
+     "dados": [
+      "Antibiótico de amplo espectro iniciado",
+      "Sala cirúrgica em 30 minutos",
+      "Lesão com progressão visível em poucas horas",
+      "PA 100 x 58 mmHg após volume"
+     ],
+     "proximo": "d-marcacao"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-marcacao",
+     "pergunta": "O que você faz nesses trinta minutos de espera?",
+     "opcoes": [
+      {
+       "texto": "Marcar a borda do eritema com caneta e a hora ao lado, manter volume e antibiótico, e comunicar à equipe cirúrgica a velocidade de progressão observada.",
+       "avaliacao": "otima",
+       "feedback": "Marcar a borda com a hora transforma impressão em dado: quem receber o paciente vê exatamente quanto a lesão avançou e em quanto tempo. É um gesto de dez segundos, custo zero, que muda a percepção de urgência de toda a equipe. Vale em qualquer infecção de pele que esteja em dúvida.",
+       "proximo": "fim-otimo"
+      },
+      {
+       "texto": "Aguardar sem intervenções adicionais, para não atrasar a ida ao centro cirúrgico.",
+       "avaliacao": "aceitavel",
+       "feedback": "Não atrasar é correto, e nada do que foi sugerido atrasa: marcar a borda e manter volume acontecem enquanto a maca se desloca. O risco de não registrar é a equipe seguinte subestimar a velocidade da doença.",
+       "proximo": "c-sem-marcacao"
+      },
+      {
+       "texto": "Aplicar compressas frias sobre a lesão para aliviar a dor durante a espera.",
+       "avaliacao": "erro",
+       "feedback": "O frio provoca vasoconstrição em um tecido que já está isquêmico e piora a perfusão da área ameaçada, além de mascarar a evolução da temperatura local. A analgesia aqui é sistêmica, e a única medida que trata é a cirurgia.",
+       "proximo": "c-sem-marcacao"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-sem-marcacao",
+     "texto": "Sem registro da borda, a equipe cirúrgica avalia o caso como uma celulite grave e a exploração começa com o desbridamento mais conservador do que deveria, exigindo uma segunda cirurgia no dia seguinte.",
+     "proximo": "fim-aceitavel"
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-otimo",
+     "classe": "otimo",
+     "texto": "A exploração cirúrgica confirma necrose da fáscia, que se descola com facilidade ao toque. O desbridamento é amplo, guiado pela extensão real da doença, e ele passa por mais duas revisões cirúrgicas programadas. Sobrevive, mantém o membro e recebe enxerto de pele na quarta semana.",
+     "ensino": "Dor desproporcional ao aspecto da pele, evolução em horas, bordas imprecisas, anestesia cutânea sobre a lesão e crepitação apontam infecção necrosante de partes moles. Nenhum antibiótico alcança tecido morto: o tratamento é cirúrgico e a janela é de horas. Marcar a borda do eritema com a hora ao lado é um gesto simples que documenta a velocidade da doença."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-aceitavel",
+     "classe": "aceitavel",
+     "texto": "Ele sobrevive e mantém o membro, com duas cirurgias a mais do que seria necessário e uma internação de seis semanas.",
+     "ensino": "A velocidade de progressão é parte do diagnóstico e precisa ser comunicada de forma objetiva. Marcar a borda com a hora é a maneira mais simples de transmitir urgência a quem chega depois de você."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-dano",
+     "classe": "dano",
+     "texto": "Nas seis horas de observação a infecção sobe para a região inguinal e ele evolui com choque séptico. A cirurgia precisa desbridar da coxa até o abdome, e depois de três semanas em terapia intensiva ele acaba amputado no quadril.",
+     "ensino": "Antibiótico não penetra em tecido necrosado, e a infecção necrosante avança enquanto se observa. Anestesia cutânea e crepitação já são achados tardios: quando aparecem, a decisão cirúrgica não pode esperar nem por imagem nem por reavaliação."
+    }
+   ]
+  },
+  {
    "id": "falta-de-ar-que-o-torax-nao-explicava",
    "titulo": "A falta de ar que o tórax não explicava",
    "contexto": "Pronto socorro de uma tarde de terça. Uma mulher de 38 anos, operada de fratura de tornozelo há doze dias e ainda com a bota imobilizadora, chega dizendo que ficou sem ar de repente enquanto assistia à novela. Ela mesma sugere que pode ser ansiedade, porque anda dormindo mal desde a cirurgia.",
@@ -27586,6 +28779,177 @@
    ]
   },
   {
+   "id": "febre-arrastada-e-sopro-novo",
+   "titulo": "A febre arrastada e o sopro que não existia",
+   "contexto": "Ambulatório de clínica geral. Um homem de 39 anos vem pela terceira vez em cinco semanas com febre baixa, cansaço e falta de apetite. Já tomou dois antibióticos diferentes por 'infecção de garganta' e por 'infecção urinária', sem melhora. Perdeu seis quilos nesse período.",
+   "tags": [
+    "cardiovascular",
+    "endocardite",
+    "sopro",
+    "febre de origem indeterminada"
+   ],
+   "topicosDeApoio": [
+    "aparelho-cardiovascular/exame-cardiaco/sopros-cardiacos",
+    "exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros",
+    "exame-fisico-geral/sinais-vitais/temperatura-e-frequencia-respiratoria"
+   ],
+   "referencias": [
+    "McGee, Evidence-Based Physical Diagnosis, 4ª ed., seção de sopros cardíacos e de febre",
+    "Porto, Semiologia Médica, 8ª ed., seção de endocardite infecciosa e ausculta cardíaca",
+    "Semiologia Clínica, 1ª ed., capítulo de semiologia cardiovascular"
+   ],
+   "revisao": "pendente",
+   "inicio": "c-chegada",
+   "nos": [
+    {
+     "tipo": "cena",
+     "id": "c-chegada",
+     "texto": "Ele parece cansado e emagrecido. Conta que a febre é quase diária, mais no fim da tarde, e que sua sempre à noite. Menciona, sem dar importância, que fez um tratamento de canal há dois meses. Tem antecedente de febre reumática na infância, que ele quase não lembra.",
+     "dados": [
+      "Febre baixa quase diária há 5 semanas, sudorese noturna",
+      "Perda de 6 kg no período",
+      "Dois cursos de antibiótico sem melhora",
+      "Procedimento odontológico há 2 meses",
+      "Antecedente de febre reumática na infância"
+     ],
+     "proximo": "d-abordagem"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-abordagem",
+     "pergunta": "Febre prolongada sem foco identificado. Como você conduz esta consulta?",
+     "opcoes": [
+      {
+       "texto": "Fazer um exame físico completo e sem pressa, com o paciente despido, incluindo ausculta cardíaca em todos os focos e inspeção detalhada de pele, unhas, conjuntivas e fundo de olho.",
+       "avaliacao": "otima",
+       "feedback": "Febre prolongada sem foco é a indicação clássica de exame completo e repetido: os achados que resolvem o caso costumam ser pequenos e periféricos. Na endocardite, o sopro novo é o achado central, e ao redor dele existem sinais discretos na pele, nas unhas e nas conjuntivas que só aparecem para quem procura com luz e paciência.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Prescrever um terceiro antibiótico de espectro mais amplo e reavaliar em uma semana.",
+       "avaliacao": "erro",
+       "feedback": "Cada curso de antibiótico sem diagnóstico faz duas coisas ruins aqui: adia a investigação e reduz a chance de as hemoculturas identificarem o agente, que é justamente o que orienta semanas de tratamento na endocardite. Antibiótico às cegas em febre arrastada apaga a pista principal.",
+       "proximo": "c-atraso"
+      },
+      {
+       "texto": "Solicitar tomografia de tórax e abdome em busca do foco antes de qualquer exame físico detalhado.",
+       "avaliacao": "aceitavel",
+       "feedback": "A imagem ampla tem lugar na investigação de febre prolongada, e ela vem depois do exame físico, não antes. Neste caso, o estetoscópio e uma lanterna encontrariam em dez minutos o que a tomografia não mostraria.",
+       "proximo": "c-exame"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-atraso",
+     "texto": "Três semanas depois ele retorna pior, com febre mantida e falta de ar aos esforços. As hemoculturas colhidas agora, já sob antibiótico, voltarão negativas, e o agente nunca será identificado. O exame que faltava é feito enfim.",
+     "proximo": "c-exame"
+    },
+    {
+     "tipo": "cena",
+     "id": "c-exame",
+     "texto": "Na ausculta, com ele sentado e em expiração, há um sopro diastólico aspirativo na borda esternal esquerda, que a esposa afirma nunca ter sido mencionado por nenhum médico antes. As conjuntivas mostram duas pequenas manchas hemorrágicas. Nas unhas das mãos há finas linhas avermelhadas longitudinais. Nas polpas dos dedos, dois nódulos pequenos e dolorosos. O baço é palpável a dois centímetros.",
+     "dados": [
+      "Sopro diastólico aspirativo, novo",
+      "Hemorragias conjuntivais",
+      "Hemorragias subungueais lineares",
+      "Nódulos dolorosos nas polpas digitais",
+      "Baço palpável, temperatura 38,2 graus"
+     ],
+     "proximo": "d-leitura"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-leitura",
+     "pergunta": "Como você interpreta esse conjunto?",
+     "opcoes": [
+      {
+       "texto": "Endocardite infecciosa: sopro novo com febre prolongada e fenômenos vasculares periféricos, e a prioridade agora é colher hemoculturas seriadas antes de qualquer antibiótico.",
+       "avaliacao": "otima",
+       "feedback": "Sopro novo e febre são a dupla que obriga a pensar em endocardite, e os achados periféricos vêm de êmbolos e de depósitos imunes que saem da valva doente. A sequência importa muito: várias amostras de hemocultura, colhidas de locais diferentes e antes do antibiótico, decidem o tratamento das próximas semanas.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Doença reumatológica sistêmica, dada a combinação de febre, esplenomegalia e lesões de pele.",
+       "avaliacao": "aceitavel",
+       "feedback": "A hipótese merece estar na lista, e várias vasculites produzem quadro parecido. O que muda a ordem de prioridade é a valva: sopro novo somado a febre prolongada obriga a excluir infecção primeiro, porque começar imunossupressor numa endocardite é desastroso.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Sopro funcional pela febre e pela anemia, e a investigação deve seguir procurando um foco infeccioso oculto.",
+       "avaliacao": "erro",
+       "feedback": "Sopros funcionais são sistólicos e suaves, e nunca diastólicos. Todo sopro diastólico é orgânico e merece investigação, e neste contexto ele é o achado que fecha o raciocínio. Chamar de funcional é descartar a pista mais importante do caso.",
+       "proximo": "c-conduta"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-conduta",
+     "texto": "Três amostras de hemocultura são colhidas em locais diferentes e o ecocardiograma é solicitado. O transtorácico mostra uma imagem sugestiva de vegetação na valva aórtica com regurgitação importante. Ele mantém febre, mas está estável, sem sinais de congestão, com pressão de 122 x 58 mmHg.",
+     "dados": [
+      "Três hemoculturas colhidas antes do antibiótico",
+      "Vegetação em valva aórtica com regurgitação importante",
+      "Sem sinais de congestão pulmonar",
+      "PA 122 x 58 mmHg, com pressão de pulso ampla"
+     ],
+     "proximo": "d-tratamento"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-tratamento",
+     "pergunta": "Como você conduz o tratamento a partir daqui?",
+     "opcoes": [
+      {
+       "texto": "Internar, iniciar antibiótico endovenoso empírico após as culturas, envolver a cirurgia cardíaca desde já e vigiar sinais de insuficiência cardíaca e de embolia a cada dia.",
+       "avaliacao": "otima",
+       "feedback": "O tratamento é longo e endovenoso, e a avaliação cirúrgica precoce faz parte dele: regurgitação importante, insuficiência cardíaca, vegetação grande ou infecção não controlada são situações em que a cirurgia entra, às vezes antes de completar o antibiótico. A vigilância diária é do exame: sopro que muda, congestão que aparece, novo déficit neurológico.",
+       "proximo": "fim-otimo"
+      },
+      {
+       "texto": "Tratar com antibiótico oral em casa, com retornos semanais, já que ele está estável e trabalha.",
+       "avaliacao": "erro",
+       "feedback": "A endocardite exige concentração sustentada de antibiótico dentro da vegetação, e isso não se consegue com esquema oral comum nem com adesão domiciliar em semanas de tratamento. Além disso, a complicação mais temida, a insuficiência cardíaca aguda por destruição valvar, aparece em dias e precisa de vigilância diária.",
+       "proximo": "fim-dano"
+      },
+      {
+       "texto": "Internar e iniciar antibiótico, deixando a avaliação da cirurgia para o caso de piora clínica.",
+       "avaliacao": "aceitavel",
+       "feedback": "Internar e tratar está correto, e adiar a conversa com o cirurgião não. Com regurgitação importante, a probabilidade de indicação cirúrgica é alta, e a equipe precisa conhecer o paciente antes de ele piorar. Avaliação precoce não significa operar cedo, significa não decidir às pressas.",
+       "proximo": "c-espera-cirurgia"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-espera-cirurgia",
+     "texto": "No sexto dia ele desenvolve dispneia e estertores nas bases. A avaliação cirúrgica é solicitada em caráter de urgência, com o paciente já congesto e com a valva mais destruída do que estava na admissão.",
+     "proximo": "fim-aceitavel"
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-otimo",
+     "classe": "otimo",
+     "texto": "As hemoculturas identificam o agente e o esquema é ajustado. A equipe cirúrgica acompanha desde o início e opera na terceira semana, de forma programada, com troca valvar. Ele completa o tratamento e volta ao trabalho em dois meses, com a profilaxia odontológica devidamente orientada.",
+     "ensino": "Febre prolongada sem foco pede exame físico completo e repetido, porque os achados que resolvem são pequenos. Sopro novo com febre obriga a pensar em endocardite. Todo sopro diastólico é orgânico. E a ordem importa: hemoculturas seriadas antes do antibiótico, porque é o agente identificado que orienta semanas de tratamento."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-aceitavel",
+     "classe": "aceitavel",
+     "texto": "Ele é operado de urgência com insuficiência cardíaca instalada, exigindo terapia intensiva no pós-operatório. Recupera-se, com internação de cinco semanas.",
+     "ensino": "Na endocardite com regurgitação importante, a avaliação cirúrgica precoce é parte do tratamento clínico. Chamar o cirurgião apenas quando o paciente piora troca uma cirurgia programada por uma cirurgia de resgate."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-dano",
+     "classe": "dano",
+     "texto": "Duas semanas depois ele retorna com dispneia intensa, sopro mais rude e insuficiência cardíaca aguda por perfuração valvar. Precisa de cirurgia de emergência e, no pós-operatório, apresenta um acidente vascular embólico com sequela motora.",
+     "ensino": "Tratamento oral e domiciliar não alcança a vegetação nem permite a vigilância que a doença exige. Na endocardite, a internação e a via endovenosa não são formalidade: são o que garante concentração adequada da droga e a detecção precoce da destruição valvar."
+    }
+   ]
+  },
+  {
    "id": "febre-e-nuca-dura",
    "titulo": "Febre, cefaleia e uma nuca que não dobra",
    "contexto": "Plantão noturno de pronto-socorro. O colega da república traz um universitário de 19 anos que 'não está bem desde a tarde': febre alta, dor de cabeça que só piora e agora umas respostas fora de hora.",
@@ -27750,6 +29114,171 @@
      "classe": "dano",
      "texto": "Quando a imagem finalmente sai, ele já não desperta ao chamado. A primeira dose entra com horas de atraso e a internação termina em UTI prolongada, com sequela auditiva. Na revisão do caso, a linha do tempo mostra o intervalo em branco entre a chegada e a primeira decisão.",
      "ensino": "Meningite bacteriana é diagnóstico de minutos, não de fila. Os trinta segundos dos sinais meníngeos e a inspeção da pele valem mais que qualquer espera, e a primeira dose empírica, com culturas colhidas, não aguarda punção que vai demorar. O tempo é o insumo que nenhum resultado devolve."
+    }
+   ]
+  },
+  {
+   "id": "febre-ictericia-e-calafrio",
+   "titulo": "A febre que veio junto com a icterícia",
+   "contexto": "Emergência de hospital geral. Uma mulher de 67 anos chega com dor no quadrante superior direito do abdome há um dia, febre alta com calafrios desde a noite e, segundo a filha, 'os olhos amarelos desde ontem'. Ela tem cálculos biliares conhecidos e já recusou a cirurgia duas vezes.",
+   "tags": [
+    "abdome",
+    "colangite",
+    "ictericia",
+    "emergencia"
+   ],
+   "topicosDeApoio": [
+    "abdome/exame-do-abdome/palpacao-do-abdome",
+    "exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros",
+    "exame-fisico-geral/sinais-vitais/temperatura-e-frequencia-respiratoria"
+   ],
+   "referencias": [
+    "McGee, Evidence-Based Physical Diagnosis, 4ª ed., seção de exame do abdome e de icterícia",
+    "Porto, Semiologia Médica, 8ª ed., seção de vias biliares e icterícia",
+    "Semiologia Clínica, 1ª ed., capítulo de semiologia abdominal"
+   ],
+   "revisao": "pendente",
+   "inicio": "c-chegada",
+   "nos": [
+    {
+     "tipo": "cena",
+     "id": "c-chegada",
+     "texto": "Ela está prostrada, respondendo devagar, e a filha diz que ela 'não é assim'. A pele tem um tom amarelado que fica evidente na esclera quando você a leva para perto da janela. Teve dois episódios de tremor intenso com sensação de frio durante a madrugada. A urina, diz a filha, está 'da cor de chá'.",
+     "dados": [
+      "Dor em quadrante superior direito há 1 dia",
+      "Febre com calafrios intensos",
+      "Icterícia de escleras, urina escura",
+      "Temperatura 38,9 graus, FC 116 bpm, PA 104 x 60 mmHg",
+      "Prostração e lentificação, segundo a família"
+     ],
+     "proximo": "d-triade"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-triade",
+     "pergunta": "Dor no quadrante superior direito, febre com calafrio e icterícia. O que esse conjunto significa?",
+     "opcoes": [
+      {
+       "texto": "É a tríade da colangite: infecção da via biliar obstruída, que exige antibiótico e drenagem da via, não apenas tratamento clínico.",
+       "avaliacao": "otima",
+       "feedback": "Os três achados juntos mudam o diagnóstico de lugar. Na colecistite a inflamação fica na vesícula e não costuma dar icterícia; quando a icterícia entra em cena com febre e calafrio, o problema passou para a via biliar principal, que está obstruída e infectada sob pressão. E via infectada sob pressão só se resolve drenando.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "É colecistite aguda: o quadro clássico de dor no quadrante superior direito com febre.",
+       "avaliacao": "erro",
+       "feedback": "A colecistite explica a dor e a febre, e não explica a icterícia nem os calafrios com tremor. Tratar como colecistite significa antibiótico e cirurgia da vesícula em tempo eletivo, enquanto a via biliar continua obstruída e a infecção sob pressão avança para a corrente sanguínea.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "É hepatite aguda, dada a icterícia com febre e prostração.",
+       "avaliacao": "aceitavel",
+       "feedback": "A hepatite entra no diagnóstico diferencial da icterícia febril, e será afastada pelo padrão laboratorial. O que fala contra desde já é o calafrio com tremor intenso, que sugere bacteremia, e a dor localizada no quadrante superior direito com antecedente de cálculos.",
+       "proximo": "c-exame"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-exame",
+     "texto": "A palpação do quadrante superior direito é dolorosa, e a inspiração profunda durante a palpação sob o rebordo costal interrompe a respiração dela pela dor. Não há rigidez de parede. O fígado é palpável dois centímetros abaixo do rebordo, de borda lisa. A escleras estão claramente amareladas. A pressão agora marca 96 x 54 mmHg e ela está mais sonolenta do que na chegada.",
+     "dados": [
+      "Dor à palpação do quadrante superior direito com interrupção da inspiração",
+      "Fígado palpável a 2 cm, borda lisa",
+      "Icterícia de escleras evidente",
+      "PA 96 x 54 mmHg, FC 124 bpm",
+      "Sonolência progressiva"
+     ],
+     "proximo": "d-gravidade"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-gravidade",
+     "pergunta": "A pressão caiu e ela ficou sonolenta. O que isso acrescenta ao quadro?",
+     "opcoes": [
+      {
+       "texto": "Acrescenta gravidade máxima: hipotensão e confusão somadas à tríade caracterizam a forma grave, e a drenagem passa a ser urgente, não eletiva.",
+       "avaliacao": "otima",
+       "feedback": "Quando a hipotensão e a alteração do estado mental se somam à dor, à febre e à icterícia, o quadro deixa de ser uma infecção biliar tratável com antibiótico e observação. A pressão dentro da via biliar empurra bactéria direto para a circulação, e a única forma de interromper isso é descomprimir a via. Antibiótico sozinho não vence pressão.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Acrescenta pouco: idosa febril costuma ficar hipotensa e sonolenta, e isso melhora com hidratação.",
+       "avaliacao": "erro",
+       "feedback": "Hidratação faz parte e não resolve a causa. A hipotensão aqui não é apenas desidratação: é o efeito de bactérias sendo empurradas para a corrente sanguínea por uma via sob pressão. Interpretar como quadro banal do idoso adia a única medida que interrompe o processo.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Acrescenta indicação de terapia intensiva, e a decisão sobre a via biliar pode esperar a estabilização.",
+       "avaliacao": "aceitavel",
+       "feedback": "O leito monitorado é necessário. O que não cabe é adiar a drenagem até a estabilização completa: nesta doença, a estabilização frequentemente só acontece depois de descomprimir a via. Estabilizar e drenar caminham juntos.",
+       "proximo": "c-conduta"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-conduta",
+     "texto": "Culturas colhidas, antibiótico de amplo espectro iniciado e volume correndo. A ultrassonografia mostra vias biliares dilatadas com cálculo no colédoco. O serviço de endoscopia tem equipe disponível em duas horas. A pressão respondeu parcialmente ao volume e está em 104 x 62 mmHg.",
+     "dados": [
+      "Vias biliares dilatadas, cálculo no colédoco",
+      "Antibiótico e volume iniciados",
+      "Equipe de endoscopia disponível em 2 horas",
+      "PA 104 x 62 mmHg após volume"
+     ],
+     "proximo": "d-drenagem"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-drenagem",
+     "pergunta": "Qual é a conduta em relação à via biliar?",
+     "opcoes": [
+      {
+       "texto": "Drenagem endoscópica nas próximas horas, mantendo antibiótico e suporte, sem esperar melhora completa do quadro infeccioso.",
+       "avaliacao": "otima",
+       "feedback": "Na colangite grave, a descompressão precoce da via é o que interrompe a passagem de bactérias para o sangue, e ela é feita idealmente por via endoscópica. O antibiótico protege o organismo enquanto a via está sob pressão, mas não substitui a drenagem. Aqui, a janela é de horas.",
+       "proximo": "fim-otimo"
+      },
+      {
+       "texto": "Manter apenas antibiótico e suporte por quarenta e oito horas, drenando só se não houver melhora.",
+       "avaliacao": "erro",
+       "feedback": "Essa espera é a decisão que transforma colangite em choque refratário. Enquanto a via permanece obstruída, o antibiótico chega mal ao foco e a pressão continua empurrando bactéria para a circulação. Nas formas graves, quarenta e oito horas costumam ser mais do que a paciente tem.",
+       "proximo": "fim-dano"
+      },
+      {
+       "texto": "Encaminhar para cirurgia aberta de exploração da via biliar, já que existe cálculo no colédoco.",
+       "avaliacao": "aceitavel",
+       "feedback": "A cirurgia resolve a obstrução e é uma opção quando a via endoscópica não está disponível. Em paciente idosa, séptica e instável, porém, ela carrega risco bem maior que a drenagem endoscópica. Com equipe disponível em duas horas, a escolha menos agressiva é a melhor.",
+       "proximo": "c-cirurgia"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-cirurgia",
+     "texto": "A cirurgia é realizada e resolve a obstrução, mas exige anestesia prolongada em paciente séptica. Ela evolui bem, com passagem pela terapia intensiva e recuperação mais lenta do que teria sido com a drenagem endoscópica.",
+     "proximo": "fim-aceitavel"
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-otimo",
+     "classe": "otimo",
+     "texto": "A drenagem endoscópica acontece três horas após a chegada. A pressão normaliza na mesma noite e a febre cede em vinte e quatro horas. A vesícula é retirada na mesma internação, e ela recebe alta no sexto dia.",
+     "ensino": "Dor no quadrante superior direito, febre com calafrio e icterícia formam a tríade da colangite, e a icterícia é o que tira o problema da vesícula e o coloca na via biliar principal. Quando se somam hipotensão e confusão, o quadro é grave e a drenagem passa a ser urgente. Antibiótico protege, mas quem resolve a via sob pressão é a descompressão."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-aceitavel",
+     "classe": "aceitavel",
+     "texto": "A obstrução é resolvida por cirurgia aberta, com três dias em terapia intensiva e recuperação mais longa, sem sequela permanente.",
+     "ensino": "Quando a drenagem endoscópica está disponível em tempo hábil, ela é preferível na paciente séptica e frágil. A cirurgia aberta resolve o mesmo problema com risco anestésico e cirúrgico maiores em quem já está instável."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-dano",
+     "classe": "dano",
+     "texto": "Nas primeiras vinte e quatro horas de espera ela evolui para choque refratário, com necessidade de vasopressor em dose alta, ventilação mecânica e diálise. A drenagem acaba sendo feita em condições muito piores, e a internação dura cinco semanas.",
+     "ensino": "Antibiótico não vence uma via biliar obstruída sob pressão. Na colangite grave, adiar a drenagem para ver se o paciente melhora inverte a ordem: é a drenagem que permite a melhora, e não o contrário."
     }
    ]
   },
@@ -28295,6 +29824,177 @@
    ]
   },
   {
+   "id": "lavoura-pupila-e-saliva",
+   "titulo": "Voltou da lavoura passando mal",
+   "contexto": "Unidade de pronto atendimento rural, fim de tarde. Um homem de 35 anos é trazido por colegas depois de passar mal enquanto pulverizava a plantação. Ele está sonolento, salivando muito e com a roupa encharcada de suor e do produto que usava. Os colegas dizem que ele 'começou a passar mal uma hora depois de começar o serviço'.",
+   "tags": [
+    "neurologico",
+    "intoxicacao",
+    "organofosforado",
+    "pupilas"
+   ],
+   "topicosDeApoio": [
+    "sistema-nervoso/exame-neurologico/consciencia-e-estado-mental",
+    "sistema-nervoso/exame-neurologico/pares-cranianos-i-a-vi",
+    "exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros"
+   ],
+   "referencias": [
+    "Porto, Semiologia Médica, 8ª ed., seção de exame neurológico e de intoxicações",
+    "McGee, Evidence-Based Physical Diagnosis, 4ª ed., seção de exame pupilar e do estado mental",
+    "Semiologia Clínica, 1ª ed., capítulo de semiologia neurológica"
+   ],
+   "revisao": "pendente",
+   "inicio": "c-chegada",
+   "nos": [
+    {
+     "tipo": "cena",
+     "id": "c-chegada",
+     "texto": "Ele responde ao chamado, mas volta a fechar os olhos. A saliva escorre pela boca e há secreção abundante nas narinas. A roupa está molhada e tem um cheiro forte e adocicado. Ele vomitou duas vezes no caminho e teve diarreia. Os colegas seguram nele para trocar de posição, sem luvas.",
+     "dados": [
+      "Exposição a agrotóxico durante pulverização há cerca de 2 horas",
+      "Sonolência, sialorreia, rinorreia",
+      "Vômitos e diarreia",
+      "FC 48 bpm, PA 96 x 58 mmHg, FR 26 irpm",
+      "Roupa encharcada com o produto"
+     ],
+     "proximo": "d-primeira-medida"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-primeira-medida",
+     "pergunta": "Qual é a primeira coisa a fazer?",
+     "opcoes": [
+      {
+       "texto": "Retirar toda a roupa contaminada e lavar a pele do paciente com água e sabão, com a equipe usando luvas e avental, antes de qualquer outra medida.",
+       "avaliacao": "otima",
+       "feedback": "A descontaminação é ao mesmo tempo tratamento e proteção. Enquanto a roupa encharcada permanece no corpo, o veneno continua sendo absorvido pela pele e o paciente segue se intoxicando dentro da sala. E sem equipamento de proteção a equipe se contamina junto, o que já produziu casos de intoxicação de profissionais de saúde.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Obter acesso venoso e iniciar imediatamente o antídoto, deixando a roupa para depois.",
+       "avaliacao": "erro",
+       "feedback": "O antídoto é essencial e não compete com a descontaminação: ele age enquanto o veneno continua entrando pela pele, o que torna o tratamento uma corrida perdida. Além disso, manipular o paciente encharcado sem proteção expõe a equipe. Descontaminar leva poucos minutos e muda a curva inteira.",
+       "proximo": "c-atraso"
+      },
+      {
+       "texto": "Intubar imediatamente, dada a sonolência com secreção abundante em via aérea.",
+       "avaliacao": "aceitavel",
+       "feedback": "A via aérea é uma preocupação legítima e pode se tornar necessária. Mas a secreção aqui é produzida pelo veneno, e o antídoto a reduz rapidamente. Intubar antes de descontaminar significa manipular um paciente coberto de agrotóxico e expor toda a equipe.",
+       "proximo": "c-exame"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-atraso",
+     "texto": "Durante a punção venosa, dois profissionais que manipularam a roupa sem luvas começam a referir náusea, salivação e visão embaçada. Eles precisam ser afastados e avaliados, e a equipe fica reduzida no momento em que mais precisava de gente.",
+     "proximo": "c-exame"
+    },
+    {
+     "tipo": "cena",
+     "id": "c-exame",
+     "texto": "Com o paciente descontaminado, você examina. As pupilas estão muito pequenas, quase puntiformes, e reagem pouco à luz. Os campos pulmonares têm estertores difusos, sem sinal de congestão cardíaca. A pele está fria e úmida, com sudorese profusa. Há fasciculações visíveis na musculatura do tórax e das coxas. A frequência cardíaca segue em 46 bpm.",
+     "dados": [
+      "Pupilas puntiformes",
+      "Estertores difusos por secreção brônquica",
+      "Sudorese profusa, sialorreia mantida",
+      "Fasciculações musculares",
+      "Bradicardia de 46 bpm"
+     ],
+     "proximo": "d-sindrome"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-sindrome",
+     "pergunta": "Como esses achados se organizam em uma síndrome?",
+     "opcoes": [
+      {
+       "texto": "Síndrome colinérgica: pupilas puntiformes, secreções abundantes, bradicardia, sudorese e fasciculações formam o quadro do excesso de acetilcolina.",
+       "avaliacao": "otima",
+       "feedback": "O exame conta a farmacologia inteira. O veneno impede a degradação da acetilcolina, e ela se acumula: nas glândulas produz saliva, lágrima, suor e secreção brônquica; no coração produz bradicardia; na pupila produz miose; na junção com o músculo produz fasciculação e depois fraqueza. Reconhecer a síndrome é o que permite tratar sem esperar exame nenhum.",
+       "proximo": "c-tratamento"
+      },
+      {
+       "texto": "Intoxicação por opioide, dadas as pupilas puntiformes com rebaixamento de consciência.",
+       "avaliacao": "erro",
+       "feedback": "A miose é comum às duas, e o resto não é: opioide não produz sudorese profusa, secreção abundante, fasciculação nem diarreia, e costuma reduzir a frequência respiratória sem encher o pulmão de secreção. O contexto da exposição também aponta a direção.",
+       "proximo": "c-tratamento"
+      },
+      {
+       "texto": "Edema agudo de pulmão, dados os estertores difusos com sudorese e hipotensão.",
+       "avaliacao": "aceitavel",
+       "feedback": "Os estertores realmente enganam. O que separa é o resto: aqui não há turgência jugular nem terceira bulha, e existem miose, fasciculação e bradicardia. A água nos pulmões vem das glândulas brônquicas hiperestimuladas, não do coração, e o tratamento é oposto ao do edema cardiogênico.",
+       "proximo": "c-tratamento"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-tratamento",
+     "texto": "Você inicia atropina endovenosa e prepara também a droga que reativa a enzima bloqueada. Após as primeiras doses, a frequência cardíaca sobe para 68 bpm e a salivação diminui um pouco, mas os estertores continuam abundantes e a saturação está em 90%.",
+     "dados": [
+      "Atropina iniciada, FC 68 bpm",
+      "Secreção brônquica ainda abundante",
+      "Saturação 90%",
+      "Pupilas ainda mióticas"
+     ],
+     "proximo": "d-atropina"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-atropina",
+     "pergunta": "Qual parâmetro você usa para guiar a dose de atropina?",
+     "opcoes": [
+      {
+       "texto": "O secamento das secreções brônquicas e a melhora da ausculta pulmonar, repetindo e dobrando a dose até o pulmão limpar.",
+       "avaliacao": "otima",
+       "feedback": "O alvo do tratamento não é a pupila nem a frequência cardíaca: é o pulmão. O que mata nessa intoxicação é o afogamento pelas próprias secreções, e a dose adequada de atropina é aquela que seca a árvore brônquica. As doses necessárias costumam ser muito maiores que as usadas em outras situações, e por isso o guia precisa ser a ausculta.",
+       "proximo": "fim-otimo"
+      },
+      {
+       "texto": "O diâmetro pupilar: aumentar a dose até as pupilas dilatarem.",
+       "avaliacao": "erro",
+       "feedback": "A pupila responde de forma lenta e imprevisível, sobretudo quando houve contato direto do produto com os olhos, e usá-la como alvo leva a subdosar ou a superdosar. Enquanto se olha para a pupila, o paciente continua se afogando nas próprias secreções.",
+       "proximo": "fim-dano"
+      },
+      {
+       "texto": "A frequência cardíaca: manter acima de 80 bpm e interromper aí.",
+       "avaliacao": "aceitavel",
+       "feedback": "A frequência é um parâmetro útil e insuficiente. Ela costuma responder antes das secreções, e parar nela deixa o paciente com o pulmão ainda cheio. O critério de suficiência é a ausculta limpa, com a frequência acompanhando.",
+       "proximo": "c-subdose"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-subdose",
+     "texto": "Com a atropina interrompida cedo, a secreção volta a aumentar em uma hora e a saturação cai para 86%. A dose é retomada e escalonada, e o paciente precisa de ventilação não invasiva por algumas horas até o pulmão secar.",
+     "proximo": "fim-aceitavel"
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-otimo",
+     "classe": "otimo",
+     "texto": "Com doses crescentes de atropina guiadas pela ausculta, o pulmão limpa em quarenta minutos e a saturação sobe para 97%. A droga reativadora da enzima é mantida e ele é monitorado por vários dias, inclusive para a fraqueza muscular tardia que pode aparecer depois da fase aguda. Recebe alta no sétimo dia, com orientação sobre equipamento de proteção no trabalho.",
+     "ensino": "A intoxicação por inibidor da colinesterase se reconhece pela síndrome: miose, secreções abundantes, bradicardia, sudorese e fasciculações. A primeira medida é descontaminar, com a equipe protegida, porque a pele continua absorvendo e a equipe se intoxica junto. E a atropina se titula pela ausculta pulmonar, nunca pela pupila: o alvo é secar as secreções, e as doses necessárias costumam surpreender."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-aceitavel",
+     "classe": "aceitavel",
+     "texto": "Ele se recupera, após um período de hipoxemia e necessidade de suporte ventilatório não invasivo que poderia ter sido evitado com a titulação correta.",
+     "ensino": "A frequência cardíaca responde antes das secreções. Interromper a atropina quando o pulso normaliza deixa o pulmão ainda cheio, e a secreção retorna em pouco tempo."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-dano",
+     "classe": "dano",
+     "texto": "Enquanto a dose era guiada pela pupila, a secreção brônquica aumentou até o afogamento. Ele precisou de intubação de urgência, evoluiu com pneumonia aspirativa e ficou nove dias em ventilação mecânica.",
+     "ensino": "A pupila responde de forma lenta e enganosa nesta intoxicação, sobretudo com contato ocular direto do produto. O parâmetro que guia a atropina é o pulmão, porque é ele que mata: enquanto a ausculta não limpar, a dose ainda não foi suficiente."
+    }
+   ]
+  },
+  {
    "id": "noite-sentado-na-cadeira",
    "titulo": "A terceira noite sentado na cadeira",
    "contexto": "Visita domiciliar de rotina que vira urgência. Um homem de 72 anos, com insuficiência cardíaca conhecida, conta que parou o diurético faz duas semanas 'porque dava muito xixi e ele não conseguia dormir'. Há três noites ele dorme sentado na poltrona da sala, e nesta madrugada não conseguiu nem isso.",
@@ -28456,6 +30156,171 @@
      "classe": "dano",
      "texto": "Deitado e com volume infundido, ele fica agitado, a saturação cai para 78% e ele precisa de intubação ainda dentro da ambulância. A internação vai para a terapia intensiva e dura doze dias.",
      "ensino": "Ortopneia é informação sobre fisiologia: quem só respira sentado está dizendo que não aceita mais volume no tórax. Deitar e hidratar nesse contexto acelera o colapso. Quando a jugular está alta e há terceira bulha, o caminho é tirar carga, nunca acrescentar."
+    }
+   ]
+  },
+  {
+   "id": "olho-que-nao-se-mexia-direito",
+   "titulo": "O olho que não se mexia direito",
+   "contexto": "Pronto atendimento pediátrico e de adultos, terça-feira à noite. Uma mulher de 29 anos chega com a pálpebra do olho direito inchada e vermelha há dois dias. Ela conta que estava com sinusite havia uma semana e que hoje o olho começou a doer quando ela mexe. Já usou colírio antibiótico por conta própria.",
+   "tags": [
+    "cabeca e pescoco",
+    "celulite orbitaria",
+    "olhos",
+    "emergencia"
+   ],
+   "topicosDeApoio": [
+    "cabeca-e-pescoco/exame-de-cabeca-e-pescoco/olhos",
+    "cabeca-e-pescoco/exame-de-cabeca-e-pescoco/boca-nariz-e-ouvidos",
+    "sistema-nervoso/exame-neurologico/pares-cranianos-i-a-vi"
+   ],
+   "referencias": [
+    "Porto, Semiologia Médica, 8ª ed., seção de exame dos olhos e das vias aéreas superiores",
+    "McGee, Evidence-Based Physical Diagnosis, 4ª ed., seção de exame ocular e dos movimentos extraoculares",
+    "Semiologia Clínica, 1ª ed., capítulo de semiologia de cabeça e pescoço"
+   ],
+   "revisao": "pendente",
+   "inicio": "c-chegada",
+   "nos": [
+    {
+     "tipo": "cena",
+     "id": "c-chegada",
+     "texto": "A pálpebra superior direita está edemaciada e avermelhada, quase fechando o olho. Ela sente dor local e diz que hoje começou a incomodar 'quando olha para o lado'. Refere que ainda tem secreção nasal espessa e dor na face desde a semana passada. A temperatura é de 38,1 graus.",
+     "dados": [
+      "Edema e eritema palpebral direito há 2 dias",
+      "Dor à movimentação ocular, iniciada hoje",
+      "Sinusite em curso há 1 semana",
+      "Temperatura 38,1 graus, FC 98 bpm",
+      "Uso de colírio antibiótico por conta própria"
+     ],
+     "proximo": "d-separacao"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-separacao",
+     "pergunta": "Como você separa a infecção que fica na pálpebra da que já entrou na órbita?",
+     "opcoes": [
+      {
+       "texto": "Pelos quatro achados que só aparecem quando a órbita está envolvida: dor à movimentação ocular, limitação dos movimentos, protrusão do olho e queda de visão.",
+       "avaliacao": "otima",
+       "feedback": "A pálpebra e a órbita estão separadas por um septo, e a diferença entre estar antes ou depois dele muda o tratamento por completo. A infecção que fica na frente do septo produz edema e vermelhidão, e só. Quando aparecem dor ao mover o olho, restrição de movimento, protrusão ou alteração visual, a infecção passou para dentro, e ali ela ameaça o nervo óptico e vizinha o cérebro.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Pela intensidade do edema e do eritema: quanto mais intensos, maior a chance de acometimento orbitário.",
+       "avaliacao": "erro",
+       "feedback": "O edema pode ser dramático em infecções que ficam só na pálpebra e discreto em quadros orbitários iniciais. A aparência externa não informa sobre o que está atrás do septo. Quem informa são os movimentos do olho, a posição do globo e a visão.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Pela tomografia de órbita, que é o exame que define a extensão.",
+       "avaliacao": "aceitavel",
+       "feedback": "A tomografia é necessária quando há suspeita de acometimento orbitário, e ela define abscesso e extensão. Antes dela, porém, o exame de quatro itens já separa os dois cenários em dois minutos e diz quem precisa da imagem com urgência.",
+       "proximo": "c-exame"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-exame",
+     "texto": "Você afasta com cuidado a pálpebra edemaciada. O olho direito parece mais projetado para a frente que o esquerdo, visto de cima. Ao pedir que ela siga o seu dedo, o olho direito não acompanha por completo o movimento para fora e ela reclama de dor ao tentar. A acuidade está reduzida à direita. A pupila direita reage um pouco menos que a esquerda quando você alterna a luz entre os olhos.",
+     "dados": [
+      "Proptose do olho direito",
+      "Limitação e dor à abdução",
+      "Acuidade visual reduzida à direita",
+      "Resposta pupilar assimétrica ao teste da luz alternada",
+      "Sinusite etmoidal provável pela história"
+     ],
+     "proximo": "d-gravidade"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-gravidade",
+     "pergunta": "A pupila responde menos à direita quando você alterna a luz. O que isso significa?",
+     "opcoes": [
+      {
+       "texto": "Sinaliza sofrimento do nervo óptico: é um sinal de gravidade que, somado à proptose e à restrição de movimento, exige internação, antibiótico endovenoso e imagem imediata.",
+       "avaliacao": "otima",
+       "feedback": "O teste da luz alternada compara os dois nervos ópticos entre si, e a resposta menor de um lado indica que a via aferente daquele olho está comprometida. Na celulite orbitária, isso significa que a pressão e a inflamação já ameaçam a visão. Junto com proptose e restrição de movimento, define o quadro que não pode ir para casa.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "É esperado pelo edema palpebral, que reduz a quantidade de luz que chega ao olho.",
+       "avaliacao": "erro",
+       "feedback": "O edema reduz a abertura, e não a resposta relativa entre os dois nervos: o teste é feito iluminando cada olho alternadamente e comparando a contração. Atribuir a assimetria ao edema é descartar o achado que mais informa sobre risco de perda visual.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Indica provável neurite óptica associada, que precisa de corticoide antes do antibiótico.",
+       "avaliacao": "aceitavel",
+       "feedback": "A hipótese existe em outros contextos, mas aqui a explicação simples e urgente é a compressão inflamatória dentro da órbita, com foco em uma sinusite adjacente. Corticoide sem controle da infecção não é o primeiro passo: antibiótico endovenoso, imagem e avaliação especializada vêm antes.",
+       "proximo": "c-conduta"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-conduta",
+     "texto": "A tomografia mostra sinusite etmoidal com coleção subperiosteal na parede medial da órbita direita. Ela foi internada e o antibiótico endovenoso começou. Doze horas depois, a proptose aumentou, a acuidade piorou e a dor à movimentação está maior.",
+     "dados": [
+      "Coleção subperiosteal medial à órbita direita",
+      "Antibiótico endovenoso há 12 horas",
+      "Proptose e acuidade piores que na admissão",
+      "Temperatura 38,4 graus"
+     ],
+     "proximo": "d-drenagem"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-drenagem",
+     "pergunta": "O quadro piorou apesar do antibiótico. Qual é a conduta?",
+     "opcoes": [
+      {
+       "texto": "Acionar a cirurgia para drenagem da coleção e do seio comprometido, sem esperar mais tempo de antibiótico.",
+       "avaliacao": "otima",
+       "feedback": "Coleção que não responde ao antibiótico em algumas horas, com piora visual, é indicação cirúrgica. O critério não é o tempo de tratamento e sim a trajetória: acuidade caindo, proptose aumentando e dor maior significam que a pressão dentro da órbita está vencendo o antibiótico.",
+       "proximo": "fim-otimo"
+      },
+      {
+       "texto": "Manter o antibiótico por mais quarenta e oito horas antes de considerar a cirurgia, já que a maioria dessas coleções responde ao tratamento clínico.",
+       "avaliacao": "erro",
+       "feedback": "Muitas coleções pequenas de fato respondem, e o que decide não é a estatística, é a evolução deste olho. Com acuidade piorando, quarenta e oito horas podem significar perda visual definitiva. Piora do nervo óptico é o critério que encurta qualquer prazo.",
+       "proximo": "fim-dano"
+      },
+      {
+       "texto": "Associar corticoide sistêmico para reduzir a inflamação e reavaliar em vinte e quatro horas.",
+       "avaliacao": "aceitavel",
+       "feedback": "O corticoide tem papel discutido como adjuvante e pode reduzir o edema, sempre com o antibiótico correndo. O problema é usá-lo como alternativa à drenagem em um olho que está perdendo visão: ele não esvazia a coleção nem descomprime a órbita.",
+       "proximo": "c-corticoide"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-corticoide",
+     "texto": "Com o corticoide o edema diminui um pouco, mas a acuidade continua caindo nas horas seguintes. A drenagem acaba sendo feita no dia seguinte, com a visão já pior do que na internação.",
+     "proximo": "fim-aceitavel"
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-otimo",
+     "classe": "otimo",
+     "texto": "A drenagem cirúrgica esvazia a coleção e trata o seio etmoidal. A dor cede na mesma noite, a proptose regride em dois dias e a acuidade volta ao normal em uma semana. Ela recebe alta com antibiótico oral e retorno programado.",
+     "ensino": "O septo orbitário separa duas doenças com o mesmo aspecto externo. Quatro achados dizem que a infecção passou para dentro: dor à movimentação ocular, limitação dos movimentos, proptose e queda de visão. A resposta pupilar assimétrica ao teste da luz alternada indica sofrimento do nervo óptico. Quando a visão piora apesar do antibiótico, a conduta é drenar."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-aceitavel",
+     "classe": "aceitavel",
+     "texto": "A coleção é drenada com um dia de atraso e ela fica com redução permanente e leve da acuidade do olho direito.",
+     "ensino": "Adjuvantes não substituem a drenagem quando o nervo óptico está sofrendo. O critério para operar é a trajetória do olho, não o tempo decorrido de antibiótico."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-dano",
+     "classe": "dano",
+     "texto": "Nas quarenta e oito horas de espera ela perde a visão do olho direito e desenvolve trombose do seio cavernoso, com acometimento do olho contralateral. Sobrevive após internação prolongada, com perda visual definitiva à direita.",
+     "ensino": "A órbita é vizinha do seio cavernoso e do cérebro, e é por isso que a infecção que passou do septo tem urgência própria. Nenhum prazo padrão de antibiótico se sobrepõe a um olho cuja acuidade está caindo hora a hora."
     }
    ]
   },
@@ -29147,6 +31012,176 @@
    ]
   },
   {
+   "id": "perna-engessada-que-doia-demais",
+   "titulo": "A perna engessada que doía demais",
+   "contexto": "Pronto socorro ortopédico, madrugada. Um rapaz de 22 anos voltou hoje à tarde com a perna imobilizada após redução de uma fratura de tíbia sofrida num acidente de moto. Ele retorna dizendo que a dor está insuportável, muito pior do que era quando saiu, e que já tomou dois analgésicos em casa sem nenhum efeito.",
+   "tags": [
+    "osteoarticular",
+    "sindrome compartimental",
+    "dor desproporcional",
+    "emergencia"
+   ],
+   "topicosDeApoio": [
+    "sistema-osteoarticular/exame-osteoarticular/principios-do-exame-osteoarticular",
+    "sistema-vascular-periferico/exame-vascular-periferico/pulsos-arteriais-perifericos",
+    "sistema-nervoso/exame-neurologico/sensibilidade-e-coordenacao"
+   ],
+   "referencias": [
+    "McGee, Evidence-Based Physical Diagnosis, 4ª ed., seção de exame musculoesquelético e vascular",
+    "Porto, Semiologia Médica, 8ª ed., seção de exame do aparelho locomotor",
+    "Semiologia Clínica, 1ª ed., capítulo de semiologia osteoarticular"
+   ],
+   "revisao": "pendente",
+   "inicio": "c-chegada",
+   "nos": [
+    {
+     "tipo": "cena",
+     "id": "c-chegada",
+     "texto": "Ele está inquieto na maca, mudando de posição o tempo todo, e chora de dor. Diz que a dor não é no lugar da fratura, é 'na batata da perna toda', e que parece que a perna vai estourar. Os dedos do pé estão levemente inchados e ele reclama de formigamento entre o primeiro e o segundo dedo.",
+     "dados": [
+      "Fratura de tíbia reduzida e imobilizada há 9 horas",
+      "Dor progressiva, desproporcional, sem resposta a analgesia comum",
+      "Sensação de tensão em toda a panturrilha",
+      "Formigamento no dorso do pé",
+      "FC 108 bpm, temperatura 36,8 graus"
+     ],
+     "proximo": "d-triagem"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-triagem",
+     "pergunta": "Dor intensa em pós-operatório recente. Qual é a sua primeira leitura?",
+     "opcoes": [
+      {
+       "texto": "Dor desproporcional e progressiva, que não responde à analgesia, é sinal de alarme: abrir o gesso imediatamente e examinar o compartimento.",
+       "avaliacao": "otima",
+       "feedback": "Este é o achado mais precoce e mais importante da síndrome compartimental: dor fora de proporção com a lesão e que piora apesar da analgesia. Abrir a imobilização é gesto diagnóstico e terapêutico ao mesmo tempo, e nada se perde ao fazê-lo. O erro mais comum é justamente atribuir a dor à fratura e aumentar a dose.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Dor esperada de fratura recente: aumentar a analgesia, associando opioide, e reavaliar em duas horas.",
+       "avaliacao": "erro",
+       "feedback": "Aumentar a analgesia sem examinar apaga o único sinal precoce disponível e compra duas horas ao preço de músculo e nervo. Fratura reduzida e imobilizada dói, mas a dor melhora com repouso e analgesia. Dor que piora contra a analgesia é outra coisa.",
+       "proximo": "c-atraso"
+      },
+      {
+       "texto": "Provável trombose venosa profunda pós-traumática: solicitar ultrassom com doppler.",
+       "avaliacao": "aceitavel",
+       "feedback": "A trombose é frequente após trauma e imobilização e merece ficar na lista. O tempo é que não fecha: nove horas de imobilização com dor explosiva e formigamento apontam para pressão dentro do compartimento, e essa hipótese precisa ser afastada primeiro, porque o relógio dela é de horas.",
+       "proximo": "c-exame"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-atraso",
+     "texto": "Duas horas depois ele está pior, agora com dificuldade para mexer os dedos e com dor mesmo em repouso. A imobilização é finalmente aberta e a perna aparece tensa, brilhante e endurecida.",
+     "proximo": "c-exame"
+    },
+    {
+     "tipo": "cena",
+     "id": "c-exame",
+     "texto": "Com o gesso aberto e a perna livre, a panturrilha está tensa, endurecida, e dói mesmo ao toque leve. A extensão passiva dos dedos do pé provoca dor intensa na musculatura da perna. A sensibilidade entre o primeiro e o segundo dedo está diminuída em comparação ao lado oposto. Os pulsos pedioso e tibial posterior estão presentes, e o pé tem temperatura preservada.",
+     "dados": [
+      "Compartimento tenso e endurecido à palpação",
+      "Dor intensa ao estiramento passivo dos dedos",
+      "Hipoestesia no primeiro espaço interdigital",
+      "Pulsos distais presentes, pé quente"
+     ],
+     "proximo": "d-pulso"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-pulso",
+     "pergunta": "Os pulsos estão presentes e o pé está quente. Isso afasta o diagnóstico?",
+     "opcoes": [
+      {
+       "texto": "Não afasta nada: o pulso costuma estar presente na síndrome compartimental, porque a pressão que fecha os capilares é bem menor que a necessária para abolir o pulso arterial.",
+       "avaliacao": "otima",
+       "feedback": "É a armadilha mais perigosa deste diagnóstico. A pressão dentro do compartimento sufoca a microcirculação muito antes de comprimir a artéria principal, e por isso o pulso segue palpável enquanto o músculo já está morrendo. Esperar o pulso desaparecer é esperar a perda do membro.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Afasta em grande parte: com pulso presente e pé quente, a perfusão está garantida e o quadro pode ser observado.",
+       "avaliacao": "erro",
+       "feedback": "Perfusão de pele e de músculo não são a mesma coisa. O pé pode estar quente e rosado enquanto o compartimento sofre isquemia, e é exatamente por isso que a ausência de pulso é sinal tardio. Observar com base nesse raciocínio custa a função da perna.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Não afasta, mas convém medir a pressão do compartimento antes de qualquer decisão cirúrgica.",
+       "avaliacao": "aceitavel",
+       "feedback": "A medida é útil sobretudo em paciente inconsciente ou com exame duvidoso. Neste rapaz, o quadro clínico já é típico: dor desproporcional, compartimento tenso, dor ao estiramento passivo e déficit sensitivo. Quando o exame é claro, a medida não deve atrasar a cirurgia.",
+       "proximo": "c-conduta"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-conduta",
+     "texto": "O ortopedista de plantão está terminando outra cirurgia e chega em vinte minutos. A perna segue tensa, e o rapaz agora tem dificuldade para mover ativamente os dedos. A pressão do compartimento, medida à beira do leito, está bastante elevada.",
+     "dados": [
+      "Movimento ativo dos dedos reduzido",
+      "Pressão de compartimento elevada",
+      "Cerca de 11 horas desde a imobilização",
+      "Pulsos ainda presentes"
+     ],
+     "proximo": "d-tratamento"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-tratamento",
+     "pergunta": "Qual é o tratamento e com que urgência?",
+     "opcoes": [
+      {
+       "texto": "Fasciotomia de urgência, com a perna mantida no nível do coração, sem elevar o membro e sem aplicar gelo.",
+       "avaliacao": "otima",
+       "feedback": "A única coisa que resolve é abrir a fáscia, e a janela é de poucas horas: depois disso a necrose muscular e a lesão nervosa se tornam irreversíveis. Dois detalhes fazem diferença enquanto se espera: elevar o membro reduz a pressão de perfusão e piora a isquemia, e o gelo provoca vasoconstrição. O membro fica no nível do coração.",
+       "proximo": "fim-otimo"
+      },
+      {
+       "texto": "Elevar o membro acima do nível do coração para reduzir o edema e reavaliar em uma hora.",
+       "avaliacao": "erro",
+       "feedback": "A elevação parece lógica e é contraindicada aqui. Ao elevar, a pressão arterial que chega ao compartimento diminui, enquanto a pressão dentro dele permanece a mesma, e a diferença entre as duas é justamente o que perfunde o músculo. A medida bem-intencionada acelera a necrose.",
+       "proximo": "fim-dano"
+      },
+      {
+       "texto": "Manter analgesia potente e observar por mais uma hora, para ver se a dor cede após a retirada completa da imobilização.",
+       "avaliacao": "aceitavel",
+       "feedback": "Retirar a imobilização de fato reduz um pouco a pressão e pode aliviar quadros iniciais. Mas com déficit sensitivo instalado e pressão medida elevada, o processo já passou desse ponto. Observar mais uma hora é apostar contra o relógio que já está correndo há onze.",
+       "proximo": "c-espera"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-espera",
+     "texto": "Na reavaliação a dor persiste, o déficit sensitivo aumentou e ele já não consegue mexer os dedos. A fasciotomia é realizada com uma hora a mais de isquemia, e parte da musculatura anterior aparece pálida.",
+     "proximo": "fim-aceitavel"
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-otimo",
+     "classe": "otimo",
+     "texto": "A fasciotomia é feita menos de uma hora depois do diagnóstico. Os músculos herniam para fora ao abrir a fáscia, todos com cor e contratilidade preservadas. As feridas são fechadas em dois tempos, e ele recupera a força e a sensibilidade por completo ao longo de três meses de reabilitação.",
+     "ensino": "O sinal precoce da síndrome compartimental é dor desproporcional que piora contra a analgesia, e o achado mais específico é dor ao estiramento passivo dos músculos do compartimento. O pulso permanece presente até tarde, porque a microcirculação fecha muito antes da artéria. Enquanto se aguarda a cirurgia, o membro fica no nível do coração: elevar reduz a perfusão e piora tudo."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-aceitavel",
+     "classe": "aceitavel",
+     "texto": "A fasciotomia salva o membro, com perda parcial da força de dorsiflexão do pé, que exige órtese durante a marcha por tempo prolongado.",
+     "ensino": "Quando o déficit sensitivo já se instalou, o tempo de observação acabou. Cada hora adicional com o compartimento sob pressão troca músculo viável por fibrose, e o resultado aparece como perda de função meses depois."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-dano",
+     "classe": "dano",
+     "texto": "Com o membro elevado e mais duas horas de espera, a fasciotomia encontra musculatura já necrosada no compartimento anterior. Ele evolui com pé caído definitivo, retração dos flexores e necessidade de várias cirurgias reconstrutivas.",
+     "ensino": "Elevar o membro reduz a pressão de perfusão sem reduzir a pressão dentro do compartimento, e é justamente a diferença entre elas que mantém o músculo vivo. Na síndrome compartimental, a medida intuitiva é a errada, e a única conduta que resolve é abrir a fáscia a tempo."
+    }
+   ]
+  },
+  {
    "id": "perna-que-esfriou",
    "titulo": "A perna que esfriou às três da tarde",
    "contexto": "Hospital secundário, sem serviço de cirurgia vascular na casa. Um homem de 71 anos, com claudicação antiga e fibrilação atrial de que 'tomava um comprimido que acabou', chega de cadeira de rodas: a perna direita esfriou de repente no começo da tarde.",
@@ -29818,6 +31853,347 @@
      "classe": "dano",
      "texto": "Quatro horas depois, em casa, ele volta a apresentar rouquidão e falta de ar, agora sem ninguém por perto que reconhecesse o quadro. Chega ao pronto socorro com edema de glote e precisa de via aérea cirúrgica de urgência. Sobrevive, com três dias de internação e uma cicatriz cervical.",
      "ensino": "O episódio de anafilaxia não termina na melhora. Parte dos pacientes apresenta uma segunda onda horas depois, sem novo contato com o agente, e o anti-histamínico não previne isso. Observação por algumas horas, registro do agente em destaque no prontuário e orientação escrita são o que impede a próxima reação de ser pior que esta."
+    }
+   ]
+  },
+  {
+   "id": "pressao-que-nao-subia-com-nada",
+   "titulo": "A pressão que não subia com nada",
+   "contexto": "Emergência de hospital geral. Um homem de 44 anos chega com vômitos, dor abdominal difusa e fraqueza extrema há três dias. Ele emagreceu bastante no último ano e conta, quando perguntado, que se sente tonto ao levantar há meses. A esposa comenta que ele 'ficou moreno mesmo sem ir à praia'.",
+   "tags": [
+    "geral",
+    "insuficiencia adrenal",
+    "hipotensao",
+    "pele"
+   ],
+   "topicosDeApoio": [
+    "exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros",
+    "exame-fisico-geral/sinais-vitais/pressao-arterial",
+    "exame-fisico-geral/avaliacao-geral/antropometria-e-hidratacao"
+   ],
+   "referencias": [
+    "Porto, Semiologia Médica, 8ª ed., seção de exame da pele e de doenças das suprarrenais",
+    "McGee, Evidence-Based Physical Diagnosis, 4ª ed., seção de exame da pele e de hipovolemia",
+    "Semiologia Clínica, 1ª ed., capítulo de exame geral e da pele"
+   ],
+   "revisao": "pendente",
+   "inicio": "c-chegada",
+   "nos": [
+    {
+     "tipo": "cena",
+     "id": "c-chegada",
+     "texto": "Ele está prostrado e responde devagar. A pressão deitado é 84 x 52 mmHg e a frequência cardíaca, 118 bpm. Recebeu um litro de soro na sala de triagem e a pressão praticamente não mudou. A dor abdominal é difusa, sem defesa, e ele vomitou três vezes hoje.",
+     "dados": [
+      "Vômitos e dor abdominal difusa há 3 dias",
+      "Fraqueza intensa e perda de peso no último ano",
+      "PA 84 x 52 mmHg após 1 litro de cristaloide",
+      "FC 118 bpm, temperatura 37,6 graus",
+      "Tontura postural há meses"
+     ],
+     "proximo": "d-abordagem"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-abordagem",
+     "pergunta": "A pressão não respondeu ao primeiro litro. O que você faz enquanto continua a reposição?",
+     "opcoes": [
+      {
+       "texto": "Despir o paciente e examinar a pele por inteiro, comparando áreas expostas com áreas cobertas, além de procurar as mucosas e as dobras das mãos.",
+       "avaliacao": "otima",
+       "feedback": "É o exame que ninguém faz na sala de emergência e que resolve este caso. A hiperpigmentação da insuficiência adrenal aparece justamente onde não deveria: em cicatrizes, nas dobras palmares, nas gengivas e nas áreas cobertas pela roupa. Sem despir o paciente, esses achados não existem.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Iniciar vasopressor imediatamente, já que a hipotensão não respondeu ao volume.",
+       "avaliacao": "aceitavel",
+       "feedback": "A droga vasoativa vai ser necessária e é adequada em choque que não responde a volume. O cuidado aqui é não parar de procurar a causa: existe um subgrupo em que a hipotensão é refratária justamente porque falta cortisol, e sem ele o vasopressor rende pouco.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Investigar abdome agudo com tomografia urgente, dada a dor difusa com vômitos.",
+       "avaliacao": "erro",
+       "feedback": "O abdome merece atenção e não explica sozinho a hipotensão refratária, a perda de peso de um ano e a tontura postural crônica. Levar um paciente hipotenso e não investigado para a tomografia troca a busca da causa pela busca de imagem, e a causa aqui está na pele e nos eletrólitos.",
+       "proximo": "c-atraso"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-atraso",
+     "texto": "A tomografia não mostra causa cirúrgica. Ao retornar, ele está mais hipotenso e sonolento, e a equipe recomeça a avaliação. Agora alguém finalmente pede que ele tire a camisa.",
+     "proximo": "c-exame"
+    },
+    {
+     "tipo": "cena",
+     "id": "c-exame",
+     "texto": "Com o paciente despido, a pele do tronco, coberta pela roupa, está claramente mais escura que o normal para ele, segundo a esposa. As dobras das palmas das mãos estão acentuadas e escurecidas. Há manchas acinzentadas na mucosa da bochecha e nas gengivas. Uma cicatriz antiga de apendicectomia está bem mais escura que a pele ao redor. As mucosas estão secas.",
+     "dados": [
+      "Hiperpigmentação difusa, inclusive em áreas cobertas",
+      "Dobras palmares acentuadas e escurecidas",
+      "Manchas na mucosa oral",
+      "Cicatriz antiga hiperpigmentada",
+      "PA 82 x 50 mmHg após 2 litros"
+     ],
+     "proximo": "d-leitura"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-leitura",
+     "pergunta": "Como esses achados de pele mudam o raciocínio?",
+     "opcoes": [
+      {
+       "texto": "Apontam insuficiência adrenal primária crônica em crise: hipotensão refratária a volume com hiperpigmentação exige corticoide agora, sem esperar dosagem hormonal.",
+       "avaliacao": "otima",
+       "feedback": "A hiperpigmentação nasce do excesso do hormônio que estimula a suprarrenal, e por isso ela só aparece na forma primária. Ela conta uma história de meses, e a crise atual é o desfecho agudo dessa história. O tratamento não espera confirmação: colhe-se a amostra para dosagem e administra-se o corticoide imediatamente.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Sugerem hemocromatose ou doença hepática crônica, que também escurecem a pele.",
+       "avaliacao": "aceitavel",
+       "feedback": "As duas escurecem a pele e entram na lista. O que aponta para a suprarrenal é o desenho: dobras palmares, mucosa oral e cicatrizes antigas, com hipotensão refratária a volume e distúrbio de eletrólitos. É o conjunto, não a cor isolada.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Provavelmente são achados constitucionais dele, e o foco deve seguir na reposição volêmica agressiva.",
+       "avaliacao": "erro",
+       "feedback": "Pigmentação constitucional não escurece cicatriz antiga nem mucosa oral, e não aparece de forma nova em áreas cobertas. Insistir apenas em volume em uma crise adrenal é repetir a medida que já falhou duas vezes: sem cortisol, o vaso não responde.",
+       "proximo": "fim-dano"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-conduta",
+     "texto": "Os eletrólitos voltam com sódio baixo e potássio alto, e a glicemia está em 58 mg/dL. Uma amostra de sangue foi guardada para dosagem hormonal. O corticoide endovenoso está disponível na unidade, tanto a hidrocortisona quanto a dexametasona.",
+     "dados": [
+      "Sódio baixo, potássio alto",
+      "Glicemia 58 mg/dL",
+      "Amostra para dosagem hormonal já colhida",
+      "PA 84 x 52 mmHg, FC 122 bpm"
+     ],
+     "proximo": "d-corticoide"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-corticoide",
+     "pergunta": "Qual corticoide e com que urgência?",
+     "opcoes": [
+      {
+       "texto": "Hidrocortisona endovenosa imediatamente, junto com correção da glicemia e reposição de volume com solução contendo sódio e glicose.",
+       "avaliacao": "otima",
+       "feedback": "Na crise adrenal, a hidrocortisona é a escolha porque tem também efeito mineralocorticoide, que é o que segura sódio e água e permite à pressão responder. E a tríade que se corrige junto é característica: hipotensão, hiponatremia com hipercalemia e hipoglicemia. O tratamento precede qualquer resultado hormonal.",
+       "proximo": "fim-otimo"
+      },
+      {
+       "texto": "Aguardar o resultado da dosagem de cortisol antes de administrar qualquer corticoide, para não prejudicar o diagnóstico.",
+       "avaliacao": "erro",
+       "feedback": "A amostra já foi guardada, que era a única razão para esperar. A partir daí, adiar o corticoide em uma crise adrenal é adiar a única droga que faz a pressão responder. Esse resultado costuma levar horas ou dias, e o paciente não tem esse tempo.",
+       "proximo": "fim-dano"
+      },
+      {
+       "texto": "Dexametasona endovenosa, que não interfere na dosagem de cortisol e permite completar a investigação depois.",
+       "avaliacao": "aceitavel",
+       "feedback": "A dexametasona é uma escolha razoável quando o teste diagnóstico ainda será feito e a amostra não foi colhida, porque não cruza com a dosagem. Aqui a amostra já está guardada, e a hidrocortisona é superior porque acrescenta o efeito mineralocorticoide que este paciente precisa agora.",
+       "proximo": "c-dexa"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-dexa",
+     "texto": "Com a dexametasona a pressão melhora parcialmente, mas o sódio permanece baixo e ele segue precisando de volume durante a noite. A troca para hidrocortisona é feita pela manhã, e a partir daí a recuperação acelera.",
+     "proximo": "fim-aceitavel"
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-otimo",
+     "classe": "otimo",
+     "texto": "Uma hora depois da hidrocortisona a pressão sobe para 106 x 68 mmHg, algo que dois litros de soro não conseguiram. O sódio e a glicemia se corrigem ao longo do dia. A investigação confirma insuficiência adrenal primária, e ele recebe alta com corticoide oral, cartão de identificação e a orientação sobre como dobrar a dose em dias de doença.",
+     "ensino": "Hipotensão que não responde a volume pede procurar causas fora do compartimento vascular, e uma delas se vê na pele. A hiperpigmentação em dobras palmares, mucosa oral, cicatrizes antigas e áreas cobertas aponta insuficiência adrenal primária. A tríade laboratorial é sódio baixo, potássio alto e glicemia baixa. Guarda-se a amostra e trata-se imediatamente com hidrocortisona."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-aceitavel",
+     "classe": "aceitavel",
+     "texto": "Ele se recupera bem, após uma noite com resposta incompleta e necessidade de volume adicional, com internação de cinco dias.",
+     "ensino": "A dexametasona resolve a parte glicocorticoide e não repõe o efeito mineralocorticoide, que é o que retém sódio e sustenta a pressão. Quando a amostra diagnóstica já foi colhida, a hidrocortisona é a escolha na crise."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-dano",
+     "classe": "dano",
+     "texto": "Sem corticoide, e apesar de mais três litros de volume e de vasopressor em dose crescente, ele evolui com choque refratário, arritmia por hipercalemia e parada cardíaca. É reanimado, recebe o corticoide durante a reanimação e sobrevive, com internação prolongada em terapia intensiva.",
+     "ensino": "Sem cortisol, o vaso não responde nem ao volume nem à droga vasoativa. Na suspeita de crise adrenal, o corticoide entra imediatamente após a coleta da amostra, porque nenhuma outra medida corrige o problema e o resultado laboratorial chega tarde demais para ajudar."
+    }
+   ]
+  },
+  {
+   "id": "pressao-que-sumia-na-inspiracao",
+   "titulo": "A pressão que sumia na inspiração",
+   "contexto": "Emergência oncológica, começo da noite. Uma mulher de 58 anos, em tratamento de câncer de pulmão, chega com falta de ar que piorou nos últimos três dias e cansaço para qualquer esforço. Ela diz que só consegue ficar bem sentada e inclinada para a frente, e que o coração 'está disparado'.",
+   "tags": [
+    "cardiovascular",
+    "tamponamento",
+    "pulso paradoxal",
+    "jugular"
+   ],
+   "topicosDeApoio": [
+    "aparelho-cardiovascular/exame-cardiaco/pulso-venoso-jugular-e-turgencia",
+    "aparelho-cardiovascular/exame-cardiaco/ausculta-cardiaca",
+    "exame-fisico-geral/sinais-vitais/pressao-arterial"
+   ],
+   "referencias": [
+    "McGee, Evidence-Based Physical Diagnosis, 4ª ed., seção de pressão venosa, pulso paradoxal e derrame pericárdico",
+    "Porto, Semiologia Médica, 8ª ed., seção de doenças do pericárdio",
+    "Semiologia Clínica, 1ª ed., capítulo de semiologia cardiovascular"
+   ],
+   "revisao": "pendente",
+   "inicio": "c-chegada",
+   "nos": [
+    {
+     "tipo": "cena",
+     "id": "c-chegada",
+     "texto": "Ela respira rápido e superficial, e prefere ficar sentada. Está com as extremidades frias e o pulso é rápido e de pequena amplitude. As bulhas parecem distantes, como se o coração estivesse longe do estetoscópio. Os campos pulmonares, ao contrário do que a falta de ar sugeriria, estão limpos.",
+     "dados": [
+      "Dispneia progressiva há 3 dias, ortopneia",
+      "FC 128 bpm, PA 96 x 74 mmHg, FR 28 irpm",
+      "Bulhas hipofonéticas",
+      "Ausculta pulmonar limpa",
+      "Extremidades frias, pulso de pequena amplitude"
+     ],
+     "proximo": "d-primeira-leitura"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-primeira-leitura",
+     "pergunta": "Dispneia com pulmão limpo, bulhas abafadas e má perfusão. Qual é a sua próxima manobra de exame?",
+     "opcoes": [
+      {
+       "texto": "Examinar o pescoço em busca de pressão venosa elevada e medir o pulso paradoxal com o manguito, comparando a sistólica na inspiração e na expiração.",
+       "avaliacao": "otima",
+       "feedback": "Essa dupla resolve o caso à beira do leito. Pressão venosa alta com pulmão limpo já aponta obstrução ao enchimento do coração. O pulso paradoxal traduz a mesma fisiologia: com o pericárdio cheio, o enchimento do ventrículo direito na inspiração empurra o septo e rouba espaço do esquerdo, e a pressão sistólica cai mais do que deveria a cada inspiração.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Solicitar radiografia de tórax e angiotomografia para investigar embolia pulmonar, que é frequente no paciente oncológico.",
+       "avaliacao": "aceitavel",
+       "feedback": "A embolia é hipótese obrigatória neste contexto e será investigada. O que não pode faltar antes é o exame que separa as duas em três minutos: a bulha abafada, a jugular alta e o pulso paradoxal apontam para o pericárdio, e é uma condição que pode matar antes da tomografia ficar pronta.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Iniciar diurético, já que a paciente tem sinais de congestão com jugular provavelmente elevada.",
+       "avaliacao": "erro",
+       "feedback": "É o erro que mais causa dano nesta doença. A jugular está alta porque o sangue não consegue entrar no coração, e não porque há volume demais. Tirar volume de quem depende de pressão de enchimento para vencer a compressão derruba o débito e pode levar à parada.",
+       "proximo": "c-diuretico"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-diuretico",
+     "texto": "Depois da primeira dose de diurético, a pressão cai para 82 x 66 mmHg e ela fica confusa. O medicamento é suspenso e a equipe recomeça a avaliação, agora pelo pescoço e pelo manguito.",
+     "proximo": "c-exame"
+    },
+    {
+     "tipo": "cena",
+     "id": "c-exame",
+     "texto": "A coluna venosa jugular está elevada, quase na altura da mandíbula com ela a 45 graus, e não desce durante a inspiração. Com o manguito manual e esvaziamento lento, o primeiro som de Korotkoff aparece em 96 mmHg apenas durante a expiração, e só passa a ser ouvido em todo o ciclo respiratório em 74 mmHg. O ictus não é palpável. As bulhas seguem distantes. A pele está fria e o enchimento capilar leva quatro segundos.",
+     "dados": [
+      "Pressão venosa jugular muito elevada, sem queda inspiratória",
+      "Diferença de 22 mmHg entre expiração e inspiração",
+      "Ictus não palpável, bulhas hipofonéticas",
+      "Enchimento capilar de 4 segundos"
+     ],
+     "proximo": "d-diagnostico"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-diagnostico",
+     "pergunta": "A sistólica cai 22 mmHg na inspiração. O que isso significa aqui?",
+     "opcoes": [
+      {
+       "texto": "Pulso paradoxal importante: somado à jugular alta, bulhas abafadas e má perfusão, define tamponamento cardíaco e indica drenagem urgente.",
+       "avaliacao": "otima",
+       "feedback": "O nome engana: não é um paradoxo, é o exagero de um fenômeno normal. Todos nós temos alguma queda da sistólica na inspiração, e no coração comprimido essa queda passa a ser grande, porque as duas câmaras disputam um espaço que o líquido do pericárdio não deixa crescer. Com bulhas abafadas e jugular alta, o diagnóstico está feito e o tratamento é esvaziar o pericárdio.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Achado inespecífico: também ocorre em asma e em doença pulmonar obstrutiva, então precisa de mais investigação.",
+       "avaliacao": "aceitavel",
+       "feedback": "É verdade que essas doenças também produzem queda inspiratória exagerada, pelo esforço respiratório intenso. O contexto é que decide: aqui não há sibilo, o pulmão está limpo, e a jugular está alta com bulhas abafadas. Nesse cenário, o achado aponta o pericárdio.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Provável erro de técnica na medida, que deve ser repetida com aparelho automático.",
+       "avaliacao": "erro",
+       "feedback": "O aparelho automático é justamente o que não mede este achado: ele precisa de manguito manual e de esvaziamento lento, ouvindo em que ponto os sons aparecem só na expiração e em que ponto aparecem em todo o ciclo. Descartar o achado pelo método é abrir mão da manobra que fecha o diagnóstico.",
+       "proximo": "c-conduta"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-conduta",
+     "texto": "O ecocardiograma à beira do leito confirma derrame pericárdico volumoso com colapso das câmaras direitas. A pressão está em 88 x 68 mmHg e ela segue confusa. A equipe de hemodinâmica pode fazer a punção guiada em quarenta minutos.",
+     "dados": [
+      "Derrame pericárdico volumoso com colapso de câmaras direitas",
+      "PA 88 x 68 mmHg, FC 134 bpm",
+      "Confusão mental",
+      "Punção guiada disponível em 40 minutos"
+     ],
+     "proximo": "d-suporte"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-suporte",
+     "pergunta": "Enquanto a punção é preparada, qual suporte você oferece?",
+     "opcoes": [
+      {
+       "texto": "Volume endovenoso para sustentar a pressão de enchimento, evitar sedação profunda e não iniciar ventilação com pressão positiva se puder aguardar a drenagem.",
+       "avaliacao": "otima",
+       "feedback": "Neste quadro a fisiologia manda: o coração comprimido só enche se houver pressão venosa suficiente, e por isso volume ajuda enquanto o líquido não sai. Pela mesma razão, sedação profunda e ventilação com pressão positiva são perigosas, porque reduzem o retorno venoso e podem provocar parada logo após a indução.",
+       "proximo": "fim-otimo"
+      },
+      {
+       "texto": "Intubar e ventilar com pressão positiva para corrigir a confusão e a taquipneia antes da punção.",
+       "avaliacao": "erro",
+       "feedback": "A confusão vem do baixo débito, não da via aérea, e a pressão positiva reduz ainda mais o retorno venoso ao coração comprimido. Este é um dos cenários clássicos de parada após a indução anestésica. Se a intubação for inevitável, ela acontece depois da drenagem, ou com a agulha já preparada.",
+       "proximo": "fim-dano"
+      },
+      {
+       "texto": "Iniciar droga vasoativa e aguardar a punção, sem oferecer volume.",
+       "avaliacao": "aceitavel",
+       "feedback": "A droga vasoativa ajuda a sustentar a pressão e é uma ponte razoável. Mas ela não corrige o problema mecânico e, sem volume, o enchimento continua limitado. As duas medidas juntas seguram melhor o paciente até a agulha.",
+       "proximo": "c-ponte"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-ponte",
+     "texto": "Com vasopressor isolado a pressão melhora pouco e ela permanece confusa até a drenagem. O procedimento acontece com a paciente mais instável do que precisaria, embora sem intercorrência.",
+     "proximo": "fim-aceitavel"
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-otimo",
+     "classe": "otimo",
+     "texto": "A punção retira setecentos mililitros de líquido e a mudança é imediata: a pressão sobe para 118 x 76 mmHg, a frequência cai e ela volta a conversar dentro da sala. Um cateter é deixado para drenagem contínua, e a investigação do líquido orienta o ajuste do tratamento oncológico.",
+     "ensino": "Bulhas abafadas, pressão venosa jugular alta e hipotensão, com pulmão limpo, formam o tripé do tamponamento. O pulso paradoxal se mede com manguito manual e esvaziamento lento, e traduz a disputa entre as câmaras por um espaço que não pode crescer. Duas coisas fazem mal aqui: diurético e pressão positiva na via aérea. O tratamento é esvaziar o pericárdio."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-aceitavel",
+     "classe": "aceitavel",
+     "texto": "A drenagem é realizada com sucesso, depois de um período de baixo débito mais prolongado do que o necessário. Ela se recupera em vinte e quatro horas.",
+     "ensino": "No coração comprimido, volume é ponte tão importante quanto a droga vasoativa: sem pressão de enchimento suficiente, o ventrículo não se enche, por mais que a resistência periférica aumente."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-dano",
+     "classe": "dano",
+     "texto": "Logo após a indução anestésica ela apresenta parada cardíaca sem pulso. A punção pericárdica é feita durante a reanimação e restaura a circulação após seis minutos. Ela sobrevive, com passagem prolongada pela terapia intensiva.",
+     "ensino": "Sedação e ventilação com pressão positiva reduzem o retorno venoso, e o coração comprimido depende exatamente dele. No tamponamento, a agulha vem antes do tubo, e quando a intubação for inevitável, o material de punção precisa estar aberto ao lado."
     }
    ]
   },
@@ -30500,6 +32876,177 @@
      "classe": "dano",
      "texto": "A causa continua na prescrição e no ritmo cardíaco, e a terceira síncope acontece à noite, no banheiro. Desta vez a queda resulta em fratura do colo do fêmur, com cirurgia e todas as complicações que ela costuma trazer para uma paciente de 74 anos.",
      "ensino": "Síncope no idoso costuma ter mais de uma causa somada, e parar na primeira explicação plausível é o modo mais comum de deixar a segunda intacta. Enquanto a arritmia e a hipotensão postural não forem ambas medidas e tratadas, o episódio se repete, e no idoso a queda é o desfecho que muda a vida, não a arritmia."
+    }
+   ]
+  },
+  {
+   "id": "vomito-que-veio-preto",
+   "titulo": "O vômito que veio preto",
+   "contexto": "Emergência de hospital geral, oito da noite. Um homem de 54 anos chega trazido pela esposa depois de vomitar duas vezes um material escuro, que ela descreve como 'borra de café'. Ele diz que está fraco desde ontem e que quase desmaiou ao levantar da cama hoje de manhã. Bebe diariamente há vinte anos.",
+   "tags": [
+    "abdome",
+    "hemorragia digestiva",
+    "hipovolemia",
+    "hepatopatia"
+   ],
+   "topicosDeApoio": [
+    "abdome/exame-do-abdome/palpacao-do-abdome",
+    "exame-fisico-geral/avaliacao-geral/pele-mucosas-e-faneros",
+    "exame-fisico-geral/sinais-vitais/pressao-arterial"
+   ],
+   "referencias": [
+    "McGee, Evidence-Based Physical Diagnosis, 4ª ed., seção de exame do abdome, hipovolemia e doença hepática",
+    "Porto, Semiologia Médica, 8ª ed., seção de hemorragia digestiva e hipertensão portal",
+    "Semiologia Clínica, 1ª ed., capítulo de semiologia abdominal"
+   ],
+   "revisao": "pendente",
+   "inicio": "c-chegada",
+   "nos": [
+    {
+     "tipo": "cena",
+     "id": "c-chegada",
+     "texto": "Ele está pálido, com a pele fria e um pouco úmida. Fala normalmente e insiste que 'não é nada'. A esposa conta que as fezes de hoje estavam pretas e com cheiro muito forte, o que ela atribuiu ao remédio de estômago. A pressão medida deitado é 112 x 68 mmHg e a frequência cardíaca, 104 bpm.",
+     "dados": [
+      "Dois episódios de vômito escuro em borra de café",
+      "Fezes escuras e malcheirosas hoje",
+      "Tontura ao levantar pela manhã",
+      "PA deitado 112 x 68 mmHg, FC 104 bpm",
+      "Etilismo diário de longa data"
+     ],
+     "proximo": "d-primeira-medida"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-primeira-medida",
+     "pergunta": "Qual é a primeira coisa a fazer, com a pressão ainda aparentemente normal?",
+     "opcoes": [
+      {
+       "texto": "Medir pressão e pulso deitado e sentado, garantir dois acessos calibrosos, colher tipagem e reserva de sangue e iniciar volume.",
+       "avaliacao": "otima",
+       "feedback": "A pressão deitada é o parâmetro que mais engana na hemorragia. A comparação com a posição sentada revela perda que ainda está compensada, e leva menos de dois minutos. Enquanto isso, os acessos e a reserva de sangue precisam estar prontos antes de serem necessários: quem espera precisar para providenciar, perde tempo com o paciente já instável.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Solicitar endoscopia digestiva alta de urgência e aguardar a equipe.",
+       "avaliacao": "aceitavel",
+       "feedback": "A endoscopia é o tratamento e será feita, e ela vem depois da estabilização inicial. Um paciente sangrando e sem acesso venoso adequado corre risco durante o próprio exame. Prepare primeiro, examine depois.",
+       "proximo": "c-exame"
+      },
+      {
+       "texto": "Colher hemograma e decidir a conduta pelo valor da hemoglobina.",
+       "avaliacao": "erro",
+       "feedback": "Na hemorragia aguda a hemoglobina demora horas a refletir a perda, porque sai sangue inteiro, plasma e células juntos. Um valor quase normal na primeira hora é esperado e não tranquiliza ninguém. Quem decide aqui é o exame: palidez, pele fria, pulso e a variação da pressão com a postura.",
+       "proximo": "c-atraso"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-atraso",
+     "texto": "O resultado demora quarenta minutos e vem com hemoglobina de 11 gramas por decilitro, quase normal, como acontece na perda aguda. Nesse intervalo ele vomita de novo, agora sangue vivo, e fica pálido e sudoreico. A preparação que não foi feita antes precisa ser feita agora, com pressa.",
+     "proximo": "c-exame"
+    },
+    {
+     "tipo": "cena",
+     "id": "c-exame",
+     "texto": "Deitado, a pressão é 112 x 68 mmHg com pulso de 104 bpm; sentado, cai para 92 x 58 mmHg com pulso de 124 bpm. As conjuntivas estão descoradas. No tórax e no abdome superior há vasos finos em forma de aranha, e as palmas das mãos estão avermelhadas. O abdome tem circulação colateral visível ao redor do umbigo e macicez móvel nos flancos. O baço é palpável. Não há sinais de encefalopatia.",
+     "dados": [
+      "Queda de pressão e aumento de pulso ao sentar",
+      "Aranhas vasculares, eritema palmar",
+      "Circulação colateral abdominal, macicez móvel",
+      "Baço palpável",
+      "Sem flapping, sem desorientação"
+     ],
+     "proximo": "d-estigmas"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-estigmas",
+     "pergunta": "O que os achados de pele e abdome acrescentam ao manejo?",
+     "opcoes": [
+      {
+       "texto": "Apontam hipertensão portal por doença hepática crônica, o que torna a variz esofágica a causa mais provável e muda o tratamento farmacológico inicial.",
+       "avaliacao": "otima",
+       "feedback": "Aranhas vasculares, eritema palmar, circulação colateral, ascite e baço palpável desenham hipertensão portal, e nesse contexto o sangramento por varizes muda a conduta: entra droga vasoativa esplâncnica e entra antibiótico profilático, que reduz mortalidade nesse grupo específico. O exame da pele, aqui, muda a prescrição.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Acrescentam pouco ao momento agudo: são achados crônicos e a conduta da hemorragia é a mesma para qualquer causa.",
+       "avaliacao": "erro",
+       "feedback": "A conduta não é a mesma. Em sangramento varicoso, além do volume e da endoscopia, a droga vasoativa e o antibiótico profilático fazem diferença de mortalidade. Ignorar os estigmas é tratar um sangramento genérico e perder duas medidas específicas que estavam disponíveis.",
+       "proximo": "c-conduta"
+      },
+      {
+       "texto": "Indicam cirrose, o que contraindica a transfusão pelo risco de aumentar a pressão portal.",
+       "avaliacao": "aceitavel",
+       "feedback": "A observação tem um fundo verdadeiro: transfundir em excesso eleva a pressão portal e pode piorar o sangramento, e por isso a estratégia é restritiva, com alvo mais baixo de hemoglobina. Isso não é contraindicação, é moderação: o paciente com sinais de má perfusão continua precisando de sangue.",
+       "proximo": "c-conduta"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-conduta",
+     "texto": "Volume iniciado, droga vasoativa esplâncnica e antibiótico profilático prescritos, reserva de sangue liberada. A endoscopia sai em uma hora. Ele vomita novamente sangue vivo, fica sonolento e a saturação cai para 90%. A equipe pergunta se leva assim mesmo para o exame.",
+     "dados": [
+      "Novo episódio de hematêmese volumosa",
+      "Sonolência, saturação 90%",
+      "PA 88 x 52 mmHg, FC 130 bpm",
+      "Endoscopia disponível em 1 hora"
+     ],
+     "proximo": "d-via-aerea"
+    },
+    {
+     "tipo": "decisao",
+     "id": "d-via-aerea",
+     "pergunta": "Ele está sonolento e vomitando sangue. Como conduzir até a endoscopia?",
+     "opcoes": [
+      {
+       "texto": "Proteger a via aérea antes do exame, com intubação orotraqueal, mantendo volume e hemocomponentes, porque o risco de aspiração de sangue é alto.",
+       "avaliacao": "otima",
+       "feedback": "Sangramento volumoso com rebaixamento de consciência é a combinação que produz aspiração maciça, e a aspiração transforma uma hemorragia tratável em pneumonia grave e insuficiência respiratória. Proteger a via aérea antes do exame também dá ao endoscopista condição de trabalhar.",
+       "proximo": "fim-otimo"
+      },
+      {
+       "texto": "Levar imediatamente para a endoscopia sem intubar, porque parar o sangramento é a prioridade.",
+       "avaliacao": "erro",
+       "feedback": "A prioridade está certa, a sequência não. Um paciente sonolento vomitando sangue aspira durante o exame, e o endoscopista trabalha em um campo cheio de sangue e sem proteção. Aqui, a via aérea vem primeiro justamente para que a endoscopia possa acontecer bem.",
+       "proximo": "fim-dano"
+      },
+      {
+       "texto": "Manter oxigênio por máscara, posicionar em decúbito lateral e observar de perto até o exame.",
+       "avaliacao": "aceitavel",
+       "feedback": "O decúbito lateral reduz o risco e é uma medida sensata enquanto o material é preparado. Mas com sonolência progressiva e hematêmese volumosa, ele é uma ponte curta, não um plano. Se o nível de consciência não melhorar rápido com o volume, a intubação está indicada.",
+       "proximo": "c-lateral"
+      }
+     ]
+    },
+    {
+     "tipo": "cena",
+     "id": "c-lateral",
+     "texto": "Em quinze minutos ele apresenta novo vômito e episódio de tosse com esforço, e a saturação cai para 86%. A intubação é feita às pressas, com material menos preparado, e há aspiração de pequena quantidade de sangue.",
+     "proximo": "fim-aceitavel"
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-otimo",
+     "classe": "otimo",
+     "texto": "Intubado e estabilizado, ele vai à endoscopia, que identifica varizes esofágicas com sangramento ativo e realiza a ligadura elástica. Recebe três unidades de concentrado de hemácias com estratégia restritiva. É extubado no dia seguinte e sai do hospital no sétimo dia, encaminhado ao programa de tratamento do alcoolismo.",
+     "ensino": "Na hemorragia aguda, a hemoglobina inicial é um número atrasado, e quem informa é o exame: palidez, perfusão e a variação da pressão e do pulso com a postura. Os estigmas de hepatopatia mudam a prescrição, porque acrescentam droga vasoativa esplâncnica e antibiótico profilático. E sangramento volumoso com rebaixamento de consciência exige via aérea protegida antes do exame."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-aceitavel",
+     "classe": "aceitavel",
+     "texto": "O sangramento é controlado por ligadura, mas ele desenvolve pneumonia aspirativa e passa quatro dias em ventilação mecânica, com internação de duas semanas.",
+     "ensino": "Decúbito lateral e oxigênio são ponte, não plano. Quando o rebaixamento de consciência acompanha a hematêmese volumosa, a intubação eletiva e preparada é mais segura que a intubação de resgate durante um episódio de vômito."
+    },
+    {
+     "tipo": "desfecho",
+     "id": "fim-dano",
+     "classe": "dano",
+     "texto": "Durante a endoscopia ele aspira grande quantidade de sangue, dessatura e apresenta parada respiratória na sala. É reanimado e intubado no local, evolui com pneumonia grave e permanece dez dias em ventilação mecânica.",
+     "ensino": "A pressa em parar o sangramento não pode passar por cima da via aérea. Em hematêmese volumosa com consciência rebaixada, o exame só é seguro depois da proteção da via aérea, e essa ordem também melhora as condições técnicas de quem vai tratar o vaso."
     }
    ]
   }
