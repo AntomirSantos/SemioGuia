@@ -511,7 +511,12 @@ SONS = {
 # Chaves cujo arquivo em assets/sons é uma GRAVAÇÃO REAL (ver
 # assets/sons/LICENCAS.md e scripts/preparar-sons-reais.py). O gerador não
 # as sobrescreve: rode com --force para regenerar as versões sintéticas.
-GRAVACOES_REAIS = {'murmurio-vesicular.wav', 'sibilos.wav', 'roncos.wav'}
+GRAVACOES_REAIS = {
+    'murmurio-vesicular.wav', 'sibilos.wav', 'roncos.wav',
+    'estertores-finos.wav', 'estertores-grossos.wav',
+    'bulhas-normais.wav', 'sopro-sistolico.wav',
+    'sopro-regurgitacao.wav', 'sopro-diastolico.wav',
+}
 
 if __name__ == '__main__':
     import sys

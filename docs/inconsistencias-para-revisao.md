@@ -853,3 +853,33 @@ aceitável e dano) e ancorado nos números dos próprios tópicos:
 - O player de ausculta ganhou um fonocardiograma: o envelope do som em
   96 barras, com o trecho já tocado tingido, ligando o que se ouve
   (B1/B2, sopros, estertores) ao que se vê.
+
+## Complemento (v1.2.25): sons cardíacos reais do CirCor DigiScope, para endosso do autor
+
+Com o dataset baixado por você e os 15 candidatos disponibilizados no
+repositório de referências, quatro sons cardíacos passaram a ser gravações
+reais (proveniência completa, janelas e modificações em
+assets/sons/LICENCAS.md):
+
+- **Bulhas normais**: adolescente sem sopro e desfecho normal, ~84 bpm,
+  foco mitral (50017_MV).
+- **Sopro sistólico**: mesossistólico em diamante III/VI, rude, foco
+  pulmonar (40840_PV).
+- **Sopro de regurgitação**: holossistólico em platô III/VI, foco mitral
+  (50233_MV).
+- **Sopro diastólico**: protodiastólico em decrescendo II/IV, aspirativo
+  (50238_MV). Nota declarada: a gravação traz também um protossistólico
+  discreto II/VI do mesmo paciente; preferi este ao candidato III/IV, que
+  vinha com holossistólico III/VI junto e soaria como vai-e-vem.
+
+Decisões que pedem seu olhar:
+
+1. As gravações são pediátricas (o CirCor não tem adultos); o aviso do
+   player declara "gravação em criança ou adolescente". Se preferir
+   voltar qualquer um deles ao sintetizado, é um comando.
+2. O processamento cardíaco usa passa-alta de 25 Hz (não os 70 Hz do
+   pulmonar) para preservar os graves reais de B1/B2, com filtros
+   estreitos de rede em 50/60/100/120 Hz.
+3. Permanecem sintetizados, por falta de rótulo no dataset: galopes B3 e
+   B4, desdobramento de B2, ruflar pré-sistólico, sopro contínuo e atrito
+   pericárdico.

@@ -6,7 +6,7 @@ import type { Bloco } from '../content/schema';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
 import { Pressionavel } from '../design/movimento';
-import { AVISO_SOM_GRAVACAO, AVISO_SOM_SINTETIZADO, FONTES_DE_SOM, ORIGEM_DE_SOM } from '../config/sons';
+import { AVISO_SOM_GRAVACAO, AVISO_SOM_GRAVACAO_CARDIACA, AVISO_SOM_SINTETIZADO, FONTES_DE_SOM, ORIGEM_DE_SOM, SONS_DO_CIRCOR } from '../config/sons';
 import { ENVELOPES_DE_SOM } from '../config/envelopes';
 import { DURACAO_MAX_DE_SOM_MS, assumirReproducao, encerrarReproducao } from '../audio/reprodutor-unico';
 import { IdentidadeBloco } from './identidade';
@@ -153,7 +153,11 @@ export function Som({ bloco }: { bloco: SomBloco }) {
       />
       <View style={{ borderTopWidth: 1, borderTopColor: paleta.linha, marginTop: espaco.m, paddingTop: espaco.s }}>
         <Text style={{ fontFamily: fonte.corpo, fontSize: tipo.tag + 1, color: paleta.tinta2 }}>
-          {ORIGEM_DE_SOM[bloco.arquivo] === 'gravacao' ? AVISO_SOM_GRAVACAO : AVISO_SOM_SINTETIZADO}
+          {ORIGEM_DE_SOM[bloco.arquivo] !== 'gravacao'
+            ? AVISO_SOM_SINTETIZADO
+            : SONS_DO_CIRCOR.has(bloco.arquivo)
+              ? AVISO_SOM_GRAVACAO_CARDIACA
+              : AVISO_SOM_GRAVACAO}
         </Text>
       </View>
     </View>

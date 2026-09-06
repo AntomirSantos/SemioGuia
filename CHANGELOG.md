@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.25 (2026-09-06)
+
+- Os sons cardíacos principais agora são gravações clínicas reais: bulhas normais, sopro sistólico ejetivo, sopro de regurgitação e sopro diastólico (CirCor DigiScope, PhysioNet, ODC-BY 1.0)
+- As gravações vêm de crianças e adolescentes de campanhas de rastreio no Nordeste do Brasil, e o aviso do player declara a origem
+- Nove dos 20 sons do app já são reais; galopes, desdobramento de B2, ruflar, sopro contínuo e atritos seguem sintetizados por falta de rótulo nos datasets abertos
+
 ## 1.2.24 (2026-09-05)
 
 - O texto agora afirma direto, sem citar as obras no corpo dos tópicos e casos; a bibliografia completa vive na aba Perfil

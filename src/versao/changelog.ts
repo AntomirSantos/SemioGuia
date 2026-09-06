@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.25',
+    data: '2026-09-06',
+    linhas: [
+      'Os sons cardíacos principais agora são gravações clínicas reais: bulhas normais, sopro sistólico ejetivo, sopro de regurgitação e sopro diastólico (CirCor DigiScope, PhysioNet, ODC-BY 1.0)',
+      'As gravações vêm de crianças e adolescentes de campanhas de rastreio no Nordeste do Brasil, e o aviso do player declara a origem',
+      'Nove dos 20 sons do app já são reais; galopes, desdobramento de B2, ruflar, sopro contínuo e atritos seguem sintetizados por falta de rótulo nos datasets abertos',
+    ],
+  },
+  {
     versao: '1.2.24',
     data: '2026-09-05',
     linhas: [

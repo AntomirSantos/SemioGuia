@@ -258,7 +258,7 @@ test('som renderiza título, descrição, aviso e chama play ao tocar', async ()
   expect(getByText('Ausculta')).toBeTruthy();
   expect(getByText('Bulhas normais: TUM-TA')).toBeTruthy();
   expect(getByText(/B2 mais aguda/)).toBeTruthy();
-  expect(getByText(/Som sintetizado para estudo/)).toBeTruthy();
+  expect(getByText(/Gravação clínica real em criança ou adolescente/)).toBeTruthy();
 
   await fireEvent.press(getByRole('button'));
   expect(__mockPlayer.play).toHaveBeenCalledTimes(1);

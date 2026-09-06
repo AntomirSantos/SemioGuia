@@ -35,17 +35,29 @@ export const AVISO_SOM_SINTETIZADO =
 export const AVISO_SOM_GRAVACAO =
   'Gravação clínica real (dataset HF_Lung_V1, CC BY 4.0): Heroic-Faith Medical Science / TSECCM.';
 
+export const AVISO_SOM_GRAVACAO_CARDIACA =
+  'Gravação clínica real em criança ou adolescente (CirCor DigiScope, PhysioNet, ODC-BY 1.0).';
+
+// Sons cujo aviso de gravação é o cardíaco (CirCor); os demais 'gravacao'
+// usam o aviso do HF_Lung_V1.
+export const SONS_DO_CIRCOR: ReadonlySet<string> = new Set([
+  'bulhas-normais',
+  'sopro-sistolico',
+  'sopro-regurgitacao',
+  'sopro-diastolico',
+]);
+
 // Origem de cada som: 'sintetizado' (scripts/gerar-sons.py) ou 'gravacao'
 // (scripts/preparar-sons-reais.py; proveniência completa e licença em
 // assets/sons/LICENCAS.md). O aviso do player muda conforme a origem.
 export const ORIGEM_DE_SOM: Record<ChaveDeSom, 'sintetizado' | 'gravacao'> = {
-  'bulhas-normais': 'sintetizado',
+  'bulhas-normais': 'gravacao',
   'galope-b3': 'sintetizado',
   'galope-b4': 'sintetizado',
   'desdobramento-b2': 'sintetizado',
-  'sopro-sistolico': 'sintetizado',
-  'sopro-regurgitacao': 'sintetizado',
-  'sopro-diastolico': 'sintetizado',
+  'sopro-sistolico': 'gravacao',
+  'sopro-regurgitacao': 'gravacao',
+  'sopro-diastolico': 'gravacao',
   'ruflar-pre-sistolico': 'sintetizado',
   'sopro-continuo': 'sintetizado',
   'atrito-pericardico': 'sintetizado',
