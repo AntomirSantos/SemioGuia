@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.29 (2026-09-06)
+
+- Vinte casos clínicos novos, os mais emblemáticos de cada especialidade: infarto com dor atípica, dissecção de aorta, edema agudo, embolia pulmonar, pneumotórax hipertensivo, asma quase fatal, os quatro tipos restantes de abdome agudo, anafilaxia, sepse no idoso, cetoacidose, acidente vascular na janela, hemorragia subaracnóidea, trombose venosa, artrite séptica, desidratação grave no lactente, risco de suicídio e glaucoma agudo
+- O acervo passou de 12 para 32 casos, e todos os 12 sistemas agora têm mais de um caminho para treinar
+- Cada caso aberto mostra o selo de revisão pendente, e a fila de conferência do autor está registrada em docs/casos-para-revisao.md
+
 ## 1.2.28 (2026-09-06)
 
 - Questões e casos clínicos agora têm cada um a sua tela, organizadas como o modo plantão: busca instantânea, grupos por sistema e linhas que abrem no lugar

@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.29',
+    data: '2026-09-06',
+    linhas: [
+      'Vinte casos clínicos novos, os mais emblemáticos de cada especialidade: infarto com dor atípica, dissecção de aorta, edema agudo, embolia pulmonar, pneumotórax hipertensivo, asma quase fatal, os quatro tipos restantes de abdome agudo, anafilaxia, sepse no idoso, cetoacidose, acidente vascular na janela, hemorragia subaracnóidea, trombose venosa, artrite séptica, desidratação grave no lactente, risco de suicídio e glaucoma agudo',
+      'O acervo passou de 12 para 32 casos, e todos os 12 sistemas agora têm mais de um caminho para treinar',
+      'Cada caso aberto mostra o selo de revisão pendente, e a fila de conferência do autor está registrada em docs/casos-para-revisao.md',
+    ],
+  },
+  {
     versao: '1.2.28',
     data: '2026-09-06',
     linhas: [

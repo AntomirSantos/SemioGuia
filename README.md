@@ -26,7 +26,7 @@ como "Revisado" no app.
 |---|---|
 | Sistemas | **12** (Anamnese → Semiologia da criança, ordem craniocaudal) |
 | Tópicos | **55**: todos revisados (triagem de literatura craniocaudal concluída) |
-| Casos clínicos interativos | **12** (um por sistema, ramificados) |
+| Casos clínicos interativos | **32** (ramificados, todos os sistemas cobertos) |
 | Questões de quiz | **327** (balanceadas por índice e comprimento) |
 | Checklists OSCE | **53** (viram estações de prática) |
 | Ilustrações SVG | **59** (temáveis via `currentColor`, geometria verificada; cobertura em `npm run relatorio:ilustracoes`) |

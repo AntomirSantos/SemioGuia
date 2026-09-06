@@ -200,7 +200,7 @@ export function TelaEstudar() {
       />
       <CaminhoDeEstudo
         titulo="Casos clínicos"
-        descricao="Decisões ramificadas com feedback e desfecho, um caso por sistema, na ordem do exame."
+        descricao="Decisões ramificadas com feedback e desfecho, dos quadros que não podem passar batido."
         meta={`${casos.length} casos`}
         onPress={() => router.push('/casos')}
       />

@@ -1,6 +1,6 @@
 # Status da revisão do autor
 
-Gerado por `npm run revisao:status` em 2026-09-04. Não edite à mão.
+Gerado por `npm run revisao:status` em 2026-09-06. Não edite à mão.
 
 ## Resumo
 

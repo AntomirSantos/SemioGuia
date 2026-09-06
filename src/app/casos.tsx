@@ -48,6 +48,25 @@ function CasoAberto({
           marginBottom: espaco.m,
         }}
       >
+        {item.caso.revisao === 'pendente' ? (
+          <View
+            style={{
+              alignSelf: 'flex-start',
+              borderWidth: 1,
+              borderColor: paleta.perolaBorda,
+              backgroundColor: paleta.perolaFundo,
+              borderRadius: raio.s,
+              paddingHorizontal: espaco.s + 2,
+              paddingVertical: 3,
+              marginBottom: espaco.s,
+            }}
+          >
+            <Text style={{ fontFamily: fonte.corpoBold, fontSize: tipo.tag, color: paleta.perolaTexto }}>
+              Em revisão pelo autor
+            </Text>
+          </View>
+        ) : null}
+
         <Rotulo texto="A cena" cor={paleta.tinta2} />
         <Text
           style={{
@@ -157,7 +176,7 @@ export function TelaCasos() {
           marginBottom: espaco.l,
         }}
       >
-        Decisões ramificadas com feedback e desfecho, um caso por sistema. Toque para ver a cena antes de entrar.
+        Decisões ramificadas com feedback e desfecho, na ordem do exame. Toque para ver a cena antes de entrar.
       </Text>
 
       <CampoDeBusca

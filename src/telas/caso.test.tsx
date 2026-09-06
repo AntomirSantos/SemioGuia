@@ -93,10 +93,11 @@ const CASO_TESTE: Caso = {
 
 const CONTEUDO = carregarConteudo({ versao: '1', sistemas: [], casos: [CASO_TESTE] });
 
-function renderCasos(store: MemoryProgressStore) {
+function renderCasos(store: MemoryProgressStore, casos?: Caso[]) {
+  const conteudo = casos ? carregarConteudo({ versao: '1', sistemas: [], casos }) : CONTEUDO;
   return render(
     <ThemeProvider>
-      <ContentProvider conteudo={CONTEUDO}>
+      <ContentProvider conteudo={conteudo}>
         <ProgressProvider store={store}>
           <TelaCasos />
         </ProgressProvider>
@@ -138,6 +139,8 @@ test('tela de Casos lista o caso, abre a cena ao tocar e navega em "Começar o c
     expect(getByText(CASO_TESTE.contexto)).toBeTruthy();
   });
   expect(getByText('Não iniciado')).toBeTruthy();
+  // O caso do teste está aprovado: o selo de revisão pendente não aparece.
+  expect(queryByText('Em revisão pelo autor')).toBeNull();
 
   fireEvent.press(getByText('Começar o caso'));
   expect(router.push).toHaveBeenCalledWith('/caso/caso-dor-toracica');
@@ -272,4 +275,19 @@ test('id de caso inexistente mostra tela vazia amigável com Voltar, sem quebrar
   });
   fireEvent.press(getByText('Voltar'));
   expect(router.back).toHaveBeenCalled();
+});
+
+test('caso ainda em revisão traz o selo "Em revisão pelo autor" ao ser aberto', async () => {
+  const pendente = { ...CASO_TESTE, revisao: 'pendente' as const };
+  const { getByText, queryByText } = await renderCasos(new MemoryProgressStore(), [pendente]);
+
+  await waitFor(() => {
+    expect(getByText(pendente.titulo)).toBeTruthy();
+  });
+  expect(queryByText('Em revisão pelo autor')).toBeNull();
+
+  fireEvent.press(getByText(pendente.titulo));
+  await waitFor(() => {
+    expect(getByText('Em revisão pelo autor')).toBeTruthy();
+  });
 });
