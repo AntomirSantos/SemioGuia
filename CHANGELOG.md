@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.34 (2026-09-07)
+
+- A assinatura passa a ter um preço só: R$ 24,90 por ano, sempre, sem primeiro ano promocional e sem aumento na renovação
+- A tela de acesso diz isso com todas as letras, porque preço estável é promessa que se cobra depois
+- Quem assinar hoje paga o mesmo na quinta renovação: o desconto de introdução cobraria a conta justamente quando o aluno decide se fica
+
 ## 1.2.33 (2026-09-07)
 
 - Quatro sistemas ficam abertos de graça, inteiros: Anamnese, Exame físico geral, Aparelho cardiovascular e Aparelho respiratório, com os tópicos, as questões, os casos, os checklists e os verbetes do plantão deles

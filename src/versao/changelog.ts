@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.34',
+    data: '2026-09-07',
+    linhas: [
+      'A assinatura passa a ter um preço só: R$ 24,90 por ano, sempre, sem primeiro ano promocional e sem aumento na renovação',
+      'A tela de acesso diz isso com todas as letras, porque preço estável é promessa que se cobra depois',
+      'Quem assinar hoje paga o mesmo na quinta renovação: o desconto de introdução cobraria a conta justamente quando o aluno decide se fica',
+    ],
+  },
+  {
     versao: '1.2.33',
     data: '2026-09-07',
     linhas: [

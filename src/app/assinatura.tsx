@@ -8,7 +8,7 @@ import { Rotulo } from '../design/Rotulo';
 import { Pressionavel } from '../design/movimento';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
-import { PRECO_LANCAMENTO, PRECO_RENOVACAO } from '../config/paywall';
+import { PRECO_ANUAL } from '../config/paywall';
 import { useConteudo } from '../content/ContentContext';
 import { useAcesso } from '../entitlements/EntitlementsContext';
 import { acervoDaAssinatura, acervoGratuito, type ContagemDoAcervo } from '../entitlements/acervo';
@@ -56,7 +56,7 @@ export function TelaAssinatura() {
   const incluido = useMemo(() => listaDoQueAbre(acervoDaAssinatura(conteudo)), [conteudo]);
   const [ocupado, setOcupado] = useState<'assinar' | 'restaurar' | null>(null);
   const [erro, setErro] = useState<string | null>(null);
-  const [precos, setPrecos] = useState({ lancamento: PRECO_LANCAMENTO, renovacao: PRECO_RENOVACAO });
+  const [precos, setPrecos] = useState({ anual: PRECO_ANUAL });
 
   useEffect(() => {
     track('assinatura_aberta', { estado: acesso.estado });
@@ -169,7 +169,7 @@ export function TelaAssinatura() {
                 color: paleta.tinta,
               }}
             >
-              {precos.lancamento} no primeiro ano
+              {precos.anual} por ano
             </Text>
             <Text
               style={{
@@ -180,8 +180,8 @@ export function TelaAssinatura() {
                 marginTop: espaco.xs,
               }}
             >
-              Depois {precos.renovacao} por ano, com renovação automática. Cancele quando quiser, direto na
-              loja: o acesso vale até o fim do período já pago.
+              Este é o preço todo ano, sem aumento na renovação. Renova sozinha, e você cancela quando
+              quiser, direto na loja: o acesso vale até o fim do período já pago.
             </Text>
           </View>
         </>
@@ -212,7 +212,7 @@ export function TelaAssinatura() {
       {!jaTem ? (
         <Pressionavel
           accessibilityRole="button"
-          accessibilityLabel={`Assinar por ${precos.lancamento} no primeiro ano`}
+          accessibilityLabel={`Assinar por ${precos.anual} por ano`}
           accessibilityState={{ disabled: ocupado !== null }}
           onPress={() => {
             if (!ocupado) executar('assinar');
@@ -239,7 +239,7 @@ export function TelaAssinatura() {
                   color: paleta.superficie,
                 }}
               >
-                Assinar por {precos.lancamento}
+                Assinar por {precos.anual} por ano
               </Text>
             </>
           )}

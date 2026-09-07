@@ -1,4 +1,4 @@
-import { PRECO_LANCAMENTO, PRECO_RENOVACAO, PRODUTO_ASSINATURA } from '../config/paywall';
+import { PRECO_ANUAL, PRODUTO_ASSINATURA } from '../config/paywall';
 import { umAnoDepois, type Assinatura } from './assinatura';
 
 // Adaptador da cobrança da loja. O app inteiro fala com esta interface e
@@ -14,8 +14,8 @@ import { umAnoDepois, type Assinatura } from './assinatura';
 // como um aparelho sem loja: mostra o preço, explica e não deixa comprar.
 
 export interface Precos {
-  lancamento: string;
-  renovacao: string;
+  /** O valor do ano, já formatado na moeda do usuário. */
+  anual: string;
 }
 
 export type ResultadoDaAssinatura =
@@ -42,7 +42,7 @@ export const lojaIndisponivel: Loja = {
   produto: PRODUTO_ASSINATURA,
   disponivel: false,
   async precos() {
-    return { lancamento: PRECO_LANCAMENTO, renovacao: PRECO_RENOVACAO };
+    return { anual: PRECO_ANUAL };
   },
   async assinar() {
     return { tipo: 'indisponivel' };
@@ -61,7 +61,7 @@ export function lojaDeTeste(opcoes: { restaurar?: boolean } = {}): Loja {
     produto: PRODUTO_ASSINATURA,
     disponivel: true,
     async precos() {
-      return { lancamento: PRECO_LANCAMENTO, renovacao: PRECO_RENOVACAO };
+      return { anual: PRECO_ANUAL };
     },
     async assinar(hoje) {
       return {

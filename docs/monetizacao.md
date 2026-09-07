@@ -7,8 +7,8 @@ paywall já implementado e ligado.
 **Decisões do autor:**
 
 1. 2026-09-06: acesso por **assinatura anual**, com preço acessível.
-2. 2026-09-07: preço confirmado, R$ 24,90 no primeiro ano e R$ 39,90 na
-   renovação.
+2. 2026-09-07: **R$ 24,90 por ano, sempre**, sem primeiro ano promocional e
+   sem preço cheio depois.
 3. 2026-09-07: a parte gratuita são **quatro sistemas completos**, Anamnese,
    Exame físico geral, Aparelho cardiovascular e Aparelho respiratório, com
    tudo o que existe neles. O app é publicado já com o paywall funcionando,
@@ -40,20 +40,21 @@ comportamento correto no navegador.
 
 ## 2. O preço
 
-Assinatura anual, renovação automática, com um primeiro ano promocional.
-**Confirmado pelo autor em 2026-09-07**: são estes os dois valores a
-configurar na loja.
-
-| | Valor | Por mês | Observação |
-|---|---|---|---|
-| Primeiro ano, lançamento | R$ 24,90 | R$ 2,08 | oferta de introdução, configurada na própria loja |
-| Renovação e preço cheio | R$ 39,90 | R$ 3,33 | o valor que aparece a partir do segundo ano |
+**R$ 24,90 por ano, sempre.** Um valor só, R$ 2,08 por mês, com renovação
+automática. Não há primeiro ano promocional nem preço cheio depois: quem
+assinar hoje paga o mesmo na quinta renovação. Na loja isso é um plano base
+anual, sem oferta de introdução.
 
 Por que nessa faixa: acessível de verdade para estudante brasileiro significa
-caber no impulso, sem consulta ao orçamento. Abaixo de R$ 25 no ano o app
-passa a valer menos do que custa manter; acima de R$ 60 o aluno adia a
-decisão e nunca volta. Um compêndio de semiologia custa muitas vezes isso, e
-é essa a comparação que ele faz.
+caber no impulso, sem consulta ao orçamento. Um compêndio de semiologia custa
+muitas vezes isso, e é essa a comparação que ele faz.
+
+Por que preço único, e não um lançamento barato que sobe depois: o desconto
+de introdução compra a primeira assinatura e cobra a conta na renovação, que
+é justamente quando o aluno decide se fica. Preço estável é mais fácil de
+prometer na tela, mais fácil de defender no boca a boca e não cria a
+conversa de "por que subiu". Se um dia o valor precisar mudar, a loja
+preserva o preço de quem já assinou.
 
 Duas decisões que acompanham o preço:
 
@@ -64,9 +65,9 @@ Duas decisões que acompanham o preço:
   torna o app caro lá fora e barato demais em outros lugares. Comece
   distribuindo para o Brasil e amplie depois.
 
-Os textos `PRECO_LANCAMENTO` e `PRECO_RENOVACAO` em `paywall.ts` são só o que
-aparece enquanto a loja não responde: quando a loja estiver ligada, o preço
-mostrado vem dela, já na moeda do usuário.
+O texto `PRECO_ANUAL` em `paywall.ts` é só o que aparece enquanto a loja não
+responde: quando a loja estiver ligada, o preço mostrado vem dela, já na
+moeda do usuário.
 
 ## 3. O que a assinatura exige
 
@@ -181,9 +182,9 @@ Na prática, na máquina do autor:
 2. instalar a biblioteca escolhida;
 3. escrever um objeto que implemente `Loja` (`src/entitlements/loja.ts`);
 4. chamar `configurarLoja(...)` uma vez, no início do app;
-5. na loja, criar uma assinatura com plano base anual e uma oferta de
-   introdução para o primeiro ano, com o identificador `acesso_anual`
-   (`PRODUTO_ASSINATURA`), que é estável: mudar quebra quem já assinou.
+5. na loja, criar uma assinatura com um único plano base anual, sem oferta de
+   introdução, com o identificador `acesso_anual` (`PRODUTO_ASSINATURA`), que
+   é estável: mudar quebra quem já assinou.
 
 Nada além disso precisa mudar no app: telas, prazo, bloqueio e restaurar já
 existem e são testados com a `lojaDeTeste`.
@@ -206,12 +207,11 @@ existem e são testados com a `lojaDeTeste`.
 
 ## 10. Uma conta de ordem de grandeza
 
-Não é projeção, é escala. Com o preço de lançamento e a taxa da loja, cada
-assinatura deixa em torno de vinte reais no primeiro ano e trinta e poucos a
-partir do segundo, se renovar. A conta de desenvolvedor do Google custa uma
-taxa única de vinte e cinco dólares: **duas assinaturas já a cobrem**. Cem
-assinantes cobrem o custo do ano do projeto; mil é outra conversa. O que move
-esse número não é o preço, é quanta gente entra.
+Não é projeção, é escala. Com R$ 24,90 e a taxa da loja, cada assinatura
+deixa em torno de vinte reais por ano, todo ano. A conta de desenvolvedor do
+Google custa uma taxa única de vinte e cinco dólares: **duas assinaturas já a
+cobrem**. Cem assinantes cobrem o custo do ano do projeto; mil é outra
+conversa. O que move esse número não é o preço, é quanta gente entra.
 
 Com assinatura existe um segundo número que importa e que a venda única não
 tem: **quantos renovam**. Ele só aparece doze meses depois, e é o que diz se
@@ -220,7 +220,7 @@ o compromisso de entrega contínua da seção 3 está sendo cumprido.
 ## 11. O que ainda depende de você
 
 1. Criar a conta de desenvolvedor, o produto `acesso_anual` na loja e ligar a
-   biblioteca de compras (seção 8), com os valores da seção 2.
+   biblioteca de compras (seção 8), com o valor único da seção 2.
 2. Decidir quantos códigos de cortesia para os testadores do beta, e por
    quanto tempo.
 3. Endossar os 67 casos que estão com `revisao: pendente`.

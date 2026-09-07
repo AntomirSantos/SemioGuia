@@ -9,7 +9,7 @@ import { BlocoAcesso } from '../entitlements/BlocoAcesso';
 import { configurarLoja, lojaDeTeste } from '../entitlements/loja';
 import { CHAVE_ASSINATURA, serializar, umAnoDepois } from '../entitlements/assinatura';
 import { hojeLocal } from '../revisao/hoje';
-import { PRECO_LANCAMENTO } from '../config/paywall';
+import { PRECO_ANUAL } from '../config/paywall';
 
 // A tela de compra e o bloco "Seu acesso" do Perfil. A loja de verdade não
 // existe aqui: o adaptador `lojaDeTeste` faz o papel dela, que é exatamente o
@@ -43,11 +43,11 @@ afterEach(() => {
 test('sem assinatura, a tela mostra o preço, o que abre e como cancelar', async () => {
   const { getByText, getByLabelText } = await renderTela(<TelaAssinatura />);
   await waitFor(() => {
-    expect(getByText(`${PRECO_LANCAMENTO} no primeiro ano`)).toBeTruthy();
+    expect(getByText(`${PRECO_ANUAL} por ano`)).toBeTruthy();
   });
-  expect(getByText(/renovação automática/)).toBeTruthy();
-  expect(getByText(/Cancele quando quiser/)).toBeTruthy();
-  expect(getByLabelText(`Assinar por ${PRECO_LANCAMENTO} no primeiro ano`)).toBeTruthy();
+  expect(getByText(/sem aumento na renovação/)).toBeTruthy();
+  expect(getByText(/cancela quando quiser/)).toBeTruthy();
+  expect(getByLabelText(`Assinar por ${PRECO_ANUAL} por ano`)).toBeTruthy();
   expect(getByLabelText('Já assinei, restaurar acesso')).toBeTruthy();
 });
 
@@ -69,7 +69,7 @@ test('com assinatura ativa gravada, a tela mostra o estado em vez do botão de c
   await waitFor(() => {
     expect(getByText('Assinatura ativa')).toBeTruthy();
   });
-  expect(queryByLabelText(`Assinar por ${PRECO_LANCAMENTO} no primeiro ano`)).toBeNull();
+  expect(queryByLabelText(`Assinar por ${PRECO_ANUAL} por ano`)).toBeNull();
 });
 
 test('o Perfil mostra "Acesso gratuito" e o caminho para o acesso completo', async () => {
@@ -88,9 +88,9 @@ test('assinar pela loja grava a assinatura e libera o acesso completo', async ()
   const store = new MemoryProgressStore();
   const { getByLabelText, getByText } = await renderTela(<TelaAssinatura />, store);
   await waitFor(() => {
-    expect(getByLabelText(`Assinar por ${PRECO_LANCAMENTO} no primeiro ano`)).toBeTruthy();
+    expect(getByLabelText(`Assinar por ${PRECO_ANUAL} por ano`)).toBeTruthy();
   });
-  await fireEvent.press(getByLabelText(`Assinar por ${PRECO_LANCAMENTO} no primeiro ano`));
+  await fireEvent.press(getByLabelText(`Assinar por ${PRECO_ANUAL} por ano`));
   await waitFor(() => {
     expect(getByText('Assinatura ativa')).toBeTruthy();
   });

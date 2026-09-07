@@ -24,12 +24,14 @@ export const SISTEMAS_GRATUITOS = [
 export const PRODUTO_ASSINATURA = 'acesso_anual';
 
 /**
- * Textos de preço mostrados na tela de assinatura enquanto a loja não
- * responde. Valores confirmados pelo autor em 2026-09-07: são estes os que
- * devem ser configurados no plano base anual e na oferta de introdução.
+ * Preço mostrado na tela de assinatura enquanto a loja não responde.
+ *
+ * Decisão do autor (2026-09-07): R$ 24,90 por ano, SEMPRE. Sem primeiro ano
+ * promocional e sem preço cheio depois: quem assinar hoje paga o mesmo na
+ * quinta renovação. Na loja isso é um plano base anual, sem oferta de
+ * introdução, e é assim que o texto da tela promete.
  */
-export const PRECO_LANCAMENTO = 'R$ 24,90';
-export const PRECO_RENOVACAO = 'R$ 39,90';
+export const PRECO_ANUAL = 'R$ 24,90';
 
 /**
  * Quantos dias o aparelho continua liberando o conteúdo pago sem conseguir

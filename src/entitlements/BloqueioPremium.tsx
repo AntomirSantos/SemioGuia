@@ -8,7 +8,7 @@ import { Rotulo } from '../design/Rotulo';
 import { Pressionavel } from '../design/movimento';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
-import { PRECO_LANCAMENTO } from '../config/paywall';
+import { PRECO_ANUAL } from '../config/paywall';
 import { track } from '../analytics/analytics';
 
 // O que aparece no lugar de um conteúdo que a assinatura abre. Diz o que
@@ -88,7 +88,7 @@ export function BloqueioPremium({ sistemaTitulo, oQue = 'tópico' }: { sistemaTi
             color: paleta.superficie,
           }}
         >
-          Ver o acesso completo por {PRECO_LANCAMENTO}
+          Ver o acesso completo por {PRECO_ANUAL} por ano
         </Text>
       </Pressionavel>
     </Tela>

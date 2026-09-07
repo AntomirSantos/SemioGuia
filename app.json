@@ -2,7 +2,7 @@
   "expo": {
     "name": "SemioGuia",
     "slug": "semioguia",
-    "version": "1.2.33",
+    "version": "1.2.34",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "semioguia",
