@@ -23,7 +23,11 @@ export const SISTEMAS_GRATUITOS = [
 /** Identificador do produto na loja. Estável: mudar quebra quem já assinou. */
 export const PRODUTO_ASSINATURA = 'acesso_anual';
 
-/** Textos de preço mostrados na tela de assinatura enquanto a loja não responde. */
+/**
+ * Textos de preço mostrados na tela de assinatura enquanto a loja não
+ * responde. Valores confirmados pelo autor em 2026-09-07: são estes os que
+ * devem ser configurados no plano base anual e na oferta de introdução.
+ */
 export const PRECO_LANCAMENTO = 'R$ 24,90';
 export const PRECO_RENOVACAO = 'R$ 39,90';
 

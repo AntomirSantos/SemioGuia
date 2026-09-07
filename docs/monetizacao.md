@@ -7,7 +7,9 @@ paywall já implementado e ligado.
 **Decisões do autor:**
 
 1. 2026-09-06: acesso por **assinatura anual**, com preço acessível.
-2. 2026-09-07: a parte gratuita são **quatro sistemas completos**, Anamnese,
+2. 2026-09-07: preço confirmado, R$ 24,90 no primeiro ano e R$ 39,90 na
+   renovação.
+3. 2026-09-07: a parte gratuita são **quatro sistemas completos**, Anamnese,
    Exame físico geral, Aparelho cardiovascular e Aparelho respiratório, com
    tudo o que existe neles. O app é publicado já com o paywall funcionando,
    para começar a recuperar o custo da conta de desenvolvedor do Google.
@@ -39,6 +41,8 @@ comportamento correto no navegador.
 ## 2. O preço
 
 Assinatura anual, renovação automática, com um primeiro ano promocional.
+**Confirmado pelo autor em 2026-09-07**: são estes os dois valores a
+configurar na loja.
 
 | | Valor | Por mês | Observação |
 |---|---|---|---|
@@ -215,10 +219,8 @@ o compromisso de entrega contínua da seção 3 está sendo cumprido.
 
 ## 11. O que ainda depende de você
 
-1. Confirmar R$ 24,90 no primeiro ano e R$ 39,90 na renovação, ou dizer outro
-   par de valores.
-2. Criar a conta de desenvolvedor, o produto `acesso_anual` na loja e ligar a
-   biblioteca de compras (seção 8).
-3. Decidir quantos códigos de cortesia para os testadores do beta, e por
+1. Criar a conta de desenvolvedor, o produto `acesso_anual` na loja e ligar a
+   biblioteca de compras (seção 8), com os valores da seção 2.
+2. Decidir quantos códigos de cortesia para os testadores do beta, e por
    quanto tempo.
-4. Endossar os 67 casos que estão com `revisao: pendente`.
+3. Endossar os 67 casos que estão com `revisao: pendente`.
