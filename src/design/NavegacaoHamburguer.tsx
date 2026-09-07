@@ -14,11 +14,13 @@ interface ItemNav {
   Icone: LucideIcon;
 }
 
+// A mesma ordem da barra de abas nativa (ver (tabs)/_layout.tsx): Busca
+// primeiro, por decisão do autor.
 const ITENS: ItemNav[] = [
+  { rota: '/busca', titulo: 'Busca', Icone: Search },
   { rota: '/', titulo: 'Guia', Icone: BookOpen },
   { rota: '/plantao', titulo: 'Plantão', Icone: Stethoscope },
   { rota: '/checklists', titulo: 'Checklists', Icone: ListChecks },
-  { rota: '/busca', titulo: 'Busca', Icone: Search },
   { rota: '/estudar', titulo: 'Estudar', Icone: GraduationCap },
   { rota: '/perfil', titulo: 'Perfil', Icone: User },
 ];

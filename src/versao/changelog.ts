@@ -13,6 +13,15 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.35',
+    data: '2026-09-07',
+    linhas: [
+      'A Busca passa a ser a primeira aba: no plantão, procurar um nome é o gesto mais frequente',
+      'A aba Estudar voltava a contar só o que estava liberado e dizia 25 casos onde a tela mostra 67: agora ela anuncia o acervo inteiro e, ao lado, quanto está liberado agora',
+      'O app continua abrindo no Guia, que segue sendo a casa',
+    ],
+  },
+  {
     versao: '1.2.34',
     data: '2026-09-07',
     linhas: [

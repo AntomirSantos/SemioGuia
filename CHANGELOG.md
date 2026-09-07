@@ -3,6 +3,12 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.35 (2026-09-07)
+
+- A Busca passa a ser a primeira aba: no plantão, procurar um nome é o gesto mais frequente
+- A aba Estudar voltava a contar só o que estava liberado e dizia 25 casos onde a tela mostra 67: agora ela anuncia o acervo inteiro e, ao lado, quanto está liberado agora
+- O app continua abrindo no Guia, que segue sendo a casa
+
 ## 1.2.34 (2026-09-07)
 
 - A assinatura passa a ter um preço só: R$ 24,90 por ano, sempre, sem primeiro ano promocional e sem aumento na renovação

@@ -8,6 +8,12 @@ import { NavegacaoHamburguer } from '../../design/NavegacaoHamburguer';
 const TAMANHO_ICONE = 22;
 const NA_WEB = Platform.OS === 'web';
 
+// Ordem das abas (pedido do autor, 2026-09-07): Busca vem primeiro, porque
+// no plantão e na enfermaria o gesto mais frequente é procurar um nome, não
+// folhear o guia. A ordem da barra é a ordem destes <Tabs.Screen>, e o
+// `anchor` mantém a abertura do app no Guia, que continua sendo a casa.
+export const unstable_settings = { anchor: 'index' };
+
 export default function TabsLayout() {
   const { paleta } = useTema();
 
@@ -37,6 +43,13 @@ export default function TabsLayout() {
       }}
     >
       <Tabs.Screen
+        name="busca"
+        options={{
+          title: 'Busca',
+          tabBarIcon: ({ color }) => <Search size={TAMANHO_ICONE} color={color} />,
+        }}
+      />
+      <Tabs.Screen
         name="index"
         options={{
           title: 'Guia',
@@ -55,13 +68,6 @@ export default function TabsLayout() {
         options={{
           title: 'Checklists',
           tabBarIcon: ({ color }) => <ListChecks size={TAMANHO_ICONE} color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="busca"
-        options={{
-          title: 'Busca',
-          tabBarIcon: ({ color }) => <Search size={TAMANHO_ICONE} color={color} />,
         }}
       />
       <Tabs.Screen

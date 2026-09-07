@@ -166,16 +166,25 @@ export function TelaEstudar() {
   const progresso = useProgresso();
   const acesso = useAcesso();
 
-  // As contas do hub falam do acervo que este aparelho pode abrir.
-  const questoes = useMemo(
-    () => listarQuestoes(conteudo).filter((q) => acesso.liberado(q.sistemaId)),
-    [conteudo, acesso],
-  );
-  const casos = useMemo(
-    () => listarCasosDeEstudo(conteudo).filter((c) => acesso.liberado(c.sistemaId)),
-    [conteudo, acesso],
-  );
+  // As contas do hub falam do acervo INTEIRO, porque é o acervo inteiro que
+  // as duas telas mostram: o conteúdo da assinatura aparece trancado lá, não
+  // some. Quando há coisa trancada, a conta diz também quanto está liberado
+  // agora, para que o número da porta bata com o que se vê ao entrar.
+  const questoes = useMemo(() => listarQuestoes(conteudo), [conteudo]);
+  const casos = useMemo(() => listarCasosDeEstudo(conteudo), [conteudo]);
   const totalPerguntas = useMemo(() => questoes.reduce((s, i) => s + i.nPerguntas, 0), [questoes]);
+  const questoesLiberadas = useMemo(
+    () => questoes.filter((q) => acesso.liberado(q.sistemaId)).length,
+    [questoes, acesso],
+  );
+  const casosLiberados = useMemo(
+    () => casos.filter((c) => acesso.liberado(c.sistemaId)).length,
+    [casos, acesso],
+  );
+
+  function comLiberados(base: string, liberados: number, total: number): string {
+    return liberados === total ? base : `${base} · ${liberados} liberados agora`;
+  }
 
   const carregarFila = useCallback(async () => {
     const itens = await progresso.listarItensRevisao();
@@ -206,13 +215,13 @@ export function TelaEstudar() {
       <CaminhoDeEstudo
         titulo="Questões"
         descricao="Quiz por tópico, com busca e histórico de acerto. Cada rodada semeia a revisão espaçada."
-        meta={`${questoes.length} tópicos · ${totalPerguntas} perguntas`}
+        meta={comLiberados(`${questoes.length} tópicos · ${totalPerguntas} perguntas`, questoesLiberadas, questoes.length)}
         onPress={() => router.push('/questoes')}
       />
       <CaminhoDeEstudo
         titulo="Casos clínicos"
         descricao="Decisões ramificadas com feedback e desfecho, dos quadros que não podem passar batido."
-        meta={`${casos.length} casos`}
+        meta={comLiberados(`${casos.length} casos`, casosLiberados, casos.length)}
         onPress={() => router.push('/casos')}
       />
 
