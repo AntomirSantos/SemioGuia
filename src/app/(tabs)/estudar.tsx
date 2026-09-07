@@ -14,7 +14,8 @@ import { montarFila, type FilaDeHoje } from '../../revisao/fila';
 import { idsValidosDoConteudo } from '../../revisao/idsValidos';
 import { hojeLocal } from '../../revisao/hoje';
 import { listarCasosDeEstudo, listarQuestoes } from '../../estudo/listas';
-import { useAcesso } from '../../entitlements/EntitlementsContext';
+import { useDesbloqueio } from '../../anuncios/DesbloqueioContext';
+import { ParedeOffline } from '../../anuncios/PecasDeAnuncio';
 import { filtrarItensLiberados } from '../../entitlements/entitlements';
 
 // Aba Estudar (reorganização pedida pelo autor, 2026-09): a aba deixa de ser
@@ -164,7 +165,7 @@ export function TelaEstudar() {
   const { paleta, escala } = useTema();
   const conteudo = useConteudo();
   const progresso = useProgresso();
-  const acesso = useAcesso();
+  const desbloqueio = useDesbloqueio();
 
   // As contas do hub falam do acervo INTEIRO, porque é o acervo inteiro que
   // as duas telas mostram: o conteúdo da assinatura aparece trancado lá, não
@@ -174,24 +175,26 @@ export function TelaEstudar() {
   const casos = useMemo(() => listarCasosDeEstudo(conteudo), [conteudo]);
   const totalPerguntas = useMemo(() => questoes.reduce((s, i) => s + i.nPerguntas, 0), [questoes]);
   const questoesLiberadas = useMemo(
-    () => questoes.filter((q) => acesso.liberado(q.sistemaId)).length,
-    [questoes, acesso],
+    () => questoes.filter((q) => desbloqueio.liberado('estudar', q.sistemaId)).length,
+    [questoes, desbloqueio],
   );
   const casosLiberados = useMemo(
-    () => casos.filter((c) => acesso.liberado(c.sistemaId)).length,
-    [casos, acesso],
+    () => casos.filter((c) => desbloqueio.liberado('estudar', c.sistemaId)).length,
+    [casos, desbloqueio],
   );
 
   function comLiberados(base: string, liberados: number, total: number): string {
-    return liberados === total ? base : `${base} · ${liberados} liberados agora`;
+    return liberados === total ? base : `${base} · ${liberados} abertos agora`;
   }
 
   const carregarFila = useCallback(async () => {
     const itens = await progresso.listarItensRevisao();
-    const liberados = filtrarItensLiberados(itens, acesso.liberado);
+    const liberados = filtrarItensLiberados(itens, (s) => desbloqueio.liberado('estudar', s));
     return montarFila(liberados, idsValidosDoConteudo(conteudo), hojeLocal());
-  }, [progresso, conteudo, acesso]);
+  }, [progresso, conteudo, desbloqueio]);
   const fila = useDadosAoFocar(carregarFila);
+
+  if (desbloqueio.exigindoConexao) return <ParedeOffline />;
 
   return (
     <Tela>

@@ -1,9 +1,6 @@
 import { fireEvent, render, waitFor } from '@testing-library/react-native';
-import { ThemeProvider } from '../design/ThemeContext';
-import { ContentProvider } from '../content/ContentContext';
-import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
-import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
+import { Provedores } from '../testes/provedores';
 import { TelaQuestoes } from '../app/questoes';
 import { router } from 'expo-router';
 
@@ -24,15 +21,9 @@ const PA_ID = 'exame-fisico-geral/sinais-vitais/pressao-arterial';
 
 async function renderQuestoes() {
   return render(
-    <ThemeProvider>
-      <ContentProvider>
-        <ProgressProvider store={new MemoryProgressStore()}>
-          <EntitlementsProvider>
-            <TelaQuestoes />
-          </EntitlementsProvider>
-        </ProgressProvider>
-      </ContentProvider>
-    </ThemeProvider>,
+    <Provedores store={new MemoryProgressStore()}>
+      <TelaQuestoes />
+    </Provedores>,
   );
 }
 

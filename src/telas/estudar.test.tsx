@@ -1,9 +1,6 @@
 import { fireEvent, render, waitFor } from '@testing-library/react-native';
-import { ThemeProvider } from '../design/ThemeContext';
-import { ContentProvider } from '../content/ContentContext';
-import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
-import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
+import { Provedores } from '../testes/provedores';
 import { TelaEstudar } from '../app/(tabs)/estudar';
 import { carregarConteudo } from '../content/store';
 import { listarCasosDeEstudo, listarQuestoes } from '../estudo/listas';
@@ -24,15 +21,9 @@ jest.mock('react-native-safe-area-context', () => ({
 
 async function renderEstudar() {
   return render(
-    <ThemeProvider>
-      <ContentProvider>
-        <ProgressProvider store={new MemoryProgressStore()}>
-          <EntitlementsProvider>
-            <TelaEstudar />
-          </EntitlementsProvider>
-        </ProgressProvider>
-      </ContentProvider>
-    </ThemeProvider>,
+    <Provedores store={new MemoryProgressStore()}>
+      <TelaEstudar />
+    </Provedores>,
   );
 }
 

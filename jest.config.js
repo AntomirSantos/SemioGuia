@@ -9,5 +9,7 @@ module.exports = {
     // expo-audio depende de módulo nativo ausente no ambiente de teste; o
     // mock oferece player/status inertes e espiáveis (ver o arquivo).
     '^expo-audio$': '<rootDir>/src/testes/expo-audio-mock.ts',
+    // expo-network idem: o mock devolve um aparelho conectado (ver o arquivo).
+    '^expo-network$': '<rootDir>/src/testes/expo-network-mock.ts',
   },
 };

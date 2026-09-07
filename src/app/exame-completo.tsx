@@ -11,7 +11,8 @@ import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
 import { useConteudo } from '../content/ContentContext';
 import { listarChecklists, type ChecklistDeExame } from '../checklists/listas';
-import { useAcesso } from '../entitlements/EntitlementsContext';
+import { useDesbloqueio } from '../anuncios/DesbloqueioContext';
+import { ParedeOffline } from '../anuncios/PecasDeAnuncio';
 import { ItemMarcavel } from '../checklists/ItemMarcavel';
 import { track } from '../analytics/analytics';
 
@@ -181,13 +182,12 @@ function Relatorio({
 export default function ExameCompleto() {
   const { paleta, escala } = useTema();
   const conteudo = useConteudo();
-  const acesso = useAcesso();
-  // O exame completo percorre só o que este aparelho tem liberado: uma
-  // sequência com buracos trancados no meio seria pior que uma sequência
-  // menor e inteira. A tela de assinatura diz o que falta.
+  const desbloqueio = useDesbloqueio();
+  // O exame completo percorre só o que está aberto agora: uma sequência com
+  // buracos trancados no meio seria pior que uma sequência menor e inteira.
   const listas = useMemo(
-    () => listarChecklists(conteudo).filter((l) => acesso.liberado(l.sistemaId)),
-    [conteudo, acesso],
+    () => listarChecklists(conteudo).filter((l) => desbloqueio.liberado('checklists', l.sistemaId)),
+    [conteudo, desbloqueio],
   );
   const [indice, setIndice] = useState(0);
   const [encerrado, setEncerrado] = useState(false);

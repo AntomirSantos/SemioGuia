@@ -1,9 +1,6 @@
 import { fireEvent, render, waitFor } from '@testing-library/react-native';
-import { ThemeProvider } from '../design/ThemeContext';
-import { ContentProvider } from '../content/ContentContext';
-import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
-import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
+import { Provedores } from '../testes/provedores';
 import { TelaTopico } from '../app/topico/[...caminho]';
 
 jest.mock('expo-router', () => ({
@@ -32,15 +29,9 @@ const TOPICO_ID = 'exame-fisico-geral/sinais-vitais/pressao-arterial';
 
 function renderTopico(store: MemoryProgressStore, topicoId: string = TOPICO_ID) {
   return render(
-    <ThemeProvider>
-      <ContentProvider>
-        <ProgressProvider store={store}>
-          <EntitlementsProvider>
-            <TelaTopico topicoId={topicoId} />
-          </EntitlementsProvider>
-        </ProgressProvider>
-      </ContentProvider>
-    </ThemeProvider>,
+    <Provedores store={store}>
+      <TelaTopico topicoId={topicoId} />
+    </Provedores>,
   );
 }
 

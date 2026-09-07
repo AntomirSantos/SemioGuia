@@ -22,6 +22,7 @@ export const EVENTOS = [
   'casos_aberto',
   'sem_anuncios_aberto',
   'compra_concluida',
+  'anuncio_resultado',
   'bloqueio_visto',
 ] as const;
 

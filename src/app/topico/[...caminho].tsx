@@ -19,8 +19,8 @@ import { semearTopico } from '../../revisao/fila';
 import { agoraIso, hojeLocal } from '../../revisao/hoje';
 import { track } from '../../analytics/analytics';
 import { FolhaFeedback } from '../../feedback/FolhaFeedback';
-import { useAcesso } from '../../entitlements/EntitlementsContext';
-import { BloqueioPremium } from '../../entitlements/BloqueioPremium';
+import { PortaoDeConteudo } from '../../anuncios/PortaoDeConteudo';
+import { sistemaDoTopicoId } from '../../entitlements/entitlements';
 import type { Bloco, QuizPergunta, Topico } from '../../content/schema';
 
 function TelaNaoEncontrada() {
@@ -148,7 +148,6 @@ export function TelaTopico({ topicoId, ancora }: { topicoId: string; ancora?: st
   const topico = useTopico(topicoId);
   const sistema = useSistema(topico?.sistemaId ?? '');
   const progresso = useProgresso();
-  const acesso = useAcesso();
   const { notificarEscrita } = useSync();
   const [estudado, setEstudado] = useState(false);
   const [favorito, setFavorito] = useState(false);
@@ -260,12 +259,6 @@ export function TelaTopico({ topicoId, ancora }: { topicoId: string; ancora?: st
     return <TelaNaoEncontrada />;
   }
   const topicoAtual: Topico = topico;
-
-  // Freemium: com PAYWALL_ATIVO desligado, tudo fica liberado; ligado, os
-  // sistemas fora da faixa gratuita mostram a tela de assinatura.
-  if (!acesso.liberado(topicoAtual.sistemaId)) {
-    return <BloqueioPremium sistemaTitulo={sistema?.titulo ?? topicoAtual.sistemaId} />;
-  }
 
   const capitulo = sistema?.capitulos.find((c) => c.id === topicoAtual.capituloId);
 
@@ -438,5 +431,9 @@ export function TelaTopico({ topicoId, ancora }: { topicoId: string; ancora?: st
 export default function TopicoRoute() {
   const { caminho, ancora } = useLocalSearchParams<{ caminho: string | string[]; ancora?: string }>();
   const topicoId = Array.isArray(caminho) ? caminho.join('/') : (caminho ?? '');
-  return <TelaTopico topicoId={topicoId} ancora={typeof ancora === 'string' && ancora ? ancora : undefined} />;
+  return (
+    <PortaoDeConteudo aba="guia" sistemaId={sistemaDoTopicoId(topicoId)} oQue="os tópicos, as manobras e as ilustrações">
+      <TelaTopico topicoId={topicoId} ancora={typeof ancora === 'string' && ancora ? ancora : undefined} />
+    </PortaoDeConteudo>
+  );
 }

@@ -16,8 +16,8 @@ import {
   type ChecklistDeExame,
 } from '../../checklists/listas';
 import { ItemMarcavel } from '../../checklists/ItemMarcavel';
-import { useAcesso } from '../../entitlements/EntitlementsContext';
-import { LinhaTrancada } from '../../entitlements/LinhaTrancada';
+import { useDesbloqueio } from '../../anuncios/DesbloqueioContext';
+import { BarraDeLiberacao, ParedeOffline } from '../../anuncios/PecasDeAnuncio';
 import { track } from '../../analytics/analytics';
 
 // Tela de checklists (pedido do autor, 2026-09): todos os roteiros de exame
@@ -190,9 +190,12 @@ function LinhaChecklist({
 export default function Checklists() {
   const { paleta, escala } = useTema();
   const conteudo = useConteudo();
-  const acesso = useAcesso();
+  const desbloqueio = useDesbloqueio();
   const listas = useMemo(() => listarChecklists(conteudo), [conteudo]);
-  const liberadas = useMemo(() => listas.filter((l) => acesso.liberado(l.sistemaId)), [listas, acesso]);
+  const liberadas = useMemo(
+    () => listas.filter((l) => desbloqueio.liberado('checklists', l.sistemaId)),
+    [listas, desbloqueio],
+  );
   const [termo, setTermo] = useState('');
   const [abertos, setAbertos] = useState<Set<string>>(new Set());
   const [marcasPorLista, setMarcasPorLista] = useState<Map<string, Set<number>>>(new Map());
@@ -251,6 +254,8 @@ export default function Checklists() {
     // A âncora abre o tópico exatamente no bloco deste checklist.
     router.push(`/topico/${lista.topicoId}?ancora=${encodeURIComponent(`checklist:${lista.titulo}`)}`);
   }
+
+  if (desbloqueio.exigindoConexao) return <ParedeOffline />;
 
   return (
     <Tela>
@@ -351,27 +356,27 @@ export default function Checklists() {
         </Pressionavel>
       ) : null}
 
-      {grupos.map((grupo) => (
+      {grupos.map((grupo) => {
+        const sistemaId = grupo.checklists[0]?.sistemaId ?? '';
+        const trancado = !desbloqueio.liberado('checklists', sistemaId);
+        return (
         <View key={grupo.sistemaTitulo} style={{ marginBottom: espaco.l }}>
           <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: espaco.xs }}>
             <View style={{ width: 8, height: 18, backgroundColor: grupo.sistemaCor, marginRight: espaco.m }} />
             <Rotulo texto={grupo.sistemaTitulo} cor={paleta.tinta2} />
           </View>
+          {trancado ? (
+            <BarraDeLiberacao
+              aba="checklists"
+              sistemaId={sistemaId}
+              sistemaTitulo={grupo.sistemaTitulo}
+              quantos={`${grupo.checklists.length} ${grupo.checklists.length === 1 ? 'roteiro' : 'roteiros'}`}
+            />
+          ) : (
+            <>
           {grupo.checklists.map((lista) => {
             const chave = chaveDaLista(lista);
             const marcas = marcasPorLista.get(chave) ?? new Set<number>();
-            // Roteiro de sistema pago aparece trancado, com o nome à vista.
-            if (!acesso.liberado(lista.sistemaId)) {
-              return (
-                <LinhaTrancada
-                  key={chave}
-                  titulo={lista.titulo}
-                  subtitulo={`${lista.topicoTitulo} · ${lista.itens.length} itens`}
-                  oQue="checklist"
-                  sistemaTitulo={lista.sistemaTitulo}
-                />
-              );
-            }
             return (
               <LinhaChecklist
                 key={chave}
@@ -391,8 +396,11 @@ export default function Checklists() {
               </LinhaChecklist>
             );
           })}
+            </>
+          )}
         </View>
-      ))}
+        );
+      })}
 
       {grupos.length === 0 ? (
         <Text

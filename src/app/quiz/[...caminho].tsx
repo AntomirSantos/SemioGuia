@@ -7,7 +7,7 @@ import { Rotulo } from '../../design/Rotulo';
 import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useTopico } from '../../content/ContentContext';
-import { PortaoDeAcesso } from '../../entitlements/PortaoDeAcesso';
+import { PortaoDeConteudo } from '../../anuncios/PortaoDeConteudo';
 import { sistemaDoTopicoId } from '../../entitlements/entitlements';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useSync } from '../../sync/orquestrador';
@@ -189,8 +189,8 @@ export default function QuizRoute() {
   const { caminho } = useLocalSearchParams<{ caminho: string | string[] }>();
   const topicoId = Array.isArray(caminho) ? caminho.join('/') : (caminho ?? '');
   return (
-    <PortaoDeAcesso sistemaId={sistemaDoTopicoId(topicoId)} oQue="quiz">
+    <PortaoDeConteudo aba="estudar" sistemaId={sistemaDoTopicoId(topicoId)} oQue="as questões, os casos e os checklists">
       <TelaQuiz topicoId={topicoId} />
-    </PortaoDeAcesso>
+    </PortaoDeConteudo>
   );
 }

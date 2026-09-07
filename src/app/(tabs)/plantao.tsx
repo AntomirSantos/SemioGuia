@@ -11,8 +11,8 @@ import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useConteudo } from '../../content/ContentContext';
 import { agruparPorSistema, filtrarSinais, listarSinais, type SinalDePlantao } from '../../plantao/sinais';
-import { useAcesso } from '../../entitlements/EntitlementsContext';
-import { LinhaTrancada } from '../../entitlements/LinhaTrancada';
+import { useDesbloqueio } from '../../anuncios/DesbloqueioContext';
+import { BarraDeLiberacao, ParedeOffline } from '../../anuncios/PecasDeAnuncio';
 import { track } from '../../analytics/analytics';
 
 // Modo plantão (produto 2026-09): "achei X no exame, e agora?". A resposta
@@ -138,7 +138,7 @@ function LinhaSinal({
 export default function Plantao() {
   const { paleta, escala } = useTema();
   const conteudo = useConteudo();
-  const acesso = useAcesso();
+  const desbloqueio = useDesbloqueio();
   const sinais = useMemo(() => listarSinais(conteudo), [conteudo]);
   const [termo, setTermo] = useState('');
   const [abertos, setAbertos] = useState<Set<string>>(new Set());
@@ -179,6 +179,8 @@ export default function Plantao() {
     // A âncora abre o tópico exatamente no bloco deste sinal.
     router.push(`/topico/${sinal.topicoId}?ancora=${encodeURIComponent(`sinal:${sinal.nome}`)}`);
   }
+
+  if (desbloqueio.exigindoConexao) return <ParedeOffline />;
 
   return (
     <Tela>
@@ -243,27 +245,26 @@ export default function Plantao() {
         style={{ marginBottom: espaco.m }}
       />
 
-      {grupos.map((grupo) => (
+      {grupos.map((grupo) => {
+        const sistemaId = grupo.sinais[0]?.sistemaId ?? '';
+        const trancado = !desbloqueio.liberado('plantao', sistemaId);
+        return (
         <View key={grupo.sistemaTitulo} style={{ marginBottom: espaco.l }}>
           <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: espaco.xs }}>
             <View style={{ width: 8, height: 18, backgroundColor: grupo.sistemaCor, marginRight: espaco.m }} />
             <Rotulo texto={grupo.sistemaTitulo} cor={paleta.tinta2} />
           </View>
+          {trancado ? (
+            <BarraDeLiberacao
+              aba="plantao"
+              sistemaId={sistemaId}
+              sistemaTitulo={grupo.sistemaTitulo}
+              quantos={`${grupo.sinais.length} ${grupo.sinais.length === 1 ? 'verbete' : 'verbetes'}`}
+            />
+          ) : (
+            <>
           {grupo.sinais.map((sinal) => {
             const chave = chaveDoSinal(sinal);
-            // Verbete de sistema pago aparece trancado: o nome do achado fica
-            // à vista, porque saber que ele existe já é parte da orientação.
-            if (!acesso.liberado(sinal.sistemaId)) {
-              return (
-                <LinhaTrancada
-                  key={chave}
-                  titulo={sinal.nome}
-                  subtitulo={sinal.topicoTitulo}
-                  oQue="verbete do plantão"
-                  sistemaTitulo={sinal.sistemaTitulo}
-                />
-              );
-            }
             return (
               <LinhaSinal
                 key={chave}
@@ -274,8 +275,11 @@ export default function Plantao() {
               />
             );
           })}
+            </>
+          )}
         </View>
-      ))}
+        );
+      })}
 
       {grupos.length === 0 ? (
         <Text

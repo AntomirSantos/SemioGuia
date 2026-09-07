@@ -108,7 +108,7 @@ export function TelaSemAnuncios() {
 
   return (
     <Tela>
-      <Cabecalho titulo="Sem anúncios" aoVoltar={() => router.back()} />
+      <Cabecalho titulo="Sem anúncios, e offline" aoVoltar={() => router.back()} />
 
       {jaTem ? (
         <View style={{ marginBottom: espaco.l }}>
@@ -126,7 +126,7 @@ export function TelaSemAnuncios() {
             }}
           >
             {acesso.estado === 'permanente'
-              ? 'Você não vê mais anúncios neste aplicativo, e não verá. Obrigado por sustentar o projeto: é isso que paga o tempo de escrever o que vem por aí.'
+              ? 'Você não vê mais anúncios neste aplicativo, e usa tudo sem internet. Obrigado por sustentar o projeto: é isso que paga o tempo de escrever o que vem por aí.'
               : 'Você está sem anúncios por cortesia. Quando ela acabar, eles voltam, e a compra continua disponível aqui.'}
           </Text>
         </View>
@@ -141,11 +141,34 @@ export function TelaSemAnuncios() {
               marginBottom: espaco.l,
             }}
           >
-            O SemioGuia inteiro é seu, de graça, sem cadastro e sem prazo. Os anúncios são o que paga
-            a conta de manter isso de pé.
+            O SemioGuia inteiro é seu, de graça e sem cadastro. Os anúncios são o que paga a conta de
+            manter isso de pé: a Anamnese e o Exame físico geral abrem sozinhos, e cada outro sistema
+            abre com um anúncio, até você fechar o aplicativo.
           </Text>
 
-          <Rotulo texto="Já está tudo aberto" cor={paleta.tinta2} />
+          <Rotulo texto="O que a compra muda" cor={paleta.tinta2} />
+          <View style={{ marginTop: espaco.xs, marginBottom: espaco.l }}>
+            {['nenhum anúncio, nunca mais', 'e o app inteiro funcionando sem internet, no plantão ou no ônibus'].map(
+              (linha) => (
+                <View key={linha} style={{ flexDirection: 'row', alignItems: 'flex-start', marginBottom: espaco.xs }}>
+                  <Check size={16} color={paleta.acentoTinta} style={{ marginTop: 3, marginRight: espaco.s }} />
+                  <Text
+                    style={{
+                      flex: 1,
+                      fontFamily: fonte.corpo,
+                      fontSize: Math.round(tipo.corpo * escala),
+                      lineHeight: Math.round(tipo.corpo * escala * 1.45),
+                      color: paleta.tinta,
+                    }}
+                  >
+                    {linha}
+                  </Text>
+                </View>
+              ),
+            )}
+          </View>
+
+          <Rotulo texto="O acervo, que já é seu" cor={paleta.tinta2} />
           <View style={{ marginTop: espaco.xs, marginBottom: espaco.l }}>
             {aberto.map((linha) => (
               <View key={linha} style={{ flexDirection: 'row', alignItems: 'flex-start', marginBottom: espaco.xs }}>
@@ -185,9 +208,9 @@ export function TelaSemAnuncios() {
                 marginTop: espaco.xs,
               }}
             >
-              Não é assinatura: não renova, não é cobrado de novo e não vence. Você paga uma vez e os
-              anúncios somem para sempre, também nas versões que vierem. Trocou de aparelho, é só
-              tocar em restaurar.
+              Não é assinatura: não renova, não é cobrado de novo e não vence. Você paga uma vez, os
+              anúncios somem para sempre e o app passa a funcionar offline, também nas versões que
+              vierem. Trocou de aparelho, é só tocar em restaurar.
             </Text>
           </View>
         </>
@@ -218,7 +241,7 @@ export function TelaSemAnuncios() {
       {!jaTem ? (
         <Pressionavel
           accessibilityRole="button"
-          accessibilityLabel={`Remover os anúncios por ${precos.remocao}, uma vez só`}
+          accessibilityLabel={`Comprar por ${precos.remocao}, uma vez só`}
           accessibilityState={{ disabled: ocupado !== null }}
           onPress={() => {
             if (!ocupado) executar('comprar');
@@ -243,7 +266,7 @@ export function TelaSemAnuncios() {
                 color: paleta.superficie,
               }}
             >
-              Remover os anúncios por {precos.remocao}
+              Comprar por {precos.remocao}
             </Text>
           )}
         </Pressionavel>

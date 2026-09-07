@@ -34,6 +34,24 @@ export const SISTEMAS_GRATUITOS = [
 export const ANUNCIOS_ATIVOS = true;
 
 /**
+ * Os sistemas abertos sem anúncio nenhum (decisão do autor, 2026-09-07): a
+ * fundação do curso. Todo o resto abre com um anúncio premiado, por aba, e a
+ * liberação dura só enquanto o app estiver aberto.
+ */
+export const SISTEMAS_SEMPRE_ABERTOS = ['anamnese', 'exame-fisico-geral'] as const;
+
+/**
+ * Usar o app sem internet é da compra (decisão do autor, 2026-09-07). Sem
+ * conexão e sem compra, o app pede que a pessoa se conecte, inclusive nos dois
+ * sistemas sempre abertos.
+ *
+ * Se um dia parecer duro demais, a alternativa natural é deixar os dois
+ * sistemas abertos funcionarem offline e manter o resto exigindo anúncio, que
+ * já exige rede por natureza: é trocar esta constante por falso.
+ */
+export const OFFLINE_EXIGE_COMPRA = true;
+
+/**
  * Produto da loja: compra única (não assinatura, não consumível), que remove
  * os anúncios para sempre. Identificador estável: mudar quebra quem já pagou.
  */

@@ -13,6 +13,16 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.37',
+    data: '2026-09-07',
+    linhas: [
+      'Anamnese e Exame físico geral abrem sozinhos; cada outro sistema abre com um anúncio, por aba e até você fechar o aplicativo',
+      'A compra de R$ 24,90 passa a valer por duas coisas: nenhum anúncio, nunca mais, e o app inteiro funcionando sem internet',
+      'Falta de anúncio para exibir abre o conteúdo assim mesmo: ninguém fica sem estudar porque a rede de anúncios não tinha estoque',
+      'Na web nada disso existe: lá o app segue gratuito, limpo e sem parede de conexão',
+    ],
+  },
+  {
     versao: '1.2.36',
     data: '2026-09-07',
     linhas: [

@@ -8,6 +8,8 @@ import { useTema } from '../../design/ThemeContext';
 import { Rotulo, RotuloDeSecao } from '../../design/Rotulo';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useConteudo, useTopico } from '../../content/ContentContext';
+import { useDesbloqueio } from '../../anuncios/DesbloqueioContext';
+import { ParedeOffline } from '../../anuncios/PecasDeAnuncio';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import { criarIndice, buscar, type ResultadoBusca } from '../../search';
@@ -178,5 +180,9 @@ function LinhaFavorito({ topicoId, onPress }: { topicoId: string; onPress: () =>
 }
 
 export default function Busca() {
+  // A busca também é conteúdo: sem conexão e sem compra, o app pede conexão.
+  // A tela interna fica intacta, e os testes seguem montando só ela.
+  const desbloqueio = useDesbloqueio();
+  if (desbloqueio.exigindoConexao) return <ParedeOffline />;
   return <TelaBusca />;
 }

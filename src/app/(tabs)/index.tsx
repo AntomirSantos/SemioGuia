@@ -1,5 +1,5 @@
 import { useCallback, useEffect } from 'react';
-import { ChevronRight } from 'lucide-react-native';
+import { ChevronRight, Play } from 'lucide-react-native';
 import { Text, View } from 'react-native';
 import { router } from 'expo-router';
 import { Tela } from '../../design/Tela';
@@ -8,6 +8,8 @@ import { EntradaEmLista, Pressionavel } from '../../design/movimento';
 import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, tipo } from '../../design/tokens';
 import { useConteudo } from '../../content/ContentContext';
+import { useDesbloqueio } from '../../anuncios/DesbloqueioContext';
+import { ParedeOffline } from '../../anuncios/PecasDeAnuncio';
 import { listarSistemas, listarTodosTopicos, obterSistema, obterTopico, sistemaRevisado } from '../../content/store';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
@@ -52,12 +54,24 @@ function BarraProgressoSistema({ estudados, total, cor }: { estudados: number; t
 // Linha editorial de sistema (identidade R2): barra de cor 8×34 como único
 // canal da cor do sistema + nome em Bodoni + meta em Public Sans + chevron,
 // separadas por hairline, sem ícone-badge, sem wash de fundo, sem sombra.
-function LinhaSistema({ sistema, estudados, revisado }: { sistema: Sistema; estudados: number; revisado: boolean }) {
+function LinhaSistema({
+  sistema,
+  estudados,
+  revisado,
+  abreComAnuncio,
+}: {
+  sistema: Sistema;
+  estudados: number;
+  revisado: boolean;
+  /** No regime de anúncios, este sistema ainda pede um anúncio para abrir. */
+  abreComAnuncio: boolean;
+}) {
   const { paleta, escala } = useTema();
   const totalTopicos = contarTopicos(sistema);
   return (
     <Pressionavel
       accessibilityRole="button"
+      accessibilityLabel={abreComAnuncio ? `${sistema.titulo}, abre com um anúncio` : sistema.titulo}
       onPress={() => router.push(`/sistema/${sistema.id}`)}
       style={{
         flexDirection: 'row',
@@ -108,7 +122,11 @@ function LinhaSistema({ sistema, estudados, revisado }: { sistema: Sistema; estu
         </View>
         <BarraProgressoSistema estudados={estudados} total={totalTopicos} cor={sistema.cor} />
       </View>
-      <ChevronRight size={18} color={paleta.tinta2} style={{ marginLeft: espaco.s }} />
+      {abreComAnuncio ? (
+        <Play size={16} color={paleta.tinta2} style={{ marginLeft: espaco.s }} />
+      ) : (
+        <ChevronRight size={18} color={paleta.tinta2} style={{ marginLeft: espaco.s }} />
+      )}
     </Pressionavel>
   );
 }
@@ -236,6 +254,7 @@ export default function Guia() {
     (a, b) => Number(sistemaRevisado(b)) - Number(sistemaRevisado(a)),
   );
   const progresso = useProgresso();
+  const desbloqueio = useDesbloqueio();
 
   const carregarEstudados = useCallback(async () => new Set(await progresso.listarEstudados()), [progresso]);
   const estudados = useDadosAoFocar(carregarEstudados) ?? new Set<string>();
@@ -264,6 +283,8 @@ export default function Guia() {
   // Kicker do masthead derivado do conteúdo real, nunca hardcode.
   const totalTopicos = listarTodosTopicos(conteudo).length;
   const kicker = `${sistemas.length} sistemas · ${totalTopicos} tópicos`;
+
+  if (desbloqueio.exigindoConexao) return <ParedeOffline />;
 
   return (
     <Tela>
@@ -296,7 +317,12 @@ export default function Guia() {
           const estudadosCount = topicosDoSistema.filter((t) => estudados.has(t.id)).length;
           return (
             <EntradaEmLista key={sistema.id} indice={indice}>
-              <LinhaSistema sistema={sistema} estudados={estudadosCount} revisado={sistemaRevisado(sistema)} />
+              <LinhaSistema
+                sistema={sistema}
+                estudados={estudadosCount}
+                revisado={sistemaRevisado(sistema)}
+                abreComAnuncio={!desbloqueio.liberado('guia', sistema.id)}
+              />
             </EntradaEmLista>
           );
         })}

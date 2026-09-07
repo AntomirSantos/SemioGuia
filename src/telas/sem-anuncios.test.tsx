@@ -1,9 +1,6 @@
 import { fireEvent, render, waitFor } from '@testing-library/react-native';
-import { ThemeProvider } from '../design/ThemeContext';
-import { ContentProvider } from '../content/ContentContext';
-import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
-import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
+import { Provedores } from '../testes/provedores';
 import { TelaSemAnuncios } from '../app/sem-anuncios';
 import { BlocoAcesso } from '../entitlements/BlocoAcesso';
 import { configurarLoja, lojaDeTeste } from '../entitlements/loja';
@@ -25,13 +22,7 @@ jest.mock('react-native-safe-area-context', () => ({
 
 function renderTela(no: React.ReactNode, store = new MemoryProgressStore()) {
   return render(
-    <ThemeProvider>
-      <ContentProvider>
-        <ProgressProvider store={store}>
-          <EntitlementsProvider>{no}</EntitlementsProvider>
-        </ProgressProvider>
-      </ContentProvider>
-    </ThemeProvider>,
+    <Provedores store={store}>{no}</Provedores>,
   );
 }
 
@@ -45,7 +36,7 @@ test('sem compra, a tela mostra o preço e deixa claro que não é assinatura', 
     expect(getByText(`${PRECO_SEM_ANUNCIOS}, uma vez só`)).toBeTruthy();
   });
   expect(getByText(/não renova, não é cobrado de novo e não vence/)).toBeTruthy();
-  expect(getByLabelText(`Remover os anúncios por ${PRECO_SEM_ANUNCIOS}, uma vez só`)).toBeTruthy();
+  expect(getByLabelText(`Comprar por ${PRECO_SEM_ANUNCIOS}, uma vez só`)).toBeTruthy();
   expect(getByLabelText('Já comprei, restaurar')).toBeTruthy();
 });
 
@@ -74,13 +65,13 @@ test('com a compra gravada, a tela mostra o estado em vez do botão', async () =
   await waitFor(() => {
     expect(getByText('Anúncios removidos')).toBeTruthy();
   });
-  expect(queryByLabelText(`Remover os anúncios por ${PRECO_SEM_ANUNCIOS}, uma vez só`)).toBeNull();
+  expect(queryByLabelText(`Comprar por ${PRECO_SEM_ANUNCIOS}, uma vez só`)).toBeNull();
 });
 
 test('o Perfil mostra o estado com anúncios e o caminho para tirá-los', async () => {
   const { getByText, getByLabelText } = await renderTela(<BlocoAcesso />);
   await waitFor(() => {
-    expect(getByText('Tudo aberto, com anúncios')).toBeTruthy();
+    expect(getByText('Aberto, com anúncios')).toBeTruthy();
   });
   expect(getByLabelText('Remover os anúncios')).toBeTruthy();
 });
@@ -90,7 +81,7 @@ test('o Perfil mostra o estado com anúncios e o caminho para tirá-los', async 
 test('comprar pela loja grava a compra e tira os anúncios para sempre', async () => {
   configurarLoja(lojaDeTeste());
   const store = new MemoryProgressStore();
-  const rotulo = `Remover os anúncios por ${PRECO_SEM_ANUNCIOS}, uma vez só`;
+  const rotulo = `Comprar por ${PRECO_SEM_ANUNCIOS}, uma vez só`;
   const { getByLabelText, getByText } = await renderTela(<TelaSemAnuncios />, store);
   await waitFor(() => {
     expect(getByLabelText(rotulo)).toBeTruthy();

@@ -12,8 +12,8 @@ import { useProgresso } from '../progress/ProgressContext';
 import { useDadosAoFocar } from '../progress/useDadosAoFocar';
 import { agruparPorSistema, filtrarQuestoes, listarQuestoes, type TopicoDeQuestoes } from '../estudo/listas';
 import { AcaoDoVerbete, CampoDeBusca, GruposPorSistema, LinhaExpansivel } from '../estudo/ListaPorSistema';
-import { useAcesso } from '../entitlements/EntitlementsContext';
-import { LinhaTrancada } from '../entitlements/LinhaTrancada';
+import { useDesbloqueio } from '../anuncios/DesbloqueioContext';
+import { BarraDeLiberacao, ParedeOffline } from '../anuncios/PecasDeAnuncio';
 import { track } from '../analytics/analytics';
 
 // Questões (reorganização da aba Estudar, 2026-09): os quizzes do guia na
@@ -82,7 +82,7 @@ export function TelaQuestoes() {
   const { paleta, escala } = useTema();
   const conteudo = useConteudo();
   const progresso = useProgresso();
-  const acesso = useAcesso();
+  const desbloqueio = useDesbloqueio();
   const lista = useMemo(() => listarQuestoes(conteudo), [conteudo]);
   const [termo, setTermo] = useState('');
   const [abertos, setAbertos] = useState<Set<string>>(new Set());
@@ -133,6 +133,8 @@ export function TelaQuestoes() {
     });
   }
 
+  if (desbloqueio.exigindoConexao) return <ParedeOffline comCabecalho />;
+
   return (
     <Tela>
       <Cabecalho titulo="Questões" aoVoltar={() => router.back()} />
@@ -167,18 +169,19 @@ export function TelaQuestoes() {
       <GruposPorSistema
         grupos={grupos}
         chave={(item) => item.topicoId}
+        renderGrupoTrancado={(grupo) => {
+          const sistemaId = grupo.itens[0]?.sistemaId ?? '';
+          if (desbloqueio.liberado('estudar', sistemaId)) return null;
+          return (
+            <BarraDeLiberacao
+              aba="estudar"
+              sistemaId={sistemaId}
+              sistemaTitulo={grupo.sistemaTitulo}
+              quantos={`${grupo.itens.length} ${grupo.itens.length === 1 ? 'tópico com questões' : 'tópicos com questões'}`}
+            />
+          );
+        }}
         renderItem={(item) => {
-          // Tópico de sistema pago aparece trancado, com o nome à vista.
-          if (!acesso.liberado(item.sistemaId)) {
-            return (
-              <LinhaTrancada
-                titulo={item.topicoTitulo}
-                subtitulo={`${item.nPerguntas} pergunta${item.nPerguntas === 1 ? '' : 's'}`}
-                oQue="questões"
-                sistemaTitulo={item.sistemaTitulo}
-              />
-            );
-          }
           const aberto = abertosNaBusca ? abertosNaBusca.has(item.topicoId) : abertos.has(item.topicoId);
           const p = percentuais[item.topicoId] ?? null;
           return (

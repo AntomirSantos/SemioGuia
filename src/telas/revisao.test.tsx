@@ -1,10 +1,7 @@
 import { fireEvent, render, waitFor } from '@testing-library/react-native';
 import { router } from 'expo-router';
-import { ThemeProvider } from '../design/ThemeContext';
-import { ContentProvider } from '../content/ContentContext';
-import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
-import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
+import { Provedores } from '../testes/provedores';
 import { TelaRevisao } from '../app/revisao';
 import { idDeChecklist } from '../revisao/fila';
 import type { ItemRevisao } from '../revisao/sm2';
@@ -51,15 +48,9 @@ function item(parcial: Partial<ItemRevisao> & Pick<ItemRevisao, 'id' | 'tipo' | 
 
 function renderRevisao(store: MemoryProgressStore) {
   return render(
-    <ThemeProvider>
-      <ContentProvider>
-        <ProgressProvider store={store}>
-          <EntitlementsProvider>
-            <TelaRevisao />
-          </EntitlementsProvider>
-        </ProgressProvider>
-      </ContentProvider>
-    </ThemeProvider>,
+    <Provedores store={store}>
+      <TelaRevisao />
+    </Provedores>,
   );
 }
 

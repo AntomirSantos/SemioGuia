@@ -32,9 +32,9 @@ function textoDoEstado(
   switch (estado) {
     case 'permanente':
       return {
-        titulo: 'Sem anúncios, para sempre',
+        titulo: 'Sem anúncios e offline',
         corpo:
-          'Você comprou a remoção dos anúncios. Foi uma vez só: não renova, não vence e vale também nas versões que vierem. Obrigado por sustentar o projeto.',
+          'Você comprou. Foi uma vez só: não renova, não vence, e vale também nas versões que vierem. Nenhum anúncio, e o app inteiro funcionando sem internet.',
         acao: null,
       };
     case 'cortesia':
@@ -53,9 +53,9 @@ function textoDoEstado(
       };
     default:
       return {
-        titulo: 'Tudo aberto, com anúncios',
+        titulo: 'Aberto, com anúncios',
         corpo:
-          'Os doze sistemas são seus, sem cadastro e sem prazo: tópicos, casos, questões, checklists e o modo plantão. Os anúncios são o que paga a conta disso. Se eles atrapalham, dá para tirá-los de uma vez por todas.',
+          'Anamnese e Exame físico geral abrem sozinhos; cada outro sistema abre com um anúncio, em cada aba, até você fechar o aplicativo. Uma compra única tira os anúncios e libera o uso sem internet.',
         acao: 'Remover os anúncios',
       };
   }

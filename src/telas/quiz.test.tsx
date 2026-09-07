@@ -1,9 +1,6 @@
 import { fireEvent, render, waitFor } from '@testing-library/react-native';
-import { ThemeProvider } from '../design/ThemeContext';
-import { ContentProvider } from '../content/ContentContext';
-import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
-import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
+import { Provedores } from '../testes/provedores';
 import { TelaQuiz } from '../app/quiz/[...caminho]';
 import { TelaEstudar } from '../app/(tabs)/estudar';
 import { router } from 'expo-router';
@@ -53,29 +50,17 @@ const PRIMEIRAS_ALTERNATIVAS = [
 
 function renderQuiz(store: MemoryProgressStore, topicoId: string = PA_ID) {
   return render(
-    <ThemeProvider>
-      <ContentProvider>
-        <ProgressProvider store={store}>
-          <EntitlementsProvider>
-            <TelaQuiz topicoId={topicoId} />
-          </EntitlementsProvider>
-        </ProgressProvider>
-      </ContentProvider>
-    </ThemeProvider>,
+    <Provedores store={store}>
+      <TelaQuiz topicoId={topicoId} />
+    </Provedores>,
   );
 }
 
 function renderEstudar(store: MemoryProgressStore) {
   return render(
-    <ThemeProvider>
-      <ContentProvider>
-        <ProgressProvider store={store}>
-          <EntitlementsProvider>
-            <TelaEstudar />
-          </EntitlementsProvider>
-        </ProgressProvider>
-      </ContentProvider>
-    </ThemeProvider>,
+    <Provedores store={store}>
+      <TelaEstudar />
+    </Provedores>,
   );
 }
 

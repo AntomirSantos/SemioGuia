@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import { router } from 'expo-router';
 import { Tela } from '../design/Tela';
@@ -13,7 +13,8 @@ import { useSync } from '../sync/orquestrador';
 import { montarFila, idDeChecklist, idDeSinal, semearTopico, type FilaDeHoje } from '../revisao/fila';
 import { TextoRico } from '../blocos/texto';
 import { idsValidosDoConteudo } from '../revisao/idsValidos';
-import { useAcesso } from '../entitlements/EntitlementsContext';
+import { useDesbloqueio } from '../anuncios/DesbloqueioContext';
+import { ParedeOffline } from '../anuncios/PecasDeAnuncio';
 import { filtrarItensLiberados } from '../entitlements/entitlements';
 import { amanha, avaliar, notaDeEstacao, notaDePergunta, type ItemRevisao, type NotaSm2 } from '../revisao/sm2';
 import { hojeLocal, agoraIso } from '../revisao/hoje';
@@ -295,7 +296,11 @@ export function TelaRevisao() {
   const conteudo = useConteudo();
   const progresso = useProgresso();
   const { notificarEscrita } = useSync();
-  const acesso = useAcesso();
+  const desbloqueio = useDesbloqueio();
+  const liberadoParaEstudar = useCallback(
+    (sistemaId: string) => desbloqueio.liberado('estudar', sistemaId),
+    [desbloqueio],
+  );
   const { paleta, escala } = useTema();
   const [fila, setFila] = useState<FilaDeHoje | null>(null);
   const [indice, setIndice] = useState(0);
@@ -328,15 +333,19 @@ export function TelaRevisao() {
       if (novos.length > 0) {
         await Promise.all(novos.map((n) => progresso.salvarItemRevisao(n))).catch(() => {});
       }
-      // A fila só traz o que este aparelho pode abrir: sem isto, uma
-      // assinatura vencida deixaria itens de sistema pago vencendo sem saída.
-      const montada = montarFila(filtrarItensLiberados([...itens, ...novos], acesso.liberado), idsValidos, hoje);
+      // A fila só traz o que está aberto agora: sem isto, o aluno veria
+      // vencer um item que ele não consegue abrir.
+      const montada = montarFila(
+        filtrarItensLiberados([...itens, ...novos], liberadoParaEstudar),
+        idsValidos,
+        hoje,
+      );
       if (!cancelado) setFila(montada);
     })();
     return () => {
       cancelado = true;
     };
-  }, [conteudo, progresso, acesso]);
+  }, [conteudo, progresso, liberadoParaEstudar]);
 
   // Ao concluir a sessão, recarrega os itens (já refletindo as gravações
   // desta sessão) para contar quantos vencem amanhã: a "próxima leva".
@@ -347,7 +356,7 @@ export function TelaRevisao() {
       const idsValidos = idsValidosDoConteudo(conteudo);
       const itens = await progresso.listarItensRevisao();
       const limite = amanha(hojeLocal());
-      const n = filtrarItensLiberados(itens, acesso.liberado).filter(
+      const n = filtrarItensLiberados(itens, liberadoParaEstudar).filter(
         (i) => idsValidos.has(i.id) && i.proximaRevisao <= limite,
       ).length;
       if (!cancelado) setProximaLeva(n);
@@ -355,7 +364,7 @@ export function TelaRevisao() {
     return () => {
       cancelado = true;
     };
-  }, [concluida, conteudo, progresso, acesso]);
+  }, [concluida, conteudo, progresso, liberadoParaEstudar]);
 
   // Instrumentação do beta (§4): um evento por sessão de revisão concluída.
   // `acertos`/`erros` são gravados no mesmo lote de estado que `concluida`,

@@ -1,9 +1,6 @@
 import { fireEvent, render, waitFor } from '@testing-library/react-native';
-import { ThemeProvider } from '../design/ThemeContext';
-import { ContentProvider } from '../content/ContentContext';
-import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
-import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
+import { Provedores } from '../testes/provedores';
 import Checklists from '../app/(tabs)/checklists';
 import { router } from 'expo-router';
 
@@ -18,15 +15,9 @@ jest.mock('react-native-safe-area-context', () => ({
 
 async function renderChecklists() {
   return render(
-    <ThemeProvider>
-      <ContentProvider>
-        <ProgressProvider store={new MemoryProgressStore()}>
-          <EntitlementsProvider>
-            <Checklists />
-          </EntitlementsProvider>
-        </ProgressProvider>
-      </ContentProvider>
-    </ThemeProvider>,
+    <Provedores store={new MemoryProgressStore()}>
+      <Checklists />
+    </Provedores>,
   );
 }
 

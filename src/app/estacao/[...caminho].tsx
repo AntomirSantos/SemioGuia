@@ -5,7 +5,7 @@ import { Cabecalho } from '../../design/Cabecalho';
 import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useTopico } from '../../content/ContentContext';
-import { PortaoDeAcesso } from '../../entitlements/PortaoDeAcesso';
+import { PortaoDeConteudo } from '../../anuncios/PortaoDeConteudo';
 import { sistemaDoTopicoId } from '../../entitlements/entitlements';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useSync } from '../../sync/orquestrador';
@@ -94,8 +94,8 @@ export default function EstacaoRoute() {
   const topicoId = Array.isArray(caminho) ? caminho.join('/') : (caminho ?? '');
   const tituloChecklist = Array.isArray(titulo) ? (titulo[0] ?? '') : (titulo ?? '');
   return (
-    <PortaoDeAcesso sistemaId={sistemaDoTopicoId(topicoId)} oQue="estação">
+    <PortaoDeConteudo aba="checklists" sistemaId={sistemaDoTopicoId(topicoId)} oQue="os roteiros e as estações">
       <TelaEstacao topicoId={topicoId} titulo={tituloChecklist} />
-    </PortaoDeAcesso>
+    </PortaoDeConteudo>
   );
 }

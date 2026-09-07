@@ -12,6 +12,10 @@ mudou. Este documento vale por cima de qualquer versão anterior dele.
 2. **2026-09-07: a conta é paga por anúncios.**
 3. **2026-09-07: quem não quiser anúncios paga R$ 24,90 uma vez e não vê mais
    nenhum, para sempre.** Compra única, não assinatura.
+4. **2026-09-07: o regime de anúncios.** Anamnese e Exame físico geral abrem
+   sozinhos. Cada outro sistema abre com um anúncio premiado, **por aba**:
+   liberar o cardiovascular no Guia não o libera no Plantão. A liberação vale
+   até o aplicativo ser fechado. E **usar o app sem internet é da compra**.
 
 A referência é um aplicativo básico de semiologia que já usa essa estratégia.
 
@@ -31,7 +35,11 @@ desligar custou uma linha e voltar atrás custaria semanas.
 | Estado no app | `src/entitlements/EntitlementsContext.tsx` | `useAcesso().mostrarAnuncios` é a pergunta que as telas fazem |
 | Tela da compra | `src/app/sem-anuncios.tsx` | preço, o que já está aberto, a promessa de não renovar, restaurar |
 | Bloco "Seu acesso" | `src/entitlements/BlocoAcesso.tsx` | quatro estados, no Perfil |
-| Anúncios | ainda não | falta decidir os formatos e os lugares |
+| Regime de anúncios | `src/anuncios/desbloqueio.ts` | regra pura, com testes |
+| Estado das liberações | `src/anuncios/DesbloqueioContext.tsx` | só em memória: fechar o app zera |
+| Adaptador de anúncios | `src/anuncios/anuncios.ts` | interface `Anuncios`, indisponível e de teste |
+| Telas do regime | `src/anuncios/PecasDeAnuncio.tsx` | portão, barra na lista e parede de conexão |
+| SDK de anúncios | ainda não | falta integrar na máquina do autor |
 
 ## A compra
 
@@ -54,34 +62,57 @@ Três consequências que valem estar escritas:
 
 ## Os anúncios
 
-O que está decidido: eles existem, e a compra os remove. **Falta decidir os
-formatos e os lugares**, e essa decisão não é detalhe: ela define quanto o app
-arrecada e quantas avaliações de uma estrela ele coleciona.
+**A regra.** Anamnese e Exame físico geral (`SISTEMAS_SEMPRE_ABERTOS`) abrem
+sem anúncio nenhum. Qualquer outro sistema abre com um anúncio premiado, e
+abre **por aba**: Guia, modo plantão, Checklists e Estudar contam separado. A
+liberação mora só na memória, então fechar o aplicativo zera tudo e a próxima
+abertura pede de novo.
 
-O que já está resolvido no código, independente da escolha:
+**O uso offline é da compra** (`OFFLINE_EXIGE_COMPRA`). Sem internet e sem
+compra, o app pede conexão em vez de mostrar conteúdo, inclusive nos dois
+sistemas sempre abertos. Isso dá à compra um segundo valor, maior que o
+primeiro: estudar no plantão, no ônibus e no hospital sem sinal.
 
-- **Nada de anúncio na web.** A cobrança da loja não existe no navegador, e
-  sem a possibilidade de remover não se deve exibir. Na web o app é gratuito e
-  limpo, e os textos dizem isso.
-- **Nada de anúncio enquanto a compra carrega do banco.** Quem pagou não pode
-  ver um piscar de propaganda a cada abertura.
+Se um dia parecer duro demais, a alternativa natural está escrita no código:
+deixar os dois sistemas abertos funcionarem offline e manter o resto exigindo
+anúncio, que já exige rede por natureza. É trocar uma constante por falso.
 
-Três limites que eu recomendo fixar antes de escolher os lugares, porque são
-os que protegem o produto:
+**Quatro garantias que o código já dá, e que a integração não pode quebrar:**
 
-1. **Nunca dentro de um caso clínico nem de uma sessão de revisão.**
-   Interromper o raciocínio para vender qualquer coisa estraga exatamente o
-   que o app faz de melhor.
-2. **Nunca intersticial em cima de um erro do aluno.** Anúncio de tela cheia
-   depois de errar uma questão é a receita da avaliação de uma estrela.
-3. **Sempre offline-safe.** O app funciona sem sinal; o espaço do anúncio não
-   pode empurrar o conteúdo nem deixar buraco quando ele não carregar.
+1. **Sem anúncio na web.** A cobrança da loja não existe no navegador, e sem a
+   possibilidade de remover não se deve exibir. Na web o app é gratuito, limpo
+   e sem parede de conexão.
+2. **Sem anúncio enquanto a compra carrega do banco.** Quem pagou não pode ver
+   um piscar de propaganda a cada abertura.
+3. **Falta de anúncio não tranca ninguém.** Se a rede de anúncios não tiver
+   inventário, o resultado é `sem_anuncio` e o conteúdo abre assim mesmo. Um
+   aluno não pode ficar sem estudar porque outra empresa não tinha o que
+   vender naquele minuto.
+4. **Enquanto o SDK não estiver ligado, o regime inteiro fica invisível**, e o
+   app se comporta como hoje: tudo aberto, sem anúncio e sem parede. Publicar
+   antes da integração é seguro.
 
-Uma coisa que a integração vai exigir e não existe hoje: **consentimento**.
-Anúncio implica identificador de publicidade, o que muda a política de
-privacidade (`public/privacidade.html`), a declaração de segurança de dados na
-ficha da loja, a classificação etária e a necessidade do SDK de consentimento
-para atender à LGPD. Isso é trabalho de conformidade, não de interface.
+**O que ainda não existe:** o SDK. O app fala com a interface `Anuncios`
+(`src/anuncios/anuncios.ts`), nunca com a biblioteca nativa, e ligar de
+verdade é implementar essa interface e chamar `configurarAnuncios(...)`.
+
+**Três limites que eu recomendo manter**, porque são o que protege o produto:
+nunca anúncio dentro de um caso clínico ou de uma sessão de revisão; nunca
+intersticial em cima de um erro do aluno; e sempre com o espaço reservado,
+para o anúncio não empurrar o conteúdo quando não carregar.
+
+**Dois riscos que valem ser verificados no console antes de publicar.** O
+primeiro é de política: exigir anúncio para acessar conteúdo é permitido como
+troca voluntária (anúncio premiado), mas a fronteira com "anúncio disruptivo"
+é definida pelo Google e muda; confirme o texto vigente. O segundo é de
+avaliação: repetir a exigência a cada abertura do app é o ponto do plano que
+mais tende a aparecer nas notas da loja, e é também o mais fácil de afrouxar
+depois, se aparecer.
+
+**Consentimento** continua sendo trabalho pendente: identificador de
+publicidade, política de privacidade (`public/privacidade.html`, que hoje diz
+que a coleta é só local), declaração de segurança de dados, classificação
+etária e o SDK de consentimento para a LGPD.
 
 ## A web
 
@@ -145,9 +176,10 @@ o beta e a divulgação continuam sendo o trabalho principal.
 
 ## O que ainda depende de você
 
-1. Escolher os formatos e os lugares dos anúncios (seção "Os anúncios").
-2. Criar a conta de desenvolvedor, o produto `sem_anuncios` e ligar a
-   biblioteca de compras e a de anúncios.
+1. Ligar o SDK de anúncios e o de compras, e criar o produto `sem_anuncios`
+   na conta de desenvolvedor.
+2. Refazer a política de privacidade e a declaração da ficha por causa dos
+   anúncios, e ligar o SDK de consentimento.
 3. Endossar os 67 casos que estão com `revisao: pendente`.
 4. Decidir se haverá cortesia para os testadores do beta, e por quanto tempo
    (o código já suporta cortesia com prazo e vitalícia).

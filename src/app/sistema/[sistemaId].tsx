@@ -8,8 +8,8 @@ import { Pressionavel } from '../../design/movimento';
 import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useSistema } from '../../content/ContentContext';
-import { useAcesso } from '../../entitlements/EntitlementsContext';
-import { FaixaTrancada } from '../../entitlements/LinhaTrancada';
+import { useDesbloqueio } from '../../anuncios/DesbloqueioContext';
+import { ParedeOffline, PortaoDeAnuncio } from '../../anuncios/PecasDeAnuncio';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import type { Capitulo, Topico } from '../../content/schema';
@@ -111,7 +111,7 @@ function SecaoCapitulo({
 export default function TelaSistema() {
   const { sistemaId } = useLocalSearchParams<{ sistemaId: string }>();
   const sistema = useSistema(sistemaId);
-  const acesso = useAcesso();
+  const desbloqueio = useDesbloqueio();
   const progresso = useProgresso();
   const carregarEstudados = useCallback(async () => new Set(await progresso.listarEstudados()), [progresso]);
   const estudados = useDadosAoFocar(carregarEstudados) ?? new Set<string>();
@@ -124,15 +124,26 @@ export default function TelaSistema() {
     );
   }
 
+  // Regime de anúncios: sem conexão, pede conexão; sistema ainda não aberto
+  // nesta sessão, pede o anúncio. O índice do sistema aparece inteiro depois.
+  if (desbloqueio.exigindoConexao) return <ParedeOffline comCabecalho />;
+  if (!desbloqueio.liberado('guia', sistema.id)) {
+    return (
+      <PortaoDeAnuncio
+        aba="guia"
+        sistemaId={sistema.id}
+        sistemaTitulo={sistema.titulo}
+        oQue="os tópicos, as manobras e as ilustrações"
+      />
+    );
+  }
+
   const capitulos = [...sistema.capitulos].sort((a, b) => a.ordem - b.ordem);
-  const trancado = !acesso.liberado(sistema.id);
+  const trancado = false;
 
   return (
     <Tela>
       <Cabecalho titulo={sistema.titulo} cor={sistema.cor} aoVoltar={() => router.back()} />
-      {/* Sistema pago mostra o índice inteiro, com cadeado: o aluno vê o que
-          existe antes de decidir, em vez de bater numa porta cega. */}
-      {trancado ? <FaixaTrancada sistemaTitulo={sistema.titulo} /> : null}
       {capitulos.map((capitulo) => (
         <SecaoCapitulo key={capitulo.id} capitulo={capitulo} estudados={estudados} trancado={trancado} />
       ))}

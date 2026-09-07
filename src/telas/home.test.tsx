@@ -1,9 +1,7 @@
 import { fireEvent, render, waitFor } from '@testing-library/react-native';
 import { router } from 'expo-router';
-import { ThemeProvider } from '../design/ThemeContext';
-import { ContentProvider } from '../content/ContentContext';
-import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
+import { Provedores } from '../testes/provedores';
 import Guia from '../app/(tabs)/index';
 import { hojeLocal } from '../revisao/hoje';
 
@@ -25,13 +23,9 @@ const PA_ID = 'exame-fisico-geral/sinais-vitais/pressao-arterial';
 
 function renderHome(store: MemoryProgressStore) {
   return render(
-    <ThemeProvider>
-      <ContentProvider>
-        <ProgressProvider store={store}>
-          <Guia />
-        </ProgressProvider>
-      </ContentProvider>
-    </ThemeProvider>,
+    <Provedores store={store}>
+      <Guia />
+    </Provedores>,
   );
 }
 

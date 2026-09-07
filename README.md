@@ -17,8 +17,9 @@ do que as obras não cobrem declaradas ao leitor.
 **O conteúdo está completo.** A triagem de literatura craniocaudal
 cobriu os 12 sistemas e os 55 tópicos estão `revisao: ok` ("Revisado" no
 app); o método está em `docs/triagem-literatura-cardio-resp.md`. O app
-está em **beta de validação** (v1.2.36), com os doze sistemas abertos: a
-conta é paga por anúncios, e quem preferir compra a remoção deles.
+está em **beta de validação** (v1.2.37): o acervo inteiro está no aplicativo,
+a conta é paga por anúncios, e quem preferir compra a remoção deles junto com
+o uso offline.
 
 | | |
 |---|---|
@@ -31,35 +32,39 @@ conta é paga por anúncios, e quem preferir compra a remoção deles.
 | Camada didática | **220** textos: uma `cena`, um `pense`, um `resumo` e um caso-relâmpago por tópico |
 | Ilustrações SVG | **59** em uso (temáveis via `currentColor`; cobertura em `npm run relatorio:ilustracoes`) |
 | Sons de ausculta | **20** (10 sintetizados por script e 10 gravações clínicas reais: HF_Lung_V1 CC BY 4.0 e CirCor DigiScope ODC-BY 1.0), com fonocardiograma sincronizado |
-| Acesso | **tudo aberto**, sem cadastro e sem prazo; a conta é paga por anúncios, e R$ 24,90 uma vez os removem para sempre |
+| Acesso | Anamnese e Exame físico geral abertos; os outros dez abrem com um anúncio, por aba e por sessão. R$ 24,90 uma vez tiram os anúncios e liberam o uso offline |
 | Testes | **70 suítes / 498 testes** verdes |
 
 ## Como o app se sustenta
 
 Decisão do autor (2026-09-07), plano completo em `docs/monetizacao.md`.
 
-**O conteúdo inteiro fica aberto**: os doze sistemas, 55 tópicos, 67 casos,
-53 checklists e 186 verbetes, sem cadastro, sem prazo e sem corte. Cobrar por
-um app que ainda não tem reputação é pedir que o aluno confie antes de ter
-motivo; primeiro ele vê o trabalho completo.
+O acervo inteiro está no aplicativo, sem cadastro e sem corte de conteúdo. O
+que muda é como ele abre:
 
-A conta é paga por **anúncios**, e quem não os quiser paga **R$ 24,90 uma
-vez** e não vê mais nenhum, para sempre. É compra única, não assinatura: não
-renova, não vence e vale nas versões futuras. Na loja, produto avulso
-`sem_anuncios`.
+- **Anamnese e Exame físico geral abrem sozinhos**, sempre.
+- **Cada outro sistema abre com um anúncio premiado, por aba**: liberar o
+  cardiovascular no Guia não o libera no modo plantão. A liberação vale até o
+  aplicativo ser fechado, porque ela mora só na memória.
+- **Usar o app sem internet é da compra.** Sem rede e sem compra, o app pede
+  conexão em vez de mostrar conteúdo.
+- **R$ 24,90, uma vez só**, tiram os anúncios para sempre e liberam o uso
+  offline. É compra única, não assinatura: não renova, não vence e vale nas
+  versões futuras. Na loja, produto avulso `sem_anuncios`.
+- **Na web não há anúncio, parede nem compra.** A cobrança da loja não existe
+  no navegador, então lá o app é gratuito e limpo, permanentemente.
 
-- **Na web não há anúncio nem compra.** A cobrança da loja não existe no
-  navegador, então lá o app é gratuito e limpo, permanentemente.
-- **Comprar não exige conta no app.** A compra fica na conta Google, e
-  restaurar funciona em qualquer aparelho.
-- **O corte por sistema segue no código, dormente.** A regra, as telas de
-  bloqueio e os testes continuam de pé atrás de `PAYWALL_ATIVO`, para que
-  voltar atrás seja mudar uma constante.
+Quatro garantias que o código já dá: nada de anúncio na web, nada de anúncio
+enquanto a compra carrega, falta de inventário abre o conteúdo em vez de
+trancá-lo, e o regime inteiro fica invisível enquanto o SDK não estiver
+ligado, o que torna seguro publicar antes de integrá-lo.
 
-O app fala com a interface `Loja` (`src/entitlements/loja.ts`) e nunca com o
-SDK nativo, então tela, direito e restauração já existem e são testados com
-uma loja de mentira. Ligar a cobrança de verdade é implementar essa interface
-e chamar `configurarLoja(...)`.
+O app fala com duas interfaces, `Loja` (`src/entitlements/loja.ts`) e
+`Anuncios` (`src/anuncios/anuncios.ts`), e nunca com SDK nativo: telas, regra
+e restauração já existem e são testadas com implementações de mentira.
+
+O corte por sistema da versão anterior segue no código, dormente atrás de
+`PAYWALL_ATIVO`, com seus testes.
 
 ## Stack
 
@@ -81,8 +86,9 @@ e chamar `configurarLoja(...)`.
   tudo respeitando `prefers-reduced-motion`
 - **Progresso**: SQLite (`expo-sqlite`) + repetição espaçada **SM-2**
   (fila de revisão diária)
-- **Acesso**: compra única que remove os anúncios, adaptador de loja e o
-  corte por sistema (dormente), em `src/entitlements/`
+- **Acesso**: compra única que remove os anúncios e libera o offline, regime
+  de liberação por anúncio premiado (`src/anuncios/`) e o corte por sistema
+  dormente (`src/entitlements/`)
 - **Sincronização** (opcional, desligada por flag): Firebase Auth +
   Firestore com motor de merge e regras auditadas; ativação em
   `docs/firebase-setup.md`
@@ -120,21 +126,21 @@ e chamar `configurarLoja(...)`.
   "Seu acesso" com o estado da assinatura, preferências, tema claro e
   escuro, exportação dos dados de uso, feedback, versão do app e conta
   (atrás da flag de sync)
-- **Sem anúncios**: a tela da compra única, com o que já está aberto, o
-  preço, a promessa de não renovar nem vencer, e a restauração de compra
+- **Sem anúncios, e offline**: a tela da compra única, com o que ela muda, o
+  acervo que já é seu, o preço, a promessa de não renovar nem vencer, e a
+  restauração de compra
 
 ## O que falta
 
 1. **Endosso dos 67 casos clínicos**: todos estão `revisao: pendente` e
    aparecem com o selo "Em revisão pelo autor"; fila de trabalho por
    sistema em `docs/casos-para-revisao.md`.
-2. **Anúncios**: decididos como modelo, mas os formatos e os lugares ainda
-   não estão escolhidos, e nada foi integrado. Implica também consentimento
-   (LGPD), nova política de privacidade e a declaração "contém anúncios" na
-   ficha.
-3. **Cobrança de verdade**: a compra está completa no app, mas falta instalar
-   a biblioteca de compras, implementar a interface `Loja`, chamar
-   `configurarLoja(...)` e criar o produto `sem_anuncios` no console.
+2. **SDK de anúncios e de compras**: o regime e a compra estão completos e
+   testados no app, mas falta instalar as bibliotecas, implementar as
+   interfaces `Anuncios` e `Loja`, chamar `configurarAnuncios(...)` e
+   `configurarLoja(...)`, e criar o produto `sem_anuncios` no console.
+3. **Conformidade dos anúncios**: SDK de consentimento (LGPD), política de
+   privacidade refeita e a declaração "contém anúncios" na ficha.
 4. **Publicação nas lojas**: a configuração está pronta no repositório
    (pacote `br.com.semioguia.app`, `eas.json`, política de privacidade
    em `public/privacidade.html`, peças da ficha em `assets/loja/`);
@@ -209,7 +215,8 @@ content/            # o conteúdo (YAML de sistemas + MD por tópico + casos + S
 src/app/            # rotas (expo-router)
 src/content/        # schema Zod, parser e provider
 src/design/         # tokens, tipografia, movimento, componentes de bloco
-src/entitlements/   # acesso, assinatura anual, adaptador da loja e bloqueios
+src/entitlements/   # compra única, adaptador da loja e o corte por sistema (dormente)
+src/anuncios/       # regime de liberação por anúncio, adaptador e telas do regime
 src/revisao/        # SM-2, fila do dia e semeadura
 src/casos/          # motor dos casos ramificados
 src/progress/       # SQLite e preferências

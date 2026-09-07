@@ -3,6 +3,13 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.37 (2026-09-07)
+
+- Anamnese e Exame físico geral abrem sozinhos; cada outro sistema abre com um anúncio, por aba e até você fechar o aplicativo
+- A compra de R$ 24,90 passa a valer por duas coisas: nenhum anúncio, nunca mais, e o app inteiro funcionando sem internet
+- Falta de anúncio para exibir abre o conteúdo assim mesmo: ninguém fica sem estudar porque a rede de anúncios não tinha estoque
+- Na web nada disso existe: lá o app segue gratuito, limpo e sem parede de conexão
+
 ## 1.2.36 (2026-09-07)
 
 - O SemioGuia inteiro fica aberto: os doze sistemas, sem cadastro, sem prazo e sem corte, para que o app seja julgado pelo conteúdo antes de cobrar qualquer coisa

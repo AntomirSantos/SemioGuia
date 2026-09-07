@@ -7,7 +7,7 @@ import { Rotulo } from '../../design/Rotulo';
 import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo, type Paleta } from '../../design/tokens';
 import { useCaso } from '../../content/ContentContext';
-import { PortaoDeAcesso } from '../../entitlements/PortaoDeAcesso';
+import { PortaoDeConteudo } from '../../anuncios/PortaoDeConteudo';
 import { sistemaDoTopicoId } from '../../entitlements/entitlements';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useSync } from '../../sync/orquestrador';
@@ -388,8 +388,8 @@ export default function CasoRoute() {
   // que a lista de casos usa para agrupar.
   const sistemaId = sistemaDoTopicoId(caso?.topicosDeApoio[0] ?? '');
   return (
-    <PortaoDeAcesso sistemaId={sistemaId} oQue="caso clínico">
+    <PortaoDeConteudo aba="estudar" sistemaId={sistemaId} oQue="as questões, os casos e os checklists">
       <TelaCaso casoId={casoId} />
-    </PortaoDeAcesso>
+    </PortaoDeConteudo>
   );
 }

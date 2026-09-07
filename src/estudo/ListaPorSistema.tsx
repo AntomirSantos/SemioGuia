@@ -184,10 +184,16 @@ export function GruposPorSistema<T>({
   grupos,
   chave,
   renderItem,
+  renderGrupoTrancado,
 }: {
   grupos: GrupoDeEstudo<T>[];
   chave: (item: T) => string;
   renderItem: (item: T) => ReactNode;
+  /**
+   * Quando devolve algo, entra no lugar das linhas do grupo: é assim que o
+   * regime de anúncios troca a lista de um sistema pela oferta de abri-lo.
+   */
+  renderGrupoTrancado?: (grupo: GrupoDeEstudo<T>) => ReactNode;
 }) {
   const { paleta } = useTema();
   return (
@@ -198,9 +204,8 @@ export function GruposPorSistema<T>({
             <View style={{ width: 8, height: 18, backgroundColor: grupo.sistemaCor, marginRight: espaco.m }} />
             <Rotulo texto={grupo.sistemaTitulo} cor={paleta.tinta2} />
           </View>
-          {grupo.itens.map((item) => (
-            <View key={chave(item)}>{renderItem(item)}</View>
-          ))}
+          {renderGrupoTrancado?.(grupo) ??
+            grupo.itens.map((item) => <View key={chave(item)}>{renderItem(item)}</View>)}
         </View>
       ))}
     </>

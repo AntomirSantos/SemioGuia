@@ -1,10 +1,7 @@
 import { fireEvent, render, waitFor } from '@testing-library/react-native';
 import { router } from 'expo-router';
-import { ThemeProvider } from '../design/ThemeContext';
-import { ContentProvider } from '../content/ContentContext';
-import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
-import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
+import { Provedores } from '../testes/provedores';
 import { carregarConteudo } from '../content/store';
 import { TelaCasos } from '../app/casos';
 import { TelaCaso } from '../app/caso/[id]';
@@ -98,27 +95,17 @@ const CONTEUDO = carregarConteudo({ versao: '1', sistemas: [], casos: [CASO_TEST
 function renderCasos(store: MemoryProgressStore, casos?: Caso[]) {
   const conteudo = casos ? carregarConteudo({ versao: '1', sistemas: [], casos }) : CONTEUDO;
   return render(
-    <ThemeProvider>
-      <ContentProvider conteudo={conteudo}>
-        <ProgressProvider store={store}>
-          <EntitlementsProvider>
-            <TelaCasos />
-          </EntitlementsProvider>
-        </ProgressProvider>
-      </ContentProvider>
-    </ThemeProvider>,
+    <Provedores store={store} conteudo={conteudo}>
+      <TelaCasos />
+    </Provedores>,
   );
 }
 
 function renderCaso(store: MemoryProgressStore, casoId = CASO_TESTE.id) {
   return render(
-    <ThemeProvider>
-      <ContentProvider conteudo={CONTEUDO}>
-        <ProgressProvider store={store}>
-          <TelaCaso casoId={casoId} />
-        </ProgressProvider>
-      </ContentProvider>
-    </ThemeProvider>,
+    <Provedores store={store} conteudo={CONTEUDO}>
+      <TelaCaso casoId={casoId} />
+    </Provedores>,
   );
 }
 
@@ -177,15 +164,9 @@ test('sem casos no conteúdo, a tela de Casos mostra estado vazio em vez de list
   const store = new MemoryProgressStore();
   const conteudoVazio = carregarConteudo({ versao: '1', sistemas: [], casos: [] });
   const { getByText, queryByText } = await render(
-    <ThemeProvider>
-      <ContentProvider conteudo={conteudoVazio}>
-        <ProgressProvider store={store}>
-          <EntitlementsProvider>
-            <TelaCasos />
-          </EntitlementsProvider>
-        </ProgressProvider>
-      </ContentProvider>
-    </ThemeProvider>,
+    <Provedores store={store} conteudo={conteudoVazio}>
+      <TelaCasos />
+    </Provedores>,
   );
   await waitFor(() => {
     expect(getByText('0 casos · 0 concluídos')).toBeTruthy();
