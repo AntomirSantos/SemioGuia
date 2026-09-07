@@ -13,6 +13,16 @@ export interface EntradaChangelog {
 
 export const CHANGELOG: EntradaChangelog[] = [
   {
+    versao: '1.2.36',
+    data: '2026-09-07',
+    linhas: [
+      'O SemioGuia inteiro fica aberto: os doze sistemas, sem cadastro, sem prazo e sem corte, para que o app seja julgado pelo conteúdo antes de cobrar qualquer coisa',
+      'A conta passa a ser paga por anúncios, e quem preferir paga R$ 24,90 uma vez e não vê mais nenhum: compra única, que não renova nem vence',
+      'No navegador não há anúncio nem compra: a web fica gratuita e limpa, permanentemente',
+      'Os textos de "Seu acesso" no Perfil e a nova tela "Sem anúncios" explicam tudo isso sem rodeio',
+    ],
+  },
+  {
     versao: '1.2.35',
     data: '2026-09-07',
     linhas: [

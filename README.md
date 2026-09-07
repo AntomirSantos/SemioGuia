@@ -17,8 +17,8 @@ do que as obras não cobrem declaradas ao leitor.
 **O conteúdo está completo.** A triagem de literatura craniocaudal
 cobriu os 12 sistemas e os 55 tópicos estão `revisao: ok` ("Revisado" no
 app); o método está em `docs/triagem-literatura-cardio-resp.md`. O app
-está em **beta de validação** (v1.2.34), agora com o **paywall ligado**:
-quatro sistemas inteiros de graça e os outros oito na assinatura anual.
+está em **beta de validação** (v1.2.36), com os doze sistemas abertos: a
+conta é paga por anúncios, e quem preferir compra a remoção deles.
 
 | | |
 |---|---|
@@ -31,39 +31,35 @@ quatro sistemas inteiros de graça e os outros oito na assinatura anual.
 | Camada didática | **220** textos: uma `cena`, um `pense`, um `resumo` e um caso-relâmpago por tópico |
 | Ilustrações SVG | **59** em uso (temáveis via `currentColor`; cobertura em `npm run relatorio:ilustracoes`) |
 | Sons de ausculta | **20** (10 sintetizados por script e 10 gravações clínicas reais: HF_Lung_V1 CC BY 4.0 e CirCor DigiScope ODC-BY 1.0), com fonocardiograma sincronizado |
-| Acesso | **4 sistemas gratuitos e inteiros**, **8 na assinatura anual** de R$ 24,90 |
+| Acesso | **tudo aberto**, sem cadastro e sem prazo; a conta é paga por anúncios, e R$ 24,90 uma vez os removem para sempre |
 | Testes | **70 suítes / 498 testes** verdes |
 
-## Acesso: o que é grátis e o que se paga
+## Como o app se sustenta
 
 Decisão do autor (2026-09-07), plano completo em `docs/monetizacao.md`.
 
-| Faixa | Sistemas | Tópicos |
-|---|---|---|
-| Grátis | Anamnese, Exame físico geral, Aparelho cardiovascular, Aparelho respiratório | 19 |
-| Assinatura anual | os outros 8 sistemas | 36 |
+**O conteúdo inteiro fica aberto**: os doze sistemas, 55 tópicos, 67 casos,
+53 checklists e 186 verbetes, sem cadastro, sem prazo e sem corte. Cobrar por
+um app que ainda não tem reputação é pedir que o aluno confie antes de ter
+motivo; primeiro ele vê o trabalho completo.
 
-O corte é **por sistema e vale para tudo o que pertence a ele**: tópicos,
-questões, casos, checklists, estações e verbetes do plantão. Quem não
-assina tem quatro sistemas inteiros, e não quatro amostras: 19 tópicos,
-25 casos, 17 checklists e 58 verbetes.
+A conta é paga por **anúncios**, e quem não os quiser paga **R$ 24,90 uma
+vez** e não vê mais nenhum, para sempre. É compra única, não assinatura: não
+renova, não vence e vale nas versões futuras. Na loja, produto avulso
+`sem_anuncios`.
 
-- **R$ 24,90 por ano, sempre.** Sem primeiro ano promocional e sem preço
-  cheio depois: na loja é um plano base anual, sem oferta de introdução.
-- **O conteúdo pago não some das listas**: aparece como linha trancada,
-  com o nome à vista e um cadeado, e o toque leva à tela de acesso.
-- **Prazo com carência**: o aparelho continua liberando o conteúdo por
-  até 30 dias sem conseguir falar com a loja, porque o app é offline por
-  princípio.
-- **A web fica gratuita para sempre**, como vitrine: a cobrança da loja
-  não existe no navegador.
-- **Assinar não exige conta no app.** A conta serve para sincronizar o
-  progresso e liberar o acesso na web, e é opcional.
+- **Na web não há anúncio nem compra.** A cobrança da loja não existe no
+  navegador, então lá o app é gratuito e limpo, permanentemente.
+- **Comprar não exige conta no app.** A compra fica na conta Google, e
+  restaurar funciona em qualquer aparelho.
+- **O corte por sistema segue no código, dormente.** A regra, as telas de
+  bloqueio e os testes continuam de pé atrás de `PAYWALL_ATIVO`, para que
+  voltar atrás seja mudar uma constante.
 
-O app fala com a interface `Loja` (`src/entitlements/loja.ts`) e nunca
-com o SDK nativo, então telas, prazo e bloqueio já existem e são
-testados com uma loja de mentira. Ligar a cobrança de verdade é
-implementar essa interface e chamar `configurarLoja(...)`.
+O app fala com a interface `Loja` (`src/entitlements/loja.ts`) e nunca com o
+SDK nativo, então tela, direito e restauração já existem e são testados com
+uma loja de mentira. Ligar a cobrança de verdade é implementar essa interface
+e chamar `configurarLoja(...)`.
 
 ## Stack
 
@@ -85,8 +81,8 @@ implementar essa interface e chamar `configurarLoja(...)`.
   tudo respeitando `prefers-reduced-motion`
 - **Progresso**: SQLite (`expo-sqlite`) + repetição espaçada **SM-2**
   (fila de revisão diária)
-- **Acesso**: entitlements por sistema com prazo, adaptador de loja e
-  bloqueios, em `src/entitlements/`
+- **Acesso**: compra única que remove os anúncios, adaptador de loja e o
+  corte por sistema (dormente), em `src/entitlements/`
 - **Sincronização** (opcional, desligada por flag): Firebase Auth +
   Firestore com motor de merge e regras auditadas; ativação em
   `docs/firebase-setup.md`
@@ -124,31 +120,33 @@ implementar essa interface e chamar `configurarLoja(...)`.
   "Seu acesso" com o estado da assinatura, preferências, tema claro e
   escuro, exportação dos dados de uso, feedback, versão do app e conta
   (atrás da flag de sync)
-- **Acesso completo**: a tela de assinatura, com o que já é gratuito, o
-  que a assinatura abre, preço com a periodicidade, renovação
-  automática, cancelamento e restauração de compra
+- **Sem anúncios**: a tela da compra única, com o que já está aberto, o
+  preço, a promessa de não renovar nem vencer, e a restauração de compra
 
 ## O que falta
 
 1. **Endosso dos 67 casos clínicos**: todos estão `revisao: pendente` e
    aparecem com o selo "Em revisão pelo autor"; fila de trabalho por
    sistema em `docs/casos-para-revisao.md`.
-2. **Cobrança de verdade**: o paywall está completo, mas falta instalar
+2. **Anúncios**: decididos como modelo, mas os formatos e os lugares ainda
+   não estão escolhidos, e nada foi integrado. Implica também consentimento
+   (LGPD), nova política de privacidade e a declaração "contém anúncios" na
+   ficha.
+3. **Cobrança de verdade**: a compra está completa no app, mas falta instalar
    a biblioteca de compras, implementar a interface `Loja`, chamar
-   `configurarLoja(...)` e criar o produto `acesso_anual` no console.
-   Passo a passo na seção 8 de `docs/monetizacao.md`.
-3. **Publicação nas lojas**: a configuração está pronta no repositório
+   `configurarLoja(...)` e criar o produto `sem_anuncios` no console.
+4. **Publicação nas lojas**: a configuração está pronta no repositório
    (pacote `br.com.semioguia.app`, `eas.json`, política de privacidade
    em `public/privacidade.html`, peças da ficha em `assets/loja/`);
    faltam a conta de desenvolvedor e o build assinado, na máquina do
    autor. Textos da ficha em `docs/publicar-na-loja.md`.
-4. **Ativação do Firebase**: flag mestre desligada; passos em
+5. **Ativação do Firebase**: flag mestre desligada; passos em
    `docs/firebase-setup.md`, também na máquina do autor.
-5. **Fase futura planejada: exame físico do idoso**, por decisão do
+6. **Fase futura planejada: exame físico do idoso**, por decisão do
    autor (2026-09-03) deixa de ser fronteira aceita; capítulo próprio a
    especificar depois do fechamento do beta (os fundamentos do exame
    psíquico e o delirium já apontam para ele).
-6. **Fronteiras declaradas** (fora por decisão ou por silêncio das
+7. **Fronteiras declaradas** (fora por decisão ou por silêncio das
    fontes, reavaliáveis): obstetrícia (sem obra de referência no
    acervo), marcha da criança pequena, exame motor neonatal
    especializado e puericultura.
@@ -222,8 +220,8 @@ assets/loja/        # ícone, destaque e capturas da ficha da loja
 public/             # o que vai junto no export web (política de privacidade)
 ```
 
-Documentos que vale abrir primeiro: `docs/monetizacao.md` (acesso e
-preço), `docs/publicar-na-loja.md` (ficha e build assinado),
+Documentos que vale abrir primeiro: `docs/monetizacao.md` (anúncios,
+compra e preço), `docs/publicar-na-loja.md` (ficha e build assinado),
 `docs/casos-para-revisao.md` (fila de endosso) e
 `docs/deploy-gh-pages.md` (publicação da web).
 

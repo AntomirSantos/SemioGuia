@@ -1,65 +1,75 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { ActivityIndicator, Text, View } from 'react-native';
 import { router } from 'expo-router';
-import { Check, Lock } from 'lucide-react-native';
+import { Check } from 'lucide-react-native';
 import { Tela } from '../design/Tela';
 import { Cabecalho } from '../design/Cabecalho';
 import { Rotulo } from '../design/Rotulo';
 import { Pressionavel } from '../design/movimento';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
-import { PRECO_ANUAL } from '../config/paywall';
+import { PRECO_SEM_ANUNCIOS } from '../config/paywall';
 import { useConteudo } from '../content/ContentContext';
 import { useAcesso } from '../entitlements/EntitlementsContext';
-import { acervoDaAssinatura, acervoGratuito, type ContagemDoAcervo } from '../entitlements/acervo';
-import { diasRestantes } from '../entitlements/assinatura';
-import { obterLoja, type ResultadoDaAssinatura } from '../entitlements/loja';
-import { hojeLocal } from '../revisao/hoje';
+import { obterLoja, type ResultadoDaCompra } from '../entitlements/loja';
 import { track } from '../analytics/analytics';
+import type { Conteudo } from '../content/schema';
 
-// Tela de assinatura. Tudo o que a loja exige aparece antes do botão:
-// preço, periodicidade, renovação automática e como cancelar.
+// A tela da compra única. O que ela vende não é conteúdo, porque o conteúdo
+// já está todo aberto: ela vende o silêncio, e diz isso sem rodeio. Tudo o
+// que a loja exige aparece antes do botão, incluindo a frase que mais importa
+// aqui: não é assinatura, não renova, não cobra de novo.
 
-// As contas saem do conteúdo compilado, não da memória de quem escreve a
-// tela: assim elas continuam certas a cada tópico ou caso novo.
-function listaDoQueAbre(pago: ContagemDoAcervo): string[] {
+/** As contas saem do conteúdo compilado, nunca da memória de quem escreve. */
+function oQueJaEstaAberto(conteudo: Conteudo): string[] {
+  let topicos = 0;
+  let checklists = 0;
+  let verbetes = 0;
+  for (const sistema of conteudo.sistemas) {
+    for (const capitulo of sistema.capitulos) {
+      for (const topico of capitulo.topicos) {
+        topicos += 1;
+        for (const bloco of topico.blocos) {
+          if (bloco.tipo === 'checklist') checklists += 1;
+          else if (bloco.tipo === 'sinal') verbetes += 1;
+        }
+      }
+    }
+  }
   return [
-    `os ${pago.sistemas} sistemas que faltam, com ${pago.topicos} tópicos revisados`,
-    `mais ${pago.casos} casos clínicos com decisões e desfecho`,
-    `mais ${pago.checklists} checklists e as estações de prática deles`,
-    `mais ${pago.verbetes} verbetes no modo plantão`,
-    'a revisão espaçada de tudo isso',
-    'e o que for publicado durante o ano',
+    `os ${conteudo.sistemas.length} sistemas, com ${topicos} tópicos revisados`,
+    `${conteudo.casos.length} casos clínicos com decisões e desfecho`,
+    `os ${checklists} checklists e as estações de prática`,
+    `os ${verbetes} verbetes do modo plantão`,
+    'a revisão espaçada de tudo isso, e o que vier depois',
   ];
 }
 
-function mensagemDoResultado(r: ResultadoDaAssinatura): string | null {
+function mensagemDoResultado(r: ResultadoDaCompra): string | null {
   switch (r.tipo) {
     case 'ok':
-      return null;
     case 'cancelado_pelo_usuario':
       return null;
     case 'nada_a_restaurar':
-      return 'Não encontramos nenhuma assinatura nesta conta da loja. Se você assinou com outra conta, entre com ela no aparelho e tente de novo.';
+      return 'Não encontramos nenhuma compra nesta conta da loja. Se você comprou com outra conta, entre com ela no aparelho e tente de novo.';
     case 'indisponivel':
-      return 'A loja não está disponível neste aparelho. No navegador, o acesso completo não pode ser comprado: baixe o aplicativo para assinar.';
+      return 'A loja não está disponível neste aparelho. No navegador não há compra: baixe o aplicativo para remover os anúncios.';
     case 'erro':
       return r.mensagem;
   }
 }
 
-export function TelaAssinatura() {
+export function TelaSemAnuncios() {
   const { paleta, escala } = useTema();
   const conteudo = useConteudo();
   const acesso = useAcesso();
-  const gratuito = useMemo(() => acervoGratuito(conteudo), [conteudo]);
-  const incluido = useMemo(() => listaDoQueAbre(acervoDaAssinatura(conteudo)), [conteudo]);
-  const [ocupado, setOcupado] = useState<'assinar' | 'restaurar' | null>(null);
+  const aberto = useMemo(() => oQueJaEstaAberto(conteudo), [conteudo]);
+  const [ocupado, setOcupado] = useState<'comprar' | 'restaurar' | null>(null);
   const [erro, setErro] = useState<string | null>(null);
-  const [precos, setPrecos] = useState({ anual: PRECO_ANUAL });
+  const [precos, setPrecos] = useState({ remocao: PRECO_SEM_ANUNCIOS });
 
   useEffect(() => {
-    track('assinatura_aberta', { estado: acesso.estado });
+    track('sem_anuncios_aberto', { estado: acesso.estado });
     // Uma abertura por montagem da tela.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -78,13 +88,13 @@ export function TelaAssinatura() {
   }, []);
 
   const executar = useCallback(
-    async (qual: 'assinar' | 'restaurar') => {
+    async (qual: 'comprar' | 'restaurar') => {
       setErro(null);
       setOcupado(qual);
       try {
-        const r = qual === 'assinar' ? await acesso.assinar() : await acesso.restaurar();
+        const r = qual === 'comprar' ? await acesso.comprar() : await acesso.restaurar();
         setErro(mensagemDoResultado(r));
-        if (r.tipo === 'ok') track('assinatura_concluida', { via: qual });
+        if (r.tipo === 'ok') track('compra_concluida', { via: qual });
       } catch {
         setErro('Não foi possível falar com a loja agora. Tente de novo em alguns minutos.');
       } finally {
@@ -94,16 +104,18 @@ export function TelaAssinatura() {
     [acesso],
   );
 
-  const dias = diasRestantes(acesso.assinatura, hojeLocal());
-  const jaTem = acesso.estado === 'ativa' || acesso.estado === 'cancelada';
+  const jaTem = acesso.semAnuncios;
 
   return (
     <Tela>
-      <Cabecalho titulo="Acesso completo" aoVoltar={() => router.back()} />
+      <Cabecalho titulo="Sem anúncios" aoVoltar={() => router.back()} />
 
       {jaTem ? (
         <View style={{ marginBottom: espaco.l }}>
-          <Rotulo texto={acesso.estado === 'ativa' ? 'Assinatura ativa' : 'Assinatura cancelada'} cor={paleta.acentoTinta} />
+          <Rotulo
+            texto={acesso.estado === 'permanente' ? 'Anúncios removidos' : 'Cortesia ativa'}
+            cor={paleta.acentoTinta}
+          />
           <Text
             style={{
               fontFamily: fonte.corpo,
@@ -113,9 +125,9 @@ export function TelaAssinatura() {
               marginTop: espaco.xs,
             }}
           >
-            {acesso.estado === 'ativa'
-              ? `Você tem acesso a tudo. Renova em ${dias} dias.`
-              : `A renovação foi cancelada. Seu acesso continua por mais ${dias} dias.`}
+            {acesso.estado === 'permanente'
+              ? 'Você não vê mais anúncios neste aplicativo, e não verá. Obrigado por sustentar o projeto: é isso que paga o tempo de escrever o que vem por aí.'
+              : 'Você está sem anúncios por cortesia. Quando ela acabar, eles voltam, e a compra continua disponível aqui.'}
           </Text>
         </View>
       ) : (
@@ -129,14 +141,13 @@ export function TelaAssinatura() {
               marginBottom: espaco.l,
             }}
           >
-            Você está usando a parte gratuita: Anamnese, Exame físico geral, Aparelho cardiovascular e
-            Aparelho respiratório, quatro sistemas inteiros, com {gratuito.topicos} tópicos,{' '}
-            {gratuito.casos} casos, {gratuito.checklists} checklists e {gratuito.verbetes} verbetes do plantão.
+            O SemioGuia inteiro é seu, de graça, sem cadastro e sem prazo. Os anúncios são o que paga
+            a conta de manter isso de pé.
           </Text>
 
-          <Rotulo texto="A assinatura abre" cor={paleta.tinta2} />
+          <Rotulo texto="Já está tudo aberto" cor={paleta.tinta2} />
           <View style={{ marginTop: espaco.xs, marginBottom: espaco.l }}>
-            {incluido.map((linha) => (
+            {aberto.map((linha) => (
               <View key={linha} style={{ flexDirection: 'row', alignItems: 'flex-start', marginBottom: espaco.xs }}>
                 <Check size={16} color={paleta.acentoTinta} style={{ marginTop: 3, marginRight: espaco.s }} />
                 <Text
@@ -162,14 +173,8 @@ export function TelaAssinatura() {
               marginBottom: espaco.l,
             }}
           >
-            <Text
-              style={{
-                fontFamily: fonte.display,
-                fontSize: Math.round(tipo.h2 * escala),
-                color: paleta.tinta,
-              }}
-            >
-              {precos.anual} por ano
+            <Text style={{ fontFamily: fonte.display, fontSize: Math.round(tipo.h2 * escala), color: paleta.tinta }}>
+              {precos.remocao}, uma vez só
             </Text>
             <Text
               style={{
@@ -180,8 +185,9 @@ export function TelaAssinatura() {
                 marginTop: espaco.xs,
               }}
             >
-              Este é o preço todo ano, sem aumento na renovação. Renova sozinha, e você cancela quando
-              quiser, direto na loja: o acesso vale até o fim do período já pago.
+              Não é assinatura: não renova, não é cobrado de novo e não vence. Você paga uma vez e os
+              anúncios somem para sempre, também nas versões que vierem. Trocou de aparelho, é só
+              tocar em restaurar.
             </Text>
           </View>
         </>
@@ -212,10 +218,10 @@ export function TelaAssinatura() {
       {!jaTem ? (
         <Pressionavel
           accessibilityRole="button"
-          accessibilityLabel={`Assinar por ${precos.anual} por ano`}
+          accessibilityLabel={`Remover os anúncios por ${precos.remocao}, uma vez só`}
           accessibilityState={{ disabled: ocupado !== null }}
           onPress={() => {
-            if (!ocupado) executar('assinar');
+            if (!ocupado) executar('comprar');
           }}
           style={{
             minHeight: 52,
@@ -227,28 +233,25 @@ export function TelaAssinatura() {
             marginBottom: espaco.m,
           }}
         >
-          {ocupado === 'assinar' ? (
+          {ocupado === 'comprar' ? (
             <ActivityIndicator color={paleta.superficie} />
           ) : (
-            <>
-              <Lock size={16} color={paleta.superficie} style={{ marginRight: espaco.s }} />
-              <Text
-                style={{
-                  fontFamily: fonte.corpoBold,
-                  fontSize: Math.round(tipo.corpo * escala),
-                  color: paleta.superficie,
-                }}
-              >
-                Assinar por {precos.anual} por ano
-              </Text>
-            </>
+            <Text
+              style={{
+                fontFamily: fonte.corpoBold,
+                fontSize: Math.round(tipo.corpo * escala),
+                color: paleta.superficie,
+              }}
+            >
+              Remover os anúncios por {precos.remocao}
+            </Text>
           )}
         </Pressionavel>
       ) : null}
 
       <Pressionavel
         accessibilityRole="button"
-        accessibilityLabel="Já assinei, restaurar acesso"
+        accessibilityLabel="Já comprei, restaurar"
         onPress={() => {
           if (!ocupado) executar('restaurar');
         }}
@@ -257,7 +260,7 @@ export function TelaAssinatura() {
         <Text
           style={{ fontFamily: fonte.corpoBold, fontSize: Math.round(tipo.small * escala), color: paleta.acentoTinta }}
         >
-          {ocupado === 'restaurar' ? 'Procurando na loja...' : 'Já assinei, restaurar acesso'}
+          {ocupado === 'restaurar' ? 'Procurando na loja...' : 'Já comprei, restaurar'}
         </Text>
       </Pressionavel>
 
@@ -271,13 +274,14 @@ export function TelaAssinatura() {
             marginTop: espaco.l,
           }}
         >
-          No navegador o SemioGuia mostra a parte gratuita. O acesso completo se assina pelo aplicativo.
+          No navegador o SemioGuia é gratuito e sem compra. A remoção dos anúncios se faz pelo
+          aplicativo.
         </Text>
       ) : null}
     </Tela>
   );
 }
 
-export default function Assinatura() {
-  return <TelaAssinatura />;
+export default function SemAnuncios() {
+  return <TelaSemAnuncios />;
 }

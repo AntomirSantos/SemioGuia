@@ -6,10 +6,11 @@ import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
 import { track } from '../analytics/analytics';
 
-// A linha de um item que a assinatura abre. Regra de produto (2026-09-06): o
-// conteúdo pago não some da lista, ele aparece trancado, com o nome à vista.
-// Esconder faria o aluno achar que o acervo é menor do que é; mostrar o nome
-// e o cadeado diz exatamente o que existe do outro lado.
+// A linha de um item trancado pelo corte por sistema: o conteúdo não some da
+// lista, aparece trancado, com o nome à vista.
+//
+// DORMENTE desde 2026-09-07: com `PAYWALL_ATIVO` desligado nada fica
+// trancado, e as listas nunca chegam a montar esta linha.
 
 export function LinhaTrancada({
   titulo,
@@ -28,10 +29,10 @@ export function LinhaTrancada({
     <View style={{ borderBottomWidth: 1, borderBottomColor: paleta.linha }}>
       <Pressionavel
         accessibilityRole="button"
-        accessibilityLabel={`${titulo}, ${oQue} da assinatura anual, ver o acesso completo`}
+        accessibilityLabel={`${titulo}, ${oQue} do acesso completo, ver como abrir`}
         onPress={() => {
           track('bloqueio_visto', { sistema: sistemaTitulo, oQue });
-          router.push('/assinatura');
+          router.push('/sem-anuncios');
         }}
         style={{ flexDirection: 'row', alignItems: 'center', minHeight: 44, paddingVertical: espaco.s }}
       >
@@ -43,7 +44,7 @@ export function LinhaTrancada({
             numberOfLines={1}
             style={{ fontFamily: fonte.corpo, fontSize: Math.round(12 * escala), color: paleta.tinta2, marginTop: 1 }}
           >
-            {subtitulo} · assinatura anual
+            {subtitulo} · acesso completo
           </Text>
         </View>
         <Lock size={16} color={paleta.tinta2} style={{ marginLeft: espaco.s }} />
@@ -61,10 +62,10 @@ export function FaixaTrancada({ sistemaTitulo }: { sistemaTitulo: string }) {
   return (
     <Pressionavel
       accessibilityRole="button"
-      accessibilityLabel={`${sistemaTitulo} faz parte da assinatura anual, ver o acesso completo`}
+      accessibilityLabel={`${sistemaTitulo} faz parte do acesso completo, ver como abrir`}
       onPress={() => {
         track('bloqueio_visto', { sistema: sistemaTitulo, oQue: 'sistema' });
-        router.push('/assinatura');
+        router.push('/sem-anuncios');
       }}
       style={{
         flexDirection: 'row',

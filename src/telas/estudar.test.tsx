@@ -44,19 +44,21 @@ beforeEach(() => {
 // Pressionavel deixa pendente depois de um press atrasava os testes seguintes
 // quando estes moravam junto dos testes de quiz.
 // Regressão relatada pelo autor (2026-09-07): o hub anunciava só os casos
-// liberados e a tela de Casos mostrava o acervo inteiro, com os pagos
-// trancados. O número da porta tem que bater com o que se vê ao entrar.
-test('o hub conta o acervo inteiro e diz separadamente quanto está liberado', async () => {
+// liberados e a tela de Casos mostrava o acervo inteiro. O número da porta
+// tem que bater com o que se vê ao entrar. Com o corte por sistema desligado
+// (monetização por anúncios), isso quer dizer o acervo inteiro dos dois lados
+// e nenhuma menção a conteúdo liberado.
+test('o hub conta o acervo inteiro', async () => {
   const conteudo = carregarConteudo(require('../../assets/generated/content.json'));
   const totalCasos = listarCasosDeEstudo(conteudo).length;
   const totalTopicos = listarQuestoes(conteudo).length;
-  const { getByText, getAllByText } = await renderEstudar();
+  const { getByText, queryByText } = await renderEstudar();
   await waitFor(() => {
     expect(getByText(new RegExp(`^${totalCasos} casos`))).toBeTruthy();
   });
   expect(getByText(new RegExp(`^${totalTopicos} tópicos`))).toBeTruthy();
-  // Sem assinatura, parte do acervo está trancada, e a conta precisa dizer isso.
-  expect(getAllByText(/liberados agora/)).toHaveLength(2);
+  // Nada está trancado hoje, então a conta não fala em conteúdo liberado.
+  expect(queryByText(/liberados agora/)).toBeNull();
 });
 
 test('o hub oferece os dois caminhos e cada um leva à sua tela', async () => {

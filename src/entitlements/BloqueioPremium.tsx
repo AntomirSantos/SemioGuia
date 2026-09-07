@@ -8,11 +8,13 @@ import { Rotulo } from '../design/Rotulo';
 import { Pressionavel } from '../design/movimento';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
-import { PRECO_ANUAL } from '../config/paywall';
 import { track } from '../analytics/analytics';
 
-// O que aparece no lugar de um conteúdo que a assinatura abre. Diz o que
-// existe do outro lado, sem esconder o que é, e leva a uma única ação.
+// O que aparece no lugar de um conteúdo trancado pelo corte por sistema.
+//
+// DORMENTE desde 2026-09-07: com `PAYWALL_ATIVO` desligado, nada fica
+// trancado e esta tela não é alcançável. Fica de pé, com o resto da máquina
+// de entitlements, para o caso de o corte por sistema voltar a valer.
 
 export function BloqueioPremium({ sistemaTitulo, oQue = 'tópico' }: { sistemaTitulo: string; oQue?: string }) {
   const { paleta, escala } = useTema();
@@ -64,15 +66,15 @@ export function BloqueioPremium({ sistemaTitulo, oQue = 'tópico' }: { sistemaTi
           marginBottom: espaco.xl,
         }}
       >
-        A parte gratuita do SemioGuia tem quatro sistemas completos: Anamnese, Exame físico geral,
+        A parte aberta do SemioGuia tem quatro sistemas completos: Anamnese, Exame físico geral,
         Aparelho cardiovascular e Aparelho respiratório, com todos os casos, checklists e verbetes
-        deles. A assinatura anual abre os outros oito, e tudo o que for publicado durante o ano.
+        deles. Os outros oito ficam neste acesso.
       </Text>
 
       <Pressionavel
         accessibilityRole="button"
         accessibilityLabel="Ver o acesso completo"
-        onPress={() => router.push('/assinatura')}
+        onPress={() => router.push('/sem-anuncios')}
         style={{
           minHeight: 52,
           alignItems: 'center',
@@ -88,7 +90,7 @@ export function BloqueioPremium({ sistemaTitulo, oQue = 'tópico' }: { sistemaTi
             color: paleta.superficie,
           }}
         >
-          Ver o acesso completo por {PRECO_ANUAL} por ano
+          Ver o acesso completo
         </Text>
       </Pressionavel>
     </Tela>

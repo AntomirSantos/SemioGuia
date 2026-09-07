@@ -1,17 +1,27 @@
-// Freemium do SemioGuia (decisão do autor, 2026-09-06): acesso por assinatura
-// anual, com preço acessível, publicado já com o paywall funcionando. O
-// gratuito é a fundação do curso, e a especialidade é o que se paga.
+// Monetização do SemioGuia.
 //
-// Plano completo, com o porquê de cada número: docs/monetizacao.md.
-
-/** Interruptor mestre. Desligado, ninguém vê bloqueio nenhum. */
-export const PAYWALL_ATIVO = true;
+// Decisão do autor (2026-09-07): o conteúdo INTEIRO fica aberto, os doze
+// sistemas, para que o aluno veja o trabalho completo e o app ganhe reputação
+// pelo que ele é. A conta é paga por anúncios, e quem não quiser vê-los paga
+// UMA vez e não vê mais nenhum, para sempre.
+//
+// Isso muda duas coisas em relação ao desenho anterior: não há mais corte por
+// sistema (o interruptor abaixo fica desligado, com a máquina inteira
+// preservada para o caso de voltar) e não há mais assinatura anual, e sim uma
+// compra única. Na loja, produto avulso, não assinatura.
+//
+// O plano completo, com o porquê de cada número: docs/monetizacao.md.
 
 /**
- * Sistemas abertos, com TUDO deles liberado: tópicos, casos, questões,
- * checklists, estações e verbetes do plantão. O aluno de primeiro contato
- * aprende a entrevistar, a fazer o exame geral e os dois aparelhos que mais
- * aparecem na prova, e só esbarra na assinatura ao entrar na especialidade.
+ * Interruptor do corte por sistema. DESLIGADO: hoje tudo está aberto e nada
+ * fica trancado. A regra e as telas continuam no código (src/entitlements/)
+ * e voltam a valer ligando isto, sem reescrever nada.
+ */
+export const PAYWALL_ATIVO = false;
+
+/**
+ * Os sistemas que ficariam abertos se o corte voltasse a valer. Dormente
+ * enquanto `PAYWALL_ATIVO` for falso.
  */
 export const SISTEMAS_GRATUITOS = [
   'anamnese',
@@ -20,22 +30,14 @@ export const SISTEMAS_GRATUITOS = [
   'aparelho-respiratorio',
 ] as const;
 
-/** Identificador do produto na loja. Estável: mudar quebra quem já assinou. */
-export const PRODUTO_ASSINATURA = 'acesso_anual';
+/** Anúncios ligados para quem não comprou a remoção. */
+export const ANUNCIOS_ATIVOS = true;
 
 /**
- * Preço mostrado na tela de assinatura enquanto a loja não responde.
- *
- * Decisão do autor (2026-09-07): R$ 24,90 por ano, SEMPRE. Sem primeiro ano
- * promocional e sem preço cheio depois: quem assinar hoje paga o mesmo na
- * quinta renovação. Na loja isso é um plano base anual, sem oferta de
- * introdução, e é assim que o texto da tela promete.
+ * Produto da loja: compra única (não assinatura, não consumível), que remove
+ * os anúncios para sempre. Identificador estável: mudar quebra quem já pagou.
  */
-export const PRECO_ANUAL = 'R$ 24,90';
+export const PRODUTO_SEM_ANUNCIOS = 'sem_anuncios';
 
-/**
- * Quantos dias o aparelho continua liberando o conteúdo pago sem conseguir
- * confirmar a assinatura com a loja. O app é offline por princípio: fechar na
- * primeira viagem sem sinal seria punir quem pagou.
- */
-export const DIAS_DE_CARENCIA_OFFLINE = 30;
+/** Preço mostrado enquanto a loja não responde. Uma vez só, sem renovação. */
+export const PRECO_SEM_ANUNCIOS = 'R$ 24,90';

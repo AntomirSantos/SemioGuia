@@ -48,7 +48,7 @@ function LinhaTopico({ topico, estudado, trancado }: { topico: Topico; estudado:
       accessibilityLabel={
         trancado ? `${topico.titulo}, da assinatura anual` : `${topico.titulo}${estudado ? ', estudado' : ''}`
       }
-      onPress={() => router.push(trancado ? '/assinatura' : `/topico/${topico.id}`)}
+      onPress={() => router.push(trancado ? '/sem-anuncios' : `/topico/${topico.id}`)}
       style={{
         flexDirection: 'row',
         alignItems: 'center',

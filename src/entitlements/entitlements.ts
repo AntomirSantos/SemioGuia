@@ -1,21 +1,25 @@
 import { PAYWALL_ATIVO, SISTEMAS_GRATUITOS } from '../config/paywall';
-import { SEM_ASSINATURA, acessoCompleto, type Assinatura } from './assinatura';
+import { SEM_COMPRA, semAnuncios, type Compra } from './compra';
 
 // Quem pode abrir o quê. O corte é por sistema e vale para tudo o que
 // pertence a ele: tópicos, casos, questões, checklists, estações e verbetes
 // do plantão. Módulo puro; o estado vem do EntitlementsContext.
+//
+// DORMENTE desde 2026-09-07: com `PAYWALL_ATIVO` desligado, `acessoLiberado`
+// devolve sempre verdadeiro e nada fica trancado. A máquina fica de pé, com
+// os testes, para que voltar atrás seja mudar uma constante.
 
 export type Entitlement = 'gratuito' | 'premium';
 
 export interface EstadoEntitlements {
   paywallAtivo: boolean;
-  assinatura: Assinatura;
-  /** Dia de referência, YYYY-MM-DD, para avaliar o prazo da assinatura. */
+  compra: Compra;
+  /** Dia de referência, YYYY-MM-DD, para avaliar prazos. */
   hoje: string;
 }
 
 export function estadoPadrao(hoje: string): EstadoEntitlements {
-  return { paywallAtivo: PAYWALL_ATIVO, assinatura: SEM_ASSINATURA, hoje };
+  return { paywallAtivo: PAYWALL_ATIVO, compra: SEM_COMPRA, hoje };
 }
 
 export function entitlementDoSistema(sistemaId: string): Entitlement {
@@ -29,7 +33,7 @@ export function acessoLiberado(sistemaId: string, estado: EstadoEntitlements): b
   // porta fechada na cara de quem estuda.
   if (sistemaId === '') return true;
   if (entitlementDoSistema(sistemaId) === 'gratuito') return true;
-  return acessoCompleto(estado.assinatura, estado.hoje);
+  return semAnuncios(estado.compra, estado.hoje);
 }
 
 /** Conveniência para filtrar listas: id de sistema bloqueado neste estado. */

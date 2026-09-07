@@ -1,6 +1,5 @@
 import { Text, View } from 'react-native';
 import { router } from 'expo-router';
-import { Lock } from 'lucide-react-native';
 import { RotuloDeSecao } from '../design/Rotulo';
 import { Pressionavel } from '../design/movimento';
 import { useTema } from '../design/ThemeContext';
@@ -8,48 +7,56 @@ import { espaco, fonte, raio, tipo } from '../design/tokens';
 import { formatarDataProva } from '../plano/plano';
 import { hojeLocal } from '../revisao/hoje';
 import { useAcesso } from './EntitlementsContext';
-import { diasRestantes } from './assinatura';
+import { diasRestantes } from './compra';
 
-// Bloco "Seu acesso" do Perfil. É onde o aluno confere o que ele tem, quando
-// vence e como mexer nisso, sem precisar entrar na tela de compra.
+// Bloco "Seu acesso" do Perfil. É onde o aluno confere o que ele tem e como
+// mexer nisso, sem precisar entrar na tela de compra.
 
 function textoDoEstado(
   estado: string,
   validaAte: string | null,
   dias: number | null,
+  comAnuncios: boolean,
 ): { titulo: string; corpo: string; acao: string | null } {
   const ate = validaAte ? formatarDataProva(validaAte) : '';
+  // Sem anúncios neste aparelho e sem compra: é a web, onde o app é gratuito
+  // e limpo. Prometer remoção de algo que não existe ali seria mentira.
+  if (estado === 'nenhuma' && !comAnuncios) {
+    return {
+      titulo: 'Tudo aberto',
+      corpo:
+        'Os doze sistemas são seus, sem cadastro e sem prazo: tópicos, casos, questões, checklists e o modo plantão. No navegador não há anúncio nem compra.',
+      acao: null,
+    };
+  }
   switch (estado) {
-    case 'ativa':
+    case 'permanente':
       return {
-        titulo: 'Assinatura anual ativa',
-        corpo: `Você tem os 12 sistemas abertos. Renova sozinha em ${ate}, e o cancelamento é feito na assinatura da loja, no seu aparelho.`,
+        titulo: 'Sem anúncios, para sempre',
+        corpo:
+          'Você comprou a remoção dos anúncios. Foi uma vez só: não renova, não vence e vale também nas versões que vierem. Obrigado por sustentar o projeto.',
         acao: null,
       };
-    case 'cancelada':
+    case 'cortesia':
       return {
-        titulo: 'Assinatura cancelada',
-        corpo: `A renovação foi desligada. O acesso completo continua valendo até ${ate}, ou seja, mais ${dias ?? 0} dias.`,
-        acao: 'Assinar de novo',
+        titulo: 'Sem anúncios, por cortesia',
+        corpo: validaAte
+          ? `A cortesia vale até ${ate}, ou seja, mais ${dias ?? 0} dias. Depois disso os anúncios voltam, e a compra fica disponível no Perfil.`
+          : 'Você está sem anúncios por cortesia, sem prazo para acabar.',
+        acao: null,
       };
     case 'vencida':
       return {
-        titulo: 'Assinatura vencida',
-        corpo: `O acesso completo valeu até ${ate}. Os quatro sistemas gratuitos continuam abertos, e o seu progresso está guardado inteiro.`,
-        acao: 'Renovar o acesso',
-      };
-    case 'sem_confirmacao':
-      return {
-        titulo: 'Assinatura por confirmar',
-        corpo: 'Faz tempo que este aparelho não fala com a loja. Conecte à internet e toque abaixo para restaurar o acesso completo.',
-        acao: 'Restaurar o acesso',
+        titulo: 'A cortesia acabou',
+        corpo: `Ela valeu até ${ate}, e os anúncios voltaram. O conteúdo continua inteiro e aberto, como sempre esteve.`,
+        acao: 'Remover os anúncios',
       };
     default:
       return {
-        titulo: 'Acesso gratuito',
+        titulo: 'Tudo aberto, com anúncios',
         corpo:
-          'Você tem quatro sistemas completos: Anamnese, Exame físico geral, Aparelho cardiovascular e Aparelho respiratório, com tudo o que existe neles. A assinatura anual abre os outros oito.',
-        acao: 'Ver o acesso completo',
+          'Os doze sistemas são seus, sem cadastro e sem prazo: tópicos, casos, questões, checklists e o modo plantão. Os anúncios são o que paga a conta disso. Se eles atrapalham, dá para tirá-los de uma vez por todas.',
+        acao: 'Remover os anúncios',
       };
   }
 }
@@ -57,10 +64,14 @@ function textoDoEstado(
 export function BlocoAcesso() {
   const { paleta, escala } = useTema();
   const acesso = useAcesso();
-  if (!acesso.paywallAtivo) return null;
 
-  const dias = diasRestantes(acesso.assinatura, hojeLocal());
-  const { titulo, corpo, acao } = textoDoEstado(acesso.estado, acesso.assinatura.validaAte, dias);
+  const dias = diasRestantes(acesso.compra, hojeLocal());
+  const { titulo, corpo, acao } = textoDoEstado(
+    acesso.estado,
+    acesso.compra.validaAte,
+    dias,
+    acesso.mostrarAnuncios,
+  );
 
   return (
     <View>
@@ -74,19 +85,16 @@ export function BlocoAcesso() {
           marginBottom: espaco.l,
         }}
       >
-        <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: espaco.xs }}>
-          {acesso.estado === 'gratuito' ? <Lock size={14} color={paleta.tinta2} /> : null}
-          <Text
-            style={{
-              marginLeft: acesso.estado === 'gratuito' ? espaco.xs : 0,
-              fontFamily: fonte.corpoBold,
-              fontSize: Math.round(tipo.corpo * escala),
-              color: paleta.tinta,
-            }}
-          >
-            {titulo}
-          </Text>
-        </View>
+        <Text
+          style={{
+            fontFamily: fonte.corpoBold,
+            fontSize: Math.round(tipo.corpo * escala),
+            color: paleta.tinta,
+            marginBottom: espaco.xs,
+          }}
+        >
+          {titulo}
+        </Text>
         <Text
           style={{
             fontFamily: fonte.corpo,
@@ -101,7 +109,7 @@ export function BlocoAcesso() {
           <Pressionavel
             accessibilityRole="button"
             accessibilityLabel={acao}
-            onPress={() => router.push('/assinatura')}
+            onPress={() => router.push('/sem-anuncios')}
             style={{ minHeight: 44, justifyContent: 'center', marginTop: espaco.xs }}
           >
             <Text

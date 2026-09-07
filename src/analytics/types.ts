@@ -20,8 +20,8 @@ export const EVENTOS = [
   'exame_completo_encerrado',
   'questoes_aberto',
   'casos_aberto',
-  'assinatura_aberta',
-  'assinatura_concluida',
+  'sem_anuncios_aberto',
+  'compra_concluida',
   'bloqueio_visto',
 ] as const;
 

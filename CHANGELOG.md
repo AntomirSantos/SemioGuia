@@ -3,6 +3,13 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.36 (2026-09-07)
+
+- O SemioGuia inteiro fica aberto: os doze sistemas, sem cadastro, sem prazo e sem corte, para que o app seja julgado pelo conteúdo antes de cobrar qualquer coisa
+- A conta passa a ser paga por anúncios, e quem preferir paga R$ 24,90 uma vez e não vê mais nenhum: compra única, que não renova nem vence
+- No navegador não há anúncio nem compra: a web fica gratuita e limpa, permanentemente
+- Os textos de "Seu acesso" no Perfil e a nova tela "Sem anúncios" explicam tudo isso sem rodeio
+
 ## 1.2.35 (2026-09-07)
 
 - A Busca passa a ser a primeira aba: no plantão, procurar um nome é o gesto mais frequente

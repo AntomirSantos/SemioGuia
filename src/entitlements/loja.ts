@@ -1,8 +1,8 @@
-import { PRECO_ANUAL, PRODUTO_ASSINATURA } from '../config/paywall';
-import { umAnoDepois, type Assinatura } from './assinatura';
+import { PRECO_SEM_ANUNCIOS, PRODUTO_SEM_ANUNCIOS } from '../config/paywall';
+import type { Compra } from './compra';
 
 // Adaptador da cobrança da loja. O app inteiro fala com esta interface e
-// NUNCA com o SDK nativo: assim as telas, o prazo e o bloqueio existem,
+// NUNCA com o SDK nativo: assim as telas, o direito e a restauração existem,
 // funcionam e são testáveis antes de qualquer integração nativa existir.
 //
 // Como ligar a cobrança de verdade (na máquina do autor, com um build de
@@ -14,12 +14,12 @@ import { umAnoDepois, type Assinatura } from './assinatura';
 // como um aparelho sem loja: mostra o preço, explica e não deixa comprar.
 
 export interface Precos {
-  /** O valor do ano, já formatado na moeda do usuário. */
-  anual: string;
+  /** O valor da remoção dos anúncios, já formatado na moeda do usuário. */
+  remocao: string;
 }
 
-export type ResultadoDaAssinatura =
-  | { tipo: 'ok'; assinatura: Assinatura }
+export type ResultadoDaCompra =
+  | { tipo: 'ok'; compra: Compra }
   | { tipo: 'cancelado_pelo_usuario' }
   | { tipo: 'nada_a_restaurar' }
   | { tipo: 'indisponivel' }
@@ -30,21 +30,26 @@ export interface Loja {
   produto: string;
   /** Falso em navegador e em qualquer aparelho sem a loja instalada. */
   disponivel: boolean;
-  /** Preços vindos da loja, já formatados na moeda do usuário. */
+  /** Preço vindo da loja, já formatado na moeda do usuário. */
   precos(): Promise<Precos>;
   /** Abre o fluxo de compra. `hoje` entra como YYYY-MM-DD. */
-  assinar(hoje: string): Promise<ResultadoDaAssinatura>;
-  /** Recupera uma assinatura já paga nesta conta da loja. */
-  restaurar(hoje: string): Promise<ResultadoDaAssinatura>;
+  comprar(hoje: string): Promise<ResultadoDaCompra>;
+  /** Recupera uma compra já feita nesta conta da loja. */
+  restaurar(hoje: string): Promise<ResultadoDaCompra>;
+}
+
+/** Compra única: sem data de fim, para sempre. */
+function compraPermanente(hoje: string): Compra {
+  return { origem: 'loja', validaAte: null, confirmadaEm: hoje };
 }
 
 export const lojaIndisponivel: Loja = {
-  produto: PRODUTO_ASSINATURA,
+  produto: PRODUTO_SEM_ANUNCIOS,
   disponivel: false,
   async precos() {
-    return { anual: PRECO_ANUAL };
+    return { remocao: PRECO_SEM_ANUNCIOS };
   },
-  async assinar() {
+  async comprar() {
     return { tipo: 'indisponivel' };
   },
   async restaurar() {
@@ -54,27 +59,21 @@ export const lojaIndisponivel: Loja = {
 
 /**
  * Loja de mentira para desenvolvimento e para os testes: aprova na hora e
- * devolve um ano de acesso. Nunca deve ser configurada em produção.
+ * devolve a compra permanente. Nunca deve ser configurada em produção.
  */
 export function lojaDeTeste(opcoes: { restaurar?: boolean } = {}): Loja {
   return {
-    produto: PRODUTO_ASSINATURA,
+    produto: PRODUTO_SEM_ANUNCIOS,
     disponivel: true,
     async precos() {
-      return { anual: PRECO_ANUAL };
+      return { remocao: PRECO_SEM_ANUNCIOS };
     },
-    async assinar(hoje) {
-      return {
-        tipo: 'ok',
-        assinatura: { origem: 'loja', validaAte: umAnoDepois(hoje), confirmadaEm: hoje, cancelada: false },
-      };
+    async comprar(hoje) {
+      return { tipo: 'ok', compra: compraPermanente(hoje) };
     },
     async restaurar(hoje) {
       if (opcoes.restaurar === false) return { tipo: 'nada_a_restaurar' };
-      return {
-        tipo: 'ok',
-        assinatura: { origem: 'loja', validaAte: umAnoDepois(hoje), confirmadaEm: hoje, cancelada: false },
-      };
+      return { tipo: 'ok', compra: compraPermanente(hoje) };
     },
   };
 }
