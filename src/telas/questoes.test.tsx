@@ -1,6 +1,7 @@
 import { fireEvent, render, waitFor } from '@testing-library/react-native';
 import { ThemeProvider } from '../design/ThemeContext';
 import { ContentProvider } from '../content/ContentContext';
+import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
 import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
 import { TelaQuestoes } from '../app/questoes';
@@ -26,7 +27,9 @@ async function renderQuestoes() {
     <ThemeProvider>
       <ContentProvider>
         <ProgressProvider store={new MemoryProgressStore()}>
-          <TelaQuestoes />
+          <EntitlementsProvider>
+            <TelaQuestoes />
+          </EntitlementsProvider>
         </ProgressProvider>
       </ContentProvider>
     </ThemeProvider>,

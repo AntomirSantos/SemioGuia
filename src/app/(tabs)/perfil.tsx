@@ -12,8 +12,11 @@ import { useSync } from '../../sync/orquestrador';
 import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import { montarFila } from '../../revisao/fila';
 import { idsValidosDoConteudo } from '../../revisao/idsValidos';
+import { useAcesso } from '../../entitlements/EntitlementsContext';
+import { filtrarItensLiberados } from '../../entitlements/entitlements';
 import { hojeLocal } from '../../revisao/hoje';
 import { BlocoConta } from '../../conta/BlocoConta';
+import { BlocoAcesso } from '../../entitlements/BlocoAcesso';
 import { exportarEventos } from '../../analytics/analytics';
 import { compartilharJson } from '../../analytics/compartilhar';
 import { analisarDataProva, formatarDataProva } from '../../plano/plano';
@@ -157,6 +160,7 @@ export function TelaPerfil() {
   const { paleta, escala, preferencia, definirPreferencia, escalaFonte, definirEscalaFonte } = useTema();
   const conteudo = useConteudo();
   const progresso = useProgresso();
+  const acesso = useAcesso();
   const { notificarEscrita } = useSync();
   const carregarEstudados = useCallback(() => progresso.listarEstudados(), [progresso]);
   const estudados = useDadosAoFocar(carregarEstudados) ?? [];
@@ -164,13 +168,13 @@ export function TelaPerfil() {
   const carregarRevisao = useCallback(async () => {
     const hoje = hojeLocal();
     const idsValidos = idsValidosDoConteudo(conteudo);
-    const itens = await progresso.listarItensRevisao();
+    const itens = filtrarItensLiberados(await progresso.listarItensRevisao(), acesso.liberado);
     const validos = itens.filter((i) => idsValidos.has(i.id));
     const paraRevisarHoje = montarFila(itens, idsValidos, hoje).itens.length;
     const emDia = validos.filter((i) => i.proximaRevisao > hoje).length;
     return { paraRevisarHoje, emDia };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [progresso, conteudo]);
+  }, [progresso, conteudo, acesso]);
   const revisao = useDadosAoFocar(carregarRevisao) ?? { paraRevisarHoje: 0, emDia: 0 };
 
   const sistemas = listarSistemas(conteudo);
@@ -323,6 +327,8 @@ export function TelaPerfil() {
           </Text>
         ) : null}
       </View>
+
+      <BlocoAcesso />
 
       <BlocoConta />
 

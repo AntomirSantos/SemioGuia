@@ -5,6 +5,8 @@ import { Cabecalho } from '../../design/Cabecalho';
 import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useTopico } from '../../content/ContentContext';
+import { PortaoDeAcesso } from '../../entitlements/PortaoDeAcesso';
+import { sistemaDoTopicoId } from '../../entitlements/entitlements';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useSync } from '../../sync/orquestrador';
 import { EstacaoOsce, type ResultadoEstacao } from '../../revisao/EstacaoOsce';
@@ -91,5 +93,9 @@ export default function EstacaoRoute() {
   const { caminho, titulo } = useLocalSearchParams<{ caminho: string | string[]; titulo?: string | string[] }>();
   const topicoId = Array.isArray(caminho) ? caminho.join('/') : (caminho ?? '');
   const tituloChecklist = Array.isArray(titulo) ? (titulo[0] ?? '') : (titulo ?? '');
-  return <TelaEstacao topicoId={topicoId} titulo={tituloChecklist} />;
+  return (
+    <PortaoDeAcesso sistemaId={sistemaDoTopicoId(topicoId)} oQue="estação">
+      <TelaEstacao topicoId={topicoId} titulo={tituloChecklist} />
+    </PortaoDeAcesso>
+  );
 }

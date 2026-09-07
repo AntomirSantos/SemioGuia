@@ -7,6 +7,8 @@ import { Rotulo } from '../../design/Rotulo';
 import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo, type Paleta } from '../../design/tokens';
 import { useCaso } from '../../content/ContentContext';
+import { PortaoDeAcesso } from '../../entitlements/PortaoDeAcesso';
+import { sistemaDoTopicoId } from '../../entitlements/entitlements';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useSync } from '../../sync/orquestrador';
 import { BotaoPrincipal } from '../../quiz/PerguntaCard';
@@ -380,5 +382,14 @@ export function TelaCaso({ casoId }: { casoId: string }) {
 
 export default function CasoRoute() {
   const { id } = useLocalSearchParams<{ id: string }>();
-  return <TelaCaso casoId={id ?? ''} />;
+  const casoId = id ?? '';
+  const caso = useCaso(casoId);
+  // O sistema de um caso é o do seu primeiro tópico de apoio, a mesma âncora
+  // que a lista de casos usa para agrupar.
+  const sistemaId = sistemaDoTopicoId(caso?.topicosDeApoio[0] ?? '');
+  return (
+    <PortaoDeAcesso sistemaId={sistemaId} oQue="caso clínico">
+      <TelaCaso casoId={casoId} />
+    </PortaoDeAcesso>
+  );
 }

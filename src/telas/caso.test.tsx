@@ -2,6 +2,7 @@ import { fireEvent, render, waitFor } from '@testing-library/react-native';
 import { router } from 'expo-router';
 import { ThemeProvider } from '../design/ThemeContext';
 import { ContentProvider } from '../content/ContentContext';
+import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
 import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
 import { carregarConteudo } from '../content/store';
@@ -100,7 +101,9 @@ function renderCasos(store: MemoryProgressStore, casos?: Caso[]) {
     <ThemeProvider>
       <ContentProvider conteudo={conteudo}>
         <ProgressProvider store={store}>
-          <TelaCasos />
+          <EntitlementsProvider>
+            <TelaCasos />
+          </EntitlementsProvider>
         </ProgressProvider>
       </ContentProvider>
     </ThemeProvider>,
@@ -177,7 +180,9 @@ test('sem casos no conteúdo, a tela de Casos mostra estado vazio em vez de list
     <ThemeProvider>
       <ContentProvider conteudo={conteudoVazio}>
         <ProgressProvider store={store}>
-          <TelaCasos />
+          <EntitlementsProvider>
+            <TelaCasos />
+          </EntitlementsProvider>
         </ProgressProvider>
       </ContentProvider>
     </ThemeProvider>,

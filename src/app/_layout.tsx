@@ -21,6 +21,7 @@ import {
 import { ThemeProvider, type EscalaFonte, type PreferenciaTema } from '../design/ThemeContext';
 import { ContentProvider } from '../content/ContentContext';
 import { ProgressProvider, useProgresso } from '../progress/ProgressContext';
+import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
 import { AuthProvider } from '../conta/AuthContext';
 import { obterDb } from '../conta/firebaseApp';
 import { apagarDadosDoUsuario } from '../sync/firestoreSync';
@@ -129,7 +130,9 @@ export default function RootLayout() {
         <SyncProvider>
           <TemaPersistido>
             <ContentProvider>
-              <Stack screenOptions={{ headerShown: false }} />
+              <EntitlementsProvider>
+                <Stack screenOptions={{ headerShown: false }} />
+              </EntitlementsProvider>
             </ContentProvider>
           </TemaPersistido>
         </SyncProvider>

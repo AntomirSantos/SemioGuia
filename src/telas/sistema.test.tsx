@@ -2,6 +2,7 @@ import { fireEvent, render, waitFor } from '@testing-library/react-native';
 import { router } from 'expo-router';
 import { ThemeProvider } from '../design/ThemeContext';
 import { ContentProvider } from '../content/ContentContext';
+import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
 import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
 import TelaSistema from '../app/sistema/[sistemaId]';
@@ -26,7 +27,9 @@ function renderSistema(store: MemoryProgressStore) {
     <ThemeProvider>
       <ContentProvider>
         <ProgressProvider store={store}>
-          <TelaSistema />
+          <EntitlementsProvider>
+            <TelaSistema />
+          </EntitlementsProvider>
         </ProgressProvider>
       </ContentProvider>
     </ThemeProvider>,

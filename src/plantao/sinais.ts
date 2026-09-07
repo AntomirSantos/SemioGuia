@@ -12,6 +12,7 @@ export interface SinalDePlantao {
   causas: string[];
   topicoId: string;
   topicoTitulo: string;
+  sistemaId: string;
   sistemaTitulo: string;
   sistemaCor: string;
 }
@@ -34,6 +35,7 @@ export function listarSinais(conteudo: Conteudo): SinalDePlantao[] {
             causas: bloco.causas,
             topicoId: topico.id,
             topicoTitulo: topico.titulo,
+            sistemaId: sistema.id,
             sistemaTitulo: sistema.titulo,
             sistemaCor: sistema.cor,
           });

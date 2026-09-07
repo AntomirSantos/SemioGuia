@@ -2,6 +2,7 @@ import { fireEvent, render, waitFor } from '@testing-library/react-native';
 import { router } from 'expo-router';
 import { ThemeProvider } from '../design/ThemeContext';
 import { ContentProvider } from '../content/ContentContext';
+import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
 import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
 import { TelaRevisao } from '../app/revisao';
@@ -53,7 +54,9 @@ function renderRevisao(store: MemoryProgressStore) {
     <ThemeProvider>
       <ContentProvider>
         <ProgressProvider store={store}>
-          <TelaRevisao />
+          <EntitlementsProvider>
+            <TelaRevisao />
+          </EntitlementsProvider>
         </ProgressProvider>
       </ContentProvider>
     </ThemeProvider>,

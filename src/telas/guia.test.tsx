@@ -3,6 +3,7 @@ import { ThemeProvider } from '../design/ThemeContext';
 import { ContentProvider } from '../content/ContentContext';
 import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
+import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
 import { TelaTopico } from '../app/topico/[...caminho]';
 
 jest.mock('expo-router', () => ({
@@ -34,7 +35,9 @@ function renderTopico(store: MemoryProgressStore, topicoId: string = TOPICO_ID) 
     <ThemeProvider>
       <ContentProvider>
         <ProgressProvider store={store}>
-          <TelaTopico topicoId={topicoId} />
+          <EntitlementsProvider>
+            <TelaTopico topicoId={topicoId} />
+          </EntitlementsProvider>
         </ProgressProvider>
       </ContentProvider>
     </ThemeProvider>,

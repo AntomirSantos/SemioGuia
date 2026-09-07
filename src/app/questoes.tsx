@@ -12,6 +12,8 @@ import { useProgresso } from '../progress/ProgressContext';
 import { useDadosAoFocar } from '../progress/useDadosAoFocar';
 import { agruparPorSistema, filtrarQuestoes, listarQuestoes, type TopicoDeQuestoes } from '../estudo/listas';
 import { AcaoDoVerbete, CampoDeBusca, GruposPorSistema, LinhaExpansivel } from '../estudo/ListaPorSistema';
+import { useAcesso } from '../entitlements/EntitlementsContext';
+import { LinhaTrancada } from '../entitlements/LinhaTrancada';
 import { track } from '../analytics/analytics';
 
 // Questões (reorganização da aba Estudar, 2026-09): os quizzes do guia na
@@ -80,6 +82,7 @@ export function TelaQuestoes() {
   const { paleta, escala } = useTema();
   const conteudo = useConteudo();
   const progresso = useProgresso();
+  const acesso = useAcesso();
   const lista = useMemo(() => listarQuestoes(conteudo), [conteudo]);
   const [termo, setTermo] = useState('');
   const [abertos, setAbertos] = useState<Set<string>>(new Set());
@@ -165,6 +168,17 @@ export function TelaQuestoes() {
         grupos={grupos}
         chave={(item) => item.topicoId}
         renderItem={(item) => {
+          // Tópico de sistema pago aparece trancado, com o nome à vista.
+          if (!acesso.liberado(item.sistemaId)) {
+            return (
+              <LinhaTrancada
+                titulo={item.topicoTitulo}
+                subtitulo={`${item.nPerguntas} pergunta${item.nPerguntas === 1 ? '' : 's'}`}
+                oQue="questões"
+                sistemaTitulo={item.sistemaTitulo}
+              />
+            );
+          }
           const aberto = abertosNaBusca ? abertosNaBusca.has(item.topicoId) : abertos.has(item.topicoId);
           const p = percentuais[item.topicoId] ?? null;
           return (

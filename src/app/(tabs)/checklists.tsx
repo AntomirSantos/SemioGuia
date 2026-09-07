@@ -16,6 +16,8 @@ import {
   type ChecklistDeExame,
 } from '../../checklists/listas';
 import { ItemMarcavel } from '../../checklists/ItemMarcavel';
+import { useAcesso } from '../../entitlements/EntitlementsContext';
+import { LinhaTrancada } from '../../entitlements/LinhaTrancada';
 import { track } from '../../analytics/analytics';
 
 // Tela de checklists (pedido do autor, 2026-09): todos os roteiros de exame
@@ -188,7 +190,9 @@ function LinhaChecklist({
 export default function Checklists() {
   const { paleta, escala } = useTema();
   const conteudo = useConteudo();
+  const acesso = useAcesso();
   const listas = useMemo(() => listarChecklists(conteudo), [conteudo]);
+  const liberadas = useMemo(() => listas.filter((l) => acesso.liberado(l.sistemaId)), [listas, acesso]);
   const [termo, setTermo] = useState('');
   const [abertos, setAbertos] = useState<Set<string>>(new Set());
   const [marcasPorLista, setMarcasPorLista] = useState<Map<string, Set<number>>>(new Map());
@@ -340,7 +344,7 @@ export default function Checklists() {
               Exame completo da cabeça aos pés
             </Text>
             <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(12 * escala), color: paleta.tinta2, marginTop: 2 }}>
-              Os {listas.length} checklists em sequência, com relatório do que faltou
+              Os {liberadas.length} checklists liberados em sequência, com relatório do que faltou
             </Text>
           </View>
           <ChevronDown size={18} color={paleta.tinta2} style={{ marginLeft: espaco.s, transform: [{ rotate: '-90deg' }] }} />
@@ -356,6 +360,18 @@ export default function Checklists() {
           {grupo.checklists.map((lista) => {
             const chave = chaveDaLista(lista);
             const marcas = marcasPorLista.get(chave) ?? new Set<number>();
+            // Roteiro de sistema pago aparece trancado, com o nome à vista.
+            if (!acesso.liberado(lista.sistemaId)) {
+              return (
+                <LinhaTrancada
+                  key={chave}
+                  titulo={lista.titulo}
+                  subtitulo={`${lista.topicoTitulo} · ${lista.itens.length} itens`}
+                  oQue="checklist"
+                  sistemaTitulo={lista.sistemaTitulo}
+                />
+              );
+            }
             return (
               <LinhaChecklist
                 key={chave}

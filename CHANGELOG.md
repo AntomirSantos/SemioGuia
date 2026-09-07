@@ -3,6 +3,13 @@
 Uma entrada por publicação em gh-pages, a mais recente primeiro.
 Gerado de `src/versao/changelog.ts` por `npm run changelog`: edite lá.
 
+## 1.2.33 (2026-09-07)
+
+- Quatro sistemas ficam abertos de graça, inteiros: Anamnese, Exame físico geral, Aparelho cardiovascular e Aparelho respiratório, com os tópicos, as questões, os casos, os checklists e os verbetes do plantão deles
+- Os outros oito sistemas passam a fazer parte de uma assinatura anual, com tela de compra, restauração de acesso e o bloco "Seu acesso" no Perfil
+- O conteúdo da assinatura não some das listas: aparece trancado, com o nome à vista, e o toque leva à tela que explica o que ela abre
+- A assinatura tem prazo e trinta dias de carência sem internet, porque o app é offline por princípio e ninguém deve perder o acesso numa viagem sem sinal
+
 ## 1.2.32 (2026-09-06)
 
 - A tela de Casos ganhou filtro por cenário: urgência, ambulatório ou todos, com a contagem de cada um

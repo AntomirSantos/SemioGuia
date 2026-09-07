@@ -10,6 +10,7 @@ export interface ChecklistDeExame {
   itens: string[];
   topicoId: string;
   topicoTitulo: string;
+  sistemaId: string;
   sistemaTitulo: string;
   sistemaCor: string;
 }
@@ -29,6 +30,7 @@ export function listarChecklists(conteudo: Conteudo): ChecklistDeExame[] {
             itens: bloco.itens,
             topicoId: topico.id,
             topicoTitulo: topico.titulo,
+            sistemaId: sistema.id,
             sistemaTitulo: sistema.titulo,
             sistemaCor: sistema.cor,
           });

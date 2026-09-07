@@ -31,7 +31,8 @@ como "Revisado" no app.
 | Checklists OSCE | **53** (viram estações de prática) |
 | Ilustrações SVG | **59** (temáveis via `currentColor`, geometria verificada; cobertura em `npm run relatorio:ilustracoes`) |
 | Sons de ausculta | **20** (10 sintetizados por script + 10 gravações clínicas reais: HF_Lung_V1 CC BY 4.0 e CirCor DigiScope ODC-BY 1.0), com fonocardiograma sincronizado no player |
-| Testes | **61 suítes / 460 testes** verdes |
+| Testes | **70 suítes / 498 testes** verdes |
+| Acesso | **4 sistemas gratuitos** (Anamnese, Exame físico geral, cardiovascular e respiratório, inteiros) e **8 na assinatura anual** |
 
 ## Stack
 
@@ -88,9 +89,14 @@ npm run checar:travessao`, toda RV em prosa precisa da
   tela própria, **Questões** e **Casos clínicos**, ambos organizados como
   o plantão (busca instantânea, grupos por sistema, linhas que abrem no
   lugar com histórico de acerto e desfecho)
-- **Perfil**: progresso, data da prova, bibliografia do guia, preferências, tema claro/escuro,
+- **Perfil**: progresso, data da prova, bibliografia do guia, o bloco "Seu
+  acesso" com o estado da assinatura, preferências, tema claro/escuro,
   exportação dos dados de uso, feedback, versão do app e conta (atrás da
   flag de sync)
+- **Acesso completo**: tela de assinatura anual com preço, o que ela abre,
+  renovação automática, cancelamento e restauração de compra. O corte é por
+  sistema e vale para tudo o que pertence a ele; o conteúdo pago aparece
+  trancado nas listas, com o nome à vista (plano em `docs/monetizacao.md`)
 
 ## O que falta
 
@@ -104,16 +110,21 @@ npm run checar:travessao`, toda RV em prosa precisa da
 3. **Endosso dos 67 casos clínicos**: todos estão `revisao: pendente` e
    aparecem com o selo "Em revisão pelo autor"; fila de trabalho por
    sistema em `docs/casos-para-revisao.md`.
-4. **Publicação nas lojas**: a configuração está pronta no repositório
+4. **Cobrança de verdade**: o paywall está ligado e completo, mas o app fala
+   com a interface `Loja` (`src/entitlements/loja.ts`) e ainda não com o SDK
+   nativo. Falta instalar a biblioteca de compras, implementar essa interface
+   e chamar `configurarLoja(...)` na máquina do autor, além de criar o
+   produto `acesso_anual` no console. Passo a passo em `docs/monetizacao.md`.
+5. **Publicação nas lojas**: a configuração está pronta no repositório
    (pacote `br.com.semioguia.app`, `eas.json`, política de privacidade em
    `public/privacidade.html`, peças da ficha em `assets/loja/`); falta a
    conta de desenvolvedor e o build assinado na máquina do autor. Passo a
    passo e textos da ficha em `docs/publicar-na-loja.md`.
-5. **Fronteiras declaradas** (fora por decisão ou por silêncio das
+6. **Fronteiras declaradas** (fora por decisão ou por silêncio das
    fontes, reavaliáveis): obstetrícia (sem obra de referência no
    acervo), marcha da criança pequena e exame motor neonatal
    especializado, puericultura.
-6. **Fase futura planejada: exame físico do idoso**, por decisão do
+7. **Fase futura planejada: exame físico do idoso**, por decisão do
    autor (2026-09-03) deixa de ser fronteira aceita; capítulo próprio a
    especificar depois do fechamento do beta (fundamentos do exame
    psíquico e delirium já apontam para ele).
@@ -150,6 +161,7 @@ content/            # o conteúdo (YAML de sistemas + MD por tópico + SVGs)
 src/app/            # rotas (expo-router)
 src/design/         # tokens, tipografia, movimento, componentes de bloco
 src/content/        # schema Zod + provider
+src/entitlements/   # acesso, assinatura anual, adaptador da loja e bloqueios
 scripts/            # build de conteúdo, contraste, relatório do beta, revisão
 docs/               # deploy, Firebase, checklist de revisão, adendos por fase
 ```

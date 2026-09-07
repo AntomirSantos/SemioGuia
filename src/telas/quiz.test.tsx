@@ -1,6 +1,7 @@
 import { fireEvent, render, waitFor } from '@testing-library/react-native';
 import { ThemeProvider } from '../design/ThemeContext';
 import { ContentProvider } from '../content/ContentContext';
+import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
 import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
 import { TelaQuiz } from '../app/quiz/[...caminho]';
@@ -55,7 +56,9 @@ function renderQuiz(store: MemoryProgressStore, topicoId: string = PA_ID) {
     <ThemeProvider>
       <ContentProvider>
         <ProgressProvider store={store}>
-          <TelaQuiz topicoId={topicoId} />
+          <EntitlementsProvider>
+            <TelaQuiz topicoId={topicoId} />
+          </EntitlementsProvider>
         </ProgressProvider>
       </ContentProvider>
     </ThemeProvider>,
@@ -67,7 +70,9 @@ function renderEstudar(store: MemoryProgressStore) {
     <ThemeProvider>
       <ContentProvider>
         <ProgressProvider store={store}>
-          <TelaEstudar />
+          <EntitlementsProvider>
+            <TelaEstudar />
+          </EntitlementsProvider>
         </ProgressProvider>
       </ContentProvider>
     </ThemeProvider>,

@@ -19,6 +19,8 @@ import {
   type FiltroDeCenario,
 } from '../estudo/listas';
 import { AcaoDoVerbete, CampoDeBusca, ChipsDeFiltro, GruposPorSistema, LinhaExpansivel } from '../estudo/ListaPorSistema';
+import { useAcesso } from '../entitlements/EntitlementsContext';
+import { LinhaTrancada } from '../entitlements/LinhaTrancada';
 import { melhorClasse, CLASSE_LABEL, corDaClasse } from '../casos/desfecho';
 import { track } from '../analytics/analytics';
 import type { ClasseDesfecho } from '../content/casoSchema';
@@ -126,6 +128,7 @@ export function TelaCasos() {
   const { paleta, escala } = useTema();
   const conteudo = useConteudo();
   const progresso = useProgresso();
+  const acesso = useAcesso();
   const todos = useMemo(() => listarCasosDeEstudo(conteudo), [conteudo]);
   const [termo, setTermo] = useState('');
   const [cenario, setCenario] = useState<FiltroDeCenario>('todos');
@@ -223,6 +226,17 @@ export function TelaCasos() {
         grupos={grupos}
         chave={(item) => item.caso.id}
         renderItem={(item) => {
+          // Caso de sistema pago aparece trancado, com o título à vista.
+          if (!acesso.liberado(item.sistemaId)) {
+            return (
+              <LinhaTrancada
+                titulo={item.caso.titulo}
+                subtitulo={contarDecisoes(item.nDecisoes)}
+                oQue="caso clínico"
+                sistemaTitulo={item.sistemaTitulo}
+              />
+            );
+          }
           const aberto = abertosNaBusca ? abertosNaBusca.has(item.caso.id) : abertos.has(item.caso.id);
           const melhor = melhores[item.caso.id] ?? null;
           return (

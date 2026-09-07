@@ -13,6 +13,8 @@ import { useSync } from '../sync/orquestrador';
 import { montarFila, idDeChecklist, idDeSinal, semearTopico, type FilaDeHoje } from '../revisao/fila';
 import { TextoRico } from '../blocos/texto';
 import { idsValidosDoConteudo } from '../revisao/idsValidos';
+import { useAcesso } from '../entitlements/EntitlementsContext';
+import { filtrarItensLiberados } from '../entitlements/entitlements';
 import { amanha, avaliar, notaDeEstacao, notaDePergunta, type ItemRevisao, type NotaSm2 } from '../revisao/sm2';
 import { hojeLocal, agoraIso } from '../revisao/hoje';
 import { EstacaoOsce, type ResultadoEstacao } from '../revisao/EstacaoOsce';
@@ -293,6 +295,7 @@ export function TelaRevisao() {
   const conteudo = useConteudo();
   const progresso = useProgresso();
   const { notificarEscrita } = useSync();
+  const acesso = useAcesso();
   const { paleta, escala } = useTema();
   const [fila, setFila] = useState<FilaDeHoje | null>(null);
   const [indice, setIndice] = useState(0);
@@ -325,13 +328,15 @@ export function TelaRevisao() {
       if (novos.length > 0) {
         await Promise.all(novos.map((n) => progresso.salvarItemRevisao(n))).catch(() => {});
       }
-      const montada = montarFila([...itens, ...novos], idsValidos, hoje);
+      // A fila só traz o que este aparelho pode abrir: sem isto, uma
+      // assinatura vencida deixaria itens de sistema pago vencendo sem saída.
+      const montada = montarFila(filtrarItensLiberados([...itens, ...novos], acesso.liberado), idsValidos, hoje);
       if (!cancelado) setFila(montada);
     })();
     return () => {
       cancelado = true;
     };
-  }, [conteudo, progresso]);
+  }, [conteudo, progresso, acesso]);
 
   // Ao concluir a sessão, recarrega os itens (já refletindo as gravações
   // desta sessão) para contar quantos vencem amanhã: a "próxima leva".
@@ -342,13 +347,15 @@ export function TelaRevisao() {
       const idsValidos = idsValidosDoConteudo(conteudo);
       const itens = await progresso.listarItensRevisao();
       const limite = amanha(hojeLocal());
-      const n = itens.filter((i) => idsValidos.has(i.id) && i.proximaRevisao <= limite).length;
+      const n = filtrarItensLiberados(itens, acesso.liberado).filter(
+        (i) => idsValidos.has(i.id) && i.proximaRevisao <= limite,
+      ).length;
       if (!cancelado) setProximaLeva(n);
     })();
     return () => {
       cancelado = true;
     };
-  }, [concluida, conteudo, progresso]);
+  }, [concluida, conteudo, progresso, acesso]);
 
   // Instrumentação do beta (§4): um evento por sessão de revisão concluída.
   // `acertos`/`erros` são gravados no mesmo lote de estado que `concluida`,

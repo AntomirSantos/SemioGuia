@@ -14,6 +14,8 @@ import { montarFila, type FilaDeHoje } from '../../revisao/fila';
 import { idsValidosDoConteudo } from '../../revisao/idsValidos';
 import { hojeLocal } from '../../revisao/hoje';
 import { listarCasosDeEstudo, listarQuestoes } from '../../estudo/listas';
+import { useAcesso } from '../../entitlements/EntitlementsContext';
+import { filtrarItensLiberados } from '../../entitlements/entitlements';
 
 // Aba Estudar (reorganização pedida pelo autor, 2026-09): a aba deixa de ser
 // uma lista e vira a porta de entrada do estudo. Primeiro o que venceu hoje,
@@ -162,15 +164,24 @@ export function TelaEstudar() {
   const { paleta, escala } = useTema();
   const conteudo = useConteudo();
   const progresso = useProgresso();
+  const acesso = useAcesso();
 
-  const questoes = useMemo(() => listarQuestoes(conteudo), [conteudo]);
-  const casos = useMemo(() => listarCasosDeEstudo(conteudo), [conteudo]);
+  // As contas do hub falam do acervo que este aparelho pode abrir.
+  const questoes = useMemo(
+    () => listarQuestoes(conteudo).filter((q) => acesso.liberado(q.sistemaId)),
+    [conteudo, acesso],
+  );
+  const casos = useMemo(
+    () => listarCasosDeEstudo(conteudo).filter((c) => acesso.liberado(c.sistemaId)),
+    [conteudo, acesso],
+  );
   const totalPerguntas = useMemo(() => questoes.reduce((s, i) => s + i.nPerguntas, 0), [questoes]);
 
   const carregarFila = useCallback(async () => {
     const itens = await progresso.listarItensRevisao();
-    return montarFila(itens, idsValidosDoConteudo(conteudo), hojeLocal());
-  }, [progresso, conteudo]);
+    const liberados = filtrarItensLiberados(itens, acesso.liberado);
+    return montarFila(liberados, idsValidosDoConteudo(conteudo), hojeLocal());
+  }, [progresso, conteudo, acesso]);
   const fila = useDadosAoFocar(carregarFila);
 
   return (

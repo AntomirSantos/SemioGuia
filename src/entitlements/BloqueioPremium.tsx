@@ -1,20 +1,48 @@
-import { Pressable, Text } from 'react-native';
+import { useEffect } from 'react';
+import { Text, View } from 'react-native';
 import { router } from 'expo-router';
+import { Lock } from 'lucide-react-native';
 import { Tela } from '../design/Tela';
 import { Cabecalho } from '../design/Cabecalho';
 import { Rotulo } from '../design/Rotulo';
+import { Pressionavel } from '../design/movimento';
 import { useTema } from '../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../design/tokens';
+import { PRECO_LANCAMENTO } from '../config/paywall';
+import { track } from '../analytics/analytics';
 
-// Tela de bloqueio placeholder (beta §9.10): aparece só com PAYWALL_ATIVO
-// ligado, em tópicos de sistemas premium. Sem pagamento integrado: o
-// texto é temporário de propósito.
-export function BloqueioPremium({ sistemaTitulo }: { sistemaTitulo: string }) {
+// O que aparece no lugar de um conteúdo que a assinatura abre. Diz o que
+// existe do outro lado, sem esconder o que é, e leva a uma única ação.
+
+export function BloqueioPremium({ sistemaTitulo, oQue = 'tópico' }: { sistemaTitulo: string; oQue?: string }) {
   const { paleta, escala } = useTema();
+
+  useEffect(() => {
+    track('bloqueio_visto', { sistema: sistemaTitulo, oQue });
+    // Um registro por abertura do bloqueio.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
     <Tela>
       <Cabecalho titulo="" aoVoltar={() => router.back()} />
-      <Rotulo texto="Conteúdo premium" style={{ marginBottom: espaco.xs + 2 }} />
+      <View
+        style={{
+          alignSelf: 'flex-start',
+          flexDirection: 'row',
+          alignItems: 'center',
+          borderRadius: raio.l,
+          borderWidth: 1,
+          borderColor: paleta.linha,
+          paddingHorizontal: espaco.m,
+          paddingVertical: espaco.xs,
+          marginBottom: espaco.m,
+        }}
+      >
+        <Lock size={14} color={paleta.tinta2} />
+        <Rotulo texto="Acesso completo" cor={paleta.tinta2} style={{ marginLeft: espaco.xs }} />
+      </View>
+
       <Text
         style={{
           fontFamily: fonte.display,
@@ -24,8 +52,9 @@ export function BloqueioPremium({ sistemaTitulo }: { sistemaTitulo: string }) {
           marginBottom: espaco.m,
         }}
       >
-        {sistemaTitulo} faz parte do guia completo
+        Este {oQue} faz parte de {sistemaTitulo}
       </Text>
+
       <Text
         style={{
           fontFamily: fonte.leitura,
@@ -35,25 +64,33 @@ export function BloqueioPremium({ sistemaTitulo }: { sistemaTitulo: string }) {
           marginBottom: espaco.xl,
         }}
       >
-        Durante o beta, todo o conteúdo está aberto. Em breve, este sistema fará parte do acesso
-        completo: os aparelhos cardiovascular e respiratório continuam gratuitos.
+        A parte gratuita do SemioGuia tem quatro sistemas completos: Anamnese, Exame físico geral,
+        Aparelho cardiovascular e Aparelho respiratório, com todos os casos, checklists e verbetes
+        deles. A assinatura anual abre os outros oito, e tudo o que for publicado durante o ano.
       </Text>
-      <Pressable
+
+      <Pressionavel
         accessibilityRole="button"
-        onPress={() => router.back()}
+        accessibilityLabel="Ver o acesso completo"
+        onPress={() => router.push('/assinatura')}
         style={{
-          minHeight: 48,
-          alignSelf: 'flex-start',
+          minHeight: 52,
+          alignItems: 'center',
           justifyContent: 'center',
-          paddingHorizontal: espaco.l,
           borderRadius: raio.m,
-          backgroundColor: paleta.superficie2,
+          backgroundColor: paleta.acento,
         }}
       >
-        <Text style={{ fontFamily: fonte.corpoBold, fontSize: Math.round(tipo.corpo * escala), color: paleta.acentoTinta }}>
-          Voltar
+        <Text
+          style={{
+            fontFamily: fonte.corpoBold,
+            fontSize: Math.round(tipo.corpo * escala),
+            color: paleta.superficie,
+          }}
+        >
+          Ver o acesso completo por {PRECO_LANCAMENTO}
         </Text>
-      </Pressable>
+      </Pressionavel>
     </Tela>
   );
 }

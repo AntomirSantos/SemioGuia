@@ -1,6 +1,9 @@
 import { fireEvent, render, waitFor } from '@testing-library/react-native';
 import { ThemeProvider } from '../design/ThemeContext';
 import { ContentProvider } from '../content/ContentContext';
+import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
+import { ProgressProvider } from '../progress/ProgressContext';
+import { MemoryProgressStore } from '../progress/memoryStore';
 import Checklists from '../app/(tabs)/checklists';
 import { router } from 'expo-router';
 
@@ -17,7 +20,11 @@ async function renderChecklists() {
   return render(
     <ThemeProvider>
       <ContentProvider>
-        <Checklists />
+        <ProgressProvider store={new MemoryProgressStore()}>
+          <EntitlementsProvider>
+            <Checklists />
+          </EntitlementsProvider>
+        </ProgressProvider>
       </ContentProvider>
     </ThemeProvider>,
   );

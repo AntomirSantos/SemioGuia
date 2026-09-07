@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import { Check } from 'lucide-react-native';
+import { Check, Lock } from 'lucide-react-native';
 import { Text, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { Tela } from '../../design/Tela';
@@ -8,6 +8,8 @@ import { Pressionavel } from '../../design/movimento';
 import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useSistema } from '../../content/ContentContext';
+import { useAcesso } from '../../entitlements/EntitlementsContext';
+import { FaixaTrancada } from '../../entitlements/LinhaTrancada';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useDadosAoFocar } from '../../progress/useDadosAoFocar';
 import type { Capitulo, Topico } from '../../content/schema';
@@ -38,13 +40,15 @@ function IndicadorEstudado({ estudado }: { estudado: boolean }) {
   );
 }
 
-function LinhaTopico({ topico, estudado }: { topico: Topico; estudado: boolean }) {
+function LinhaTopico({ topico, estudado, trancado }: { topico: Topico; estudado: boolean; trancado: boolean }) {
   const { paleta, escala } = useTema();
   return (
     <Pressionavel
       accessibilityRole="button"
-      accessibilityLabel={`${topico.titulo}${estudado ? ', estudado' : ''}`}
-      onPress={() => router.push(`/topico/${topico.id}`)}
+      accessibilityLabel={
+        trancado ? `${topico.titulo}, da assinatura anual` : `${topico.titulo}${estudado ? ', estudado' : ''}`
+      }
+      onPress={() => router.push(trancado ? '/assinatura' : `/topico/${topico.id}`)}
       style={{
         flexDirection: 'row',
         alignItems: 'center',
@@ -55,15 +59,34 @@ function LinhaTopico({ topico, estudado }: { topico: Topico; estudado: boolean }
         minHeight: 44,
       }}
     >
-      <Text style={{ flex: 1, fontFamily: fonte.corpo, fontSize: Math.round(tipo.corpo * escala), color: paleta.tinta }}>
+      <Text
+        style={{
+          flex: 1,
+          fontFamily: fonte.corpo,
+          fontSize: Math.round(tipo.corpo * escala),
+          color: trancado ? paleta.tinta2 : paleta.tinta,
+        }}
+      >
         {topico.titulo}
       </Text>
-      <IndicadorEstudado estudado={estudado} />
+      {trancado ? (
+        <Lock size={16} color={paleta.tinta2} style={{ marginLeft: espaco.s }} />
+      ) : (
+        <IndicadorEstudado estudado={estudado} />
+      )}
     </Pressionavel>
   );
 }
 
-function SecaoCapitulo({ capitulo, estudados }: { capitulo: Capitulo; estudados: Set<string> }) {
+function SecaoCapitulo({
+  capitulo,
+  estudados,
+  trancado,
+}: {
+  capitulo: Capitulo;
+  estudados: Set<string>;
+  trancado: boolean;
+}) {
   const { paleta, escala } = useTema();
   const topicos = [...capitulo.topicos].sort((a, b) => a.ordem - b.ordem);
   const total = topicos.length;
@@ -75,11 +98,11 @@ function SecaoCapitulo({ capitulo, estudados }: { capitulo: Capitulo; estudados:
           {capitulo.titulo}
         </Text>
         <Text style={{ fontFamily: fonte.corpo, fontSize: Math.round(tipo.small * escala), color: paleta.tinta2 }}>
-          {estudadosCount} de {total} estudados
+          {trancado ? `${total} tópicos` : `${estudadosCount} de ${total} estudados`}
         </Text>
       </View>
       {topicos.map((topico) => (
-        <LinhaTopico key={topico.id} topico={topico} estudado={estudados.has(topico.id)} />
+        <LinhaTopico key={topico.id} topico={topico} estudado={estudados.has(topico.id)} trancado={trancado} />
       ))}
     </View>
   );
@@ -88,6 +111,7 @@ function SecaoCapitulo({ capitulo, estudados }: { capitulo: Capitulo; estudados:
 export default function TelaSistema() {
   const { sistemaId } = useLocalSearchParams<{ sistemaId: string }>();
   const sistema = useSistema(sistemaId);
+  const acesso = useAcesso();
   const progresso = useProgresso();
   const carregarEstudados = useCallback(async () => new Set(await progresso.listarEstudados()), [progresso]);
   const estudados = useDadosAoFocar(carregarEstudados) ?? new Set<string>();
@@ -101,12 +125,16 @@ export default function TelaSistema() {
   }
 
   const capitulos = [...sistema.capitulos].sort((a, b) => a.ordem - b.ordem);
+  const trancado = !acesso.liberado(sistema.id);
 
   return (
     <Tela>
       <Cabecalho titulo={sistema.titulo} cor={sistema.cor} aoVoltar={() => router.back()} />
+      {/* Sistema pago mostra o índice inteiro, com cadeado: o aluno vê o que
+          existe antes de decidir, em vez de bater numa porta cega. */}
+      {trancado ? <FaixaTrancada sistemaTitulo={sistema.titulo} /> : null}
       {capitulos.map((capitulo) => (
-        <SecaoCapitulo key={capitulo.id} capitulo={capitulo} estudados={estudados} />
+        <SecaoCapitulo key={capitulo.id} capitulo={capitulo} estudados={estudados} trancado={trancado} />
       ))}
     </Tela>
   );

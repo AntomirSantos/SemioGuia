@@ -1,6 +1,7 @@
 import { fireEvent, render, waitFor } from '@testing-library/react-native';
 import { ThemeProvider } from '../design/ThemeContext';
 import { ContentProvider } from '../content/ContentContext';
+import { EntitlementsProvider } from '../entitlements/EntitlementsContext';
 import { ProgressProvider } from '../progress/ProgressContext';
 import { MemoryProgressStore } from '../progress/memoryStore';
 import type { ItemRevisao } from '../revisao/sm2';
@@ -62,11 +63,13 @@ function renderPerfil(store: MemoryProgressStore) {
     <ThemeProvider>
       <ContentProvider>
         <ProgressProvider store={store}>
-          <AuthProvider>
-            <SyncProvider>
-              <TelaPerfil />
-            </SyncProvider>
-          </AuthProvider>
+          <EntitlementsProvider>
+            <AuthProvider>
+              <SyncProvider>
+                <TelaPerfil />
+              </SyncProvider>
+            </AuthProvider>
+          </EntitlementsProvider>
         </ProgressProvider>
       </ContentProvider>
     </ThemeProvider>,

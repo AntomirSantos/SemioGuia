@@ -11,6 +11,8 @@ import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useConteudo } from '../../content/ContentContext';
 import { agruparPorSistema, filtrarSinais, listarSinais, type SinalDePlantao } from '../../plantao/sinais';
+import { useAcesso } from '../../entitlements/EntitlementsContext';
+import { LinhaTrancada } from '../../entitlements/LinhaTrancada';
 import { track } from '../../analytics/analytics';
 
 // Modo plantão (produto 2026-09): "achei X no exame, e agora?". A resposta
@@ -136,6 +138,7 @@ function LinhaSinal({
 export default function Plantao() {
   const { paleta, escala } = useTema();
   const conteudo = useConteudo();
+  const acesso = useAcesso();
   const sinais = useMemo(() => listarSinais(conteudo), [conteudo]);
   const [termo, setTermo] = useState('');
   const [abertos, setAbertos] = useState<Set<string>>(new Set());
@@ -248,6 +251,19 @@ export default function Plantao() {
           </View>
           {grupo.sinais.map((sinal) => {
             const chave = chaveDoSinal(sinal);
+            // Verbete de sistema pago aparece trancado: o nome do achado fica
+            // à vista, porque saber que ele existe já é parte da orientação.
+            if (!acesso.liberado(sinal.sistemaId)) {
+              return (
+                <LinhaTrancada
+                  key={chave}
+                  titulo={sinal.nome}
+                  subtitulo={sinal.topicoTitulo}
+                  oQue="verbete do plantão"
+                  sistemaTitulo={sinal.sistemaTitulo}
+                />
+              );
+            }
             return (
               <LinhaSinal
                 key={chave}

@@ -19,7 +19,7 @@ import { semearTopico } from '../../revisao/fila';
 import { agoraIso, hojeLocal } from '../../revisao/hoje';
 import { track } from '../../analytics/analytics';
 import { FolhaFeedback } from '../../feedback/FolhaFeedback';
-import { topicoBloqueado } from '../../entitlements/entitlements';
+import { useAcesso } from '../../entitlements/EntitlementsContext';
 import { BloqueioPremium } from '../../entitlements/BloqueioPremium';
 import type { Bloco, QuizPergunta, Topico } from '../../content/schema';
 
@@ -148,6 +148,7 @@ export function TelaTopico({ topicoId, ancora }: { topicoId: string; ancora?: st
   const topico = useTopico(topicoId);
   const sistema = useSistema(topico?.sistemaId ?? '');
   const progresso = useProgresso();
+  const acesso = useAcesso();
   const { notificarEscrita } = useSync();
   const [estudado, setEstudado] = useState(false);
   const [favorito, setFavorito] = useState(false);
@@ -260,9 +261,9 @@ export function TelaTopico({ topicoId, ancora }: { topicoId: string; ancora?: st
   }
   const topicoAtual: Topico = topico;
 
-  // Freemium (beta §9.10): com PAYWALL_ATIVO desligado, topicoBloqueado é
-  // sempre false e nada muda; ligado, sistemas premium mostram o bloqueio.
-  if (topicoBloqueado(topicoAtual.sistemaId)) {
+  // Freemium: com PAYWALL_ATIVO desligado, tudo fica liberado; ligado, os
+  // sistemas fora da faixa gratuita mostram a tela de assinatura.
+  if (!acesso.liberado(topicoAtual.sistemaId)) {
     return <BloqueioPremium sistemaTitulo={sistema?.titulo ?? topicoAtual.sistemaId} />;
   }
 

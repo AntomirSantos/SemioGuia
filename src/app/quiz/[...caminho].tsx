@@ -7,6 +7,8 @@ import { Rotulo } from '../../design/Rotulo';
 import { useTema } from '../../design/ThemeContext';
 import { espaco, fonte, raio, tipo } from '../../design/tokens';
 import { useTopico } from '../../content/ContentContext';
+import { PortaoDeAcesso } from '../../entitlements/PortaoDeAcesso';
+import { sistemaDoTopicoId } from '../../entitlements/entitlements';
 import { useProgresso } from '../../progress/ProgressContext';
 import { useSync } from '../../sync/orquestrador';
 import { useSessao } from '../../quiz/useSessao';
@@ -186,5 +188,9 @@ export function TelaQuiz({ topicoId }: { topicoId: string }) {
 export default function QuizRoute() {
   const { caminho } = useLocalSearchParams<{ caminho: string | string[] }>();
   const topicoId = Array.isArray(caminho) ? caminho.join('/') : (caminho ?? '');
-  return <TelaQuiz topicoId={topicoId} />;
+  return (
+    <PortaoDeAcesso sistemaId={sistemaDoTopicoId(topicoId)} oQue="quiz">
+      <TelaQuiz topicoId={topicoId} />
+    </PortaoDeAcesso>
+  );
 }
