@@ -227,8 +227,8 @@ assets/loja/        # ícone, destaque e capturas da ficha da loja
 public/             # o que vai junto no export web (política de privacidade)
 ```
 
-Documentos que vale abrir primeiro: `docs/monetizacao.md` (anúncios,
-compra e preço), `docs/publicar-na-loja.md` (ficha e build assinado),
+Documentos que vale abrir primeiro: `docs/rodar-no-computador.md` (trazer o
+projeto para a sua máquina), `docs/monetizacao.md` (anúncios, compra e preço), `docs/publicar-na-loja.md` (ficha e build assinado),
 `docs/casos-para-revisao.md` (fila de endosso) e
 `docs/deploy-gh-pages.md` (publicação da web).
 
