@@ -10,6 +10,9 @@ do que as obras não cobrem declaradas ao leitor.
 
 **Web (PWA):** https://antomirsantos.github.io/SemioGuia/
 
+**Para trazer o projeto para o seu computador**, com Git, Node, Claude Code e
+o comando de teleport: `docs/rodar-no-computador.md`.
+
 ---
 
 ## Estado atual (set/2026)
@@ -33,7 +36,7 @@ o uso offline.
 | Ilustrações SVG | **59** em uso (temáveis via `currentColor`; cobertura em `npm run relatorio:ilustracoes`) |
 | Sons de ausculta | **20** (10 sintetizados por script e 10 gravações clínicas reais: HF_Lung_V1 CC BY 4.0 e CirCor DigiScope ODC-BY 1.0), com fonocardiograma sincronizado |
 | Acesso | Anamnese e Exame físico geral abertos; os outros dez abrem com um anúncio, por aba e por sessão. R$ 24,90 uma vez tiram os anúncios e liberam o uso offline |
-| Testes | **70 suítes / 498 testes** verdes |
+| Testes | **72 suítes / 504 testes** verdes |
 
 ## Como o app se sustenta
 
@@ -86,6 +89,8 @@ O corte por sistema da versão anterior segue no código, dormente atrás de
   tudo respeitando `prefers-reduced-motion`
 - **Progresso**: SQLite (`expo-sqlite`) + repetição espaçada **SM-2**
   (fila de revisão diária)
+- **Conectividade**: `expo-network`, para a regra de que usar o app sem
+  internet faz parte da compra
 - **Acesso**: compra única que remove os anúncios e libera o offline, regime
   de liberação por anúncio premiado (`src/anuncios/`) e o corte por sistema
   dormente (`src/entitlements/`)
@@ -123,12 +128,15 @@ O corte por sistema da versão anterior segue no código, dormente atrás de
   como o plantão (busca instantânea, grupos por sistema, linhas que
   abrem no lugar com histórico de acerto e desfecho)
 - **Perfil**: progresso, data da prova, bibliografia do guia, o bloco
-  "Seu acesso" com o estado da assinatura, preferências, tema claro e
-  escuro, exportação dos dados de uso, feedback, versão do app e conta
-  (atrás da flag de sync)
+  "Seu acesso" com o estado da compra, preferências, tema claro e escuro,
+  exportação dos dados de uso, feedback, versão do app e conta (atrás da
+  flag de sync)
 - **Sem anúncios, e offline**: a tela da compra única, com o que ela muda, o
   acervo que já é seu, o preço, a promessa de não renovar nem vencer, e a
   restauração de compra
+- **Peças do regime de anúncios**: o portão de tela cheia ao abrir um sistema
+  ainda fechado, a barra de liberação no lugar das linhas de um grupo nas
+  listas, e a parede de conexão para quem está sem rede e sem compra
 
 ## O que falta
 
@@ -195,7 +203,7 @@ npx expo start          # i = iOS, a = Android, w = web
 Antes de qualquer publicação, os gates:
 
 ```bash
-npm test                # 70 suítes / 498 testes
+npm test                # 72 suítes / 504 testes
 npx tsc --noEmit
 npm run checar:contraste
 npm run checar:rv
@@ -221,16 +229,23 @@ src/revisao/        # SM-2, fila do dia e semeadura
 src/casos/          # motor dos casos ramificados
 src/progress/       # SQLite e preferências
 src/sync/           # Firebase (atrás de flag)
+src/testes/         # pilha de provedores e mocks compartilhados pelos testes
 scripts/            # build de conteúdo, gates, relatórios e geradores de mídia
 docs/               # deploy, Firebase, monetização, publicação e revisões
 assets/loja/        # ícone, destaque e capturas da ficha da loja
 public/             # o que vai junto no export web (política de privacidade)
 ```
 
-Documentos que vale abrir primeiro: `docs/rodar-no-computador.md` (trazer o
-projeto para a sua máquina), `docs/monetizacao.md` (anúncios, compra e preço), `docs/publicar-na-loja.md` (ficha e build assinado),
-`docs/casos-para-revisao.md` (fila de endosso) e
-`docs/deploy-gh-pages.md` (publicação da web).
+Documentos que vale abrir primeiro:
+
+| Documento | Para quê |
+|---|---|
+| `docs/rodar-no-computador.md` | trazer o projeto para a sua máquina e teleportar a sessão |
+| `docs/monetizacao.md` | anúncios, compra única, preço e o que a loja exige |
+| `docs/publicar-na-loja.md` | ficha da loja e build assinado |
+| `docs/casos-para-revisao.md` | fila de endosso dos 67 casos |
+| `docs/firebase-setup.md` | ligar a sincronização de progresso |
+| `docs/deploy-gh-pages.md` | publicar a versão web |
 
 O conteúdo é autoral e cita as obras por capítulo e seção (páginas
 apenas onde conferidas na fonte); os livros de referência **não** fazem
