@@ -1,172 +1,236 @@
 # Trazer o SemioGuia para o seu computador
 
 Passo a passo para sair da nuvem e continuar no desktop, com o Claude tendo
-acesso à sua máquina. Escrito em 7 de setembro de 2026.
+acesso à sua máquina. Escrito em 7 de setembro de 2026, para a v1.2.37.
 
 Isto é o que destrava tudo o que hoje está parado: instalar as bibliotecas de
 anúncio e de compra, gerar o build de desenvolvimento, ligar o Firebase e
 produzir o pacote assinado para a Play Store. Nada disso pode ser feito de
-dentro da nuvem.
+dentro da nuvem, porque a sessão da nuvem roda num computador da Anthropic que
+não é o seu.
 
-O caminho tem quatro partes. As três primeiras são de instalação e você faz
-uma vez só na vida. A quarta é o teleport, e leva menos de um minuto.
+São 12 passos. Os oito primeiros são instalação, e você faz uma vez só na
+vida. O passo 9 é o teleport, e leva menos de um minuto.
+
+Ao lado de cada comando vem **o que você deve ver** quando ele termina. Se o
+que aparecer for diferente, pule para a seção "Quando algo dá errado", no fim.
 
 ---
 
-## Parte 1: instalar o Git
+## Antes de começar
 
-O Git é o programa que baixa e versiona o código.
+**Onde digitar os comandos.** No Windows, use o **PowerShell**: aperte a tecla
+Windows, digite "powershell" e abra. No Mac, use o **Terminal**: aperte
+Command e espaço, digite "terminal" e abra.
 
-**Windows.** Baixe em <https://git-scm.com/downloads/win> e instale clicando
-em "Next" até o fim. Ele traz junto o **Git Bash**, um terminal que o Claude
-Code prefere no Windows.
+**Como funciona.** Você digita uma linha e aperta Enter. O programa responde
+com texto. Não existe clique, e isso é tudo o que há para aprender.
 
-**macOS.** Abra o Terminal (Command + espaço, digite "Terminal") e rode:
+**Copiar e colar.** No PowerShell, o clique com o botão direito cola. No
+Terminal do Mac, Command mais V.
 
-```bash
+---
+
+## Passo 1: instalar o Git
+
+O Git é o programa que baixa o código e guarda o histórico dele.
+
+**Windows.** Baixe em <https://git-scm.com/downloads/win>, abra o arquivo e
+clique em "Next" até o fim, sem mudar nada. Ele instala junto o **Git Bash**,
+um terminal que o Claude Code prefere no Windows.
+
+**macOS.** No Terminal:
+
+```
 xcode-select --install
 ```
 
-Se disser que já está instalado, ótimo, pule.
+Abre uma janela pedindo para instalar as ferramentas de linha de comando.
+Aceite. Se responder que já estão instaladas, ótimo, siga em frente.
 
-Para conferir, em qualquer um dos dois:
+## Passo 2: conferir o Git
 
-```bash
+Feche o terminal, abra de novo (isto é necessário: o terminal só enxerga
+programas novos depois de reaberto) e digite:
+
+```
 git --version
 ```
 
-Tem que aparecer um número de versão.
+**O que você deve ver:** algo como `git version 2.47.1`. O número não importa.
 
 ---
 
-## Parte 2: instalar o Node.js
+## Passo 3: instalar o Node.js
 
 O Node é o que roda o aplicativo e os testes.
 
-Nos dois sistemas: baixe a versão **LTS** em <https://nodejs.org> e instale
-com as opções padrão. Feche e abra o terminal depois de instalar, senão ele
-não enxerga o programa novo.
+Nos dois sistemas: entre em <https://nodejs.org> e baixe a versão marcada
+como **LTS** (é a estável, e fica à esquerda). Abra o arquivo e instale com as
+opções que já vêm marcadas.
 
-Para conferir:
+## Passo 4: conferir o Node
 
-```bash
+Feche e abra o terminal outra vez, e digite:
+
+```
 node --version
 ```
 
-Precisa aparecer algo como `v22.x.x` ou maior.
+**O que você deve ver:** `v22.x.x` ou um número maior. Se aparecer v18 ou
+menos, o site te deu a versão errada: volte ao Passo 3 e escolha a LTS.
 
 ---
 
-## Parte 3: instalar o Claude Code
+## Passo 5: instalar o Claude Code
 
 **Windows**, no PowerShell (o prompt começa com `PS C:\`):
 
-```powershell
+```
 irm https://claude.ai/install.ps1 | iex
 ```
 
+Se der o erro `'irm' is not recognized`, você está no Prompt de Comando e não
+no PowerShell. Feche e abra o PowerShell.
+
 **macOS**, no Terminal:
 
-```bash
+```
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-Para conferir:
+## Passo 6: conferir o Claude Code
 
-```bash
+Feche e abra o terminal, e digite:
+
+```
 claude --version
 ```
 
-Depois, entre na sua conta. Rode `claude`, e ele abre o navegador pedindo
-login: **use a mesma conta claude.ai que você usa aqui na nuvem**, senão o
-teleport não acha esta conversa. Se já estiver logado com outra, digite
-`/login` dentro do Claude Code para trocar. Saia com `/exit`.
+**O que você deve ver:** um número seguido de `(Claude Code)`.
+
+## Passo 7: entrar na sua conta
+
+Digite:
+
+```
+claude
+```
+
+Ele abre o navegador pedindo login. **Use a mesma conta claude.ai que você usa
+na nuvem.** Se entrar com outra, o teleport não vai achar a conversa.
+
+Terminado o login, saia digitando:
+
+```
+/exit
+```
+
+**Atenção:** se você já usava o Claude Code com uma chave de API, ele não vai
+pedir login. Nesse caso, rode `claude`, digite `/login` dentro dele e entre
+pela conta.
 
 ---
 
-## Parte 4: baixar o SemioGuia
+## Passo 8: baixar o SemioGuia
 
-Escolha onde a pasta vai ficar. No exemplo, dentro de Documentos:
+Escolha onde a pasta vai ficar. No exemplo, dentro de Documentos. Digite as
+três linhas, uma de cada vez:
 
-**Windows** (no Git Bash ou no PowerShell):
-
-```bash
+```
 cd ~/Documents
 git clone https://github.com/AntomirSantos/SemioGuia.git
 cd SemioGuia
 ```
 
-**macOS**:
+**O que você deve ver:** várias linhas de `Receiving objects`, terminando sem
+a palavra `error`. Depois disso, o prompt passa a mostrar que você está dentro
+da pasta SemioGuia.
 
-```bash
-cd ~/Documents
-git clone https://github.com/AntomirSantos/SemioGuia.git
-cd SemioGuia
+Se o GitHub pedir usuário e senha, saiba que ele não quer a sua senha, e sim
+um token. O caminho mais simples é instalar o **GitHub CLI**
+(<https://cli.github.com>) e rodar, uma vez:
+
+```
+gh auth login
 ```
 
-Se o GitHub pedir usuário e senha, ele quer na verdade um token de acesso, e
-não a sua senha. O caminho mais simples é instalar o **GitHub CLI**
-(<https://cli.github.com>) e rodar `gh auth login` uma vez.
+Escolha GitHub.com, HTTPS, e autentique pelo navegador. Depois repita as três
+linhas acima.
 
-O projeto vive no branch `claude/claude-code-mobile-8l8cdb`, e é ele que o
-clone traz. Para conferir onde você está:
+Para confirmar que está no lugar certo:
 
-```bash
+```
 git branch --show-current
 ```
 
+**O que você deve ver:** `claude/claude-code-mobile-8l8cdb`. É onde o projeto
+inteiro vive.
+
 ---
 
-## Parte 5: o teleport
+## Passo 9: o teleport
 
-Dentro da pasta `SemioGuia`, rode:
+Ainda dentro da pasta SemioGuia, digite:
 
-```bash
+```
 claude --teleport session_01St6id4X8pTyYktyDryAgTm
 ```
 
-Ele confere que você está no repositório certo, busca o branch da sessão e
-carrega **esta conversa inteira** no seu terminal. A partir daí é continuar
-falando normalmente, e agora o Claude tem acesso à sua máquina.
+**O que acontece:** ele confere que você está no repositório certo, busca o
+branch da sessão, carrega **a conversa inteira** e abre o Claude Code já com
+todo o histórico. A partir daí é só continuar falando, e agora ele tem acesso
+ao seu computador.
 
 Dois atalhos, se preferir não digitar o identificador:
 
-- `claude --teleport` sem nada abre uma lista das suas sessões para escolher.
+- `claude --teleport`, sem mais nada, abre uma lista das suas sessões.
 - Na interface web, no menu da sessão, **Open in > Terminal** copia o comando
-  pronto.
+  pronto para colar.
 
-**O que muda depois disso.** O terminal ganha a sua própria cópia da conversa.
-O que acontecer lá não aparece mais na web nem no celular, e o contrário
-também. É uma bifurcação, não um espelho. Se quiser continuar mandando recado
-do celular para a sessão local, ligue o `/remote-control` nela.
+### O que muda depois do teleport
+
+O terminal ganha **a sua própria cópia** da conversa. O que acontecer lá não
+aparece mais na web nem no celular, e o contrário também. É uma bifurcação,
+não um espelho.
+
+Se quiser continuar mandando recado do celular para a sessão que agora vive no
+computador, ligue nela o `/remote-control`.
 
 ---
 
-## Parte 6: rodar o aplicativo na sua máquina
+## Passo 10: instalar as dependências do projeto
 
-Isto é opcional para o teleport, mas você vai querer ver o app rodando.
-Dentro da pasta, uma vez:
+Dentro da pasta, uma vez só:
 
-```bash
+```
 npm install
 ```
 
-Demora alguns minutos e baixa muita coisa. É normal.
+**O que você deve ver:** alguns minutos de texto passando e, no fim, uma linha
+dizendo quantos pacotes foram adicionados. Avisos em amarelo (`warn`) são
+normais e podem ser ignorados.
 
-Depois, sempre que quiser abrir:
+## Passo 11: ver o aplicativo rodando
 
-```bash
+```
 npm run build:content
 npx expo start
 ```
 
-O terminal mostra um menu: aperte `w` para abrir no navegador. Para ver no
-celular, instale o **Expo Go** e aponte a câmera para o QR code que aparece,
-com o celular na mesma rede do computador.
+O terminal mostra um menu. Aperte **`w`** para abrir no navegador.
 
-Para conferir que está tudo são, os mesmos portões que rodam aqui:
+Para ver no celular: instale o aplicativo **Expo Go**, deixe o celular na
+mesma rede do computador e aponte a câmera para o QR code que apareceu no
+terminal.
 
-```bash
+Para parar, aperte Ctrl e C ao mesmo tempo.
+
+## Passo 12: conferir que está tudo são
+
+Os mesmos portões que rodam na nuvem antes de cada publicação:
+
+```
 npm test
 npx tsc --noEmit
 npm run checar:contraste
@@ -176,40 +240,73 @@ npm run checar:fontes
 npm run checar:versao
 ```
 
+**O que você deve ver:** no `npm test`, `72 passed` nas suítes e `504 passed`
+nos testes. Nos demais, uma linha começando com `OK:`. O `npx tsc --noEmit`
+não responde nada quando está tudo certo, e silêncio ali é boa notícia.
+
 ---
 
-## Parte 7: o que fazer assim que chegar lá
+## O que fazer assim que chegar lá
 
-Em ordem de importância, e todos com o passo a passo já escrito:
+Em ordem, e todos com o passo a passo já escrito no repositório:
 
 1. **Ligar o SDK de anúncios e o de compras**: implementar as interfaces
    `Anuncios` (`src/anuncios/anuncios.ts`) e `Loja`
    (`src/entitlements/loja.ts`) e chamar `configurarAnuncios(...)` e
-   `configurarLoja(...)`. Ver `docs/monetizacao.md`.
-2. **Criar a conta de desenvolvedor e o produto `sem_anuncios`** no console
-   do Google Play. Ver `docs/publicar-na-loja.md`.
+   `configurarLoja(...)`. Ver `docs/monetizacao.md`, seção "Como se liga a
+   cobrança".
+2. **Criar a conta de desenvolvedor do Google Play** e o produto avulso
+   `sem_anuncios` a R$ 24,90. Ver `docs/publicar-na-loja.md`.
 3. **Gerar o build de desenvolvimento** com EAS, necessário para testar os
-   dois SDKs acima.
-4. **Ligar o Firebase**, se quiser a sincronização de progresso entre
-   aparelhos. Ver `docs/firebase-setup.md`.
-5. **Endossar os 67 casos clínicos**, que é a única tarefa que ninguém além
-   de você pode fazer. Fila por sistema em `docs/casos-para-revisao.md`.
+   dois SDKs num celular de verdade.
+4. **Refazer a política de privacidade** por causa dos anúncios, e ligar o SDK
+   de consentimento da LGPD.
+5. **Ligar o Firebase**, se quiser sincronizar o progresso entre aparelhos.
+   Ver `docs/firebase-setup.md`.
+6. **Endossar os 67 casos clínicos**, a única tarefa que ninguém além de você
+   pode fazer. Fila por sistema em `docs/casos-para-revisao.md`.
+
+É só pedir cada uma delas ao Claude depois do teleport. Ele já conhece o
+projeto inteiro, porque a conversa vai junto.
 
 ---
 
-## Se algo der errado
+## Quando algo dá errado
 
-**"claude não é reconhecido como comando"**: feche e abra o terminal. Se
-persistir, reinstale pela Parte 3 e confira com `claude --version`.
+**"claude não é reconhecido como comando"** (ou `command not found`). Feche e
+abra o terminal. Se persistir, refaça o Passo 5 e confira com
+`claude --version`.
 
-**O teleport reclama de alterações não salvas**: você mexeu em algum arquivo
-da pasta. Ele oferece guardar num stash; aceite, ou rode `git stash` antes.
+**O teleport reclama de alterações não salvas.** Algum arquivo da pasta foi
+modificado. Ele oferece guardar as mudanças num stash; aceite. Ou rode
+`git stash` antes e tente de novo.
 
-**O teleport diz que o repositório está errado**: você não está dentro da
-pasta `SemioGuia`. Rode `pwd` (ou `cd`, no PowerShell) para ver onde está.
+**O teleport diz que o repositório está errado.** Você não está dentro da
+pasta SemioGuia. Digite `cd ~/Documents/SemioGuia` e repita.
 
-**"Unable to get organization UUID"**: você está logado por chave de API em
-vez da conta claude.ai. Rode `claude`, depois `/login`, e entre pela conta.
+**"Unable to get organization UUID".** Você está autenticado por chave de API
+em vez da conta claude.ai. Rode `claude`, digite `/login`, entre pela conta, e
+tente o teleport de novo.
 
-**`npm install` falha**: quase sempre é versão velha do Node. Confira com
-`node --version` e reinstale a LTS pela Parte 2.
+**`npm install` falha com erros vermelhos.** Quase sempre é versão velha do
+Node. Confira com `node --version` e refaça o Passo 3 com a versão LTS.
+
+**O QR code do Expo não conecta no celular.** Celular e computador precisam
+estar na mesma rede. Rede de hospital e rede de faculdade costumam bloquear
+isso: use os dados móveis do celular como roteador, ou apenas o navegador do
+computador, com a tecla `w`.
+
+---
+
+## Uma nota sobre o Android Studio
+
+Você não precisa dele para nada do que está acima, e provavelmente não vai
+precisar dele nem para publicar: o SemioGuia é React Native com Expo, e o
+pacote assinado sai pelo EAS Build, compilado na nuvem do Expo.
+
+Se um dia quiser abrir o projeto nativo no Android Studio, o comando que gera
+a pasta `android/` a partir do que já existe é `npx expo prebuild -p android`.
+Ele não reescreve nada: o código continua todo em TypeScript, e o Android
+Studio vira só a casca em volta. A recomendação é deixar essa pasta fora do
+Git e regenerar quando precisar, para que o `app.json` continue sendo a fonte
+da verdade do ícone, do nome do pacote e das permissões.
