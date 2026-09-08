@@ -298,6 +298,50 @@ computador, com a tecla `w`.
 
 ---
 
+## Instalar o claude-council (opcional)
+
+O <https://github.com/hex/claude-council> não é uma habilidade, é um **plugin**
+do Claude Code: ele acrescenta os comandos `/claude-council:ask`, `:advise`,
+`:status` e `:result`, que fazem a mesma pergunta a vários modelos de empresas
+diferentes ao mesmo tempo e mostram as respostas lado a lado, com uma síntese
+do que concordaram e do que divergiram.
+
+**Não dá para instalar pela nuvem.** O comando `/plugin` não existe nas sessões
+da web, e este contêiner é descartado no fim. É uma coisa a fazer no seu
+computador, depois do teleport. São duas linhas, digitadas dentro do Claude
+Code:
+
+```
+/plugin marketplace add hex/claude-marketplace
+/plugin install claude-council
+```
+
+**O que ele exige para funcionar:** `curl` e `jq` instalados, e pelo menos um
+provedor configurado. Ou uma chave de API de outra empresa (`OPENAI_API_KEY`,
+`GEMINI_API_KEY`, `XAI_API_KEY`, `PERPLEXITY_API_KEY`, `KIMI_API_KEY`,
+`OPENROUTER_API_KEY`), ou o CLI de um desses serviços já instalado e logado,
+ou um `ollama` rodando na sua máquina. No Windows ele pede o Git Bash, que
+você já vai ter instalado pelo Passo 1.
+
+**Três coisas para saber antes de ligar:**
+
+1. **O conteúdo sai daqui.** A pergunta e o contexto do projeto vão para as
+   empresas dos modelos consultados. No SemioGuia isso significa prosa
+   ancorada em obras protegidas e casos clínicos ainda não publicados saindo
+   para OpenAI, Google, xAI e afins. É uma decisão sua, e vale ser uma
+   decisão, não um acidente.
+2. **Custa por token**, nas chaves de API. Pelos CLIs, usa a assinatura que
+   você já tiver.
+3. **Ele instala um gatilho automático** (um hook de Stop) que roda um script
+   ao fim de cada turno. Ele vem desligado: só age se existir um arquivo
+   `.claude/council-stop-gate.json` com `enabled: true`, tem limite de
+   repetições e falha liberando em vez de travar. É um cuidado bem feito, mas
+   é um script que passa a existir na máquina.
+
+Se um dia quiser tirar: `/plugin uninstall claude-council`.
+
+---
+
 ## Uma nota sobre o Android Studio
 
 Você não precisa dele para nada do que está acima, e provavelmente não vai
