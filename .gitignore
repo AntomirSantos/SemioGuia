@@ -48,3 +48,7 @@ __pycache__/
 # PDFs gerados por scripts/md2pdf.py a partir de docs/: o documento é a
 # fonte, o PDF é uma saída e se regenera com um comando.
 SemioGuia-*.pdf
+
+# Baralho do Anki gerado por scripts/gerar-anki.py: o conteúdo é a fonte,
+# o baralho é uma saída e se regenera com `npm run anki`.
+SemioGuia*.apkg

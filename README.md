@@ -212,6 +212,11 @@ npm run checar:fontes
 npm run checar:versao
 ```
 
+Saídas que o conteúdo gera: `npm run anki` (baralho do Anki com 817 cartas,
+detalhes em `docs/baralho-anki.md`) e
+`python3 scripts/md2pdf.py docs/<arquivo>.md <saida>.pdf "<rodapé>"` (um
+documento do `docs/` em PDF, na identidade editorial).
+
 Relatórios de apoio: `npm run revisao:status` (o que falta revisar),
 `npm run relatorio:ilustracoes` (cobertura visual) e
 `npm run relatorio:beta` (dados de uso exportados do app).
@@ -245,6 +250,7 @@ Documentos que vale abrir primeiro:
 | `docs/publicar-na-loja.md` | ficha da loja e build assinado |
 | `docs/casos-para-revisao.md` | fila de endosso dos 67 casos |
 | `docs/firebase-setup.md` | ligar a sincronização de progresso |
+| `docs/baralho-anki.md` | o baralho do Anki gerado do conteúdo |
 | `docs/deploy-gh-pages.md` | publicar a versão web |
 
 O conteúdo é autoral e cita as obras por capítulo e seção (páginas
