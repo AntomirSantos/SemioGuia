@@ -212,7 +212,7 @@ npm run checar:fontes
 npm run checar:versao
 ```
 
-Saídas que o conteúdo gera: `npm run anki` (baralho do Anki com 817 cartas,
+Saídas que o conteúdo gera: `npm run anki` (baralho do Anki com 966 cartas,
 detalhes em `docs/baralho-anki.md`) e
 `python3 scripts/md2pdf.py docs/<arquivo>.md <saida>.pdf "<rodapé>"` (um
 documento do `docs/` em PDF, na identidade editorial).

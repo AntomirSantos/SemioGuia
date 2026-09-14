@@ -51,6 +51,26 @@ def lista_html(itens, ordenada=False) -> str:
     return f'<{tag}>{linhas}</{tag}>'
 
 
+def tabela_html(colunas, linhas) -> str:
+    cabecalho = ''.join(f'<th>{html.escape(c)}</th>' for c in colunas)
+    corpo = ''
+    for linha in linhas:
+        celulas = ''.join(f'<td>{para_html(c) if c else ""}</td>' for c in linha)
+        corpo += f'<tr>{celulas}</tr>'
+    return f'<table class="comparacao"><thead><tr>{cabecalho}</tr></thead><tbody>{corpo}</tbody></table>'
+
+
+ROTULO_ETAPA = {'inicio': 'Início', 'decisao': 'Decisão', 'acao': 'Ação', 'fim': 'Fim'}
+
+
+def fluxo_html(etapas) -> str:
+    itens = ''
+    for etapa in etapas:
+        rotulo = ROTULO_ETAPA.get(etapa['formato'], etapa['formato'])
+        itens += (f'<li><span class="etapa">{rotulo}</span> {para_html(etapa["texto"])}</li>')
+    return f'<ol class="fluxo">{itens}</ol>'
+
+
 def limpar_tag(valor: str) -> str:
     return re.sub(r'[^a-z0-9-]+', '-', valor.lower()).strip('-')
 
@@ -99,6 +119,23 @@ ul, ol { margin: 0 0 10px; padding-left: 22px; }
 li { margin-bottom: 4px; }
 b { color: #111111; }
 code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.9em; }
+table.comparacao { border-collapse: collapse; width: 100%; margin: 10px 0; font-size: 16px; }
+table.comparacao th, table.comparacao td {
+  border-bottom: 1px solid #DDDDDD; padding: 7px 9px; text-align: left; vertical-align: top;
+}
+table.comparacao th {
+  font-family: -apple-system, 'Public Sans', 'Segoe UI', sans-serif;
+  font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #6B6B6B;
+  border-bottom: 2.5px solid #111111;
+}
+table.comparacao td p { margin: 0; }
+ol.fluxo { list-style: none; padding-left: 0; }
+ol.fluxo li { border-left: 2.5px solid #111111; padding: 2px 0 2px 12px; margin-bottom: 8px; }
+.etapa {
+  font-family: -apple-system, 'Public Sans', 'Segoe UI', sans-serif;
+  font-size: 10.5px; letter-spacing: 1px; text-transform: uppercase; color: #8E1F2F;
+  display: block;
+}
 .nightMode.card, .night_mode .card { color: #ECEAE5; background-color: #14161A; }
 .nightMode .contexto, .night_mode .contexto,
 .nightMode .rotulo, .night_mode .rotulo,
@@ -107,6 +144,12 @@ code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.9em; 
 .nightMode b, .night_mode b { color: #ECEAE5; }
 .nightMode .correta, .night_mode .correta { color: #63C08C; }
 .nightMode .fonte a, .night_mode .fonte a { color: #E08A98; }
+.nightMode table.comparacao th, .night_mode table.comparacao th {
+  color: #9C9C9C; border-bottom-color: #ECEAE5;
+}
+.nightMode table.comparacao td, .night_mode table.comparacao td { border-bottom-color: #333333; }
+.nightMode ol.fluxo li, .night_mode ol.fluxo li { border-left-color: #ECEAE5; }
+.nightMode .etapa, .night_mode .etapa { color: #E08A98; }
 """
 
 RODAPE = """
@@ -187,6 +230,8 @@ SUBBARALHOS = {
     'resumo': 'Em três linhas',
     'roteiro': 'Roteiros e manobras',
     'relampago': 'Casos relâmpago',
+    'entender': 'Raciocínio (entender)',
+    'tabela': 'Tabelas e comparações',
     'som': 'Ausculta',
 }
 
@@ -341,6 +386,38 @@ def gerar(saida: str) -> None:
                             guid=genanki.guid_for(f'relampago:{ident}'),
                         )
                         deck_de(sistema, 'relampago').add_note(nota)
+
+                    elif tipo == 'entendimento':
+                        contar('entender')
+                        nota_basica(
+                            deck_de(sistema, 'entender'), f'entendimento:{ident}',
+                            f'<b>{html.escape(bloco["titulo"])}</b><br>'
+                            '<span style="font-size:15px">O que o guia explica aqui?</span>',
+                            para_html(bloco['texto']), '',
+                            contexto, fonte, link, tags + ['SemioGuia::tipo::entendimento'],
+                        )
+
+                    elif tipo == 'fluxograma':
+                        contar('entender')
+                        titulo = bloco.get('titulo') or f'Fluxo de decisão em {topico["titulo"]}'
+                        nota_basica(
+                            deck_de(sistema, 'entender'), f'fluxograma:{ident}',
+                            f'<b>{html.escape(titulo)}</b><br>'
+                            '<span style="font-size:15px">Qual o caminho de decisão, do início ao fim?</span>',
+                            fluxo_html(bloco['etapas']), '',
+                            contexto, fonte, link, tags + ['SemioGuia::tipo::fluxograma'],
+                        )
+
+                    elif tipo == 'tabela':
+                        contar('tabela')
+                        colunas = ', '.join(bloco['colunas'])
+                        nota_basica(
+                            deck_de(sistema, 'tabela'), f'tabela:{ident}',
+                            f'<b>{html.escape(bloco["titulo"])}</b><br>'
+                            f'<span style="font-size:15px">Compare por: {html.escape(colunas)}.</span>',
+                            tabela_html(bloco['colunas'], bloco['linhas']), '',
+                            contexto, fonte, link, tags + ['SemioGuia::tipo::tabela'],
+                        )
 
                     elif tipo == 'som':
                         arquivo = os.path.join(SONS, f'{bloco["arquivo"]}.wav')

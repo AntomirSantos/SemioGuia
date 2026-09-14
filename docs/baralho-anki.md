@@ -46,10 +46,33 @@ e o respiratório têm "Ausculta".
 | Em três linhas | blocos `resumo` | o nome do tópico | as três frases de saída |
 | Roteiros e manobras | blocos `checklist` e `manobra` | o nome do roteiro | os passos, na ordem |
 | Casos relâmpago | blocos `relampago` | a cena e a decisão | a conduta e o desfecho |
+| Raciocínio (entender) | blocos `entendimento` e `fluxograma` | o título que o autor deu ao ponto | a explicação, ou o caminho de decisão inteiro |
+| Tabelas e comparações | blocos `tabela` | o título e por quais colunas comparar | a tabela inteira |
 | Ausculta | blocos `som` | o áudio, sem o nome | o achado e a descrição |
 
-São cerca de 817 cartas, incluindo uma carta de rosto no baralho raiz que diz
-de onde o material veio e o que ele não cobre.
+São 966 cartas, incluindo uma carta de rosto no baralho raiz que diz de onde o
+material veio e o que ele não cobre.
+
+Nenhuma dessas frentes foi inventada: cada bloco de `entendimento` e cada
+`tabela` já tem um título escrito pelo autor, e é ele que vira a pergunta.
+
+## Cobertura, bloco a bloco
+
+Dos 15 tipos de bloco do conteúdo, 11 viram carta, e todos eles integralmente:
+
+| Bloco | No conteúdo | No baralho |
+|---|---|---|
+| `sinal` | 186 | 186 |
+| `quiz` | 327 perguntas | 327 |
+| `tabela` | 104 | 104 |
+| `manobra` | 64 | 64 |
+| `pense` | 55 | 55 |
+| `relampago` | 55 | 55 |
+| `resumo` | 55 | 55 |
+| `checklist` | 53 | 53 |
+| `entendimento` | 44 | 44 |
+| `som` | 21 | 21 |
+| `fluxograma` | 1 | 1 |
 
 ## O que não vira carta, e por quê
 
@@ -60,9 +83,21 @@ app. Os casos relâmpago, que são de decisão única, viram carta sem perda.
 
 **As ilustrações.** São SVG animados, que dependem do renderizador do app.
 
-**Conceito, pérola, tabela e cena.** São texto de leitura, não recuperação. O
-que eles ensinam chega às cartas pelo caminho certo, que são as questões, os
-resumos e as perguntas de recuperação ativa escritas para isso.
+**Os outros quatro tipos de bloco**, que são leitura e não recuperação:
+
+- `conceito` (665) é o corpo do guia, a prosa que se lê uma vez com atenção.
+  Virar 665 cartas de parágrafo seria trocar um guia bom por um baralho ruim.
+- `perola` (113) são as citações de destaque. São ótimas de ler e não têm
+  pergunta: transformá-las em carta exigiria eu inventar a pergunta, que é
+  exatamente o que este gerador se proíbe de fazer.
+- `cena` (55) é a vinheta que abre cada tópico, escrita para preparar a
+  leitura, não para ser lembrada isoladamente.
+- `secao` (420) são os títulos que dividem o tópico, e `ilustracao` (59)
+  depende do renderizador do app.
+
+O que esses quatro ensinam chega às cartas pelo caminho certo: as questões, os
+resumos, as tabelas e as perguntas de recuperação ativa que o autor escreveu
+justamente para isso.
 
 ## Reimportar não duplica
 
