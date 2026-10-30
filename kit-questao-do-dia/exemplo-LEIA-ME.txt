@@ -1,0 +1,45 @@
+PEÇA 54 — UNICAMP: TRIÂNGULO RETÂNGULO COM LADOS EM P.A.  ·  AssessoriaENEM
+============================================================================
+Fonte: IMG_2452.MOV — 3840x2160, 120,8 s. Entregue em 1080x1920.
+
+ENTREGAS
+  54-questao-15s.mp4          recorte de 3,0 s a 18,0 s, fundo desfocado,
+                              áudio original mudo + trilha própria
+  54-resolucao-completo.mp4   120,8 s -> 111,0 s, com os cortes abaixo, selo
+                              "RESOLUÇÃO #54" no canto superior direito e o
+                              CTA do app aedu de 1:42 ao fim
+  capa-54-questao.jpg         capa 1080x1920, composição dividida
+  capa-54-resolucao.jpg       capa 1080x1920, rosto grande
+
+O QUE FOI CORTADO (9,8 s)
+  0,0 - 2,5 s      ele entrando em quadro, antes de falar
+  118,6 - 120,8 s  silêncio final
+  respiros         as 16 pausas entre as frases, reduzidas a ~0,16 s cada
+  Não havia erro de fala para cortar: conferi a transcrição inteira e ele
+  não repete nem se corrige em nenhum momento.
+
+ESPELHAMENTO
+  Este vídeo NÃO estava espelhado — o quadro já lia corretamente no bruto.
+  (Foi o da peça 51 que precisou de inversão.)
+
+PEÇAS EDITÁVEIS (PNG com transparência)
+  card.png       1080x1920 — sobreposição inteira da questão
+                 logo ............. topo 96 px, centralizada, 300 px
+                 triângulo ........ topo 360 px, 560 x 384 px
+                 bloco da questão . x 82..998   y 860..1480
+                 "Marque sua resposta 👇"  y 1600..1670
+  selo54.png     300x126 — colar em x=740  y=215
+  faixa_app.png  1020x250 — CTA do app aedu; colar em x=30  y=1250, com
+                 fade de 0,5 s, a partir de 1:42
+  aedu-logo-branca.png  logo oficial em branco, fundo transparente
+  bed.wav        trilha do recorte de 15 s
+
+RESPOSTA CORRETA: C) 1,5 m²
+  lados em P.A.:  x-r , x , x+r   ->  perímetro 3x = 6  ->  x = 2
+  Pitágoras:  (2+r)² = 2² + (2-r)²  ->  4 + 4r + r² = 4 + 4 - 4r + r²
+              8r = 4  ->  r = 1/2
+  lados:  1,5 · 2 · 2,5   (é o 3-4-5 dividido por 2)
+  área = (1,5 × 2)/2 = 1,5 m²
+
+ALTERNATIVAS
+  Esta questão já vinha com quatro, então nenhuma foi retirada.

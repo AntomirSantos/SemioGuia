@@ -1,0 +1,62 @@
+PEÇA 57 — UFMG: FUNÇÃO f(1/x)  ·  AssessoriaENEM
+============================================================================
+Fonte: IMG_2655.mov — 3840x2160 (vertical), 77,3 s. Entregue em 1080x1920.
+
+ENTREGAS
+  57-questao-15s.mp4          recorte de 0,0 s a 15,0 s, fundo desfocado,
+                              áudio original mudo + trilha própria (bed.wav)
+  57-resolucao-completo.mp4   77,3 s -> 71,7 s, com os cortes abaixo, selo
+                              "RESOLUÇÃO #57" no canto superior direito e os
+                              botões curte/comenta/compartilha nos 4 s finais
+  capa-57-questao.jpg         capa 1080x1920, composição dividida
+                              (curva de f(x) + "f(1/x) = ?" à esquerda)
+  capa-57-resolucao.jpg       capa 1080x1920, rosto grande
+
+JANELA DO RECORTE DE 15 S
+  0,0 - 15,0 s. Ele já está em quadro desde o primeiro quadro, falando para
+  a câmera. A primeira coisa que ele escreve é o "f(" de f(1/x), por volta de
+  13,3 s; nenhuma conta aparece até o fim da janela, e esse "f(" some no
+  desfoque. O vídeo não tem 15 s antes disso, então não havia janela mais
+  limpa.
+
+O QUE FOI CORTADO (5,6 s)
+  0,0 - 0,28 s     silêncio de entrada
+  respiros         as 16 pausas entre as frases, reduzidas a ~0,16 s cada
+                   (silencedetect -34 dB / 0,32 s, pad de 0,08 s)
+  fim              não havia silêncio final: a fala ("...para acompanhar
+                   mais") vai até o último quadro
+  Erros de fala: conferi a transcrição inteira. Não há começo falso nem
+  frase repetida. Há só uma gagueira de uma sílaba dentro de "fica"
+  (~65,6 s, "e fi-fica"), sem pausa onde emendar; ficou como está.
+
+ESPELHAMENTO
+  Este vídeo ESTAVA espelhado — o quadro lia de trás para a frente no bruto.
+  Foi aplicado hflip nos dois vídeos; as capas saíram de quadros já
+  corrigidos.
+
+PEÇAS EDITÁVEIS (PNG com transparência)
+  card.png       1080x1920 — sobreposição inteira da questão (sem figura)
+                 logo ............. topo 96 px, centralizada, 330 px
+                 bloco da questão . x 230..850   y 600..1398
+                 "Marque sua resposta 👇"  y 1600..1670
+  selo57.png     300x126 — colar em x=740  y=215 (canto livre o vídeo todo)
+  botoes.png     1000x226 — curte/comenta/compartilha; colar em x=40 y=1250,
+                 fade de 0,4 s, de 1:07,7 ao fim (ele pede engajamento:
+                 "Curta, comenta, compartilha" — não fala do app)
+  figura57.svg   desenho da capa da questão (curva fora de escala)
+  aedu-logo-branca.png  logo oficial em branco, fundo transparente
+  bed.wav        trilha do recorte de 15 s
+
+RESPOSTA CORRETA: D) x² / (x² + 1)
+  f(x) = 1/(x² + 1)  ->  troca x por 1/x:
+  f(1/x) = 1 / ((1/x)² + 1) = 1 / (1/x² + 1)
+  1/x² + 1 = (1 + x²)/x²
+  f(1/x) = 1 / ((1 + x²)/x²) = x²/(x² + 1)
+  Confere com o que ele escreve no fim do quadro: x²/(1 + x²).
+
+ALTERNATIVAS
+  A original tinha cinco (A–E). Saiu a E) N.D.A.: "nenhuma das anteriores"
+  não é uma conta errada que alguém faria, não funciona numa enquete e é o
+  distrator mais fraco. A–D ficaram com as mesmas letras e na mesma ordem;
+  a correta continua sendo a D.
+    A) x² + 1   B) (x² + 1)/x²   C) 1/(x² + 1)   D) x²/(x² + 1)
