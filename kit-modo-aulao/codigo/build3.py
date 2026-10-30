@@ -14,6 +14,8 @@ def inp(nome, *args):
     ins.extend(args); I[nome] = sum(1 for a in ins if a == "-i") - 1
 inp("vid", "-i", "dl/vid.mp4"); inp("fs", "-i", "dl/fs02.mp4")
 VOZ = os.environ.get("VOZ", "vid_clean.wav"); BED = float(os.environ.get("BED", "0.16"))
+# voz já normalizada (loudnorm linear em 2 passagens): no fim só um limitador de pico, sem AGC que levante o ruído
+FINAL = "aresample=192000,alimiter=limit=0.7:attack=5:release=50:level=false,aresample=48000" if os.environ.get("VOZ_NORMALIZADA") else "loudnorm=I=-14:TP=-1.5:LRA=11"
 inp("voz", "-i", VOZ); 
 inp("tag", "-i", "ov/tag.png"); inp("painel", "-i", "rev/painel.mov"); inp("graf", "-i", "graf/graf.mov")
 inp("logo", "-i", "../kit/marca/logo_aeenem.png")
@@ -66,11 +68,11 @@ f.append(f"[voz]asplit=2[vz1][vz2]")
 f.append(f"[{I['bed']}:a]atrim=0:{TOT},asetpts=PTS-STARTPTS,aresample=48000,volume={BED},"
          f"afade=t=in:d=0.6,afade=t=out:st={TOT - 1.5}:d=1.5[bd]")
 f.append("[bd][vz1]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=450:makeup=1[bdk]")
-f.append("[vz2][bdk]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[a]")
-vk = int((29 * 8 * 1024) / TOT) - 128
+f.append(f"[vz2][bdk]amix=inputs=2:duration=first:normalize=0,{FINAL},aresample=48000[a]")
+vk = int((29 * 8 * 1024) / TOT) - 200   # 192 kbps de áudio + folga do contêiner
 cmd = ["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(f), "-map", "[v]", "-map", "[a]",
        "-r", "30", "-c:v", "libx264", "-profile:v", "high", "-preset", "slow", "-crf", "21",
        "-maxrate", f"{vk}k", "-bufsize", f"{2*vk}k", "-pix_fmt", "yuv420p",
-       "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", sys.argv[1]]
+       "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", sys.argv[1]]
 print("duração prevista", round(TOT, 2), "maxrate", vk)
 subprocess.run(cmd, check=True)

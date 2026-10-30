@@ -177,27 +177,51 @@ não entra destaque repetindo a letra.
 - **Onde:** concatenado no fim.
 - **Se mudar:** se o produto ou as datas forem outros, peça o card novo.
 
-## 8. Áudio — padrão aprovado: "estúdio seco" (versão 2)
+## 8. Áudio: padrão aprovado "microfone de estúdio" (A + brilho)
+
+Aprovado em 30/10/2026, no lugar do "estúdio seco". A meta é soar como
+microfone profissional de estúdio sem trocar nenhuma palavra.
 
 1. **WPE** (`codigo/wpe_dereverb.py`): `nara_wpe`, STFT 1024/256 em 48 kHz,
    taps 30, delay 3, 3 iterações.
-2. **Cauda de reverberação, método de Lebart** (`codigo/dereverb.py`):
-   T60 1,2 s, piso −15 dB.
-3. **Cadeia ffmpeg:**
+2. **Denoiser da Meta**, Demucs DNS64 (`codigo/denoiser_meta.py`;
+   `pip install --no-deps denoiser julius hydra-core`; os pesos baixam de
+   dl.fbaipublicfiles.com). Ele sai em **16 kHz**.
+3. **Híbrido de faixas** (devolve o "ar" acima de 8 kHz):
+   - **graves e médios:** a saída do Denoiser em 48 kHz, com passa-baixa
+     7400 Hz (2 vezes, 2 polos);
+   - **agudos:** a versão "estúdio seco" (WPE + Lebart T60 1,2/−15 + a cadeia
+     antiga), com passa-alta 7400 Hz (2 vezes) e ganho 0,55;
+   - as duas faixas somadas com `amix normalize=0`.
+4. **Microfone de estúdio, quente com brilho:**
    ```
-   highpass=f=100,afftdn=nr=16:nf=-50:tn=1,
-   equalizer=f=250:t=q:w=1.0:g=-3,equalizer=f=450:t=q:w=1.2:g=-3,
-   equalizer=f=3300:t=q:w=1.0:g=3,equalizer=f=9500:t=q:w=1.2:g=2,
-   deesser=i=0.45,agate=threshold=0.018:ratio=3:range=0.12:attack=3:release=110,
-   acompressor=threshold=0.08:ratio=4:attack=5:release=130:makeup=2.4,lowpass=f=15000
+   highpass=f=65,equalizer=f=105:t=q:w=0.8:g=3.5,equalizer=f=330:t=q:w=1.3:g=-3.5,
+   equalizer=f=4500:t=q:w=1.1:g=3,equalizer=f=11000:t=h:w=0.7:g=3,deesser=i=0.5,
+   acompressor=threshold=0.09:ratio=3.5:attack=15:release=220:makeup=2.2,
+   aexciter=amount=0.75:drive=2.5:blend=0:freq=5000,alimiter=limit=0.9:attack=4:release=50
    ```
-4. **Sem trilha de fundo.**
-5. **Efeitos:** whoosh 0,32; acerto 0,55; tique 0,5.
-6. **Final:** `loudnorm=I=-14:TP=-1.5:LRA=11`.
+5. **Nível:** ganho fixo até ~−14,5 LUFS (`volume=+X dB`) + `alimiter`. **NÃO**
+   use `loudnorm` dinâmico no final: ele age como controle automático de
+   volume e levanta o ruído das pausas.
+6. **Saída:** `aresample=192000,alimiter=limit=0.7,aresample=48000`, que pega
+   os picos entre amostras; AAC 192 kbps; pico real ≤ −2 dBFS.
+   No `build3.py`: `VOZ=voz_A_final.wav VOZ_NORMALIZADA=1 BED=0`.
+7. **Sem trilha.** Efeitos: whoosh 0,32; acerto 0,55; tique 0,5.
 
-**Como medir:** voz acima do eco (RMS 0,4 s antes da pausa − RMS 80–280 ms
-depois). Original 13,8 dB → aprovado 36,5 dB. Confira com Whisper que a fala
-continua inteligível.
+**Testado e descartado:**
+- **VoiceFixer:** nota mais alta, mas **troca palavras** ("você vendo essa
+  questão" virou "você vê nessa questão"; "norte-americano" virou "no
+  Anglicano").
+- **DeepFilterNet:** indisponível aqui.
+
+**Como medir:**
+- **Nota de qualidade:** DNSMOS P.835 (`codigo/dnsmos.py`; o modelo
+  `sig_bak_ovr.onnx` vem de raw.githubusercontent.com/microsoft/DNS-Challenge),
+  sempre com o **nível igualado** a −25 dBFS RMS, porque o DNSMOS muda com o
+  volume. Referência da Q84, nota geral: bruto 1,98 → estúdio seco 2,59 →
+  aprovado 3,34 na voz e 3,25 no vídeo final.
+- **Palavras:** confira com o Whisper medium. Use `initial_prompt` com nomes
+  próprios ("Assessoria ENEM") antes de culpar o tratamento.
 
 ## 9. Miniaturas (duas opções)
 
