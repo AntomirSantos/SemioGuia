@@ -1,0 +1,13 @@
+KIT MODO AULÃO — AssessoriaENEM
+===============================
+PROMPT-modo-aulao.md   o padrão completo (leia primeiro)
+marca/                 logo AssessoriaENEM, símbolo ENEM, Poppins (css base64 + ttf),
+                       whoosh/tique/acerto e o CTA final "Aulões ENEM" (cta_aulao.mp4)
+codigo/                os scripts usados na peça Q84 (Rosa Parks). Os textos, tempos e
+                       caminhos são dessa peça: adapte timeline.py (cortes, janelas,
+                       destaques), reveal.py (texto da questão) e grafico.py (cards).
+                       Ordem: transcricao_palavras -> timeline -> reveal -> grafico ->
+                       wpe_dereverb + dereverb + cadeia ffmpeg (PROMPT §8) -> build3.
+                       Capas: recorte -> capa_infra (+ capa5/capa6 como exemplo).
+exemplo-q84/           miniaturas finais aprovadas, variação em teste e as fotos usadas
+Vídeo final da Q84: VID-aulao-rosa-parks.mp4 (áudio "estúdio seco").
