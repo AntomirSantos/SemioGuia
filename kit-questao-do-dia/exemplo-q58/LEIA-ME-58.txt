@@ -1,0 +1,69 @@
+PEÇA 58 — MACKENZIE-SP: GRÁFICO DE y = a + b/x  ·  AssessoriaENEM
+============================================================================
+Fonte: IMG_2658.mov — 3840x2160 (vertical), 103,9 s. Entregue em 1080x1920.
+
+ENTREGAS
+  58-questao-15s.mp4          recorte de 0,0 s a 15,0 s, fundo desfocado,
+                              áudio original mudo + trilha própria (bed.wav)
+  58-resolucao-completo.mp4   103,9 s -> 89,2 s, com os cortes abaixo, selo
+                              "RESOLUÇÃO #58" no canto SUPERIOR ESQUERDO e os
+                              botões curte/comenta/compartilha nos 4 s finais
+  capa-58-questao.jpg         capa 1080x1920, composição dividida
+                              (hipérbole + "a^b = ?" à esquerda)
+  capa-58-resolucao.jpg       capa 1080x1920, rosto grande
+
+JANELA DO RECORTE DE 15 S
+  0,0 - 15,0 s. Ele já está no quadro desde o primeiro quadro, falando para
+  a câmera e apontando o gráfico. O gráfico e "y = a + b/x" já estavam
+  escritos antes da gravação (são o enunciado). A primeira conta, "(-1,0)",
+  começa por volta de 17 s, fora da janela.
+
+O QUE FOI CORTADO (14,7 s)
+  0,0 - 0,25 s     silêncio de entrada
+  respiros         as 23 pausas entre as frases, reduzidas a ~0,16 s cada
+                   (silencedetect -34 dB / 0,32 s, pad de 0,08 s)
+  76,72 - 80,67 s  REPETIÇÃO: ele diz "3 meios de a igual a 3" duas vezes
+                   seguidas; saiu a segunda, mais a pausa depois dela. O corte
+                   entra num vão de -50 dB entre o "3," e o segundo "3 meios".
+  103,23 s - fim   silêncio final
+  Sem começo falso. A fala do professor não foi corrigida.
+
+ESPELHAMENTO
+  Este vídeo ESTAVA espelhado (o "(-1,0)" lia "(0,1-)" no bruto). Foi
+  aplicado hflip nos dois vídeos; as capas saíram de quadros já corrigidos.
+
+PEÇAS EDITÁVEIS (PNG com transparência)
+  card.png       1080x1920 — sobreposição inteira da questão
+                 logo ............. topo 96 px, centralizada, 330 px
+                 figura ........... x 270..810   y 410..812 (hipérbole SVG)
+                 bloco da questão . x 137..943   y 880..1485
+                 "Marque sua resposta 👇"  y 1640..1710
+  selo58.png     300x126 — colar em x=30  y=180. NÃO no padrão x=740 y=215:
+                 ali o selo cobria a fórmula "y = a + b/x" escrita no quadro.
+                 O canto superior esquerdo fica livre o vídeo inteiro.
+  botoes.png     1000x226 — curte/comenta/compartilha; colar em x=40 y=1250,
+                 fade de 0,4 s, de 1:25,2 ao fim (ele pede engajamento:
+                 "Curte, comenta, compartilha" — não fala do app)
+  figura58.svg   desenho da capa (hipérbole fora de escala, "a^b = ?")
+  aedu-logo-branca.png  logo oficial em branco, fundo transparente
+  bed.wav        trilha do recorte de 15 s
+
+RESPOSTA CORRETA: D) 4
+  y = a + b/x
+  Ponto (-1, 0):  0 = a + b/(-1) = a - b      ->  b = a
+  Ponto (2, 3):   3 = a + b/2  ->  3 = a + a/2 = 3a/2  ->  a = 2, b = 2
+  a^b = 2^2 = 4
+  Conferido no print: a assíntota tracejada mede y = 2 (= a). Confere com o
+  que ele escreve no fim do quadro: 2^2 = 4.
+
+ALTERNATIVAS
+  A original tinha cinco: A) 1/√2  B) √3  C) 2  D) 4  E) 1/4.
+  Saiu a A) 1/√2 = 2^(-1/2): erra em dois aspectos ao mesmo tempo (sinal e
+  expoente fracionário), é o distrator mais fraco. As quatro que ficaram
+  foram postas em ordem crescente e renomeadas:
+    A) 1/4   B) √3   C) 2   D) 4   (correta continua sendo a D)
+
+DESENHO
+  Hipérbole redesenhada em SVG, fora de escala de propósito. Só entra o que a
+  questão dá: os pontos -1, 2 e 3 e a assíntota tracejada SEM valor (o 2 é o
+  que a conta produz).

@@ -41,3 +41,15 @@ o que foi preciso ajustar ao rodá-lo na nuvem na peça 57 (UFMG, f(1/x)).
 ## Exemplo completo
 `exemplo-q57/` traz os scripts da peça (card, capas, botões), o LEIA-ME
 entregue, as capas, o card, o selo e a figura.
+
+## O que a peça 58 acrescentou (Mackenzie, y = a + b/x)
+- **Selo fora do padrão:** a fórmula do enunciado estava escrita no canto
+  superior direito do quadro; o selo foi para x=30, y=180 (canto superior
+  esquerdo, livre o vídeo todo). Confira sempre antes de fixar.
+- **Repetição sem pausa entre as frases:** procure um vão de energia
+  (< -40 dB por 50 ms) entre as duas falas e corte ali.
+- **Capa "objeto central" com rosto atrás:** o desenho cobria o rosto. Ficou
+  dividida (questão) + rosto grande (resolução).
+- **Loudnorm em uma passada** ficou em -15,7 LUFS; use duas passadas
+  (`linear=true`) para chegar em -14.
+- Exemplo completo em `exemplo-q58/`.
