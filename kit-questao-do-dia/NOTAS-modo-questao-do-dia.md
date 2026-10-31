@@ -61,6 +61,9 @@ entregue, as capas, o card, o selo e a figura.
   com os dois seguintes por DTW de MFCC e retranscreva isolado os pares
   parecidos. Corte só em vãos < -40 dB e confira que a palavra seguinte não
   perdeu a primeira sílaba (o 1º corte da 58 deixou "coação").
+- **Travadas ao escrever:** quando ele para no meio da frase para olhar o
+  quadro (meia sílaba + mão indo até a fórmula), corte do fim da última
+  palavra inteira até a retomada. Na 58: 27,10-28,44 s.
 - **Repetição sem pausa entre as frases:** procure um vão de energia
   (< -40 dB por 50 ms) entre as duas falas e corte ali.
 - **Capa "objeto central" com rosto atrás:** o desenho cobria o rosto. Ficou

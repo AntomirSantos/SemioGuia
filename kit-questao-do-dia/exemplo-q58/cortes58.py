@@ -18,6 +18,8 @@ corte += [[30.70, 31.58],                       # 2º "menos b" (repetido)
           [31.60, 32.14],                       # "beleza," (muleta)
           [10.45, 10.57], [23.25, 23.41], [87.29, 87.47],  # respiros com ruído acima de -42 dB
           # palavras repetidas / gaguejos (achados por DTW de MFCC entre trechos vizinhos)
+          [27.10, 28.44],                       # TRAVADA ao escrever a 1ª equação: "a, so-" e a mão
+                                                # indo até a fórmula e voltando -> "igual a a, b sobre menos 1"
           [33.88, 35.04],                       # "primeira e.. e.. equação" -> "primeira equação"
           [43.58, 43.93],                       # "o y, o y vai valer" -> "o y vai valer"
           [60.64, 60.95],                       # "en- então" -> "então"

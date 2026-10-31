@@ -5,7 +5,7 @@ Fonte: IMG_2658.mov — 3840x2160 (vertical), 103,9 s. Entregue em 1080x1920.
 ENTREGAS
   58-questao-15s.mp4          recorte de 0,0 s a 15,0 s, fundo desfocado,
                               áudio original mudo + trilha própria (bed.wav)
-  58-resolucao-completo.mp4   103,9 s -> 77,6 s, com os cortes abaixo, selo
+  58-resolucao-completo.mp4   103,9 s -> 77,0 s, com os cortes abaixo, selo
                               "RESOLUÇÃO #58" no canto SUPERIOR ESQUERDO e os
                               botões curte/comenta/compartilha nos 4 s finais
   capa-58-questao.jpg         capa 1080x1920, composição dividida
@@ -18,7 +18,7 @@ JANELA DO RECORTE DE 15 S
   escritos antes da gravação (são o enunciado). A primeira conta, "(-1,0)",
   começa por volta de 17 s, fora da janela.
 
-O QUE FOI CORTADO (26,3 s) — revisão 3: fluidez + palavras repetidas
+O QUE FOI CORTADO (26,9 s) — revisão 3: fluidez + palavras repetidas
   0,0 - 0,6 s      silêncio de entrada
   pausas           TODA pausa entre palavras (>= 0,14 s abaixo de -42 dB,
                    medida em banda cheia) virou 0,10 s. Ele fala palavra por
@@ -26,6 +26,9 @@ O QUE FOI CORTADO (26,3 s) — revisão 3: fluidez + palavras repetidas
                    deixava essas pausas e o vídeo arrastava.
   respiros         10,45-10,57 · 23,25-23,41 · 87,29-87,47 (ruído de
                    respiração acima de -42 dB, por isso cortados à mão)
+  27,10 - 28,44 s  TRAVADA ao escrever a 1ª equação (0 = a - b): ele diz
+                   "a, so-", para e leva a mão até a fórmula antes de seguir.
+                   Fica "0 é igual a a, b sobre menos 1".
   30,70 - 31,58 s  REPETIÇÃO: "menos b, menos b" — saiu o segundo
   31,60 - 32,14 s  MULETA: "beleza," — fica "menos b, temos a nossa
                    primeira equação"
@@ -60,7 +63,7 @@ PEÇAS EDITÁVEIS (PNG com transparência)
                  No padrão x=740 y=215 ele tapava a fórmula "y = a + b/x"
                  escrita no quadro; o Antomir pediu para não tapar a questão.
   botoes.png     1000x226 — curte/comenta/compartilha; colar em x=40 y=1250,
-                 fade de 0,4 s, de 1:13,6 ao fim (ele pede engajamento:
+                 fade de 0,4 s, de 1:13,0 ao fim (ele pede engajamento:
                  "Curte, comenta, compartilha" — não fala do app)
   figura58.svg   desenho da capa (hipérbole fora de escala, "a^b = ?")
   aedu-logo-branca.png  logo oficial em branco, fundo transparente
