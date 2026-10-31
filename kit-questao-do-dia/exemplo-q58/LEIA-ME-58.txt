@@ -5,7 +5,7 @@ Fonte: IMG_2658.mov — 3840x2160 (vertical), 103,9 s. Entregue em 1080x1920.
 ENTREGAS
   58-questao-15s.mp4          recorte de 0,0 s a 15,0 s, fundo desfocado,
                               áudio original mudo + trilha própria (bed.wav)
-  58-resolucao-completo.mp4   103,9 s -> 81,3 s, com os cortes abaixo, selo
+  58-resolucao-completo.mp4   103,9 s -> 77,6 s, com os cortes abaixo, selo
                               "RESOLUÇÃO #58" no canto SUPERIOR ESQUERDO e os
                               botões curte/comenta/compartilha nos 4 s finais
   capa-58-questao.jpg         capa 1080x1920, composição dividida
@@ -18,7 +18,7 @@ JANELA DO RECORTE DE 15 S
   escritos antes da gravação (são o enunciado). A primeira conta, "(-1,0)",
   começa por volta de 17 s, fora da janela.
 
-O QUE FOI CORTADO (22,6 s) — revisão 2, para dar fluidez
+O QUE FOI CORTADO (26,3 s) — revisão 3: fluidez + palavras repetidas
   0,0 - 0,6 s      silêncio de entrada
   pausas           TODA pausa entre palavras (>= 0,14 s abaixo de -42 dB,
                    medida em banda cheia) virou 0,10 s. Ele fala palavra por
@@ -29,9 +29,18 @@ O QUE FOI CORTADO (22,6 s) — revisão 2, para dar fluidez
   30,70 - 31,58 s  REPETIÇÃO: "menos b, menos b" — saiu o segundo
   31,60 - 32,14 s  MULETA: "beleza," — fica "menos b, temos a nossa
                    primeira equação"
+  33,88 - 35,04 s  GAGUEJO: "primeira e.. e.. equação" -> "primeira equação"
+  43,58 - 43,93 s  REPETIÇÃO: "o y, o y vai valer" -> "o y vai valer"
+  60,64 - 60,95 s  GAGUEJO: "en- então" -> "então"
   72,62 - 74,84 s  REPETIÇÃO: "3 meios," solto antes da frase completa
   76,80 - 80,72 s  REPETIÇÃO: 2ª vez de "3 meios de a igual a 3"
+  81,84 - 83,03 s  REPETIÇÃO: "passando os, os, o- 3 meios" -> "passando os 3 meios"
+  85,48 - 85,76 s  GAGUEJO: "isso fi- fica" -> "isso fica"
+  93,40 - 94,55 s  MULETA: "quer saber, é, a elevado a b" -> "quer saber a elevado a b"
   103,0 s - fim    silêncio final
+  Como foram achadas: o Whisper "limpa" repetições na transcrição, então cada
+  trecho entre pausas foi comparado com os vizinhos (DTW de MFCC) e
+  retranscrito isolado.
   Todos os cortes de conteúdo caem em vãos abaixo de -45 dB. A transcrição
   do vídeo cortado foi conferida: nenhuma palavra foi comida. "Fechou" ficou
   (não há vão limpo entre ele e o "agora"). A fala do professor não foi
@@ -51,7 +60,7 @@ PEÇAS EDITÁVEIS (PNG com transparência)
                  No padrão x=740 y=215 ele tapava a fórmula "y = a + b/x"
                  escrita no quadro; o Antomir pediu para não tapar a questão.
   botoes.png     1000x226 — curte/comenta/compartilha; colar em x=40 y=1250,
-                 fade de 0,4 s, de 1:17,3 ao fim (ele pede engajamento:
+                 fade de 0,4 s, de 1:13,6 ao fim (ele pede engajamento:
                  "Curte, comenta, compartilha" — não fala do app)
   figura58.svg   desenho da capa (hipérbole fora de escala, "a^b = ?")
   aedu-logo-branca.png  logo oficial em branco, fundo transparente

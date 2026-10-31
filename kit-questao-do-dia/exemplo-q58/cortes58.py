@@ -17,6 +17,13 @@ corte.append([103.00, 103.88])                  # silêncio final
 corte += [[30.70, 31.58],                       # 2º "menos b" (repetido)
           [31.60, 32.14],                       # "beleza," (muleta)
           [10.45, 10.57], [23.25, 23.41], [87.29, 87.47],  # respiros com ruído acima de -42 dB
+          # palavras repetidas / gaguejos (achados por DTW de MFCC entre trechos vizinhos)
+          [33.88, 35.04],                       # "primeira e.. e.. equação" -> "primeira equação"
+          [43.58, 43.93],                       # "o y, o y vai valer" -> "o y vai valer"
+          [60.64, 60.95],                       # "en- então" -> "então"
+          [81.84, 83.03],                       # "passando os, os, o- 3 meios" -> "passando os 3 meios"
+          [85.48, 85.76],                       # "isso fi- fica" -> "isso fica"
+          [93.40, 94.55],                       # "quer saber, é, a elevado" -> "quer saber, a elevado"
           [72.62, 74.84],                       # "3 meios," solto antes da frase
           [76.80, 80.72]]                       # 2ª vez de "3 meios de a igual a 3"
 corte.sort(); m = []

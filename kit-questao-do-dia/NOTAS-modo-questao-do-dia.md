@@ -55,6 +55,12 @@ entregue, as capas, o card, o selo e a figura.
   cima" e o "ços" de "terços". Corte o vídeo por número de quadro
   (`between(n,...)`), não por t, senão o vídeo perde ~1 s para o áudio.
   Sempre retranscreva o corte para conferir que nenhuma palavra sumiu.
+- **Palavras repetidas (pedido do Antomir: "retire as palavras repetidas
+  também"):** o Whisper esconde gaguejos e repetições ("o y, o y" vira "o y").
+  Quebre a fala em trechos entre micro-pausas (< -36 dB), compare cada trecho
+  com os dois seguintes por DTW de MFCC e retranscreva isolado os pares
+  parecidos. Corte só em vãos < -40 dB e confira que a palavra seguinte não
+  perdeu a primeira sílaba (o 1º corte da 58 deixou "coação").
 - **Repetição sem pausa entre as frases:** procure um vão de energia
   (< -40 dB por 50 ms) entre as duas falas e corte ali.
 - **Capa "objeto central" com rosto atrás:** o desenho cobria o rosto. Ficou
