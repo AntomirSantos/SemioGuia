@@ -44,9 +44,17 @@ entregue, as capas, o card, o selo e a figura.
 
 ## O que a peça 58 acrescentou (Mackenzie, y = a + b/x)
 - **Selo sobre conta já escrita:** a fórmula do enunciado estava no canto
-  superior direito do quadro. Mostrei a alternativa (x=30, y=180), mas o
-  Antomir escolheu manter o padrão x=740, y=215 ("modelo Questão do Dia").
-  Siga o padrão; só avise quando o canto estiver ocupado.
+  superior direito do quadro. O Antomir pediu o selo no canto superior
+  ESQUERDO (x=30, y=180) "para não tapar a questão". Regra: se o canto direito
+  tiver algo escrito, o selo vai para o esquerdo.
+- **Fluidez (pedido do Antomir):** o corte do PROMPT (-34 dB / 0,32 s) deixa
+  arrastado quem fala palavra por palavra escrevendo. Use o `cortes58.py`:
+  envelope em banda cheia (passa-alta 100 Hz), toda pausa >= 0,14 s abaixo de
+  -42 dB vira 0,10 s; respiros com ruído e muletas ("beleza") cortados à mão
+  em vãos < -45 dB. NÃO use -30 dB em banda 150-4000 Hz: comeu "de", "de
+  cima" e o "ços" de "terços". Corte o vídeo por número de quadro
+  (`between(n,...)`), não por t, senão o vídeo perde ~1 s para o áudio.
+  Sempre retranscreva o corte para conferir que nenhuma palavra sumiu.
 - **Repetição sem pausa entre as frases:** procure um vão de energia
   (< -40 dB por 50 ms) entre as duas falas e corte ali.
 - **Capa "objeto central" com rosto atrás:** o desenho cobria o rosto. Ficou
