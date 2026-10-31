@@ -6,7 +6,7 @@ ENTREGAS
   58-questao-15s.mp4          recorte de 0,0 s a 15,0 s, fundo desfocado,
                               áudio original mudo + trilha própria (bed.wav)
   58-resolucao-completo.mp4   103,9 s -> 89,2 s, com os cortes abaixo, selo
-                              "RESOLUÇÃO #58" no canto SUPERIOR ESQUERDO e os
+                              "RESOLUÇÃO #58" no canto superior direito e os
                               botões curte/comenta/compartilha nos 4 s finais
   capa-58-questao.jpg         capa 1080x1920, composição dividida
                               (hipérbole + "a^b = ?" à esquerda)
@@ -38,9 +38,10 @@ PEÇAS EDITÁVEIS (PNG com transparência)
                  figura ........... x 270..810   y 410..812 (hipérbole SVG)
                  bloco da questão . x 137..943   y 880..1485
                  "Marque sua resposta 👇"  y 1640..1710
-  selo58.png     300x126 — colar em x=30  y=180. NÃO no padrão x=740 y=215:
-                 ali o selo cobria a fórmula "y = a + b/x" escrita no quadro.
-                 O canto superior esquerdo fica livre o vídeo inteiro.
+  selo58.png     300x126 — colar em x=740  y=215 (posição padrão do kit).
+                 Ali o selo fica por cima da fórmula "y = a + b/x" escrita no
+                 quadro; mantida por escolha do Antomir (a fórmula também está
+                 no card da questão).
   botoes.png     1000x226 — curte/comenta/compartilha; colar em x=40 y=1250,
                  fade de 0,4 s, de 1:25,2 ao fim (ele pede engajamento:
                  "Curte, comenta, compartilha" — não fala do app)

@@ -43,9 +43,10 @@ o que foi preciso ajustar ao rodá-lo na nuvem na peça 57 (UFMG, f(1/x)).
 entregue, as capas, o card, o selo e a figura.
 
 ## O que a peça 58 acrescentou (Mackenzie, y = a + b/x)
-- **Selo fora do padrão:** a fórmula do enunciado estava escrita no canto
-  superior direito do quadro; o selo foi para x=30, y=180 (canto superior
-  esquerdo, livre o vídeo todo). Confira sempre antes de fixar.
+- **Selo sobre conta já escrita:** a fórmula do enunciado estava no canto
+  superior direito do quadro. Mostrei a alternativa (x=30, y=180), mas o
+  Antomir escolheu manter o padrão x=740, y=215 ("modelo Questão do Dia").
+  Siga o padrão; só avise quando o canto estiver ocupado.
 - **Repetição sem pausa entre as frases:** procure um vão de energia
   (< -40 dB por 50 ms) entre as duas falas e corte ali.
 - **Capa "objeto central" com rosto atrás:** o desenho cobria o rosto. Ficou
