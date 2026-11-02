@@ -1,0 +1,75 @@
+PEÇA 60 — PUC-CAMPINAS: QUADRADO INSCRITO, ÁREA MÍNIMA  ·  AssessoriaENEM
+============================================================================
+Fonte: IMG_2719.MOV — 3840x2160 (vertical), 111,3 s. Entregue em 1080x1920.
+
+ENTREGAS
+  60-questao-15s.mp4          recorte de 1,5 s a 16,5 s, fundo desfocado,
+                              áudio original mudo + trilha própria (bed.wav)
+  60-resolucao-completo.mp4   111,3 s -> 96,0 s, com os cortes abaixo, selo
+                              "RESOLUÇÃO #60" no canto superior direito e a
+                              faixa do app aedu do "acesse" até o fim
+  capa-60-questao.jpg         capa 1080x1920, dividida (quadrado inscrito +
+                              "A mín = ?" à esquerda)
+  capa-60-resolucao.jpg       capa 1080x1920, rosto grande
+
+QUALIDADE DA IMAGEM (pedido do Antomir)
+  Aplicada no master, vale para tudo (vídeos, card e capas):
+  hqdn3d=1.5:2.5:3:3 (ruído) · colorchannelmixer rr=0.98 gg=0.99 bb=1.05
+  (tira o amarelado: a parede ficou neutra) · curves leve em S (contraste sem
+  clarear o quadro) · saturação 1,10 · unsharp 5:5:0.7 (giz mais nítido).
+  Uma versão mais forte deixava o quadro acinzentado e foi descartada.
+
+JANELA DO RECORTE DE 15 S
+  1,5 - 16,5 s. Antes de 1,5 s ele ainda está chegando perto da câmera
+  (quadro tremido). A primeira conta ("8² - 4") só aparece por volta de 33 s.
+
+O QUE FOI CORTADO (15,3 s)
+  0,0 - 1,5 s      entrada (ele se aproximando da câmera)
+  pausas           toda pausa entre palavras (>= 0,14 s abaixo de -42 dB)
+                   virou 0,10 s
+  44,96 - 46,33 s  REPETIÇÃO: "vai ter 8 menos x, 8 menos x, altura" -> saiu o 1º
+  56,60 - 56,88 s  GAGUEJO: "fi- fica" -> "fica"
+  57,86 - 59,42 s  REPETIÇÃO: "64, 64, esse menos" -> saiu o 1º "64"
+  63,97 - 65,12 s  CORREÇÃO DELE: "mais x², mais 2x²" -> "mais 2x²"
+  109,7 s - fim    silêncio final
+  Ficou: "justi- justamente" (~24,8 s), sem vão para emendar sem cortar a
+  palavra. A transcrição do vídeo cortado foi conferida: nenhuma palavra
+  sumiu. A fala do professor não foi corrigida.
+
+ESPELHAMENTO
+  Este vídeo NÃO estava espelhado ("8-x" e as contas leem certo no bruto).
+
+PEÇAS EDITÁVEIS (PNG com transparência)
+  card.png       1080x1920 — sobreposição inteira da questão
+                 logo ............. topo 96 px, centralizada, 330 px
+                 figura ........... x 290..790   y 394..782 (SVG)
+                 bloco da questão . x 65..1015   y 790..1475
+                 "Marque sua resposta 👇"  y 1650..1720
+  selo60.png     300x126 — colar em x=740  y=215 (canto livre o vídeo todo;
+                 as contas ficam abaixo de y=420)
+  faixa_app.png  1020x250 — colar em x=30 y=1250, fade de 0,5 s, de 1:32,2
+                 ao fim. Ele diz "curte, comenta, compartilha e acesse o
+                 aedu, o nosso banco e a melhor plataforma..." -> pelo kit,
+                 quando fala do app entra a faixa (nunca os dois)
+  figura60.svg   desenho da capa (fora de escala, "A mín = ?")
+  aedu-logo-branca.png  logo oficial em branco, fundo transparente
+  bed.wav        trilha do recorte de 15 s
+
+RESPOSTA CORRETA: D) 32 cm²
+  Lado do quadrado externo = 8 -> área 64.
+  Cada triângulo tem catetos x e 8 - x -> área x(8 - x)/2.
+  A(x) = 64 - 4·x(8 - x)/2 = 64 - 16x + 2x²
+  Δ = (-16)² - 4·2·64 = 256 - 512 = -256
+  A mínima = y do vértice = -Δ/4a = 256/8 = 32 cm²  (em x = 4)
+  Confere com o que ele escreve no quadro.
+
+ALTERNATIVAS
+  A original tinha cinco: A) 16  B) 24  C) 28  D) 32  E) 48 (cm²).
+  Saiu a E) 48 cm²: é a mais distante e não sai de nenhum erro natural da
+  conta (nem do vértice, nem de esquecer o /2). A-D ficaram com as mesmas
+  letras e na mesma ordem; a correta continua sendo a D.
+
+ENUNCIADO DO CARD
+  Resumido em 6 linhas para caber com o desenho, mantendo o sentido:
+  "subtraindo-se da área do quadrado externo as áreas dos 4 triângulos,
+  verifica-se que a área A do interno é função de x".

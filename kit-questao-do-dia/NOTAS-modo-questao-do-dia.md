@@ -71,3 +71,20 @@ entregue, as capas, o card, o selo e a figura.
 - **Loudnorm em uma passada** ficou em -15,7 LUFS; use duas passadas
   (`linear=true`) para chegar em -14.
 - Exemplo completo em `exemplo-q58/`.
+
+## O que a peça 60 acrescentou (PUC-Campinas, quadrado inscrito)
+- **"Melhore a qualidade da imagem":** aplique no master, antes de tudo:
+  `hqdn3d=1.5:2.5:3:3, colorchannelmixer=rr=0.98:gg=0.99:bb=1.05,
+  curves=all='0/0 0.15/0.12 0.5/0.53 0.85/0.89 1/1', eq=saturation=1.1,
+  unsharp=5:5:0.7:5:5:0` (ver `exemplo-q60/qualidade-imagem.txt`). Meça a
+  parede branca para acertar o balanço; não clareie o quadro (curva que
+  levanta as sombras deixa o quadro cinza). Mostre antes/depois na prévia.
+- **Numeração:** confirme o número com o Antomir quando houver peça parada
+  no meio (a 60 veio depois de uma questão ainda sem número).
+- **Repetições:** a transcrição de trechos curtos isolados dá lixo; o que
+  funcionou foi Whisper com `word_timestamps` numa janela de 2-4 s e prompt
+  "transcrição literal com repetições", mais teste de emenda (concatenar os
+  trechos e retranscrever) para escolher qual das duas falas cortar.
+- **CTA misto** ("curte, comenta, compartilha e acesse o aedu"): faixa do app
+  a partir do "acesse".
+- Exemplo completo em `exemplo-q60/`.
