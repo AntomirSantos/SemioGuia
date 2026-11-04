@@ -100,3 +100,10 @@ colorchannelmixer=<balanço medido na parede>, curves=all='0/0 0.15/0.12
 - Capas: tire o quadro do 4K original com a mesma correção (sem o scale) e
   passe ao `quadro_rosto` (ex.: um mp4 de 1 quadro) — o rosto sai nítido.
 - Mostre um antes/depois na prévia e no zip (`qualidade-antes-depois.jpg`).
+
+## Desenho legível (peça 61)
+O Antomir achou o diagrama da capa ruim (pequeno, setas finas, nós colados).
+Regra: o desenho tem que ler na grade do perfil. Traço 3,5+ px, pontas de seta
+grandes, nós/rótulos grandes, nada encostado; use `obj=(520, 540, 700)` na
+dividida. Quando o desenho mudar, mude em TODO lugar onde ele aparece: capa e
+card do recorte de 15 s. Ver `exemplo-q61/figura61b.py`.

@@ -8,7 +8,7 @@ ENTREGAS
   61-resolucao-completo.mp4   118,0 s -> 87,7 s, com os cortes abaixo, selo
                               "RESOLUÇÃO #61" no canto superior direito e a
                               faixa do app aedu do "aedu" até o fim
-  capa-61-questao.jpg         capa 1080x1920, dividida (diagrama + "X → Z = ?")
+  capa-61-questao.jpg         capa 1080x1920, dividida (diagrama + "de X até Z: ?")
   capa-61-resolucao.jpg       capa 1080x1920, rosto grande
 
 QUALIDADE DA IMAGEM (agora padrão em toda peça)
@@ -40,14 +40,16 @@ ESPELHAMENTO
 PEÇAS EDITÁVEIS (PNG com transparência)
   card.png       1080x1920 — sobreposição inteira da questão
                  logo ............. topo 96 px, centralizada, 330 px
-                 figura ........... x 220..860   y 420..884 (SVG)
+                 figura ........... x 240..840   y 416..872 (SVG)
                  bloco da questão . x 133..947   y 930..1496
                  "Marque sua resposta 👇"  y 1640..1710
   selo61.png     300x126 — colar em x=740  y=180 (em y=215 encostava no
                  "X→Z" escrito em vermelho no quadro)
   faixa_app.png  1020x250 — colar em x=30 y=1250, fade de 0,5 s, de 1:23,8
                  ao fim (ele diz "acompanhar o aedu, o melhor aplicativo")
-  figura61.svg   desenho da capa ("X → Z = ?")
+  figura61.svg   desenho da capa ("de X até Z: ?"). Refeito a pedido: maior,
+                 traço e pontas de seta mais grossos, Y e Z mais afastados e os
+                 arcos de R e S até Z por fora. O mesmo desenho está no card.
   aedu-logo-branca.png  logo oficial em branco, fundo transparente
   bed.wav        trilha do recorte de 15 s
 
