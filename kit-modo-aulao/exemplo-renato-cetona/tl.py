@@ -10,6 +10,19 @@ for a, b in SIL:
 keep = [[max(0, a - P), min(DUR, b + P)] for a, b in fala]
 keep[0][0] = 1.07                                   # começa em "Fala galera"
 keep[-1][1] = 49.56                                 # termina em "esperando você aí"
+# ajustes pedidos (gaguejos e travadas), conferidos por retranscrição: nenhuma palavra some
+CORTES = [(29.90, 30.40),                           # "também te- tem que" -> "também tem que"
+          (32.40, 32.88),                           # "quer maximi- maximizar" -> "quer maximizar"
+          (33.74, 35.12),                           # "maximizar o seu... sua revisão" -> "maximizar sua revisão"
+          (46.32, 46.86), (47.16, 47.26)]           # demora antes de "da Assessoria"
+for ca, cb in CORTES:
+    novo = []
+    for a, b in keep:
+        if b <= ca or a >= cb: novo.append([a, b])
+        else:
+            if a < ca: novo.append([a, ca])
+            if b > cb: novo.append([cb, b])
+    keep = novo
 def mapa_base(t):
     acc = 0.0
     for a, b in keep:
@@ -23,8 +36,10 @@ TOTAL = mapa(DUR)
 X = mapa_base(PAUSA_ORIG)
 QUESTAO = (mapa(4.94), X + PAUSA)                   # print inteiro: de "Se você consegue resolver" ao fim da pausa
 CERTO = {"entra": mapa(28.54), "verde": mapa(31.36), "sai": mapa(32.22) + 0.25}   # "a hidroxila... posição 3"
-POPS = [("alcool", mapa(22.96), mapa(25.00), "álcool secundário"),
-        ("data", mapa(42.22), mapa(48.56), "09/11 · 18h")]
+POPS = [("data", mapa(42.22), mapa(48.56), "09/11 · 18h")]
+# motion graphic da oxidação (o "álcool secundário" virou etapa dele, sem destaque solto em cima)
+MG = {"entra": mapa(19.70), "alcool": mapa(22.96), "cetona": mapa(25.98), "hidroxila": mapa(28.54),
+      "verde": mapa(31.36), "sai": mapa(32.10) + 0.3}
 SEM_LEG = [(4.94, 7.46), (28.38, 32.10)]            # tempo original: questão e card da C
 
 seg = json.load(open("vid16.json"))
@@ -67,11 +82,13 @@ for i, ch in enumerate(chunks):
     for j, w in enumerate(ch):
         pal = re.sub(r"[.,?!]$", "", w["w"]).upper()
         partes.append(f"{{\\c&H5EC2FB&\\fs{fs(pal, 118)}}}{pal}" if j == k else f"{{\\c&HFFFFFF&\\fs{fs(pal, 104)}}}{pal}")
-    ASS.append(f"Dialogue: 0,{ts(a)},{ts(b)},Leg,,0,0,0,,{{\\pos(540,1230)\\fscx86\\fscy86\\t(0,100,\\fscx100\\fscy100)}}{' '.join(partes)}")
+    y = 1340 if MG["entra"] - 0.3 <= a < MG["sai"] + 0.3 else 1230   # abaixo do painel do motion graphic
+    ASS.append(f"Dialogue: 0,{ts(a)},{ts(b)},Leg,,0,0,0,,{{\\pos(540,{y})\\fscx86\\fscy86\\t(0,100,\\fscx100\\fscy100)}}{' '.join(partes)}")
     leg.append([round(a, 2), round(b, 2), " ".join(w["w"] for w in ch)])
 if __name__ == "__main__":
     open("leg.ass", "w").write("\n".join(ASS) + "\n")
     ev = dict(total=round(TOTAL, 3), keep=keep, pausa=[round(X, 3), PAUSA], questao=[round(x, 3) for x in QUESTAO],
-              certo={k: round(v, 3) for k, v in CERTO.items()}, pops=[[n, round(a, 3), round(b, 3), t] for n, a, b, t in POPS])
+              certo={k: round(v, 3) for k, v in CERTO.items()}, pops=[[n, round(a, 3), round(b, 3), t] for n, a, b, t in POPS],
+              mg={k: round(v, 3) for k, v in MG.items()})
     json.dump(ev, open("ev.json", "w"), indent=1)
     print("total", round(TOTAL, 2), "legendas", len(leg)); [print(l) for l in leg]

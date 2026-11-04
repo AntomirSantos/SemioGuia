@@ -3,18 +3,23 @@ Voz "microfone de estúdio" (voz_estudio.wav); efeitos por cima; no fim só limi
 import json, subprocess, sys
 S = "/tmp/claude-0/-home-user-SemioGuia/d84dfcba-ed7d-592e-99d9-2412b7bcf44f/scratchpad"
 ev = json.load(open("ev.json")); T = ev["total"]; X, PZ = ev["pausa"]; QA, QB = ev["questao"]
-WH = json.load(open("whoosh.json")); C = ev["certo"]
+WH = json.load(open("whoosh.json")); C = ev["certo"]; MG = ev["mg"]
 sel = "+".join(f"between(t,{a:.3f},{b:.3f})" for a, b in ev["keep"])
-GRADE = "hqdn3d=1.5:2.5:3:3,curves=all='0/0 0.15/0.12 0.5/0.53 0.85/0.89 1/1',eq=saturation=1.05,unsharp=5:5:0.6:5:5:0"
+# o vídeo veio em HDR (HLG/BT.2020): converte para SDR BT.709 antes de tudo (sem isso a cor estoura no celular,
+# até a logo e o CTA, porque o arquivo saía marcado como HDR); depois só ruído e nitidez, sem saturar
+TONEMAP = ("zscale=tin=arib-std-b67:min=bt2020nc:pin=bt2020:rin=tv:t=linear:npl=203,format=gbrpf32le,zscale=p=bt709,"
+           "tonemap=mobius:param=0.3:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p")
+GRADE = "hqdn3d=1.5:2.5:3:3,unsharp=5:5:0.6:5:5:0"
 ins = ["-i", "dl/vid.mov", "-i", "voz_estudio.wav", "-i", "graf/graf.mov", "-i", f"{S}/kit/marca/logo_aeenem.png", "-i", "dl/cta.mp4",
        "-i", f"{S}/p2/whoosh.wav", "-i", f"{S}/p2/tique.wav", "-i", f"{S}/p2/acerto.wav"]
-K = f"(clip((T-{QA})/0.3,0,1)*clip(({QB}-T)/0.3,0,1))"
+K = (f"(clip((T-{QA})/0.3,0,1)*clip(({QB}-T)/0.3,0,1)"
+     f"+clip((T-{MG['entra']})/0.3,0,1)*clip(({MG['sai']}-T)/0.3,0,1))")   # questão e motion graphic
 f = [f"[3:v]scale=210:-1:flags=lanczos[lg]",
-     f"[0:v]fps=30,scale=1080:1920:flags=lanczos,setsar=1,{GRADE},select='{sel}',setpts=N/30/TB,split=2[p1][p2]",
+     f"[0:v]{TONEMAP},fps=30,scale=1080:1920:flags=lanczos,setsar=1,{GRADE},select='{sel}',setpts=N/30/TB,split=2[p1][p2]",
      f"[p1]trim=0:{X},setpts=PTS-STARTPTS,tpad=stop_mode=clone:stop_duration={PZ}[q1]",
      f"[p2]trim=start={X},setpts=PTS-STARTPTS[q2]",
-     f"[q1][q2]concat=n=2:v=1:a=0,subtitles=leg.ass:fontsdir=ttf[v0]",
-     f"[v0]split=2[vs1][vs2];[vs2]gblur=sigma=22,eq=brightness=-0.06[vsb];[vs1][vsb]blend=all_expr='A*(1-{K})+B*{K}'[v0b]",
+     f"[q1][q2]concat=n=2:v=1:a=0[v0]",
+     f"[v0]split=2[vs1][vs2];[vs2]gblur=sigma=22,eq=brightness=-0.06[vsb];[vs1][vsb]blend=all_expr='A*(1-{K})+B*{K}',subtitles=leg.ass:fontsdir=ttf[v0b]",
      f"[2:v]setpts=PTS-STARTPTS[gf]",
      f"[v0b][gf]overlay=0:0:eof_action=pass[v2]",
      f"[v2][lg]overlay=435:130,trim=0:{T},setpts=PTS-STARTPTS,format=yuv420p[vm]",
@@ -38,5 +43,6 @@ f.append("[af0]aresample=192000,alimiter=limit=0.7:attack=5:release=50:level=fal
 dur = T + 3.0; mr = int(29 * 8 * 1024 / dur - 200)
 cmd = ["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(f), "-map", "[vf]", "-map", "[af]",
        "-c:v", "libx264", "-preset", "slow", "-profile:v", "high", "-b:v", f"{mr}k", "-maxrate", f"{mr}k", "-bufsize", f"{2*mr}k",
+       "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709", "-color_range", "tv",
        "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", sys.argv[1]]
 subprocess.run(cmd, check=True); print("ok", sys.argv[1], round(dur, 2), "s", mr, "kbps")
