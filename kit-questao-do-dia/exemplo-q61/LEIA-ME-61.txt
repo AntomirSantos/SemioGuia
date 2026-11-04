@@ -1,0 +1,64 @@
+PEÇA 61 — UFMG: LIGAÇÕES DISTINTAS ENTRE X E Z (DIAGRAMA)  ·  AssessoriaENEM
+============================================================================
+Fonte: IMG_2878.mov — 3840x2160 (vertical), 118,0 s. Entregue em 1080x1920.
+
+ENTREGAS
+  61-questao-15s.mp4          recorte de 1,5 s a 16,5 s, fundo desfocado,
+                              áudio original mudo + trilha própria (bed.wav)
+  61-resolucao-completo.mp4   118,0 s -> 87,7 s, com os cortes abaixo, selo
+                              "RESOLUÇÃO #61" no canto superior direito e a
+                              faixa do app aedu do "aedu" até o fim
+  capa-61-questao.jpg         capa 1080x1920, dividida (diagrama + "X → Z = ?")
+  capa-61-resolucao.jpg       capa 1080x1920, rosto grande
+
+QUALIDADE DA IMAGEM (agora padrão em toda peça)
+  No master, antes de tudo: hqdn3d=1.5:2.5:3:3 · colorchannelmixer
+  rr=1.01 gg=0.985 bb=1.02 (a parede vinha levemente esverdeada) · curves leve
+  em S · saturação 1,10 · unsharp 5:5:0.7. As capas saem do 4K original com a
+  mesma correção (rosto mais nítido).
+
+JANELA DO RECORTE DE 15 S
+  1,5 - 16,5 s. Até 1,25 s o quadro está vazio e ele está entrando; a
+  primeira escrita ("X") começa em ~15,5 s e some no desfoque sob o card.
+  Não havia 15 s inteiros antes da primeira escrita.
+
+O QUE FOI CORTADO (30,3 s)
+  0,0 - 2,7 s      silêncio de entrada
+  pausas           toda pausa entre palavras (>= 0,14 s abaixo de -42 dB)
+                   virou 0,10 s
+  57,56 - 58,76 s  REPETIÇÃO: "do X pro R, do X pro R é 3" -> sai o 1º
+  73,30 - 73,74 s  REPETIÇÃO: "2, 18, 18 possibilidades" -> "2, 18 possibilidades"
+  75,40 - 77,62 s  REPETIÇÃO: "do X pro Y. Do X pro Y é 1" -> sai o 1º
+  92,78 - 93,22 s  REPETIÇÃO: "6 vezes 2, 12, 12 aqui" -> "12 aqui"
+  116,45 s - fim   silêncio final
+  Ficou: "do Y pro S pro Z" (deslize de fala; a fala não é corrigida).
+  A transcrição do vídeo cortado foi conferida: nenhuma palavra sumiu.
+
+ESPELHAMENTO
+  Este vídeo NÃO estava espelhado ("X-R-Z" lê certo no bruto).
+
+PEÇAS EDITÁVEIS (PNG com transparência)
+  card.png       1080x1920 — sobreposição inteira da questão
+                 logo ............. topo 96 px, centralizada, 330 px
+                 figura ........... x 220..860   y 420..884 (SVG)
+                 bloco da questão . x 133..947   y 930..1496
+                 "Marque sua resposta 👇"  y 1640..1710
+  selo61.png     300x126 — colar em x=740  y=180 (em y=215 encostava no
+                 "X→Z" escrito em vermelho no quadro)
+  faixa_app.png  1020x250 — colar em x=30 y=1250, fade de 0,5 s, de 1:23,8
+                 ao fim (ele diz "acompanhar o aedu, o melhor aplicativo")
+  figura61.svg   desenho da capa ("X → Z = ?")
+  aedu-logo-branca.png  logo oficial em branco, fundo transparente
+  bed.wav        trilha do recorte de 15 s
+
+RESPOSTA CORRETA: A) 41
+  Caminhos de X até Z (multiplica as setas de cada trecho):
+    X-R-Z     3 x 1     =  3
+    X-R-Y-Z   3 x 3 x 2 = 18
+    X-Y-Z     1 x 2     =  2
+    X-S-Y-Z   3 x 2 x 2 = 12
+    X-S-Z     3 x 2     =  6
+  Total: 3 + 18 + 2 + 12 + 6 = 41. Confere com o quadro.
+
+ALTERNATIVAS
+  A questão já tinha 4 (A 41, B 45, C 35, D 39): nada saiu.

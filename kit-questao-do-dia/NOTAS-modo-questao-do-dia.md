@@ -88,3 +88,15 @@ entregue, as capas, o card, o selo e a figura.
 - **CTA misto** ("curte, comenta, compartilha e acesse o aedu"): faixa do app
   a partir do "acesse".
 - Exemplo completo em `exemplo-q60/`.
+
+## PADRÃO desde a peça 61: melhorar a imagem sempre
+O Antomir pediu: "coloque como padrão melhorar a imagem". Em TODA peça, sem
+precisar pedir, o master sai com a correção (ver `exemplo-q61/qualidade.txt`):
+`scale=1080:1920:flags=lanczos, hqdn3d=1.5:2.5:3:3,
+colorchannelmixer=<balanço medido na parede>, curves=all='0/0 0.15/0.12
+0.5/0.53 0.85/0.89 1/1', eq=saturation=1.1, unsharp=5:5:0.7:5:5:0`
+(+ `hflip` antes, se vier espelhado).
+- Meça a parede branca (RGB médio) e acerte rr/gg/bb para neutralizar.
+- Capas: tire o quadro do 4K original com a mesma correção (sem o scale) e
+  passe ao `quadro_rosto` (ex.: um mp4 de 1 quadro) — o rosto sai nítido.
+- Mostre um antes/depois na prévia e no zip (`qualidade-antes-depois.jpg`).
