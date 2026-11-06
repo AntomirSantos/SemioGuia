@@ -1,0 +1,66 @@
+PEÇA 64 — UFMG: f(x) = (x + 1)(x³ + ax + b), VALOR DE f(4)  ·  AssessoriaENEM
+============================================================================
+Fonte: IMG_3003.MOV — 3840x2160 (vertical, SDR), 139,8 s. Entregue em 1080x1920.
+
+ENTREGAS
+  64-questao-15s.mp4          recorte de 2,4 s a 17,4 s, fundo desfocado,
+                              áudio original mudo + trilha própria (bed.wav)
+  64-resolucao-completo.mp4   139,8 s -> 108,4 s, com os cortes abaixo, selo
+                              "RESOLUÇÃO #64" e a faixa do app aedu do "aedu"
+                              até o fim
+  capa-64-questao.jpg         capa 1080x1920, dividida (eixos + "f(4) = ?")
+  capa-64-resolucao.jpg       capa 1080x1920, rosto grande
+
+QUALIDADE DA IMAGEM (padrão)
+  hqdn3d=1.5:2.5:3:3 · colorchannelmixer rr=0.966 gg=0.995 bb=1.042 (parede
+  amarelada -> neutra) · curves leve em S · saturação 1,10 · unsharp 5:5:0.7.
+  Capas tiradas do 4K original com a mesma correção. Ver qualidade-antes-depois.jpg.
+
+JANELA DO RECORTE DE 15 S
+  2,4 - 17,4 s. Ele já está no quadro, de frente; a primeira conta
+  ("f(0) = 5") começa por volta de 20 s. O gráfico e a lei da função já
+  estavam escritos (são o enunciado).
+
+O QUE FOI CORTADO (31,4 s)
+  0,0 - 2,38 s     entrada antes do "Atenção"
+  pausas           toda pausa entre palavras (>= 0,14 s abaixo de -42 dB)
+                   virou 0,10 s
+  16,90 - 22,45 s  COMEÇO FALSO: "O A que tem a abscissa e ordenada zero vai
+                   dar pra gente que o F... vou começar com aquele B na verdade"
+                   -> fica "...esses pontos que nos foram dados. O f de zero é
+                   igual a 5"
+  27,08 - 29,10 s  REPETIÇÃO: "portanto zero, zero mais um" -> "portanto zero
+                   mais um"
+  Ficaram as repetições de conta ("6, 6 mais a"; "40, 40 mais 5"): ele dita o
+  resultado e já usa na conta seguinte. A gravação termina logo depois de
+  "...o nosso [banco] de questões". Transcrição do corte conferida: nenhuma
+  palavra sumiu. A fala do professor não foi corrigida.
+
+ESPELHAMENTO
+  Este vídeo NÃO estava espelhado.
+
+PEÇAS EDITÁVEIS (PNG com transparência)
+  card.png       1080x1920 — sobreposição inteira da questão
+                 logo ............. topo 96 px, centralizada, 330 px
+                 figura ........... x 290..790   y 400..745 (SVG)
+                 bloco da questão . x 107..973   y 800..1425
+                 "Marque sua resposta 👇"  y 1650..1720
+  selo64.png     300x126 — colar em x=740 y=450. No padrão (x=740 y=215) ele
+                 cobria o "ax+b)" da fórmula escrita no quadro, e acima dela
+                 não cabe; abaixo do "f(4)" o espaço fica livre o vídeo todo.
+  faixa_app.png  1020x250 — colar em x=30 y=1250 (sobre a parede, não cobre
+                 conta), fade de 0,5 s, de 1:46,7 ao fim ("nos segue para
+                 acessar o aedu")
+  figura64.svg   desenho da capa (eixos, B ordenada 5, A abscissa 1, "f(4) = ?")
+  aedu-logo-branca.png  logo oficial em branco, fundo transparente
+  bed.wav        trilha do recorte de 15 s
+
+RESPOSTA CORRETA: D) 225
+  B está no eixo vertical com ordenada 5 -> f(0) = 5:
+     (0 + 1)(0 + 0 + b) = 5 -> b = 5
+  A está no eixo x com abscissa 1 -> f(1) = 0:
+     (1 + 1)(1 + a + 5) = 0 -> 2(6 + a) = 0 -> a = -6
+  f(4) = (4 + 1)(64 - 24 + 5) = 5 · 45 = 225. Confere com o quadro.
+
+ALTERNATIVAS
+  A questão já tinha 4 (A 65, B 115, C 170, D 225): nada saiu.
